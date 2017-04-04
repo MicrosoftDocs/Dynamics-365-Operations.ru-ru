@@ -41,14 +41,14 @@ ms.lasthandoff: 03/31/2017
 
 [![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-1.  На **проводки** страницы:
+2.  На **проводки** страницы:
 
 -   Ядро рекомендаций рекомендует номенклатуры на основе весь список номенклатур в корзине.
 -   Если связать хранилище клиента будут добавлены в проводку, ядро рекомендаций рекомендации личные с помощью истории проводок клиента и список номенклатур в корзине.
 
 **Примечание** для отображения рекомендации на **проводки** необходимых розничной торговли веб-странице, для обновления в выходную форму экрана в Dynamics 365 для операций. **Рекомендации** в систему, необходимо удалить элемент управления **проводки** страницы. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  На **сведения о клиенте** страницы:
+3.  На **сведения о клиенте** страницы:
     -   Ядро рекомендаций рекомендует номенклатуры на основе идентификатора пользователя и номенклатур в список планируемых покупок клиента.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
