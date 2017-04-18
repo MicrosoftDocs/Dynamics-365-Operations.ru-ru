@@ -1,0 +1,43 @@
+# Пакет содержимого питания бизнес-Аналитики
+## [Стоимость содержимого пакета управления](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# Предопределенных затрат
+## [Costing sheet](costing-sheets.md)
+## [Costing version](costing-versions.md)
+## [Моделирование изменения затрат с использованием версии цены для запланированных затрат](simulate-cost-changes-costing-version-planned-costs.md)
+# Оценка стоимости запасов
+## [Корректировка себестоимости запасов в наличии](adjust-hand-inventory-cost-values.md)
+## [Cost object](cost-object.md)
+## [Cost entry](cost-entries.md)
+## [Cost group](cost-groups.md)
+## [Модель ФИФО с физической стоимостью и маркировкой](fifo-physical-value-marking.md)
+## [Include physical value](include-physical-value.md)
+## [Объект стоимости запасов](physical-quantity.md)
+## [Inventory close](inventory-close.md)
+## [Дата LIFO с физической стоимостью и маркировкой](lifo-date-physical-value-marking.md)
+## [LIFO with physical value and marking](lifo-physical-value-marking.md)
+## [Moving average](moving-average.md)
+## [Физические и финансовые обновления](physical-financial-updates.md)
+## [Running average cost price](running-average-cost-price.md)
+## [Tracking running average cost per inventory dimension](track-running-average-cost-per-inventory-dimension.md)
+## [Weighted average date](weighted-average-date.md)
+## [Взвешенное среднее с физической стоимостью и маркировкой](weighted-average-physical-value-marking.md)
+# Калькуляция издержек производства
+## [Группа расчета Спецификации](bom-calculation-groups.md)
+## [Общие источники расхождения производства](common-sources-of-production-variances.md)
+## [Категория затрат, используемая в маршруте производства](cost-categories-used-production-routings.md)
+## [Категория затрат, используемая в управлении производством и управление учета по проекту](cost-categories-used-production-control-project-management-accounting.md)
+## [Production order cost analysis](production-order-cost-analysis.md)
+## [Production order cost estimation](production-order-cost-estimation.md)
+## [Production posting](production-posting.md)
+## [Настройка продукции, которое может быть произведено или получены](manufactured-items-treated-as-purchased-items.md)
+## [Total cost allocation method](methodology-total-cost-allocation.md)
+# Стандартные затраты
+## [Расчеты Спецификации со стандартной себестоимости](information-used-bom-calculations-standard-costs.md)
+## [Управление обновление стандартных затрат](manage-standard-cost-updates.md)
+## [Условием для преобразования стандартных затрат](prerequisites-standard-cost-conversion.md)
+## [Standard cost conversion overview](standard-cost-conversion-overview.md)
+## [Обновление стандартных затрат в производственной среде](update-standard-costs-manufacturing-environment.md)
+## [Обновление стандартной себестоимости для новой произведенной номенклатуры](update-standard-costs-new-manufactured-item.md)
+## [Обновление стандартных затрат в не в производственной среде](update-standard-costs-non-manufacturing-environment.md)
+
+
