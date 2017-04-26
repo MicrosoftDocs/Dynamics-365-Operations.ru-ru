@@ -55,3 +55,5 @@ ms.lasthandoff: 04/12/2017
 ## <a name="elearning-courses"></a>курсы электронного обучения
 Сведения о Microsoft Dynamics 365 для операций обучению см. <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">образовательный портал Microsoft Dynamics</a>. (требуется CustomerSource учетная запись) 
 
+
+

@@ -98,3 +98,5 @@ Microsoft Dynamics AX может помочь вам создать безопа
 -   [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md)
 
 
+
+

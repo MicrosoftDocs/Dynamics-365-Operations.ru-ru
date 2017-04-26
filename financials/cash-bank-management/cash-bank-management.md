@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>Домашняя страница управления банком и кассовыми операциями
 
+[!include[banner](../includes/banner.md)]
+
+
 Можно использовать управление банком и кассовыми операциями для настройки банковских счетов и финансовых инструментов юридического лица, связанных с этими банковскими счетами. 
 
 Эти инструменты включают бланки депозитов, чеки, переводные и простые векселя. Также можно сверять банковские выписки и распечатывать банковские данные в стандартных отчетах.
@@ -69,4 +72,6 @@ ms.lasthandoff: 04/12/2017
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [Сценарий: Использование одного платежа клиента для сопоставления нескольких накладных, охватывающих несколько периодов скидок](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 
