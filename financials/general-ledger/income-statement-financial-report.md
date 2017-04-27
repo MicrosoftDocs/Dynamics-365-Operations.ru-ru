@@ -1,6 +1,6 @@
 ---
 title: "Финансовый отчет по отчету о прибылях"
-description: "В этой статье описывается отчет по умолчанию для отчетов о доходах. Здесь также описываются шаблоны, связанные с этот отчет."
+description: "В этой статье описывается отчет по умолчанию для отчетов о прибыли. Здесь также описываются строительные блоки, связанные с этим отчетом."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="income-statement-financial-report"></a>Финансовый отчет по отчету о прибылях
 
-В этой статье описывается отчет по умолчанию для отчетов о доходах. Здесь также описываются шаблоны, связанные с этот отчет. 
+[!include[banner](../includes/banner.md)]
+
+
+В этой статье описывается отчет по умолчанию для отчетов о прибыли. Здесь также описываются строительные блоки, связанные с этим отчетом. 
 
 <a name="default-income-statement-report"></a>Отчет о прибылях по умолчанию
 -------------------------------
@@ -61,10 +64,12 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>См. также
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Финансовая отчетность](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Просмотр финансовых отчетов](view-financial-reports.md)
 
-[Dynamics финансовой отчетности блог](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Блог финансовой отчетности Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

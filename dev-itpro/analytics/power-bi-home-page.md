@@ -1,6 +1,6 @@
 ---
-title: "Домашняя страница питания бизнес-Аналитики"
-description: "В этом разделе перечислены ресурсы, помогающие использовать функциональные возможности бизнес-Аналитики с Dynamics 365 для операций."
+title: "Домашняя страница Power BI"
+description: "В этом разделе перечислены ресурсы, помогающие использовать Power BI с Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,51 +24,56 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="power-bi-home-page"></a>Домашняя страница питания бизнес-Аналитики
+# <a name="power-bi-home-page"></a>Домашняя страница Power BI
 
-В этом разделе перечислены ресурсы, помогающие использовать функциональные возможности бизнес-Аналитики с Dynamics 365 для операций.
+[!include[banner](../includes/banner.md)]
 
-<a name="power-bi-content-for-dynamics-365-for-operations"></a>Содержимое бизнес-Аналитики питания для Dynamics 365 для операций
+
+В этом разделе перечислены ресурсы, помогающие использовать Power BI с Dynamics 365 for Operations.
+
+<a name="power-bi-content-for-dynamics-365-for-operations"></a>Содержимое Power BI для Dynamics 365 for Operations
 ------------------------------------------------
 
-| **Feature area**                  | **Содержимое питания бизнес-Аналитики**                          | **Где найти Power BI содержимого**                                                                                                                                                                                         | **Подробнее**                                                                                                                                                               |
+| **Область компонентов**                  | **Содержимое Power BI**                          | **Где найти содержимое Power BI**                                                                                                                                                                                         | **Дополнительные сведения**                                                                                                                                                               |
 |-----------------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Управление финансами              | Результаты финансовой деятельности                         | Dynamics жизненный цикл Microsoft Services (LCS) (эта версия содержимого пакета поддерживает Dynamics 365 для операций версии 1611). PowerBI.com (эта версия содержимого пакета поддерживает Microsoft Dynamics 365 для операций 7.0 и 7.0.1). | [Финансовые содержимое производительности Power BI](financial-performance-power-bi-content-pack.md)                                               |
-|                                   | Управление сборов и кредитов             | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| Управление человеческим капиталом          | Отчеты по набору сотрудников                            | LCS                                                                                                                                                                                                                            | [Recruiting Power BI content](recruiting-analysis-power-bi-content-pack.md)                                                       |
-|                                   | Компетенции сотрудника и разработки отчетов | LCS                                                                                                                                                                                                                            | [Компетенции сотрудника и Power BI разработки содержимого](employee-competencies-and-development-analysis-power-bi-content-pack.md) |
-|                                   | Отчеты организационного обучения               | LCS                                                                                                                                                                                                                            | [Организации содержимого обучения Power BI](organizational-training-analysis-power-bi-content-pack.md)                             |
-|                                   | Показатели трудовых ресурсов                             | LCS                                                                                                                                                                                                                            | [Содержимое метрики Power BI трудовых ресурсов](workforce-analysis-power-bi-content-pack.md)                                                 |
-|                                   | Компенсации и льгот отчеты             | LCS                                                                                                                                                                                                                            | [Содержимое компенсации и льгот Power BI](compensation-and-benefits-analysis-power-bi-content-pack.md)                         |
-| Управление и учет по проектам | Руководитель практики                              | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| Розничная торговля и коммерция               | Пропускной способности канала розничной торговли                    | PowerBI.com                                                                                                                                                                                                                    | [Содержимое Power BI производительности канала розничной торговли](retail-channel-performance-dashboard-power-bi-data.md)                 |
-| Управление цепочкой поставок           | Управление затратами                               | PowerBI.com                                                                                                                                                                                                                    |  [Стоимость управления контентом Power BI](cost-management-content-pack.md)                                                          |
-|                                   | Продажи и прибыльность производительности           | LCS                                                                                                                                                                                                                            | [Sales and profitability performance Power BI content](sales-profitability-performance-content-pack.md)          |
-|                                   | Анализ расходов на покупку                       | LCS                                                                                                                                                                                                                            | [Purchase spend analysis Power BI content](purchase-content-pack-for-power-bi.md)                                                 |
-|                                   | Аналитики учета затрат                      | LCS                                                                                                                                                                                                                            | [Аналитики учета затрат содержимое питания бизнес-Аналитики](cost-accounting-analysis-content-pack.md)                                         |
-|                                   | Склад производительности                         | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+| Управление финансами              | Финансовые показатели                         | Microsoft Dynamics Lifecycle Services (LCS) (Эта версия пакета содержимого поддерживает Dynamics 365 for Operations версии 1611.) PowerBI.com (Эта версия пакета содержимого поддерживает Dynamics 365 for Operations 7.0 и 7.0.1.) | [Содержимое "Финансовые показатели" для Power BI](financial-performance-power-bi-content-pack.md)                                               |
+|                                   | Управление кредитом и сбором задолженностей             | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+| Управление человеческим капиталом          | Отчеты по набору сотрудников                            | LCS                                                                                                                                                                                                                            | [Содержимое Power BI по набору сотрудников](recruiting-analysis-power-bi-content-pack.md)                                                       |
+|                                   | Отчеты о компетенции и развитии сотрудников | LCS                                                                                                                                                                                                                            | [Содержимое Power BI "Компетенции и развитие сотрудников"](employee-competencies-and-development-analysis-power-bi-content-pack.md) |
+|                                   | Отчеты об организационном обучении               | LCS                                                                                                                                                                                                                            | [Содержимое Power BI "Организационное обучение"](organizational-training-analysis-power-bi-content-pack.md)                             |
+|                                   | Показатели трудовых ресурсов                             | LCS                                                                                                                                                                                                                            | [Содержимое Power BI "Показатели трудовых ресурсов"](workforce-analysis-power-bi-content-pack.md)                                                 |
+|                                   | Отчеты о компенсациях и льготах             | LCS                                                                                                                                                                                                                            | [Содержимое Power BI "Компенсации и льготы"](compensation-and-benefits-analysis-power-bi-content-pack.md)                         |
+| Управление и учет по проектам | Менеджер по методикам                              | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+| Розничная торговля и коммерция               | Производительность канала розничной торговли                    | PowerBI.com                                                                                                                                                                                                                    | [Содержимое "Эффективность канала розничной торговли" для Power BI](retail-channel-performance-dashboard-power-bi-data.md)                 |
+| Управление цепочкой поставок           | Управление затратами                               | PowerBI.com                                                                                                                                                                                                                    |  [Содержимое Power BI "Управление затратами"](cost-management-content-pack.md)                                                          |
+|                                   | Показатели продаж и прибыльности           | LCS                                                                                                                                                                                                                            | [Содержимое "Показатели продаж и прибыльности" для Power BI](sales-profitability-performance-content-pack.md)          |
+|                                   | Анализ расходов на закупку                       | LCS                                                                                                                                                                                                                            | [Содержимое Power BI "Анализ расходов на закупку"](purchase-content-pack-for-power-bi.md)                                                 |
+|                                   | Анализ учета затрат                      | LCS                                                                                                                                                                                                                            | [Содержимое Power BI для анализа учета затрат](cost-accounting-analysis-content-pack.md)                                         |
+|                                   | Производительность склада                         | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
 |                                   | Производительность производства                        | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
 
-## <a name="access-power-bi-content-from-lcs"></a>Доступ к Power BI содержимого из LCS
-Сведения о том, как загрузить содержимое питания бизнес-Аналитики и подключить его к вашей организации данных см. в разделе [содержимое Power BI в LCS корпорации Майкрософт и ее партнеры](power-bi-content-microsoft-partners.md).
+## <a name="access-power-bi-content-from-lcs"></a>Доступ к содержимому Power BI из LCS
+Дополнительные сведения о том, как загрузить содержимое Power BI и подключить его к данным вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](power-bi-content-microsoft-partners.md).
 
-## <a name="access-power-bi-content-from-powerbicom"></a>Доступ к Power BI содержимого из PowerBI.com
-1.  Выполните вход [PowerBI.com](https://www.powerbi.com/).
-2.  Щелкните **данные**.
-3.  В **службы**, нажмите кнопку **получить**.
-4.  Выбор содержимого пакета и нажмите кнопку **получить**.
-5.  Введите URL-адрес данных Dynamics 365 для операций среды. URL-адрес должен быть в формате **https://&lt;YourAOSTenant&gt;. cloudax.dynamics.com**. Click **Next**.
-6.  Выберите **oAuth2** как метод проверки подлинности, а затем щелкните **вход**.
-7.  Когда появится запрос, введите учетную запись Microsoft Office 365, разрешения на доступ к данных Dynamics 365 для операций среды.
-8.  После входа процесс импорта начинается автоматически. По завершении импорта отчетов, включенных в пакет содержимого отображаются в области переходов. Выберите отчет для просмотра импортированных данных.
+## <a name="access-power-bi-content-from-powerbicom"></a>Доступ к содержимому Power BI из PowerBI.com
+1.  Выполните вход в [PowerBI.com](https://www.powerbi.com/).
+2.  Щелкните **Получить данные**.
+3.  В поле **Услуги** щелкните **Получить**.
+4.  Выберите требуемый пакет содержимого, затем щелкните **Получить**.
+5.  Введите URL-адрес среды Dynamics 365 for Operations. URL-адрес должен быть в формате **https://&lt;YourAOSTenant&gt;.cloudax.dynamics.com**. Щелкните **Далее**.
+6.  Выберите **oAuth2** как метод проверки подлинности, затем щелкните **Войти**.
+7.  Когда появится запрос, введите учетную запись Microsoft Office 365, у которой имеется разрешение на доступ к среде Dynamics 365 for Operations.
+8.  После входа процесс импорта начинается автоматически. По завершении импорта отчеты, включенные в пакет содержимого, отображаются в области переходов. Выберите отчет для просмотра импортированных данных.
 
-## <a name="learn-more-about-the-power-bi-integration"></a>Дополнительные сведения об интеграции питания бизнес-Аналитики
--   [Power BI integration](power-bi-integration.md)
--   [Обзор интеграции Power BI с магазином объекта](power-bi-integration-entity-store.md)
--   [Разработка и распространении отчетов Power BI с магазином объекта](author-distribute-power-bi-reports.md)
--   [ПИН-код Power BI является подотчетной рабочих областей](pin-power-bi-reports.md)
--   [Опытные содержимое бизнес-Аналитики в LCS корпорации Майкрософт и ее партнеры](power-bi-content-microsoft-partners.md)
+## <a name="learn-more-about-the-power-bi-integration"></a>Дополнительные сведения об интеграции Power BI
+-   [Интеграция Power BI](power-bi-integration.md)
+-   [Обзор интеграции Power BI с хранилищем объектов](power-bi-integration-entity-store.md)
+-   [Разработка и распространении отчетов Power BI с хранилищем объектов](author-distribute-power-bi-reports.md)
+-   [Закрепление отчетов Power BI в рабочих областях](pin-power-bi-reports.md)
+-   [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](power-bi-content-microsoft-partners.md)
 -   [Использование конфигурации электронной отчетности для передачи данных из Dynamics 365 for Operations в Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+
 
 
 

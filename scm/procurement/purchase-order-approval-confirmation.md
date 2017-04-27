@@ -1,5 +1,5 @@
 ---
-title: "Утвердить и подтверждения заказов на покупку"
+title: "Утверждение и подтверждение заказов на покупку"
 description: "В этой статье описываются статусы, через которые проходит заказ на покупку после его создания, и влияние включения управления изменениями в заказе на покупку."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="approve-and-confirm-purchase-orders"></a>Утвердить и подтверждения заказов на покупку
+# <a name="approve-and-confirm-purchase-orders"></a>Утверждение и подтверждение заказов на покупку
+
+[!include[banner](../includes/banner.md)]
+
 
 В этой статье описываются статусы, через которые проходит заказ на покупку после его создания, и влияние включения управления изменениями в заказе на покупку.
 
@@ -73,12 +76,14 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>См. также
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Обзор заказа на покупку](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Создание заказа на покупку](purchase-order-creation.md)
 
 [Поступление продуктов по заказу на покупку](product-receipt-against-purchase-orders.md)
 
 [Обзор накладных поставщика](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

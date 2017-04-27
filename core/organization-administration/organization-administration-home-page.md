@@ -1,6 +1,6 @@
 ---
 title: "Домашняя страница управления организацией"
-description: "Эта раздел указывает на ресурсы, которые помогут использовать Microsoft Dynamics 365 для операций в организации."
+description: "Этот раздел указывает на ресурсы, которые помогут использовать Microsoft Dynamics 365 for Operations в организации."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,56 +26,61 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="organization-administration-home-page"></a>Домашняя страница управления организацией
 
-Эта раздел указывает на ресурсы, которые помогут использовать Microsoft Dynamics 365 для операций в организации.
+[!include[banner](../includes/banner.md)]
+
+
+Этот раздел указывает на ресурсы, которые помогут использовать Microsoft Dynamics 365 for Operations в организации.
 
 <a name="number-sequences"></a>Номерные серии
 ----------------
 
--   [Number sequence overview](number-sequence-overview.md)
--   [Настройка номерных серий с использованием мастера](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (руководство по задачам)
--   [Настройка номерных серий в отдельных случаях](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (руководство по задачам)
+-   [Обзор номерной серии](number-sequence-overview.md)
+-   [Настройка номерных серий с использованием мастера](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (Руководство по задаче)
+-   [Настройка номерных серий на индивидуальной основе](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (Руководство по задаче)
 
 ## <a name="address-books"></a>Адресные книги
--   [Address books](qa-address-books.md)
--   [Обзор: Глобальной адресной книги](overview-global-address-book.md)
+-   [Адресные книги](qa-address-books.md)
+-   [Обзор: глобальная адресная книга](overview-global-address-book.md)
 -   [Планирование конфигурации глобальной адресной книги и дополнительной адресной книги](plan-configuration-global-address-book-additional-address-books.md)
 
 ## <a name="workflow"></a>Бизнес-правило
--   [Overview of the workflow system](overview-workflow-system.md)
--   [Workflow system architecture](workflow-system-architecture.md)
--   [Workflow elements](workflow-elements.md)
--   [Workflow actions](workflow-actions.md)
+-   [Обзор системы workflow-процессов](overview-workflow-system.md)
+-   [Архитектура системы документооборота](workflow-system-architecture.md)
+-   [Элементы workflow-процесса](workflow-elements.md)
+-   [Действия workflow-процесса](workflow-actions.md)
 -   [Создайте workflow-процесс](create-workflow.md)
--   [Configure the properties of a workflow](configure-workflow-properties.md)
+-   [Настроить свойства workflow-процесса](configure-workflow-properties.md)
 -   [Настройка задачи вручную](configure-manual-task-workflow.md)
 -   [Настройка автоматизированной задачи](configure-automated-task-workflow.md)
--   [Configure an approval process](configure-approval-process-workflow.md)
+-   [Настройка процесса утверждения](configure-approval-process-workflow.md)
 -   [Настройка стадии утверждения](configure-approval-step-workflow.md)
 -   [Настройка принятия решений вручную](configure-manual-decision-workflow.md)
 -   [Настройте зависимое решение](configure-conditional-decision-workflow.md)
 -   [Настройте параллельное действие](configure-parallel-activity-workflow.md)
 -   [Настройка параллельной ветви](configure-parallel-branch-workflow.md)
--   [Настроить элемент workflow-процесса номенклатуры строки](configure-line-item-workflow.md)
+-   [Настройка элемента workflow-процесса по строке](configure-line-item-workflow.md)
 
 ## <a name="case-management"></a>Управление обращениями
--   [Планирование: Вариантов установки](plan-case-management.md)
--   [Примеры обращения](cases.md)
+-   [Планирование: настройка обращения](plan-case-management.md)
+-   [Примеры управления обращениями](cases.md)
 
 ## <a name="electronic-signatures"></a>Электронные подписи
--   [Electronic signature overview](electronic-signature-overview.md)
--   [Настройка электронных подписей](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (руководство по задачам)
+-   [Обзор электронной подписи](electronic-signature-overview.md)
+-   [Настройка электронных подписей](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (Руководство по задаче)
 
 ## <a name="organizations"></a>Организации
--   [Organizations and organizational hierarchies](organizations-organizational-hierarchies.md)
--   [Plan the organizational hierarchy](plan-organizational-hierarchy.md)
--   [Создание операционная единица](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (руководство по задачам)
--   [Создание организационной иерархии](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (руководство по задачам)
--   [Создание юридического лица](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (руководство по задачам)
+-   [Организации и организационные иерархии](organizations-organizational-hierarchies.md)
+-   [Планирование организационной иерархии](plan-organizational-hierarchy.md)
+-   [Создание операционной единицы](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (Руководство по задачам)
+-   [Создание организационной иерархии](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (Руководство по задачам)
+-   [Создание юридического лица](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (Руководство по задачам)
 
 ## <a name="general-administration"></a>Общее администрирование
--   [Изменение заголовка или логотип](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (руководство по задачам)
--   [About date/time data and time zones](date-time-zones.md)
--   [Record templates](record-templates.md)
+-   [Изменение баннера или эмблемы](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (Руководство по задачам)
+-   [О дате и времени и часовых поясах](date-time-zones.md)
+-   [Шаблоны записей](record-templates.md)
+
+
 
 
 

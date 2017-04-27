@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Результаты амортизации со сторнированием
 
+[!include[banner](../includes/banner.md)]
+
+
 Эта статья описывает потенциальные последствия реверсирования проводки с основными средствами. 
 
 Имеется возможность реверсировать проводки по основным средствам, а также проводки, связанные с основными средствами. Кроме того, можно отменить реверсированную проводку. 
@@ -90,6 +93,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>См. также
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Амортизация ОС](fixed-asset-depreciation.md)
+
+
 
 

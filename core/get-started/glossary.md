@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 для операций глоссарий"
+title: "Глоссарий Dynamics 365 for Operations"
 description: "В глоссарии Microsoft Dynamics 365 for Operations определяются ключевые термины и понятия, используемые в Dynamics 365 for Operations."
 author: tonyafehr
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 для операций глоссарий
+# <a name="dynamics-365-for-operations-glossary"></a>Глоссарий Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 В глоссарии Microsoft Dynamics 365 for Operations определяются ключевые термины и понятия, используемые в Dynamics 365 for Operations. 
 
@@ -249,7 +252,7 @@ ms.lasthandoff: 03/31/2017
 
 Инструмент Visual Studio, используемый для создания, обновления и проверки элементов модели.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**.. \financial-dimensions\dimension-based конфигурации**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\financial-dimensions\dimension-based configuration**
 
 Технология конфигураций, используемая для создания вариантов продукта путем выбора значений для аналитик продукта.
 
@@ -499,7 +502,7 @@ ms.lasthandoff: 03/31/2017
 
 ###### <a name="product-dimension"></a>**аналитика продукта**
 
-Размер, цвет или конфигурация атрибутов продукта, которые используются для... Конфигурация \financial-dimensions\dimension-based.
+Размер, цвет или конфигурация атрибутов продукта, которые используются для конфигурации ..\financial-dimensions\dimension-based configuration.
 
 ###### <a name="product-family"></a>**семейство продуктов**
 
@@ -722,5 +725,7 @@ ms.lasthandoff: 03/31/2017
 ###### <a name="workspace"></a>**рабочая область**
 
 Страница, которая обеспечивает обзор одного из направлений деятельности, которыми занимается пользователь. На этой странице есть плитки, списки и диаграммы для отображения оставшейся работы и связанных данных из нескольких источников. Кроме того, на нее выводятся часто выполняемые задачи, связанные с этими данными. Плитки, отображаемые в разделе сводки рабочей области, также отображаются в соответствующем разделе на панели мониторинга.
+
+
 
 

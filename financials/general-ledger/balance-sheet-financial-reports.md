@@ -1,6 +1,6 @@
 ---
 title: "Финансовые отчеты по балансовому отчету"
-description: "В этой статье описываются отчеты по умолчанию для балансовых отчетов. Здесь также описываются шаблоны, связанные с этими отчетами."
+description: "В этой статье описываются отчеты по умолчанию для балансовых отчетов. Здесь также описываются строительные блоки, связанные с этими отчетами."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="balance-sheet-financial-reports"></a>Финансовые отчеты по балансовому отчету
 
-В этой статье описываются отчеты по умолчанию для балансовых отчетов. Здесь также описываются шаблоны, связанные с этими отчетами. 
+[!include[banner](../includes/banner.md)]
+
+
+В этой статье описываются отчеты по умолчанию для балансовых отчетов. Здесь также описываются строительные блоки, связанные с этими отчетами. 
 
 <a name="default-balance-sheet-reports"></a>Отчеты по балансовому отчету по умолчанию
 -----------------------------
@@ -72,10 +75,12 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>См. также
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Финансовая отчетность](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Просмотр финансовых отчетов](view-financial-reports.md)
 
-[Dynamics финансовой отчетности блог](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Блог финансовой отчетности Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

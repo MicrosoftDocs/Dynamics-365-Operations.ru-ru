@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-objects"></a>Объекты затрат
 
+[!include[banner](../includes/banner.md)]
+
+
 В этой статье представлена информация об объектах затрат и описан порядок накопления затрат и количеств. Объект затрат — объект, для которого накапливаются затраты и количества. Объект объекта затрат может быть или продуктом или вариантами продукта, такими как варианты для стиля и цвета.  
 
 <a name="cost-objects"></a>Объекты затрат
@@ -65,19 +68,21 @@ ms.lasthandoff: 03/31/2017
     -   Разнесенное количество
 -   Поле **Средняя стоимость единицы** — это расчетное поле. Значение рассчитывается путем деления значения **Стоимость** на значение **Количество**.
 
-**Примечание:** ** Включать физическую стоимость ** параметр не оказывает влияния на предыдущие расчеты.
+**Примечание.** Параметр **Включать физическую стоимость** не влияет на предшествующие расчеты.
 
 <a name="see-also"></a>См. также
 --------
 
-[Product dimension group](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[Группа аналитик продуктов](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
-[Storage dimension group](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[Группа аналитик хранения](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 
-[Tracking dimension group](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[Группа аналитик отслеживания](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Что такое новые или измененные в Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Что нового и что изменилось в Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
-[Cost entries](cost-entries.md)
+[Записи затрат](cost-entries.md)
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Управление Reporter - конструктор и веб-клиент"
+title: "Management Reporter — конструктор и веб-клиент"
 description: 
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="management-reporter----the-designer-and-web-client"></a>Управление Reporter - конструктор и веб-клиент
+# <a name="management-reporter----the-designer-and-web-client"></a>Management Reporter — конструктор и веб-клиент
+
+[!include[banner](../includes/banner.md)]
+
+
+
 
 
 

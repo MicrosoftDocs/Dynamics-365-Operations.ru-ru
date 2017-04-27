@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>Методы амортизации и соглашения по амортизации
 
+[!include[banner](../includes/banner.md)]
+
+
 В этой статье представлен обзор соглашений по амортизации и методы амортизации, которые поддерживаются Microsoft Dynamics AX.
 
 Можно выбрать различные методы амортизации и соглашения. Назначение методов отнести амортизируемую стоимость основных средств к финансовым периодам. Общая цена приобретения основных средств, за вычетом ликвидационной стоимости, если она имеется. 
@@ -66,26 +69,27 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>См. также
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Амортизация ОС](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[Амортизация срока службы (прямолинейный метод)](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[Уменьшение амортизации баланса](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[Ручная амортизация](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[Коэффициент амортизации](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[Амортизация потребления](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[Линейная амортизация с уменьшаемым остатком](straight-line-life-remaining-depreciation.md)
 
-[Амортизация уменьшаемого сальдо в 125%](125-percent-reducing-balance-depreciation.md)
+[Амортизация с уменьшаемым остатком в 125%](125-percent-reducing-balance-depreciation.md)
 
-[Амортизация уменьшаемого сальдо в 150%](150-percent-reducing-balance-depreciation.md)
+[Амортизация с уменьшаемым остатком в 150%](150-percent-reducing-balance-depreciation.md)
 
-[Амортизация уменьшаемого сальдо в 175%](175-percent-reducing-balance-depreciation.md)
+[Амортизация с уменьшаемым остатком в 175%](175-percent-reducing-balance-depreciation.md)
 
-[Амортизация уменьшаемого сальдо в 200%](200-percent-reducing-balance-depreciation.md)
+[Амортизация с уменьшаемым остатком в 200%](200-percent-reducing-balance-depreciation.md)
+
 
 

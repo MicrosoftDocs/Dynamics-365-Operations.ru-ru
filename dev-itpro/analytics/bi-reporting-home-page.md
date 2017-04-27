@@ -1,6 +1,6 @@
 ---
-title: "Бизнес-Аналитики &amp;отчетности домашней страницы"
-description: "В этом разделе перечислены бизнес-Аналитики &amp;отчетности ресурсы, доступные в Microsoft Dynamics 365 для операций."
+title: "Домашняя страница бизнес-аналитики и отчетности"
+description: "В этом разделе перечислены ресурсы модуля &quot;Бизнес-аналитика и отчетность&quot;, доступные в Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,26 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>Бизнес-Аналитики &amp;отчетности домашней страницы
+# <a name="bi-amp-reporting-home-page"></a>Домашняя страница бизнес-аналитики и отчетности
 
-В этом разделе перечислены бизнес-Аналитики &amp;отчетности ресурсы, доступные в Microsoft Dynamics 365 для операций.
+[!include[banner](../includes/banner.md)]
+
+
+В этом разделе перечислены ресурсы модуля "Бизнес-аналитика и отчетность", доступные в Microsoft Dynamics 365 for Operations. 
 
 <a name="working-with-aggregate-data"></a>Работа с агрегированными данными
 ---------------------------
 
--   [Analytics](analytics.md)
+-   [Аналитика](analytics.md)
 -   [Агрегированные модели в памяти в реальном времени заменяют кубы SSAS](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [Моделирование и статистических данных](model-aggregate-data.md)
--   [Перенос обновленных куб продаж Dynamics AX 2012 R3 магазину объекта](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
+-   [Моделирование и использование агрегированных данных](model-aggregate-data.md)
+-   [Миграция обновленного куба продаж Dynamics AX 2012 R3 в хранилище объектов](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>Самообслуживания отчетности
--   [Power BI integration](power-bi-integration.md)
+## <a name="self-service-reporting"></a>Самостоятельная отчетность
+-   [Интеграция Power BI](power-bi-integration.md)
 -   [Настройка интеграции Power BI для рабочих областей](configure-power-bi-integration.md)
 -   [Создание отчета Power BI с помощью данных Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
--   [Создание отчета Power BI и панели мониторинга](create-powerbi-report-dashboard.md)
--   [Содержимое Power BI производительности канала розничной торговли](retail-channel-performance-dashboard-power-bi-data.md)
--   [Финансовые содержимое производительности Power BI](financial-performance-power-bi-content-pack.md)
--   [Sales and profitability performance Power BI content](sales-profitability-performance-content-pack.md)
+-   [Создание отчета и панели мониторинга бизнес-аналитики](create-powerbi-report-dashboard.md)
+-   [Содержимое "Эффективность канала розничной торговли" для Power BI](retail-channel-performance-dashboard-power-bi-data.md)
+-   [Содержимое "Финансовые показатели" для Power BI](financial-performance-power-bi-content-pack.md)
+-   [Содержимое "Показатели продаж и прибыльности" для Power BI](sales-profitability-performance-content-pack.md)
 -   [Использование конфигурации электронной отчетности для передачи данных из Dynamics 365 for Operations в Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Создание строенных аналитических интерфейсов в клиенте Dynamics 365 for Operations
@@ -95,6 +98,8 @@ ms.lasthandoff: 03/31/2017
 -   [Электронная отчетность — Использование файлов управления документами в выходных данных формата (Часть 5. Изменение и выполнение формата)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (Руководство по задаче)
 -   [Электронная отчетность — Создание электронных документов для платежей с помощью конфигурации формата](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (Руководство по задаче)
 -   [Электронная отчетность — Обновление формата путем принятия новой базовой версии данного формата](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (Руководство по задаче)
+
+
 
 
 

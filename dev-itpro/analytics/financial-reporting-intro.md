@@ -85,6 +85,6 @@ ms.lasthandoff: 03/30/2017
 
 #<a name="see-also"></a>См. также
 
-[Создание финансового отчета] ((dynamics365\operations\financials\general-ledger\generate финансовый отчет)
+[Создание финансового отчета]((dynamics365\operations\financials\general-ledger\generate-financial-report)
 
 

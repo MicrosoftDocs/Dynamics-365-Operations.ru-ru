@@ -41,10 +41,10 @@ ms.lasthandoff: 03/31/2017
 <thead>
 <tr class="header">
 <th><strong>Запуск в производство</strong></th>
-<th><strong><strong>Version</strong></strong></th>
-<th><strong><strong>Build number</strong></strong></th>
-<th><strong><strong>Availability</strong></strong></th>
-<th><strong><strong>Для получения дополнительных сведений</strong></strong></th>
+<th><strong><strong>Версия</strong></strong></th>
+<th><strong><strong>Номер сборки</strong></strong></th>
+<th><strong><strong>Доступность</strong></strong></th>
+<th><strong><strong>Дополнительные сведения</strong></strong></th>
 </tr>
 </thead>
 <tbody>
@@ -52,12 +52,12 @@ ms.lasthandoff: 03/31/2017
 <td>Платформа Microsoft Dynamics 365 for Operations</td>
 <td>Обновление платформы 4</td>
 <td>7.0.4425.16160</td>
-<td>Февраль 2017 г.</td>
+<td>2017 февраля</td>
 <td><ol>
-<li>Последовательно выберите пункты <a href="https://roadmap.dynamics.com/">Dynamics 365 план</a>.</li>
-<li>Выберите <strong>новые</strong> вкладке.</li>
-<li>В <strong>приложения</strong> выберите <strong>Dynamics 365 для операций</strong>.</li>
-<li>В <strong>областей</strong> выберите <strong>платформы Cloud</strong>.</li>
+<li>Выберите <a href="https://roadmap.dynamics.com/">Дорожная карта Dynamics 365</a>.</li>
+<li>Выберите вкладку <strong>Что нового</strong>.</li>
+<li>В разделе <strong>Приложения</strong> выберите <strong>Dynamics 365 for Operations</strong>.</li>
+<li>В разделе <strong>Области</strong> выберите <strong>Облачная платформа</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">

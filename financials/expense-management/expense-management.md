@@ -26,8 +26,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="expense-management"></a>Управление расходами
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 [Планирование управления расходами](plan-expense-management.md) Дополнительные сведения будут добавлены позднее. Проверьте еще раз позже.
+
+
 
 
