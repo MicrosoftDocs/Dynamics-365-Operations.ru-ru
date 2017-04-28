@@ -1,6 +1,6 @@
 ---
-title: "Домашняя страница управления цепью поставок"
-description: "Эта страница указывает на ресурсы, которые помогут более эффективно использовать Microsoft Dynamics 365 для операций - управление цепочками поставок."
+title: "Домашняя страница модуля &quot;Управление цепочкой поставок&quot;"
+description: "Эта страница указывает на ресурсы, которые помогут более эффективно использовать модуль &quot;Управление цепочкой поставок&quot; в Microsoft Dynamics 365 for Operations."
 author: yuyus
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,35 +25,35 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="supply-chain-management-home-page"></a>Домашняя страница управления цепью поставок
+# <a name="supply-chain-management-home-page"></a>Домашняя страница модуля "Управление цепочкой поставок"
 
 [!include[banner](includes/banner.md)]
 
-Эта страница указывает на ресурсы, которые помогут более эффективно использовать Microsoft Dynamics 365 для операций - управление цепочками поставок. 
+Эта страница указывает на ресурсы, которые помогут более эффективно использовать модуль "Управление цепочкой поставок" в Microsoft Dynamics 365 for Operations. 
 
-## <a name="whats-new-and-in-development"></a>Новые возможности и разработки
-Последовательно выберите пункты <a href="https://roadmap.dynamics.com/">Dynamics 365 план</a> чтобы увидеть, какие новые возможности будут запущены и находятся в разработке новых функций. 
+## <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
+Перейдите в раздел <a href="https://roadmap.dynamics.com/">Дорожная карта Dynamics 365</a>, чтобы просмотреть новые функции, которые уже выпущены и которые все еще находятся в разработке. 
 
 ## <a name="core-concepts-and-tasks"></a>Основные понятия и задачи
-*  В левой области выберите функциональной области для получения дополнительных сведений об этом. 
-*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Обработка входящих уведомлений ASN при управлении складом</a> (видео) 
+*  В левой области выберите функциональную область для получения дополнительных сведений о ней. 
+*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Обработка входящих уведомлений ASN в модуле "Управление складом"</a> (видео) 
 
 
 ## <a name="blogs"></a>Блоги
-Существует много разделы, связанные с производством и управление цепочками поставок в <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX производственная, научно -исследовательский блог группы</a> и <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">для управления цепочкой поставок в Dynamics AX, научно -исследовательский блог группы</a>. Большинство из них были написаны для предыдущей версии Dynamics 365 for Operations, но эти же концепции все еще применяются, и процедуры аналогичны текущей версии. 
+Существует множество тем о производстве и управлении цепочкой поставок в <a href="https://blogs.msdn.microsoft.com/axmfg/">блоге группы научно-исследовательского отдела по производству Dynamics AX</a> и <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">блоге группы научно -исследовательского отдела по управлению цепочкой поставок Dynamics AX</a>. Большинство из них были написаны для предыдущей версии Dynamics 365 for Operations, но эти же понятия по-прежнему применяются, и процедуры аналогичны процедурам в текущей версии. 
 
-Например можно прочитать последние сообщения о: 
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Объявляет о Dynamics 365 для операций – складские операции</a>
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Улучшенные упаковки функции (Dynamics 365 для операций 1611)</a>
-* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Кросс-докинг из производственных заказов, заказов на перемещение</a>
+Например, можно прочитать последние записи о: 
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Объявление Dynamics 365 for Operations — Складирование</a>
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Улучшенные функции упаковки (Dynamics 365 for Operations 1611)</a>
+* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Кросс-докинг из производственных заказов в заказы на перемещение</a>
 
 ## <a name="white-papers"></a>Публикации
-* <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 для операций — Приступая к работе с учетом затрат</a> Технический документ описывает основные шаги для настройки Microsoft Dynamics 365 для операций – учета, чтобы упростить анализ фактических затрат затрат. Он также предоставляет набор процедур, которые могут выполняться в том порядке, в котором они расположены.
-* <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Dynamics 365 для операций - бережливого производства: доступного для резервирования и при планировании заданий канбана</a> Технический документ описывает сведения о планировании заданий канбана и вводится понятие ведения заказа на продажу, доступно для метода обязательство (Предварительная версия) для управления датой поставки. Здесь также объясняется, как CTP может быть объединен с канбаны событий для моделирования сценариев сборки на заказ или построения по заказу.
-* <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 для операций - расчет Спецификации с помощью листа калькуляции себестоимости</a> техническом документе описывается порядок настройки листа калькуляции затрат, включая материала и производственных, и как настройки влияет на расчет Спецификации результаты. Можно выполнять упражнения в приложении для обучающих целей и знания, достигаемая читать этот документ провести анализ расчета Спецификации.
+* В документе <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 for Operations — начало работы с учетом затрат</a> представлены базовые шаги по настройке модуля "Учет затрат" в Microsoft Dynamics 365 for Operations для выполнения анализа фактических затрат. В нем также предлагается набор процедур, которые можно выполнять в порядке их предоставления.
+* В документе <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Dynamics 365 for Operations — Бережливое производство: доступно для заказа с учетом производства (CTP) и планирование заданий канбана</a> приводятся сведения о планировании заданий канбана и вводится понятие оформления заказа на продажу, при котором используется метод "доступно для заказа с учетом производства (CTP)" для управления датой поставки. Здесь также объясняется, как CTP можно объединить с канбанами событий для моделирования сценариев сборки на заказ или построения на заказ.
+* В документе <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 for Operations — Расчет спецификации с помощью схемы калькуляции</a> описывается, как настроить схему калькуляции, включающую материал и производство, и как настройка влияет на результаты расчета спецификации. Можно выполнить упражнения в приложении в целях обучения и использовать знания, полученные после прочтения этого документа, для выполнения анализа расчета спецификации.
 
-## <a name="elearning-courses"></a>курсы электронного обучения
-Сведения о Microsoft Dynamics 365 для операций обучению см. <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">образовательный портал Microsoft Dynamics</a>. (требуется CustomerSource учетная запись) 
+## <a name="elearning-courses"></a>Курсы eLearning
+Сведения об обучении Microsoft Dynamics 365 for Operations см. на <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">портале по обучению Microsoft Dynamics</a>. (требуется учетная запись CustomerSource) 
 
 
 

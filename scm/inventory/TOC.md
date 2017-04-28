@@ -1,21 +1,21 @@
-# Создайте план склада
-# Indbound процесса
+# Создание макета склада
+# Входящий процесс
 # Исходящий процесс
-# Настройка учета складских запасов
-## [Inventory journals](inventory-journals.md)
-## [Inventory locations](inventory-locations.md)
-## [Inventory statuses](inventory-statuses.md)
-## [Количество запасов резерва](reserve-inventory-quantities.md)
-## [Резервирования той же партии для заказа на продажу](../sales-marketing/reserve-same-batch-sales-order.md)
+# Настройка отслеживания запасов
+## [Журналы запасов](inventory-journals.md)
+## [Места хранения](inventory-locations.md)
+## [Статусы запасов](inventory-statuses.md)
+## [Резервирование количества запасов](reserve-inventory-quantities.md)
+## [Резервирование одной и той же партии для заказа на продажу](../sales-marketing/reserve-same-batch-sales-order.md)
 # Консигнационные запасы
-## [Consignment](consignment.md)
+## [Коносамент](consignment.md)
 ## [Настройка коносамента](set-up-consignment.md)
 # Управление качеством
-## [Enable quality management](enable-quality-management.md)
-## [Inventory blocking](inventory-blocking.md)
-## [Управление несоответствия](enable-nonconformance-management.md)
-## [Quarantine order](quarantine-orders.md)
+## [Включение управления качеством](enable-quality-management.md)
+## [Блокировка запасов](inventory-blocking.md)
+## [Управление несоответствием](enable-nonconformance-management.md)
+## [Карантинный заказ](quarantine-orders.md)
 ## [Процесс управления качеством](quality-management-processes.md)
-# Трассировка товара и пакетные задания
-## [Слияние складской партии](merge-inventory-batches.md)
-## [Элемент трассировки и регистрации сырья](trace-items-raw-materials-inventory-production-sales.md)
+# Трассировка номенклатуры и партии
+## [Слияние складских партий](merge-inventory-batches.md)
+## [Трассировка номенклатуры и сырья](trace-items-raw-materials-inventory-production-sales.md)

@@ -1,6 +1,6 @@
 ---
-title: "Домашняя страница управления финансами"
-description: "В этом разделе представлен список разделов справки и других ресурсов для функций финансового управления в Microsoft Dynamics 365 for Operations."
+title: "Домашняя страница модуля &quot;Управление финансами&quot;"
+description: "В этой теме предоставляется список разделов справки и других ресурсов по функциям управления финансами в Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,22 +24,22 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="financial-management-home-page"></a>Домашняя страница управления финансами
+# <a name="financial-management-home-page"></a>Домашняя страница модуля "Управление финансами"
 
 [!include[banner](includes/banner.md)]
 
-В этом разделе представлен список разделов справки и других ресурсов для функций финансового управления в Microsoft Dynamics 365 for Operations. 
+В этой теме предоставляется список разделов справки и других ресурсов по функциям управления финансами в Microsoft Dynamics 365 for Operations. 
 
-Выберите область функций для получения дополнительных сведений о ней.
-- [Accounts payable](accounts-payable\accounts-payable.md) 
-- [Accounts receivable](accounts-receivable\accounts-receivable.md) 
-- [Cash and bank management](cash-bank-management\cash-bank-management.md)
-- [Cost accounting](cost-accounting\cost-accounting-home-page.md)
-- [Fixed assets](fixed-assets\fixed-assets.md)
-- [General ledger](general-ledger\general-ledger.md) 
-- [Project management](project-management\overview-project-management-accounting.md)
-- [Public sector](public-sector\public-sector-functionality.md) 
-- [Budgeting](budgeting\budgeting-overview.md) 
+Выберите область компонентов для получения дополнительных сведений о ней.
+- [Расчеты с поставщиками](accounts-payable\accounts-payable.md) 
+- [Расчеты с клиентами](accounts-receivable\accounts-receivable.md) 
+- [Управление банком и кассовыми операциями](cash-bank-management\cash-bank-management.md)
+- [Учет затрат](cost-accounting\cost-accounting-home-page.md)
+- [Основные средства](fixed-assets\fixed-assets.md)
+- [Главная книга](general-ledger\general-ledger.md) 
+- [Управление проектами](project-management\overview-project-management-accounting.md)
+- [Государственный сектор](public-sector\public-sector-functionality.md) 
+- [Бюджетирование](budgeting\budgeting-overview.md) 
 
 
 
