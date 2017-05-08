@@ -57,6 +57,18 @@
 #### [Обработка существующих доходов](localizations/noam-usa-existing-earnings.md)
 #### [Обработка выписок по оплате](localizations/noam-usa-pay-statements.md)
 ### Обслуживание и отчетность
-#### [Часто задаваемые вопросы по обновлениям данных сотрудника](localizations/noam-usa-payroll-data-updates.md)
+#### [Вопросы и ответы по обновлениям данных о заработной плате](localizations/noam-usa-payroll-data-updates.md)
 #### [Создание отчетов по заработной плате](localizations/noam-usa-generate-payroll-reports.md)
+
+# [Финансы](/dynamics365/operations/financials/index)
+
+# [Розничная торговля](/dynamics365/operations/retail/index)
+
+# [Управление цепочками поставок](/dynamics365/operations/supply-chain/index)
+
+# [Разработчик и администратор](/dynamics365/operations/dev-itpro/index)
+
+# Другие ресурсы
+## [Глоссарий Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/human-resources/toc.json)
+## [Что нового и что изменилось](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/human-resources/toc.json)
 

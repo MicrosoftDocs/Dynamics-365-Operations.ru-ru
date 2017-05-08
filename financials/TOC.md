@@ -170,6 +170,7 @@
 ## [Аналитики элемента затрат](cost-accounting/cost-elements.md)
 ## [Аналитики объекта затрат](cost-accounting/cost-objects.md)
 ## [Сопоставление элементов аналитики элемента затрат с общим набором элементов аналитики](cost-accounting/map-cost-elements-dimension-members.md)
+## [Расчет накладных расходов](cost-accounting/overhead-calculation.md)
 ## [Мобильная рабочая область управления затратами](cost-accounting/cost-controlling-mobile-workspace.md)
 ## [Содержимое Power BI анализа учета затрат](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/operations/financials/toc.json)
 ## [Настройка безопасности для содержимого Power BI анализа учета затрат](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/operations/financials/toc.json)
@@ -206,4 +207,18 @@
 ## [Предложения по проекту](project-management/project-quotations.md)
 ## [Ресурсы проекта](project-management/project-resourcing.md)
 ## [Структурные декомпозиции работ](project-management/work-breakdown-structures.md)
+## [Мобильная рабочая область регистрации времени по проектам](project-management/project-time-entry-mobile-workspace.md)
 # [Локализации](localizations/TOC.md)
+
+# [Управление персоналом](/dynamics365/operations/human-resources/index)
+
+# [Розничная торговля](/dynamics365/operations/retail/index)
+
+# [Управление цепочками поставок](/dynamics365/operations/supply-chain/index)
+
+# [Разработчик и администратор](/dynamics365/operations/dev-itpro/index)
+
+# Другие ресурсы
+## [Глоссарий Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/financials/toc.json)
+## [Что нового и что изменилось](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/financials/toc.json)
+

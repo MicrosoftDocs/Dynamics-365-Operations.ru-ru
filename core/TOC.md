@@ -68,7 +68,7 @@
 
 # [Розничная торговля](/dynamics365/operations/retail/index)
 
-# [Управление цепочкой поставок](/dynamics365/operations/supply-chain/index)
+# [Управление цепочками поставок](/dynamics365/operations/supply-chain/index)
 
 # [Разработчик и администратор](/dynamics365/operations/dev-itpro/index)
 

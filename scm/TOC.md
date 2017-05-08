@@ -56,8 +56,9 @@
 ### [Спецификация и формула](production-control/bill-of-material-bom.md)
 ### [Функциональность конструктора спецификаций](production-control/bom-designer-functionality.md)
 ### [Аналитика продукта](pim/product-dimensions.md)
+### [Параметры заказа по умолчанию для аналитик и вариантов продуктов](production-control/default-order-settings.md)
 ### [Номенклатура номеров продуктов](pim/product-variant-identification-nomenclature.md)
-### [Часто задаваемые вопросы по переводу, связанному с продуктом](pim/translations-product-related-information.md)
+### [Вопросы и ответы по переводу, связанному с продуктом](pim/translations-product-related-information.md)
 ### [Регистрация серийного номера в процессе продаж](sales-marketing/register-serial-numbers-sales-process.md)
 ### [Поиск продукта во время ввода заказа](pim/search-products-product-variants.md)
 ## Создание конфигурации продукта
@@ -70,50 +71,78 @@
 ### [Настройка модели конфигурации](pim/set-up-maintain-product-configuration-model.md)
 ### [Определенное системой и определенное пользователем ограничение таблицы](pim/system-defined-user-defined-table-constraints.md)
 # Управление производством
-## Процесс производства    
-### [Субподряд на основе мероприятия](production-control/activity-based-subcontracting.md)
-### [Атрибуты партии](production-control/batch-attributes.md)
-### [Спецификации и формулы](production-control/bill-of-material-bom.md)
-### [Функциональность конструктора спецификаций](production-control/bom-designer-functionality.md)
-### [Консолидированные партионные заказы](production-control/consolidated-batch-orders.md)
-### [Управление работой по субподряду в производстве](production-control/manage-subcontract-work-production.md)
-### [Планирование в смешанном режиме: совмещение дискретного производства, непрерывного производства и бережливый выбор источников материалов](production-control/mixed-mode-plan.md)
-### [Процесс производства](production-control/production-process-overview.md)
-### [Требования к настройке производства](production-control/production-set-up-requirements.md)
-### [Маршруты и операции](production-control/routes-operations.md)
-## Производственные заказы
-### [Создание производственных заказов](production-control/create-production-orders.md)
-### [Параметры заказа по умолчанию для аналитик и вариантов продуктов](production-control/default-order-settings.md)
-### [Запуск производственных заказов](production-control/release-production-orders.md)
-### [Реверсирование статуса производственного заказа](production-control/reverse-production-order-status.md)
-### [Приемка спецификаций](production-control/report-boms-as-finished.md)
-### [Приемка производственных заказов](production-control/report-production-orders-as-finished.md)
+## [Обзор производственного процесса](production-control/production-process-overview.md)
+## [Планирование в смешанном режиме: совмещение дискретного производства, непрерывного производства и бережливого выбора источников материалов](production-control/mixed-mode-plan.md)
+## [Управление работой по субподряду в производстве](production-control/manage-subcontract-work-production.md)
+## Дискретное производство
+### Ведение справочника производства
+#### [Требования к настройке производства](production-control/production-set-up-requirements.md)
+#### [Спецификации и формулы](production-control/bill-of-material-bom.md)
+#### [Функциональность конструктора спецификаций](production-control/bom-designer-functionality.md)
+#### [Расчеты спецификаций](cost-management/bom-calculations.md)
+#### [Операционные ресурсы](production-control/operations-resources.md)
+#### [Возможности ресурсов](production-control/resource-capabilities.md)
+#### [Маршруты и операции](production-control/routes-operations.md)
+#### [Параметры по умолчанию для производственного заказа в модуле "Управление производством"](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Политики работы складов](warehousing/warehouse-work-policies.md)
+### Планирование производственных операций
+#### [Планирование операций](production-control/operations-scheduling.md)
+#### [Планирование заданий](production-control/job-scheduling.md)
+#### [Параметры планирования операций](production-control/operation-scheduling-options.md)
+### Управление производственными заданиями
+#### [Создание производственных заказов](production-control/create-production-orders.md)
+#### [Запуск производственных заказов](production-control/release-production-orders.md)
+#### [Реверсирование статуса производственного заказа](production-control/reverse-production-order-status.md)
+#### [Приемка производственных заказов](production-control/report-production-orders-as-finished.md)
+#### [Приемка спецификаций](production-control/report-boms-as-finished.md)
+#### [Замещение материала на производстве](production-control/substitute-items-bom-lines.md)
+#### [Регистрация для управления производством](production-control/registration-manufacturing-execution.md)
+#### [Обратная связь производства](production-control/production-feedback.md)
+#### [Регистрация посещаемости и времени присутствия](production-control/time-attendance-registrations.md)
+### Управление финансами в производстве
+#### [Распределение времени между заданиями в наборе заданий](production-control/allocate-time-jobs-job-bundle.md)
+#### [Расчет потребления материалов](production-control/consumption.md)
+#### [Разноски по производству](cost-management/production-posting.md)
 ## Бережливое производство 
-### [Поддержка доски переноса канбана для сканеров штрих-кодов](production-control/kanban-transfer-board-support-barcode-scanner.md) 
-### [Планирование заданий канбана для бережливого производства](production-control/lean-manufacturing-kanban-job-scheduling.md)
 ### [Обзор бережливого производства](production-control/lean-manufacturing-overview.md)
-### [Моделирование экономичной организации](production-control/lean-manufacturing-modeling-lean-organization.md)
-## Планирование операций и заданий
-### [Распределение времени для заданий в наборе заданий](production-control/allocate-time-jobs-job-bundle.md)
-### [Планирование заданий](production-control/job-scheduling.md)
-### [Параметры планирования операций](production-control/operation-scheduling-options.md)
-### [Планирование операций](production-control/operations-scheduling.md)
-## Ресурсы
-### [Операционные ресурсы](production-control/operations-resources.md)
-### [Возможности ресурса](production-control/resource-capabilities.md)
-### [Регистрация посещаемости и времени присутствия](production-control/time-attendance-registrations.md)
-## Управление производством
-### [Замещение материала на производстве](production-control/substitute-items-bom-lines.md)
-### [Расчет потребления материалов](production-control/consumption.md)
-### [Обратная связь производства](production-control/production-feedback.md)
-### [Параметры по умолчанию для производственного заказа в модуле "Управление производством"](production-control/production-order-defaults-manufacturing-execution.md)
-### [Разноски по производству](cost-management/production-posting.md)
-### [Регистрация для управления производством](production-control/registration-manufacturing-execution.md)
+### [Субподряд на основе мероприятий](production-control/activity-based-subcontracting.md)
+### Ведение справочника производства
+#### [Моделирование бережливой организации](production-control/lean-manufacturing-modeling-lean-organization.md)
+#### [Операционные ресурсы](production-control/operations-resources.md)
+### Планирование заданий канбана
+#### [Планирование заданий канбана для бережливого производства](production-control/lean-manufacturing-kanban-job-scheduling.md)
+#### [Планирование заданий](production-control/job-scheduling.md)
+### Управление заданиями канбана
+#### [Поддержка доски переноса канбана для сканеров штрихкодов](production-control/kanban-transfer-board-support-barcode-scanner.md)
+#### [Обратная связь производства](production-control/production-feedback.md)
+## Непрерывное производство
+### Ведение справочника производства
+#### [Спецификации и формулы](production-control/bill-of-material-bom.md)
+#### [Операционные ресурсы](production-control/operations-resources.md)
+#### [Возможности ресурсов](production-control/resource-capabilities.md)
+#### [Атрибуты партий](production-control/batch-attributes.md)
+#### [Параметры по умолчанию для производственного заказа в модуле "Управление производством"](production-control/production-order-defaults-manufacturing-execution.md)
+#### [Требования к настройке производства](production-control/production-set-up-requirements.md)
+### Планирование производственных операций
+#### [Планирование операций](production-control/operations-scheduling.md)
+#### [Параметры планирования операций](production-control/operation-scheduling-options.md)
+#### [Планирование заданий](production-control/job-scheduling.md)
+### Управление производственными заданиями
+#### [Консолидированные пакетные заказы](production-control/consolidated-batch-orders.md)
+#### [Замещение материала на производстве](production-control/substitute-items-bom-lines.md)
+#### [Регистрация для управления производством](production-control/registration-manufacturing-execution.md)
+#### [Обратная связь производства](production-control/production-feedback.md)
+#### [Регистрация посещаемости и времени присутствия](production-control/time-attendance-registrations.md) 
+### Управление финансами в производстве
+#### [Распределение времени между заданиями в наборе заданий](production-control/allocate-time-jobs-job-bundle.md)
+#### [Расчет потребления материалов](production-control/consumption.md)
+#### [Разноски по производству](cost-management/production-posting.md)
 # Продажи и маркетинг
 ## [Маркетинг](sales-marketing/overview-sales-marketing.md)
 ## Заказы на продажу
-### [Резервирование по заказу](sales-marketing/delivery-dates-available-promise-calculations.md)
-### [Крайние сроки ввода заказа](sales-marketing/order-entry-deadlines.md)
+### [Резервирование по заказам](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Альтернативные режимы доставки](sales-marketing/delivery-alternatives.md)
+### [Крайние сроки ввода заказов](sales-marketing/order-entry-deadlines.md)
 ### [Прямые поставки](sales-marketing/direct-deliveries.md)
 ### [Графики поставки](sales-marketing/delivery-schedules.md)
 ### [Серийные номера в процессе продаж](sales-marketing/register-serial-numbers-sales-process.md)
@@ -136,8 +165,9 @@
 ### [Управление работой с помощью шаблонов работ и директив мест хранения](warehousing/control-warehouse-location-directives.md)
 ### [Управление работниками склада](warehousing/manage-warehouse-workers.md)
 ### [Настройка макета](warehousing/warehouse-configuration.md)
-### [Политики работы склада](warehousing/warehouse-work-policies.md)
+### [Политики работы складов](warehousing/warehouse-work-policies.md)
 ### [Единица измерения и политики хранения](warehousing/unit-measure-stocking-policies.md)
+### [Содержимое Power BI для склада](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
 ## Комплектация и упаковка
 ### [Упаковочные материалы и сборы](warehousing/pack-materials-packing-material-fees.md)
 ## Инвентаризация запасов
@@ -151,7 +181,21 @@
 ## Пополнение
 ### [Пополнение](warehousing/replenishment.md)
 ## Мобильные устройства
-### [Настройка имен полей в приложении склада](warehousing/configure-app-field-names-priorities-warehouse.md)
+### [Установка и настройка складских приложений](warehousing/install-configure-warehousing-app.md)
+### [Настройка имен полей в складских приложениях](warehousing/configure-app-field-names-priorities-warehouse.md)
 ### [Настройка мобильных устройств для работы склада](warehousing/configure-mobile-devices-warehouse.md)
 ### [Портал мобильных устройств склада (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
 ### [Параметры отображения мобильного устройства склада](warehousing/change-warehouse-mobile-device-displays.md)
+
+# [Финансы](/dynamics365/operations/financials/index)
+
+# [Управление персоналом](/dynamics365/operations/human-resources/index)
+
+# [Розничная торговля](/dynamics365/operations/retail/index)
+
+# [Разработчик и администратор](/dynamics365/operations/dev-itpro/index)
+
+# Другие ресурсы
+## [Глоссарий Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Что нового и что изменилось](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+

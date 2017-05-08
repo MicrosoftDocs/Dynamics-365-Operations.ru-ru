@@ -22,12 +22,16 @@
 ## [Взвешенное среднее по дате](weighted-average-date.md)
 ## [Взвешенное среднее с физической стоимостью и маркировкой](weighted-average-physical-value-marking.md)
 # Расчет себестоимости для производства
-## [Группа расчета спецификации](bom-calculation-groups.md)
+## [Амортизации постоянных затрат для производимой номенклатуры](amortize-constant-costs-manufactured-item.md)
+## [Backflush-расчет себестоимости](backflush-costing.md)
+## [Расчет спецификаций](bom-calculations.md)
+## [Группа расчета спецификаций](bom-calculation-groups.md)
 ## [Общие источники отклонений цены производства от себестоимости](common-sources-of-production-variances.md)
 ## [Категория затрат, используемая в маршрутизации производства](cost-categories-used-production-routings.md)
-## [Категория затрат, используемая в учете модуля "Управление производством" и "Управление проектами"](cost-categories-used-production-control-project-management-accounting.md)
-## [Анализ затрат по производственному заказу](production-order-cost-analysis.md)
-## [Оценка стоимости производственного заказа](production-order-cost-estimation.md)
+## [Категория затрат, используемая в учете модулей "Управление производством" и "Управление проектами"](cost-categories-used-production-control-project-management-accounting.md)
+## [Отображение накладных расходов для производимой номенклатуры](charges-manufactured-item.md)
+## [Анализ затрат по производственным заказам](production-order-cost-analysis.md)
+## [Оценка стоимости производственных заказов](production-order-cost-estimation.md)
 ## [Разноски по производству](production-posting.md)
 ## [Настройка продукта, который можно произвести или приобрести](manufactured-items-treated-as-purchased-items.md)
 ## [Метод распределения общих затрат](methodology-total-cost-allocation.md)
@@ -39,5 +43,6 @@
 ## [Обновление стандартной себестоимости в производственной среде](update-standard-costs-manufacturing-environment.md)
 ## [Обновление стандартной себестоимости для новой произведенной номенклатуры](update-standard-costs-new-manufactured-item.md)
 ## [Обновление стандартной себестоимости в непроизводственной среде](update-standard-costs-non-manufacturing-environment.md)
+
 
 

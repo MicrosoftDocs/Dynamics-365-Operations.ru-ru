@@ -18,7 +18,7 @@
 ## Периферийные устройства
 ### [Обзор периферийных устройств розничной торговли](retail-peripherals-overview.md)
 ### [Периферийные устройства POS, протестированные корпорацией Майкрософт](microsoft-tested-pos-hardware-peripherals.md)
-### [Определение и ведение клиентов канала, ККМ и станций оборудования](define-maintain-channel-clients-registers-hw-stations.md)
+### [Определение и ведение клиентов канала, кассовых терминалов и станций оборудования](define-maintain-channel-clients-registers-hw-stations.md)
 ## Макет экрана
 ### [Настройка макетов экрана для POS](pos-screen-layouts.md)
 ### [Установка конструктора макета Retail POS](install-pos-layout-designer.md)
@@ -68,3 +68,16 @@
 ## [Обзор реквизитов Commerce](commerce-essentials.md)
 ## [Организации и организационные иерархии (реквизиты Commerce)](organizational-hierarchies-commerce-essentials.md)
 # [Содержимое для ИТ-специалистов и разработчиков](dev-itpro/TOC.md)
+
+# [Финансы](/dynamics365/operations/financials/index)
+
+# [Управление персоналом](/dynamics365/operations/human-resources/index)
+
+# [Управление цепочками поставок](/dynamics365/operations/supply-chain/index)
+
+# [Разработчик и администратор](/dynamics365/operations/dev-itpro/index)
+
+# Другие ресурсы
+## [Глоссарий Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
+## [Что нового и что изменилось](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+

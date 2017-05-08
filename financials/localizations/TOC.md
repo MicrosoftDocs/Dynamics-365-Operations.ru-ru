@@ -39,9 +39,10 @@
 
 # Европа
 ## [Подотчетные лица](emea-advance-holders.md)
-## [Редактирование кодов накладных в заказах на продажу](emea-edit-invoice-id-sales-orders.md)
+## [Изменение идентификаторов накладных в заказах на продажу](emea-edit-invoice-id-sales-orders.md)
 ## [Сертификаты записей ЕС](emea-entry-certificates.md)
-## [Отчетность отчета ЕС по НДС](emea-eu-sales-list.md)
+## [Отчетность ЕС по НДС](emea-eu-sales-list.md)
+## [Корректировка курсовой разницы](emea-exchange-rate-adjustments.md)
 ## [Форматы файлов для способов оплаты](emea-select-file-formats-for-the-method-of-payments.md)
 ## [Выбытие основных средств для Эстонии и Литвы](emea-credit-note-reverse-fixed-asset-sale.md)
 ## [Интрастат](emea-intrastat.md)
@@ -56,18 +57,19 @@
 ## [Обзор кредитных переводов SEPA](../accounts-payable/sepa-credit-transfer.md)
 ## [Обзор прямого дебетования SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Настройка подписывающих лиц для печатных форм](emea-set-up-signers-for-printing-forms.md)
-## [Разделение по периодам в периодических журналах](emea-create-post-periodic-journals.md)
-## [Обновление способа отображения сумм в отчетах и документах](emea-amount-printing-forms.md)
-## [Отчетность по НДС](emea-vat-reporting.md)
+## [Валютные курсы НДС](emea-vat-exchange-rate.md)
 ## [Просмотр проводок по сопоставлению](emea-transactions-settlement-form.md)
 ## Австрия
+### [Полугодовая амортизация](emea-aut-half-year-depreciation.md)
 ### [Сборы за упаковочные материалы](emea-aut-packing-material-fee-calculation.md)
 ### [Отчет по НДС](emea-aut-vat-statement-details.md)
 ## Бельгия
 ### [Банковская выписка CODA](emea-bel-coda-bank-statement-import.md)
-### [Настройка отчета PRODCOM](emea-bel-prodcom-report.md)
+### [Налоговая декларация Intervat](emea-bel-intervat-tax-declaration.md)
+### [Настройка отчетов PRODCOM](emea-bel-prodcom-report.md)
 
 ## Чешская Республика
+### [Скидка при оплате по кредит-ноте](emea-cze-credit-note-cash-discount.md)
 ### [Округление амортизации](emea-cze-depreciation-rounding.md)
 ### [Приостановка амортизации](emea-cze-depreciation-suspension-holidays.md)
 ### [Амортизация ОС](emea-cze-fixed-assets-depreciation.md)
@@ -92,17 +94,20 @@
 ### [Амортизация дополнительного приобретения](emea-deu-additional-acquisition-depreciation.md)
 ### [Файл аудита](emea-deu-gdpdu-audit-data-export.md)
 ### [Отчет о списке журналов](emea-deu-journal-list-report.md)
-### [Печать отдельной этикетки для кредитовых авизо, происходящих от продаж](emea-deu-print-separate-label-credit-memo-originating-sales.md)
+### [Печать отдельной этикетки для кредитовых авизо, возникающих в результате продаж](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Венгрия
+### [Методы амортизации основных средств](emea-hun-fixed-assets-depreciation-methods.md)    
 ### [Малоценные ОС](emea-hun-low-cost-fixed-assets.md)
+### [Перемещение основного средства на склад](emea-hun-fixed-asset-to-inventory.md)
 ## Италия
-### [Сведения об отчете по НДС](emea-ita-vat-statements-details.md)
+### [Сведения об отчетах по НДС](emea-ita-vat-statements-details.md)
 ### [Отчет по черному списку](emea-ita-black-list-report.md)
 ### [Дата обеспечения](emea-ita-competence-date.md)
 ### [Амортизация ОС](emea-ita-depreciation-of-fixed-assets.md)
 ### [Проверка даты отборочной накладной в накладных](emea-ita-packing-slip-date-verification-on-invoice.md)
 ### [Книги учета налогов](emea-ita-fiscal-books.md)
-### [Разбиение платежа для накладных, выписанных для государственного административного органа](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [Разбиение платежей по накладным, выписанным государственным административным органам](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [Подоходный налог](emea-ita-withholding tax.md)
 ## Латвия
 ### [Учет основных средств](emea-lva-fixed-assets-accounting.md)
 ### [Отслеживание изменений расположения основных средств](emea-lva-fixed-assets-location-fields-change.md)
@@ -119,14 +124,19 @@
 ### [Нумерация дубликатов накладных по продаже](emea-pol-sales-invoice-duplicates-numbering.md)
 ### [Амортизация ОС](emea-pol-fixed-assets-depreciation.md)
 ### [Расширение функциональности выбытия основных средств](emea-pol-fixed-asset-disposal-functionality-extension.md)
+### [Возвращаемая упаковка](emea-pol-returnable-packages.md)
+### [Налоговые отчеты](emea-pol-sales-tax-reports.md)
+### [Стандартный файл аудита (SAF)](emea-pol-standard-audit-file-saf.md)
 ### [Оборотно-сальдовая ведомость](emea-pol-turnover-balances-statement.md)
 ## Испания
-### [Параметры переводного векселя](emea-esp-bill-of-exchange-options.md)
 ### [Применение скидок по оплате в накладной](emea-esp-cash-discount-applied-invoice.md)
+### [Параметры переводного векселя](emea-esp-bill-of-exchange-options.md)
+### [Условные налоги](emea-esp-conditional-sales-tax.md)
 ### [Счет в накладной финансовых данных](emea-esp-fiscal-data-invoice-account.md)
 ### [Переоценка группы ОС](emea-esp-fixed-asset-group-revaluation.md)
+### [Внутренний НДС (ЕС)](emea-esp-intra-community-vat.md)
 ### [Разовые клиенты](emea-esp-no-one-time-customer-for-project-contracts.md)
-### [Параметры простого векселя](emea-esp-promissory-note-options.md)
+### [Параметры простых векселей](emea-esp-promissory-note-options.md)
 ### [Циклы продажи и покупки](emea-esp-sales-purchase-cycle.md)
 ### [Специальные записи и открывающие ведомости](emea-esp-opening-sheets-spain.md)
 ## Швеция
@@ -163,3 +173,4 @@
 
 # Северная Америка
 ## [Отчетность по форме 1099 на конец года для США](noam-usa-year-end-1099-reporting.md)
+
