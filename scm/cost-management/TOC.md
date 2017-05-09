@@ -1,0 +1,48 @@
+# Power BI Content Pack
+## [Пакет содержимого управления затратами](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# Заранее определенные затраты
+## [Схема калькуляции](costing-sheets.md)
+## [Версия расчета себестоимости](costing-versions.md)
+## [Моделирование изменения себестоимости с использованием версии расчета себестоимости для плановой себестоимости](simulate-cost-changes-costing-version-planned-costs.md)
+# Стоимость запасов
+## [Корректировка себестоимости запасов в наличии](adjust-hand-inventory-cost-values.md)
+## [Объект затрат](cost-object.md)
+## [Запись себестоимости](cost-entries.md)
+## [Группа затрат](cost-groups.md)
+## [Модель ФИФО с физической стоимостью и маркировкой](fifo-physical-value-marking.md)
+## [Включение физической стоимости](include-physical-value.md)
+## [Стоимость объекта запасов](physical-quantity.md)
+## [Закрытие запасов](inventory-close.md)
+## [Дата ЛИФО с физической стоимостью и маркировкой](lifo-date-physical-value-marking.md)
+## [Модель ЛИФО с физической стоимостью и маркировкой](lifo-physical-value-marking.md)
+## [Скользящее среднее](moving-average.md)
+## [Физическое и финансовое обновление](physical-financial-updates.md)
+## [Вычисление средней себестоимости](running-average-cost-price.md)
+## [Отслеживание вычисления средней стоимости на складскую аналитику](track-running-average-cost-per-inventory-dimension.md)
+## [Взвешенное среднее по дате](weighted-average-date.md)
+## [Взвешенное среднее с физической стоимостью и маркировкой](weighted-average-physical-value-marking.md)
+# Расчет себестоимости для производства
+## [Амортизации постоянных затрат для производимой номенклатуры](amortize-constant-costs-manufactured-item.md)
+## [Backflush-расчет себестоимости](backflush-costing.md)
+## [Расчет спецификаций](bom-calculations.md)
+## [Группа расчета спецификаций](bom-calculation-groups.md)
+## [Общие источники отклонений цены производства от себестоимости](common-sources-of-production-variances.md)
+## [Категория затрат, используемая в маршрутизации производства](cost-categories-used-production-routings.md)
+## [Категория затрат, используемая в учете модулей "Управление производством" и "Управление проектами"](cost-categories-used-production-control-project-management-accounting.md)
+## [Отображение накладных расходов для производимой номенклатуры](charges-manufactured-item.md)
+## [Анализ затрат по производственным заказам](production-order-cost-analysis.md)
+## [Оценка стоимости производственных заказов](production-order-cost-estimation.md)
+## [Разноски по производству](production-posting.md)
+## [Настройка продукта, который можно произвести или приобрести](manufactured-items-treated-as-purchased-items.md)
+## [Метод распределения общих затрат](methodology-total-cost-allocation.md)
+# Стандартные затраты
+## [Расчеты спецификации со стандартной себестоимостью](information-used-bom-calculations-standard-costs.md)
+## [Управление обновлением стандартной себестоимости](manage-standard-cost-updates.md)
+## [Необходимые условия для преобразования в стандартную себестоимость](prerequisites-standard-cost-conversion.md)
+## [Обзор преобразования в стандартную себестоимость](standard-cost-conversion-overview.md)
+## [Обновление стандартной себестоимости в производственной среде](update-standard-costs-manufacturing-environment.md)
+## [Обновление стандартной себестоимости для новой произведенной номенклатуры](update-standard-costs-new-manufactured-item.md)
+## [Обновление стандартной себестоимости в непроизводственной среде](update-standard-costs-non-manufacturing-environment.md)
+
+
+
