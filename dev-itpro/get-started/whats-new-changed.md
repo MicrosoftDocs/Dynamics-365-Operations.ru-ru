@@ -3,33 +3,37 @@ title: "Что нового и что изменилось"
 description: "Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних версиях Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.search.scope: Core
+ms.search.scope: Operations, Core
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0d954043c461975a70f9e0ab867f30cadd9800b5
-ms.openlocfilehash: 2896a11f79d5cbb00137a439e0a2c8caaee705a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c9f1e32986238739fc7eee519fd1d17a6ce6731e
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed"></a>Что нового и что изменилось
 
+[!include[banner](../includes/banner.md)]
+
+
 Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних версиях Microsoft Dynamics 365 for Operations.
 
-Для обновления до последней версии см. раздел [Процесс обновления до последнего обновления Dynamics 365 for Operations](/migration-upgrade/upgrade-latest-update.md).
+Для обновления до последней версии см. раздел [Процесс обновления до последнего обновления Dynamics 365 for Operations](../migration-upgrade/upgrade-latest-update.md).
 <table>
 <colgroup>
 <col width="20%" />
@@ -50,15 +54,24 @@ ms.lasthandoff: 03/31/2017
 <tbody>
 <tr class="odd">
 <td>Платформа Microsoft Dynamics 365 for Operations</td>
+<td>Обновление платформы 6</td>
+<td> 7.0.4509.16180</td>
+<td>2017 апреля</td>
+<td><a href="whats-new-platform-update-6.md">Что нового и что изменилось в обновлении 6 платформы Dynamics 365 for Operations (апрель 2017)</a></td>
+</tr>
+<tr class="odd">
+<td>Платформа Microsoft Dynamics 365 for Operations</td>
+<td>Обновление платформы 5</td>
+<td> 7.0.4475.16165</td>
+<td>2017 марта</td>
+<td><a href="whats-new-platform-update-5.md">Что нового и что изменилось в обновлении 5 платформы Dynamics 365 for Operations (март 2017)</a></td>
+</tr>
+<tr class="odd">
+<td>Платформа Microsoft Dynamics 365 for Operations</td>
 <td>Обновление платформы 4</td>
-<td>7.0.4425.16160</td>
+<td> 7.0.4425.16161</td>
 <td>2017 февраля</td>
-<td><ol>
-<li>Выберите <a href="https://roadmap.dynamics.com/">Дорожная карта Dynamics 365</a>.</li>
-<li>Выберите вкладку <strong>Что нового</strong>.</li>
-<li>В разделе <strong>Приложения</strong> выберите <strong>Dynamics 365 for Operations</strong>.</li>
-<li>В разделе <strong>Области</strong> выберите <strong>Облачная платформа</strong>.</li>
-</ol></td>
+<td><a href="whats-new-platform-update-4.md">Что нового и что изменилось в обновлении 4 платформы Dynamics 365 for Operations (февраль 2017)</a></td>
 </tr>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Operations</td>
@@ -111,6 +124,8 @@ ms.lasthandoff: 03/31/2017
 </tr>
 </tbody>
 </table>
+
+
 
 
 

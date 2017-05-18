@@ -3,7 +3,7 @@ title: "Настройка мобильных устройств для рабо
 description: "В этой статье описывается, как настроить пункты меню, используемые работниками склада для выполнения работы на мобильном устройстве."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 34d7b246d74d1546b54494944903d160e31f7678
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a964587fa5dd48f0ed4e9f2c67fb52e5071ac98d
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Настройка мобильных устройств для работы склада
+
+[!include[banner](../includes/banner.md)]
+
 
 В этой статье описывается, как настроить пункты меню, используемые работниками склада для выполнения работы на мобильном устройстве.
 
@@ -315,7 +319,7 @@ ms.lasthandoff: 03/31/2017
 </tr>
 <tr class="even">
 <td>Показать статус запасов</td>
-<td>Выберите этот параметр, чтобы отобразить статус номенклатур в запасах. Дополнительную информацию см. в разделе <a href="/inventory/inventory-statuses.md">Преимущества использования состояний запасов</a>. Этот параметр доступен для всех пунктов меню, использующих существующую работу, за исключением подсчета циклов.</td>
+<td>Выберите этот параметр, чтобы отобразить статус номенклатур в запасах. Этот параметр доступен для всех пунктов меню, использующих существующую работу, за исключением подсчета циклов.</td>
 </tr>
 <tr class="odd">
 <td>Отобразить сводка экрана комплектации</td>
@@ -411,6 +415,8 @@ ms.lasthandoff: 03/31/2017
 
 [Настройка пункта меню мобильного устройства для выполнения работы типа заказа на покупку (руководство по задаче)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
-[Настройте пункта меню мобильного устройства для регистрации полученных номенклатуры (руководство по задаче)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Настройка пункта меню мобильного устройства для регистрации полученных номенклатуры (руководство по задаче)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Преимущества использования состояний запасов](../inventory/inventory-statuses.md)
+
 
 

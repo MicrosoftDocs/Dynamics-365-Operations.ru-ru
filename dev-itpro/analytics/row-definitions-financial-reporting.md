@@ -1,16 +1,16 @@
 ---
 title: "Определения строк в конструкторе финансовых отчетов"
 description: "Определение строки — это компонент отчета или строительный блок, который указывает содержимое каждой строки в финансовом отчете. Определения строки можно объединить с определениями столбцов, определениями дерева отчетности и определениями отчетов, чтобы создать группу строительных блоков, которую можно использовать во множестве компаний."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 42 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: a2f92effd1cfdc1d5da2c5ec895c0487a6fc82a4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aa9fcc4d0c122d2355362b75ca210af4c2ef4338
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Определения строк в конструкторе финансовых отчетов
+
+[!include[banner](../includes/banner.md)]
+
 
 Определение строки — это компонент отчета или строительный блок, который указывает содержимое каждой строки в финансовом отчете. Определения строки можно объединить с определениями столбцов, определениями дерева отчетности и определениями отчетов, чтобы создать группу строительных блоков, которую можно использовать во множестве компаний.
 
@@ -173,6 +177,8 @@ ms.lasthandoff: 03/29/2017
 <a name="see-also"></a>См. также
 --------
 
-[Финансовая отчетность для Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[Финансовая отчетность](financial-reporting-intro.md)
+
+
 
 

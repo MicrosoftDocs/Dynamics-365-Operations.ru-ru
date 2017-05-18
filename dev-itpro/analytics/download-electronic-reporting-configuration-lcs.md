@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 9dca5dec846670da25926826f59d7bce0fa0dcea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2f3a352ca70472de838271fdedfede575cb839d
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Загрузка конфигураций электронной отчетности из Lifecycle Services
+
+[!include[banner](../includes/banner.md)]
+
 
 В этом разделе описывается, как загрузить конфигурации электронной отчетности из Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -43,9 +47,10 @@ ms.lasthandoff: 03/31/2017
     1.  Нажмите кнопку **Добавить**, чтобы добавить новый репозиторий.
     2.  Выберите **LCS** как тип репозитория.
     3.  Щелкните **Создать репозиторий**.
-    4.  Введите имя и описание репозитория.
-    5.  Нажмите кнопку **ОК**, чтобы подтвердить новую запись репозитория.
-    6.  В сетке выберите новый репозиторий типа **LCS**.
+    4. Если будет предложено, следуйте инструкциям по авторизации.
+    5.  Введите имя и описание репозитория.
+    6.  Нажмите кнопку **ОК**, чтобы подтвердить новую запись репозитория.
+    7.  В сетке выберите новый репозиторий типа **LCS**.
 
 6.  Нажмите кнопку **Открыть** для просмотра списка конфигураций электронной отчетности для выбранного репозитория. [![обновление-er-из-lcs-для-ms-создание-репозитория-lcs](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  В дереве конфигураций в левой области выберите требуемую конфигурацию электронной отчетности.
@@ -58,5 +63,7 @@ ms.lasthandoff: 03/31/2017
 --------
 
 [Обзор электронной отчетности](general-electronic-reporting.md)
+
+
 
 

@@ -18,21 +18,25 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: b33cbf67c00b6baea4393e82d19300085781af29
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e60994f5c4fa38fc2be17b4021e2def904c87b7f
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>Установка конструктора макета Retail POS
 
+[!include[banner](includes/banner.md)]
+
+
 Можно использовать конструктор одним щелчком, чтобы создать различные макеты Retail Modern POS (MPOS) и Cloud POS в альбомном или портретном режиме для магазинов, регистров, кассиров и менеджеров.
 
 Графический дизайн интерфейса для MPOS или Cloud POS управляется макетом кассы. Макет определяет расположение разных объектов. Примеры: общий макет, макет сетки элементов, макет клиента и макет платежей, а также макеты разных кнопок меню. Макеты также определяют общий вид интерфейса продаж, с которым работают работники.
 
-## <a name="install-the-oneclick-designer"></a>Установка конструктора одним щелчком
+## <a name="install-the-one-click-designer"></a>Установка конструктора одним щелчком
 1.  В Microsoft Dynamics 365 for Operations с помощью левого верхнего меню откройте **Розничная торговля** **и коммерция** &gt; **Настройка канала** &gt; **Настройка POS** &gt; **POS** &gt; **Макеты экрана**.
 2.  Выберите любой макет с типом приложения **Modern POS для Windows** или **Cloud POS**, затем нажмите **Конструктор макета**.
 3.  На панели уведомлений, которая отображается внизу окна Internet Explorer, щелкните **Открыть**, чтобы установить конструктор одним щелчком. (Панель уведомлений может отображаться в разных местах разных браузеров.)
@@ -52,5 +56,7 @@ ms.lasthandoff: 03/31/2017
 --------
 
 [Настройка, загрузка, установка и активирование Retail Modern POS](retail-modern-pos-device-activation.md)
+
+
 
 

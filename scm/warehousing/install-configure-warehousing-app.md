@@ -3,7 +3,7 @@ title: "Установка и настройка Microsoft Dynamics 365 for Oper
 description: "В этом разделе описывается, как установить и настроить Microsoft Dynamics 365 for Operations - Warehousing."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 231c087ddc976aa552fc9cd6c89188f82a0247d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bbf6df8d43889e7a62bfe28921997c45c8b4c632
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>Установка и настройка Microsoft Dynamics 365 for Operations &#8211; Warehousing
+
+[!include[banner](../includes/banner.md)]
+
 
 В этом разделе описывается, как установить и настроить Microsoft Dynamics 365 for Operations - Warehousing.
 
@@ -67,7 +71,7 @@ Dynamics 365 for Operations - Warehousing представляет собой п
 ## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>Создание и настройка учетной записи пользователя в Dynamics 365 for Operations
 Чтобы включить Dynamics 365 for Operations для использования приложения Azure AD, необходимо выполнить следующие шаги по настройке:
 
-1.  Создайте новую учетную запись пользователя в Azure Active Directory для владельца Dynamics 365 for Operations. Эта учетная запись пользователя предназначена для доступа к определенной пользовательской службе складского приложения, которую предоставляет сервер Dynamics 365 for Operations. После выполнения этого шага у вас будут учетные данные пользователя WMDP, состоящие из адреса электронной почты WMDP и пароля WMDP. Чтобы получить сведения об основных шагах для добавления пользователей в Azure AD и Dynamics 365 for Operations, см. в этом учебнике: [Оформление подписки на Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
+1.  Создайте новую учетную запись пользователя в Azure Active Directory для владельца Dynamics 365 for Operations. Эта учетная запись пользователя предназначена для доступа к определенной пользовательской службе складского приложения, которую предоставляет сервер Dynamics 365 for Operations. После выполнения этого шага у вас будут учетные данные пользователя WMDP, состоящие из адреса электронной почты WMDP и пароля WMDP. Чтобы получить сведения об основных шагах для добавления пользователей в Azure AD и Dynamics 365 for Operations, см. в этом учебнике: [Оформление подписки на Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription).
 2.  Создайте пользователя Dynamics 365 for Operations, который соответствует учетным данным пользователя складского приложения.
     1.  В Dynamics 365 for Operations перейдите к **Администрирование системы** &gt; **Общее** &gt; **Пользователи**.
     2.  Создайте нового пользователя.
@@ -98,6 +102,8 @@ Dynamics 365 for Operations - Warehousing представляет собой п
 6.  Щелкните вкладку **Конфигурация**, прокрутите экран вниз и убедитесь, что **Код клиента** приложения совпадает с указанным на шаге 2 в этом разделе.
 7.  Щелкните кнопку **Удалить** на панели команд.
 8.  Нажмите **Да** в сообщение с запросом подтверждения.
+
+
 
 
 

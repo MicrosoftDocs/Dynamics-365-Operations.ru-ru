@@ -1,9 +1,9 @@
 ---
 title: "Обзор системы workflow-процессов"
-description: "В этой статье описывается система workflow-процессов в Microsoft Dynamics 365 for Operations."
+description: "В этой теме описывается система workflow-процессов в Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 08c36f02f88fef7508730b6c01a1c99a0f77fb0c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5432e67ffa41e6a38b19c9fe5bb12c5acb2c345c
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -29,7 +30,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этой статье описывается система workflow-процессов в Microsoft Dynamics 365 for Operations.
+В этой теме описывается система workflow-процессов в Microsoft Dynamics 365 for Operations.
 
 <a name="what-is-workflow"></a>Что такое Wokrflow?
 -----------------
@@ -41,9 +42,13 @@ Workflow-процесс — это система, которая устанав
 
 ### <a name="workflow-is-a-business-process"></a>Документооборот как бизнес-процесс
 
-workflow-процесс представляет бизнес-процесс. Он определяет потоки, или перемещения, документа по системе, показывая, кто должен выполнить задачу, принять решение или утвердить документ. Например, На следующем рисунке показан workflow-процесс для отчетов о расходах. ![Workflow-процесс с элементами, которые назначены пользователям](./media/workflow_user.gif) Чтобы лучше понять этот workflow-процесс, предположим, что Сэм представляет отчет о расходах на USD 7 000. В этом случае Иван должен рассмотреть приходы, направленные ему Сэмом. Затем Фрэнк и Сью должны утвердить отчет о расходах. Теперь предположим, что Сэм подает отчет о расходах на сумму 11 000 USD. В этом случае Иван должен рассмотреть чеки, а Фрэнк, Сью и Анна должны утвердить отчет о расходах.
-Преимущества использования системы workflow-процессов
--------------------------------------
+workflow-процесс представляет бизнес-процесс. Он определяет потоки, или перемещения, документа по системе, показывая, кто должен выполнить задачу, принять решение или утвердить документ. Например, на следующем рисунке показан workflow-процесс для отчетов о расходах. 
+
+![Workflow-процесс с элементами, назначенными пользователям](./media/workflow_user.gif) 
+
+Для прояснения этого workflow-процесса предположим, что Сэм подает отчет о расходах на сумму USD 7000. В этом случае Иван должен рассмотреть приходы, направленные ему Сэмом. Затем Фрэнк и Сью должны утвердить отчет о расходах. Теперь предположим, что Сэм подает отчет о расходах на сумму 11 000 USD. В этом случае Иван должен рассмотреть чеки, а Фрэнк, Сью и Анна должны утвердить отчет о расходах.
+
+## <a name="benefits-of-using-the-workflow-system"></a>Преимущества использования системы workflow-процессов
 
 Имеется несколько преимуществ использования системы workflow-процессов в организации:
 -   **Непротиворечивые процессы** - можно определить как обрабатываются определенные документы, таких как заявки на покупку и отчеты по расходам. Использование системы workflow-процессов может обеспечить обработку и утверждение документов непротиворечивым и эффективным образом.
@@ -51,6 +56,20 @@ workflow-процесс представляет бизнес-процесс. О
 -   **Централизованный список работ** — Пользователи могут просматривать централизованный список работ, отображающий задачи workflow-процесса и утверждения, назначенные им.
 
 
+## <a name="workflow-content"></a>Содержимое workflow-процесса
 
-
++ [Архитектура workflow-процесса](workflow-system-architecture.md)
++ [Элементы workflow-процесса](workflow-elements.md)
++ [Действия workflow-процесса](workflow-actions.md)
++ [Создание workflow-процесса](create-workflow.md)
++ [Настройка свойств workflow-процесса](configure-workflow-properties.md)
++ [Настройка ручной задачи в workflow-процессе](configure-manual-task-workflow.md)
++ [Настройка автоматизированной задачи в workflow-процессе](configure-automated-task-workflow.md)
++ [Настройка процесса утверждения в workflow-процессе](configure-approval-process-workflow.md)
++ [Настройка этапа утверждения в workflow-процессе](configure-approval-step-workflow.md)
++ [Настройка ручного решения в workflow-процессе](configure-manual-decision-workflow.md)
++ [Настройка условного решения в workflow-процессе](configure-conditional-decision-workflow.md)
++ [Настройка параллельного действия в workflow-процессе](configure-parallel-activity-workflow.md)
++ [Настройка параллельной ветви в workflow-процессе](configure-parallel-branch-workflow.md)
++ [Настройка workflow-процесса по номенклатуре строки](configure-line-item-workflow.md)
 

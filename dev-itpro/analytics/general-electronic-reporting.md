@@ -18,10 +18,11 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: b3e8174d07c9b9fd4210486c369c640fe07c49eb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: abe9212372fb7429d68c1fb6b32ec1d15c20a6d7
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/25/2017
 
 
 ---
