@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 19eeee753c15cf2670948ce2c615a112813c16ad
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2112d6dd45c76af3cea75a4e06b06f9577c572ad
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="master-planning-and-multisite-functionality"></a>Сводное планирование и функция работы с несколькими узлами
+
+[!include[banner](../includes/banner.md)]
+
 
 При сводном планировании учитываются настройки складских аналитик сайта и склада. 
 
@@ -37,7 +41,7 @@ ms.lasthandoff: 03/31/2017
 
 Если склад не настроен как обязательный, он может быть неизвестен для начального спроса. Механизм планирования должен определить, какой склад использовать, на основе настроек, которые определяются для номенклатуры, отдельных складов и сведений строки заказа.
 
-Следующие wiki-статьи описывают работу механизма планирования с различными настройками для определения склада, который необходимо использовать.
+Следующие разделы описывают работу механизма планирования с различными настройками для определения склада, который необходимо использовать.
 
 [Сводное планирование — покрытие объекта и склада, склад является обязательным](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
@@ -48,5 +52,7 @@ ms.lasthandoff: 03/31/2017
 [Сводное планирование — покрытие объекта, склад не является обязательным](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [Сводное планирование — Определение версии спецификации](master-plan-bom-version-determined.md)
+
+
 
 

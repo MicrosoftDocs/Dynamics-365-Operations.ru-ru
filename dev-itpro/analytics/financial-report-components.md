@@ -1,16 +1,16 @@
 ---
 title: "Компоненты финансового отчета"
 description: "В этой статье описано, как компоненты или строительные блоки определений отчетов используются в финансовой отчетности. Эти строительные блоки включают определения строк, определения столбцов и определения дерева отчетов. В статье объясняется, как организовать и заблокировать строительные блоки и как работать с группами строительных блоков."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 18 - 54 - 02
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: a423dff4d8796f454c9c4db03c8ceb2b8c3d6456
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fb857a16f159d28acb129beaf51d2241391b103d
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="financial-report-components"></a>Компоненты финансового отчета
+
+[!include[banner](../includes/banner.md)]
+
 
 В этой статье описано, как компоненты или строительные блоки определений отчетов используются в финансовой отчетности. Эти строительные блоки включают определения строк, определения столбцов и определения дерева отчетов. В статье объясняется, как организовать и заблокировать строительные блоки и как работать с группами строительных блоков. 
 
@@ -135,6 +139,8 @@ ms.lasthandoff: 03/30/2017
 
 # <a name="see-also"></a>См. также
 
-[Финансовая отчетность в Microsoft Dynamics ERP](financial-reporting-intro.md)
+[Финансовая отчетность](financial-reporting-intro.md)
+
+
 
 

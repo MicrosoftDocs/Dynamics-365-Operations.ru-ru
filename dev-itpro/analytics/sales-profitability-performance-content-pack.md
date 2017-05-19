@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Содержимое "Показатели продаж и прибыльности" для Power BI
+
+[!include[banner](../includes/banner.md)]
+
 
 В этой теме описывается содержание пакета содержимого Dynamics 365 for Operations - Показатели продаж и прибыльности для Microsoft Power BI. В нем описывается порядок доступа к отчетам, входящим в пакет содержимого, и предоставляется информация о модели данных и объектах, которые используются для построения пакета содержимого.
 
@@ -44,6 +48,7 @@ ms.lasthandoff: 03/31/2017
 
 ## <a name="accessing-the-content-pack"></a>Доступ к пакету содержимого
 Пакет содержимого Power BI "Показатели продаж и прибыльности" публикуется как ресурс реализации в Lifecycle Services (LCS), и доступ к нему возможен из Dynamics 365 for Operations. Дополнительные сведения о способах доступа и запуска отчетов Power BI см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](power-bi-content-microsoft-partners.md).
+**Примечание.** KB 4011327 является обязательным условием для этого содержимого Power BI. После входа в службы Lifecycle Services, этот KB можно найти здесь: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
 
 ## <a name="metrics-included-in-the-content-pack"></a>Показатели, включенные в пакет содержимого
 Пакет содержимого включает отчет, состоящий из набора показателей, отображаемых в виде диаграмм, плиток и таблиц. В следующей таблице приводится обзор визуализации в пакете содержимого.
@@ -110,6 +115,8 @@ ms.lasthandoff: 03/31/2017
 -   [Создание организационных пакетов содержимого](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Моделирование данных с помощью Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Добавление плиток Power BI в рабочие области](configure-power-bi-integration.md)
+
+
 
 
 

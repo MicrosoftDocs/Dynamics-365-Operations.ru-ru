@@ -1,9 +1,9 @@
 ---
-title: "Настройка электронной отчетности для передачи данных из Dynamics 365 for Operations в Power BI"
+title: "Настройка электронной отчетности для переноса данных в Power BI"
 description: "В этом разделе описывается, как можно использовать конфигурацию электронной отчетности (ER), чтобы настроить перенос данных из вашего экземпляра Dynamics 365 for Operations в службы Power BI. В качестве примера в этом разделе используются проводки Интрастат как бизнес-данные, которые необходимо перенести. Визуализация карты Power BI использует эти данные о проводках Интрастат для представления анализа мероприятий импорта или экспорта компании в отчете Power BI."
 author: kfend
 manager: AnnBe
-ms.date: 2016-10-31 13 - 22 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: ed0192c44b6d7e88120c64e539ebb0ac3b379831
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4bbc77eb1edfe0c109434ce4d26228ed031f48bc
+ms.contentlocale: ru-ru
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="set-up-electronic-reporting-to-provide-power-bi-with-data-from-dynamics-365-for-operations"></a>Настройка электронной отчетности для передачи данных из Dynamics 365 for Operations в Power BI
+# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Настройка электронной отчетности для переноса данных в Power BI
+
+[!include[banner](../includes/banner.md)]
+
 
 В этом разделе описывается, как можно использовать конфигурацию электронной отчетности (ER), чтобы настроить перенос данных из вашего экземпляра Dynamics 365 for Operations в службы Power BI. В качестве примера в этом разделе используются проводки Интрастат как бизнес-данные, которые необходимо перенести. Визуализация карты Power BI использует эти данные о проводках Интрастат для представления анализа мероприятий импорта или экспорта компании в отчете Power BI.
 
@@ -119,5 +123,7 @@ Microsoft Power BI представляет собой набор програм
 [Места назначения электронной отчетности](electronic-reporting-destinations.md)
 
 [Обзор электронной отчетности](general-electronic-reporting.md)
+
+
 
 
