@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,17 +18,15 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e1a9e0eeb45f011ccb2aa091e68aff92782e1ae7
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5962fa36b061382e7f0ad55c08c81ac2cebc047d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
 # <a name="dynamics-365-for-operations-mobile-app-home-page"></a>Домашняя страница мобильного приложения Dynamics 365 for Operations
-
-[!include[banner](../includes/banner.md)]
 
 [!include[banner](../includes/banner.md)]
 
@@ -61,7 +59,7 @@ ms.lasthandoff: 04/25/2017
 ## <a name="implementation-process"></a>Процесс внедрения
 На следующем рисунке показана процесс внедрения мобильного приложения Dynamics 365 for Operations в вашей организации. 
 
-[![](./media/mobile-implementation-process_4.png)](./media/mobile-implementation-process_4.png) 
+![Процесс внедрения мобильных приложений](./media/mobile-implementation-process_4.png)
 
 В следующей таблице приведены ссылки на ресурсы, которые могут помочь внедрить мобильное приложение Dynamics 365 for Operations в вашей организации. Цифры в первом столбце соответствуют пронумерованным шагам на предыдущем рисунке.
 
@@ -85,7 +83,7 @@ ms.lasthandoff: 04/25/2017
 <td>1</td>
 <td>Системный администратор</td>
 <td>Реализуйте Dynamics 365 for Operations в организации.</td>
-<td>Если система Dynamics 365 for Operations еще не развернута в вашей организации, см. раздел <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Развертывание демонстрационной среды Microsoft Dynamics 365 for Operations</a>.</td>
+<td>Если система Dynamics 365 for Operations еще не развернута в вашей организации, см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -93,32 +91,27 @@ ms.lasthandoff: 04/25/2017
 <td>Загрузите и установите KB, обеспечивающие использование мобильных рабочих областей, которые предоставляются корпорацией Microsoft.</td>
 <td>См. раздел &quot;Необходимые условия&quot; в разделе о мобильной рабочей области, которую ваша организация хочет использовать:
 <ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Мобильные рабочие области управления затратами</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Мобильная рабочая область запасов в наличии</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Мобильные рабочие области заказов на продажу</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Мобильная рабочая область совместной работы с поставщиками</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Мобильная рабочая область регистрации времени по проекту</a></li>
+<li><a href="/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Мобильные рабочие области управления затратами</a></li>
+<li><a href="/dynamics365/operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Мобильная рабочая область запасов в наличии</a></li>
+<li><a href="/dynamics365/operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Мобильные рабочие области заказов на продажу</a></li>
+<li><a href="/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Мобильная рабочая область совместной работы с поставщиками</a></li>
+<li><a href="/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Мобильная рабочая область регистрации времени по проектам</a></li>
+<li><a href="/dynamics365/operations/financials/expense-management/expense-management-mobile-workspace">Мобильная рабочая область управления расходами</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td>Системный администратор</td>
 <td>Опубликуйте мобильные рабочие области, поставляемые корпорацией Microsoft.</td>
-<td>См. раздел &quot;Необходимые условия&quot; в разделе о мобильной рабочей области, которую ваша организация хочет использовать:
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Мобильные рабочие области управления затратами</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Мобильная рабочая область запасов в наличии</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Мобильные рабочие области заказов на продажу</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Мобильная рабочая область совместной работы с поставщиками</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Мобильная рабочая область регистрации времени по проекту</a></li>
-</ul></td>
+<td><a href="publish-mobile-workspace.md">Публикация мобильной рабочей области</a>
+</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>Разработчик или независимый поставщик программного обеспечения (ISV)</td>
 <td>Используйте мобильную платформу Dynamics 365 for Operations для создания настраиваемых мобильных рабочих областей.</td>
 <td><ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Мобильная платформа Dynamics 365 for Operations</a></li>
+<li><a href="mobile-platform.md">Мобильная платформа Dynamics 365 for Operations</a></li>
 <li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">Интерфейсы API X++ рабочей области Dynamics 365 for Operations</a></li>
 </ul></td>
 </tr>
@@ -126,19 +119,19 @@ ms.lasthandoff: 04/25/2017
 <td>5</td>
 <td>ISV</td>
 <td>Создайте пакет развертывания, содержащий настраиваемые мобильные рабочие области, и отправьте пакет в службы Microsoft Dynamics Lifecycle Services (LCS).</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Создание пакета развертывания</a></td>
+<td><a href="../deployment/create-apply-deployable-package.md">Создание пакета развертывания</a></td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>Системный администратор</td>
 <td>Примените пакет развертывания, содержащий настраиваемые рабочие области, предоставленные независимым производителем программного обеспечения.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Применение пакета развертывания в системе Microsoft Dynamics 365 for Operations</a></td>
+<td><a href="../deployment/apply-deployable-package-system.md">Применение пакета развертывания в системе Microsoft Dynamics 365 for Operations</a></td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>Системный администратор</td>
 <td>Опубликуйте настраиваемые мобильные рабочие области, поставляемые независимым разработчиком программного обеспечения.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/publish-mobile-workspace">Публикация мобильной рабочей области</a></td>
+<td><a href="publish-mobile-workspace.md">Публикация мобильной рабочей области</a></td>
 </tr>
 <tr class="even">
 <td>8</td>
@@ -153,24 +146,12 @@ ms.lasthandoff: 04/25/2017
 <td>9</td>
 <td>Пользователь</td>
 <td>Выполните вход и используйте мобильное приложение Dynamics 365 for Operations. Приложение включает в себя мобильные рабочие области, которые были опубликованы.</td>
-<td>Корпорация Microsoft предоставляет следующие мобильные рабочие области:
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Мобильные рабочие области управления затратами</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Мобильная рабочая область запасов в наличии</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Мобильные рабочие области заказов на продажу</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Мобильная рабочая область совместной работы с поставщиками</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Мобильная рабочая область регистрации времени по проекту</a></li>
-</ul></td>
+<td>Для просмотра списка мобильных рабочих областей, предоставляемых корпорацией Microsoft, см. раздел <a href="mobile-workspaces-released.md">Мобильные рабочие области, недавно выпущенные для мобильного приложения Dynamics 365 for Operations</a>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="see-also"></a>См. также
---------
-
-[Мобильные рабочие области, недавно выпущенные для мобильного приложения Dynamics 365 for Operations](mobile-workspaces-released.md)
 
 
 

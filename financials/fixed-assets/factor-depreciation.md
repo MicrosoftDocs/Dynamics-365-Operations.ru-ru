@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bb6608072049295185579d33712e46046c6d6827
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 131045a5702f8c85be44ba1ebae1866c033850b9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -54,7 +54,7 @@ ms.lasthandoff: 04/25/2017
 
 | Год | Период      | Сумма амортизации | Сумма остаточной стоимости |
 |------|-------------|---------------------|-----------------------|
-| В единицах    | 31 декабря | 307,69              | 99 692,31             |
+| 1    | 31 декабря | 307,69              | 99 692,31             |
 | 2    | 31 декабря | 1 447,21            | 98 245,10             |
 | 3    | 31 декабря | 3 104,50            | 95 140,60             |
 | 4    | 31 декабря | 5 150,21            | 89 990,39             |
@@ -70,7 +70,7 @@ ms.lasthandoff: 04/25/2017
 
 | Год | Период      | Сумма амортизации | Сумма остаточной стоимости |
 |------|-------------|---------------------|-----------------------|
-| В единицах    | 31 декабря | 56 080,43           | 43 919,57             |
+| 1    | 31 декабря | 56 080,43           | 43 919,57             |
 | 2    | 31 декабря | 10 665,70           | 33 253,87             |
 | 3    | 31 декабря | 7 156,22            | 26 097,65             |
 | 4    | 31 декабря | 5 538,06            | 20 559,59             |

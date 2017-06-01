@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqPlanSched
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: c9120ecea6b57f659dbd4b0e5cad2dcfa033b91f
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ce3ff2ac0a5bd9bd342baa05425d7d0957ab8a09
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -43,7 +43,7 @@ ms.lasthandoff: 04/25/2017
 1.  На странице **Ключи сокращения** настройте следующие строки.
     | Сдача | Единица измерения  | Процент |
     |--------|-------|---------|
-    | В единицах      | Месяц | 100     |
+    | 1      | Месяц | 100     |
     | 2      | Месяц | 75      |
     | 3      | Месяц | 50      |
     | 4      | Месяц | 25      |
