@@ -3,10 +3,10 @@ title: "Мобильная рабочая область регистрации 
 description: "В этом разделе приводятся сведения о мобильной рабочей области регистрации времени по проекту. Эта рабочая область позволяет пользователям вводить и сохранять время по проекту, используя мобильное устройство."
 author: annbe
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -19,19 +19,18 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e3e0be36c045acc3750efbb739d79d81ab937c65
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
-# <a name="project-time-entry-mobile-workspace"></a>Мобильная рабочая область регистрации времени по проекту
+# <a name="project-time-entry-mobile-workspace"></a>Мобильная рабочая область регистрации времени по проектам
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 В этом разделе проводятся сведения о мобильной рабочей области регистрации времени по проекту для Dynamics 365 for Operations. Эта рабочая область позволяет пользователям вводить и сохранять время по проекту, используя мобильное устройство.
@@ -71,7 +70,7 @@ ms.lasthandoff: 04/25/2017
 <tr class="odd">
 <td>Должна быть развернута система Microsoft Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии.</td>
 <td>Системный администратор</td>
-<td>Если система Dynamics 365 for Operations еще не развернута в вашей организации, ваш системный администратор должен ознакомиться с разделом <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Развертывание демонстрационной среды Microsoft Dynamics 365 for Operations</a>.</td>
+<td>Если система Dynamics 365 for Operations еще не развернута в вашей организации, ваш системный администратор должен ознакомиться с разделом <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Развертывание демонстрационной среды Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>Должно быть установлено обновление KB 4018050.</td>
@@ -79,9 +78,9 @@ ms.lasthandoff: 04/25/2017
 <td>KB 4018050 является обновлением X++ или исправлением метаданных, содержащим мобильную рабочую область <strong>Регистрация времени по проекту</strong>. Для установки KB 4018050 системный администратор должен выполнить следующие задачи.
 <ol>
 <li>Загрузите KB 4018050 из службы Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Установите исправление метаданных</a>.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Создайте пакет развертывания</a>, содержащий модели <strong>ApplicationSuite</strong> и <strong>ProjectMobile</strong>, затем отправьте пакет развертывания в LCS.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Примените этот пакет развертывания</a> для вашей системы Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Установите исправление метаданных</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Создайте пакет развертывания</a>, содержащий модели <strong>ApplicationSuite</strong> и <strong>ProjectMobile</strong>, затем отправьте пакет развертывания в LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Примените этот пакет развертывания</a> для вашей системы Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">

@@ -67,6 +67,7 @@
 ### [Банковская выписка CODA](emea-bel-coda-bank-statement-import.md)
 ### [Налоговая декларация Intervat](emea-bel-intervat-tax-declaration.md)
 ### [Настройка отчетов PRODCOM](emea-bel-prodcom-report.md)
+### [Отчеты по выверке](emea-bel-reconciliation-reports.md)
 
 ## Чешская Республика
 ### [Скидка при оплате по кредит-ноте](emea-cze-credit-note-cash-discount.md)
@@ -74,6 +75,7 @@
 ### [Приостановка амортизации](emea-cze-depreciation-suspension-holidays.md)
 ### [Амортизация ОС](emea-cze-fixed-assets-depreciation.md)
 ### [Полугодовая амортизация](emea-cze-half-depreciation-fixed-asset-disposal.md)
+### [Налоговая отчетность ](emea-cze-intra-community-vat-transactions.md)
 ### [Отчет по НДС](emea-cze-vat-statement-details.md)
 ## Эстония
 ### [Отчет по НДС](emea-est-vat-statement-details.md)

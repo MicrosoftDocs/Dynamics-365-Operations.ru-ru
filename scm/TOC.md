@@ -4,6 +4,7 @@
 ## Создание прогноза спроса
 ### [Обзор прогноза спроса](master-planning/introduction-demand-forecasting.md)
 ### [Настройка прогноза спроса](master-planning/demand-forecasting-setup.md)
+### [Импорт исторических данных для прогнозов спроса](master-planning/import-historical-data.md)
 ### [Создание статистического базового прогноза](master-planning/generate-statistical-baseline-forecast.md)
 ### [Внесение ручной корректировки в базовый прогноз](master-planning/manual-adjustments-baseline-forecast.md)
 ### [Авторизация скорректированного прогноза](master-planning/authorize-adjusted-forecast.md)

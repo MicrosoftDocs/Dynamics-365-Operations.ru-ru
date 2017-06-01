@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e0648d7f89b3e3a1f8fee6501ceb7443be16aa1a
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 75d176623b4fdf2198440becd0345628f873f6da
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -48,7 +48,7 @@ ms.lasthandoff: 04/25/2017
 
 | Номер интервала | Процент |
 |-----------------|------------|
-| В единицах               | 10,00      |
+| 1               | 10,00      |
 | 2               | 50,00      |
 | 3               | 8,00       |
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 04/25/2017
 
 |  Номер интервала | Расчет суммы амортизационных начислений за год | Остаточная стоимость на конец интервала |
 |------------------|-----------------------------------------------|-------------------------------------------|
-| В единицах                | (11000 – 1000) × 10% = 1000                | 10000 (11000 – 1000)                   |
+| 1                | (11000 – 1000) × 10% = 1000                | 10000 (11000 – 1000)                   |
 | 2                | (11000 – 1000) × 50% = 5000                | 5000 (10000 – 5000)                    |
 | 3                | (11000 – 1000) × 8% = 800                   | 4200 (5000 – 800)                       |
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: b18b631fd568219981303611036498c2df0a261f
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a7d824048c37b69240385644eb15514918f17d9e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -88,7 +88,7 @@ ms.lasthandoff: 04/25/2017
 
 |                              | 09:00–10:00 (1 ч) | 10:00–11:00 (1 ч) | 11:00–13:00 (2 ч) | 13:00–15:00 (2 ч) | Выделенное время |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
-| Число заданий в наборе | В единицах                    | 3                    | 2                     | В единицах                     | Неприменимо |
+| Число заданий в наборе | 1                    | 3                    | 2                     | 1                     | Неприменимо |
 | Задание 1                        | 1 ÷ 1 = 1 ч       | 1 ÷ 3 = 0,33 ч    | Неприменимо        | Неприменимо        | 1,33 часа     |
 | Задание 2                        | Неприменимо       | 1 ÷ 3 = 0,33 ч    | 2 ÷ 2 = 1 ч        | Неприменимо        | 1,33 часа     |
 | Задание 3                        | Неприменимо       | 1 ÷ 3 = 0,33 ч    | 2 ÷ 2 = 1 ч        | 2 ÷ 1 = 2 ч       | 3,33 часа     |
