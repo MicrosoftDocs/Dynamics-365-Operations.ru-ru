@@ -1,5 +1,5 @@
 # Power BI Content Pack
-## [Пакет содержимого управления затратами](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Пакет содержимого управления затратами](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # Заранее определенные затраты
 ## [Схема калькуляции](costing-sheets.md)
 ## [Версия расчета себестоимости](costing-versions.md)

@@ -21,4 +21,5 @@
 # Трассировка номенклатуры и партии
 ## [Слияние складских партий](merge-inventory-batches.md)
 ## [Трассировка номенклатуры и сырья](trace-items-raw-materials-inventory-production-sales.md)
+## [Регистрация серийного номера в процессе продаж](../sales-marketing/register-serial-numbers-sales-process.md)
 

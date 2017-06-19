@@ -1,4 +1,4 @@
-# [Обзор локализации](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/financials/toc.json)
+# [Обзор локализации](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/toc.json)
 # Азиатско-тихоокеанский регион
 ## Австралия
 ### [Форматы банковских файлов](apac-aus-method-of-payment-pay-vendors-banks.md)
@@ -54,6 +54,7 @@
 ## [Разноска предварительного приобретения ОС](emea-pre-acquisition-acquisition-fixed-asset.md)
 ## [Почтовые индексы](emea-import-create-postal-codes-manually.md)
 ## [Коды регистрации](emea-registration-ids.md)
+## [НДС, удерживаемый с покупателя](emea-reverse-charge.md)
 ## [Обзор кредитных переводов SEPA](../accounts-payable/sepa-credit-transfer.md)
 ## [Обзор прямого дебетования SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Настройка подписывающих лиц для печатных форм](emea-set-up-signers-for-printing-forms.md)
@@ -98,7 +99,7 @@
 ### [Отчет о списке журналов](emea-deu-journal-list-report.md)
 ### [Печать отдельной этикетки для кредитовых авизо, возникающих в результате продаж](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Венгрия
-### [Методы амортизации основных средств](emea-hun-fixed-assets-depreciation-methods.md)    
+### [Методы амортизации основных средств](emea-hun-fixed-assets-depreciation-methods.md)   
 ### [Малоценные ОС](emea-hun-low-cost-fixed-assets.md)
 ### [Перемещение основного средства на склад](emea-hun-fixed-asset-to-inventory.md)
 ## Италия
@@ -138,6 +139,7 @@
 ### [Переоценка группы ОС](emea-esp-fixed-asset-group-revaluation.md)
 ### [Внутренний НДС (ЕС)](emea-esp-intra-community-vat.md)
 ### [Разовые клиенты](emea-esp-no-one-time-customer-for-project-contracts.md)
+### [Печать чеков в испанском формате](emea-esp-print-checks-with-spanish-layout.md)
 ### [Параметры простых векселей](emea-esp-promissory-note-options.md)
 ### [Циклы продажи и покупки](emea-esp-sales-purchase-cycle.md)
 ### [Специальные записи и открывающие ведомости](emea-esp-opening-sheets-spain.md)
@@ -153,9 +155,11 @@
 ### [Финансовые журналы](latam-bra-fiscal-books.md)
 #### [Финансовые документы налога ICMS](latam-bra-icms-tax-fiscal-documents.md)
 #### [Импорт финансовых документов](latam-bra-import-fiscal-documents.md)
+#### [Экспорт и импорт проводок юридического лица из консолидации главной книги](latam-bra-general-ledger-consolidation-transactions.md)
 #### [Импорт и проверка XML-документов NF-e и DANFE-файлов](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+#### [Обработка предъявлений к оплате электронных платежей](latam-bra-process-electronic-payment-remittances.md)
 #### [Финансовые документы](latam-bra-fiscal-documents-fiscal-document-framework.md)
-#### [Текстовые заполнители финансового документа](latam-bra-fiscal-document-text-placeholders.md)
+#### [Текстовые заполнители финансовых документов](latam-bra-fiscal-document-text-placeholders.md)
 #### [Дополнительные финансовые документы покупки](latam-bra-purchase-complementary-fiscal-documents.md)
 #### [Финансовые документы, на которые имеются ссылки](latam-bra-referenced-fiscal-documents.md)
 #### [Дополнительные финансовые документы продажи](latam-bra-sales-complementary-fiscal-documents.md)
@@ -163,6 +167,8 @@
 ### [Журналы, созданные во время процесса возврата электронных платежей](latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 ### [Процесс NF-e](latam-bra-nf-e-process.md)
 ### [Параметры для юридических лиц](latam-bra-legal-entity-parameters.md)
+### [Приобретение основного средства CIAP](latam-bra-ciap-fixed-asset.md)
+### [Выбытие основного средства CIAP](latam-bra-ciap-fixed-asset.md)
 ### [Налоги](latam-bra-calculate-taxes.md)
 #### [Атрибуты налогов](latam-bra-tax-attributes.md)
 #### [Налоговые платежи](latam-bra-tax-payments.md)

@@ -15,8 +15,9 @@
 ## [Настройка и установка станции оборудования для розничной торговли](retail-hardware-station-configuration-installation.md)
 ## [Посещаемость и время присутствия для розничной торговли](retail-time-attendance.md)
 # Modern Point of Sale (MPOS) и Cloud POS
-## Периферийные устройства
+## Оборудование и периферийные устройства
 ### [Обзор периферийных устройств розничной торговли](retail-peripherals-overview.md)
+### [Симулятор периферийных устройств розничной торговли](retail-peripheral-simulator.md)
 ### [Периферийные устройства POS, протестированные корпорацией Майкрософт](microsoft-tested-pos-hardware-peripherals.md)
 ### [Определение и ведение клиентов канала, кассовых терминалов и станций оборудования](define-maintain-channel-clients-registers-hw-stations.md)
 ## Макет экрана
@@ -42,6 +43,7 @@
 ## Чеки
 ### [Настройка шаблонов чеков](receipt-templates-printing.md) 
 ### [Отправка чеков по электронной почте из MPOS](email-receipts.md)
+## [Регистратор задач и справка для POS](task-recorder-retail-pos.md)
 # Мониторинг и анализ
 ## [Мониторинг эффективности продаж и маржи](monitor-sales-margin-performance.md)
 ## [Анализ тенденций и моделей продаж](analyze-sales-trends-patterns.md)
@@ -53,6 +55,7 @@
 ## [Корректировки цены и скидки](price-adjustments-discounts.md)
 ## [Определение оптимальной комбинации пересекающихся скидок](optimal-combination-overlapping-discounts.md)
 ## [Определение скидок, специфичных для канала](define-channel-specific-discounts.md)
+## [Создание купонов для розничных продаж](retail-coupons.md)
 # Продукты и сбыт
 ## [Иерархии розничной торговли](retail-hierarchies.md)
 ## [Создание атрибутов и управление ими](create-manage-attributes.md)
@@ -60,6 +63,7 @@
 ## [Настройка штрих-кодов](set-up-bar-codes.md)
 ## [Настройка масок штрих-кодов](set-up-bar-code-masks.md)
 ## [Настройка ассортиментов](set-up-assortments.md)
+## [Продажа и возврат продуктов за пределами ассортимента](sell-return-outside-assortments.md)
 # Лояльность
 ## [Настройка программы лояльности клиентов](set-up-customer-loyalty-program.md)
 # Запасы
@@ -69,15 +73,15 @@
 ## [Организации и организационные иерархии (реквизиты Commerce)](organizational-hierarchies-commerce-essentials.md)
 # [Содержимое для ИТ-специалистов и разработчиков](dev-itpro/TOC.md)
 
-# [Финансы](/dynamics365/operations/financials/index)
+# [Финансы](/dynamics365/unified-operations/financials/index)
 
-# [Управление персоналом](/dynamics365/operations/human-resources/index)
+# [Управление персоналом](/dynamics365/unified-operations/talent/index)
 
-# [Управление цепочками поставок](/dynamics365/operations/supply-chain/index)
+# [Управление цепочками поставок](/dynamics365/unified-operations/supply-chain/index)
 
-# [Разработчик и администратор](/dynamics365/operations/dev-itpro/index)
+# [Разработчик и администратор](/dynamics365/unified-operations/dev-itpro/index)
 
 # Другие ресурсы
-## [Глоссарий Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
-## [Что нового и что изменилось](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+## [Глоссарий Dynamics 365 for Retail](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
+## [Что нового и что изменилось](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
 

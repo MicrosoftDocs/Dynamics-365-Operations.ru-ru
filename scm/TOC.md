@@ -42,7 +42,9 @@
 ### [Ведение пользователей совместной работы с поставщиками](procurement/manage-vendor-collaboration-users.md)
 ### [Настройка счетов поставщиков](procurement/set-up-vendor-accounts.md)
 ### [Совместная работа с внешними поставщиками](procurement/vendor-collaboration-work-external-vendors.md)
-### [Совместная работа с поставщиками с клиентами](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [Совместная работа с клиентами](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [Использование внешних каталогов для внешних eProcurement](procurement/use-external-catalogs-for-punchout.md)
+### [Настройка внешнего каталога для внешних eProcurement](procurement/set-up-external-catalog-for-punchout.md)
 ### [Совместная работа с поставщиками с помощью портала поставщика](procurement/collaborate-vendors-vendor-portal.md)
 ### [Мобильная рабочая область совместной работы с поставщиками](procurement/vendor-collaboration-mobile-workspace.md)
 ### [Безопасность пользователей портала поставщика](procurement/configure-security-vendor-portal-users.md)
@@ -50,19 +52,37 @@
 ### [Договоры покупки](procurement/purchase-agreements.md)
 ## Поступление продуктов и выставление накладных
 ### [Поступление продуктов по заказам на покупку](procurement/product-receipt-against-purchase-orders.md)
-### [Обзор накладных поставщика](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
-### [Профили разноски поставщиков](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+### [Обзор накладных поставщика](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [Профили разноски поставщиков](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # Управление сведениями о продукте
-## Сведения о продукте
-### [Спецификация и формула](production-control/bill-of-material-bom.md)
-### [Функциональность конструктора спецификаций](production-control/bom-designer-functionality.md)
-### [Аналитика продукта](pim/product-dimensions.md)
-### [Параметры заказа по умолчанию для аналитик и вариантов продуктов](production-control/default-order-settings.md)
-### [Номенклатура номеров продуктов](pim/product-variant-identification-nomenclature.md)
-### [Вопросы и ответы по переводу, связанному с продуктом](pim/translations-product-related-information.md)
-### [Регистрация серийного номера в процессе продаж](sales-marketing/register-serial-numbers-sales-process.md)
-### [Поиск продукта во время ввода заказа](pim/search-products-product-variants.md)
-## Создание конфигурации продукта
+## [Обзор сведений о продуктах](pim/product-information.md)
+## Ведение категорий продуктов
+## Ведение сведений о продуктах
+### Ведение определения продукта
+#### [Номенклатура номеров продуктов](pim/product-variant-identification-nomenclature.md)
+#### Шаблоны продуктов
+#### [Аналитика продукта](pim/product-dimensions.md)
+#### Атрибуты продукта
+#### Изображения продуктов и вложения
+#### Идентификаторы продуктов
+#### [Часто задаваемые вопросы по переводу сведений о продукте](pim/translations-product-related-information.md)
+### Запуск в производство продуктов для юридических лиц
+### Поиск продуктов
+#### [Поиск продукта во время ввода заказа](pim/search-products-product-variants.md)
+### Подготовка продукта для планирования
+#### [Параметры заказа по умолчанию для аналитик и вариантов продуктов](production-control/default-order-settings.md)
+#### Прогнозные модели и ключи распределения номенклатур
+### Подготовка продукта для производства
+#### Спецификация и формула
+##### [Спецификации и формулы](production-control/bill-of-material-bom.md)
+##### [Использование конструктора спецификаций](production-control/bom-designer-functionality.md)
+##### [Использование конструктора формул](production-control/formula-designer.md)
+#### Маршруты
+#### Бережливое производство
+### Подготовка продуктов для склада и логистика
+### Оценка затрат по продуктам
+#### [Расчет спецификаций](cost-management/bom-calculations.md)
+## Ведение моделей конфигурации продукта
 ### [Создание модели конфигурации продукта](pim/build-product-configuration-model.md)
 ### [Часто задаваемые вопросы по расчету модели конфигурации продукта](pim/calculate-product-configuration-models.md)
 ### [Правило конфигурации](pim/configuration-rules.md)
@@ -71,6 +91,8 @@
 ### [Повторное использование конфигурации продукта](pim/reuse-product-configurations.md)
 ### [Настройка модели конфигурации](pim/set-up-maintain-product-configuration-model.md)
 ### [Определенное системой и определенное пользователем ограничение таблицы](pim/system-defined-user-defined-table-constraints.md)
+## Импорт данных сведений о продуктах
+## Экспорт данных сведений о продуктах
 # Управление производством
 ## [Обзор производственного процесса](production-control/production-process-overview.md)
 ## [Планирование в смешанном режиме: совмещение дискретного производства, непрерывного производства и бережливого выбора источников материалов](production-control/mixed-mode-plan.md)
@@ -80,7 +102,7 @@
 #### [Требования к настройке производства](production-control/production-set-up-requirements.md)
 #### [Спецификации и формулы](production-control/bill-of-material-bom.md)
 #### [Функциональность конструктора спецификаций](production-control/bom-designer-functionality.md)
-#### [Расчеты спецификаций](cost-management/bom-calculations.md)
+#### [Расчет спецификаций](cost-management/bom-calculations.md)
 #### [Операционные ресурсы](production-control/operations-resources.md)
 #### [Возможности ресурсов](production-control/resource-capabilities.md)
 #### [Маршруты и операции](production-control/routes-operations.md)
@@ -96,6 +118,8 @@
 #### [Реверсирование статуса производственного заказа](production-control/reverse-production-order-status.md)
 #### [Приемка производственных заказов](production-control/report-production-orders-as-finished.md)
 #### [Приемка спецификаций](production-control/report-boms-as-finished.md)
+#### [Кросс-докинг из производственных заказов в дебаркадеры отгрузки](production-control/cross-docking-opportunities.md)
+#### [Регистрация потребления материалов на мобильном устройстве](production-control/register-material-consumption-hand-held-device.md)
 #### [Замещение материала на производстве](production-control/substitute-items-bom-lines.md)
 #### [Регистрация для управления производством](production-control/registration-manufacturing-execution.md)
 #### [Обратная связь производства](production-control/production-feedback.md)
@@ -111,6 +135,7 @@
 #### [Моделирование бережливой организации](production-control/lean-manufacturing-modeling-lean-organization.md)
 #### [Операционные ресурсы](production-control/operations-resources.md)
 ### Планирование заданий канбана
+#### [Визуальное планирование для бережливого производства](production-control/visual-scheduling-lean-manufacturing.md)
 #### [Планирование заданий канбана для бережливого производства](production-control/lean-manufacturing-kanban-job-scheduling.md)
 #### [Планирование заданий](production-control/job-scheduling.md)
 ### Управление заданиями канбана
@@ -128,6 +153,7 @@
 #### [Планирование операций](production-control/operations-scheduling.md)
 #### [Параметры планирования операций](production-control/operation-scheduling-options.md)
 #### [Планирование заданий](production-control/job-scheduling.md)
+#### [Диаграмма Ганта для планирования заданий](production-control/visual-scheduling-production.md)
 ### Управление производственными заданиями
 #### [Консолидированные пакетные заказы](production-control/consolidated-batch-orders.md)
 #### [Замещение материала на производстве](production-control/substitute-items-bom-lines.md)
@@ -162,18 +188,26 @@
 ## [Управление транспортировкой](transportation/transportation-management-overview.md)
 ## [Механизм транспортировки](transportation/transportation-management-engines.md)
 # Управление складом
+## Расширенное управление складом
+### [Переход с AX 2012 на Finance and Operations](warehousing/upgrade-migration-warehouse-management-processes.md)
 ## Настройка 
 ### [Управление работой с помощью шаблонов работ и директив мест хранения](warehousing/control-warehouse-location-directives.md)
 ### [Управление работниками склада](warehousing/manage-warehouse-workers.md)
 ### [Настройка макета](warehousing/warehouse-configuration.md)
 ### [Политики работы складов](warehousing/warehouse-work-policies.md)
 ### [Единица измерения и политики хранения](warehousing/unit-measure-stocking-policies.md)
-### [Содержимое Power BI для склада](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
+### [Содержимое Power BI для склада](/dynamics365/unified-operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/unified-operations/scm/toc.json)
+### [Подтверждение партии и грузоместа](warehousing/batch-and-license-plate-confirmation.md)
+### [Перемещение запасов со связанной работой](warehousing/move-inventory-associated-work.md)
+### [Системная группировка в списке открытых работ](warehousing/system-group-on-open-work-list.md)
+### [Подтверждение продукта для комплектации кластера](warehousing/cluster-picking-item-confirmation.md)
 ## Комплектация и упаковка
 ### [Упаковочные материалы и сборы](warehousing/pack-materials-packing-material-fees.md)
+### [Подтверждение поштучной комплектации](warehousing/piece-picking-confirmation.md)
 ## Инвентаризация запасов
 ### [Блокирование запасов](inventory/inventory-blocking.md)
 ### [Подсчет циклов](warehousing/cycle-counting.md)
+### [Частичный подсчет циклов местонахождений](warehousing/partial-location-cycle-counting.md)
 ### [Журнал запасов](inventory/inventory-journals.md)
 ### [Место хранения](inventory/inventory-locations.md)
 ### [Статус запасов](inventory/inventory-statuses.md)
@@ -181,6 +215,7 @@
 ## Контейнеризация 
 ## Пополнение
 ### [Пополнение](warehousing/replenishment.md)
+### [Пополнение канбанами изъятия](warehousing/material-replenishment-withdrawal-kanban.md)
 ## Мобильные устройства
 ### [Установка и настройка складских приложений](warehousing/install-configure-warehousing-app.md)
 ### [Настройка имен полей в складских приложениях](warehousing/configure-app-field-names-priorities-warehouse.md)
@@ -188,15 +223,15 @@
 ### [Портал мобильных устройств склада (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
 ### [Параметры отображения мобильного устройства склада](warehousing/change-warehouse-mobile-device-displays.md)
 
-# [Финансы](/dynamics365/operations/financials/index)
+# [Финансы](/dynamics365/unified-operations/financials/index)
 
-# [Управление персоналом](/dynamics365/operations/human-resources/index)
+# [Управление персоналом](/dynamics365/unified-operations/talent/index)
 
-# [Розничная торговля](/dynamics365/operations/retail/index)
+# [Розничная торговля](/dynamics365/unified-operations/retail/index)
 
-# [Разработчик и администратор](/dynamics365/operations/dev-itpro/index)
+# [Разработчик и администратор](/dynamics365/unified-operations/dev-itpro/index)
 
 # Другие ресурсы
-## [Глоссарий Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
-## [Что нового и что изменилось](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Глоссарий Finance and Operations](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+## [Что нового и что изменилось](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 

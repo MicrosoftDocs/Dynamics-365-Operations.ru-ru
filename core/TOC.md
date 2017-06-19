@@ -1,34 +1,34 @@
 # [Введение](index.md)
 
-# [Адаптация к Dynamics 365 for Operations](get-started/onboarding-home.md)
-## Введение в Dynamics 365 for Operations
+# [Адаптация к Finance and Operations](get-started/onboarding-home.md)
+## Введение в Finance and Operations
 ### [Начало работы с Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
-### [Регистрация на подписку](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/operations/toc.json)
-### [Получение локальной версии Dynamics AX 2012](/dynamics365/operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/operations/toc.json)
-## [Развертывание демонстрационной среды](/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/operations/toc.json)
+### [Регистрация на подписку](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Получение локальной версии Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+## [Развертывание демонстрационной среды](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Знакомство с пользовательским интерфейсом
 ### [Поиск действий](get-started/action-search.md)
 ### [Расширенная фильтрация и синтаксис запросов](get-started/advanced-filtering-query-options.md)
-### [Часто задаваемые вопросы по клиенту Dynamics 365 for Operations](get-started/client-faq.md)
+### [Часто задаваемые вопросы по клиенту Finance and Operations](get-started/client-faq.md)
 ### [Настройка и фильтрация рабочих областей](get-started/configure-filter-workspaces.md)
 ### [Отображение страниц рядом друг с другом с помощью значка "Открыть в новом окне"](get-started/display-pages-side-by-side.md)
 ### [Навигационный поиск](get-started/navigation-search.md)
 ### [Персонализация взаимодействия с пользователями](get-started/personalize-user-experience.md)
 ### [Сочетания клавиш](get-started/shortcut-keys.md)
 ### [Управление способом отображения страниц](get-started/window-management.md)
-### [Понимание Lifecycle Services](/dynamics365/operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/operations/toc.json)
+### [Понимание Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Получение справки и поддержки
-### [Обзор справки](/dynamics365/operations/dev-itpro/get-started/help-overview?toc=/dynamics365/operations/toc.json)
-### [Подключение справки](/dynamics365/operations/dev-itpro/get-started/help-connect?toc=/dynamics365/operations/toc.json)
+### [Обзор справки](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Подключение справки](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Просмотр и экспорт описаний полей](get-started/view-export-field-descriptions.md)
 
 ### Руководства по задачам и регистратор задач
-#### [Регистратор задач](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
-#### [Создание документации или обучения](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
+#### [Регистратор задач](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Создание документации или обучения](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
-## [Содержимое справки по стране/региону](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/toc.json)
+## [Содержимое справки по стране/региону](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 # [Настройка организации](organization-administration/organization-administration-home-page.md)
 ## [Организации и организационные иерархии](organization-administration/organizations-organizational-hierarchies.md)
@@ -63,17 +63,17 @@
 ## [Настройка пакетного задания обработки сообщений](organization-administration/workflow-batch-job-critical.md)
 ## [Отчет о типах workflow-процессов](organization-administration/workflow-types-report.md)
 
-# [Финансы](/dynamics365/operations/financials/index)
+# [Финансы](/dynamics365/unified-operations/financials/index)
 
-# [Управление персоналом](/dynamics365/operations/human-resources/index)
+# [Управление персоналом](/dynamics365/unified-operations/talent/index)
 
-# [Розничная торговля](/dynamics365/operations/retail/index)
+# [Розничная торговля](/dynamics365/unified-operations/retail/index)
 
-# [Управление цепочками поставок](/dynamics365/operations/supply-chain/index)
+# [Управление цепочками поставок](/dynamics365/unified-operations/supply-chain/index)
 
-# [Разработчик и администратор](/dynamics365/operations/dev-itpro/index)
+# [Разработчик и администратор](/dynamics365/unified-operations/dev-itpro/index)
 
 # Другие ресурсы
-## [Глоссарий Dynamics 365 for Operations](get-started/glossary.md)
-## [Что нового и что изменилось](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+## [Глоссарий Finance and Operations](get-started/glossary.md)
+## [Что нового и что изменилось](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
