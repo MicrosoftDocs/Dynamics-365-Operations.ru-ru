@@ -3,7 +3,7 @@ title: "Замещение материала на производстве"
 description: "Эта тема описывает, как заменять материалы во время производственного процесса."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

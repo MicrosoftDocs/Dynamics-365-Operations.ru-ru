@@ -1,9 +1,9 @@
 ---
 title: "Просмотр проводок по сопоставлению для Восточной Европы"
-description: "В этом разделе приводятся сведения о странице &quot;Проводки по сопоставлению&quot; для клиентов и поставщиков."
+description: "В этом разделе приводятся сведения о странице \"Проводки по сопоставлению\" для клиентов и поставщиков."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

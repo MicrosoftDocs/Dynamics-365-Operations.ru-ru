@@ -3,7 +3,7 @@ title: "Амортизация с уменьшаемым остатком в 125
 description: "Эта статья содержит обзор метода амортизации с уменьшаемым остатком в 125%."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

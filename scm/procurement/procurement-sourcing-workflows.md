@@ -1,9 +1,9 @@
 ---
-title: "Workflow-процессы модуля &quot;Закупки и источники&quot;"
+title: "Workflow-процессы модуля \"Закупки и источники\""
 description: "В некоторых организациях требуется, чтобы заявки на покупку и заказы на покупку утверждались пользователем, отличным от сотрудника, который ввел проводку. Чтобы настроить процесс утверждения, можно создать workflow-процесс."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Единица измерения и политики хранения"
 description: "Эта статья описывает, как единицы измерения по умолчанию, последовательности единиц измерения и преобразования единиц измерения используются в складских процессах."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

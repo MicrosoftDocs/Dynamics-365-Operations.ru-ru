@@ -3,7 +3,7 @@ title: "Принимать скидку по оплате вне периода 
 description: "В этой статье приводятся два сценария, которые показывают, как можно использовать скидку по оплате, даже если платеж осуществляется вне периода скидки по оплате."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

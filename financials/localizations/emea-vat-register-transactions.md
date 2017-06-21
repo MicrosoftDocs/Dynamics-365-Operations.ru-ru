@@ -3,7 +3,7 @@ title: "Проводки в регистре НДС для Восточной Е
 description: "В этом разделе представлена информация о проводках в регистре НДС для Эстонии, Литвы, Чехии, Венгрии, Латвии и Польши."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

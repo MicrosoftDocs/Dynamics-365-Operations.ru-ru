@@ -3,7 +3,7 @@ title: "Распространенные источники производст
 description: "Эта статья описывает различные стандартные источники каждого типа отклонения цены производства от себестоимости."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

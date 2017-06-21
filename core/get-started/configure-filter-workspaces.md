@@ -3,7 +3,7 @@ title: "Конфигурация и фильтрация рабочих обла
 description: "Эта статья предоставляет обзор о том, как настроить и фильтровать рабочие области."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

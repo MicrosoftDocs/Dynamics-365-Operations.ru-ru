@@ -3,7 +3,7 @@ title: "Определения разносок"
 description: "В этой статье приводятся примеры, которые показывают, как используются определения разноски для бюджетных обязательств по заказу на покупку и ассигнований бюджета."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

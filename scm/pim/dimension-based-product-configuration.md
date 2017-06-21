@@ -3,7 +3,7 @@ title: "Конфигурация продукта на основе аналит
 description: "Конфигурация продукта на основе аналитик представляет простое решение для создания нескольких вариантов продукта из одного шаблона продукта и его спецификации."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

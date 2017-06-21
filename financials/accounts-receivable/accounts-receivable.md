@@ -3,7 +3,7 @@ title: "Домашняя страница расчетов с клиентами
 description: "Расчеты с клиентами используются для отслеживания накладных и входящих платежей клиентов."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

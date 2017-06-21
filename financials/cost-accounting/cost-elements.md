@@ -3,7 +3,7 @@ title: "Аналитики элемента затрат"
 description: "В качестве одного из ключевых столпов в модуле учета затрат, аналитики элементов затрат используются для классификации и отслеживания направления потока затрат."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Анализатор источника учета"
 description: "Эта статья представляет информацию об Анализаторе источника учета, который можно использовать для подробного анализа сведений об источнике за учетными записями ГК."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

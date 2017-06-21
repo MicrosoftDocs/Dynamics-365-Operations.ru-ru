@@ -3,7 +3,7 @@ title: "Отказ, возобновление или сторнирование
 description: "Эта статья описывает порядок, как отказаться, восстановить и реверсировать начисления для процентов и сборов."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

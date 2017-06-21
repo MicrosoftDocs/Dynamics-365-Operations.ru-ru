@@ -3,7 +3,7 @@ title: "Реверсирование платежа поставщику"
 description: "В этой статье описывается разница между реверсированием, удалением, аннулированием и отклонением платежа. Кроме того, объясняются два метода для реверсирования чека поставщика."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

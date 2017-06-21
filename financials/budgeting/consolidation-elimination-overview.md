@@ -3,7 +3,7 @@ title: "Обзор консолидации и Закрытия"
 description: "В этой статье приводятся общие сведения о процессе консолидации и закрытия. Она включает ответы на некоторые часто задаваемые вопросы."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

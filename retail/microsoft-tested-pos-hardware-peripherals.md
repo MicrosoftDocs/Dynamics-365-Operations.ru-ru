@@ -3,12 +3,13 @@ title: "Периферийное POS-оборудование"
 description: "Retail Modern POS и Cloud POS могут использовать широкий диапазон периферийных POS-устройств с несколькими интерфейсами и параметрами развертывания для охвата различных бизнес-сценариев в розничной торговле."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: josaw
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36

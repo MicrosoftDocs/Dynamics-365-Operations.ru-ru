@@ -3,10 +3,10 @@ title: "Обзор управления производительностью"
 description: "Процесс управления производительностью позволяет сотрудникам документировать и обсуждать свою производительность с менеджером. В свою очередь, менеджеры могут предоставить отзывы и рекомендации сотрудникам."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma

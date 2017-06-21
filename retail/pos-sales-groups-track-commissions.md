@@ -3,12 +3,13 @@ title: "Отслеживание комиссий в POS-терминале с �
 description: "В розничной торговли принято отслеживать продажи по сотруднику, который работал с клиентом — обеспечивал помощь, расширение продаж или перекрестные продажи и обрабатывал проводку."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations, Core
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa

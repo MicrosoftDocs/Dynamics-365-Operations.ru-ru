@@ -3,7 +3,7 @@ title: "Использование быстрого импорта и экспо
 description: "С помощью быстрого импорта/экспорта можно импортировать и экспортировать, выполняя меньшее число шагов."
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
 ms.service: 

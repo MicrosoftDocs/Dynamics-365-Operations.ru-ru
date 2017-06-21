@@ -3,7 +3,7 @@ title: "Аккредитивы и импорт коллекций"
 description: "Эта статья содержит общие сведения об аккредитивах и импорте коллекций. Оба типа банковского документа часто используются для покупки и продажи товаров через международные границы."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

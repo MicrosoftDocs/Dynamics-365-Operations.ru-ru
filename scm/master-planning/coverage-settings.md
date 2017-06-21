@@ -3,7 +3,7 @@ title: "Параметры покрытия"
 description: "При сводном планировании для вычисления потребностей в номенклатуре используются параметры покрытия."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Настройка коносамента"
 description: "В этом разделе описаны способы настройки входящих операций консигнационных запасов."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Настройка кредита и сборов"
 description: "В этой статье описывается, как настроить функцию сборов."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

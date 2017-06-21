@@ -3,7 +3,7 @@ title: "Амортизация срока службы (прямолинейны
 description: "Эта статья содержит обзор метода линейной амортизации."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

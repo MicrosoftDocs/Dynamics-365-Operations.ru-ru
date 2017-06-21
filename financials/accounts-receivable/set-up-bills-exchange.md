@@ -3,7 +3,7 @@ title: "Настройка спецификаций"
 description: "В этом разделе описываются шаги по настройке переводных векселей."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

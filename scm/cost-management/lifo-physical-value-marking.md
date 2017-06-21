@@ -3,7 +3,7 @@ title: "Модель ЛИФО с физической стоимостью и м
 description: "Метод ЛИФО - это складская модель, в которой последние (самые новые) приходы расходуются первыми. Расходы из запасов сопоставляются с последними приходами в запасах на дату складской проводки."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

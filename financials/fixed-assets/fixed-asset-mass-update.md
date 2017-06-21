@@ -3,7 +3,7 @@ title: "Массовое обновление основных средств"
 description: "При использовании книг можно изменить соглашения по амортизации для группы активов, являющейся частью одной и той же книги."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
