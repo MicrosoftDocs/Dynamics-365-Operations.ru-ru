@@ -3,7 +3,7 @@ title: "Ресурсы Operations"
 description: "Операционные ресурсы выполняют действия проекта или производственного процесса. Они могут быть разных видов и могут иметь различные возможности."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

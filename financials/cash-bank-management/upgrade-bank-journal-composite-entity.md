@@ -3,7 +3,7 @@ title: "Обновление составного объекта журнала 
 description: "Следующие шаги требуются, чтобы добавить дополнительное поле BankTransactionType в составной объект BankJournalEntity."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

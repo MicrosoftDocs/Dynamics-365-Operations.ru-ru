@@ -1,9 +1,9 @@
 ---
-title: "Обзор модуля &quot;Закупки и источники&quot;"
-description: "В этой статье содержится обзор функциональных возможностей, доступных в модуле &quot; Закупки и источники&quot;."
+title: "Обзор модуля \"Закупки и источники\""
+description: "В этой статье содержится обзор функциональных возможностей, доступных в модуле \" Закупки и источники\"."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

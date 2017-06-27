@@ -3,7 +3,7 @@ title: "Домашняя страница основных средств"
 description: "Основные средства — это находящиеся в собственности человека или организации здания, транспортные средства, земля и оборудование."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Зачет клиентов"
 description: "В этом статье описан порядок создания проводок возмещения для группы клиентов. Если клиент имеет кредитовое сальдо, можно возместить клиенту сумму сальдо."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

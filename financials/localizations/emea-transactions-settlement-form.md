@@ -1,18 +1,18 @@
 ---
 title: "Просмотр проводок по сопоставлению для Восточной Европы"
-description: "В этом разделе приводятся сведения о странице &quot;Проводки по сопоставлению&quot; для клиентов и поставщиков."
+description: "В этом разделе приводятся сведения о странице \"Проводки по сопоставлению\" для клиентов и поставщиков."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustVendTransPostingLog_RU
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 270544
-ms.assetid: 3d0de195-183b-4b0c-b432-074b411200e2
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30

@@ -3,7 +3,7 @@ title: "Параметры отображения для мобильного у
 description: "В этом статье описывается, как настроить внешний вид дисплея мобильного устройства и как сопоставить сочетания клавиш с элементами управления, например кнопками."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

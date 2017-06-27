@@ -3,13 +3,14 @@ title: "Регистрация посещаемости и времени при
 description: "Работники с регистрацией времени могут вводить различные типы регистрации времени, например, приход на работу, уход на работу, регистрация дополнительных мероприятий и регистрация отсутствия. В этой статье описывается регистрации, их расчет, утверждение и использование workflow-процесса для добавления структуры и автоматизированное утверждение в процессу утверждения табелей."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
+ms.reviewer: rschloma
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f

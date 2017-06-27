@@ -3,7 +3,7 @@ title: "Вопросы и ответы по переводам, связанны
 description: "В этом разделе описывается, как управлять переводами для продуктов, значений аналитик продуктов и атрибутов продуктов."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

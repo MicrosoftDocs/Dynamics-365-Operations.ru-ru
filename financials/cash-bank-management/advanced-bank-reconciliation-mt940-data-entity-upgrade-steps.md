@@ -3,7 +3,7 @@ title: "Импорт расширенной банковской выверки 
 description: "Порядковый номер должен быть добавлен в объект импорта банковской выписки для поддержки формата MT940."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

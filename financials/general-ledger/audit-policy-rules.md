@@ -3,14 +3,14 @@ title: "Правила политики аудита"
 description: "Для оценки отчетов по расходам, накладных поставщиков и заказов на покупку в соответствии на предмет соответствия созданным правилам политики можно использовать политики аудита. Все правила, связанные с политиками аудита, применяются в пакетном режиме в соответствии с заданным графиком.  Каждое правило политики представляет собой экземпляр типа правила политики. Для каждого типа правила политики одновременно может быть активно только одно правило политики."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: twheeloc
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 12991
 ms.assetid: 8d787017-71dc-418f-b8c2-4ea9763d9978

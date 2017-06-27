@@ -3,7 +3,7 @@ title: "Домашняя страница расчетов с поставщик
 description: "В этом разделе представлен обзор расчетов с поставщиками."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

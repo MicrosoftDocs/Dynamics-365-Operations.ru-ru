@@ -3,7 +3,7 @@ title: "Записи затрат"
 description: "В этой статье представлена информация о записях затрат и когда они созданы. Запись затрат — это запись, регистрирующая количество и стоимость данного события."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

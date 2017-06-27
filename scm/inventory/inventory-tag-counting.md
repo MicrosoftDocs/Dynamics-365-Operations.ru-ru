@@ -3,7 +3,7 @@ title: "Учет маркеров запасов"
 description: "Эта статья предоставляет информацию о Меченной инвентаризации, которые используются для сравнения фактического содержимого склада с запасами в наличии."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

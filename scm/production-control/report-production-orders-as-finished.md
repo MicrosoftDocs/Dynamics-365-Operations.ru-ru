@@ -3,7 +3,7 @@ title: "Включение производственных заказов в о
 description: "Приемка является стадией производства. На этом этапе готовая продукция принимается и перемещается из производственного заказа в запасы."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

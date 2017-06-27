@@ -3,7 +3,7 @@ title: "Планирование заданий канбана для береж
 description: "Эта статья представлена информация о визуальном контроле над планированием заданий канбана и различных способов для планирования заданий канбана."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

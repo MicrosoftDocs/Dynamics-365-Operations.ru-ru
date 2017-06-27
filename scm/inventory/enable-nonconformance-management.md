@@ -3,7 +3,7 @@ title: "Управление несоответствием"
 description: "Эта статья описывает базовые настройки, необходимые для использования несоответствий. Дополнительная настройка требуется, если необходимо использовать заказы для контроля качества."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

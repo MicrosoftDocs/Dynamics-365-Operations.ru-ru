@@ -3,7 +3,7 @@ title: "Закрытие на конец года"
 description: "В этом разделе описывается необходимая настройка и действия для запуска процесса закрытия главной книги на конец года."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

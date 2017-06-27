@@ -3,7 +3,7 @@ title: "Планирование операций"
 description: "В данном разделе содержится общая информация о планировании операций. Планирование операций можно использовать, чтобы получить общую оценку производственного процесса по времени."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Округленная сумма для расчетов амортиз
 description: "В этой статье рассматривается поле округление поле округления при амортизации, имеющееся на страницах настройки книг."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

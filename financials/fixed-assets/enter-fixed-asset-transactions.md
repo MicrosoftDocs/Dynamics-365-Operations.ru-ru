@@ -3,7 +3,7 @@ title: "Параметры проводки с основными средств
 description: "Эта статья описывает различные методы, доступные для создания проводок с основными средствами."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

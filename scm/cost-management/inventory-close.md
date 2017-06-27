@@ -3,7 +3,7 @@ title: "Закрыть запасы"
 description: "Как часть процесса сопоставления проводок расхода и проводками прихода можно также выбрать обновление главной книги для того, чтобы отражать сделанные корректировки."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

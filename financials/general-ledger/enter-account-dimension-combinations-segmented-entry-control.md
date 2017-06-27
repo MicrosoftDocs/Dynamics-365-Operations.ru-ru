@@ -3,7 +3,7 @@ title: "Ввод комбинаций счета и аналитики (элем
 description: "В этой статье описывается порядок ввода сочетания накладной и аналитики или счетов ГК. Процедуру записи часто называют поделенное на сегменты управление записью."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

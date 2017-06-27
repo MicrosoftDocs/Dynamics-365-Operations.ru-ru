@@ -3,7 +3,7 @@ title: "Резервирование по заказу"
 description: "Эта статья содержит сведения о резервировании по заказу. Резервирование по заказу помогает гарантировано обещать даты доставки для клиентов и обеспечивает гибкость для выполнения этих дат."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

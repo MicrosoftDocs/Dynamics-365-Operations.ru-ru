@@ -3,7 +3,7 @@ title: "Просмотр записей журнала и проводок"
 description: "Эта статья описывает различные методы, которыми можно посмотреть записи и проводки в журнале"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

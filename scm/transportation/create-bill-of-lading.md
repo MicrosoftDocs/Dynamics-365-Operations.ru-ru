@@ -3,7 +3,7 @@ title: "Создание транспортной накладной"
 description: "В этом разделе описывается создание транспортной накладной при использовании процессов управления складом."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

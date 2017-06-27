@@ -1,9 +1,9 @@
 ---
-title: "Настройка модулей &quot;Расчеты с клиентами&quot; и &quot;Кредит и сборы&quot;"
+title: "Настройка модулей \"Расчеты с клиентами\" и \"Кредит и сборы\""
 description: "Настройка разделов Расчеты с клиентами и Кредит и сборы для отслеживания накладных и входящих платежей от клиентов."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

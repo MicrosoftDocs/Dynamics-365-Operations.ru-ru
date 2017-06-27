@@ -1,14 +1,15 @@
 ---
 title: "Использование workflow-процессов для управления сведениями о сотрудниках"
-description: "В этом разделе объясняется, как можно использовать возможности этого workflow-процесса для модуля &quot;Управление персоналом&quot; для управления сведениями о сотрудниках. Например, можно связать workflow-процесс с должностью и настроить workflow-процесс утверждения, который запускается, когда сотрудник вносит изменение в свою запись."
+description: "В этом разделе объясняется, как можно использовать возможности этого workflow-процесса для модуля \"Управление персоналом\" для управления сведениями о сотрудниках. Например, можно связать workflow-процесс с должностью и настроить workflow-процесс утверждения, который запускается, когда сотрудник вносит изменение в свою запись."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
+ms.reviewer: rschloma
 ms.search.scope: Operations, Core
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d

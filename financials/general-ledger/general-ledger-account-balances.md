@@ -3,7 +3,7 @@ title: "Сальдо счета главной книги"
 description: "Эта статья описывает 2 метода для просмотра сальдо счета ГК — страница списка оборотно-сальдовой ведомости и финансовые отчеты. Она также рассматривает, как обновлять сальдо набора аналитик."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
