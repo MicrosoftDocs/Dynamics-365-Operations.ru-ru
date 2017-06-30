@@ -1,9 +1,9 @@
 ---
-title: "Введение в Dynamics 365 for Operations"
-description: "Microsoft Dynamics 365 for Operations — бизнес-приложения для предприятий от корпорации Майкрософт. Эта страница поможет вам ознакомиться с продуктом и начать работу с ним."
+title: "Введение в Dynamics 365 for Finance and Operations"
+description: "Microsoft Dynamics 365 for Finance and Operations — бизнес-приложение для предприятий от корпорации Майкрософт. Эта страница поможет вам ознакомиться с продуктом и начать работу с ним."
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,77 +17,107 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86f8625019c25257d8d07701b17707c8ca48c9df
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 8703b3bc5642e6dbe9dd399ced5af6da25f9b226
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
-# <a name="introduction-to-dynamics-365-for-operations"></a>Введение в Dynamics 365 for Operations
+# <a name="introduction-to-dynamics-365-finance-and-operations"></a>Введение в Dynamics 365 for Finance and Operations
 
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Operations — бизнес-приложения для предприятий от корпорации Майкрософт. Оно позволяет быстро принимать более эффективные решения с помощью интеллектуального пользовательского интерфейса, предоставляющего доступ к сведениям и данным в режиме реального времени. Оно позволяет предприятиям меняться и вводить усовершенствования за счет надежной бизнес-логики, позволяющей быстро перерабатывать бизнес-процессы. Оно предоставляет предприятиям гибкие возможности для роста в удобном для них темпе и позволяет работать практически в любом месте и в любое время, позволяя масштабировать операции глобально для удовлетворения бизнес-требований. 
+Microsoft Dynamics 365 for Finance and Operations — бизнес-приложение для предприятий от корпорации Майкрософт. Оно позволяет быстро принимать более эффективные решения с помощью интеллектуального пользовательского интерфейса, предоставляющего доступ к сведениям и данным в режиме реального времени. Оно позволяет предприятиям меняться и вводить усовершенствования за счет надежной бизнес-логики, позволяющей быстро перерабатывать бизнес-процессы. Оно предоставляет предприятиям гибкие возможности для роста в удобном для них темпе и позволяет работать практически в любом месте и в любое время, позволяя масштабировать операции глобально для удовлетворения бизнес-требований. 
 
-Это руководство пользователя поможет узнать, как настроить Dynamics 365 for Operations в соответствии собственными потребностями.    
+Эта документация поможет узнать, как настроить Dynamics 365 for Finance and Operations в соответствии собственными потребностями. Она подключена к документации по связанным продуктам в комплекте Unified Operations, Dynamics 365 for Retail и Dynamics 365 for Talent. 
 
 <table>
 <colgroup>
-<col width="50%" />
-<col width="50%" />
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started/onboarding-home.md">Адаптация организации</a></p>
-<p>Финансы</p>
-<ul><li><a href="financials/accounts-payable/accounts-payable.md">Расчеты с поставщиками</a></li>
-<li><a href="financials/accounts-receivable/accounts-receivable.md">Расчеты с клиентами</a></li>
-<li><a href="financials/budgeting/budgeting-overview.md">Бюджетирование</a></li>
-<li><a href="financials/cash-bank-management/cash-bank-management.md">Управление банком и кассовыми операциями</a></li>
-<li><a href="financials/cost-accounting/cost-accounting-home-page.md">Учет затрат</a></li>
-<li><a href="financials/fixed-assets/fixed-assets.md">Основные средства</a></li>
-<li><a href="financials/general-ledger/general-ledger.md">Главная книга</a></li>
-<li><a href="financials/project-management/overview-project-management-accounting.md">Управление проектами</a></li>
-<li><a href="financials/public-sector/public-sector-functionality.md">Государственный сектор</a></li></ul>
-<p><a href="dev-itpro/lcs-solutions/country-region.md">Региональные возможности</a></p>
-<p>Управление персоналом</p>
-   <ul>
-  <li><a href="human-resources/departments-jobs-positions.md">Стратегия управления персоналом</a></li>
-  <li><a href="human-resources/manage-recruiting-process.md">Набор, наем и мотивация</a></li>
-  <li><a href="human-resources/performance-management-overview.md">Обучение сотрудников</a></li>
-  <li><a href="human-resources/manage-benefit-program.md">Льготы</a></li>
-  <li><a href="human-resources/questionnaires.md">Анкета</a></li>
-  <li><a href="human-resources/localizations/noam-usa-payroll.md">Функции для США</a></li>
-</ul></td>
-  <td>
-  <p>Розничная торговля</p>
+<td><h3>Финансы</h3>
+<p>Соответствие</p>
+<p>Управление финансами</p>
+<ul><li><a href="../financials/accounts-payable/accounts-payable">Расчеты с поставщиками</a></li>
+<li><a href="../financials/accounts-receivable/accounts-receivable">Расчеты с клиентами</a></li>
+<li><a href="../financials/budgeting/budgeting-overview">Бюджетирование</a></li>
+<li><a href="../financials/cash-bank-management/cash-bank-management">Управление банком и кассовыми операциями</a></li>
+<li><a href="../financials/cost-accounting/cost-accounting-home-page">Учет затрат</a></li>
+<li><a href="../financials/fixed-assets/fixed-assets">Основные средства</a></li>
+<li><a href="../financials/general-ledger/general-ledger">Главная книга</a></li>
+
+<li><a href="../financials/public-sector/public-sector-functionality">Государственный сектор</a></li>
+<li><a href="../dev-itpro/lcs-solutions/country-region">Региональные нормативные компоненты</a></li></ul>
+<p><a href="../financials/project-management/overview-project-management-accounting">Управление проектами</a></p>
+<H3>Управление персоналом</h3>
   <ul>
-<li><a href="retail/call-center-functionality.md">Центр обработки вызовов</a></li>
-  <li><a href="retail/define-maintain-retail-channels.md">Настройка канала и управление им</a></li>
-  <li><a href="retail/define-maintain-channel-clients-registers-hw-stations.md">MPOS и Cloud POS</a></li>
-  <li><a href="retail/dev-itpro/dev-retail-home-page.md">Разработчик розничной торговли и администрирование</a></li></ul>
-  <p>Управление цепочкой поставок</p>
+<li><a href="hr/manage-recruiting-process">Набор сотрудников</a></li>
+<li><a href="hr/localizations/noam-usa-payroll">Зарплата, США</a></li>
+</ul>
+<h3>Управление цепочкой поставок</h3>
+<p><a href="../supply-chain/cost-management/costing-sheets">Управление затратами</a></p>
+<p><a href="../supply-chain/inventory/inventory-locations">Управление запасами</a></p>
+<p>Логистика</p>
+<ul><li><a href="../supply-chain/transportation/transportation-management-overview">Управление транспортировкой</a></li>
+<li><a href="../supply-chain/warehousing/warehouse-configuration">Управление складом</a></li></ul></li>
+<p><a href="../supply-chain/master-planning/master-plans">Планирование</a></p>
+  <p><a href="../supply-chain/pim/set-up-maintain-product-configuration-model">Управление сведениями о продукте</a></p>
+  <p><a href="../supply-chain/production-control/create-production-orders">Управление производством</a></p>
+<p>Управление заказами</p>
+  <ul><li><a href="../supply-chain/procurement/procurement-sourcing-overview">Закупки и источники</a></li>
+  <li><a href="../supply-chain/sales-marketing/overview-sales-marketing">Продажи и маркетинг</a></li></ul>
+</td>
+<td>
+<h3>Платформа Unified Operations</h3>
+<p>Бизнес-аналитика</p>
+<ul><li><a href="../dev-itpro/analytics/analytics">Аналитика</a></li>
+ <li><a href="../dev-itpro/analytics/document-reporting-services">Бизнес-документы</a></li>
+<li><a href="../dev-itpro/analytics/financial-reporting-intro">Финансовая отчетность</a></li>
+<li><a href="../dev-itpro/analytics/general-electronic-reporting">Нормативная отчетность</a></li></ul>
+
+<p><a href="../dev-itpro/mobile-apps/mobile-platform">Мобильная платформа</a></p>
+
+ <p>Функциональные возможности для разработчиков</p>
 <ul>
-<li><a href="supply-chain/cost-management/costing-sheets.md">Управление затратами</a></li>
-  <li><a href="supply-chain/inventory/inventory-locations.md">Управление запасами</a></li>
-  <li><a href="supply-chain/master-planning/master-plans.md">Сводное планирование</a></li>
-  <li><a href="supply-chain/procurement/procurement-sourcing-overview.md">Закупки и источники</a></li>
-  <li><a href="supply-chain/pim/set-up-maintain-product-configuration-model.md">Управление сведениями о продукте</a></li>
-  <li><a href="supply-chain/production-control/create-production-orders">Управление производством</a></li>
-  <li><a href="supply-chain/sales-marketing/overview-sales-marketing.md">Продажи и маркетинг</a></li>
-  <li><a href="supply-chain/transportation/transportation-management-overview.md">Управление транспортировкой</a></li>
-  <li><a href="supply-chain/warehousing/warehouse-configuration.md">Управление складом</a></li></ul>
-  <p>Функциональные возможности для разработчиков и администраторов</p>
-  <ul><li><a href="dev-itpro/analytics/analytics.md">Аналитика</a></li>
-  <li><a href="dev-itpro/data-entities/data-entities.md">Информационные объекты</a></li>
-  <li><a href="dev-itpro/mobile-apps/mobile-platform.md">Мобильные приложения</a></li>
-  <li><a href="dev-itpro/office-integration/office-integration.md">Интеграция с Office</a></li>
-  <li><a href="dev-itpro/sysadmin/system-administration-home-page.md">Администрирование</a></li>
-  <li><a href="dev-itpro/dev-tools/developer-home-page.md">Средства разработки</a></li></ul></td>
+<li><a href="../dev-itpro/continuous-delivery-home-page">Непрерывная поставка</a></li>
+<li><a href="../dev-itpro/get-started/demo-data">Демонстрационные данные</a></li>
+<li><a href="../dev-itpro/dev-tools/developer-home-page">Средства разработки</a></li>
+<li><a href="../dev-itpro/extensibility/customize-model-elements-extensions">Расширяемость</a></li>
+<li><p>Интеграция</p>
+<ul><li><a href="../dev-itpro/data-entities/data-entities">Информационные объекты</a></li>
+<li><a href="../dev-itpro/office-integration/office-integration">Интеграция с Office</a></li></ul></li></ul>
+
+<p>Функциональность администратора<p>
+<ul>
+<li><a href="../get-started/onboarding-home">Адаптация организации</a></li>
+<li><a href="../dev-itpro/deploy-demo-environment">Развертывание и обслуживание</a></li>
+<li><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Обновление</a></li>
+<li><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Управление данными</a></li>
+<li><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></li>
+<li><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Управление организацией</a></li>
+<li><a href="../dev-itpro/sysadmin/system-administration-home-page">Администрирование системы</a></li>
+<ul>
+</td>
+<td>
+<h3>Dynamics 365 for Talent</h3>
+<p><a href="../talent/manage-benefit-program">Льготы</a></p>
+<p><a href="../talent/performance-management-overview">Развитие и обучение сотрудников</a></p>
+<p><a href="../talent/questionnaires">Анкета</a></p>
+
+<h3>Dynamics 365 for Retail</h3>
+<p><a href="../retail/call-center-functionality">Центр обработки вызовов</p>
+<p><a href="../retail/define-maintain-retail-channels">Настройка канала и управление им</p>
+<p><a href="../retail/retail-peripherals-overview">MPOS и Cloud POS</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">Разработчик розничной торговли и администрирование</p>
+
+</td>
 </tr>
+
 </tbody>
 </table>
-
-
 
