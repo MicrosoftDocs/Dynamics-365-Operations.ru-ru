@@ -1,15 +1,15 @@
 ---
 title: "Домашняя страница бизнес-аналитики и отчетности"
-description: "В этом разделе перечислены ресурсы модуля &quot;Бизнес-аналитика и отчетность&quot;, доступные в Microsoft Dynamics 365 for Operations."
+description: "В этом разделе перечислены ресурсы модуля \"Бизнес-аналитика и отчетность\", доступные в Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этом разделе перечислены ресурсы модуля "Бизнес-аналитика и отчетность", доступные в Microsoft Dynamics 365 for Operations. 
+В этом разделе перечислены ресурсы модуля "Бизнес-аналитика и отчетность", доступные в Microsoft Dynamics 365 for Finance and Operations. 
 
 <a name="working-with-aggregate-data"></a>Работа с агрегированными данными
 ---------------------------
@@ -43,14 +43,14 @@ ms.lasthandoff: 05/25/2017
 ## <a name="self-service-reporting"></a>Самостоятельная отчетность
 -   [Интеграция с Power BI](power-bi-integration.md)
 -   [Настройка интеграции с Power BI для рабочих областей](configure-power-bi-integration.md)
--   [Создание отчета Power BI с использованием данных Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
+-   [Создание отчета Power BI с использованием данных Microsoft Dynamics 365 for Finance and Operations](create-powerbi-report-data.md)
 -   [Создание отчетов и панелей мониторинга Power BI](create-powerbi-report-dashboard.md)
 -   [Содержимое "Эффективность канала розничной торговли" для Power BI](retail-channel-performance-dashboard-power-bi-data.md)
 -   [Содержимое "Финансовые показатели" для Power BI](financial-performance-power-bi-content-pack.md)
 -   [Содержимое "Показатели продаж и прибыльности" для Power BI](sales-profitability-performance-content-pack.md)
--   [Использование конфигурации электронной отчетности для передачи данных из Dynamics 365 for Operations в Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Использование конфигурации электронной отчетности для передачи данных из Finance and Operations в Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Создание строенных аналитических интерфейсов в клиенте Dynamics 365 for Operations
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>Создание встроенных аналитических интерфейсов в клиенте Finance and Operations
 -   [Встроенная бизнес-аналитика](analytics.md#embedded-business-intelligence)
 -   [Моделирование и настройка ключевых показателей эффективности](analytics.md#kpi-modeling-and-customization)
 -   [Добавление бизнес-аналитики в рабочие области](add-bi-workspaces.md)
@@ -58,7 +58,7 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="document-reporting-and-printing"></a>Отчетность и печать документов
 -   [Обзор служб Reporting Services для документов](document-reporting-services.md)
--   [Печать в приложениях Dynamics 365 for Operations](print-documents.md)
+-   [Печать в приложениях Finance and Operations](print-documents.md)
 -   [Установка агента маршрутизации документов для включения сетевых принтеров](install-document-routing-agent.md)
 -   [Запуск агента маршрутизации документов в качестве службы Windows](run-document-routing-agent-as-windows-service.md)
 -   [Создание решений для формирования отчетности следующего поколения](create-nextgen-reporting-solutions.md)
@@ -72,7 +72,7 @@ ms.lasthandoff: 05/25/2017
 -   [Конструктор формул в электронной отчетности](general-electronic-reporting-formula-designer.md)
 -   [Места назначения электронной отчетности](electronic-reporting-destinations.md)
 -   [Загрузка конфигураций электронной отчетности из Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
--   [Использование конфигурации электронной отчетности для передачи данных из Dynamics 365 for Operations в Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Использование конфигурации электронной отчетности для передачи данных из Finance and Operations в Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [Электронная отчетность — создание поставщика конфигурации и пометка его как активного](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (проводник по задаче)
 -   [Электронная отчетность — разработка модели данных для конкретного домена](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (проводник по задаче)
 -   [Электронная отчетность — определение сопоставления моделей и выбор источников данных](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (проводник по задаче)
