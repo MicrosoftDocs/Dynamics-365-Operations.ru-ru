@@ -1,6 +1,6 @@
 ---
 title: "Альтернативные режимы доставки"
-description: "Получатели заказов на продажу используют страницу &quot;Альтернативные режимы доставки&quot; для обнаружения параметров альтернативного порядка осуществления доставки."
+description: "Получатели заказов на продажу используют страницу \"Альтернативные режимы доставки\" для обнаружения параметров альтернативного порядка осуществления доставки."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/10/2017
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesLineDeliveryDetails
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 271623
 ms.assetid: 527f6084-44fe-41bb-924f-4386e926358a
 ms.search.region: global
