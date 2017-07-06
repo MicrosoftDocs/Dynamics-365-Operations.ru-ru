@@ -40,7 +40,7 @@ Microsoft Dynamics 365 for Finance and Operations — бизнес-прилож�
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>Финансы</h3>
+<td><h3>Financials</h3>
 <p><a href="../financials/general-ledger/audit-policy-rules">Соответствие</a></p>
 <p>Управление финансами</p>
 <ul style="list-style-type:none">
