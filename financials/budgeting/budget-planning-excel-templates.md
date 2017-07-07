@@ -3,7 +3,7 @@ title: "Шаблоны планирования бюджета для Excel"
 description: "В этом разделе описывается, как создавать шаблоны Microsoft Excel, которые могут использоваться с бюджетными планами."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 93aa0aeffad0411542f36e27745f63198c4438b2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ ms.lasthandoff: 05/25/2017
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Чтобы избежать возможных проблем с просмотром и редактированием данных бюджетного плана с помощью Excel, один и тот же пользователь должен войти в Dynamics 365 for Operations и Microsoft Dynamics Office Add-in Data Connector.
+> Чтобы избежать возможных проблем с просмотром и редактированием данных бюджетного плана с помощью Excel, один и тот же пользователь должен войти в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition и Microsoft Dynamics Office Add-in Data Connector.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Добавление заголовка в шаблон документа бюджетного плана
 Чтобы добавить сведения заголовка, выберите верхнюю строку в файле Excel и вставьте пустые строки. Щелкните **Дизайн** в **Соединитель данных** для добавления полей заголовка в файл Excel.
@@ -79,11 +79,11 @@ ms.lasthandoff: 05/25/2017
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Чтобы определить формулу, создайте формулу в электронной таблице и скопируйте ее в окно **Дизайн**. Связанная таблица Dynamics 365 for Operations обычно называется "AXTable1". Например, чтобы просуммировать столбцы "Запрос Q1": "Запрос Q4" в электронной таблице, формула = AxTable1\[Запрос Q1\]+AxTable1\[Запрос Q2\]+AxTable1\[Запрос Q3\]+AxTable1\[Запрос Q4\].
+> Чтобы определить формулу, создайте формулу в электронной таблице и скопируйте ее в окно **Дизайн**. Связанная таблица Finance and Operations обычно называется "AXTable1". Например, чтобы просуммировать столбцы "Запрос Q1": "Запрос Q4" в электронной таблице, формула = AxTable1\[Запрос Q1\]+AxTable1\[Запрос Q2\]+AxTable1\[Запрос Q3\]+AxTable1\[Запрос Q4\].
 
 Повторите эти шаги, чтобы вставить столбец **Корректировка**. Для этого столбца используйте формулу = AxTable1\[Общий запрос\]\*$I$1. Эта формула берет значение из ячейки "I1" и умножает значения в столбце **Общий запрос** для расчета величин корректировки.
 
-Сохраните и закройте файл Excel. Вернитесь в Dynamics 365 for Operations, затем в разделе **Макеты** щелкните **Шаблон &gt; Загрузить** для загрузки сохраненного шаблона Excel, который требуется использовать для бюджетного плана. 
+Сохраните и закройте файл Excel. Вернитесь в Finance and Operations, затем в разделе **Макеты** щелкните **Шаблон &gt; Загрузить** для загрузки сохраненного шаблона Excel, который требуется использовать для бюджетного плана. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 

@@ -3,13 +3,13 @@ title: "Настройка автоматизированной задачи в 
 description: "В этом разделе описывается, как настроить свойства автоматизированной задачи."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192061
 ms.assetid: c0aceb57-b5e6-4ef3-91e7-89a21c9f048a
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 358065dd127703191ba441d0603307a3b7e5df60
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 66f1b8e03cc0da5d21fea9b3c795d8f4097c8cfc
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -96,10 +96,10 @@ ms.lasthandoff: 05/25/2017
     </tr>
     <tr class="odd">
     <td>Пользователь</td>
-    <td>Определенные пользователи Microsoft Dynamics 365 for Operations</td>
+    <td>Определенные пользователи Microsoft Dynamics 365 for Finance and Operations</td>
     <td><ol>
     <li>После выбора параметра <strong>Пользователь</strong> перейдите на вкладку <strong>Пользователь</strong>.</li>
-    <li>Список <strong>Доступные пользователи</strong> включает всех пользователей Dynamics 365 for Operations. Выберите пользователей, которым требуется отправить уведомления, а затем переместите этих пользователей в список <strong>Выбранные пользователи</strong>.</li>
+    <li>Список <strong>Доступные пользователи</strong> включает всех пользователей Finance and Operations. Выберите пользователей, которым требуется отправить уведомления, а затем переместите этих пользователей в список <strong>Выбранные пользователи</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

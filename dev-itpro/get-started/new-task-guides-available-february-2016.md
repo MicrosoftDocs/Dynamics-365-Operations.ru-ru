@@ -3,13 +3,13 @@ title: "Новые руководства по задачам (февраль 20
 description: "В этом разделе перечислены руководства по задачам, выпущенные в библиотеках Microsoft BPM на февраль 2016 г.  Опубликованные библиотеки включают унифицированную библиотеку APQC (февраль 2016 г.) для Microsoft Dynamics 365 for Operations и библиотеку по началу работы (февраль 2016 г.)."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 102083
 ms.assetid: f50585e8-4ef6-4cd8-90d8-c8d6a65b22b8
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3c99753f22e537fdc026342dce12389fb9acc83a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cdad1d6c2466b47b07133a5335866ef6881609ca
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этом разделе перечислены руководства по задачам, выпущенные в библиотеках Microsoft BPM на февраль 2016 г.  Опубликованные библиотеки включают унифицированную библиотеку APQC (февраль 2016 г.) для Microsoft Dynamics 365 for Operations и библиотеку по началу работы (февраль 2016 г.).
+В этом разделе перечислены руководства по задачам, выпущенные в библиотеках Microsoft BPM на февраль 2016 г.  Опубликованные библиотеки включают унифицированную библиотеку APQC (февраль 2016 г.) для Microsoft Dynamics AX и библиотеку по началу работы (февраль 2016 г.).
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Руководства по задачам в унифицированной библиотеке APQC (февраль 2016 г.) для Microsoft Dynamics 365 for Operations
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Руководства по задачам в унифицированной библиотеке APQC (февраль 2016 г.) для Microsoft Dynamics AX
 ---------------------------------------------------------------------------------
 
-Унифицированная библиотека APQC (февраль 2016 г.) содержит руководства по задачам, которые предназначены для использования в справке по выпуску Dynamics 365 for Operations 7.0.0. Если требуются локализованные версии этих руководств по задачам, они доступны в унифицированной библиотеке APQC (май 2016 г.) для Microsoft Dynamics 365 for Operations. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Начало работы со справкой](help-overview.md).
+Унифицированная библиотека APQC (февраль 2016 г.) содержит руководства по задачам, которые предназначены для использования в справке по выпуску Dynamics AX 7.0.0. Если требуются локализованные версии этих руководств по задачам, они доступны в унифицированной библиотеке APQC (май 2016 г.) для Microsoft Dynamics AX. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Начало работы со справкой](help-overview.md).
 
 ### <a name="accounts-payable"></a>Расчеты с поставщиками
 

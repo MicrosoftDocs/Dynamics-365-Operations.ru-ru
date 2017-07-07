@@ -3,7 +3,7 @@ title: "Обзор расширенной банковской выверки"
 description: "Эта статья описывает поток для предварительного процесса банковской выверки. Функция расширенной банковской выверки позволяет импортировать банковские выписки, которые можно автоматически выверять из банковских проводок."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 22104
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: deba55d5e1e376f3f4063f372bfe853fcaf20498
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 67cd622d7766e5b177ccc58398431b007e8bda4e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -42,12 +42,12 @@ ms.lasthandoff: 05/25/2017
     -   Функциональность можно расширить до любого формата.
 
 2.  Настройте номерную серию для использования для расширенной банковской выверки, и определите правила сопоставления банковской выверки.
-    -   Правило сопоставления выверки — это набор критериев, используемых при фильтрации строк банковской выписки и строк банковской проводки Microsoft Dynamics 365 for Operations во время процесса выверки. В зависимости от вашей методики ведения бизнеса можно настроить более одного правила сопоставления, чтобы автоматизировать и оптимизировать процесс сверки.
+    -   Правило сопоставления выверки — это набор критериев, используемых при фильтрации строк банковской выписки и строк банковской проводки Microsoft Dynamics 365 for Finance and Operations, Enterprise edition во время процесса выверки. В зависимости от вашей методики ведения бизнеса можно настроить более одного правила сопоставления, чтобы автоматизировать и оптимизировать процесс сверки.
 
-3.  Выверите банковские выписки с банковскими проводками Dynamics 365 for Operations.
+3.  Выверите банковские выписки с банковскими проводками Finance and Operations.
     -   Выполните автоматические сопоставление и создание журналов выверки.
-    -   Просмотр банковских выписок с банковскими проводками Dynamics 365 for Operations друг рядом с другом.
-    -   Автоматическая разноска банковских проводок Dynamics 365 for Operations, если они появляются в банковской выписке, но не появились в Dynamics 365 for Operations.
+    -   Просмотр банковских выписок с банковскими проводками Finance and Operations друг рядом с другом.
+    -   Автоматическая разноска банковских проводок Finance and Operations, если они появляются в банковской выписке, но не появились в Finance and Operations.
     -   Создать выписку выверки.
 
 

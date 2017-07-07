@@ -114,7 +114,7 @@ Microsoft Dynamics 365 for Finance and Operations — бизнес-прилож�
 <p><a href="../retail/call-center-functionality">Центр обработки вызовов</p>
 <p><a href="../retail/define-maintain-retail-channels">Настройка канала и управление им</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS и Cloud POS</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">Разработчик розничной торговли и администрирование</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">Администрирование и разработка для Retail</p>
 
 </td>
 </tr>

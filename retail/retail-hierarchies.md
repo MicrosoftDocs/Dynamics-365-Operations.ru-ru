@@ -1,28 +1,29 @@
 ---
 title: "Иерархии розничной торговли"
-description: "Эта статья описывает иерархий для розничной торговли в Microsoft Dynamics AX."
+description: "В этой статье описываются иерархии розничной торговли в Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2544b299267ec6e21adf5c657c23f545fc66a0b3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: a425680fb4d2e2da8d96acd843694ea9a07e29f0
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Эта статья описывает иерархий для розничной торговли в Microsoft Dynamics AX.
+В этой статье описываются иерархии розничной торговли в Microsoft Dynamics 365 for Retail.
 
 Можно создать иерархию розничных категорий для организации продуктов, которые продаются через ваши каналы розничной торговли. Иерархии розничных продуктов можно использовать для классификации или группировки продуктов. Эти продукты затем можно использовать для создания ассортиментов и программ лояльности клиентов. Можно также назначить атрибуты продукции и свойства, присваивать ценовую структуру, включить продукты в специальные акции, использовать продукцию для отчетности. Можно создать одну иерархию розничных категорий, чтобы представить все продукты и категории в вашей организации, а затем воспользоваться этой иерархией категорий для достижения нескольких целей. Кроме того, можно создать несколько иерархий розничных категорий для специальных целей, например продвижения продукции. При создании розничной иерархии продукции необходимо назначить тип иерархии категорий, чтобы обозначить цель иерархии категорий. Например, только иерархии продуктов, которым назначен тип **Навигационная иерархия розничной торговли**, отображаются при просмотре продуктов по категориям через Интернет или в пункте продажи (POS).
 

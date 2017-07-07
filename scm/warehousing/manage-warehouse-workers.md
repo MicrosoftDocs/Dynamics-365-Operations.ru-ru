@@ -1,16 +1,16 @@
 ---
 title: "Управление работниками склада"
-description: "В этой статье рассматривается использование Microsoft Dynamics AX для контроля и мониторинга работы, выполняемой сотрудниками на складах."
+description: "В этой статье рассматривается использование Dynamics 365 for Finance and Operations для контроля и мониторинга работы, выполняемой сотрудниками на складах."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b4e2cb91cac210a659f261c5fcabb5f3643cdbec
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 52753c21862a2955e15140bb1cdb5ef6f6efe31a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этой статье рассматривается использование Microsoft Dynamics AX для контроля и мониторинга работы, выполняемой сотрудниками на складах.
+В этой статье рассматривается использование Microsoft Dynamics 365 for Finance and Operations, Enterprise edition для контроля и мониторинга работы, выполняемой сотрудниками на складах.
 
 Если вы используете функциональность в модуле "Управление складом", все операции, выполняемые работниками склада, называются *работой*. Работа, такая как комплектация, перемещение и подсчет запасов в наличии регистрируется путем использования мобильных устройств. Прежде чем работник склада сможет выполнять работу, его необходимо связать с работником в модуле "Управление персоналом". С каждой учетной записью **работника** может быть связано несколько пользователей работы склада. Эти пользователи работы могут работать на разных складах и иметь разные уровни доступа к различным меню на мобильных устройствах. Пользователей работы склада можно рассматривать как несколько разных учетных записей для входа для одного работника. У каждого пользователя работы есть склад по умолчанию и конкретные workflow-процессы, представленные пунктами меню, доступными этому пользователю работы. 
 

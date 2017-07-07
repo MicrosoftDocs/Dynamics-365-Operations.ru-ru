@@ -1,26 +1,26 @@
 ---
 title: "Подотчетные лица"
-description: "Сведения о функции подотчетных лиц в Microsoft Dynamics 365 for Operations."
+description: "Сведения о работе с функциями по подотчетным лицам в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262574
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fbb9224ba3c2c67e962c59f677f0b1006d6ceb8c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fedcd2b4756faddc20fe6f304e4448949acdaa61
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Сведения о функции подотчетных лиц в Microsoft Dynamics 365 for Operations.
+Сведения о работе с функциями по подотчетным лицам в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 *Подотчетное лицо* — это сотрудник компании, который отвечает за сумму расходов, предоставляемую организацией. Только работник компании может являться подотчетным лицом. Когда происходит закупка, подотчетное лицо сообщает в компанию о произведенных расходах. Компания возмещает сотруднику сумму расходов. Компания контролирует сальдо для каждого подотчетного лица. Пользователи в юридических лицах в Эстонии, Латвии, Литве, Польше, Чехии, Венгрии и России могут отражать специфические проводки, сопровождающие операции с сотрудниками компании, которые отвечают за сумму расходов, которая предоставлена организацией.
 

@@ -1,16 +1,16 @@
 ---
-title: "Прогнозируемая должность"
-description: 
+title: "Прогнозирование должности"
+description: "Расходы, которые связаны с работниками, часто составляют большую часть расходов организации. Прогнозируемая должность позволяет планировать расходы и включать их в планирование бюджетов."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,18 +18,17 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="position-forecasting"></a>Прогнозируемая должность
+# <a name="position-forecasting"></a>Прогнозирование должности
 
 [!include[banner](../includes/banner.md)]
-
 
 
 
@@ -97,7 +96,7 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Создание прогнозируемых должностей для существующих должностей
 
-Для наиболее точного бюджетного планирования можно создавать прогнозируемые должности, используя сведения из существующих должностей Microsoft Dynamics 365 for Operations независимо от того, занята должность в настоящий момент или нет. 
+Для наиболее точного бюджетного планирования можно создавать прогнозируемые должности, используя сведения из существующих должностей Microsoft Dynamics 365 for Finance and Operations, Enterprise edition независимо от того, занята должность в настоящий момент или нет. 
 
 Функция **Добавить существующие должности** отображает все позиции для организации. Задавая дату **По состоянию на**, можно изменить список должностей, чтобы он включал только должности, существовавшие на определенную дату в прошлом или (более распространено) в будущем (например, начало следующего бюджетного цикла). Выберите процесс бюджетного планирования и сценарий бюджетного плана, выберите должности в списке и нажмите кнопку **ОК**, чтобы создать прогнозируемые должности для выбранных. Заметьте, что можно создать только одну прогнозируемую должность для каждой существующей должности в процессе и сценарии бюджетного планирования. Тем не менее можно создать дополнительные версии, назначив другие сценарии бюджетного плана. 
 
