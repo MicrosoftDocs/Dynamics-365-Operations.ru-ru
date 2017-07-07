@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -31,6 +31,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="weighted-average-date"></a>Взвешенное среднее по дате
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Взвешенное среднее по дате — это складская модель, основанная на принципе взвешенного среднего. Для принципа взвешенного среднего расходы со склада оцениваются по среднему значению номенклатур, полученных на склад за каждый день периода закрытия запасов. При выполнении закрытия склада с использованием взвешенного среднего по дате все ежедневные приходы сопоставляются с виртуальным расходом. Этот виртуальный расход содержит общее полученное количество за этот день. Виртуальный расход имеет соответствующий виртуальный приход, с которым будут сопоставлены расходы. Таким образом, все расходы получают одинаковую среднюю стоимость. Виртуальный расход и виртуальный приход можно рассматривать как виртуальное перемещение, называемое *Перемещение закрытия запасов для взвешенного среднего*. 
