@@ -6,22 +6,21 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
-ms.assetid: 2e299a38-16e5-474e-b993-d88cebfadca0
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: 25a9885a31871a19285cdd30987e3d1caa99bc04
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -54,15 +53,20 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 -   [Отслеживание законов и информирование об их изменениях](regulatory-watch-communication.md)
 -   [Информирование Майкрософт об изменениях в законодательстве страны/региона и отслеживание статуса функций, связанных с законодательством](submit-localization-alerts.md)
 
+### <a name="dynamics-365-roadmap"></a>Дорожная карта Dynamics 365
+[Дорожная карта Dynamics 365](https://roadmap.dynamics.com/) представляет собой "моментальный снимок" того, над чем мы работаем. Из нее вы можете узнать, какая функциональность в ближайшее время станет общедоступной, а также что находится в разработке. Все даты и сведения о находящихся в разработке функциональных возможностях являются предварительными, основаны на текущих ожиданиях и могут быть изменены без уведомления.
+
 ## <a name="electronic-reporting"></a>Электронная отчетность
-Средства электронной отчетности (ER) позволяют настроить форматы электронных документов в соответствии с требованиями законодательства различных стран/регионов. Электронная отчетность позволяет управлять этими форматами в течение их жизненного цикла. Дополнительные сведения см. в следующих разделах:
+Средства электронной отчетности (ER) служат для настройки форматов электронных документов в соответствии с требованиями законодательства различных стран/регионов. Электронная отчетность позволяет управлять этими форматами в течение их жизненного цикла. Дополнительные сведения см. в следующих разделах:
 -   [Обзор электронной отчетности](../analytics/general-electronic-reporting.md)
 -   [Управление жизненным циклом конфигураций электронной отчетности](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Создание конфигурации электронной отчетности](../analytics/electronic-reporting-configuration.md)
 -   [Расширение списка функций электронной отчетности](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Места назначения электронной отчетности](../analytics/electronic-reporting-destinations.md)
 -   [Загрузка конфигураций электронной отчетности из Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
+-   [Импорт конфигураций электронной отчетности](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Настройка электронной отчетности для загрузки данных в Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Создание электронных документов и обновление данных в приложении с помощью электронной отчетности](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Проводники по задачам
 Проводники по задачам доступны в области справки продукта и содержат пошаговые инструкции по основным бизнес-процессам. Вы можете открыть проводник по задаче, чтобы изучить действия бизнес-процесса, или запустить его, чтобы выполнить все шаги бизнес-процесса с вводом соответствующих данных.
@@ -83,9 +87,10 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 
 ### <a name="austria"></a>Австрия
 
--   [Полугодовая амортизация](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
--   [Сборы за упаковочные материалы](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
--   [Отчет по НДС](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
+- [Полугодовая амортизация](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
+- [Сборы за упаковочные материалы](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
+- [Пошлины по покупке](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties)
+- [Отчет по НДС](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>Бельгия
 
@@ -130,12 +135,11 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 -   [Полугодовая амортизация по выбытию ОС для Чешской Республики](/dynamics365/unified-operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
 -   [Приостановка амортизации (праздники)](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
 -   [Методы амортизации ОС для Чешской Республики](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation)
-
 -   [Разноска предварительного приобретения ОС](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [Отчет по НДС для Чешской Республики](/dynamics365/unified-operations/financials/localizations/emea-cze-vat-statement-details)
 -   [Налоговая отчетность ](/dynamics365/unified-operations/financials/localizations/emea-cze-intra-community-vat-transactions)
 -   [Разделение по периодам в периодических журналах](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
--   [Настройка подписывающих лиц для печатных форм](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+-   [Настройка лиц с правом подписи для печатных форм](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 -   [Обновление способа отображения сумм в отчетах и документах](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms)
 
 ### <a name="estonia"></a>Эстония
@@ -144,30 +148,39 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 -   [Выбытие ОС](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 
 ### <a name="europe"></a>Европа
--   [Подотчетные лица](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
--   [Редактирование идентификаторов накладных в заказах на продажу](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
--   [Сертификаты записей ЕС](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
--   [Отчетность ЕС по НДС](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
--   [Корректировка курсовой разницы](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
--   [Форматы файлов для способов оплаты](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
--   [Выбытие основных средств для Эстонии и Литвы](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
--   [Интрастат](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
--   [Нумерация накладных и отборочных накладных для Латвии и Литвы](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
--   [Крайние сроки выпуска накладных](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
--   [Стандарты OIOUBL](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
--   [Отчет по платежной квитанции](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
--   [Мелкие наличные деньги](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
--   [Разноска предварительного приобретения ОС](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
--   [Почтовые индексы](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
--   [Коды регистрации](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
--   [Обзор кредитных переводов SEPA](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
--   [Обзор прямого дебетования SEPA](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
--   [Настройка подписывающих лиц для печатных форм](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
--   [Разделение по периодам в периодических журналах](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
--   [Обновление способа отображения сумм в отчетах и документах](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms)
--   [Валютные курсы НДС](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
--   [Отчетность по НДС для Европы](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
--   [Просмотр проводок по сопоставлению](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
+- [Подотчетные лица](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
+- [Проводки по подотчетным лицам](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions)
+- [Выставление накладных на предоплату](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice)
+- [Банковская выверка](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation)
+- [Выставление корректирующих накладных](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice)
+- [Создание и разноска периодических журналов](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
+- [Изменение идентификаторов накладных в заказах на продажу](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
+- [Сертификаты подтверждения доставки ЕС](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
+- [Отчетность ЕС по НДС](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
+- [Корректировка курсовой разницы](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
+- [Форматы файлов для способов оплаты](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
+- [Выбытие ОС для Эстонии и Литвы](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [Интрастат](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
+- [Отчеты по журналам запасов](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
+- [Нумерация накладных и отборочных накладных для Латвии и Литвы](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+- [Крайние сроки выпуска накладных](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
+- [Стандарты OIOUBL](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
+- [Отчет по платежной квитанции](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
+- [Мелкие наличные деньги](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
+- [Разноска предварительного приобретения ОС](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
+- [Почтовые индексы](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
+- [Коды регистрации](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
+- [Возмещение](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge)
+- [Обзор кредитных переводов SEPA](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
+- [Обзор прямого дебетования SEPA](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
+- [Настройка компенсации клиентам и поставщикам](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
+- [Настройка лиц с правом подписи для печатных форм](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Налоговые директивы](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
+- [Обновление способа отображения сумм в отчетах и документах](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
+- [Валютные курсы НДС](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
+- [Проводки в регистре НДС для Восточной Европы](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions)
+- [Отчетность по НДС](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
+- [Просмотр проводок по сопоставлению](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
 
 ### <a name="france"></a>Франция
 -   [Накладные и коды ваучеров в хронологическом порядке](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -180,9 +193,10 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 #### <a name="public-sector"></a>Государственный сектор
    -   [Обязательства в государственном секторе](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector)
    -   [Mandats de paiement в государственном секторе](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement)
-   -   [Учет государственного сектора](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting)
+   -   [Закупки и источники](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+   -   [Учет в государственном секторе](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting)
    -   [Titres de recette](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
-   -   [Удержание платежей по накладным поставщика](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
+   -   [Блокировка платежей по накладным поставщиков](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
 
 ### <a name="germany"></a>Германия
 -   [Амортизация дополнительного приобретения](/dynamics365/unified-operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
@@ -205,22 +219,21 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 -   [Проверка даты отборочной накладной в накладных для Италии](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [Итальянские книги учета налогов](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books)
 -   [Разбиение платежа для накладных, выписанных государственным административным органам](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
--   [Подоходный налог](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding tax)
+-   [Подоходный налог](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax)
 
 ### <a name="japan"></a>Япония
 
--   [Сборы по банковским платежам, покрываемые поставщиками](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
--   [Консолидированные накладные](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
-
-#### <a name="fixed-assets"></a>Основные средства
-   -  [Правила распределения для основных средств](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
-   -  [Метод амортизации с делением поровну](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
-   -  [Амортизация ОС](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
-   -  [Управление снижением стоимости основных средств в единицах, генерирующих денежные средства](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
-   -  [Настройка обязательства выбытия ОС для основных средств](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
-   -  [Настройка записей сокращения для основных средств](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
--   [Оплата поставщику путем индоссирования переводного векселя](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
--   [Прогрессивный расчет подоходного налога](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
+-  [Сборы по банковским платежам, покрываемые поставщиками](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
+-  [Консолидированные накладные](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
+-  [Правила распределения для ОС](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
+-  [Метод амортизации с делением поровну](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
+-  [Амортизация ОС](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
+-  [Управление снижением стоимости ОС в единицах, генерирующих денежные средства](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
+-  [Импорт почтовых индексов](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes)
+-  [Настройка обязательства по выбытию активов для ОС](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
+-  [Настройка записей сокращения для ОС](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
+-  [Оплата поставщику путем индоссирования переводного векселя](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
+-  [Прогрессивный расчет подоходного налога](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
 
 ### <a name="latvia"></a>Латвия
 
@@ -254,11 +267,12 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 ### <a name="norway"></a>Норвегия
 
 -   [Формат импорта Nets](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format)
+-   [Отчет по НДС](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report)
 
 ### <a name="poland"></a>Польша
 
--   [Расчет скидок по строке из цены за единицу](/dynamics365/unified-operations/financials/localizations/emea-pol-line-discount-calculation-from-unit-price)
--   [Замечания при корректировке](/dynamics365/unified-operations/financials/localizations/emea-pol-correction-notes)
+-   [Расчет скидок по строке от цены за единицу](/dynamics365/unified-operations/financials/localizations/emea-pol-line-discount-calculation-from-unit-price)
+-   [Корректирующие документы](/dynamics365/unified-operations/financials/localizations/emea-pol-correction-notes)
 -   [Нумерация дубликатов накладных по продаже](/dynamics365/unified-operations/financials/localizations/emea-pol-sales-invoice-duplicates-numbering)
 -   [Амортизация ОС](/dynamics365/unified-operations/financials/localizations/emea-pol-fixed-assets-depreciation)
 -   [Выбытие ОС](/dynamics365/unified-operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension)
@@ -290,11 +304,12 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 
 ### <a name="sweden"></a>Швеция
 
--   [Импорт форматов платежей для Швеции](/dynamics365/unified-operations/financials/localizations/emea-swe-payment-formats-import)
+-   [Форматы импорта платежей для Швеции](/dynamics365/unified-operations/financials/localizations/emea-swe-payment-formats-import)
+-   [Контрольно-кассовые машины для Швеции](/dynamics365/unified-operations/retail/localizations/emea-swe-cash-registers)
 
 ### <a name="switzerland"></a>Швейцария
 
--   [Импорт платежей клиентов ESR](/dynamics365/unified-operations/financials/localizations/emea-che-esr-customer-payments-import)
+-   [Импорт платежей клиентов в формате ESR](/dynamics365/unified-operations/financials/localizations/emea-che-esr-customer-payments-import)
 
 ### <a name="thailand"></a>Таиланд
 

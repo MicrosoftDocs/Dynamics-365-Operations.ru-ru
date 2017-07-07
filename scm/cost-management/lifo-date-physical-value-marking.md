@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="lifo-date-with-physical-value-and-marking"></a>Дата LIFO с физической стоимостью и маркировкой
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Дата ЛИФО — это складская модель, основанная на принципе ЛИФО. Расходы из запасов сопоставляются с последними приходами в запасах на дату складской проводки. При использовании ЛИФО: если перед расходом отсутствует приход, расход сопоставляется с любой приемкой после даты расхода. Несколько расходов с одинаковой датой можно сопоставить в последовательности "последний расход - последний приход". 
