@@ -1,16 +1,16 @@
 ---
 title: "Сотрудничество поставщика с клиентами"
-description: "В этом разделе описывается, как можно использовать модуль совместной работы с поставщиками в Dynamics 365 for Operations для работы с заказами на покупку и контроля консигнационных запасов."
+description: "В этой теме описывается, как можно использовать модуль совместной работы с поставщиками в Finance and Operations для работы с заказами на покупку и контроля консигнационных запасов."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1649014855d8d5e0f1225a661c9b6bae6490f597
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этом разделе описывается, как можно использовать модуль совместной работы с поставщиками в Dynamics 365 for Operations для работы с заказами на покупку и контроля консигнационных запасов.
+В этой теме описывается, как можно использовать модуль совместной работы с поставщиками в Finance and Operations для работы с заказами на покупку и контроля консигнационных запасов.
 
-В этом разделе описывается, как можно использовать модуль совместной работы с поставщиками для работы с клиентами в Microsoft Dynamics 365 for Operations. Он содержит сведения о том, как отслеживать и отвечать на заказы на покупку, а также как отслеживать консигнационные запасы. Можно также использовать модуль совместной работы с поставщиками для работы с накладными. Дополнительные сведения см. в разделе [Рабочая область сотрудничества с поставщиками при выставлении накладных](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+В этой теме описывается, как можно использовать модуль совместной работы с поставщиками для работы с клиентами в Microsoft Finance and Operations. Он содержит сведения о том, как отслеживать и отвечать на заказы на покупку, а также как отслеживать консигнационные запасы. Можно также использовать модуль совместной работы с поставщиками для работы с накладными. Дополнительные сведения см. в разделе [Рабочая область сотрудничества с поставщиками при выставлении накладных](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
 
 ## <a name="working-with-purchase-orders"></a>Работа с заказами на покупку
 Рабочая область **Подтверждение заказов на покупку** позволяет отвечать на заказы на покупку, которые были отправлены вам для проверки. Она также позволяет просматривать информацию о заказах на покупку, которые ожидают действий от клиента, и заказы на покупку, которые были утверждены, но все еще открыты. В рабочей области **Подтверждение заказов на покупку** имеется три списка:

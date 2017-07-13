@@ -1,31 +1,32 @@
 ---
 title: "Домашняя страница учета затрат"
-description: "В этом разделе представлен список разделов справки и другие ресурсы, доступные для модуля &quot;Учет затрат&quot;."
+description: "В этом разделе представлен список разделов справки и другие ресурсы, доступные для модуля \"Учет затрат\"."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bcbf755c7adb3589ca0fa5242589f1aae3ef6e1b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4514c6dbf014720c29e79889bf1fcc0efd6cd3ec
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/13/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a>Домашняя страница учета затрат
+<a id="cost-accounting-home-page" class="xliff"></a>
+
+# Домашняя страница учета затрат
 
 [!include[banner](../includes/banner.md)]
 
@@ -48,9 +49,13 @@ ms.lasthandoff: 05/25/2017
 -   Создание отчетов, которые можно просмотреть в рабочей области.
 -   Создание отчетов с помощью Excel.
 
-## <a name="get-started"></a>Начать
+<a id="get-started" class="xliff"></a>
 
-Практические работы для модуля учета затрат содержат основные шаги для настройки модуля "Учет затрат" Microsoft Dynamics 365 for Operations, чтобы выполнять анализ фактических затрат. Он также предоставляет набор процедур, которые могут выполняться в том порядке, в котором они отображаются.
+## Начать
+
+> [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
+
+Практические работы для модуля учета затрат содержат основные шаги для настройки модуля "Учет затрат" Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, чтобы выполнять анализ фактических затрат. Он также предоставляет набор процедур, которые могут выполняться в том порядке, в котором они отображаются.
 
 -   [Начало работы с учетом затрат](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (официальный документ и требуется учетная запись CustomerSource)
 
@@ -63,16 +68,20 @@ ms.lasthandoff: 05/25/2017
 -   [Аналитики объекта затрат](cost-objects.md)
 -   [Создание объектов затрат](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (руководство по задачам)
 
-## <a name="cost-control-mobile-workspace"></a>Мобильная рабочая область управления затратами
+<a id="cost-control-mobile-workspace" class="xliff"></a>
+
+## Мобильная рабочая область управления затратами
 С помощью мобильной рабочей области управления затратами менеджеры центра затрат могут в любое время и в любом месте просматривать производительность центра затрат.
 
 -   [Мобильная рабочая область управления затратами](cost-controlling-mobile-workspace.md)
 
-## <a name="cost-accounting-analysis-power-bi-content"></a>Содержимое Power BI для анализа учета затрат
-Содержимое "Анализ учета затрат" Microsoft Power BI предназначено для контроллеров затрат или всех, кто несет ответственность за выполнение управления затратами в организации. Оно включает ключевые параметры, такие как затраты, величина и норма затрат по фактическим затратам, бюджетным затратам и гибким бюджетным затратам. Оно использует данные проводки из модуля учета затрат в Microsoft Dynamics 365 for Operations и предоставляет сводное представление затрат в рамках всей организации в одной валюте отчетности. Менеджеры могут фильтровать эти данные по объектам затрат для проведения контроля затрат в своих организационных подразделениях, даже если организация может иметь несколько юридических лиц.
+<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
 
--   [Содержимое Power BI для анализа учета затрат](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Настройка безопасности для содержимого анализа учета затрат для Power BI](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+## Содержимое Power BI для анализа учета затрат
+Содержимое "Анализ учета затрат" Microsoft Power BI предназначено для контроллеров затрат или всех, кто несет ответственность за выполнение управления затратами в организации. Оно включает ключевые параметры, такие как затраты, величина и норма затрат по фактическим затратам, бюджетным затратам и гибким бюджетным затратам. Оно использует данные проводки из модуля "Учет затрат" в Finance and Operations и предоставляет сводное представление затрат в рамках всей организации в одной валюте отчетности. Менеджеры могут фильтровать эти данные по объектам затрат для проведения контроля затрат в своих организационных подразделениях, даже если организация может иметь несколько юридических лиц.
+
+-   [Содержимое Power BI для анализа учета затрат](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [Настройка безопасности для содержимого анализа учета затрат для Power BI](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 
 
 

@@ -1,16 +1,16 @@
 ---
 title: "Политики работы склада"
-description: "Новая политика работы склада введена в Microsoft Dynamics AX 7.0.1 (обновление от мая 2016). Эта политика работы контролирует, создается ли работа склада для процессов склада в производстве."
+description: "Политики работы склада определяют, создается ли работа склада складскими процессами в производстве, исходя из типа заказа на выполнение работ, местонахождения запасов и продукта."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6c9cdf361e4d4543e6aca962e9ec712428bc76e6
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 7612003bc20f91f173629893750478b034cff27b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Новая политика работы склада введена в Microsoft Dynamics AX 7.0.1 (обновление от мая 2016). Эта политика работы контролирует, создается ли работа склада для процессов склада в производстве.
+Политики работы склада в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition определяют, создается ли работа склада складскими процессами в производстве, исходя из типа заказа на выполнение работ, местонахождения запасов и продукта.
 
 Эта политика работы контролирует, создается ли работа склада для процессов склада в производстве. Можно настроить политику работы с использованием сочетания **типы заказов на выполнение работ**, **местоположения запасов** и **продукта**. Например, продукт L0101 готов в выходном местоположении 001. Готовая продукция позже потребляется в другом производственном заказе в выходном местоположении 001. В этом случае можно настроить политику работы для предотвращения создания работы для складирования готовых товаров, когда продукт L0101 регистрируется как готовый в выходном местоположении 001. Политика работы — это индивидуальный объект, который может быть описан с помощью следующей информации:
 

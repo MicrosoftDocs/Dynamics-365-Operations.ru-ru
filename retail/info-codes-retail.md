@@ -3,26 +3,27 @@ title: "Инфокоды"
 description: "В этой статье приводится обзор инфокодов, групп инфокодов и способов их использования."
 author: mugunthanm
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5790f54a531336b30ee140ebf8b9c782d8b347f7
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: b7417a8fece55963dcde53e7016e4d41793a6102
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -41,8 +42,8 @@ ms.lasthandoff: 05/25/2017
 -   Продажа продукта как продукта с обычной ценой, ценой со скидкой или бесплатного продукта.
 -   Выдача запроса кассиру на ввод значения или выбор значения из списка дополнительных кодов при открытии ящика ККМ без выполнения операции продажи.
 
-## <a name="info-codes-group-in-retail-and-commerce"></a>Группа инфокодов в модуле "Розничная торговля и коммерция"
-В модуле Dynamics 365 for Operations – Retail можно создавать группы информационных кодов. Группы инфокодов добавляют гибкость работе, позволяя определять меньше инфокодов, а затем использовать их более разнообразными способами. Группы инфокодов можно использовать следующими способами.
+## <a name="info-codes-group"></a>Группа инфокодов
+В модуле Dynamics 365 for Retail можно создавать группы информационных кодов. Группы инфокодов добавляют гибкость работе, позволяя определять меньше инфокодов, а затем использовать их более разнообразными способами. Группы инфокодов можно использовать следующими способами.
 -   Для определения меньшего числа инфокодов для более простого повторного использования. Инфокоды, включенные в группу инфокодов, не имеют предварительно определенных зависимостей от других инфокодов. Один и тот же инфокод можно включить в несколько групп инфокодов, а затем использовать приоритет для представления одинаковых инфокодов в заказе с учетом любой конкретной ситуации.
 -   Для связи инфокодов с другими инфокодами или группами инфокодов для сбора сведений о продукте или проводке без необходимости определения отдельного инфокода или связанного инфокода для каждого сценария.
 

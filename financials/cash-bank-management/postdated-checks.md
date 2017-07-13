@@ -1,16 +1,16 @@
 ---
 title: "Чеки, датированные будущим числом"
-description: "Эта статья содержит сведения о поддержке чеков, датированных будущим числом, в Microsoft Dynamics 365 for Operations. Чеки, датированные будущим числом, выпускаются для создания и получения платежей в будущем. Поэтому чек нельзя обналичить до указанной даты."
+description: "Эта статья содержит сведения о поддержке чеков, датированных будущим числом, в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Чеки, датированные будущим числом, выпускаются для создания и получения платежей в будущем. Поэтому чек нельзя обналичить до указанной даты."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c3e59ae5126cd21e668459686133ba8bcf728df3
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Эта статья содержит сведения о поддержке чеков, датированных будущим числом, в Microsoft Dynamics 365 for Operations. Чеки, датированные будущим числом, выпускаются для создания и получения платежей в будущем. Поэтому чек нельзя обналичить до указанной даты.
+Эта статья содержит сведения о поддержке чеков, датированных будущим числом, в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Чеки, датированные будущим числом, выпускаются для создания и получения платежей в будущем. Поэтому чек нельзя обналичить до указанной даты.
 
-Microsoft Dynamics 365 for Operations поддерживает полный цикл управления для чеков, датированных задним числом, как в расчетах с клиентами, так и расчетах с поставщиками, как показано в следующей таблице.
+Microsoft Dynamics 365 for Finance and Operations поддерживает полный цикл управления для чеков, датированных задним числом, как в расчетах с клиентами, так и расчетах с поставщиками, как показано в следующей таблице.
 <table>
 <colgroup>
 <col width="50%" />
@@ -74,8 +74,8 @@ Microsoft Dynamics 365 for Operations поддерживает полный ци
 <tr class="odd">
 <td>Отмена датированного задним числом чека для поставщика</td>
 <td>Разнесенный чек, датированный будущим числом, можно отменить в следующих случаях: — Чек возвращен банком.
-— Чек применен к неправильной накладной.
-— По чему произведена наличная оплата.
+- Чек применен к неправильной накладной.
+- По чему произведена наличная оплата.
 </td>
 </tr>
 <tr class="even">

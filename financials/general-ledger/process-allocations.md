@@ -1,17 +1,17 @@
 ---
 title: "Обработка распределений"
-description: "Эта статья представляет информацию о распределениях, параметры для обработки их в Microsoft Dynamics 365 for Operations и как их можно использовать в бюджетном планировании. Распределения используются для распределения сумм на несколько комбинаций счетов ГК. Они помогают гарантировать, что расходы или выручка начисляется на правильные объекты учета."
+description: "Эта статья представляет информацию о распределениях, параметры для обработки их в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, и как их можно использовать в бюджетном планировании. Распределения используются для распределения сумм на несколько комбинаций счетов ГК. Они помогают гарантировать, что расходы или выручка начисляется на правильные объекты учета."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1cfaeab1562716aa4c91806b228f17625e25dfff
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: e6d88503972850f6163aba6b45547a111f44abab
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,9 +32,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Эта статья представляет информацию о распределениях, параметры для обработки их в Microsoft Dynamics 365 for Operations и как их можно использовать в бюджетном планировании. Распределения используются для распределения сумм на несколько комбинаций счетов ГК. Они помогают гарантировать, что расходы или выручка начисляется на правильные объекты учета.
+Эта статья представляет информацию о распределениях, параметры для обработки их в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, и как их можно использовать в бюджетном планировании. Распределения используются для распределения сумм на несколько комбинаций счетов ГК. Они помогают гарантировать, что расходы или выручка начисляется на правильные объекты учета.
 
-Microsoft Dynamics 365 for Operations предоставляет следующие возможности для поддержки этого процесса.
+Microsoft Dynamics 365 for Finance and Operations предоставляет следующие возможности для поддержки этого процесса.
 
 -   Распределение сумм проводок вручную с помощью действия "Разделить" в распределении по бухгалтерским счетам или путем применения шаблонов финансовых аналитик по умолчанию к документу. Дополнительные сведения см. в разделе [Распределения по бухгалтерским счетам.](../accounts-payable/accounting-distributions.md)
 -   Автоматическое распределение сумм проводок на основании условий распределения, определенных в отдельном счете ГК. Записи счета распределения будут созданы для каждого журнала на основании процента и целевого счета ГК, когда запись учета соответствует критериям, определенным как исходный счет ГК.

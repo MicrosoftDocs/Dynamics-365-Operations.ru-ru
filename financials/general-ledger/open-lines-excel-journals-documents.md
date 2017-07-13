@@ -3,14 +3,14 @@ title: "Публикация строк журналов и документов
 description: "В этом разделе объясняется, как вводить и публиковать строки для финансовых журналов из Microsoft Excel. Сюда входят сведения о различных шаблонах, которые можно использовать в зависимости от типа вводимых проводок."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62213
 ms.assetid: 211874a7-4bf0-4a0c-96c2-fa05042777d3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a43bf66de7602aa9fb47925996ec5b979e1f8dac
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1fed8d162a37736883365fa765a059e5beff06be
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -48,9 +48,9 @@ ms.lasthandoff: 05/25/2017
 | Журнал платежей клиентов | Счет: Клиент Корр. счет: ГК, Банк Внутрихолдинговый поддерживается.                                               | Журнал платежей клиентов                                                                |
 | Журнал расходов по проекту  | Счет: Проект, ГК, Клиент, Поставщик, Банк Корр. счет: Проект, ГК, Клиент, Поставщик, Банк Внутрихолдинговый поддерживается. | Общий журнал расходов (в области "Управление и учет по проектам")                       |
 
-При публикации строк они проходят проверку, чтобы убедиться в том, что они соответствуют правилам, которые настроены в финансовых журналах. После публикации строк пользователи могут редактировать или разносить ваучеры из Microsoft Dynamics 365 for Operations. 
+При публикации строк они проходят проверку, чтобы убедиться в том, что они соответствуют правилам, которые настроены в финансовых журналах. После публикации строк пользователи могут редактировать или разносить ваучеры из Microsoft Dynamics 365 Finance and Operations, Enterprise edition. 
 
-Чтобы добавить финансовые аналитики в шаблон требуются дополнительные изменения. Дополнительные сведения см. в разделе [Добавление аналитик в шаблон Microsoft Excel](/dynamics365/operations/dev-itpro/financial/add-dimensions-excel-templates). После добавления аналитик к объекту они будут доступны в конструкторе Excel и могут быть добавлены в шаблон.
+Чтобы добавить финансовые аналитики в шаблон требуются дополнительные изменения. Дополнительные сведения см. в разделе [Добавление аналитик в шаблон Microsoft Excel](/dynamics365/unified-operations/dev-itpro/financial/add-dimensions-excel-templates). После добавления аналитик к объекту они будут доступны в конструкторе Excel и могут быть добавлены в шаблон.
 
 
 

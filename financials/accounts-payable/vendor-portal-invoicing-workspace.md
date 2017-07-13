@@ -3,13 +3,14 @@ title: "Рабочая области выставления накладных 
 description: "В этом разделе описан порядок просмотра накладных поставщика и отправки накладных из рабочей области совместной работы с поставщиками."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c8fe2fea08dbad625cd373ca316135ac4e29e13
+ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
+ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/14/2017
 
 
 ---
@@ -32,17 +33,17 @@ ms.lasthandoff: 05/25/2017
 
 В этом разделе описан порядок просмотра накладных поставщика и отправки накладных из рабочей области совместной работы с поставщиками.
 
-Рабочая область **Выставление накладных при совместной работе с поставщиками** можно использовать для просмотра данных по накладным поставщика и для представления накладных в Microsoft Dynamics 365 for Operations с использованием возможностей workflow-процесса.
-Рабочая области выставления накладных при совместной работе с поставщиками
+Рабочую область **Выставление накладных при совместной работе с поставщиками** можно использовать для просмотра данных по накладным поставщиков и для отправки накладных в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition с использованием возможностей workflow-процесса.
+Рабочая область выставления накладных по совместной работе с поставщиками
 ----------------------------------------
 
 ### <a name="summary-tiles"></a>Плитки сводки
 
 Плитки **Сводка** обеспечивают обзор накладных для выбранного поставщика. Можно просмотреть накладные по их состоянию.
 -   Черновики накладных не были отправлены в workflow-процесс.
--   Отправленные, но не утвержденные накладные — это накладные, которые поставщик отправил, но они не были разнесены в Dynamics 365 for Operations.
--   Утвержденные, но неоплаченные накладные — это накладные, которые разнесены в Dynamics 365 for Operations, но еще не оплаченные в полном объеме.
--   Оплаченные накладные — это накладные, полностью оплаченные в Dynamics 365 for Operations.
+-   Отправленные, но не утвержденные накладные — это накладные, которые поставщик отправил, но они не были разнесены в Finance and Operations.
+-   Утвержденные, но неоплаченные накладные — это накладные, которые разнесены в Finance and Operations, но еще не оплачены в полном объеме.
+-   Оплаченные накладные — это накладные, полностью оплаченные в Finance and Operations.
 
 При нажатии на плитке открывается отфильтрованное представление страницы **Список накладных**.
 ### <a name="tabular-lists"></a>Списки в виде таблицы
@@ -59,7 +60,7 @@ ms.lasthandoff: 05/25/2017
 
 
 
-Дополнительные сведения см. в разделе [Сотрудничество с поставщиками с помощью портала поставщиков](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+Дополнительные сведения см. в разделе [Сотрудничество с поставщиками с помощью портала поставщиков](/dynamics365/unified-operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
 
 
 
