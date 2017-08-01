@@ -24,9 +24,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-<a id="cost-accounting-home-page" class="xliff"></a>
-
-# Домашняя страница учета затрат
+# <a name="cost-accounting-home-page"></a>Домашняя страница учета затрат
 
 [!include[banner](../includes/banner.md)]
 
@@ -49,9 +47,7 @@ ms.lasthandoff: 06/13/2017
 -   Создание отчетов, которые можно просмотреть в рабочей области.
 -   Создание отчетов с помощью Excel.
 
-<a id="get-started" class="xliff"></a>
-
-## Начать
+## <a name="get-started"></a>Начать
 
 > [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
 
@@ -68,16 +64,12 @@ ms.lasthandoff: 06/13/2017
 -   [Аналитики объекта затрат](cost-objects.md)
 -   [Создание объектов затрат](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (руководство по задачам)
 
-<a id="cost-control-mobile-workspace" class="xliff"></a>
-
-## Мобильная рабочая область управления затратами
+## <a name="cost-control-mobile-workspace"></a>Мобильная рабочая область управления затратами
 С помощью мобильной рабочей области управления затратами менеджеры центра затрат могут в любое время и в любом месте просматривать производительность центра затрат.
 
 -   [Мобильная рабочая область управления затратами](cost-controlling-mobile-workspace.md)
 
-<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
-
-## Содержимое Power BI для анализа учета затрат
+## <a name="cost-accounting-analysis-power-bi-content"></a>Содержимое Power BI для анализа учета затрат
 Содержимое "Анализ учета затрат" Microsoft Power BI предназначено для контроллеров затрат или всех, кто несет ответственность за выполнение управления затратами в организации. Оно включает ключевые параметры, такие как затраты, величина и норма затрат по фактическим затратам, бюджетным затратам и гибким бюджетным затратам. Оно использует данные проводки из модуля "Учет затрат" в Finance and Operations и предоставляет сводное представление затрат в рамках всей организации в одной валюте отчетности. Менеджеры могут фильтровать эти данные по объектам затрат для проведения контроля затрат в своих организационных подразделениях, даже если организация может иметь несколько юридических лиц.
 
 -   [Содержимое Power BI для анализа учета затрат](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
