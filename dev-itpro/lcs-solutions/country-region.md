@@ -14,14 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
+ms.translationtype: HT
+ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
+ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -172,7 +171,7 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 - [Коды регистрации](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
 - [Возмещение](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge)
 - [Обзор кредитных переводов SEPA](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
-- [Обзор прямого дебетования SEPA](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
+- [Обзор безакцептного списания SEPA](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
 - [Настройка компенсации клиентам и поставщикам](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
 - [Настройка лиц с правом подписи для печатных форм](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 - [Налоговые директивы](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
@@ -260,7 +259,7 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 
 -   [Налог на товары и услуги (GST)](/dynamics365/unified-operations/financials/localizations/apac-mys-gst)
 
-### <a name="netherlands"></a>Голландия
+### <a name="netherlands"></a>Нидерланды
 
 -   [Крайний срок выпуска накладных](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
 
