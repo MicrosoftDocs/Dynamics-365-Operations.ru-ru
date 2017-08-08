@@ -3,21 +3,23 @@ title: "Содержимое Power BI для обзора кассы"
 description: "В этом разделе описывается содержимое Power BI для обзора кассы. В нем описывается порядок доступа к отчетам, входящим в содержимое, и предоставляется информация о модели данных и объектах, которые использовались для построения содержимого."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 06/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: e969c2033463d565ce782c7dc8cfc4b458349289
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 367fe61492648ee3ee629a8121e664dfaa0c6c99
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,6 +36,10 @@ ms.lasthandoff: 06/20/2017
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
 
 При использовании Dynamics 365 for Finance and Operations, Enterprise edition, обновление от июля 2017 г. отчеты из содержимого Power BI **Обзор кассы** отображаются в рабочих областях **Обзор кассы** и **Управление банками**.
+
+Чтобы просмотреть отчеты по прогнозу движения денежных средств с данными, сначала необходимо запустить процесс расчета прогноза с помощью функции **Рассчитать прогнозы движения денежных средств** из области "Управление банком и кассовыми операциями".  Это необходимо выполнить для каждой компании, включенной в прогноз.  Затем необходимо обновить агрегированное измерение LedgerCovLiquidityMeasurement на странице **Хранилище объектов**.  
+
+В демонстрационных целях можно добавить демонстрационные данные прогноза движения денежных средств с помощью страницы **Создать данные** из модуля "Демонстрационные данные".  Этот сценарий вставит данные в таблицы прогноза движения денежных средств, чтобы быстро заполнять сведения, необходимые для отчетов.  Этот модуль доступен, только если модель комплекта демонстрационных данных развернута в среде. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Отчеты, которые включены в содержимое Power BI
 В следующей таблице приводятся подробные сведения о показателях, которые находятся на каждой странице отчета, в содержимом Power BI **Обзор кассы**.

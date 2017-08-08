@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 2df0c6dc9b41dde861f5361bfcc1226786e7aa76
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/25/2017
 
 ---
 
@@ -35,28 +35,30 @@ ms.lasthandoff: 06/20/2017
 При использовании Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise, обновление от июля 2017 г. доступно следующее содержимое Power BI:
 
 - [Содержимое Power BI "Льготы"](benefits-power-bi.md)
-- [Содержимое Power BI "Обзор кассы"](/dynamics365/operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
+- [Содержимое Power BI "Обзор кассы"](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [Содержимое Power BI "Обзор финансового директора"](CFO-power-bi.md)
 - [Содержимое Power BI "Компенсация"](compensation-power-bi.md)
 - [Содержимое Power BI "Анализ учета затрат"*](cost-accounting-analysis-content-pack.md) 
-- [Содержимое Power BI "Управление кредитом и сбором задолженностей"](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Содержимое Power BI "Управление кредитом и сбором задолженностей"](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [Содержимое Power BI "Развитие сотрудников"](employee-development-PBI.md) 
 - [Содержимое Power BI "Результаты финансовой деятельности"*](financial-performance-power-bi-content-pack.md)
-- [Содержимое Power BI "Управление основными средствами"](/dynamics365/operations/financials/fixed-assets/Fixed-asset-management-workspace)
+- [Содержимое Power BI "Управление основными средствами"](/dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace)
 - [Содержимое Power BI "Обучение"](learning-power-bi.md)
 - [Содержимое Power BI "Менеджер по методикам"](practice-manager-power-bi.md)
 - [Содержимое Power BI "Эффективность производства"](production-performance-power-bi.md)
 - [Содержимое Power BI "Анализ расходов на закупку"](purchase-content-pack-for-power-bi.md) 
 - [Содержимое Power BI по набору сотрудников](recruiting-analysis-power-bi-content-pack.md) 
 - [Содержимое "Показатели продаж и прибыльности" для Power BI](sales-profitability-performance-content-pack.md)
-- [Содержимое Power BI "Платежи поставщикам"](/dynamics365/operations/financials/accounts-payable/Vendor-payments-workspace)
+- [Содержимое Power BI "Платежи поставщикам"](/dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace)
 - [Содержимое "Производительность склада" для Power BI](warehouse-power-bi-content.md)
 - [Содержимое Power BI "Показатели трудовых ресурсов"](workforce-analysis-power-bi-content-pack.md)  
 
 ### <a name="accessing-the-content"></a>Доступ к содержимому
 
 #### <a name="embedded-content"></a>Интегрированное содержимое
-За исключением содержимое, помеченного звездочкой (\*), все содержимое в списке выше интегрировано в приложение. Для получения дополнительных сведений о том, где можно просмотреть содержимое Power BI, перейдите по ссылкам.
+За исключением содержимое, помеченного звездочкой (\*), все содержимое в списке выше интегрировано в приложение. Для получения дополнительных сведений о том, где можно просмотреть содержимое Power BI, перейдите по ссылкам выше.
+
+Для просмотра данных в отчетах Power BI не забудьте обновить хранилище объектов. Дополнительные сведения см. в подразделе *Обновление хранилища объектов* раздела [Обзор интеграции Power BI с хранилищем объектов](power-bi-integration-entity-store.md).
 
 #### <a name="files-available-in-lifecycle-services"></a>Файлы, доступные в Lifecycle Services
 Это содержимое Power BI доступно в библиотеке общих ресурсов в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения о том, как загрузить содержимое и подключить его к вашим данным, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](power-bi-content-microsoft-partners.md). Чтобы просмотреть демонстрацию, которая показывает, как реализовать содержимое Power BI, см. [Содержимое Power BI от Майкрософт и ваших партнеров в службах Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office mix).
@@ -66,7 +68,7 @@ ms.lasthandoff: 06/20/2017
 
 - [Содержимое Power BI "Компенсации и льготы"](compensation-and-benefits-analysis-power-bi-content-pack.md)   
 - [Содержимое Power BI анализа учета затрат](cost-accounting-analysis-content-pack.md) 
-- [Содержимое Power BI "Управление кредитом и сбором задолженностей"](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Содержимое Power BI "Управление кредитом и сбором задолженностей"](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [Содержимое Power BI "Компетенции и развитие сотрудников"](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
 - [Содержимое "Финансовые показатели" для Power BI](financial-performance-power-bi-content-pack.md)
 - [Содержимое Power BI "Организационное обучение"](organizational-training-analysis-power-bi-content-pack.md) 

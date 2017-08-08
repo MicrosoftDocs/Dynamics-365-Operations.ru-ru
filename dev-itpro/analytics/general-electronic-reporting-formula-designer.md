@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 655a6fd99c0688b13c31c79f3322a287f902e7f1
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2c04bbccf22ab830404206cd54b4cb8e97b6a822
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -196,8 +196,8 @@ ms.lasthandoff: 06/20/2017
 | SESSIONNOW ()                              | Возвращает текущие дату и время сеанса Dynamics 365 for Finance and Operations в качестве значения даты и времени.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
 | DATEFORMAT (дата, формат)                  | Возвращает строковое представление даты с использованием указанного формата.                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** возвращает текущую дату сеанса Dynamics 365 for Finance and Operations (12.24.2015) как "**24-12-2015**" в соответствии с указанным настраиваемым форматом.                                                                                                                      |
 | DATEFORMAT (дата, формат, культура)         | Преобразование указанного значения даты в строку в указанном формате и [культуре](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Сведения о поддерживаемых форматах см. в разделах [стандартный](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** возвращает текущую дату сессии Finance and Operations 12.24.2015 как **"24.12.2015"**, в соответствии с выбранным немецким языковым стандартом.                                                                                                                       |
-| DAYOFYEAR (дата)              | Возвращает целочисленное представление числа дней между 1 января и указанной датой.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** возвращает **61**.
-**DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** возвращает **1**.                                                                                                                       |
+| DAYOFYEAR (дата)              | Возвращает целочисленное представление числа дней между 1 января и указанной датой.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** возвращает **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** возвращает **1**. 
+                                                                                                                      |
 
 **Функции преобразования данных**
 
@@ -236,7 +236,14 @@ ms.lasthandoff: 06/20/2017
 <li>Партии как регулярные списки (компонент <strong>Значение</strong>)</li>
 <li>Номер текущего пакета (компонент <strong>BatchNumber</strong>)</li>
 </ul></td>
-<td>В следующем примере источник данных <strong>Строки</strong> создан как список записей из 3 записей, который делится на партии, каждая из которых содержит до 2 записей. <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> Это показывает сконструированный макет формата, где привязки к источнику данных <strong>Строки</strong> созданы для генерации вывода в формате XML, который представляет отдельные узлы для каждой партии и записи в ней. <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> Ниже приведен результат выполнения сконструированного формата. <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<td>В следующем примере источник данных <strong>Строки</strong> создан как список записей из 3 записей, который делится на партии, каждая из которых содержит до 2 записей. 
+<a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 
+
+Это показывает сконструированный макет формата, где привязки к источнику данных <strong>Строки</strong> созданы для генерации вывода в формате XML, который представляет отдельные узлы для каждой партии и записи в ней. 
+<a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 
+
+Ниже приведен результат выполнения сконструированного формата. 
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
 </tr>
 <tr class="odd">
 <td>LIST (запись 1 [, запись 2, ...])</td>
@@ -300,7 +307,14 @@ ms.lasthandoff: 06/20/2017
 <li>Определенные записи списка как регулярные списки (компонент <strong>Значение</strong>)</li>
 <li>Индекс текущей записи (<strong>Номер</strong> компонента)</li>
 </ul></td>
-<td>В следующем примере источник данных <strong>Enumerated</strong> создается как нумерованный список записей поставщика из источника данных <strong>Vendors</strong>, который ссылается на таблицу <strong>VendTable</strong>. <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> Вот формат, где привязки данных создаются для генерации вывода в формате XML, который представляет отдельных поставщиков как нумерованные узлы. <a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> Это результат выполнения сконструированного формата. <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<td>В следующем примере источник данных <strong>Enumerated</strong> создается как нумерованный список записей поставщика из источника данных <strong>Vendors</strong>, который ссылается на таблицу <strong>VendTable</strong>. 
+<a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> 
+
+Вот формат, где привязки данных создаются для генерации вывода в формате XML, который представляет отдельных поставщиков как нумерованные узлы. 
+<a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 
+
+Это результат выполнения сконструированного формата. 
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
 </tr>
 <tr class="odd">
 <td>COUNT (список)</td>
@@ -322,13 +336,24 @@ ms.lasthandoff: 06/20/2017
 <li>описание</li>
 </ul>
 Поля "Этикетка" и "Описание" будут возвращаться значения времени выполнения на основе настроек языка в формате.</td>
-<td>Следующий пример показывает перечисление, введенное в модели данных. <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>В следующим пример показаны:
+<td>Следующий пример показывает перечисление, введенное в модели данных. 
+<a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
+
+В следующим пример показаны:
 <ul>
 <li>Перечисление модели, вставленное в отчет в качестве источника данных.</li>
 <li>Выражение ER, разработанное для использования перечисления модели в качестве параметра этой функции.</li>
 <li>Источник данных типа списка записей, вставленный в отчет с помощью созданного выражения ER.</li>
 </ul>
-<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> В следующем примере показаны элементы формата ER, привязанные к источнику данных типа списка записей, который был создан с помощью функции LISTOFFIELDS.<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>Это результат выполнения разработанного формата.<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>Примечание.</strong> Переведенный текст для этикеток и описаний заполняется в выходных данных формата ER в соответствии с настройками языка, заданными для родительских элементов формата FILE и FOLDER.</td>
+<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> 
+
+В следующем примере показано элементы формата электронной отчетности, которые привязаны к источнику данных типа списка записей, который был создан с помощью функции LISTOFFIELDS.
+<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
+
+Это результат выполнения сконструированного формата.
+<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>
+
+Примечание.</strong> Переведенный текст для меток и описаний заполняется выходными данными формата электронной отчетности в соответствии с параметрами языка, настроенными для родительских элементов формата FILE и FOLDER.</td>
 </tr>
 <tr class="odd">
 <td>STRINGJOIN (список, имя поля, разделитель)</td>
@@ -338,7 +363,18 @@ ms.lasthandoff: 06/20/2017
 <tr class="even">
 <td>SPLITLISTBYLIMIT (список, значение предела, источник предела)</td>
 <td>Разделяет указанный список на новый список подсписков и возвращает результаты в содержимом списка записей. Параметр предельного значения определяет значение предела для разделения исходного списка. Параметр предела источника указывает шаг, на котором увеличивается общая сумма. Предел не применяется к одному элементу заданного списка, когда источник предела превышает заданный предел.</td>
-<td>Следующий пример показывает образец формата с использованием источников данных. <a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>Это результат выполнения формата, который представляет собой плоский список товарных позиций.<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>Следующий пример показывает тот же формат, который скорректирован для представления списка товарных позиций в партиях, когда одна партия может содержать товары с общим весом, который не должен превышать 9.<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>Это результат выполнения скорректированного формата. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a><strong>Примечание.</strong> Предел не применяется к последнему элементу исходного списка, так как значение (11) его источника предела (вес) превышает заданный предел (9). Используйте функцию <strong>WHERE</strong> или выражение <strong>Включено</strong> соответствующего элемента формата, чтобы игнорировать (пропустить) подсписки во время создания отчета (при необходимости).</td>
+<td>Следующий пример показывает образец формата с использованием источников данных. 
+<a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>
+
+Это результат выполнения формата, который представляет собой плоский список товарных позиций.
+<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>
+
+Следующий пример показывает тот же формат, который скорректирован для представления списка товарных позиций в партиях, когда одна партия может содержать товары с общим весом, который не должен превышать 9.
+<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>
+
+Это результат выполнения скорректированного формата. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a>
+
+<strong>Примечание.</strong> Предел не применяется к последнему элементу исходного списка, так как значение (11) его источника предела (вес) превышает заданный предел (9). Используйте функцию <strong>WHERE</strong> или выражение <strong>Включено</strong> соответствующего элемента формата, чтобы игнорировать (пропустить) подсписки во время создания отчета (при необходимости).</td>
 </tr>
 <tr class="odd">
 <td>FILTER (список, условие)</td>
@@ -511,7 +547,10 @@ ms.lasthandoff: 06/20/2017
 <tr class="even">
 <td>FORMAT (строка 1, строка 2[, строка 3, ...])</td>
 <td>Возврат указанной строки, которая отформатирована путем замены любых вхождений <strong>%N</strong> <em>n</em>-ным аргументом. Аргументы — строки. Если аргумент не предусмотрен для параметра, параметр возвращается как <strong>&quot;%N&quot;</strong> в строке. Для значений типа <strong>real</strong> преобразование строки ограничено до 2 десятичных знаков.</td>
-<td>В этом примере источник данных <strong>PaymentModel</strong> возвращает список записей клиентов через компонент <strong>Customer</strong> и значение даты обработки в поле <strong>ProcessingDate</strong>. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> В формате ER, который создан для генерации электронного файла для выбранных клиентов, <strong>PaymentModel</strong> выбирается в качестве источника данных и управляет потоком операций. Исключение создается для конечных пользователей, если выбранный клиент остановлен на дату обработки отчета. Формула, которая предназначена для этого типа управления обработкой, может использовать следующие ресурсы:
+<td>В этом примере источник данных <strong>PaymentModel</strong> возвращает список записей клиентов через компонент <strong>Customer</strong> и значение даты обработки в поле <strong>ProcessingDate</strong>. 
+<a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 
+
+В формате ER, который создан для генерации электронного файла для выбранных клиентов, <strong>PaymentModel</strong> выбирается в качестве источника данных и управляет потоком операций. Исключение создается для конечных пользователей, если выбранный клиент остановлен на дату обработки отчета. Формула, которая предназначена для этого типа управления обработкой, может использовать следующие ресурсы:
 <ul>
 <li>Метка SYS70894 Finance and Operations которая имеет следующий текст:
 <ul>
@@ -524,10 +563,10 @@ ms.lasthandoff: 06/20/2017
 <li><strong>Для языка DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
-Вот формула, которую можно разработать: FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) Если отчет обрабатывается для клиента <strong>Litware Retail</strong> 17 декабря 2015 г., в культуре <strong>EN-US</strong> и языке <strong>EN-US</strong>, эта формула возвращает следующий текст, который можно представить в виде сообщения исключения для конечного пользователя: &quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot; Если отчет обрабатывается для клиента <strong>Litware Retail</strong> 17 декабря 2015 г., в культуре <strong>DE</strong> и языке <strong>DE</strong>, эта формула возвращает следующий текст, который использует другой формат даты: &quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot; <strong>Примечание.</strong>Следующий синтаксис применяется в формулах ER для меток:
+Вот формула, которую можно разработать: FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) Если отчет обрабатывается для клиента <strong>Litware Retail</strong> 17 декабря 2015 г., в культуре <strong>EN-US</strong> и языке <strong>EN-US</strong>, эта формула возвращает следующий текст, который можно представить в виде сообщения исключения для конечного пользователя: &quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot; Если отчет обрабатывается для клиента<strong> Litware Retail</strong> 17 декабря 2015 г., в культуре <strong>DE</strong> и языке <strong>DE</strong>, эта формула возвращает следующий текст, который использует другой формат даты: &quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot; <strong>Примечание.</strong> Следующий синтаксис применяется в формулах ER для меток:
 <ul>
 <li><strong>Для меток из ресурсов Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>, где Х — идентификатор метки в репозитории прикладных объектов (AOT)</li>
-<li><strong>Для меток, которые находятся в конфигурациях ER:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, где Х — код метки в конфигурации ER</li>
+<li><strong>Для меток, которые находятся в конфигурациях:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, где Х — код метки в конфигурации ER</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -549,7 +588,8 @@ ms.lasthandoff: 06/20/2017
 <td>TRIM (строка)</td>
 <td>Возвращает данный текст после усечения начальных и конечных пробелов и удаления нескольких пробелов между словами до одного. </td>
 <td><strong>TRIM ("     Текст     примера     ")</strong> возвращает <strong>"Текст примера".</strong></td>
-=======
+</tr>
+<tr class="odd">
 <td>GETENUMVALUEBYNAME (путь к источнику данных перечисления, текст метки значения перечисления)</td>
 <td>Возвращает значение указанного источника данных перечисления по указанному тексту этой метки перечисления.</td>
 <td>Следующий пример показывает перечисление ReportDirection, введенное в модели данных. Обратите внимание, что метки определены для значений перечисления.

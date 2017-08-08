@@ -3,7 +3,7 @@ title: "Разноска с производными книгами"
 description: "В этой статье описывается использование производных книг."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,19 +11,18 @@ ms.technology:
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0afefcbdbea963bf110555bdc80235e071ea4c3e
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: aaacf596f2ea1107a53647d779e9d2b6c37ab530
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -42,7 +41,7 @@ ms.lasthandoff: 05/25/2017
 > [!WARNING]
 > Сумма амортизации, разнесенная в производной книге, равна сумме, разнесенной для основной книги. Если методы амортизации для различных книг отличаются, не следует создавать проводки амортизации с использованием производного процесса. |
 
-## <a name="example"></a>Пример 
+## <a name="example"></a>пример 
 Ниже представлены сведения о способах настройки проводок приобретения с функциональностью производной книги.
 
 1.  Создайте книги на странице "Книги".
