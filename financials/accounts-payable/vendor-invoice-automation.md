@@ -12,13 +12,13 @@ audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: sunilg
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5bfde00f88a12711c2519aaea19dd7a48196a828
+ms.translationtype: HT
+ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
+ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 # <a name="vendor-invoice-automation"></a>Автоматизация накладных поставщиков
@@ -57,7 +57,7 @@ ms.lasthandoff: 06/20/2017
 
 Вложение документа накладной поставщика — это новый информационный объект, появившийся вместе с этой функциональностью. Объект "Заголовок накладной поставщика" модифицирован так, что теперь он поддерживает вложения. В объект "Строка накладной поставщика" никакие изменения для этой функциональности не вносились.
 
-Подробное определение информационного пакета в этой теме не приводится. Также в нем не поясняется процесс создания информационных пакетов. Эту информацию можно найти в разделе [Структура информационных объектов и пакетов](/dynamics365/en-us/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
+Подробное определение информационного пакета в этой теме не приводится. Также в нем не поясняется процесс создания информационных пакетов. Эту информацию можно найти в разделе [Структура информационных объектов и пакетов](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
 
 Чтобы быстро создать тестовые данные, включающие накладные и вложения, выполните следующие действия.
 

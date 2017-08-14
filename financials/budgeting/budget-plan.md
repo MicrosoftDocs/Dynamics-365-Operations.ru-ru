@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 11b5ffacef06fd3e83c61cd14da11ad645eec335
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 608ec87233acb05b0d46e367bcb7cd14985d7813
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -88,9 +87,8 @@ Julia использует следующий шаблон Excel для подг
 ## <a name="task-2-configure-user-security"></a>Задача 2. Настройка безопасности пользователя
 В бюджетном планировании используются специальные политики безопасности для настройки доступа к данным бюджетного плана. Julia нужно предоставить самой себе доступ к финансовым бюджетным планам. 
 
-2.1. Переключитесь на контекст юридического лица DEMF: 
+2.1. Переключитесь на контекст юридического лица DEMF. 
 
-[![DEMF](./media/screenshot10.png)](./media/screenshot10.png) 
 
 2.2. Перейдите в раздел "Бюджетирование" &gt; "Настройка" &gt; "Бюджетное планирование" &gt; "Конфигурация бюджетного планирования". На вкладке "Параметры" задайте для модели безопасности значение "На основе организаций безопасности" 
 

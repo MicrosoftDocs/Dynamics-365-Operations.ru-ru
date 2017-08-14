@@ -1,5 +1,5 @@
 ---
-title: "Кросс-докинг из производственных заказов в дебаркадеры отгрузки | Microsoft Docs"
+title: "Кросс-докинг из производственных заказов в дебаркадеры отгрузки"
 description: "В этом разделе описывается, как управлять процессом кросс-докинга материала, который принят из производственной линии в транспортный док отгрузки."
 author: johanhoffmann
 manager: AnnBe
@@ -8,19 +8,20 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+audience: Application User
 ms.reviewer: bis
 ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 0b5541b6752da0c73e4309951ecabc0793f24289
+ms.translationtype: HT
+ms.sourcegitcommit: b424be5396df9434cd799ca7e7e9342a7c476e29
+ms.openlocfilehash: 231808260eeab73120bab43558ab5745f9fdbe46
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -123,7 +124,6 @@ ms.lasthandoff: 06/20/2017
 ### <a name="additional-information"></a>Дополнительные сведения
 
 -   Сценарий кросс-докинга поддерживается для партии и номенклатур, контролируемых серийными номерами, с аналитиками партии и серийными номерами, определенными выше и снизу от местоположения в иерархии резервирования.
--   Количество, которое является принятым, не может быть разделено на спрос заказа на перемещение, который меньше. Например, если 20 штук принимаются и есть заказ на перемещение на 5 штук, заказ на перемещение не будет считаться применимым для кросс-докинга.
 
 
 

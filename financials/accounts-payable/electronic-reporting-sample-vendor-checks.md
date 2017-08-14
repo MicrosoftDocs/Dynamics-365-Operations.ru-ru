@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.assetid: 
 ms.search.region: Global
 ms.author: twheeloc
-ms.dyn365.intro: 2017-06-30
+ms.dyn365.intro: 2017-06-30T00:00:00.000Z
 ms.dyn365.version: Enterprise edition, July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6cb473962f40ed9ef2f5f807f089098764f47009
-ms.openlocfilehash: 8228690ee5ab7839ec19c307c23f9b6150006371
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: a8ba439ff643fce4811be9224a3edf96b2b9025c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/14/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -38,11 +38,11 @@ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition включ
 
 ## <a name="what-do-i-have-to-set-up"></a>Что следует настроить?
 
-- Прежде чем печатать чеки с помощью электронной отчетности, по крайней мере одна активная конфигурация чека должна быть импортирована в ваши конфигурации электронной отчетности. Инструкции см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+- Прежде чем печатать чеки с помощью электронной отчетности, по крайней мере одна активная конфигурация чека должна быть импортирована в ваши конфигурации электронной отчетности. Инструкции см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 - Если настраиваются чеки управления банком и кассовыми операциями для банковского счета, установите флажок **Универсальный электронный формат экспорта** и выберите соответствующий формат чека как конфигурацию формата экспорта.
 - Необходимо также указать число строк накладных, которые будут печататься при предъявлении к оплате. Не забудьте включить строки заголовка при расчете этот номера. Для двух форматов образцов чеков рекомендуемое число строк накладных — 17. Тем не менее, это число будет зависеть от запаса чека и драйверов принтера.
 - Мы рекомендуем распечатать тестовый чек для проверки макета чека. Для печати тестового чека выберите параметр **Тест печати**. Форматы образцов чеков работают лучше, когда **Поля** заданы как **Нет** в расширенных свойствах принтера в Microsoft Excel. После создания тестового чека разрешите редактирование выходных данных Excel и настройте макет страницы, чтобы все поля были равны **0** (ноль). Сравните тестовые копии чеков с запасом чеков и измените настройки, пока не будет достигнуто подходящее выравнивание.
 - При создании платежей для настроенного банковского счета в журнале платежей, чеки будут напечатаны в указанном формате.
 
-Дополнительные сведения см. в разделе [Изменение формата электронной отчетности](/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+Дополнительные сведения см. в разделе [Изменение формата электронной отчетности](/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template).
 

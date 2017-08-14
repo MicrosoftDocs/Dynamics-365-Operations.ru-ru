@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11574
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d0af259fd6da8a57bada919f44a2902d9a5854d
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 31a9141feea56f1c8c1ba5fde446181c157953ad
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 05/25/2017
 | Внутренний              | Номер заказа для контроля качества или номер лота проводки заказа для контроля качества. Например, несоответствие может быть связано с тестами, выполняемыми как часть заказа контроля качества, либо с заботой сотрудника о качестве продукта.     |
 | Производство сопутствующих продуктов | Несоответствие производственного заказа сопутствующего продукта, связанного с пакетной обработкой производственных заказов.                                                                                                                                                    |
 
-Несоответствия связаны с типом проблемы. Типы проблемы определены на странице **Типы проблем**, где вы определяете, какие типы проблем можно связать с каждым типом несоответствий. Например, типы проблем для несоответствия типа **Запрос на обслуживание** могут отражать классификацию жалоб клиентов, в то время как типы проблем для несоответствий типа **Внутреннее **могут представлять классификацию кодов дефекта. 
+Несоответствия связаны с типом проблемы. Типы проблемы определены на странице **Типы проблем**, где вы определяете, какие типы проблем можно связать с каждым типом несоответствий. Например, типы проблем для несоответствия типа **Запрос на обслуживание** могут отражать классификацию жалоб клиентов, в то время как типы проблем для несоответствий типа **Внутреннее**могут представлять классификацию кодов дефекта. 
 
 При создании нового несоответствия вы выбираете тип несоответствия и тип проблемы. Состояние первоначального утверждения — **Новое**, которое представляет запрос для действия. Следующий шаг — изменить состояние утверждения на **Одобрено** или **Отклонено**, чтобы показать, что вы предпримите или не предпримете действие по несоответствию. Имеется также возможность закрыть несоответствие (установив отдельный флажок), чтобы указать, что его рассмотрение завершено, или вновь открыть несоответствие, чтобы указать, что требуется его дальнейшее рассмотрение. 
 
@@ -100,9 +100,9 @@ ms.lasthandoff: 05/25/2017
 
 [Карантинные заказы](quarantine-orders.md)
 
-[Настройка заказов контроля качества (руководство по задачам)](http://ax.help.dynamics.com/en/wiki/set-up-quality-orders/)
+[Настройка заказов контроля качества (проводник по задаче)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-quality-orders)
 
-[Контроль качества товаров (руководство по задаче)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[Контроль качества товаров (проводник по задаче)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
 
 
 

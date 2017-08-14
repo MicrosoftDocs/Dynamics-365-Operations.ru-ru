@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 2
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: a65de22d01d15510c3f2cb792b86e6a88260bed9
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2044bd5a3c858fb099fa7f612ede9963acc51efb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,9 +34,10 @@ ms.lasthandoff: 06/20/2017
 
 О том, как провести обновление до последней версии, см. в разделе [Процесс обновления до последнего обновления](../migration-upgrade/upgrade-latest-update.md).
 
-## <a name="application-releases"></a>Выпуски приложения
+> [!NOTE]
+> В настоящее время идет переименование приложения Dynamics 365 for Operations (локальная версия). Вы увидите ссылки на Dynamics 365 for Operations (локальная версия) в сведениях и руководствах по лицензированию. Имя продукта, которое будет отображаться при развертывании продукта, — Dynamics 365 for Finance and Operations, выпуск Enterprise. Оба эти имени означаются один и тот же продукт.
 
-Дополнительные сведения о мобильных рабочих областях и недавно выпущенном содержимом Power BI см. в разделах [Мобильные рабочие области, недавно выпущенные для мобильного приложения Dynamics 365 for Finance and Operations](../mobile-apps/mobile-workspaces-released.md) и [Содержимое Power BI, недавно выпущенное для Dynamics 365 for Finance and Operations](../analytics/power-bi-home-page.md)
+## <a name="application-releases"></a>Выпуски приложения
 
 <table>
 <colgroup>
@@ -57,9 +58,9 @@ ms.lasthandoff: 06/20/2017
 </thead>
 <tbody>
 <tr class="even">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
 <td>Обновление от июля 2017 г.</td>
-<td>Х</td>
+<td>7.2.11792.56024</td>
 <td>2017 июня</td>
 <td><a href="whats-new-application-July-2017-update.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise edition, обновление от июля 2017 г.</a></td>
 </tr>
@@ -71,7 +72,7 @@ ms.lasthandoff: 06/20/2017
 <td><a href="whats-new-dynamics-365-operations-1611.md">Что нового и что изменилось в Dynamics 365 for Operations версии 1611 (ноябрь 2016)</a></td>
 </tr>
 <tr class="even">
-<td>Microsoft Dynamics AX    </td>
+<td>Microsoft Dynamics AX</td>
 <td>7.0.1</td>
 <td>7.0.1265.23014</td>
 <td>2016 мая</td>
@@ -108,9 +109,9 @@ ms.lasthandoff: 06/20/2017
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
 <td>Обновление платформы 8</td>
-<td>Х</td>
+<td>7.0.4565.16212</td>
 <td>2017 июня</td>
 <td><a href="whats-new-platform-update-8.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise edition, обновление платформы 8 (июнь 2017 г.)</a></td>
 </tr>
@@ -150,21 +151,21 @@ ms.lasthandoff: 06/20/2017
 <td><a href="whats-new-platform-update-3.md">Что нового и что изменилось в обновлении 3 платформы Dynamics 365 for Operations (ноябрь 2016)</a></td>
 </tr>
 <tr class="even">
-<td>Microsoft Dynamics AX    </td>
+<td>Microsoft Dynamics AX</td>
 <td>Обновление платформы 2</td>
 <td>7.0.4230.16130</td>
 <td>2016 августа</td>
 <td><a href="whats-new-platform-update-2.md">Что нового и что изменилось в обновлении 2 платформы Dynamics AX (август 2016 г.)</a></td>
 </tr>
 <tr class="odd">
-<td>Microsoft Dynamics AX    </td>
+<td>Microsoft Dynamics AX</td>
 <td>Обновление платформы 1</td>
 <td>7.0.4127.16103</td>
 <td>2016 мая</td>
 <td><a href="whats-new-changed-platform-version-7-1-may-2016.md">Что нового и что изменилось в обновлении 1 платформы Dynamics AX (май 2016 г.)</a></td>
 </tr>
 <tr class="odd">
-<td>Microsoft Dynamics AX    </td>
+<td>Microsoft Dynamics AX</td>
 <td>7.0</td>
 <td>7.0.4030.16079</td>
 <td>2016 февраля</td>

@@ -11,18 +11,17 @@ ms.technology:
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 262554
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: v-elgolu
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 6424d371fb2cfdbfb657931f982670755d4d4155
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 0ab1c9f62a9804be655e859bbe42e95a2f4b128e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,9 +35,9 @@ ms.lasthandoff: 06/13/2017
 Разноска проводок по таким работникам, которые являются подотчетными лицами, может выполняться при помощи счетов подотчетных лиц. Указанный для каждого подотчетного лица идентификатор работника можно использовать для отслеживания всех проводок подотчетного лица. Этот номер используется в качестве номера счета для проводок подотчетного лица на страницах **Общие журналы** и **Проводки по подотч. лицам**.
 
 ## <a name="create-and-post-a-purchase-order-with-advance-holder-details"></a>Создание и разноска заказа на покупку со сведениями о подотчетных лицах
-Дополнительные общие сведения о заказах на покупку см. в разделе [Обзор заказов на покупку](/manufacturing/procurement/purchase-order-overview). Если накладная поставщика создается и разносится со сведениями подотчетного лица, сальдо подотчетного лица будет разнесено на балансовый счет сотрудника, а не на балансовый счет поставщика. Чтобы добавить сведения о подотчетном лице в заказ на покупку, выполните следующие действия:
+Дополнительные общие сведения о заказах на покупку см. в разделе [Обзор заказов на покупку](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-overview). Если накладная поставщика создается и разносится со сведениями подотчетного лица, сальдо подотчетного лица будет разнесено на балансовый счет сотрудника, а не на балансовый счет поставщика. Чтобы добавить сведения о подотчетном лице в заказ на покупку, выполните следующие действия:
 
--   В поле **Условия оплаты** в разделе **Цены и скидки** выберите условие оплаты. <!---For more information about **Terms of payment**, see [Define vendor payment terms](http://ax.help.dynamics.com/en/wiki/define-vendor-payment-terms/).--> Выберите условие оплаты, для которого установлен флажок **От подотчетного лица** на странице **Условия оплаты**. Дополнительные сведения о настройке условий оплаты для подотчетных лиц см. в разделе [Подотчетные лица](emea-advance-holders.md).
+-   В поле **Условия оплаты** в разделе **Цены и скидки** выберите условие оплаты. <!---For more information about **Terms of payment**, see [Define vendor payment terms](/dynamics365/unified-operations/financials/accounts-payable/tasks/define-vendor-payment-terms).--> Выберите условие оплаты, для которого установлен флажок **От подотчетного лица** на странице **Условия оплаты**. Дополнительные сведения о настройке условий оплаты для подотчетных лиц см. в разделе [Подотчетные лица](emea-advance-holders.md).
 -   В поле **Подотчетное лицо** на экспресс-вкладке **Цена и скидка** выберите подотчетное лицо для заказа на покупку.
 
 Процесс разноски заказа на покупку создает две проводки поставщика с противоположными суммами и одну проводку подотчетного лица. Без сведений подотчетного лица будет создана только одна проводка по поставщику.

@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 36c5e78f4b85d0c763c35b62a6592365501db325
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6be91dfc02b728ffdf0f9d3baf1d41d3d2c10fea
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,7 +103,7 @@ Microsoft Power BI представляет собой набор програм
 На странице **Конфигурации** (**Управление организацией** &gt; **Электронная отчетность** &gt; **Конфигурации**) в дереве конфигураций выберите конфигурацию **Мероприятия импорта или экспорта**, созданную ранее. Измените статус версии 1.1 с **Черновик** на **Завершено**, чтобы этот формат стал доступным для использования. [![Страница "Конфигурации"](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) Выберите завершенную версию конфигурации **Мероприятия импорта или экспорта**, затем нажмите **Выполнить**. Обратите внимание, что настроенное место назначения применяется к выходному результату, создаваемому в формате Excel. Задайте для параметра **Пакетная обработка** значение **Да**, чтобы выполнить этот отчет в режиме, не требующем участия пользователя. Нажмите **Повторение** для планирования необходимого повторения этого пакетного выполнения. Повторение определяет, как часто обновленные данные будут перемещаться из Finance and Operations в Power BI. [![Диалоговое окно "Параметры электронного отчета"](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) После настройки задание выполнения отчета ER можно найти на странице **Пакетные задания** (**Администрирование системы &gt; Запросы &gt; Пакетные задания**). [![Страница "Пакетные задания"](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Когда это задание запускается впервые, место назначения создает новый файл Excel с настроенным именем в выбранной папке SharePoint. При каждом последующем выполнении этой задачи место назначения создает новую версию этого файла Excel. [![Новая версия файла Excel](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Создание набора данных Power BI с помощью выходного результата формата ER
-Выполните вход в Power BI и откройте существующую группу Power BI (рабочую область) или создайте новую группу. Нажмите **Добавить** под полем **Файлы** в разделе **Импорт или подключение с данными** или нажмите значок "плюс" (**+**) рядом с **Наборы данных** в левой области. [![Создание набора данных](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Выберите параметр **SharePoint — сайты рабочих групп**, затем введите путь SharePoint Server, используемый вами (**https://ax7partner.spoppe.com** в нашем примере). Затем перейдите к папке **/Shared Documents/GER data/PowerBI** и выберите файл Excel, созданный в качестве источника данных для нового набора данных Power BI. [![Выбор файла Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Щелкните **Подключить**, затем щелкните **Импорт**. Новый набор данных создается, основанный на выбранном файле Excel. Набор данных можно также добавить автоматически к вновь созданной панели мониторинга. [![Набор данных на панели мониторинга](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Настройте график обновления для данного набора данных, чтобы использовать принудительное периодическое обновление. Периодические обновления обеспечивает потребление новых бизнес-данных, поступающих из Finance and Operations, путем периодического выполнения отчета с новыми версиями файла Excel, созданных в SharePoint Server.
+Выполните вход в Power BI и откройте существующую группу Power BI (рабочую область) или создайте новую группу. Нажмите **Добавить** под полем **Файлы** в разделе **Импорт или подключение с данными** или нажмите значок "плюс" (**+**) рядом с **Наборы данных** в левой области. [![Создание набора данных](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Выберите параметр **SharePoint — сайты рабочих групп**, затем введите путь SharePoint Server, используемый вами (**https://ax7partner.litware.com** в нашем примере). Затем перейдите к папке **/Shared Documents/GER data/PowerBI** и выберите файл Excel, созданный в качестве источника данных для нового набора данных Power BI. [![Выбор файла Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Щелкните **Подключить**, затем щелкните **Импорт**. Новый набор данных создается, основанный на выбранном файле Excel. Набор данных можно также добавить автоматически к вновь созданной панели мониторинга. [![Набор данных на панели мониторинга](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Настройте график обновления для данного набора данных, чтобы использовать принудительное периодическое обновление. Периодические обновления обеспечивает потребление новых бизнес-данных, поступающих из Finance and Operations, путем периодического выполнения отчета с новыми версиями файла Excel, созданных в SharePoint Server.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Создание отчета Power BI. используя новый набор данных
 Для создания нового отчета Power BI нажмите созданный вами набор данных Power BI **Сведения об импорте и экспорте**. Затем настройте визуализацию. Например, выберите визуализацию **Картограмма** и настройте ее следующим образом:
