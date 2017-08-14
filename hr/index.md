@@ -15,14 +15,13 @@ ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: ed80e59579c2356cc3c1e0f13b33026284867a2c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -54,12 +53,15 @@ Talent позволяет выполнять следующие задачи:
 -   [Организация рабочей силы с использованием подразделений, должностей и штатных единиц](departments-jobs-positions.md)
 -   [Настройка параметров управления персоналом для конкретной компании](set-up-company-specific-hr-parameters.md)
 -   [Настройка параметров управления персоналом для нескольких юридических лиц](set-up-hr-parameters-across-legal-entities.md) 
+-   [Часто задаваемые вопросы по действиям персонала](personnel-actions-faq.md)
+-   [Обзор отпусков и отсутствия на работе](leave-absence-overview.md)
 
 ## <a name="retain-and-motivate-employees"></a>Удержание и мотивация сотрудников
 
 Вы можете настроить планы для эффективного и четкого управления компенсацией, а также управлять номенклатурами, такими как компьютеры или телефоны, которые организация предоставляет своим сотрудникам. Можно создать планы фиксированной и переменной компенсации, а также определить правила, которые применяются к плану компенсационных выплат для соответствия условиям этого плана.
 
 -   [Планы компенсационных выплат](compensation-plans.md)
+-   [Обработка компенсаций](process-compensation.md)
 -   [Создание планов фиксированной компенсации](create-fixed-compensation-plans.md)
 -   [Создание планов переменной компенсации](create-variable-compensation-plans.md)
 
