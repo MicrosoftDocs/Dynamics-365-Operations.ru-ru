@@ -1,9 +1,9 @@
 ---
 title: "Рабочая области выставления накладных при совместной работе с поставщиками"
 description: "В этом разделе описан порядок просмотра накладных поставщика и отправки накладных из рабочей области совместной работы с поставщиками."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,8 +14,8 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
-ms.author: abruer
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
@@ -33,7 +33,9 @@ ms.lasthandoff: 06/14/2017
 В этом разделе описан порядок просмотра накладных поставщика и отправки накладных из рабочей области совместной работы с поставщиками.
 
 Рабочую область **Выставление накладных при совместной работе с поставщиками** можно использовать для просмотра данных по накладным поставщиков и для отправки накладных в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition с использованием возможностей workflow-процесса.
-Рабочая область выставления накладных по совместной работе с поставщиками
+
+
+<a name="vendor-collaboration-invoicing-workspace"></a>Рабочая область выставления накладных по совместной работе с поставщиками
 ----------------------------------------
 
 ### <a name="summary-tiles"></a>Плитки сводки

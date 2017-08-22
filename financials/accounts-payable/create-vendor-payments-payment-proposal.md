@@ -1,7 +1,7 @@
 ---
 title: "Создание платежей поставщика с помощью предложения по оплате"
 description: "Этот раздел содержит обзор параметров предложения по оплате и несколько примеров, которые показывают, как работают предложения по оплате. Предложения по оплате часто используются для создания оплаты поставщикам, потому что запрос можно использовать для быстрого выбора накладных поставщиков для оплаты на основе таких критериев, как срок оплаты и скидка по оплате."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 07/17/2017
 ms.topic: article
@@ -15,8 +15,8 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
-ms.author: kweekley
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
