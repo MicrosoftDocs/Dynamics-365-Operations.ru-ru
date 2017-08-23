@@ -3,7 +3,7 @@ title: "Обработка общего журнала"
 description: "Эта статья описывает возможности в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, которые могут помочь выполнить обработку общего журнала легче, и которое также может помочь гарантировать, что правильные данные отражаются, и внутренний контроль не скомпрометирован."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/25/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68da281cb4793ed83f70c68d061d327aa8a8c772
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -82,8 +81,13 @@ ms.lasthandoff: 06/13/2017
 
 Структуры учета и расширенные структуры правил очень важны, чтобы гарантировать, что данные, которые необходимо для финансовой отчетности и отслеживания производительности, захвачены во время обработки общего журнала и любой документации. Структуры учета и расширенные структуры правил позволяют настроить впечатления от ввода данных. Вы можете позволить ввод данных только для финансовых аналитик, которые уместны в каждой ситуации, и можете также принудить требование, чтобы обязательные и правильные данные всегда захватывались.
 
-Дополнительные сведения см. в разделе [Планирование: план счетов](plan-chart-of-accounts.md). 
-
+Дополнительные сведения см. в следующих разделах:
+- [Планирование: план счетов](plan-chart-of-accounts.md). 
+- [Создание расширенных правил для журналов](tasks/create-advanced-rules-journals.md)
+- [Создание записи в журнале с помощью шаблона](tasks/create-journal-entry-template.md)
+- [Создание и проверка журналов](tasks/create-validate-journals.md)
+- [Учет периодических журналов](tasks/post-periodic-journals.md)
+- [Обработка журнала распределения ГК](tasks/process-ledger-allocation-journal.md)
 
 
 
