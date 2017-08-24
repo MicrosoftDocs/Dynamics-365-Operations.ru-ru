@@ -14,13 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
-ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 25cba59dfbab2e1030660840e85d278452e39e52
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -29,9 +29,9 @@ ms.lasthandoff: 07/27/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Finance and Operations включает функции для стран и регионов, описанные описаны в [руководстве по доступности продукта](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Эти функции включаются в зависимости основного адреса активного юридического лица. 
+Microsoft Dynamics 365 for Finance and Operations включает функции для стран и регионов, описанные описаны в [руководстве по международной доступности продукта](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Эти функции включаются в зависимости основного адреса активного юридического лица. 
 
-В этом разделе содержатся списки ресурсов, которые помогут вам узнать больше о функциональности, относящейся к конкретным странам и регионам. 
+В этом разделе содержатся списки ресурсов, которые помогут вам узнать больше о решениях, обновления, уведомлениях и функциях, относящихся к конкретным странам и регионам. 
 
 ## <a name="developing-localized-solutions"></a>Разработка локализованных решений
 Следующие ресурсы содержат инструкции и сведения, которые помогут разработчикам и независимым поставщикам ПО, которые создаются настройки для конкретных стран и регионов или разрабатывают решения для стран, не поддерживаемых корпорацией Майкрософт.
@@ -96,9 +96,13 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 -   [Банковская выписка CODA](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import)
 -   [Налоговая декларация Intervat](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [Настройка отчетов PRODCOM](/dynamics365/unified-operations/financials/localizations/emea-bel-prodcom-report)
+-   [Отчеты по выверке](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports)
 
 ### <a name="brazil"></a>Бразилия
 
+-   [Основные средства CIAP](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset)
+-   [Настройка финансовых книг](/dynamics365/unified-operations/financials/localizations/latam-bra-configure-fiscal-books)
+-   [Экспорт и импорт проводок из консолидации главной книги для Бразилии](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions)
 -   [Финансовые журналы](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-books)
 -   [Текстовые заполнители финансовых документов](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders)
 -   [Финансовые документы](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework)
@@ -108,10 +112,12 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 -   [Журналы, созданные во время процесса возврата электронных платежей](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process)
 -   [Процесс NF-e](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process)
 -   [Параметры для юридических лиц](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters)
+-   [Обработка предъявлений к оплате электронных платежей для Бразилии](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances)
 -   [Дополнительные финансовые документы покупки](/dynamics365/unified-operations/financials/localizations/latam-bra-purchase-complementary-fiscal-documents)
 -   [Финансовые документы, на которые имеются ссылки](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents)
 -   [Дополнительные финансовые документы продажи](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents)
 -   [Обслуживание электронного финансового документа](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document)
+-   [Настройка, импорт и проверка XML-документов NF-e и DANFE](/dynamics365/unified-operations/financials/localizations/latam-bra-set-up-import-nfe)
 -   [Атрибуты налогов](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-attributes)
 -   [Налоговые платежи](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-payments)
 -   [Налоги](/dynamics365/unified-operations/financials/localizations/latam-bra-calculate-taxes)
@@ -159,6 +165,7 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 - [Корректировка курсовой разницы](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
 - [Форматы файлов для способов оплаты](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 - [Выбытие ОС для Эстонии и Литвы](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [Импорт файлов ISO20022](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats)
 - [Интрастат](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
 - [Отчеты по журналам запасов](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
 - [Нумерация накладных и отборочных накладных для Латвии и Литвы](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
@@ -174,6 +181,7 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 - [Обзор безакцептного списания SEPA](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
 - [Настройка компенсации клиентам и поставщикам](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
 - [Настройка лиц с правом подписи для печатных форм](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Учет с использованием сторно](/dynamics365/unified-operations/financials/localizations/emea-storno)
 - [Налоговые директивы](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
 - [Обновление способа отображения сумм в отчетах и документах](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
 - [Валютные курсы НДС](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
@@ -246,6 +254,7 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 
 -   [Отчет по ремонту ОС](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement)
 -   [Нумерация накладных и отборочных накладных](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+-   [Сведения об отчете по НДС](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details)
 
 ### <a name="mexico"></a>Мексика
 
@@ -296,6 +305,7 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 -   [Группы переоценки основных средств](/dynamics365/unified-operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
 -   [Внутренний НДС (ЕС)](/dynamics365/unified-operations/financials/localizations/emea-esp-intra-community-vat)
 -   [Разовые клиенты](/dynamics365/unified-operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
+-   [Печать чеков с использованием испанского макета](/dynamics365/unified-operations/financials/localizations/emea-esp-print-checks-with-spanish-layout)
 -   [Параметры испанских простых векселей](/dynamics365/unified-operations/financials/localizations/emea-esp-promissory-note-options)
 -   [Циклы продажи и покупки](/dynamics365/unified-operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [Специальные записи и открывающие ведомости](/dynamics365/unified-operations/financials/localizations/emea-esp-opening-sheets-spain)
@@ -313,6 +323,7 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 ### <a name="thailand"></a>Таиланд
 
 -   [Отчеты по картам запаса](/dynamics365/unified-operations/financials/localizations/apac-tha-stock-card-reports)
+-   [Накладная по налогам для подстановки или корректировки для Таиланда](/dynamics365/unified-operations/financials/localizations/apac-tha-substitution-and-adjustment-invoices)
 -   [Нереализованный НДС](/dynamics365/unified-operations/financials/localizations/apac-tha-unrealized-vat)
 -   [Подоходный налог](/dynamics365/unified-operations/financials/localizations/apac-tha-withholding-tax)
 
@@ -322,6 +333,7 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 
 ### <a name="united-states"></a>США
 
+-   [Форма 1099 для государственного сектора](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector)   
 -   [Проверка формы I-9](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
 -   [Отчетность по форме 1099 на конец года](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [Заработная плата](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-payroll)

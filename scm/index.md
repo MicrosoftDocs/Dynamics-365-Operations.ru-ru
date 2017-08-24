@@ -16,13 +16,13 @@ ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: 
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 7e916dd91126d140790cbb3a6a740c2e2f20ccef
+ms.sourcegitcommit: 9e0d4e510542ffdeb01c8c9daffab40f5ba4b654
+ms.openlocfilehash: 3875aab63d2046bf6f0ebeb04622babb6f3f104d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
@@ -59,8 +59,11 @@ ms.lasthandoff: 07/27/2017
 -  [Начало работы с учетом затрат](https://youtu.be/1pUDtJQZ8FU)
 -  [Мобильная рабочая область управления затратами](https://youtu.be/imsuTg8rUVk)
 -  [Использование Excel для анализа затрат](https://youtu.be/-HKHYdClvx8)
+-  [Утверждение заказов на покупку на мобильном устройстве](https://youtu.be/gZ-gOlJe7H8)
 
-### <a name="tech-talk"></a>Технические вопросы 
+### <a name="tech-talks"></a>Технические вопросы
+Большинство из них относятся к функциями предыдущей версии Finance and Operations, но эти понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии. 
+
 -  <a href="https://youtu.be/zotrj3SbCl4">Конфигуратор продукции в Microsoft Dynamics AX</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">Сводное планирование — советы и рекомендации по устранению проблем с производительностью</a>
 -  <a href="https://youtu.be/RLXybx20B5o">Помогите! MRP работает медленно!</a>
@@ -71,6 +74,7 @@ ms.lasthandoff: 07/27/2017
 -  <a href="https://youtu.be/5w1MngVchBA">Метки в новой системе управления складом Microsoft Dynamics AX 2012 R3</a>
 -  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: расширенное управление складом — типичный день непрерывного производства</a>
 -  <a href="https://youtu.be/y1jrd3A_k70">Операции субподряда и действия производства</a>
+-  <a href="https://youtu.be/jgmTgJIgEFQ">Управление транспортировкой (TMS) в новой версии Microsoft Dynamics AX</a>
 
 ## <a name="blogs"></a>Блоги
 В <a href="https://blogs.msdn.microsoft.com/axmfg/">блоге группы исследований производства Dynamics AX</a> и в <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">блоге группы исследований управления цепочками поставок Dynamics AX</a> есть множество тем о производстве и управлении цепочками поставок. Большинство из них были написаны для предыдущей версии Finance and Operations, но эти понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии. 
