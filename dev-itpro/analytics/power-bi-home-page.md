@@ -1,9 +1,9 @@
 ---
-title: "Доступное содержимое Power BI"
+title: "Содержимое Power BI"
 description: "В этой теме перечислено доступное содержимое Power BI и ресурсы, где можно получить дополнительную информацию о нем."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,17 +15,17 @@ ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
+ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
+ms.openlocfilehash: f6401406981abc3252b7247510e80f12f2c4510d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 08/07/2017
 
 ---
 
-# <a name="power-bi-content-available"></a>Доступное содержимое Power BI
+# <a name="power-bi-content"></a>Содержимое Power BI
 [!include[banner](../includes/banner.md)]
 
 
@@ -34,6 +34,7 @@ ms.lasthandoff: 07/25/2017
 ## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Содержимое Power BI для Dynamics 365 for Finance and Operations, Enterprise edition, обновление от июля 2017 г.
 При использовании Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise, обновление от июля 2017 г. доступно следующее содержимое Power BI:
 
+- [Содержимое Power BI фактическое в сравнении с бюджетом](ledger-budgets-power-bi.md)
 - [Содержимое Power BI "Льготы"](benefits-power-bi.md)
 - [Содержимое Power BI "Обзор кассы"](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [Содержимое Power BI "Обзор финансового директора"](CFO-power-bi.md)

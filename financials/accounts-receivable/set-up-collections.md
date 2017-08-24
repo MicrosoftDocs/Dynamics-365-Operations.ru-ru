@@ -1,9 +1,9 @@
 ---
 title: "Настройка кредита и сборов"
 description: "В этой статье описывается, как настроить функцию сборов."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4d3682c486e80afd03ec5805575357f4e87781f2
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 76937aacbc1925603766299168ec2d4090bd161b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -94,5 +94,12 @@ ms.lasthandoff: 05/25/2017
 Если торговый представитель не указан, используется основной продавец для организации клиента. Если основной продавец не указан, сообщения электронной почты будут отправляться первому продавцу, указанному на странице.
 
 
+Дополнительные сведения см. в следующих разделах:
+
+ - [Создание последовательности писем-напоминаний](tasks/create-collection-letter-sequence.md)
+ 
+ - [Обработка писем-напоминаний](tasks/process-collection-letters.md)
+ 
+ - [Просмотр сведений о сборах](tasks/review-collections-information.md)
 
 
