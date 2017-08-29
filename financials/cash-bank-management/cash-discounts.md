@@ -1,7 +1,7 @@
 ---
 title: "Скидки по оплате"
 description: "Скидки по оплате настроены и совместно используются для расчетов с клиентами и расчетов с клиентами.  Скидка по оплате можно определить в накладной клиента или накладной поставщика, и будет принята, если накладная оплачивается до даты скидки по оплате."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 9d581a1d32a0df15e0b63e129d369d90aaa440d2
 ms.contentlocale: ru-ru
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

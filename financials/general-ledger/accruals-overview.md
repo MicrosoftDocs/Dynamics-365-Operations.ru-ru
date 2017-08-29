@@ -1,7 +1,7 @@
 ---
 title: "Обзор начислений"
 description: "Эта статья описывает начисления и представляет информация о том, как настроить их и создать проводки."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

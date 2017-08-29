@@ -1,7 +1,7 @@
 ---
 title: "Анализ тенденций и моделей продаж"
 description: "Можно анализировать тенденции и модели продаж в реальном времени в Microsoft Dynamics 365 for Retail."
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: f27e332e5a8028055903054a6175baafd224abe9
 ms.contentlocale: ru-ru
 ms.lasthandoff: 06/20/2017
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Документооборот заявок на закупку"
 description: "Бизнес-процесс переносит заявки на покупку во время проверки, начиная со статуса \"Черновик\", заканчивая финальным статусом \"Утверждено\". После отправки заявки на покупку на рассмотрение запускается бизнес-процесс. После того, как заявка на покупку утверждена, для строк заявки на покупку может создаваться заказ на покупку, который отправляется поставщику для выполнения заказа."
-author: YuyuScheller
+author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f

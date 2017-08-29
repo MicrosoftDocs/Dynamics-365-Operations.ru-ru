@@ -1,7 +1,7 @@
 ---
 title: "Закрытие на конец года"
 description: "В этом разделе описывается необходимая настройка и действия для запуска процесса закрытия главной книги на конец года."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

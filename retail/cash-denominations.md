@@ -1,7 +1,7 @@
 ---
 title: "Настройка номиналов валюты для POS"
 description: "Можно определить в бэк-офисе номиналы банкнот и монет, которые будут использоваться кассирами, продавцами и менеджерами в магазине из POS."
-author: josaw1
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: josaw
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1

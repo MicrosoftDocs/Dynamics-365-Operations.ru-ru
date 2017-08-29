@@ -1,7 +1,7 @@
 ---
 title: "Обзор сопоставления"
 description: "В этой статье приводятся общие сведения о процессе сопоставления. В ней описываются типы проводок, которые могут быть сопоставлены, когда и как можно сопоставлять проводки, и результаты процесса сопоставления."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: ab12ef4127daf57fb0816ae1585876b50d1e81ed
 ms.contentlocale: ru-ru
 ms.lasthandoff: 06/20/2017
-
 
 ---
 
