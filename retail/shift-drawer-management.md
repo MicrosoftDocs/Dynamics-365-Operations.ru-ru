@@ -1,7 +1,7 @@
 ---
 title: "Управление сменами и кассовым лотком"
 description: "В этой статье объясняется, как настроить и использовать два типа смен POS розничной торговли — автономную и совместную. Совместные смены могут использоваться несколькими пользователями в нескольких местах, тогда как автономные смены одновременно могут использоваться только одним работником."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: ru-ru
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Определение скидок, специфичных для канала"
 description: "Продавцы часто устанавливают различные скидки в различных каналах. В этом разделе рассматриваются понятия, которые необходимо знать для создания скидки для конкретного канала."
-author: josaw1
+author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: josaw
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16401
 ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
@@ -24,8 +24,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: d40c37628f03a7605e04b95339072a67806f2fa1
 ms.contentlocale: ru-ru
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

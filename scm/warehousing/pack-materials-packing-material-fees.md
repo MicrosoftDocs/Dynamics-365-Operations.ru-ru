@@ -1,7 +1,7 @@
 ---
 title: "Упаковочные материалы и сборы"
 description: "Сборы за упаковочные материалы выплачиваются компании утилизации с определенными интервалами. Для каждого материала, из которого состоит единица упаковки, должна выплачиваться сумма за единицу веса. Сборы за упаковочные материалы рассчитываются и учитываются в отчетах, но никакие проводки ГК не разносятся, так как сборы не рассматриваются в качестве налогов, которые необходимо платить налоговому органу."
-author: YuyuScheller
+author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670

@@ -1,7 +1,7 @@
 ---
 title: "Настройка продуктов, которые можно произвести или приобрести"
 description: "Продукты могут получаться из различных источников — их можно произвести (изготовить) или приобрести (купить). В этой статье описываются некоторые типичные моменты, которые следует учитывать при настройке продуктов для поддержки нескольких источника."
-author: YuyuScheller
+author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqGroup, ReqItemTable
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 21841
 ms.assetid: acc608b7-2cad-4fba-afee-9b7cc93761ec
@@ -24,7 +24,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: c4a2eb04a7cd788914aa461047e20b7b9cbad5e1
 ms.contentlocale: ru-ru
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

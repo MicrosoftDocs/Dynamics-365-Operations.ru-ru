@@ -1,7 +1,7 @@
 ---
 title: "Создание производственных заказов"
 description: "При создании производственного заказа инициируется запрос для начала производства номенклатуры. Производственный заказ содержит сведения о том, что будет производиться, в каком количестве, и плановую дату окончания. Он также содержит информацию о том, какие материалы будут потреблены и которому процессу следовать для произведения номенклатуры."
-author: YuyuScheller
+author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProdTable, ProdTableCreate
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19741
 ms.assetid: bbb6e69d-479c-45fc-a0a8-66da5df16c7f
@@ -24,7 +24,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: bcbb07553d990c35057ba32fd56d26fbc9c6f71b
 ms.contentlocale: ru-ru
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

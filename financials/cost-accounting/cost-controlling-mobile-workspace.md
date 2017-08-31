@@ -1,7 +1,7 @@
 ---
 title: "Мобильная рабочая область управления затратами"
 description: "В этой теме содержится информация о мобильной рабочей области \"Управление затратами\". Эта рабочая область позволяет менеджерам центра затрат просматривать сведения о производительности центра затрат в любое время и в любом месте."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -22,7 +22,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: dbedf75a6f61a9e2bc644056f0dd1e7499cedc42
 ms.contentlocale: ru-ru
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

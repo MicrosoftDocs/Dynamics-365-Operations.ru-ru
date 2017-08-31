@@ -1,7 +1,7 @@
 ---
 title: "Настройка функции расширенного входа для Cloud POS и MPOS"
 description: "В этом разделе описываются параметры настройки расширенного входа для Cloud POS и Retail Modern POS (MPOS)."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 0b7e5ed451497aea1c2ce798af2b717705538d47
 ms.contentlocale: ru-ru
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

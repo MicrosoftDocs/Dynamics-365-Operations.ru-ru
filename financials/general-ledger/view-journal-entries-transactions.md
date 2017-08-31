@@ -1,7 +1,7 @@
 ---
 title: "Просмотр записей журнала и проводок"
 description: "Эта статья описывает различные методы, которыми можно посмотреть записи и проводки в журнале"
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

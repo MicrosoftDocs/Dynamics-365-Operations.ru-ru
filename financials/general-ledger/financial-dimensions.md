@@ -1,7 +1,7 @@
 ---
 title: "Финансовые аналитики"
 description: "В этом разделе описываются различные типы финансовых аналитик и как они настраиваются."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

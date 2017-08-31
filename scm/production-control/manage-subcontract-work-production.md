@@ -1,7 +1,7 @@
 ---
 title: "Управление субподрядной работой в производстве"
 description: "В этом разделе объясняется, как в Microsoft Dynamics 365 for Finance and Operations осуществляется управление субподрядными операциями. Другими словами, в нем объясняется, как производственные операций, которые распределены ресурсу, управляются поставщиком."
-author: YuyuScheller
+author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f

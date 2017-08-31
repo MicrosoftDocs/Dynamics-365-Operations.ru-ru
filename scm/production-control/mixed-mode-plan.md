@@ -1,7 +1,7 @@
 ---
 title: "Планирование в смешанном режиме — совмещение дискретного производства, непрерывного производства и бережливый выбор источников материалов"
 description: "Эта статья содержит сведения о планировании в смешанном режиме. В планировании в смешанном режиме, можно смоделировать цепь поставок на основе потока материалов. Microsoft Dynamics 365 for Finance and Operations следит, чтобы убедитесь, что поток материалов следует вашим моделям, независимо от выбранной политики поставки (канбаны, производственных заказов, заказов на покупку, заказы партии или заказы на перемещение)."
-author: YuyuScheller
+author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008

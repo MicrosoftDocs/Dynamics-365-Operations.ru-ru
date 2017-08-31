@@ -1,7 +1,7 @@
 ---
 title: "Закрытие ГК в конце периода"
 description: "В этом разделе описаны задачи, которые обычно выполняются при закрытии периода для главной книги."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
