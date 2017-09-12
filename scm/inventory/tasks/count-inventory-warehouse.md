@@ -1,4 +1,4 @@
---- 
+---
 title: "Учет запасов на складе"
 description: "Эта процедура позволяет создать и разнести журнал инвентаризации запасов для подсчета конкретной номенклатуры в местонахождении на складе."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -68,5 +68,4 @@ ms.lasthandoff: 07/27/2017
 1. Щелкните запасы.
 2. Щелкните "Проводки".
     * Здесь можно просмотреть все связанные проводки, которые будут созданы при разноске журнала инвентаризации запасов.   
-
 

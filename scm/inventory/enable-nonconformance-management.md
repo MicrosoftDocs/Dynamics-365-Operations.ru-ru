@@ -1,7 +1,7 @@
 ---
 title: "Управление несоответствием"
 description: "Эта статья описывает базовые настройки, необходимые для использования несоответствий. Дополнительная настройка требуется, если необходимо использовать заказы для контроля качества."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventParameters, InventProblemType, InventProblemTypeSetup, InventQuarantineZone, InventTestDiagnosticType, InventTestReportSetup, SysUserManagement
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 28951
 ms.assetid: a62d4ba8-eebc-4b14-b587-630be7298522
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -31,7 +31,7 @@ ms.lasthandoff: 07/27/2017
 [!include[banner](../includes/banner.md)]
 
 
-Эта статья описывает базовые настройки, необходимые для использования несоответствий. Дополнительная настройка требуется, если необходимо использовать заказы для контроля качества. 
+Эта статья описывает базовые настройки, необходимые для использования несоответствий. Дополнительная настройка требуется, если необходимо использовать заказы для контроля качества.
 
 Чтобы включить управление несоответствиями, выполните следующие действия.
 
@@ -56,7 +56,4 @@ ms.lasthandoff: 07/27/2017
 [Процессы управления качеством](quality-management-processes.md)
 
 [Настройка предварительных требований для управления несоответствиями (проводник по задаче)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-prerequisites-nonconformance-management)
-
-
-
 

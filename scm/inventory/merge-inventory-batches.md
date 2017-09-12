@@ -1,7 +1,7 @@
 ---
 title: "Слияние складских партий"
 description: "В этой статье приводятся сведения о порядке объединения двух или более партий запасов в объединенную партию."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этой статье приводятся сведения о порядке объединения двух или более партий запасов в объединенную партию. 
+В этой статье приводятся сведения о порядке объединения двух или более партий запасов в объединенную партию.
 
 При слиянии партий расчеты могут помочь оптимизировать характеристики и атрибуты партий в объединенной партии. После выбора исходных партий объединенную партии можно просмотреть и изменить до разноски. Также можно переместить слияние партий в журнал запасов для утверждения. После этого запасы можно зарезервировать или разнести непосредственно из журнала запасов. При разноске объединенной партии запасы корректируются для исходных партий и объединенной партии.
 
@@ -142,7 +142,4 @@ ms.lasthandoff: 06/13/2017
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Почему невозможно просмотреть сведения об учет в двух единицах измерения в журнале запасов после слияния номенклатуры, учитываемой в двух единицах измерения?
 Партии номенклатур, учитываемых в двух единицах измерения, можно объединить так же, как все остальные номенклатуры. Однако сведения об учете в двух единицах измерения не отображаются в журнале запасов. Рекомендуется проверять сведения об учет в двух единицах измерения перед перемещением слияния партий в журнал запасов.
-
-
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Исправление сведений об отслеживании запасов"
 description: "Эта процедура содержит пошаговые инструкции по созданию и разноске журнала перемещения запасов для исправления данных отслеживания запасов."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ ms.lasthandoff: 07/27/2017
 1. Щелкните запасы.
 2. Щелкните "Проводки".
     * Здесь можно просмотреть проводки, созданные при разноске журнала.   
-
 

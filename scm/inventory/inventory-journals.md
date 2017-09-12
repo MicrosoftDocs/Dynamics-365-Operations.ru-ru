@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -33,7 +33,7 @@ ms.lasthandoff: 07/27/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Эта статья описывает, как можно использовать журналы запасов для разноски различных типов проводок для физических запасов. 
+Эта статья описывает, как можно использовать журналы запасов для разноски различных типов проводок для физических запасов.
 
 Журналы запасов в Microsoft Dynamics 365 for Finance and Operations используются для разноски проводок по физическим запасам различных типов, таких как разноска расходов и приходов, перемещения запасов, создания спецификаций (BOM) и выверка физических запасов. Все эти журналы запасов используются аналогичным образом, но они подразделяются на разные типы.
 
@@ -95,7 +95,4 @@ ms.lasthandoff: 07/27/2017
 
 ## <a name="posting-journal-lines"></a>Разноска строк журналов
 Вы можете разнести линии журнала, которые вы создаете, в любое время до тех пор, пока вы не заблокировали номенклатуру для исключения дополнительных проводок. Данные, введенные в журнал, останутся в нем даже при закрытии журнала без разноски строк.
-
-
-
 

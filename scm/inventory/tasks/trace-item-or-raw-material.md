@@ -1,4 +1,4 @@
---- 
+---
 title: "Трассировка номенклатуры или сырья"
 description: "Эта процедура демонстрирует способ использования трассировки номенклатуры, чтобы указать, где номенклатуры или сырье использовались или используются."
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ ms.lasthandoff: 07/27/2017
 8. В области действий щелкните "Трассировка".
 9. Щелкните "Отгруженные заказы на продажу".
 10. Закройте страницу.
-
 

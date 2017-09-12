@@ -1,4 +1,4 @@
---- 
+---
 title: "Перемещение физических запасов в пределах склада"
 description: "Эта процедура описывает процесс создания и разноски журнала перемещения запасов для регистрации перемещения номенклатуры из одного местонахождения на складе в другое."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ ms.lasthandoff: 07/27/2017
 1. Щелкните запасы.
 2. Щелкните "Проводки".
     * Здесь можно просмотреть проводки, созданные при разноске журнала.  
-
 

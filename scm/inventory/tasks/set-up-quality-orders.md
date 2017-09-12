@@ -1,4 +1,4 @@
---- 
+---
 title: "Настройка заказов на контроль качества"
 description: "В этой процедуре показано, как включить процесс управления качеством, в котором входящие запасы должны проверяться сразу после регистрации прибытия."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -142,5 +142,4 @@ ms.lasthandoff: 07/27/2017
 15. Поиск и выбор требуемой записи в списке.
 16. Нажмите кнопку "Сохранить".
 17. Закройте страницу.
-
 
