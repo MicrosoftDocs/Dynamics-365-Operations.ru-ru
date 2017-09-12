@@ -15,7 +15,7 @@ ms.custom: 20421
 ms.assetid: 7aa24a03-d172-47e9-81f8-ebd39e80bc60
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -25,61 +25,61 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="organization-administration-home-page"></a>Домашняя страница управления организацией
+# <a name="organization-administration-home-page"></a><span data-ttu-id="51629-103">Домашняя страница управления организацией</span><span class="sxs-lookup"><span data-stu-id="51629-103">Organization administration home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Этот раздел указывает на ресурсы, которые помогут использовать Microsoft Dynamics 365 for Finance and Operations в организации.
+<span data-ttu-id="51629-104">Этот раздел указывает на ресурсы, которые помогут использовать Microsoft Dynamics 365 for Finance and Operations в организации.</span><span class="sxs-lookup"><span data-stu-id="51629-104">This topic points to resources that will help you use Microsoft Dynamics 365 for Finance and Operations in your organization.</span></span>
 
-<a name="number-sequences"></a>Номерные серии
+<a name="number-sequences"></a><span data-ttu-id="51629-105">Номерные серии</span><span class="sxs-lookup"><span data-stu-id="51629-105">Number sequences</span></span>
 ----------------
 
--   [Обзор номерной серии](number-sequence-overview.md)
--   [Настройка номерных серий с использованием мастера](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard) (Руководство по задаче)
--   [Настройка номерных серий на индивидуальной основе](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis) (Руководство по задаче)
+-   [<span data-ttu-id="51629-106">Обзор номерной серии</span><span class="sxs-lookup"><span data-stu-id="51629-106">Number sequence overview</span></span>](number-sequence-overview.md)
+-   <span data-ttu-id="51629-107">[Настройка номерных серий с использованием мастера](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard) (Руководство по задаче)</span><span class="sxs-lookup"><span data-stu-id="51629-107">[Set up number sequences by using a wizard](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard) (Task guide)</span></span>
+-   <span data-ttu-id="51629-108">[Настройка номерных серий на индивидуальной основе](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis) (Руководство по задаче)</span><span class="sxs-lookup"><span data-stu-id="51629-108">[Set up number sequences on an individual basis](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis) (Task guide)</span></span>
 
-## <a name="address-books"></a>Адресные книги
--   [Адресные книги](qa-address-books.md)
--   [Обзор: глобальная адресная книга](overview-global-address-book.md)
--   [Планирование конфигурации глобальной адресной книги и дополнительной адресной книги](plan-configuration-global-address-book-additional-address-books.md)
+## <a name="address-books"></a><span data-ttu-id="51629-109">Адресные книги</span><span class="sxs-lookup"><span data-stu-id="51629-109">Address books</span></span>
+-   [<span data-ttu-id="51629-110">Адресные книги</span><span class="sxs-lookup"><span data-stu-id="51629-110">Address books</span></span>](qa-address-books.md)
+-   [<span data-ttu-id="51629-111">Обзор: глобальная адресная книга</span><span class="sxs-lookup"><span data-stu-id="51629-111">Overview: Global address book</span></span>](overview-global-address-book.md)
+-   [<span data-ttu-id="51629-112">Планирование конфигурации глобальной адресной книги и дополнительной адресной книги</span><span class="sxs-lookup"><span data-stu-id="51629-112">Planning the configuration of the global address book and additional address book</span></span>](plan-configuration-global-address-book-additional-address-books.md)
 
-## <a name="workflow"></a>Бизнес-правило
--   [Обзор системы workflow-процессов](overview-workflow-system.md)
--   [Архитектура системы документооборота](workflow-system-architecture.md)
--   [Элементы workflow-процесса](workflow-elements.md)
--   [Действия workflow-процесса](workflow-actions.md)
--   [Создайте workflow-процесс](create-workflow.md)
--   [Настроить свойства workflow-процесса](configure-workflow-properties.md)
--   [Настройка задачи вручную](configure-manual-task-workflow.md)
--   [Настройка автоматизированной задачи](configure-automated-task-workflow.md)
--   [Настройка процесса утверждения](configure-approval-process-workflow.md)
--   [Настройка стадии утверждения](configure-approval-step-workflow.md)
--   [Настройка принятия решений вручную](configure-manual-decision-workflow.md)
--   [Настройте зависимое решение](configure-conditional-decision-workflow.md)
--   [Настройте параллельное действие](configure-parallel-activity-workflow.md)
--   [Настройка параллельной ветви](configure-parallel-branch-workflow.md)
--   [Настройка элемента workflow-процесса по строке](configure-line-item-workflow.md)
+## <a name="workflow"></a><span data-ttu-id="51629-113">Бизнес-правило</span><span class="sxs-lookup"><span data-stu-id="51629-113">Workflow</span></span>
+-   [<span data-ttu-id="51629-114">Обзор системы workflow-процессов</span><span class="sxs-lookup"><span data-stu-id="51629-114">Overview of the workflow system</span></span>](overview-workflow-system.md)
+-   [<span data-ttu-id="51629-115">Архитектура системы документооборота</span><span class="sxs-lookup"><span data-stu-id="51629-115">Workflow system architecture</span></span>](workflow-system-architecture.md)
+-   [<span data-ttu-id="51629-116">Элементы workflow-процесса</span><span class="sxs-lookup"><span data-stu-id="51629-116">Workflow elements</span></span>](workflow-elements.md)
+-   [<span data-ttu-id="51629-117">Действия workflow-процесса</span><span class="sxs-lookup"><span data-stu-id="51629-117">Workflow actions</span></span>](workflow-actions.md)
+-   [<span data-ttu-id="51629-118">Создайте workflow-процесс</span><span class="sxs-lookup"><span data-stu-id="51629-118">Create a workflow</span></span>](create-workflow.md)
+-   [<span data-ttu-id="51629-119">Настроить свойства workflow-процесса</span><span class="sxs-lookup"><span data-stu-id="51629-119">Configure the properties of a workflow</span></span>](configure-workflow-properties.md)
+-   [<span data-ttu-id="51629-120">Настройка задачи вручную</span><span class="sxs-lookup"><span data-stu-id="51629-120">Configure a manual task</span></span>](configure-manual-task-workflow.md)
+-   [<span data-ttu-id="51629-121">Настройка автоматизированной задачи</span><span class="sxs-lookup"><span data-stu-id="51629-121">Configure an automated task</span></span>](configure-automated-task-workflow.md)
+-   [<span data-ttu-id="51629-122">Настройка процесса утверждения</span><span class="sxs-lookup"><span data-stu-id="51629-122">Configure an approval process</span></span>](configure-approval-process-workflow.md)
+-   [<span data-ttu-id="51629-123">Настройка стадии утверждения</span><span class="sxs-lookup"><span data-stu-id="51629-123">Configure an approval step</span></span>](configure-approval-step-workflow.md)
+-   [<span data-ttu-id="51629-124">Настройка принятия решений вручную</span><span class="sxs-lookup"><span data-stu-id="51629-124">Configure a manual decision</span></span>](configure-manual-decision-workflow.md)
+-   [<span data-ttu-id="51629-125">Настройте зависимое решение</span><span class="sxs-lookup"><span data-stu-id="51629-125">Configure a conditional decision</span></span>](configure-conditional-decision-workflow.md)
+-   [<span data-ttu-id="51629-126">Настройте параллельное действие</span><span class="sxs-lookup"><span data-stu-id="51629-126">Configure a parallel activity</span></span>](configure-parallel-activity-workflow.md)
+-   [<span data-ttu-id="51629-127">Настройка параллельной ветви</span><span class="sxs-lookup"><span data-stu-id="51629-127">Configure a parallel branch</span></span>](configure-parallel-branch-workflow.md)
+-   [<span data-ttu-id="51629-128">Настройка элемента workflow-процесса по строке</span><span class="sxs-lookup"><span data-stu-id="51629-128">Configure a line-item workflow element</span></span>](configure-line-item-workflow.md)
 
-## <a name="case-management"></a>Управление обращениями
--   [Планирование: настройка обращения](plan-case-management.md)
--   [Примеры управления обращениями](cases.md)
+## <a name="case-management"></a><span data-ttu-id="51629-129">Управление обращениями</span><span class="sxs-lookup"><span data-stu-id="51629-129">Case management</span></span>
+-   [<span data-ttu-id="51629-130">Планирование: настройка обращения</span><span class="sxs-lookup"><span data-stu-id="51629-130">Planning: Case setup</span></span>](plan-case-management.md)
+-   [<span data-ttu-id="51629-131">Примеры управления обращениями</span><span class="sxs-lookup"><span data-stu-id="51629-131">Case management examples</span></span>](cases.md)
 
-## <a name="electronic-signatures"></a>Электронные подписи
--   [Обзор электронной подписи](electronic-signature-overview.md)
--   [Настройка электронных подписей](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures) (Руководство по задаче)
+## <a name="electronic-signatures"></a><span data-ttu-id="51629-132">Электронные подписи</span><span class="sxs-lookup"><span data-stu-id="51629-132">Electronic signatures</span></span>
+-   [<span data-ttu-id="51629-133">Обзор электронной подписи</span><span class="sxs-lookup"><span data-stu-id="51629-133">Electronic signature overview</span></span>](electronic-signature-overview.md)
+-   <span data-ttu-id="51629-134">[Настройка электронных подписей](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures) (Руководство по задаче)</span><span class="sxs-lookup"><span data-stu-id="51629-134">[Set up electronic signatures](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures) (Task guide)</span></span>
 
-## <a name="organizations"></a>Организации
--   [Организации и организационные иерархии](organizations-organizational-hierarchies.md)
--   [Планирование организационной иерархии](plan-organizational-hierarchy.md)
--   [Создание операционной единицы](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-operating-unit) (Руководство по задачам)
--   [Создание организационной иерархии](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-organization-hierarchy) (Руководство по задачам)
--   [Создание юридического лица](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-legal-entity) (Руководство по задачам)
+## <a name="organizations"></a><span data-ttu-id="51629-135">Организации</span><span class="sxs-lookup"><span data-stu-id="51629-135">Organizations</span></span>
+-   [<span data-ttu-id="51629-136">Организации и организационные иерархии</span><span class="sxs-lookup"><span data-stu-id="51629-136">Organizations and organizational hierarchies</span></span>](organizations-organizational-hierarchies.md)
+-   [<span data-ttu-id="51629-137">Планирование организационной иерархии</span><span class="sxs-lookup"><span data-stu-id="51629-137">Plan the organizational hierarchy</span></span>](plan-organizational-hierarchy.md)
+-   <span data-ttu-id="51629-138">[Создание операционной единицы](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-operating-unit) (Руководство по задачам)</span><span class="sxs-lookup"><span data-stu-id="51629-138">[Create an operating unit](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-operating-unit) (Task guide)</span></span>
+-   <span data-ttu-id="51629-139">[Создание организационной иерархии](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-organization-hierarchy) (Руководство по задачам)</span><span class="sxs-lookup"><span data-stu-id="51629-139">[Create an organization hierarchy](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-organization-hierarchy) (Task guide)</span></span>
+-   <span data-ttu-id="51629-140">[Создание юридического лица](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-legal-entity) (Руководство по задачам)</span><span class="sxs-lookup"><span data-stu-id="51629-140">[Create a legal entity](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-legal-entity) (Task guide)</span></span>
 
-## <a name="general-administration"></a>Общее администрирование
--   [Изменение баннера или эмблемы](/dynamics365/unified-operations/fin-and-ops/get-started/tasks/change-banner-or-logo) (Руководство по задачам)
--   [О дате и времени и часовых поясах](date-time-zones.md)
--   [Шаблоны записей](record-templates.md)
+## <a name="general-administration"></a><span data-ttu-id="51629-141">Общее администрирование</span><span class="sxs-lookup"><span data-stu-id="51629-141">General administration</span></span>
+-   <span data-ttu-id="51629-142">[Изменение баннера или эмблемы](/dynamics365/unified-operations/fin-and-ops/get-started/tasks/change-banner-or-logo) (Руководство по задачам)</span><span class="sxs-lookup"><span data-stu-id="51629-142">[Change the banner or logo](/dynamics365/unified-operations/fin-and-ops/get-started/tasks/change-banner-or-logo) (Task guide)</span></span>
+-   [<span data-ttu-id="51629-143">О дате и времени и часовых поясах</span><span class="sxs-lookup"><span data-stu-id="51629-143">About date/time data and time zones</span></span>](date-time-zones.md)
+-   [<span data-ttu-id="51629-144">Шаблоны записей</span><span class="sxs-lookup"><span data-stu-id="51629-144">Record templates</span></span>](record-templates.md)
 
 
 

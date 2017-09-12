@@ -17,60 +17,60 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 2d446b63041e00ae12ecbed501925afc46a90ca7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 33ae479a8479732a1857577743a22068d2059a47
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-sales-event-kanban-rule"></a>Создание правила канбана события продаж
+# <a name="create-a-sales-event-kanban-rule"></a><span data-ttu-id="93bfe-103">Создание правила канбана события продаж</span><span class="sxs-lookup"><span data-stu-id="93bfe-103">Create a sales event kanban rule</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура описывает настройку, необходимую для создания правила канбана, которое запускается во время создания заказа на продажу. Правило канбана событий пополняет требования, созданные из строк заказа на продажу. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Это предназначено для инженер-технолога или менеджера потока создания ценности, так как он подготавливает производство нового или измененного продукта.
+<span data-ttu-id="93bfe-104">Эта процедура описывает настройку, необходимую для создания правила канбана, которое запускается во время создания заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="93bfe-104">This procedure focuses on the setup needed to create a kanban rule that is triggered during sales order creation.</span></span> <span data-ttu-id="93bfe-105">Правило канбана событий пополняет требования, созданные из строк заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="93bfe-105">The event kanban rule replenishes requirements that originate from sales order lines.</span></span> <span data-ttu-id="93bfe-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="93bfe-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="93bfe-107">Это предназначено для инженер-технолога или менеджера потока создания ценности, так как он подготавливает производство нового или измененного продукта.</span><span class="sxs-lookup"><span data-stu-id="93bfe-107">It is intended for the process engineer or the value stream manager as they prepare production of a new or modified product.</span></span>
 
 
 
 
-## <a name="create-a-new-kanban-rule"></a>Создать новое правило канбана
-1. Перейти к правилам канбана.
-2. Щелкните "Создать".
-3. В поле "Стратегия пополнения" выберите "Событие".
-    * Выбор событие означает, что правило канбана запускается событием, например, созданием строки заказа на продажу.   Это применяется к областям, где каждый канбан должен покрывать определенный спрос.  
-4. В поле "Первое мероприятие плана" введите или выберите значение.
-    * Выберите окончательную сборку.  
-5. Разверните раздел "Сведения".
-6. В поле "Продукт" введите или выберите значение.
-    * Выберите L0050.  
+## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="93bfe-108">Создать новое правило канбана</span><span class="sxs-lookup"><span data-stu-id="93bfe-108">Create a new kanban rule</span></span>
+1. <span data-ttu-id="93bfe-109">Перейти к правилам канбана.</span><span class="sxs-lookup"><span data-stu-id="93bfe-109">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="93bfe-110">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="93bfe-110">Click New.</span></span>
+3. <span data-ttu-id="93bfe-111">В поле "Стратегия пополнения" выберите "Событие".</span><span class="sxs-lookup"><span data-stu-id="93bfe-111">In the Replenishment strategy field, select 'Event'.</span></span>
+    * <span data-ttu-id="93bfe-112">Выбор событие означает, что правило канбана запускается событием, например, созданием строки заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="93bfe-112">Selecting Event means that the kanban rule is triggered by an event, for example, creation of a sales order line.</span></span>   <span data-ttu-id="93bfe-113">Это применяется к областям, где каждый канбан должен покрывать определенный спрос.</span><span class="sxs-lookup"><span data-stu-id="93bfe-113">This is applied to areas where each kanban should cover a specific demand.</span></span>  
+4. <span data-ttu-id="93bfe-114">В поле "Первое мероприятие плана" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="93bfe-114">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="93bfe-115">Выберите окончательную сборку.</span><span class="sxs-lookup"><span data-stu-id="93bfe-115">Select Final assembly.</span></span>  
+5. <span data-ttu-id="93bfe-116">Разверните раздел "Сведения".</span><span class="sxs-lookup"><span data-stu-id="93bfe-116">Expand the Details section.</span></span>
+6. <span data-ttu-id="93bfe-117">В поле "Продукт" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="93bfe-117">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="93bfe-118">Выберите L0050.</span><span class="sxs-lookup"><span data-stu-id="93bfe-118">Select L0050.</span></span>  
 
-## <a name="define-an-event"></a>Определение события
-1. Разверните раздел "События".
-2. В поле "Событие продажи" выберите "Автоматическое".
-    * При выборе события продаж "автоматическое" это правило канбана будет запускаться автоматически, когда строка продаж будет соответствовать местоположению продукта и поступления. В этой процедуре это продукт L0050 на складе 13.  
-3. Установите минимальное количество событий "50".
-    * С минимальным количеством события 50 правило канбана будет только запускаться событиями с количеством 50 или больше.  
-4. Разверните раздел "Производственный поток".
-    * Обратите внимание, что местоположение поступления находится на складе 13. Это означает, что это правило канбана будет запускаться для этого местоположения.  
-    * В этом примере строка продажи для продукта L0050, с количеством 50 или больше, на складе 13 запустит это правило канбана.  
+## <a name="define-an-event"></a><span data-ttu-id="93bfe-119">Определение события</span><span class="sxs-lookup"><span data-stu-id="93bfe-119">Define an event</span></span>
+1. <span data-ttu-id="93bfe-120">Разверните раздел "События".</span><span class="sxs-lookup"><span data-stu-id="93bfe-120">Expand the Events section.</span></span>
+2. <span data-ttu-id="93bfe-121">В поле "Событие продажи" выберите "Автоматическое".</span><span class="sxs-lookup"><span data-stu-id="93bfe-121">In the Sales event field, select 'Automatic'.</span></span>
+    * <span data-ttu-id="93bfe-122">При выборе события продаж "автоматическое" это правило канбана будет запускаться автоматически, когда строка продаж будет соответствовать местоположению продукта и поступления.</span><span class="sxs-lookup"><span data-stu-id="93bfe-122">By selecting the sales event Automatic, this kanban rule will be triggered automatically when a sales line matches the product and receipt location.</span></span> <span data-ttu-id="93bfe-123">В этой процедуре это продукт L0050 на складе 13.</span><span class="sxs-lookup"><span data-stu-id="93bfe-123">In this procedure, it is product L0050 on warehouse 13.</span></span>  
+3. <span data-ttu-id="93bfe-124">Установите минимальное количество событий "50".</span><span class="sxs-lookup"><span data-stu-id="93bfe-124">Set Minimum event quantity to '50'.</span></span>
+    * <span data-ttu-id="93bfe-125">С минимальным количеством события 50 правило канбана будет только запускаться событиями с количеством 50 или больше.</span><span class="sxs-lookup"><span data-stu-id="93bfe-125">With a minimum event quantity of 50, the kanban rule will only be triggered by events with a quantity of 50 or more.</span></span>  
+4. <span data-ttu-id="93bfe-126">Разверните раздел "Производственный поток".</span><span class="sxs-lookup"><span data-stu-id="93bfe-126">Expand the Production flow section.</span></span>
+    * <span data-ttu-id="93bfe-127">Обратите внимание, что местоположение поступления находится на складе 13.</span><span class="sxs-lookup"><span data-stu-id="93bfe-127">Notice that the Receipt location is warehouse 13.</span></span> <span data-ttu-id="93bfe-128">Это означает, что это правило канбана будет запускаться для этого местоположения.</span><span class="sxs-lookup"><span data-stu-id="93bfe-128">This means that this kanban rule will be triggered for this location.</span></span>  
+    * <span data-ttu-id="93bfe-129">В этом примере строка продажи для продукта L0050, с количеством 50 или больше, на складе 13 запустит это правило канбана.</span><span class="sxs-lookup"><span data-stu-id="93bfe-129">In this example, a sales line for product L0050, with a quantity of 50 or more, on warehouse 13, will trigger this kanban rule.</span></span>  
 
-## <a name="create-sales-line-to-trigger-event-kanban-rule"></a>Создание строки продажи для запуска правила канбана события
-1. Перейдите в раздел "Все заказы на продажу".
-    * Предупреждение отображается, когда правило канбана сохраняется; это означает, что канбаны будут созданы в реальном времени во время создания заказа на продажу.  
-2. Щелкните "Создать".
-3. В поле "Счет клиента" введите или выберите значение.
-    * Например, выберите US-003.  
-4. Нажмите кнопку "OК".
-5. В поле "Код номенклатуры" введите "L0050".
-6. В поле "Сайт" введите "1".
-    * Выберите сайт 1, поскольку склад 13 находится на сайте 1.  
-7. В поле "Склад" введите или выберите значение.
-    * Задайте склад 13.  
-8. В поле "Количество" укажите "75".
-    * Введите количество 50 или больше для запуска созданного правила канбана.  
+## <a name="create-sales-line-to-trigger-event-kanban-rule"></a><span data-ttu-id="93bfe-130">Создание строки продажи для запуска правила канбана события</span><span class="sxs-lookup"><span data-stu-id="93bfe-130">Create sales line to trigger event kanban rule</span></span>
+1. <span data-ttu-id="93bfe-131">Перейдите в раздел "Все заказы на продажу".</span><span class="sxs-lookup"><span data-stu-id="93bfe-131">Go to All sales orders.</span></span>
+    * <span data-ttu-id="93bfe-132">Предупреждение отображается, когда правило канбана сохраняется; это означает, что канбаны будут созданы в реальном времени во время создания заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="93bfe-132">A warning is shown when the kanban rule is saved, which means that kanbans will be created in real-time during sales order creation.</span></span>  
+2. <span data-ttu-id="93bfe-133">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="93bfe-133">Click New.</span></span>
+3. <span data-ttu-id="93bfe-134">В поле "Счет клиента" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="93bfe-134">In the Customer account field, enter or select a value.</span></span>
+    * <span data-ttu-id="93bfe-135">Например, выберите US-003.</span><span class="sxs-lookup"><span data-stu-id="93bfe-135">For example, select US-003.</span></span>  
+4. <span data-ttu-id="93bfe-136">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="93bfe-136">Click OK.</span></span>
+5. <span data-ttu-id="93bfe-137">В поле "Код номенклатуры" введите "L0050".</span><span class="sxs-lookup"><span data-stu-id="93bfe-137">In the Item number field, type 'L0050'.</span></span>
+6. <span data-ttu-id="93bfe-138">В поле "Сайт" введите "1".</span><span class="sxs-lookup"><span data-stu-id="93bfe-138">In the Site field, type '1'.</span></span>
+    * <span data-ttu-id="93bfe-139">Выберите сайт 1, поскольку склад 13 находится на сайте 1.</span><span class="sxs-lookup"><span data-stu-id="93bfe-139">Select Site 1 because Warehouse 13 is on Site 1.</span></span>  
+7. <span data-ttu-id="93bfe-140">В поле "Склад" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="93bfe-140">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="93bfe-141">Задайте склад 13.</span><span class="sxs-lookup"><span data-stu-id="93bfe-141">Set Warehouse to 13.</span></span>  
+8. <span data-ttu-id="93bfe-142">В поле "Количество" укажите "75".</span><span class="sxs-lookup"><span data-stu-id="93bfe-142">Set Quantity to '75'.</span></span>
+    * <span data-ttu-id="93bfe-143">Введите количество 50 или больше для запуска созданного правила канбана.</span><span class="sxs-lookup"><span data-stu-id="93bfe-143">Enter a quantity of 50 or greater, to trigger the created kanban rule.</span></span>  
 
-## <a name="verify-that-kanban-is-created"></a>Проверка, что канбан создан
-1. Щелкните "Продукт и поставки".
-2. Щелкните "Просмотр дерева информации об источниках потребности".
-    * Обратите внимание, что создается канбан с тем же количеством, что и в строке продажи. Можно также просмотреть расходы на материалы, необходимые для производства L0050. Это последний этап в этой процедуре.  
+## <a name="verify-that-kanban-is-created"></a><span data-ttu-id="93bfe-144">Проверка, что канбан создан</span><span class="sxs-lookup"><span data-stu-id="93bfe-144">Verify that kanban is created</span></span>
+1. <span data-ttu-id="93bfe-145">Щелкните "Продукт и поставки".</span><span class="sxs-lookup"><span data-stu-id="93bfe-145">Click Product and supply.</span></span>
+2. <span data-ttu-id="93bfe-146">Щелкните "Просмотр дерева информации об источниках потребности".</span><span class="sxs-lookup"><span data-stu-id="93bfe-146">Click View pegging tree.</span></span>
+    * <span data-ttu-id="93bfe-147">Обратите внимание, что создается канбан с тем же количеством, что и в строке продажи.</span><span class="sxs-lookup"><span data-stu-id="93bfe-147">Notice that a kanban with the same quantity as the sales line is created.</span></span> <span data-ttu-id="93bfe-148">Можно также просмотреть расходы на материалы, необходимые для производства L0050.</span><span class="sxs-lookup"><span data-stu-id="93bfe-148">You can also see the material issues needed to produce L0050.</span></span> <span data-ttu-id="93bfe-149">Это последний этап в этой процедуре.</span><span class="sxs-lookup"><span data-stu-id="93bfe-149">This is the last step in this procedure.</span></span>  
 
 

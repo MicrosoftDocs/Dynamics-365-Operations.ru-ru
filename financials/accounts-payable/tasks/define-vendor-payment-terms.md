@@ -16,39 +16,39 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: cbac3b27c25377abff341c4bf259e553c14a4ae8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a00ca73b1bc301960132a86846749d12c39ed3f7
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-vendor-payment-terms"></a>Определение условий оплаты для поставщиков
+# <a name="define-vendor-payment-terms"></a><span data-ttu-id="0d192-103">Определение условий оплаты для поставщиков</span><span class="sxs-lookup"><span data-stu-id="0d192-103">Define vendor payment terms</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Настройте условия оплаты для накладных поставщика. В этой задаче используется демонстрационная компания USMF.
+<span data-ttu-id="0d192-104">Настройте условия оплаты для накладных поставщика.</span><span class="sxs-lookup"><span data-stu-id="0d192-104">Set up payment terms for vendor invoices.</span></span> <span data-ttu-id="0d192-105">В этой задаче используется демонстрационная компания USMF.</span><span class="sxs-lookup"><span data-stu-id="0d192-105">This task uses the USMF demo company.</span></span>
 
-1. Перейдите в раздел "Расчеты с поставщиками" > "Настройка платежей" > "Условия оплаты".
-2. Щелкните "Создать".
-    * Страница "Условия оплаты" используется для определения способа расчета срока выполнения. Она не используется для определения способа расчета дата скидки по оплате.  
-3. В поле "Условия оплаты" введите значение.
-4. В поле "Описание" введите значение.
-5. В поле "Дни" введите число.
-    * Число, введенное здесь, будет использоваться для добавления к сроку выполнения или в конец периода, указанного в способе оплаты. Например, если выбрать значение "Нетто", это число будет добавлено к сроку выполнения. Если выбрать значение "Текущий месяц", это число будет добавлено к последнему дню текущего месяца для расчета срока выполнения.  
-6. Нажмите кнопку "Сохранить".
-7. Закройте страницу.
-8. Перейдите в раздел "Расчеты с поставщиками" > "Настройка платежей" > "Скидки по оплате".
-9. Щелкните "Создать".
-10. В поле "Скидка по оплате" введите код.
-11. В поле "Описание" введите значение.
-12. Если поставщик предлагает многоуровневую скидку, выберите следующую скидку по оплате по истечении срока действия текущей скидки.
-13. Закройте страницу.
-14. В поле "Дни" введите число.
-    * Количество, указанное в поле "Дни", будет использоваться для расчета даты скидки при оплате на основании параметра, выбранного в поле "Нетто/Период". Если выбрано значение "Нетто", количество будет добавляться к дате накладной для определения даты скидки по оплате. Если выбрано значение "Текущий месяц", количество будет добавляться в конец текущего месяца для определения даты скидки по оплате.  
-15. Введите процент скидки по оплате в поле "Скидка". 
-16. Введите счет ГК, на который будет разноситься скидка по оплате для накладных клиента.
-17. Введите счет ГК, на который будет разноситься скидка по оплате для накладных поставщика.
-    * Если для параметра "Корр. счет скидки" задано значение "Использовать счет ГК для скидок поставщика", будет использоваться счет ГК.  Если для параметра задано значение "Счета в строках накладной", скидка по оплате будет разнесена на счета основного средства/расходов в строках накладной.  
-18. Нажмите кнопку "Сохранить".
+1. <span data-ttu-id="0d192-106">Перейдите в раздел "Расчеты с поставщиками" > "Настройка платежей" > "Условия оплаты".</span><span class="sxs-lookup"><span data-stu-id="0d192-106">Go to Accounts payable > Payment setup > Terms of payment.</span></span>
+2. <span data-ttu-id="0d192-107">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="0d192-107">Click New.</span></span>
+    * <span data-ttu-id="0d192-108">Страница "Условия оплаты" используется для определения способа расчета срока выполнения.</span><span class="sxs-lookup"><span data-stu-id="0d192-108">The Terms of payment page is used to define how the due date will be calculated.</span></span> <span data-ttu-id="0d192-109">Она не используется для определения способа расчета дата скидки по оплате.</span><span class="sxs-lookup"><span data-stu-id="0d192-109">It is not used to define how the cash discount date will be calculated.</span></span>  
+3. <span data-ttu-id="0d192-110">В поле "Условия оплаты" введите значение.</span><span class="sxs-lookup"><span data-stu-id="0d192-110">In the Terms of payment field, type a value.</span></span>
+4. <span data-ttu-id="0d192-111">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="0d192-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="0d192-112">В поле "Дни" введите число.</span><span class="sxs-lookup"><span data-stu-id="0d192-112">In the Days field, enter a number.</span></span>
+    * <span data-ttu-id="0d192-113">Число, введенное здесь, будет использоваться для добавления к сроку выполнения или в конец периода, указанного в способе оплаты.</span><span class="sxs-lookup"><span data-stu-id="0d192-113">The number entered here will be used to add to the due date, or to the end of the period identified in the Payment method.</span></span> <span data-ttu-id="0d192-114">Например, если выбрать значение "Нетто", это число будет добавлено к сроку выполнения.</span><span class="sxs-lookup"><span data-stu-id="0d192-114">For example, if you select Net, the number will be added to the due date.</span></span> <span data-ttu-id="0d192-115">Если выбрать значение "Текущий месяц", это число будет добавлено к последнему дню текущего месяца для расчета срока выполнения.</span><span class="sxs-lookup"><span data-stu-id="0d192-115">If you select Current month, it will add the number to the last day of the current month to calculate the due date.</span></span>  
+6. <span data-ttu-id="0d192-116">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="0d192-116">Click Save.</span></span>
+7. <span data-ttu-id="0d192-117">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="0d192-117">Close the page.</span></span>
+8. <span data-ttu-id="0d192-118">Перейдите в раздел "Расчеты с поставщиками" > "Настройка платежей" > "Скидки по оплате".</span><span class="sxs-lookup"><span data-stu-id="0d192-118">Go to Accounts payable > Payment setup > Cash discounts.</span></span>
+9. <span data-ttu-id="0d192-119">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="0d192-119">Click New.</span></span>
+10. <span data-ttu-id="0d192-120">В поле "Скидка по оплате" введите код.</span><span class="sxs-lookup"><span data-stu-id="0d192-120">In the Cash discount field, enter an ID.</span></span>
+11. <span data-ttu-id="0d192-121">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="0d192-121">In the Description field, type a value.</span></span>
+12. <span data-ttu-id="0d192-122">Если поставщик предлагает многоуровневую скидку, выберите следующую скидку по оплате по истечении срока действия текущей скидки.</span><span class="sxs-lookup"><span data-stu-id="0d192-122">If the vendor offers a tiered discount, select the next cash discount after the current one is expired.</span></span>
+13. <span data-ttu-id="0d192-123">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="0d192-123">Close the page.</span></span>
+14. <span data-ttu-id="0d192-124">В поле "Дни" введите число.</span><span class="sxs-lookup"><span data-stu-id="0d192-124">In the Days field, enter a number.</span></span>
+    * <span data-ttu-id="0d192-125">Количество, указанное в поле "Дни", будет использоваться для расчета даты скидки при оплате на основании параметра, выбранного в поле "Нетто/Период".</span><span class="sxs-lookup"><span data-stu-id="0d192-125">The quantity entered in the Days field will be used to calculate the Cash discount date, based on what option was selected in the Net/Current field.</span></span> <span data-ttu-id="0d192-126">Если выбрано значение "Нетто", количество будет добавляться к дате накладной для определения даты скидки по оплате.</span><span class="sxs-lookup"><span data-stu-id="0d192-126">If Net was selected, the quantity will be added to the invoice date to determine the cash discount date.</span></span> <span data-ttu-id="0d192-127">Если выбрано значение "Текущий месяц", количество будет добавляться в конец текущего месяца для определения даты скидки по оплате.</span><span class="sxs-lookup"><span data-stu-id="0d192-127">If Current month was selected, the quantity will be added to the end of the currency month to determine the cash discount date.</span></span>  
+15. <span data-ttu-id="0d192-128">Введите процент скидки по оплате в поле "Скидка".</span><span class="sxs-lookup"><span data-stu-id="0d192-128">Enter the percentage of the cash discount in the Discount field.</span></span> 
+16. <span data-ttu-id="0d192-129">Введите счет ГК, на который будет разноситься скидка по оплате для накладных клиента.</span><span class="sxs-lookup"><span data-stu-id="0d192-129">Enter the main account to which the cash discount will be posted for customer invoices.</span></span>
+17. <span data-ttu-id="0d192-130">Введите счет ГК, на который будет разноситься скидка по оплате для накладных поставщика.</span><span class="sxs-lookup"><span data-stu-id="0d192-130">Enter the main account to which the cash discount will be posted for vendor invoices.</span></span>
+    * <span data-ttu-id="0d192-131">Если для параметра "Корр. счет скидки" задано значение "Использовать счет ГК для скидок поставщика", будет использоваться счет ГК.</span><span class="sxs-lookup"><span data-stu-id="0d192-131">If 'Discount offset accounts' is set to Use main account for vendor discount, then the Main account will be used.</span></span>  <span data-ttu-id="0d192-132">Если для параметра задано значение "Счета в строках накладной", скидка по оплате будет разнесена на счета основного средства/расходов в строках накладной.</span><span class="sxs-lookup"><span data-stu-id="0d192-132">If the option is set to Accounts on the invoice lines, the cash discount will be posted to the asset/expense accounts on the invoice's lines.</span></span>  
+18. <span data-ttu-id="0d192-133">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="0d192-133">Click Save.</span></span>
 
 

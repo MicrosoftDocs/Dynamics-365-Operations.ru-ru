@@ -16,80 +16,80 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e3b7dea463ce154df29844af95789611faae405b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7b0df977d46ac87744d1ddc36d0c7b3f1d292f6a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="maintain-employee-injury-and-illness-information"></a>Ведение сведений о травмах и заболеваниях сотрудников
+# <a name="maintain-employee-injury-and-illness-information"></a><span data-ttu-id="55b17-103">Ведение сведений о травмах и заболеваниях сотрудников</span><span class="sxs-lookup"><span data-stu-id="55b17-103">Maintain employee injury and illness information</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Рекомендуется сначала выполнить задание "Настройка травм и заболеваний", поскольку здесь используются некоторые сведения о настройке. 
+<span data-ttu-id="55b17-104">Рекомендуется сначала выполнить задание "Настройка травм и заболеваний", поскольку здесь используются некоторые сведения о настройке.</span><span class="sxs-lookup"><span data-stu-id="55b17-104">It is recommended to complete the 'Setup injury and illness' task guide first, as some of the setup information is used here.</span></span> 
 
 
 
-Эта запись задачи охватывает основные шаги по созданию инцидентов травм или заболеваний. Кроме отслеживания сведений о травме или заболевании, отслеживается также статус обращения.  По умолчанию обращения имеет статус "Открыто".  Статусами можно управлять из меню "Статус обращения" на панели приложения в верхней части формы.
+<span data-ttu-id="55b17-105">Эта запись задачи охватывает основные шаги по созданию инцидентов травм или заболеваний.</span><span class="sxs-lookup"><span data-stu-id="55b17-105">This task recording covers the basic steps to creating an injury or illness case.</span></span> <span data-ttu-id="55b17-106">Кроме отслеживания сведений о травме или заболевании, отслеживается также статус обращения.</span><span class="sxs-lookup"><span data-stu-id="55b17-106">Besides tracking the details of the injury or illness, there is a case status that is tracked as well.</span></span>  <span data-ttu-id="55b17-107">По умолчанию обращения имеет статус "Открыто".</span><span class="sxs-lookup"><span data-stu-id="55b17-107">The case defaults with an 'open' status.</span></span>  <span data-ttu-id="55b17-108">Статусами можно управлять из меню "Статус обращения" на панели приложения в верхней части формы.</span><span class="sxs-lookup"><span data-stu-id="55b17-108">The statuses can be managed from the 'Case status' menu item in the application bar at the top of the form.</span></span>
 
-1. Перейдите в раздел "Управление персоналом" > "Работники" > "Травмы и заболевания" > "Случаи травм и заболеваний".
-2. Щелкните "Создать".
-3. В поле "Описание обращения" введите значение.
-    * Пример: травма запястья  
-4. В поле "Работник" введите или выберите значение.
-    * Пример: Ahmed Barnett  
-5. В поле "Дата и время случая" введите дату и время.
-    * Пример: 20.01.2016 10:00  
-6. В поле "Тип травмы или заболевания" введите или выберите значение.
-    * Пример: перелом  
-7. В поле "Часть тела" введите или выберите значение.
-    * Пример: запястье  
-8. В поле "Тип исхода" введите или выберите значение.
-    * Пример: терапия  
-9. В поле "Дата и время указаны" введите дату и время.
-    * Указанные дата и время должны быть позднее, чем дата и время инцидента.  
-10. В поле "Лицо, подавшее обращение" введите или выберите значение.
-    * Это может быть сотрудник или другой свидетель инцидента.  Пример: Ahmed Barnett  
-11. Разверните раздел "Случай".
-12. В поле "Место, где произошел инцидент" введите значение.
-    * Пример: склад  
-13. Выберите значение "Да" в поле "В рабочих помещениях".
-    * Если инцидент произошел в рабочих помещениях, выберите "Да".  
-14. В поле "Дата и время начала работы" введите дату и время.
-    * Введите дату и время, когда участник инцидента начал работать, до времени инцидента.  
-15. В поле "Задание или задача сотрудника" введите или выберите значение.
-    * Введите задание или задачу, которую сотрудник выполнял, когда произошел инцидент.  Пример: погрузка ящиков  
-16. В поле "Причина случая" введите значение.
-    * Введите причину инцидента.  Пример: поскользнулся на влажном полу  
-17. В поле "Уровень серьезности" введите или выберите значение.
-18. В поле "Предпринимаемое действие" введите значение.
-    * Пример: вовремя убирать пролитую жидкость  
-19. В поле "Ожидаемые дни нетрудоспособности" введите число.
-    * Введите ожидаемое количество дней, в течение которых лицо не сможет работать.  Как только лицо возвращается к работе, внесите в поле "Дней невыхода на работу" фактическое количество дней, когда сотрудник не работал.  
-20. Разверните раздел "Затраты по травме или заболеванию".
-21. Нажмите кнопку Добавить.
-22. В поле "Дата" введите дату.
-23. В поле "Тип затрат" введите или выберите значение.
-    * Пример:  "Лечение".    Можно также указать сумму и прикрепить подтверждающую документацию, например счета от врача или врачебную выписку.  
-24. Нажмите кнопку Добавить.
-25. В поле "Дата" введите дату.
-26. В поле "Тип затрат" введите или выберите значение.
-    * Пример: Врач  
-27. Разверните раздел "Лечение травм и заболеваний".
-28. Нажмите кнопку Добавить.
-29. В поле "Дата лечения" введите дату и время.
-30. В поле "Тип лечения" введите или выберите значение.
-    * Пример: шина  
-31. При необходимости установите для поля "Посещение больницы скорой помощи" значение "Да".
-32. В поле "Комментарии к лечению" введите значение.
-    * Пример: лонгет на 2 недели  
-33. В поле "Имя врача" введите значение.
-    * Пример: доктор Иванов  
-34. В поле "Медицинское учреждение и его расположение" введите значение.
-    * Пример: станция скорой помощи №333  
-35. В поле "Сведения о лечении" введите значение.
-    * Пример: рентгеновский снимок подтверждает перелом, носить лонгету  
-36. Нажмите кнопку "Сохранить".
-    * Статус инцидента можно изменить в любое время.  Установите для инцидента статус "В работе", если выполняется обработка травмы или заболевания.  После закрытия инцидента можно только добавлять или удалять затраты, лечение или отчеты, связанные с инцидентом.  Чтобы изменить другую информацию, повторное откройте инцидент.  
+1. <span data-ttu-id="55b17-109">Перейдите в раздел "Управление персоналом" > "Работники" > "Травмы и заболевания" > "Случаи травм и заболеваний".</span><span class="sxs-lookup"><span data-stu-id="55b17-109">Go to Human resources > Workers > Injury and illness > Injury or illness incidents.</span></span>
+2. <span data-ttu-id="55b17-110">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="55b17-110">Click New.</span></span>
+3. <span data-ttu-id="55b17-111">В поле "Описание обращения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-111">In the Case description field, type a value.</span></span>
+    * <span data-ttu-id="55b17-112">Пример: травма запястья</span><span class="sxs-lookup"><span data-stu-id="55b17-112">Example:  Wrist injury</span></span>  
+4. <span data-ttu-id="55b17-113">В поле "Работник" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-113">In the Worker field, enter or select a value.</span></span>
+    * <span data-ttu-id="55b17-114">Пример: Ahmed Barnett</span><span class="sxs-lookup"><span data-stu-id="55b17-114">Example: Ahmed Barnett</span></span>  
+5. <span data-ttu-id="55b17-115">В поле "Дата и время случая" введите дату и время.</span><span class="sxs-lookup"><span data-stu-id="55b17-115">In the Date and time of incident field, enter a date and time.</span></span>
+    * <span data-ttu-id="55b17-116">Пример: 20.01.2016 10:00</span><span class="sxs-lookup"><span data-stu-id="55b17-116">Example:  1/20/2016 10:00 AM</span></span>  
+6. <span data-ttu-id="55b17-117">В поле "Тип травмы или заболевания" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-117">In the Injury or illness type field, enter or select a value.</span></span>
+    * <span data-ttu-id="55b17-118">Пример: перелом</span><span class="sxs-lookup"><span data-stu-id="55b17-118">Example:  Fracture</span></span>  
+7. <span data-ttu-id="55b17-119">В поле "Часть тела" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-119">In the Body part field, enter or select a value.</span></span>
+    * <span data-ttu-id="55b17-120">Пример: запястье</span><span class="sxs-lookup"><span data-stu-id="55b17-120">Example:  Wrist</span></span>  
+8. <span data-ttu-id="55b17-121">В поле "Тип исхода" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-121">In the Outcome type field, enter or select a value.</span></span>
+    * <span data-ttu-id="55b17-122">Пример: терапия</span><span class="sxs-lookup"><span data-stu-id="55b17-122">Example:  Therapy</span></span>  
+9. <span data-ttu-id="55b17-123">В поле "Дата и время указаны" введите дату и время.</span><span class="sxs-lookup"><span data-stu-id="55b17-123">In the Date and time reported field, enter a date and time.</span></span>
+    * <span data-ttu-id="55b17-124">Указанные дата и время должны быть позднее, чем дата и время инцидента.</span><span class="sxs-lookup"><span data-stu-id="55b17-124">The date and time reported must be later than the date and time of incident.</span></span>  
+10. <span data-ttu-id="55b17-125">В поле "Лицо, подавшее обращение" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-125">In the Person who reported case field, enter or select a value.</span></span>
+    * <span data-ttu-id="55b17-126">Это может быть сотрудник или другой свидетель инцидента.</span><span class="sxs-lookup"><span data-stu-id="55b17-126">This could be the employee or another witness to the incident.</span></span>  <span data-ttu-id="55b17-127">Пример: Ahmed Barnett</span><span class="sxs-lookup"><span data-stu-id="55b17-127">Example: Ahmed Barnett</span></span>  
+11. <span data-ttu-id="55b17-128">Разверните раздел "Случай".</span><span class="sxs-lookup"><span data-stu-id="55b17-128">Expand the Incident section.</span></span>
+12. <span data-ttu-id="55b17-129">В поле "Место, где произошел инцидент" введите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-129">In the Where incident occurred field, type a value.</span></span>
+    * <span data-ttu-id="55b17-130">Пример: склад</span><span class="sxs-lookup"><span data-stu-id="55b17-130">Example:  Warehouse</span></span>  
+13. <span data-ttu-id="55b17-131">Выберите значение "Да" в поле "В рабочих помещениях".</span><span class="sxs-lookup"><span data-stu-id="55b17-131">Select Yes in the On work premises field.</span></span>
+    * <span data-ttu-id="55b17-132">Если инцидент произошел в рабочих помещениях, выберите "Да".</span><span class="sxs-lookup"><span data-stu-id="55b17-132">If the incident occurred on work premises, select yes.</span></span>  
+14. <span data-ttu-id="55b17-133">В поле "Дата и время начала работы" введите дату и время.</span><span class="sxs-lookup"><span data-stu-id="55b17-133">In the Date and time began work field, enter a date and time.</span></span>
+    * <span data-ttu-id="55b17-134">Введите дату и время, когда участник инцидента начал работать, до времени инцидента.</span><span class="sxs-lookup"><span data-stu-id="55b17-134">Enter the date and time that affected individual started working, prior to the incident occurring.</span></span>  
+15. <span data-ttu-id="55b17-135">В поле "Задание или задача сотрудника" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-135">In the Employee job or task field, type a value.</span></span>
+    * <span data-ttu-id="55b17-136">Введите задание или задачу, которую сотрудник выполнял, когда произошел инцидент.</span><span class="sxs-lookup"><span data-stu-id="55b17-136">Enter the job or task the worker was performing when the incident occurred.</span></span>  <span data-ttu-id="55b17-137">Пример: погрузка ящиков</span><span class="sxs-lookup"><span data-stu-id="55b17-137">Example:  Loading boxes</span></span>  
+16. <span data-ttu-id="55b17-138">В поле "Причина случая" введите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-138">In the Cause of incident field, type a value.</span></span>
+    * <span data-ttu-id="55b17-139">Введите причину инцидента.</span><span class="sxs-lookup"><span data-stu-id="55b17-139">Enter the cause of the incident.</span></span>  <span data-ttu-id="55b17-140">Пример: поскользнулся на влажном полу</span><span class="sxs-lookup"><span data-stu-id="55b17-140">Example:  Slipped on wet floor</span></span>  
+17. <span data-ttu-id="55b17-141">В поле "Уровень серьезности" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-141">In the Severity level field, enter or select a value.</span></span>
+18. <span data-ttu-id="55b17-142">В поле "Предпринимаемое действие" введите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-142">In the Action to be taken field, type a value.</span></span>
+    * <span data-ttu-id="55b17-143">Пример: вовремя убирать пролитую жидкость</span><span class="sxs-lookup"><span data-stu-id="55b17-143">Example:  Clean up spills promptly</span></span>  
+19. <span data-ttu-id="55b17-144">В поле "Ожидаемые дни нетрудоспособности" введите число.</span><span class="sxs-lookup"><span data-stu-id="55b17-144">In the Expected days away from work field, enter a number.</span></span>
+    * <span data-ttu-id="55b17-145">Введите ожидаемое количество дней, в течение которых лицо не сможет работать.</span><span class="sxs-lookup"><span data-stu-id="55b17-145">Enter the number of days that the individual is expected to be away from work.</span></span>  <span data-ttu-id="55b17-146">Как только лицо возвращается к работе, внесите в поле "Дней невыхода на работу" фактическое количество дней, когда сотрудник не работал.</span><span class="sxs-lookup"><span data-stu-id="55b17-146">Once the individual returns to work, update the 'Days away from work' field with the actual number of days away.</span></span>  
+20. <span data-ttu-id="55b17-147">Разверните раздел "Затраты по травме или заболеванию".</span><span class="sxs-lookup"><span data-stu-id="55b17-147">Expand the Injury or illness costs section.</span></span>
+21. <span data-ttu-id="55b17-148">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="55b17-148">Click Add.</span></span>
+22. <span data-ttu-id="55b17-149">В поле "Дата" введите дату.</span><span class="sxs-lookup"><span data-stu-id="55b17-149">In the Date field, enter a date.</span></span>
+23. <span data-ttu-id="55b17-150">В поле "Тип затрат" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-150">In the Cost type field, enter or select a value.</span></span>
+    * <span data-ttu-id="55b17-151">Пример:  "Лечение".    Можно также указать сумму и прикрепить подтверждающую документацию, например счета от врача или врачебную выписку.</span><span class="sxs-lookup"><span data-stu-id="55b17-151">Example:  Therapy    You can also enter in an amount, and attach any supporting documentation such as invoices or doctor's notes to the cost.</span></span>  
+24. <span data-ttu-id="55b17-152">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="55b17-152">Click Add.</span></span>
+25. <span data-ttu-id="55b17-153">В поле "Дата" введите дату.</span><span class="sxs-lookup"><span data-stu-id="55b17-153">In the Date field, enter a date.</span></span>
+26. <span data-ttu-id="55b17-154">В поле "Тип затрат" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-154">In the Cost type field, enter or select a value.</span></span>
+    * <span data-ttu-id="55b17-155">Пример: Врач</span><span class="sxs-lookup"><span data-stu-id="55b17-155">Example: Doctor</span></span>  
+27. <span data-ttu-id="55b17-156">Разверните раздел "Лечение травм и заболеваний".</span><span class="sxs-lookup"><span data-stu-id="55b17-156">Expand the Injury or illness treatments section.</span></span>
+28. <span data-ttu-id="55b17-157">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="55b17-157">Click Add.</span></span>
+29. <span data-ttu-id="55b17-158">В поле "Дата лечения" введите дату и время.</span><span class="sxs-lookup"><span data-stu-id="55b17-158">In the Treatment date field, enter a date and time.</span></span>
+30. <span data-ttu-id="55b17-159">В поле "Тип лечения" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-159">In the Treatment type field, enter or select a value.</span></span>
+    * <span data-ttu-id="55b17-160">Пример: шина</span><span class="sxs-lookup"><span data-stu-id="55b17-160">Example:  Splint</span></span>  
+31. <span data-ttu-id="55b17-161">При необходимости установите для поля "Посещение больницы скорой помощи" значение "Да".</span><span class="sxs-lookup"><span data-stu-id="55b17-161">Optionally, set the emergency room hospital visit section to Yes.</span></span>
+32. <span data-ttu-id="55b17-162">В поле "Комментарии к лечению" введите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-162">In the Treatment comments field, type a value.</span></span>
+    * <span data-ttu-id="55b17-163">Пример: лонгет на 2 недели</span><span class="sxs-lookup"><span data-stu-id="55b17-163">Example:  Splint for 2 weeks</span></span>  
+33. <span data-ttu-id="55b17-164">В поле "Имя врача" введите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-164">In the Physician name field, type a value.</span></span>
+    * <span data-ttu-id="55b17-165">Пример: доктор Иванов</span><span class="sxs-lookup"><span data-stu-id="55b17-165">Example:  Dr. Anderson</span></span>  
+34. <span data-ttu-id="55b17-166">В поле "Медицинское учреждение и его расположение" введите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-166">In the Treatment facility and location field, type a value.</span></span>
+    * <span data-ttu-id="55b17-167">Пример: станция скорой помощи №333</span><span class="sxs-lookup"><span data-stu-id="55b17-167">Example:  Elm St. Emergency</span></span>  
+35. <span data-ttu-id="55b17-168">В поле "Сведения о лечении" введите значение.</span><span class="sxs-lookup"><span data-stu-id="55b17-168">In the Treatment details field, type a value.</span></span>
+    * <span data-ttu-id="55b17-169">Пример: рентгеновский снимок подтверждает перелом, носить лонгету</span><span class="sxs-lookup"><span data-stu-id="55b17-169">Example:  Xray confirms fracture, wear splint</span></span>  
+36. <span data-ttu-id="55b17-170">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="55b17-170">Click Save.</span></span>
+    * <span data-ttu-id="55b17-171">Статус инцидента можно изменить в любое время.</span><span class="sxs-lookup"><span data-stu-id="55b17-171">The case status can be updated at any time.</span></span>  <span data-ttu-id="55b17-172">Установите для инцидента статус "В работе", если выполняется обработка травмы или заболевания.</span><span class="sxs-lookup"><span data-stu-id="55b17-172">Set the case to in process, if the processing of the injury or illness is in process.</span></span>  <span data-ttu-id="55b17-173">После закрытия инцидента можно только добавлять или удалять затраты, лечение или отчеты, связанные с инцидентом.</span><span class="sxs-lookup"><span data-stu-id="55b17-173">Once you close the incident you can only add or remove costs, treatments or filings related to the incident.</span></span>  <span data-ttu-id="55b17-174">Чтобы изменить другую информацию, повторное откройте инцидент.</span><span class="sxs-lookup"><span data-stu-id="55b17-174">To modify other information, reopen the case.</span></span>  
 
 

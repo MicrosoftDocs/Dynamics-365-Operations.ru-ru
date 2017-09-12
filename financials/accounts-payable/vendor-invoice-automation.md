@@ -15,217 +15,217 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
-ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: cd9be16ee30a62235f20f23f9cd50fb954cfe8a4
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="vendor-invoice-automation"></a>Автоматизация накладных поставщиков
+# <a name="vendor-invoice-automation"></a><span data-ttu-id="27f3a-103">Автоматизация накладных поставщиков</span><span class="sxs-lookup"><span data-stu-id="27f3a-103">Vendor invoice automation</span></span>
 
-В этой теме описаны возможности, предусмотренные для сквозной автоматизации обработки накладных поставщиков, даже накладных, которые включают вложения.
+<span data-ttu-id="27f3a-104">В этой теме описаны возможности, предусмотренные для сквозной автоматизации обработки накладных поставщиков, даже накладных, которые включают вложения.</span><span class="sxs-lookup"><span data-stu-id="27f3a-104">This topic explains the features that are available for end-to-end automation of vendor invoices, even invoices that include attachments.</span></span>
 
-Организации, желающие рационализировать свои процессы расчетов с поставщиками, часто называют обработку накладных в качестве одного из основных процессов, эффективность которых требуется повысить. Во многих случаях такие организации передают обработку бумажных счетов стороннему поставщику услуг оптического распознавания текста (OCR). Обратно они получают машинночитаемые метаданные накладных вместе с отсканированным изображением каждой накладной. Для облегчения автоматизации затем разрабатывается решение "последней мили", обеспечивающее потребление этих артефактов в системе обработки накладных. В Microsoft Dynamics 365 for Finance and Operations, Enterprise edition такая автоматизация "последней мили" теперь предусмотрена в стандартной конфигурации в виде решения автоматизации обработки накладных.
+<span data-ttu-id="27f3a-105">Организации, желающие рационализировать свои процессы расчетов с поставщиками, часто называют обработку накладных в качестве одного из основных процессов, эффективность которых требуется повысить.</span><span class="sxs-lookup"><span data-stu-id="27f3a-105">Organizations that want to streamline their Accounts payable (AP) processes often identify invoice processing as one of the top process areas that should be more efficient.</span></span> <span data-ttu-id="27f3a-106">Во многих случаях такие организации передают обработку бумажных счетов стороннему поставщику услуг оптического распознавания текста (OCR).</span><span class="sxs-lookup"><span data-stu-id="27f3a-106">In many cases, these organizations offload the processing of paper invoices to a third-party optical character recognition (OCR) service provider.</span></span> <span data-ttu-id="27f3a-107">Обратно они получают машинночитаемые метаданные накладных вместе с отсканированным изображением каждой накладной.</span><span class="sxs-lookup"><span data-stu-id="27f3a-107">They then receive machine-readable invoice metadata together with a scanned image of each invoice.</span></span> <span data-ttu-id="27f3a-108">Для облегчения автоматизации затем разрабатывается решение "последней мили", обеспечивающее потребление этих артефактов в системе обработки накладных.</span><span class="sxs-lookup"><span data-stu-id="27f3a-108">To help with automation, a “last mile” solution is then built to enable consumption of these artifacts in the invoicing system.</span></span> <span data-ttu-id="27f3a-109">В Microsoft Dynamics 365 for Finance and Operations, Enterprise edition такая автоматизация "последней мили" теперь предусмотрена в стандартной конфигурации в виде решения автоматизации обработки накладных.</span><span class="sxs-lookup"><span data-stu-id="27f3a-109">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition now enables this “last mile” automation out of the box, through an invoice automation solution.</span></span>
 
-## <a name="solution-context"></a>Контекст решения
+## <a name="solution-context"></a><span data-ttu-id="27f3a-110">Контекст решения</span><span class="sxs-lookup"><span data-stu-id="27f3a-110">Solution context</span></span>
 
-Решение автоматизации обработки накладных позволяет получить стандартный интерфейс, способный получать метаданные накладных для заголовка накладной и строк накладной, а также вложения, которые применимы к накладной. Любая внешняя система, способная генерировать совместимые с этим интерфейсом артефакты, сможет отправлять поток данных в Finance and Operations для автоматической обработки накладных и вложений.
+<span data-ttu-id="27f3a-111">Решение автоматизации обработки накладных позволяет получить стандартный интерфейс, способный получать метаданные накладных для заголовка накладной и строк накладной, а также вложения, которые применимы к накладной.</span><span class="sxs-lookup"><span data-stu-id="27f3a-111">The invoice automation solution enables a standard interface that can accept invoice metadata for the invoice header and invoice lines, and also attachments that are applicable to the invoice.</span></span> <span data-ttu-id="27f3a-112">Любая внешняя система, способная генерировать совместимые с этим интерфейсом артефакты, сможет отправлять поток данных в Finance and Operations для автоматической обработки накладных и вложений.</span><span class="sxs-lookup"><span data-stu-id="27f3a-112">Any external system that can generate artifacts that comply with this interface will be able to send the feed into Finance and Operations for automatic processing of invoices and attachments.</span></span>
 
-На следующем рисунке показана пример сценария интеграции, где компания Contoso привлекла поставщика услуг OCR для обработки накладных поставщиков. Поставщики Contoso отправляют накладные поставщику услуг по электронной почте. Посредством распознавания текста поставщик услуг генерирует метаданные накладных (заголовок и/или строки) и отсканированное изображение накладной. Уровень интеграции затем преобразует эти артефакты так, что система Finance and Operations может их потреблять.
+<span data-ttu-id="27f3a-113">На следующем рисунке показана пример сценария интеграции, где компания Contoso привлекла поставщика услуг OCR для обработки накладных поставщиков.</span><span class="sxs-lookup"><span data-stu-id="27f3a-113">The following illustration shows a sample integration scenario where Contoso has partnered with an OCR service provider for vendor invoice processing.</span></span> <span data-ttu-id="27f3a-114">Поставщики Contoso отправляют накладные поставщику услуг по электронной почте.</span><span class="sxs-lookup"><span data-stu-id="27f3a-114">Contoso’s vendors send invoices to the service provider by email.</span></span> <span data-ttu-id="27f3a-115">Посредством распознавания текста поставщик услуг генерирует метаданные накладных (заголовок и/или строки) и отсканированное изображение накладной.</span><span class="sxs-lookup"><span data-stu-id="27f3a-115">Through OCR processing, the service provider generates invoice metadata (header and/or lines) and a scanned image of the invoice.</span></span> <span data-ttu-id="27f3a-116">Уровень интеграции затем преобразует эти артефакты так, что система Finance and Operations может их потреблять.</span><span class="sxs-lookup"><span data-stu-id="27f3a-116">An integration layer then transforms these artifacts so that Finance and Operations can consume them.</span></span>
 
 ![Пример сценария интеграции](media/vendor_invoice_automation_01.png)
 
-Возможно несколько вариаций описанного выше сценария, если требуется интеграция накладных. Еще одна ситуация, в которой можно использовать этот интерфейс для создания накладных и вложений в Finance and Operations, — это миграция данных.
+<span data-ttu-id="27f3a-118">Возможно несколько вариаций описанного выше сценария, если требуется интеграция накладных.</span><span class="sxs-lookup"><span data-stu-id="27f3a-118">Several variations of the preceding scenario are possible if invoice integration is required.</span></span> <span data-ttu-id="27f3a-119">Еще одна ситуация, в которой можно использовать этот интерфейс для создания накладных и вложений в Finance and Operations, — это миграция данных.</span><span class="sxs-lookup"><span data-stu-id="27f3a-119">Data migration is another use case where this interface can be used to create invoices and attachments in Finance and Operations.</span></span>
 
-### <a name="solution-components"></a>Компоненты решения
+### <a name="solution-components"></a><span data-ttu-id="27f3a-120">Компоненты решения</span><span class="sxs-lookup"><span data-stu-id="27f3a-120">Solution components</span></span>
 
-В объем решения входят следующие компоненты:
+<span data-ttu-id="27f3a-121">В объем решения входят следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="27f3a-121">The solution footprint consists of the following components:</span></span>
 
-+ Информационные объекты для заголовка накладной, строк накладной и вложений накладной
-+ Обработка исключений для накладных
-+ Средство параллельного просмотра вложений в накладных
++ <span data-ttu-id="27f3a-122">Информационные объекты для заголовка накладной, строк накладной и вложений накладной</span><span class="sxs-lookup"><span data-stu-id="27f3a-122">Data entities for the invoice header, invoice lines, and invoice attachments</span></span>
++ <span data-ttu-id="27f3a-123">Обработка исключений для накладных</span><span class="sxs-lookup"><span data-stu-id="27f3a-123">Exception processing for invoices</span></span>
++ <span data-ttu-id="27f3a-124">Средство параллельного просмотра вложений в накладных</span><span class="sxs-lookup"><span data-stu-id="27f3a-124">A side-by-side attachment viewer in invoices</span></span>
 
-В остальной части этого раздела приводятся подробные описания этих компонентов решения.
+<span data-ttu-id="27f3a-125">В остальной части этого раздела приводятся подробные описания этих компонентов решения.</span><span class="sxs-lookup"><span data-stu-id="27f3a-125">The rest of this topic provides detailed descriptions of these solution components.</span></span>
 
-## <a name="data-entities"></a>Информационные объекты
+## <a name="data-entities"></a><span data-ttu-id="27f3a-126">Информационные объекты</span><span class="sxs-lookup"><span data-stu-id="27f3a-126">Data entities</span></span>
 
-Информационный пакет — это единица работы, которая должна быть отправлена в систему Finance and Operations, чтобы можно было создать заголовки накладных, строки накладных и вложения накладных. Для артефактов, из которых состоит информационный пакет, используются следующие информационные объекты:
+<span data-ttu-id="27f3a-127">Информационный пакет — это единица работы, которая должна быть отправлена в систему Finance and Operations, чтобы можно было создать заголовки накладных, строки накладных и вложения накладных.</span><span class="sxs-lookup"><span data-stu-id="27f3a-127">A data package is the unit of work that must be sent to Finance and Operations, so that invoice headers, invoice lines, and invoice attachments can be created.</span></span> <span data-ttu-id="27f3a-128">Для артефактов, из которых состоит информационный пакет, используются следующие информационные объекты:</span><span class="sxs-lookup"><span data-stu-id="27f3a-128">The following data entities are used for the artifacts that make up the data package:</span></span>
 
-+ Заголовок накладной поставщика
-+ Строка накладной поставщика
-+ Вложение документа накладной поставщика
++ <span data-ttu-id="27f3a-129">Заголовок накладной поставщика</span><span class="sxs-lookup"><span data-stu-id="27f3a-129">Vendor invoice header</span></span>
++ <span data-ttu-id="27f3a-130">Строка накладной поставщика</span><span class="sxs-lookup"><span data-stu-id="27f3a-130">Vendor invoice line</span></span>
++ <span data-ttu-id="27f3a-131">Вложение документа накладной поставщика</span><span class="sxs-lookup"><span data-stu-id="27f3a-131">Vendor invoice document attachment</span></span>
 
-Вложение документа накладной поставщика — это новый информационный объект, появившийся вместе с этой функциональностью. Объект "Заголовок накладной поставщика" модифицирован так, что теперь он поддерживает вложения. В объект "Строка накладной поставщика" никакие изменения для этой функциональности не вносились.
+<span data-ttu-id="27f3a-132">Вложение документа накладной поставщика — это новый информационный объект, появившийся вместе с этой функциональностью.</span><span class="sxs-lookup"><span data-stu-id="27f3a-132">Vendor invoice document attachment is a new data entity that is introduced as part of this feature.</span></span> <span data-ttu-id="27f3a-133">Объект "Заголовок накладной поставщика" модифицирован так, что теперь он поддерживает вложения.</span><span class="sxs-lookup"><span data-stu-id="27f3a-133">The Vendor invoice header entity has been modified so that it supports attachments.</span></span> <span data-ttu-id="27f3a-134">В объект "Строка накладной поставщика" никакие изменения для этой функциональности не вносились.</span><span class="sxs-lookup"><span data-stu-id="27f3a-134">The Vendor invoice line entity hasn’t been modified for this feature.</span></span>
 
-Подробное определение информационного пакета в этой теме не приводится. Также в нем не поясняется процесс создания информационных пакетов. Эту информацию можно найти в разделе [Структура информационных объектов и пакетов](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
+<span data-ttu-id="27f3a-135">Подробное определение информационного пакета в этой теме не приводится.</span><span class="sxs-lookup"><span data-stu-id="27f3a-135">This topic doesn’t give a detailed definition of a data package.</span></span> <span data-ttu-id="27f3a-136">Также в нем не поясняется процесс создания информационных пакетов.</span><span class="sxs-lookup"><span data-stu-id="27f3a-136">It also doesn’t explain how to create data packages.</span></span> <span data-ttu-id="27f3a-137">Эту информацию можно найти в разделе [Структура информационных объектов и пакетов](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).</span><span class="sxs-lookup"><span data-stu-id="27f3a-137">For this information, see [Data entities and packages framework](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).</span></span>
 
-Чтобы быстро создать тестовые данные, включающие накладные и вложения, выполните следующие действия.
+<span data-ttu-id="27f3a-138">Чтобы быстро создать тестовые данные, включающие накладные и вложения, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="27f3a-138">To quickly generate test data that includes invoices and attachments, follow these steps.</span></span>
 
-1. Войдите в свой экземпляр Finance and Operations.
-1. Выберите **Расчеты с поставщиками** > **Накладные** > **Накладные поставщиков, ожидающие обработки**.
-1. Создайте накладные, имеющие строки и вложения.
+1. <span data-ttu-id="27f3a-139">Войдите в свой экземпляр Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="27f3a-139">Sign in to your Finance and Operations instance.</span></span>
+1. <span data-ttu-id="27f3a-140">Выберите **Расчеты с поставщиками** > **Накладные** > **Накладные поставщиков, ожидающие обработки**.</span><span class="sxs-lookup"><span data-stu-id="27f3a-140">Go to **Accounts payables** > **Invoices** > **Pending vendor invoices**.</span></span>
+1. <span data-ttu-id="27f3a-141">Создайте накладные, имеющие строки и вложения.</span><span class="sxs-lookup"><span data-stu-id="27f3a-141">Create invoices that have lines and attachments.</span></span>
 
     > [!NOTE]
-    > Вложения должны представлять собой вложения заголовков. В настоящее время объект "Вложение документа накладной поставщика" не поддерживает вложения строк.
+    > <span data-ttu-id="27f3a-142">Вложения должны представлять собой вложения заголовков.</span><span class="sxs-lookup"><span data-stu-id="27f3a-142">The attachments must be header attachments.</span></span> <span data-ttu-id="27f3a-143">В настоящее время объект "Вложение документа накладной поставщика" не поддерживает вложения строк.</span><span class="sxs-lookup"><span data-stu-id="27f3a-143">Currently, the Vendor invoice document attachment entity doesn’t support line attachments.</span></span>
 
-1. Откройте рабочую область **Управление данными**.
-1. Создайте задание экспорта, которое включает в себя информационные объекты "Заголовок накладной поставщика", "Строка накладной поставщика" и "Вложение документа накладной поставщика".
-1. Экспортируйте данные.
-1. Загрузите экспортированные данные в виде пакета. После этого пакет можно использовать для импорта данных в целевые экземпляры для тестирования.
+1. <span data-ttu-id="27f3a-144">Откройте рабочую область **Управление данными**.</span><span class="sxs-lookup"><span data-stu-id="27f3a-144">Open the **Data management** workspace.</span></span>
+1. <span data-ttu-id="27f3a-145">Создайте задание экспорта, которое включает в себя информационные объекты "Заголовок накладной поставщика", "Строка накладной поставщика" и "Вложение документа накладной поставщика".</span><span class="sxs-lookup"><span data-stu-id="27f3a-145">Create an export job that includes the Vendor invoice header, Vendor invoice line, and Vendor invoice document attachment entities.</span></span>
+1. <span data-ttu-id="27f3a-146">Экспортируйте данные.</span><span class="sxs-lookup"><span data-stu-id="27f3a-146">Export the data.</span></span>
+1. <span data-ttu-id="27f3a-147">Загрузите экспортированные данные в виде пакета.</span><span class="sxs-lookup"><span data-stu-id="27f3a-147">Download the exported data as a package.</span></span> <span data-ttu-id="27f3a-148">После этого пакет можно использовать для импорта данных в целевые экземпляры для тестирования.</span><span class="sxs-lookup"><span data-stu-id="27f3a-148">You can now use the package to import data into target instances for testing purposes.</span></span>
 
-### <a name="determining-the-legal-entity-for-an-invoice"></a>Определение юридического лица для накладной
+### <a name="determining-the-legal-entity-for-an-invoice"></a><span data-ttu-id="27f3a-149">Определение юридического лица для накладной</span><span class="sxs-lookup"><span data-stu-id="27f3a-149">Determining the legal entity for an invoice</span></span>
 
-Накладные, импортированные через информационные пакеты, можно связать с юридическим лицом, к которому они относятся, двумя способами:
+<span data-ttu-id="27f3a-150">Накладные, импортированные через информационные пакеты, можно связать с юридическим лицом, к которому они относятся, двумя способами:</span><span class="sxs-lookup"><span data-stu-id="27f3a-150">Invoices that are imported via data packages can be associated with the legal entity that they belong to in two ways:</span></span>
 
-+ Задание импорта, которое обрабатывает накладную, импортирует его в ту же компанию, в которой задание было запланировано в рабочей области **управление данными**. Иными словами, компания задания определяет компанию, к которой относится накладная.
-+ При отправке содержащего накладные информационного пакета в Finance and Operations вызывающий объект (т.е. приложение интеграции, работающее за пределами Finance and Operations) может явным образом упомянуть код компании в HTTP-запросе. В этом случае контекст компании, в котором задание обработки выполняется в Finance and Operations, переопределяется, и накладные импортируются в компанию, переданную через HTTP-запрос.
++ <span data-ttu-id="27f3a-151">Задание импорта, которое обрабатывает накладную, импортирует его в ту же компанию, в которой задание было запланировано в рабочей области **управление данными**.</span><span class="sxs-lookup"><span data-stu-id="27f3a-151">The import job that processes the invoice imports it into the same company in which the job was scheduled in the **Data management** workspace.</span></span> <span data-ttu-id="27f3a-152">Иными словами, компания задания определяет компанию, к которой относится накладная.</span><span class="sxs-lookup"><span data-stu-id="27f3a-152">In other words, the company of the job determines the company that the invoice belongs to.</span></span>
++ <span data-ttu-id="27f3a-153">При отправке содержащего накладные информационного пакета в Finance and Operations вызывающий объект (т.е. приложение интеграции, работающее за пределами Finance and Operations) может явным образом упомянуть код компании в HTTP-запросе.</span><span class="sxs-lookup"><span data-stu-id="27f3a-153">When the data package that contains invoices is sent to Finance and Operations, the caller (that is, the integration application that runs outside of Finance and Operations) can explicitly mention the company ID in the HTTP request.</span></span> <span data-ttu-id="27f3a-154">В этом случае контекст компании, в котором задание обработки выполняется в Finance and Operations, переопределяется, и накладные импортируются в компанию, переданную через HTTP-запрос.</span><span class="sxs-lookup"><span data-stu-id="27f3a-154">In this case, the company context in which the processing job runs in Finance and Operations is overridden, and the invoices are imported into the company that was passed via the HTTP request.</span></span>
 
 > [!NOTE]
-> Такое поведение представляет собой стандартное поведение управления данными. Здесь, в контексте накладных, оно поясняется исключительно ради полноты сведений.
+> <span data-ttu-id="27f3a-155">Такое поведение представляет собой стандартное поведение управления данными.</span><span class="sxs-lookup"><span data-stu-id="27f3a-155">This behavior is standard data management behavior.</span></span> <span data-ttu-id="27f3a-156">Здесь, в контексте накладных, оно поясняется исключительно ради полноты сведений.</span><span class="sxs-lookup"><span data-stu-id="27f3a-156">It’s explained here, in the context of invoices, just for the sake of completeness.</span></span>
 
-## <a name="exception-processing"></a>Обработка исключений
+## <a name="exception-processing"></a><span data-ttu-id="27f3a-157">Обработка исключений</span><span class="sxs-lookup"><span data-stu-id="27f3a-157">Exception processing</span></span>
 
-В сценариях, где накладные поставщиков поступают в Finance and Operations через интеграцию, необходимо дать специалисту по расчетам с поставщиками возможность легко обрабатывать исключения или нераспознанные накладные, а также создавать ожидающие обработки накладные из нераспознанных накладных. Теперь механизм такой обработки накладных поставщиков входит в состав Finance and Operations.
+<span data-ttu-id="27f3a-158">В сценариях, где накладные поставщиков поступают в Finance and Operations через интеграцию, необходимо дать специалисту по расчетам с поставщиками возможность легко обрабатывать исключения или нераспознанные накладные, а также создавать ожидающие обработки накладные из нераспознанных накладных.</span><span class="sxs-lookup"><span data-stu-id="27f3a-158">In scenarios where vendor invoices come into Finance and Operations via integration, there must be an easy way for an Accounts payable team member to process exceptions or failed invoices, and to create pending invoices out of failed invoices.</span></span> <span data-ttu-id="27f3a-159">Теперь механизм такой обработки накладных поставщиков входит в состав Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="27f3a-159">This exception processing for vendor invoices is now part of Finance and Operations.</span></span>
 
-### <a name="exceptions-list-page"></a>Страница списка исключений
+### <a name="exceptions-list-page"></a><span data-ttu-id="27f3a-160">Страница списка исключений</span><span class="sxs-lookup"><span data-stu-id="27f3a-160">Exceptions list page</span></span>
 
-Новую страницу списка для накладных-исключений можно открыть, выбрав **Расчеты с поставщиками** > **Накладные** > **Ошибки импорта** > **Накладные поставщиков, которые не удалось импортировать**. На этой странице отображаются все записи заголовков накладных поставщиков из промежуточной таблицы информационного объекта "Заголовок накладной поставщика". Обратите внимание, что эти записи можно просмотреть из рабочей области **Управление данными**, где также можно выполнить те же действия, что и в механизме обработки исключений. Однако интерфейс механизма обработки исключений оптимизирован для функционального пользователя.
+<span data-ttu-id="27f3a-161">Новую страницу списка для накладных-исключений можно открыть, выбрав **Расчеты с поставщиками** > **Накладные** > **Ошибки импорта** > **Накладные поставщиков, которые не удалось импортировать**.</span><span class="sxs-lookup"><span data-stu-id="27f3a-161">The new list page for invoice exceptions is available at **Accounts payable** > **Invoices** > **Import failures** > **Vendor invoices that failed to import**.</span></span> <span data-ttu-id="27f3a-162">На этой странице отображаются все записи заголовков накладных поставщиков из промежуточной таблицы информационного объекта "Заголовок накладной поставщика".</span><span class="sxs-lookup"><span data-stu-id="27f3a-162">This page shows all the vendor invoice header records from the staging table of the Vendor invoice header data entity.</span></span> <span data-ttu-id="27f3a-163">Обратите внимание, что эти записи можно просмотреть из рабочей области **Управление данными**, где также можно выполнить те же действия, что и в механизме обработки исключений.</span><span class="sxs-lookup"><span data-stu-id="27f3a-163">Note that you can view the same records from the **Data management** workspace, where you can also perform the same actions that are provided in the exception handling feature.</span></span> <span data-ttu-id="27f3a-164">Однако интерфейс механизма обработки исключений оптимизирован для функционального пользователя.</span><span class="sxs-lookup"><span data-stu-id="27f3a-164">However, the UI that the exception handling feature provides is optimized for a functional user.</span></span>
 
 ![Страница списка исключений](media/vendor_invoice_automation_02.png)
 
-На этой странице списка находятся следующие поля, поступающие через поток данных:
+<span data-ttu-id="27f3a-166">На этой странице списка находятся следующие поля, поступающие через поток данных:</span><span class="sxs-lookup"><span data-stu-id="27f3a-166">This list page includes the following fields that come in via the feed:</span></span>
 
-+ **Компания** — компания, к которой относится накладная
-+ **Сообщение об ошибке** — сообщение об ошибке, выданное структурой управления данными для объяснения причины, по которой не удалось создать накладную
-+ **Номер** — номер накладной
-+ **Счет накладной**
-+ **Имя** — наименование поставщика
-+ **Счет поставщика**
-+ **Заказ на покупку** — номер заказа на покупку, соответствующего накладной
-+ **Дата разноски**
-+ **Дата накладной**
-+ **Описание накладной**
-+ **Валюта**
-+ **Журнал**
-+ **Ссылка на строку** — идентификатор, который поступает из внешней системы
++ <span data-ttu-id="27f3a-167">**Компания** — компания, к которой относится накладная</span><span class="sxs-lookup"><span data-stu-id="27f3a-167">**Company** – The company that the invoice belongs to</span></span>
++ <span data-ttu-id="27f3a-168">**Сообщение об ошибке** — сообщение об ошибке, выданное структурой управления данными для объяснения причины, по которой не удалось создать накладную</span><span class="sxs-lookup"><span data-stu-id="27f3a-168">**Error message** – The error message that the data management framework issues to explain why the invoice could not be created</span></span>
++ <span data-ttu-id="27f3a-169">**Номер** — номер накладной</span><span class="sxs-lookup"><span data-stu-id="27f3a-169">**Number** – The invoice number</span></span>
++ <span data-ttu-id="27f3a-170">**Счет накладной**</span><span class="sxs-lookup"><span data-stu-id="27f3a-170">**Invoice account**</span></span>
++ <span data-ttu-id="27f3a-171">**Имя** — наименование поставщика</span><span class="sxs-lookup"><span data-stu-id="27f3a-171">**Name** – The vendor’s name</span></span>
++ <span data-ttu-id="27f3a-172">**Счет поставщика**</span><span class="sxs-lookup"><span data-stu-id="27f3a-172">**Vendor account**</span></span>
++ <span data-ttu-id="27f3a-173">**Заказ на покупку** — номер заказа на покупку, соответствующего накладной</span><span class="sxs-lookup"><span data-stu-id="27f3a-173">**Purchase order** – The purchase order (PO) number for the invoice</span></span>
++ <span data-ttu-id="27f3a-174">**Дата разноски**</span><span class="sxs-lookup"><span data-stu-id="27f3a-174">**Posting date**</span></span>
++ <span data-ttu-id="27f3a-175">**Дата накладной**</span><span class="sxs-lookup"><span data-stu-id="27f3a-175">**Invoice date**</span></span>
++ <span data-ttu-id="27f3a-176">**Описание накладной**</span><span class="sxs-lookup"><span data-stu-id="27f3a-176">**Invoice description**</span></span>
++ <span data-ttu-id="27f3a-177">**Валюта**</span><span class="sxs-lookup"><span data-stu-id="27f3a-177">**Currency**</span></span>
++ <span data-ttu-id="27f3a-178">**Журнал**</span><span class="sxs-lookup"><span data-stu-id="27f3a-178">**Log**</span></span>
++ <span data-ttu-id="27f3a-179">**Ссылка на строку** — идентификатор, который поступает из внешней системы</span><span class="sxs-lookup"><span data-stu-id="27f3a-179">**Line reference** – The identifier that comes from the external system</span></span>
 
     > [!NOTE]
-    > Ссылка на строку — это не идентификатор накладной.
+    > <span data-ttu-id="27f3a-180">Ссылка на строку — это не идентификатор накладной.</span><span class="sxs-lookup"><span data-stu-id="27f3a-180">The line reference isn’t the invoice ID.</span></span>
 
-На этой странице списка также есть область предварительного просмотра, которую можно использовать следующим образом:
+<span data-ttu-id="27f3a-181">На этой странице списка также есть область предварительного просмотра, которую можно использовать следующим образом:</span><span class="sxs-lookup"><span data-stu-id="27f3a-181">This list page also has a preview pane that you can used in the following ways:</span></span>
 
-+ Для просмотра всего сообщения об ошибке, не увеличивая ширину столбца **Сообщение об ошибке** в таблице.
-+ Для просмотра всего списка вложений накладной, если у накладной есть вложения.
++ <span data-ttu-id="27f3a-182">Для просмотра всего сообщения об ошибке, не увеличивая ширину столбца **Сообщение об ошибке** в таблице.</span><span class="sxs-lookup"><span data-stu-id="27f3a-182">View the whole error message, so that you don’t have to expand the **Error message** column in the grid.</span></span>
++ <span data-ttu-id="27f3a-183">Для просмотра всего списка вложений накладной, если у накладной есть вложения.</span><span class="sxs-lookup"><span data-stu-id="27f3a-183">View the whole list of attachments for the invoice, if any attachments came with the invoice.</span></span>
 
-Страница списка поддерживает следующие действия:
+<span data-ttu-id="27f3a-184">Страница списка поддерживает следующие действия:</span><span class="sxs-lookup"><span data-stu-id="27f3a-184">The list page supports the following actions:</span></span>
 
-+ **Редактирование** — открытие записи исключения в режиме редактирования для устранения проблем.
-+ **Параметры** — доступ к стандартным параметрам, предусмотренным на страницах списков. Можно использовать параметр **Добавить в рабочую область** для закрепления страницы со списком исключений в рабочей области в качества списка или плитки.
++ <span data-ttu-id="27f3a-185">**Редактирование** — открытие записи исключения в режиме редактирования для устранения проблем.</span><span class="sxs-lookup"><span data-stu-id="27f3a-185">**Edit** – Open the exception record in edit mode, so that you can fix the issues.</span></span>
++ <span data-ttu-id="27f3a-186">**Параметры** — доступ к стандартным параметрам, предусмотренным на страницах списков.</span><span class="sxs-lookup"><span data-stu-id="27f3a-186">**Options** – Access the standard options that are available on list pages.</span></span> <span data-ttu-id="27f3a-187">Можно использовать параметр **Добавить в рабочую область** для закрепления страницы со списком исключений в рабочей области в качества списка или плитки.</span><span class="sxs-lookup"><span data-stu-id="27f3a-187">You can use the **Add to workspace** option to pin the exceptions list page to your workspace as a list or tile.</span></span>
 
-### <a name="exception-details-page"></a>Страница сведений об исключении
+### <a name="exception-details-page"></a><span data-ttu-id="27f3a-188">Страница сведений об исключении</span><span class="sxs-lookup"><span data-stu-id="27f3a-188">Exception details page</span></span>
 
-При входе в режим редактирования открывается страница сведений об исключении для проблемной накладной. При наличии каких-либо вложений накладная и вложение по умолчанию отображаются рядом друг с другом на странице сведений об исключении.
+<span data-ttu-id="27f3a-189">При входе в режим редактирования открывается страница сведений об исключении для проблемной накладной.</span><span class="sxs-lookup"><span data-stu-id="27f3a-189">When you start edit mode, the exception details page for the invoice that has issues appears.</span></span> <span data-ttu-id="27f3a-190">При наличии каких-либо вложений накладная и вложение по умолчанию отображаются рядом друг с другом на странице сведений об исключении.</span><span class="sxs-lookup"><span data-stu-id="27f3a-190">If there are any attachments, the invoice and the default attachment appear side by side on the exception details page.</span></span>
 
 ![Страница сведений об исключении](media/vendor_invoice_automation_03.png)
 
-На приведенном выше рисунке отсутствуют поступившие строки для заголовка накладной поставщика. Таким образом, раздел строк пуст.
+<span data-ttu-id="27f3a-192">На приведенном выше рисунке отсутствуют поступившие строки для заголовка накладной поставщика.</span><span class="sxs-lookup"><span data-stu-id="27f3a-192">In the preceding illustration, there weren’t any lines for the vendor invoice header that came in.</span></span> <span data-ttu-id="27f3a-193">Таким образом, раздел строк пуст.</span><span class="sxs-lookup"><span data-stu-id="27f3a-193">Therefore, the lines section is empty.</span></span>
 
-Страница сведений об исключении поддерживает следующие операции:
+<span data-ttu-id="27f3a-194">Страница сведений об исключении поддерживает следующие операции:</span><span class="sxs-lookup"><span data-stu-id="27f3a-194">The exception details page supports the following operation:</span></span>
 
-+ **Создать ожидающую накладную** — после устранения проблем в накладной в рамках обработки исключения вы можете нажать эту кнопку, чтобы создать накладную, ожидающую обработки. Создание накладных, ожидающих обработки, происходит в фоновом режиме (в качестве асинхронной операции).
++ <span data-ttu-id="27f3a-195">**Создать ожидающую накладную** — после устранения проблем в накладной в рамках обработки исключения вы можете нажать эту кнопку, чтобы создать накладную, ожидающую обработки.</span><span class="sxs-lookup"><span data-stu-id="27f3a-195">**Create pending invoice** – After you’ve fixed the issues on the invoice as part of exception processing, you can click this button to create the pending invoice.</span></span> <span data-ttu-id="27f3a-196">Создание накладных, ожидающих обработки, происходит в фоновом режиме (в качестве асинхронной операции).</span><span class="sxs-lookup"><span data-stu-id="27f3a-196">The creation of pending invoices occurs in the background (as an asynchronous operation).</span></span>
 
-### <a name="shared-service-vs-organization-based-exception-processing"></a>Обработка исключений силами общих служб и отдельных организаций
+### <a name="shared-service-vs-organization-based-exception-processing"></a><span data-ttu-id="27f3a-197">Обработка исключений силами общих служб и отдельных организаций</span><span class="sxs-lookup"><span data-stu-id="27f3a-197">Shared service vs. organization-based exception processing</span></span>
 
-Страница списка исключений поддерживает стандартные структуры безопасности, поддерживаемые рабочей областью **Управление данными** применительно к обработке промежуточных записей. Обеспечить безопасность задания импорта накладных можно следующими способами:
+<span data-ttu-id="27f3a-198">Страница списка исключений поддерживает стандартные структуры безопасности, поддерживаемые рабочей областью **Управление данными** применительно к обработке промежуточных записей.</span><span class="sxs-lookup"><span data-stu-id="27f3a-198">The exceptions list page supports the standard security constructs that the **Data management** workspace supports for the processing of staging records.</span></span> <span data-ttu-id="27f3a-199">Обеспечить безопасность задания импорта накладных можно следующими способами:</span><span class="sxs-lookup"><span data-stu-id="27f3a-199">The invoice import job can be secured in the following ways:</span></span>
 
-+ По роли пользователя
-+ По пользователю
-+ По юридическому лицу
++ <span data-ttu-id="27f3a-200">По роли пользователя</span><span class="sxs-lookup"><span data-stu-id="27f3a-200">By user role</span></span>
++ <span data-ttu-id="27f3a-201">По пользователю</span><span class="sxs-lookup"><span data-stu-id="27f3a-201">By user</span></span>
++ <span data-ttu-id="27f3a-202">По юридическому лицу</span><span class="sxs-lookup"><span data-stu-id="27f3a-202">By legal entity</span></span>
 
 ![Задание импорта, безопасность которого обеспечена по роли пользователя и юридическому лицу](media/vendor_invoice_automation_04.png)
 
-Если для задания импорта накладных настроены параметры безопасности, на странице списка накладных учитываются эти параметры. Пользователи будут видеть только те записи накладных-исключений, которые такая настройка разрешает им видеть.
+<span data-ttu-id="27f3a-204">Если для задания импорта накладных настроены параметры безопасности, на странице списка накладных учитываются эти параметры.</span><span class="sxs-lookup"><span data-stu-id="27f3a-204">If security is configured for the invoice import job, the exceptions list page honors those settings.</span></span> <span data-ttu-id="27f3a-205">Пользователи будут видеть только те записи накладных-исключений, которые такая настройка разрешает им видеть.</span><span class="sxs-lookup"><span data-stu-id="27f3a-205">Users will be able to see only the invoice exception records that this setup allows them to see.</span></span>
 
-Например, компания Contoso приняла решение обрабатывать накладные-исключения по юридическому лицу. Соответственно, параметры безопасности в отношении задания импорта накладных настроены так, что пользователь в юридическом лице А может видеть только накладные-исключения в юридическом лице А, тогда как пользователь в юридическом лице Б может видеть только накладные-исключения в юридическом лице Б. Такая настройка обеспечивает разделение обязанностей по обработке накладных-исключений.
+<span data-ttu-id="27f3a-206">Например, компания Contoso приняла решение обрабатывать накладные-исключения по юридическому лицу.</span><span class="sxs-lookup"><span data-stu-id="27f3a-206">For example, Contoso has decided to process invoice exceptions by legal entity.</span></span> <span data-ttu-id="27f3a-207">Соответственно, параметры безопасности в отношении задания импорта накладных настроены так, что пользователь в юридическом лице А может видеть только накладные-исключения в юридическом лице А, тогда как пользователь в юридическом лице Б может видеть только накладные-исключения в юридическом лице Б. Такая настройка обеспечивает разделение обязанностей по обработке накладных-исключений.</span><span class="sxs-lookup"><span data-stu-id="27f3a-207">Therefore, security is configured on the invoice import job in such a way that a user in legal entity A can see only invoice exceptions in legal entity A, whereas a user in legal entity B can see only invoice exceptions in legal entity B. This setup enables segregation of duties for the management of invoice exceptions.</span></span>
 
-Contoso также может принять решение не накладывать никаких ограничений, чтобы одни и те же пользователи могли обрабатывать накладные-исключения для всех юридических лиц. Такая настройка позволяет реализовать сценарий общих служб для управления накладными-исключениями.
+<span data-ttu-id="27f3a-208">Contoso также может принять решение не накладывать никаких ограничений, чтобы одни и те же пользователи могли обрабатывать накладные-исключения для всех юридических лиц.</span><span class="sxs-lookup"><span data-stu-id="27f3a-208">Contoso could also decide not to enforce any security, so that the same users can process invoice exceptions for all legal entities.</span></span> <span data-ttu-id="27f3a-209">Такая настройка позволяет реализовать сценарий общих служб для управления накладными-исключениями.</span><span class="sxs-lookup"><span data-stu-id="27f3a-209">This setup enables a shared services scenario for the management of invoice exceptions.</span></span>
 
-## <a name="side-by-side-attachment-viewer"></a>Средство параллельного просмотра вложений
+## <a name="side-by-side-attachment-viewer"></a><span data-ttu-id="27f3a-210">Средство параллельного просмотра вложений</span><span class="sxs-lookup"><span data-stu-id="27f3a-210">Side-by-side attachment viewer</span></span>
 
-Для удобства просмотра вложений в накладных поставщиков на следующих страницах, используемых в процессе обработки накладных, теперь предусмотрено средство просмотра вложений:
+<span data-ttu-id="27f3a-211">Для удобства просмотра вложений в накладных поставщиков на следующих страницах, используемых в процессе обработки накладных, теперь предусмотрено средство просмотра вложений:</span><span class="sxs-lookup"><span data-stu-id="27f3a-211">To help you easily view the attachments for vendor invoices, the following pages that are used in the invoicing process now provide an attachment viewer:</span></span>
 
-+ **Обработка исключений**
-+ Страница **Накладные поставщиков, ожидающие обработки** (также доступна в процессе просмотра накладных)
-+ Страница запроса **Журнал накладных** (для разнесенных накладных)
++ <span data-ttu-id="27f3a-212">**Обработка исключений**</span><span class="sxs-lookup"><span data-stu-id="27f3a-212">**Exception handling**</span></span>
++ <span data-ttu-id="27f3a-213">Страница **Накладные поставщиков, ожидающие обработки** (также доступна в процессе просмотра накладных)</span><span class="sxs-lookup"><span data-stu-id="27f3a-213">**Pending vendor invoices** page (also available in the invoice review process)</span></span>
++ <span data-ttu-id="27f3a-214">Страница запроса **Журнал накладных** (для разнесенных накладных)</span><span class="sxs-lookup"><span data-stu-id="27f3a-214">**Invoice journal** inquiry page (for posted invoices)</span></span>
 
-Основные функциональные возможности средства просмотра вложений следующие:
+<span data-ttu-id="27f3a-215">Основные функциональные возможности средства просмотра вложений следующие:</span><span class="sxs-lookup"><span data-stu-id="27f3a-215">Here is the main functionality that the attachment viewer provides:</span></span>
 
-+ Просмотр всех типов вложений, поддерживаемых управлением документами (файлов, изображений, URL-адресов и заметок).
-+ Просмотр многостраничных файлов TIFF.
-+ Выполнение следующих действий над файлами изображений:
-  + Выделение частей изображений.
-  + Блокирование частей изображений.
-  + Добавление заметок на изображение.
-  + Увеличение и уменьшение масштаба изображения.
-  + Панорамирование изображения.
-  + Отмена и повтор действий.
-  + Подгонка изображения по размеру.
-
-> [!NOTE]
-> Эти действия доступны только для файлов изображений (JPEG, TIFF, PNG и т. д.). Все изменения, вносимые в изображение с помощью этих действий, сохраняются в файле изображения. В настоящее время в средстве просмотра вложений не предусмотрены возможности управления версиями или аудита.
-
-### <a name="default-attachment"></a>Вложение по умолчанию
-
-Если в накладной поставщика несколько вложений, можно установить один из документов в качестве вложения по умолчанию на странице **Вложения**. Параметр **Является вложением по умолчанию** — это новый параметр, добавленный в связи со средством просмотра вложений. Этот параметр также предоставляется в информационном объекте "Вложение документа накладной поставщика". Следовательно, вложение по умолчанию может задаваться посредством интеграций.
-
-Установить в качестве вложения по умолчанию можно только один документ. После установки документа в качестве вложения по умолчанию он автоматически отображается в средстве просмотра вложений при открытии накладной. Если не установить никакой документ в качестве вложения по умолчанию, при открытии накладной вложение в средстве просмотра автоматически отображаться не будет.
-
-### <a name="showhide-invoice-attachments"></a>Отображение/скрытие вложений накладной
-
-На страницах запроса **Обработка исключений**, **Ожидающая накладная** и **Журнал накладных** предусмотрена новая кнопка, которая позволяет отобразить или скрыть средство просмотра вложений.
-
-### <a name="security"></a>Контроль доступа
-
-Следующими действиями в средстве просмотра вложений можно управлять посредством безопасности на основе ролей:
-
-+ Выделение
-+ Заблокировать
-+ Добавление заметок
-
-### <a name="pending-vendor-invoices-page"></a>Страница "Накладные поставщиков, ожидающие обработки"
-
-Следующие привилегии обеспечивают доступ только на чтение или на чтение/запись к средству просмотра вложений для действий выделения, блокирования и добавления заметок:
-
-+ **Ведение изображения накладной поставщика** — эта привилегия обеспечивает доступ на чтение/запись.
-+ **Просмотр изображения накладной поставщика** — эта привилегия обеспечивает доступ только на чтение.
-
-Следующие обязанности обеспечивают доступ только на чтение или на чтение/запись к средству просмотра вложений для этих действий:
-
-+ **Ведение накладных поставщиков** — этой обязанности назначена привилегия "Ведение изображения накладной поставщика".
-+ **Запрос статуса накладных поставщика** — этой обязанности назначена привилегия "Просмотр изображения накладной поставщика".
-
-Следующие роли обеспечивают доступ только на чтение или на чтение/запись к средству просмотра вложений для этих действий:
-
-+ **Сотрудник отдела расчетов с поставщиками** и **Менеджер по расчету с поставщиками** — этим ролям назначена обязанность "Ведение накладных поставщиков".
-+ **Сотрудник отдела расчетов с поставщиками**, **Менеджер по расчету с поставщиками**, **Сотрудник, обрабатывающий централизованные платежи по расчетам с поставщиками** и **Сотрудник, обрабатывающий платежи по расчетам с поставщиками** — этим ролям назначена обязанность "Запрос статуса накладных поставщика".
-
-### <a name="invoice-exception-details-page"></a>Страница сведений о накладной-исключении
-
-Следующие привилегии обеспечивают доступ только на чтение или на чтение/запись к средству просмотра вложений для действий выделения, блокирования и добавления заметок.
++ <span data-ttu-id="27f3a-216">Просмотр всех типов вложений, поддерживаемых управлением документами (файлов, изображений, URL-адресов и заметок).</span><span class="sxs-lookup"><span data-stu-id="27f3a-216">View all attachment types that Document management supports (files, images, URLs, and notes).</span></span>
++ <span data-ttu-id="27f3a-217">Просмотр многостраничных файлов TIFF.</span><span class="sxs-lookup"><span data-stu-id="27f3a-217">View multi-page TIFF files.</span></span>
++ <span data-ttu-id="27f3a-218">Выполнение следующих действий над файлами изображений:</span><span class="sxs-lookup"><span data-stu-id="27f3a-218">Perform the following actions on image files:</span></span>
+  + <span data-ttu-id="27f3a-219">Выделение частей изображений.</span><span class="sxs-lookup"><span data-stu-id="27f3a-219">Highlight parts of the image.</span></span>
+  + <span data-ttu-id="27f3a-220">Блокирование частей изображений.</span><span class="sxs-lookup"><span data-stu-id="27f3a-220">Block parts of the image.</span></span>
+  + <span data-ttu-id="27f3a-221">Добавление заметок на изображение.</span><span class="sxs-lookup"><span data-stu-id="27f3a-221">Add annotations to the image.</span></span>
+  + <span data-ttu-id="27f3a-222">Увеличение и уменьшение масштаба изображения.</span><span class="sxs-lookup"><span data-stu-id="27f3a-222">Zoom in and out on the image.</span></span>
+  + <span data-ttu-id="27f3a-223">Панорамирование изображения.</span><span class="sxs-lookup"><span data-stu-id="27f3a-223">Pan the image.</span></span>
+  + <span data-ttu-id="27f3a-224">Отмена и повтор действий.</span><span class="sxs-lookup"><span data-stu-id="27f3a-224">Undo and redo actions.</span></span>
+  + <span data-ttu-id="27f3a-225">Подгонка изображения по размеру.</span><span class="sxs-lookup"><span data-stu-id="27f3a-225">Fit the image to size.</span></span>
 
 > [!NOTE]
-> В стандартной конфигурации роли, упомянутые в этой теме, обеспечивают доступ только на чтение к изображениям накладных в средстве просмотра вложений. Если роль также должна иметь доступ на запись к изображению, можно предоставить этой роли доступ на запись, используя описанную здесь привилегию и обязанность.
+> <span data-ttu-id="27f3a-226">Эти действия доступны только для файлов изображений (JPEG, TIFF, PNG и т. д.).</span><span class="sxs-lookup"><span data-stu-id="27f3a-226">These actions are available only for image files (JPEG, TIFF, PNG, and so on).</span></span> <span data-ttu-id="27f3a-227">Все изменения, вносимые в изображение с помощью этих действий, сохраняются в файле изображения.</span><span class="sxs-lookup"><span data-stu-id="27f3a-227">Any changes that you make to an image by using these actions are saved to the image file.</span></span> <span data-ttu-id="27f3a-228">В настоящее время в средстве просмотра вложений не предусмотрены возможности управления версиями или аудита.</span><span class="sxs-lookup"><span data-stu-id="27f3a-228">Currently, the attachment viewer doesn’t include versioning or auditing capabilities.</span></span>
 
-+ **Ведение изображения объекта заголовка накладной поставщика** — эта привилегия обеспечивает доступ на чтение/запись к изображениям накладных в средстве просмотра вложений.
-+ **Просмотр изображения объекта заголовка накладной поставщика** — эта привилегия обеспечивает доступ только на чтение к изображению накладной в средстве просмотра вложений.
+### <a name="default-attachment"></a><span data-ttu-id="27f3a-229">Вложение по умолчанию</span><span class="sxs-lookup"><span data-stu-id="27f3a-229">Default attachment</span></span>
 
-Следующие обязанности обеспечивают доступ только на чтение к средству просмотра вложений для этих действий:
+<span data-ttu-id="27f3a-230">Если в накладной поставщика несколько вложений, можно установить один из документов в качестве вложения по умолчанию на странице **Вложения**.</span><span class="sxs-lookup"><span data-stu-id="27f3a-230">If a vendor invoice has more than one attachment, you can set one of the documents as the default attachment on the **Attachments** page.</span></span> <span data-ttu-id="27f3a-231">Параметр **Является вложением по умолчанию** — это новый параметр, добавленный в связи со средством просмотра вложений.</span><span class="sxs-lookup"><span data-stu-id="27f3a-231">The **Is default attachment** option is a new option that was added as part of this feature.</span></span> <span data-ttu-id="27f3a-232">Этот параметр также предоставляется в информационном объекте "Вложение документа накладной поставщика".</span><span class="sxs-lookup"><span data-stu-id="27f3a-232">This option is also exposed in the Vendor invoice document attachment data entity.</span></span> <span data-ttu-id="27f3a-233">Следовательно, вложение по умолчанию может задаваться посредством интеграций.</span><span class="sxs-lookup"><span data-stu-id="27f3a-233">Therefore, the default attachment can be set through integrations.</span></span>
 
-+ **Ведение накладных поставщиков** — этой обязанности назначена привилегия "Ведение изображения объекта заголовка накладной поставщика".
+<span data-ttu-id="27f3a-234">Установить в качестве вложения по умолчанию можно только один документ.</span><span class="sxs-lookup"><span data-stu-id="27f3a-234">Only one document can be set as the default attachment.</span></span> <span data-ttu-id="27f3a-235">После установки документа в качестве вложения по умолчанию он автоматически отображается в средстве просмотра вложений при открытии накладной.</span><span class="sxs-lookup"><span data-stu-id="27f3a-235">After you set a document as the default attachment, it’s automatically shown in the attachment viewer when the invoice is opened.</span></span> <span data-ttu-id="27f3a-236">Если не установить никакой документ в качестве вложения по умолчанию, при открытии накладной вложение в средстве просмотра автоматически отображаться не будет.</span><span class="sxs-lookup"><span data-stu-id="27f3a-236">If you don’t set any document as the default attachment, the viewer doesn’t automatically show any attachment when the invoice is opened.</span></span>
 
-Следующие роли обеспечивают доступ только на чтение к средству просмотра вложений для этих действий:
+### <a name="showhide-invoice-attachments"></a><span data-ttu-id="27f3a-237">Отображение/скрытие вложений накладной</span><span class="sxs-lookup"><span data-stu-id="27f3a-237">Show/hide invoice attachments</span></span>
 
-+ **Сотрудник отдела расчетов с поставщиками** и **Менеджер по расчету с поставщиками** — этим ролям назначена обязанность "Ведение накладных поставщиков".
+<span data-ttu-id="27f3a-238">На страницах запроса **Обработка исключений**, **Ожидающая накладная** и **Журнал накладных** предусмотрена новая кнопка, которая позволяет отобразить или скрыть средство просмотра вложений.</span><span class="sxs-lookup"><span data-stu-id="27f3a-238">A new button that is available on the **Exception processing**, **Pending invoice**, and **Invoice journal** inquiry pages lets you show or hide the attachment viewer.</span></span>
 
-По умолчанию, если роль пользователя предусматривает права на изменение на какой-либо странице, у пользователя также будут права на изменение в средстве просмотра вложений (действия выделения, блокирования и добавления заметок). Однако если существуют сценарии, когда у конкретной роли должны быть права на изменение в отношении страницы, но не в отношении средства просмотра вложений, для реализации таких сценариев можно использовать соответствующие привилегии из приведенного выше списка.
+### <a name="security"></a><span data-ttu-id="27f3a-239">Контроль доступа</span><span class="sxs-lookup"><span data-stu-id="27f3a-239">Security</span></span>
+
+<span data-ttu-id="27f3a-240">Следующими действиями в средстве просмотра вложений можно управлять посредством безопасности на основе ролей:</span><span class="sxs-lookup"><span data-stu-id="27f3a-240">The following actions in the attachment viewer are controlled via role-based security:</span></span>
+
++ <span data-ttu-id="27f3a-241">Выделение</span><span class="sxs-lookup"><span data-stu-id="27f3a-241">Highlighting</span></span>
++ <span data-ttu-id="27f3a-242">Заблокировать</span><span class="sxs-lookup"><span data-stu-id="27f3a-242">Block</span></span>
++ <span data-ttu-id="27f3a-243">Добавление заметок</span><span class="sxs-lookup"><span data-stu-id="27f3a-243">Annotation</span></span>
+
+### <a name="pending-vendor-invoices-page"></a><span data-ttu-id="27f3a-244">Страница "Накладные поставщиков, ожидающие обработки"</span><span class="sxs-lookup"><span data-stu-id="27f3a-244">Pending vendor invoices page</span></span>
+
+<span data-ttu-id="27f3a-245">Следующие привилегии обеспечивают доступ только на чтение или на чтение/запись к средству просмотра вложений для действий выделения, блокирования и добавления заметок:</span><span class="sxs-lookup"><span data-stu-id="27f3a-245">The following privileges provide ready-only access or read/write access to the attachment viewer for the highlighting, block, and annotation actions:</span></span>
+
++ <span data-ttu-id="27f3a-246">**Ведение изображения накладной поставщика** — эта привилегия обеспечивает доступ на чтение/запись.</span><span class="sxs-lookup"><span data-stu-id="27f3a-246">**Maintain vendor invoice image** – This privilege provides read/write access.</span></span>
++ <span data-ttu-id="27f3a-247">**Просмотр изображения накладной поставщика** — эта привилегия обеспечивает доступ только на чтение.</span><span class="sxs-lookup"><span data-stu-id="27f3a-247">**View vendor invoice image** – This privilege provides read-only access.</span></span>
+
+<span data-ttu-id="27f3a-248">Следующие обязанности обеспечивают доступ только на чтение или на чтение/запись к средству просмотра вложений для этих действий:</span><span class="sxs-lookup"><span data-stu-id="27f3a-248">The following duties provide read-only access or read/write access to the attachment viewer for those actions:</span></span>
+
++ <span data-ttu-id="27f3a-249">**Ведение накладных поставщиков** — этой обязанности назначена привилегия "Ведение изображения накладной поставщика".</span><span class="sxs-lookup"><span data-stu-id="27f3a-249">**Maintain vendor invoices** – The Maintain vendor invoice image privilege is assigned to this duty.</span></span>
++ <span data-ttu-id="27f3a-250">**Запрос статуса накладных поставщика** — этой обязанности назначена привилегия "Просмотр изображения накладной поставщика".</span><span class="sxs-lookup"><span data-stu-id="27f3a-250">**Inquire into vendor invoice status** – The View vendor invoice image privilege is assigned to this duty.</span></span>
+
+<span data-ttu-id="27f3a-251">Следующие роли обеспечивают доступ только на чтение или на чтение/запись к средству просмотра вложений для этих действий:</span><span class="sxs-lookup"><span data-stu-id="27f3a-251">The following roles provide read-only access or read/write access to the attachment viewer for those actions:</span></span>
+
++ <span data-ttu-id="27f3a-252">**Сотрудник отдела расчетов с поставщиками** и **Менеджер по расчету с поставщиками** — этим ролям назначена обязанность "Ведение накладных поставщиков".</span><span class="sxs-lookup"><span data-stu-id="27f3a-252">**Accounts payable clerk** and **Accounts payable manager** – The Maintain vendor invoices duty is assigned to these roles.</span></span>
++ <span data-ttu-id="27f3a-253">**Сотрудник отдела расчетов с поставщиками**, **Менеджер по расчету с поставщиками**, **Сотрудник, обрабатывающий централизованные платежи по расчетам с поставщиками** и **Сотрудник, обрабатывающий платежи по расчетам с поставщиками** — этим ролям назначена обязанность "Запрос статуса накладных поставщика".</span><span class="sxs-lookup"><span data-stu-id="27f3a-253">**Accounts payable clerk**, **Accounts payable manager**, **Accounts payable centralized payments clerk**, and **Accounts payable payments clerk** – The Inquire into vendor invoice status duty is assigned to these roles.</span></span>
+
+### <a name="invoice-exception-details-page"></a><span data-ttu-id="27f3a-254">Страница сведений о накладной-исключении</span><span class="sxs-lookup"><span data-stu-id="27f3a-254">Invoice exception details page</span></span>
+
+<span data-ttu-id="27f3a-255">Следующие привилегии обеспечивают доступ только на чтение или на чтение/запись к средству просмотра вложений для действий выделения, блокирования и добавления заметок.</span><span class="sxs-lookup"><span data-stu-id="27f3a-255">The following privileges provide ready-only access or read/write access to the attachment viewer for the highlighting, block, and annotation actions.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="27f3a-256">В стандартной конфигурации роли, упомянутые в этой теме, обеспечивают доступ только на чтение к изображениям накладных в средстве просмотра вложений.</span><span class="sxs-lookup"><span data-stu-id="27f3a-256">Out of the box, the roles that are mentioned in this section provide read-only access to the invoice images in the attachment viewer.</span></span> <span data-ttu-id="27f3a-257">Если роль также должна иметь доступ на запись к изображению, можно предоставить этой роли доступ на запись, используя описанную здесь привилегию и обязанность.</span><span class="sxs-lookup"><span data-stu-id="27f3a-257">If a role must also have write access to the images, you can grant write access to that role by using the privilege and duty that are described here.</span></span>
+
++ <span data-ttu-id="27f3a-258">**Ведение изображения объекта заголовка накладной поставщика** — эта привилегия обеспечивает доступ на чтение/запись к изображениям накладных в средстве просмотра вложений.</span><span class="sxs-lookup"><span data-stu-id="27f3a-258">**Maintain vendor invoice header entity image** – This privilege provides read/write access to the invoice images in the attachment viewer.</span></span>
++ <span data-ttu-id="27f3a-259">**Просмотр изображения объекта заголовка накладной поставщика** — эта привилегия обеспечивает доступ только на чтение к изображению накладной в средстве просмотра вложений.</span><span class="sxs-lookup"><span data-stu-id="27f3a-259">**View vendor invoice header entity image** – This privilege provides read-only view to the invoice image in the attachment viewer.</span></span>
+
+<span data-ttu-id="27f3a-260">Следующие обязанности обеспечивают доступ только на чтение к средству просмотра вложений для этих действий:</span><span class="sxs-lookup"><span data-stu-id="27f3a-260">The following duties provide read-only access to the attachment viewer for those actions:</span></span>
+
++ <span data-ttu-id="27f3a-261">**Ведение накладных поставщиков** — этой обязанности назначена привилегия "Ведение изображения объекта заголовка накладной поставщика".</span><span class="sxs-lookup"><span data-stu-id="27f3a-261">**Maintain vendor invoices** – The Maintain vendor invoice header entity image privilege is assigned to this duty.</span></span>
+
+<span data-ttu-id="27f3a-262">Следующие роли обеспечивают доступ только на чтение к средству просмотра вложений для этих действий:</span><span class="sxs-lookup"><span data-stu-id="27f3a-262">The following roles provide read-only access to the attachment viewer for those actions:</span></span>
+
++ <span data-ttu-id="27f3a-263">**Сотрудник отдела расчетов с поставщиками** и **Менеджер по расчету с поставщиками** — этим ролям назначена обязанность "Ведение накладных поставщиков".</span><span class="sxs-lookup"><span data-stu-id="27f3a-263">**Accounts payable clerk** and **Accounts payable manager** – The Maintain vendor invoices duty is assigned to these roles.</span></span>
+
+<span data-ttu-id="27f3a-264">По умолчанию, если роль пользователя предусматривает права на изменение на какой-либо странице, у пользователя также будут права на изменение в средстве просмотра вложений (действия выделения, блокирования и добавления заметок).</span><span class="sxs-lookup"><span data-stu-id="27f3a-264">By default, if the user role provides edit rights on any page, the user will also have edit rights on the attachments viewer for the highlighting, block, and annotation actions.</span></span> <span data-ttu-id="27f3a-265">Однако если существуют сценарии, когда у конкретной роли должны быть права на изменение в отношении страницы, но не в отношении средства просмотра вложений, для реализации таких сценариев можно использовать соответствующие привилегии из приведенного выше списка.</span><span class="sxs-lookup"><span data-stu-id="27f3a-265">However, if there are scenarios where a specific role should have edit rights on the page but not on the attachment viewer, the appropriate privileges from the preceding list can be used to satisfy the use case.</span></span>
 

@@ -16,51 +16,51 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6567bc969d003abc9fcf21886cc202cc85db6a14
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 055fe129b9fc9cf50e1d9e1a5b4cb77285f20c92
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-journal-entry-using-a-template"></a>Создание записи в журнале с помощью шаблона
+# <a name="create-a-journal-entry-using-a-template"></a><span data-ttu-id="290f4-103">Создание записи в журнале с помощью шаблона</span><span class="sxs-lookup"><span data-stu-id="290f4-103">Create a journal entry using a template</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Разнесенные ваучеры журнала можно сохранить как шаблоны ваучеров и применить в новом ваучере журнала. В данной процедуре используется демонстрационная компания USMF.
+<span data-ttu-id="290f4-104">Разнесенные ваучеры журнала можно сохранить как шаблоны ваучеров и применить в новом ваучере журнала.</span><span class="sxs-lookup"><span data-stu-id="290f4-104">Posted journal vouchers can be saved as Voucher templates and applied in a new journal voucher.</span></span> <span data-ttu-id="290f4-105">В данной процедуре используется демонстрационная компания USMF.</span><span class="sxs-lookup"><span data-stu-id="290f4-105">This procedure uses the USMF demo company.</span></span>
 
-1. "Главная книга" > "Записи в журнале" > "Общие журналы". Щелкните "Создать".
-    * Эта процедура начинается с создания и разноски ваучера журнала, но любой ранее разнесенный ваучер журнала можно сохранить как шаблон.  
-2. В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-3. Поиск и выбор требуемой записи в списке.
-4. В списке перейдите по ссылке в выбранной строке.
-5. Выберите Строки.
-6. Введите организацию для типа счета.
-7. В поле "Описание" введите значение.
-8. Введите сумму в поле "Дебет".
-9. Нажмите Создать.
-10. Введите другую организацию для типа счета.
-11. В поле "Описание" введите значение.
-12. Введите сумму в поле "Дебет".
-13. Нажмите Создать.
-14. В поле "Счет" укажите требуемые значения.
-15. В поле "Описание" введите значение.
-16. Введите сумму в поле "Кредит" для балансировки ваучера.
-17. Щелкните "Разнести".
-18. Щелкните Функции.
-19. Щелкните "Сохранить шаблон ваучера".
-20. В этой процедуре предполагается использование типа "Шаблон процента". Нажмите кнопку "OК".
-    * • Процент: суммы в ваучере преобразовываются в процентные коэффициенты, что позволяет применить любую сумму при выборе шаблона ваучера.  • Сумма: фактические суммы будут сохранены и применены.  
-21. Щелкните "Общие журналы".
-22. Щелкните "Создать".
-23. В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-24. В списке перейдите по ссылке в выбранной строке.
-25. Щелкните "Строки".
-26. Щелкните Функции.
-27. Щелкните "Выбрать шаблон ваучера".
-28. Найдите созданный ранее шаблон. Нажмите кнопку "OК".
-    * Возможно, потребуется щелкнуть "Предыдущий шаг" и выбрать правильный шаблон, если существуют другие шаблоны.  
-29. В поле "Сумма" введите сумму, которая должна применяться к ваучеру.
-    * Поле суммы отображается, только если шаблон ваучера принадлежит к типу "Процент".  
-30. Нажмите кнопку "OК".
+1. <span data-ttu-id="290f4-106">"Главная книга" > "Записи в журнале" > "Общие журналы".</span><span class="sxs-lookup"><span data-stu-id="290f4-106">General ledger > Journal entries > General journals.</span></span> <span data-ttu-id="290f4-107">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="290f4-107">Click New.</span></span>
+    * <span data-ttu-id="290f4-108">Эта процедура начинается с создания и разноски ваучера журнала, но любой ранее разнесенный ваучер журнала можно сохранить как шаблон.</span><span class="sxs-lookup"><span data-stu-id="290f4-108">This procedure starts by creating and posting a journal voucher, but any previously posted journal voucher can be saved as a template.</span></span>  
+2. <span data-ttu-id="290f4-109">В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="290f4-109">In the Name field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="290f4-110">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="290f4-110">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="290f4-111">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="290f4-111">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="290f4-112">Выберите Строки.</span><span class="sxs-lookup"><span data-stu-id="290f4-112">Click Lines.</span></span>
+6. <span data-ttu-id="290f4-113">Введите организацию для типа счета.</span><span class="sxs-lookup"><span data-stu-id="290f4-113">Enter an account for the Account type.</span></span>
+7. <span data-ttu-id="290f4-114">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="290f4-114">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="290f4-115">Введите сумму в поле "Дебет".</span><span class="sxs-lookup"><span data-stu-id="290f4-115">Enter an amount in the Debit field.</span></span>
+9. <span data-ttu-id="290f4-116">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="290f4-116">Click New.</span></span>
+10. <span data-ttu-id="290f4-117">Введите другую организацию для типа счета.</span><span class="sxs-lookup"><span data-stu-id="290f4-117">Enter a different account for the Account type.</span></span>
+11. <span data-ttu-id="290f4-118">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="290f4-118">In the Description field, type a value.</span></span>
+12. <span data-ttu-id="290f4-119">Введите сумму в поле "Дебет".</span><span class="sxs-lookup"><span data-stu-id="290f4-119">Enter an amount in the Debit field.</span></span>
+13. <span data-ttu-id="290f4-120">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="290f4-120">Click New.</span></span>
+14. <span data-ttu-id="290f4-121">В поле "Счет" укажите требуемые значения.</span><span class="sxs-lookup"><span data-stu-id="290f4-121">In the Account field, specify the desired values.</span></span>
+15. <span data-ttu-id="290f4-122">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="290f4-122">In the Description field, type a value.</span></span>
+16. <span data-ttu-id="290f4-123">Введите сумму в поле "Кредит" для балансировки ваучера.</span><span class="sxs-lookup"><span data-stu-id="290f4-123">Enter an amount in the Credit field to balance the voucher.</span></span>
+17. <span data-ttu-id="290f4-124">Щелкните "Разнести".</span><span class="sxs-lookup"><span data-stu-id="290f4-124">Click Post.</span></span>
+18. <span data-ttu-id="290f4-125">Щелкните Функции.</span><span class="sxs-lookup"><span data-stu-id="290f4-125">Click Functions.</span></span>
+19. <span data-ttu-id="290f4-126">Щелкните "Сохранить шаблон ваучера".</span><span class="sxs-lookup"><span data-stu-id="290f4-126">Click Save voucher template.</span></span>
+20. <span data-ttu-id="290f4-127">В этой процедуре предполагается использование типа "Шаблон процента".</span><span class="sxs-lookup"><span data-stu-id="290f4-127">This procedure assumes a Percent Template type.</span></span> <span data-ttu-id="290f4-128">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="290f4-128">Click OK.</span></span>
+    * <span data-ttu-id="290f4-129">• Процент: суммы в ваучере преобразовываются в процентные коэффициенты, что позволяет применить любую сумму при выборе шаблона ваучера.</span><span class="sxs-lookup"><span data-stu-id="290f4-129">• Percent: The amounts in the voucher are converted into percentage factors, which allows any amount to be applied when the Voucher template is selected.</span></span>  <span data-ttu-id="290f4-130">• Сумма: фактические суммы будут сохранены и применены.</span><span class="sxs-lookup"><span data-stu-id="290f4-130">• Amount: The actual amounts will be stored and applied.</span></span>  
+21. <span data-ttu-id="290f4-131">Щелкните "Общие журналы".</span><span class="sxs-lookup"><span data-stu-id="290f4-131">Click General journals.</span></span>
+22. <span data-ttu-id="290f4-132">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="290f4-132">Click New.</span></span>
+23. <span data-ttu-id="290f4-133">В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="290f4-133">In the Name field, click the drop-down button to open the lookup.</span></span>
+24. <span data-ttu-id="290f4-134">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="290f4-134">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="290f4-135">Щелкните "Строки".</span><span class="sxs-lookup"><span data-stu-id="290f4-135">Click Lines.</span></span>
+26. <span data-ttu-id="290f4-136">Щелкните Функции.</span><span class="sxs-lookup"><span data-stu-id="290f4-136">Click Functions.</span></span>
+27. <span data-ttu-id="290f4-137">Щелкните "Выбрать шаблон ваучера".</span><span class="sxs-lookup"><span data-stu-id="290f4-137">Click Select voucher template.</span></span>
+28. <span data-ttu-id="290f4-138">Найдите созданный ранее шаблон.</span><span class="sxs-lookup"><span data-stu-id="290f4-138">Find the template that you created earlier.</span></span> <span data-ttu-id="290f4-139">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="290f4-139">Click OK.</span></span>
+    * <span data-ttu-id="290f4-140">Возможно, потребуется щелкнуть "Предыдущий шаг" и выбрать правильный шаблон, если существуют другие шаблоны.</span><span class="sxs-lookup"><span data-stu-id="290f4-140">You may need to click Previous step and then select the correct template if other templates exist.</span></span>  
+29. <span data-ttu-id="290f4-141">В поле "Сумма" введите сумму, которая должна применяться к ваучеру.</span><span class="sxs-lookup"><span data-stu-id="290f4-141">In the Amount field, enter the amount to be applied to the voucher.</span></span>
+    * <span data-ttu-id="290f4-142">Поле суммы отображается, только если шаблон ваучера принадлежит к типу "Процент".</span><span class="sxs-lookup"><span data-stu-id="290f4-142">The amount field is only displayed if the voucher template is of type Percent.</span></span>  
+30. <span data-ttu-id="290f4-143">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="290f4-143">Click OK.</span></span>
 
 

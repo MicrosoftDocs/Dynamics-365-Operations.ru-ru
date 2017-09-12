@@ -16,38 +16,38 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 5076e6b0f0ffa06fe8135b87e4814bf551b08761
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f53de983389dd8cbfb2c29af84539f1a73dc0a85
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-bar-code-for-a-product"></a>Создание штрих-кода для продукта
+# <a name="create-a-bar-code-for-a-product"></a><span data-ttu-id="e9577-103">Создание штрих-кода для продукта</span><span class="sxs-lookup"><span data-stu-id="e9577-103">Create a bar code for a product</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-В этой процедуре описан порядок создания вручную штрих-кода с использованием кода номенклатуры M0001 в качестве примера. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
+<span data-ttu-id="e9577-104">В этой процедуре описан порядок создания вручную штрих-кода с использованием кода номенклатуры M0001 в качестве примера.</span><span class="sxs-lookup"><span data-stu-id="e9577-104">This procedure shows how to manually create a bar code using the item number M0001 as an example.</span></span> <span data-ttu-id="e9577-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="e9577-105">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Щелкните "Обслуживание выпущенного продукта".
-2. Щелкните "Выпущенные продукты".
-3. В списке найдите и выберите требуемую запись.
-4. В области действий щелкните "Управление запасами".
-5. Щелкните "Штрих-коды".
-6. Щелкните "Создать".
-7. В списке пометьте выбранную строку.
-8. В поле "Настройка штрих-кода" введите или выберите значение.
-9. В поле "Штрих-код" введите или выберите значение.
-10. В поле "Штрих-код" введите значение.
-    * Нажмите клавишу TAB.  
-11. Закройте страницу.
-12. В поле "Количество" введите число.
-13. Нажмите кнопку "Сохранить".
-    * Когда вы нажмете "Сохранить", выполняется штрих-код, и в этом случае отображается ошибка, что ожидалась контрольная цифра 8, а найдена цифра 3. Вручную обновите номер штрих-кода, чтобы он заканчивался цифрой 8.  
-14. В поле "Штрих-код" введите или выберите значение.
-15. В поле "Штрих-код" введите значение.
-    * Нажмите клавишу TAB.  
-16. Закройте страницу.
-17. Нажмите кнопку "Сохранить".
-18. Закройте страницу.
+1. <span data-ttu-id="e9577-106">Щелкните "Обслуживание выпущенного продукта".</span><span class="sxs-lookup"><span data-stu-id="e9577-106">Click Released product maintenance.</span></span>
+2. <span data-ttu-id="e9577-107">Щелкните "Выпущенные продукты".</span><span class="sxs-lookup"><span data-stu-id="e9577-107">Click Released products.</span></span>
+3. <span data-ttu-id="e9577-108">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="e9577-108">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="e9577-109">В области действий щелкните "Управление запасами".</span><span class="sxs-lookup"><span data-stu-id="e9577-109">On the Action Pane, click Manage inventory.</span></span>
+5. <span data-ttu-id="e9577-110">Щелкните "Штрих-коды".</span><span class="sxs-lookup"><span data-stu-id="e9577-110">Click Bar codes.</span></span>
+6. <span data-ttu-id="e9577-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="e9577-111">Click New.</span></span>
+7. <span data-ttu-id="e9577-112">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="e9577-112">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="e9577-113">В поле "Настройка штрих-кода" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="e9577-113">In the Barcode setup field, enter or select a value.</span></span>
+9. <span data-ttu-id="e9577-114">В поле "Штрих-код" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="e9577-114">In the Bar code field, enter or select a value.</span></span>
+10. <span data-ttu-id="e9577-115">В поле "Штрих-код" введите значение.</span><span class="sxs-lookup"><span data-stu-id="e9577-115">In the Bar code field, type a value.</span></span>
+    * <span data-ttu-id="e9577-116">Нажмите клавишу TAB.</span><span class="sxs-lookup"><span data-stu-id="e9577-116">Press the Tab key.</span></span>  
+11. <span data-ttu-id="e9577-117">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="e9577-117">Close the page.</span></span>
+12. <span data-ttu-id="e9577-118">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="e9577-118">In the Quantity field, enter a number.</span></span>
+13. <span data-ttu-id="e9577-119">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="e9577-119">Click Save.</span></span>
+    * <span data-ttu-id="e9577-120">Когда вы нажмете "Сохранить", выполняется штрих-код, и в этом случае отображается ошибка, что ожидалась контрольная цифра 8, а найдена цифра 3.</span><span class="sxs-lookup"><span data-stu-id="e9577-120">When you click Save, the barcode check is run, and in this case it will display an error stating that the expected check digit is 8, but that 3 was found.</span></span> <span data-ttu-id="e9577-121">Вручную обновите номер штрих-кода, чтобы он заканчивался цифрой 8.</span><span class="sxs-lookup"><span data-stu-id="e9577-121">Manually update the barcode number so that 8 is at the end.</span></span>  
+14. <span data-ttu-id="e9577-122">В поле "Штрих-код" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="e9577-122">In the Bar code field, enter or select a value.</span></span>
+15. <span data-ttu-id="e9577-123">В поле "Штрих-код" введите значение.</span><span class="sxs-lookup"><span data-stu-id="e9577-123">In the Bar code field, type a value.</span></span>
+    * <span data-ttu-id="e9577-124">Нажмите клавишу TAB.</span><span class="sxs-lookup"><span data-stu-id="e9577-124">Press the Tab key.</span></span>  
+16. <span data-ttu-id="e9577-125">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="e9577-125">Close the page.</span></span>
+17. <span data-ttu-id="e9577-126">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="e9577-126">Click Save.</span></span>
+18. <span data-ttu-id="e9577-127">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="e9577-127">Close the page.</span></span>
 
 

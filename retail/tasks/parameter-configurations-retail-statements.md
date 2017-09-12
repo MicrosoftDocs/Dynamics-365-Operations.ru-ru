@@ -17,29 +17,29 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: ba3b528f8739e4e84ffdbeea5d0af5817f2d9c10
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 731a3ec06efa103ba663df83240c77dfe78bb7cd
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="parameter-configurations-for-retail-statements"></a>Конфигурации параметров для журналов операций розничной торговли
+# <a name="parameter-configurations-for-retail-statements"></a><span data-ttu-id="cf2ea-103">Конфигурации параметров для журналов операций розничной торговли</span><span class="sxs-lookup"><span data-stu-id="cf2ea-103">Parameter configurations for Retail statements</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Эта процедура демонстрирует конфигурации параметров розничной торговли, которые влияют на то, как создаются и разносятся журналы операций розницы. В данной процедуре используется демонстрационная компания USRT.
+<span data-ttu-id="cf2ea-104">Эта процедура демонстрирует конфигурации параметров розничной торговли, которые влияют на то, как создаются и разносятся журналы операций розницы.</span><span class="sxs-lookup"><span data-stu-id="cf2ea-104">This procedure demonstrates configurations for Retail parameters that affect how Retail statements get created and posted.</span></span> <span data-ttu-id="cf2ea-105">В данной процедуре используется демонстрационная компания USRT.</span><span class="sxs-lookup"><span data-stu-id="cf2ea-105">This procedure uses the USRT demo company.</span></span>
 
-1. Перейдите в раздел "Розничная торговля и коммерция" > "Настройка центрального офиса" > "Параметры" > "Параметры розничной торговли".
-2. Перейдите на вкладку Разноска.
-    * Выберите "Да", если необходимо отдельно разносить периодические суммы скидки.  
-    * Выберите "Стандартный" для использования счетов по умолчанию или "Периодический", если вы хотите определить, какой счет будет использоваться для каждой периодической скидки.  
-    * Выберите "Сводка", если строки запасов должны по возможности агрегироваться.  
-    * Выберите "Да", если накладные и платежи должны автоматически сопоставляться в процессе разноски журнала операций.  
-    * Выберите "Да", если должны агрегироваться проводки сдачи наличных средств в сейф.  
-    * Выберите "Да", если должны агрегироваться проводки инкассации.  
-    * Выберите "Да", чтобы включить агрегирование для разноски журнала операций.  
-    * Выберите "Да" для создания и обработки заказов параллельно при разноске журнала операций.  
-    * Введите максимальное число заказов для обработки в каждом пакетном задании.  
-3. Нажмите кнопку "Сохранить".
+1. <span data-ttu-id="cf2ea-106">Перейдите в раздел "Розничная торговля и коммерция" > "Настройка центрального офиса" > "Параметры" > "Параметры розничной торговли".</span><span class="sxs-lookup"><span data-stu-id="cf2ea-106">Go to Retail and commerce > Headquarters setup  > Parameters > Retail parameters.</span></span>
+2. <span data-ttu-id="cf2ea-107">Перейдите на вкладку Разноска.</span><span class="sxs-lookup"><span data-stu-id="cf2ea-107">Click the Posting tab.</span></span>
+    * <span data-ttu-id="cf2ea-108">Выберите "Да", если необходимо отдельно разносить периодические суммы скидки.</span><span class="sxs-lookup"><span data-stu-id="cf2ea-108">Select "Yes" if you want to post the periodic discount amounts specifically.</span></span>  
+    * <span data-ttu-id="cf2ea-109">Выберите "Стандартный" для использования счетов по умолчанию или "Периодический", если вы хотите определить, какой счет будет использоваться для каждой периодической скидки.</span><span class="sxs-lookup"><span data-stu-id="cf2ea-109">Select "Standard" to use default accounts, or select "Periodic" if you want to define which account to use for each periodic discount.</span></span>  
+    * <span data-ttu-id="cf2ea-110">Выберите "Сводка", если строки запасов должны по возможности агрегироваться.</span><span class="sxs-lookup"><span data-stu-id="cf2ea-110">Select "Summary" if inventory lines should get aggregated whenever possible.</span></span>  
+    * <span data-ttu-id="cf2ea-111">Выберите "Да", если накладные и платежи должны автоматически сопоставляться в процессе разноски журнала операций.</span><span class="sxs-lookup"><span data-stu-id="cf2ea-111">Select "Yes" if Invoices and Payments should get automatically settled as part of the Statement posting process.</span></span>  
+    * <span data-ttu-id="cf2ea-112">Выберите "Да", если должны агрегироваться проводки сдачи наличных средств в сейф.</span><span class="sxs-lookup"><span data-stu-id="cf2ea-112">Select "Yes" if Safe drop transactions should get aggregated.</span></span>  
+    * <span data-ttu-id="cf2ea-113">Выберите "Да", если должны агрегироваться проводки инкассации.</span><span class="sxs-lookup"><span data-stu-id="cf2ea-113">Select "Yes" if Bank drop transactions should get aggregated.</span></span>  
+    * <span data-ttu-id="cf2ea-114">Выберите "Да", чтобы включить агрегирование для разноски журнала операций.</span><span class="sxs-lookup"><span data-stu-id="cf2ea-114">Select "Yes" to turn aggregation on for Statement posting.</span></span>  
+    * <span data-ttu-id="cf2ea-115">Выберите "Да" для создания и обработки заказов параллельно при разноске журнала операций.</span><span class="sxs-lookup"><span data-stu-id="cf2ea-115">Select "Yes" to create and process orders in parallel when statements are posted.</span></span>  
+    * <span data-ttu-id="cf2ea-116">Введите максимальное число заказов для обработки в каждом пакетном задании.</span><span class="sxs-lookup"><span data-stu-id="cf2ea-116">Enter the maximum orders to be processed in each batch job task.</span></span>  
+3. <span data-ttu-id="cf2ea-117">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="cf2ea-117">Click Save.</span></span>
 
 

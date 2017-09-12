@@ -16,81 +16,81 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 33a95e4366dc352f28202155be7fc0b8f4c99e4a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 258149dbd610dafb8daacaf54c61e69898ca35d6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-compensation-grids"></a>Настройка сеток компенсаций
+# <a name="set-up-compensation-grids"></a><span data-ttu-id="9f3f2-103">Настройка сеток компенсаций</span><span class="sxs-lookup"><span data-stu-id="9f3f2-103">Set up compensation grids</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Сетки компенсации используются для определения и ведения структур оплаты для фиксированных компенсационных выплат. Сетки компенсации можно совместно использовать между несколькими планами или копировать при создании нового плана компенсационных выплат.  Перед созданием сетки компенсации необходимо настроить уровни и опорные точки. В этом примере создается новый тип сетки компенсации с помощью демонстрационных данных для уровней и опорных точек. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
+<span data-ttu-id="9f3f2-104">Сетки компенсации используются для определения и ведения структур оплаты для фиксированных компенсационных выплат.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-104">Compensation grids are used to define and maintain the pay structures for fixed compensation plans.</span></span> <span data-ttu-id="9f3f2-105">Сетки компенсации можно совместно использовать между несколькими планами или копировать при создании нового плана компенсационных выплат.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-105">Compensation grids can be shared between multiple plans or copied when creating a new compensation plan.</span></span>  <span data-ttu-id="9f3f2-106">Перед созданием сетки компенсации необходимо настроить уровни и опорные точки.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-106">Before creating a compensation grid, Levels and Reference points must be set up.</span></span> <span data-ttu-id="9f3f2-107">В этом примере создается новый тип сетки компенсации с помощью демонстрационных данных для уровней и опорных точек.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-107">This example will create a new Grade type of compensation grid using demo data for the Levels and Reference points.</span></span> <span data-ttu-id="9f3f2-108">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-108">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="set-up-information-about-the-compensation-grid"></a>Настройка информации о сетке компенсации
-1. Перейдите в "Управление персоналом" > "Компенсация" > "Фиксированная компенсация" > "Сетки компенсации".
-2. Щелкните "Создать".
-3. В поле "Сетка" введите значение.
-4. В поле "Описание" введите значение.
-5. В поле "Тип" выберите один из вариантов.
-6. В поле "Установка опорной точки" введите или выберите значение.
-7. В поле "Валюта" введите или выберите значение.
-8. В поле "Валюта" введите значение.
-9. В поле "Действует с" введите дату.
+## <a name="set-up-information-about-the-compensation-grid"></a><span data-ttu-id="9f3f2-109">Настройка информации о сетке компенсации</span><span class="sxs-lookup"><span data-stu-id="9f3f2-109">Set up information about the compensation grid</span></span>
+1. <span data-ttu-id="9f3f2-110">Перейдите в "Управление персоналом" > "Компенсация" > "Фиксированная компенсация" > "Сетки компенсации".</span><span class="sxs-lookup"><span data-stu-id="9f3f2-110">Go to Human resources > Compensation > Fixed compensation > Compensation grids.</span></span>
+2. <span data-ttu-id="9f3f2-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="9f3f2-111">Click New.</span></span>
+3. <span data-ttu-id="9f3f2-112">В поле "Сетка" введите значение.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-112">In the Grid field, type a value.</span></span>
+4. <span data-ttu-id="9f3f2-113">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="9f3f2-114">В поле "Тип" выберите один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-114">In the Type field, select an option.</span></span>
+6. <span data-ttu-id="9f3f2-115">В поле "Установка опорной точки" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-115">In the Reference setup field, enter or select a value.</span></span>
+7. <span data-ttu-id="9f3f2-116">В поле "Валюта" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-116">In the Currency field, enter or select a value.</span></span>
+8. <span data-ttu-id="9f3f2-117">В поле "Валюта" введите значение.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-117">In the Currency field, type a value.</span></span>
+9. <span data-ttu-id="9f3f2-118">В поле "Действует с" введите дату.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-118">In the Effective date field, enter a date.</span></span>
 
-## <a name="add-levels-to-the-compensation-structure"></a>Добавление уровней к структуре компенсаций
-1. Щелкните "Структура компенсации".
-2. В списке пометьте выбранную строку.
-3. В поле "Уровень" введите или выберите значение.
-4. Нажмите Создать.
-5. В списке пометьте выбранную строку.
-6. В поле "Уровень" введите или выберите значение.
-7. Нажмите Создать.
-8. В списке пометьте выбранную строку.
-9. В поле "Уровень" введите или выберите значение.
-10. Нажмите Создать.
-11. В списке пометьте выбранную строку.
-12. В поле "Уровень" введите или выберите значение.
-13. Нажмите Создать.
-14. В списке пометьте выбранную строку.
-15. В поле "Уровень" введите или выберите значение.
+## <a name="add-levels-to-the-compensation-structure"></a><span data-ttu-id="9f3f2-119">Добавление уровней к структуре компенсаций</span><span class="sxs-lookup"><span data-stu-id="9f3f2-119">Add levels to the compensation structure</span></span>
+1. <span data-ttu-id="9f3f2-120">Щелкните "Структура компенсации".</span><span class="sxs-lookup"><span data-stu-id="9f3f2-120">Click Compensation structure.</span></span>
+2. <span data-ttu-id="9f3f2-121">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-121">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="9f3f2-122">В поле "Уровень" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-122">In the Level field, enter or select a value.</span></span>
+4. <span data-ttu-id="9f3f2-123">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-123">Click New.</span></span>
+5. <span data-ttu-id="9f3f2-124">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-124">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="9f3f2-125">В поле "Уровень" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-125">In the Level field, enter or select a value.</span></span>
+7. <span data-ttu-id="9f3f2-126">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-126">Click New.</span></span>
+8. <span data-ttu-id="9f3f2-127">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-127">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="9f3f2-128">В поле "Уровень" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-128">In the Level field, enter or select a value.</span></span>
+10. <span data-ttu-id="9f3f2-129">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-129">Click New.</span></span>
+11. <span data-ttu-id="9f3f2-130">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-130">In the list, mark the selected row.</span></span>
+12. <span data-ttu-id="9f3f2-131">В поле "Уровень" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-131">In the Level field, enter or select a value.</span></span>
+13. <span data-ttu-id="9f3f2-132">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-132">Click New.</span></span>
+14. <span data-ttu-id="9f3f2-133">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-133">In the list, mark the selected row.</span></span>
+15. <span data-ttu-id="9f3f2-134">В поле "Уровень" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-134">In the Level field, enter or select a value.</span></span>
 
-## <a name="fill-in-the-compensation-structure-with-values"></a>Заполнение структуры компенсаций значениями
-1. В списке пометьте выбранную строку.
-    * В этот момент значения компенсации можно вручную ввести в каждое поле в таблице или можно использовать функцию массового изменения для простого заполнения нескольких полей и выполнения основных расчетов.  
-2. Щелкните "Массовое изменение".
-    * Для данной сетки сначала применяется значение средней точки для первого уровня ко всем полям в таблице. Это будет основой для матрицы компенсации.  
-3. В поле "Тип корректировки" выберите вариант.
-4. В поле "Сумма корректировки" введите число.
-5. В списке отметьте все строки или отмените отметку всех строк.
-6. Щелкните "Применить к сетке".
-    * Теперь будет использоваться функция массового пошагового изменения сумм на каждом последующем подуровне на некоторый процент от суммы. В этом примере каждый уровень будет иметь разброс 12,5% между средними точками.  
-7. В поле "Тип корректировки" выберите вариант.
-8. В поле "Сумма корректировки" введите число.
-9. Поиск и выбор требуемой записи в списке.
-10. Поиск и выбор требуемой записи в списке.
-11. Поиск и выбор требуемой записи в списке.
-12. Поиск и выбор требуемой записи в списке.
-13. Щелкните "Применить к сетке".
-14. Поиск и выбор требуемой записи в списке.
-15. Поиск и выбор требуемой записи в списке.
-16. Поиск и выбор требуемой записи в списке.
-17. Щелкните "Применить к сетке".
-18. Поиск и выбор требуемой записи в списке.
-19. Поиск и выбор требуемой записи в списке.
-20. Щелкните "Применить к сетке".
-21. В списке найдите и выберите требуемую запись.
-22. Щелкните "Применить к сетке".
-    * Теперь используем функцию массового изменения для корректировки минимальных и максимальных опорных точек для каждого уровня. В этом примере будет использоваться разброс 50%, чтобы минимальную опорную точку скорректировать на –20%, а максимальную — на +20%.  
-23. В поле "Сумма корректировки" введите число.
-24. В поле "Опорная точка" введите или выберите значение.
-25. В списке отметьте все строки или отмените отметку всех строк.
-26. Щелкните "Применить к сетке".
-27. В поле "Сумма корректировки" введите число.
-28. В поле "Опорная точка" введите или выберите значение.
-29. В списке отметьте все строки или отмените отметку всех строк.
-30. Щелкните "Применить к сетке".
+## <a name="fill-in-the-compensation-structure-with-values"></a><span data-ttu-id="9f3f2-135">Заполнение структуры компенсаций значениями</span><span class="sxs-lookup"><span data-stu-id="9f3f2-135">Fill in the compensation structure with values</span></span>
+1. <span data-ttu-id="9f3f2-136">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-136">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="9f3f2-137">В этот момент значения компенсации можно вручную ввести в каждое поле в таблице или можно использовать функцию массового изменения для простого заполнения нескольких полей и выполнения основных расчетов.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-137">At this point, compensation values can manually be entered into each field in the table, or the Mass change functionality can be used to easily fill in multiple fields and perform basic calculations.</span></span>  
+2. <span data-ttu-id="9f3f2-138">Щелкните "Массовое изменение".</span><span class="sxs-lookup"><span data-stu-id="9f3f2-138">Click Mass change.</span></span>
+    * <span data-ttu-id="9f3f2-139">Для данной сетки сначала применяется значение средней точки для первого уровня ко всем полям в таблице.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-139">For this grid, we'll first apply the value for the midpoint of the first level's to all the fields in the table.</span></span> <span data-ttu-id="9f3f2-140">Это будет основой для матрицы компенсации.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-140">This will be the basis for the compensation matrix.</span></span>  
+3. <span data-ttu-id="9f3f2-141">В поле "Тип корректировки" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-141">In the Adjustment type field, select an option.</span></span>
+4. <span data-ttu-id="9f3f2-142">В поле "Сумма корректировки" введите число.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-142">In the Adjustment amount field, enter a number.</span></span>
+5. <span data-ttu-id="9f3f2-143">В списке отметьте все строки или отмените отметку всех строк.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-143">In the list, mark or unmark all rows.</span></span>
+6. <span data-ttu-id="9f3f2-144">Щелкните "Применить к сетке".</span><span class="sxs-lookup"><span data-stu-id="9f3f2-144">Click Apply to grid.</span></span>
+    * <span data-ttu-id="9f3f2-145">Теперь будет использоваться функция массового пошагового изменения сумм на каждом последующем подуровне на некоторый процент от суммы.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-145">Now we'll use the mass change function to increment the amounts in each subsequent level by a certain percentage or amount.</span></span> <span data-ttu-id="9f3f2-146">В этом примере каждый уровень будет иметь разброс 12,5% между средними точками.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-146">In this example, each grade will have a 12.5% spread between their midpoints.</span></span>  
+7. <span data-ttu-id="9f3f2-147">В поле "Тип корректировки" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-147">In the Adjustment type field, select an option.</span></span>
+8. <span data-ttu-id="9f3f2-148">В поле "Сумма корректировки" введите число.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-148">In the Adjustment amount field, enter a number.</span></span>
+9. <span data-ttu-id="9f3f2-149">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-149">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="9f3f2-150">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-150">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="9f3f2-151">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-151">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="9f3f2-152">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-152">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="9f3f2-153">Щелкните "Применить к сетке".</span><span class="sxs-lookup"><span data-stu-id="9f3f2-153">Click Apply to grid.</span></span>
+14. <span data-ttu-id="9f3f2-154">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-154">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="9f3f2-155">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-155">In the list, find and select the desired record.</span></span>
+16. <span data-ttu-id="9f3f2-156">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-156">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="9f3f2-157">Щелкните "Применить к сетке".</span><span class="sxs-lookup"><span data-stu-id="9f3f2-157">Click Apply to grid.</span></span>
+18. <span data-ttu-id="9f3f2-158">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-158">In the list, find and select the desired record.</span></span>
+19. <span data-ttu-id="9f3f2-159">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-159">In the list, find and select the desired record.</span></span>
+20. <span data-ttu-id="9f3f2-160">Щелкните "Применить к сетке".</span><span class="sxs-lookup"><span data-stu-id="9f3f2-160">Click Apply to grid.</span></span>
+21. <span data-ttu-id="9f3f2-161">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-161">In the list, find and select the desired record.</span></span>
+22. <span data-ttu-id="9f3f2-162">Щелкните "Применить к сетке".</span><span class="sxs-lookup"><span data-stu-id="9f3f2-162">Click Apply to grid.</span></span>
+    * <span data-ttu-id="9f3f2-163">Теперь используем функцию массового изменения для корректировки минимальных и максимальных опорных точек для каждого уровня.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-163">Now we'll use the mass change function to adjust the Minimum and Maximum reference points for each level.</span></span> <span data-ttu-id="9f3f2-164">В этом примере будет использоваться разброс 50%, чтобы минимальную опорную точку скорректировать на –20%, а максимальную — на +20%.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-164">This example will use a 50% spread so the Minimum reference point will be adjusted -20% and the Maximum will be adjusted +20%.</span></span>  
+23. <span data-ttu-id="9f3f2-165">В поле "Сумма корректировки" введите число.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-165">In the Adjustment amount field, enter a number.</span></span>
+24. <span data-ttu-id="9f3f2-166">В поле "Опорная точка" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-166">In the Reference point field, enter or select a value.</span></span>
+25. <span data-ttu-id="9f3f2-167">В списке отметьте все строки или отмените отметку всех строк.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-167">In the list, mark or unmark all rows.</span></span>
+26. <span data-ttu-id="9f3f2-168">Щелкните "Применить к сетке".</span><span class="sxs-lookup"><span data-stu-id="9f3f2-168">Click Apply to grid.</span></span>
+27. <span data-ttu-id="9f3f2-169">В поле "Сумма корректировки" введите число.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-169">In the Adjustment amount field, enter a number.</span></span>
+28. <span data-ttu-id="9f3f2-170">В поле "Опорная точка" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-170">In the Reference point field, enter or select a value.</span></span>
+29. <span data-ttu-id="9f3f2-171">В списке отметьте все строки или отмените отметку всех строк.</span><span class="sxs-lookup"><span data-stu-id="9f3f2-171">In the list, mark or unmark all rows.</span></span>
+30. <span data-ttu-id="9f3f2-172">Щелкните "Применить к сетке".</span><span class="sxs-lookup"><span data-stu-id="9f3f2-172">Click Apply to grid.</span></span>
 
 

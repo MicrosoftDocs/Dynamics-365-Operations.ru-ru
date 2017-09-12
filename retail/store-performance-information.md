@@ -19,33 +19,33 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 37baac8d3160b95f75dd11197fc60060450c0680
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5cb5881cdb9c769bfc4272da85bc1c886a36705b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="analyze-store-performance"></a>Анализ производительности магазина
+# <a name="analyze-store-performance"></a><span data-ttu-id="7e2b5-103">Анализ производительности магазина</span><span class="sxs-lookup"><span data-stu-id="7e2b5-103">Analyze store performance</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-В этой статье описывается, как можно использовать размещенные в памяти аналитики и аналитики реального времени для получения доступа, изучения и анализа эффективности магазина на основе данных Microsoft Dynamics 365 for Retail. 
+<span data-ttu-id="7e2b5-104">В этой статье описывается, как можно использовать размещенные в памяти аналитики и аналитики реального времени для получения доступа, изучения и анализа эффективности магазина на основе данных Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="7e2b5-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Retail data.</span></span> 
 
-В рамках использования Microsoft Dynamics 365 for Retail пользователи могут проанализировать эффективность работы магазина в реальном времени на разных уровнях иерархии организации за выбранный период, открыв готовый отчет **Сводка канала** в любом из следующих расположений.
+<span data-ttu-id="7e2b5-105">В рамках использования Microsoft Dynamics 365 for Retail пользователи могут проанализировать эффективность работы магазина в реальном времени на разных уровнях иерархии организации за выбранный период, открыв готовый отчет **Сводка канала** в любом из следующих расположений.</span><span class="sxs-lookup"><span data-stu-id="7e2b5-105">As part of Dynamics 365 for Retail, users can study store performance in real time across different levels of the organization hierarchy over a selected period by opening the out-of-box **Channel summary** report from any of the following locations:</span></span>
 
--   Рабочая область **Руководство розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Сводный отчет по каналу**
--   Рабочая область **Финансовая информация розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Финансовая информация розничного магазина** &gt; **Отчеты** &gt; **Сводный отчет по каналу**
--   Раздел **Запросы и отчеты** &gt; **Розничная торговля** &gt; **Запросы и отчеты** &gt; **Отчеты о продажах** &gt; **Сводный отчет по каналу**
+-   <span data-ttu-id="7e2b5-106">Рабочая область **Руководство розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Сводный отчет по каналу**</span><span class="sxs-lookup"><span data-stu-id="7e2b5-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
+-   <span data-ttu-id="7e2b5-107">Рабочая область **Финансовая информация розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Финансовая информация розничного магазина** &gt; **Отчеты** &gt; **Сводный отчет по каналу**</span><span class="sxs-lookup"><span data-stu-id="7e2b5-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
+-   <span data-ttu-id="7e2b5-108">Раздел **Запросы и отчеты** &gt; **Розничная торговля** &gt; **Запросы и отчеты** &gt; **Отчеты о продажах** &gt; **Сводный отчет по каналу**</span><span class="sxs-lookup"><span data-stu-id="7e2b5-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
 
-Этот отчет содержит снимок следующих сводок об эффективности работы магазина.
+<span data-ttu-id="7e2b5-109">Этот отчет содержит снимок следующих сводок об эффективности работы магазина.</span><span class="sxs-lookup"><span data-stu-id="7e2b5-109">This report provides a snapshot of following summaries as part of store performance:</span></span>
 
--   Сводка по валовым продажам
--   Сводка по типу платежного средства
--   Сводка по налогам
--   Сводка переопределения цены
--   Сводка по скидке
+-   <span data-ttu-id="7e2b5-110">Сводка по валовым продажам</span><span class="sxs-lookup"><span data-stu-id="7e2b5-110">Gross sales summary</span></span>
+-   <span data-ttu-id="7e2b5-111">Сводка по типу платежного средства</span><span class="sxs-lookup"><span data-stu-id="7e2b5-111">Tender type summary</span></span>
+-   <span data-ttu-id="7e2b5-112">Сводка по налогам</span><span class="sxs-lookup"><span data-stu-id="7e2b5-112">Tax summary</span></span>
+-   <span data-ttu-id="7e2b5-113">Сводка переопределения цены</span><span class="sxs-lookup"><span data-stu-id="7e2b5-113">Price overrides summary</span></span>
+-   <span data-ttu-id="7e2b5-114">Сводка по скидке</span><span class="sxs-lookup"><span data-stu-id="7e2b5-114">Discounts summary</span></span>
 
 
 

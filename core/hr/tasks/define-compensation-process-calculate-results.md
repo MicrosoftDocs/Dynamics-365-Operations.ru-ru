@@ -16,89 +16,89 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 34a6485c6f4c11d794fbdb5f4d33f22c0e577221
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ba28cf1fa6a8e9a4497d3bac1a2161098ec53db1
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-compensation-process-and-calculate-results"></a>Определение процесса компенсации и расчет результатов
+# <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="b4679-103">Определение процесса компенсации и расчет результатов</span><span class="sxs-lookup"><span data-stu-id="b4679-103">Define compensation process and calculate results</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Процессы компенсации используются для определения новых сумм компенсации и вознаграждения для сотрудников, участвующих в фиксированных и переменных планах компенсаций. Процессы компенсации могут выполняться несколько раз для проведения анализа "что- если", чтобы проверить правильность всех изменений и параметров. Эта процедура создает процесс компенсации, выполняет процесс и показывает результаты. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
+<span data-ttu-id="b4679-104">Процессы компенсации используются для определения новых сумм компенсации и вознаграждения для сотрудников, участвующих в фиксированных и переменных планах компенсаций.</span><span class="sxs-lookup"><span data-stu-id="b4679-104">Compensation processes are used to determine new compensation amounts and awards for employees enrolled in fixed and variable compensation plans.</span></span> <span data-ttu-id="b4679-105">Процессы компенсации могут выполняться несколько раз для проведения анализа "что- если", чтобы проверить правильность всех изменений и параметров.</span><span class="sxs-lookup"><span data-stu-id="b4679-105">Compensation processes can be run multiple times to perform "what-if" analysis, to verify all changes and settings are correct.</span></span> <span data-ttu-id="b4679-106">Эта процедура создает процесс компенсации, выполняет процесс и показывает результаты.</span><span class="sxs-lookup"><span data-stu-id="b4679-106">This procedure will create a compensation process, run the process, and view the results.</span></span> <span data-ttu-id="b4679-107">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="b4679-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-compensation-process"></a>Создание процесса компенсации
-1. Перейдите в "Управление персоналом" > "Компенсация" > "Процесс" > "Процессы компенсации".
-2. Щелкните "Создать".
-3. В поле "Процесс" введите значение.
-4. В поле "Описание" введите значение.
-5. В поле "Тип процесса" выберите один из вариантов.
-    * Цикл задает период времени оценки для определения компенсации. Оценка учитывает, какие позиции занимали сотрудники, какие показатели эффективности нужно включить, расчет процента времени, когда сотрудник работал в течение цикла и т. д. Примером даты начала цикла может быть первый день прошлого финансового года.  
-6. В поле "Начало цикла" введите дату.
-    * Дата окончания цикла важна, поскольку это дата, используемая для определения того, какие сотрудники активно использовались и были включены в один или несколько планов компенсации.  
-7. В поле "Конец цикла" введите дату.
-    * Дата вступления в силу проводки — это дата, когда должны вступить в силу новые тарифы компенсации. Многие компании включают несколько месяцев между завершением цикла и временем вступления новых тарифов компенсации в силу. Дополнительное время используется для обработки и пересмотра новой компенсации.  
-8. В поле "Дата вступления в силу проводки" введите дату.
-    * Дата момента времени используется для планов переменных компенсаций, которые определяют сумму вознаграждения сотрудника на основе их уровня компенсации в данный момент времени.  
-    * Дата приема на работу с пропорциональным распределением фиксированной оплаты используется в планах фиксированных компенсаций с правилом найма "Процент".  Сотрудники, нанятых между началом цикла и датой приема на работу с пропорциональным распределением фиксированной оплаты, получат 100% из рассчитанного повышения компенсации вместо пропорционального процента.  
-9. В поле "Дата приема на работу с пропорциональным распределением фиксированной оплаты" введите дату.
-    * Крайний срок просмотра — это дата, к которой все результаты процессов должны быть просмотрены, чтобы их можно было загрузить в записи компенсаций сотрудника до даты вступления в силу проводки. Это поле используется только для информации.  
-10. В поле "Просмотр крайнего срока" введите дату.
-11. Нажмите кнопку "Сохранить".
+## <a name="create-a-compensation-process"></a><span data-ttu-id="b4679-108">Создание процесса компенсации</span><span class="sxs-lookup"><span data-stu-id="b4679-108">Create a compensation process</span></span>
+1. <span data-ttu-id="b4679-109">Перейдите в "Управление персоналом" > "Компенсация" > "Процесс" > "Процессы компенсации".</span><span class="sxs-lookup"><span data-stu-id="b4679-109">Go to Human resources > Compensation > Process > Compensation processes.</span></span>
+2. <span data-ttu-id="b4679-110">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="b4679-110">Click New.</span></span>
+3. <span data-ttu-id="b4679-111">В поле "Процесс" введите значение.</span><span class="sxs-lookup"><span data-stu-id="b4679-111">In the Process field, type a value.</span></span>
+4. <span data-ttu-id="b4679-112">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="b4679-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="b4679-113">В поле "Тип процесса" выберите один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="b4679-113">In the Process type field, select an option.</span></span>
+    * <span data-ttu-id="b4679-114">Цикл задает период времени оценки для определения компенсации.</span><span class="sxs-lookup"><span data-stu-id="b4679-114">A cycle specifies the time period evaluated to determine compensation.</span></span> <span data-ttu-id="b4679-115">Оценка учитывает, какие позиции занимали сотрудники, какие показатели эффективности нужно включить, расчет процента времени, когда сотрудник работал в течение цикла и т. д.</span><span class="sxs-lookup"><span data-stu-id="b4679-115">The evaluation considers which positions were held by employees, which performance ratings to include, calculation of the percentage of time the employee was employed during the cycle, and more.</span></span> <span data-ttu-id="b4679-116">Примером даты начала цикла может быть первый день прошлого финансового года.</span><span class="sxs-lookup"><span data-stu-id="b4679-116">An example of a cycle start date might be the first day of the past fiscal year.</span></span>  
+6. <span data-ttu-id="b4679-117">В поле "Начало цикла" введите дату.</span><span class="sxs-lookup"><span data-stu-id="b4679-117">In the Cycle start field, enter a date.</span></span>
+    * <span data-ttu-id="b4679-118">Дата окончания цикла важна, поскольку это дата, используемая для определения того, какие сотрудники активно использовались и были включены в один или несколько планов компенсации.</span><span class="sxs-lookup"><span data-stu-id="b4679-118">The cycle end date is  important because it is the date used to determine which employees were actively employed and enrolled in one or more compensation plans.</span></span>  
+7. <span data-ttu-id="b4679-119">В поле "Конец цикла" введите дату.</span><span class="sxs-lookup"><span data-stu-id="b4679-119">In the Cycle end field, enter a date.</span></span>
+    * <span data-ttu-id="b4679-120">Дата вступления в силу проводки — это дата, когда должны вступить в силу новые тарифы компенсации.</span><span class="sxs-lookup"><span data-stu-id="b4679-120">The transaction active date is the date the new compensation rates should take effect.</span></span> <span data-ttu-id="b4679-121">Многие компании включают несколько месяцев между завершением цикла и временем вступления новых тарифов компенсации в силу.</span><span class="sxs-lookup"><span data-stu-id="b4679-121">Many companies include a few months between their end of a cycle and the time the new compensation rates go into effect.</span></span> <span data-ttu-id="b4679-122">Дополнительное время используется для обработки и пересмотра новой компенсации.</span><span class="sxs-lookup"><span data-stu-id="b4679-122">The additional time is used for processing and reviewing the new compensation.</span></span>  
+8. <span data-ttu-id="b4679-123">В поле "Дата вступления в силу проводки" введите дату.</span><span class="sxs-lookup"><span data-stu-id="b4679-123">In the Transaction active date field, enter a date.</span></span>
+    * <span data-ttu-id="b4679-124">Дата момента времени используется для планов переменных компенсаций, которые определяют сумму вознаграждения сотрудника на основе их уровня компенсации в данный момент времени.</span><span class="sxs-lookup"><span data-stu-id="b4679-124">The point-in-time date is used for variable compensation plans that determine an employee's award amount based on their compensation rate at this point in time.</span></span>  
+    * <span data-ttu-id="b4679-125">Дата приема на работу с пропорциональным распределением фиксированной оплаты используется в планах фиксированных компенсаций с правилом найма "Процент".</span><span class="sxs-lookup"><span data-stu-id="b4679-125">The fixed pay pro rated hire date is used with fixed compensation plans with a hire rule of Percent.</span></span>  <span data-ttu-id="b4679-126">Сотрудники, нанятых между началом цикла и датой приема на работу с пропорциональным распределением фиксированной оплаты, получат 100% из рассчитанного повышения компенсации вместо пропорционального процента.</span><span class="sxs-lookup"><span data-stu-id="b4679-126">Employees who are hired between the cycle start and the fixed pay pro rated hire date will receive 100% of their calculated compensation increase, instead of pro-rated percentage.</span></span>  
+9. <span data-ttu-id="b4679-127">В поле "Дата приема на работу с пропорциональным распределением фиксированной оплаты" введите дату.</span><span class="sxs-lookup"><span data-stu-id="b4679-127">In the Fixed pay pro rated hire date field, enter a date.</span></span>
+    * <span data-ttu-id="b4679-128">Крайний срок просмотра — это дата, к которой все результаты процессов должны быть просмотрены, чтобы их можно было загрузить в записи компенсаций сотрудника до даты вступления в силу проводки.</span><span class="sxs-lookup"><span data-stu-id="b4679-128">The review deadline is the date by which all process results should be reviewed so that they can be loaded into an employee's compensation record before the transaction active date.</span></span> <span data-ttu-id="b4679-129">Это поле используется только для информации.</span><span class="sxs-lookup"><span data-stu-id="b4679-129">This field is informational only.</span></span>  
+10. <span data-ttu-id="b4679-130">В поле "Просмотр крайнего срока" введите дату.</span><span class="sxs-lookup"><span data-stu-id="b4679-130">In the Review deadline field, enter a date.</span></span>
+11. <span data-ttu-id="b4679-131">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="b4679-131">Click Save.</span></span>
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Настройка планов компенсации и действий процесса компенсации
-1. Нажмите кнопку Настройка.
-    * Страница настройки используется для выбора того, какие планы нужно обрабатывать в ходе этого процесса компенсации, а также того, какие действия должны предприниматься для каждого плана.  
-2. В поле "План" введите или выберите значение.
-3. Нажмите кнопку "Сохранить".
-4. Нажмите кнопку Добавить.
-5. В поле "Действие" выберите тип собственного капитала действия.
-6. Нажмите кнопку Добавить.
-7. В поле "Действие" выберите тип заслуги действия.
-    * Действия компенсации можно "связать" друг с другом с помощью поля "Использовать предыдущий результат", чтобы показать, должна ли базовая заработная плата сотрудников или результат предыдущего действия использоваться в качестве начальной точки для расчета этого действия.  
-8. Выберите значение "Да" в поле "Использовать предыдущий результат".
-9. Нажмите кнопку Добавить.
-10. В поле "Действие" выберите тип действия "Общий".
-    * Различные типы действий компенсации включают различные поля. Для типа действия компенсации "Общее" можно указать процент или сумму увеличения.  
-11. Выберите значение параметра "Выберите сумму увеличения".
-12. В поле "Величина повышения" введите число.
-13. Нажмите кнопку Добавить.
-14. В поле "Действие" выберите тип развития действия.
-    * Типы действий "Развитие" и "Изменение другого уровня" позволяют пользователям вручную вносить корректировки в компенсации сотрудников. Можно включить рекомендации для этих типов действий, а также как и других типов действий, чтобы вы могли вводить новое значение рекомендуемой компенсации для сотрудника.  
-15. Нажмите кнопку Добавить.
-16. В поле "Тип" выберите один из вариантов.
-    * Фиксированные и переменные планы компенсации могут запускаться в одном и том же процессе компенсации.  
-17. В поле "План" введите или выберите значение.
-    * Используйте флажок "Активировать систему оплаты труда по производительности", чтобы определять, должны ли суммы фиксированных и переменных компенсаций корректироваться на основе показателя эффективности сотрудника.  
-    * Зависимость можно переопределить на основе планов переменной компенсации.  
-18. Нажмите кнопку "Сохранить".
-19. Нажмите кнопку Добавить.
-20. Закройте страницу.
+## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a><span data-ttu-id="b4679-132">Настройка планов компенсации и действий процесса компенсации</span><span class="sxs-lookup"><span data-stu-id="b4679-132">Setup the compensation plans and actions for a compensation process</span></span>
+1. <span data-ttu-id="b4679-133">Нажмите кнопку Настройка.</span><span class="sxs-lookup"><span data-stu-id="b4679-133">Click Setup.</span></span>
+    * <span data-ttu-id="b4679-134">Страница настройки используется для выбора того, какие планы нужно обрабатывать в ходе этого процесса компенсации, а также того, какие действия должны предприниматься для каждого плана.</span><span class="sxs-lookup"><span data-stu-id="b4679-134">The Setup page is used to select which plans to process as part of this compensation process, as well as which actions should be taken against each plan.</span></span>  
+2. <span data-ttu-id="b4679-135">В поле "План" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="b4679-135">In the Plan field, enter or select a value.</span></span>
+3. <span data-ttu-id="b4679-136">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="b4679-136">Click Save.</span></span>
+4. <span data-ttu-id="b4679-137">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="b4679-137">Click Add.</span></span>
+5. <span data-ttu-id="b4679-138">В поле "Действие" выберите тип собственного капитала действия.</span><span class="sxs-lookup"><span data-stu-id="b4679-138">In the Action field, select an Equity type of action.</span></span>
+6. <span data-ttu-id="b4679-139">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="b4679-139">Click Add.</span></span>
+7. <span data-ttu-id="b4679-140">В поле "Действие" выберите тип заслуги действия.</span><span class="sxs-lookup"><span data-stu-id="b4679-140">In the Action field, select a Merit type of action.</span></span>
+    * <span data-ttu-id="b4679-141">Действия компенсации можно "связать" друг с другом с помощью поля "Использовать предыдущий результат", чтобы показать, должна ли базовая заработная плата сотрудников или результат предыдущего действия использоваться в качестве начальной точки для расчета этого действия.</span><span class="sxs-lookup"><span data-stu-id="b4679-141">Compensation actions can be "chained" together using the Use previous result field to indicate whether the selected action should use the employees base pay or the result of the previous action as the starting point for this action's calculation.</span></span>  
+8. <span data-ttu-id="b4679-142">Выберите значение "Да" в поле "Использовать предыдущий результат".</span><span class="sxs-lookup"><span data-stu-id="b4679-142">Select Yes in the Use previous result field.</span></span>
+9. <span data-ttu-id="b4679-143">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="b4679-143">Click Add.</span></span>
+10. <span data-ttu-id="b4679-144">В поле "Действие" выберите тип действия "Общий".</span><span class="sxs-lookup"><span data-stu-id="b4679-144">In the Action field, select a General type of Action.</span></span>
+    * <span data-ttu-id="b4679-145">Различные типы действий компенсации включают различные поля.</span><span class="sxs-lookup"><span data-stu-id="b4679-145">Different compensation action types enable different fields.</span></span> <span data-ttu-id="b4679-146">Для типа действия компенсации "Общее" можно указать процент или сумму увеличения.</span><span class="sxs-lookup"><span data-stu-id="b4679-146">For a General compensation action type, an increase percent or increase amount can be specified.</span></span>  
+11. <span data-ttu-id="b4679-147">Выберите значение параметра "Выберите сумму увеличения".</span><span class="sxs-lookup"><span data-stu-id="b4679-147">Select the Select increase amount option.</span></span>
+12. <span data-ttu-id="b4679-148">В поле "Величина повышения" введите число.</span><span class="sxs-lookup"><span data-stu-id="b4679-148">In the Increase amount field, enter a number.</span></span>
+13. <span data-ttu-id="b4679-149">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="b4679-149">Click Add.</span></span>
+14. <span data-ttu-id="b4679-150">В поле "Действие" выберите тип развития действия.</span><span class="sxs-lookup"><span data-stu-id="b4679-150">In the Action field, select a Promotion type of Action.</span></span>
+    * <span data-ttu-id="b4679-151">Типы действий "Развитие" и "Изменение другого уровня" позволяют пользователям вручную вносить корректировки в компенсации сотрудников.</span><span class="sxs-lookup"><span data-stu-id="b4679-151">Promotion and Other level change action types enable users to make manual adjustments to employee compensation.</span></span> <span data-ttu-id="b4679-152">Можно включить рекомендации для этих типов действий, а также как и других типов действий, чтобы вы могли вводить новое значение рекомендуемой компенсации для сотрудника.</span><span class="sxs-lookup"><span data-stu-id="b4679-152">Recommendations can be enabled for these action types, as well as other action types to enable you to enter a new recommended compensation value for an employee.</span></span>  
+15. <span data-ttu-id="b4679-153">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="b4679-153">Click Add.</span></span>
+16. <span data-ttu-id="b4679-154">В поле "Тип" выберите один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="b4679-154">In the Type field, select an option.</span></span>
+    * <span data-ttu-id="b4679-155">Фиксированные и переменные планы компенсации могут запускаться в одном и том же процессе компенсации.</span><span class="sxs-lookup"><span data-stu-id="b4679-155">Fixed and variable compensation plans can be run in the same compensation process.</span></span>  
+17. <span data-ttu-id="b4679-156">В поле "План" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="b4679-156">In the Plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="b4679-157">Используйте флажок "Активировать систему оплаты труда по производительности", чтобы определять, должны ли суммы фиксированных и переменных компенсаций корректироваться на основе показателя эффективности сотрудника.</span><span class="sxs-lookup"><span data-stu-id="b4679-157">Use the Enable pay for performance check box to determined whether fixed and variable compensation amounts should be adjusted based on the employee's performance rating.</span></span>  
+    * <span data-ttu-id="b4679-158">Зависимость можно переопределить на основе планов переменной компенсации.</span><span class="sxs-lookup"><span data-stu-id="b4679-158">Leverage can be overridden on variable compensation plans.</span></span>  
+18. <span data-ttu-id="b4679-159">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="b4679-159">Click Save.</span></span>
+19. <span data-ttu-id="b4679-160">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="b4679-160">Click Add.</span></span>
+20. <span data-ttu-id="b4679-161">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="b4679-161">Close the page.</span></span>
 
-## <a name="run-the-compensation-process"></a>Запуск процесса компенсации
-1. Щелкните "Запустить процесс".
-    * Элемент управления "Показать результаты обработки" позволяет просматривать сообщения обработки после завершения обработки компенсации.  
-2. Выберите значение "Да" в поле "Показать результаты обработки".
-3. Нажмите кнопку "OК".
+## <a name="run-the-compensation-process"></a><span data-ttu-id="b4679-162">Запуск процесса компенсации</span><span class="sxs-lookup"><span data-stu-id="b4679-162">Run the compensation process</span></span>
+1. <span data-ttu-id="b4679-163">Щелкните "Запустить процесс".</span><span class="sxs-lookup"><span data-stu-id="b4679-163">Click Run process.</span></span>
+    * <span data-ttu-id="b4679-164">Элемент управления "Показать результаты обработки" позволяет просматривать сообщения обработки после завершения обработки компенсации.</span><span class="sxs-lookup"><span data-stu-id="b4679-164">The Show processing results control lets you view processing messages for the complete compensation process when processing has finished.</span></span>  
+2. <span data-ttu-id="b4679-165">Выберите значение "Да" в поле "Показать результаты обработки".</span><span class="sxs-lookup"><span data-stu-id="b4679-165">Select Yes in the Show processing results field.</span></span>
+3. <span data-ttu-id="b4679-166">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="b4679-166">Click OK.</span></span>
 
-## <a name="view-the-results"></a>Просмотр результатов
-1. Щелкните "Результаты обработки".
-2. Щелкните "Результаты сотрудников".
-3. В списке найдите и выберите требуемую запись.
-4. Разверните раздел "Постоянное вознаграждение".
-    * Разверните экспресс-вкладки для просмотра результатов процесса. Если для действия компенсации был включен режим "Включить рекомендации", для этого действия будут включены поля "Рекомендация".  
-5. В списке найдите и выберите требуемую запись.
-    * Результаты для одного сотрудника можно просмотреть, нажав кнопку "Просмотр результатов".  
-    * Вычисленную сумму компенсации можно перезаписать путем корректировки процента или суммы повышения в полях "Рекомендация".  
-6. В поле рекомендуемого процента введите число.
-7. В списке найдите и выберите требуемую запись.
-8. В поле рекомендуемого процента введите число.
-    * Функция "Пересчет" позволяет пропустить все изменения, внесенные в существующую запись, и создать новый результат компенсации для выбранного сотрудника.  
-    * Когда все изменения для сотрудника завершены, измените состояние на "Одобрено".  
-9. Щелкните "Изменить статус".
-10. Щелкните "Одобрить".
-    * После утверждения записи ее можно загрузить в официальную запись компенсаций сотрудника. Новая компенсация будет действовать на дату проводки, установленную для процесса компенсации.  
+## <a name="view-the-results"></a><span data-ttu-id="b4679-167">Просмотр результатов</span><span class="sxs-lookup"><span data-stu-id="b4679-167">View the results</span></span>
+1. <span data-ttu-id="b4679-168">Щелкните "Результаты обработки".</span><span class="sxs-lookup"><span data-stu-id="b4679-168">Click Process results.</span></span>
+2. <span data-ttu-id="b4679-169">Щелкните "Результаты сотрудников".</span><span class="sxs-lookup"><span data-stu-id="b4679-169">Click Employee results.</span></span>
+3. <span data-ttu-id="b4679-170">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="b4679-170">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="b4679-171">Разверните раздел "Постоянное вознаграждение".</span><span class="sxs-lookup"><span data-stu-id="b4679-171">Expand the Fixed compensation section.</span></span>
+    * <span data-ttu-id="b4679-172">Разверните экспресс-вкладки для просмотра результатов процесса.</span><span class="sxs-lookup"><span data-stu-id="b4679-172">Expand the FastTabs to view the results of the process.</span></span> <span data-ttu-id="b4679-173">Если для действия компенсации был включен режим "Включить рекомендации", для этого действия будут включены поля "Рекомендация".</span><span class="sxs-lookup"><span data-stu-id="b4679-173">If Enable recommendations was marked for a compensation action, the Recommendation fields will be enabled for that action.</span></span>  
+5. <span data-ttu-id="b4679-174">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="b4679-174">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="b4679-175">Результаты для одного сотрудника можно просмотреть, нажав кнопку "Просмотр результатов".</span><span class="sxs-lookup"><span data-stu-id="b4679-175">The results for a single employee can be viewed by clicking the View results button.</span></span>  
+    * <span data-ttu-id="b4679-176">Вычисленную сумму компенсации можно перезаписать путем корректировки процента или суммы повышения в полях "Рекомендация".</span><span class="sxs-lookup"><span data-stu-id="b4679-176">You can overwrite the calculated compensation amount by adjusting the percent or the increase amount in the Recommendation fields.</span></span>  
+6. <span data-ttu-id="b4679-177">В поле рекомендуемого процента введите число.</span><span class="sxs-lookup"><span data-stu-id="b4679-177">In the percent recommended field, enter a number.</span></span>
+7. <span data-ttu-id="b4679-178">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="b4679-178">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="b4679-179">В поле рекомендуемого процента введите число.</span><span class="sxs-lookup"><span data-stu-id="b4679-179">In the percent recommended field, enter a number.</span></span>
+    * <span data-ttu-id="b4679-180">Функция "Пересчет" позволяет пропустить все изменения, внесенные в существующую запись, и создать новый результат компенсации для выбранного сотрудника.</span><span class="sxs-lookup"><span data-stu-id="b4679-180">Recalculate can be used to ignore any changes made to the existing record and generate a new compensation result for the selected employee.</span></span>  
+    * <span data-ttu-id="b4679-181">Когда все изменения для сотрудника завершены, измените состояние на "Одобрено".</span><span class="sxs-lookup"><span data-stu-id="b4679-181">When all changes are complete for an employee, change the status to Approved.</span></span>  
+9. <span data-ttu-id="b4679-182">Щелкните "Изменить статус".</span><span class="sxs-lookup"><span data-stu-id="b4679-182">Click Change status.</span></span>
+10. <span data-ttu-id="b4679-183">Щелкните "Одобрить".</span><span class="sxs-lookup"><span data-stu-id="b4679-183">Click Approved.</span></span>
+    * <span data-ttu-id="b4679-184">После утверждения записи ее можно загрузить в официальную запись компенсаций сотрудника.</span><span class="sxs-lookup"><span data-stu-id="b4679-184">After the record has been approved it can be loaded to the employee's official compensation record.</span></span> <span data-ttu-id="b4679-185">Новая компенсация будет действовать на дату проводки, установленную для процесса компенсации.</span><span class="sxs-lookup"><span data-stu-id="b4679-185">The new compensation will be effective as of the transaction date set on the compensation process.</span></span>  
 
 

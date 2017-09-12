@@ -16,35 +16,35 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3003a0dfa30c981eacfd5a643a1c5e902c2ba45d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5735cabd5a1eab23fbe2b92cf1395110cb33a93c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Управление источником данных для книги учета затрат
+# <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a><span data-ttu-id="e3ce7-103">Управление источником данных для книги учета затрат</span><span class="sxs-lookup"><span data-stu-id="e3ce7-103">Manage a data source for the cost accounting ledger</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура используется для управления источником данных главной книги для книги учета затрат. Перед выполнением этой задачи не забудьте воспроизвести проводники по задачам "Создание книги учета затрат" и "Определение единиц управления затратами". В этой записи используется компания с демонстрационными данными USP2.
+<span data-ttu-id="e3ce7-104">Эта процедура используется для управления источником данных главной книги для книги учета затрат.</span><span class="sxs-lookup"><span data-stu-id="e3ce7-104">Use this procedure to manage the general ledger data source for a cost accounting ledger.</span></span> <span data-ttu-id="e3ce7-105">Перед выполнением этой задачи не забудьте воспроизвести проводники по задачам "Создание книги учета затрат" и "Определение единиц управления затратами".</span><span class="sxs-lookup"><span data-stu-id="e3ce7-105">Before you complete this task, make sure that you play the "Create a cost accounting ledger" and "Define cost control units" task guides.</span></span> <span data-ttu-id="e3ce7-106">В этой записи используется компания с демонстрационными данными USP2.</span><span class="sxs-lookup"><span data-stu-id="e3ce7-106">This recording uses the USP2 demo data company.</span></span>
 
-1. Перейдите в раздел "Учет затрат" > "Настройка главной книги" > "Книги учета затрат".
-2. В списке найдите и выберите требуемую запись.
-3. Щелкните "Фактические версии".
-4. В области действий щелкните "Управлять".
-5. Щелкните "Главная книга".
-6. Щелкните "Создать".
-7. В поле "Имя" введите значение.
-8. В поле "Поставщик данных" введите или выберите значение.
-    * В данном примере выберите "Dynamics 365 for Finance and Operations  — записи главной книги".  
-9. В поле "Аналитика элемента затрат" введите или выберите значение.
-    * В этом примере выберите "Элементы затрат".  
-10. Нажмите кнопку "Сохранить".
-11. Щелкните "Настройка поставщика данных".
-12. В поле "Юридическое лицо" введите или выберите значение.
-    * В этом примере выберите USP2.  
-13. Щелкните "Создать".
-14. В поле "Слой разноски" выберите "Текущий".
-15. Нажмите кнопку "OК".
+1. <span data-ttu-id="e3ce7-107">Перейдите в раздел "Учет затрат" > "Настройка главной книги" > "Книги учета затрат".</span><span class="sxs-lookup"><span data-stu-id="e3ce7-107">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="e3ce7-108">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="e3ce7-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="e3ce7-109">Щелкните "Фактические версии".</span><span class="sxs-lookup"><span data-stu-id="e3ce7-109">Click Actual versions.</span></span>
+4. <span data-ttu-id="e3ce7-110">В области действий щелкните "Управлять".</span><span class="sxs-lookup"><span data-stu-id="e3ce7-110">On the Action Pane, click Manage.</span></span>
+5. <span data-ttu-id="e3ce7-111">Щелкните "Главная книга".</span><span class="sxs-lookup"><span data-stu-id="e3ce7-111">Click General ledger.</span></span>
+6. <span data-ttu-id="e3ce7-112">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="e3ce7-112">Click New.</span></span>
+7. <span data-ttu-id="e3ce7-113">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="e3ce7-113">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="e3ce7-114">В поле "Поставщик данных" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="e3ce7-114">In the Data provider field, enter or select a value.</span></span>
+    * <span data-ttu-id="e3ce7-115">В данном примере выберите "Dynamics 365 for Finance and Operations  — записи главной книги".</span><span class="sxs-lookup"><span data-stu-id="e3ce7-115">For this example, select Dynamics 365 for Finance and Operations - General ledger entries.</span></span>  
+9. <span data-ttu-id="e3ce7-116">В поле "Аналитика элемента затрат" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="e3ce7-116">In the Cost element dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="e3ce7-117">В этом примере выберите "Элементы затрат".</span><span class="sxs-lookup"><span data-stu-id="e3ce7-117">For this example, select Cost elements.</span></span>  
+10. <span data-ttu-id="e3ce7-118">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="e3ce7-118">Click Save.</span></span>
+11. <span data-ttu-id="e3ce7-119">Щелкните "Настройка поставщика данных".</span><span class="sxs-lookup"><span data-stu-id="e3ce7-119">Click Configure data provider.</span></span>
+12. <span data-ttu-id="e3ce7-120">В поле "Юридическое лицо" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="e3ce7-120">In the Legal entity field, enter or select a value.</span></span>
+    * <span data-ttu-id="e3ce7-121">В этом примере выберите USP2.</span><span class="sxs-lookup"><span data-stu-id="e3ce7-121">For this example, select USP2.</span></span>  
+13. <span data-ttu-id="e3ce7-122">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="e3ce7-122">Click New.</span></span>
+14. <span data-ttu-id="e3ce7-123">В поле "Слой разноски" выберите "Текущий".</span><span class="sxs-lookup"><span data-stu-id="e3ce7-123">In the Posting layer field, select Current.</span></span>
+15. <span data-ttu-id="e3ce7-124">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="e3ce7-124">Click OK.</span></span>
 
 

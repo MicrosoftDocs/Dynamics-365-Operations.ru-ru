@@ -16,29 +16,29 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: a40da4263e7e770ce84a269ceaf60a8ca3f5382a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e3863ef8d5d334c6d12e77e61d50043e5d053464
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-sales-tax-reporting-codes"></a>Настройка кодов налоговой отчетности
+# <a name="set-up-sales-tax-reporting-codes"></a><span data-ttu-id="63d50-103">Настройка кодов налоговой отчетности</span><span class="sxs-lookup"><span data-stu-id="63d50-103">Set up sales tax reporting codes</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эти коды налоговой отчетности ссылаются на номер поля в налоговом отчете. Они используются в макетах отчетов для определенной страны и в отчете "Налоговые платежи по коду" для печати сумм налогов на период сопоставления, суммированных по коду отчетности. После создания кодов налоговой отчетности на них можно ссылаться на экспресс-вкладке "Настройка отчетов" на странице "Налоговый код". 
+<span data-ttu-id="63d50-104">Эти коды налоговой отчетности ссылаются на номер поля в налоговом отчете.</span><span class="sxs-lookup"><span data-stu-id="63d50-104">The Sales tax reporting codes refer to a field number on a sales tax report.</span></span> <span data-ttu-id="63d50-105">Они используются в макетах отчетов для определенной страны и в отчете "Налоговые платежи по коду" для печати сумм налогов на период сопоставления, суммированных по коду отчетности.</span><span class="sxs-lookup"><span data-stu-id="63d50-105">They are used on country specific report layouts and the Sales tax payment by code report to print sales tax amounts for a settlement period summarized per reporting code.</span></span> <span data-ttu-id="63d50-106">После создания кодов налоговой отчетности на них можно ссылаться на экспресс-вкладке "Настройка отчетов" на странице "Налоговый код".</span><span class="sxs-lookup"><span data-stu-id="63d50-106">After you create Sales tax reporting codes, you can refer to them on the Report setup FastTabs in the Sales tax code page.</span></span> 
 
-В данной записи используется демонстрационная компания DEMF.
+<span data-ttu-id="63d50-107">В данной записи используется демонстрационная компания DEMF.</span><span class="sxs-lookup"><span data-stu-id="63d50-107">This recording uses the DEMF demo company.</span></span>
 
 
 
-1. Перейдите в раздел "Налог" > "Настройка" > "Налог" > "Коды налоговой отчетности".
-2. Щелкните "Создать".
-3. Выберите макет отчета, к которому принадлежит код отчетности.
-    * Этот макет используется для фильтрации доступных кодов отчетности для налогового кода. Каждый налоговый код принадлежит к периоду сопоставления, который принадлежит к налоговому органу, использующему макета отчета.  
-4. Введите номер, который ссылается на поле в налоговом отчете.
-5. В поле "Текст отчета" введите описание для отображения в отчетах.
-6. В поле "Краткое описание" введите описание для внутренних целей.
-7. Нажмите кнопку "Сохранить".
+1. <span data-ttu-id="63d50-108">Перейдите в раздел "Налог" > "Настройка" > "Налог" > "Коды налоговой отчетности".</span><span class="sxs-lookup"><span data-stu-id="63d50-108">Go to Tax > Setup > Sales tax > Sales tax reporting codes.</span></span>
+2. <span data-ttu-id="63d50-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="63d50-109">Click New.</span></span>
+3. <span data-ttu-id="63d50-110">Выберите макет отчета, к которому принадлежит код отчетности.</span><span class="sxs-lookup"><span data-stu-id="63d50-110">Select the report layout that the reporting code belongs to.</span></span>
+    * <span data-ttu-id="63d50-111">Этот макет используется для фильтрации доступных кодов отчетности для налогового кода.</span><span class="sxs-lookup"><span data-stu-id="63d50-111">This layout is used to filter the available reporting codes for a Sales tax code.</span></span> <span data-ttu-id="63d50-112">Каждый налоговый код принадлежит к периоду сопоставления, который принадлежит к налоговому органу, использующему макета отчета.</span><span class="sxs-lookup"><span data-stu-id="63d50-112">Each Sales tax code belongs to a settlement period which belongs to a Sales tax authority which uses a Report layout.</span></span>  
+4. <span data-ttu-id="63d50-113">Введите номер, который ссылается на поле в налоговом отчете.</span><span class="sxs-lookup"><span data-stu-id="63d50-113">Enter a number that refers to a field on a sales tax report.</span></span>
+5. <span data-ttu-id="63d50-114">В поле "Текст отчета" введите описание для отображения в отчетах.</span><span class="sxs-lookup"><span data-stu-id="63d50-114">In the Report text field, enter a description to display on reports.</span></span>
+6. <span data-ttu-id="63d50-115">В поле "Краткое описание" введите описание для внутренних целей.</span><span class="sxs-lookup"><span data-stu-id="63d50-115">In the Brief description field, enter a description for internal purposes.</span></span>
+7. <span data-ttu-id="63d50-116">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="63d50-116">Click Save.</span></span>
 
 

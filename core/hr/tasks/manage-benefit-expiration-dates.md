@@ -16,35 +16,35 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: de850085611c60b67c1b5c765d9cb69087718e3f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e40fca0d03d76b6aed118f3fbb59a6893f8da94b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-benefit-expiration-dates"></a>Управление сроками действия льгот
+# <a name="manage-benefit-expiration-dates"></a><span data-ttu-id="f454c-103">Управление сроками действия льгот</span><span class="sxs-lookup"><span data-stu-id="f454c-103">Manage benefit expiration dates</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-В этой процедуре показано, как завершить или продлить срок действия льгот, а также как управлять датами регистрации работников, зарегистрированными для получения льготы. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
+<span data-ttu-id="f454c-104">В этой процедуре показано, как завершить или продлить срок действия льгот, а также как управлять датами регистрации работников, зарегистрированными для получения льготы.</span><span class="sxs-lookup"><span data-stu-id="f454c-104">This procedure shows how you can expire or extend a benefit, and manage the enrollment dates of workers that are enrolled in the benefit.</span></span> <span data-ttu-id="f454c-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="f454c-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="benefit-expiration-dates"></a>Даты окончания срока действия льгот
-1. Перейдите в раздел "Управление персоналом" > "Льготы" > "Льготы".
-2. Разверните информационное поле "Зарегистрированные работники".
-3. В списке найдите и выберите требуемую запись.
-4. В области действий щелкните "Льгота".
-5. Щелкните "Завершить или продлить срок действия льгот".
-6. В поле "Новая дата окончания срока действия льготы" введите дату и время.
-7. Щелкните "Срок действия".
-8. В области действий щелкните "Льгота".
-9. Щелкните "Результаты сокращения или продления срока действия льготы".
-10. В списке пометьте выбранную строку.
-11. В списке щелкните ссылку "Задействованные работники".
-12. В списке найдите и выберите требуемую запись.
-13. Щелкните для перехода по ссылке в поле "Табельный номер".
-14. Разверните раздел "Личные данные".
-15. Щелкните "Льготы".
-16. Найдите в списке льготу и выберите запись. Обратите внимание на новую дату окончания покрытия.
+## <a name="benefit-expiration-dates"></a><span data-ttu-id="f454c-106">Даты окончания срока действия льгот</span><span class="sxs-lookup"><span data-stu-id="f454c-106">Benefit expiration dates</span></span>
+1. <span data-ttu-id="f454c-107">Перейдите в раздел "Управление персоналом" > "Льготы" > "Льготы".</span><span class="sxs-lookup"><span data-stu-id="f454c-107">Go to Human resources > Benefits > Benefits.</span></span>
+2. <span data-ttu-id="f454c-108">Разверните информационное поле "Зарегистрированные работники".</span><span class="sxs-lookup"><span data-stu-id="f454c-108">Expand the Enrolled workers FactBox.</span></span>
+3. <span data-ttu-id="f454c-109">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="f454c-109">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="f454c-110">В области действий щелкните "Льгота".</span><span class="sxs-lookup"><span data-stu-id="f454c-110">On the Action Pane, click Benefit.</span></span>
+5. <span data-ttu-id="f454c-111">Щелкните "Завершить или продлить срок действия льгот".</span><span class="sxs-lookup"><span data-stu-id="f454c-111">Click Expire or extend benefits.</span></span>
+6. <span data-ttu-id="f454c-112">В поле "Новая дата окончания срока действия льготы" введите дату и время.</span><span class="sxs-lookup"><span data-stu-id="f454c-112">In the New benefit expiration date field, enter a date and time.</span></span>
+7. <span data-ttu-id="f454c-113">Щелкните "Срок действия".</span><span class="sxs-lookup"><span data-stu-id="f454c-113">Click Expire.</span></span>
+8. <span data-ttu-id="f454c-114">В области действий щелкните "Льгота".</span><span class="sxs-lookup"><span data-stu-id="f454c-114">On the Action Pane, click Benefit.</span></span>
+9. <span data-ttu-id="f454c-115">Щелкните "Результаты сокращения или продления срока действия льготы".</span><span class="sxs-lookup"><span data-stu-id="f454c-115">Click Benefit expiration and extension results.</span></span>
+10. <span data-ttu-id="f454c-116">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="f454c-116">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="f454c-117">В списке щелкните ссылку "Задействованные работники".</span><span class="sxs-lookup"><span data-stu-id="f454c-117">In the list, click the Workers affected link.</span></span>
+12. <span data-ttu-id="f454c-118">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="f454c-118">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="f454c-119">Щелкните для перехода по ссылке в поле "Табельный номер".</span><span class="sxs-lookup"><span data-stu-id="f454c-119">Click to follow the link in the Personnel number field.</span></span>
+14. <span data-ttu-id="f454c-120">Разверните раздел "Личные данные".</span><span class="sxs-lookup"><span data-stu-id="f454c-120">Expand the Personal information section.</span></span>
+15. <span data-ttu-id="f454c-121">Щелкните "Льготы".</span><span class="sxs-lookup"><span data-stu-id="f454c-121">Click Benefits.</span></span>
+16. <span data-ttu-id="f454c-122">Найдите в списке льготу и выберите запись.</span><span class="sxs-lookup"><span data-stu-id="f454c-122">In the list, find the benefit and select the record.</span></span> <span data-ttu-id="f454c-123">Обратите внимание на новую дату окончания покрытия.</span><span class="sxs-lookup"><span data-stu-id="f454c-123">Note the new coverage end date.</span></span>
 
 

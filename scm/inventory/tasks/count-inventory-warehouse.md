@@ -1,4 +1,4 @@
---- 
+---
 title: "Учет запасов на складе"
 description: "Эта процедура позволяет создать и разнести журнал инвентаризации запасов для подсчета конкретной номенклатуры в местонахождении на складе."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,56 +17,55 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 1d2ecf1cd80e05b59f206fb5f684d6a86fa5733e
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: fa72cb0d651f5e60797fa41f6e2b2cf1891730b5
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="count-inventory-in-a-warehouse"></a>Учет запасов на складе
+# <a name="count-inventory-in-a-warehouse"></a><span data-ttu-id="f6f88-103">Учет запасов на складе</span><span class="sxs-lookup"><span data-stu-id="f6f88-103">Count inventory in a warehouse</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура позволяет создать и разнести журнал инвентаризации запасов для подсчета конкретной номенклатуры в местонахождении на складе. Процедура применяется к функции базового управления складами, доступной в модуле управления запасами, но не к функции управления складами, которая доступна в модуле управления складом. Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные. При использовании собственных данных убедитесь, что у вас есть продукты и местонахождения и что вы создали наименование журнала запасов для инвентаризации журналов. Инвентаризация запасов обычно выполняется работником склада.
+<span data-ttu-id="f6f88-104">Эта процедура позволяет создать и разнести журнал инвентаризации запасов для подсчета конкретной номенклатуры в местонахождении на складе.</span><span class="sxs-lookup"><span data-stu-id="f6f88-104">This procedure walks you through the process of creating and posting an inventory counting journal in order to count a specific item at a location in the warehouse.</span></span> <span data-ttu-id="f6f88-105">Процедура применяется к функции базового управления складами, доступной в модуле управления запасами, но не к функции управления складами, которая доступна в модуле управления складом.</span><span class="sxs-lookup"><span data-stu-id="f6f88-105">The procedure applies to “basic warehousing” functionality, available in the Inventory management module, not to the warehousing functionality that’s available in the Warehouse management module.</span></span> <span data-ttu-id="f6f88-106">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="f6f88-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="f6f88-107">При использовании собственных данных убедитесь, что у вас есть продукты и местонахождения и что вы создали наименование журнала запасов для инвентаризации журналов.</span><span class="sxs-lookup"><span data-stu-id="f6f88-107">If you’re using your own data, make sure that you have products and locations set up, and that you’ve created an inventory journal name for counting journals.</span></span> <span data-ttu-id="f6f88-108">Инвентаризация запасов обычно выполняется работником склада.</span><span class="sxs-lookup"><span data-stu-id="f6f88-108">Inventory counting is normally carried out by a warehouse employee.</span></span>
 
 
-## <a name="create-an-inventory-counting-journal"></a>Создание журнала инвентаризации запасов
-1. Перейдите "Управление запасами" > "Записи журнала" > "Инвентаризация номенклатуры" > "Инвентаризация".
-2. Щелкните "Создать".
-3. В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-4. В списке щелкните наименование журнала инвентаризации запасов, который необходимо использовать
-    * Некоторые другие поля будут заполнены на основе настройки выбранного наименования журнала инвентаризации запасов.  
-5. В поле "Работник" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-6. Выберите в списке работника, которого вы хотите использовать.
-7. Щелкните Выбрать.
-8. Нажмите кнопку "OК".
+## <a name="create-an-inventory-counting-journal"></a><span data-ttu-id="f6f88-109">Создание журнала инвентаризации запасов</span><span class="sxs-lookup"><span data-stu-id="f6f88-109">Create an inventory counting journal</span></span>
+1. <span data-ttu-id="f6f88-110">Перейдите "Управление запасами" > "Записи журнала" > "Инвентаризация номенклатуры" > "Инвентаризация".</span><span class="sxs-lookup"><span data-stu-id="f6f88-110">Go to Inventory management > Journal entries > Item counting > Counting.</span></span>
+2. <span data-ttu-id="f6f88-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="f6f88-111">Click New.</span></span>
+3. <span data-ttu-id="f6f88-112">В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="f6f88-112">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="f6f88-113">В списке щелкните наименование журнала инвентаризации запасов, который необходимо использовать</span><span class="sxs-lookup"><span data-stu-id="f6f88-113">In the list, click on the inventory counting journal name you want to use</span></span>
+    * <span data-ttu-id="f6f88-114">Некоторые другие поля будут заполнены на основе настройки выбранного наименования журнала инвентаризации запасов.</span><span class="sxs-lookup"><span data-stu-id="f6f88-114">Some other fields will be populated based on the setup of the inventory counting journal name that you select.</span></span>  
+5. <span data-ttu-id="f6f88-115">В поле "Работник" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="f6f88-115">In the Worker field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="f6f88-116">Выберите в списке работника, которого вы хотите использовать.</span><span class="sxs-lookup"><span data-stu-id="f6f88-116">In the list, select the worker you want to use.</span></span>
+7. <span data-ttu-id="f6f88-117">Щелкните Выбрать.</span><span class="sxs-lookup"><span data-stu-id="f6f88-117">Click Select.</span></span>
+8. <span data-ttu-id="f6f88-118">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="f6f88-118">Click OK.</span></span>
 
-## <a name="create-journal-lines"></a>Создать строки журнала
-1. Щелкните "Создать".
-2. В поле "Код номенклатуры" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-3. В списке найдите и выберите требуемую запись.
-    * При использовании компании с демонстрационными данными USMF выберите "A0001".  
-4. В поле "Сайт" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-5. В списке найдите и выберите требуемую запись.
-    * При использовании компании с демонстрационными данными USMF выберите сайт "2".  
-6. В поле "Склад" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-7. В списке найдите и выберите требуемую запись.
-    * При использовании компании с демонстрационными данными USMF выберите склад "24".  
-8. В поле "Местонахождение" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-9. В списке найдите и выберите требуемую запись.
-    * При использовании компании с демонстрационными данными USMF выберите местонахождение "BULK-001".  
-10. В поле "Инвентаризовано" введите номер.
-    * При вводе подсчитанного количества, которое отличается от числа, указанного в поле "В наличии", поле "Количество" обновляется, чтобы отобразить несоответствие.  
-11. Нажмите кнопку "Сохранить".
+## <a name="create-journal-lines"></a><span data-ttu-id="f6f88-119">Создать строки журнала</span><span class="sxs-lookup"><span data-stu-id="f6f88-119">Create journal lines</span></span>
+1. <span data-ttu-id="f6f88-120">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="f6f88-120">Click New.</span></span>
+2. <span data-ttu-id="f6f88-121">В поле "Код номенклатуры" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="f6f88-121">In the Item number field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="f6f88-122">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="f6f88-122">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="f6f88-123">При использовании компании с демонстрационными данными USMF выберите "A0001".</span><span class="sxs-lookup"><span data-stu-id="f6f88-123">If you are using demo data company USMF, select 'A0001'.</span></span>  
+4. <span data-ttu-id="f6f88-124">В поле "Сайт" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="f6f88-124">In the Site field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="f6f88-125">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="f6f88-125">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="f6f88-126">При использовании компании с демонстрационными данными USMF выберите сайт "2".</span><span class="sxs-lookup"><span data-stu-id="f6f88-126">If you are using demo data company USMF, select site '2'.</span></span>  
+6. <span data-ttu-id="f6f88-127">В поле "Склад" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="f6f88-127">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="f6f88-128">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="f6f88-128">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="f6f88-129">При использовании компании с демонстрационными данными USMF выберите склад "24".</span><span class="sxs-lookup"><span data-stu-id="f6f88-129">If you are using demo data company USMF, select warehouse '24'.</span></span>  
+8. <span data-ttu-id="f6f88-130">В поле "Местонахождение" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="f6f88-130">In the Location field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="f6f88-131">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="f6f88-131">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="f6f88-132">При использовании компании с демонстрационными данными USMF выберите местонахождение "BULK-001".</span><span class="sxs-lookup"><span data-stu-id="f6f88-132">If you are using demo data company USMF, select location 'BULK-001'</span></span>  
+10. <span data-ttu-id="f6f88-133">В поле "Инвентаризовано" введите номер.</span><span class="sxs-lookup"><span data-stu-id="f6f88-133">In the Counted field, enter a number.</span></span>
+    * <span data-ttu-id="f6f88-134">При вводе подсчитанного количества, которое отличается от числа, указанного в поле "В наличии", поле "Количество" обновляется, чтобы отобразить несоответствие.</span><span class="sxs-lookup"><span data-stu-id="f6f88-134">If you enter a counted number that’s different to the number shown in the On-hand field, the Quantity field is updated to show the discrepancy.</span></span>  
+11. <span data-ttu-id="f6f88-135">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="f6f88-135">Click Save.</span></span>
 
-## <a name="post-the-inventory-counting-journal"></a>Выполните разноску журнала инвентаризации запасов
-1. Щелкните "Разнести".
-    * При разноске журнала инвентаризации запасов если подсчитанная сумма отличается от суммы, которая указана в поле "В наличии", поступление на склад или отпуск разносится, уровень запасов и значение изменяются и проводки ГК создаются.  
-2. Нажмите кнопку "OК".
+## <a name="post-the-inventory-counting-journal"></a><span data-ttu-id="f6f88-136">Выполните разноску журнала инвентаризации запасов</span><span class="sxs-lookup"><span data-stu-id="f6f88-136">Post the inventory counting journal</span></span>
+1. <span data-ttu-id="f6f88-137">Щелкните "Разнести".</span><span class="sxs-lookup"><span data-stu-id="f6f88-137">Click Post.</span></span>
+    * <span data-ttu-id="f6f88-138">При разноске журнала инвентаризации запасов если подсчитанная сумма отличается от суммы, которая указана в поле "В наличии", поступление на склад или отпуск разносится, уровень запасов и значение изменяются и проводки ГК создаются.</span><span class="sxs-lookup"><span data-stu-id="f6f88-138">When you post an inventory counting journal, if the counted amount differs from amount that’s reported in the On-hand field an inventory receipt or issue is posted, the inventory level and value are changed, and ledger transactions are generated.</span></span>  
+2. <span data-ttu-id="f6f88-139">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="f6f88-139">Click OK.</span></span>
 
-## <a name="view-inventory-transactions"></a>Просмотр складских проводок
-1. Щелкните запасы.
-2. Щелкните "Проводки".
-    * Здесь можно просмотреть все связанные проводки, которые будут созданы при разноске журнала инвентаризации запасов.   
-
+## <a name="view-inventory-transactions"></a><span data-ttu-id="f6f88-140">Просмотр складских проводок</span><span class="sxs-lookup"><span data-stu-id="f6f88-140">View inventory transactions</span></span>
+1. <span data-ttu-id="f6f88-141">Щелкните запасы.</span><span class="sxs-lookup"><span data-stu-id="f6f88-141">Click Inventory.</span></span>
+2. <span data-ttu-id="f6f88-142">Щелкните "Проводки".</span><span class="sxs-lookup"><span data-stu-id="f6f88-142">Click Transactions.</span></span>
+    * <span data-ttu-id="f6f88-143">Здесь можно просмотреть все связанные проводки, которые будут созданы при разноске журнала инвентаризации запасов.</span><span class="sxs-lookup"><span data-stu-id="f6f88-143">Here you can see any related transactions that will be created when you post your inventory counting journal.</span></span>   
 

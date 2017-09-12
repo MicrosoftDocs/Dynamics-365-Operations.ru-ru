@@ -19,44 +19,44 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: ea35bdd54c476fc5a3d329f7ca0dcf014c417e7a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 84a9e0b3936adcf2ed99fddca77dd57dfedeb050
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="assess-customer-and-product-profitability"></a>Оценка рентабельности по клиентам и продуктам
+# <a name="assess-customer-and-product-profitability"></a><span data-ttu-id="34a46-103">Оценка рентабельности по клиентам и продуктам</span><span class="sxs-lookup"><span data-stu-id="34a46-103">Assess customer and product profitability</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-В этой статье описывается, как можно использовать размещенные в памяти аналитики и аналитики реального времени для получения доступа, изучения и анализа рентабельности клиентов и продуктов на основе данных Microsoft Dynamics 365 for Retail. 
+<span data-ttu-id="34a46-104">В этой статье описывается, как можно использовать размещенные в памяти аналитики и аналитики реального времени для получения доступа, изучения и анализа рентабельности клиентов и продуктов на основе данных Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="34a46-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about customers and product profitability from your Microsoft Dynamics 365 for Retail data.</span></span> 
 
-В рамках использования Dynamics 365 for Retail пользователи могут анализировать прибыльность ключевых клиентов (от 10 до 100) на разных уровнях иерархии организации с учетом одного из следующих критериев.
+<span data-ttu-id="34a46-105">В рамках использования Dynamics 365 for Retail пользователи могут анализировать прибыльность ключевых клиентов (от 10 до 100) на разных уровнях иерархии организации с учетом одного из следующих критериев.</span><span class="sxs-lookup"><span data-stu-id="34a46-105">As part of Dynamics 365 for Retail, users can study profitability for the top customers (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
--   Сумма продаж
--   Количество
--   Маржа для валовой прибыли
--   Процент маржи
+-   <span data-ttu-id="34a46-106">Сумма продаж</span><span class="sxs-lookup"><span data-stu-id="34a46-106">Sales amount</span></span>
+-   <span data-ttu-id="34a46-107">Количество</span><span class="sxs-lookup"><span data-stu-id="34a46-107">Quantity</span></span>
+-   <span data-ttu-id="34a46-108">Маржа для валовой прибыли</span><span class="sxs-lookup"><span data-stu-id="34a46-108">Gross profit margin</span></span>
+-   <span data-ttu-id="34a46-109">Процент маржи</span><span class="sxs-lookup"><span data-stu-id="34a46-109">Margin percentage</span></span>
 
-Для этой оценки можно использовать готовый отчет **Ведущие клиенты**, который можно открыть в любом из следующих расположений.
+<span data-ttu-id="34a46-110">Для этой оценки можно использовать готовый отчет **Ведущие клиенты**, который можно открыть в любом из следующих расположений.</span><span class="sxs-lookup"><span data-stu-id="34a46-110">For this assessment, you can use the out-of-box **Top customers** report, which you can open from any of the following locations:</span></span>
 
--   Рабочая область **Руководство розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет о лучших клиентах**
--   Раздел **Запросы и отчеты** &gt; **Розничная торговля** &gt; **Запросы и отчеты** &gt; **Отчеты о продажах** &gt; **Отчет о лучших клиентах**
+-   <span data-ttu-id="34a46-111">Рабочая область **Руководство розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет о лучших клиентах**</span><span class="sxs-lookup"><span data-stu-id="34a46-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top customers report**</span></span>
+-   <span data-ttu-id="34a46-112">Раздел **Запросы и отчеты** &gt; **Розничная торговля** &gt; **Запросы и отчеты** &gt; **Отчеты о продажах** &gt; **Отчет о лучших клиентах**</span><span class="sxs-lookup"><span data-stu-id="34a46-112">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top customers report**</span></span>
 
-Аналогично пользователи могут анализировать прибыльность ключевых продуктов (от 10 до 100) на разных уровнях иерархии организации с учетом одного из следующих критериев.
+<span data-ttu-id="34a46-113">Аналогично пользователи могут анализировать прибыльность ключевых продуктов (от 10 до 100) на разных уровнях иерархии организации с учетом одного из следующих критериев.</span><span class="sxs-lookup"><span data-stu-id="34a46-113">Likewise, users can study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
--   Сумма продаж
--   Количество
--   Маржа для валовой прибыли
--   Процент маржи
+-   <span data-ttu-id="34a46-114">Сумма продаж</span><span class="sxs-lookup"><span data-stu-id="34a46-114">Sales amount</span></span>
+-   <span data-ttu-id="34a46-115">Количество</span><span class="sxs-lookup"><span data-stu-id="34a46-115">Quantity</span></span>
+-   <span data-ttu-id="34a46-116">Маржа для валовой прибыли</span><span class="sxs-lookup"><span data-stu-id="34a46-116">Gross profit margin</span></span>
+-   <span data-ttu-id="34a46-117">Процент маржи</span><span class="sxs-lookup"><span data-stu-id="34a46-117">Margin percentage</span></span>
 
-Для этой оценки можно использовать готовый отчет **Ведущие продукты**, который можно открыть в любом из следующих расположений.
+<span data-ttu-id="34a46-118">Для этой оценки можно использовать готовый отчет **Ведущие продукты**, который можно открыть в любом из следующих расположений.</span><span class="sxs-lookup"><span data-stu-id="34a46-118">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
 
--   Рабочая область **Руководство розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Самые популярные продукты"**
--   Рабочая область **Управление категориями и продуктами** &gt; **Розничная торговля** &gt; **Продукты и категории** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Ведущие продукты"**
--   Раздел **Запросы и отчеты** &gt; **Розничная торговля** &gt; **Запросы и отчеты** &gt; **Отчеты о продажах** &gt; **Отчет "Самые популярные продукты"**
+-   <span data-ttu-id="34a46-119">Рабочая область **Руководство розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Самые популярные продукты"**</span><span class="sxs-lookup"><span data-stu-id="34a46-119">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="34a46-120">Рабочая область **Управление категориями и продуктами** &gt; **Розничная торговля** &gt; **Продукты и категории** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Ведущие продукты"**</span><span class="sxs-lookup"><span data-stu-id="34a46-120">**Category and product management** workspace &gt; **Retail** &gt; **Products and categories** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="34a46-121">Раздел **Запросы и отчеты** &gt; **Розничная торговля** &gt; **Запросы и отчеты** &gt; **Отчеты о продажах** &gt; **Отчет "Самые популярные продукты"**</span><span class="sxs-lookup"><span data-stu-id="34a46-121">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>
 
 
 

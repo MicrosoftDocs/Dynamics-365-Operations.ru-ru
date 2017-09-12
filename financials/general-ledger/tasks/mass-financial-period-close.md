@@ -16,34 +16,34 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: b176adc2cbd23647b98cf55e94829e1ea9637c95
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8d7151cbcd02f9312ca6b0de5e27231a0b0dc9d6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="mass-financial-period-close"></a>Массовое закрытие финансовых периодов
+# <a name="mass-financial-period-close"></a><span data-ttu-id="c5871-103">Массовое закрытие финансовых периодов</span><span class="sxs-lookup"><span data-stu-id="c5871-103">Mass financial period close</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-В этой процедуре демонстрируется, как заблокировать период или закрыть период на постоянной основе одновременно для нескольких юридических лиц. Кроме того, задача показывает, как ограничить разноску группы пользователей конкретными модулями.
+<span data-ttu-id="c5871-104">В этой процедуре демонстрируется, как заблокировать период или закрыть период на постоянной основе одновременно для нескольких юридических лиц.</span><span class="sxs-lookup"><span data-stu-id="c5871-104">This procedure shows how to place a period on hold or permanently close a period or more than one legal entity at a time.</span></span> <span data-ttu-id="c5871-105">Кроме того, задача показывает, как ограничить разноску группы пользователей конкретными модулями.</span><span class="sxs-lookup"><span data-stu-id="c5871-105">In addition, the task will show how to restrict user group posting to specific modules.</span></span>
 
-1. Перейдите в раздел "Главная книга" > "Закрытие периода" > "Календари книги учета".
-    * Обратите внимание, что список юридических лиц зависит от финансового календаря, выбранного на странице. Отображаются только юридические лица, использующие выбранный финансовый календарь.  
-2. Щелкните "Изменить".
-3. Выберите период, для которого необходимо изменить статус.
-4. Выберите юридические лица, для которых необходимо обновить статус.
-    * Можно быстро выбрать все юридические лица, установив флажок в левой верхней части сетки.  
-5. Выберите "Доступ для обновления модуля", чтобы определить доступ разноски к выбранному модулю.
-    * Статус модуля можно также обновлять поочередно, редактирую записи в сетке. Эта кнопка полезна, когда требуется быстро выполнять обновление нескольких записей юридических лиц.  
-6. В поле "Модуль приложения" выберите модуль, для которого нужно обновить статус. Щелкните Выбрать.
-7. В поле "Уровень доступа" выберите "Все", "Нет" или определенную группу пользователей. Щелкните Выбрать.
-    * "Все" означает, что всем пользователям с разрешением на редактирование разрешено разносить, если период имеет значение "открыт". "Нет" означает, что пользователям не разрешено разносить в модуль, если период имеет значение "открыт". Конкретная группа пользователей означает, что только пользователи данной группы могут выполнять разноску в модуль, если период имеет значение "открыт".  
-8. Щелкните Обновить.
-9. Выберите другой период для обновления статуса.
-10. Выберите юридические лица, для которых необходимо обновить статус периода.
-11. Выберите "Обновить статус периода" и задайте статус "Заблокировано", "Открытый" или "Закрытый на постоянной основе".
-    * "Открытый" означает, что период можно разнести при условии, что у пользователя есть доступ. "Заблокировано" означает, что разноска в период невозможна, но период может быть повторно открыт. Закрытый на постоянной основе означает, что период закрыт и его открытие невозможно. Разноска корректировок невозможна. Не рекомендуется задавать период как "Закрытый на постоянной основе", пока не будут сделаны все корректировки и аудиты.  
-12. Щелкните Обновить.
+1. <span data-ttu-id="c5871-106">Перейдите в раздел "Главная книга" > "Закрытие периода" > "Календари книги учета".</span><span class="sxs-lookup"><span data-stu-id="c5871-106">Go to General ledger > Period close > Ledger calendars.</span></span>
+    * <span data-ttu-id="c5871-107">Обратите внимание, что список юридических лиц зависит от финансового календаря, выбранного на странице.</span><span class="sxs-lookup"><span data-stu-id="c5871-107">Note that the list of legal entities displayed is dependent on the fiscal calendar selected on the page.</span></span> <span data-ttu-id="c5871-108">Отображаются только юридические лица, использующие выбранный финансовый календарь.</span><span class="sxs-lookup"><span data-stu-id="c5871-108">Only legal entities using the selected fiscal calendar will display.</span></span>  
+2. <span data-ttu-id="c5871-109">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="c5871-109">Click Edit.</span></span>
+3. <span data-ttu-id="c5871-110">Выберите период, для которого необходимо изменить статус.</span><span class="sxs-lookup"><span data-stu-id="c5871-110">Select the period for which you want to modify the status.</span></span>
+4. <span data-ttu-id="c5871-111">Выберите юридические лица, для которых необходимо обновить статус.</span><span class="sxs-lookup"><span data-stu-id="c5871-111">Select the legal entities for which you want to update the status.</span></span>
+    * <span data-ttu-id="c5871-112">Можно быстро выбрать все юридические лица, установив флажок в левой верхней части сетки.</span><span class="sxs-lookup"><span data-stu-id="c5871-112">You can quickly select all legal entities  by selecting the check mark on the upper left side of the grid.</span></span>  
+5. <span data-ttu-id="c5871-113">Выберите "Доступ для обновления модуля", чтобы определить доступ разноски к выбранному модулю.</span><span class="sxs-lookup"><span data-stu-id="c5871-113">Select Update module access to define the posting access to a selected module.</span></span>
+    * <span data-ttu-id="c5871-114">Статус модуля можно также обновлять поочередно, редактирую записи в сетке.</span><span class="sxs-lookup"><span data-stu-id="c5871-114">The module status can also be updated one-by-one by editing the records in the grid.</span></span> <span data-ttu-id="c5871-115">Эта кнопка полезна, когда требуется быстро выполнять обновление нескольких записей юридических лиц.</span><span class="sxs-lookup"><span data-stu-id="c5871-115">The button is useful when you want to quickly update multiple legal entity records.</span></span>  
+6. <span data-ttu-id="c5871-116">В поле "Модуль приложения" выберите модуль, для которого нужно обновить статус.</span><span class="sxs-lookup"><span data-stu-id="c5871-116">In the Application module, select the module that you want to update the status.</span></span> <span data-ttu-id="c5871-117">Щелкните Выбрать.</span><span class="sxs-lookup"><span data-stu-id="c5871-117">Click Select.</span></span>
+7. <span data-ttu-id="c5871-118">В поле "Уровень доступа" выберите "Все", "Нет" или определенную группу пользователей.</span><span class="sxs-lookup"><span data-stu-id="c5871-118">In the Access level, select All, None, or a specific user group.</span></span> <span data-ttu-id="c5871-119">Щелкните Выбрать.</span><span class="sxs-lookup"><span data-stu-id="c5871-119">Click Select.</span></span>
+    * <span data-ttu-id="c5871-120">"Все" означает, что всем пользователям с разрешением на редактирование разрешено разносить, если период имеет значение "открыт".</span><span class="sxs-lookup"><span data-stu-id="c5871-120">All indicates all users with edit access to the module can post if the period is open.</span></span> <span data-ttu-id="c5871-121">"Нет" означает, что пользователям не разрешено разносить в модуль, если период имеет значение "открыт".</span><span class="sxs-lookup"><span data-stu-id="c5871-121">None indicates that users cannot post to the module if the period is open.</span></span> <span data-ttu-id="c5871-122">Конкретная группа пользователей означает, что только пользователи данной группы могут выполнять разноску в модуль, если период имеет значение "открыт".</span><span class="sxs-lookup"><span data-stu-id="c5871-122">A specific user group indicates only users in the group are able to post to the module if the period is open.</span></span>  
+8. <span data-ttu-id="c5871-123">Щелкните Обновить.</span><span class="sxs-lookup"><span data-stu-id="c5871-123">Click Update.</span></span>
+9. <span data-ttu-id="c5871-124">Выберите другой период для обновления статуса.</span><span class="sxs-lookup"><span data-stu-id="c5871-124">Select another period to update the status.</span></span>
+10. <span data-ttu-id="c5871-125">Выберите юридические лица, для которых необходимо обновить статус периода.</span><span class="sxs-lookup"><span data-stu-id="c5871-125">Select the legal entites for which you want to update the period status.</span></span>
+11. <span data-ttu-id="c5871-126">Выберите "Обновить статус периода" и задайте статус "Заблокировано", "Открытый" или "Закрытый на постоянной основе".</span><span class="sxs-lookup"><span data-stu-id="c5871-126">Select Update period status and set the status of On hold, Open, or Permanently closed.</span></span>
+    * <span data-ttu-id="c5871-127">"Открытый" означает, что период можно разнести при условии, что у пользователя есть доступ.</span><span class="sxs-lookup"><span data-stu-id="c5871-127">Open indicates the period can be posted to, provided the user has access.</span></span> <span data-ttu-id="c5871-128">"Заблокировано" означает, что разноска в период невозможна, но период может быть повторно открыт.</span><span class="sxs-lookup"><span data-stu-id="c5871-128">On hold means the period cannot be posted to, but the period can be reopened.</span></span> <span data-ttu-id="c5871-129">Закрытый на постоянной основе означает, что период закрыт и его открытие невозможно.</span><span class="sxs-lookup"><span data-stu-id="c5871-129">Permanently closed means the period is closed and can never be opened.</span></span> <span data-ttu-id="c5871-130">Разноска корректировок невозможна.</span><span class="sxs-lookup"><span data-stu-id="c5871-130">Adjustments cannot be posted.</span></span> <span data-ttu-id="c5871-131">Не рекомендуется задавать период как "Закрытый на постоянной основе", пока не будут сделаны все корректировки и аудиты.</span><span class="sxs-lookup"><span data-stu-id="c5871-131">We do not recommend setting a period to Permanently closed until all adjustments and audits are complete.</span></span>  
+12. <span data-ttu-id="c5871-132">Щелкните Обновить.</span><span class="sxs-lookup"><span data-stu-id="c5871-132">Click Update.</span></span>
 
 

@@ -19,40 +19,40 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0909b64a77024d551af0dad2de985887cf6ff06d
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: f45d180dc8dcafb0579e76b890dd5d516df5b8c0
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="balanced-journals-for-interunit-accounting"></a>Сбалансированные журналы для внутрихолдингового учета
+# <a name="balanced-journals-for-interunit-accounting"></a><span data-ttu-id="0461d-103">Сбалансированные журналы для внутрихолдингового учета</span><span class="sxs-lookup"><span data-stu-id="0461d-103">Balanced journals for interunit accounting</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-В этой статье показано, как журнал автоматически балансируется, когда на странице "Книга учета" выбрана финансовая аналитика балансировки. 
+<span data-ttu-id="0461d-104">В этой статье показано, как журнал автоматически балансируется, когда на странице "Книга учета" выбрана финансовая аналитика балансировки.</span><span class="sxs-lookup"><span data-stu-id="0461d-104">This article shows how a journal is automatically balanced when a balancing financial dimension is selected on the Ledger page.</span></span> 
 
-Если записи счета не сбалансированы на уровне значений финансовых аналитик, дополнительные учетные записи создаются автоматически, чтобы сбалансировать этот журнал. Эти записи счета используют типы разноски **Внутрихолдинговый дебет** и **Внутрихолдинговый кредит** на странице **Счета для автоматических проводок**, чтобы определить счет ГК. Например, "Филиал", который является вторым сегментом счета ГК, выбирается в качестве финансовой аналитики балансировки, и подготавливаются к созданию следующие записи учета.
+<span data-ttu-id="0461d-105">Если записи счета не сбалансированы на уровне значений финансовых аналитик, дополнительные учетные записи создаются автоматически, чтобы сбалансировать этот журнал.</span><span class="sxs-lookup"><span data-stu-id="0461d-105">If account entries don't balance at the level of the financial dimension values, additional account entries are created automatically to balance the journal.</span></span> <span data-ttu-id="0461d-106">Эти записи счета используют типы разноски **Внутрихолдинговый дебет** и **Внутрихолдинговый кредит** на странице **Счета для автоматических проводок**, чтобы определить счет ГК.</span><span class="sxs-lookup"><span data-stu-id="0461d-106">These account entries use the **Interunit - debit** and **Interunit - credit** posting types on the **Accounts for automatic transactions** page to determine the main account.</span></span> <span data-ttu-id="0461d-107">Например, "Филиал", который является вторым сегментом счета ГК, выбирается в качестве финансовой аналитики балансировки, и подготавливаются к созданию следующие записи учета.</span><span class="sxs-lookup"><span data-stu-id="0461d-107">For example, Branch, which is the second segment of the ledger account, is selected as the balancing financial dimension, and the following accounting entries are about to be created.</span></span>
 
 |                      |           |
 |----------------------|-----------|
-| 6100 – MSP – OU\_256 | 100,00 DR |
-| 6100 – NY – OU\_249  | 100,00 DR |
-| 2100 – MSP – OU\_256 | 200,00 CR |
+| <span data-ttu-id="0461d-108">6100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="0461d-108">6100 – MSP – OU\_256</span></span> | <span data-ttu-id="0461d-109">100,00 DR</span><span class="sxs-lookup"><span data-stu-id="0461d-109">100.00 DR</span></span> |
+| <span data-ttu-id="0461d-110">6100 – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="0461d-110">6100 – NY – OU\_249</span></span>  | <span data-ttu-id="0461d-111">100,00 DR</span><span class="sxs-lookup"><span data-stu-id="0461d-111">100.00 DR</span></span> |
+| <span data-ttu-id="0461d-112">2100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="0461d-112">2100 – MSP – OU\_256</span></span> | <span data-ttu-id="0461d-113">200,00 CR</span><span class="sxs-lookup"><span data-stu-id="0461d-113">200.00 CR</span></span> |
 
-В этом случае определяются следующие сальдо:
+<span data-ttu-id="0461d-114">В этом случае определяются следующие сальдо:</span><span class="sxs-lookup"><span data-stu-id="0461d-114">In this case, the following balances are determined:</span></span>
 
--   Для филиала MSP = 100,00 CR
--   Для филиала NY = 100,00 DR
+-   <span data-ttu-id="0461d-115">Для филиала MSP = 100,00 CR</span><span class="sxs-lookup"><span data-stu-id="0461d-115">For Branch MSP = 100.00 CR</span></span>
+-   <span data-ttu-id="0461d-116">Для филиала NY = 100,00 DR</span><span class="sxs-lookup"><span data-stu-id="0461d-116">For Branch NY = 100.00 DR</span></span>
 
-Таким образом, следующие учетные записи создаются автоматически для балансировки журнала на уровне значений финансовых аналитик.
+<span data-ttu-id="0461d-117">Таким образом, следующие учетные записи создаются автоматически для балансировки журнала на уровне значений финансовых аналитик.</span><span class="sxs-lookup"><span data-stu-id="0461d-117">Therefore, the following accounting entries are created automatically to balance the  journal at the level of the financial dimension values.</span></span>
 
 |                                   |           |
 |-----------------------------------|-----------|
-| (Внутрихолдинговый дебет) – MSP – OU\_256 | 100,00 DR |
-| (Внутрихолдинговый кредит) – NY – OU\_249 | 100,00 CR |
+| <span data-ttu-id="0461d-118">(Внутрихолдинговый дебет) – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="0461d-118">(Interunit Debit) – MSP – OU\_256</span></span> | <span data-ttu-id="0461d-119">100,00 DR</span><span class="sxs-lookup"><span data-stu-id="0461d-119">100.00 DR</span></span> |
+| <span data-ttu-id="0461d-120">(Внутрихолдинговый кредит) – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="0461d-120">(Interunit Credit) – NY – OU\_249</span></span> | <span data-ttu-id="0461d-121">100,00 CR</span><span class="sxs-lookup"><span data-stu-id="0461d-121">100.00 CR</span></span> |
 
 
 

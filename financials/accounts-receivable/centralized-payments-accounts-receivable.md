@@ -19,285 +19,285 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c5a09eedd1dd12b7f5343953b16f9f0b210213d7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6327d9cab1651d22cd411f718f6e3a2f8733e13e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="centralized-payments-for-accounts-receivable"></a>Централизованные платежи для расчетов с клиентами
+# <a name="centralized-payments-for-accounts-receivable"></a><span data-ttu-id="98d00-105">Централизованные платежи для расчетов с клиентами</span><span class="sxs-lookup"><span data-stu-id="98d00-105">Centralized payments for Accounts receivable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Организации, состоящие из нескольких юридических лиц, могут создавать платежи и управлять ими, используя одно юридическое лицо, обрабатывающее все платежи. Поэтому, такую же транзакцию нет необходимости вводить для нескольких юридических лиц. В этой статье приводятся примеры, которые показывают, как разноска для централизованных платежей обрабатывается в различных сценариях.
+<span data-ttu-id="98d00-106">Организации, состоящие из нескольких юридических лиц, могут создавать платежи и управлять ими, используя одно юридическое лицо, обрабатывающее все платежи.</span><span class="sxs-lookup"><span data-stu-id="98d00-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="98d00-107">Поэтому, такую же транзакцию нет необходимости вводить для нескольких юридических лиц.</span><span class="sxs-lookup"><span data-stu-id="98d00-107">Therefore, the same transaction doesn't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="98d00-108">В этой статье приводятся примеры, которые показывают, как разноска для централизованных платежей обрабатывается в различных сценариях.</span><span class="sxs-lookup"><span data-stu-id="98d00-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 
-Организации, состоящие из нескольких юридических лиц, могут создавать платежи и управлять ими, используя юридическое лицо, обрабатывающее все платежи. Поэтому, такую же транзакцию нет необходимости вводить для нескольких юридических лиц. Дополнительно, организация экономит время, потому что упрощаются процессы предложений по оплате, сопоставлений и изменения открытых и закрытых транзакций для централизованных платежей. 
+<span data-ttu-id="98d00-109">Организации, состоящие из нескольких юридических лиц, могут создавать платежи и управлять ими, используя юридическое лицо, обрабатывающее все платежи.</span><span class="sxs-lookup"><span data-stu-id="98d00-109">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="98d00-110">Поэтому, такую же транзакцию нет необходимости вводить для нескольких юридических лиц.</span><span class="sxs-lookup"><span data-stu-id="98d00-110">Therefore, the same transaction doesn't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="98d00-111">Дополнительно, организация экономит время, потому что упрощаются процессы предложений по оплате, сопоставлений и изменения открытых и закрытых транзакций для централизованных платежей.</span><span class="sxs-lookup"><span data-stu-id="98d00-111">Additionally, the organization saves time, because the processes for payment proposals, settlements, and editing open and closed transactions for centralized payments are streamlined.</span></span> 
 
-В организации, использующей систему централизованных платежей, имеется несколько юридических лиц, ведущих деятельность, и каждое из действующих юридических лиц управляет своими сведениями о расчетах с клиентами по накладным. Получателем платежей для всех действующих юридических лиц является одно юридическое лицо, называемое юридическим лицом, связанным с платежом. В процессе сопоставления создаются соответствующие кредиторские и дебиторские проводки. Можно указать, какое юридическое лицо в организации будет получателем в проводках по реализованным прибылям или убыткам, и как будут обрабатываться проводки скидки по оплате, относящиеся к централизованным платежам. 
+<span data-ttu-id="98d00-112">В организации, использующей систему централизованных платежей, имеется несколько юридических лиц, ведущих деятельность, и каждое из действующих юридических лиц управляет своими сведениями о расчетах с клиентами по накладным.</span><span class="sxs-lookup"><span data-stu-id="98d00-112">In a centralized payment organization, there are many legal entities for operations, and each operating legal entity manages its own invoices receivable information.</span></span> <span data-ttu-id="98d00-113">Получателем платежей для всех действующих юридических лиц является одно юридическое лицо, называемое юридическим лицом, связанным с платежом.</span><span class="sxs-lookup"><span data-stu-id="98d00-113">Payments for all the operating legal entities are received by a single legal entity, which is known as the legal entity of the payment.</span></span> <span data-ttu-id="98d00-114">В процессе сопоставления создаются соответствующие кредиторские и дебиторские проводки.</span><span class="sxs-lookup"><span data-stu-id="98d00-114">During the settlement process, the applicable due-to and due-from transactions are generated.</span></span> <span data-ttu-id="98d00-115">Можно указать, какое юридическое лицо в организации будет получателем в проводках по реализованным прибылям или убыткам, и как будут обрабатываться проводки скидки по оплате, относящиеся к централизованным платежам.</span><span class="sxs-lookup"><span data-stu-id="98d00-115">You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a centralized payment are handled.</span></span> 
 
-Последующие примеры иллюстрируют, как разноска проводится в различных сценариях. Для всех данных примеров предполагается использование следующей конфигурации:
+<span data-ttu-id="98d00-116">Последующие примеры иллюстрируют, как разноска проводится в различных сценариях.</span><span class="sxs-lookup"><span data-stu-id="98d00-116">The following examples illustrate how posting is handled in various scenarios.</span></span> <span data-ttu-id="98d00-117">Для всех данных примеров предполагается использование следующей конфигурации:</span><span class="sxs-lookup"><span data-stu-id="98d00-117">The following configuration is assumed for all these examples:</span></span>
 
--   Имеются компании: Fabrikam, Fabrikam East и Fabrikam West. Платежи клиента внесены в Fabrikam.
--   Поле **Разнести скидки при оплате наличными** на странице **Внутрихолдинговый учет** задано как **Юридическое лицо, связанное с накладной**.
--   Поле **Разнести прибыль или убыток по валютному курсу** на странице **Внутрихолдинговый учет** задано как **Юридическое лицо, связанное с платежом**.
--   Клиент Northwind Traders настроен как клиент в каждом юридическом лице. Клиенты из различных юридических лиц определены как один и тот же клиент, потому что для них используется один код глобальной адресной книги.
+-   <span data-ttu-id="98d00-118">Имеются компании: Fabrikam, Fabrikam East и Fabrikam West.</span><span class="sxs-lookup"><span data-stu-id="98d00-118">The legal entities are Fabrikam, Fabrikam East, and Fabrikam West.</span></span> <span data-ttu-id="98d00-119">Платежи клиента внесены в Fabrikam.</span><span class="sxs-lookup"><span data-stu-id="98d00-119">Customer payments are entered into Fabrikam.</span></span>
+-   <span data-ttu-id="98d00-120">Поле **Разнести скидки при оплате наличными** на странице **Внутрихолдинговый учет** задано как **Юридическое лицо, связанное с накладной**.</span><span class="sxs-lookup"><span data-stu-id="98d00-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
+-   <span data-ttu-id="98d00-121">Поле **Разнести прибыль или убыток по валютному курсу** на странице **Внутрихолдинговый учет** задано как **Юридическое лицо, связанное с платежом**.</span><span class="sxs-lookup"><span data-stu-id="98d00-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
+-   <span data-ttu-id="98d00-122">Клиент Northwind Traders настроен как клиент в каждом юридическом лице.</span><span class="sxs-lookup"><span data-stu-id="98d00-122">Customer Northwind Traders is set up as a customer in each legal entity.</span></span> <span data-ttu-id="98d00-123">Клиенты из различных юридических лиц определены как один и тот же клиент, потому что для них используется один код глобальной адресной книги.</span><span class="sxs-lookup"><span data-stu-id="98d00-123">The customers from the various legal entities are identified as the same customer because they share the same global address book ID.</span></span>
 
-| Код адресной книги | Счет клиента | Название              | Информация о компании  |
+| <span data-ttu-id="98d00-124">Код адресной книги</span><span class="sxs-lookup"><span data-stu-id="98d00-124">Address book ID</span></span> | <span data-ttu-id="98d00-125">Счет клиента</span><span class="sxs-lookup"><span data-stu-id="98d00-125">Customer account</span></span> | <span data-ttu-id="98d00-126">Название</span><span class="sxs-lookup"><span data-stu-id="98d00-126">Name</span></span>              | <span data-ttu-id="98d00-127">Информация о компании</span><span class="sxs-lookup"><span data-stu-id="98d00-127">Legal entity</span></span>  |
 |-----------------|------------------|-------------------|---------------|
-| 4050            | 4000             | Компания "Northwind Traders" | Fabrikam      |
-| 4050            | 4000             | Компания "Northwind Traders" | Fabrikam Восток |
-| 4050            | 10000            | Компания "Northwind Traders" | Fabrikam Запад |
+| <span data-ttu-id="98d00-128">4050</span><span class="sxs-lookup"><span data-stu-id="98d00-128">4050</span></span>            | <span data-ttu-id="98d00-129">4000</span><span class="sxs-lookup"><span data-stu-id="98d00-129">4000</span></span>             | <span data-ttu-id="98d00-130">Компания "Northwind Traders"</span><span class="sxs-lookup"><span data-stu-id="98d00-130">Northwind Traders</span></span> | <span data-ttu-id="98d00-131">Fabrikam</span><span class="sxs-lookup"><span data-stu-id="98d00-131">Fabrikam</span></span>      |
+| <span data-ttu-id="98d00-132">4050</span><span class="sxs-lookup"><span data-stu-id="98d00-132">4050</span></span>            | <span data-ttu-id="98d00-133">4000</span><span class="sxs-lookup"><span data-stu-id="98d00-133">4000</span></span>             | <span data-ttu-id="98d00-134">Компания "Northwind Traders"</span><span class="sxs-lookup"><span data-stu-id="98d00-134">Northwind Traders</span></span> | <span data-ttu-id="98d00-135">Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-135">Fabrikam East</span></span> |
+| <span data-ttu-id="98d00-136">4050</span><span class="sxs-lookup"><span data-stu-id="98d00-136">4050</span></span>            | <span data-ttu-id="98d00-137">10000</span><span class="sxs-lookup"><span data-stu-id="98d00-137">10000</span></span>            | <span data-ttu-id="98d00-138">Компания "Northwind Traders"</span><span class="sxs-lookup"><span data-stu-id="98d00-138">Northwind Traders</span></span> | <span data-ttu-id="98d00-139">Fabrikam Запад</span><span class="sxs-lookup"><span data-stu-id="98d00-139">Fabrikam West</span></span> |
 
-## <a name="example-1-customer-payment-of-invoice-from-another-legal-entity"></a>Пример 1. Платеж клиента по накладной от другого юридического лица
-Fabrikam получает платеж 600,00 для счета клиента 4 000, компании Northwind Traders. Платеж сопоставляется открытой накладной для счета клиента 4 000 в Fabrikam East.
+## <a name="example-1-customer-payment-of-invoice-from-another-legal-entity"></a><span data-ttu-id="98d00-140">Пример 1. Платеж клиента по накладной от другого юридического лица</span><span class="sxs-lookup"><span data-stu-id="98d00-140">Example 1: Customer payment of invoice from another legal entity</span></span>
+<span data-ttu-id="98d00-141">Fabrikam получает платеж 600,00 для счета клиента 4 000, компании Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="98d00-141">Fabrikam receives a payment of 600.00 for Fabrikam customer account 4000, Northwind Traders.</span></span> <span data-ttu-id="98d00-142">Платеж сопоставляется открытой накладной для счета клиента 4 000 в Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="98d00-142">The payment is settled with an open invoice for customer account 4000 in Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-customer-4000"></a>Накладная разнесена в компании Fabrikam East для клиента 4 000
+### <a name="invoice-is-posted-in-fabrikam-east-for-customer-4000"></a><span data-ttu-id="98d00-143">Накладная разнесена в компании Fabrikam East для клиента 4 000</span><span class="sxs-lookup"><span data-stu-id="98d00-143">Invoice is posted in Fabrikam East for customer 4000</span></span>
 
-| Счет                             | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-144">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-144">Account</span></span>                             | <span data-ttu-id="98d00-145">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-145">Debit amount</span></span> | <span data-ttu-id="98d00-146">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-146">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Расчеты с клиентами (Fabrikam East) | 600,00       |               |
-| Продажи (Fabrikam East)               |              | 600,00        |
+| <span data-ttu-id="98d00-147">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-147">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="98d00-148">600,00</span><span class="sxs-lookup"><span data-stu-id="98d00-148">600.00</span></span>       |               |
+| <span data-ttu-id="98d00-149">Продажи (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-149">Sales (Fabrikam East)</span></span>               |              | <span data-ttu-id="98d00-150">600,00</span><span class="sxs-lookup"><span data-stu-id="98d00-150">600.00</span></span>        |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a>Платеж получен и разнесен в компании Fabrikam для клиента 4000
+### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a><span data-ttu-id="98d00-151">Платеж получен и разнесен в компании Fabrikam для клиента 4000</span><span class="sxs-lookup"><span data-stu-id="98d00-151">Payment is received and posted in Fabrikam for customer 4000</span></span>
 
-| Счет                        | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-152">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-152">Account</span></span>                        | <span data-ttu-id="98d00-153">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-153">Debit amount</span></span> | <span data-ttu-id="98d00-154">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-154">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| Наличные (Fabrikam)                | 600,00       |               |
-| Расчеты с клиентами (Fabrikam) |              | 600,00        |
+| <span data-ttu-id="98d00-155">Наличные (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-155">Cash (Fabrikam)</span></span>                | <span data-ttu-id="98d00-156">600,00</span><span class="sxs-lookup"><span data-stu-id="98d00-156">600.00</span></span>       |               |
+| <span data-ttu-id="98d00-157">Расчеты с клиентами (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-157">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="98d00-158">600,00</span><span class="sxs-lookup"><span data-stu-id="98d00-158">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Платеж Fabrikam сопоставлен с накладной Fabrikam Восток
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="98d00-159">Платеж Fabrikam сопоставлен с накладной Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-159">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Разноска Fabrikam**
+<span data-ttu-id="98d00-160">**Разноска Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="98d00-160">**Fabrikam posting**</span></span>
 
-| Счет                         | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-161">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-161">Account</span></span>                         | <span data-ttu-id="98d00-162">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-162">Debit amount</span></span> | <span data-ttu-id="98d00-163">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-163">Credit amount</span></span> |
 |---------------------------------|--------------|---------------|
-| Расчеты с клиентами (Fabrikam)  | 600,00       |               |
-| Задолженность Fabrikam Восток (Fabrikam |              | 600,00        |
+| <span data-ttu-id="98d00-164">Расчеты с клиентами (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-164">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="98d00-165">600,00</span><span class="sxs-lookup"><span data-stu-id="98d00-165">600.00</span></span>       |               |
+| <span data-ttu-id="98d00-166">Задолженность Fabrikam Восток (Fabrikam</span><span class="sxs-lookup"><span data-stu-id="98d00-166">Due to Fabrikam East (Fabrikam)</span></span> |              | <span data-ttu-id="98d00-167">600,00</span><span class="sxs-lookup"><span data-stu-id="98d00-167">600.00</span></span>        |
 
-**Разноска Fabrikam Восток**
+<span data-ttu-id="98d00-168">**Разноска Fabrikam Восток**</span><span class="sxs-lookup"><span data-stu-id="98d00-168">**Fabrikam East posting**</span></span>
 
-| Счет                             | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-169">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-169">Account</span></span>                             | <span data-ttu-id="98d00-170">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-170">Debit amount</span></span> | <span data-ttu-id="98d00-171">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-171">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Задолженность от Fabrikam (Fabrikam Восток   | 600,00       |               |
-| Расчеты с клиентами (Fabrikam East) |              | 600,00        |
+| <span data-ttu-id="98d00-172">Задолженность от Fabrikam (Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-172">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="98d00-173">600,00</span><span class="sxs-lookup"><span data-stu-id="98d00-173">600.00</span></span>       |               |
+| <span data-ttu-id="98d00-174">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-174">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="98d00-175">600,00</span><span class="sxs-lookup"><span data-stu-id="98d00-175">600.00</span></span>        |
 
-## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Пример 2. Платеж клиента по накладной от другого юридического лица со скидкой по оплате
-Fabrikam получает платеж 580,00 для счета 4 000, компании Northwind Traders. Компания Fabrikam Восток имеет открытую накладную для клиента 4000. По накладной имеется скидка при оплате наличными в сумме 20,00. Платеж сопоставляется с открытыми накладными Fabrikam East. Скидка по оплате разносится в компанию, выписавшую накладную, то есть в Fabrikam East.
+## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a><span data-ttu-id="98d00-176">Пример 2. Платеж клиента по накладной от другого юридического лица со скидкой по оплате</span><span class="sxs-lookup"><span data-stu-id="98d00-176">Example 2: Customer payment of invoice from another legal entity with cash discount</span></span>
+<span data-ttu-id="98d00-177">Fabrikam получает платеж 580,00 для счета 4 000, компании Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="98d00-177">Fabrikam receives a payment of 580.00 for Fabrikam customer 4000, Northwind Traders.</span></span> <span data-ttu-id="98d00-178">Компания Fabrikam Восток имеет открытую накладную для клиента 4000.</span><span class="sxs-lookup"><span data-stu-id="98d00-178">Fabrikam East has an open invoice for customer 4000.</span></span> <span data-ttu-id="98d00-179">По накладной имеется скидка при оплате наличными в сумме 20,00.</span><span class="sxs-lookup"><span data-stu-id="98d00-179">The invoice has a 20.00 cash discount available.</span></span> <span data-ttu-id="98d00-180">Платеж сопоставляется с открытыми накладными Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="98d00-180">The payment is settled with the open Fabrikam East invoices.</span></span> <span data-ttu-id="98d00-181">Скидка по оплате разносится в компанию, выписавшую накладную, то есть в Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="98d00-181">The cash discount is posted to the legal entity of the invoice, Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>Накладная разнесена в компании Fabrikam East для клиента 4000 компании Fabrikam East
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a><span data-ttu-id="98d00-182">Накладная разнесена в компании Fabrikam East для клиента 4000 компании Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="98d00-182">Invoice is posted in Fabrikam East for Fabrikam East customer 4000</span></span>
 
-| Счет                             | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-183">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-183">Account</span></span>                             | <span data-ttu-id="98d00-184">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-184">Debit amount</span></span> | <span data-ttu-id="98d00-185">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-185">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Расчеты с клиентами (Fabrikam East) | 600,00       |               |
-| Продажи (Fabrikam East)               |              | 600,00        |
+| <span data-ttu-id="98d00-186">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-186">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="98d00-187">600,00</span><span class="sxs-lookup"><span data-stu-id="98d00-187">600.00</span></span>       |               |
+| <span data-ttu-id="98d00-188">Продажи (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-188">Sales (Fabrikam East)</span></span>               |              | <span data-ttu-id="98d00-189">600,00</span><span class="sxs-lookup"><span data-stu-id="98d00-189">600.00</span></span>        |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>Платеж получен и разнесен в компании Fabrikam для клиента 4000 компании Fabrikam
+### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a><span data-ttu-id="98d00-190">Платеж получен и разнесен в компании Fabrikam для клиента 4000 компании Fabrikam</span><span class="sxs-lookup"><span data-stu-id="98d00-190">Payment is received and posted in Fabrikam for Fabrikam customer 4000</span></span>
 
-| Счет                        | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-191">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-191">Account</span></span>                        | <span data-ttu-id="98d00-192">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-192">Debit amount</span></span> | <span data-ttu-id="98d00-193">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-193">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| Наличные (Fabrikam)                | 600,00       |               |
-| Расчеты с клиентами (Fabrikam) |              | 600,00        |
+| <span data-ttu-id="98d00-194">Наличные (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-194">Cash (Fabrikam)</span></span>                | <span data-ttu-id="98d00-195">600,00</span><span class="sxs-lookup"><span data-stu-id="98d00-195">600.00</span></span>       |               |
+| <span data-ttu-id="98d00-196">Расчеты с клиентами (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-196">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="98d00-197">600,00</span><span class="sxs-lookup"><span data-stu-id="98d00-197">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Платеж Fabrikam сопоставлен с накладной Fabrikam Восток
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="98d00-198">Платеж Fabrikam сопоставлен с накладной Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-198">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Разноска Fabrikam**
+<span data-ttu-id="98d00-199">**Разноска Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="98d00-199">**Fabrikam posting**</span></span>
 
-| Счет                         | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-200">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-200">Account</span></span>                         | <span data-ttu-id="98d00-201">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-201">Debit amount</span></span> | <span data-ttu-id="98d00-202">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-202">Credit amount</span></span> |
 |---------------------------------|--------------|---------------|
-| Расчеты с клиентами (Fabrikam)  | 580,00       |               |
-| Задолженность Fabrikam Восток (Fabrikam |              | 580,00        |
+| <span data-ttu-id="98d00-203">Расчеты с клиентами (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-203">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="98d00-204">580,00</span><span class="sxs-lookup"><span data-stu-id="98d00-204">580.00</span></span>       |               |
+| <span data-ttu-id="98d00-205">Задолженность Fabrikam Восток (Fabrikam</span><span class="sxs-lookup"><span data-stu-id="98d00-205">Due to Fabrikam East (Fabrikam)</span></span> |              | <span data-ttu-id="98d00-206">580,00</span><span class="sxs-lookup"><span data-stu-id="98d00-206">580.00</span></span>        |
 
-**Разноска Fabrikam Восток**
+<span data-ttu-id="98d00-207">**Разноска Fabrikam Восток**</span><span class="sxs-lookup"><span data-stu-id="98d00-207">**Fabrikam East posting**</span></span>
 
-| Счет                             | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-208">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-208">Account</span></span>                             | <span data-ttu-id="98d00-209">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-209">Debit amount</span></span> | <span data-ttu-id="98d00-210">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-210">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Задолженность от Fabrikam (Fabrikam Восток   | 580,00       |               |
-| Расчеты с клиентами (Fabrikam East) |              | 580,00        |
-| Скидка по оплате (Fabrikam Восток)       | 20,00        |               |
-| Расчеты с клиентами (Fabrikam East) |              | 20,00         |
+| <span data-ttu-id="98d00-211">Задолженность от Fabrikam (Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-211">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="98d00-212">580,00</span><span class="sxs-lookup"><span data-stu-id="98d00-212">580.00</span></span>       |               |
+| <span data-ttu-id="98d00-213">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-213">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="98d00-214">580,00</span><span class="sxs-lookup"><span data-stu-id="98d00-214">580.00</span></span>        |
+| <span data-ttu-id="98d00-215">Скидка по оплате (Fabrikam Восток)</span><span class="sxs-lookup"><span data-stu-id="98d00-215">Cash discount (Fabrikam East)</span></span>       | <span data-ttu-id="98d00-216">20,00</span><span class="sxs-lookup"><span data-stu-id="98d00-216">20.00</span></span>        |               |
+| <span data-ttu-id="98d00-217">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-217">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="98d00-218">20,00</span><span class="sxs-lookup"><span data-stu-id="98d00-218">20.00</span></span>         |
 
-## <a name="example-3-customer-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-gain"></a>Пример 3. Платеж клиента по накладной другого юридического лица с реализованной прибылью в связи с изменением валютного курса
-Fabrikam получает платеж 600,00 евро для клиента 4000, компании Northwind Traders. Платеж сопоставляется открытой накладной для клиента 4 000 в Fabrikam East. Проводка прибыли по валютному курсу генерируется во время процесса сопоставления.
+## <a name="example-3-customer-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-gain"></a><span data-ttu-id="98d00-219">Пример 3. Платеж клиента по накладной другого юридического лица с реализованной прибылью в связи с изменением валютного курса</span><span class="sxs-lookup"><span data-stu-id="98d00-219">Example 3: Customer payment of invoice from another legal entity with realized exchange rate gain</span></span>
+<span data-ttu-id="98d00-220">Fabrikam получает платеж 600,00 евро для клиента 4000, компании Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="98d00-220">Fabrikam receives a payment of 600.00 euros (EUR) for Fabrikam customer 4000, Northwind Traders.</span></span> <span data-ttu-id="98d00-221">Платеж сопоставляется открытой накладной для клиента 4 000 в Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="98d00-221">The payment is settled with an open invoice for customer 4000 in Fabrikam East.</span></span> <span data-ttu-id="98d00-222">Проводка прибыли по валютному курсу генерируется во время процесса сопоставления.</span><span class="sxs-lookup"><span data-stu-id="98d00-222">A currency exchange gain transaction is generated during the settlement process.</span></span>
 
--   Валютный курс обмена евро на доллары США на дату составления накладной составляет 1,2062
--   Валютный курс обмена Евро на доллары США на дату оплаты составляет 1.2277
+-   <span data-ttu-id="98d00-223">Валютный курс обмена евро на доллары США на дату составления накладной составляет 1,2062</span><span class="sxs-lookup"><span data-stu-id="98d00-223">Exchange rate for EUR to U.S. dollars (USD) as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="98d00-224">Валютный курс обмена Евро на доллары США на дату оплаты составляет 1.2277</span><span class="sxs-lookup"><span data-stu-id="98d00-224">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>Накладная разнесена в компании Fabrikam East для клиента 4000 компании Fabrikam East
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a><span data-ttu-id="98d00-225">Накладная разнесена в компании Fabrikam East для клиента 4000 компании Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="98d00-225">Invoice is posted in Fabrikam East for Fabrikam East customer 4000</span></span>
 
-| Счет                             | Сумма дебета.            | Сумма кредита.           |
+| <span data-ttu-id="98d00-226">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-226">Account</span></span>                             | <span data-ttu-id="98d00-227">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-227">Debit amount</span></span>            | <span data-ttu-id="98d00-228">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-228">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| Расчеты с клиентами (Fabrikam East) | 600,00 EUR / 723,72 USD |                         |
-| Продажи (Fabrikam East)               |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="98d00-229">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-229">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="98d00-230">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-230">600.00 EUR / 723.72 USD</span></span> |                         |
+| <span data-ttu-id="98d00-231">Продажи (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-231">Sales (Fabrikam East)</span></span>               |                         | <span data-ttu-id="98d00-232">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-232">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>Платеж получен и разнесен в компании Fabrikam для клиента 4000 компании Fabrikam
+### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a><span data-ttu-id="98d00-233">Платеж получен и разнесен в компании Fabrikam для клиента 4000 компании Fabrikam</span><span class="sxs-lookup"><span data-stu-id="98d00-233">Payment is received and posted in Fabrikam for Fabrikam customer 4000</span></span>
 
-| Счет                        | Сумма дебета.            | Сумма кредита.           |
+| <span data-ttu-id="98d00-234">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-234">Account</span></span>                        | <span data-ttu-id="98d00-235">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-235">Debit amount</span></span>            | <span data-ttu-id="98d00-236">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-236">Credit amount</span></span>           |
 |--------------------------------|-------------------------|-------------------------|
-| Наличные (Fabrikam)                | 600,00 EUR / 736,62 USD |                         |
-| Расчеты с клиентами (Fabrikam) |                         | 600,00 EUR / 736,62 USD |
+| <span data-ttu-id="98d00-237">Наличные (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-237">Cash (Fabrikam)</span></span>                | <span data-ttu-id="98d00-238">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-238">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="98d00-239">Расчеты с клиентами (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-239">Accounts receivable (Fabrikam)</span></span> |                         | <span data-ttu-id="98d00-240">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-240">600.00 EUR / 736.62 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Платеж Fabrikam сопоставлен с накладной Fabrikam Восток
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="98d00-241">Платеж Fabrikam сопоставлен с накладной Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-241">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Разноска Fabrikam**
+<span data-ttu-id="98d00-242">**Разноска Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="98d00-242">**Fabrikam posting**</span></span>
 
-| Счет                         | Сумма дебета.            | Сумма кредита.           |
+| <span data-ttu-id="98d00-243">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-243">Account</span></span>                         | <span data-ttu-id="98d00-244">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-244">Debit amount</span></span>            | <span data-ttu-id="98d00-245">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-245">Credit amount</span></span>           |
 |---------------------------------|-------------------------|-------------------------|
-| Расчеты с клиентами (Fabrikam)  | 600,00 EUR / 736,62 USD |                         |
-| Задолженность Fabrikam Восток (Fabrikam |                         | 600,00 EUR / 736,62 USD |
-| Задолженность Fabrikam Восток (Fabrikam | 0,00 EUR / 12,90 USD    |                         |
-| Реализованная прибыль (Fabrikam)        |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="98d00-246">Расчеты с клиентами (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-246">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="98d00-247">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-247">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="98d00-248">Задолженность Fabrikam Восток (Fabrikam</span><span class="sxs-lookup"><span data-stu-id="98d00-248">Due to Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="98d00-249">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-249">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="98d00-250">Задолженность Fabrikam Восток (Fabrikam</span><span class="sxs-lookup"><span data-stu-id="98d00-250">Due to Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="98d00-251">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-251">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="98d00-252">Реализованная прибыль (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-252">Realized gain (Fabrikam)</span></span>        |                         | <span data-ttu-id="98d00-253">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-253">0.00 EUR / 12.90 USD</span></span>    |
 
-**Разноска Fabrikam Восток**
+<span data-ttu-id="98d00-254">**Разноска Fabrikam Восток**</span><span class="sxs-lookup"><span data-stu-id="98d00-254">**Fabrikam East posting**</span></span>
 
-| Счет                             | Сумма дебета.            | Сумма кредита.           |
+| <span data-ttu-id="98d00-255">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-255">Account</span></span>                             | <span data-ttu-id="98d00-256">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-256">Debit amount</span></span>            | <span data-ttu-id="98d00-257">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-257">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| Задолженность от Fabrikam (Fabrikam Восток   | 600,00 EUR / 736,62 USD |                         |
-| Расчеты с клиентами (Fabrikam East) |                         | 600,00 EUR / 736,62 USD |
-| Расчеты с клиентами (Fabrikam East) | 0,00 EUR / 12,90 USD    |                         |
-| Задолженность от Fabrikam (Fabrikam Восток   |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="98d00-258">Задолженность от Fabrikam (Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-258">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="98d00-259">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-259">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="98d00-260">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-260">Accounts receivable (Fabrikam East)</span></span> |                         | <span data-ttu-id="98d00-261">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-261">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="98d00-262">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-262">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="98d00-263">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-263">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="98d00-264">Задолженность от Fabrikam (Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-264">Due from Fabrikam (Fabrikam East)</span></span>   |                         | <span data-ttu-id="98d00-265">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-265">0.00 EUR / 12.90 USD</span></span>    |
 
-## <a name="example-4-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-gain"></a>Пример 4. Платеж клиента по накладной другого юридического лица со скидкой по оплате и реализованной прибылью за счет изменения валютного курса
-Fabrikam разносит платеж для клиента Fabrikam 4 000, компании Northwind Traders, по открытой накладной в Fabrikam East. В накладной предусмотрена скидка при оплате наличными и генерируется проводка налога. Платеж сопоставляется с открытыми накладными Fabrikam East. Проводка прибыли по валютному курсу генерируется во время процедуры сопоставления. Скидка при оплате наличными разносится на юридическое лицо, указанное в накладной ("Fabrikam Восток"), а прибыль в связи с обменом валюты разносится на юридическое лицо, связанное с платежом (Fabrikam).
+## <a name="example-4-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-gain"></a><span data-ttu-id="98d00-266">Пример 4. Платеж клиента по накладной другого юридического лица со скидкой по оплате и реализованной прибылью за счет изменения валютного курса</span><span class="sxs-lookup"><span data-stu-id="98d00-266">Example 4: Customer payment of invoice from another legal entity with cash discount and realized exchange rate gain</span></span>
+<span data-ttu-id="98d00-267">Fabrikam разносит платеж для клиента Fabrikam 4 000, компании Northwind Traders, по открытой накладной в Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="98d00-267">Fabrikam posts a payment for Fabrikam customer 4000, Northwind Traders, for an open invoice in Fabrikam East.</span></span> <span data-ttu-id="98d00-268">В накладной предусмотрена скидка при оплате наличными и генерируется проводка налога.</span><span class="sxs-lookup"><span data-stu-id="98d00-268">The invoice has a cash discount available, and a sales tax transaction is generated.</span></span> <span data-ttu-id="98d00-269">Платеж сопоставляется с открытыми накладными Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="98d00-269">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="98d00-270">Проводка прибыли по валютному курсу генерируется во время процедуры сопоставления.</span><span class="sxs-lookup"><span data-stu-id="98d00-270">A currency exchange gain transaction is generated during the settlement process.</span></span> <span data-ttu-id="98d00-271">Скидка при оплате наличными разносится на юридическое лицо, указанное в накладной ("Fabrikam Восток"), а прибыль в связи с обменом валюты разносится на юридическое лицо, связанное с платежом (Fabrikam).</span><span class="sxs-lookup"><span data-stu-id="98d00-271">The cash discount is posted to the legal entity of the invoice (Fabrikam East), and the currency exchange gain is posted to the legal entity of the payment (Fabrikam).</span></span>
 
--   Валютный курс обмена Евро на доллары США на дату составления накладной составляет 1.2062
--   Валютный курс обмена Евро на доллары США на дату оплаты составляет 1.2277
+-   <span data-ttu-id="98d00-272">Валютный курс обмена Евро на доллары США на дату составления накладной составляет 1.2062</span><span class="sxs-lookup"><span data-stu-id="98d00-272">Exchange rate for EUR to USD as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="98d00-273">Валютный курс обмена Евро на доллары США на дату оплаты составляет 1.2277</span><span class="sxs-lookup"><span data-stu-id="98d00-273">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="free-text-invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-customer-4000"></a>В Fabrikam East для клиента 4 000 разносится накладная с произвольным текстом и генерируется проводка налога
+### <a name="free-text-invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-customer-4000"></a><span data-ttu-id="98d00-274">В Fabrikam East для клиента 4 000 разносится накладная с произвольным текстом и генерируется проводка налога</span><span class="sxs-lookup"><span data-stu-id="98d00-274">Free text invoice is posted and a tax transaction is generated in Fabrikam East for customer 4000</span></span>
 
-| Счет                             | Сумма дебета.            | Сумма кредита.           |
+| <span data-ttu-id="98d00-275">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-275">Account</span></span>                             | <span data-ttu-id="98d00-276">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-276">Debit amount</span></span>            | <span data-ttu-id="98d00-277">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-277">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| Расчеты с клиентами (Fabrikam East) | 638,22 EUR / 769,82 USD |                         |
-| Продажи (Fabrikam East)               |                         | 600,00 EUR / 723,72 USD |
-| Налог (Fabrikam Восток)           |                         | 38,22 EUR / 46,10 USD   |
+| <span data-ttu-id="98d00-278">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-278">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="98d00-279">638,22 EUR / 769,82 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-279">638.22 EUR / 769.82 USD</span></span> |                         |
+| <span data-ttu-id="98d00-280">Продажи (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-280">Sales (Fabrikam East)</span></span>               |                         | <span data-ttu-id="98d00-281">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-281">600.00 EUR / 723.72 USD</span></span> |
+| <span data-ttu-id="98d00-282">Налог (Fabrikam Восток)</span><span class="sxs-lookup"><span data-stu-id="98d00-282">Sales tax (Fabrikam East)</span></span>           |                         | <span data-ttu-id="98d00-283">38,22 EUR / 46,10 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-283">38.22 EUR / 46.10 USD</span></span>   |
 
-### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a>Платеж получен и разнесен в компании Fabrikam для клиента 4000
+### <a name="payment-is-received-and-posted-in-fabrikam-for-customer-4000"></a><span data-ttu-id="98d00-284">Платеж получен и разнесен в компании Fabrikam для клиента 4000</span><span class="sxs-lookup"><span data-stu-id="98d00-284">Payment is received and posted in Fabrikam for customer 4000</span></span>
 
-| Счет                        | Сумма дебета.            | Сумма кредита.           |
+| <span data-ttu-id="98d00-285">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-285">Account</span></span>                        | <span data-ttu-id="98d00-286">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-286">Debit amount</span></span>            | <span data-ttu-id="98d00-287">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-287">Credit amount</span></span>           |
 |--------------------------------|-------------------------|-------------------------|
-| Наличные (Fabrikam)                | 626,22 EUR / 768,81 USD |                         |
-| Расчеты с клиентами (Fabrikam) |                         | 626,22 EUR / 768,81 USD |
+| <span data-ttu-id="98d00-288">Наличные (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-288">Cash (Fabrikam)</span></span>                | <span data-ttu-id="98d00-289">626,22 EUR / 768,81 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-289">626.22 EUR / 768.81 USD</span></span> |                         |
+| <span data-ttu-id="98d00-290">Расчеты с клиентами (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-290">Accounts receivable (Fabrikam)</span></span> |                         | <span data-ttu-id="98d00-291">626,22 EUR / 768,81 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-291">626.22 EUR / 768.81 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Платеж Fabrikam сопоставлен с накладной Fabrikam Восток
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="98d00-292">Платеж Fabrikam сопоставлен с накладной Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-292">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Разноска Fabrikam**
+<span data-ttu-id="98d00-293">**Разноска Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="98d00-293">**Fabrikam posting**</span></span>
 
-| Счет                         | Сумма дебета.            | Сумма кредита.           |
+| <span data-ttu-id="98d00-294">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-294">Account</span></span>                         | <span data-ttu-id="98d00-295">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-295">Debit amount</span></span>            | <span data-ttu-id="98d00-296">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-296">Credit amount</span></span>           |
 |---------------------------------|-------------------------|-------------------------|
-| Расчеты с клиентами (Fabrikam)  | 626,22 EUR / 768,81 USD |                         |
-| Задолженность Fabrikam Восток (Fabrikam |                         | 626,22 EUR / 768,81 USD |
-| Задолженность Fabrikam Восток (Fabrikam | 0,00 EUR / 13,46 USD    |                         |
-| Реализованная прибыль (Fabrikam)        |                         | 0,00 EUR / 13,46 USD    |
+| <span data-ttu-id="98d00-297">Расчеты с клиентами (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-297">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="98d00-298">626,22 EUR / 768,81 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-298">626.22 EUR / 768.81 USD</span></span> |                         |
+| <span data-ttu-id="98d00-299">Задолженность Fabrikam Восток (Fabrikam</span><span class="sxs-lookup"><span data-stu-id="98d00-299">Due to Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="98d00-300">626,22 EUR / 768,81 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-300">626.22 EUR / 768.81 USD</span></span> |
+| <span data-ttu-id="98d00-301">Задолженность Fabrikam Восток (Fabrikam</span><span class="sxs-lookup"><span data-stu-id="98d00-301">Due to Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="98d00-302">0,00 EUR / 13,46 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-302">0.00 EUR / 13.46 USD</span></span>    |                         |
+| <span data-ttu-id="98d00-303">Реализованная прибыль (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-303">Realized gain (Fabrikam)</span></span>        |                         | <span data-ttu-id="98d00-304">0,00 EUR / 13,46 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-304">0.00 EUR / 13.46 USD</span></span>    |
 
-**Разноска Fabrikam Восток**
+<span data-ttu-id="98d00-305">**Разноска Fabrikam Восток**</span><span class="sxs-lookup"><span data-stu-id="98d00-305">**Fabrikam East posting**</span></span>
 
-| Счет                             | Сумма дебета.            | Сумма кредита.           |
+| <span data-ttu-id="98d00-306">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-306">Account</span></span>                             | <span data-ttu-id="98d00-307">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-307">Debit amount</span></span>            | <span data-ttu-id="98d00-308">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-308">Credit amount</span></span>           |
 |-------------------------------------|-------------------------|-------------------------|
-| Задолженность от Fabrikam (Fabrikam Восток   | 626,22 EUR / 768,81 USD |                         |
-| Расчеты с клиентами (Fabrikam East) |                         | 626,22 EUR / 768,81 USD |
-| Расчеты с клиентами (Fabrikam East  | 0,00 EUR / 13,46 USD    |                         |
-| Задолженность от Fabrikam (Fabrikam Восток   |                         | 0,00 EUR / 13,46 USD    |
-| Скидка по оплате (Fabrikam Восток)       | 12,00 EUR / 14,47 USD   |                         |
-| Расчеты с клиентами (Fabrikam East) |                         | 12,00 EUR / 14,47 USD   |
+| <span data-ttu-id="98d00-309">Задолженность от Fabrikam (Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-309">Due from Fabrikam (Fabrikam East)</span></span>   | <span data-ttu-id="98d00-310">626,22 EUR / 768,81 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-310">626.22 EUR / 768.81 USD</span></span> |                         |
+| <span data-ttu-id="98d00-311">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-311">Accounts receivable (Fabrikam East)</span></span> |                         | <span data-ttu-id="98d00-312">626,22 EUR / 768,81 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-312">626.22 EUR / 768.81 USD</span></span> |
+| <span data-ttu-id="98d00-313">Расчеты с клиентами (Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="98d00-313">Accounts receivable (Fabrikam East</span></span>  | <span data-ttu-id="98d00-314">0,00 EUR / 13,46 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-314">0.00 EUR / 13.46 USD</span></span>    |                         |
+| <span data-ttu-id="98d00-315">Задолженность от Fabrikam (Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-315">Due from Fabrikam (Fabrikam East)</span></span>   |                         | <span data-ttu-id="98d00-316">0,00 EUR / 13,46 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-316">0.00 EUR / 13.46 USD</span></span>    |
+| <span data-ttu-id="98d00-317">Скидка по оплате (Fabrikam Восток)</span><span class="sxs-lookup"><span data-stu-id="98d00-317">Cash discount (Fabrikam East)</span></span>       | <span data-ttu-id="98d00-318">12,00 EUR / 14,47 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-318">12.00 EUR / 14.47 USD</span></span>   |                         |
+| <span data-ttu-id="98d00-319">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-319">Accounts receivable (Fabrikam East)</span></span> |                         | <span data-ttu-id="98d00-320">12,00 EUR / 14,47 USD</span><span class="sxs-lookup"><span data-stu-id="98d00-320">12.00 EUR / 14.47 USD</span></span>   |
 
-## <a name="example-5-customer-credit-note-with-primary-payment"></a>Пример 5: Кредит-нота клиента с основным платежом
-Fabrikam получает платеж 75,00 от клиента 4 000, компании Northwind Traders. Платеж сопоставляется с открытой накладной для клиента 10 000 в компании Fabrikam West и открытой кредит-нотой для клиента 4 000 в компании Fabrikam East. Платеж выбирается как основной на странице **Сопоставление проводок**.
+## <a name="example-5-customer-credit-note-with-primary-payment"></a><span data-ttu-id="98d00-321">Пример 5: Кредит-нота клиента с основным платежом</span><span class="sxs-lookup"><span data-stu-id="98d00-321">Example 5: Customer credit note with primary payment</span></span>
+<span data-ttu-id="98d00-322">Fabrikam получает платеж 75,00 от клиента 4 000, компании Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="98d00-322">Fabrikam receives a payment of 75.00 from customer 4000, Northwind Traders.</span></span> <span data-ttu-id="98d00-323">Платеж сопоставляется с открытой накладной для клиента 10 000 в компании Fabrikam West и открытой кредит-нотой для клиента 4 000 в компании Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="98d00-323">The payment is settled with an open invoice for Fabrikam West customer 10000 and an open credit note for Fabrikam East customer 4000.</span></span> <span data-ttu-id="98d00-324">Платеж выбирается как основной на странице **Сопоставление проводок**.</span><span class="sxs-lookup"><span data-stu-id="98d00-324">The payment is selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Накладная разнесена в компании Fabrikam West для клиента 10000
+### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a><span data-ttu-id="98d00-325">Накладная разнесена в компании Fabrikam West для клиента 10000</span><span class="sxs-lookup"><span data-stu-id="98d00-325">Invoice is posted to Fabrikam West for customer 10000</span></span>
 
-| Учетная запись                             | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-326">Учетная запись</span><span class="sxs-lookup"><span data-stu-id="98d00-326">Account</span></span>                             | <span data-ttu-id="98d00-327">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-327">Debit amount</span></span> | <span data-ttu-id="98d00-328">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-328">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Расчеты с клиентами (Fabrikam West) | 100,00       |               |
-| Продажи (Fabrikam West)               |              | 100,00        |
+| <span data-ttu-id="98d00-329">Расчеты с клиентами (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="98d00-329">Accounts receivable (Fabrikam West)</span></span> | <span data-ttu-id="98d00-330">100,00</span><span class="sxs-lookup"><span data-stu-id="98d00-330">100.00</span></span>       |               |
+| <span data-ttu-id="98d00-331">Продажи (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="98d00-331">Sales (Fabrikam West)</span></span>               |              | <span data-ttu-id="98d00-332">100,00</span><span class="sxs-lookup"><span data-stu-id="98d00-332">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a>Кредит-нота разнесена в компании Fabrikam East для клиента 4000
+### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a><span data-ttu-id="98d00-333">Кредит-нота разнесена в компании Fabrikam East для клиента 4000</span><span class="sxs-lookup"><span data-stu-id="98d00-333">Credit note is posted to Fabrikam East for customer 4000</span></span>
 
-| Счет                             | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-334">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-334">Account</span></span>                             | <span data-ttu-id="98d00-335">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-335">Debit amount</span></span> | <span data-ttu-id="98d00-336">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-336">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Возвращенный товар (Fabrikam East)       | 25,00        |               |
-| Расчеты с клиентами (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="98d00-337">Возвращенный товар (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-337">Sales returns (Fabrikam East)</span></span>       | <span data-ttu-id="98d00-338">25,00</span><span class="sxs-lookup"><span data-stu-id="98d00-338">25.00</span></span>        |               |
+| <span data-ttu-id="98d00-339">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-339">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="98d00-340">25,00</span><span class="sxs-lookup"><span data-stu-id="98d00-340">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a>Платеж разнесен в компании Fabrikam для клиента 4000
+### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a><span data-ttu-id="98d00-341">Платеж разнесен в компании Fabrikam для клиента 4000</span><span class="sxs-lookup"><span data-stu-id="98d00-341">Payment is posted to Fabrikam for customer 4000</span></span>
 
-| Счет                        | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-342">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-342">Account</span></span>                        | <span data-ttu-id="98d00-343">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-343">Debit amount</span></span> | <span data-ttu-id="98d00-344">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-344">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| Наличные (Fabrikam)                | 75,00        |               |
-| Расчеты с клиентами (Fabrikam) |              | 75,00         |
+| <span data-ttu-id="98d00-345">Наличные (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-345">Cash (Fabrikam)</span></span>                | <span data-ttu-id="98d00-346">75,00</span><span class="sxs-lookup"><span data-stu-id="98d00-346">75.00</span></span>        |               |
+| <span data-ttu-id="98d00-347">Расчеты с клиентами (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-347">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="98d00-348">75,00</span><span class="sxs-lookup"><span data-stu-id="98d00-348">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Платеж Fabrikam сопоставлен с накладной Fabrikam Запад и кредит-нотой Fabrikam Восток
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="98d00-349">Платеж Fabrikam сопоставлен с накладной Fabrikam Запад и кредит-нотой Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-349">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Разноска Fabrikam**
+<span data-ttu-id="98d00-350">**Разноска Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="98d00-350">**Fabrikam posting**</span></span>
 
-| Счет                           | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-351">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-351">Account</span></span>                           | <span data-ttu-id="98d00-352">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-352">Debit amount</span></span> | <span data-ttu-id="98d00-353">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-353">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Задолженность от Fabrikam Восток (Fabrikam | 25,00        |               |
-| Расчеты с клиентами (Fabrikam)    |              | 25,00         |
-| Расчеты с клиентами (Fabrikam)    | 100,00       |               |
-| Должны компании Fabrikam West (Fabrikam)   |              | 100,00        |
+| <span data-ttu-id="98d00-354">Задолженность от Fabrikam Восток (Fabrikam</span><span class="sxs-lookup"><span data-stu-id="98d00-354">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="98d00-355">25,00</span><span class="sxs-lookup"><span data-stu-id="98d00-355">25.00</span></span>        |               |
+| <span data-ttu-id="98d00-356">Расчеты с клиентами (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-356">Accounts receivable (Fabrikam)</span></span>    |              | <span data-ttu-id="98d00-357">25,00</span><span class="sxs-lookup"><span data-stu-id="98d00-357">25.00</span></span>         |
+| <span data-ttu-id="98d00-358">Расчеты с клиентами (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-358">Accounts receivable (Fabrikam)</span></span>    | <span data-ttu-id="98d00-359">100,00</span><span class="sxs-lookup"><span data-stu-id="98d00-359">100.00</span></span>       |               |
+| <span data-ttu-id="98d00-360">Должны компании Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-360">Due to Fabrikam West (Fabrikam)</span></span>   |              | <span data-ttu-id="98d00-361">100,00</span><span class="sxs-lookup"><span data-stu-id="98d00-361">100.00</span></span>        |
 
-**Разноска Fabrikam Восток**
+<span data-ttu-id="98d00-362">**Разноска Fabrikam Восток**</span><span class="sxs-lookup"><span data-stu-id="98d00-362">**Fabrikam East posting**</span></span>
 
-| Счет                             | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-363">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-363">Account</span></span>                             | <span data-ttu-id="98d00-364">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-364">Debit amount</span></span> | <span data-ttu-id="98d00-365">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-365">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Расчеты с клиентами (Fabrikam East) | 25,00        |               |
-| Задолженность Fabrikam (Fabrikam Восток     |              | 25,00         |
+| <span data-ttu-id="98d00-366">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-366">Accounts receivable (Fabrikam East)</span></span> | <span data-ttu-id="98d00-367">25,00</span><span class="sxs-lookup"><span data-stu-id="98d00-367">25.00</span></span>        |               |
+| <span data-ttu-id="98d00-368">Задолженность Fabrikam (Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-368">Due to Fabrikam (Fabrikam East)</span></span>     |              | <span data-ttu-id="98d00-369">25,00</span><span class="sxs-lookup"><span data-stu-id="98d00-369">25.00</span></span>         |
 
-**Разноска Fabrikam Запад**
+<span data-ttu-id="98d00-370">**Разноска Fabrikam Запад**</span><span class="sxs-lookup"><span data-stu-id="98d00-370">**Fabrikam West posting**</span></span>
 
-| Счет                             | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-371">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-371">Account</span></span>                             | <span data-ttu-id="98d00-372">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-372">Debit amount</span></span> | <span data-ttu-id="98d00-373">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-373">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Долг компании Fabrikam (Fabrikam West)   | 100,00       |               |
-| Расчеты с клиентами (Fabrikam West) |              | 100,00        |
+| <span data-ttu-id="98d00-374">Долг компании Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="98d00-374">Due from Fabrikam (Fabrikam West)</span></span>   | <span data-ttu-id="98d00-375">100,00</span><span class="sxs-lookup"><span data-stu-id="98d00-375">100.00</span></span>       |               |
+| <span data-ttu-id="98d00-376">Расчеты с клиентами (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="98d00-376">Accounts receivable (Fabrikam West)</span></span> |              | <span data-ttu-id="98d00-377">100,00</span><span class="sxs-lookup"><span data-stu-id="98d00-377">100.00</span></span>        |
 
-## <a name="example-6-customer-credit-note-without-primary-payment"></a>Пример 6: Кредит-нота клиента без основного платежа
-Fabrikam получает платеж 75,00 от клиента 4 000, компании Northwind Traders. Платеж сопоставляется с открытой накладной для клиента 10 000 в компании Fabrikam West и открытой кредит-нотой для клиента 4 000 в компании Fabrikam East. Платеж не выбирается как основной на странице **Сопоставление проводок**.
+## <a name="example-6-customer-credit-note-without-primary-payment"></a><span data-ttu-id="98d00-378">Пример 6: Кредит-нота клиента без основного платежа</span><span class="sxs-lookup"><span data-stu-id="98d00-378">Example 6: Customer credit note without primary payment</span></span>
+<span data-ttu-id="98d00-379">Fabrikam получает платеж 75,00 от клиента 4 000, компании Northwind Traders.</span><span class="sxs-lookup"><span data-stu-id="98d00-379">Fabrikam receives a payment of 75.00 from customer 4000, Northwind Traders.</span></span> <span data-ttu-id="98d00-380">Платеж сопоставляется с открытой накладной для клиента 10 000 в компании Fabrikam West и открытой кредит-нотой для клиента 4 000 в компании Fabrikam East.</span><span class="sxs-lookup"><span data-stu-id="98d00-380">The payment is settled with an open invoice for Fabrikam West customer 10000 and an open credit note for Fabrikam East customer 4000.</span></span> <span data-ttu-id="98d00-381">Платеж не выбирается как основной на странице **Сопоставление проводок**.</span><span class="sxs-lookup"><span data-stu-id="98d00-381">The payment isn't selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Накладная разнесена в компании Fabrikam West для клиента 10000
+### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a><span data-ttu-id="98d00-382">Накладная разнесена в компании Fabrikam West для клиента 10000</span><span class="sxs-lookup"><span data-stu-id="98d00-382">Invoice is posted to Fabrikam West for customer 10000</span></span>
 
-| Учетная запись                             | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-383">Учетная запись</span><span class="sxs-lookup"><span data-stu-id="98d00-383">Account</span></span>                             | <span data-ttu-id="98d00-384">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-384">Debit amount</span></span> | <span data-ttu-id="98d00-385">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-385">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Расчеты с клиентами (Fabrikam West) | 100,00       |               |
-| Продажи (Fabrikam West)               |              | 100,00        |
+| <span data-ttu-id="98d00-386">Расчеты с клиентами (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="98d00-386">Accounts receivable (Fabrikam West)</span></span> | <span data-ttu-id="98d00-387">100,00</span><span class="sxs-lookup"><span data-stu-id="98d00-387">100.00</span></span>       |               |
+| <span data-ttu-id="98d00-388">Продажи (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="98d00-388">Sales (Fabrikam West)</span></span>               |              | <span data-ttu-id="98d00-389">100,00</span><span class="sxs-lookup"><span data-stu-id="98d00-389">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a>Кредит-нота разнесена в компании Fabrikam East для клиента 4000
+### <a name="credit-note-is-posted-to-fabrikam-east-for-customer-4000"></a><span data-ttu-id="98d00-390">Кредит-нота разнесена в компании Fabrikam East для клиента 4000</span><span class="sxs-lookup"><span data-stu-id="98d00-390">Credit note is posted to Fabrikam East for customer 4000</span></span>
 
-| Счет                             | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-391">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-391">Account</span></span>                             | <span data-ttu-id="98d00-392">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-392">Debit amount</span></span> | <span data-ttu-id="98d00-393">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-393">Credit amount</span></span> |
 |-------------------------------------|--------------|---------------|
-| Возвращенный товар (Fabrikam East)       | 25,00        |               |
-| Расчеты с клиентами (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="98d00-394">Возвращенный товар (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-394">Sales returns (Fabrikam East)</span></span>       | <span data-ttu-id="98d00-395">25,00</span><span class="sxs-lookup"><span data-stu-id="98d00-395">25.00</span></span>        |               |
+| <span data-ttu-id="98d00-396">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-396">Accounts receivable (Fabrikam East)</span></span> |              | <span data-ttu-id="98d00-397">25,00</span><span class="sxs-lookup"><span data-stu-id="98d00-397">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a>Платеж разнесен в компании Fabrikam для клиента 4000
+### <a name="payment-is-posted-to-fabrikam-for-customer-4000"></a><span data-ttu-id="98d00-398">Платеж разнесен в компании Fabrikam для клиента 4000</span><span class="sxs-lookup"><span data-stu-id="98d00-398">Payment is posted to Fabrikam for customer 4000</span></span>
 
-| Счет                        | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-399">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-399">Account</span></span>                        | <span data-ttu-id="98d00-400">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-400">Debit amount</span></span> | <span data-ttu-id="98d00-401">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-401">Credit amount</span></span> |
 |--------------------------------|--------------|---------------|
-| Наличные (Fabrikam)                | 75,00        |               |
-| Расчеты с клиентами (Fabrikam) |              | 75,00         |
+| <span data-ttu-id="98d00-402">Наличные (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-402">Cash (Fabrikam)</span></span>                | <span data-ttu-id="98d00-403">75,00</span><span class="sxs-lookup"><span data-stu-id="98d00-403">75.00</span></span>        |               |
+| <span data-ttu-id="98d00-404">Расчеты с клиентами (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-404">Accounts receivable (Fabrikam)</span></span> |              | <span data-ttu-id="98d00-405">75,00</span><span class="sxs-lookup"><span data-stu-id="98d00-405">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Платеж Fabrikam сопоставлен с накладной Fabrikam Запад и кредит-нотой Fabrikam Восток
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="98d00-406">Платеж Fabrikam сопоставлен с накладной Fabrikam Запад и кредит-нотой Fabrikam Восток</span><span class="sxs-lookup"><span data-stu-id="98d00-406">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Разноска Fabrikam**
+<span data-ttu-id="98d00-407">**Разноска Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="98d00-407">**Fabrikam posting**</span></span>
 
-| Счет                         | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-408">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-408">Account</span></span>                         | <span data-ttu-id="98d00-409">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-409">Debit amount</span></span> | <span data-ttu-id="98d00-410">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-410">Credit amount</span></span> |
 |---------------------------------|--------------|---------------|
-| Расчеты с клиентами (Fabrikam)  | 75,00        |               |
-| Должны компании Fabrikam West (Fabrikam) |              | 75,00         |
+| <span data-ttu-id="98d00-411">Расчеты с клиентами (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-411">Accounts receivable (Fabrikam)</span></span>  | <span data-ttu-id="98d00-412">75,00</span><span class="sxs-lookup"><span data-stu-id="98d00-412">75.00</span></span>        |               |
+| <span data-ttu-id="98d00-413">Должны компании Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="98d00-413">Due to Fabrikam West (Fabrikam)</span></span> |              | <span data-ttu-id="98d00-414">75,00</span><span class="sxs-lookup"><span data-stu-id="98d00-414">75.00</span></span>         |
 
-**Разноска Fabrikam Восток**
+<span data-ttu-id="98d00-415">**Разноска Fabrikam Восток**</span><span class="sxs-lookup"><span data-stu-id="98d00-415">**Fabrikam East posting**</span></span>
 
-| Счет                              | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-416">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-416">Account</span></span>                              | <span data-ttu-id="98d00-417">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-417">Debit amount</span></span> | <span data-ttu-id="98d00-418">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-418">Credit amount</span></span> |
 |--------------------------------------|--------------|---------------|
-| Расчеты с клиентами (Fabrikam East)  | 25,00        |               |
-| Должны компании Fabrikam West (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="98d00-419">Расчеты с клиентами (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-419">Accounts receivable (Fabrikam East)</span></span>  | <span data-ttu-id="98d00-420">25,00</span><span class="sxs-lookup"><span data-stu-id="98d00-420">25.00</span></span>        |               |
+| <span data-ttu-id="98d00-421">Должны компании Fabrikam West (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="98d00-421">Due to Fabrikam West (Fabrikam East)</span></span> |              | <span data-ttu-id="98d00-422">25,00</span><span class="sxs-lookup"><span data-stu-id="98d00-422">25.00</span></span>         |
 
-**Разноска Fabrikam Запад**
+<span data-ttu-id="98d00-423">**Разноска Fabrikam Запад**</span><span class="sxs-lookup"><span data-stu-id="98d00-423">**Fabrikam West posting**</span></span>
 
-| Счет                                | Сумма дебета. | Сумма кредита. |
+| <span data-ttu-id="98d00-424">Счет</span><span class="sxs-lookup"><span data-stu-id="98d00-424">Account</span></span>                                | <span data-ttu-id="98d00-425">Сумма дебета.</span><span class="sxs-lookup"><span data-stu-id="98d00-425">Debit amount</span></span> | <span data-ttu-id="98d00-426">Сумма кредита.</span><span class="sxs-lookup"><span data-stu-id="98d00-426">Credit amount</span></span> |
 |----------------------------------------|--------------|---------------|
-| Долг компании Fabrikam (Fabrikam West)      | 75,00        |               |
-| Расчеты с клиентами (Fabrikam West)    |              | 75,00         |
-| Долг компании Fabrikam East (Fabrikam West) | 25,00        |               |
-| Расчеты с клиентами (Fabrikam West)    |              | 25,00         |
+| <span data-ttu-id="98d00-427">Долг компании Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="98d00-427">Due from Fabrikam (Fabrikam West)</span></span>      | <span data-ttu-id="98d00-428">75,00</span><span class="sxs-lookup"><span data-stu-id="98d00-428">75.00</span></span>        |               |
+| <span data-ttu-id="98d00-429">Расчеты с клиентами (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="98d00-429">Accounts receivable (Fabrikam West)</span></span>    |              | <span data-ttu-id="98d00-430">75,00</span><span class="sxs-lookup"><span data-stu-id="98d00-430">75.00</span></span>         |
+| <span data-ttu-id="98d00-431">Долг компании Fabrikam East (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="98d00-431">Due from Fabrikam East (Fabrikam West)</span></span> | <span data-ttu-id="98d00-432">25,00</span><span class="sxs-lookup"><span data-stu-id="98d00-432">25.00</span></span>        |               |
+| <span data-ttu-id="98d00-433">Расчеты с клиентами (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="98d00-433">Accounts receivable (Fabrikam West)</span></span>    |              | <span data-ttu-id="98d00-434">25,00</span><span class="sxs-lookup"><span data-stu-id="98d00-434">25.00</span></span>         |
 
 
 

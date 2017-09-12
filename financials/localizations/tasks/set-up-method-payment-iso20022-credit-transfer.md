@@ -16,35 +16,35 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: cc30912d15549c9519133c6ea12ee4d8edea7214
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: bed51f8749dfa0264ad39f51f9ceb295ac46fe93
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a>Настройка способов оплаты для кредитового перевода ISO20022
+# <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a><span data-ttu-id="8079a-103">Настройка способов оплаты для кредитового перевода ISO20022</span><span class="sxs-lookup"><span data-stu-id="8079a-103">Set up method of payment for ISO20022 credit transfer</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура показывает, как настроить метод платежа поставщику для переноса кредита ISO20022 или любого другого типа платежа с использованием электронной отчетности для создания файла. 
+<span data-ttu-id="8079a-104">Эта процедура показывает, как настроить метод платежа поставщику для переноса кредита ISO20022 или любого другого типа платежа с использованием электронной отчетности для создания файла.</span><span class="sxs-lookup"><span data-stu-id="8079a-104">This procedure shows how to set up the vendor method of payment for ISO20022 credit transfer or any other payment type using electronic reporting to generate a file.</span></span> 
 
-Прежде чем можно будет выполнить эту задачу, необходимо экспортировать конфигурации формата и настроить счета платежей.
+<span data-ttu-id="8079a-105">Прежде чем можно будет выполнить эту задачу, необходимо экспортировать конфигурации формата и настроить счета платежей.</span><span class="sxs-lookup"><span data-stu-id="8079a-105">Before you complete this task, you must export format configurations and set up payment accounts.</span></span>
 
-Эта задача была создана с использованием компании с демонстрационными данными DEMF.
+<span data-ttu-id="8079a-106">Эта задача была создана с использованием компании с демонстрационными данными DEMF.</span><span class="sxs-lookup"><span data-stu-id="8079a-106">This task was created using the DEMF demo data company.</span></span>
 
-Это третья процедура из пяти, которые иллюстрируют процесс платежа поставщикам с помощью конфигурации электронной отчетности. Эта процедура предназначена для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
+<span data-ttu-id="8079a-107">Это третья процедура из пяти, которые иллюстрируют процесс платежа поставщикам с помощью конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="8079a-107">This is the third procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="8079a-108">Эта процедура предназначена для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="8079a-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. Перейдите в раздел "Расчеты с поставщиками" > "Настройка платежей" > "Способы оплаты".
-2. Используйте экспресс-фильтр для поиска записей. Например, отфильтруйте поле "Способ оплаты" по значению "SEPA CT".
-3. Выберите Изменить.
-4. В поле "Период" выберите "Итого".
-5. В поле "Тип платежа" выберите "Электронный платеж".
-6. Разверните раздел "Форматы файлов".
-7. В поле "Общая электронная отчетность" выберите значение "Да".
-8. В поле "Экспорт конфигурации формата" введите или выберите значение.
-    * В списке выберите значение "Перемещение кредита ISO20022 (DE)". Если список пуст, конфигурация формата экспорта платежа поставщику не импортирована и не активна.  
-9. В поле "Тип счета" выберите "Банк".
-10. В поле "Счет оплаты" укажите значения "DEMF OPER".
-11. Нажмите кнопку "Сохранить".
+1. <span data-ttu-id="8079a-109">Перейдите в раздел "Расчеты с поставщиками" > "Настройка платежей" > "Способы оплаты".</span><span class="sxs-lookup"><span data-stu-id="8079a-109">Go to Accounts payable > Payment setup > Methods of payment.</span></span>
+2. <span data-ttu-id="8079a-110">Используйте экспресс-фильтр для поиска записей.</span><span class="sxs-lookup"><span data-stu-id="8079a-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="8079a-111">Например, отфильтруйте поле "Способ оплаты" по значению "SEPA CT".</span><span class="sxs-lookup"><span data-stu-id="8079a-111">For example, filter on the Method of payment field with a value of 'SEPA CT'.</span></span>
+3. <span data-ttu-id="8079a-112">Выберите Изменить.</span><span class="sxs-lookup"><span data-stu-id="8079a-112">Click Edit.</span></span>
+4. <span data-ttu-id="8079a-113">В поле "Период" выберите "Итого".</span><span class="sxs-lookup"><span data-stu-id="8079a-113">In the Period field, select 'Total'.</span></span>
+5. <span data-ttu-id="8079a-114">В поле "Тип платежа" выберите "Электронный платеж".</span><span class="sxs-lookup"><span data-stu-id="8079a-114">In the Payment type field, select 'Electronic payment'.</span></span>
+6. <span data-ttu-id="8079a-115">Разверните раздел "Форматы файлов".</span><span class="sxs-lookup"><span data-stu-id="8079a-115">Expand the File formats section.</span></span>
+7. <span data-ttu-id="8079a-116">В поле "Общая электронная отчетность" выберите значение "Да".</span><span class="sxs-lookup"><span data-stu-id="8079a-116">Select Yes in the Generic electronic reporting field.</span></span>
+8. <span data-ttu-id="8079a-117">В поле "Экспорт конфигурации формата" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="8079a-117">In the Export format configuration field, enter or select a value.</span></span>
+    * <span data-ttu-id="8079a-118">В списке выберите значение "Перемещение кредита ISO20022 (DE)".</span><span class="sxs-lookup"><span data-stu-id="8079a-118">In the list, select the value ISO20022 Credit transfer (DE).</span></span> <span data-ttu-id="8079a-119">Если список пуст, конфигурация формата экспорта платежа поставщику не импортирована и не активна.</span><span class="sxs-lookup"><span data-stu-id="8079a-119">If the list is empty, the vendor payment export format configuration is not imported and active.</span></span>  
+9. <span data-ttu-id="8079a-120">В поле "Тип счета" выберите "Банк".</span><span class="sxs-lookup"><span data-stu-id="8079a-120">In the Account type field, select 'Bank'.</span></span>
+10. <span data-ttu-id="8079a-121">В поле "Счет оплаты" укажите значения "DEMF OPER".</span><span class="sxs-lookup"><span data-stu-id="8079a-121">In the Payment account field, specify the values 'DEMF OPER'.</span></span>
+11. <span data-ttu-id="8079a-122">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="8079a-122">Click Save.</span></span>
 
 

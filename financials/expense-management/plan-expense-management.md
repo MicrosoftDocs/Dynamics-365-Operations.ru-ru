@@ -19,125 +19,125 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 83cfd2ef15ae3a02eba21bb31f3311e8f5e15b90
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="configure-expense-management"></a>Настройка управления расходами
+# <a name="configure-expense-management"></a><span data-ttu-id="4451b-104">Настройка управления расходами</span><span class="sxs-lookup"><span data-stu-id="4451b-104">Configure expense management</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Эта статья описывает вопросы и решения, которые следует принять во время процесса планирования, прежде чем настраивать Управление расходами в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. В области Управление расходами можно сохранить информацию о способах оплаты, заявки на командировку, отчеты о расходах и политики, среди прочего. 
+<span data-ttu-id="4451b-105">Эта статья описывает вопросы и решения, которые следует принять во время процесса планирования, прежде чем настраивать Управление расходами в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="4451b-105">This article describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="4451b-106">В области Управление расходами можно сохранить информацию о способах оплаты, заявки на командировку, отчеты о расходах и политики, среди прочего.</span><span class="sxs-lookup"><span data-stu-id="4451b-106">In the Expense management area, you can store information about payment methods, travel requisitions, expense reports, and policies, among other things.</span></span> 
 
-Поскольку множество решений, которые вы принимаете при планировании конфигурации для управления расходами, основаны на иерархии и финансовой структуре организации, необходимо ссылаться на документы планирования для этих областей.
+<span data-ttu-id="4451b-107">Поскольку множество решений, которые вы принимаете при планировании конфигурации для управления расходами, основаны на иерархии и финансовой структуре организации, необходимо ссылаться на документы планирования для этих областей.</span><span class="sxs-lookup"><span data-stu-id="4451b-107">Because many of the decisions that you make when you plan your configuration for Expense management are based on your organization’s hierarchy and financial structure, you must refer to the planning documents for those areas.</span></span>
 
-## <a name="intercompany-expenses"></a>Внутрихолдинговые расходы
-При включении внутрихолдинговых расходов вы позволяете юридическим лицам и сотрудникам совершать расходы от имени другого юридического лица и принимать платежи от другого юридического лица в пределах организации. Например, сотрудник в юридическом лице A завершает проект для юридического лица B. Если включены внутрихолдинговые расходы, сотрудник может заполнить табель учета рабочего времени для юридического лица B и получить от него оплату. Если в организации только одно юридическое лицо, включать внутрихолдинговые расходы не требуется. **Решение.** Хотите включить внутрихолдинговые расходы?
+## <a name="intercompany-expenses"></a><span data-ttu-id="4451b-108">Внутрихолдинговые расходы</span><span class="sxs-lookup"><span data-stu-id="4451b-108">Intercompany expenses</span></span>
+<span data-ttu-id="4451b-109">При включении внутрихолдинговых расходов вы позволяете юридическим лицам и сотрудникам совершать расходы от имени другого юридического лица и принимать платежи от другого юридического лица в пределах организации.</span><span class="sxs-lookup"><span data-stu-id="4451b-109">When you enable intercompany expenses, you allow legal entities and employees to incur expenses on behalf of, and collect payment from, another legal entity within your organization.</span></span> <span data-ttu-id="4451b-110">Например, сотрудник в юридическом лице A завершает проект для юридического лица B. Если включены внутрихолдинговые расходы, сотрудник может заполнить табель учета рабочего времени для юридического лица B и получить от него оплату. Если в организации только одно юридическое лицо, включать внутрихолдинговые расходы не требуется.</span><span class="sxs-lookup"><span data-stu-id="4451b-110">For example, an employee in legal entity A completes a project for legal entity B. If intercompany expenses are enabled, the employee can then file a timesheet to, and be paid by, legal entity B. If your organization doesn’t have multiple legal entities, you won’t need to enable intercompany expenses.</span></span> <span data-ttu-id="4451b-111">**Решение.** Хотите включить внутрихолдинговые расходы?</span><span class="sxs-lookup"><span data-stu-id="4451b-111">**Decision:** Do you want to enable intercompany expenses?</span></span>
 
-## <a name="financial-management"></a>Управление финансами
-Управление расходами тесно интегрировано с управлением финансами организации. Большая часть конфигурации для управления расходами будет основываться на решениях, принятых в отношении финансов организации. В следующих разделах описывают различные области, для которых требуется планирование и решения, основанные на решениях в отношении финансов организации и рекомендаций группы руководства.
+## <a name="financial-management"></a><span data-ttu-id="4451b-112">Управление финансами</span><span class="sxs-lookup"><span data-stu-id="4451b-112">Financial management</span></span>
+<span data-ttu-id="4451b-113">Управление расходами тесно интегрировано с управлением финансами организации.</span><span class="sxs-lookup"><span data-stu-id="4451b-113">Expense management is tightly integrated with the financial management of your organization.</span></span> <span data-ttu-id="4451b-114">Большая часть конфигурации для управления расходами будет основываться на решениях, принятых в отношении финансов организации.</span><span class="sxs-lookup"><span data-stu-id="4451b-114">A lot of your configuration for Expense management will be based on the decisions that you’ve made about your organization’s finances.</span></span> <span data-ttu-id="4451b-115">В следующих разделах описывают различные области, для которых требуется планирование и решения, основанные на решениях в отношении финансов организации и рекомендаций группы руководства.</span><span class="sxs-lookup"><span data-stu-id="4451b-115">The following sections describe the different areas that require planning and decisions based on your organization’s financial decisions and guidance from your leadership team.</span></span>
 
-### <a name="per-diems"></a>Суточные
+### <a name="per-diems"></a><span data-ttu-id="4451b-116">Суточные</span><span class="sxs-lookup"><span data-stu-id="4451b-116">Per diems</span></span>
 
-Необходимо определить работника для суточных, предоставляемых организацией. Поскольку суточные обычно используются для покрытия расходов, таких как питание, проживание и другие случайные расходы, можно создать правила для суточных, предлагаемых организацией. Нормы суточных могут зависеть от времени года, места командировки или от того и другого. При определении правила суточных можно указать, что процент от нормы суточных будет удерживается, если работник получает дополнительное питание или услуги. Также можно определить уровни норм суточных, чтобы задать минимальное и максимальное число часов, разрешенное нормой суточных для командировки сотрудника. **Решения.**
+<span data-ttu-id="4451b-117">Необходимо определить работника для суточных, предоставляемых организацией.</span><span class="sxs-lookup"><span data-stu-id="4451b-117">You must define the employee per diems that your organization provides.</span></span> <span data-ttu-id="4451b-118">Поскольку суточные обычно используются для покрытия расходов, таких как питание, проживание и другие случайные расходы, можно создать правила для суточных, предлагаемых организацией.</span><span class="sxs-lookup"><span data-stu-id="4451b-118">Because per diems are typically used to cover expenses such as meals, lodging, and other incidental expenses, you can create rules for the per diem allowances that your organization offers.</span></span> <span data-ttu-id="4451b-119">Нормы суточных могут зависеть от времени года, места командировки или от того и другого.</span><span class="sxs-lookup"><span data-stu-id="4451b-119">Per diem rates can be based on the time of year, the travel location, or both.</span></span> <span data-ttu-id="4451b-120">При определении правила суточных можно указать, что процент от нормы суточных будет удерживается, если работник получает дополнительное питание или услуги.</span><span class="sxs-lookup"><span data-stu-id="4451b-120">When you define a per diem rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services.</span></span> <span data-ttu-id="4451b-121">Также можно определить уровни норм суточных, чтобы задать минимальное и максимальное число часов, разрешенное нормой суточных для командировки сотрудника.</span><span class="sxs-lookup"><span data-stu-id="4451b-121">You can also define per diem rate tiers to set the minimum and maximum number of hours that the per diem rate can be applied to a worker’s travel.</span></span> <span data-ttu-id="4451b-122">**Решения.**</span><span class="sxs-lookup"><span data-stu-id="4451b-122">**Decisions:**</span></span>
 
--   Правила суточных по умолчанию для первого и последнего дней:
-    -   Каково минимальное количество часов, которые сотрудник может потребовать в день и получать суточные?
-    -   Сокращается ли сумма, предлагаемая на питание в первый и последний день? Если да, каков процент сокращения?
-    -   Сокращается ли сумма, предлагаемая на гостиницу в первый и последний день? Если да, каков процент сокращения?
-    -   Сокращается ли сумма, предлагаемая на другие расходы в первый и последний день? Если да, каков процент сокращения?
--   Правила суточных по умолчанию:
-    -   Сокращается ли сумма суточных в процентах на каждый прием пищи, если, например, питание предоставляется бесплатно? Если да, каков процент сокращения на каждый прем пищи?
-    -   Снижение расходов на питание рассчитывается на день, на поездку или на количество приемов пищи в день?
-    -   Следует ли округлять сумму суточных обычным образом или в большую сторону?
-    -   Суточные рассчитываются на 24-часовой период времени или на календарный день?
--   Правила суточных на основании расположения:
-    -   Ставки суточных зависят от расположения и того, какие расположения включены?
-    -   Ставка суточных изменяется на основании расположения, каждого расположения, процента, предоставляемого на:
-        -   Питание
-        -   Гостиницу
-        -   Прочие расходы
+-   <span data-ttu-id="4451b-123">Правила суточных по умолчанию для первого и последнего дней:</span><span class="sxs-lookup"><span data-stu-id="4451b-123">Default per diem rules for the first and last days:</span></span>
+    -   <span data-ttu-id="4451b-124">Каково минимальное количество часов, которые сотрудник может потребовать в день и получать суточные?</span><span class="sxs-lookup"><span data-stu-id="4451b-124">What is the minimum number of hours that an employee can claim for a day and still receive a per diem?</span></span>
+    -   <span data-ttu-id="4451b-125">Сокращается ли сумма, предлагаемая на питание в первый и последний день?</span><span class="sxs-lookup"><span data-stu-id="4451b-125">Is there a reduction in the amount that is offered for meals for the first and last day?</span></span> <span data-ttu-id="4451b-126">Если да, каков процент сокращения?</span><span class="sxs-lookup"><span data-stu-id="4451b-126">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="4451b-127">Сокращается ли сумма, предлагаемая на гостиницу в первый и последний день?</span><span class="sxs-lookup"><span data-stu-id="4451b-127">Is there a reduction in the amount that is offered for a hotel for the first and last day?</span></span> <span data-ttu-id="4451b-128">Если да, каков процент сокращения?</span><span class="sxs-lookup"><span data-stu-id="4451b-128">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="4451b-129">Сокращается ли сумма, предлагаемая на другие расходы в первый и последний день?</span><span class="sxs-lookup"><span data-stu-id="4451b-129">Is there a reduction in the amount that is offered for other expenses incurred on the first and last day?</span></span> <span data-ttu-id="4451b-130">Если да, каков процент сокращения?</span><span class="sxs-lookup"><span data-stu-id="4451b-130">If so, what is the percentage of the reduction?</span></span>
+-   <span data-ttu-id="4451b-131">Правила суточных по умолчанию:</span><span class="sxs-lookup"><span data-stu-id="4451b-131">Default per diem rules:</span></span>
+    -   <span data-ttu-id="4451b-132">Сокращается ли сумма суточных в процентах на каждый прием пищи, если, например, питание предоставляется бесплатно?</span><span class="sxs-lookup"><span data-stu-id="4451b-132">Is there a percentage reduction in the per diem allowance for each meal if, for example, the meal is complimentary?</span></span> <span data-ttu-id="4451b-133">Если да, каков процент сокращения на каждый прем пищи?</span><span class="sxs-lookup"><span data-stu-id="4451b-133">If so, what is the reduction percentage for each meal?</span></span>
+    -   <span data-ttu-id="4451b-134">Снижение расходов на питание рассчитывается на день, на поездку или на количество приемов пищи в день?</span><span class="sxs-lookup"><span data-stu-id="4451b-134">Is the meal reduction calculated per day, per trip, or by the number of meals per day?</span></span>
+    -   <span data-ttu-id="4451b-135">Следует ли округлять сумму суточных обычным образом или в большую сторону?</span><span class="sxs-lookup"><span data-stu-id="4451b-135">Should per diem amounts be rounded normally or rounded up?</span></span>
+    -   <span data-ttu-id="4451b-136">Суточные рассчитываются на 24-часовой период времени или на календарный день?</span><span class="sxs-lookup"><span data-stu-id="4451b-136">Are per diems calculated on a 24-hour period or on a calendar day?</span></span>
+-   <span data-ttu-id="4451b-137">Правила суточных на основании расположения:</span><span class="sxs-lookup"><span data-stu-id="4451b-137">Per diem rules based on location:</span></span>
+    -   <span data-ttu-id="4451b-138">Ставки суточных зависят от расположения и того, какие расположения включены?</span><span class="sxs-lookup"><span data-stu-id="4451b-138">Do per diem rates vary based on location and what locations are included?</span></span>
+    -   <span data-ttu-id="4451b-139">Ставка суточных изменяется на основании расположения, каждого расположения, процента, предоставляемого на:</span><span class="sxs-lookup"><span data-stu-id="4451b-139">If per diem rate do vary based on location, for each location, what percentage amount is provided for:</span></span>
+        -   <span data-ttu-id="4451b-140">Питание</span><span class="sxs-lookup"><span data-stu-id="4451b-140">meals</span></span>
+        -   <span data-ttu-id="4451b-141">Гостиницу</span><span class="sxs-lookup"><span data-stu-id="4451b-141">hotel</span></span>
+        -   <span data-ttu-id="4451b-142">Прочие расходы</span><span class="sxs-lookup"><span data-stu-id="4451b-142">other expenses</span></span>
 
-### <a name="expense-management-journals-and-accounts"></a>Журналы и счета управления расходами
+### <a name="expense-management-journals-and-accounts"></a><span data-ttu-id="4451b-143">Журналы и счета управления расходами</span><span class="sxs-lookup"><span data-stu-id="4451b-143">Expense management journals and accounts</span></span>
 
-Для управления расходами требуется использовать несколько журналов и счетов. Необходимо решить, например,будет ли использоваться один и тот же счет для денежных авансов и спорных вопросов по кредитной карте. **Решения.**
+<span data-ttu-id="4451b-144">Для управления расходами требуется использовать несколько журналов и счетов.</span><span class="sxs-lookup"><span data-stu-id="4451b-144">Expense management requires that you use multiple journals and accounts.</span></span> <span data-ttu-id="4451b-145">Необходимо решить, например,будет ли использоваться один и тот же счет для денежных авансов и спорных вопросов по кредитной карте.</span><span class="sxs-lookup"><span data-stu-id="4451b-145">You must decide, for example, whether the same account is used for cash advances and credit card disputes.</span></span> <span data-ttu-id="4451b-146">**Решения.**</span><span class="sxs-lookup"><span data-stu-id="4451b-146">**Decisions:**</span></span>
 
--   В какие журналы ГК разносятся утвержденные отчеты по расходам?
--   Какой счет используется для денежных авансов?
--   Следует ли разносить денежные авансы немедленно?
+-   <span data-ttu-id="4451b-147">В какие журналы ГК разносятся утвержденные отчеты по расходам?</span><span class="sxs-lookup"><span data-stu-id="4451b-147">Which ledger journal are approved expense reports posted to?</span></span>
+-   <span data-ttu-id="4451b-148">Какой счет используется для денежных авансов?</span><span class="sxs-lookup"><span data-stu-id="4451b-148">Which account is used for cash advances?</span></span>
+-   <span data-ttu-id="4451b-149">Следует ли разносить денежные авансы немедленно?</span><span class="sxs-lookup"><span data-stu-id="4451b-149">Should cash advances be posted immediately?</span></span>
 
-### <a name="payment-methods"></a>Способы оплаты
+### <a name="payment-methods"></a><span data-ttu-id="4451b-150">Способы оплаты</span><span class="sxs-lookup"><span data-stu-id="4451b-150">Payment methods</span></span>
 
-Если разрешить сотрудникам совершать расходы от имени организации, необходимо определить способы оплаты, которые могут использовать сотрудники. Например, можно разрешить сотрудникам использовать наличные деньги или корпоративную кредитную карту. Также можно разрешить сотрудникам использовать личные кредитные карты, а затем возместить им расходы. Вы должны принять следующие решения для каждого разрешенного способа оплаты. **Решения.**
+<span data-ttu-id="4451b-151">Если разрешить сотрудникам совершать расходы от имени организации, необходимо определить способы оплаты, которые могут использовать сотрудники.</span><span class="sxs-lookup"><span data-stu-id="4451b-151">When you allow employees to incur expenses on behalf of your business, you must define the payment methods that employees are allowed to use.</span></span> <span data-ttu-id="4451b-152">Например, можно разрешить сотрудникам использовать наличные деньги или корпоративную кредитную карту.</span><span class="sxs-lookup"><span data-stu-id="4451b-152">For example, you might allow employees to use cash or a corporate credit card.</span></span> <span data-ttu-id="4451b-153">Также можно разрешить сотрудникам использовать личные кредитные карты, а затем возместить им расходы.</span><span class="sxs-lookup"><span data-stu-id="4451b-153">You might also allow employees to use personal credit cards, and then reimburse the employees.</span></span> <span data-ttu-id="4451b-154">Вы должны принять следующие решения для каждого разрешенного способа оплаты.</span><span class="sxs-lookup"><span data-stu-id="4451b-154">You must make the following decisions for each payment method that you allow.</span></span> <span data-ttu-id="4451b-155">**Решения.**</span><span class="sxs-lookup"><span data-stu-id="4451b-155">**Decisions:**</span></span>
 
--   Какие способы оплаты разрешаются?
--   Кто владеет расходами по способу оплаты?
--   Имеется ли тип корр. счета? Если да, какой?
--   Имеется ли корр. счет, который является счетом?
--   Если в качестве способа оплаты используется кредитная карта, должен ли способ оплаты использоваться только с импортированными проводками?
+-   <span data-ttu-id="4451b-156">Какие способы оплаты разрешаются?</span><span class="sxs-lookup"><span data-stu-id="4451b-156">What payment methods are allowed?</span></span>
+-   <span data-ttu-id="4451b-157">Кто владеет расходами по способу оплаты?</span><span class="sxs-lookup"><span data-stu-id="4451b-157">Who owns the payment method expenses?</span></span>
+-   <span data-ttu-id="4451b-158">Имеется ли тип корр. счета?</span><span class="sxs-lookup"><span data-stu-id="4451b-158">Is there an offset account type?</span></span> <span data-ttu-id="4451b-159">Если да, какой?</span><span class="sxs-lookup"><span data-stu-id="4451b-159">If so, what is it?</span></span>
+-   <span data-ttu-id="4451b-160">Имеется ли корр. счет, который является счетом?</span><span class="sxs-lookup"><span data-stu-id="4451b-160">If there is an offset account, what is the account?</span></span>
+-   <span data-ttu-id="4451b-161">Если в качестве способа оплаты используется кредитная карта, должен ли способ оплаты использоваться только с импортированными проводками?</span><span class="sxs-lookup"><span data-stu-id="4451b-161">If the payment method is a credit card, should the payment method be used only with imported transactions?</span></span>
 
-### <a name="expense-categories-and-shared-categories"></a>Общие категории и категории расходов
+### <a name="expense-categories-and-shared-categories"></a><span data-ttu-id="4451b-162">Общие категории и категории расходов</span><span class="sxs-lookup"><span data-stu-id="4451b-162">Expense categories and shared categories</span></span>
 
-Когда сотрудники создают отчет по расходам, каждый регистрируемый расход необходимо связать с категорией расхода. Категории расходов наследуются от общих категорий, которые можно использоваться во всех юридических лицах в пределах организации. Эти категории также можно использовать в модуле "Управление и учет по проектам" в зависимости от того, что определено в организации. На основании определения организации и рекомендаций от группы по реализации укажите, должны ли категории, используемые в управлении расходами, использоваться только в расходах или они должны использоваться и в проекте, и в расходах. Обратите внимание, что эти категории можно совместно использовать в проекте и расходах или в проекте и производстве, но не в расходах и производстве. Необходимо принять следующие решения для каждой категории расходов. **Решения.**
+<span data-ttu-id="4451b-163">Когда сотрудники создают отчет по расходам, каждый регистрируемый расход необходимо связать с категорией расхода.</span><span class="sxs-lookup"><span data-stu-id="4451b-163">When employees create an expense report, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="4451b-164">Категории расходов наследуются от общих категорий, которые можно использоваться во всех юридических лицах в пределах организации.</span><span class="sxs-lookup"><span data-stu-id="4451b-164">Expense categories are derived from Shared categories that can be shared across the legal entities within your organization.</span></span> <span data-ttu-id="4451b-165">Эти категории также можно использовать в модуле "Управление и учет по проектам" в зависимости от того, что определено в организации.</span><span class="sxs-lookup"><span data-stu-id="4451b-165">These categories can also be shared in Project management and accounting, depending on how your organization is defined.</span></span> <span data-ttu-id="4451b-166">На основании определения организации и рекомендаций от группы по реализации укажите, должны ли категории, используемые в управлении расходами, использоваться только в расходах или они должны использоваться и в проекте, и в расходах.</span><span class="sxs-lookup"><span data-stu-id="4451b-166">Based on the definition of your organization and guidance from the implementation team, determine whether the categories used in expense management are to be used in only expense or if they should be shared between Project and Expense.</span></span> <span data-ttu-id="4451b-167">Обратите внимание, что эти категории можно совместно использовать в проекте и расходах или в проекте и производстве, но не в расходах и производстве.</span><span class="sxs-lookup"><span data-stu-id="4451b-167">Note that these categories can be shared between Project and Expense or Project and Production, but not between Expense and Production.</span></span> <span data-ttu-id="4451b-168">Необходимо принять следующие решения для каждой категории расходов.</span><span class="sxs-lookup"><span data-stu-id="4451b-168">You must make the following decisions for each expense category.</span></span> <span data-ttu-id="4451b-169">**Решения.**</span><span class="sxs-lookup"><span data-stu-id="4451b-169">**Decisions:**</span></span>
 
--   Что такое категория расходов? Например, полеты, проживание в гостиницы или пробег.
--   Может ли данная категория расходов также использоваться в модуле "Управление и учет по проектам"?
--   Что такое тип расхода?
--   Какой способ оплаты по умолчанию используется для категории расходов?
--   Необходимо ли детализировать расходы в этой категории?
--   Какой основной счет по умолчанию используется для категории расходов?
--   Какая налоговая группа номенклатур по умолчанию используется для категории расходов?
--   Разрешены ли дополнительные способы оплаты для категории расходов? Если да, какие?
--   Имеются ли подкатегории в данной категории расходов? Если да:
-    -   Исключены ли какие-либо подкатегории из возмещения налога?
-    -   Какая налоговая группа номенклатур используется для подкатегорий?
+-   <span data-ttu-id="4451b-170">Что такое категория расходов?</span><span class="sxs-lookup"><span data-stu-id="4451b-170">What is the expense category?</span></span> <span data-ttu-id="4451b-171">Например, полеты, проживание в гостиницы или пробег.</span><span class="sxs-lookup"><span data-stu-id="4451b-171">For example, flights, hotel, or mileage.</span></span>
+-   <span data-ttu-id="4451b-172">Может ли данная категория расходов также использоваться в модуле "Управление и учет по проектам"?</span><span class="sxs-lookup"><span data-stu-id="4451b-172">Can this expense category also be used in Project management and accounting?</span></span>
+-   <span data-ttu-id="4451b-173">Что такое тип расхода?</span><span class="sxs-lookup"><span data-stu-id="4451b-173">What is the expense type?</span></span>
+-   <span data-ttu-id="4451b-174">Какой способ оплаты по умолчанию используется для категории расходов?</span><span class="sxs-lookup"><span data-stu-id="4451b-174">What is the default payment method for the expense category?</span></span>
+-   <span data-ttu-id="4451b-175">Необходимо ли детализировать расходы в этой категории?</span><span class="sxs-lookup"><span data-stu-id="4451b-175">Are expenses in this category required to be itemized?</span></span>
+-   <span data-ttu-id="4451b-176">Какой основной счет по умолчанию используется для категории расходов?</span><span class="sxs-lookup"><span data-stu-id="4451b-176">What is the main default account for the expense category?</span></span>
+-   <span data-ttu-id="4451b-177">Какая налоговая группа номенклатур по умолчанию используется для категории расходов?</span><span class="sxs-lookup"><span data-stu-id="4451b-177">What is the default item sales tax group for the expense category?</span></span>
+-   <span data-ttu-id="4451b-178">Разрешены ли дополнительные способы оплаты для категории расходов?</span><span class="sxs-lookup"><span data-stu-id="4451b-178">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="4451b-179">Если да, какие?</span><span class="sxs-lookup"><span data-stu-id="4451b-179">If so, what are they?</span></span>
+-   <span data-ttu-id="4451b-180">Имеются ли подкатегории в данной категории расходов?</span><span class="sxs-lookup"><span data-stu-id="4451b-180">Are there subcategories within this expense category?</span></span> <span data-ttu-id="4451b-181">Если да:</span><span class="sxs-lookup"><span data-stu-id="4451b-181">If so:</span></span>
+    -   <span data-ttu-id="4451b-182">Исключены ли какие-либо подкатегории из возмещения налога?</span><span class="sxs-lookup"><span data-stu-id="4451b-182">Are any of the subcategories excluded from tax recovery?</span></span>
+    -   <span data-ttu-id="4451b-183">Какая налоговая группа номенклатур используется для подкатегорий?</span><span class="sxs-lookup"><span data-stu-id="4451b-183">What is the item sales tax group of the subcategories?</span></span>
 
-    Если эта категория расходов также используется в модуле "Управление и учет по проектам", ответьте на оставшиеся вопросы. В противном случае работа с этим разделом закончена.
--   Какие счета затрат будут использоваться для следующего?
-    -   Стоимость
-    -   Распределение зарплаты
-    -   НЗП — Себестоимость
-    -   Себестоимость — Номенклатура
-    -   НЗП — Себестоимость — Номенклатура
-    -   Начисленный убыток
-    -   НЗП — Начисленный убыток
--   Какие счета выручки будут использоваться для следующего?
-    -   Выручка по выставленным накладным
-    -   Начисленный доход — сумма реализации
-    -   НЗП — Сумма реализации
-    -   Начисленный доход — Производство
-    -   НЗП — Производство
-    -   Начисленный доход — Прибыль
-    -   НЗП-— Прибыль
-    -   Начисленный доход — Подписка
-    -   НЗП — Подписка
+    <span data-ttu-id="4451b-184">Если эта категория расходов также используется в модуле "Управление и учет по проектам", ответьте на оставшиеся вопросы.</span><span class="sxs-lookup"><span data-stu-id="4451b-184">If this expense category is also used in Project management and accounting, answer the remaining questions.</span></span> <span data-ttu-id="4451b-185">В противном случае работа с этим разделом закончена.</span><span class="sxs-lookup"><span data-stu-id="4451b-185">Otherwise, you are finished with this section.</span></span>
+-   <span data-ttu-id="4451b-186">Какие счета затрат будут использоваться для следующего?</span><span class="sxs-lookup"><span data-stu-id="4451b-186">Which cost accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="4451b-187">Стоимость</span><span class="sxs-lookup"><span data-stu-id="4451b-187">Cost</span></span>
+    -   <span data-ttu-id="4451b-188">Распределение зарплаты</span><span class="sxs-lookup"><span data-stu-id="4451b-188">Payroll allocation</span></span>
+    -   <span data-ttu-id="4451b-189">НЗП — Себестоимость</span><span class="sxs-lookup"><span data-stu-id="4451b-189">WIP-cost value</span></span>
+    -   <span data-ttu-id="4451b-190">Себестоимость — Номенклатура</span><span class="sxs-lookup"><span data-stu-id="4451b-190">Cost-item</span></span>
+    -   <span data-ttu-id="4451b-191">НЗП — Себестоимость — Номенклатура</span><span class="sxs-lookup"><span data-stu-id="4451b-191">WIP-cost value-item</span></span>
+    -   <span data-ttu-id="4451b-192">Начисленный убыток</span><span class="sxs-lookup"><span data-stu-id="4451b-192">Accrued loss</span></span>
+    -   <span data-ttu-id="4451b-193">НЗП — Начисленный убыток</span><span class="sxs-lookup"><span data-stu-id="4451b-193">WIP-accrued loss</span></span>
+-   <span data-ttu-id="4451b-194">Какие счета выручки будут использоваться для следующего?</span><span class="sxs-lookup"><span data-stu-id="4451b-194">Which revenue accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="4451b-195">Выручка по выставленным накладным</span><span class="sxs-lookup"><span data-stu-id="4451b-195">Invoiced revenue</span></span>
+    -   <span data-ttu-id="4451b-196">Начисленный доход — сумма реализации</span><span class="sxs-lookup"><span data-stu-id="4451b-196">Accrued revenue-sales value</span></span>
+    -   <span data-ttu-id="4451b-197">НЗП — Сумма реализации</span><span class="sxs-lookup"><span data-stu-id="4451b-197">WIP-sales value</span></span>
+    -   <span data-ttu-id="4451b-198">Начисленный доход — Производство</span><span class="sxs-lookup"><span data-stu-id="4451b-198">Accrued revenue-production</span></span>
+    -   <span data-ttu-id="4451b-199">НЗП — Производство</span><span class="sxs-lookup"><span data-stu-id="4451b-199">WIP-production</span></span>
+    -   <span data-ttu-id="4451b-200">Начисленный доход — Прибыль</span><span class="sxs-lookup"><span data-stu-id="4451b-200">Accrued revenue-profit</span></span>
+    -   <span data-ttu-id="4451b-201">НЗП-— Прибыль</span><span class="sxs-lookup"><span data-stu-id="4451b-201">WIP-profit</span></span>
+    -   <span data-ttu-id="4451b-202">Начисленный доход — Подписка</span><span class="sxs-lookup"><span data-stu-id="4451b-202">Accrued revenue-subscription</span></span>
+    -   <span data-ttu-id="4451b-203">НЗП — Подписка</span><span class="sxs-lookup"><span data-stu-id="4451b-203">WIP-subscription</span></span>
 
  
 
-### <a name="taxes"></a>Налоги
+### <a name="taxes"></a><span data-ttu-id="4451b-204">Налоги</span><span class="sxs-lookup"><span data-stu-id="4451b-204">Taxes</span></span>
 
-Для связанных с расходами налогов необходимо определить, что включать в отчеты по расходам. **Решения.**
+<span data-ttu-id="4451b-205">Для связанных с расходами налогов необходимо определить, что включать в отчеты по расходам.</span><span class="sxs-lookup"><span data-stu-id="4451b-205">For expense-related taxes, you must determine what is included or enabled on expense reports.</span></span> <span data-ttu-id="4451b-206">**Решения.**</span><span class="sxs-lookup"><span data-stu-id="4451b-206">**Decisions:**</span></span>
 
--   Включен ли налог в суммы расходов?
--   Следует ли включить возмещение налога для расходов?
+-   <span data-ttu-id="4451b-207">Включен ли налог в суммы расходов?</span><span class="sxs-lookup"><span data-stu-id="4451b-207">Is sales tax included in the expense amounts?</span></span>
+-   <span data-ttu-id="4451b-208">Следует ли включить возмещение налога для расходов?</span><span class="sxs-lookup"><span data-stu-id="4451b-208">Should tax recovery be enabled on expenses?</span></span>
 
-Обратите внимание, что если во время планирования главной книги вы применили налог с оборота и правила налога за пользование США, установив в поле **Применить правила налогообложения** значение "Да", то невозможно включить возмещение налога для расходов.
+<span data-ttu-id="4451b-209">Обратите внимание, что если во время планирования главной книги вы применили налог с оборота и правила налога за пользование США, установив в поле **Применить правила налогообложения** значение "Да", то невозможно включить возмещение налога для расходов.</span><span class="sxs-lookup"><span data-stu-id="4451b-209">Note that if, during your planning of the general ledger, you have decided to apply U.S. sales tax and use tax rules, which is done by toggling the **Apply sales tax taxations rules** field to Yes, you can’t enable tax recovery on expenses.</span></span>
 
-## <a name="policies"></a>Политики
-Можно создать политики отчетов по расходам, чтобы организация могла экономить время и деньги, когда сотрудники совершают расходы от ее имени. Политики гарантируют, что сотрудники остаются в пределах бюджета, предоставляют всю необходимую информацию и тратят деньги только по мере необходимости. Необходимо принять следующие решения для каждой создаваемой политики отчетов по расходам и каждой политики утверждения отчетов по расходам. **Решения.**
+## <a name="policies"></a><span data-ttu-id="4451b-210">Политики</span><span class="sxs-lookup"><span data-stu-id="4451b-210">Policies</span></span>
+<span data-ttu-id="4451b-211">Можно создать политики отчетов по расходам, чтобы организация могла экономить время и деньги, когда сотрудники совершают расходы от ее имени.</span><span class="sxs-lookup"><span data-stu-id="4451b-211">You can create expense report policies so that your organization can save time and money when employees incur expenses on its behalf.</span></span> <span data-ttu-id="4451b-212">Политики гарантируют, что сотрудники остаются в пределах бюджета, предоставляют всю необходимую информацию и тратят деньги только по мере необходимости.</span><span class="sxs-lookup"><span data-stu-id="4451b-212">Policies ensure that employees stay within budget, provide all required information, and spend money only as necessary.</span></span> <span data-ttu-id="4451b-213">Необходимо принять следующие решения для каждой создаваемой политики отчетов по расходам и каждой политики утверждения отчетов по расходам.</span><span class="sxs-lookup"><span data-stu-id="4451b-213">You must make the following decisions for each expense report policy and each expense report approval policy that you create.</span></span> <span data-ttu-id="4451b-214">**Решения.**</span><span class="sxs-lookup"><span data-stu-id="4451b-214">**Decisions:**</span></span>
 
--   Каково имя политики?
--   Для чего предназначена политика?
--   Если вы ранее решили включить внутрихолдинговые расходы, к каким компаниям в вашей организации будет применяться эта политика?
--   Когда политика вступает в силу?
--   Когда истекает срок действия политики?
--   Что такое правило политики?
--   Каков результат правила политики?
+-   <span data-ttu-id="4451b-215">Каково имя политики?</span><span class="sxs-lookup"><span data-stu-id="4451b-215">What is the name of the policy?</span></span>
+-   <span data-ttu-id="4451b-216">Для чего предназначена политика?</span><span class="sxs-lookup"><span data-stu-id="4451b-216">What is the expense policy for?</span></span>
+-   <span data-ttu-id="4451b-217">Если вы ранее решили включить внутрихолдинговые расходы, к каким компаниям в вашей организации будет применяться эта политика?</span><span class="sxs-lookup"><span data-stu-id="4451b-217">If you previously decided to enable intercompany expenses, to which companies in your organization will this policy apply?</span></span>
+-   <span data-ttu-id="4451b-218">Когда политика вступает в силу?</span><span class="sxs-lookup"><span data-stu-id="4451b-218">When does the policy become effective?</span></span>
+-   <span data-ttu-id="4451b-219">Когда истекает срок действия политики?</span><span class="sxs-lookup"><span data-stu-id="4451b-219">When does the policy expire?</span></span>
+-   <span data-ttu-id="4451b-220">Что такое правило политики?</span><span class="sxs-lookup"><span data-stu-id="4451b-220">What is the policy rule?</span></span>
+-   <span data-ttu-id="4451b-221">Каков результат правила политики?</span><span class="sxs-lookup"><span data-stu-id="4451b-221">What is the outcome of the policy rule?</span></span>
 
 
 

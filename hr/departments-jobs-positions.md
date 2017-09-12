@@ -19,153 +19,153 @@ ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 688550888e5e029e38e945cec633170465df73f9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: af2d61717a5aa02b2a3ef26144a845b81b32ca53
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Организация рабочей силы с использованием подразделений, заданий и должностей
+# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a><span data-ttu-id="38bc9-104">Организация рабочей силы с использованием подразделений, заданий и должностей</span><span class="sxs-lookup"><span data-stu-id="38bc9-104">Organize your workforce using departments, jobs, and positions</span></span>
 
 [!include[banner](includes/banner.md)]
 
 [!include[retail name](includes/retail-name.md)]
 
 
-Подразделения, задания и должности — организационные элементы, которые поддерживаются в модуле « управление персоналом «. Этот раздел содержит общие сведения об этих элементах. 
+<span data-ttu-id="38bc9-105">Подразделения, задания и должности — организационные элементы, которые поддерживаются в модуле « управление персоналом «.</span><span class="sxs-lookup"><span data-stu-id="38bc9-105">Departments, jobs, and positions are organizational elements that are maintained within Human resources.</span></span> <span data-ttu-id="38bc9-106">Этот раздел содержит общие сведения об этих элементах.</span><span class="sxs-lookup"><span data-stu-id="38bc9-106">This topic describes conceptual information about these elements.</span></span> 
 
-Следующий пример использован для того, чтобы проиллюстрировать концепции, описанные в этой теме.
+<span data-ttu-id="38bc9-107">Следующий пример использован для того, чтобы проиллюстрировать концепции, описанные в этой теме.</span><span class="sxs-lookup"><span data-stu-id="38bc9-107">The following example is used to illustrate the concepts described in this topic.</span></span>
 
-|**Подразделение**|**Занимаемая должность**|**Задание**|
+|<span data-ttu-id="38bc9-108">**Подразделение**</span><span class="sxs-lookup"><span data-stu-id="38bc9-108">**Department**</span></span>|<span data-ttu-id="38bc9-109">**Занимаемая должность**</span><span class="sxs-lookup"><span data-stu-id="38bc9-109">**Position**</span></span>|<span data-ttu-id="38bc9-110">**Задание**</span><span class="sxs-lookup"><span data-stu-id="38bc9-110">**Job**</span></span>|
 |---|---|---|
-|**Продажи**|Менеджер по продажам (восток)|Менеджер по продажам|
-|**Продажи**|Менеджер по продажам (запад)|Менеджер по продажам|
-|**Продажи**|Менеджер по продажам (центр)|Менеджер по продажам|
-|**Учет**|Супервизор по учету|Главный бухгалтер|
-|**Учет**|Учет-A|Бухгалтер|
-|**Управление персоналом**|Менеджер по персоналу (восток)|Менеджер по персоналу|
-|**Управление персоналом**|Менеджер по персоналу (запад)|Менеджер по персоналу|
-|**Управление персоналом**|Менеджер по персоналу (центр)|Менеджер по персоналу|
+|<span data-ttu-id="38bc9-111">**Продажи**</span><span class="sxs-lookup"><span data-stu-id="38bc9-111">**Sales**</span></span>|<span data-ttu-id="38bc9-112">Менеджер по продажам (восток)</span><span class="sxs-lookup"><span data-stu-id="38bc9-112">Sales manager (East)</span></span>|<span data-ttu-id="38bc9-113">Менеджер по продажам</span><span class="sxs-lookup"><span data-stu-id="38bc9-113">Sales manager</span></span>|
+|<span data-ttu-id="38bc9-114">**Продажи**</span><span class="sxs-lookup"><span data-stu-id="38bc9-114">**Sales**</span></span>|<span data-ttu-id="38bc9-115">Менеджер по продажам (запад)</span><span class="sxs-lookup"><span data-stu-id="38bc9-115">Sales manager (West)</span></span>|<span data-ttu-id="38bc9-116">Менеджер по продажам</span><span class="sxs-lookup"><span data-stu-id="38bc9-116">Sales manager</span></span>|
+|<span data-ttu-id="38bc9-117">**Продажи**</span><span class="sxs-lookup"><span data-stu-id="38bc9-117">**Sales**</span></span>|<span data-ttu-id="38bc9-118">Менеджер по продажам (центр)</span><span class="sxs-lookup"><span data-stu-id="38bc9-118">Sales manager (Central)</span></span>|<span data-ttu-id="38bc9-119">Менеджер по продажам</span><span class="sxs-lookup"><span data-stu-id="38bc9-119">Sales manager</span></span>|
+|<span data-ttu-id="38bc9-120">**Учет**</span><span class="sxs-lookup"><span data-stu-id="38bc9-120">**Accounting**</span></span>|<span data-ttu-id="38bc9-121">Супервизор по учету</span><span class="sxs-lookup"><span data-stu-id="38bc9-121">Accounting supervisor</span></span>|<span data-ttu-id="38bc9-122">Главный бухгалтер</span><span class="sxs-lookup"><span data-stu-id="38bc9-122">Accounting manager</span></span>|
+|<span data-ttu-id="38bc9-123">**Учет**</span><span class="sxs-lookup"><span data-stu-id="38bc9-123">**Accounting**</span></span>|<span data-ttu-id="38bc9-124">Учет-A</span><span class="sxs-lookup"><span data-stu-id="38bc9-124">Accounting-A</span></span>|<span data-ttu-id="38bc9-125">Бухгалтер</span><span class="sxs-lookup"><span data-stu-id="38bc9-125">Accountant</span></span>|
+|<span data-ttu-id="38bc9-126">**Управление персоналом**</span><span class="sxs-lookup"><span data-stu-id="38bc9-126">**Human resources**</span></span>|<span data-ttu-id="38bc9-127">Менеджер по персоналу (восток)</span><span class="sxs-lookup"><span data-stu-id="38bc9-127">HR manager (East)</span></span>|<span data-ttu-id="38bc9-128">Менеджер по персоналу</span><span class="sxs-lookup"><span data-stu-id="38bc9-128">HR manager</span></span>|
+|<span data-ttu-id="38bc9-129">**Управление персоналом**</span><span class="sxs-lookup"><span data-stu-id="38bc9-129">**Human resources**</span></span>|<span data-ttu-id="38bc9-130">Менеджер по персоналу (запад)</span><span class="sxs-lookup"><span data-stu-id="38bc9-130">HR manager (West)</span></span>|<span data-ttu-id="38bc9-131">Менеджер по персоналу</span><span class="sxs-lookup"><span data-stu-id="38bc9-131">HR manager</span></span>|
+|<span data-ttu-id="38bc9-132">**Управление персоналом**</span><span class="sxs-lookup"><span data-stu-id="38bc9-132">**Human resources**</span></span>|<span data-ttu-id="38bc9-133">Менеджер по персоналу (центр)</span><span class="sxs-lookup"><span data-stu-id="38bc9-133">HR manager (Central)</span></span>|<span data-ttu-id="38bc9-134">Менеджер по персоналу</span><span class="sxs-lookup"><span data-stu-id="38bc9-134">HR manager</span></span>|
 
  
- <a name="departments"></a>Отделы
+ <a name="departments"></a><span data-ttu-id="38bc9-135">Отделы</span><span class="sxs-lookup"><span data-stu-id="38bc9-135">Departments</span></span>
 ------------
 
-Подразделение — операционная единица, которая представляет собой категорию или функциональную зону организации, ответственную за конкретную область организации, например за продажи или учет. Подразделение используется для создания отчетов по функциональным областям и может иметь ответственность за прибыль и убытки. Кроме того, Подразделение может включать группу центров затрат. Продажи, учет, и управление персоналом — некоторые примеры подразделений в организации.
+<span data-ttu-id="38bc9-136">Подразделение — операционная единица, которая представляет собой категорию или функциональную зону организации, ответственную за конкретную область организации, например за продажи или учет.</span><span class="sxs-lookup"><span data-stu-id="38bc9-136">A department is an operating unit that represents a category or functional area of an organization that is responsible for a specific area of the organization, such as sales or accounting.</span></span> <span data-ttu-id="38bc9-137">Подразделение используется для создания отчетов по функциональным областям и может иметь ответственность за прибыль и убытки.</span><span class="sxs-lookup"><span data-stu-id="38bc9-137">A department is used to report on functional areas and may have profit and loss responsibility.</span></span> <span data-ttu-id="38bc9-138">Кроме того, Подразделение может включать группу центров затрат.</span><span class="sxs-lookup"><span data-stu-id="38bc9-138">Also, a department might include a group of cost centers.</span></span> <span data-ttu-id="38bc9-139">Продажи, учет, и управление персоналом — некоторые примеры подразделений в организации.</span><span class="sxs-lookup"><span data-stu-id="38bc9-139">Sales, accounting, and human resources are some examples of departments in an organization.</span></span>
 
-## <a name="jobs-and-positions"></a>Задания и должности
-Задание — это набор задач и обязанностей, которые возлагаются на занимающее эту задание лицо. Позиция — это индивидуальный экземпляр должности. Области ответственности, задачи по заданию, функциональные обязанности, навыки, сведения об образовании, и сертификаты, которые требуются для задания, также необходимы для должностей, связанных с заданием.
-### <a name="job-tasks"></a>Задачи задания
+## <a name="jobs-and-positions"></a><span data-ttu-id="38bc9-140">Задания и должности</span><span class="sxs-lookup"><span data-stu-id="38bc9-140">Jobs and positions</span></span>
+<span data-ttu-id="38bc9-141">Задание — это набор задач и обязанностей, которые возлагаются на занимающее эту задание лицо.</span><span class="sxs-lookup"><span data-stu-id="38bc9-141">A job is a collection of tasks and responsibilities that are required of a person who performs a job.</span></span> <span data-ttu-id="38bc9-142">Позиция — это индивидуальный экземпляр должности.</span><span class="sxs-lookup"><span data-stu-id="38bc9-142">A position is an individual instance of a job.</span></span> <span data-ttu-id="38bc9-143">Области ответственности, задачи по заданию, функциональные обязанности, навыки, сведения об образовании, и сертификаты, которые требуются для задания, также необходимы для должностей, связанных с заданием.</span><span class="sxs-lookup"><span data-stu-id="38bc9-143">Areas of responsibility, job tasks, job functions, skills, education information, and certificates that are required for a job are also required for positions that are associated with a job.</span></span>
+### <a name="job-tasks"></a><span data-ttu-id="38bc9-144">Задачи задания</span><span class="sxs-lookup"><span data-stu-id="38bc9-144">Job tasks</span></span>
 
-Можно создать задачи задания, которые описывают основные задачи, которые работник в должности этого задания должен выполнять. Одну и ту же задачи по заданию можно добавить к нескольким заданиям, и должности для этих заданий унаследуют эти задачи по заданию. Примеры задач заданий приведены в следующей таблице.
+<span data-ttu-id="38bc9-145">Можно создать задачи задания, которые описывают основные задачи, которые работник в должности этого задания должен выполнять.</span><span class="sxs-lookup"><span data-stu-id="38bc9-145">You can create job tasks that describe the basic tasks that a worker in a position for that job must complete.</span></span> <span data-ttu-id="38bc9-146">Одну и ту же задачи по заданию можно добавить к нескольким заданиям, и должности для этих заданий унаследуют эти задачи по заданию.</span><span class="sxs-lookup"><span data-stu-id="38bc9-146">The same job task can be added to multiple jobs, and positions for those jobs will inherit those job tasks.</span></span> <span data-ttu-id="38bc9-147">Примеры задач заданий приведены в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="38bc9-147">Examples of job tasks are listed in the following table.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>Задание</th>
-<th>Задача задания</th>
+<th><span data-ttu-id="38bc9-148">Задание</span><span class="sxs-lookup"><span data-stu-id="38bc9-148">Job</span></span></th>
+<th><span data-ttu-id="38bc9-149">Задача задания</span><span class="sxs-lookup"><span data-stu-id="38bc9-149">Job task</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Менеджер по продажам</td>
+<td><span data-ttu-id="38bc9-150">Менеджер по продажам</span><span class="sxs-lookup"><span data-stu-id="38bc9-150">Sales manager</span></span></td>
 <td><ul>
-<li><span class="input">Обзор производительности</span> – обзор производительности задания каждого продавца.</li>
-<li><span class="input">Обзор отсутствия</span> – утверждение или отклонение запросов или регистраций отсутствий каждого продавца.</li>
+<li><span data-ttu-id="38bc9-151"><span class="input">Обзор производительности</span> – обзор производительности задания каждого продавца.</span><span class="sxs-lookup"><span data-stu-id="38bc9-151"><span class="input">Perf-review</span> – Review each salesperson’s job performance.</span></span></li>
+<li><span data-ttu-id="38bc9-152"><span class="input">Обзор отсутствия</span> – утверждение или отклонение запросов или регистраций отсутствий каждого продавца.</span><span class="sxs-lookup"><span data-stu-id="38bc9-152"><span class="input">Abs-review</span> – Approve or reject each salesperson’s absence requests or registrations.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Бухгалтер</td>
-<td><span class="input">Фин. отчет</span> – представить недельные финансовых отчеты главному финансовому директору.</td>
+<td><span data-ttu-id="38bc9-153">Бухгалтер</span><span class="sxs-lookup"><span data-stu-id="38bc9-153">Accountant</span></span></td>
+<td><span data-ttu-id="38bc9-154"><span class="input">Фин. отчет</span> – представить недельные финансовых отчеты главному финансовому директору.</span><span class="sxs-lookup"><span data-stu-id="38bc9-154"><span class="input">FIN-Report</span> – Present weekly financial reports to chief financial officer.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="job-functions"></a>Должностные функции
+### <a name="job-functions"></a><span data-ttu-id="38bc9-155">Должностные функции</span><span class="sxs-lookup"><span data-stu-id="38bc9-155">Job functions</span></span>
 
-функциональные обязанности — как задачи по заданию. Функциональная обязанность описывает одну или несколько задач, обязанностей или ответственностей, которые присваиваются заданию. Функциональные обязанности можно назначить к заданиям и использовать для настройки и реализации правил приемлемости для Планов компенсационных выплат. Примеры функциональных обязанностей приведены в следующей таблице.
+<span data-ttu-id="38bc9-156">функциональные обязанности — как задачи по заданию.</span><span class="sxs-lookup"><span data-stu-id="38bc9-156">Job functions are like job tasks.</span></span> <span data-ttu-id="38bc9-157">Функциональная обязанность описывает одну или несколько задач, обязанностей или ответственностей, которые присваиваются заданию.</span><span class="sxs-lookup"><span data-stu-id="38bc9-157">A job function describes one or more tasks, duties or responsibilities that are assigned to a job.</span></span> <span data-ttu-id="38bc9-158">Функциональные обязанности можно назначить к заданиям и использовать для настройки и реализации правил приемлемости для Планов компенсационных выплат.</span><span class="sxs-lookup"><span data-stu-id="38bc9-158">Job functions can be assigned to jobs and used to set up and implement eligibility rules for compensation plans.</span></span> <span data-ttu-id="38bc9-159">Примеры функциональных обязанностей приведены в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="38bc9-159">Examples of job functions are listed in the following table.</span></span>
 
-| Задание           | Должностные функции                                                |
+| <span data-ttu-id="38bc9-160">Задание</span><span class="sxs-lookup"><span data-stu-id="38bc9-160">Job</span></span>           | <span data-ttu-id="38bc9-161">Должностные функции</span><span class="sxs-lookup"><span data-stu-id="38bc9-161">Job function</span></span>                                                |
 |---------------|-------------------------------------------------------------|
-| Менеджер по продажам | Упр. люди – управление людьми, которые подчиняются вам.               |
-| Бухгалтер    | Фин. обзор – управление финансовыми данными для набора счетов. |
+| <span data-ttu-id="38bc9-162">Менеджер по продажам</span><span class="sxs-lookup"><span data-stu-id="38bc9-162">Sales manager</span></span> | <span data-ttu-id="38bc9-163">Упр. люди – управление людьми, которые подчиняются вам.</span><span class="sxs-lookup"><span data-stu-id="38bc9-163">Mng-people – Manage people who report to you.</span></span>               |
+| <span data-ttu-id="38bc9-164">Бухгалтер</span><span class="sxs-lookup"><span data-stu-id="38bc9-164">Accountant</span></span>    | <span data-ttu-id="38bc9-165">Фин. обзор – управление финансовыми данными для набора счетов.</span><span class="sxs-lookup"><span data-stu-id="38bc9-165">FIN-Review – Maintain financial data for a set of accounts.</span></span> |
 
-### <a name="job-types"></a>Типы должностей
+### <a name="job-types"></a><span data-ttu-id="38bc9-166">Типы должностей</span><span class="sxs-lookup"><span data-stu-id="38bc9-166">Job types</span></span>
 
-Используйте типы заданий для классификации похожих заданий в категории. Типы задания, как и функциональные обязанности, можно назначить к заданиям и использовать для настройки и реализации правил приемлемости для Планов компенсационных выплат. В следующем списке содержатся некоторые примеры типов заданий.
--   полная занятость
--   частичная занятость
--   Зарплата
--   Почасовая оплата
+<span data-ttu-id="38bc9-167">Используйте типы заданий для классификации похожих заданий в категории.</span><span class="sxs-lookup"><span data-stu-id="38bc9-167">Use job types to classify similar jobs into categories.</span></span> <span data-ttu-id="38bc9-168">Типы задания, как и функциональные обязанности, можно назначить к заданиям и использовать для настройки и реализации правил приемлемости для Планов компенсационных выплат.</span><span class="sxs-lookup"><span data-stu-id="38bc9-168">Job types, just like job functions, can be assigned to jobs and used to set up and implement eligibility rules for compensation plans.</span></span> <span data-ttu-id="38bc9-169">В следующем списке содержатся некоторые примеры типов заданий.</span><span class="sxs-lookup"><span data-stu-id="38bc9-169">Some examples of job types are included in the following list:</span></span>
+-   <span data-ttu-id="38bc9-170">полная занятость</span><span class="sxs-lookup"><span data-stu-id="38bc9-170">Full-time</span></span>
+-   <span data-ttu-id="38bc9-171">частичная занятость</span><span class="sxs-lookup"><span data-stu-id="38bc9-171">Part-time</span></span>
+-   <span data-ttu-id="38bc9-172">Зарплата</span><span class="sxs-lookup"><span data-stu-id="38bc9-172">Salary</span></span>
+-   <span data-ttu-id="38bc9-173">Почасовая оплата</span><span class="sxs-lookup"><span data-stu-id="38bc9-173">Hourly pay</span></span>
 
-### <a name="areas-of-responsibility"></a>Области ответственности
+### <a name="areas-of-responsibility"></a><span data-ttu-id="38bc9-174">Области ответственности</span><span class="sxs-lookup"><span data-stu-id="38bc9-174">Areas of responsibility</span></span>
 
-Используйте области ответственности, чтобы показать рабочие роли, процессы и продукты, за которые сотрудник в должности по этому заданию является ответственным. Пример области ответственности для задания «Бухгалтер» может быть «Финансовая отчетность по продукту А».
+<span data-ttu-id="38bc9-175">Используйте области ответственности, чтобы показать рабочие роли, процессы и продукты, за которые сотрудник в должности по этому заданию является ответственным.</span><span class="sxs-lookup"><span data-stu-id="38bc9-175">Use areas of responsibility to indicate the work roles, processes, and products that a worker in a position for that job would be responsible for.</span></span> <span data-ttu-id="38bc9-176">Пример области ответственности для задания «Бухгалтер» может быть «Финансовая отчетность по продукту А».</span><span class="sxs-lookup"><span data-stu-id="38bc9-176">An example of an area of responsibility for a job titled “Accountant” might be “Financial reporting for Product A”.</span></span>
 
-<a name="positions"></a>Должности
+<a name="positions"></a><span data-ttu-id="38bc9-177">Должности</span><span class="sxs-lookup"><span data-stu-id="38bc9-177">Positions</span></span>
 ----------
 
-Должности являются важным элементом нижнего уровня организационной иерархии. Позиция — это индивидуальный экземпляр должности. Например, должность «Менеджер по продажам (восток)» — это одна из должностей, связанных с общей должностью, «Менеджер по продажам». Должности существуют в подразделениях и назначены работникам.
-### <a name="position-creation-and-maintenance"></a>Создание и обслуживание должностей
+<span data-ttu-id="38bc9-178">Должности являются важным элементом нижнего уровня организационной иерархии.</span><span class="sxs-lookup"><span data-stu-id="38bc9-178">Positions are an important element of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="38bc9-179">Позиция — это индивидуальный экземпляр должности.</span><span class="sxs-lookup"><span data-stu-id="38bc9-179">A position is an individual instance of a job.</span></span> <span data-ttu-id="38bc9-180">Например, должность «Менеджер по продажам (восток)» — это одна из должностей, связанных с общей должностью, «Менеджер по продажам».</span><span class="sxs-lookup"><span data-stu-id="38bc9-180">For example, the position, “Sales manager (East),” is just one of the positions that is associated with the job, “Sales manager.”</span></span> <span data-ttu-id="38bc9-181">Должности существуют в подразделениях и назначены работникам.</span><span class="sxs-lookup"><span data-stu-id="38bc9-181">Positions exist in a department and are assigned to workers.</span></span>
+### <a name="position-creation-and-maintenance"></a><span data-ttu-id="38bc9-182">Создание и обслуживание должностей</span><span class="sxs-lookup"><span data-stu-id="38bc9-182">Position creation and maintenance</span></span>
 
--   Можно просмотреть историю системных изменений, связанных с должностью, на удобной странице списка.
--   Можно создать коды причин, которые пользователи могут выбирать при создании или изменении должности.
--   Можно создать типы действий персонала и назначить номерную серию к действиям сотрудников.
--   Можно настроить workflow-процесс, чтобы добавления и изменения должностей требовали утверждения.
+-   <span data-ttu-id="38bc9-183">Можно просмотреть историю системных изменений, связанных с должностью, на удобной странице списка.</span><span class="sxs-lookup"><span data-stu-id="38bc9-183">You can view a history of position-related system changes in an easy-to-access list page.</span></span>
+-   <span data-ttu-id="38bc9-184">Можно создать коды причин, которые пользователи могут выбирать при создании или изменении должности.</span><span class="sxs-lookup"><span data-stu-id="38bc9-184">You can create reason codes that your users can select when they create or modify positions.</span></span>
+-   <span data-ttu-id="38bc9-185">Можно создать типы действий персонала и назначить номерную серию к действиям сотрудников.</span><span class="sxs-lookup"><span data-stu-id="38bc9-185">You can create personnel action types and assign a number sequence to personnel actions.</span></span>
+-   <span data-ttu-id="38bc9-186">Можно настроить workflow-процесс, чтобы добавления и изменения должностей требовали утверждения.</span><span class="sxs-lookup"><span data-stu-id="38bc9-186">You can set up workflow so that position additions and changes can require approval.</span></span>
 
-### <a name="position-duration"></a>Период должности
+### <a name="position-duration"></a><span data-ttu-id="38bc9-187">Период должности</span><span class="sxs-lookup"><span data-stu-id="38bc9-187">Position duration</span></span>
 
-Каждое должность имеет период времени, в течение которого должность эффективна. Этот период времени называется Продолжительность. Например, летние должности могут иметь длительность с 1 мая 2015 до 31 августа 2015.
+<span data-ttu-id="38bc9-188">Каждое должность имеет период времени, в течение которого должность эффективна.</span><span class="sxs-lookup"><span data-stu-id="38bc9-188">Every position has a length of time that the position is effective.</span></span> <span data-ttu-id="38bc9-189">Этот период времени называется Продолжительность.</span><span class="sxs-lookup"><span data-stu-id="38bc9-189">This length of time is referred to as duration.</span></span> <span data-ttu-id="38bc9-190">Например, летние должности могут иметь длительность с 1 мая 2015 до 31 августа 2015.</span><span class="sxs-lookup"><span data-stu-id="38bc9-190">For example, summer positions might have duration of May 1, 2015 until August 31, 2015.</span></span>
 
-### <a name="worker-assignments"></a>Назначения работников
+### <a name="worker-assignments"></a><span data-ttu-id="38bc9-191">Назначения работников</span><span class="sxs-lookup"><span data-stu-id="38bc9-191">Worker assignments</span></span>
 
-При назначении работника на должность, вы заполняете эту должность. Можно назначить работников по нескольким должностям, но только один работник может быть назначен на одну должность одновременно.
+<span data-ttu-id="38bc9-192">При назначении работника на должность, вы заполняете эту должность.</span><span class="sxs-lookup"><span data-stu-id="38bc9-192">When you assign a worker to a position, you fill that position.</span></span> <span data-ttu-id="38bc9-193">Можно назначить работников по нескольким должностям, но только один работник может быть назначен на одну должность одновременно.</span><span class="sxs-lookup"><span data-stu-id="38bc9-193">You can assign workers to multiple positions, but only one worker can be assigned to a position at the same time.</span></span>
 
-### <a name="reporting-relationships"></a>Отношения отчетности
+### <a name="reporting-relationships"></a><span data-ttu-id="38bc9-194">Отношения отчетности</span><span class="sxs-lookup"><span data-stu-id="38bc9-194">Reporting relationships</span></span>
 
-Должности являются важными элементами нижнего уровня организационной иерархии. В форме "Должность" можно определить должность, относительно которой должность является подотчетной. При назначении работника на должность, подотчетную другой должности, создается отчетная связь между работниками, назначенными на две должности. Например, должность «Бухгалтер А» отчитывается должности «Супервизор по учету». Ким Акерс назначен на должность «Супервизор по учету» и Сергей Пател назначен на должность «Бухгалтер А». Это означает, что Сергей Пател является подотчетной по отношению к Ким Акерс. 
+<span data-ttu-id="38bc9-195">Должности являются важными элементами нижнего уровня организационной иерархии.</span><span class="sxs-lookup"><span data-stu-id="38bc9-195">Positions are important elements of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="38bc9-196">В форме "Должность" можно определить должность, относительно которой должность является подотчетной.</span><span class="sxs-lookup"><span data-stu-id="38bc9-196">In the Position form, you can specify the position that a position reports to.</span></span> <span data-ttu-id="38bc9-197">При назначении работника на должность, подотчетную другой должности, создается отчетная связь между работниками, назначенными на две должности.</span><span class="sxs-lookup"><span data-stu-id="38bc9-197">When you assign a worker to a position that reports to another position, you create a reporting relationship between the workers who are assigned to the two positions.</span></span> <span data-ttu-id="38bc9-198">Например, должность «Бухгалтер А» отчитывается должности «Супервизор по учету».</span><span class="sxs-lookup"><span data-stu-id="38bc9-198">For example, position “Accountant-A” reports to position “Accounting Supervisor”.</span></span> <span data-ttu-id="38bc9-199">Ким Акерс назначен на должность «Супервизор по учету» и Сергей Пател назначен на должность «Бухгалтер А».</span><span class="sxs-lookup"><span data-stu-id="38bc9-199">Kim Akers is assigned to position “Accounting Supervisor” and Sanjay Patel is assigned to position “Accountant-A”.</span></span> <span data-ttu-id="38bc9-200">Это означает, что Сергей Пател является подотчетной по отношению к Ким Акерс.</span><span class="sxs-lookup"><span data-stu-id="38bc9-200">This means that Sanjay Patel reports to Kim Akers.</span></span> 
 
-Если ваша организация использует матричную иерархию или другую специальную иерархию, можно настроить типы иерархии должностей и затем добавить отношения подотчетности для должностей для каждого настроенного типа иерархии. Например, Лори Пенор — генеральный менеджер в Adventure Works и назначен на должность «Генеральный менеджер». Лори управляет развитием продукта, который используется, чтобы чистить устройства. Лори требуется бухгалтер, который помогает ему с финансами для разработки продукта. Поэтому он нанимает Сергея Пател, в качестве его бухгалтера. Сергей отчитывается непосредственно Киму Акерсу, но также работает с Лори Пенор по поводу финансов для разработки очистителя устройств. 
+<span data-ttu-id="38bc9-201">Если ваша организация использует матричную иерархию или другую специальную иерархию, можно настроить типы иерархии должностей и затем добавить отношения подотчетности для должностей для каждого настроенного типа иерархии.</span><span class="sxs-lookup"><span data-stu-id="38bc9-201">If your organization uses a matrix hierarchy or another custom hierarchy, you can set up position hierarchy types and then add reporting relationships to positions for each hierarchy type that you set up.</span></span> <span data-ttu-id="38bc9-202">Например, Лори Пенор — генеральный менеджер в Adventure Works и назначен на должность «Генеральный менеджер».</span><span class="sxs-lookup"><span data-stu-id="38bc9-202">For example, Lori Penor is a general manager at Adventure Works and is assigned to the “General Manager” position.</span></span> <span data-ttu-id="38bc9-203">Лори управляет развитием продукта, который используется, чтобы чистить устройства.</span><span class="sxs-lookup"><span data-stu-id="38bc9-203">Lori manages the development of a product that is used to clean widgets.</span></span> <span data-ttu-id="38bc9-204">Лори требуется бухгалтер, который помогает ему с финансами для разработки продукта.</span><span class="sxs-lookup"><span data-stu-id="38bc9-204">Lori requires an accountant to help her with the finances for developing the product.</span></span> <span data-ttu-id="38bc9-205">Поэтому он нанимает Сергея Пател, в качестве его бухгалтера.</span><span class="sxs-lookup"><span data-stu-id="38bc9-205">Therefore, she has recruited Sanjay Patel to be her accountant.</span></span> <span data-ttu-id="38bc9-206">Сергей отчитывается непосредственно Киму Акерсу, но также работает с Лори Пенор по поводу финансов для разработки очистителя устройств.</span><span class="sxs-lookup"><span data-stu-id="38bc9-206">Sanjay reports directly to Kim Akers, but also works with Lori Penor on his work related to the finances for developing the widget cleaner.</span></span> 
 
-Для предыдущего примера, нужно выполнить следующие задачи для настройки рабочих отношений между Сергеем Пател и Лори Пенор:
-1.  Создать настраиваемый тип иерархии должностей «Устройство», чтобы создать иерархию, которая включает должности ответственные за работу по продукту очистителя устройств.
-2.  Назначить должность генерального менеджера на должность, которой отчитывается должность Бухгалтер А в иерархии «Устройство».
+<span data-ttu-id="38bc9-207">Для предыдущего примера, нужно выполнить следующие задачи для настройки рабочих отношений между Сергеем Пател и Лори Пенор:</span><span class="sxs-lookup"><span data-stu-id="38bc9-207">For the previous example, you would complete the following tasks to set up the working relationship between Sanjay Patel and Lori Penor:</span></span>
+1.  <span data-ttu-id="38bc9-208">Создать настраиваемый тип иерархии должностей «Устройство», чтобы создать иерархию, которая включает должности ответственные за работу по продукту очистителя устройств.</span><span class="sxs-lookup"><span data-stu-id="38bc9-208">Create a custom position hierarchy type called “Widget” to create a hierarchy that includes positions responsible for working on the widget cleaner product.</span></span>
+2.  <span data-ttu-id="38bc9-209">Назначить должность генерального менеджера на должность, которой отчитывается должность Бухгалтер А в иерархии «Устройство».</span><span class="sxs-lookup"><span data-stu-id="38bc9-209">Assign the General Manager position to be the position that the Accountant-A position reports to in the Widget hierarchy.</span></span>
 
-Используйте иерархию должностей для просмотра структуры подотчетности должностей. Если имеется несколько иерархией должностей, можно просмотреть иерархию для каждого типа иерархии в иерархии должностей. Также можно найти должности по коду должности или по имени работника, который назначен на должность. Иерархия должностей — это организационная иерархия.
+<span data-ttu-id="38bc9-210">Используйте иерархию должностей для просмотра структуры подотчетности должностей.</span><span class="sxs-lookup"><span data-stu-id="38bc9-210">Use the position hierarchy to view the reporting structure of positions.</span></span> <span data-ttu-id="38bc9-211">Если имеется несколько иерархией должностей, можно просмотреть иерархию для каждого типа иерархии в иерархии должностей.</span><span class="sxs-lookup"><span data-stu-id="38bc9-211">If you have multiple position hierarchies, you can view the hierarchy for each hierarchy type in the position hierarchy.</span></span> <span data-ttu-id="38bc9-212">Также можно найти должности по коду должности или по имени работника, который назначен на должность.</span><span class="sxs-lookup"><span data-stu-id="38bc9-212">Also, you can search for a position by position ID or by the name of the worker who is assigned to the position.</span></span> <span data-ttu-id="38bc9-213">Иерархия должностей — это организационная иерархия.</span><span class="sxs-lookup"><span data-stu-id="38bc9-213">The position hierarchy is an organizational hierarchy.</span></span>
 
-## <a name="date-effective-records"></a>Записи дат вступления в силу
-Для некоторых записей, можно указать будущие изменения в запись. Для Следующей информации действует дата.
+## <a name="date-effective-records"></a><span data-ttu-id="38bc9-214">Записи дат вступления в силу</span><span class="sxs-lookup"><span data-stu-id="38bc9-214">Date effective records</span></span>
+<span data-ttu-id="38bc9-215">Для некоторых записей, можно указать будущие изменения в запись.</span><span class="sxs-lookup"><span data-stu-id="38bc9-215">For some records, you can specify future changes to the record.</span></span> <span data-ttu-id="38bc9-216">Для Следующей информации действует дата.</span><span class="sxs-lookup"><span data-stu-id="38bc9-216">The following information is date effective.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>Записи</th>
-<th>Сведения о дате вступления в силу</th>
+<th><span data-ttu-id="38bc9-217">Записи</span><span class="sxs-lookup"><span data-stu-id="38bc9-217">Records</span></span></th>
+<th><span data-ttu-id="38bc9-218">Сведения о дате вступления в силу</span><span class="sxs-lookup"><span data-stu-id="38bc9-218">Date effective information</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Задания</td>
+<td><span data-ttu-id="38bc9-219">Задания</span><span class="sxs-lookup"><span data-stu-id="38bc9-219">Jobs</span></span></td>
 <td><ul>
-<li>Некоторые подробные сведения о задании</li>
-<li>Сведения о классификации заданий</li>
-<li>Информация о компенсации</li>
+<li><span data-ttu-id="38bc9-220">Некоторые подробные сведения о задании</span><span class="sxs-lookup"><span data-stu-id="38bc9-220">Some detailed job information</span></span></li>
+<li><span data-ttu-id="38bc9-221">Сведения о классификации заданий</span><span class="sxs-lookup"><span data-stu-id="38bc9-221">Job classification information</span></span></li>
+<li><span data-ttu-id="38bc9-222">Информация о компенсации</span><span class="sxs-lookup"><span data-stu-id="38bc9-222">Compensation information</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Должности</td>
+<td><span data-ttu-id="38bc9-223">Должности</span><span class="sxs-lookup"><span data-stu-id="38bc9-223">Positions</span></span></td>
 <td><ul>
-<li>Некоторые подробные сведения о должности</li>
-<li>Назначения работников</li>
-<li>Периоды должностей</li>
-<li>Иерархия должностей</li>
+<li><span data-ttu-id="38bc9-224">Некоторые подробные сведения о должности</span><span class="sxs-lookup"><span data-stu-id="38bc9-224">Some detailed position information</span></span></li>
+<li><span data-ttu-id="38bc9-225">Назначения работников</span><span class="sxs-lookup"><span data-stu-id="38bc9-225">Worker assignments</span></span></li>
+<li><span data-ttu-id="38bc9-226">Периоды должностей</span><span class="sxs-lookup"><span data-stu-id="38bc9-226">Position durations</span></span></li>
+<li><span data-ttu-id="38bc9-227">Иерархия должностей</span><span class="sxs-lookup"><span data-stu-id="38bc9-227">Position hierarchies</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-Можно изменять информацию, указанную в предыдущей таблице, для должности или задания, и указать дату, когда изменения должности или задания должны вступить в силу. Например, должность может быть назначена только одному работнику, но Сергей Пател, которому назначена должность Бухгалтер А, уходит через 2 недели. Джо Хили заменит Сергея Патела когда он уйдет. Даже если Сергей все еще назначен для его должности, можно назначить Джо Хили на эту же должность так, что назначение будет действовать только после последнего дня Сергея.
+<span data-ttu-id="38bc9-228">Можно изменять информацию, указанную в предыдущей таблице, для должности или задания, и указать дату, когда изменения должности или задания должны вступить в силу.</span><span class="sxs-lookup"><span data-stu-id="38bc9-228">You can modify the information mentioned in the previous table for a position or a job and specify a date when the modifications to the position or job should take effect.</span></span> <span data-ttu-id="38bc9-229">Например, должность может быть назначена только одному работнику, но Сергей Пател, которому назначена должность Бухгалтер А, уходит через 2 недели.</span><span class="sxs-lookup"><span data-stu-id="38bc9-229">For example, a position can only be assigned to one worker, but Sanjay Patel, who is assigned to the position Accountant-A, will be leaving in two weeks.</span></span> <span data-ttu-id="38bc9-230">Джо Хили заменит Сергея Патела когда он уйдет.</span><span class="sxs-lookup"><span data-stu-id="38bc9-230">Joe Healy will replace Sanjay Patel when he leaves.</span></span> <span data-ttu-id="38bc9-231">Даже если Сергей все еще назначен для его должности, можно назначить Джо Хили на эту же должность так, что назначение будет действовать только после последнего дня Сергея.</span><span class="sxs-lookup"><span data-stu-id="38bc9-231">Even though Sanjay is still assigned to his position, you can assign Joe Healy to the same position so that the assignment is effective only after Sanjay’s last day.</span></span>
 
 
 

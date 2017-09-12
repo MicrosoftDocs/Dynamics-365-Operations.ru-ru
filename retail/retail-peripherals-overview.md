@@ -18,321 +18,219 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
-ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>Обзор периферийных устройств для розничной торговли
+# <a name="retail-peripherals-overview"></a><span data-ttu-id="b4819-104">Обзор периферийных устройств для розничной торговли</span><span class="sxs-lookup"><span data-stu-id="b4819-104">Retail peripherals overview</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-В этом разделе объясняются понятия, связанные с периферийными устройствами розничной торговли. В нем описываются различные способы подключения периферийных устройств к POS-терминалу, а также компоненты, которые отвечают за настройку соединения с POS.
+<span data-ttu-id="b4819-105">В этом разделе объясняются понятия, связанные с периферийными устройствами розничной торговли.</span><span class="sxs-lookup"><span data-stu-id="b4819-105">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="b4819-106">В нем описываются различные способы подключения периферийных устройств к POS-терминалу, а также компоненты, которые отвечают за настройку соединения с POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-106">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
 
-## <a name="concepts"></a>Концепции
+## <a name="concepts"></a><span data-ttu-id="b4819-107">Концепции</span><span class="sxs-lookup"><span data-stu-id="b4819-107">Concepts</span></span>
 
-### <a name="pos-registers"></a>POS-регистраторы
+### <a name="pos-registers"></a><span data-ttu-id="b4819-108">POS-регистраторы</span><span class="sxs-lookup"><span data-stu-id="b4819-108">POS registers</span></span>
 
-Навигация: щелкните **Розничная торговля** &gt; **Настройка канала** &gt; **Настройка POS** &gt; **Регистры**. Регистр POS — это объект, используемый для определения характеристик конкретного экземпляра POS. Эти характеристики включают профиль оборудования или настройку для периферийных устройств розничной торговли, которые будут использоваться в регистре, магазин, с которым сопоставлен этот регистр, и визуальной взаимодействие с пользователем, который входит в этот регистр.
+<span data-ttu-id="b4819-109">Навигация: щелкните **Розничная торговля** &gt; **Настройка канала** &gt; **Настройка POS** &gt; **Регистры**.</span><span class="sxs-lookup"><span data-stu-id="b4819-109">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="b4819-110">Регистр POS — это объект, используемый для определения характеристик конкретного экземпляра POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-110">The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</span></span> <span data-ttu-id="b4819-111">Эти характеристики включают профиль оборудования или настройку для периферийных устройств розничной торговли, которые будут использоваться в регистре, магазин, с которым сопоставлен этот регистр, и визуальной взаимодействие с пользователем, который входит в этот регистр.</span><span class="sxs-lookup"><span data-stu-id="b4819-111">These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</span></span>
 
-### <a name="devices"></a>Оборудование
+### <a name="devices"></a><span data-ttu-id="b4819-112">Оборудование</span><span class="sxs-lookup"><span data-stu-id="b4819-112">Devices</span></span>
 
-Навигация: щелкните **Розничная торговля** &gt; **Настройка канала** &gt; **Настройка POS** &gt; **Устройства**. Устройство — это объект, представляющий физический экземпляр устройства, которое сопоставлено с регистром POS. При создании устройства оно сопоставляется с регистром POS. Объект устройства отслеживает сведения об активации регистра POS, типе используемого клиента и пакете приложения, развернутом на определенном устройстве. Устройства могут сопоставляться для следующих типов приложений: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android и Retail Modern POS – iOS.
+<span data-ttu-id="b4819-113">Навигация: щелкните **Розничная торговля** &gt; **Настройка канала** &gt; **Настройка POS** &gt; **Устройства**.</span><span class="sxs-lookup"><span data-stu-id="b4819-113">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Devices**.</span></span> <span data-ttu-id="b4819-114">Устройство — это объект, представляющий физический экземпляр устройства, которое сопоставлено с регистром POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-114">A device is an entity that represents a physical instance of a device that is mapped to a POS register.</span></span> <span data-ttu-id="b4819-115">При создании устройства оно сопоставляется с регистром POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-115">When a device is created, it’s mapped to a POS register.</span></span> <span data-ttu-id="b4819-116">Объект устройства отслеживает сведения об активации регистра POS, типе используемого клиента и пакете приложения, развернутом на определенном устройстве.</span><span class="sxs-lookup"><span data-stu-id="b4819-116">The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</span></span> <span data-ttu-id="b4819-117">Устройства могут сопоставляться для следующих типов приложений: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android и Retail Modern POS – iOS.</span><span class="sxs-lookup"><span data-stu-id="b4819-117">Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</span></span>
 
-### <a name="retail-modern-pos"></a>Retail Modern POS
+### <a name="retail-modern-pos"></a><span data-ttu-id="b4819-118">Retail Modern POS</span><span class="sxs-lookup"><span data-stu-id="b4819-118">Retail Modern POS</span></span>
 
-Modern POS является программой POS-терминала для Microsoft Windows. Ее можно развернуть в операционных системах (ОС) Windows 10.
+<span data-ttu-id="b4819-119">Modern POS является программой POS-терминала для Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-119">Modern POS is the POS program for Microsoft Windows.</span></span> <span data-ttu-id="b4819-120">Ее можно развернуть в операционных системах (ОС) Windows 10.</span><span class="sxs-lookup"><span data-stu-id="b4819-120">It can be deployed on Windows 10 operating systems (OSs).</span></span>
 
-### <a name="cloud-pos"></a>Cloud POS
+### <a name="cloud-pos"></a><span data-ttu-id="b4819-121">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="b4819-121">Cloud POS</span></span>
 
-Cloud POS является браузерной версией программы Modern POS, доступную в веб-браузере.
+<span data-ttu-id="b4819-122">Cloud POS является браузерной версией программы Modern POS, доступную в веб-браузере.</span><span class="sxs-lookup"><span data-stu-id="b4819-122">Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</span></span>
 
-### <a name="modern-pos-for-ios"></a>Modern POS для iOS
+### <a name="modern-pos-for-ios"></a><span data-ttu-id="b4819-123">Modern POS для iOS</span><span class="sxs-lookup"><span data-stu-id="b4819-123">Modern POS for iOS</span></span>
 
-Modern POS для iOS является версией программы Modern POS для операционной системы iOS и может быть развернута на устройствах iOS.
+<span data-ttu-id="b4819-124">Modern POS для iOS является версией программы Modern POS для операционной системы iOS и может быть развернута на устройствах iOS.</span><span class="sxs-lookup"><span data-stu-id="b4819-124">Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</span></span>
 
-### <a name="modern-pos-for-android"></a>Modern POS для Android
+### <a name="modern-pos-for-android"></a><span data-ttu-id="b4819-125">Modern POS для Android</span><span class="sxs-lookup"><span data-stu-id="b4819-125">Modern POS for Android</span></span>
 
-Modern POS для Android является версией программы Modern POS для операционной системы Android и может быть развернута на устройствах Android.
+<span data-ttu-id="b4819-126">Modern POS для Android является версией программы Modern POS для операционной системы Android и может быть развернута на устройствах Android.</span><span class="sxs-lookup"><span data-stu-id="b4819-126">Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</span></span>
 
-### <a name="pos-peripherals"></a>Периферийные устройства POS
+### <a name="pos-peripherals"></a><span data-ttu-id="b4819-127">Периферийные устройства POS</span><span class="sxs-lookup"><span data-stu-id="b4819-127">POS peripherals</span></span>
 
-Периферийные устройства POS — это устройства, которые явно поддерживаются для функций POS. Эти периферийные устройства обычно разделяются на определенные классы. Дополнительные сведения об этих классах см. в пункте "Классы устройств" данного раздела.
+<span data-ttu-id="b4819-128">Периферийные устройства POS — это устройства, которые явно поддерживаются для функций POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-128">POS peripherals are devices that are explicitly supported for POS functions.</span></span> <span data-ttu-id="b4819-129">Эти периферийные устройства обычно разделяются на определенные классы.</span><span class="sxs-lookup"><span data-stu-id="b4819-129">These peripherals are typically divided into specific classes.</span></span> <span data-ttu-id="b4819-130">Дополнительные сведения об этих классах см. в пункте "Классы устройств" данного раздела.</span><span class="sxs-lookup"><span data-stu-id="b4819-130">For more information about these classes, see the “Device classes” section of this topic.</span></span>
 
-### <a name="hardware-station"></a>Станция оборудования
+### <a name="hardware-station"></a><span data-ttu-id="b4819-131">Станция оборудования</span><span class="sxs-lookup"><span data-stu-id="b4819-131">Hardware station</span></span>
 
-Навигация: щелкните **Розничная торговля** &gt; **Каналы** &gt; **Магазины розничной торговли** &gt; **Все магазины розничной торговли**. Выберите магазин и перейдите на экспресс-вкладку **Станции оборудования**. Параметр **Станция оборудования** является параметром уровня канала, который используется для определения экземпляра, в котором развертывается логика периферийных устройств розничной торговли. Этот параметр на уровне канала используется для определения характеристик станции оборудования. Он также используется для списка станций оборудования, которые доступны для экземпляра Modern POS в конкретном магазине. Станция оборудования встроена в программу Modern POS для Windows. Станция оборудования также может развертываться независимо как автономная программа служб Microsoft Internet Information Services (IIS). В этом случае к ней возможен доступ по сети.
+<span data-ttu-id="b4819-132">Навигация: щелкните **Розничная торговля** &gt; **Каналы** &gt; **Магазины розничной торговли** &gt; **Все магазины розничной торговли**.</span><span class="sxs-lookup"><span data-stu-id="b4819-132">Navigation: Click **Retail** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**.</span></span> <span data-ttu-id="b4819-133">Выберите магазин и перейдите на экспресс-вкладку **Станции оборудования**.</span><span class="sxs-lookup"><span data-stu-id="b4819-133">Select a store, and then click the **Hardware stations** FastTab.</span></span> <span data-ttu-id="b4819-134">Параметр **Станция оборудования** является параметром уровня канала, который используется для определения экземпляра, в котором развертывается логика периферийных устройств розничной торговли.</span><span class="sxs-lookup"><span data-stu-id="b4819-134">The **Hardware station** setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</span></span> <span data-ttu-id="b4819-135">Этот параметр на уровне канала используется для определения характеристик станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-135">This setting at the channel level is used to determine characteristics of the hardware station.</span></span> <span data-ttu-id="b4819-136">Он также используется для списка станций оборудования, которые доступны для экземпляра Modern POS в конкретном магазине.</span><span class="sxs-lookup"><span data-stu-id="b4819-136">It's also used to list hardware stations that are available for a Modern POS instance in a given store.</span></span> <span data-ttu-id="b4819-137">Станция оборудования встроена в программу Modern POS для Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-137">The hardware station is built into the Modern POS program for Windows.</span></span> <span data-ttu-id="b4819-138">Станция оборудования также может развертываться независимо как автономная программа служб Microsoft Internet Information Services (IIS).</span><span class="sxs-lookup"><span data-stu-id="b4819-138">The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</span></span> <span data-ttu-id="b4819-139">В этом случае к ней возможен доступ по сети.</span><span class="sxs-lookup"><span data-stu-id="b4819-139">In this case, it can be accessed via a network.</span></span>
 
-### <a name="hardware-profile"></a>Профиль оборудования
+### <a name="hardware-profile"></a><span data-ttu-id="b4819-140">Профиль оборудования</span><span class="sxs-lookup"><span data-stu-id="b4819-140">Hardware profile</span></span>
 
-Навигация: щелкните **Розничная торговля** &gt; **Настройка канала** &gt; **Настройка POS** &gt; **Профили POS** &gt; **Профили оборудования**. Профиль оборудования представляет собой список устройств, настроенных для регистра POS или станции оборудования. Профиль оборудования может быть сопоставлен непосредственно регистру POS или станции оборудования.
+<span data-ttu-id="b4819-141">Навигация: щелкните **Розничная торговля** &gt; **Настройка канала** &gt; **Настройка POS** &gt; **Профили POS** &gt; **Профили оборудования**.</span><span class="sxs-lookup"><span data-stu-id="b4819-141">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="b4819-142">Профиль оборудования представляет собой список устройств, настроенных для регистра POS или станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-142">The hardware profile is a list of devices that are configured for a POS register or a hardware station.</span></span> <span data-ttu-id="b4819-143">Профиль оборудования может быть сопоставлен непосредственно регистру POS или станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-143">The hardware profile can be mapped directly to a POS register or a hardware station.</span></span>
 
-## <a name="devices-classes"></a>Классы устройств
-Периферийные устройства POS обычно разделяются на классы. В этом разделе приводится описание и обзор устройств, которые поддерживает Modern POS.
+## <a name="devices-classes"></a><span data-ttu-id="b4819-144">Классы устройств</span><span class="sxs-lookup"><span data-stu-id="b4819-144">Devices classes</span></span>
+<span data-ttu-id="b4819-145">Периферийные устройства POS обычно разделяются на классы.</span><span class="sxs-lookup"><span data-stu-id="b4819-145">POS peripherals are typically divided into classes.</span></span> <span data-ttu-id="b4819-146">В этом разделе приводится описание и обзор устройств, которые поддерживает Modern POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-146">This section describes and gives an overview of the devices that Modern POS supports.</span></span>
 
-### <a name="printer"></a>Принтер
+### <a name="printer"></a><span data-ttu-id="b4819-147">Принтер</span><span class="sxs-lookup"><span data-stu-id="b4819-147">Printer</span></span>
 
-Принтеры включают в себя традиционной принтеры чеков POS и принтеры целой страницы. Принтер поддерживается через интерфейс OLE для Retail POS (OPOS) и интерфейсы драйверов Microsoft Windows. Можно использовать одновременно до двух принтеров. Эта возможность поддерживает сценарии, когда чеки клиента "оплатил и забрал" печатаются на принтерах чеков, а заказы клиентов, которые содержат дополнительные сведения, печатаются на принтере целой страницы. Принтеры чеков могут быть подключены непосредственно к компьютеру через USB, подключены к сети по Ethernet или подключены с помощью Bluetooth.
+<span data-ttu-id="b4819-148">Принтеры включают в себя традиционной принтеры чеков POS и принтеры целой страницы.</span><span class="sxs-lookup"><span data-stu-id="b4819-148">Printers include traditional POS receipt printers and full-page printers.</span></span> <span data-ttu-id="b4819-149">Принтер поддерживается через интерфейс OLE для Retail POS (OPOS) и интерфейсы драйверов Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-149">Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</span></span> <span data-ttu-id="b4819-150">Можно использовать одновременно до двух принтеров.</span><span class="sxs-lookup"><span data-stu-id="b4819-150">Up to two printers can be used at the same time.</span></span> <span data-ttu-id="b4819-151">Эта возможность поддерживает сценарии, когда чеки клиента "оплатил и забрал" печатаются на принтерах чеков, а заказы клиентов, которые содержат дополнительные сведения, печатаются на принтере целой страницы.</span><span class="sxs-lookup"><span data-stu-id="b4819-151">This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</span></span> <span data-ttu-id="b4819-152">Принтеры чеков могут быть подключены непосредственно к компьютеру через USB, подключены к сети по Ethernet или подключены с помощью Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="b4819-152">Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</span></span>
 
-### <a name="scanner"></a>Сканер
+### <a name="scanner"></a><span data-ttu-id="b4819-153">Сканер</span><span class="sxs-lookup"><span data-stu-id="b4819-153">Scanner</span></span>
 
-Можно использовать одновременно до двух сканеров штрих-кодов. Эта возможность поддерживает сценарии, когда более мобильный сканер требуется для сканирования больших или тяжелых товаров, в то время как встроенный сканер используется для большинства товаров стандартного размера, чтобы ускорить время обработки на кассе. Сканеры могут поддерживаться через OPOS, Universal Windows Platform (UWP) или интерфейсы электронного соединителя клавиатуры. USB или Bluetooth могут использоваться для подключения к компьютеру сканера.
+<span data-ttu-id="b4819-154">Можно использовать одновременно до двух сканеров штрих-кодов.</span><span class="sxs-lookup"><span data-stu-id="b4819-154">Up to two bar code scanners can be used at the same time.</span></span> <span data-ttu-id="b4819-155">Эта возможность поддерживает сценарии, когда более мобильный сканер требуется для сканирования больших или тяжелых товаров, в то время как встроенный сканер используется для большинства товаров стандартного размера, чтобы ускорить время обработки на кассе.</span><span class="sxs-lookup"><span data-stu-id="b4819-155">This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</span></span> <span data-ttu-id="b4819-156">Сканеры могут поддерживаться через OPOS, Universal Windows Platform (UWP) или интерфейсы электронного соединителя клавиатуры.</span><span class="sxs-lookup"><span data-stu-id="b4819-156">Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</span></span> <span data-ttu-id="b4819-157">USB или Bluetooth могут использоваться для подключения к компьютеру сканера.</span><span class="sxs-lookup"><span data-stu-id="b4819-157">USB or Bluetooth can be used to connect a scanner to a computer.</span></span>
 
-### <a name="msr"></a>MSR / считыватель магнитных карт
+### <a name="msr"></a><span data-ttu-id="b4819-158">MSR / считыватель магнитных карт</span><span class="sxs-lookup"><span data-stu-id="b4819-158">MSR</span></span>
 
-Один USB-считыватель магнитных карт (MSR) можно настроить с помощью драйверов OPOS. Если вы хотите использовать автономный считыватель магнитных карт для платежных проводок электронных платежей (EFT), считыватель магнитных карт должен управляться соединителем платежей. Автономные считыватели магнитных карт могут использоваться для ввода данных программы лояльности клиентов, входа сотрудников и ввода подарочных карт, независимо от соединителя платежей.
+<span data-ttu-id="b4819-159">Один USB-считыватель магнитных карт (MSR) можно настроить с помощью драйверов OPOS.</span><span class="sxs-lookup"><span data-stu-id="b4819-159">One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</span></span> <span data-ttu-id="b4819-160">Если вы хотите использовать автономный считыватель магнитных карт для платежных проводок электронных платежей (EFT), считыватель магнитных карт должен управляться соединителем платежей.</span><span class="sxs-lookup"><span data-stu-id="b4819-160">If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</span></span> <span data-ttu-id="b4819-161">Автономные считыватели магнитных карт могут использоваться для ввода данных программы лояльности клиентов, входа сотрудников и ввода подарочных карт, независимо от соединителя платежей.</span><span class="sxs-lookup"><span data-stu-id="b4819-161">Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</span></span>
 
-### <a name="cash-drawer"></a>Кассовый лоток
+### <a name="cash-drawer"></a><span data-ttu-id="b4819-162">Кассовый лоток</span><span class="sxs-lookup"><span data-stu-id="b4819-162">Cash drawer</span></span>
 
-Два кассовых лотка могут поддерживаться в профиле оборудования. Эта возможность позволяет, чтобы для каждого регистра были одновременно активны две смены. Если имеется общая смена или кассовый лоток одновременно используется несколькими мобильными устройствами POS, для каждого профиля оборудования допускается только один кассовый лоток. Кассовые лотки могут быть подключены непосредственно к компьютеру через USB, подключены к сети или подключены к принтеру чеков по интерфейсу RJ12. В некоторых случаях кассовые лотки также могут быть подключены через Bluetooth.
+<span data-ttu-id="b4819-163">Два кассовых лотка могут поддерживаться в профиле оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-163">Two cash drawers can be supported per hardware profile.</span></span> <span data-ttu-id="b4819-164">Эта возможность позволяет, чтобы для каждого регистра были одновременно активны две смены.</span><span class="sxs-lookup"><span data-stu-id="b4819-164">This capability enables two active shifts per register to be available at the same time.</span></span> <span data-ttu-id="b4819-165">Если имеется общая смена или кассовый лоток одновременно используется несколькими мобильными устройствами POS, для каждого профиля оборудования допускается только один кассовый лоток.</span><span class="sxs-lookup"><span data-stu-id="b4819-165">In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</span></span> <span data-ttu-id="b4819-166">Кассовые лотки могут быть подключены непосредственно к компьютеру через USB, подключены к сети или подключены к принтеру чеков по интерфейсу RJ12.</span><span class="sxs-lookup"><span data-stu-id="b4819-166">Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</span></span> <span data-ttu-id="b4819-167">В некоторых случаях кассовые лотки также могут быть подключены через Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="b4819-167">In some cases, cash drawers can also be connected via Bluetooth.</span></span>
 
-### <a name="line-display"></a>Строковый дисплей
+### <a name="line-display"></a><span data-ttu-id="b4819-168">Строковый дисплей</span><span class="sxs-lookup"><span data-stu-id="b4819-168">Line display</span></span>
 
-Строковые дисплеи используются для отображения продуктов, сальдо проводки и других полезных сведений для клиента во время проводки. Один строковый дисплей может быть подключен к компьютеру через USB с помощью драйверов OPOS.
+<span data-ttu-id="b4819-169">Строковые дисплеи используются для отображения продуктов, сальдо проводки и других полезных сведений для клиента во время проводки.</span><span class="sxs-lookup"><span data-stu-id="b4819-169">Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</span></span> <span data-ttu-id="b4819-170">Один строковый дисплей может быть подключен к компьютеру через USB с помощью драйверов OPOS.</span><span class="sxs-lookup"><span data-stu-id="b4819-170">One line display can be connected to the computer via USB by using OPOS drivers.</span></span>
 
-### <a name="signature-capture"></a>Считывание рукописных подписей
+### <a name="signature-capture"></a><span data-ttu-id="b4819-171">Считывание рукописных подписей</span><span class="sxs-lookup"><span data-stu-id="b4819-171">Signature capture</span></span>
 
-Устройства считывания рукописных подписей могут быть подключены непосредственно к компьютеру через USB с помощью драйверов OPOS. Если настроено считывание подписи, клиенту будет предложено расписаться на устройстве. После ввода подписи она отображается кассиру для принятия.
+<span data-ttu-id="b4819-172">Устройства считывания рукописных подписей могут быть подключены непосредственно к компьютеру через USB с помощью драйверов OPOS.</span><span class="sxs-lookup"><span data-stu-id="b4819-172">Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</span></span> <span data-ttu-id="b4819-173">Если настроено считывание подписи, клиенту будет предложено расписаться на устройстве.</span><span class="sxs-lookup"><span data-stu-id="b4819-173">When signature capture is configured, the customer is prompted to sign on the device.</span></span> <span data-ttu-id="b4819-174">После ввода подписи она отображается кассиру для принятия.</span><span class="sxs-lookup"><span data-stu-id="b4819-174">After the signature is provided, it's shown to the cashier for acceptance.</span></span>
 
-### <a name="scale"></a>Весы
+### <a name="scale"></a><span data-ttu-id="b4819-175">Весы</span><span class="sxs-lookup"><span data-stu-id="b4819-175">Scale</span></span>
 
-Весы могут быть подключены к компьютеру через USP с помощью драйверов OPOS. При добавлении в проводку продукта, помеченного как "Взвешиваемый", POS считывает вес с весов, добавляет продукт в проводку и использует количество, предоставленное весами.
+<span data-ttu-id="b4819-176">Весы могут быть подключены к компьютеру через USP с помощью драйверов OPOS.</span><span class="sxs-lookup"><span data-stu-id="b4819-176">Scales can be connected to the computer via USP by using OPOS drivers.</span></span> <span data-ttu-id="b4819-177">При добавлении в проводку продукта, помеченного как "Взвешиваемый", POS считывает вес с весов, добавляет продукт в проводку и использует количество, предоставленное весами.</span><span class="sxs-lookup"><span data-stu-id="b4819-177">When a product that is marked as a “Weighed” product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</span></span>
 
-### <a name="pin-pad"></a>Клавиатура для набора ПИН-кода
+### <a name="pin-pad"></a><span data-ttu-id="b4819-178">Клавиатура для набора ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="b4819-178">PIN pad</span></span>
 
-Клавиатуры для набора ПИН-кода поддерживаются с помощью OPOS, но управление ими должно осуществляться через соединитель платежей.
+<span data-ttu-id="b4819-179">Клавиатуры для набора ПИН-кода поддерживаются с помощью OPOS, но управление ими должно осуществляться через соединитель платежей.</span><span class="sxs-lookup"><span data-stu-id="b4819-179">Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</span></span>
 
-### <a name="secondary-display"></a>Дополнительный дисплей
+### <a name="secondary-display"></a><span data-ttu-id="b4819-180">Дополнительный дисплей</span><span class="sxs-lookup"><span data-stu-id="b4819-180">Secondary display</span></span>
 
-Если настроен дополнительный экран, экран Windows номер 2 используется для отображения основных сведений. Дополнительный дисплей предназначен для поддержки расширений независимых поставщиков программного обеспечения, поскольку в стандартном виде дополнительный дисплей не настраивается и отображает ограниченное содержимое.
+<span data-ttu-id="b4819-181">Если настроен дополнительный экран, экран Windows номер 2 используется для отображения основных сведений.</span><span class="sxs-lookup"><span data-stu-id="b4819-181">When a secondary display is configured, the number 2 Windows display is used to show basic information.</span></span> <span data-ttu-id="b4819-182">Дополнительный дисплей предназначен для поддержки расширений независимых поставщиков программного обеспечения, поскольку в стандартном виде дополнительный дисплей не настраивается и отображает ограниченное содержимое.</span><span class="sxs-lookup"><span data-stu-id="b4819-182">The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</span></span>
 
-### <a name="payment-device"></a>Платежный терминал
+### <a name="payment-device"></a><span data-ttu-id="b4819-183">Платежный терминал</span><span class="sxs-lookup"><span data-stu-id="b4819-183">Payment device</span></span>
 
-Поддержка платежных терминалов реализуется через соединитель платежей. Платежные терминалы могут выполнять одну или много функций, которые предоставляют другие классы устройств. Например, платежный терминал может функционировать как считыватель магнитных карт или карт, строковый дисплей, устройство считывания рукописной подписи или клавиатура для ввода ПИН-кодов. Поддержка платежных терминалов реализована независимо от поддержки отдельных устройств, которая предоставлена для других устройств, включенных в профиль оборудования.
+<span data-ttu-id="b4819-184">Поддержка платежных терминалов реализуется через соединитель платежей.</span><span class="sxs-lookup"><span data-stu-id="b4819-184">Payment device support is implemented through the payment connector.</span></span> <span data-ttu-id="b4819-185">Платежные терминалы могут выполнять одну или много функций, которые предоставляют другие классы устройств.</span><span class="sxs-lookup"><span data-stu-id="b4819-185">Payment devices can perform one or many of the functions that other device classes provide.</span></span> <span data-ttu-id="b4819-186">Например, платежный терминал может функционировать как считыватель магнитных карт или карт, строковый дисплей, устройство считывания рукописной подписи или клавиатура для ввода ПИН-кодов.</span><span class="sxs-lookup"><span data-stu-id="b4819-186">For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</span></span> <span data-ttu-id="b4819-187">Поддержка платежных терминалов реализована независимо от поддержки отдельных устройств, которая предоставлена для других устройств, включенных в профиль оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-187">Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</span></span>
 
-## <a name="supported-interfaces"></a>Поддерживаемые интерфейсы
-### <a name="opos"></a>OPOS
+## <a name="supported-interfaces"></a><span data-ttu-id="b4819-188">Поддерживаемые интерфейсы</span><span class="sxs-lookup"><span data-stu-id="b4819-188">Supported interfaces</span></span>
+### <a name="opos"></a><span data-ttu-id="b4819-189">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-189">OPOS</span></span>
 
-Чтобы обеспечить возможность использования с Microsoft Dynamics 365 for Retail самого широкого круга устройств, отраслевой стандарт OLE для POS является основной платформой периферийных устройств для розничной торговли, которая поддерживается в Microsoft Dynamics 365 for Retail. Стандарт OLE для POS было введен Национальной федерацией розничной торговли (National Retail Federation, NRF), которая определяет отраслевые стандарты протоколов связи для периферийных устройств розничной торговли. OPOS — это широко распространенная реализация стандарта OLE для POS. Он был разработан в середине 90-х и с тех пор был несколько раз обновлен. OPOS предоставляет архитектуру драйверов устройств, позволяющую легко интегрировать оборудование POS с системами POS на основе Windows. OPOS управляет связью между совместимым оборудованием и программным обеспечением POS. Элемент управления OPOS состоит из двух частей:
+<span data-ttu-id="b4819-190">Чтобы обеспечить возможность использования с Microsoft Dynamics 365 for Retail самого широкого круга устройств, отраслевой стандарт OLE для POS является основной платформой периферийных устройств для розничной торговли, которая поддерживается в Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="b4819-190">To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="b4819-191">Стандарт OLE для POS было введен Национальной федерацией розничной торговли (National Retail Federation, NRF), которая определяет отраслевые стандарты протоколов связи для периферийных устройств розничной торговли.</span><span class="sxs-lookup"><span data-stu-id="b4819-191">The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</span></span> <span data-ttu-id="b4819-192">OPOS — это широко распространенная реализация стандарта OLE для POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-192">OPOS is a widely adopted implementation of the OLE for POS standard.</span></span> <span data-ttu-id="b4819-193">Он был разработан в середине 90-х и с тех пор был несколько раз обновлен.</span><span class="sxs-lookup"><span data-stu-id="b4819-193">It was developed in the mid-1990s and has been updated several times since then.</span></span> <span data-ttu-id="b4819-194">OPOS предоставляет архитектуру драйверов устройств, позволяющую легко интегрировать оборудование POS с системами POS на основе Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-194">OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</span></span> <span data-ttu-id="b4819-195">OPOS управляет связью между совместимым оборудованием и программным обеспечением POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-195">OPOS controls handle communication between compatible hardware and the POS software.</span></span> <span data-ttu-id="b4819-196">Элемент управления OPOS состоит из двух частей:</span><span class="sxs-lookup"><span data-stu-id="b4819-196">An OPOS control consists of two parts:</span></span>
 
--   **Объект управления** — объект управления для класса устройств (например, строковые дисплеи) предоставляет интерфейс для программного обеспечения. Службы Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) предоставляют стандартизированный набор объектов управления OPOS, которые называются общими объектами управления (common control objects, CCO). CCO используются для проверки компонента POS системы Microsoft Dynamics 365 for Retail. Таким образом, такая проверка помогает гарантировать, что если Microsoft Dynamics 365 for Retail поддерживает класс устройств через OPOS, большое количество разных типов устройств может поддерживаться, при условии, что производитель предоставил объект обслуживания, который создан для OPOS. Не нужно явно тестировать устройства каждого типа.
--   **Объект обслуживания** — объект обслуживания обеспечивает связь между объектом управления (CCO) и устройством. Обычно объект обслуживания для устройства поставляется изготовителем оборудования. Однако в некоторых случаях может потребоваться загрузить объект обслуживания с веб-сайта производителя. Например, может быть доступен более новый объект обслуживания. Чтобы найти адрес веб-сайта производителя, обратитесь к документации на оборудование.
+-   <span data-ttu-id="b4819-197">**Объект управления** — объект управления для класса устройств (например, строковые дисплеи) предоставляет интерфейс для программного обеспечения.</span><span class="sxs-lookup"><span data-stu-id="b4819-197">**Control object** – The control object for a device class (such as line displays) provides the interface for the software program.</span></span> <span data-ttu-id="b4819-198">Службы Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) предоставляют стандартизированный набор объектов управления OPOS, которые называются общими объектами управления (common control objects, CCO).</span><span class="sxs-lookup"><span data-stu-id="b4819-198">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</span></span> <span data-ttu-id="b4819-199">CCO используются для проверки компонента POS системы Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="b4819-199">The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="b4819-200">Таким образом, такая проверка помогает гарантировать, что если Microsoft Dynamics 365 for Retail поддерживает класс устройств через OPOS, большое количество разных типов устройств может поддерживаться, при условии, что производитель предоставил объект обслуживания, который создан для OPOS.</span><span class="sxs-lookup"><span data-stu-id="b4819-200">Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</span></span> <span data-ttu-id="b4819-201">Не нужно явно тестировать устройства каждого типа.</span><span class="sxs-lookup"><span data-stu-id="b4819-201">You don't have to explicitly test each device type.</span></span>
+-   <span data-ttu-id="b4819-202">**Объект обслуживания** — объект обслуживания обеспечивает связь между объектом управления (CCO) и устройством.</span><span class="sxs-lookup"><span data-stu-id="b4819-202">**Service object** – The service object provides communication between the control object (CCO) and the device.</span></span> <span data-ttu-id="b4819-203">Обычно объект обслуживания для устройства поставляется изготовителем оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-203">Typically, the service object for a device is provided by the device manufacturer.</span></span> <span data-ttu-id="b4819-204">Однако в некоторых случаях может потребоваться загрузить объект обслуживания с веб-сайта производителя.</span><span class="sxs-lookup"><span data-stu-id="b4819-204">However, in some cases, you might have to download the service object from the manufacturer’s website.</span></span> <span data-ttu-id="b4819-205">Например, может быть доступен более новый объект обслуживания.</span><span class="sxs-lookup"><span data-stu-id="b4819-205">For example, a more recent service object might be available.</span></span> <span data-ttu-id="b4819-206">Чтобы найти адрес веб-сайта производителя, обратитесь к документации на оборудование.</span><span class="sxs-lookup"><span data-stu-id="b4819-206">To find the address of the manufacturer's website, see your hardware documentation.</span></span>
 
-[![Объект управления и объект обслуживания](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Поддержки реализации OPOS стандарта OLE для POS помогает гарантировать, что если производители устройств и издатели POS правильно реализовали стандарт, системы POS и поддерживаемые устройства могут работать совместно, даже если они не были ранее протестированы друг с другом. **Примечание.** Поддержка OPOS не гарантирует поддержку всех устройств, для которых имеются драйверы OPOS. Сначала Microsoft Dynamics 365 for Retail должен поддерживать данный тип (или класс) устройств через OPOS. Кроме того, сервисные службы не всегда могут быть обновлены до последней версии CCO. Также следует иметь в виду, что, как правило, качество объектов обслуживания может варьироваться.
+<span data-ttu-id="b4819-207">[![Объект управления и объект обслуживания](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Поддержки реализации OPOS стандарта OLE для POS помогает гарантировать, что если производители устройств и издатели POS правильно реализовали стандарт, системы POS и поддерживаемые устройства могут работать совместно, даже если они не были ранее протестированы друг с другом.</span><span class="sxs-lookup"><span data-stu-id="b4819-207">[![Control object and service object](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</span></span> <span data-ttu-id="b4819-208">**Примечание.** Поддержка OPOS не гарантирует поддержку всех устройств, для которых имеются драйверы OPOS.</span><span class="sxs-lookup"><span data-stu-id="b4819-208">**Note:** OPOS support doesn't guarantee support for all devices that have OPOS drivers.</span></span> <span data-ttu-id="b4819-209">Сначала Microsoft Dynamics 365 for Retail должен поддерживать данный тип (или класс) устройств через OPOS.</span><span class="sxs-lookup"><span data-stu-id="b4819-209">Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</span></span> <span data-ttu-id="b4819-210">Кроме того, сервисные службы не всегда могут быть обновлены до последней версии CCO.</span><span class="sxs-lookup"><span data-stu-id="b4819-210">In addition, service objects might not always be up to date with the latest version of the CCOs.</span></span> <span data-ttu-id="b4819-211">Также следует иметь в виду, что, как правило, качество объектов обслуживания может варьироваться.</span><span class="sxs-lookup"><span data-stu-id="b4819-211">You should also be aware that, in general, the quality of service objects varies.</span></span>
 
-### <a name="windows"></a>Windows
+### <a name="windows"></a><span data-ttu-id="b4819-212">Windows</span><span class="sxs-lookup"><span data-stu-id="b4819-212">Windows</span></span>
 
-Печать чеков в POS оптимизирована для OPOS. OPOS, как правило, гораздо быстрее, чем печать через Windows. Таким образом, рекомендуется использовать OPOS, особенно в средах розничной торговли, где печатаются чеки с 40 столбцами и проводка должна быть быстрой. Для большинства устройств будут использоваться элементы управления OPOS. Однако некоторые OPOS-принтеры чеков также поддерживают драйверы Windows. С помощью драйвера Windows можно получить доступ к новейшим шрифтам и подключить по сети один принтер к нескольким регистрам. Тем не менее, у использования драйверов Windows есть недостатки. Ниже приведены несколько примеров таких недостатков:
+<span data-ttu-id="b4819-213">Печать чеков в POS оптимизирована для OPOS.</span><span class="sxs-lookup"><span data-stu-id="b4819-213">Receipt printing at the POS is optimized for OPOS.</span></span> <span data-ttu-id="b4819-214">OPOS, как правило, гораздо быстрее, чем печать через Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-214">OPOS tends to be much faster than printing through Windows.</span></span> <span data-ttu-id="b4819-215">Таким образом, рекомендуется использовать OPOS, особенно в средах розничной торговли, где печатаются чеки с 40 столбцами и проводка должна быть быстрой.</span><span class="sxs-lookup"><span data-stu-id="b4819-215">Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</span></span> <span data-ttu-id="b4819-216">Для большинства устройств будут использоваться элементы управления OPOS.</span><span class="sxs-lookup"><span data-stu-id="b4819-216">For most devices, you will use OPOS controls.</span></span> <span data-ttu-id="b4819-217">Однако некоторые OPOS-принтеры чеков также поддерживают драйверы Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-217">However, some OPOS receipt printers also support Windows drivers.</span></span> <span data-ttu-id="b4819-218">С помощью драйвера Windows можно получить доступ к новейшим шрифтам и подключить по сети один принтер к нескольким регистрам.</span><span class="sxs-lookup"><span data-stu-id="b4819-218">By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</span></span> <span data-ttu-id="b4819-219">Тем не менее, у использования драйверов Windows есть недостатки.</span><span class="sxs-lookup"><span data-stu-id="b4819-219">However, there are drawbacks to using Windows drivers.</span></span> <span data-ttu-id="b4819-220">Ниже приведены несколько примеров таких недостатков:</span><span class="sxs-lookup"><span data-stu-id="b4819-220">Here are some examples of these drawbacks:</span></span>
 
--   При использовании драйверов Windows изображения обрабатываются перед выполнением печати. Поэтому печать выполняется обычно медленнее, чем на принтерах, использующих элементы управления OPOS.
--   Устройства, подключенные через принтер ("последовательно подключенные"), могут работать неправильно при использовании драйверов Windows. Например, кассовый лоток может не открываться или принтер накладной может не работать должным образом.
--   OPOS также поддерживает более широкий набор переменных, относящихся к принтерам чеков розничной торговли, таких как обрезка бумаги или печать накладной.
+-   <span data-ttu-id="b4819-221">При использовании драйверов Windows изображения обрабатываются перед выполнением печати.</span><span class="sxs-lookup"><span data-stu-id="b4819-221">When Windows drivers are used, images are rendered before printing occurs.</span></span> <span data-ttu-id="b4819-222">Поэтому печать выполняется обычно медленнее, чем на принтерах, использующих элементы управления OPOS.</span><span class="sxs-lookup"><span data-stu-id="b4819-222">Therefore, printing tends to be slower than it is on printers that use OPOS controls.</span></span>
+-   <span data-ttu-id="b4819-223">Устройства, подключенные через принтер ("последовательно подключенные"), могут работать неправильно при использовании драйверов Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-223">Devices that are connected through the printer (“daisy-chained”) might not work correctly when Windows drivers are used.</span></span> <span data-ttu-id="b4819-224">Например, кассовый лоток может не открываться или принтер накладной может не работать должным образом.</span><span class="sxs-lookup"><span data-stu-id="b4819-224">For example, the cash drawer might not open, or the slip printer might not word as you expect.</span></span>
+-   <span data-ttu-id="b4819-225">OPOS также поддерживает более широкий набор переменных, относящихся к принтерам чеков розничной торговли, таких как обрезка бумаги или печать накладной.</span><span class="sxs-lookup"><span data-stu-id="b4819-225">OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</span></span>
 
-Если элементы управления OPOS доступны для используемого принтера Windows, принтер все равно должен работать правильно с Microsoft Dynamics 365 for Retail.
+<span data-ttu-id="b4819-226">Если элементы управления OPOS доступны для используемого принтера Windows, принтер все равно должен работать правильно с Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="b4819-226">If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</span></span>
 
-### <a name="universal-windows-platform"></a>Универсальная платформа Windows
+### <a name="universal-windows-platform"></a><span data-ttu-id="b4819-227">Универсальная платформа Windows</span><span class="sxs-lookup"><span data-stu-id="b4819-227">Universal Windows Platform</span></span>
 
-В случае периферийных устройств розничной торговли UWP относится к поддержке самонастраивающихся устройств в Windows. При подключении самонастраивающегося устройства к версии операционной системы Windows, которая поддерживает этот тип устройств, драйвер не является обязательным для использования устройства по назначению. Например, если Windows обнаруживает Bluetooth-динамик, операционная система знает, что устройство имеет тип класса **Динамик**. Поэтому она считает это устройство динамиком. Дополнительная настройка не требуется. В случае POS-устройств можно подключить много USB-устройств, и Windows распознает их как HID-устройства. Однако ОС может не суметь определить возможности, предоставляемые устройством, так как устройство не указывает класс или тип устройства. Классы устройств для сканеров штрих-кода и считывателей магнитных карт были добавлены в Windows 10. Таким образом, если устройство объявляет себя в Windows 10 как устройство одного из этих классов, Windows будет отслеживать события от устройства в соответствующее время. Modern POS поддерживает считыватели магнитных карт и сканеры UWP. Таким образом, когда он готов для ввода данных из одного из этих устройств и подключено устройство, которое относится к одному из этих классов, можно использовать это устройство. Например, если сканер штрих-кодов UWP подключен к компьютеру с Windows 10 и настроен вход по штрих-коду для Modern POS, сканер штрих-кодов станет активным на экране входа. Дополнительная настройка не требуется. Дополнительные классы UWP-устройств POS сейчас добавляются в Windows. Эти классы включают классы для денежных ящиков и принтеров чеков. Поддержка этих новых классов устройств в Modern POS ожидается.
+<span data-ttu-id="b4819-228">В случае периферийных устройств розничной торговли UWP относится к поддержке самонастраивающихся устройств в Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-228">UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</span></span> <span data-ttu-id="b4819-229">При подключении самонастраивающегося устройства к версии операционной системы Windows, которая поддерживает этот тип устройств, драйвер не является обязательным для использования устройства по назначению.</span><span class="sxs-lookup"><span data-stu-id="b4819-229">When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</span></span> <span data-ttu-id="b4819-230">Например, если Windows обнаруживает Bluetooth-динамик, операционная система знает, что устройство имеет тип класса **Динамик**.</span><span class="sxs-lookup"><span data-stu-id="b4819-230">For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the **Speaker** class type.</span></span> <span data-ttu-id="b4819-231">Поэтому она считает это устройство динамиком.</span><span class="sxs-lookup"><span data-stu-id="b4819-231">Therefore, and it treats that device as a speaker.</span></span> <span data-ttu-id="b4819-232">Дополнительная настройка не требуется.</span><span class="sxs-lookup"><span data-stu-id="b4819-232">No additional setup is required.</span></span> <span data-ttu-id="b4819-233">В случае POS-устройств можно подключить много USB-устройств, и Windows распознает их как HID-устройства.</span><span class="sxs-lookup"><span data-stu-id="b4819-233">In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</span></span> <span data-ttu-id="b4819-234">Однако ОС может не суметь определить возможности, предоставляемые устройством, так как устройство не указывает класс или тип устройства.</span><span class="sxs-lookup"><span data-stu-id="b4819-234">However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</span></span> <span data-ttu-id="b4819-235">Классы устройств для сканеров штрих-кода и считывателей магнитных карт были добавлены в Windows 10.</span><span class="sxs-lookup"><span data-stu-id="b4819-235">In Windows 10, device classes for bar code scanners and MSRs have been added.</span></span> <span data-ttu-id="b4819-236">Таким образом, если устройство объявляет себя в Windows 10 как устройство одного из этих классов, Windows будет отслеживать события от устройства в соответствующее время.</span><span class="sxs-lookup"><span data-stu-id="b4819-236">Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</span></span> <span data-ttu-id="b4819-237">Modern POS поддерживает считыватели магнитных карт и сканеры UWP.</span><span class="sxs-lookup"><span data-stu-id="b4819-237">Modern POS supports UWP MSRs and scanners.</span></span> <span data-ttu-id="b4819-238">Таким образом, когда он готов для ввода данных из одного из этих устройств и подключено устройство, которое относится к одному из этих классов, можно использовать это устройство.</span><span class="sxs-lookup"><span data-stu-id="b4819-238">Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</span></span> <span data-ttu-id="b4819-239">Например, если сканер штрих-кодов UWP подключен к компьютеру с Windows 10 и настроен вход по штрих-коду для Modern POS, сканер штрих-кодов станет активным на экране входа.</span><span class="sxs-lookup"><span data-stu-id="b4819-239">For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</span></span> <span data-ttu-id="b4819-240">Дополнительная настройка не требуется.</span><span class="sxs-lookup"><span data-stu-id="b4819-240">No additional setup is required.</span></span> <span data-ttu-id="b4819-241">Дополнительные классы UWP-устройств POS сейчас добавляются в Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-241">Additional classes of point of service UWP devices are being added to Windows.</span></span> <span data-ttu-id="b4819-242">Эти классы включают классы для денежных ящиков и принтеров чеков.</span><span class="sxs-lookup"><span data-stu-id="b4819-242">These classes include classes for cash drawers and receipt printers.</span></span> <span data-ttu-id="b4819-243">Поддержка этих новых классов устройств в Modern POS ожидается.</span><span class="sxs-lookup"><span data-stu-id="b4819-243">Support for these new device classes in Modern POS is pending.</span></span>
 
-### <a name="keyboard-wedge"></a>Электронный соединитель клавиатуры
+### <a name="keyboard-wedge"></a><span data-ttu-id="b4819-244">Электронный соединитель клавиатуры</span><span class="sxs-lookup"><span data-stu-id="b4819-244">Keyboard wedge</span></span>
 
-Электронные соединители клавиатуры отправляют данные в компьютер, как если бы эти данные были введены на клавиатуре. Поэтому по умолчанию поле, которое является активным в POS, получит отсканированные или считанные данные. В некоторых случаях это поведение может привести к сканированию данных неправильного типа в неправильное поле. Например, штрих-код может быть отсканирован в поле, предназначенное для ввода данных кредитной карты. Во многих случаях в POS имеется логика, которая определяет, являются ли отсканированные или считанные данные штрих-кодом или результатом считывания карты. Таким образом, данные обрабатываются правильно. Однако если устройство настроено как OPOS, а не как электронный соединитель клавиатуры, имеется больший контроль над тем, как данные из этих устройств могут потребляться, поскольку больше "известно" об устройстве, из которого получены данные. Например, данные со сканера штрих-кодов автоматически распознаются как штрих-код, и связанную запись в базе данных легче и быстрее найти, чем если использовать обычный строковый поиск, как в случае электронных соединителей клавиатуры.
+<span data-ttu-id="b4819-245">Электронные соединители клавиатуры отправляют данные в компьютер, как если бы эти данные были введены на клавиатуре.</span><span class="sxs-lookup"><span data-stu-id="b4819-245">Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</span></span> <span data-ttu-id="b4819-246">Поэтому по умолчанию поле, которое является активным в POS, получит отсканированные или считанные данные.</span><span class="sxs-lookup"><span data-stu-id="b4819-246">Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</span></span> <span data-ttu-id="b4819-247">В некоторых случаях это поведение может привести к сканированию данных неправильного типа в неправильное поле.</span><span class="sxs-lookup"><span data-stu-id="b4819-247">In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</span></span> <span data-ttu-id="b4819-248">Например, штрих-код может быть отсканирован в поле, предназначенное для ввода данных кредитной карты.</span><span class="sxs-lookup"><span data-stu-id="b4819-248">For example, a bar code might be scanned into a field that is intended for input of credit card data.</span></span> <span data-ttu-id="b4819-249">Во многих случаях в POS имеется логика, которая определяет, являются ли отсканированные или считанные данные штрих-кодом или результатом считывания карты.</span><span class="sxs-lookup"><span data-stu-id="b4819-249">In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</span></span> <span data-ttu-id="b4819-250">Таким образом, данные обрабатываются правильно.</span><span class="sxs-lookup"><span data-stu-id="b4819-250">Therefore, the data is handled correctly.</span></span> <span data-ttu-id="b4819-251">Однако если устройство настроено как OPOS, а не как электронный соединитель клавиатуры, имеется больший контроль над тем, как данные из этих устройств могут потребляться, поскольку больше "известно" об устройстве, из которого получены данные.</span><span class="sxs-lookup"><span data-stu-id="b4819-251">However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is “known” about the device that the data originates from.</span></span> <span data-ttu-id="b4819-252">Например, данные со сканера штрих-кодов автоматически распознаются как штрих-код, и связанную запись в базе данных легче и быстрее найти, чем если использовать обычный строковый поиск, как в случае электронных соединителей клавиатуры.</span><span class="sxs-lookup"><span data-stu-id="b4819-252">For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</span></span>
 
-### <a name="native-printer"></a>Собственный принтер
+### <a name="native-printer"></a><span data-ttu-id="b4819-253">Собственный принтер</span><span class="sxs-lookup"><span data-stu-id="b4819-253">Native printer</span></span>
 
-Можно настроить собственный принтер (т. е., в профиле оборудования указать в качестве типа значение "Устройство"), чтобы предлагать пользователю выбрать принтер, настроенный для компьютера. Когда настроен принтер типа **Устройство**, если Modern POS обнаруживает команду печати, пользователю будет предложено выбрать принтер в списке. Это поведение отличается от поведения для драйверов Windows, поскольку тип принтера **Windows** в профиле оборудования не отображает список принтеров. Вместо этого он требует указания именованного принтера в поле **Имя устройства**.
+<span data-ttu-id="b4819-254">Можно настроить собственный принтер (т. е., в профиле оборудования указать в качестве типа значение "Устройство"), чтобы предлагать пользователю выбрать принтер, настроенный для компьютера.</span><span class="sxs-lookup"><span data-stu-id="b4819-254">Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</span></span> <span data-ttu-id="b4819-255">Когда настроен принтер типа **Устройство**, если Modern POS обнаруживает команду печати, пользователю будет предложено выбрать принтер в списке.</span><span class="sxs-lookup"><span data-stu-id="b4819-255">When a printer of the **Device** type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</span></span> <span data-ttu-id="b4819-256">Это поведение отличается от поведения для драйверов Windows, поскольку тип принтера **Windows** в профиле оборудования не отображает список принтеров.</span><span class="sxs-lookup"><span data-stu-id="b4819-256">This behavior differs from the behavior for Windows drivers, because the **Windows** printer type in the hardware profile doesn't show a list of printers.</span></span> <span data-ttu-id="b4819-257">Вместо этого он требует указания именованного принтера в поле **Имя устройства**.</span><span class="sxs-lookup"><span data-stu-id="b4819-257">Instead, it requires that a named printer be provided in the **Device name** field.</span></span>
 
-### <a name="windows"></a>Windows
+### <a name="windows"></a><span data-ttu-id="b4819-258">Windows</span><span class="sxs-lookup"><span data-stu-id="b4819-258">Windows</span></span>
 
-Тип устройства **Windows** используется только для принтеров. Если принтер Windows настроен в профиле оборудования, необходимо указать имя конкретного принтера. Когда Modern POS встречает событие печати, если принтер Windows настроен, события будут передаваться на указанный принтер Windows. Пользователю не будет предложено выбрать принтер.
+<span data-ttu-id="b4819-259">Тип устройства **Windows** используется только для принтеров.</span><span class="sxs-lookup"><span data-stu-id="b4819-259">The **Windows** device type is used for printers only.</span></span> <span data-ttu-id="b4819-260">Если принтер Windows настроен в профиле оборудования, необходимо указать имя конкретного принтера.</span><span class="sxs-lookup"><span data-stu-id="b4819-260">When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</span></span> <span data-ttu-id="b4819-261">Когда Modern POS встречает событие печати, если принтер Windows настроен, события будут передаваться на указанный принтер Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-261">When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</span></span> <span data-ttu-id="b4819-262">Пользователю не будет предложено выбрать принтер.</span><span class="sxs-lookup"><span data-stu-id="b4819-262">The user won't be prompted to select a printer.</span></span>
 
-### <a name="network"></a>Сеть
+### <a name="network"></a><span data-ttu-id="b4819-263">Сеть</span><span class="sxs-lookup"><span data-stu-id="b4819-263">Network</span></span>
 
-Денежные ящики, принтеры чеков и платежные терминалы, допускающие адресацию по сети, можно использовать через сеть, либо непосредственно через станцию оборудования межпроцессных взаимодействий (IPC), которая встроена в приложение Modern POS для Windows, либо с помощью станции оборудования IIS для других клиентов Modern POS.
+<span data-ttu-id="b4819-264">Денежные ящики, принтеры чеков и платежные терминалы, допускающие адресацию по сети, можно использовать через сеть, либо непосредственно через станцию оборудования межпроцессных взаимодействий (IPC), которая встроена в приложение Modern POS для Windows, либо с помощью станции оборудования IIS для других клиентов Modern POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-264">Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</span></span>
 
-## <a name="hardware-station-deployment-options"></a>Варианты развертывания станции оборудования
-### <a name="ipc-built-in"></a>IPC (встроенная)
+## <a name="hardware-station-deployment-options"></a><span data-ttu-id="b4819-265">Варианты развертывания станции оборудования</span><span class="sxs-lookup"><span data-stu-id="b4819-265">Hardware station deployment options</span></span>
+### <a name="ipc-built-in"></a><span data-ttu-id="b4819-266">IPC (встроенная)</span><span class="sxs-lookup"><span data-stu-id="b4819-266">IPC (built-in)</span></span>
 
-Станция оборудования межпроцессных взаимодействий (IPC) встроена в приложение Modern POS для Windows. Чтобы использовать станцию оборудования IPC, назначьте профиль оборудования регистру, который будет использоваться приложение Modern POS для Windows. Затем создайте станцию оборудования типа **Выделенный** для магазина, где будет использоваться регистр. При запуске Modern POS станция оборудования IPC будут активна, и периферийное оборудование POS, которое было настроено, будет готово к работе. Если временно не требуется локальное оборудование по какой-либо причине, используйте операцию **Управление станциями оборудования** для отключения возможностей станции оборудования. Modern POS может также использовать станцию оборудования IPC для прямой связи с сетевыми периферийными устройствами.
+<span data-ttu-id="b4819-267">Станция оборудования межпроцессных взаимодействий (IPC) встроена в приложение Modern POS для Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-267">The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="b4819-268">Чтобы использовать станцию оборудования IPC, назначьте профиль оборудования регистру, который будет использоваться приложение Modern POS для Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-268">To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</span></span> <span data-ttu-id="b4819-269">Затем создайте станцию оборудования типа **Выделенный** для магазина, где будет использоваться регистр.</span><span class="sxs-lookup"><span data-stu-id="b4819-269">Then create a hardware station of the **Dedicated** type for the store where the register will be used.</span></span> <span data-ttu-id="b4819-270">При запуске Modern POS станция оборудования IPC будут активна, и периферийное оборудование POS, которое было настроено, будет готово к работе.</span><span class="sxs-lookup"><span data-stu-id="b4819-270">When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</span></span> <span data-ttu-id="b4819-271">Если временно не требуется локальное оборудование по какой-либо причине, используйте операцию **Управление станциями оборудования** для отключения возможностей станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-271">If you temporarily don't require the local hardware for some reason, use the **Manage hardware stations** operation to turn off the hardware station capabilities.</span></span> <span data-ttu-id="b4819-272">Modern POS может также использовать станцию оборудования IPC для прямой связи с сетевыми периферийными устройствами.</span><span class="sxs-lookup"><span data-stu-id="b4819-272">Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</span></span>
 
-### <a name="iis"></a>IIS
+### <a name="iis"></a><span data-ttu-id="b4819-273">IIS</span><span class="sxs-lookup"><span data-stu-id="b4819-273">IIS</span></span>
 
-Можно использовать версию IIS или автономную версию станции оборудования двумя способами. Дескриптор "IIS" предполагает, что приложение POS подключается к станции оборудования через службы Microsoft Internet Information Services (IIS). POS-приложение подключается к станции оборудования IIS через веб-службы, выполняющиеся на компьютере, к которому подключены устройства. При использовании IIS периферийные устройства розничной торговли, подключенные к станции оборудования, могут использоваться любой ККМ POS, подключенной к той же сети, что и станция оборудования IIS. Поскольку только Modern POS для Windows включает встроенную поддержку периферийного оборудования для розничной торговли, все остальные приложения Modern POS должны использовать станцию оборудования IIS для взаимодействия с периферийными устройствами POS, которые настроены в профиле оборудования. Таким образом, каждому экземпляру станции оборудования IIS требуется компьютер, на котором запущены веб-служба и приложение, которые обмениваются данными с устройствами. Станция оборудования IIS является обязательной для всех приложений Modern POS, кроме Modern POS для Windows.
+<span data-ttu-id="b4819-274">Можно использовать версию IIS или автономную версию станции оборудования двумя способами.</span><span class="sxs-lookup"><span data-stu-id="b4819-274">You can use the IIS or stand-alone version of the hardware station in two ways.</span></span> <span data-ttu-id="b4819-275">Дескриптор "IIS" предполагает, что приложение POS подключается к станции оборудования через службы Microsoft Internet Information Services (IIS).</span><span class="sxs-lookup"><span data-stu-id="b4819-275">The descriptor “IIS” implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</span></span> <span data-ttu-id="b4819-276">POS-приложение подключается к станции оборудования IIS через веб-службы, выполняющиеся на компьютере, к которому подключены устройства.</span><span class="sxs-lookup"><span data-stu-id="b4819-276">The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</span></span> <span data-ttu-id="b4819-277">При использовании IIS периферийные устройства розничной торговли, подключенные к станции оборудования, могут использоваться любой ККМ POS, подключенной к той же сети, что и станция оборудования IIS.</span><span class="sxs-lookup"><span data-stu-id="b4819-277">When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</span></span> <span data-ttu-id="b4819-278">Поскольку только Modern POS для Windows включает встроенную поддержку периферийного оборудования для розничной торговли, все остальные приложения Modern POS должны использовать станцию оборудования IIS для взаимодействия с периферийными устройствами POS, которые настроены в профиле оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-278">Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</span></span> <span data-ttu-id="b4819-279">Таким образом, каждому экземпляру станции оборудования IIS требуется компьютер, на котором запущены веб-служба и приложение, которые обмениваются данными с устройствами.</span><span class="sxs-lookup"><span data-stu-id="b4819-279">Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</span></span> <span data-ttu-id="b4819-280">Станция оборудования IIS является обязательной для всех приложений Modern POS, кроме Modern POS для Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-280">The IIS hardware station is required for all non-Windows Modern POS applications.</span></span>
 
-#### <a name="dedicated"></a>Выделенный
+#### <a name="dedicated"></a><span data-ttu-id="b4819-281">Выделенный</span><span class="sxs-lookup"><span data-stu-id="b4819-281">Dedicated</span></span>
 
-Приложение Modern POS использует станции оборудования типа **Выделенный** для обнаружения, что периферийные устройства подключены непосредственно на компьютер, на котором используется приложение. Однако тип **Выделенный** также может использоваться для станций оборудования IIS. В традиционном, фиксированном сценарии POS, в котором в качестве приложения POS используется Cloud POS, тип станции оборудования **Выделенный** используется для станций оборудования IIS, которые развертываются на том же компьютере, на котором выполняется приложение Cloud POS. В отношении периферийных устройств выделенная станция оборудования IIS имеет лучшую поддержку периферийных устройств розничной торговли для традиционных, фиксированных сценариев POS. Выделенные станции оборудования поддерживают все периферийные устройства, которые поддерживаются в профиле оборудования.
+<span data-ttu-id="b4819-282">Приложение Modern POS использует станции оборудования типа **Выделенный** для обнаружения, что периферийные устройства подключены непосредственно на компьютер, на котором используется приложение.</span><span class="sxs-lookup"><span data-stu-id="b4819-282">Modern POS uses hardware stations of the **Dedicated** type to detect that peripherals are directly connected to the computer where the app is being used.</span></span> <span data-ttu-id="b4819-283">Однако тип **Выделенный** также может использоваться для станций оборудования IIS.</span><span class="sxs-lookup"><span data-stu-id="b4819-283">However, the **Dedicated** type can also be used for IIS hardware stations.</span></span> <span data-ttu-id="b4819-284">В традиционном, фиксированном сценарии POS, в котором в качестве приложения POS используется Cloud POS, тип станции оборудования **Выделенный** используется для станций оборудования IIS, которые развертываются на том же компьютере, на котором выполняется приложение Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-284">In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the **Dedicated** hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</span></span> <span data-ttu-id="b4819-285">В отношении периферийных устройств выделенная станция оборудования IIS имеет лучшую поддержку периферийных устройств розничной торговли для традиционных, фиксированных сценариев POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-285">From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</span></span> <span data-ttu-id="b4819-286">Выделенные станции оборудования поддерживают все периферийные устройства, которые поддерживаются в профиле оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-286">Dedicated hardware stations support all peripherals that are supported in the hardware profile.</span></span>
 
-#### <a name="shared"></a>Общие
+#### <a name="shared"></a><span data-ttu-id="b4819-287">Общие</span><span class="sxs-lookup"><span data-stu-id="b4819-287">Shared</span></span>
 
-Общие станции оборудования предназначены для использования несколькими устройствами POS в течение дня. Общие станции оборудования оптимизированы для поддержки только денежных ящиков, принтеров чеков и платежных терминалов. Непосредственное подключение автономных сканеров штрих-кодов, считывателей магнитных карт, строковых дисплеев, весов или других устройств невозможно. В противном случае возникнут конфликты между несколькими устройствами POS, которые одновременно попробуют получить доступ к этим периферийным устройствам. Ниже приводится порядок разрешения конфликтов для поддерживаемых устройств:
+<span data-ttu-id="b4819-288">Общие станции оборудования предназначены для использования несколькими устройствами POS в течение дня.</span><span class="sxs-lookup"><span data-stu-id="b4819-288">Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</span></span> <span data-ttu-id="b4819-289">Общие станции оборудования оптимизированы для поддержки только денежных ящиков, принтеров чеков и платежных терминалов.</span><span class="sxs-lookup"><span data-stu-id="b4819-289">Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</span></span> <span data-ttu-id="b4819-290">Непосредственное подключение автономных сканеров штрих-кодов, считывателей магнитных карт, строковых дисплеев, весов или других устройств невозможно.</span><span class="sxs-lookup"><span data-stu-id="b4819-290">You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</span></span> <span data-ttu-id="b4819-291">В противном случае возникнут конфликты между несколькими устройствами POS, которые одновременно попробуют получить доступ к этим периферийным устройствам.</span><span class="sxs-lookup"><span data-stu-id="b4819-291">Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</span></span> <span data-ttu-id="b4819-292">Ниже приводится порядок разрешения конфликтов для поддерживаемых устройств:</span><span class="sxs-lookup"><span data-stu-id="b4819-292">Here is how conflicts are managed for supported devices:</span></span>
 
--   **Кассовый лоток** — кассовый лоток открывается путем события, которое отправляется на устройство. Единственная проблема, которая может возникнуть при вызове кассового лотка, возникает, если кассовый лоток уже открыт. В случае общих станций оборудования для кассового лотка должен быть указан тип **Общий** в профиле оборудования. При этой настройте POS не будет проверять, не открыт ли кассовый лоток, при передаче команд открытия.
--   **Принтера чеков** — если две команды печати чеков отправляются на станцию оборудования в одно время, одна из команд может быть потеряны, в зависимости от устройства. Некоторые устройства имеют внутреннюю память или группировку в пул, что может предотвратить эту проблему. Если команды печати не была успешно выполнена, кассир получает сообщение об ошибке и может повторить команду печати с POS.
--   **Платежный терминал** — если кассир пытается использовать для оплаты проводки платежный терминал, который уже используется, сообщение уведомляет кассира, что терминал занят, и просит кассира повторить попытку позже. Как правило кассиры могут видеть, что терминал уже используется, и будет ожидать, пока не будет завершена другая проводка, прежде чем снова попытаться принять оплату.
+-   <span data-ttu-id="b4819-293">**Кассовый лоток** — кассовый лоток открывается путем события, которое отправляется на устройство.</span><span class="sxs-lookup"><span data-stu-id="b4819-293">**Cash drawer** – The cash drawer is opened via an event that is sent to the device.</span></span> <span data-ttu-id="b4819-294">Единственная проблема, которая может возникнуть при вызове кассового лотка, возникает, если кассовый лоток уже открыт.</span><span class="sxs-lookup"><span data-stu-id="b4819-294">The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</span></span> <span data-ttu-id="b4819-295">В случае общих станций оборудования для кассового лотка должен быть указан тип **Общий** в профиле оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-295">In the case of shared hardware stations, the cash drawer should be set to **Shared** in the hardware profile.</span></span> <span data-ttu-id="b4819-296">При этой настройте POS не будет проверять, не открыт ли кассовый лоток, при передаче команд открытия.</span><span class="sxs-lookup"><span data-stu-id="b4819-296">This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</span></span>
+-   <span data-ttu-id="b4819-297">**Принтера чеков** — если две команды печати чеков отправляются на станцию оборудования в одно время, одна из команд может быть потеряны, в зависимости от устройства.</span><span class="sxs-lookup"><span data-stu-id="b4819-297">**Receipt printer** – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</span></span> <span data-ttu-id="b4819-298">Некоторые устройства имеют внутреннюю память или группировку в пул, что может предотвратить эту проблему.</span><span class="sxs-lookup"><span data-stu-id="b4819-298">Some devices have internal memory or pooling that can prevent this issue.</span></span> <span data-ttu-id="b4819-299">Если команды печати не была успешно выполнена, кассир получает сообщение об ошибке и может повторить команду печати с POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-299">If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</span></span>
+-   <span data-ttu-id="b4819-300">**Платежный терминал** — если кассир пытается использовать для оплаты проводки платежный терминал, который уже используется, сообщение уведомляет кассира, что терминал занят, и просит кассира повторить попытку позже.</span><span class="sxs-lookup"><span data-stu-id="b4819-300">**Payment terminal** – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</span></span> <span data-ttu-id="b4819-301">Как правило кассиры могут видеть, что терминал уже используется, и будет ожидать, пока не будет завершена другая проводка, прежде чем снова попытаться принять оплату.</span><span class="sxs-lookup"><span data-stu-id="b4819-301">Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</span></span>
 
-В будущих версиях запланирована проверка, позволяющая обнаружить, не настроены ли неподдерживаемые устройства для профиля оборудования, который сопоставлен общей станции оборудования. Если обнаружены какие-либо устройства, которые не поддерживается, пользователь получит сообщение о том, что устройства не поддерживаются для общей станции оборудования. В случае общих станций оборудования для параметра **Выбор при оплате** устанавливается значение **Да** на уровне ККМ. Затем пользователю POS предлагается выбрать станцию оборудования при выборе платежного средства для проводки на POS. Если станция оборудования выбирается только во время оплаты, выбор станции оборудования добавляется непосредственно в workflow-процесс POS для мобильных сценариев. Как дополнительное преимущество, строковый дисплей на платежном терминале не используется для общих сценариев. Если платежный терминал используется как строковый дисплей, другим пользователям может быть заблокировано использование этого терминала до завершения проводки. В мобильных сценариях строки могут добавляться в проводку в течение более длительного периода. Поэтому параметр **Выбор при оплате** необходим для обеспечения оптимальной доступности устройства.
+<span data-ttu-id="b4819-302">В будущих версиях запланирована проверка, позволяющая обнаружить, не настроены ли неподдерживаемые устройства для профиля оборудования, который сопоставлен общей станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-302">Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</span></span> <span data-ttu-id="b4819-303">Если обнаружены какие-либо устройства, которые не поддерживается, пользователь получит сообщение о том, что устройства не поддерживаются для общей станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-303">If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</span></span> <span data-ttu-id="b4819-304">В случае общих станций оборудования для параметра **Выбор при оплате** устанавливается значение **Да** на уровне ККМ.</span><span class="sxs-lookup"><span data-stu-id="b4819-304">In the case of shared hardware stations, the **Select upon tendering** option is set to **Yes** at the register level.</span></span> <span data-ttu-id="b4819-305">Затем пользователю POS предлагается выбрать станцию оборудования при выборе платежного средства для проводки на POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-305">The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</span></span> <span data-ttu-id="b4819-306">Если станция оборудования выбирается только во время оплаты, выбор станции оборудования добавляется непосредственно в workflow-процесс POS для мобильных сценариев.</span><span class="sxs-lookup"><span data-stu-id="b4819-306">When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</span></span> <span data-ttu-id="b4819-307">Как дополнительное преимущество, строковый дисплей на платежном терминале не используется для общих сценариев.</span><span class="sxs-lookup"><span data-stu-id="b4819-307">As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</span></span> <span data-ttu-id="b4819-308">Если платежный терминал используется как строковый дисплей, другим пользователям может быть заблокировано использование этого терминала до завершения проводки.</span><span class="sxs-lookup"><span data-stu-id="b4819-308">If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</span></span> <span data-ttu-id="b4819-309">В мобильных сценариях строки могут добавляться в проводку в течение более длительного периода.</span><span class="sxs-lookup"><span data-stu-id="b4819-309">In mobile scenarios, lines might be added to a transaction over a longer period.</span></span> <span data-ttu-id="b4819-310">Поэтому параметр **Выбор при оплате** необходим для обеспечения оптимальной доступности устройства.</span><span class="sxs-lookup"><span data-stu-id="b4819-310">Therefore, the **Select upon tendering** option is required in order to ensure optimum device availability.</span></span>
 
-### <a name="network-peripherals"></a>Сетевые периферийные устройства
+### <a name="network-peripherals"></a><span data-ttu-id="b4819-311">Сетевые периферийные устройства</span><span class="sxs-lookup"><span data-stu-id="b4819-311">Network peripherals</span></span>
 
-Сетевое обозначение устройств в профиле оборудования позволяет подключать кассовые лотки, принтеры чеков и платежные терминалы по сетевому подключению.
+<span data-ttu-id="b4819-312">Сетевое обозначение устройств в профиле оборудования позволяет подключать кассовые лотки, принтеры чеков и платежные терминалы по сетевому подключению.</span><span class="sxs-lookup"><span data-stu-id="b4819-312">The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</span></span>
 
-#### <a name="modern-pos-for-windows"></a>Modern POS для Windows
+#### <a name="modern-pos-for-windows"></a><span data-ttu-id="b4819-313">Modern POS для Windows</span><span class="sxs-lookup"><span data-stu-id="b4819-313">Modern POS for Windows</span></span>
 
-Можно указать IP-адреса для сетевых периферийных устройств в двух местах. Если Windows-клиент Modern POS использует один набор периферийных устройств, следует устанавливать IP-адреса для этих устройств с помощью параметра **Конфигурация IP** в области действий для самого регистра. В случае сетевых устройств, которые будут совместно использоваться регистрами POS, профиль оборудования, которому назначены сетевые устройства, может быть сопоставлен непосредственно общей станции оборудования. Для назначения IP-адресов выберите станцию оборудования на странице **Розничные магазины**, затем используйте параметр **Конфигурация IP** в разделе **Станции оборудования**, чтобы указать сетевые устройства, назначенные для станции оборудования. Для станций оборудования, которые имеют только сетевые устройства, не нужно развертывать сами станции оборудования. В этом случае станция оборудования требуется только для концептуального группирования адресуемых по сети устройств в соответствии с их расположением в розничном магазине.
+<span data-ttu-id="b4819-314">Можно указать IP-адреса для сетевых периферийных устройств в двух местах.</span><span class="sxs-lookup"><span data-stu-id="b4819-314">You can specify IP addresses for network peripherals in two places.</span></span> <span data-ttu-id="b4819-315">Если Windows-клиент Modern POS использует один набор периферийных устройств, следует устанавливать IP-адреса для этих устройств с помощью параметра **Конфигурация IP** в области действий для самого регистра.</span><span class="sxs-lookup"><span data-stu-id="b4819-315">If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the **IP configuration** option on the Action Pane for the register itself.</span></span> <span data-ttu-id="b4819-316">В случае сетевых устройств, которые будут совместно использоваться регистрами POS, профиль оборудования, которому назначены сетевые устройства, может быть сопоставлен непосредственно общей станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-316">In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</span></span> <span data-ttu-id="b4819-317">Для назначения IP-адресов выберите станцию оборудования на странице **Розничные магазины**, затем используйте параметр **Конфигурация IP** в разделе **Станции оборудования**, чтобы указать сетевые устройства, назначенные для станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-317">To assign IP addresses, select that hardware station on the **Retail stores** page, and then use the **IP configuration** option in the **Hardware stations** section to specify the network devices that are assigned to that hardware station.</span></span> <span data-ttu-id="b4819-318">Для станций оборудования, которые имеют только сетевые устройства, не нужно развертывать сами станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-318">For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</span></span> <span data-ttu-id="b4819-319">В этом случае станция оборудования требуется только для концептуального группирования адресуемых по сети устройств в соответствии с их расположением в розничном магазине.</span><span class="sxs-lookup"><span data-stu-id="b4819-319">In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</span></span>
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS, Modern POS для iOS и Modern POS для Android
+#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a><span data-ttu-id="b4819-320">Cloud POS, Modern POS для iOS и Modern POS для Android</span><span class="sxs-lookup"><span data-stu-id="b4819-320">Cloud POS, Modern POS for iOS, and Modern POS for Android</span></span>
 
-Логика, которая управляет физически подключенными и адресуемыми по сети периферийными устройствами, содержится в станции оборудования. Таким образом, для всех клиентов POS, кроме Modern POS для Windows, станции оборудования IIS должны быть развернуты и активны, чтобы POS могли взаимодействовать с периферийными устройствами, вне зависимости от того, подключены ли эти периферийные устройства физически к станции оборудования или адресуются по сети.
+<span data-ttu-id="b4819-321">Логика, которая управляет физически подключенными и адресуемыми по сети периферийными устройствами, содержится в станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-321">The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</span></span> <span data-ttu-id="b4819-322">Таким образом, для всех клиентов POS, кроме Modern POS для Windows, станции оборудования IIS должны быть развернуты и активны, чтобы POS могли взаимодействовать с периферийными устройствами, вне зависимости от того, подключены ли эти периферийные устройства физически к станции оборудования или адресуются по сети.</span><span class="sxs-lookup"><span data-stu-id="b4819-322">Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</span></span>
 
-## <a name="setup-and-configuration"></a>Настройка и конфигурация
-### <a name="hardware-station-installation"></a>Установка станции оборудования
+## <a name="setup-and-configuration"></a><span data-ttu-id="b4819-323">Настройка и конфигурация</span><span class="sxs-lookup"><span data-stu-id="b4819-323">Setup and configuration</span></span>
+### <a name="hardware-station-installation"></a><span data-ttu-id="b4819-324">Установка станции оборудования</span><span class="sxs-lookup"><span data-stu-id="b4819-324">Hardware station installation</span></span>
 
-Для информации см. раздел [Установка и конфигурация станции оборудования розничной торговли](retail-hardware-station-configuration-installation.md).
+<span data-ttu-id="b4819-325">Для информации см. раздел [Установка и конфигурация станции оборудования розничной торговли](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="b4819-325">For information, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
 
-### <a name="modern-pos-for-windows-setup-and-configuration"></a>Установка и настройка Modern POS для Windows
+### <a name="modern-pos-for-windows-setup-and-configuration"></a><span data-ttu-id="b4819-326">Установка и настройка Modern POS для Windows</span><span class="sxs-lookup"><span data-stu-id="b4819-326">Modern POS for Windows setup and configuration</span></span>
 
-Для информации см. раздел [Конфигурация и установка Retail Modern POS](retail-modern-pos-device-activation.md).
+<span data-ttu-id="b4819-327">Для информации см. раздел [Конфигурация и установка Retail Modern POS](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="b4819-327">For information, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
 
-### <a name="opos-device-setup-and-configuration"></a>Установка и настройка устройства OPOS
+### <a name="opos-device-setup-and-configuration"></a><span data-ttu-id="b4819-328">Установка и настройка устройства OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-328">OPOS device setup and configuration</span></span>
 
-Дополнительные сведения о компонентах OPOS см. в разделе "Поддерживаемые интерфейсы" настоящего документа. Обычно драйверы OPOS предоставляются изготовителем устройства. При установке драйвера устройства OPOS он добавляет ключ в реестр Windows в одном из следующих мест:
+<span data-ttu-id="b4819-329">Дополнительные сведения о компонентах OPOS см. в разделе "Поддерживаемые интерфейсы" настоящего документа.</span><span class="sxs-lookup"><span data-stu-id="b4819-329">For more information about OPOS components, see the "Supported interfaces" section of this document.</span></span> <span data-ttu-id="b4819-330">Обычно драйверы OPOS предоставляются изготовителем устройства.</span><span class="sxs-lookup"><span data-stu-id="b4819-330">Typically, OPOS drivers are provided by the device manufacturer.</span></span> <span data-ttu-id="b4819-331">При установке драйвера устройства OPOS он добавляет ключ в реестр Windows в одном из следующих мест:</span><span class="sxs-lookup"><span data-stu-id="b4819-331">When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</span></span>
 
--   **32-разрядная система:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **64-разрядная система:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   <span data-ttu-id="b4819-332">**32-разрядная система:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-332">**32-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span></span>
+-   <span data-ttu-id="b4819-333">**64-разрядная система:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-333">**64-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span></span>
 
-В расположении в реестре ServiceOPOS сконфигурированные устройства упорядочиваются в соответствии с классом устройств OPOS. Сохраняются несколько драйверов устройства.
+<span data-ttu-id="b4819-334">В расположении в реестре ServiceOPOS сконфигурированные устройства упорядочиваются в соответствии с классом устройств OPOS.</span><span class="sxs-lookup"><span data-stu-id="b4819-334">Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</span></span> <span data-ttu-id="b4819-335">Сохраняются несколько драйверов устройства.</span><span class="sxs-lookup"><span data-stu-id="b4819-335">Multiple device drivers are saved.</span></span>
 
-## <a name="supported-scenarios-by-hardware-station-type"></a>Поддерживаемые сценарии по типам станции оборудования
-### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a>Поддержка клиентов — станция оборудования IPC и станция оборудования IIS
+## <a name="supported-scenarios-by-hardware-station-type"></a><span data-ttu-id="b4819-336">Поддерживаемые сценарии по типам станции оборудования</span><span class="sxs-lookup"><span data-stu-id="b4819-336">Supported scenarios by hardware station type</span></span>
+### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a><span data-ttu-id="b4819-337">Поддержка клиентов — станция оборудования IPC и станция оборудования IIS</span><span class="sxs-lookup"><span data-stu-id="b4819-337">Client support – IPC hardware station vs. IIS hardware station</span></span>
 
-В следующей таблице показаны топологии и сценарии развертывания, которые поддерживаются.
+<span data-ttu-id="b4819-338">В следующей таблице показаны топологии и сценарии развертывания, которые поддерживаются.</span><span class="sxs-lookup"><span data-stu-id="b4819-338">The following table shows the topologies and deployment scenarios that are supported.</span></span>
 
-| Клиент      | Станция оборудования IPC | Станция оборудования IIS |
+| <span data-ttu-id="b4819-339">Клиент</span><span class="sxs-lookup"><span data-stu-id="b4819-339">Client</span></span>      | <span data-ttu-id="b4819-340">Станция оборудования IPC</span><span class="sxs-lookup"><span data-stu-id="b4819-340">IPC hardware station</span></span> | <span data-ttu-id="b4819-341">Станция оборудования IIS</span><span class="sxs-lookup"><span data-stu-id="b4819-341">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| Приложение Windows | Да                  | Да                  |
-| Cloud POS   | Нет                   | Да                  |
-| Android     | Нет                   | Да                  |
-| iOS         | Нет                   | Да                  |
+| <span data-ttu-id="b4819-342">Приложение Windows</span><span class="sxs-lookup"><span data-stu-id="b4819-342">Windows app</span></span> | <span data-ttu-id="b4819-343">Да</span><span class="sxs-lookup"><span data-stu-id="b4819-343">Yes</span></span>                  | <span data-ttu-id="b4819-344">Да</span><span class="sxs-lookup"><span data-stu-id="b4819-344">Yes</span></span>                  |
+| <span data-ttu-id="b4819-345">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="b4819-345">Cloud POS</span></span>   | <span data-ttu-id="b4819-346">Нет</span><span class="sxs-lookup"><span data-stu-id="b4819-346">No</span></span>                   | <span data-ttu-id="b4819-347">Да</span><span class="sxs-lookup"><span data-stu-id="b4819-347">Yes</span></span>                  |
+| <span data-ttu-id="b4819-348">Android</span><span class="sxs-lookup"><span data-stu-id="b4819-348">Android</span></span>     | <span data-ttu-id="b4819-349">Нет</span><span class="sxs-lookup"><span data-stu-id="b4819-349">No</span></span>                   | <span data-ttu-id="b4819-350">Да</span><span class="sxs-lookup"><span data-stu-id="b4819-350">Yes</span></span>                  |
+| <span data-ttu-id="b4819-351">iOS</span><span class="sxs-lookup"><span data-stu-id="b4819-351">iOS</span></span>         | <span data-ttu-id="b4819-352">Нет</span><span class="sxs-lookup"><span data-stu-id="b4819-352">No</span></span>                   | <span data-ttu-id="b4819-353">Да</span><span class="sxs-lookup"><span data-stu-id="b4819-353">Yes</span></span>                  |
 
-### <a name="network-peripherals"></a>Сетевые периферийные устройства
+### <a name="network-peripherals"></a><span data-ttu-id="b4819-354">Сетевые периферийные устройства</span><span class="sxs-lookup"><span data-stu-id="b4819-354">Network peripherals</span></span>
 
-Сетевые периферийные устройства могут поддерживаться напрямую через станцию оборудования, встроенную в приложение Modern POS для Windows. Для всех остальных клиентов необходимо развернуть станцию оборудования IIS.
+<span data-ttu-id="b4819-355">Сетевые периферийные устройства могут поддерживаться напрямую через станцию оборудования, встроенную в приложение Modern POS для Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-355">Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="b4819-356">Для всех остальных клиентов необходимо развернуть станцию оборудования IIS.</span><span class="sxs-lookup"><span data-stu-id="b4819-356">For all other clients, you must deploy an IIS hardware station.</span></span>
 
-| Клиент      | Станция оборудования IPC | Станция оборудования IIS |
+| <span data-ttu-id="b4819-357">Клиент</span><span class="sxs-lookup"><span data-stu-id="b4819-357">Client</span></span>      | <span data-ttu-id="b4819-358">Станция оборудования IPC</span><span class="sxs-lookup"><span data-stu-id="b4819-358">IPC hardware station</span></span> | <span data-ttu-id="b4819-359">Станция оборудования IIS</span><span class="sxs-lookup"><span data-stu-id="b4819-359">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| Приложение Windows | Да                  | Да                  |
-| Cloud POS   | Нет                   | Да                  |
-| Android     | Нет                   | Да                  |
-| iOS         | Нет                   | Да                  |
+| <span data-ttu-id="b4819-360">Приложение Windows</span><span class="sxs-lookup"><span data-stu-id="b4819-360">Windows app</span></span> | <span data-ttu-id="b4819-361">Да</span><span class="sxs-lookup"><span data-stu-id="b4819-361">Yes</span></span>                  | <span data-ttu-id="b4819-362">Да</span><span class="sxs-lookup"><span data-stu-id="b4819-362">Yes</span></span>                  |
+| <span data-ttu-id="b4819-363">Cloud POS</span><span class="sxs-lookup"><span data-stu-id="b4819-363">Cloud POS</span></span>   | <span data-ttu-id="b4819-364">Нет</span><span class="sxs-lookup"><span data-stu-id="b4819-364">No</span></span>                   | <span data-ttu-id="b4819-365">Да</span><span class="sxs-lookup"><span data-stu-id="b4819-365">Yes</span></span>                  |
+| <span data-ttu-id="b4819-366">Android</span><span class="sxs-lookup"><span data-stu-id="b4819-366">Android</span></span>     | <span data-ttu-id="b4819-367">Нет</span><span class="sxs-lookup"><span data-stu-id="b4819-367">No</span></span>                   | <span data-ttu-id="b4819-368">Да</span><span class="sxs-lookup"><span data-stu-id="b4819-368">Yes</span></span>                  |
+| <span data-ttu-id="b4819-369">iOS</span><span class="sxs-lookup"><span data-stu-id="b4819-369">iOS</span></span>         | <span data-ttu-id="b4819-370">Нет</span><span class="sxs-lookup"><span data-stu-id="b4819-370">No</span></span>                   | <span data-ttu-id="b4819-371">Да</span><span class="sxs-lookup"><span data-stu-id="b4819-371">Yes</span></span>                  |
 
-## <a name="supported-device-types-by-hardware-station-type"></a>Поддерживаемые типы устройств по типам станции оборудования
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS для Windows со станцией оборудования IPC (встроенной)
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Поддерживаемый класс устройств</th>
-<th>Поддерживаемые интерфейсы</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Принтер</td>
-<td><ul>
-<li>OPOS</li>
-<li>Драйвер Windows</li>
-<li>Устройство</li>
-<li>Сеть</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Принтер 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>Драйвер Windows</li>
-<li>Устройство</li>
-<li>Сеть</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Строковый дисплей</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Двойной дисплей</td>
-<td>Драйвер Windows</td>
-</tr>
-<tr class="odd">
-<td>MSR / считыватель магнитных карт</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (Настройка не требуется.)</li>
-<li>Электронный соединитель клавиатуры (Настройка не требуется.)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Трассант</td>
-<td><ul>
-<li>OPOS</li>
-<li>Сеть <strong>Примечание.</strong> Только один лоток можно настроить, если настроен параметр <strong>Использование совместных смен</strong> в лотке.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Трассант 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>Сеть <strong>Примечание.</strong> Только один лоток можно настроить, если настроен параметр <strong>Использование совместных смен</strong> в лотке.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Сканер</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (Настройка не требуется.)</li>
-<li>Электронный соединитель клавиатуры (Настройка не требуется.)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Сканер 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (Настройка не требуется.)</li>
-<li>Электронный соединитель клавиатуры (Настройка не требуется.)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Шкала</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>Клавиатура для набора ПИН-кода</td>
-<td>OPOS (Поддержка обеспечивается настройкой соединителя платежей.)</td>
-</tr>
-<tr class="even">
-<td>Считывание рукописных подписей</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>Платежный терминал</td>
-<td><ul>
-<li>Поддержка пользовательских устройств</li>
-<li>Сеть (Дополнительные сведения см. в документации к соединителю платежей.)</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Все клиенты Modern POS, имеющие выделенную станцию оборудования IIS
-
-**Примечание.** Если станция оборудования IIS является "Выделенной", существует однозначное соответствие между клиентом POS и станцией оборудования.
+## <a name="supported-device-types-by-hardware-station-type"></a><span data-ttu-id="b4819-372">Поддерживаемые типы устройств по типам станции оборудования</span><span class="sxs-lookup"><span data-stu-id="b4819-372">Supported device types by hardware station type</span></span>
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="b4819-373">Modern POS для Windows со станцией оборудования IPC (встроенной)</span><span class="sxs-lookup"><span data-stu-id="b4819-373">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
 <table>
 <colgroup>
@@ -341,82 +239,100 @@ Modern POS для Android является версией программы Mod
 </colgroup>
 <thead>
 <tr class="header">
-<th>Поддерживаемый класс устройств</th>
-<th>Поддерживаемые интерфейсы</th>
+<th><span data-ttu-id="b4819-374">Поддерживаемый класс устройств</span><span class="sxs-lookup"><span data-stu-id="b4819-374">Supported device class</span></span></th>
+<th><span data-ttu-id="b4819-375">Поддерживаемые интерфейсы</span><span class="sxs-lookup"><span data-stu-id="b4819-375">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Принтер</td>
+<td><span data-ttu-id="b4819-376">Принтер</span><span class="sxs-lookup"><span data-stu-id="b4819-376">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Драйвер Windows <strong>Примечание.</strong> Для принтеров Windows в сети пользователь станции оборудования должен иметь разрешение на доступ к принтеру.</li>
-<li>Сеть</li>
+<li><span data-ttu-id="b4819-377">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-377">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-378">Драйвер Windows</span><span class="sxs-lookup"><span data-stu-id="b4819-378">Windows driver</span></span></li>
+<li><span data-ttu-id="b4819-379">Устройство</span><span class="sxs-lookup"><span data-stu-id="b4819-379">Device</span></span></li>
+<li><span data-ttu-id="b4819-380">Сеть</span><span class="sxs-lookup"><span data-stu-id="b4819-380">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Принтер 2</td>
+<td><span data-ttu-id="b4819-381">Принтер 2</span><span class="sxs-lookup"><span data-stu-id="b4819-381">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Драйвер Windows</li>
-<li>Сеть</li>
+<li><span data-ttu-id="b4819-382">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-382">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-383">Драйвер Windows</span><span class="sxs-lookup"><span data-stu-id="b4819-383">Windows driver</span></span></li>
+<li><span data-ttu-id="b4819-384">Устройство</span><span class="sxs-lookup"><span data-stu-id="b4819-384">Device</span></span></li>
+<li><span data-ttu-id="b4819-385">Сеть</span><span class="sxs-lookup"><span data-stu-id="b4819-385">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Строковый дисплей</td>
-<td>OPOS</td>
+<td><span data-ttu-id="b4819-386">Строковый дисплей</span><span class="sxs-lookup"><span data-stu-id="b4819-386">Line display</span></span></td>
+<td><span data-ttu-id="b4819-387">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-387">OPOS</span></span></td>
 </tr>
 <tr class="even">
-<td>MSR / считыватель магнитных карт</td>
-<td>OPOS</td>
+<td><span data-ttu-id="b4819-388">Двойной дисплей</span><span class="sxs-lookup"><span data-stu-id="b4819-388">Dual display</span></span></td>
+<td><span data-ttu-id="b4819-389">Драйвер Windows</span><span class="sxs-lookup"><span data-stu-id="b4819-389">Windows driver</span></span></td>
 </tr>
 <tr class="odd">
-<td>Трассант</td>
+<td><span data-ttu-id="b4819-390">MSR / считыватель магнитных карт</span><span class="sxs-lookup"><span data-stu-id="b4819-390">MSR</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Сеть <strong>Примечание.</strong> Можно настроить только один лоток на профиль оборудования , если настроен параметр <strong>Использование совместных смен</strong> в лотке.</li>
+<li><span data-ttu-id="b4819-391">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-391">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-392">UWP (Настройка не требуется.)</span><span class="sxs-lookup"><span data-stu-id="b4819-392">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="b4819-393">Электронный соединитель клавиатуры (Настройка не требуется.)</span><span class="sxs-lookup"><span data-stu-id="b4819-393">Keyboard wedge (No setup is required.)</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Трассант 2</td>
+<td><span data-ttu-id="b4819-394">Трассант</span><span class="sxs-lookup"><span data-stu-id="b4819-394">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Сеть</li>
+<li><span data-ttu-id="b4819-395">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-395">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-396">Сеть <strong>Примечание.</strong> Только один лоток можно настроить, если настроен параметр <strong>Использование совместных смен</strong> в лотке.</span><span class="sxs-lookup"><span data-stu-id="b4819-396">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Сканер</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Сканер 2</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>Шкала</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Клавиатура для набора ПИН-кода</td>
-<td>OPOS (Поддержка обеспечивается настройкой соединителя платежей.)</td>
-</tr>
-<tr class="odd">
-<td>Подписи захват</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Платежный терминал</td>
+<td><span data-ttu-id="b4819-397">Трассант 2</span><span class="sxs-lookup"><span data-stu-id="b4819-397">Drawer 2</span></span></td>
 <td><ul>
-<li>Поддержка пользовательских устройств</li>
-<li>Сеть (Дополнительные сведения см. в документации к соединителю платежей.)</li>
+<li><span data-ttu-id="b4819-398">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-398">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-399">Сеть <strong>Примечание.</strong> Только один лоток можно настроить, если настроен параметр <strong>Использование совместных смен</strong> в лотке.</span><span class="sxs-lookup"><span data-stu-id="b4819-399">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4819-400">Сканер</span><span class="sxs-lookup"><span data-stu-id="b4819-400">Scanner</span></span></td>
+<td><ul>
+<li><span data-ttu-id="b4819-401">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-401">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-402">UWP (Настройка не требуется.)</span><span class="sxs-lookup"><span data-stu-id="b4819-402">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="b4819-403">Электронный соединитель клавиатуры (Настройка не требуется.)</span><span class="sxs-lookup"><span data-stu-id="b4819-403">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="b4819-404">Сканер 2</span><span class="sxs-lookup"><span data-stu-id="b4819-404">Scanner 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="b4819-405">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-405">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-406">UWP (Настройка не требуется.)</span><span class="sxs-lookup"><span data-stu-id="b4819-406">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="b4819-407">Электронный соединитель клавиатуры (Настройка не требуется.)</span><span class="sxs-lookup"><span data-stu-id="b4819-407">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4819-408">Шкала</span><span class="sxs-lookup"><span data-stu-id="b4819-408">Scale</span></span></td>
+<td><span data-ttu-id="b4819-409">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-409">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="b4819-410">Клавиатура для набора ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="b4819-410">PIN pad</span></span></td>
+<td><span data-ttu-id="b4819-411">OPOS (Поддержка обеспечивается настройкой соединителя платежей.)</span><span class="sxs-lookup"><span data-stu-id="b4819-411">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4819-412">Считывание рукописных подписей</span><span class="sxs-lookup"><span data-stu-id="b4819-412">Signature capture</span></span></td>
+<td><span data-ttu-id="b4819-413">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-413">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="b4819-414">Платежный терминал</span><span class="sxs-lookup"><span data-stu-id="b4819-414">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="b4819-415">Поддержка пользовательских устройств</span><span class="sxs-lookup"><span data-stu-id="b4819-415">Custom device support</span></span></li>
+<li><span data-ttu-id="b4819-416">Сеть (Дополнительные сведения см. в документации к соединителю платежей.)</span><span class="sxs-lookup"><span data-stu-id="b4819-416">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Все клиенты Modern POS, имеющие общую станцию оборудования IIS
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="b4819-417">Все клиенты Modern POS, имеющие выделенную станцию оборудования IIS</span><span class="sxs-lookup"><span data-stu-id="b4819-417">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-**Примечание.** Когда станция оборудования IIS имеет тип "Общий", несколько устройств могут использовать станцию оборудования одновременно. Для этого сценария следует использовать только устройства, которые перечислены в следующей таблице. При попытке совместного использования устройств, не перечисленных здесь, таких как сканеры штрих-кодов и считыватели магнитных карт, возникают ошибки при попытке нескольких устройств использовать одно и то же периферийное устройство. В будущем такая конфигурация будет предотвращаться явно.
+<span data-ttu-id="b4819-418">**Примечание.** Если станция оборудования IIS является "Выделенной", существует однозначное соответствие между клиентом POS и станцией оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-418">**Note:** When the IIS hardware station is “dedicated,” there is a one-to-one relationship between the POS client and the hardware station.</span></span>
 
 <table>
 <colgroup>
@@ -425,386 +341,470 @@ Modern POS для Android является версией программы Mod
 </colgroup>
 <thead>
 <tr class="header">
-<th>Поддерживаемый класс устройств</th>
-<th>Поддерживаемые интерфейсы</th>
+<th><span data-ttu-id="b4819-419">Поддерживаемый класс устройств</span><span class="sxs-lookup"><span data-stu-id="b4819-419">Supported device class</span></span></th>
+<th><span data-ttu-id="b4819-420">Поддерживаемые интерфейсы</span><span class="sxs-lookup"><span data-stu-id="b4819-420">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Принтер</td>
+<td><span data-ttu-id="b4819-421">Принтер</span><span class="sxs-lookup"><span data-stu-id="b4819-421">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Драйвер Windows <strong>Примечание.</strong> Для принтеров Windows в сети пользователь станции оборудования должен иметь разрешение на доступ к принтеру.</li>
-<li>Сеть</li>
+<li><span data-ttu-id="b4819-422">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-422">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-423">Драйвер Windows <strong>Примечание.</strong> Для принтеров Windows в сети пользователь станции оборудования должен иметь разрешение на доступ к принтеру.</span><span class="sxs-lookup"><span data-stu-id="b4819-423">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="b4819-424">Сеть</span><span class="sxs-lookup"><span data-stu-id="b4819-424">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Принтер 2</td>
+<td><span data-ttu-id="b4819-425">Принтер 2</span><span class="sxs-lookup"><span data-stu-id="b4819-425">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Драйвер Windows</li>
-<li>Сеть</li>
+<li><span data-ttu-id="b4819-426">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-426">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-427">Драйвер Windows</span><span class="sxs-lookup"><span data-stu-id="b4819-427">Windows driver</span></span></li>
+<li><span data-ttu-id="b4819-428">Сеть</span><span class="sxs-lookup"><span data-stu-id="b4819-428">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Трассант</td>
+<td><span data-ttu-id="b4819-429">Строковый дисплей</span><span class="sxs-lookup"><span data-stu-id="b4819-429">Line display</span></span></td>
+<td><span data-ttu-id="b4819-430">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-430">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4819-431">MSR / считыватель магнитных карт</span><span class="sxs-lookup"><span data-stu-id="b4819-431">MSR</span></span></td>
+<td><span data-ttu-id="b4819-432">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-432">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="b4819-433">Трассант</span><span class="sxs-lookup"><span data-stu-id="b4819-433">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Сеть <strong>Примечание.</strong> Можно настроить только один лоток на профиль оборудования , если настроен параметр <strong>Использование совместных смен</strong> в лотке.</li>
+<li><span data-ttu-id="b4819-434">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-434">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-435">Сеть <strong>Примечание.</strong> Можно настроить только один лоток на профиль оборудования , если настроен параметр <strong>Использование совместных смен</strong> в лотке.</span><span class="sxs-lookup"><span data-stu-id="b4819-435">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Трассант 2</td>
+<td><span data-ttu-id="b4819-436">Трассант 2</span><span class="sxs-lookup"><span data-stu-id="b4819-436">Drawer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Сеть</li>
+<li><span data-ttu-id="b4819-437">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-437">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-438">Сеть</span><span class="sxs-lookup"><span data-stu-id="b4819-438">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Платежный терминал</td>
+<td><span data-ttu-id="b4819-439">Сканер</span><span class="sxs-lookup"><span data-stu-id="b4819-439">Scanner</span></span></td>
+<td><span data-ttu-id="b4819-440">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-440">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4819-441">Сканер 2</span><span class="sxs-lookup"><span data-stu-id="b4819-441">Scanner 2</span></span></td>
+<td><span data-ttu-id="b4819-442">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-442">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="b4819-443">Шкала</span><span class="sxs-lookup"><span data-stu-id="b4819-443">Scale</span></span></td>
+<td><span data-ttu-id="b4819-444">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-444">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4819-445">Клавиатура для набора ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="b4819-445">PIN pad</span></span></td>
+<td><span data-ttu-id="b4819-446">OPOS (Поддержка обеспечивается настройкой соединителя платежей.)</span><span class="sxs-lookup"><span data-stu-id="b4819-446">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="b4819-447">Подписи</span><span class="sxs-lookup"><span data-stu-id="b4819-447">Sig.</span></span> <span data-ttu-id="b4819-448">захват</span><span class="sxs-lookup"><span data-stu-id="b4819-448">capture</span></span></td>
+<td><span data-ttu-id="b4819-449">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-449">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4819-450">Платежный терминал</span><span class="sxs-lookup"><span data-stu-id="b4819-450">Payment terminal</span></span></td>
 <td><ul>
-<li>Поддержка пользовательских устройств</li>
-<li>Сеть (Дополнительные сведения см. в документации к соединителю платежей.)</li>
+<li><span data-ttu-id="b4819-451">Поддержка пользовательских устройств</span><span class="sxs-lookup"><span data-stu-id="b4819-451">Custom device support</span></span></li>
+<li><span data-ttu-id="b4819-452">Сеть (Дополнительные сведения см. в документации к соединителю платежей.)</span><span class="sxs-lookup"><span data-stu-id="b4819-452">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="configuration-for-supported-scenarios"></a>Конфигурация для поддерживаемых сценариев
-Дополнительные сведения о создании профилей оборудования см. в разделе [Определение и ведение клиентов канала, включая регистры и станции оборудования](define-maintain-channel-clients-registers-hw-stations.md). **Примечание.** В Microsoft Dynamics 365 for Retail версии 1611 профиль станции оборудования больше не используется. Атрибуты, которые ранее настраивались в профиле станции оборудования, теперь являются частью самой станции оборудования.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="b4819-453">Все клиенты Modern POS, имеющие общую станцию оборудования IIS</span><span class="sxs-lookup"><span data-stu-id="b4819-453">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS для Windows со станцией оборудования IPC (встроенной)
+<span data-ttu-id="b4819-454">**Примечание.** Когда станция оборудования IIS имеет тип "Общий", несколько устройств могут использовать станцию оборудования одновременно.</span><span class="sxs-lookup"><span data-stu-id="b4819-454">**Note:** When the IIS hardware station is “shared,” multiple devices can use the hardware station at the same time.</span></span> <span data-ttu-id="b4819-455">Для этого сценария следует использовать только устройства, которые перечислены в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="b4819-455">For this scenario, you should use only the devices that are listed in the following table.</span></span> <span data-ttu-id="b4819-456">При попытке совместного использования устройств, не перечисленных здесь, таких как сканеры штрих-кодов и считыватели магнитных карт, возникают ошибки при попытке нескольких устройств использовать одно и то же периферийное устройство.</span><span class="sxs-lookup"><span data-stu-id="b4819-456">If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</span></span> <span data-ttu-id="b4819-457">В будущем такая конфигурация будет предотвращаться явно.</span><span class="sxs-lookup"><span data-stu-id="b4819-457">In the future, such a configuration will be explicitly prevented.</span></span>
 
-Такая настройка является наиболее типичной конфигурацией для обычных, стационарных регистров POS. Для этого сценария сведения о профиле оборудования сопоставляются непосредственно с самим регистром. Номер терминала электронных платежей также должен быть задан в самом регистре. Для настройки этой конфигурации выполните следующие шаги.
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="b4819-458">Поддерживаемый класс устройств</span><span class="sxs-lookup"><span data-stu-id="b4819-458">Supported device class</span></span></th>
+<th><span data-ttu-id="b4819-459">Поддерживаемые интерфейсы</span><span class="sxs-lookup"><span data-stu-id="b4819-459">Supported interfaces</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="b4819-460">Принтер</span><span class="sxs-lookup"><span data-stu-id="b4819-460">Printer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="b4819-461">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-461">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-462">Драйвер Windows <strong>Примечание.</strong> Для принтеров Windows в сети пользователь станции оборудования должен иметь разрешение на доступ к принтеру.</span><span class="sxs-lookup"><span data-stu-id="b4819-462">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="b4819-463">Сеть</span><span class="sxs-lookup"><span data-stu-id="b4819-463">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4819-464">Принтер 2</span><span class="sxs-lookup"><span data-stu-id="b4819-464">Printer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="b4819-465">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-465">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-466">Драйвер Windows</span><span class="sxs-lookup"><span data-stu-id="b4819-466">Windows driver</span></span></li>
+<li><span data-ttu-id="b4819-467">Сеть</span><span class="sxs-lookup"><span data-stu-id="b4819-467">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="b4819-468">Трассант</span><span class="sxs-lookup"><span data-stu-id="b4819-468">Drawer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="b4819-469">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-469">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-470">Сеть <strong>Примечание.</strong> Можно настроить только один лоток на профиль оборудования , если настроен параметр <strong>Использование совместных смен</strong> в лотке.</span><span class="sxs-lookup"><span data-stu-id="b4819-470">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="b4819-471">Трассант 2</span><span class="sxs-lookup"><span data-stu-id="b4819-471">Drawer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="b4819-472">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-472">OPOS</span></span></li>
+<li><span data-ttu-id="b4819-473">Сеть</span><span class="sxs-lookup"><span data-stu-id="b4819-473">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="b4819-474">Платежный терминал</span><span class="sxs-lookup"><span data-stu-id="b4819-474">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="b4819-475">Поддержка пользовательских устройств</span><span class="sxs-lookup"><span data-stu-id="b4819-475">Custom device support</span></span></li>
+<li><span data-ttu-id="b4819-476">Сеть (Дополнительные сведения см. в документации к соединителю платежей.)</span><span class="sxs-lookup"><span data-stu-id="b4819-476">Network (For more information, see the payment connector documentation.)</span></span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-1.  Создайте профиль оборудования, в котором настроены все необходимые периферийные устройства.
-2.  Сопоставьте профиль оборудования регистру POS.
-3.  Создайте станцию оборудования типа **Выделенный** для розничного магазина, где будет использоваться регистр POS. Описание не обязательно. **Примечание.** Нет необходимости задавать никакие другие свойства на станции оборудования. Все остальные необходимые сведения, например, профиль оборудования, будут взяты из самого регистра.
-4.  Щелкните **Розничная торговля** &gt; **ИТ розничной торговли** &gt; **График распределения**.
-5.  Выберите график распределения **1090** для синхронизации нового профиля оборудования в магазине. Щелкните **Запустить сейчас** для синхронизации изменений в POS.
-6.  Выберите график распределения **1040** для синхронизации новой станции оборудования в магазине. Щелкните **Запустить сейчас** для синхронизации изменений в POS.
-7.  Установите и активируйте Modern POS для Windows.
-8.  Запустите Modern POS для Windows и начните использовать подключенные периферийные устройства.
+## <a name="configuration-for-supported-scenarios"></a><span data-ttu-id="b4819-477">Конфигурация для поддерживаемых сценариев</span><span class="sxs-lookup"><span data-stu-id="b4819-477">Configuration for supported scenarios</span></span>
+<span data-ttu-id="b4819-478">Дополнительные сведения о создании профилей оборудования см. в разделе [Определение и ведение клиентов канала, включая регистры и станции оборудования](define-maintain-channel-clients-registers-hw-stations.md).</span><span class="sxs-lookup"><span data-stu-id="b4819-478">For more information about how to create hardware profiles, see [Define and maintain channel clients, including registers and hardware stations](define-maintain-channel-clients-registers-hw-stations.md).</span></span> <span data-ttu-id="b4819-479">**Примечание.** В Microsoft Dynamics 365 for Retail версии 1611 профиль станции оборудования больше не используется.</span><span class="sxs-lookup"><span data-stu-id="b4819-479">**Note:** For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</span></span> <span data-ttu-id="b4819-480">Атрибуты, которые ранее настраивались в профиле станции оборудования, теперь являются частью самой станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-480">Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Все клиенты Modern POS, имеющие выделенную станцию оборудования IIS
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="b4819-481">Modern POS для Windows со станцией оборудования IPC (встроенной)</span><span class="sxs-lookup"><span data-stu-id="b4819-481">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
-Эта конфигурация может использоваться для всех клиентов Modern POS, имеющих станцию оборудования, используемую исключительно по одного регистра POS. Для настройки этой конфигурации выполните следующие шаги.
+<span data-ttu-id="b4819-482">Такая настройка является наиболее типичной конфигурацией для обычных, стационарных регистров POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-482">This configuration is the most typical configuration for traditional, fixed POS registers.</span></span> <span data-ttu-id="b4819-483">Для этого сценария сведения о профиле оборудования сопоставляются непосредственно с самим регистром.</span><span class="sxs-lookup"><span data-stu-id="b4819-483">For this scenario, the hardware profile information is mapped directly to the register itself.</span></span> <span data-ttu-id="b4819-484">Номер терминала электронных платежей также должен быть задан в самом регистре.</span><span class="sxs-lookup"><span data-stu-id="b4819-484">The EFT terminal number should also be set on the register itself.</span></span> <span data-ttu-id="b4819-485">Для настройки этой конфигурации выполните следующие шаги.</span><span class="sxs-lookup"><span data-stu-id="b4819-485">To set up this configuration, follow these steps.</span></span>
 
-1.  Создайте профиль оборудования, в котором настроены все необходимые периферийные устройства.
-2.  Создайте станцию оборудования типа **Выделенный** для розничного магазина, где будет использоваться регистр POS.
-3.  На выделенной станции оборудование задайте следующие свойства:
-    -   **Имя узла** — имя хост-компьютера, на котором будет выполняться станция оборудования. **Примечание.** Cloud POS может разрешать **localhost** для определения локального компьютера, на котором выполняется Cloud POS. Однако сертификат, который требуется для сопоставления Cloud POS со станцией оборудования, также должен иметь "Localhost" в качестве имени компьютера. Чтобы избежать проблем, рекомендуется указать экземпляр каждой выделенной станции оборудования для магазина, как требуется. Для каждой станции оборудования имя узла должны быть конкретным именем компьютера, на котором будет развернута станция оборудования.
-    -   **Порт** — порт, который требуется использовать для станции оборудования для связи с клиентом Modern POS.
-    -   **Профиль оборудования** — если профиль оборудования не предоставлен самой станцией оборудования, будет использоваться профиль оборудования, который назначен регистру.
-    -   **Номер POS для электронных платежей** — код терминала электронных платежей для использования при отправке авторизации электронных платежей. Этот код предоставляется процессором кредитных карт.
-    -   **Имя пакета** — пакет станции оборудования для использования при развертывании станции оборудования.
+1.  <span data-ttu-id="b4819-486">Создайте профиль оборудования, в котором настроены все необходимые периферийные устройства.</span><span class="sxs-lookup"><span data-stu-id="b4819-486">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="b4819-487">Сопоставьте профиль оборудования регистру POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-487">Map the hardware profile to the POS register.</span></span>
+3.  <span data-ttu-id="b4819-488">Создайте станцию оборудования типа **Выделенный** для розничного магазина, где будет использоваться регистр POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-488">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span> <span data-ttu-id="b4819-489">Описание не обязательно.</span><span class="sxs-lookup"><span data-stu-id="b4819-489">A description is optional.</span></span> <span data-ttu-id="b4819-490">**Примечание.** Нет необходимости задавать никакие другие свойства на станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-490">**Note:** You don't have to set any other properties on the hardware station.</span></span> <span data-ttu-id="b4819-491">Все остальные необходимые сведения, например, профиль оборудования, будут взяты из самого регистра.</span><span class="sxs-lookup"><span data-stu-id="b4819-491">All other required information, such as the hardware profile, will come from the register itself.</span></span>
+4.  <span data-ttu-id="b4819-492">Щелкните **Розничная торговля** &gt; **ИТ розничной торговли** &gt; **График распределения**.</span><span class="sxs-lookup"><span data-stu-id="b4819-492">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="b4819-493">Выберите график распределения **1090** для синхронизации нового профиля оборудования в магазине.</span><span class="sxs-lookup"><span data-stu-id="b4819-493">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="b4819-494">Щелкните **Запустить сейчас** для синхронизации изменений в POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-494">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="b4819-495">Выберите график распределения **1040** для синхронизации новой станции оборудования в магазине.</span><span class="sxs-lookup"><span data-stu-id="b4819-495">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="b4819-496">Щелкните **Запустить сейчас** для синхронизации изменений в POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-496">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="b4819-497">Установите и активируйте Modern POS для Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-497">Install and activate Modern POS for Windows.</span></span>
+8.  <span data-ttu-id="b4819-498">Запустите Modern POS для Windows и начните использовать подключенные периферийные устройства.</span><span class="sxs-lookup"><span data-stu-id="b4819-498">Start Modern POS for Windows, and begin to use the connected peripheral devices.</span></span>
 
-4.  Щелкните **Розничная торговля** &gt; **ИТ розничной торговли** &gt; **График распределения**.
-5.  Выберите график распределения **1090** для синхронизации нового профиля оборудования в магазине. Щелкните **Запустить сейчас** для синхронизации изменений в POS.
-6.  Выберите график распределения **1040** для синхронизации новой станции оборудования в магазине. Щелкните **Запустить сейчас** для синхронизации изменений в POS.
-7.  Установите станцию оборудования. Дополнительные сведения о том, как установить станцию оборудования, см. в разделе [Установка и конфигурация станции оборудования розничной торговли](retail-hardware-station-configuration-installation.md).
-8.  Установите и активируйте Modern POS. Дополнительные сведения об установке Modern POS см. в разделе [Конфигурация и установка Retail Modern POS](retail-modern-pos-device-activation.md).
-9.  Выполните вход в Modern POS и выберите **Выполнение операций, не связанных с кассовым лотком**.
-10. Запустите операцию **Управление станциями оборудования**.
-11. Щелкните **Управление**.
-12. На странице управления станцией оборудования задайте параметр для включения станции оборудования.
-13. Выберите станцию оборудования для использования, затем щелкните **Соединение**.
-14. После сопряжения станции оборудования нажмите кнопку **Закрыть**.
-15. На странице выбора станции оборудования щелкните недавно выбранную станцию оборудования, чтобы сделать ее активной.
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="b4819-499">Все клиенты Modern POS, имеющие выделенную станцию оборудования IIS</span><span class="sxs-lookup"><span data-stu-id="b4819-499">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Все клиенты Modern POS, имеющие общую станцию оборудования IIS
+<span data-ttu-id="b4819-500">Эта конфигурация может использоваться для всех клиентов Modern POS, имеющих станцию оборудования, используемую исключительно по одного регистра POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-500">This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</span></span> <span data-ttu-id="b4819-501">Для настройки этой конфигурации выполните следующие шаги.</span><span class="sxs-lookup"><span data-stu-id="b4819-501">To set up this configuration, follow these steps.</span></span>
 
-Эта конфигурация может использоваться для всех клиентов Modern POS, использующих станции оборудования совместно с другими устройствами. Для настройки этой конфигурации выполните следующие шаги.
+1.  <span data-ttu-id="b4819-502">Создайте профиль оборудования, в котором настроены все необходимые периферийные устройства.</span><span class="sxs-lookup"><span data-stu-id="b4819-502">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="b4819-503">Создайте станцию оборудования типа **Выделенный** для розничного магазина, где будет использоваться регистр POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-503">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="b4819-504">На выделенной станции оборудование задайте следующие свойства:</span><span class="sxs-lookup"><span data-stu-id="b4819-504">On the dedicated hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="b4819-505">**Имя узла** — имя хост-компьютера, на котором будет выполняться станция оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-505">**Host name** – The name of the host computer where the hardware station will run.</span></span> <span data-ttu-id="b4819-506">**Примечание.** Cloud POS может разрешать **localhost** для определения локального компьютера, на котором выполняется Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-506">**Note:** Cloud POS can resolve **localhost** to determine the local computer where Cloud POS is running.</span></span> <span data-ttu-id="b4819-507">Однако сертификат, который требуется для сопоставления Cloud POS со станцией оборудования, также должен иметь "Localhost" в качестве имени компьютера.</span><span class="sxs-lookup"><span data-stu-id="b4819-507">However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</span></span> <span data-ttu-id="b4819-508">Чтобы избежать проблем, рекомендуется указать экземпляр каждой выделенной станции оборудования для магазина, как требуется.</span><span class="sxs-lookup"><span data-stu-id="b4819-508">To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</span></span> <span data-ttu-id="b4819-509">Для каждой станции оборудования имя узла должны быть конкретным именем компьютера, на котором будет развернута станция оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-509">For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</span></span>
+    -   <span data-ttu-id="b4819-510">**Порт** — порт, который требуется использовать для станции оборудования для связи с клиентом Modern POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-510">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="b4819-511">**Профиль оборудования** — если профиль оборудования не предоставлен самой станцией оборудования, будет использоваться профиль оборудования, который назначен регистру.</span><span class="sxs-lookup"><span data-stu-id="b4819-511">**Hardware profile** – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</span></span>
+    -   <span data-ttu-id="b4819-512">**Номер POS для электронных платежей** — код терминала электронных платежей для использования при отправке авторизации электронных платежей.</span><span class="sxs-lookup"><span data-stu-id="b4819-512">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="b4819-513">Этот код предоставляется процессором кредитных карт.</span><span class="sxs-lookup"><span data-stu-id="b4819-513">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="b4819-514">**Имя пакета** — пакет станции оборудования для использования при развертывании станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-514">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-1.  Создайте профиль оборудования, в котором настроены необходимые периферийные устройства.
-2.  Создайте станцию оборудования типа **Общий** для розничного магазина, где будет использоваться регистр POS.
-3.  На общей станции оборудование задайте следующие свойства:
-    -   **Имя узла** — имя хост-компьютера, на котором будет выполняться станция оборудования.
-    -   **Описание** — текст, который поможет идентифицировать станцию оборудования, например **Возвраты** или **Передняя часть магазина**.
-    -   **Порт** — порт, который требуется использовать для станции оборудования для связи с клиентом Modern POS.
-    -   **Профиль оборудования** — для общих станции оборудования каждая станция оборудования должна иметь профиль оборудования. Профили оборудования могут совместно использоваться станциями оборудования, но они должны быть сопоставлены каждой станции оборудования. Кроме того, рекомендуется использовать общие смены, когда несколько устройств используют одну общую станцию оборудования. Чтобы настроить общую смену, щелкните **Розничная торговля** &gt; **Настройка канала** &gt; **Настройка POS** &gt; **Профили POS** &gt; **Профили оборудования**. Для каждого общего профиля оборудования выберите кассовый лоток и задайте для параметра **Ящик совместной смены** параметр **Да**.
-    -   **Номер POS для электронных платежей** — код терминала электронных платежей для использования при отправке авторизации электронных платежей. Этот код предоставляется процессором кредитных карт.
-    -   **Имя пакета** — пакет станции оборудования для использования при развертывании станции оборудования.
+4.  <span data-ttu-id="b4819-515">Щелкните **Розничная торговля** &gt; **ИТ розничной торговли** &gt; **График распределения**.</span><span class="sxs-lookup"><span data-stu-id="b4819-515">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="b4819-516">Выберите график распределения **1090** для синхронизации нового профиля оборудования в магазине.</span><span class="sxs-lookup"><span data-stu-id="b4819-516">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="b4819-517">Щелкните **Запустить сейчас** для синхронизации изменений в POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-517">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="b4819-518">Выберите график распределения **1040** для синхронизации новой станции оборудования в магазине.</span><span class="sxs-lookup"><span data-stu-id="b4819-518">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="b4819-519">Щелкните **Запустить сейчас** для синхронизации изменений в POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-519">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="b4819-520">Установите станцию оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-520">Install the hardware station.</span></span> <span data-ttu-id="b4819-521">Дополнительные сведения о том, как установить станцию оборудования, см. в разделе [Установка и конфигурация станции оборудования розничной торговли](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="b4819-521">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+8.  <span data-ttu-id="b4819-522">Установите и активируйте Modern POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-522">Install and activate Modern POS.</span></span> <span data-ttu-id="b4819-523">Дополнительные сведения об установке Modern POS см. в разделе [Конфигурация и установка Retail Modern POS](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="b4819-523">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+9.  <span data-ttu-id="b4819-524">Выполните вход в Modern POS и выберите **Выполнение операций, не связанных с кассовым лотком**.</span><span class="sxs-lookup"><span data-stu-id="b4819-524">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+10. <span data-ttu-id="b4819-525">Запустите операцию **Управление станциями оборудования**.</span><span class="sxs-lookup"><span data-stu-id="b4819-525">Start the **Manage hardware stations** operation.</span></span>
+11. <span data-ttu-id="b4819-526">Щелкните **Управление**.</span><span class="sxs-lookup"><span data-stu-id="b4819-526">Click **Manage**.</span></span>
+12. <span data-ttu-id="b4819-527">На странице управления станцией оборудования задайте параметр для включения станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-527">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+13. <span data-ttu-id="b4819-528">Выберите станцию оборудования для использования, затем щелкните **Соединение**.</span><span class="sxs-lookup"><span data-stu-id="b4819-528">Select the hardware station to use, and then click **Pair**.</span></span>
+14. <span data-ttu-id="b4819-529">После сопряжения станции оборудования нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="b4819-529">After the hardware station is paired, click **Close**.</span></span>
+15. <span data-ttu-id="b4819-530">На странице выбора станции оборудования щелкните недавно выбранную станцию оборудования, чтобы сделать ее активной.</span><span class="sxs-lookup"><span data-stu-id="b4819-530">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
 
-4.  Повторите шаги 2 и 3 для каждой дополнительной станции оборудования, необходимой в магазине.
-5.  Щелкните **Розничная торговля** &gt; **ИТ розничной торговли** &gt; **График распределения**.
-6.  Выберите график распределения **1090** для синхронизации нового профиля оборудования в магазине. Щелкните **Запустить сейчас** для синхронизации изменений в POS.
-7.  Выберите график распределения **1040** для синхронизации новой станции оборудования в магазине. Щелкните **Запустить сейчас** для синхронизации изменений в POS.
-8.  Установите станцию оборудования на каждом хост-компьютере, который был настроен на шагах 2 и 3. Дополнительные сведения о том, как установить станцию оборудования, см. в разделе [Установка и конфигурация станции оборудования розничной торговли](retail-hardware-station-configuration-installation.md).
-9.  Установите и активируйте Modern POS. Дополнительные сведения об установке Modern POS см. в разделе [Конфигурация и установка Retail Modern POS](retail-modern-pos-device-activation.md).
-10. Выполните вход в Modern POS и выберите **Выполнение операций, не связанных с кассовым лотком**.
-11. Запустите операцию **Управление станциями оборудования**.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="b4819-531">Все клиенты Modern POS, имеющие общую станцию оборудования IIS</span><span class="sxs-lookup"><span data-stu-id="b4819-531">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-12. Щелкните **Управление**.
-13. На странице управления станцией оборудования задайте параметр для включения станции оборудования.
-14. Выберите станцию оборудования для использования, затем щелкните **Соединение**.
-15. Повторите шаг 14 для каждой станции оборудования, которую будет использовать Modern POS.
-16. После сопряжения всех необходимых станций оборудования нажмите кнопку **Закрыть**.
-17. На странице выбора станции оборудования щелкните недавно выбранную станцию оборудования, чтобы сделать ее активной. **Примечание.** Если устройства часто используют другие станции оборудования, рекомендуется настроить Modern POS, чтобы кассирам предлагалось выбрать станцию оборудования, когда они начинают процесс обработки платежа. Щелкните **Розничная торговля** &gt; **Настройка канала** &gt; **Настройка POS** &gt; **Регистры**. Выберите регистр, затем задайте для параметра **Выбор при оплате** значение **Да**. Используйте график распределения **1090**, чтобы синхронизировать изменения в базе данных канала.
+<span data-ttu-id="b4819-532">Эта конфигурация может использоваться для всех клиентов Modern POS, использующих станции оборудования совместно с другими устройствами.</span><span class="sxs-lookup"><span data-stu-id="b4819-532">This configuration can be used for all Modern POS clients that share hardware stations with other devices.</span></span> <span data-ttu-id="b4819-533">Для настройки этой конфигурации выполните следующие шаги.</span><span class="sxs-lookup"><span data-stu-id="b4819-533">To set up this configuration, follow these steps.</span></span>
 
-## <a name="extensibility"></a>Расширяемость
-Сведения о сценариях расширяемости для станции оборудования см. в разделе [Расширяемость станции оборудования](dev-itpro/hardware-station-extensibility.md).
+1.  <span data-ttu-id="b4819-534">Создайте профиль оборудования, в котором настроены необходимые периферийные устройства.</span><span class="sxs-lookup"><span data-stu-id="b4819-534">Create a hardware profile where the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="b4819-535">Создайте станцию оборудования типа **Общий** для розничного магазина, где будет использоваться регистр POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-535">Create a hardware station of the **Shared** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="b4819-536">На общей станции оборудование задайте следующие свойства:</span><span class="sxs-lookup"><span data-stu-id="b4819-536">On the shared hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="b4819-537">**Имя узла** — имя хост-компьютера, на котором будет выполняться станция оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-537">**Host name** – The name of the host computer where the hardware station will run.</span></span>
+    -   <span data-ttu-id="b4819-538">**Описание** — текст, который поможет идентифицировать станцию оборудования, например **Возвраты** или **Передняя часть магазина**.</span><span class="sxs-lookup"><span data-stu-id="b4819-538">**Description** – Text that will help identify the hardware station, such as **Returns** or **Front of store**.</span></span>
+    -   <span data-ttu-id="b4819-539">**Порт** — порт, который требуется использовать для станции оборудования для связи с клиентом Modern POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-539">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="b4819-540">**Профиль оборудования** — для общих станции оборудования каждая станция оборудования должна иметь профиль оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-540">**Hardware profile** – For shared hardware stations, each hardware station should have a hardware profile.</span></span> <span data-ttu-id="b4819-541">Профили оборудования могут совместно использоваться станциями оборудования, но они должны быть сопоставлены каждой станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-541">Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</span></span> <span data-ttu-id="b4819-542">Кроме того, рекомендуется использовать общие смены, когда несколько устройств используют одну общую станцию оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-542">In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</span></span> <span data-ttu-id="b4819-543">Чтобы настроить общую смену, щелкните **Розничная торговля** &gt; **Настройка канала** &gt; **Настройка POS** &gt; **Профили POS** &gt; **Профили оборудования**.</span><span class="sxs-lookup"><span data-stu-id="b4819-543">To set up a shared shift, click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="b4819-544">Для каждого общего профиля оборудования выберите кассовый лоток и задайте для параметра **Ящик совместной смены** параметр **Да**.</span><span class="sxs-lookup"><span data-stu-id="b4819-544">For each shared hardware profile, select the cash drawer, and set the **Shared shift drawer** option to **Yes**.</span></span>
+    -   <span data-ttu-id="b4819-545">**Номер POS для электронных платежей** — код терминала электронных платежей для использования при отправке авторизации электронных платежей.</span><span class="sxs-lookup"><span data-stu-id="b4819-545">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="b4819-546">Этот код предоставляется процессором кредитных карт.</span><span class="sxs-lookup"><span data-stu-id="b4819-546">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="b4819-547">**Имя пакета** — пакет станции оборудования для использования при развертывании станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-547">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-## <a name="security"></a>Контроль доступа
-В соответствии с текущими стандартами безопасности, в производственной среде следует использовать следующие параметры: **Примечание.** Программа установки станции оборудования автоматически вносит эти изменения реестра во время установки через дистанционное обслуживание.
+4.  <span data-ttu-id="b4819-548">Повторите шаги 2 и 3 для каждой дополнительной станции оборудования, необходимой в магазине.</span><span class="sxs-lookup"><span data-stu-id="b4819-548">Repeat steps 2 and 3 for each additional hardware station that is required in the store.</span></span>
+5.  <span data-ttu-id="b4819-549">Щелкните **Розничная торговля** &gt; **ИТ розничной торговли** &gt; **График распределения**.</span><span class="sxs-lookup"><span data-stu-id="b4819-549">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+6.  <span data-ttu-id="b4819-550">Выберите график распределения **1090** для синхронизации нового профиля оборудования в магазине.</span><span class="sxs-lookup"><span data-stu-id="b4819-550">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="b4819-551">Щелкните **Запустить сейчас** для синхронизации изменений в POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-551">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="b4819-552">Выберите график распределения **1040** для синхронизации новой станции оборудования в магазине.</span><span class="sxs-lookup"><span data-stu-id="b4819-552">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="b4819-553">Щелкните **Запустить сейчас** для синхронизации изменений в POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-553">Click **Run now** to sync changes to the POS.</span></span>
+8.  <span data-ttu-id="b4819-554">Установите станцию оборудования на каждом хост-компьютере, который был настроен на шагах 2 и 3.</span><span class="sxs-lookup"><span data-stu-id="b4819-554">Install the hardware station on each host computer that you set up in steps 2 and 3.</span></span> <span data-ttu-id="b4819-555">Дополнительные сведения о том, как установить станцию оборудования, см. в разделе [Установка и конфигурация станции оборудования розничной торговли](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="b4819-555">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+9.  <span data-ttu-id="b4819-556">Установите и активируйте Modern POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-556">Install and activate Modern POS.</span></span> <span data-ttu-id="b4819-557">Дополнительные сведения об установке Modern POS см. в разделе [Конфигурация и установка Retail Modern POS](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="b4819-557">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+10. <span data-ttu-id="b4819-558">Выполните вход в Modern POS и выберите **Выполнение операций, не связанных с кассовым лотком**.</span><span class="sxs-lookup"><span data-stu-id="b4819-558">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+11. <span data-ttu-id="b4819-559">Запустите операцию **Управление станциями оборудования**.</span><span class="sxs-lookup"><span data-stu-id="b4819-559">Start the **Manage hardware stations** operation.</span></span>
 
--   Следует отключить протокол Secure Sockets Layer (SSL).
--   Должен быть включен и использоваться только протокол Transport Layer Security (TLS) версии 1.2 (или текущая более новой версии). **Примечание.** По умолчанию протокол SSL и все версии протокола TLS, за исключением TLS 1.2, отключены. Чтобы изменить или включить эти значения, выполните следующие шаги:
-    1.  Нажмите клавишу с эмблемой Windows + R, чтобы открыть окно **Выполнить**.
-    2.  В поле **Открыть** введите **Regedit**, затем нажмите **ОК**.
-    3.  Если появляется окно сообщения **Контроль учетных записей**, нажмите кнопку **Да**.
-    4.  В окне **Редактор реестра** перейдите к разделу **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Следующие разделы были автоматически введены, чтобы разрешить только протокол TLS 1.2:
-        -   TLS 1.2Server:Enabled=1
-        -   TLS 1.2Server:DisabledByDefault=0
-        -   TLS 1.2Client:Enabled=1
-        -   TLS 1.2Client:DisabledByDefault=0
-        -   TLS 1.1Server:Enabled=0
-        -   TLS 1.1Client:Enabled=0
-        -   TLS 1.0Server:Enabled=0
-        -   TLS 1.0Client:Enabled=0
-        -   SSL 3.0Server:Enabled=0
-        -   SSL 3.0Client:Enabled=0
-        -   SSL 2.0Server:Enabled=0
-        -   SSL 2.0Client:Enabled=0
--   Никакие дополнительные сетевые порты не должны быть открыты, если только они не требуются по известным указанным причинам.
--   Общий доступ к ресурсам независимо от источника должен быть отключен, и необходимо указать допустимые источники, которые принимаются.
--   Только доверенные центры сертификации можно использовать для получения сертификатов, которые будут использоваться на компьютерах под управлением станции оборудования.
+12. <span data-ttu-id="b4819-560">Щелкните **Управление**.</span><span class="sxs-lookup"><span data-stu-id="b4819-560">Click **Manage**.</span></span>
+13. <span data-ttu-id="b4819-561">На странице управления станцией оборудования задайте параметр для включения станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-561">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+14. <span data-ttu-id="b4819-562">Выберите станцию оборудования для использования, затем щелкните **Соединение**.</span><span class="sxs-lookup"><span data-stu-id="b4819-562">Select the hardware station to use, and then click **Pair**.</span></span>
+15. <span data-ttu-id="b4819-563">Повторите шаг 14 для каждой станции оборудования, которую будет использовать Modern POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-563">Repeat step 14 for each hardware station that Modern POS will use.</span></span>
+16. <span data-ttu-id="b4819-564">После сопряжения всех необходимых станций оборудования нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="b4819-564">After all the required hardware stations are paired, click **Close**.</span></span>
+17. <span data-ttu-id="b4819-565">На странице выбора станции оборудования щелкните недавно выбранную станцию оборудования, чтобы сделать ее активной.</span><span class="sxs-lookup"><span data-stu-id="b4819-565">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span> <span data-ttu-id="b4819-566">**Примечание.** Если устройства часто используют другие станции оборудования, рекомендуется настроить Modern POS, чтобы кассирам предлагалось выбрать станцию оборудования, когда они начинают процесс обработки платежа.</span><span class="sxs-lookup"><span data-stu-id="b4819-566">**Note:** If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</span></span> <span data-ttu-id="b4819-567">Щелкните **Розничная торговля** &gt; **Настройка канала** &gt; **Настройка POS** &gt; **Регистры**.</span><span class="sxs-lookup"><span data-stu-id="b4819-567">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="b4819-568">Выберите регистр, затем задайте для параметра **Выбор при оплате** значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="b4819-568">Select the register, and then set the **Select upon tender** option to **Yes**.</span></span> <span data-ttu-id="b4819-569">Используйте график распределения **1090**, чтобы синхронизировать изменения в базе данных канала.</span><span class="sxs-lookup"><span data-stu-id="b4819-569">Use the **1090** distribution schedule to sync changes to the channel database.</span></span>
 
-**Примечание.** Очень важно изучить рекомендации по безопасности для служб IIS и требования индустрии платежных карт (Payment Card Industry, PCI).
+## <a name="extensibility"></a><span data-ttu-id="b4819-570">Расширяемость</span><span class="sxs-lookup"><span data-stu-id="b4819-570">Extensibility</span></span>
+<span data-ttu-id="b4819-571">Сведения о сценариях расширяемости для станции оборудования см. в разделе [Расширяемость станции оборудования](dev-itpro/hardware-station-extensibility.md).</span><span class="sxs-lookup"><span data-stu-id="b4819-571">For information about extensibility scenarios for the hardware station, see [Hardware Station extensibility](dev-itpro/hardware-station-extensibility.md).</span></span>
 
-## <a name="peripheral-simulator"></a>Симулятор периферийных устройств
-Сведения см. в разделе [Симулятор периферийных устройств розничной торговли](dev-itpro/retail-peripheral-simulator.md).
+## <a name="security"></a><span data-ttu-id="b4819-572">Контроль доступа</span><span class="sxs-lookup"><span data-stu-id="b4819-572">Security</span></span>
+<span data-ttu-id="b4819-573">В соответствии с текущими стандартами безопасности, в производственной среде следует использовать следующие параметры: **Примечание.** Программа установки станции оборудования автоматически вносит эти изменения реестра во время установки через дистанционное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="b4819-573">According to current security standards, the following settings should be used in a production environment: **Note:** The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
 
-## <a name="microsofttested-peripheral-devices"></a>Периферийные устройства, протестированные Microsoft
-### <a name="ipc-built-in-hardware-station"></a>Станция оборудования IPC (встроенная)
+-   <span data-ttu-id="b4819-574">Следует отключить протокол Secure Sockets Layer (SSL).</span><span class="sxs-lookup"><span data-stu-id="b4819-574">Secure Sockets Layer (SSL) should be disabled.</span></span>
+-   <span data-ttu-id="b4819-575">Должен быть включен и использоваться только протокол Transport Layer Security (TLS) версии 1.2 (или текущая более новой версии).</span><span class="sxs-lookup"><span data-stu-id="b4819-575">Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</span></span> <span data-ttu-id="b4819-576">**Примечание.** По умолчанию протокол SSL и все версии протокола TLS, за исключением TLS 1.2, отключены.</span><span class="sxs-lookup"><span data-stu-id="b4819-576">**Note:** By default, SSL and all version of TLS except TLS 1.2 are disabled.</span></span> <span data-ttu-id="b4819-577">Чтобы изменить или включить эти значения, выполните следующие шаги:</span><span class="sxs-lookup"><span data-stu-id="b4819-577">To edit or enable these values, follow these steps:</span></span>
+    1.  <span data-ttu-id="b4819-578">Нажмите клавишу с эмблемой Windows + R, чтобы открыть окно **Выполнить**.</span><span class="sxs-lookup"><span data-stu-id="b4819-578">Press the Windows logo key+R to open a **Run** window.</span></span>
+    2.  <span data-ttu-id="b4819-579">В поле **Открыть** введите **Regedit**, затем нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="b4819-579">In the **Open** field, type **Regedit**, and then click **OK**.</span></span>
+    3.  <span data-ttu-id="b4819-580">Если появляется окно сообщения **Контроль учетных записей**, нажмите кнопку **Да**.</span><span class="sxs-lookup"><span data-stu-id="b4819-580">If a **User Account Control** message box appears, click **Yes**.</span></span>
+    4.  <span data-ttu-id="b4819-581">В окне **Редактор реестра** перейдите к разделу **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span><span class="sxs-lookup"><span data-stu-id="b4819-581">In the **Registry Editor** window, navigate to **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span></span> <span data-ttu-id="b4819-582">Следующие разделы были автоматически введены, чтобы разрешить только протокол TLS 1.2:</span><span class="sxs-lookup"><span data-stu-id="b4819-582">The following keys have been automatically entered to allow for TLS 1.2 only:</span></span>
+        -   <span data-ttu-id="b4819-583">TLS 1.2Server:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="b4819-583">TLS 1.2Server:Enabled=1</span></span>
+        -   <span data-ttu-id="b4819-584">TLS 1.2Server:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="b4819-584">TLS 1.2Server:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="b4819-585">TLS 1.2Client:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="b4819-585">TLS 1.2Client:Enabled=1</span></span>
+        -   <span data-ttu-id="b4819-586">TLS 1.2Client:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="b4819-586">TLS 1.2Client:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="b4819-587">TLS 1.1Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b4819-587">TLS 1.1Server:Enabled=0</span></span>
+        -   <span data-ttu-id="b4819-588">TLS 1.1Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b4819-588">TLS 1.1Client:Enabled=0</span></span>
+        -   <span data-ttu-id="b4819-589">TLS 1.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b4819-589">TLS 1.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="b4819-590">TLS 1.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b4819-590">TLS 1.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="b4819-591">SSL 3.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b4819-591">SSL 3.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="b4819-592">SSL 3.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b4819-592">SSL 3.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="b4819-593">SSL 2.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b4819-593">SSL 2.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="b4819-594">SSL 2.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="b4819-594">SSL 2.0Client:Enabled=0</span></span>
+-   <span data-ttu-id="b4819-595">Никакие дополнительные сетевые порты не должны быть открыты, если только они не требуются по известным указанным причинам.</span><span class="sxs-lookup"><span data-stu-id="b4819-595">No additional network ports should be open, unless they are required for known, specified reasons.</span></span>
+-   <span data-ttu-id="b4819-596">Общий доступ к ресурсам независимо от источника должен быть отключен, и необходимо указать допустимые источники, которые принимаются.</span><span class="sxs-lookup"><span data-stu-id="b4819-596">Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</span></span>
+-   <span data-ttu-id="b4819-597">Только доверенные центры сертификации можно использовать для получения сертификатов, которые будут использоваться на компьютерах под управлением станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-597">Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</span></span>
 
-Следующие периферийные устройства были проверены с использованием станции оборудования IPC, которая встроена в Modern POS для Windows.
+<span data-ttu-id="b4819-598">**Примечание.** Очень важно изучить рекомендации по безопасности для служб IIS и требования индустрии платежных карт (Payment Card Industry, PCI).</span><span class="sxs-lookup"><span data-stu-id="b4819-598">**Note:** It’s very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</span></span>
 
-#### <a name="printer"></a>Принтер
+## <a name="peripheral-simulator"></a><span data-ttu-id="b4819-599">Симулятор периферийных устройств</span><span class="sxs-lookup"><span data-stu-id="b4819-599">Peripheral simulator</span></span>
+<span data-ttu-id="b4819-600">Сведения см. в разделе [Симулятор периферийных устройств розничной торговли](dev-itpro/retail-peripheral-simulator.md).</span><span class="sxs-lookup"><span data-stu-id="b4819-600">For information, see [Retail peripheral simulator](dev-itpro/retail-peripheral-simulator.md).</span></span>
 
-| Производитель | Модель    | Интерфейс | Комментарии                |
+## <a name="microsofttested-peripheral-devices"></a><span data-ttu-id="b4819-601">Периферийные устройства, протестированные Microsoft</span><span class="sxs-lookup"><span data-stu-id="b4819-601">Microsofttested peripheral devices</span></span>
+### <a name="ipc-built-in-hardware-station"></a><span data-ttu-id="b4819-602">Станция оборудования IPC (встроенная)</span><span class="sxs-lookup"><span data-stu-id="b4819-602">IPC (built-in) hardware station</span></span>
+
+<span data-ttu-id="b4819-603">Следующие периферийные устройства были проверены с использованием станции оборудования IPC, которая встроена в Modern POS для Windows.</span><span class="sxs-lookup"><span data-stu-id="b4819-603">The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</span></span>
+
+#### <a name="printer"></a><span data-ttu-id="b4819-604">Принтер</span><span class="sxs-lookup"><span data-stu-id="b4819-604">Printer</span></span>
+
+| <span data-ttu-id="b4819-605">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-605">Manufacturer</span></span> | <span data-ttu-id="b4819-606">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-606">Model</span></span>    | <span data-ttu-id="b4819-607">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-607">Interface</span></span> | <span data-ttu-id="b4819-608">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-608">Comments</span></span>                |
 |--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | Произвольная    | Подключение по сети   |
-| Star         | mPOP     | OPOS      | Подключение по Bluetooth |
-| HP           | F7M67AA  | OPOS      | Питание по USB             |
+| <span data-ttu-id="b4819-609">Epson</span><span class="sxs-lookup"><span data-stu-id="b4819-609">Epson</span></span>        | <span data-ttu-id="b4819-610">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="b4819-610">Tm-T88IV</span></span> | <span data-ttu-id="b4819-611">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-611">OPOS</span></span>      |                         |
+| <span data-ttu-id="b4819-612">Epson</span><span class="sxs-lookup"><span data-stu-id="b4819-612">Epson</span></span>        | <span data-ttu-id="b4819-613">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="b4819-613">TM-T88V</span></span>  | <span data-ttu-id="b4819-614">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-614">OPOS</span></span>      |                         |
+| <span data-ttu-id="b4819-615">Star</span><span class="sxs-lookup"><span data-stu-id="b4819-615">Star</span></span>         | <span data-ttu-id="b4819-616">TSP650II</span><span class="sxs-lookup"><span data-stu-id="b4819-616">TSP650II</span></span> | <span data-ttu-id="b4819-617">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-617">OPOS</span></span>      |                         |
+| <span data-ttu-id="b4819-618">Star</span><span class="sxs-lookup"><span data-stu-id="b4819-618">Star</span></span>         | <span data-ttu-id="b4819-619">TSP650II</span><span class="sxs-lookup"><span data-stu-id="b4819-619">TSP650II</span></span> | <span data-ttu-id="b4819-620">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-620">Custom</span></span>    | <span data-ttu-id="b4819-621">Подключение по сети</span><span class="sxs-lookup"><span data-stu-id="b4819-621">Connected via network</span></span>   |
+| <span data-ttu-id="b4819-622">Star</span><span class="sxs-lookup"><span data-stu-id="b4819-622">Star</span></span>         | <span data-ttu-id="b4819-623">mPOP</span><span class="sxs-lookup"><span data-stu-id="b4819-623">mPOP</span></span>     | <span data-ttu-id="b4819-624">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-624">OPOS</span></span>      | <span data-ttu-id="b4819-625">Подключение по Bluetooth</span><span class="sxs-lookup"><span data-stu-id="b4819-625">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="b4819-626">HP</span><span class="sxs-lookup"><span data-stu-id="b4819-626">HP</span></span>           | <span data-ttu-id="b4819-627">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="b4819-627">F7M67AA</span></span>  | <span data-ttu-id="b4819-628">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-628">OPOS</span></span>      | <span data-ttu-id="b4819-629">Питание по USB</span><span class="sxs-lookup"><span data-stu-id="b4819-629">Powered USB</span></span>             |
 
-#### <a name="bar-code-scanner"></a>Сканер штрих-кодов
+#### <a name="bar-code-scanner"></a><span data-ttu-id="b4819-630">Сканер штрих-кодов</span><span class="sxs-lookup"><span data-stu-id="b4819-630">Bar code scanner</span></span>
 
-| Производитель  | Модель         | Интерфейс | Комментарии |
+| <span data-ttu-id="b4819-631">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-631">Manufacturer</span></span>  | <span data-ttu-id="b4819-632">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-632">Model</span></span>         | <span data-ttu-id="b4819-633">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-633">Interface</span></span> | <span data-ttu-id="b4819-634">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-634">Comments</span></span> |
 |---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPOS      |          |
-| Honeywell     | 1900          | UWP       |          |
-| Символ        | LS2208        | OPOS      |          |
-| HP Integrated | E1L07AA       | OPOS      |          |
-| Datalogic     | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="b4819-635">Motorola</span><span class="sxs-lookup"><span data-stu-id="b4819-635">Motorola</span></span>      | <span data-ttu-id="b4819-636">DS9208</span><span class="sxs-lookup"><span data-stu-id="b4819-636">DS9208</span></span>        | <span data-ttu-id="b4819-637">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-637">OPOS</span></span>      |          |
+| <span data-ttu-id="b4819-638">Honeywell</span><span class="sxs-lookup"><span data-stu-id="b4819-638">Honeywell</span></span>     | <span data-ttu-id="b4819-639">1900</span><span class="sxs-lookup"><span data-stu-id="b4819-639">1900</span></span>          | <span data-ttu-id="b4819-640">UWP</span><span class="sxs-lookup"><span data-stu-id="b4819-640">UWP</span></span>       |          |
+| <span data-ttu-id="b4819-641">Символ</span><span class="sxs-lookup"><span data-stu-id="b4819-641">Symbol</span></span>        | <span data-ttu-id="b4819-642">LS2208</span><span class="sxs-lookup"><span data-stu-id="b4819-642">LS2208</span></span>        | <span data-ttu-id="b4819-643">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-643">OPOS</span></span>      |          |
+| <span data-ttu-id="b4819-644">HP Integrated</span><span class="sxs-lookup"><span data-stu-id="b4819-644">HP Integrated</span></span> | <span data-ttu-id="b4819-645">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="b4819-645">E1L07AA</span></span>       | <span data-ttu-id="b4819-646">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-646">OPOS</span></span>      |          |
+| <span data-ttu-id="b4819-647">Datalogic</span><span class="sxs-lookup"><span data-stu-id="b4819-647">Datalogic</span></span>     | <span data-ttu-id="b4819-648">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="b4819-648">Magellan 8400</span></span> | <span data-ttu-id="b4819-649">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-649">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>Клавиатура для набора ПИН-кода
+#### <a name="pin-pad"></a><span data-ttu-id="b4819-650">Клавиатура для набора ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="b4819-650">PIN pad</span></span>
 
-| Производитель | Модель  | Интерфейс | Комментарии                                        |
+| <span data-ttu-id="b4819-651">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-651">Manufacturer</span></span> | <span data-ttu-id="b4819-652">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-652">Model</span></span>  | <span data-ttu-id="b4819-653">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-653">Interface</span></span> | <span data-ttu-id="b4819-654">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-654">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Требуется настройка соединителя платежей |
+| <span data-ttu-id="b4819-655">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b4819-655">VeriFone</span></span>     | <span data-ttu-id="b4819-656">1000SE</span><span class="sxs-lookup"><span data-stu-id="b4819-656">1000SE</span></span> | <span data-ttu-id="b4819-657">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-657">OPOS</span></span>      | <span data-ttu-id="b4819-658">Требуется настройка соединителя платежей</span><span class="sxs-lookup"><span data-stu-id="b4819-658">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>Платежный терминал
+#### <a name="payment-terminal"></a><span data-ttu-id="b4819-659">Платежный терминал</span><span class="sxs-lookup"><span data-stu-id="b4819-659">Payment terminal</span></span>
 
-| Производитель | Модель | Интерфейс | Комментарии                                                                       |
+| <span data-ttu-id="b4819-660">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-660">Manufacturer</span></span> | <span data-ttu-id="b4819-661">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-661">Model</span></span> | <span data-ttu-id="b4819-662">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-662">Interface</span></span> | <span data-ttu-id="b4819-663">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-663">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Произвольная    | Требуется настройка соединителя платежей                                |
-| VeriFone     | MX925 | Произвольная    | Требуется настройка соединителя платежей; подключение по сети и USB |
-| VeriFone     | MX915 | Произвольная    | Требуется настройка соединителя платежей; подключение по сети и USB |
+| <span data-ttu-id="b4819-664">Equinox</span><span class="sxs-lookup"><span data-stu-id="b4819-664">Equinox</span></span>      | <span data-ttu-id="b4819-665">L5300</span><span class="sxs-lookup"><span data-stu-id="b4819-665">L5300</span></span> | <span data-ttu-id="b4819-666">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-666">Custom</span></span>    | <span data-ttu-id="b4819-667">Требуется настройка соединителя платежей</span><span class="sxs-lookup"><span data-stu-id="b4819-667">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="b4819-668">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b4819-668">VeriFone</span></span>     | <span data-ttu-id="b4819-669">MX925</span><span class="sxs-lookup"><span data-stu-id="b4819-669">MX925</span></span> | <span data-ttu-id="b4819-670">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-670">Custom</span></span>    | <span data-ttu-id="b4819-671">Требуется настройка соединителя платежей; подключение по сети и USB</span><span class="sxs-lookup"><span data-stu-id="b4819-671">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="b4819-672">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b4819-672">VeriFone</span></span>     | <span data-ttu-id="b4819-673">MX915</span><span class="sxs-lookup"><span data-stu-id="b4819-673">MX915</span></span> | <span data-ttu-id="b4819-674">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-674">Custom</span></span>    | <span data-ttu-id="b4819-675">Требуется настройка соединителя платежей; подключение по сети и USB</span><span class="sxs-lookup"><span data-stu-id="b4819-675">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Кассовый лоток
+#### <a name="cash-drawer"></a><span data-ttu-id="b4819-676">Кассовый лоток</span><span class="sxs-lookup"><span data-stu-id="b4819-676">Cash drawer</span></span>
 
-| Производитель | Модель     | Интерфейс | Комментарии                |
+| <span data-ttu-id="b4819-677">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-677">Manufacturer</span></span> | <span data-ttu-id="b4819-678">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-678">Model</span></span>     | <span data-ttu-id="b4819-679">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-679">Interface</span></span> | <span data-ttu-id="b4819-680">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-680">Comments</span></span>                |
 |--------------|-----------|-----------|-------------------------|
-| Star         | mPOP      | OPOS      | Подключение по Bluetooth |
-| APG          | Atwood    | Произвольная    | Подключение по сети   |
-| Star         | SMD2-1317 | OPOS      |                         |
-| HP           | QT457AA   | OPOS      |                         |
+| <span data-ttu-id="b4819-681">Star</span><span class="sxs-lookup"><span data-stu-id="b4819-681">Star</span></span>         | <span data-ttu-id="b4819-682">mPOP</span><span class="sxs-lookup"><span data-stu-id="b4819-682">mPOP</span></span>      | <span data-ttu-id="b4819-683">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-683">OPOS</span></span>      | <span data-ttu-id="b4819-684">Подключение по Bluetooth</span><span class="sxs-lookup"><span data-stu-id="b4819-684">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="b4819-685">APG</span><span class="sxs-lookup"><span data-stu-id="b4819-685">APG</span></span>          | <span data-ttu-id="b4819-686">Atwood</span><span class="sxs-lookup"><span data-stu-id="b4819-686">Atwood</span></span>    | <span data-ttu-id="b4819-687">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-687">Custom</span></span>    | <span data-ttu-id="b4819-688">Подключение по сети</span><span class="sxs-lookup"><span data-stu-id="b4819-688">Connected via network</span></span>   |
+| <span data-ttu-id="b4819-689">Star</span><span class="sxs-lookup"><span data-stu-id="b4819-689">Star</span></span>         | <span data-ttu-id="b4819-690">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="b4819-690">SMD2-1317</span></span> | <span data-ttu-id="b4819-691">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-691">OPOS</span></span>      |                         |
+| <span data-ttu-id="b4819-692">HP</span><span class="sxs-lookup"><span data-stu-id="b4819-692">HP</span></span>           | <span data-ttu-id="b4819-693">QT457AA</span><span class="sxs-lookup"><span data-stu-id="b4819-693">QT457AA</span></span>   | <span data-ttu-id="b4819-694">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-694">OPOS</span></span>      |                         |
 
-#### <a name="line-display"></a>Строковый дисплей
+#### <a name="line-display"></a><span data-ttu-id="b4819-695">Строковый дисплей</span><span class="sxs-lookup"><span data-stu-id="b4819-695">Line display</span></span>
 
-| Производитель  | Модель   | Интерфейс | Комментарии |
+| <span data-ttu-id="b4819-696">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-696">Manufacturer</span></span>  | <span data-ttu-id="b4819-697">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-697">Model</span></span>   | <span data-ttu-id="b4819-698">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-698">Interface</span></span> | <span data-ttu-id="b4819-699">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-699">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP integrated | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="b4819-700">HP integrated</span><span class="sxs-lookup"><span data-stu-id="b4819-700">HP integrated</span></span> | <span data-ttu-id="b4819-701">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="b4819-701">G6U79AA</span></span> | <span data-ttu-id="b4819-702">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-702">OPOS</span></span>      |          |
+| <span data-ttu-id="b4819-703">Epson</span><span class="sxs-lookup"><span data-stu-id="b4819-703">Epson</span></span>         | <span data-ttu-id="b4819-704">M58DC</span><span class="sxs-lookup"><span data-stu-id="b4819-704">M58DC</span></span>   | <span data-ttu-id="b4819-705">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-705">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>Считывание рукописных подписей
+#### <a name="signature-capture"></a><span data-ttu-id="b4819-706">Считывание рукописных подписей</span><span class="sxs-lookup"><span data-stu-id="b4819-706">Signature capture</span></span>
 
-| Производитель | Модель  | Интерфейс | Комментарии |
+| <span data-ttu-id="b4819-707">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-707">Manufacturer</span></span> | <span data-ttu-id="b4819-708">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-708">Model</span></span>  | <span data-ttu-id="b4819-709">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-709">Interface</span></span> | <span data-ttu-id="b4819-710">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-710">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="b4819-711">Scriptel</span><span class="sxs-lookup"><span data-stu-id="b4819-711">Scriptel</span></span>     | <span data-ttu-id="b4819-712">ST1550</span><span class="sxs-lookup"><span data-stu-id="b4819-712">ST1550</span></span> | <span data-ttu-id="b4819-713">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-713">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>Шкала
+#### <a name="scale"></a><span data-ttu-id="b4819-714">Шкала</span><span class="sxs-lookup"><span data-stu-id="b4819-714">Scale</span></span>
 
-| Производитель | Модель         | Интерфейс | Комментарии |
+| <span data-ttu-id="b4819-715">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-715">Manufacturer</span></span> | <span data-ttu-id="b4819-716">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-716">Model</span></span>         | <span data-ttu-id="b4819-717">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-717">Interface</span></span> | <span data-ttu-id="b4819-718">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-718">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="b4819-719">Datalogic</span><span class="sxs-lookup"><span data-stu-id="b4819-719">Datalogic</span></span>    | <span data-ttu-id="b4819-720">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="b4819-720">Magellan 8400</span></span> | <span data-ttu-id="b4819-721">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-721">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>MSR / считыватель магнитных карт
+#### <a name="msr"></a><span data-ttu-id="b4819-722">MSR / считыватель магнитных карт</span><span class="sxs-lookup"><span data-stu-id="b4819-722">MSR</span></span>
 
-| Производитель | Модель       | Интерфейс | Комментарии |
+| <span data-ttu-id="b4819-723">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-723">Manufacturer</span></span> | <span data-ttu-id="b4819-724">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-724">Model</span></span>       | <span data-ttu-id="b4819-725">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-725">Interface</span></span> | <span data-ttu-id="b4819-726">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-726">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="b4819-727">Magtek</span><span class="sxs-lookup"><span data-stu-id="b4819-727">Magtek</span></span>       | <span data-ttu-id="b4819-728">21073075</span><span class="sxs-lookup"><span data-stu-id="b4819-728">21073075</span></span>    | <span data-ttu-id="b4819-729">UWP</span><span class="sxs-lookup"><span data-stu-id="b4819-729">UWP</span></span>       |          |
+| <span data-ttu-id="b4819-730">Magtek</span><span class="sxs-lookup"><span data-stu-id="b4819-730">Magtek</span></span>       | <span data-ttu-id="b4819-731">21073062</span><span class="sxs-lookup"><span data-stu-id="b4819-731">21073062</span></span>    | <span data-ttu-id="b4819-732">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-732">OPOS</span></span>      |          |
+| <span data-ttu-id="b4819-733">HP</span><span class="sxs-lookup"><span data-stu-id="b4819-733">HP</span></span>           | <span data-ttu-id="b4819-734">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="b4819-734">IDRA-334133</span></span> | <span data-ttu-id="b4819-735">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-735">OPOS</span></span>      |          |
 
-### <a name="dedicated-iis-hardware-station"></a>Выделенная станция оборудования IIS
+### <a name="dedicated-iis-hardware-station"></a><span data-ttu-id="b4819-736">Выделенная станция оборудования IIS</span><span class="sxs-lookup"><span data-stu-id="b4819-736">Dedicated IIS hardware station</span></span>
 
-Следующие периферийные устройства были проверены с использованием выделенной (не общей) станции оборудования IIS вместе с Modern POS для Windows и Cloud POS.
+<span data-ttu-id="b4819-737">Следующие периферийные устройства были проверены с использованием выделенной (не общей) станции оборудования IIS вместе с Modern POS для Windows и Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-737">The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
 
-#### <a name="printer"></a>Принтер
+#### <a name="printer"></a><span data-ttu-id="b4819-738">Принтер</span><span class="sxs-lookup"><span data-stu-id="b4819-738">Printer</span></span>
 
-| Производитель | Модель    | Интерфейс | Комментарии                  |
+| <span data-ttu-id="b4819-739">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-739">Manufacturer</span></span> | <span data-ttu-id="b4819-740">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-740">Model</span></span>    | <span data-ttu-id="b4819-741">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-741">Interface</span></span> | <span data-ttu-id="b4819-742">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-742">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | Произвольная    | Подключение по сети     |
-| Star         | TSP100   | OPOS      | Требуются драйверы TSP650II |
-| HP           | F7M67AA  | OPOS      | Питание по USB               |
+| <span data-ttu-id="b4819-743">Epson</span><span class="sxs-lookup"><span data-stu-id="b4819-743">Epson</span></span>        | <span data-ttu-id="b4819-744">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="b4819-744">Tm-T88IV</span></span> | <span data-ttu-id="b4819-745">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-745">OPOS</span></span>      |                           |
+| <span data-ttu-id="b4819-746">Epson</span><span class="sxs-lookup"><span data-stu-id="b4819-746">Epson</span></span>        | <span data-ttu-id="b4819-747">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="b4819-747">TM-T88V</span></span>  | <span data-ttu-id="b4819-748">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-748">OPOS</span></span>      |                           |
+| <span data-ttu-id="b4819-749">Star</span><span class="sxs-lookup"><span data-stu-id="b4819-749">Star</span></span>         | <span data-ttu-id="b4819-750">TSP650II</span><span class="sxs-lookup"><span data-stu-id="b4819-750">TSP650II</span></span> | <span data-ttu-id="b4819-751">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-751">OPOS</span></span>      |                           |
+| <span data-ttu-id="b4819-752">Star</span><span class="sxs-lookup"><span data-stu-id="b4819-752">Star</span></span>         | <span data-ttu-id="b4819-753">TSP650II</span><span class="sxs-lookup"><span data-stu-id="b4819-753">TSP650II</span></span> | <span data-ttu-id="b4819-754">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-754">Custom</span></span>    | <span data-ttu-id="b4819-755">Подключение по сети</span><span class="sxs-lookup"><span data-stu-id="b4819-755">Connected via network</span></span>     |
+| <span data-ttu-id="b4819-756">Star</span><span class="sxs-lookup"><span data-stu-id="b4819-756">Star</span></span>         | <span data-ttu-id="b4819-757">TSP100</span><span class="sxs-lookup"><span data-stu-id="b4819-757">TSP100</span></span>   | <span data-ttu-id="b4819-758">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-758">OPOS</span></span>      | <span data-ttu-id="b4819-759">Требуются драйверы TSP650II</span><span class="sxs-lookup"><span data-stu-id="b4819-759">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="b4819-760">HP</span><span class="sxs-lookup"><span data-stu-id="b4819-760">HP</span></span>           | <span data-ttu-id="b4819-761">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="b4819-761">F7M67AA</span></span>  | <span data-ttu-id="b4819-762">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-762">OPOS</span></span>      | <span data-ttu-id="b4819-763">Питание по USB</span><span class="sxs-lookup"><span data-stu-id="b4819-763">Powered USB</span></span>               |
 
-#### <a name="bar-code-scanner"></a>Сканер штрих-кодов
+#### <a name="bar-code-scanner"></a><span data-ttu-id="b4819-764">Сканер штрих-кодов</span><span class="sxs-lookup"><span data-stu-id="b4819-764">Bar code scanner</span></span>
 
-| Производитель  | Модель   | Интерфейс | Комментарии |
+| <span data-ttu-id="b4819-765">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-765">Manufacturer</span></span>  | <span data-ttu-id="b4819-766">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-766">Model</span></span>   | <span data-ttu-id="b4819-767">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-767">Interface</span></span> | <span data-ttu-id="b4819-768">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-768">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPOS      |          |
-| Символ        | LS2208  | OPOS      |          |
-| HP Integrated | E1L07AA | OPOS      |          |
+| <span data-ttu-id="b4819-769">Motorola</span><span class="sxs-lookup"><span data-stu-id="b4819-769">Motorola</span></span>      | <span data-ttu-id="b4819-770">DS9208</span><span class="sxs-lookup"><span data-stu-id="b4819-770">DS9208</span></span>  | <span data-ttu-id="b4819-771">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-771">OPOS</span></span>      |          |
+| <span data-ttu-id="b4819-772">Символ</span><span class="sxs-lookup"><span data-stu-id="b4819-772">Symbol</span></span>        | <span data-ttu-id="b4819-773">LS2208</span><span class="sxs-lookup"><span data-stu-id="b4819-773">LS2208</span></span>  | <span data-ttu-id="b4819-774">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-774">OPOS</span></span>      |          |
+| <span data-ttu-id="b4819-775">HP Integrated</span><span class="sxs-lookup"><span data-stu-id="b4819-775">HP Integrated</span></span> | <span data-ttu-id="b4819-776">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="b4819-776">E1L07AA</span></span> | <span data-ttu-id="b4819-777">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-777">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>Клавиатура для набора ПИН-кода
+#### <a name="pin-pad"></a><span data-ttu-id="b4819-778">Клавиатура для набора ПИН-кода</span><span class="sxs-lookup"><span data-stu-id="b4819-778">PIN pad</span></span>
 
-| Производитель | Модель  | Интерфейс | Комментарии                                        |
+| <span data-ttu-id="b4819-779">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-779">Manufacturer</span></span> | <span data-ttu-id="b4819-780">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-780">Model</span></span>  | <span data-ttu-id="b4819-781">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-781">Interface</span></span> | <span data-ttu-id="b4819-782">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-782">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Требуется настройка соединителя платежей |
+| <span data-ttu-id="b4819-783">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b4819-783">VeriFone</span></span>     | <span data-ttu-id="b4819-784">1000SE</span><span class="sxs-lookup"><span data-stu-id="b4819-784">1000SE</span></span> | <span data-ttu-id="b4819-785">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-785">OPOS</span></span>      | <span data-ttu-id="b4819-786">Требуется настройка соединителя платежей</span><span class="sxs-lookup"><span data-stu-id="b4819-786">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>Платежный терминал
+#### <a name="payment-terminal"></a><span data-ttu-id="b4819-787">Платежный терминал</span><span class="sxs-lookup"><span data-stu-id="b4819-787">Payment terminal</span></span>
 
-| Производитель | Модель | Интерфейс | Комментарии                                                                       |
+| <span data-ttu-id="b4819-788">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-788">Manufacturer</span></span> | <span data-ttu-id="b4819-789">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-789">Model</span></span> | <span data-ttu-id="b4819-790">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-790">Interface</span></span> | <span data-ttu-id="b4819-791">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-791">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Произвольная    | Требуется настройка соединителя платежей                                |
-| VeriFone     | MX925 | Произвольная    | Требуется настройка соединителя платежей; подключение по сети и USB |
-| VeriFone     | MX915 | Произвольная    | Требуется настройка соединителя платежей; подключение по сети и USB |
+| <span data-ttu-id="b4819-792">Equinox</span><span class="sxs-lookup"><span data-stu-id="b4819-792">Equinox</span></span>      | <span data-ttu-id="b4819-793">L5300</span><span class="sxs-lookup"><span data-stu-id="b4819-793">L5300</span></span> | <span data-ttu-id="b4819-794">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-794">Custom</span></span>    | <span data-ttu-id="b4819-795">Требуется настройка соединителя платежей</span><span class="sxs-lookup"><span data-stu-id="b4819-795">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="b4819-796">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b4819-796">VeriFone</span></span>     | <span data-ttu-id="b4819-797">MX925</span><span class="sxs-lookup"><span data-stu-id="b4819-797">MX925</span></span> | <span data-ttu-id="b4819-798">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-798">Custom</span></span>    | <span data-ttu-id="b4819-799">Требуется настройка соединителя платежей; подключение по сети и USB</span><span class="sxs-lookup"><span data-stu-id="b4819-799">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="b4819-800">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b4819-800">VeriFone</span></span>     | <span data-ttu-id="b4819-801">MX915</span><span class="sxs-lookup"><span data-stu-id="b4819-801">MX915</span></span> | <span data-ttu-id="b4819-802">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-802">Custom</span></span>    | <span data-ttu-id="b4819-803">Требуется настройка соединителя платежей; подключение по сети и USB</span><span class="sxs-lookup"><span data-stu-id="b4819-803">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Кассовый лоток
+#### <a name="cash-drawer"></a><span data-ttu-id="b4819-804">Кассовый лоток</span><span class="sxs-lookup"><span data-stu-id="b4819-804">Cash drawer</span></span>
 
-| Производитель | Модель     | Интерфейс | Комментарии              |
+| <span data-ttu-id="b4819-805">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-805">Manufacturer</span></span> | <span data-ttu-id="b4819-806">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-806">Model</span></span>     | <span data-ttu-id="b4819-807">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-807">Interface</span></span> | <span data-ttu-id="b4819-808">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-808">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Произвольная    | Подключение по сети |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="b4819-809">APG</span><span class="sxs-lookup"><span data-stu-id="b4819-809">APG</span></span>          | <span data-ttu-id="b4819-810">Atwood</span><span class="sxs-lookup"><span data-stu-id="b4819-810">Atwood</span></span>    | <span data-ttu-id="b4819-811">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-811">Custom</span></span>    | <span data-ttu-id="b4819-812">Подключение по сети</span><span class="sxs-lookup"><span data-stu-id="b4819-812">Connected via network</span></span> |
+| <span data-ttu-id="b4819-813">Star</span><span class="sxs-lookup"><span data-stu-id="b4819-813">Star</span></span>         | <span data-ttu-id="b4819-814">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="b4819-814">SMD2-1317</span></span> | <span data-ttu-id="b4819-815">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-815">OPOS</span></span>      |                       |
+| <span data-ttu-id="b4819-816">HP</span><span class="sxs-lookup"><span data-stu-id="b4819-816">HP</span></span>           | <span data-ttu-id="b4819-817">QT457AA</span><span class="sxs-lookup"><span data-stu-id="b4819-817">QT457AA</span></span>   | <span data-ttu-id="b4819-818">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-818">OPOS</span></span>      |                       |
 
-#### <a name="line-display"></a>Строковый дисплей
+#### <a name="line-display"></a><span data-ttu-id="b4819-819">Строковый дисплей</span><span class="sxs-lookup"><span data-stu-id="b4819-819">Line display</span></span>
 
-| Производитель  | Модель   | Интерфейс | Комментарии |
+| <span data-ttu-id="b4819-820">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-820">Manufacturer</span></span>  | <span data-ttu-id="b4819-821">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-821">Model</span></span>   | <span data-ttu-id="b4819-822">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-822">Interface</span></span> | <span data-ttu-id="b4819-823">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-823">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP integrated | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="b4819-824">HP integrated</span><span class="sxs-lookup"><span data-stu-id="b4819-824">HP integrated</span></span> | <span data-ttu-id="b4819-825">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="b4819-825">G6U79AA</span></span> | <span data-ttu-id="b4819-826">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-826">OPOS</span></span>      |          |
+| <span data-ttu-id="b4819-827">Epson</span><span class="sxs-lookup"><span data-stu-id="b4819-827">Epson</span></span>         | <span data-ttu-id="b4819-828">M58DC</span><span class="sxs-lookup"><span data-stu-id="b4819-828">M58DC</span></span>   | <span data-ttu-id="b4819-829">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-829">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>Считывание рукописных подписей
+#### <a name="signature-capture"></a><span data-ttu-id="b4819-830">Считывание рукописных подписей</span><span class="sxs-lookup"><span data-stu-id="b4819-830">Signature capture</span></span>
 
-| Производитель | Модель  | Интерфейс | Комментарии |
+| <span data-ttu-id="b4819-831">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-831">Manufacturer</span></span> | <span data-ttu-id="b4819-832">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-832">Model</span></span>  | <span data-ttu-id="b4819-833">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-833">Interface</span></span> | <span data-ttu-id="b4819-834">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-834">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="b4819-835">Scriptel</span><span class="sxs-lookup"><span data-stu-id="b4819-835">Scriptel</span></span>     | <span data-ttu-id="b4819-836">ST1550</span><span class="sxs-lookup"><span data-stu-id="b4819-836">ST1550</span></span> | <span data-ttu-id="b4819-837">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-837">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>Шкала
+#### <a name="scale"></a><span data-ttu-id="b4819-838">Шкала</span><span class="sxs-lookup"><span data-stu-id="b4819-838">Scale</span></span>
 
-| Производитель | Модель         | Интерфейс | Комментарии |
+| <span data-ttu-id="b4819-839">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-839">Manufacturer</span></span> | <span data-ttu-id="b4819-840">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-840">Model</span></span>         | <span data-ttu-id="b4819-841">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-841">Interface</span></span> | <span data-ttu-id="b4819-842">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-842">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="b4819-843">Datalogic</span><span class="sxs-lookup"><span data-stu-id="b4819-843">Datalogic</span></span>    | <span data-ttu-id="b4819-844">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="b4819-844">Magellan 8400</span></span> | <span data-ttu-id="b4819-845">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-845">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>MSR / считыватель магнитных карт
+#### <a name="msr"></a><span data-ttu-id="b4819-846">MSR / считыватель магнитных карт</span><span class="sxs-lookup"><span data-stu-id="b4819-846">MSR</span></span>
 
-| Производитель | Модель       | Интерфейс | Комментарии |
+| <span data-ttu-id="b4819-847">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-847">Manufacturer</span></span> | <span data-ttu-id="b4819-848">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-848">Model</span></span>       | <span data-ttu-id="b4819-849">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-849">Interface</span></span> | <span data-ttu-id="b4819-850">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-850">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="b4819-851">Magtek</span><span class="sxs-lookup"><span data-stu-id="b4819-851">Magtek</span></span>       | <span data-ttu-id="b4819-852">21073075</span><span class="sxs-lookup"><span data-stu-id="b4819-852">21073075</span></span>    | <span data-ttu-id="b4819-853">UWP</span><span class="sxs-lookup"><span data-stu-id="b4819-853">UWP</span></span>       |          |
+| <span data-ttu-id="b4819-854">Magtek</span><span class="sxs-lookup"><span data-stu-id="b4819-854">Magtek</span></span>       | <span data-ttu-id="b4819-855">21073062</span><span class="sxs-lookup"><span data-stu-id="b4819-855">21073062</span></span>    | <span data-ttu-id="b4819-856">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-856">OPOS</span></span>      |          |
+| <span data-ttu-id="b4819-857">HP</span><span class="sxs-lookup"><span data-stu-id="b4819-857">HP</span></span>           | <span data-ttu-id="b4819-858">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="b4819-858">IDRA-334133</span></span> | <span data-ttu-id="b4819-859">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-859">OPOS</span></span>      |          |
 
-### <a name="shared-iis-hardware-station"></a>Общая станция оборудования IIS
+### <a name="shared-iis-hardware-station"></a><span data-ttu-id="b4819-860">Общая станция оборудования IIS</span><span class="sxs-lookup"><span data-stu-id="b4819-860">Shared IIS hardware station</span></span>
 
-Следующие периферийные устройства были проверены с использованием общей станции оборудования IIS вместе с Modern POS для Windows и Cloud POS. **Примечание.** Поддерживаются только принтер, платежный терминал и кассовый лоток.
+<span data-ttu-id="b4819-861">Следующие периферийные устройства были проверены с использованием общей станции оборудования IIS вместе с Modern POS для Windows и Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-861">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span> <span data-ttu-id="b4819-862">**Примечание.** Поддерживаются только принтер, платежный терминал и кассовый лоток.</span><span class="sxs-lookup"><span data-stu-id="b4819-862">**Note:** Only a printer, payment terminal, and cash drawer are supported.</span></span>
 
-#### <a name="printer"></a>Принтер
+#### <a name="printer"></a><span data-ttu-id="b4819-863">Принтер</span><span class="sxs-lookup"><span data-stu-id="b4819-863">Printer</span></span>
 
-| Производитель | Модель    | Интерфейс | Комментарии                  |
+| <span data-ttu-id="b4819-864">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-864">Manufacturer</span></span> | <span data-ttu-id="b4819-865">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-865">Model</span></span>    | <span data-ttu-id="b4819-866">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-866">Interface</span></span> | <span data-ttu-id="b4819-867">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-867">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | Произвольная    | Подключение по сети     |
-| Star         | TSP100   | OPOS      | Требуются драйверы TSP650II |
-| HP           | F7M67AA  | OPOS      | Питание по USB               |
+| <span data-ttu-id="b4819-868">Epson</span><span class="sxs-lookup"><span data-stu-id="b4819-868">Epson</span></span>        | <span data-ttu-id="b4819-869">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="b4819-869">Tm-T88IV</span></span> | <span data-ttu-id="b4819-870">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-870">OPOS</span></span>      |                           |
+| <span data-ttu-id="b4819-871">Epson</span><span class="sxs-lookup"><span data-stu-id="b4819-871">Epson</span></span>        | <span data-ttu-id="b4819-872">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="b4819-872">TM-T88V</span></span>  | <span data-ttu-id="b4819-873">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-873">OPOS</span></span>      |                           |
+| <span data-ttu-id="b4819-874">Star</span><span class="sxs-lookup"><span data-stu-id="b4819-874">Star</span></span>         | <span data-ttu-id="b4819-875">TSP650II</span><span class="sxs-lookup"><span data-stu-id="b4819-875">TSP650II</span></span> | <span data-ttu-id="b4819-876">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-876">OPOS</span></span>      |                           |
+| <span data-ttu-id="b4819-877">Star</span><span class="sxs-lookup"><span data-stu-id="b4819-877">Star</span></span>         | <span data-ttu-id="b4819-878">TSP650II</span><span class="sxs-lookup"><span data-stu-id="b4819-878">TSP650II</span></span> | <span data-ttu-id="b4819-879">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-879">Custom</span></span>    | <span data-ttu-id="b4819-880">Подключение по сети</span><span class="sxs-lookup"><span data-stu-id="b4819-880">Connected via network</span></span>     |
+| <span data-ttu-id="b4819-881">Star</span><span class="sxs-lookup"><span data-stu-id="b4819-881">Star</span></span>         | <span data-ttu-id="b4819-882">TSP100</span><span class="sxs-lookup"><span data-stu-id="b4819-882">TSP100</span></span>   | <span data-ttu-id="b4819-883">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-883">OPOS</span></span>      | <span data-ttu-id="b4819-884">Требуются драйверы TSP650II</span><span class="sxs-lookup"><span data-stu-id="b4819-884">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="b4819-885">HP</span><span class="sxs-lookup"><span data-stu-id="b4819-885">HP</span></span>           | <span data-ttu-id="b4819-886">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="b4819-886">F7M67AA</span></span>  | <span data-ttu-id="b4819-887">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-887">OPOS</span></span>      | <span data-ttu-id="b4819-888">Питание по USB</span><span class="sxs-lookup"><span data-stu-id="b4819-888">Powered USB</span></span>               |
 
-#### <a name="payment-terminal"></a>Платежный терминал
+#### <a name="payment-terminal"></a><span data-ttu-id="b4819-889">Платежный терминал</span><span class="sxs-lookup"><span data-stu-id="b4819-889">Payment terminal</span></span>
 
-| Производитель | Модель | Интерфейс | Комментарии                                                                       |
+| <span data-ttu-id="b4819-890">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-890">Manufacturer</span></span> | <span data-ttu-id="b4819-891">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-891">Model</span></span> | <span data-ttu-id="b4819-892">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-892">Interface</span></span> | <span data-ttu-id="b4819-893">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-893">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | Произвольная    | Требуется настройка соединителя платежей; подключение по сети и USB |
-| VeriFone     | MX915 | Произвольная    | Требуется настройка соединителя платежей; подключение по сети и USB |
+| <span data-ttu-id="b4819-894">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b4819-894">VeriFone</span></span>     | <span data-ttu-id="b4819-895">MX925</span><span class="sxs-lookup"><span data-stu-id="b4819-895">MX925</span></span> | <span data-ttu-id="b4819-896">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-896">Custom</span></span>    | <span data-ttu-id="b4819-897">Требуется настройка соединителя платежей; подключение по сети и USB</span><span class="sxs-lookup"><span data-stu-id="b4819-897">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="b4819-898">VeriFone</span><span class="sxs-lookup"><span data-stu-id="b4819-898">VeriFone</span></span>     | <span data-ttu-id="b4819-899">MX915</span><span class="sxs-lookup"><span data-stu-id="b4819-899">MX915</span></span> | <span data-ttu-id="b4819-900">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-900">Custom</span></span>    | <span data-ttu-id="b4819-901">Требуется настройка соединителя платежей; подключение по сети и USB</span><span class="sxs-lookup"><span data-stu-id="b4819-901">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Кассовый лоток
+#### <a name="cash-drawer"></a><span data-ttu-id="b4819-902">Кассовый лоток</span><span class="sxs-lookup"><span data-stu-id="b4819-902">Cash drawer</span></span>
 
-| Производитель | Модель     | Интерфейс | Комментарии              |
+| <span data-ttu-id="b4819-903">Производитель</span><span class="sxs-lookup"><span data-stu-id="b4819-903">Manufacturer</span></span> | <span data-ttu-id="b4819-904">Модель</span><span class="sxs-lookup"><span data-stu-id="b4819-904">Model</span></span>     | <span data-ttu-id="b4819-905">Интерфейс</span><span class="sxs-lookup"><span data-stu-id="b4819-905">Interface</span></span> | <span data-ttu-id="b4819-906">Комментарии</span><span class="sxs-lookup"><span data-stu-id="b4819-906">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Произвольная    | Подключение по сети |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="b4819-907">APG</span><span class="sxs-lookup"><span data-stu-id="b4819-907">APG</span></span>          | <span data-ttu-id="b4819-908">Atwood</span><span class="sxs-lookup"><span data-stu-id="b4819-908">Atwood</span></span>    | <span data-ttu-id="b4819-909">Произвольная</span><span class="sxs-lookup"><span data-stu-id="b4819-909">Custom</span></span>    | <span data-ttu-id="b4819-910">Подключение по сети</span><span class="sxs-lookup"><span data-stu-id="b4819-910">Connected via network</span></span> |
+| <span data-ttu-id="b4819-911">Star</span><span class="sxs-lookup"><span data-stu-id="b4819-911">Star</span></span>         | <span data-ttu-id="b4819-912">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="b4819-912">SMD2-1317</span></span> | <span data-ttu-id="b4819-913">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-913">OPOS</span></span>      |                       |
+| <span data-ttu-id="b4819-914">HP</span><span class="sxs-lookup"><span data-stu-id="b4819-914">HP</span></span>           | <span data-ttu-id="b4819-915">QT457AA</span><span class="sxs-lookup"><span data-stu-id="b4819-915">QT457AA</span></span>   | <span data-ttu-id="b4819-916">OPOS</span><span class="sxs-lookup"><span data-stu-id="b4819-916">OPOS</span></span>      |                       |
 
-## <a name="troubleshooting"></a>Устранение неполадок
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS обнаруживает станцию оборудования в списке для выбора, но не может выполнить сопряжение
+## <a name="troubleshooting"></a><span data-ttu-id="b4819-917">Устранение неполадок</span><span class="sxs-lookup"><span data-stu-id="b4819-917">Troubleshooting</span></span>
+### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a><span data-ttu-id="b4819-918">Modern POS обнаруживает станцию оборудования в списке для выбора, но не может выполнить сопряжение</span><span class="sxs-lookup"><span data-stu-id="b4819-918">Modern POS can detect the hardware station in its list for selection, but it can’t complete the pairing</span></span>
 
-**Решение.** Проверьте следующий список возможных мест сбоя:
+<span data-ttu-id="b4819-919">**Решение.** Проверьте следующий список возможных мест сбоя:</span><span class="sxs-lookup"><span data-stu-id="b4819-919">**Solution:** Verify the following list of potential failure points:</span></span>
 
--   Компьютер, на котором выполняется Modern POS, доверяет сертификату, который используется на компьютере, на котором выполняется станция оборудования.
-    -   Для проверки этой настройки в веб-браузере перейдите к следующему URL-адресу: https://&lt;Имя компьютера&gt;:&lt;Номер порта&gt;/HardwareStation/ping.
-    -   Этот URL-адрес использует команду ping для проверки доступности компьютера, а браузер показывает, является ли сертификат доверенным. (Например, в браузере Internet Explorer появляется значок замка в адресной строке. Если щелкнуть этот значок, Internet Explorer проверяет, является ли в настоящее время сертификат доверенным. Можно установить сертификат на локальный компьютер путем просмотра сведений о сертификате, который отображается.)
--   На компьютере, на котором выполняется станция оборудования, в брандмауэре открыт порт, который будет использоваться станцией оборудования.
--   Станция оборудование правильно установила сведения о счете продавца с помощью средства установки сведений о торговце, которое выполняется в конце установки станции оборудования.
+-   <span data-ttu-id="b4819-920">Компьютер, на котором выполняется Modern POS, доверяет сертификату, который используется на компьютере, на котором выполняется станция оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-920">The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</span></span>
+    -   <span data-ttu-id="b4819-921">Для проверки этой настройки в веб-браузере перейдите к следующему URL-адресу: https://&lt;Имя компьютера&gt;:&lt;Номер порта&gt;/HardwareStation/ping.</span><span class="sxs-lookup"><span data-stu-id="b4819-921">To verify this setup, in a web browser, go to the following URL: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.</span></span>
+    -   <span data-ttu-id="b4819-922">Этот URL-адрес использует команду ping для проверки доступности компьютера, а браузер показывает, является ли сертификат доверенным.</span><span class="sxs-lookup"><span data-stu-id="b4819-922">This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</span></span> <span data-ttu-id="b4819-923">(Например, в браузере Internet Explorer появляется значок замка в адресной строке.</span><span class="sxs-lookup"><span data-stu-id="b4819-923">(For example, in Internet Explorer, a lock icon appears in the address bar.</span></span> <span data-ttu-id="b4819-924">Если щелкнуть этот значок, Internet Explorer проверяет, является ли в настоящее время сертификат доверенным.</span><span class="sxs-lookup"><span data-stu-id="b4819-924">When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</span></span> <span data-ttu-id="b4819-925">Можно установить сертификат на локальный компьютер путем просмотра сведений о сертификате, который отображается.)</span><span class="sxs-lookup"><span data-stu-id="b4819-925">You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</span></span>
+-   <span data-ttu-id="b4819-926">На компьютере, на котором выполняется станция оборудования, в брандмауэре открыт порт, который будет использоваться станцией оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-926">On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</span></span>
+-   <span data-ttu-id="b4819-927">Станция оборудование правильно установила сведения о счете продавца с помощью средства установки сведений о торговце, которое выполняется в конце установки станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="b4819-927">The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</span></span>
 
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>Modern POS не удается обнаружить станцию оборудования в его списке для выбора
+### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a><span data-ttu-id="b4819-928">Modern POS не удается обнаружить станцию оборудования в его списке для выбора</span><span class="sxs-lookup"><span data-stu-id="b4819-928">Modern POS can’t detect the hardware station in its list for selection</span></span>
 
-**Решение.** Любой из следующих факторов может вызвать эту проблему:
+<span data-ttu-id="b4819-929">**Решение.** Любой из следующих факторов может вызвать эту проблему:</span><span class="sxs-lookup"><span data-stu-id="b4819-929">**Solution:** Either of the following factors can cause this issue:</span></span>
 
--   Станция оборудования не была правильно настроена в центральном офисе. Используйте шаги, приведенные ранее в этом разделе, для проверки того, что профиль станции оборудования и станция оборудования введены правильно.
--   Не было выполнено задание для обновления конфигурации канала. В этом случае следует запустить задание 1070 для настройки канала.
+-   <span data-ttu-id="b4819-930">Станция оборудования не была правильно настроена в центральном офисе.</span><span class="sxs-lookup"><span data-stu-id="b4819-930">The hardware station hasn’t been set up correctly in headquarters.</span></span> <span data-ttu-id="b4819-931">Используйте шаги, приведенные ранее в этом разделе, для проверки того, что профиль станции оборудования и станция оборудования введены правильно.</span><span class="sxs-lookup"><span data-stu-id="b4819-931">Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</span></span>
+-   <span data-ttu-id="b4819-932">Не было выполнено задание для обновления конфигурации канала.</span><span class="sxs-lookup"><span data-stu-id="b4819-932">The jobs haven’t been run to update the channel configuration.</span></span> <span data-ttu-id="b4819-933">В этом случае следует запустить задание 1070 для настройки канала.</span><span class="sxs-lookup"><span data-stu-id="b4819-933">In this case, run the 1070 job for channel configuration.</span></span>
 
-### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS не отражает новые параметры кассового лотка
+### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a><span data-ttu-id="b4819-934">Modern POS не отражает новые параметры кассового лотка</span><span class="sxs-lookup"><span data-stu-id="b4819-934">Modern POS doesn't reflect new cash drawer settings</span></span>
 
-**Решение.** Закройте текущий пакет. Изменения в кассовом лотке не обновляются в Modern POS до закрытия текущего пакета.
+<span data-ttu-id="b4819-935">**Решение.** Закройте текущий пакет.</span><span class="sxs-lookup"><span data-stu-id="b4819-935">**Solution:** Close the current batch.</span></span> <span data-ttu-id="b4819-936">Изменения в кассовом лотке не обновляются в Modern POS до закрытия текущего пакета.</span><span class="sxs-lookup"><span data-stu-id="b4819-936">Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</span></span>
 
-### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a>Modern POS сообщает о проблеме с периферийным устройством розничной торговли
+### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a><span data-ttu-id="b4819-937">Modern POS сообщает о проблеме с периферийным устройством розничной торговли</span><span class="sxs-lookup"><span data-stu-id="b4819-937">Modern POS is reporting an issue with a retail peripheral</span></span>
 
-**Решение:** Ниже приведены некоторые типичные причины этой проблемы:
+<span data-ttu-id="b4819-938">**Решение:** Ниже приведены некоторые типичные причины этой проблемы:</span><span class="sxs-lookup"><span data-stu-id="b4819-938">**Solution:** Here are some typical causes of this issue:</span></span>
 
--   Убедитесь, что закрыты другие служебные программы настройки драйвера устройства. Если открыты эти служебные программы, они могут препятствовать Modern POS или станции оборудования получить доступ к устройству.
--   Если периферийное устройство розничной торговли используется совместно с несколькими устройствами POS, убедитесь, что оно принадлежит к одной из следующих категорий:
-    -   Кассовый лоток
-    -   Принтер чеков
-    -   Платежный терминал
+-   <span data-ttu-id="b4819-939">Убедитесь, что закрыты другие служебные программы настройки драйвера устройства.</span><span class="sxs-lookup"><span data-stu-id="b4819-939">Make sure that other device driver configuration utilities are closed.</span></span> <span data-ttu-id="b4819-940">Если открыты эти служебные программы, они могут препятствовать Modern POS или станции оборудования получить доступ к устройству.</span><span class="sxs-lookup"><span data-stu-id="b4819-940">If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</span></span>
+-   <span data-ttu-id="b4819-941">Если периферийное устройство розничной торговли используется совместно с несколькими устройствами POS, убедитесь, что оно принадлежит к одной из следующих категорий:</span><span class="sxs-lookup"><span data-stu-id="b4819-941">If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</span></span>
+    -   <span data-ttu-id="b4819-942">Кассовый лоток</span><span class="sxs-lookup"><span data-stu-id="b4819-942">Cash drawer</span></span>
+    -   <span data-ttu-id="b4819-943">Принтер чеков</span><span class="sxs-lookup"><span data-stu-id="b4819-943">Receipt printer</span></span>
+    -   <span data-ttu-id="b4819-944">Платежный терминал</span><span class="sxs-lookup"><span data-stu-id="b4819-944">Payment terminal</span></span>
 
-    Если периферийное устройство не принадлежит ни к одной из этих категорий, станция оборудования не рассчитана на обеспечение возможности совместного использования этих периферийных устройств несколькими устройствами POS.
--   В некоторых случаях драйверы устройств могут вызывать неправильную работу компонента common control objects (CCO). Если устройство было недавно установлено, но не работает должным образом или появились другие проблемы, часто можно устранить проблему, переустановив CCO. Для загрузки CCO посетите <http://monroecs.com/oposccos_current.htm>.
--   Если вы часто изменяете периферийные устройства во время тестирования или устранения неполадок, может потребоваться сбросить IIS, чтобы не ждать, пока кэш обновится сам. Чтобы сбросить IIS, выполните следующие действия.
-    1.  В меню **Пуск** введите **CMD**.
-    2.  В результатах поиска щелкните правой кнопкой мыши пункт **Командная строка**, затем щелкните **Запуск от имени администратора**.
-    3.  В окне **Командная строка** введите **iisreset /Restart** и нажмите клавишу ВВОД.
-    4.  После перезапуска IIS перезапустите Modern POS.
--   Когда вы часто вносите изменения в периферийные устройства, если вы также часто запускаете и закрываете клиент POS, процесс dllhost из предыдущего сеанса POS могут мешать текущему сеансу. В этом случае устройство может стать недоступным до закрытия узла библиотеки динамической компоновки (DLL), который управляет предыдущим сеансом. Чтобы закрыть узел DLL, выполните следующие шаги:
-    1.  В меню **Пуск** введите **Диспетчер задач**.
-    2.  В результатах поиска щелкните **Диспетчер задач**.
-    3.  В диспетчере задач на вкладке **Подробности**, щелкните заголовок столбца под названием **Имя**, чтобы сортировать таблицу в алфавитном порядке по имени.
-    4.  Прокрутите вниз, пока не найдете dllhost.exe.
-    5.  Выберите каждый узел библиотеки DLL, затем щелкните **Снять задачу**.
-    6.  После закрытия всех узлов DLL перезапустите Modern POS.
+    <span data-ttu-id="b4819-945">Если периферийное устройство не принадлежит ни к одной из этих категорий, станция оборудования не рассчитана на обеспечение возможности совместного использования этих периферийных устройств несколькими устройствами POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-945">If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</span></span>
+-   <span data-ttu-id="b4819-946">В некоторых случаях драйверы устройств могут вызывать неправильную работу компонента common control objects (CCO).</span><span class="sxs-lookup"><span data-stu-id="b4819-946">Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</span></span> <span data-ttu-id="b4819-947">Если устройство было недавно установлено, но не работает должным образом или появились другие проблемы, часто можно устранить проблему, переустановив CCO.</span><span class="sxs-lookup"><span data-stu-id="b4819-947">If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</span></span> <span data-ttu-id="b4819-948">Для загрузки CCO посетите <http://monroecs.com/oposccos_current.htm>.</span><span class="sxs-lookup"><span data-stu-id="b4819-948">To download the CCOs, visit <http://monroecs.com/oposccos_current.htm>.</span></span>
+-   <span data-ttu-id="b4819-949">Если вы часто изменяете периферийные устройства во время тестирования или устранения неполадок, может потребоваться сбросить IIS, чтобы не ждать, пока кэш обновится сам.</span><span class="sxs-lookup"><span data-stu-id="b4819-949">If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</span></span> <span data-ttu-id="b4819-950">Чтобы сбросить IIS, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="b4819-950">To reset IIS, follow these steps:</span></span>
+    1.  <span data-ttu-id="b4819-951">В меню **Пуск** введите **CMD**.</span><span class="sxs-lookup"><span data-stu-id="b4819-951">From the **Start** menu, type **CMD**.</span></span>
+    2.  <span data-ttu-id="b4819-952">В результатах поиска щелкните правой кнопкой мыши пункт **Командная строка**, затем щелкните **Запуск от имени администратора**.</span><span class="sxs-lookup"><span data-stu-id="b4819-952">In the search results, right-click **Command prompt**, and then click **Run as administrator**.</span></span>
+    3.  <span data-ttu-id="b4819-953">В окне **Командная строка** введите **iisreset /Restart** и нажмите клавишу ВВОД.</span><span class="sxs-lookup"><span data-stu-id="b4819-953">In the **Command prompt** window, type **iisreset /Restart** and then press Enter.</span></span>
+    4.  <span data-ttu-id="b4819-954">После перезапуска IIS перезапустите Modern POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-954">After IIS has restarted, restart Modern POS.</span></span>
+-   <span data-ttu-id="b4819-955">Когда вы часто вносите изменения в периферийные устройства, если вы также часто запускаете и закрываете клиент POS, процесс dllhost из предыдущего сеанса POS могут мешать текущему сеансу.</span><span class="sxs-lookup"><span data-stu-id="b4819-955">While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</span></span> <span data-ttu-id="b4819-956">В этом случае устройство может стать недоступным до закрытия узла библиотеки динамической компоновки (DLL), который управляет предыдущим сеансом.</span><span class="sxs-lookup"><span data-stu-id="b4819-956">In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</span></span> <span data-ttu-id="b4819-957">Чтобы закрыть узел DLL, выполните следующие шаги:</span><span class="sxs-lookup"><span data-stu-id="b4819-957">To close the DLL host, follow these steps:</span></span>
+    1.  <span data-ttu-id="b4819-958">В меню **Пуск** введите **Диспетчер задач**.</span><span class="sxs-lookup"><span data-stu-id="b4819-958">From the **Start** menu, type **Task manager**.</span></span>
+    2.  <span data-ttu-id="b4819-959">В результатах поиска щелкните **Диспетчер задач**.</span><span class="sxs-lookup"><span data-stu-id="b4819-959">In the search results, click **Task manager**.</span></span>
+    3.  <span data-ttu-id="b4819-960">В диспетчере задач на вкладке **Подробности**, щелкните заголовок столбца под названием **Имя**, чтобы сортировать таблицу в алфавитном порядке по имени.</span><span class="sxs-lookup"><span data-stu-id="b4819-960">In Task manager, on the **Details** tab, click the column header that is labeled **Name** to sort the table alphabetically by name.</span></span>
+    4.  <span data-ttu-id="b4819-961">Прокрутите вниз, пока не найдете dllhost.exe.</span><span class="sxs-lookup"><span data-stu-id="b4819-961">Scroll down until you find dllhost.exe.</span></span>
+    5.  <span data-ttu-id="b4819-962">Выберите каждый узел библиотеки DLL, затем щелкните **Снять задачу**.</span><span class="sxs-lookup"><span data-stu-id="b4819-962">Select each DLL host, and then click **End task**.</span></span>
+    6.  <span data-ttu-id="b4819-963">После закрытия всех узлов DLL перезапустите Modern POS.</span><span class="sxs-lookup"><span data-stu-id="b4819-963">After the DLL hosts have been closed, restart Modern POS.</span></span>
 
 
-<a name="see-also"></a>См. также
+<a name="see-also"></a><span data-ttu-id="b4819-964">См. также</span><span class="sxs-lookup"><span data-stu-id="b4819-964">See also</span></span>
 --------
 
-[Симулятор периферийных устройств для розничной торговли](dev-itpro/retail-peripheral-simulator.md)
+[<span data-ttu-id="b4819-965">Симулятор периферийных устройств для розничной торговли</span><span class="sxs-lookup"><span data-stu-id="b4819-965">Retail peripheral simulator</span></span>](dev-itpro/retail-peripheral-simulator.md)
 
 
 

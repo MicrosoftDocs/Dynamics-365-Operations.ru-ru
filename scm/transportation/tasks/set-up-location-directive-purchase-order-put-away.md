@@ -17,81 +17,81 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 4c2456fffd9a010728154749b35c58db13f142bb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 45e1e54c807597d4d5ff7370748012cbf28c1c6b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Настройка директивы местонахождения для размещения заказа на покупку
+# <a name="set-up-a-location-directive-for-purchase-order-put-away"></a><span data-ttu-id="f7fb5-103">Настройка директивы местонахождения для размещения заказа на покупку</span><span class="sxs-lookup"><span data-stu-id="f7fb5-103">Set up a location directive for purchase order put-away</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-В этой процедуре показано, как настроить простую директиву места хранения. В этом примере создается директива места хранения, которая используется для определения того, куда поместить номенклатуры, полученные для заказа на продажу. Вы можете воспроизвести это руководство с указанными здесь данными, используя компанию с демонстрационными данными USMF. Предварительные условия: необходимо создать код метода обработки. В этой процедуре используется код метода обработки, который называется "Relabel" (переклейка этикеток). Если вы создаете директиву места хранения в своих собственных данных, необходимо настроить комплексные функции управления складом для вашего склада и номенклатур.  Эта процедура предназначена для менеджера склада.
+<span data-ttu-id="f7fb5-104">В этой процедуре показано, как настроить простую директиву места хранения.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-104">This procedure shows you how to set up a simple location directive.</span></span> <span data-ttu-id="f7fb5-105">В этом примере создается директива места хранения, которая используется для определения того, куда поместить номенклатуры, полученные для заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-105">The example that’s shown creates a location directive to be used to determine where to put items that have been received for a purchase order.</span></span> <span data-ttu-id="f7fb5-106">Вы можете воспроизвести это руководство с указанными здесь данными, используя компанию с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-106">You can play this task guide with the data mentioned using demo data company USMF.</span></span> <span data-ttu-id="f7fb5-107">Предварительные условия: необходимо создать код метода обработки.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-107">Pre-conditions: You need to create a disposition code.</span></span> <span data-ttu-id="f7fb5-108">В этой процедуре используется код метода обработки, который называется "Relabel" (переклейка этикеток).</span><span class="sxs-lookup"><span data-stu-id="f7fb5-108">In this procedure we use a disposition code called Relabel.</span></span> <span data-ttu-id="f7fb5-109">Если вы создаете директиву места хранения в своих собственных данных, необходимо настроить комплексные функции управления складом для вашего склада и номенклатур.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-109">If you’re creating a location directive in your own data, you need to have set up advanced warehouse management for your warehouse and items.</span></span>  <span data-ttu-id="f7fb5-110">Эта процедура предназначена для менеджера склада.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-110">This procedure is intended for the warehouse manager.</span></span>
 
-1. Перейдите в раздел "Управление складом" > "Настройка" > "Директивы местонахождений".
-2. В поле "Тип заказа на выполнение работ" выберите "Заказ на покупку".
+1. <span data-ttu-id="f7fb5-111">Перейдите в раздел "Управление складом" > "Настройка" > "Директивы местонахождений".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-111">Go to Warehouse management > Setup > Location directives.</span></span>
+2. <span data-ttu-id="f7fb5-112">В поле "Тип заказа на выполнение работ" выберите "Заказ на покупку".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-112">In the Work order type field, select 'Purchase orders'.</span></span>
 
-## <a name="create-a-location-directive-header"></a>Создание заголовка директивы места хранения
-1. Щелкните "Создать".
-2. В поле "Порядковый номер" введите число.
-    * Это последовательность, в которой обрабатывается директива места хранения для выбранного типа работы. При необходимости последовательность можно изменить.  
-3. В поле "Имя" введите значение.
-    * Это уникальный идентификатор для данной директивы.  
-4. В поле "Тип работы" выберите "Поместить".
-    * Выберите тип работы для выполнения. Для директивы с типом заказа на выполнение работ "Заказ на покупку" "Поместить" — единственное поддерживаемое значение.  
-5. В поле "Сайт" введите значение.
-6. В поле "Склад" введите значение.
-    * Оставьте код директивы пустым.  Коды директив используются для связывания строки заказа на выполнение работ типа "Поместить" с конкретной директивой. Для заказов на покупку местонахождение последней строки заказа на выполнение работ типа "Поместить" разрешается до определения шаблона работы. Поэтому связать последнюю строку шаблона работы с конкретной директивой невозможно.   
-7. В поле "Код метода обработки" введите значение.
-    * Код метода обработки ограничивает использование директив места хранения, поэтому директива места хранения используется только в случае, если работник склада вводит это конкретное значение при регистрации номенклатуры с помощью мобильного устройства.  
-8. Нажмите кнопку "Сохранить".
+## <a name="create-a-location-directive-header"></a><span data-ttu-id="f7fb5-113">Создание заголовка директивы места хранения</span><span class="sxs-lookup"><span data-stu-id="f7fb5-113">Create a location directive header</span></span>
+1. <span data-ttu-id="f7fb5-114">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-114">Click New.</span></span>
+2. <span data-ttu-id="f7fb5-115">В поле "Порядковый номер" введите число.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-115">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="f7fb5-116">Это последовательность, в которой обрабатывается директива места хранения для выбранного типа работы.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-116">This is the sequence in which the location directive is processed for the selected work type.</span></span> <span data-ttu-id="f7fb5-117">При необходимости последовательность можно изменить.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-117">You can also modify the sequence, if needed.</span></span>  
+3. <span data-ttu-id="f7fb5-118">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-118">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="f7fb5-119">Это уникальный идентификатор для данной директивы.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-119">This is the unique identifier for this directive.</span></span>  
+4. <span data-ttu-id="f7fb5-120">В поле "Тип работы" выберите "Поместить".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-120">In the Work type field, select 'Put'.</span></span>
+    * <span data-ttu-id="f7fb5-121">Выберите тип работы для выполнения.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-121">Select the type of work to be performed.</span></span> <span data-ttu-id="f7fb5-122">Для директивы с типом заказа на выполнение работ "Заказ на покупку" "Поместить" — единственное поддерживаемое значение.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-122">For directive with work order type Purchase order, Put is the only supported value.</span></span>  
+5. <span data-ttu-id="f7fb5-123">В поле "Сайт" введите значение.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-123">In the Site field, type a value.</span></span>
+6. <span data-ttu-id="f7fb5-124">В поле "Склад" введите значение.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-124">In the Warehouse field, type a value.</span></span>
+    * <span data-ttu-id="f7fb5-125">Оставьте код директивы пустым.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-125">Leave the Directive code blank.</span></span>  <span data-ttu-id="f7fb5-126">Коды директив используются для связывания строки заказа на выполнение работ типа "Поместить" с конкретной директивой.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-126">Directive codes are used to link a work order line of type Put to a specific directive.</span></span> <span data-ttu-id="f7fb5-127">Для заказов на покупку местонахождение последней строки заказа на выполнение работ типа "Поместить" разрешается до определения шаблона работы.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-127">For purchase orders, the location of the last work order line of type Put is resolved before the work template is determined.</span></span> <span data-ttu-id="f7fb5-128">Поэтому связать последнюю строку шаблона работы с конкретной директивой невозможно.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-128">Therefore it is not possible to connect the last line of a work template to a specific directive.</span></span>   
+7. <span data-ttu-id="f7fb5-129">В поле "Код метода обработки" введите значение.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-129">In the Disposition code field, type a value.</span></span>
+    * <span data-ttu-id="f7fb5-130">Код метода обработки ограничивает использование директив места хранения, поэтому директива места хранения используется только в случае, если работник склада вводит это конкретное значение при регистрации номенклатуры с помощью мобильного устройства.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-130">The Disposition code limits the use of the location directive, so the location directive is only used if the warehouse worker enters this specific value during registration of the item using a mobile device.</span></span>  
+8. <span data-ttu-id="f7fb5-131">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-131">Click Save.</span></span>
 
-## <a name="edit-the-query-for-directive"></a>Редактирование запроса для директивы
-1. Щелкните "Изменить запрос".
-    * Использование этой директивы уже ограничено номенклатурами, зарегистрированными на указанном складе и с указанным кодом метода обработки. Можно добавить другие ограничения с помощью запроса.  
-2. Нажмите кнопку "OК".
+## <a name="edit-the-query-for-directive"></a><span data-ttu-id="f7fb5-132">Редактирование запроса для директивы</span><span class="sxs-lookup"><span data-stu-id="f7fb5-132">Edit the query for directive</span></span>
+1. <span data-ttu-id="f7fb5-133">Щелкните "Изменить запрос".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-133">Click Edit query.</span></span>
+    * <span data-ttu-id="f7fb5-134">Использование этой директивы уже ограничено номенклатурами, зарегистрированными на указанном складе и с указанным кодом метода обработки.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-134">The use of this directive is already limited to be used for items registered in the warehouse that you specified, and with the disposition code that you specified.</span></span> <span data-ttu-id="f7fb5-135">Можно добавить другие ограничения с помощью запроса.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-135">You can add other constraints using the query.</span></span>  
+2. <span data-ttu-id="f7fb5-136">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-136">Click OK.</span></span>
 
-## <a name="add-directive-lines"></a>Добавление строк директивы
-1. Щелкните "Создать".
-    * Это последовательность, в которой обрабатываются строки директивы места хранения для выбранного типа работы. При необходимости последовательность можно изменить.  
-2. В поле "Количество "От"" введите число.
-    * Это минимальное количество, для которого действительна эта строка директивы.  
-3. В поле "Количество "До"" введите число.
-4. В поле "Единица измерения" введите значение.
-    * Единица измерения, в которое выражены количество "От" и количество "До". Если поле оставлено пустым, используется единица измерения складского учета номенклатуры.  
-5. В поле "Найти количество" выберите один из вариантов.
-    * "Нет" или "Количество по грузоместу": количество, зарегистрированное в каждом грузоместе. "Классифицированное в единицах количество": все зарегистрированное количество. "Оставшееся количество": количество, которое еще предстоит зарегистрировать из строки заказа на покупку. "Ожидаемое количество": общее количество, указанное в строке заказа на покупку.  
-6. Установите или снимите флажок "Ограничить по единице".
-    * При выборе этого варианта и указании единицы на странице "Ограничить по единице" размещать в этом местонахождении можно будет только номенклатуры с этой единицей измерения. Например, если единицей измерения является палета, в указанном местонахождении можно размещать только номенклатуры в палетах.  
-7. Установите или снимите флажок "Разрешить разделение".
-    * Это позволяет директиве разделить количество на несколько местонахождений.  
-8. Нажмите кнопку "Сохранить".
+## <a name="add-directive-lines"></a><span data-ttu-id="f7fb5-137">Добавление строк директивы</span><span class="sxs-lookup"><span data-stu-id="f7fb5-137">Add directive lines</span></span>
+1. <span data-ttu-id="f7fb5-138">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-138">Click New.</span></span>
+    * <span data-ttu-id="f7fb5-139">Это последовательность, в которой обрабатываются строки директивы места хранения для выбранного типа работы.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-139">This is the sequence in which the location directive lines are processed for the selected work type.</span></span> <span data-ttu-id="f7fb5-140">При необходимости последовательность можно изменить.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-140">You can also modify the sequence, if needed.</span></span>  
+2. <span data-ttu-id="f7fb5-141">В поле "Количество "От"" введите число.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-141">In the From quantity field, enter a number.</span></span>
+    * <span data-ttu-id="f7fb5-142">Это минимальное количество, для которого действительна эта строка директивы.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-142">This is the lowest quantity that this directive line is valid for.</span></span>  
+3. <span data-ttu-id="f7fb5-143">В поле "Количество "До"" введите число.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-143">In the To quantity field, enter a number.</span></span>
+4. <span data-ttu-id="f7fb5-144">В поле "Единица измерения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-144">In the Unit field, type a value.</span></span>
+    * <span data-ttu-id="f7fb5-145">Единица измерения, в которое выражены количество "От" и количество "До".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-145">The unit the From quantity and To quantity is expressed in.</span></span> <span data-ttu-id="f7fb5-146">Если поле оставлено пустым, используется единица измерения складского учета номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-146">If you leave this field blank the inventory unit from the item is used.</span></span>  
+5. <span data-ttu-id="f7fb5-147">В поле "Найти количество" выберите один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-147">In the Locate quantity field, select an option.</span></span>
+    * <span data-ttu-id="f7fb5-148">"Нет" или "Количество по грузоместу": количество, зарегистрированное в каждом грузоместе.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-148">None, or licence plate quantity: The quantity registered on each licence plate.</span></span> <span data-ttu-id="f7fb5-149">"Классифицированное в единицах количество": все зарегистрированное количество.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-149">Unitized quantity: The entire quantity that’s been registered.</span></span> <span data-ttu-id="f7fb5-150">"Оставшееся количество": количество, которое еще предстоит зарегистрировать из строки заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-150">Remaining quantity: The quantity that is yet to be registered from the purchase order line.</span></span> <span data-ttu-id="f7fb5-151">"Ожидаемое количество": общее количество, указанное в строке заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-151">Expected quantity: The total quantity that is specified on the purchase order line.</span></span>  
+6. <span data-ttu-id="f7fb5-152">Установите или снимите флажок "Ограничить по единице".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-152">Check or uncheck the Restrict by unit checkbox.</span></span>
+    * <span data-ttu-id="f7fb5-153">При выборе этого варианта и указании единицы на странице "Ограничить по единице" размещать в этом местонахождении можно будет только номенклатуры с этой единицей измерения.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-153">If you select this option, and specify the unit on the Restrict by unit page, only items with that unit of measurement can be put into the location.</span></span> <span data-ttu-id="f7fb5-154">Например, если единицей измерения является палета, в указанном местонахождении можно размещать только номенклатуры в палетах.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-154">For example, if the unit of measurement is PL (pallets), only items in pallets can be put into the specified location.</span></span>  
+7. <span data-ttu-id="f7fb5-155">Установите или снимите флажок "Разрешить разделение".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-155">Check or uncheck the Allow split checkbox.</span></span>
+    * <span data-ttu-id="f7fb5-156">Это позволяет директиве разделить количество на несколько местонахождений.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-156">This allows the directive to split the quantity across multiple locations.</span></span>  
+8. <span data-ttu-id="f7fb5-157">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-157">Click Save.</span></span>
 
-## <a name="restrict-the-directive-line-to-a-specific-unit"></a>Ограничение строки директивы определенной единицей измерения
-1. Щелкните "Ограничить по единице".
-    * Эта кнопка доступна только при нажатии кнопки "Сохранить" после установки флажка "Ограничить по единице".  
-2. В поле "Единица измерения" введите значение.
-3. Закройте страницу.
+## <a name="restrict-the-directive-line-to-a-specific-unit"></a><span data-ttu-id="f7fb5-158">Ограничение строки директивы определенной единицей измерения</span><span class="sxs-lookup"><span data-stu-id="f7fb5-158">Restrict the directive line to a specific unit</span></span>
+1. <span data-ttu-id="f7fb5-159">Щелкните "Ограничить по единице".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-159">Click Restrict by unit.</span></span>
+    * <span data-ttu-id="f7fb5-160">Эта кнопка доступна только при нажатии кнопки "Сохранить" после установки флажка "Ограничить по единице".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-160">This button is only available when you press Save after you have selected the Restrict by unit check box.</span></span>  
+2. <span data-ttu-id="f7fb5-161">В поле "Единица измерения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-161">In the Unit field, type a value.</span></span>
+3. <span data-ttu-id="f7fb5-162">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-162">Close the page.</span></span>
 
-## <a name="add-a-location-directive-action-line"></a>Добавление строки действия директивы места хранения
-1. Щелкните "Создать".
-    * Это последовательность, в которой обрабатываются строки действий директивы места хранения для выбранного типа работы. При необходимости последовательность можно изменить.  
-2. В поле "Имя" введите значение.
-    * Это уникальный идентификатор для данного действия директивы.  
-3. В поле "Использование фиксированного местонахождения" выберите один из вариантов.
-    * "Фиксированные и нефиксированные местонахождения": допустимы все нефиксированные местонахождения, а также собственное фиксированное местонахождение продукта, в пределах диапазона, заданного в запросе.  "Только фиксированные местонахождения для продукта": допустимы фиксированные местонахождения для продукта, и для всех вариантов продукта используется один и тот же набор фиксированных местонахождений. "Только фиксированные местонахождения для варианта продукта": допустимы только фиксированные местонахождения, указанные для каждого варианта продукта.  
-4. В поле "Стратегия" выберите один из вариантов.
-    * Заказы на выполнение работ типа "Заказ на покупку" поддерживают следующие стратегии. "Нет": номенклатура помещается в первое найденное местонахождение. "Консолидировать": номенклатура помещается в местонахождение, где уже есть аналогичные номенклатуры. "Пустое местонахождение без входящих работ": номенклатура перемещается в первое пустое найденное местонахождение. Местонахождение считается пустым, если в нем нет физических запасов и ожидаемой входящей работы.  
-5. Нажмите кнопку "Сохранить".
+## <a name="add-a-location-directive-action-line"></a><span data-ttu-id="f7fb5-163">Добавление строки действия директивы места хранения</span><span class="sxs-lookup"><span data-stu-id="f7fb5-163">Add a location directive action line</span></span>
+1. <span data-ttu-id="f7fb5-164">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-164">Click New.</span></span>
+    * <span data-ttu-id="f7fb5-165">Это последовательность, в которой обрабатываются строки действий директивы места хранения для выбранного типа работы.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-165">This is the sequence in which the location directive action lines are processed for the selected work type.</span></span> <span data-ttu-id="f7fb5-166">При необходимости последовательность можно изменить.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-166">You can also modify the sequence, if needed.</span></span>  
+2. <span data-ttu-id="f7fb5-167">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-167">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="f7fb5-168">Это уникальный идентификатор для данного действия директивы.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-168">This is the unique identifier for this directive action.</span></span>  
+3. <span data-ttu-id="f7fb5-169">В поле "Использование фиксированного местонахождения" выберите один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-169">In the Fixed location usage field, select an option.</span></span>
+    * <span data-ttu-id="f7fb5-170">"Фиксированные и нефиксированные местонахождения": допустимы все нефиксированные местонахождения, а также собственное фиксированное местонахождение продукта, в пределах диапазона, заданного в запросе.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-170">Fixed and non-fixed locations: All non-fixed locations are valid as well as the product’s own fixed location, within the range specified in the query.</span></span>  <span data-ttu-id="f7fb5-171">"Только фиксированные местонахождения для продукта": допустимы фиксированные местонахождения для продукта, и для всех вариантов продукта используется один и тот же набор фиксированных местонахождений.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-171">Only fixed location for the product: Fixed locations for the product are valid, and all product variants share the same set of fixed locations.</span></span> <span data-ttu-id="f7fb5-172">"Только фиксированные местонахождения для варианта продукта": допустимы только фиксированные местонахождения, указанные для каждого варианта продукта.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-172">Only fixed location for the product variants: Only fixed locations specified for each product variant are valid.</span></span>  
+4. <span data-ttu-id="f7fb5-173">В поле "Стратегия" выберите один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-173">In the Strategy field, select an option.</span></span>
+    * <span data-ttu-id="f7fb5-174">Заказы на выполнение работ типа "Заказ на покупку" поддерживают следующие стратегии. "Нет": номенклатура помещается в первое найденное местонахождение.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-174">Work orders of type Purchase order support the following strategies: None: the item is placed at the first location that’s found.</span></span> <span data-ttu-id="f7fb5-175">"Консолидировать": номенклатура помещается в местонахождение, где уже есть аналогичные номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-175">Consolidate: The item is placed in a location where similar items are already available.</span></span> <span data-ttu-id="f7fb5-176">"Пустое местонахождение без входящих работ": номенклатура перемещается в первое пустое найденное местонахождение.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-176">Empty location with no incoming work: the item is placed in the first empty location that’s found.</span></span> <span data-ttu-id="f7fb5-177">Местонахождение считается пустым, если в нем нет физических запасов и ожидаемой входящей работы.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-177">A location is considered to be empty if it has no physical inventory and no expected incoming work.</span></span>  
+5. <span data-ttu-id="f7fb5-178">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-178">Click Save.</span></span>
 
-## <a name="edit-the-query-for-directive-action-line"></a>Редактирование запроса для строки действия директивы
-1. Щелкните "Изменить запрос".
-2. Нажмите кнопку Добавить.
-3. В поле "Поле" введите "код профиля местонахождения".
-    * В этом примере мы ограничим возможные местонахождения, используя код профиля местонахождения.  
-4. В поле "Критерии" введите значение.
-5. Нажмите кнопку "OК".
-    * Можно продолжать добавлять строки директивы и действия директивы, пока не будут охвачены все возможные сценарии на вашем складе.  
+## <a name="edit-the-query-for-directive-action-line"></a><span data-ttu-id="f7fb5-179">Редактирование запроса для строки действия директивы</span><span class="sxs-lookup"><span data-stu-id="f7fb5-179">Edit the query for directive action line</span></span>
+1. <span data-ttu-id="f7fb5-180">Щелкните "Изменить запрос".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-180">Click Edit query.</span></span>
+2. <span data-ttu-id="f7fb5-181">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-181">Click Add.</span></span>
+3. <span data-ttu-id="f7fb5-182">В поле "Поле" введите "код профиля местонахождения".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-182">In the Field field, type 'location profile ID'.</span></span>
+    * <span data-ttu-id="f7fb5-183">В этом примере мы ограничим возможные местонахождения, используя код профиля местонахождения.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-183">In this example, we’ll restrict the possible locations using a location profile ID.</span></span>  
+4. <span data-ttu-id="f7fb5-184">В поле "Критерии" введите значение.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-184">In the Criteria field, type a value.</span></span>
+5. <span data-ttu-id="f7fb5-185">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="f7fb5-185">Click OK.</span></span>
+    * <span data-ttu-id="f7fb5-186">Можно продолжать добавлять строки директивы и действия директивы, пока не будут охвачены все возможные сценарии на вашем складе.</span><span class="sxs-lookup"><span data-stu-id="f7fb5-186">You can continue to add directive lines and directive actions until you have covered all the possible scenarios in your warehouse.</span></span>  
 
 

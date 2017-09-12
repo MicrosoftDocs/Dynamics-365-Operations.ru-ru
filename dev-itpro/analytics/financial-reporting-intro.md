@@ -15,79 +15,79 @@ ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: de8167eeea1f4a4db764a7f6398533ec3b9f4306
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="financial-reporting-for-finance-and-operations"></a>Финансовая отчетность for Finance and Operations
+# <a name="financial-reporting-for-finance-and-operations"></a><span data-ttu-id="72648-104">Финансовая отчетность for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="72648-104">Financial reporting for Finance and Operations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Финансовая отчетность для Finance and Operations позволяет профессионалам в сфере финансов и бизнеса создавать, вести, развертывать и просматривать финансовые отчеты. Она выходит за пределы традиционных ограничений отчетности для эффективной разработки различных типов отчетов.
+<span data-ttu-id="72648-105">Финансовая отчетность для Finance and Operations позволяет профессионалам в сфере финансов и бизнеса создавать, вести, развертывать и просматривать финансовые отчеты.</span><span class="sxs-lookup"><span data-stu-id="72648-105">Financial reporting for Finance and Operations allows financial and business professionals to create, maintain, deploy, and view financial statements.</span></span> <span data-ttu-id="72648-106">Она выходит за пределы традиционных ограничений отчетности для эффективной разработки различных типов отчетов.</span><span class="sxs-lookup"><span data-stu-id="72648-106">It moves beyond traditional reporting constraints to help you efficiently design various types of reports.</span></span>
 
-Финансовая отчетность включает поддержку аналитик. Таким образом, сегменты или аналитики счетов доступны незамедлительно. Не требуются дополнительные средства или шаги настройки.
+<span data-ttu-id="72648-107">Финансовая отчетность включает поддержку аналитик.</span><span class="sxs-lookup"><span data-stu-id="72648-107">Financial reporting includes dimension support.</span></span> <span data-ttu-id="72648-108">Таким образом, сегменты или аналитики счетов доступны незамедлительно.</span><span class="sxs-lookup"><span data-stu-id="72648-108">Therefore, account segments or dimensions are immediately available.</span></span> <span data-ttu-id="72648-109">Не требуются дополнительные средства или шаги настройки.</span><span class="sxs-lookup"><span data-stu-id="72648-109">No additional tools or configuration steps are required.</span></span>
 
-## <a name="financial-reporting-components"></a>Компоненты финансовой отчетности
-Следующие компоненты финансовой отчетности упрощают создание, просмотр и планирование отчетов.
+## <a name="financial-reporting-components"></a><span data-ttu-id="72648-110">Компоненты финансовой отчетности</span><span class="sxs-lookup"><span data-stu-id="72648-110">Financial reporting components</span></span>
+<span data-ttu-id="72648-111">Следующие компоненты финансовой отчетности упрощают создание, просмотр и планирование отчетов.</span><span class="sxs-lookup"><span data-stu-id="72648-111">The following components of financial reporting make it easy to create, view, and schedule reports.</span></span>
 
-| Компонент        | Функции                                                                                                                                                                                                                                                                           | Дополнительная информация                                                                          |
+| <span data-ttu-id="72648-112">Компонент</span><span class="sxs-lookup"><span data-stu-id="72648-112">Component</span></span>        | <span data-ttu-id="72648-113">Функции</span><span class="sxs-lookup"><span data-stu-id="72648-113">Functions</span></span>                                                                                                                                                                                                                                                                           | <span data-ttu-id="72648-114">Дополнительная информация</span><span class="sxs-lookup"><span data-stu-id="72648-114">Additional information</span></span>                                                                          |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Конструктор отчетов  | Создавайте строительные блоки отчета, которые можно сочетать для определения и создания отчета. Мастер отчетов помогает менее опытным пользователям в процессе конструирования. Опытные пользователи могут создать новые строительные блоки отчета или изменить существующие строительные блоки для того, чтобы они отвечали их требованиям. |                                                                                                 |
-| Графики отчетов | Запланируйте один отчет или группу отчетов таким образом, чтобы они создавались на регулярной основе.                                                                                                                                                                                          | [Создание финансового отчета](generate-financial-report.md) |
+| <span data-ttu-id="72648-115">Конструктор отчетов</span><span class="sxs-lookup"><span data-stu-id="72648-115">Report Designer</span></span>  | <span data-ttu-id="72648-116">Создавайте строительные блоки отчета, которые можно сочетать для определения и создания отчета.</span><span class="sxs-lookup"><span data-stu-id="72648-116">Create report building blocks that can be combined to define and generate a report.</span></span> <span data-ttu-id="72648-117">Мастер отчетов помогает менее опытным пользователям в процессе конструирования.</span><span class="sxs-lookup"><span data-stu-id="72648-117">The report wizard guides less experienced users through the design process.</span></span> <span data-ttu-id="72648-118">Опытные пользователи могут создать новые строительные блоки отчета или изменить существующие строительные блоки для того, чтобы они отвечали их требованиям.</span><span class="sxs-lookup"><span data-stu-id="72648-118">Advanced users can create new report building blocks or modify existing building blocks to meet their requirements.</span></span> |                                                                                                 |
+| <span data-ttu-id="72648-119">Графики отчетов</span><span class="sxs-lookup"><span data-stu-id="72648-119">Report schedules</span></span> | <span data-ttu-id="72648-120">Запланируйте один отчет или группу отчетов таким образом, чтобы они создавались на регулярной основе.</span><span class="sxs-lookup"><span data-stu-id="72648-120">Schedule a single report or a group of reports so that it is generated on a regular basis.</span></span>                                                                                                                                                                                          | [<span data-ttu-id="72648-121">Создание финансового отчета</span><span class="sxs-lookup"><span data-stu-id="72648-121">Generate a financial report</span></span>](generate-financial-report.md) |
 
-## <a name="features"></a>Функциональность
+## <a name="features"></a><span data-ttu-id="72648-122">Функциональность</span><span class="sxs-lookup"><span data-stu-id="72648-122">Features</span></span>
 <table>
 <thead>
 <tr class="header">
-<th>Функция</th>
-<th>описание</th>
+<th><span data-ttu-id="72648-123">Функция</span><span class="sxs-lookup"><span data-stu-id="72648-123">Feature</span></span></th>
+<th><span data-ttu-id="72648-124">описание</span><span class="sxs-lookup"><span data-stu-id="72648-124">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Гибкость конструирования отчетов</td>
-<td>В конструкторе отчетов доступны следующие параметры отчетности при создании отчета:
+<td><span data-ttu-id="72648-125">Гибкость конструирования отчетов</span><span class="sxs-lookup"><span data-stu-id="72648-125">Report design flexibility</span></span></td>
+<td><span data-ttu-id="72648-126">В конструкторе отчетов доступны следующие параметры отчетности при создании отчета:</span><span class="sxs-lookup"><span data-stu-id="72648-126">Report Designer provides the following reporting options when you design a report:</span></span>
 <ul>
-<li>Сохраните комбинации аналитик и используйте аналитики повторно для нескольких отчетов.</li>
-<li>Контролируйте, как описания аналитик форматируются и отображаются.</li>
-<li>Определите счета или аналитики, который были опущены из строительных блоков отчета.</li>
-<li>Форматируйте заголовки для прогнозов свертки.</li>
+<li><span data-ttu-id="72648-127">Сохраните комбинации аналитик и используйте аналитики повторно для нескольких отчетов.</span><span class="sxs-lookup"><span data-stu-id="72648-127">Save dimension combinations, and reuse the dimensions for multiple reports.</span></span></li>
+<li><span data-ttu-id="72648-128">Контролируйте, как описания аналитик форматируются и отображаются.</span><span class="sxs-lookup"><span data-stu-id="72648-128">Control how dimension descriptions are formatted and displayed.</span></span></li>
+<li><span data-ttu-id="72648-129">Определите счета или аналитики, который были опущены из строительных блоков отчета.</span><span class="sxs-lookup"><span data-stu-id="72648-129">Identify accounts or dimensions that have been omitted from report building blocks.</span></span></li>
+<li><span data-ttu-id="72648-130">Форматируйте заголовки для прогнозов свертки.</span><span class="sxs-lookup"><span data-stu-id="72648-130">Format headers for rolling forecasts.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Совместная работа с финансовым отчетом</td>
-<td>Следующие характеристики помогают вам управлять созданием и распределением отчетов:
+<td><span data-ttu-id="72648-131">Совместная работа с финансовым отчетом</span><span class="sxs-lookup"><span data-stu-id="72648-131">Financial report collaboration</span></span></td>
+<td><span data-ttu-id="72648-132">Следующие характеристики помогают вам управлять созданием и распределением отчетов:</span><span class="sxs-lookup"><span data-stu-id="72648-132">The following features help you manage the generation and distribution of reports:</span></span>
 <ul>
-<li>Планирование автоматического создания отчетов на ежедневной, еженедельной, ежемесячной или ежегодной основе.</li>
-<li>Экспорт в доступный только для чтения формат XPS, который обеспечивает лучшую безопасность документа за счет цифровых подписей.</li>
-<li>Экспорт в лист Microsoft Excel.</li>
-<li>Чтобы поделиться отчетами, вы можете создать сообщения электронной почты, которые содержат ссылки на отчеты.</li>
+<li><span data-ttu-id="72648-133">Планирование автоматического создания отчетов на ежедневной, еженедельной, ежемесячной или ежегодной основе.</span><span class="sxs-lookup"><span data-stu-id="72648-133">Schedule reports so that they are automatically generated on a daily, weekly, monthly, or annual basis.</span></span></li>
+<li><span data-ttu-id="72648-134">Экспорт в доступный только для чтения формат XPS, который обеспечивает лучшую безопасность документа за счет цифровых подписей.</span><span class="sxs-lookup"><span data-stu-id="72648-134">Export to the read-only XPS format, which provides better document security through digital signatures.</span></span></li>
+<li><span data-ttu-id="72648-135">Экспорт в лист Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="72648-135">Export to a Microsoft Excel worksheet.</span></span></li>
+<li><span data-ttu-id="72648-136">Чтобы поделиться отчетами, вы можете создать сообщения электронной почты, которые содержат ссылки на отчеты.</span><span class="sxs-lookup"><span data-stu-id="72648-136">To share reports, you can create email messages that contain links to the reports.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Интерактивный просмотр отчета</td>
-<td>Интерактивные функции позволяют выполнять следующие задачи:
+<td><span data-ttu-id="72648-137">Интерактивный просмотр отчета</span><span class="sxs-lookup"><span data-stu-id="72648-137">Interactive report viewing</span></span></td>
+<td><span data-ttu-id="72648-138">Интерактивные функции позволяют выполнять следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="72648-138">Interactive features let you perform the following tasks:</span></span>
 <ul>
-<li>Изменение даты отчета для просматриваемого отчета.</li>
-<li>Изменение валюты просматриваемого отчета.</li>
-<li>Просмотр отчеты в представление сводки или в подробном представлении.</li>
-<li>Добавление фильтров аналитик для ограничения содержимого отчета конкретными аналитиками или комбинациями аналитик.</li>
-<li>Добавление фильтров атрибутов для ограничения содержимого отчета конкретными атрибутами или комбинациями атрибутов.</li>
+<li><span data-ttu-id="72648-139">Изменение даты отчета для просматриваемого отчета.</span><span class="sxs-lookup"><span data-stu-id="72648-139">Change the report date for the report that you're viewing.</span></span></li>
+<li><span data-ttu-id="72648-140">Изменение валюты просматриваемого отчета.</span><span class="sxs-lookup"><span data-stu-id="72648-140">Change the currency of the report that you're viewing.</span></span></li>
+<li><span data-ttu-id="72648-141">Просмотр отчеты в представление сводки или в подробном представлении.</span><span class="sxs-lookup"><span data-stu-id="72648-141">View the report in either a summary view or a detailed view.</span></span></li>
+<li><span data-ttu-id="72648-142">Добавление фильтров аналитик для ограничения содержимого отчета конкретными аналитиками или комбинациями аналитик.</span><span class="sxs-lookup"><span data-stu-id="72648-142">Add dimension filters to limit the report content to a specific dimension or combination of dimensions.</span></span></li>
+<li><span data-ttu-id="72648-143">Добавление фильтров атрибутов для ограничения содержимого отчета конкретными атрибутами или комбинациями атрибутов.</span><span class="sxs-lookup"><span data-stu-id="72648-143">Add attribute filters to limit the report content to a specific attribute or combination of attributes.</span></span></li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
 
-#<a name="see-also"></a>См. также
-[Создание финансового отчета](generate-financial-report.md)
+#<a name="see-also"></a><span data-ttu-id="72648-144">См. также</span><span class="sxs-lookup"><span data-stu-id="72648-144">See also</span></span>
+[<span data-ttu-id="72648-145">Создание финансового отчета</span><span class="sxs-lookup"><span data-stu-id="72648-145">Generate a financial report</span></span>](generate-financial-report.md)
 
 
 

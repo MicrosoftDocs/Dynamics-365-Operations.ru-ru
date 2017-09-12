@@ -17,62 +17,62 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 80f71f4ec5710ab257a45edbaee06d7c0e6a281e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4721ec8437ff7907a417a331bba887847c7e447a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Регистрация номенклатур для расширенных складских процессов с использованием журнала прихода номенклатуры
+# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a><span data-ttu-id="22b4b-103">Регистрация номенклатур для расширенных складских процессов с использованием журнала прихода номенклатуры</span><span class="sxs-lookup"><span data-stu-id="22b4b-103">Register items for an advanced warehousing enabled item using an item arrival journal</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-В этой процедуре показано, как зарегистрировать номенклатуры с помощью журнала прибытия номенклатур при расширенного управления складами. Обычно эту задачу выполняет сотрудник, ответственный за приемку. 
+<span data-ttu-id="22b4b-104">В этой процедуре показано, как зарегистрировать номенклатуры с помощью журнала прибытия номенклатур при расширенного управления складами.</span><span class="sxs-lookup"><span data-stu-id="22b4b-104">This procedure shows you how to register items using the item arrival journal when you are using advanced warehouse management processes.</span></span> <span data-ttu-id="22b4b-105">Обычно эту задачу выполняет сотрудник, ответственный за приемку.</span><span class="sxs-lookup"><span data-stu-id="22b4b-105">This would usually be done by a receiving clerk.</span></span> 
 
-Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные. Необходимо иметь подтвержденный заказ на покупку с открытой строкой заказа на покупку перед началом выполнения этого руководства. Номенклатура в строке должна быть учтена в запасах, в ней не должны использоваться варианты продукта, и она не должна иметь аналитики отслеживания. Кроме того, номенклатура должна быть связана с процессом управления складами, включенной группой аналитик хранения. Склад, который используется, необходимо разрешить для процессов управления складом, а местонахождение, которое используется для поступления, должно управляться номерными знаком. При использовании USMF можно использовать компанию 1001, склад 51 и номенклатуру M9200 для создания своего заказа на покупку. 
+<span data-ttu-id="22b4b-106">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="22b4b-106">You can run this procedure in demo data company USMF, or on your own data.</span></span> <span data-ttu-id="22b4b-107">Необходимо иметь подтвержденный заказ на покупку с открытой строкой заказа на покупку перед началом выполнения этого руководства.</span><span class="sxs-lookup"><span data-stu-id="22b4b-107">You need to have a confirmed purchase order with an open purchase order line before you start this guide.</span></span> <span data-ttu-id="22b4b-108">Номенклатура в строке должна быть учтена в запасах, в ней не должны использоваться варианты продукта, и она не должна иметь аналитики отслеживания.</span><span class="sxs-lookup"><span data-stu-id="22b4b-108">The item on the line must be stocked, and it must not use product variants, and must not have tracking dimensions.</span></span> <span data-ttu-id="22b4b-109">Кроме того, номенклатура должна быть связана с процессом управления складами, включенной группой аналитик хранения.</span><span class="sxs-lookup"><span data-stu-id="22b4b-109">And the item needs to be associated with a warehouse management process enabled storage dimension group.</span></span> <span data-ttu-id="22b4b-110">Склад, который используется, необходимо разрешить для процессов управления складом, а местонахождение, которое используется для поступления, должно управляться номерными знаком.</span><span class="sxs-lookup"><span data-stu-id="22b4b-110">The warehouse that’s used must be enabled for warehouse management processes and the location that you use for receiving must be license plate controlled.</span></span> <span data-ttu-id="22b4b-111">При использовании USMF можно использовать компанию 1001, склад 51 и номенклатуру M9200 для создания своего заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="22b4b-111">If you’re using USMF, you can use company account 1001, Warehouse 51, and item M9200 to create your PO.</span></span> 
 
-Запишите номер созданного заказа на покупку, а также запишите код номенклатуры и сайта, используемых для строки заказа на покупку.
+<span data-ttu-id="22b4b-112">Запишите номер созданного заказа на покупку, а также запишите код номенклатуры и сайта, используемых для строки заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="22b4b-112">Make a note of the number of the purchase order that you create, and also note the item number and the site that you used for your purchase order line.</span></span>
 
 
-## <a name="create-an-item-arrival-journal-header"></a>Создание заголовка журнала прибытия номенклатур
-1. Перейдите к прибытию номенклатуры.
-2. Щелкните "Создать".
-3. В поле "Имя" введите значение.
-    * При использовании USMF можно ввести WHS. При использовании других данных журнал, имя которого выбрано, должен иметь следующие свойства: для параметра "Проверять ячейки комплектации" должно быть задано значение "Нет", для параметра "Управление карантином" должно быть задано значение "Нет".  
-4. В поле "Число" введите значение.
-5. В поле "Сайт" введите значение.
-    * Выберите сайт, используемый для строки заказа на покупку. Это будет значением по умолчанию, который будет по умолчанию применено ко всем строкам журнала. Если вы использовали склад 51 в USMF, выберите сайт 5.  
-6. В поле "Склад" введите значение.
-    * Выберите допустимый склад для сайта, который выбран. Это будет значением по умолчанию, который будет по умолчанию применено ко всем строкам журнала. При использовании значения из примера в USMF выберите 51.  
-7. В поле "Местонахождение" введите значение.
-    * Выберите допустимое местонахождения на складе, который выбран. Местонахождение должно быть связано с профилем местонахождения, которым управляет номерной знак. Это будет значением по умолчанию, который будет по умолчанию применено ко всем строкам журнала. При использовании значения из примера в USMF выберите Bulk-008.  
-8. Щелкните правой кнопкой мыши стрелку вниз в поле номерных знаках, а затем "Просмотр сведений".
-9. Щелкните "Создать".
-10. В поле номерных знаков введите значение.
-    * Запишите значение.  
-11. Нажмите кнопку "Сохранить".
-12. Закройте страницу.
-13. В поле номерных знаков введите значение.
-    * Введите значение только что созданного номерного знака. Это будет значением по умолчанию, который будет по умолчанию применено ко всем строкам журнала.  
-14. Нажмите кнопку "OК".
+## <a name="create-an-item-arrival-journal-header"></a><span data-ttu-id="22b4b-113">Создание заголовка журнала прибытия номенклатур</span><span class="sxs-lookup"><span data-stu-id="22b4b-113">Create an item arrival journal header</span></span>
+1. <span data-ttu-id="22b4b-114">Перейдите к прибытию номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="22b4b-114">Go to Item arrival.</span></span>
+2. <span data-ttu-id="22b4b-115">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="22b4b-115">Click New.</span></span>
+3. <span data-ttu-id="22b4b-116">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="22b4b-116">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="22b4b-117">При использовании USMF можно ввести WHS.</span><span class="sxs-lookup"><span data-stu-id="22b4b-117">If you are using USMF, you can type WHS.</span></span> <span data-ttu-id="22b4b-118">При использовании других данных журнал, имя которого выбрано, должен иметь следующие свойства: для параметра "Проверять ячейки комплектации" должно быть задано значение "Нет", для параметра "Управление карантином" должно быть задано значение "Нет".</span><span class="sxs-lookup"><span data-stu-id="22b4b-118">If you’re using other data, the journal whose name you choose has to have the following properties: Check picking location must be set to No, and Quarantine management must be set to No.</span></span>  
+4. <span data-ttu-id="22b4b-119">В поле "Число" введите значение.</span><span class="sxs-lookup"><span data-stu-id="22b4b-119">In the Number field, type a value.</span></span>
+5. <span data-ttu-id="22b4b-120">В поле "Сайт" введите значение.</span><span class="sxs-lookup"><span data-stu-id="22b4b-120">In the Site field, type a value.</span></span>
+    * <span data-ttu-id="22b4b-121">Выберите сайт, используемый для строки заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="22b4b-121">Select the site that you used for your purchase order line.</span></span> <span data-ttu-id="22b4b-122">Это будет значением по умолчанию, который будет по умолчанию применено ко всем строкам журнала.</span><span class="sxs-lookup"><span data-stu-id="22b4b-122">This will serve as a default value, which will default to all lines in the journal.</span></span> <span data-ttu-id="22b4b-123">Если вы использовали склад 51 в USMF, выберите сайт 5.</span><span class="sxs-lookup"><span data-stu-id="22b4b-123">If you used warehouse 51 in USMF, choose site 5.</span></span>  
+6. <span data-ttu-id="22b4b-124">В поле "Склад" введите значение.</span><span class="sxs-lookup"><span data-stu-id="22b4b-124">In the Warehouse field, type a value.</span></span>
+    * <span data-ttu-id="22b4b-125">Выберите допустимый склад для сайта, который выбран.</span><span class="sxs-lookup"><span data-stu-id="22b4b-125">Select a valid warehouse for the site that you’ve selected.</span></span> <span data-ttu-id="22b4b-126">Это будет значением по умолчанию, который будет по умолчанию применено ко всем строкам журнала.</span><span class="sxs-lookup"><span data-stu-id="22b4b-126">This will serve as a default value, which will default to all lines in the journal.</span></span> <span data-ttu-id="22b4b-127">При использовании значения из примера в USMF выберите 51.</span><span class="sxs-lookup"><span data-stu-id="22b4b-127">If you’re using the example values in USMF, select 51.</span></span>  
+7. <span data-ttu-id="22b4b-128">В поле "Местонахождение" введите значение.</span><span class="sxs-lookup"><span data-stu-id="22b4b-128">In the Location field, type a value.</span></span>
+    * <span data-ttu-id="22b4b-129">Выберите допустимое местонахождения на складе, который выбран.</span><span class="sxs-lookup"><span data-stu-id="22b4b-129">Select a valid location in the warehouse that you’ve selected.</span></span> <span data-ttu-id="22b4b-130">Местонахождение должно быть связано с профилем местонахождения, которым управляет номерной знак.</span><span class="sxs-lookup"><span data-stu-id="22b4b-130">The location has to be associated with a location profile, which is license plate controlled.</span></span> <span data-ttu-id="22b4b-131">Это будет значением по умолчанию, который будет по умолчанию применено ко всем строкам журнала.</span><span class="sxs-lookup"><span data-stu-id="22b4b-131">This will serve as a default value, which will default to all lines in the journal.</span></span> <span data-ttu-id="22b4b-132">При использовании значения из примера в USMF выберите Bulk-008.</span><span class="sxs-lookup"><span data-stu-id="22b4b-132">If you’re using the example values in USMF, select Bulk-008.</span></span>  
+8. <span data-ttu-id="22b4b-133">Щелкните правой кнопкой мыши стрелку вниз в поле номерных знаках, а затем "Просмотр сведений".</span><span class="sxs-lookup"><span data-stu-id="22b4b-133">Right-click on the drop-down arrow in the License plate field and then select View details.</span></span>
+9. <span data-ttu-id="22b4b-134">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="22b4b-134">Click New.</span></span>
+10. <span data-ttu-id="22b4b-135">В поле номерных знаков введите значение.</span><span class="sxs-lookup"><span data-stu-id="22b4b-135">In the License plate field, type a value.</span></span>
+    * <span data-ttu-id="22b4b-136">Запишите значение.</span><span class="sxs-lookup"><span data-stu-id="22b4b-136">Make a note of the value.</span></span>  
+11. <span data-ttu-id="22b4b-137">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="22b4b-137">Click Save.</span></span>
+12. <span data-ttu-id="22b4b-138">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="22b4b-138">Close the page.</span></span>
+13. <span data-ttu-id="22b4b-139">В поле номерных знаков введите значение.</span><span class="sxs-lookup"><span data-stu-id="22b4b-139">In the License plate field, type a value.</span></span>
+    * <span data-ttu-id="22b4b-140">Введите значение только что созданного номерного знака.</span><span class="sxs-lookup"><span data-stu-id="22b4b-140">Enter the value of the license plate that you just created.</span></span> <span data-ttu-id="22b4b-141">Это будет значением по умолчанию, который будет по умолчанию применено ко всем строкам журнала.</span><span class="sxs-lookup"><span data-stu-id="22b4b-141">This will serve as a default value, which will default to all lines in the journal.</span></span>  
+14. <span data-ttu-id="22b4b-142">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="22b4b-142">Click OK.</span></span>
 
-## <a name="add-a-line"></a>Добавление строки
-1. Щелкните "Добавить строку".
-2. В поле "Код номенклатуры" введите значение.
-    * Введите код номенклатуры, использованный в строке заказа на покупку.  
-3. В поле "Количество" введите число.
-    * Введите количество, которое требуется зарегистрировать.  
-    * Поле "Дата" определяет дату, когда количество в наличии этой номенклатуры будет зарегистрировано в запасах.  
-    * Номер лота заполняется системой, если его можно однозначно идентифицировать по указанной информации. В противном случае необходимо добавить его вручную. Это обязательное поле, которое связывает эту регистрацию с конкретной строкой документа-источника.  
+## <a name="add-a-line"></a><span data-ttu-id="22b4b-143">Добавление строки</span><span class="sxs-lookup"><span data-stu-id="22b4b-143">Add a line</span></span>
+1. <span data-ttu-id="22b4b-144">Щелкните "Добавить строку".</span><span class="sxs-lookup"><span data-stu-id="22b4b-144">Click Add line.</span></span>
+2. <span data-ttu-id="22b4b-145">В поле "Код номенклатуры" введите значение.</span><span class="sxs-lookup"><span data-stu-id="22b4b-145">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="22b4b-146">Введите код номенклатуры, использованный в строке заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="22b4b-146">Enter the item number that you used on the purchase order line.</span></span>  
+3. <span data-ttu-id="22b4b-147">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="22b4b-147">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="22b4b-148">Введите количество, которое требуется зарегистрировать.</span><span class="sxs-lookup"><span data-stu-id="22b4b-148">Enter the quantity that you want to register.</span></span>  
+    * <span data-ttu-id="22b4b-149">Поле "Дата" определяет дату, когда количество в наличии этой номенклатуры будет зарегистрировано в запасах.</span><span class="sxs-lookup"><span data-stu-id="22b4b-149">The Date field determines the date on which the on-hand quantity of this item will be registered in the inventory.</span></span>  
+    * <span data-ttu-id="22b4b-150">Номер лота заполняется системой, если его можно однозначно идентифицировать по указанной информации.</span><span class="sxs-lookup"><span data-stu-id="22b4b-150">The lot ID will be populated by the system if it can be uniquely identified from the information provided.</span></span> <span data-ttu-id="22b4b-151">В противном случае необходимо добавить его вручную.</span><span class="sxs-lookup"><span data-stu-id="22b4b-151">Otherwise you will have to add this manually.</span></span> <span data-ttu-id="22b4b-152">Это обязательное поле, которое связывает эту регистрацию с конкретной строкой документа-источника.</span><span class="sxs-lookup"><span data-stu-id="22b4b-152">This is a mandatory field, which links this registration to a specific source document line.</span></span>  
 
-## <a name="complete-the-registration"></a>Завершение регистрации
-1. Щелкните "Проверить".
-    * При этом проверяется, готов ли журнал к разноске. Если проверка завершилась ошибкой, потребуется исправить ошибки, прежде чем можно будет разнести журнал.  
-2. Нажмите кнопку "OК".
-    * После нажатия кнопки "ОК" проверьте сообщение. Должно отобразиться сообщение о том, что журнал в норме.  
-3. Щелкните "Разнести".
-4. Нажмите кнопку "OК".
-    * После нажатия кнопки ОК проверьте строку сообщений. Должно отобразиться сообщение о том, что операция завершена.  
-5. Закройте страницу.
+## <a name="complete-the-registration"></a><span data-ttu-id="22b4b-153">Завершение регистрации</span><span class="sxs-lookup"><span data-stu-id="22b4b-153">Complete the registration</span></span>
+1. <span data-ttu-id="22b4b-154">Щелкните "Проверить".</span><span class="sxs-lookup"><span data-stu-id="22b4b-154">Click Validate.</span></span>
+    * <span data-ttu-id="22b4b-155">При этом проверяется, готов ли журнал к разноске.</span><span class="sxs-lookup"><span data-stu-id="22b4b-155">This checks that the journal is ready to be posted.</span></span> <span data-ttu-id="22b4b-156">Если проверка завершилась ошибкой, потребуется исправить ошибки, прежде чем можно будет разнести журнал.</span><span class="sxs-lookup"><span data-stu-id="22b4b-156">If the validation fails you will need to fix the errors before you can post the journal.</span></span>  
+2. <span data-ttu-id="22b4b-157">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="22b4b-157">Click OK.</span></span>
+    * <span data-ttu-id="22b4b-158">После нажатия кнопки "ОК" проверьте сообщение.</span><span class="sxs-lookup"><span data-stu-id="22b4b-158">After you clicked OK, check the message.</span></span> <span data-ttu-id="22b4b-159">Должно отобразиться сообщение о том, что журнал в норме.</span><span class="sxs-lookup"><span data-stu-id="22b4b-159">There should be a message saying that the journal is OK.</span></span>  
+3. <span data-ttu-id="22b4b-160">Щелкните "Разнести".</span><span class="sxs-lookup"><span data-stu-id="22b4b-160">Click Post.</span></span>
+4. <span data-ttu-id="22b4b-161">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="22b4b-161">Click OK.</span></span>
+    * <span data-ttu-id="22b4b-162">После нажатия кнопки ОК проверьте строку сообщений.</span><span class="sxs-lookup"><span data-stu-id="22b4b-162">After you have clicked OK, check the message bar.</span></span> <span data-ttu-id="22b4b-163">Должно отобразиться сообщение о том, что операция завершена.</span><span class="sxs-lookup"><span data-stu-id="22b4b-163">There should be a message saying that the operation completed.</span></span>  
+5. <span data-ttu-id="22b4b-164">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="22b4b-164">Close the page.</span></span>
 
 

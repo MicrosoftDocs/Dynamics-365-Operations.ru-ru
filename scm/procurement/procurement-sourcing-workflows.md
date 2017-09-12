@@ -19,61 +19,61 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 67bdb8436ff379b0e55cfe1660597e8f93235eeb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 80853a06e599786e2dcaf049ac733c47dfe4d9a5
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="procurement-and-sourcing-workflows"></a>Workflow-процессы модуля "Закупки и источники"
+# <a name="procurement-and-sourcing-workflows"></a><span data-ttu-id="6cfe9-104">Workflow-процессы модуля "Закупки и источники"</span><span class="sxs-lookup"><span data-stu-id="6cfe9-104">Procurement and sourcing workflows</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-В некоторых организациях требуется, чтобы заявки на покупку и заказы на покупку утверждались пользователем, отличным от сотрудника, который ввел проводку. Чтобы настроить процесс утверждения, можно создать workflow-процесс.
+<span data-ttu-id="6cfe9-105">В некоторых организациях требуется, чтобы заявки на покупку и заказы на покупку утверждались пользователем, отличным от сотрудника, который ввел проводку.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-105">Some organizations require that purchase requisitions and purchase orders are approved by a user other than the person who entered the transaction.</span></span> <span data-ttu-id="6cfe9-106">Чтобы настроить процесс утверждения, можно создать workflow-процесс.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-106">To set up an approval process, you can create a workflow.</span></span>
 
-Бизнес-правило представляет бизнес-процесс. Он определяет путь движения документа по системе и указывает, кто должен выполнить ту или иную задачу или утвердить тот или иной документ. Имеется несколько преимуществ использования системы workflow-процессов в организации:
--   **Непротиворечивые процессы** — можно определить процесс утверждения для конкретных документов, таких как заявки на покупку и отчеты по расходам. Использование системы workflow-процессов позволяет обеспечить обработку и утверждение документов непротиворечивым и эффективным образом.
--   **Видимость процессов** — можно отслеживать статус, историю и метрики производительности конкретного экземпляра workflow-процесса. Это позволяет определить, должны ли быть внесены изменения в workflow-процесс для повышения эффективности.
--   **Централизованный список работ** — пользователи могут просматривать централизованный список работ для просмотра задач workflow-процесса и утверждений, в которых они участвуют. Это доступно на странице "Рабочие элементы".
+<span data-ttu-id="6cfe9-107">Бизнес-правило представляет бизнес-процесс.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-107">A workflow represents a business process.</span></span> <span data-ttu-id="6cfe9-108">Он определяет путь движения документа по системе и указывает, кто должен выполнить ту или иную задачу или утвердить тот или иной документ.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-108">It defines how a document flows through the system and indicates who must complete a task or approve a document.</span></span> <span data-ttu-id="6cfe9-109">Имеется несколько преимуществ использования системы workflow-процессов в организации:</span><span class="sxs-lookup"><span data-stu-id="6cfe9-109">There are several benefits of using the workflow system in your organization:</span></span>
+-   <span data-ttu-id="6cfe9-110">**Непротиворечивые процессы** — можно определить процесс утверждения для конкретных документов, таких как заявки на покупку и отчеты по расходам.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-110">**Consistent processes**— You can define the approval process for specific documents, such as purchase requisitions and expense reports.</span></span> <span data-ttu-id="6cfe9-111">Использование системы workflow-процессов позволяет обеспечить обработку и утверждение документов непротиворечивым и эффективным образом.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-111">Using the workflow system helps to ensure that documents are processed and approved in a consistent and efficient manner.</span></span>
+-   <span data-ttu-id="6cfe9-112">**Видимость процессов** — можно отслеживать статус, историю и метрики производительности конкретного экземпляра workflow-процесса.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-112">**Process visibility**— You can track the status, history, and performance metrics of a specific workflow instance.</span></span> <span data-ttu-id="6cfe9-113">Это позволяет определить, должны ли быть внесены изменения в workflow-процесс для повышения эффективности.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-113">This helps you determine whether changes should be made to the workflow to improve efficiency.</span></span>
+-   <span data-ttu-id="6cfe9-114">**Централизованный список работ** — пользователи могут просматривать централизованный список работ для просмотра задач workflow-процесса и утверждений, в которых они участвуют.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-114">**Centralized work list**— Users can view a centralized work list to view the workflow tasks and approvals assigned to them across all workflows they participate in.</span></span> <span data-ttu-id="6cfe9-115">Это доступно на странице "Рабочие элементы".</span><span class="sxs-lookup"><span data-stu-id="6cfe9-115">This is available in the Work items page.</span></span>
 
-## <a name="the-types-of-workflows-that-you-can-create"></a>Типы бизнес-правил, которые можно создавать
-Доступны следующие типы бизнес-правила для Закупок и источников.
+## <a name="the-types-of-workflows-that-you-can-create"></a><span data-ttu-id="6cfe9-116">Типы бизнес-правил, которые можно создавать</span><span class="sxs-lookup"><span data-stu-id="6cfe9-116">The types of workflows that you can create</span></span>
+<span data-ttu-id="6cfe9-117">Доступны следующие типы бизнес-правила для Закупок и источников.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-117">The following workflow types are available for Procurement and sourcing.</span></span>
 
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
-| **Тип**                         | **Тип, который будет использоваться**                                          |
-| Обзор заявок на покупку      | Создание бизнес-правил проверки для заявок на закупку.            |
-| Рассмотрение строки заявки на покупку | Создание бизнес-правил для просмотра строк заявки на закупку.       |
-| Workflow-процесс заказа на покупку          | Проверка и утверждение бизнес-правил для заказов на покупку.     |
-| Workflow-процесс строки заказа на покупку     | Создание бизнес-правила для проверки и утверждения для строк заказа на покупку. |
+| <span data-ttu-id="6cfe9-118">**Тип**</span><span class="sxs-lookup"><span data-stu-id="6cfe9-118">**Type**</span></span>                         | <span data-ttu-id="6cfe9-119">**Тип, который будет использоваться**</span><span class="sxs-lookup"><span data-stu-id="6cfe9-119">**Use this type to**</span></span>                                          |
+| <span data-ttu-id="6cfe9-120">Обзор заявок на покупку</span><span class="sxs-lookup"><span data-stu-id="6cfe9-120">Purchase requisition review</span></span>      | <span data-ttu-id="6cfe9-121">Создание бизнес-правил проверки для заявок на закупку.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-121">Create review workflows for purchase requisitions.</span></span>            |
+| <span data-ttu-id="6cfe9-122">Рассмотрение строки заявки на покупку</span><span class="sxs-lookup"><span data-stu-id="6cfe9-122">Purchase requisition line review</span></span> | <span data-ttu-id="6cfe9-123">Создание бизнес-правил для просмотра строк заявки на закупку.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-123">Create review workflows for purchase requisition lines.</span></span>       |
+| <span data-ttu-id="6cfe9-124">Workflow-процесс заказа на покупку</span><span class="sxs-lookup"><span data-stu-id="6cfe9-124">Purchase order workflow</span></span>          | <span data-ttu-id="6cfe9-125">Проверка и утверждение бизнес-правил для заказов на покупку.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-125">Create review and approval workflows for purchase orders.</span></span>     |
+| <span data-ttu-id="6cfe9-126">Workflow-процесс строки заказа на покупку</span><span class="sxs-lookup"><span data-stu-id="6cfe9-126">Purchase order line workflow</span></span>     | <span data-ttu-id="6cfe9-127">Создание бизнес-правила для проверки и утверждения для строк заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-127">Create review and approve workflows for purchase order lines.</span></span> |
 
-## <a name="creating-a-workflow"></a>Создание workflow-процесса
-Чтобы создать workflow-процесс, перейдите к пункту "Закупки и источники" &gt; "Настройка" &gt; "Workflow-процессы модуля "Закупки и источники" и создайте новый workflow-процесс, выбрав тип создаваемого workflow-процесса.  
+## <a name="creating-a-workflow"></a><span data-ttu-id="6cfe9-128">Создание workflow-процесса</span><span class="sxs-lookup"><span data-stu-id="6cfe9-128">Creating a workflow</span></span>
+<span data-ttu-id="6cfe9-129">Чтобы создать workflow-процесс, перейдите к пункту "Закупки и источники" &gt; "Настройка" &gt; "Workflow-процессы модуля "Закупки и источники" и создайте новый workflow-процесс, выбрав тип создаваемого workflow-процесса.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-129">To create a workflow, go to Procurement and sourcing &gt; Setup &gt; Procurement and sourcing workflows and create a new workflow by selecting the type of workflow you want to create.</span></span>  
 
-В холсте workflow-процесса можно перетаскивать элементы workflow-процесса в конструктор и связывать элементы в поток. Элементы workflow-процесса должны быть настроены. Для утверждения и элементов workflow-процесса задачи можно настроить, какой участник должен выполнять действие.
-Типы участников
+<span data-ttu-id="6cfe9-130">В холсте workflow-процесса можно перетаскивать элементы workflow-процесса в конструктор и связывать элементы в поток.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-130">In the workflow canvas you can drag workflow elements into the designer and link the elements into a flow.</span></span> <span data-ttu-id="6cfe9-131">Элементы workflow-процесса должны быть настроены.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-131">The workflow elements should be configured.</span></span> <span data-ttu-id="6cfe9-132">Для утверждения и элементов workflow-процесса задачи можно настроить, какой участник должен выполнять действие.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-132">For approval and task workflow elements you can configure which participant should take action.</span></span>
+<span data-ttu-id="6cfe9-133">Типы участников</span><span class="sxs-lookup"><span data-stu-id="6cfe9-133">Types of participants</span></span>
 ----------------------
 
-Можно назначить шаг утверждения следующим группам участников.
+<span data-ttu-id="6cfe9-134">Можно назначить шаг утверждения следующим группам участников.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-134">You can assign an approval step to the following groups of participants.</span></span>
 
-| Группа пользователей    | Описание                                                               |
+| <span data-ttu-id="6cfe9-135">Группа пользователей</span><span class="sxs-lookup"><span data-stu-id="6cfe9-135">User group</span></span>    | <span data-ttu-id="6cfe9-136">Описание</span><span class="sxs-lookup"><span data-stu-id="6cfe9-136">Description</span></span>                                                               |
 |---------------|---------------------------------------------------------------------------|
-| Участник   | Назначение шага утверждения членам группы или роли.                   |
-| Иерархия     | Назначение шага утверждения пользователям в определенной организационной иерархии. |
-| Пользователь workflow-процесса | Назначение шага утверждения пользователям данного workflow-процесса.                       |
-| Очередь         | Назначение шага утверждения очереди задач.                            |
-| Пользователь          | Назначение шага утверждения для конкретных пользователей.                               |
+| <span data-ttu-id="6cfe9-137">Участник</span><span class="sxs-lookup"><span data-stu-id="6cfe9-137">Participant</span></span>   | <span data-ttu-id="6cfe9-138">Назначение шага утверждения членам группы или роли.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-138">Assign the approval step to members of a group or role.</span></span>                   |
+| <span data-ttu-id="6cfe9-139">Иерархия</span><span class="sxs-lookup"><span data-stu-id="6cfe9-139">Hierarchy</span></span>     | <span data-ttu-id="6cfe9-140">Назначение шага утверждения пользователям в определенной организационной иерархии.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-140">Assign the approval step to users in a specific organizational hierarchy.</span></span> |
+| <span data-ttu-id="6cfe9-141">Пользователь workflow-процесса</span><span class="sxs-lookup"><span data-stu-id="6cfe9-141">Workflow user</span></span> | <span data-ttu-id="6cfe9-142">Назначение шага утверждения пользователям данного workflow-процесса.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-142">Assign the approval step to users of this workflow.</span></span>                       |
+| <span data-ttu-id="6cfe9-143">Очередь</span><span class="sxs-lookup"><span data-stu-id="6cfe9-143">Queue</span></span>         | <span data-ttu-id="6cfe9-144">Назначение шага утверждения очереди задач.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-144">Assign the approval step to a work item queue.</span></span>                            |
+| <span data-ttu-id="6cfe9-145">Пользователь</span><span class="sxs-lookup"><span data-stu-id="6cfe9-145">User</span></span>          | <span data-ttu-id="6cfe9-146">Назначение шага утверждения для конкретных пользователей.</span><span class="sxs-lookup"><span data-stu-id="6cfe9-146">Assign the approval step to specific users.</span></span>                               |
 
 
 
-<a name="see-also"></a>См. также
+<a name="see-also"></a><span data-ttu-id="6cfe9-147">См. также</span><span class="sxs-lookup"><span data-stu-id="6cfe9-147">See also</span></span>
 --------
 
-[Определение workflow-процессов бизнес-процессов для заявок на покупку](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+[<span data-ttu-id="6cfe9-148">Определение workflow-процессов бизнес-процессов для заявок на покупку</span><span class="sxs-lookup"><span data-stu-id="6cfe9-148">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Документооборот заявок на закупку](purchase-requisitions-workflow.md)
+[<span data-ttu-id="6cfe9-149">Документооборот заявок на закупку</span><span class="sxs-lookup"><span data-stu-id="6cfe9-149">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
 
 
 

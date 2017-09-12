@@ -18,45 +18,45 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 957626a283b750645adefa5176480e68cc27e4f1
+ms.sourcegitcommit: 97d374230cc6e833b9f585de000e1252f2a78b9d
+ms.openlocfilehash: c46b659a0ecffd6180fd0a76ff1b8d228f121571
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/30/2017
 
 ---
 
-# <a name="import-historical-data-for-demand-forecasts"></a>Импорт исторических данных для прогнозов спроса
+# <a name="import-historical-data-for-demand-forecasts"></a><span data-ttu-id="948cc-104">Импорт исторических данных для прогнозов спроса</span><span class="sxs-lookup"><span data-stu-id="948cc-104">Import historical data for demand forecasts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Для обеспечения точности прогнозов спроса необходимо иметь максимальный объем исторических данных по спросу, который можно получить для номенклатуры или ключа распределения номенклатуры. Если исторические данные по спросу еще не импортированы, используйте информационный объект **Исторический внешний спрос** (ReqDemPlanHistoricalExternalDemandEntity) в Microsoft Dynamics 365 for Finance and Operations, чтобы импортировать его.
+<span data-ttu-id="948cc-105">Для обеспечения точности прогнозов спроса необходимо иметь максимальный объем исторических данных по спросу, который можно получить для номенклатуры или ключа распределения номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="948cc-105">To help guarantee the accuracy of demand forecasts, you must have as much historical demand data as you can get per item or item allocation key.</span></span> <span data-ttu-id="948cc-106">Если исторические данные по спросу еще не импортированы, используйте информационный объект **Исторический внешний спрос** (ReqDemPlanHistoricalExternalDemandEntity) в Microsoft Dynamics 365 for Finance and Operations, чтобы импортировать его.</span><span class="sxs-lookup"><span data-stu-id="948cc-106">If the historical demand data isn't already imported, use the **Historical external demand** (ReqDemPlanHistoricalExternalDemandEntity) data entity in Microsoft Dynamics 365 for Finance and Operations to import it.</span></span>
 
-В рабочей области **Управление данными** можно просмотреть обзор всех полей объекта.
+<span data-ttu-id="948cc-107">В рабочей области **Управление данными** можно просмотреть обзор всех полей объекта.</span><span class="sxs-lookup"><span data-stu-id="948cc-107">In the **Data management** workspace, you can see an overview of all the fields in the entity.</span></span>
 
-1. Откройте рабочую область **Управление данными**.
-2. Щелкните плитку **Информационные объекты**.
-3. Найдите в списке объект **Исторический внешний спрос**.
-4. Щелкните **Целевые поля**. Следующие поля объекта являются обязательными: сайт (**DeliveringSiteId**), дата (**DemandDate**), количество (**DemandQuantity**) и номер номенклатуры (**ItemNumber**) или ключ распределения номенклатуры (**ProductAllocationKeyId**).
+1. <span data-ttu-id="948cc-108">Откройте рабочую область **Управление данными**.</span><span class="sxs-lookup"><span data-stu-id="948cc-108">Open the **Data management** workspace.</span></span>
+2. <span data-ttu-id="948cc-109">Щелкните плитку **Информационные объекты**.</span><span class="sxs-lookup"><span data-stu-id="948cc-109">Click the **Data entities** tile.</span></span>
+3. <span data-ttu-id="948cc-110">Найдите в списке объект **Исторический внешний спрос**.</span><span class="sxs-lookup"><span data-stu-id="948cc-110">Search the entity list for **Historical external demand**.</span></span>
+4. <span data-ttu-id="948cc-111">Щелкните **Целевые поля**.</span><span class="sxs-lookup"><span data-stu-id="948cc-111">Click **Target fields**.</span></span> <span data-ttu-id="948cc-112">Следующие поля объекта являются обязательными: сайт (**DeliveringSiteId**), дата (**DemandDate**), количество (**DemandQuantity**) и номер номенклатуры (**ItemNumber**) или ключ распределения номенклатуры (**ProductAllocationKeyId**).</span><span class="sxs-lookup"><span data-stu-id="948cc-112">The following entity fields are mandatory: site (**DeliveringSiteId**), date (**DemandDate**), quantity (**DemandQuantity**), and either item number (**ItemNumber**) or item allocation key (**ProductAllocationKeyId**).</span></span>
 
-Чтобы использовать информационный объект, необходим файл Microsoft Excel или файл значений с разделителями-запятыми (CSV), содержащий исторические данные о спросе. В следующем примере показано, как импортировать данные из CSV-файла.
+<span data-ttu-id="948cc-113">Чтобы использовать информационный объект, необходим файл Microsoft Excel или файл значений с разделителями-запятыми (CSV), содержащий исторические данные о спросе.</span><span class="sxs-lookup"><span data-stu-id="948cc-113">To use the data entity, you must have a Microsoft Excel file or comma-separated values (CSV) file that contains the historical demand data.</span></span> <span data-ttu-id="948cc-114">В следующем примере показано, как импортировать данные из CSV-файла.</span><span class="sxs-lookup"><span data-stu-id="948cc-114">The following example shows how to import the data from a CSV file.</span></span>
 
-## <a name="example"></a>Пример
+## <a name="example"></a><span data-ttu-id="948cc-115">Пример</span><span class="sxs-lookup"><span data-stu-id="948cc-115">Example</span></span>
 
-Можно использовать следующий файл в качестве примера. Загрузите [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast). Этот файл содержит исторические данные по спросу для номенклатуры D0001. Он содержит только следующие обязательные поля: сайт, количество и дата спроса.
+<span data-ttu-id="948cc-116">Можно использовать следующий файл в качестве примера.</span><span class="sxs-lookup"><span data-stu-id="948cc-116">You can use the following file as an example.</span></span> <span data-ttu-id="948cc-117">Загрузите [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast).</span><span class="sxs-lookup"><span data-stu-id="948cc-117">Download the [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast).</span></span> <span data-ttu-id="948cc-118">Этот файл содержит исторические данные по спросу для номенклатуры D0001.</span><span class="sxs-lookup"><span data-stu-id="948cc-118">This file contains the historical demand data for item D0001.</span></span> <span data-ttu-id="948cc-119">Он содержит только следующие обязательные поля: сайт, количество и дата спроса.</span><span class="sxs-lookup"><span data-stu-id="948cc-119">It contains only the following mandatory fields: site, quantity, and the demand date.</span></span>
 
-1. Выберите компанию, в которую следует импортировать исторические данные о спросе.
-2. Откройте рабочую область **Управление данными**.
-3. Щелкните плитку **Импорт**.
-4. Введите имя для проекта импорта, например **Импорт исторического спроса на номенклатуру D0001**.
-5. В поле **Формат исходных данных** выберите формат импортируемого файла. Чтобы импортировать файл HistoricalDemandData из этого примера, выберите **CSV**.
-6. В поле **Имя объекта** выберите **Исторический внешний спрос**.
-7. Сохраните файл на своем компьютере, затем отправьте его.
-8. Нажмите кнопку **Импорт**.
-9. Автоматически открывается страница **Сводка выполнения**. Проверьте импортированные данные на странице.
+1. <span data-ttu-id="948cc-120">Выберите компанию, в которую следует импортировать исторические данные о спросе.</span><span class="sxs-lookup"><span data-stu-id="948cc-120">Select the company to import the historical demand data into.</span></span>
+2. <span data-ttu-id="948cc-121">Откройте рабочую область **Управление данными**.</span><span class="sxs-lookup"><span data-stu-id="948cc-121">Open the **Data management** workspace.</span></span>
+3. <span data-ttu-id="948cc-122">Щелкните плитку **Импорт**.</span><span class="sxs-lookup"><span data-stu-id="948cc-122">Click the **Import** tile.</span></span>
+4. <span data-ttu-id="948cc-123">Введите имя для проекта импорта, например **Импорт исторического спроса на номенклатуру D0001**.</span><span class="sxs-lookup"><span data-stu-id="948cc-123">Enter a name for the import project, such as **Import historical demand for item D0001**.</span></span>
+5. <span data-ttu-id="948cc-124">В поле **Формат исходных данных** выберите формат импортируемого файла.</span><span class="sxs-lookup"><span data-stu-id="948cc-124">In the **Source data format** field, select the file format of the file that you're importing.</span></span> <span data-ttu-id="948cc-125">Чтобы импортировать файл HistoricalDemandData из этого примера, выберите **CSV**.</span><span class="sxs-lookup"><span data-stu-id="948cc-125">To import the HistoricalDemandData file for this example, select **CSV**.</span></span>
+6. <span data-ttu-id="948cc-126">В поле **Имя объекта** выберите **Исторический внешний спрос**.</span><span class="sxs-lookup"><span data-stu-id="948cc-126">In the **Entity name** field, select **Historical external demand**.</span></span>
+7. <span data-ttu-id="948cc-127">Сохраните файл на своем компьютере, затем отправьте его.</span><span class="sxs-lookup"><span data-stu-id="948cc-127">Save the file to your computer, and then upload it.</span></span>
+8. <span data-ttu-id="948cc-128">Нажмите кнопку **Импорт**.</span><span class="sxs-lookup"><span data-stu-id="948cc-128">Click **Import**.</span></span>
+9. <span data-ttu-id="948cc-129">Автоматически открывается страница **Сводка выполнения**.</span><span class="sxs-lookup"><span data-stu-id="948cc-129">The **Execution summary** page is opened automatically.</span></span> <span data-ttu-id="948cc-130">Проверьте импортированные данные на странице.</span><span class="sxs-lookup"><span data-stu-id="948cc-130">Verify the imported data on the page.</span></span>
 
-После импорта исторических данных о спросе можно создать прогноз продаж.
+<span data-ttu-id="948cc-131">После импорта исторических данных о спросе можно создать прогноз продаж.</span><span class="sxs-lookup"><span data-stu-id="948cc-131">After you've imported the historical demand data, you can generate a demand forecast.</span></span>
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a><span data-ttu-id="948cc-132">См. также</span><span class="sxs-lookup"><span data-stu-id="948cc-132">See also</span></span>
 
-[Создание статистического базового прогноза](generate-statistical-baseline-forecast.md)
+[<span data-ttu-id="948cc-133">Создание статистического базового прогноза</span><span class="sxs-lookup"><span data-stu-id="948cc-133">Generate a statistical baseline forecast</span></span>](generate-statistical-baseline-forecast.md)
 

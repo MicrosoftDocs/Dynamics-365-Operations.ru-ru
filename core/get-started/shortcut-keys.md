@@ -15,192 +15,192 @@ ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 8daf9d0c5b83e3bca66c0229a328737adeeb2951
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 45582c5378fb2b3d6c9e26632accf37197a671bb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="keyboard-shortcuts"></a>Сочетания клавиш
+# <a name="keyboard-shortcuts"></a><span data-ttu-id="52272-103">Сочетания клавиш</span><span class="sxs-lookup"><span data-stu-id="52272-103">Keyboard shortcuts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Следующие сочетания клавиш применяются в системе Microsoft Dynamics 365 for Finance and Operations. 
+<span data-ttu-id="52272-104">Следующие сочетания клавиш применяются в системе Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="52272-104">The following keyboard shortcuts apply across Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-**Примечание.** Сочетания клавиш, описанные здесь, относятся к раскладке клавиатуры для США. Клавиши в других раскладках могут не соответствовать в точности раскладке для США.
+<span data-ttu-id="52272-105">**Примечание.** Сочетания клавиш, описанные здесь, относятся к раскладке клавиатуры для США.</span><span class="sxs-lookup"><span data-stu-id="52272-105">**Note:** The keyboard shortcuts described here refer to the United States keyboard layout.</span></span> <span data-ttu-id="52272-106">Клавиши в других раскладках могут не соответствовать в точности раскладке для США.</span><span class="sxs-lookup"><span data-stu-id="52272-106">Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard.</span></span>
 
-## <a name="action-shortcuts"></a>Сочетания клавиш для действий
+## <a name="action-shortcuts"></a><span data-ttu-id="52272-107">Сочетания клавиш для действий</span><span class="sxs-lookup"><span data-stu-id="52272-107">Action shortcuts</span></span>
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **Чтобы это выполнить**                                    | **Нажмите**                        |
-| Открытый поиск действия                                | Ctrl+’ или Alt+Q                  |
-| Перейти на панель стандартного действия                  | Ctrl+F6                          |
-| Открыть вкладку на панели действий или в меню           | ВВОД или Пробел или Alt+Стрелка вниз |
-| Перейти к следующему или предыдущему пункту в меню            | Стрелка вниз/Стрелка вверх            |
-| Закрыть вкладку на панели действий или в меню          | ESC                              |
-| Имитация щелчка правой кнопкой мыши                            | Shift+F10                        |
-| Открыть контекстное меню Finance and Operations | Ctrl+F10                         |
-| Выполнить кнопку по умолчанию в форме или диалоговом окне.       | Alt+Ввод                        |
-| Нажать кнопку или плитку                            | Ввод или Пробел                   |
-| Просмотр обновленной информации для плитки подсчета         | Alt+Стрелка вверх                     |
+| <span data-ttu-id="52272-108">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="52272-108">**To do this**</span></span>                                    | <span data-ttu-id="52272-109">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="52272-109">**Press**</span></span>                        |
+| <span data-ttu-id="52272-110">Открытый поиск действия</span><span class="sxs-lookup"><span data-stu-id="52272-110">Open action search</span></span>                                | <span data-ttu-id="52272-111">Ctrl+’ или Alt+Q</span><span class="sxs-lookup"><span data-stu-id="52272-111">Ctrl+’ or Alt+Q</span></span>                  |
+| <span data-ttu-id="52272-112">Перейти на панель стандартного действия</span><span class="sxs-lookup"><span data-stu-id="52272-112">Move to the standard action pane</span></span>                  | <span data-ttu-id="52272-113">Ctrl+F6</span><span class="sxs-lookup"><span data-stu-id="52272-113">Ctrl+F6</span></span>                          |
+| <span data-ttu-id="52272-114">Открыть вкладку на панели действий или в меню</span><span class="sxs-lookup"><span data-stu-id="52272-114">Open a tab in the action pane or a menu</span></span>           | <span data-ttu-id="52272-115">ВВОД или Пробел или Alt+Стрелка вниз</span><span class="sxs-lookup"><span data-stu-id="52272-115">Enter or Space or Alt+Down Arrow</span></span> |
+| <span data-ttu-id="52272-116">Перейти к следующему или предыдущему пункту в меню</span><span class="sxs-lookup"><span data-stu-id="52272-116">Move to next/previous option in a menu</span></span>            | <span data-ttu-id="52272-117">Стрелка вниз/Стрелка вверх</span><span class="sxs-lookup"><span data-stu-id="52272-117">Down Arrow / Up Arrow</span></span>            |
+| <span data-ttu-id="52272-118">Закрыть вкладку на панели действий или в меню</span><span class="sxs-lookup"><span data-stu-id="52272-118">Close a tab in the action pane or a menu</span></span>          | <span data-ttu-id="52272-119">ESC</span><span class="sxs-lookup"><span data-stu-id="52272-119">Esc</span></span>                              |
+| <span data-ttu-id="52272-120">Имитация щелчка правой кнопкой мыши</span><span class="sxs-lookup"><span data-stu-id="52272-120">Simulate a right-click</span></span>                            | <span data-ttu-id="52272-121">Shift+F10</span><span class="sxs-lookup"><span data-stu-id="52272-121">Shift+F10</span></span>                        |
+| <span data-ttu-id="52272-122">Открыть контекстное меню Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="52272-122">Open the Finance and Operations context menu</span></span> | <span data-ttu-id="52272-123">Ctrl+F10</span><span class="sxs-lookup"><span data-stu-id="52272-123">Ctrl+F10</span></span>                         |
+| <span data-ttu-id="52272-124">Выполнить кнопку по умолчанию в форме или диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="52272-124">Execute the default button on a form/dialog</span></span>       | <span data-ttu-id="52272-125">Alt+Ввод</span><span class="sxs-lookup"><span data-stu-id="52272-125">Alt+Enter</span></span>                        |
+| <span data-ttu-id="52272-126">Нажать кнопку или плитку</span><span class="sxs-lookup"><span data-stu-id="52272-126">Click a button or tile</span></span>                            | <span data-ttu-id="52272-127">Ввод или Пробел</span><span class="sxs-lookup"><span data-stu-id="52272-127">Enter or Space</span></span>                   |
+| <span data-ttu-id="52272-128">Просмотр обновленной информации для плитки подсчета</span><span class="sxs-lookup"><span data-stu-id="52272-128">View refresh information for a count tile</span></span>         | <span data-ttu-id="52272-129">Alt+Стрелка вверх</span><span class="sxs-lookup"><span data-stu-id="52272-129">Alt+Up Arrow</span></span>                     |
 
  
 
-## <a name="date-picker-shortcuts"></a>Сочетания клавиш для средства выбора даты
+## <a name="date-picker-shortcuts"></a><span data-ttu-id="52272-130">Сочетания клавиш для средства выбора даты</span><span class="sxs-lookup"><span data-stu-id="52272-130">Date picker shortcuts</span></span>
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
-| **Чтобы это выполнить**                        | **Нажмите**                                 |
-| Открыть средство выбора даты                  | Alt+Стрелка вниз                            |
-| Перемещение между датами в средстве выбора даты | Ctrl+Стрелки                               |
-| Переход к следующему или предыдущему месяцу       | Page Down / Page Up                       |
-| Переход к следующему или предыдущему году        | Ctrl+Shift+Page Down / Ctrl+Shift+Page Up |
+| <span data-ttu-id="52272-131">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="52272-131">**To do this**</span></span>                        | <span data-ttu-id="52272-132">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="52272-132">**Press**</span></span>                                 |
+| <span data-ttu-id="52272-133">Открыть средство выбора даты</span><span class="sxs-lookup"><span data-stu-id="52272-133">Open the date picker</span></span>                  | <span data-ttu-id="52272-134">Alt+Стрелка вниз</span><span class="sxs-lookup"><span data-stu-id="52272-134">Alt+Down Arrow</span></span>                            |
+| <span data-ttu-id="52272-135">Перемещение между датами в средстве выбора даты</span><span class="sxs-lookup"><span data-stu-id="52272-135">Move between dates in the date picker</span></span> | <span data-ttu-id="52272-136">Ctrl+Стрелки</span><span class="sxs-lookup"><span data-stu-id="52272-136">Ctrl+Arrows</span></span>                               |
+| <span data-ttu-id="52272-137">Переход к следующему или предыдущему месяцу</span><span class="sxs-lookup"><span data-stu-id="52272-137">Move to the next/previous month</span></span>       | <span data-ttu-id="52272-138">Page Down / Page Up</span><span class="sxs-lookup"><span data-stu-id="52272-138">Page Down / Page Up</span></span>                       |
+| <span data-ttu-id="52272-139">Переход к следующему или предыдущему году</span><span class="sxs-lookup"><span data-stu-id="52272-139">Move to the next/previous year</span></span>        | <span data-ttu-id="52272-140">Ctrl+Shift+Page Down / Ctrl+Shift+Page Up</span><span class="sxs-lookup"><span data-stu-id="52272-140">Ctrl+Shift+Page Down / Ctrl+Shift+Page Up</span></span> |
 
  
 
-## <a name="factbox-shortcuts"></a>Сочетания клавиш для информационного поля
+## <a name="factbox-shortcuts"></a><span data-ttu-id="52272-141">Сочетания клавиш для информационного поля</span><span class="sxs-lookup"><span data-stu-id="52272-141">FactBox shortcuts</span></span>
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| Открыть панель информационного поля (или перемещение фокуса на панель информационного поля, если она уже открыта) | Ctrl+F2                                   |
-| Закрыть панель информационного поля (с фокусом в панели информационного поля)                         | Esc                                       |
-| Перейти к следующему или предыдущему информационному полю (с фокусом в панели информационного поля)              | Alt+Shift+Стрелка вниз / Alt+Shift+Стрелка вверх |
-| Перейти к информационному полю номер &lt;n&gt; (с фокусом в панели информационного поля)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
-| Развернуть информационное поле (с фокусом в заголовке информационного поля)                             | Пробел или Ввод                            |
-| Свернуть текущее информационное поле                                                    | Alt+0                                     |
+| <span data-ttu-id="52272-142">Открыть панель информационного поля (или перемещение фокуса на панель информационного поля, если она уже открыта)</span><span class="sxs-lookup"><span data-stu-id="52272-142">Open the FactBox pane (or move focus to the FactBox pane if it is already open)</span></span> | <span data-ttu-id="52272-143">Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="52272-143">Ctrl+F2</span></span>                                   |
+| <span data-ttu-id="52272-144">Закрыть панель информационного поля (с фокусом в панели информационного поля)</span><span class="sxs-lookup"><span data-stu-id="52272-144">Close the FactBox pane (with focus in the FactBox pane)</span></span>                         | <span data-ttu-id="52272-145">Esc</span><span class="sxs-lookup"><span data-stu-id="52272-145">Esc</span></span>                                       |
+| <span data-ttu-id="52272-146">Перейти к следующему или предыдущему информационному полю (с фокусом в панели информационного поля)</span><span class="sxs-lookup"><span data-stu-id="52272-146">Move to the next/previous FactBox (with focus in the FactBox pane)</span></span>              | <span data-ttu-id="52272-147">Alt+Shift+Стрелка вниз / Alt+Shift+Стрелка вверх</span><span class="sxs-lookup"><span data-stu-id="52272-147">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span> |
+| <span data-ttu-id="52272-148">Перейти к информационному полю номер &lt;n&gt; (с фокусом в панели информационного поля)</span><span class="sxs-lookup"><span data-stu-id="52272-148">Move to the &lt;n&gt;th FactBox (with focus in the FactBox pane)</span></span>                | <span data-ttu-id="52272-149">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="52272-149">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>           |
+| <span data-ttu-id="52272-150">Развернуть информационное поле (с фокусом в заголовке информационного поля)</span><span class="sxs-lookup"><span data-stu-id="52272-150">Expand a FactBox (with focus on the FactBox header)</span></span>                             | <span data-ttu-id="52272-151">Пробел или Ввод</span><span class="sxs-lookup"><span data-stu-id="52272-151">Space or Enter</span></span>                            |
+| <span data-ttu-id="52272-152">Свернуть текущее информационное поле</span><span class="sxs-lookup"><span data-stu-id="52272-152">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="52272-153">Alt+0</span><span class="sxs-lookup"><span data-stu-id="52272-153">Alt+0</span></span>                                     |
 
  
 
-## <a name="filtering-shortcuts"></a>Сочетания клавиш для фильтрации
+## <a name="filtering-shortcuts"></a><span data-ttu-id="52272-154">Сочетания клавиш для фильтрации</span><span class="sxs-lookup"><span data-stu-id="52272-154">Filtering shortcuts</span></span>
 |                                                                                                                     |               |
 |---------------------------------------------------------------------------------------------------------------------|---------------|
-| **Чтобы это выполнить**                                                                                                      | **Нажмите**     |
-| Открыть фильтрацию таблицы для текущего столбца                                                                          | Ctrl+G        |
-| Закрыть фильтрацию таблицы для текущего столбца                                                                         | Esc           |
-| Открыть панель фильтра (или переключить фокус между панелью фильтра и главной формой, если панель фильтра уже открыта) | Ctrl+F3       |
-| Закрыть панель фильтра (с фокусом в панели фильтра)                                                               | Esc           |
-| Открыть расширенную фильтрацию/сортировку                                                                                        | Ctrl+Shift+F3 |
+| <span data-ttu-id="52272-155">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="52272-155">**To do this**</span></span>                                                                                                      | <span data-ttu-id="52272-156">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="52272-156">**Press**</span></span>     |
+| <span data-ttu-id="52272-157">Открыть фильтрацию таблицы для текущего столбца</span><span class="sxs-lookup"><span data-stu-id="52272-157">Open grid filtering for the current column</span></span>                                                                          | <span data-ttu-id="52272-158">Ctrl+G</span><span class="sxs-lookup"><span data-stu-id="52272-158">Ctrl+G</span></span>        |
+| <span data-ttu-id="52272-159">Закрыть фильтрацию таблицы для текущего столбца</span><span class="sxs-lookup"><span data-stu-id="52272-159">Close grid filtering for the current column</span></span>                                                                         | <span data-ttu-id="52272-160">Esc</span><span class="sxs-lookup"><span data-stu-id="52272-160">Esc</span></span>           |
+| <span data-ttu-id="52272-161">Открыть панель фильтра (или переключить фокус между панелью фильтра и главной формой, если панель фильтра уже открыта)</span><span class="sxs-lookup"><span data-stu-id="52272-161">Open the Filter pane (or switch focus between the Filter pane and the main form if the Filter pane is already open)</span></span> | <span data-ttu-id="52272-162">Ctrl+F3</span><span class="sxs-lookup"><span data-stu-id="52272-162">Ctrl+F3</span></span>       |
+| <span data-ttu-id="52272-163">Закрыть панель фильтра (с фокусом в панели фильтра)</span><span class="sxs-lookup"><span data-stu-id="52272-163">Close the Filter pane (with focus in the Filter pane)</span></span>                                                               | <span data-ttu-id="52272-164">Esc</span><span class="sxs-lookup"><span data-stu-id="52272-164">Esc</span></span>           |
+| <span data-ttu-id="52272-165">Открыть расширенную фильтрацию/сортировку</span><span class="sxs-lookup"><span data-stu-id="52272-165">Open advanced filtering/sort</span></span>                                                                                        | <span data-ttu-id="52272-166">Ctrl+Shift+F3</span><span class="sxs-lookup"><span data-stu-id="52272-166">Ctrl+Shift+F3</span></span> |
 
  
 
-## <a name="form-shortcuts"></a>Сочетания клавиш для форм
+## <a name="form-shortcuts"></a><span data-ttu-id="52272-167">Сочетания клавиш для форм</span><span class="sxs-lookup"><span data-stu-id="52272-167">Form shortcuts</span></span>
 |                                                                                                                                 |                   |
 |---------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| **Чтобы это выполнить**                                                                                                                  | **Нажмите**         |
-| Создать новую запись                                                                                                             | Alt+N             |
-| Удалить запись                                                                                                                 | Alt+Del или Alt+F9 |
-| Сохранить запись                                                                                                                     | Alt+S или Ctrl+S   |
-| Отменить (восстановить)                                                                                                                | Ctrl+Shift+F5     |
-| Обновление данных                                                                                                                    | Shift+F5          |
-| Переход в первое видимое поле формы                                                                                     | Alt+Shift+F       |
-| Переключение режима редактирования                                                                                                                | F2                |
-| Вложение документа                                                                                                               | Ctrl+Shift+A      |
-| Экспорт в Excel                                                                                                                 | Ctrl+Shift+E      |
-| Переход к предыдущей записи (вне таблицы)                                                                                    | Ctrl+Стрелка вверх     |
-| Переход к следующей записи (вне таблицы)                                                                                        | Ctrl+Стрелка вниз   |
-| Переход к первой записи (вне таблицы)                                                                                       | Ctrl+Home         |
-| Переход к последней записи (вне таблицы)                                                                                        | Ctrl+End          |
-| Открыть список навигации на форме "Сведения" (или переключение фокуса между списком навигации и главной формой, если он уже открыт) | Ctrl+F8           |
-| Закрыть список навигации на форме "Сведения" (с фокусом в списке навигации)                                                   | Esc               |
+| <span data-ttu-id="52272-168">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="52272-168">**To do this**</span></span>                                                                                                                  | <span data-ttu-id="52272-169">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="52272-169">**Press**</span></span>         |
+| <span data-ttu-id="52272-170">Создать новую запись</span><span class="sxs-lookup"><span data-stu-id="52272-170">Create a new record</span></span>                                                                                                             | <span data-ttu-id="52272-171">Alt+N</span><span class="sxs-lookup"><span data-stu-id="52272-171">Alt+N</span></span>             |
+| <span data-ttu-id="52272-172">Удалить запись</span><span class="sxs-lookup"><span data-stu-id="52272-172">Delete a record</span></span>                                                                                                                 | <span data-ttu-id="52272-173">Alt+Del или Alt+F9</span><span class="sxs-lookup"><span data-stu-id="52272-173">Alt+Del or Alt+F9</span></span> |
+| <span data-ttu-id="52272-174">Сохранить запись</span><span class="sxs-lookup"><span data-stu-id="52272-174">Save record</span></span>                                                                                                                     | <span data-ttu-id="52272-175">Alt+S или Ctrl+S</span><span class="sxs-lookup"><span data-stu-id="52272-175">Alt+S or Ctrl+S</span></span>   |
+| <span data-ttu-id="52272-176">Отменить (восстановить)</span><span class="sxs-lookup"><span data-stu-id="52272-176">Revert (restore)</span></span>                                                                                                                | <span data-ttu-id="52272-177">Ctrl+Shift+F5</span><span class="sxs-lookup"><span data-stu-id="52272-177">Ctrl+Shift+F5</span></span>     |
+| <span data-ttu-id="52272-178">Обновление данных</span><span class="sxs-lookup"><span data-stu-id="52272-178">Data refresh</span></span>                                                                                                                    | <span data-ttu-id="52272-179">Shift+F5</span><span class="sxs-lookup"><span data-stu-id="52272-179">Shift+F5</span></span>          |
+| <span data-ttu-id="52272-180">Переход в первое видимое поле формы</span><span class="sxs-lookup"><span data-stu-id="52272-180">Move to the visible first field on the form</span></span>                                                                                     | <span data-ttu-id="52272-181">Alt+Shift+F</span><span class="sxs-lookup"><span data-stu-id="52272-181">Alt+Shift+F</span></span>       |
+| <span data-ttu-id="52272-182">Переключение режима редактирования</span><span class="sxs-lookup"><span data-stu-id="52272-182">Toggle edit mode</span></span>                                                                                                                | <span data-ttu-id="52272-183">F2</span><span class="sxs-lookup"><span data-stu-id="52272-183">F2</span></span>                |
+| <span data-ttu-id="52272-184">Вложение документа</span><span class="sxs-lookup"><span data-stu-id="52272-184">Attach a document</span></span>                                                                                                               | <span data-ttu-id="52272-185">Ctrl+Shift+A</span><span class="sxs-lookup"><span data-stu-id="52272-185">Ctrl+Shift+A</span></span>      |
+| <span data-ttu-id="52272-186">Экспорт в Excel</span><span class="sxs-lookup"><span data-stu-id="52272-186">Export to Excel</span></span>                                                                                                                 | <span data-ttu-id="52272-187">Ctrl+Shift+E</span><span class="sxs-lookup"><span data-stu-id="52272-187">Ctrl+Shift+E</span></span>      |
+| <span data-ttu-id="52272-188">Переход к предыдущей записи (вне таблицы)</span><span class="sxs-lookup"><span data-stu-id="52272-188">Move to the previous record (outside a grid)</span></span>                                                                                    | <span data-ttu-id="52272-189">Ctrl+Стрелка вверх</span><span class="sxs-lookup"><span data-stu-id="52272-189">Ctrl+Up Arrow</span></span>     |
+| <span data-ttu-id="52272-190">Переход к следующей записи (вне таблицы)</span><span class="sxs-lookup"><span data-stu-id="52272-190">Move to the next record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="52272-191">Ctrl+Стрелка вниз</span><span class="sxs-lookup"><span data-stu-id="52272-191">Ctrl+Down Arrow</span></span>   |
+| <span data-ttu-id="52272-192">Переход к первой записи (вне таблицы)</span><span class="sxs-lookup"><span data-stu-id="52272-192">Move to the first record (outside a grid)</span></span>                                                                                       | <span data-ttu-id="52272-193">Ctrl+Home</span><span class="sxs-lookup"><span data-stu-id="52272-193">Ctrl+Home</span></span>         |
+| <span data-ttu-id="52272-194">Переход к последней записи (вне таблицы)</span><span class="sxs-lookup"><span data-stu-id="52272-194">Move to the last record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="52272-195">Ctrl+End</span><span class="sxs-lookup"><span data-stu-id="52272-195">Ctrl+End</span></span>          |
+| <span data-ttu-id="52272-196">Открыть список навигации на форме "Сведения" (или переключение фокуса между списком навигации и главной формой, если он уже открыт)</span><span class="sxs-lookup"><span data-stu-id="52272-196">Open the navigation list on Details forms (or switch focus between the navigation list and the main form if it is already open)</span></span> | <span data-ttu-id="52272-197">Ctrl+F8</span><span class="sxs-lookup"><span data-stu-id="52272-197">Ctrl+F8</span></span>           |
+| <span data-ttu-id="52272-198">Закрыть список навигации на форме "Сведения" (с фокусом в списке навигации)</span><span class="sxs-lookup"><span data-stu-id="52272-198">Close the navigation list on Details form (with focus in the navigation list)</span></span>                                                   | <span data-ttu-id="52272-199">Esc</span><span class="sxs-lookup"><span data-stu-id="52272-199">Esc</span></span>               |
 
  
 
-## <a name="form-navigation-shortcuts"></a>Сочетания клавиш для навигации в форме
+## <a name="form-navigation-shortcuts"></a><span data-ttu-id="52272-200">Сочетания клавиш для навигации в форме</span><span class="sxs-lookup"><span data-stu-id="52272-200">Form navigation shortcuts</span></span>
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
-| **Чтобы это выполнить**                                      | **Нажмите**                                    |
-| Перейти в следующее или предыдущее поле                     | Tab / Shift+Tab                              |
-| Перейти на следующую или предыдущую вкладку                       | Alt+Shift+Стрелка вправо / Alt+Shift+Стрелка влево |
-| Перейти на следующую или предыдущую экспресс-вкладку                   | Alt+Shift+Стрелка вниз / Alt+Shift+Стрелка вверх    |
-| Перейти на экспресс-вкладку номер &lt;n&gt;                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Перейти на вкладку номер &lt;n&gt;                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
-| Развернуть экспресс-вкладку (с фокусом в заголовке экспресс-вкладку) | Пробел или Ввод                               |
-| Свернуть текущую экспресс-вкладку                        | Alt+0                                        |
-| Перейти в табличное представление                                 | Ctrl+Shift+G                                 |
-| Перейти в представление сведений                              | Ctrl+Shift+D                                 |
-| Перейти в представление заголовка                               | Ctrl+Shift+H                                 |
-| Перейти в представление строк                                | Ctrl+Shift+L                                 |
-| Закрыть форму (нажать "Назад")                         | Esc                                          |
-| Закрыть форму с явным сохранением                   | Shift+Esc                                    |
-| Закрыть форму без сохранения любых несохраненных изменений       | Alt+Shift+Q                                  |
+| <span data-ttu-id="52272-201">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="52272-201">**To do this**</span></span>                                      | <span data-ttu-id="52272-202">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="52272-202">**Press**</span></span>                                    |
+| <span data-ttu-id="52272-203">Перейти в следующее или предыдущее поле</span><span class="sxs-lookup"><span data-stu-id="52272-203">Move to the next/previous field</span></span>                     | <span data-ttu-id="52272-204">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="52272-204">Tab / Shift+Tab</span></span>                              |
+| <span data-ttu-id="52272-205">Перейти на следующую или предыдущую вкладку</span><span class="sxs-lookup"><span data-stu-id="52272-205">Move to the next/previous tab</span></span>                       | <span data-ttu-id="52272-206">Alt+Shift+Стрелка вправо / Alt+Shift+Стрелка влево</span><span class="sxs-lookup"><span data-stu-id="52272-206">Alt+Shift+Right Arrow / Alt+Shift+Left Arrow</span></span> |
+| <span data-ttu-id="52272-207">Перейти на следующую или предыдущую экспресс-вкладку</span><span class="sxs-lookup"><span data-stu-id="52272-207">Move to the next/previous FastTab</span></span>                   | <span data-ttu-id="52272-208">Alt+Shift+Стрелка вниз / Alt+Shift+Стрелка вверх</span><span class="sxs-lookup"><span data-stu-id="52272-208">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span>    |
+| <span data-ttu-id="52272-209">Перейти на экспресс-вкладку номер &lt;n&gt;</span><span class="sxs-lookup"><span data-stu-id="52272-209">Move to the &lt;n&gt;th FastTab</span></span>                     | <span data-ttu-id="52272-210">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="52272-210">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>              |
+| <span data-ttu-id="52272-211">Перейти на вкладку номер &lt;n&gt;</span><span class="sxs-lookup"><span data-stu-id="52272-211">Move to the &lt;n&gt;th tab</span></span>                         | <span data-ttu-id="52272-212">Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="52272-212">Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>        |
+| <span data-ttu-id="52272-213">Развернуть экспресс-вкладку (с фокусом в заголовке экспресс-вкладку)</span><span class="sxs-lookup"><span data-stu-id="52272-213">Expand a FastTab (with focus on the FastTab header)</span></span> | <span data-ttu-id="52272-214">Пробел или Ввод</span><span class="sxs-lookup"><span data-stu-id="52272-214">Space or Enter</span></span>                               |
+| <span data-ttu-id="52272-215">Свернуть текущую экспресс-вкладку</span><span class="sxs-lookup"><span data-stu-id="52272-215">Collapse the current FastTab</span></span>                        | <span data-ttu-id="52272-216">Alt+0</span><span class="sxs-lookup"><span data-stu-id="52272-216">Alt+0</span></span>                                        |
+| <span data-ttu-id="52272-217">Перейти в табличное представление</span><span class="sxs-lookup"><span data-stu-id="52272-217">Switch to grid view</span></span>                                 | <span data-ttu-id="52272-218">Ctrl+Shift+G</span><span class="sxs-lookup"><span data-stu-id="52272-218">Ctrl+Shift+G</span></span>                                 |
+| <span data-ttu-id="52272-219">Перейти в представление сведений</span><span class="sxs-lookup"><span data-stu-id="52272-219">Switch to details view</span></span>                              | <span data-ttu-id="52272-220">Ctrl+Shift+D</span><span class="sxs-lookup"><span data-stu-id="52272-220">Ctrl+Shift+D</span></span>                                 |
+| <span data-ttu-id="52272-221">Перейти в представление заголовка</span><span class="sxs-lookup"><span data-stu-id="52272-221">Switch to header view</span></span>                               | <span data-ttu-id="52272-222">Ctrl+Shift+H</span><span class="sxs-lookup"><span data-stu-id="52272-222">Ctrl+Shift+H</span></span>                                 |
+| <span data-ttu-id="52272-223">Перейти в представление строк</span><span class="sxs-lookup"><span data-stu-id="52272-223">Switch to lines view</span></span>                                | <span data-ttu-id="52272-224">Ctrl+Shift+L</span><span class="sxs-lookup"><span data-stu-id="52272-224">Ctrl+Shift+L</span></span>                                 |
+| <span data-ttu-id="52272-225">Закрыть форму (нажать "Назад")</span><span class="sxs-lookup"><span data-stu-id="52272-225">Close the form (click Back)</span></span>                         | <span data-ttu-id="52272-226">Esc</span><span class="sxs-lookup"><span data-stu-id="52272-226">Esc</span></span>                                          |
+| <span data-ttu-id="52272-227">Закрыть форму с явным сохранением</span><span class="sxs-lookup"><span data-stu-id="52272-227">Close the form with explicit save</span></span>                   | <span data-ttu-id="52272-228">Shift+Esc</span><span class="sxs-lookup"><span data-stu-id="52272-228">Shift+Esc</span></span>                                    |
+| <span data-ttu-id="52272-229">Закрыть форму без сохранения любых несохраненных изменений</span><span class="sxs-lookup"><span data-stu-id="52272-229">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="52272-230">Alt+Shift+Q</span><span class="sxs-lookup"><span data-stu-id="52272-230">Alt+Shift+Q</span></span>                                  |
 
  
 
-## <a name="grid-shortcuts"></a>Сочетания клавиш для таблицы
+## <a name="grid-shortcuts"></a><span data-ttu-id="52272-231">Сочетания клавиш для таблицы</span><span class="sxs-lookup"><span data-stu-id="52272-231">Grid shortcuts</span></span>
 |                                                                                                               |                                 |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Чтобы это выполнить**                                                                                                | **Нажмите**                       |
-| Перейти в следующий или предыдущий столбец                                                                              | Tab / Shift+Tab                 |
-| Перейти на следующую или предыдущую строку                                                                                 | Стрелка вниз/Стрелка вверх           |
-| Перейди в следующую или предыдущую строку без выбора (Примечание. Это сочетание клавиш применяется только к сценариям с выбором нескольких элементов.) | Ctrl+Стрелка вверх / Ctrl+Стрелка вниз |
-| Выбрать/отменить выбор текущей строки (Примечание. Это сочетание клавиш применяется только к сценариям с выбором нескольких элементов.)                    | Ctrl+Пробел / Ctrl+Щелчок         |
-| Добавить следующую или предыдущую строку к выбранному набору (Примечание. Это сочетание клавиш применяется только к сценариям с выбором нескольких элементов.)   | Shift+Пробел                     |
-| Добавить диапазон строк к выбранному набору (Примечание. Это сочетание клавиш применяется только к сценариям с выбором нескольких элементов.)         | Shift+Щелчок                     |
-| Перейти к следующей или предыдущей странице данных                                                                          | Page Up / Page Down             |
-| Создать новую строку внизу таблицы                                                                    | Стрелка вниз (из последней строки)  |
-| Выбрать или отменить выбор всех строк                                                                                      | Ctrl+Shift+M                    |
-| Перейти к первой записи                                                                                      | Ctrl+Home                       |
-| Перейти к последней записи                                                                                       | Ctrl+End                        |
+| <span data-ttu-id="52272-232">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="52272-232">**To do this**</span></span>                                                                                                | <span data-ttu-id="52272-233">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="52272-233">**Press**</span></span>                       |
+| <span data-ttu-id="52272-234">Перейти в следующий или предыдущий столбец</span><span class="sxs-lookup"><span data-stu-id="52272-234">Move to the next/previous column</span></span>                                                                              | <span data-ttu-id="52272-235">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="52272-235">Tab / Shift+Tab</span></span>                 |
+| <span data-ttu-id="52272-236">Перейти на следующую или предыдущую строку</span><span class="sxs-lookup"><span data-stu-id="52272-236">Move to the next/previous row</span></span>                                                                                 | <span data-ttu-id="52272-237">Стрелка вниз/Стрелка вверх</span><span class="sxs-lookup"><span data-stu-id="52272-237">Down Arrow / Up Arrow</span></span>           |
+| <span data-ttu-id="52272-238">Перейди в следующую или предыдущую строку без выбора (Примечание. Это сочетание клавиш применяется только к сценариям с выбором нескольких элементов.)</span><span class="sxs-lookup"><span data-stu-id="52272-238">Move to the next/previous row without selecting (Note: This shortcut applies to multi-select scenarios only.)</span></span> | <span data-ttu-id="52272-239">Ctrl+Стрелка вверх / Ctrl+Стрелка вниз</span><span class="sxs-lookup"><span data-stu-id="52272-239">Ctrl+Up Arrow / Ctrl+Down Arrow</span></span> |
+| <span data-ttu-id="52272-240">Выбрать/отменить выбор текущей строки (Примечание. Это сочетание клавиш применяется только к сценариям с выбором нескольких элементов.)</span><span class="sxs-lookup"><span data-stu-id="52272-240">Select/clear the current row (Note: This shortcut applies to multi-select scenarios only.)</span></span>                    | <span data-ttu-id="52272-241">Ctrl+Пробел / Ctrl+Щелчок</span><span class="sxs-lookup"><span data-stu-id="52272-241">Ctrl+Space / Ctrl+Click</span></span>         |
+| <span data-ttu-id="52272-242">Добавить следующую или предыдущую строку к выбранному набору (Примечание. Это сочетание клавиш применяется только к сценариям с выбором нескольких элементов.)</span><span class="sxs-lookup"><span data-stu-id="52272-242">Add the next/previous row to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>   | <span data-ttu-id="52272-243">Shift+Пробел</span><span class="sxs-lookup"><span data-stu-id="52272-243">Shift+Space</span></span>                     |
+| <span data-ttu-id="52272-244">Добавить диапазон строк к выбранному набору (Примечание. Это сочетание клавиш применяется только к сценариям с выбором нескольких элементов.)</span><span class="sxs-lookup"><span data-stu-id="52272-244">Add a range of rows to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>         | <span data-ttu-id="52272-245">Shift+Щелчок</span><span class="sxs-lookup"><span data-stu-id="52272-245">Shift+Click</span></span>                     |
+| <span data-ttu-id="52272-246">Перейти к следующей или предыдущей странице данных</span><span class="sxs-lookup"><span data-stu-id="52272-246">Go to the next/previous page of data</span></span>                                                                          | <span data-ttu-id="52272-247">Page Up / Page Down</span><span class="sxs-lookup"><span data-stu-id="52272-247">Page Up / Page Down</span></span>             |
+| <span data-ttu-id="52272-248">Создать новую строку внизу таблицы</span><span class="sxs-lookup"><span data-stu-id="52272-248">Create a new row at the bottom of the grid</span></span>                                                                    | <span data-ttu-id="52272-249">Стрелка вниз (из последней строки)</span><span class="sxs-lookup"><span data-stu-id="52272-249">Down Arrow (from the last row)</span></span>  |
+| <span data-ttu-id="52272-250">Выбрать или отменить выбор всех строк</span><span class="sxs-lookup"><span data-stu-id="52272-250">Select or clear all rows</span></span>                                                                                      | <span data-ttu-id="52272-251">Ctrl+Shift+M</span><span class="sxs-lookup"><span data-stu-id="52272-251">Ctrl+Shift+M</span></span>                    |
+| <span data-ttu-id="52272-252">Перейти к первой записи</span><span class="sxs-lookup"><span data-stu-id="52272-252">Move to the first record</span></span>                                                                                      | <span data-ttu-id="52272-253">Ctrl+Home</span><span class="sxs-lookup"><span data-stu-id="52272-253">Ctrl+Home</span></span>                       |
+| <span data-ttu-id="52272-254">Перейти к последней записи</span><span class="sxs-lookup"><span data-stu-id="52272-254">Move to the last record</span></span>                                                                                       | <span data-ttu-id="52272-255">Ctrl+End</span><span class="sxs-lookup"><span data-stu-id="52272-255">Ctrl+End</span></span>                        |
 
  
 
-## <a name="input-control-shortcuts"></a>Сочетания клавиш для управления вводом
+## <a name="input-control-shortcuts"></a><span data-ttu-id="52272-256">Сочетания клавиш для управления вводом</span><span class="sxs-lookup"><span data-stu-id="52272-256">Input control shortcuts</span></span>
 |                                                            |                               |
 |------------------------------------------------------------|-------------------------------|
-| **Чтобы это выполнить**                                             | **Нажмите**                     |
-| Ввести дату сеанса в поле даты                     | D+Tab                         |
-| Ввести в поле даты текущую дату                     | T+Tab                         |
-| Открыть поиск, поле со списков, средство выбора даты, раскрывающееся диалоговое окно           | Alt+Стрелка вниз                |
-| Закрыть поиск, поле со списков, средство выбора даты, раскрывающееся диалоговое окно          | Esc                           |
-| Переместить фокус в поиск (если поиск уже открыт) | ALT + СТРЕЛКА ВНИЗ                |
-| Открыть расширенный предварительный просмотр элемента управления                        | ALT + СТРЕЛКА ВВЕРХ                  |
-| Выбрать текст в текущем поле                           | Ctrl+A                        |
-| Войти в текстовую область в элементе управления редактора HTML или выйти из этой области        | Alt+Стрелка вниз / Alt+Стрелка вверх |
+| <span data-ttu-id="52272-257">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="52272-257">**To do this**</span></span>                                             | <span data-ttu-id="52272-258">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="52272-258">**Press**</span></span>                     |
+| <span data-ttu-id="52272-259">Ввести дату сеанса в поле даты</span><span class="sxs-lookup"><span data-stu-id="52272-259">Enter the session date in a date field</span></span>                     | <span data-ttu-id="52272-260">D+Tab</span><span class="sxs-lookup"><span data-stu-id="52272-260">D+Tab</span></span>                         |
+| <span data-ttu-id="52272-261">Ввести в поле даты текущую дату</span><span class="sxs-lookup"><span data-stu-id="52272-261">Enter the current date in a date field</span></span>                     | <span data-ttu-id="52272-262">T+Tab</span><span class="sxs-lookup"><span data-stu-id="52272-262">T+Tab</span></span>                         |
+| <span data-ttu-id="52272-263">Открыть поиск, поле со списков, средство выбора даты, раскрывающееся диалоговое окно</span><span class="sxs-lookup"><span data-stu-id="52272-263">Open lookup, combo box, date picker, drop dialog</span></span>           | <span data-ttu-id="52272-264">Alt+Стрелка вниз</span><span class="sxs-lookup"><span data-stu-id="52272-264">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="52272-265">Закрыть поиск, поле со списков, средство выбора даты, раскрывающееся диалоговое окно</span><span class="sxs-lookup"><span data-stu-id="52272-265">Close lookup, combo box, date picker, drop dialog</span></span>          | <span data-ttu-id="52272-266">Esc</span><span class="sxs-lookup"><span data-stu-id="52272-266">Esc</span></span>                           |
+| <span data-ttu-id="52272-267">Переместить фокус в поиск (если поиск уже открыт)</span><span class="sxs-lookup"><span data-stu-id="52272-267">Move focus into a lookup (when the lookup is already open)</span></span> | <span data-ttu-id="52272-268">ALT + СТРЕЛКА ВНИЗ</span><span class="sxs-lookup"><span data-stu-id="52272-268">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="52272-269">Открыть расширенный предварительный просмотр элемента управления</span><span class="sxs-lookup"><span data-stu-id="52272-269">Open the control's enhanced preview</span></span>                        | <span data-ttu-id="52272-270">ALT + СТРЕЛКА ВВЕРХ</span><span class="sxs-lookup"><span data-stu-id="52272-270">Alt+Up Arrow</span></span>                  |
+| <span data-ttu-id="52272-271">Выбрать текст в текущем поле</span><span class="sxs-lookup"><span data-stu-id="52272-271">Select text in the current field</span></span>                           | <span data-ttu-id="52272-272">Ctrl+A</span><span class="sxs-lookup"><span data-stu-id="52272-272">Ctrl+A</span></span>                        |
+| <span data-ttu-id="52272-273">Войти в текстовую область в элементе управления редактора HTML или выйти из этой области</span><span class="sxs-lookup"><span data-stu-id="52272-273">Enter/leave the text area in an HTML editor control</span></span>        | <span data-ttu-id="52272-274">Alt+Стрелка вниз / Alt+Стрелка вверх</span><span class="sxs-lookup"><span data-stu-id="52272-274">Alt+Down Arrow / Alt+Up Arrow</span></span> |
 
  
 
-## <a name="messaging-shortcuts"></a>Сочетания клавиш для обмена сообщениями
+## <a name="messaging-shortcuts"></a><span data-ttu-id="52272-275">Сочетания клавиш для обмена сообщениями</span><span class="sxs-lookup"><span data-stu-id="52272-275">Messaging shortcuts</span></span>
 |                          |               |
 |--------------------------|---------------|
-| **Чтобы это выполнить**           | **Нажмите**     |
-| Пойти в центр сообщений | Ctrl+Shift+F7 |
-| Пойти в строку сообщений    | Ctrl+F7       |
+| <span data-ttu-id="52272-276">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="52272-276">**To do this**</span></span>           | <span data-ttu-id="52272-277">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="52272-277">**Press**</span></span>     |
+| <span data-ttu-id="52272-278">Пойти в центр сообщений</span><span class="sxs-lookup"><span data-stu-id="52272-278">Go to the Message Center</span></span> | <span data-ttu-id="52272-279">Ctrl+Shift+F7</span><span class="sxs-lookup"><span data-stu-id="52272-279">Ctrl+Shift+F7</span></span> |
+| <span data-ttu-id="52272-280">Пойти в строку сообщений</span><span class="sxs-lookup"><span data-stu-id="52272-280">Go to the Message Bar</span></span>    | <span data-ttu-id="52272-281">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="52272-281">Ctrl+F7</span></span>       |
 
  
 
-## <a name="navigation-shortcuts"></a>Сочетания клавиш для навигации
+## <a name="navigation-shortcuts"></a><span data-ttu-id="52272-282">Сочетания клавиш для навигации</span><span class="sxs-lookup"><span data-stu-id="52272-282">Navigation shortcuts</span></span>
 |                                                                           |                 |
 |---------------------------------------------------------------------------|-----------------|
-| **Чтобы это выполнить**                                                            | **Нажмите**       |
-| Перейти на панель мониторинга                                                       | Alt+Shift+Home  |
-| Пойти в строку навигации                                                  | Alt+Shift+F1    |
-| Перейти в область переходов                                                 | Alt+F1          |
-| Добавить форму в избранное/удалить форму из избранного (с фокусом на форме в области переходов) | Shift+F         |
-| Пойдите в средство выбора компании                                                  | Ctrl+Shift+O    |
-| Перейти в навигационный поиск                                                   | Ctrl+/ или Alt+G |
-| Открыть панель справки                                                        | Ctrl+?          |
-| Открыть синтаксический анализатор трассировки                                                     | Alt+Shift+T     |
+| <span data-ttu-id="52272-283">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="52272-283">**To do this**</span></span>                                                            | <span data-ttu-id="52272-284">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="52272-284">**Press**</span></span>       |
+| <span data-ttu-id="52272-285">Перейти на панель мониторинга</span><span class="sxs-lookup"><span data-stu-id="52272-285">Go to the dashboard</span></span>                                                       | <span data-ttu-id="52272-286">Alt+Shift+Home</span><span class="sxs-lookup"><span data-stu-id="52272-286">Alt+Shift+Home</span></span>  |
+| <span data-ttu-id="52272-287">Пойти в строку навигации</span><span class="sxs-lookup"><span data-stu-id="52272-287">Go to the navigation bar</span></span>                                                  | <span data-ttu-id="52272-288">Alt+Shift+F1</span><span class="sxs-lookup"><span data-stu-id="52272-288">Alt+Shift+F1</span></span>    |
+| <span data-ttu-id="52272-289">Перейти в область переходов</span><span class="sxs-lookup"><span data-stu-id="52272-289">Go to the navigation pane</span></span>                                                 | <span data-ttu-id="52272-290">Alt+F1</span><span class="sxs-lookup"><span data-stu-id="52272-290">Alt+F1</span></span>          |
+| <span data-ttu-id="52272-291">Добавить форму в избранное/удалить форму из избранного (с фокусом на форме в области переходов)</span><span class="sxs-lookup"><span data-stu-id="52272-291">Favorite/un-favorite a form (with focus on a form in the navigation pane)</span></span> | <span data-ttu-id="52272-292">Shift+F</span><span class="sxs-lookup"><span data-stu-id="52272-292">Shift+F</span></span>         |
+| <span data-ttu-id="52272-293">Пойдите в средство выбора компании</span><span class="sxs-lookup"><span data-stu-id="52272-293">Go to the company picker</span></span>                                                  | <span data-ttu-id="52272-294">Ctrl+Shift+O</span><span class="sxs-lookup"><span data-stu-id="52272-294">Ctrl+Shift+O</span></span>    |
+| <span data-ttu-id="52272-295">Перейти в навигационный поиск</span><span class="sxs-lookup"><span data-stu-id="52272-295">Go to navigation search</span></span>                                                   | <span data-ttu-id="52272-296">Ctrl+/ или Alt+G</span><span class="sxs-lookup"><span data-stu-id="52272-296">Ctrl+/ or Alt+G</span></span> |
+| <span data-ttu-id="52272-297">Открыть панель справки</span><span class="sxs-lookup"><span data-stu-id="52272-297">Open the help pane</span></span>                                                        | <span data-ttu-id="52272-298">Ctrl+?</span><span class="sxs-lookup"><span data-stu-id="52272-298">Ctrl+?</span></span>          |
+| <span data-ttu-id="52272-299">Открыть синтаксический анализатор трассировки</span><span class="sxs-lookup"><span data-stu-id="52272-299">Open the trace parser</span></span>                                                     | <span data-ttu-id="52272-300">Alt+Shift+T</span><span class="sxs-lookup"><span data-stu-id="52272-300">Alt+Shift+T</span></span>     |
 
  
 
-## <a name="segmented-entry-shortcuts"></a>Сочетания клавиш для сегментированного ввода
+## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="52272-301">Сочетания клавиш для сегментированного ввода</span><span class="sxs-lookup"><span data-stu-id="52272-301">Segmented entry shortcuts</span></span>
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Чтобы это выполнить**                                                                                                          | **Нажмите**                        |
-| Открыть раскрывающийся список (когда раскрывающийся список закрыт)                                                             | Alt+Стрелка вниз                   |
-| Переместить фокус в поле ввода для текущего сегмента в раскрывающемся списке (когда раскрывающийся список уже открыт) | Alt+Стрелка вниз                   |
-| Закрыть раскрывающийся список                                                                                                | Alt+Стрелка вверх                     |
-| Закрыть/открыть правую раскрывающегося списка                                                                      | Alt+Стрелка влево / Alt+Стрелка вправо |
-| Переключение между режимами "Показать допустимый текст" и "Показать все"                                                                        | Alt+W                            |
-| Выбрать значение из раскрывающегося списка и перейти в следующий сегмент                                                       | Ввод                            |
-| Перейти следующему или предыдущему элементу управления на странице (когда фокус находится в элемент управления вводом)                                          | Tab / Shift+Tab                  |
-| Перейти в следующее или предыдущее поле во всплывающем элементе (когда фокус находится в раскрывающемся списке)                               | Tab / Shift+Tab                  |
-| Перейти на строку вверх или вниз в поиске                                                                                        | Стрелка вверх / Стрелка вниз            |
-| Перейти на страницу вверх или вниз в поиске                                                                                       | Page Up / Page Down              |
-| Перейти в начало или в конец поиска                                                                                    | Home / End                       |
+| <span data-ttu-id="52272-302">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="52272-302">**To do this**</span></span>                                                                                                          | <span data-ttu-id="52272-303">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="52272-303">**Press**</span></span>                        |
+| <span data-ttu-id="52272-304">Открыть раскрывающийся список (когда раскрывающийся список закрыт)</span><span class="sxs-lookup"><span data-stu-id="52272-304">Open the drop-down list (when the drop-down list is closed)</span></span>                                                             | <span data-ttu-id="52272-305">Alt+Стрелка вниз</span><span class="sxs-lookup"><span data-stu-id="52272-305">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="52272-306">Переместить фокус в поле ввода для текущего сегмента в раскрывающемся списке (когда раскрывающийся список уже открыт)</span><span class="sxs-lookup"><span data-stu-id="52272-306">Move focus into the input field for the current segment in the drop-down list (when the drop-down list is already open)</span></span> | <span data-ttu-id="52272-307">Alt+Стрелка вниз</span><span class="sxs-lookup"><span data-stu-id="52272-307">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="52272-308">Закрыть раскрывающийся список</span><span class="sxs-lookup"><span data-stu-id="52272-308">Close the drop-down list</span></span>                                                                                                | <span data-ttu-id="52272-309">Alt+Стрелка вверх</span><span class="sxs-lookup"><span data-stu-id="52272-309">Alt+Up Arrow</span></span>                     |
+| <span data-ttu-id="52272-310">Закрыть/открыть правую раскрывающегося списка</span><span class="sxs-lookup"><span data-stu-id="52272-310">Close/open the right portion of the drop-down list</span></span>                                                                      | <span data-ttu-id="52272-311">Alt+Стрелка влево / Alt+Стрелка вправо</span><span class="sxs-lookup"><span data-stu-id="52272-311">Alt+Left Arrow / Alt+Right Arrow</span></span> |
+| <span data-ttu-id="52272-312">Переключение между режимами "Показать допустимый текст" и "Показать все"</span><span class="sxs-lookup"><span data-stu-id="52272-312">Toggle between “Show valid” and “Show all” modes</span></span>                                                                        | <span data-ttu-id="52272-313">Alt+W</span><span class="sxs-lookup"><span data-stu-id="52272-313">Alt+W</span></span>                            |
+| <span data-ttu-id="52272-314">Выбрать значение из раскрывающегося списка и перейти в следующий сегмент</span><span class="sxs-lookup"><span data-stu-id="52272-314">Select the value from drop-down list and move to the next segment</span></span>                                                       | <span data-ttu-id="52272-315">Ввод</span><span class="sxs-lookup"><span data-stu-id="52272-315">Enter</span></span>                            |
+| <span data-ttu-id="52272-316">Перейти следующему или предыдущему элементу управления на странице (когда фокус находится в элемент управления вводом)</span><span class="sxs-lookup"><span data-stu-id="52272-316">Move to the next/previous control on the page (when focus is in input control)</span></span>                                          | <span data-ttu-id="52272-317">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="52272-317">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="52272-318">Перейти в следующее или предыдущее поле во всплывающем элементе (когда фокус находится в раскрывающемся списке)</span><span class="sxs-lookup"><span data-stu-id="52272-318">Move to the next/previous input field in the flyout (when focus is in the drop-down list)</span></span>                               | <span data-ttu-id="52272-319">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="52272-319">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="52272-320">Перейти на строку вверх или вниз в поиске</span><span class="sxs-lookup"><span data-stu-id="52272-320">Move up/down a row in the lookup</span></span>                                                                                        | <span data-ttu-id="52272-321">Стрелка вверх / Стрелка вниз</span><span class="sxs-lookup"><span data-stu-id="52272-321">Up Arrow / Down Arrow</span></span>            |
+| <span data-ttu-id="52272-322">Перейти на страницу вверх или вниз в поиске</span><span class="sxs-lookup"><span data-stu-id="52272-322">Move up/down a page in the lookup</span></span>                                                                                       | <span data-ttu-id="52272-323">Page Up / Page Down</span><span class="sxs-lookup"><span data-stu-id="52272-323">Page Up / Page Down</span></span>              |
+| <span data-ttu-id="52272-324">Перейти в начало или в конец поиска</span><span class="sxs-lookup"><span data-stu-id="52272-324">Move to the top/bottom of the lookup</span></span>                                                                                    | <span data-ttu-id="52272-325">Home / End</span><span class="sxs-lookup"><span data-stu-id="52272-325">Home / End</span></span>                       |
 
  
 

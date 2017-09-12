@@ -22,132 +22,132 @@ ms.contentlocale: ru-ru
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Изменение формата для создания документов с обновлением данных приложения для электронной отчетности (ER)
+# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a><span data-ttu-id="71fe9-103">Изменение формата для создания документов с обновлением данных приложения для электронной отчетности (ER)</span><span class="sxs-lookup"><span data-stu-id="71fe9-103">Modify format to generate documents with application data update for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Формирование документов с обновлением данных приложения (Часть 3. Изменение модели и сопоставления)".
+<span data-ttu-id="71fe9-104">Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Формирование документов с обновлением данных приложения (Часть 3. Изменение модели и сопоставления)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-104">To complete the steps in this procedure, you must first complete the procedure, "ER Generate documents with application data update (Part 3: Modify model and mapping)".</span></span>
 
-В этой процедуре поясняется разработка конфигураций электронной отчетности для формирования электронного документа и обновления данных приложения. В этой процедуре вам предстоит изменить конфигурации электронной отчетности, чтобы использовать их не просто для формирования электронных документов, но также для обновления данных приложения. Эта процедура предназначена для пользователей, которым назначена роль "Системный администратор" или "Разработчик электронной отчетности". Действия можно выполнять с использованием набора данных DEMF.
+<span data-ttu-id="71fe9-105">В этой процедуре поясняется разработка конфигураций электронной отчетности для формирования электронного документа и обновления данных приложения.</span><span class="sxs-lookup"><span data-stu-id="71fe9-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document and update application data.</span></span> <span data-ttu-id="71fe9-106">В этой процедуре вам предстоит изменить конфигурации электронной отчетности, чтобы использовать их не просто для формирования электронных документов, но также для обновления данных приложения.</span><span class="sxs-lookup"><span data-stu-id="71fe9-106">In this procedure, you will modify the ER configurations to not just use them to generate electronic documents, but also to update application data.</span></span> <span data-ttu-id="71fe9-107">Эта процедура предназначена для пользователей, которым назначена роль "Системный администратор" или "Разработчик электронной отчетности".</span><span class="sxs-lookup"><span data-stu-id="71fe9-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="71fe9-108">Действия можно выполнять с использованием набора данных DEMF.</span><span class="sxs-lookup"><span data-stu-id="71fe9-108">These steps can be completed using the DEMF dataset.</span></span>
 
 
-## <a name="modify-format-to-collect-details-of-reporting"></a>Изменение формата для сбора сведений отчетности
-1. Перейдите в раздел "Управление организацией" > "Электронная отчетность" > "Конфигурации".
-2. В дереве разверните узел "Intrastat (model)".
-3. В дереве выберите "Intrastat (model)\Intrastat (format)".
-4. Выберите Конструктор.
-5. В дереве разверните "Файл".
-6. В дереве разверните "Файл\Декларация".
-7. В дереве выберите "Файл\Декларация\Данные".
-8. В поле "Кратность" выберите "Один — много".
-    * Настройте этот элемент формата для архивирования сведений о процессе составления отчетности Интрастат. Этот элемент представляет запись заголовка архива.  
-9. В дереве разверните "Файл\Декларация\Данные".
-10. В дереве выберите "Файл\Декларация\Данные\Номенклатура".
-11. В поле "Кратность" выберите "Ноль — много".
-    * Настройте этот элемент формата для архивирования сведений о процессе составления отчетности Интрастат. Этот элемент будет представлять список архивированных строк.  
-12. В дереве разверните "Файл\Декларация\Данные\Номенклатура".
-13. В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim1".
-14. Выберите "Да" в поле "Исключено".
-    * Эти данные не будут архивироваться, поэтому этот элемент формата можно исключить из источника данных сведений о составлении отчетности Интрастат.  
-15. В дереве разверните "Файл\Декларация\Данные\Номенклатура\Dim1".
-16. В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim1\свойство".
-17. Выберите "Да" в поле "Исключено".
-18. В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim1\дата".
-19. Выберите "Да" в поле "Исключено".
-20. В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim2".
-21. Выберите "Да" в поле "Исключено".
-22. В дереве разверните "Файл\Декларация\Данные\Номенклатура\Dim2".
-23. В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim2\свойство".
-24. Выберите "Да" в поле "Исключено".
-25. В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim2\код".
-26. Выберите "Да" в поле "Исключено".
-27. В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim3".
-    * Несколько элементов формата могут иметь одно и то же имя. Например, "Dim". Их нельзя распознать явным образом при использовании этого формата в качестве источника данных для архивирования сведений о составлении отчетности Интрастат, поэтому необходимо определить альтернативные имена для этих элементов формата.   
-28. В поле "Имя" введите "Сумма".
-    * Сумма, руб.  
-29. В поле "Кратность" выберите "Ровно один".
-30. В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim4".
-31. В поле "Имя" введите "Номенклатура".
-    * Раздел  
-32. В поле "Кратность" выберите "Ровно один".
-    * В дополнение к элементам формата структуры должны архивироваться следующие сведения о составлении отчетности Интрастат: уникальный идентификатор записи каждой включенной в отчет номенклатуры товара и имя сформированного файла. Поскольку эти данные не будут присутствовать в отчете Интрастат, необходимо добавить формат, связанный с этими элементами сведений в качестве элементов источника данных.  
-33. В дереве выберите "Файл\Декларация\Данные".
-34. Щелкните "Добавить", чтобы открыть раскрывающееся диалоговое окно.
-35. В дереве выберите "Источник данных\Номенклатура".
-36. В поле "Имя" введите "Имя файла".
-    * Имя файла  
-37. В поле "Тип данных" выберите "Строка".
-38. Нажмите кнопку "OК".
-39. В дереве выберите "Файл\Декларация\Данные\Номенклатура".
-40. Щелкните "Добавить элемент".
-41. В поле "Имя" введите "Код записи товара".
-    * Код записи товара  
-42. В поле "Тип данных" выберите "Int64".
-43. Нажмите кнопку "OК".
-44. Перейдите на вкладку "Сопоставление".
-45. В дереве выберите "Файл\Декларация\Данные\Имя файла".
-46. Щелкните "Связать".
-47. В дереве разверните узел "model".
-48. В дереве разверните "модель\Транзакции".
-49. В дереве выберите "Файл\Объявление\Данные\Номенклатура = модель.Проводки\Код записи товара".
-50. В дереве выберите "модель\Проводки\Код записи товара".
-51. Щелкните "Связать".
-52. Нажмите кнопку "Сохранить".
+## <a name="modify-format-to-collect-details-of-reporting"></a><span data-ttu-id="71fe9-109">Изменение формата для сбора сведений отчетности</span><span class="sxs-lookup"><span data-stu-id="71fe9-109">Modify format to collect details of reporting</span></span>
+1. <span data-ttu-id="71fe9-110">Перейдите в раздел "Управление организацией" > "Электронная отчетность" > "Конфигурации".</span><span class="sxs-lookup"><span data-stu-id="71fe9-110">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="71fe9-111">В дереве разверните узел "Intrastat (model)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-111">In the tree, expand 'Intrastat (model)'.</span></span>
+3. <span data-ttu-id="71fe9-112">В дереве выберите "Intrastat (model)\Intrastat (format)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-112">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
+4. <span data-ttu-id="71fe9-113">Выберите Конструктор.</span><span class="sxs-lookup"><span data-stu-id="71fe9-113">Click Designer.</span></span>
+5. <span data-ttu-id="71fe9-114">В дереве разверните "Файл".</span><span class="sxs-lookup"><span data-stu-id="71fe9-114">In the tree, expand 'File'.</span></span>
+6. <span data-ttu-id="71fe9-115">В дереве разверните "Файл\Декларация".</span><span class="sxs-lookup"><span data-stu-id="71fe9-115">In the tree, expand 'File\Declaration'.</span></span>
+7. <span data-ttu-id="71fe9-116">В дереве выберите "Файл\Декларация\Данные".</span><span class="sxs-lookup"><span data-stu-id="71fe9-116">In the tree, select 'File\Declaration\Data'.</span></span>
+8. <span data-ttu-id="71fe9-117">В поле "Кратность" выберите "Один — много".</span><span class="sxs-lookup"><span data-stu-id="71fe9-117">In the Multiplicity field, select 'One many'.</span></span>
+    * <span data-ttu-id="71fe9-118">Настройте этот элемент формата для архивирования сведений о процессе составления отчетности Интрастат.</span><span class="sxs-lookup"><span data-stu-id="71fe9-118">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="71fe9-119">Этот элемент представляет запись заголовка архива.</span><span class="sxs-lookup"><span data-stu-id="71fe9-119">This item represents the archive’s header record.</span></span>  
+9. <span data-ttu-id="71fe9-120">В дереве разверните "Файл\Декларация\Данные".</span><span class="sxs-lookup"><span data-stu-id="71fe9-120">In the tree, expand 'File\Declaration\Data'.</span></span>
+10. <span data-ttu-id="71fe9-121">В дереве выберите "Файл\Декларация\Данные\Номенклатура".</span><span class="sxs-lookup"><span data-stu-id="71fe9-121">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+11. <span data-ttu-id="71fe9-122">В поле "Кратность" выберите "Ноль — много".</span><span class="sxs-lookup"><span data-stu-id="71fe9-122">In the Multiplicity field, select 'Zero many'.</span></span>
+    * <span data-ttu-id="71fe9-123">Настройте этот элемент формата для архивирования сведений о процессе составления отчетности Интрастат.</span><span class="sxs-lookup"><span data-stu-id="71fe9-123">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="71fe9-124">Этот элемент будет представлять список архивированных строк.</span><span class="sxs-lookup"><span data-stu-id="71fe9-124">This item will represent the list of archived lines.</span></span>  
+12. <span data-ttu-id="71fe9-125">В дереве разверните "Файл\Декларация\Данные\Номенклатура".</span><span class="sxs-lookup"><span data-stu-id="71fe9-125">In the tree, expand 'File\Declaration\Data\Item'.</span></span>
+13. <span data-ttu-id="71fe9-126">В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim1".</span><span class="sxs-lookup"><span data-stu-id="71fe9-126">In the tree, select 'File\Declaration\Data\Item\Dim1'.</span></span>
+14. <span data-ttu-id="71fe9-127">Выберите "Да" в поле "Исключено".</span><span class="sxs-lookup"><span data-stu-id="71fe9-127">Select Yes in the Excluded field.</span></span>
+    * <span data-ttu-id="71fe9-128">Эти данные не будут архивироваться, поэтому этот элемент формата можно исключить из источника данных сведений о составлении отчетности Интрастат.</span><span class="sxs-lookup"><span data-stu-id="71fe9-128">You will not archive this data, so you can exclude this format element from the data source of Intrastat reporting details.</span></span>  
+15. <span data-ttu-id="71fe9-129">В дереве разверните "Файл\Декларация\Данные\Номенклатура\Dim1".</span><span class="sxs-lookup"><span data-stu-id="71fe9-129">In the tree, expand 'File\Declaration\Data\Item\Dim1'.</span></span>
+16. <span data-ttu-id="71fe9-130">В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim1\свойство".</span><span class="sxs-lookup"><span data-stu-id="71fe9-130">In the tree, select 'File\Declaration\Data\Item\Dim1\property'.</span></span>
+17. <span data-ttu-id="71fe9-131">Выберите "Да" в поле "Исключено".</span><span class="sxs-lookup"><span data-stu-id="71fe9-131">Select Yes in the Excluded field.</span></span>
+18. <span data-ttu-id="71fe9-132">В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim1\дата".</span><span class="sxs-lookup"><span data-stu-id="71fe9-132">In the tree, select 'File\Declaration\Data\Item\Dim1\date'.</span></span>
+19. <span data-ttu-id="71fe9-133">Выберите "Да" в поле "Исключено".</span><span class="sxs-lookup"><span data-stu-id="71fe9-133">Select Yes in the Excluded field.</span></span>
+20. <span data-ttu-id="71fe9-134">В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim2".</span><span class="sxs-lookup"><span data-stu-id="71fe9-134">In the tree, select 'File\Declaration\Data\Item\Dim2'.</span></span>
+21. <span data-ttu-id="71fe9-135">Выберите "Да" в поле "Исключено".</span><span class="sxs-lookup"><span data-stu-id="71fe9-135">Select Yes in the Excluded field.</span></span>
+22. <span data-ttu-id="71fe9-136">В дереве разверните "Файл\Декларация\Данные\Номенклатура\Dim2".</span><span class="sxs-lookup"><span data-stu-id="71fe9-136">In the tree, expand 'File\Declaration\Data\Item\Dim2'.</span></span>
+23. <span data-ttu-id="71fe9-137">В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim2\свойство".</span><span class="sxs-lookup"><span data-stu-id="71fe9-137">In the tree, select 'File\Declaration\Data\Item\Dim2\property'.</span></span>
+24. <span data-ttu-id="71fe9-138">Выберите "Да" в поле "Исключено".</span><span class="sxs-lookup"><span data-stu-id="71fe9-138">Select Yes in the Excluded field.</span></span>
+25. <span data-ttu-id="71fe9-139">В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim2\код".</span><span class="sxs-lookup"><span data-stu-id="71fe9-139">In the tree, select 'File\Declaration\Data\Item\Dim2\code'.</span></span>
+26. <span data-ttu-id="71fe9-140">Выберите "Да" в поле "Исключено".</span><span class="sxs-lookup"><span data-stu-id="71fe9-140">Select Yes in the Excluded field.</span></span>
+27. <span data-ttu-id="71fe9-141">В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim3".</span><span class="sxs-lookup"><span data-stu-id="71fe9-141">In the tree, select 'File\Declaration\Data\Item\Dim3'.</span></span>
+    * <span data-ttu-id="71fe9-142">Несколько элементов формата могут иметь одно и то же имя.</span><span class="sxs-lookup"><span data-stu-id="71fe9-142">Several format elements can have the same name.</span></span> <span data-ttu-id="71fe9-143">Например, "Dim".</span><span class="sxs-lookup"><span data-stu-id="71fe9-143">For example, Dim.</span></span> <span data-ttu-id="71fe9-144">Их нельзя распознать явным образом при использовании этого формата в качестве источника данных для архивирования сведений о составлении отчетности Интрастат, поэтому необходимо определить альтернативные имена для этих элементов формата.</span><span class="sxs-lookup"><span data-stu-id="71fe9-144">You cannot explicitly recognize them when you use this format as a data source for archiving Intrastat reporting details, so you need to define the alternative names for these format elements.</span></span>   
+28. <span data-ttu-id="71fe9-145">В поле "Имя" введите "Сумма".</span><span class="sxs-lookup"><span data-stu-id="71fe9-145">In the Name field, type 'Amount'.</span></span>
+    * <span data-ttu-id="71fe9-146">Сумма, руб.</span><span class="sxs-lookup"><span data-stu-id="71fe9-146">Amount</span></span>  
+29. <span data-ttu-id="71fe9-147">В поле "Кратность" выберите "Ровно один".</span><span class="sxs-lookup"><span data-stu-id="71fe9-147">In the Multiplicity field, select 'Exactly one'.</span></span>
+30. <span data-ttu-id="71fe9-148">В дереве выберите "Файл\Декларация\Данные\Номенклатура\Dim4".</span><span class="sxs-lookup"><span data-stu-id="71fe9-148">In the tree, select 'File\Declaration\Data\Item\Dim4'.</span></span>
+31. <span data-ttu-id="71fe9-149">В поле "Имя" введите "Номенклатура".</span><span class="sxs-lookup"><span data-stu-id="71fe9-149">In the Name field, type 'Item'.</span></span>
+    * <span data-ttu-id="71fe9-150">Раздел</span><span class="sxs-lookup"><span data-stu-id="71fe9-150">Item</span></span>  
+32. <span data-ttu-id="71fe9-151">В поле "Кратность" выберите "Ровно один".</span><span class="sxs-lookup"><span data-stu-id="71fe9-151">In the Multiplicity field, select 'Exactly one'.</span></span>
+    * <span data-ttu-id="71fe9-152">В дополнение к элементам формата структуры должны архивироваться следующие сведения о составлении отчетности Интрастат: уникальный идентификатор записи каждой включенной в отчет номенклатуры товара и имя сформированного файла.</span><span class="sxs-lookup"><span data-stu-id="71fe9-152">In addition to the design format elements, the following Intrastat reporting details must be archived: unique record identification of each reported commodity item and name of the generated file.</span></span> <span data-ttu-id="71fe9-153">Поскольку эти данные не будут присутствовать в отчете Интрастат, необходимо добавить формат, связанный с этими элементами сведений в качестве элементов источника данных.</span><span class="sxs-lookup"><span data-stu-id="71fe9-153">Because this data will not be populated in the Intrastat report, you need to add the format that is related to these detail elements as data source items.</span></span>  
+33. <span data-ttu-id="71fe9-154">В дереве выберите "Файл\Декларация\Данные".</span><span class="sxs-lookup"><span data-stu-id="71fe9-154">In the tree, select 'File\Declaration\Data'.</span></span>
+34. <span data-ttu-id="71fe9-155">Щелкните "Добавить", чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="71fe9-155">Click Add to open the drop dialog.</span></span>
+35. <span data-ttu-id="71fe9-156">В дереве выберите "Источник данных\Номенклатура".</span><span class="sxs-lookup"><span data-stu-id="71fe9-156">In the tree, select 'Data source\Item'.</span></span>
+36. <span data-ttu-id="71fe9-157">В поле "Имя" введите "Имя файла".</span><span class="sxs-lookup"><span data-stu-id="71fe9-157">In the Name field, type 'File name'.</span></span>
+    * <span data-ttu-id="71fe9-158">Имя файла</span><span class="sxs-lookup"><span data-stu-id="71fe9-158">File name</span></span>  
+37. <span data-ttu-id="71fe9-159">В поле "Тип данных" выберите "Строка".</span><span class="sxs-lookup"><span data-stu-id="71fe9-159">In the Data type field, select 'String'.</span></span>
+38. <span data-ttu-id="71fe9-160">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="71fe9-160">Click OK.</span></span>
+39. <span data-ttu-id="71fe9-161">В дереве выберите "Файл\Декларация\Данные\Номенклатура".</span><span class="sxs-lookup"><span data-stu-id="71fe9-161">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+40. <span data-ttu-id="71fe9-162">Щелкните "Добавить элемент".</span><span class="sxs-lookup"><span data-stu-id="71fe9-162">Click Add Item.</span></span>
+41. <span data-ttu-id="71fe9-163">В поле "Имя" введите "Код записи товара".</span><span class="sxs-lookup"><span data-stu-id="71fe9-163">In the Name field, type 'Commodity rec id'.</span></span>
+    * <span data-ttu-id="71fe9-164">Код записи товара</span><span class="sxs-lookup"><span data-stu-id="71fe9-164">Commodity rec id</span></span>  
+42. <span data-ttu-id="71fe9-165">В поле "Тип данных" выберите "Int64".</span><span class="sxs-lookup"><span data-stu-id="71fe9-165">In the Data type field, select 'Int64'.</span></span>
+43. <span data-ttu-id="71fe9-166">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="71fe9-166">Click OK.</span></span>
+44. <span data-ttu-id="71fe9-167">Перейдите на вкладку "Сопоставление".</span><span class="sxs-lookup"><span data-stu-id="71fe9-167">Click the Mapping tab.</span></span>
+45. <span data-ttu-id="71fe9-168">В дереве выберите "Файл\Декларация\Данные\Имя файла".</span><span class="sxs-lookup"><span data-stu-id="71fe9-168">In the tree, select 'File\Declaration\Data\File name'.</span></span>
+46. <span data-ttu-id="71fe9-169">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="71fe9-169">Click Bind.</span></span>
+47. <span data-ttu-id="71fe9-170">В дереве разверните узел "model".</span><span class="sxs-lookup"><span data-stu-id="71fe9-170">In the tree, expand 'model'.</span></span>
+48. <span data-ttu-id="71fe9-171">В дереве разверните "модель\Транзакции".</span><span class="sxs-lookup"><span data-stu-id="71fe9-171">In the tree, expand 'model\Transactions'.</span></span>
+49. <span data-ttu-id="71fe9-172">В дереве выберите "Файл\Объявление\Данные\Номенклатура = модель.Проводки\Код записи товара".</span><span class="sxs-lookup"><span data-stu-id="71fe9-172">In the tree, select 'File\Declaration\Data\Item =  model.Transactions\Commodity rec id'.</span></span>
+50. <span data-ttu-id="71fe9-173">В дереве выберите "модель\Проводки\Код записи товара".</span><span class="sxs-lookup"><span data-stu-id="71fe9-173">In the tree, select 'model\Transactions\Commodity rec id'.</span></span>
+51. <span data-ttu-id="71fe9-174">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="71fe9-174">Click Bind.</span></span>
+52. <span data-ttu-id="71fe9-175">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="71fe9-175">Click Save.</span></span>
 
-## <a name="modify-format-to-memorize-details-of-reporting"></a>Изменение формата для запоминания сведений отчетности
-1. Щелкните "Сопоставить формат модели".
-2. Щелкните "Создать".
-3. В поле "Определение" введите или выберите корневой элемент "Для обновления данных приложения".
-    * Для обновления данных приложения  
-4. В поле "Имя" введите "Сопоставление для обновления данных".
-    * Сопоставление для обновления данных  
-5. Нажмите кнопку "Сохранить".
-    * Это сопоставление определяет, как будет происходить сбор сведений об отчете Интрастат в модели данных, структура которой задается выбранным корневым элементом "Для обновления данных приложения". Эти сведения, сопоставление модели с тем же корневым элементом "Для обновления данных приложения" и направление "В место назначения" будут использоваться для обновления данных приложения. Обновление данных начинается сразу же после формирования исходящего отчета Интрастат. Обратите внимание, что обновление данных приложения можно пропустить во время выполнения, однако модель данных должна быть пустой (содержащей пустой список записей).   
-6. Выберите Конструктор.
-    * Обратите внимание, что формат исходящего отчета Интрастат по умолчанию добавляется в качестве источника данных для этого сопоставления модели.  
-    * Привяжите элементы разработанного отчета (представленного как источник данных) к элементам модели данных, которая фильтруется на основании выбранного корневого элемента модели.  
-7. В дереве разверните "Заголовок архива".
-8. В дереве разверните "Заголовок архива\Строки архива".
-9. В дереве разверните "формат".
-10. В дереве разверните "формат\Декларация: XML-элемент(Декларация)".
-11. В дереве разверните "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)".
-12. В дереве разверните "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)".
-13. В дереве разверните "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)\Dim3: XML-элемент 1..1 (Сумма)'.
-14. В дереве разверните "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)\Dim4: XML-элемент 1..1 (Номенклатура)'.
-15. В дереве выберите "Заголовок архива\Число строк".
-16. Щелкните "Изменить".
-17. В дереве выберите "Список\COUNT".
-18. Щелкните "Добавить функцию".
-19. В дереве разверните "формат".
-20. В дереве разверните "формат\Декларация: XML-элемент(Декларация)".
-21. В дереве разверните "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)".
-22. В дереве выберите "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)".
-23. Щелкните "Добавить источник данных".
-24. В поле "Формула" введите "COUNT(формат.Декларация.Данные.Номенклатура)".
-    * COUNT (формат.Объявление.Данные.Номенклатура)  
-25. Нажмите кнопку "Сохранить".
-26. Закройте страницу.
-27. В дереве выберите "Заголовок архива\Имя файла".
-28. В дереве выберите "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Имя файла: Номенклатура String(Имя файла)'.
-29. Щелкните "Связать".
-30. В дереве выберите "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)\Dim4: XML-элемент 1..1 (Номенклатура)\номер: String(номер)".
-31. В дереве выберите "Заголовок архива\Строки архива\Код номенклатуры".
-32. Щелкните "Связать".
-33. В дереве выберите "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)\Dim3: XML-элемент 1..1 (Сумма)\значение: Numeric Real(значение)".
-34. В дереве выберите "Заголовок архива\Строки архива\Сумма".
-35. Щелкните "Связать".
-36. В дереве выберите "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)\Код записи товара: Номенклатура Int64(Код записи товара)'.
-37. В дереве выберите "Заголовок архива\Строки архива\Код записи товара".
-38. Щелкните "Связать".
-39. В дереве выберите "Заголовок архива\Строки архива".
-40. В дереве выберите "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)".
-41. Щелкните "Связать".
-42. В дереве выберите "Заголовок архива".
-43. В дереве выберите "format\Declaration: XML Element(Declaration)Data: XML Element 1..* (Data)".
-44. Щелкните "Связать".
-45. Нажмите кнопку "Сохранить".
-46. Закройте страницу.
-47. Закройте страницу.
-48. Закройте страницу.
+## <a name="modify-format-to-memorize-details-of-reporting"></a><span data-ttu-id="71fe9-176">Изменение формата для запоминания сведений отчетности</span><span class="sxs-lookup"><span data-stu-id="71fe9-176">Modify format to memorize details of reporting</span></span>
+1. <span data-ttu-id="71fe9-177">Щелкните "Сопоставить формат модели".</span><span class="sxs-lookup"><span data-stu-id="71fe9-177">Click Map format to model.</span></span>
+2. <span data-ttu-id="71fe9-178">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="71fe9-178">Click New.</span></span>
+3. <span data-ttu-id="71fe9-179">В поле "Определение" введите или выберите корневой элемент "Для обновления данных приложения".</span><span class="sxs-lookup"><span data-stu-id="71fe9-179">In the Definition field, enter or select the ‘For application data update’ root item.</span></span>
+    * <span data-ttu-id="71fe9-180">Для обновления данных приложения</span><span class="sxs-lookup"><span data-stu-id="71fe9-180">For application data update</span></span>  
+4. <span data-ttu-id="71fe9-181">В поле "Имя" введите "Сопоставление для обновления данных".</span><span class="sxs-lookup"><span data-stu-id="71fe9-181">In the Name field, type 'Mapping to update data'.</span></span>
+    * <span data-ttu-id="71fe9-182">Сопоставление для обновления данных</span><span class="sxs-lookup"><span data-stu-id="71fe9-182">Mapping to update data</span></span>  
+5. <span data-ttu-id="71fe9-183">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="71fe9-183">Click Save.</span></span>
+    * <span data-ttu-id="71fe9-184">Это сопоставление определяет, как будет происходить сбор сведений об отчете Интрастат в модели данных, структура которой задается выбранным корневым элементом "Для обновления данных приложения".</span><span class="sxs-lookup"><span data-stu-id="71fe9-184">This mapping defines how the details of the Intrastat report are collected in the data model, the structure of which is specified by the selected root item ‘For application data update’.</span></span> <span data-ttu-id="71fe9-185">Эти сведения, сопоставление модели с тем же корневым элементом "Для обновления данных приложения" и направление "В место назначения" будут использоваться для обновления данных приложения.</span><span class="sxs-lookup"><span data-stu-id="71fe9-185">These details, the model mapping with same root item ‘For application data update’, and the direction ‘To destination’ will be used for the application data update.</span></span> <span data-ttu-id="71fe9-186">Обновление данных начинается сразу же после формирования исходящего отчета Интрастат.</span><span class="sxs-lookup"><span data-stu-id="71fe9-186">The application data update starts immediately after the outgoing Intrastat report is generated.</span></span> <span data-ttu-id="71fe9-187">Обратите внимание, что обновление данных приложения можно пропустить во время выполнения, однако модель данных должна быть пустой (содержащей пустой список записей).</span><span class="sxs-lookup"><span data-stu-id="71fe9-187">Note that the application data update can be skipped at run-time, but the data model must be empty (containing empty record list).</span></span>   
+6. <span data-ttu-id="71fe9-188">Выберите Конструктор.</span><span class="sxs-lookup"><span data-stu-id="71fe9-188">Click Designer.</span></span>
+    * <span data-ttu-id="71fe9-189">Обратите внимание, что формат исходящего отчета Интрастат по умолчанию добавляется в качестве источника данных для этого сопоставления модели.</span><span class="sxs-lookup"><span data-stu-id="71fe9-189">Note that the outgoing Intrastat report format is added by default as a data source for this model mapping.</span></span>  
+    * <span data-ttu-id="71fe9-190">Привяжите элементы разработанного отчета (представленного как источник данных) к элементам модели данных, которая фильтруется на основании выбранного корневого элемента модели.</span><span class="sxs-lookup"><span data-stu-id="71fe9-190">Bind elements of the designed report (presented as data source) to elements of the data model, which is filtered based on the selected model’s root item.</span></span>  
+7. <span data-ttu-id="71fe9-191">В дереве разверните "Заголовок архива".</span><span class="sxs-lookup"><span data-stu-id="71fe9-191">In the tree, expand 'Archive header'.</span></span>
+8. <span data-ttu-id="71fe9-192">В дереве разверните "Заголовок архива\Строки архива".</span><span class="sxs-lookup"><span data-stu-id="71fe9-192">In the tree, expand 'Archive header\Archive lines'.</span></span>
+9. <span data-ttu-id="71fe9-193">В дереве разверните "формат".</span><span class="sxs-lookup"><span data-stu-id="71fe9-193">In the tree, expand 'format'.</span></span>
+10. <span data-ttu-id="71fe9-194">В дереве разверните "формат\Декларация: XML-элемент(Декларация)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-194">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+11. <span data-ttu-id="71fe9-195">В дереве разверните "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-195">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+12. <span data-ttu-id="71fe9-196">В дереве разверните "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-196">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+13. <span data-ttu-id="71fe9-197">В дереве разверните "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)\Dim3: XML-элемент 1..1 (Сумма)'.</span><span class="sxs-lookup"><span data-stu-id="71fe9-197">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)'.</span></span>
+14. <span data-ttu-id="71fe9-198">В дереве разверните "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)\Dim4: XML-элемент 1..1 (Номенклатура)'.</span><span class="sxs-lookup"><span data-stu-id="71fe9-198">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)'.</span></span>
+15. <span data-ttu-id="71fe9-199">В дереве выберите "Заголовок архива\Число строк".</span><span class="sxs-lookup"><span data-stu-id="71fe9-199">In the tree, select 'Archive header\Number of lines'.</span></span>
+16. <span data-ttu-id="71fe9-200">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="71fe9-200">Click Edit.</span></span>
+17. <span data-ttu-id="71fe9-201">В дереве выберите "Список\COUNT".</span><span class="sxs-lookup"><span data-stu-id="71fe9-201">In the tree, select 'List\COUNT'.</span></span>
+18. <span data-ttu-id="71fe9-202">Щелкните "Добавить функцию".</span><span class="sxs-lookup"><span data-stu-id="71fe9-202">Click Add function.</span></span>
+19. <span data-ttu-id="71fe9-203">В дереве разверните "формат".</span><span class="sxs-lookup"><span data-stu-id="71fe9-203">In the tree, expand 'format'.</span></span>
+20. <span data-ttu-id="71fe9-204">В дереве разверните "формат\Декларация: XML-элемент(Декларация)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-204">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+21. <span data-ttu-id="71fe9-205">В дереве разверните "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-205">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+22. <span data-ttu-id="71fe9-206">В дереве выберите "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-206">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+23. <span data-ttu-id="71fe9-207">Щелкните "Добавить источник данных".</span><span class="sxs-lookup"><span data-stu-id="71fe9-207">Click Add data source.</span></span>
+24. <span data-ttu-id="71fe9-208">В поле "Формула" введите "COUNT(формат.Декларация.Данные.Номенклатура)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-208">In the Formula field, enter 'COUNT(format.Declaration.Data.Item)'.</span></span>
+    * <span data-ttu-id="71fe9-209">COUNT (формат.Объявление.Данные.Номенклатура)</span><span class="sxs-lookup"><span data-stu-id="71fe9-209">COUNT(format.Declaration.Data.Item)</span></span>  
+25. <span data-ttu-id="71fe9-210">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="71fe9-210">Click Save.</span></span>
+26. <span data-ttu-id="71fe9-211">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="71fe9-211">Close the page.</span></span>
+27. <span data-ttu-id="71fe9-212">В дереве выберите "Заголовок архива\Имя файла".</span><span class="sxs-lookup"><span data-stu-id="71fe9-212">In the tree, select 'Archive header\File name'.</span></span>
+28. <span data-ttu-id="71fe9-213">В дереве выберите "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Имя файла: Номенклатура String(Имя файла)'.</span><span class="sxs-lookup"><span data-stu-id="71fe9-213">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)'.</span></span>
+29. <span data-ttu-id="71fe9-214">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="71fe9-214">Click Bind.</span></span>
+30. <span data-ttu-id="71fe9-215">В дереве выберите "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)\Dim4: XML-элемент 1..1 (Номенклатура)\номер: String(номер)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-215">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)'.</span></span>
+31. <span data-ttu-id="71fe9-216">В дереве выберите "Заголовок архива\Строки архива\Код номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="71fe9-216">In the tree, select 'Archive header\Archive lines\Item number'.</span></span>
+32. <span data-ttu-id="71fe9-217">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="71fe9-217">Click Bind.</span></span>
+33. <span data-ttu-id="71fe9-218">В дереве выберите "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)\Dim3: XML-элемент 1..1 (Сумма)\значение: Numeric Real(значение)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-218">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)'.</span></span>
+34. <span data-ttu-id="71fe9-219">В дереве выберите "Заголовок архива\Строки архива\Сумма".</span><span class="sxs-lookup"><span data-stu-id="71fe9-219">In the tree, select 'Archive header\Archive lines\Amount'.</span></span>
+35. <span data-ttu-id="71fe9-220">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="71fe9-220">Click Bind.</span></span>
+36. <span data-ttu-id="71fe9-221">В дереве выберите "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)\Код записи товара: Номенклатура Int64(Код записи товара)'.</span><span class="sxs-lookup"><span data-stu-id="71fe9-221">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)'.</span></span>
+37. <span data-ttu-id="71fe9-222">В дереве выберите "Заголовок архива\Строки архива\Код записи товара".</span><span class="sxs-lookup"><span data-stu-id="71fe9-222">In the tree, select 'Archive header\Archive lines\Commodity rec id'.</span></span>
+38. <span data-ttu-id="71fe9-223">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="71fe9-223">Click Bind.</span></span>
+39. <span data-ttu-id="71fe9-224">В дереве выберите "Заголовок архива\Строки архива".</span><span class="sxs-lookup"><span data-stu-id="71fe9-224">In the tree, select 'Archive header\Archive lines'.</span></span>
+40. <span data-ttu-id="71fe9-225">В дереве выберите "формат\Декларация: XML-элемент(Декларация)\Данные: XML-элемент 1..* (Данные)\Номенклатура: XML-элемент 0..* (Номенклатура)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-225">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+41. <span data-ttu-id="71fe9-226">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="71fe9-226">Click Bind.</span></span>
+42. <span data-ttu-id="71fe9-227">В дереве выберите "Заголовок архива".</span><span class="sxs-lookup"><span data-stu-id="71fe9-227">In the tree, select 'Archive header'.</span></span>
+43. <span data-ttu-id="71fe9-228">В дереве выберите "format\Declaration: XML Element(Declaration)Data: XML Element 1..* (Data)".</span><span class="sxs-lookup"><span data-stu-id="71fe9-228">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+44. <span data-ttu-id="71fe9-229">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="71fe9-229">Click Bind.</span></span>
+45. <span data-ttu-id="71fe9-230">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="71fe9-230">Click Save.</span></span>
+46. <span data-ttu-id="71fe9-231">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="71fe9-231">Close the page.</span></span>
+47. <span data-ttu-id="71fe9-232">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="71fe9-232">Close the page.</span></span>
+48. <span data-ttu-id="71fe9-233">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="71fe9-233">Close the page.</span></span>
 
 

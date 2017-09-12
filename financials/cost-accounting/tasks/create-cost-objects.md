@@ -16,38 +16,38 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 79cb18717c6b42ef0307f304d28902dd66f0f932
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5d43274aed2edbb91fd4e399cb8d45e91646b055
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-cost-objects"></a>Создание объектов затрат 
+# <a name="create-cost-objects"></a><span data-ttu-id="73136-103">Создание объектов затрат</span><span class="sxs-lookup"><span data-stu-id="73136-103">Create cost objects</span></span> 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура показывает порядок создания объектов затрат путем импорта финансовой аналитики центра затрат Dynamics 365 for Finance and Operations, Enterprise edition в модуль учета затрат через соединитель данных. В качестве демонстрационной компании для создания этой процедуры используется USMF. Эта процедура предназначена для функции "Учет затрат", которая была добавлена в версии 1611 Dynamics 365 for Operations.
+<span data-ttu-id="73136-104">Эта процедура показывает порядок создания объектов затрат путем импорта финансовой аналитики центра затрат Dynamics 365 for Finance and Operations, Enterprise edition в модуль учета затрат через соединитель данных.</span><span class="sxs-lookup"><span data-stu-id="73136-104">This procedure shows how to create cost objects by importing the Dynamics 365 for Finance and Operations, Enterprise edition cost center financial dimension into Cost accounting via a data connector.</span></span> <span data-ttu-id="73136-105">В качестве демонстрационной компании для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="73136-105">The USMF demo company was used to create this procedure.</span></span> <span data-ttu-id="73136-106">Эта процедура предназначена для функции "Учет затрат", которая была добавлена в версии 1611 Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="73136-106">This procedure is for a Cost accounting feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
 
-## <a name="create-new-cost-objects"></a>Создание новых объектов затрат
-1. Перейдите в раздел "Учет затрат" > "Аналитики" > "Аналитики объекта затрат".
-2. Щелкните "Создать".
-3. В поле "Имя" введите значение.
-4. В поле "Соединитель данных для элементов аналитик" введите или выберите значение.
-5. В поле "Описание" введите значение.
-6. Нажмите кнопку "Сохранить".
+## <a name="create-new-cost-objects"></a><span data-ttu-id="73136-107">Создание новых объектов затрат</span><span class="sxs-lookup"><span data-stu-id="73136-107">Create new cost objects</span></span>
+1. <span data-ttu-id="73136-108">Перейдите в раздел "Учет затрат" > "Аналитики" > "Аналитики объекта затрат".</span><span class="sxs-lookup"><span data-stu-id="73136-108">Go to Cost accounting > Dimensions > Cost object dimensions.</span></span>
+2. <span data-ttu-id="73136-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="73136-109">Click New.</span></span>
+3. <span data-ttu-id="73136-110">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="73136-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="73136-111">В поле "Соединитель данных для элементов аналитик" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="73136-111">In the Data connector for dimension members field, enter or select a value.</span></span>
+5. <span data-ttu-id="73136-112">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="73136-112">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="73136-113">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="73136-113">Click Save.</span></span>
 
-## <a name="configure-the-data-connector"></a>Настройка соединителя данных
-1. Щелкните "Настроить поставщика элементов аналитики".
-    * Выберите CostCenter для импорта аналитики CostCenter в модуль учета затрат.  
-2. В поле "Имя аналитики" выберите "Центр затрат".
-3. Нажмите кнопку "OК".
+## <a name="configure-the-data-connector"></a><span data-ttu-id="73136-114">Настройка соединителя данных</span><span class="sxs-lookup"><span data-stu-id="73136-114">Configure the data connector</span></span>
+1. <span data-ttu-id="73136-115">Щелкните "Настроить поставщика элементов аналитики".</span><span class="sxs-lookup"><span data-stu-id="73136-115">Click Configure dimension member provider.</span></span>
+    * <span data-ttu-id="73136-116">Выберите CostCenter для импорта аналитики CostCenter в модуль учета затрат.</span><span class="sxs-lookup"><span data-stu-id="73136-116">Select CostCenter to import the CostCenter dimension into Cost accounting.</span></span>  
+2. <span data-ttu-id="73136-117">В поле "Имя аналитики" выберите "Центр затрат".</span><span class="sxs-lookup"><span data-stu-id="73136-117">In the Dimension name field, select Cost center.</span></span>
+3. <span data-ttu-id="73136-118">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="73136-118">Click OK.</span></span>
 
-## <a name="import-cost-centers"></a>Импорт центров затрат
-1. Щелкните "Импорт элементов аналитики".
-2. Нажмите кнопку "OК".
+## <a name="import-cost-centers"></a><span data-ttu-id="73136-119">Импорт центров затрат</span><span class="sxs-lookup"><span data-stu-id="73136-119">Import cost centers</span></span>
+1. <span data-ttu-id="73136-120">Щелкните "Импорт элементов аналитики".</span><span class="sxs-lookup"><span data-stu-id="73136-120">Click Import dimension members.</span></span>
+2. <span data-ttu-id="73136-121">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="73136-121">Click OK.</span></span>
 
-## <a name="view-the-imported-cost-centers"></a>Просмотр импортированных центров затрат
-1. Щелкните "Просмотр элементов аналитики".
+## <a name="view-the-imported-cost-centers"></a><span data-ttu-id="73136-122">Просмотр импортированных центров затрат</span><span class="sxs-lookup"><span data-stu-id="73136-122">View the imported cost centers</span></span>
+1. <span data-ttu-id="73136-123">Щелкните "Просмотр элементов аналитики".</span><span class="sxs-lookup"><span data-stu-id="73136-123">Click View dimension members.</span></span>
 
 

@@ -17,35 +17,35 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 0c2759c99e095d6dc3d1d3c89a509e9cf94bdc20
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8a3a6abc19bae20b7899628d0463cf458955671a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a>Создание финансовых аналитик для POS-регистраторов и настройка значений аналитики для регистраторов
+# <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a><span data-ttu-id="3c643-103">Создание финансовых аналитик для POS-регистраторов и настройка значений аналитики для регистраторов</span><span class="sxs-lookup"><span data-stu-id="3c643-103">Create financial dimensions for POS registers and configure dimension values on registers</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Эта процедура содержит инструкции по созданию финансовых аналитик для POS-терминалов и демонстрирует, как задать значения финансовых аналитик для терминалов. Эта процедура не включает другие связанные действия, например создание наборов аналитик и структур счетов. Эти задачи можно найти в других разделах. В данной записи используется демонстрационная компания USRT.
+<span data-ttu-id="3c643-104">Эта процедура содержит инструкции по созданию финансовых аналитик для POS-терминалов и демонстрирует, как задать значения финансовых аналитик для терминалов.</span><span class="sxs-lookup"><span data-stu-id="3c643-104">This procedure walks through creating financial dimensions for point of sale (POS) registers, and demonstrates how to configure financial dimension values on registers.</span></span> <span data-ttu-id="3c643-105">Эта процедура не включает другие связанные действия, например создание наборов аналитик и структур счетов.</span><span class="sxs-lookup"><span data-stu-id="3c643-105">This procedure doesn’t include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="3c643-106">Эти задачи можно найти в других разделах.</span><span class="sxs-lookup"><span data-stu-id="3c643-106">Those tasks can be found in other topics.</span></span> <span data-ttu-id="3c643-107">В данной записи используется демонстрационная компания USRT.</span><span class="sxs-lookup"><span data-stu-id="3c643-107">This recording uses USRT demo company.</span></span>
 
-1. Перейдите в раздел "Главная книга" > "План счетов" > "Аналитики" > "Финансовые аналитики".
-2. Щелкните "Создать".
-3. В поле "Использовать значения из" выберите параметр.
-4. В поле "Наименование аналитики" введите значение.
-5. Нажмите кнопку Активировать.
-6. Щелкните "Закрыть".
-7. Нажмите кнопку Активировать.
-8. Щелкните "Значения аналитик".
-9. Закройте страницу.
-10. Нажмите кнопку "Сохранить".
-11. Закройте страницу.
-12. Перейдите в раздел "Розничная торговля и коммерция" > "Настройка канала" > "Настройка POS" > "Кассы".
-13. В списке найдите и выберите требуемую запись.
-14. Переключите развертывание раздела "Финансовые аналитики".
-15. Выберите Изменить.
-16. В поле "Терминал" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-17. В списке найдите и выберите значение аналитики для обновляемого терминала.
-18. Нажмите кнопку "Сохранить".
+1. <span data-ttu-id="3c643-108">Перейдите в раздел "Главная книга" > "План счетов" > "Аналитики" > "Финансовые аналитики".</span><span class="sxs-lookup"><span data-stu-id="3c643-108">Go to General ledger > Chart of accounts > Dimensions > Financial dimensions.</span></span>
+2. <span data-ttu-id="3c643-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="3c643-109">Click New.</span></span>
+3. <span data-ttu-id="3c643-110">В поле "Использовать значения из" выберите параметр.</span><span class="sxs-lookup"><span data-stu-id="3c643-110">In the Use values from field, select an option.</span></span>
+4. <span data-ttu-id="3c643-111">В поле "Наименование аналитики" введите значение.</span><span class="sxs-lookup"><span data-stu-id="3c643-111">In the Dimension name field, type a value.</span></span>
+5. <span data-ttu-id="3c643-112">Нажмите кнопку Активировать.</span><span class="sxs-lookup"><span data-stu-id="3c643-112">Click Activate.</span></span>
+6. <span data-ttu-id="3c643-113">Щелкните "Закрыть".</span><span class="sxs-lookup"><span data-stu-id="3c643-113">Click Close.</span></span>
+7. <span data-ttu-id="3c643-114">Нажмите кнопку Активировать.</span><span class="sxs-lookup"><span data-stu-id="3c643-114">Click Activate.</span></span>
+8. <span data-ttu-id="3c643-115">Щелкните "Значения аналитик".</span><span class="sxs-lookup"><span data-stu-id="3c643-115">Click Dimension values.</span></span>
+9. <span data-ttu-id="3c643-116">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="3c643-116">Close the page.</span></span>
+10. <span data-ttu-id="3c643-117">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="3c643-117">Click Save.</span></span>
+11. <span data-ttu-id="3c643-118">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="3c643-118">Close the page.</span></span>
+12. <span data-ttu-id="3c643-119">Перейдите в раздел "Розничная торговля и коммерция" > "Настройка канала" > "Настройка POS" > "Кассы".</span><span class="sxs-lookup"><span data-stu-id="3c643-119">Go to Retail and commerce > Channel setup > POS setup > Registers.</span></span>
+13. <span data-ttu-id="3c643-120">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="3c643-120">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="3c643-121">Переключите развертывание раздела "Финансовые аналитики".</span><span class="sxs-lookup"><span data-stu-id="3c643-121">Toggle the expansion of the Financial dimensions section.</span></span>
+15. <span data-ttu-id="3c643-122">Выберите Изменить.</span><span class="sxs-lookup"><span data-stu-id="3c643-122">Click Edit.</span></span>
+16. <span data-ttu-id="3c643-123">В поле "Терминал" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="3c643-123">In the Terminal field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="3c643-124">В списке найдите и выберите значение аналитики для обновляемого терминала.</span><span class="sxs-lookup"><span data-stu-id="3c643-124">In the list, find and select the dimension value for the register being updated.</span></span>
+18. <span data-ttu-id="3c643-125">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="3c643-125">Click Save.</span></span>
 
 

@@ -17,30 +17,30 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 36096c9a0c8dde1028728ec257dfa63e7fb669af
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0e6829238b244cc01b070fde6acdf37bdaeb9670
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016-only"></a>Расчет спецификации с помощью одноуровневой структуры (только версия от февраля 2016 г.)
+# <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016-only"></a><span data-ttu-id="1b61a-103">Расчет спецификации с помощью одноуровневой структуры (только версия от февраля 2016 г.)</span><span class="sxs-lookup"><span data-stu-id="1b61a-103">Calculate a BOM by using a single level structure (February 2016 only)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-В этой процедуре показано, как рассчитать затраты на готовую продукцию с помощью одноуровневого развертывания, основанного на схеме калькуляции. Это шестая задача в серии расчетов спецификации. В качестве компании с демонстрационными данными для создания этой задачи используется USMF.
+<span data-ttu-id="1b61a-104">В этой процедуре показано, как рассчитать затраты на готовую продукцию с помощью одноуровневого развертывания, основанного на схеме калькуляции.</span><span class="sxs-lookup"><span data-stu-id="1b61a-104">This procedure shows how to calculate the cost of a finished product by using single level explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="1b61a-105">Это шестая задача в серии расчетов спецификации.</span><span class="sxs-lookup"><span data-stu-id="1b61a-105">This is the sixth task in the BOM calculation series.</span></span> <span data-ttu-id="1b61a-106">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="1b61a-106">The demo data company used to create this task is USMF.</span></span>
 
-1. Перейдите в раздел "Выпущенные продукты".
-2. В списке найдите и выберите требуемую запись.
-    * Выберите продукт BOM_1.  
-3. В области действий щелкните "Управление затратами".
-4. Щелкните "Цена номенклатуры".
-5. Щелкните "Расчет себестоимости номенклатуры".
-    * Может потребоваться нажать кнопку с многоточием (...), чтобы увидеть этот параметр в верхнем меню.  
-6. В поле "Версия стоимости" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-    * В этом примере выберите "10". Это та же версия учета затрат, которая использовалась для добавления себестоимости в компоненты.  
-7. Нажмите кнопку "OК".
-8. Щелкните "Просмотреть сведения расчета".
-    * Может потребоваться нажать кнопку с многоточием (...), чтобы увидеть этот параметр в верхнем меню.    Вот состав стоимости::  •   10 является производным значением от ITEM_A, 10 — от ITEM_B, 10 — от BOM_2. В этом случае нет сведений для BOM_2, так как она была введена как стандартная себестоимость 10, но не была получена с помощью расчета.  •  7 является производным значением от времени настройки, которое является постоянными затратами, а дополнительные 7 получены в результате операции времени выполнения (процесс).  •   Существуют также другие суммы, которые образуют косвенные затраты.  
+1. <span data-ttu-id="1b61a-107">Перейдите в раздел "Выпущенные продукты".</span><span class="sxs-lookup"><span data-stu-id="1b61a-107">Go to Released products.</span></span>
+2. <span data-ttu-id="1b61a-108">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="1b61a-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="1b61a-109">Выберите продукт BOM_1.</span><span class="sxs-lookup"><span data-stu-id="1b61a-109">Select product BOM_1.</span></span>  
+3. <span data-ttu-id="1b61a-110">В области действий щелкните "Управление затратами".</span><span class="sxs-lookup"><span data-stu-id="1b61a-110">On the Action Pane, click Manage costs.</span></span>
+4. <span data-ttu-id="1b61a-111">Щелкните "Цена номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="1b61a-111">Click Item price.</span></span>
+5. <span data-ttu-id="1b61a-112">Щелкните "Расчет себестоимости номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="1b61a-112">Click Calculate item cost.</span></span>
+    * <span data-ttu-id="1b61a-113">Может потребоваться нажать кнопку с многоточием (...), чтобы увидеть этот параметр в верхнем меню.</span><span class="sxs-lookup"><span data-stu-id="1b61a-113">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  
+6. <span data-ttu-id="1b61a-114">В поле "Версия стоимости" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="1b61a-114">In the Costing version field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="1b61a-115">В этом примере выберите "10".</span><span class="sxs-lookup"><span data-stu-id="1b61a-115">For this demo, select 10.</span></span> <span data-ttu-id="1b61a-116">Это та же версия учета затрат, которая использовалась для добавления себестоимости в компоненты.</span><span class="sxs-lookup"><span data-stu-id="1b61a-116">This is the same costing version used for adding the cost price to the components.</span></span>  
+7. <span data-ttu-id="1b61a-117">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="1b61a-117">Click OK.</span></span>
+8. <span data-ttu-id="1b61a-118">Щелкните "Просмотреть сведения расчета".</span><span class="sxs-lookup"><span data-stu-id="1b61a-118">Click View calculation details.</span></span>
+    * <span data-ttu-id="1b61a-119">Может потребоваться нажать кнопку с многоточием (...), чтобы увидеть этот параметр в верхнем меню.</span><span class="sxs-lookup"><span data-stu-id="1b61a-119">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>    <span data-ttu-id="1b61a-120">Вот состав стоимости::  •   10 является производным значением от ITEM_A, 10 — от ITEM_B, 10 — от BOM_2.</span><span class="sxs-lookup"><span data-stu-id="1b61a-120">Here's the composition of the cost:  •    10 is derived from ITEM_A, 10 from ITEM_B, 10 from BOM_2.</span></span> <span data-ttu-id="1b61a-121">В этом случае нет сведений для BOM_2, так как она была введена как стандартная себестоимость 10, но не была получена с помощью расчета.</span><span class="sxs-lookup"><span data-stu-id="1b61a-121">In this case there are no details for BOM_2 because it was entered as a standard cost of 10 but not done through calculation.</span></span>  <span data-ttu-id="1b61a-122">•  7 является производным значением от времени настройки, которое является постоянными затратами, а дополнительные 7 получены в результате операции времени выполнения (процесс).</span><span class="sxs-lookup"><span data-stu-id="1b61a-122">•  7 is derived from the setup time, which is a constant cost, and additional 7 is derived from the run-time operation (Process).</span></span>  <span data-ttu-id="1b61a-123">•   Существуют также другие суммы, которые образуют косвенные затраты.</span><span class="sxs-lookup"><span data-stu-id="1b61a-123">•   There are also other amounts that correspond to indirect costs.</span></span>  
 9. @SysTaskRecorder:_RequestClose
 
 

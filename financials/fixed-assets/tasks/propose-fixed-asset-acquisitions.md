@@ -16,34 +16,34 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6d3f31bcbc2e470d0e17a6ab6b5df879aa4f8c9f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c1c08bb05b7f6b57cfc8c86a1d0c0d1a7cc2ce5a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="propose-fixed-asset-acquisitions"></a>Предложение по приобретению ОС
+# <a name="propose-fixed-asset-acquisitions"></a><span data-ttu-id="b367c-103">Предложение по приобретению ОС</span><span class="sxs-lookup"><span data-stu-id="b367c-103">Propose fixed asset acquisitions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура показывает, как приобрести основное средство с помощью предложения по приобретению в журнале основных средств. В нем используется роль бухгалтера и демонстрационные данные для юридического лица USMF.
+<span data-ttu-id="b367c-104">Эта процедура показывает, как приобрести основное средство с помощью предложения по приобретению в журнале основных средств.</span><span class="sxs-lookup"><span data-stu-id="b367c-104">This procedure shows how to acquire a fixed asset using the acquisition proposal in the Fixed assets journal.</span></span> <span data-ttu-id="b367c-105">В нем используется роль бухгалтера и демонстрационные данные для юридического лица USMF.</span><span class="sxs-lookup"><span data-stu-id="b367c-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
 
-1. Перейдите в раздел "Основные средства" > "Записи в журнале" > "Журнал основных средств".
-2. Щелкните "Создать".
-3. В поле "Имя" введите или выберите значение.
-4. Щелкните "Строки".
-5. Щелкните "Предложения".
-6. Щелкните "Предложение по приобретению".
-7. Щелкните "Фильтр".
-8. Щелкните "Сброс", чтобы сбросить вне предыдущие значения.
-9. Выберите строку "Инв. номер ОС".
-10. В поле "Критерии" введите или выберите значение.
-    * Настройте оставшиеся критерии для основных средств, которые необходимо приобрести с этим предложением.  
-11. Нажмите кнопку "OК".
-12. Нажмите кнопку "OК".
-    * Проверьте созданные строки проводки.  
-    * Только основные средства, для которых заданы параметры даты приобретения и цены приобретения в книге, будут включены в предложение по приобретению.  
-13. Перейдите на вкладку "Книги".
-14. Щелкните "Разнести".
+1. <span data-ttu-id="b367c-106">Перейдите в раздел "Основные средства" > "Записи в журнале" > "Журнал основных средств".</span><span class="sxs-lookup"><span data-stu-id="b367c-106">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
+2. <span data-ttu-id="b367c-107">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="b367c-107">Click New.</span></span>
+3. <span data-ttu-id="b367c-108">В поле "Имя" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="b367c-108">In the Name field, enter or select a value.</span></span>
+4. <span data-ttu-id="b367c-109">Щелкните "Строки".</span><span class="sxs-lookup"><span data-stu-id="b367c-109">Click Lines.</span></span>
+5. <span data-ttu-id="b367c-110">Щелкните "Предложения".</span><span class="sxs-lookup"><span data-stu-id="b367c-110">Click Proposals.</span></span>
+6. <span data-ttu-id="b367c-111">Щелкните "Предложение по приобретению".</span><span class="sxs-lookup"><span data-stu-id="b367c-111">Click Acquisition proposal.</span></span>
+7. <span data-ttu-id="b367c-112">Щелкните "Фильтр".</span><span class="sxs-lookup"><span data-stu-id="b367c-112">Click Filter.</span></span>
+8. <span data-ttu-id="b367c-113">Щелкните "Сброс", чтобы сбросить вне предыдущие значения.</span><span class="sxs-lookup"><span data-stu-id="b367c-113">Click Reset to clear out previous values.</span></span>
+9. <span data-ttu-id="b367c-114">Выберите строку "Инв. номер ОС".</span><span class="sxs-lookup"><span data-stu-id="b367c-114">Select the Fixed asset number row.</span></span>
+10. <span data-ttu-id="b367c-115">В поле "Критерии" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="b367c-115">In the Criteria field, enter or select a value.</span></span>
+    * <span data-ttu-id="b367c-116">Настройте оставшиеся критерии для основных средств, которые необходимо приобрести с этим предложением.</span><span class="sxs-lookup"><span data-stu-id="b367c-116">Set the remaining criteria for the fixed assets that you want to acquire with this proposal.</span></span>  
+11. <span data-ttu-id="b367c-117">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="b367c-117">Click OK.</span></span>
+12. <span data-ttu-id="b367c-118">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="b367c-118">Click OK.</span></span>
+    * <span data-ttu-id="b367c-119">Проверьте созданные строки проводки.</span><span class="sxs-lookup"><span data-stu-id="b367c-119">Verify the transaction lines created.</span></span>  
+    * <span data-ttu-id="b367c-120">Только основные средства, для которых заданы параметры даты приобретения и цены приобретения в книге, будут включены в предложение по приобретению.</span><span class="sxs-lookup"><span data-stu-id="b367c-120">Only fixed assets with the acquisition date and acquisition price set on the book will be included in the acquisition proposal.</span></span>  
+13. <span data-ttu-id="b367c-121">Перейдите на вкладку "Книги".</span><span class="sxs-lookup"><span data-stu-id="b367c-121">Click the Books tab.</span></span>
+14. <span data-ttu-id="b367c-122">Щелкните "Разнести".</span><span class="sxs-lookup"><span data-stu-id="b367c-122">Click Post.</span></span>
 
 

@@ -16,34 +16,34 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 856ad74ce30bb58975f78aeb3fafc6e2e2805c79
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d9307abf5e9543c8a2c880330c4430f5e4c5b340
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-new-product"></a>Создание нового продукта
+# <a name="create-a-new-product"></a><span data-ttu-id="fabad-103">Создание нового продукта</span><span class="sxs-lookup"><span data-stu-id="fabad-103">Create a new product</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эта задача показывает, как создать новый общий продукт. Она обычно выполняется конструктором продуктов. В качестве компании с демонстрационными данными для создания этой задачи используется USMF.
+<span data-ttu-id="fabad-104">Эта задача показывает, как создать новый общий продукт.</span><span class="sxs-lookup"><span data-stu-id="fabad-104">This task shows how to create a new shared product.</span></span> <span data-ttu-id="fabad-105">Она обычно выполняется конструктором продуктов.</span><span class="sxs-lookup"><span data-stu-id="fabad-105">It is usually carried out by a product designer.</span></span> <span data-ttu-id="fabad-106">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="fabad-106">The demo data company used to create this task is USMF.</span></span>
 
-1. Перейдите в раздел "Управление сведениями о продукте" > "Продукты" > "Продукты".
+1. <span data-ttu-id="fabad-107">Перейдите в раздел "Управление сведениями о продукте" > "Продукты" > "Продукты".</span><span class="sxs-lookup"><span data-stu-id="fabad-107">Go to Product information management > Products > Products.</span></span>
 
-## <a name="create-a-product"></a>Создание продукта
-1. Щелкните "Создать".
-2. В поле "Номер продукта" введите значение.
-    * Если номерная серия не настроена для номера продуктов, ее необходимо ввести вручную.  
-3. В поле "Имя продукта" введите значение.
-    * В качестве имени продукта по умолчанию используется имя поиска. Это значение можно изменить при необходимости.  
-4. Нажмите кнопку "OК".
+## <a name="create-a-product"></a><span data-ttu-id="fabad-108">Создание продукта</span><span class="sxs-lookup"><span data-stu-id="fabad-108">Create a product</span></span>
+1. <span data-ttu-id="fabad-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="fabad-109">Click New.</span></span>
+2. <span data-ttu-id="fabad-110">В поле "Номер продукта" введите значение.</span><span class="sxs-lookup"><span data-stu-id="fabad-110">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="fabad-111">Если номерная серия не настроена для номера продуктов, ее необходимо ввести вручную.</span><span class="sxs-lookup"><span data-stu-id="fabad-111">If a number sequence has not been set up for the product number, it must be entered manually.</span></span>  
+3. <span data-ttu-id="fabad-112">В поле "Имя продукта" введите значение.</span><span class="sxs-lookup"><span data-stu-id="fabad-112">In the Product name field, type a value.</span></span>
+    * <span data-ttu-id="fabad-113">В качестве имени продукта по умолчанию используется имя поиска.</span><span class="sxs-lookup"><span data-stu-id="fabad-113">The product name defaults to the search name.</span></span> <span data-ttu-id="fabad-114">Это значение можно изменить при необходимости.</span><span class="sxs-lookup"><span data-stu-id="fabad-114">You can change this if needed.</span></span>  
+4. <span data-ttu-id="fabad-115">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="fabad-115">Click OK.</span></span>
 
-## <a name="set-up-dimension-groups"></a>Настройка групп аналитик
-1. Щелкните "Группы аналитики", чтобы открыть ниспадающее диалоговое окно.
-2. В поле "Группа аналитик хранения" введите или выберите значение.
-    * Группа аналитик хранения определяет, какие аналитики хранения необходимо ввести в каждой проводке по продукту и как он будет отслеживается в запасах.  
-3. В поле "Группа аналитик отслеживания" введите или выберите значение.
-    * Группа аналитик отслеживания определяет, какие аналитики отслеживания необходимо ввести для каждой проводки по продукту и как он будет обрабатываться в запасах.  
-4. Нажмите кнопку "OК".
+## <a name="set-up-dimension-groups"></a><span data-ttu-id="fabad-116">Настройка групп аналитик</span><span class="sxs-lookup"><span data-stu-id="fabad-116">Set up dimension groups</span></span>
+1. <span data-ttu-id="fabad-117">Щелкните "Группы аналитики", чтобы открыть ниспадающее диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="fabad-117">Click Dimension groups to open the drop dialog.</span></span>
+2. <span data-ttu-id="fabad-118">В поле "Группа аналитик хранения" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="fabad-118">In the Storage dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="fabad-119">Группа аналитик хранения определяет, какие аналитики хранения необходимо ввести в каждой проводке по продукту и как он будет отслеживается в запасах.</span><span class="sxs-lookup"><span data-stu-id="fabad-119">The storage dimension group determines which storage dimensions you must enter on each transaction for the product and how it will be tracked in inventory.</span></span>  
+3. <span data-ttu-id="fabad-120">В поле "Группа аналитик отслеживания" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="fabad-120">In the Tracking dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="fabad-121">Группа аналитик отслеживания определяет, какие аналитики отслеживания необходимо ввести для каждой проводки по продукту и как он будет обрабатываться в запасах.</span><span class="sxs-lookup"><span data-stu-id="fabad-121">The tracking dimension group determines which tracking dimensions you must enter for each transaction for the product, and how it will be handled in inventory.</span></span>  
+4. <span data-ttu-id="fabad-122">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="fabad-122">Click OK.</span></span>
 
 

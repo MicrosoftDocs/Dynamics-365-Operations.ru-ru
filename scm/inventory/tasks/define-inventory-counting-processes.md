@@ -1,4 +1,4 @@
---- 
+---
 title: "Определение процессов инвентаризации запасов"
 description: "В этой процедуре показано, как настроить основные процессы инвентаризации запасов путем создания группы инвентаризации и журнала инвентаризации."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,72 +17,71 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 62c60faafd9ad96ce636a08102bc8652f9fff870
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: c14c846c55a3d821945160835817cd4f467deda9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="define-inventory-counting-processes"></a>Определение процессов инвентаризации запасов
+# <a name="define-inventory-counting-processes"></a><span data-ttu-id="31791-103">Определение процессов инвентаризации запасов</span><span class="sxs-lookup"><span data-stu-id="31791-103">Define inventory counting processes</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-В этой процедуре показано, как настроить основные процессы инвентаризации запасов путем создания группы инвентаризации и журнала инвентаризации. В ней также показано, как включить политики инвентаризации на уровне склада и номенклатуры. Эти задачи обычно выполняются супервизором склада. Предварительным условием является наличие нескольких существующих выпущенных продуктов и складов. При использовании компании демонстрационных данных эту процедуру можно выполнять в компании USMF с любой учитываемой в запасах номенклатурой.
+<span data-ttu-id="31791-104">В этой процедуре показано, как настроить основные процессы инвентаризации запасов путем создания группы инвентаризации и журнала инвентаризации.</span><span class="sxs-lookup"><span data-stu-id="31791-104">This procedure walks you through the configuration of basic inventory counting processes by creating a counting group and a counting journal.</span></span> <span data-ttu-id="31791-105">В ней также показано, как включить политики инвентаризации на уровне склада и номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="31791-105">It also shows you how to enable counting policies on a warehouse and item level.</span></span> <span data-ttu-id="31791-106">Эти задачи обычно выполняются супервизором склада.</span><span class="sxs-lookup"><span data-stu-id="31791-106">These tasks would typically be carried out by a warehouse supervisor.</span></span> <span data-ttu-id="31791-107">Предварительным условием является наличие нескольких существующих выпущенных продуктов и складов.</span><span class="sxs-lookup"><span data-stu-id="31791-107">It is a prerequisite to have some existing released products and warehouses.</span></span> <span data-ttu-id="31791-108">При использовании компании демонстрационных данных эту процедуру можно выполнять в компании USMF с любой учитываемой в запасах номенклатурой.</span><span class="sxs-lookup"><span data-stu-id="31791-108">If you're using a demo data company, you can run this procedure in the USMF company with any stocked item.</span></span>
 
 
-## <a name="create-a-counting-group"></a>Создание группы инвентаризации
-1. Перейдите в раздел "Управление запасами" > "Настройка" > "Инвентаризация" > "Группы инвентаризации".
-2. Щелкните "Создать".
-3. В поле "Группа инвентаризации" введите значение.
-4. В поле "Имя" введите значение.
-5. В поле "Инвентаризационный код" выберите вариант.
-    * Вручную — включает строки при каждом запуске задания. Другими словами, пользователь выбирает интервал инвентаризации для группы инвентаризации.  Период — включает строки для периода в журнале инвентаризации, когда интервал периода истек.   Нулевой запас — количество запасов в наличии достигает нуля (0), строки в журнале инвентаризации создаются при запуске задания. Если количество запасов в наличии достигает нуля после инвентаризации, строки создаются при следующей инвентаризации.   Минимум — вставка строк в журнал инвентаризации, если количество запасов в наличии меньше либо равно указанному минимальному значению.  
-    * (Необязательно) Если в поле "Инвентаризационный код" задается период, следует ввести интервал периода в поле "Инвентаризационный период". Единицей измерения для интервалов является день.  
-    * При выполнении задания для создания новых строк в журнале инвентаризации новые строки создаются в интервале, указанном в этом поле, независимо от того, как часто выполняется одно и то же задание. Например, если для параметра "Инвентаризационный период" задано значение "7", строки журнала последний раз создавались для инвентаризации 1-го января и другое задание начинается 5-го января, то семь дней не прошло, и поэтому строки не создаются в журнале для этого интервала периода. Если снова запустить задание 8-го января, строки для периода в журнале инвентаризации будут созданы, так как пройдет 7 дней.  
-6. Нажмите кнопку "Сохранить".
+## <a name="create-a-counting-group"></a><span data-ttu-id="31791-109">Создание группы инвентаризации</span><span class="sxs-lookup"><span data-stu-id="31791-109">Create a counting group</span></span>
+1. <span data-ttu-id="31791-110">Перейдите в раздел "Управление запасами" > "Настройка" > "Инвентаризация" > "Группы инвентаризации".</span><span class="sxs-lookup"><span data-stu-id="31791-110">Go to Inventory management > Setup > Inventory > Counting groups.</span></span>
+2. <span data-ttu-id="31791-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="31791-111">Click New.</span></span>
+3. <span data-ttu-id="31791-112">В поле "Группа инвентаризации" введите значение.</span><span class="sxs-lookup"><span data-stu-id="31791-112">In the Counting group field, type a value.</span></span>
+4. <span data-ttu-id="31791-113">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="31791-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="31791-114">В поле "Инвентаризационный код" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="31791-114">In the Counting code field, select an option.</span></span>
+    * <span data-ttu-id="31791-115">Вручную — включает строки при каждом запуске задания.</span><span class="sxs-lookup"><span data-stu-id="31791-115">Manual – Includes lines every time you run the job.</span></span> <span data-ttu-id="31791-116">Другими словами, пользователь выбирает интервал инвентаризации для группы инвентаризации.</span><span class="sxs-lookup"><span data-stu-id="31791-116">In other words, you decide the counting interval for the counting group.</span></span>  <span data-ttu-id="31791-117">Период — включает строки для периода в журнале инвентаризации, когда интервал периода истек.</span><span class="sxs-lookup"><span data-stu-id="31791-117">Period – Includes lines for the period in the counting journal when the period interval has expired.</span></span>   <span data-ttu-id="31791-118">Нулевой запас — количество запасов в наличии достигает нуля (0), строки в журнале инвентаризации создаются при запуске задания.</span><span class="sxs-lookup"><span data-stu-id="31791-118">Zero in stock – If on-hand inventory reaches zero (0), lines are generated in the counting journal when the job is run.</span></span> <span data-ttu-id="31791-119">Если количество запасов в наличии достигает нуля после инвентаризации, строки создаются при следующей инвентаризации.</span><span class="sxs-lookup"><span data-stu-id="31791-119">If the on-hand inventory reaches 0 after a count, lines are generated the next time that you start the count.</span></span>   <span data-ttu-id="31791-120">Минимум — вставка строк в журнал инвентаризации, если количество запасов в наличии меньше либо равно указанному минимальному значению.</span><span class="sxs-lookup"><span data-stu-id="31791-120">Minimum – Inserts lines in the counting journal if the on-hand inventory is equal to or less than the minimum that is specified.</span></span>  
+    * <span data-ttu-id="31791-121">(Необязательно) Если в поле "Инвентаризационный код" задается период, следует ввести интервал периода в поле "Инвентаризационный период".</span><span class="sxs-lookup"><span data-stu-id="31791-121">Optional: If you have specified Period in the Counting code field, you must type the interval for the period in the Counting period field.</span></span> <span data-ttu-id="31791-122">Единицей измерения для интервалов является день.</span><span class="sxs-lookup"><span data-stu-id="31791-122">The unit for intervals is days.</span></span>  
+    * <span data-ttu-id="31791-123">При выполнении задания для создания новых строк в журнале инвентаризации новые строки создаются в интервале, указанном в этом поле, независимо от того, как часто выполняется одно и то же задание.</span><span class="sxs-lookup"><span data-stu-id="31791-123">When you run the job for creating new lines in the counting journal, new lines are created at the interval specified in this field, regardless of how often you run the same job.</span></span> <span data-ttu-id="31791-124">Например, если для параметра "Инвентаризационный период" задано значение "7", строки журнала последний раз создавались для инвентаризации 1-го января и другое задание начинается 5-го января, то семь дней не прошло, и поэтому строки не создаются в журнале для этого интервала периода.</span><span class="sxs-lookup"><span data-stu-id="31791-124">For example, if Counting period is set to 7, and journal lines were last generated for a count on January 1, if another job is started on January 5, seven days have not passed and so no lines are generated in the journal for that period interval.</span></span> <span data-ttu-id="31791-125">Если снова запустить задание 8-го января, строки для периода в журнале инвентаризации будут созданы, так как пройдет 7 дней.</span><span class="sxs-lookup"><span data-stu-id="31791-125">If you start the job again on January 8, lines are generated for the period in the counting journal, because 7 days have passed.</span></span>  
+6. <span data-ttu-id="31791-126">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="31791-126">Click Save.</span></span>
 
-## <a name="create-a-counting-journal-name"></a>Создание имени журнала инвентаризации
-1. Перейдите в раздел "Управление запасами" > "Настройка" > "Имена журналов" > "Запасы".
-2. Щелкните "Создать".
-3. В поле "Имя" введите значение.
-4. В поле "Описание" введите значение.
-5. В поле "Тип журнала" выберите "Инвентаризация".
-    * (Необязательно) Можно выбрать другой код серии ваучера, если требуется определенная номерная серия для кодов ваучеров, создаваемых при создании журналов инвентаризации. Серии ваучера создаются на странице "Номерные серии".  
-6. В поле "Уровень детализации" выберите вариант.
-    * Это уровень детализации, который применяется при разноске журнала.  
-    * (Необязательно) Можно изменить значение в поле "Резервирование". Это метод, используемый для резервирования номенклатур во время инвентаризации.   
-    * Вручную — номенклатуры резервируются вручную в форме "Резервирование".   Автоматически — количество по заказу резервируется из доступных запасов в наличии для номенклатуры.   Развертывание — резервирование является частью сводного планирования проводки.  
-7. Нажмите кнопку "Сохранить".
+## <a name="create-a-counting-journal-name"></a><span data-ttu-id="31791-127">Создание имени журнала инвентаризации</span><span class="sxs-lookup"><span data-stu-id="31791-127">Create a counting journal name</span></span>
+1. <span data-ttu-id="31791-128">Перейдите в раздел "Управление запасами" > "Настройка" > "Имена журналов" > "Запасы".</span><span class="sxs-lookup"><span data-stu-id="31791-128">Go to Inventory management > Setup > Journal names > Inventory.</span></span>
+2. <span data-ttu-id="31791-129">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="31791-129">Click New.</span></span>
+3. <span data-ttu-id="31791-130">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="31791-130">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="31791-131">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="31791-131">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="31791-132">В поле "Тип журнала" выберите "Инвентаризация".</span><span class="sxs-lookup"><span data-stu-id="31791-132">In the Journal type field, select 'Counting'.</span></span>
+    * <span data-ttu-id="31791-133">(Необязательно) Можно выбрать другой код серии ваучера, если требуется определенная номерная серия для кодов ваучеров, создаваемых при создании журналов инвентаризации.</span><span class="sxs-lookup"><span data-stu-id="31791-133">Optional: you can select a different voucher series ID if you want a specific number sequence for the voucher IDs generated when creating counting journals.</span></span> <span data-ttu-id="31791-134">Серии ваучера создаются на странице "Номерные серии".</span><span class="sxs-lookup"><span data-stu-id="31791-134">Voucher series are created in the Number sequences page.</span></span>  
+6. <span data-ttu-id="31791-135">В поле "Уровень детализации" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="31791-135">In the Detail level field, select an option.</span></span>
+    * <span data-ttu-id="31791-136">Это уровень детализации, который применяется при разноске журнала.</span><span class="sxs-lookup"><span data-stu-id="31791-136">This is the level of detail that is applied when the journal is posted.</span></span>  
+    * <span data-ttu-id="31791-137">(Необязательно) Можно изменить значение в поле "Резервирование".</span><span class="sxs-lookup"><span data-stu-id="31791-137">Optional: you can change the value in the Reservation field.</span></span> <span data-ttu-id="31791-138">Это метод, используемый для резервирования номенклатур во время инвентаризации.</span><span class="sxs-lookup"><span data-stu-id="31791-138">This is the method used to reserve items during counting.</span></span>   
+    * <span data-ttu-id="31791-139">Вручную — номенклатуры резервируются вручную в форме "Резервирование".</span><span class="sxs-lookup"><span data-stu-id="31791-139">Manual – The items are reserved manually in the Reservation form.</span></span>   <span data-ttu-id="31791-140">Автоматически — количество по заказу резервируется из доступных запасов в наличии для номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="31791-140">Automatic – The order quantity is reserved from the available, on-hand inventory for the item.</span></span>   <span data-ttu-id="31791-141">Развертывание — резервирование является частью сводного планирования проводки.</span><span class="sxs-lookup"><span data-stu-id="31791-141">Explosion – The reservation is part of the master planning of the transaction.</span></span>  
+7. <span data-ttu-id="31791-142">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="31791-142">Click Save.</span></span>
 
-## <a name="set-standard-counting-journal-name"></a>Настройка стандартного имени журнала инвентаризации
-1. Перейдите в раздел "Управление запасами" > "Настройка" > "Параметры управления запасами и складами".
-2. Перейдите на вкладку "Журналы".
-3. В поле "Инвентаризация" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-4. Выберите созданный ранее журнал.
-    * Затем этот журнал будет именем журнала по умолчанию для журналов запасов типа "Инвентаризация".  
-5. Перейдите на вкладку "Общие".
-    * (необязательно) Выберите этот вариант, чтобы заблокировать номенклатуру в процессе инвентаризации и не допустить обновления отборочных накладных, листов комплектации или регистраций листов комплектации.  
+## <a name="set-standard-counting-journal-name"></a><span data-ttu-id="31791-143">Настройка стандартного имени журнала инвентаризации</span><span class="sxs-lookup"><span data-stu-id="31791-143">Set standard counting journal name</span></span>
+1. <span data-ttu-id="31791-144">Перейдите в раздел "Управление запасами" > "Настройка" > "Параметры управления запасами и складами".</span><span class="sxs-lookup"><span data-stu-id="31791-144">Go to Inventory management > Setup > Inventory and warehouse management parameters.</span></span>
+2. <span data-ttu-id="31791-145">Перейдите на вкладку "Журналы".</span><span class="sxs-lookup"><span data-stu-id="31791-145">Click the Journals tab.</span></span>
+3. <span data-ttu-id="31791-146">В поле "Инвентаризация" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="31791-146">In the Counting field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="31791-147">Выберите созданный ранее журнал.</span><span class="sxs-lookup"><span data-stu-id="31791-147">Select the journal you previously created.</span></span>
+    * <span data-ttu-id="31791-148">Затем этот журнал будет именем журнала по умолчанию для журналов запасов типа "Инвентаризация".</span><span class="sxs-lookup"><span data-stu-id="31791-148">This journal will then be the default journal name for inventory journals of the Counting type.</span></span>  
+5. <span data-ttu-id="31791-149">Перейдите на вкладку "Общие".</span><span class="sxs-lookup"><span data-stu-id="31791-149">Click the General tab.</span></span>
+    * <span data-ttu-id="31791-150">(необязательно) Выберите этот вариант, чтобы заблокировать номенклатуру в процессе инвентаризации и не допустить обновления отборочных накладных, листов комплектации или регистраций листов комплектации.</span><span class="sxs-lookup"><span data-stu-id="31791-150">Optional: Select this option to lock an item during the counting process to prevent updates for packing slips, picking lists, or picking list registrations.</span></span>  
 
-## <a name="set-the-counting-policy-for-an-item"></a>Настройка политики инвентаризации для номенклатуры
-1. Щелкните "Управление сведениями о продукте" > "Продукты" > "Выпущенные продукты".
-2. В списке перейдите по ссылке для кода номенклатуры продукта, для которого требуется настроить политики инвентаризации.
-    * Обратите внимание, что необходимо выбрать номенклатуру, отслеживаемую в запасах. Не учитываемый в запасах продукт невозможно включить в инвентаризацию. При использовании демонстрационных данных USMF можно выбрать номенклатуру A0001.  
-3. Щелкните "Изменить".
-4. Переключите развертывание раздела "Управление запасами".
-5. В поле "Группа инвентаризации" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-6. В списке щелкните группу инвентаризации, созданную ранее.
-    * Этот продукт теперь будет включаться при создании строк журнала инвентаризации запасов с использованием данной группы инвентаризации.  
-7. Нажмите кнопку "Сохранить".
+## <a name="set-the-counting-policy-for-an-item"></a><span data-ttu-id="31791-151">Настройка политики инвентаризации для номенклатуры</span><span class="sxs-lookup"><span data-stu-id="31791-151">Set the counting policy for an item</span></span>
+1. <span data-ttu-id="31791-152">Щелкните "Управление сведениями о продукте" > "Продукты" > "Выпущенные продукты".</span><span class="sxs-lookup"><span data-stu-id="31791-152">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="31791-153">В списке перейдите по ссылке для кода номенклатуры продукта, для которого требуется настроить политики инвентаризации.</span><span class="sxs-lookup"><span data-stu-id="31791-153">In the list, click on the link for the Item number of the product that you want to set counting policies on.</span></span>
+    * <span data-ttu-id="31791-154">Обратите внимание, что необходимо выбрать номенклатуру, отслеживаемую в запасах.</span><span class="sxs-lookup"><span data-stu-id="31791-154">Note that you need to select an item that is inventory tracked.</span></span> <span data-ttu-id="31791-155">Не учитываемый в запасах продукт невозможно включить в инвентаризацию.</span><span class="sxs-lookup"><span data-stu-id="31791-155">A non-stocked product can't be counted.</span></span> <span data-ttu-id="31791-156">При использовании демонстрационных данных USMF можно выбрать номенклатуру A0001.</span><span class="sxs-lookup"><span data-stu-id="31791-156">If you are using USMF demo data you can select item A0001.</span></span>  
+3. <span data-ttu-id="31791-157">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="31791-157">Click Edit.</span></span>
+4. <span data-ttu-id="31791-158">Переключите развертывание раздела "Управление запасами".</span><span class="sxs-lookup"><span data-stu-id="31791-158">Toggle the expansion of the Manage inventory section.</span></span>
+5. <span data-ttu-id="31791-159">В поле "Группа инвентаризации" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="31791-159">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="31791-160">В списке щелкните группу инвентаризации, созданную ранее.</span><span class="sxs-lookup"><span data-stu-id="31791-160">In the list, click on the counting group you previously created.</span></span>
+    * <span data-ttu-id="31791-161">Этот продукт теперь будет включаться при создании строк журнала инвентаризации запасов с использованием данной группы инвентаризации.</span><span class="sxs-lookup"><span data-stu-id="31791-161">This product will now be included when inventory counting journal lines are created using this counting group.</span></span>  
+7. <span data-ttu-id="31791-162">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="31791-162">Click Save.</span></span>
 
-## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a>Настройка политики инвентаризации для номенклатуры на определенном складе
-1. В области действий щелкните "Управление запасами".
-2. Щелкните "Местонахождение номенклатуры".
-3. Нажмите Создать.
-4. В поле "Склад" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-5. В списке выберите склад, для которого требуется настроить определенные политики инвентаризации.
-6. В поле "Группа инвентаризации" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-7. В списке выберите группу инвентаризации.
-    * Здесь можно выбрать определенную группу инвентаризации, которая должна применяться к номенклатуре на определенном выбранном складе. При выполнении инвентаризации на этом складе данная политика будет переопределять общую политику инвентаризации для номенклатуры.  
-8. Нажмите кнопку "Сохранить".
-
+## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a><span data-ttu-id="31791-163">Настройка политики инвентаризации для номенклатуры на определенном складе</span><span class="sxs-lookup"><span data-stu-id="31791-163">Set the counting policy for an item in a specific warehouse</span></span>
+1. <span data-ttu-id="31791-164">В области действий щелкните "Управление запасами".</span><span class="sxs-lookup"><span data-stu-id="31791-164">On the Action Pane, click Manage inventory.</span></span>
+2. <span data-ttu-id="31791-165">Щелкните "Местонахождение номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="31791-165">Click Warehouse items.</span></span>
+3. <span data-ttu-id="31791-166">Нажмите Создать.</span><span class="sxs-lookup"><span data-stu-id="31791-166">Click New.</span></span>
+4. <span data-ttu-id="31791-167">В поле "Склад" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="31791-167">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="31791-168">В списке выберите склад, для которого требуется настроить определенные политики инвентаризации.</span><span class="sxs-lookup"><span data-stu-id="31791-168">In the list, select the warehouse you want set up specific counting policies for.</span></span>
+6. <span data-ttu-id="31791-169">В поле "Группа инвентаризации" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="31791-169">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="31791-170">В списке выберите группу инвентаризации.</span><span class="sxs-lookup"><span data-stu-id="31791-170">In the list, select a counting group</span></span>
+    * <span data-ttu-id="31791-171">Здесь можно выбрать определенную группу инвентаризации, которая должна применяться к номенклатуре на определенном выбранном складе.</span><span class="sxs-lookup"><span data-stu-id="31791-171">Here you can select a specific counting group that should apply to the item in the specific warehouse you have selected.</span></span> <span data-ttu-id="31791-172">При выполнении инвентаризации на этом складе данная политика будет переопределять общую политику инвентаризации для номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="31791-172">When counting is performed in that warehouse, this counting policy will override the general counting policy for the item.</span></span>  
+8. <span data-ttu-id="31791-173">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="31791-173">Click Save.</span></span>
 

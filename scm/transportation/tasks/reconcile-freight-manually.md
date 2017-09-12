@@ -17,47 +17,47 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 28de4c720cd771f476f379d925e9500e41482aa6
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 15148725664d839694ede8419213d881c7be83dd
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="reconcile-freight-manually"></a>Выверка фрахта вручную
+# <a name="reconcile-freight-manually"></a><span data-ttu-id="71166-103">Выверка фрахта вручную</span><span class="sxs-lookup"><span data-stu-id="71166-103">Reconcile freight manually</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура показывает, как выверять фрахт вручную. Обычно это делает координатор транспортировки. Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF.
+<span data-ttu-id="71166-104">Эта процедура показывает, как выверять фрахт вручную.</span><span class="sxs-lookup"><span data-stu-id="71166-104">This procedure shows how to reconcile freight manually.</span></span> <span data-ttu-id="71166-105">Обычно это делает координатор транспортировки.</span><span class="sxs-lookup"><span data-stu-id="71166-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="71166-106">Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="71166-106">You can use this procedure in the USMF demo data company.</span></span>
 
 
-## <a name="select-a-load-to-reconcile"></a>Выберите груз для выверки
-1. Перейдите в раздел "Управление транспортировкой" > "Планирование" > "Рабочее место планирования загрузки".
-2. Снимите флажок "Скрыть отгруженные и полученные". 
-3. В списке выберите груз с кодом груза 00006.
+## <a name="select-a-load-to-reconcile"></a><span data-ttu-id="71166-107">Выберите груз для выверки</span><span class="sxs-lookup"><span data-stu-id="71166-107">Select a load to reconcile</span></span>
+1. <span data-ttu-id="71166-108">Перейдите в раздел "Управление транспортировкой" > "Планирование" > "Рабочее место планирования загрузки".</span><span class="sxs-lookup"><span data-stu-id="71166-108">Go to Transportation management > Planning > Load planning workbench.</span></span>
+2. <span data-ttu-id="71166-109">Снимите флажок "Скрыть отгруженные и полученные".</span><span class="sxs-lookup"><span data-stu-id="71166-109">Clear the Hide shipped and received check box.</span></span> 
+3. <span data-ttu-id="71166-110">В списке выберите груз с кодом груза 00006.</span><span class="sxs-lookup"><span data-stu-id="71166-110">In the list, select the load that has load ID 00006.</span></span>
 
-## <a name="create-a-carrier-invoice"></a>Создайте накладную перевозчика
-    * Если выполняется сверка фрахт вручную, и вы не получаете накладные перевозчика автоматически, можно создать накладную на основе счета за фрахт.  
-1. Щелкните "Связанные сведения".
-2. Щелкните "Сведения векселя фрахта".
-3. Щелкните "Создать накладную по векселю фрахта".
-4. В поле "Накладная" введите значение.
-5. Нажмите кнопку "OК".
+## <a name="create-a-carrier-invoice"></a><span data-ttu-id="71166-111">Создайте накладную перевозчика</span><span class="sxs-lookup"><span data-stu-id="71166-111">Create a carrier invoice</span></span>
+    * <span data-ttu-id="71166-112">Если выполняется сверка фрахт вручную, и вы не получаете накладные перевозчика автоматически, можно создать накладную на основе счета за фрахт.</span><span class="sxs-lookup"><span data-stu-id="71166-112">If you reconcile freight manually and don’t receive carrier invoices automatically, you can create an invoice based on the freight bill.</span></span>  
+1. <span data-ttu-id="71166-113">Щелкните "Связанные сведения".</span><span class="sxs-lookup"><span data-stu-id="71166-113">Click Related information.</span></span>
+2. <span data-ttu-id="71166-114">Щелкните "Сведения векселя фрахта".</span><span class="sxs-lookup"><span data-stu-id="71166-114">Click Freight bill details.</span></span>
+3. <span data-ttu-id="71166-115">Щелкните "Создать накладную по векселю фрахта".</span><span class="sxs-lookup"><span data-stu-id="71166-115">Click Generate freight bill invoice.</span></span>
+4. <span data-ttu-id="71166-116">В поле "Накладная" введите значение.</span><span class="sxs-lookup"><span data-stu-id="71166-116">In the Invoice field, type a value.</span></span>
+5. <span data-ttu-id="71166-117">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="71166-117">Click OK.</span></span>
 
-## <a name="reconcile-the-invoice"></a>Выверка накладной
-    * Сверка накладной перевозчика и счета за фрахт выполняется построчно.  
-1. Щелкните "Сопоставить вексели фрахта с накладными".
-2. Разверните раздел "Сведения о накладной".
-3. Разверните раздел "Несовпадающие сведения векселя фрахта".
-4. В списке пометьте выбранную строку.
-5. Щелкните "Сопоставить".
-6. Разверните раздел "Совпадающие сведения векселя фрахта".
+## <a name="reconcile-the-invoice"></a><span data-ttu-id="71166-118">Выверка накладной</span><span class="sxs-lookup"><span data-stu-id="71166-118">Reconcile the invoice</span></span>
+    * <span data-ttu-id="71166-119">Сверка накладной перевозчика и счета за фрахт выполняется построчно.</span><span class="sxs-lookup"><span data-stu-id="71166-119">When you reconcile a carrier invoice and a freight bill, this is done line by line.</span></span>  
+1. <span data-ttu-id="71166-120">Щелкните "Сопоставить вексели фрахта с накладными".</span><span class="sxs-lookup"><span data-stu-id="71166-120">Click Match freight bills and invoices.</span></span>
+2. <span data-ttu-id="71166-121">Разверните раздел "Сведения о накладной".</span><span class="sxs-lookup"><span data-stu-id="71166-121">Expand the Invoice details section.</span></span>
+3. <span data-ttu-id="71166-122">Разверните раздел "Несовпадающие сведения векселя фрахта".</span><span class="sxs-lookup"><span data-stu-id="71166-122">Expand the Unmatched freight bill details section.</span></span>
+4. <span data-ttu-id="71166-123">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="71166-123">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="71166-124">Щелкните "Сопоставить".</span><span class="sxs-lookup"><span data-stu-id="71166-124">Click Match.</span></span>
+6. <span data-ttu-id="71166-125">Разверните раздел "Совпадающие сведения векселя фрахта".</span><span class="sxs-lookup"><span data-stu-id="71166-125">Expand the Matched freight bill details section.</span></span>
 
-## <a name="submit-the-invoice-for-approval"></a>Отправить накладную на утверждение
-1. Щелкните "Отправить для утверждения".
-2. Закройте страницу.
-3. Снимите флажок "Скрыть утвержденные". 
-4. Щелкните "Журналы накладных поставщиков".
-5. Щелкните для перехода по ссылке в поле "Номер ссылочного журнала".
-6. Щелкните "Строки".
+## <a name="submit-the-invoice-for-approval"></a><span data-ttu-id="71166-126">Отправить накладную на утверждение</span><span class="sxs-lookup"><span data-stu-id="71166-126">Submit the invoice for approval</span></span>
+1. <span data-ttu-id="71166-127">Щелкните "Отправить для утверждения".</span><span class="sxs-lookup"><span data-stu-id="71166-127">Click Submit for approval.</span></span>
+2. <span data-ttu-id="71166-128">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="71166-128">Close the page.</span></span>
+3. <span data-ttu-id="71166-129">Снимите флажок "Скрыть утвержденные".</span><span class="sxs-lookup"><span data-stu-id="71166-129">Clear the Hide approved check box.</span></span> 
+4. <span data-ttu-id="71166-130">Щелкните "Журналы накладных поставщиков".</span><span class="sxs-lookup"><span data-stu-id="71166-130">Click Vendor invoice journals.</span></span>
+5. <span data-ttu-id="71166-131">Щелкните для перехода по ссылке в поле "Номер ссылочного журнала".</span><span class="sxs-lookup"><span data-stu-id="71166-131">Click to follow the link in the Reference journal number field.</span></span>
+6. <span data-ttu-id="71166-132">Щелкните "Строки".</span><span class="sxs-lookup"><span data-stu-id="71166-132">Click Lines.</span></span>
 
 

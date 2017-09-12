@@ -23,26 +23,26 @@ ms.contentlocale: ru-ru
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Регистрация отметки прибытия и отъезда водителя для назначения
+# <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="ed4d4-103">Регистрация отметки прибытия и отъезда водителя для назначения</span><span class="sxs-lookup"><span data-stu-id="ed4d4-103">Register driver check-in and check-out for an appointment</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура показывает порядок регистрации прибытия и убытия водителя. Обычно это делает координатор транспортировки. Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF. Прежде чем начать, должна быть настроена встреча для груза. Для создания встречи можно выполнить процедуру "Настройка встречи для груза" в качестве предварительного условия.
+<span data-ttu-id="ed4d4-104">Эта процедура показывает порядок регистрации прибытия и убытия водителя.</span><span class="sxs-lookup"><span data-stu-id="ed4d4-104">This procedure shows how to register a driver check-in and a driver check-out.</span></span> <span data-ttu-id="ed4d4-105">Обычно это делает координатор транспортировки.</span><span class="sxs-lookup"><span data-stu-id="ed4d4-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="ed4d4-106">Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="ed4d4-106">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="ed4d4-107">Прежде чем начать, должна быть настроена встреча для груза.</span><span class="sxs-lookup"><span data-stu-id="ed4d4-107">Before you start, there must be an appointment set up for a load.</span></span> <span data-ttu-id="ed4d4-108">Для создания встречи можно выполнить процедуру "Настройка встречи для груза" в качестве предварительного условия.</span><span class="sxs-lookup"><span data-stu-id="ed4d4-108">To create an appointment, you can run the “Set up an appointment for a load” procedure as a prerequisite.</span></span>
 
 
-## <a name="select-an-appointment"></a>Выберите встречу
-1. Перейдите в раздел "Управление транспортировкой" > "Планирование" > "Планирование встречи для дебаркадера" > "Отметка прибытия и ухода водителя".
-2. Выберите встречу.
+## <a name="select-an-appointment"></a><span data-ttu-id="ed4d4-109">Выберите встречу</span><span class="sxs-lookup"><span data-stu-id="ed4d4-109">Select an appointment</span></span>
+1. <span data-ttu-id="ed4d4-110">Перейдите в раздел "Управление транспортировкой" > "Планирование" > "Планирование встречи для дебаркадера" > "Отметка прибытия и ухода водителя".</span><span class="sxs-lookup"><span data-stu-id="ed4d4-110">Go to Transportation management > Planning > Dock appointment scheduling > Driver check-in and check-out.</span></span>
+2. <span data-ttu-id="ed4d4-111">Выберите встречу.</span><span class="sxs-lookup"><span data-stu-id="ed4d4-111">Select an appointment.</span></span>
 
-## <a name="register-driver-check-in"></a>Регистрация прибытии водителя
-1. Щелкните "Отметка о прибытии водителя".
-2. В поле "Номер прицепа" введите значение.
-3. В поле "Имя водителя" введите значение.
-4. В поле "Водительские права" введите значение.
-5. Нажмите кнопку "OК".
+## <a name="register-driver-check-in"></a><span data-ttu-id="ed4d4-112">Регистрация прибытии водителя</span><span class="sxs-lookup"><span data-stu-id="ed4d4-112">Register driver check-in</span></span>
+1. <span data-ttu-id="ed4d4-113">Щелкните "Отметка о прибытии водителя".</span><span class="sxs-lookup"><span data-stu-id="ed4d4-113">Click Driver check-in.</span></span>
+2. <span data-ttu-id="ed4d4-114">В поле "Номер прицепа" введите значение.</span><span class="sxs-lookup"><span data-stu-id="ed4d4-114">In the Trailer number field, type a value.</span></span>
+3. <span data-ttu-id="ed4d4-115">В поле "Имя водителя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="ed4d4-115">In the Driver name field, type a value.</span></span>
+4. <span data-ttu-id="ed4d4-116">В поле "Водительские права" введите значение.</span><span class="sxs-lookup"><span data-stu-id="ed4d4-116">In the Driver license field, type a value.</span></span>
+5. <span data-ttu-id="ed4d4-117">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="ed4d4-117">Click OK.</span></span>
 
-## <a name="register-driver-check-out"></a>Регистрация убытии водителя
-1. Щелкните "Отметка об отъезде водителя".
-2. Нажмите кнопку "OК".
+## <a name="register-driver-check-out"></a><span data-ttu-id="ed4d4-118">Регистрация убытии водителя</span><span class="sxs-lookup"><span data-stu-id="ed4d4-118">Register driver check-out</span></span>
+1. <span data-ttu-id="ed4d4-119">Щелкните "Отметка об отъезде водителя".</span><span class="sxs-lookup"><span data-stu-id="ed4d4-119">Click Driver check-out.</span></span>
+2. <span data-ttu-id="ed4d4-120">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="ed4d4-120">Click OK.</span></span>
 
 

@@ -15,7 +15,7 @@ ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -25,17 +25,17 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a>Домашняя страница учета затрат
+# <a name="cost-accounting-home-page"></a><span data-ttu-id="452e9-103">Домашняя страница учета затрат</span><span class="sxs-lookup"><span data-stu-id="452e9-103">Cost accounting home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-## <a name="learning-map"></a>Карта обучения 
+## <a name="learning-map"></a><span data-ttu-id="452e9-104">Карта обучения</span><span class="sxs-lookup"><span data-stu-id="452e9-104">Learning map</span></span> 
 
-На следующей карте обучения показаны основные понятия и задачи со строками подключения между связанными задачами, которые описывают природу модуля "Учет затрат".
+<span data-ttu-id="452e9-105">На следующей карте обучения показаны основные понятия и задачи со строками подключения между связанными задачами, которые описывают природу модуля "Учет затрат".</span><span class="sxs-lookup"><span data-stu-id="452e9-105">The following learning map shows the major concepts and tasks with connecting lines between related tasks that describe the nature of the cost accounting module.</span></span>
 
 ![Карта обучения модуля "Учет затрат"](./media/cost-accounting-map.png)
 
-## <a name="get-started-videos"></a>Видео по началу работы
+## <a name="get-started-videos"></a><span data-ttu-id="452e9-107">Видео по началу работы</span><span class="sxs-lookup"><span data-stu-id="452e9-107">Get started videos</span></span>
 
 
 <table>

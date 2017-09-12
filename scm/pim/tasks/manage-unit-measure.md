@@ -16,59 +16,59 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: de5baa1e5c30ee998d113f7366c445a65723dfdc
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6bb7a5133e9412f4ed6fb74f0d3ee595c07a0c4b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-unit-of-measure"></a>Управление единицей измерения
+# <a name="manage-unit-of-measure"></a><span data-ttu-id="e1e9d-103">Управление единицей измерения</span><span class="sxs-lookup"><span data-stu-id="e1e9d-103">Manage unit of measure</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-В этой процедуре показано, как определить единицу измерения, ввести переводы для единицы измерения и ее описание, а также определить правила преобразования для связанных единиц измерения. Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными или собственные данные.
+<span data-ttu-id="e1e9d-104">В этой процедуре показано, как определить единицу измерения, ввести переводы для единицы измерения и ее описание, а также определить правила преобразования для связанных единиц измерения.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-104">This procedure shows how to define a unit of measure, provide translations for the unit and it's description, and define conversion rules for related units.</span></span> <span data-ttu-id="e1e9d-105">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-105">You can walk through this procedure using demo data, or using your own data.</span></span>
 
-1. Перейдите в раздел "Обслуживание выпущенного продукта".
-2. Щелкните "Единицы измерения".
+1. <span data-ttu-id="e1e9d-106">Перейдите в раздел "Обслуживание выпущенного продукта".</span><span class="sxs-lookup"><span data-stu-id="e1e9d-106">Go to Released product maintenance.</span></span>
+2. <span data-ttu-id="e1e9d-107">Щелкните "Единицы измерения".</span><span class="sxs-lookup"><span data-stu-id="e1e9d-107">Click Units.</span></span>
 
-## <a name="create-a-unit-of-measure"></a>Создание единицы измерения
-1. Щелкните "Создать".
-2. В поле "Единица измерения" введите значение.
-    * Введите код или символ, который будет использоваться при ссылке на единицу измерения.  
-3. В поле "Описание" введите значение.
-    * Введите описательное имя для единицы измерения на системном языке.  
-4. В поле "Класс единиц измерения" выберите один их вариантов.
-    * Класс единиц измерения определяет, к какому логическому группированию (такому как площадь, масса или количество) принадлежит единица измерения.  
-5. В поле "Десятичная точность" введите число.
-    * Укажите количество символов после запятой, до которого должна округляться пересчитанная единица измерения при выполнении вычислений для этой единицы измерения.  
-6. Нажмите кнопку "Сохранить".
+## <a name="create-a-unit-of-measure"></a><span data-ttu-id="e1e9d-108">Создание единицы измерения</span><span class="sxs-lookup"><span data-stu-id="e1e9d-108">Create a unit of measure</span></span>
+1. <span data-ttu-id="e1e9d-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="e1e9d-109">Click New.</span></span>
+2. <span data-ttu-id="e1e9d-110">В поле "Единица измерения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-110">In the Unit field, type a value.</span></span>
+    * <span data-ttu-id="e1e9d-111">Введите код или символ, который будет использоваться при ссылке на единицу измерения.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-111">Enter the ID or symbol to use when referring to the unit of measure.</span></span>  
+3. <span data-ttu-id="e1e9d-112">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-112">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="e1e9d-113">Введите описательное имя для единицы измерения на системном языке.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-113">Enter a descriptive name for the unit of measure in the system language.</span></span>  
+4. <span data-ttu-id="e1e9d-114">В поле "Класс единиц измерения" выберите один их вариантов.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-114">In the Unit class field, select an option.</span></span>
+    * <span data-ttu-id="e1e9d-115">Класс единиц измерения определяет, к какому логическому группированию (такому как площадь, масса или количество) принадлежит единица измерения.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-115">The unit class defines what logical grouping, such as area, mass, or quantity, the unit of measure is part of.</span></span>  
+5. <span data-ttu-id="e1e9d-116">В поле "Десятичная точность" введите число.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-116">In the Decimal precision field, enter a number.</span></span>
+    * <span data-ttu-id="e1e9d-117">Укажите количество символов после запятой, до которого должна округляться пересчитанная единица измерения при выполнении вычислений для этой единицы измерения.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-117">Specify the number of decimals that the converted unit of measure must be rounded to when a calculation is completed for the unit of measure.</span></span>  
+6. <span data-ttu-id="e1e9d-118">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="e1e9d-118">Click Save.</span></span>
 
-## <a name="define-unit-translations"></a>Определение переводов для единицы измерения
-1. Щелкните "Тексты к единицам измерения".
-2. Щелкните "Создать".
-    * Используйте текст к единице измерения для создания перевода кода или символа, представляющего единицу измерения, для использования во внешних документах на языках клиентов или поставщиков.  
-3. В поле "Язык" введите или выберите значение.
-4. В поле "Текст" введите значение.
-5. Нажмите кнопку "Сохранить".
-6. Закройте страницу.
-7. Щелкните "Описания пересчитанных единиц измерения".
-8. Щелкните "Создать".
-    * Определите описания единицы измерения для конкретных языков.  
-9. В поле "Язык" введите или выберите значение.
-10. В поле "Описание" введите значение.
-11. Нажмите кнопку "Сохранить".
-12. Закройте страницу.
+## <a name="define-unit-translations"></a><span data-ttu-id="e1e9d-119">Определение переводов для единицы измерения</span><span class="sxs-lookup"><span data-stu-id="e1e9d-119">Define unit translations</span></span>
+1. <span data-ttu-id="e1e9d-120">Щелкните "Тексты к единицам измерения".</span><span class="sxs-lookup"><span data-stu-id="e1e9d-120">Click Unit texts.</span></span>
+2. <span data-ttu-id="e1e9d-121">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="e1e9d-121">Click New.</span></span>
+    * <span data-ttu-id="e1e9d-122">Используйте текст к единице измерения для создания перевода кода или символа, представляющего единицу измерения, для использования во внешних документах на языках клиентов или поставщиков.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-122">Use unit text to create a translation of the ID or a symbol representing the unit of measure for use on external documents in customer- or vendor-specific languages.</span></span>  
+3. <span data-ttu-id="e1e9d-123">В поле "Язык" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-123">In the Language field, enter or select a value.</span></span>
+4. <span data-ttu-id="e1e9d-124">В поле "Текст" введите значение.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-124">In the Text field, type a value.</span></span>
+5. <span data-ttu-id="e1e9d-125">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="e1e9d-125">Click Save.</span></span>
+6. <span data-ttu-id="e1e9d-126">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-126">Close the page.</span></span>
+7. <span data-ttu-id="e1e9d-127">Щелкните "Описания пересчитанных единиц измерения".</span><span class="sxs-lookup"><span data-stu-id="e1e9d-127">Click Translated unit descriptions.</span></span>
+8. <span data-ttu-id="e1e9d-128">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="e1e9d-128">Click New.</span></span>
+    * <span data-ttu-id="e1e9d-129">Определите описания единицы измерения для конкретных языков.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-129">Define language-specific descriptions for the unit of measure.</span></span>  
+9. <span data-ttu-id="e1e9d-130">В поле "Язык" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-130">In the Language field, enter or select a value.</span></span>
+10. <span data-ttu-id="e1e9d-131">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-131">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="e1e9d-132">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="e1e9d-132">Click Save.</span></span>
+12. <span data-ttu-id="e1e9d-133">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-133">Close the page.</span></span>
 
-## <a name="define-unit-conversion-rules"></a>Определение правил пересчета единицы измерения
-1. Щелкните "Пересчеты единиц измерения".
-    * Определите правила для пересчета единицы измерения в другие единицы измерения (и из них) в выбранном классе единиц измерения.  
-2. Щелкните "Создать", чтобы открыть раскрывающееся диалоговое окно.
-3. В поле "Коэффициент" введите число.
-    * Коэффициент пересчета между единицей измерения "Из" и единицей измерения "В". Например, коэффициент пересчета из сантиметров в метры равен 100, потому что в одном метре 100 сантиметров.  
-4. В поле "В ед. изм." введите или выберите значение.
-5. В поле "Округление" выберите вариант.
-    * Определите, как должно округляться пересчитанное значение.  
-6. Нажмите кнопку "OК".
-7. Закройте страницу.
+## <a name="define-unit-conversion-rules"></a><span data-ttu-id="e1e9d-134">Определение правил пересчета единицы измерения</span><span class="sxs-lookup"><span data-stu-id="e1e9d-134">Define unit conversion rules</span></span>
+1. <span data-ttu-id="e1e9d-135">Щелкните "Пересчеты единиц измерения".</span><span class="sxs-lookup"><span data-stu-id="e1e9d-135">Click Unit conversions.</span></span>
+    * <span data-ttu-id="e1e9d-136">Определите правила для пересчета единицы измерения в другие единицы измерения (и из них) в выбранном классе единиц измерения.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-136">Define rules for converting the unit of measure to and from other units of measure in the selected unit class.</span></span>  
+2. <span data-ttu-id="e1e9d-137">Щелкните "Создать", чтобы открыть раскрывающееся диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-137">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="e1e9d-138">В поле "Коэффициент" введите число.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-138">In the Factor field, enter a number.</span></span>
+    * <span data-ttu-id="e1e9d-139">Коэффициент пересчета между единицей измерения "Из" и единицей измерения "В".</span><span class="sxs-lookup"><span data-stu-id="e1e9d-139">Conversion factor between the From unit and the To unit.</span></span> <span data-ttu-id="e1e9d-140">Например, коэффициент пересчета из сантиметров в метры равен 100, потому что в одном метре 100 сантиметров.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-140">For example, the conversion factor from centimeter to meter is 100 because there are 100 centimeters in one meter.</span></span>  
+4. <span data-ttu-id="e1e9d-141">В поле "В ед. изм." введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-141">In the To unit field, enter or select a value.</span></span>
+5. <span data-ttu-id="e1e9d-142">В поле "Округление" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-142">In the Rounding field, select an option.</span></span>
+    * <span data-ttu-id="e1e9d-143">Определите, как должно округляться пересчитанное значение.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-143">Define how the converted value should be rounded.</span></span>  
+6. <span data-ttu-id="e1e9d-144">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="e1e9d-144">Click OK.</span></span>
+7. <span data-ttu-id="e1e9d-145">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="e1e9d-145">Close the page.</span></span>
 
 

@@ -19,31 +19,31 @@ ms.author: anpurush
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
-ms.openlocfilehash: e748c6fb788f4ec00ab2a0ef62e139a6180089be
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3b330b64c1427517866b17b62ac441a4a8bed2f0
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="hybrid-customer-orders"></a>Гибридные клиентские заказы
+# <a name="hybrid-customer-orders"></a><span data-ttu-id="8357b-103">Гибридные клиентские заказы</span><span class="sxs-lookup"><span data-stu-id="8357b-103">Hybrid customer orders</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Гибридный клиентский заказ представляет собой один заказ, содержащий продукты, которые клиент может унести с собой из магазина, а также продукты, которые он заберет или которые будут доставлены позже.
+<span data-ttu-id="8357b-104">Гибридный клиентский заказ представляет собой один заказ, содержащий продукты, которые клиент может унести с собой из магазина, а также продукты, которые он заберет или которые будут доставлены позже.</span><span class="sxs-lookup"><span data-stu-id="8357b-104">A hybrid customer order is a single order, which contains products that can be carried out of the store by the customer, as well as products that will be picked up or shipped later.</span></span>
 
-В модуле Microsoft Dynamics 365 for Retail для заказа клиента можно выбрать, что клиент заберет все продукты или заберет выбранные продукты. Для строк продуктов, помеченных как "на вынос", автоматически выставляется накладная после создания заказа, аналогично тому, как для заказа, который клиент заберет после создания заказа. Суммы, подлежащая оплате по гибридным заказам, определяется путем добавления процента депозита по строкам комплектации и отгрузки товаров к полной сумме строка "на вынос". Для гибридных заказов система переключается между режимом заказа клиента и режимом "оплатил наличными и забрал" следующим образом:
+<span data-ttu-id="8357b-105">В модуле Microsoft Dynamics 365 for Retail для заказа клиента можно выбрать, что клиент заберет все продукты или заберет выбранные продукты.</span><span class="sxs-lookup"><span data-stu-id="8357b-105">In Microsoft Dynamics 365 for Retail, you can select either carry out all products or carry out selected products for a customer order.</span></span> <span data-ttu-id="8357b-106">Для строк продуктов, помеченных как "на вынос", автоматически выставляется накладная после создания заказа, аналогично тому, как для заказа, который клиент заберет после создания заказа.</span><span class="sxs-lookup"><span data-stu-id="8357b-106">The product lines that are marked as carry out are automatically invoiced after the order is created, similarly this is the same for an order that is to be picked-up after the order is created.</span></span> <span data-ttu-id="8357b-107">Суммы, подлежащая оплате по гибридным заказам, определяется путем добавления процента депозита по строкам комплектации и отгрузки товаров к полной сумме строка "на вынос".</span><span class="sxs-lookup"><span data-stu-id="8357b-107">The amount due on hybrid orders is determined by adding the deposit percentage on pick and ship product lines with the full amount of the carry out lines.</span></span> <span data-ttu-id="8357b-108">Для гибридных заказов система переключается между режимом заказа клиента и режимом "оплатил наличными и забрал" следующим образом:</span><span class="sxs-lookup"><span data-stu-id="8357b-108">For hybrid orders, the system switches between customer order mode and cash and carry mode as follows:</span></span>
 
--   Если все товары в корзине заданы как установлены как **Способ поставки "На вынос"**, заказ будет обрабатываться как проводка "Продажа без доставки при оплате наличными".
--   Если для какой-либо строки или всех строк в корзине задана **Комплектация** или **Доставка**, заказ будет обрабатываться как проводка заказа клиента.
+-   <span data-ttu-id="8357b-109">Если все товары в корзине заданы как установлены как **Способ поставки "На вынос"**, заказ будет обрабатываться как проводка "Продажа без доставки при оплате наличными".</span><span class="sxs-lookup"><span data-stu-id="8357b-109">If all products in the cart are set to **Carry out delivery**, the order will be handled as a Cash and Carry transaction.</span></span>
+-   <span data-ttu-id="8357b-110">Если для какой-либо строки или всех строк в корзине задана **Комплектация** или **Доставка**, заказ будет обрабатываться как проводка заказа клиента.</span><span class="sxs-lookup"><span data-stu-id="8357b-110">If any or all lines in the cart are set to either **Pick** or **ship delivery**, the order will be handled as a Customer order transaction.</span></span>
 
-Если строка корзины выбрана и выбрано значение **Отобрать выбранное**, **Отгрузить выбранные** или **Вынести выбранные**, этот метод доставки будет установлен только для конкретной строки корзины. В этом случае дальнейший поток операций продолжается в обычном режиме. Однако если значение **Отобрать выбранное**, **Отгрузить выбранные** или **Вынести выбранные** выбрано, когда никакая строка корзины не выбрана, открывается новая страница, на которой отображаются все строки корзины. На этом окне можно выбрать несколько строк за один раз, чтобы задать способ доставки. При использовании этого метода для выбора строк будут переопределены все предыдущие методы доставки, назначенные данной строке.
+<span data-ttu-id="8357b-111">Если строка корзины выбрана и выбрано значение **Отобрать выбранное**, **Отгрузить выбранные** или **Вынести выбранные**, этот метод доставки будет установлен только для конкретной строки корзины.</span><span class="sxs-lookup"><span data-stu-id="8357b-111">If a cart line is selected and **Pick selected**, **Ship selected**, or **Carry out selected** is selected, only the specific cart line is set with that delivery method.</span></span> <span data-ttu-id="8357b-112">В этом случае дальнейший поток операций продолжается в обычном режиме.</span><span class="sxs-lookup"><span data-stu-id="8357b-112">In that case, the downstream flow of the operation continues as usual.</span></span> <span data-ttu-id="8357b-113">Однако если значение **Отобрать выбранное**, **Отгрузить выбранные** или **Вынести выбранные** выбрано, когда никакая строка корзины не выбрана, открывается новая страница, на которой отображаются все строки корзины.</span><span class="sxs-lookup"><span data-stu-id="8357b-113">However, if **Pick selected**, **Ship selected**, or **Carry out selected** is selected without a cart line being selected, a new page opens that lists all the cart lines.</span></span> <span data-ttu-id="8357b-114">На этом окне можно выбрать несколько строк за один раз, чтобы задать способ доставки.</span><span class="sxs-lookup"><span data-stu-id="8357b-114">On that screen, you can select multiple lines at once for setting the delivery method.</span></span> <span data-ttu-id="8357b-115">При использовании этого метода для выбора строк будут переопределены все предыдущие методы доставки, назначенные данной строке.</span><span class="sxs-lookup"><span data-stu-id="8357b-115">When you use that method for selecting lines, any previous delivery method that has been assigned to the line will be overridden.</span></span>
 
-<a name="see-also"></a>См. также
+<a name="see-also"></a><span data-ttu-id="8357b-116">См. также</span><span class="sxs-lookup"><span data-stu-id="8357b-116">See also</span></span>
 --------
 
-[Обзор заказов клиентов](customer-orders-overview.md)
+[<span data-ttu-id="8357b-117">Обзор заказов клиентов</span><span class="sxs-lookup"><span data-stu-id="8357b-117">Customer orders overview</span></span>](customer-orders-overview.md)
 
 
 

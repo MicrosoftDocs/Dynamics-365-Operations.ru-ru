@@ -1,4 +1,4 @@
---- 
+---
 title: "Создание заказа пополнения консигнационных запасов"
 description: "В этой процедуре описан порядок создания заказа на пополнение коносамента, где можно отслеживать предполагаемую доставку от поставщика в своих консигнационные запасы."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,58 +17,57 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 5e268f640be11b0905457ff6b7697c90411f53e5
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 6286e8f52b8131a8e4779f1e11d84233b8e0760e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="create-a-consignment-replenishment-order"></a>Создание заказа пополнения консигнационных запасов
+# <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="f3ecf-103">Создание заказа пополнения консигнационных запасов</span><span class="sxs-lookup"><span data-stu-id="f3ecf-103">Create a consignment replenishment order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-В этой процедуре описан порядок создания заказа на пополнение коносамента, где можно отслеживать предполагаемую доставку от поставщика в своих консигнационные запасы. Она также показывает, как зарегистрировать поступление продуктов, чтобы запасы коносамента были зарегистрированы как запасы в наличии, принадлежащие поставщику. Обычно эту процедуру выполняет специалист по закупкам. Это руководство можно использовать в компании с демонстрационными данными USMF. Эта процедура предназначена для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
+<span data-ttu-id="f3ecf-104">В этой процедуре описан порядок создания заказа на пополнение коносамента, где можно отслеживать предполагаемую доставку от поставщика в своих консигнационные запасы.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-104">This procedure shows how to create a consignment replenishment order where you can track the expected delivery from a vendor into your consignment inventory.</span></span> <span data-ttu-id="f3ecf-105">Она также показывает, как зарегистрировать поступление продуктов, чтобы запасы коносамента были зарегистрированы как запасы в наличии, принадлежащие поставщику.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-105">It also shows how to record a receipt of products so that the consignment inventory is registered as on-hand inventory owned by the vendor.</span></span> <span data-ttu-id="f3ecf-106">Обычно эту процедуру выполняет специалист по закупкам.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-106">This procedure would typically be done by a procurement professional.</span></span> <span data-ttu-id="f3ecf-107">Это руководство можно использовать в компании с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="f3ecf-108">Эта процедура предназначена для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-108">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
 
 
 
-## <a name="create-a-consignment-replenishment-order"></a>Создание заказа пополнения консигнационных запасов
-1. Перейдите в раздел "Закупки и источники" > "Коносамент" > "Заказы пополнения коносамента".
-2. Щелкните "Создать".
-3. В поле "Счет поставщика" выберите поставщика "US-104".
-    * Необходимо выбрать поставщика, зарегистрированного в качестве владельца на странице "Владельцы запасов".  
-4. Нажмите кнопку "OК".
-5. Щелкните "Добавить строку".
-6. В поле "Код номенклатуры" введите "M9211CI".
-    * Необходимо выбрать номенклатуру, которая настроена для консигнационных запасов.  
-7. В поле "Количество" введите число.
-8. В поле "Запрошенная дата доставки" введите дату.
-    * Запрошенные и подтвержденные даты используются модулем MRP для ожидаемого прихода товаров.  
-9. В поле "Подтвержденная дата доставки" введите дату.
-10. Разверните раздел "Сведения о строке".
-11. Перейдите на вкладку "Складские аналитики".
-12. Чтобы отобразить владельца в поле владельца складских аналитик, обновите страницу.
-    * Поставщик US-104 теперь указан в качестве владельца.  
+## <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="f3ecf-109">Создание заказа пополнения консигнационных запасов</span><span class="sxs-lookup"><span data-stu-id="f3ecf-109">Create a consignment replenishment order</span></span>
+1. <span data-ttu-id="f3ecf-110">Перейдите в раздел "Закупки и источники" > "Коносамент" > "Заказы пополнения коносамента".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-110">Go to Procurement and sourcing > Consignment > Consignment replenishment orders.</span></span>
+2. <span data-ttu-id="f3ecf-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-111">Click New.</span></span>
+3. <span data-ttu-id="f3ecf-112">В поле "Счет поставщика" выберите поставщика "US-104".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-112">In the Vendor account field, select vendor US-104.</span></span>
+    * <span data-ttu-id="f3ecf-113">Необходимо выбрать поставщика, зарегистрированного в качестве владельца на странице "Владельцы запасов".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-113">You must select a vendor that’s registered as an owner in the Inventory owners page.</span></span>  
+4. <span data-ttu-id="f3ecf-114">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-114">Click OK.</span></span>
+5. <span data-ttu-id="f3ecf-115">Щелкните "Добавить строку".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-115">Click Add line.</span></span>
+6. <span data-ttu-id="f3ecf-116">В поле "Код номенклатуры" введите "M9211CI".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-116">In the Item number field, type M9211CI.</span></span>
+    * <span data-ttu-id="f3ecf-117">Необходимо выбрать номенклатуру, которая настроена для консигнационных запасов.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-117">You must select an item that is set up for consignment inventory.</span></span>  
+7. <span data-ttu-id="f3ecf-118">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-118">In the Quantity field, enter a number.</span></span>
+8. <span data-ttu-id="f3ecf-119">В поле "Запрошенная дата доставки" введите дату.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-119">In the Requested delivery date field, enter a date.</span></span>
+    * <span data-ttu-id="f3ecf-120">Запрошенные и подтвержденные даты используются модулем MRP для ожидаемого прихода товаров.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-120">The requested and confirmed dates are used by the MRP engine for the expected arrival of the goods.</span></span>  
+9. <span data-ttu-id="f3ecf-121">В поле "Подтвержденная дата доставки" введите дату.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-121">In the Confirmed delivery date field, enter a date.</span></span>
+10. <span data-ttu-id="f3ecf-122">Разверните раздел "Сведения о строке".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-122">Expand the Line details section.</span></span>
+11. <span data-ttu-id="f3ecf-123">Перейдите на вкладку "Складские аналитики".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-123">Click the Inventory dimensions tab.</span></span>
+12. <span data-ttu-id="f3ecf-124">Чтобы отобразить владельца в поле владельца складских аналитик, обновите страницу.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-124">To show the owner in the Inventory dimensions owner field, refresh the page.</span></span>
+    * <span data-ttu-id="f3ecf-125">Поставщик US-104 теперь указан в качестве владельца.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-125">Vendor US-104 is now listed as the owner.</span></span>  
 
-## <a name="check-the-inventory-transaction-status"></a>Проверка статуса складской проводки
-1. Щелкните запасы.
-2. Щелкните "Проводки".
-3. В списке пометьте выбранную строку.
-    * Обратите внимание, что в поле "Приход" установлено значение "Заказано".  
-4. Закройте страницу.
+## <a name="check-the-inventory-transaction-status"></a><span data-ttu-id="f3ecf-126">Проверка статуса складской проводки</span><span class="sxs-lookup"><span data-stu-id="f3ecf-126">Check the inventory transaction status</span></span>
+1. <span data-ttu-id="f3ecf-127">Щелкните запасы.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-127">Click Inventory.</span></span>
+2. <span data-ttu-id="f3ecf-128">Щелкните "Проводки".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-128">Click Transactions.</span></span>
+3. <span data-ttu-id="f3ecf-129">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-129">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="f3ecf-130">Обратите внимание, что в поле "Приход" установлено значение "Заказано".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-130">Notice that the Receipt field is set to Ordered.</span></span>  
+4. <span data-ttu-id="f3ecf-131">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-131">Close the page.</span></span>
 
-## <a name="receive-items"></a>Получить номенклатуры
-1. Щелкните "Поступление продуктов".
-2. В поле "Внешнее поступление продуктов" введите значение.
-3. В поле "Количество" введите номер, который меньше номера, который отображается здесь. 
-4. Нажмите кнопку "OК".
+## <a name="receive-items"></a><span data-ttu-id="f3ecf-132">Получить номенклатуры</span><span class="sxs-lookup"><span data-stu-id="f3ecf-132">Receive items</span></span>
+1. <span data-ttu-id="f3ecf-133">Щелкните "Поступление продуктов".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-133">Click Product receipt.</span></span>
+2. <span data-ttu-id="f3ecf-134">В поле "Внешнее поступление продуктов" введите значение.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-134">In the External product receipt field, type a value.</span></span>
+3. <span data-ttu-id="f3ecf-135">В поле "Количество" введите номер, который меньше номера, который отображается здесь.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-135">In the Quantity field, enter a number that’s lower than the number that’s shown there.</span></span>
+4. <span data-ttu-id="f3ecf-136">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-136">Click OK.</span></span>
 
-## <a name="check-the-on-hand-inventory"></a>Проверка запасов в наличии
-1. Щелкните запасы.
-2. Щелкните "В наличии".
-3. Щелкните "Обзор".
-    * Номенклатуры, которые были получены как консигнационные запасы, принадлежащие поставщику, доступны в наличии. Оставшееся количество заказанного пополнения коносамента отображается в поле "Всего заказано".  
-4. Закройте страницу.
-5. Щелкните "Закрыть".
-
+## <a name="check-the-on-hand-inventory"></a><span data-ttu-id="f3ecf-137">Проверка запасов в наличии</span><span class="sxs-lookup"><span data-stu-id="f3ecf-137">Check the on-hand inventory</span></span>
+1. <span data-ttu-id="f3ecf-138">Щелкните запасы.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-138">Click Inventory.</span></span>
+2. <span data-ttu-id="f3ecf-139">Щелкните "В наличии".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-139">Click On-hand.</span></span>
+3. <span data-ttu-id="f3ecf-140">Щелкните "Обзор".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-140">Click Overview.</span></span>
+    * <span data-ttu-id="f3ecf-141">Номенклатуры, которые были получены как консигнационные запасы, принадлежащие поставщику, доступны в наличии.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-141">The items that have been received as consignment inventory owned by the vendor are available on-hand.</span></span> <span data-ttu-id="f3ecf-142">Оставшееся количество заказанного пополнения коносамента отображается в поле "Всего заказано".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-142">The remaining quantity on the consignment replenishment order is shown in the Ordered in total field.</span></span>  
+4. <span data-ttu-id="f3ecf-143">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="f3ecf-143">Close the page.</span></span>
+5. <span data-ttu-id="f3ecf-144">Щелкните "Закрыть".</span><span class="sxs-lookup"><span data-stu-id="f3ecf-144">Click Close.</span></span>
 

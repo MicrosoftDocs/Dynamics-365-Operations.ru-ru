@@ -17,58 +17,58 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: a88968072b28ab468af97a875bd76d4d6abecfde
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 33558053d33d9fe4a2ecb3576da569b2c441db80
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="start-a-production-order"></a>Запуск производственного заказа
+# <a name="start-a-production-order"></a><span data-ttu-id="64329-103">Запуск производственного заказа</span><span class="sxs-lookup"><span data-stu-id="64329-103">Start a production order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Следующая процедура показывает запуск производственного заказа в управлении цехом. Потребление времени и материалов указываются в этом процессе. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Это пятая из семи процедур, которая объясняет жизненный цикл производственного заказа.
+<span data-ttu-id="64329-104">Следующая процедура показывает запуск производственного заказа в управлении цехом.</span><span class="sxs-lookup"><span data-stu-id="64329-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="64329-105">Потребление времени и материалов указываются в этом процессе.</span><span class="sxs-lookup"><span data-stu-id="64329-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="64329-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="64329-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="64329-107">Это пятая из семи процедур, которая объясняет жизненный цикл производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="64329-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="start-a-production-order"></a>Запуск производственного заказа
-1. Перейдите в раздел "Управление производством" > "Производственные заказы" > "Все производственные заказы".
-    * Выберите производственный заказ со статусом "Выпущено".  
-2. В области действий щелкните "Производственный заказ".
-3. Щелкните "Начать".
-    * На этой странице можно подтвердить запуск производственного заказа.  
-4. Перейдите на вкладку "Общие".
-5. В поле "От операции № п/п введите "10".
-6. В поле "Автопотребление на маршруте" выберите "Всегда".
-7. Установите флажок "Разнести карту маршрута".
-8. В поле "Автопотребление по спецификации" выберите "Всегда".
-9. Установите флажок "Разнести лист подбора".
-10. Установите флажок "Печать листа подбора".
-11. Нажмите кнопку "OК".
-    * Это напечатанный лист подбора, содержащий материалы, используемые для производственного заказа.  
-12. Закройте страницу.
+## <a name="start-a-production-order"></a><span data-ttu-id="64329-108">Запуск производственного заказа</span><span class="sxs-lookup"><span data-stu-id="64329-108">Start a production order</span></span>
+1. <span data-ttu-id="64329-109">Перейдите в раздел "Управление производством" > "Производственные заказы" > "Все производственные заказы".</span><span class="sxs-lookup"><span data-stu-id="64329-109">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="64329-110">Выберите производственный заказ со статусом "Выпущено".</span><span class="sxs-lookup"><span data-stu-id="64329-110">Select a production order that has the Released status.</span></span>  
+2. <span data-ttu-id="64329-111">В области действий щелкните "Производственный заказ".</span><span class="sxs-lookup"><span data-stu-id="64329-111">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="64329-112">Щелкните "Начать".</span><span class="sxs-lookup"><span data-stu-id="64329-112">Click Start.</span></span>
+    * <span data-ttu-id="64329-113">На этой странице можно подтвердить запуск производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="64329-113">On this page, you can confirm the start of the production order.</span></span>  
+4. <span data-ttu-id="64329-114">Перейдите на вкладку "Общие".</span><span class="sxs-lookup"><span data-stu-id="64329-114">Click the General tab.</span></span>
+5. <span data-ttu-id="64329-115">В поле "От операции</span><span class="sxs-lookup"><span data-stu-id="64329-115">In the From Oper.</span></span> <span data-ttu-id="64329-116">№ п/п</span><span class="sxs-lookup"><span data-stu-id="64329-116">No.</span></span> <span data-ttu-id="64329-117">введите "10".</span><span class="sxs-lookup"><span data-stu-id="64329-117">field, enter '10'.</span></span>
+6. <span data-ttu-id="64329-118">В поле "Автопотребление на маршруте" выберите "Всегда".</span><span class="sxs-lookup"><span data-stu-id="64329-118">In the Automatic route consumption field, select 'Always'.</span></span>
+7. <span data-ttu-id="64329-119">Установите флажок "Разнести карту маршрута".</span><span class="sxs-lookup"><span data-stu-id="64329-119">Click the Post route card now checkbox.</span></span>
+8. <span data-ttu-id="64329-120">В поле "Автопотребление по спецификации" выберите "Всегда".</span><span class="sxs-lookup"><span data-stu-id="64329-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
+9. <span data-ttu-id="64329-121">Установите флажок "Разнести лист подбора".</span><span class="sxs-lookup"><span data-stu-id="64329-121">Click the Post picking list now checkbox.</span></span>
+10. <span data-ttu-id="64329-122">Установите флажок "Печать листа подбора".</span><span class="sxs-lookup"><span data-stu-id="64329-122">Click the Print picking list checkbox.</span></span>
+11. <span data-ttu-id="64329-123">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="64329-123">Click OK.</span></span>
+    * <span data-ttu-id="64329-124">Это напечатанный лист подбора, содержащий материалы, используемые для производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="64329-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
+12. <span data-ttu-id="64329-125">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="64329-125">Close the page.</span></span>
 
-## <a name="validate-the-picking-list"></a>Проверка листа подбора
-1. В области действий щелкните "Показать".
-2. Щелкните "Лист подбора".
-3. В списке найдите и выберите требуемую запись.
-4. В списке перейдите по ссылке в выбранной строке.
-5. Щелкните "Изменить".
-6. В поле "Потребление" введите число.
-7. Щелкните "Разнести".
-8. Нажмите кнопку "OК".
-    * В журнале ведомостей комплектации разносятся материалы, потребленные производственным заказом. Перед разноской журнала можно вносить корректировки, если есть разница между расчетным количеством и фактическим потребленным количеством.  
-9. Перейдите на вкладку "Панель сетки".
-10. Закройте страницу.
+## <a name="validate-the-picking-list"></a><span data-ttu-id="64329-126">Проверка листа подбора</span><span class="sxs-lookup"><span data-stu-id="64329-126">Validate the picking list</span></span>
+1. <span data-ttu-id="64329-127">В области действий щелкните "Показать".</span><span class="sxs-lookup"><span data-stu-id="64329-127">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="64329-128">Щелкните "Лист подбора".</span><span class="sxs-lookup"><span data-stu-id="64329-128">Click Picking list.</span></span>
+3. <span data-ttu-id="64329-129">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="64329-129">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="64329-130">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="64329-130">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="64329-131">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="64329-131">Click Edit.</span></span>
+6. <span data-ttu-id="64329-132">В поле "Потребление" введите число.</span><span class="sxs-lookup"><span data-stu-id="64329-132">In the Consumption field, enter a number.</span></span>
+7. <span data-ttu-id="64329-133">Щелкните "Разнести".</span><span class="sxs-lookup"><span data-stu-id="64329-133">Click Post.</span></span>
+8. <span data-ttu-id="64329-134">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="64329-134">Click OK.</span></span>
+    * <span data-ttu-id="64329-135">В журнале ведомостей комплектации разносятся материалы, потребленные производственным заказом.</span><span class="sxs-lookup"><span data-stu-id="64329-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="64329-136">Перед разноской журнала можно вносить корректировки, если есть разница между расчетным количеством и фактическим потребленным количеством.</span><span class="sxs-lookup"><span data-stu-id="64329-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
+9. <span data-ttu-id="64329-137">Перейдите на вкладку "Панель сетки".</span><span class="sxs-lookup"><span data-stu-id="64329-137">Click the GridPanel tab.</span></span>
+10. <span data-ttu-id="64329-138">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="64329-138">Close the page.</span></span>
 
-## <a name="verify-the-route-card-journal"></a>Проверка журнала карты маршрута
-1. В области действий щелкните "Показать".
-2. Щелкните "Карта маршрута".
-3. В списке найдите и выберите требуемую запись.
-4. В списке перейдите по ссылке в выбранной строке.
-5. Щелкните "Изменить".
-6. В поле "Часы" введите число.
-7. Щелкните "Разнести".
-8. Нажмите кнопку "OК".
-    * В журнале карт маршрутов регистрируется время, затраченное на отдельные операции. Правильное и ошибочное количество можно также вносить в отчет.  
+## <a name="verify-the-route-card-journal"></a><span data-ttu-id="64329-139">Проверка журнала карты маршрута</span><span class="sxs-lookup"><span data-stu-id="64329-139">Verify the route card journal</span></span>
+1. <span data-ttu-id="64329-140">В области действий щелкните "Показать".</span><span class="sxs-lookup"><span data-stu-id="64329-140">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="64329-141">Щелкните "Карта маршрута".</span><span class="sxs-lookup"><span data-stu-id="64329-141">Click Route card.</span></span>
+3. <span data-ttu-id="64329-142">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="64329-142">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="64329-143">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="64329-143">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="64329-144">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="64329-144">Click Edit.</span></span>
+6. <span data-ttu-id="64329-145">В поле "Часы" введите число.</span><span class="sxs-lookup"><span data-stu-id="64329-145">In the Hours field, enter a number.</span></span>
+7. <span data-ttu-id="64329-146">Щелкните "Разнести".</span><span class="sxs-lookup"><span data-stu-id="64329-146">Click Post.</span></span>
+8. <span data-ttu-id="64329-147">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="64329-147">Click OK.</span></span>
+    * <span data-ttu-id="64329-148">В журнале карт маршрутов регистрируется время, затраченное на отдельные операции.</span><span class="sxs-lookup"><span data-stu-id="64329-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="64329-149">Правильное и ошибочное количество можно также вносить в отчет.</span><span class="sxs-lookup"><span data-stu-id="64329-149">Good and error quantity can also be reported.</span></span>  
 
 

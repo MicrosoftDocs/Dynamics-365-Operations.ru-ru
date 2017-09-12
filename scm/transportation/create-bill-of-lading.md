@@ -16,32 +16,32 @@ ms.custom: 193583
 ms.assetid: 1ad0c1cb-4346-4042-a59b-923115fac03e
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f3010daa41f54cf026d46b1b7648a277651173da
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: b274ff572d2be9a71b91d533023b95be98591e4f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="create-a-bill-of-lading"></a>Создание транспортной накладной
+# <a name="create-a-bill-of-lading"></a><span data-ttu-id="34c54-103">Создание транспортной накладной</span><span class="sxs-lookup"><span data-stu-id="34c54-103">Create a bill of lading</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-В этом разделе описывается создание транспортной накладной при использовании процессов управления складом.  
+<span data-ttu-id="34c54-104">В этом разделе описывается создание транспортной накладной при использовании процессов управления складом.</span><span class="sxs-lookup"><span data-stu-id="34c54-104">This topic describes how to create a bill of lading when using warehouse management processes.</span></span>  
 
-Транспортная накладная — юридический документ между компанией, которая отгружает номенклатуры, и перевозчиком. Документ сопровождает отгруженные номенклатуры и служит как подтверждение получения отгрузки, когда номенклатуры доставляются по месту назначения. Если вы используете управление складом, существует два способа создания транспортной накладной:
+<span data-ttu-id="34c54-105">Транспортная накладная — юридический документ между компанией, которая отгружает номенклатуры, и перевозчиком.</span><span class="sxs-lookup"><span data-stu-id="34c54-105">A bill of lading is a legal document between the company that ships the items and the carrier.</span></span> <span data-ttu-id="34c54-106">Документ сопровождает отгруженные номенклатуры и служит как подтверждение получения отгрузки, когда номенклатуры доставляются по месту назначения.</span><span class="sxs-lookup"><span data-stu-id="34c54-106">The document accompanies the shipped items, and it serves as a receipt of shipment when the items are delivered at the destination.</span></span> <span data-ttu-id="34c54-107">Если вы используете управление складом, существует два способа создания транспортной накладной:</span><span class="sxs-lookup"><span data-stu-id="34c54-107">If you're using warehouse management, there are two ways to generate a bill of lading:</span></span>
 
-  -   Создайте отчет вручную, используя страницу **Транспортная накладная**.
-  -   Создайте отчет в разделе **Рабочее место планирования загрузки**.
+  -   <span data-ttu-id="34c54-108">Создайте отчет вручную, используя страницу **Транспортная накладная**.</span><span class="sxs-lookup"><span data-stu-id="34c54-108">Create the report manually, using the **Bill of lading** page.</span></span>
+  -   <span data-ttu-id="34c54-109">Создайте отчет в разделе **Рабочее место планирования загрузки**.</span><span class="sxs-lookup"><span data-stu-id="34c54-109">Generate the report from the **Load planning workbench**.</span></span>
 
-При создании транспортной накладной в разделе **Рабочее место планирования загрузки** статус загрузки должен быть **Отгружено.** Если имеется более одной отгрузки в загрузке, транспортная накладная создается для каждой отгрузки. После создания транспортной накладной можно вносить в нее изменения на странице **Транспортная накладная**.
+<span data-ttu-id="34c54-110">При создании транспортной накладной в разделе **Рабочее место планирования загрузки** статус загрузки должен быть **Отгружено.**</span><span class="sxs-lookup"><span data-stu-id="34c54-110">If you generate the bill of lading from the **Load planning workbench**, the load status must be **Shipped.**</span></span> <span data-ttu-id="34c54-111">Если имеется более одной отгрузки в загрузке, транспортная накладная создается для каждой отгрузки.</span><span class="sxs-lookup"><span data-stu-id="34c54-111">If there's more than one shipment in the load, a bill of lading is created for each shipment.</span></span> <span data-ttu-id="34c54-112">После создания транспортной накладной можно вносить в нее изменения на странице **Транспортная накладная**.</span><span class="sxs-lookup"><span data-stu-id="34c54-112">After a bill of lading has been created you can make changes to it on the **Bill of lading** page.</span></span>
 
-## <a name="master-bill-of-lading"></a>Сводная транспортная накладная
-При наличии нескольких отгрузок в загрузке можно создать сводную транспортную накладную. Она имеет тот же макет и сведения как и транспортная накладная, но содержит сводное содержимое по всем отгрузкам. Если для параметра **Создание сводной транспортной накладной при наличии нескольких отгрузок для загрузки** задано значение **Да** на странице **Параметры управления транспортировкой**, сводная транспортная накладная создается автоматически при создании транспортной накладной в разделе **Рабочее место планирования загрузки** и имеется несколько отгрузок. Можно также получить список транспортных накладных, щелкнув **Связанные сведения** &gt; **Транспортная накладная**. При создании транспортной накладной вручную можно создать сводную транспортную накладную на странице **Транспортная накладная**.
+## <a name="master-bill-of-lading"></a><span data-ttu-id="34c54-113">Сводная транспортная накладная</span><span class="sxs-lookup"><span data-stu-id="34c54-113">Master bill of lading</span></span>
+<span data-ttu-id="34c54-114">При наличии нескольких отгрузок в загрузке можно создать сводную транспортную накладную.</span><span class="sxs-lookup"><span data-stu-id="34c54-114">If there's more than one shipment in the load, you can generate a master bill of lading.</span></span> <span data-ttu-id="34c54-115">Она имеет тот же макет и сведения как и транспортная накладная, но содержит сводное содержимое по всем отгрузкам.</span><span class="sxs-lookup"><span data-stu-id="34c54-115">This has the same layout and information as a bill of lading, but contains the summarized content for all the shipments.</span></span> <span data-ttu-id="34c54-116">Если для параметра **Создание сводной транспортной накладной при наличии нескольких отгрузок для загрузки** задано значение **Да** на странице **Параметры управления транспортировкой**, сводная транспортная накладная создается автоматически при создании транспортной накладной в разделе **Рабочее место планирования загрузки** и имеется несколько отгрузок.</span><span class="sxs-lookup"><span data-stu-id="34c54-116">If the **Create a master bill of lading when there's more than one shipment on a load** option is set to **Yes** on the **Transportation management parameters** page, a master bill of lading is automatically generated if you create a bill of lading from the **Load planning workbench**, and there's more than one shipment.</span></span> <span data-ttu-id="34c54-117">Можно также получить список транспортных накладных, щелкнув **Связанные сведения** &gt; **Транспортная накладная**.</span><span class="sxs-lookup"><span data-stu-id="34c54-117">You can also get a list of the bills of lading by clicking **Related information** &gt; **Bill of lading**.</span></span> <span data-ttu-id="34c54-118">При создании транспортной накладной вручную можно создать сводную транспортную накладную на странице **Транспортная накладная**.</span><span class="sxs-lookup"><span data-stu-id="34c54-118">If you're creating bills of lading manually, you can create a master bill of lading on the **Bill of lading** page.</span></span>
 
 
 

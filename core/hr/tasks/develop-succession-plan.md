@@ -16,47 +16,47 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 93215c752e035e68b8d9a7e80cffd9da63a31bae
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b1caaf5f52282a8daae62602dcc5ef86b901e338
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="develop-a-succession-plan"></a>Разработка плана преемственности
+# <a name="develop-a-succession-plan"></a><span data-ttu-id="f5933-103">Разработка плана преемственности</span><span class="sxs-lookup"><span data-stu-id="f5933-103">Develop a succession plan</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-По мере роста организации, если вы рассматриваете возможность планирования преемственности, может потребоваться найти лицо, обладающее похожими навыками с другим лицом.  Модуль подбора персонала позволяет проанализировать существующих сотрудников и кандидатов, чтобы узнать, обладают ли они похожим набором навыков с ценным сотрудником. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
+<span data-ttu-id="f5933-104">По мере роста организации, если вы рассматриваете возможность планирования преемственности, может потребоваться найти лицо, обладающее похожими навыками с другим лицом.</span><span class="sxs-lookup"><span data-stu-id="f5933-104">As your organization grows, and you consider succession planning, you may want to find someone who has similar skills to another person.</span></span>  <span data-ttu-id="f5933-105">Модуль подбора персонала позволяет проанализировать существующих сотрудников и кандидатов, чтобы узнать, обладают ли они похожим набором навыков с ценным сотрудником.</span><span class="sxs-lookup"><span data-stu-id="f5933-105">Skill mapping allows you to analyse your existing employees and applicants to see if they match the skill set of a valued employee.</span></span> <span data-ttu-id="f5933-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="f5933-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Перейдите в раздел "Управление персоналом" > "Компетенции" > "Анализ навыков" > "Профили подбора персонала".
-2. Щелкните "Создать".
-3. В поле "Подбор персонала" введите имя подбора персонала.  Пример: "Сотрудник".
-4. В поле "Описание" введите значение.
-5. В поле "Дата" введите дату.
-6. Щелкните "Выбор профиля".
-7. Щелкните "Человек".
-8. В поле "Человек" введите имя или откройте раскрывающийся список.  Пример: "Cassie Hicks".
-9. Нажмите кнопку OK.
-10. Разверните экспресс-вкладку "Сертификаты", чтобы просмотреть или изменить сертификаты, включенные в подбор персонала.
-11. Разверните экспресс-вкладку "Навыки", чтобы просмотреть или изменить навыки, которые требуется включить.
-12. В списке пометьте первую строку.  Пример: "Учет".
-13. Установите флажок "Дополнительно".
-14. В поле "Важность" выберите вариант.
-    * Если навык отмечен как необязательный, необходимо выбрать уровень важности навыка.  
-15. В списке выберите строку 2.
-16. Установите флажок "Дополнительно".
-17. В поле "Важность" выберите вариант.
-18. В списке выберите строку 3.
-19. Установите флажок "Дополнительно".
-20. В поле "Важность" выберите вариант.
-21. В списке выберите строку 4.
-22. Установите флажок "Дополнительно".
-23. В поле "Важность" выберите вариант.
-24. Разверните экспресс-вкладку "Образование", чтобы просмотреть или изменить компетенции образования, которые необходимо включить в подбор персонала.
-25. Щелкните "Выполнить".
-26. Нажмите кнопку "OК".
-27. Щелкните "Результат".
-28. Щелкните "Отчет".
-    * Лучшие совпадения будут указаны вверху списка в отчете.  В списке также указывается элемент несоответствия.  Это разница между уровнем, указанным при подборе персонала, и уровнем навыка, который назначен лицу.  
+1. <span data-ttu-id="f5933-107">Перейдите в раздел "Управление персоналом" > "Компетенции" > "Анализ навыков" > "Профили подбора персонала".</span><span class="sxs-lookup"><span data-stu-id="f5933-107">Go to Human resources > Competencies > Skill analysis > Skill mapping profiles.</span></span>
+2. <span data-ttu-id="f5933-108">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="f5933-108">Click New.</span></span>
+3. <span data-ttu-id="f5933-109">В поле "Подбор персонала" введите имя подбора персонала.</span><span class="sxs-lookup"><span data-stu-id="f5933-109">In the Skill mapping field, In the Skill mapping field, enter a name for your skill mapping.</span></span>  <span data-ttu-id="f5933-110">Пример: "Сотрудник".</span><span class="sxs-lookup"><span data-stu-id="f5933-110">Example: Employee.</span></span>
+4. <span data-ttu-id="f5933-111">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="f5933-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="f5933-112">В поле "Дата" введите дату.</span><span class="sxs-lookup"><span data-stu-id="f5933-112">In the Date field, enter a date.</span></span>
+6. <span data-ttu-id="f5933-113">Щелкните "Выбор профиля".</span><span class="sxs-lookup"><span data-stu-id="f5933-113">Click Retrieve profile.</span></span>
+7. <span data-ttu-id="f5933-114">Щелкните "Человек".</span><span class="sxs-lookup"><span data-stu-id="f5933-114">Click Person.</span></span>
+8. <span data-ttu-id="f5933-115">В поле "Человек" введите имя или откройте раскрывающийся список.</span><span class="sxs-lookup"><span data-stu-id="f5933-115">In the Person field, type in a name, or select the drop down.</span></span>  <span data-ttu-id="f5933-116">Пример: "Cassie Hicks".</span><span class="sxs-lookup"><span data-stu-id="f5933-116">Example: Cassie Hicks.</span></span>
+9. <span data-ttu-id="f5933-117">Нажмите кнопку OK.</span><span class="sxs-lookup"><span data-stu-id="f5933-117">Click OK.</span></span>
+10. <span data-ttu-id="f5933-118">Разверните экспресс-вкладку "Сертификаты", чтобы просмотреть или изменить сертификаты, включенные в подбор персонала.</span><span class="sxs-lookup"><span data-stu-id="f5933-118">Exapnd the certificates fast tab to view or edit the certificates included in the skill mapping.</span></span>
+11. <span data-ttu-id="f5933-119">Разверните экспресс-вкладку "Навыки", чтобы просмотреть или изменить навыки, которые требуется включить.</span><span class="sxs-lookup"><span data-stu-id="f5933-119">Expand the Skills fast tab to view or edit the skills to be included.</span></span>
+12. <span data-ttu-id="f5933-120">В списке пометьте первую строку.</span><span class="sxs-lookup"><span data-stu-id="f5933-120">In the list, mark the first row.</span></span>  <span data-ttu-id="f5933-121">Пример: "Учет".</span><span class="sxs-lookup"><span data-stu-id="f5933-121">Example:  Accounting</span></span>
+13. <span data-ttu-id="f5933-122">Установите флажок "Дополнительно".</span><span class="sxs-lookup"><span data-stu-id="f5933-122">Click the Optional checkbox.</span></span>
+14. <span data-ttu-id="f5933-123">В поле "Важность" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="f5933-123">In the Importance field, select an option.</span></span>
+    * <span data-ttu-id="f5933-124">Если навык отмечен как необязательный, необходимо выбрать уровень важности навыка.</span><span class="sxs-lookup"><span data-stu-id="f5933-124">When you mark a skill as optional, you are required to select the importance level of the skill.</span></span>  
+15. <span data-ttu-id="f5933-125">В списке выберите строку 2.</span><span class="sxs-lookup"><span data-stu-id="f5933-125">In the list, select row 2.</span></span>
+16. <span data-ttu-id="f5933-126">Установите флажок "Дополнительно".</span><span class="sxs-lookup"><span data-stu-id="f5933-126">Click the Optional checkbox.</span></span>
+17. <span data-ttu-id="f5933-127">В поле "Важность" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="f5933-127">In the Importance field, select an option.</span></span>
+18. <span data-ttu-id="f5933-128">В списке выберите строку 3.</span><span class="sxs-lookup"><span data-stu-id="f5933-128">In the list, select row 3.</span></span>
+19. <span data-ttu-id="f5933-129">Установите флажок "Дополнительно".</span><span class="sxs-lookup"><span data-stu-id="f5933-129">Click the Optional checkbox.</span></span>
+20. <span data-ttu-id="f5933-130">В поле "Важность" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="f5933-130">In the Importance field, select an option.</span></span>
+21. <span data-ttu-id="f5933-131">В списке выберите строку 4.</span><span class="sxs-lookup"><span data-stu-id="f5933-131">In the list, select row 4.</span></span>
+22. <span data-ttu-id="f5933-132">Установите флажок "Дополнительно".</span><span class="sxs-lookup"><span data-stu-id="f5933-132">Click the Optional checkbox.</span></span>
+23. <span data-ttu-id="f5933-133">В поле "Важность" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="f5933-133">In the Importance field, select an option.</span></span>
+24. <span data-ttu-id="f5933-134">Разверните экспресс-вкладку "Образование", чтобы просмотреть или изменить компетенции образования, которые необходимо включить в подбор персонала.</span><span class="sxs-lookup"><span data-stu-id="f5933-134">Expand the Education fast tab to view or edit the education competencies to be included in the skill mapping.</span></span>
+25. <span data-ttu-id="f5933-135">Щелкните "Выполнить".</span><span class="sxs-lookup"><span data-stu-id="f5933-135">Click Execute.</span></span>
+26. <span data-ttu-id="f5933-136">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="f5933-136">Click OK.</span></span>
+27. <span data-ttu-id="f5933-137">Щелкните "Результат".</span><span class="sxs-lookup"><span data-stu-id="f5933-137">Click Result.</span></span>
+28. <span data-ttu-id="f5933-138">Щелкните "Отчет".</span><span class="sxs-lookup"><span data-stu-id="f5933-138">Click Report.</span></span>
+    * <span data-ttu-id="f5933-139">Лучшие совпадения будут указаны вверху списка в отчете.</span><span class="sxs-lookup"><span data-stu-id="f5933-139">The report will list the best matches at the top of the report.</span></span>  <span data-ttu-id="f5933-140">В списке также указывается элемент несоответствия.</span><span class="sxs-lookup"><span data-stu-id="f5933-140">You can see that there is a gap element listed.</span></span>  <span data-ttu-id="f5933-141">Это разница между уровнем, указанным при подборе персонала, и уровнем навыка, который назначен лицу.</span><span class="sxs-lookup"><span data-stu-id="f5933-141">This is the difference between the level that was listed on the skill mapping, and the level of the skill that is assigned to the person.</span></span>  
 
 

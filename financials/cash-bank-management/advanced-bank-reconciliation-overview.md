@@ -19,36 +19,36 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 67cd622d7766e5b177ccc58398431b007e8bda4e
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 33150777222faa97af7488c59ab13cb0fb9e8e2c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="advanced-bank-reconciliation-overview"></a>Обзор расширенной банковской выверки
+# <a name="advanced-bank-reconciliation-overview"></a><span data-ttu-id="8b63a-104">Обзор расширенной банковской выверки</span><span class="sxs-lookup"><span data-stu-id="8b63a-104">Advanced bank reconciliation overview</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Эта статья описывает поток для предварительного процесса банковской выверки. Функция расширенной банковской выверки позволяет импортировать банковские выписки, которые можно автоматически выверять из банковских проводок.
+<span data-ttu-id="8b63a-105">Эта статья описывает поток для предварительного процесса банковской выверки.</span><span class="sxs-lookup"><span data-stu-id="8b63a-105">This article describes the flow for the advanced bank reconciliation process.</span></span> <span data-ttu-id="8b63a-106">Функция расширенной банковской выверки позволяет импортировать банковские выписки, которые можно автоматически выверять из банковских проводок.</span><span class="sxs-lookup"><span data-stu-id="8b63a-106">The advanced bank reconciliation feature lets you import bank statements that can be automatically reconciled from within bank transactions.</span></span>
 
-Функция расширенной банковской выверки позволяет вам импортировать банковские выписки. Импортированную банковскую выписку можно после этого автоматически выверить их банковских проводок. Вот шаги процесса расширенной банковской выверки.
+<span data-ttu-id="8b63a-107">Функция расширенной банковской выверки позволяет вам импортировать банковские выписки.</span><span class="sxs-lookup"><span data-stu-id="8b63a-107">The advanced bank reconciliation feature lets you import bank statements.</span></span> <span data-ttu-id="8b63a-108">Импортированную банковскую выписку можно после этого автоматически выверить их банковских проводок.</span><span class="sxs-lookup"><span data-stu-id="8b63a-108">The imported bank statement can then be automatically reconciled from within bank transactions.</span></span> <span data-ttu-id="8b63a-109">Вот шаги процесса расширенной банковской выверки.</span><span class="sxs-lookup"><span data-stu-id="8b63a-109">Here are the steps in the advanced bank reconciliation flow.</span></span>
 
-1.  Настройка импорта банковской выписки.
-    -   Импортируйте банковские выписки через структуру информационного объекта.
-    -   Встроены три типичных формата банковской выписки: ISO20022, BAI2 и MT940.
-    -   Функциональность можно расширить до любого формата.
+1.  <span data-ttu-id="8b63a-110">Настройка импорта банковской выписки.</span><span class="sxs-lookup"><span data-stu-id="8b63a-110">Set up a bank statement import.</span></span>
+    -   <span data-ttu-id="8b63a-111">Импортируйте банковские выписки через структуру информационного объекта.</span><span class="sxs-lookup"><span data-stu-id="8b63a-111">Import bank statements through the data entity framework.</span></span>
+    -   <span data-ttu-id="8b63a-112">Встроены три типичных формата банковской выписки: ISO20022, BAI2 и MT940.</span><span class="sxs-lookup"><span data-stu-id="8b63a-112">Three typical bank statement formats are built in: ISO20022, BAI2, and MT940.</span></span>
+    -   <span data-ttu-id="8b63a-113">Функциональность можно расширить до любого формата.</span><span class="sxs-lookup"><span data-stu-id="8b63a-113">The functionality can be extended to any format.</span></span>
 
-2.  Настройте номерную серию для использования для расширенной банковской выверки, и определите правила сопоставления банковской выверки.
-    -   Правило сопоставления выверки — это набор критериев, используемых при фильтрации строк банковской выписки и строк банковской проводки Microsoft Dynamics 365 for Finance and Operations, Enterprise edition во время процесса выверки. В зависимости от вашей методики ведения бизнеса можно настроить более одного правила сопоставления, чтобы автоматизировать и оптимизировать процесс сверки.
+2.  <span data-ttu-id="8b63a-114">Настройте номерную серию для использования для расширенной банковской выверки, и определите правила сопоставления банковской выверки.</span><span class="sxs-lookup"><span data-stu-id="8b63a-114">Set up a number sequence to use for advanced bank reconciliation, and define the bank reconciliation matching rules.</span></span>
+    -   <span data-ttu-id="8b63a-115">Правило сопоставления выверки — это набор критериев, используемых при фильтрации строк банковской выписки и строк банковской проводки Microsoft Dynamics 365 for Finance and Operations, Enterprise edition во время процесса выверки.</span><span class="sxs-lookup"><span data-stu-id="8b63a-115">A reconciliation matching rule is a set of criteria that are used to filter bank statement lines and Microsoft Dynamics 365 for Finance and Operations, Enterprise edition bank transaction lines during the reconciliation process.</span></span> <span data-ttu-id="8b63a-116">В зависимости от вашей методики ведения бизнеса можно настроить более одного правила сопоставления, чтобы автоматизировать и оптимизировать процесс сверки.</span><span class="sxs-lookup"><span data-stu-id="8b63a-116">Depending on your business practice, you can set up more than one matching rule to automate and optimize your reconciliation process.</span></span>
 
-3.  Выверите банковские выписки с банковскими проводками Finance and Operations.
-    -   Выполните автоматические сопоставление и создание журналов выверки.
-    -   Просмотр банковских выписок с банковскими проводками Finance and Operations друг рядом с другом.
-    -   Автоматическая разноска банковских проводок Finance and Operations, если они появляются в банковской выписке, но не появились в Finance and Operations.
-    -   Создать выписку выверки.
+3.  <span data-ttu-id="8b63a-117">Выверите банковские выписки с банковскими проводками Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8b63a-117">Reconcile bank statements with Finance and Operations bank transactions.</span></span>
+    -   <span data-ttu-id="8b63a-118">Выполните автоматические сопоставление и создание журналов выверки.</span><span class="sxs-lookup"><span data-stu-id="8b63a-118">Perform automatic matching and creation of reconciliation journals.</span></span>
+    -   <span data-ttu-id="8b63a-119">Просмотр банковских выписок с банковскими проводками Finance and Operations друг рядом с другом.</span><span class="sxs-lookup"><span data-stu-id="8b63a-119">View bank statements and Finance and Operations bank transactions side by side.</span></span>
+    -   <span data-ttu-id="8b63a-120">Автоматическая разноска банковских проводок Finance and Operations, если они появляются в банковской выписке, но не появились в Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8b63a-120">Automatically post Finance and Operations bank transactions if they appear on a bank statement but don't appear in Finance and Operations.</span></span>
+    -   <span data-ttu-id="8b63a-121">Создать выписку выверки.</span><span class="sxs-lookup"><span data-stu-id="8b63a-121">Generate a reconciliation statement.</span></span>
 
 
 

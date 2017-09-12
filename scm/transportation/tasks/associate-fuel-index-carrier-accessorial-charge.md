@@ -17,64 +17,64 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: d3ab4ee1a8ab74226b784496b56f26d26ed04ed8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a2b8534231c5fa50b1e0f709e09d318bb8202a43
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Связывание индекса топлива с перевозчиком как дополнительного расхода
+# <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a><span data-ttu-id="6061b-103">Связывание индекса топлива с перевозчиком как дополнительного расхода</span><span class="sxs-lookup"><span data-stu-id="6061b-103">Associate a fuel index with a carrier as an accessorial charge</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-В этом руководстве демонстрируется создание назначения дополнения, дополнительных расходов перевозчика, справочника дополнений для доплаты за топливо, а также связывание индекс топлива перевозчика с перевозчиком. Перед выполнением этого руководства необходимо настроить индекс топлива перевозчика. Для этого можно использовать руководство "Настройка индекса топлива перевозчика". Обычно эти задачи по настройки выполняет менеджер по логистике. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
+<span data-ttu-id="6061b-104">В этом руководстве демонстрируется создание назначения дополнения, дополнительных расходов перевозчика, справочника дополнений для доплаты за топливо, а также связывание индекс топлива перевозчика с перевозчиком.</span><span class="sxs-lookup"><span data-stu-id="6061b-104">This guide shows how to create an accessorial assignment, carrier accessorial charge, accessorial master for fuel surcharge, and associate a carrier fuel index with a carrier.</span></span> <span data-ttu-id="6061b-105">Перед выполнением этого руководства необходимо настроить индекс топлива перевозчика.</span><span class="sxs-lookup"><span data-stu-id="6061b-105">You need to have set up a carrier fuel index before you run this guide.</span></span> <span data-ttu-id="6061b-106">Для этого можно использовать руководство "Настройка индекса топлива перевозчика".</span><span class="sxs-lookup"><span data-stu-id="6061b-106">You can use the “Set up a carrier fuel index” guide to do this.</span></span> <span data-ttu-id="6061b-107">Обычно эти задачи по настройки выполняет менеджер по логистике.</span><span class="sxs-lookup"><span data-stu-id="6061b-107">These setup tasks are typically done by a Logistics manager.</span></span> <span data-ttu-id="6061b-108">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="6061b-108">The demo data used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-an-accessorial-master"></a>Создание справочника дополнений
-1. Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Расчет ставок" > "Шаблоны дополнения".
-2. Щелкните "Создать".
-3. В поле "Шаблон дополнения" введите значение.
-4. В поле "Имя" введите значение.
-5. Нажмите кнопку "Сохранить".
+## <a name="create-an-accessorial-master"></a><span data-ttu-id="6061b-109">Создание справочника дополнений</span><span class="sxs-lookup"><span data-stu-id="6061b-109">Create an accessorial master</span></span>
+1. <span data-ttu-id="6061b-110">Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Расчет ставок" > "Шаблоны дополнения".</span><span class="sxs-lookup"><span data-stu-id="6061b-110">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
+2. <span data-ttu-id="6061b-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="6061b-111">Click New.</span></span>
+3. <span data-ttu-id="6061b-112">В поле "Шаблон дополнения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6061b-112">In the Accessorial master field, type a value.</span></span>
+4. <span data-ttu-id="6061b-113">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6061b-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="6061b-114">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="6061b-114">Click Save.</span></span>
 
-## <a name="create-a-carrier-accessorial-charge"></a>Создание дополнительных накладных расходов перевозчика
-1. Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Расчет ставок" > "Дополнительные расходы перевозчика".
-2. Щелкните "Создать".
-3. В поле "Код дополнительного перевозчика" введите значение.
-4. В поле "Перевозчик, осуществляющий доставку " нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-5. В списке найдите и выберите требуемую запись.
-    * В этом примере выберите автомобильного перевозчика.  
-6. В списке перейдите по ссылке в выбранной строке.
-7. В поле "Услуга перевозчика" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-8. В списке перейдите по ссылке в выбранной строке.
-9. В поле "Шаблон дополнения" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-10. В списке найдите и выберите требуемую запись.
-    * В этом примере выберите только что созданный справочник дополнений.  
-11. Нажмите кнопку "Сохранить".
+## <a name="create-a-carrier-accessorial-charge"></a><span data-ttu-id="6061b-115">Создание дополнительных накладных расходов перевозчика</span><span class="sxs-lookup"><span data-stu-id="6061b-115">Create a carrier accessorial charge</span></span>
+1. <span data-ttu-id="6061b-116">Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Расчет ставок" > "Дополнительные расходы перевозчика".</span><span class="sxs-lookup"><span data-stu-id="6061b-116">Go to Transportation management > Setup > Rating > Carrier accessorial charges.</span></span>
+2. <span data-ttu-id="6061b-117">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="6061b-117">Click New.</span></span>
+3. <span data-ttu-id="6061b-118">В поле "Код дополнительного перевозчика" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6061b-118">In the Carrier accessorial ID field, type a value.</span></span>
+4. <span data-ttu-id="6061b-119">В поле "Перевозчик, осуществляющий доставку " нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="6061b-119">In the Shipping carrier field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="6061b-120">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="6061b-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="6061b-121">В этом примере выберите автомобильного перевозчика.</span><span class="sxs-lookup"><span data-stu-id="6061b-121">In this example, choose Truck Carrier.</span></span>  
+6. <span data-ttu-id="6061b-122">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="6061b-122">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="6061b-123">В поле "Услуга перевозчика" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="6061b-123">In the Carrier service field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="6061b-124">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="6061b-124">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="6061b-125">В поле "Шаблон дополнения" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="6061b-125">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="6061b-126">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="6061b-126">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="6061b-127">В этом примере выберите только что созданный справочник дополнений.</span><span class="sxs-lookup"><span data-stu-id="6061b-127">In this example, choose the newly created Accessorial master.</span></span>  
+11. <span data-ttu-id="6061b-128">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="6061b-128">Click Save.</span></span>
 
-## <a name="create-an-accessorial-assignment"></a>Создание назначения дополнения
-1. Щелкните "Дополнительные встречи".
-2. Щелкните "Создать".
-3. В поле "Имя" введите значение.
-4. Переключите развертывание раздела "Критерии".
-    * В критериях можно указать, всегда ли следует применять доплату за топливо — или, как в этом примере, указать, что она должна применяться только в пределах конкретного региона.  
-5. В поле "Почтовый индекс от" введите значение.
-6. В поле "Почтовый индекс до" введите значение.
-7. Переключите развертывание раздела "Расчет".
-    * В разделе расчета можно указать способ расчета доплаты за топливо. Этот расчет зависит от единицы дополнений, выбранной в качестве базы для расчета.  
-8. В поле "Тип дополнительного сбора" выберите "Доплата за топливо".
-9. В поле "Единица дополнения" выберите "Пробег".
-10. В поле "Регион" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-11. В списке перейдите по ссылке в выбранной строке.
-12. Нажмите кнопку "Сохранить".
+## <a name="create-an-accessorial-assignment"></a><span data-ttu-id="6061b-129">Создание назначения дополнения</span><span class="sxs-lookup"><span data-stu-id="6061b-129">Create an accessorial assignment</span></span>
+1. <span data-ttu-id="6061b-130">Щелкните "Дополнительные встречи".</span><span class="sxs-lookup"><span data-stu-id="6061b-130">Click Accessorial assignments.</span></span>
+2. <span data-ttu-id="6061b-131">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="6061b-131">Click New.</span></span>
+3. <span data-ttu-id="6061b-132">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6061b-132">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="6061b-133">Переключите развертывание раздела "Критерии".</span><span class="sxs-lookup"><span data-stu-id="6061b-133">Toggle the expansion of the Criteria section.</span></span>
+    * <span data-ttu-id="6061b-134">В критериях можно указать, всегда ли следует применять доплату за топливо — или, как в этом примере, указать, что она должна применяться только в пределах конкретного региона.</span><span class="sxs-lookup"><span data-stu-id="6061b-134">In the criteria, you can choose to always apply the fuel surcharge or for this example choose that it only applies within a certain region.</span></span>  
+5. <span data-ttu-id="6061b-135">В поле "Почтовый индекс от" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6061b-135">In the ZIP/postal code from field, type a value.</span></span>
+6. <span data-ttu-id="6061b-136">В поле "Почтовый индекс до" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6061b-136">In the ZIP/postal code to field, type a value.</span></span>
+7. <span data-ttu-id="6061b-137">Переключите развертывание раздела "Расчет".</span><span class="sxs-lookup"><span data-stu-id="6061b-137">Toggle the expansion of the Calculation section.</span></span>
+    * <span data-ttu-id="6061b-138">В разделе расчета можно указать способ расчета доплаты за топливо.</span><span class="sxs-lookup"><span data-stu-id="6061b-138">In the calculation section you can specify how to calculate the fuel surcharge.</span></span> <span data-ttu-id="6061b-139">Этот расчет зависит от единицы дополнений, выбранной в качестве базы для расчета.</span><span class="sxs-lookup"><span data-stu-id="6061b-139">This calculation depends on the Accessorial unit that you chose as the base for your calculation.</span></span>  
+8. <span data-ttu-id="6061b-140">В поле "Тип дополнительного сбора" выберите "Доплата за топливо".</span><span class="sxs-lookup"><span data-stu-id="6061b-140">In the Accessorial fee type field, select 'Fuel surcharge'.</span></span>
+9. <span data-ttu-id="6061b-141">В поле "Единица дополнения" выберите "Пробег".</span><span class="sxs-lookup"><span data-stu-id="6061b-141">In the Accessorial unit field, select 'Mileage'.</span></span>
+10. <span data-ttu-id="6061b-142">В поле "Регион" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="6061b-142">In the Region field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="6061b-143">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="6061b-143">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="6061b-144">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="6061b-144">Click Save.</span></span>
 
-## <a name="update-the-carrier-rating-profile"></a>Обновление профиля оценки перевозчика
-1. Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Перевозчики" > "Перевозчики".
-2. В списке найдите и выберите требуемую запись.
-3. Переключите развертывание раздела "Профили оценки".
-4. Выберите Изменить.
-5. В поле "Индекс топлива перевозчика" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-6. В списке перейдите по ссылке в выбранной строке.
-7. Нажмите кнопку "Сохранить".
+## <a name="update-the-carrier-rating-profile"></a><span data-ttu-id="6061b-145">Обновление профиля оценки перевозчика</span><span class="sxs-lookup"><span data-stu-id="6061b-145">Update the carrier rating profile</span></span>
+1. <span data-ttu-id="6061b-146">Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Перевозчики" > "Перевозчики".</span><span class="sxs-lookup"><span data-stu-id="6061b-146">Go to Transportation management > Setup > Carriers > Shipping carriers.</span></span>
+2. <span data-ttu-id="6061b-147">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="6061b-147">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="6061b-148">Переключите развертывание раздела "Профили оценки".</span><span class="sxs-lookup"><span data-stu-id="6061b-148">Toggle the expansion of the Rating profiles section.</span></span>
+4. <span data-ttu-id="6061b-149">Выберите Изменить.</span><span class="sxs-lookup"><span data-stu-id="6061b-149">Click Edit.</span></span>
+5. <span data-ttu-id="6061b-150">В поле "Индекс топлива перевозчика" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="6061b-150">In the Carrier fuel index field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="6061b-151">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="6061b-151">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="6061b-152">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="6061b-152">Click Save.</span></span>
 
 

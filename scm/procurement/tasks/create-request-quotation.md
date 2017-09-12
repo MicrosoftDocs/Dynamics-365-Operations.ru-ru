@@ -16,73 +16,73 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: df6d8620316cf0dcde457b06235d9e041a51e100
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 331f516f3483acd79be4ef7b95b53adcfbef1ae2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-request-for-quotation"></a>Создание запроса предложения
+# <a name="create-a-request-for-quotation"></a><span data-ttu-id="785b8-103">Создание запроса предложения</span><span class="sxs-lookup"><span data-stu-id="785b8-103">Create a request for quotation</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Следующая процедура используется для создания запроса предложения. Обычно это делает специалист по закупке. Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные. Перед началом процедуры необходимо настроить типы обращений. После выполнения этой задачи, создания и отправки запроса предложения вы можете ввести ответы для каждого поставщика, сравнить их и заключить контракт.
+<span data-ttu-id="785b8-104">Следующая процедура используется для создания запроса предложения.</span><span class="sxs-lookup"><span data-stu-id="785b8-104">This procedure shows you how to create a request for quotation.</span></span> <span data-ttu-id="785b8-105">Обычно это делает специалист по закупке.</span><span class="sxs-lookup"><span data-stu-id="785b8-105">This would typically be done by a purchasing agent.</span></span> <span data-ttu-id="785b8-106">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="785b8-106">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="785b8-107">Перед началом процедуры необходимо настроить типы обращений.</span><span class="sxs-lookup"><span data-stu-id="785b8-107">You need to have set up solicitation types before you start.</span></span> <span data-ttu-id="785b8-108">После выполнения этой задачи, создания и отправки запроса предложения вы можете ввести ответы для каждого поставщика, сравнить их и заключить контракт.</span><span class="sxs-lookup"><span data-stu-id="785b8-108">Once you’ve completed this task and you’ve created and sent an RFQ you can then enter the replies per vendor, compare them, and award the contract.</span></span>
 
 
-## <a name="prepare-a-new-rfq"></a>Подготовка нового запроса предложения
-1. Перейдите в раздел "Закупки и источники" > "Запросы предложений" > "Все запросы предложений".
-2. Щелкните "Создать".
-    * Доступны следующие типы покупки: "Заявка на покупку" (это значение по умолчанию) — документ, который подтверждает предложение купить продукт, или принятие предложения продажи продуктов в обмен на платеж. "Заявка на покупку" — этот тип выбирается автоматически при создании запроса предложения непосредственно из заявки на закупку. При выборе этого параметра вручную выдается ошибка. "Договор покупки" — договор на покупку определенного количества продукта или продукта на определенную сумму за период времени. При выборе этого параметра необходимо выбрать диапазон дат, который применяется к договору покупки.  
-3. В поле "Заголовок документа" введите значение.
-4. В поле "Тип обращения" введите или выберите значение.
-    * Если метод оценки с типом связан типом обращения, то этот метод оценки будет использоваться по умолчанию в создаваемом запросе предложения. Метод оценки можно изменить позже.  
-    * В поле "Дата поставки" введите дату.  
-    * Выберите дату, до которой вы хотите получить номенклатуры.  
-    * В поле "Дата и время окончания срока действия" введите дату и время.  
-    * Укажите дату и время, до которых поставщики должны ответить на запрос предложения.  
-5. В поле "Склад" введите или выберите значение.
-    * Адресом поставки по умолчанию будет адрес склада.  
-6. Нажмите кнопку "OК".
+## <a name="prepare-a-new-rfq"></a><span data-ttu-id="785b8-109">Подготовка нового запроса предложения</span><span class="sxs-lookup"><span data-stu-id="785b8-109">Prepare a new RFQ</span></span>
+1. <span data-ttu-id="785b8-110">Перейдите в раздел "Закупки и источники" > "Запросы предложений" > "Все запросы предложений".</span><span class="sxs-lookup"><span data-stu-id="785b8-110">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
+2. <span data-ttu-id="785b8-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="785b8-111">Click New.</span></span>
+    * <span data-ttu-id="785b8-112">Доступны следующие типы покупки: "Заявка на покупку" (это значение по умолчанию) — документ, который подтверждает предложение купить продукт, или принятие предложения продажи продуктов в обмен на платеж.</span><span class="sxs-lookup"><span data-stu-id="785b8-112">The following purchase types are available: Purchase order (this is the default): a document that confirms the offer to buy products, or the acceptance of an offer to sell products in exchange for payment.</span></span> <span data-ttu-id="785b8-113">"Заявка на покупку" — этот тип выбирается автоматически при создании запроса предложения непосредственно из заявки на закупку.</span><span class="sxs-lookup"><span data-stu-id="785b8-113">Purchase requisition: this type is automatically selected if you create an RFQ directly from a purchase requisition.</span></span> <span data-ttu-id="785b8-114">При выборе этого параметра вручную выдается ошибка.</span><span class="sxs-lookup"><span data-stu-id="785b8-114">If you manually select this option, you’ll get an error.</span></span> <span data-ttu-id="785b8-115">"Договор покупки" — договор на покупку определенного количества продукта или продукта на определенную сумму за период времени.</span><span class="sxs-lookup"><span data-stu-id="785b8-115">Purchase agreement: an agreement to purchase a specific quantity or value of product over time.</span></span> <span data-ttu-id="785b8-116">При выборе этого параметра необходимо выбрать диапазон дат, который применяется к договору покупки.</span><span class="sxs-lookup"><span data-stu-id="785b8-116">If you select this option, you must select the date range that applies to the purchase agreement.</span></span>  
+3. <span data-ttu-id="785b8-117">В поле "Заголовок документа" введите значение.</span><span class="sxs-lookup"><span data-stu-id="785b8-117">In the Document title field, type a value.</span></span>
+4. <span data-ttu-id="785b8-118">В поле "Тип обращения" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="785b8-118">In the Solicitation type field, enter or select a value.</span></span>
+    * <span data-ttu-id="785b8-119">Если метод оценки с типом связан типом обращения, то этот метод оценки будет использоваться по умолчанию в создаваемом запросе предложения.</span><span class="sxs-lookup"><span data-stu-id="785b8-119">If a scoring method is associated with the solicitation type, this will be the default scoring method for the RFQ that you’re creating.</span></span> <span data-ttu-id="785b8-120">Метод оценки можно изменить позже.</span><span class="sxs-lookup"><span data-stu-id="785b8-120">It is possible to change the scoring method later.</span></span>  
+    * <span data-ttu-id="785b8-121">В поле "Дата поставки" введите дату.</span><span class="sxs-lookup"><span data-stu-id="785b8-121">In the Delivery date field, enter a date.</span></span>  
+    * <span data-ttu-id="785b8-122">Выберите дату, до которой вы хотите получить номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="785b8-122">Select the date by which you want to receive the items.</span></span>  
+    * <span data-ttu-id="785b8-123">В поле "Дата и время окончания срока действия" введите дату и время.</span><span class="sxs-lookup"><span data-stu-id="785b8-123">In the Expiration date and time field, enter a date and time.</span></span>  
+    * <span data-ttu-id="785b8-124">Укажите дату и время, до которых поставщики должны ответить на запрос предложения.</span><span class="sxs-lookup"><span data-stu-id="785b8-124">Specify the date and time by which vendors must respond to the RFQ.</span></span>  
+5. <span data-ttu-id="785b8-125">В поле "Склад" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="785b8-125">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="785b8-126">Адресом поставки по умолчанию будет адрес склада.</span><span class="sxs-lookup"><span data-stu-id="785b8-126">The delivery address will default to the warehouse address.</span></span>  
+6. <span data-ttu-id="785b8-127">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="785b8-127">Click OK.</span></span>
 
-## <a name="add-lines"></a>Добавление строк
-    * После указания основных сведений о запросе предложения необходимо указать товары или услуги, по которым требуется получить предложения от поставщиков. Номенклатура — это тип строки по умолчанию.   
-1. В поле "Код номенклатуры" введите или выберите значение.
-    * При использовании USMF можно выбрать T0020.  
-2. В поле "Количество" введите число.
-3. Щелкните "Добавить строку".
-4. В поле "Тип строки" выберите "Категория".
-    * Можно использовать тип строки "Категория" для создания запросов предложений по нескладским товарам или услугам. В этом случае необходимо выбрать тип товаров или услуг в иерархии категорий закупаемой продукции.  
-5. В поле "Категория закупаемой продукции " введите или выберите значение.
-6. В поле "Имя продукта" введите значение.
-7. В поле "Количество" введите число.
-8. В поле "Единица измерения" введите или выберите значение.
+## <a name="add-lines"></a><span data-ttu-id="785b8-128">Добавление строк</span><span class="sxs-lookup"><span data-stu-id="785b8-128">Add lines</span></span>
+    * <span data-ttu-id="785b8-129">После указания основных сведений о запросе предложения необходимо указать товары или услуги, по которым требуется получить предложения от поставщиков.</span><span class="sxs-lookup"><span data-stu-id="785b8-129">After you’ve specified the basic information about your RFQ, you specify the goods or services that you want vendors to bid on.</span></span> <span data-ttu-id="785b8-130">Номенклатура — это тип строки по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="785b8-130">Item is the default line type.</span></span>   
+1. <span data-ttu-id="785b8-131">В поле "Код номенклатуры" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="785b8-131">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="785b8-132">При использовании USMF можно выбрать T0020.</span><span class="sxs-lookup"><span data-stu-id="785b8-132">If you're using USMF, you can select T0020.</span></span>  
+2. <span data-ttu-id="785b8-133">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="785b8-133">In the Quantity field, enter a number.</span></span>
+3. <span data-ttu-id="785b8-134">Щелкните "Добавить строку".</span><span class="sxs-lookup"><span data-stu-id="785b8-134">Click Add line.</span></span>
+4. <span data-ttu-id="785b8-135">В поле "Тип строки" выберите "Категория".</span><span class="sxs-lookup"><span data-stu-id="785b8-135">In the Line type field, select 'Category'.</span></span>
+    * <span data-ttu-id="785b8-136">Можно использовать тип строки "Категория" для создания запросов предложений по нескладским товарам или услугам.</span><span class="sxs-lookup"><span data-stu-id="785b8-136">You can use the Category line type to create RFQs for non-inventory goods or services.</span></span> <span data-ttu-id="785b8-137">В этом случае необходимо выбрать тип товаров или услуг в иерархии категорий закупаемой продукции.</span><span class="sxs-lookup"><span data-stu-id="785b8-137">You then need to select the type of goods or services from a hierarchy of procurement categories.</span></span>  
+5. <span data-ttu-id="785b8-138">В поле "Категория закупаемой продукции " введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="785b8-138">In the Procurement category field, enter or select a value.</span></span>
+6. <span data-ttu-id="785b8-139">В поле "Имя продукта" введите значение.</span><span class="sxs-lookup"><span data-stu-id="785b8-139">In the Product name field, type a value.</span></span>
+7. <span data-ttu-id="785b8-140">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="785b8-140">In the Quantity field, enter a number.</span></span>
+8. <span data-ttu-id="785b8-141">В поле "Единица измерения" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="785b8-141">In the Unit field, enter or select a value.</span></span>
 
-## <a name="add-vendors"></a>Добавить поставщиков
-1. Щелкните заголовок, чтобы изменить представление строк на представление заголовка. 
-2. Развернуть раздел "Поставщик".
-3. Щелкните "Автоматически добавлять поставщиков".
-    * Можно автоматически добавить поставщиков в запрос предложения на основе категории закупаемой продукции запрашиваемых номенклатур. Если нет утвержденных поставщиков для категорий, включенных в строки, поставщиков можно добавить вручную.  
-4. Нажмите кнопку Добавить.
-5. В поле "Счет поставщика" введите или выберите значение.
-6. Нажмите кнопку Добавить.
-7. В поле "Счет поставщика" введите или выберите значение.
-    * После выбора поставщика статус изменится на "Создано". Это означает, что информация о поставщике сохранена в запросе предложения, но запрос предложения не отправлен поставщику. Можно добавить поставщика в запрос предложения независимо от статуса поставщика.  
+## <a name="add-vendors"></a><span data-ttu-id="785b8-142">Добавить поставщиков</span><span class="sxs-lookup"><span data-stu-id="785b8-142">Add vendors</span></span>
+1. <span data-ttu-id="785b8-143">Щелкните заголовок, чтобы изменить представление строк на представление заголовка.</span><span class="sxs-lookup"><span data-stu-id="785b8-143">Click Header to change from the Lines view to the Header view.</span></span> 
+2. <span data-ttu-id="785b8-144">Развернуть раздел "Поставщик".</span><span class="sxs-lookup"><span data-stu-id="785b8-144">Expand the Vendor section.</span></span>
+3. <span data-ttu-id="785b8-145">Щелкните "Автоматически добавлять поставщиков".</span><span class="sxs-lookup"><span data-stu-id="785b8-145">Click Auto-add vendors.</span></span>
+    * <span data-ttu-id="785b8-146">Можно автоматически добавить поставщиков в запрос предложения на основе категории закупаемой продукции запрашиваемых номенклатур.</span><span class="sxs-lookup"><span data-stu-id="785b8-146">You can add vendors to the RFQ automatically, based on the procurement category of the items requested.</span></span> <span data-ttu-id="785b8-147">Если нет утвержденных поставщиков для категорий, включенных в строки, поставщиков можно добавить вручную.</span><span class="sxs-lookup"><span data-stu-id="785b8-147">If there are no vendors approved for the categories included in the lines you can add vendors manually.</span></span>  
+4. <span data-ttu-id="785b8-148">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="785b8-148">Click Add.</span></span>
+5. <span data-ttu-id="785b8-149">В поле "Счет поставщика" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="785b8-149">In the Vendor account field, enter or select a value.</span></span>
+6. <span data-ttu-id="785b8-150">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="785b8-150">Click Add.</span></span>
+7. <span data-ttu-id="785b8-151">В поле "Счет поставщика" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="785b8-151">In the Vendor account field, enter or select a value.</span></span>
+    * <span data-ttu-id="785b8-152">После выбора поставщика статус изменится на "Создано".</span><span class="sxs-lookup"><span data-stu-id="785b8-152">Once you’ve selected a vendor, the status is Created.</span></span> <span data-ttu-id="785b8-153">Это означает, что информация о поставщике сохранена в запросе предложения, но запрос предложения не отправлен поставщику.</span><span class="sxs-lookup"><span data-stu-id="785b8-153">This means that the vendor information has been saved in the RFQ, but you have not sent the RFQ to the vendor.</span></span> <span data-ttu-id="785b8-154">Можно добавить поставщика в запрос предложения независимо от статуса поставщика.</span><span class="sxs-lookup"><span data-stu-id="785b8-154">You can add a vendor to an RFQ regardless of the vendor status.</span></span>  
 
-## <a name="send-the-rfq-to-vendors"></a>Отправить запрос предложения поставщикам
-1. Нажмите кнопку Отправить.
-    * На странице "Отправка запроса предложения" убедитесь, что в списке указаны именно те поставщики, которые должны получить запрос предложения.  
-2. Нажмите кнопку Печать.
-    * Это диалоговое окно позволяет напечатать запрос предложения. Если выбрать печать листа ответа, содержимое этого листа определяется в параметрах модуля "Закупки и источники". Чтобы выбрать способ печати листов ответа, при открытии диалогового окна "Печать" щелкните "Расширенные параметры печати". Для каждого поставщика будет напечатан один запрос предложения, содержащий строки со статусом "Создано" или "Отправлено". Отмененные строки и строки с зарегистрированными ответами не печатаются.   
-3. Щелкните "Отмена".
-4. Нажмите кнопку "OК".
-5. Закройте страницу.
-6. Закройте страницу.
+## <a name="send-the-rfq-to-vendors"></a><span data-ttu-id="785b8-155">Отправить запрос предложения поставщикам</span><span class="sxs-lookup"><span data-stu-id="785b8-155">Send the RFQ to vendors</span></span>
+1. <span data-ttu-id="785b8-156">Нажмите кнопку Отправить.</span><span class="sxs-lookup"><span data-stu-id="785b8-156">Click Send.</span></span>
+    * <span data-ttu-id="785b8-157">На странице "Отправка запроса предложения" убедитесь, что в списке указаны именно те поставщики, которые должны получить запрос предложения.</span><span class="sxs-lookup"><span data-stu-id="785b8-157">In the Sending request for quotation page, check that the vendors in the list are the ones that you want to receive the RFQ.</span></span>  
+2. <span data-ttu-id="785b8-158">Нажмите кнопку Печать.</span><span class="sxs-lookup"><span data-stu-id="785b8-158">Click Print.</span></span>
+    * <span data-ttu-id="785b8-159">Это диалоговое окно позволяет напечатать запрос предложения.</span><span class="sxs-lookup"><span data-stu-id="785b8-159">This dialog allows you to print the RFQ.</span></span> <span data-ttu-id="785b8-160">Если выбрать печать листа ответа, содержимое этого листа определяется в параметрах модуля "Закупки и источники".</span><span class="sxs-lookup"><span data-stu-id="785b8-160">If you choose to print a reply sheet, the contents of this are defined in Procurement and Sourcing parameters.</span></span> <span data-ttu-id="785b8-161">Чтобы выбрать способ печати листов ответа, при открытии диалогового окна "Печать" щелкните "Расширенные параметры печати".</span><span class="sxs-lookup"><span data-stu-id="785b8-161">To choose how to print reply sheets, once you’ve opened the Print dialog, click Advanced printing options.</span></span> <span data-ttu-id="785b8-162">Для каждого поставщика будет напечатан один запрос предложения, содержащий строки со статусом "Создано" или "Отправлено".</span><span class="sxs-lookup"><span data-stu-id="785b8-162">One RFQ will be printed for each vendor containing the lines that have the status of Created or Sent.</span></span> <span data-ttu-id="785b8-163">Отмененные строки и строки с зарегистрированными ответами не печатаются.</span><span class="sxs-lookup"><span data-stu-id="785b8-163">Canceled lines and lines with registered replies will not be printed.</span></span>   
+3. <span data-ttu-id="785b8-164">Щелкните "Отмена".</span><span class="sxs-lookup"><span data-stu-id="785b8-164">Click Cancel.</span></span>
+4. <span data-ttu-id="785b8-165">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="785b8-165">Click OK.</span></span>
+5. <span data-ttu-id="785b8-166">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="785b8-166">Close the page.</span></span>
+6. <span data-ttu-id="785b8-167">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="785b8-167">Close the page.</span></span>
 
-## <a name="view-the-rfq-journal"></a>Просмотр журнала запросов предложений
-1. Перейдите в раздел "Закупки и источники" > "Запросы предложений" > "Обработка результатов по запросам предложения" > "Журналы запросов предложений".
-2. Щелкните "Просмотр/печать".
-3. Щелкните "Просмотр оригинала".
-4. Закройте страницу.
-5. Закройте страницу.
+## <a name="view-the-rfq-journal"></a><span data-ttu-id="785b8-168">Просмотр журнала запросов предложений</span><span class="sxs-lookup"><span data-stu-id="785b8-168">View the RFQ journal</span></span>
+1. <span data-ttu-id="785b8-169">Перейдите в раздел "Закупки и источники" > "Запросы предложений" > "Обработка результатов по запросам предложения" > "Журналы запросов предложений".</span><span class="sxs-lookup"><span data-stu-id="785b8-169">Go to Procurement and sourcing > Requests for quotations > Request for quotations follow-up > Request for quotation journals.</span></span>
+2. <span data-ttu-id="785b8-170">Щелкните "Просмотр/печать".</span><span class="sxs-lookup"><span data-stu-id="785b8-170">Click Preview/Print.</span></span>
+3. <span data-ttu-id="785b8-171">Щелкните "Просмотр оригинала".</span><span class="sxs-lookup"><span data-stu-id="785b8-171">Click Original preview.</span></span>
+4. <span data-ttu-id="785b8-172">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="785b8-172">Close the page.</span></span>
+5. <span data-ttu-id="785b8-173">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="785b8-173">Close the page.</span></span>
 
 

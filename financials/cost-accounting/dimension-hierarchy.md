@@ -17,321 +17,321 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7fb7efdd574c705c2ecfbb46e302985db0729517
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="dimension-hierarchy"></a>Иерархия аналитик
+# <a name="dimension-hierarchy"></a><span data-ttu-id="5f5dd-104">Иерархия аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-104">Dimension hierarchy</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-В этом разделе представлены сведения об иерархиях аналитик. Иерархии аналитик используются для определения структуры отчетов, политик затрат и настройки безопасности в учете затрат.  
+<span data-ttu-id="5f5dd-105">В этом разделе представлены сведения об иерархиях аналитик.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-105">This topic provides information about dimension hierarchies.</span></span> <span data-ttu-id="5f5dd-106">Иерархии аналитик используются для определения структуры отчетов, политик затрат и настройки безопасности в учете затрат.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-106">You use a dimension hierarchy to define the reporting structure, cost policies, and security setup in Cost accounting.</span></span>  
 
-## <a name="overview"></a>Обзор
+## <a name="overview"></a><span data-ttu-id="5f5dd-107">Обзор</span><span class="sxs-lookup"><span data-stu-id="5f5dd-107">Overview</span></span>
 
-Иерархии аналитик используются в различных местах в учете затрат. Иерархия измерения позволяет определить следующую информацию:
+<span data-ttu-id="5f5dd-108">Иерархии аналитик используются в различных местах в учете затрат.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-108">Dimension hierarchies are used in various places in Cost accounting.</span></span> <span data-ttu-id="5f5dd-109">Иерархия измерения позволяет определить следующую информацию:</span><span class="sxs-lookup"><span data-stu-id="5f5dd-109">A dimension hierarchy lets you define the following information:</span></span>
 
--  Структура отчетности, подходящая под требования организации
--  Политики затрат
--  Настройка безопасности
+-  <span data-ttu-id="5f5dd-110">Структура отчетности, подходящая под требования организации</span><span class="sxs-lookup"><span data-stu-id="5f5dd-110">The reporting structure that fits into the organization's requirements</span></span>
+-  <span data-ttu-id="5f5dd-111">Политики затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-111">Cost policies</span></span>
+-  <span data-ttu-id="5f5dd-112">Настройка безопасности</span><span class="sxs-lookup"><span data-stu-id="5f5dd-112">The security setup</span></span>
 
-Ниже приведен пример иерархии аналитик.
+<span data-ttu-id="5f5dd-113">Ниже приведен пример иерархии аналитик.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-113">Here is an example of a dimension hierarchy.</span></span>
 
 ![Пример иерархии аналитик](./media/dimension-hierarchy.png)
 
-Иерархии аналитик могут создаваться для следующих типов аналитик:
+<span data-ttu-id="5f5dd-115">Иерархии аналитик могут создаваться для следующих типов аналитик:</span><span class="sxs-lookup"><span data-stu-id="5f5dd-115">A dimension hierarchy can be created for the following types of dimensions:</span></span>
 
--  Аналитики элемента затрат
--  Аналитики объекта затрат
--  Статистические аналитики
+-  <span data-ttu-id="5f5dd-116">Аналитики элемента затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-116">Cost element dimensions</span></span>
+-  <span data-ttu-id="5f5dd-117">Аналитики объекта затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-117">Cost object dimensions</span></span>
+-  <span data-ttu-id="5f5dd-118">Статистические аналитики</span><span class="sxs-lookup"><span data-stu-id="5f5dd-118">Statistical dimensions</span></span>
 
 > [!NOTE]
-> - Можно создать несколько иерархий аналитик для одной аналитики, если требуются разные перспективы.
-> - Иерархию аналитики можно связать только с одной аналитикой.
-> - Иерархия аналитики может иметь неограниченное число уровней в своей структуре. Все уровни будут доступны в рабочей области **Управление затратами**. При использовании Microsoft Excel или Microsoft Power BI для целей отчетности экспортируются только первые 15 уровней иерархии аналитики. Это ограничение существует, так как Excel и Power BI требуют фиксированной схемы.
-> - Иерархия аналитик чувствительна к дате. Таким образом, любое изменение иерархии аналитик немедленно сохраняется в записи, и невозможно сравнить дату до и дату после.
+> - <span data-ttu-id="5f5dd-119">Можно создать несколько иерархий аналитик для одной аналитики, если требуются разные перспективы.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-119">You can create multiple dimension hierarchies for the same dimension if different perspectives are required.</span></span>
+> - <span data-ttu-id="5f5dd-120">Иерархию аналитики можно связать только с одной аналитикой.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-120">A dimension hierarchy can be associated with only one dimension.</span></span>
+> - <span data-ttu-id="5f5dd-121">Иерархия аналитики может иметь неограниченное число уровней в своей структуре.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-121">A dimension hierarchy can have unlimited levels in its structure.</span></span> <span data-ttu-id="5f5dd-122">Все уровни будут доступны в рабочей области **Управление затратами**.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-122">All the levels will be available in the **Cost control** workspace.</span></span> <span data-ttu-id="5f5dd-123">При использовании Microsoft Excel или Microsoft Power BI для целей отчетности экспортируются только первые 15 уровней иерархии аналитики.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-123">When you use Microsoft Excel or Microsoft Power BI for reporting purposes, only the first 15 levels of the dimension hierarchy are exported.</span></span> <span data-ttu-id="5f5dd-124">Это ограничение существует, так как Excel и Power BI требуют фиксированной схемы.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-124">This limitation exists because both Excel and Power BI require a fixed schema.</span></span>
+> - <span data-ttu-id="5f5dd-125">Иерархия аналитик чувствительна к дате.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-125">A dimension hierarchy isn't date-effective.</span></span> <span data-ttu-id="5f5dd-126">Таким образом, любое изменение иерархии аналитик немедленно сохраняется в записи, и невозможно сравнить дату до и дату после.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-126">Therefore, any change to a dimension hierarchy is immediately saved to the record, and you can't compare the before date and after date.</span></span>
 
-## <a name="dimension-hierarchy-type"></a>Тип иерархии аналитик
+## <a name="dimension-hierarchy-type"></a><span data-ttu-id="5f5dd-127">Тип иерархии аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-127">Dimension hierarchy type</span></span>
 
-При создании новой иерархии аналитик следует выбрать тип иерархии. Последовательно выберите **Учет затрат** > **Аналитики** > **Иерархии аналитик**. Щелкните **Создать** и выберите тип иерархии аналитик. Можно выбрать **Иерархия категоризации аналитик** или **Иерархия классификации аналитик**.
+<span data-ttu-id="5f5dd-128">При создании новой иерархии аналитик следует выбрать тип иерархии.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-128">When you create a new dimension hierarchy, you must select a hierarchy type.</span></span> <span data-ttu-id="5f5dd-129">Последовательно выберите **Учет затрат** > **Аналитики** > **Иерархии аналитик**.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-129">Go to **Cost accounting** > **Dimensions** > **Dimension hierarchies**.</span></span> <span data-ttu-id="5f5dd-130">Щелкните **Создать** и выберите тип иерархии аналитик.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-130">Click **New**, and select a dimension hierarchy type.</span></span> <span data-ttu-id="5f5dd-131">Можно выбрать **Иерархия категоризации аналитик** или **Иерархия классификации аналитик**.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-131">You can select either **Dimension categorization hierarchy** or **Dimension classification hierarchy**.</span></span>
 
-### <a name="dimension-categorization-hierarchy"></a>Иерархия категоризации аналитик
+### <a name="dimension-categorization-hierarchy"></a><span data-ttu-id="5f5dd-132">Иерархия категоризации аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-132">Dimension categorization hierarchy</span></span>
 
-Тип **Иерархия категоризации аналитик** используется для целей отчетности. Он поддерживает только аналитики элементов затрат. При выборе этого типа применяются следующие правила:
+<span data-ttu-id="5f5dd-133">Тип **Иерархия категоризации аналитик** используется для целей отчетности.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-133">The **Dimension categorization hierarchy** type is used for reporting purposes.</span></span> <span data-ttu-id="5f5dd-134">Он поддерживает только аналитики элементов затрат.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-134">It supports only the cost element dimensions.</span></span> <span data-ttu-id="5f5dd-135">При выборе этого типа применяются следующие правила:</span><span class="sxs-lookup"><span data-stu-id="5f5dd-135">When you select this type, the following rules apply:</span></span>
 
--  Элемент аналитики может быть связан несколько раз в структуре иерархии.
--  Можно поместить элемент аналитики элемента затрат в различных узлах, назначая поведение затрат для листового узла.
+-  <span data-ttu-id="5f5dd-136">Элемент аналитики может быть связан несколько раз в структуре иерархии.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-136">A dimension member can be associated more than one time in the hierarchy structure.</span></span>
+-  <span data-ttu-id="5f5dd-137">Можно поместить элемент аналитики элемента затрат в различных узлах, назначая поведение затрат для листового узла.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-137">You can put a cost element dimension member in different nodes by assigning a cost behavior to the leaf node.</span></span>
 
-### <a name="dimension-classification-hierarchy"></a>Иерархия классификации аналитик
+### <a name="dimension-classification-hierarchy"></a><span data-ttu-id="5f5dd-138">Иерархия классификации аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-138">Dimension classification hierarchy</span></span>
 
-Тип **Иерархия классификации аналитик** используется для определения правил и целей отчетности. Он поддерживает все аналитики, например объекты затрат, элементы затрат и статистические аналитики. При выборе этого типа элемент аналитики может быть связан только один раз в структуре иерархии.
+<span data-ttu-id="5f5dd-139">Тип **Иерархия классификации аналитик** используется для определения правил и целей отчетности.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-139">The **Dimension classification hierarchy** type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="5f5dd-140">Он поддерживает все аналитики, например объекты затрат, элементы затрат и статистические аналитики.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-140">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span> <span data-ttu-id="5f5dd-141">При выборе этого типа элемент аналитики может быть связан только один раз в структуре иерархии.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-141">When you select this type, a dimension member can be associated only one time in the hierarchy structure.</span></span>
 
-## <a name="create-and-maintain-a-dimension-hierarchy"></a>Создание и поддержание иерархии аналитик
+## <a name="create-and-maintain-a-dimension-hierarchy"></a><span data-ttu-id="5f5dd-142">Создание и поддержание иерархии аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-142">Create and maintain a dimension hierarchy</span></span>
 
-Иерархии аналитик создаются как древовидная структура с узлом и связями листового узла.
+<span data-ttu-id="5f5dd-143">Иерархии аналитик создаются как древовидная структура с узлом и связями листового узла.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-143">A dimension hierarchy is created as a tree structure that has node and leaf node relationships.</span></span>
 
--  У узла может быть 1:_n_ подузлы.
--  Узлу не могут быть назначены подузлы и листовые узлы.
--  Листовой узел может быть назначен только на нижнем уровне в иерархии.
+-  <span data-ttu-id="5f5dd-144">У узла может быть 1:_n_ подузлы.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-144">A node can have 1:_n_ subnodes.</span></span>
+-  <span data-ttu-id="5f5dd-145">Узлу не могут быть назначены подузлы и листовые узлы.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-145">A node can’t have both subnodes and leaf nodes assigned to it.</span></span>
+-  <span data-ttu-id="5f5dd-146">Листовой узел может быть назначен только на нижнем уровне в иерархии.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-146">A leaf node can be assigned only at the lowest level in the hierarchy.</span></span>
 
-### <a name="example"></a>Пример
+### <a name="example"></a><span data-ttu-id="5f5dd-147">Пример</span><span class="sxs-lookup"><span data-stu-id="5f5dd-147">Example</span></span>
 
-Небольшая компания имеет следующую структуру организации, где финансы и управление персоналом — это подразделения в группе администрирования, сборка и упаковка — подразделения в группе производства.
+<span data-ttu-id="5f5dd-148">Небольшая компания имеет следующую структуру организации, где финансы и управление персоналом — это подразделения в группе администрирования, сборка и упаковка — подразделения в группе производства.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-148">A small company has the following organization structure, where Finance and Human resources are departments under Admin, and Assembly and Packaging are departments under Production.</span></span>
 
 ![Пример структуры организации](./media/dimension-hierarchy-org.png)
 
-Аналитика объекта затрат представляет все места возникновения затрат в рамках организации.
+<span data-ttu-id="5f5dd-150">Аналитика объекта затрат представляет все места возникновения затрат в рамках организации.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-150">A cost object dimension represents all the cost centers in the organization.</span></span>
 
-- Аналитика объекта затрат
-    - Места возникновения затрат
+- <span data-ttu-id="5f5dd-151">Аналитика объекта затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-151">Cost object dimension</span></span>
+    - <span data-ttu-id="5f5dd-152">Места возникновения затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-152">Cost centers</span></span>
 
-Аналитика объекта затрат, представляющая все места возникновения затрат, может быть настроена, как показано ниже.
+<span data-ttu-id="5f5dd-153">Аналитика объекта затрат, представляющая все места возникновения затрат, может быть настроена, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-153">The cost object dimension that represents all the cost centers can be set up as shown here.</span></span>
 
-| Места возникновения затрат | описание |
+| <span data-ttu-id="5f5dd-154">Места возникновения затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-154">Cost centers</span></span> | <span data-ttu-id="5f5dd-155">описание</span><span class="sxs-lookup"><span data-stu-id="5f5dd-155">Description</span></span> |
 |--------------|-------------|
-| CC001        | Отдел кадров          |
-| CC002        | Финансы     |
-| CC003        | По коду налога         |
-| CC007        | AR/AP       |
-| CC005        | Сборка    |
-| CC006        | Упаковка   |
+| <span data-ttu-id="5f5dd-156">CC001</span><span class="sxs-lookup"><span data-stu-id="5f5dd-156">CC001</span></span>        | <span data-ttu-id="5f5dd-157">Отдел кадров</span><span class="sxs-lookup"><span data-stu-id="5f5dd-157">HR</span></span>          |
+| <span data-ttu-id="5f5dd-158">CC002</span><span class="sxs-lookup"><span data-stu-id="5f5dd-158">CC002</span></span>        | <span data-ttu-id="5f5dd-159">Финансы</span><span class="sxs-lookup"><span data-stu-id="5f5dd-159">Finance</span></span>     |
+| <span data-ttu-id="5f5dd-160">CC003</span><span class="sxs-lookup"><span data-stu-id="5f5dd-160">CC003</span></span>        | <span data-ttu-id="5f5dd-161">По коду налога</span><span class="sxs-lookup"><span data-stu-id="5f5dd-161">Tax</span></span>         |
+| <span data-ttu-id="5f5dd-162">CC007</span><span class="sxs-lookup"><span data-stu-id="5f5dd-162">CC007</span></span>        | <span data-ttu-id="5f5dd-163">AR/AP</span><span class="sxs-lookup"><span data-stu-id="5f5dd-163">AR/AP</span></span>       |
+| <span data-ttu-id="5f5dd-164">CC005</span><span class="sxs-lookup"><span data-stu-id="5f5dd-164">CC005</span></span>        | <span data-ttu-id="5f5dd-165">Сборка</span><span class="sxs-lookup"><span data-stu-id="5f5dd-165">Assembly</span></span>    |
+| <span data-ttu-id="5f5dd-166">CC006</span><span class="sxs-lookup"><span data-stu-id="5f5dd-166">CC006</span></span>        | <span data-ttu-id="5f5dd-167">Упаковка</span><span class="sxs-lookup"><span data-stu-id="5f5dd-167">Packaging</span></span>   |
 
-Аналитика элемента затрат представляет все элементы затрат в рамках организации.
+<span data-ttu-id="5f5dd-168">Аналитика элемента затрат представляет все элементы затрат в рамках организации.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-168">A cost element dimension represents all the cost elements in the organization.</span></span>
 
-- Аналитика элемента затрат
-    - Элементы затрат
+- <span data-ttu-id="5f5dd-169">Аналитика элемента затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-169">Cost element dimension</span></span>
+    - <span data-ttu-id="5f5dd-170">Элементы затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-170">Cost elements</span></span>
 
-Аналитика элемента затрат, представляющая все элементы затрат, может быть настроена, как показано ниже.
+<span data-ttu-id="5f5dd-171">Аналитика элемента затрат, представляющая все элементы затрат, может быть настроена, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-171">The cost element dimension that represents all the cost elements can be set up as shown here.</span></span>
 
-| Элементы затрат | описание |
+| <span data-ttu-id="5f5dd-172">Элементы затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-172">Cost elements</span></span> | <span data-ttu-id="5f5dd-173">описание</span><span class="sxs-lookup"><span data-stu-id="5f5dd-173">Description</span></span> |
 |---------------|-------------|
-| 10001         | Электричество |
-| 10010         | Уборка    |
-| 10011         | Отопление     |
-| 40001         | Себестоимость проданных товаров        |
+| <span data-ttu-id="5f5dd-174">10001</span><span class="sxs-lookup"><span data-stu-id="5f5dd-174">10001</span></span>         | <span data-ttu-id="5f5dd-175">Электричество</span><span class="sxs-lookup"><span data-stu-id="5f5dd-175">Electricity</span></span> |
+| <span data-ttu-id="5f5dd-176">10010</span><span class="sxs-lookup"><span data-stu-id="5f5dd-176">10010</span></span>         | <span data-ttu-id="5f5dd-177">Уборка</span><span class="sxs-lookup"><span data-stu-id="5f5dd-177">Cleaning</span></span>    |
+| <span data-ttu-id="5f5dd-178">10011</span><span class="sxs-lookup"><span data-stu-id="5f5dd-178">10011</span></span>         | <span data-ttu-id="5f5dd-179">Отопление</span><span class="sxs-lookup"><span data-stu-id="5f5dd-179">Heating</span></span>     |
+| <span data-ttu-id="5f5dd-180">40001</span><span class="sxs-lookup"><span data-stu-id="5f5dd-180">40001</span></span>         | <span data-ttu-id="5f5dd-181">Себестоимость проданных товаров</span><span class="sxs-lookup"><span data-stu-id="5f5dd-181">COGS</span></span>        |
 
-Иерархия аналитики, соответствующая требованиям к отчетности в организации, может настраиваться, как показано ниже.
+<span data-ttu-id="5f5dd-182">Иерархия аналитики, соответствующая требованиям к отчетности в организации, может настраиваться, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-182">A dimension hierarchy that meets the organizational reporting requirements can be set up as shown here.</span></span>
 
-**Сведения об иерархии аналитик**
+<span data-ttu-id="5f5dd-183">**Сведения об иерархии аналитик**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-183">**Dimension hierarchy details**</span></span>
 
-| Имя иерархии аналитик | Аналитика    | Имя типа иерархии аналитик      | Иерархия списков доступа |
+| <span data-ttu-id="5f5dd-184">Имя иерархии аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-184">Dimension hierarchy name</span></span> | <span data-ttu-id="5f5dd-185">Аналитика</span><span class="sxs-lookup"><span data-stu-id="5f5dd-185">Dimension</span></span>    | <span data-ttu-id="5f5dd-186">Имя типа иерархии аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-186">Dimension hierarchy type name</span></span>      | <span data-ttu-id="5f5dd-187">Иерархия списков доступа</span><span class="sxs-lookup"><span data-stu-id="5f5dd-187">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Cтруктурное подразделение             | Места возникновения затрат | Иерархия классификации аналитик | Нет                    |
+| <span data-ttu-id="5f5dd-188">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-188">Organization</span></span>             | <span data-ttu-id="5f5dd-189">Места возникновения затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-189">Cost centers</span></span> | <span data-ttu-id="5f5dd-190">Иерархия классификации аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-190">Dimension classification hierarchy</span></span> | <span data-ttu-id="5f5dd-191">Нет</span><span class="sxs-lookup"><span data-stu-id="5f5dd-191">No</span></span>                    |
 
-Иерархию аналитик для отчетности можно настроить, как показано ниже.
+<span data-ttu-id="5f5dd-192">Иерархию аналитик для отчетности можно настроить, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-192">The dimension hierarchy for reporting can be set up as shown here.</span></span>
 
-|                   | Диапазоны элементов аналитики   |                         |
+|                   | <span data-ttu-id="5f5dd-193">Диапазоны элементов аналитики</span><span class="sxs-lookup"><span data-stu-id="5f5dd-193">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Узлы**         | **Из элемента аналитики** | **В элемент аналитики** |
-| Cтруктурное подразделение      |                           |                         |
-| &nbsp;&nbsp;Администрирование         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Финансы   | CC002                     | CC003                   |
-|                   | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Отдел кадров        | CC001                     | CC001                   |
-| &nbsp;&nbsp;Производство    |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Упаковка | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Сборка  | CC006                     | CC006                   |
+| <span data-ttu-id="5f5dd-194">**Узлы**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-194">**Nodes**</span></span>         | <span data-ttu-id="5f5dd-195">**Из элемента аналитики**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-195">**From dimension member**</span></span> | <span data-ttu-id="5f5dd-196">**В элемент аналитики**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-196">**To dimension member**</span></span> |
+| <span data-ttu-id="5f5dd-197">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-197">Organization</span></span>      |                           |                         |
+| <span data-ttu-id="5f5dd-198">&nbsp;&nbsp;Администрирование</span><span class="sxs-lookup"><span data-stu-id="5f5dd-198">&nbsp;&nbsp;Admin</span></span>         |                           |                         |
+|<span data-ttu-id="5f5dd-199">&nbsp;&nbsp;&nbsp;&nbsp;Финансы</span><span class="sxs-lookup"><span data-stu-id="5f5dd-199">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="5f5dd-200">CC002</span><span class="sxs-lookup"><span data-stu-id="5f5dd-200">CC002</span></span>                     | <span data-ttu-id="5f5dd-201">CC003</span><span class="sxs-lookup"><span data-stu-id="5f5dd-201">CC003</span></span>                   |
+|                   | <span data-ttu-id="5f5dd-202">CC007</span><span class="sxs-lookup"><span data-stu-id="5f5dd-202">CC007</span></span>                     | <span data-ttu-id="5f5dd-203">CC007</span><span class="sxs-lookup"><span data-stu-id="5f5dd-203">CC007</span></span>                   |
+| <span data-ttu-id="5f5dd-204">&nbsp;&nbsp;&nbsp;&nbsp;Отдел кадров</span><span class="sxs-lookup"><span data-stu-id="5f5dd-204">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="5f5dd-205">CC001</span><span class="sxs-lookup"><span data-stu-id="5f5dd-205">CC001</span></span>                     | <span data-ttu-id="5f5dd-206">CC001</span><span class="sxs-lookup"><span data-stu-id="5f5dd-206">CC001</span></span>                   |
+| <span data-ttu-id="5f5dd-207">&nbsp;&nbsp;Производство</span><span class="sxs-lookup"><span data-stu-id="5f5dd-207">&nbsp;&nbsp;Production</span></span>    |                           |                         |
+| <span data-ttu-id="5f5dd-208">&nbsp;&nbsp;&nbsp;&nbsp;Упаковка</span><span class="sxs-lookup"><span data-stu-id="5f5dd-208">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="5f5dd-209">CC005</span><span class="sxs-lookup"><span data-stu-id="5f5dd-209">CC005</span></span>                     | <span data-ttu-id="5f5dd-210">CC005</span><span class="sxs-lookup"><span data-stu-id="5f5dd-210">CC005</span></span>                   |
+| <span data-ttu-id="5f5dd-211">&nbsp;&nbsp;&nbsp;&nbsp;Сборка</span><span class="sxs-lookup"><span data-stu-id="5f5dd-211">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="5f5dd-212">CC006</span><span class="sxs-lookup"><span data-stu-id="5f5dd-212">CC006</span></span>                     | <span data-ttu-id="5f5dd-213">CC006</span><span class="sxs-lookup"><span data-stu-id="5f5dd-213">CC006</span></span>                   |
 
-Иерархия аналитики, соответствующая требованиям к политике, может настраиваться, как показано ниже.
+<span data-ttu-id="5f5dd-214">Иерархия аналитики, соответствующая требованиям к политике, может настраиваться, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-214">A dimension hierarchy that meets the policy requirement can be set up as shown here.</span></span>
 
-**Сведения об иерархии аналитик**
+<span data-ttu-id="5f5dd-215">**Сведения об иерархии аналитик**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-215">**Dimension hierarchy details**</span></span>
 
-| Имя иерархии аналитик | Аналитика     | Имя типа иерархии аналитик      |
+| <span data-ttu-id="5f5dd-216">Имя иерархии аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-216">Dimension hierarchy name</span></span> | <span data-ttu-id="5f5dd-217">Аналитика</span><span class="sxs-lookup"><span data-stu-id="5f5dd-217">Dimension</span></span>     | <span data-ttu-id="5f5dd-218">Имя типа иерархии аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-218">Dimension hierarchy type name</span></span>      |
 |--------------------------|---------------|------------------------------------|
-| Поведение затрат            | Элементы затрат | Иерархия классификации аналитик |
+| <span data-ttu-id="5f5dd-219">Поведение затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-219">Cost behavior</span></span>            | <span data-ttu-id="5f5dd-220">Элементы затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-220">Cost elements</span></span> | <span data-ttu-id="5f5dd-221">Иерархия классификации аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-221">Dimension classification hierarchy</span></span> |
 
-Иерархию аналитик для политики можно настроить, как показано ниже.
+<span data-ttu-id="5f5dd-222">Иерархию аналитик для политики можно настроить, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-222">The dimension hierarchy for the policy can be set up as shown here.</span></span>
 
-|                   | Диапазоны элементов аналитики   |                         |
+|                   | <span data-ttu-id="5f5dd-223">Диапазоны элементов аналитики</span><span class="sxs-lookup"><span data-stu-id="5f5dd-223">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Узлы**         | **Из элемента аналитики** | **В элемент аналитики** |
-| Поведение затрат     |                           |                         |
-| &nbsp;&nbsp;Постоянные затраты    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Переменные затраты | 40001                     | 40010                   |
+| <span data-ttu-id="5f5dd-224">**Узлы**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-224">**Nodes**</span></span>         | <span data-ttu-id="5f5dd-225">**Из элемента аналитики**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-225">**From dimension member**</span></span> | <span data-ttu-id="5f5dd-226">**В элемент аналитики**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-226">**To dimension member**</span></span> |
+| <span data-ttu-id="5f5dd-227">Поведение затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-227">Cost behavior</span></span>     |                           |                         |
+| <span data-ttu-id="5f5dd-228">&nbsp;&nbsp;Постоянные затраты</span><span class="sxs-lookup"><span data-stu-id="5f5dd-228">&nbsp;&nbsp;Fixed cost</span></span>    | <span data-ttu-id="5f5dd-229">10001</span><span class="sxs-lookup"><span data-stu-id="5f5dd-229">10001</span></span>                     | <span data-ttu-id="5f5dd-230">10011</span><span class="sxs-lookup"><span data-stu-id="5f5dd-230">10011</span></span>                   |
+|<span data-ttu-id="5f5dd-231">&nbsp;&nbsp;Переменные затраты</span><span class="sxs-lookup"><span data-stu-id="5f5dd-231">&nbsp;&nbsp;Variable cost</span></span> | <span data-ttu-id="5f5dd-232">40001</span><span class="sxs-lookup"><span data-stu-id="5f5dd-232">40001</span></span>                     | <span data-ttu-id="5f5dd-233">40010</span><span class="sxs-lookup"><span data-stu-id="5f5dd-233">40010</span></span>                   |
 
 > [!NOTE]
-> Под **Диапазоны элементов аналитики** узел может содержать 1:_n_ диапазонов элементов аналитики. Можно вставить коды элементов аналитики, которые еще не существуют в качестве элементов аналитики. Этот способ обеспечивает устойчивость иерархии в будущем.  
+> <span data-ttu-id="5f5dd-234">Под **Диапазоны элементов аналитики** узел может содержать 1:_n_ диапазонов элементов аналитики.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-234">Under **Dimension member ranges**, a node can contain 1:_n_ dimension member ranges.</span></span> <span data-ttu-id="5f5dd-235">Можно вставить коды элементов аналитики, которые еще не существуют в качестве элементов аналитики.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-235">You can insert dimension member IDs that don’t yet exist as dimension members.</span></span> <span data-ttu-id="5f5dd-236">Этот способ обеспечивает устойчивость иерархии в будущем.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-236">This approach makes the hierarchy resilient for the future.</span></span>  
 
-### <a name="copy-a-hierarchy"></a>Копирование иерархии
+### <a name="copy-a-hierarchy"></a><span data-ttu-id="5f5dd-237">Копирование иерархии</span><span class="sxs-lookup"><span data-stu-id="5f5dd-237">Copy a hierarchy</span></span>
 
-Можно скопировать текущую иерархию аналитик в качестве отправной точки для новой иерархии аналитик. Этот подход может оказаться полезным в том случае, если вы хотите сравнить предыдущую иерархию аналитик с новой иерархией аналитик.
+<span data-ttu-id="5f5dd-238">Можно скопировать текущую иерархию аналитик в качестве отправной точки для новой иерархии аналитик.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-238">You can copy a current dimension hierarchy as the starting point for a new dimension hierarchy.</span></span> <span data-ttu-id="5f5dd-239">Этот подход может оказаться полезным в том случае, если вы хотите сравнить предыдущую иерархию аналитик с новой иерархией аналитик.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-239">This approach can be useful if you want to compare the previous dimension hierarchy to the new dimension hierarchy.</span></span>
 
-### <a name="rearrange-nodes-in-a-hierarchy"></a>Изменения порядка узлов в иерархии
+### <a name="rearrange-nodes-in-a-hierarchy"></a><span data-ttu-id="5f5dd-240">Изменения порядка узлов в иерархии</span><span class="sxs-lookup"><span data-stu-id="5f5dd-240">Rearrange nodes in a hierarchy</span></span>
 
-Можно переместить узел вверх или вниз в пределах его текущего уровня в структуре. Таким образом, можно изменить порядок узлов для отчетности в рабочей области **Управление затратами**.
+<span data-ttu-id="5f5dd-241">Можно переместить узел вверх или вниз в пределах его текущего уровня в структуре.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-241">You can move a node up and down within its current level in the structure.</span></span> <span data-ttu-id="5f5dd-242">Таким образом, можно изменить порядок узлов для отчетности в рабочей области **Управление затратами**.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-242">In this way, you can rearrange the order of nodes for reporting in the **Cost control** workspace.</span></span>
 
-Переместить узел на новое местоположение в иерархии можно, выбрав целевой узел. Существует два способа перемещения узла:
+<span data-ttu-id="5f5dd-243">Переместить узел на новое местоположение в иерархии можно, выбрав целевой узел.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-243">You move a node to a new location in the hierarchy by selecting the target node.</span></span> <span data-ttu-id="5f5dd-244">Существует два способа перемещения узла:</span><span class="sxs-lookup"><span data-stu-id="5f5dd-244">There are two ways to move a node:</span></span>
 
-- **Переместить под** — переместить выбранный узел из текущего положения в иерархии и вставить его **под** выбранным целевым узлом.
-- **Переместить после** — переместить выбранный узел из текущего положения в иерархии и вставить его **после** выбранного целевого узла на его уровне иерархии.
+- <span data-ttu-id="5f5dd-245">**Переместить под** — переместить выбранный узел из текущего положения в иерархии и вставить его **под** выбранным целевым узлом.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-245">**Move below** – Move the selected node from its current position in the hierarchy, and insert it **under** the selected target node.</span></span>
+- <span data-ttu-id="5f5dd-246">**Переместить после** — переместить выбранный узел из текущего положения в иерархии и вставить его **после** выбранного целевого узла на его уровне иерархии.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-246">**Move after** – Move the selected node from its current position in the hierarchy, and insert it **after** the selected target node at its level of the hierarchy.</span></span>
 
 > [!NOTE] 
-> Порядок узлов не сохраняется при экспорте данных в Excel или Power BI, поскольку эти средства используют алфавитно-цифровой порядок сортировки по умолчанию. Следует вручную изменить порядок.
+> <span data-ttu-id="5f5dd-247">Порядок узлов не сохраняется при экспорте данных в Excel или Power BI, поскольку эти средства используют алфавитно-цифровой порядок сортировки по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-247">The order of the nodes isn't maintained when you export data to Excel or Power BI, because those tools use an alphanumeric sort order by default.</span></span> <span data-ttu-id="5f5dd-248">Следует вручную изменить порядок.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-248">You should manually rearrange the order.</span></span>
 
-## <a name="define-dimension-hierarchies-for-reporting"></a>Определение иерархий аналитики для отчетности
+## <a name="define-dimension-hierarchies-for-reporting"></a><span data-ttu-id="5f5dd-249">Определение иерархий аналитики для отчетности</span><span class="sxs-lookup"><span data-stu-id="5f5dd-249">Define dimension hierarchies for reporting</span></span>
 
-Иерархии аналитики важны для отчетности. Они позволяют определить нужную структуру, подходящую для конкретной организации. Агрегирования, которые выполняются на уровне узла иерархии аналитики, позволяют заинтересованным лицам на любом уровне организации видеть данные на любом уровне.
+<span data-ttu-id="5f5dd-250">Иерархии аналитики важны для отчетности.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-250">Dimension hierarchies are important for reporting.</span></span> <span data-ttu-id="5f5dd-251">Они позволяют определить нужную структуру, подходящую для конкретной организации.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-251">They let you define the specific structure that fits into the individual organization.</span></span> <span data-ttu-id="5f5dd-252">Агрегирования, которые выполняются на уровне узла иерархии аналитики, позволяют заинтересованным лицам на любом уровне организации видеть данные на любом уровне.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-252">The aggregations that are done at the node level of the dimension hierarchy let stakeholders at any level of the organization see data at any level.</span></span>
 
-Иерархии аналитик доступны в следующих средствах отчетности. Такой подход гарантирует согласованность в структуре отчетности.
+<span data-ttu-id="5f5dd-253">Иерархии аналитик доступны в следующих средствах отчетности.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-253">Dimension hierarchies are available in the following reporting tools.</span></span> <span data-ttu-id="5f5dd-254">Такой подход гарантирует согласованность в структуре отчетности.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-254">This approach helps guarantee consistency in the reporting structure.</span></span>
 
-- Рабочая область **Управление затратами** (клиент):
+- <span data-ttu-id="5f5dd-255">Рабочая область **Управление затратами** (клиент):</span><span class="sxs-lookup"><span data-stu-id="5f5dd-255">**Cost control** workspace (Client):</span></span>
 
-    - Управляется конфигурацией.
+    - <span data-ttu-id="5f5dd-256">Управляется конфигурацией.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-256">Controlled by configuration.</span></span>
 
-- Рабочая область **Управление затратами** (мобильное приложение)
+- <span data-ttu-id="5f5dd-257">Рабочая область **Управление затратами** (мобильное приложение)</span><span class="sxs-lookup"><span data-stu-id="5f5dd-257">**Cost control** workspace (Mobile application):</span></span>
 
-    - Управляется конфигурацией.
+    - <span data-ttu-id="5f5dd-258">Управляется конфигурацией.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-258">Controlled by configuration.</span></span>
 
-- Excel
+- <span data-ttu-id="5f5dd-259">Excel</span><span class="sxs-lookup"><span data-stu-id="5f5dd-259">Excel</span></span>
 
-    - Позволяет выбрать определенные иерархии аналитики для определения экспорта:
+    - <span data-ttu-id="5f5dd-260">Позволяет выбрать определенные иерархии аналитики для определения экспорта:</span><span class="sxs-lookup"><span data-stu-id="5f5dd-260">Provides the option to select specific dimension hierarchies per export definition:</span></span>
 
-        - Она иерархия аналитики элементов затрат (обязательно)
-        - Одна иерархия аналитик объектов затрат (необязательно)
-        - Одна иерархия статистических аналитик (необязательно)
+        - <span data-ttu-id="5f5dd-261">Она иерархия аналитики элементов затрат (обязательно)</span><span class="sxs-lookup"><span data-stu-id="5f5dd-261">One cost element dimension hierarchy (mandatory)</span></span>
+        - <span data-ttu-id="5f5dd-262">Одна иерархия аналитик объектов затрат (необязательно)</span><span class="sxs-lookup"><span data-stu-id="5f5dd-262">One cost object dimension hierarchy (optional)</span></span>
+        - <span data-ttu-id="5f5dd-263">Одна иерархия статистических аналитик (необязательно)</span><span class="sxs-lookup"><span data-stu-id="5f5dd-263">One statistical dimension hierarchy (optional)</span></span>
 
-- Power BI:
+- <span data-ttu-id="5f5dd-264">Power BI:</span><span class="sxs-lookup"><span data-stu-id="5f5dd-264">Power BI:</span></span>
 
-    - Доступны все иерархии аналитики.
+    - <span data-ttu-id="5f5dd-265">Доступны все иерархии аналитики.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-265">All dimension hierarchies are available.</span></span>
     
-При создании отчетов с помощью Excel или Power BI экспортируются только первые 15 уровней иерархии аналитики. Это ограничение существует, так как Excel и Power BI требуют фиксированной схемы. Если в иерархии более 15 уровней, дополнительные уровни не будут экспортироваться. Нормализованная таблица содержит запись для каждого элемента аналитики в иерархии. Таким образом, возникает автоматическое агрегирование. Это поведение гарантирует, что сальдо на любом из 15 доступных уровней в иерархии будут правильным.
+<span data-ttu-id="5f5dd-266">При создании отчетов с помощью Excel или Power BI экспортируются только первые 15 уровней иерархии аналитики.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-266">If you create reports by using Excel or Power BI, only the first 15 levels of the dimension hierarchies are exported.</span></span> <span data-ttu-id="5f5dd-267">Это ограничение существует, так как Excel и Power BI требуют фиксированной схемы.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-267">This limitation exists because a fixed schema is required in Excel and Power BI.</span></span> <span data-ttu-id="5f5dd-268">Если в иерархии более 15 уровней, дополнительные уровни не будут экспортироваться.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-268">If a hierarchy has more than 15 levels, the additional levels won't be exported.</span></span> <span data-ttu-id="5f5dd-269">Нормализованная таблица содержит запись для каждого элемента аналитики в иерархии.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-269">The normalized table contains a record for each dimension member in the hierarchy.</span></span> <span data-ttu-id="5f5dd-270">Таким образом, возникает автоматическое агрегирование.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-270">Therefore, automated aggregation occurs.</span></span> <span data-ttu-id="5f5dd-271">Это поведение гарантирует, что сальдо на любом из 15 доступных уровней в иерархии будут правильным.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-271">This behavior helps guarantee that the balances at any of the 15 available levels in the hierarchy are still correct.</span></span>
 
-Следующий пример показывает, как может выглядеть иерархия аналитик в структуре отчетности.
+<span data-ttu-id="5f5dd-272">Следующий пример показывает, как может выглядеть иерархия аналитик в структуре отчетности.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-272">The following example shows what a dimension hierarchy might look like in the reporting structure.</span></span>
 
-| Иерархия аналитик объектов затрат — уровень 1 | Иерархия аналитик объектов затрат — уровень 2 | Иерархия аналитик объектов затрат — уровень 3 | Иерархия аналитик объектов затрат — уровень 4 | Иерархия аналитик объектов затрат — уровень 15 |
+| <span data-ttu-id="5f5dd-273">Иерархия аналитик объектов затрат — уровень 1</span><span class="sxs-lookup"><span data-stu-id="5f5dd-273">Cost object dimension hierarchy – Level 1</span></span> | <span data-ttu-id="5f5dd-274">Иерархия аналитик объектов затрат — уровень 2</span><span class="sxs-lookup"><span data-stu-id="5f5dd-274">Cost object dimension hierarchy – Level 2</span></span> | <span data-ttu-id="5f5dd-275">Иерархия аналитик объектов затрат — уровень 3</span><span class="sxs-lookup"><span data-stu-id="5f5dd-275">Cost object dimension hierarchy – Level 3</span></span> | <span data-ttu-id="5f5dd-276">Иерархия аналитик объектов затрат — уровень 4</span><span class="sxs-lookup"><span data-stu-id="5f5dd-276">Cost object dimension hierarchy – Level 4</span></span> | <span data-ttu-id="5f5dd-277">Иерархия аналитик объектов затрат — уровень 15</span><span class="sxs-lookup"><span data-stu-id="5f5dd-277">Cost object dimension hierarchy – Level 15</span></span> |
 |-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Cтруктурное подразделение                              | Администрирование                                     | Финансы                                   | CC002                                     |                                            |
-| Cтруктурное подразделение                              | Администрирование                                     | Финансы                                   | CC003                                     |                                            |
-| Cтруктурное подразделение                              | Администрирование                                     | Финансы                                   | CC007                                     |                                            |
-| Cтруктурное подразделение                              | Администрирование                                     | Отдел кадров                                        | CC001                                     |                                            |
-| Cтруктурное подразделение                              | Производство                                | Упаковка                                 | CC005                                     |                                            |
-| Cтруктурное подразделение                              | Производство                                | Сборка                                  | CC006                                     |                                            |
+| <span data-ttu-id="5f5dd-278">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-278">Organization</span></span>                              | <span data-ttu-id="5f5dd-279">Администрирование</span><span class="sxs-lookup"><span data-stu-id="5f5dd-279">Admin</span></span>                                     | <span data-ttu-id="5f5dd-280">Финансы</span><span class="sxs-lookup"><span data-stu-id="5f5dd-280">Finance</span></span>                                   | <span data-ttu-id="5f5dd-281">CC002</span><span class="sxs-lookup"><span data-stu-id="5f5dd-281">CC002</span></span>                                     |                                            |
+| <span data-ttu-id="5f5dd-282">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-282">Organization</span></span>                              | <span data-ttu-id="5f5dd-283">Администрирование</span><span class="sxs-lookup"><span data-stu-id="5f5dd-283">Admin</span></span>                                     | <span data-ttu-id="5f5dd-284">Финансы</span><span class="sxs-lookup"><span data-stu-id="5f5dd-284">Finance</span></span>                                   | <span data-ttu-id="5f5dd-285">CC003</span><span class="sxs-lookup"><span data-stu-id="5f5dd-285">CC003</span></span>                                     |                                            |
+| <span data-ttu-id="5f5dd-286">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-286">Organization</span></span>                              | <span data-ttu-id="5f5dd-287">Администрирование</span><span class="sxs-lookup"><span data-stu-id="5f5dd-287">Admin</span></span>                                     | <span data-ttu-id="5f5dd-288">Финансы</span><span class="sxs-lookup"><span data-stu-id="5f5dd-288">Finance</span></span>                                   | <span data-ttu-id="5f5dd-289">CC007</span><span class="sxs-lookup"><span data-stu-id="5f5dd-289">CC007</span></span>                                     |                                            |
+| <span data-ttu-id="5f5dd-290">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-290">Organization</span></span>                              | <span data-ttu-id="5f5dd-291">Администрирование</span><span class="sxs-lookup"><span data-stu-id="5f5dd-291">Admin</span></span>                                     | <span data-ttu-id="5f5dd-292">Отдел кадров</span><span class="sxs-lookup"><span data-stu-id="5f5dd-292">HR</span></span>                                        | <span data-ttu-id="5f5dd-293">CC001</span><span class="sxs-lookup"><span data-stu-id="5f5dd-293">CC001</span></span>                                     |                                            |
+| <span data-ttu-id="5f5dd-294">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-294">Organization</span></span>                              | <span data-ttu-id="5f5dd-295">Производство</span><span class="sxs-lookup"><span data-stu-id="5f5dd-295">Production</span></span>                                | <span data-ttu-id="5f5dd-296">Упаковка</span><span class="sxs-lookup"><span data-stu-id="5f5dd-296">Packaging</span></span>                                 | <span data-ttu-id="5f5dd-297">CC005</span><span class="sxs-lookup"><span data-stu-id="5f5dd-297">CC005</span></span>                                     |                                            |
+| <span data-ttu-id="5f5dd-298">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-298">Organization</span></span>                              | <span data-ttu-id="5f5dd-299">Производство</span><span class="sxs-lookup"><span data-stu-id="5f5dd-299">Production</span></span>                                | <span data-ttu-id="5f5dd-300">Сборка</span><span class="sxs-lookup"><span data-stu-id="5f5dd-300">Assembly</span></span>                                  | <span data-ttu-id="5f5dd-301">CC006</span><span class="sxs-lookup"><span data-stu-id="5f5dd-301">CC006</span></span>                                     |                                            |
 
-### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Обновление иерархий аналитик, которые используются для отчетности 
+### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a><span data-ttu-id="5f5dd-302">Обновление иерархий аналитик, которые используются для отчетности</span><span class="sxs-lookup"><span data-stu-id="5f5dd-302">Update the dimension hierarchies that are used for reporting</span></span> 
 
-Со временем иерархии аналитики, используемые в указанных выше средствах отчетности, потребуют обновления. Иерархии аналитик можно обновить путем обновления клиента.
+<span data-ttu-id="5f5dd-303">Со временем иерархии аналитики, используемые в указанных выше средствах отчетности, потребуют обновления.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-303">Over time, the dimension hierarchies that are used in the previously mentioned reporting tools will have to be updated.</span></span> <span data-ttu-id="5f5dd-304">Иерархии аналитик можно обновить путем обновления клиента.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-304">You can update dimension hierarchies by refreshing the client.</span></span>
 
-- Рабочая область **Управление затратами** (клиент)
-- Рабочая область **Управление затратами** (мобильное приложение)
+- <span data-ttu-id="5f5dd-305">Рабочая область **Управление затратами** (клиент)</span><span class="sxs-lookup"><span data-stu-id="5f5dd-305">**Cost control** workspace (Client)</span></span>
+- <span data-ttu-id="5f5dd-306">Рабочая область **Управление затратами** (мобильное приложение)</span><span class="sxs-lookup"><span data-stu-id="5f5dd-306">**Cost control** workspace (Mobile application)</span></span>
 
-Обновления иерархий аналитик комплектуются каждые 24 часа с помощью задания предварительного кэширования. После обновления экспортированных данных обновленные иерархии аналитик доступны в следующих средствах:
+<span data-ttu-id="5f5dd-307">Обновления иерархий аналитик комплектуются каждые 24 часа с помощью задания предварительного кэширования.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-307">Updates to dimension hierarchies are picked up every 24 hours by a pre-cached job.</span></span> <span data-ttu-id="5f5dd-308">После обновления экспортированных данных обновленные иерархии аналитик доступны в следующих средствах:</span><span class="sxs-lookup"><span data-stu-id="5f5dd-308">After the exported data is updated, the updated dimension hierarchies are available in the following tools:</span></span>
 
-- Excel
-- Power BI
+- <span data-ttu-id="5f5dd-309">Excel</span><span class="sxs-lookup"><span data-stu-id="5f5dd-309">Excel</span></span>
+- <span data-ttu-id="5f5dd-310">Power BI</span><span class="sxs-lookup"><span data-stu-id="5f5dd-310">Power BI</span></span>
 
 > [!NOTE] 
-> Чтобы выполнить обновление кэша иерархии аналитик вручную, можно создать новый экспорт в Excel для иерархии аналитик или иерархий, которые должны быть обновлены.
+> <span data-ttu-id="5f5dd-311">Чтобы выполнить обновление кэша иерархии аналитик вручную, можно создать новый экспорт в Excel для иерархии аналитик или иерархий, которые должны быть обновлены.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-311">To manually trigger an update of the dimension hierarchy cache, you can create a new export to Excel for the dimension hierarchy or hierarchies that must be updated.</span></span>
 
-## <a name="define-dimension-hierarchies-for-cost-policies"></a>Определение иерархий аналитик для политик затрат
+## <a name="define-dimension-hierarchies-for-cost-policies"></a><span data-ttu-id="5f5dd-312">Определение иерархий аналитик для политик затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-312">Define dimension hierarchies for cost policies</span></span>
 
-Учет затрат состоит из нескольких политик, где указаны подробные правила. Необходимо определить одну или несколько иерархий для следующих политик:
+<span data-ttu-id="5f5dd-313">Учет затрат состоит из нескольких политик, где указаны подробные правила.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-313">Cost accounting consists of multiple policies where detailed rules are defined.</span></span> <span data-ttu-id="5f5dd-314">Необходимо определить одну или несколько иерархий для следующих политик:</span><span class="sxs-lookup"><span data-stu-id="5f5dd-314">You must define one or more dimension hierarchies for the following policies:</span></span>
 
-- Поведение затрат
-- Распределение затрат
-- Распределение затрат
-- Свертка затрат
+- <span data-ttu-id="5f5dd-315">Поведение затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-315">Cost behavior</span></span>
+- <span data-ttu-id="5f5dd-316">Распределение затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-316">Cost distribution</span></span>
+- <span data-ttu-id="5f5dd-317">Распределение затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-317">Cost allocation</span></span>
+- <span data-ttu-id="5f5dd-318">Свертка затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-318">Cost rollup</span></span>
 
-Иерархии аналитик упрощают создание правил. Чтобы избежать необходимости создавать правила для каждого элемента аналитики, можно воспользоваться преимуществами агрегирования элементов аналитик, которые предоставляются уровнями иерархии аналитик. При наличии нескольких перекрывающихся правил необходимо определить особые правила, которые система будет учитывать при этом расчете накладных расходов.
+<span data-ttu-id="5f5dd-319">Иерархии аналитик упрощают создание правил.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-319">Dimension hierarchies make it easy to create rules.</span></span> <span data-ttu-id="5f5dd-320">Чтобы избежать необходимости создавать правила для каждого элемента аналитики, можно воспользоваться преимуществами агрегирования элементов аналитик, которые предоставляются уровнями иерархии аналитик.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-320">To avoid having to create rules for every dimension member, you can take advantage of the aggregations of dimension members that are provided by dimension hierarchy levels.</span></span> <span data-ttu-id="5f5dd-321">При наличии нескольких перекрывающихся правил необходимо определить особые правила, которые система будет учитывать при этом расчете накладных расходов.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-321">If you have overlapping rules, you must define specific rules that the system will consider when it does the overhead calculation.</span></span>
 
-### <a name="example-define-a-cost-behavior-policy"></a>Пример: определение политики поведения затрат
+### <a name="example-define-a-cost-behavior-policy"></a><span data-ttu-id="5f5dd-322">Пример: определение политики поведения затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-322">Example: Define a cost behavior policy</span></span>
 
-Создается новая политика поведения затрат, и соответствующие иерархии аналитики назначаются для политики, как показано ниже.
+<span data-ttu-id="5f5dd-323">Создается новая политика поведения затрат, и соответствующие иерархии аналитики назначаются для политики, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-323">A new cost behavior policy is created, and appropriate dimension hierarchies are assigned to the policy, as shown here.</span></span>
 
-**Политика поведения затрат**
+<span data-ttu-id="5f5dd-324">**Политика поведения затрат**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-324">**Cost behavior policy**</span></span>
 
-| Имя политики   | Иерархия аналитик элементов затрат | Иерархия аналитик объектов затрат | Валюта учета |
+| <span data-ttu-id="5f5dd-325">Имя политики</span><span class="sxs-lookup"><span data-stu-id="5f5dd-325">Policy name</span></span>   | <span data-ttu-id="5f5dd-326">Иерархия аналитик элементов затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-326">Cost element dimension hierarchy</span></span> | <span data-ttu-id="5f5dd-327">Иерархия аналитик объектов затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-327">Cost object dimension hierarchy</span></span> | <span data-ttu-id="5f5dd-328">Валюта учета</span><span class="sxs-lookup"><span data-stu-id="5f5dd-328">Accounting currency</span></span> |
 |---------------|----------------------------------|---------------------------------|---------------------|
-| Поведение затрат | Поведение затрат                    | Cтруктурное подразделение                    | американский доллар                 |
+| <span data-ttu-id="5f5dd-329">Поведение затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-329">Cost behavior</span></span> | <span data-ttu-id="5f5dd-330">Поведение затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-330">Cost behavior</span></span>                    | <span data-ttu-id="5f5dd-331">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-331">Organization</span></span>                    | <span data-ttu-id="5f5dd-332">американский доллар</span><span class="sxs-lookup"><span data-stu-id="5f5dd-332">USD</span></span>                 |
 
-**Правила**
+<span data-ttu-id="5f5dd-333">**Правила**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-333">**Rules**</span></span>
 
-| Узел иерархии аналитик элементов затрат | Узел иерархии аналитик объектов затрат | Фиксированный процент | Фиксированная сумма | Действительно с | Действительно до |
+| <span data-ttu-id="5f5dd-334">Узел иерархии аналитик элементов затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-334">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="5f5dd-335">Узел иерархии аналитик объектов затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-335">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="5f5dd-336">Фиксированный процент</span><span class="sxs-lookup"><span data-stu-id="5f5dd-336">Fixed percentage</span></span> | <span data-ttu-id="5f5dd-337">Фиксированная сумма</span><span class="sxs-lookup"><span data-stu-id="5f5dd-337">Fixed amount</span></span> | <span data-ttu-id="5f5dd-338">Действительно с</span><span class="sxs-lookup"><span data-stu-id="5f5dd-338">Valid from</span></span> | <span data-ttu-id="5f5dd-339">Действительно до</span><span class="sxs-lookup"><span data-stu-id="5f5dd-339">Valid to</span></span> |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
-| Постоянные затраты                            | Cтруктурное подразделение                         | 100,00           | 0,00         | 1.1.2017   | Никогда    |
-| 10001                                 | Cтруктурное подразделение                         | 0,00             | 150,00       | 1.1.2017   | Никогда    |
-| 10001 (\*)                             | Финансы                              |                  | 50,00        | 1.1.2017   | Никогда    |
-| Поведение затрат или переменные затраты (\*\*)   | Cтруктурное подразделение                         | 0,00             | 0,00         | 1.1.2017   | Никогда    |
+| <span data-ttu-id="5f5dd-340">Постоянные затраты</span><span class="sxs-lookup"><span data-stu-id="5f5dd-340">Fixed cost</span></span>                            | <span data-ttu-id="5f5dd-341">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-341">Organization</span></span>                         | <span data-ttu-id="5f5dd-342">100,00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-342">100.00</span></span>           | <span data-ttu-id="5f5dd-343">0,00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-343">0.00</span></span>         | <span data-ttu-id="5f5dd-344">1.1.2017</span><span class="sxs-lookup"><span data-stu-id="5f5dd-344">1/1/2017</span></span>   | <span data-ttu-id="5f5dd-345">Никогда</span><span class="sxs-lookup"><span data-stu-id="5f5dd-345">Never</span></span>    |
+| <span data-ttu-id="5f5dd-346">10001</span><span class="sxs-lookup"><span data-stu-id="5f5dd-346">10001</span></span>                                 | <span data-ttu-id="5f5dd-347">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-347">Organization</span></span>                         | <span data-ttu-id="5f5dd-348">0,00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-348">0.00</span></span>             | <span data-ttu-id="5f5dd-349">150,00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-349">150.00</span></span>       | <span data-ttu-id="5f5dd-350">1.1.2017</span><span class="sxs-lookup"><span data-stu-id="5f5dd-350">1/1/2017</span></span>   | <span data-ttu-id="5f5dd-351">Никогда</span><span class="sxs-lookup"><span data-stu-id="5f5dd-351">Never</span></span>    |
+| <span data-ttu-id="5f5dd-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="5f5dd-352">10001 (\*)</span></span>                             | <span data-ttu-id="5f5dd-353">Финансы</span><span class="sxs-lookup"><span data-stu-id="5f5dd-353">Finance</span></span>                              |                  | <span data-ttu-id="5f5dd-354">50,00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-354">50.00</span></span>        | <span data-ttu-id="5f5dd-355">1.1.2017</span><span class="sxs-lookup"><span data-stu-id="5f5dd-355">1/1/2017</span></span>   | <span data-ttu-id="5f5dd-356">Никогда</span><span class="sxs-lookup"><span data-stu-id="5f5dd-356">Never</span></span>    |
+| <span data-ttu-id="5f5dd-357">Поведение затрат или переменные затраты (\*\*)</span><span class="sxs-lookup"><span data-stu-id="5f5dd-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="5f5dd-358">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-358">Organization</span></span>                         | <span data-ttu-id="5f5dd-359">0,00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-359">0.00</span></span>             | <span data-ttu-id="5f5dd-360">0,00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-360">0.00</span></span>         | <span data-ttu-id="5f5dd-361">1.1.2017</span><span class="sxs-lookup"><span data-stu-id="5f5dd-361">1/1/2017</span></span>   | <span data-ttu-id="5f5dd-362">Никогда</span><span class="sxs-lookup"><span data-stu-id="5f5dd-362">Never</span></span>    |
 
-\* Узел переменных затрат не обязателен. Если затраты не классифицируется как фиксированные затраты, они должны быть переменными.
+<span data-ttu-id="5f5dd-363">\* Узел переменных затрат не обязателен.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="5f5dd-364">Если затраты не классифицируется как фиксированные затраты, они должны быть переменными.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
-\*\* Подробное правило создается для комбинации элемента затрат 10001 и всех элементов затрат, агрегированных по уровню иерархии "Финансы" (CC002, CC003, CC007).
+<span data-ttu-id="5f5dd-365">\*\* Подробное правило создается для комбинации элемента затрат 10001 и всех элементов затрат, агрегированных по уровню иерархии "Финансы" (CC002, CC003, CC007).</span><span class="sxs-lookup"><span data-stu-id="5f5dd-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 
-Предыдущие правила показывают гибкие возможности, которые предоставляют иерархии аналитик. Определяя правила высокого уровня, можно минимизировать обслуживание. Затем можно определить подробные правила для соответствия конкретной бизнес-задаче.
+<span data-ttu-id="5f5dd-366">Предыдущие правила показывают гибкие возможности, которые предоставляют иерархии аналитик.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-366">The preceding rules show the flexibility that dimension hierarchies provide.</span></span> <span data-ttu-id="5f5dd-367">Определяя правила высокого уровня, можно минимизировать обслуживание.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-367">By defining high-level rules, you can help minimize maintenance.</span></span> <span data-ttu-id="5f5dd-368">Затем можно определить подробные правила для соответствия конкретной бизнес-задаче.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-368">You can then define detailed rules to fit into a specific business objective.</span></span>
 
-Если иерархии, используемые в правилах, обновляются, система автоматически ставит обновления вперед.
+<span data-ttu-id="5f5dd-369">Если иерархии, используемые в правилах, обновляются, система автоматически ставит обновления вперед.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-369">If the dimension hierarchies that are used in rules are updated, the system automatically brings the updates forward.</span></span>
 
-Если уровень детализации в правилах больше не требуется, правило может стать просроченным.
+<span data-ttu-id="5f5dd-370">Если уровень детализации в правилах больше не требуется, правило может стать просроченным.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-370">If a level of granularity in the rules is no longer required, the rule can be expired.</span></span>
 
-Например, определенное правило поведения затрат для узла иерархии аналитик объекта затрат "Финансы" больше не требуется. В этом случае щелкните **Завершить строк действия правила**.
+<span data-ttu-id="5f5dd-371">Например, определенное правило поведения затрат для узла иерархии аналитик объекта затрат "Финансы" больше не требуется.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-371">For example, a specific cost behavior rule for the Finance cost object dimension hierarchy node is no longer required.</span></span> <span data-ttu-id="5f5dd-372">В этом случае щелкните **Завершить строк действия правила**.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-372">In this case, click **Expire rule** to expire the rule.</span></span>
 
-| Узел иерархии аналитик элементов затрат | Узел иерархии аналитик объектов затрат | Фиксированный процент | Фиксированная сумма | Действительно с | Действительно до  |
+| <span data-ttu-id="5f5dd-373">Узел иерархии аналитик элементов затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-373">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="5f5dd-374">Узел иерархии аналитик объектов затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-374">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="5f5dd-375">Фиксированный процент</span><span class="sxs-lookup"><span data-stu-id="5f5dd-375">Fixed percentage</span></span> | <span data-ttu-id="5f5dd-376">Фиксированная сумма</span><span class="sxs-lookup"><span data-stu-id="5f5dd-376">Fixed amount</span></span> | <span data-ttu-id="5f5dd-377">Действительно с</span><span class="sxs-lookup"><span data-stu-id="5f5dd-377">Valid from</span></span> | <span data-ttu-id="5f5dd-378">Действительно до</span><span class="sxs-lookup"><span data-stu-id="5f5dd-378">Valid to</span></span>  |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|-----------|
-| Постоянные затраты                            | Cтруктурное подразделение                         | 100,00           | 0.00         | 1.1.2017   | Никогда     |
-| 10001                                 | Cтруктурное подразделение                         | 0.00             | 150,00       | 1.1.2017   | Никогда     |
-| 10001                                 | Финансы                              |                  | 50,00        | 1.1.2017   | 20.1.2017 |
-| Поведение затрат или переменные затраты        | Cтруктурное подразделение                         | 0.00             | 0.00         | 1.1.2017   | Никогда     |
+| <span data-ttu-id="5f5dd-379">Постоянные затраты</span><span class="sxs-lookup"><span data-stu-id="5f5dd-379">Fixed cost</span></span>                            | <span data-ttu-id="5f5dd-380">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-380">Organization</span></span>                         | <span data-ttu-id="5f5dd-381">100,00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-381">100,00</span></span>           | <span data-ttu-id="5f5dd-382">0.00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-382">0,00</span></span>         | <span data-ttu-id="5f5dd-383">1.1.2017</span><span class="sxs-lookup"><span data-stu-id="5f5dd-383">1/1/2017</span></span>   | <span data-ttu-id="5f5dd-384">Никогда</span><span class="sxs-lookup"><span data-stu-id="5f5dd-384">Never</span></span>     |
+| <span data-ttu-id="5f5dd-385">10001</span><span class="sxs-lookup"><span data-stu-id="5f5dd-385">10001</span></span>                                 | <span data-ttu-id="5f5dd-386">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-386">Organization</span></span>                         | <span data-ttu-id="5f5dd-387">0.00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-387">0,00</span></span>             | <span data-ttu-id="5f5dd-388">150,00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-388">150,00</span></span>       | <span data-ttu-id="5f5dd-389">1.1.2017</span><span class="sxs-lookup"><span data-stu-id="5f5dd-389">1/1/2017</span></span>   | <span data-ttu-id="5f5dd-390">Никогда</span><span class="sxs-lookup"><span data-stu-id="5f5dd-390">Never</span></span>     |
+| <span data-ttu-id="5f5dd-391">10001</span><span class="sxs-lookup"><span data-stu-id="5f5dd-391">10001</span></span>                                 | <span data-ttu-id="5f5dd-392">Финансы</span><span class="sxs-lookup"><span data-stu-id="5f5dd-392">Finance</span></span>                              |                  | <span data-ttu-id="5f5dd-393">50,00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-393">50,00</span></span>        | <span data-ttu-id="5f5dd-394">1.1.2017</span><span class="sxs-lookup"><span data-stu-id="5f5dd-394">1/1/2017</span></span>   | <span data-ttu-id="5f5dd-395">20.1.2017</span><span class="sxs-lookup"><span data-stu-id="5f5dd-395">20/1/2017</span></span> |
+| <span data-ttu-id="5f5dd-396">Поведение затрат или переменные затраты</span><span class="sxs-lookup"><span data-stu-id="5f5dd-396">Cost behavior or Variable cost</span></span>        | <span data-ttu-id="5f5dd-397">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-397">Organization</span></span>                         | <span data-ttu-id="5f5dd-398">0.00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-398">0,00</span></span>             | <span data-ttu-id="5f5dd-399">0.00</span><span class="sxs-lookup"><span data-stu-id="5f5dd-399">0,00</span></span>         | <span data-ttu-id="5f5dd-400">1.1.2017</span><span class="sxs-lookup"><span data-stu-id="5f5dd-400">1/1/2017</span></span>   | <span data-ttu-id="5f5dd-401">Никогда</span><span class="sxs-lookup"><span data-stu-id="5f5dd-401">Never</span></span>     |
 
-Любые расчет накладных расходов, который запускается после 20 января 2017 г., не учитывает это правило.
+<span data-ttu-id="5f5dd-402">Любые расчет накладных расходов, который запускается после 20 января 2017 г., не учитывает это правило.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-402">Any overhead calculation that is run after January 20, 2017, no longer considers this rule.</span></span>
 
 > [!NOTE] 
-> Поля **Действительно с** и **Действительно до** чувствительны к дате и времени. Правило можно просрочить и выполнить новый расчет накладных расходов в тот же день.
+> <span data-ttu-id="5f5dd-403">Поля **Действительно с** и **Действительно до** чувствительны к дате и времени.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-403">The **Valid from** and **Valid to** fields are date-effective and time-effective.</span></span> <span data-ttu-id="5f5dd-404">Правило можно просрочить и выполнить новый расчет накладных расходов в тот же день.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-404">You can expire the rule and run a new overhead calculation on the same day.</span></span>
 
-## <a name="define-dimension-hierarchies-for-security-setup"></a>Определение иерархий аналитик для настройки безопасности
+## <a name="define-dimension-hierarchies-for-security-setup"></a><span data-ttu-id="5f5dd-405">Определение иерархий аналитик для настройки безопасности</span><span class="sxs-lookup"><span data-stu-id="5f5dd-405">Define dimension hierarchies for security setup</span></span>
 
-Данные учета затрат должны быть доступны для всех менеджеров, ответственных за единицу отчетности. В терминах учета затрат единица отчетности представляется как объект затрат или группа объектов затрат.
+<span data-ttu-id="5f5dd-406">Данные учета затрат должны быть доступны для всех менеджеров, ответственных за единицу отчетности.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-406">Cost accounting data should be made available to all managers who are responsible for a reporting unit.</span></span> <span data-ttu-id="5f5dd-407">В терминах учета затрат единица отчетности представляется как объект затрат или группа объектов затрат.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-407">In Cost accounting terminology, a reporting unit is represented as a cost object or a set of cost objects.</span></span>
 
-Потенциально, все менеджеры могут получить доступ к весьма важным бизнес-данным, таким как доходы и маржа. Таким образом, важно обеспечить настройку безопасности, чтобы менеджеры могли видеть только данные, относящиеся к ним. Чтобы обеспечить безопасность управления данными, определяются иерархии.
+<span data-ttu-id="5f5dd-408">Потенциально, все менеджеры могут получить доступ к весьма важным бизнес-данным, таким как доходы и маржа.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-408">Potentially, all managers will be able to access highly sensitive business data, such revenues and margins.</span></span> <span data-ttu-id="5f5dd-409">Таким образом, важно обеспечить настройку безопасности, чтобы менеджеры могли видеть только данные, относящиеся к ним.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-409">Therefore, it's important that you set up security, so that managers see only the data that is relevant to them.</span></span> <span data-ttu-id="5f5dd-410">Чтобы обеспечить безопасность управления данными, определяются иерархии.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-410">To help control data security, you define dimension hierarchies.</span></span>
 
-- Использование иерархий аналитик применяется только в том случае, если значение аналитики, выбранное в ссылке иерархии аналитики, является аналитикой объекта затрат.
-- Можно включить только одну иерархию аналитики для аналитики объекта затрат в иерархии списков доступа.
+- <span data-ttu-id="5f5dd-411">Использование иерархий аналитик применяется только в том случае, если значение аналитики, выбранное в ссылке иерархии аналитики, является аналитикой объекта затрат.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-411">The use of dimension hierarchies applies only when the dimension value that is selected in the dimension hierarchy reference is a cost object dimension.</span></span>
+- <span data-ttu-id="5f5dd-412">Можно включить только одну иерархию аналитики для аналитики объекта затрат в иерархии списков доступа.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-412">Only one dimension hierarchy can be enabled per cost object dimension in the access list hierarchy.</span></span>
 
-**Сведения об иерархии аналитик**
+<span data-ttu-id="5f5dd-413">**Сведения об иерархии аналитик**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-413">**Dimension hierarchy details**</span></span>
 
-| Имя иерархии аналитик | Аналитика    | Имя типа иерархии аналитик      | Иерархия списков доступа |
+| <span data-ttu-id="5f5dd-414">Имя иерархии аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-414">Dimension hierarchy name</span></span> | <span data-ttu-id="5f5dd-415">Аналитика</span><span class="sxs-lookup"><span data-stu-id="5f5dd-415">Dimension</span></span>    | <span data-ttu-id="5f5dd-416">Имя типа иерархии аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-416">Dimension hierarchy type name</span></span>      | <span data-ttu-id="5f5dd-417">Иерархия списков доступа</span><span class="sxs-lookup"><span data-stu-id="5f5dd-417">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Cтруктурное подразделение             | Места возникновения затрат | Иерархия классификации аналитик | **Да**               |
+| <span data-ttu-id="5f5dd-418">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-418">Organization</span></span>             | <span data-ttu-id="5f5dd-419">Места возникновения затрат</span><span class="sxs-lookup"><span data-stu-id="5f5dd-419">Cost centers</span></span> | <span data-ttu-id="5f5dd-420">Иерархия классификации аналитик</span><span class="sxs-lookup"><span data-stu-id="5f5dd-420">Dimension classification hierarchy</span></span> | <span data-ttu-id="5f5dd-421">**Да**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-421">**Yes**</span></span>               |
 
-Новая экспресс-вкладка **Пользователи** доступна в конструкторе иерархий. Здесь можно добавить один или несколько кодов пользователей в каждый узел в иерархии.
+<span data-ttu-id="5f5dd-422">Новая экспресс-вкладка **Пользователи** доступна в конструкторе иерархий.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-422">A new **Users** FastTab is available in the hierarchy designer.</span></span> <span data-ttu-id="5f5dd-423">Здесь можно добавить один или несколько кодов пользователей в каждый узел в иерархии.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-423">Here, you can insert one or more user IDs at each node in the hierarchy.</span></span>
 
-|                 | Пользователи            | Диапазоны элементов аналитики   |                         |
+|                 | <span data-ttu-id="5f5dd-424">Пользователи</span><span class="sxs-lookup"><span data-stu-id="5f5dd-424">Users</span></span>            | <span data-ttu-id="5f5dd-425">Диапазоны элементов аналитики</span><span class="sxs-lookup"><span data-stu-id="5f5dd-425">Dimension member ranges</span></span>   |                         |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Узлы**       | **Код пользователя**      | **Из элемента аналитики** | **В элемент аналитики** |
-| Cтруктурное подразделение    | Бенджамин, Клер |                           |                         |
-| &nbsp;&nbsp;Администрирование         | апреля            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Финансы   | Алиша           | CC002                     | CC003                   |
-|                 |                  | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Отдел кадров        | Арни            | CC001                     | CC001                   |
-| &nbsp;&nbsp;Производство    | Дэвид            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Упаковка | Эллен            | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Сборка  | Крис            | CC006                     | CC006                   |
+| <span data-ttu-id="5f5dd-426">**Узлы**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-426">**Nodes**</span></span>       | <span data-ttu-id="5f5dd-427">**Код пользователя**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-427">**User ID**</span></span>      | <span data-ttu-id="5f5dd-428">**Из элемента аналитики**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-428">**From dimension member**</span></span> | <span data-ttu-id="5f5dd-429">**В элемент аналитики**</span><span class="sxs-lookup"><span data-stu-id="5f5dd-429">**To dimension member**</span></span> |
+| <span data-ttu-id="5f5dd-430">Cтруктурное подразделение</span><span class="sxs-lookup"><span data-stu-id="5f5dd-430">Organization</span></span>    | <span data-ttu-id="5f5dd-431">Бенджамин, Клер</span><span class="sxs-lookup"><span data-stu-id="5f5dd-431">Benjamin, Claire</span></span> |                           |                         |
+| <span data-ttu-id="5f5dd-432">&nbsp;&nbsp;Администрирование</span><span class="sxs-lookup"><span data-stu-id="5f5dd-432">&nbsp;&nbsp;Admin</span></span>         | <span data-ttu-id="5f5dd-433">апреля</span><span class="sxs-lookup"><span data-stu-id="5f5dd-433">April</span></span>            |                           |                         |
+| <span data-ttu-id="5f5dd-434">&nbsp;&nbsp;&nbsp;&nbsp;Финансы</span><span class="sxs-lookup"><span data-stu-id="5f5dd-434">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="5f5dd-435">Алиша</span><span class="sxs-lookup"><span data-stu-id="5f5dd-435">Alicia</span></span>           | <span data-ttu-id="5f5dd-436">CC002</span><span class="sxs-lookup"><span data-stu-id="5f5dd-436">CC002</span></span>                     | <span data-ttu-id="5f5dd-437">CC003</span><span class="sxs-lookup"><span data-stu-id="5f5dd-437">CC003</span></span>                   |
+|                 |                  | <span data-ttu-id="5f5dd-438">CC007</span><span class="sxs-lookup"><span data-stu-id="5f5dd-438">CC007</span></span>                     | <span data-ttu-id="5f5dd-439">CC007</span><span class="sxs-lookup"><span data-stu-id="5f5dd-439">CC007</span></span>                   |
+| <span data-ttu-id="5f5dd-440">&nbsp;&nbsp;&nbsp;&nbsp;Отдел кадров</span><span class="sxs-lookup"><span data-stu-id="5f5dd-440">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="5f5dd-441">Арни</span><span class="sxs-lookup"><span data-stu-id="5f5dd-441">Arnie</span></span>            | <span data-ttu-id="5f5dd-442">CC001</span><span class="sxs-lookup"><span data-stu-id="5f5dd-442">CC001</span></span>                     | <span data-ttu-id="5f5dd-443">CC001</span><span class="sxs-lookup"><span data-stu-id="5f5dd-443">CC001</span></span>                   |
+| <span data-ttu-id="5f5dd-444">&nbsp;&nbsp;Производство</span><span class="sxs-lookup"><span data-stu-id="5f5dd-444">&nbsp;&nbsp;Production</span></span>    | <span data-ttu-id="5f5dd-445">Дэвид</span><span class="sxs-lookup"><span data-stu-id="5f5dd-445">David</span></span>            |                           |                         |
+| <span data-ttu-id="5f5dd-446">&nbsp;&nbsp;&nbsp;&nbsp;Упаковка</span><span class="sxs-lookup"><span data-stu-id="5f5dd-446">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="5f5dd-447">Эллен</span><span class="sxs-lookup"><span data-stu-id="5f5dd-447">Ellen</span></span>            | <span data-ttu-id="5f5dd-448">CC005</span><span class="sxs-lookup"><span data-stu-id="5f5dd-448">CC005</span></span>                     | <span data-ttu-id="5f5dd-449">CC005</span><span class="sxs-lookup"><span data-stu-id="5f5dd-449">CC005</span></span>                   |
+| <span data-ttu-id="5f5dd-450">&nbsp;&nbsp;&nbsp;&nbsp;Сборка</span><span class="sxs-lookup"><span data-stu-id="5f5dd-450">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="5f5dd-451">Крис</span><span class="sxs-lookup"><span data-stu-id="5f5dd-451">Chris</span></span>            | <span data-ttu-id="5f5dd-452">CC006</span><span class="sxs-lookup"><span data-stu-id="5f5dd-452">CC006</span></span>                     | <span data-ttu-id="5f5dd-453">CC006</span><span class="sxs-lookup"><span data-stu-id="5f5dd-453">CC006</span></span>                   |
 
 > [!NOTE] 
-> Бухгалтеры затрат должны быть назначены на верхнем уровне иерархии, чтобы они моги видеть все записи в учете затрат.
+> <span data-ttu-id="5f5dd-454">Бухгалтеры затрат должны быть назначены на верхнем уровне иерархии, чтобы они моги видеть все записи в учете затрат.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-454">Cost accountants should be assigned to the top level of the hierarchy, so that they can see all entries in Cost accounting.</span></span>
 
-Чтобы включить иерархию списков доступа и параметры безопасности, перейдите **Учет затрат** > **Настройка** > **Параметры** > **Общие**. Выберите параметр **Включить доступ на просмотр по элементам аналитик объектов затрат**.
+<span data-ttu-id="5f5dd-455">Чтобы включить иерархию списков доступа и параметры безопасности, перейдите **Учет затрат** > **Настройка** > **Параметры** > **Общие**.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-455">To enable the access list hierarchy and its security settings, go to **Cost accounting** > **Setup** > **Parameters** > **General**.</span></span> <span data-ttu-id="5f5dd-456">Выберите параметр **Включить доступ на просмотр по элементам аналитик объектов затрат**.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-456">Select the **Enable view access for cost object dimension members** parameter.</span></span>
 
-Настройки иерархии списков доступа используются для управления данными, которые отображаются в следующих областях:
+<span data-ttu-id="5f5dd-457">Настройки иерархии списков доступа используются для управления данными, которые отображаются в следующих областях:</span><span class="sxs-lookup"><span data-stu-id="5f5dd-457">The settings for the access list hierarchy are used to control the data that is shown in the following areas:</span></span>
 
-- Рабочая область **Управление затратами** (клиент):
+- <span data-ttu-id="5f5dd-458">Рабочая область **Управление затратами** (клиент):</span><span class="sxs-lookup"><span data-stu-id="5f5dd-458">**Cost control** workspace (Client):</span></span>
 
-    - Данные в формах, которые используются для детализации сценариев
+    - <span data-ttu-id="5f5dd-459">Данные в формах, которые используются для детализации сценариев</span><span class="sxs-lookup"><span data-stu-id="5f5dd-459">Data in forms that are used to drill through scenarios</span></span>
 
-- Рабочая область **Управление затратами** (мобильное приложение)
+- <span data-ttu-id="5f5dd-460">Рабочая область **Управление затратами** (мобильное приложение)</span><span class="sxs-lookup"><span data-stu-id="5f5dd-460">**Cost control** workspace (Mobile application):</span></span>
 
-    - Сальдо в карточках
+    - <span data-ttu-id="5f5dd-461">Сальдо в карточках</span><span class="sxs-lookup"><span data-stu-id="5f5dd-461">Balances in cards</span></span>
 
-- Power BI:
+- <span data-ttu-id="5f5dd-462">Power BI:</span><span class="sxs-lookup"><span data-stu-id="5f5dd-462">Power BI:</span></span>
 
-    - Данные, показанные в визуализации Power BI
-    - Визуализация данных Power BI, которые встроены в Microsoft Dynamics 365 для Finance and Operations, Enterprise Edition, клиент
+    - <span data-ttu-id="5f5dd-463">Данные, показанные в визуализации Power BI</span><span class="sxs-lookup"><span data-stu-id="5f5dd-463">Data that is shown in Power BI visualizations</span></span>
+    - <span data-ttu-id="5f5dd-464">Визуализация данных Power BI, которые встроены в Microsoft Dynamics 365 для Finance and Operations, Enterprise Edition, клиент</span><span class="sxs-lookup"><span data-stu-id="5f5dd-464">Data Power BI visualizations that are embedded in the Microsoft Dynamics 365 for Finance and Operations, Enterprise edition client</span></span>
 
 > [!NOTE] 
-> - Прежде чем иерархия списков доступа может повлиять на данные в Power BI, необходимо подсоединить иерархию списка доступа и безопасность на уровне строк в Power BI. Дополнительные сведения см. в разделе [Настройка защиты пакета содержимого учета затрат](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
-> - Иерархия списков доступа не позволяет защитить экспорт данных в Excel. Таким образом, средства отчетности должны использоваться только бухгалтерами и менеджерами, которые должны иметь полный доступ для просмотра данных.
+> - <span data-ttu-id="5f5dd-465">Прежде чем иерархия списков доступа может повлиять на данные в Power BI, необходимо подсоединить иерархию списка доступа и безопасность на уровне строк в Power BI.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-465">Before the access list hierarchy can affect data in Power BI, access list hierarchy and row-level security in Power BI must be paired.</span></span> <span data-ttu-id="5f5dd-466">Дополнительные сведения см. в разделе [Настройка защиты пакета содержимого учета затрат](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span><span class="sxs-lookup"><span data-stu-id="5f5dd-466">For more information, see [Set up security for Cost accounting content pack](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span></span>
+> - <span data-ttu-id="5f5dd-467">Иерархия списков доступа не позволяет защитить экспорт данных в Excel.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-467">The access list hierarchy doesn't help secure the export of data to Excel.</span></span> <span data-ttu-id="5f5dd-468">Таким образом, средства отчетности должны использоваться только бухгалтерами и менеджерами, которые должны иметь полный доступ для просмотра данных.</span><span class="sxs-lookup"><span data-stu-id="5f5dd-468">Therefore, that reporting tool should be used only by cost accountants and managers who must have full access to view the data.</span></span>
 

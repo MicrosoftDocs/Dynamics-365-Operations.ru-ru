@@ -16,63 +16,63 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 93bd832b4bbb91e6bd0288042098383eb5f4488d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1e4a0204d74c8966cd90b52ae13c88e222ebc3ef
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Создание заказа на покупку с графиком поставки
+# <a name="create-a-purchase-order-with-a-delivery-schedule"></a><span data-ttu-id="051bb-103">Создание заказа на покупку с графиком поставки</span><span class="sxs-lookup"><span data-stu-id="051bb-103">Create a purchase order with a delivery schedule</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-В этой процедуре показано, как создать график поставки для заказа на покупку. График поставки используется, когда количество в заказе или журнале должно быть поставлено в нескольких отгрузках. Пример, представленный в этом руководстве, можно использовать в компании с демонстрационными данными USMF. Обычно эту процедуру выполняет специалист по закупке.
+<span data-ttu-id="051bb-104">В этой процедуре показано, как создать график поставки для заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="051bb-104">This procedure demonstrates how to create a delivery schedule for a purchase order.</span></span> <span data-ttu-id="051bb-105">График поставки используется, когда количество в заказе или журнале должно быть поставлено в нескольких отгрузках.</span><span class="sxs-lookup"><span data-stu-id="051bb-105">A delivery schedule is used when a quantity on an order or a journal is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="051bb-106">Пример, представленный в этом руководстве, можно использовать в компании с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="051bb-106">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="051bb-107">Обычно эту процедуру выполняет специалист по закупке.</span><span class="sxs-lookup"><span data-stu-id="051bb-107">This procedure would typically be done by a purchasing agent.</span></span>
 
 
-## <a name="create-a-delivery-schedule"></a>Создание графика поставки
-1. Перейдите в раздел "Закупки и источники" > "Заказы на покупку" > "Все заказы на покупку".
-2. Щелкните "Создать".
-3. В поле "Счет поставщика" введите "US-101".
-4. Нажмите кнопку "OК".
-5. В поле "Код номенклатуры" введите "M0001".
-6. В поле "Количество" введите 10.
-7. Щелкните "Строка заказа на покупку".
-8. Щелкните "График поставки".
-    * На странице "График поставки" можно указать число отгрузок, необходимых для того, чтобы поставить общее количество строки заказа от поставщика.  
-    * По умолчанию система копирует общее количество и другие сведения поставки из первоначальной строки покупки в первую строку графика поставки. В этом примере создадим график с двумя отгрузками, при этом дата второй отгрузки будет на неделю отстоять от даты первой отгрузки.  
-9. В поле "Количество" измените количество на 4.
-10. Щелкните "Создать".
-11. В поле "Количество" введите 6 как оставшееся количество.
-    * В поле даты поставки выберите дату, отстоящую на одну неделю от даты в первой строке поставки.  
-    * Можно отследить общее количество, распределенное по строкам графика поставки, просмотрев поля "Итого" и "Остаток". Если оставшееся количество равно нулю, это значит, что все количество из исходной строки распределено в график.  
-12. Разверните раздел "Преобразование накладных расходов".
-    * Эти параметры позволяют контролировать способ распределения накладных расходов между строками графика поставки. Если выбрать параметр "Копировать валовые суммы", сумма накладных расходов в исходной строке заказа будет скопирована в каждую строку поставки. Параметр "Назначить строкам поставки" разделяет исходные накладные расходы по строке в соответствии с количеством в каждой строке поставки.  
-13. Сверните раздел "Преобразование накладных расходов".
-14. Нажмите кнопку "OК".
-    * График поставки применен к заказу.  
-    * Исходная строка заказа, которая теперь называется коммерческой строкой, преобразована в строку заказа с несколькими поставками. Она отмечена отдельным значком и выступает в качестве заголовка для строк поставки.  
-15. Выберите вторую строку заказа, которая является первой из двух строк поставки.
-    * Две новые строки, которые называются строками поставки, составляют один график поставки. Заказ будет обработан на основании этих строк, а не исходной строки. При печати документов, таких как подтверждения, журналы поступлений продуктов или накладные, отображаются только строки поставки.  
+## <a name="create-a-delivery-schedule"></a><span data-ttu-id="051bb-108">Создание графика поставки</span><span class="sxs-lookup"><span data-stu-id="051bb-108">Create a delivery schedule</span></span>
+1. <span data-ttu-id="051bb-109">Перейдите в раздел "Закупки и источники" > "Заказы на покупку" > "Все заказы на покупку".</span><span class="sxs-lookup"><span data-stu-id="051bb-109">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="051bb-110">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="051bb-110">Click New.</span></span>
+3. <span data-ttu-id="051bb-111">В поле "Счет поставщика" введите "US-101".</span><span class="sxs-lookup"><span data-stu-id="051bb-111">In the Vendor account field, enter US-101.</span></span>
+4. <span data-ttu-id="051bb-112">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="051bb-112">Click OK.</span></span>
+5. <span data-ttu-id="051bb-113">В поле "Код номенклатуры" введите "M0001".</span><span class="sxs-lookup"><span data-stu-id="051bb-113">In the Item number field, enter M0001.</span></span>
+6. <span data-ttu-id="051bb-114">В поле "Количество" введите 10.</span><span class="sxs-lookup"><span data-stu-id="051bb-114">In the Quantity field, enter 10.</span></span>
+7. <span data-ttu-id="051bb-115">Щелкните "Строка заказа на покупку".</span><span class="sxs-lookup"><span data-stu-id="051bb-115">Click Purchase order line.</span></span>
+8. <span data-ttu-id="051bb-116">Щелкните "График поставки".</span><span class="sxs-lookup"><span data-stu-id="051bb-116">Click Delivery schedule.</span></span>
+    * <span data-ttu-id="051bb-117">На странице "График поставки" можно указать число отгрузок, необходимых для того, чтобы поставить общее количество строки заказа от поставщика.</span><span class="sxs-lookup"><span data-stu-id="051bb-117">The Delivery schedule page allows you to specify the number of shipments in which the total quantity of the order line will be delivered from the vendor.</span></span>  
+    * <span data-ttu-id="051bb-118">По умолчанию система копирует общее количество и другие сведения поставки из первоначальной строки покупки в первую строку графика поставки.</span><span class="sxs-lookup"><span data-stu-id="051bb-118">By default, the system copies the total quantity and other delivery details of the original purchase line into the first delivery schedule line.</span></span> <span data-ttu-id="051bb-119">В этом примере создадим график с двумя отгрузками, при этом дата второй отгрузки будет на неделю отстоять от даты первой отгрузки.</span><span class="sxs-lookup"><span data-stu-id="051bb-119">In this example, we’ll create a schedule for two shipments, with the second shipment’s date offset by a week from the first shipment.</span></span>  
+9. <span data-ttu-id="051bb-120">В поле "Количество" измените количество на 4.</span><span class="sxs-lookup"><span data-stu-id="051bb-120">In the Quantity field, change the quantity to 4.</span></span>
+10. <span data-ttu-id="051bb-121">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="051bb-121">Click New.</span></span>
+11. <span data-ttu-id="051bb-122">В поле "Количество" введите 6 как оставшееся количество.</span><span class="sxs-lookup"><span data-stu-id="051bb-122">In the Quantity field, enter 6 as the remaining quantity.</span></span>
+    * <span data-ttu-id="051bb-123">В поле даты поставки выберите дату, отстоящую на одну неделю от даты в первой строке поставки.</span><span class="sxs-lookup"><span data-stu-id="051bb-123">In the delivery date field, select a date that’s one week after the date on the first delivery line.</span></span>  
+    * <span data-ttu-id="051bb-124">Можно отследить общее количество, распределенное по строкам графика поставки, просмотрев поля "Итого" и "Остаток".</span><span class="sxs-lookup"><span data-stu-id="051bb-124">You can keep track of the total quantity that’s allocated to the delivery schedule lines by looking at the Total and Remaining fields.</span></span> <span data-ttu-id="051bb-125">Если оставшееся количество равно нулю, это значит, что все количество из исходной строки распределено в график.</span><span class="sxs-lookup"><span data-stu-id="051bb-125">When the remaining quantity is zero, the full quantity from the original line has been allocated to the schedule.</span></span>  
+12. <span data-ttu-id="051bb-126">Разверните раздел "Преобразование накладных расходов".</span><span class="sxs-lookup"><span data-stu-id="051bb-126">Expand the Charges conversion section.</span></span>
+    * <span data-ttu-id="051bb-127">Эти параметры позволяют контролировать способ распределения накладных расходов между строками графика поставки.</span><span class="sxs-lookup"><span data-stu-id="051bb-127">The options here allow you to control how you want charges to be distributed across the delivery schedule lines.</span></span> <span data-ttu-id="051bb-128">Если выбрать параметр "Копировать валовые суммы", сумма накладных расходов в исходной строке заказа будет скопирована в каждую строку поставки.</span><span class="sxs-lookup"><span data-stu-id="051bb-128">If you select Copy gross amounts, the charge amount on the original order line is copied to each delivery line.</span></span> <span data-ttu-id="051bb-129">Параметр "Назначить строкам поставки" разделяет исходные накладные расходы по строке в соответствии с количеством в каждой строке поставки.</span><span class="sxs-lookup"><span data-stu-id="051bb-129">The Allocate to delivery lines option divides the original line charge according to the quantity on each delivery line.</span></span>  
+13. <span data-ttu-id="051bb-130">Сверните раздел "Преобразование накладных расходов".</span><span class="sxs-lookup"><span data-stu-id="051bb-130">Collapse the Charges conversion section.</span></span>
+14. <span data-ttu-id="051bb-131">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="051bb-131">Click OK.</span></span>
+    * <span data-ttu-id="051bb-132">График поставки применен к заказу.</span><span class="sxs-lookup"><span data-stu-id="051bb-132">The delivery schedule has now been applied to the order.</span></span>  
+    * <span data-ttu-id="051bb-133">Исходная строка заказа, которая теперь называется коммерческой строкой, преобразована в строку заказа с несколькими поставками.</span><span class="sxs-lookup"><span data-stu-id="051bb-133">The original order line, now referred to as a Commercial line, has been converted to an Order line with multiple deliveries.</span></span> <span data-ttu-id="051bb-134">Она отмечена отдельным значком и выступает в качестве заголовка для строк поставки.</span><span class="sxs-lookup"><span data-stu-id="051bb-134">It is marked with a distinct icon and acts as a header for the delivery lines.</span></span>  
+15. <span data-ttu-id="051bb-135">Выберите вторую строку заказа, которая является первой из двух строк поставки.</span><span class="sxs-lookup"><span data-stu-id="051bb-135">Select the second order line, which is the first of the two delivery lines.</span></span>
+    * <span data-ttu-id="051bb-136">Две новые строки, которые называются строками поставки, составляют один график поставки.</span><span class="sxs-lookup"><span data-stu-id="051bb-136">The two new lines, referred to as Delivery lines, make up one delivery schedule.</span></span> <span data-ttu-id="051bb-137">Заказ будет обработан на основании этих строк, а не исходной строки.</span><span class="sxs-lookup"><span data-stu-id="051bb-137">The order will be processed against these lines and not the original line.</span></span> <span data-ttu-id="051bb-138">При печати документов, таких как подтверждения, журналы поступлений продуктов или накладные, отображаются только строки поставки.</span><span class="sxs-lookup"><span data-stu-id="051bb-138">If documents such as confirmations, product receipt journals, or invoices are printed, only the delivery lines are shown.</span></span>  
 
-## <a name="change-the-delivery-schedule"></a>Изменение графика поставки
-    * Можно изменить количество в строках поставки. В этом случае коммерческая строка будет автоматически обновлена для отображения общего количества строк поставки.  
-1. В поле "Количество" первой строки поставки измените количество с 4 на 5.
-2. Выберите первую строку заказа (коммерческую строку).
-    * Количество в коммерческой строке изменено на 11.  
+## <a name="change-the-delivery-schedule"></a><span data-ttu-id="051bb-139">Изменение графика поставки</span><span class="sxs-lookup"><span data-stu-id="051bb-139">Change the delivery schedule</span></span>
+    * <span data-ttu-id="051bb-140">Можно изменить количество в строках поставки.</span><span class="sxs-lookup"><span data-stu-id="051bb-140">You can change the quantity on delivery lines.</span></span> <span data-ttu-id="051bb-141">В этом случае коммерческая строка будет автоматически обновлена для отображения общего количества строк поставки.</span><span class="sxs-lookup"><span data-stu-id="051bb-141">If you do this, the commercial line is automatically updated to the total quantity in the delivery lines.</span></span>  
+1. <span data-ttu-id="051bb-142">В поле "Количество" первой строки поставки измените количество с 4 на 5.</span><span class="sxs-lookup"><span data-stu-id="051bb-142">In the Quantity field of the first delivery line, change the quantity from 4 to 5.</span></span>
+2. <span data-ttu-id="051bb-143">Выберите первую строку заказа (коммерческую строку).</span><span class="sxs-lookup"><span data-stu-id="051bb-143">Select the first order line (the commercial line).</span></span>
+    * <span data-ttu-id="051bb-144">Количество в коммерческой строке изменено на 11.</span><span class="sxs-lookup"><span data-stu-id="051bb-144">The quantity on the commercial line has been changed to 11.</span></span>  
 
-## <a name="process-product-receipt-using-delivery-schedules"></a>Обработка поступления продуктов с помощью графиков поставки
-    * Заказ на покупку необходимо подтвердить, прежде чем можно будет обработать поступление продуктов. В этом примере поступление обычно регистрируется непосредственно в заказе на покупку. Поступление также может быть зарегистрировано при прибытии товаров на склад.  
-1. В области действий щелкните "Покупка".
-2. Нажмите кнопку "Подтвердить".
-3. В области действий щелкните "Получение".
-4. Щелкните "Поступление продуктов".
-5. В поле "Поступление продуктов" введите любое значение.
-    * Это поле используется для ввода ссылки, которая будет использоваться как ваучер для журнала поступления продуктов.  
-    * В поле "Количество" выберите "Заказанное количество". Этот параметр означает, что поступление будет обрабатываться для количества, с которым были созданы строки заказа.  
-    * Убедитесь, что в поле "Печать поступления продуктов" задано значение "Нет". Печать не требуется в этом примере.  
-6. Разверните раздел "Строки".
-    * Обратите внимание, что поступление продуктов создается для двух строк поставки, а не исходной строки заказа. Если бы поступление было зарегистрировано на складе, оно также было бы зарегистрировано в строках графика поставки.  
-7. Сверните раздел "Строки".
-8. Нажмите кнопку ОК, чтобы разнести поступление.
+## <a name="process-product-receipt-using-delivery-schedules"></a><span data-ttu-id="051bb-145">Обработка поступления продуктов с помощью графиков поставки</span><span class="sxs-lookup"><span data-stu-id="051bb-145">Process product receipt using delivery schedules</span></span>
+    * <span data-ttu-id="051bb-146">Заказ на покупку необходимо подтвердить, прежде чем можно будет обработать поступление продуктов.</span><span class="sxs-lookup"><span data-stu-id="051bb-146">The purchase order must be confirmed before product receipt can be processed.</span></span> <span data-ttu-id="051bb-147">В этом примере поступление обычно регистрируется непосредственно в заказе на покупку.</span><span class="sxs-lookup"><span data-stu-id="051bb-147">In this example, receipt is recorded directly on the purchase order.</span></span> <span data-ttu-id="051bb-148">Поступление также может быть зарегистрировано при прибытии товаров на склад.</span><span class="sxs-lookup"><span data-stu-id="051bb-148">Receipt could also have been recorded when the goods arrived in the warehouse.</span></span>  
+1. <span data-ttu-id="051bb-149">В области действий щелкните "Покупка".</span><span class="sxs-lookup"><span data-stu-id="051bb-149">On the Action Pane, click Purchase.</span></span>
+2. <span data-ttu-id="051bb-150">Нажмите кнопку "Подтвердить".</span><span class="sxs-lookup"><span data-stu-id="051bb-150">Click Confirm.</span></span>
+3. <span data-ttu-id="051bb-151">В области действий щелкните "Получение".</span><span class="sxs-lookup"><span data-stu-id="051bb-151">On the Action Pane, click Receive.</span></span>
+4. <span data-ttu-id="051bb-152">Щелкните "Поступление продуктов".</span><span class="sxs-lookup"><span data-stu-id="051bb-152">Click Product receipt.</span></span>
+5. <span data-ttu-id="051bb-153">В поле "Поступление продуктов" введите любое значение.</span><span class="sxs-lookup"><span data-stu-id="051bb-153">In the Product receipt field, type any value.</span></span>
+    * <span data-ttu-id="051bb-154">Это поле используется для ввода ссылки, которая будет использоваться как ваучер для журнала поступления продуктов.</span><span class="sxs-lookup"><span data-stu-id="051bb-154">This field is used to enter a reference that will be used as voucher for the product receipt journal.</span></span>  
+    * <span data-ttu-id="051bb-155">В поле "Количество" выберите "Заказанное количество".</span><span class="sxs-lookup"><span data-stu-id="051bb-155">In the Quantity field, select ‘Ordered quantity’.</span></span> <span data-ttu-id="051bb-156">Этот параметр означает, что поступление будет обрабатываться для количества, с которым были созданы строки заказа.</span><span class="sxs-lookup"><span data-stu-id="051bb-156">This option means that receipt will process for the quantity that the order lines were created with.</span></span>  
+    * <span data-ttu-id="051bb-157">Убедитесь, что в поле "Печать поступления продуктов" задано значение "Нет".</span><span class="sxs-lookup"><span data-stu-id="051bb-157">Make sure that the Print product receipt field is set to No.</span></span> <span data-ttu-id="051bb-158">Печать не требуется в этом примере.</span><span class="sxs-lookup"><span data-stu-id="051bb-158">Printing isn’t needed in this example.</span></span>  
+6. <span data-ttu-id="051bb-159">Разверните раздел "Строки".</span><span class="sxs-lookup"><span data-stu-id="051bb-159">Expand the Lines section.</span></span>
+    * <span data-ttu-id="051bb-160">Обратите внимание, что поступление продуктов создается для двух строк поставки, а не исходной строки заказа.</span><span class="sxs-lookup"><span data-stu-id="051bb-160">Notice how the product receipt is created for the two delivery lines and not the original order line.</span></span> <span data-ttu-id="051bb-161">Если бы поступление было зарегистрировано на складе, оно также было бы зарегистрировано в строках графика поставки.</span><span class="sxs-lookup"><span data-stu-id="051bb-161">If receipt had been recorded in the warehouse, it would also have been recorded on the delivery schedule lines.</span></span>  
+7. <span data-ttu-id="051bb-162">Сверните раздел "Строки".</span><span class="sxs-lookup"><span data-stu-id="051bb-162">Collapse the Lines section.</span></span>
+8. <span data-ttu-id="051bb-163">Нажмите кнопку ОК, чтобы разнести поступление.</span><span class="sxs-lookup"><span data-stu-id="051bb-163">Click OK to post the receipt.</span></span>
 
 

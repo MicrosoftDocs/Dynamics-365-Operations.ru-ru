@@ -15,24 +15,24 @@ ms.custom: 20671
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fe644d5e8f76da95d2738a5fa76eebfe47066fb7
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 066106db04ad34db1d0a07a41d57e167252d6459
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
-# <a name="accounts-receivable-home-page"></a>Домашняя страница расчетов с клиентами
+# <a name="accounts-receivable-home-page"></a><span data-ttu-id="31a02-103">Домашняя страница расчетов с клиентами</span><span class="sxs-lookup"><span data-stu-id="31a02-103">Accounts receivable home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Расчеты с клиентами используются для отслеживания накладных и входящих платежей клиентов. 
+<span data-ttu-id="31a02-104">Расчеты с клиентами используются для отслеживания накладных и входящих платежей клиентов.</span><span class="sxs-lookup"><span data-stu-id="31a02-104">Use Accounts receivable to track customer invoices and incoming payments.</span></span> 
 
-Вы можете создавать накладные клиентов, основанные на заказах на продажу или на отборочных накладных. Вы также можете вводить накладные с произвольным текстом, которые не связаны с заказами на продажу. Для получения платежей можно использовать один из нескольких типов платежей. К ним относятся переводные векселя, наличные деньги, чеки, кредитные карты и электронные платежи. Если в организации имеется несколько юридические лиц, для записи платежей в одном юридическом лице от имени других юридических лиц можно использовать централизованные платежи.
+<span data-ttu-id="31a02-105">Вы можете создавать накладные клиентов, основанные на заказах на продажу или на отборочных накладных.</span><span class="sxs-lookup"><span data-stu-id="31a02-105">You can create customer invoices that are based on sales orders or packing slips.</span></span> <span data-ttu-id="31a02-106">Вы также можете вводить накладные с произвольным текстом, которые не связаны с заказами на продажу.</span><span class="sxs-lookup"><span data-stu-id="31a02-106">You can also enter free text invoices that are not related to sales orders.</span></span> <span data-ttu-id="31a02-107">Для получения платежей можно использовать один из нескольких типов платежей.</span><span class="sxs-lookup"><span data-stu-id="31a02-107">You can receive payments by using several different payment types.</span></span> <span data-ttu-id="31a02-108">К ним относятся переводные векселя, наличные деньги, чеки, кредитные карты и электронные платежи.</span><span class="sxs-lookup"><span data-stu-id="31a02-108">These include bills of exchange, cash, checks, credit cards, and electronic payments.</span></span> <span data-ttu-id="31a02-109">Если в организации имеется несколько юридические лиц, для записи платежей в одном юридическом лице от имени других юридических лиц можно использовать централизованные платежи.</span><span class="sxs-lookup"><span data-stu-id="31a02-109">If your organization includes multiple legal entities, you can use centralized payments to record payments in a single legal entity on behalf of the other legal entities.</span></span>
 
 
 

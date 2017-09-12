@@ -18,637 +18,637 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84ee9110fa32a551133a6ab4b7c6feb9ea9c017a
-ms.openlocfilehash: 0b4d5285cc1aa44da566ec5d7fa7ebe568729fdf
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 04f47b838bb5ca0d22f36855c3a969d4c38430de
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="finance-and-operations-glossary"></a>Глоссарий Finance and Operations
+# <a name="finance-and-operations-glossary"></a><span data-ttu-id="6ae69-103">Глоссарий Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="6ae69-103">Finance and Operations glossary</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-В этом глоссарии определены термины и понятия, относящиеся к Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise. 
+<span data-ttu-id="6ae69-104">В этом глоссарии определены термины и понятия, относящиеся к Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise.</span><span class="sxs-lookup"><span data-stu-id="6ae69-104">This glossary defines key terms and concepts in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-### <a name="a"></a>**А**
+### <a name="a"></a><span data-ttu-id="6ae69-105">**А**</span><span class="sxs-lookup"><span data-stu-id="6ae69-105">**A**</span></span>
 
-###### <a name="accounting-journal"></a>**журнал учета**
+###### <a name="accounting-journal"></a><span data-ttu-id="6ae69-106">**журнал учета**</span><span class="sxs-lookup"><span data-stu-id="6ae69-106">**accounting journal**</span></span>
 
-Журнал, используемый для записи финансовых последствий учетных событий в системе учета.
+<span data-ttu-id="6ae69-107">Журнал, используемый для записи финансовых последствий учетных событий в системе учета.</span><span class="sxs-lookup"><span data-stu-id="6ae69-107">A journal that is used to record the financial consequences of accounting events in an accounting system.</span></span>
 
-###### <a name="accounting-rule"></a>**правило учета**
+###### <a name="accounting-rule"></a><span data-ttu-id="6ae69-108">**правило учета**</span><span class="sxs-lookup"><span data-stu-id="6ae69-108">**accounting rule**</span></span>
 
-Правило в системе учета, контролирующее принципы, методы и процедуры классификации, регистрации и отражения в отчетах финансовых последствий учетных событий.
+<span data-ttu-id="6ae69-109">Правило в системе учета, контролирующее принципы, методы и процедуры классификации, регистрации и отражения в отчетах финансовых последствий учетных событий.</span><span class="sxs-lookup"><span data-stu-id="6ae69-109">A rule in an accounting system that controls the principles, methods, and procedures for classifying, recording, and reporting the financial consequences of accounting events.</span></span>
 
-###### <a name="ach-automated-clearing-house"></a>**система ACH**
+###### <a name="ach-automated-clearing-house"></a><span data-ttu-id="6ae69-110">**система ACH**</span><span class="sxs-lookup"><span data-stu-id="6ae69-110">**ACH (Automated Clearing House)**</span></span>
 
-Доступная в США система электронных платежей, облегчающая передачу фондов между банковскими счетами получающего субъекта и инициирующим платеж субъектом.
+<span data-ttu-id="6ae69-111">Доступная в США система электронных платежей, облегчающая передачу фондов между банковскими счетами получающего субъекта и инициирующим платеж субъектом.</span><span class="sxs-lookup"><span data-stu-id="6ae69-111">An electronic funds transfer system available in the United States that facilitates the transfer of funds between receiving party and originating party bank accounts.</span></span>
 
-###### <a name="actual-quantity"></a>**фактическое количество**
+###### <a name="actual-quantity"></a><span data-ttu-id="6ae69-112">**фактическое количество**</span><span class="sxs-lookup"><span data-stu-id="6ae69-112">**actual quantity**</span></span>
 
-Измеренное количество, которое поступает на вход или получается на выходе мероприятия.
+<span data-ttu-id="6ae69-113">Измеренное количество, которое поступает на вход или получается на выходе мероприятия.</span><span class="sxs-lookup"><span data-stu-id="6ae69-113">The measured quantity that is input into or output from an activity.</span></span>
 
-###### <a name="address-verification"></a>**проверка адреса**
+###### <a name="address-verification"></a><span data-ttu-id="6ae69-114">**проверка адреса**</span><span class="sxs-lookup"><span data-stu-id="6ae69-114">**address verification**</span></span>
 
-Служба, предоставляемая обработчиком кредитных карт, которая проверяет соответствие адреса выставления счета, предоставляемого владельцем карты, информации в файле в банке, инициирующем операцию.
+<span data-ttu-id="6ae69-115">Служба, предоставляемая обработчиком кредитных карт, которая проверяет соответствие адреса выставления счета, предоставляемого владельцем карты, информации в файле в банке, инициирующем операцию.</span><span class="sxs-lookup"><span data-stu-id="6ae69-115">The service that is provided by a credit card processor that validates that the billing address provided by a card holder matches the information on file with the issuing bank.</span></span>
 
-###### <a name="aging"></a>**распределение по срокам**
+###### <a name="aging"></a><span data-ttu-id="6ae69-116">**распределение по срокам**</span><span class="sxs-lookup"><span data-stu-id="6ae69-116">**aging**</span></span>
 
-Процесс классификации периодов времени по сроку.
+<span data-ttu-id="6ae69-117">Процесс классификации периодов времени по сроку.</span><span class="sxs-lookup"><span data-stu-id="6ae69-117">The process of classifying time periods by age.</span></span>
 
-###### <a name="aging-period"></a>**период распределения по срокам**
+###### <a name="aging-period"></a><span data-ttu-id="6ae69-118">**период распределения по срокам**</span><span class="sxs-lookup"><span data-stu-id="6ae69-118">**aging period**</span></span>
 
-Количество дней в периоде времени, используемом для сообщения о сальдо просроченных платежей клиента.
+<span data-ttu-id="6ae69-119">Количество дней в периоде времени, используемом для сообщения о сальдо просроченных платежей клиента.</span><span class="sxs-lookup"><span data-stu-id="6ae69-119">The number of days in a time period used to report an overdue customer payment balance.</span></span>
 
-### <a name="b"></a>**B**
+### <a name="b"></a><span data-ttu-id="6ae69-120">**B**</span><span class="sxs-lookup"><span data-stu-id="6ae69-120">**B**</span></span>
 
-###### <a name="balance-sheet"></a>**балансовый отчет**
+###### <a name="balance-sheet"></a><span data-ttu-id="6ae69-121">**балансовый отчет**</span><span class="sxs-lookup"><span data-stu-id="6ae69-121">**balance sheet**</span></span>
 
-Отчет о финансовом положении организации, в котором сообщается о состоянии основных средств, обязательств и собственного капитала на указанную дату.
+<span data-ttu-id="6ae69-122">Отчет о финансовом положении организации, в котором сообщается о состоянии основных средств, обязательств и собственного капитала на указанную дату.</span><span class="sxs-lookup"><span data-stu-id="6ae69-122">A statement of the financial position of an organization that reports the state of assets, liabilities, and equity on a specified date.</span></span>
 
-###### <a name="balance-sheet-account"></a>**балансовый счет**
+###### <a name="balance-sheet-account"></a><span data-ttu-id="6ae69-123">**балансовый счет**</span><span class="sxs-lookup"><span data-stu-id="6ae69-123">**balance sheet account**</span></span>
 
-Счет, описывающий изменения в стоимости, о которой сообщается в балансовом отчете.
+<span data-ttu-id="6ae69-124">Счет, описывающий изменения в стоимости, о которой сообщается в балансовом отчете.</span><span class="sxs-lookup"><span data-stu-id="6ae69-124">An account that describes the changes in value reported on a balance sheet.</span></span>
 
-###### <a name="bank-reconciliation"></a>**банковская выверка**
+###### <a name="bank-reconciliation"></a><span data-ttu-id="6ae69-125">**банковская выверка**</span><span class="sxs-lookup"><span data-stu-id="6ae69-125">**bank reconciliation**</span></span>
 
-Методика выверки счета ГК, представляющая банковский счет путем сравнения записей по счету ГК с записями банковской выписки.
+<span data-ttu-id="6ae69-126">Методика выверки счета ГК, представляющая банковский счет путем сравнения записей по счету ГК с записями банковской выписки.</span><span class="sxs-lookup"><span data-stu-id="6ae69-126">A practice of reconciling a ledger account that represents a bank account by matching ledger account entries to bank statement entries.</span></span>
 
-###### <a name="batch-attribute"></a>**атрибут партии**
+###### <a name="batch-attribute"></a><span data-ttu-id="6ae69-127">**атрибут партии**</span><span class="sxs-lookup"><span data-stu-id="6ae69-127">**batch attribute**</span></span>
 
-Атрибут продукта в производственной партии или транспортной партии.
+<span data-ttu-id="6ae69-128">Атрибут продукта в производственной партии или транспортной партии.</span><span class="sxs-lookup"><span data-stu-id="6ae69-128">A product attribute of a process batch or a transfer batch.</span></span>
 
-###### <a name="best-before-date"></a>**дата истечения срока годности**
+###### <a name="best-before-date"></a><span data-ttu-id="6ae69-129">**дата истечения срока годности**</span><span class="sxs-lookup"><span data-stu-id="6ae69-129">**best-before date**</span></span>
 
-Рекомендуемая дата, до наступления которой продукт обладает оптимальным качеством или характеристиками продукта.
+<span data-ttu-id="6ae69-130">Рекомендуемая дата, до наступления которой продукт обладает оптимальным качеством или характеристиками продукта.</span><span class="sxs-lookup"><span data-stu-id="6ae69-130">A recommended date for obtaining the optimum quality or characteristic of a product.</span></span>
 
-###### <a name="best-before-period"></a>**срок годности**
+###### <a name="best-before-period"></a><span data-ttu-id="6ae69-131">**срок годности**</span><span class="sxs-lookup"><span data-stu-id="6ae69-131">**best-before period**</span></span>
 
-Период времени, в течение которого продукт обладает оптимальным качеством или наилучшими возможными характеристиками.
+<span data-ttu-id="6ae69-132">Период времени, в течение которого продукт обладает оптимальным качеством или наилучшими возможными характеристиками.</span><span class="sxs-lookup"><span data-stu-id="6ae69-132">The time period in which to obtain the optimum quality or characteristic of a product.</span></span>
 
-###### <a name="bill-of-exchange"></a>**переводный вексель**
+###### <a name="bill-of-exchange"></a><span data-ttu-id="6ae69-133">**переводный вексель**</span><span class="sxs-lookup"><span data-stu-id="6ae69-133">**bill of exchange**</span></span>
 
-Документ-источник, в котором документально оформлен безусловный запрос к третьей стороне на платеж второй стороне по ее требованию.
+<span data-ttu-id="6ae69-134">Документ-источник, в котором документально оформлен безусловный запрос к третьей стороне на платеж второй стороне по ее требованию.</span><span class="sxs-lookup"><span data-stu-id="6ae69-134">A source document that documents an unconditional request for a third-party to pay a second party on demand.</span></span>
 
-###### <a name="blocking"></a>**блокировка**
+###### <a name="blocking"></a><span data-ttu-id="6ae69-135">**блокировка**</span><span class="sxs-lookup"><span data-stu-id="6ae69-135">**blocking**</span></span>
 
-Действие по блокировке документа или продукта.
+<span data-ttu-id="6ae69-136">Действие по блокировке документа или продукта.</span><span class="sxs-lookup"><span data-stu-id="6ae69-136">The action of placing a document or product on hold.</span></span>
 
-###### <a name="bom-bill-of-materials"></a>**спецификация**
+###### <a name="bom-bill-of-materials"></a><span data-ttu-id="6ae69-137">**спецификация**</span><span class="sxs-lookup"><span data-stu-id="6ae69-137">**BOM (bill of materials)**</span></span>
 
-Список продуктов и их количеств, необходимых для производства одного продукта.
-###### <a name="budget-control"></a>**бюджетный контроль**
+<span data-ttu-id="6ae69-138">Список продуктов и их количеств, необходимых для производства одного продукта.</span><span class="sxs-lookup"><span data-stu-id="6ae69-138">A list of products and their quantities that are required to produce one product.</span></span>
+###### <a name="budget-control"></a><span data-ttu-id="6ae69-139">**бюджетный контроль**</span><span class="sxs-lookup"><span data-stu-id="6ae69-139">**budget control**</span></span>
 
-Методика разрешения расходов только тогда, когда могут быть зарезервированы бюджетные средства для выполнения обязательств по будущим платежам.
+<span data-ttu-id="6ae69-140">Методика разрешения расходов только тогда, когда могут быть зарезервированы бюджетные средства для выполнения обязательств по будущим платежам.</span><span class="sxs-lookup"><span data-stu-id="6ae69-140">A practice of authorizing expenditure only when budget funds can be reserved to meet future payment commitments.</span></span>
 
-###### <a name="budget-control-dimension"></a>**аналитика бюджетного контроля**
+###### <a name="budget-control-dimension"></a><span data-ttu-id="6ae69-141">**аналитика бюджетного контроля**</span><span class="sxs-lookup"><span data-stu-id="6ae69-141">**budget control dimension**</span></span>
 
-Комбинация значений активных финансовых аналитик, используемая в целях распределения бюджетных средств для оплаты запланированных мероприятий.
+<span data-ttu-id="6ae69-142">Комбинация значений активных финансовых аналитик, используемая в целях распределения бюджетных средств для оплаты запланированных мероприятий.</span><span class="sxs-lookup"><span data-stu-id="6ae69-142">A combination of active financial dimensions values used to allocate budget funds to pay for planned activities.</span></span>
 
-###### <a name="budget-control-rule"></a>**правило бюджетного контроля**
+###### <a name="budget-control-rule"></a><span data-ttu-id="6ae69-143">**правило бюджетного контроля**</span><span class="sxs-lookup"><span data-stu-id="6ae69-143">**budget control rule**</span></span>
 
-Кодирование бизнес-решения для проверки зафиксированных и фактических расходов относительно доступных бюджетных средств, выделенных для детализированных или совокупных мероприятий, которые определяются действующими комбинациями значений аналитик бюджетного контроля.
+<span data-ttu-id="6ae69-144">Кодирование бизнес-решения для проверки зафиксированных и фактических расходов относительно доступных бюджетных средств, выделенных для детализированных или совокупных мероприятий, которые определяются действующими комбинациями значений аналитик бюджетного контроля.</span><span class="sxs-lookup"><span data-stu-id="6ae69-144">The encoding of a business decision to check committed and actual expenditure against available budget funds allocated for detailed or aggregate activities defined by valid budget control dimension value combinations.</span></span>
 
-###### <a name="budget-cycle-time-span"></a>**период бюджетного цикла**
+###### <a name="budget-cycle-time-span"></a><span data-ttu-id="6ae69-145">**период бюджетного цикла**</span><span class="sxs-lookup"><span data-stu-id="6ae69-145">**budget cycle time span**</span></span>
 
-Период времени, задаваемый как число периодов финансового календаря. Бюджетный период может отличаться от отчетного периода.
+<span data-ttu-id="6ae69-146">Период времени, задаваемый как число периодов финансового календаря.</span><span class="sxs-lookup"><span data-stu-id="6ae69-146">A time period specified as a number of fiscal calendar periods.</span></span> <span data-ttu-id="6ae69-147">Бюджетный период может отличаться от отчетного периода.</span><span class="sxs-lookup"><span data-stu-id="6ae69-147">The budget period can be different from the accounting period.</span></span>
 
-###### <a name="budget-group"></a>**бюджетная группа**
+###### <a name="budget-group"></a><span data-ttu-id="6ae69-148">**бюджетная группа**</span><span class="sxs-lookup"><span data-stu-id="6ae69-148">**budget group**</span></span>
 
-Набор значений финансовых аналитик в иерархии бюджетных аналитик, который используется для расчета совокупных бюджетных средств, распределяемых по значениям главных финансовых аналитик, путем суммирования бюджетных средств, распределяемых по значениям подчиненных финансовых аналитик.
+<span data-ttu-id="6ae69-149">Набор значений финансовых аналитик в иерархии бюджетных аналитик, который используется для расчета совокупных бюджетных средств, распределяемых по значениям главных финансовых аналитик, путем суммирования бюджетных средств, распределяемых по значениям подчиненных финансовых аналитик.</span><span class="sxs-lookup"><span data-stu-id="6ae69-149">A set of financial dimension values in a budget dimension hierarchy that is used to calculate aggregate budget funds allocated to superordinate financial dimension values by summing budget funds allocated to subordinate financial dimension values.</span></span>
 
-###### <a name="budget-model"></a>**бюджетная модель**
+###### <a name="budget-model"></a><span data-ttu-id="6ae69-150">**бюджетная модель**</span><span class="sxs-lookup"><span data-stu-id="6ae69-150">**budget model**</span></span>
 
-Структура планирования, используемая для планирования распределений бюджетных средств и расходов.
+<span data-ttu-id="6ae69-151">Структура планирования, используемая для планирования распределений бюджетных средств и расходов.</span><span class="sxs-lookup"><span data-stu-id="6ae69-151">A planning structure used to schedule budget fund allocations and expenditures.</span></span>
 
-###### <a name="bulk-item"></a>**нефасованная номенклатура**
+###### <a name="bulk-item"></a><span data-ttu-id="6ae69-152">**нефасованная номенклатура**</span><span class="sxs-lookup"><span data-stu-id="6ae69-152">**bulk item**</span></span>
 
-Ввод номенклатуры-формулы в мероприятие по доставке продукта.
+<span data-ttu-id="6ae69-153">Ввод номенклатуры-формулы в мероприятие по доставке продукта.</span><span class="sxs-lookup"><span data-stu-id="6ae69-153">A formula item input into a product delivery activity.</span></span>
 
-###### <a name="bundle"></a>**набор**
+###### <a name="bundle"></a><span data-ttu-id="6ae69-154">**набор**</span><span class="sxs-lookup"><span data-stu-id="6ae69-154">**bundle**</span></span>
 
-Объединение ряда продуктов для продажи как одной единицы.
+<span data-ttu-id="6ae69-155">Объединение ряда продуктов для продажи как одной единицы.</span><span class="sxs-lookup"><span data-stu-id="6ae69-155">The combination of a number of products for sale as one unit.</span></span>
 
-###### <a name="business-unit"></a>**бизнес-единица**
+###### <a name="business-unit"></a><span data-ttu-id="6ae69-156">**бизнес-единица**</span><span class="sxs-lookup"><span data-stu-id="6ae69-156">**business unit**</span></span>
 
-Полуавтономная операционная единица, которая создается для достижения стратегических бизнес-целей.
+<span data-ttu-id="6ae69-157">Полуавтономная операционная единица, которая создается для достижения стратегических бизнес-целей.</span><span class="sxs-lookup"><span data-stu-id="6ae69-157">A semi-autonomous operating unit that is created to meet strategic business objectives.</span></span>
 
-### <a name="c"></a>**C**
+### <a name="c"></a><span data-ttu-id="6ae69-158">**C**</span><span class="sxs-lookup"><span data-stu-id="6ae69-158">**C**</span></span>
 
-###### <a name="capacity-load"></a>**максимальная мощность**
+###### <a name="capacity-load"></a><span data-ttu-id="6ae69-159">**максимальная мощность**</span><span class="sxs-lookup"><span data-stu-id="6ae69-159">**capacity load**</span></span>
 
-Максимальный объем запланированной работы, который может выполнить рабочий центр при требуемом уровне мощности.
+<span data-ttu-id="6ae69-160">Максимальный объем запланированной работы, который может выполнить рабочий центр при требуемом уровне мощности.</span><span class="sxs-lookup"><span data-stu-id="6ae69-160">The maximum amount of scheduled work that a work center can perform at a required capacity level.</span></span>
 
-###### <a name="capacity-planning"></a>**планирование мощности**
+###### <a name="capacity-planning"></a><span data-ttu-id="6ae69-161">**планирование мощности**</span><span class="sxs-lookup"><span data-stu-id="6ae69-161">**capacity planning**</span></span>
 
-Процедура определения требований к мощности ресурса, которые позволят удовлетворить будущий спрос в выпуске продукции в течение конкретных периодов времени.
+<span data-ttu-id="6ae69-162">Процедура определения требований к мощности ресурса, которые позволят удовлетворить будущий спрос в выпуске продукции в течение конкретных периодов времени.</span><span class="sxs-lookup"><span data-stu-id="6ae69-162">A procedure for determining the resource capacity requirements that meet the demand of future output during specific time periods.</span></span>
 
-###### <a name="carry-forward-budget"></a>**перенесенный бюджет**
+###### <a name="carry-forward-budget"></a><span data-ttu-id="6ae69-163">**перенесенный бюджет**</span><span class="sxs-lookup"><span data-stu-id="6ae69-163">**carry-forward budget**</span></span>
 
-Бюджет, который перенесен из одного финансового года в следующий код и зарезервирован для открытых заказов на покупку в новом финансовом году.
+<span data-ttu-id="6ae69-164">Бюджет, который перенесен из одного финансового года в следующий код и зарезервирован для открытых заказов на покупку в новом финансовом году.</span><span class="sxs-lookup"><span data-stu-id="6ae69-164">The budget that is transferred from one fiscal year to the next and that is reserved for open purchase orders in the new fiscal year.</span></span>
 
-###### <a name="cash-generating-unit"></a>**единица, генерирующая денежные средства**
+###### <a name="cash-generating-unit"></a><span data-ttu-id="6ae69-165">**единица, генерирующая денежные средства**</span><span class="sxs-lookup"><span data-stu-id="6ae69-165">**cash-generating unit**</span></span>
 
-Наименьшая группа классифицируемых основных средств, которая генерирует денежные средства независимо от других основных средств в организации. Эти группы основных средств используются для измерения понесенных убытков от обесценения материальных ценностей.
+<span data-ttu-id="6ae69-166">Наименьшая группа классифицируемых основных средств, которая генерирует денежные средства независимо от других основных средств в организации.</span><span class="sxs-lookup"><span data-stu-id="6ae69-166">The smallest group of classifiable assets that generates cash independently of other assets within an organization.</span></span> <span data-ttu-id="6ae69-167">Эти группы основных средств используются для измерения понесенных убытков от обесценения материальных ценностей.</span><span class="sxs-lookup"><span data-stu-id="6ae69-167">These groups of assets are used to measure impairment losses that will be incurred.</span></span>
 
-###### <a name="catch-weight"></a>**учет в двух единицах измерения**
+###### <a name="catch-weight"></a><span data-ttu-id="6ae69-168">**учет в двух единицах измерения**</span><span class="sxs-lookup"><span data-stu-id="6ae69-168">**catch weight**</span></span>
 
-Фактический или номинальный вес номенклатуры продажи или складируемой номенклатуры.
+<span data-ttu-id="6ae69-169">Фактический или номинальный вес номенклатуры продажи или складируемой номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="6ae69-169">The actual or nominal weight of a sales item or inventory item.</span></span>
 
-###### <a name="chart-of-accounts"></a>**план счетов**
+###### <a name="chart-of-accounts"></a><span data-ttu-id="6ae69-170">**план счетов**</span><span class="sxs-lookup"><span data-stu-id="6ae69-170">**chart of accounts**</span></span>
 
-Список счетов ГК.
+<span data-ttu-id="6ae69-171">Список счетов ГК.</span><span class="sxs-lookup"><span data-stu-id="6ae69-171">A list of main accounts.</span></span>
 
-###### <a name="cogs-cost-of-goods-sold"></a>**себестоимость проданных товаров**
+###### <a name="cogs-cost-of-goods-sold"></a><span data-ttu-id="6ae69-172">**себестоимость проданных товаров**</span><span class="sxs-lookup"><span data-stu-id="6ae69-172">**COGS (cost of goods sold)**</span></span>
 
-Категория учета, используемая для суммирования финансовых последствий производства продуктов и транспортировки запасов.
+<span data-ttu-id="6ae69-173">Категория учета, используемая для суммирования финансовых последствий производства продуктов и транспортировки запасов.</span><span class="sxs-lookup"><span data-stu-id="6ae69-173">An accounting category used to sum the financial consequences of manufacturing products and carrying inventory.</span></span>
 
-###### <a name="contractor"></a>**подрядчик**
+###### <a name="contractor"></a><span data-ttu-id="6ae69-174">**подрядчик**</span><span class="sxs-lookup"><span data-stu-id="6ae69-174">**contractor**</span></span>
 
-Роль, принимаемая на себя субъектом, который участвует в отношении "подрядчик-работодатель" с юридическим лицом.
+<span data-ttu-id="6ae69-175">Роль, принимаемая на себя субъектом, который участвует в отношении "подрядчик-работодатель" с юридическим лицом.</span><span class="sxs-lookup"><span data-stu-id="6ae69-175">A role assumed by a person who participates in a contractor-employer relationship with a legal entity.</span></span>
 
-###### <a name="co-product"></a>**сопутствующий продукт**
+###### <a name="co-product"></a><span data-ttu-id="6ae69-176">**сопутствующий продукт**</span><span class="sxs-lookup"><span data-stu-id="6ae69-176">**co-product**</span></span>
 
-Номенклатура, производимая совместно с другой номенклатурой.
+<span data-ttu-id="6ae69-177">Номенклатура, производимая совместно с другой номенклатурой.</span><span class="sxs-lookup"><span data-stu-id="6ae69-177">An item produced jointly with another item.</span></span>
 
-###### <a name="cost-center"></a>**место возникновения затрат**
+###### <a name="cost-center"></a><span data-ttu-id="6ae69-178">**место возникновения затрат**</span><span class="sxs-lookup"><span data-stu-id="6ae69-178">**cost center**</span></span>
 
-Операционная единица, менеджеры которой отвечают за заложенные в бюджет и фактические расходы.
+<span data-ttu-id="6ae69-179">Операционная единица, менеджеры которой отвечают за заложенные в бюджет и фактические расходы.</span><span class="sxs-lookup"><span data-stu-id="6ae69-179">An operating unit whose managers are accountable for budgeted and actual expenditures.</span></span>
 
-###### <a name="cost-variance"></a>**отклонение стоимости**
+###### <a name="cost-variance"></a><span data-ttu-id="6ae69-180">**отклонение стоимости**</span><span class="sxs-lookup"><span data-stu-id="6ae69-180">**cost variance**</span></span>
 
-Разница между ожидаемыми и фактическими затратами.
+<span data-ttu-id="6ae69-181">Разница между ожидаемыми и фактическими затратами.</span><span class="sxs-lookup"><span data-stu-id="6ae69-181">The difference between an expected cost and an actual cost.</span></span>
 
-###### <a name="costing"></a>**учет затрат**
+###### <a name="costing"></a><span data-ttu-id="6ae69-182">**учет затрат**</span><span class="sxs-lookup"><span data-stu-id="6ae69-182">**costing**</span></span>
 
-Процесс расчета, назначения и распределения стоимости экономических ресурсов, приобретенных, произведенных или доставленных организацией.
+<span data-ttu-id="6ae69-183">Процесс расчета, назначения и распределения стоимости экономических ресурсов, приобретенных, произведенных или доставленных организацией.</span><span class="sxs-lookup"><span data-stu-id="6ae69-183">The process of calculating, assigning, and allocating the cost of economic resources acquired, produced, or delivered by an organization.</span></span>
 
-###### <a name="ctp-capable-to-promise"></a>**доступно для заказа с учетом производства (CTP)**
+###### <a name="ctp-capable-to-promise"></a><span data-ttu-id="6ae69-184">**доступно для заказа с учетом производства (CTP)**</span><span class="sxs-lookup"><span data-stu-id="6ae69-184">**CTP (capable-to-promise)**</span></span>
 
-Часть выпуска продукта из доступных операционных ресурсов и доступный поступивший продукт, которые необходимы для выполнения особого требования клиента.
+<span data-ttu-id="6ae69-185">Часть выпуска продукта из доступных операционных ресурсов и доступный поступивший продукт, которые необходимы для выполнения особого требования клиента.</span><span class="sxs-lookup"><span data-stu-id="6ae69-185">The portion of product output from available operations resources and available input product required to fulfill a specific customer requirement.</span></span>
 
-###### <a name="currency-code"></a>**код валюты**
+###### <a name="currency-code"></a><span data-ttu-id="6ae69-186">**код валюты**</span><span class="sxs-lookup"><span data-stu-id="6ae69-186">**currency code**</span></span>
 
-Буквенно-цифровой идентификатор, представляющий определенную валюту.
+<span data-ttu-id="6ae69-187">Буквенно-цифровой идентификатор, представляющий определенную валюту.</span><span class="sxs-lookup"><span data-stu-id="6ae69-187">An alphanumeric identifier that represents a currency unit.</span></span>
 
-###### <a name="cycle-time"></a>**время цикла**
+###### <a name="cycle-time"></a><span data-ttu-id="6ae69-188">**время цикла**</span><span class="sxs-lookup"><span data-stu-id="6ae69-188">**cycle time**</span></span>
 
-Время, затрачиваемое на выполнение мероприятия.
+<span data-ttu-id="6ae69-189">Время, затрачиваемое на выполнение мероприятия.</span><span class="sxs-lookup"><span data-stu-id="6ae69-189">The time taken to complete an activity.</span></span>
 
-### <a name="d"></a>**D**
+### <a name="d"></a><span data-ttu-id="6ae69-190">**D**</span><span class="sxs-lookup"><span data-stu-id="6ae69-190">**D**</span></span>
 
-###### <a name="dashboard"></a>**панель мониторинга**
+###### <a name="dashboard"></a><span data-ttu-id="6ae69-191">**панель мониторинга**</span><span class="sxs-lookup"><span data-stu-id="6ae69-191">**dashboard**</span></span>
 
-Типичная начальная страница в Finance and Operations. На панели мониторинга пользователи видят по разделу для каждой рабочей области, к которым они имеют доступ. В каждом разделе отображаются плитки из разделов сводки соответствующей рабочей области. Панель мониторинга состоит из имени и разделов с плитками.
+<span data-ttu-id="6ae69-192">Типичная начальная страница в Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="6ae69-192">The typical start page in Finance and Operations.</span></span> <span data-ttu-id="6ae69-193">На панели мониторинга пользователи видят по разделу для каждой рабочей области, к которым они имеют доступ.</span><span class="sxs-lookup"><span data-stu-id="6ae69-193">On the dashboard, users see a section for each workspace that they have access to.</span></span> <span data-ttu-id="6ae69-194">В каждом разделе отображаются плитки из разделов сводки соответствующей рабочей области.</span><span class="sxs-lookup"><span data-stu-id="6ae69-194">Each section displays the tiles from the summary sections in the related workspace.</span></span> <span data-ttu-id="6ae69-195">Панель мониторинга состоит из имени и разделов с плитками.</span><span class="sxs-lookup"><span data-stu-id="6ae69-195">The dashboard consists of a name and sections with tiles.</span></span>
 
-###### <a name="data-entity"></a>**информационный объект**
+###### <a name="data-entity"></a><span data-ttu-id="6ae69-196">**информационный объект**</span><span class="sxs-lookup"><span data-stu-id="6ae69-196">**data entity**</span></span>
 
-Информационная структура, представляющая информационную характеристику объекта.
+<span data-ttu-id="6ae69-197">Информационная структура, представляющая информационную характеристику объекта.</span><span class="sxs-lookup"><span data-stu-id="6ae69-197">An information structure that represents the data characteristic of an entity.</span></span>
 
-###### <a name="delegate"></a>**делегат**
+###### <a name="delegate"></a><span data-ttu-id="6ae69-198">**делегат**</span><span class="sxs-lookup"><span data-stu-id="6ae69-198">**delegate**</span></span>
 
-Делегат — это тип, который представляет ссылки на методы с определенным списком параметров и типом возврата.
+<span data-ttu-id="6ae69-199">Делегат — это тип, который представляет ссылки на методы с определенным списком параметров и типом возврата.</span><span class="sxs-lookup"><span data-stu-id="6ae69-199">A delegate is a type that represents references to methods with a particular parameter list and return type.</span></span>
 
-###### <a name="delivery-note"></a>**уведомление о поставке**
+###### <a name="delivery-note"></a><span data-ttu-id="6ae69-200">**уведомление о поставке**</span><span class="sxs-lookup"><span data-stu-id="6ae69-200">**delivery note**</span></span>
 
-Бизнес-документ, которым документально оформляется доставка продуктов между двумя субъектами.
+<span data-ttu-id="6ae69-201">Бизнес-документ, которым документально оформляется доставка продуктов между двумя субъектами.</span><span class="sxs-lookup"><span data-stu-id="6ae69-201">A business document that documents the delivery of products between two parties.</span></span>
 
-###### <a name="demand-forecast"></a>**прогноз спроса**
+###### <a name="demand-forecast"></a><span data-ttu-id="6ae69-202">**прогноз спроса**</span><span class="sxs-lookup"><span data-stu-id="6ae69-202">**demand forecast**</span></span>
 
-Предсказание будущего спроса на продукт.
+<span data-ttu-id="6ae69-203">Предсказание будущего спроса на продукт.</span><span class="sxs-lookup"><span data-stu-id="6ae69-203">A prediction of future product demand.</span></span>
 
-###### <a name="demand-forecasting"></a>**прогнозирование спроса**
+###### <a name="demand-forecasting"></a><span data-ttu-id="6ae69-204">**прогнозирование спроса**</span><span class="sxs-lookup"><span data-stu-id="6ae69-204">**demand forecasting**</span></span>
 
-Бизнес-процесс, который оценивает будущий спрос и создает прогнозы спроса на основе исторических транзакционных данных.
+<span data-ttu-id="6ae69-205">Бизнес-процесс, который оценивает будущий спрос и создает прогнозы спроса на основе исторических транзакционных данных.</span><span class="sxs-lookup"><span data-stu-id="6ae69-205">A business process that estimates future demand and creates demand forecasts based on historical transaction data.</span></span>
 
-###### <a name="deployable-package"></a>**готовый к развертыванию пакет**
+###### <a name="deployable-package"></a><span data-ttu-id="6ae69-206">**готовый к развертыванию пакет**</span><span class="sxs-lookup"><span data-stu-id="6ae69-206">**deployable package**</span></span>
 
-Средство, используемое для развертывания в средах приемочного тестирования пользователями и производственных средах.
+<span data-ttu-id="6ae69-207">Средство, используемое для развертывания в средах приемочного тестирования пользователями и производственных средах.</span><span class="sxs-lookup"><span data-stu-id="6ae69-207">The vehicle used for deployment on User Acceptance Test (UAT) and production environments.</span></span>
 
-###### <a name="designer"></a>**конструктор**
+###### <a name="designer"></a><span data-ttu-id="6ae69-208">**конструктор**</span><span class="sxs-lookup"><span data-stu-id="6ae69-208">**designer**</span></span>
 
-Инструмент Visual Studio, используемый для создания, обновления и проверки элементов модели.
+<span data-ttu-id="6ae69-209">Инструмент Visual Studio, используемый для создания, обновления и проверки элементов модели.</span><span class="sxs-lookup"><span data-stu-id="6ae69-209">A Visual Studio tool that you used to create, update, and inspect your model elements.</span></span>
 
-###### <a name="dimension-based-product-configuration"></a>**конфигурация продукта на основе аналитик**
+###### <a name="dimension-based-product-configuration"></a><span data-ttu-id="6ae69-210">**конфигурация продукта на основе аналитик**</span><span class="sxs-lookup"><span data-stu-id="6ae69-210">**dimension-based product configuration**</span></span>
 
-Технология конфигураций, используемая для создания вариантов продукта путем выбора значений для аналитик продукта.
+<span data-ttu-id="6ae69-211">Технология конфигураций, используемая для создания вариантов продукта путем выбора значений для аналитик продукта.</span><span class="sxs-lookup"><span data-stu-id="6ae69-211">A configuration technology used to create product variants by selecting values for product dimensions.</span></span>
 
-###### <a name="distinct-product"></a>**уникально идентифицируемый продукт**
+###### <a name="distinct-product"></a><span data-ttu-id="6ae69-212">**уникально идентифицируемый продукт**</span><span class="sxs-lookup"><span data-stu-id="6ae69-212">**distinct product**</span></span>
 
-Продукт, который можно идентифицировать уникальным образом.
+<span data-ttu-id="6ae69-213">Продукт, который можно идентифицировать уникальным образом.</span><span class="sxs-lookup"><span data-stu-id="6ae69-213">A uniquely identifiable product.</span></span>
 
-###### <a name="document-management-system"></a>**система управления документами**
+###### <a name="document-management-system"></a><span data-ttu-id="6ae69-214">**система управления документами**</span><span class="sxs-lookup"><span data-stu-id="6ae69-214">**document management system**</span></span>
 
-Служба приложения для хранения и обработки документов организации.
+<span data-ttu-id="6ae69-215">Служба приложения для хранения и обработки документов организации.</span><span class="sxs-lookup"><span data-stu-id="6ae69-215">An application service for storing and handling an organization's documents.</span></span>
 
-###### <a name="duty"></a>**полномочия**
+###### <a name="duty"></a><span data-ttu-id="6ae69-216">**полномочия**</span><span class="sxs-lookup"><span data-stu-id="6ae69-216">**duty**</span></span>
 
-В модели безопасности это набор привилегий доступа к приложению, которые необходимы пользователю для выполнения своих обязанностей.
+<span data-ttu-id="6ae69-217">В модели безопасности это набор привилегий доступа к приложению, которые необходимы пользователю для выполнения своих обязанностей.</span><span class="sxs-lookup"><span data-stu-id="6ae69-217">In the security model, a set of application access privileges that are required for a user to carry out their responsibilities.</span></span>
 
-### <a name="e"></a>**Е**
+### <a name="e"></a><span data-ttu-id="6ae69-218">**Е**</span><span class="sxs-lookup"><span data-stu-id="6ae69-218">**E**</span></span>
 
-###### <a name="eft-electronic-funds-transfer"></a>**EFT (электронный платеж)**
+###### <a name="eft-electronic-funds-transfer"></a><span data-ttu-id="6ae69-219">**EFT (электронный платеж)**</span><span class="sxs-lookup"><span data-stu-id="6ae69-219">**EFT (electronic funds transfer)**</span></span>
 
-Сетевая система, служащая для передачи фондов с одного банковского счета на другой.
+<span data-ttu-id="6ae69-220">Сетевая система, служащая для передачи фондов с одного банковского счета на другой.</span><span class="sxs-lookup"><span data-stu-id="6ae69-220">A networked system for transferring funds from one bank account to another.</span></span>
 
-###### <a name="event"></a>**событие**
+###### <a name="event"></a><span data-ttu-id="6ae69-221">**событие**</span><span class="sxs-lookup"><span data-stu-id="6ae69-221">**event**</span></span>
 
-События позволяют классам или объектам уведомлять другие классы или объекты, когда происходит что-то, что их интересует.
+<span data-ttu-id="6ae69-222">События позволяют классам или объектам уведомлять другие классы или объекты, когда происходит что-то, что их интересует.</span><span class="sxs-lookup"><span data-stu-id="6ae69-222">An event lets a class or object to notify other classes or objects when something of interest occurs.</span></span>
 
-###### <a name="epe-every-product-every"></a>**КПК (каждый продукт каждые)**
+###### <a name="epe-every-product-every"></a><span data-ttu-id="6ae69-223">**КПК (каждый продукт каждые)**</span><span class="sxs-lookup"><span data-stu-id="6ae69-223">**EPE (Every Product Every)**</span></span>
 
-Концепция бережливого производства, используемая для создания регулярно повторяющегося производственного цикла.
+<span data-ttu-id="6ae69-224">Концепция бережливого производства, используемая для создания регулярно повторяющегося производственного цикла.</span><span class="sxs-lookup"><span data-stu-id="6ae69-224">A lean concept that is used to establish a regular repeating production cycle.</span></span>
 
-###### <a name="extension"></a>**расширение**
+###### <a name="extension"></a><span data-ttu-id="6ae69-225">**расширение**</span><span class="sxs-lookup"><span data-stu-id="6ae69-225">**extension**</span></span>
 
-Настройка приложения к потребностям пользователей путем добавления функциональности к существующему коду.
+<span data-ttu-id="6ae69-226">Настройка приложения к потребностям пользователей путем добавления функциональности к существующему коду.</span><span class="sxs-lookup"><span data-stu-id="6ae69-226">Customizing an application by adding functionality to existing code.</span></span>
 
-### <a name="f"></a>**F**
+### <a name="f"></a><span data-ttu-id="6ae69-227">**F**</span><span class="sxs-lookup"><span data-stu-id="6ae69-227">**F**</span></span>
 
-###### <a name="financial-dimension"></a>**финансовая аналитика**
+###### <a name="financial-dimension"></a><span data-ttu-id="6ae69-228">**финансовая аналитика**</span><span class="sxs-lookup"><span data-stu-id="6ae69-228">**financial dimension**</span></span>
 
-Классификатор финансовых данных, создаваемый в организации из субъектов, местонахождений, продуктов и мероприятий, и используемый для подготовки отчетов об управлении.
+<span data-ttu-id="6ae69-229">Классификатор финансовых данных, создаваемый в организации из субъектов, местонахождений, продуктов и мероприятий, и используемый для подготовки отчетов об управлении.</span><span class="sxs-lookup"><span data-stu-id="6ae69-229">A financial data classifier created from the parties, locations, products, and activities in an organization and used for management reporting.</span></span>
 
-###### <a name="financial-dimension-value"></a>**значение финансовой аналитики**
+###### <a name="financial-dimension-value"></a><span data-ttu-id="6ae69-230">**значение финансовой аналитики**</span><span class="sxs-lookup"><span data-stu-id="6ae69-230">**financial dimension value**</span></span>
 
-Элемент данных в домене финансовой аналитики.
+<span data-ttu-id="6ae69-231">Элемент данных в домене финансовой аналитики.</span><span class="sxs-lookup"><span data-stu-id="6ae69-231">A data element in the domain of a financial dimension.</span></span>
 
-###### <a name="financial-statement"></a>**финансовый отчет**
+###### <a name="financial-statement"></a><span data-ttu-id="6ae69-232">**финансовый отчет**</span><span class="sxs-lookup"><span data-stu-id="6ae69-232">**financial statement**</span></span>
 
-Отчет, в котором документально отражаются финансовые сведения и финансовое положение организации.
+<span data-ttu-id="6ae69-233">Отчет, в котором документально отражаются финансовые сведения и финансовое положение организации.</span><span class="sxs-lookup"><span data-stu-id="6ae69-233">A report that documents the financial information and financial position of an organization.</span></span>
 
-###### <a name="fixed-cost"></a>**постоянные затраты**
+###### <a name="fixed-cost"></a><span data-ttu-id="6ae69-234">**постоянные затраты**</span><span class="sxs-lookup"><span data-stu-id="6ae69-234">**fixed cost**</span></span>
 
-Затраты, которые не изменяются при изменении скорости поставки или объема выпуска продуктов.
+<span data-ttu-id="6ae69-235">Затраты, которые не изменяются при изменении скорости поставки или объема выпуска продуктов.</span><span class="sxs-lookup"><span data-stu-id="6ae69-235">A cost that does not vary with changes in product delivery throughput or output.</span></span>
 
-###### <a name="fixed-currency"></a>**фиксированная валюта**
+###### <a name="fixed-currency"></a><span data-ttu-id="6ae69-236">**фиксированная валюта**</span><span class="sxs-lookup"><span data-stu-id="6ae69-236">**fixed currency**</span></span>
 
-Валюта, которая имеет фиксированный курс по отношению к другой валюте.
+<span data-ttu-id="6ae69-237">Валюта, которая имеет фиксированный курс по отношению к другой валюте.</span><span class="sxs-lookup"><span data-stu-id="6ae69-237">A currency that has a fixed exchange rate in relation to another currency.</span></span>
 
-###### <a name="fixed-quantity-kanban"></a>**фиксированный канбан**
+###### <a name="fixed-quantity-kanban"></a><span data-ttu-id="6ae69-238">**фиксированный канбан**</span><span class="sxs-lookup"><span data-stu-id="6ae69-238">**fixed quantity kanban**</span></span>
 
-Тип канбана, который используется, когда количество канбанов, назначаемое правилу канбана, является постоянным.
+<span data-ttu-id="6ae69-239">Тип канбана, который используется, когда количество канбанов, назначаемое правилу канбана, является постоянным.</span><span class="sxs-lookup"><span data-stu-id="6ae69-239">A type of kanban that is used when the number of kanbans that are assigned to a kanban rule is constant.</span></span>
 
-###### <a name="formula"></a>**формула**
+###### <a name="formula"></a><span data-ttu-id="6ae69-240">**формула**</span><span class="sxs-lookup"><span data-stu-id="6ae69-240">**formula**</span></span>
 
-Числовое отношение между входными данными и выходными данными производственного процесса.
+<span data-ttu-id="6ae69-241">Числовое отношение между входными данными и выходными данными производственного процесса.</span><span class="sxs-lookup"><span data-stu-id="6ae69-241">A numeric relationship among production process inputs and production process outputs.</span></span>
 
-###### <a name="formula-item"></a>**номенклатура-формула**
+###### <a name="formula-item"></a><span data-ttu-id="6ae69-242">**номенклатура-формула**</span><span class="sxs-lookup"><span data-stu-id="6ae69-242">**formula item**</span></span>
 
-Выход процесса пакетной обработки, управляемый формулой.
+<span data-ttu-id="6ae69-243">Выход процесса пакетной обработки, управляемый формулой.</span><span class="sxs-lookup"><span data-stu-id="6ae69-243">An output of a batch process controlled by a formula.</span></span>
 
-### <a name="g"></a>**G**
+### <a name="g"></a><span data-ttu-id="6ae69-244">**G**</span><span class="sxs-lookup"><span data-stu-id="6ae69-244">**G**</span></span>
 
-###### <a name="general-budget-reservation"></a>**резервирование общего бюджета**
+###### <a name="general-budget-reservation"></a><span data-ttu-id="6ae69-245">**резервирование общего бюджета**</span><span class="sxs-lookup"><span data-stu-id="6ae69-245">**general budget reservation**</span></span>
 
-Документ, который часто используется организациями государственного сектора для выделения или ассигнования бюджетных средств, чтобы эти средства были недоступны для других целей.
+<span data-ttu-id="6ae69-246">Документ, который часто используется организациями государственного сектора для выделения или ассигнования бюджетных средств, чтобы эти средства были недоступны для других целей.</span><span class="sxs-lookup"><span data-stu-id="6ae69-246">A document that is often used by public sector entities to set aside or earmark budgeted funds so that those funds are not available for other purposes.</span></span>
 
-###### <a name="grace-period"></a>**льготный период**
+###### <a name="grace-period"></a><span data-ttu-id="6ae69-247">**льготный период**</span><span class="sxs-lookup"><span data-stu-id="6ae69-247">**grace period**</span></span>
 
-Период времени после указанной даты, в течение которого обязательство может быть выполнено без штрафа.
+<span data-ttu-id="6ae69-248">Период времени после указанной даты, в течение которого обязательство может быть выполнено без штрафа.</span><span class="sxs-lookup"><span data-stu-id="6ae69-248">The time period beyond a specified date during which an obligation can be fulfilled without penalty.</span></span>
 
-###### <a name="gst-goods-and-services-tax"></a>**GST (налог на товары и услуги)**
+###### <a name="gst-goods-and-services-tax"></a><span data-ttu-id="6ae69-249">**GST (налог на товары и услуги)**</span><span class="sxs-lookup"><span data-stu-id="6ae69-249">**GST (goods and services tax)**</span></span>
 
-Налог на добавленную стоимость, взимаемый в некоторых странах/регионах.
+<span data-ttu-id="6ae69-250">Налог на добавленную стоимость, взимаемый в некоторых странах/регионах.</span><span class="sxs-lookup"><span data-stu-id="6ae69-250">A value-added tax levied in some countries/regions.</span></span>
 
-### <a name="i"></a>**I**
+### <a name="i"></a><span data-ttu-id="6ae69-251">**I**</span><span class="sxs-lookup"><span data-stu-id="6ae69-251">**I**</span></span>
 
-###### <a name="intercompany"></a>**внутрихолдинговый**
+###### <a name="intercompany"></a><span data-ttu-id="6ae69-252">**внутрихолдинговый**</span><span class="sxs-lookup"><span data-stu-id="6ae69-252">**intercompany**</span></span>
 
-Происходящее между двумя или более юридическими лицами либо относящееся к ним, причем эти юридические лица являются частями одной организации, которая объединяет счета всех юридических лиц.
+<span data-ttu-id="6ae69-253">Происходящее между двумя или более юридическими лицами либо относящееся к ним, причем эти юридические лица являются частями одной организации, которая объединяет счета всех юридических лиц.</span><span class="sxs-lookup"><span data-stu-id="6ae69-253">Occurring between or relating two or more legal entities that are part the same organization that consolidates the accounts of all legal entities.</span></span>
 
-###### <a name="invoice-matching"></a>**сопоставление накладных**
+###### <a name="invoice-matching"></a><span data-ttu-id="6ae69-254">**сопоставление накладных**</span><span class="sxs-lookup"><span data-stu-id="6ae69-254">**invoice matching**</span></span>
 
-Методика сопоставления цен накладной поставщика и количеств продуктов с заказами на покупку и поступлениями продуктов.
+<span data-ttu-id="6ae69-255">Методика сопоставления цен накладной поставщика и количеств продуктов с заказами на покупку и поступлениями продуктов.</span><span class="sxs-lookup"><span data-stu-id="6ae69-255">A practice of matching vendor invoice prices and product quantities to purchase orders and product receipts.</span></span>
 
-###### <a name="item-allocation-key"></a>**ключ распределения номенклатуры**
+###### <a name="item-allocation-key"></a><span data-ttu-id="6ae69-256">**ключ распределения номенклатуры**</span><span class="sxs-lookup"><span data-stu-id="6ae69-256">**item allocation key**</span></span>
 
-Группировка семейства продуктов, используемая для прогнозирования и планирования спроса.
+<span data-ttu-id="6ae69-257">Группировка семейства продуктов, используемая для прогнозирования и планирования спроса.</span><span class="sxs-lookup"><span data-stu-id="6ae69-257">A product family grouping that is used for forecast and demand scheduling.</span></span>
 
-###### <a name="item-relation"></a>**связь номенклатуры**
+###### <a name="item-relation"></a><span data-ttu-id="6ae69-258">**связь номенклатуры**</span><span class="sxs-lookup"><span data-stu-id="6ae69-258">**item relation**</span></span>
 
-Ссылка на группу распределения номенклатур или на номенклатуру и ее аналитики продуктов в правиле канбана.
+<span data-ttu-id="6ae69-259">Ссылка на группу распределения номенклатур или на номенклатуру и ее аналитики продуктов в правиле канбана.</span><span class="sxs-lookup"><span data-stu-id="6ae69-259">A reference to the item allocation group or the item and its product dimensions in a kanban rule.</span></span>
 
-### <a name="k"></a>**K**
+### <a name="k"></a><span data-ttu-id="6ae69-260">**K**</span><span class="sxs-lookup"><span data-stu-id="6ae69-260">**K**</span></span>
 
-###### <a name="kanban"></a>**канбан**
+###### <a name="kanban"></a><span data-ttu-id="6ae69-261">**канбан**</span><span class="sxs-lookup"><span data-stu-id="6ae69-261">**kanban**</span></span>
 
-Сигнал, который передает потребность в некотором количестве продукта.
+<span data-ttu-id="6ae69-262">Сигнал, который передает потребность в некотором количестве продукта.</span><span class="sxs-lookup"><span data-stu-id="6ae69-262">A signal that communicates a requirement for a quantity of product.</span></span>
 
-###### <a name="kanban-flow"></a>**поток канбана**
+###### <a name="kanban-flow"></a><span data-ttu-id="6ae69-263">**поток канбана**</span><span class="sxs-lookup"><span data-stu-id="6ae69-263">**kanban flow**</span></span>
 
-Определяет последовательность мероприятий, выполняемых для канбанов, которые создаются для правила канбана.
+<span data-ttu-id="6ae69-264">Определяет последовательность мероприятий, выполняемых для канбанов, которые создаются для правила канбана.</span><span class="sxs-lookup"><span data-stu-id="6ae69-264">Defines the sequence of activities that are performed for kanbans that are created for a kanban rule.</span></span>
 
-###### <a name="kanban-job"></a>**задание канбана**
+###### <a name="kanban-job"></a><span data-ttu-id="6ae69-265">**задание канбана**</span><span class="sxs-lookup"><span data-stu-id="6ae69-265">**kanban job**</span></span>
 
-Мероприятие обработки или передачи в производственном потоке, инициируемом канбаном.
+<span data-ttu-id="6ae69-266">Мероприятие обработки или передачи в производственном потоке, инициируемом канбаном.</span><span class="sxs-lookup"><span data-stu-id="6ae69-266">A process or transfer activity in a production flow that is triggered by a Kanban.</span></span>
 
-###### <a name="kanban-job-consumption"></a>**потребление для задания канбана**
+###### <a name="kanban-job-consumption"></a><span data-ttu-id="6ae69-267">**потребление для задания канбана**</span><span class="sxs-lookup"><span data-stu-id="6ae69-267">**kanban job consumption**</span></span>
 
-Изъятие компонентов продукта из запасов, чтобы выполнить производственные задания канбана.
+<span data-ttu-id="6ae69-268">Изъятие компонентов продукта из запасов, чтобы выполнить производственные задания канбана.</span><span class="sxs-lookup"><span data-stu-id="6ae69-268">The withdrawal of product components from inventory in order to complete the kanban production jobs.</span></span>
 
-###### <a name="kanban-rule"></a>**правило канбана**
+###### <a name="kanban-rule"></a><span data-ttu-id="6ae69-269">**правило канбана**</span><span class="sxs-lookup"><span data-stu-id="6ae69-269">**kanban rule**</span></span>
 
-Правило в системе бережливого производства, которое реализует политики планирования и пополнения материалов путем контроля координации мероприятий по обработке и передаче в производственных потоках.
+<span data-ttu-id="6ae69-270">Правило в системе бережливого производства, которое реализует политики планирования и пополнения материалов путем контроля координации мероприятий по обработке и передаче в производственных потоках.</span><span class="sxs-lookup"><span data-stu-id="6ae69-270">A rule in a lean manufacturing system that realizes material planning and replenishment policies by controlling how process and transfer activities are coordinated in production flows.</span></span>
 
-### <a name="l"></a>**L**
+### <a name="l"></a><span data-ttu-id="6ae69-271">**L**</span><span class="sxs-lookup"><span data-stu-id="6ae69-271">**L**</span></span>
 
-###### <a name="lean-manufacturing"></a>**бережливое производство**
+###### <a name="lean-manufacturing"></a><span data-ttu-id="6ae69-272">**бережливое производство**</span><span class="sxs-lookup"><span data-stu-id="6ae69-272">**lean manufacturing**</span></span>
 
-Философия, согласно которой производственные операции должны строиться на бережливых производственных потоках и бережливой бизнес-деятельности.
+<span data-ttu-id="6ae69-273">Философия, согласно которой производственные операции должны строиться на бережливых производственных потоках и бережливой бизнес-деятельности.</span><span class="sxs-lookup"><span data-stu-id="6ae69-273">A philosophy in which manufacturing operations promote lean production flows and business activities.</span></span>
 
-###### <a name="lean-schedule-group"></a>**группа графиков бережливого производства**
+###### <a name="lean-schedule-group"></a><span data-ttu-id="6ae69-274">**группа графиков бережливого производства**</span><span class="sxs-lookup"><span data-stu-id="6ae69-274">**lean schedule group**</span></span>
 
-Способ агрегирования номенклатур для производства, например на основе группы настройки, группы отгрузки или группы транспортировки.
+<span data-ttu-id="6ae69-275">Способ агрегирования номенклатур для производства, например на основе группы настройки, группы отгрузки или группы транспортировки.</span><span class="sxs-lookup"><span data-stu-id="6ae69-275">A way in which to aggregate items for production, for example, based on a setup group, shipping group, or transport group.</span></span>
 
-###### <a name="ledger-account"></a>**счет ГК**
+###### <a name="ledger-account"></a><span data-ttu-id="6ae69-276">**счет ГК**</span><span class="sxs-lookup"><span data-stu-id="6ae69-276">**ledger account**</span></span>
 
-Классификатор, создаваемый из комбинации значения счета ГК и других значений финансовых аналитик, перечисляемых в плане счетов, и используемый для классификации финансовых последствий экономической деятельности.
+<span data-ttu-id="6ae69-277">Классификатор, создаваемый из комбинации значения счета ГК и других значений финансовых аналитик, перечисляемых в плане счетов, и используемый для классификации финансовых последствий экономической деятельности.</span><span class="sxs-lookup"><span data-stu-id="6ae69-277">A classifier created from the combination of main account value and other financial dimension values listed in a chart of accounts and used to classify the financial consequences of economic activity.</span></span>
 
-###### <a name="license-code"></a>**лицензионный код**
+###### <a name="license-code"></a><span data-ttu-id="6ae69-278">**лицензионный код**</span><span class="sxs-lookup"><span data-stu-id="6ae69-278">**license code**</span></span>
 
-Буквенно-цифровой ключ, который предоставляет субъекту право на использование программного обеспечения или компонентов программного обеспечения в соответствии с условиями лицензионного соглашения, и который активирует и деактивирует функции, функциональные возможности и модули программного обеспечения.
+<span data-ttu-id="6ae69-279">Буквенно-цифровой ключ, который предоставляет субъекту право на использование программного обеспечения или компонентов программного обеспечения в соответствии с условиями лицензионного соглашения, и который активирует и деактивирует функции, функциональные возможности и модули программного обеспечения.</span><span class="sxs-lookup"><span data-stu-id="6ae69-279">An alphanumeric key that grants a party the right to use software or software components as prescribed in the terms of the license agreement, and that activates and inactivates software modules, software capabilities, and software functions.</span></span>
 
-###### <a name="liquidity"></a>**ликвидность**
+###### <a name="liquidity"></a><span data-ttu-id="6ae69-280">**ликвидность**</span><span class="sxs-lookup"><span data-stu-id="6ae69-280">**liquidity**</span></span>
 
-Возможность субъекта использовать текущие основные средства для оплаты текущих задолженностей.
+<span data-ttu-id="6ae69-281">Возможность субъекта использовать текущие основные средства для оплаты текущих задолженностей.</span><span class="sxs-lookup"><span data-stu-id="6ae69-281">The ability of a party to use current assets to settle current liabilities.</span></span>
 
-### <a name="m"></a>**M**
+### <a name="m"></a><span data-ttu-id="6ae69-282">**M**</span><span class="sxs-lookup"><span data-stu-id="6ae69-282">**M**</span></span>
 
-###### <a name="master-scheduling"></a>**сводное планирование**
+###### <a name="master-scheduling"></a><span data-ttu-id="6ae69-283">**сводное планирование**</span><span class="sxs-lookup"><span data-stu-id="6ae69-283">**master scheduling**</span></span>
 
-Процесс создания расписания для сопоставления предложения и спроса.
+<span data-ttu-id="6ae69-284">Процесс создания расписания для сопоставления предложения и спроса.</span><span class="sxs-lookup"><span data-stu-id="6ae69-284">The process for generating a timetable for matching supply with demand.</span></span>
 
-###### <a name="model"></a>**модель**
+###### <a name="model"></a><span data-ttu-id="6ae69-285">**модель**</span><span class="sxs-lookup"><span data-stu-id="6ae69-285">**model**</span></span>
 
-Модель содержит элементы кода и справочные метаданные. Она создается и проверяется в Visual Studio.
+<span data-ttu-id="6ae69-286">Модель содержит элементы кода и справочные метаданные.</span><span class="sxs-lookup"><span data-stu-id="6ae69-286">A model contains code elements and reference metadata.</span></span> <span data-ttu-id="6ae69-287">Она создается и проверяется в Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="6ae69-287">It is created and inspected in Visual Studio.</span></span>
 
-###### <a name="model-element"></a>**элемент модели**
+###### <a name="model-element"></a><span data-ttu-id="6ae69-288">**элемент модели**</span><span class="sxs-lookup"><span data-stu-id="6ae69-288">**model element**</span></span>
 
-Модель — это группа элементов (исходных файлов и метаданных), образующих пригодное для распространения программное решение. Модель представляет собой концепцию времени разработки.
+<span data-ttu-id="6ae69-289">Модель — это группа элементов (исходных файлов и метаданных), образующих пригодное для распространения программное решение.</span><span class="sxs-lookup"><span data-stu-id="6ae69-289">A model is a group of elements (source files and metadata) that constitutes a distributable software solution.</span></span> <span data-ttu-id="6ae69-290">Модель представляет собой концепцию времени разработки.</span><span class="sxs-lookup"><span data-stu-id="6ae69-290">The model is a design-time concept.</span></span>
 
-### <a name="n"></a>**N**
+### <a name="n"></a><span data-ttu-id="6ae69-291">**N**</span><span class="sxs-lookup"><span data-stu-id="6ae69-291">**N**</span></span>
 
-###### <a name="nbv-net-book-value"></a>**остаточная стоимость**
+###### <a name="nbv-net-book-value"></a><span data-ttu-id="6ae69-292">**остаточная стоимость**</span><span class="sxs-lookup"><span data-stu-id="6ae69-292">**NBV (net book value)**</span></span>
 
-Стоимость основного средства, вычисляемая как разность между исходной стоимостью основного средства и накопленными амортизациями.
+<span data-ttu-id="6ae69-293">Стоимость основного средства, вычисляемая как разность между исходной стоимостью основного средства и накопленными амортизациями.</span><span class="sxs-lookup"><span data-stu-id="6ae69-293">The value of a fixed asset calculated as the difference between the original cost of the fixed asset minus its accumulated depreciations.</span></span>
 
-### <a name="o"></a>**O**
+### <a name="o"></a><span data-ttu-id="6ae69-294">**O**</span><span class="sxs-lookup"><span data-stu-id="6ae69-294">**O**</span></span>
 
-###### <a name="object-permission"></a>**разрешение для объекта**
+###### <a name="object-permission"></a><span data-ttu-id="6ae69-295">**разрешение для объекта**</span><span class="sxs-lookup"><span data-stu-id="6ae69-295">**object permission**</span></span>
 
-Разрешенная операция создания, чтения, обновления, удаления или выполнения защищаемого объекта.
+<span data-ttu-id="6ae69-296">Разрешенная операция создания, чтения, обновления, удаления или выполнения защищаемого объекта.</span><span class="sxs-lookup"><span data-stu-id="6ae69-296">A permitted create, read, update, delete, or execute operation on a securable object.</span></span>
 
-###### <a name="operating-unit"></a>**операционная единица**
+###### <a name="operating-unit"></a><span data-ttu-id="6ae69-297">**операционная единица**</span><span class="sxs-lookup"><span data-stu-id="6ae69-297">**operating unit**</span></span>
 
-Организация, которая разделяет управление экономическими ресурсами и рабочими процессами между людьми, имеющими должностную обязанность по максимизации использования дефицитных ресурсов, улучшению процессов и отвечающими за эффективность экономических ресурсов и процессов.
+<span data-ttu-id="6ae69-298">Организация, которая разделяет управление экономическими ресурсами и рабочими процессами между людьми, имеющими должностную обязанность по максимизации использования дефицитных ресурсов, улучшению процессов и отвечающими за эффективность экономических ресурсов и процессов.</span><span class="sxs-lookup"><span data-stu-id="6ae69-298">An organization that divides the control of economic resources and operational processes among people who have a duty to maximize the use of scarce resources, to improve processes, and to account for their performance.</span></span>
 
-###### <a name="output-product"></a>**выпускаемая продукция**
+###### <a name="output-product"></a><span data-ttu-id="6ae69-299">**выпускаемая продукция**</span><span class="sxs-lookup"><span data-stu-id="6ae69-299">**output product**</span></span>
 
-Физические продукты, являющиеся результатом мероприятия.
+<span data-ttu-id="6ae69-300">Физические продукты, являющиеся результатом мероприятия.</span><span class="sxs-lookup"><span data-stu-id="6ae69-300">The physical products that result from an activity.</span></span>
 
-###### <a name="overlayering"></a>**перекрытие**
+###### <a name="overlayering"></a><span data-ttu-id="6ae69-301">**перекрытие**</span><span class="sxs-lookup"><span data-stu-id="6ae69-301">**overlayering**</span></span>
 
-Метод настройки исходного кода путем предоставления нового исходного кода, который переопределяет исходный код по умолчанию.
+<span data-ttu-id="6ae69-302">Метод настройки исходного кода путем предоставления нового исходного кода, который переопределяет исходный код по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="6ae69-302">A method of customizing source code by providing new source code that overrides the default source code.</span></span>
 
-### <a name="p"></a>**P**
+### <a name="p"></a><span data-ttu-id="6ae69-303">**P**</span><span class="sxs-lookup"><span data-stu-id="6ae69-303">**P**</span></span>
 
-###### <a name="package"></a>**пакет**
+###### <a name="package"></a><span data-ttu-id="6ae69-304">**пакет**</span><span class="sxs-lookup"><span data-stu-id="6ae69-304">**package**</span></span>
 
-Пакет — это пригодная для компиляции и развертывания единица, состоящая из одной или нескольких моделей.
+<span data-ttu-id="6ae69-305">Пакет — это пригодная для компиляции и развертывания единица, состоящая из одной или нескольких моделей.</span><span class="sxs-lookup"><span data-stu-id="6ae69-305">A package is a compilable and deployable unit of one or more models.</span></span>
 
-###### <a name="party"></a>**субъект**
+###### <a name="party"></a><span data-ttu-id="6ae69-306">**субъект**</span><span class="sxs-lookup"><span data-stu-id="6ae69-306">**party**</span></span>
 
-Лицо или организация, участвующая в экономической деятельности.
+<span data-ttu-id="6ae69-307">Лицо или организация, участвующая в экономической деятельности.</span><span class="sxs-lookup"><span data-stu-id="6ae69-307">A person or organization that participates in economic activities.</span></span>
 
-###### <a name="pegging"></a>**информация об источниках потребности**
+###### <a name="pegging"></a><span data-ttu-id="6ae69-308">**информация об источниках потребности**</span><span class="sxs-lookup"><span data-stu-id="6ae69-308">**pegging**</span></span>
 
-Процесс отслеживания количества требуемой номенклатуры до ее источника.
+<span data-ttu-id="6ae69-309">Процесс отслеживания количества требуемой номенклатуры до ее источника.</span><span class="sxs-lookup"><span data-stu-id="6ae69-309">The process of tracing the quantity of a required item to its source.</span></span>
 
-###### <a name="pegging-event"></a>**событие возникновения потребности**
+###### <a name="pegging-event"></a><span data-ttu-id="6ae69-310">**событие возникновения потребности**</span><span class="sxs-lookup"><span data-stu-id="6ae69-310">**pegging event**</span></span>
 
-Событие потока ресурсов, сигнализирующее о спросе на продукт.
+<span data-ttu-id="6ae69-311">Событие потока ресурсов, сигнализирующее о спросе на продукт.</span><span class="sxs-lookup"><span data-stu-id="6ae69-311">A resource flow event that signals the demand for a product.</span></span>
 
-###### <a name="planned-intercompany-demand"></a>**запланированный внутрихолдинговый спрос**
+###### <a name="planned-intercompany-demand"></a><span data-ttu-id="6ae69-312">**запланированный внутрихолдинговый спрос**</span><span class="sxs-lookup"><span data-stu-id="6ae69-312">**planned intercompany demand**</span></span>
 
-Прогнозируемый спрос на продукт со стороны юридического лица, принимающего роль поставщика. Плановый спрос создается из планового спроса на продукт от юридического лица, расположенного ниже в цепочке потребителей продукта.
+<span data-ttu-id="6ae69-313">Прогнозируемый спрос на продукт со стороны юридического лица, принимающего роль поставщика.</span><span class="sxs-lookup"><span data-stu-id="6ae69-313">Predicted demand for a product by a legal entity that assumes the role of a vendor.</span></span> <span data-ttu-id="6ae69-314">Плановый спрос создается из планового спроса на продукт от юридического лица, расположенного ниже в цепочке потребителей продукта.</span><span class="sxs-lookup"><span data-stu-id="6ae69-314">The planned demand is generated from planned demand for the product from a downstream legal entity.</span></span>
 
-###### <a name="post"></a>**разноска**
+###### <a name="post"></a><span data-ttu-id="6ae69-315">**разноска**</span><span class="sxs-lookup"><span data-stu-id="6ae69-315">**post**</span></span>
 
-Запись денежного значения экономического события на конкретный счет или суммирование и реклассификация записей по счетам общего и вспомогательного журналов в записи по счетам ГК и вспомогательной книги.
+<span data-ttu-id="6ae69-316">Запись денежного значения экономического события на конкретный счет или суммирование и реклассификация записей по счетам общего и вспомогательного журналов в записи по счетам ГК и вспомогательной книги.</span><span class="sxs-lookup"><span data-stu-id="6ae69-316">To record the monetary value of an economic event in a specific account, or to summarize and reclassify general and subsidiary journal account entries into general and subsidiary ledger account entries.</span></span>
 
-###### <a name="preparer"></a>**составитель**
+###### <a name="preparer"></a><span data-ttu-id="6ae69-317">**составитель**</span><span class="sxs-lookup"><span data-stu-id="6ae69-317">**preparer**</span></span>
 
-Человек, который создает документ-источник для инициирования запроса на экономические ресурсы.
+<span data-ttu-id="6ae69-318">Человек, который создает документ-источник для инициирования запроса на экономические ресурсы.</span><span class="sxs-lookup"><span data-stu-id="6ae69-318">The person who creates a source document to initiate a request for economic resources.</span></span>
 
-###### <a name="procurement-catalog"></a>**каталог закупаемой продукции**
+###### <a name="procurement-catalog"></a><span data-ttu-id="6ae69-319">**каталог закупаемой продукции**</span><span class="sxs-lookup"><span data-stu-id="6ae69-319">**procurement catalog**</span></span>
 
-Перечень предложений продуктов, которые сгруппированы по категории закупаемой продукции. Каталог закупаемой продукции используется в целях запроса продуктов для внутреннего использования организацией.
+<span data-ttu-id="6ae69-320">Перечень предложений продуктов, которые сгруппированы по категории закупаемой продукции.</span><span class="sxs-lookup"><span data-stu-id="6ae69-320">A listing of product offerings that are grouped by procurement category.</span></span> <span data-ttu-id="6ae69-321">Каталог закупаемой продукции используется в целях запроса продуктов для внутреннего использования организацией.</span><span class="sxs-lookup"><span data-stu-id="6ae69-321">A procurement catalog is used to request products for internal use by an organization.</span></span>
 
-###### <a name="product-dimension"></a>**аналитика продукта**
+###### <a name="product-dimension"></a><span data-ttu-id="6ae69-322">**аналитика продукта**</span><span class="sxs-lookup"><span data-stu-id="6ae69-322">**product dimension**</span></span>
 
-Атрибуты продукта (размер, цвет или конфигурация), которые используются для настройки продукта на основе аналитик.
+<span data-ttu-id="6ae69-323">Атрибуты продукта (размер, цвет или конфигурация), которые используются для настройки продукта на основе аналитик.</span><span class="sxs-lookup"><span data-stu-id="6ae69-323">The size, color, or configuration product attributes that are used for dimension-based product configuration.</span></span>
 
-###### <a name="product-family"></a>**семейство продуктов**
+###### <a name="product-family"></a><span data-ttu-id="6ae69-324">**семейство продуктов**</span><span class="sxs-lookup"><span data-stu-id="6ae69-324">**product family**</span></span>
 
-Уникальная группа номенклатур, услуг или прав, которые либо участвуют в одних и тех же мероприятиях производства или доставки либо предлагаются в одних и тех же сегментах рынка. В Finance and Operations группировка выполняется с помощью ключа распределения прогноза.
+<span data-ttu-id="6ae69-325">Уникальная группа номенклатур, услуг или прав, которые либо участвуют в одних и тех же мероприятиях производства или доставки либо предлагаются в одних и тех же сегментах рынка.</span><span class="sxs-lookup"><span data-stu-id="6ae69-325">A unique grouping of items, services, or rights that either participates in the same production or delivery activities or that are offered to the same market segments.</span></span> <span data-ttu-id="6ae69-326">В Finance and Operations группировка выполняется с помощью ключа распределения прогноза.</span><span class="sxs-lookup"><span data-stu-id="6ae69-326">In Finance and Operations, the grouping is represented by using a forecast allocation key.</span></span>
 
-###### <a name="product-master"></a>**шаблон продукта**
+###### <a name="product-master"></a><span data-ttu-id="6ae69-327">**шаблон продукта**</span><span class="sxs-lookup"><span data-stu-id="6ae69-327">**product master**</span></span>
 
-Стандартное или функциональное представление продукта, которое является основанием для конфигурирования вариантов продукта.
+<span data-ttu-id="6ae69-328">Стандартное или функциональное представление продукта, которое является основанием для конфигурирования вариантов продукта.</span><span class="sxs-lookup"><span data-stu-id="6ae69-328">A standard or functional product representation that is the basis for configuring product variants.</span></span>
 
-###### <a name="product-receipt"></a>**поступление продуктов**
+###### <a name="product-receipt"></a><span data-ttu-id="6ae69-329">**поступление продуктов**</span><span class="sxs-lookup"><span data-stu-id="6ae69-329">**product receipt**</span></span>
 
-Документ-источник, в котором документально оформляется поступление заказанных продуктов, поступление возвращаемых продуктов или получение продуктов, принятых по коносаменту.
+<span data-ttu-id="6ae69-330">Документ-источник, в котором документально оформляется поступление заказанных продуктов, поступление возвращаемых продуктов или получение продуктов, принятых по коносаменту.</span><span class="sxs-lookup"><span data-stu-id="6ae69-330">A source document that documents the receipt of products ordered, the receipt of products returned, or the receipt of products received on consignment.</span></span>
 
-###### <a name="product-variant"></a>**вариант продукта**
+###### <a name="product-variant"></a><span data-ttu-id="6ae69-331">**вариант продукта**</span><span class="sxs-lookup"><span data-stu-id="6ae69-331">**product variant**</span></span>
 
-Конфигурация шаблона продукта.
+<span data-ttu-id="6ae69-332">Конфигурация шаблона продукта.</span><span class="sxs-lookup"><span data-stu-id="6ae69-332">A configuration of a product master.</span></span>
 
-###### <a name="production-flow"></a>**производственный поток**
+###### <a name="production-flow"></a><span data-ttu-id="6ae69-333">**производственный поток**</span><span class="sxs-lookup"><span data-stu-id="6ae69-333">**production flow**</span></span>
 
-Производственный процесс, разработанный с использованием принципов экономии.
+<span data-ttu-id="6ae69-334">Производственный процесс, разработанный с использованием принципов экономии.</span><span class="sxs-lookup"><span data-stu-id="6ae69-334">A production process designed using Lean principles.</span></span>
 
-###### <a name="production-flow-model"></a>**модель производственного потока**
+###### <a name="production-flow-model"></a><span data-ttu-id="6ae69-335">**модель производственного потока**</span><span class="sxs-lookup"><span data-stu-id="6ae69-335">**production flow model**</span></span>
 
-Представление производственной мощности, предоставляемое группой производственных ячеек в процессе производственного потока.
+<span data-ttu-id="6ae69-336">Представление производственной мощности, предоставляемое группой производственных ячеек в процессе производственного потока.</span><span class="sxs-lookup"><span data-stu-id="6ae69-336">A representation of the production capacity provided by a group of work cells in a production flow process.</span></span>
 
-###### <a name="production-order"></a>**производственный заказ**
+###### <a name="production-order"></a><span data-ttu-id="6ae69-337">**производственный заказ**</span><span class="sxs-lookup"><span data-stu-id="6ae69-337">**production order**</span></span>
 
-Документ-источник, в котором документально оформляются потребности в производстве номенклатур для удовлетворения спроса.
+<span data-ttu-id="6ae69-338">Документ-источник, в котором документально оформляются потребности в производстве номенклатур для удовлетворения спроса.</span><span class="sxs-lookup"><span data-stu-id="6ae69-338">A source document that documents the requirements for producing items to meet a demand.</span></span>
 
-###### <a name="production-schedule"></a>**план производства**
+###### <a name="production-schedule"></a><span data-ttu-id="6ae69-339">**план производства**</span><span class="sxs-lookup"><span data-stu-id="6ae69-339">**production schedule**</span></span>
 
-План производства конкретной номенклатуры или количества номенклатуры в определенное время и с использованием определенных трудовых и операционных ресурсов.
+<span data-ttu-id="6ae69-340">План производства конкретной номенклатуры или количества номенклатуры в определенное время и с использованием определенных трудовых и операционных ресурсов.</span><span class="sxs-lookup"><span data-stu-id="6ae69-340">A schedule to produce a specific item and item quantity at a specific time and by specific human and operational resources.</span></span>
 
-###### <a name="prospect"></a>**перспективный клиент**
+###### <a name="prospect"></a><span data-ttu-id="6ae69-341">**перспективный клиент**</span><span class="sxs-lookup"><span data-stu-id="6ae69-341">**prospect**</span></span>
 
-Участник, обладающий существующей и потенциальной возможностью предоставлять услугу или приносить в будущем возможные экономические преимущества юридическому лицу.
+<span data-ttu-id="6ae69-342">Участник, обладающий существующей и потенциальной возможностью предоставлять услугу или приносить в будущем возможные экономические преимущества юридическому лицу.</span><span class="sxs-lookup"><span data-stu-id="6ae69-342">A participant that has the existing and potential ability to provide a service or probable future economic benefit to a legal entity.</span></span>
 
-###### <a name="purchase-agreement-policy"></a>**политика по договорам покупки**
+###### <a name="purchase-agreement-policy"></a><span data-ttu-id="6ae69-343">**политика по договорам покупки**</span><span class="sxs-lookup"><span data-stu-id="6ae69-343">**purchase agreement policy**</span></span>
 
-Политика, которая разрешает субъектам изменять условия договоров покупки.
+<span data-ttu-id="6ae69-344">Политика, которая разрешает субъектам изменять условия договоров покупки.</span><span class="sxs-lookup"><span data-stu-id="6ae69-344">A policy that authorizes parties to modify purchase agreement terms.</span></span>
 
-###### <a name="purchase-order-policy"></a>**политика по заказам на покупку**
+###### <a name="purchase-order-policy"></a><span data-ttu-id="6ae69-345">**политика по заказам на покупку**</span><span class="sxs-lookup"><span data-stu-id="6ae69-345">**purchase order policy**</span></span>
 
-Политика, которая разрешает субъектам изменять условия заказов на покупку и контролировать обработку этих заказов.
+<span data-ttu-id="6ae69-346">Политика, которая разрешает субъектам изменять условия заказов на покупку и контролировать обработку этих заказов.</span><span class="sxs-lookup"><span data-stu-id="6ae69-346">A policy that authorizes parties to modify purchase order terms and to control order processing.</span></span>
 
-###### <a name="purchase-quotation"></a>**предложение по покупке**
+###### <a name="purchase-quotation"></a><span data-ttu-id="6ae69-347">**предложение по покупке**</span><span class="sxs-lookup"><span data-stu-id="6ae69-347">**purchase quotation**</span></span>
 
-Документ-источник, в котором документально оформляется предложение покупки количества продукта по указанной цене и на определенную дату в ответ на запрос предложения, выполняемый в процессе закупок.
+<span data-ttu-id="6ae69-348">Документ-источник, в котором документально оформляется предложение покупки количества продукта по указанной цене и на определенную дату в ответ на запрос предложения, выполняемый в процессе закупок.</span><span class="sxs-lookup"><span data-stu-id="6ae69-348">A source document that documents an offer to purchase a quantity of product for a specified price and by a specified date in response to a request for quotation in a procurement process.</span></span>
 
-###### <a name="purchase-requisition"></a>**заявка на покупку**
+###### <a name="purchase-requisition"></a><span data-ttu-id="6ae69-349">**заявка на покупку**</span><span class="sxs-lookup"><span data-stu-id="6ae69-349">**purchase requisition**</span></span>
 
-Документ-источник, в котором документально оформляются запросы продуктов, чтобы они могли быть переданы на проверку и использоваться для одобрения покупки закупочной организацией.
+<span data-ttu-id="6ae69-350">Документ-источник, в котором документально оформляются запросы продуктов, чтобы они могли быть переданы на проверку и использоваться для одобрения покупки закупочной организацией.</span><span class="sxs-lookup"><span data-stu-id="6ae69-350">A source document that documents product requests so that they can be submitted for review and be used to authorize purchasing by a purchasing organization.</span></span>
 
-### <a name="q"></a>**Q**
+### <a name="q"></a><span data-ttu-id="6ae69-351">**Q**</span><span class="sxs-lookup"><span data-stu-id="6ae69-351">**Q**</span></span>
 
-###### <a name="quantity-variance"></a>**отклонение по количеству**
+###### <a name="quantity-variance"></a><span data-ttu-id="6ae69-352">**отклонение по количеству**</span><span class="sxs-lookup"><span data-stu-id="6ae69-352">**quantity variance**</span></span>
 
-Разница между заказанным количеством продукта и полученным количеством продукта, когда дополнительных поступлений не ожидается.
+<span data-ttu-id="6ae69-353">Разница между заказанным количеством продукта и полученным количеством продукта, когда дополнительных поступлений не ожидается.</span><span class="sxs-lookup"><span data-stu-id="6ae69-353">The difference between an ordered product quantity and a received product quantity when no more receipts are expected.</span></span>
 
-### <a name="r"></a>**У**
+### <a name="r"></a><span data-ttu-id="6ae69-354">**У**</span><span class="sxs-lookup"><span data-stu-id="6ae69-354">**R**</span></span>
 
-###### <a name="receipt-advice"></a>**уведомление о получении**
+###### <a name="receipt-advice"></a><span data-ttu-id="6ae69-355">**уведомление о получении**</span><span class="sxs-lookup"><span data-stu-id="6ae69-355">**receipt advice**</span></span>
 
-Бизнес-документ, в котором документально оформляется сводка продуктов, получаемых покупателем от поставщика.
+<span data-ttu-id="6ae69-356">Бизнес-документ, в котором документально оформляется сводка продуктов, получаемых покупателем от поставщика.</span><span class="sxs-lookup"><span data-stu-id="6ae69-356">A business document that documents a summary of the products a buyer receives from a vendor.</span></span>
 
-###### <a name="reconciliation"></a>**выверка**
+###### <a name="reconciliation"></a><span data-ttu-id="6ae69-357">**выверка**</span><span class="sxs-lookup"><span data-stu-id="6ae69-357">**reconciliation**</span></span>
 
-Методика корректировки двух или более счетов либо отчетов, чтобы согласовать цифры.
+<span data-ttu-id="6ae69-358">Методика корректировки двух или более счетов либо отчетов, чтобы согласовать цифры.</span><span class="sxs-lookup"><span data-stu-id="6ae69-358">A practice of adjusting two or more accounts or statements so that the figures agree.</span></span>
 
-###### <a name="reduction-key"></a>**ключ сокращения**
+###### <a name="reduction-key"></a><span data-ttu-id="6ae69-359">**ключ сокращения**</span><span class="sxs-lookup"><span data-stu-id="6ae69-359">**reduction key**</span></span>
 
-Метод, который используется для повышения или снижения потребностей прогноза в сводном планировании на основе определенных пользователем процентов, применяемых в течение конкретных периодов.
+<span data-ttu-id="6ae69-360">Метод, который используется для повышения или снижения потребностей прогноза в сводном планировании на основе определенных пользователем процентов, применяемых в течение конкретных периодов.</span><span class="sxs-lookup"><span data-stu-id="6ae69-360">A method that is used to increase or decrease forecast requirements in master planning, based on user defined percentages that are applied during specific periods.</span></span>
 
-###### <a name="register"></a>**регистр**
+###### <a name="register"></a><span data-ttu-id="6ae69-361">**регистр**</span><span class="sxs-lookup"><span data-stu-id="6ae69-361">**register**</span></span>
 
-Запись, которая используется для регистрации операционных, юридических и финансовых последствий от событий потока ресурсов в системе учета.
+<span data-ttu-id="6ae69-362">Запись, которая используется для регистрации операционных, юридических и финансовых последствий от событий потока ресурсов в системе учета.</span><span class="sxs-lookup"><span data-stu-id="6ae69-362">A record that is used to record the operational, legal, and financial consequences of resource flow events in an accounting system.</span></span>
 
-###### <a name="rfq-request-for-quotation"></a>**запрос предложения**
+###### <a name="rfq-request-for-quotation"></a><span data-ttu-id="6ae69-363">**запрос предложения**</span><span class="sxs-lookup"><span data-stu-id="6ae69-363">**RFQ (request for quotation)**</span></span>
 
-Документ-источник, в котором документально оформляется приглашение к участию в подаче заявок на поставку количества продукта по указанной цене и на определенную дату.
+<span data-ttu-id="6ae69-364">Документ-источник, в котором документально оформляется приглашение к участию в подаче заявок на поставку количества продукта по указанной цене и на определенную дату.</span><span class="sxs-lookup"><span data-stu-id="6ae69-364">A source document that documents an invitation to bid on supplying a quantity of product for a specified price and by a specified date.</span></span>
 
-###### <a name="requester"></a>**инициатор запроса**
+###### <a name="requester"></a><span data-ttu-id="6ae69-365">**инициатор запроса**</span><span class="sxs-lookup"><span data-stu-id="6ae69-365">**requester**</span></span>
 
-Лицо, запрашивающее экономические ресурсы.
+<span data-ttu-id="6ae69-366">Лицо, запрашивающее экономические ресурсы.</span><span class="sxs-lookup"><span data-stu-id="6ae69-366">The person who requests the economic resources.</span></span>
 
 
-### <a name="s"></a>**S**
+### <a name="s"></a><span data-ttu-id="6ae69-367">**S**</span><span class="sxs-lookup"><span data-stu-id="6ae69-367">**S**</span></span>
 
-###### <a name="sales-agreement"></a>**договор продажи**
+###### <a name="sales-agreement"></a><span data-ttu-id="6ae69-368">**договор продажи**</span><span class="sxs-lookup"><span data-stu-id="6ae69-368">**sales agreement**</span></span>
 
-Документ-источник, в котором документально оформляется договор между двумя или более субъектами на основании понимания того, что субъект, осуществляющий продажу, обязуется продать конкретное количество или стоимость продукта в течение некоторого периода времени в обмен на выгодные цены и скидки.
+<span data-ttu-id="6ae69-369">Документ-источник, в котором документально оформляется договор между двумя или более субъектами на основании понимания того, что субъект, осуществляющий продажу, обязуется продать конкретное количество или стоимость продукта в течение некоторого периода времени в обмен на выгодные цены и скидки.</span><span class="sxs-lookup"><span data-stu-id="6ae69-369">A source document that documents an agreement between two or more parties based on an understanding that a selling party will commit to selling a specific quantity or value of product over a period of time in exchange for favorable prices and discounts.</span></span>
 
-###### <a name="sales-agreement-policy"></a>**политика по договорам продажи**
+###### <a name="sales-agreement-policy"></a><span data-ttu-id="6ae69-370">**политика по договорам продажи**</span><span class="sxs-lookup"><span data-stu-id="6ae69-370">**sales agreement policy**</span></span>
 
-Политика, которая разрешает субъектам изменять условия договоров продажи.
+<span data-ttu-id="6ae69-371">Политика, которая разрешает субъектам изменять условия договоров продажи.</span><span class="sxs-lookup"><span data-stu-id="6ae69-371">A policy that authorizes parties to modify sales agreement terms.</span></span>
 
-###### <a name="sales-order-policy"></a>**политика по заказам на продажу**
+###### <a name="sales-order-policy"></a><span data-ttu-id="6ae69-372">**политика по заказам на продажу**</span><span class="sxs-lookup"><span data-stu-id="6ae69-372">**sales order policy**</span></span>
 
-Политика, которая разрешает субъектам изменять условия заказа на продажу и контролировать процессы обработки заказа и платежей.
+<span data-ttu-id="6ae69-373">Политика, которая разрешает субъектам изменять условия заказа на продажу и контролировать процессы обработки заказа и платежей.</span><span class="sxs-lookup"><span data-stu-id="6ae69-373">A policy that authorizes parties to modify sales order terms and to control order processing and payment processes.</span></span>
 
-###### <a name="sales-quotation"></a>**предложение по продаже**
+###### <a name="sales-quotation"></a><span data-ttu-id="6ae69-374">**предложение по продаже**</span><span class="sxs-lookup"><span data-stu-id="6ae69-374">**sales quotation**</span></span>
 
-Документ-источник, в котором документально оформляется предложение поставки количества продукта по указанной цене и на определенную дату в ответ на запрос предложения, выполняемый в процессе продажи.
+<span data-ttu-id="6ae69-375">Документ-источник, в котором документально оформляется предложение поставки количества продукта по указанной цене и на определенную дату в ответ на запрос предложения, выполняемый в процессе продажи.</span><span class="sxs-lookup"><span data-stu-id="6ae69-375">A source document that documents an offer to supply a quantity of product for a specified price and by a specified date in response to a request for quotation in a sales process.</span></span>
 
-###### <a name="security-role"></a>**роль безопасности**
+###### <a name="security-role"></a><span data-ttu-id="6ae69-376">**роль безопасности**</span><span class="sxs-lookup"><span data-stu-id="6ae69-376">**security role**</span></span>
 
-Определенный набор привилегий доступа к приложениям. Роль безопасности, назначенная пользователю, определяет, какие задачи может выполнять пользователь и какие части пользовательского интерфейса видны пользователю. Всем пользователям должна быть назначена хотя бы одна роль безопасности, чтобы иметь доступ к системе.
+<span data-ttu-id="6ae69-377">Определенный набор привилегий доступа к приложениям.</span><span class="sxs-lookup"><span data-stu-id="6ae69-377">A defined set of application access privileges.</span></span> <span data-ttu-id="6ae69-378">Роль безопасности, назначенная пользователю, определяет, какие задачи может выполнять пользователь и какие части пользовательского интерфейса видны пользователю.</span><span class="sxs-lookup"><span data-stu-id="6ae69-378">The security role assigned to a user determines which tasks the user can perform and which parts of the user interface the user can view.</span></span> <span data-ttu-id="6ae69-379">Всем пользователям должна быть назначена хотя бы одна роль безопасности, чтобы иметь доступ к системе.</span><span class="sxs-lookup"><span data-stu-id="6ae69-379">All users must be assigned at least one security role in order to access the system.</span></span>
 
-###### <a name="segregation-of-duties"></a>**разделение обязанностей**
+###### <a name="segregation-of-duties"></a><span data-ttu-id="6ae69-380">**разделение обязанностей**</span><span class="sxs-lookup"><span data-stu-id="6ae69-380">**segregation of duties**</span></span>
 
-Принцип разработки, используемый для уменьшения риска обмана, нерегулярностей и ошибок, который разделяет полномочия записи, проверки, авторизации, охраны основных средств, периодической проверки для людей, участвующих, документирующих или регистрирующих финансовые последствия экономической деятельности.
+<span data-ttu-id="6ae69-381">Принцип разработки, используемый для уменьшения риска обмана, нерегулярностей и ошибок, который разделяет полномочия записи, проверки, авторизации, охраны основных средств, периодической проверки для людей, участвующих, документирующих или регистрирующих финансовые последствия экономической деятельности.</span><span class="sxs-lookup"><span data-stu-id="6ae69-381">A design principle used to reduce the risk of fraud, irregularities, and errors that separates the recording, verification, authorization, custody of assets, and periodic review duties of people who participate in, document, or record the financial consequences of economic transactions.</span></span>
 
-###### <a name="sequencing"></a>**последовательность**
+###### <a name="sequencing"></a><span data-ttu-id="6ae69-382">**последовательность**</span><span class="sxs-lookup"><span data-stu-id="6ae69-382">**sequencing**</span></span>
 
-Порядок, в котором обрабатываются задания или выполняются операции на производственных мощностях для достижения поставленных целей.
+<span data-ttu-id="6ae69-383">Порядок, в котором обрабатываются задания или выполняются операции на производственных мощностях для достижения поставленных целей.</span><span class="sxs-lookup"><span data-stu-id="6ae69-383">The order in which jobs are processed or operations are performed at a manufacturing facility to achieve objectives.</span></span>
 
-###### <a name="shared-asset"></a>**общее основное средство**
+###### <a name="shared-asset"></a><span data-ttu-id="6ae69-384">**общее основное средство**</span><span class="sxs-lookup"><span data-stu-id="6ae69-384">**shared asset**</span></span>
 
-Основное средство, используемое несколькими единицами, генерирующими денежные средства. Примером является центр распространения, который используется для хранения номенклатур перед их транспортировкой на различные рынки, использующие один и тот же центр распространения.
+<span data-ttu-id="6ae69-385">Основное средство, используемое несколькими единицами, генерирующими денежные средства.</span><span class="sxs-lookup"><span data-stu-id="6ae69-385">An asset that is used by more than one cash-generating unit (CGU).</span></span> <span data-ttu-id="6ae69-386">Примером является центр распространения, который используется для хранения номенклатур перед их транспортировкой на различные рынки, использующие один и тот же центр распространения.</span><span class="sxs-lookup"><span data-stu-id="6ae69-386">An example is a distribution center that is used to store items before they are transported to different markets that share that same distribution center.</span></span>
 
-###### <a name="single-use-kanban"></a>**разовый канбан**
+###### <a name="single-use-kanban"></a><span data-ttu-id="6ae69-387">**разовый канбан**</span><span class="sxs-lookup"><span data-stu-id="6ae69-387">**single use kanban**</span></span>
 
-Тип канбана, который используется с правилом фиксированного канбана для удовлетворения исключительно высокого спроса. При отмене разового канбана им не запускается новый канбан.
+<span data-ttu-id="6ae69-388">Тип канбана, который используется с правилом фиксированного канбана для удовлетворения исключительно высокого спроса.</span><span class="sxs-lookup"><span data-stu-id="6ae69-388">A type of kanban that is used with a fixed quantity kanban rule to meet exceptionally high demand.</span></span> <span data-ttu-id="6ae69-389">При отмене разового канбана им не запускается новый канбан.</span><span class="sxs-lookup"><span data-stu-id="6ae69-389">A single use kanban does not trigger a new kanban when it is discarded.</span></span>
 
-###### <a name="smart-rounding"></a>**психологическое округление**
+###### <a name="smart-rounding"></a><span data-ttu-id="6ae69-390">**психологическое округление**</span><span class="sxs-lookup"><span data-stu-id="6ae69-390">**smart rounding**</span></span>
 
-Маркетинговая практика использовать при установке цен нечетные цифры, которые совсем чуть меньше, чем ближайшее к ним круглое число.
+<span data-ttu-id="6ae69-391">Маркетинговая практика использовать при установке цен нечетные цифры, которые совсем чуть меньше, чем ближайшее к ним круглое число.</span><span class="sxs-lookup"><span data-stu-id="6ae69-391">A marketing practice to use odd numbers that are marginally less than their nearest round number to set prices.</span></span>
 
-###### <a name="source-requirement"></a>**исходная потребность**
+###### <a name="source-requirement"></a><span data-ttu-id="6ae69-392">**исходная потребность**</span><span class="sxs-lookup"><span data-stu-id="6ae69-392">**source requirement**</span></span>
 
-Количество продукта, документально зафиксированное в строке документа-источника, которое создает потребность источника потребности.
+<span data-ttu-id="6ae69-393">Количество продукта, документально зафиксированное в строке документа-источника, которое создает потребность источника потребности.</span><span class="sxs-lookup"><span data-stu-id="6ae69-393">The product quantity documented on a source document line that creates a pegging requirement.</span></span>
 
-###### <a name="statistical-baseline-forecast"></a>**статистический базовый прогноз**
+###### <a name="statistical-baseline-forecast"></a><span data-ttu-id="6ae69-394">**статистический базовый прогноз**</span><span class="sxs-lookup"><span data-stu-id="6ae69-394">**statistical baseline forecast**</span></span>
 
-Оценка будущего спроса, которая создается путем применения алгоритма прогнозирования к историческим транзакционным данным.
+<span data-ttu-id="6ae69-395">Оценка будущего спроса, которая создается путем применения алгоритма прогнозирования к историческим транзакционным данным.</span><span class="sxs-lookup"><span data-stu-id="6ae69-395">An estimate of future demand that is created by applying a forecasting algorithm to historical transaction data.</span></span>
 
 
-### <a name="t"></a>**T**
+### <a name="t"></a><span data-ttu-id="6ae69-396">**T**</span><span class="sxs-lookup"><span data-stu-id="6ae69-396">**T**</span></span>
 
-###### <a name="takt-time"></a>**время такта**
+###### <a name="takt-time"></a><span data-ttu-id="6ae69-397">**время такта**</span><span class="sxs-lookup"><span data-stu-id="6ae69-397">**takt time**</span></span>
 
-Время, затрачиваемое на производство одной единицы продукта.
+<span data-ttu-id="6ae69-398">Время, затрачиваемое на производство одной единицы продукта.</span><span class="sxs-lookup"><span data-stu-id="6ae69-398">The time that it takes to produce one unit of a product.</span></span>
 
-###### <a name="task-guide"></a>**руководство по задаче**
+###### <a name="task-guide"></a><span data-ttu-id="6ae69-399">**руководство по задаче**</span><span class="sxs-lookup"><span data-stu-id="6ae69-399">**Task guide**</span></span>
 
-Управляемое воспроизведение пользователем шагов в записи задачи. Руководство по задаче помогает пользователю правильно выполнить шаги в записи. Все механизмы безопасности, данные и поведение приложений при выполнении руководства по задаче такие же, как при выполнении тех же шагов без руководства по задаче. В руководстве по задаче используются те же механизмы, что и в регистраторе задач, для определения того, выполнил ли пользователь запланированный шаг, после чего пользователю предлагается выполнить следующий шаг в записи.
+<span data-ttu-id="6ae69-400">Управляемое воспроизведение пользователем шагов в записи задачи.</span><span class="sxs-lookup"><span data-stu-id="6ae69-400">A controlled, guided experience through the steps in a Task recording.</span></span> <span data-ttu-id="6ae69-401">Руководство по задаче помогает пользователю правильно выполнить шаги в записи.</span><span class="sxs-lookup"><span data-stu-id="6ae69-401">A Task guide leads the user through the experience that was recorded.</span></span> <span data-ttu-id="6ae69-402">Все механизмы безопасности, данные и поведение приложений при выполнении руководства по задаче такие же, как при выполнении тех же шагов без руководства по задаче.</span><span class="sxs-lookup"><span data-stu-id="6ae69-402">All security, data, and application behaviors are the same when completing a Task guide as they are without the Task guide.</span></span> <span data-ttu-id="6ae69-403">В руководстве по задаче используются те же механизмы, что и в регистраторе задач, для определения того, выполнил ли пользователь запланированный шаг, после чего пользователю предлагается выполнить следующий шаг в записи.</span><span class="sxs-lookup"><span data-stu-id="6ae69-403">The Task guide uses the same instrumentation as Task recorder to know when a user has completed the intended step, so that it can prompt the user to take the next step in the recording.</span></span>
 
-###### <a name="task-recorder"></a>**регистратор задач**
+###### <a name="task-recorder"></a><span data-ttu-id="6ae69-404">**регистратор задач**</span><span class="sxs-lookup"><span data-stu-id="6ae69-404">**Task recorder**</span></span>
 
-Средство, предустановленное в Finance and Operations. В процессе записи оно регистрирует все события, которые пользователь вводит в пользовательском интерфейсе Finance and Operations и которые затем выполняются на сервере, включая добавление значений, изменение значений параметров, удаление данных и др.
+<span data-ttu-id="6ae69-405">Средство, предустановленное в Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="6ae69-405">A tool that is pre-installed in Finance and Operations.</span></span> <span data-ttu-id="6ae69-406">В процессе записи оно регистрирует все события, которые пользователь вводит в пользовательском интерфейсе Finance and Operations и которые затем выполняются на сервере, включая добавление значений, изменение значений параметров, удаление данных и др.</span><span class="sxs-lookup"><span data-stu-id="6ae69-406">When recording, it records all events that the user enters in the Finance and Operations user interface that get executed against the server—including values added, settings changed, data removed, etc.</span></span>
 
-###### <a name="task-recording"></a>**запись задачи**
+###### <a name="task-recording"></a><span data-ttu-id="6ae69-407">**запись задачи**</span><span class="sxs-lookup"><span data-stu-id="6ae69-407">**Task recording**</span></span>
 
-Файл, который содержит действия и аннотации, регистрируемые при запуске регистратора задач в Finance and Operations.
+<span data-ttu-id="6ae69-408">Файл, который содержит действия и аннотации, регистрируемые при запуске регистратора задач в Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="6ae69-408">A file that contains the actions and annotations that are captured when Task recorder is run in Finance and Operations.</span></span>
 
-###### <a name="three-way-matching-policy"></a>**политика трехсторонней проверки соответствия**
+###### <a name="three-way-matching-policy"></a><span data-ttu-id="6ae69-409">**политика трехсторонней проверки соответствия**</span><span class="sxs-lookup"><span data-stu-id="6ae69-409">**three-way matching policy**</span></span>
 
-Политика проверки соответствия, которая требует, чтобы одна или несколько цен в накладной поставщика совпадали с одной или несколькими ценами в заказе на покупку и чтобы одно или несколько количеств в накладной поставщика совпадали с одним или несколькими количествами в поступлении продуктов.
+<span data-ttu-id="6ae69-410">Политика проверки соответствия, которая требует, чтобы одна или несколько цен в накладной поставщика совпадали с одной или несколькими ценами в заказе на покупку и чтобы одно или несколько количеств в накладной поставщика совпадали с одним или несколькими количествами в поступлении продуктов.</span><span class="sxs-lookup"><span data-stu-id="6ae69-410">A matching policy that requires one or more vendor invoice prices to match with one or more purchase order prices and that requires one or more vendor invoice quantities to match with one or more product receipt quantities.</span></span>
 
-###### <a name="transfer-batch"></a>**транспортная партия**
+###### <a name="transfer-batch"></a><span data-ttu-id="6ae69-411">**транспортная партия**</span><span class="sxs-lookup"><span data-stu-id="6ae69-411">**transfer batch**</span></span>
 
-Количество одной или нескольких номенклатур, которое передается или может передаваться.
+<span data-ttu-id="6ae69-412">Количество одной или нескольких номенклатур, которое передается или может передаваться.</span><span class="sxs-lookup"><span data-stu-id="6ae69-412">The quantity of one or more items that is transferred or that can be transferred.</span></span>
 
-###### <a name="two-way-matching-policy"></a>**политика двухсторонней проверки соответствия**
+###### <a name="two-way-matching-policy"></a><span data-ttu-id="6ae69-413">**политика двухсторонней проверки соответствия**</span><span class="sxs-lookup"><span data-stu-id="6ae69-413">**two-way matching policy**</span></span>
 
-Политика проверки соответствия, которая требует, чтобы одна или несколько цен в накладной поставщика совпадали с одной или несколькими ценами в заказе на покупку.
+<span data-ttu-id="6ae69-414">Политика проверки соответствия, которая требует, чтобы одна или несколько цен в накладной поставщика совпадали с одной или несколькими ценами в заказе на покупку.</span><span class="sxs-lookup"><span data-stu-id="6ae69-414">A matching policy that requires one or more vendor invoice prices to match with one or more purchase order prices.</span></span>
 
-### <a name="v"></a>**V**
+### <a name="v"></a><span data-ttu-id="6ae69-415">**V**</span><span class="sxs-lookup"><span data-stu-id="6ae69-415">**V**</span></span>
 
-###### <a name="value-stream"></a>**поток создания ценности**
+###### <a name="value-stream"></a><span data-ttu-id="6ae69-416">**поток создания ценности**</span><span class="sxs-lookup"><span data-stu-id="6ae69-416">**value stream**</span></span>
 
-Операционная единица, которая контролирует один или несколько производственных потоков.
+<span data-ttu-id="6ae69-417">Операционная единица, которая контролирует один или несколько производственных потоков.</span><span class="sxs-lookup"><span data-stu-id="6ae69-417">An operating unit that controls one or more production flows.</span></span>
 
-###### <a name="variant-configuration-technology"></a>**метод конфигурации вариантов**
+###### <a name="variant-configuration-technology"></a><span data-ttu-id="6ae69-418">**метод конфигурации вариантов**</span><span class="sxs-lookup"><span data-stu-id="6ae69-418">**variant configuration technology**</span></span>
 
-Метод моделирования шаблонов продуктов и поиска конфигураций вариантов продуктов.
+<span data-ttu-id="6ae69-419">Метод моделирования шаблонов продуктов и поиска конфигураций вариантов продуктов.</span><span class="sxs-lookup"><span data-stu-id="6ae69-419">A method of modeling product masters and searching for product variant configurations.</span></span>
 
-###### <a name="vat-value-added-tax"></a>**НДС (налог на добавленную стоимость)**
+###### <a name="vat-value-added-tax"></a><span data-ttu-id="6ae69-420">**НДС (налог на добавленную стоимость)**</span><span class="sxs-lookup"><span data-stu-id="6ae69-420">**VAT (value-added tax)**</span></span>
 
-Налог на продукты на каждой стадии их производства, основанный на стоимости, добавленной во время выполнения соответствующей стадии.
+<span data-ttu-id="6ae69-421">Налог на продукты на каждой стадии их производства, основанный на стоимости, добавленной во время выполнения соответствующей стадии.</span><span class="sxs-lookup"><span data-stu-id="6ae69-421">A tax on products at each stage of their production based on the value added during that stage.</span></span>
 
-###### <a name="vendor-catalog"></a>**каталог поставщика**
+###### <a name="vendor-catalog"></a><span data-ttu-id="6ae69-422">**каталог поставщика**</span><span class="sxs-lookup"><span data-stu-id="6ae69-422">**vendor catalog**</span></span>
 
-Перечень предложений продуктов, которые доступны для покупки у поставщика.
+<span data-ttu-id="6ae69-423">Перечень предложений продуктов, которые доступны для покупки у поставщика.</span><span class="sxs-lookup"><span data-stu-id="6ae69-423">A listing of product offerings that are available for purchase from a vendor.</span></span>
 
-###### <a name="vendor-invoice"></a>**накладная поставщика**
+###### <a name="vendor-invoice"></a><span data-ttu-id="6ae69-424">**накладная поставщика**</span><span class="sxs-lookup"><span data-stu-id="6ae69-424">**vendor invoice**</span></span>
 
-Документ-источник, в котором документально оформляется запрос платежа поставщику. Накладная поставщика может ссылаться на один или несколько заказов на покупку. Когда накладная поставщика авторизована, поставщику может быть произведен платеж.
+<span data-ttu-id="6ae69-425">Документ-источник, в котором документально оформляется запрос платежа поставщику.</span><span class="sxs-lookup"><span data-stu-id="6ae69-425">A source document that documents a vendor payment request.</span></span> <span data-ttu-id="6ae69-426">Накладная поставщика может ссылаться на один или несколько заказов на покупку.</span><span class="sxs-lookup"><span data-stu-id="6ae69-426">A vendor invoice can refer to one or more purchase orders.</span></span> <span data-ttu-id="6ae69-427">Когда накладная поставщика авторизована, поставщику может быть произведен платеж.</span><span class="sxs-lookup"><span data-stu-id="6ae69-427">When the vendor invoice is authorized, a payment can be made to the vendor.</span></span>
 
-### <a name="w"></a>**W**
+### <a name="w"></a><span data-ttu-id="6ae69-428">**W**</span><span class="sxs-lookup"><span data-stu-id="6ae69-428">**W**</span></span>
 
-###### <a name="work-cell"></a>**производственная ячейка**
+###### <a name="work-cell"></a><span data-ttu-id="6ae69-429">**производственная ячейка**</span><span class="sxs-lookup"><span data-stu-id="6ae69-429">**work cell**</span></span>
 
-Группа ресурсов, участвующая в операции производственного потока.
+<span data-ttu-id="6ae69-430">Группа ресурсов, участвующая в операции производственного потока.</span><span class="sxs-lookup"><span data-stu-id="6ae69-430">A resource group that participates in a production flow activity.</span></span>
 
-###### <a name="worker"></a>**работник**
+###### <a name="worker"></a><span data-ttu-id="6ae69-431">**работник**</span><span class="sxs-lookup"><span data-stu-id="6ae69-431">**worker**</span></span>
 
-Лицо, принимающее роль сотрудника или подрядчика и принимающее плату в обмен на услуги.
+<span data-ttu-id="6ae69-432">Лицо, принимающее роль сотрудника или подрядчика и принимающее плату в обмен на услуги.</span><span class="sxs-lookup"><span data-stu-id="6ae69-432">A person who assumes the role of an employee or a contractor and is paid in exchange for services.</span></span>
 
-###### <a name="workspace"></a>**рабочая область**
+###### <a name="workspace"></a><span data-ttu-id="6ae69-433">**рабочая область**</span><span class="sxs-lookup"><span data-stu-id="6ae69-433">**workspace**</span></span>
 
-Страница, которая предоставляет обзор одного из мероприятий, которыми занимается пользователь. На этой странице есть плитки, списки и диаграммы для отображения ожидающей работы и связанных данных из нескольких источников. Кроме того, на нее выводятся часто выполняемые задачи, связанные с этими данными. Плитки, отображаемые в разделе сводки рабочей области, также отображаются в соответствующем разделе на панели мониторинга.
+<span data-ttu-id="6ae69-434">Страница, которая предоставляет обзор одного из мероприятий, которыми занимается пользователь.</span><span class="sxs-lookup"><span data-stu-id="6ae69-434">A page that provides an overview of one of the activities that the user performs.</span></span> <span data-ttu-id="6ae69-435">На этой странице есть плитки, списки и диаграммы для отображения ожидающей работы и связанных данных из нескольких источников. Кроме того, на нее выводятся часто выполняемые задачи, связанные с этими данными.</span><span class="sxs-lookup"><span data-stu-id="6ae69-435">The page uses tiles, lists, and charts to display pending work and related data from multiple sources, and the page surfaces frequent tasks related to this data.</span></span> <span data-ttu-id="6ae69-436">Плитки, отображаемые в разделе сводки рабочей области, также отображаются в соответствующем разделе на панели мониторинга.</span><span class="sxs-lookup"><span data-stu-id="6ae69-436">Tiles shown in the summary section of the workspace are also displayed in the related section in the dashboard.</span></span>
 

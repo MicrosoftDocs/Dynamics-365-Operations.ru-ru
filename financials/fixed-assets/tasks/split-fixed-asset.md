@@ -16,46 +16,46 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5aea1aab9f6b084bd0c5bd2119639bff3555bb8a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b4c1b39bcae1fa3830f3a217d1ad89e84cd72134
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="split-a-fixed-asset"></a>Разбивка ОС
+# <a name="split-a-fixed-asset"></a><span data-ttu-id="3c470-103">Разбивка ОС</span><span class="sxs-lookup"><span data-stu-id="3c470-103">Split a fixed asset</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-В данном руководстве по задаче показано, как разделить процент одной модели стоимости основного средства в новую модель стоимости основного средства.  В нем используется роль бухгалтера и демонстрационные данные USMF.
+<span data-ttu-id="3c470-104">В данном руководстве по задаче показано, как разделить процент одной модели стоимости основного средства в новую модель стоимости основного средства.</span><span class="sxs-lookup"><span data-stu-id="3c470-104">This task guide will split a percentage of one asset book to a new asset book.</span></span>  <span data-ttu-id="3c470-105">В нем используется роль бухгалтера и демонстрационные данные USMF.</span><span class="sxs-lookup"><span data-stu-id="3c470-105">It uses the Accountant role and USMF demo data.</span></span>
 
 
-## <a name="create-a-new-fixed-asset"></a>Создание нового основного средства
-1. Перейдите в раздел "Основные средства" > "Основные средства" > "Основные средства".
-2. Щелкните "Создать".
-3. В поле "Группа ОС" введите или выберите значение.
-4. Обратите внимание на номер основного средства для использования в процессе разбиения позже.
-5. В поле "Имя" введите значение.
-6. Закройте форму.
+## <a name="create-a-new-fixed-asset"></a><span data-ttu-id="3c470-106">Создание нового основного средства</span><span class="sxs-lookup"><span data-stu-id="3c470-106">Create a new fixed asset</span></span>
+1. <span data-ttu-id="3c470-107">Перейдите в раздел "Основные средства" > "Основные средства" > "Основные средства".</span><span class="sxs-lookup"><span data-stu-id="3c470-107">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
+2. <span data-ttu-id="3c470-108">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="3c470-108">Click New.</span></span>
+3. <span data-ttu-id="3c470-109">В поле "Группа ОС" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="3c470-109">In the Fixed asset group field, enter or select a value.</span></span>
+4. <span data-ttu-id="3c470-110">Обратите внимание на номер основного средства для использования в процессе разбиения позже.</span><span class="sxs-lookup"><span data-stu-id="3c470-110">Note the fixed asset number to use in the split process later.</span></span>
+5. <span data-ttu-id="3c470-111">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="3c470-111">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="3c470-112">Закройте форму.</span><span class="sxs-lookup"><span data-stu-id="3c470-112">Close the form.</span></span>
 
-## <a name="split-a-fixed-asset"></a>Разбивка ОС
-1. Найдите в списке основное средство для разбиения и выберите его.
-2. В списке перейдите по ссылке в выбранной строке.
-3. Нажмите "Книги".
-    * Выберите книгу для разбиения в новое основное средство.  
-4. Щелкните Функции.
-5. Щелкните "Разбивка ОС".
-6. В поле "В основные средства" введите или выберите значение.
-7. В поле "В книгу" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-8. В поле "Дата проводки" введите дату.
-9. В поле "Процент" введите число.
-10. В поле "Наименование журнала" введите или выберите значение.
-11. Нажмите кнопку "OК".
+## <a name="split-a-fixed-asset"></a><span data-ttu-id="3c470-113">Разбивка ОС</span><span class="sxs-lookup"><span data-stu-id="3c470-113">Split a fixed asset</span></span>
+1. <span data-ttu-id="3c470-114">Найдите в списке основное средство для разбиения и выберите его.</span><span class="sxs-lookup"><span data-stu-id="3c470-114">In the list, find and select the fixed asset to split.</span></span>
+2. <span data-ttu-id="3c470-115">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="3c470-115">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="3c470-116">Нажмите "Книги".</span><span class="sxs-lookup"><span data-stu-id="3c470-116">Click Books.</span></span>
+    * <span data-ttu-id="3c470-117">Выберите книгу для разбиения в новое основное средство.</span><span class="sxs-lookup"><span data-stu-id="3c470-117">Select the book to split to the new asset.</span></span>  
+4. <span data-ttu-id="3c470-118">Щелкните Функции.</span><span class="sxs-lookup"><span data-stu-id="3c470-118">Click Functions.</span></span>
+5. <span data-ttu-id="3c470-119">Щелкните "Разбивка ОС".</span><span class="sxs-lookup"><span data-stu-id="3c470-119">Click Split fixed asset.</span></span>
+6. <span data-ttu-id="3c470-120">В поле "В основные средства" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="3c470-120">In the To fixed asset field, enter or select a value.</span></span>
+7. <span data-ttu-id="3c470-121">В поле "В книгу" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="3c470-121">In the To book field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="3c470-122">В поле "Дата проводки" введите дату.</span><span class="sxs-lookup"><span data-stu-id="3c470-122">In the Transaction date field, enter a date.</span></span>
+9. <span data-ttu-id="3c470-123">В поле "Процент" введите число.</span><span class="sxs-lookup"><span data-stu-id="3c470-123">In the Percent field, enter a number.</span></span>
+10. <span data-ttu-id="3c470-124">В поле "Наименование журнала" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="3c470-124">In the Journal name field, enter or select a value.</span></span>
+11. <span data-ttu-id="3c470-125">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="3c470-125">Click OK.</span></span>
 
-## <a name="post-the-journal-transaction"></a>Разноска проводки по журналу
-1. Перейдите в раздел "Основные средства" > "Записи в журнале" > "Журнал основных средств".
-2. В списке выберите журнал, созданный в результате процесса разбиения.
-3. Щелкните "Строки".
-    * Проверьте созданные строки журнала.  Проводка о корректировке приобретения создается для исходного основного средства для уменьшения стоимости на процент, указанный в процессе разбиения.  Проводка приобретения создается для нового основного средства на ту же сумму.  
-4. Щелкните "Разнести".
+## <a name="post-the-journal-transaction"></a><span data-ttu-id="3c470-126">Разноска проводки по журналу</span><span class="sxs-lookup"><span data-stu-id="3c470-126">Post the journal transaction</span></span>
+1. <span data-ttu-id="3c470-127">Перейдите в раздел "Основные средства" > "Записи в журнале" > "Журнал основных средств".</span><span class="sxs-lookup"><span data-stu-id="3c470-127">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
+2. <span data-ttu-id="3c470-128">В списке выберите журнал, созданный в результате процесса разбиения.</span><span class="sxs-lookup"><span data-stu-id="3c470-128">In the list, select the journal created with the split process.</span></span>
+3. <span data-ttu-id="3c470-129">Щелкните "Строки".</span><span class="sxs-lookup"><span data-stu-id="3c470-129">Click Lines.</span></span>
+    * <span data-ttu-id="3c470-130">Проверьте созданные строки журнала.</span><span class="sxs-lookup"><span data-stu-id="3c470-130">Verify the journal lines created.</span></span>  <span data-ttu-id="3c470-131">Проводка о корректировке приобретения создается для исходного основного средства для уменьшения стоимости на процент, указанный в процессе разбиения.</span><span class="sxs-lookup"><span data-stu-id="3c470-131">An Acquisition adjustment transaction is created for the original asset to decrease the value by the percentage specified during the split process.</span></span>  <span data-ttu-id="3c470-132">Проводка приобретения создается для нового основного средства на ту же сумму.</span><span class="sxs-lookup"><span data-stu-id="3c470-132">An Acquisition transaction is created for the new asset for the same amount.</span></span>  
+4. <span data-ttu-id="3c470-133">Щелкните "Разнести".</span><span class="sxs-lookup"><span data-stu-id="3c470-133">Click Post.</span></span>
 
 

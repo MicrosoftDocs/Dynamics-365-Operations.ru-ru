@@ -20,48 +20,48 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 68e3d147621b9847c830b98d71ff2100095bec07
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e753edacb0e2e019d701745308e7d9190ef09fe8
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-mandatory"></a>Сводное планирование для покрытия объекта и склада, склад является обязательным
+# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-mandatory"></a><span data-ttu-id="2206f-104">Сводное планирование для покрытия объекта и склада, склад является обязательным</span><span class="sxs-lookup"><span data-stu-id="2206f-104">Master planning for site and warehouse coverage, warehouse mandatory</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-В этом разделе описывается, как планируется номенклатура, которая имеет место и склад в качестве аналитики покрытия. Аналитика склада обязательна.
+<span data-ttu-id="2206f-105">В этом разделе описывается, как планируется номенклатура, которая имеет место и склад в качестве аналитики покрытия.</span><span class="sxs-lookup"><span data-stu-id="2206f-105">This topic describes how an item that has site and warehouse as coverage dimensions is planned.</span></span> <span data-ttu-id="2206f-106">Аналитика склада обязательна.</span><span class="sxs-lookup"><span data-stu-id="2206f-106">The warehouse dimension is mandatory.</span></span>
 
-Сценарий сводного планирования включает следующие условия:
+<span data-ttu-id="2206f-107">Сценарий сводного планирования включает следующие условия:</span><span class="sxs-lookup"><span data-stu-id="2206f-107">This master planning scenario involves the following conditions:</span></span>
 
--   Аналитика узла задана как обязательная и должна быть введена для проводки по спросу.
--   Аналитика склад является обязательной и должна быть введена для проводки по спросу.
--   Аналитики узла и склада заданы для планирования покрытия. Другие аналитики также могут быть заданы для планирования покрытия. Однако, они не подвержены влиянию многоузловых функций.
+-   <span data-ttu-id="2206f-108">Аналитика узла задана как обязательная и должна быть введена для проводки по спросу.</span><span class="sxs-lookup"><span data-stu-id="2206f-108">The site dimension is set to mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="2206f-109">Аналитика склад является обязательной и должна быть введена для проводки по спросу.</span><span class="sxs-lookup"><span data-stu-id="2206f-109">The warehouse dimension is set to mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="2206f-110">Аналитики узла и склада заданы для планирования покрытия.</span><span class="sxs-lookup"><span data-stu-id="2206f-110">The site and warehouse dimensions are set for coverage planning.</span></span> <span data-ttu-id="2206f-111">Другие аналитики также могут быть заданы для планирования покрытия.</span><span class="sxs-lookup"><span data-stu-id="2206f-111">Other dimensions may be set for coverage planning also.</span></span> <span data-ttu-id="2206f-112">Однако, они не подвержены влиянию многоузловых функций.</span><span class="sxs-lookup"><span data-stu-id="2206f-112">However, they are not affected by the multisite functionality.</span></span>
 
-Следующий график иллюстрирует проведение сводного планирования. Параметры, упоминаемые на графике, и их местоположения приводятся ниже:
--   Для склада задано значение **Вручную**. Щелкните **Управление запасами &gt; Настройка &gt; Разделение запасов &gt; Склады**. На экспресс-вкладке **Сводное планирование** см. поле **Вручную**.
--   Покрытие номенклатуры определяется для данной номенклатуры. Щелкните **Управление сведениями о продукте &gt; Продукты &gt; Выпущенные продукты**. Выберите номенклатуру, затем на панели операций на вкладке **План** щелкните **Покрытие номенклатуры**.
--   Отношения пополнения определяются для склада. Щелкните **Управление запасами &gt; Настройка &gt; Разделение запасов &gt; Склады**. На экспресс-вкладке **Сводное планирование** см. группу поля **Главный склад**.
--   Тип заказа по умолчанию задается как производство, заказу на покупку или канбан. Щелкните **Управление сведениями о продукте &gt; Продукты &gt; Выпущенные продукты**. Выберите номенклатуру, затем на панели операций на вкладке **План** щелкните **Параметры заказа по умолчанию**. В форме **Параметры заказа по умолчанию** см. **Тип заказа по умолчанию**.
+<span data-ttu-id="2206f-113">Следующий график иллюстрирует проведение сводного планирования.</span><span class="sxs-lookup"><span data-stu-id="2206f-113">The following graphic illustrates how master planning proceeds.</span></span> <span data-ttu-id="2206f-114">Параметры, упоминаемые на графике, и их местоположения приводятся ниже:</span><span class="sxs-lookup"><span data-stu-id="2206f-114">The parameters that are referred to in the graphic, and their locations, are as follows:</span></span>
+-   <span data-ttu-id="2206f-115">Для склада задано значение **Вручную**.</span><span class="sxs-lookup"><span data-stu-id="2206f-115">The warehouse is set to **Manual**.</span></span> <span data-ttu-id="2206f-116">Щелкните **Управление запасами &gt; Настройка &gt; Разделение запасов &gt; Склады**.</span><span class="sxs-lookup"><span data-stu-id="2206f-116">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="2206f-117">На экспресс-вкладке **Сводное планирование** см. поле **Вручную**.</span><span class="sxs-lookup"><span data-stu-id="2206f-117">On the **Master planning** FastTab, see the **Manual** field.</span></span>
+-   <span data-ttu-id="2206f-118">Покрытие номенклатуры определяется для данной номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="2206f-118">Item coverage is defined for the item.</span></span> <span data-ttu-id="2206f-119">Щелкните **Управление сведениями о продукте &gt; Продукты &gt; Выпущенные продукты**.</span><span class="sxs-lookup"><span data-stu-id="2206f-119">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="2206f-120">Выберите номенклатуру, затем на панели операций на вкладке **План** щелкните **Покрытие номенклатуры**.</span><span class="sxs-lookup"><span data-stu-id="2206f-120">Select the item, and then, on the Action pane, on the **Plan** tab, click **Item coverage**.</span></span>
+-   <span data-ttu-id="2206f-121">Отношения пополнения определяются для склада.</span><span class="sxs-lookup"><span data-stu-id="2206f-121">Refill relations are defined for the warehouse.</span></span> <span data-ttu-id="2206f-122">Щелкните **Управление запасами &gt; Настройка &gt; Разделение запасов &gt; Склады**.</span><span class="sxs-lookup"><span data-stu-id="2206f-122">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="2206f-123">На экспресс-вкладке **Сводное планирование** см. группу поля **Главный склад**.</span><span class="sxs-lookup"><span data-stu-id="2206f-123">On the **Master planning** FastTab, see the **Main warehouse** field group.</span></span>
+-   <span data-ttu-id="2206f-124">Тип заказа по умолчанию задается как производство, заказу на покупку или канбан.</span><span class="sxs-lookup"><span data-stu-id="2206f-124">The default order type is set to Production, Purchase order, or Kanban.</span></span> <span data-ttu-id="2206f-125">Щелкните **Управление сведениями о продукте &gt; Продукты &gt; Выпущенные продукты**.</span><span class="sxs-lookup"><span data-stu-id="2206f-125">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="2206f-126">Выберите номенклатуру, затем на панели операций на вкладке **План** щелкните **Параметры заказа по умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="2206f-126">Select the item, and then, on the Action pane, on the **Plan** tab, click **Default order settings**.</span></span> <span data-ttu-id="2206f-127">В форме **Параметры заказа по умолчанию** см. **Тип заказа по умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="2206f-127">In the **Default order settings** form, see the **Default order type**.</span></span>
 
 ![Спрос для узла и покрытие склада, склад обязательный](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousemandatory.jpg)
 
 
 
-<a name="see-also"></a>См. также
+<a name="see-also"></a><span data-ttu-id="2206f-129">См. также</span><span class="sxs-lookup"><span data-stu-id="2206f-129">See also</span></span>
 --------
 
-[Сводное планирование и функция работы с несколькими узлами](master-plan-multisite-functionality.md)
+[<span data-ttu-id="2206f-130">Сводное планирование и функция работы с несколькими узлами</span><span class="sxs-lookup"><span data-stu-id="2206f-130">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
 
-[Сводное планирование — покрытие объекта, склад является обязательным](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="2206f-131">Сводное планирование — покрытие объекта, склад является обязательным</span><span class="sxs-lookup"><span data-stu-id="2206f-131">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Сводное планирование — покрытие объекта, склад не является обязательным](master-plan-site-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="2206f-132">Сводное планирование — покрытие объекта, склад не является обязательным</span><span class="sxs-lookup"><span data-stu-id="2206f-132">Master planning - site coverage, warehouse not mandatory</span></span>](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[Сводное планирование — покрытие объекта и склада, склад не является обязательным](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="2206f-133">Сводное планирование — покрытие объекта и склада, склад не является обязательным</span><span class="sxs-lookup"><span data-stu-id="2206f-133">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Сводное планирование — Определение версии спецификации](master-plan-bom-version-determined.md)
+[<span data-ttu-id="2206f-134">Сводное планирование — Определение версии спецификации</span><span class="sxs-lookup"><span data-stu-id="2206f-134">Master planning - How the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
 
 

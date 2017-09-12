@@ -16,73 +16,73 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: bc797d9bd6103c54a9f867b132f9d627f4a7d580
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 07eda1b065e34fe379080f3c7da186834039055e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-vendor-invoice-policies"></a>Настройка политик накладных поставщика
+# <a name="set-up-vendor-invoice-policies"></a><span data-ttu-id="a57f3-103">Настройка политик накладных поставщика</span><span class="sxs-lookup"><span data-stu-id="a57f3-103">Set up vendor invoice policies</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Политики накладных поставщиков применяются при разноске накладной поставщика с помощью страницы "Накладная поставщика" и при открытии страницы "Нарушения политики" накладной поставщика. Вы также можете настроить workflow-процесс накладной поставщика для выполнения политик накладных поставщиков при каждом отправлении накладной в workflow-процесс. 
+<span data-ttu-id="a57f3-104">Политики накладных поставщиков применяются при разноске накладной поставщика с помощью страницы "Накладная поставщика" и при открытии страницы "Нарушения политики" накладной поставщика.</span><span class="sxs-lookup"><span data-stu-id="a57f3-104">Vendor invoice policies are run when you post a vendor invoice by using the Vendor invoice page and when you open the vendor invoice Policy violations page.</span></span> <span data-ttu-id="a57f3-105">Вы также можете настроить workflow-процесс накладной поставщика для выполнения политик накладных поставщиков при каждом отправлении накладной в workflow-процесс.</span><span class="sxs-lookup"><span data-stu-id="a57f3-105">You can also configure the vendor invoice workflow to run vendor invoice policies every time that you submit an invoice to workflow.</span></span> 
 
-Политики накладных поставщиков не применяются к накладным, созданным в реестре или журнале накладных. 
+<span data-ttu-id="a57f3-106">Политики накладных поставщиков не применяются к накладным, созданным в реестре или журнале накладных.</span><span class="sxs-lookup"><span data-stu-id="a57f3-106">Vendor invoice policies do not apply to invoices that were created in the invoice register or invoice journal.</span></span> 
 
-При проверке сопоставления накладных не используются политики накладных поставщиков, проверка настраивается на странице "Параметры модуля расчетов с поставщиками".
+<span data-ttu-id="a57f3-107">При проверке сопоставления накладных не используются политики накладных поставщиков, проверка настраивается на странице "Параметры модуля расчетов с поставщиками".</span><span class="sxs-lookup"><span data-stu-id="a57f3-107">Invoice matching validation does not use vendor invoice policies, but is instead set up in the Accounts payable parameters page.</span></span>
 
-В данной записи используется демонстрационная компания USMF. Эти шаги выполняются ролями менеджера по расчету с поставщиками или главного бухгалтера. Перед началом работы убедитесь, что выбран конфигурационный ключ "Сопоставление накладных".
+<span data-ttu-id="a57f3-108">В данной записи используется демонстрационная компания USMF.</span><span class="sxs-lookup"><span data-stu-id="a57f3-108">This recording uses the USMF demo company.</span></span> <span data-ttu-id="a57f3-109">Эти шаги выполняются ролями менеджера по расчету с поставщиками или главного бухгалтера.</span><span class="sxs-lookup"><span data-stu-id="a57f3-109">The accounts payable manager or accounting manager role would perform these steps.</span></span> <span data-ttu-id="a57f3-110">Перед началом работы убедитесь, что выбран конфигурационный ключ "Сопоставление накладных".</span><span class="sxs-lookup"><span data-stu-id="a57f3-110">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span>
 
 
-## <a name="prepare-to-create-vendor-invoice-policies"></a>Подготовка к созданию политики накладных поставщиков
-1. Перейдите в раздел "Расчеты с поставщиками" > "Настройка" > "Параметры расчетов с поставщиками".
-2. Перейдите на вкладку "Проверка накладной".
-3. Установите или снимите флажок "Автоматически обновлять статус заголовка накладной".
-4. Нажмите кнопку OK.
-5. В поле "Разнести накладную с несоответствиями:" выберите вариант.
-6. Закройте страницу.
-7. Перейдите в раздел "Расчеты с поставщиками" > "Настройка политики" > "Политики накладных поставщиков".
-8. Щелкните "Параметры".
-9. Нажмите кнопку "Добавить".
-10. Закройте страницу.
+## <a name="prepare-to-create-vendor-invoice-policies"></a><span data-ttu-id="a57f3-111">Подготовка к созданию политики накладных поставщиков</span><span class="sxs-lookup"><span data-stu-id="a57f3-111">Prepare to create vendor invoice policies</span></span>
+1. <span data-ttu-id="a57f3-112">Перейдите в раздел "Расчеты с поставщиками" > "Настройка" > "Параметры расчетов с поставщиками".</span><span class="sxs-lookup"><span data-stu-id="a57f3-112">Go to Accounts payable > Setup > Accounts payable parameters.</span></span>
+2. <span data-ttu-id="a57f3-113">Перейдите на вкладку "Проверка накладной".</span><span class="sxs-lookup"><span data-stu-id="a57f3-113">Click the Invoice validation tab.</span></span>
+3. <span data-ttu-id="a57f3-114">Установите или снимите флажок "Автоматически обновлять статус заголовка накладной".</span><span class="sxs-lookup"><span data-stu-id="a57f3-114">Select or clear the Automatically update invoice header status check box.</span></span>
+4. <span data-ttu-id="a57f3-115">Нажмите кнопку OK.</span><span class="sxs-lookup"><span data-stu-id="a57f3-115">Click OK.</span></span>
+5. <span data-ttu-id="a57f3-116">В поле "Разнести накладную с несоответствиями:" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="a57f3-116">In the Post invoice with discrepancies field, select an option.</span></span>
+6. <span data-ttu-id="a57f3-117">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="a57f3-117">Close the page.</span></span>
+7. <span data-ttu-id="a57f3-118">Перейдите в раздел "Расчеты с поставщиками" > "Настройка политики" > "Политики накладных поставщиков".</span><span class="sxs-lookup"><span data-stu-id="a57f3-118">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
+8. <span data-ttu-id="a57f3-119">Щелкните "Параметры".</span><span class="sxs-lookup"><span data-stu-id="a57f3-119">Click Parameters.</span></span>
+9. <span data-ttu-id="a57f3-120">Нажмите кнопку "Добавить".</span><span class="sxs-lookup"><span data-stu-id="a57f3-120">Click btnAdd.</span></span>
+10. <span data-ttu-id="a57f3-121">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="a57f3-121">Close the page.</span></span>
 
-## <a name="create-policy-rule-types-for-vendor-invoices"></a>Создание типов правил политики для накладных поставщика
-1. Перейдите в раздел "Расчеты с поставщиками" > "Настройка политики" > "Типы правил политики для накладных поставщиков".
-2. Щелкните "Создать".
-3. В поле "Правило" введите значение.
-4. В поле "Описание" введите значение.
-5. В поле "Имя запроса" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-6. В списке найдите и выберите требуемую запись.
-7. В списке перейдите по ссылке в выбранной строке.
-8. Нажмите кнопку "Сохранить".
-9. Закройте страницу.
+## <a name="create-policy-rule-types-for-vendor-invoices"></a><span data-ttu-id="a57f3-122">Создание типов правил политики для накладных поставщика</span><span class="sxs-lookup"><span data-stu-id="a57f3-122">Create policy rule types for vendor invoices</span></span>
+1. <span data-ttu-id="a57f3-123">Перейдите в раздел "Расчеты с поставщиками" > "Настройка политики" > "Типы правил политики для накладных поставщиков".</span><span class="sxs-lookup"><span data-stu-id="a57f3-123">Go to Accounts payable > Policy setup > Vendor invoice policy rule types.</span></span>
+2. <span data-ttu-id="a57f3-124">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="a57f3-124">Click New.</span></span>
+3. <span data-ttu-id="a57f3-125">В поле "Правило" введите значение.</span><span class="sxs-lookup"><span data-stu-id="a57f3-125">In the Rule name field, type a value.</span></span>
+4. <span data-ttu-id="a57f3-126">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="a57f3-126">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="a57f3-127">В поле "Имя запроса" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="a57f3-127">In the Query name field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="a57f3-128">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="a57f3-128">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="a57f3-129">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="a57f3-129">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="a57f3-130">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="a57f3-130">Click Save.</span></span>
+9. <span data-ttu-id="a57f3-131">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="a57f3-131">Close the page.</span></span>
 
-## <a name="define-a-vendor-invoice-policy"></a>Определение политики накладных поставщиков
-1. Перейдите в раздел "Расчеты с поставщиками" > "Настройка политики" > "Политики накладных поставщиков".
-2. Щелкните "Создать".
-3. В поле "Имя" введите значение.
-4. В поле "Описание" введите значение.
-5. Разверните или сверните раздел "Организации политики".
-6. В дереве выберите "Contoso Entertainment System USA".
-7. Нажмите кнопку Добавить.
-8. Разверните или сверните раздел "Правила политики".
-9. Щелкните "Создать правило политики".
-10. В поле "Описание правила политики" введите значение.
-11. Щелкните "Фильтр".
-12. Нажмите кнопку Добавить.
-13. В списке пометьте выбранную строку.
-14. В поле "Таблица" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-15. В списке перейдите по ссылке в выбранной строке.
-16. В поле "Производная таблица" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-17. В списке перейдите по ссылке в выбранной строке.
-18. В поле "Поле" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-19. В поле "Поле" введите значение.
-20. Закройте страницу.
-21. В поле "Критерии" введите значение.
-22. Нажмите кнопку "OК".
-23. Нажмите кнопку "OК".
-24. Закройте страницу.
-25. Закройте страницу.
+## <a name="define-a-vendor-invoice-policy"></a><span data-ttu-id="a57f3-132">Определение политики накладных поставщиков</span><span class="sxs-lookup"><span data-stu-id="a57f3-132">Define a vendor invoice policy</span></span>
+1. <span data-ttu-id="a57f3-133">Перейдите в раздел "Расчеты с поставщиками" > "Настройка политики" > "Политики накладных поставщиков".</span><span class="sxs-lookup"><span data-stu-id="a57f3-133">Go to Accounts payable > Policy setup > Vendor invoice policies.</span></span>
+2. <span data-ttu-id="a57f3-134">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="a57f3-134">Click New.</span></span>
+3. <span data-ttu-id="a57f3-135">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="a57f3-135">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="a57f3-136">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="a57f3-136">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="a57f3-137">Разверните или сверните раздел "Организации политики".</span><span class="sxs-lookup"><span data-stu-id="a57f3-137">Expand or collapse the Policy organizations section.</span></span>
+6. <span data-ttu-id="a57f3-138">В дереве выберите "Contoso Entertainment System USA".</span><span class="sxs-lookup"><span data-stu-id="a57f3-138">In the tree, select 'Contoso Entertainment System USA'.</span></span>
+7. <span data-ttu-id="a57f3-139">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="a57f3-139">Click Add.</span></span>
+8. <span data-ttu-id="a57f3-140">Разверните или сверните раздел "Правила политики".</span><span class="sxs-lookup"><span data-stu-id="a57f3-140">Expand or collapse the Policy rules section.</span></span>
+9. <span data-ttu-id="a57f3-141">Щелкните "Создать правило политики".</span><span class="sxs-lookup"><span data-stu-id="a57f3-141">Click Create policy rule.</span></span>
+10. <span data-ttu-id="a57f3-142">В поле "Описание правила политики" введите значение.</span><span class="sxs-lookup"><span data-stu-id="a57f3-142">In the Policy rule description field, type a value.</span></span>
+11. <span data-ttu-id="a57f3-143">Щелкните "Фильтр".</span><span class="sxs-lookup"><span data-stu-id="a57f3-143">Click Filter.</span></span>
+12. <span data-ttu-id="a57f3-144">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="a57f3-144">Click Add.</span></span>
+13. <span data-ttu-id="a57f3-145">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="a57f3-145">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="a57f3-146">В поле "Таблица" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="a57f3-146">In the Table field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="a57f3-147">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="a57f3-147">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="a57f3-148">В поле "Производная таблица" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="a57f3-148">In the Derived table field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="a57f3-149">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="a57f3-149">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="a57f3-150">В поле "Поле" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="a57f3-150">In the Field field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="a57f3-151">В поле "Поле" введите значение.</span><span class="sxs-lookup"><span data-stu-id="a57f3-151">In the Field field, type a value.</span></span>
+20. <span data-ttu-id="a57f3-152">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="a57f3-152">Close the page.</span></span>
+21. <span data-ttu-id="a57f3-153">В поле "Критерии" введите значение.</span><span class="sxs-lookup"><span data-stu-id="a57f3-153">In the Criteria field, type a value.</span></span>
+22. <span data-ttu-id="a57f3-154">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="a57f3-154">Click OK.</span></span>
+23. <span data-ttu-id="a57f3-155">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="a57f3-155">Click OK.</span></span>
+24. <span data-ttu-id="a57f3-156">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="a57f3-156">Close the page.</span></span>
+25. <span data-ttu-id="a57f3-157">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="a57f3-157">Close the page.</span></span>
 
 

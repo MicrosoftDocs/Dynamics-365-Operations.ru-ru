@@ -19,33 +19,33 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e6d88503972850f6163aba6b45547a111f44abab
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 8859359f70132e9116e6a2d534a0f5f1d0bfeb80
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="process-allocations"></a>Обработка распределений
+# <a name="process-allocations"></a><span data-ttu-id="71509-105">Обработка распределений</span><span class="sxs-lookup"><span data-stu-id="71509-105">Process allocations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Эта статья представляет информацию о распределениях, параметры для обработки их в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, и как их можно использовать в бюджетном планировании. Распределения используются для распределения сумм на несколько комбинаций счетов ГК. Они помогают гарантировать, что расходы или выручка начисляется на правильные объекты учета.
+<span data-ttu-id="71509-106">Эта статья представляет информацию о распределениях, параметры для обработки их в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, и как их можно использовать в бюджетном планировании.</span><span class="sxs-lookup"><span data-stu-id="71509-106">This article provides information about allocations, the options for processing them in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, and how they can be used in budget planning.</span></span> <span data-ttu-id="71509-107">Распределения используются для распределения сумм на несколько комбинаций счетов ГК.</span><span class="sxs-lookup"><span data-stu-id="71509-107">Allocations are used to distribute amounts across multiple ledger account combinations.</span></span> <span data-ttu-id="71509-108">Они помогают гарантировать, что расходы или выручка начисляется на правильные объекты учета.</span><span class="sxs-lookup"><span data-stu-id="71509-108">They help guarantee that expenses or revenue is charged to the correct object in accounting.</span></span>
 
-Microsoft Dynamics 365 for Finance and Operations предоставляет следующие возможности для поддержки этого процесса.
+<span data-ttu-id="71509-109">Microsoft Dynamics 365 for Finance and Operations предоставляет следующие возможности для поддержки этого процесса.</span><span class="sxs-lookup"><span data-stu-id="71509-109">Microsoft Dynamics 365 for Finance and Operations provides the following capabilities to support this process:</span></span>
 
--   Распределение сумм проводок вручную с помощью действия "Разделить" в распределении по бухгалтерским счетам или путем применения шаблонов финансовых аналитик по умолчанию к документу. Дополнительные сведения см. в разделе [Распределения по бухгалтерским счетам.](../accounts-payable/accounting-distributions.md)
--   Автоматическое распределение сумм проводок на основании условий распределения, определенных в отдельном счете ГК. Записи счета распределения будут созданы для каждого журнала на основании процента и целевого счета ГК, когда запись учета соответствует критериям, определенным как исходный счет ГК.
--   Автоматическое распределение сальдо ГК или фиксированных сумм на основании правила распределения ГК. Правила распределения ГК обрабатываются на периодической основе с помощью журналов распределения. 
+-   <span data-ttu-id="71509-110">Распределение сумм проводок вручную с помощью действия "Разделить" в распределении по бухгалтерским счетам или путем применения шаблонов финансовых аналитик по умолчанию к документу.</span><span class="sxs-lookup"><span data-stu-id="71509-110">Manually allocate transaction amounts by using the Split action in accounting distributions, or by applying financial dimension default templates to a document.</span></span> <span data-ttu-id="71509-111">Дополнительные сведения см. в разделе [Распределения по бухгалтерским счетам.](../accounts-payable/accounting-distributions.md)</span><span class="sxs-lookup"><span data-stu-id="71509-111">For more information, see [Accounting distributions.](../accounts-payable/accounting-distributions.md)</span></span>
+-   <span data-ttu-id="71509-112">Автоматическое распределение сумм проводок на основании условий распределения, определенных в отдельном счете ГК.</span><span class="sxs-lookup"><span data-stu-id="71509-112">Automatically allocate transactions amounts based on allocation terms defined on individual main account.</span></span> <span data-ttu-id="71509-113">Записи счета распределения будут созданы для каждого журнала на основании процента и целевого счета ГК, когда запись учета соответствует критериям, определенным как исходный счет ГК.</span><span class="sxs-lookup"><span data-stu-id="71509-113">Allocation account entries will be generated for each journal based on the percentage and destination ledger account whenever an accounting entry meets the criteria defined as the source ledger account.</span></span>
+-   <span data-ttu-id="71509-114">Автоматическое распределение сальдо ГК или фиксированных сумм на основании правила распределения ГК.</span><span class="sxs-lookup"><span data-stu-id="71509-114">Automatically allocate ledger balances or fixed amounts based on ledger allocation rules.</span></span> <span data-ttu-id="71509-115">Правила распределения ГК обрабатываются на периодической основе с помощью журналов распределения.</span><span class="sxs-lookup"><span data-stu-id="71509-115">The ledger allocation rules are processed on a periodic basis using allocation journals.</span></span> 
 
-###  <a name="allocations-in-budget-planning"></a>Распределения в бюджетном планировании
+###  <a name="allocations-in-budget-planning"></a><span data-ttu-id="71509-116">Распределения в бюджетном планировании</span><span class="sxs-lookup"><span data-stu-id="71509-116">Allocations in budget planning</span></span>
 
-Правила распределения ГК можно использовать для бюджетных планов. Если правила распределения главной книги используются при бюджетном планировании, правила распределения работают таким же образом, как в главной книге, но исходные данные и конечные данные поступают из бюджетного плана. Правила распределения главной книги для использования в бюджетных планах можно выбрать вручную. В качестве альтернативы можно использовать график распределения, выполняемый в рамках workflow-процесса.
+<span data-ttu-id="71509-117">Правила распределения ГК можно использовать для бюджетных планов.</span><span class="sxs-lookup"><span data-stu-id="71509-117">Ledger allocation rules can be used for budget plans.</span></span> <span data-ttu-id="71509-118">Если правила распределения главной книги используются при бюджетном планировании, правила распределения работают таким же образом, как в главной книге, но исходные данные и конечные данные поступают из бюджетного плана.</span><span class="sxs-lookup"><span data-stu-id="71509-118">When you use ledger allocation rules in budget planning, the allocation rules work the same way they would in the ledger, but the source data and destination data comes from the budget plan.</span></span> <span data-ttu-id="71509-119">Правила распределения главной книги для использования в бюджетных планах можно выбрать вручную.</span><span class="sxs-lookup"><span data-stu-id="71509-119">You can manually select ledger allocation rules to use for budget plans.</span></span> <span data-ttu-id="71509-120">В качестве альтернативы можно использовать график распределения, выполняемый в рамках workflow-процесса.</span><span class="sxs-lookup"><span data-stu-id="71509-120">Alternatively, you can use an allocation schedule that runs as part of a workflow process.</span></span>
 
 > [!NOTE]
-> При бюджетной планировании невозможно использовать внутрихолдинговые правила распределения главной книги.
+> <span data-ttu-id="71509-121">При бюджетной планировании невозможно использовать внутрихолдинговые правила распределения главной книги.</span><span class="sxs-lookup"><span data-stu-id="71509-121">You can’t use intercompany ledger allocation rules for budget planning.</span></span>
 
 
 

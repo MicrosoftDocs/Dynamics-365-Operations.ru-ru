@@ -17,48 +17,48 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: bd584bbb49ea83c4debf11ad0169c346ef0f9637
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5d3b5690bfbd10b77e784d35d0c4f4518de58333
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="use-a-continuity-program"></a>Использование программы непрерывности
+# <a name="use-a-continuity-program"></a><span data-ttu-id="5cb8d-103">Использование программы непрерывности</span><span class="sxs-lookup"><span data-stu-id="5cb8d-103">Use a continuity program</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Эта процедура демонстрирует продажу в программе непрерывности и обработку соответствующих заказов на продажу. Чтобы выполнить эту процедуру, пользователь должен быть настроен в качестве пользователя центра обработки вызовов. В этой процедуре используется компания с демонстрационными данными USRT.
+<span data-ttu-id="5cb8d-104">Эта процедура демонстрирует продажу в программе непрерывности и обработку соответствующих заказов на продажу.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-104">This procedure walks through selling a continuity program and processing related sales orders.</span></span> <span data-ttu-id="5cb8d-105">Чтобы выполнить эту процедуру, пользователь должен быть настроен в качестве пользователя центра обработки вызовов.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-105">To complete this procedure, the user has to be set up as a call center user.</span></span> <span data-ttu-id="5cb8d-106">В этой процедуре используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-106">This procedure uses the USRT demo data company.</span></span>
 
-1. Перейдите в раздел "Розничная торговля и коммерция" > "Клиенты" > "Обслуживание клиентов".
-2. В поле SearchText введите "Karen" и нажмите клавишу TAB.
-    * Открывается диалоговое окно расширенного поиска. Если оно не открылось, нажмите кнопку "Поиск" справа от этого поля.  
-3. В списке пометьте выбранную строку.
-    * Должна быть только одна строка, в которой отображается имя Karen Berg. Выберите эту строку, нажав в столбце с флажками с левого края сетки.  
-4. Щелкните Выбрать.
-5. Щелкните "Новый заказ на продажу".
-    * Рекомендуется записать номер заказа на продажу. Он придется позже в этой процедуре.  
-6. В поле "Код номенклатуры" введите "88000", затем нажмите клавишу TAB.
-    * Это номенклатура непрерывности в демонстрационных данных USRT.  
-7. Щелкните "Завершить".
-8. В поле "Способ платежа" введите "Visa".
-9. Нажмите "Добавить кредитную карту".
-    * Введите требуемые сведения о кредитной карте на этой странице.  
-10. Нажмите кнопку "OК".
-11. Разверните раздел "Платеж".
-    * Чтобы отправить заказ центра обработки вызовов, необходимо ввести платежи для заказа.  
-12. Нажмите кнопку "OК".
-13. Щелкните Отправить.
-    * Создание нового заказа непрерывности завершено. Далее вы запустите два процесса пакетной обработки, используемые для обработки заказов непрерывности.  
-14. Закройте страницу.
-15. Перейдите в раздел "Розничная торговля и коммерция" > "Непрерывность" > "Обработать платежи непрерывности".
-16. В поле "Номенклатура непрерывности" введите "88000", затем нажмите клавишу TAB.
-17. Нажмите кнопку "OК".
-18. Перейдите в раздел "Розничная торговля и коммерция" > "Непрерывность" > "Создать дочерние непрерывные заказы".
-    * Этот процесс создаст новые заказы на продажу на основании настроек ваших программ непрерывности.  
-19. В поле "Номенклатура непрерывности" введите "88000", затем нажмите клавишу TAB.
-    * Номенклатура "88000" является номенклатурой непрерывности в демонстрационных данных USRT.  
-20. В поле "Заказ на продажу" введите или выберите значение.
-    * Введите номер заказа на продажу, который записали ранее в этой процедуре. Это сведет к минимуму время обработки для этой процедуры. Поле "Заказ на продажу" не является обязательным — можно обработать все заказы для любой одной программы.  
-21. Нажмите кнопку "OК".
+1. <span data-ttu-id="5cb8d-107">Перейдите в раздел "Розничная торговля и коммерция" > "Клиенты" > "Обслуживание клиентов".</span><span class="sxs-lookup"><span data-stu-id="5cb8d-107">Go to Retail and commerce > Customers > Customer service.</span></span>
+2. <span data-ttu-id="5cb8d-108">В поле SearchText введите "Karen" и нажмите клавишу TAB.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-108">In the SearchText field, type 'Karen' and then press the Tab key.</span></span>
+    * <span data-ttu-id="5cb8d-109">Открывается диалоговое окно расширенного поиска.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-109">The advanced search dialog should pop up.</span></span> <span data-ttu-id="5cb8d-110">Если оно не открылось, нажмите кнопку "Поиск" справа от этого поля.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-110">If it doesn't, click Search to the right of this field.</span></span>  
+3. <span data-ttu-id="5cb8d-111">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-111">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="5cb8d-112">Должна быть только одна строка, в которой отображается имя Karen Berg.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-112">There should be only one row with Karen Berg showing.</span></span> <span data-ttu-id="5cb8d-113">Выберите эту строку, нажав в столбце с флажками с левого края сетки.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-113">Select the row by clicking on the checkmark column on the far left of the grid.</span></span>  
+4. <span data-ttu-id="5cb8d-114">Щелкните Выбрать.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-114">Click Select.</span></span>
+5. <span data-ttu-id="5cb8d-115">Щелкните "Новый заказ на продажу".</span><span class="sxs-lookup"><span data-stu-id="5cb8d-115">Click New sales order.</span></span>
+    * <span data-ttu-id="5cb8d-116">Рекомендуется записать номер заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-116">It's a good idea to note the sales order number.</span></span> <span data-ttu-id="5cb8d-117">Он придется позже в этой процедуре.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-117">You'll need it later in this procedure.</span></span>  
+6. <span data-ttu-id="5cb8d-118">В поле "Код номенклатуры" введите "88000", затем нажмите клавишу TAB.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-118">In the Item number field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="5cb8d-119">Это номенклатура непрерывности в демонстрационных данных USRT.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-119">This is a continuity item in the USRT demo data.</span></span>  
+7. <span data-ttu-id="5cb8d-120">Щелкните "Завершить".</span><span class="sxs-lookup"><span data-stu-id="5cb8d-120">Click Complete.</span></span>
+8. <span data-ttu-id="5cb8d-121">В поле "Способ платежа" введите "Visa".</span><span class="sxs-lookup"><span data-stu-id="5cb8d-121">In the Payment method field, enter 'Visa'.</span></span>
+9. <span data-ttu-id="5cb8d-122">Нажмите "Добавить кредитную карту".</span><span class="sxs-lookup"><span data-stu-id="5cb8d-122">Click Add credit card.</span></span>
+    * <span data-ttu-id="5cb8d-123">Введите требуемые сведения о кредитной карте на этой странице.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-123">Enter the required credit card information on this page.</span></span>  
+10. <span data-ttu-id="5cb8d-124">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="5cb8d-124">Click OK.</span></span>
+11. <span data-ttu-id="5cb8d-125">Разверните раздел "Платеж".</span><span class="sxs-lookup"><span data-stu-id="5cb8d-125">Expand the Payment section.</span></span>
+    * <span data-ttu-id="5cb8d-126">Чтобы отправить заказ центра обработки вызовов, необходимо ввести платежи для заказа.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-126">To submit a call center order, payments have to be entered for the order.</span></span>  
+12. <span data-ttu-id="5cb8d-127">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="5cb8d-127">Click OK.</span></span>
+13. <span data-ttu-id="5cb8d-128">Щелкните Отправить.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-128">Click Submit.</span></span>
+    * <span data-ttu-id="5cb8d-129">Создание нового заказа непрерывности завершено.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-129">You're done creating a new continuity order.</span></span> <span data-ttu-id="5cb8d-130">Далее вы запустите два процесса пакетной обработки, используемые для обработки заказов непрерывности.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-130">Next, you'll run two batch processes that are used to process the continuity orders.</span></span>  
+14. <span data-ttu-id="5cb8d-131">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-131">Close the page.</span></span>
+15. <span data-ttu-id="5cb8d-132">Перейдите в раздел "Розничная торговля и коммерция" > "Непрерывность" > "Обработать платежи непрерывности".</span><span class="sxs-lookup"><span data-stu-id="5cb8d-132">Go to Retail and commerce > Continuity > Process continuity payments.</span></span>
+16. <span data-ttu-id="5cb8d-133">В поле "Номенклатура непрерывности" введите "88000", затем нажмите клавишу TAB.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-133">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+17. <span data-ttu-id="5cb8d-134">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="5cb8d-134">Click OK.</span></span>
+18. <span data-ttu-id="5cb8d-135">Перейдите в раздел "Розничная торговля и коммерция" > "Непрерывность" > "Создать дочерние непрерывные заказы".</span><span class="sxs-lookup"><span data-stu-id="5cb8d-135">Go to Retail and commerce > Continuity > Create continuity child orders.</span></span>
+    * <span data-ttu-id="5cb8d-136">Этот процесс создаст новые заказы на продажу на основании настроек ваших программ непрерывности.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-136">This process will create new sales orders based on the settings of your continuity programs.</span></span>  
+19. <span data-ttu-id="5cb8d-137">В поле "Номенклатура непрерывности" введите "88000", затем нажмите клавишу TAB.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-137">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="5cb8d-138">Номенклатура "88000" является номенклатурой непрерывности в демонстрационных данных USRT.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-138">Item '88000' is a continuity item in the USRT demo data.</span></span>  
+20. <span data-ttu-id="5cb8d-139">В поле "Заказ на продажу" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-139">In the Sales order field, enter or select a value.</span></span>
+    * <span data-ttu-id="5cb8d-140">Введите номер заказа на продажу, который записали ранее в этой процедуре.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-140">Enter the sales order number that you noted earlier in the procedure.</span></span> <span data-ttu-id="5cb8d-141">Это сведет к минимуму время обработки для этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-141">This will keep the processing time to a minimal for this procedure.</span></span> <span data-ttu-id="5cb8d-142">Поле "Заказ на продажу" не является обязательным — можно обработать все заказы для любой одной программы.</span><span class="sxs-lookup"><span data-stu-id="5cb8d-142">The Sales order field field is optional--you could process all orders for any one program.</span></span>  
+21. <span data-ttu-id="5cb8d-143">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="5cb8d-143">Click OK.</span></span>
 
 

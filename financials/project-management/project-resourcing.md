@@ -18,246 +18,246 @@ ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a7275e9ad8d655d0d2ee5ba90a792775dec0cf05
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: fc36d399759b6321995f9bd827849c8a0bced090
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="project-resourcing"></a>Выделение ресурсов проекту
+# <a name="project-resourcing"></a><span data-ttu-id="57599-103">Выделение ресурсов проекту</span><span class="sxs-lookup"><span data-stu-id="57599-103">Project resourcing</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Этот раздел содержит сведения о выделении ресурсов проекту.
+<span data-ttu-id="57599-104">Этот раздел содержит сведения о выделении ресурсов проекту.</span><span class="sxs-lookup"><span data-stu-id="57599-104">This topic provides information about project resourcing.</span></span>
 
-Одна из проблем для менеджеров проекта и менеджеров по ресурсам на стадии планирования проектов — это распределение ресурсов, где они должны определить и зарезервировать требуемый ресурс для работы в проекте. В Microsoft Dynamics 365 for Finance and Operations, Enterprise edition возможности выделения ресурсов для проектов позволяют определить роли, рассматриваемые как временные ресурсы, которые могут быть зарезервированы для конкретного обязательства или части обязательства. Этот тип выделения ресурсов позволяет менеджерам проекта и менеджерам по ресурсам выполнять указанные ниже задачи.
+<span data-ttu-id="57599-105">Одна из проблем для менеджеров проекта и менеджеров по ресурсам на стадии планирования проектов — это распределение ресурсов, где они должны определить и зарезервировать требуемый ресурс для работы в проекте.</span><span class="sxs-lookup"><span data-stu-id="57599-105">One challenge for project managers and resource managers during the project planning stage is resource allocation, where they must determine and reserve the correct resource to work on a project.</span></span> <span data-ttu-id="57599-106">В Microsoft Dynamics 365 for Finance and Operations, Enterprise edition возможности выделения ресурсов для проектов позволяют определить роли, рассматриваемые как временные ресурсы, которые могут быть зарезервированы для конкретного обязательства или части обязательства.</span><span class="sxs-lookup"><span data-stu-id="57599-106">In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, resourcing capabilities for projects let you define roles that are treated as temporary resources that can be reserved for a specific engagement, or part of an engagement.</span></span> <span data-ttu-id="57599-107">Этот тип выделения ресурсов позволяет менеджерам проекта и менеджерам по ресурсам выполнять указанные ниже задачи.</span><span class="sxs-lookup"><span data-stu-id="57599-107">This type of resourcing lets project managers and resource managers complete the following tasks:</span></span>
 
--   Определить роль, имеющую необходимые компетенции, чтобы упростить сопоставление ресурсов.
--   Использовать роли для определения начального плана обязательства, основанного на зарезервированных ресурсах.
--   Оценить затраты и определить исходный бюджет в зависимости от назначенных ролей и ресурсов для проекта.
--   Использовать роли для оценки количества зарезервированных ресурсов, необходимых для каждого обязательства.
--   Оценить количества ресурсов, необходимых для всего жизненного цикла проекта.
--   Составить черновик структурной декомпозиции работ (СДР), используя исходные назначения ресурсов.
+-   <span data-ttu-id="57599-108">Определить роль, имеющую необходимые компетенции, чтобы упростить сопоставление ресурсов.</span><span class="sxs-lookup"><span data-stu-id="57599-108">Define a role that has the required competencies to make it easy to match resources.</span></span>
+-   <span data-ttu-id="57599-109">Использовать роли для определения начального плана обязательства, основанного на зарезервированных ресурсах.</span><span class="sxs-lookup"><span data-stu-id="57599-109">Use roles to define an initial engagement schedule that is based on reserved resources.</span></span>
+-   <span data-ttu-id="57599-110">Оценить затраты и определить исходный бюджет в зависимости от назначенных ролей и ресурсов для проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-110">Estimate costs and determine an initial budget, based on assigned roles and resources for a project.</span></span>
+-   <span data-ttu-id="57599-111">Использовать роли для оценки количества зарезервированных ресурсов, необходимых для каждого обязательства.</span><span class="sxs-lookup"><span data-stu-id="57599-111">Use roles to estimate the number of resource reservations that are required for each engagement.</span></span>
+-   <span data-ttu-id="57599-112">Оценить количества ресурсов, необходимых для всего жизненного цикла проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-112">Estimate the number of resources that are required for the entire life cycle of a project.</span></span>
+-   <span data-ttu-id="57599-113">Составить черновик структурной декомпозиции работ (СДР), используя исходные назначения ресурсов.</span><span class="sxs-lookup"><span data-stu-id="57599-113">Draft a work breakdown structure (WBS) by using the initial resource assignments.</span></span>
 
-[![Жизненный цикл проекта](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg) 
+<span data-ttu-id="57599-114">[![Жизненный цикл проекта](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)</span><span class="sxs-lookup"><span data-stu-id="57599-114">[![Project life cycle](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)</span></span> 
 
-В процессе дальнейшего планирования проекта запланированные ресурсы могут заменяться укомплектованными ресурсами. Менеджер проекта может также вернуться на предыдущий этап и обновить резервирования ресурсов на любых этапах проекта.
+<span data-ttu-id="57599-115">В процессе дальнейшего планирования проекта запланированные ресурсы могут заменяться укомплектованными ресурсами.</span><span class="sxs-lookup"><span data-stu-id="57599-115">As project planning proceeds, planned resources can be replaced with staffed resources.</span></span> <span data-ttu-id="57599-116">Менеджер проекта может также вернуться на предыдущий этап и обновить резервирования ресурсов на любых этапах проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-116">The project manager can also go back and update the resourcing reservations during any of the project stages.</span></span>
 
-## <a name="set-up-project-resources"></a>Настройка ресурсов проектов
-Необходимо настроить календарь и связать его с сотрудником или работником. Календарь используется для планирования проекта и рабочего времени ресурсов, которые зарезервированы для проекта. При настройке календаря менеджеры проектов могут выполнять выравнивание ресурсов как часть оптимизации ресурсов. На основе расписания календаря на ресурсы можно накладывать ограничения. Можно настроить календарь на странице **Календари**. 
+## <a name="set-up-project-resources"></a><span data-ttu-id="57599-117">Настройка ресурсов проектов</span><span class="sxs-lookup"><span data-stu-id="57599-117">Set up project resources</span></span>
+<span data-ttu-id="57599-118">Необходимо настроить календарь и связать его с сотрудником или работником.</span><span class="sxs-lookup"><span data-stu-id="57599-118">You must set up a calendar and associate it with an employee or a worker.</span></span> <span data-ttu-id="57599-119">Календарь используется для планирования проекта и рабочего времени ресурсов, которые зарезервированы для проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-119">The calendar is used to schedule the project and the working time of the resources that are reserved for the project.</span></span> <span data-ttu-id="57599-120">При настройке календаря менеджеры проектов могут выполнять выравнивание ресурсов как часть оптимизации ресурсов.</span><span class="sxs-lookup"><span data-stu-id="57599-120">During calendar setup, project managers can perform resource leveling as part of resource optimization.</span></span> <span data-ttu-id="57599-121">На основе расписания календаря на ресурсы можно накладывать ограничения.</span><span class="sxs-lookup"><span data-stu-id="57599-121">Based on the calendar schedule, restrictions can be placed on resources.</span></span> <span data-ttu-id="57599-122">Можно настроить календарь на странице **Календари**.</span><span class="sxs-lookup"><span data-stu-id="57599-122">You can set up a calendar on the **Calendars** page.</span></span> 
 
-При настройке работника в качестве ресурса проекта можно выбирать из сотрудников, работающих в компании, для которой выполняется настройка ресурсов, или можно выбирать работников из других компаний в вашей организации. Это внутрихолдинговые ресурсы. Следующие процедуры показывают, как настроить работника в качестве ресурса проекта в рамках вашей компании, а также как настроить внутрихолдинговый ресурс проекта.
+<span data-ttu-id="57599-123">При настройке работника в качестве ресурса проекта можно выбирать из сотрудников, работающих в компании, для которой выполняется настройка ресурсов, или можно выбирать работников из других компаний в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="57599-123">When you set up a worker as a project resource, you can select from workers that work in the company for which you are setting up resources or, you can select workers from other companies within your organization.</span></span> <span data-ttu-id="57599-124">Это внутрихолдинговые ресурсы.</span><span class="sxs-lookup"><span data-stu-id="57599-124">These are intercompany resources.</span></span> <span data-ttu-id="57599-125">Следующие процедуры показывают, как настроить работника в качестве ресурса проекта в рамках вашей компании, а также как настроить внутрихолдинговый ресурс проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-125">The following procedures explain how to set up a worker as a project resource within your company and how to set up an intercompany project resource.</span></span>
 
-### <a name="set-up-a-worker-as-a-project-resource"></a>Настройка работника в качестве ресурса проекта
+### <a name="set-up-a-worker-as-a-project-resource"></a><span data-ttu-id="57599-126">Настройка работника в качестве ресурса проекта</span><span class="sxs-lookup"><span data-stu-id="57599-126">Set up a worker as a project resource</span></span>
 
-1.  На странице **Работники** в списке **Работники** выберите работника, добавленного как ресурс проекта, и откройте запись работника.
-2.  В области действий щелкните **Проект** &gt; **Настройка** &gt; **Настройка проекта**.
-3.  Выберите календарь, затем закройте страницу.
+1.  <span data-ttu-id="57599-127">На странице **Работники** в списке **Работники** выберите работника, добавленного как ресурс проекта, и откройте запись работника.</span><span class="sxs-lookup"><span data-stu-id="57599-127">On the **Workers** page, in the **Workers** list, select the worker that you're adding as a project resource, and open the worker record.</span></span>
+2.  <span data-ttu-id="57599-128">В области действий щелкните **Проект** &gt; **Настройка** &gt; **Настройка проекта**.</span><span class="sxs-lookup"><span data-stu-id="57599-128">On the Action Pane, click **Project** &gt; **Setup** &gt; **Project setup**.</span></span>
+3.  <span data-ttu-id="57599-129">Выберите календарь, затем закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="57599-129">Select a calendar, and then close the page.</span></span>
 
-Можно также указать проекты по умолчанию для ресурса в качестве типа предварительного назначения. Предварительные назначения можно использовать, когда менеджер ресурсов или менеджер проекта заранее знают, над какими проектами будет работать ресурс. Предварительные назначения могут также основываться на запросе спонсора проекта или клиента. Чтобы задать предварительные назначения для проекта, на странице **Назначение проектов** на вкладке **Проекты** в списке **Остальные проекты** выберите соответствующий проект.
+<span data-ttu-id="57599-130">Можно также указать проекты по умолчанию для ресурса в качестве типа предварительного назначения.</span><span class="sxs-lookup"><span data-stu-id="57599-130">You can also specify default projects for a resource as a type of pre-assignment.</span></span> <span data-ttu-id="57599-131">Предварительные назначения можно использовать, когда менеджер ресурсов или менеджер проекта заранее знают, над какими проектами будет работать ресурс.</span><span class="sxs-lookup"><span data-stu-id="57599-131">Pre-assignments can be used when the resource manager or project manager knows which projects the resource will be working on in advance.</span></span> <span data-ttu-id="57599-132">Предварительные назначения могут также основываться на запросе спонсора проекта или клиента.</span><span class="sxs-lookup"><span data-stu-id="57599-132">Pre-assignments can also be based on the request of a project sponsor or customer.</span></span> <span data-ttu-id="57599-133">Чтобы задать предварительные назначения для проекта, на странице **Назначение проектов** на вкладке **Проекты** в списке **Остальные проекты** выберите соответствующий проект.</span><span class="sxs-lookup"><span data-stu-id="57599-133">To pre-assign a project, on the **Assign projects** page, on the **Projects** tab, in the **Remaining projects** list, select the appropriate project.</span></span>
 
-### <a name="set-up-an-intercompany-resource"></a>Настройка внутрихолдингового ресурса
+### <a name="set-up-an-intercompany-resource"></a><span data-ttu-id="57599-134">Настройка внутрихолдингового ресурса</span><span class="sxs-lookup"><span data-stu-id="57599-134">Set up an intercompany resource</span></span>
 
-При настройке работника в качестве внутрихолдингового ресурса необходимо выполнить настройку в компании-арендодателе и в заимствующей компании. 
+<span data-ttu-id="57599-135">При настройке работника в качестве внутрихолдингового ресурса необходимо выполнить настройку в компании-арендодателе и в заимствующей компании.</span><span class="sxs-lookup"><span data-stu-id="57599-135">When you set up a worker as an intercompany resource, you must complete the setup in the lending company and the borrowing company.</span></span> 
 
-**В компании-арендодателе:**
+<span data-ttu-id="57599-136">**В компании-арендодателе:**</span><span class="sxs-lookup"><span data-stu-id="57599-136">**In the lending company:**</span></span>
 
-1.  В Finance and Operations убедитесь, что выбрана компания-арендодатель, затем выполните описанную выше процедуру, "Настройка работника в качестве ресурса проекта".
-2.  Последовательно выберите пункты **Главная книга **&gt; **Настройка разноски **&gt; **Внутрихолдинговый учет**. Нажмите **Создать**.
-3.  В поле **Код юридического лица **выберите компанию-арендодателя. Требуемым образом заполните оставшиеся поля и нажмите кнопку **Сохранить**.
-4.  Перейдите к пункту **Управление и учет по проектам **&gt; **Настройкам **&gt; **Цены ** &gt; **Трансферная цена**.** **
-5.  В форме **Трансферная цена **щелкните **Создать**, затем в поле ** Получающее юридическое лицо **выберите соответствующую компанию.
-6.  Если требуется только передать в аренду заимствующей компании ресурс, созданный в начале этого раздела, в поле **Ресурс** выберите имя ресурса, который был создан. Если требуется, чтобы все ресурсы в этой компании были доступны заимствующей компании, оставьте поле **Ресурс **пустым.
-7.  Выберите **Управление и учет по проектам **&gt; **Настройка **&gt; **Параметры модуля "Управление и учет по проектам"** и на вкладке **Внутрихолдинговый ** задайте в поле **Включить планирование и графики внутрихолдинговых ресурсов **значение **Да**.
+1.  <span data-ttu-id="57599-137">В Finance and Operations убедитесь, что выбрана компания-арендодатель, затем выполните описанную выше процедуру, "Настройка работника в качестве ресурса проекта".</span><span class="sxs-lookup"><span data-stu-id="57599-137">In Finance and Operations, verify that the lending company is selected, and then complete the procedure above, "Set up a worker as a project resource."</span></span>
+2.  <span data-ttu-id="57599-138">Последовательно выберите пункты **Главная книга **&gt; **Настройка разноски **&gt; **Внутрихолдинговый учет**.</span><span class="sxs-lookup"><span data-stu-id="57599-138">Go to **General ledger **&gt; **Posting setup **&gt; **Intercompany accounting**.</span></span> <span data-ttu-id="57599-139">Нажмите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="57599-139">Click **New**.</span></span>
+3.  <span data-ttu-id="57599-140">В поле **Код юридического лица **выберите компанию-арендодателя.</span><span class="sxs-lookup"><span data-stu-id="57599-140">In the **Legal entity ID **field, select the lending company.</span></span> <span data-ttu-id="57599-141">Требуемым образом заполните оставшиеся поля и нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="57599-141">Fill in the remaining fields as appropriate, and then click **Save**.</span></span>
+4.  <span data-ttu-id="57599-142">Перейдите к пункту **Управление и учет по проектам **&gt; **Настройкам **&gt; **Цены ** &gt; **Трансферная цена**.**</span><span class="sxs-lookup"><span data-stu-id="57599-142">Go the **Project management and accounting **&gt; **Setup **&gt; **Prices ** &gt; **Transfer price**.**</span></span> **
+5.  <span data-ttu-id="57599-143">В форме **Трансферная цена **щелкните **Создать**, затем в поле ** Получающее юридическое лицо **выберите соответствующую компанию.</span><span class="sxs-lookup"><span data-stu-id="57599-143">On the **Transfer price **form, click **New**, and in the **Borrowing legal entity **field, select the appropriate company.</span></span>
+6.  <span data-ttu-id="57599-144">Если требуется только передать в аренду заимствующей компании ресурс, созданный в начале этого раздела, в поле **Ресурс** выберите имя ресурса, который был создан.</span><span class="sxs-lookup"><span data-stu-id="57599-144">If you want to only loan the borrowing company the resource that you created at the beginning of this section, in the **Resource** field, select the name of the resource that you created.</span></span> <span data-ttu-id="57599-145">Если требуется, чтобы все ресурсы в этой компании были доступны заимствующей компании, оставьте поле **Ресурс **пустым.</span><span class="sxs-lookup"><span data-stu-id="57599-145">If you want to make all resources in the company available to the borrowing company, leave the **Resource **field blank.</span></span>
+7.  <span data-ttu-id="57599-146">Выберите **Управление и учет по проектам **&gt; **Настройка **&gt; **Параметры модуля "Управление и учет по проектам"** и на вкладке **Внутрихолдинговый ** задайте в поле **Включить планирование и графики внутрихолдинговых ресурсов **значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="57599-146">Go to **Project management and accounting **&gt; **Setup **&gt; **Project management and accounting parameters**, and on the **Intercompany **tab, set the **Enable intercompany resource scheduling and timesheets **field to **Yes**.</span></span>
 
-**В заимствующей компании:**
+<span data-ttu-id="57599-147">**В заимствующей компании:**</span><span class="sxs-lookup"><span data-stu-id="57599-147">**In the borrowing company:**</span></span>
 
-1.  Перейдите в раздел **Управление и учет по проектам** &gt; **Ресурсы проекта** &gt; **Список ресурсов**.
-2.  В фильтре поиска введите имя ресурса, созданного в предыдущей процедуре для компании-арендодателя, чтобы убедиться, что это имя включено в список ресурсов для заимствующей компании.
+1.  <span data-ttu-id="57599-148">Перейдите в раздел **Управление и учет по проектам** &gt; **Ресурсы проекта** &gt; **Список ресурсов**.</span><span class="sxs-lookup"><span data-stu-id="57599-148">Go to **Project management and accounting** &gt; **Project resources** &gt; **Resources list**.</span></span>
+2.  <span data-ttu-id="57599-149">В фильтре поиска введите имя ресурса, созданного в предыдущей процедуре для компании-арендодателя, чтобы убедиться, что это имя включено в список ресурсов для заимствующей компании.</span><span class="sxs-lookup"><span data-stu-id="57599-149">In the search filter, enter the name of the resource that you created in the previous procedure for the lending company to verify that the name is included in the resource list for the borrowing company.</span></span>
 
-## <a name="manage-resource-competencies"></a>Управление компетенциями ресурса
-Компетенции ресурса являются важной частью управления ресурсами. Компетенции можно использовать как базис для определения ресурсов, которые имеют правильный баланс навыков, образования, наличия сертификатов и проектного опыта. Необходимо настроить эту информацию для каждого из ресурсов и регулярно обновлять ее. Таким образом можно максимально увеличить возможности, когда компетенции определенных трудовых ресурсов совпадают во время назначения ресурсов проекта. [![Примеры навыков, сертификаций, образования и проектного опыта](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg) 
+## <a name="manage-resource-competencies"></a><span data-ttu-id="57599-150">Управление компетенциями ресурса</span><span class="sxs-lookup"><span data-stu-id="57599-150">Manage resource competencies</span></span>
+<span data-ttu-id="57599-151">Компетенции ресурса являются важной частью управления ресурсами.</span><span class="sxs-lookup"><span data-stu-id="57599-151">Resource competencies are an essential part of resource management.</span></span> <span data-ttu-id="57599-152">Компетенции можно использовать как базис для определения ресурсов, которые имеют правильный баланс навыков, образования, наличия сертификатов и проектного опыта.</span><span class="sxs-lookup"><span data-stu-id="57599-152">Competencies can be used as a baseline to determine resources that have the correct balance of skills, education, certification, and project experience.</span></span> <span data-ttu-id="57599-153">Необходимо настроить эту информацию для каждого из ресурсов и регулярно обновлять ее.</span><span class="sxs-lookup"><span data-stu-id="57599-153">You should set up this information for each resource and update it on a regular basis.</span></span> <span data-ttu-id="57599-154">Таким образом можно максимально увеличить возможности, когда компетенции определенных трудовых ресурсов совпадают во время назначения ресурсов проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-154">In this way, you can maximize capabilities when specific resource competencies are matched during project resource assignment.</span></span> <span data-ttu-id="57599-155">[![Примеры навыков, сертификаций, образования и проектного опыта](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)</span><span class="sxs-lookup"><span data-stu-id="57599-155">[![Examples of skills, certifications, education, and project experience](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)</span></span> 
 
-Следующие процедуры показывают, как настроить некоторые компетенции для ресурса. 
+<span data-ttu-id="57599-156">Следующие процедуры показывают, как настроить некоторые компетенции для ресурса.</span><span class="sxs-lookup"><span data-stu-id="57599-156">The following procedures explain how to set up some of the competencies for a resource.</span></span> 
 
-Чтобы настроить компетенции для работника, можно использовать или страницу списка **Работники** в модуле "Управление персоналом" или страницу списка **Ресурсы** в модуле "Управление и учет по проектам". Для следующих процедур используется страница списка **Работники** в модуле "Управление персоналом".
+<span data-ttu-id="57599-157">Чтобы настроить компетенции для работника, можно использовать или страницу списка **Работники** в модуле "Управление персоналом" или страницу списка **Ресурсы** в модуле "Управление и учет по проектам".</span><span class="sxs-lookup"><span data-stu-id="57599-157">To set up competencies for a worker, you can use either the **Workers** list page in Human resources or the **Resources** list page in Project management and accounting.</span></span> <span data-ttu-id="57599-158">Для следующих процедур используется страница списка **Работники** в модуле "Управление персоналом".</span><span class="sxs-lookup"><span data-stu-id="57599-158">For the following procedures, the **Workers** list page in Human resources is used.</span></span>
 
-### <a name="set-up-competencies-certificates"></a>Настройка компетенций: сертификаты
+### <a name="set-up-competencies-certificates"></a><span data-ttu-id="57599-159">Настройка компетенций: сертификаты</span><span class="sxs-lookup"><span data-stu-id="57599-159">Set up competencies: Certificates</span></span>
 
-1.  На странице списка **Работники** выберите строку работника, для которой добавляются сведения о сертификатах.
-2.  В области действий на вкладке **Работник** в группе **Компетенции** щелкните **Сертификаты**.
-3.  Нажмите **Создать**.
-4.  В поле **Тип сертификата** выберите **PMP**.
-5.  В поле **Дата начала** выберите **01.10.2015**.
-6.  Щелкните **Сохранить** и закройте страницу.
+1.  <span data-ttu-id="57599-160">На странице списка **Работники** выберите строку работника, для которой добавляются сведения о сертификатах.</span><span class="sxs-lookup"><span data-stu-id="57599-160">On the **Workers** list page, select the line of the worker that you're adding certificate information for.</span></span>
+2.  <span data-ttu-id="57599-161">В области действий на вкладке **Работник** в группе **Компетенции** щелкните **Сертификаты**.</span><span class="sxs-lookup"><span data-stu-id="57599-161">On the Action Pane, on the **Worker** tab, in the **Competencies** group, click **Certificates**.</span></span>
+3.  <span data-ttu-id="57599-162">Нажмите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="57599-162">Click **New**.</span></span>
+4.  <span data-ttu-id="57599-163">В поле **Тип сертификата** выберите **PMP**.</span><span class="sxs-lookup"><span data-stu-id="57599-163">In the **Certificate type** field, select **PMP**.</span></span>
+5.  <span data-ttu-id="57599-164">В поле **Дата начала** выберите **01.10.2015**.</span><span class="sxs-lookup"><span data-stu-id="57599-164">In the **Start date** field, select **10/1/2015**.</span></span>
+6.  <span data-ttu-id="57599-165">Щелкните **Сохранить** и закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="57599-165">Click **Save**, and then close the page.</span></span>
 
-### <a name="set-up-competencies-skills"></a>Настройка компетенций: навыки
+### <a name="set-up-competencies-skills"></a><span data-ttu-id="57599-166">Настройка компетенций: навыки</span><span class="sxs-lookup"><span data-stu-id="57599-166">Set up competencies: Skills</span></span>
 
-1.  На странице списка **Работники** убедитесь, что все еще выбран работник, который использовался в предыдущей процедуре. Затем в области действий на вкладке **Работник** в группе **Компетенции** щелкните **Навыки**.
-2.  Нажмите **Создать**.
-3.  В поле **Навык** выберите **Управление проектами**.
-4.  В поле **Уровень** выберите **5 Эксперт**.
-5.  В поле **Дата уровня** выберите **14.1-.2014**.
-6.  В поле **Опыт в годах** введите **10**.
-7.  Щелкните **Сохранить** и закройте страницу.
+1.  <span data-ttu-id="57599-167">На странице списка **Работники** убедитесь, что все еще выбран работник, который использовался в предыдущей процедуре.</span><span class="sxs-lookup"><span data-stu-id="57599-167">On the **Workers** list page, make sure that the worker that you used in the previous procedure is still selected.</span></span> <span data-ttu-id="57599-168">Затем в области действий на вкладке **Работник** в группе **Компетенции** щелкните **Навыки**.</span><span class="sxs-lookup"><span data-stu-id="57599-168">Then, on the Action Pane, on the **Worker** tab, in the **Competencies** group, click **Skills**.</span></span>
+2.  <span data-ttu-id="57599-169">Нажмите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="57599-169">Click **New**.</span></span>
+3.  <span data-ttu-id="57599-170">В поле **Навык** выберите **Управление проектами**.</span><span class="sxs-lookup"><span data-stu-id="57599-170">In the **Skill** field, select **Project management**.</span></span>
+4.  <span data-ttu-id="57599-171">В поле **Уровень** выберите **5 Эксперт**.</span><span class="sxs-lookup"><span data-stu-id="57599-171">In the **Level** field, select **5 Expert**.</span></span>
+5.  <span data-ttu-id="57599-172">В поле **Дата уровня** выберите **14.1-.2014**.</span><span class="sxs-lookup"><span data-stu-id="57599-172">In the **Level date** field, select **1-/14/2014**.</span></span>
+6.  <span data-ttu-id="57599-173">В поле **Опыт в годах** введите **10**.</span><span class="sxs-lookup"><span data-stu-id="57599-173">In the **Years of experience** field, enter **10**.</span></span>
+7.  <span data-ttu-id="57599-174">Щелкните **Сохранить** и закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="57599-174">Click **Save**, and then close the page.</span></span>
 
-## <a name="create-a-new-project"></a>Создать новый проект
-1.  Щелкните **Управление и учет по проектам** &gt; **Рабочие области** &gt; **Управление проектами**.
-2.  Щелкните **Создать проект** и введите следующие значения:
-    -   **Тип проекта:** — Время и расходы
-    -   **Имя проекта** — Этап 2 обновления XYZ
-    -   **Группа проекта** — TM\_WIP
-    -   **Код контракта по проекту** — 00000002
-3.  Щелкните **Создать проект**.
+## <a name="create-a-new-project"></a><span data-ttu-id="57599-175">Создать новый проект</span><span class="sxs-lookup"><span data-stu-id="57599-175">Create a new project</span></span>
+1.  <span data-ttu-id="57599-176">Щелкните **Управление и учет по проектам** &gt; **Рабочие области** &gt; **Управление проектами**.</span><span class="sxs-lookup"><span data-stu-id="57599-176">Click **Project management and accounting** &gt; **Workspaces** &gt; **Project management**.</span></span>
+2.  <span data-ttu-id="57599-177">Щелкните **Создать проект** и введите следующие значения:</span><span class="sxs-lookup"><span data-stu-id="57599-177">Click **New project**, and enter the following values:</span></span>
+    -   <span data-ttu-id="57599-178">**Тип проекта:** — Время и расходы</span><span class="sxs-lookup"><span data-stu-id="57599-178">**Project type** - Time and material</span></span>
+    -   <span data-ttu-id="57599-179">**Имя проекта** — Этап 2 обновления XYZ</span><span class="sxs-lookup"><span data-stu-id="57599-179">**Project name** - XYZ Upgrade Phase 2</span></span>
+    -   <span data-ttu-id="57599-180">**Группа проекта** — TM\_WIP</span><span class="sxs-lookup"><span data-stu-id="57599-180">**Project group** - TM\_WIP</span></span>
+    -   <span data-ttu-id="57599-181">**Код контракта по проекту** — 00000002</span><span class="sxs-lookup"><span data-stu-id="57599-181">**Project contract ID**  - 00000002</span></span>
+3.  <span data-ttu-id="57599-182">Щелкните **Создать проект**.</span><span class="sxs-lookup"><span data-stu-id="57599-182">Click **Create project**.</span></span>
 
-### <a name="assign-a-resource-to-a-project"></a>Назначение ресурса проекту
+### <a name="assign-a-resource-to-a-project"></a><span data-ttu-id="57599-183">Назначение ресурса проекту</span><span class="sxs-lookup"><span data-stu-id="57599-183">Assign a resource to a project</span></span>
 
-1.  Щелкните **Управление персоналом** &gt; **Работники** &gt; **Работники**.
-2.  В списке **Работники** выберите запись для работника, для которого ранее настраивали компетенции, и откройте эту запись работника.
-3.  В области действий на вкладке **Проект** в группе **Настройка** выберите **Назначение проектов**.
-4.  На странице **Назначения проектов проверок ресурсов** выберите вкладку **Проекты**.
-5.  В **Добавить проект к выбранным проектам** выполните фильтрацию по проекту "Этап 2 обновления XYZ"
-6.  В области **Остальные проекты** области выберите проект, затем нажмите на стрелку, чтобы добавить его в область **Выбранные проекты**.
-7.  Закройте страницу.
+1.  <span data-ttu-id="57599-184">Щелкните **Управление персоналом** &gt; **Работники** &gt; **Работники**.</span><span class="sxs-lookup"><span data-stu-id="57599-184">Click **Human resources** &gt; **Workers** &gt; **Workers**.</span></span>
+2.  <span data-ttu-id="57599-185">В списке **Работники** выберите запись для работника, для которого ранее настраивали компетенции, и откройте эту запись работника.</span><span class="sxs-lookup"><span data-stu-id="57599-185">In the **Workers** list, select the record for the worker that you previously set up competencies for, and open the worker record.</span></span>
+3.  <span data-ttu-id="57599-186">В области действий на вкладке **Проект** в группе **Настройка** выберите **Назначение проектов**.</span><span class="sxs-lookup"><span data-stu-id="57599-186">On the Action Pane, on the **Project** tab, in the **Setup** group, click **Assign projects**.</span></span>
+4.  <span data-ttu-id="57599-187">На странице **Назначения проектов проверок ресурсов** выберите вкладку **Проекты**.</span><span class="sxs-lookup"><span data-stu-id="57599-187">On the **Resource validation project assignments** page, click the **Projects** tab.</span></span>
+5.  <span data-ttu-id="57599-188">В **Добавить проект к выбранным проектам** выполните фильтрацию по проекту "Этап 2 обновления XYZ"</span><span class="sxs-lookup"><span data-stu-id="57599-188">In the **Add the project to selected projects**, filter on the project, XYZ Upgrade Phase 2</span></span>
+6.  <span data-ttu-id="57599-189">В области **Остальные проекты** области выберите проект, затем нажмите на стрелку, чтобы добавить его в область **Выбранные проекты**.</span><span class="sxs-lookup"><span data-stu-id="57599-189">In the **Remaining projects** pane, select a project, and then click the arrow to add it to the **Selected projects** pane.</span></span>
+7.  <span data-ttu-id="57599-190">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="57599-190">Close the page.</span></span>
 
-Если нужно, можно также назначить категории для ресурса. Тип категории либо "Затраты", либо "Выручка". Это определяется вашей организацией. Если нет назначенных категории для ресурса, Finance and Operations производит поиск категории по умолчанию в стоимости часа для затрат и выручки.
+<span data-ttu-id="57599-191">Если нужно, можно также назначить категории для ресурса.</span><span class="sxs-lookup"><span data-stu-id="57599-191">If needed, you can also assign categories for a resource.</span></span> <span data-ttu-id="57599-192">Тип категории либо "Затраты", либо "Выручка".</span><span class="sxs-lookup"><span data-stu-id="57599-192">The category type is either Cost or Revenue.</span></span> <span data-ttu-id="57599-193">Это определяется вашей организацией.</span><span class="sxs-lookup"><span data-stu-id="57599-193">This is determined by your organization.</span></span> <span data-ttu-id="57599-194">Если нет назначенных категории для ресурса, Finance and Operations производит поиск категории по умолчанию в стоимости часа для затрат и выручки.</span><span class="sxs-lookup"><span data-stu-id="57599-194">If there are no assigned categories for the resource, Finance and Operations will look up the default category on hour prices for cost and revenue.</span></span>
 
-### <a name="set-up-project-resource-and-role-characteristics"></a>Настройка ресурс проекта и характеристик роли
+### <a name="set-up-project-resource-and-role-characteristics"></a><span data-ttu-id="57599-195">Настройка ресурс проекта и характеристик роли</span><span class="sxs-lookup"><span data-stu-id="57599-195">Set up project resource and role characteristics</span></span>
 
-Менеджер проекта может использовать функцию выделения ресурсов проекта для создания ролей, необходимых для проекта. Роли можно использовать, если во время резервирования ресурсов подтвержденные ресурсы все еще неизвестны. Роли можно использовать для временного резервирования в качестве планируемых ресурсов, чтобы можно было продолжить работу над этапами планирования проекта. 
+<span data-ttu-id="57599-196">Менеджер проекта может использовать функцию выделения ресурсов проекта для создания ролей, необходимых для проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-196">A project manager can use the project resourcing functionality to create the roles that are required for the project.</span></span> <span data-ttu-id="57599-197">Роли можно использовать, если во время резервирования ресурсов подтвержденные ресурсы все еще неизвестны.</span><span class="sxs-lookup"><span data-stu-id="57599-197">Roles can be used when confirmed resources are still unknown when reserving resources.</span></span> <span data-ttu-id="57599-198">Роли можно использовать для временного резервирования в качестве планируемых ресурсов, чтобы можно было продолжить работу над этапами планирования проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-198">Roles can be temporarily reserved as planned resources, so that you can continue the project planning stages.</span></span> 
 
-[![Пример роли](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+<span data-ttu-id="57599-199">[![Пример роли](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg)</span><span class="sxs-lookup"><span data-stu-id="57599-199">[![Example of a role](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg)</span></span> 
 
-**Сценарий:** Contoso нанята для выполнения проекта типа "Время и расходы", у которого имеется утвержденный устав проекта. Младший менеджер проекта все еще определяет объем работ по проекту. Менеджер по ресурсам в данный момент определяет конкретные ресурсы, которые будут зарезервированы для работы на новый проект. Одной из ролей, которую затребовал спонсор проекта из-за критической важности проекта, является старший менеджер проекта. Менеджер по ресурсам должен получить новый ресурс и определить роль в системе на тот случай, если младшему менеджеру проекта потребуются сведения о ресурсе при планировании проекта. 
+<span data-ttu-id="57599-200">**Сценарий:** Contoso нанята для выполнения проекта типа "Время и расходы", у которого имеется утвержденный устав проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-200">**Scenario:** Contoso was hired to complete a Time and material project that has an approved project charter.</span></span> <span data-ttu-id="57599-201">Младший менеджер проекта все еще определяет объем работ по проекту.</span><span class="sxs-lookup"><span data-stu-id="57599-201">The junior project manager is still completing the scope of the project.</span></span> <span data-ttu-id="57599-202">Менеджер по ресурсам в данный момент определяет конкретные ресурсы, которые будут зарезервированы для работы на новый проект.</span><span class="sxs-lookup"><span data-stu-id="57599-202">The resource manager is currently identifying specific resources that will be reserved to work on the new project.</span></span> <span data-ttu-id="57599-203">Одной из ролей, которую затребовал спонсор проекта из-за критической важности проекта, является старший менеджер проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-203">One of the roles that the project sponsor requested, because of the critical nature of the project, is the Senior project manager.</span></span> <span data-ttu-id="57599-204">Менеджер по ресурсам должен получить новый ресурс и определить роль в системе на тот случай, если младшему менеджеру проекта потребуются сведения о ресурсе при планировании проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-204">The resource manager must acquire the new resource and define the role in the system in case the junior project manager requires the resource information during the project planning.</span></span> 
 
-Следующие шаги показывают, как менеджер ресурсов может настроить роль "Старший менеджер проекта" и связать с ней характеристики ресурса. Позднее эту роль можно использовать для поиска доступных ресурсов, которые соответствуют обязательным компетенциям ресурса.
+<span data-ttu-id="57599-205">Следующие шаги показывают, как менеджер ресурсов может настроить роль "Старший менеджер проекта" и связать с ней характеристики ресурса.</span><span class="sxs-lookup"><span data-stu-id="57599-205">The following steps show how the resource manager can set up the Senior project manager role and associate resource characteristics with it.</span></span> <span data-ttu-id="57599-206">Позднее эту роль можно использовать для поиска доступных ресурсов, которые соответствуют обязательным компетенциям ресурса.</span><span class="sxs-lookup"><span data-stu-id="57599-206">Later, the role can be used to search for available resources that match the required resource competencies.</span></span>
 
-1.  Щелкните **Управление и учет по проектам** &gt; **Настройка** &gt; **Ресурсы** &gt; **Настройка ролей**.
-2.  Щелкните **Создать** и введите следующие значения:
-    -   **Код роли** — Старший менеджер проекта
-    -   **Описание** — Старший менеджер проекта
-3.  Щелкните **Создать**.
-4.  Выберите роль **Старший менеджер проекта**, затем нажмите **Настроить характеристики**.
-5.  В поле **Тип характеристик** выберите **Навык**.
-6.  В поле **Доступные характеристики** введите навык, который вы ищете.
-7.  В поле **Тип характеристики** выберите **Сертификат**.
-8.  В поле **Доступные характеристики** введите тип сертификата, который вы ищете.
-9.  Щелкните **ОК** и закройте страницу.
+1.  <span data-ttu-id="57599-207">Щелкните **Управление и учет по проектам** &gt; **Настройка** &gt; **Ресурсы** &gt; **Настройка ролей**.</span><span class="sxs-lookup"><span data-stu-id="57599-207">Click **Project management and accounting** &gt; **Setup** &gt; **Resources** &gt; **Setup roles**.</span></span>
+2.  <span data-ttu-id="57599-208">Щелкните **Создать** и введите следующие значения:</span><span class="sxs-lookup"><span data-stu-id="57599-208">Click **New**, and enter the following values:</span></span>
+    -   <span data-ttu-id="57599-209">**Код роли** — Старший менеджер проекта</span><span class="sxs-lookup"><span data-stu-id="57599-209">**Role ID** - Senior Project Manager</span></span>
+    -   <span data-ttu-id="57599-210">**Описание** — Старший менеджер проекта</span><span class="sxs-lookup"><span data-stu-id="57599-210">**Description** - Senior Project Manager</span></span>
+3.  <span data-ttu-id="57599-211">Щелкните **Создать**.</span><span class="sxs-lookup"><span data-stu-id="57599-211">Click **Create**.</span></span>
+4.  <span data-ttu-id="57599-212">Выберите роль **Старший менеджер проекта**, затем нажмите **Настроить характеристики**.</span><span class="sxs-lookup"><span data-stu-id="57599-212">Select the **Senior Project Manager** role, and then click **Configure characteristics**.</span></span>
+5.  <span data-ttu-id="57599-213">В поле **Тип характеристик** выберите **Навык**.</span><span class="sxs-lookup"><span data-stu-id="57599-213">In the **Characteristics type** field, select **Skill**.</span></span>
+6.  <span data-ttu-id="57599-214">В поле **Доступные характеристики** введите навык, который вы ищете.</span><span class="sxs-lookup"><span data-stu-id="57599-214">In the **Available characteristics** field, enter the skill that you're searching for.</span></span>
+7.  <span data-ttu-id="57599-215">В поле **Тип характеристики** выберите **Сертификат**.</span><span class="sxs-lookup"><span data-stu-id="57599-215">In the **Characteristic type** field, select **Certificate**.</span></span>
+8.  <span data-ttu-id="57599-216">В поле **Доступные характеристики** введите тип сертификата, который вы ищете.</span><span class="sxs-lookup"><span data-stu-id="57599-216">In the **Available characteristics** field, enter the certificate type to search for.</span></span>
+9.  <span data-ttu-id="57599-217">Щелкните **ОК** и закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="57599-217">Click **OK**, and close the page.</span></span>
 
-### <a name="assign-a-project-resource-to-a-project"></a>Назначение ресурса проекта проекту
+### <a name="assign-a-project-resource-to-a-project"></a><span data-ttu-id="57599-218">Назначение ресурса проекта проекту</span><span class="sxs-lookup"><span data-stu-id="57599-218">Assign a project resource to a project</span></span>
 
-1.  Щелкните **Управление и учет по проектам** &gt; **Общее** &gt; **Проекты** &gt; **Все проекты** и откройте проект **Этап 2 обновления XYZ**.
-2.  На вкладке **Проектная группа и планирование** нажмите **Добавить**.
-3.  В поле **Роль** выберите **Член группы**.
-4.  Щелкните **Зарезервировать из календаря**.
-5.  На странице **Доступность ресурсов** щелкните **Просмотр параметров**.
-6.  На странице **Настройка параметров представления** введите следующие значения:
-    -   **Формат представления диапазона дат** — День
-    -   **Отобразить описания доступности** — Да
-    -   **Показать остаток мощности** — Да
-7.  В списке ресурсов выберите ресурс.
-8.  Щелкните **Окончательное резервирование** &gt; **Полная мощность**.
-9.  Закройте страницу.
+1.  <span data-ttu-id="57599-219">Щелкните **Управление и учет по проектам** &gt; **Общее** &gt; **Проекты** &gt; **Все проекты** и откройте проект **Этап 2 обновления XYZ**.</span><span class="sxs-lookup"><span data-stu-id="57599-219">Click **Project management and accounting** &gt; **Common** &gt; **Projects** &gt; **All projects**, and open the **XYZ Upgrade Phase 2** project.</span></span>
+2.  <span data-ttu-id="57599-220">На вкладке **Проектная группа и планирование** нажмите **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="57599-220">On the **Project team and scheduling** tab, click **Add**.</span></span>
+3.  <span data-ttu-id="57599-221">В поле **Роль** выберите **Член группы**.</span><span class="sxs-lookup"><span data-stu-id="57599-221">In the **Role** field, select **Team member**.</span></span>
+4.  <span data-ttu-id="57599-222">Щелкните **Зарезервировать из календаря**.</span><span class="sxs-lookup"><span data-stu-id="57599-222">Click **Book from calendar**.</span></span>
+5.  <span data-ttu-id="57599-223">На странице **Доступность ресурсов** щелкните **Просмотр параметров**.</span><span class="sxs-lookup"><span data-stu-id="57599-223">On the **Resource availability** page, click **View settings**.</span></span>
+6.  <span data-ttu-id="57599-224">На странице **Настройка параметров представления** введите следующие значения:</span><span class="sxs-lookup"><span data-stu-id="57599-224">On the **Adjust view settings** page, enter the following values:</span></span>
+    -   <span data-ttu-id="57599-225">**Формат представления диапазона дат** — День</span><span class="sxs-lookup"><span data-stu-id="57599-225">**Format for date range view** - Day</span></span>
+    -   <span data-ttu-id="57599-226">**Отобразить описания доступности** — Да</span><span class="sxs-lookup"><span data-stu-id="57599-226">**Display availability descriptions** - Yes</span></span>
+    -   <span data-ttu-id="57599-227">**Показать остаток мощности** — Да</span><span class="sxs-lookup"><span data-stu-id="57599-227">**Display remaining capacity** - Yes</span></span>
+7.  <span data-ttu-id="57599-228">В списке ресурсов выберите ресурс.</span><span class="sxs-lookup"><span data-stu-id="57599-228">In the list of resources, select a resource.</span></span>
+8.  <span data-ttu-id="57599-229">Щелкните **Окончательное резервирование** &gt; **Полная мощность**.</span><span class="sxs-lookup"><span data-stu-id="57599-229">Click **Hard book** &gt; **Full capacity**.</span></span>
+9.  <span data-ttu-id="57599-230">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="57599-230">Close the page.</span></span>
 
-### <a name="assign-a-resource-to-a-default-role"></a>Назначение ресурса роли по умолчанию
+### <a name="assign-a-resource-to-a-default-role"></a><span data-ttu-id="57599-231">Назначение ресурса роли по умолчанию</span><span class="sxs-lookup"><span data-stu-id="57599-231">Assign a resource to a default role</span></span>
 
-Чтобы помочь менеджерам проекта или ресурсов, можно подробнее детализировать ресурсы, которые могут быть зарезервированы для проекта. Можно связать роль по умолчанию с существующим ресурсом или вновь приобретенным ресурсом. Например когда Даниэль был принят на работу, у него были опыт и навыки для выполнения роли бизнес-аналитика. Менеджер ресурсов назначил эту роль в качестве роли Даниэля по умолчанию. Таким образом, менеджер ресурсов добавил Даниэля в пул бизнес-аналитиков, которые доступны для работы над проектами. 
+<span data-ttu-id="57599-232">Чтобы помочь менеджерам проекта или ресурсов, можно подробнее детализировать ресурсы, которые могут быть зарезервированы для проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-232">To help project or resource managers, you can drill down further on the resources that can be reserved for a project.</span></span> <span data-ttu-id="57599-233">Можно связать роль по умолчанию с существующим ресурсом или вновь приобретенным ресурсом.</span><span class="sxs-lookup"><span data-stu-id="57599-233">You can associate a default role with an existing resource or a newly acquired resource.</span></span> <span data-ttu-id="57599-234">Например когда Даниэль был принят на работу, у него были опыт и навыки для выполнения роли бизнес-аналитика.</span><span class="sxs-lookup"><span data-stu-id="57599-234">For example, when Daniel was hired, he had the experience and skills to fill the Business analyst role.</span></span> <span data-ttu-id="57599-235">Менеджер ресурсов назначил эту роль в качестве роли Даниэля по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="57599-235">The resource manager assigned this role as Daniel's default role.</span></span> <span data-ttu-id="57599-236">Таким образом, менеджер ресурсов добавил Даниэля в пул бизнес-аналитиков, которые доступны для работы над проектами.</span><span class="sxs-lookup"><span data-stu-id="57599-236">Therefore, the resource manager added Daniel to a pool of business analysts who are available to work on projects.</span></span> 
 
-Во время резервирования ресурсов менеджеры проектов могут фильтровать ресурсы ролей, доступных для работы в проектах. Они могут использовать эту информацию как один из критериев, когда они выполняют анализ решений с несколькими критериями во время заполнения ресурса. Они могут также добавить другие характеристики ресурса в фильтр для поиска ресурсов с конкретными навыками, образованием и опытом для данного проекта. 
+<span data-ttu-id="57599-237">Во время резервирования ресурсов менеджеры проектов могут фильтровать ресурсы ролей, доступных для работы в проектах.</span><span class="sxs-lookup"><span data-stu-id="57599-237">During resource reservation, project managers can filter the role resources that are available to work on projects.</span></span> <span data-ttu-id="57599-238">Они могут использовать эту информацию как один из критериев, когда они выполняют анализ решений с несколькими критериями во время заполнения ресурса.</span><span class="sxs-lookup"><span data-stu-id="57599-238">They can use this information as one criterion when they perform multi-criteria decision analysis during resource fulfillment.</span></span> <span data-ttu-id="57599-239">Они могут также добавить другие характеристики ресурса в фильтр для поиска ресурсов с конкретными навыками, образованием и опытом для данного проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-239">They can also add other resource characteristics to the filter to search for resources that have specific skills, education, and experience for a given project.</span></span> 
 
-**Сценарий:** утвержденный проект начался, и роль старшего менеджера проекта была зарезервирована как планируемый ресурс на стадии планирования проекта. Менеджер по ресурсам теперь получил ресурс для заполнения роли старшего менеджера проекта.
+<span data-ttu-id="57599-240">**Сценарий:** утвержденный проект начался, и роль старшего менеджера проекта была зарезервирована как планируемый ресурс на стадии планирования проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-240">**Scenario:** An approved project has started, and the Senior project manager role was reserved as a planned resource during the project planning stage.</span></span> <span data-ttu-id="57599-241">Менеджер по ресурсам теперь получил ресурс для заполнения роли старшего менеджера проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-241">The resource manager has now acquired a resource to fulfill the Senior project manager role.</span></span>
 
-1.  Щелкните **Управление и учет по проектам** &gt; **Ресурсы проекта** &gt; **Список ресурсов**.
-2.  В списке **Ресурс** выберите **Даниэль Голдшмидт**.
-3.  Щелкните **Ресурс проекта** &gt; **Ведение** &gt; **Роль ресурса**.
-4.  Щелкните **Создать** и введите следующие значения:
-    -   **Действует** — (Текущая дата)
-    -   **Истечение срока** — Никогда
-    -   **Роль** — Старший менеджер проекта
-5.  Щелкните **Сохранить** и закройте страницу.
-6.  На вкладке **Компетенции** добавьте навык **ProjectMgmt** и сертификат **PMP**.
+1.  <span data-ttu-id="57599-242">Щелкните **Управление и учет по проектам** &gt; **Ресурсы проекта** &gt; **Список ресурсов**.</span><span class="sxs-lookup"><span data-stu-id="57599-242">Click **Project management and accounting** &gt; **Project resources** &gt; **Resources list**.</span></span>
+2.  <span data-ttu-id="57599-243">В списке **Ресурс** выберите **Даниэль Голдшмидт**.</span><span class="sxs-lookup"><span data-stu-id="57599-243">In the **Resource** list, select **Daniel Goldschmidt**.</span></span>
+3.  <span data-ttu-id="57599-244">Щелкните **Ресурс проекта** &gt; **Ведение** &gt; **Роль ресурса**.</span><span class="sxs-lookup"><span data-stu-id="57599-244">Click **Project resource** &gt; **Maintain** &gt; **Resource role**.</span></span>
+4.  <span data-ttu-id="57599-245">Щелкните **Создать** и введите следующие значения:</span><span class="sxs-lookup"><span data-stu-id="57599-245">Click **New**, and enter the following values:</span></span>
+    -   <span data-ttu-id="57599-246">**Действует** — (Текущая дата)</span><span class="sxs-lookup"><span data-stu-id="57599-246">**Effective** - (The current date)</span></span>
+    -   <span data-ttu-id="57599-247">**Истечение срока** — Никогда</span><span class="sxs-lookup"><span data-stu-id="57599-247">**Expiration** - Never</span></span>
+    -   <span data-ttu-id="57599-248">**Роль** — Старший менеджер проекта</span><span class="sxs-lookup"><span data-stu-id="57599-248">**Role** - Senior Project Manager</span></span>
+5.  <span data-ttu-id="57599-249">Щелкните **Сохранить** и закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="57599-249">Click **Save**, and then close the page.</span></span>
+6.  <span data-ttu-id="57599-250">На вкладке **Компетенции** добавьте навык **ProjectMgmt** и сертификат **PMP**.</span><span class="sxs-lookup"><span data-stu-id="57599-250">On the **Competencies** tab, add the **ProjectMgmt** skill and the **PMP** certificate.</span></span>
 
-## <a name="set-up-role-based-pricing"></a>Настройка ценообразования на основе роли
-Все затраты, продажи и трансферные цены можно настроить для ролей.
+## <a name="set-up-role-based-pricing"></a><span data-ttu-id="57599-251">Настройка ценообразования на основе роли</span><span class="sxs-lookup"><span data-stu-id="57599-251">Set up role-based pricing</span></span>
+<span data-ttu-id="57599-252">Все затраты, продажи и трансферные цены можно настроить для ролей.</span><span class="sxs-lookup"><span data-stu-id="57599-252">All cost, sales, and transfer prices can be set up for roles.</span></span>
 
-1.  Щелкните **Управление и учет по проектам** &gt; **Настройка** &gt; **Цены** &gt; **Цена продажи (время)**.
-2.  Нажмите **Создать**.
-3.  Ввести дату вступления в силу.
-4.  В столбце **Роль** выберите роль.
-5.  В столбце **Ценообразование** введите цену для выбранной роли ресурса.
+1.  <span data-ttu-id="57599-253">Щелкните **Управление и учет по проектам** &gt; **Настройка** &gt; **Цены** &gt; **Цена продажи (время)**.</span><span class="sxs-lookup"><span data-stu-id="57599-253">Click **Project management and accounting** &gt; **Setup** &gt; **Prices** &gt; **Sales price (hour)**.</span></span>
+2.  <span data-ttu-id="57599-254">Нажмите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="57599-254">Click **New**.</span></span>
+3.  <span data-ttu-id="57599-255">Ввести дату вступления в силу.</span><span class="sxs-lookup"><span data-stu-id="57599-255">Enter an effective date.</span></span>
+4.  <span data-ttu-id="57599-256">В столбце **Роль** выберите роль.</span><span class="sxs-lookup"><span data-stu-id="57599-256">In the **Role** column, select a role.</span></span>
+5.  <span data-ttu-id="57599-257">В столбце **Ценообразование** введите цену для выбранной роли ресурса.</span><span class="sxs-lookup"><span data-stu-id="57599-257">In the **Pricing** column, enter a price for the selected resource role.</span></span>
 
-## <a name="form-a-project-team"></a>Формирование проектной группы
-Для использования ролей, которые ранее были настроены в проекте, менеджер проекта должен связать роли с проектом. Для проекта можно назначить несколько ролей, и Finance and Operations автоматически помечает эти роли во время резервирования, чтобы избежать путаницы. Например, если менеджеру проекта требуется три инженера по программному обеспечению, автоматически создаются три роли инженера по программному обеспечению с метками инженер по программному обеспечению 1, инженер по программному обеспечению 2 и инженер по программному обеспечению 3. Если характеристики роли уже были настроены для роли, они применяются как фильтр во время поиска ресурса. При необходимости могут быть добавлены дополнительные характеристики для дальнейшего уточнения поиска. 
+## <a name="form-a-project-team"></a><span data-ttu-id="57599-258">Формирование проектной группы</span><span class="sxs-lookup"><span data-stu-id="57599-258">Form a project team</span></span>
+<span data-ttu-id="57599-259">Для использования ролей, которые ранее были настроены в проекте, менеджер проекта должен связать роли с проектом.</span><span class="sxs-lookup"><span data-stu-id="57599-259">To use the roles that were previously set up in a project, a project manager must associate the roles with the project.</span></span> <span data-ttu-id="57599-260">Для проекта можно назначить несколько ролей, и Finance and Operations автоматически помечает эти роли во время резервирования, чтобы избежать путаницы.</span><span class="sxs-lookup"><span data-stu-id="57599-260">Multiple roles can be assigned for a project, and Finance and Operations automatically labels these roles during reservation to prevent confusion.</span></span> <span data-ttu-id="57599-261">Например, если менеджеру проекта требуется три инженера по программному обеспечению, автоматически создаются три роли инженера по программному обеспечению с метками инженер по программному обеспечению 1, инженер по программному обеспечению 2 и инженер по программному обеспечению 3.</span><span class="sxs-lookup"><span data-stu-id="57599-261">For example, if the project manager requires three software engineers, three Software engineer roles that have software engineer 1, software engineer 2, and software engineer 3 as their labels are automatically generated.</span></span> <span data-ttu-id="57599-262">Если характеристики роли уже были настроены для роли, они применяются как фильтр во время поиска ресурса.</span><span class="sxs-lookup"><span data-stu-id="57599-262">If role characteristics were previously set for the role, they are applied as a filter during searches for a resource.</span></span> <span data-ttu-id="57599-263">При необходимости могут быть добавлены дополнительные характеристики для дальнейшего уточнения поиска.</span><span class="sxs-lookup"><span data-stu-id="57599-263">Additional characteristics can be added as required to further refine the search.</span></span> 
 
-Параметры просмотра можно также настраивать, чтобы обеспечить лучшее представление доступности ресурсов. Предусмотрены параметры для отображения доступности по часам, по дням, по неделям, по месяцам, по кварталам и по годам. Также предусмотрен параметр для отображения доступности и оставшихся возможностей ресурсов. Этот параметр полезен для контроля времени при оценке доступного времени для действий или доступности ресурса. 
+<span data-ttu-id="57599-264">Параметры просмотра можно также настраивать, чтобы обеспечить лучшее представление доступности ресурсов.</span><span class="sxs-lookup"><span data-stu-id="57599-264">View settings can also be customized to give a better view of resource availability.</span></span> <span data-ttu-id="57599-265">Предусмотрены параметры для отображения доступности по часам, по дням, по неделям, по месяцам, по кварталам и по годам.</span><span class="sxs-lookup"><span data-stu-id="57599-265">There are options to show hourly, daily, weekly, monthly, quarterly, and annual availability.</span></span> <span data-ttu-id="57599-266">Также предусмотрен параметр для отображения доступности и оставшихся возможностей ресурсов.</span><span class="sxs-lookup"><span data-stu-id="57599-266">There is also an option to show available and remaining capacity on resources.</span></span> <span data-ttu-id="57599-267">Этот параметр полезен для контроля времени при оценке доступного времени для действий или доступности ресурса.</span><span class="sxs-lookup"><span data-stu-id="57599-267">This option is useful for time management when you're estimating available time for activities or resource availability.</span></span> 
 
-Менеджер проекта может выбрать роль на странице, а затем, если имеется доступный ресурс, который соответствует требованиям, выбрать его, чтобы зарезервировать ресурс для заполнения роли. Обратите внимание, что ресурсы не обязательно резервировать на этом этапе на стадии планирования. При создании СДР можно заменить роли на укомплектованные ресурсы для проекта. Если роли заменяются укомплектованными ресурсами в СДР, настройка ресурса автоматически обновляет список и планирование проектной группы. 
+<span data-ttu-id="57599-268">Менеджер проекта может выбрать роль на странице, а затем, если имеется доступный ресурс, который соответствует требованиям, выбрать его, чтобы зарезервировать ресурс для заполнения роли.</span><span class="sxs-lookup"><span data-stu-id="57599-268">The project manager can select a role on the page and then, if there is an available resource that fits the requirement, select to reserve a resource to fill the role.</span></span> <span data-ttu-id="57599-269">Обратите внимание, что ресурсы не обязательно резервировать на этом этапе на стадии планирования.</span><span class="sxs-lookup"><span data-stu-id="57599-269">Note that the resources don't have to be reserved at this point during the planning stage.</span></span> <span data-ttu-id="57599-270">При создании СДР можно заменить роли на укомплектованные ресурсы для проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-270">When you create a WBS, you can replace roles with staffed resources for the project.</span></span> <span data-ttu-id="57599-271">Если роли заменяются укомплектованными ресурсами в СДР, настройка ресурса автоматически обновляет список и планирование проектной группы.</span><span class="sxs-lookup"><span data-stu-id="57599-271">If roles are replaced with staffed resources in the WBS, the resource setup automatically updates the project team listing and scheduling.</span></span> 
 
-[![Список проектной группы, который включает как роли, так и фактические ресурсы](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+<span data-ttu-id="57599-272">[![Список проектной группы, который включает как роли, так и фактические ресурсы](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg)</span><span class="sxs-lookup"><span data-stu-id="57599-272">[![Project team listing that includes both roles and actual resources](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg)</span></span> 
 
-У менеджера проекта есть несколько вариантов резервирования ресурса для проекта, такие как **Остаток мощности**, **Полная мощность**, **Процент мощности** и **Укажите часы**. Эти параметры резервирования можно отменить в любое время, если назначения ресурсов изменяются. Поддерживаются два типа резервирования:
+<span data-ttu-id="57599-273">У менеджера проекта есть несколько вариантов резервирования ресурса для проекта, такие как **Остаток мощности**, **Полная мощность**, **Процент мощности** и **Укажите часы**.</span><span class="sxs-lookup"><span data-stu-id="57599-273">The project manager has various options for booking a resource for a project, such as **Remaining capacity**, **Full capacity**, **Capacity percentage**, and **Specify hours**.</span></span> <span data-ttu-id="57599-274">Эти параметры резервирования можно отменить в любое время, если назначения ресурсов изменяются.</span><span class="sxs-lookup"><span data-stu-id="57599-274">These booking options can be canceled at any time if resource assignments change.</span></span> <span data-ttu-id="57599-275">Поддерживаются два типа резервирования:</span><span class="sxs-lookup"><span data-stu-id="57599-275">Two types of booking are supported:</span></span>
 
--   **Окончательное резервирование** — резервирование ресурсов утверждено и подтверждено для работы по задаче на указанный срок.
--   **Предварительное резервирование** — резервирование ресурсов предварительно задано для работы по задаче на указанный срок.
+-   <span data-ttu-id="57599-276">**Окончательное резервирование** — резервирование ресурсов утверждено и подтверждено для работы по задаче на указанный срок.</span><span class="sxs-lookup"><span data-stu-id="57599-276">**Hard Book** – The resource reservation was approved and confirmed to work on the engagement for the specified duration.</span></span>
+-   <span data-ttu-id="57599-277">**Предварительное резервирование** — резервирование ресурсов предварительно задано для работы по задаче на указанный срок.</span><span class="sxs-lookup"><span data-stu-id="57599-277">**Soft book** – The resource reservations was tentatively set to work on the engagement for the specified duration.</span></span>
 
-В следующей процедуре показано, как создать проектную группу.
+<span data-ttu-id="57599-278">В следующей процедуре показано, как создать проектную группу.</span><span class="sxs-lookup"><span data-stu-id="57599-278">The following procedure explains how to create a project team.</span></span>
 
-### <a name="create-a-project-team"></a>Создание проектной группы
+### <a name="create-a-project-team"></a><span data-ttu-id="57599-279">Создание проектной группы</span><span class="sxs-lookup"><span data-stu-id="57599-279">Create a project team</span></span>
 
-1.  На странице списка **Все проекты** выберите проект, затем нажмите **Правка**.
-2.  На вкладке **Проектная группа и планирование** в поле **Дата окончания плана** введите дату начала плана плюс один месяц. Например, если дата начала плана 24-е июня 2017 г. (24.06.2017), введите **24.07.2017**.
-3.  Нажмите кнопку **Добавить**.
-4.  В области **Добавление ролей к проекту** в поле **Роль** выберите **Старший менеджер проекта**.
-5.  Щелкните **Необходимые компетенции**.
-6.  На странице **Выбрать характеристики** по умолчанию выбраны характеристики, которые ранее были заданы для роли старшего менеджера проекта. Нажмите кнопку **OК**.
-7.  На странице **Добавление ролей к проекту** в поле **Число ресурсов** введите **1**.
-8.  В поле **Ресурс** поиск показывает все ресурсы, которые имеют необходимые компетенции. Выберите **Даниэль Голдшмидт**, затем нажмите **Создать**.
-9.  На странице **Проект** нажмите **Добавить**.
-10. В области **Добавление ролей к проекту** в поле **Роль** выберите **Член группы**. В поле **Число ресурсов** введите **5**.
-11. Щелкните **Создать**.
-12. На странице **Проекты** нажмите **Обеспечить ресурс**.
+1.  <span data-ttu-id="57599-280">На странице списка **Все проекты** выберите проект, затем нажмите **Правка**.</span><span class="sxs-lookup"><span data-stu-id="57599-280">On the **All projects** list page, select a project, and then click **Edit**.</span></span>
+2.  <span data-ttu-id="57599-281">На вкладке **Проектная группа и планирование** в поле **Дата окончания плана** введите дату начала плана плюс один месяц.</span><span class="sxs-lookup"><span data-stu-id="57599-281">On the **Project team and scheduling** tab, in the **Schedule end date** field, enter the schedule start date plus one month.</span></span> <span data-ttu-id="57599-282">Например, если дата начала плана 24-е июня 2017 г. (24.06.2017), введите **24.07.2017**.</span><span class="sxs-lookup"><span data-stu-id="57599-282">For example, if the schedule start date is June 24, 2017 (24/06/2017), enter **24/07/2017**.</span></span>
+3.  <span data-ttu-id="57599-283">Нажмите кнопку **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="57599-283">Click **Add**.</span></span>
+4.  <span data-ttu-id="57599-284">В области **Добавление ролей к проекту** в поле **Роль** выберите **Старший менеджер проекта**.</span><span class="sxs-lookup"><span data-stu-id="57599-284">In the **Add roles to the project** pane, in the **Role** field, select **Senior Project Manager**.</span></span>
+5.  <span data-ttu-id="57599-285">Щелкните **Необходимые компетенции**.</span><span class="sxs-lookup"><span data-stu-id="57599-285">Click **Required competencies**.</span></span>
+6.  <span data-ttu-id="57599-286">На странице **Выбрать характеристики** по умолчанию выбраны характеристики, которые ранее были заданы для роли старшего менеджера проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-286">On the **Choose characteristics** page, the characteristics that you previously set for the Senior project manager role are selected by default.</span></span> <span data-ttu-id="57599-287">Нажмите кнопку **OК**.</span><span class="sxs-lookup"><span data-stu-id="57599-287">Click **OK**.</span></span>
+7.  <span data-ttu-id="57599-288">На странице **Добавление ролей к проекту** в поле **Число ресурсов** введите **1**.</span><span class="sxs-lookup"><span data-stu-id="57599-288">On the **Add roles to project** page, in the **Number of resources** field, enter **1**.</span></span>
+8.  <span data-ttu-id="57599-289">В поле **Ресурс** поиск показывает все ресурсы, которые имеют необходимые компетенции.</span><span class="sxs-lookup"><span data-stu-id="57599-289">In the **Resource** field, the lookup shows all resources that have the required competencies.</span></span> <span data-ttu-id="57599-290">Выберите **Даниэль Голдшмидт**, затем нажмите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="57599-290">Select **Daniel Goldschmidt**, and then click **Create**.</span></span>
+9.  <span data-ttu-id="57599-291">На странице **Проект** нажмите **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="57599-291">On the **Project** page, click **Add**.</span></span>
+10. <span data-ttu-id="57599-292">В области **Добавление ролей к проекту** в поле **Роль** выберите **Член группы**.</span><span class="sxs-lookup"><span data-stu-id="57599-292">In the **Add roles to the project** pane, in the **Role** field, select **Team member**.</span></span> <span data-ttu-id="57599-293">В поле **Число ресурсов** введите **5**.</span><span class="sxs-lookup"><span data-stu-id="57599-293">In the **Number of resources** field, enter **5**.</span></span>
+11. <span data-ttu-id="57599-294">Щелкните **Создать**.</span><span class="sxs-lookup"><span data-stu-id="57599-294">Click **Create**.</span></span>
+12. <span data-ttu-id="57599-295">На странице **Проекты** нажмите **Обеспечить ресурс**.</span><span class="sxs-lookup"><span data-stu-id="57599-295">On the **Projects** page, click **Fulfill resource**.</span></span>
 
-## <a name="resource-capacity-synchronization"></a>Синхронизация мощностей ресурсов
-Процессы для синхронизации ресурсов помогают гарантировать, что информация из календаря и базового календаря передавалась в планирование ресурсов проекта. Если календарь изменен, процессы выполняют необходимые обновления в планировании ресурсов проекта. Процессы также помогают улучшить производительность, поскольку сведения о ресурсе в календаре заранее синхронизируются, чтобы обновления информации планирования ресурсов происходили быстрее. Рекомендуется планировать процессы пакетами, а не по одному. В противном случае имеется риск, что кто-то забудет включающие даты, когда информация синхронизировалась в последний раз. Если включающие даты не используются, несоответствия могут иметь место во время синхронизации даты.
+## <a name="resource-capacity-synchronization"></a><span data-ttu-id="57599-296">Синхронизация мощностей ресурсов</span><span class="sxs-lookup"><span data-stu-id="57599-296">Resource capacity synchronization</span></span>
+<span data-ttu-id="57599-297">Процессы для синхронизации ресурсов помогают гарантировать, что информация из календаря и базового календаря передавалась в планирование ресурсов проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-297">The processes for resource synchronization helps guarantee that the calendar and base calendar information trickles down into project resource scheduling.</span></span> <span data-ttu-id="57599-298">Если календарь изменен, процессы выполняют необходимые обновления в планировании ресурсов проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-298">If the calendar is changed, the processes make the required updates to the scheduling of project resources.</span></span> <span data-ttu-id="57599-299">Процессы также помогают улучшить производительность, поскольку сведения о ресурсе в календаре заранее синхронизируются, чтобы обновления информации планирования ресурсов происходили быстрее.</span><span class="sxs-lookup"><span data-stu-id="57599-299">The processes also help improve performance, because the calendar’s resource information is synchronized in advance, so that updates to resource scheduling information occur more quickly.</span></span> <span data-ttu-id="57599-300">Рекомендуется планировать процессы пакетами, а не по одному.</span><span class="sxs-lookup"><span data-stu-id="57599-300">We recommend that you schedule the processes as a batch instead of one at a time.</span></span> <span data-ttu-id="57599-301">В противном случае имеется риск, что кто-то забудет включающие даты, когда информация синхронизировалась в последний раз.</span><span class="sxs-lookup"><span data-stu-id="57599-301">Otherwise, there is a risk that someone will forget the inclusive dates when the information was last synchronized.</span></span> <span data-ttu-id="57599-302">Если включающие даты не используются, несоответствия могут иметь место во время синхронизации даты.</span><span class="sxs-lookup"><span data-stu-id="57599-302">If inclusive dates aren't used, gaps can occur during date synchronization.</span></span>
 
 ### <a name="calendar-synchronizationmediaprojectresourcing04-1024x471jpg"></a>![Синхронизация календаря](./media/projectresourcing04-1024x471.jpg)
 
-**Синхронизация сведения мощности ресурсов**
+<span data-ttu-id="57599-304">**Синхронизация сведения мощности ресурсов**</span><span class="sxs-lookup"><span data-stu-id="57599-304">**Synchronize resource capacity roll-ups**</span></span>
 
-Процесс синхронизации предназначен для синхронизации всех данных календаря ресурса. Эти сведения включают данные базового календаря обо всех изменениях в таблице мощности календаря ресурсов проекта. Если в проект добавлены новые ресурсы, синхронизация помогает обеспечить доступность обновленных данных календаря. Эта синхронизация может быть выполнена в любое время. 
+<span data-ttu-id="57599-305">Процесс синхронизации предназначен для синхронизации всех данных календаря ресурса.</span><span class="sxs-lookup"><span data-stu-id="57599-305">The synchronization process is designed to synchronize all resource calendar information.</span></span> <span data-ttu-id="57599-306">Эти сведения включают данные базового календаря обо всех изменениях в таблице мощности календаря ресурсов проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-306">This information includes base calendar information about any changes to the project’s Resource calendar capacity table.</span></span> <span data-ttu-id="57599-307">Если в проект добавлены новые ресурсы, синхронизация помогает обеспечить доступность обновленных данных календаря.</span><span class="sxs-lookup"><span data-stu-id="57599-307">If new resources are added in the project, synchronization helps ensure that the updated calendar information is available.</span></span> <span data-ttu-id="57599-308">Эта синхронизация может быть выполнена в любое время.</span><span class="sxs-lookup"><span data-stu-id="57599-308">This synchronization can be done at any time.</span></span> 
 
-Рекомендуется использовать партию. Параметры доступны в синхронизации резервирований мощности.
+<span data-ttu-id="57599-309">Рекомендуется использовать партию.</span><span class="sxs-lookup"><span data-stu-id="57599-309">We recommend that you use a batch.</span></span> <span data-ttu-id="57599-310">Параметры доступны в синхронизации резервирований мощности.</span><span class="sxs-lookup"><span data-stu-id="57599-310">The options are available in synchronizing capacity reservations.</span></span>
 
--   Щелкните **Управление и учет по проектам** &gt; **Периодические операции** &gt; **Синхронизация мощностей** &gt; **Синхронизация сведения мощности ресурсов**.
+-   <span data-ttu-id="57599-311">Щелкните **Управление и учет по проектам** &gt; **Периодические операции** &gt; **Синхронизация мощностей** &gt; **Синхронизация сведения мощности ресурсов**.</span><span class="sxs-lookup"><span data-stu-id="57599-311">Click **Project management and accounting** &gt; **Periodic** &gt; **Capacity synchronization** &gt; **Synchronize resources capacity roll-ups**.</span></span>
 
-| Параметр | описание                                                                                                                                                                                          |
+| <span data-ttu-id="57599-312">Параметр</span><span class="sxs-lookup"><span data-stu-id="57599-312">Option</span></span> | <span data-ttu-id="57599-313">описание</span><span class="sxs-lookup"><span data-stu-id="57599-313">Description</span></span>                                                                                                                                                                                          |
 |--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Да    | Синхронизация всех данных ресурса с данными календаря и базового календаря и замена всех данных в календаре мощности ресурсов проекта.                                                  |
-| Нет     | Синхронизация данных ресурса на основании кода интервала дат и указанных дат начала и окончания. Этот параметр не удаляет существующие данные и обновляет сведения только для вновь добавленных ресурсов. |
+| <span data-ttu-id="57599-314">Да</span><span class="sxs-lookup"><span data-stu-id="57599-314">Yes</span></span>    | <span data-ttu-id="57599-315">Синхронизация всех данных ресурса с данными календаря и базового календаря и замена всех данных в календаре мощности ресурсов проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-315">Synchronize all resource data with calendar and base calendar information, and replace all information in the project's resource capacity calendar.</span></span>                                                  |
+| <span data-ttu-id="57599-316">Нет</span><span class="sxs-lookup"><span data-stu-id="57599-316">No</span></span>     | <span data-ttu-id="57599-317">Синхронизация данных ресурса на основании кода интервала дат и указанных дат начала и окончания.</span><span class="sxs-lookup"><span data-stu-id="57599-317">Synchronize resource data, based on the date interval code, and the specified start and end dates.</span></span> <span data-ttu-id="57599-318">Этот параметр не удаляет существующие данные и обновляет сведения только для вновь добавленных ресурсов.</span><span class="sxs-lookup"><span data-stu-id="57599-318">This option doesn't remove existing data, and updates information only for newly added resources.</span></span> |
 
-[![Процесс синхронизации](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+<span data-ttu-id="57599-319">[![Процесс синхронизации](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)</span><span class="sxs-lookup"><span data-stu-id="57599-319">[![Synchronization process](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)</span></span>
 
-## <a name="set-up-roles-on-wbs-templates"></a>Настройка ролей в шаблонах структурной декомпозиции работ
-Менеджеры проектов могут настраивать шаблоны СДР, которые они могут применяться при создании СДР для новых проектов. Менеджеры проектов могут добавлять роли при создании шаблона. Используйте следующую процедуру, чтобы назначить роль шаблону СДР.** **
+## <a name="set-up-roles-on-wbs-templates"></a><span data-ttu-id="57599-320">Настройка ролей в шаблонах структурной декомпозиции работ</span><span class="sxs-lookup"><span data-stu-id="57599-320">Set up roles on WBS templates</span></span>
+<span data-ttu-id="57599-321">Менеджеры проектов могут настраивать шаблоны СДР, которые они могут применяться при создании СДР для новых проектов.</span><span class="sxs-lookup"><span data-stu-id="57599-321">Project managers can set up WBS templates that they can apply when they create a WBS for new projects.</span></span> <span data-ttu-id="57599-322">Менеджеры проектов могут добавлять роли при создании шаблона.</span><span class="sxs-lookup"><span data-stu-id="57599-322">Project managers can add roles when they create a template.</span></span> <span data-ttu-id="57599-323">Используйте следующую процедуру, чтобы назначить роль шаблону СДР.** **</span><span class="sxs-lookup"><span data-stu-id="57599-323">Use the following procedure to assign a role to a WBS template.** **</span></span>
 
-1.  Щелкните **Управление и учет по проектам** &gt; **Настройка** &gt; **Проекты** &gt; **Шаблоны структурной декомпозиции работ**.
-2.  Щелкните **Сведения** для выбранного шаблона СДР.
-3.  Выберите задачу в списке, затем в поле **Роль** выберите роль для назначения задаче.
+1.  <span data-ttu-id="57599-324">Щелкните **Управление и учет по проектам** &gt; **Настройка** &gt; **Проекты** &gt; **Шаблоны структурной декомпозиции работ**.</span><span class="sxs-lookup"><span data-stu-id="57599-324">Click **Project management and accounting** &gt; **Setup** &gt; **Projects** &gt; **Work breakdown structure templates**.</span></span>
+2.  <span data-ttu-id="57599-325">Щелкните **Сведения** для выбранного шаблона СДР.</span><span class="sxs-lookup"><span data-stu-id="57599-325">Click **Details** for a selected WBS template.</span></span>
+3.  <span data-ttu-id="57599-326">Выберите задачу в списке, затем в поле **Роль** выберите роль для назначения задаче.</span><span class="sxs-lookup"><span data-stu-id="57599-326">Select a task in the list, and then, in the **Role** field, select a role to assign to the task.</span></span>
 
-### <a name="work-with-a-wbs"></a>Работа со СДР
+### <a name="work-with-a-wbs"></a><span data-ttu-id="57599-327">Работа со СДР</span><span class="sxs-lookup"><span data-stu-id="57599-327">Work with a WBS</span></span>
 
-Можно создать новую СДР или скопировать СДР из существующего шаблона СДР. Менеджер проекта может легко управлять ресурсами, назначая роли новым задач в СДР. Роли можно заменить после получения ресурса или после определения подтвержденного ресурса, который будет работать над задачей. Такая гибкость позволяет менеджеру проекта выполнять следующие задачи:
+<span data-ttu-id="57599-328">Можно создать новую СДР или скопировать СДР из существующего шаблона СДР.</span><span class="sxs-lookup"><span data-stu-id="57599-328">You can create a new WBS, or you can copy a WBS from an existing WBS template.</span></span> <span data-ttu-id="57599-329">Менеджер проекта может легко управлять ресурсами, назначая роли новым задач в СДР.</span><span class="sxs-lookup"><span data-stu-id="57599-329">A project manager can easily manage the resources by assigning roles to new tasks on the WBS.</span></span> <span data-ttu-id="57599-330">Роли можно заменить после получения ресурса или после определения подтвержденного ресурса, который будет работать над задачей.</span><span class="sxs-lookup"><span data-stu-id="57599-330">Roles can be replaced after a resource is acquired, or after a confirmed resource to work on the task is identified.</span></span> <span data-ttu-id="57599-331">Такая гибкость позволяет менеджеру проекта выполнять следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="57599-331">This flexibility lets project managers perform the following tasks:</span></span>
 
--   Указание количества ресурсов, необходимых для рабочих пакетов СДР.
--   Оценка расходов на проект.
--   Определение предварительного бюджета.
--   Оценка продолжительности операций на основе ролей и ресурсов.
--   Разработка некоторых планов управления проектом на основе доступных сведений о проекте.
+-   <span data-ttu-id="57599-332">Указание количества ресурсов, необходимых для рабочих пакетов СДР.</span><span class="sxs-lookup"><span data-stu-id="57599-332">Identify the number of resources that are required for WBS work packages.</span></span>
+-   <span data-ttu-id="57599-333">Оценка расходов на проект.</span><span class="sxs-lookup"><span data-stu-id="57599-333">Estimate project costs.</span></span>
+-   <span data-ttu-id="57599-334">Определение предварительного бюджета.</span><span class="sxs-lookup"><span data-stu-id="57599-334">Determine a preliminary budget.</span></span>
+-   <span data-ttu-id="57599-335">Оценка продолжительности операций на основе ролей и ресурсов.</span><span class="sxs-lookup"><span data-stu-id="57599-335">Estimate activity duration, based on roles and resources.</span></span>
+-   <span data-ttu-id="57599-336">Разработка некоторых планов управления проектом на основе доступных сведений о проекте.</span><span class="sxs-lookup"><span data-stu-id="57599-336">Develop some project management plans, based on the available project information.</span></span>
 
-Дополнительные параметры были добавлены в СДР, чтобы улучшить использование функции выделения ресурсов.
+<span data-ttu-id="57599-337">Дополнительные параметры были добавлены в СДР, чтобы улучшить использование функции выделения ресурсов.</span><span class="sxs-lookup"><span data-stu-id="57599-337">Additional options have been added in the WBS to better use the resourcing functionality.</span></span>
 
 <table>
 <colgroup>
@@ -266,95 +266,95 @@ ms.lasthandoff: 06/13/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>Параметр</th>
-<th>Описание</th>
+<th><span data-ttu-id="57599-338">Параметр</span><span class="sxs-lookup"><span data-stu-id="57599-338">Option</span></span></th>
+<th><span data-ttu-id="57599-339">Описание</span><span class="sxs-lookup"><span data-stu-id="57599-339">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Назначения ресурсов</td>
-<td>Просмотр назначенных ресурсов, количества часов и типа резервирования для задач на СДР.</td>
+<td><span data-ttu-id="57599-340">Назначения ресурсов</span><span class="sxs-lookup"><span data-stu-id="57599-340">Resource assignments</span></span></td>
+<td><span data-ttu-id="57599-341">Просмотр назначенных ресурсов, количества часов и типа резервирования для задач на СДР.</span><span class="sxs-lookup"><span data-stu-id="57599-341">View the assigned resources, dates, number of hours, and booking type for tasks on the WBS.</span></span></td>
 </tr>
 <tr class="even">
-<td>Автоматически генерировать группу</td>
-<td>Автоматическое добавление запланированных ресурсов с помощью ролей, связанных с задачей. Finance and Operations автоматически предлагает запланированные ресурсы с помощью анализа решений с несколькими критериями, основанного на ролях. После задания ролей и усилий (часов) для задач в СДР, а также выпуска структуры нажмите <strong>Автоматически генерировать группу</strong>. Необходимое количество спланированных ресурсов добавляется к СДР и на вкладку <strong>Планирование проекта и группы</strong>.</td>
+<td><span data-ttu-id="57599-342">Автоматически генерировать группу</span><span class="sxs-lookup"><span data-stu-id="57599-342">Auto generate team</span></span></td>
+<td><span data-ttu-id="57599-343">Автоматическое добавление запланированных ресурсов с помощью ролей, связанных с задачей.</span><span class="sxs-lookup"><span data-stu-id="57599-343">Automatically add planned resources by using roles that are associated with a task.</span></span> <span data-ttu-id="57599-344">Finance and Operations автоматически предлагает запланированные ресурсы с помощью анализа решений с несколькими критериями, основанного на ролях.</span><span class="sxs-lookup"><span data-stu-id="57599-344">Finance and Operations automatically suggests planned resources by using multi-criteria decision analysis that is based on roles.</span></span> <span data-ttu-id="57599-345">После задания ролей и усилий (часов) для задач в СДР, а также выпуска структуры нажмите <strong>Автоматически генерировать группу</strong>.</span><span class="sxs-lookup"><span data-stu-id="57599-345">After the roles and effort (hours) have been set for the tasks in a WBS, and the structure has been released, click <strong>Auto generate team</strong>.</span></span> <span data-ttu-id="57599-346">Необходимое количество спланированных ресурсов добавляется к СДР и на вкладку <strong>Планирование проекта и группы</strong>.</span><span class="sxs-lookup"><span data-stu-id="57599-346">The required number of planned resources is added to the WBS and the <strong>Project and team scheduling</strong> tab.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Ресурс (раскрывающийся список)</td>
-<td>На странице <strong>Запуск назначения ресурсов </strong>можно выбрать ресурсы для окончательного или предварительного резервирования на основе указанной продолжительности. Вы можете настроить параметры просмотра для просмотра и задания длительности действий ресурса. Можно выбирать и назначать ресурсы на уровне пакета работ с помощью следующих параметров:
+<td><span data-ttu-id="57599-347">Ресурс (раскрывающийся список)</span><span class="sxs-lookup"><span data-stu-id="57599-347">Resource (drop-down list)</span></span></td>
+<td><span data-ttu-id="57599-348">На странице <strong>Запуск назначения ресурсов </strong>можно выбрать ресурсы для окончательного или предварительного резервирования на основе указанной продолжительности.</span><span class="sxs-lookup"><span data-stu-id="57599-348">On the <strong>Launch resource assignment </strong>page, you can select resources to hard-book or soft-book, based on the specified duration.</span></span> <span data-ttu-id="57599-349">Вы можете настроить параметры просмотра для просмотра и задания длительности действий ресурса.</span><span class="sxs-lookup"><span data-stu-id="57599-349">You can adjust the view settings to see and set the duration of resource activities.</span></span> <span data-ttu-id="57599-350">Можно выбирать и назначать ресурсы на уровне пакета работ с помощью следующих параметров:</span><span class="sxs-lookup"><span data-stu-id="57599-350">You can select and assign resources at the work package level by using the following options:</span></span>
 <ul>
-<li><strong>Принять</strong> — подтверждение изменений ресурса, который назначен задаче.</li>
-<li><strong>Отмена</strong> — отмена изменений ресурса, который назначен задаче.</li>
-<li><strong>Назначить автоматически</strong> — этот параметр выбирает доступный укомплектованный ресурс с подходящей ролью для выбранной задачи.</li>
+<li><span data-ttu-id="57599-351"><strong>Принять</strong> — подтверждение изменений ресурса, который назначен задаче.</span><span class="sxs-lookup"><span data-stu-id="57599-351"><strong>Accept</strong> – Confirm changes to the resource that is assigned to a task.</span></span></li>
+<li><span data-ttu-id="57599-352"><strong>Отмена</strong> — отмена изменений ресурса, который назначен задаче.</span><span class="sxs-lookup"><span data-stu-id="57599-352"><strong>Cancel</strong> – Cancel changes to the resource that is assigned to a task.</span></span></li>
+<li><span data-ttu-id="57599-353"><strong>Назначить автоматически</strong> — этот параметр выбирает доступный укомплектованный ресурс с подходящей ролью для выбранной задачи.</span><span class="sxs-lookup"><span data-stu-id="57599-353"><strong>Assign automatically</strong> – This option selects an available staffed resource with a matching role to the selected task.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-1.  Нажмите **Управление и учет по проектам** &gt; **Проекты** &gt; **Все проекты**.
-2.  В списке выберите проект **Этап 2 обновления XYZ**.
-3.  Нажмите **План** &gt; **Мероприятия** &gt; **Структурная декомпозиция работ**.
-4.  Нажмите **Создать** для добавления следующих действий первого уровня в СДР:
-    -   Инициализация
-    -   Планирование
-    -   Выполнение
-    -   Наблюдение и управление
-    -   Близкие
+1.  <span data-ttu-id="57599-354">Нажмите **Управление и учет по проектам** &gt; **Проекты** &gt; **Все проекты**.</span><span class="sxs-lookup"><span data-stu-id="57599-354">Click **Project management and accounting** &gt; **Projects** &gt; **All projects**.</span></span>
+2.  <span data-ttu-id="57599-355">В списке выберите проект **Этап 2 обновления XYZ**.</span><span class="sxs-lookup"><span data-stu-id="57599-355">In the list, select the **XYZ Upgrade Phase 2** project.</span></span>
+3.  <span data-ttu-id="57599-356">Нажмите **План** &gt; **Мероприятия** &gt; **Структурная декомпозиция работ**.</span><span class="sxs-lookup"><span data-stu-id="57599-356">Click **Plan** &gt; **Activities** &gt; **Work breakdown structure**.</span></span>
+4.  <span data-ttu-id="57599-357">Нажмите **Создать** для добавления следующих действий первого уровня в СДР:</span><span class="sxs-lookup"><span data-stu-id="57599-357">Click **New** to add the following level-one activities to the WBS:</span></span>
+    -   <span data-ttu-id="57599-358">Инициализация</span><span class="sxs-lookup"><span data-stu-id="57599-358">Initiating</span></span>
+    -   <span data-ttu-id="57599-359">Планирование</span><span class="sxs-lookup"><span data-stu-id="57599-359">Planning</span></span>
+    -   <span data-ttu-id="57599-360">Выполнение</span><span class="sxs-lookup"><span data-stu-id="57599-360">Executing</span></span>
+    -   <span data-ttu-id="57599-361">Наблюдение и управление</span><span class="sxs-lookup"><span data-stu-id="57599-361">Monitoring and Control</span></span>
+    -   <span data-ttu-id="57599-362">Близкие</span><span class="sxs-lookup"><span data-stu-id="57599-362">Close</span></span>
 
-5.  Задайте даты и усилия (часы), как показано на следующем снимке экрана.[![Задание дат и усилий](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
-6.  Выберите строку задачи **Инициализация**, затем в поле **Роль** выберите **Старший менеджер проекта**.
-7.  Щелкните **Опубликовать**.
-8.  В этой же строке в поле **Ресурс** выберите **Даниэль Голдшмидт**.
-9.  Щелкните **Принять**.
-10. Выберите строку задачи **Планирование**, затем в поле **Роль** выберите **Бизнес-аналитик**.
-11. Выберите **Опубликовать**, затем нажмите **Автоматически генерировать группу**.
-12. В открывшемся диалоговом окне щелкните **Да**.
-13. В поле **Ресурс** убедитесь, что установлено значение **Бизнес-аналитик 1**.
-14. Для ресурса **Бизнес-аналитик 1** откройте поиск и нажмите **Запуск формы назначения ресурсов**.
-15. Выберите работника для задачи.
-16. Щелкните **Предварительно назначить** &gt; **Полная мощность**.
-17. Щелкните **Сохранить** и закройте страницу. 
+5.  <span data-ttu-id="57599-363">Задайте даты и усилия (часы), как показано на следующем снимке экрана.[![Задание дат и усилий](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)</span><span class="sxs-lookup"><span data-stu-id="57599-363">Set the dates and effort (hours), as shown in the following screenshot.[![Setting the dates and effort](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)</span></span>
+6.  <span data-ttu-id="57599-364">Выберите строку задачи **Инициализация**, затем в поле **Роль** выберите **Старший менеджер проекта**.</span><span class="sxs-lookup"><span data-stu-id="57599-364">Select the **Initiating** task line, and then, in the **Role** field, select **Senior Project Manager**.</span></span>
+7.  <span data-ttu-id="57599-365">Щелкните **Опубликовать**.</span><span class="sxs-lookup"><span data-stu-id="57599-365">Click **Publish**.</span></span>
+8.  <span data-ttu-id="57599-366">В этой же строке в поле **Ресурс** выберите **Даниэль Голдшмидт**.</span><span class="sxs-lookup"><span data-stu-id="57599-366">On the same line, in the **Resource** field, select **Daniel Goldschmidt**.</span></span>
+9.  <span data-ttu-id="57599-367">Щелкните **Принять**.</span><span class="sxs-lookup"><span data-stu-id="57599-367">Click **Accept**.</span></span>
+10. <span data-ttu-id="57599-368">Выберите строку задачи **Планирование**, затем в поле **Роль** выберите **Бизнес-аналитик**.</span><span class="sxs-lookup"><span data-stu-id="57599-368">Select the **Planning** task line, and then, in the **Role** field, select **Business analyst**.</span></span>
+11. <span data-ttu-id="57599-369">Выберите **Опубликовать**, затем нажмите **Автоматически генерировать группу**.</span><span class="sxs-lookup"><span data-stu-id="57599-369">Click **Publish**, and then click **Auto generate team**.</span></span>
+12. <span data-ttu-id="57599-370">В открывшемся диалоговом окне щелкните **Да**.</span><span class="sxs-lookup"><span data-stu-id="57599-370">In the dialog box that appears, click **Yes**.</span></span>
+13. <span data-ttu-id="57599-371">В поле **Ресурс** убедитесь, что установлено значение **Бизнес-аналитик 1**.</span><span class="sxs-lookup"><span data-stu-id="57599-371">In the **Resource** field, verify that the value is **Business analyst 1**.</span></span>
+14. <span data-ttu-id="57599-372">Для ресурса **Бизнес-аналитик 1** откройте поиск и нажмите **Запуск формы назначения ресурсов**.</span><span class="sxs-lookup"><span data-stu-id="57599-372">For the **Business analyst 1** resource, open the lookup, and click **Launch resource assignments form**.</span></span>
+15. <span data-ttu-id="57599-373">Выберите работника для задачи.</span><span class="sxs-lookup"><span data-stu-id="57599-373">Select a worker for the task.</span></span>
+16. <span data-ttu-id="57599-374">Щелкните **Предварительно назначить** &gt; **Полная мощность**.</span><span class="sxs-lookup"><span data-stu-id="57599-374">Click **Soft assign** &gt; **Full capacity**.</span></span>
+17. <span data-ttu-id="57599-375">Щелкните **Сохранить** и закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="57599-375">Click **Save**, and close the page.</span></span> 
 
 > [!NOTE] 
-> Вы не получите предупреждение, что указанный ресурс теперь имеет номер 2, поскольку количество ресурсов остается равным 1.
-18. На странице **Структурная декомпозиция работ** проверьте назначение ресурсов для СДР, затем нажмите **Сохранить**.
+> <span data-ttu-id="57599-376">Вы не получите предупреждение, что указанный ресурс теперь имеет номер 2, поскольку количество ресурсов остается равным 1.</span><span class="sxs-lookup"><span data-stu-id="57599-376">You don't receive a warning that the specified resource is now 2, because the number of resources remains at 1.</span></span>
+18. <span data-ttu-id="57599-377">На странице **Структурная декомпозиция работ** проверьте назначение ресурсов для СДР, затем нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="57599-377">On the **Work breakdown structure** page, validate the resource assignment on the WBS, and then click **Save**.</span></span>
 
-## <a name="resource-fulfillment-for-planned-resources"></a>Обеспечение ресурсов для запланированных ресурсов
-Менеджер проекта может запланировать необходимые роли ресурсов для проекта. Менеджер по ресурсам видит эти запланированные ресурсы в виде запросов на странице **Обеспечение ресурса** и может назначить фактические ресурсы.
+## <a name="resource-fulfillment-for-planned-resources"></a><span data-ttu-id="57599-378">Обеспечение ресурсов для запланированных ресурсов</span><span class="sxs-lookup"><span data-stu-id="57599-378">Resource fulfillment for planned resources</span></span>
+<span data-ttu-id="57599-379">Менеджер проекта может запланировать необходимые роли ресурсов для проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-379">A project manager can plan required resource roles for a project.</span></span> <span data-ttu-id="57599-380">Менеджер по ресурсам видит эти запланированные ресурсы в виде запросов на странице **Обеспечение ресурса** и может назначить фактические ресурсы.</span><span class="sxs-lookup"><span data-stu-id="57599-380">The resource manager will see these planned resources as requests on the **Resource fulfillment** page and can assign actual resources.</span></span>
 
-1.  Нажмите **Управление и учет по проектам** &gt; **Проекты** &gt; **Все проекты**.
-2.  В списке выберите проект **Этап 2 обновления XYZ**.
-3.  Щелкните **Проект**.
-4.  Выберите **Изменить**.
-5.  На вкладке **Проектная группа и планирование**** **нажмите **Добавить**.
-6.  В диалоговом окне **Добавить роли** выберите роль **Разработчик программного обеспечения**.
-7.  Щелкните **Создать**.
-8.  Закройте страницу проекта.
-9.  Щелкните **Управление и учет по проектам** &gt; **Ресурсы проекта** &gt; **Обеспечение ресурса**.
-10. Выберите **Разработчик программного обеспечения 1** для проекта **Этап 2 проекта обновления XYZ**.
-11. Выберите работника, затем нажмите **Назначить**.
-12. Убедитесь, что строка для **Разработчик программного обеспечения 1** удалена из проекта **Этап 2 проекта обновления XYZ**.
-13. На вкладке **Проектная группа и планирование** для проекта **Этап 2 обновления XYZ** убедитесь, что работник, выбранный на шаге 11, добавлен как **Разработчик программного обеспечения**.
+1.  <span data-ttu-id="57599-381">Нажмите **Управление и учет по проектам** &gt; **Проекты** &gt; **Все проекты**.</span><span class="sxs-lookup"><span data-stu-id="57599-381">Click **Project management and accounting** &gt; **Projects** &gt; **All projects**.</span></span>
+2.  <span data-ttu-id="57599-382">В списке выберите проект **Этап 2 обновления XYZ**.</span><span class="sxs-lookup"><span data-stu-id="57599-382">In the list, select the **XYZ Upgrade Phase 2** project.</span></span>
+3.  <span data-ttu-id="57599-383">Щелкните **Проект**.</span><span class="sxs-lookup"><span data-stu-id="57599-383">Click **Project**.</span></span>
+4.  <span data-ttu-id="57599-384">Выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="57599-384">Click **Edit**.</span></span>
+5.  <span data-ttu-id="57599-385">На вкладке **Проектная группа и планирование**** **нажмите **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="57599-385">On the **Project team and scheduling** tab,** **click **Add**.</span></span>
+6.  <span data-ttu-id="57599-386">В диалоговом окне **Добавить роли** выберите роль **Разработчик программного обеспечения**.</span><span class="sxs-lookup"><span data-stu-id="57599-386">In the **Add roles** dialog box, select the **Software developer** role.</span></span>
+7.  <span data-ttu-id="57599-387">Щелкните **Создать**.</span><span class="sxs-lookup"><span data-stu-id="57599-387">Click **Create**.</span></span>
+8.  <span data-ttu-id="57599-388">Закройте страницу проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-388">Close the project page.</span></span>
+9.  <span data-ttu-id="57599-389">Щелкните **Управление и учет по проектам** &gt; **Ресурсы проекта** &gt; **Обеспечение ресурса**.</span><span class="sxs-lookup"><span data-stu-id="57599-389">Click **Project management and accounting** &gt; **Project resources** &gt; **Resource fulfillment**.</span></span>
+10. <span data-ttu-id="57599-390">Выберите **Разработчик программного обеспечения 1** для проекта **Этап 2 проекта обновления XYZ**.</span><span class="sxs-lookup"><span data-stu-id="57599-390">Select **Software developer 1** for the **XYZ Upgrade project Phase 2** project.</span></span>
+11. <span data-ttu-id="57599-391">Выберите работника, затем нажмите **Назначить**.</span><span class="sxs-lookup"><span data-stu-id="57599-391">Select a worker, and then click **Assign**.</span></span>
+12. <span data-ttu-id="57599-392">Убедитесь, что строка для **Разработчик программного обеспечения 1** удалена из проекта **Этап 2 проекта обновления XYZ**.</span><span class="sxs-lookup"><span data-stu-id="57599-392">Verify that the line for **Software developer 1** has been removed for the **XYZ Upgrade project Phase 2** project.</span></span>
+13. <span data-ttu-id="57599-393">На вкладке **Проектная группа и планирование** для проекта **Этап 2 обновления XYZ** убедитесь, что работник, выбранный на шаге 11, добавлен как **Разработчик программного обеспечения**.</span><span class="sxs-lookup"><span data-stu-id="57599-393">On the **Project team and scheduling** tab, for the **XYZ Upgrade Phase 2** project, verify that the worker that you selected in step 11 has been added as **Software developer**.</span></span>
 
-## <a name="requests-for-project-resources"></a>Запросы ресурсов проекта
-Функциональная возможность планирования ресурсов проекта поддерживает менеджеров ресурсов только при распределении укомплектованных ресурсов по обязательствам или проектам. Чтобы включить эту функцию, необходимо выполнить следующие задачи или убедиться, что они уже выполнены.
+## <a name="requests-for-project-resources"></a><span data-ttu-id="57599-394">Запросы ресурсов проекта</span><span class="sxs-lookup"><span data-stu-id="57599-394">Requests for project resources</span></span>
+<span data-ttu-id="57599-395">Функциональная возможность планирования ресурсов проекта поддерживает менеджеров ресурсов только при распределении укомплектованных ресурсов по обязательствам или проектам.</span><span class="sxs-lookup"><span data-stu-id="57599-395">The project resource scheduling functionality only supports resource managers to distribute staffed resources on engagements or projects.</span></span> <span data-ttu-id="57599-396">Чтобы включить эту функцию, необходимо выполнить следующие задачи или убедиться, что они уже выполнены.</span><span class="sxs-lookup"><span data-stu-id="57599-396">To enable this functionality, complete the following tasks, or verify that they have been completed.</span></span>
 
--   Настройка номерных серий.
--   Настройте workflow-процессы управления и учета по проектам.
--   Включите workflow-процесс запроса ресурса.
+-   <span data-ttu-id="57599-397">Настройка номерных серий.</span><span class="sxs-lookup"><span data-stu-id="57599-397">Set up number sequences.</span></span>
+-   <span data-ttu-id="57599-398">Настройте workflow-процессы управления и учета по проектам.</span><span class="sxs-lookup"><span data-stu-id="57599-398">Set up project management and accounting workflows.</span></span>
+-   <span data-ttu-id="57599-399">Включите workflow-процесс запроса ресурса.</span><span class="sxs-lookup"><span data-stu-id="57599-399">Enable resource request workflow.</span></span>
 
-После проверки или выполнения указанных выше задач можно выполнить следующие задачи, как требуется.
+<span data-ttu-id="57599-400">После проверки или выполнения указанных выше задач можно выполнить следующие задачи, как требуется.</span><span class="sxs-lookup"><span data-stu-id="57599-400">After you have either verified or completed the tasks above, you can complete the following tasks as needed.</span></span>
 
--   Создание запроса ресурса из предварительно зарезервированного укомплектованного ресурса.
--   Мониторинг запросов ресурсов.
--   Обеспечение запросов ресурсов.
--   Запрос укомплектованного ресурса из СДР.
--   Резервирование ресурсов для проекта без запроса укомплектованного ресурса.
+-   <span data-ttu-id="57599-401">Создание запроса ресурса из предварительно зарезервированного укомплектованного ресурса.</span><span class="sxs-lookup"><span data-stu-id="57599-401">Create a resource request from a soft-booked staffed resource.</span></span>
+-   <span data-ttu-id="57599-402">Мониторинг запросов ресурсов.</span><span class="sxs-lookup"><span data-stu-id="57599-402">Monitor resource requests.</span></span>
+-   <span data-ttu-id="57599-403">Обеспечение запросов ресурсов.</span><span class="sxs-lookup"><span data-stu-id="57599-403">Fulfill resource requests.</span></span>
+-   <span data-ttu-id="57599-404">Запрос укомплектованного ресурса из СДР.</span><span class="sxs-lookup"><span data-stu-id="57599-404">Request a staffed resource from WBS.</span></span>
+-   <span data-ttu-id="57599-405">Резервирование ресурсов для проекта без запроса укомплектованного ресурса.</span><span class="sxs-lookup"><span data-stu-id="57599-405">Book resources to a project without a request for a staffed resource.</span></span>
 
-## <a name="monitor-project-teams"></a>Мониторинг проектных групп
-1.  Нажмите **Управление и учет по проектам** &gt; **Проекты** &gt; **Все проекты**.
-2.  В списке проектов нажмите ссылку **Код проекта** для проекта **Этап 2 обновления XYZ**.
-3.  На экспресс-вкладке **Проектная группа и планирование** убедитесь в правильности указанных в списке ресурсов проекта.
+## <a name="monitor-project-teams"></a><span data-ttu-id="57599-406">Мониторинг проектных групп</span><span class="sxs-lookup"><span data-stu-id="57599-406">Monitor project teams</span></span>
+1.  <span data-ttu-id="57599-407">Нажмите **Управление и учет по проектам** &gt; **Проекты** &gt; **Все проекты**.</span><span class="sxs-lookup"><span data-stu-id="57599-407">Click **Project management and accounting** &gt; **Projects** &gt; **All projects**.</span></span>
+2.  <span data-ttu-id="57599-408">В списке проектов нажмите ссылку **Код проекта** для проекта **Этап 2 обновления XYZ**.</span><span class="sxs-lookup"><span data-stu-id="57599-408">In the list of projects, click the **Project ID** link for the **XYZ Upgrade Phase 2** project.</span></span>
+3.  <span data-ttu-id="57599-409">На экспресс-вкладке **Проектная группа и планирование** убедитесь в правильности указанных в списке ресурсов проекта.</span><span class="sxs-lookup"><span data-stu-id="57599-409">On the **Project team and scheduling** FastTab, verify that the project resources that are listed are correct.</span></span>
 
 
 

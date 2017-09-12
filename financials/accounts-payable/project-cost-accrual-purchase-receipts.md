@@ -15,73 +15,73 @@ ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b46929d2991f3ec1b38d54ddc57de632aa9b01b9
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: ba4eedb9895feda6b8c664654f30d0bd0a3a172a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="project-cost-accrual-on-purchase-receipts"></a>Начисление затрат по проекту по приходам покупки
+# <a name="project-cost-accrual-on-purchase-receipts"></a><span data-ttu-id="27edd-103">Начисление затрат по проекту по приходам покупки</span><span class="sxs-lookup"><span data-stu-id="27edd-103">Project cost accrual on purchase receipts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-В этой теме описывается, как отслеживать начисленные затраты по проекту по приходам покупки в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
+<span data-ttu-id="27edd-104">В этой теме описывается, как отслеживать начисленные затраты по проекту по приходам покупки в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="27edd-104">This topic describes how accrued project costs from purchase receipts can be tracked in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-Накладные по проекту часто поступают позже, чем доставляются товары и услуги, что может оказать значительное влияние на ключевые индикаторы производительности (KPI) проекта. Важно иметь возможность отслеживать эти проводки в финансовых и проектных отчетах.
+<span data-ttu-id="27edd-105">Накладные по проекту часто поступают позже, чем доставляются товары и услуги, что может оказать значительное влияние на ключевые индикаторы производительности (KPI) проекта.</span><span class="sxs-lookup"><span data-stu-id="27edd-105">Invoices for a project often arrive later than the goods and services are delivered, which might have a significant impact on project key performance indicators (KPIs).</span></span> <span data-ttu-id="27edd-106">Важно иметь возможность отслеживать эти проводки в финансовых и проектных отчетах.</span><span class="sxs-lookup"><span data-stu-id="27edd-106">It important to be able to track these transactions in both financial and project reports.</span></span>
 
-Этот иллюстрирует следующий пример сценария. 
+<span data-ttu-id="27edd-107">Этот иллюстрирует следующий пример сценария.</span><span class="sxs-lookup"><span data-stu-id="27edd-107">The following example scenario illustrates this.</span></span> 
 
-Компания Contoso Consulting запустила новый проекта развертывания в облаке. Создается заказ на покупку для приобретения компьютера для проекта. Компьютер будет стоить 1500 долларов США, а услуги по установке будут стоить 150 долларов США. Поставщик доставил и установил компьютер, но накладная еще не поступила в компанию Contoso Consulting. Руководитель проекта хотел бы видеть начисление затрат на проект в сумме 1650 долларов до поступления накладной. Эти затраты должны также отражаться в финансовых отчетах компании на конец месяца. 
+<span data-ttu-id="27edd-108">Компания Contoso Consulting запустила новый проекта развертывания в облаке.</span><span class="sxs-lookup"><span data-stu-id="27edd-108">Contoso Consulting has started a new cloud deployment project.</span></span> <span data-ttu-id="27edd-109">Создается заказ на покупку для приобретения компьютера для проекта.</span><span class="sxs-lookup"><span data-stu-id="27edd-109">A purchase order is created to buy a computer for the project.</span></span> <span data-ttu-id="27edd-110">Компьютер будет стоить 1500 долларов США, а услуги по установке будут стоить 150 долларов США.</span><span class="sxs-lookup"><span data-stu-id="27edd-110">The computer will cost $1500 and installation services will cost $150.</span></span> <span data-ttu-id="27edd-111">Поставщик доставил и установил компьютер, но накладная еще не поступила в компанию Contoso Consulting.</span><span class="sxs-lookup"><span data-stu-id="27edd-111">The vendor has delivered and installed the computer, but the invoice has not yet reached Contoso Consulting.</span></span> <span data-ttu-id="27edd-112">Руководитель проекта хотел бы видеть начисление затрат на проект в сумме 1650 долларов до поступления накладной.</span><span class="sxs-lookup"><span data-stu-id="27edd-112">The project manager would like to see project cost accrual of $1650 before the invoice gets delivered.</span></span> <span data-ttu-id="27edd-113">Эти затраты должны также отражаться в финансовых отчетах компании на конец месяца.</span><span class="sxs-lookup"><span data-stu-id="27edd-113">This cost should also be reflected in the company's month end financial statements.</span></span> 
 
-Для целей отчетности начисленные расходы должны записываться как на финансовом уровне, так и на уровне проекта. В Finance and Operations финансовое обновление прихода продуктов можно отслеживать для номенклатур и категорий закупок. 
+<span data-ttu-id="27edd-114">Для целей отчетности начисленные расходы должны записываться как на финансовом уровне, так и на уровне проекта.</span><span class="sxs-lookup"><span data-stu-id="27edd-114">The accrued cost needs to be recorded on both the financial level and project level for reporting purposes.</span></span> <span data-ttu-id="27edd-115">В Finance and Operations финансовое обновление прихода продуктов можно отслеживать для номенклатур и категорий закупок.</span><span class="sxs-lookup"><span data-stu-id="27edd-115">In Finance and Operations, the financial update of the product receipt can be tracked for the item and procurement categories.</span></span> 
 
-Для номенклатур на странице **Параметры модуля расчетов с поставщиками** выберите параметр **Разноска поступления продуктов в ГК**.
-[![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
+<span data-ttu-id="27edd-116">Для номенклатур на странице **Параметры модуля расчетов с поставщиками** выберите параметр **Разноска поступления продуктов в ГК**.</span><span class="sxs-lookup"><span data-stu-id="27edd-116">For items, on the **Accounts payable parameters** page, select the **Post product receipts to ledger** option.</span></span>
+<span data-ttu-id="27edd-117">[![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png)</span><span class="sxs-lookup"><span data-stu-id="27edd-117">[![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png)</span></span> 
 
-Для категорий закупок на странице закупаемой продукции на **Правило политики категории** выберите политики **Покупка**, затем выберите **Начислить расходы на покупку при оприходовании** для каждой категории закупок.
-[![accruals2](./media/accruals2-1024x569.png)](./media/accruals2.png) 
+<span data-ttu-id="27edd-118">Для категорий закупок на странице закупаемой продукции на **Правило политики категории** выберите политики **Покупка**, затем выберите **Начислить расходы на покупку при оприходовании** для каждой категории закупок.</span><span class="sxs-lookup"><span data-stu-id="27edd-118">For procurement categories, on the **Category policy rule** page, select **Purchasing** policies, and then select **Accrue purchase expense on receipt** for each procurement category.</span></span>
+<span data-ttu-id="27edd-119">[![accruals2](./media/accruals2-1024x569.png)](./media/accruals2.png)</span><span class="sxs-lookup"><span data-stu-id="27edd-119">[![accruals2](./media/accruals2-1024x569.png)](./media/accruals2.png)</span></span> 
 
-Счета **Расходы по закупкам, не выставлены накладные** и **Покупка, начисление** в **Настройка разноски** будут использоваться при разноске ваучеров, связанных с приходом продуктов.
-[![accruals3](./media/accruals3-1024x429.png)](./media/accruals3.png) 
+<span data-ttu-id="27edd-120">Счета **Расходы по закупкам, не выставлены накладные** и **Покупка, начисление** в **Настройка разноски** будут использоваться при разноске ваучеров, связанных с приходом продуктов.</span><span class="sxs-lookup"><span data-stu-id="27edd-120">The **Purchase expenditure un-invoiced** and **Purchase accrual** accounts in **Posting setup** will be used when vouchers that are related to the product receipt are posted.</span></span>
+<span data-ttu-id="27edd-121">[![accruals3](./media/accruals3-1024x429.png)](./media/accruals3.png)</span><span class="sxs-lookup"><span data-stu-id="27edd-121">[![accruals3](./media/accruals3-1024x429.png)](./media/accruals3.png)</span></span> 
 
-Используя этот же сценарий, посмотрим, как разноска поступления продуктов повлияет на сведения в главной книге и сведения о проекте. 
+<span data-ttu-id="27edd-122">Используя этот же сценарий, посмотрим, как разноска поступления продуктов повлияет на сведения в главной книге и сведения о проекте.</span><span class="sxs-lookup"><span data-stu-id="27edd-122">Using this same scenario, let's see how posting a product receipt will impact General ledger and Project information.</span></span> 
 
-**Шаг 1.** Создание и подтверждение нового заказ на покупку для проекта, чтобы записать покупку компьютера за 1500 долларов США и услуг по установке за 150 долларов США.
-[![accruals4](./media/accruals4-1024x497.png)](./media/accruals4.png) 
+<span data-ttu-id="27edd-123">**Шаг 1.** Создание и подтверждение нового заказ на покупку для проекта, чтобы записать покупку компьютера за 1500 долларов США и услуг по установке за 150 долларов США.</span><span class="sxs-lookup"><span data-stu-id="27edd-123">**Step 1:** Create and confirm a new purchase order for the project to record the purchase of a computer for $1500 and installation services for $150.</span></span>
+<span data-ttu-id="27edd-124">[![accruals4](./media/accruals4-1024x497.png)](./media/accruals4.png)</span><span class="sxs-lookup"><span data-stu-id="27edd-124">[![accruals4](./media/accruals4-1024x497.png)](./media/accruals4.png)</span></span> 
 
-При подтверждении заказа на покупку создаются проводки для подтвержденных затрат по проекту. 
-[![accruals5](./media/accruals5-1024x219.png)](./media/accruals5.png) 
-
-> [!NOTE]
-> Проводки для подтвержденных затрат будут иметь в поле **Источник проводки** значение **Заказ на покупку**. Создание и подтверждения заказа на покупку не создает проводок по проекту. 
-
-**Шаг 2.** Товары и услуги доставляются, и зарегистрируется приход продуктов. 
-
-Разноска прихода продуктов создаст и разнесет ваучер в главную книгу. Ваучер дебетует счет расходов по закупкам, по которым не выставлены накладные, и кредитует счет начислений покупки. 
-[![accruals6](./media/accruals6-1024x214.png)](./media/accruals6.png)
+<span data-ttu-id="27edd-125">При подтверждении заказа на покупку создаются проводки для подтвержденных затрат по проекту.</span><span class="sxs-lookup"><span data-stu-id="27edd-125">When the purchase order is confirmed, transactions for the committed cost are created for the project.</span></span> 
+<span data-ttu-id="27edd-126">[![accruals5](./media/accruals5-1024x219.png)](./media/accruals5.png)</span><span class="sxs-lookup"><span data-stu-id="27edd-126">[![accruals5](./media/accruals5-1024x219.png)](./media/accruals5.png)</span></span> 
 
 > [!NOTE]
-> Разноска прихода продуктов будет использовать настройку разноски для категории закупки и продуктов, а не настройку разноски для категорий проекта. Чтобы правильно отразить финансовое влияние начислений за покупку, необходимо скорректировать эту настройку. 
+> <span data-ttu-id="27edd-127">Проводки для подтвержденных затрат будут иметь в поле **Источник проводки** значение **Заказ на покупку**.</span><span class="sxs-lookup"><span data-stu-id="27edd-127">The transactions for the committed cost will have the **Transaction Origin** field set to **Purchase Order**.</span></span> <span data-ttu-id="27edd-128">Создание и подтверждения заказа на покупку не создает проводок по проекту.</span><span class="sxs-lookup"><span data-stu-id="27edd-128">Creating and confirming a purchase order does not create transactions for a project.</span></span> 
 
-Имеется возможность сопоставить категории закупаемой продукции с категориями проекта на странице **Категория закупаемой продукции**.
-[![accruals7](./media/accruals7-1024x390.png)](./media/accruals7.png)
+<span data-ttu-id="27edd-129">**Шаг 2.** Товары и услуги доставляются, и зарегистрируется приход продуктов.</span><span class="sxs-lookup"><span data-stu-id="27edd-129">**Step 2:** Goods and services get delivered and a product receipt is registered.</span></span> 
 
-**Шаг 3.** Создание черновика накладной поставщика. 
+<span data-ttu-id="27edd-130">Разноска прихода продуктов создаст и разнесет ваучер в главную книгу.</span><span class="sxs-lookup"><span data-stu-id="27edd-130">Posting a product receipt will generate and post a voucher to the ledger.</span></span> <span data-ttu-id="27edd-131">Ваучер дебетует счет расходов по закупкам, по которым не выставлены накладные, и кредитует счет начислений покупки.</span><span class="sxs-lookup"><span data-stu-id="27edd-131">The voucher will debit the purchase expenditure, un-invoiced account, and credit purchase accrual account.</span></span> 
+<span data-ttu-id="27edd-132">[![accruals6](./media/accruals6-1024x214.png)](./media/accruals6.png)</span><span class="sxs-lookup"><span data-stu-id="27edd-132">[![accruals6](./media/accruals6-1024x214.png)](./media/accruals6.png)</span></span>
 
-В Finance and Operations разноска прихода продуктов не влияет на сведения о проекте. Для обхода этой проблемы можно создать черновик накладной поставщика сразу после разноски прихода покупки. Откройте страницу **Заказ на покупку** &gt; **вкладку "Накладная"** &gt; **Создать** &gt; **Накладная**. При этом создается документ ожидающей обработки накладной, который обновляет сведения о проекте. 
+> [!NOTE]
+> <span data-ttu-id="27edd-133">Разноска прихода продуктов будет использовать настройку разноски для категории закупки и продуктов, а не настройку разноски для категорий проекта.</span><span class="sxs-lookup"><span data-stu-id="27edd-133">Posting a product receipt will use the posting setup for procurement categories and products, and not the posting setup for the project categories.</span></span> <span data-ttu-id="27edd-134">Чтобы правильно отразить финансовое влияние начислений за покупку, необходимо скорректировать эту настройку.</span><span class="sxs-lookup"><span data-stu-id="27edd-134">In order to correctly reflect financial impact of purchase accruals, this setup needs to be aligned.</span></span> 
 
-Создание черновика накладной поставщика приведет к созданию ожидающих проводок по проекту. 
-[![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 
+<span data-ttu-id="27edd-135">Имеется возможность сопоставить категории закупаемой продукции с категориями проекта на странице **Категория закупаемой продукции**.</span><span class="sxs-lookup"><span data-stu-id="27edd-135">It is possible to map procurement categories to project categories on the **Procurement category** page.</span></span>
+<span data-ttu-id="27edd-136">[![accruals7](./media/accruals7-1024x390.png)](./media/accruals7.png)</span><span class="sxs-lookup"><span data-stu-id="27edd-136">[![accruals7](./media/accruals7-1024x390.png)](./media/accruals7.png)</span></span>
 
-На странице **Подтвержденные затраты** записи, созданные на шаге 1, будут закрыты, и будут созданы новые записи для отражения подтверждения затрат, вызванных ожидающей накладной поставщика. В поле **Источник проводки** для подтвержденных затрат будет указано **Накладная поставщика**.
-[![accruals9](./media/accruals9-1024x200.png)](./media/accruals9.png)
+<span data-ttu-id="27edd-137">**Шаг 3.** Создание черновика накладной поставщика.</span><span class="sxs-lookup"><span data-stu-id="27edd-137">**Step 3:** Create a draft vendor invoice.</span></span> 
 
-Накладная поставщика останется в состоянии ожидания, пока не поступит фактическая накладная поставщика.
+<span data-ttu-id="27edd-138">В Finance and Operations разноска прихода продуктов не влияет на сведения о проекте.</span><span class="sxs-lookup"><span data-stu-id="27edd-138">In Finance and Operations, posting a product receipt does not impact project information.</span></span> <span data-ttu-id="27edd-139">Для обхода этой проблемы можно создать черновик накладной поставщика сразу после разноски прихода покупки.</span><span class="sxs-lookup"><span data-stu-id="27edd-139">As a workaround, you could generate a draft vendor invoice right after posting the purchase receipt.</span></span> <span data-ttu-id="27edd-140">Откройте страницу **Заказ на покупку** &gt; **вкладку "Накладная"** &gt; **Создать** &gt; **Накладная**.</span><span class="sxs-lookup"><span data-stu-id="27edd-140">Go to the **Purchase Order** page &gt; **Invoice tab** &gt; **Generate** &gt; **Invoice**.</span></span> <span data-ttu-id="27edd-141">При этом создается документ ожидающей обработки накладной, который обновляет сведения о проекте.</span><span class="sxs-lookup"><span data-stu-id="27edd-141">This creates a pending invoice document that updates project information.</span></span> 
+
+<span data-ttu-id="27edd-142">Создание черновика накладной поставщика приведет к созданию ожидающих проводок по проекту.</span><span class="sxs-lookup"><span data-stu-id="27edd-142">Creating a draft vendor invoice will generate pending project transactions.</span></span> 
+<span data-ttu-id="27edd-143">[![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png)</span><span class="sxs-lookup"><span data-stu-id="27edd-143">[![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png)</span></span> 
+
+<span data-ttu-id="27edd-144">На странице **Подтвержденные затраты** записи, созданные на шаге 1, будут закрыты, и будут созданы новые записи для отражения подтверждения затрат, вызванных ожидающей накладной поставщика.</span><span class="sxs-lookup"><span data-stu-id="27edd-144">In the **Committed cost** page, records created in step 1 will be closed and new records will be created to reflect cost commitment coming from the pending vendor invoice.</span></span> <span data-ttu-id="27edd-145">В поле **Источник проводки** для подтвержденных затрат будет указано **Накладная поставщика**.</span><span class="sxs-lookup"><span data-stu-id="27edd-145">The **Transaction origin** field for the committed cost will be set to **Vendor invoice**.</span></span>
+<span data-ttu-id="27edd-146">[![accruals9](./media/accruals9-1024x200.png)](./media/accruals9.png)</span><span class="sxs-lookup"><span data-stu-id="27edd-146">[![accruals9](./media/accruals9-1024x200.png)](./media/accruals9.png)</span></span>
+
+<span data-ttu-id="27edd-147">Накладная поставщика останется в состоянии ожидания, пока не поступит фактическая накладная поставщика.</span><span class="sxs-lookup"><span data-stu-id="27edd-147">The vendor invoice will remain in a pending state until the actual vendor invoice arrives.</span></span>
 
 
 

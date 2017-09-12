@@ -20,38 +20,38 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 94f6f28ec4b255930f84a27eb5394503ff59e4c0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3ec45e7426f65827f161245870f9114e52e035ab
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="maintain-planned-orders"></a>Ведение спланированных заказов
+# <a name="maintain-planned-orders"></a><span data-ttu-id="6d8f2-104">Ведение спланированных заказов</span><span class="sxs-lookup"><span data-stu-id="6d8f2-104">Maintain planned orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-В этом статье представлена информация об управлении спланированными заказами. В ней описывается, как можно обновить статус спланированных заказов, утвердить их и отфильтровать спланированные заказы, которые имеют тот же статус, что и выбранный спланированный заказ.
+<span data-ttu-id="6d8f2-105">В этом статье представлена информация об управлении спланированными заказами.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-105">This article provides information about how to manage planned orders.</span></span> <span data-ttu-id="6d8f2-106">В ней описывается, как можно обновить статус спланированных заказов, утвердить их и отфильтровать спланированные заказы, которые имеют тот же статус, что и выбранный спланированный заказ.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
 
-Вы можете управлять запланированными заказами в рабочей области **Сводное планирование**, список **Спланированный заказ** или списки **Спланированный производственный заказ**, **Спланированный заказ на покупку** и **Спланированное перемещение**. Можно использовать поле **Статус**, чтобы отслеживать ход выполнения. Используются следующие значения:
+<span data-ttu-id="6d8f2-107">Вы можете управлять запланированными заказами в рабочей области **Сводное планирование**, список **Спланированный заказ** или списки **Спланированный производственный заказ**, **Спланированный заказ на покупку** и **Спланированное перемещение**.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="6d8f2-108">Можно использовать поле **Статус**, чтобы отслеживать ход выполнения.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="6d8f2-109">Используются следующие значения:</span><span class="sxs-lookup"><span data-stu-id="6d8f2-109">The following values are used:</span></span>
 
--   Когда система сводного планирования создает спланированные заказы, они имеют статус **Не обработано**.
--   Если решено не утверждать спланированный заказ, ему можно присвоить статус **Завершено**.
--   Когда решено не утверждать спланированный заказ, ему можно присвоить статус **Утверждено**. Этот статус указывает, что утверждение спланированного заказа утверждено, но заказ еще не утвержден.
+-   <span data-ttu-id="6d8f2-110">Когда система сводного планирования создает спланированные заказы, они имеют статус **Не обработано**.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
+-   <span data-ttu-id="6d8f2-111">Если решено не утверждать спланированный заказ, ему можно присвоить статус **Завершено**.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
+-   <span data-ttu-id="6d8f2-112">Когда решено не утверждать спланированный заказ, ему можно присвоить статус **Утверждено**.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="6d8f2-113">Этот статус указывает, что утверждение спланированного заказа утверждено, но заказ еще не утвержден.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
 
-**Примечание.** Утвержденный спланированный заказ переносится в своем текущем состоянии в следующий расчет сводного планирования. Спланированные заказы можно утвердить, последовательно, щелкнув **Утверждение**. Утвердить можно следующие спланированные заказы:
+<span data-ttu-id="6d8f2-114">**Примечание.** Утвержденный спланированный заказ переносится в своем текущем состоянии в следующий расчет сводного планирования.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="6d8f2-115">Спланированные заказы можно утвердить, последовательно, щелкнув **Утверждение**.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="6d8f2-116">Утвердить можно следующие спланированные заказы:</span><span class="sxs-lookup"><span data-stu-id="6d8f2-116">You can firm the following planned orders:</span></span>
 
--   Выбранный спланированный заказ.
--   Несколько спланированных заказов.
--   Спланированные заказы, которые создаются посредством развертывания на странице **Развертывание**. Щелкните **Спланированные заказы**, выберите спланированный заказ, а затем щелкните **Утверждение**.
+-   <span data-ttu-id="6d8f2-117">Выбранный спланированный заказ.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-117">The planned order that is selected.</span></span>
+-   <span data-ttu-id="6d8f2-118">Несколько спланированных заказов.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-118">Multiple planned orders.</span></span>
+-   <span data-ttu-id="6d8f2-119">Спланированные заказы, которые создаются посредством развертывания на странице **Развертывание**.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="6d8f2-120">Щелкните **Спланированные заказы**, выберите спланированный заказ, а затем щелкните **Утверждение**.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
 
-Когда спланированный заказ утвержден, он перемещается в раздел заказов соответствующего модуля. **Примечание.** Можно щелкнуть правой кнопкой мыши спланированный заказ, имеющий определенный статус, и отфильтровать другие спланированные заказы с таким же статусом. Эта функция полезна, например, если нужно отфильтровать все спланированные заказы со статусом **Утверждено**, чтобы их можно было утвердить.
+<span data-ttu-id="6d8f2-121">Когда спланированный заказ утвержден, он перемещается в раздел заказов соответствующего модуля.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> <span data-ttu-id="6d8f2-122">**Примечание.** Можно щелкнуть правой кнопкой мыши спланированный заказ, имеющий определенный статус, и отфильтровать другие спланированные заказы с таким же статусом.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-122">**Note:** You can right-click a planned order that has a particular status and filter for other planned orders that have the same status.</span></span> <span data-ttu-id="6d8f2-123">Эта функция полезна, например, если нужно отфильтровать все спланированные заказы со статусом **Утверждено**, чтобы их можно было утвердить.</span><span class="sxs-lookup"><span data-stu-id="6d8f2-123">This functionality is useful if, for example, you want to filter for all planned orders that have a status of **Approved**, so that you can then firm them.</span></span>
 
-<a name="see-also"></a>См. также
+<a name="see-also"></a><span data-ttu-id="6d8f2-124">См. также</span><span class="sxs-lookup"><span data-stu-id="6d8f2-124">See also</span></span>
 --------
 
-[Сводные планы](master-plans.md)
+[<span data-ttu-id="6d8f2-125">Сводные планы</span><span class="sxs-lookup"><span data-stu-id="6d8f2-125">Master plans</span></span>](master-plans.md)
 
 
 

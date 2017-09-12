@@ -17,40 +17,40 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 752a9a9a755ae7e4f2793fc712cc0c37c614ae71
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6381416640ffacf0a9d96d7da96bc33612ca7137
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Настройка дополнительных расходов и справочников дополнений для узла
+# <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a><span data-ttu-id="74aa3-103">Настройка дополнительных расходов и справочников дополнений для узла</span><span class="sxs-lookup"><span data-stu-id="74aa3-103">Set up hub accessorial charges and accessorial masters</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-В этой процедуре показано, как создать справочник дополнений для узла и, используя этот справочник, создать дополнительные расходы для узла. В процедуре используется набор данных USMF. Обычно это настраивается координатором транспортировки.
+<span data-ttu-id="74aa3-104">В этой процедуре показано, как создать справочник дополнений для узла и, используя этот справочник, создать дополнительные расходы для узла.</span><span class="sxs-lookup"><span data-stu-id="74aa3-104">This procedure shows how to create an accessorial master for a hub and use that master to create a hub accessorial charge.</span></span> <span data-ttu-id="74aa3-105">В процедуре используется набор данных USMF.</span><span class="sxs-lookup"><span data-stu-id="74aa3-105">The procedure uses the USMF dataset.</span></span> <span data-ttu-id="74aa3-106">Обычно это настраивается координатором транспортировки.</span><span class="sxs-lookup"><span data-stu-id="74aa3-106">This set up will typically be done by a transportation coordinator.</span></span>
 
 
-## <a name="set-up-a-hub-master"></a>Настройка шаблона узла
-1. Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Расчет ставок" > "Шаблоны дополнения".
-2. Щелкните "Создать".
-3. В поле "Шаблон дополнения" введите значение.
-4. В поле "Имя" введите значение.
-5. В поле "Тип дополнения" выберите "Узел".
-6. Нажмите кнопку "Сохранить".
-7. Закройте страницу.
+## <a name="set-up-a-hub-master"></a><span data-ttu-id="74aa3-107">Настройка шаблона узла</span><span class="sxs-lookup"><span data-stu-id="74aa3-107">Set up a hub master</span></span>
+1. <span data-ttu-id="74aa3-108">Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Расчет ставок" > "Шаблоны дополнения".</span><span class="sxs-lookup"><span data-stu-id="74aa3-108">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
+2. <span data-ttu-id="74aa3-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="74aa3-109">Click New.</span></span>
+3. <span data-ttu-id="74aa3-110">В поле "Шаблон дополнения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="74aa3-110">In the Accessorial master field, type a value.</span></span>
+4. <span data-ttu-id="74aa3-111">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="74aa3-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="74aa3-112">В поле "Тип дополнения" выберите "Узел".</span><span class="sxs-lookup"><span data-stu-id="74aa3-112">In the Accessorial type field, select 'Hub'.</span></span>
+6. <span data-ttu-id="74aa3-113">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="74aa3-113">Click Save.</span></span>
+7. <span data-ttu-id="74aa3-114">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="74aa3-114">Close the page.</span></span>
 
-## <a name="set-up-a-hub-accessorial-charge"></a>Настройка дополнительных расходов для узла
-1. Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Расчет ставок" > "Дополнительные расходы узла".
-2. Щелкните "Создать".
-3. В поле "Код дополнительного узла" введите значение.
-4. В поле "Узел" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-5. В списке найдите и выберите требуемую запись.
-6. В поле "Позиция узла" выберите вариант.
-    * Расходы можно создавать как вывоз или разгрузку. В зависимости от выбранного варианта расходы будут применяться к соответствующему сегменту транспортировки на маршруте.  
-7. В поле "Шаблон дополнения" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-8. В списке перейдите по ссылке в выбранной строке.
-    * Выберите только что созданный справочник.  
-9. Нажмите кнопку "Сохранить".
-10. Закройте страницу.
+## <a name="set-up-a-hub-accessorial-charge"></a><span data-ttu-id="74aa3-115">Настройка дополнительных расходов для узла</span><span class="sxs-lookup"><span data-stu-id="74aa3-115">Set up a hub accessorial charge</span></span>
+1. <span data-ttu-id="74aa3-116">Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Расчет ставок" > "Дополнительные расходы узла".</span><span class="sxs-lookup"><span data-stu-id="74aa3-116">Go to Transportation management > Setup > Rating > Hub accessorial charges.</span></span>
+2. <span data-ttu-id="74aa3-117">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="74aa3-117">Click New.</span></span>
+3. <span data-ttu-id="74aa3-118">В поле "Код дополнительного узла" введите значение.</span><span class="sxs-lookup"><span data-stu-id="74aa3-118">In the Hub accessorial ID field, type a value.</span></span>
+4. <span data-ttu-id="74aa3-119">В поле "Узел" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="74aa3-119">In the Hub field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="74aa3-120">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="74aa3-120">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="74aa3-121">В поле "Позиция узла" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="74aa3-121">In the Hub position field, select an option.</span></span>
+    * <span data-ttu-id="74aa3-122">Расходы можно создавать как вывоз или разгрузку.</span><span class="sxs-lookup"><span data-stu-id="74aa3-122">You can either create the charge as a pickup or drop-off.</span></span> <span data-ttu-id="74aa3-123">В зависимости от выбранного варианта расходы будут применяться к соответствующему сегменту транспортировки на маршруте.</span><span class="sxs-lookup"><span data-stu-id="74aa3-123">Depending on your selection the charge will be applied to the corresponding transportation segment on your route.</span></span>  
+7. <span data-ttu-id="74aa3-124">В поле "Шаблон дополнения" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="74aa3-124">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="74aa3-125">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="74aa3-125">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="74aa3-126">Выберите только что созданный справочник.</span><span class="sxs-lookup"><span data-stu-id="74aa3-126">Select the master you just created.</span></span>  
+9. <span data-ttu-id="74aa3-127">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="74aa3-127">Click Save.</span></span>
+10. <span data-ttu-id="74aa3-128">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="74aa3-128">Close the page.</span></span>
 
 

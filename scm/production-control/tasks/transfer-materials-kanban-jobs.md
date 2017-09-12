@@ -17,52 +17,52 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 72403aa502cadf2a727bdd67ad8cd612dafd502b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c79480d844627a7eed8129515924f1f70ad04f95
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="transfer-materials-with-kanban-jobs-february-2016-only"></a>Перемещение материалов с помощью заданий канбана (только для версии от февраля 2016 г.)
+# <a name="transfer-materials-with-kanban-jobs-february-2016-only"></a><span data-ttu-id="f8de1-103">Перемещение материалов с помощью заданий канбана (только для версии от февраля 2016 г.)</span><span class="sxs-lookup"><span data-stu-id="f8de1-103">Transfer materials with kanban jobs (February 2016 only)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура заключается в выполнении задания канбана изъятия для перемещения материалов. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для работника склада.
+<span data-ttu-id="f8de1-104">Эта процедура заключается в выполнении задания канбана изъятия для перемещения материалов.</span><span class="sxs-lookup"><span data-stu-id="f8de1-104">This procedure focuses on executing a withdrawal kanban job to transfer materials.</span></span> <span data-ttu-id="f8de1-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="f8de1-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f8de1-106">Эта процедура предназначена для работника склада.</span><span class="sxs-lookup"><span data-stu-id="f8de1-106">This procedure is intended for the warehouse worker.</span></span>
 
 
-## <a name="display-transfer-jobs"></a>Отображение заданий переноса
-1. Перейдите в раздел "Управление производством" > "Канбан" > "Доска канбана для заданий переноса".
-2. Разверните или сверните раздел "Фильтры".
-    * В разделе "Фильтры" можно указать, какие задания вы хотите просматривать, отфильтровав их по полям "Производственный поток", "Наименование мероприятия", "Со склада", "Из местонахождения", "На склад", "В местонахождение".  
-3. В поле "Со склада" введите значение "11".
-4. В поле "В ячейку" введите "12".
+## <a name="display-transfer-jobs"></a><span data-ttu-id="f8de1-107">Отображение заданий переноса</span><span class="sxs-lookup"><span data-stu-id="f8de1-107">Display transfer jobs</span></span>
+1. <span data-ttu-id="f8de1-108">Перейдите в раздел "Управление производством" > "Канбан" > "Доска канбана для заданий переноса".</span><span class="sxs-lookup"><span data-stu-id="f8de1-108">Go to Production control > Kanban > Kanban board for transfer jobs.</span></span>
+2. <span data-ttu-id="f8de1-109">Разверните или сверните раздел "Фильтры".</span><span class="sxs-lookup"><span data-stu-id="f8de1-109">Expand or collapse the Filters section.</span></span>
+    * <span data-ttu-id="f8de1-110">В разделе "Фильтры" можно указать, какие задания вы хотите просматривать, отфильтровав их по полям "Производственный поток", "Наименование мероприятия", "Со склада", "Из местонахождения", "На склад", "В местонахождение".</span><span class="sxs-lookup"><span data-stu-id="f8de1-110">In the Filters section, you can specify what jobs you want to see by filtering on Production flow, Activity name, From warehouse and location, and To warehouse and location.</span></span>  
+3. <span data-ttu-id="f8de1-111">В поле "Со склада" введите значение "11".</span><span class="sxs-lookup"><span data-stu-id="f8de1-111">In the From warehouse field, type '11'.</span></span>
+4. <span data-ttu-id="f8de1-112">В поле "В ячейку" введите "12".</span><span class="sxs-lookup"><span data-stu-id="f8de1-112">In the To location field, type '12'.</span></span>
 
-## <a name="start-a-transfer-job"></a>Запустить задание переноса
-1. В списке снимите выбор с выбранной строки, если какая-либо из строк выбрана.
-2. В списке выберите строку 4.
-    * Выберите первое задание с состоянием "Не запланировано". Убедитесь, что это единственное выбранное задание.  
-3. Щелкните "Начать".
-    * Обратите внимание на значок, который показывает, что задание начато.  
+## <a name="start-a-transfer-job"></a><span data-ttu-id="f8de1-113">Запустить задание переноса</span><span class="sxs-lookup"><span data-stu-id="f8de1-113">Start a transfer job</span></span>
+1. <span data-ttu-id="f8de1-114">В списке снимите выбор с выбранной строки, если какая-либо из строк выбрана.</span><span class="sxs-lookup"><span data-stu-id="f8de1-114">In the list, deselect the selected row - if any.</span></span>
+2. <span data-ttu-id="f8de1-115">В списке выберите строку 4.</span><span class="sxs-lookup"><span data-stu-id="f8de1-115">In the list, select row 4.</span></span>
+    * <span data-ttu-id="f8de1-116">Выберите первое задание с состоянием "Не запланировано".</span><span class="sxs-lookup"><span data-stu-id="f8de1-116">Select the first job with status Not planned.</span></span> <span data-ttu-id="f8de1-117">Убедитесь, что это единственное выбранное задание.</span><span class="sxs-lookup"><span data-stu-id="f8de1-117">Make sure this is the only job selected.</span></span>  
+3. <span data-ttu-id="f8de1-118">Щелкните "Начать".</span><span class="sxs-lookup"><span data-stu-id="f8de1-118">Click Start.</span></span>
+    * <span data-ttu-id="f8de1-119">Обратите внимание на значок, который показывает, что задание начато.</span><span class="sxs-lookup"><span data-stu-id="f8de1-119">Notice that an icon indicates that the job is started.</span></span>  
 
-## <a name="select-a-second-transfer-job-and-change-quantity"></a>Выбор второго задания переноса и изменение количества
-1. В списке найдите и выберите требуемую запись.
-    * Можно выбрать несколько заданий, но пока что выберите строку 5.  
-2. В списке найдите и выберите требуемую запись.
-    * Убедитесь, что задание из предыдущего шага — единственное выбранное задание. Снимите выбор со всех остальных заданий.  
-3. Запомните значение в поле "Количество для задания" для справки в будущем
-4. Установите количество для задания равным 30.
-    * Обратите внимание на предупреждение! У вас нет разрешения на перемещение 30 единиц. В соответствии с настройкой правила канбана вы можете переместить только первоначальное количество.  
-5. Используйте значение, введенное ранее в поле "Количество для задания"
-    * Задайте значение в поле "Количество для задания" равным предыдущему значению.  
+## <a name="select-a-second-transfer-job-and-change-quantity"></a><span data-ttu-id="f8de1-120">Выбор второго задания переноса и изменение количества</span><span class="sxs-lookup"><span data-stu-id="f8de1-120">Select a second transfer job and change quantity</span></span>
+1. <span data-ttu-id="f8de1-121">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="f8de1-121">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="f8de1-122">Можно выбрать несколько заданий, но пока что выберите строку 5.</span><span class="sxs-lookup"><span data-stu-id="f8de1-122">You can have multiple jobs selected, but for now select row 5.</span></span>  
+2. <span data-ttu-id="f8de1-123">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="f8de1-123">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="f8de1-124">Убедитесь, что задание из предыдущего шага — единственное выбранное задание.</span><span class="sxs-lookup"><span data-stu-id="f8de1-124">Make sure the job in the previous step is the only one selected.</span></span> <span data-ttu-id="f8de1-125">Снимите выбор со всех остальных заданий.</span><span class="sxs-lookup"><span data-stu-id="f8de1-125">Deselect all other jobs.</span></span>  
+3. <span data-ttu-id="f8de1-126">Запомните значение в поле "Количество для задания" для справки в будущем</span><span class="sxs-lookup"><span data-stu-id="f8de1-126">Note the value in the Job quantity field to reference later</span></span>
+4. <span data-ttu-id="f8de1-127">Установите количество для задания равным 30.</span><span class="sxs-lookup"><span data-stu-id="f8de1-127">Set Job quantity to '30'.</span></span>
+    * <span data-ttu-id="f8de1-128">Обратите внимание на предупреждение!</span><span class="sxs-lookup"><span data-stu-id="f8de1-128">Notice the warning!</span></span> <span data-ttu-id="f8de1-129">У вас нет разрешения на перемещение 30 единиц.</span><span class="sxs-lookup"><span data-stu-id="f8de1-129">You are not allowed to transfer 30.</span></span> <span data-ttu-id="f8de1-130">В соответствии с настройкой правила канбана вы можете переместить только первоначальное количество.</span><span class="sxs-lookup"><span data-stu-id="f8de1-130">According to the setup of the kanban rule, you can only transfer the original quantity.</span></span>  
+5. <span data-ttu-id="f8de1-131">Используйте значение, введенное ранее в поле "Количество для задания"</span><span class="sxs-lookup"><span data-stu-id="f8de1-131">Use the value noted previously in the Job quantity field</span></span>
+    * <span data-ttu-id="f8de1-132">Задайте значение в поле "Количество для задания" равным предыдущему значению.</span><span class="sxs-lookup"><span data-stu-id="f8de1-132">Set the Job quantity to the previous value.</span></span>  
 
-## <a name="start-the-second-transfer-job"></a>Запуск второго задания переноса
-1. Щелкните "Начать".
-    * В результате начнется перемещение задания в строке 5.  
+## <a name="start-the-second-transfer-job"></a><span data-ttu-id="f8de1-133">Запуск второго задания переноса</span><span class="sxs-lookup"><span data-stu-id="f8de1-133">Start the second transfer job</span></span>
+1. <span data-ttu-id="f8de1-134">Щелкните "Начать".</span><span class="sxs-lookup"><span data-stu-id="f8de1-134">Click Start.</span></span>
+    * <span data-ttu-id="f8de1-135">В результате начнется перемещение задания в строке 5.</span><span class="sxs-lookup"><span data-stu-id="f8de1-135">This will start the transfer of the job in row 5.</span></span>  
 
-## <a name="complete-both-transfer-jobs"></a>Завершение обоих заданий переноса
-1. В списке выберите строку 4.
-    * Теперь в строке 4 и в строке 5 выбрано два задания переноса.  
-2. Щелкните "Завершить".
-    * В результате перемещение обоих заданий будет перемещено.  
+## <a name="complete-both-transfer-jobs"></a><span data-ttu-id="f8de1-136">Завершение обоих заданий переноса</span><span class="sxs-lookup"><span data-stu-id="f8de1-136">Complete both transfer jobs</span></span>
+1. <span data-ttu-id="f8de1-137">В списке выберите строку 4.</span><span class="sxs-lookup"><span data-stu-id="f8de1-137">In the list, select row 4.</span></span>
+    * <span data-ttu-id="f8de1-138">Теперь в строке 4 и в строке 5 выбрано два задания переноса.</span><span class="sxs-lookup"><span data-stu-id="f8de1-138">Now two transfer jobs are selected on row 4 and row 5.</span></span>  
+2. <span data-ttu-id="f8de1-139">Щелкните "Завершить".</span><span class="sxs-lookup"><span data-stu-id="f8de1-139">Click Complete.</span></span>
+    * <span data-ttu-id="f8de1-140">В результате перемещение обоих заданий будет перемещено.</span><span class="sxs-lookup"><span data-stu-id="f8de1-140">This will complete the transfer of both jobs.</span></span>  
 
 

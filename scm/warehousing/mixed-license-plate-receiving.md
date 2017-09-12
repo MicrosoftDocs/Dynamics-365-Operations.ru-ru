@@ -14,7 +14,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -24,29 +24,29 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="mixed-license-plate-receiving"></a>Получение грузоместа со смешанными номенклатурами
+# <a name="mixed-license-plate-receiving"></a><span data-ttu-id="45914-103">Получение грузоместа со смешанными номенклатурами</span><span class="sxs-lookup"><span data-stu-id="45914-103">Mixed license plate receiving</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Получение грузоместа со смешанными номенклатурами позволяет создавать грузоместо с несколькими номенклатурами перед их регистрацией и созданием размещения. 
+<span data-ttu-id="45914-104">Получение грузоместа со смешанными номенклатурами позволяет создавать грузоместо с несколькими номенклатурами перед их регистрацией и созданием размещения.</span><span class="sxs-lookup"><span data-stu-id="45914-104">Mixed license plate receiving allows you to build a license plate consisting of multiple items before you register and create put-away work.</span></span> 
 
-Грузоместо с несколькими номенклатурами нет необходимости разделять в доке приемки для регистрации каждой номенклатуры. 
+<span data-ttu-id="45914-105">Грузоместо с несколькими номенклатурами нет необходимости разделять в доке приемки для регистрации каждой номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="45914-105">A license plate that consists of multiple items does not have to be split at the receiving dock for you to register each item.</span></span> 
 
-При использовании потока, относящегося к номенклатуре, для идентификации строк документа-источника можно сканировать штрих-код на элементе управления номенклатуры. Если на штрих-коде указано количество и настроена единица измерения, номенклатура и количество будут автоматически добавлены в грузоместо со смешанными номенклатурами и произойдет возврат на экран для сканирования другой номенклатуры. Это позволяет быстро просканировать все номенклатуры без подтверждения на каждом шаге. 
+<span data-ttu-id="45914-106">При использовании потока, относящегося к номенклатуре, для идентификации строк документа-источника можно сканировать штрих-код на элементе управления номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="45914-106">When using an item-related flow to identify the source document lines, you can scan bar codes on the item control.</span></span> <span data-ttu-id="45914-107">Если на штрих-коде указано количество и настроена единица измерения, номенклатура и количество будут автоматически добавлены в грузоместо со смешанными номенклатурами и произойдет возврат на экран для сканирования другой номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="45914-107">If the bar code has a quantity and a unit of measure (UOM) configured on it, the item and quantity will automatically be added to the mixed license plate, and you will be returned to the screen to scan another item.</span></span> <span data-ttu-id="45914-108">Это позволяет быстро просканировать все номенклатуры без подтверждения на каждом шаге.</span><span class="sxs-lookup"><span data-stu-id="45914-108">This allows you to quickly scan all the items without having to make a confirmation at each step.</span></span> 
 
-В потоке получения грузоместа со смешанными номенклатурами можно отобразить список номенклатур, которые уже просканированы для грузоместа, и откуда можно изменить или исправить количество номенклатур.
+<span data-ttu-id="45914-109">В потоке получения грузоместа со смешанными номенклатурами можно отобразить список номенклатур, которые уже просканированы для грузоместа, и откуда можно изменить или исправить количество номенклатур.</span><span class="sxs-lookup"><span data-stu-id="45914-109">In the flow for mixed license plate receiving, you can display the list of items that are already scanned to the license plate and from here you can modify or correct the quantity of an item.</span></span>
 
-## <a name="where-it-applies"></a>Где это применяется
+## <a name="where-it-applies"></a><span data-ttu-id="45914-110">Где это применяется</span><span class="sxs-lookup"><span data-stu-id="45914-110">Where it applies</span></span>
 
-Получение грузоместа со смешанными номенклатурами является мобильным устройством, получающим поток для регистрации и создания работы для нескольких строк или номенклатур одновременно. Это полезно при получении входящих грузомест с несколькими номенклатурами. 
+<span data-ttu-id="45914-111">Получение грузоместа со смешанными номенклатурами является мобильным устройством, получающим поток для регистрации и создания работы для нескольких строк или номенклатур одновременно.</span><span class="sxs-lookup"><span data-stu-id="45914-111">Mixed license plate receiving is a mobile device receiving flow to register and create work for multiple lines/items at the same time.</span></span> <span data-ttu-id="45914-112">Это полезно при получении входящих грузомест с несколькими номенклатурами.</span><span class="sxs-lookup"><span data-stu-id="45914-112">This is useful if you receive inbound license plates with multiple items.</span></span> 
 
-## <a name="how-to-set-up-mixed-license-plate-receiving"></a>Настройка получения грузоместа со смешанными номенклатурами
-Получение грузоместа со смешанными номенклатурами настраивается как элемент меню мобильного устройства.
+## <a name="how-to-set-up-mixed-license-plate-receiving"></a><span data-ttu-id="45914-113">Настройка получения грузоместа со смешанными номенклатурами</span><span class="sxs-lookup"><span data-stu-id="45914-113">How to set up mixed license plate receiving</span></span>
+<span data-ttu-id="45914-114">Получение грузоместа со смешанными номенклатурами настраивается как элемент меню мобильного устройства.</span><span class="sxs-lookup"><span data-stu-id="45914-114">Mixed license plate receiving is set up as a mobile device menu item.</span></span>
 
-Необходимо создать новый элемент меню с режимом работы, где не используется текущая работа, и применяется один из следующих способов:
+<span data-ttu-id="45914-115">Необходимо создать новый элемент меню с режимом работы, где не используется текущая работа, и применяется один из следующих способов:</span><span class="sxs-lookup"><span data-stu-id="45914-115">You need to create a new menu item with mode work that does not use existing work and use one of the following methods:</span></span>
 
-- Получение грузоместа со смешанными номенклатурами
-- Получение и складирование грузоместа со смешанными номенклатурами
+- <span data-ttu-id="45914-116">Получение грузоместа со смешанными номенклатурами</span><span class="sxs-lookup"><span data-stu-id="45914-116">Mixed license plate receiving</span></span>
+- <span data-ttu-id="45914-117">Получение и складирование грузоместа со смешанными номенклатурами</span><span class="sxs-lookup"><span data-stu-id="45914-117">Mixed license plate receiving and put away</span></span>
 
-Параметры идентификации строк документа-источника — это номенклатура заказа на покупку, строка заказа на покупку, заказ на возврат, номенклатура заказа на перемещение и строка заказа на перемещение. Эти параметры могут изменить порядок получения в одном грузоместе. Последний параметр относится к номенклатуре загрузки. Можно добавить несколько номенклатур для грузоместа, но нельзя переключаться между несколькими загрузками.
+<span data-ttu-id="45914-118">Параметры идентификации строк документа-источника — это номенклатура заказа на покупку, строка заказа на покупку, заказ на возврат, номенклатура заказа на перемещение и строка заказа на перемещение.</span><span class="sxs-lookup"><span data-stu-id="45914-118">The options to identify the source document lines are purchase order item, purchase order line, return order, transfer order item, and transfer order line.</span></span> <span data-ttu-id="45914-119">Эти параметры могут изменить порядок получения в одном грузоместе.</span><span class="sxs-lookup"><span data-stu-id="45914-119">These options can change the receiving order on a single license plate.</span></span> <span data-ttu-id="45914-120">Последний параметр относится к номенклатуре загрузки.</span><span class="sxs-lookup"><span data-stu-id="45914-120">The last option is by load item.</span></span> <span data-ttu-id="45914-121">Можно добавить несколько номенклатур для грузоместа, но нельзя переключаться между несколькими загрузками.</span><span class="sxs-lookup"><span data-stu-id="45914-121">You can add multiple items to a license plate, but you cannot switch between multiple loads.</span></span>
 

@@ -22,79 +22,79 @@ ms.contentlocale: ru-ru
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="set-up-sales-commission-rules"></a>Настройка правил комиссий продаж
+# <a name="set-up-sales-commission-rules"></a><span data-ttu-id="5cd0c-103">Настройка правил комиссий продаж</span><span class="sxs-lookup"><span data-stu-id="5cd0c-103">Set up sales commission rules</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура описывает, как настроить и включить расчет комиссии по продажам и отслеживание. Процедура показывает, как создать группы комиссий клиента и номенклатуры, а затем как связать выбранных клиента и продукта с соответствующими группами. Затем эти группы используются при настройке расчета комиссии для создания комбинации клиента, номенклатуры и торговых представителей, которая должна быть сопоставлена заказом на продажу для назначения продавцов для комиссии. Создание групп комиссий клиента и номенклатуры является необязательным, так как расчет комиссии можно также сделать для отдельного клиента и/или номенклатуры. Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.
+<span data-ttu-id="5cd0c-104">Эта процедура описывает, как настроить и включить расчет комиссии по продажам и отслеживание.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-104">This procedure shows you how to set up and enable sales commission calculation and tracking.</span></span> <span data-ttu-id="5cd0c-105">Процедура показывает, как создать группы комиссий клиента и номенклатуры, а затем как связать выбранных клиента и продукта с соответствующими группами.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-105">The procedure shows how to create both customer and item commission groups, and then how to link a selected customer and product to the respective groups.</span></span> <span data-ttu-id="5cd0c-106">Затем эти группы используются при настройке расчета комиссии для создания комбинации клиента, номенклатуры и торговых представителей, которая должна быть сопоставлена заказом на продажу для назначения продавцов для комиссии.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-106">Those groups are then used in the commission calculation setup to create a customer, item, and sales representatives combination that must be matched by the sales order to entitle the sales people to a commission.</span></span> <span data-ttu-id="5cd0c-107">Создание групп комиссий клиента и номенклатуры является необязательным, так как расчет комиссии можно также сделать для отдельного клиента и/или номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-107">Creating customer and item commission groups are optional, as the calculation of commission can also be done for an individual customer and/or item.</span></span> <span data-ttu-id="5cd0c-108">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="set-up-commission-groups-and-commission-rates"></a>Настройка групп комиссий и ставок комиссии
-1. Перейдите в раздел "Продажи и маркетинг" > "Комиссии" > "Группы клиентов для комиссии".
-2. Щелкните "Создать".
-3. В поле "Группа" введите значение.
-4. В поле "Имя" введите значение.
-5. Нажмите кнопку "Сохранить".
-6. Закройте страницу.
-7. Перейдите в раздел "Продажи и маркетинг" > "Комиссии" > "Группы номенклатур".
-8. Щелкните "Создать".
-9. В поле "Группа" введите значение.
-10. В поле "Имя" введите значение.
-11. Закройте страницу.
-12. Перейдите в раздел "Продажи и маркетинг" > "Комиссии" > "Группы продаж".
-    * Группа комиссий по продажам задает сотрудников в ролях торгового представителя, которые имеют право получать комиссию, когда клиент, связанный с соответствующей группой продажи, покупает некоторые номенклатуры.  
-    * В компании демонстрационных данных USMF имеется группа продаж с названием "Торговые представители США".  
-13. В области действий щелкните "Общие".
-14. Щелкните "Торговый представитель".
-    * На странице "Торговый представитель" отображается список торговых представителей компании, связанных с конкретной группой комиссий. Можно назначить несколько торговых представителей для одной группы и определить их соответствующую долю в общем сборе комиссии как значение процента. Полная доля комиссии по всем сотрудникам не должна превышать 100.  
-15. В списке пометьте выбранную строку.
-16. Щелкните "Изменить".
-17. Задайте долю комиссии как "50".
-18. Щелкните "Создать".
-19. В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-20. Используйте экспресс-фильтр для поиска записей. Например, отфильтруйте поле "Имя" по значению "Susan Burk".
-21. Щелкните Выбрать.
-22. Задайте долю комиссии как "50".
-23. Нажмите кнопку "Сохранить".
-24. Перейдите в раздел "Продажи и маркетинг" > "Комиссии" > "Расчет комиссии".
-    * На странице расчета комиссии вы определяете ставку комиссии, которую сотрудник должен получить для проводки по продажам, когда она содержит предварительно заданную комбинацию клиент-продукт. В процессе настройки ставки комиссии необходимо указать основу расчета комиссии и должна ли она включать или исключать скидки. Можно также ввести период действия, когда ставка комиссии активна.  
-25. Щелкните "Создать".
-26. В поле "Код номенклатуры" выберите "Группа".
-27. В поле "Связь номенклатуры" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-28. Найдите в списке и выберите группу, созданную ранее.
-29. В списке перейдите по ссылке в выбранной строке.
-30. В поле "Код клиента" выберите "Группа".
-31. В поле "Связь клиента" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-32. Найдите в списке и выберите группу, настроенную ранее.
-33. В поле "Комиссия на" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-34. В списке найдите и выберите требуемую запись.
-    * Сохраните параметр "До расчета скидки по строке".  
-    * Сохраните параметр "Выручка" в качестве основы для расчета значения комиссии.    
-35. В поле "Процент комиссии" введите число.
-36. Нажмите кнопку "Сохранить".
+## <a name="set-up-commission-groups-and-commission-rates"></a><span data-ttu-id="5cd0c-109">Настройка групп комиссий и ставок комиссии</span><span class="sxs-lookup"><span data-stu-id="5cd0c-109">Set up commission groups and commission rates</span></span>
+1. <span data-ttu-id="5cd0c-110">Перейдите в раздел "Продажи и маркетинг" > "Комиссии" > "Группы клиентов для комиссии".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-110">Go to Sales and marketing > Commissions > Customer groups for commission.</span></span>
+2. <span data-ttu-id="5cd0c-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-111">Click New.</span></span>
+3. <span data-ttu-id="5cd0c-112">В поле "Группа" введите значение.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-112">In the Group field, type a value.</span></span>
+4. <span data-ttu-id="5cd0c-113">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="5cd0c-114">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-114">Click Save.</span></span>
+6. <span data-ttu-id="5cd0c-115">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-115">Close the page.</span></span>
+7. <span data-ttu-id="5cd0c-116">Перейдите в раздел "Продажи и маркетинг" > "Комиссии" > "Группы номенклатур".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-116">Go to Sales and marketing > Commissions > Item groups.</span></span>
+8. <span data-ttu-id="5cd0c-117">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-117">Click New.</span></span>
+9. <span data-ttu-id="5cd0c-118">В поле "Группа" введите значение.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-118">In the Group field, type a value.</span></span>
+10. <span data-ttu-id="5cd0c-119">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-119">In the Name field, type a value.</span></span>
+11. <span data-ttu-id="5cd0c-120">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-120">Close the page.</span></span>
+12. <span data-ttu-id="5cd0c-121">Перейдите в раздел "Продажи и маркетинг" > "Комиссии" > "Группы продаж".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-121">Go to Sales and marketing > Commissions > Sales groups.</span></span>
+    * <span data-ttu-id="5cd0c-122">Группа комиссий по продажам задает сотрудников в ролях торгового представителя, которые имеют право получать комиссию, когда клиент, связанный с соответствующей группой продажи, покупает некоторые номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-122">A Commission sales group specifies the employees in sales representative roles who are eligible to receive a commission when a customer associated with the relevant sales group buys certain items.</span></span>  
+    * <span data-ttu-id="5cd0c-123">В компании демонстрационных данных USMF имеется группа продаж с названием "Торговые представители США".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-123">In the USMF demo data company, there is a sales group called "Sales reps US."</span></span>  
+13. <span data-ttu-id="5cd0c-124">В области действий щелкните "Общие".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-124">On the Action Pane, click General.</span></span>
+14. <span data-ttu-id="5cd0c-125">Щелкните "Торговый представитель".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-125">Click Sales rep..</span></span>
+    * <span data-ttu-id="5cd0c-126">На странице "Торговый представитель"</span><span class="sxs-lookup"><span data-stu-id="5cd0c-126">The Sales rep.</span></span> <span data-ttu-id="5cd0c-127">отображается список торговых представителей компании, связанных с конкретной группой комиссий.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-127">page displays a list of the company's sales people who are associated with a specific commission group.</span></span> <span data-ttu-id="5cd0c-128">Можно назначить несколько торговых представителей для одной группы и определить их соответствующую долю в общем сборе комиссии как значение процента.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-128">You can assign multiple sales representatives to the same group and define their respective share of the total commission fee as a percentage value.</span></span> <span data-ttu-id="5cd0c-129">Полная доля комиссии по всем сотрудникам не должна превышать 100.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-129">The total commission share across all employees must not exceed 100.</span></span>  
+15. <span data-ttu-id="5cd0c-130">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-130">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="5cd0c-131">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-131">Click Edit.</span></span>
+17. <span data-ttu-id="5cd0c-132">Задайте долю комиссии как "50".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-132">Set Commission share to '50'.</span></span>
+18. <span data-ttu-id="5cd0c-133">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-133">Click New.</span></span>
+19. <span data-ttu-id="5cd0c-134">В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-134">In the Name field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="5cd0c-135">Используйте экспресс-фильтр для поиска записей.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-135">Use the Quick Filter to find records.</span></span> <span data-ttu-id="5cd0c-136">Например, отфильтруйте поле "Имя" по значению "Susan Burk".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-136">For example, filter on the Name field with a value of 'Susan Burk'.</span></span>
+21. <span data-ttu-id="5cd0c-137">Щелкните Выбрать.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-137">Click Select.</span></span>
+22. <span data-ttu-id="5cd0c-138">Задайте долю комиссии как "50".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-138">Set Commission share to '50'.</span></span>
+23. <span data-ttu-id="5cd0c-139">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-139">Click Save.</span></span>
+24. <span data-ttu-id="5cd0c-140">Перейдите в раздел "Продажи и маркетинг" > "Комиссии" > "Расчет комиссии".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-140">Go to Sales and marketing > Commissions > Commission calculation.</span></span>
+    * <span data-ttu-id="5cd0c-141">На странице расчета комиссии вы определяете ставку комиссии, которую сотрудник должен получить для проводки по продажам, когда она содержит предварительно заданную комбинацию клиент-продукт.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-141">In the Commission calculation page you define the commission rate that the employee is to receive for a sales transaction when it contains the pre-set combination of customer and product.</span></span> <span data-ttu-id="5cd0c-142">В процессе настройки ставки комиссии необходимо указать основу расчета комиссии и должна ли она включать или исключать скидки.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-142">As part of the commission rate setup, you must specify the commission calculation basis and whether it should include or exclude discounts.</span></span> <span data-ttu-id="5cd0c-143">Можно также ввести период действия, когда ставка комиссии активна.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-143">You can also enter a validity period for when the commission rate is active.</span></span>  
+25. <span data-ttu-id="5cd0c-144">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-144">Click New.</span></span>
+26. <span data-ttu-id="5cd0c-145">В поле "Код номенклатуры" выберите "Группа".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-145">In the Item code field, select 'Group'.</span></span>
+27. <span data-ttu-id="5cd0c-146">В поле "Связь номенклатуры" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-146">In the Item relation field, click the drop-down button to open the lookup.</span></span>
+28. <span data-ttu-id="5cd0c-147">Найдите в списке и выберите группу, созданную ранее.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-147">In the list, find and select the group that you created earlier.</span></span>
+29. <span data-ttu-id="5cd0c-148">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-148">In the list, click the link in the selected row.</span></span>
+30. <span data-ttu-id="5cd0c-149">В поле "Код клиента" выберите "Группа".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-149">In the Customer code field, select 'Group'.</span></span>
+31. <span data-ttu-id="5cd0c-150">В поле "Связь клиента" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-150">In the Customer relation field, click the drop-down button to open the lookup.</span></span>
+32. <span data-ttu-id="5cd0c-151">Найдите в списке и выберите группу, настроенную ранее.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-151">In the list, select the group that you set up earlier.</span></span>
+33. <span data-ttu-id="5cd0c-152">В поле "Комиссия на"</span><span class="sxs-lookup"><span data-stu-id="5cd0c-152">In the Sales rep.</span></span> <span data-ttu-id="5cd0c-153">нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-153">relation field, click the drop-down button to open the lookup.</span></span>
+34. <span data-ttu-id="5cd0c-154">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-154">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="5cd0c-155">Сохраните параметр "До расчета скидки по строке".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-155">Keep the "Before line discount" option.</span></span>  
+    * <span data-ttu-id="5cd0c-156">Сохраните параметр "Выручка" в качестве основы для расчета значения комиссии.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-156">Keep the "Revenue" option as the basis for commission value calculation.</span></span>    
+35. <span data-ttu-id="5cd0c-157">В поле "Процент комиссии" введите число.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-157">In the Commission percentage field, enter a number.</span></span>
+36. <span data-ttu-id="5cd0c-158">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-158">Click Save.</span></span>
 
-## <a name="setting-up-commission-posting"></a>Настройка разноски комиссии
-1. Перейдите в раздел "Продажи и маркетинг" > "Комиссии" > "Разноска комиссии".
-    * Сборы комиссии подлежат оплате для сотрудников и поэтому должны быть настроены для обеспечения правильной финансовой разноски на соответствующие счета в главной книге. Это выполняется на странице разноски комиссий. Проверьте настройку, доступную для текущей компании. Обычно разносятся суммы комиссии на выделенный счет расходов и сопоставляются с выделенным счетом к оплате. Если правила разноски комиссий не настроены, система не сможет выполнить выставление накладных по заказу на продажу с подходящими комиссиями.  
-2. Закройте страницу.
+## <a name="setting-up-commission-posting"></a><span data-ttu-id="5cd0c-159">Настройка разноски комиссии</span><span class="sxs-lookup"><span data-stu-id="5cd0c-159">Setting up commission posting</span></span>
+1. <span data-ttu-id="5cd0c-160">Перейдите в раздел "Продажи и маркетинг" > "Комиссии" > "Разноска комиссии".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-160">Go to Sales and marketing > Commissions > Commission posting.</span></span>
+    * <span data-ttu-id="5cd0c-161">Сборы комиссии подлежат оплате для сотрудников и поэтому должны быть настроены для обеспечения правильной финансовой разноски на соответствующие счета в главной книге.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-161">Commission fees are payable to the employees and must therefore be set up to ensure correct financial posting to the appropriate accounts in the General ledger.</span></span> <span data-ttu-id="5cd0c-162">Это выполняется на странице разноски комиссий.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-162">This is done in the Commission posting page.</span></span> <span data-ttu-id="5cd0c-163">Проверьте настройку, доступную для текущей компании.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-163">Review the setup that is available for the current company.</span></span> <span data-ttu-id="5cd0c-164">Обычно разносятся суммы комиссии на выделенный счет расходов и сопоставляются с выделенным счетом к оплате.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-164">Typically, the commission amounts are posted to a dedicated expense account and are offset to a dedicated payable account.</span></span> <span data-ttu-id="5cd0c-165">Если правила разноски комиссий не настроены, система не сможет выполнить выставление накладных по заказу на продажу с подходящими комиссиями.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-165">If you don't have the commission posting rules set up, the system will fail to complete invoicing of a sales order which has eligible commissions.</span></span>  
+2. <span data-ttu-id="5cd0c-166">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-166">Close the page.</span></span>
 
-## <a name="assign-a-commission-group-to-a-customer-and-a-product"></a>Назначение группы комиссий клиенту и продукту
-1. Перейдите в раздел "Продажи и маркетинг" > "Клиенты" > "Все клиенты".
-2. В списке найдите и выберите требуемую запись.
-3. В списке перейдите по ссылке в выбранной строке.
-4. Выберите Изменить.
-5. Разверните раздел "Значения заказов на продажу по умолчанию".
-6. В поле "Группа комиссий" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-7. Найдите в списке и выберите группу, созданную ранее.
-8. В поле "Группа продаж" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-9. В списке найдите и выберите требуемую запись.
-10. Нажмите кнопку "Сохранить".
-11. Щелкните "Управление сведениями о продукте" > "Продукты" > "Выпущенные продукты".
-12. Используйте экспресс-фильтр для поиска записей. Например, отфильтруйте поле "Номер номенклатуры" по значению "T0020".
-13. В списке перейдите по ссылке в выбранной строке.
-14. Выберите Изменить.
-15. Разверните раздел "Продажи".
-16. В поле "Группа комиссий" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-17. В списке выберите группу комиссий, созданную ранее.
+## <a name="assign-a-commission-group-to-a-customer-and-a-product"></a><span data-ttu-id="5cd0c-167">Назначение группы комиссий клиенту и продукту</span><span class="sxs-lookup"><span data-stu-id="5cd0c-167">Assign a commission group to a customer and a product</span></span>
+1. <span data-ttu-id="5cd0c-168">Перейдите в раздел "Продажи и маркетинг" > "Клиенты" > "Все клиенты".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-168">Go to Sales and marketing > Customers > All customers.</span></span>
+2. <span data-ttu-id="5cd0c-169">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-169">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="5cd0c-170">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-170">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="5cd0c-171">Выберите Изменить.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-171">Click Edit.</span></span>
+5. <span data-ttu-id="5cd0c-172">Разверните раздел "Значения заказов на продажу по умолчанию".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-172">Expand the Sales order defaults section.</span></span>
+6. <span data-ttu-id="5cd0c-173">В поле "Группа комиссий" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-173">In the Commission group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="5cd0c-174">Найдите в списке и выберите группу, созданную ранее.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-174">In the list, select the group that you created earlier.</span></span>
+8. <span data-ttu-id="5cd0c-175">В поле "Группа продаж" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-175">In the Sales group field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="5cd0c-176">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-176">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="5cd0c-177">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-177">Click Save.</span></span>
+11. <span data-ttu-id="5cd0c-178">Щелкните "Управление сведениями о продукте" > "Продукты" > "Выпущенные продукты".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-178">Go to Product information management > Products > Released products.</span></span>
+12. <span data-ttu-id="5cd0c-179">Используйте экспресс-фильтр для поиска записей.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-179">Use the Quick Filter to find records.</span></span> <span data-ttu-id="5cd0c-180">Например, отфильтруйте поле "Номер номенклатуры" по значению "T0020".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-180">For example, filter on the Item number field with a value of 'T0020 '.</span></span>
+13. <span data-ttu-id="5cd0c-181">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-181">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="5cd0c-182">Выберите Изменить.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-182">Click Edit.</span></span>
+15. <span data-ttu-id="5cd0c-183">Разверните раздел "Продажи".</span><span class="sxs-lookup"><span data-stu-id="5cd0c-183">Expand the Sell section.</span></span>
+16. <span data-ttu-id="5cd0c-184">В поле "Группа комиссий" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-184">In the Commission group field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="5cd0c-185">В списке выберите группу комиссий, созданную ранее.</span><span class="sxs-lookup"><span data-stu-id="5cd0c-185">In the list, select the commission group that you created earlier.</span></span>
 
 

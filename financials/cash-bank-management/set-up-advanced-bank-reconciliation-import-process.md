@@ -18,165 +18,165 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 785da18a851c4d040843f49ca9f1b9ae12d701d3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Настройка процесса расширенного импорта банковских выверок
+# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a><span data-ttu-id="5edef-104">Настройка процесса расширенного импорта банковских выверок</span><span class="sxs-lookup"><span data-stu-id="5edef-104">Set up the advanced bank reconciliation import process</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Функция "Расширенная банковская выверка" позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. В этой статье объясняется, как настроить функцию импорта для банковских выписок. 
+<span data-ttu-id="5edef-105">Функция "Расширенная банковская выверка" позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="5edef-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="5edef-106">В этой статье объясняется, как настроить функцию импорта для банковских выписок.</span><span class="sxs-lookup"><span data-stu-id="5edef-106">This article explains how to set up the import functionality for your bank statements.</span></span> 
 
-Настройка импорта банковской выписки зависит от формата электронной банковской выписки. Finance and Operations поддерживает три готовых формата банковской выписки: ISO20022, MT940 и BAI2.
+<span data-ttu-id="5edef-107">Настройка импорта банковской выписки зависит от формата электронной банковской выписки.</span><span class="sxs-lookup"><span data-stu-id="5edef-107">The setup for bank statement import varies, depending on the format of your electronic bank statement.</span></span> <span data-ttu-id="5edef-108">Finance and Operations поддерживает три готовых формата банковской выписки: ISO20022, MT940 и BAI2.</span><span class="sxs-lookup"><span data-stu-id="5edef-108">Finance and Operations supports three bank statement formats out of the box: ISO20022, MT940, and BAI2.</span></span>
 
-## <a name="sample-files"></a>Образцы файлов
-Для всех трех форматов вы должны иметь файлы, которые преобразуют электронную банковскую выписку из исходного формата в формат, который можно использовать в Finance and Operations. Требуемые исходные файлы находятся в узле **Ресурсы** в обозревателе приложений в Microsoft Visual Studio. После обнаружения файлов скопируйте их в одно известное расположение, чтобы их было легче отправить во время настройки.
+## <a name="sample-files"></a><span data-ttu-id="5edef-109">Образцы файлов</span><span class="sxs-lookup"><span data-stu-id="5edef-109">Sample files</span></span>
+<span data-ttu-id="5edef-110">Для всех трех форматов вы должны иметь файлы, которые преобразуют электронную банковскую выписку из исходного формата в формат, который можно использовать в Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="5edef-110">For all three formats, you must have files that translate the electronic bank statement from the original format to a format that Finance and Operations can use.</span></span> <span data-ttu-id="5edef-111">Требуемые исходные файлы находятся в узле **Ресурсы** в обозревателе приложений в Microsoft Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="5edef-111">You can find the required resource files under the **Resources** node in Application Explorer in Microsoft Visual Studio.</span></span> <span data-ttu-id="5edef-112">После обнаружения файлов скопируйте их в одно известное расположение, чтобы их было легче отправить во время настройки.</span><span class="sxs-lookup"><span data-stu-id="5edef-112">After you find the files, copy them to a single known location, so that you can more easily upload them during the setup process.</span></span>
 
-| Имя ресурса                                           | Имя файла                            |
+| <span data-ttu-id="5edef-113">Имя ресурса</span><span class="sxs-lookup"><span data-stu-id="5edef-113">Resource name</span></span>                                           | <span data-ttu-id="5edef-114">Имя файла</span><span class="sxs-lookup"><span data-stu-id="5edef-114">File name</span></span>                            |
 |---------------------------------------------------------|--------------------------------------|
-| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt              | BAI2CSV-to-BAI2XML.xslt              |
-| BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt       | BAI2XML-to-Reconciliation.xslt       |
-| BankStmtImport\_BankReconciliation\_to\_Composite\_xslt | BankReconciliation-to-Composite.xslt |
-| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt   | ISO20022XML-to-Reconciliation.xslt   |
-| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt            | MT940TXT-to-MT940XML.xslt            |
-| BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt      | MT940XML-to-Reconciliation.xslt      |
-| BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
+| <span data-ttu-id="5edef-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="5edef-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span></span>              | <span data-ttu-id="5edef-116">BAI2CSV-to-BAI2XML.xslt</span><span class="sxs-lookup"><span data-stu-id="5edef-116">BAI2CSV-to-BAI2XML.xslt</span></span>              |
+| <span data-ttu-id="5edef-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="5edef-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span></span>       | <span data-ttu-id="5edef-118">BAI2XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="5edef-118">BAI2XML-to-Reconciliation.xslt</span></span>       |
+| <span data-ttu-id="5edef-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span><span class="sxs-lookup"><span data-stu-id="5edef-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span></span> | <span data-ttu-id="5edef-120">BankReconciliation-to-Composite.xslt</span><span class="sxs-lookup"><span data-stu-id="5edef-120">BankReconciliation-to-Composite.xslt</span></span> |
+| <span data-ttu-id="5edef-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="5edef-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span></span>   | <span data-ttu-id="5edef-122">ISO20022XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="5edef-122">ISO20022XML-to-Reconciliation.xslt</span></span>   |
+| <span data-ttu-id="5edef-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="5edef-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span></span>            | <span data-ttu-id="5edef-124">MT940TXT-to-MT940XML.xslt</span><span class="sxs-lookup"><span data-stu-id="5edef-124">MT940TXT-to-MT940XML.xslt</span></span>            |
+| <span data-ttu-id="5edef-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="5edef-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span></span>      | <span data-ttu-id="5edef-126">MT940XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="5edef-126">MT940XML-to-Reconciliation.xslt</span></span>      |
+| <span data-ttu-id="5edef-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span><span class="sxs-lookup"><span data-stu-id="5edef-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span></span>          | <span data-ttu-id="5edef-128">SampleBankCompositeEntity.xml</span><span class="sxs-lookup"><span data-stu-id="5edef-128">SampleBankCompositeEntity.xml</span></span>        |
 
-## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Примеры форматов банковской выписки и технических макетов
-Ниже приводятся примеры определений технических макетов для расширенных файлов импорта банковской выверки и трех связанных примеров файлов банковской выписки. https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a><span data-ttu-id="5edef-129">Примеры форматов банковской выписки и технических макетов</span><span class="sxs-lookup"><span data-stu-id="5edef-129">Examples of bank statement formats and technical layouts</span></span>
+<span data-ttu-id="5edef-130">Ниже приводятся примеры определений технических макетов для расширенных файлов импорта банковской выверки и трех связанных примеров файлов банковской выписки. https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span><span class="sxs-lookup"><span data-stu-id="5edef-130">Below are examples of the advanced bank reconciliation import file technical layout definitions and three related bank statement example files: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span></span>  
 
-| Определение технического макета                             | Пример файла банковской выписки          |
+| <span data-ttu-id="5edef-131">Определение технического макета</span><span class="sxs-lookup"><span data-stu-id="5edef-131">Technical layout definition</span></span>                             | <span data-ttu-id="5edef-132">Пример файла банковской выписки</span><span class="sxs-lookup"><span data-stu-id="5edef-132">Bank statement example file</span></span>          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| <span data-ttu-id="5edef-133">DynamicsAXMT940Layout</span><span class="sxs-lookup"><span data-stu-id="5edef-133">DynamicsAXMT940Layout</span></span>                                   | <span data-ttu-id="5edef-134">MT940StatementExample</span><span class="sxs-lookup"><span data-stu-id="5edef-134">MT940StatementExample</span></span>                |
+| <span data-ttu-id="5edef-135">DynamicsAXISO20022Layout</span><span class="sxs-lookup"><span data-stu-id="5edef-135">DynamicsAXISO20022Layout</span></span>                                | <span data-ttu-id="5edef-136">ISO20022StatementExample</span><span class="sxs-lookup"><span data-stu-id="5edef-136">ISO20022StatementExample</span></span>             |
+| <span data-ttu-id="5edef-137">DynamicsAXBAI2Layout</span><span class="sxs-lookup"><span data-stu-id="5edef-137">DynamicsAXBAI2Layout</span></span>                                    | <span data-ttu-id="5edef-138">BAI2StatementExample</span><span class="sxs-lookup"><span data-stu-id="5edef-138">BAI2StatementExample</span></span>                 |
 
  
 
-## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Настройка импорта банковских выписок ISO20022
-Во-первых, необходимо определить группу обработки формата банковской выписки для банковских выписок ISO20022 с помощью структуры информационного объекта.
+## <a name="set-up-the-import-of-iso20022-bank-statements"></a><span data-ttu-id="5edef-139">Настройка импорта банковских выписок ISO20022</span><span class="sxs-lookup"><span data-stu-id="5edef-139">Set up the import of ISO20022 bank statements</span></span>
+<span data-ttu-id="5edef-140">Во-первых, необходимо определить группу обработки формата банковской выписки для банковских выписок ISO20022 с помощью структуры информационного объекта.</span><span class="sxs-lookup"><span data-stu-id="5edef-140">First, you must define the bank statement format processing group for ISO20022 bank statements by using the data entity framework.</span></span>
 
-1.  Перейдите в раздел **Рабочие области** &gt; **Управление данными**.
-2.  Нажмите кнопку **Импорт**.
-3.  Введите имя формата, например **ISO20022**.
-4.  В поле **Формат исходных данных** установите значение **XML-элемент**.
-5.  В поле **Имя объекта** установите значение **Банковские выписки**.
-6.  Чтобы отправить файлы импорта, нажмите кнопку **Отправить** и перейдите к файлу **SampleBankCompositeEntity.xml**, сохраненному ранее.
-7.  После отправки объекта банковских выписок и завершения сопоставления выберите действие **Просмотр карты** для объекта.
-8.  Объект банковских выписок является составным объектом, состоящим из четырех отдельных объектов. В списке выберите **BankStatementDocumentEntity**, а затем нажмите кнопку **Просмотр карты**.
-9.  На вкладке **Преобразования** щелкните **Создать**.
-10. Для порядкового номера 1 щелкните **Отправить файл** и выберите файл **ISO20022XML-Reconciliation.xslt**, сохраненный ранее. **Примечание.** Файлы преобразования Finance and Operations создаются для стандартного формата. Поскольку банки часто отклоняются от этого формата, может потребоваться обновить файл преобразования, чтобы он соответствовал формату банковской выписки. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
-11. Нажмите **Создать**.
-12. Для порядкового номера 2 щелкните **Отправить файл** и выберите файл **BankReconciliation-to-Composite.xslt**, сохраненный ранее.
-13. Щелкните **Применить преобразования**.
+1.  <span data-ttu-id="5edef-141">Перейдите в раздел **Рабочие области** &gt; **Управление данными**.</span><span class="sxs-lookup"><span data-stu-id="5edef-141">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="5edef-142">Нажмите кнопку **Импорт**.</span><span class="sxs-lookup"><span data-stu-id="5edef-142">Click **Import**.</span></span>
+3.  <span data-ttu-id="5edef-143">Введите имя формата, например **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="5edef-143">Enter a name for the format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="5edef-144">В поле **Формат исходных данных** установите значение **XML-элемент**.</span><span class="sxs-lookup"><span data-stu-id="5edef-144">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="5edef-145">В поле **Имя объекта** установите значение **Банковские выписки**.</span><span class="sxs-lookup"><span data-stu-id="5edef-145">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="5edef-146">Чтобы отправить файлы импорта, нажмите кнопку **Отправить** и перейдите к файлу **SampleBankCompositeEntity.xml**, сохраненному ранее.</span><span class="sxs-lookup"><span data-stu-id="5edef-146">To upload the import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="5edef-147">После отправки объекта банковских выписок и завершения сопоставления выберите действие **Просмотр карты** для объекта.</span><span class="sxs-lookup"><span data-stu-id="5edef-147">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="5edef-148">Объект банковских выписок является составным объектом, состоящим из четырех отдельных объектов.</span><span class="sxs-lookup"><span data-stu-id="5edef-148">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="5edef-149">В списке выберите **BankStatementDocumentEntity**, а затем нажмите кнопку **Просмотр карты**.</span><span class="sxs-lookup"><span data-stu-id="5edef-149">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="5edef-150">На вкладке **Преобразования** щелкните **Создать**.</span><span class="sxs-lookup"><span data-stu-id="5edef-150">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="5edef-151">Для порядкового номера 1 щелкните **Отправить файл** и выберите файл **ISO20022XML-Reconciliation.xslt**, сохраненный ранее.</span><span class="sxs-lookup"><span data-stu-id="5edef-151">For sequence number 1, click **Upload file**, and select the **ISO20022XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="5edef-152">**Примечание.** Файлы преобразования Finance and Operations создаются для стандартного формата.</span><span class="sxs-lookup"><span data-stu-id="5edef-152">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="5edef-153">Поскольку банки часто отклоняются от этого формата, может потребоваться обновить файл преобразования, чтобы он соответствовал формату банковской выписки.</span><span class="sxs-lookup"><span data-stu-id="5edef-153">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+11. <span data-ttu-id="5edef-154">Нажмите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="5edef-154">Click **New**.</span></span>
+12. <span data-ttu-id="5edef-155">Для порядкового номера 2 щелкните **Отправить файл** и выберите файл **BankReconciliation-to-Composite.xslt**, сохраненный ранее.</span><span class="sxs-lookup"><span data-stu-id="5edef-155">For sequence number 2, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+13. <span data-ttu-id="5edef-156">Щелкните **Применить преобразования**.</span><span class="sxs-lookup"><span data-stu-id="5edef-156">Click **Apply transforms**.</span></span>
 
-После настройки группы обработки формата следующим шагом является определение правил формат банковской выписки для банковских выписок ISO20022.
+<span data-ttu-id="5edef-157">После настройки группы обработки формата следующим шагом является определение правил формат банковской выписки для банковских выписок ISO20022.</span><span class="sxs-lookup"><span data-stu-id="5edef-157">After the format processing group is set up, the next step is to define the bank statement format rules for ISO20022 bank statements.</span></span>
 
-1.  Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Настройка** &gt; **Настройка расширенной банковской выверки** &gt; **Формат банковской выписки**.
-2.  Нажмите **Создать**.
-3.  Укажите формат выписки, например **ISO20022**.
-4.  Вводится имя формата.
-5.  Выберите в поле **Группа обработки** группу, определенную ранее, например **ISO20022**.
-6.  Установите флажок **XML-файл**.
+1.  <span data-ttu-id="5edef-158">Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Настройка** &gt; **Настройка расширенной банковской выверки** &gt; **Формат банковской выписки**.</span><span class="sxs-lookup"><span data-stu-id="5edef-158">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="5edef-159">Нажмите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="5edef-159">Click **New**.</span></span>
+3.  <span data-ttu-id="5edef-160">Укажите формат выписки, например **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="5edef-160">Specify a statement format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="5edef-161">Вводится имя формата.</span><span class="sxs-lookup"><span data-stu-id="5edef-161">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="5edef-162">Выберите в поле **Группа обработки** группу, определенную ранее, например **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="5edef-162">Set the **Processing group** field to the group that you defined earlier, such as **ISO20022**.</span></span>
+6.  <span data-ttu-id="5edef-163">Установите флажок **XML-файл**.</span><span class="sxs-lookup"><span data-stu-id="5edef-163">Select the **XML file** check box.</span></span>
 
-Последним шагом является включение расширенной банковской выверки и задание формата выписки в банковском счете.
+<span data-ttu-id="5edef-164">Последним шагом является включение расширенной банковской выверки и задание формата выписки в банковском счете.</span><span class="sxs-lookup"><span data-stu-id="5edef-164">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Банковские счета**.
-2.  Выберите банковский счет и откройте его, чтобы просмотреть подробные сведения.
-3.  На вкладке **Выверка** задайте для параметра **Расширенная банковская выверка** значение **Да**.
-4.  Выберите в поле **Формат выписки** формат, созданный ранее, например **ISO20022**.
+1.  <span data-ttu-id="5edef-165">Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Банковские счета**.</span><span class="sxs-lookup"><span data-stu-id="5edef-165">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="5edef-166">Выберите банковский счет и откройте его, чтобы просмотреть подробные сведения.</span><span class="sxs-lookup"><span data-stu-id="5edef-166">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="5edef-167">На вкладке **Выверка** задайте для параметра **Расширенная банковская выверка** значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="5edef-167">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="5edef-168">Выберите в поле **Формат выписки** формат, созданный ранее, например **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="5edef-168">Set the **Statement format** field to the format that you created earlier, such as **ISO20022**.</span></span>
 
-## <a name="set-up-the-import-of-mt940-bank-statements"></a>Настройка импорта банковских выписок MT940
-Во-первых, необходимо определить группу обработки формата банковской выписки для банковских выписок MT940 с помощью структуры информационного объекта.
+## <a name="set-up-the-import-of-mt940-bank-statements"></a><span data-ttu-id="5edef-169">Настройка импорта банковских выписок MT940</span><span class="sxs-lookup"><span data-stu-id="5edef-169">Set up the import of MT940 bank statements</span></span>
+<span data-ttu-id="5edef-170">Во-первых, необходимо определить группу обработки формата банковской выписки для банковских выписок MT940 с помощью структуры информационного объекта.</span><span class="sxs-lookup"><span data-stu-id="5edef-170">First, you must define the bank statement format processing group for MT940 bank statements by using the data entity framework.</span></span>
 
-1.  Перейдите в раздел **Рабочие области** &gt; **Управление данными**.
-2.  Нажмите кнопку **Импорт**.
-3.  Введите имя формата, например **MT940**.
-4.  В поле **Формат исходных данных** установите значение **XML-элемент**.
-5.  В поле **Имя объекта** установите значение **Банковские выписки**.
-6.  Чтобы отправить файлы импорта, нажмите кнопку **Отправить** и перейдите к файлу **SampleBankCompositeEntity.xml**, сохраненному ранее.
-7.  После отправки объекта банковских выписок и завершения сопоставления выберите действие **Просмотр карты** для объекта.
-8.  Объект банковских выписок является составным объектом, состоящим из четырех отдельных объектов. В списке выберите **BankStatementDocumentEntity**, а затем нажмите кнопку **Просмотр карты**.
-9.  На вкладке **Преобразования** щелкните **Создать**.
-10. Для порядкового номера 1 щелкните **Отправить файл** и выберите файл **MT940TXT-to-MT940XML.xslt**, сохраненный ранее.
-11. Нажмите **Создать**.
-12. Для порядкового номера 2 щелкните **Отправить файл** и выберите файл **MT940XML-Reconciliation.xslt**, сохраненный ранее. **Примечание.** Файлы преобразования Finance and Operations создаются для стандартного формата. Поскольку банки часто отклоняются от этого формата, может потребоваться обновить файл преобразования, чтобы он соответствовал формату банковской выписки. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
-13. Нажмите **Создать**.
-14. Для порядкового номера 3 щелкните **Отправить файл** и выберите файл **BankReconciliation-to-Composite.xslt**, сохраненный ранее.
-15. Щелкните **Применить преобразования**.
+1.  <span data-ttu-id="5edef-171">Перейдите в раздел **Рабочие области** &gt; **Управление данными**.</span><span class="sxs-lookup"><span data-stu-id="5edef-171">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="5edef-172">Нажмите кнопку **Импорт**.</span><span class="sxs-lookup"><span data-stu-id="5edef-172">Click **Import**.</span></span>
+3.  <span data-ttu-id="5edef-173">Введите имя формата, например **MT940**.</span><span class="sxs-lookup"><span data-stu-id="5edef-173">Enter a name for the format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="5edef-174">В поле **Формат исходных данных** установите значение **XML-элемент**.</span><span class="sxs-lookup"><span data-stu-id="5edef-174">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="5edef-175">В поле **Имя объекта** установите значение **Банковские выписки**.</span><span class="sxs-lookup"><span data-stu-id="5edef-175">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="5edef-176">Чтобы отправить файлы импорта, нажмите кнопку **Отправить** и перейдите к файлу **SampleBankCompositeEntity.xml**, сохраненному ранее.</span><span class="sxs-lookup"><span data-stu-id="5edef-176">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="5edef-177">После отправки объекта банковских выписок и завершения сопоставления выберите действие **Просмотр карты** для объекта.</span><span class="sxs-lookup"><span data-stu-id="5edef-177">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="5edef-178">Объект банковских выписок является составным объектом, состоящим из четырех отдельных объектов.</span><span class="sxs-lookup"><span data-stu-id="5edef-178">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="5edef-179">В списке выберите **BankStatementDocumentEntity**, а затем нажмите кнопку **Просмотр карты**.</span><span class="sxs-lookup"><span data-stu-id="5edef-179">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="5edef-180">На вкладке **Преобразования** щелкните **Создать**.</span><span class="sxs-lookup"><span data-stu-id="5edef-180">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="5edef-181">Для порядкового номера 1 щелкните **Отправить файл** и выберите файл **MT940TXT-to-MT940XML.xslt**, сохраненный ранее.</span><span class="sxs-lookup"><span data-stu-id="5edef-181">For sequence number 1, click **Upload file**, and select the **MT940TXT-to-MT940XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="5edef-182">Нажмите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="5edef-182">Click **New**.</span></span>
+12. <span data-ttu-id="5edef-183">Для порядкового номера 2 щелкните **Отправить файл** и выберите файл **MT940XML-Reconciliation.xslt**, сохраненный ранее.</span><span class="sxs-lookup"><span data-stu-id="5edef-183">For sequence number 2, click **Upload file**, and select the **MT940XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="5edef-184">**Примечание.** Файлы преобразования Finance and Operations создаются для стандартного формата.</span><span class="sxs-lookup"><span data-stu-id="5edef-184">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="5edef-185">Поскольку банки часто отклоняются от этого формата, может потребоваться обновить файл преобразования, чтобы он соответствовал формату банковской выписки.</span><span class="sxs-lookup"><span data-stu-id="5edef-185">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+13. <span data-ttu-id="5edef-186">Нажмите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="5edef-186">Click **New**.</span></span>
+14. <span data-ttu-id="5edef-187">Для порядкового номера 3 щелкните **Отправить файл** и выберите файл **BankReconciliation-to-Composite.xslt**, сохраненный ранее.</span><span class="sxs-lookup"><span data-stu-id="5edef-187">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="5edef-188">Щелкните **Применить преобразования**.</span><span class="sxs-lookup"><span data-stu-id="5edef-188">Click **Apply transforms**.</span></span>
 
-После настройки группы обработки формата следующим шагом является определение правил формат банковской выписки для банковских выписок MT940.
+<span data-ttu-id="5edef-189">После настройки группы обработки формата следующим шагом является определение правил формат банковской выписки для банковских выписок MT940.</span><span class="sxs-lookup"><span data-stu-id="5edef-189">After the format processing group is set up, the next step is to define the bank statement format rules for MT940 bank statements.</span></span>
 
-1.  Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Настройка** &gt; **Настройка расширенной банковской выверки** &gt; **Формат банковской выписки**.
-2.  Нажмите **Создать**.
-3.  Укажите формат выписки, например **MT940**.
-4.  Вводится имя формата.
-5.  Выберите в поле **Группа обработки** группу, определенную ранее, например **MT940**.
-6.  Задайте в поле **Тип файла** значение **TXT**.
+1.  <span data-ttu-id="5edef-190">Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Настройка** &gt; **Настройка расширенной банковской выверки** &gt; **Формат банковской выписки**.</span><span class="sxs-lookup"><span data-stu-id="5edef-190">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="5edef-191">Нажмите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="5edef-191">Click **New**.</span></span>
+3.  <span data-ttu-id="5edef-192">Укажите формат выписки, например **MT940**.</span><span class="sxs-lookup"><span data-stu-id="5edef-192">Specify a statement format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="5edef-193">Вводится имя формата.</span><span class="sxs-lookup"><span data-stu-id="5edef-193">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="5edef-194">Выберите в поле **Группа обработки** группу, определенную ранее, например **MT940**.</span><span class="sxs-lookup"><span data-stu-id="5edef-194">Set the **Processing group** field to the group that you defined earlier, such as **MT940**.</span></span>
+6.  <span data-ttu-id="5edef-195">Задайте в поле **Тип файла** значение **TXT**.</span><span class="sxs-lookup"><span data-stu-id="5edef-195">Set the **File type** field to **txt**.</span></span>
 
-Последним шагом является включение расширенной банковской выверки и задание формата выписки в банковском счете.
+<span data-ttu-id="5edef-196">Последним шагом является включение расширенной банковской выверки и задание формата выписки в банковском счете.</span><span class="sxs-lookup"><span data-stu-id="5edef-196">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Банковские счета**.
-2.  Выберите банковский счет и откройте его, чтобы просмотреть подробные сведения.
-3.  На вкладке **Выверка** задайте для параметра **Расширенная банковская выверка** значение **Да**.
-4.  При появлении запроса на подтверждение выбора и включение расширенной банковской выверки нажмите кнопку **OK**.
-5.  Выберите в поле **Формат выписки** формат, созданный ранее, например **MT940**.
+1.  <span data-ttu-id="5edef-197">Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Банковские счета**.</span><span class="sxs-lookup"><span data-stu-id="5edef-197">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="5edef-198">Выберите банковский счет и откройте его, чтобы просмотреть подробные сведения.</span><span class="sxs-lookup"><span data-stu-id="5edef-198">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="5edef-199">На вкладке **Выверка** задайте для параметра **Расширенная банковская выверка** значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="5edef-199">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="5edef-200">При появлении запроса на подтверждение выбора и включение расширенной банковской выверки нажмите кнопку **OK**.</span><span class="sxs-lookup"><span data-stu-id="5edef-200">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="5edef-201">Выберите в поле **Формат выписки** формат, созданный ранее, например **MT940**.</span><span class="sxs-lookup"><span data-stu-id="5edef-201">Set the **Statement format** field to the format that you created earlier, such as **MT940**.</span></span>
 
-## <a name="set-up-the-import-of-bai2-bank-statements"></a>Настройка импорта банковских выписок BAI2
-Во-первых, необходимо определить группу обработки формата банковской выписки для банковских выписок BAI2 с помощью структуры информационного объекта.
+## <a name="set-up-the-import-of-bai2-bank-statements"></a><span data-ttu-id="5edef-202">Настройка импорта банковских выписок BAI2</span><span class="sxs-lookup"><span data-stu-id="5edef-202">Set up the import of BAI2 bank statements</span></span>
+<span data-ttu-id="5edef-203">Во-первых, необходимо определить группу обработки формата банковской выписки для банковских выписок BAI2 с помощью структуры информационного объекта.</span><span class="sxs-lookup"><span data-stu-id="5edef-203">First, you must define the bank statement format processing group for BAI2 bank statements by using the data entity framework.</span></span>
 
-1.  Перейдите в раздел **Рабочие области** &gt; **Управление данными**.
-2.  Нажмите кнопку **Импорт**.
-3.  Введите имя формата, например **BAI2**.
-4.  В поле **Формат исходных данных** установите значение **XML-элемент**.
-5.  В поле **Имя объекта** установите значение **Банковские выписки**.
-6.  Чтобы отправить файлы импорта, нажмите кнопку **Отправить** и перейдите к файлу **SampleBankCompositeEntity.xml**, сохраненному ранее.
-7.  После отправки объекта банковских выписок и завершения сопоставления выберите действие **Просмотр карты** для объекта.
-8.  Объект банковских выписок является составным объектом, состоящим из четырех отдельных объектов. В списке выберите **BankStatementDocumentEntity**, а затем нажмите кнопку **Просмотр карты**.
-9.  На вкладке **Преобразования** щелкните **Создать**.
-10. Для порядкового номера 1 щелкните **Отправить файл** и выберите файл **BAI2CSV-to-BAI2XML.xslt**, сохраненный ранее.
-11. Нажмите **Создать**.
-12. Для порядкового номера 2 щелкните **Отправить файл** и выберите файл **BAI2XML-Reconciliation.xslt**, сохраненный ранее. **Примечание.** Файлы преобразования Finance and Operations создаются для стандартного формата. Поскольку банки часто отклоняются от этого формата, может потребоваться обновить файл преобразования, чтобы он соответствовал формату банковской выписки. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
-13. Нажмите **Создать**.
-14. Для порядкового номера 3 щелкните **Отправить файл** и выберите файл **BankReconciliation-to-Composite.xslt**, сохраненный ранее.
-15. Щелкните **Применить преобразования**.
+1.  <span data-ttu-id="5edef-204">Перейдите в раздел **Рабочие области** &gt; **Управление данными**.</span><span class="sxs-lookup"><span data-stu-id="5edef-204">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="5edef-205">Нажмите кнопку **Импорт**.</span><span class="sxs-lookup"><span data-stu-id="5edef-205">Click **Import**.</span></span>
+3.  <span data-ttu-id="5edef-206">Введите имя формата, например **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="5edef-206">Enter a name for the format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="5edef-207">В поле **Формат исходных данных** установите значение **XML-элемент**.</span><span class="sxs-lookup"><span data-stu-id="5edef-207">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="5edef-208">В поле **Имя объекта** установите значение **Банковские выписки**.</span><span class="sxs-lookup"><span data-stu-id="5edef-208">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="5edef-209">Чтобы отправить файлы импорта, нажмите кнопку **Отправить** и перейдите к файлу **SampleBankCompositeEntity.xml**, сохраненному ранее.</span><span class="sxs-lookup"><span data-stu-id="5edef-209">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="5edef-210">После отправки объекта банковских выписок и завершения сопоставления выберите действие **Просмотр карты** для объекта.</span><span class="sxs-lookup"><span data-stu-id="5edef-210">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="5edef-211">Объект банковских выписок является составным объектом, состоящим из четырех отдельных объектов.</span><span class="sxs-lookup"><span data-stu-id="5edef-211">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="5edef-212">В списке выберите **BankStatementDocumentEntity**, а затем нажмите кнопку **Просмотр карты**.</span><span class="sxs-lookup"><span data-stu-id="5edef-212">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="5edef-213">На вкладке **Преобразования** щелкните **Создать**.</span><span class="sxs-lookup"><span data-stu-id="5edef-213">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="5edef-214">Для порядкового номера 1 щелкните **Отправить файл** и выберите файл **BAI2CSV-to-BAI2XML.xslt**, сохраненный ранее.</span><span class="sxs-lookup"><span data-stu-id="5edef-214">For sequence number 1, click **Upload file**, and select the **BAI2CSV-to-BAI2XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="5edef-215">Нажмите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="5edef-215">Click **New**.</span></span>
+12. <span data-ttu-id="5edef-216">Для порядкового номера 2 щелкните **Отправить файл** и выберите файл **BAI2XML-Reconciliation.xslt**, сохраненный ранее.</span><span class="sxs-lookup"><span data-stu-id="5edef-216">For sequence number 2, click **Upload file**, and select the **BAI2XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="5edef-217">**Примечание.** Файлы преобразования Finance and Operations создаются для стандартного формата.</span><span class="sxs-lookup"><span data-stu-id="5edef-217">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="5edef-218">Поскольку банки часто отклоняются от этого формата, может потребоваться обновить файл преобразования, чтобы он соответствовал формату банковской выписки.</span><span class="sxs-lookup"><span data-stu-id="5edef-218">Because banks often diverge from this format, and you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+13. <span data-ttu-id="5edef-219">Нажмите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="5edef-219">Click **New**.</span></span>
+14. <span data-ttu-id="5edef-220">Для порядкового номера 3 щелкните **Отправить файл** и выберите файл **BankReconciliation-to-Composite.xslt**, сохраненный ранее.</span><span class="sxs-lookup"><span data-stu-id="5edef-220">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="5edef-221">Щелкните **Применить преобразования**.</span><span class="sxs-lookup"><span data-stu-id="5edef-221">Click **Apply transforms**.</span></span>
 
-После настройки группы обработки формата следующим шагом является определение правил формат банковской выписки для банковских выписок BAI2.
+<span data-ttu-id="5edef-222">После настройки группы обработки формата следующим шагом является определение правил формат банковской выписки для банковских выписок BAI2.</span><span class="sxs-lookup"><span data-stu-id="5edef-222">After the format processing group is set up, the next step is to define the bank statement format rules for BAI2 bank statements.</span></span>
 
-1.  Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Настройка** &gt; **Настройка расширенной банковской выверки** &gt; **Формат банковской выписки**.
-2.  Нажмите **Создать**.
-3.  Укажите формат выписки, например **BAI2**.
-4.  Вводится имя формата.
-5.  Выберите в поле **Группа обработки** группу, определенную ранее, например **BAI2**.
-6.  Задайте в поле **Тип файла** значение **TXT**.
+1.  <span data-ttu-id="5edef-223">Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Настройка** &gt; **Настройка расширенной банковской выверки** &gt; **Формат банковской выписки**.</span><span class="sxs-lookup"><span data-stu-id="5edef-223">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="5edef-224">Нажмите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="5edef-224">Click **New**.</span></span>
+3.  <span data-ttu-id="5edef-225">Укажите формат выписки, например **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="5edef-225">Specify a statement format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="5edef-226">Вводится имя формата.</span><span class="sxs-lookup"><span data-stu-id="5edef-226">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="5edef-227">Выберите в поле **Группа обработки** группу, определенную ранее, например **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="5edef-227">Set the **Processing group** field to the group that you defined earlier, such as **BAI2**.</span></span>
+6.  <span data-ttu-id="5edef-228">Задайте в поле **Тип файла** значение **TXT**.</span><span class="sxs-lookup"><span data-stu-id="5edef-228">Set the **File type** field to **txt**.</span></span>
 
-Последним шагом является включение расширенной банковской выверки и задание формата выписки в банковском счете.
+<span data-ttu-id="5edef-229">Последним шагом является включение расширенной банковской выверки и задание формата выписки в банковском счете.</span><span class="sxs-lookup"><span data-stu-id="5edef-229">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Банковские счета**.
-2.  Выберите банковский счет и откройте его, чтобы просмотреть подробные сведения.
-3.  На вкладке **Выверка** задайте для параметра **Расширенная банковская выверка** значение **Да**.
-4.  При появлении запроса на подтверждение выбора и включение расширенной банковской выверки нажмите кнопку **OK**.
-5.  Выберите в поле **Формат выписки** формат, созданный ранее, например **BAI2**.
+1.  <span data-ttu-id="5edef-230">Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Банковские счета**.</span><span class="sxs-lookup"><span data-stu-id="5edef-230">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="5edef-231">Выберите банковский счет и откройте его, чтобы просмотреть подробные сведения.</span><span class="sxs-lookup"><span data-stu-id="5edef-231">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="5edef-232">На вкладке **Выверка** задайте для параметра **Расширенная банковская выверка** значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="5edef-232">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="5edef-233">При появлении запроса на подтверждение выбора и включение расширенной банковской выверки нажмите кнопку **OK**.</span><span class="sxs-lookup"><span data-stu-id="5edef-233">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="5edef-234">Выберите в поле **Формат выписки** формат, созданный ранее, например **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="5edef-234">Set the **Statement format** field to the format that you created earlier, such as **BAI2**.</span></span>
 
-## <a name="test-the-bank-statement-import"></a>Проверка импорта банковской выписки
-Последним шагом является проверка импорта банковской выписки.
+## <a name="test-the-bank-statement-import"></a><span data-ttu-id="5edef-235">Проверка импорта банковской выписки</span><span class="sxs-lookup"><span data-stu-id="5edef-235">Test the bank statement import</span></span>
+<span data-ttu-id="5edef-236">Последним шагом является проверка импорта банковской выписки.</span><span class="sxs-lookup"><span data-stu-id="5edef-236">The final step is to test that you can import your bank statement.</span></span>
 
-1.  Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Банковские счета**.
-2.  Выберите банковский счет, для которого включена расширенная банковская выверка.
-3.  На вкладке **Выверять** щелкните **Банковские выписки**.
-4.  На странице **Банковская выписка** щелкните **Импортировать выписку**.
-5.  В поле **Банковский счет** выберите банковский счет. Сведения в поле **Формат выписки** будут введены автоматически на основании параметров в банковском счете.
-6.  Нажмите кнопку **Обзор** и выберите файл электронной банковской выписки.
-7.  Щелкните **Загрузить**.
-8.  Нажмите кнопку **OК**.
+1.  <span data-ttu-id="5edef-237">Перейдите в раздел **Управление банком и кассовыми операциями** &gt; **Банковские счета**.</span><span class="sxs-lookup"><span data-stu-id="5edef-237">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="5edef-238">Выберите банковский счет, для которого включена расширенная банковская выверка.</span><span class="sxs-lookup"><span data-stu-id="5edef-238">Select the bank account that Advanced bank reconciliation functionality is enabled for.</span></span>
+3.  <span data-ttu-id="5edef-239">На вкладке **Выверять** щелкните **Банковские выписки**.</span><span class="sxs-lookup"><span data-stu-id="5edef-239">On the **Reconcile** tab, click **Bank statements**.</span></span>
+4.  <span data-ttu-id="5edef-240">На странице **Банковская выписка** щелкните **Импортировать выписку**.</span><span class="sxs-lookup"><span data-stu-id="5edef-240">On the **Bank statement** page, click **Import statement**.</span></span>
+5.  <span data-ttu-id="5edef-241">В поле **Банковский счет** выберите банковский счет.</span><span class="sxs-lookup"><span data-stu-id="5edef-241">Set the **Bank account** field to the selected bank account.</span></span> <span data-ttu-id="5edef-242">Сведения в поле **Формат выписки** будут введены автоматически на основании параметров в банковском счете.</span><span class="sxs-lookup"><span data-stu-id="5edef-242">The **Statement format** field will be set automatically, based on the setting on the bank account.</span></span>
+6.  <span data-ttu-id="5edef-243">Нажмите кнопку **Обзор** и выберите файл электронной банковской выписки.</span><span class="sxs-lookup"><span data-stu-id="5edef-243">Click **Browse**, and select your electronic bank statement file.</span></span>
+7.  <span data-ttu-id="5edef-244">Щелкните **Загрузить**.</span><span class="sxs-lookup"><span data-stu-id="5edef-244">Click **Upload**.</span></span>
+8.  <span data-ttu-id="5edef-245">Нажмите кнопку **OК**.</span><span class="sxs-lookup"><span data-stu-id="5edef-245">Click **OK**.</span></span>
 
-Если импорт прошел успешно, вы получите сообщение о том, что выписка была импортирована. Если импорт завершился ошибкой, в рабочей области **Управление данными** в разделе **Журнал заданий** найти задание. Щелкните **Сведения о выполнении** для задания, чтобы открыть страницу **Сводка по выполнению**, и щелкните **Просмотр журнала выполнения**, чтобы просмотреть ошибки импорта.
+<span data-ttu-id="5edef-246">Если импорт прошел успешно, вы получите сообщение о том, что выписка была импортирована.</span><span class="sxs-lookup"><span data-stu-id="5edef-246">If the import is successful, you will receive a message that states that your statement was imported.</span></span> <span data-ttu-id="5edef-247">Если импорт завершился ошибкой, в рабочей области **Управление данными** в разделе **Журнал заданий** найти задание.</span><span class="sxs-lookup"><span data-stu-id="5edef-247">If the import wasn't successful, in the **Data management** workspace, in the **Job history** section, find the job.</span></span> <span data-ttu-id="5edef-248">Щелкните **Сведения о выполнении** для задания, чтобы открыть страницу **Сводка по выполнению**, и щелкните **Просмотр журнала выполнения**, чтобы просмотреть ошибки импорта.</span><span class="sxs-lookup"><span data-stu-id="5edef-248">Click **Execution details** for the job to open the **Execution summary** page, and then click **View execution log** to view the import errors.</span></span>
 
 
 

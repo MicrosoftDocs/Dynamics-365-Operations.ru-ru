@@ -19,37 +19,37 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a143a373a63ab145ee4c25bb1abfab777cca6619
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a353db68c2223d62cd8e5048f0e953ed134c0803
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="correct-a-free-text-invoice"></a>Корректировка накладной с произвольным текстом
+# <a name="correct-a-free-text-invoice"></a><span data-ttu-id="dd09e-103">Корректировка накладной с произвольным текстом</span><span class="sxs-lookup"><span data-stu-id="dd09e-103">Correct a free text invoice</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Эта статья описывает порядок коррекции накладной с произвольным текстом, которая была разнесена, и повторно выпуск ее как исправленной накладной.
+<span data-ttu-id="dd09e-104">Эта статья описывает порядок коррекции накладной с произвольным текстом, которая была разнесена, и повторно выпуск ее как исправленной накладной.</span><span class="sxs-lookup"><span data-stu-id="dd09e-104">This article explains how to correct a free text invoice that has been posted and reissue it as a corrected invoice.</span></span>
 
-Чтобы исправить накладную с произвольным текстом, которая уже была разнесена, откройте разнесенную накладную с произвольным текстом. На странице **Накладная** выберите **Отмена**, затем выберите **Исправить накладную**. Выберите код причины, добавьте комментарии и выберите дату для новой исправленной накладной. Исправленную накладную можно изменить и разнести. 
+<span data-ttu-id="dd09e-105">Чтобы исправить накладную с произвольным текстом, которая уже была разнесена, откройте разнесенную накладную с произвольным текстом.</span><span class="sxs-lookup"><span data-stu-id="dd09e-105">To correct a free text invoice that has already been posted, open the posted free text invoice.</span></span> <span data-ttu-id="dd09e-106">На странице **Накладная** выберите **Отмена**, затем выберите **Исправить накладную**.</span><span class="sxs-lookup"><span data-stu-id="dd09e-106">On the **Invoice** page, select **Cancel**, and then select **Correct invoice**.</span></span> <span data-ttu-id="dd09e-107">Выберите код причины, добавьте комментарии и выберите дату для новой исправленной накладной.</span><span class="sxs-lookup"><span data-stu-id="dd09e-107">Select a reason code, add comments, and select the date for new corrected invoice.</span></span> <span data-ttu-id="dd09e-108">Исправленную накладную можно изменить и разнести.</span><span class="sxs-lookup"><span data-stu-id="dd09e-108">You can modify the corrected invoice, and post it.</span></span> 
 
-При разноске исправленной накладной отменяющая накладная создается для суммы кредита, равной сумме исходной накладной. Таким образом, объединенное сальдо исходной и отменяющей накладной равно 0. Отменяющая накладная сопоставляется с исходной накладной. 
+<span data-ttu-id="dd09e-109">При разноске исправленной накладной отменяющая накладная создается для суммы кредита, равной сумме исходной накладной.</span><span class="sxs-lookup"><span data-stu-id="dd09e-109">When you post the corrected invoice, a canceling invoice is created for a credit amount that equals the original invoice amount.</span></span> <span data-ttu-id="dd09e-110">Таким образом, объединенное сальдо исходной и отменяющей накладной равно 0.</span><span class="sxs-lookup"><span data-stu-id="dd09e-110">Therefore, the combined balance of the original invoice and the canceling invoice is 0 (zero).</span></span> <span data-ttu-id="dd09e-111">Отменяющая накладная сопоставляется с исходной накладной.</span><span class="sxs-lookup"><span data-stu-id="dd09e-111">The canceling invoice is settled against the original invoice.</span></span> 
 
-После разноски исправленной накладной будет доступно три накладных:
+<span data-ttu-id="dd09e-112">После разноски исправленной накладной будет доступно три накладных:</span><span class="sxs-lookup"><span data-stu-id="dd09e-112">After you post the corrected invoice, you will have three invoices:</span></span>
 
--   **Исходная накладная** — накладная, включающая сведения, которые исправляются.
--   **Отменяющая накладная** — создаваемая системой накладная, служащая для отмены исправляемой накладной.
--   **Исправленная накладная** — накладная, которая содержит исправленные данные.
+-   <span data-ttu-id="dd09e-113">**Исходная накладная** — накладная, включающая сведения, которые исправляются.</span><span class="sxs-lookup"><span data-stu-id="dd09e-113">**Original invoice** – The invoice that includes the information that you're correcting.</span></span>
+-   <span data-ttu-id="dd09e-114">**Отменяющая накладная** — создаваемая системой накладная, служащая для отмены исправляемой накладной.</span><span class="sxs-lookup"><span data-stu-id="dd09e-114">**Canceling invoice** – The system-generated credit invoice that was created to cancel the invoice that was most recently corrected.</span></span>
+-   <span data-ttu-id="dd09e-115">**Исправленная накладная** — накладная, которая содержит исправленные данные.</span><span class="sxs-lookup"><span data-stu-id="dd09e-115">**Corrected invoice** – The invoice that contains the corrected invoice information.</span></span>
 
-Вы можете определить отменяющую и корректирующую накладные двумя способами:
+<span data-ttu-id="dd09e-116">Вы можете определить отменяющую и корректирующую накладные двумя способами:</span><span class="sxs-lookup"><span data-stu-id="dd09e-116">You can identify canceling and correcting invoices in two ways:</span></span>
 
--   На странице **Все накладные с произвольным текстом** есть столбец **Корректировка**, где можно просмотреть, какие накладные являются отменяющими, а какие корректирующими.
--   В заголовке накладной с произвольным текстом отображается статус **Отменяющая накладная "\[номер накладной\]"** или **Исправленная накладная "\[номер накладной\]"**.
+-   <span data-ttu-id="dd09e-117">На странице **Все накладные с произвольным текстом** есть столбец **Корректировка**, где можно просмотреть, какие накладные являются отменяющими, а какие корректирующими.</span><span class="sxs-lookup"><span data-stu-id="dd09e-117">The **All free text invoices** page includes a **Correction** column, where you can see which invoices are canceling invoices and corrected invoices.</span></span>
+-   <span data-ttu-id="dd09e-118">В заголовке накладной с произвольным текстом отображается статус **Отменяющая накладная "\[номер накладной\]"** или **Исправленная накладная "\[номер накладной\]"**.</span><span class="sxs-lookup"><span data-stu-id="dd09e-118">The header of the free text invoice shows a status of **Cancelling invoice '\[invoice number\]'** or **Corrected invoice '\[invoice number\]'**.</span></span>
 
 > [!NOTE]
-> Эта функция доступна, только если выбран конфигурационный ключ **Исправление накладной с произвольным текстом**.
+> <span data-ttu-id="dd09e-119">Эта функция доступна, только если выбран конфигурационный ключ **Исправление накладной с произвольным текстом**.</span><span class="sxs-lookup"><span data-stu-id="dd09e-119">This feature is available only if the **Free text invoice correction** configuration key is selected.</span></span>
 
 
 

@@ -17,43 +17,43 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 50b5048a5f9277c47444fa69d2c8cc8e36ba7dcd
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 752eab976f740606154d416678ba2381641697df
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="execute-kanban-process-jobs"></a>Выполнение заданий процессов канбана
+# <a name="execute-kanban-process-jobs"></a><span data-ttu-id="1e531-103">Выполнение заданий процессов канбана</span><span class="sxs-lookup"><span data-stu-id="1e531-103">Execute kanban process jobs</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура рассматривает выполнение заданий процессов канбана. Первое задание завершено с ожидаемым количеством и без ошибок. Второе задание завершено с ошибками. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для оператора.
+<span data-ttu-id="1e531-104">Эта процедура рассматривает выполнение заданий процессов канбана.</span><span class="sxs-lookup"><span data-stu-id="1e531-104">This procedure focuses on executing kanban process jobs.</span></span> <span data-ttu-id="1e531-105">Первое задание завершено с ожидаемым количеством и без ошибок.</span><span class="sxs-lookup"><span data-stu-id="1e531-105">The first job is completed with the expected quantity and has no errors.</span></span> <span data-ttu-id="1e531-106">Второе задание завершено с ошибками.</span><span class="sxs-lookup"><span data-stu-id="1e531-106">The second job is completed with errors.</span></span> <span data-ttu-id="1e531-107">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="1e531-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="1e531-108">Эта процедура предназначена для оператора.</span><span class="sxs-lookup"><span data-stu-id="1e531-108">This procedure is intended for the machine operator.</span></span>
 
 
-## <a name="select-a-kanban-job"></a>Выбор задания канбана
-1. Перейдите в раздел "Управление производством" > "Канбан" > "Доска канбана для заданий процесса".
-2. В поле "Производственная ячейка" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
-3. Щелкните строку с группой ресурсов 1250. В результате будет отфильтрован список заданий для отображения только заданий для производственной ячейки 1250.
-    * Пометьте строку со статусом задания "Запланировано".  
+## <a name="select-a-kanban-job"></a><span data-ttu-id="1e531-109">Выбор задания канбана</span><span class="sxs-lookup"><span data-stu-id="1e531-109">Select a kanban job</span></span>
+1. <span data-ttu-id="1e531-110">Перейдите в раздел "Управление производством" > "Канбан" > "Доска канбана для заданий процесса".</span><span class="sxs-lookup"><span data-stu-id="1e531-110">Go to Production control > Kanban > Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="1e531-111">В поле "Производственная ячейка" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="1e531-111">In the Work cell field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="1e531-112">Щелкните строку с группой ресурсов 1250.</span><span class="sxs-lookup"><span data-stu-id="1e531-112">Click the row with resource group 1250.</span></span> <span data-ttu-id="1e531-113">В результате будет отфильтрован список заданий для отображения только заданий для производственной ячейки 1250.</span><span class="sxs-lookup"><span data-stu-id="1e531-113">This filters the Jobs list to display only the jobs for work cell 1250.</span></span>
+    * <span data-ttu-id="1e531-114">Пометьте строку со статусом задания "Запланировано".</span><span class="sxs-lookup"><span data-stu-id="1e531-114">Mark the row that has the Planned job status.</span></span>  
 
-## <a name="complete-a-job-with-expected-quantity"></a>Завершение задания с ожидаемым количеством
-1. Разверните или сверните раздел "Сведения".
-    * Этот раздел содержит важную информацию о номере карты, коде номенклатуры, заказанном количестве и имени мероприятия.  
-2. Разверните или сверните раздел "Производственные инструкции".
-    * Этот раздел содержит производственные инструкции для мероприятия. Инструкции могут быть текстом, изображениями, чертежами и другими документами.  
-3. Щелкните "Начать".
-    * Выберите задание, которое еще не выполнено. Используйте значки статуса в поле "Статус задания" для просмотра статуса задания.      
-4. Щелкните "Завершить".
-    * Задание завершено с предполагаемым качеством.  
+## <a name="complete-a-job-with-expected-quantity"></a><span data-ttu-id="1e531-115">Завершение задания с ожидаемым количеством</span><span class="sxs-lookup"><span data-stu-id="1e531-115">Complete a job with expected quantity</span></span>
+1. <span data-ttu-id="1e531-116">Разверните или сверните раздел "Сведения".</span><span class="sxs-lookup"><span data-stu-id="1e531-116">Expand or collapse the Details section.</span></span>
+    * <span data-ttu-id="1e531-117">Этот раздел содержит важную информацию о номере карты, коде номенклатуры, заказанном количестве и имени мероприятия.</span><span class="sxs-lookup"><span data-stu-id="1e531-117">This section displays important information about card number, item number, quantity ordered, and activity name.</span></span>  
+2. <span data-ttu-id="1e531-118">Разверните или сверните раздел "Производственные инструкции".</span><span class="sxs-lookup"><span data-stu-id="1e531-118">Expand or collapse the Production instructions section.</span></span>
+    * <span data-ttu-id="1e531-119">Этот раздел содержит производственные инструкции для мероприятия.</span><span class="sxs-lookup"><span data-stu-id="1e531-119">This section displays production instructions for the activity.</span></span> <span data-ttu-id="1e531-120">Инструкции могут быть текстом, изображениями, чертежами и другими документами.</span><span class="sxs-lookup"><span data-stu-id="1e531-120">The instructions can be text, pictures, drawings, and other documents.</span></span>  
+3. <span data-ttu-id="1e531-121">Щелкните "Начать".</span><span class="sxs-lookup"><span data-stu-id="1e531-121">Click Start.</span></span>
+    * <span data-ttu-id="1e531-122">Выберите задание, которое еще не выполнено.</span><span class="sxs-lookup"><span data-stu-id="1e531-122">Select a job that is not completed.</span></span> <span data-ttu-id="1e531-123">Используйте значки статуса в поле "Статус задания" для просмотра статуса задания.</span><span class="sxs-lookup"><span data-stu-id="1e531-123">Use status icons in the Job status field to view job status.</span></span>      
+4. <span data-ttu-id="1e531-124">Щелкните "Завершить".</span><span class="sxs-lookup"><span data-stu-id="1e531-124">Click Complete.</span></span>
+    * <span data-ttu-id="1e531-125">Задание завершено с предполагаемым качеством.</span><span class="sxs-lookup"><span data-stu-id="1e531-125">The job is completed with the expected quality.</span></span>  
 
-## <a name="complete-a-job-with-errors"></a>Завершение задания с ошибками
-1. Щелкните "Начать".
-    * По завершении задания будет автоматически выбрано следующее задание в списке. Поэтому вам не нужно выбирать задание, прежде чем нажать кнопку "Начать".  
-2. В области действий щелкните "Производство".
-3. Щелкните "Завершить (подробные сведения)".
-4. В списке пометьте выбранную строку.
-5. В поле "Ошибка в количестве" введите число.
-6. В поле "Количество правильных" введите число.
-7. Нажмите кнопку "OК".
+## <a name="complete-a-job-with-errors"></a><span data-ttu-id="1e531-126">Завершение задания с ошибками</span><span class="sxs-lookup"><span data-stu-id="1e531-126">Complete a job with errors</span></span>
+1. <span data-ttu-id="1e531-127">Щелкните "Начать".</span><span class="sxs-lookup"><span data-stu-id="1e531-127">Click Start.</span></span>
+    * <span data-ttu-id="1e531-128">По завершении задания будет автоматически выбрано следующее задание в списке.</span><span class="sxs-lookup"><span data-stu-id="1e531-128">When a job is completed, the next job on the list is selected automatically.</span></span> <span data-ttu-id="1e531-129">Поэтому вам не нужно выбирать задание, прежде чем нажать кнопку "Начать".</span><span class="sxs-lookup"><span data-stu-id="1e531-129">This is why you don't need to select a job before you click Start.</span></span>  
+2. <span data-ttu-id="1e531-130">В области действий щелкните "Производство".</span><span class="sxs-lookup"><span data-stu-id="1e531-130">On the Action Pane, click Manufacture.</span></span>
+3. <span data-ttu-id="1e531-131">Щелкните "Завершить (подробные сведения)".</span><span class="sxs-lookup"><span data-stu-id="1e531-131">Click Complete (details).</span></span>
+4. <span data-ttu-id="1e531-132">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="1e531-132">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="1e531-133">В поле "Ошибка в количестве" введите число.</span><span class="sxs-lookup"><span data-stu-id="1e531-133">In the Error quantity field, enter a number.</span></span>
+6. <span data-ttu-id="1e531-134">В поле "Количество правильных" введите число.</span><span class="sxs-lookup"><span data-stu-id="1e531-134">In the Good quantity field, enter a number.</span></span>
+7. <span data-ttu-id="1e531-135">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="1e531-135">Click OK.</span></span>
 
 

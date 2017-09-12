@@ -25,222 +25,222 @@ ms.lasthandoff: 08/10/2017
 
 ---
 
-# <a name="expense-management-mobile-workspace"></a>Мобильная рабочая область управления расходами
+# <a name="expense-management-mobile-workspace"></a><span data-ttu-id="a1965-105">Мобильная рабочая область управления расходами</span><span class="sxs-lookup"><span data-stu-id="a1965-105">Expense management mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-В этом разделе приводятся сведения о мобильной рабочей области **Управление расходами**. Эта рабочая область позволяет пользователям снять и отправить чек, чтобы потом его можно было приложить к отчету о расходах. Пользователи могут быстро создать строку расходов с помощью вложенной приходной накладной, а также создать отчеты по расходам и управлять ими. Кроме того, утверждающие могут использовать мобильную рабочую область **Управление расходами** для просмотра отчетов по расходам, назначенных им, а также для утверждения или отклонения этих отчетов по расходам.
+<span data-ttu-id="a1965-106">В этом разделе приводятся сведения о мобильной рабочей области **Управление расходами**.</span><span class="sxs-lookup"><span data-stu-id="a1965-106">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="a1965-107">Эта рабочая область позволяет пользователям снять и отправить чек, чтобы потом его можно было приложить к отчету о расходах.</span><span class="sxs-lookup"><span data-stu-id="a1965-107">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="a1965-108">Пользователи могут быстро создать строку расходов с помощью вложенной приходной накладной, а также создать отчеты по расходам и управлять ими.</span><span class="sxs-lookup"><span data-stu-id="a1965-108">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="a1965-109">Кроме того, утверждающие могут использовать мобильную рабочую область **Управление расходами** для просмотра отчетов по расходам, назначенных им, а также для утверждения или отклонения этих отчетов по расходам.</span><span class="sxs-lookup"><span data-stu-id="a1965-109">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
 
-Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations.
+<span data-ttu-id="a1965-110">Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations.</span><span class="sxs-lookup"><span data-stu-id="a1965-110">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
 
-## <a name="overview"></a>Обзор
+## <a name="overview"></a><span data-ttu-id="a1965-111">Обзор</span><span class="sxs-lookup"><span data-stu-id="a1965-111">Overview</span></span>
 
-Во многих организациях требуется, чтобы копия чека была приложена к отчету о командировочных или деловых расходах, который сотрудник предоставляет для получения возмещения. Мобильная рабочая область **Управление расходами** позволяет пользователям быстрее создавать новые строки расходов на мобильном устройстве, выбранном пользователем, с помощью приложенной фотографии чека. Также пользователи могут сфотографировать чек и приложить его к отчету о расходах позднее. Сотрудники также могут создавать отчеты по расходам и управлять ими, а затем отправлять их на утверждение и возмещение с помощью мобильного устройства.
+<span data-ttu-id="a1965-112">Во многих организациях требуется, чтобы копия чека была приложена к отчету о командировочных или деловых расходах, который сотрудник предоставляет для получения возмещения.</span><span class="sxs-lookup"><span data-stu-id="a1965-112">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="a1965-113">Мобильная рабочая область **Управление расходами** позволяет пользователям быстрее создавать новые строки расходов на мобильном устройстве, выбранном пользователем, с помощью приложенной фотографии чека.</span><span class="sxs-lookup"><span data-stu-id="a1965-113">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="a1965-114">Также пользователи могут сфотографировать чек и приложить его к отчету о расходах позднее.</span><span class="sxs-lookup"><span data-stu-id="a1965-114">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="a1965-115">Сотрудники также могут создавать отчеты по расходам и управлять ими, а затем отправлять их на утверждение и возмещение с помощью мобильного устройства.</span><span class="sxs-lookup"><span data-stu-id="a1965-115">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
 
-В частности, мобильная рабочая область **Управление расходами** позволяет пользователям выполнять следующие задачи:
+<span data-ttu-id="a1965-116">В частности, мобильная рабочая область **Управление расходами** позволяет пользователям выполнять следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="a1965-116">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Сделать фотографию приходной накладной и отправить ее в Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise. Затем можно приложить эту фотографию к отчету по расходам.
-- Отправить файл как снятый чек. Затем можно приложить этот файл к отчету по расходам.
-- Создать новую строку расходов с использованием приложенного чека. Затем можно добавить номенклатуру строки в отчет по расходам и отправить его для утверждения и возмещения.
+- <span data-ttu-id="a1965-117">Сделать фотографию приходной накладной и отправить ее в Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise.</span><span class="sxs-lookup"><span data-stu-id="a1965-117">Take a photo of a receipt, and upload it to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="a1965-118">Затем можно приложить эту фотографию к отчету по расходам.</span><span class="sxs-lookup"><span data-stu-id="a1965-118">You can then attach that photo to an expense report later.</span></span>
+- <span data-ttu-id="a1965-119">Отправить файл как снятый чек.</span><span class="sxs-lookup"><span data-stu-id="a1965-119">Upload a file as a captured receipt.</span></span> <span data-ttu-id="a1965-120">Затем можно приложить этот файл к отчету по расходам.</span><span class="sxs-lookup"><span data-stu-id="a1965-120">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="a1965-121">Создать новую строку расходов с использованием приложенного чека.</span><span class="sxs-lookup"><span data-stu-id="a1965-121">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="a1965-122">Затем можно добавить номенклатуру строки в отчет по расходам и отправить его для утверждения и возмещения.</span><span class="sxs-lookup"><span data-stu-id="a1965-122">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-При использовании Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise, обновление от июля 2017 г. доступны следующие функции:
+<span data-ttu-id="a1965-123">При использовании Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise, обновление от июля 2017 г. доступны следующие функции:</span><span class="sxs-lookup"><span data-stu-id="a1965-123">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, you can also use these features:</span></span>
 
-- Создание нового отчета по расходам.
-- Вложение проводок по кредитным картам и прочих созданных ранее расходов в отчет по расходам.
-- Создание новых расходов для отчета по расходам.
-- Вложение приходной накладной в любой расход для отчета по расходам с помощью фотографии приходной накладной или путем загрузки файла как зафиксированной приходной накладной.
-- В зависимости от политики расходов компании добавление списка гостей к расходу.
-- В зависимости от политики расходов компании детализация расходов.
-- Отправка отчета по расходам для утверждения и возмещения.
-- Утверждение или отклонение отчетов по расходам, для которых вы назначены утверждающим.
+- <span data-ttu-id="a1965-124">Создание нового отчета по расходам.</span><span class="sxs-lookup"><span data-stu-id="a1965-124">Create a new expense report.</span></span>
+- <span data-ttu-id="a1965-125">Вложение проводок по кредитным картам и прочих созданных ранее расходов в отчет по расходам.</span><span class="sxs-lookup"><span data-stu-id="a1965-125">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="a1965-126">Создание новых расходов для отчета по расходам.</span><span class="sxs-lookup"><span data-stu-id="a1965-126">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="a1965-127">Вложение приходной накладной в любой расход для отчета по расходам с помощью фотографии приходной накладной или путем загрузки файла как зафиксированной приходной накладной.</span><span class="sxs-lookup"><span data-stu-id="a1965-127">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="a1965-128">В зависимости от политики расходов компании добавление списка гостей к расходу.</span><span class="sxs-lookup"><span data-stu-id="a1965-128">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="a1965-129">В зависимости от политики расходов компании детализация расходов.</span><span class="sxs-lookup"><span data-stu-id="a1965-129">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="a1965-130">Отправка отчета по расходам для утверждения и возмещения.</span><span class="sxs-lookup"><span data-stu-id="a1965-130">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="a1965-131">Утверждение или отклонение отчетов по расходам, для которых вы назначены утверждающим.</span><span class="sxs-lookup"><span data-stu-id="a1965-131">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Необходимые условия
-Необходимые условия различаются в зависимости от версии Microsoft Dynamics 365, развернутой в организации.
+## <a name="prerequisites"></a><span data-ttu-id="a1965-132">Необходимые условия</span><span class="sxs-lookup"><span data-stu-id="a1965-132">Prerequisites</span></span>
+<span data-ttu-id="a1965-133">Необходимые условия различаются в зависимости от версии Microsoft Dynamics 365, развернутой в организации.</span><span class="sxs-lookup"><span data-stu-id="a1965-133">The prerequisites vary, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, обновление от июля 2017 г. 
-Если в вашей организации развернуто приложение Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise, обновление от июля 2017 г., системный администратор должен опубликовать мобильную рабочую область **Управление расходами**. См. инструкции в [Публикация мобильной рабочей области](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="a1965-134">Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, обновление от июля 2017 г.</span><span class="sxs-lookup"><span data-stu-id="a1965-134">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span> 
+<span data-ttu-id="a1965-135">Если в вашей организации развернуто приложение Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise, обновление от июля 2017 г., системный администратор должен опубликовать мобильную рабочую область **Управление расходами**.</span><span class="sxs-lookup"><span data-stu-id="a1965-135">If Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> <span data-ttu-id="a1965-136">См. инструкции в [Публикация мобильной рабочей области](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span><span class="sxs-lookup"><span data-stu-id="a1965-136">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии.
-Если в вашей организации развернута Microsoft Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="a1965-137">Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="a1965-137">Prerequisites if you use Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="a1965-138">Если в вашей организации развернута Microsoft Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии, системный администратор должен выполнить следующие условия.</span><span class="sxs-lookup"><span data-stu-id="a1965-138">If Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Необходимые условия</th>
-<th>Роль</th>
-<th>описание</th>
+<th><span data-ttu-id="a1965-139">Необходимые условия</span><span class="sxs-lookup"><span data-stu-id="a1965-139">Prerequisite</span></span></th>
+<th><span data-ttu-id="a1965-140">Роль</span><span class="sxs-lookup"><span data-stu-id="a1965-140">Role</span></span></th>
+<th><span data-ttu-id="a1965-141">описание</span><span class="sxs-lookup"><span data-stu-id="a1965-141">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Реализовать КБ 4019015.</td>
-<td>Системный администратор</td>
-<td>KB 4019015 является обновлением X++ или исправлением метаданных, содержащим мобильную рабочую область <strong>Управление расходами</strong>. Для установки KB 4019015 системный администратор должен выполнить следующие задачи.
+<td><span data-ttu-id="a1965-142">Реализовать КБ 4019015.</span><span class="sxs-lookup"><span data-stu-id="a1965-142">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="a1965-143">Системный администратор</span><span class="sxs-lookup"><span data-stu-id="a1965-143">System administrator</span></span></td>
+<td><span data-ttu-id="a1965-144">KB 4019015 является обновлением X++ или исправлением метаданных, содержащим мобильную рабочую область <strong>Управление расходами</strong>.</span><span class="sxs-lookup"><span data-stu-id="a1965-144">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="a1965-145">Для установки KB 4019015 системный администратор должен выполнить следующие задачи.</span><span class="sxs-lookup"><span data-stu-id="a1965-145">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Загрузите исправление метаданных из Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Установите исправление метаданных</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Создайте пакет развертывания</a>, содержащий модели <strong>ApplicationSuite</strong> и <strong>ExpenseMobile</strong>, затем отправьте пакет развертывания в LCS.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Примените готовый к развертыванию пакет</a>.</li>
+<li><span data-ttu-id="a1965-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Загрузите исправление метаданных из Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="a1965-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="a1965-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Установите исправление метаданных</a>.</span><span class="sxs-lookup"><span data-stu-id="a1965-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="a1965-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Создайте пакет развертывания</a>, содержащий модели <strong>ApplicationSuite</strong> и <strong>ExpenseMobile</strong>, затем отправьте пакет развертывания в LCS.</span><span class="sxs-lookup"><span data-stu-id="a1965-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="a1965-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Примените готовый к развертыванию пакет</a>.</span><span class="sxs-lookup"><span data-stu-id="a1965-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Опубликуйте мобильную рабочую область <strong>Управление расходами</strong>.</td>
-<td>Системный администратор</td>
-<td>См. <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Публикация мобильной рабочей области</a>.</td>
+<td><span data-ttu-id="a1965-150">Опубликуйте мобильную рабочую область <strong>Управление расходами</strong>.</span><span class="sxs-lookup"><span data-stu-id="a1965-150">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="a1965-151">Системный администратор</span><span class="sxs-lookup"><span data-stu-id="a1965-151">System administrator</span></span></td>
+<td><span data-ttu-id="a1965-152">См. <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Публикация мобильной рабочей области</a>.</span><span class="sxs-lookup"><span data-stu-id="a1965-152">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Загрузка и установка мобильного приложения Dynamics 365 for Operations
-Загрузите и установите мобильное приложение Dynamics 365 for Unified Operations:
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a><span data-ttu-id="a1965-153">Загрузка и установка мобильного приложения Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="a1965-153">Download and install the Dynamics 365 for Operations mobile app</span></span>
+<span data-ttu-id="a1965-154">Загрузите и установите мобильное приложение Dynamics 365 for Unified Operations:</span><span class="sxs-lookup"><span data-stu-id="a1965-154">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
-- [Для ОС Android](https://go.microsoft.com/fwlink/?linkid=850662)
-- [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="a1965-155">Для ОС Android</span><span class="sxs-lookup"><span data-stu-id="a1965-155">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="a1965-156">Для iPhone</span><span class="sxs-lookup"><span data-stu-id="a1965-156">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Войдите в систему в мобильном приложении
-1. Запустите приложение на мобильном устройстве.
-2. Введите URL-адрес Dynamics 365.
-4. При первом входе появится запрос имени пользователя и пароля. Введите свои учетные данные.
-5. После входа будут показаны доступные рабочие области для вашей компании. Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="a1965-157">Войдите в систему в мобильном приложении</span><span class="sxs-lookup"><span data-stu-id="a1965-157">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="a1965-158">Запустите приложение на мобильном устройстве.</span><span class="sxs-lookup"><span data-stu-id="a1965-158">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="a1965-159">Введите URL-адрес Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="a1965-159">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="a1965-160">При первом входе появится запрос имени пользователя и пароля.</span><span class="sxs-lookup"><span data-stu-id="a1965-160">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="a1965-161">Введите свои учетные данные.</span><span class="sxs-lookup"><span data-stu-id="a1965-161">Enter your credentials.</span></span>
+5. <span data-ttu-id="a1965-162">После входа будут показаны доступные рабочие области для вашей компании.</span><span class="sxs-lookup"><span data-stu-id="a1965-162">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="a1965-163">Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.</span><span class="sxs-lookup"><span data-stu-id="a1965-163">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
 
-[![Потянуть для обновления](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="a1965-164">[![Потянуть для обновления](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="a1965-164">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Фотографирование чека с помощью мобильной рабочей области управления расходами
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="a1965-165">Фотографирование чека с помощью мобильной рабочей области управления расходами</span><span class="sxs-lookup"><span data-stu-id="a1965-165">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. На мобильном устройстве откройте рабочую область **Управление расходами**.
-2. Выберите **Захват чека**.
-3. Выберите **Сфотографировать** или **Выбрать изображение**.
-4. Выполните одно из следующих действий.
+1. <span data-ttu-id="a1965-166">На мобильном устройстве откройте рабочую область **Управление расходами**.</span><span class="sxs-lookup"><span data-stu-id="a1965-166">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="a1965-167">Выберите **Захват чека**.</span><span class="sxs-lookup"><span data-stu-id="a1965-167">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="a1965-168">Выберите **Сфотографировать** или **Выбрать изображение**.</span><span class="sxs-lookup"><span data-stu-id="a1965-168">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="a1965-169">Выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="a1965-169">Follow one of these steps:</span></span>
 
-    - Если выбран вариант **Сфотографировать**, выполните следующие действия:
+    - <span data-ttu-id="a1965-170">Если выбран вариант **Сфотографировать**, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="a1965-170">If you selected **Take photo**, follow these steps:</span></span>
 
-        1. Будет открыто приложение камеры на мобильном устройстве, чтобы можно было сфотографировать чек. После съемки фотографии щелкните **OK**, чтобы принять фотографию.
-        2. Необязательно: введите имя для фотографии и введите любые примечания.
+        1. <span data-ttu-id="a1965-171">Будет открыто приложение камеры на мобильном устройстве, чтобы можно было сфотографировать чек.</span><span class="sxs-lookup"><span data-stu-id="a1965-171">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="a1965-172">После съемки фотографии щелкните **OK**, чтобы принять фотографию.</span><span class="sxs-lookup"><span data-stu-id="a1965-172">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+        2. <span data-ttu-id="a1965-173">Необязательно: введите имя для фотографии и введите любые примечания.</span><span class="sxs-lookup"><span data-stu-id="a1965-173">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - Если выбран пункт **Выбрать изображение**, выполните следующие действия:
+    - <span data-ttu-id="a1965-174">Если выбран пункт **Выбрать изображение**, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="a1965-174">If you selected **Choose image**, follow these steps:</span></span>
 
-        1. Выберите изображение в списке.
-        2. Необязательно: введите имя для изображения и введите любые примечания.
+        1. <span data-ttu-id="a1965-175">Выберите изображение в списке.</span><span class="sxs-lookup"><span data-stu-id="a1965-175">Select an image in the list.</span></span>
+        2. <span data-ttu-id="a1965-176">Необязательно: введите имя для изображения и введите любые примечания.</span><span class="sxs-lookup"><span data-stu-id="a1965-176">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. Выберите **Готово**.
+5. <span data-ttu-id="a1965-177">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a1965-177">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Быстрый ввод расходов с помощью мобильной рабочей области "Управление расходами"
-1. На мобильном устройстве откройте рабочую область **Управление расходами**.
-2. Выберите **Быстрый ввод расходов**.
-3. Выберите категорию для расхода. Отображается список категорий расходов, который загружены в ваше приложение для работы в автономном режиме. По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число. Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Если нужной категории нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети. Выполните поиск по категории расходов или переключитесь на поиск по типу расходов.
-4. Введите дату проводки расхода.
-5. Необязательно: введите получателя платежа для расхода.
-6. Введите сумму расхода.
-7. Выберите валюту для расхода. Отображается список кодов валют, который загружен в ваше приложение для работы в автономном режиме. По умолчанию загружается 400 валют, но разработчик может изменить это число. Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Если нужной валюты нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети. Выполните поиск по валюте или переключитесь на поиск по названию.
-8. Выберите **Сфотографировать** или **Выбрать изображение**.
-9. Выполните одно из следующих действий.
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="a1965-178">Быстрый ввод расходов с помощью мобильной рабочей области "Управление расходами"</span><span class="sxs-lookup"><span data-stu-id="a1965-178">Quickly enter expenses by using the Expense management mobile workspace</span></span>
+1. <span data-ttu-id="a1965-179">На мобильном устройстве откройте рабочую область **Управление расходами**.</span><span class="sxs-lookup"><span data-stu-id="a1965-179">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="a1965-180">Выберите **Быстрый ввод расходов**.</span><span class="sxs-lookup"><span data-stu-id="a1965-180">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="a1965-181">Выберите категорию для расхода.</span><span class="sxs-lookup"><span data-stu-id="a1965-181">Select the category for the expense.</span></span> <span data-ttu-id="a1965-182">Отображается список категорий расходов, который загружены в ваше приложение для работы в автономном режиме.</span><span class="sxs-lookup"><span data-stu-id="a1965-182">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1965-183">По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число.</span><span class="sxs-lookup"><span data-stu-id="a1965-183">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1965-184">Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="a1965-184">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1965-185">Если нужной категории нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети.</span><span class="sxs-lookup"><span data-stu-id="a1965-185">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1965-186">Выполните поиск по категории расходов или переключитесь на поиск по типу расходов.</span><span class="sxs-lookup"><span data-stu-id="a1965-186">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="a1965-187">Введите дату проводки расхода.</span><span class="sxs-lookup"><span data-stu-id="a1965-187">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="a1965-188">Необязательно: введите получателя платежа для расхода.</span><span class="sxs-lookup"><span data-stu-id="a1965-188">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="a1965-189">Введите сумму расхода.</span><span class="sxs-lookup"><span data-stu-id="a1965-189">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="a1965-190">Выберите валюту для расхода.</span><span class="sxs-lookup"><span data-stu-id="a1965-190">Select the currency of the expense.</span></span> <span data-ttu-id="a1965-191">Отображается список кодов валют, который загружен в ваше приложение для работы в автономном режиме.</span><span class="sxs-lookup"><span data-stu-id="a1965-191">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1965-192">По умолчанию загружается 400 валют, но разработчик может изменить это число.</span><span class="sxs-lookup"><span data-stu-id="a1965-192">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1965-193">Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="a1965-193">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1965-194">Если нужной валюты нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети.</span><span class="sxs-lookup"><span data-stu-id="a1965-194">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1965-195">Выполните поиск по валюте или переключитесь на поиск по названию.</span><span class="sxs-lookup"><span data-stu-id="a1965-195">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="a1965-196">Выберите **Сфотографировать** или **Выбрать изображение**.</span><span class="sxs-lookup"><span data-stu-id="a1965-196">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="a1965-197">Выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="a1965-197">Follow one of these steps:</span></span>
 
-    - Если выбран вариант **Сфотографировать**, будет открыто приложение камеры на мобильном устройстве, чтобы можно было сфотографировать чек. После съемки фотографии щелкните **OK**, чтобы принять фотографию.
-    - Если выбран пункт **Выбрать изображение**, выберите изображение в списке.
+    - <span data-ttu-id="a1965-198">Если выбран вариант **Сфотографировать**, будет открыто приложение камеры на мобильном устройстве, чтобы можно было сфотографировать чек.</span><span class="sxs-lookup"><span data-stu-id="a1965-198">If you selected **Take photo**, you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="a1965-199">После съемки фотографии щелкните **OK**, чтобы принять фотографию.</span><span class="sxs-lookup"><span data-stu-id="a1965-199">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="a1965-200">Если выбран пункт **Выбрать изображение**, выберите изображение в списке.</span><span class="sxs-lookup"><span data-stu-id="a1965-200">If you selected **Choose image**, select an image in the list.</span></span>
 
-10. Выберите **Готово**.
+10. <span data-ttu-id="a1965-201">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a1965-201">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Утверждение отчета по расходам с помощью мобильной рабочей области "Управление расходами" (при использовании обновления за июль 2017 г.)
-1. На мобильном устройстве откройте рабочую область **Управление расходами**.
-2. В разделе **Утверждения расходов** показано число отчетов по расходам, которые назначены вам для утверждения. Количество обновляется приблизительно каждые 30 минут. Выберите **Утверждения расходов**.
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="a1965-202">Утверждение отчета по расходам с помощью мобильной рабочей области "Управление расходами" (при использовании обновления за июль 2017 г.)</span><span class="sxs-lookup"><span data-stu-id="a1965-202">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="a1965-203">На мобильном устройстве откройте рабочую область **Управление расходами**.</span><span class="sxs-lookup"><span data-stu-id="a1965-203">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="a1965-204">В разделе **Утверждения расходов** показано число отчетов по расходам, которые назначены вам для утверждения.</span><span class="sxs-lookup"><span data-stu-id="a1965-204">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="a1965-205">Количество обновляется приблизительно каждые 30 минут.</span><span class="sxs-lookup"><span data-stu-id="a1965-205">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="a1965-206">Выберите **Утверждения расходов**.</span><span class="sxs-lookup"><span data-stu-id="a1965-206">Select **Expense approvals**.</span></span>
 
-    Откроется список отчетов по расходам, которые назначены вам для утверждения.
+    <span data-ttu-id="a1965-207">Откроется список отчетов по расходам, которые назначены вам для утверждения.</span><span class="sxs-lookup"><span data-stu-id="a1965-207">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Выберите отчет по расходам для просмотра сведений о нем.
-4. Выберите расход для просмотра сведений о нем. Информация, которая отображается для расхода, включает любые сведения о приходных накладных, гостях и детализации.
-5. Вернитесь на страницу **Отчет по расходам**, выберите утверждение или отклонение отчета по расходам.
-6. Введите комментарии для действия утверждения.
-7. Выберите **Готово**.
+3. <span data-ttu-id="a1965-208">Выберите отчет по расходам для просмотра сведений о нем.</span><span class="sxs-lookup"><span data-stu-id="a1965-208">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="a1965-209">Выберите расход для просмотра сведений о нем.</span><span class="sxs-lookup"><span data-stu-id="a1965-209">Select an expense to view the details for it.</span></span> <span data-ttu-id="a1965-210">Информация, которая отображается для расхода, включает любые сведения о приходных накладных, гостях и детализации.</span><span class="sxs-lookup"><span data-stu-id="a1965-210">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="a1965-211">Вернитесь на страницу **Отчет по расходам**, выберите утверждение или отклонение отчета по расходам.</span><span class="sxs-lookup"><span data-stu-id="a1965-211">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="a1965-212">Введите комментарии для действия утверждения.</span><span class="sxs-lookup"><span data-stu-id="a1965-212">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="a1965-213">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a1965-213">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Создание нового отчета по расходам и отправка его на утверждение с помощью мобильной рабочей области "Управление расходами" (при использовании обновления за июль 2017 г.)
-1. На мобильном устройстве откройте рабочую область **Управление расходами**.
-2. Выберите **Запись по расходу**.
-3. Выберите **Новый отчет** или выберите существующий отчет по расходам в списке.
-4. Для новых отчетов по расходам введите назначение и любые доступные дополнительные сведения. Эта информация отличается в зависимости от того, как настроено управление расходами для компании.
-5. Выберите **Готово**.
-6. Чтобы добавить существующие расходы, такие как проводки по кредитной карте, в отчет по расходам, выберите **Вложить**.
-7. Выберите один или несколько расходов из списка.
-8. Выберите **Готово**.
-9. Чтобы добавить новый расход в отчет по расходам, выберите **Новый расход**.
-10. Выберите категорию для расхода. Отображается список категорий расходов, который загружены в ваше приложение для работы в автономном режиме. По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число. Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Если нужной категории нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети. Выполните поиск по категории расходов или переключитесь на поиск по типу расходов.
-11. Необязательно: введите получателя платежа для расхода.
-12. Введите дату проводки расхода.
-13. Введите сумму расхода.
-14. Выберите валюту для расхода. Отображается список кодов валют, который загружен в ваше приложение для работы в автономном режиме. По умолчанию загружается 400 валют, но разработчик может изменить это число. Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Если нужной валюты нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети. Выполните поиск по валюте или переключитесь на поиск по названию.
-15. Выберите **Готово**.
-16. Чтобы добавить дополнительные сведения в расход, выберите **Добавить сведения**. Доступные поля зависят от конфигурации управления расходами для компании.
-17. Если согласно политике компании требуется приходная накладная для расхода, выберите **Приходные накладные**, а затем выполните следующие действия:
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="a1965-214">Создание нового отчета по расходам и отправка его на утверждение с помощью мобильной рабочей области "Управление расходами" (при использовании обновления за июль 2017 г.)</span><span class="sxs-lookup"><span data-stu-id="a1965-214">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="a1965-215">На мобильном устройстве откройте рабочую область **Управление расходами**.</span><span class="sxs-lookup"><span data-stu-id="a1965-215">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="a1965-216">Выберите **Запись по расходу**.</span><span class="sxs-lookup"><span data-stu-id="a1965-216">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="a1965-217">Выберите **Новый отчет** или выберите существующий отчет по расходам в списке.</span><span class="sxs-lookup"><span data-stu-id="a1965-217">Select **New report**, or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="a1965-218">Для новых отчетов по расходам введите назначение и любые доступные дополнительные сведения.</span><span class="sxs-lookup"><span data-stu-id="a1965-218">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="a1965-219">Эта информация отличается в зависимости от того, как настроено управление расходами для компании.</span><span class="sxs-lookup"><span data-stu-id="a1965-219">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="a1965-220">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a1965-220">Select **Done**.</span></span>
+6. <span data-ttu-id="a1965-221">Чтобы добавить существующие расходы, такие как проводки по кредитной карте, в отчет по расходам, выберите **Вложить**.</span><span class="sxs-lookup"><span data-stu-id="a1965-221">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="a1965-222">Выберите один или несколько расходов из списка.</span><span class="sxs-lookup"><span data-stu-id="a1965-222">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="a1965-223">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a1965-223">Select **Done**.</span></span>
+9. <span data-ttu-id="a1965-224">Чтобы добавить новый расход в отчет по расходам, выберите **Новый расход**.</span><span class="sxs-lookup"><span data-stu-id="a1965-224">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="a1965-225">Выберите категорию для расхода.</span><span class="sxs-lookup"><span data-stu-id="a1965-225">Select the category for the expense.</span></span> <span data-ttu-id="a1965-226">Отображается список категорий расходов, который загружены в ваше приложение для работы в автономном режиме.</span><span class="sxs-lookup"><span data-stu-id="a1965-226">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1965-227">По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число.</span><span class="sxs-lookup"><span data-stu-id="a1965-227">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1965-228">Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="a1965-228">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1965-229">Если нужной категории нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети.</span><span class="sxs-lookup"><span data-stu-id="a1965-229">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1965-230">Выполните поиск по категории расходов или переключитесь на поиск по типу расходов.</span><span class="sxs-lookup"><span data-stu-id="a1965-230">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="a1965-231">Необязательно: введите получателя платежа для расхода.</span><span class="sxs-lookup"><span data-stu-id="a1965-231">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="a1965-232">Введите дату проводки расхода.</span><span class="sxs-lookup"><span data-stu-id="a1965-232">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="a1965-233">Введите сумму расхода.</span><span class="sxs-lookup"><span data-stu-id="a1965-233">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="a1965-234">Выберите валюту для расхода.</span><span class="sxs-lookup"><span data-stu-id="a1965-234">Select the currency of the expense.</span></span> <span data-ttu-id="a1965-235">Отображается список кодов валют, который загружен в ваше приложение для работы в автономном режиме.</span><span class="sxs-lookup"><span data-stu-id="a1965-235">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1965-236">По умолчанию загружается 400 валют, но разработчик может изменить это число.</span><span class="sxs-lookup"><span data-stu-id="a1965-236">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1965-237">Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="a1965-237">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1965-238">Если нужной валюты нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети.</span><span class="sxs-lookup"><span data-stu-id="a1965-238">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1965-239">Выполните поиск по валюте или переключитесь на поиск по названию.</span><span class="sxs-lookup"><span data-stu-id="a1965-239">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="a1965-240">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a1965-240">Select **Done**.</span></span>
+16. <span data-ttu-id="a1965-241">Чтобы добавить дополнительные сведения в расход, выберите **Добавить сведения**.</span><span class="sxs-lookup"><span data-stu-id="a1965-241">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="a1965-242">Доступные поля зависят от конфигурации управления расходами для компании.</span><span class="sxs-lookup"><span data-stu-id="a1965-242">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="a1965-243">Если согласно политике компании требуется приходная накладная для расхода, выберите **Приходные накладные**, а затем выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="a1965-243">If company policy requires a receipt for the expense, select **Receipts**, and then follow these steps:</span></span>
 
-    1. Выберите **Захватить приходную накладную** или **Вложить приходную накладную**.
-    2. Выполните одно из следующих действий.
+    1. <span data-ttu-id="a1965-244">Выберите **Захватить приходную накладную** или **Вложить приходную накладную**.</span><span class="sxs-lookup"><span data-stu-id="a1965-244">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="a1965-245">Выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="a1965-245">Follow one of these steps:</span></span>
 
-        - Если выбран пункт **Захватить приходную накладную**, выполните следующие действия:
+        - <span data-ttu-id="a1965-246">Если выбран пункт **Захватить приходную накладную**, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="a1965-246">If you selected **Capture receipt**, follow these steps:</span></span>
 
-            1. Выберите **Сфотографировать** или **Выбрать изображение**.
-            2. Выполните одно из следующих действий.
+            1. <span data-ttu-id="a1965-247">Выберите **Сфотографировать** или **Выбрать изображение**.</span><span class="sxs-lookup"><span data-stu-id="a1965-247">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="a1965-248">Выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="a1965-248">Follow one of these steps:</span></span>
 
-                - Если выбран вариант **Сфотографировать**, выполните следующие действия:
+                - <span data-ttu-id="a1965-249">Если выбран вариант **Сфотографировать**, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="a1965-249">If you selected **Take photo**, follow these steps:</span></span>
 
-                    1. Будет открыто приложение камеры на мобильном устройстве, чтобы можно было сфотографировать чек. После съемки фотографии щелкните **OK**, чтобы принять фотографию.
-                    2. Необязательно: введите имя для фотографии и введите любые примечания.
+                    1. <span data-ttu-id="a1965-250">Будет открыто приложение камеры на мобильном устройстве, чтобы можно было сфотографировать чек.</span><span class="sxs-lookup"><span data-stu-id="a1965-250">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="a1965-251">После съемки фотографии щелкните **OK**, чтобы принять фотографию.</span><span class="sxs-lookup"><span data-stu-id="a1965-251">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="a1965-252">Необязательно: введите имя для фотографии и введите любые примечания.</span><span class="sxs-lookup"><span data-stu-id="a1965-252">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - Если выбран пункт **Выбрать изображение**, выполните следующие действия:
+                - <span data-ttu-id="a1965-253">Если выбран пункт **Выбрать изображение**, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="a1965-253">If you selected **Choose image**, follow these steps:</span></span>
 
-                    1. Выберите изображение в списке.
-                    2. Необязательно: введите имя для изображения и введите любые примечания.
+                    1. <span data-ttu-id="a1965-254">Выберите изображение в списке.</span><span class="sxs-lookup"><span data-stu-id="a1965-254">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="a1965-255">Необязательно: введите имя для изображения и введите любые примечания.</span><span class="sxs-lookup"><span data-stu-id="a1965-255">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  Выберите **Готово**.
+            3.  <span data-ttu-id="a1965-256">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a1965-256">Select **Done**.</span></span>
 
-        - Если выбран пункт **Вложить приходную накладную**, выполните следующие действия:
+        - <span data-ttu-id="a1965-257">Если выбран пункт **Вложить приходную накладную**, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="a1965-257">If you selected **Attach receipt**, follow these steps:</span></span>
 
-            1.  Выберите одно или несколько изображений из списка.
-            2.  Выберите **Готово**.
+            1.  <span data-ttu-id="a1965-258">Выберите одно или несколько изображений из списка.</span><span class="sxs-lookup"><span data-stu-id="a1965-258">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="a1965-259">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a1965-259">Select **Done**.</span></span>
 
-    3. Нажмите кнопку **Назад**, чтобы вернуться к сведениям о расходе.
+    3. <span data-ttu-id="a1965-260">Нажмите кнопку **Назад**, чтобы вернуться к сведениям о расходе.</span><span class="sxs-lookup"><span data-stu-id="a1965-260">Select the **Back** button to return to the expense details.</span></span>
 
-18. Если согласно политике компании требуются гости для расхода, выберите **Гости**, а затем выполните следующие действия:
+18. <span data-ttu-id="a1965-261">Если согласно политике компании требуются гости для расхода, выберите **Гости**, а затем выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="a1965-261">If company policy requires guests for the expense, select **Guests**, and then follow these steps:</span></span>
 
-    1. Выберите **Гость**, **Предыдущие гости** или **Сотрудники**.
-    2. Выполните одно из следующих действий.
+    1. <span data-ttu-id="a1965-262">Выберите **Гость**, **Предыдущие гости** или **Сотрудники**.</span><span class="sxs-lookup"><span data-stu-id="a1965-262">Select **Guest**, **Previous guests**, or **Coworkers**.</span></span>
+    2. <span data-ttu-id="a1965-263">Выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="a1965-263">Follow one of these steps:</span></span>
 
-        - Если выбран вариант **Гость**, выполните следующие действия:
+        - <span data-ttu-id="a1965-264">Если выбран вариант **Гость**, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="a1965-264">If you selected **Guest**, follow these steps:</span></span>
 
-            1. Введите имя гостя.
-            2. Необязательно: введите организацию и/или страну гостя.
-            3. Необязательно: введите должность гостя.
-            4. Выберите **Готово**.
+            1. <span data-ttu-id="a1965-265">Введите имя гостя.</span><span class="sxs-lookup"><span data-stu-id="a1965-265">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="a1965-266">Необязательно: введите организацию и/или страну гостя.</span><span class="sxs-lookup"><span data-stu-id="a1965-266">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="a1965-267">Необязательно: введите должность гостя.</span><span class="sxs-lookup"><span data-stu-id="a1965-267">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="a1965-268">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a1965-268">Select **Done**.</span></span>
 
-        - Если выбран пункт **Предыдущие гости**, выполните следующие действия:
+        - <span data-ttu-id="a1965-269">Если выбран пункт **Предыдущие гости**, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="a1965-269">If you selected **Previous guests**, follow these steps:</span></span>
 
-            1. Выберите одного или несколько предыдущих гостей из списка. Откроется список предыдущих гостей, добавленных в предыдущие отчеты по расходам, загруженные в приложение для использования в автономном режиме. По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число. Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Если предыдущего гостя нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети. Выполните поиск по имени или переключитесь на поиск по организации, стране или должности.
-            2. Выберите **Готово**.
+            1. <span data-ttu-id="a1965-270">Выберите одного или несколько предыдущих гостей из списка.</span><span class="sxs-lookup"><span data-stu-id="a1965-270">Select one or more previous guests in the list.</span></span> <span data-ttu-id="a1965-271">Откроется список предыдущих гостей, добавленных в предыдущие отчеты по расходам, загруженные в приложение для использования в автономном режиме.</span><span class="sxs-lookup"><span data-stu-id="a1965-271">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1965-272">По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число.</span><span class="sxs-lookup"><span data-stu-id="a1965-272">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1965-273">Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="a1965-273">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1965-274">Если предыдущего гостя нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети.</span><span class="sxs-lookup"><span data-stu-id="a1965-274">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1965-275">Выполните поиск по имени или переключитесь на поиск по организации, стране или должности.</span><span class="sxs-lookup"><span data-stu-id="a1965-275">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="a1965-276">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a1965-276">Select **Done**.</span></span>
 
-        - Если выбран вариант **Сотрудники**, выполните следующие действия:
+        - <span data-ttu-id="a1965-277">Если выбран вариант **Сотрудники**, выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="a1965-277">If you selected **Coworkers**, follow these steps:</span></span>
 
-            1. Выберите одного или несколько сотрудников из списка. Отображается список сотрудников, которые загружены в приложение для использования в автономном режиме. По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число. Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Если сотрудника нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети. Выполните поиск по имени или переключитесь на поиск по компании или должности.
-            2. Выберите **Готово**.
+            1. <span data-ttu-id="a1965-278">Выберите одного или несколько сотрудников из списка.</span><span class="sxs-lookup"><span data-stu-id="a1965-278">Select one or more coworkers in the list.</span></span> <span data-ttu-id="a1965-279">Отображается список сотрудников, которые загружены в приложение для использования в автономном режиме.</span><span class="sxs-lookup"><span data-stu-id="a1965-279">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1965-280">По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число.</span><span class="sxs-lookup"><span data-stu-id="a1965-280">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1965-281">Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="a1965-281">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1965-282">Если сотрудника нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети.</span><span class="sxs-lookup"><span data-stu-id="a1965-282">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1965-283">Выполните поиск по имени или переключитесь на поиск по компании или должности.</span><span class="sxs-lookup"><span data-stu-id="a1965-283">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="a1965-284">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a1965-284">Select **Done**.</span></span>
 
-    3. Нажмите кнопку **Назад**, чтобы вернуться к сведениям о расходе.
+    3. <span data-ttu-id="a1965-285">Нажмите кнопку **Назад**, чтобы вернуться к сведениям о расходе.</span><span class="sxs-lookup"><span data-stu-id="a1965-285">Select the **Back** button to return to the expense details.</span></span>
 
-19. Если согласно политике компании требуется детализировать расход, выберите **Детализировать**, а затем выполните следующие действия:
+19. <span data-ttu-id="a1965-286">Если согласно политике компании требуется детализировать расход, выберите **Детализировать**, а затем выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="a1965-286">If company policy requires that the expense be itemized, select **Itemize**, and then follow these steps:</span></span>
 
-    1. Выберите первую дату для детализации.
-    2. Выберите **Добавить детализацию**.
-    3. Выберите подкатегорию детализации расходов. Отобразится список подкатегорий расходов, которые загружены в приложение для использования в автономном режиме. По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число. Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Если подкатегории нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети. Выполните поиск по имени подкатегории расходов.
-    4. Введите сумму проводки для детализации.
-    5. Измените дату проводки, если это необходимо.
-    6. Выберите **Готово**.
-    7. Повторяйте предыдущие шаги, пока не будут добавлены все детализации для выбранной даты.
-    8. Для дополнительных дней можно выбрать **Скопировать на следующий день**, чтобы скопировать детализации в следующий день. Либо можно выбрать дату для детализации, а затем добавить детализацию так же, как для первой даты.
-    9. По завершении детализации расходов нажмите кнопку **Назад**, чтобы вернуться к сведениям о расходе.
+    1. <span data-ttu-id="a1965-287">Выберите первую дату для детализации.</span><span class="sxs-lookup"><span data-stu-id="a1965-287">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="a1965-288">Выберите **Добавить детализацию**.</span><span class="sxs-lookup"><span data-stu-id="a1965-288">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="a1965-289">Выберите подкатегорию детализации расходов.</span><span class="sxs-lookup"><span data-stu-id="a1965-289">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="a1965-290">Отобразится список подкатегорий расходов, которые загружены в приложение для использования в автономном режиме.</span><span class="sxs-lookup"><span data-stu-id="a1965-290">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="a1965-291">По умолчанию загружаются 50 номенклатур, но разработчик может изменить это число.</span><span class="sxs-lookup"><span data-stu-id="a1965-291">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="a1965-292">Дополнительные сведения разработчики могут найти в разделе [Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="a1965-292">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="a1965-293">Если подкатегории нет в списке, выберите **Поиск**, чтобы выполнить поиск в сети.</span><span class="sxs-lookup"><span data-stu-id="a1965-293">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="a1965-294">Выполните поиск по имени подкатегории расходов.</span><span class="sxs-lookup"><span data-stu-id="a1965-294">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="a1965-295">Введите сумму проводки для детализации.</span><span class="sxs-lookup"><span data-stu-id="a1965-295">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="a1965-296">Измените дату проводки, если это необходимо.</span><span class="sxs-lookup"><span data-stu-id="a1965-296">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="a1965-297">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a1965-297">Select **Done**.</span></span>
+    7. <span data-ttu-id="a1965-298">Повторяйте предыдущие шаги, пока не будут добавлены все детализации для выбранной даты.</span><span class="sxs-lookup"><span data-stu-id="a1965-298">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="a1965-299">Для дополнительных дней можно выбрать **Скопировать на следующий день**, чтобы скопировать детализации в следующий день.</span><span class="sxs-lookup"><span data-stu-id="a1965-299">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="a1965-300">Либо можно выбрать дату для детализации, а затем добавить детализацию так же, как для первой даты.</span><span class="sxs-lookup"><span data-stu-id="a1965-300">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="a1965-301">По завершении детализации расходов нажмите кнопку **Назад**, чтобы вернуться к сведениям о расходе.</span><span class="sxs-lookup"><span data-stu-id="a1965-301">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. Нажмите кнопку **Назад**, чтобы вернуться на страницу **Отчет по расходам**.
-21. Повторяйте предыдущие шаги, пока не будут добавлены все расходы.
-22. Выберите **Отправить**.
-23. Введите комментарии для утверждающего лица.
-24. Выберите **Готово**.
+20. <span data-ttu-id="a1965-302">Нажмите кнопку **Назад**, чтобы вернуться на страницу **Отчет по расходам**.</span><span class="sxs-lookup"><span data-stu-id="a1965-302">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="a1965-303">Повторяйте предыдущие шаги, пока не будут добавлены все расходы.</span><span class="sxs-lookup"><span data-stu-id="a1965-303">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="a1965-304">Выберите **Отправить**.</span><span class="sxs-lookup"><span data-stu-id="a1965-304">Select **Submit**.</span></span>
+23. <span data-ttu-id="a1965-305">Введите комментарии для утверждающего лица.</span><span class="sxs-lookup"><span data-stu-id="a1965-305">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="a1965-306">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="a1965-306">Select **Done**.</span></span>
 

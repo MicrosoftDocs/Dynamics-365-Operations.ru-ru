@@ -18,38 +18,38 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: df97cad657164866b83fa0ca8f10091317f92a88
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 3f5ed28400f333776ce4a5de47ce52aed49094e3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="accounting-source-explorer"></a>Анализатор источника учета
+# <a name="accounting-source-explorer"></a><span data-ttu-id="b1418-103">Анализатор источника учета</span><span class="sxs-lookup"><span data-stu-id="b1418-103">Accounting source explorer</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Эта статья представляет информацию об Анализаторе источника учета, который можно использовать для подробного анализа сведений об источнике за учетными записями ГК.
+<span data-ttu-id="b1418-104">Эта статья представляет информацию об Анализаторе источника учета, который можно использовать для подробного анализа сведений об источнике за учетными записями ГК.</span><span class="sxs-lookup"><span data-stu-id="b1418-104">This article provides information about Accounting source explorer, which you can use for detailed analysis of the source information behind general ledger accounting entries.</span></span>
 
-Анализатор источника учета — это новая страница, на которой представлены сведения об источнике. Анализатор источника учета можно использовать как отдельное средство или для анализа сведений записей учета ГК. Например, анализатор источника учета можно использовать для получения самых подробных сведений об источнике для сальдо в пробном балансе или для проводки по ваучеру. Затем можно использовать функцию "Экспорт в MS Excel" для дальнейшего анализа сведений в Microsoft Excel (например, в сводной таблице или сводном отчете).
+<span data-ttu-id="b1418-105">Анализатор источника учета — это новая страница, на которой представлены сведения об источнике.</span><span class="sxs-lookup"><span data-stu-id="b1418-105">Accounting source explorer is a new page that shows source information.</span></span> <span data-ttu-id="b1418-106">Анализатор источника учета можно использовать как отдельное средство или для анализа сведений записей учета ГК.</span><span class="sxs-lookup"><span data-stu-id="b1418-106">You can use Accounting source explorer either as a stand-alone tool or to analyze the details behind general ledger accounting entries.</span></span> <span data-ttu-id="b1418-107">Например, анализатор источника учета можно использовать для получения самых подробных сведений об источнике для сальдо в пробном балансе или для проводки по ваучеру.</span><span class="sxs-lookup"><span data-stu-id="b1418-107">For example, you can use Accounting source explorer to get the most detailed source information for a balance in Trail balance or for a voucher transaction.</span></span> <span data-ttu-id="b1418-108">Затем можно использовать функцию "Экспорт в MS Excel" для дальнейшего анализа сведений в Microsoft Excel (например, в сводной таблице или сводном отчете).</span><span class="sxs-lookup"><span data-stu-id="b1418-108">You can then use the Export to MS Excel feature to further slice and dice the information in Microsoft Excel (for example, in a PivotTable or on a PivotTable report).</span></span>
 
-Анализатор источника учета всегда показывает ту же итоговую сумму на счет ГК, что и в ГК (например, в пробном балансе). Как и в пробном балансе, можно отобразить сегменты в отдельных столбцах. Достаточно выбрать соответствующий набора финансовых аналитик. 
+<span data-ttu-id="b1418-109">Анализатор источника учета всегда показывает ту же итоговую сумму на счет ГК, что и в ГК (например, в пробном балансе).</span><span class="sxs-lookup"><span data-stu-id="b1418-109">Accounting source explorer always shows the same total amount per ledger account as General ledger shows (for example, in Trial balance).</span></span> <span data-ttu-id="b1418-110">Как и в пробном балансе, можно отобразить сегменты в отдельных столбцах.</span><span class="sxs-lookup"><span data-stu-id="b1418-110">As in Trial balance, you can display segments in separate columns.</span></span> <span data-ttu-id="b1418-111">Достаточно выбрать соответствующий набора финансовых аналитик.</span><span class="sxs-lookup"><span data-stu-id="b1418-111">Just select the appropriate financial dimension set.</span></span> 
 
-Можно использовать параметры для определения интервала дат для анализа. Эта функциональность также напоминает функциональность в пробном балансе.
+<span data-ttu-id="b1418-112">Можно использовать параметры для определения интервала дат для анализа.</span><span class="sxs-lookup"><span data-stu-id="b1418-112">You can use parameters to define a date interval for the analysis.</span></span> <span data-ttu-id="b1418-113">Эта функциональность также напоминает функциональность в пробном балансе.</span><span class="sxs-lookup"><span data-stu-id="b1418-113">This functionality also resembles the functionality in Trial balance.</span></span>
 
-Для всех документов, которые используют платформу документа-источника, анализатор источника учета показывает дополнительные сведения на основании распределений по бухгалтерским счетам и, если это применимо, распределений по бухгалтерским счетам проекта. Эти сведения включают тип денежных сумм, проект, мероприятие, категорию и свойство строки. Вот несколько примеров анализа, который можно выполнить:
+<span data-ttu-id="b1418-114">Для всех документов, которые используют платформу документа-источника, анализатор источника учета показывает дополнительные сведения на основании распределений по бухгалтерским счетам и, если это применимо, распределений по бухгалтерским счетам проекта.</span><span class="sxs-lookup"><span data-stu-id="b1418-114">For all documents that use the source document framework, Accounting source explorer shows additional information, based on accounting distributions and, if applicable, project accounting distributions.</span></span> <span data-ttu-id="b1418-115">Эти сведения включают тип денежных сумм, проект, мероприятие, категорию и свойство строки.</span><span class="sxs-lookup"><span data-stu-id="b1418-115">This information includes the monetary amount type, project, activity, category, and line property.</span></span> <span data-ttu-id="b1418-116">Вот несколько примеров анализа, который можно выполнить:</span><span class="sxs-lookup"><span data-stu-id="b1418-116">Here are some examples of the analysis that you can do:</span></span>
 
--   Отклонения между заказами на покупку и накладными поставщика, поскольку каждое отклонение представлено типом денежной суммы, например отклонение по накладным расходам.
--   Оплачиваемые и неоплачиваемые часы и расходы по проекту, бизнес-единице и счету ГК.
+-   <span data-ttu-id="b1418-117">Отклонения между заказами на покупку и накладными поставщика, поскольку каждое отклонение представлено типом денежной суммы, например отклонение по накладным расходам.</span><span class="sxs-lookup"><span data-stu-id="b1418-117">Variances between purchase orders and vendor invoices, because each variance is represented by a monetary amount type, such as charge variance</span></span>
+-   <span data-ttu-id="b1418-118">Оплачиваемые и неоплачиваемые часы и расходы по проекту, бизнес-единице и счету ГК.</span><span class="sxs-lookup"><span data-stu-id="b1418-118">Billable versus non-billable hours and expenses per project, business unit, and main account</span></span>
 
-Для документов-источников, которые используют понятие удостоверений ссылок документа-источника, анализатор источника учета показывает еще больше сведений, таких как клиент, поставщик, работник, продукт, количество, текст единиц измерений и описания. Вот несколько примеров анализа, который можно выполнить:
+<span data-ttu-id="b1418-119">Для документов-источников, которые используют понятие удостоверений ссылок документа-источника, анализатор источника учета показывает еще больше сведений, таких как клиент, поставщик, работник, продукт, количество, текст единиц измерений и описания.</span><span class="sxs-lookup"><span data-stu-id="b1418-119">For source documents that use the source document reference identities concept, Accounting source explorer shows even more details, such as the customer, vendor, worker, product, quantity, unit text, and descriptions.</span></span> <span data-ttu-id="b1418-120">Вот несколько примеров анализа, который можно выполнить:</span><span class="sxs-lookup"><span data-stu-id="b1418-120">Here are some examples of the analysis that you can do:</span></span>
 
--   Гостиничные расходы на бизнес-единицу и бренд гостиницы за финансовый период на основании отчетов по расходам.
--   Скидки по поставщику, продукту и подразделению.
+-   <span data-ttu-id="b1418-121">Гостиничные расходы на бизнес-единицу и бренд гостиницы за финансовый период на основании отчетов по расходам.</span><span class="sxs-lookup"><span data-stu-id="b1418-121">Hotel expenses per business unit and hotel brand for a fiscal period, based on expense reports</span></span>
+-   <span data-ttu-id="b1418-122">Скидки по поставщику, продукту и подразделению.</span><span class="sxs-lookup"><span data-stu-id="b1418-122">Discounts per vendor, product, department</span></span>
 
-В случае этих документов также можно перейти к фактическому документу-источнику из анализатора источника учета.
+<span data-ttu-id="b1418-123">В случае этих документов также можно перейти к фактическому документу-источнику из анализатора источника учета.</span><span class="sxs-lookup"><span data-stu-id="b1418-123">For these documents, you can also navigate to the actual source document from Accounting source explorer.</span></span>
 
 
 

@@ -17,58 +17,58 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 61b795d52d4d2586db7f42a976790ee8608e179b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-automatic-freight-reconciliation"></a>Настройка автоматической выверки фрахта
+# <a name="set-up-automatic-freight-reconciliation"></a><span data-ttu-id="98626-103">Настройка автоматической выверки фрахта</span><span class="sxs-lookup"><span data-stu-id="98626-103">Set up automatic freight reconciliation</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура показывает порядок настройки данных для автоматической выверки фрахта. Это обычно выполняется менеджером склада. Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF.
+<span data-ttu-id="98626-104">Эта процедура показывает порядок настройки данных для автоматической выверки фрахта.</span><span class="sxs-lookup"><span data-stu-id="98626-104">This procedure shows how to set up data for automatic freight reconciliation.</span></span> <span data-ttu-id="98626-105">Это обычно выполняется менеджером склада.</span><span class="sxs-lookup"><span data-stu-id="98626-105">This is typically done by a warehouse manager.</span></span> <span data-ttu-id="98626-106">Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="98626-106">You can use this procedure in demo data company USMF.</span></span>
 
 
-## <a name="set-up-the-freight-bill-type"></a>Настройка типа векселя фрахта
-1. Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Выверка фрахта" > "Тип векселя фрахта".
-    * Тип счета за фрахт определяет, как счета за фрахт и накладные перевозчика должны совпадать.  
-2. Щелкните "Создать".
-3. В поле "Тип векселя фрахта" введите значение.
-4. В поле "Сборка механизма" введите "Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer".
-    * Это стандартная библиотека кода модуля сопоставления для управления транспортировкой.  
-5. В поле "Класс механизма" введите "Microsoft.Dynamics.Ax.Tms.dll".
-    * Это стандартный класс модуля сопоставления для управления транспортировкой.  
-6. Щелкните "Создать".
-7. В поле "Описание" выберите значение, которое должно соответствовать в счете за фрахт и накладной перевозчика.  
-8. В поле "Требуется сопоставление" выберите значение "Да".
-    * Если в этом поле задано значение "Да", это означает, что значение, выбранное в поле "Описание", должно совпадать как в счете за фрахт, так и в накладной перевозчика. Если задано значение "Нет", это поле может быть пустым в одном из этих документов.  
-9. Нажмите кнопку "Сохранить".
+## <a name="set-up-the-freight-bill-type"></a><span data-ttu-id="98626-107">Настройка типа векселя фрахта</span><span class="sxs-lookup"><span data-stu-id="98626-107">Set up the freight bill type</span></span>
+1. <span data-ttu-id="98626-108">Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Выверка фрахта" > "Тип векселя фрахта".</span><span class="sxs-lookup"><span data-stu-id="98626-108">Go to Transportation management > Setup > Freight reconciliation > Freight bill type.</span></span>
+    * <span data-ttu-id="98626-109">Тип счета за фрахт определяет, как счета за фрахт и накладные перевозчика должны совпадать.</span><span class="sxs-lookup"><span data-stu-id="98626-109">The freight bill type defines how freight bills and carrier invoices  should be matched.</span></span>  
+2. <span data-ttu-id="98626-110">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="98626-110">Click New.</span></span>
+3. <span data-ttu-id="98626-111">В поле "Тип векселя фрахта" введите значение.</span><span class="sxs-lookup"><span data-stu-id="98626-111">In the Freight bill type field, type a value.</span></span>
+4. <span data-ttu-id="98626-112">В поле "Сборка механизма" введите "Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer".</span><span class="sxs-lookup"><span data-stu-id="98626-112">In the Engine assembly field, type 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer'.</span></span>
+    * <span data-ttu-id="98626-113">Это стандартная библиотека кода модуля сопоставления для управления транспортировкой.</span><span class="sxs-lookup"><span data-stu-id="98626-113">This is the standard Transportation management matching engine code library.</span></span>  
+5. <span data-ttu-id="98626-114">В поле "Класс механизма" введите "Microsoft.Dynamics.Ax.Tms.dll".</span><span class="sxs-lookup"><span data-stu-id="98626-114">In the Engine class field, type 'Microsoft.Dynamics.Ax.Tms.dll'.</span></span>
+    * <span data-ttu-id="98626-115">Это стандартный класс модуля сопоставления для управления транспортировкой.</span><span class="sxs-lookup"><span data-stu-id="98626-115">This is the standard Transportation management matching engine class.</span></span>  
+6. <span data-ttu-id="98626-116">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="98626-116">Click New.</span></span>
+7. <span data-ttu-id="98626-117">В поле "Описание" выберите значение, которое должно соответствовать в счете за фрахт и накладной перевозчика.</span><span class="sxs-lookup"><span data-stu-id="98626-117">In the Description field, choose the value that should match on the freight bill and the carrier invoice.</span></span>  
+8. <span data-ttu-id="98626-118">В поле "Требуется сопоставление" выберите значение "Да".</span><span class="sxs-lookup"><span data-stu-id="98626-118">In the Match required field, select 'Yes'.</span></span>
+    * <span data-ttu-id="98626-119">Если в этом поле задано значение "Да", это означает, что значение, выбранное в поле "Описание", должно совпадать как в счете за фрахт, так и в накладной перевозчика.</span><span class="sxs-lookup"><span data-stu-id="98626-119">If you set this field to Yes this means that the value selected in the Description field needs to match on both the freight bill and the carrier invoice.</span></span> <span data-ttu-id="98626-120">Если задано значение "Нет", это поле может быть пустым в одном из этих документов.</span><span class="sxs-lookup"><span data-stu-id="98626-120">If you set it to No, the field can be blank on one of these.</span></span>  
+9. <span data-ttu-id="98626-121">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="98626-121">Click Save.</span></span>
 
-## <a name="set-up-the-freight-bill-type-assignment"></a>Настройка назначения типа векселя фрахта
-1. Закройте страницу.
-2. Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Выверка фрахта" > "Назначения типов векселей фрахта".
-    * Назначение типа счета за фрахт используется, чтобы определить, какой тип счета за фрахт используется для определенного перевозчика.   
-3. Щелкните "Создать".
-4. В поле "Режим" введите или выберите значение.
-5. В поле "Перевозчик, осуществляющий доставку" введите или выберите значение.
-6. В поле "Тип векселя фрахта" выберите тип счета за фрахт, созданный ранее.
-7. Закройте страницу.
+## <a name="set-up-the-freight-bill-type-assignment"></a><span data-ttu-id="98626-122">Настройка назначения типа векселя фрахта</span><span class="sxs-lookup"><span data-stu-id="98626-122">Set up the freight bill type assignment</span></span>
+1. <span data-ttu-id="98626-123">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="98626-123">Close the page.</span></span>
+2. <span data-ttu-id="98626-124">Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Выверка фрахта" > "Назначения типов векселей фрахта".</span><span class="sxs-lookup"><span data-stu-id="98626-124">Go to Transportation management > Setup > Freight reconciliation > Freight bill type assignments.</span></span>
+    * <span data-ttu-id="98626-125">Назначение типа счета за фрахт используется, чтобы определить, какой тип счета за фрахт используется для определенного перевозчика.</span><span class="sxs-lookup"><span data-stu-id="98626-125">The freight bill type assignment is used to specify which freight bill type is used for a particular carrier.</span></span>   
+3. <span data-ttu-id="98626-126">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="98626-126">Click New.</span></span>
+4. <span data-ttu-id="98626-127">В поле "Режим" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="98626-127">In the Mode field, enter or select a value.</span></span>
+5. <span data-ttu-id="98626-128">В поле "Перевозчик, осуществляющий доставку" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="98626-128">In the Shipping carrier field, enter or select a value.</span></span>
+6. <span data-ttu-id="98626-129">В поле "Тип векселя фрахта" выберите тип счета за фрахт, созданный ранее.</span><span class="sxs-lookup"><span data-stu-id="98626-129">In the Freight bill type field, select the freight bill type that you created earlier.</span></span>
+7. <span data-ttu-id="98626-130">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="98626-130">Close the page.</span></span>
 
-## <a name="set-up-the-audit-master"></a>Настройка мастера аудита
-1. Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Выверка фрахта" > "Шаблон аудита".
-    * Мастер аудита определяет лимиты отклонения для автоматической выверки фрахта. Он определяет, насколько денежные суммы в счете за фрахт и накладной перевозчика могут отличаться и при этом все еще допускать выполнение выверки. Он также определяет способ обработки несоответствий.  
-2. Щелкните "Создать".
-3. В поле "Код шаблона аудита" введите значение.
-4. В поле "Перевозчик, осуществляющий доставку" выберите того же перевозчика, что и ранее.
-5. В поле "Тип векселя фрахта" выберите тип счета за фрахт, созданный ранее.
-6. Разверните раздел "Допуск".
-7. В поле "Минимальный уровень отклонения" введите число.
-8. В поле "Максимальный уровень отклонения" введите число.
-9. Разверните раздел "Результат".
-10. В поле "Код основания переплаты" введите или выберите значение.
-    * Если денежные суммы отличаются в счете за фрахт и в накладной перевозчика, то коды причин переплаты и недоплаты определяют счета, на которых должна быть зарегистрирована разница, если эта разница находится в допустимых пределах.  
-11. В поле "Код основания недоплаты" введите или выберите значение.
-12. Закройте страницу.
+## <a name="set-up-the-audit-master"></a><span data-ttu-id="98626-131">Настройка мастера аудита</span><span class="sxs-lookup"><span data-stu-id="98626-131">Set up the audit master</span></span>
+1. <span data-ttu-id="98626-132">Перейдите в раздел "Управление транспортировкой" > "Настройка" > "Выверка фрахта" > "Шаблон аудита".</span><span class="sxs-lookup"><span data-stu-id="98626-132">Go to Transportation management > Setup > Freight reconciliation > Audit master.</span></span>
+    * <span data-ttu-id="98626-133">Мастер аудита определяет лимиты отклонения для автоматической выверки фрахта.</span><span class="sxs-lookup"><span data-stu-id="98626-133">The audit master defines the tolerance limits for automatic freight reconciliation.</span></span> <span data-ttu-id="98626-134">Он определяет, насколько денежные суммы в счете за фрахт и накладной перевозчика могут отличаться и при этом все еще допускать выполнение выверки.</span><span class="sxs-lookup"><span data-stu-id="98626-134">It specifies by how much the monetary amounts on the freight bill and the carrier invoice can differ and still allow reconciliation to occur.</span></span> <span data-ttu-id="98626-135">Он также определяет способ обработки несоответствий.</span><span class="sxs-lookup"><span data-stu-id="98626-135">It also defines how to handle discrepancies.</span></span>  
+2. <span data-ttu-id="98626-136">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="98626-136">Click New.</span></span>
+3. <span data-ttu-id="98626-137">В поле "Код шаблона аудита" введите значение.</span><span class="sxs-lookup"><span data-stu-id="98626-137">In the Audit master ID field, type a value.</span></span>
+4. <span data-ttu-id="98626-138">В поле "Перевозчик, осуществляющий доставку" выберите того же перевозчика, что и ранее.</span><span class="sxs-lookup"><span data-stu-id="98626-138">In the Shipping carrier  field, select the same shipping carrier as you did earlier.</span></span>
+5. <span data-ttu-id="98626-139">В поле "Тип векселя фрахта" выберите тип счета за фрахт, созданный ранее.</span><span class="sxs-lookup"><span data-stu-id="98626-139">In the Freight bill type field, select the freight bill type that you created earlier.</span></span>
+6. <span data-ttu-id="98626-140">Разверните раздел "Допуск".</span><span class="sxs-lookup"><span data-stu-id="98626-140">Expand the Tolerance section.</span></span>
+7. <span data-ttu-id="98626-141">В поле "Минимальный уровень отклонения" введите число.</span><span class="sxs-lookup"><span data-stu-id="98626-141">In the Minimum tolerance level field, enter a number.</span></span>
+8. <span data-ttu-id="98626-142">В поле "Максимальный уровень отклонения" введите число.</span><span class="sxs-lookup"><span data-stu-id="98626-142">In the Maximum tolerance level field, enter a number.</span></span>
+9. <span data-ttu-id="98626-143">Разверните раздел "Результат".</span><span class="sxs-lookup"><span data-stu-id="98626-143">Expand the Result section.</span></span>
+10. <span data-ttu-id="98626-144">В поле "Код основания переплаты" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="98626-144">In the Overpayment reason code field, enter or select a value.</span></span>
+    * <span data-ttu-id="98626-145">Если денежные суммы отличаются в счете за фрахт и в накладной перевозчика, то коды причин переплаты и недоплаты определяют счета, на которых должна быть зарегистрирована разница, если эта разница находится в допустимых пределах.</span><span class="sxs-lookup"><span data-stu-id="98626-145">If the monetary amounts differ on the freight bill and the carrier invoice, the overpayment and underpayment reason codes specify the accounts that the difference should be registered on, as long as the difference is within the tolerance levels.</span></span>  
+11. <span data-ttu-id="98626-146">В поле "Код основания недоплаты" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="98626-146">In the Underpayment reason code field, enter or select a value.</span></span>
+12. <span data-ttu-id="98626-147">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="98626-147">Close the page.</span></span>
 
 

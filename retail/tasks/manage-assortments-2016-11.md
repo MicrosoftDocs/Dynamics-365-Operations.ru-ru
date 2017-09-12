@@ -17,40 +17,40 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 19acb9a93a5f58303b6d90d207dfb72bdaafa6d2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1b50b06879fa50db7d7dc652a15e1284d7b74d17
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-assortments"></a>Управление ассортиментами 
+# <a name="manage-assortments"></a><span data-ttu-id="604af-103">Управление ассортиментами</span><span class="sxs-lookup"><span data-stu-id="604af-103">Manage assortments</span></span> 
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-В этой процедуре показано, как создать и опубликовать новый ассортимент продуктов с использованием демонстрационных данных компании USRT. Для выполнения этой процедуры требуется Dynamics AX 7.0.1 или более поздняя версия и платформа Dynamics AX 7.1.  
+<span data-ttu-id="604af-104">В этой процедуре показано, как создать и опубликовать новый ассортимент продуктов с использованием демонстрационных данных компании USRT.</span><span class="sxs-lookup"><span data-stu-id="604af-104">This procedure demonstrates how to create and publish a new product assortment and uses the demo data company USRT.</span></span> <span data-ttu-id="604af-105">Для выполнения этой процедуры требуется Dynamics AX 7.0.1 или более поздняя версия и платформа Dynamics AX 7.1.</span><span class="sxs-lookup"><span data-stu-id="604af-105">This procedure requires Dynamics AX application 7.0.1 or later, and Dynamics AX platform 7.1.</span></span>  
 
-1. Щелкните "Управление категориями и продуктами".
+1. <span data-ttu-id="604af-106">Щелкните "Управление категориями и продуктами".</span><span class="sxs-lookup"><span data-stu-id="604af-106">Click Category and product management.</span></span>
 
-## <a name="create-an-assortment"></a>Создание ассортимента
-1. Перейдите на вкладку "Ассортименты".
-2. Щелкните "Создать".
-3. Щелкните "Ассортимент".
-    * Код ассортимента является обязательным и должен быть уникальным значением.  
-4. В поле "Наименование ассортимента" введите значение.
-5. В поле "Действует с" введите дату.
-6. В поле "Дата окончания срока действия" введите дату.
-7. Разверните раздел "Каналы розничной торговли".
-8. Щелкните "Добавить строку".
-9. В дереве выберите "Contoso Retail\Electronics\Boston".
-10. Нажмите кнопку Добавить.
-11. Нажмите кнопку "OК".
-12. Разверните раздел "Продукты".
-13. Щелкните "Добавить строку".
-14. В поле "Категория" введите или выберите значение.
-15. Нажмите кнопку "Сохранить".
+## <a name="create-an-assortment"></a><span data-ttu-id="604af-107">Создание ассортимента</span><span class="sxs-lookup"><span data-stu-id="604af-107">Create an assortment</span></span>
+1. <span data-ttu-id="604af-108">Перейдите на вкладку "Ассортименты".</span><span class="sxs-lookup"><span data-stu-id="604af-108">Click the Assortments tab.</span></span>
+2. <span data-ttu-id="604af-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="604af-109">Click New.</span></span>
+3. <span data-ttu-id="604af-110">Щелкните "Ассортимент".</span><span class="sxs-lookup"><span data-stu-id="604af-110">Click Assortment.</span></span>
+    * <span data-ttu-id="604af-111">Код ассортимента является обязательным и должен быть уникальным значением.</span><span class="sxs-lookup"><span data-stu-id="604af-111">The Assortment ID is required and must be a unique value.</span></span>  
+4. <span data-ttu-id="604af-112">В поле "Наименование ассортимента" введите значение.</span><span class="sxs-lookup"><span data-stu-id="604af-112">In the Assortment name field, type a value.</span></span>
+5. <span data-ttu-id="604af-113">В поле "Действует с" введите дату.</span><span class="sxs-lookup"><span data-stu-id="604af-113">In the Effective date field, enter a date.</span></span>
+6. <span data-ttu-id="604af-114">В поле "Дата окончания срока действия" введите дату.</span><span class="sxs-lookup"><span data-stu-id="604af-114">In the Expiration date field, enter a date.</span></span>
+7. <span data-ttu-id="604af-115">Разверните раздел "Каналы розничной торговли".</span><span class="sxs-lookup"><span data-stu-id="604af-115">Expand the Retail channels section.</span></span>
+8. <span data-ttu-id="604af-116">Щелкните "Добавить строку".</span><span class="sxs-lookup"><span data-stu-id="604af-116">Click Add line.</span></span>
+9. <span data-ttu-id="604af-117">В дереве выберите "Contoso Retail\Electronics\Boston".</span><span class="sxs-lookup"><span data-stu-id="604af-117">In the tree, select 'Contoso Retail\Electronics\Boston'.</span></span>
+10. <span data-ttu-id="604af-118">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="604af-118">Click Add.</span></span>
+11. <span data-ttu-id="604af-119">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="604af-119">Click OK.</span></span>
+12. <span data-ttu-id="604af-120">Разверните раздел "Продукты".</span><span class="sxs-lookup"><span data-stu-id="604af-120">Expand the Products section.</span></span>
+13. <span data-ttu-id="604af-121">Щелкните "Добавить строку".</span><span class="sxs-lookup"><span data-stu-id="604af-121">Click Add line.</span></span>
+14. <span data-ttu-id="604af-122">В поле "Категория" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="604af-122">In the Category field, enter or select a value.</span></span>
+15. <span data-ttu-id="604af-123">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="604af-123">Click Save.</span></span>
 
-## <a name="publish-an-assortment"></a>Публикация ассортимента
-1. Щелкните "Опубликовать".
-2. Щелкните Да.
+## <a name="publish-an-assortment"></a><span data-ttu-id="604af-124">Публикация ассортимента</span><span class="sxs-lookup"><span data-stu-id="604af-124">Publish an assortment</span></span>
+1. <span data-ttu-id="604af-125">Щелкните "Опубликовать".</span><span class="sxs-lookup"><span data-stu-id="604af-125">Click Publish.</span></span>
+2. <span data-ttu-id="604af-126">Щелкните Да.</span><span class="sxs-lookup"><span data-stu-id="604af-126">Click Yes.</span></span>
 
 
