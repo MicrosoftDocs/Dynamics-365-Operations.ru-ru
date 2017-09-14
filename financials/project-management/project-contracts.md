@@ -1,9 +1,9 @@
 ---
 title: "Контракты по проектам"
 description: "В этой статье приводится описание и примеры контрактов по проекту, которые можно создавать для различных типов проектов и источников финансирования, а также для управления контрактами и клиентами счета по проекту в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
-author: twheeloc
+author: KimANelson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,8 +15,8 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
-ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: knelson
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
