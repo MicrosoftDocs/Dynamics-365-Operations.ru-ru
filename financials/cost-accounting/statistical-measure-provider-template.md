@@ -1,7 +1,7 @@
 ---
 title: "Элементы статистической аналитики и шаблоны поставщика статистической меры"
 description: "В этой теме содержится информация об элементы статистической аналитики и шаблонах поставщиков статистической меры. Элементы статистической аналитики могут использоваться в качестве базы распределения в таких политиках, как распределение затрат и распределение стоимости. Их также можно использовать для включения в отчетность потребления немонетарных ресурсов."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
