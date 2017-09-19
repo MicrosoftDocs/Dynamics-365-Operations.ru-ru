@@ -1,7 +1,7 @@
 ---
 title: "Рабочая область управления затратами"
 description: "В этой теме содержится информация о рабочей области \"Управление затратами\". Эта рабочая область является центральной точкой, где менеджеры, ответственные за управление объектом затрат или группой объектов затрат в пределах аналитики, могут получить доступ к отчетам."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -20,10 +20,10 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: caf2d44a401d972806bf7537abaed8fe62fa1731
+ms.sourcegitcommit: 9e13fc9fa7e51a1299ca8698f581de979b680a7b
+ms.openlocfilehash: 38220b84072f33dcd07a3ebfe6f8a24b732edd64
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/18/2017
 
 ---
 
