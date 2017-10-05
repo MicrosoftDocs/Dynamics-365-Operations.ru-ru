@@ -1,2 +1,2 @@
 > [!NOTE]
-> <span data-ttu-id="7d908-101">Мы не будем принимать правки к этой теме, поскольку она создана на основе бизнес-процесса в Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="7d908-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>
+> <span data-ttu-id="89d45-101">Мы не будем принимать правки к этой теме, поскольку она создана на основе бизнес-процесса в Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="89d45-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>
