@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
-ms.openlocfilehash: 25cba59dfbab2e1030660840e85d278452e39e52
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: fd01d40d3e74503e3e310132882306ed8c23ad1d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,7 +72,7 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 
 Чтобы найти проводники по задачам, откройте нужную страницу в Microsoft Dynamics 365 for Finance and Operations и нажмите "Справка". Использующие страницу проводники по задачам перечислены в области справки. В области справки также можно искать проводники по задачам по их названиям.
 
-Дополнительные сведения см. в разделе [Проводники по задачам](/dynamics365/unified-operations/dev-itpro/get-started/help-overview#task-guides).
+Дополнительные сведения см. в разделе [Проводники по задачам](../../fin-and-ops/get-started/help-overview.md#task-guides).
 
 
 ## <a name="countryregion-specific-help-topics"></a>Разделы справки, относящиеся к конкретным странам и регионам
@@ -80,264 +80,264 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 
 ### <a name="australia"></a>Австралия
 
--   [Форматы банковских файлов](/dynamics365/unified-operations/financials/localizations/apac-aus-method-of-payment-pay-vendors-banks)
--   [Отчет по видам деятельности](/dynamics365/unified-operations/financials/localizations/apac-aus-business-activity-statement)
--   [Амортизация кластера низкой стоимости](/dynamics365/unified-operations/financials/localizations/apac-aus-low-value-pool-depreciation)
+-   [Форматы банковских файлов](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
+-   [Отчет по видам деятельности](../../financials/localizations/apac-aus-business-activity-statement.md)
+-   [Амортизация кластера низкой стоимости](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
 
 ### <a name="austria"></a>Австрия
 
-- [Полугодовая амортизация](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
-- [Сборы за упаковочные материалы](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
-- [Пошлины по покупке](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties)
-- [Отчет по НДС](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
+- [Полугодовая амортизация](../../financials/localizations/emea-aut-half-year-depreciation.md)
+- [Сборы за упаковочные материалы](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
+- [Пошлины по покупке](../../financials/localizations/emea-aut-purchase-duties.md)
+- [Отчет по НДС](../../financials/localizations/emea-aut-vat-statement-details.md)
 
 ### <a name="belgium"></a>Бельгия
 
--   [Банковская выписка CODA](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import)
--   [Налоговая декларация Intervat](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
--   [Настройка отчетов PRODCOM](/dynamics365/unified-operations/financials/localizations/emea-bel-prodcom-report)
--   [Отчеты по выверке](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports)
+-   [Банковская выписка CODA](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
+-   [Налоговая декларация Intervat](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
+-   [Настройка отчетов PRODCOM](../../financials/localizations/emea-bel-prodcom-report.md)
+-   [Отчеты по выверке](../../financials/localizations/emea-bel-reconciliation-reports.md)
 
 ### <a name="brazil"></a>Бразилия
 
--   [Основные средства CIAP](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset)
--   [Настройка финансовых книг](/dynamics365/unified-operations/financials/localizations/latam-bra-configure-fiscal-books)
--   [Экспорт и импорт проводок из консолидации главной книги для Бразилии](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions)
--   [Финансовые журналы](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-books)
--   [Текстовые заполнители финансовых документов](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders)
--   [Финансовые документы](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework)
--   [Финансовые документы налога ICMS](/dynamics365/unified-operations/financials/localizations/latam-bra-icms-tax-fiscal-documents)
--   [Импорт и проверка XML-документов NF-e и DANFE-файлов](/dynamics365/unified-operations/financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails)
--   [Импорт финансовых документов](/dynamics365/unified-operations/financials/localizations/latam-bra-import-fiscal-documents)
--   [Журналы, созданные во время процесса возврата электронных платежей](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process)
--   [Процесс NF-e](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process)
--   [Параметры для юридических лиц](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters)
--   [Обработка предъявлений к оплате электронных платежей для Бразилии](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances)
--   [Дополнительные финансовые документы покупки](/dynamics365/unified-operations/financials/localizations/latam-bra-purchase-complementary-fiscal-documents)
--   [Финансовые документы, на которые имеются ссылки](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents)
--   [Дополнительные финансовые документы продажи](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents)
--   [Обслуживание электронного финансового документа](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document)
--   [Настройка, импорт и проверка XML-документов NF-e и DANFE](/dynamics365/unified-operations/financials/localizations/latam-bra-set-up-import-nfe)
--   [Атрибуты налогов](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-attributes)
--   [Налоговые платежи](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-payments)
--   [Налоги](/dynamics365/unified-operations/financials/localizations/latam-bra-calculate-taxes)
+-   [Основные средства CIAP](../../financials/localizations/latam-bra-ciap-fixed-asset.md)
+-   [Настройка финансовых книг](../../financials/localizations/latam-bra-configure-fiscal-books.md)
+-   [Экспорт и импорт проводок из консолидации главной книги для Бразилии](../../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md)
+-   [Финансовые журналы](../../financials/localizations/latam-bra-fiscal-books.md)
+-   [Текстовые заполнители финансовых документов](../../financials/localizations/latam-bra-fiscal-document-text-placeholders.md)
+-   [Финансовые документы](../../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md)
+-   [Финансовые документы налога ICMS](../../financials/localizations/latam-bra-icms-tax-fiscal-documents.md)
+-   [Импорт и проверка XML-документов NF-e и DANFE-файлов](../../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+-   [Импорт финансовых документов](../../financials/localizations/latam-bra-import-fiscal-documents.md)
+-   [Журналы, созданные во время процесса возврата электронных платежей](../../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md)
+-   [Процесс NF-e](../../financials/localizations/latam-bra-nf-e-process.md)
+-   [Параметры для юридических лиц](../../financials/localizations/latam-bra-legal-entity-parameters.md)
+-   [Обработка предъявлений к оплате электронных платежей для Бразилии](../../financials/localizations/latam-bra-process-electronic-payment-remittances.md)
+-   [Дополнительные финансовые документы покупки](../../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md)
+-   [Финансовые документы, на которые имеются ссылки](../../financials/localizations/latam-bra-referenced-fiscal-documents.md)
+-   [Дополнительные финансовые документы продажи](../../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md)
+-   [Обслуживание электронного финансового документа](../../financials/localizations/latam-bra-service-electronic-fiscal-document.md)
+-   [Настройка, импорт и проверка XML-документов NF-e и DANFE](../../financials/localizations/latam-bra-set-up-import-nfe.md)
+-   [Атрибуты налогов](../../financials/localizations/latam-bra-tax-attributes.md)
+-   [Налоговые платежи](../../financials/localizations/latam-bra-tax-payments.md)
+-   [Налоги](../../financials/localizations/latam-bra-calculate-taxes.md)
 
 ### <a name="china"></a>Китай
--   [Сравнение спецификаций](/dynamics365/unified-operations/financials/localizations/apac-chn-bom-comparison)
--   [Ваучеры для Китая](/dynamics365/unified-operations/financials/localizations/apac-chn-vouchers)
--   [Настройка налоговой интеграции](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration)
-    -   [Часто задаваемые вопросы по накладным клиента НДС](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices)
-    -   [Основные средства методов амортизации ](/dynamics365/unified-operations/financials/localizations/apac-chn-depreciation-methods-fixed-assets)
--   [Импорт информационного объекта золотого налога Китая](/dynamics365/unified-operations/financials/localizations/apac-chn-import-golden-tax-data-entity)
--   [Модель ежемесячной средней стоимости](/dynamics365/unified-operations/financials/localizations/apac-chn-monthly-average-cost-model)
--   [Разноска счетов ГК запасов по сайту](/dynamics365/unified-operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site)
--   [Отображение сумм дебета и кредита для счетов ГК](/dynamics365/unified-operations/financials/localizations/apac-chn-negative-debits-credits)
+-   [Сравнение спецификаций](../../financials/localizations/apac-chn-bom-comparison.md)
+-   [Ваучеры для Китая](../../financials/localizations/apac-chn-vouchers.md)
+-   [Настройка налоговой интеграции](../../financials/localizations/apac-chn-tax-integration.md)
+    -   [Вопросы и ответы по накладным клиента НДС](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+    -   [Методы амортизации основных средств](../../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md)
+-   [Импорт информационного объекта золотого налога Китая](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
+-   [Модель ежемесячной средней стоимости](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
+-   [Разноска счетов ГК запасов по сайту](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
+-   [Отображение сумм дебета и кредита для счетов ГК](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
 ### <a name="the-czech-republic"></a>Чешская Республика
 
--   [Скидка при оплате по кредит-ноте](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount)
--   [Округление амортизации](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-rounding)
--   [Полугодовая амортизация по выбытию ОС для Чешской Республики](/dynamics365/unified-operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
--   [Приостановка амортизации (праздники)](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
--   [Методы амортизации ОС для Чешской Республики](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation)
--   [Разноска предварительного приобретения ОС](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
--   [Отчет по НДС для Чешской Республики](/dynamics365/unified-operations/financials/localizations/emea-cze-vat-statement-details)
--   [Налоговая отчетность ](/dynamics365/unified-operations/financials/localizations/emea-cze-intra-community-vat-transactions)
--   [Разделение по периодам в периодических журналах](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
--   [Настройка лиц с правом подписи для печатных форм](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
--   [Обновление способа отображения сумм в отчетах и документах](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms)
+-   [Скидка при оплате по кредит-ноте](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
+-   [Округление амортизации](../../financials/localizations/emea-cze-depreciation-rounding.md)
+-   [Полугодовая амортизация по выбытию ОС для Чешской Республики](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
+-   [Приостановка амортизации (holidays.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
+-   [Методы амортизации ОС для Чешской Республики](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
+-   [Разноска предварительного приобретения ОС](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
+-   [Отчет по НДС для Чешской Республики](../../financials/localizations/emea-cze-vat-statement-details.md)
+-   [Налоговая отчетность ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
+-   [Разделение по периодам в периодических журналах](../../financials/localizations/emea-create-post-periodic-journals.md)
+-   [Настройка подписывающих лиц для печатных форм](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
+-   [Обновление способа отображения сумм в отчетах и документах](../../financials/localizations/emea-amount-printing-forms.md)
 
 ### <a name="estonia"></a>Эстония
 
--   [Сведения об отчете по НДС для Эстонии](/dynamics365/unified-operations/financials/localizations/emea-est-vat-statement-details)
--   [Выбытие ОС](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+-   [Сведения об отчете по НДС для Эстонии](../../financials/localizations/emea-est-vat-statement-details.md)
+-   [Выбытие ОС](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
 ### <a name="europe"></a>Европа
-- [Подотчетные лица](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
-- [Проводки по подотчетным лицам](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions)
-- [Выставление накладных на предоплату](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice)
-- [Банковская выверка](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation)
-- [Выставление корректирующих накладных](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice)
-- [Создание и разноска периодических журналов](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
-- [Изменение идентификаторов накладных в заказах на продажу](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
-- [Сертификаты подтверждения доставки ЕС](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
-- [Отчетность ЕС по НДС](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
-- [Корректировка курсовой разницы](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
-- [Форматы файлов для способов оплаты](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
-- [Выбытие ОС для Эстонии и Литвы](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
-- [Импорт файлов ISO20022](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats)
-- [Интрастат](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
-- [Отчеты по журналам запасов](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
-- [Нумерация накладных и отборочных накладных для Латвии и Литвы](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
-- [Крайние сроки выпуска накладных](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
-- [Стандарты OIOUBL](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
-- [Отчет по платежной квитанции](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
-- [Мелкие наличные деньги](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
-- [Разноска предварительного приобретения ОС](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
-- [Почтовые индексы](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
-- [Коды регистрации](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
-- [Возмещение](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge)
-- [Обзор кредитных переводов SEPA](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
-- [Обзор безакцептного списания SEPA](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
-- [Настройка компенсации клиентам и поставщикам](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
-- [Настройка лиц с правом подписи для печатных форм](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
-- [Учет с использованием сторно](/dynamics365/unified-operations/financials/localizations/emea-storno)
-- [Налоговые директивы](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
-- [Обновление способа отображения сумм в отчетах и документах](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
-- [Валютные курсы НДС](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
-- [Проводки в регистре НДС для Восточной Европы](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions)
-- [Отчетность по НДС](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
-- [Просмотр проводок по сопоставлению](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
+- [Подотчетные лица](../../financials/localizations/emea-advance-holders.md)
+- [Проводки по подотчетным лицам](../../financials/localizations/emea-advance-holders-transactions.md)
+- [Выставление накладных подотчетным лицам](../../financials/localizations/emea-advance-invoice.md)
+- [Банковская выверка](../../financials/localizations/emea-bank-reconciliation.md)
+- [Выставление корректирующих накладных](../../financials/localizations/emea-corrective-invoice.md)
+- [Создание и разноска периодических журналов](../../financials/localizations/emea-create-post-periodic-journals.md)
+- [Редактирование идентификаторов накладных в заказах на продажу](../../financials/localizations/emea-edit-invoice-id-sales-orders.md)
+- [Сертификаты записей ЕС](../../financials/localizations/emea-entry-certificates.md)
+- [Отчетность ЕС по НДС](../../financials/localizations/emea-eu-sales-list.md)
+- [Корректировка курсовой разницы](../../financials/localizations/emea-exchange-rate-adjustments.md)
+- [Форматы файлов для способов оплаты](../../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
+- [Выбытие основных средств для Эстонии и Литвы](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+- [Импорт файлов ISO20022](../../financials/localizations/emea-ISO20022-file-formats.md)
+- [Интрастат](../../financials/localizations/emea-intrastat.md)
+- [Отчеты по журналам запасов](../../financials/localizations/emea-set-up-report-inventory-journal-names.md)
+- [Нумерация накладных и отборочных накладных для Латвии и Литвы](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
+- [Крайние сроки выпуска накладных](../../financials/localizations/emea-invoice-issue-deadline.md)
+- [Стандарты OIOUBL](../../financials/localizations/emea-oioubl-standards-electronic-invoicing.md)
+- [Отчет по платежной квитанции](../../financials/localizations/emea-eur-payment-slip-report-giro.md)
+- [Мелкие наличные деньги](../../financials/localizations/emea-petty-cash.md)
+- [Разноска предварительного приобретения ОС](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
+- [Почтовые индексы](../../financials/localizations/emea-import-create-postal-codes-manually.md)
+- [Коды регистрации](../../financials/localizations/emea-registration-ids.md)
+- [Возмещение](../../financials/localizations/emea-reverse-charge.md)
+- [Обзор кредитных переводов SEPA](../../financials/accounts-payable/sepa-credit-transfer.md)
+- [Обзор прямого дебетования SEPA](../../financials/accounts-receivable/sepa-direct-debit-overview.md)
+- [Настройка компенсации клиентам и поставщикам](../../financials/localizations/emea-compensation-customer-vendor-transactions.md)
+- [Настройка подписывающих лиц для печатных форм](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
+- [Учет с использованием сторно](../../financials/localizations/emea-storno.md)
+- [Налоговые директивы](../../financials/localizations/emea-tax-directives.md)
+- [Обновление способа отображения сумм в отчетах и документах](../../financials/localizations/emea-amount-printing-forms.md) 
+- [Валютные курсы НДС](../../financials/localizations/emea-vat-exchange-rate.md)
+- [Проводки в регистре НДС для Восточной Европы](../../financials/localizations/emea-vat-register-transactions.md)
+- [Отчетность по НДС](../../financials/localizations/emea-vat-reporting.md)
+- [Просмотр проводок по сопоставлению](../../financials/localizations/emea-transactions-settlement-form.md)
 
 ### <a name="france"></a>Франция
--   [Накладные и коды ваучеров в хронологическом порядке](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
--   [Амортизационная разница для Франции](/dynamics365/unified-operations/financials/localizations/emea-fra-derogatory-depreciation)
--   [Коды NAF и Siret](/dynamics365/unified-operations/financials/localizations/emea-fra-naf-codes-siret-numbers)
--   [Штрафы за просроченные платежи клиента во Франции](/dynamics365/unified-operations/financials/localizations/emea-fra-apply-penalty-customer-payment-past-due)
--   [Печать текста восстановления общей суммы в накладной клиента](/dynamics365/unified-operations/financials/localizations/emea-fra-print-lump-sum-recovery-text)
--   [Амортизация RB/SL](/dynamics365/unified-operations/financials/localizations/emea-fra-rbsl-depreciation)
+-   [Накладные и коды ваучеров в хронологическом порядке](../../financials/localizations/emea-fra-chronological-invoices-vouchers.md)
+-   [Амортизационная разница для Франции](../../financials/localizations/emea-fra-derogatory-depreciation.md)
+-   [Коды NAF и Siret](../../financials/localizations/emea-fra-naf-codes-siret-numbers.md)
+-   [Штрафы за просроченные платежи клиента во Франции](../../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md)
+-   [Печать текста восстановления общей суммы в накладной клиента](../../financials/localizations/emea-fra-print-lump-sum-recovery-text.md)
+-   [Амортизация RB/SL](../../financials/localizations/emea-fra-rbsl-depreciation.md)
 
 #### <a name="public-sector"></a>Государственный сектор
-   -   [Обязательства в государственном секторе](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector)
-   -   [Mandats de paiement в государственном секторе](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement)
-   -   [Закупки и источники](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
-   -   [Учет в государственном секторе](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting)
-   -   [Titres de recette](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
-   -   [Блокировка платежей по накладным поставщиков](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
+   -   [Обязательства в государственном секторе](../../financials/localizations/emea-fra-commitments-public-sector.md)
+   -   [Mandats de paiement в государственном секторе](../../financials/localizations/emea-fra-mandats-de-paiement.md)
+   -   [Закупки и источники](../../financials/localizations/emea-fra-procurement-sourcing-public-sector.md)
+   -   [Учет в государственном секторе](../../financials/localizations/emea-fra-public-sector-accounting.md)
+   -   [Titres de recette](../../financials/localizations/emea-fra-titres-de-recette-public-sector.md)
+   -   [Удержание платежей по накладным поставщика](../../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md)
 
 ### <a name="germany"></a>Германия
--   [Амортизация дополнительного приобретения](/dynamics365/unified-operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
--   [Немецкий файл аудита (GDPdU/GoBD)](/dynamics365/unified-operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
--   [Отчет о списке журналов (Германия)](/dynamics365/unified-operations/financials/localizations/emea-deu-journal-list-report)
--   [Печать отдельной этикетки для кредитовых авизо, возникающих в результате продаж](/dynamics365/unified-operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
+-   [Амортизация дополнительного приобретения](../../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
+-   [Немецкий файл аудита (GDPdU/GoBD)](../../financials/localizations/emea-deu-gdpdu-audit-data-export.md)
+-   [Отчет о списке журналов (Германия)](../../financials/localizations/emea-deu-journal-list-report.md)
+-   [Печать отдельной этикетки для кредитовых авизо, возникающих в результате продаж](../../financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md)
 
 ### <a name="hungary"></a>Венгрия
 
--   [Методы амортизации основных средств](/dynamics365/unified-operations/financials/localizations/emea-hun-fixed-assets-depreciation-methods) 
--   [Перемещение основного средства на склад](/dynamics365/unified-operations/financials/localizations/emea-hun-fixed-asset-to-inventory)
--   [Малоценные ОС](/dynamics365/unified-operations/financials/localizations/emea-hun-low-cost-fixed-assets)
+-   [Методы амортизации основных средств](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
+-   [Перемещение основного средства на склад](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+-   [Малоценные ОС](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
 
 ### <a name="italy"></a>Италия
 
--   [Отчет по итальянскому черному списку](/dynamics365/unified-operations/financials/localizations/emea-ita-black-list-report)
--   [Сведения об отчете по НДС](/dynamics365/unified-operations/financials/localizations/emea-ita-vat-statements-details)
--   [Дата обеспечения для проводок](/dynamics365/unified-operations/financials/localizations/emea-ita-competence-date)
--   [Ручная амортизация основных средств](/dynamics365/unified-operations/financials/localizations/emea-ita-depreciation-of-fixed-assets)
--   [Проверка даты отборочной накладной в накладных для Италии](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
--   [Итальянские книги учета налогов](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books)
--   [Разбиение платежа для накладных, выписанных государственным административным органам](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
--   [Подоходный налог](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax)
+-   [Отчет по итальянскому черному списку](../../financials/localizations/emea-ita-black-list-report.md)
+-   [Сведения об отчетах по НДС](../../financials/localizations/emea-ita-vat-statements-details.md)
+-   [Дата обеспечения для проводок](../../financials/localizations/emea-ita-competence-date.md)
+-   [Ручная амортизация основных средств](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+-   [Проверка даты отборочной накладной в накладных для Италии](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
+-   [Итальянские книги учета налогов](../../financials/localizations/emea-ita-fiscal-books.md)
+-   [Разбиение платежа для накладных, выписанных государственным административным органам](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
+-   [Подоходный налог](../../financials/localizations/emea-ita-withholding-tax.md)
 
 ### <a name="japan"></a>Япония
 
--  [Сборы по банковским платежам, покрываемые поставщиками](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
--  [Консолидированные накладные](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
--  [Правила распределения для ОС](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
--  [Метод амортизации с делением поровну](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
--  [Амортизация ОС](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
--  [Управление снижением стоимости ОС в единицах, генерирующих денежные средства](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
--  [Импорт почтовых индексов](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes)
--  [Настройка обязательства по выбытию активов для ОС](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
--  [Настройка записей сокращения для ОС](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
--  [Оплата поставщику путем индоссирования переводного векселя](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
--  [Прогрессивный расчет подоходного налога](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
+-  [Сборы по банковским платежам, покрываемые поставщиками](../../financials/localizations/apac-jpn-bank-payment-fees-vendors.md)
+-  [Консолидированные накладные](../../financials/localizations/apac-jpn-consolidate-invoices.md)
+-  [Правила распределения для ОС](../../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md)
+-  [Метод амортизации с делением поровну](../../financials/localizations/apac-jpn-equally-divided-depreciation-method.md)
+-  [Амортизация ОС](../../financials/localizations/apac-jpn-fixed-asset-depreciation.md)
+-  [Управление снижением стоимости ОС в единицах, генерирующих денежные средства](../../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md)
+-  [Импорт почтовых индексов](../../financials/localizations/apac-jpn-import-postal-codes.md)
+-  [Настройка обязательства по выбытию активов для ОС](../../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md)
+-  [Настройка записей сокращения для ОС](../../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md)
+-  [Оплата поставщику путем индоссирования переводного векселя](../../financials/localizations/apac-jpn-endorse-bill-of-exchange.md)
+-  [Прогрессивный расчет подоходного налога](../../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md)
 
 ### <a name="latvia"></a>Латвия
 
--   [Учет основных средств для целей налогообложения](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-accounting)
--   [Отслеживание изменений расположения основных средств](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-location-fields-change)
--   [Нумерация накладных и отборочных накладных](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
--   [Отчет по налогам на использование природных ресурсов](/dynamics365/unified-operations/financials/localizations/emea-lva-tax-natural-resources)
--   [Сведения об отчете по НДС](/dynamics365/unified-operations/financials/localizations/emea-lva-vat-statement-details)
+-   [Учет основных средств для целей налогообложения](../../financials/localizations/emea-lva-fixed-assets-accounting.md)
+-   [Отслеживание изменений расположения основных средств](../../financials/localizations/emea-lva-fixed-assets-location-fields-change.md)
+-   [Нумерация накладных и отборочных накладных](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
+-   [Отчет по налогам на использование природных ресурсов](../../financials/localizations/emea-lva-tax-natural-resources.md)
+-   [Сведения об отчете по НДС](../../financials/localizations/emea-lva-vat-statement-details.md)
 
 ### <a name="lithuania"></a>Литва
 
--   [Отчет по ремонту ОС](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement)
--   [Нумерация накладных и отборочных накладных](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
--   [Сведения об отчете по НДС](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details)
+-   [Отчет по ремонту ОС](../../financials/localizations/emea-ltu-fixed-asset-repair-statement.md)
+-   [Нумерация накладных и отборочных накладных](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
+-   [Сведения об отчете по НДС](../../financials/localizations/emea-ltu-vat-statement-details.md)
 
 ### <a name="mexico"></a>Мексика
 
--   [Отчет по декларации DIOT](/dynamics365/unified-operations/financials/localizations/latam-mex-diot-declaration-statement)
--   [Отчеты по электронному учету ГК](/dynamics365/unified-operations/financials/localizations/latam-mex-electronic-ledger-accounting-statements)
--   [Отчет по декларации о поправке на инфляцию](/dynamics365/unified-operations/financials/localizations/latam-mex-adjustment-inflation-declaration-report)
--   [Отчет по декларации ISR](/dynamics365/unified-operations/financials/localizations/latam-mex-isr-declaration-report-supporting-processes)
--   [Электронные накладные (CFDI)](/dynamics365/unified-operations/financials/localizations/latam-mex-CFDI-electronic-invoices)
+-   [Отчет по декларации DIOT](../../financials/localizations/latam-mex-diot-declaration-statement.md)
+-   [Отчеты по электронному учету ГК](../../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md)
+-   [Отчет по декларации о поправке на инфляцию](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
+-   [Отчет по декларации ISR](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
+-   [Электронные накладные (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
    
 ### <a name="malaysia"></a>Малайзия
 
--   [Налог на товары и услуги (GST)](/dynamics365/unified-operations/financials/localizations/apac-mys-gst)
+-   [Налог на товары и услуги (GST)](../../financials/localizations/apac-mys-gst.md)
 
 ### <a name="netherlands"></a>Нидерланды
 
--   [Крайний срок выпуска накладных](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
+-   [Крайний срок выпуска накладных](../../financials/localizations/emea-invoice-issue-deadline.md)
 
 ### <a name="norway"></a>Норвегия
 
--   [Формат импорта Nets](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format)
--   [Отчет по НДС](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report)
+-   [Формат импорта Nets](../../financials/localizations/emea-nor-nets-import-format.md)
+-   [Отчет по НДС](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
 
 ### <a name="poland"></a>Польша
 
--   [Расчет скидок по строке от цены за единицу](/dynamics365/unified-operations/financials/localizations/emea-pol-line-discount-calculation-from-unit-price)
--   [Корректирующие документы](/dynamics365/unified-operations/financials/localizations/emea-pol-correction-notes)
--   [Нумерация дубликатов накладных по продаже](/dynamics365/unified-operations/financials/localizations/emea-pol-sales-invoice-duplicates-numbering)
--   [Амортизация ОС](/dynamics365/unified-operations/financials/localizations/emea-pol-fixed-assets-depreciation)
--   [Выбытие ОС](/dynamics365/unified-operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension)
--   [Возвращаемая упаковка](/dynamics365/unified-operations/financials/localizations/emea-pol-returnable-packages)
--   [Налоговые отчеты](/dynamics365/unified-operations/financials/localizations/emea-pol-sales-tax-reports)
--   [Стандартный файл аудита (SAF)](/dynamics365/unified-operations/financials/localizations/emea-pol-standard-audit-file-saf)
--   [Отчет об обороте и сальдо](/dynamics365/unified-operations/financials/localizations/emea-pol-turnover-balances-statement)
+-   [Расчет скидок по строке из цены за единицу](../../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
+-   [Замечания при корректировке](../../financials/localizations/emea-pol-correction-notes.md)
+-   [Нумерация дубликатов накладных по продаже](../../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md)
+-   [Амортизация ОС](../../financials/localizations/emea-pol-fixed-assets-depreciation.md)
+-   [Выбытие ОС](../../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md)
+-   [Возвращаемая упаковка](../../financials/localizations/emea-pol-returnable-packages.md)
+-   [Налоговые отчеты](../../financials/localizations/emea-pol-sales-tax-reports.md)
+-   [Стандартный файл аудита (SAF)](../../financials/localizations/emea-pol-standard-audit-file-saf.md)
+-   [Отчет об обороте и сальдо](../../financials/localizations/emea-pol-turnover-balances-statement.md)
 
 ### <a name="saudi-arabia"></a>Саудовская Аравия
 
--   [Отчетность Zakat](/dynamics365/unified-operations/financials/localizations/emea-sau-zakat-reporting)
+-   [Отчетность Zakat](../../financials/localizations/emea-sau-zakat-reporting.md)
 
 ### <a name="singapore"></a>Сингапур
 
--   [Создание отчета GST-05 для Сингапура](/dynamics365/unified-operations/financials/localizations/apac-sgp-generate-gst-05-report)
+-   [Создание отчета GST-05 для Сингапура](../../financials/localizations/apac-sgp-generate-gst-05-report.md)
 
 ### <a name="spain"></a>Испания
 
--   [Параметры испанских переводных векселей](/dynamics365/unified-operations/financials/localizations/emea-esp-bill-of-exchange-options)
--   [Параметр "В накладной применена скидка по оплате"](/dynamics365/unified-operations/financials/localizations/emea-esp-cash-discount-applied-invoice)
--   [Условные налоги](/dynamics365/unified-operations/financials/localizations/emea-esp-conditional-sales-tax)
--   [Группы переоценки основных средств](/dynamics365/unified-operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
--   [Внутренний НДС (ЕС)](/dynamics365/unified-operations/financials/localizations/emea-esp-intra-community-vat)
--   [Разовые клиенты](/dynamics365/unified-operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
--   [Печать чеков с использованием испанского макета](/dynamics365/unified-operations/financials/localizations/emea-esp-print-checks-with-spanish-layout)
--   [Параметры испанских простых векселей](/dynamics365/unified-operations/financials/localizations/emea-esp-promissory-note-options)
--   [Циклы продажи и покупки](/dynamics365/unified-operations/financials/localizations/emea-esp-sales-purchase-cycle)
--   [Специальные записи и открывающие ведомости](/dynamics365/unified-operations/financials/localizations/emea-esp-opening-sheets-spain)
--   [Использование финансовых данных из счета в накладной](/dynamics365/unified-operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
+-   [Параметры испанских переводных векселей](../../financials/localizations/emea-esp-bill-of-exchange-options.md)
+-   [Параметр "В накладной применена скидка по оплате"](../../financials/localizations/emea-esp-cash-discount-applied-invoice.md)
+-   [Условные налоги](../../financials/localizations/emea-esp-conditional-sales-tax.md)
+-   [Группы переоценки основных средств](../../financials/localizations/emea-esp-fixed-asset-group-revaluation.md)
+-   [Внутренний НДС (ЕС)](../../financials/localizations/emea-esp-intra-community-vat.md)
+-   [Разовые клиенты](../../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md)
+-   [Печать чеков с использованием испанского макета](../../financials/localizations/emea-esp-print-checks-with-spanish-layout.md)
+-   [Параметры испанских простых векселей](../../financials/localizations/emea-esp-promissory-note-options.md)
+-   [Циклы продажи и покупки](../../financials/localizations/emea-esp-sales-purchase-cycle.md)
+-   [Специальные записи и открывающие ведомости](../../financials/localizations/emea-esp-opening-sheets-spain.md)
+-   [Использование финансовых данных из счета в накладной](../../financials/localizations/emea-esp-fiscal-data-invoice-account.md)
 
 ### <a name="sweden"></a>Швеция
 
--   [Форматы импорта платежей для Швеции](/dynamics365/unified-operations/financials/localizations/emea-swe-payment-formats-import)
--   [Контрольно-кассовые машины для Швеции](/dynamics365/unified-operations/retail/localizations/emea-swe-cash-registers)
+-   [Форматы импорта платежей для Швеции](../../financials/localizations/emea-swe-payment-formats-import.md)
+-   [Контрольно-кассовые машины для Швеции](../../retail/localizations/emea-swe-cash-registers.md)
 
 ### <a name="switzerland"></a>Швейцария
 
--   [Импорт платежей клиентов в формате ESR](/dynamics365/unified-operations/financials/localizations/emea-che-esr-customer-payments-import)
+-   [Импорт платежей клиентов в формате ESR](../../financials/localizations/emea-che-esr-customer-payments-import.md)
 
 ### <a name="thailand"></a>Таиланд
 
--   [Отчеты по картам запаса](/dynamics365/unified-operations/financials/localizations/apac-tha-stock-card-reports)
--   [Накладная по налогам для подстановки или корректировки для Таиланда](/dynamics365/unified-operations/financials/localizations/apac-tha-substitution-and-adjustment-invoices)
--   [Нереализованный НДС](/dynamics365/unified-operations/financials/localizations/apac-tha-unrealized-vat)
--   [Подоходный налог](/dynamics365/unified-operations/financials/localizations/apac-tha-withholding-tax)
+-   [Отчеты по картам запаса](../../financials/localizations/apac-tha-stock-card-reports.md)
+-   [Накладная по налогам для подстановки или корректировки для Таиланда](../../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md)
+-   [Нереализованный НДС](../../financials/localizations/apac-tha-unrealized-vat.md)
+-   [Подоходный налог](../../financials/localizations/apac-tha-withholding-tax.md)
 
 ### <a name="united-kingdom"></a>Великобритания
 
--   [Construction Industry Scheme для Великобритании](/dynamics365/unified-operations/financials/localizations/emea-gbr-cis-construction-industry-scheme)
+-   [Construction Industry Scheme для Великобритании](../../financials/localizations/emea-gbr-cis-construction-industry-scheme.md)
 
 ### <a name="united-states"></a>США
 
--   [Форма 1099 для государственного сектора](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector)   
--   [Проверка формы I-9](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
--   [Отчетность по форме 1099 на конец года](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting)
--   [Заработная плата](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-payroll)
--   [Государственный сектор](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality)
+-   [Форма 1099 для государственного сектора](../../financials/localizations/noam-usa-form-1099-public-sector.md)   
+-   [Проверка формы I-9](../../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
+-   [Отчетность по форме 1099 на конец года](../../financials/localizations/noam-usa-year-end-1099-reporting.md)
+-   [Заработная плата](../../fin-and-ops/hr/localizations/noam-usa-payroll.md)
+-   [Государственный сектор](../../financials/public-sector/public-sector-functionality.md)
 
 
 
