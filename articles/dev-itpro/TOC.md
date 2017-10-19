@@ -451,6 +451,7 @@
 ### [Разбиение моделей](dev-tools/model-split.md)
 ### [Использование делегатов для разрешения зависимостей между моделями](migration-upgrade/delegates-migration.md)
 
+
 ## Установка последнего обновления
 ### [Процесс перехода на последнюю версию](migration-upgrade/upgrade-latest-update.md)
 ### [Политика жизненного цикла](migration-upgrade/versions-update-policy.md)
@@ -511,6 +512,8 @@
 ## [Отправка пользовательских бизнес-процессов](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Мониторинг и диагностика](lifecycle-services/monitoring-diagnostics.md)
 ## [Библиотека активов](lifecycle-services/asset-library.md)
+## [Microsoft Dynamics 365 — обзор службы переводов](lifecycle-services/translation-service-overview.md)
+### [Руководство пользователя службы переводов Microsoft Dynamics 365](lifecycle-services/use-translation-service.md)
 
 ## Функции Dynamics AX 2012 Lifecycle Services
 ### Развертывание
