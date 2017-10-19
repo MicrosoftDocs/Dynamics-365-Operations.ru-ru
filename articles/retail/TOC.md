@@ -1,5 +1,8 @@
 # [Добро пожаловать в Dynamics 365 for Retail](index.md)
 
+# Начало работы
+## [Что нового и что изменилось](get-started/whats-new.md)
+
 # Платежи
 ## [Способы оплаты](payment-methods.md)
 ## [Настройка, авторизация и проверка данных кредитной карты](../financials/accounts-receivable/credit-card-authorizations.md)
@@ -174,8 +177,9 @@
 #### [Управление учетными данными и устройствами розничной торговли из центрального офиса](set-up-activation-accounts-validate-devices-hq.md)
 #### [Активация устройств Retail POS](dev-itpro/retail-device-activation.md)
 #### [Защищенные Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
-### [Настройка и установка станции оборудования для розничной торговли](retail-hardware-station-configuration-installation.md)
-### [События компонента розничной торговли для диагностики и устранения неполадок](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
+### [Настройка и установка станции оборудования для Retail торговли](retail-hardware-station-configuration-installation.md)
+### [Массовое развертывание компонентов самообслуживания Retail](dev-itpro/retail-mass-deployment.md)
+### [События компонента Retail для диагностики и устранения неполадок](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [Применение готового к развертыванию пакета](../dev-itpro/deployment/apply-deployable-package-system.md)
 
 ## Обновление и поддержка N-1
