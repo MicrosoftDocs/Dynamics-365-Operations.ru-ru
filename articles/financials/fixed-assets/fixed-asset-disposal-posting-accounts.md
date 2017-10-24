@@ -18,29 +18,28 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 0129eae177d44100b09c2b7bce553dd5bde5ce0c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="fixed-asset-disposal-posting-accounts"></a><span data-ttu-id="ddecc-103">Счета разноски выбытия основных средств</span><span class="sxs-lookup"><span data-stu-id="ddecc-103">Fixed asset disposal posting accounts</span></span>
+# <a name="fixed-asset-disposal-posting-accounts"></a><span data-ttu-id="a03f6-103">Счета разноски выбытия основных средств</span><span class="sxs-lookup"><span data-stu-id="a03f6-103">Fixed asset disposal posting accounts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="ddecc-104">В этой статье описывается, как настроить счета разноски ГК для выбытия основных средств.</span><span class="sxs-lookup"><span data-stu-id="ddecc-104">This article explains how to set up general ledger posting accounts for disposing of assets.</span></span>
+<span data-ttu-id="a03f6-104">В этой статье описывается, как настроить счета разноски ГК для выбытия основных средств.</span><span class="sxs-lookup"><span data-stu-id="a03f6-104">This article explains how to set up general ledger posting accounts for disposing of assets.</span></span>
 
-<span data-ttu-id="ddecc-105">На странице профилей оприходования основных фондов на экспресс-вкладке "Счета ГК" выберите "Выбытие - продажа" и "Выбытие - демонтаж", чтобы настроить разноски в главную книгу.</span><span class="sxs-lookup"><span data-stu-id="ddecc-105">In the Fixed asset posting profiles page, on the Ledger accounts FastTab, select Disposal - sale and Disposal - scrap to set up postings to the ledger.</span></span>
+<span data-ttu-id="a03f6-105">На странице профилей оприходования основных фондов на экспресс-вкладке "Счета ГК" выберите "Выбытие - продажа" и "Выбытие - демонтаж", чтобы настроить разноски в главную книгу.</span><span class="sxs-lookup"><span data-stu-id="a03f6-105">In the Fixed asset posting profiles page, on the Ledger accounts FastTab, select Disposal - sale and Disposal - scrap to set up postings to the ledger.</span></span>
 
-<span data-ttu-id="ddecc-106">Для обоих типов проводок счет ГК кредитуется для значения выбытия основного средства.</span><span class="sxs-lookup"><span data-stu-id="ddecc-106">For both transaction types, the ledger account is credited for the disposal value of the fixed asset.</span></span> <span data-ttu-id="ddecc-107">Дебет разносится на корреспондентский счет, который может быть, например, банковским счетом.</span><span class="sxs-lookup"><span data-stu-id="ddecc-107">The debit is posted to an offset account, which might be, for example, a bank account.</span></span> <span data-ttu-id="ddecc-108">Если основное средство продается клиенту, используется счет клиента вместо корреспондентского счета.</span><span class="sxs-lookup"><span data-stu-id="ddecc-108">If a fixed asset is sold to a customer, the customer account is used instead of the offset account.</span></span>
+<span data-ttu-id="a03f6-106">Для обоих типов проводок счет ГК кредитуется для значения выбытия основного средства.</span><span class="sxs-lookup"><span data-stu-id="a03f6-106">For both transaction types, the ledger account is credited for the disposal value of the fixed asset.</span></span> <span data-ttu-id="a03f6-107">Дебет разносится на корреспондентский счет, который может быть, например, банковским счетом.</span><span class="sxs-lookup"><span data-stu-id="a03f6-107">The debit is posted to an offset account, which might be, for example, a bank account.</span></span> <span data-ttu-id="a03f6-108">Если основное средство продается клиенту, используется счет клиента вместо корреспондентского счета.</span><span class="sxs-lookup"><span data-stu-id="a03f6-108">If a fixed asset is sold to a customer, the customer account is used instead of the offset account.</span></span>
 
-<span data-ttu-id="ddecc-109">Щелкните "Выбытие", затем щелкните "Продажа" или "Отходы", затем настройте подробные счета, чтобы реверсировать остаточную стоимость основного средства.</span><span class="sxs-lookup"><span data-stu-id="ddecc-109">Click Disposal and then click Sale or Scrap, and then set up detailed accounts to reverse the net book value of the fixed asset.</span></span> <span data-ttu-id="ddecc-110">Вы можете также ввести информацию в поля "Сумма к разноске" и "Тип суммы реализации" на странице "Параметры выбытия".</span><span class="sxs-lookup"><span data-stu-id="ddecc-110">You can also enter information in the Post value and Sales value type fields in the Disposal parameters page.</span></span> 
+<span data-ttu-id="a03f6-109">Щелкните "Выбытие", затем щелкните "Продажа" или "Отходы", затем настройте подробные счета, чтобы реверсировать остаточную стоимость основного средства.</span><span class="sxs-lookup"><span data-stu-id="a03f6-109">Click Disposal and then click Sale or Scrap, and then set up detailed accounts to reverse the net book value of the fixed asset.</span></span> <span data-ttu-id="a03f6-110">Вы можете также ввести информацию в поля "Сумма к разноске" и "Тип суммы реализации" на странице "Параметры выбытия".</span><span class="sxs-lookup"><span data-stu-id="a03f6-110">You can also enter information in the Post value and Sales value type fields in the Disposal parameters page.</span></span> 
 
-<span data-ttu-id="ddecc-111">Проводка по выбытию средства в пуле низкой стоимости уменьшает остаточную стоимость пула низкой стоимости только на выбывшее количество.</span><span class="sxs-lookup"><span data-stu-id="ddecc-111">The disposal transaction for an asset in a low-value pool reduces the net book value of the low-value pool by the disposed amount only.</span></span> <span data-ttu-id="ddecc-112">В любом случае, если продажа основного средства превышает остаточную стоимость малоценных средств, остаточная стоимость будет приравнена к нулю.</span><span class="sxs-lookup"><span data-stu-id="ddecc-112">However, when the sale of an asset is exceeds the net book value of the low-value pool, the net book value is reduced to zero.</span></span>
+<span data-ttu-id="a03f6-111">Проводка по выбытию средства в пуле низкой стоимости уменьшает остаточную стоимость пула низкой стоимости только на выбывшее количество.</span><span class="sxs-lookup"><span data-stu-id="a03f6-111">The disposal transaction for an asset in a low-value pool reduces the net book value of the low-value pool by the disposed amount only.</span></span> <span data-ttu-id="a03f6-112">В любом случае, если продажа основного средства превышает остаточную стоимость малоценных средств, остаточная стоимость будет приравнена к нулю.</span><span class="sxs-lookup"><span data-stu-id="a03f6-112">However, when the sale of an asset is exceeds the net book value of the low-value pool, the net book value is reduced to zero.</span></span>
 
 
 

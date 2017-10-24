@@ -16,33 +16,33 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: bdb3a3857a7293828a7766b6988c123a43e0673c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-a-configuration-providand-mark-it-as-active-for-electronic-reporting-er"></a><span data-ttu-id="9e4b7-103">Создание поставщика конфигурации и пометка его как активного для электронной отчетности (ER)</span><span class="sxs-lookup"><span data-stu-id="9e4b7-103">Create a configuration providand mark it as active for electronic reporting (ER)</span></span>
+# <a name="create-a-configuration-providand-mark-it-as-active-for-electronic-reporting-er"></a><span data-ttu-id="f25f1-103">Создание поставщика конфигурации и пометка его как активного для электронной отчетности (ER)</span><span class="sxs-lookup"><span data-stu-id="f25f1-103">Create a configuration providand mark it as active for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="9e4b7-104">В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может создать поставщика конфигурации для электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="9e4b7-104">The following steps explain how a user assigned to the System Administrator or Electronic Reporting Developer role can create a configuration provider for Electronic reporting (ER).</span></span> <span data-ttu-id="9e4b7-105">Конфигурация электронной отчетности будет ссылаться на поставщика как автора конфигурации.</span><span class="sxs-lookup"><span data-stu-id="9e4b7-105">Each ER configuration will refer to the provider as the author of the configuration.</span></span> <span data-ttu-id="9e4b7-106">В этом примере вам предстоит создать поставщика конфигурации для примера компании Litware, Inc. Эти шаги можно выполнить в любой компании, поскольку поставщики конфигурации электронной отчетности используются всеми компаниями.</span><span class="sxs-lookup"><span data-stu-id="9e4b7-106">In this example, you will create a configuration provider for sample company, Litware, Inc. These steps can be performed in any company as ER configuration providers are shared among all companies.</span></span>
+<span data-ttu-id="f25f1-104">В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может создать поставщика конфигурации для электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="f25f1-104">The following steps explain how a user assigned to the System Administrator or Electronic Reporting Developer role can create a configuration provider for Electronic reporting (ER).</span></span> <span data-ttu-id="f25f1-105">Конфигурация электронной отчетности будет ссылаться на поставщика как автора конфигурации.</span><span class="sxs-lookup"><span data-stu-id="f25f1-105">Each ER configuration will refer to the provider as the author of the configuration.</span></span> <span data-ttu-id="f25f1-106">В этом примере вам предстоит создать поставщика конфигурации для примера компании Litware, Inc. Эти шаги можно выполнить в любой компании, поскольку поставщики конфигурации электронной отчетности используются всеми компаниями.</span><span class="sxs-lookup"><span data-stu-id="f25f1-106">In this example, you will create a configuration provider for sample company, Litware, Inc. These steps can be performed in any company as ER configuration providers are shared among all companies.</span></span>
 
 
-## <a name="create-a-provider"></a><span data-ttu-id="9e4b7-107">Создание поставщика</span><span class="sxs-lookup"><span data-stu-id="9e4b7-107">Create a provider</span></span>
-1. <span data-ttu-id="9e4b7-108">Перейдите в раздел "Управление организацией" > "Рабочие области" > "Электронная отчетность".</span><span class="sxs-lookup"><span data-stu-id="9e4b7-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="9e4b7-109">Щелкните "Поставщики конфигурации".</span><span class="sxs-lookup"><span data-stu-id="9e4b7-109">Click Configuration providers.</span></span>
-3. <span data-ttu-id="9e4b7-110">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="9e4b7-110">Click New.</span></span>
-    * <span data-ttu-id="9e4b7-111">Запись поставщика имеет уникальные имя и URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="9e4b7-111">A provider record has a unique name and URL.</span></span> <span data-ttu-id="9e4b7-112">Проверьте содержимое этой страницы и пропустите эту процедуру, если запись для Litware, Inc. (http://www.litware.com) уже существует.</span><span class="sxs-lookup"><span data-stu-id="9e4b7-112">Review the content of this page and skip this procedure if a record for Litware, Inc. (http://www.litware.com) already exists.</span></span>  
-4. <span data-ttu-id="9e4b7-113">В поле "Имя" введите "Litware, Inc.".</span><span class="sxs-lookup"><span data-stu-id="9e4b7-113">In the Name field, type 'Litware, Inc.'.</span></span>
-    * <span data-ttu-id="9e4b7-114">Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="9e4b7-114">Litware, Inc.</span></span>  
-5. <span data-ttu-id="9e4b7-115">В поле веб-адреса введите "http://www.litware.com".</span><span class="sxs-lookup"><span data-stu-id="9e4b7-115">In the Internet address field, type 'http://www.litware.com'.</span></span>
-    * <span data-ttu-id="9e4b7-116">http://www.litware.com</span><span class="sxs-lookup"><span data-stu-id="9e4b7-116">http://www.litware.com</span></span>  
-6. <span data-ttu-id="9e4b7-117">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="9e4b7-117">Click Save.</span></span>
-7. <span data-ttu-id="9e4b7-118">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="9e4b7-118">Close the page.</span></span>
+## <a name="create-a-provider"></a><span data-ttu-id="f25f1-107">Создание поставщика</span><span class="sxs-lookup"><span data-stu-id="f25f1-107">Create a provider</span></span>
+1. <span data-ttu-id="f25f1-108">Перейдите в раздел "Управление организацией" > "Рабочие области" > "Электронная отчетность".</span><span class="sxs-lookup"><span data-stu-id="f25f1-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="f25f1-109">Щелкните "Поставщики конфигурации".</span><span class="sxs-lookup"><span data-stu-id="f25f1-109">Click Configuration providers.</span></span>
+3. <span data-ttu-id="f25f1-110">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="f25f1-110">Click New.</span></span>
+    * <span data-ttu-id="f25f1-111">Запись поставщика имеет уникальные имя и URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="f25f1-111">A provider record has a unique name and URL.</span></span> <span data-ttu-id="f25f1-112">Проверьте содержимое этой страницы и пропустите эту процедуру, если запись для Litware, Inc. (http://www.litware.com) уже существует.</span><span class="sxs-lookup"><span data-stu-id="f25f1-112">Review the content of this page and skip this procedure if a record for Litware, Inc. (http://www.litware.com) already exists.</span></span>  
+4. <span data-ttu-id="f25f1-113">В поле "Имя" введите "Litware, Inc.".</span><span class="sxs-lookup"><span data-stu-id="f25f1-113">In the Name field, type 'Litware, Inc.'.</span></span>
+    * <span data-ttu-id="f25f1-114">Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="f25f1-114">Litware, Inc.</span></span>  
+5. <span data-ttu-id="f25f1-115">В поле веб-адреса введите "http://www.litware.com".</span><span class="sxs-lookup"><span data-stu-id="f25f1-115">In the Internet address field, type 'http://www.litware.com'.</span></span>
+    * <span data-ttu-id="f25f1-116">http://www.litware.com</span><span class="sxs-lookup"><span data-stu-id="f25f1-116">http://www.litware.com</span></span>  
+6. <span data-ttu-id="f25f1-117">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="f25f1-117">Click Save.</span></span>
+7. <span data-ttu-id="f25f1-118">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="f25f1-118">Close the page.</span></span>
 
-## <a name="select-as-an-active-provider"></a><span data-ttu-id="9e4b7-119">Выбор поставщика как активного</span><span class="sxs-lookup"><span data-stu-id="9e4b7-119">Select as an active provider</span></span>
-1. <span data-ttu-id="9e4b7-120">Выберите поставщика Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="9e4b7-120">Select the Litware, Inc. provider.</span></span>
-2. <span data-ttu-id="9e4b7-121">Щелкните "Установить как активное".</span><span class="sxs-lookup"><span data-stu-id="9e4b7-121">Click Set active.</span></span>
+## <a name="select-as-an-active-provider"></a><span data-ttu-id="f25f1-119">Выбор поставщика как активного</span><span class="sxs-lookup"><span data-stu-id="f25f1-119">Select as an active provider</span></span>
+1. <span data-ttu-id="f25f1-120">Выберите поставщика Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="f25f1-120">Select the Litware, Inc. provider.</span></span>
+2. <span data-ttu-id="f25f1-121">Щелкните "Установить как активное".</span><span class="sxs-lookup"><span data-stu-id="f25f1-121">Click Set active.</span></span>
 
 

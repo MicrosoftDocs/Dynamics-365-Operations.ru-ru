@@ -17,39 +17,39 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: e9d5c8add546cad0446e863f64cac8f9cb603cbb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="configure-a-conditional-decision-in-a-workflow"></a><span data-ttu-id="d6ac3-103">Настройте условное решение в workflow-процессе</span><span class="sxs-lookup"><span data-stu-id="d6ac3-103">Configure a conditional decision in a workflow</span></span>
+# <a name="configure-a-conditional-decision-in-a-workflow"></a><span data-ttu-id="df177-103">Настройте условное решение в workflow-процессе</span><span class="sxs-lookup"><span data-stu-id="df177-103">Configure a conditional decision in a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="d6ac3-104">Используйте следующую процедуру для настройки свойств условного решения.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-104">Use the following procedure to configure the properties of a conditional decision.</span></span>
+<span data-ttu-id="df177-104">Используйте следующую процедуру для настройки свойств условного решения.</span><span class="sxs-lookup"><span data-stu-id="df177-104">Use the following procedure to configure the properties of a conditional decision.</span></span>
 
-<span data-ttu-id="d6ac3-105">Условное решение - Точка, в которой workflow-процесс делится на две ветви.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-105">A conditional decision is a point at which a workflow divides into two branches.</span></span> <span data-ttu-id="d6ac3-106">Чтобы настроить условное решение, в редакторе workflow-процесс, щелкните правой кнопкой мыши условное решение, а затем щелкните **Свойства**, чтобы открыть форму **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-106">To configure a conditional decision, in the workflow editor, right-click the conditional decision, and then click **Properties** to open the **Properties** form.</span></span>
+<span data-ttu-id="df177-105">Условное решение - Точка, в которой workflow-процесс делится на две ветви.</span><span class="sxs-lookup"><span data-stu-id="df177-105">A conditional decision is a point at which a workflow divides into two branches.</span></span> <span data-ttu-id="df177-106">Чтобы настроить условное решение, в редакторе workflow-процесс, щелкните правой кнопкой мыши условное решение, а затем щелкните **Свойства**, чтобы открыть форму **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="df177-106">To configure a conditional decision, in the workflow editor, right-click the conditional decision, and then click **Properties** to open the **Properties** form.</span></span>
 
-## <a name="name-a-decision"></a><span data-ttu-id="d6ac3-107">Задание имени решения</span><span class="sxs-lookup"><span data-stu-id="d6ac3-107">Name a decision</span></span>
-<span data-ttu-id="d6ac3-108">Чтобы ввести имя условного решения, необходимо выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-108">Follow these steps to enter a name for a conditional decision.</span></span>
-1.  <span data-ttu-id="d6ac3-109">В левой области нажмите **Основные настройки**.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-109">In the left pane, click **Basic Settings**.</span></span>
-2.  <span data-ttu-id="d6ac3-110">В поле **Имя** введите уникальное имя для условного решения.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-110">In the **Name** field, enter a unique name for the conditional decision.</span></span>
+## <a name="name-a-decision"></a><span data-ttu-id="df177-107">Задание имени решения</span><span class="sxs-lookup"><span data-stu-id="df177-107">Name a decision</span></span>
+<span data-ttu-id="df177-108">Чтобы ввести имя условного решения, необходимо выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="df177-108">Follow these steps to enter a name for a conditional decision.</span></span>
+1.  <span data-ttu-id="df177-109">В левой области нажмите **Основные настройки**.</span><span class="sxs-lookup"><span data-stu-id="df177-109">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="df177-110">В поле **Имя** введите уникальное имя для условного решения.</span><span class="sxs-lookup"><span data-stu-id="df177-110">In the **Name** field, enter a unique name for the conditional decision.</span></span>
 
-## <a name="set-conditions"></a><span data-ttu-id="d6ac3-111">Установка условий</span><span class="sxs-lookup"><span data-stu-id="d6ac3-111">Set conditions</span></span>
-<span data-ttu-id="d6ac3-112">Система определяет, какая ветвь будет использоваться, оценивая документ отправленный, чтобы определить, отвечает ли документ указанным условиям.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-112">The system determines which branch is used by evaluating the submitted document to determine whether it meets specific conditions.</span></span>
-1.  <span data-ttu-id="d6ac3-113">В левой области нажмите **Основные настройки**.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-113">In the left pane, click **Basic Settings**.</span></span>
-2.  <span data-ttu-id="d6ac3-114">Щелкните **Добавить условие**.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-114">Click **Add condition**.</span></span>
-3.  <span data-ttu-id="d6ac3-115">Введите условие.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-115">Enter a condition.</span></span>
-4.  <span data-ttu-id="d6ac3-116">При необходимости введите дополнительные условия.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-116">Enter additional conditions, if they are required.</span></span>
-5.  <span data-ttu-id="d6ac3-117">Чтобы убедиться, что введенные условия настроены верно, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-117">To verify that the conditions that you entered are configured correctly, complete the following steps:</span></span>
-    1.  <span data-ttu-id="d6ac3-118">Щелкните **Проверка** для открытия формы **Условия тестового workflow-процесса**.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-118">Click **Test** to open the **Test workflow condition** form.</span></span>
-    2.  <span data-ttu-id="d6ac3-119">Выберите запись в области **Проверка условия** формы.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-119">Select a record in the **Validate condition** area of the form.</span></span>
-    3.  <span data-ttu-id="d6ac3-120">Щелкните **Тест**.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-120">Click **Test**.</span></span> <span data-ttu-id="d6ac3-121">Система оценит запись и определит, соответствует ли она определенным вами условиям.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-121">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
-    4.  <span data-ttu-id="d6ac3-122">Щелкните **OK** или **Отмена** для возврата к форме **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="d6ac3-122">Click **OK** or **Cancel** to return to the **Properties** form.</span></span>
+## <a name="set-conditions"></a><span data-ttu-id="df177-111">Установка условий</span><span class="sxs-lookup"><span data-stu-id="df177-111">Set conditions</span></span>
+<span data-ttu-id="df177-112">Система определяет, какая ветвь будет использоваться, оценивая документ отправленный, чтобы определить, отвечает ли документ указанным условиям.</span><span class="sxs-lookup"><span data-stu-id="df177-112">The system determines which branch is used by evaluating the submitted document to determine whether it meets specific conditions.</span></span>
+1.  <span data-ttu-id="df177-113">В левой области нажмите **Основные настройки**.</span><span class="sxs-lookup"><span data-stu-id="df177-113">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="df177-114">Щелкните **Добавить условие**.</span><span class="sxs-lookup"><span data-stu-id="df177-114">Click **Add condition**.</span></span>
+3.  <span data-ttu-id="df177-115">Введите условие.</span><span class="sxs-lookup"><span data-stu-id="df177-115">Enter a condition.</span></span>
+4.  <span data-ttu-id="df177-116">При необходимости введите дополнительные условия.</span><span class="sxs-lookup"><span data-stu-id="df177-116">Enter additional conditions, if they are required.</span></span>
+5.  <span data-ttu-id="df177-117">Чтобы убедиться, что введенные условия настроены верно, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="df177-117">To verify that the conditions that you entered are configured correctly, complete the following steps:</span></span>
+    1.  <span data-ttu-id="df177-118">Щелкните **Проверка** для открытия формы **Условия тестового workflow-процесса**.</span><span class="sxs-lookup"><span data-stu-id="df177-118">Click **Test** to open the **Test workflow condition** form.</span></span>
+    2.  <span data-ttu-id="df177-119">Выберите запись в области **Проверка условия** формы.</span><span class="sxs-lookup"><span data-stu-id="df177-119">Select a record in the **Validate condition** area of the form.</span></span>
+    3.  <span data-ttu-id="df177-120">Щелкните **Тест**.</span><span class="sxs-lookup"><span data-stu-id="df177-120">Click **Test**.</span></span> <span data-ttu-id="df177-121">Система оценит запись и определит, соответствует ли она определенным вами условиям.</span><span class="sxs-lookup"><span data-stu-id="df177-121">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
+    4.  <span data-ttu-id="df177-122">Щелкните **OK** или **Отмена** для возврата к форме **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="df177-122">Click **OK** or **Cancel** to return to the **Properties** form.</span></span>
 
 
 

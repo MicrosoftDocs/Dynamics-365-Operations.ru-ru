@@ -16,30 +16,30 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 6a4cb15bdfc89081e0dc9d1161670eddc412281d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="maintain-financial-dimension-default-templates"></a><span data-ttu-id="1434a-103">Ведение шаблонов финансовой аналитики по умолчанию</span><span class="sxs-lookup"><span data-stu-id="1434a-103">Maintain financial dimension default templates</span></span>
+# <a name="maintain-financial-dimension-default-templates"></a><span data-ttu-id="b0634-103">Ведение шаблонов финансовой аналитики по умолчанию</span><span class="sxs-lookup"><span data-stu-id="b0634-103">Maintain financial dimension default templates</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="1434a-104">Эта процедура показывает порядок настройки шаблонов финансовых аналитик по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="1434a-104">This procedure shows how to set up financial dimension default templates.</span></span> <span data-ttu-id="1434a-105">Шаблоны можно использовать, чтобы быстро распределить суммы по исходным документам.</span><span class="sxs-lookup"><span data-stu-id="1434a-105">The templates can be used to quickly distribute amounts on source documents.</span></span>
+<span data-ttu-id="b0634-104">Эта процедура показывает порядок настройки шаблонов финансовых аналитик по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="b0634-104">This procedure shows how to set up financial dimension default templates.</span></span> <span data-ttu-id="b0634-105">Шаблоны можно использовать, чтобы быстро распределить суммы по исходным документам.</span><span class="sxs-lookup"><span data-stu-id="b0634-105">The templates can be used to quickly distribute amounts on source documents.</span></span>
 
-1. <span data-ttu-id="1434a-106">Перейдите в раздел "Главная книга" > "План счетов" > "Аналитики" > "Шаблоны финансовой аналитики по умолчанию".</span><span class="sxs-lookup"><span data-stu-id="1434a-106">Go to General ledger > Chart of accounts > Dimensions > Financial dimension default templates.</span></span>
-2. <span data-ttu-id="1434a-107">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="1434a-107">Click New.</span></span>
-3. <span data-ttu-id="1434a-108">В поле "Код шаблона" введите код шаблона.</span><span class="sxs-lookup"><span data-stu-id="1434a-108">In the Template ID field, enter a Template ID..</span></span>
-4. <span data-ttu-id="1434a-109">Ввод процент для первых значений аналитики.</span><span class="sxs-lookup"><span data-stu-id="1434a-109">Enter the percentage for the first dimension values.</span></span>
-5. <span data-ttu-id="1434a-110">Введите значения финансовой аналитики, которые соответствуют введенному проценту.</span><span class="sxs-lookup"><span data-stu-id="1434a-110">Enter the financial dimension values that correspond to the percent entered.</span></span>
-6. <span data-ttu-id="1434a-111">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="1434a-111">Click Add.</span></span>
-7. <span data-ttu-id="1434a-112">Введите другой процент для следующих значений аналитики.</span><span class="sxs-lookup"><span data-stu-id="1434a-112">Enter another percent for the next dimension values.</span></span>
-    * <span data-ttu-id="1434a-113">В этом примере введите процент, чтобы все еще было назначено менее 100%.</span><span class="sxs-lookup"><span data-stu-id="1434a-113">For this example, enter a percentage so you still have less than 100% allocated.</span></span>  
-8. <span data-ttu-id="1434a-114">Введите значения финансовой аналитики, которые соответствуют введенному проценту.</span><span class="sxs-lookup"><span data-stu-id="1434a-114">Enter the financial dimension values that correspond to the percent entered.</span></span>
-9. <span data-ttu-id="1434a-115">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="1434a-115">Click Add.</span></span>
-10. <span data-ttu-id="1434a-116">Введите другой процент, который доведет сумму процентных значений до 100%.</span><span class="sxs-lookup"><span data-stu-id="1434a-116">Enter another percent, which will make the total percent equal to 100%.</span></span>
-11. <span data-ttu-id="1434a-117">Введите значения финансовой аналитики, которые соответствуют введенному проценту.</span><span class="sxs-lookup"><span data-stu-id="1434a-117">Enter the financial dimension values that correspond to the percent entered.</span></span>
-12. <span data-ttu-id="1434a-118">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="1434a-118">Click Save.</span></span>
+1. <span data-ttu-id="b0634-106">Перейдите в раздел "Главная книга" > "План счетов" > "Аналитики" > "Шаблоны финансовой аналитики по умолчанию".</span><span class="sxs-lookup"><span data-stu-id="b0634-106">Go to General ledger > Chart of accounts > Dimensions > Financial dimension default templates.</span></span>
+2. <span data-ttu-id="b0634-107">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="b0634-107">Click New.</span></span>
+3. <span data-ttu-id="b0634-108">В поле "Код шаблона" введите код шаблона.</span><span class="sxs-lookup"><span data-stu-id="b0634-108">In the Template ID field, enter a Template ID..</span></span>
+4. <span data-ttu-id="b0634-109">Ввод процент для первых значений аналитики.</span><span class="sxs-lookup"><span data-stu-id="b0634-109">Enter the percentage for the first dimension values.</span></span>
+5. <span data-ttu-id="b0634-110">Введите значения финансовой аналитики, которые соответствуют введенному проценту.</span><span class="sxs-lookup"><span data-stu-id="b0634-110">Enter the financial dimension values that correspond to the percent entered.</span></span>
+6. <span data-ttu-id="b0634-111">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="b0634-111">Click Add.</span></span>
+7. <span data-ttu-id="b0634-112">Введите другой процент для следующих значений аналитики.</span><span class="sxs-lookup"><span data-stu-id="b0634-112">Enter another percent for the next dimension values.</span></span>
+    * <span data-ttu-id="b0634-113">В этом примере введите процент, чтобы все еще было назначено менее 100%.</span><span class="sxs-lookup"><span data-stu-id="b0634-113">For this example, enter a percentage so you still have less than 100% allocated.</span></span>  
+8. <span data-ttu-id="b0634-114">Введите значения финансовой аналитики, которые соответствуют введенному проценту.</span><span class="sxs-lookup"><span data-stu-id="b0634-114">Enter the financial dimension values that correspond to the percent entered.</span></span>
+9. <span data-ttu-id="b0634-115">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="b0634-115">Click Add.</span></span>
+10. <span data-ttu-id="b0634-116">Введите другой процент, который доведет сумму процентных значений до 100%.</span><span class="sxs-lookup"><span data-stu-id="b0634-116">Enter another percent, which will make the total percent equal to 100%.</span></span>
+11. <span data-ttu-id="b0634-117">Введите значения финансовой аналитики, которые соответствуют введенному проценту.</span><span class="sxs-lookup"><span data-stu-id="b0634-117">Enter the financial dimension values that correspond to the percent entered.</span></span>
+12. <span data-ttu-id="b0634-118">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="b0634-118">Click Save.</span></span>
 
 

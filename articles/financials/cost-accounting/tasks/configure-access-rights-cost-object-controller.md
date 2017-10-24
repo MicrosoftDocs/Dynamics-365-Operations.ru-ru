@@ -16,57 +16,57 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: b0647e1ec55d23607d07f38105e42af498ad1174
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="configure-access-rights-for-a-cost-object-controller"></a><span data-ttu-id="568c2-103">Настройка прав доступа для контролера объектов затрат</span><span class="sxs-lookup"><span data-stu-id="568c2-103">Configure access rights for a cost object controller</span></span>
+# <a name="configure-access-rights-for-a-cost-object-controller"></a><span data-ttu-id="687ac-103">Настройка прав доступа для контролера объектов затрат</span><span class="sxs-lookup"><span data-stu-id="687ac-103">Configure access rights for a cost object controller</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="568c2-104">Эта процедура используется для конфигурирования прав доступа для контроллера объектов затрат.</span><span class="sxs-lookup"><span data-stu-id="568c2-104">Use this procedure to configure access rights for a cost object controller.</span></span> <span data-ttu-id="568c2-105">В этой записи используется компания с демонстрационными данными USP2.</span><span class="sxs-lookup"><span data-stu-id="568c2-105">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="687ac-104">Эта процедура используется для конфигурирования прав доступа для контроллера объектов затрат.</span><span class="sxs-lookup"><span data-stu-id="687ac-104">Use this procedure to configure access rights for a cost object controller.</span></span> <span data-ttu-id="687ac-105">В этой записи используется компания с демонстрационными данными USP2.</span><span class="sxs-lookup"><span data-stu-id="687ac-105">This recording uses the USP2 demo data company.</span></span>
 
 
-## <a name="assign-the-cost-object-controller-role"></a><span data-ttu-id="568c2-106">Назначение роли контроллера объектов затрат</span><span class="sxs-lookup"><span data-stu-id="568c2-106">Assign the cost object controller role</span></span>
-1. <span data-ttu-id="568c2-107">Перейдите в раздел "Администрирование системы" > "Пользователи" > "Пользователи".</span><span class="sxs-lookup"><span data-stu-id="568c2-107">Go to System administration > Users > Users.</span></span>
-2. <span data-ttu-id="568c2-108">Используйте экспресс-фильтр для поиска записей.</span><span class="sxs-lookup"><span data-stu-id="568c2-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="568c2-109">Например, отфильтруйте поле "Имя пользователя" по значению "Alicia".</span><span class="sxs-lookup"><span data-stu-id="568c2-109">For example, filter on the User name field with a value of 'alicia'.</span></span>
-3. <span data-ttu-id="568c2-110">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="568c2-110">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="568c2-111">Щелкните "Назначить роли".</span><span class="sxs-lookup"><span data-stu-id="568c2-111">Click Assign roles.</span></span>
-5. <span data-ttu-id="568c2-112">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="568c2-112">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="568c2-113">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="568c2-113">Click OK.</span></span>
+## <a name="assign-the-cost-object-controller-role"></a><span data-ttu-id="687ac-106">Назначение роли контроллера объектов затрат</span><span class="sxs-lookup"><span data-stu-id="687ac-106">Assign the cost object controller role</span></span>
+1. <span data-ttu-id="687ac-107">Перейдите в раздел "Администрирование системы" > "Пользователи" > "Пользователи".</span><span class="sxs-lookup"><span data-stu-id="687ac-107">Go to System administration > Users > Users.</span></span>
+2. <span data-ttu-id="687ac-108">Используйте экспресс-фильтр для поиска записей.</span><span class="sxs-lookup"><span data-stu-id="687ac-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="687ac-109">Например, отфильтруйте поле "Имя пользователя" по значению "Alicia".</span><span class="sxs-lookup"><span data-stu-id="687ac-109">For example, filter on the User name field with a value of 'alicia'.</span></span>
+3. <span data-ttu-id="687ac-110">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="687ac-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="687ac-111">Щелкните "Назначить роли".</span><span class="sxs-lookup"><span data-stu-id="687ac-111">Click Assign roles.</span></span>
+5. <span data-ttu-id="687ac-112">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="687ac-112">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="687ac-113">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="687ac-113">Click OK.</span></span>
 
-## <a name="enable-access-list-security"></a><span data-ttu-id="568c2-114">Включение безопасности по списку доступа</span><span class="sxs-lookup"><span data-stu-id="568c2-114">Enable access list security</span></span>
-1. <span data-ttu-id="568c2-115">Перейдите в раздел "Учет затрат" > "Аналитики" > "Иерархии аналитик".</span><span class="sxs-lookup"><span data-stu-id="568c2-115">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
-2. <span data-ttu-id="568c2-116">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="568c2-116">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="568c2-117">Выберите "Организация".</span><span class="sxs-lookup"><span data-stu-id="568c2-117">Select Organization.</span></span>  
-3. <span data-ttu-id="568c2-118">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="568c2-118">Click Edit.</span></span>
-4. <span data-ttu-id="568c2-119">Выберите "Да" в поле "Иерархия списков доступа".</span><span class="sxs-lookup"><span data-stu-id="568c2-119">Select Yes in the Access list hierarchy field.</span></span>
-5. <span data-ttu-id="568c2-120">Щелкните "Просмотр иерархии".</span><span class="sxs-lookup"><span data-stu-id="568c2-120">Click View hierarchy.</span></span>
+## <a name="enable-access-list-security"></a><span data-ttu-id="687ac-114">Включение безопасности по списку доступа</span><span class="sxs-lookup"><span data-stu-id="687ac-114">Enable access list security</span></span>
+1. <span data-ttu-id="687ac-115">Перейдите в раздел "Учет затрат" > "Аналитики" > "Иерархии аналитик".</span><span class="sxs-lookup"><span data-stu-id="687ac-115">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="687ac-116">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="687ac-116">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="687ac-117">Выберите "Организация".</span><span class="sxs-lookup"><span data-stu-id="687ac-117">Select Organization.</span></span>  
+3. <span data-ttu-id="687ac-118">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="687ac-118">Click Edit.</span></span>
+4. <span data-ttu-id="687ac-119">Выберите "Да" в поле "Иерархия списков доступа".</span><span class="sxs-lookup"><span data-stu-id="687ac-119">Select Yes in the Access list hierarchy field.</span></span>
+5. <span data-ttu-id="687ac-120">Щелкните "Просмотр иерархии".</span><span class="sxs-lookup"><span data-stu-id="687ac-120">Click View hierarchy.</span></span>
 
-## <a name="assign-access-rights-to-user"></a><span data-ttu-id="568c2-121">Назначение пользователю прав доступа</span><span class="sxs-lookup"><span data-stu-id="568c2-121">Assign access rights to user</span></span>
-1. <span data-ttu-id="568c2-122">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="568c2-122">Click New.</span></span>
-2. <span data-ttu-id="568c2-123">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="568c2-123">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="568c2-124">В поле "Код пользователя" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="568c2-124">In the User ID field, enter or select a value.</span></span>
-    * <span data-ttu-id="568c2-125">Выберите "Admin".</span><span class="sxs-lookup"><span data-stu-id="568c2-125">Select Admin.</span></span>  
-4. <span data-ttu-id="568c2-126">В дереве выберите "Организация\Генеральный директор\Финансовый директор\FIM".</span><span class="sxs-lookup"><span data-stu-id="568c2-126">In the tree, select 'Organization\CEO\CFO\FIM'.</span></span>
-5. <span data-ttu-id="568c2-127">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="568c2-127">Click New.</span></span>
-6. <span data-ttu-id="568c2-128">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="568c2-128">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="568c2-129">В поле "Код пользователя" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="568c2-129">In the User ID field, enter or select a value.</span></span>
-    * <span data-ttu-id="568c2-130">Выберите "Alicia".</span><span class="sxs-lookup"><span data-stu-id="568c2-130">Select Alicia.</span></span>  
-8. <span data-ttu-id="568c2-131">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="568c2-131">Click Save.</span></span>
+## <a name="assign-access-rights-to-user"></a><span data-ttu-id="687ac-121">Назначение пользователю прав доступа</span><span class="sxs-lookup"><span data-stu-id="687ac-121">Assign access rights to user</span></span>
+1. <span data-ttu-id="687ac-122">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="687ac-122">Click New.</span></span>
+2. <span data-ttu-id="687ac-123">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="687ac-123">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="687ac-124">В поле "Код пользователя" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="687ac-124">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="687ac-125">Выберите "Admin".</span><span class="sxs-lookup"><span data-stu-id="687ac-125">Select Admin.</span></span>  
+4. <span data-ttu-id="687ac-126">В дереве выберите "Организация\Генеральный директор\Финансовый директор\FIM".</span><span class="sxs-lookup"><span data-stu-id="687ac-126">In the tree, select 'Organization\CEO\CFO\FIM'.</span></span>
+5. <span data-ttu-id="687ac-127">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="687ac-127">Click New.</span></span>
+6. <span data-ttu-id="687ac-128">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="687ac-128">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="687ac-129">В поле "Код пользователя" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="687ac-129">In the User ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="687ac-130">Выберите "Alicia".</span><span class="sxs-lookup"><span data-stu-id="687ac-130">Select Alicia.</span></span>  
+8. <span data-ttu-id="687ac-131">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="687ac-131">Click Save.</span></span>
 
-## <a name="enable-access-rights-in-cost-accounting"></a><span data-ttu-id="568c2-132">Включение прав доступа в модуле "Учет затрат"</span><span class="sxs-lookup"><span data-stu-id="568c2-132">Enable access rights in Cost accounting</span></span>
-1. <span data-ttu-id="568c2-133">Перейдите в раздел "Учет затрат" > "Настройка" > "Параметры".</span><span class="sxs-lookup"><span data-stu-id="568c2-133">Go to Cost accounting > Setup > Parameters.</span></span>
-2. <span data-ttu-id="568c2-134">Перейдите на вкладку "Общие".</span><span class="sxs-lookup"><span data-stu-id="568c2-134">Click the General tab.</span></span>
-3. <span data-ttu-id="568c2-135">Выберите "Да" в поле "Включить доступ на просмотр по элементам аналитик объектов затрат".</span><span class="sxs-lookup"><span data-stu-id="568c2-135">Select Yes in the Enable view access for cost object dimension members field.</span></span>
-4. <span data-ttu-id="568c2-136">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="568c2-136">Click Save.</span></span>
-5. <span data-ttu-id="568c2-137">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="568c2-137">Close the page.</span></span>
-6. <span data-ttu-id="568c2-138">Перейдите в раздел "Учет затрат" > "Настройка" > "Конфигурация рабочей области управления затратами".</span><span class="sxs-lookup"><span data-stu-id="568c2-138">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
-7. <span data-ttu-id="568c2-139">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="568c2-139">Click Edit.</span></span>
-8. <span data-ttu-id="568c2-140">Выберите значение "Да" в поле "Опубликовано".</span><span class="sxs-lookup"><span data-stu-id="568c2-140">Select Yes in the Published field.</span></span>
-    * <span data-ttu-id="568c2-141">При выборе значения "Да" просматривать отчеты в рабочей области "Управление затратами" могут пользователи, которым назначена одна из следующих ролей: диспетчер учета затрат, бухгалтер по учету затрат, младший бухгалтер по учету затрат или контроллер объектов затрат.</span><span class="sxs-lookup"><span data-stu-id="568c2-141">If you select Yes, a user who is assigned one of the following four roles can see the reports in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, and cost object controller.</span></span> <span data-ttu-id="568c2-142">При выборе значения "Нет" просматривать отчеты в рабочей области "Управление затратами" могут только пользователи, которым назначена одна из следующих ролей: диспетчер учета затрат, бухгалтер по учету затрат или младший бухгалтер по учету затрат.</span><span class="sxs-lookup"><span data-stu-id="568c2-142">If you select No, only a user who is assigned one of the following roles can see the reports: cost accounting manager, cost accountant, and cost accountant clerk.</span></span>    
-9. <span data-ttu-id="568c2-143">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="568c2-143">Click Save.</span></span>
+## <a name="enable-access-rights-in-cost-accounting"></a><span data-ttu-id="687ac-132">Включение прав доступа в модуле "Учет затрат"</span><span class="sxs-lookup"><span data-stu-id="687ac-132">Enable access rights in Cost accounting</span></span>
+1. <span data-ttu-id="687ac-133">Перейдите в раздел "Учет затрат" > "Настройка" > "Параметры".</span><span class="sxs-lookup"><span data-stu-id="687ac-133">Go to Cost accounting > Setup > Parameters.</span></span>
+2. <span data-ttu-id="687ac-134">Перейдите на вкладку "Общие".</span><span class="sxs-lookup"><span data-stu-id="687ac-134">Click the General tab.</span></span>
+3. <span data-ttu-id="687ac-135">Выберите "Да" в поле "Включить доступ на просмотр по элементам аналитик объектов затрат".</span><span class="sxs-lookup"><span data-stu-id="687ac-135">Select Yes in the Enable view access for cost object dimension members field.</span></span>
+4. <span data-ttu-id="687ac-136">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="687ac-136">Click Save.</span></span>
+5. <span data-ttu-id="687ac-137">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="687ac-137">Close the page.</span></span>
+6. <span data-ttu-id="687ac-138">Перейдите в раздел "Учет затрат" > "Настройка" > "Конфигурация рабочей области управления затратами".</span><span class="sxs-lookup"><span data-stu-id="687ac-138">Go to Cost accounting > Setup > Cost control workspace configuration.</span></span>
+7. <span data-ttu-id="687ac-139">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="687ac-139">Click Edit.</span></span>
+8. <span data-ttu-id="687ac-140">Выберите значение "Да" в поле "Опубликовано".</span><span class="sxs-lookup"><span data-stu-id="687ac-140">Select Yes in the Published field.</span></span>
+    * <span data-ttu-id="687ac-141">При выборе значения "Да" просматривать отчеты в рабочей области "Управление затратами" могут пользователи, которым назначена одна из следующих ролей: диспетчер учета затрат, бухгалтер по учету затрат, младший бухгалтер по учету затрат или контроллер объектов затрат.</span><span class="sxs-lookup"><span data-stu-id="687ac-141">If you select Yes, a user who is assigned one of the following four roles can see the reports in the Cost control workspace: cost accounting manager, cost accountant, cost accountant clerk, and cost object controller.</span></span> <span data-ttu-id="687ac-142">При выборе значения "Нет" просматривать отчеты в рабочей области "Управление затратами" могут только пользователи, которым назначена одна из следующих ролей: диспетчер учета затрат, бухгалтер по учету затрат или младший бухгалтер по учету затрат.</span><span class="sxs-lookup"><span data-stu-id="687ac-142">If you select No, only a user who is assigned one of the following roles can see the reports: cost accounting manager, cost accountant, and cost accountant clerk.</span></span>    
+9. <span data-ttu-id="687ac-143">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="687ac-143">Click Save.</span></span>
 
 

@@ -1,0 +1,75 @@
+---
+title: "Планирование настройки глобальной адресной книги и дополнительных адресных книг"
+description: "Эта статья описывает вопросы и решения, которые следует принять во время процесса планирования, прежде чем настраивать и устанавливать глобальную адресную книгу и любые дополнительные адресные книги в Microsoft Dynamics 365 for Finance and Operations. Некоторые из решений потребуют от вас подтвердить решения, которые были сделаны в других зонах продукта, таких как организационная иерархия."
+author: ShivamPandey-msft
+manager: AnnBe
+ms.date: 08/23/2017
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: DirAddressBook, DirAddressBookTeam, DirParameters, DirPartyTable
+audience: Application User
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.custom: 23341
+ms.assetid: a41cd8de-9ee0-4275-aea5-131db5326e5b
+ms.search.region: Global
+ms.author: shiva.pandey
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 12bd0a02899c04b0511e2a50bc4a724d5074d13e
+ms.contentlocale: ru-ru
+ms.lasthandoff: 09/29/2017
+
+---
+
+# <a name="plan-how-to-configure-the-global-address-book-and-additional-address-books"></a><span data-ttu-id="eeab2-104">Планирование настройки глобальной адресной книги и дополнительных адресных книг</span><span class="sxs-lookup"><span data-stu-id="eeab2-104">Plan how to configure the global address book and additional address books</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+
+<span data-ttu-id="eeab2-105">Эта статья описывает вопросы и решения, которые следует принять во время процесса планирования, прежде чем настраивать и устанавливать глобальную адресную книгу и любые дополнительные адресные книги в Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="eeab2-105">This article describes the considerations and decisions that you must make during the planning process, before you set up and configure the global address book and any additional address books in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="eeab2-106">Некоторые из решений потребуют от вас подтвердить решения, которые были сделаны в других зонах продукта, таких как организационная иерархия.</span><span class="sxs-lookup"><span data-stu-id="eeab2-106">Some of the decisions will require that you confirm the decisions that have been made for other areas of the product, such as the organization hierarchy.</span></span>
+
+<a name="global-address-book"></a><span data-ttu-id="eeab2-107">Глобальная адресная книга</span><span class="sxs-lookup"><span data-stu-id="eeab2-107">Global address book</span></span>
+-------------------
+
+<span data-ttu-id="eeab2-108">Прежде чем начать работу с глобальной адресной книгой, необходимо определить значения по умолчанию для нее.</span><span class="sxs-lookup"><span data-stu-id="eeab2-108">Before you begin to work with the global address book, you must determine the default values for it.</span></span> <span data-ttu-id="eeab2-109">Эти значения по умолчанию будут использоваться для всех дополнительных создаваемых адресных книг.</span><span class="sxs-lookup"><span data-stu-id="eeab2-109">These default values are then used for any additional address books that you create.</span></span> 
+
+<span data-ttu-id="eeab2-110">**Решения.**</span><span class="sxs-lookup"><span data-stu-id="eeab2-110">**Decisions:**</span></span>
+
+-   <span data-ttu-id="eeab2-111">В какой последовательности должны отображаться имена в записях субъектов типа **Лицо**?</span><span class="sxs-lookup"><span data-stu-id="eeab2-111">What sequence should names be displayed in for party records of the **Person** type?</span></span> <span data-ttu-id="eeab2-112">Например, фамилия, отчество, имя.</span><span class="sxs-lookup"><span data-stu-id="eeab2-112">For example, one sequence is last name, middle name, first name.</span></span>
+-   <span data-ttu-id="eeab2-113">Должны записи субъекта удаляться из адресной книги при удалении записи роли?</span><span class="sxs-lookup"><span data-stu-id="eeab2-113">Should party records be deleted from the address book when the role record is deleted?</span></span> <span data-ttu-id="eeab2-114">Например, если удаляется запись клиента, должна ли удаляться запись субъекта?</span><span class="sxs-lookup"><span data-stu-id="eeab2-114">For example, if a customer record is deleted, should the party record also be deleted?</span></span>
+-   <span data-ttu-id="eeab2-115">При создании новой записи должны ли пользователи получать уведомление, если в глобальной адресной книге найдена дублирующая запись?</span><span class="sxs-lookup"><span data-stu-id="eeab2-115">When a new record is created, should users be notified if a duplicate record is found in the global address book?</span></span>
+-   <span data-ttu-id="eeab2-116">Должен ли номер номерной системы (DUNS) отображаться в сведениях записи субъекта?</span><span class="sxs-lookup"><span data-stu-id="eeab2-116">Should the Data Universal Numbering System (DUNS) number be included in a party record’s information?</span></span>
+-   <span data-ttu-id="eeab2-117">Если номер DUNS включен в запись субъекта, должна ли проверяться уникальность номера?</span><span class="sxs-lookup"><span data-stu-id="eeab2-117">If the DUNS number is included in a party record, should the uniqueness of the number be checked?</span></span>
+-   <span data-ttu-id="eeab2-118">При создании записи субъекта в глобальной адресной книге следует ли указывать тип субъекта, лицо или организацию по умолчанию?</span><span class="sxs-lookup"><span data-stu-id="eeab2-118">When a party record is created in the global address book, do you want a default party type, person, or organization?</span></span>
+-   <span data-ttu-id="eeab2-119">Какие роли пользователя могут получать доступ к личным адресам и контактной информации записей субъектов?</span><span class="sxs-lookup"><span data-stu-id="eeab2-119">Which user roles should have access to the private addresses and contact information of party records?</span></span>
+
+## <a name="additional-address-books"></a><span data-ttu-id="eeab2-120">Дополнительные адресные книги</span><span class="sxs-lookup"><span data-stu-id="eeab2-120">Additional address books</span></span>
+<span data-ttu-id="eeab2-121">После создания глобальной адресной книги вы можете создать дополнительные адресные книги согласно своим потребностям, например отдельную адресную книгу для каждой компании в вашей организации или для каждой сферы деятельности.</span><span class="sxs-lookup"><span data-stu-id="eeab2-121">After you create the global address book, you can create additional address books as you require, such as a separate address book for each company in your organization or for each line of business.</span></span> <span data-ttu-id="eeab2-122">Например, Fabrikam — международная организация, которая имеет несколько компаний и несколько сфер деятельности.</span><span class="sxs-lookup"><span data-stu-id="eeab2-122">For example, Fabrikam is an international organization that has multiple companies and multiple lines of business.</span></span> <span data-ttu-id="eeab2-123">Fabrikam планирует создать адресную книгу для каждой сферы бизнеса.</span><span class="sxs-lookup"><span data-stu-id="eeab2-123">Fabrikam plans to create an address book for each line of business.</span></span> <span data-ttu-id="eeab2-124">Для сфер деятельности, которые выполняются в нескольких расположениях, например производство пневматических инструментов, Fabrikam создает адресную книгу для каждого расположения.</span><span class="sxs-lookup"><span data-stu-id="eeab2-124">For lines of business that occur in more than one location, such as the pneumatic tools business, Fabrikam plans to create an address book for each location.</span></span> <span data-ttu-id="eeab2-125">Крис, ИТ-менеджер в Fabrikam, создал следующий список необходимых адресных книг.</span><span class="sxs-lookup"><span data-stu-id="eeab2-125">Chris, the IT manager at Fabrikam, has created the following list of address books that are required.</span></span> <span data-ttu-id="eeab2-126">Этот список также описывает записи субъектов, которые должна включить каждая адресная книга.</span><span class="sxs-lookup"><span data-stu-id="eeab2-126">This list also also describes the party records that each address book must include.</span></span>
+
+-   <span data-ttu-id="eeab2-127">**Договора в государственном секторе (PubSC)** — записи субъектов для всех субъектов, связанных с договорами в государственного секторе, подписанными Fabrikam.</span><span class="sxs-lookup"><span data-stu-id="eeab2-127">**Public Sector Contracts (PubSC)** – Party records for all parties that are involved in the public sector contracts that Fabrikam holds.</span></span>
+-   <span data-ttu-id="eeab2-128">**Договора в частном секторе (PriSC)** — записи субъектов для всех субъектов, связанных с договорами в частном секторе, подписанными Fabrikam.</span><span class="sxs-lookup"><span data-stu-id="eeab2-128">**Private Sector Contracts (PriSC)** – Party records for all parties that are involved in the private sector contracts that Fabrikam holds.</span></span>
+-   <span data-ttu-id="eeab2-129">**Электроинструменты (ET)** — записи субъектов для всех субъектов, связанных с покупкой или продажей электроинструментов или иным образом связанных с электроинструментами, поставляемыми или приобретаемыми для Fabrikam компанией Fabrikam-Япония.</span><span class="sxs-lookup"><span data-stu-id="eeab2-129">**Electronic Tools (ET)** – Party records for all parties that are involved in the purchase or sale of electronic tools, or that otherwise interact with the electronic tools that are provided by or purchased for Fabrikam in the Fabrikam-Japan company.</span></span>
+-   <span data-ttu-id="eeab2-130">**Пневматические инструменты (PTJPN)** — записи субъектов для всех субъектов, связанных с покупкой или продажей пневматических инструментов или иным образом связанных с пневматическими инструментами, поставляемыми или приобретаемыми для Fabrikam компанией Fabrikam-Япония.</span><span class="sxs-lookup"><span data-stu-id="eeab2-130">**Pneumatic Tools (PTJPN)** – Party records for all parties that are involved in the purchase or sale of pneumatic tools, or that otherwise interact with the pneumatic tools that are provided by or purchased for Fabrikam in the Fabrikam-Japan company.</span></span>
+-   <span data-ttu-id="eeab2-131">**Пневматические инструменты (PTUSA)** — записи субъектов для всех субъектов, связанных с покупкой или продажей пневматических инструментов или иным образом связанных с пневматическими инструментами, поставляемыми или приобретаемыми для Fabrikam компанией Fabrikam-США.</span><span class="sxs-lookup"><span data-stu-id="eeab2-131">**Pneumatic Tools (PTUSA)** – Party records for all parties that are involved in the purchase or sale of pneumatic tools, or that otherwise interact with the pneumatic tools that are provided by or purchased for Fabrikam in the Fabrikam-US company.</span></span>
+
+<span data-ttu-id="eeab2-132">**Решение.**</span><span class="sxs-lookup"><span data-stu-id="eeab2-132">**Decision:**</span></span>
+
+-   <span data-ttu-id="eeab2-133">Сколько дополнительных адресных книг требуется создать?</span><span class="sxs-lookup"><span data-stu-id="eeab2-133">How many additional address books will you create?</span></span>
+
+### <a name="address-book-security"></a><span data-ttu-id="eeab2-134">Безопасность адресной книги</span><span class="sxs-lookup"><span data-stu-id="eeab2-134">Address book security</span></span>
+
+<span data-ttu-id="eeab2-135">Можно создать адресную книгу в любое время, и если надо, можно настроить параметры безопасности для адресных книг в любое время.</span><span class="sxs-lookup"><span data-stu-id="eeab2-135">You can create address books at any time, and you can also set security parameters for the address books at any time.</span></span> <span data-ttu-id="eeab2-136">Нет необходимости задавать привилегии доступа для адресной книги, но тогда все сотрудники в организации смогут просматривать все записи субъектов в этой адресной книге.</span><span class="sxs-lookup"><span data-stu-id="eeab2-136">You aren't required to set security privileges for an address book, but if you don't, all workers in your organization can view all party records in that address book.</span></span> <span data-ttu-id="eeab2-137">Можно задать привилегии безопасности к записям субъекта в адресных книгах.</span><span class="sxs-lookup"><span data-stu-id="eeab2-137">You can set security privileges to party records through address books.</span></span> <span data-ttu-id="eeab2-138">Привилегии безопасности основаны на группах.</span><span class="sxs-lookup"><span data-stu-id="eeab2-138">Security privileges are based on teams.</span></span> <span data-ttu-id="eeab2-139">С помощью этого метода только работники, назначенные группе, которая имеет доступ к адресной книге, могут просматривать записи субъекта в этой адресной книге.</span><span class="sxs-lookup"><span data-stu-id="eeab2-139">This approach guarantees that only workers who are assigned to a team that has access to an address book can view the party records in that address book.</span></span> <span data-ttu-id="eeab2-140">Необходимо выбрать группы, имеющие доступ к каждой адресной книге.</span><span class="sxs-lookup"><span data-stu-id="eeab2-140">You must select the teams that have access to each address book.</span></span> <span data-ttu-id="eeab2-141">Для каждой адресной книги, можно задать права доступа, которые позволяют или исключают доступ для определенных групп.</span><span class="sxs-lookup"><span data-stu-id="eeab2-141">For each address book, you can set security privileges that allow or deny access to specific teams.</span></span> <span data-ttu-id="eeab2-142">Если вы назначаете группе привилегии на адресную книгу, все члены группы могут просматривать записи в адресной книге.</span><span class="sxs-lookup"><span data-stu-id="eeab2-142">If you grant a team privileges to an address book, all members of that team can view the records in the address book.</span></span> <span data-ttu-id="eeab2-143">Если вы не назначаете группе доступ к адресной книге, члены этой группы не могут просматривать адресную книгу или ее содержимое.</span><span class="sxs-lookup"><span data-stu-id="eeab2-143">If you don't grant a team access to an address book, the members of that team can't view the address book or its contents.</span></span> 
+
+<span data-ttu-id="eeab2-144">**Решение.**</span><span class="sxs-lookup"><span data-stu-id="eeab2-144">**Decision:**</span></span>
+
+-   <span data-ttu-id="eeab2-145">Какие группы должны иметь доступ к каждой новой адресной книге?</span><span class="sxs-lookup"><span data-stu-id="eeab2-145">Which teams should have access to each new address book that you will create?</span></span>
+
+
+
+
+

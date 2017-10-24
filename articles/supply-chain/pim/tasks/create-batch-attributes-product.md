@@ -16,42 +16,42 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 5694ac4ec47b446c19681bfb5c6b07ff82f4575f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-batch-attributes-for-a-product"></a><span data-ttu-id="0b224-103">Создание атрибутов партии для продукта</span><span class="sxs-lookup"><span data-stu-id="0b224-103">Create batch attributes for a product</span></span>
+# <a name="create-batch-attributes-for-a-product"></a><span data-ttu-id="6568a-103">Создание атрибутов партии для продукта</span><span class="sxs-lookup"><span data-stu-id="6568a-103">Create batch attributes for a product</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="0b224-104">В этой процедуре показано, как создать атрибут партии, назначить диапазоны значений по умолчанию и включить атрибут в группу.</span><span class="sxs-lookup"><span data-stu-id="0b224-104">This procedure shows how to create a batch attribute, assign default value ranges, and include the attribute in a group.</span></span> <span data-ttu-id="0b224-105">В качестве компании с демонстрационными данными для создания этой процедуры используется компания USP2.</span><span class="sxs-lookup"><span data-stu-id="0b224-105">The demo data company used to create this procedure is the USP2 Company.</span></span>
+<span data-ttu-id="6568a-104">В этой процедуре показано, как создать атрибут партии, назначить диапазоны значений по умолчанию и включить атрибут в группу.</span><span class="sxs-lookup"><span data-stu-id="6568a-104">This procedure shows how to create a batch attribute, assign default value ranges, and include the attribute in a group.</span></span> <span data-ttu-id="6568a-105">В качестве компании с демонстрационными данными для создания этой процедуры используется компания USP2.</span><span class="sxs-lookup"><span data-stu-id="6568a-105">The demo data company used to create this procedure is the USP2 Company.</span></span>
 
-1. <span data-ttu-id="0b224-106">Перейдите в раздел "Управление запасами" > "Партия" > "Атрибуты партии".</span><span class="sxs-lookup"><span data-stu-id="0b224-106">Go to Inventory management > Setup > Batch > Batch attributes.</span></span>
-2. <span data-ttu-id="0b224-107">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="0b224-107">Click New.</span></span>
-3. <span data-ttu-id="0b224-108">В поле "Атрибут" введите значение.</span><span class="sxs-lookup"><span data-stu-id="0b224-108">In the Attribute field, type a value.</span></span>
-4. <span data-ttu-id="0b224-109">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="0b224-109">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="0b224-110">В поле "Тип атрибута" выберите "Дробь".</span><span class="sxs-lookup"><span data-stu-id="0b224-110">In the Attribute type field, select 'Fraction'.</span></span>
-    * <span data-ttu-id="0b224-111">В этой процедуре используется тип "Дробь" для получения десятичных значений.</span><span class="sxs-lookup"><span data-stu-id="0b224-111">This procedure uses the Fraction type to enable decimal values.</span></span> <span data-ttu-id="0b224-112">Можно выбрать другие типы атрибутов.</span><span class="sxs-lookup"><span data-stu-id="0b224-112">You can select other attribute types.</span></span> <span data-ttu-id="0b224-113">При выборе типа "Перечисление" необходимо ввести значения в список перечисления, прежде чем можно будет ввести значение в поле "Цель".</span><span class="sxs-lookup"><span data-stu-id="0b224-113">If you select the Enumeration type, you must enter values in the enumeration list before you can enter a value in the Target field.</span></span>  
-6. <span data-ttu-id="0b224-114">В поле "Минимум" введите число.</span><span class="sxs-lookup"><span data-stu-id="0b224-114">In the Minimum field, enter a number.</span></span>
-7. <span data-ttu-id="0b224-115">В поле "Максимум" введите число.</span><span class="sxs-lookup"><span data-stu-id="0b224-115">In the Maximum field, enter a number.</span></span>
-8. <span data-ttu-id="0b224-116">В поле "Шаг" введите число.</span><span class="sxs-lookup"><span data-stu-id="0b224-116">In the Increment field, enter a number.</span></span>
-9. <span data-ttu-id="0b224-117">В поле "Цель" введите значение.</span><span class="sxs-lookup"><span data-stu-id="0b224-117">In the Target field, type a value.</span></span>
-10. <span data-ttu-id="0b224-118">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="0b224-118">Click Save.</span></span>
-11. <span data-ttu-id="0b224-119">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="0b224-119">Close the page.</span></span>
-12. <span data-ttu-id="0b224-120">Перейдите в раздел "Управление запасами" > "Партия" > "Группы атрибутов партии".</span><span class="sxs-lookup"><span data-stu-id="0b224-120">Go to Inventory management > Setup > Batch > Batch attribute groups.</span></span>
-13. <span data-ttu-id="0b224-121">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="0b224-121">Click New.</span></span>
-14. <span data-ttu-id="0b224-122">В поле "Группа атрибутов" введите значение.</span><span class="sxs-lookup"><span data-stu-id="0b224-122">In the Attribute group field, type a value.</span></span>
-15. <span data-ttu-id="0b224-123">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="0b224-123">In the Description field, type a value.</span></span>
-16. <span data-ttu-id="0b224-124">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="0b224-124">Click Save.</span></span>
-17. <span data-ttu-id="0b224-125">Щелкните Сгруппировать атрибуты.</span><span class="sxs-lookup"><span data-stu-id="0b224-125">Click Group attributes.</span></span>
-18. <span data-ttu-id="0b224-126">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="0b224-126">Click New.</span></span>
-19. <span data-ttu-id="0b224-127">В поле "Атрибут" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="0b224-127">In the Attribute field, click the drop-down button to open the lookup.</span></span>
-20. <span data-ttu-id="0b224-128">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="0b224-128">In the list, find and select the desired record.</span></span>
-21. <span data-ttu-id="0b224-129">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="0b224-129">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="0b224-130">Атрибут может входить в любую из групп.</span><span class="sxs-lookup"><span data-stu-id="0b224-130">An attribute can be included in any of the groups.</span></span>  
-22. <span data-ttu-id="0b224-131">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="0b224-131">Click Save.</span></span>
-23. <span data-ttu-id="0b224-132">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="0b224-132">Close the page.</span></span>
+1. <span data-ttu-id="6568a-106">Перейдите в раздел "Управление запасами" > "Партия" > "Атрибуты партии".</span><span class="sxs-lookup"><span data-stu-id="6568a-106">Go to Inventory management > Setup > Batch > Batch attributes.</span></span>
+2. <span data-ttu-id="6568a-107">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="6568a-107">Click New.</span></span>
+3. <span data-ttu-id="6568a-108">В поле "Атрибут" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6568a-108">In the Attribute field, type a value.</span></span>
+4. <span data-ttu-id="6568a-109">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6568a-109">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="6568a-110">В поле "Тип атрибута" выберите "Дробь".</span><span class="sxs-lookup"><span data-stu-id="6568a-110">In the Attribute type field, select 'Fraction'.</span></span>
+    * <span data-ttu-id="6568a-111">В этой процедуре используется тип "Дробь" для получения десятичных значений.</span><span class="sxs-lookup"><span data-stu-id="6568a-111">This procedure uses the Fraction type to enable decimal values.</span></span> <span data-ttu-id="6568a-112">Можно выбрать другие типы атрибутов.</span><span class="sxs-lookup"><span data-stu-id="6568a-112">You can select other attribute types.</span></span> <span data-ttu-id="6568a-113">При выборе типа "Перечисление" необходимо ввести значения в список перечисления, прежде чем можно будет ввести значение в поле "Цель".</span><span class="sxs-lookup"><span data-stu-id="6568a-113">If you select the Enumeration type, you must enter values in the enumeration list before you can enter a value in the Target field.</span></span>  
+6. <span data-ttu-id="6568a-114">В поле "Минимум" введите число.</span><span class="sxs-lookup"><span data-stu-id="6568a-114">In the Minimum field, enter a number.</span></span>
+7. <span data-ttu-id="6568a-115">В поле "Максимум" введите число.</span><span class="sxs-lookup"><span data-stu-id="6568a-115">In the Maximum field, enter a number.</span></span>
+8. <span data-ttu-id="6568a-116">В поле "Шаг" введите число.</span><span class="sxs-lookup"><span data-stu-id="6568a-116">In the Increment field, enter a number.</span></span>
+9. <span data-ttu-id="6568a-117">В поле "Цель" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6568a-117">In the Target field, type a value.</span></span>
+10. <span data-ttu-id="6568a-118">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="6568a-118">Click Save.</span></span>
+11. <span data-ttu-id="6568a-119">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="6568a-119">Close the page.</span></span>
+12. <span data-ttu-id="6568a-120">Перейдите в раздел "Управление запасами" > "Партия" > "Группы атрибутов партии".</span><span class="sxs-lookup"><span data-stu-id="6568a-120">Go to Inventory management > Setup > Batch > Batch attribute groups.</span></span>
+13. <span data-ttu-id="6568a-121">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="6568a-121">Click New.</span></span>
+14. <span data-ttu-id="6568a-122">В поле "Группа атрибутов" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6568a-122">In the Attribute group field, type a value.</span></span>
+15. <span data-ttu-id="6568a-123">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6568a-123">In the Description field, type a value.</span></span>
+16. <span data-ttu-id="6568a-124">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="6568a-124">Click Save.</span></span>
+17. <span data-ttu-id="6568a-125">Щелкните Сгруппировать атрибуты.</span><span class="sxs-lookup"><span data-stu-id="6568a-125">Click Group attributes.</span></span>
+18. <span data-ttu-id="6568a-126">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="6568a-126">Click New.</span></span>
+19. <span data-ttu-id="6568a-127">В поле "Атрибут" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="6568a-127">In the Attribute field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="6568a-128">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="6568a-128">In the list, find and select the desired record.</span></span>
+21. <span data-ttu-id="6568a-129">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="6568a-129">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="6568a-130">Атрибут может входить в любую из групп.</span><span class="sxs-lookup"><span data-stu-id="6568a-130">An attribute can be included in any of the groups.</span></span>  
+22. <span data-ttu-id="6568a-131">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="6568a-131">Click Save.</span></span>
+23. <span data-ttu-id="6568a-132">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="6568a-132">Close the page.</span></span>
 
 
