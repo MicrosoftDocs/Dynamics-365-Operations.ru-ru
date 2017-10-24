@@ -15,13 +15,13 @@ ms.custom: 221624
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
 ms.author: saraschi
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 116f9e8fbf8ed6ecbd2a1163f17e52ba80061694
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d6ce53d4d9335348d0203a524e62dbbdfd1580b6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -45,10 +45,10 @@ ms.lasthandoff: 06/13/2017
     -   Постоянное имя: **NumberSequenceDefaultParameterPrefix**
     -   Значение по умолчанию: "FADBUpgr"
 -   **Буквенно-цифровая длина** — длина буквенно-цифрового сегмента номерной серии.
-    -   Постоянное имя: **NumberSequenceDefaultParameterAlpanumericLength **
+    -   Постоянное имя: **NumberSequenceDefaultParameterAlpanumericLength**
     -   Значение по умолчанию: 9
 -   **Начальный номер** — первый номер, используемый в номерной серии.
-    -   Постоянное имя: **NumberSequenceDefaultParameterStartNumber  **
+    -   Постоянное имя: **NumberSequenceDefaultParameterStartNumber**
     -   Значение по умолчанию: 1
 
 Вариант 2. **Существующая определяемая пользователем номерная серия** — этот вариант позволяет вам определить номерную серию, которая будет использоваться для обновления. Рекомендуется использовать этот вариант, если требуется сложная конфигурация номерной серии. Для использования номерной серии следует изменить класс обновления ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans, указав следующую информацию:

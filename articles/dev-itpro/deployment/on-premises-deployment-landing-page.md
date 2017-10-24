@@ -18,13 +18,15 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 4399dc7374ae11f2eca3add37b60c50574dfad9d
+ms.sourcegitcommit: 61395e0e57eb02aaa1c95a7dbd9c15082b822701
+ms.openlocfilehash: 15992b1666caea21cdcf440fefcf65ff18111801
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/05/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Целевая страница локального развертывания
+
+[!include[banner](../includes/banner.md)]
 
 Вы можете развернуть Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия). При выборе типа локального развертывания требования к системе, параметры оборудования и функции будут отличаться от облачного развертывания. В этой теме представлены ссылки на содержимое с информацией по локальным развертываниям.
 
@@ -32,10 +34,10 @@ ms.lasthandoff: 08/04/2017
 
 ## <a name="get-started"></a>Начало работы
 - [Обзор Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](on-premises-overview.md)
-- [Требования к системе для локальных развертываний](../get-started/system-requirements-on-prem.md)
-- [Определение параметров оборудования для локальных сред](../get-started/hardware-sizing-on-premises-environments.md)
+- [Требования к системе для локальных развертываний](../../fin-and-ops/get-started/system-requirements-on-prem.md)
+- [Определение параметров оборудования для локальных сред](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Политика жизненного цикла для онлайн-служб и локального программного обеспечения](../migration-upgrade/versions-update-policy.md)
-- [Приобретение Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](../get-started/purchase-on-premises.md)
+- [Приобретение Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](../../fin-and-ops/get-started/purchase-on-premises.md)
 
 ## <a name="onboard"></a>Адаптация
 - [Создание локального проекта в Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
@@ -44,14 +46,14 @@ ms.lasthandoff: 08/04/2017
 - [Разработка и развертывание пользовательских моделей в локальных средах](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Работа в локальном развертывании
-- [Настройка управления документами](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management)
+- [Настройка управления документами](../../fin-and-ops/organization-administration/configure-document-management.md)
 - [Импорт конфигураций электронной отчетности](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Возможности создания, публикации и печати документов в локальных развертываниях](../analytics/printing-capabilities-on-premises.md)
 - [Настройка технической поддержки](../lifecycle-services/support-experience.md)
 - [Устранение неполадок подключения к Интернету клиента](../user-interface/client-disconnected.md)
 
 ## <a name="other-resources"></a>Другие ресурсы
-- [Функции, не реализованные в локальном развертывании](../get-started/features-not-implemented-on-prem.md)
+- [Функции, не реализованные в локальном развертывании](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Устаревшие функции](../migration-upgrade/deprecated-features.md)
  
 

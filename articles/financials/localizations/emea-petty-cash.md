@@ -17,12 +17,11 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7acabdec9133b4b4cc8fc8861ee097aa2a00e191
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 3ed41a57e40e8d90ebfd996f855a8dc8dc16de13
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -364,7 +363,7 @@ ms.lasthandoff: 05/25/2017
 Чтобы проверить записи журнала на панели операций щелкните **Проверить**.
 
 ## <a name="daily-cash-operations-via-a-general-journal"></a>Ежедневные кассовые операции через общий журнал
-Для создания кассовой проводки через общий журнал, перейдите к пункту **Главная книга** &gt; **Записи журнала** &gt; **Общие журналы**и создайте новый журнал. В области действий щелкните **Строки**. Добавьте новую строку и введите следующие сведения.
+Для создания кассовой проводки через общий журнал, перейдите к пункту **Главная книга** &gt; **Записи журнала** &gt; **Общие журналы** и создайте новый журнал. В области действий щелкните **Строки**. Добавьте новую строку и введите следующие сведения.
 
 <table>
 <colgroup>

@@ -16,13 +16,13 @@ ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fb5c39a65ea59acda05b0828f84bfaea4ad75062
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 06/13/2017
 Первичный источник данных для CostAggregatedCostStatementEntryEntity является таблицей CostStatementCache. Эта таблица управляется структурой кэш-памяти набора данных. По умолчанию таблица обновляется каждые 24 часа, но можно включить возможность ручного обновления в конфигурации кэш-памяти данных. Затем можно выполнить обновление вручную в рабочей области **Управление затратами** или **Анализ затрат**. После запуска обновления CostStatementCache необходимо обновить подключение OData на сайте Power BI.com, чтобы увидеть обновленные данные на сайте. Меры отклонения (покупка, производство) в данном содержимом Power BI относятся только к элементам, которые оцениваются методом оценки стандартной себестоимости. Отклонение производственных затрат рассчитывается как разница между активными затратами и реализованными затратами. Отклонение производственных затрат рассчитывается, когда производственный заказ имеет статус **Завершено**. Дополнительные сведения о типах производственных отклонений и о порядке расчета для каждого типа см. в разделе [Об анализе расхождений в выполненном производственном заказе](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
-Содержимое Power BI **Управление затратами** доступно на сайте PowerBI.com. Дополнительные сведения о том, как подключить и загрузить данные Microsoft Dynamics 365 Finance and Operations, см. в разделе [Доступ к содержимому Power BI с сайта PowerBI.com](power-bi-home-page.md).
+Содержимое Power BI **Управление затратами** доступно на PowerBI.com. Дополнительные сведения о том, как подключить и загрузить данные Microsoft Dynamics 365 for Finance and Operations, см. в разделе [Доступ к содержимому Power BI с сайта PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Показатели, которые включены в содержимое Power BI
 Содержимое включает в себя набор страниц отчета. Каждая страница состоит из набора показателей, которые отображаются в виде диаграмм, плиток и таблиц. В следующей таблице приводится обзор визуализации в содержимом Power BI **Управление затратами**.
