@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 46eacb2a01c3bfcc7144c7d8c39ee0189fd72e16
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 7fe11966b27eb0793a47835e05e465d809bf3407
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 08/04/2017
 Чтобы найти последний выпуск для каждого веб-браузера, перейдите на веб-сайт производителя программного обеспечения. 
 
 > [!NOTE]
-> -   Чтобы регистратор задач мог захватывать снимки экрана и включать их в формируемые документы Microsoft Word, необходимо установить предварительную версию расширения Chrome. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder).-->
+> -   Чтобы регистратор задач мог захватывать снимки экрана и включать их в формируемые документы Microsoft Word, необходимо установить предварительную версию расширения Chrome. <!---For instructions about how to install the extension, see [Screenshot Extension setup](../../dev-itpro/user-interface/task-recorder).-->
 > -   Редактор workflow-процессов запускается в виде приложения ClickOnce. Только Microsoft Edge и Internet Explorer (на поддерживаемой версии Microsoft Windows) поддерживают приложение ClickOnce. Для приложения ClickOnce редактора workflow-процессов требуется 64-разрядная совместимая операционная система.
 > -   Конструктор отчетов для финансовой отчетности запускается в виде приложения ClickOnce. Для него требуется 64-разрядная совместимая операционная система. При использовании браузера Chrome необходимо установить расширение ClickOnce, чтобы можно было загрузить клиент Конструктора отчетов. При работе с Chrome в режиме инкогнито убедитесь, что расширение ClickOnce также включено для работы в режиме инкогнито.
 > -   Для предварительного просмотра PDF-файлов рекомендуется использовать такие браузеры, как Microsoft Edge (последней общедоступной версии) в Windows 10 или Google Chrome (последней общедоступной версии) в Windows 10, Windows 8.1, Windows 8, Windows 7 или на планшете Google Nexus 10.
@@ -70,7 +70,7 @@ Finance and Operations требует наличия Microsoft .NET Framework в
 ## <a name="supported-microsoft-office-applications"></a>Поддерживаемые приложения Microsoft Office
 Следующие приложения Microsoft Office поддерживаются в облачных и локальных развертываниях Finance and Operations:
 
--   Для запуска надстроек Microsoft Excel и Word должен быть установлен Microsoft Office 2016 для Windows или Mac. Дополнительные сведения о требованиях к версиям см. в разделе [Устранение неполадок при интеграции Office](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Для запуска надстроек Microsoft Excel и Word должен быть установлен Microsoft Office 2016 для Windows или Mac. Дополнительные сведения о требованиях к версиям см. в разделе [Устранение неполадок при интеграции Office](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Для просмотра документов, созданных с помощью функции экспорта в Excel или экспорта в Word должен быть установлен пакет Microsoft Office 2007 или более поздняя версия.
 
 ## <a name="retail-modern-pos-requirements"></a>Требования для Retail Modern POS
@@ -153,10 +153,10 @@ Finance and Operations требует наличия Microsoft .NET Framework в
 -   По крайней мере 10 ГБ свободного места (Для канала базы данных может потребоваться большой объем пространства.)
 
 ## <a name="requirements-for-development-on-local-vms"></a>Требования для разработки на локальных виртуальных машинах
-Сведения о требованиях к разработке на локальных виртуальных машинах (VM) в разделе [Локальные виртуальные машины](../dev-tools/access-instances.md).
+Сведения о требованиях к разработке на локальных виртуальных машинах (VM) в разделе [Локальные виртуальные машины](../../dev-itpro/dev-tools/access-instances.md).
 
 
 ## <a name="see-also"></a>См. также
 
-[Получение ознакомительной версии Dynamics 365 for Finance and Operations, Enterprise edition](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy)
+[Получение ознакомительной версии Dynamics 365 for Finance and Operations, Enterprise edition](../../dev-itpro/dev-tools/get-evaluation-copy.md)
 

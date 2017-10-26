@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
-ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 661c5a14d27f3ad9df6088c2977c507ca315a998
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 08/10/2017
 
 | Необходимые условия                                                                                            | описание                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Предварительно ознакомьтесь с руководством по мобильным приложениям                                                                                |[Мобильная платформа](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
+| Предварительно ознакомьтесь с руководством по мобильным приложениям                                                                                |[Мобильная платформа](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | Среда с установленными Microsoft Dynamics 365 for Operations версии 1611 и обновлением 3 платформы Microsoft Dynamics for Operations (ноябрь 2016)                   |
 | Установите исправление KB 3204341.                                                                              | Регистратор задач может ошибочно записывать две команды закрытия из раскрывающихся диалоговых окон, которые включены в обновление 3 платформы Dynamics 365 for Operation (обновление за ноябрь 2016) |
 | Установите исправление KB 3207800.                                                                              | Это исправление позволяет просматривать вложения на мобильном клиенте, который включен в обновление 3 платформы Dynamics 365 for Operation (обновление за ноябрь 2016).           |

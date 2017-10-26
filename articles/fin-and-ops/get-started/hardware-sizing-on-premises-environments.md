@@ -15,18 +15,18 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: chwolf
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 4a1cab8c126ad063a52827421d2ea1104d0c7287
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 5be9b195754d6c8315342c83451128092f64a241
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Определение параметров оборудования для локальных сред
-Прежде чем начать процесс определения параметров оборудования и инфраструктуры для локальной среды, ознакомьтесь с разделами [Требования к системе](../get-started/system-requirements.md) и [Инструкции по настройке и развертыванию](../deployment/setup-deploy-on-premises-environments.md), чтобы получить четкое представление о базовой инфраструктуре. 
+Прежде чем начать процесс определения параметров оборудования и инфраструктуры для локальной среды, ознакомьтесь с разделами [Требования к системе](system-requirements.md) и [Инструкции по настройке и развертыванию](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md), чтобы получить четкое представление о базовой инфраструктуре. 
 
   **Примечание.** Обратите особое внимание на рекомендации по настройке системы для достижения оптимальной производительности. 
 
@@ -89,7 +89,7 @@ ms.lasthandoff: 07/27/2017
 Рекомендуется всегда использовать SQL Server при настройке кластера или зеркального отображения. Второй узел SQL должен иметь то же количество ядер, что и основной узел. 
 
 ### <a name="active-directory-federation-services-ad-fs"></a>Службы федерации Active Directory (AD FS)
-Сведения об определении параметров AD FS см. в [документации по планированию мощности AD FS сервера](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
+Сведения об определении параметров AD FS см. в [документации по планированию мощности AD FS сервера](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
 [Электронная таблица определения параметров](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) доступна для планирования числа экземпляров в развертывании.
 

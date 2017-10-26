@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a192688315adb2d83f349c525c5d8f70309375db
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 714a87f15bf2a25dbe80660d9be044ecde16cb16
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -71,7 +71,7 @@ ms.lasthandoff: 06/13/2017
 
 [Утверждение и подтверждение заказа на покупку](purchase-order-approval-confirmation.md)
 
-[Обзор накладных поставщика](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+[Обзор накладных поставщика](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 

@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
-ms.openlocfilehash: a5dd28e79cbd66e79311c0549c63ea844394ab14
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: c36795a071cc72721558bfa8984ecf1f47501c91
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 06/09/2017
 -   [Создание заказа на покупку](purchase-order-creation.md)
 -   [Утверждение и подтверждение заказа на покупку](purchase-order-approval-confirmation.md)
 -   [Поступление продуктов по заказу на покупку](product-receipt-against-purchase-orders.md)
--   [Обзор накладных поставщика](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+-   [Обзор накладных поставщика](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Типы заказов на покупку
 Есть три типа заказов на покупку: При создании заказа на покупку необходимо указать тип. Можно настроить тип заказа по умолчанию для новых заказов на странице **Параметры модуля "Закупки и источники"**.
@@ -92,7 +92,7 @@ ms.lasthandoff: 06/09/2017
 
 [Поступление продуктов по заказу на покупку](product-receipt-against-purchase-orders.md)
 
-[Обзор накладных поставщика](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+[Обзор накладных поставщика](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 
