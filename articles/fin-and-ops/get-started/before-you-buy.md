@@ -14,13 +14,13 @@ ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 21761
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 831550256176df6fa8542b9985eba1b9b1282fcb
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 75e2a31f1c0e82c6f0dcf92309d7673243e1bdc9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 07/27/2017
 
 ## <a name="step-two-choose-a-deployment-option"></a>Шаг 2: Выберите вариант развертывания
 Развертывание Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise, можно выполнить в облаке или локально. Облачные развертывания предлагают службу ERP, которая полностью управляется корпорацией Майкрософт, во то время как локальные развертывания разворачиваются локально в центре обработки данных клиента.
-Дополнительные сведения см. в разделе [Варианты развертывания](/dynamics365/unified-operations/dev-itpro/deployment/choose-deployment-type) 
+Дополнительные сведения см. в разделе [Варианты развертывания](../../dev-itpro/deployment/choose-deployment-type.md) 
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Шаг 3. Приобретите подписку и управляйте ей
 Чтобы изучить параметры подписки, перейдите на страницу ценообразования [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing). Эта страница включает несколько различных планов в соответствии с требованиями вашей организации.
@@ -60,7 +60,7 @@ ms.lasthandoff: 07/27/2017
 Поставщик облачных решений Майкрософт может тесно сотрудничать с вами для оценки ваших бизнес-потребностей или потребностей организации. [Использование портала Центра партнеров Майкрософт для поиска партнера в соответствии со своими потребностями](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Покупка у партнера Dynamics (локально)
-Необходимо работать с партнером для покупки локальной версии Finance and Operations. Дополнительные сведения см. в разделе [Приобретение Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises)
+Необходимо работать с партнером для покупки локальной версии Finance and Operations. Дополнительные сведения см. в разделе [Приобретение Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Выбор плана поддержки
 Корпорация Майкрософт предоставляет гибкую, ведущую в отрасли поддержку , службы и ресурсы, которые позволяют пользователям быстро решать технические проблемы и повысить рентабельность инвестиций Dynamics 365. Выберите план, который лучше всего отвечает вашим бизнес-требованиям. 

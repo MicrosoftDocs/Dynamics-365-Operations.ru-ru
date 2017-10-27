@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: f596f84463f46fc37b14b77bd335b9ed8a62eea9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 06/13/2017
 
 Содержимое **Анализ учета затрат** позволяет бухгалтерам по затратам анализировать, как затраты проходят через объекты затрат по всей организации. 
 
-Дополнительные сведения об учете затрат см. в разделе [Домашняя страница учета затрат](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page). 
+Дополнительные сведения об учете затрат см. в разделе [Домашняя страница учета затрат](../../financials/cost-accounting/cost-accounting-home-page.md). 
 
 Определив безопасность уровня доступа в модуле учета затрат и объединив его безопасностью уровня строк в Power BI, можно предоставить доступ всем владельцам объектов затрат доступ к содержимому **Анализ учета затрат** Power BI. Все данные в визуализациях затем фильтруются на основе уровня доступа, который контролируется в модуле учета затрат. Для получения дополнительных сведений о безопасности уровня доступа и безопасности уровня строк, см. в разделе [Настройка безопасности для содержимого учета затрат для Power BI](setup-security-cost-accounting-content-pack.md).
 

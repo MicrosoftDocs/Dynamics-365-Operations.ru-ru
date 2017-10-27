@@ -13,14 +13,14 @@ ms.reviewer: robinr
 ms.search.scope: Operations, Platform, UnifiedOperations
 ms.search.region: Global
 ms.author: tjvass
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.intro: Platform update 8
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: e819aafbdf55fbc2a6dc996d275244de1e11d89b
+ms.sourcegitcommit: fc8102d945faf9ad533f57ec1a45b0e0dc344963
+ms.openlocfilehash: d36abbf7c08c56d84ed83dbec1bfa33f30b47ef5
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -47,10 +47,10 @@ ms.lasthandoff: 07/27/2017
 4. Необязательно: добавьте расширения, чтобы настроить представление.
 
 > [!NOTE]
-> Дополнительные сведения о создании аналитических отчетов см. в разделе [Начало работы с Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/). Эта страница является отличным источником важных данных, которые могут помочь создать привлекательные аналитические решения отчетности.
+> Дополнительные сведения о создании аналитических отчетов см. в разделе [Начало работы с Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Эта страница является отличным источником важных данных, которые могут помочь создать привлекательные аналитические решения отчетности.
 
 # <a name="add-a-pbix-file-as-a-resource"></a>Добавление PBIX-файла как ресурса Dynamics 365
-Прежде чем начать, необходимо создать или получить отчет Power BI, который будет внедрен в рабочую область. Дополнительные сведения о создании аналитических отчетов см. в разделе [Начало работы с Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/).
+Прежде чем начать, необходимо создать или получить отчет Power BI, который будет внедрен в рабочую область. Дополнительные сведения о создании аналитических отчетов см. в разделе [Начало работы с Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Выполните следующие действия, чтобы добавить PBIX-файл в качестве артефакта проекта Visual Studio.
 

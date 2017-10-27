@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
-ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6b05dbef279b06fefc1eccd87689693edf2a418e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/14/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 06/14/2017
 
 
 
-Дополнительные сведения см. в разделе [Сотрудничество с поставщиками с помощью портала поставщиков](/dynamics365/unified-operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+Дополнительные сведения см. в разделе [Сотрудничество с поставщиками с помощью портала поставщиков](../../supply-chain/procurement/collaborate-vendors-vendor-portal.md)
 
 
 

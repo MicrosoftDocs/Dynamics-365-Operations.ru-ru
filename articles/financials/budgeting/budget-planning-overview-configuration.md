@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 64d915a5e039ba242f6d5ae5f43c8e09d6ca282e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +77,7 @@ ms.lasthandoff: 06/20/2017
 
 На странице **Организационная иерархия**, вы можете обозначить организационную иерархию как иерархию планирования бюджета для каждого процесса бюджетного планирования. Иерархия планирования бюджета не обязательно должна соответствовать стандартной организационной иерархия, которая использована для других целей. Так как эта иерархия использована для того, чтобы агрегировать и распределить данные, вы можете хотеть, чтобы она имела другую структуру. В примере схемы, Подразделения продаж — под уровнем центрального офиса, который включает Подразделения бюджета и финансов. Эта структура, вероятно, отличается от структуры, которая использована для того, чтобы управлять деятельностью Подразделений продаж. Только одну организационную иерархию можно назначить каждому процессу бюджетного планирования. 
 
-Дополнительные сведения см. в разделе [Организации и организационные иерархии](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
+Дополнительные сведения см. в разделе [Организации и организационные иерархии](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Безопасность пользователя
 

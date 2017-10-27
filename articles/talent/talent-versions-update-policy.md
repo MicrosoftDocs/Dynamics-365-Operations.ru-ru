@@ -19,10 +19,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: 157cb807a5a5e61b022b3186dfbe67b95c2408ec
+ms.sourcegitcommit: fc8102d945faf9ad533f57ec1a45b0e0dc344963
+ms.openlocfilehash: c5942ecb80047628c863deb878c0959727ab57bb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 08/01/2017
 
 ## <a name="supported-microsoft-office-applications"></a>Поддерживаемые приложения Microsoft Office
 
-*   Для запуска надстроек Microsoft Excel и Word должен быть установлен Microsoft Office 2016 для Windows или Mac. Дополнительные сведения о требованиях к версии см. разделе [Устранение неполадок интеграции с Office] (https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting "Устранение неполадок интеграции с Office").
+*   Для запуска надстроек Microsoft Excel и Word должен быть установлен Microsoft Office 2016 для Windows или Mac. Дополнительные сведения о требованиях к версии см. разделе [Устранение неполадок интеграции с Office] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Устранение неполадок интеграции с Office").
 *   Для просмотра документов, созданных с помощью функции экспорта в Excel или экспорта в Word должен быть установлен пакет Microsoft Office 2007 или более поздняя версия.
 
 ## <a name="update-policy"></a>Политика обновления
