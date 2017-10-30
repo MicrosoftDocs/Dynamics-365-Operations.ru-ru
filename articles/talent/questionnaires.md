@@ -1,7 +1,7 @@
 ---
 title: "Анкеты"
 description: "В этом разделе представлены общие сведения об анкетах и ссылки на более подробные сведения. Анкета — это набор вопросов, используемых для сбора сведений для различных целей. Анкеты можно разрабатывать, создавать, распространять и заполнять, а затем анализировать результаты."
-author: twheeloc
+author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: rschloma
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17271
 ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: kherr75
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
