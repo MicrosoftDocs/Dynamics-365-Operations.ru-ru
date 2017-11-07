@@ -1,7 +1,7 @@
 ---
 title: "Настройка электронной отчетности для переноса данных в Power BI"
 description: "В этом разделе описывается, как можно использовать конфигурацию электронной отчетности (ER), чтобы настроить перенос данных из вашего экземпляра Finance and Operations в службы Power BI. В качестве примера в этом разделе используются проводки Интрастат как бизнес-данные, которые необходимо перенести. Визуализация карты Power BI использует эти данные о проводках Интрастат для представления анализа мероприятий импорта или экспорта компании в отчете Power BI."
-author: kfend
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
