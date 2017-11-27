@@ -3,24 +3,24 @@ title: "Локализация и нормативные компоненты"
 description: "В этом разделе содержатся списки ресурсов, которые помогут вам узнать больше о функциональности, относящейся к конкретным странам и регионам."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: fd01d40d3e74503e3e310132882306ed8c23ad1d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 25c8c6c9bbccf07ce94a909824ecc8096081cd2c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -65,7 +65,7 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 -   [Загрузка конфигураций электронной отчетности из Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
 -   [Импорт конфигураций электронной отчетности](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Настройка электронной отчетности для загрузки данных в Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Создание электронных документов и обновление данных в приложении с помощью электронной отчетности](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Создание электронных документов и обновление данных в приложении с помощью средства электронной отчетности](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Проводники по задачам
 Проводники по задачам доступны в области справки продукта и содержат пошаговые инструкции по основным бизнес-процессам. Вы можете открыть проводник по задаче, чтобы изучить действия бизнес-процесса, или запустить его, чтобы выполнить все шаги бизнес-процесса с вводом соответствующих данных.
