@@ -26,59 +26,59 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="76433-104">Пользовательские параметры в конструкторе финансовых отчетов</span><span class="sxs-lookup"><span data-stu-id="76433-104">User preferences in financial report designer</span></span>
+# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="0d4e9-104">Пользовательские параметры в конструкторе финансовых отчетов</span><span class="sxs-lookup"><span data-stu-id="0d4e9-104">User preferences in financial report designer</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="76433-105">В этой статье объясняется, как настроить предпочтительные параметры пользователя для настройки взаимодействия в конструкторе финансовых отчетов и управления исходным входом в систему.</span><span class="sxs-lookup"><span data-stu-id="76433-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="76433-106">Также можно управлять отображением отдельных отчетов, библиотекой отчетов и расположениями файлов по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="76433-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span> 
+<span data-ttu-id="0d4e9-105">В этой статье объясняется, как настроить предпочтительные параметры пользователя для настройки взаимодействия в конструкторе финансовых отчетов и управления исходным входом в систему.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="0d4e9-106">Также можно управлять отображением отдельных отчетов, библиотекой отчетов и расположениями файлов по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span> 
 
-<a name="set-user-preferences"></a><span data-ttu-id="76433-107">Задать Предпочтения пользователя</span><span class="sxs-lookup"><span data-stu-id="76433-107">Set user preferences</span></span>
+<a name="set-user-preferences"></a><span data-ttu-id="0d4e9-107">Задать Предпочтения пользователя</span><span class="sxs-lookup"><span data-stu-id="0d4e9-107">Set user preferences</span></span>
 --------------------
 
-1.  <span data-ttu-id="76433-108">В конструкторе отчетов в меню **Сервис** щелкните **Параметры**.</span><span class="sxs-lookup"><span data-stu-id="76433-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
-2.  <span data-ttu-id="76433-109">В диалоговом окне **Параметры**, выберите ваши предпочтения.</span><span class="sxs-lookup"><span data-stu-id="76433-109">In the **Options** dialog box, select your preferences.</span></span>
-3.  <span data-ttu-id="76433-110">Нажмите кнопку **OК**.</span><span class="sxs-lookup"><span data-stu-id="76433-110">Click **OK**.</span></span>
+1.  <span data-ttu-id="0d4e9-108">В конструкторе отчетов в меню **Сервис** щелкните **Параметры**.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
+2.  <span data-ttu-id="0d4e9-109">В диалоговом окне **Параметры**, выберите ваши предпочтения.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-109">In the **Options** dialog box, select your preferences.</span></span>
+3.  <span data-ttu-id="0d4e9-110">Нажмите кнопку **OК**.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-110">Click **OK**.</span></span>
 
-## <a name="options-dialog-box-options"></a><span data-ttu-id="76433-111">Параметры диалогового окна Параметры</span><span class="sxs-lookup"><span data-stu-id="76433-111">Options dialog box options</span></span>
+## <a name="options-dialog-box-options"></a><span data-ttu-id="0d4e9-111">Параметры диалогового окна Параметры</span><span class="sxs-lookup"><span data-stu-id="0d4e9-111">Options dialog box options</span></span>
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="76433-112">Параметры пользователя</span><span class="sxs-lookup"><span data-stu-id="76433-112">User option</span></span></th>
-<th><span data-ttu-id="76433-113">описание</span><span class="sxs-lookup"><span data-stu-id="76433-113">Description</span></span></th>
+<th><span data-ttu-id="0d4e9-112">Параметры пользователя</span><span class="sxs-lookup"><span data-stu-id="0d4e9-112">User option</span></span></th>
+<th><span data-ttu-id="0d4e9-113">описание</span><span class="sxs-lookup"><span data-stu-id="0d4e9-113">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="76433-114">При запуске</span><span class="sxs-lookup"><span data-stu-id="76433-114">At startup</span></span></td>
-<td><span data-ttu-id="76433-115">Выберите элементы для отображения при запуске конструктора отчетов.</span><span class="sxs-lookup"><span data-stu-id="76433-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="76433-116">Выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="76433-116">Select one of the following options:</span></span>
+<td><span data-ttu-id="0d4e9-114">При запуске</span><span class="sxs-lookup"><span data-stu-id="0d4e9-114">At startup</span></span></td>
+<td><span data-ttu-id="0d4e9-115">Выберите элементы для отображения при запуске конструктора отчетов.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="0d4e9-116">Выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="0d4e9-116">Select one of the following options:</span></span>
 <ul>
-<li><span data-ttu-id="76433-117"><strong>Загрузить последний отчет</strong> — открывается отчет, который вы смотрели последним.</span><span class="sxs-lookup"><span data-stu-id="76433-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
-<li><span data-ttu-id="76433-118"><strong>Показать окно "Открыть"</strong> — открывается окно <strong>Открыть</strong> .</span><span class="sxs-lookup"><span data-stu-id="76433-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="76433-119">Окно <strong>Открыть</strong> предоставляет окно поиска для быстрого поиска строительных блоков.</span><span class="sxs-lookup"><span data-stu-id="76433-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
-<li><span data-ttu-id="76433-120"><strong>Показать пустую среду</strong> — открывается пустое окно конструктора.</span><span class="sxs-lookup"><span data-stu-id="76433-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
+<li><span data-ttu-id="0d4e9-117"><strong>Загрузить последний отчет</strong> — открывается отчет, который вы смотрели последним.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
+<li><span data-ttu-id="0d4e9-118"><strong>Показать окно "Открыть"</strong> — открывается окно <strong>Открыть</strong> .</span><span class="sxs-lookup"><span data-stu-id="0d4e9-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="0d4e9-119">Окно <strong>Открыть</strong> предоставляет окно поиска для быстрого поиска строительных блоков.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
+<li><span data-ttu-id="0d4e9-120"><strong>Показать пустую среду</strong> — открывается пустое окно конструктора.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="76433-121">Показывать подтверждение перед тем, как выходить из конструктора отчетов</span><span class="sxs-lookup"><span data-stu-id="76433-121">Display confirmation before exiting Report Designer</span></span></td>
-<td><span data-ttu-id="76433-122">Укажите, следует ли получать предупреждение при выходе из приложения.</span><span class="sxs-lookup"><span data-stu-id="76433-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="76433-123">Это сообщение помогает гарантировать, что вы не выйдите из программы случайно.</span><span class="sxs-lookup"><span data-stu-id="76433-123">This message helps guarantee that you don't exit the program unintentionally.</span></span></td>
+<td><span data-ttu-id="0d4e9-121">Показывать подтверждение перед тем, как выходить из конструктора отчетов</span><span class="sxs-lookup"><span data-stu-id="0d4e9-121">Display confirmation before exiting Report Designer</span></span></td>
+<td><span data-ttu-id="0d4e9-122">Укажите, следует ли получать предупреждение при выходе из приложения.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="0d4e9-123">Это сообщение помогает гарантировать, что вы не выйдите из программы случайно.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-123">This message helps guarantee that you don't exit the program unintentionally.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="76433-124">Автоматически применить подчеркивание ячеек в заголовках столбца</span><span class="sxs-lookup"><span data-stu-id="76433-124">Automatically apply cell underline in column headers</span></span></td>
-<td><span data-ttu-id="76433-125">Укажите, следует ли вставлять подчеркивание в ячейке нового заголовка столбца.</span><span class="sxs-lookup"><span data-stu-id="76433-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
+<td><span data-ttu-id="0d4e9-124">Автоматически применить подчеркивание ячеек в заголовках столбца</span><span class="sxs-lookup"><span data-stu-id="0d4e9-124">Automatically apply cell underline in column headers</span></span></td>
+<td><span data-ttu-id="0d4e9-125">Укажите, следует ли вставлять подчеркивание в ячейке нового заголовка столбца.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="76433-126">Расположение файлов Management Reporter</span><span class="sxs-lookup"><span data-stu-id="76433-126">Management Reporter files location</span></span></td>
-<td><span data-ttu-id="76433-127">Укажите расположение файлов по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="76433-127">Specify the default location for files.</span></span> <span data-ttu-id="76433-128">Приложение использует расположение по умолчанию при экспорте групп строительных блоков.</span><span class="sxs-lookup"><span data-stu-id="76433-128">The application uses the default location when you export building block groups.</span></span></td>
+<td><span data-ttu-id="0d4e9-126">Расположение файлов Management Reporter</span><span class="sxs-lookup"><span data-stu-id="0d4e9-126">Management Reporter files location</span></span></td>
+<td><span data-ttu-id="0d4e9-127">Укажите расположение файлов по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-127">Specify the default location for files.</span></span> <span data-ttu-id="0d4e9-128">Приложение использует расположение по умолчанию при экспорте групп строительных блоков.</span><span class="sxs-lookup"><span data-stu-id="0d4e9-128">The application uses the default location when you export building block groups.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<a name="see-also"></a><span data-ttu-id="76433-129">См. также</span><span class="sxs-lookup"><span data-stu-id="76433-129">See also</span></span>
+<a name="see-also"></a><span data-ttu-id="0d4e9-129">См. также</span><span class="sxs-lookup"><span data-stu-id="0d4e9-129">See also</span></span>
 --------
 
-[<span data-ttu-id="76433-130">Финансовая отчетность</span><span class="sxs-lookup"><span data-stu-id="76433-130">Financial reporting</span></span>](financial-reporting-intro.md)
+[<span data-ttu-id="0d4e9-130">Финансовая отчетность</span><span class="sxs-lookup"><span data-stu-id="0d4e9-130">Financial reporting</span></span>](financial-reporting-intro.md)
 
 
 

@@ -26,25 +26,25 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="assess-sales-performance-by-product"></a><span data-ttu-id="dc8f8-103">Оценка эффективности продаж по продукту</span><span class="sxs-lookup"><span data-stu-id="dc8f8-103">Assess sales performance by product</span></span>
+# <a name="assess-sales-performance-by-product"></a><span data-ttu-id="12fb3-103">Оценка эффективности продаж по продукту</span><span class="sxs-lookup"><span data-stu-id="12fb3-103">Assess sales performance by product</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-<span data-ttu-id="dc8f8-104">Вы можете анализировать рентабельность 10 лучших продуктов с помощью Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="dc8f8-104">You can study profitability for the top 10 products using Microsoft Dynamics 365 for Retail.</span></span> 
+<span data-ttu-id="12fb3-104">Вы можете анализировать рентабельность 10 лучших продуктов с помощью Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="12fb3-104">You can study profitability for the top 10 products using Microsoft Dynamics 365 for Retail.</span></span> 
 
-<span data-ttu-id="dc8f8-105">В рамках использования Dynamics 365 for Retail пользователи могут также анализировать прибыльность ключевых продуктов (от 10 до 100) на разных уровнях иерархии организации с учетом одного из следующих критериев.</span><span class="sxs-lookup"><span data-stu-id="dc8f8-105">As part of Dynamics 365 for Retail, users can also study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
+<span data-ttu-id="12fb3-105">В рамках использования Dynamics 365 for Retail пользователи могут также анализировать прибыльность ключевых продуктов (от 10 до 100) на разных уровнях иерархии организации с учетом одного из следующих критериев.</span><span class="sxs-lookup"><span data-stu-id="12fb3-105">As part of Dynamics 365 for Retail, users can also study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
--   <span data-ttu-id="dc8f8-106">Сумма продаж</span><span class="sxs-lookup"><span data-stu-id="dc8f8-106">Sales amount</span></span>
--   <span data-ttu-id="dc8f8-107">Количество</span><span class="sxs-lookup"><span data-stu-id="dc8f8-107">Quantity</span></span>
--   <span data-ttu-id="dc8f8-108">Маржа для валовой прибыли</span><span class="sxs-lookup"><span data-stu-id="dc8f8-108">Gross profit margin</span></span>
--   <span data-ttu-id="dc8f8-109">Процент маржи</span><span class="sxs-lookup"><span data-stu-id="dc8f8-109">Margin percentage</span></span>
+-   <span data-ttu-id="12fb3-106">Сумма продаж</span><span class="sxs-lookup"><span data-stu-id="12fb3-106">Sales amount</span></span>
+-   <span data-ttu-id="12fb3-107">Количество</span><span class="sxs-lookup"><span data-stu-id="12fb3-107">Quantity</span></span>
+-   <span data-ttu-id="12fb3-108">Маржа для валовой прибыли</span><span class="sxs-lookup"><span data-stu-id="12fb3-108">Gross profit margin</span></span>
+-   <span data-ttu-id="12fb3-109">Процент маржи</span><span class="sxs-lookup"><span data-stu-id="12fb3-109">Margin percentage</span></span>
 
-<span data-ttu-id="dc8f8-110">Для этой оценки можно использовать готовый отчет **Ведущие продукты**, который можно открыть в любом из следующих расположений.</span><span class="sxs-lookup"><span data-stu-id="dc8f8-110">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
+<span data-ttu-id="12fb3-110">Для этой оценки можно использовать готовый отчет **Ведущие продукты**, который можно открыть в любом из следующих расположений.</span><span class="sxs-lookup"><span data-stu-id="12fb3-110">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
 
--   <span data-ttu-id="dc8f8-111">Рабочая область **Руководство розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Самые популярные продукты"**</span><span class="sxs-lookup"><span data-stu-id="dc8f8-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
--   <span data-ttu-id="dc8f8-112">Рабочая область **Управление категориями и продуктами** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Ведущие продукты"**</span><span class="sxs-lookup"><span data-stu-id="dc8f8-112">**Category and product management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
--   <span data-ttu-id="dc8f8-113">Раздел **Запросы и отчеты** &gt; **Розничная торговля** &gt; **Запросы и отчеты** &gt; **Отчеты о продажах** &gt; **Отчет "Самые популярные продукты"**</span><span class="sxs-lookup"><span data-stu-id="dc8f8-113">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="12fb3-111">Рабочая область **Руководство розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Самые популярные продукты"**</span><span class="sxs-lookup"><span data-stu-id="12fb3-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="12fb3-112">Рабочая область **Управление категориями и продуктами** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Ведущие продукты"**</span><span class="sxs-lookup"><span data-stu-id="12fb3-112">**Category and product management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="12fb3-113">Раздел **Запросы и отчеты** &gt; **Розничная торговля** &gt; **Запросы и отчеты** &gt; **Отчеты о продажах** &gt; **Отчет "Самые популярные продукты"**</span><span class="sxs-lookup"><span data-stu-id="12fb3-113">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>
 
 
 
