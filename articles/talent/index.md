@@ -18,89 +18,89 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cd36663eddbd54a11b7f7c127631d249fb63227b
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 449643cc34e67388210e0b4e9d04d615d2420610
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
-# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Добро пожаловать в Microsoft Dynamics 365 for Talent
+# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="7e1cf-104">Добро пожаловать в Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="7e1cf-104">Welcome to Microsoft Dynamics 365 for Talent</span></span>
 
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent упрощает множество повседневных задач по управлению записями и автоматизирует несколько процессов, связанных с персоналом организации. К этим процессам относится удержание сотрудников, администрирование льгот, обучение, оценки производительности и управление изменениями. Кроме того, приложение предоставляет персоналу отдела кадров платформу для управления всеми аспектами деятельности отдела.
+<span data-ttu-id="7e1cf-105">Microsoft Dynamics 365 for Talent упрощает множество повседневных задач по управлению записями и автоматизирует несколько процессов, связанных с персоналом организации.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-105">Microsoft Dynamics 365 for Talent streamlines many routine recordkeeping tasks and automates a number of processes related to staffing your organization.</span></span> <span data-ttu-id="7e1cf-106">К этим процессам относится удержание сотрудников, администрирование льгот, обучение, оценки производительности и управление изменениями.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-106">These processes include employee retention, benefits administration, training, performance reviews, and change management.</span></span> <span data-ttu-id="7e1cf-107">Кроме того, приложение предоставляет персоналу отдела кадров платформу для управления всеми аспектами деятельности отдела.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-107">It also provides a framework for human resources staff to manage areas of oversight.</span></span>
 
-Talent позволяет выполнять следующие задачи:
+<span data-ttu-id="7e1cf-108">Talent позволяет выполнять следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="7e1cf-108">You can use Talent to complete these tasks:</span></span>
 
-+ Администрирование организационных структур.
-+ Ведение полного объема сведений о работнике с момента найма до выхода на пенсию.
-+ Определение и администрирование планов льгот, регистрация работников, назначение покрытие для иждивенца и назначение бенефициаров.
-+ Внедрение и мониторинг политик отсутствия.
-+ Реализация и отслеживание управления временем на основе профилей и создание сведений о платежах для экспорта в систему заработной платы.
-+ Управление компетенциями работников.
-+ Проверка производительности и реализация целей работника.
-+ Настройка, проведение и анализ учебных курсов, включая планы, сеансы и программы.
++ <span data-ttu-id="7e1cf-109">Администрирование организационных структур.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-109">Administer organizational structures.</span></span>
++ <span data-ttu-id="7e1cf-110">Ведение полного объема сведений о работнике с момента найма до выхода на пенсию.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-110">Maintain comprehensive worker information from hire to retire.</span></span>
++ <span data-ttu-id="7e1cf-111">Определение и администрирование планов льгот, регистрация работников, назначение покрытие для иждивенца и назначение бенефициаров.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-111">Define and administer benefit plans, enroll workers, assign dependent coverage, and designate beneficiaries.</span></span>
++ <span data-ttu-id="7e1cf-112">Внедрение и мониторинг политик отсутствия.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-112">Establish and monitor absence policies.</span></span>
++ <span data-ttu-id="7e1cf-113">Реализация и отслеживание управления временем на основе профилей и создание сведений о платежах для экспорта в систему заработной платы.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-113">Implement and track profile-based time management and generate pay information to export to a payroll system.</span></span>
++ <span data-ttu-id="7e1cf-114">Управление компетенциями работников.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-114">Manage worker competencies.</span></span>
++ <span data-ttu-id="7e1cf-115">Проверка производительности и реализация целей работника.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-115">Review performance and implement worker goals.</span></span>
++ <span data-ttu-id="7e1cf-116">Настройка, проведение и анализ учебных курсов, включая планы, сеансы и программы.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-116">Set up, deliver, and analyze training courses that include agendas, sessions, and tracks.</span></span>
 
 > [!NOTE] 
-> Приложение Dynamics 365 for Talent тесно связано с модулем "Управление персоналом" в Dynamics 365 for Finance and Operations, Enterprise Edition. Одинаковые функциональные возможности могут быть доступны в обоих продуктах. В результате в темах, которые в основном связаны с модулем "Управление персоналом", будет использоваться имя продукта Dynamics 365 for Finance and Operations, Enterprise Edition, а в темах, которые в основном связаны Talent, будет использоваться имя продукта Dynamics 365 for Talent. Темы, написанные для одного продукта, могут относиться и к аналогичным функциональным возможностям в связанном продукте.
+> <span data-ttu-id="7e1cf-117">Приложение Dynamics 365 for Talent тесно связано с модулем "Управление персоналом" в Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-117">Dynamics 365 for Talent is closely related to Human resources in Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="7e1cf-118">Одинаковые функциональные возможности могут быть доступны в обоих продуктах.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-118">The same functionality may appear in both products.</span></span> <span data-ttu-id="7e1cf-119">В результате в темах, которые в основном связаны с модулем "Управление персоналом", будет использоваться имя продукта Dynamics 365 for Finance and Operations, Enterprise Edition, а в темах, которые в основном связаны Talent, будет использоваться имя продукта Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-119">As a result, in topics that are primarily related Human resources, the product name will be Dynamics 365 for Finance and Operations, Enterprise Edition; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent.</span></span> <span data-ttu-id="7e1cf-120">Темы, написанные для одного продукта, могут относиться и к аналогичным функциональным возможностям в связанном продукте.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-120">Topics that are written for one product may apply to the same functionality in a related product.</span></span>
 
-<a name="develop-a-strategy-for-managing-your-human-resources"></a>Разработка стратегии по управлению персоналом
+<a name="develop-a-strategy-for-managing-your-human-resources"></a><span data-ttu-id="7e1cf-121">Разработка стратегии по управлению персоналом</span><span class="sxs-lookup"><span data-stu-id="7e1cf-121">Develop a strategy for managing your human resources</span></span>
 ---------------------------------------------------------
 
-При работе с Talent вы определяете структуру своей организации, используя такие элементы, как подразделения, должности и штатные единицы. Они относятся к основным настраиваемым элементам. Отдельные сотрудники назначаются штатным единицам, связанным с должностями.
+<span data-ttu-id="7e1cf-122">При работе с Talent вы определяете структуру своей организации, используя такие элементы, как подразделения, должности и штатные единицы.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-122">As you work with Talent, you'll decide how to structure your organization, using elements, such as departments, jobs, and positions.</span></span> <span data-ttu-id="7e1cf-123">Они относятся к основным настраиваемым элементам.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-123">These are among the foundational elements that you'll configure.</span></span> <span data-ttu-id="7e1cf-124">Отдельные сотрудники назначаются штатным единицам, связанным с должностями.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-124">Individual employees are assigned to positions which are associated with jobs.</span></span>
 
--   [Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц](departments-jobs-positions.md)
--   [Настройка параметров управления персоналом для конкретной компании](set-up-company-specific-hr-parameters.md)
--   [Настройка параметров управления персоналом для нескольких юридических лиц](set-up-hr-parameters-across-legal-entities.md) 
--   [Вопросы и ответы по действиям персонала](personnel-actions-faq.md)
--   [Обзор отпусков и отсутствия на работе](leave-absence-overview.md)
+-   [<span data-ttu-id="7e1cf-125">Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц</span><span class="sxs-lookup"><span data-stu-id="7e1cf-125">Organize your workforce using departments, jobs, and positions</span></span>](departments-jobs-positions.md)
+-   [<span data-ttu-id="7e1cf-126">Настройка параметров управления персоналом для конкретной компании</span><span class="sxs-lookup"><span data-stu-id="7e1cf-126">Set up company-specific HR parameters</span></span>](set-up-company-specific-hr-parameters.md)
+-   [<span data-ttu-id="7e1cf-127">Настройка параметров управления персоналом для нескольких юридических лиц</span><span class="sxs-lookup"><span data-stu-id="7e1cf-127">Set up HR parameters across legal entities</span></span>](set-up-hr-parameters-across-legal-entities.md) 
+-   [<span data-ttu-id="7e1cf-128">Вопросы и ответы по действиям персонала</span><span class="sxs-lookup"><span data-stu-id="7e1cf-128">Personnel actions FAQ</span></span>](personnel-actions-faq.md)
+-   [<span data-ttu-id="7e1cf-129">Обзор отпусков и отсутствия на работе</span><span class="sxs-lookup"><span data-stu-id="7e1cf-129">Leave and absence overview</span></span>](leave-absence-overview.md)
 
-## <a name="staffing-your-organization"></a>Набор персонала для организации
+## <a name="staffing-your-organization"></a><span data-ttu-id="7e1cf-130">Набор персонала для организации</span><span class="sxs-lookup"><span data-stu-id="7e1cf-130">Staffing your organization</span></span>
 
-Dynamics 365 for Talent включает приложение Attract, помогающее находить кандидатов, обладающих навыками, нужными вашей организации, проводить с ними собеседования, а затем нанимать их. При переходе от рекрутинга к найму вам на помощью приходит модуль Onboard, которое помогает новым эффективно включиться в работу благодаря установке адекватных ожиданий, предоставлению необходимой информации, знакомству сотрудников с коллегами и созданию условий для достижения успеха на новом месте.  
+<span data-ttu-id="7e1cf-131">Dynamics 365 for Talent включает приложение Attract, помогающее находить кандидатов, обладающих навыками, нужными вашей организации, проводить с ними собеседования, а затем нанимать их.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-131">Dynamics 365 for Talent includes the Attract app, which can help you identify, interview, and hire candidates that hold the skills your organization needs.</span></span> <span data-ttu-id="7e1cf-132">При переходе от рекрутинга к найму вам на помощью приходит модуль Onboard, которое помогает новым эффективно включиться в работу благодаря установке адекватных ожиданий, предоставлению необходимой информации, знакомству сотрудников с коллегами и созданию условий для достижения успеха на новом месте.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-132">As you move from recruiting through hiring, the Onboard app can help you bring your new employee into your organization by setting accurate expectations, providing information they need to get started, connecting them with colleagues, and set them up for success in their new role.</span></span>  
 
-- [Обзор модуля Attract](attract-overview.md)
-- [Обзор модуля Onboard](create-onboarding-experience.md)
+- [<span data-ttu-id="7e1cf-133">Обзор модуля Attract</span><span class="sxs-lookup"><span data-stu-id="7e1cf-133">Attract overview</span></span>](attract-overview.md)
+- [<span data-ttu-id="7e1cf-134">Обзор модуля Onboard</span><span class="sxs-lookup"><span data-stu-id="7e1cf-134">Onboard overview</span></span>](create-onboarding-experience.md)
 
-## <a name="retain-and-motivate-employees"></a>Удержание и мотивация сотрудников
+## <a name="retain-and-motivate-employees"></a><span data-ttu-id="7e1cf-135">Удержание и мотивация сотрудников</span><span class="sxs-lookup"><span data-stu-id="7e1cf-135">Retain and motivate employees</span></span>
 
-Вы можете настроить планы для эффективного и четкого управления компенсацией, а также управлять номенклатурами, такими как компьютеры или телефоны, которые организация предоставляет своим сотрудникам. Можно создать планы фиксированной и переменной компенсации, а также определить правила, которые применяются к плану компенсационных выплат для соответствия условиям этого плана.
+<span data-ttu-id="7e1cf-136">Вы можете настроить планы для эффективного и четкого управления компенсацией, а также управлять номенклатурами, такими как компьютеры или телефоны, которые организация предоставляет своим сотрудникам.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-136">You can set up plans to effectively and equitably manage compensation, as well as manage items, such as computers or phones, that your organization lends to its employees.</span></span> <span data-ttu-id="7e1cf-137">Можно создать планы фиксированной и переменной компенсации, а также определить правила, которые применяются к плану компенсационных выплат для соответствия условиям этого плана.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-137">You can create fixed and variable compensation plans, as well as define rules that apply the compensation plan to meet the criteria for that plan.</span></span>
 
--   [Планы компенсационных выплат](compensation-plans.md)
--   [Обработка компенсаций](process-compensation.md)
--   [Создание планов фиксированной компенсации](create-fixed-compensation-plans.md)
--   [Создание планов переменной компенсации](create-variable-compensation-plans.md)
+-   [<span data-ttu-id="7e1cf-138">Планы компенсационных выплат</span><span class="sxs-lookup"><span data-stu-id="7e1cf-138">Compensation plans</span></span>](compensation-plans.md)
+-   [<span data-ttu-id="7e1cf-139">Обработка компенсаций</span><span class="sxs-lookup"><span data-stu-id="7e1cf-139">Process compensation</span></span>](process-compensation.md)
+-   [<span data-ttu-id="7e1cf-140">Создание планов фиксированной компенсации</span><span class="sxs-lookup"><span data-stu-id="7e1cf-140">Create fixed compensation plans</span></span>](create-fixed-compensation-plans.md)
+-   [<span data-ttu-id="7e1cf-141">Создание планов переменной компенсации</span><span class="sxs-lookup"><span data-stu-id="7e1cf-141">Create variable compensation plans</span></span>](create-variable-compensation-plans.md)
 
-## <a name="develop-and-train-employees"></a>Развитие и обучение сотрудников
+## <a name="develop-and-train-employees"></a><span data-ttu-id="7e1cf-142">Развитие и обучение сотрудников</span><span class="sxs-lookup"><span data-stu-id="7e1cf-142">Develop and train employees</span></span>
 
-Чтобы помочь сотрудникам достигнуть карьерных целей при выполнении критически важных бизнес-задач, можно настроить цели, создать оценки производительности и отслеживать отзывы. Чтобы помочь сотрудникам развивать необходимые навыки, также можно настроить лекторов, типы курсов, курсы, описания курсов, планы, программы и сеансы, прежде чем назначить лектора для курса или зарегистрировать сотрудника на курс. Лекторы уже должны существовать в системе как работники, кандидаты или контакты.
+<span data-ttu-id="7e1cf-143">Чтобы помочь сотрудникам достигнуть карьерных целей при выполнении критически важных бизнес-задач, можно настроить цели, создать оценки производительности и отслеживать отзывы. Чтобы помочь сотрудникам развивать необходимые навыки, также можно настроить лекторов, типы курсов, курсы, описания курсов, планы, программы и сеансы, прежде чем назначить лектора для курса или зарегистрировать сотрудника на курс.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-143">To help your employees reach their career objectives while delivering critical business needs you can set up goals, create performance reviews and track feedback To help employees develop needed skills, you can also set up instructors, course types, courses, course descriptions, agendas, tracks, and sessions before you assign an instructor to a course, or register someone for a course.</span></span> <span data-ttu-id="7e1cf-144">Лекторы уже должны существовать в системе как работники, кандидаты или контакты.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-144">Instructors must already exist as workers, applicants, or contacts.</span></span>
 
--   [Управление производительностью](performance-management-overview.md)
--   [Совмещение навыков рабочей силы с потребностями бизнеса](skills.md)
--   [Администрирование обучения через курсы](courses.md)
+-   [<span data-ttu-id="7e1cf-145">Управление производительностью</span><span class="sxs-lookup"><span data-stu-id="7e1cf-145">Performance management</span></span>](performance-management-overview.md)
+-   [<span data-ttu-id="7e1cf-146">Совмещение навыков рабочей силы с потребностями бизнеса</span><span class="sxs-lookup"><span data-stu-id="7e1cf-146">Align workforce skills and business needs</span></span>](skills.md)
+-   [<span data-ttu-id="7e1cf-147">Администрирование обучения через курсы</span><span class="sxs-lookup"><span data-stu-id="7e1cf-147">Administer training through courses</span></span>](courses.md)
 
-## <a name="create-and-maintain-benefits"></a>Создание и ведение льгот
+## <a name="create-and-maintain-benefits"></a><span data-ttu-id="7e1cf-148">Создание и ведение льгот</span><span class="sxs-lookup"><span data-stu-id="7e1cf-148">Create and maintain benefits</span></span>
 
-В дополнение к заработной плате и премиям сотрудников можно разработать программы льгот, например программы медицинского страхования и пенсионные программы. Можно также управлять льготами, такими как программы займа, в которых компания одалживает номенклатуры, такие как компьютеры или телефоны, своим сотрудникам.
+<span data-ttu-id="7e1cf-149">В дополнение к заработной плате и премиям сотрудников можно разработать программы льгот, например программы медицинского страхования и пенсионные программы.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-149">In addition to compensating your staff with wages, salaries, and bonuses, you can develop benefit programs such as health insurance and retirement plans.</span></span> <span data-ttu-id="7e1cf-150">Можно также управлять льготами, такими как программы займа, в которых компания одалживает номенклатуры, такие как компьютеры или телефоны, своим сотрудникам.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-150">You can also manage benefits such as loan programs, in which your company lends items, such as computers or phones, to its employees.</span></span>
 
--   [Управление программой льгот](manage-benefit-program.md)
--   [Политики приемлемости льготы](benefit-eligibility-policies.md)
--   [Управление номенклатурами, сданными в аренду работникам](loan-items.md)
+-   [<span data-ttu-id="7e1cf-151">Управление программой льгот</span><span class="sxs-lookup"><span data-stu-id="7e1cf-151">Manage a benefit program</span></span>](manage-benefit-program.md)
+-   [<span data-ttu-id="7e1cf-152">Политики прав на льготы</span><span class="sxs-lookup"><span data-stu-id="7e1cf-152">Benefit eligibility policies</span></span>](benefit-eligibility-policies.md)
+-   [<span data-ttu-id="7e1cf-153">Управление номенклатурами, сданными в аренду работникам</span><span class="sxs-lookup"><span data-stu-id="7e1cf-153">Manage items lent to workers</span></span>](loan-items.md)
 
-## <a name="maintain-workplace-safety-and-compliance"></a>Ведение безопасности и соответствия рабочего места
+## <a name="maintain-workplace-safety-and-compliance"></a><span data-ttu-id="7e1cf-154">Ведение безопасности и соответствия рабочего места</span><span class="sxs-lookup"><span data-stu-id="7e1cf-154">Maintain workplace safety and compliance</span></span>
 
-Talent может помочь вам поддерживать безопасную рабочую среду, которая соответствует применимым законам, включая закон о защите прав нетрудоспособных граждан США и законы об иммиграции и натурализации, среди прочего. Например, можно управлять требованиями к физической подготовке для определенных должностей, а также отслеживать запросы на проживание, которые могут помочь вашей организации оптимизировать навыки трудовых ресурсов.
+<span data-ttu-id="7e1cf-155">Talent может помочь вам поддерживать безопасную рабочую среду, которая соответствует применимым законам, включая закон о защите прав нетрудоспособных граждан США и законы об иммиграции и натурализации, среди прочего.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-155">Talent can help you maintain a safe work environment that’s in compliance with applicable laws, including the Americans with Disabilities Act and immigration and naturalization laws, among others.</span></span> <span data-ttu-id="7e1cf-156">Например, можно управлять требованиями к физической подготовке для определенных должностей, а также отслеживать запросы на проживание, которые могут помочь вашей организации оптимизировать навыки трудовых ресурсов.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-156">For example, you can manage the physical requirements for specific jobs, as well as track requests for accommodations that can help your organization optimize the skills of its workforce.</span></span>
 
--   [Проверка сотрудников по форме I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
--   [Соответствие требованиям закона о защите прав нетрудоспособных граждан США](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+-   [<span data-ttu-id="7e1cf-157">Проверка сотрудников по форме I-9</span><span class="sxs-lookup"><span data-stu-id="7e1cf-157">Form I-9 employment verification</span></span>](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
+-   [<span data-ttu-id="7e1cf-158">Соответствие требованиям закона о защите прав нетрудоспособных граждан США</span><span class="sxs-lookup"><span data-stu-id="7e1cf-158">Comply with the Americans with Disabilities Act</span></span>](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
 
-## <a name="gather-information-using-questionnaires"></a>Сбор сведений с помощью анкет
+## <a name="gather-information-using-questionnaires"></a><span data-ttu-id="7e1cf-159">Сбор сведений с помощью анкет</span><span class="sxs-lookup"><span data-stu-id="7e1cf-159">Gather information using questionnaires</span></span>
 
-Можно разработать и администрировать анкеты для сбора информации, необходимой для множества целей. Функция "Анкета" позволяет разрабатывать и создавать анкеты. Когда анкета будет готова, ее можно отправить для заполнения широкому кругу пользователей или определенной группе респондентов. После того как респонденты предоставят свои ответы, можно просмотреть и проанализировать результаты.
+<span data-ttu-id="7e1cf-160">Можно разработать и администрировать анкеты для сбора информации, необходимой для множества целей.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-160">You can design and administer questionnaires to gather information that’s used for a variety of purposes.</span></span> <span data-ttu-id="7e1cf-161">Функция "Анкета" позволяет разрабатывать и создавать анкеты.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-161">The Questionnaire feature lets you design and create questionnaires.</span></span> <span data-ttu-id="7e1cf-162">Когда анкета будет готова, ее можно отправить для заполнения широкому кругу пользователей или определенной группе респондентов.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-162">When a questionnaire is ready, you distribute it broadly or to a specific set of respondents to complete.</span></span> <span data-ttu-id="7e1cf-163">После того как респонденты предоставят свои ответы, можно просмотреть и проанализировать результаты.</span><span class="sxs-lookup"><span data-stu-id="7e1cf-163">After the respondents provide their answers, you can review and analyze the results.</span></span>
 
--   [Анкеты](questionnaires.md)
--   [Разработка анкеты](design-questionnaires.md)
--   [Распределение и заполнение анкеты](distribute-questionnaires.md)
--   [Просмотр и оценка результатов анкеты](evaluate-questionnaire-results.md)
+-   [<span data-ttu-id="7e1cf-164">Анкеты</span><span class="sxs-lookup"><span data-stu-id="7e1cf-164">Questionnaires</span></span>](questionnaires.md)
+-   [<span data-ttu-id="7e1cf-165">Разработка анкеты</span><span class="sxs-lookup"><span data-stu-id="7e1cf-165">Design a questionnaire</span></span>](design-questionnaires.md)
+-   [<span data-ttu-id="7e1cf-166">Распространение и заполнение анкеты</span><span class="sxs-lookup"><span data-stu-id="7e1cf-166">Distribute and complete a questionnaire</span></span>](distribute-questionnaires.md)
+-   [<span data-ttu-id="7e1cf-167">Просмотр и оценка результатов анкеты</span><span class="sxs-lookup"><span data-stu-id="7e1cf-167">View and evaluate the results of a questionnaire</span></span>](evaluate-questionnaire-results.md)
 
