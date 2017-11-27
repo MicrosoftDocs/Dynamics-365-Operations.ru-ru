@@ -1,16 +1,16 @@
 ---
 title: "Домашняя страница модуля \"Управление цепочкой поставок\""
-description: "Эта страница указывает на ресурсы, которые помогут более эффективно использовать модуль \"Управление цепочкой поставок\" в Microsoft Dynamics 365 for Finance and Operations."
+description: "В этой теме представлен список разделов справки и других ресурсов по функциям управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 07/20/2017
+ms.date: 11/02/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 6cef449562ba75b03b10b4fe27a436ecff3a6691
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0ca879fc4b0a43cd3af1e45c78a48f1c942a9a6a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-Эта страница указывает на ресурсы, которые помогут более эффективно использовать модуль "Управление цепочкой поставок" в Microsoft Dynamics 365 for Finance and Operations. 
+В этой теме представлен список разделов справки и других ресурсов по функциям управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
 ## <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
-Перейдите в раздел <a href="https://roadmap.dynamics.com/">Дорожная карта Dynamics 365</a>, чтобы просмотреть новые функции, которые уже выпущены и которые все еще находятся в разработке. 
+Перейдите в раздел <a href="https://roadmap.dynamics.com/">Дорожная карта Dynamics 365</a>, чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке. 
 
 ## <a name="core-concepts-and-tasks"></a>Основные понятия и задачи
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/29/2017
 
 - [Учет затрат](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Управление затратами](cost-management/costing-sheets.md)  
-- [Управление запасами](inventory/consignment.md)
+- [Управление запасами](inventory/inventory-home-page.md)
 - [Сводное планирование](master-planning/introduction-demand-forecasting.md)
 - [Закупки и источники](procurement/procurement-sourcing-overview.md)
 - [Управление сведениями о продукте](pim/product-information.md)
@@ -54,7 +54,7 @@ ms.lasthandoff: 09/29/2017
 
 ### <a name="get-started"></a>Начало работы  
 
-Эти небольшие видеоролики помогут вам начать работу с новыми функциями Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise (июль 2017 года).
+Эти небольшие видеоролики помогут вам начать работу с новыми функциями Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 года).
 
 -  [Начало работы с учетом затрат](https://youtu.be/1pUDtJQZ8FU)
 -  [Мобильная рабочая область управления затратами](https://youtu.be/imsuTg8rUVk)
@@ -84,7 +84,7 @@ ms.lasthandoff: 09/29/2017
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Практическое занятие по учету затрат</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Бережливое производство: доступно для заказа с учетом производства (CTP) и планирование заданий канбана</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Расчет спецификации с использованием схемы калькуляции</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Мобильные решения для склада на базе Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Мобильные решения для склада на базе Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</a>
 
 ## <a name="elearning-courses"></a>Курсы eLearning
 Сведения об обучении Microsoft Dynamics 365 for Finance and Operations см. на <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">портале по обучению Microsoft Dynamics</a>. (требуется учетная запись CustomerSource) 

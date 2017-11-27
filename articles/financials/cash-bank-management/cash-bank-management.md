@@ -3,14 +3,14 @@ title: "Домашняя страница модуля \"Управление б
 description: "Модуль \"Управление банком и кассовыми операциями\" можно использовать для ведения банковских счетов юридического лица и финансовых инструментов, связанных с этими банковскими счетами."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/21/2017
+ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 82a2be9d6058a1c3394bb8269774772793333541
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8b060d8ef5bd7e7358df666c5e17cc5d9aac944a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -86,18 +86,18 @@ ms.lasthandoff: 09/29/2017
 
 #### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 
-Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы просмотреть новые функции, которые уже выпущены и которые все еще находятся в разработке. 
+Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке. 
 
 #### <a name="blogs"></a>Блоги
 
-Мнения, новости и другие сведения о работе с кассой и других решениях см. в [блоге Microsoft Dynamics 365] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Мнения, новости и другие сведения о модуле "Управление банком и кассовыми операциями" и других решениях см. в [блоге Microsoft Dynamics 365] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-В [блоге группы разработчиков Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) есть множество публикаций о работе с кассой и банком. Хотя некоторые из этих записей посвящены предыдущей версии средств управления кассой и банком, обсуждаемые в них понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии.
+В [блоге группы разработчиков Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) есть множество публикаций о модуле "Управление банком и кассовыми операциями". Хотя некоторые из этих публикаций посвящены предыдущей версии модуля "Управление банком и кассовыми операциями", обсуждаемые в них понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии.
 
 [Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в MBS Operations.
 
 #### <a name="task-guides"></a>Проводники по задачам
-Руководства по задачам в Finance and Operations — это еще один источник справочной информации. Чтобы перейти к руководствам по задачам, нажмите кнопку "Справка" на любой странице.
+Проводники по задачам в Finance and Operations — это еще один источник справочной информации. Чтобы перейти к проводникам по задачам, нажмите кнопку "Справка" на любой странице.
 
 #### <a name="videos"></a>Видео
 

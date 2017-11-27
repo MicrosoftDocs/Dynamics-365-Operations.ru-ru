@@ -28,7 +28,7 @@
 ### [Экспорт и импорт модели](dev-tools/models-export-import.md)
 ### [Поиск по метаданным в Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [Модели](dev-tools/models.md)
-### [Проекты в Dynamics 365 for Finance and Operations, выпуск Enterprise](dev-tools/projects.md)
+### [Проекты в Dynamics 365 for Finance and Operations, Enterprise Edition](dev-tools/projects.md)
 ### [Надстройки с инструментами для Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [Отключение настройки моделей и отказ от функций](dev-tools/lock-models.md)
 ### [Обновление средств разработки Visual Studio](dev-tools/update-development-tools.md)
@@ -47,64 +47,61 @@
 #### [Переменные и типы данных в X++](dev-ref/xpp-variables-data-types.md)
 #### [Инструкции, циклы и обработка исключений в X++](dev-ref/xpp-statements-loops.md)
 #### [Операторы X++](dev-ref/xpp-operators.md)
-#### [Приоритет операторов в X ++](dev-ref/xpp-operator-precedence.md)
+#### [Приоритет операторов в X++](dev-ref/xpp-operator-precedence.md)
 #### [Классы и методы в X++](dev-ref/xpp-classes-methods.md)
 #### [Выбор данных и манипуляции с данными в X++](dev-ref/xpp-data-query.md)
 #### [Макросы в X++](dev-ref/xpp-macros.md)
-#### [Классы атрибутов в X ++](dev-ref/xpp-attribute-classes.md)
+#### [Классы атрибутов в X++](dev-ref/xpp-attribute-classes.md)
 #### [Сравнение X++ и C\#](dev-ref/xpp-cs-comparison.md)
 #### [Синтаксис X++](dev-ref/xpp-syntax.md)
-## Функции времени компиляции
+## [Справка по API, классам и таблицам](dev-ref/api-reference.md)
 ### [Функции времени компиляции X++](dev-ref/xpp-compile-time-functions.md)
-## Функции времени выполнения
-### [Бизнес-функции времени выполнения X++](dev-ref/xpp-business-run-time-functions.md)
-### [Контейнерные функции времени выполнения X++](dev-ref/xpp-container-run-time-functions.md)
-### [Функции конвертации времени выполнения X++](dev-ref/xpp-conversion-run-time-functions.md)
-### [Функции даты времени выполнения X++](dev-ref/xpp-date-run-time-functions.md)
-### [Математические функции времени выполнения X++](dev-ref/xpp-math-run-time-functions.md)
-### [Функции отражения времени выполнения X++](dev-ref/xpp-reflection-run-time-functions.md)
 ### [Функции времени выполнения X++](dev-ref/xpp-run-time-functions.md)
-### [Функции сеансов времени выполнения X++](dev-ref/xpp-session-run-time-functions.md)
-### [Строковые функции времени выполнения X++](dev-ref/xpp-string-run-time-functions.md)
-## Системные таблицы
+#### [Бизнес-функции времени выполнения X++](dev-ref/xpp-business-run-time-functions.md)
+#### [Контейнерные функции времени выполнения X++](dev-ref/xpp-container-run-time-functions.md)
+#### [Функции конвертации времени выполнения X++](dev-ref/xpp-conversion-run-time-functions.md)
+#### [Функции даты времени выполнения X++](dev-ref/xpp-date-run-time-functions.md)
+#### [Математические функции времени выполнения X++](dev-ref/xpp-math-run-time-functions.md)
+#### [Функции отражения времени выполнения X++](dev-ref/xpp-reflection-run-time-functions.md)
+#### [Функции сеансов времени выполнения X++](dev-ref/xpp-session-run-time-functions.md)
+#### [Строковые функции времени выполнения X++](dev-ref/xpp-string-run-time-functions.md)
 ### [Системные таблицы](dev-ref/system-tables.md)
-## Системные классы
-### [Справка по API, классам и таблицам](dev-ref/api-reference.md)
-### [Классы A](dev-ref/a-classes.md)
-### [Классы B](dev-ref/b-classes.md)
-### [Классы C](dev-ref/c-classes.md)
-### [Классы D](dev-ref/d-classes.md)
-### [Классы E](dev-ref/e-classes.md)
-### [Классы F: от FieldBinding до FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
-### [Классы F: от FormBuildButtonControl до FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
-### [Классы F: от FormBuildFilterPaneControl до FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
-### [Классы F: от FormBuildReferenceControl до FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
-### [Классы F: от FormChangeTracker до FormControlEventArgs](dev-ref/formchangetracker-classes.md)
-### [Классы F: от FormDataObject до FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
-### [Классы F: от FormFastTabSummarySeparator до FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
-### [Классы F: от FormGroupControl до FormIntControl](dev-ref/formgroupcontrol-classes.md)
-### [Классы F: от FormListBoxControl до FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
-### [Классы F: от FormObject до FormRealControl](dev-ref/formobject-classes.md)
-### [Классы F: от FormReferenceControl до FormStringControl](dev-ref/formreferencecontrol-classes.md)
-### [Классы F: от FormTabControl до FormWindowControl](dev-ref/formtabcontrol-classes.md)
-### [Классы G](dev-ref/g-classes.md)
-### [Классы H](dev-ref/h-classes.md)
-### [Классы I](dev-ref/i-classes.md)
-### [Классы J](dev-ref/j-classes.md)
-### [Классы K](dev-ref/k-classes.md)
-### [Классы L](dev-ref/l-classes.md)
-### [Классы M](dev-ref/m-classes.md)
-### [Классы N](dev-ref/n-classes.md)
-### [Классы O](dev-ref/o-classes.md)
-### [Классы P](dev-ref/p-classes.md)
-### [Классы Q](dev-ref/q-classes.md)
-### [Классы R](dev-ref/r-classes.md)
-### [Классы S](dev-ref/s-classes.md)
-### [Классы T](dev-ref/t-classes.md)
-### [Классы U](dev-ref/u-classes.md)
-### [Классы V](dev-ref/v-classes.md)
-### [Классы W](dev-ref/w-classes.md)
-### [Классы X](dev-ref/x-classes.md)
+### Системные классы
+#### [Классы A](dev-ref/a-classes.md)
+#### [Классы B](dev-ref/b-classes.md)
+#### [Классы C](dev-ref/c-classes.md)
+#### [Классы D](dev-ref/d-classes.md)
+#### [Классы E](dev-ref/e-classes.md)
+#### [Классы F: от FieldBinding до FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
+#### [Классы F: от FormBuildButtonControl до FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
+#### [Классы F: от FormBuildFilterPaneControl до FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
+#### [Классы F: от FormBuildReferenceControl до FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
+#### [Классы F: от FormChangeTracker до FormControlEventArgs](dev-ref/formchangetracker-classes.md)
+#### [Классы F: от FormDataObject до FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
+#### [Классы F: от FormFastTabSummarySeparator до FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
+#### [Классы F: от FormGroupControl до FormIntControl](dev-ref/formgroupcontrol-classes.md)
+#### [Классы F: от FormListBoxControl до FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
+#### [Классы F: от FormObject до FormRealControl](dev-ref/formobject-classes.md)
+#### [Классы F: от FormReferenceControl до FormStringControl](dev-ref/formreferencecontrol-classes.md)
+#### [Классы F: от FormTabControl до FormWindowControl](dev-ref/formtabcontrol-classes.md)
+#### [Классы G](dev-ref/g-classes.md)
+#### [Классы H](dev-ref/h-classes.md)
+#### [Классы I](dev-ref/i-classes.md)
+#### [Классы J](dev-ref/j-classes.md)
+#### [Классы K](dev-ref/k-classes.md)
+#### [Классы L](dev-ref/l-classes.md)
+#### [Классы M](dev-ref/m-classes.md)
+#### [Классы N](dev-ref/n-classes.md)
+#### [Классы O](dev-ref/o-classes.md)
+#### [Классы P](dev-ref/p-classes.md)
+#### [Классы Q](dev-ref/q-classes.md)
+#### [Классы R](dev-ref/r-classes.md)
+#### [Классы S](dev-ref/s-classes.md)
+#### [Классы T](dev-ref/t-classes.md)
+#### [Классы U](dev-ref/u-classes.md)
+#### [Классы V](dev-ref/v-classes.md)
+#### [Классы W](dev-ref/w-classes.md)
+#### [Классы X](dev-ref/x-classes.md)
 
 ## [Домашняя страница расширения](extensibility/extensibility-home-page.md)
 ### Введение и начало работы
@@ -140,25 +137,20 @@
 #### [Изменение метки](extensibility/change-label.md)
 #### [Расширение области номерной серии](extensibility/extend-number-sequence-scope.md)
 
-## [Домашняя страница непрерывной поставки](dev-tools/continuous-delivery-home-page.md)
-### [Вопросы и ответы по разработке и непрерывной поставке](dev-tools/continuous-delivery-faq.md)
-### [Исключение тестовых пакетов из выходной сборки](dev-tools/exclude-test-packages.md)
-### [Управление сторонними моделями и пакетами сред выполнения с помощью системы управления версиями](dev-tools/manage-runtime-packages.md)
-### [Модели версий при автоматической сборке](dev-tools/version-models-build.md)
 
-## Домашняя страница производительности
+
+
+## Производительность
 ### [Трассировка с помощью синтаксического анализатора трассировки](perf-test/trace-trace-tutorial.md)
-### [PerfSDK и многопользовательское тестирования с использованием Visual Studio Team Services](perf-test/perfsdk-tutorial.md)
+### [PerfSDK и многопользовательское тестирование с использованием Visual Studio Team Services](perf-test/perfsdk-tutorial.md)
 ### [Диагностика проблем и анализ проблем с производительностью с помощью синтаксического анализатора трассировки](perf-test/trace-parser.md)
 ### [Таймер производительности](perf-test/performance-timer.md)
 ## Поддержка тестирования в Visual Studio
 ### [Тестирование и проверки](perf-test/testing-validation.md)
 ### [Проекты тестирования в Visual Studio](perf-test/testing-support.md)
 ### [Развертывание с использованием непрерывной сборки и автоматизации тестирования](perf-test/continuous-build-test-automation.md)
-## Даты
-### [Даты вступления в силу](dev-tools/date-effectivity.md)
-## Лицензирование
-### [Лицензирование для независимых поставщиков программного обеспечения](dev-tools/isv-licensing.md)
+## [Даты вступления в силу](dev-tools/date-effectivity.md)
+## [Лицензирование для независимых поставщиков программного обеспечения](dev-tools/isv-licensing.md)
 
 # [Разработка пользовательского интерфейса](user-interface/user-interface-development-home-page.md)
 ## Учебники
@@ -167,8 +159,8 @@
 ### [Создание навигации](user-interface/build-navigation.md)
 ### [Создание рабочей области](user-interface/build-workspace.md)
 ## Формы
-### [Навигация в Dynamics 365 for Finance and Operations, выпуск Enterprise](user-interface/page-navigation.md)
-### [Макеты в Dynamics 365 for Finance and Operations, выпуск Enterprise](user-interface/page-layout.md)
+### [Навигация в Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-navigation.md)
+### [Макеты в Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-layout.md)
 ### [Шрифт символов](user-interface/symbol-font.md)
 ### [Тестирование форм с пользовательскими шаблонами](user-interface/testing-forms-custom-patterns.md)
 ### [Создание и использование глубоких ссылок](user-interface/create-deep-links.md)
@@ -359,6 +351,104 @@
 #### [Тип ValueDesign](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md)
 #### [Тип ValueMetadata](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
+# Интеграция данных
+## [Схемы интеграции](data-entities/integration-overview.md)
+
+## API интеграции данных
+### [API пакета управления данными](data-entities/data-management-api.md)
+### [Конечные точки служб](data-entities/services-home-page.md)
+#### [Устранение неполадок при проверке подлинности в службах](data-entities/troubleshoot-service-authentication.md)
+### [OData](data-entities/odata.md)
+### [Пользовательские службы](data-entities/custom-services.md)
+### [Повторяющиеся интеграции](data-entities/recurring-integrations.md)
+
+## Разработка механизмов интеграции
+### [Интеграция данных с использованием информационных объектов](data-entities/data-management-integration-data-entity.md)
+#### [Разработка объекта для переноса данных](data-entities/develop-entity-for-data-migration.md)
+#### [Разработка составных информационных объектов](data-entities/develop-composite-data-entities.md)
+#### [Настройка совместного использования финансовых данных компаниями](data-entities/tasks/configure-financial-cross-company-data-sharing.md)
+#### [Создание шаблона записи для более удобного ввода данных](data-entities/tasks/create-record-template-facilitate-data-entry.md)
+#### [Использование шаблона записи для создания новой записи](data-entities/tasks/use-record-template-new-record.md)
+
+### [Интеграция данных с использованием Common Data Service](data-entities/data-integration-cds.md) 
+#### [Настройка сценария продажи перспективному клиенту](../supply-chain/sales-marketing/prospect-to-cash.md)
+##### [Синхронизация продуктов из Finance and Operations с продуктами в Sales](../supply-chain/sales-marketing/products-template-mapping.md)
+##### [Синхронизация организаций из Sales с клиентами в Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
+##### [Синхронизация контактов из Sales с контактами или клиентами в Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
+##### [Синхронизация заголовков и строк предложений по продажам из Sales с Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+##### [Синхронизация заголовков и строк заказов на продажу из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+##### [Синхронизация заголовков и строк накладных по продаже из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Синхронизация организаций непосредственно из Sales с клиентами в Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Синхронизация продуктов непосредственно из Finance and Operations с продуктами в Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Синхронизация контактов непосредственно из Sales с контактами или клиентами в Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Синхронизация заголовков и строк заказов на продажу непосредственно из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Синхронизация заголовков и строк накладных по продаже непосредственно из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+
+### [Использование внешних веб-служб](data-entities/consume-external-web-service.md)
+
+
+# [Управление данными](data-entities/data-entities-data-packages.md)
+
+## [Информационные объекты](data-entities/data-entities.md)
+
+### [Проекты, связанные с конфигурационными данными](data-entities/configuration-data-projects.md)
+### [Пакеты конфигурационных данных](data-entities/configuration-data-packages.md)
+### [Копирование конфигурационных данных между компаниями](data-entities/copy-configuration.md)
+### [Шаблоны конфигурационных данных](data-entities/configuration-data-templates.md)
+### [Отслеживание изменений в объектах](data-entities/entity-change-track.md)
+
+## Стандартные информационные объекты
+### [Отчет по информационным объектам](data-entities/data-entities-report.md)
+### [Информационные объекты: расчеты с поставщиками и налоги](data-entities/data-entities-accounts-payable-taxes.md)
+### [Информационные объекты: расчеты с клиентами](data-entities/data-entities-accounts-receivable.md)
+### [Информационные объекты: банк](data-entities/data-entities-bank.md)
+### [Информационные объекты: начальные сальдо](data-entities/data-entities-beginning-balances.md)
+### [Информационные объекты: бюджетное планирование](data-entities/data-entities-budget-plan.md)
+### [Информационные объекты: бюджетирование](data-entities/data-entities-budgeting.md)
+### [Информационные объекты: учет затрат](data-entities/data-entities-costing.md)
+### [Информационные объекты: управление расходами](data-entities/data-entities-expense-management.md)
+### [Информационные объекты: основные средства](data-entities/data-entities-fixed-assets.md)
+### [Информационные объекты: главная книга](data-entities/data-entities-general-ledger.md)
+### [Информационные объекты: глобальная адресная книга](data-entities/data-entities-global-address-book.md)
+### [Информационные объекты: управление персоналом](data-entities/data-entities-human-resources.md)
+### [Информационные объекты: управление запасами](data-entities/data-entities-inventory-management.md)
+### [Информационные объекты: сводное планирование](data-entities/data-entities-master-plan.md)
+### [Информационные объекты: закупки и источники](data-entities/data-entities-procurement-sourcing.md)
+### [Информационные объекты: управление сведениями о продукте](data-entities/data-entities-product-information-management.md)
+### [Информационные объекты: управление производством](data-entities/data-entities-production-control.md)
+### [Информационные объекты: учет по проектам](data-entities/data-entities-project-accounting.md)
+### [Информационные объекты: государственный сектор](data-entities/data-entities-public-sector.md)
+### [Информационные объекты: розница](data-entities/data-entities-retail.md)
+### [Информационные объекты: реализация продаж и маркетинга](data-entities/data-entities-sales-marketing.md)
+### [Информационные объекты: продажи и маркетинг — предпродажный этап](data-entities/data-entities-sales-marketing-pre-sales.md)
+### [Информационные объекты: администрирование системы](data-entities/data-entities-system-administration.md)
+### [Информационные объекты: workflow-процессы](data-entities/data-entities-workflow.md)
+
+## [Задания импорта и экспорта данных](data-entities/data-import-export-job.md)
+
+### [Рекомендации по импорту ваучеров с помощью объекта "Общий журнал"](data-entities/tips-tricks-import-general-journal-entity.md)
+
+## Разработка с использованием информационных объектов
+### [Создание новых информационных объектов](data-entities/build-consuming-data-entities.md)
+### [Свойства информационного объекта](data-entities/behavioral-properties-data-entities.md)
+### [Создание вычисляемых столбцов и виртуальных полей](data-entities/data-entity-computed-columns-virtual-fields.md)
+### [Работа между компаниями](data-entities/cross-company-behavior.md)
+### [Работа с кодами стран/регионов](data-entities/countryregion-codes-configuration-keys.md)
+### [Схемы наследования](data-entities/support-super-type-sub-type.md)
+### [Правила мастера информационных объектов](data-entities/data-entity-wizard-rules.md)
+### [Свойства метаданных](data-entities/behavioral-properties-data-entities.md)
+### [Проверки, значения по умолчанию и несопоставленные поля](data-entities/validations-defaults-unmapped-fields.md)
+### [Безопасность и информационные объекты](data-entities/security-data-entities.md)
+
+## [Использование своей собственной базы данных](analytics/export-entities-to-your-own-database.md)
+
+# [Домашняя страница непрерывной поставки](dev-tools/continuous-delivery-home-page.md)
+## [Вопросы и ответы по разработке и непрерывной поставке](dev-tools/continuous-delivery-faq.md)
+## [Исключение тестовых пакетов из выходной сборки](dev-tools/exclude-test-packages.md)
+## [Управление сторонними моделями и пакетами сред выполнения с помощью системы управления версиями](dev-tools/manage-runtime-packages.md)
+## [Модели версий при автоматической сборке](dev-tools/version-models-build.md)
+
+
 # Выпуск решений с использованием Lifecycle Services
 ## [Разработка и выпуск](lcs-solutions/lcs-solutions-app-source.md)
 ## [Промежуточное размещение и публикации](lcs-solutions/marketing-content-lcs-solutions.md)
@@ -377,9 +467,7 @@
 ### [Разделение моделей локализации](lcs-solutions/separate-localization-models.md)
 ### [Отправка нормативных оповещений](lcs-solutions/submit-localization-alerts.md)
 
-
-
-# Финансовая разработка
+# [Финансовая разработка](financial/financial-dev-home-page.md)
 ## [Аналитики](financial/dimensions.md)
 ## [Добавление аналитик в шаблон Excel](financial/dimensions-overview.md)
 ## [Поддержка диалогового окна элемента управления ввода аналитик](financial/dimension-entry-control-dialog-support.md)
@@ -408,7 +496,7 @@
 
 ## Облачное развертывание
 ### [Адаптация Azure Resource Manager](deployment/arm-onboarding.md)
-### [Azure ExpressRoute и Dynamics 365 for Finance and Operations, выпуск Enterprise](deployment/expressroute.md)
+### [Azure ExpressRoute и Dynamics 365 for Finance and Operations, Enterprise Edition](deployment/expressroute.md)
 
 ## [Локальное развертывание](deployment/on-premises-deployment-landing-page.md)
 ### [Обзор локального развертывания](deployment/on-premises-overview.md)
@@ -416,6 +504,7 @@
 ### [Создание проекта локального развертывания](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Настройка и развертывание локальных сред](deployment/setup-deploy-on-premises-environments.md)
 ### [Разработка и развертывание пользовательских моделей в локальных средах](deployment/develop-deploy-custom-models-on-premises.md)
+### [Применение обновлений к локальному развертыванию](deployment/apply-updates-on-premises.md)
 
 ## Развертывание пользовательского кода
 ### [Создание готового к развертыванию пакета](deployment/create-apply-deployable-package.md)
@@ -445,7 +534,7 @@
 #### [Перенос обновленного куба продаж в хранилище объектов](migration-upgrade/migrate-upgraded-cube-entity-store.md)
 #### [Обновление бюджетного планирования](migration-upgrade/upgrade-budget-planning.md)
 
-## Перенос и обновление кода
+## [Перенос и обновление кода](migration-upgrade/code-migration-home-page.md)
 ### [Подготовка к переносу кода](migration-upgrade/prepare-migration.md)
 ### [Настройка сопоставления Visual Studio Team Services во время переноса кода](migration-upgrade/configure-vso-solution.md)
 ### [Разбиение моделей](dev-tools/model-split.md)
@@ -476,6 +565,7 @@
 ## [Отчет по лицензионным кодам и ключам конфигурации](sysadmin/license-codes-configuration-keys-report.md)
 ## [Совместное использование данных между компаниями](sysadmin/cross-company-data-sharing.md)
 ## [Режим обслуживания](sysadmin/maintenance-mode.md)
+## [Предварительно настроенные системные счета](sysadmin/pre-configured-system-accounts.md)
 ## [Безопасность на основе ролей](sysadmin/role-based-security.md)
 ### [Архитектура безопасности](sysadmin/security-architecture.md)
 ### [Отчеты по безопасности](sysadmin/security-reports.md)
@@ -496,6 +586,7 @@
 ### [Что нового](lifecycle-services/whats-new-lcs.md)
 ### [Известные проблемы](lifecycle-services/known-issues.md)
 ## [Руководство пользователя Dynamics Lifecycle Services](lifecycle-services/lcs-user-guide.md)
+## [Средство оценки подписки](lifecycle-services/subscription-estimator.md)
 ## [Настройка безопасности](lifecycle-services/configure-lcs-security.md)
 ## [Поиск проблем](lifecycle-services/issue-search-lcs.md)
 ## [Диспетчер конфигураций](lifecycle-services/configuration-manager-lcs.md)
@@ -510,10 +601,11 @@
 ## [Синхронизация библиотеки BPM с Visual Studio Team Services (VSTS)](lifecycle-services/synchronize-bpm-vsts.md)
 ## [Блок-схемы средства моделирования бизнес-процессов](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Отправка пользовательских бизнес-процессов](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
-## [Мониторинг и диагностика](lifecycle-services/monitoring-diagnostics.md)
+## [Мониторинг и диагностика ](lifecycle-services/monitoring-diagnostics.md)
+## [Отслеживание входов пользователя](lifecycle-services/user-logins.md)
 ## [Библиотека активов](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 — обзор службы переводов](lifecycle-services/translation-service-overview.md)
-### [Руководство пользователя службы переводов Microsoft Dynamics 365](lifecycle-services/use-translation-service.md)
+### [Руководство пользователя службы переводов Microsoft Dynamics 365 ](lifecycle-services/use-translation-service.md)
 
 ## Функции Dynamics AX 2012 Lifecycle Services
 ### Развертывание
@@ -594,12 +686,13 @@
 ## [Копирование базы данных из SQL Server в рабочую среду Azure SQL](database/copy-database-from-sql-server-to-azure-sql.md)
 ## [Восстановление базы данных в непроизводственной среде](database/request-point-in-time-restore.md)
 ## [Экспорт копии базы данных для последующего восстановления](database/copy-operations-database.md)
+## [Запрос на обновление базы данных в "песочнице"](database/database-refresh.md)
 
 # Поддержка
-## [Получение поддержки по Dynamics 365 for Finance and Operations, выпуск Enterprise и Lifecycle Services](lifecycle-services/lcs-support.md)
+## [Получение поддержки по Dynamics 365 for Finance and Operations, Enterprise Edition и Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [Создание запроса на поддержку Premier](lifecycle-services/premier-support.md)
 ## [Отправка запроса команде разработчиков служб Dynamics](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Настройка технической поддержки Dynamics 365 for Finance and Operations, выпуск Enterprise](lifecycle-services/support-experience.md) 
+## [Настройка технической поддержки Dynamics 365 for Finance and Operations, Enterprise Edition](lifecycle-services/support-experience.md) 
 ## [Вопросы и ответы по окну планового обслуживания](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Облачные операции и обслуживание](lifecycle-services/cloud-operations-servicing.md)
 ## [Управление поддержкой Finance and Operations](lifecycle-services/cloud-powered-support-lcs.md)

@@ -1,10 +1,9 @@
 # [Добро пожаловать в Dynamics 365 for Talent](index.md)
 
-# Начало работы
+# [Начало работы](talent-get-started.md)
 ## [Системные требования и политика обновления](talent-versions-update-policy.md)
 
-# Разработка стратегии управления персоналом
-## [Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц](departments-jobs-positions.md)
+# [Разработка стратегии управления персоналом](departments-jobs-positions.md)
 ## [Настройка компонентов должности](create-job.md)
 ## [Создание подразделения и связывание его с иерархией подразделений](create-department-add-department-hierarchy.md)
 ## [Настройка параметров управления персоналом для нескольких юридических лиц](set-up-hr-parameters-across-legal-entities.md)
@@ -28,16 +27,14 @@
 ## [Совмещение навыков рабочей силы с потребностями бизнеса](skills.md)
 ## [Настройка учебных курсов](courses.md)
 
-# Создание и ведение льгот
-## [Управление программой льгот](manage-benefit-program.md)
-## [Политики приемлемости льготы](benefit-eligibility-policies.md)
+# [Создание и ведение льгот](manage-benefit-program.md)
+# [Политики прав на льготы](benefit-eligibility-policies.md)
 ## [Управление номенклатурами, сданными в аренду работникам](loan-items.md)
 
-# Сбор сведений с помощью анкет
-## [Анкеты](questionnaires.md)
+# [Сбор сведений с помощью анкет](questionnaires.md)
 ## [Разработка анкеты](design-questionnaires.md)
-## [Распространение и заполнение анкет](distribute-questionnaires.md)
-## [Оценка результатов анкет](evaluate-questionnaire-results.md)
+## [Распространение и заполнение анкеты](distribute-questionnaires.md)
+## [Оценка результатов анкеты](evaluate-questionnaire-results.md)
 
 # Безопасность и соответствие рабочего места (США)
 ## [Проверка сотрудников по форме I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
