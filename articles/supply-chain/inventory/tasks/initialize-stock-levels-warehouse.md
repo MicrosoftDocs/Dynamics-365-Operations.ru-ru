@@ -3,7 +3,7 @@ title: "Инициализация уровней запасов на склад
 description: "В этой процедуре показано, как вручную загружать обновлять запасы в наличии с использованием журнала складских проводок."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,13 +17,13 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 45c93febbbc4ea78fe2b87735ed96fd773605d96
+ms.sourcegitcommit: d804480167414cd038f8229db312dc9c52d131f8
+ms.openlocfilehash: 3b4685b034f7e6a3af0259fb921230e7b3397754
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
-# Инициализация уровней запасов на складе
+# <a name="initialize-stock-levels-in-the-warehouse"></a>Инициализация уровней запасов на складе
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 2. Щелкните "Создать".
 3. В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
 4. Выберите IMov.
-    * Рекомендуется использовать для разных бизнес-целей разные шаблоны имен журналов.  
+    * Рекомендуется использовать разные шаблоны имен журналов для разных деловых целей.  
 5. В списке перейдите по ссылке в выбранной строке.
 6. В поле "Корр.счет" укажите требуемые значения "140200".
     * Это корреспондирующий счет, который будет счетом по умолчанию в строках журнала. Можно переопределить значение по умолчанию, чтобы назначить разные корр. счета в строках.  

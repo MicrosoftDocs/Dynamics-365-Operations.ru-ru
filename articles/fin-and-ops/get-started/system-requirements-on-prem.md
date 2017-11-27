@@ -1,6 +1,6 @@
 ---
 title: "Требования к системе для локальных развертываний"
-description: "В этой теме перечислены требования к системе для текущей версии Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, для локальных сред."
+description: "В этой теме перечислены требования к системе для текущей версии Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, для локальных сред."
 author: kfend
 manager: AnnBe
 ms.date: 08/02/2017
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 25a6f326c57e84d6a7c356ac5407be7ed3095f83
-ms.openlocfilehash: 5edc6f0b2240e9dd2d3b72a13f35e96f016aa013
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 73fefd43c9de917dc6c98b2a6893b36a5c0ccdc5
 ms.contentlocale: ru-ru
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -29,10 +29,10 @@ ms.lasthandoff: 10/04/2017
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме перечислены требования к системе для текущей версии Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, для локальных сред. Перед установкой Finance and Operations при необходимости убедитесь, что система, с которой вы работаете, соответствует минимальным требованиям к сети, оборудованию и программному обеспечению или превышает их.
+В этой теме перечислены требования к системе для текущей версии Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, для локальных сред. Перед установкой Finance and Operations при необходимости убедитесь, что система, с которой вы работаете, соответствует минимальным требованиям к сети, оборудованию и программному обеспечению или превышает их.
 
 ## <a name="network-requirements"></a>Требования к сети
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (локальная версия) может работать в сетях, в которых используется Internet Protocol Version 4 (IPv4) или Internet Protocol Version 6 (IPv6). Учитывайте сетевую среду при планировании системы и воспользуйтесь следующими инструкциями.
+Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (локальная версия) может работать в сетях, в которых используется Internet Protocol Version 4 (IPv4) или Internet Protocol Version 6 (IPv6). Учитывайте сетевую среду при планировании системы и воспользуйтесь следующими инструкциями.
 
 ### <a name="network-response-time"></a>Время отклика сети
 В следующей таблице перечислены минимальные требования к сети для связи между веб-браузером и сервером Application Object Server (AOS), а также для связи между AOS и базой данных в локальной системе.

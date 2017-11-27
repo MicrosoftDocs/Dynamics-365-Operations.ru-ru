@@ -3,7 +3,7 @@ title: "Что нового и что изменилось"
 description: "Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних версиях Microsoft Dynamics 365 for Finance and Operations."
 author: josaw1
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 1a75ad433bcca5fcb041391e0c09883449755094
-ms.openlocfilehash: e92a42ca34d42504ce9d7c3ba7c326429d97a089
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1ffe0480c1607925093bf823d75289d87995a17f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -30,12 +30,12 @@ ms.lasthandoff: 10/02/2017
 
 [!include[banner](../includes/banner.md)]
 
-Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних версиях Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних версиях Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 О том, как провести обновление до последней версии, см. в разделе [Процесс обновления до последнего обновления](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 > [!NOTE]
-> В настоящее время идет переименование приложения Dynamics 365 for Operations (локальная версия). Вы увидите ссылки на Dynamics 365 for Operations (локальная версия) в сведениях и руководствах по лицензированию. Имя продукта, которое будет отображаться при развертывании продукта, — Dynamics 365 for Finance and Operations, выпуск Enterprise. Оба эти имени означаются один и тот же продукт.
+> В настоящее время идет переименование приложения Dynamics 365 for Operations (локальная версия). Вы увидите ссылки на Dynamics 365 for Operations (локальная версия) в сведениях и руководствах по лицензированию. Имя продукта, которое будет отображаться при развертывании продукта, — Dynamics 365 for Finance and Operations, Enterprise Edition. Оба эти имени означаются один и тот же продукт.
 
 ## <a name="application-releases"></a>Выпуски приложения
 
@@ -58,28 +58,10 @@ ms.lasthandoff: 10/02/2017
 </thead>
 <tbody>
 <tr class="even">
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
-<td>Обновление приложения 3</td>
-<td>7.2.11792.62370</td>
-<td>2017 сентября</td>
-<td><a href="https://fix.lcs.dynamics.com/Issue/Resolved?kb=4043284&bugId=3857197&qc=a454835bf86493b0a878eed878045540ba632d897fabdc0b13c60f58292c7a84">KB 4043284 — обновление приложения 3 для Dynamics 365 for Operations (двоичная часть)</a></td>
+
 </tr>
 <tr class="even">
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
-<td>Обновление приложения 2</td>
-<td>7.2.11792.62192</td>
-<td>2017 сентября</td>
-<td><a href="https://fix.lcs.dynamics.com/Issue/Resolved?kb=4039142&bugId=3850590&qc=204b1f37a96118e0538a6cad6c91a398019308d0a6b558b86e1ebe35d8fb73c8">KB 4039142 — обновление приложения 2 (двоичное)</a></td>
-</tr>
-<tr class="even">
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
-<td>Обновление приложения 1</td>
-<td>7.2.11792.62089</td>
-<td>Июль 2017</td>
-<td><a href="https://fix.lcs.dynamics.com/Issue/Resolved?kb=4035749&bugId=3845890&qc=204b1f37a96118e0538a6cad6c91a398019308d0a6b558b86e1ebe35d8fb73c8">KB 4035749 — обновление приложения 1 Dynamics 365 for Finance and Operations, Enterprise Edition (двоичное)</a></td>
-</tr>
-<tr class="even">
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Июль 2017</td>
 <td>7.2.11792.56024</td>
 <td>2017 июня</td>
@@ -130,23 +112,30 @@ ms.lasthandoff: 10/02/2017
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
+<td>Обновление платформы update 11</td>
+<td>7.0.4679.35176</td>
+<td>2017 октября</td>
+<td><a href="whats-new-platform-update-11.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 11 (октябрь 2017 г.)</a></td>
+<tbody>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Обновление платформы update 10</td>
 <td>7.0.4641.16233</td>
 <td>2017 августа</td>
 <td><a href="whats-new-platform-update-10.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 10 (август 2017 г.)</a></td>
 <tr class="odd">
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Обновление платформы 9</td>
 <td>7.0.4612.35162</td>
 <td>2017 июля</td>
-<td><a href="whats-new-platform-update-9.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise edition, обновление платформы 9 (июль 2017 г.)</a></td>
+<td><a href="whats-new-platform-update-9.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 9 (июль 2017 г.)</a></td>
 </tr><tr class="odd">
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Обновление платформы 8</td>
 <td>7.0.4565.16212</td>
 <td>2017 июня</td>
-<td><a href="whats-new-platform-update-8.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise edition, обновление платформы 8 (июнь 2017 г.)</a></td>
+<td><a href="whats-new-platform-update-8.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 8 (июнь 2017 г.)</a></td>
 </tr>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations</td>

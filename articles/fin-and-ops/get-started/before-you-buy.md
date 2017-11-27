@@ -1,6 +1,6 @@
 ---
 title: "Перед покупкой"
-description: "Пошаговые инструкции для использования, если вы решили приобрести Dynamics 365 for Finance and Operations, выпуск Enterprise."
+description: "Пошаговые инструкции для использования, если вы решили приобрести Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: margoc
 manager: AnnBe
 ms.date: 07/10/2017
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: 75e2a31f1c0e82c6f0dcf92309d7673243e1bdc9
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c4bd67b15e893613bed14d2bdc1d9a07da81dc26
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -28,13 +28,13 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
-Вы еще не знакомы с Dynamics 365 for Finance and Operations, выпуск Enterprise? Мы представляем пошаговое руководство для тех, кто еще думает, приобрести ли Finance and Operations, и тех, кто уже готов совершить покупку.
+Вы еще не знакомы с Dynamics 365 for Finance and Operations, Enterprise Edition? Мы представляем пошаговое руководство для тех, кто еще думает, приобрести ли Finance and Operations, и тех, кто уже готов совершить покупку.
 
 ## <a name="step-one--try-out-finance-and-operations-free-for-30-days"></a>Шаг 1. Попробуйте Finance and Operations бесплатно в течение 30 дней
 Вы можете попробовать Dynamics for Finance and Operations в течение 30 дней, зарегистрировавшись по электронной почте. Пробная версия Finance and Operations включает проводники по задачам "Приступая к работе", предоставляющие пошаговые инструкции, которые позволяют просматривать конкретные сценарии в действии. Можно изучить продукт и попробовать сценарии, но его невозможно настроить. Демонстрационные данные включается для упрощения использования продукта и помощи в изучении. Оповещение по электронной почте будет отправлено за 3 дня до истечения срока действия пробной версии. Дополнительные сведения: [www.microsoft.com/en-us/dynamics365/operations](https://www.microsoft.com/en-us/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Шаг 2: Выберите вариант развертывания
-Развертывание Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise, можно выполнить в облаке или локально. Облачные развертывания предлагают службу ERP, которая полностью управляется корпорацией Майкрософт, во то время как локальные развертывания разворачиваются локально в центре обработки данных клиента.
+Развертывание Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, можно выполнить в облаке или локально. Облачные развертывания предлагают службу ERP, которая полностью управляется корпорацией Майкрософт, во то время как локальные развертывания разворачиваются локально в центре обработки данных клиента.
 Дополнительные сведения см. в разделе [Варианты развертывания](../../dev-itpro/deployment/choose-deployment-type.md) 
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Шаг 3. Приобретите подписку и управляйте ей
@@ -60,7 +60,7 @@ ms.lasthandoff: 09/29/2017
 Поставщик облачных решений Майкрософт может тесно сотрудничать с вами для оценки ваших бизнес-потребностей или потребностей организации. [Использование портала Центра партнеров Майкрософт для поиска партнера в соответствии со своими потребностями](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Покупка у партнера Dynamics (локально)
-Необходимо работать с партнером для покупки локальной версии Finance and Operations. Дополнительные сведения см. в разделе [Приобретение Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](purchase-on-premises.md)
+Необходимо работать с партнером для покупки локальной версии Finance and Operations. Дополнительные сведения см. в разделе [Приобретение Dynamics 365 for Finance and Operations, Enterprise Edition (локальная версия)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Выбор плана поддержки
 Корпорация Майкрософт предоставляет гибкую, ведущую в отрасли поддержку , службы и ресурсы, которые позволяют пользователям быстро решать технические проблемы и повысить рентабельность инвестиций Dynamics 365. Выберите план, который лучше всего отвечает вашим бизнес-требованиям. 

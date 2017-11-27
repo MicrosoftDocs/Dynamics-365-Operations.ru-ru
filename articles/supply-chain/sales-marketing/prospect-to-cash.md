@@ -3,7 +3,7 @@ title: "Решение \"Перспективный клиент в наличн
 description: "В этой теме представлен обзор решения \"Перспективный клиент в наличные деньги\" между Dynamics 365 for Finance and Operations, Enterprise Edition и Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: 
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 47e70cb1291e390b42b7feff844b2aca141f09b7
-ms.openlocfilehash: a5f1ecd5f8b46287839439a963e571531ae161a7
+ms.sourcegitcommit: 674d2e1f2c5cdbccf43618a9083ca01abed0735a
+ms.openlocfilehash: 2accf77c5241adff7ad1648737dde451153fde46
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -42,25 +42,39 @@ ms.lasthandoff: 09/29/2017
 -   [Создание заказов на продажу в Finance and Operations и их синхронизация с Sales](sales-order-template-mapping.md)
 -   [Создание накладных по продажам в Finance and Operations и их синхронизация с Sales](sales-invoice-template-mapping.md)
 
+Это решение обеспечивает прямую синхронизацию в следующих областях:
+
+-   [Ведение организаций в Sales и их прямая синхронизация из Sales в Finance and Operations](accounts-template-mapping-direct.md)
+-   [Ведение продуктов в Finance and Operations и их прямая синхронизация с Sales](products-template-mapping-direct.md)
+-   [Ведение контактов в Sales и их прямая синхронизация с контактами или клиентами в Finance and Operations](contacts-template-mapping-direct.md)
+-   [Синхронизация заголовков и строк предложений по продажам напрямую из Sales с Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+-   [Создание заказов на продажу в Finance and Operations и их прямая синхронизация с Sales](sales-order-template-mapping-direct.md)
+-  [Синхронизация заголовков и строк заказов на продажу непосредственно между Sales и Finance and Operations](sales-order-template-mapping-between-sales-fin.md)
+-   [Синхронизация заказов на продажу непосредственно между Sales и Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
+-   [Создание накладных по продажам в Finance and Operations и их прямая синхронизация с Sales](sales-invoice-template-mapping-direct.md)
+
+
 ## <a name="system-requirements-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Требования к системе для Dynamics 365 for Finance and Operations, Enterprise Edition
 
 Чтобы использовать решение "Перспективный клиент в наличные деньги", вы должны установить следующее:
 
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.) с обновлением платформы 8 (приложение 7.2.11792.56024 с платформой 7.0.4565.16212)
 
-- Два исправления для Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.).
+- Исправления для Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.).
+        
+    -  [KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160) — это исправление обеспечивает поддержку синхронизации заказов на продажу с функцией интеграции данных из Sales в Finance and Operations, а также ряд других улучшений.
 
     -  [KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2) — это исправление делает возможным синхронизацию строк заказов на продажу с помощью компонента интеграции данных из Finance and Operations в Sales.
         
     -  [KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2) — это исправление делает возможным синхронизацию заказов на продажу с помощью компонента интеграции данных из Finance and Operations в Sales.
-    
-**Примечание**. Достаточно установить только KB4036524, потому что в пакет установки входят изменения из KB4036461.
+
+**Примечание**. Достаточно установить только KB4045570, потому что в пакет установки входят изменения из других пакетов исправлений.
  
 ## <a name="system-requirements-for-dynamics-365-for-sales"></a>Требования к системе для Dynamics 365 for Sales
 
 Чтобы использовать решение "Перспективный клиент в наличные деньги", вы должны установить следующее:
 
-- Dynamics 365 for Sales версии 1612 (8.2.1.207) (БД 8.2.1.207) (сетевая версия) или выше.
+- Dynamics 365 for Sales версии 1612 (8.2.1.207) (БД 8.2.1.207) (сетевая версия).
 - Решение "Перспективный клиент в наличные деньги" Dynamics 365 for Sales, версия 1.14.0.0 (v14) или выше.
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Установка решения "Перспективный клиент в наличные деньги" для Sales

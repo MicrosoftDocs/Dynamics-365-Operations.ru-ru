@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6b05dbef279b06fefc1eccd87689693edf2a418e
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 506dd06790f40fbba272811a59281add1a86b179
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 
 В этом разделе описан порядок просмотра накладных поставщика и отправки накладных из рабочей области совместной работы с поставщиками.
 
-Рабочую область **Выставление накладных при совместной работе с поставщиками** можно использовать для просмотра данных по накладным поставщиков и для отправки накладных в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition с использованием возможностей workflow-процесса.
+Рабочую область **Выставление накладных при совместной работе с поставщиками** можно использовать для просмотра данных по накладным поставщиков и для отправки накладных в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition с использованием возможностей workflow-процесса.
 
 
 <a name="vendor-collaboration-invoicing-workspace"></a>Рабочая область выставления накладных по совместной работе с поставщиками

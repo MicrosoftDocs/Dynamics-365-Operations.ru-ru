@@ -3,7 +3,7 @@ title: "Регистрация и разноска датированного б
 description: "Для регистрации сведений по чеку, датированному задним числом, до отправки чека поставщику можно использовать ваучер журнала."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/31/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: dd1c9d29d34e51a479d4df4086e97269f71f7448
+ms.sourcegitcommit: 632b04848cdb6d71e7e7dbd6c6bc710d0577950a
+ms.openlocfilehash: 776121532c42fde8b1c3e29b4af0bf833952c0cd
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Регистрация и разноска датированного будущим числом чека для поставщика
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 
 Роль для выполнения этого руководства по задачам — казначей. В этой задаче используется демонстрационная компания USMF.
 
-1. Перейдите в раздел "Расчеты с поставщиками" > "Платежи" > "Журнал платежей".
+1. Перейдите в раздел "Расчеты с поставщиками" > "Платежи" > "Журнал платежей"
 2. Щелкните "Создать".
 3. В поле "Имя" введите "VendPay".
 4. Щелкните "Строки".

@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb09c0bb28c2ba8e7b890854c444cec80fe8277c
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 9c0372f3bc4e1fb4394d69f6e3dbf6c0f844b991
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -145,7 +145,7 @@ ms.lasthandoff: 09/29/2017
 
 ### <a name="create-a-row-total"></a>Создание итога по строкам
 
-1.  В конструкторе отчетов нажмите кнопку **Определения строк** и откройте изменяемое определение строки.
+1.  В конструкторе отчетов нажмите кнопку **Определения строк**и откройте изменяемое определение строки.
 2.  Дважды щелкните ячейку **Код формата** в определении строки, и выберите **TOT**.
 3.  В ячейке **Связанные формулы/строки/единицы** введите формулу итога.
 

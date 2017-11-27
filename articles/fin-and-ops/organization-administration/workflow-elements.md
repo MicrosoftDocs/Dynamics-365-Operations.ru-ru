@@ -1,27 +1,27 @@
 ---
 title: "Элементы workflow-процесса"
-description: "В этой статье описываются различные элементы, которые составляют workflow-процесс."
+description: "В этом разделе описываются различные элементы, которые составляют workflow-процесс."
 author: sericks007
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
-ms.author: tjvass
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 255777651a45b899850fc870c9da288f65df702c
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 15cac09a97305c1b467cbb97da2d4b8a864ccbc7
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этой статье описываются различные элементы, которые составляют workflow-процесс.
+В этом разделе описываются различные элементы, которые составляют workflow-процесс.
 
 Бизнес-правило состоит из элементов. В следующих разделах описан каждый из этих типов элементов.
 
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/29/2017
 -   Запросить изменение документа.
 -   Назначить документ другому пользователю для утверждения.
 
-## <a name="lineitem-workflow-elements"></a>Элементы workflow-процесса по строке
+## <a name="line-item-workflow-elements"></a>Элементы Workflow-процесса по строке
 Workflow-процесс может быть создан для обработки или документов, или строковых элементов в документе. Например, вы создали workflow-процесс утверждения для табелей. (Мы будем называть данный workflow-процесс как *workflow-процесс документов*.) Можно добавить элемент *workflow-процесс по строке* к данному workflow-процессу документов. Когда выполняется элемент строкового элемента, каждый строковый элемент в документе отправляется для обработки. Можно указать, что все элементы строки должны обрабатываться одним workflow-процессом по строке, а также можно указать, что каждую элемент строки должны обрабатываться отдельным workflow-процессом по строке. Предположим, что сотрудник предоставил табель, похожий на следующий рисунок.
 
 ![Workflow-процесс с номенклатурами строк](./media/workflow_lineitemworkflow.gif) 
@@ -70,7 +70,7 @@ Workflow-процесс может быть создан для обработк
 -   **Workflow-процесс по строке 2** — этот workflow-процесс использоваться для обработки элементов строки, где код проекта равен 2222.
 -   **Workflow-процесс по строке 3** — этот workflow-процесс использоваться для обработки элементов строки, где код проекта равен 3333.
 
-## <a name="flowcontrol-elements"></a>Элементы управления потоком
+## <a name="flow-control-elements"></a>Элементы управления потоком
 Следующие элементы позволяют разрабатывать workflow-процессы, которые имеют какую-либо альтернативные ветви или ветви, которые работают одновременно.
 
 ### <a name="manual-decision"></a>Решение вручную

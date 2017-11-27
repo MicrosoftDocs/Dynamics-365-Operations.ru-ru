@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d602e07548d22bcdee3f375c3c327c0e8963c3b4
+ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
+ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Разработка конфигурации для создания отчетов в формате Microsoft Word для электронной отчетности (ER)
@@ -30,9 +30,9 @@ ms.lasthandoff: 09/29/2017
 
 Для выполнения этих шагов необходимо сначала выполнить шаги в руководстве по задаче "Создание конфигурации электронной отчетности для создания отчетов в формате OPENXML". Необходимо заранее загрузить и сохранить локально для следующие шаблоны для примера отчета:
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx
+[Шаблон отчета о платежах](https://go.microsoft.com/fwlink/?linkid=862266)
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx
+[Связанный шаблон отчета о платежах](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Эта процедура предназначена для функции, которая была добавлена в версии 1611 Microsoft Dynamics 365 for Operations.
 
@@ -49,7 +49,7 @@ http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBou
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Замена шаблона Excel на шаблон Word
     * В настоящее время документ Excel используется как шаблон для создания выходных данных в формате OPENXML. Мы импортируем шаблон отчета в формате Word.  
 1. Нажмите кнопку Вложения.
-    * Замените существующий шаблон Excel на ранее загруженный шаблон Word — SampleVendPaymDocReport.docx. Обратите внимание, что этот шаблон содержит только макет документа, который требуется создать как выходные данные ER.  
+    * Замените существующий шаблон Excel на ранее загруженный шаблон Word — шаблон отчета о платежах. Обратите внимание, что этот шаблон содержит только макет документа, который требуется создать как выходные данные ER.  
 2. Нажмите кнопку Удалить.
 3. Щелкните Да.
 4. Щелкните "Создать".
@@ -66,7 +66,7 @@ http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBou
     * Если вы знакомы с документами Word, которые можно создать как формы, содержащие элементы управления содержимым, связанные с элементами пользовательских XML-частей, воспроизведите все шаги следующей подзадачи для создания такого документа. Дополнительные сведения см. по следующей ссылке: https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. В противном случае пропустите все действия, указанные в следующей подзадаче.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Получение Word с пользовательской XML-частью для привязки данных
-    * Откройте этот документ в Word и выполните следующие действия:  - Откройте вкладку "Разработчик Word" (настройте ленту, если она еще не включена).  - Выберите область сопоставления XML.  - Выберите пользовательскую XML-часть "Отчет" в поиске.  - Выполните сопоставление элементов выбранной пользовательской XML-части и элементов управления содержимым документа Word.  - Сохраните обновленный документ Word на локальном диске.  
+    * Откройте этот документ в Word и выполните следующие действия: - Откройте вкладку "Разработчик Word" (настройте ленту, если она еще не включена).  - Выберите область сопоставления XML.  - Выберите пользовательскую XML-часть "Отчет" в поиске.  - Выполните сопоставление элементов выбранной пользовательской XML-части и элементов управления содержимым документа Word.  - Сохраните обновленный документ Word на локальном диске.  
 
 ## <a name="upload-the-word-template-with-custom-xml-part-bounded-to-content-controls"></a>Отправка шаблона Word с пользовательской XML-частью, связанной с элементами управления содержимым
 1. Нажмите кнопку Удалить.

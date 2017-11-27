@@ -1,6 +1,6 @@
 ---
 title: "Просмотр финансовых отчетов"
-description: "В этой статье описывается, как просматривать и изучать финансовые отчеты в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Она содержит сведения о различных параметрах, которые можно применить к финансовым отчетам, чтобы изменить их внешний вид и данные, которые они содержат."
+description: "В этой статье описывается, как просматривать и изучать финансовые отчеты в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Она содержит сведения о различных параметрах, которые можно применить к финансовым отчетам, чтобы изменить их внешний вид и данные, которые они содержат."
 author: kweekley
 manager: AnnBe
 ms.date: 06/08/2017
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: b22c38ef6edf203d26e4de3a96305a448128a798
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 61763e57a54a24665d7ca899d8a26cf9e4d3984b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этой статье описывается, как просматривать и изучать финансовые отчеты в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Она содержит сведения о различных параметрах, которые можно применить к финансовым отчетам, чтобы изменить их внешний вид и данные, которые они содержат.
+В этой статье описывается, как просматривать и изучать финансовые отчеты в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Она содержит сведения о различных параметрах, которые можно применить к финансовым отчетам, чтобы изменить их внешний вид и данные, которые они содержат.
 
 <a name="financial-reporting-overview"></a>Обзор финансовой отчетности
 ----------------------------
