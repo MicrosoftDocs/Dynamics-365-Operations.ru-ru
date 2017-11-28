@@ -1,6 +1,6 @@
 ---
 title: "Синхронизация контактов из Sales с контактами или клиентами в Finance and Operations"
-description: "В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации контакта (контакты) и контакта (клиенты) из Microsoft Dynamics 365 for Sales с Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise."
+description: "В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации контакта (контакты) и контакта (клиенты) из Microsoft Dynamics 365 for Sales с Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/28/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 47e70cb1291e390b42b7feff844b2aca141f09b7
-ms.openlocfilehash: 41e27776b94df059ada13efb9a3dbf6a29d67f36
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c838fef502f643c764fade9cd79ae770ffc36974
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

@@ -3,7 +3,7 @@ title: "Установка и настройка Microsoft Dynamics 365 for Fina
 description: "В этом разделе описывается, как установить и настроить Microsoft Dynamics 365 for Finance and Operations — Warehousing."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: bis
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 267694
 ms.assetid: d95d43b2-13ff-4189-a71a-3a1fb57d55ed
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 31e77b27d4bf95c997817b3a053b33119562adf8
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4b3d068ddbf6f0b28c97618f5fa10fa486f3af51
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -43,7 +43,7 @@ Finance and Operations — Warehousing представляет собой пр�
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
 | Windows (UWP)               | Windows 10 (все версии)                                                                                                                                                   |
-| Finance and Operations | Microsoft Finance and Operations версии 1611 <br>–или– <br>Microsoft Dynamics Dynamics AX версии 7.0/7.0.1 и платформа Microsoft Dynamics AX с обновлением 2 и исправлением КБ 3210014 |
+| Finance and Operations | Microsoft Finance and Operations версии 1611 <br>–или– <br>Microsoft Dynamics AX версии 7.0/7.0.1 и платформа Microsoft Dynamics AX с обновлением 2 и исправлением КБ 3210014 |
 
 ## <a name="get-the-app"></a>Получение приложения
 -   Windows (UWP): [Finance and Operations — Warehousing в Магазине Windows](https://www.microsoft.com/store/apps/9p1bffd5tstm)

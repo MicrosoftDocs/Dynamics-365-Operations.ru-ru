@@ -1,6 +1,6 @@
 ---
 title: "Блокировка запасов"
-description: "Эта статья содержит обзор блокировки запасов, которая является частью процесса проверки качества в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Можно использовать блокировку запасов для предотвращения обработки или расхода номенклатур."
+description: "Эта статья содержит обзор блокировки запасов, которая является частью процесса проверки качества в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Можно использовать блокировку запасов для предотвращения обработки или расхода номенклатур."
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: a59a382f90cb34c9479d64931790137f00040c6b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: eb8040531ec0c2b9c13fc927e5330772ad11ee1d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Эта статья содержит обзор блокировки запасов, которая является частью процесса проверки качества в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Можно использовать блокировку запасов для предотвращения обработки или расхода номенклатур.
+Эта статья содержит обзор блокировки запасов, которая является частью процесса проверки качества в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Можно использовать блокировку запасов для предотвращения обработки или расхода номенклатур.
 
 Имеется возможность заблокировать складируемые номенклатуры следующими способами.
 -   Вручную

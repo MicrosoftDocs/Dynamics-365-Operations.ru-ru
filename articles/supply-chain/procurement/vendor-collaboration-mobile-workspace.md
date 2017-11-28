@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: d9dfd987aa81b9537bc05715eb85b5285b61b5cf
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 850a5dceb9ea084d9964094c0e2ba5325025fb5e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations.
 
 ## <a name="overview"></a>Обзор 
-Мобильная рабочая область **Совместная работа с поставщиками** информирует поставщиков о новых заказах на покупку, чтобы они могли просмотреть заказы на покупку и ответить на них в веб-клиенте Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
+Мобильная рабочая область **Совместная работа с поставщиками** информирует поставщиков о новых заказах на покупку, чтобы они могли просмотреть заказы на покупку и ответить на них в веб-клиенте Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
 >[!NOTE]
 > Мобильная рабочая область должна использоваться как дополнение к веб-интерфейсу совместной работы с поставщиками, но не как его замена. 

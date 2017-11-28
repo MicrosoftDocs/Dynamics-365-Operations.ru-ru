@@ -1,9 +1,9 @@
 ---
 title: "Взвешенное среднее с физической стоимостью и маркировкой"
-description: 
+description: "Средневзвешенная стоимость - это складская модель, действующая на основании принципа средневзвешенного значения, когда запасы на складе оцениваются по средней стоимости продукции, поступившей на склад до конца отчетного периода, плюс запасы, имеющиеся в наличии с предыдущего периода."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c9db625e5af77b8f5d1569e35ce2d4c20e5be646
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
-
+Средневзвешенная стоимость - это складская модель, действующая на основании принципа средневзвешенного значения, когда запасы на складе оцениваются по средней стоимости продукции, поступившей на склад до конца отчетного периода, плюс запасы, имеющиеся в наличии с предыдущего периода.
 
 При запуске закрытия запасов все приходы сопоставляются с виртуальным расходом, в котором учитываются полученное количество и стоимость. Этот виртуальный расход имеет соответствующий виртуальный приход, из которого выполняется согласование расходов. Таким образом, все расходы получают одинаковую среднюю стоимость. Виртуальный расход и приход отображаются как виртуальное перемещение, называемое перемещением закрытия склада для взвешенного среднего.
 

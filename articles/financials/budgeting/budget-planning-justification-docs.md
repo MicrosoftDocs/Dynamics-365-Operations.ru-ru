@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2e711b14b202d477bd3f4bda09977fd33979fc94
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b033f6197e61a6030e12081a9e4f1d820bac458f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/29/2017
 
 1.  После входа щелкните **Дизайн** в надстройке Microsoft Dynamics Office Add-in.
 2.  Для сведений заголовка используйте кнопку **Добавить поля**.
-3.  Выберите источник данных объекта BudgetPlanJustification и нажмите кнопку **Далее**. **Примечание:** Этот объект является обязательным для любого документа обоснования. Другие объекты могут использоваться, но отправка обратно в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition не будет выполняться, если этот объект не будет включен.
+3.  Выберите источник данных объекта BudgetPlanJustification и нажмите кнопку **Далее**. **Примечание:** Этот объект является обязательным для любого документа обоснования. Другие объекты могут использоваться, но отправка обратно в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition не будет выполняться, если этот объект не будет включен.
 4.  Добавьте метки BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter и DocumentNumber в документ Word. **Примечание:** При необходимости вместо стандартных меток можно использовать свои собственные пользовательские метки.
 5.  Щелкните **Готово** для завершения раздела заголовка.
 6.  Для сведений уровня строки по суммам бюджетного плана щелкните **Добавить таблицу**.

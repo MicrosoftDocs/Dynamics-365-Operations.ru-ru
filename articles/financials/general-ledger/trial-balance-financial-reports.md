@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6405599186c8d07ac5ade19d3b7d27ae83b036ff
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 6d5674bed7167e002e7467e1e77d333fdf1b4f8d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 09/29/2017
 <a name="default-trial-balance-reports"></a>Отчеты по Оборотно-сальдовая ведомости по умолчанию
 -----------------------------
 
-В Microsoft Dynamics 365 for Finance and Operations, Enterprise edition предусмотрено три отчета по пробному балансу.
+В Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition предусмотрено три отчета по пробному балансу.
 
 | Отчет по умолчанию                                 | Что он делает                                                                                                                                                                                        |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

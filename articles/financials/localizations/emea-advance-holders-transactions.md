@@ -1,6 +1,6 @@
 ---
 title: "Проводки по подотч. лицам"
-description: "Сведения о работе с проводками по подотчетным лицам в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Сведения о работе с проводками по подотчетным лицам в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 262554
 ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb5ab0e64b2a663af627d4d46e3a74aa526058b8
-ms.openlocfilehash: fba13326ba5b73405dd91d220ab2f4ff1aa55435
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0983e9738e2efade14307cf366efc341031714af
 ms.contentlocale: ru-ru
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -30,14 +30,14 @@ ms.lasthandoff: 07/28/2017
 [!include[banner](../includes/banner.md)]
 
 
-Сведения о работе с проводками по подотчетным лицам в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Сведения о работе с проводками по подотчетным лицам в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 Разноска проводок по таким работникам, которые являются подотчетными лицами, может выполняться при помощи счетов подотчетных лиц. Указанный для каждого подотчетного лица идентификатор работника можно использовать для отслеживания всех проводок подотчетного лица. Этот номер используется в качестве номера счета для проводок подотчетного лица на страницах **Общие журналы** и **Проводки по подотч. лицам**.
 
 ## <a name="create-and-post-a-purchase-order-with-advance-holder-details"></a>Создание и разноска заказа на покупку со сведениями о подотчетных лицах
-Дополнительные общие сведения о заказах на покупку см. в разделе [Обзор заказов на покупку](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-overview). Если накладная поставщика создается и разносится со сведениями подотчетного лица, сальдо подотчетного лица будет разнесено на балансовый счет сотрудника, а не на балансовый счет поставщика. Чтобы добавить сведения о подотчетном лице в заказ на покупку, выполните следующие действия:
+Дополнительные общие сведения о заказах на покупку см. в разделе [Обзор заказов на покупку](../../supply-chain/procurement/purchase-order-overview.md). Если накладная поставщика создается и разносится со сведениями подотчетного лица, сальдо подотчетного лица будет разнесено на балансовый счет сотрудника, а не на балансовый счет поставщика. Чтобы добавить сведения о подотчетном лице в заказ на покупку, выполните следующие действия:
 
--   В поле **Условия оплаты** в разделе **Цены и скидки** выберите условие оплаты. <!---For more information about **Terms of payment**, see [Define vendor payment terms](/dynamics365/unified-operations/financials/accounts-payable/tasks/define-vendor-payment-terms).--> Выберите условие оплаты, для которого установлен флажок **От подотчетного лица** на странице **Условия оплаты**. Дополнительные сведения о настройке условий оплаты для подотчетных лиц см. в разделе [Подотчетные лица](emea-advance-holders.md).
+-   В поле **Условия оплаты** в разделе **Цены и скидки** выберите условие оплаты. <!---For more information about **Terms of payment**, see [Define vendor payment terms](../accounts-payable/tasks/define-vendor-payment-terms.md).--> Выберите условие оплаты, для которого установлен флажок **От подотчетного лица** на странице **Условия оплаты**. Дополнительные сведения о настройке условий оплаты для подотчетных лиц см. в разделе [Подотчетные лица](emea-advance-holders.md).
 -   В поле **Подотчетное лицо** на экспресс-вкладке **Цена и скидка** выберите подотчетное лицо для заказа на покупку.
 
 Процесс разноски заказа на покупку создает две проводки поставщика с противоположными суммами и одну проводку подотчетного лица. Без сведений подотчетного лица будет создана только одна проводка по поставщику.
@@ -64,6 +64,6 @@ ms.lasthandoff: 07/28/2017
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- [Авансовый платеж сотруднику (Восточная Европа)](./tasks/advance-payment-employee.md)
+- [Авансовый платеж сотруднику (Восточная Европа)](tasks/advance-payment-employee.md)
 
 

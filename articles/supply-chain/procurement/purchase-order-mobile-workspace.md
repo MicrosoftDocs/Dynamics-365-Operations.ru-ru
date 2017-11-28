@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 270d76a45fb7727c3ee655d2ab0a4014721963ee
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 60744c2b90e64ac77155ba28cdc4fcf65fee1bb6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="overview"></a>Обзор 
 Заказы на покупку, требующие утверждения, проходят через workflow-процесс утверждения. Workflow-процесс может включать различные этапы, которые требуют действий со стороны одного или нескольких пользователей. Например, пользователю может потребоваться выполнить задачу или утвердить заказ на покупку. 
 
-Мобильная рабочая область **Утверждение заказа на покупку** позволяет легко просматривать заказы на покупку и утверждать их с мобильного устройства. Эта рабочая область также позволяет выполнять те же действия workflow-процесса, что и в веб-клиенте Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Мобильная рабочая область **Утверждение заказа на покупку** позволяет легко просматривать заказы на покупку и утверждать их с мобильного устройства. Эта рабочая область также позволяет выполнять те же действия workflow-процесса, что и в веб-клиенте Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 ## <a name="prerequisites"></a>Необходимые условия
 Необходимые условия различаются в зависимости от версии Finance and Operations, развернутой в вашей организации.

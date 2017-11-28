@@ -1,6 +1,6 @@
 ---
 title: "Начисление затрат по проекту по приходам покупки"
-description: "В этой теме описывается, как отслеживать начисленные затраты по проекту по приходам покупки в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "В этой теме описывается, как отслеживать начисленные затраты по проекту по приходам покупки в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ba4eedb9895feda6b8c664654f30d0bd0a3a172a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0b54d48d5734cdbfba4a5de4356bff37c0a8d2d3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этой теме описывается, как отслеживать начисленные затраты по проекту по приходам покупки в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. 
+В этой теме описывается, как отслеживать начисленные затраты по проекту по приходам покупки в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
 Накладные по проекту часто поступают позже, чем доставляются товары и услуги, что может оказать значительное влияние на ключевые индикаторы производительности (KPI) проекта. Важно иметь возможность отслеживать эти проводки в финансовых и проектных отчетах.
 

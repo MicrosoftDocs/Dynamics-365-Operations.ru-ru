@@ -1,9 +1,8 @@
 ---
 title: "Обзор периферийных устройств для розничной торговли"
-description: "В этом разделе объясняются понятия, связанные с периферийными устройствами розничной торговли. В нем описываются различные способы подключения периферийных устройств к POS-терминалу, а также компоненты, которые отвечают за настройку соединения с POS."
-author: rubencdelgado
+description: "В этом разделе объясняются понятия, связанные с периферийными устройствами розничной торговли."
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,14 +17,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 347100651302bb97806783d00559f2396d031fcc
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>Обзор периферийных устройств для розничной торговли
+# <a name="retail-peripherals-overview"></a>Обзор периферийных устройств розничной торговли
 
 [!include[banner](includes/banner.md)]
 
@@ -575,7 +574,7 @@ Modern POS для Android является версией программы Mod
 ## <a name="peripheral-simulator"></a>Симулятор периферийных устройств
 Сведения см. в разделе [Симулятор периферийных устройств розничной торговли](dev-itpro/retail-peripheral-simulator.md).
 
-## <a name="microsofttested-peripheral-devices"></a>Периферийные устройства, протестированные Microsoft
+## <a name="microsoft-tested-peripheral-devices"></a>Периферийные устройства, протестированные Microsoft
 ### <a name="ipc-built-in-hardware-station"></a>Станция оборудования IPC (встроенная)
 
 Следующие периферийные устройства были проверены с использованием станции оборудования IPC, которая встроена в Modern POS для Windows.

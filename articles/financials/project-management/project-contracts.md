@@ -1,9 +1,9 @@
 ---
 title: "Контракты по проектам"
-description: "В этой статье приводится описание и примеры контрактов по проекту, которые можно создавать для различных типов проектов и источников финансирования, а также для управления контрактами и клиентами счета по проекту в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "В этой теме приводятся примеры контрактов по проекту, которые можно создавать для различных типов проектов и источников финансирования, а также для управления контрактами и клиентами счета по проекту в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0d7d3b64b0d6a662246074b12e3a3fe105dfae47
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: c8328bd2d93bbe763e629248edc1b7b4576005ae
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этой статье приводится описание и примеры контрактов по проекту, которые можно создавать для различных типов проектов и источников финансирования, а также для управления контрактами и клиентами счета по проекту в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+В этой статье приводятся примеры контрактов по проекту, которые можно создавать для различных типов проектов и источников финансирования, а также для управления контрактами и клиентами счета по проекту в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 Тип проекта, создаваемый для контракта по проекту, определяет метод, используемый для выставления накладных клиентам проекта. Можно изменить контракт по проекту и связанный проект, но невозможно изменить тип проекта. 
 
@@ -224,7 +224,7 @@ ms.lasthandoff: 09/29/2017
 </tr>
 <tr class="odd">
 <td>Транзакция 2</td>
-<td><strong>Сумма проводки:</strong> 5000,00<strong>Финансирование:</strong> проводка оплачивается согласно всем трем правилам.<strong>Правило 1</strong>
+<td><strong>Сумма проводки:</strong> 5000,00 <strong>Финансирование:</strong> проводка оплачивается согласно всем трем правилам. <strong>Правило 1</strong>
 <ul>
 <li>Источник финансирования 2: 450</li>
 <li>Источник финансирования 3: 450</li>

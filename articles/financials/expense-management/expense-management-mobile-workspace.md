@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 7ce4c9d13a8686c82af8acad39d68858e52ba520
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4880c74047f53704f5f4d8efb19b6f8c6b04d479
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 09/29/2017
 
 В частности, мобильная рабочая область **Управление расходами** позволяет пользователям выполнять следующие задачи:
 
-- Сделать фотографию приходной накладной и отправить ее в Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise. Затем можно приложить эту фотографию к отчету по расходам.
+- Сделать фотографию приходной накладной и отправить ее в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Затем можно приложить эту фотографию к отчету по расходам.
 - Отправить файл как снятый чек. Затем можно приложить этот файл к отчету по расходам.
 - Создать новую строку расходов с использованием приложенного чека. Затем можно добавить номенклатуру строки в отчет по расходам и отправить его для утверждения и возмещения.
 

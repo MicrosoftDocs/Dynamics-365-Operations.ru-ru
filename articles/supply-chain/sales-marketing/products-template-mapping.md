@@ -1,6 +1,6 @@
 ---
 title: "Синхронизация продуктов из Finance and Operations с продуктами в Sales"
-description: "В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации продуктов из Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise, с Microsoft Dynamics 365 for Sales."
+description: "В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации продуктов из Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, с Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/28/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 47e70cb1291e390b42b7feff844b2aca141f09b7
-ms.openlocfilehash: 063a20f133a00620bdf389b0a52a90bc61e2f7d4
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 405a6cf9f3e6cc52925ff7d9f10836196343c36b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,11 +34,11 @@ ms.lasthandoff: 09/29/2017
 > [!NOTE]
 > Перед использованием решения "Перспективный клиент в наличные деньги" ознакомьтесь с разделом [Интеграция данных Dynamics 365](/common-data-service/entity-reference/dynamics-365-integration). 
 
-В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации продуктов из Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise, с Microsoft Dynamics 365 for Sales.
+В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации продуктов из Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, с Microsoft Dynamics 365 for Sales.
 
 ## <a name="template-and-task"></a>Шаблон и задача
 
-Следующие шаблоны и базовые задачи используются для синхронизации продуктов из Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise, (Finance and Operations) с Microsoft Dynamics 365 for Sales (Sales).
+Следующие шаблоны и базовые задачи используются для синхронизации продуктов из Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, (Finance and Operations) с Microsoft Dynamics 365 for Sales (Sales).
 
 -   Имя шаблона: продукты (Fin and Ops в Sales)
 
