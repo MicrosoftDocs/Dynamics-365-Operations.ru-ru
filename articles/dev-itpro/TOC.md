@@ -124,6 +124,7 @@
 #### [Регистрация подкласса для методов фабрики](extensibility/register-subclass-factory-methods.md)
 #### [Ответ с использованием EventHandlerResult](extensibility/respond-event-handler-result.md)
 #### [Расширение класса RunBase](extensibility/extend-runbase-class.md)
+#### [Настройка процедуры запуска приложения с помощью делегатов](extensibility/startup-customizations.md)
 #### [Изменение имеющегося поля в таблице](extensibility/modify-existing-field.md)
 #### [Добавление нового поля в имеющуюся таблицу](extensibility/add-field-extension.md)
 #### [Добавление индекса в имеющуюся таблицу](extensibility/add-index.md)
@@ -505,10 +506,12 @@
 ### [Настройка и развертывание локальных сред](deployment/setup-deploy-on-premises-environments.md)
 ### [Разработка и развертывание пользовательских моделей в локальных средах](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Применение обновлений к локальному развертыванию](deployment/apply-updates-on-premises.md)
+### [Повторное развертывание локального размещения](deployment/redeploy-on-prem.md)
+### [Устранение неполадок в Dynamics 365 for Finance and Operations, Enterprise edition (локальная версия)](deployment/troubleshoot-on-prem.md)
 
 ## Развертывание пользовательского кода
 ### [Создание готового к развертыванию пакета](deployment/create-apply-deployable-package.md)
-### [Применение готового к развертыванию пакета](deployment/apply-deployable-package-system.md)
+### [Применение обновлений к облачной среде](deployment/apply-deployable-package-system.md)
 ### [Установка готового к развертыванию пакета](deployment/install-deployable-package.md)
 ### [Устранение неполадок приложений пакета](deployment/deployable-package-troubleshooting.md)
 
@@ -544,11 +547,13 @@
 ## Установка последнего обновления
 ### [Процесс перехода на последнюю версию](migration-upgrade/upgrade-latest-update.md)
 ### [Политика жизненного цикла](migration-upgrade/versions-update-policy.md)
-### [Обновление до версии последнего обновления платформы](migration-upgrade/upgrade-latest-platform-update.md)
+### [Установка в среде последнего обновления платформы](migration-upgrade/upgrade-latest-platform-update.md)
 ### [Обновление платформы Dynamics до выпуска от апреля 2016 г.](migration-upgrade/update-platform-each-release.md)
-### [Обновления "песочницы"](migration-upgrade/upgrade-sandbox-environment.md)
+### [Обновление "песочницы"](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Обновление данных в среде разработки или в демонстрационной среде](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Обновление средств разработки](dev-tools/update-development-tools.md)
+### [Применение обновлений к локальному развертыванию](deployment/apply-updates-on-premises.md)
+### [Повторное развертывание локального размещения](deployment/redeploy-on-prem.md)
 
 ## Исправления и обслуживание
 ### [Загрузка исправлений из Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
@@ -566,6 +571,7 @@
 ## [Совместное использование данных между компаниями](sysadmin/cross-company-data-sharing.md)
 ## [Режим обслуживания](sysadmin/maintenance-mode.md)
 ## [Предварительно настроенные системные счета](sysadmin/pre-configured-system-accounts.md)
+## [Экспорт пользователей B2B в Azure AD](sysadmin/implement-b2b.md)
 ## [Безопасность на основе ролей](sysadmin/role-based-security.md)
 ### [Архитектура безопасности](sysadmin/security-architecture.md)
 ### [Отчеты по безопасности](sysadmin/security-reports.md)
