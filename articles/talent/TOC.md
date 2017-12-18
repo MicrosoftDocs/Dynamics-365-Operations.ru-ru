@@ -2,9 +2,11 @@
 
 # [Начало работы](talent-get-started.md)
 ## [Системные требования и политика обновления](talent-versions-update-policy.md)
+## [Подготовка среды Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [Расширение функциональности Talent](extend-talent-functionality.md)
 
 # [Разработка стратегии управления персоналом](departments-jobs-positions.md)
-## [Настройка компонентов должности](create-job.md)
+## [Настройка компонентов должностей](create-job.md)
 ## [Создание подразделения и связывание его с иерархией подразделений](create-department-add-department-hierarchy.md)
 ## [Настройка параметров управления персоналом для нескольких юридических лиц](set-up-hr-parameters-across-legal-entities.md)
 ## [Настройка параметров управления персоналом для конкретной компании](set-up-company-specific-hr-parameters.md)

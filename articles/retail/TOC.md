@@ -180,11 +180,11 @@
 
 ## Развертывание и исправления
 ### [Обзор модуля весов для розничного магазина](dev-itpro/retail-store-system-begin.md)
-#### [Настройка и установка модуля весов для розничного магазина](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Настройка и установка модуля весов для розничного магазина](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Настройка и установка Retail Modern POS](retail-modern-pos-device-activation.md)
-#### [Управление учетными записями и устройствами Retail из центрального офиса](set-up-activation-accounts-validate-devices-hq.md)
-#### [Активация устройств Retail POS](dev-itpro/retail-device-activation.md)
-#### [Защищенные Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
+### [Управление учетными записями и устройствами Retail из центрального офиса](set-up-activation-accounts-validate-devices-hq.md)
+### [Активация устройств Retail POS](dev-itpro/retail-device-activation.md)
+### [Защищенные Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Настройка и установка станции оборудования для розничной торговли](retail-hardware-station-configuration-installation.md)
 ### [Массовое развертывание компонентов самообслуживания Retail](dev-itpro/retail-mass-deployment.md)
 ### [События компонента Retail для диагностики и устранения неполадок](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -194,48 +194,52 @@
 ### [Обзор обновления и поддержки N-1](dev-itpro/overview-upgrade-n-minus1.md)
 ### [Установка компонентов N-1](dev-itpro/n-1-installation-configuration.md)
 
+## Руководство по внедрению
+### [Руководство по внедрению системы управления устройствами](implementation-considerations-devices.md)
+
 ## Конфигурация среды
 ### [Добавление ссылки на юридические условия и заявление о конфиденциальности вашей организации](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [Управление Картами Bing](dev-itpro/manage-bing-maps.md)
 
-## Расширяемость
-### POS
-#### [Макеты экрана Retail POS](pos-screen-layouts.md)
-##### [Установка конструктора макетов POS](install-pos-layout-designer.md)
-#### [Настройка MPOS для работы в автономном режиме](dev-itpro/retail-modern-pos-offline.md)
-#### [Расширение триггеров MPOS и Cloud POS](dev-itpro/modern-pos-trigger-extensibility.md)
-#### [Добавление пользовательского элемента в представление POS](dev-itpro/pos-custom-control.md)
-#### [Расширение механизма оплаты для POS](dev-itpro/pos-payment-extension.md)
-#### [Поддержка внешних подарочных карт](dev-itpro/gift-card.md)
+## Возможности расширения POS
+### [Макеты экрана Retail POS](pos-screen-layouts.md)
+### [Установка конструктора макетов POS](install-pos-layout-designer.md)
+### [Настройка MPOS для работы в автономном режиме](dev-itpro/retail-modern-pos-offline.md)
+### [Расширение триггеров MPOS и Cloud POS](dev-itpro/modern-pos-trigger-extensibility.md)
+### [Добавление пользовательского элемента в представление POS](dev-itpro/pos-custom-control.md)
+### [Расширение механизма оплаты для POS](dev-itpro/pos-payment-extension.md)
+### [Поддержка внешних подарочных карт](dev-itpro/gift-card.md)
 ### [Создание приложения для розничной торговли](dev-itpro/create-retail-experience-app.md)
 ### [Обзор и расширение станции оборудования](dev-itpro/hardware-station-extensibility.md)
 
-### Сервер розничной торговли
-#### [Расширение контроллера Retail Server OData](dev-itpro/extend-retail-server-odata-controller.md)
-#### [Контроллеры веб-API и OData](dev-itpro/odata-controllers-api.md)
-#### [API клиентов и потребителей сервера розничной торговли](dev-itpro/retail-server-customer-consumer-api.md)
-#### [Расширение метаданных](dev-itpro/extend-metadata.md)
-#### [Расширение среды выполнения Commerce Runtime для поддержки автономного режима POS](dev-itpro/call-crt-service-offline.md)
-### Среда выполнения Commerce Runtime
-#### [Обзор Commerce Runtime](dev-itpro/commerce-runtime-overview.md)
-#### [Расширение сервера розничной торговли и Commerce Runtime](dev-itpro/commerce-runtime-extensibility.md)
-#### [Добавление данных о предпочтениях клиентов в базу данных канала](dev-itpro/add-customer-preference-channel.md)
-#### [Добавление свойств в заказ на продажу](dev-itpro/add-properties-sales-order.md)
-#### [Расширение и триггеры среды выполнения Commerce Runtime](dev-itpro/commerce-runtime-extensibility-trigger.md)
-#### [Пример триггера: блокирующая транзакция](dev-itpro/trigger-example-blocking-transaction.md)
-#### [Пример триггера: политика возврата](dev-itpro/trigger-example-return-policy.md)
-### Электронная коммерция
-#### [Настройка интернет-магазина](dev-itpro/configure-online-store.md)
-#### [Настройка поставщиков проверки подлинности](dev-itpro/configure-authentication-providers.md)
-#### [Платформа для электронной коммерции](dev-itpro/ecommerce-platform.md)
-#### [SDK платформы для электронной коммерции](dev-itpro/ecommerce-platform-sdk.md)
-### Соединитель платежей
-#### [Внедрение соединителя платежей и платежного устройства (технический документ)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
-#### [Развертывание соединителя платежей](dev-itpro/deploy-payment-connector.md)
-#### [Создание установщика Windows для соединителя платежей](dev-itpro/create-windows-installer-payment-connector.md)
+## Возможности расширения Retail Server
+### [Расширение контроллера Retail Server OData](dev-itpro/extend-retail-server-odata-controller.md)
+### [Контроллеры веб-API и OData](dev-itpro/odata-controllers-api.md)
+### [API клиентов и потребителей сервера розничной торговли](dev-itpro/retail-server-customer-consumer-api.md)
+### [Расширение метаданных](dev-itpro/extend-metadata.md)
+### [Расширение среды выполнения Commerce Runtime для поддержки автономного режима POS](dev-itpro/call-crt-service-offline.md)
 
-## Пакет Retail SDK
-### [Обзор пакета Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
+## Возможности расширения Commerce Runtime
+### [Обзор Commerce Runtime](dev-itpro/commerce-runtime-overview.md)
+### [Возможности расширения Commerce runtime и Retail Server ](dev-itpro/commerce-runtime-extensibility.md)
+### [Добавление данных о предпочтениях клиентов в базу данных канала](dev-itpro/add-customer-preference-channel.md)
+### [Добавление свойств в заказ на продажу](dev-itpro/add-properties-sales-order.md)
+### [Расширение и триггеры среды выполнения Commerce Runtime](dev-itpro/commerce-runtime-extensibility-trigger.md)
+### [Пример триггера: блокирующая транзакция](dev-itpro/trigger-example-blocking-transaction.md)
+### [Пример триггера: политика возврата](dev-itpro/trigger-example-return-policy.md)
+
+## Возможности расширения электронной коммерции
+### [Настройка интернет-магазина](dev-itpro/configure-online-store.md)
+### [Настройка поставщиков проверки подлинности](dev-itpro/configure-authentication-providers.md)
+### [Платформа для электронной коммерции](dev-itpro/ecommerce-platform.md)
+### [SDK платформы для электронной коммерции](dev-itpro/ecommerce-platform-sdk.md)
+
+## Возможности расширения соединителя платежей
+### [Внедрение соединителя платежей и платежного устройства (технический документ)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+### [Развертывание соединителя платежей](dev-itpro/deploy-payment-connector.md)
+### [Создание установщика Windows для соединителя платежей](dev-itpro/create-windows-installer-payment-connector.md)
+
+## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [Интеграция пакета Retail SDK с системой непрерывной сборки](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Примеры расширения пакета Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Контрольно-кассовые машины для Швеции](localizations/emea-swe-cash-registers.md)
@@ -249,7 +253,13 @@
 ### [Атрибуты заказа](dev-itpro/order-attributes.md)
 ### [Атрибуты клиента](dev-itpro/customer-attributes.md)
 ### [Прокси Typescript и C# в Retail](dev-itpro/typescript-proxy-retail-pos.md)
-
+### [Запуск примеров Retail POS](dev-itpro/pos-run-samples.md)
+### [Расширение имеющихся представлений POS с добавлением пользовательских столбцов и кнопок панели приложения](dev-itpro/pos-view-extension.md)
+### [Добавление пользовательских элементов управления на страницы транзакций Retail Modern POS](dev-itpro/pos-custom-transaction.md)
+### [Добавление пользовательских столбцов в сетку транзакций POS](dev-itpro/pos-custom-transaction-column.md)
+### [Вызов API или операции POS из расширения POS](dev-itpro/pos-api-extension.md)
+### [Расширение имеющихся представлений POS с добавлением пользовательских столбцов и кнопок панели приложения](dev-itpro/pos-view-extension.md)
+### [Триггеры и вывод на печать в Retail Modern POS](dev-itpro/pos-trigger-printing.md)
 
 ## Среда выполнения Commerce Runtime
 ### [Расширение программы лояльности](dev-itpro/retail-sdk/loyalty-extension-sample.md)
