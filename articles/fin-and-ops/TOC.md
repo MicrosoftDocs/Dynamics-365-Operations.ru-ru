@@ -10,6 +10,7 @@
 ##### [Требования к системе для облачных развертываний](get-started/system-requirements.md)
 ##### [Локальное развертывание](../dev-itpro/deployment/on-premises-deployment-landing-page.md)
 ##### [Требования к системе для локальных развертываний](get-started/system-requirements-on-prem.md)
+##### [Складские операции для локальных развертываний](../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 #### Покупка Finance and Operations
 ##### [Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
@@ -20,8 +21,9 @@
 #### [Компоненты AX 2012, реализация которых была отложена](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Функции, не реализованные в локальном развертывании](get-started/features-not-implemented-on-prem.md)
 #### [Политика жизненного цикла](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Обновление платформы 11 (октябрь 2017 г.)](get-started/whats-new-platform-update-11.md)
-#### [Обновление платформы 10 (август 2017 г.)](get-started/whats-new-platform-update-10.md)
+#### [Platform update 12 (ноябрь 2017 г.)](get-started/whats-new-platform-update-12.md)
+#### [Platform update 11 (октябрь 2017 г.)](get-started/whats-new-platform-update-11.md)
+#### [Platform update 10 (август 2017 г.)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise Edition (июль 2017 г.)](get-started/whats-new-application-July-2017-update.md)
 #### [Обновление платформы 9 (июль 2017 г.)](get-started/whats-new-platform-update-9.md)
 #### [Обновление платформы 8 (июнь 2017 г.)](get-started/whats-new-platform-update-8.md)
@@ -42,6 +44,7 @@
 ##### [Проводники по задачам от февраля 2016 г.](get-started/new-task-guides-available-february-2016.md)
 
 ### Знакомство с пользовательским интерфейсом
+#### [Специальные возможности](get-started/accessibility-features.md)
 #### [Вопросы и ответы по пользовательскому интерфейсу клиента](get-started/client-faq.md)
 #### [Поиск действий](get-started/action-search.md)
 #### [Расширенный синтаксис фильтрации и запросов](get-started/advanced-filtering-query-options.md)
@@ -56,7 +59,7 @@
 #### [Настройка основного часового пояса пользователя](organization-administration/tasks/set-users-preferred-time-zone.md)
 #### [Общие сведения о Lifecycle Services](../dev-itpro/lifecycle-services/lcs-works-lcs.md)
 
-### Получение справки и поддержки
+### Прочтите и запустите документацию
 #### [Обзор справки](get-started/help-overview.md)
 #### [Подключение справки](get-started/help-connect.md)
 #### [Просмотр и экспорт описаний полей](get-started/view-export-field-descriptions.md)
@@ -152,17 +155,21 @@
 
 #### [Интеграция данных с использованием Common Data Service](../dev-itpro/data-entities/data-integration-cds.md) 
 ##### [Настройка сценария продажи перспективному клиенту](../supply-chain/sales-marketing/prospect-to-cash.md)
-###### [Синхронизация продуктов из Finance and Operations с продуктами в Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-###### [Синхронизация организаций из Sales с клиентами в Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-###### [Синхронизация контактов из Sales с контактами или клиентами в Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
-###### [Синхронизация заголовков и строк предложений по продажам из Sales с Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-###### [Синхронизация заголовков и строк заказов на продажу из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-###### [Синхронизация заголовков и строк накладных по продаже из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
-###### [Синхронизация организаций непосредственно из Sales с клиентами в Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-###### [Синхронизация продуктов непосредственно из Finance and Operations с продуктами в Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-###### [Синхронизация контактов непосредственно из Sales с контактами или клиентами в Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Синхронизация заголовков и строк заказов на продажу непосредственно из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Синхронизация заголовков и строк накладных по продаже непосредственно из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Ведение организаций в Sales и их синхронизация напрямую из Sales в Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+###### [Ведение продуктов в Finance and Operations и их синхронизация напрямую с Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+###### [Ведение контактов в Sales и их синхронизация с контактами или клиентами напрямую в Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+###### [Синхронизация предложений по продажам напрямую из Sales с Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Синхронизация заказов на продажу напрямую из Finance and Operations в Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+###### [Синхронизация заказов на продажу напрямую между Sales и Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Синхронизация накладных по продаже напрямую из Finance and Operations в Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Ведение организаций в Sales и их синхронизация с Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
+###### [Ведение контактов в Sales и их синхронизация с Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
+###### [Ведение продуктов в Finance and Operations и их синхронизация с Sales](../supply-chain/sales-marketing/products-template-mapping.md)
+###### [Создание предложений по продажам в Sales и их синхронизация с Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+###### [Создание заказов на продажу в Finance and Operations и их синхронизация с Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+###### [Создание счетов продажи в Finance and Operations и их синхронизация с Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+
+
 
 #### [Использование внешних веб-служб](../dev-itpro/data-entities/consume-external-web-service.md)
 
@@ -894,6 +901,7 @@
 ##### [Отчет по черному списку](../financials/localizations/emea-ita-black-list-report.md)
 ##### [Дата обеспечения](../financials/localizations/emea-ita-competence-date.md)
 ##### [Амортизация ОС](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [Проверка даты отборочной накладной в накладных](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 ##### [Книги учета налогов](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [Разбиение платежей по накладным, выписанным государственным административным органам](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
@@ -1347,7 +1355,29 @@
 ### [Отслеживание вычисления средней стоимости на складскую аналитику](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
 
 
-## Сводное планирование
+## [Сводное планирование](../supply-chain/master-planning/master-planning-home-page.md)
+### [Сводный план](../supply-chain/master-planning/master-plans.md)
+#### [Параметры покрытия](../supply-chain/master-planning/coverage-settings.md)
+#### [Определение правил покрытия для номенклатур (проводник по задаче)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
+#### [Создание ограниченного плана (проводник по задаче)](../supply-chain/master-planning/tasks/constrained-plan.md)
+#### [Создание плана материалов для сопутствующих продуктов (проводник по задаче)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
+#### [Ведение спланированных заказов](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [Обрабатывать задержек](../supply-chain/master-planning/delays.md)
+#### [Трассировка развертывания](../supply-chain/master-planning/trace-explosion.md)
+#### [Сообщения по действию](../supply-chain/master-planning/action-messages.md)
+#### [Мониторинг выполнения сводного планирования (проводник по задаче)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
+#### [Создание графика для сайта (проводник по задаче)](../supply-chain/master-planning/tasks/create-schedule-site.md)
+#### [Создание плана для сайта (проводник по задаче)](../supply-chain/master-planning/tasks/create-plan-site.md)
+#### [Сводные планы и функциональность Мультисайт](../supply-chain/master-planning/master-plan-multisite-functionality.md)
+##### [Планирование покрытия сайта (склад обязателен)](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+##### [Планирование покрытия сайта (склад не обязателен)](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+##### [Планирование покрытия сайта и склада (склад обязателен)](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+##### [Планирование покрытия сайта и склада (склад не обязателен)](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+##### [Определение версии спецификации](../supply-chain/master-planning/master-plan-bom-version-determined.md)
+##### [Развертывание версии спецификации](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
+#### [Создание внутрихолдингового плана (проводник по задаче)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
+#### [Просмотр исходящего запланированного внутрихолдингового спроса (проводник по задаче)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
+#### [Взаимодействие с клиентами внутренней цепочки поставок (проводник по задаче)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 ### [Прогнозирование спроса](../supply-chain/master-planning/introduction-demand-forecasting.md)
 #### [Настройка прогноза спроса](../supply-chain/master-planning/demand-forecasting-setup.md)
 #### [Импорт исторических данных для прогнозов спроса](../supply-chain/master-planning/import-historical-data.md)
@@ -1359,29 +1389,6 @@
 #### [Ключи сокращения](../supply-chain/master-planning/reduction-keys.md)
 #### [Создание базового прогноза (проводник по задаче)](../supply-chain/master-planning/tasks/create-baseline-forecast.md)
 #### [Изменение прогноза спроса вручную (проводник по задаче)](../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md)
-
-### [Сводный план](../supply-chain/master-planning/master-plans.md)
-#### [Параметры покрытия](../supply-chain/master-planning/coverage-settings.md)
-#### [Ведение спланированных заказов](../supply-chain/master-planning/maintain-planned-orders.md)
-#### [Задержки](../supply-chain/master-planning/delays.md)
-#### [Сообщения по действию](../supply-chain/master-planning/action-messages.md)
-#### [Трассировка развертывания](../supply-chain/master-planning/trace-explosion.md)
-#### [Сводные планы и функциональность Мультисайт](../supply-chain/master-planning/master-plan-multisite-functionality.md)
-##### [Планирование покрытия сайта (склад обязателен)](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
-##### [Планирование покрытия сайта (склад не обязателен)](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
-##### [Планирование покрытия сайта и склада (склад обязателен)](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-##### [Планирование покрытия сайта и склада (склад не обязателен)](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-##### [Определение версии спецификации](../supply-chain/master-planning/master-plan-bom-version-determined.md)
-##### [Развертывание версии спецификации](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
-#### [Мониторинг выполнения сводного планирования (проводник по задаче)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
-#### [Определение правил покрытия для номенклатур (проводник по задаче)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
-#### [Создание плана для сайта (проводник по задаче)](../supply-chain/master-planning/tasks/create-plan-site.md)
-#### [Создание графика для сайта (проводник по задаче)](../supply-chain/master-planning/tasks/create-schedule-site.md)
-#### [Создание ограниченного плана (проводник по задаче)](../supply-chain/master-planning/tasks/constrained-plan.md)
-#### [Создание внутрихолдингового плана (проводник по задаче)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
-#### [Создание плана материалов для сопутствующих продуктов (проводник по задаче)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
-#### [Просмотр исходящего запланированного внутрихолдингового спроса (проводник по задаче)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
-#### [Взаимодействие с клиентами внутренней цепочки поставок (проводник по задаче)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 
 
 ## [Мобильное приложение](../dev-itpro/mobile-apps/Mobile-app-home-page.md)
@@ -1853,7 +1860,7 @@
 #### [Настройка рабочего шаблона для заказов на покупку](../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md)
 #### [Планирование загрузок и отгрузок с помощью рабочего места планирования загрузки](../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md)
 
-# [Разработка и администрирование](../dev-itpro/toc.md)
+# [Разработка и администрирование для Finance and Operations](../dev-itpro/toc.md)
 
 # [Dynamics 365 for Retail](../retail/toc.md)
 
