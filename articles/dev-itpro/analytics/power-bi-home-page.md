@@ -3,7 +3,7 @@ title: "Содержимое Power BI"
 description: "В этой теме перечислено доступное содержимое Power BI и ресурсы, где можно получить дополнительную информацию о нем."
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ffae237693ebf0b0feedf7c60230590d95eed3d4
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ae19b4afa9e36800988b790398e46d8861ba432d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -31,8 +31,8 @@ ms.lasthandoff: 11/03/2017
 
 В этой теме перечислено доступное содержимое Microsoft Power BI и ресурсы, где можно получить дополнительную информацию о нем.
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Содержимое Power BI для Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.)
-При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.) доступно следующее содержимое Power BI:
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Содержимое Power BI для Dynamics 365 for Finance and Operations, Enterprise Edition
+При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition доступно следующее содержимое Power BI:
 
 - [Содержимое Power BI фактическое в сравнении с бюджетом](ledger-budgets-power-bi.md)
 - [Содержимое Power BI "Льготы"](benefits-power-bi.md)

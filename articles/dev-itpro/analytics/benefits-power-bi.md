@@ -3,7 +3,7 @@ title: "Льготы содержимого Power BI"
 description: "В этом разделе описываются льготы содержимого Power BI. В нем описывается порядок доступа к включенным отчетам и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого."
 author: jcart1106
 manager: AnnBe
-ms.date: 05/24/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 21f7f77148728a6e7584af76ec053250f52bc73c
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 25111ac7ae07e04bc81ac23a348464bcbe1393af
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
 **Льготы** содержимого Power BI показаны в рабочей области **Управление льготами** при использовании одного из следующих продуктов:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.)
+- Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Отчеты, которые включены в содержимое Power BI

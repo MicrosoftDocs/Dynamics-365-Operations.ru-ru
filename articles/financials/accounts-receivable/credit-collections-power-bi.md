@@ -3,7 +3,7 @@ title: "Содержимое Power BI \"Кредит и сборы\""
 description: "В этой теме описывается, что входит в содержимое Power BI для кредита и сборов. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5f08df6cb8549e87e123b10c5a771ae1c60ff39c
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 536ebae3ec44954aba314a966c9b0d2dabef45d1
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/03/2017
 По умолчанию показаны данные кредитов и сборов для текущей компании. Чтобы просмотреть данные для всех компаний, назначьте полномочие **CustCollectionsBICrossCompany** для роли.
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
-При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.) содержимое Power BI **Управление кредитом и сбором задолженностей** отображается в рабочей области **Кредит и сбор задолженностей клиента**.
+Содержимое Power BI **Управление кредитом и сбором задолженностей** отображается в рабочей области **Кредит и сбор задолженностей клиента**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Отчеты, которые включены в содержимое Power BI
 
