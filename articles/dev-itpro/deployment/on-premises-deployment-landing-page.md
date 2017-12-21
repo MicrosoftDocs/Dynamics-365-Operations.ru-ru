@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 61395e0e57eb02aaa1c95a7dbd9c15082b822701
-ms.openlocfilehash: 15992b1666caea21cdcf440fefcf65ff18111801
+ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
+ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Целевая страница локального развертывания
@@ -30,14 +30,13 @@ ms.lasthandoff: 10/05/2017
 
 Вы можете развернуть Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия). При выборе типа локального развертывания требования к системе, параметры оборудования и функции будут отличаться от облачного развертывания. В этой теме представлены ссылки на содержимое с информацией по локальным развертываниям.
 
-**Примечание.** В настоящее время идет переименование приложения Dynamics 365 for Operations (локальная версия). Вы увидите ссылки на Dynamics 365 for Operations (локальная версия) в сведениях и руководствах по лицензированию. Имя продукта, которое будет отображаться при развертывании продукта, — Dynamics 365 for Finance and Operations, выпуск Enterprise. Оба эти имени означаются один и тот же продукт.
-
 ## <a name="get-started"></a>Начало работы
 - [Обзор Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](on-premises-overview.md)
 - [Требования к системе для локальных развертываний](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Определение параметров оборудования для локальных сред](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Политика жизненного цикла для онлайн-служб и локального программного обеспечения](../migration-upgrade/versions-update-policy.md)
 - [Приобретение Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Сравнение характеристик облачной и локальной версий](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Адаптация
 - [Создание локального проекта в Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
@@ -51,9 +50,12 @@ ms.lasthandoff: 10/05/2017
 - [Возможности создания, публикации и печати документов в локальных развертываниях](../analytics/printing-capabilities-on-premises.md)
 - [Настройка технической поддержки](../lifecycle-services/support-experience.md)
 - [Устранение неполадок подключения к Интернету клиента](../user-interface/client-disconnected.md)
+- [Применение обновлений к локальному развертыванию](apply-updates-on-premises.md)
+- [Повторное развертывание локального размещения](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Другие ресурсы
 - [Функции, не реализованные в локальном развертывании](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Устаревшие функции](../migration-upgrade/deprecated-features.md)
+- [Политика жизненного цикла программного обеспечения и список выпусков](../migration-upgrade/versions-update-policy.md)
  
 

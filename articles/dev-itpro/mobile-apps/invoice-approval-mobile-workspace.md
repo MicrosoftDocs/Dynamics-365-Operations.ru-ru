@@ -3,7 +3,7 @@ title: "Мобильная рабочая область \"Утверждени�
 description: "В этом разделе содержится информация о мобильной рабочей области утверждения накладных. Эта рабочая область содержит список накладных, которые были назначены вам через процесс workflow-процесса заголовка накладной поставщика."
 author: abruer
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: af673f076f684500b6ca84d04c01f7f773d65cd6
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 03179fdfd23e26250af92eb70d2ede710bd7007f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/03/2017
 </thead>
 <tbody>
 <tr class="odd">
-<td>В организации должна быть развернута система Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.).</td>
+<td>В организации должна быть развернута система Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</td>
 <td>Системный администратор</td>
 <td>См. <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>.
 </td>

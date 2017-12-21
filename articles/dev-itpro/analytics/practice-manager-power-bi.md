@@ -3,7 +3,7 @@ title: "Содержимое Power BI \"Менеджер по методикам
 description: "В этом разделе описывается, что входит в содержимое Power BI \"Менеджер по методикам\". В нем описывается порядок доступа к отчетам, входящим в содержимое, и предоставляется информация о модели данных и объектах, используемых для построения содержимого."
 author: KimANelson
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3462ef1bbde9a98ac6a7bc9a5c54e58ff98559c8
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 836997f9f5b146ff48252c3f06153791ec1aabed
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 11/03/2017
 Все суммы в содержимом отображаются в системной валюте. Системную валюту можно задать на странице **Системные параметры**.
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
-При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.), содержимое Power BI **Менеджер по методикам** отображается в рабочей области **Управление проектами**.
+Содержимое Power BI **Менеджер методики** отображается в рабочей области **Управление проектами**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Отчеты, которые включены в содержимое Power BI
 

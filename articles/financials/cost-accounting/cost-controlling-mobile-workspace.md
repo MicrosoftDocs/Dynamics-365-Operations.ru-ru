@@ -3,7 +3,7 @@ title: "Мобильная рабочая область управления з
 description: "В этой теме содержится информация о мобильной рабочей области \"Управление затратами\". Эта рабочая область позволяет менеджерам центра затрат просматривать сведения о производительности центра затрат в любое время и в любом месте."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aevengir
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 53fea21edabf33271038f4d332893e9009d3fc8a
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 5b57bf268ac9e91c98a0b8709061e695ebf482c6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -73,13 +73,13 @@ ms.lasthandoff: 11/03/2017
 
     При выборе ссылки отображается карта для каждого элемента затрат. На каждой карточке отображаются следующее суммы: фактическая, бюджетная, отклонение от бюджета, отклонение от бюджета в процентах, пересмотренный бюджет, отклонение от пересмотренного бюджета и отклонение от пересмотренного бюджета в процентах.
     
-    [![Карточка для элемента затрат ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
+    [![Карточка для элемента затрат](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
 ## <a name="prerequisites"></a>Необходимые условия
 Предварительные условия различаются, в зависимости от версии Microsoft Dynamics 365, развернутой в организации.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.)
-Если в вашей организации развернута система Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.), системный администратор должен опубликовать мобильную рабочую область **Управление затратами**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
+Если в вашей организации развернута система Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, системный администратор должен опубликовать мобильную рабочую область **Управление затратами**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии.
 Если в вашей организации развернута Microsoft Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии, системный администратор должен выполнить следующие условия.

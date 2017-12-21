@@ -3,7 +3,7 @@ title: "Сравнение характеристик облачной и лок
 description: "В этой теме показано, какие функции поддерживаются в облачной и локальной версиях."
 author: robinarh
 manager: AnnBe
-ms.date: 07/13/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,13 +15,13 @@ ms.custom: 89563
 ms.assetid: 
 ms.search.region: Global
 ms.author: robinr
-ms.search.validFrom: 2017-07-13
+ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
+ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
+ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,6 +59,9 @@ ms.lasthandoff: 11/06/2017
 | | Интеграция с PowerBI.com| Да | Нет |
 | | Рабочие области для аналитики | Да | Нет |
 | | Интеллектуальный бизнес-процесс: рекомендации| Да | Нет |
+| | Создание отчетов Power BI с OData с помощью рабочего стола Power BI или средств Excel PowerQuery | Да | Нет |
+| | Службы отчетов SQL Server (SSRS) поддерживают горизонтальное масштабирование  | Да | Нет |
+| | Телеметрия перемещена в облако | Да | Нет |
 | Управление запасами| | Да | Да |
 | Lifecycle Services| | Да | Да |
 | | Конфигурируемые бизнес-процессы | Да | Нет |
@@ -86,7 +89,7 @@ ms.lasthandoff: 11/06/2017
 | Управление транспортировкой| | Да | Да |
 | Совместная работа с поставщиками| | Да | Да|
 | Управление складом| | Да | Да |
-| | Мобильное приложение для склада| Да | Нет |
+| | Мобильное приложение для склада| Да | Да |
 | | Складские отчеты Power BI| Да | Нет |
 | Веб-клиент | | Да | Да |
 | | Регистратор задач - сохранение или загрузка записей задач из библиотеки BPM| Да | Нет |
@@ -103,6 +106,7 @@ ms.lasthandoff: 11/06/2017
 | Платформенная совместимость  || Да | Да |
 | Обслуживание | | Да | Да |
 | | Обслуживание сред | Да | Нет |
+| Синтаксический анализатор трассировки и PerfTimer | | Да | Нет |
 | Обновить | | Да | Да |
 | | Обновить | Да | Нет |
 | | Обновление и поддержка предыдущих версий | Да | Нет |
@@ -121,6 +125,8 @@ ms.lasthandoff: 11/06/2017
 |---|---|---|---|
 | Все области Talent | Все функции Talent | Да | Нет |
 
+## <a name="see-also"></a>См. также
 
+- [Функции, не реализованные в локальном развертывании](features-not-implemented-on-prem.md)
 
 

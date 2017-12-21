@@ -3,7 +3,7 @@ title: "Содержимое Power BI для обзора кассы"
 description: "В этом разделе описывается содержимое Power BI для обзора кассы. В нем описывается порядок доступа к отчетам, входящим в содержимое, и предоставляется информация о модели данных и объектах, которые использовались для построения содержимого."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/22/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fdcd3083f475967ec2e5f94dad850a1bf98c864a
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 8a3d12b3b0f71ea8b84b1618d9bb6bbc416e3b1d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
 
-При использовании Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.) отчеты из содержимого Power BI **Обзор кассы** отображаются в рабочих областях **Обзор кассы** и **Управление банками**.
+Отчеты из содержимого Power BI **Обзор кассы** отображаются в рабочих областях **Обзор кассы** и **Банковские операции**.
 
 Чтобы просмотреть отчеты по прогнозу движения денежных средств с данными, сначала необходимо запустить процесс расчета прогноза с помощью функции **Рассчитать прогнозы движения денежных средств** из области "Управление банком и кассовыми операциями".  Это необходимо выполнить для каждой компании, включенной в прогноз.  Затем необходимо обновить агрегированное измерение LedgerCovLiquidityMeasurement на странице **Хранилище объектов**.  
 
