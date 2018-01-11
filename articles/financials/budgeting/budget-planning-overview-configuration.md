@@ -3,7 +3,7 @@ title: "Обзор планирования бюджета"
 description: "В этой статье приводится обзор бюджетного планирования и сведения о конфигурации бюджетного планирования и настройке процессов бюджетного планирования."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

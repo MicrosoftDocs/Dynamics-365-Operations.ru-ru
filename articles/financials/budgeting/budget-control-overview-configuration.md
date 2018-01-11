@@ -3,7 +3,7 @@ title: "Обзор бюджетного контроля"
 description: "Эта статья представляет бюджетный контроль и предоставляет сведения по настройке бюджетного контроля в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, чтобы иметь возможность управлять финансовыми ресурсами."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
