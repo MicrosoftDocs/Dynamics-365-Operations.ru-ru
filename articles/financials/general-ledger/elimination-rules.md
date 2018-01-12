@@ -3,14 +3,14 @@ title: "Правила элиминирования"
 description: "Этот раздел содержит сведения о правилах исключения и различных вариантах для отчетности об исключениях."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerEliminationRule
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
+ms.openlocfilehash: 2a0897bd80a508474be384e8086ca47dd9de7efb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -140,7 +140,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="765af-182">После определения основных параметров, можно задать фактические правила обработки, щелкнув **Строки**.</span><span class="sxs-lookup"><span data-stu-id="765af-182">After you have defined the basics, you can define the actual processing rules by clicking **Lines**.</span></span> <span data-ttu-id="765af-183">Существует два варианта для исключений: исключение суммы чистого изменения или определение фиксированной суммы.</span><span class="sxs-lookup"><span data-stu-id="765af-183">There are two options for eliminations, eliminating the net change amount or defining a fixed amount.</span></span> 
 
-<span data-ttu-id="765af-184">Выберите свой исходный счет.</span><span class="sxs-lookup"><span data-stu-id="765af-184">Select your source account.</span></span> <span data-ttu-id="765af-185">Можно использовать звездочку (\*) как подстановочный знак.</span><span class="sxs-lookup"><span data-stu-id="765af-185">You can use an asterisk (\*) as a wild card.</span></span> <span data-ttu-id="765af-186">Например, 1\* выбирает все счета, начинающиеся на 1, как исходные данные для распределения.</span><span class="sxs-lookup"><span data-stu-id="765af-186">For example, 1\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
+<span data-ttu-id="765af-184">Выберите свой исходный счет.</span><span class="sxs-lookup"><span data-stu-id="765af-184">Select your source account.</span></span> <span data-ttu-id="765af-185">Можно использовать звездочку (\\*) как подстановочный знак.</span><span class="sxs-lookup"><span data-stu-id="765af-185">You can use an asterisk (\\*) as a wild card.</span></span> <span data-ttu-id="765af-186">Например, 1\\* выбирает все счета, начинающиеся на 1, как исходные данные для распределения.</span><span class="sxs-lookup"><span data-stu-id="765af-186">For example, 1\\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
 
 <span data-ttu-id="765af-187">После выбора исходных счетов поле **Спецификация счета** определяет счет из компании-получателя, который используется.</span><span class="sxs-lookup"><span data-stu-id="765af-187">After you have selected your source accounts, the **Account specification** determines the account from the destination company that is used.</span></span> <span data-ttu-id="765af-188">Выберите **Источник**, если необходимо использовать тот же счет ГК, что и определенный в счете **Источник**.</span><span class="sxs-lookup"><span data-stu-id="765af-188">Select **Source** if you want to use the same main account defined in the **Source** account.</span></span> <span data-ttu-id="765af-189">При выборе варианта **Определенный пользователем**, необходимо указать счет назначения.</span><span class="sxs-lookup"><span data-stu-id="765af-189">If you select **User defined**, then you must specify a destination account.</span></span> 
 
