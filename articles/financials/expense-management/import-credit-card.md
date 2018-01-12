@@ -3,14 +3,14 @@ title: "Импорт и ведение проводок по кредитным 
 description: "В этой теме поясняется, как импортировать и вести связанные с расходами проводки по кредитным картам. Эти проводки можно настроить так, чтобы они автоматически импортировались по графику, или импортировать их вручную, когда они необходимы."
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
