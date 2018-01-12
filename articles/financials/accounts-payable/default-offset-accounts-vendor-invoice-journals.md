@@ -3,7 +3,7 @@ title: "Корреспондентские счета по умолчанию д
 description: "Этот раздел поможет решить, где следует назначать счета по умолчанию для журналов накладных."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
