@@ -1,7 +1,7 @@
 ---
 title: "Крайние сроки ввода заказа"
 description: "Эта статья содержит сведения о крайних сроках ввода заказа. Крайний срок ввода заказа — это крайнее время, которое определяет, обрабатывается ли (и выполняется ли) заказ клиента, как если бы он был получен в текущий день или на следующий день."
-author: YuyuScheller
+author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventOrderEntryDeadlineGroup, InventOrderEntryDeadlineParameters, InventOrderEntryDeadlineTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
