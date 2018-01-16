@@ -44,6 +44,7 @@
 ## [Посещаемость и время присутствия в Retail](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) и Cloud POS
+## [Выбор между Modern POS и Cloud POS](MPOS-or-CPOS.md)
 ## [Операции POS](POS-operations.md)
 ## [Макеты экрана в демонстрационных данных для MPOS/CPOS](demo-data.md)
 ## Периферийные устройства
@@ -76,6 +77,11 @@
 ### [Настройка шаблонов чеков](receipt-templates-printing.md) 
 ### [Отправка чеков по электронной почте из MPOS](email-receipts.md)
 ## [Регистратор задач и справка для POS](task-recorder-retail-pos.md)
+
+# Выполнение заказов
+## [Общие сведения о выполнения заказа в магазине](Order-fulfillment-overview.md)
+## [Настройка выполнения в магазине](Order-fulfillment-POS-setup.md)
+## [Включение уведомлений в POS](Notifications-POS.md)
 
 # Мониторинг и анализ
 ## [Мониторинг эффективности продаж и маржи](monitor-sales-margin-performance.md)
@@ -258,8 +264,10 @@
 ### [Добавление пользовательских элементов управления на страницы транзакций Retail Modern POS](dev-itpro/pos-custom-transaction.md)
 ### [Добавление пользовательских столбцов в сетку транзакций POS](dev-itpro/pos-custom-transaction-column.md)
 ### [Вызов API или операции POS из расширения POS](dev-itpro/pos-api-extension.md)
-### [Расширение имеющихся представлений POS с добавлением пользовательских столбцов и кнопок панели приложения](dev-itpro/pos-view-extension.md)
 ### [Триггеры и вывод на печать в Retail Modern POS](dev-itpro/pos-trigger-printing.md)
+### [Добавление пользовательского элемента управления в представление на основе конструктора без экрана в Retail Modern POS](dev-itpro/pos-control-non-screen.md)
+### [Создание прокси Retail для POS и электронной коммерции](dev-itpro/pos-generate-retail-proxy.md)
+### [Этапы настройки конфигурации для разработчиков Retail, работающих с размещенными в облаке окнами для разработки](dev-itpro/cloud-dev-box.md)
 
 ## Среда выполнения Commerce Runtime
 ### [Расширение программы лояльности](dev-itpro/retail-sdk/loyalty-extension-sample.md)

@@ -17,12 +17,13 @@
 ##### [Купить Finance and Operations (локальная версия)](get-started/purchase-on-premises.md)
 
 ### [Что нового и что изменилось](get-started/whats-new-changed.md)
-#### [Устаревшие функции](../dev-itpro/migration-upgrade/deprecated-features.md)
+#### [Удаленные или устаревшие функции](../dev-itpro/migration-upgrade/deprecated-features.md)
 #### [Компоненты AX 2012, реализация которых была отложена](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Функции, не реализованные в локальном развертывании](get-started/features-not-implemented-on-prem.md)
-#### [Политика жизненного цикла](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Platform update 12 (ноябрь 2017 г.)](get-started/whats-new-platform-update-12.md)
-#### [Platform update 11 (октябрь 2017 г.)](get-started/whats-new-platform-update-11.md)
+#### [Выпуски и политика жизненного цикла](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Finance and Operations, выпуск Enterprise 7.3](get-started/whats-new-application-7.3-update.md)
+#### [Platform, обновление 12 (ноябрь 2017 г.)](get-started/whats-new-platform-update-12.md)
+#### [Platform, обновление 11 (октябрь 2017 г.)](get-started/whats-new-platform-update-11.md)
 #### [Platform update 10 (август 2017 г.)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise Edition (июль 2017 г.)](get-started/whats-new-application-July-2017-update.md)
 #### [Обновление платформы 9 (июль 2017 г.)](get-started/whats-new-platform-update-9.md)
@@ -141,7 +142,7 @@
 #### [API пакета управления данными](../dev-itpro/data-entities/data-management-api.md)
 #### [Конечные точки служб](../dev-itpro/data-entities/services-home-page.md)
 ##### [Устранение неполадок при проверке подлинности в службах](../dev-itpro/data-entities/troubleshoot-service-authentication.md)
-#### [OData](../dev-itpro//data-entities/odata.md)
+#### [OData](../dev-itpro/data-entities/odata.md)
 #### [Пользовательские службы](../dev-itpro/data-entities/custom-services.md)
 #### [Повторяющиеся интеграции](../dev-itpro/data-entities/recurring-integrations.md)
 
@@ -179,9 +180,10 @@
 ### [Информационные объекты](../dev-itpro/data-entities/data-entities.md)
 
 #### [Проекты, связанные с конфигурационными данными](../dev-itpro/data-entities/configuration-data-projects.md)
-#### [Пакеты конфигурационных данных](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Копирование конфигурационных данных между компаниями](../dev-itpro/data-entities/copy-configuration.md)
+##### [Пакеты конфигурационных данных (только выпуск за июль 2017 г.)](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Шаблоны конфигурационных данных](../dev-itpro/data-entities/configuration-data-templates.md)
+
 #### [Отслеживание изменений в объектах](../dev-itpro/data-entities/entity-change-track.md)
 
 ### Стандартные информационные объекты
@@ -646,6 +648,11 @@
 ##### [Настройка отрицательных дебетов и кредитов](../financials/localizations/apac-chn-negative-debits-credits.md)
 ##### [Журнал операций пользователей по правилу деятельности Китая](../financials/localizations/tasks/user-operation-log-china-working-rule.md)
 ##### [Вопросы и ответы по накладным клиента НДС](../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+
+#### Индия
+##### [Обзор механизма начисления налога](../financials/general-ledger/tax-engine.md)
+##### [Интеграция механизма начисления налога](../financials/general-ledger/tax-engine-integration.md)
+##### [Расширение механизма начисления налога](../financials/general-ledger/extend-tax-engine-configurations.md)
 
 #### Япония
 ##### [Приобретение основного средства и требование субсидии гранта правительства](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -1214,7 +1221,8 @@
 #### [Показатели трудовых ресурсов](../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md)
 
 ### Отчетность и печать документов
-#### [Обзор служб Reporting Services для документов](../dev-itpro/analytics/document-reporting-services.md)
+#### [Обзор служб Document Reporting Services](../dev-itpro/analytics/document-reporting-services.md)
+#### [Установка сетевых принтеров в локальных средах](../dev-itpro/analytics/install-network-printer-onprem.md)
 #### [Настройка служб SSRS для локального развертывания](../dev-itpro/analytics/configure-ssrs-on-premises.md)
 #### [Печать](../dev-itpro/analytics/print-documents.md)
 ##### [Установка агента маршрутизации документов для включения сетевых принтеров](../dev-itpro/analytics/install-document-routing-agent.md)
@@ -1285,35 +1293,33 @@
 ##### [Выбор определения модели данных при создании формата для электронной отчетности](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md)
 ##### [Обновление формата путем принятия новой базовой версии этого формата для электронной отчетности](../dev-itpro/analytics/tasks/er-upgrade-format.md)
 ##### [Отправка конфигурации в Lifecycle Services для электронной отчетности](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [Изменения API платформы электронной отчетности для обновления приложения 7.3](../dev-itpro/analytics/er-apis-app73.md)
 
-### Средства анализа и визуализации
+### Внедренные аналитические решения
+#### [Внедренный Power BI в рабочих областях](../dev-itpro/analytics/embed-power-bi-workspaces.md)
+#### [Интеграция с Power BI Embedded](../dev-itpro/analytics/power-bi-embedded-integration.md)
+
+### Параметры персонализации с PowerBI.com
+#### [Интеграция с Power BI](../dev-itpro/analytics/power-bi-integration.md)
+#### [Закрепление отчетов Power BI в рабочих областях](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### Средства для создания и расширения решений
 #### [Моделирование аналитик, агрегированных измерений и ключевых показателей эффективности](../dev-itpro/analytics/analytics.md)
+#### [Разработка аналитических отчетов с помощью Power BI Desktop](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
 #### [Моделирование и агрегирование данных](../dev-itpro/analytics/model-aggregate-data.md)
 #### [Добавление финансовых аналитик в статистические измерения](../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md)
-#### [Добавление контекстуальной бизнес-аналитики (BI) к формам](../dev-itpro/analytics/add-contextual-bi-forms.md)
-#### [Отчет по агрегированным измерениям](../dev-itpro/analytics/aggregate-measurements-report.md)
-#### [Отчет по агрегированным информационным объектам](../dev-itpro/analytics/aggregate-data-entities-report.md)
-#### [Отчет по ключевым показателям эффективности (KPI.md)](../dev-itpro/analytics/key-performance-indicators-report.md)
-#### [Интеграция с Power BI](../dev-itpro/analytics/power-bi-integration.md)
-#### [Доступ к содержимому Power BI](../dev-itpro/analytics/power-bi-content-microsoft-partners.md)
-#### [Создание отчетов и панелей мониторинга Power BI](../dev-itpro/analytics/create-powerbi-report-dashboard.md)
-#### [Создание отчета Power BI с использованием данных Finance and Operations](../dev-itpro/analytics/create-powerbi-report-data.md)
-#### [Настройка интеграции с Power BI для рабочих областей](../dev-itpro/analytics/configure-power-bi-integration.md)
-#### [Интеграция с Power BI Embedded](../dev-itpro/analytics/power-bi-embedded-integration.md)
-#### [Внедренный Power BI в рабочих областях](../dev-itpro/analytics/embed-power-bi-workspaces.md)
 #### [Добавление аналитики в рабочие области с помощью Power BI Embedded](../dev-itpro/analytics/add-analytics-tab-workspaces.md)
 #### [Защита аналитических рабочих областей и отчетов с помощью Power BI Embedded](../dev-itpro/analytics/secure-analytical-workspaces.md)
-#### [Добавление Power BI в рабочие области](../dev-itpro/analytics/add-bi-workspaces.md)
-#### [Закрепление отчетов Power BI в рабочих областях](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### Средства управления пользователями Power
 #### [Интеграция Power BI с хранилищем объектов](../dev-itpro/analytics/power-bi-integration-entity-store.md)
+#### [Настройка интеграции с Power BI для рабочих областей](../dev-itpro/analytics/configure-power-bi-integration.md)
 #### [Использование своей собственной базы данных](../dev-itpro/analytics/export-entities-to-your-own-database.md)
-#### [Разработка аналитических отчетов с помощью рабочего стола Power BI](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
-#### [Публикация аналитических приложений в Power BI](../dev-itpro/analytics/publish-apps-powerbi.md)
 
 
 ## [Управление запасами](../supply-chain/inventory/inventory-home-page.md)
-### [Обзор прибытия](../supply-chain/inventory/arrival-overview.md)
-### [Настройка профиля обзора прибытия номенклатуры (проводник по задаче)](../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md)
+### [Обзор поступлений](../supply-chain/inventory/arrival-overview.md)
+### [Настройка профиля обзора поступления номенклатуры (проводник по задаче)](../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md)
 ### [Процесс управления качеством](../supply-chain/inventory/quality-management-processes.md)
 ### [Включение управления качеством](../supply-chain/inventory/enable-quality-management.md)
 ### [Управление несоответствием](../supply-chain/inventory/enable-nonconformance-management.md)
@@ -1362,7 +1368,8 @@
 #### [Создание ограниченного плана (проводник по задаче)](../supply-chain/master-planning/tasks/constrained-plan.md)
 #### [Создание плана материалов для сопутствующих продуктов (проводник по задаче)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
 #### [Ведение спланированных заказов](../supply-chain/master-planning/maintain-planned-orders.md)
-#### [Обрабатывать задержек](../supply-chain/master-planning/delays.md)
+#### [Работа с резервными запасами](../supply-chain/master-planning/safety-stock-replenishment.md)
+#### [Обработка задержек](../supply-chain/master-planning/delays.md)
 #### [Трассировка развертывания](../supply-chain/master-planning/trace-explosion.md)
 #### [Сообщения по действию](../supply-chain/master-planning/action-messages.md)
 #### [Мониторинг выполнения сводного планирования (проводник по задаче)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
@@ -1438,6 +1445,8 @@
 #### [Настройка и ведение сотрудничества с поставщиками](../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)
 #### [Ведение пользователей совместной работы с поставщиками](../supply-chain/procurement/manage-vendor-collaboration-users.md)
 #### [Настройка счетов поставщиков](../supply-chain/procurement/set-up-vendor-accounts.md)
+#### [Конфигурации запросов поставщика](../supply-chain/procurement/vendor-request-configurations.md)
+#### [Адаптация поставщика](../supply-chain/procurement/vendor-onboarding.md)
 #### [Совместная работа с внешними поставщиками](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [Совместная работа с клиентами](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
 #### [Настройка внешнего каталога для PunchOut eProcurement](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
@@ -1550,7 +1559,9 @@
 #### Управление производственными заданиями
 ##### [Создание производственных заказов](../supply-chain/production-control/create-production-orders.md)
 ##### [Запуск производственных заказов](../supply-chain/production-control/release-production-orders.md)
-##### [Реверсирование статуса производственного заказа](../supply-chain/production-control/reverse-production-order-status.md)
+##### [Видимость материальных исключений](../supply-chain/production-control/improved-visibility-into-material-exceptions.md)
+##### [Выпуск спецификации и строк формулы на склад](../supply-chain/production-control/releasing-bom-and-formula-lines-to-warehouse.md)
+#####[Реверсирование статуса производственного заказа](../supply-chain/production-control/reverse-production-order-status.md)
 ##### [Регистрация потребления материалов на мобильном устройстве](../supply-chain/production-control/register-material-consumption-hand-held-device.md)
 ##### [Управление потреблением сырья с использованием принципа очистки](../supply-chain/production-control/flushing-principles.md) 
 ##### [Кросс-докинг из производственных заказов в дебаркадеры отгрузки](../supply-chain/production-control/cross-docking-opportunities.md)
@@ -1561,7 +1572,7 @@
 ##### [Регистрация для управления производством](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Обратная связь производства](../supply-chain/production-control/production-feedback.md)
 ##### [Регистрация посещаемости и времени присутствия](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Регистрация отсутствия в модуле "Посещаемость и время присутствия"](..//supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Регистрация отсутствия в модуле "Посещаемость и время присутствия"](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 #### Управление финансами в производстве
 ##### [Распределение времени между заданиями в наборе заданий](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [Расчет потребления материалов](../supply-chain/production-control/consumption.md)
@@ -1686,6 +1697,7 @@
 #### [Создание шаблона продукта (проводник по задаче)](../supply-chain/pim/tasks/create-product-master.md)
 #### [Создание заранее определенных вариантов продукта (проводник по задаче)](../supply-chain/pim/tasks/create-predefined-product-variants.md)
 #### [Создание выпущенного продукта для одной компании (проводник по задаче)](../supply-chain/pim/tasks/create-released-product-single-company.md)
+#### [Состояние жизненного цикла продукта](../supply-chain/pim/product-lifecycle.md)
 #### [Создание штрих-кода для продукта (проводник по задаче)](../supply-chain/pim/tasks/create-bar-code-product.md)
 #### [Ввод кода GTIN для продукта (проводник по задаче)](../supply-chain/pim/tasks/enter-gtin-code-product.md)
 #### [Создание атрибутов партии для продукта (проводник по задаче)](../supply-chain/pim/tasks/create-batch-attributes-product.md)
@@ -1800,7 +1812,8 @@
 ### [Настройка ограничений по транспортировке для номенклатуры](../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md)
 
 ## [Управление складом](../supply-chain/warehousing/warehouse-management-overview.md)
-### [Конфигурация склада](../supply-chain/warehousing/warehouse-configuration.md) 
+### [Конфигурация склада](../supply-chain/warehousing/warehouse-configuration.md)
+#### [Настройка склада с использованием шаблона конфигурации склада](../supply-chain/inventory/warehouse-template.md)
 #### [Управление работой с помощью шаблонов работ и директив мест хранения](../supply-chain/warehousing/control-warehouse-location-directives.md)
 #### [Единица измерения и политики хранения](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Содержимое Power BI для склада](../dev-itpro/analytics/warehouse-power-bi-content.md)

@@ -2,6 +2,7 @@
 # [Требования к системе для облачных развертываний](../fin-and-ops/get-started/system-requirements.md)
 # [Требования к системе для локальных развертываний](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [Демонстрационные данные](../fin-and-ops/get-started/demo-data.md)
+## [Создание демонстрационных данных с помощью пакетов](data-entities/generate-demo-data-packages.md)
 
 
 # [Разработка и настройка с помощью Visual Studio](dev-tools/developer-home-page.md)
@@ -362,6 +363,7 @@
 ### [OData](data-entities/odata.md)
 ### [Пользовательские службы](data-entities/custom-services.md)
 ### [Повторяющиеся интеграции](data-entities/recurring-integrations.md)
+### [Использование со службами программ тестирования от независимых производителей](data-entities/third-party-service-test.md)
 
 ## Разработка механизмов интеграции
 ### [Интеграция данных с использованием информационных объектов](data-entities/data-management-integration-data-entity.md)
@@ -396,6 +398,7 @@
 ### [Пакеты конфигурационных данных](data-entities/configuration-data-packages.md)
 ### [Копирование конфигурационных данных между компаниями](data-entities/copy-configuration.md)
 ### [Шаблоны конфигурационных данных](data-entities/configuration-data-templates.md)
+### [Шаблоны данных с несколькими листами](data-entities/excel-template-multiple.md)
 ### [Отслеживание изменений в объектах](data-entities/entity-change-track.md)
 
 ## Стандартные информационные объекты
@@ -497,17 +500,20 @@
 
 ## Облачное развертывание
 ### [Адаптация Azure Resource Manager](deployment/arm-onboarding.md)
-### [Azure ExpressRoute и Dynamics 365 for Finance and Operations, Enterprise Edition](deployment/expressroute.md)
+### [Azure ExpressRoute и Dynamics 365 for Finance and Operations, выпуск Enterprise](deployment/expressroute.md)
 
 ## [Локальное развертывание](deployment/on-premises-deployment-landing-page.md)
 ### [Обзор локального развертывания](deployment/on-premises-overview.md)
+### [Планирование локального развертывания](deployment/plan-onprem-deployment.md)
 ### [Определение параметров оборудования](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [Создание проекта локального развертывания](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Настройка и развертывание локальных сред](deployment/setup-deploy-on-premises-environments.md)
 ### [Разработка и развертывание пользовательских моделей в локальных средах](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Применение обновлений к локальному развертыванию](deployment/apply-updates-on-premises.md)
 ### [Повторное развертывание локального размещения](deployment/redeploy-on-prem.md)
-### [Устранение неполадок в Dynamics 365 for Finance and Operations, Enterprise edition (локальная версия)](deployment/troubleshoot-on-prem.md)
+### [Обновление локального агента](lifecycle-services/update-local-agent.md)
+### [Изменение конфигурации среды](lifecycle-services/reconfigure-environment.md)
+### [Устранение неполадок в Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](deployment/troubleshoot-on-prem.md)
 
 ## Развертывание пользовательского кода
 ### [Создание готового к развертыванию пакета](deployment/create-apply-deployable-package.md)
@@ -611,7 +617,7 @@
 ## [Отслеживание входов пользователя](lifecycle-services/user-logins.md)
 ## [Библиотека активов](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 — обзор службы переводов](lifecycle-services/translation-service-overview.md)
-### [Руководство пользователя службы переводов Microsoft Dynamics 365 ](lifecycle-services/use-translation-service.md)
+### [Руководство пользователя службы переводов Microsoft Dynamics 365](lifecycle-services/use-translation-service.md)
 
 ## Функции Dynamics AX 2012 Lifecycle Services
 ### Развертывание
