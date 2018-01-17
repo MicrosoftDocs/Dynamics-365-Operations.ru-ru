@@ -3,7 +3,7 @@ title: "Содержимое Power BI фактическое в сравнени
 description: "В этой теме описывается содержимое Power BI \"Факт/Бюджет\". В нем описывается порядок доступа к отчетам, входящим в содержимое, и предоставляется информация о модели данных и объектах, которые использовались для построения содержимого."
 author: ryansandness
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 2a0ad5af4e4d7da09690331dc9d1a51d2e97a664
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: fa0c56f4773b9062d616772e2bca9a576ad37ce2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -48,10 +48,6 @@ ms.lasthandoff: 12/01/2017
 | Реализация                     | <ul><li>Итоговая выручка за этот год</li><li>Цель для выручки в зависимости от бюджета </li><ul> |
 | Чистый доход                  | <ul><li>Чистый доход за этот год</li><li>Цель для чистого дохода в зависимости от бюджета </li><ul> |
 
-## <a name="extending-the-power-bi-content"></a>Расширение содержимого Power BI
-С помощью пакетов содержимого, доступных в Microsoft Dynamics Lifecycle Services (LCS), можно повысить эффективность аналитики для тех, кто не использует Microsoft Dynamics 365. Эти пакеты содержимого можно изменить, чтобы они включали других отчеты или визуальные элементы, и затем опубликовать пакеты содержимого для владельца Power BI.com для анализа. 
-
-Содержимое Power BI **Факт/Бюджет** можно найти в библиотеке общих ресурсов в LCS. Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](power-bi-content-microsoft-partners.md). Чтобы просмотреть демонстрацию, которая показывает, как реализовать содержимое Power BI, см. [Содержимое Power BI от Майкрософт и ваших партнеров в службах Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office mix).
 
 # <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 

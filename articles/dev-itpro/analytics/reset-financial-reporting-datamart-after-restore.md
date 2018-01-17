@@ -3,7 +3,7 @@ title: "Сброс киоска данных финансовой отчетно
 description: "В этом разделе описывается сброс киоска данных финансовой отчетности."
 author: aolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
-ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
+ms.sourcegitcommit: 5b956dcc5a4a93033396ae0ffcf8b7aeba2cf3f2
+ms.openlocfilehash: a07e8b5bae2c4f71e9212cd2f8080d2481769818
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/07/2017
 - Microsoft Dynamics 365 for Finance and Operations Financial reporting, выпуск 7.0.10000.4 и новее
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (локальная версия)
 
-Чтобы получить Finance and Operations Financial reporting выпуска 7.2.6.0 можно загрузить KB 4052514 по адресу <https://support.microsoft.com/en-us/help/4052514>.
+Чтобы получить Finance and Operations Financial reporting выпуска 7.2.6.0 можно загрузить KB 4052514 по адресу <https://fix.lcs.dynamics.com/Issue/Resolved?kb=4052514>.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a>Сброс киоска данных финансовой отчетности для Finance and Operations Financial reporting выпуска 7.2.6.0 и новее
 
@@ -55,7 +55,7 @@ ms.lasthandoff: 12/07/2017
 
 Чтобы сбросить киоск данных, в конструкторе отчетов в меню **Сервис** выберите пункт **Сброс киоска данных**. Диалоговое окно, которое появляется, состоит из двух разделов: **Статистика** и **Сброс**.
 
-[![Диалоговое окно сброса киоска данных](./media/Statistics.png)](./media/Statistics.png)
+[![Диалоговое окно сброса киоска данных](./media/Reset-72.jpg)](./media/Reset-72.jpg)
 
 ##### <a name="integration-attempts"></a>Попытки интеграции
 
@@ -83,8 +83,10 @@ ms.lasthandoff: 12/07/2017
 - **Восстановить базу данных** — база данных Finance and Operations была восстановлена, но база данных для киоска данных финансовой отчетности не была восстановлена.
 - **Прочее** — сброс киоска данных по другим причинам. Если вы считаете, что имеется проблема, обратитесь в службу поддержки для ее выявления.
 
+[![Сброс киоска данных](./media/Integration.png)](./media/Integration.png)
+
 > [!NOTE]
-> Убедитесь, что интеграция всех существующих задач завершена, прежде чем выполнять эти действия. Состояние интеграции можно посмотреть, выбрав **Сервис** &gt; **Статус интеграции**.
+> Перед началом сброса убедитесь, что все задачи сброса киоска данных завершили начальную загрузку. В этом можно убедиться, найдя значение в столбце "Последний запуск", выбрав **Сервис** &gt; **Статус интеграции**.
 
 #### <a name="clear-users-and-companies"></a>Очистить пользователей и компании
 
@@ -94,7 +96,10 @@ ms.lasthandoff: 12/07/2017
 
 Если требуется просмотреть состояние интеграции, выберите **Сервис** &gt; **Статус интеграции** для просмотра времени выполнения последней интеграции и ее статуса.
 
-[![Просмотр статуса интеграции](./media/Integration.png)](./media/Integration.png)
+[![Просмотр статуса интеграции](./media/New-integration.PNG)](./media/New-integration.PNG)
+
+> [!NOTE]
+> Сброс завершен, если все сопоставления показывают состояние RanToCompletion и в окне состояния интеграции указано "Интеграция завершена" в левом нижнем углу.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a>Сброс киоска данных финансовой отчетности для Finance and Operations Financial reporting выпуска 7.0.10000.4 и новее
 
@@ -142,7 +147,9 @@ ms.lasthandoff: 12/07/2017
 
 #### <a name="download-the-latest-minorversiondataupgradezip-package"></a>Загрузка последней версии пакета MinorVersionDataUpgrade.zip
 
-Загрузите последнюю версию пакета MinorVersionDataUpgrade.zip. Сведения о том, как найти и загрузить правильную версию пакета обновления данных, см. в разделе [Загрузка последнего пакета развертывания обновления данных](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages). Обновление не является обязательным для загрузки пакета MinorVersionDataUpgrade.zip. Таким образом, нужно просто выполнить действия, описанные в подразделе "Загрузка последнего пакета развертывания обновления данных" этого раздела. Можно пропустить все остальные действия из этого раздела.
+Загрузите последнюю версию пакета MinorVersionDataUpgrade.zip. Сведения о том, как найти и загрузить правильную версию пакета обновления данных, см. в разделе [Загрузка последнего пакета развертывания обновления данных](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). 
+
+Обновление не является обязательным для загрузки пакета MinorVersionDataUpgrade.zip. Таким образом, нужно просто выполнить действия, описанные в подразделе "Загрузка последнего пакета развертывания обновления данных" этого раздела. Можно пропустить все остальные действия из этого раздела.
 
 #### <a name="run-scripts-against-the-finance-and-operations-database"></a>Выполнение сценариев для базы данных Finance and Operations
 

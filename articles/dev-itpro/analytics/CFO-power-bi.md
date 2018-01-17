@@ -3,7 +3,7 @@ title: "Содержимое Power BI для обзора финансового
 description: "В этом разделе описывается содержимое Microsoft Power BI для обзора финансового директора."
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: fd3696321598267a2acd3ad61f533641c2cc2e77
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -47,8 +47,5 @@ ms.lasthandoff: 12/01/2017
 | [Управление кредитом и сбором задолженностей](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Необработанные клиенты</li><li>Клиенты с превышением кредитного лимита</li><li>Сальдо по срокам</li></ul> |
 | [Анализ расходов на закупку](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Покупки по месяцам и дням</li><li>10 лучших поставщиков по закупкам</li><li>10 продуктов с наибольшими закупками</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Расширение содержимого Power BI
-С помощью пакетов содержимого, доступных в Microsoft Dynamics Lifecycle Services (LCS), можно повысить эффективность аналитики для тех, кто не использует Microsoft Dynamics 365. Эти пакеты содержимого можно изменить, чтобы они включали других отчеты или визуальные элементы, и затем опубликовать пакеты содержимого для владельца Power BI.com для анализа.
 
-Содержимое **Обзор финансового директора** Power BI можно найти в библиотеке общих ресурсов LCS. Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](power-bi-content-microsoft-partners.md). Чтобы просмотреть демонстрацию, которая показывает, как реализовать содержимое Power BI, см. [Содержимое Power BI от Майкрософт и ваших партнеров в службах Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office mix).
 

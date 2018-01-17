@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
-ms.openlocfilehash: 7c99869b70d8b564da859ce2b19ccfff927141b2
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: f3f6690d661ca30b5f3a9dacc75f7b8c6ec36e24
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,8 +34,6 @@ ms.lasthandoff: 11/27/2017
 
 О том, как провести обновление до последней версии, см. в разделе [Процесс обновления до последнего обновления](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
-> [!NOTE]
-> В настоящее время идет переименование приложения Dynamics 365 for Operations (локальная версия). Вы увидите ссылки на Dynamics 365 for Operations (локальная версия) в сведениях и руководствах по лицензированию. Имя продукта, которое будет отображаться при развертывании продукта, — Dynamics 365 for Finance and Operations, Enterprise Edition. Оба эти имени означаются один и тот же продукт.
 
 ## <a name="application-releases"></a>Выпуски приложения
 
@@ -61,7 +59,14 @@ ms.lasthandoff: 11/27/2017
 
 </tr>
 <tr class="even">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
+<td>7.3</td>
+<td>7.3.11971.56116</td>
+<td>декабрь 2017 г.</td>
+<td><a href="whats-new-application-7.3-update.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition 7.3</a></td>
+</tr></tr>
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
 <td>Июль 2017</td>
 <td>7.2.11792.56024</td>
 <td>2017 июня</td>

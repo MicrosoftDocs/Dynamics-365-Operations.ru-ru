@@ -3,7 +3,7 @@ title: "Содержимое \"Показатели продаж и прибыл
 description: "В этой теме описывается, что входит в содержимое Power BI \"Показатели продаж и прибыльности\". В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 55699cb41c712b49954f9ad6b03c2e7813a3a98a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -76,15 +76,6 @@ ms.lasthandoff: 12/01/2017
 
 \* Выручка за этот год и прошлый год, а также рост по категориям продаж.
 
-## <a name="extending-the-power-bi-content"></a>Расширение содержимого Power BI
-С помощью пакетов содержимого, доступных в Microsoft Dynamics Lifecycle Services (LCS), можно повысить эффективность аналитики для тех, кто не использует Microsoft Dynamics 365. Эти пакеты содержимого можно изменить, чтобы они включали других отчеты или визуальные элементы, и затем опубликовать пакеты содержимого для владельца Power BI.com для анализа.
-
-Содержимое Power BI **Показатели продаж и прибыльности** можно найти в библиотеке общих ресурсов в LCS. Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](power-bi-content-microsoft-partners.md). Чтобы просмотреть демонстрацию, которая показывает, как реализовать содержимое Power BI, см. [Содержимое Power BI от Майкрософт и ваших партнеров в службах Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office mix).
-
-Следите за тем, чтобы загружаемое Power BI **Показатели продаж и прибыльности** соответствовало версии Dynamics 365, которую вы используете.
-
-> [!NOTE]
-> При использовании Microsoft Dynamics 365 for Finance and Operations версии 1611 необходимым условием для использования этого содержимого Power BI является реализация KB 4011327. После входа в LCS этот KB можно найти здесь: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 Следующие данные используются для заполнения страниц отчета в содержимом Power BI **Показатели продаж и прибыльности**. Эти данные представлены как общие измерения, которые помещаются на временное хранение в хранилище объектов. Хранилище объектов является базой данных Microsoft SQL Server, оптимизированной для аналитики. Дополнительные сведения см. в разделе [Обзор интеграции Power BI с хранилищем объектов](power-bi-integration-entity-store.md). 

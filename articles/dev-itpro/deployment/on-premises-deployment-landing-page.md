@@ -3,7 +3,7 @@ title: "Локальное развертывание"
 description: "В этой теме представлены сведения и ссылки на содержимое о локальных развертываниях."
 author: kfend
 manager: AnnBe
-ms.date: 06/24/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
-ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
+ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
+ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 12/20/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Целевая страница локального развертывания
@@ -32,6 +32,7 @@ ms.lasthandoff: 11/28/2017
 
 ## <a name="get-started"></a>Начало работы
 - [Обзор Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](on-premises-overview.md)
+- [Планирование локального развертывания](plan-onprem-deployment.md)
 - [Требования к системе для локальных развертываний](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Определение параметров оборудования для локальных сред](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Политика жизненного цикла для онлайн-служб и локального программного обеспечения](../migration-upgrade/versions-update-policy.md)
@@ -41,6 +42,7 @@ ms.lasthandoff: 11/28/2017
 ## <a name="onboard"></a>Адаптация
 - [Создание локального проекта в Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [Настройка и развертывание локальных сред](setup-deploy-on-premises-environments.md)
+- [Установка устройств сетевого принтера в локальных средах](../analytics/install-network-printer-onprem.md)
 - [Настройка служб SQL Server Reporting Services для локального развертывания](../analytics/configure-ssrs-on-premises.md)
 - [Разработка и развертывание пользовательских моделей в локальных средах](develop-deploy-custom-models-on-premises.md)
 
@@ -54,6 +56,7 @@ ms.lasthandoff: 11/28/2017
 - [Повторное развертывание локального размещения](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Другие ресурсы
+- [Устранение неполадок в Dynamics 365 for Finance and Operations, Enterprise edition (локальная версия)](troubleshoot-on-prem.md)
 - [Функции, не реализованные в локальном развертывании](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Устаревшие функции](../migration-upgrade/deprecated-features.md)
 - [Политика жизненного цикла программного обеспечения и список выпусков](../migration-upgrade/versions-update-policy.md)

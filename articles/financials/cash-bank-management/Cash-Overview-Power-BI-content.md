@@ -3,23 +3,23 @@ title: "Содержимое Power BI для обзора кассы"
 description: "В этом разделе описывается содержимое Power BI для обзора кассы. В нем описывается порядок доступа к отчетам, входящим в содержимое, и предоставляется информация о модели данных и объектах, которые использовались для построения содержимого."
 author: saraschi2
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 8a3d12b3b0f71ea8b84b1618d9bb6bbc416e3b1d
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 5d02a009ca988f91a212e467d4f9784248bbae76
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -53,10 +53,6 @@ ms.lasthandoff: 12/01/2017
 | Прогноз по валюте                     | <ul><li>Прогнозируемое сальдо по валюте</li><li>Ежедневная сводка по валюте</li><li>Сведения о прогнозе</li></ul> |
 | Сальдо банковского счета                         | <ul><li>Обще банковское сальдо в валюте системы</li><li>Сальдо по юридическому лицу</li><li>Фактическое и прогнозируемое сальдо на сегодня в валюте банковского счета</li><li>Сальдо по банковскому счету</li><li>Сальдо по валютам</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Расширение содержимого Power BI
-Можно предоставить качественную аналитику людям, которые не используют Dynamics 365, с помощью пакетов содержимого, доступных в Lifecycle Services (LCS). Эти пакеты содержимого можно изменить, чтобы они включали других отчеты или визуальные элементы, и затем опубликовать для владельца Power BI для анализа. 
-
-Содержимое **Обзор кассы** Power BI можно найти в библиотеке общих ресурсов LCS. Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](../../dev-itpro/analytics/power-bi-content-microsoft-partners.md). Чтобы просмотреть демонстрацию, которая показывает, как реализовать содержимое Power BI, см. [Содержимое Power BI от Майкрософт и ваших партнеров в службах Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office mix).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 
@@ -72,6 +68,5 @@ ms.lasthandoff: 12/01/2017
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Суммарные данные по притоку, оттоку денежных средств и сальдо в валюте системы всех компаний |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Суммарная чистая сумма проводки и сальдо по валюте в валюте проводки |
 
-Эти объекты были использованы для создания вычисляемых мер в модели данных. Эти вычисляемые меры затем использовались для расчета диаграмм и отчетов, используемых в содержимом Power BI **Обзор кассы**. Если требуется включить дополнительные вычисления в отчеты и панель мониторинга, можно загрузить и изменить файл Power BI из LCS. Этот файл является моделью данных по умолчанию, которая использовалась для создания содержимого. После внесения изменений можно создать организационное содержимое и панели мониторинга, содержащие добавленные сведения.
 
 
