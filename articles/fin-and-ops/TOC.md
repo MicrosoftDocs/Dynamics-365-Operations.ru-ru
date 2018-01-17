@@ -21,7 +21,7 @@
 #### [Компоненты AX 2012, реализация которых была отложена](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Функции, не реализованные в локальном развертывании](get-started/features-not-implemented-on-prem.md)
 #### [Выпуски и политика жизненного цикла](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Finance and Operations, выпуск Enterprise 7.3](get-started/whats-new-application-7.3-update.md)
+#### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platform, обновление 12 (ноябрь 2017 г.)](get-started/whats-new-platform-update-12.md)
 #### [Platform, обновление 11 (октябрь 2017 г.)](get-started/whats-new-platform-update-11.md)
 #### [Platform update 10 (август 2017 г.)](get-started/whats-new-platform-update-10.md)
