@@ -500,7 +500,7 @@
 
 ## Облачное развертывание
 ### [Адаптация Azure Resource Manager](deployment/arm-onboarding.md)
-### [Azure ExpressRoute и Dynamics 365 for Finance and Operations, выпуск Enterprise](deployment/expressroute.md)
+### [Azure ExpressRoute и Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
 ## [Локальное развертывание](deployment/on-premises-deployment-landing-page.md)
 ### [Обзор локального развертывания](deployment/on-premises-overview.md)
@@ -513,7 +513,7 @@
 ### [Повторное развертывание локального размещения](deployment/redeploy-on-prem.md)
 ### [Обновление локального агента](lifecycle-services/update-local-agent.md)
 ### [Изменение конфигурации среды](lifecycle-services/reconfigure-environment.md)
-### [Устранение неполадок в Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](deployment/troubleshoot-on-prem.md)
+### [Устранение неполадок в Dynamics 365 for Finance and Operations, Enterprise edition (локальная версия)](deployment/troubleshoot-on-prem.md)
 
 ## Развертывание пользовательского кода
 ### [Создание готового к развертыванию пакета](deployment/create-apply-deployable-package.md)
