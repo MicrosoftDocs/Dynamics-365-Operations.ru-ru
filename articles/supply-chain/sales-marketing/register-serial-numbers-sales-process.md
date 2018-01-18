@@ -1,7 +1,7 @@
 ---
 title: "Регистрация серийных номеров в процессе продаж"
 description: "В этом разделе объясняется, как можно регистрировать серийные номера в отборочных накладных или накладных в процессе продажи. Эта функция полезна, если компания хочет регистрировать серийные номера просто для целей обслуживания и гарантии, он им не требуется ведение серийных номеров в запасах от получения до выдачи."
-author: YuyuScheller
+author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: sorenand
+ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

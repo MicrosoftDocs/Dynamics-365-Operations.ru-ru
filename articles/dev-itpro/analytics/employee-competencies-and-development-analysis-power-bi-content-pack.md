@@ -1,9 +1,9 @@
 ---
 title: "Содержимое Power BI \"Компетенции и развитие сотрудников\""
-description: "В этом разделе рассматривается содержимое Finance and Operations — Компетенции и развитие сотрудников (Power BI). В нем описывается порядок доступа к отчетам, входящим в пакет содержимого, и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого."
+description: "В этом разделе рассматривается содержимое Finance and Operations — Компетенции и развитие сотрудников (Power BI)."
 author: jcart1106
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b2b3d96a64a552d1f0e0144dcbd809964fdf63c4
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 99fa6e396989e6e204d84cc776f627c7c4baf1d1
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,12 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этом разделе рассматривается содержимое Finance and Operations — Компетенции и развитие сотрудников (Power BI). В нем описывается порядок доступа к отчетам, входящим в пакет содержимого, и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
-
-<a name="accessing-the-content-pack"></a>Доступ к пакету содержимого
---------------------------
-
-Пакет содержимого "Компетенции и развитие сотрудников" можно найти в библиотеке общих ресурсов в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения о том, как загрузить пакет содержимого и подключить его к данным Microsoft Dynamics 365 for Finance and Operations, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](power-bi-content-microsoft-partners.md).
+В этом разделе рассматривается содержимое Finance and Operations — Компетенции и развитие сотрудников (Power BI). 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Отчеты, включенные в пакет содержимого
 После подключения пакета содержимого к данным Finance and Operations данные организации будут отображаться в отчетах. Если вы никогда не использовали Microsoft Power BI до этого, см. дополнительные сведения на [странице интерактивного обучения по Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Отчеты, включенные в пакет содержимого, включают диаграммы и таблицы, которые содержат дополнительные сведения. В следующей таблице приводится описание отчетов.
@@ -78,15 +73,6 @@ ms.lasthandoff: 11/03/2017
 | Workforce\_WorkerTitle            | Должность и дата трудового стажа                                                                                   |                                                                                                                                                                                                                                                                                                         |
 | Workorce\_WorkerTrend             | Сотрудники по времени, численность сотрудников, компания и должность                                                        | Workforce\_Company Workforce\_Compensation Workforce\_GeographicLocation Workforce\_Performance Workforce\_WorkerName Workforce\_ReportsToWorkerName Workforce\_CalendarOffset Workforces\_Date Workforce\_WorkerTitle Workforce\_Demographics Workforce\_Employment Workforce\_Job                     |
 
-Эти объекты были использованы для создания вычисляемых мер в модели данных. Эти вычисляемые меры затем использовались для расчета ключевых показателей производительности (KPI) и отчетов, используемых в пакете содержимого. Если требуется включить дополнительные вычисления в отчеты и на панели мониторинга, можно загрузить и изменить файл CompetenciesandDevelopment.pbix из LCS. Этот файл является моделью данных по умолчанию, которая использовалась для создания пакета содержимого. После внесения изменений можно создать организационный пакет содержимого панель мониторинга, содержащие добавленные сведения.
-
-## <a name="additional-resources"></a>Дополнительные ресурсы
-Ниже приведено несколько полезных ссылок, связанных с объектами и построением содержимого Power BI:
-
--   [Информационные объекты](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [Создание организационных пакетов содержимого](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Моделирование данных с помощью Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Добавление плиток Power BI в рабочие области](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
 
 
 

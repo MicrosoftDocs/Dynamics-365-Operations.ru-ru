@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations. Core
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 536ebae3ec44954aba314a966c9b0d2dabef45d1
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 694a8bfd4601b48a80872662fa7a16bf15d6e65c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -61,13 +62,6 @@ ms.lasthandoff: 12/01/2017
 | Письма-напоминания         | <ul><li>Суммы кодов сбора задолженностей</li><li>Сведения о суммах кодов сбора задолженностей</li><li>Сумма писем-напоминаний по компаниям</li><li>Сумма писем-напоминаний по группам клиентов</li><li>Сумма писем-напоминаний по регионам</li></ul> |
 
 Диаграммы и плитки во всех этих отчетах можно отфильтровать и закрепить на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Можно также использовать функцию экспорта базовых данных для экспорта базовых данных, сводка которых отображается в визуализации.
-
-## <a name="extending-the-power-bi-content"></a>Расширение содержимого Power BI
-С помощью пакетов содержимого, доступных в Microsoft Dynamics Lifecycle Services (LCS), можно повысить эффективность аналитики для тех, кто не использует Finance and Operations. Эти пакеты содержимого можно изменить, чтобы они включали других отчеты или визуальные элементы, и затем опубликовать пакеты содержимого для владельца Power BI.com для анализа.
-
-Содержимое **Управление кредитом и сбором задолженностей** Power BI можно найти в библиотеке общих ресурсов LCS. Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](../../dev-itpro/analytics/power-bi-content-microsoft-partners.md). Чтобы просмотреть демонстрацию, которая показывает, как реализовать содержимое Power BI, см. [Содержимое Power BI от Майкрософт и ваших партнеров в службах Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office mix).
-
-Обязательно загрузите содержимое Power BI **Управление кредитом и сбором задолженностей**, которое применяется к версии Microsoft Dynamics 365 for Finance and Operations, которую вы используете.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 

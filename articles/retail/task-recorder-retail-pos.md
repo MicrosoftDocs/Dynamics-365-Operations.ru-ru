@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -19,10 +20,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a527136f77b65ef5a43576291e38cb168dbbd322
+ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
+ms.openlocfilehash: 43360ea18ccc0fc4622f6da70ff10f2aca8b56c8
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -98,10 +99,10 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="capture-screenshots"></a>Захват снимков экрана
 
-Регистратор задач позволяет записывать снимки экрана пользовательского интерфейса Retail Modern POS во время записи бизнес-процесса. Регистратор задач использует снимки экрана, если загрузить запись в виде документа Word. Чтобы включить функцию записи снимков экрана, задайте для параметра **Захват снимков экрана** значение **Да**. 
+Регистратор задач позволяет записывать снимки экрана пользовательского интерфейса Retail Modern POS во время записи бизнес-процесса. Чтобы включить функцию записи снимков экрана, задайте для параметра **Захват снимков экрана** значение **Да**, затем произведите запись. После завершения записи щелкните **Стоп** и загрузите документ Word. Документ будет содержать действия с соответствующими снимками экрана.
 
 #### <a name="note"></a>Заметка
-> Функциональная возможность записи снимков экранов не поддерживается в Cloud POS.
+> Функциональная возможность записи снимков экранов не поддерживается в Modern POS.
 
 ### <a name="start-task-and-end-task"></a>Начать задачу и закончить задачу
 

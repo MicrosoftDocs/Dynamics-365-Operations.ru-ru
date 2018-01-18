@@ -3,11 +3,12 @@ title: "Группы счетов консолидации и дополните
 description: "В этом разделе представлены сведения о группах счетов консолидации и дополнительных счетах консолидации и объясняется, как они используются в Microsoft Dynamics 365 Finance and Operations, Enterprise Edition."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerConsolidateAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

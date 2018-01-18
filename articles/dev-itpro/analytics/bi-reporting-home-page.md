@@ -3,7 +3,7 @@ title: "Бизнес-аналитика"
 description: "В этом разделе описаны ресурсы, которые можно использовать для получения дополнительных сведений о бизнес-аналитике и средствах отчетности, доступных в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -48,7 +48,6 @@ ms.lasthandoff: 11/03/2017
  - [Power BI Embedded в рабочих областях](embed-power-bi-workspaces.md)
  - [Интеграция с Power BI Embedded](power-bi-embedded-integration.md)
  - [Добавление аналитики в рабочие области с помощью Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Публикация аналитических приложений в Power BI](publish-apps-powerbi.md)
  - [Защита аналитических рабочих областей и отчетов с помощью Power BI Embedded](secure-analytical-workspaces.md)
  - [Содержимое Power BI для Finance and Operations](power-bi-home-page.md)
 
@@ -88,10 +87,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="technical-reference-reports"></a>Технический справочник по отчетам
 Следующие отчеты содержат справочные сведения об объектах Finance and Operations:
 
-- [Отчет по агрегированным информационным объектам](aggregate-data-entities-report.md)
-- [Отчет по агрегированным измерениям](aggregate-measurements-report.md)
 - [Отчет по информационным объектам](../data-entities/data-entities-report.md)
-- [Отчет по ключевым показателям эффективности (КПЭ)](key-performance-indicators-report.md)
 - [Отчет по лицензионным кодам и ключам конфигурации](../sysadmin/license-codes-configuration-keys-report.md)
 - [Отчет служб SQL Server Reporting Services](SSRS-report.md)
 - [Отчет по типам workflow-процессов](../../fin-and-ops/organization-administration/workflow-types-report.md)

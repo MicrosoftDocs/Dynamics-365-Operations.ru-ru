@@ -3,11 +3,12 @@ title: "Выверка банковских выписок с помощью р�
 description: "Функция \"Расширенная банковская выверка\" позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. В данном разделе описывается процесс выверки."
 author: saraschi2
 manager: AnnBe
-ms.date: 09/11/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

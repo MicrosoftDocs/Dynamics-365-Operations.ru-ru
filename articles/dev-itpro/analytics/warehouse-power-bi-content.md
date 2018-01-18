@@ -3,11 +3,12 @@ title: "Содержимое \"Производительность склада
 description: "В этой теме описывается, что входит в содержимое \"Производительность склада\" для Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого."
 author: Mirzaab
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,13 +16,13 @@ ms.custom: 272953
 ms.assetid: 4e4d4323-78cf-4ffa-8d5a-05e856c33db6
 ms.search.region: Global
 ms.author: mirzaab
-ms.dyn365.ops.intro: Version 1611
+ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: e5a900000286b5f076c377f7b1a9a260cc40621a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -76,15 +77,6 @@ ms.lasthandoff: 12/01/2017
 | Производительность отгрузки        | Отгружено по продуктам                       | Процент, который был отгружен досрочно, своевременно или с задержкой, по номенклатурам или номенклатурным группам.                                                                                                                                                                                                                                                                                                                                   |
 | Производительность отгрузки        | Отгружено по клиентам                      | Процент, который был отгружен досрочно, своевременно или с задержкой, по клиентам или группам клиентов.                                                                                                                                                                                                                                                                                                                           |
 | Производительность отгрузки        | Отгружено по сайтам/складам              | Процент, который был отгружен досрочно, своевременно или с задержкой, по сайтам или складам.                                                                                                                                                                                                                                                                                                                                    |
-## <a name="extending-the-power-bi-content"></a>Расширение содержимого Power BI
-С помощью пакетов содержимого, доступных в Microsoft Dynamics Lifecycle Services (LCS), можно повысить эффективность аналитики для тех, кто не использует Microsoft Dynamics 365. Эти пакеты содержимого можно изменить, чтобы они включали других отчеты или визуальные элементы, и затем опубликовать пакеты содержимого для владельца Power BI.com для анализа. 
-
-Содержимое Power BI **Производительность склада** можно найти в библиотеке общих ресурсов в LCS. Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](power-bi-content-microsoft-partners.md). Чтобы просмотреть демонстрацию, которая показывает, как реализовать содержимое Power BI, см. [Содержимое Power BI от Майкрософт и ваших партнеров в службах Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office mix).
-
-Следите за тем, чтобы загружаемое содержимое Power BI **Производительность склада** соответствовало версии Dynamics 365, которую вы используете.
-
-> [!NOTE]
-> При использовании Microsoft Dynamics 365 for Finance and Operations версии 1611 необходимым условием для использования этого содержимого Power BI является реализация KB 4011327. После входа в LCS этот KB можно найти здесь: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Понимание модели данных и расчетов
 Следующие данные используются для заполнения страниц отчета в содержимом Power BI **Производительность склада**. Эти данные представлены как общие измерения, которые помещаются на временное хранение в хранилище объектов. Хранилище объектов является базой данных Microsoft SQL Server, оптимизированной для аналитики. Дополнительные сведения см. в разделе [Обзор интеграции Power BI с хранилищем объектов](power-bi-integration-entity-store.md). 

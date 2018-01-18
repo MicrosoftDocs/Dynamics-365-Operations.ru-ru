@@ -3,11 +3,12 @@ title: "Рабочая область управления основными с
 description: "В этой теме содержится информация о рабочей области управления основными средствами. Эта рабочая область содержит сведения, относящиеся к основным средствам, которые вводятся в систему. Она включает в себя представление сводки и представление аналитики."
 author: saraschi
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

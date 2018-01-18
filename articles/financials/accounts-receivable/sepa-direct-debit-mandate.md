@@ -3,11 +3,12 @@ title: "Настройка поручения прямого дебетован�
 description: "Прямое дебетование единой зоны платежей в евро (SEPA) позволяет кредитору снимать средства с банковского счета клиента, при условии что клиент предоставил кредитору подписанное предписание."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

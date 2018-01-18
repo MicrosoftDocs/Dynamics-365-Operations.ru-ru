@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3bf244786e308ebcaee27a16fae378f41086f963
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -44,10 +44,11 @@ ms.lasthandoff: 11/03/2017
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
 | **Тип**                         | **Тип, который будет использоваться**                                          |
-| Обзор заявок на покупку      | Создание бизнес-правил проверки для заявок на закупку.            |
-| Рассмотрение строки заявки на покупку | Создание бизнес-правил для просмотра строк заявки на закупку.       |
+| Обзор заявок на покупку      | Создание workflow-процессов проверки и утверждения для заявок на покупку.            |
+| Рассмотрение строки заявки на покупку | Создание workflow-процессов проверки и утверждения для строк заявок на покупку.       |
 | Workflow-процесс заказа на покупку          | Проверка и утверждение бизнес-правил для заказов на покупку.     |
 | Workflow-процесс строки заказа на покупку     | Создание бизнес-правила для проверки и утверждения для строк заказа на покупку. |
+| Workflow-процесс приложения добавления поставщика  | Создание workflow-процессов проверки и утверждения для добавления новых поставщиков через запросы поставщиков. |
 
 ## <a name="creating-a-workflow"></a>Создание workflow-процесса
 Чтобы создать workflow-процесс, перейдите к пункту "Закупки и источники" &gt; "Настройка" &gt; "Workflow-процессы модуля "Закупки и источники" и создайте новый workflow-процесс, выбрав тип создаваемого workflow-процесса.  
@@ -73,8 +74,8 @@ ms.lasthandoff: 11/03/2017
 
 [Определение workflow-процессов бизнес-процессов для заявок на покупку](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Документооборот заявок на закупку](purchase-requisitions-workflow.md)
+[Workflow-процесс заявок на покупку](purchase-requisitions-workflow.md)
 
-
+[Адаптация поставщиков](vendor-onboarding.md)
 
 
