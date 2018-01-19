@@ -10,7 +10,8 @@ ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailTillLayout
 audience: Application user
-ms.search.scope: Operations, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
@@ -19,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 61a1eeba0e44a2600157f2e5c3f2de042c786d91
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 747c0cfa36e1220342307ae665e69e02eabd3cce
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -96,13 +97,13 @@ ms.lasthandoff: 01/18/2018
 
 | <span data-ttu-id="ee5c3-173">Тип макета</span><span class="sxs-lookup"><span data-stu-id="ee5c3-173">Layout type</span></span> | <span data-ttu-id="ee5c3-174">Приказ</span><span class="sxs-lookup"><span data-stu-id="ee5c3-174">Resolution</span></span> | <span data-ttu-id="ee5c3-175">Соотношение сторон</span><span class="sxs-lookup"><span data-stu-id="ee5c3-175">Aspect ratio</span></span> | <span data-ttu-id="ee5c3-176">Целевой экран</span><span class="sxs-lookup"><span data-stu-id="ee5c3-176">Target display</span></span>          |
 |-------------|------------|--------------|-------------------------|
-| <span data-ttu-id="ee5c3-177">Дефрагментировать\\*</span><span class="sxs-lookup"><span data-stu-id="ee5c3-177">Compact\\*</span></span>   | <span data-ttu-id="ee5c3-178">480 × 853</span><span class="sxs-lookup"><span data-stu-id="ee5c3-178">480 × 853</span></span>  | <span data-ttu-id="ee5c3-179">16:9</span><span class="sxs-lookup"><span data-stu-id="ee5c3-179">16:9</span></span>         | <span data-ttu-id="ee5c3-180">Телефоны</span><span class="sxs-lookup"><span data-stu-id="ee5c3-180">Phones</span></span>                  |
+| <span data-ttu-id="ee5c3-177">Дефрагментировать\*</span><span class="sxs-lookup"><span data-stu-id="ee5c3-177">Compact\*</span></span>   | <span data-ttu-id="ee5c3-178">480 × 853</span><span class="sxs-lookup"><span data-stu-id="ee5c3-178">480 × 853</span></span>  | <span data-ttu-id="ee5c3-179">16:9</span><span class="sxs-lookup"><span data-stu-id="ee5c3-179">16:9</span></span>         | <span data-ttu-id="ee5c3-180">Телефоны</span><span class="sxs-lookup"><span data-stu-id="ee5c3-180">Phones</span></span>                  |
 | <span data-ttu-id="ee5c3-181">Полный</span><span class="sxs-lookup"><span data-stu-id="ee5c3-181">Full</span></span>        | <span data-ttu-id="ee5c3-182">1024 × 768</span><span class="sxs-lookup"><span data-stu-id="ee5c3-182">1024 × 768</span></span> | <span data-ttu-id="ee5c3-183">4:3</span><span class="sxs-lookup"><span data-stu-id="ee5c3-183">4:3</span></span>          | <span data-ttu-id="ee5c3-184">Планшеты</span><span class="sxs-lookup"><span data-stu-id="ee5c3-184">Tablets</span></span>                 |
-| <span data-ttu-id="ee5c3-185">Полный\\*</span><span class="sxs-lookup"><span data-stu-id="ee5c3-185">Full\\*</span></span>      | <span data-ttu-id="ee5c3-186">1280 × 720</span><span class="sxs-lookup"><span data-stu-id="ee5c3-186">1280 × 720</span></span> | <span data-ttu-id="ee5c3-187">16:9</span><span class="sxs-lookup"><span data-stu-id="ee5c3-187">16:9</span></span>         | <span data-ttu-id="ee5c3-188">Планшеты</span><span class="sxs-lookup"><span data-stu-id="ee5c3-188">Tablets</span></span>                 |
+| <span data-ttu-id="ee5c3-185">Полный\*</span><span class="sxs-lookup"><span data-stu-id="ee5c3-185">Full\*</span></span>      | <span data-ttu-id="ee5c3-186">1280 × 720</span><span class="sxs-lookup"><span data-stu-id="ee5c3-186">1280 × 720</span></span> | <span data-ttu-id="ee5c3-187">16:9</span><span class="sxs-lookup"><span data-stu-id="ee5c3-187">16:9</span></span>         | <span data-ttu-id="ee5c3-188">Планшеты</span><span class="sxs-lookup"><span data-stu-id="ee5c3-188">Tablets</span></span>                 |
 | <span data-ttu-id="ee5c3-189">Полный</span><span class="sxs-lookup"><span data-stu-id="ee5c3-189">Full</span></span>        | <span data-ttu-id="ee5c3-190">1366 × 768</span><span class="sxs-lookup"><span data-stu-id="ee5c3-190">1366 × 768</span></span> | <span data-ttu-id="ee5c3-191">16:9</span><span class="sxs-lookup"><span data-stu-id="ee5c3-191">16:9</span></span>         | <span data-ttu-id="ee5c3-192">Планшеты, более крупные экраны</span><span class="sxs-lookup"><span data-stu-id="ee5c3-192">Tablets, larger screens</span></span> |
 | <span data-ttu-id="ee5c3-193">Полный</span><span class="sxs-lookup"><span data-stu-id="ee5c3-193">Full</span></span>        | <span data-ttu-id="ee5c3-194">1440 × 960</span><span class="sxs-lookup"><span data-stu-id="ee5c3-194">1440 × 960</span></span> | <span data-ttu-id="ee5c3-195">3:2</span><span class="sxs-lookup"><span data-stu-id="ee5c3-195">3:2</span></span>          | <span data-ttu-id="ee5c3-196">Планшеты, более крупные экраны</span><span class="sxs-lookup"><span data-stu-id="ee5c3-196">Tablets, larger screens</span></span> |
 
-<span data-ttu-id="ee5c3-197">\\* Эти дополнительные размеры макетов доступны только в макетах Adventure Works и Fabrikam.</span><span class="sxs-lookup"><span data-stu-id="ee5c3-197">\\* These additional layout sizes are available only in Adventure Works and Fabrikam layouts.</span></span>
+<span data-ttu-id="ee5c3-197">\* Эти дополнительные размеры макетов доступны только в макетах Adventure Works и Fabrikam.</span><span class="sxs-lookup"><span data-stu-id="ee5c3-197">\* These additional layout sizes are available only in Adventure Works and Fabrikam layouts.</span></span>
 
 
 >[!TIP]
