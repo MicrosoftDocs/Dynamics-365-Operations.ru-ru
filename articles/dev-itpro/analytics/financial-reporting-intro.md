@@ -98,7 +98,7 @@ ms.lasthandoff: 12/01/2017
 </tbody>
 </table>
 
-#<a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также
 [Создание финансового отчета](generate-financial-report.md)
 
 
