@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 49b63216cc306553b2d3b7141f57f3c0581e1d5a
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: f3ed894445c44da6de9062da5c9399e867952d43
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/19/2018
 
 <span data-ttu-id="254f6-104">В этой статье описываются сведения, необходимые для каждой ячейки в определении строки в финансовом отчете, и объясняется, как ввести эти сведения.</span><span class="sxs-lookup"><span data-stu-id="254f6-104">This article describes the information that is required for each cell in a row definition on a financial report and explains how to enter that information.</span></span> 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a><span data-ttu-id="254f6-105">Определите код строки в определении ряда</span><span class="sxs-lookup"><span data-stu-id="254f6-105">Specify a row code in a row definition</span></span>
+## <a name="specify-a-row-code-in-a-row-definition"></a><span data-ttu-id="254f6-105">Определите код строки в определении ряда</span><span class="sxs-lookup"><span data-stu-id="254f6-105">Specify a row code in a row definition</span></span>
 
 <span data-ttu-id="254f6-106">В определениях строк, номера или ярлыки в ячейке **Код строки** строки определяют каждую линию в определении строки.</span><span class="sxs-lookup"><span data-stu-id="254f6-106">In row definitions, the numbers or labels in the **Row Code** cell identify each line in the row definition.</span></span> <span data-ttu-id="254f6-107">Для ссылки на данные в вычислениях и итогах можно указать код строки.</span><span class="sxs-lookup"><span data-stu-id="254f6-107">You can specify the row code to refer to data in calculations and totals.</span></span>
 
@@ -506,8 +506,7 @@ ms.lasthandoff: 01/19/2018
 4.  <span data-ttu-id="254f6-709">Выберите удаляемый набор и щелкните **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="254f6-709">Select the set to delete, and then click **Delete**.</span></span> <span data-ttu-id="254f6-710">Щелкните **Да**, чтобы постоянно удалить набор значений аналитик.</span><span class="sxs-lookup"><span data-stu-id="254f6-710">Click **Yes** to permanently delete the dimension value set.</span></span>
 
 
-<a name="see-also"></a><span data-ttu-id="254f6-711">См. также</span><span class="sxs-lookup"><span data-stu-id="254f6-711">See also</span></span>
---------
+## <a name="see-also"></a><span data-ttu-id="254f6-711">См. также</span><span class="sxs-lookup"><span data-stu-id="254f6-711">See also</span></span>
 
 [<span data-ttu-id="254f6-712">Финансовая отчетность</span><span class="sxs-lookup"><span data-stu-id="254f6-712">Financial reporting</span></span>](financial-reporting-intro.md)
 
