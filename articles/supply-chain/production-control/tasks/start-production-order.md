@@ -1,4 +1,4 @@
---- 
+---
 title: "Запуск производственного заказа"
 description: "Следующая процедура показывает запуск производственного заказа в управлении цехом."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
 7. Щелкните "Разнести".
 8. Нажмите кнопку "OК".
     * В журнале карт маршрутов регистрируется время, затраченное на отдельные операции. Правильное и ошибочное количество можно также вносить в отчет.  
-
 

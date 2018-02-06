@@ -1,4 +1,4 @@
---- 
+---
 title: "Создание производственного заказа"
 description: "Следующая процедура используется для создания производственного заказа."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -69,5 +69,4 @@ ms.lasthandoff: 09/29/2017
     * Изменение времени процесса влияет на расчетное потребление на маршруте и затраты производственного заказа.  
 6. Нажмите кнопку "Сохранить".
 7. Закройте страницу.
-
 
