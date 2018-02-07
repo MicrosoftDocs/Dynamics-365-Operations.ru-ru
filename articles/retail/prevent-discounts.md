@@ -1,7 +1,7 @@
 ---
 title: "Запрет скидок для розничных продуктов"
 description: "Существует несколько причин, по которым предприятиям розничной торговли может потребоваться запретить скидки на некоторые продукты либо в ходе рекламной акции, либо при продаже на POS."
-author: jeffbl
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: c13eef79830fc59ca79bd6f0e4fa5685372dde3a
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 2c9045b6383e66dfe1df61eda483525ca4741854
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 
