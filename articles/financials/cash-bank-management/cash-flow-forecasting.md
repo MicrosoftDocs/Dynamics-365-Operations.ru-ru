@@ -1,7 +1,7 @@
 ---
 title: "Прогнозирование движения денежных средств"
 description: "В этом разделе представлен обзор процесса прогноза движения денежных средств. Здесь также объясняется, как прогноз движения денежных средств интегрируется с другими модулями в системе."
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -13,7 +13,7 @@ audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: sarasch
+ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
