@@ -3,7 +3,7 @@ title: "Домашняя страница модуля \"Управление ц
 description: "В этой теме представлен список разделов справки и других ресурсов по функциям управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/10/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 98008b494f675209949afd961e3cd06dfdc9ec9a
-ms.openlocfilehash: 81a5d21233f12e7c26f0cce6a6c05fefde2ca7dd
+ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
+ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
@@ -52,9 +52,12 @@ ms.lasthandoff: 12/01/2017
 
 ## <a name="videos"></a>Видео
 
-### <a name="get-started"></a>Начало работы  
+Эти небольшие видеоролики помогут познакомиться с новыми функциями Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (декабрь 2017 года).
 
-Эти небольшие видеоролики помогут вам начать работу с новыми функциями Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 года).
+-  [Интеграции решения "Перспективный клиент в наличные деньги"](https://youtu.be/AVV9x5x-XCg) 
+-  [Помощник по оптимизации](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+
+Эти небольшие видеоролики помогут познакомиться с новыми функциями Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 года).
 
 -  [Начало работы с учетом затрат](https://youtu.be/1pUDtJQZ8FU)
 -  [Мобильная рабочая область управления затратами](https://youtu.be/imsuTg8rUVk)
@@ -62,8 +65,7 @@ ms.lasthandoff: 12/01/2017
 -  [Утверждение заказов на покупку на мобильном устройстве](https://youtu.be/gZ-gOlJe7H8)
 -  [Визуальное планирование заказов на производство и заказов партий с помощью диаграммы Ганта](https://youtu.be/BtbuShkGj4I)
 
-### <a name="tech-conference-recordings"></a>Записи с технологических конференций
-Большинство из этих записей относятся к функциями предыдущей версии Finance and Operations, но обсуждаемые в них понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии. 
+Эти записи с технической конференции относятся к функциями предыдущей версии Finance and Operations, но обсуждаемые в них понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии. 
 
 -  <a href="https://youtu.be/zotrj3SbCl4">Конфигуратор продукции в Microsoft Dynamics AX</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">Сводное планирование — советы и рекомендации по устранению проблем с производительностью</a>
