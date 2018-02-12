@@ -1,4 +1,4 @@
---- 
+---
 title: "Завершение производственного заказа"
 description: "Следующая процедура используется для завершения производственного заказа."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 1. В области действий щелкните "Управление затратами".
 2. Щелкните "Просмотр сравнения стоимости".
     * После завершения производственного заказа можно сравнить расчетную себестоимость и фактическую себестоимость для получения сведений о производственных различиях.  
-
 

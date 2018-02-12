@@ -1,17 +1,16 @@
 ---
 title: "Действия персонала [часто задаваемые вопросы]"
 description: "В этом разделе содержатся ответы на вопросы, которые могут возникнуть, если в организации используются действия персонала. Действия персонала представляют собой дополнительные действия, которые необходимо выполнить при выполнении некоторых задач, связанных с персоналом."
-author: shielas
+author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
 ms.technology: 
-ms.search.form: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations
+ms.search.scope: Core, Operations, Talent
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global

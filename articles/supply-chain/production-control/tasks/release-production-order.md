@@ -1,4 +1,4 @@
---- 
+---
 title: "Выпуск производственного заказа"
 description: "В этой процедуре показано, как запустить в производство производственный заказ."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: johanho
@@ -39,5 +39,4 @@ ms.lasthandoff: 09/29/2017
 5. Установите флажок "Печать карты маршрута".
 6. Нажмите кнопку "OК".
 7. Закройте страницу.
-
 

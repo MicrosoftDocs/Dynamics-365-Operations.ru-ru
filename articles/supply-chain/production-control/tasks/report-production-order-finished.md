@@ -1,4 +1,4 @@
---- 
+---
 title: "Сообщение о завершении производственного заказа"
 description: "В этой процедуре показано, как составить отчет по производственному заказу как \"завершено\"."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -50,5 +50,4 @@ ms.lasthandoff: 09/29/2017
 3. В списке пометьте выбранную строку.
 4. В списке перейдите по ссылке в выбранной строке.
     * Выполняется разноска журнала "Приемка". Если вы хотите выполнить корректировки в журнале, можно вручную создать новый журнал, в котором можно внести изменения.  
-
 

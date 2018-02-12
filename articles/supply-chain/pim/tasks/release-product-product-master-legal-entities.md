@@ -1,7 +1,7 @@
 --- 
 title: "Выпуск продукта/шаблона продукта для юридических лиц"
 description: "В этой процедуре рассматривается выпуск продукта или шаблона продукта в одно или несколько юридических лиц."
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process

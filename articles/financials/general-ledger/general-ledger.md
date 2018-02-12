@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -43,7 +44,7 @@ ms.lasthandoff: 11/03/2017
 
 [![Бизнес-процесс](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-# <a name="sales-tax"></a>Налог (НСП)
+## <a name="sales-tax"></a>Налог (НСП)
 Каждая компания собирает и платит налоги различным налоговым органам. Правила и ставки различаются по странам, регионам, штатам, областям и городам.
 Кроме того, правила необходимо периодически обновлять в связи с изменением требований налоговых органов. Налоговые коды содержат основные сведения о том, сколько нужно собирать и платить налоговым органам. При настройке налоговых кодов определяются суммы или проценты сборов. Можно также определить разные способы применения этих сумм или процентов к суммам транзакций. В разделах этой главы содержится информация о настройке налоговых кодов для способов уплаты и ставок, с которыми работают соответствующие налоговые органы.
 
@@ -52,13 +53,13 @@ ms.lasthandoff: 11/03/2017
  - [Налоговые платежи и правила округления](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a>Дополнительные ресурсы
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
-#### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
+### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 
 Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы просмотреть новые функции, которые уже выпущены и которые все еще находятся в разработке. 
 
-#### <a name="blogs"></a>Блоги
+### <a name="blogs"></a>Блоги
 
 Мнения, новости и другие сведения о расчетах с поставщиками и других решениях см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
@@ -66,10 +67,10 @@ ms.lasthandoff: 11/03/2017
 
 [Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в MBS Operations.
 
-#### <a name="task-guides"></a>Проводники по задачам
+### <a name="task-guides"></a>Проводники по задачам
 Руководства по задачам в Finance and Operations — это еще один источник справочной информации. Чтобы перейти к руководствам по задачам, нажмите кнопку "Справка" на любой странице.
 
-#### <a name="videos"></a>Видео
+### <a name="videos"></a>Видео
 
 Смотрите видео с инструкциями на канале [Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

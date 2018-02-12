@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 В этой статье описываются сведения, необходимые для каждой ячейки в определении строки в финансовом отчете, и объясняется, как ввести эти сведения. 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>Определите код строки в определении ряда
+## <a name="specify-a-row-code-in-a-row-definition"></a>Определите код строки в определении ряда
 
 В определениях строк, номера или ярлыки в ячейке **Код строки** строки определяют каждую линию в определении строки. Для ссылки на данные в вычислениях и итогах можно указать код строки.
 
@@ -506,8 +506,7 @@ ms.lasthandoff: 11/03/2017
 4.  Выберите удаляемый набор и щелкните **Удалить**. Щелкните **Да**, чтобы постоянно удалить набор значений аналитик.
 
 
-<a name="see-also"></a>См. также
---------
+## <a name="see-also"></a>См. также
 
 [Финансовая отчетность](financial-reporting-intro.md)
 

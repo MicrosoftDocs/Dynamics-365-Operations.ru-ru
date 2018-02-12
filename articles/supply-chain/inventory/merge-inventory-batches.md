@@ -1,7 +1,7 @@
 ---
 title: "Слияние складских партий"
 description: "В этой статье приводятся сведения о порядке объединения двух или более партий запасов в объединенную партию."
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

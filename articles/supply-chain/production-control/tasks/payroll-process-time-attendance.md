@@ -1,4 +1,4 @@
---- 
+---
 title: "Включение процесса обработки зарплаты по посещаемости и времени присутствия"
 description: "Следующая процедура используется для включения обработки зарплаты по времени присутствия и посещаемости."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 6. Разверните раздел "Регистрация времени".
 7. Щелкните "Изменить".
 8. В поле "Соглашение по оплате" введите или выберите значение.
-
 

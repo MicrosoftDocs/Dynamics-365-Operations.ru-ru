@@ -114,6 +114,7 @@
 #### [Настройка: перекрытия и расширения](extensibility/customization-overlayering-extensions.md)
 ### Что нового
 #### [Изменения возможностей расширения от июля 2017 г.](extensibility/changes-july-2017.md)
+#### [Изменения возможностей расширения в Dynamics 365 for Finance and Operations, Enterprise edition 7.3](extensibility/extensibility-changes-73.md)
 ### Основы
 #### [Глубокие настройки](extensibility/intrusive-customizations.md)
 #### [Расширения классов](extensibility/class-extensions.md)
@@ -138,12 +139,17 @@
 #### [Изменение свойств элемента управления формы](extensibility/modify-control-properties.md)
 #### [Изменение метки](extensibility/change-label.md)
 #### [Расширение области номерной серии](extensibility/extend-number-sequence-scope.md)
+#### [Добавление новой складской аналитики](extensibility/inventory-dimensions.md)
+#### [Изменения для расширения цен и скидок](extensibility/pricing-app73.md)
+#### [Расширение сопоставления таблиц](extensibility/map-extensions.md)
+#### [Расширение сопоставлений таблиц, используемых в качестве интерфейсов](extensibility/maps-as-interfaces.md)
+#### [Расширение сопоставлений таблиц, используемых для управления версиями](extensibility/maps-with-versioning.md)
 
 
 
 
 ## Производительность
-### [Трассировка с помощью синтаксического анализатора трассировки](perf-test/trace-trace-tutorial.md)
+### [Трассировка с помощью Trace parser](perf-test/trace-trace-tutorial.md)
 ### [PerfSDK и многопользовательское тестирование с использованием Visual Studio Team Services](perf-test/perfsdk-tutorial.md)
 ### [Диагностика проблем и анализ проблем с производительностью с помощью синтаксического анализатора трассировки](perf-test/trace-parser.md)
 ### [Таймер производительности](perf-test/performance-timer.md)
@@ -523,19 +529,19 @@
 
 # [Обновление и миграция](migration-upgrade/upgrade-home-page.md)
 ## [Обновление AX 2012 до Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
-### [Анализ — использование средства анализа обновления для планирования обновления](migration-upgrade/upgrade-analyzer-tool.md)
-### [Анализ — использование службы обновления кода для оценки трудозатрат по обновлению кода](migration-upgrade/analyze-code-upgrade.md)
-### [Анализ — развертывание в "песочнице"](migration-upgrade/analysis-sandbox.md)
-### [Обновление — обновления данных в среде разработки](migration-upgrade/data-upgrade-2012.md)
-### [Обновление — задачи обновления данных AX 2012](migration-upgrade/prepare-data-upgrade.md)
-### [Обновление — обновления данных в "песочнице"](migration-upgrade/upgrade-data-sandbox.md)
-### [Проверка — тестирование переключения](migration-upgrade/upgrade-cutover-testing.md)
-### [Проверка — задачи для выполнения после обновления](migration-upgrade/app-validation-process.md)
-### [Проверка-— функциональное тестирование](migration-upgrade/upgrade-functional-validation.md)
-### [Проверка — подготовка к вводу в эксплуатацию](migration-upgrade/upgrade-go-live-prep.md)
+### [Обновление AX 2012 — использование средства анализа обновления для планирования](migration-upgrade/upgrade-analyzer-tool.md)
+### [Обновление AX 2012 — использование службы обновления кода для оценки трудозатрат](migration-upgrade/analyze-code-upgrade.md)
+### [Обновление AX 2012 — развертывание в "песочнице"](migration-upgrade/analysis-sandbox.md)
+### [Обновление AX 2012 — обновления данных в среде разработки](migration-upgrade/data-upgrade-2012.md)
+### [Обновление AX 2012 — задачи обновления данных AX 2012](migration-upgrade/prepare-data-upgrade.md)
+### [Обновление AX 2012 — обновление данных в "песочнице"](migration-upgrade/upgrade-data-sandbox.md)
+### [Обновление AX 2012 — тестирование переключения](migration-upgrade/upgrade-cutover-testing.md)
+### [Обновление AX 2012 — задачи, которые требуется выполнить после обновления](migration-upgrade/app-validation-process.md)
+### [Обновление AX 2012 — выполнение функциональных тестов](migration-upgrade/upgrade-functional-validation.md)
+### [Обновление AX 2012 — подготовка к вводу в эксплуатацию](migration-upgrade/upgrade-go-live-prep.md)
 
 
-### Изменения, которые влияют на процесс обновления с AX 2012
+### Изменения, влияющие на процесс обновления с AX 2012
 #### [Обновление использования одного ваучера и переоценки в валюте](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Модель данных планирования ресурсов проекта](migration-upgrade/data-model-changes-resource-management.md)
 #### [Изменения подсистемы workflow-процессов](migration-upgrade/workflow-subsystem.md)
@@ -590,6 +596,8 @@
 ## [Пакетная обработка](sysadmin/batch-processing-overview.md)
 ### [Обзор сервера обработки пакетных заданий](sysadmin/batch-server-overview.md)
 ### [Создание пакетного задания](sysadmin/tasks/create-batch-job.md)
+
+## [Создание правил для помощника по оптимизации](sysadmin/optimization-advisor.md)
 
 # Lifecycle Services
 ## [Обзор Lifecycle Services](lifecycle-services/lcs.md)

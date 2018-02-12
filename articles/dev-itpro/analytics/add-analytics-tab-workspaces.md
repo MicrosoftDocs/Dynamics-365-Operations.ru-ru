@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application user, IT Pro
 ms.reviewer: robinr
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > Эта функция поддерживается в Dynamics 365 for Finance and Operations (версия 7.2 и выше).
 
-# <a name="introduction"></a>Приветствие
+## <a name="introduction"></a>Приветствие
 В этом разделе показано, как внедрить отчет Microsoft Power BI на вкладку **Аналитика** рабочей области. В данном примере мы расширим рабочую область **Управление резервированием** в приложении "Управления автопарком" для внедрения аналитической рабочей области на вкладку **Аналитика**.
 
-# <a name="prerequisites"></a>Необходимые условия
+## <a name="prerequisites"></a>Необходимые условия
 + Доступ к среде разработчика, в которой выполняется обновление 8 платформы или более поздней версии.
 + Аналитический отчет (PBIX-файл), созданный с помощью Microsoft Power BI Desktop и имеющий модель данных, взятую из базы данных хранилища объектов.
 
-# <a name="overview"></a>Обзор
+## <a name="overview"></a>Обзор
 Независимо от того, расширяете ли вы существующую рабочую область приложения или вводите новую рабочую область, вы можете использовать внедренные аналитические представления для доставки важных и интерактивных представлений бизнес-данных. Процесс добавления аналитической вкладки рабочей области состоит из четырех шагов.
 
 1. Добавьте PBIX-файл как ресурс Dynamics 365.
@@ -48,7 +48,7 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > Дополнительные сведения о создании аналитических отчетов см. в разделе [Начало работы с Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Эта страница является отличным источником важных данных, которые могут помочь создать привлекательные аналитические решения отчетности.
 
-# <a name="add-a-pbix-file-as-a-resource"></a>Добавление PBIX-файла как ресурса Dynamics 365
+## <a name="add-a-pbix-file-as-a-resource"></a>Добавление PBIX-файла как ресурса Dynamics 365
 Прежде чем начать, необходимо создать или получить отчет Power BI, который будет внедрен в рабочую область. Дополнительные сведения о создании аналитических отчетов см. в разделе [Начало работы с Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Выполните следующие действия, чтобы добавить PBIX-файл в качестве артефакта проекта Visual Studio.
@@ -66,7 +66,7 @@ ms.lasthandoff: 11/06/2017
   
 Теперь, когда вы добавили PBIX-файл как ресурс Dynamics 365, можно внедрить отчеты в рабочие области и добавить прямые ссылки с помощью пунктов меню.
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>Добавление элемента управления вкладкой в рабочую область приложения
+## <a name="add-a-tab-control-to-an-application-workspace"></a>Добавление элемента управления вкладкой в рабочую область приложения
 В этом примере мы расширим рабочую область **Управление резервированием** в "Управления автопарком", добавив вкладку **Аналитика** к определению формы **FMClerkWorkspace**.
  
 На следующем рисунке показано, как выглядит форма **FMClerkWorkspace** в конструкторе в Microsoft Visual Studio.
@@ -105,7 +105,7 @@ ms.lasthandoff: 11/06/2017
  
 Вы завершили задачу расширения определения формы приложения. Дополнительные сведения о том, как использовать расширения для настройки, см. в разделе [Настройка: перекрытия и расширения](../extensibility/customization-overlayering-extensions.md).
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Добавление бизнес-логики X ++ для внедрения элемента управления средством просмотра
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Добавление бизнес-логики X ++ для внедрения элемента управления средством просмотра
 Выполните следующие действия, чтобы добавить бизнес-логику, которая инициализирует элемент управления средством просмотра отчетов, который внедрен в рабочую область **Управление резервированием**.
 
 1. Откройте конструктор форм **FMClerkWorkspace** для расширения определения конструктора.
@@ -151,12 +151,12 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > Вы можете получить доступ к существующему операционному представлению с помощью вкладок рабочей области под заголовком страницы.
 
-# <a name="reference"></a>Справка
+## <a name="reference"></a>Справка
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>Метод PBIReportHelper.initializeReportControl
+### <a name="pbireporthelperinitializereportcontrol-method"></a>Метод PBIReportHelper.initializeReportControl
 В этом разделе представлены сведения о вспомогательном классе, который используется для внедрения отчета Power BI (PBIXресурс) в элемент управления группой форм.
 
-### <a name="syntax"></a>Синтаксис
+#### <a name="syntax"></a>Синтаксис
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>Параметры
+#### <a name="parameters"></a>Параметры
 
 | Наименование | описание |
 |---|---|

@@ -1,4 +1,4 @@
---- 
+---
 title: "Планирование производственного заказа"
 description: "Следующая процедура показывает планирование производственного заказа."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/29/2017
     * На странице "Максимальная мощность" отображается мощность, зарезервированная при планировании заданий, общее число часов, которое в настоящее время зарезервировано для ресурса, и число часов, которой осталось доступным для планирования заданий этого ресурса.  
 6. Закройте страницу.
 7. Закройте страницу.
-
 
