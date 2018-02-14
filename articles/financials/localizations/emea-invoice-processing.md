@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters, VendParameters
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +17,16 @@ ms.author: v-kikozl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 25732cf27f91f9a6edf7aae41f7159aadd06b1e2
+ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
+ms.openlocfilehash: d1fca30eb6de22c2d2fb2c4d6bfdfd21fd4bbd6e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/14/2018
 
 ---
 
 # <a name="invoice-processing"></a><span data-ttu-id="3b474-103">Обработка накладных</span><span class="sxs-lookup"><span data-stu-id="3b474-103">Invoice processing</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="3b474-104">В этой теме кратко описаны некоторые сценарии, характерные для конкретных стран, такие как внутренний налог на добавленную стоимость (НДС) и отложенный налог.</span><span class="sxs-lookup"><span data-stu-id="3b474-104">This topic briefly describes some country-specific scenarios, such as intra-community value-added tax (VAT) and deferred tax.</span></span> <span data-ttu-id="3b474-105">Требования законодательства в некоторых странах Европы влияют на процесс обработки накладных.</span><span class="sxs-lookup"><span data-stu-id="3b474-105">Legal requirements for some European countries affect the invoicing process.</span></span> <span data-ttu-id="3b474-106">В этой теме также приводятся сведения о том, как в этих странах происходит обработка накладных клиента и накладных поставщика.</span><span class="sxs-lookup"><span data-stu-id="3b474-106">This topic provides also an information about how customer and vendor invoices are processed for these countries.</span></span> 
 <table>
