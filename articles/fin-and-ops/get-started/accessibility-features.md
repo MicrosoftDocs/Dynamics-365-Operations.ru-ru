@@ -1,9 +1,9 @@
 ---
 title: "Специальные возможности"
-description: "В этом разделе описываются возможности, предназначенные для пользователей, обладающих различными физическими нарушениями. Например, имеются возможности для людей, использующих вспомогательные технологии при нарушении зрения, такие как экранный диктор Windows."
+description: "В этом разделе описывается функциональная возможность, призванная помочь пользователям с различными физическими нарушениями использовать Dynamics 365 for Finance and Operations, Enterprise Edition, Dynamics 365 for Retail и Dynamics 365 for Talent."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 11/16/2017
+ms.date: 01/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,16 +16,16 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 158caf6c05515069b58121a72df1b7fe16bae236
-ms.openlocfilehash: bd71d2dee7ff7984f2088a64e9943b2541c88451
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 42b4f670dee95c073ce8dcca16afef83bbf78ff8
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
 # <a name="accessibility-features"></a>Специальные возможности
 
-В этом разделе описываются возможности, предназначенные для пользователей, обладающих различными физическими нарушениями. Например, имеются возможности для людей, использующих вспомогательные технологии при нарушении зрения, такие как экранный диктор Microsoft Windows.
+В этом разделе описывается функциональная возможность, призванная помочь пользователям с различными физическими нарушениями использовать Dynamics 365 for Finance and Operations, Enterprise Edition, Dynamics 365 for Retail и Dynamics 365 for Talent. Например, имеются возможности для людей, использующих вспомогательные технологии при нарушении зрения, такие как экранный диктор Microsoft Windows.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Экранный диктор Windows и доступ только с помощью клавиатуры
 

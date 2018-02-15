@@ -3,7 +3,7 @@ title: "Содержимое \"Финансовые показатели\" дл�
 description: "В этом разделе описывается содержимое Power BI \"Результаты финансовой деятельности\""
 author: kweekley
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,18 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 53d0654608e99aa85a5911d76397fbc7fadbf26e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
 # <a name="financial-performance-power-bi-content"></a>Содержимое "Финансовые показатели" для Power BI
 
 [!include[banner](../includes/banner.md)]
+
+> [Примечание] Этот пакет содержимого является устаревшим, как описано в разделе [Пакеты содержимого Power BI, опубликованные на PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
 
 В этом разделе описывается содержимое Microsoft Power BI **Результаты финансовой деятельности**. В нем описываются включенные панель мониторинга и отчеты и предоставляется информация о модели данных и объектах, которые использовались для построения содержимого.
 
