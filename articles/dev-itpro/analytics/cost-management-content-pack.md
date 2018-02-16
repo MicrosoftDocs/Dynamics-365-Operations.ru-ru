@@ -3,7 +3,7 @@ title: "Содержимое управления затратами в Power BI
 description: "В этой теме описывается, что входит в содержимое Power BI для управления затратами."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 1f552e1ee0286326e3a2a8bb6a7bfb84df53b45d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 12/19/2017
 
 [!include[banner](../includes/banner.md)]
 
+> [Примечание] Этот пакет содержимого является устаревшим, как описано в разделе [Пакеты содержимого Power BI, опубликованные на PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+
 
 В этой теме описывается, что входит в содержимое Power BI для управления затратами. 
-
-# <a name="overview"></a>Обзор
 
 Содержимое **Управление затратами** Microsoft Power BI предназначено для бухгалтеров, работающих с запасами, или отдельных лиц в организации, ответственных за запасы. Содержимое Power BI **Управление затратами** предоставляет управленческие сведения о запасах и запасах по незавершенному производству (НЗП), а также о потоках затрат через них по категориям с течением времени. Информация может также использоваться как подробное приложение к финансовой отчетности.
 

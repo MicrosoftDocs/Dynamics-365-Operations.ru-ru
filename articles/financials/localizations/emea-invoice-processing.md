@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters, VendParameters
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -24,6 +25,8 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="invoice-processing"></a>Обработка накладных
+
+[!include[banner](../includes/banner.md)]
 
 В этой теме кратко описаны некоторые сценарии, характерные для конкретных стран, такие как внутренний налог на добавленную стоимость (НДС) и отложенный налог. Требования законодательства в некоторых странах Европы влияют на процесс обработки накладных. В этой теме также приводятся сведения о том, как в этих странах происходит обработка накладных клиента и накладных поставщика. 
 <table>
