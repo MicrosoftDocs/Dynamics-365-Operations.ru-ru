@@ -18,14 +18,17 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
-ms.openlocfilehash: 1dab5e2e93bb87a926e9c66599ad711556206765
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: f9ea932b48d57baad4b4ab66069191ebd7cbbd6c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
 # <a name="configuration-keys-and-data-entities"></a><span data-ttu-id="57123-103">Конфигурационные ключи и информационные объекты</span><span class="sxs-lookup"><span data-stu-id="57123-103">Configuration keys and data entities</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="57123-104">Прежде чем использовать информационные объекты для импорта или экспорта данных, рекомендуется сначала определить влияние конфигурационных ключей на информационные объекты, которые вы намерены использовать.</span><span class="sxs-lookup"><span data-stu-id="57123-104">Before you use data entities to import or export data, we recommended that you first determine the impact of configuration keys on the data entities that you are planning to use.</span></span> 
 
 <span data-ttu-id="57123-105">Для получения дополнительных сведений о ключах конфигурации в Finance and Operations см. раздел [Отчет по лицензионным кодам и ключам конфигурации](../sysadmin/license-codes-configuration-keys-report.md).</span><span class="sxs-lookup"><span data-stu-id="57123-105">To learn more about configuration keys in Finance and Operations, see the [License codes and configuration keys report](../sysadmin/license-codes-configuration-keys-report.md).</span></span>
