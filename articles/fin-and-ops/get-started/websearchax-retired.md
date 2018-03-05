@@ -27,6 +27,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="websearchax-retired"></a>WebSearchAX удалена
 
+[!include[banner](../includes/banner.md)]
+
 Мы вынуждены удалить страницу WebSearchAX. Для ее замены рекомендуется использовать службу поиска сайтов из поисковой системы, которую вы предпочитаете.  Пример: 
 
 site:technet.microsoft.com dynamics ax 2012 "искомый термин"

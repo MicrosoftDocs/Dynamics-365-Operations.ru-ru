@@ -27,6 +27,8 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Сравнение характеристик облачной и локальной версий
 
+[!include[banner](../includes/banner.md)]
+
 В этой теме показано, какие из функций доступны в следующих продуктах:
 
 + Dynamics 365 for Finance and Operations, Enterprise Edition (облачная версия)
