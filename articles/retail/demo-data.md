@@ -29,6 +29,8 @@ ms.lasthandoff: 10/17/2017
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>Макеты экрана демонстрационных данных в MPOS/CPOS
 
+[!include[banner](includes/banner.md)]
+
 В этом разделе приводятся сведения о макетах экрана, входящих в состав набора демонстрационных данных POS-терминала в Microsoft Dynamics 365 for Retail.
 
 ## <a name="overview"></a>Обзор
