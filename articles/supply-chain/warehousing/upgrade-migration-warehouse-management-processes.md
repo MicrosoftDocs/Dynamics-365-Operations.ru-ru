@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="migrate-products-and-warehouse-management-from-ax-2012-to-finance-and-operations"></a>Миграция продуктов и управления складом из AX 2012 в Finance and Operations
 
+[!include[banner](../includes/banner.md)]
+
 В этой теме представлен обзор вариантов миграции продуктов и управления складами в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 <a name="introduction"></a>Приветствие

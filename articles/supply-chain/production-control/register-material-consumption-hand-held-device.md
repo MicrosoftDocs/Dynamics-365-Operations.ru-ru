@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="register-material-consumption-using-a-mobile-device"></a>Регистрация потребления материалов на мобильном устройстве
+
+[!include[banner](../includes/banner.md)]
+
 В этой теме описывается workflow-процесс, позволяющий регистрировать потребление сырья на производстве с помощью наладонного устройства.
 
 <a name="introduction"></a>Приветствие
