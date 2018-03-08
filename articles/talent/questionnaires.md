@@ -19,14 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: a892b53b555c29b1fc3928bb24eff98128d648f3
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 84d5f60cdce4cd667c408d17d9892d7079947f58
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="questionnaires"></a><span data-ttu-id="ea316-105">Анкеты</span><span class="sxs-lookup"><span data-stu-id="ea316-105">Questionnaires</span></span>
+
+[!include[banner](includes/banner.md)]
 
 <span data-ttu-id="ea316-106">В этом разделе представлены общие сведения об анкетах и ссылки на более подробные сведения.</span><span class="sxs-lookup"><span data-stu-id="ea316-106">This topic provides general information about questionnaires, and links to more detailed information.</span></span> <span data-ttu-id="ea316-107">Анкета — это набор вопросов, используемых для сбора сведений для различных целей.</span><span class="sxs-lookup"><span data-stu-id="ea316-107">A questionnaire is a set of questions that is used to collect information for various purposes.</span></span> <span data-ttu-id="ea316-108">Анкеты можно разрабатывать, создавать, распространять и заполнять, а затем анализировать результаты.</span><span class="sxs-lookup"><span data-stu-id="ea316-108">You can design, create, distribute, and complete questionnaires, and then analyze the results.</span></span> 
 
