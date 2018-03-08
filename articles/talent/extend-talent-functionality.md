@@ -25,6 +25,9 @@ ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>Расширение функциональных возможностей Microsoft Dynamics 365 for Talent
+
+[!include[banner](includes/banner.md)]
+
 Если вы создали какие-либо приложения Microsoft PowerApps, вы можете запускать эти приложения с помощью ссылок в Microsoft Dynamics 365 for Talent. Чтобы настроить доступ к приложениям, необходимо настроить некоторую информацию на странице конфигурации Talent, которую можно открыть из рабочей области **Администрирование системы**.
 
 ## <a name="configuring-embedded-powerapps-within-talent"></a>Настройка внедренных приложений PowerApps в Talent

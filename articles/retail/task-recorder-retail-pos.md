@@ -29,6 +29,8 @@ ms.lasthandoff: 02/01/2018
 
 # <a name="task-recorder-and-help-for-pos"></a>Регистратор задач и справка для POS
 
+[!include[banner](includes/banner.md)]
+
 В этой теме описан порядок использования регистратора задач в Retail Modern POS и Cloud POS.
 
 <a name="overview"></a>Обзор

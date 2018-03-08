@@ -27,6 +27,8 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="excel-templates-with-multiple-worksheets"></a>Шаблоны Excel с несколькими листами
 
+[!include[banner](../includes/banner.md)]
+
 Управление данными в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition поддерживает шаблоны на основе Microsoft Excel для информационных объектов. Эти шаблоны могут содержать один или несколько листов. Шаблоны с несколькими листами часто используются, когда удобно управлять данными в одном файле и импортировать их в несколько информационных объектов. Примерами могут служить сайты и склады.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Отправка файла один раз и сопоставление его всем объектам

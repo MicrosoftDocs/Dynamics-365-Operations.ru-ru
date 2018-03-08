@@ -25,6 +25,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="expense-management-parameters"></a>Параметры управления расходами
+
+[!include[banner](../includes/banner.md)]
+
 -----------------------------
 
 Параметры управляют общим поведением в управлении расходами.
