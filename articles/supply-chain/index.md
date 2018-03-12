@@ -1,9 +1,9 @@
 ---
 title: "Домашняя страница модуля \"Управление цепочкой поставок\""
-description: "В этой теме представлен список разделов справки и других ресурсов по функциям управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "На этой странице представлен список разделов справки и других ресурсов по функциям управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/15/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
-ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
+ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
+ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 02/21/2018
 
 ---
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 01/22/2018
 Выберите область компонентов для получения дополнительных сведений о ней.
 
 - [Учет затрат](../financials/cost-accounting/cost-accounting-home-page.md)
-- [Управление затратами](cost-management/costing-sheets.md)  
+- [Управление затратами](cost-management/cost-management-home-page.md)  
 - [Управление запасами](inventory/inventory-home-page.md)
 - [Сводное планирование](master-planning/master-planning-home-page.md)
 - [Закупки и источники](procurement/procurement-sourcing-overview.md)
@@ -56,6 +56,7 @@ ms.lasthandoff: 01/22/2018
 
 -  [Интеграции решения "Перспективный клиент в наличные деньги"](https://youtu.be/AVV9x5x-XCg) 
 -  [Помощник по оптимизации](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [Использование шаблона склада для копирования конфигурации](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 Эти небольшие видеоролики помогут познакомиться с новыми функциями Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 года).
 
@@ -67,17 +68,36 @@ ms.lasthandoff: 01/22/2018
 
 Эти записи с технической конференции относятся к функциями предыдущей версии Finance and Operations, но обсуждаемые в них понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии. 
 
--  <a href="https://youtu.be/zotrj3SbCl4">Конфигуратор продукции в Microsoft Dynamics AX</a>
--  <a href="https://youtu.be/7v8BPmEs9Dg">Сводное планирование — советы и рекомендации по устранению проблем с производительностью</a>
--  <a href="https://youtu.be/RLXybx20B5o">Помогите! MRP работает медленно!</a>
--  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Обработка входящих уведомлений ASN в модуле "Управление складом"</a> 
--  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">Эффективное использование системы управления складом</a>
--  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">Расширенное управление складом R3 — обработка входящего потока и минимальное/максимальное пополнение</a>
--  <a href="https://youtu.be/Og0gLlVp7jA">Расширенное управление складом R3 — типичный день, обработка исходящего потока и пополнение для спроса</a>
--  <a href="https://youtu.be/5w1MngVchBA">Метки в новой системе управления складом Microsoft Dynamics AX 2012 R3</a>
--  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: расширенное управление складом — типичный день непрерывного производства</a>
--  <a href="https://youtu.be/y1jrd3A_k70">Операции субподряда и действия производства</a>
--  <a href="https://youtu.be/jgmTgJIgEFQ">Управление транспортировкой (TMS) в новой версии Microsoft Dynamics AX</a>
+**Управление затратами**
+
+-  [Обзор управления затратами](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+
+**Сводное планирование**
+
+-  [Расширение функций прогнозирования спроса](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [Сводное планирование — советы и рекомендации по устранению проблем с производительностью](https://youtu.be/7v8BPmEs9Dg)
+-  [Помогите! MRP работает медленно!](https://youtu.be/RLXybx20B5o)
+
+**Управление сведениями о продукте**
+
+-  [Конфигуратор продукции в Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
+
+**Управление складом** 
+
+-  [Обработка входящих уведомлений ASN в модуле "Управление складом"](https://mix.office.com/watch/wpf78tr7rjuh)  
+-  [Эффективное использование системы управления складом](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [Расширенное управление складом R3 — обработка входящего потока и минимальное/максимальное пополнение](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+-  [Расширенное управление складом R3 — типичный день, обработка исходящего потока и пополнение для спроса](https://youtu.be/Og0gLlVp7jA)
+-  [Метки в новой системе управления складом Microsoft Dynamics AX 2012 R3](https://youtu.be/5w1MngVchBA)
+-  [Dynamics AX 2012 R3: расширенное управление складом — типичный день непрерывного производства](https://www.youtube.com/embed/QUxXUrN-7n4)
+
+**Управление производством**
+
+-  [Операции субподряда и мероприятий производства](https://youtu.be/y1jrd3A_k70)
+
+**Управление транспортировкой**
+
+-  [Управление транспортировкой (TMS) в новой версии Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Блоги
 В <a href="https://blogs.msdn.microsoft.com/axmfg/">блоге группы исследований производства Dynamics AX</a> и в <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">блоге группы исследований управления цепочками поставок Dynamics AX</a> есть множество тем о производстве и управлении цепочками поставок. Большинство из них были написаны для предыдущей версии Finance and Operations, но эти понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии. 
