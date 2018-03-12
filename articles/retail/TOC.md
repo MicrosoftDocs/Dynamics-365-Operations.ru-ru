@@ -183,10 +183,11 @@
 ### [Архитектура MPOS](dev-itpro/retail-modern-pos-architecture.md)
 ### [Архитектура публикации в интернет-магазине розничной торговли](dev-itpro/retail-online-store-publishing-architecture.md)
 ### [Содержимое "Эффективность канала розничной торговли" для Power BI](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Сертификация стандартов безопасности данных платежных приложений (PA-DSS)](dev-itpro/PA-DSS-Certification.md)
 
 ## Развертывание и исправления
-### [Обзор модуля весов для розничного магазина](dev-itpro/retail-store-system-begin.md)
-### [Настройка и установка модуля весов для розничного магазина](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Обзор модуля весов для магазина розничной торговли](dev-itpro/retail-store-system-begin.md)
+### [Настройка и установка модуля весов для магазина розничной торговли](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Настройка и установка Retail Modern POS](retail-modern-pos-device-activation.md)
 ### [Управление учетными записями и устройствами Retail из центрального офиса](set-up-activation-accounts-validate-devices-hq.md)
 ### [Активация устройств Retail POS](dev-itpro/retail-device-activation.md)
