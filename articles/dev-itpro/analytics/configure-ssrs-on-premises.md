@@ -26,6 +26,8 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>Настройка служб SQL Server Reporting Services для локального развертывания
 
+[!include[banner](../includes/banner.md)]
+
 Используйте шаги, приведенные ранее в этой теме, для настройки служб SQL Server Reporting Services (SSRS) для развертывания Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (локальная версия).
 
 1. Откройте приложение "Диспетчер конфигурации Reporting Services".

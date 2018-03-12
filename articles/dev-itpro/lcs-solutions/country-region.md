@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -217,6 +217,21 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 -   [Методы амортизации основных средств](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
 -   [Перемещение основного средства на склад](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [Малоценные ОС](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>Индия
+
+- [Основные средства](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [Перенос единиц основного капитала в ОС](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [Вложение ежедневного календаря в журнал ОС](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [Настройка параметров для расчета амортизации](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [Настройка амортизационной группы ОС для журналов амортизации](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [Создание группы складских моделей для единиц основного капитала](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [Расчет амортизации за смену для ОС Индии](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [Определение типа смены и отрасли для книг и вложение в ОС](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [Обзор механизма начисления налога](../../financials/general-ledger/tax-engine.md)
+    - [Интеграция механизма начисления налога](../../financials/general-ledger/tax-engine-integration.md)
+    - [Вопросы и ответы по налоговым порогам](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [Расширение механизма начисления налога](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>Италия
 

@@ -1,7 +1,7 @@
 ---
 title: "Маршруты и операции"
 description: "В данном разделе содержится общая информация о маршрутах и операциях."
-author: YuyuScheller
+author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

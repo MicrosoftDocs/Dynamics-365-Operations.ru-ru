@@ -9,7 +9,7 @@
 ## [Стек приложений и архитектура сервера](dev-tools/application-stack-server-architecture.md)
 ## [Получение ознакомительной версии](dev-tools/get-evaluation-copy.md)
 ## [Регистрация на подписку](dev-tools/sign-up-preview-subscription.md)
-## [Доступ к экземплярам](dev-tools/access-instances.md)
+## [Развертывание среды разработки и доступ к ней](dev-tools/access-instances.md)
 ## [Требования к системе для разработки](dev-tools/development-system-requirements.md)
 ## Пример приложения для управления автопарком
 ### [Пример приложения для управления автопарком](dev-tools/fleet-management-sample.md)
@@ -360,7 +360,7 @@
 #### [Тип ValueMetadata](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
 # Интеграция данных
-## [Схемы интеграции](data-entities/integration-overview.md)
+## [Выбор стратегии интеграции данных (импорт/экспорт)](data-entities/integration-overview.md)
 
 ## API интеграции данных
 ### [API пакета управления данными](data-entities/data-management-api.md)
@@ -381,12 +381,12 @@
 
 ### [Интеграция данных с использованием Common Data Service](data-entities/data-integration-cds.md) 
 #### [Настройка сценария продажи перспективному клиенту](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Синхронизация продуктов из Finance and Operations с продуктами в Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-##### [Синхронизация организаций из Sales с клиентами в Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-##### [Синхронизация контактов из Sales с контактами или клиентами в Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
-##### [Синхронизация заголовков и строк предложений по продажам из Sales с Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-##### [Синхронизация заголовков и строк заказов на продажу из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-##### [Синхронизация заголовков и строк накладных по продаже из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Синхронизация продуктов из Finance and Operations с продуктами в Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Синхронизация организаций из Sales с клиентами в Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Синхронизация контактов из Sales с контактами или клиентами в Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Синхронизация заголовков и строк предложений по продажам из Sales с Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Синхронизация заголовков и строк заказов на продажу из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Синхронизация заголовков и строк накладных по продаже из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Синхронизация организаций непосредственно из Sales с клиентами в Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Синхронизация продуктов непосредственно из Finance and Operations с продуктами в Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Синхронизация контактов непосредственно из Sales с контактами или клиентами в Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
@@ -452,6 +452,8 @@
 
 ## [Использование своей собственной базы данных](analytics/export-entities-to-your-own-database.md)
 
+## [Ресурсы для ответа на запрос данных GDPR](gdpr/gdpr-home-page.md)
+
 # [Домашняя страница непрерывной поставки](dev-tools/continuous-delivery-home-page.md)
 ## [Вопросы и ответы по разработке и непрерывной поставке](dev-tools/continuous-delivery-faq.md)
 ## [Исключение тестовых пакетов из выходной сборки](dev-tools/exclude-test-packages.md)
@@ -515,6 +517,7 @@
 ### [Создание проекта локального развертывания](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Настройка и развертывание локальных сред](deployment/setup-deploy-on-premises-environments.md)
 ### [Разработка и развертывание пользовательских моделей в локальных средах](deployment/develop-deploy-custom-models-on-premises.md)
+### [Настройка обратного прокси-сервера для существующей среды на предприятии](deployment/onprem-reverseproxy.md)
 ### [Применение обновлений к локальному развертыванию](deployment/apply-updates-on-premises.md)
 ### [Повторное развертывание локального размещения](deployment/redeploy-on-prem.md)
 ### [Обновление локального агента](lifecycle-services/update-local-agent.md)
@@ -527,7 +530,7 @@
 ### [Установка готового к развертыванию пакета](deployment/install-deployable-package.md)
 ### [Устранение неполадок приложений пакета](deployment/deployable-package-troubleshooting.md)
 
-# [Обновление и миграция](migration-upgrade/upgrade-home-page.md)
+# [Модификации, обновления и исправления](migration-upgrade/upgrade-home-page.md)
 ## [Обновление AX 2012 до Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
 ### [Обновление AX 2012 — использование средства анализа обновления для планирования](migration-upgrade/upgrade-analyzer-tool.md)
 ### [Обновление AX 2012 — использование службы обновления кода для оценки трудозатрат](migration-upgrade/analyze-code-upgrade.md)
@@ -555,8 +558,7 @@
 ### [Разбиение моделей](dev-tools/model-split.md)
 ### [Использование делегатов для разрешения зависимостей между моделями](migration-upgrade/delegates-migration.md)
 
-
-## Установка последнего обновления
+## Установка последнего обновления (облако)
 ### [Процесс перехода на последнюю версию](migration-upgrade/upgrade-latest-update.md)
 ### [Политика жизненного цикла](migration-upgrade/versions-update-policy.md)
 ### [Установка в среде последнего обновления платформы](migration-upgrade/upgrade-latest-platform-update.md)
@@ -564,13 +566,17 @@
 ### [Обновление "песочницы"](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Обновление данных в среде разработки или в демонстрационной среде](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Обновление средств разработки](dev-tools/update-development-tools.md)
+
+## Установка последнего обновления (локальная версия)
 ### [Применение обновлений к локальному развертыванию](deployment/apply-updates-on-premises.md)
 ### [Повторное развертывание локального размещения](deployment/redeploy-on-prem.md)
 
-## Исправления и обслуживание
+## Исправления
 ### [Загрузка исправлений из Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
+### [Применение обновлений к облачной среде](deployment/apply-deployable-package-system.md)
 ### [Установка исправления метаданных](migration-upgrade/install-metadata-hotfix-package.md)
 ### [Исправление службы Reporting Services в односерверной среде](migration-upgrade/patch-reporting-service-environment.md)
+### [Обновление средств разработки Visual Studio](dev-tools/update-development-tools.md)
 
 ## Устаревшие элементы
 ### [Устаревшие API](migration-upgrade/deprecated-apis.md)
