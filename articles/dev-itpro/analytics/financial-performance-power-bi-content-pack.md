@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
-ms.openlocfilehash: 53d0654608e99aa85a5911d76397fbc7fadbf26e
+ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
+ms.openlocfilehash: b7cb5f2096f0be5211024fc6ecbfaa61d6c48c9a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 02/06/2018
 
 ---
 
@@ -29,7 +29,8 @@ ms.lasthandoff: 02/02/2018
 
 [!include[banner](../includes/banner.md)]
 
-> [Примечание] Этот пакет содержимого является устаревшим, как описано в разделе [Пакеты содержимого Power BI, опубликованные на PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+> [!Note]
+> Этот пакет содержимого является устаревшим, как описано в разделе [Пакеты содержимого Power BI, опубликованные на PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
 
 В этом разделе описывается содержимое Microsoft Power BI **Результаты финансовой деятельности**. В нем описываются включенные панель мониторинга и отчеты и предоставляется информация о модели данных и объектах, которые использовались для построения содержимого.
 

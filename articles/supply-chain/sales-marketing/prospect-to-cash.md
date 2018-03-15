@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
-ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -46,15 +46,6 @@ ms.lasthandoff: 01/25/2018
 - [Синхронизация заказов на продажу напрямую из Finance and Operations в Sales](sales-order-template-mapping-direct.md)
 - [Синхронизация заказов на продажу напрямую между Sales и Finance and Operations (шаблон ожидает выпуска)](sales-order-template-mapping-direct-two-ways.md)
 - [Синхронизация накладных по продаже напрямую из Finance and Operations в Sales](sales-invoice-template-mapping-direct.md)
-
-В предыдущих версиях решение "Перспективный клиент в наличные деньги" предоставляет следующие типы непрямой синхронизации:
-
-- [Ведение счетов в Sales и их синхронизация с Finance and Operations](accounts-template-mapping.md)
-- [Ведение контактов в Sales и их синхронизация с Finance and Operations](contacts-template-mapping.md)
-- [Ведение продуктов в Finance and Operations и их синхронизация с Sales](products-template-mapping.md)
-- [Создание предложений по продажам в Sales и их синхронизация с Finance and Operations](sales-quotation-template-mapping.md)
-- [Создание заказов на продажу в Finance and Operations и их синхронизация с Sales](sales-order-template-mapping.md)
-- [Создание счетов продажи в Finance and Operations и их синхронизация с Sales](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Системные требования для Finance and Operations
 
@@ -87,7 +78,7 @@ ms.lasthandoff: 01/25/2018
     - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** — требуется поддержка интеграции решения "Перспективный клиент в наличные деньги" с помощью информационных объектов.
     
     > [!NOTE]
-    > После установки исправлений необходимо запустить следующее пакетное задание из формы **SalesPopulateProspectToCash**. Эта форма скрыта, так как она требуется только один раз. Чтобы получить доступ к форме, выполните вход в среду и добавьте следующее к URL-адресу в адресной строке вашего веб-браузера: &mi=action:SalesPopulateProspectToCash, например https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash. Когда форма откроется, щелкните OK. При этом новое поле **LineCreationSequnceNumber** в таблицах **SalesLine**, **SalesQuotationLine** и **CustInvoiceTrans** будет заполнено уникальными значениями, и будет обновлен список продуктов. Это необходимо для работы интеграции решения "Перспективный клиент в наличные деньги".
+    > После установки исправлений необходимо запустить следующее пакетное задание из формы **SalesPopulateProspectToCash**. Эта форма скрыта, так как она требуется только один раз. Для доступа к форме выполните вход в среду и добавьте следующее в URL-адрес в веб-браузере: &mi=action:SalesPopulateProspectToCash, Например, `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Когда форма откроется, щелкните OK. При этом новое поле **LineCreationSequnceNumber** в таблицах **SalesLine**, **SalesQuotationLine** и **CustInvoiceTrans** будет заполнено уникальными значениями, и будет обновлен список продуктов. Это необходимо для работы интеграции решения "Перспективный клиент в наличные деньги".
 
 
 ## <a name="system-requirements-for-sales"></a>Системные требования для Sales
@@ -96,12 +87,6 @@ ms.lasthandoff: 01/25/2018
 
 - Dynamics 365 for Sales версии 1612 (8.2.1.207) (БД 8.2.1.207) (сетевая версия)
 - Решение "Перспективный клиент в наличные деньги" для Dynamics 365 for Sales, версия 1.15.0.0 (v15) 
-
-   > [!NOTE]
-   >
-   > Шаблоны с версией 1.0.0.0 и 1.0.0.1 поддерживаются в решении "Перспективный клиент в наличные деньги" для Dynamics 365 for Sales, версия 1.14.1.0
-   >
-   > Шаблоны с версией 2.0.0.0 и 2.1.0.0 поддерживаются в решении "Перспективный клиент в наличные деньги" для Dynamics 365 for Sales, версия 1.15.0.0
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Установка решения "Перспективный клиент в наличные деньги" для Sales
 

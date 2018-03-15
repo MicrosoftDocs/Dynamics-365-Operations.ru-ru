@@ -3,7 +3,7 @@ title: "Сравнение характеристик облачной и лок
 description: "В этой теме показано, какие функции поддерживаются в облачной и локальной версиях."
 author: robinarh
 manager: AnnBe
-ms.date: 11/29/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
-ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
+ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
+ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -49,8 +49,9 @@ ms.lasthandoff: 12/01/2017
 | | Пакет содержимого "Управление затратами" для Power BI | Да | Нет |
 | Управление данными и их интеграция| | Да | Да |
 | | Расширение в зависимости от конфигурации| Да | Нет |
-| | Экспорт данных в ваше собственное хранилище данных| Да | Нет |
+| | Экспорт данных в ваше собственное хранилище данных| Да | Да |
 | | Включение экспорта инкрементных обновлений объекта данных | Да | Нет |
+| | Повторяющиеся интеграции                 |Да | Нет|
 | Управление документами| | Да| Да |
 | Управление финансами|  | Да | Да |
 | Справка| | Да | Нет |

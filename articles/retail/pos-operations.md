@@ -1,5 +1,5 @@
 ---
-title: "Операции POS"
+title: "Выполнение операций POS в подключенном и автономном режимах"
 description: "Этот раздел содержит сведения об операциях POS-терминала в Microsoft Dynamics 365 for Retail. Он указывает, где в приложении можно инициировать операции, а также доступны ли они в автономном режиме."
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,17 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
-ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
+ms.sourcegitcommit: edfed83d4703c081d857faad0771dc1010be41b4
+ms.openlocfilehash: edd6dd23066eca782b8fd510dabab612241e480a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 
-# <a name="pos-operations"></a>Операции POS
+# <a name="pos-operations-online-and-offline"></a>Выполнение операций POS в подключенном и автономном режимах
+
+[!include[banner](includes/banner.md)]
+
 Большинство действий, которые пользователь выполняет на POS-терминале, считаются операциями. Операции настраиваются и управляются в бэк-офисе Microsoft Dynamics 365 for Retail. Многие операции могут быть добавлены в кнопки в сетке кнопок POS-терминала. Затем пользователи смогут выбирать кнопки для запуска операций и выполнения их функций. Другие операции являются частью основного приложения POS-терминала и вызываются либо с помощью экранных кнопок, либо в составе других workflow-процессов или процессов.
 
 В следующей таблице приводятся сведения об операциях, которые доступны в Retail Modern POS и Cloud POS для Dynamics 365 for Retail. В таблице также указано, где в приложении можно вызывать операции, и также доступны при они, когда POS-терминал работает в автономном режиме.
