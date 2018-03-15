@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7bcc8464d34c35423e86c963c6b493fc09db4472
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: fc0e71e2ffc2adbaed598f788141b651fbcc616a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -56,12 +56,12 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="supported-microsoft-office-applications"></a>Поддерживаемые приложения Microsoft Office
 
-*   Для запуска надстроек Microsoft Excel и Word должен быть установлен Microsoft Office 2016 для Windows или Mac. Дополнительные сведения о требованиях к версии см. разделе [Устранение неполадок интеграции с Office] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Устранение неполадок интеграции с Office").
+*   Для запуска надстроек Microsoft Excel и Word должен быть установлен Microsoft Office 2016 для Windows или Mac. Дополнительные сведения о требованиях к версии см. в разделе [Устранение неполадок при интеграции Office] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Устранение неполадок при интеграции Office").
 *   Для просмотра документов, созданных с помощью функции экспорта в Excel или экспорта в Word должен быть установлен пакет Microsoft Office 2007 или более поздняя версия.
 
 ## <a name="update-policy"></a>Политика обновления
 
 Microsoft Dynamics 365 for Talent обслуживается как облачная система. Dynamics 365 for Talent постоянно обновляется, и обновления автоматически применяются корпорацией Майкрософт.
 
-Обновления выпускаются регулярно и применяются ко всем средам.  Dynamics 365 for Talent поддерживается в соответствии с [политикой жизненного цикла поддержки Майкрософт] (https://support.microsoft.com/ru-ru/gp/lifecycle#gp/OSSLpolicy "Политика жизненного цикла поддержки Майкрософт"), которая обеспечивает единообразную и предсказуемую поддержку продукта.
+Обновления выпускаются регулярно и применяются ко всем средам.  Dynamics 365 for Talent поддерживается в соответствии с [политикой жизненного цикла поддержки Майкрософт] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Политика жизненного цикла поддержки Майкрософт"), которая обеспечивает единообразную и предсказуемую поддержку продукта.
 
