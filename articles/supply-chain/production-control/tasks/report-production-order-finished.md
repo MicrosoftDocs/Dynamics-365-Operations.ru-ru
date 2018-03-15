@@ -23,31 +23,31 @@ ms.contentlocale: ru-ru
 ms.lasthandoff: 02/06/2018
 
 ---
-# <a name="report-a-production-order-as-finished"></a><span data-ttu-id="d6463-103">Сообщение о завершении производственного заказа</span><span class="sxs-lookup"><span data-stu-id="d6463-103">Report a production order as finished</span></span>
+# <a name="report-a-production-order-as-finished"></a><span data-ttu-id="47b00-103">Сообщение о завершении производственного заказа</span><span class="sxs-lookup"><span data-stu-id="47b00-103">Report a production order as finished</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="d6463-104">В этой процедуре показано, как составить отчет по производственному заказу как "завершено".</span><span class="sxs-lookup"><span data-stu-id="d6463-104">This procedure shows how to report a production order as finished.</span></span> <span data-ttu-id="d6463-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="d6463-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d6463-106">Это шестая из семи процедур, которая объясняет жизненный цикл производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="d6463-106">This is the sixth procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="47b00-104">В этой процедуре показано, как составить отчет по производственному заказу как "завершено".</span><span class="sxs-lookup"><span data-stu-id="47b00-104">This procedure shows how to report a production order as finished.</span></span> <span data-ttu-id="47b00-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="47b00-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="47b00-106">Это шестая из семи процедур, которая объясняет жизненный цикл производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="47b00-106">This is the sixth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="report-a-production-order-as-finished"></a><span data-ttu-id="d6463-107">Сообщение о завершении производственного заказа</span><span class="sxs-lookup"><span data-stu-id="d6463-107">Report a production order as finished</span></span>
-1. <span data-ttu-id="d6463-108">Перейдите в раздел "Управление производством" > "Производственные заказы" > "Все производственные заказы".</span><span class="sxs-lookup"><span data-stu-id="d6463-108">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="d6463-109">Выберите производственный заказ со статусом "Начато".</span><span class="sxs-lookup"><span data-stu-id="d6463-109">Select a production order that has the Started status.</span></span>  
-2. <span data-ttu-id="d6463-110">В области действий щелкните "Производственный заказ".</span><span class="sxs-lookup"><span data-stu-id="d6463-110">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="d6463-111">Щелкните "Приемка".</span><span class="sxs-lookup"><span data-stu-id="d6463-111">Click Report as finished.</span></span>
-    * <span data-ttu-id="d6463-112">На этой странице можно подтвердить количество готовой продукции как "принято".</span><span class="sxs-lookup"><span data-stu-id="d6463-112">On this page, you can confirm the quantity of the finished product to be reported as finished.</span></span>  
-4. <span data-ttu-id="d6463-113">Перейдите на вкладку "Общие".</span><span class="sxs-lookup"><span data-stu-id="d6463-113">Click the General tab.</span></span>
-5. <span data-ttu-id="d6463-114">Установите "Количество правильных" равным "18".</span><span class="sxs-lookup"><span data-stu-id="d6463-114">Set Good quantity to '18'.</span></span>
-6. <span data-ttu-id="d6463-115">Установите "Количество ошибочных" равным "2".</span><span class="sxs-lookup"><span data-stu-id="d6463-115">Set Error quantity to '2'.</span></span>
-7. <span data-ttu-id="d6463-116">В поле "Причина ошибки" выберите "Материал".</span><span class="sxs-lookup"><span data-stu-id="d6463-116">In the Error cause field, select 'Material'.</span></span>
-8. <span data-ttu-id="d6463-117">Установите или снимите флажок "Заключительное задание".</span><span class="sxs-lookup"><span data-stu-id="d6463-117">Select or clear the End job check box.</span></span>
-9. <span data-ttu-id="d6463-118">Установите или снимите флажок "Ошибка приема".</span><span class="sxs-lookup"><span data-stu-id="d6463-118">Select or clear the Accept error check box.</span></span>
-10. <span data-ttu-id="d6463-119">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="d6463-119">Click OK.</span></span>
+## <a name="report-a-production-order-as-finished"></a><span data-ttu-id="47b00-107">Сообщение о завершении производственного заказа</span><span class="sxs-lookup"><span data-stu-id="47b00-107">Report a production order as finished</span></span>
+1. <span data-ttu-id="47b00-108">Перейдите в раздел "Управление производством" > "Производственные заказы" > "Все производственные заказы".</span><span class="sxs-lookup"><span data-stu-id="47b00-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="47b00-109">Выберите производственный заказ со статусом "Начато".</span><span class="sxs-lookup"><span data-stu-id="47b00-109">Select a production order that has the Started status.</span></span>  
+2. <span data-ttu-id="47b00-110">В области действий щелкните "Производственный заказ".</span><span class="sxs-lookup"><span data-stu-id="47b00-110">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="47b00-111">Щелкните "Приемка".</span><span class="sxs-lookup"><span data-stu-id="47b00-111">Click Report as finished.</span></span>
+    * <span data-ttu-id="47b00-112">На этой странице можно подтвердить количество готовой продукции как "принято".</span><span class="sxs-lookup"><span data-stu-id="47b00-112">On this page, you can confirm the quantity of the finished product to be reported as finished.</span></span>  
+4. <span data-ttu-id="47b00-113">Перейдите на вкладку "Общие".</span><span class="sxs-lookup"><span data-stu-id="47b00-113">Click the General tab.</span></span>
+5. <span data-ttu-id="47b00-114">Установите "Количество правильных" равным "18".</span><span class="sxs-lookup"><span data-stu-id="47b00-114">Set Good quantity to '18'.</span></span>
+6. <span data-ttu-id="47b00-115">Установите "Количество ошибочных" равным "2".</span><span class="sxs-lookup"><span data-stu-id="47b00-115">Set Error quantity to '2'.</span></span>
+7. <span data-ttu-id="47b00-116">В поле "Причина ошибки" выберите "Материал".</span><span class="sxs-lookup"><span data-stu-id="47b00-116">In the Error cause field, select 'Material'.</span></span>
+8. <span data-ttu-id="47b00-117">Установите или снимите флажок "Заключительное задание".</span><span class="sxs-lookup"><span data-stu-id="47b00-117">Select or clear the End job check box.</span></span>
+9. <span data-ttu-id="47b00-118">Установите или снимите флажок "Ошибка приема".</span><span class="sxs-lookup"><span data-stu-id="47b00-118">Select or clear the Accept error check box.</span></span>
+10. <span data-ttu-id="47b00-119">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="47b00-119">Click OK.</span></span>
 
-## <a name="verify-the-report-as-finished-journal"></a><span data-ttu-id="d6463-120">Проверка журнала "Приемка"</span><span class="sxs-lookup"><span data-stu-id="d6463-120">Verify the Report as finished journal</span></span>
-1. <span data-ttu-id="d6463-121">В области действий щелкните "Показать".</span><span class="sxs-lookup"><span data-stu-id="d6463-121">On the Action Pane, click View.</span></span>
-2. <span data-ttu-id="d6463-122">Щелкните "Принятые".</span><span class="sxs-lookup"><span data-stu-id="d6463-122">Click Reported as finished.</span></span>
-3. <span data-ttu-id="d6463-123">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="d6463-123">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="d6463-124">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="d6463-124">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="d6463-125">Выполняется разноска журнала "Приемка".</span><span class="sxs-lookup"><span data-stu-id="d6463-125">The Report as finished journal is posted.</span></span> <span data-ttu-id="d6463-126">Если вы хотите выполнить корректировки в журнале, можно вручную создать новый журнал, в котором можно внести изменения.</span><span class="sxs-lookup"><span data-stu-id="d6463-126">If you want to make adjustments to the journal, you can manually create  a new journal where you can make changes.</span></span>  
+## <a name="verify-the-report-as-finished-journal"></a><span data-ttu-id="47b00-120">Проверка журнала "Приемка"</span><span class="sxs-lookup"><span data-stu-id="47b00-120">Verify the Report as finished journal</span></span>
+1. <span data-ttu-id="47b00-121">В области действий щелкните "Показать".</span><span class="sxs-lookup"><span data-stu-id="47b00-121">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="47b00-122">Щелкните "Принятые".</span><span class="sxs-lookup"><span data-stu-id="47b00-122">Click Reported as finished.</span></span>
+3. <span data-ttu-id="47b00-123">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="47b00-123">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="47b00-124">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="47b00-124">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="47b00-125">Выполняется разноска журнала "Приемка".</span><span class="sxs-lookup"><span data-stu-id="47b00-125">The Report as finished journal is posted.</span></span> <span data-ttu-id="47b00-126">Если вы хотите выполнить корректировки в журнале, можно вручную создать новый журнал, в котором можно внести изменения.</span><span class="sxs-lookup"><span data-stu-id="47b00-126">If you want to make adjustments to the journal, you can manually create  a new journal where you can make changes.</span></span>  
 
