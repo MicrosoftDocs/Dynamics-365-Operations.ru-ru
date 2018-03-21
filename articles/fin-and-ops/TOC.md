@@ -21,8 +21,9 @@
 #### [Компоненты AX 2012, реализация которых была отложена](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Функции, не реализованные в локальных развертываниях](get-started/features-not-implemented-on-prem.md)
 #### [Выпуски и политика жизненного цикла](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Platform update 13 (январь 2018 г.)](get-started/whats-new-platform-update-13.md)
-#### [Finance and Operations, Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
+#### [Локальные развертывания (март 2018)](get-started/whats-new-LBD-PU12-App72.md)
+#### [Platform update 13 (январь 2018)](get-started/whats-new-platform-update-13.md)
+#### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platform update 12 (ноябрь 2017 г.)](get-started/whats-new-platform-update-12.md)
 #### [Platform, обновление 11 (октябрь 2017 г.)](get-started/whats-new-platform-update-11.md)
 #### [Platform update 10 (август 2017 г.)](get-started/whats-new-platform-update-10.md)
@@ -130,11 +131,11 @@
 #### [Разноски по производству](../supply-chain/cost-management/production-posting.md)
 #### [Настройка продукта, который можно произвести или приобрести](../supply-chain/cost-management/manufactured-items-treated-as-purchased-items.md)
 #### [Метод распределения общих затрат](../supply-chain/cost-management/methodology-total-cost-allocation.md)
-#### [Амортизации постоянных затрат для производимой номенклатуры](../supply-chain/cost-management/amortize-constant-costs-manufactured-item.md)
+#### [Амортизация постоянных затрат для производимой номенклатуры](../supply-chain/cost-management/amortize-constant-costs-manufactured-item.md)
 ### [Пакет содержимого Power BI для управления затратами](../dev-itpro/analytics/cost-management-content-pack.md)
 
 ## Интеграция данных
-### [Схемы интеграции](../dev-itpro/data-entities/integration-overview.md)
+### [Выбор стратегии интеграции данных (импорт/экспорт)](../dev-itpro/data-entities/integration-overview.md)
 
 ### API интеграции данных
 #### [API пакета управления данными](../dev-itpro/data-entities/data-management-api.md)
@@ -157,10 +158,9 @@
 ###### [Ведение организаций в Sales и их синхронизация напрямую из Sales в Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ###### [Ведение продуктов в Finance and Operations и их синхронизация напрямую с Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ###### [Ведение контактов в Sales и их синхронизация с контактами или клиентами напрямую в Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Синхронизация предложений по продажам напрямую из Sales с Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-###### [Синхронизация заказов на продажу напрямую из Finance and Operations в Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Синхронизация заказов на продажу напрямую между Sales и Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-###### [Синхронизация накладных по продаже напрямую из Finance and Operations в Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Ведение предложений по продаже в Sales и их синхронизация напрямую в Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Ведение заказов на продажу в Finance and Operations и их синхронизация напрямую в Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Ведение накладных заказов на продажу в Finance and Operations и их синхронизация напрямую в Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 
 #### [Использование внешних веб-служб](../dev-itpro/data-entities/consume-external-web-service.md)
@@ -473,7 +473,13 @@
 #### [Распределения по отчету по расходам](../financials/expense-management/expense-report-distributions.md)
 #### [Внутрихолдинговые расходы](../financials/expense-management/intercompany-expense.md)
 #### [Политики расходов](../financials/expense-management/travel-expense-policies.md)
-
+#### [Просмотр отчета по расходам](../financials/expense-management/view-expense-report.md)
+#### [Разноска отчета по расходам](../financials/expense-management/post-expense.md)
+#### [Отчеты по расходам и использование нескольких утверждающих лиц](../financials/expense-management/expense-report-multiple-approvers.md)
+#### [Возмещение НДС в модуле Управление расходами](../financials/expense-management/VAT-expense-report.md)
+#### [Суточные правила](../financials/expense-management/per-diem.md)
+#### [Заявки на командировки](../financials/expense-management/travel-req.md)
+#### [Личные расходы в отчете о расходах](../financials/expense-management/personal-expenses.md)
 
 ### [Бюджетирование](../financials/budgeting/budgeting-overview.md)
 #### [Обзор бюджетного планирования](../financials/budgeting/budget-planning-overview-configuration.md)
@@ -631,6 +637,8 @@
 ##### [Интеграция механизма начисления налога](../financials/general-ledger/tax-engine-integration.md)
 ##### [Вопросы и ответы по налоговым порогам](../financials/localizations/apac-ind-tax-thresholds.md)
 ##### [Расширение механизма начисления налога](../financials/general-ledger/extend-tax-engine-configurations.md)
+##### [Интеграция GST для контрольно-кассовых машин](../retail/localizations/apac-ind-cash-registers.md)
+##### [Рекомендации по развертыванию контрольно-кассовых машин](../retail/localizations/apac-ind-loc-deployment-guidelines.md)
 
 #### Япония
 ##### [Приобретение основного средства и требование субсидии по правительственному гранту](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -910,7 +918,10 @@
 ##### [Форматы платежей клиентов и поставщиков](../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md)
 ##### [Платеж клиента на основе идентификатора платежа](../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md)
 ##### [Формат импорта Nets](../financials/localizations/emea-nor-nets-import-format.md)
-##### [Отчет по НДС](../financials/localizations/emea-nor-sales-tax-payment-report.md) 
+##### [Отчет по НДС](../financials/localizations/emea-nor-sales-tax-payment-report.md)
+##### [Контрольно-кассовые машины](../retail/localizations/emea-nor-cash-registers.md)
+##### [Рекомендации по развертыванию контрольно-кассовых машин](../retail/localizations/emea-nor-loc-deployment-guidelines.md)
+
 #### Польша
 ##### [Расчет скидок по строке из цены за единицу](../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
 ##### [Замечания при корректировке](../financials/localizations/emea-pol-correction-notes.md)
@@ -937,6 +948,7 @@
 ##### [Специальные записи и открывающие ведомости](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### Швеция
 ##### [Импорт форматов платежей](../financials/localizations/emea-swe-payment-formats-import.md)
+##### [Контрольно-кассовые машины](../retail/localizations/emea-swe-cash-registers.md)
 #### Швейцария
 ##### [Импорт платежей клиентов в ESR](../financials/localizations/emea-che-esr-customer-payments-import.md)
 #### Великобритания
@@ -1644,6 +1656,7 @@
 ##### [Операционные ресурсы](../supply-chain/production-control/operations-resources.md)
 ##### [Возможности ресурсов](../supply-chain/production-control/resource-capabilities.md)
 ##### [Атрибуты партий](../supply-chain/production-control/batch-attributes.md)
+##### [Балансировка партий](../supply-chain/production-control/batch-balancing.md)
 ##### [Копирование формулы (проводники по задачам)](../supply-chain/production-control/tasks/copy-formula.md)
 ##### [Создание формулы путем копирования из существующей формулы (проводник по задаче)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
 ##### [Копирование сопутствующих продуктов из существующей версии формулы (проводник по задаче)](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
@@ -1808,6 +1821,7 @@
 #### [Единица измерения и политики хранения](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Содержимое Power BI для склада](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [Системная группировка в списке открытых работ](../supply-chain/warehousing/system-group-on-open-work-list.md)
+#### [Сканирование штрих-кодов с помощью камеры в Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Поддержка мобильных устройств чтения штрих-кодов](../supply-chain/warehousing/mobile-barcode-support.md)
 ### [Политики работы складов](../supply-chain/warehousing/warehouse-work-policies.md)
 #### [Перемещение запасов со связанной работой в модуле "Управление складом"](../supply-chain/warehousing/move-inventory-associated-work.md)
@@ -1818,6 +1832,7 @@
 #### [Получение смешанного грузоместа](../supply-chain/warehousing/mixed-license-plate-receiving.md)
 #### [Настройка отображения более старых партий на складе на мобильном устройстве](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [Выбор самой старой партии на мобильном устройстве](../supply-chain/warehousing/pick-oldest-batch.md)
+#### [Сканирование штрих-кодов с помощью камеры в Dynamics 365 for Finance and Operations](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Поштучное подтверждение комплектации](../supply-chain/warehousing/piece-picking-confirmation.md)
 #### [Подтверждение продукта для комплектации кластера](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
 #### [Пакетный выпуск частично зарезервированных заказов на перемещение](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)

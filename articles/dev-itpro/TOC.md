@@ -159,6 +159,7 @@
 ### [Развертывание с использованием непрерывной сборки и автоматизации тестирования](perf-test/continuous-build-test-automation.md)
 ## [Даты вступления в силу](dev-tools/date-effectivity.md)
 ## [Лицензирование для независимых поставщиков программного обеспечения](dev-tools/isv-licensing.md)
+## [Локальное лицензирование для независимых поставщиков программного обеспечения](dev-tools/isv-licensing-on-prem.md)
 
 # [Разработка пользовательского интерфейса](user-interface/user-interface-development-home-page.md)
 ## Учебники
@@ -385,12 +386,12 @@
 ##### [Синхронизация организаций из Sales с клиентами в Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Синхронизация контактов из Sales с контактами или клиентами в Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
 ##### [Синхронизация заголовков и строк предложений по продажам из Sales с Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [Синхронизация заголовков и строк заказов на продажу из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Синхронизация заголовков и строк заказов на продажу из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Синхронизация заголовков и строк накладных по продаже из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Синхронизация организаций непосредственно из Sales с клиентами в Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Синхронизация продуктов непосредственно из Finance and Operations с продуктами в Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Синхронизация контактов непосредственно из Sales с контактами или клиентами в Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Синхронизация заголовков и строк заказов на продажу непосредственно из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Синхронизация заголовков и строк заказов на продажу непосредственно из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Синхронизация заголовков и строк накладных по продаже непосредственно из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 ### [Использование внешних веб-служб](data-entities/consume-external-web-service.md)
@@ -406,33 +407,7 @@
 ### [Шаблоны конфигурационных данных](data-entities/configuration-data-templates.md)
 ### [Шаблоны данных с несколькими листами](data-entities/excel-template-multiple.md)
 ### [Отслеживание изменений в объектах](data-entities/entity-change-track.md)
-
-## Стандартные информационные объекты
-### [Отчет по информационным объектам](data-entities/data-entities-report.md)
-### [Информационные объекты: расчеты с поставщиками и налоги](data-entities/data-entities-accounts-payable-taxes.md)
-### [Информационные объекты: расчеты с клиентами](data-entities/data-entities-accounts-receivable.md)
-### [Информационные объекты: банк](data-entities/data-entities-bank.md)
-### [Информационные объекты: начальные сальдо](data-entities/data-entities-beginning-balances.md)
-### [Информационные объекты: бюджетное планирование](data-entities/data-entities-budget-plan.md)
-### [Информационные объекты: бюджетирование](data-entities/data-entities-budgeting.md)
-### [Информационные объекты: учет затрат](data-entities/data-entities-costing.md)
-### [Информационные объекты: управление расходами](data-entities/data-entities-expense-management.md)
-### [Информационные объекты: основные средства](data-entities/data-entities-fixed-assets.md)
-### [Информационные объекты: главная книга](data-entities/data-entities-general-ledger.md)
-### [Информационные объекты: глобальная адресная книга](data-entities/data-entities-global-address-book.md)
-### [Информационные объекты: управление персоналом](data-entities/data-entities-human-resources.md)
-### [Информационные объекты: управление запасами](data-entities/data-entities-inventory-management.md)
-### [Информационные объекты: сводное планирование](data-entities/data-entities-master-plan.md)
-### [Информационные объекты: закупки и источники](data-entities/data-entities-procurement-sourcing.md)
-### [Информационные объекты: управление сведениями о продукте](data-entities/data-entities-product-information-management.md)
-### [Информационные объекты: управление производством](data-entities/data-entities-production-control.md)
-### [Информационные объекты: учет по проектам](data-entities/data-entities-project-accounting.md)
-### [Информационные объекты: государственный сектор](data-entities/data-entities-public-sector.md)
-### [Информационные объекты: розница](data-entities/data-entities-retail.md)
-### [Информационные объекты: реализация продаж и маркетинга](data-entities/data-entities-sales-marketing.md)
-### [Информационные объекты: продажи и маркетинг — предпродажный этап](data-entities/data-entities-sales-marketing-pre-sales.md)
-### [Информационные объекты: администрирование системы](data-entities/data-entities-system-administration.md)
-### [Информационные объекты: workflow-процессы](data-entities/data-entities-workflow.md)
+### [Поиск сведений о стандартных информационных объектах](data-entities/data-entities-report.md)
 
 ## [Задания импорта и экспорта данных](data-entities/data-import-export-job.md)
 
@@ -452,7 +427,13 @@
 
 ## [Использование своей собственной базы данных](analytics/export-entities-to-your-own-database.md)
 
-## [Ресурсы для ответа на запрос данных GDPR](gdpr/gdpr-home-page.md)
+## [Ресурсы для ответа на запросы данных GDPR](gdpr/gdpr-home-page.md)
+### [Руководство по GDPR для Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+### [Использование отчета о поиске людей](gdpr/gdpr-person-search-report.md)
+### [Расширение отчета о поиске людей](gdpr/gdpr-extend-person-search-report.md)
+### [Управление доступом к конфиденциальным данным](gdpr/gdpr-auditing-sensitive-data.md)
+### [Ответ на запрос персональных данных с помощью Talent](gdpr/respond-dsr-request-talent.md)
+### [Ответ на запрос персональных данных с помощью Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
 
 # [Домашняя страница непрерывной поставки](dev-tools/continuous-delivery-home-page.md)
 ## [Вопросы и ответы по разработке и непрерывной поставке](dev-tools/continuous-delivery-faq.md)
@@ -516,12 +497,16 @@
 ### [Определение параметров оборудования](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [Создание проекта локального развертывания](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Настройка и развертывание локальных сред](deployment/setup-deploy-on-premises-environments.md)
+#### [Развертывание локальных сред с Platform update 12](deployment/setup-deploy-on-premises-pu12.md)
+#### [Развертывание локальных сред с Platform update 8 и 11](deployment/setup-deploy-on-premises-pu8-pu11.md)
+
 ### [Разработка и развертывание пользовательских моделей в локальных средах](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Настройка обратного прокси-сервера для существующей среды на предприятии](deployment/onprem-reverseproxy.md)
 ### [Применение обновлений к локальному развертыванию](deployment/apply-updates-on-premises.md)
 ### [Повторное развертывание локального размещения](deployment/redeploy-on-prem.md)
 ### [Обновление локального агента](lifecycle-services/update-local-agent.md)
 ### [Изменение конфигурации среды](lifecycle-services/reconfigure-environment.md)
+### [Подключение к Интернету клиента](user-interface/client-disconnected.md)
 ### [Устранение неполадок в Dynamics 365 for Finance and Operations, Enterprise edition (локальная версия)](deployment/troubleshoot-on-prem.md)
 
 ## Развертывание пользовательского кода
@@ -628,6 +613,7 @@
 ## [Блок-схемы средства моделирования бизнес-процессов](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Отправка пользовательских бизнес-процессов](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Мониторинг и диагностика ](lifecycle-services/monitoring-diagnostics.md)
+## [Перезапуск служб среды](lifecycle-services/restart-environment-services.md)
 ## [Отслеживание входов пользователя](lifecycle-services/user-logins.md)
 ## [Библиотека активов](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 — обзор службы переводов](lifecycle-services/translation-service-overview.md)
