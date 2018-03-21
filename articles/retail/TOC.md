@@ -37,10 +37,11 @@
 ## [Параметры платежа](work-with-payments.md)
 
 # Настройка канала и управление им
-## [Инициализация начальных данных в среде розничной торговли](enable-configure-retail-functionality.md)
+## [Инициализация начальных данных в среде Retail](enable-configure-retail-functionality.md)
 ## [Определение каналов розничной торговли](define-maintain-retail-channels.md)
+## [Управление ассортиментом](assortments.md)
 ## [Обзор интернет-магазина](online-stores.md)
-## [Настройка и установка станции оборудования для розничной торговли](retail-hardware-station-configuration-installation.md)
+## [Настройка и установка Retail hardware station](retail-hardware-station-configuration-installation.md)
 ## [Посещаемость и время присутствия в Retail](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) и Cloud POS
@@ -55,6 +56,7 @@
 ## Макет экрана
 ### [Настройка макетов экрана для POS](pos-screen-layouts.md)
 ### [Установка конструктора макета Retail POS](install-pos-layout-designer.md)
+### [Выбор параметров уведомлений](Notifications-POS.md)
 ### [Параметры приложения POS и языка пользователя](pos-application-user-language-settings.md)
 ### [Настройка изображений для MPOS](set-up-manage-images-retail-mpos.md)
 ## [Обзор инфокодов](info-codes-retail.md) 
@@ -100,6 +102,7 @@
 # Продукты и сбыт
 ## [Обзор сведений о продуктах](../supply-chain/pim/product-information.md)
 ## [Иерархии розничной торговли](retail-hierarchies.md)
+## [Обзор атрибутов и групп атрибутов](attribute-attributegroups-lifecycle.md)
 ## [Создание атрибутов и управление ими](create-manage-attributes.md)
 ## [Настройка розничных продуктов](set-up-retail-products.md)
 ## [Аналитики продуктов](../supply-chain/pim/product-dimensions.md)
@@ -130,6 +133,16 @@
 # Управление персоналом
 ## [Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц](../talent/departments-jobs-positions.md)
 ## [Настройка компонентов должности](../talent/create-job.md)
+
+# Локализация и нормативные компоненты
+## Индия
+### [Интеграция GST для контрольно-кассовых машин для Индии](localizations/apac-ind-cash-registers.md)
+### [Рекомендации по развертыванию контрольно-кассовых машин для Индии](localizations/apac-ind-loc-deployment-guidelines.md)
+## Норвегия
+### [Контрольно-кассовые машины для Норвегии](localizations/emea-nor-cash-registers.md)
+### [Рекомендации по развертыванию контрольно-кассовых машин для Норвегии](localizations/emea-nor-loc-deployment-guidelines.md)
+## Швеция
+### [Контрольно-кассовые машины для Швеции](localizations/emea-swe-cash-registers.md)
 
 # Задачи для розничной торговли
 ## [Создание продукта](../supply-chain/pim/tasks/create-product.md)
@@ -249,10 +262,6 @@
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [Интеграция пакета Retail SDK с системой непрерывной сборки](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Примеры расширения пакета Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [Контрольно-кассовые машины для Швеции](localizations/emea-swe-cash-registers.md)
-### [Пример интеграции Retail POS c блоками управления для Швеции](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [Контрольно-кассовые машины для Норвегии](localizations/emea-nor-cash-registers.md)
-### [Рекомендации по развертыванию контрольно-кассовых машин для Норвегии](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [Упаковка Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Примеры Retail SDK](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Расширения базы данных каналов](dev-itpro/channel-db-extensions.md)
