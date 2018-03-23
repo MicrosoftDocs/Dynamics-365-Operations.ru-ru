@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 16bbca2d9eb8c3d9c33752404ebecbe4415517a2
+ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
+ms.openlocfilehash: 5dede6024dcd7837dd4e94ecca2ccd059b11b5b9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -112,7 +112,7 @@ ms.lasthandoff: 11/03/2017
 
 [Синхронизация контактов непосредственно из Sales с контактами и клиентами в Finance and Operations](contacts-template-mapping-direct.md)
 
-[Синхронизация заголовков и строк заказов на продажу непосредственно из Finance and Operations в Sales](sales-order-template-mapping-direct.md)
+[Синхронизация заголовков и строк заказов на продажу непосредственно из Finance and Operations с Sales](sales-order-template-mapping-direct-two-ways.md)
 
 [Синхронизация заголовков и строк счетов продажи непосредственно из Finance and Operations в Sales](sales-invoice-template-mapping-direct.md)
 

@@ -18,14 +18,16 @@ ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ffbd853c15e479fc4350a19121f2aebcedda9854
-ms.openlocfilehash: 31b9d421f3fd5378f26faeee3a83b66861ef5008
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: f7fe3ab07578b09822fbfeaa4b07331b79f13610
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Сканирование штрих-кодов с помощью камеры в Dynamics 365 for Finance and Operations – Warehousing
+
+[!include[banner](../includes/banner.md)]
 
 В этом разделе объясняется, как настроить Dynamics 365 for Finance and Operations – Warehousing для сканирования штрих-кодов с помощью камеры мобильного устройства. 
 
@@ -47,8 +49,8 @@ ms.lasthandoff: 03/02/2018
 - Щелкните значок камеры на странице задач и сведений для возврата на страницу камеры. 
 
 | Страница задач и сведений | Страница камеры | 
-| --------------------- | -------------------- |
-| ![пример-страницы-задач-и-сведений-для-сканирования-камерой](media/camera-scanning-example-task-detail-page.png)          | ![пример-страницы-камеры-для-сканирования-камерой](media/camera-scanning-example-camera-page.png)          |
+| :---------------------: | :--------------------: |
+| ![пример-страницы-задач-и-сведений-для-сканирования-камерой](./media/camera-scanning-example-task-detail-page50.png)          | ![пример-страницы-камеры-для-сканирования-камерой-меньше](./media/camera-scanning-example-camera-page50.png)          |
 
 На странице камеры при нажатии кнопки камеры она будет недоступна, пока выполняется попытка идентификации штрих-кода. Если штрих-код не будет идентифицирован в течение 5 секунд, процесс завершится в результате истечения времени ожидания и кнопка камеры снова станет доступной. Затем можно попытаться повторить сканирование штрих-кода.
 
