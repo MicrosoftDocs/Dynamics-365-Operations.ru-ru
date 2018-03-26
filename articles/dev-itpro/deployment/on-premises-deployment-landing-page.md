@@ -3,7 +3,7 @@ title: "Локальное развертывание"
 description: "В этой теме представлены сведения и ссылки на содержимое о локальных развертываниях."
 author: kfend
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
+ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
+ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 03/15/2018
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>Целевая страница локального развертывания
+# <a name="on-premises-deployment-home-page"></a>Домашняя страница локального развертывания
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,14 +36,14 @@ ms.lasthandoff: 03/06/2018
 - [Планирование локального развертывания](plan-onprem-deployment.md)
 - [Требования к системе для локальных развертываний](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Определение параметров оборудования для локальных сред](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Политика жизненного цикла для онлайн-служб и локального программного обеспечения](../migration-upgrade/versions-update-policy.md)
 - [Приобретение Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Сравнение характеристик облачной и локальной версий](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Адаптация
 - [Создание локального проекта в Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Настройка и развертывание локальных сред](setup-deploy-on-premises-environments.md)
-- [Установка устройств сетевого принтера в локальных средах](../analytics/install-network-printer-onprem.md)
+- [Настройка и развертывание локальных сред (обновление платформы 12)](setup-deploy-on-premises-pu12.md)
+- [Настройка и развертывание локальных сред (обновления платформы 8 и 11)](setup-deploy-on-premises-pu8-pu11.md)
+- [Установка сетевых принтеров в локальных средах](../analytics/install-network-printer-onprem.md)
 - [Настройка служб SQL Server Reporting Services для локального развертывания](../analytics/configure-ssrs-on-premises.md)
 - [Разработка и развертывание пользовательских моделей в локальных средах](develop-deploy-custom-models-on-premises.md)
 
