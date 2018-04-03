@@ -3,8 +3,8 @@
 # Начало работы
 ## [Что нового и что изменилось](get-started/whats-new.md)
 ## [Перед покупкой Dynamics 365 for Retail](get-started/before-you-buy.md)
-## [Регистрация для получения ознакомительной подписки](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
-## [Развертывание демонстрационной среды](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Регистрация для получения ознакомительной подписки](../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json)
+## [Развертывание демонстрационной среды](../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json)
 ## [Варианты развертывания](dev-itpro/choose-deployment.md)
 
 
@@ -46,8 +46,9 @@
 
 # Modern Point of Sale (MPOS) и Cloud POS
 ## [Выбор между Modern POS и Cloud POS](MPOS-or-CPOS.md)
-## [Операции POS](POS-operations.md)
+## [Выполнение операций POS в интерактивном и автономном режимах](pos-operations.md)
 ## [Макеты экрана в демонстрационных данных для MPOS/CPOS](demo-data.md)
+## [Обзор поиска продукта и клиента на POS](POS-search-improvements.md)
 ## Периферийные устройства
 ### [Обзор периферийных устройств розничной торговли](retail-peripherals-overview.md)
 ### [Периферийные устройства POS, протестированные корпорацией Майкрософт](microsoft-tested-pos-hardware-peripherals.md)
@@ -60,6 +61,7 @@
 ### [Параметры приложения POS и языка пользователя](pos-application-user-language-settings.md)
 ### [Настройка изображений для MPOS](set-up-manage-images-retail-mpos.md)
 ## [Обзор инфокодов](info-codes-retail.md) 
+## [Усовершенствования в POS для продуктов с серийными номерами](serialized-inventory.md)
 ## Рекомендации по продуктам
 ### [Обзор персонализированных рекомендаций по продуктам](personalized-product-recommendations.md)
 ### [Добавление элемента управления рекомендациями в устройство POS](add-recommendations-control-pos-screen.md)
@@ -97,6 +99,7 @@
 ## [Корректировки цены и скидки](price-adjustments-discounts.md)
 ## [Определение оптимальной комбинации пересекающихся скидок](optimal-combination-overlapping-discounts.md)
 ## [Определение скидок, специфичных для канала](define-channel-specific-discounts.md)
+## [Запрет скидок для розничных продуктов](prevent-discounts.md)
 ## [Создание купонов для розничных продаж](retail-coupons.md)
 
 # Продукты и сбыт
@@ -105,9 +108,10 @@
 ## [Обзор атрибутов и групп атрибутов](attribute-attributegroups-lifecycle.md)
 ## [Создание атрибутов и управление ими](create-manage-attributes.md)
 ## [Настройка розничных продуктов](set-up-retail-products.md)
+## [Расширенное управление продуктами и категориями](category-management-product-creation.md)
 ## [Аналитики продуктов](../supply-chain/pim/product-dimensions.md)
-## [Настройка штрихкодов](set-up-bar-codes.md)
-## [Настройка масок штрихкодов](set-up-bar-code-masks.md)
+## [Настройка штрих-кодов](set-up-bar-codes.md)
+## [Настройка масок штрих-кодов](set-up-bar-code-masks.md)
 ## [Настройка ассортиментов](set-up-assortments.md)
 ## [Продажа и возврат продуктов за пределами ассортимента](sell-return-outside-assortments.md)
 ## [Параметры заказа по умолчанию для аналитик и вариантов продуктов](../supply-chain/production-control/default-order-settings.md)
@@ -190,13 +194,14 @@
 # [Разработка и администрирование для розничной торговли](dev-itpro/dev-retail-home-page.md)
 
 ## Архитектура
-### [Компоненты Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition — Retail](retail-components.md)
-### [Архитектура сервера розничной торговли](dev-itpro/retail-server-architecture.md)
+### [Компоненты Microsoft Dynamics 365 for Finance and Operations — Retail](retail-components.md)
+### [Архитектура Retail Server](dev-itpro/retail-server-architecture.md)
 ### [Взаимодействия по каналам розничной торговли](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [Архитектура MPOS](dev-itpro/retail-modern-pos-architecture.md)
 ### [Архитектура публикации в интернет-магазине розничной торговли](dev-itpro/retail-online-store-publishing-architecture.md)
-### [Содержимое "Эффективность канала розничной торговли" для Power BI](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Содержимое "Эффективность канала розничной торговли" для Power BI](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json)
 ### [Сертификация стандартов безопасности данных платежных приложений (PA-DSS)](dev-itpro/PA-DSS-Certification.md)
+### [Возможности розничной торговли, доступные в локальных развертываниях](retail-onprem.md)
 
 ## Развертывание и исправления
 ### [Обзор модуля весов для магазина розничной торговли](dev-itpro/retail-store-system-begin.md)
@@ -208,7 +213,7 @@
 ### [Настройка и установка станции оборудования для розничной торговли](retail-hardware-station-configuration-installation.md)
 ### [Массовое развертывание компонентов самообслуживания Retail](dev-itpro/retail-mass-deployment.md)
 ### [События компонента Retail для диагностики и устранения неполадок](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
-### [Применение готового к развертыванию пакета](../dev-itpro/deployment/apply-deployable-package-system.md)
+### [Применение готового к развертыванию пакета](../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json)
 
 ## Обновление и поддержка N-1
 ### [Обзор обновления и поддержки N-1](dev-itpro/overview-upgrade-n-minus1.md)
@@ -218,7 +223,7 @@
 ### [Руководство по внедрению системы управления устройствами](implementation-considerations-devices.md)
 
 ## Конфигурация среды
-### [Добавление ссылки на юридические условия и заявление о конфиденциальности вашей организации](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [Добавление ссылки на юридические условия и заявление о конфиденциальности вашей организации](../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json)
 ### [Управление Картами Bing](dev-itpro/manage-bing-maps.md)
 
 ## Возможности расширения POS
@@ -235,7 +240,7 @@
 ## Возможности расширения Retail Server
 ### [Расширение контроллера Retail Server OData](dev-itpro/extend-retail-server-odata-controller.md)
 ### [Контроллеры веб-API и OData](dev-itpro/odata-controllers-api.md)
-### [API клиентов и потребителей сервера розничной торговли](dev-itpro/retail-server-customer-consumer-api.md)
+### [API клиентов и потребителей Retail Server](dev-itpro/retail-server-customer-consumer-api.md)
 ### [Расширение метаданных](dev-itpro/extend-metadata.md)
 ### [Расширение среды выполнения Commerce Runtime для поддержки автономного режима POS](dev-itpro/call-crt-service-offline.md)
 

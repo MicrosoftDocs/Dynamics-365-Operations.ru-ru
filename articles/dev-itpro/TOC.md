@@ -1,7 +1,7 @@
 # [Разработки и администрирования для Dynamics 365 for Finance and Operations](index.md)
-# [Требования к системе для облачных развертываний](../fin-and-ops/get-started/system-requirements.md)
-# [Требования к системе для локальных развертываний](../fin-and-ops/get-started/system-requirements-on-prem.md)
-# [Демонстрационные данные](../fin-and-ops/get-started/demo-data.md)
+# [Требования к системе для облачных развертываний](../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json)
+# [Требования к системе для локальных развертываний](../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json)
+# [Демонстрационные данные](../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json)
 ## [Создание демонстрационных данных с помощью пакетов](data-entities/generate-demo-data-packages.md)
 
 
@@ -29,7 +29,7 @@
 ### [Экспорт и импорт модели](dev-tools/models-export-import.md)
 ### [Поиск по метаданным в Visual Studio](dev-tools/metadata-search-visual-studio.md)
 ### [Модели](dev-tools/models.md)
-### [Проекты в Dynamics 365 for Finance and Operations, Enterprise Edition](dev-tools/projects.md)
+### [Проекты в Dynamics 365 for Finance and Operations](dev-tools/projects.md)
 ### [Надстройки с инструментами для Visual Studio](dev-tools/developer-tools-add-ins.md)
 ### [Отключение настройки моделей и отказ от функций](dev-tools/lock-models.md)
 ### [Обновление средств разработки Visual Studio](dev-tools/update-development-tools.md)
@@ -114,7 +114,7 @@
 #### [Настройка: перекрытия и расширения](extensibility/customization-overlayering-extensions.md)
 ### Что нового
 #### [Изменения возможностей расширения от июля 2017 г.](extensibility/changes-july-2017.md)
-#### [Изменения возможностей расширения в Dynamics 365 for Finance and Operations, Enterprise edition 7.3](extensibility/extensibility-changes-73.md)
+#### [Версия 7.3 изменений возможностей расширения](extensibility/extensibility-changes-73.md)
 ### Основы
 #### [Глубокие настройки](extensibility/intrusive-customizations.md)
 #### [Расширения классов](extensibility/class-extensions.md)
@@ -168,8 +168,8 @@
 ### [Создание навигации](user-interface/build-navigation.md)
 ### [Создание рабочей области](user-interface/build-workspace.md)
 ## Формы
-### [Навигация в Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-navigation.md)
-### [Макеты в Dynamics 365 for Finance and Operations, Enterprise Edition](user-interface/page-layout.md)
+### [Навигация в Dynamics 365 for Finance and Operations](user-interface/page-navigation.md)
+### [Макет в Dynamics 365 for Finance and Operations](user-interface/page-layout.md)
 ### [Шрифт символов](user-interface/symbol-font.md)
 ### [Тестирование форм с пользовательскими шаблонами](user-interface/testing-forms-custom-patterns.md)
 ### [Создание и использование глубоких ссылок](user-interface/create-deep-links.md)
@@ -489,12 +489,12 @@
 
 ## Облачное развертывание
 ### [Адаптация Azure Resource Manager](deployment/arm-onboarding.md)
-### [Azure ExpressRoute и Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
+### [Azure ExpressRoute и Dynamics 365 for Finance and Operations](deployment/expressroute.md)
 
 ## [Локальное развертывание](deployment/on-premises-deployment-landing-page.md)
 ### [Обзор локального развертывания](deployment/on-premises-overview.md)
 ### [Планирование локального развертывания](deployment/plan-onprem-deployment.md)
-### [Определение параметров оборудования](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
+### [Определение параметров оборудования](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json)
 ### [Создание проекта локального развертывания](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Настройка и развертывание локальных сред](deployment/setup-deploy-on-premises-environments.md)
 #### [Развертывание локальных сред с Platform update 12](deployment/setup-deploy-on-premises-pu12.md)
@@ -507,7 +507,7 @@
 ### [Обновление локального агента](lifecycle-services/update-local-agent.md)
 ### [Изменение конфигурации среды](lifecycle-services/reconfigure-environment.md)
 ### [Подключение к Интернету клиента](user-interface/client-disconnected.md)
-### [Устранение неполадок в Dynamics 365 for Finance and Operations, Enterprise edition (локальная версия)](deployment/troubleshoot-on-prem.md)
+### [Устранение неполадок в Dynamics 365 for Finance and Operations (локальная версия)](deployment/troubleshoot-on-prem.md)
 
 ## Развертывание пользовательского кода
 ### [Создание готового к развертыванию пакета](deployment/create-apply-deployable-package.md)
@@ -527,7 +527,7 @@
 ### [Обновление AX 2012 — задачи, которые требуется выполнить после обновления](migration-upgrade/app-validation-process.md)
 ### [Обновление AX 2012 — выполнение функциональных тестов](migration-upgrade/upgrade-functional-validation.md)
 ### [Обновление AX 2012 — подготовка к вводу в эксплуатацию](migration-upgrade/upgrade-go-live-prep.md)
-
+### [Обновление AX 2012 — ввод в эксплуатацию](migration-upgrade/2012-upgrade-cutover.md)
 
 ### Изменения, влияющие на процесс обновления с AX 2012
 #### [Обновление использования одного ваучера и переоценки в валюте](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
@@ -588,7 +588,9 @@
 ### [Обзор сервера обработки пакетных заданий](sysadmin/batch-server-overview.md)
 ### [Создание пакетного задания](sysadmin/tasks/create-batch-job.md)
 
-## [Создание правил для помощника по оптимизации](sysadmin/optimization-advisor.md)
+##  [Обзор помощника по оптимизации](sysadmin/optimization-advisor-overview.md)
+### [Создание правил для помощника по оптимизации](sysadmin/create-rules-optimization-advisor.md)
+
 
 # Lifecycle Services
 ## [Обзор Lifecycle Services](lifecycle-services/lcs.md)
@@ -701,10 +703,10 @@
 ## [Запрос на обновление базы данных в "песочнице"](database/database-refresh.md)
 
 # Поддержка
-## [Получение поддержки по Dynamics 365 for Finance and Operations, Enterprise Edition и Lifecycle Services](lifecycle-services/lcs-support.md)
+## [Получение поддержки по Dynamics 365 for Finance and Operations и Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [Создание запроса на поддержку Premier](lifecycle-services/premier-support.md)
 ## [Отправка запроса команде разработчиков служб Dynamics](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Настройка технической поддержки Dynamics 365 for Finance and Operations, Enterprise Edition](lifecycle-services/support-experience.md) 
+## [Настройка технической поддержки Dynamics 365 for Finance and Operations](lifecycle-services/support-experience.md) 
 ## [Вопросы и ответы по окну планового обслуживания](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Облачные операции и обслуживание](lifecycle-services/cloud-operations-servicing.md)
 ## [Управление поддержкой Finance and Operations](lifecycle-services/cloud-powered-support-lcs.md)

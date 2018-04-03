@@ -3,6 +3,8 @@
 # [Начало работы](talent-get-started.md)
 ## [Системные требования и политика обновления](talent-versions-update-policy.md)
 ## [Подготовка среды Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [Удаление среды Talent](remove-test-environment.md)
+## [Подготовка модульных приложений Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
 ## [Расширение функциональности Talent](extend-talent-functionality.md)
 
 # [Разработка стратегии управления персоналом](departments-jobs-positions.md)
@@ -39,5 +41,5 @@
 ## [Оценка результатов анкеты](evaluate-questionnaire-results.md)
 
 # Безопасность и соответствие рабочего места (США)
-## [Проверка сотрудников по форме I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
-## [Обеспечение соответствия требованиям ADA](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+## [Проверка сотрудников по форме I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json)
+## [Обеспечение соответствия требованиям ADA](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json)
