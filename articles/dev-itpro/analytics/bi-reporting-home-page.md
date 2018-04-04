@@ -1,6 +1,6 @@
 ---
 title: "Бизнес-аналитика"
-description: "В этом разделе описаны ресурсы, которые можно использовать для получения дополнительных сведений о бизнес-аналитике и средствах отчетности, доступных в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "В этом разделе описаны ресурсы, которые можно использовать для получения дополнительных сведений о бизнес-аналитике и средствах отчетности, доступных в Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 12/18/2017
 
 [!include[banner](../includes/banner.md)]
 
-В этом разделе описаны ресурсы, которые можно использовать для получения дополнительных сведений о бизнес-аналитике и средствах отчетности, доступных в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+В этом разделе описаны ресурсы, которые можно использовать для получения дополнительных сведений о бизнес-аналитике (BI) и средствах отчетности, доступных в Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="get-started"></a>Начало работы
 - [Доступ к данным и отчетность](information-access-reporting.md)

@@ -1,6 +1,6 @@
 ---
 title: "Домашняя страница модуля \"Управление цепочкой поставок\""
-description: "На этой странице представлен список разделов справки и других ресурсов по функциям управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "На этой странице представлен список разделов справки и других ресурсов по функциям управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 02/15/2018
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/21/2018
 
 [!include[banner](includes/banner.md)]
 
-В этой теме представлен список разделов справки и других ресурсов по функциям управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+В этом разделе содержится список разделов справки и других ресурсов по функциям управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations. 
 
 ## <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 Перейдите в раздел <a href="https://roadmap.dynamics.com/">Дорожная карта Dynamics 365</a>, чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке. 
@@ -106,7 +106,7 @@ ms.lasthandoff: 02/21/2018
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Практическое занятие по учету затрат</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Бережливое производство: доступно для заказа с учетом производства (CTP) и планирование заданий канбана</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Расчет спецификации с использованием схемы калькуляции</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Мобильные решения для склада на базе Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Мобильные решения для склада на базе Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Курсы eLearning
 Сведения об обучении Microsoft Dynamics 365 for Finance and Operations см. на <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">портале по обучению Microsoft Dynamics</a>. (требуется учетная запись CustomerSource) 

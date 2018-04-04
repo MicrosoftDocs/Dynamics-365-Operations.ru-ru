@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 199a8961f782816c71e47f9e76e097c069fbf686
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -43,7 +43,7 @@ Talent позволяет выполнять следующие задачи:
 + Настройка, проведение и анализ учебных курсов, включая планы, сеансы и программы.
 
 > [!NOTE] 
-> Приложение Dynamics 365 for Talent тесно связано с модулем "Управление персоналом" в Dynamics 365 for Finance and Operations, Enterprise Edition. Одинаковые функциональные возможности могут быть доступны в обоих продуктах. В результате в темах, которые в основном связаны с модулем "Управление персоналом", будет использоваться имя продукта Dynamics 365 for Finance and Operations, Enterprise Edition, а в темах, которые в основном связаны Talent, будет использоваться имя продукта Dynamics 365 for Talent. Темы, написанные для одного продукта, могут относиться и к аналогичным функциональным возможностям в связанном продукте.
+> Приложение Dynamics 365 for Talent тесно связано с модулем "Управление персоналом" в Dynamics 365 for Finance and Operations. Одинаковые функциональные возможности могут быть доступны в обоих продуктах. В результате в темах, которые в основном связаны с модулем "Управление персоналом", будет использоваться имя продукта Dynamics 365 for Finance and Operations, а в темах, которые в основном связаны Talent, будет использоваться имя продукта Dynamics 365 for Talent. Темы, написанные для одного продукта, могут относиться и к аналогичным функциональным возможностям в связанном продукте.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Разработка стратегии по управлению персоналом
 ---------------------------------------------------------
