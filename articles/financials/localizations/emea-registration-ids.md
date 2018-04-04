@@ -18,10 +18,10 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
-ms.openlocfilehash: e908d4ec41263ed4230ea5e70fa08db793abedc6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 11/28/2017
 |-----------------------|----------------|
 | Тип регистрации     | Тип регистрации в конкретной стране или регионе.|
 | Ограничен         | Вид ограничения, используемый для типа налоговой регистрации: нет, лицо, организация.|
-| Категория регистрации | Уникальный код регистрации, утвержденный для использования в стране. Полный список поддерживаемых категорий в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition представлен ниже. |
+| Категория регистрации | Уникальный код регистрации, утвержденный для использования в стране. Полный список поддерживаемых категорий в Microsoft Dynamics 365 for Finance and Operations представлен ниже. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Ввод кодов регистрации для записей глобальной адресной книги
 

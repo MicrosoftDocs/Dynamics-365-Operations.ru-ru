@@ -3,7 +3,7 @@ title: "Пользовательские поля"
 description: "В этом разделе показано, как Microsoft Dynamics 365 for Finance and Operations позволяет некоторым пользователям создавать настраиваемые поля для настройки приложения в соответствии с их бизнесом."
 author: jasongre
 manager: AnnBe
-ms.date: 01/19/2018
+ms.date: 03/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -14,13 +14,13 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2017-12-31
+ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: ad59346f88b7a5984e16418e2aade7ccaedf180b
-ms.openlocfilehash: 142c66c189d6401cfb3db128e45fea6c071e99bf
+ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
+ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -30,7 +30,9 @@ ms.lasthandoff: 02/28/2018
 
 [!include[banner](../includes/pre-release.md)] 
 
-В то время как Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition предоставляет обширный набор готовых полей для управления широким диапазоном бизнес-процессов, иногда компании требуется отслеживать дополнительную информацию в системе. Чтобы удовлетворить эту потребность, Finance and Operations позволяет создавать пользовательские поля для настройки приложения в соответствии с вашим бизнесом, если у вас имеются разрешения на доступ к этой функции.
+В то время как Microsoft Dynamics 365 for Finance and Operations предоставляет обширный набор готовых полей для управления широким диапазоном бизнес-процессов, иногда компании требуется отслеживать дополнительную информацию в системе. Чтобы удовлетворить эту потребность, Finance and Operations позволяет создавать пользовательские поля для настройки приложения в соответствии с вашим бизнесом, если у вас имеются разрешения на доступ к этой функции. 
+
+Возможность добавления настраиваемых полей доступна в обновлении платформы 13 или более поздней версии.
 
 Это видео показывает, насколько просто можно добавить настраиваемое поле на страницу.
 

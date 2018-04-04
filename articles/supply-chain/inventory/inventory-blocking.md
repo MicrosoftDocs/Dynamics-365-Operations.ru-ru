@@ -1,6 +1,6 @@
 ---
 title: "Блокировка запасов"
-description: "Эта статья содержит обзор блокировки запасов, которая является частью процесса проверки качества в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Можно использовать блокировку запасов для предотвращения обработки или расхода номенклатур."
+description: "Эта статья содержит обзор блокировки запасов, которая является частью процесса проверки качества в Microsoft Dynamics 365 for Finance and Operations. Можно использовать блокировку запасов для предотвращения обработки или расхода номенклатур."
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eb8040531ec0c2b9c13fc927e5330772ad11ee1d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 0567cdad6f9f27097f534381655e5b468884bed8
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Эта статья содержит обзор блокировки запасов, которая является частью процесса проверки качества в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Можно использовать блокировку запасов для предотвращения обработки или расхода номенклатур.
+Эта статья содержит обзор блокировки запасов, которая является частью процесса проверки качества в Microsoft Dynamics 365 for Finance and Operations. Можно использовать блокировку запасов для предотвращения обработки или расхода номенклатур.
 
 Имеется возможность заблокировать складируемые номенклатуры следующими способами.
 -   Вручную
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/03/2017
 <a name="see-also"></a>См. также
 --------
 
-[Создание и ведение блокировки запасов (проводник по задаче)](tasks/create-maintain-inventory-blocking.md
+[Создание и ведение блокировки запасов](tasks/create-maintain-inventory-blocking.md)
 
 [Процессы управления качеством](quality-management-processes.md)
 

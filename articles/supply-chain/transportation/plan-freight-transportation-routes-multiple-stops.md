@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fea84bc0f40a1a25ce0cc252b6bb58fad2a2a501
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этой статье описываются различные элементы, которые можно использовать для планирования маршрутов транспортировки в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+В этой статье описываются различные элементы, которые можно использовать для планирования маршрутов транспортировки в Microsoft Dynamics 365 for Finance and Operations.
 
 Можно использовать планы маршрутов и руководства по маршрутам для сложных маршрутов транспортировки с несколькими остановками. Если один и тот же маршрут будет использоваться на регулярной основе, можно настроить запланированный маршрут.
 

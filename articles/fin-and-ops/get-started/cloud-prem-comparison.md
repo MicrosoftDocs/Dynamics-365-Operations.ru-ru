@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
-ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,8 +31,8 @@ ms.lasthandoff: 03/05/2018
 
 В этой теме показано, какие из функций доступны в следующих продуктах:
 
-+ Dynamics 365 for Finance and Operations, Enterprise Edition (облачная версия)
-+ Dynamics 365 for Finance and Operations, Enterprise Edition (локальная версия)
++ Dynamics 365 for Finance and Operations (облачная версия)
++ Dynamics 365 for Finance and Operations (локальная версия)
 
 В следующих таблицах перечислены области продукта. Поддержка облачной и локальной версии указана для функции в целом. Там, где отдельные функции отличаются от всей области, эти функции указаны в отдельной строке в столбце "Функция".
 

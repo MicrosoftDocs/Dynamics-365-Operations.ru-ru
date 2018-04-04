@@ -17,10 +17,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c9abea228cdaae84ca2b9aada9f36bbe79c1dc6b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 Следует обязательно перейти в библиотеку общих средств в службах Microsoft Dynamics Lifecycle Services (LCS) и просмотреть новейший список доступных файлов, которые имеют тип ресурса **Конфигурация GER**. В следующем разделе "Что нужно настроить?" приведена ссылка на раздел, в котором объясняется, как создать репозиторий LCS для просмотра доступных конфигураций и импорта выбранных конфигураций.
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition включает формат образца, где чек находится сверху, а после него идут два раздела предъявления к оплате. Он также включает формат образца, где чека находится посередине, между двумя разделами предъявления к оплате. Эти форматы образцов соответствуют форматам бизнес чеков Deluxe.
+Microsoft Dynamics 365 for Finance and Operations включает формат образца, где чек находится сверху, а после него идут два раздела предъявления к оплате. Он также включает формат образца, где чека находится посередине, между двумя разделами предъявления к оплате. Эти форматы образцов соответствуют форматам бизнес чеков Deluxe.
 
 ## <a name="what-do-i-have-to-set-up"></a>Что следует настроить?
 

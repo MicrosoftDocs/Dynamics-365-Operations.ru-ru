@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a72963f755f8eddb19b8526d2938eff039ab7df2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/17/2018
 Планирование и поддержка графика проекта может быть сложным делом, поэтому руководители проектов должны использовать средства, помогающие справиться с этой задачей. Интеграция с клиентом Microsoft Project обеспечивает поддержку для открытия и управления структурной декомпозицией работ по проекту. Руководитель проекта может обратно публиковать любые изменения в структурной декомпозиции работ по проекту в Finance and Operations.
 
 > [!NOTE]
-> При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, обновление от июля 2017 г., необходимо установить пакеты обновления KB 4054797 и 4055884.
+> При использовании Microsoft Dynamics 365 for Finance and Operations, обновление от июля 2017 г., необходимо установить пакеты обновления KB 4054797 и 4055884.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Настройка надстройки клиента Microsoft Project
 Чтобы включить интеграцию с клиентом Microsoft Project, необходимо установить надстройку Microsoft Dynamics 365 в клиентское приложение Microsoft Project пользователя. Это можно сделать, открыв **рабочую область управления проектами**.

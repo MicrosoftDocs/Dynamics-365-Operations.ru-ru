@@ -1,6 +1,6 @@
 ---
 title: "Кредит и сборы в расчетах с клиентами"
-description: "Сведения о сборах по расчетам с клиентами настраивается в одном центральном представлении с помощью страницы сборов Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Менеджеры по кредитам и сборам могут использовать данный раздел для управления сборами. Агенты по сбору задолженностей могут начать сборы по спискам клиентов, созданным с помощью заранее определенных критериев по сборам, или на странице \"Клиенты\"."
+description: "Сведения о сборах по расчетам с клиентами настраивается в одном центральном представлении с помощью страницы сборов Microsoft Dynamics 365 for Finance and Operations. Менеджеры по кредитам и сборам могут использовать его для управления сборами задолженностей. Агенты по сбору задолженностей могут начать сборы по спискам клиентов, созданным с помощью заранее определенных критериев по сборам, или на странице \"Клиенты\"."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 23fc1a160cf25255a1677ca0e501c374746b6e34
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 

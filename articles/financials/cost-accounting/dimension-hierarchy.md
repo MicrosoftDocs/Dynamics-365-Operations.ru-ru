@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d183654ada9cdca23cf906f250988a967ffcf1f6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -76,7 +76,7 @@ ms.lasthandoff: 11/03/2017
 
 Иерархии аналитик создаются как древовидная структура с узлом и связями листового узла.
 
--  У узла может быть 1:_n_ подузлы.
+-  У узла может быть 1:_n_ дочерних узлов.
 -  Узлу не могут быть назначены подузлы и листовые узлы.
 -  Листовой узел может быть назначен только на нижнем уровне в иерархии.
 
@@ -329,7 +329,7 @@ ms.lasthandoff: 11/03/2017
 - Power BI:
 
     - Данные, показанные в визуализации Power BI
-    - Визуализация данных Power BI, которые встроены в Microsoft Dynamics 365 для Finance and Operations, Enterprise Edition, клиент
+    - Визуализация данных Power BI, которые встроены в клиент Microsoft Dynamics 365 для Finance and Operations
 
 > [!NOTE] 
 > - Прежде чем иерархия списков доступа может повлиять на данные в Power BI, необходимо подсоединить иерархию списка доступа и безопасность на уровне строк в Power BI. Дополнительные сведения см. в разделе [Настройка защиты пакета содержимого учета затрат](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
