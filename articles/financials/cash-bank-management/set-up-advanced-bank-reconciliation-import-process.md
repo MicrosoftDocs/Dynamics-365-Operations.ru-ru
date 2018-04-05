@@ -1,6 +1,6 @@
 ---
 title: "Настройка процесса расширенного импорта банковских выверок"
-description: "Функция \"Расширенная банковская выверка\" позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. В этой статье объясняется, как настроить функцию импорта для банковских выписок."
+description: "Функция расширенной банковской выверки позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations. В этой статье объясняется, как настроить функцию импорта для банковских выписок."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d7bb0fc5abedcce973632434a5cc174449cdc22
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Функция "Расширенная банковская выверка" позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. В этой статье объясняется, как настроить функцию импорта для банковских выписок. 
+Функция расширенной банковской выверки позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations. В этой статье объясняется, как настроить функцию импорта для банковских выписок. 
 
 Настройка импорта банковской выписки зависит от формата электронной банковской выписки. Finance and Operations поддерживает три готовых формата банковской выписки: ISO20022, MT940 и BAI2.
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/03/2017
 | BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Примеры форматов банковской выписки и технических макетов
-Ниже приводятся примеры определений технических макетов для расширенных файлов импорта банковской выверки и трех связанных примеров файлов банковской выписки. https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Ниже приводятся примеры определений технических макетов для расширенных файлов импорта банковской выписки и трех связанных примеров файлов банковской выписки: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 | Определение технического макета                             | Пример файла банковской выписки          |
 |---------------------------------------------------------|--------------------------------------|

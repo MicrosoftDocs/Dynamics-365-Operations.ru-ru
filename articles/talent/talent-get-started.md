@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b2514b6ff7500863a312ee378be008a7dcfb7438
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3eb642944a31aad983758fc28bc692800bb6b4d2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Начало работы с Microsoft Dynamics 365 for Talent
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/08/2018
 В Microsoft Dynamics 365 for Talent легко изменять интерфейс пользователя и задавать параметры, чтобы сделать программное обеспечение более понятным для ваших потребностей. В этом разделе содержатся ссылки на разделы, содержащие сведения о том, как адаптировать пользовательский интерфейс к вашим требованиям. Раздел также содержит ссылки на сведения, которые помогут более эффективно и точно искать информацию в системе. 
 
 > [!NOTE] 
-> Следующие продукты тесно связаны: Dynamics 365 for Finance and Operations, Enterprise Edition; Dynamics 365 for Retail и Dynamics 365 for Talent. Одинаковые функциональные возможности могут быть доступны во всех 3 продуктах. Таким образом, в темах, которые в основном связаны с Retail, будет использоваться имя продукта Microsoft Dynamics 365 for Retail, а в темах, которые в основном связаны Talent, будет использоваться имя продукта Dynamics 365 for Talent, а в темах, которые в основном связаны основном продуктом, будет использоваться имя продукта Dynamics 365 for Finance and Operations. Темы, написанные для одного продукта, могут относиться и к аналогичным функциональным возможностям в связанном продукте.
+> Следующие продукты тесно связаны: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail и Dynamics 365 for Talent. Одинаковые функциональные возможности могут быть доступны во всех 3 продуктах. Таким образом, в темах, которые в основном связаны с Retail, будет использоваться имя продукта Microsoft Dynamics 365 for Retail, а в темах, которые в основном связаны Talent, будет использоваться имя продукта Dynamics 365 for Talent, а в темах, которые в основном связаны основном продуктом, будет использоваться имя продукта Dynamics 365 for Finance and Operations. Темы, написанные для одного продукта, могут относиться и к аналогичным функциональным возможностям в связанном продукте.
 
 ### <a name="personalizing-talent"></a>Персонализация Talent 
 В следующих темах показано, как настроить многие функции в Dynamics 365 for Talent, которые упрощают своевременное выполнение работы. 

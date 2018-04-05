@@ -1,6 +1,6 @@
 ---
 title: "Процесс настройки расширенной банковской выверки"
-description: "Функция расширенной банковской выверки позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.  В этой статье объясняется, как настроить процессы выверки."
+description: "Функция расширенной банковской выверки позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations.  В этой статье объясняется, как настроить процессы выверки."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aec219f545e880407b9a7d62b2dda4a607ac6bdd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Функция расширенной банковской выверки позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.  В этой статье объясняется, как настроить процессы выверки.  
+Функция расширенной банковской выверки позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations.  В этой статье объясняется, как настроить процессы выверки.  
 
 Существует ряд элементов, которые необходимо настроить перед использованием функции расширенной банковской выверки. Дополнительные сведения о настройке импорта банковской выписки см. в разделе [Настройка процесса импорта банковской выписки](set-up-advanced-bank-reconciliation-import-process.md).  Ниже приведены требования к настройке процесса выверки.
 

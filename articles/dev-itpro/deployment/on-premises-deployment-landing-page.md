@@ -18,25 +18,25 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
-ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fa43f6683d43dfb62e8dc2c194ff2b82fe629fe3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="on-premises-deployment-home-page"></a>Домашняя страница локального развертывания
 
 [!include[banner](../includes/banner.md)]
 
-Вы можете развернуть Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия). При выборе типа локального развертывания требования к системе, параметры оборудования и функции будут отличаться от облачного развертывания. В этой теме представлены ссылки на содержимое с информацией по локальным развертываниям.
+Можно выполнить развертывание Microsoft Dynamics 365 for Finance and Operations (локальная версия). При выборе типа локального развертывания требования к системе, параметры оборудования и функции будут отличаться от облачного развертывания. В этой теме представлены ссылки на содержимое с информацией по локальным развертываниям.
 
 ## <a name="get-started"></a>Начало работы
 - [Что нового и что изменилось в локальных развертываниях Dynamics 365 for Finance and Operations, Enterprise Edition 7.2 с обновлением платформы 12 (март 2018)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
-- [Обзор Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](on-premises-overview.md)
+- [Обзор Dynamics 365 for Finance and Operations (локальная версия)](on-premises-overview.md)
 - [Планирование локального развертывания](plan-onprem-deployment.md)
 - [Требования к системе для локальных развертываний](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Определение параметров оборудования для локальных сред](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Приобретение Dynamics 365 for Finance and Operations, выпуск Enterprise (локальная версия)](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Приобретение Dynamics 365 for Finance and Operations (локальная версия)](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Сравнение характеристик облачной и локальной версий](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Адаптация
@@ -58,7 +58,7 @@ ms.lasthandoff: 03/15/2018
 - [Повторное развертывание локального размещения](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Другие ресурсы
-- [Устранение неполадок в Dynamics 365 for Finance and Operations, Enterprise edition (локальная версия)](troubleshoot-on-prem.md)
+- [Устранение неполадок в Dynamics 365 for Finance and Operations (локальная версия)](troubleshoot-on-prem.md)
 - [Функции, не реализованные в локальном развертывании](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Устаревшие функции](../migration-upgrade/deprecated-features.md)
 - [Политика жизненного цикла программного обеспечения и список выпусков](../migration-upgrade/versions-update-policy.md)

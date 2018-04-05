@@ -17,10 +17,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 008f1acec62c1fc6d423dd7629d3f92f758be5e8
+ms.sourcegitcommit: 9c974041c614c67335bb40f4f461bc1999bf3eb0
+ms.openlocfilehash: 476ae035674c0b9c3af18db28668442247b5e310
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -30,10 +30,14 @@ ms.lasthandoff: 03/08/2018
 
 Эта страница указывает на ресурсы с дополнительными сведениями о новых функциональных возможностях и изменениях в последних выпусках Microsoft Dynamics 365 for Retail.
 
+[!include[release notes](../includes/release-notes.md)]
+ 
+
 ## <a name="releases-of-dynamics-365-for-retail"></a>Выпуски Dynamics 365 for Retail
 
 |Запуск в производство | Номер сборки | Доступность | Подробнее |
 |--------|--------------|--------------|------------|
+|Dynamics 365 for Retail 7.3.2 | 7.3.21971.64040 | 2018 марта | 1. Выберите [Дорожная карта Dynamics 365](https://roadmap.dynamics.com/).<br><br>2. Выберите вкладку **Что нового**.<br><br>3. Щелкните флажок **Dynamics 365 for Retail**.<br><br>4. Найдите функции **Выпущенные с версией Dynamics 365 for Retail 7.3.2**. |
 |Dynamics 365 for Retail 7.3.1 | 7.3.21971.64032 | 2018 марта | 1. Выберите [Дорожная карта Dynamics 365](https://roadmap.dynamics.com/).<br><br>2. Выберите вкладку **Что нового**.<br><br>3. Щелкните флажок **Dynamics 365 for Retail**.<br><br>4. Найдите функции **Выпущенные с версией Dynamics 365 for Retail 7.3.1**. |
 |Dynamics 365 for Retail 7.3 | 7.3.21971.64028 | 2018 февраля | 1. Выберите [Дорожная карта Dynamics 365](https://roadmap.dynamics.com/).<br><br>2. Выберите вкладку **Что нового**.<br><br>3. Щелкните флажок **Dynamics 365 for Retail**.<br><br>4. Найдите функции **Выпущенные с версией Dynamics 365 for Retail 7.3**. |
 |Обновление приложения 5 | 7.2.21792.64093 | 2018 февраля | 1. Выберите [Дорожная карта Dynamics 365](https://roadmap.dynamics.com/).<br><br>2. Выберите вкладку **Что нового**.<br><br>3. Щелкните флажок **Dynamics 365 for Retail**.<br><br>4. Найдите функции **Выпущенные с обновлением приложения 5**. |

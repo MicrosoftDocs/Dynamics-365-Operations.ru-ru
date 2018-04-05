@@ -1,6 +1,6 @@
 ---
 title: "Внутрихолдинговое выставление накладных"
-description: "В этой статье представлены сведения и примеры внутрихолдингового выставления накладных по проектам в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "В этой статье представлены сведения и примеры внутрихолдингового выставления накладных по проектам в Microsoft Dynamics 365 for Finance and Operations."
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad14e2d145c6f6620bf8a31738fafa50d033d246
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7cd19340c913fcda3fb537162dfbae52b5c8e922
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этой статье представлены сведения и примеры внутрихолдингового выставления накладных по проектам в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+В этой статье представлены сведения и примеры внутрихолдингового выставления накладных по проектам в Microsoft Dynamics 365 for Finance and Operations.
 
 В организации может быть несколько подразделений, филиалов и других юридических лиц, которые обмениваются между собой продуктами и услугами в связи с проектами. Юридическое лицо, которое предоставляет услуги или продукт, называется *сдающим в аренду юридическим лицом*, а юридическое лицо, которое получает услугу или продукт, называется *заимствующим юридическим лицом*. 
 

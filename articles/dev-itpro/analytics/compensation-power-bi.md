@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 01841a2da44bfeebc8f8656229c406bd350cb6e5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 93c005d4b85b56f77ddd488c91e477970f4ccd07
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 12/19/2017
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
 **Компенсация** содержимого Power BI показана в рабочей области **Управление компенсациями** при использовании одного из следующих продуктов:
 
-- Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Отчеты, которые включены в содержимое Power BI

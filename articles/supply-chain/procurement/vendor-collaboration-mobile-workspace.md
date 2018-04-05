@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 6028f6007cf2fd3f21c2e6cf3f5fac85c6e0da0a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bfbc0fdfcff809a7d22362961b9778355ed7317b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/01/2017
 Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations.
 
 ## <a name="overview"></a>Обзор 
-Мобильная рабочая область **Совместная работа с поставщиками** информирует поставщиков о новых заказах на покупку, чтобы они могли просмотреть заказы на покупку и ответить на них в веб-клиенте Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+Мобильная рабочая область **Совместная работа с поставщиками** информирует поставщиков о новых заказах на покупку, чтобы они могли просмотреть заказы на покупку и ответить на них в веб-клиенте Microsoft Dynamics 365 for Finance and Operations. 
 
 >[!NOTE]
 > Мобильная рабочая область должна использоваться как дополнение к веб-интерфейсу совместной работы с поставщиками, но не как его замена. 
@@ -60,8 +60,8 @@ ms.lasthandoff: 12/01/2017
 ## <a name="prerequisites"></a>Необходимые условия
 Необходимые условия различаются в зависимости от версии Microsoft Dynamics 365, развернутой в вашей организации.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
-Если в вашей организации развернута система Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, системный администратор должен опубликовать мобильную рабочую область **Совместная работа с поставщиками**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations 
+Если в вашей организации развернута система Microsoft Dynamics 365 for Finance and Operations, системный администратор должен опубликовать мобильную рабочую область **Совместная работа с поставщиками**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии
 Если в вашей организации развернута система Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии, системный администратор должен выполнить следующие условия. 

@@ -1,6 +1,6 @@
 ---
 title: "Домашняя страница управления организацией"
-description: "В этой теме перечислены ресурсы, которые помогут вам использовать Microsoft Dynamics 365 for Finance and Operations Enterprise Edition в своей организации."
+description: "Этот раздел указывает на ресурсы, которые помогут использовать Microsoft Dynamics 365 for Finance and Operations в организации."
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f1cff2388b02ff6dfd52a39b7f3ea90f10807096
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-В этой теме перечислены материалы, которые пригодятся опытным пользователям и администраторам при настройке Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Эти материалы помогут им настроить систему для бесперебойной и эффективной работы на благо организации и бизнеса.
+В этой теме перечислены материалы, которые пригодятся опытным пользователям и администраторам при настройке Microsoft Dynamics 365 for Finance and Operations. Эти материалы помогут им настроить систему для бесперебойной и эффективной работы на благо организации и бизнеса.
 
 Многие из материалов, перечисленных здесь, относятся к функциям в модуле **Управление организацией**. Однако существуют некоторые задачи, такие как создание и использование шаблона записи, которые могут быть выполнены в любом модуле для повышения эффективности работы вашей организации. 
 

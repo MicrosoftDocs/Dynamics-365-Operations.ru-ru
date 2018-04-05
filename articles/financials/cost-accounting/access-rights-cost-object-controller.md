@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2ba38ddc5c717df29462e4316dc5045d0eef8c1a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6403aabb6b029807b42ab1ccb11756dcb0dda5dc
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ ms.lasthandoff: 11/03/2017
 - Microsoft Power BI:
 
     - Данные, показанные в визуализации Power BI
-    - Визуализация данных Power BI, которые встроены в Microsoft Dynamics 365 для Finance and Operations, Enterprise Edition, клиент
+    - Визуализация данных Power BI, которые встроены в клиент Microsoft Dynamics 365 для Finance and Operations
 
 > [!IMPORTANT]
 > - Прежде чем иерархия списков доступа может повлиять на данные в Power BI, необходимо подсоединить иерархию списка доступа и безопасность на уровне строк в Power BI. Дополнительные сведения см. в разделе [Настройка защиты пакета содержимого учета затрат](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

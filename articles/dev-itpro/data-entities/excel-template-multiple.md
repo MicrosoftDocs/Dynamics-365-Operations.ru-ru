@@ -1,6 +1,6 @@
 ---
 title: "Импорт данных из шаблонов информационных объектов Excel с несколькими листами"
-description: "В этом разделе описывается, как импортировать данные с помощью шаблонов информационных объектов Excel в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "В этом разделе описывается, как импортировать данные с помощью шаблонов информационных объектов Excel в Microsoft Dynamics 365 for Finance and Operations."
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: b314a649829dd14a525923802e19b847dc5a115e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/27/2018
 
 [!include[banner](../includes/banner.md)]
 
-Управление данными в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition поддерживает шаблоны на основе Microsoft Excel для информационных объектов. Эти шаблоны могут содержать один или несколько листов. Шаблоны с несколькими листами часто используются, когда удобно управлять данными в одном файле и импортировать их в несколько информационных объектов. Примерами могут служить сайты и склады.
+Управление данными в Microsoft Dynamics 365 for Finance and Operations поддерживает шаблоны на основе Microsoft Excel для информационных объектов. Эти шаблоны могут содержать один или несколько листов. Шаблоны с несколькими листами часто используются, когда удобно управлять данными в одном файле и импортировать их в несколько информационных объектов. Примерами могут служить сайты и склады.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Отправка файла один раз и сопоставление его всем объектам
 Рассмотрим пример, где имеется один файл Excel с листами, которые называются **Сайты** и **Склады**. Чтобы настроить проект импорта данных, следует добавить первый информационный объект, **Сайты**, затем отправить файл. Можно будет выбрать **Сайты** в качестве листа, используемого для этого объекта.

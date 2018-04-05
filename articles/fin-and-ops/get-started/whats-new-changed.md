@@ -3,7 +3,7 @@ title: "Что нового и что изменилось"
 description: "Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних версиях Microsoft Dynamics 365 for Finance and Operations."
 author: josaw1
 manager: AnnBe
-ms.date: 03/21/2018
+ms.date: 03/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: ff73fdb3e6ce97e01838228c45795ca64e888add
-ms.openlocfilehash: e00dece6a6f917028379d879ec81a5c7ab210253
+ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
+ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/25/2018
 
 ---
 
@@ -120,10 +120,10 @@ ms.lasthandoff: 01/23/2018
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
-<td>Обновление платформы update 13</td>
-<td>7.0.4764</td>
-<td>Январь 2018 (Эта функция является частью целевого выпуска и доступна только пользователям, принимающим участие в программе преимущества непрерывного автоматического обновления (ППНАО).)</td>
-<td><a href="whats-new-platform-update-13.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 13 (январь 2018 г.)</a></td><tbody>
+<td>Обновление платформы update 15</td>
+<td>7.0.4839</td>
+<td>Март 2018 (Эта функция является частью целевого выпуска и доступна только пользователям, принимающим участие в программе преимущества непрерывного автоматического обновления (ППНАО).)</td>
+<td><a href="whats-new-platform-update-15.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 15 (март 2018 г.)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
 <td>Обновление платформы update 12</td>

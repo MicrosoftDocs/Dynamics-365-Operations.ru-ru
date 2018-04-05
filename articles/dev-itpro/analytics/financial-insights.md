@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
-ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/28/2018
 
 [!include[banner](../includes/banner.md)]
 
-**Финансовый анализ** использует Microsoft Power BI для объединения финансовых ключевых индикаторов (KPI), диаграмм и финансовых отчетов. Power BI внедрен в Microsoft Dynamics 365 Finance and Operations, Enterprise Edition.
+**Финансовый анализ** использует Microsoft Power BI для объединения финансовых ключевых индикаторов (KPI), диаграмм и финансовых отчетов. Power BI внедрен в Microsoft Dynamics 365 Finance and Operations.
 Основная цель модуля **Финансовый анализ** — аналитическая отчетность. Пользователи в организации могут просматривать, изучать, понимать и действовать. 
 
 **Финансовый анализ** объединяет данные из главной книги и вспомогательных книг, чтобы предоставить более полную картину финансового состояния организации.
