@@ -20,17 +20,16 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 0adfb1dcdaa1c57a3f8af0d874c081e19844d20a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3b1346917dc8482181acdb9dac31efbc5356dd24
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="info-codes"></a><span data-ttu-id="f73b4-103">Инфокоды</span><span class="sxs-lookup"><span data-stu-id="f73b4-103">Info codes</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="f73b4-104">В этой статье приводится обзор инфокодов, групп инфокодов и способов их использования.</span><span class="sxs-lookup"><span data-stu-id="f73b4-104">This article provides an overview about info codes, info code groups, and how to use them.</span></span>
 
@@ -52,7 +51,7 @@ ms.lasthandoff: 01/18/2018
 
 <span data-ttu-id="f73b4-132">**Пример 2. Связывание инфокодов с группами инфокодов.** При продаже некоторых продуктов, например мобильных устройств, всегда необходимо выполнять сбор определенного набора данных, таких как номер телефона, идентификатор мобильного телефона (MEID) и серийный номер.</span><span class="sxs-lookup"><span data-stu-id="f73b4-132">**Example 2: Link info codes to info code groups** When you sell certain products, for example mobile devices, you always want to collect a specific set of information, such as telephone number, mobile equipment identifier (MEID), and serial number.</span></span> <span data-ttu-id="f73b4-133">Однако также требуется выполнять сбор определенной информации по планшетам и мобильным телефонам.</span><span class="sxs-lookup"><span data-stu-id="f73b4-133">However, you also want to collect different information for a tablet versus a mobile phone.</span></span> <span data-ttu-id="f73b4-134">Можно определить группу инфокодов, которая включает запросы на номер телефона, идентификатор MEID и серийный номер, а затем связать группу инфокодов с отдельным инфокодом.</span><span class="sxs-lookup"><span data-stu-id="f73b4-134">You can set up an info code group that includes prompts for the telephone number, MEID, and the serial number, and then link the info code group to an individual info code.</span></span> <span data-ttu-id="f73b4-135">При активации определенного для продукта инфокода можно активировать группу инфокодов, чтобы иметь возможность выполнять сбор общих сведений, не определяя несколько наборов связанных инфокодов для каждого устройства.</span><span class="sxs-lookup"><span data-stu-id="f73b4-135">When the product-specific info code is triggered, the info code group can be triggered next to enable you to collect the common data without having to define multiple sets of linked info codes for each device.</span></span>
 
- 
+
 
 
 

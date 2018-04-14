@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d2fc157b54401463bbabf1e3f6d5dddc6bda9631
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c142534e9e5b5f154f478889d13540dc3d47ad18
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-an-approval-step-in-a-workflow"></a><span data-ttu-id="036e4-103">Настройка этапа утверждения в workflow-процессе</span><span class="sxs-lookup"><span data-stu-id="036e4-103">Configure an approval step in a workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="036e4-104">В этом разделе описывается, как настроить свойства шага утверждения.</span><span class="sxs-lookup"><span data-stu-id="036e4-104">This topic explains how to configure the properties of an approval step.</span></span>
 
@@ -145,9 +144,9 @@ ms.lasthandoff: 11/03/2017
     <span data-ttu-id="036e4-192">Если пользователь не предпринимает действие с документом за выделенное время, документ считается просроченным.</span><span class="sxs-lookup"><span data-stu-id="036e4-192">If the user doesn't take action on the document in the allotted time, the document is overdue.</span></span> <span data-ttu-id="036e4-193">Просроченный документ эскалируется на основе параметров, выбранных в области **Эскалация** этой страницы.</span><span class="sxs-lookup"><span data-stu-id="036e4-193">A document that is overdue is escalated, based on the options that you select in the **Escalation** area of the page.</span></span>
 4.  <span data-ttu-id="036e4-194">Если шаг утверждения назначен нескольким пользователям или группе пользователей, перейдите на вкладку **Политика выполнения** и затем выберите один из следующих вариантов:</span><span class="sxs-lookup"><span data-stu-id="036e4-194">If you assigned the approval step to multiple users or a group of users, on the **Completion policy** tab, select one of the following options:</span></span>
     -   <span data-ttu-id="036e4-195">**Один утверждающий** — Действие в отношении этого документа определяется первым отвечающим лицом.</span><span class="sxs-lookup"><span data-stu-id="036e4-195">**Single approver** – The action that is applied to the document is determined by the first person who responds.</span></span> <span data-ttu-id="036e4-196">Например, Сэм подал отчет по расходам на сумму 15 000 долларов США.</span><span class="sxs-lookup"><span data-stu-id="036e4-196">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="036e4-197">Отчет по расходам в настоящее время назначен Сью, Джо и Биллу.</span><span class="sxs-lookup"><span data-stu-id="036e4-197">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="036e4-198">Если Сью является первым отвечающим лицом для данного документа, действие, которое она совершает, применяется к документу.</span><span class="sxs-lookup"><span data-stu-id="036e4-198">If Sue is the first person who responds to the document, the action that she takes is applied to the document.</span></span> <span data-ttu-id="036e4-199">Если Сью отклоняет документ, документ не утверждается и направляется назад Сэму.</span><span class="sxs-lookup"><span data-stu-id="036e4-199">If Sue rejects the document, it's rejected and sent back to Sam.</span></span> <span data-ttu-id="036e4-200">Если Сью утверждает документ, он направляется Анне для утверждения.</span><span class="sxs-lookup"><span data-stu-id="036e4-200">If Sue approves the document, it's sent to Ann for approval.</span></span> 
-    
+
     ![Workflow-процесс с процессом утверждения](./media/workflow_multipleusersinstep.gif)
-    
+
     -   <span data-ttu-id="036e4-202">**Большинство утверждающих** — Действие в отношении этого документа определяется, когда отвечает большинство утверждающих лиц.</span><span class="sxs-lookup"><span data-stu-id="036e4-202">**Majority of approvers** – The action that is applied to the document is determined when most of the approvers respond.</span></span> <span data-ttu-id="036e4-203">Например, Сэм подал отчет по расходам на сумму 15 000 долларов США.</span><span class="sxs-lookup"><span data-stu-id="036e4-203">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="036e4-204">Отчет по расходам в настоящее время назначен Сью, Джо и Биллу.</span><span class="sxs-lookup"><span data-stu-id="036e4-204">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="036e4-205">Если первые отвечающие утверждающие лица - Сью и Джо, их действие применяется к документу.</span><span class="sxs-lookup"><span data-stu-id="036e4-205">If Sue and Jo are the first two approvers who respond, the action that they take is applied to the document.</span></span>
         -   <span data-ttu-id="036e4-206">Если Сью утверждает документ, а Джо - нет, документ не утверждается и направляется назад к Сэму.</span><span class="sxs-lookup"><span data-stu-id="036e4-206">If Sue approves the document, but Jo rejects it, the document is rejected and sent back to Sam.</span></span>
         -   <span data-ttu-id="036e4-207">Если Сью и Джо утверждают документ, он направляется Анне для утверждения.</span><span class="sxs-lookup"><span data-stu-id="036e4-207">If both Sue and Jo approve the document, it's sent to Ann for approval.</span></span>

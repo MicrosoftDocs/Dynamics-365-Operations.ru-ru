@@ -17,15 +17,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d359232da5f3087b1e6baed182a20da09aeff7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2bcc83c0a422ed1480f2ed41460fd710bc51ff3d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="revert-kanban-job-status"></a><span data-ttu-id="819c8-103">Вернуть статус задания канбана</span><span class="sxs-lookup"><span data-stu-id="819c8-103">Revert kanban job status</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="819c8-104">Эта процедура направлена на отмену неправильных статусов заданий канбана.</span><span class="sxs-lookup"><span data-stu-id="819c8-104">This procedure focuses on reverting an incorrect kanban job status.</span></span> <span data-ttu-id="819c8-105">Это бывает полезно в случае, когда если оператор станка обновляет неправильное задание или настраивает неправильный статус по ошибке.</span><span class="sxs-lookup"><span data-stu-id="819c8-105">This is useful in case the machine operator updates the wrong job, or sets the wrong status by mistake.</span></span> <span data-ttu-id="819c8-106">В этой процедуре задание канбана регистрируется как подготовленное по ошибке, и статус возвращается к предыдущему значению.</span><span class="sxs-lookup"><span data-stu-id="819c8-106">In this procedure, a kanban job is registered as prepared by mistake, and the status is reverted.</span></span> <span data-ttu-id="819c8-107">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="819c8-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="819c8-108">Эта процедура предназначена для начальника цеха или оператор станка в компании, работающей в соответствии с принципами бережливого производства.</span><span class="sxs-lookup"><span data-stu-id="819c8-108">This procedure is intended for the shop supervisor or machine operator working in a lean manufacturing company.</span></span>
 

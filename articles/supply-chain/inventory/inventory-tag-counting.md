@@ -19,19 +19,18 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 8f219b8cde6191dc52300f3b03c930bcd0c71d18
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c4df1973ad4ebf710e4be4dfdab6c833d16167e9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-tag-counting"></a><span data-ttu-id="984d9-103">Учет маркеров запасов</span><span class="sxs-lookup"><span data-stu-id="984d9-103">Inventory tag counting</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="984d9-104">Эта статья предоставляет информацию о Меченной инвентаризации, которые используются для сравнения фактического содержимого склада с запасами в наличии.</span><span class="sxs-lookup"><span data-stu-id="984d9-104">This article provides information about tag counting, which you use to compare the actual contents of a warehouse with the on-hand inventory.</span></span>
 

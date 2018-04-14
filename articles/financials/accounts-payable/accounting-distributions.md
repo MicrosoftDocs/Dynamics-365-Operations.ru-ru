@@ -19,17 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 52cb689723584c862d85fa51a643b42096372a29
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1f6dad98c2f025f2060f710ff66bae6deb372e63
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="accounting-distributions"></a><span data-ttu-id="cc77d-104">Распределение по бухгалтерским счетам</span><span class="sxs-lookup"><span data-stu-id="cc77d-104">Accounting distributions</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cc77d-105">Эта статья представляет информация о распределениях по бухгалтерским счетам и описываются параметры, доступные для обработки их.</span><span class="sxs-lookup"><span data-stu-id="cc77d-105">This article provides information about accounting distributions and describes the options that are available for processing them.</span></span> <span data-ttu-id="cc77d-106">Распределения по бухгалтерским счетам используются для распределения денежных сумм для документа-источника по конкретным счетам ГК.</span><span class="sxs-lookup"><span data-stu-id="cc77d-106">Accounting distributions are used to allocate monetary amounts for a source document to specific ledger accounts.</span></span> 
 

@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: eb38de1e7e39cb66d15bfe344f6f5fcd5d4fccd7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9da85990d5906047421e69cd641456b5c5cae8fe
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="depreciation-methods-and-conventions"></a><span data-ttu-id="5549f-103">Методы амортизации и соглашения по амортизации</span><span class="sxs-lookup"><span data-stu-id="5549f-103">Depreciation methods and conventions</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5549f-104">В этой статье представлен обзор соглашений по амортизации и методы амортизации, которые поддерживаются Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="5549f-104">This article provides an overview of the depreciation conventions and depreciation methods that are supported by Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
@@ -62,7 +61,7 @@ ms.lasthandoff: 03/26/2018
 -   <span data-ttu-id="5549f-130">Уменьшаемый остаток в 150%</span><span class="sxs-lookup"><span data-stu-id="5549f-130">150% reducing balance</span></span>
 -   <span data-ttu-id="5549f-131">Уменьшаемое сальдо в 125%</span><span class="sxs-lookup"><span data-stu-id="5549f-131">125% reducing balance</span></span>
 
- 
+
 
 
 

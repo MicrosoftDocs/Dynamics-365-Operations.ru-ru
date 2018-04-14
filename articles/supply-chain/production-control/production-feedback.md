@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1086852bd5193d70e9bde69d349a8d787deee094
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6a4525734c468bf6eb8bc1da0c1b98f19e8d343c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-feedback"></a><span data-ttu-id="8dece-104">Обратная связь производства</span><span class="sxs-lookup"><span data-stu-id="8dece-104">Production feedback</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8dece-105">В этой статье представлена информация об обратной связи производства, которая дает работникам обратную связь по производственным заданиям.</span><span class="sxs-lookup"><span data-stu-id="8dece-105">This article provides information about production feedback, which gives workers feedback about production jobs.</span></span> <span data-ttu-id="8dece-106">Статья содержит сведения о различных способах обновления обратной связи с производством.</span><span class="sxs-lookup"><span data-stu-id="8dece-106">The article includes information about the various ways that production feedback can be updated.</span></span>
 

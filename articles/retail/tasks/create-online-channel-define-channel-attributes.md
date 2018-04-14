@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 6bbefc2d6810617090dbf9b27d5248d195d5929b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 69b88466f70dcb7fa65e5acdf8b5003da61c874b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-online-channels-and-define-channel-attributes"></a><span data-ttu-id="1a78c-103">Создание каналов продаж через Интернет и определение атрибутов каналов</span><span class="sxs-lookup"><span data-stu-id="1a78c-103">Create online channels and define channel attributes</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1a78c-104">Эта процедура содержит указания по созданию нового канала и его добавлению в организационную иерархию.</span><span class="sxs-lookup"><span data-stu-id="1a78c-104">This procedure walks through creating a new online channel and adding it to the organization hierarchy.</span></span> <span data-ttu-id="1a78c-105">Необходимо создать организационную иерархию перед созданием нового интернет-канала.</span><span class="sxs-lookup"><span data-stu-id="1a78c-105">You must create the organization hierarchy before you can create a new online channel.</span></span> <span data-ttu-id="1a78c-106">В этой процедуре используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="1a78c-106">This procedure uses the USRT demo data company.</span></span>
 

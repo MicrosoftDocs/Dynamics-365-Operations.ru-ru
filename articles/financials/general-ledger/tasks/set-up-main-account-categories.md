@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 94e17d7cbcc8f826e806a8d4bc026a9d7844e910
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d67ca0f21388630ca7875b0cb647195a8344b80e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-main-account-categories"></a><span data-ttu-id="ee281-103">Настройка категорий счетов ГК</span><span class="sxs-lookup"><span data-stu-id="ee281-103">Set up main account categories</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ee281-104">Категории счетов ГК используются для отчетов по умолчанию в финансовой отчетности и в Power BI.</span><span class="sxs-lookup"><span data-stu-id="ee281-104">Main account categories are used for the default reports in financial reporting and in Power BI.</span></span> <span data-ttu-id="ee281-105">Категории счетов ГК, созданные по умолчанию, могут быть переименованы, но не могут быть удалены.</span><span class="sxs-lookup"><span data-stu-id="ee281-105">Main account categories that are created by default can be renamed but not deleted.</span></span> <span data-ttu-id="ee281-106">Дополнительные категории счетов можно создавать и использовать для отчетности и анализа.</span><span class="sxs-lookup"><span data-stu-id="ee281-106">Additional account categories can be created and used for reporting and analysis purposes.</span></span> <span data-ttu-id="ee281-107">В этой задаче используется демонстрационная компания USMF.</span><span class="sxs-lookup"><span data-stu-id="ee281-107">This task uses the USMF demo company.</span></span>
 

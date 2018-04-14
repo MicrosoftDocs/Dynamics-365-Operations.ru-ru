@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d9f9888d04f4e2419de9d4a6857a81ae40f6f21a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a><span data-ttu-id="e4bfd-103">Создание, расчет и разноска журнала операций для розничного магазина</span><span class="sxs-lookup"><span data-stu-id="e4bfd-103">Create, calculate, and post a statement for a retail store</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e4bfd-104">В этой процедуре описано, как вручную создать, рассчитать и разнести журнал операций для магазина.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-104">This procedure walks through the manual steps for creating, calculating, and posting a statement for a store.</span></span> <span data-ttu-id="e4bfd-105">Кроме того, существуют пакетные задания, которые могут быть настроены для тех же задач.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-105">There are also batch jobs that can be configured for the same tasks.</span></span> <span data-ttu-id="e4bfd-106">Инструкции по настройке и запуску пакетных задач можно найти в других разделах.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-106">The steps for configuring and running the batch jobs can be found in other topics.</span></span> <span data-ttu-id="e4bfd-107">Чтобы выполнить эту процедуру, необходимо иметь проводки, которые были выполнены в кассовом терминале, а затем переданы в Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-107">To complete this procedure, you must have transactions that were completed in POS and then pulled into Dynamics AX.</span></span> <span data-ttu-id="e4bfd-108">В этой записи используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-108">This recording uses the USRT company in demo data.</span></span> <span data-ttu-id="e4bfd-109">Эта процедура может ссылаться на Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-109">This procedure may refer to Microsoft Dynamics AX.</span></span> <span data-ttu-id="e4bfd-110">Обратите внимание, что теперь Dynamics AX называется Microsoft Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-110">Please note that Dynamics AX is now called Microsoft Dynamics 365 for Operations.</span></span>
 

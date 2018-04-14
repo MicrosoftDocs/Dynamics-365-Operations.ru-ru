@@ -18,17 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: caa07418cb834c7f004c4fb95d5ea1c0e3a28f56
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a><span data-ttu-id="dd534-104">Новые руководства по задачам (февраль 2016 г.)</span><span class="sxs-lookup"><span data-stu-id="dd534-104">New task guides (February 2016)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="dd534-105">В этом разделе перечислены руководства по задачам, выпущенные в библиотеках Microsoft BPM на февраль 2016 г.</span><span class="sxs-lookup"><span data-stu-id="dd534-105">This topic lists the Task guides that were released to the Microsoft BPM libraries as of February 2016.</span></span>  <span data-ttu-id="dd534-106">Опубликованные библиотеки включают унифицированную библиотеку APQC (февраль 2016 г.) для Microsoft Dynamics AX и библиотеку по началу работы (февраль 2016 г.).</span><span class="sxs-lookup"><span data-stu-id="dd534-106">The libraries that were published include the (February 2016) APQC Unified Library for Microsoft Dynamics AX and (February 2016) Getting started.</span></span>
 
@@ -50,8 +49,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-124">Настройка проверки сопоставления накладных в модуле расчетов с поставщиками</span><span class="sxs-lookup"><span data-stu-id="dd534-124">Set up Accounts payable invoice matching validation</span></span>       | <span data-ttu-id="dd534-125">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-125">Global</span></span>             |
 | <span data-ttu-id="dd534-126">Настройка политик накладных поставщика</span><span class="sxs-lookup"><span data-stu-id="dd534-126">Set up vendor invoice policies</span></span>                            | <span data-ttu-id="dd534-127">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-127">Global</span></span>             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a><span data-ttu-id="dd534-128">Расчеты с клиентами</span><span class="sxs-lookup"><span data-stu-id="dd534-128">Accounts receivable</span></span>
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-153">Просмотрите сведения о сборах</span><span class="sxs-lookup"><span data-stu-id="dd534-153">Review collections information</span></span>                              | <span data-ttu-id="dd534-154">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-154">Global</span></span>             |
 | <span data-ttu-id="dd534-155">Настройка и создание сведений о распределении по срокам для расчетов с клиентами</span><span class="sxs-lookup"><span data-stu-id="dd534-155">Set up and generate accounts receivable aging information</span></span>   | <span data-ttu-id="dd534-156">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-156">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a><span data-ttu-id="dd534-157">Управление банком и кассовыми операциями</span><span class="sxs-lookup"><span data-stu-id="dd534-157">Cash and bank management</span></span>
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-196">Сопоставление датированного задним числом чека от клиента</span><span class="sxs-lookup"><span data-stu-id="dd534-196">Settle a postdated check from a customer</span></span>                             | <span data-ttu-id="dd534-197">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-197">Global</span></span>             |
 | <span data-ttu-id="dd534-198">Обзор платежей поставщикам</span><span class="sxs-lookup"><span data-stu-id="dd534-198">Vendor payment overview</span></span>                                              | <span data-ttu-id="dd534-199">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-199">Global</span></span>             |
 
- 
 
+ 
 ### <a name="compliance"></a><span data-ttu-id="dd534-200">Соответствие</span><span class="sxs-lookup"><span data-stu-id="dd534-200">Compliance</span></span>
 
 |                                            |                    |
@@ -108,8 +107,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-201">**Строка средства моделирования бизнес-процессов**</span><span class="sxs-lookup"><span data-stu-id="dd534-201">**BPM Line**</span></span>                               | <span data-ttu-id="dd534-202">**Страна/регион**</span><span class="sxs-lookup"><span data-stu-id="dd534-202">**Country/Region**</span></span> |
 | <span data-ttu-id="dd534-203">Определение политик аудита для документов-источников</span><span class="sxs-lookup"><span data-stu-id="dd534-203">Define audit policies for source documents</span></span> | <span data-ttu-id="dd534-204">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-204">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cost-management"></a><span data-ttu-id="dd534-205">Управление затратами</span><span class="sxs-lookup"><span data-stu-id="dd534-205">Cost management</span></span>
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-214">Просмотр текущего статуса НЗП по производственному заказу.</span><span class="sxs-lookup"><span data-stu-id="dd534-214">View current WIP status on a production order</span></span>                       | <span data-ttu-id="dd534-215">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-215">Global</span></span>             |
 | <span data-ttu-id="dd534-216">Просмотр отчета запасов и ключевой индикатор производительности по объекту затрат</span><span class="sxs-lookup"><span data-stu-id="dd534-216">View inventory statement and KPI by cost object</span></span>                     | <span data-ttu-id="dd534-217">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-217">Global</span></span>             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a><span data-ttu-id="dd534-218">Функциональность в стране/регионе</span><span class="sxs-lookup"><span data-stu-id="dd534-218">Country/Region functionality</span></span>
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-485">GB-00009 Создание кредит-ноты на скидку за сопоставление</span><span class="sxs-lookup"><span data-stu-id="dd534-485">GB-00009 Create a credit note on the settlement discount</span></span>                                               | <span data-ttu-id="dd534-486">Соединенное Королевство</span><span class="sxs-lookup"><span data-stu-id="dd534-486">United Kingdom</span></span>                  |
 | <span data-ttu-id="dd534-487">GB-00009 Параметры настройки для кредит-ноты на скидку за своевременную уплату</span><span class="sxs-lookup"><span data-stu-id="dd534-487">GB-00009 Setup parameters for credit note on prompt payment discount</span></span>                                   | <span data-ttu-id="dd534-488">Соединенное Королевство</span><span class="sxs-lookup"><span data-stu-id="dd534-488">United Kingdom</span></span>                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a><span data-ttu-id="dd534-489">Разработка видения и стратегии</span><span class="sxs-lookup"><span data-stu-id="dd534-489">Develop Vision and Strategy</span></span>
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-498">Задание вопроса в зависимости от ответа на предыдущий вопрос (зависимые вопросы)</span><span class="sxs-lookup"><span data-stu-id="dd534-498">Make a question dependent on the answer of the previous question (Conditional questions)</span></span> | <span data-ttu-id="dd534-499">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-499">Global</span></span>             |
 | <span data-ttu-id="dd534-500">Оценка анкеты на основе процентов</span><span class="sxs-lookup"><span data-stu-id="dd534-500">Score a questionnaire based on Percent</span></span>                                                   | <span data-ttu-id="dd534-501">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-501">Global</span></span>             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a><span data-ttu-id="dd534-502">Электронная отчетность</span><span class="sxs-lookup"><span data-stu-id="dd534-502">Electronic reporting</span></span>
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-511">Электронная отчетность Сопоставление модели данных с выбранными источникам данных</span><span class="sxs-lookup"><span data-stu-id="dd534-511">ER Map data model to selected data sources</span></span>      | <span data-ttu-id="dd534-512">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-512">Global</span></span>             |
 | <span data-ttu-id="dd534-513">Электронная отчетность Выбор поставщика услуг</span><span class="sxs-lookup"><span data-stu-id="dd534-513">ER Select service provider</span></span>                      | <span data-ttu-id="dd534-514">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-514">Global</span></span>             |
 
- 
 
+ 
 ### <a name="expense-management"></a><span data-ttu-id="dd534-515">Управление расходами</span><span class="sxs-lookup"><span data-stu-id="dd534-515">Expense management</span></span>
 
 |                              |                    |
@@ -298,8 +297,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-516">**Строка средства моделирования бизнес-процессов**</span><span class="sxs-lookup"><span data-stu-id="dd534-516">**BPM Line**</span></span>                 | <span data-ttu-id="dd534-517">**Страна/регион**</span><span class="sxs-lookup"><span data-stu-id="dd534-517">**Country/Region**</span></span> |
 | <span data-ttu-id="dd534-518">Настройка управления расходами</span><span class="sxs-lookup"><span data-stu-id="dd534-518">Configure expense management</span></span> | <span data-ttu-id="dd534-519">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-519">Global</span></span>             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a><span data-ttu-id="dd534-520">Основные средства</span><span class="sxs-lookup"><span data-stu-id="dd534-520">Fixed assets</span></span>
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-549">Разбиение основного средства</span><span class="sxs-lookup"><span data-stu-id="dd534-549">Split a fixed asset</span></span>                                       | <span data-ttu-id="dd534-550">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-550">Global</span></span>             |
 | <span data-ttu-id="dd534-551">Перенос основного средства</span><span class="sxs-lookup"><span data-stu-id="dd534-551">Transfer a fixed asset</span></span>                                    | <span data-ttu-id="dd534-552">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-552">Global</span></span>             |
 
- 
 
+ 
 ### <a name="general-ledger"></a><span data-ttu-id="dd534-553">Главная книга</span><span class="sxs-lookup"><span data-stu-id="dd534-553">General ledger</span></span>
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-602">Просмотр записей журнала или проводок</span><span class="sxs-lookup"><span data-stu-id="dd534-602">View journal entries or transactions</span></span>                              | <span data-ttu-id="dd534-603">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-603">Global</span></span>             |
 | <span data-ttu-id="dd534-604">Просмотр связанного внутрихолдингового ваучера из журнала</span><span class="sxs-lookup"><span data-stu-id="dd534-604">View related intercompany voucher from journal</span></span>                    | <span data-ttu-id="dd534-605">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-605">Global</span></span>             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a><span data-ttu-id="dd534-606">Управление человеческим капиталом</span><span class="sxs-lookup"><span data-stu-id="dd534-606">Human capital management</span></span>
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-677">Настройка политик приемлемости льготы</span><span class="sxs-lookup"><span data-stu-id="dd534-677">Setting benefit eligibility policies</span></span>                             | <span data-ttu-id="dd534-678">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-678">Global</span></span>             |
 | <span data-ttu-id="dd534-679">Настройка типов документов i9</span><span class="sxs-lookup"><span data-stu-id="dd534-679">Setting up i9 document types</span></span>                                     | <span data-ttu-id="dd534-680">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-680">Global</span></span>             |
 
- 
 
+ 
 ### <a name="inventory-management"></a><span data-ttu-id="dd534-681">Управление запасами</span><span class="sxs-lookup"><span data-stu-id="dd534-681">Inventory management</span></span>
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-712">Трассировка номенклатуры или сырья</span><span class="sxs-lookup"><span data-stu-id="dd534-712">Trace an item or raw material</span></span>                                                     | <span data-ttu-id="dd534-713">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-713">Global</span></span>             |
 | <span data-ttu-id="dd534-714">Перемещение физических запасов в пределах склада</span><span class="sxs-lookup"><span data-stu-id="dd534-714">Transfer physical inventory within the warehouse</span></span>                                  | <span data-ttu-id="dd534-715">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-715">Global</span></span>             |
 
- 
 
+ 
 ### <a name="manufacturing"></a><span data-ttu-id="dd534-716">Производство</span><span class="sxs-lookup"><span data-stu-id="dd534-716">Manufacturing</span></span>
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-803">Перемещение материала с помощью заданий канбана</span><span class="sxs-lookup"><span data-stu-id="dd534-803">Transfer material with Kanban jobs</span></span>                            | <span data-ttu-id="dd534-804">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-804">Global</span></span>             |
 | <span data-ttu-id="dd534-805">Проверить производственный поток и версии</span><span class="sxs-lookup"><span data-stu-id="dd534-805">Validate production flow and version</span></span>                          | <span data-ttu-id="dd534-806">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-806">Global</span></span>             |
 
- 
 
+ 
 ### <a name="master-planning"></a><span data-ttu-id="dd534-807">Сводное планирование</span><span class="sxs-lookup"><span data-stu-id="dd534-807">Master planning</span></span>
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-816">Определение критически важных материалов и мощностей поставщиков</span><span class="sxs-lookup"><span data-stu-id="dd534-816">Identify critical materials and supplier capacity</span></span> | <span data-ttu-id="dd534-817">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-817">Global</span></span>             |
 | <span data-ttu-id="dd534-818">Изменение прогноза спроса вручную</span><span class="sxs-lookup"><span data-stu-id="dd534-818">Modify a demand forecast manually</span></span>                 | <span data-ttu-id="dd534-819">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-819">Global</span></span>             |
 
- 
 
+ 
 ### <a name="organization-administration"></a><span data-ttu-id="dd534-820">Управление организацией</span><span class="sxs-lookup"><span data-stu-id="dd534-820">Organization administration</span></span>
 
 |                                           |                    |
@@ -501,8 +500,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-831">Настройка электронных подписей</span><span class="sxs-lookup"><span data-stu-id="dd534-831">Set up electronic signatures</span></span>              | <span data-ttu-id="dd534-832">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-832">Global</span></span>             |
 | <span data-ttu-id="dd534-833">Настройка номерных серий с использованием мастера</span><span class="sxs-lookup"><span data-stu-id="dd534-833">Set up number sequences by using a wizard</span></span> | <span data-ttu-id="dd534-834">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-834">Global</span></span>             |
 
- 
 
+ 
 ### <a name="planning"></a><span data-ttu-id="dd534-835">Планирование</span><span class="sxs-lookup"><span data-stu-id="dd534-835">Planning</span></span>
 
 |                        |                    |
@@ -510,8 +509,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-836">**Строка средства моделирования бизнес-процессов**</span><span class="sxs-lookup"><span data-stu-id="dd534-836">**BPM Line**</span></span>           | <span data-ttu-id="dd534-837">**Страна/регион**</span><span class="sxs-lookup"><span data-stu-id="dd534-837">**Country/Region**</span></span> |
 | <span data-ttu-id="dd534-838">Определение доступности</span><span class="sxs-lookup"><span data-stu-id="dd534-838">Determine availability</span></span> | <span data-ttu-id="dd534-839">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-839">Global</span></span>             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a><span data-ttu-id="dd534-840">Закупки и источники</span><span class="sxs-lookup"><span data-stu-id="dd534-840">Procurement and sourcing</span></span>
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-853">Поиск поставщиков</span><span class="sxs-lookup"><span data-stu-id="dd534-853">Search for vendors</span></span>                                               | <span data-ttu-id="dd534-854">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-854">Global</span></span>             |
 | <span data-ttu-id="dd534-855">Настройка иерархии категорий закупаемой продукции</span><span class="sxs-lookup"><span data-stu-id="dd534-855">Set up a procurement category hierarchy</span></span>                          | <span data-ttu-id="dd534-856">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-856">Global</span></span>             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a><span data-ttu-id="dd534-857">Сведения о продукте и конфигурация продукта</span><span class="sxs-lookup"><span data-stu-id="dd534-857">Product information and configuration</span></span>
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-892">Выпуск шаблона продукта ..\financial-dimensions\dimension-based</span><span class="sxs-lookup"><span data-stu-id="dd534-892">Release a ..\financial-dimensions\dimension-based product master</span></span>              | <span data-ttu-id="dd534-893">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-893">Global</span></span>             |
 | <span data-ttu-id="dd534-894">Перенос данных для моделей продукции</span><span class="sxs-lookup"><span data-stu-id="dd534-894">Transfer data for product models</span></span>                      | <span data-ttu-id="dd534-895">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-895">Global</span></span>             |
 
- 
 
+ 
 ### <a name="public-sector"></a><span data-ttu-id="dd534-896">Государственный сектор</span><span class="sxs-lookup"><span data-stu-id="dd534-896">Public sector</span></span>
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-931">Настройка фонда для государственного сектора</span><span class="sxs-lookup"><span data-stu-id="dd534-931">Set up a fund for Public sector</span></span>                                                         | <span data-ttu-id="dd534-932">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-932">Global</span></span>             |
 | <span data-ttu-id="dd534-933">Настройка классификаций договоров покупки для государственного сектора</span><span class="sxs-lookup"><span data-stu-id="dd534-933">Set up purchase agreement classifications for Public Sector</span></span>                             | <span data-ttu-id="dd534-934">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-934">Global</span></span>             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a><span data-ttu-id="dd534-935">Розничная торговля и коммерция</span><span class="sxs-lookup"><span data-stu-id="dd534-935">Retail and commerce</span></span>
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-1002">Корректировки розничных цен</span><span class="sxs-lookup"><span data-stu-id="dd534-1002">Retail price adjustments</span></span>                                                                  | <span data-ttu-id="dd534-1003">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-1003">Global</span></span>             |
 | <span data-ttu-id="dd534-1004">Конфигурации хранилища для выписок Retail</span><span class="sxs-lookup"><span data-stu-id="dd534-1004">Store configurations for Retail statements</span></span>                                                | <span data-ttu-id="dd534-1005">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-1005">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales"></a><span data-ttu-id="dd534-1006">Прод.</span><span class="sxs-lookup"><span data-stu-id="dd534-1006">Sales</span></span>
 
 |                                            |                    |
@@ -642,8 +641,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-1035">Отгрузка заказов как прямые поставки</span><span class="sxs-lookup"><span data-stu-id="dd534-1035">Ship orders as direct deliveries</span></span>           | <span data-ttu-id="dd534-1036">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-1036">Global</span></span>             |
 | <span data-ttu-id="dd534-1037">Отгрузка заказов на продажу без складирования</span><span class="sxs-lookup"><span data-stu-id="dd534-1037">Ship sales orders without warehousing</span></span>      | <span data-ttu-id="dd534-1038">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-1038">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales-tax"></a><span data-ttu-id="dd534-1039">Налог</span><span class="sxs-lookup"><span data-stu-id="dd534-1039">Sales tax</span></span>
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-1060">Настройка подоходного налога</span><span class="sxs-lookup"><span data-stu-id="dd534-1060">Set up withholding tax</span></span>                             | <span data-ttu-id="dd534-1061">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-1061">Global</span></span>             |
 | <span data-ttu-id="dd534-1062">Просмотр разнесенных проводок налога</span><span class="sxs-lookup"><span data-stu-id="dd534-1062">View posted sales tax transactions</span></span>                 | <span data-ttu-id="dd534-1063">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-1063">Global</span></span>             |
 
- 
 
+ 
 ### <a name="security"></a><span data-ttu-id="dd534-1064">Безопасность</span><span class="sxs-lookup"><span data-stu-id="dd534-1064">Security</span></span>
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-1069">Определение и разрешение конфликтов в разделении обязанностей</span><span class="sxs-lookup"><span data-stu-id="dd534-1069">Identify and resolve conflicts in segregation of duties</span></span> | <span data-ttu-id="dd534-1070">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-1070">Global</span></span>             |
 | <span data-ttu-id="dd534-1071">Настройка разделения обязанностей</span><span class="sxs-lookup"><span data-stu-id="dd534-1071">Set up segregation of duties</span></span>                            | <span data-ttu-id="dd534-1072">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-1072">Global</span></span>             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a><span data-ttu-id="dd534-1073">Склад и транспортировка</span><span class="sxs-lookup"><span data-stu-id="dd534-1073">Warehouse and transportation</span></span>
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="dd534-1106">Настройка перевозчиков</span><span class="sxs-lookup"><span data-stu-id="dd534-1106">Set up shipping carriers</span></span>                                                          | <span data-ttu-id="dd534-1107">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-1107">Global</span></span>             |
 | <span data-ttu-id="dd534-1108">Используйте рабочее место планирования загрузки для планирования загрузки и отгрузок</span><span class="sxs-lookup"><span data-stu-id="dd534-1108">Use the Load Planning Workbench to plan loads and shipments</span></span>                       | <span data-ttu-id="dd534-1109">Глобально</span><span class="sxs-lookup"><span data-stu-id="dd534-1109">Global</span></span>             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a><span data-ttu-id="dd534-1110">Руководства по задачам в библиотеке начала работы (февраль 2016 г.)</span><span class="sxs-lookup"><span data-stu-id="dd534-1110">Task guides in the (February 2016) Getting started library</span></span>
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | <span data-ttu-id="dd534-1111">**Строка средства моделирования бизнес-процессов**</span><span class="sxs-lookup"><span data-stu-id="dd534-1111">**BPM Line**</span></span>                                       | <span data-ttu-id="dd534-1112">**Страна/регион**</span><span class="sxs-lookup"><span data-stu-id="dd534-1112">**Country/Region**</span></span> |

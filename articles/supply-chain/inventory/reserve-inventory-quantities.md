@@ -19,17 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6de5c66d4587f6577e36345f7b77d72508c449d5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c705f51e32cc03d201eb00b6a1aa8048e59ff59e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reserve-inventory-quantities"></a><span data-ttu-id="5862a-103">Количество запасов резерва</span><span class="sxs-lookup"><span data-stu-id="5862a-103">Reserve inventory quantities</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5862a-104">В этом разделе описываются различные параметры, доступные для резервирования запасов.</span><span class="sxs-lookup"><span data-stu-id="5862a-104">This topic describes the different options that are available for reserving inventory.</span></span>
 
@@ -50,6 +49,7 @@ ms.lasthandoff: 01/17/2018
 ### <a name="policies-on-the-item-model-groups-page"></a><span data-ttu-id="5862a-128">Политики на странице группы номенклатурных моделей</span><span class="sxs-lookup"><span data-stu-id="5862a-128">Policies on the Item model groups page</span></span>
 
 <span data-ttu-id="5862a-129">Раздел **Политики запасов** содержит следующие политики резервирования.</span><span class="sxs-lookup"><span data-stu-id="5862a-129">The **Inventory policies** section contains the following reservation policies.</span></span>
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="5862a-130">**Политика резервирования**</span><span class="sxs-lookup"><span data-stu-id="5862a-130">**Reservation policy**</span></span>  | <span data-ttu-id="5862a-131">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5862a-131">**Description**</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ ms.lasthandoff: 01/17/2018
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a><span data-ttu-id="5862a-155">Пример для параметров "FIFO с контролем по дате" и "Назад от даты отгрузки"</span><span class="sxs-lookup"><span data-stu-id="5862a-155">Example for FIFO date-controlled and Backward from ship date</span></span>
 
 <span data-ttu-id="5862a-156">В этом примере запасы в наличии для кода номенклатуры A существуют для трех разных номеров партии.</span><span class="sxs-lookup"><span data-stu-id="5862a-156">In this example, on-hand inventory for item number A exists for three different batch numbers.</span></span>
+
 | <span data-ttu-id="5862a-157">Код номенклатуры</span><span class="sxs-lookup"><span data-stu-id="5862a-157">Item number</span></span> | <span data-ttu-id="5862a-158">Номер пачки</span><span class="sxs-lookup"><span data-stu-id="5862a-158">Batch number</span></span> | <span data-ttu-id="5862a-159">Количество</span><span class="sxs-lookup"><span data-stu-id="5862a-159">Quantity</span></span> | <span data-ttu-id="5862a-160">Дата</span><span class="sxs-lookup"><span data-stu-id="5862a-160">Date</span></span>             |
 |-------------|--------------|----------|------------------|
 | <span data-ttu-id="5862a-161">А</span><span class="sxs-lookup"><span data-stu-id="5862a-161">A</span></span>           | <span data-ttu-id="5862a-162">1000</span><span class="sxs-lookup"><span data-stu-id="5862a-162">1000</span></span>         | <span data-ttu-id="5862a-163">5</span><span class="sxs-lookup"><span data-stu-id="5862a-163">5</span></span>        | <span data-ttu-id="5862a-164">2 февраля 2016</span><span class="sxs-lookup"><span data-stu-id="5862a-164">February 2, 2016</span></span> |

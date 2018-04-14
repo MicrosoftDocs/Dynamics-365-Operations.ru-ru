@@ -16,15 +16,15 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6331c3680169b305c4bfbfada4ba106b619be092
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5905a630addfd850d22d34bdbecf116e83b4933f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-collection-letter-sequence"></a><span data-ttu-id="212ce-103">Создание последовательности писем-напоминаний</span><span class="sxs-lookup"><span data-stu-id="212ce-103">Create a collection letter sequence</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="212ce-104">Используйте это руководство по задаче для создания последовательности писем-напоминаний.</span><span class="sxs-lookup"><span data-stu-id="212ce-104">Use this task guide to create a collection letter sequence.</span></span> <span data-ttu-id="212ce-105">В этой задаче используется демонстрационная компания USMF.</span><span class="sxs-lookup"><span data-stu-id="212ce-105">This task uses the USMF demo company.</span></span>
 

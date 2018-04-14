@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4c49a9aaae2d6c7324dfb6a13f6079610bb24fa
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a><span data-ttu-id="17250-103">Создание финансового отчета</span><span class="sxs-lookup"><span data-stu-id="17250-103">Generate a financial report</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="17250-104">В данном разделе содержится информация о создании финансового отчета.</span><span class="sxs-lookup"><span data-stu-id="17250-104">This topic provides information about generating a financial report.</span></span> 
 
@@ -50,13 +49,13 @@ ms.lasthandoff: 12/01/2017
 ## <a name="generate-a-financial-report"></a><span data-ttu-id="17250-115">Создание финансового отчета</span><span class="sxs-lookup"><span data-stu-id="17250-115">Generate a financial report</span></span>
 
 <span data-ttu-id="17250-116">Чтобы создать финансовый отчет с помощью Microsoft Dynamics 365 for Finance and Operations, откройте **Главная книга** > **Запросы и отчеты** > **Финансовые отчеты**.</span><span class="sxs-lookup"><span data-stu-id="17250-116">To generate a financal report with Microsoft Dynamics 365 for Finance and Operations, go to **General ledger** > **Inquiries and reports** > **Financial reports**.</span></span> 
- - <span data-ttu-id="17250-117">Выберите отчет, который требуется создать, и щелкните **Создать**.</span><span class="sxs-lookup"><span data-stu-id="17250-117">Select a report to generate and click **Generate**.</span></span> 
- - <span data-ttu-id="17250-118">Заполните поле **Дата отчета** и щелкните **ОК**.</span><span class="sxs-lookup"><span data-stu-id="17250-118">Fill in the **Report date** field and click **OK**.</span></span>
- 
- <span data-ttu-id="17250-119">После создания отчета он будет доступен для просмотра в разделе **Отчеты**.</span><span class="sxs-lookup"><span data-stu-id="17250-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
- <span data-ttu-id="17250-120">Для отчета можно выбрать операцию **Показать** или **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="17250-120">You can select to **View** or **Delete** the report.</span></span>
- 
- 
+- <span data-ttu-id="17250-117">Выберите отчет, который требуется создать, и щелкните **Создать**.</span><span class="sxs-lookup"><span data-stu-id="17250-117">Select a report to generate and click **Generate**.</span></span> 
+- <span data-ttu-id="17250-118">Заполните поле **Дата отчета** и щелкните **ОК**.</span><span class="sxs-lookup"><span data-stu-id="17250-118">Fill in the **Report date** field and click **OK**.</span></span>
+
+  <span data-ttu-id="17250-119">После создания отчета он будет доступен для просмотра в разделе **Отчеты**.</span><span class="sxs-lookup"><span data-stu-id="17250-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
+  <span data-ttu-id="17250-120">Для отчета можно выбрать операцию **Показать** или **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="17250-120">You can select to **View** or **Delete** the report.</span></span>
+
+
 <span data-ttu-id="17250-121">Для создания отчета с помощью средства **Конструктор отчетов** откройте определение отчета, затем нажмите кнопку "Создать" на панели инструментов.</span><span class="sxs-lookup"><span data-stu-id="17250-121">To generate a report using **Report designer**, open the report definition and then click the Generate button in the toolbar.</span></span> <span data-ttu-id="17250-122">Окно Состояние очереди отчета откроется и покажет расположение вашего отчета в очереди.</span><span class="sxs-lookup"><span data-stu-id="17250-122">The Report Queue Status window will open and indicate the location of your report in the queue.</span></span> <span data-ttu-id="17250-123">По умолчанию созданный отчет будет открыт в веб-средстве просмотра.</span><span class="sxs-lookup"><span data-stu-id="17250-123">By default, the generated report will open in the Web Viewer.</span></span>
 
 > [!NOTE]
@@ -159,7 +158,7 @@ ms.lasthandoff: 12/01/2017
 | <span data-ttu-id="17250-237">Открыть выбранное определение отчета</span><span class="sxs-lookup"><span data-stu-id="17250-237">Open the selected report definition</span></span>  | <span data-ttu-id="17250-238">Ctrl+R</span><span class="sxs-lookup"><span data-stu-id="17250-238">Ctrl+R</span></span>                     |
 | <span data-ttu-id="17250-239">Открыть выбранное определение строки</span><span class="sxs-lookup"><span data-stu-id="17250-239">Open the selected row definition</span></span>     | <span data-ttu-id="17250-240">Ctrl+O</span><span class="sxs-lookup"><span data-stu-id="17250-240">Ctrl+O</span></span>                     |
 
- 
+
 <a name="see-also"></a><span data-ttu-id="17250-241">См. также</span><span class="sxs-lookup"><span data-stu-id="17250-241">See also</span></span>
 --------
 

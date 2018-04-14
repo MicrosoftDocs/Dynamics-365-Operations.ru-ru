@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9124100f84afb13acc2ac9dda7b9483afb01754
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bb24cf68912b994842f17df37d01c0046587a5eb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-return-order"></a><span data-ttu-id="e37c4-103">Создание заказа на возврат покупки</span><span class="sxs-lookup"><span data-stu-id="e37c4-103">Create a purchase return order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e37c4-104">В этой процедуре показано, как создать заказ на возврат покупки с помощью действия "Кредит-нота" для копирования строк из документа накладной поставщика в новый заказ на покупку.</span><span class="sxs-lookup"><span data-stu-id="e37c4-104">This procedure shows you how to create a purchase return order by using the Credit note action to copy lines from a vendor invoice document to a new PO.</span></span> <span data-ttu-id="e37c4-105">В ней также показано, как подтвердить заказ и обработать отгрузку товаров обратно поставщику.</span><span class="sxs-lookup"><span data-stu-id="e37c4-105">It also shows you how to confirm the order and process shipment of the goods back to the vendor.</span></span> <span data-ttu-id="e37c4-106">Пример, представленный в этой процедуре, можно использовать в компании с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="e37c4-106">The example shown in this procedure can be used in the USMF demo data company.</span></span> <span data-ttu-id="e37c4-107">Обычно эту задачу выполняет специалист по закупке.</span><span class="sxs-lookup"><span data-stu-id="e37c4-107">This task would typically be carried out by a purchasing agent.</span></span>
 

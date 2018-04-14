@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9ef7b8e920d22cbc4f96676e68a263f2da7f232c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9d2c2fbd223bd2b410e4a5db87ec468eb25dc87f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a><span data-ttu-id="a419d-103">Создание правила канбана с помощью события строки канбана</span><span class="sxs-lookup"><span data-stu-id="a419d-103">Create a kanban rule using a kanban line event</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a419d-104">В ходе этой процедуры создается правило канбана с помощью настройки события строки канбана для запуска получения данных из мероприятия обработки.</span><span class="sxs-lookup"><span data-stu-id="a419d-104">This procedure creates a kanban rule by using the kanban line event setting to trigger pull from a process activity.</span></span> <span data-ttu-id="a419d-105">Правило канбана запускается для мероприятия обработки канбана с количеством, которое больше или равно 25 для каждого мероприятия.</span><span class="sxs-lookup"><span data-stu-id="a419d-105">The kanban rule is triggered by a kanban process activity, with a quantity equal to or greater than 25 each.</span></span> <span data-ttu-id="a419d-106">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="a419d-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="a419d-107">Эта задача предназначена для инженер-технолога или менеджера потока создания ценности, так как он подготавливает производство нового или измененного продукта в среде бережливого производства.</span><span class="sxs-lookup"><span data-stu-id="a419d-107">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 

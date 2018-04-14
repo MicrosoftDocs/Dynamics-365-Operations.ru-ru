@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f02e37a21e2417d46c5ad990e165c2eff5a70811
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e3058987dcd511c59a9eae1b79ef5d1b6d4b3d68
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="20117-103">Изменение владельца консигнационных запасов на основе производственного спроса</span><span class="sxs-lookup"><span data-stu-id="20117-103">Change the ownership of consignment inventory based on production demand</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="20117-104">Эта процедура показывает порядок изменения владельца запасов коносамента с поставщика на юридическое лицо, когда имеется спрос на запасы в производстве.</span><span class="sxs-lookup"><span data-stu-id="20117-104">This procedure shows how to change the owner of consignment inventory from the vendor to your legal entity when there is demand for the inventory in production.</span></span> <span data-ttu-id="20117-105">Это изменение собственности осуществляется посредством создания и разноски журнала изменения владельца запасов.</span><span class="sxs-lookup"><span data-stu-id="20117-105">This change of ownership is done by creating and posting an inventory ownership change journal.</span></span> <span data-ttu-id="20117-106">Строки журнала изменения владельца можно создавать вручную или, как показано в этой записи, на основе существующего производственного спроса.</span><span class="sxs-lookup"><span data-stu-id="20117-106">The ownership change journal lines can be created manually or, as shown in this recording, based on existing production demand.</span></span> <span data-ttu-id="20117-107">Обычно эту задачу выполняет начальник цеха.</span><span class="sxs-lookup"><span data-stu-id="20117-107">Typically, a shop floor supervisor performs this task.</span></span> <span data-ttu-id="20117-108">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="20117-108">You can use this procedure in the USMF demo data company or on your own data.</span></span> <span data-ttu-id="20117-109">При использовании собственных данных убедитесь, что выполнены следующие предварительные условия: имя журнала запасов настроено для изменения владельца запасов, физически записанные принадлежащие поставщику номенклатуры в наличии и одна или несколько строк производственного заказа для материала.</span><span class="sxs-lookup"><span data-stu-id="20117-109">If you're using your own data, make sure that you have the following prerequisites: an inventory journal name that has been set up for inventory ownership change, physically recorded vendor-owned on-hand items, and one or more production order lines for the material.</span></span> <span data-ttu-id="20117-110">Эта процедура предназначена для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="20117-110">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

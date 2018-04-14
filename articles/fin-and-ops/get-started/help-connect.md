@@ -19,17 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c0942b66859da3659be49b19986bfd146ac43130
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2deb2aea7dce889a655fbd5dec5ec928e0f10bb8
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="connect-the-help-system"></a><span data-ttu-id="fcea4-103">Подключение к системе справки</span><span class="sxs-lookup"><span data-stu-id="fcea4-103">Connect the Help system</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="fcea4-104">В этой теме описываются компоненты системы Справки для Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="fcea4-104">This topic describes the components of the Help system for Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="fcea4-105">В нем приводится обзор того, как подключить эти компоненты, и сводку того, как создать собственную справку.</span><span class="sxs-lookup"><span data-stu-id="fcea4-105">It provides an overview of how to connect these components and a summary of how to create custom help.</span></span> 
 
@@ -42,7 +41,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="connecting-the-help-system"></a><span data-ttu-id="fcea4-111">Подключение системы справки</span><span class="sxs-lookup"><span data-stu-id="fcea4-111">Connecting the Help system</span></span>
 > [!NOTE]
 > <span data-ttu-id="fcea4-112">Вкладка **Проводники по задачам** в настоящее время недоступна в Microsoft Dynamics 365 for Talent и Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="fcea4-112">The **Task guides** tab is currently not available in Microsoft Dynamics 365 for Talent and Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="fcea4-113">Мы в настоящее время работаем для включения этой функции в будущих выпусках.</span><span class="sxs-lookup"><span data-stu-id="fcea4-113">We are currently working to enable this functionality in a future release.</span></span> <span data-ttu-id="fcea4-114">Проводники по задачам в разделе начала работы в Talent остаются доступными для работы с основными функциями.</span><span class="sxs-lookup"><span data-stu-id="fcea4-114">The Task guides in the Getting Started experience in Talent remain available to cover basic functionality.</span></span> <span data-ttu-id="fcea4-115">Практические советы можно также получить на сайте docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) для Retail и Talent.</span><span class="sxs-lookup"><span data-stu-id="fcea4-115">Procedural help is also available on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) for both Retail and Talent.</span></span>
- 
+
 
 <span data-ttu-id="fcea4-116">С помощью страницы **Системные параметры** системные администраторы подключают части системы справки для реализации.</span><span class="sxs-lookup"><span data-stu-id="fcea4-116">Using the **System Parameters** page, system administrators connect the pieces of the Help system for an implementation.</span></span> <span data-ttu-id="fcea4-117">[![Форма "Системные параметры" с настройками системы справки](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) На странице **Системные параметры** выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="fcea4-117">[![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) On the **System parameters** page, follow these steps:</span></span>
 

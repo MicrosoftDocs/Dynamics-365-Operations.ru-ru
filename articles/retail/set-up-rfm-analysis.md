@@ -20,17 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: e7c815cc5b660b505cb06560efc3e7501645c350
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec804559d6514b4443bd295ec9d9b8b192f45ec0
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-rfm-analysis"></a><span data-ttu-id="b10d1-103">Настройка анализа RFM</span><span class="sxs-lookup"><span data-stu-id="b10d1-103">Set up RFM analysis</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="b10d1-104">В этом разделе описывается, как настроить анализ RFM (новизна, частота и денежные средства) клиентов.</span><span class="sxs-lookup"><span data-stu-id="b10d1-104">This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</span></span>
 
@@ -60,25 +59,25 @@ ms.lasthandoff: 01/18/2018
     - <span data-ttu-id="b10d1-126">Если в каждом разделе балла RFM должно быть одинаковое количество клиентов, установите флажок **Равномерное распределение**.</span><span class="sxs-lookup"><span data-stu-id="b10d1-126">If each section of the RFM score must contain an equal count of customers, select the **Even distribution** check box.</span></span> 
     - <span data-ttu-id="b10d1-127">Установите флажок **Добавить оценки** для использования суммы трех баллов.</span><span class="sxs-lookup"><span data-stu-id="b10d1-127">Select the **Add scores** check box to aggregate the three scores.</span></span> <span data-ttu-id="b10d1-128">Например, в этом случае клиент с баллом RFM 535 имел бы балл 13.</span><span class="sxs-lookup"><span data-stu-id="b10d1-128">For example, this would give a customer an RFM score of 13 instead of 535.</span></span> 
     - <span data-ttu-id="b10d1-129">Установите флажок **Сохранить историю**, чтобы система сохраняло статистические данные по клиентам, чтобы их можно было использовать для расчета балла RFM.</span><span class="sxs-lookup"><span data-stu-id="b10d1-129">Select the **Save history** check box to require the system to save the statistical data for customers so that the data can be used to calculate the RFM score.</span></span>
-  
+
 5.  <span data-ttu-id="b10d1-130">На экспресс-вкладке **Новизна** выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="b10d1-130">On the **Recency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="b10d1-131">В поле **Подразделения** введите количество подразделений или групп, которые будут использоваться для расчета балла новизны для клиентов.</span><span class="sxs-lookup"><span data-stu-id="b10d1-131">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the recency score for customers.</span></span> <span data-ttu-id="b10d1-132">Например, если имеется 100 клиентов, подразделение 5 означает, что для каждого балла предусмотрено 20 клиентов.</span><span class="sxs-lookup"><span data-stu-id="b10d1-132">For example, if you have 100 customers, a division of 5 means that there are 20 customers for each score.</span></span> <span data-ttu-id="b10d1-133">20 клиентов, которые сделали покупки последними, имеют балл давности 5.</span><span class="sxs-lookup"><span data-stu-id="b10d1-133">The 20 customers who have made purchases most recently have a recency score of 5.</span></span> <span data-ttu-id="b10d1-134">Следующие 20 клиентов имеют балл давности 4 и т. д.</span><span class="sxs-lookup"><span data-stu-id="b10d1-134">The next 20 customers have a recency score of 4, and so on.</span></span> <span data-ttu-id="b10d1-135">При наличии 50 клиентов балл новизны 10 клиентов будет равен 5, следующих 10 клиентов — 4 и т. д.</span><span class="sxs-lookup"><span data-stu-id="b10d1-135">If you have 50 customers, 10 customers have a recency score of 5, 10 have a recency score of 4, and so on.</span></span> 
     - <span data-ttu-id="b10d1-136">В поле **Приоритет** выберите приоритет параметра новизны по отношению к другим параметрам при расчете балла RFM для клиента.</span><span class="sxs-lookup"><span data-stu-id="b10d1-136">In the **Priority** field, select how much weight to give the recency parameter in relation to the other parameters when the RFM score is calculated for a customer.</span></span> <span data-ttu-id="b10d1-137">Например, баллу новизны можно назначить более высокий приоритет по сравнению с баллом денежных средств.</span><span class="sxs-lookup"><span data-stu-id="b10d1-137">For example, you might place more value on the recency score than the monetary score.</span></span> 
     - <span data-ttu-id="b10d1-138">В поле **Множитель** введите значение, на которое необходимо умножить балл новизны.</span><span class="sxs-lookup"><span data-stu-id="b10d1-138">In the **Multiplier** field, enter the value by which to multiply the recency score.</span></span> <span data-ttu-id="b10d1-139">Если значение не введено, балл не будет умножаться.</span><span class="sxs-lookup"><span data-stu-id="b10d1-139">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="b10d1-140">В поле **Период** введите период времени, за который рассчитывается балл новизны.</span><span class="sxs-lookup"><span data-stu-id="b10d1-140">In the **Period** field, select the time period by which the recency score is calculated.</span></span> <span data-ttu-id="b10d1-141">Например, за неделю или за месяц.</span><span class="sxs-lookup"><span data-stu-id="b10d1-141">For example, by week or by month.</span></span>
-   
+
 6.  <span data-ttu-id="b10d1-142">На экспресс-вкладке **Частота** выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="b10d1-142">On the **Frequency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="b10d1-143">В поле **Подразделения** введите количество подразделений или групп, которые будут использоваться для расчета балла частоты для клиентов.</span><span class="sxs-lookup"><span data-stu-id="b10d1-143">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the frequency score for customers.</span></span> 
     - <span data-ttu-id="b10d1-144">В поле **Приоритет** выберите приоритет параметра частоты по отношению к другим параметрам при расчете балла RFM для клиента.</span><span class="sxs-lookup"><span data-stu-id="b10d1-144">In the **Priority** field, select how much weight to give the frequency parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="b10d1-145">В поле **Множитель** введите значение, на которое необходимо умножить балл частоты.</span><span class="sxs-lookup"><span data-stu-id="b10d1-145">In the **Multiplier** field, enter the value by which to multiply the frequency score.</span></span> <span data-ttu-id="b10d1-146">Если значение не введено, балл не будет умножаться.</span><span class="sxs-lookup"><span data-stu-id="b10d1-146">If you do not enter a value, the score will not be multiplied.</span></span>
-   
+
 7.  <span data-ttu-id="b10d1-147">На экспресс-вкладке **Денежный** выполните следующие действия:</span><span class="sxs-lookup"><span data-stu-id="b10d1-147">On the **Monetary** FastTab, do the following:</span></span> 
     - <span data-ttu-id="b10d1-148">В поле **Подразделения** введите количество подразделений или групп, которые будут использоваться для расчета денежного балла для клиентов.</span><span class="sxs-lookup"><span data-stu-id="b10d1-148">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the monetary score for customers.</span></span> 
     - <span data-ttu-id="b10d1-149">В поле **Приоритет** выберите приоритет денежного параметра по отношению к другим параметрам при расчете балла RFM для клиента.</span><span class="sxs-lookup"><span data-stu-id="b10d1-149">In the **Priority** field, select how much weight to give the monetary parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="b10d1-150">В поле **Множитель** введите значение, на которое необходимо умножить денежный балл.</span><span class="sxs-lookup"><span data-stu-id="b10d1-150">In the **Multiplier** field, enter the value by which to multiply the monetary score.</span></span> <span data-ttu-id="b10d1-151">Если значение не введено, балл не будет умножаться.</span><span class="sxs-lookup"><span data-stu-id="b10d1-151">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="b10d1-152">В поле **Брутто/нетто** выберите, следует ли рассчитывать балл денежных средств клиента с помощью валовой или чистой суммы.</span><span class="sxs-lookup"><span data-stu-id="b10d1-152">In the **Gross/net** field, select whether the customer’s monetary score should be calculated by using the gross or net invoice amount.</span></span> 
     - <span data-ttu-id="b10d1-153">Если суммы возврата клиента следует вычитать из общего расчета по накладной клиента, установите флажок **Вычесть возвраты**.</span><span class="sxs-lookup"><span data-stu-id="b10d1-153">If a customer’s return amounts should be subtracted from the customer’s total invoice calculation, select the **Subtract returns** check box.</span></span> 
- 
+
 ## <a name="view-a-customers-rfm-score"></a><span data-ttu-id="b10d1-154">Просмотр балла RFM клиента</span><span class="sxs-lookup"><span data-stu-id="b10d1-154">View a customer’s RFM score</span></span>
 <span data-ttu-id="b10d1-155">Эта процедура используется для просмотра балла RFM клиента.</span><span class="sxs-lookup"><span data-stu-id="b10d1-155">Use this procedure to view a customer’s RFM score.</span></span> 
 

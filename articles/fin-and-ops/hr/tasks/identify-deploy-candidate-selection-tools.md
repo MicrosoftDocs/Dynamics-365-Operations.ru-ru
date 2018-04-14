@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eb6e6121d39f9fc089afe38354b96eb88e5501d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0d7fbc5f9b928a43870899836ead4f8adbc1a56
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a><span data-ttu-id="5fa6c-103">Определение и развертывание средств выбора кандидатов</span><span class="sxs-lookup"><span data-stu-id="5fa6c-103">Identify and deploy candidate selection tools</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5fa6c-104">Найти соответствующих кандидатов для заполнения вакансий может быть трудно, особенно если для должности требуется уникальный набор навыков.</span><span class="sxs-lookup"><span data-stu-id="5fa6c-104">Finding a qualified pool of candidates to fill vacancies can be difficult, especially when a position requires a unique set of skills.</span></span>  <span data-ttu-id="5fa6c-105">Однако кандидаты с необходимыми навыками могут уже работать в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="5fa6c-105">However, candidates with the skills you need might already be employed in your organization.</span></span> <span data-ttu-id="5fa6c-106">Вы можете выполнить поиск определенного набора навыков среди существующих сотрудников или новых кандидатов.</span><span class="sxs-lookup"><span data-stu-id="5fa6c-106">You can search for a specific skill set among existing employees, or new applicants.</span></span> <span data-ttu-id="5fa6c-107">Это позволяет менеджеру по найму быстро найти и просмотреть кандидатов, которые подали заявление на открытую позицию в данный момент или в прошлом, или найти потенциальных кандидатов среди существующих сотрудников.</span><span class="sxs-lookup"><span data-stu-id="5fa6c-107">This allows a recruiter to quickly gather and screen applicants who have applied for open position now or in the past, or to find potential candidates from their existing pool of employees.</span></span> <span data-ttu-id="5fa6c-108">Используйте эту запись задачи, чтобы узнать, как функция подбора персонала может помочь найти нужного человека на открытую позицию.</span><span class="sxs-lookup"><span data-stu-id="5fa6c-108">Use this task recording to learn how the skill mapping functionality can help you find the right person for an open position.</span></span> <span data-ttu-id="5fa6c-109">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="5fa6c-109">The demo data company used to create this procedure is USMF.</span></span>
 

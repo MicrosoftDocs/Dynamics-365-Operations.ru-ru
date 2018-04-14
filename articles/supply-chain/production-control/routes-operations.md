@@ -20,17 +20,16 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 4026fa937ddf88f006cdcd13a8eda10c326ada62
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 90a12b501b55bc6406ea13c2e643cd58f8128390
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="routes-and-operations"></a><span data-ttu-id="a65d9-103">Маршруты и операции</span><span class="sxs-lookup"><span data-stu-id="a65d9-103">Routes and operations</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a65d9-104">В данном разделе содержится общая информация о маршрутах и операциях.</span><span class="sxs-lookup"><span data-stu-id="a65d9-104">This topic provides information about routes and operations.</span></span> <span data-ttu-id="a65d9-105">Маршрут определяет процесс для производства продукта или варианта продукта.</span><span class="sxs-lookup"><span data-stu-id="a65d9-105">A route defines the process for producing a product or product variant.</span></span> <span data-ttu-id="a65d9-106">Он описывает каждый шаг (операцию) в производственном процессе и порядок, в котором следует выполнять эти шаги.</span><span class="sxs-lookup"><span data-stu-id="a65d9-106">It describes each step (operation) in the production process and the order that these steps must be performed in.</span></span> <span data-ttu-id="a65d9-107">Для каждого шага маршрут также определяет необходимые операционные ресурсы, необходимое время настройки и время выполнения, а также порядок расчета затрат.</span><span class="sxs-lookup"><span data-stu-id="a65d9-107">For each step, the route also defines the required operations resources, the required setup time and run time, and how the cost should be calculated.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7cab69222c5004e6a62c632a9e85085403434ffd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b60dbe15eca10511f4aaaf472b512eb003fbf6bc
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="confirm-sales-orders"></a><span data-ttu-id="dcf5b-103">Подтверждение заказов на продажу</span><span class="sxs-lookup"><span data-stu-id="dcf5b-103">Confirm sales orders</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dcf5b-104">В этой процедуре демонстрируется, как подтверждать заказы на продажу.</span><span class="sxs-lookup"><span data-stu-id="dcf5b-104">This procedure demonstrates how to confirm sales orders.</span></span> <span data-ttu-id="dcf5b-105">Вы увидите, как подтвердить один заказ, а также подтвердить несколько заказов сразу.</span><span class="sxs-lookup"><span data-stu-id="dcf5b-105">You’ll be shown how to confirm a single order, and how to confirm multiple orders at once.</span></span> <span data-ttu-id="dcf5b-106">Эти задачи обычно выполняются обработчиком заказов на продажу.</span><span class="sxs-lookup"><span data-stu-id="dcf5b-106">These tasks would typically be carried out by a sales order processor.</span></span> <span data-ttu-id="dcf5b-107">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="dcf5b-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="dcf5b-108">Прежде чем начать, убедитесь, что у вас есть несколько открытых заказов на продажу для одного и того же клиента.</span><span class="sxs-lookup"><span data-stu-id="dcf5b-108">Before you start, make sure there are several open sales orders for the same customer.</span></span> <span data-ttu-id="dcf5b-109">При использовании USMF можно использовать клиента US-027.</span><span class="sxs-lookup"><span data-stu-id="dcf5b-109">If you’re using USMF, you can use customer US-027.</span></span>
 

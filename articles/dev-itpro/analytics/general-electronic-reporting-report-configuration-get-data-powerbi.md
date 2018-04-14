@@ -18,17 +18,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6587189fe2a366caebd0dbaf34487d578815bb94
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a><span data-ttu-id="34556-103">Настройка электронной отчетности для загрузки данных в Power BI</span><span class="sxs-lookup"><span data-stu-id="34556-103">Configure Electronic reporting to pull data into Power BI</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="34556-104">В этом разделе описывается, как можно использовать конфигурацию электронной отчетности (ER), чтобы настроить перенос данных из вашего экземпляра Finance and Operations в службы Power BI.</span><span class="sxs-lookup"><span data-stu-id="34556-104">This topic explains how you can use your Electronic reporting (ER) configuration to arrange the transfer of data from your instance of Finance and Operations to Power BI services.</span></span> <span data-ttu-id="34556-105">В качестве примера в этом разделе используются проводки Интрастат как бизнес-данные, которые необходимо перенести.</span><span class="sxs-lookup"><span data-stu-id="34556-105">As an example, this topic uses Intrastat transactions as business data that must be transferred.</span></span> <span data-ttu-id="34556-106">Визуализация карты Power BI использует эти данные о проводках Интрастат для представления анализа мероприятий импорта или экспорта компании в отчете Power BI.</span><span class="sxs-lookup"><span data-stu-id="34556-106">The Power BI map visualization uses this Intrastat transaction data to present a view for analysis of company import/export activities on the Power BI report.</span></span>
 
@@ -118,9 +117,9 @@ ms.lasthandoff: 02/23/2018
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a><span data-ttu-id="34556-217">Создание отчета Power BI. используя новый набор данных</span><span class="sxs-lookup"><span data-stu-id="34556-217">Create a Power BI report by using the new dataset</span></span>
 1. <span data-ttu-id="34556-218">Щелкните созданный вами набор данных Power BI **Сведения об импорте и экспорте**.</span><span class="sxs-lookup"><span data-stu-id="34556-218">Click the **Import and export details** Power BI dataset that you created.</span></span> 
 2. <span data-ttu-id="34556-219">Настройте визуализацию.</span><span class="sxs-lookup"><span data-stu-id="34556-219">Configure the visualization.</span></span> <span data-ttu-id="34556-220">Например, выберите визуализацию **Картограмма** и настройте ее следующим образом:</span><span class="sxs-lookup"><span data-stu-id="34556-220">For example, select the **Filled map** visualization, and configure it as follows:</span></span>
- -   <span data-ttu-id="34556-221">Назначьте поле **CountryOrigin** набора данных полю **Местоположение** визуализации карты.</span><span class="sxs-lookup"><span data-stu-id="34556-221">Assign the **CountryOrigin** dataset field to the **Location** field of the map visualization.</span></span>
- -   <span data-ttu-id="34556-222">Назначьте поле **Amount** набора данных полю **Насыщенность цвета** визуализации карты.</span><span class="sxs-lookup"><span data-stu-id="34556-222">Assign the **Amount** dataset field to the **Color saturation** field of the map visualization.</span></span>
- -   <span data-ttu-id="34556-223">Добавьте поля **Мероприятие** и **Год** набора данных в коллекцию полей **Фильтры** визуализации карты.</span><span class="sxs-lookup"><span data-stu-id="34556-223">Add the **Activity** and **Year** dataset fields to the **Filters** fields collection of the map visualization.</span></span>
+   -   <span data-ttu-id="34556-221">Назначьте поле **CountryOrigin** набора данных полю **Местоположение** визуализации карты.</span><span class="sxs-lookup"><span data-stu-id="34556-221">Assign the **CountryOrigin** dataset field to the **Location** field of the map visualization.</span></span>
+   -   <span data-ttu-id="34556-222">Назначьте поле **Amount** набора данных полю **Насыщенность цвета** визуализации карты.</span><span class="sxs-lookup"><span data-stu-id="34556-222">Assign the **Amount** dataset field to the **Color saturation** field of the map visualization.</span></span>
+   -   <span data-ttu-id="34556-223">Добавьте поля **Мероприятие** и **Год** набора данных в коллекцию полей **Фильтры** визуализации карты.</span><span class="sxs-lookup"><span data-stu-id="34556-223">Add the **Activity** and **Year** dataset fields to the **Filters** fields collection of the map visualization.</span></span>
 
 3. <span data-ttu-id="34556-224">Сохраните отчет Power BI как **Отчет со сведениями об импорте и экспорте**.</span><span class="sxs-lookup"><span data-stu-id="34556-224">Save the Power BI report as **Import and export details report**.</span></span> <span data-ttu-id="34556-225">[![Отчет со сведениями об импорте и экспорте](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Обратите внимание, что карта показывает страны или регионы, упоминаемые в файле Excel (Австрия и Швейцария в этом примере).</span><span class="sxs-lookup"><span data-stu-id="34556-225">[![Import and export details report](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Note that the map shows the countries/regions that are mentioned in the Excel file (Austria and Switzerland in this example).</span></span> <span data-ttu-id="34556-226">Эти страны или регионы покрашены, чтобы показать пропорции сумм по накладным для каждого.</span><span class="sxs-lookup"><span data-stu-id="34556-226">These countries/regions are colored to show the proportion of invoiced amounts for each.</span></span> 
 4. <span data-ttu-id="34556-227">Обновите список проводок Интрастат.</span><span class="sxs-lookup"><span data-stu-id="34556-227">Update the list of Intrastat transactions.</span></span> <span data-ttu-id="34556-228">Проводки экспорта из Италии добавляются.</span><span class="sxs-lookup"><span data-stu-id="34556-228">The export transaction that originated from Italy is added.</span></span> <span data-ttu-id="34556-229">[![Список проводок Интрастат](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)</span><span class="sxs-lookup"><span data-stu-id="34556-229">[![Intrastat transactions list](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)</span></span> 

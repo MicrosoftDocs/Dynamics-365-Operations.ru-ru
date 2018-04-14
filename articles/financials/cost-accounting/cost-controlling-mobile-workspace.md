@@ -18,16 +18,16 @@ ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 39578744654215795f43fec8dcc70c264b66fb0b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8724f33176b4ff7730cd9d15e825bab794a10ac6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-controlling-mobile-workspace"></a><span data-ttu-id="74fba-104">Мобильная рабочая область управления затратами</span><span class="sxs-lookup"><span data-stu-id="74fba-104">Cost controlling mobile workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="74fba-105">В этой теме содержится информация о мобильной рабочей области **Управление затратами**.</span><span class="sxs-lookup"><span data-stu-id="74fba-105">This topic provides information about the **Cost controlling** mobile workspace.</span></span> <span data-ttu-id="74fba-106">Эта рабочая область позволяет менеджерам центра затрат просматривать сведения о производительности центра затрат в любое время и в любом месте.</span><span class="sxs-lookup"><span data-stu-id="74fba-106">This workspace lets cost center managers view information about cost center performance anytime and anywhere.</span></span>
 

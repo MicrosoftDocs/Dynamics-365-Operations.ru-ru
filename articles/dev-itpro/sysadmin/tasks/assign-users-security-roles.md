@@ -16,15 +16,15 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: da96ec8357ea209fd958e32ab438b13e668735df
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c7f35f57223798e91fc2a81c0821a2dc81512624
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="assign-users-to-security-roles"></a><span data-ttu-id="5cc02-103">Назначение пользователей для ролей безопасности</span><span class="sxs-lookup"><span data-stu-id="5cc02-103">Assign users to security roles</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5cc02-104">Для доступа к Microsoft Dynamics 365 for Finance and Operations пользователи должны быть назначены ролям безопасности.</span><span class="sxs-lookup"><span data-stu-id="5cc02-104">To access Microsoft Dynamics 365 for Finance and Operations, users must be assigned to security roles.</span></span> <span data-ttu-id="5cc02-105">В этой процедуре описывается, как системные администраторы могут назначить пользователей ролям автоматически на основе бизнес-данных.</span><span class="sxs-lookup"><span data-stu-id="5cc02-105">This procedure explains how system administrators can assign users to roles automatically, based on business data.</span></span> <span data-ttu-id="5cc02-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="5cc02-106">The demo data company used to create this procedure is USMF.</span></span>
 

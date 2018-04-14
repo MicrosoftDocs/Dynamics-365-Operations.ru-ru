@@ -19,17 +19,16 @@ ms.author: anpurush
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 044b7d1065f67ab412688a6904f75bacacc9abbb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a28c28fb39c2318a4f670dc48ff401c8fbdafdce
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="hybrid-customer-orders"></a><span data-ttu-id="98658-103">Гибридные клиентские заказы</span><span class="sxs-lookup"><span data-stu-id="98658-103">Hybrid customer orders</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="98658-104">Гибридный клиентский заказ представляет собой один заказ, содержащий продукты, которые клиент может унести с собой из магазина, а также продукты, которые он заберет или которые будут доставлены позже.</span><span class="sxs-lookup"><span data-stu-id="98658-104">A hybrid customer order is a single order, which contains products that can be carried out of the store by the customer, as well as products that will be picked up or shipped later.</span></span>
 

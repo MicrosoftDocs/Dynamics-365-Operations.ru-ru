@@ -19,16 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: ee82e3c8cabde0a1bfb3a89308fdc020feacc4c6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ecfe713215adbc5eec0ef69c6c5c4d95b886ceb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="recruiting-power-bi-content"></a><span data-ttu-id="83d04-104">Содержимое Power BI по набору сотрудников</span><span class="sxs-lookup"><span data-stu-id="83d04-104">Recruiting Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="83d04-105">В этой теме описывается содержимое Microsoft Power BI **Набор сотрудников**.</span><span class="sxs-lookup"><span data-stu-id="83d04-105">This topic describes the **Recruiting** Microsoft Power BI content.</span></span> <span data-ttu-id="83d04-106">В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.</span><span class="sxs-lookup"><span data-stu-id="83d04-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 

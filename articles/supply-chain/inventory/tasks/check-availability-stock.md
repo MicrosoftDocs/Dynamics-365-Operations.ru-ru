@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 74eaa59db44e21b3ddfae38d28f84712959cc40e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4b08aa7376bee6526d1993ee38916b60d0e0648
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="check-the-availability-of-stock"></a><span data-ttu-id="447c2-103">Проверка доступности запасов</span><span class="sxs-lookup"><span data-stu-id="447c2-103">Check the availability of stock</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="447c2-104">В этой процедуре показано, как проверить запасы в наличии и физические запасы в наличии для определенного кода номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="447c2-104">This procedure shows you how to check on-hand and physical on-hand inventory for a specific item number.</span></span> <span data-ttu-id="447c2-105">В ней также показано, как получить информацию о поставках, связанную с номенклатурой.</span><span class="sxs-lookup"><span data-stu-id="447c2-105">It also shows you how to get supply information related to an item.</span></span> <span data-ttu-id="447c2-106">Физические запасы в наличии — это доступные запасы в наличии, то есть они куплены, получены и зарегистрированы.</span><span class="sxs-lookup"><span data-stu-id="447c2-106">Physical on-hand inventory is the on-hand inventory that’s available – that is, it’s purchased, received and registered.</span></span> <span data-ttu-id="447c2-107">Запасы в наличии включают доступные запасы в наличии, но также запасы, которые были заказаны и ожидаются, но еще не получены и не зарегистрированы.</span><span class="sxs-lookup"><span data-stu-id="447c2-107">On-hand inventory includes the available on-hand inventory, but also the inventory that’s been ordered and is expected, but not yet received or registered.</span></span> <span data-ttu-id="447c2-108">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="447c2-108">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="447c2-109">При использовании USMF можно использовать представленные примеры значений.</span><span class="sxs-lookup"><span data-stu-id="447c2-109">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="447c2-110">Эти задачи обычно выполняются работником склада.</span><span class="sxs-lookup"><span data-stu-id="447c2-110">These tasks would typically be carried out by a warehouse worker.</span></span>
 

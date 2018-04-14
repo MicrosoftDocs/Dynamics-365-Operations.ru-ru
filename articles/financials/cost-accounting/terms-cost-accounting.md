@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3c493ab60952e60e6816ebdc3decb1ebe670806f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-accounting-terminology"></a><span data-ttu-id="7a0aa-103">Терминология учета затрат</span><span class="sxs-lookup"><span data-stu-id="7a0aa-103">Cost accounting terminology</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7a0aa-104">В этой разделе определяются ключевые термины, используемые в модуле учета затрат.</span><span class="sxs-lookup"><span data-stu-id="7a0aa-104">This topic defines the key terms that are used in Cost accounting.</span></span>
 
@@ -150,14 +149,14 @@ ms.lasthandoff: 03/26/2018
 |  + |  <span data-ttu-id="7a0aa-241">Сложение</span><span class="sxs-lookup"><span data-stu-id="7a0aa-241">Addition</span></span> |
 |  <span data-ttu-id="7a0aa-242">–</span><span class="sxs-lookup"><span data-stu-id="7a0aa-242">–</span></span> |  <span data-ttu-id="7a0aa-243">Вычитание</span><span class="sxs-lookup"><span data-stu-id="7a0aa-243">Subtraction</span></span> |
 | *  | <span data-ttu-id="7a0aa-244">Умножение</span><span class="sxs-lookup"><span data-stu-id="7a0aa-244">Multiplication</span></span>  |
-    
+
 <span data-ttu-id="7a0aa-245">Традиционные операторы IF не поддерживаются.</span><span class="sxs-lookup"><span data-stu-id="7a0aa-245">Traditional IF statements are not supported.</span></span> <span data-ttu-id="7a0aa-246">Тем не менее можно создавать выписки и проверять,выполняются ли они.</span><span class="sxs-lookup"><span data-stu-id="7a0aa-246">However, you can create statements and validate whether they are true.</span></span>
 
 |  <span data-ttu-id="7a0aa-247">**Проверка оператора**</span><span class="sxs-lookup"><span data-stu-id="7a0aa-247">**Statement  Validation**</span></span> | <span data-ttu-id="7a0aa-248">**Результат**</span><span class="sxs-lookup"><span data-stu-id="7a0aa-248">**Result**</span></span>  |
 |---|---|
 |  <span data-ttu-id="7a0aa-249">a > b</span><span class="sxs-lookup"><span data-stu-id="7a0aa-249">a > b</span></span>| <span data-ttu-id="7a0aa-250">Истина</span><span class="sxs-lookup"><span data-stu-id="7a0aa-250">True</span></span>  |
 |  <span data-ttu-id="7a0aa-251">a > b</span><span class="sxs-lookup"><span data-stu-id="7a0aa-251">a > b</span></span> |  <span data-ttu-id="7a0aa-252">Ложь</span><span class="sxs-lookup"><span data-stu-id="7a0aa-252">False</span></span> |
-    
+
 <span data-ttu-id="7a0aa-253">**Накладные расходы**</span><span class="sxs-lookup"><span data-stu-id="7a0aa-253">**Overhead cost**</span></span>
 
 <span data-ttu-id="7a0aa-254">Накладные расходы представляют собой текущее расходы на работу компании.</span><span class="sxs-lookup"><span data-stu-id="7a0aa-254">Overhead costs refer to the ongoing expenses of operating a business.</span></span> <span data-ttu-id="7a0aa-255">Это затрат, которые нельзя напрямую связать с определенными бизнес-мероприятиями.</span><span class="sxs-lookup"><span data-stu-id="7a0aa-255">They are the costs that can’t be linked directly to specific business activities.</span></span> <span data-ttu-id="7a0aa-256">Ниже приведены несколько примеров накладных расходов.</span><span class="sxs-lookup"><span data-stu-id="7a0aa-256">Here are some examples of overhead costs:</span></span>

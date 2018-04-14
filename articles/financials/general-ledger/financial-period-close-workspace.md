@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2e6b36726b59190173b85ecb130fbecc8b214d63
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-period-close-workspace"></a><span data-ttu-id="b350d-103">Рабочая область закрытия финансового периода</span><span class="sxs-lookup"><span data-stu-id="b350d-103">Financial period close workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b350d-104">Эта статья предоставляет обзор Рабочей области "Закрытие финансового периода" и соответствующего конфигурации.</span><span class="sxs-lookup"><span data-stu-id="b350d-104">This article provides an overview of the Financial period close workspace and the associated configuration.</span></span>
 

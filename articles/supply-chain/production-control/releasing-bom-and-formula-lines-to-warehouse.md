@@ -18,16 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 838dc1e5867b8380823275aba5fc425003a54523
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 162b6d660fb5ec8df79dc44b89dea87d877c6470
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a><span data-ttu-id="99725-103">Выпуск спецификации и строк формулы на склад</span><span class="sxs-lookup"><span data-stu-id="99725-103">Release BOM and formula lines to the warehouse</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="99725-104">В этом разделе описан процесс выпуска сырья для строк спецификации (BOM) и строк формулы на склад.</span><span class="sxs-lookup"><span data-stu-id="99725-104">This topic describes the process for releasing raw material for bill of materials (BOM) lines and formula lines to the warehouse.</span></span> <span data-ttu-id="99725-105">При выпуске строки спецификации или формулы на склад система сначала определяет, является ли материал уже доступным в местонахождении поступления на производство в цехе, в котором материал будет потребляться для производственного процесса.</span><span class="sxs-lookup"><span data-stu-id="99725-105">When you release a BOM or formula line to the warehouse, the system first determines whether material is already available at the production input location on the shop floor where the material will be consumed for the production process.</span></span>
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/08/2018
 - <span data-ttu-id="99725-119">**Выпуск строк спецификации и формулы посредством пакетного задания или как ручное взаимодействие** — в этом методе строки спецификации и формулы могут быть выпущены только с помощью пакетного задания **Автоматический выпуск строк спецификации и формулы** или при ручном взаимодействии.</span><span class="sxs-lookup"><span data-stu-id="99725-119">**Release BOM and formula lines via a batch job or as a manual interaction** – In this method, BOM and formula lines can be released only through the **Automatic release of BOM and formula lines** batch job or as a manual interaction.</span></span> <span data-ttu-id="99725-120">Чтобы вручную выпустить строки спецификации и формулы, на странице списка производственного заказа или странице сведений о производственном заказе в области действий выберите **Запуск на склад**.</span><span class="sxs-lookup"><span data-stu-id="99725-120">To manually release BOM and formula lines, on the production order list page or the production order details page, on the Action Pane, select **Release to warehouse**.</span></span>
 
 <span data-ttu-id="99725-121">Для быстрой демонстрации порядка выпуска спецификации и строк формулы в производство с помощью пакетного задания просмотрите это короткое видео на YouTube:</span><span class="sxs-lookup"><span data-stu-id="99725-121">For a quick demonstration of how to release BOM and formula lines to production by using a batch job, watch this short YouTube video:</span></span>
-[!Video https://www.youtube.com/embed/8urAJn50dQ8]
+[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a><span data-ttu-id="99725-122">Выпуск строк спецификации и формулы с помощью пакетного задания</span><span class="sxs-lookup"><span data-stu-id="99725-122">Releasing the BOM and formula lines by using a batch job</span></span>
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 03/08/2018
 ![Пример выпуска материалов по коду операции](media/two-operations.PNG)
 
 <span data-ttu-id="99725-177">Для быстрой демонстрации порядка выпуска материала пропорционально количеству готовой продукции посмотрите это короткое видео на YouTube:</span><span class="sxs-lookup"><span data-stu-id="99725-177">For a quick demonstration of how to release material in proportion to the amount of finished goods, watch this short YouTube video:</span></span>
-[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
+[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a><span data-ttu-id="99725-178">Выпуск материала пропорционально количеству готовой продукции</span><span class="sxs-lookup"><span data-stu-id="99725-178">Release material in proportion to the amount of finished goods</span></span>
 

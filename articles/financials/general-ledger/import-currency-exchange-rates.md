@@ -19,17 +19,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 662a649f20fa4e22d83d22b651ec8bcdd69f8028
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="import-currency-exchange-rates"></a><span data-ttu-id="6f728-105">Импорт курсов обмена валют</span><span class="sxs-lookup"><span data-stu-id="6f728-105">Import currency exchange rates</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6f728-106">Если юридическое лицо получило накладных в иностранной валюте, необходимо преобразовывать иностранную валюту в местную валюту.</span><span class="sxs-lookup"><span data-stu-id="6f728-106">If a legal entity has received invoices in foreign currencies, it’s necessary to convert the foreign currency into the local currency.</span></span> <span data-ttu-id="6f728-107">Это означает, что требуются актуальные валютные курсы для разных валют.</span><span class="sxs-lookup"><span data-stu-id="6f728-107">This means that up-to-date exchange rates for different currencies are required.</span></span> <span data-ttu-id="6f728-108">В этом разделе представлен обзор необходимых параметров и обработки для импорта справочных курсов иностранных валют, публикуемых в Интернете поставщиками валютных курсов, такими как Европейский Центральный банк и Центральный Банк России.</span><span class="sxs-lookup"><span data-stu-id="6f728-108">This topic provides an overview of the required settings and processing for importing foreign exchange reference rates published over the Internet by the exchange rate providers, such as the European Central Bank and the Central Bank of Russia.</span></span>
 

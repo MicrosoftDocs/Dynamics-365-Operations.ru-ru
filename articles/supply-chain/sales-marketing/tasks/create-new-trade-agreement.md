@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eb7a945243387f85ec5f38cc3b969d8d030ff25
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 134642ff2eed988c137e7d0ecc8b0da77684f8c7
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-new-trade-agreement"></a><span data-ttu-id="9eb63-103">Создание нового коммерческого соглашения</span><span class="sxs-lookup"><span data-stu-id="9eb63-103">Create a new trade agreement</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9eb63-104">В этой процедуре показано, как создать коммерческом соглашение для регистрации новой цены продажи продукта, согласованной с конкретным клиентом.</span><span class="sxs-lookup"><span data-stu-id="9eb63-104">This procedure shows you how to create a trade agreement where you register a new product sales price that you've agreed with a specific customer.</span></span> <span data-ttu-id="9eb63-105">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="9eb63-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="9eb63-106">При использовании собственных данных перед началом этого руководства убедитесь в наличии имени журнала коммерческих соглашений, у которого параметр "Связь по умолчанию" установлен в значение "Цена (продажа)".</span><span class="sxs-lookup"><span data-stu-id="9eb63-106">If you’re using your own data, before you start this guide you need to make sure that a Trade agreement journal name exists where the Default relation is set to “Price (sales)”.</span></span>
 

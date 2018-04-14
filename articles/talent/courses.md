@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 27fbc54afca384b804f2b0468206242ff89d4031
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a86709bc222339531a21997510a65c138024256c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-training-courses"></a><span data-ttu-id="a3cca-103">Настройка курсов обучения</span><span class="sxs-lookup"><span data-stu-id="a3cca-103">Set up training courses</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="a3cca-104">Администраторы и менеджеры по управлению персоналом могут использовать характеристики курсов для ведения информации об обучении, которое предложено работникам.</span><span class="sxs-lookup"><span data-stu-id="a3cca-104">Human resources administrators and managers can use the courses features to maintain information about the training that's offered to workers.</span></span>
 
@@ -81,15 +80,15 @@ ms.lasthandoff: 02/23/2018
 
 ## <a name="course-tasks"></a><span data-ttu-id="a3cca-134">Задачи курса</span><span class="sxs-lookup"><span data-stu-id="a3cca-134">Course tasks</span></span>
 <span data-ttu-id="a3cca-135">Для каждого курса можно выполнить следующие задачи.</span><span class="sxs-lookup"><span data-stu-id="a3cca-135">For each course, you can complete the following tasks.</span></span>
--   <span data-ttu-id="a3cca-136">Зарегистрировать слушателей</span><span class="sxs-lookup"><span data-stu-id="a3cca-136">Register participants</span></span>
--   <span data-ttu-id="a3cca-137">Определить крайний срок регистрации</span><span class="sxs-lookup"><span data-stu-id="a3cca-137">Specify a registration deadline</span></span>
--   <span data-ttu-id="a3cca-138">Определить минимальный и максимальный номера слушателей</span><span class="sxs-lookup"><span data-stu-id="a3cca-138">Define the minimum and maximum number of participants</span></span>
--   <span data-ttu-id="a3cca-139">Назначить место проведения курсов и аудиторию</span><span class="sxs-lookup"><span data-stu-id="a3cca-139">Assign a course location and classroom</span></span>
--   <span data-ttu-id="a3cca-140">Рекомендовать гостиницы слушателям курсов</span><span class="sxs-lookup"><span data-stu-id="a3cca-140">Recommend hotels to course participants</span></span>
--   <span data-ttu-id="a3cca-141">Создать описание курса, который можно затем рекламировать на портале самообслуживания сотрудников</span><span class="sxs-lookup"><span data-stu-id="a3cca-141">Create a course description, which you can then advertise on Employee self service</span></span>
+- <span data-ttu-id="a3cca-136">Зарегистрировать слушателей</span><span class="sxs-lookup"><span data-stu-id="a3cca-136">Register participants</span></span>
+- <span data-ttu-id="a3cca-137">Определить крайний срок регистрации</span><span class="sxs-lookup"><span data-stu-id="a3cca-137">Specify a registration deadline</span></span>
+- <span data-ttu-id="a3cca-138">Определить минимальный и максимальный номера слушателей</span><span class="sxs-lookup"><span data-stu-id="a3cca-138">Define the minimum and maximum number of participants</span></span>
+- <span data-ttu-id="a3cca-139">Назначить место проведения курсов и аудиторию</span><span class="sxs-lookup"><span data-stu-id="a3cca-139">Assign a course location and classroom</span></span>
+- <span data-ttu-id="a3cca-140">Рекомендовать гостиницы слушателям курсов</span><span class="sxs-lookup"><span data-stu-id="a3cca-140">Recommend hotels to course participants</span></span>
+- <span data-ttu-id="a3cca-141">Создать описание курса, который можно затем рекламировать на портале самообслуживания сотрудников</span><span class="sxs-lookup"><span data-stu-id="a3cca-141">Create a course description, which you can then advertise on Employee self service</span></span>
 
   ><span data-ttu-id="a3cca-142">**Примечание.** Вы можете удалить курс, только если никто не зарегистрирован на него.</span><span class="sxs-lookup"><span data-stu-id="a3cca-142">**Note** You can delete a course only if no one has registered for it.</span></span> 
-    
+
 ## <a name="course-statuses"></a><span data-ttu-id="a3cca-143">Статусы курсов</span><span class="sxs-lookup"><span data-stu-id="a3cca-143">Course statuses</span></span>
 <span data-ttu-id="a3cca-144">В следующей таблице перечислены возможные статусы курсов и действия, которые могут выполняться, когда курс имеет определенный статус.</span><span class="sxs-lookup"><span data-stu-id="a3cca-144">The following table lists the possible course statuses and the actions that you can complete when the course has a specific status.</span></span>
 

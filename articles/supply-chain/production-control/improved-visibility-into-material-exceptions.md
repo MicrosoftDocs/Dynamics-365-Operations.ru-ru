@@ -18,15 +18,15 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: eca3141fc48aea24411524e5fc84686d9e4bfaa7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3e67446dbf3d9d7db83def646371f1bf88e9fab3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="visibility-into-material-exceptions"></a><span data-ttu-id="64701-103">Видимость исключений материалов</span><span class="sxs-lookup"><span data-stu-id="64701-103">Visibility into material exceptions</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="64701-104">В рабочей области **Управление производственным участком** три плитки обеспечивают лучшую видимость исключений для сырья для производственных заказов и заказов партий:</span><span class="sxs-lookup"><span data-stu-id="64701-104">In the **Production floor management** workspace, three tiles give you better visibility into exceptions for raw materials for production orders and batch orders:</span></span>
 

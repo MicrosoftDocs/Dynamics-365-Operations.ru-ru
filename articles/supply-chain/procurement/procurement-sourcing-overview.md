@@ -19,17 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7c738d888b7177a26b28438c820ce18312947318
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-and-sourcing-overview"></a><span data-ttu-id="6f332-103">Обзор модуля "Закупки и источники"</span><span class="sxs-lookup"><span data-stu-id="6f332-103">Procurement and sourcing overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6f332-104">В этой статье содержится обзор функциональных возможностей, доступных в модуле " Закупки и источники".</span><span class="sxs-lookup"><span data-stu-id="6f332-104">This article gives an overview of the functionality that's available in the Procurement and sourcing module.</span></span>
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 02/08/2018
 <span data-ttu-id="6f332-108">Потребность в продукте или услуге может возникать из *заявок*, например, когда сотруднику требуется тот или иной продукт.</span><span class="sxs-lookup"><span data-stu-id="6f332-108">The need for products or services may arise from *requisitions*, for example, when an employee requires a product.</span></span> <span data-ttu-id="6f332-109">Можно создать *каталоги продуктов*, чтобы дать сотрудникам возможность выбирать из доступных продуктов; кроме того, заявки могут делаться на продукты, которые еще не внесены в каталог. В этом случае отделы закупок рассматривают возможные способы поставки продукта.</span><span class="sxs-lookup"><span data-stu-id="6f332-109">*Product catalogs* can be set up to guide the selection of available products to select from, or requests can be made for products that are not yet made available in a catalog, allowing the purchasing department to consider how the product can be supplied.</span></span>  
 
 <span data-ttu-id="6f332-110">Для ограничения расходов на заявки можно использовать *лимиты расходов*, а *workflow-процесс закупки* дает возможность требовать утверждения, прежде чем заказ будет сделан.</span><span class="sxs-lookup"><span data-stu-id="6f332-110">*Spending limits* can be used to constrain requisition spending, and the *purchasing workflow* adds the option of requiring approval before ordering happen.</span></span> <span data-ttu-id="6f332-111">При необходимости также можно указать распределение бюджетных фондов.</span><span class="sxs-lookup"><span data-stu-id="6f332-111">It's also possible to specify budget fund allocation, if required.</span></span>  
-  
+
 <span data-ttu-id="6f332-112">Отдел закупок определяет поставщиков для требуемых продуктов и услуг; это может подразумевать отправку *запроса предложения* нескольким потенциальным поставщикам.</span><span class="sxs-lookup"><span data-stu-id="6f332-112">The procurement department identifies suppliers for required products and services, and this can involve a *request for quotation* being sent out to multiple potential suppliers.</span></span> <span data-ttu-id="6f332-113">Можно опубликовать характеристики требуемого продукта, и потенциальные поставщики смогут просматривать эти характеристики, чтобы понять, могут ли они поставить соответствующий им продукт.</span><span class="sxs-lookup"><span data-stu-id="6f332-113">It's possible to share the specifications of the product that's being requested and potential vendors can view these to see if they can deliver a product that conforms with them.</span></span> <span data-ttu-id="6f332-114">Поставщики возвращают свои предложения, которые специалисты отдела заявок рассматривают и выбирают поставщика, закупку у которого они считают нужным произвести.</span><span class="sxs-lookup"><span data-stu-id="6f332-114">Vendors return their bids which are then reviewed by the procurement department before they select the supplier that they want to procure from.</span></span>  
 
 <span data-ttu-id="6f332-115">В заказах на покупку предусмотрен вариант отправки поставщику *запроса на покупку* в качестве альтернативы более сложному процессу с запросом предложения.</span><span class="sxs-lookup"><span data-stu-id="6f332-115">Purchase orders include an option to send out a *purchase inquiry* to the vendor as an alternative to a more comprehensive request for quotation process.</span></span> <span data-ttu-id="6f332-116">Запрос на покупку можно использовать для установления условий, таких как цены, скидки и дата поставки заказа.</span><span class="sxs-lookup"><span data-stu-id="6f332-116">The purchase inquiry can be used to help establish terms like prices, discounts, and delivery date for the order.</span></span> <span data-ttu-id="6f332-117">Если поставщики настроены для использования портала **поставщика**, функциональность запросов на покупку отключена.</span><span class="sxs-lookup"><span data-stu-id="6f332-117">If vendors are set up to use the **Vendor** portal, purchase inquiry functionality is disabled.</span></span> <span data-ttu-id="6f332-118">Вместо этого заказ публикуется на **портале поставщика** и, когда поставщику отправляется *заказ подтверждения*, поставщик может напрямую подтвердить заказ.</span><span class="sxs-lookup"><span data-stu-id="6f332-118">Instead the order is shared on the **Vendor** portal, and when a *confirmation request* is sent the vendor can directly confirm the order.</span></span>  

@@ -20,24 +20,23 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
-ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8625e9c9b91acee52e2207d462f38286cafeb773
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-lifecycle-state"></a><span data-ttu-id="5d534-103">Состояние жизненного цикла продукта</span><span class="sxs-lookup"><span data-stu-id="5d534-103">Product lifecycle state</span></span> 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5d534-104">Состояние жизненного цикла продукта документирует состояние жизненного цикла выпущенного продукта или варианта продукта.</span><span class="sxs-lookup"><span data-stu-id="5d534-104">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="5d534-105">Состояния жизненного цикла продукта определяются пользователем, обычно менеджером по продуктам или менеджером справочника по продуктам.</span><span class="sxs-lookup"><span data-stu-id="5d534-105">Product lifecycle states are defined by the user, typically a product manager or a product master data manager.</span></span> <span data-ttu-id="5d534-106">На определенные бизнес-процессы, такие как сводное планирование, может влиять конкретное состояние жизненного цикла.</span><span class="sxs-lookup"><span data-stu-id="5d534-106">Specific business processes, such as master planning, can be affected by a specific lifecycle state.</span></span>   
- 
+
 <span data-ttu-id="5d534-107">Выпущенный продукт или вариант продукта может быть связан с состоянием жизненного цикла продукта, которое документирует, в каком состоянии жизненного цикла находится в настоящий момент конкретный продукт или вариант продукта.</span><span class="sxs-lookup"><span data-stu-id="5d534-107">A released product or product variant can be associated with a product lifecycle state that documents in which lifecycle state a specific product or variant is currently in.</span></span> <span data-ttu-id="5d534-108">Можно определить любое число состояний жизненного цикла продукта, назначая имя и описание состояния.</span><span class="sxs-lookup"><span data-stu-id="5d534-108">You can define any number of product lifecycle states by assigning a state name and description.</span></span> <span data-ttu-id="5d534-109">Можно выбрать одно состояние жизненного цикла как состояние по умолчанию для новых продуктов, запущенных в производство.</span><span class="sxs-lookup"><span data-stu-id="5d534-109">You can select one lifecycle state as the default state for new released products.</span></span> <span data-ttu-id="5d534-110">Варианты выпущенного продукта наследуют состояние жизненного цикла от своего шаблона выпущенного продукта при создании.</span><span class="sxs-lookup"><span data-stu-id="5d534-110">Released product variants inherit their product lifecycle state from their released product master on creation.</span></span> <span data-ttu-id="5d534-111">При изменении состояния жизненного цикла в выпущенном шаблоне продукта можно выбрать обновление всех существующих вариантов, которые имеют такое же исходное состояние.</span><span class="sxs-lookup"><span data-stu-id="5d534-111">When changing the lifecycle state on a released product master, you can choose to update all existing variants that have the same original state.</span></span>  
 
 ## <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="5d534-112">Создание нового состояния жизненного цикла продукта</span><span class="sxs-lookup"><span data-stu-id="5d534-112">Create a new product lifecycle state</span></span> 
- 
+
 - <span data-ttu-id="5d534-113">Чтобы создать новое состояние жизненного цикла продукта, воспроизведите или прочитайте проводник по задаче **Создание нового состояния жизненного цикла продукта**.</span><span class="sxs-lookup"><span data-stu-id="5d534-113">To create a new product lifecycle state, play or read the task guide **Create a new product lifecycle state**.</span></span> 
 
 -  <span data-ttu-id="5d534-114">Чтобы создать состояние жизненного цикла продукта по умолчанию, воспроизведите или прочитайте проводник по задаче **Создание состояния жизненного цикла продукта по умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="5d534-114">To create a default product lifecycle state, play or read the task guide **Create a default product lifecycle state**.</span></span>   
@@ -73,7 +72,7 @@ ms.lasthandoff: 02/08/2018
 
 > [!NOTE]
 > <span data-ttu-id="5d534-134">Из соображений производительности настоятельно рекомендуется связать все устаревшие выпущенные продукты или варианты продукта, особенно при работе с вариантами конфигурации продуктов, не допускающих повторного использования, с состоянием жизненного цикла продукта, которое отключено для сводного планирования.</span><span class="sxs-lookup"><span data-stu-id="5d534-134">For performance reasons, it is highly recommended to associate all obsolete released products or product variants, especially when working with non-reusable product configuration variants, with a product lifecycle state that is deactivated for master planning.</span></span>  
- 
+
 ## <a name="default-migration-import-and-export"></a><span data-ttu-id="5d534-135">Перенос, импорт и экспорт по умолчанию</span><span class="sxs-lookup"><span data-stu-id="5d534-135">Default migration, import, and export</span></span> 
 
 <span data-ttu-id="5d534-136">Состояния жизненного цикла продукта не поддерживаются информационными объектами, и состояние жизненного цикла не может быть заданно переменному состоянию с помощью информационных объектов выпущенных продуктов.</span><span class="sxs-lookup"><span data-stu-id="5d534-136">The product lifecycle states are not supported by data entities, and the lifecycle state cannot be set to a variable state through the released product data entities.</span></span>
@@ -81,18 +80,18 @@ ms.lasthandoff: 02/08/2018
 -  <span data-ttu-id="5d534-137">При миграции из предыдущих выпусков состояние жизненного цикла всех продуктов и вариантов продукта будет пустым.</span><span class="sxs-lookup"><span data-stu-id="5d534-137">On migration from previous releases, the lifecycle state of all products and product variants will be blank.</span></span>  
 -  <span data-ttu-id="5d534-138">При импорте выпущенных продуктов через информационный объект при создании будет применено состояние жизненного цикла по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="5d534-138">When importing released products through a data entity, the default lifecycle state will be applied on creation.</span></span>  
 -  <span data-ttu-id="5d534-139">При импорте вариантов выпущенного продукта через информационный объект будет импортировано состояние жизненного цикла продукта шаблона выпущенного продукта.</span><span class="sxs-lookup"><span data-stu-id="5d534-139">When importing released product variants through a data entity, the product lifecycle state of the released product master will be imported.</span></span>   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a><span data-ttu-id="5d534-140">Поиск устаревших продуктов и вариантов продуктов</span><span class="sxs-lookup"><span data-stu-id="5d534-140">Find obsolete products and products variants</span></span> 
- 
+
 <span data-ttu-id="5d534-141">Можно выполнить анализ моделирования, чтобы найти устаревшие используемые продукты или варианты продукта, а затем обновить их состояние жизненного цикла продукта.</span><span class="sxs-lookup"><span data-stu-id="5d534-141">You can run a simulation analysis to find the obsolete released products or product variants and then update their product lifecycle status.</span></span> <span data-ttu-id="5d534-142">Чтобы найти устаревшие продукты, запустите воспроизведение или прочитайте руководство по задаче **Поиск вариантов устаревших продуктов и назначение состояния жизненного цикла продукта**.</span><span class="sxs-lookup"><span data-stu-id="5d534-142">To find obsolete products, play and read the task guide **Find obsolete product variants and assign a product lifecycle state**.</span></span> <span data-ttu-id="5d534-143">В данном руководстве по задаче показано, как находить устаревшие используемые продукты или варианты продуктов, а также как связать состояние жизненного цикла продукта с устаревшими продуктами.</span><span class="sxs-lookup"><span data-stu-id="5d534-143">This task guide shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="5d534-144">В нем также показано, как просмотреть результаты моделирования и оценить, сколько продуктов и вариантов продукта будут связаны с новым состоянием жизненного цикла продукта при выполнении обновления без моделирования.</span><span class="sxs-lookup"><span data-stu-id="5d534-144">It also shows hot to view the simulation results and assess how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
- 
+
 <span data-ttu-id="5d534-145">Путем выполнения анализа в режиме моделирования продукты и варианты продуктов, которые определены как устаревшие, отображаются в конкретной форме, где их можно легко просматривать.</span><span class="sxs-lookup"><span data-stu-id="5d534-145">By running the analysis in a simulation mode, the products and product variants identified as obsolete are displayed in a specific form, where they can easily be reviewed.</span></span> <span data-ttu-id="5d534-146">Анализ производит поиск транзакций и конкретного справочника для идентификации продуктов, не пользовавшихся спросом в течение переменного периода и не имеющих справочника, который может привести к спросу.</span><span class="sxs-lookup"><span data-stu-id="5d534-146">The analysis searches for transactions and specific master data to identify products that have no demand within a variable period and no master data that can result in demand.</span></span> <span data-ttu-id="5d534-147">Новые продукты, выпущенные в течение переменного периода, могут быть исключены из анализа.</span><span class="sxs-lookup"><span data-stu-id="5d534-147">New released products within a variable period can be excluded from the analysis.</span></span> <span data-ttu-id="5d534-148">При моделирование анализа возвращает ожидаемый результат, пользователь может запустить анализ и установить новое состояние жизненного цикла продукта для всех продуктов, которые определены как устаревшие в ходе анализа.</span><span class="sxs-lookup"><span data-stu-id="5d534-148">When the analysis simulation returns the expected result, the user can run the analysis and set a new product lifecycle state to all products identified as obsolete by the analysis.</span></span>  
- 
+
 > [!NOTE]
 > <span data-ttu-id="5d534-149">Обратите внимание, что весь анализ и обновления должны выполняться в одном и том же юридическом лице.</span><span class="sxs-lookup"><span data-stu-id="5d534-149">Note that all analysis and updates must be done within the same legal entity.</span></span>  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a><span data-ttu-id="5d534-150">Критерии для выбора и обновления выпущенных продуктов или вариантов продуктов</span><span class="sxs-lookup"><span data-stu-id="5d534-150">Criteria to select and update released products or product variants</span></span> 
- 
+
 <span data-ttu-id="5d534-151">Используйте следующие критерии для выбора и обновления выпущенных продуктов и вариантов продуктов:</span><span class="sxs-lookup"><span data-stu-id="5d534-151">Use the following criteria to select and update the released products and product variants:</span></span> 
 
 -    <span data-ttu-id="5d534-152">Состояние жизненного цикла продукта или варианта продукта должно отличаться от нового желаемого состояния.</span><span class="sxs-lookup"><span data-stu-id="5d534-152">The product lifecycle state of the product or product variant must be different from the new desired state.</span></span> 

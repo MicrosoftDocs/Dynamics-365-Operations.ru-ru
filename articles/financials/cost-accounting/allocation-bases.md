@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: fe0be9164a285ce3884d1f35e99bdad80eb8b581
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="2b896-104">Базы распределения</span><span class="sxs-lookup"><span data-stu-id="2b896-104">Allocation bases</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2b896-105">База распределения — база, по которой учет затрат распределяет накладные расходы.</span><span class="sxs-lookup"><span data-stu-id="2b896-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="2b896-106">База распределения может быть количественной, например используемое машинное время, потребленные киловатт-часы (кВт-ч) или занятая площадь.</span><span class="sxs-lookup"><span data-stu-id="2b896-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="2b896-107">Базы распределения используются главным образом для назначения накладных расходов в запасы, которые производятся.</span><span class="sxs-lookup"><span data-stu-id="2b896-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="2b896-108">Например, отдел ИТ распределяет свои расходы по числу компьютеров, используемых в каждом отделе.</span><span class="sxs-lookup"><span data-stu-id="2b896-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 
@@ -424,9 +424,11 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="2b896-775">Ниже приведен пример правила распределения затрат, если предопределенная база распределения формулы по фиксированной ставке за электроэнергию назначена в качестве баз распределения в нем.</span><span class="sxs-lookup"><span data-stu-id="2b896-775">Here is an example of a cost distribution rule if the Electricity fixed formula allocation base is assigned as the allocation base in it.</span></span>
 
-| <span data-ttu-id="2b896-776">Объект затрат</span><span class="sxs-lookup"><span data-stu-id="2b896-776">Cost object</span></span> |  <span data-ttu-id="2b896-777">описание</span><span class="sxs-lookup"><span data-stu-id="2b896-777">Description</span></span>  | <span data-ttu-id="2b896-778">Величина</span><span class="sxs-lookup"><span data-stu-id="2b896-778">Magnitude</span></span> | <span data-ttu-id="2b896-779">Коэффициент распределения</span><span class="sxs-lookup"><span data-stu-id="2b896-779">Allocation factor</span></span>                |
-|-------------|----|-----------|----------------------------------|
-| <span data-ttu-id="2b896-780">CC001</span><span class="sxs-lookup"><span data-stu-id="2b896-780">CC001</span></span>       | <span data-ttu-id="2b896-781">Отдел кадров</span><span class="sxs-lookup"><span data-stu-id="2b896-781">HR</span></span> | <span data-ttu-id="2b896-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="2b896-782">1,837.50</span></span>  | <span data-ttu-id="2b896-783">(1837,50 ÷ 18162,50) × сумма</span><span class="sxs-lookup"><span data-stu-id="2b896-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="2b896-784">CC002</span><span class="sxs-lookup"><span data-stu-id="2b896-784">CC002</span></span>       | <span data-ttu-id="2b896-785">FI</span><span class="sxs-lookup"><span data-stu-id="2b896-785">FI</span></span> | <span data-ttu-id="2b896-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="2b896-786">3,075.00</span></span>  | <span data-ttu-id="2b896-787">(3075,00 ÷ 18162,50) × сумма</span><span class="sxs-lookup"><span data-stu-id="2b896-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="2b896-788">CC003</span><span class="sxs-lookup"><span data-stu-id="2b896-788">CC003</span></span>       | <span data-ttu-id="2b896-789">СП</span><span class="sxs-lookup"><span data-stu-id="2b896-789">IT</span></span> | <span data-ttu-id="2b896-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="2b896-790">13,250.00</span></span> | <span data-ttu-id="2b896-791">(13250,00 ÷ 18162,50) × сумма</span><span class="sxs-lookup"><span data-stu-id="2b896-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
+| <span data-ttu-id="2b896-776">Объект затрат</span><span class="sxs-lookup"><span data-stu-id="2b896-776">Cost object</span></span> | <span data-ttu-id="2b896-777">описание</span><span class="sxs-lookup"><span data-stu-id="2b896-777">Description</span></span> | <span data-ttu-id="2b896-778">Величина</span><span class="sxs-lookup"><span data-stu-id="2b896-778">Magnitude</span></span> |        <span data-ttu-id="2b896-779">Коэффициент распределения</span><span class="sxs-lookup"><span data-stu-id="2b896-779">Allocation factor</span></span>         |
+|-------------|-------------|-----------|----------------------------------|
+|    <span data-ttu-id="2b896-780">CC001</span><span class="sxs-lookup"><span data-stu-id="2b896-780">CC001</span></span>    |     <span data-ttu-id="2b896-781">Отдел кадров</span><span class="sxs-lookup"><span data-stu-id="2b896-781">HR</span></span>      | <span data-ttu-id="2b896-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="2b896-782">1,837.50</span></span>  | <span data-ttu-id="2b896-783">(1837,50 ÷ 18162,50) × сумма</span><span class="sxs-lookup"><span data-stu-id="2b896-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="2b896-784">CC002</span><span class="sxs-lookup"><span data-stu-id="2b896-784">CC002</span></span>    |     <span data-ttu-id="2b896-785">FI</span><span class="sxs-lookup"><span data-stu-id="2b896-785">FI</span></span>      | <span data-ttu-id="2b896-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="2b896-786">3,075.00</span></span>  | <span data-ttu-id="2b896-787">(3075,00 ÷ 18162,50) × сумма</span><span class="sxs-lookup"><span data-stu-id="2b896-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="2b896-788">CC003</span><span class="sxs-lookup"><span data-stu-id="2b896-788">CC003</span></span>    |     <span data-ttu-id="2b896-789">СП</span><span class="sxs-lookup"><span data-stu-id="2b896-789">IT</span></span>      | <span data-ttu-id="2b896-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="2b896-790">13,250.00</span></span> | <span data-ttu-id="2b896-791">(13250,00 ÷ 18162,50) × сумма</span><span class="sxs-lookup"><span data-stu-id="2b896-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
 

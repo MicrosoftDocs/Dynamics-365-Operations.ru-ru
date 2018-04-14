@@ -19,17 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f25026679f1e37f8c041de9ef240581cf9423a01
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0156d9cbe8bcd19825fa7fb96a84d675ba99709f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="nonconformance-management"></a><span data-ttu-id="dfef1-104">Управление несоответствием</span><span class="sxs-lookup"><span data-stu-id="dfef1-104">Nonconformance management</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="dfef1-105">Эта статья описывает базовые настройки, необходимые для использования несоответствий.</span><span class="sxs-lookup"><span data-stu-id="dfef1-105">This article describes the basic setup that is required in order to use nonconformances.</span></span> <span data-ttu-id="dfef1-106">Дополнительная настройка требуется, если необходимо использовать заказы для контроля качества.</span><span class="sxs-lookup"><span data-stu-id="dfef1-106">Additional setup is required if you want to use quality orders.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9766d96d16429d0ce0864695a3157f54cad4054
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9bd8a506fc0bbf4d4d8127afa71fe371be10b55b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a><span data-ttu-id="837da-103">Настройка профилей разноски основных средства</span><span class="sxs-lookup"><span data-stu-id="837da-103">Set up fixed asset posting profiles</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="837da-104">В этом руководстве по задаче показано, как настроить профили разноски основных средств.</span><span class="sxs-lookup"><span data-stu-id="837da-104">This task guide will set up Fixed asset posting profiles.</span></span>  <span data-ttu-id="837da-105">В нем используется роль бухгалтера и демонстрационные данные для юридического лица USMF.</span><span class="sxs-lookup"><span data-stu-id="837da-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>  <span data-ttu-id="837da-106">Примеры, представленные в руководстве по задаче, предназначены для основного профиля разноски, хотя профили разноски должны отвечать требованиям определенных планов счетов и финансовой отчетности.</span><span class="sxs-lookup"><span data-stu-id="837da-106">Examples given in the task guide are for a basic posting profile, though posting profiles must be created for your specific chart of accounts and financial reporting requirements.</span></span>
 

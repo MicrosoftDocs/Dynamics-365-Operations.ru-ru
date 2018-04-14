@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 445c639dc56a5d240f4e35353276ef893f2137da
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="f2408-103">Сочетания клавиш</span><span class="sxs-lookup"><span data-stu-id="f2408-103">Keyboard shortcuts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f2408-104">Следующие сочетания клавиш применяются в системе Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="f2408-104">The following keyboard shortcuts apply across Dynamics 365 for Finance and Operations.</span></span> 
 
@@ -39,6 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 
 ## <a name="action-shortcuts"></a><span data-ttu-id="f2408-111">Сочетания клавиш для действий</span><span class="sxs-lookup"><span data-stu-id="f2408-111">Action shortcuts</span></span>
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | <span data-ttu-id="f2408-112">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="f2408-112">**To do this**</span></span>                                    | <span data-ttu-id="f2408-113">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="f2408-113">**Press**</span></span>                        |
@@ -55,6 +55,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="f2408-134">Просмотр текущих доступных сочетаний клавиш</span><span class="sxs-lookup"><span data-stu-id="f2408-134">View currently available shortcuts</span></span>                | <span data-ttu-id="f2408-135">ALT+SHIFT+K</span><span class="sxs-lookup"><span data-stu-id="f2408-135">Alt+Shift+K</span></span>                      |                              
 
 ## <a name="date-picker-shortcuts"></a><span data-ttu-id="f2408-136">Сочетания клавиш для средства выбора даты</span><span class="sxs-lookup"><span data-stu-id="f2408-136">Date picker shortcuts</span></span>
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | <span data-ttu-id="f2408-137">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="f2408-137">**To do this**</span></span>                        | <span data-ttu-id="f2408-138">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="f2408-138">**Press**</span></span>                                 |
@@ -68,6 +69,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="f2408-153">Выбрать "никогда" (или максимальную дату)</span><span class="sxs-lookup"><span data-stu-id="f2408-153">Pick Never (or the max date)</span></span>          | <span data-ttu-id="f2408-154">Нет</span><span class="sxs-lookup"><span data-stu-id="f2408-154">N</span></span>                                         |
 
 ## <a name="factbox-shortcuts"></a><span data-ttu-id="f2408-155">Сочетания клавиш для информационного поля</span><span class="sxs-lookup"><span data-stu-id="f2408-155">FactBox shortcuts</span></span>
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | <span data-ttu-id="f2408-156">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="f2408-156">**To do this**</span></span>                                                                  | <span data-ttu-id="f2408-157">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="f2408-157">**Press**</span></span>                                 |
@@ -79,6 +81,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="f2408-168">Свернуть текущее информационное поле</span><span class="sxs-lookup"><span data-stu-id="f2408-168">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="f2408-169">Alt+0</span><span class="sxs-lookup"><span data-stu-id="f2408-169">Alt+0</span></span>                                     |
 
 ## <a name="filtering-shortcuts"></a><span data-ttu-id="f2408-170">Сочетания клавиш для фильтрации</span><span class="sxs-lookup"><span data-stu-id="f2408-170">Filtering shortcuts</span></span>
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | <span data-ttu-id="f2408-171">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="f2408-171">**To do this**</span></span>                     | <span data-ttu-id="f2408-172">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="f2408-172">**Press**</span></span>                |
@@ -89,6 +92,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="f2408-181">Открыть расширенную фильтрацию/сортировку</span><span class="sxs-lookup"><span data-stu-id="f2408-181">Open advanced filtering/sort</span></span>                                      | <span data-ttu-id="f2408-182">Ctrl+Shift+F3</span><span class="sxs-lookup"><span data-stu-id="f2408-182">Ctrl+Shift+F3</span></span>            | 
 
 ## <a name="form-shortcuts"></a><span data-ttu-id="f2408-183">Сочетания клавиш для форм</span><span class="sxs-lookup"><span data-stu-id="f2408-183">Form shortcuts</span></span>
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | <span data-ttu-id="f2408-184">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="f2408-184">**To do this**</span></span>                                      | <span data-ttu-id="f2408-185">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="f2408-185">**Press**</span></span>         |
@@ -110,6 +114,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="f2408-216">Закрыть форму без сохранения любых несохраненных изменений</span><span class="sxs-lookup"><span data-stu-id="f2408-216">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="f2408-217">Alt+Shift+Q</span><span class="sxs-lookup"><span data-stu-id="f2408-217">Alt+Shift+Q</span></span>       |
 
 ## <a name="form-navigation-shortcuts"></a><span data-ttu-id="f2408-218">Сочетания клавиш для навигации в форме</span><span class="sxs-lookup"><span data-stu-id="f2408-218">Form navigation shortcuts</span></span>
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | <span data-ttu-id="f2408-219">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="f2408-219">**To do this**</span></span>                                      | <span data-ttu-id="f2408-220">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="f2408-220">**Press**</span></span>                                    |
@@ -128,6 +133,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="f2408-245">Перейти к представлению строк</span><span class="sxs-lookup"><span data-stu-id="f2408-245">Switch to lines view</span></span>                                | <span data-ttu-id="f2408-246">Ctrl+Shift+L</span><span class="sxs-lookup"><span data-stu-id="f2408-246">Ctrl+Shift+L</span></span>                                 |
 
 ## <a name="grid-shortcuts"></a><span data-ttu-id="f2408-247">Сочетания клавиш для таблицы</span><span class="sxs-lookup"><span data-stu-id="f2408-247">Grid shortcuts</span></span>
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <span data-ttu-id="f2408-248">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="f2408-248">**To do this**</span></span>                                                                                                         | <span data-ttu-id="f2408-249">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="f2408-249">**Press**</span></span>                       |
@@ -148,6 +154,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="f2408-283">Открытие фильтрации сетки для текущего столбца (с фокусом в строке заголовка)</span><span class="sxs-lookup"><span data-stu-id="f2408-283">Open grid filtering for the current column (with focus in the header row)</span></span>                                              | <span data-ttu-id="f2408-284">Ввести</span><span class="sxs-lookup"><span data-stu-id="f2408-284">Enter</span></span>                           |
 
 ## <a name="input-control-shortcuts"></a><span data-ttu-id="f2408-285">Сочетания клавиш для управления вводом</span><span class="sxs-lookup"><span data-stu-id="f2408-285">Input control shortcuts</span></span>
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | <span data-ttu-id="f2408-286">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="f2408-286">**To do this**</span></span>                                                               | <span data-ttu-id="f2408-287">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="f2408-287">**Press**</span></span>                     |
@@ -163,6 +170,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="f2408-306">Переключить фокус между текстовой областью и панелью инструментов в элементе управления "Редактор HTML"</span><span class="sxs-lookup"><span data-stu-id="f2408-306">Switch focus between the text area and the toolbar in an HTML editor control</span></span> | <span data-ttu-id="f2408-307">F6</span><span class="sxs-lookup"><span data-stu-id="f2408-307">F6</span></span>                            |
 
 ## <a name="messaging-shortcuts"></a><span data-ttu-id="f2408-308">Сочетания клавиш для обмена сообщениями</span><span class="sxs-lookup"><span data-stu-id="f2408-308">Messaging shortcuts</span></span>
+
 |                          |               |
 |--------------------------|---------------|
 | <span data-ttu-id="f2408-309">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="f2408-309">**To do this**</span></span>           | <span data-ttu-id="f2408-310">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="f2408-310">**Press**</span></span>     |
@@ -170,6 +178,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="f2408-313">Пойти в строку сообщений</span><span class="sxs-lookup"><span data-stu-id="f2408-313">Go to the Message Bar</span></span>    | <span data-ttu-id="f2408-314">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="f2408-314">Ctrl+F7</span></span>       |
 
 ## <a name="navigation-shortcuts"></a><span data-ttu-id="f2408-315">Сочетания клавиш для навигации</span><span class="sxs-lookup"><span data-stu-id="f2408-315">Navigation shortcuts</span></span>
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | <span data-ttu-id="f2408-316">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="f2408-316">**To do this**</span></span>                                                                | <span data-ttu-id="f2408-317">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="f2408-317">**Press**</span></span>                  |
@@ -191,6 +200,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="f2408-348">Перейти в область информационного поля (что может включать ее открытие)</span><span class="sxs-lookup"><span data-stu-id="f2408-348">Move to the FactBox pane (which may include opening it)</span></span>                       | <span data-ttu-id="f2408-349">ALT+M,B или CTRL+F2</span><span class="sxs-lookup"><span data-stu-id="f2408-349">Alt+M,B or Ctrl+F2</span></span>         |
 
 ## <a name="personalization-shortcuts"></a><span data-ttu-id="f2408-350">Сочетания клавиш для персонализации</span><span class="sxs-lookup"><span data-stu-id="f2408-350">Personalization shortcuts</span></span>
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | <span data-ttu-id="f2408-351">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="f2408-351">**To do this**</span></span>                                                                                                         | <span data-ttu-id="f2408-352">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="f2408-352">**Press**</span></span>                           |
@@ -219,6 +229,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="f2408-397">Выйти из режима персонализации (в режиме персонализации)</span><span class="sxs-lookup"><span data-stu-id="f2408-397">Exit personalization mode (when in personalization mode)</span></span>                                                               | <span data-ttu-id="f2408-398">ESC</span><span class="sxs-lookup"><span data-stu-id="f2408-398">Esc</span></span>                                 |
 
 ## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="f2408-399">Сочетания клавиш для сегментированного ввода</span><span class="sxs-lookup"><span data-stu-id="f2408-399">Segmented entry shortcuts</span></span>
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <span data-ttu-id="f2408-400">**Чтобы это выполнить**</span><span class="sxs-lookup"><span data-stu-id="f2408-400">**To do this**</span></span>                                                                                                          | <span data-ttu-id="f2408-401">**Нажмите**</span><span class="sxs-lookup"><span data-stu-id="f2408-401">**Press**</span></span>                        |

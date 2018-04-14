@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 506c4db7cd37fd85b3e132e7900eafdc4385fa5a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2b03bea4e9814c6be5b42d658633ddcd4a4e8281
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="design-a-questionnaire"></a><span data-ttu-id="4a914-105">Разработка анкеты</span><span class="sxs-lookup"><span data-stu-id="4a914-105">Design a questionnaire</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="4a914-106">В этом разделе описывается процесс создания анкеты.</span><span class="sxs-lookup"><span data-stu-id="4a914-106">This topic describes the process for creating a questionnaire.</span></span> <span data-ttu-id="4a914-107">Первым шагом является составление анкеты.</span><span class="sxs-lookup"><span data-stu-id="4a914-107">The first step is to design the questionnaire.</span></span> <span data-ttu-id="4a914-108">При составлении анкеты вы не только пишите вопросы и ответы, но также создаете структуру, которая позволяет записывать ответы и составлять таблицы на их основании.</span><span class="sxs-lookup"><span data-stu-id="4a914-108">When you design a questionnaire, you not only write the questions and answers, but also create the structure that enables answers to be recorded and tabulated.</span></span> 
 

@@ -19,21 +19,21 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 034e25eea8a4db3126f7f33ae0712b6f30606651
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a><span data-ttu-id="5d30e-104">Публикация строк журналов и документов из Excel</span><span class="sxs-lookup"><span data-stu-id="5d30e-104">Publish journal lines and documents from Excel</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5d30e-105">В этом разделе объясняется, как вводить и публиковать строки для финансовых журналов из Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="5d30e-105">This topic explains how to enter and publish lines for general journals from Microsoft Excel.</span></span> <span data-ttu-id="5d30e-106">Сюда входят сведения о различных шаблонах, которые можно использовать в зависимости от типа вводимых проводок.</span><span class="sxs-lookup"><span data-stu-id="5d30e-106">It includes information about the various templates that you can use, depending on the type of transactions that you're entering.</span></span>
 
 <span data-ttu-id="5d30e-107">Пользователи могут вводить и публиковать строки для финансовых журналов из Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="5d30e-107">Users can enter and publish lines for financial journals from Microsoft Excel.</span></span> <span data-ttu-id="5d30e-108">После того как пользователь создал журнал, кнопка **Открыть строки в Excel** отображает доступные шаблоны.</span><span class="sxs-lookup"><span data-stu-id="5d30e-108">After a user creates a journal, the **Open lines in Excel** button displays the templates that are available.</span></span> <span data-ttu-id="5d30e-109">Шаблоны разработаны для поддержки конкретных сценариев, однако не все комбинации типа счета поддерживаются в журнале.</span><span class="sxs-lookup"><span data-stu-id="5d30e-109">Templates are designed to support specific scenarios, however not every combination of account type is supported in the journal.</span></span> <span data-ttu-id="5d30e-110">В следующей таблице показаны доступных шаблонов и типы счетов, которые они поддерживают.</span><span class="sxs-lookup"><span data-stu-id="5d30e-110">The following table shows the templates that are available and the account types which they support.</span></span>
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | <span data-ttu-id="5d30e-111">**Шаблон**</span><span class="sxs-lookup"><span data-stu-id="5d30e-111">**Template**</span></span>             | <span data-ttu-id="5d30e-112">**Поддерживаемые типы счетов**</span><span class="sxs-lookup"><span data-stu-id="5d30e-112">**Supported account types**</span></span>                                                                                             | <span data-ttu-id="5d30e-113">**Порядок доступа к шаблону**</span><span class="sxs-lookup"><span data-stu-id="5d30e-113">**How to access the template**</span></span>                                                          |

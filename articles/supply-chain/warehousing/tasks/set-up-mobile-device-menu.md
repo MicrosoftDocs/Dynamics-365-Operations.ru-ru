@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b80c258d6a779a8fc5bb6c846abd3af7e69d5e06
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 37010003ad638e068ed7650532da29c6dbc033cb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a><span data-ttu-id="12916-103">Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку</span><span class="sxs-lookup"><span data-stu-id="12916-103">Set up a mobile device menu item for completing work in a purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="12916-104">В этой процедуре показано, как настроить пункт меню "Мобильное устройство".</span><span class="sxs-lookup"><span data-stu-id="12916-104">This procedure shows how to set up a Mobile device menu item.</span></span> <span data-ttu-id="12916-105">В этом примере этот пункт меню используется для выполнения работы типа "Заказ на покупку".</span><span class="sxs-lookup"><span data-stu-id="12916-105">In this example, the menu item is used for performing work of type Purchase order.</span></span> <span data-ttu-id="12916-106">Допустимость работы определяется классом работы, связанным с пунктом меню.</span><span class="sxs-lookup"><span data-stu-id="12916-106">The work class that’s associated with the menu item determines which work is valid.</span></span> <span data-ttu-id="12916-107">Это руководство можно использовать в компании с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="12916-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="12916-108">Обычно эта процедура выполняется начальником склада.</span><span class="sxs-lookup"><span data-stu-id="12916-108">This procedure is typically carried out by a warehouse manager.</span></span>
 

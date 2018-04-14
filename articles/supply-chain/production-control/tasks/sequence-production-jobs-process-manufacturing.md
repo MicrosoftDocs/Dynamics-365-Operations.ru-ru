@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 87e35de4744a0728cd41192b4afc750b575a1324
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0cf90ff7be59150e20d61a831e57062f9d9996d5
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a><span data-ttu-id="9c714-103">Определение последовательности производственных заданий для непрерывного производства</span><span class="sxs-lookup"><span data-stu-id="9c714-103">Sequence production jobs for process manufacturing</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9c714-104">В этой процедуре используются краски в качестве примера, чтобы показать, как определить последовательность спланированных заказов в соответствии с приоритетом по цвету и размеру упаковки.</span><span class="sxs-lookup"><span data-stu-id="9c714-104">This procedure uses paint products as an example to show how to sequence planned orders according to the priority of color and package size.</span></span> <span data-ttu-id="9c714-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USPI.</span><span class="sxs-lookup"><span data-stu-id="9c714-105">The demo data company used to create this procedure is USPI.</span></span> <span data-ttu-id="9c714-106">Эта процедура предназначена для планировщика производства.</span><span class="sxs-lookup"><span data-stu-id="9c714-106">This procedure is intended for the production planner.</span></span>
 

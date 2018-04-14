@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 050d1fcbc59d9bb3253bfed2433987285423b334
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 04be3c8b07afc3ad3341600aef1f9e93b6b24dde
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a><span data-ttu-id="cafce-103">Регистрация номенклатур для расширенных складских процессов с использованием журнала прихода номенклатуры</span><span class="sxs-lookup"><span data-stu-id="cafce-103">Register items for an advanced warehousing enabled item using an item arrival journal</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cafce-104">В этой процедуре показано, как зарегистрировать номенклатуры с помощью журнала прибытия номенклатур при расширенного управления складами.</span><span class="sxs-lookup"><span data-stu-id="cafce-104">This procedure shows you how to register items using the item arrival journal when you are using advanced warehouse management processes.</span></span> <span data-ttu-id="cafce-105">Обычно эту задачу выполняет сотрудник, ответственный за приемку.</span><span class="sxs-lookup"><span data-stu-id="cafce-105">This would usually be done by a receiving clerk.</span></span> 
 

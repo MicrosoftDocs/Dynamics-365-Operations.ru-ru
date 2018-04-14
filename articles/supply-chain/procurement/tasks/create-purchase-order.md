@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 27ed15e6d9a376c4203e5446d056f221bd3eb730
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 165f29ceaabe4d09785e5f1edfe57db525264c15
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-order"></a><span data-ttu-id="1ce21-103">Создание заказа на покупку</span><span class="sxs-lookup"><span data-stu-id="1ce21-103">Create a purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1ce21-104">В этой процедуре показано, как создать заказ на покупку вручную.</span><span class="sxs-lookup"><span data-stu-id="1ce21-104">This procedure shows you how to create a purchase order manually.</span></span> <span data-ttu-id="1ce21-105">Обычно заказы на покупку создаются автоматически в результате сводного планирования, прямой поставки и других процессов.</span><span class="sxs-lookup"><span data-stu-id="1ce21-105">It’s more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes.</span></span> <span data-ttu-id="1ce21-106">Заказы на покупку обычно создаются специалистом по закупке.</span><span class="sxs-lookup"><span data-stu-id="1ce21-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="1ce21-107">Приведенный здесь пример можно использовать в компании с демонстрационными данными USMF, используя значения, предложенные в примечаниях к различным шагам.</span><span class="sxs-lookup"><span data-stu-id="1ce21-107">The example shown here can be used in the USMF demo data company using the values that are suggested in the notes for various steps.</span></span>
 

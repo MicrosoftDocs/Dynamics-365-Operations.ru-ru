@@ -16,15 +16,15 @@ ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1ff7de584631563939104c87b00fdc26bdb1a3cb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1062bbbfc5563a49cb0ba0b04bf99853f19e58ea
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a><span data-ttu-id="7efbd-103">Разрешение пользователям получать сообщения электронной почты, связанные с workflow-процессом</span><span class="sxs-lookup"><span data-stu-id="7efbd-103">Enable users to receive workflow-related email messages</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7efbd-104">Систему можно настроить для отправки сообщений электронной почты пользователям при возникновении событий, связанных с workflow-процессами.</span><span class="sxs-lookup"><span data-stu-id="7efbd-104">You can configure the system to send email messages to users when workflow-related events occur.</span></span> <span data-ttu-id="7efbd-105">Например, сообщения электронной почты можно отправлять пользователям, когда им назначаются документы для утверждения.</span><span class="sxs-lookup"><span data-stu-id="7efbd-105">For example, email messages can be sent to users when documents are assigned to them for approval.</span></span> <span data-ttu-id="7efbd-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="7efbd-106">The demo data company used to create this procedure is USMF.</span></span>
 

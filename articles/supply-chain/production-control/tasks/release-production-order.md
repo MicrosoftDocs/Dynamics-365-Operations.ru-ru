@@ -16,15 +16,15 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 6e628d8564c093c5d75fffe268b2107262d508c3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c17b9baf8efc67c5875fd31e4e39a449442efb79
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="release-a-production-order"></a><span data-ttu-id="75fa2-103">Выпуск производственного заказа</span><span class="sxs-lookup"><span data-stu-id="75fa2-103">Release a production order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="75fa2-104">В этой процедуре показано, как запустить в производство производственный заказ.</span><span class="sxs-lookup"><span data-stu-id="75fa2-104">This procedure shows how to release a production order.</span></span> <span data-ttu-id="75fa2-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="75fa2-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="75fa2-106">Это четвертая из семи процедур, которая объясняет жизненный цикл производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="75fa2-106">This is the fourth procedure out of seven which explains the production order lifecycle.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6084ddb1c5b8fae9111ea1459f6e94b14930bfc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ec77585e259bc759b422b97f4f3b10271a02b02
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a><span data-ttu-id="6315d-104">Содержимое "Показатели продаж и прибыльности" для Power BI</span><span class="sxs-lookup"><span data-stu-id="6315d-104">Sales and profitability performance Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6315d-105">В этой теме описывается, что входит в содержимое Microsoft Power BI **Показатели продаж и прибыльности**.</span><span class="sxs-lookup"><span data-stu-id="6315d-105">This topic describes what is included in the **Sales and profitability performance** Microsoft Power BI content.</span></span> <span data-ttu-id="6315d-106">В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.</span><span class="sxs-lookup"><span data-stu-id="6315d-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="6315d-140">Выручка по продуктам</span><span class="sxs-lookup"><span data-stu-id="6315d-140">Revenue by product</span></span>     | <span data-ttu-id="6315d-141">Выручка и валовая прибыль по категориям продаж</span><span class="sxs-lookup"><span data-stu-id="6315d-141">Revenue & gross profit by sales category</span></span>   | <span data-ttu-id="6315d-142">Общее \# продуктов</span><span class="sxs-lookup"><span data-stu-id="6315d-142">Total \# of products</span></span>                                    |
 |                        | <span data-ttu-id="6315d-143">Первые 10 продуктов по выручке</span><span class="sxs-lookup"><span data-stu-id="6315d-143">Top 10 products by revenue</span></span>                 | <span data-ttu-id="6315d-144">Общее число активных продуктов и процент от общего числа</span><span class="sxs-lookup"><span data-stu-id="6315d-144">Total number of active products and percentage of total</span></span> |
 |                        | <span data-ttu-id="6315d-145">Общая выручка по категориям продаж</span><span class="sxs-lookup"><span data-stu-id="6315d-145">Total revenue by sales category</span></span>            | <span data-ttu-id="6315d-146">Число продуктов, на которые приходится 80% выручки</span><span class="sxs-lookup"><span data-stu-id="6315d-146">Number of products accounting for 80% revenue</span></span>           |
-| <span data-ttu-id="6315d-147">Выручка по периодам\\*</span><span class="sxs-lookup"><span data-stu-id="6315d-147">Revenue by period\\*</span></span>    | <span data-ttu-id="6315d-148">Выручка по месяцам</span><span class="sxs-lookup"><span data-stu-id="6315d-148">Revenue by month</span></span>                           | <span data-ttu-id="6315d-149">Рост выручки по годам</span><span class="sxs-lookup"><span data-stu-id="6315d-149">YOY revenue growth</span></span>                                      |
+| <span data-ttu-id="6315d-147">Выручка по периодам\*</span><span class="sxs-lookup"><span data-stu-id="6315d-147">Revenue by period\*</span></span>    | <span data-ttu-id="6315d-148">Выручка по месяцам</span><span class="sxs-lookup"><span data-stu-id="6315d-148">Revenue by month</span></span>                           | <span data-ttu-id="6315d-149">Рост выручки по годам</span><span class="sxs-lookup"><span data-stu-id="6315d-149">YOY revenue growth</span></span>                                      |
 |                        | <span data-ttu-id="6315d-150">Конечное отклонение выручки, по годам</span><span class="sxs-lookup"><span data-stu-id="6315d-150">Trailing revenue variance, YOY</span></span>             | <span data-ttu-id="6315d-151">Рост выручки по годам, %</span><span class="sxs-lookup"><span data-stu-id="6315d-151">YOY revenue growth %</span></span>                                    |
 |                        | <span data-ttu-id="6315d-152">Отклонение общих продаж по регионам клиентов</span><span class="sxs-lookup"><span data-stu-id="6315d-152">Total sales variance by customer region</span></span>    |                                                         |
 | <span data-ttu-id="6315d-153">Выручка по местонахождению</span><span class="sxs-lookup"><span data-stu-id="6315d-153">Revenue by location</span></span>    | <span data-ttu-id="6315d-154">Выручка от продаж по городам</span><span class="sxs-lookup"><span data-stu-id="6315d-154">Sales revenue by city</span></span>                      |                                                         |
@@ -75,7 +75,7 @@ ms.lasthandoff: 01/17/2018
 |                        | <span data-ttu-id="6315d-162">Первые 15 клиентов по валовой прибыли</span><span class="sxs-lookup"><span data-stu-id="6315d-162">Top 15 customers by gross margin</span></span>           |                                                         |
 |                        | <span data-ttu-id="6315d-163">Валовая прибыль по месяцам, по годам</span><span class="sxs-lookup"><span data-stu-id="6315d-163">Gross profit by month, YOY</span></span>                 |                                                         |
 
-<span data-ttu-id="6315d-164">\\* Выручка за этот год и прошлый год, а также рост по категориям продаж.</span><span class="sxs-lookup"><span data-stu-id="6315d-164">\\* Revenue this and last year, and growth by sales category.</span></span>
+<span data-ttu-id="6315d-164">\* Выручка за этот год и прошлый год, а также рост по категориям продаж.</span><span class="sxs-lookup"><span data-stu-id="6315d-164">\* Revenue this and last year, and growth by sales category.</span></span>
 
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="6315d-165">Понимание модели данных и объектов</span><span class="sxs-lookup"><span data-stu-id="6315d-165">Understanding the data model and entities</span></span>

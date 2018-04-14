@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 257582d889ff55753f9bdbd234f0540503d20f27
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b7f93d991730872c0d50a23d27236be5a057f75b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-repeat-purchase-order"></a><span data-ttu-id="1260c-103">Создание повторного заказа на покупку</span><span class="sxs-lookup"><span data-stu-id="1260c-103">Create a repeat purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1260c-104">В этой процедуре показано, как создать повторный заказ на покупку путем копирования строк из предыдущего документа заказа на покупку в новый заказ на покупку или существующий заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="1260c-104">This procedure shows you how to create a repeat purchase order (PO) by copying lines from an earlier purchase order document to a new PO or to an existing PO.</span></span> <span data-ttu-id="1260c-105">Существует два способа создания повторный заказов.</span><span class="sxs-lookup"><span data-stu-id="1260c-105">There are two methods for creating repeat orders.</span></span> <span data-ttu-id="1260c-106">Можно использовать действия, доступные на уровне документа в области действий, или использовать действия сведений строки.</span><span class="sxs-lookup"><span data-stu-id="1260c-106">You can use the actions available at the document level from the Action Pane, or you can use the line detail actions.</span></span> <span data-ttu-id="1260c-107">Действия уровня документа в основном предназначены для создания нового заказа на покупку путем добавления строк и сведений заголовка из другого заказа, в то время как действие сведений строки в основном предназначено для добавления строк в существующий заказ.</span><span class="sxs-lookup"><span data-stu-id="1260c-107">The document level actions are mainly intended for creating a new purchase order by adding lines and header information from another order, while the line details action is mainly for adding lines to an existing order.</span></span> <span data-ttu-id="1260c-108">Пример, представленный в этом руководстве, можно использовать в компании с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="1260c-108">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="1260c-109">Обычно эту задачу выполняет специалист по закупке.</span><span class="sxs-lookup"><span data-stu-id="1260c-109">This task would typically be carried out by a purchasing agent.</span></span>
 

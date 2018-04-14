@@ -18,17 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 84471351555d90c5a297d613abf334a26e896e40
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 647bbbc8555e0aa00b2779d87e63cb4dd31edf96
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advance-holders"></a><span data-ttu-id="c2077-103">Подотчетные лица</span><span class="sxs-lookup"><span data-stu-id="c2077-103">Advance holders</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c2077-104">Сведения о работе с функциями по подотчетным лицам в Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="c2077-104">Learn about advance holder functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
@@ -48,11 +47,13 @@ ms.lasthandoff: 03/26/2018
 ### <a name="employee-posting-profile"></a><span data-ttu-id="c2077-121">Разноска для сотрудника</span><span class="sxs-lookup"><span data-stu-id="c2077-121">Employee posting profile</span></span>
 
 <span data-ttu-id="c2077-122">Используйте страницу **Профили разноски по подотч. лицам**, чтобы создать профиль для проводок по подотчетным лицам.</span><span class="sxs-lookup"><span data-stu-id="c2077-122">Use the **Employee posting profiles** page to create a profile for advance holder transactions.</span></span> <span data-ttu-id="c2077-123">Можно указать следующие сведения для профиля разноски сотрудника.</span><span class="sxs-lookup"><span data-stu-id="c2077-123">You can specify the following information for the employee posting profile.</span></span>
-|<span data-ttu-id="c2077-124">Поле</span><span class="sxs-lookup"><span data-stu-id="c2077-124">Field</span></span> |<span data-ttu-id="c2077-125">описание</span><span class="sxs-lookup"><span data-stu-id="c2077-125">Description</span></span>|
-|------|-----------|
-|<span data-ttu-id="c2077-126">Профиль разноски</span><span class="sxs-lookup"><span data-stu-id="c2077-126">Posting profile</span></span>|<span data-ttu-id="c2077-127">Введите идентификационный код профиля разноски для подотчетного лица.</span><span class="sxs-lookup"><span data-stu-id="c2077-127">Enter the posting profile identification code for the advance holder.</span></span>|
-|<span data-ttu-id="c2077-128">описание</span><span class="sxs-lookup"><span data-stu-id="c2077-128">Description</span></span>|<span data-ttu-id="c2077-129">Введите краткое описание профиля разноски.</span><span class="sxs-lookup"><span data-stu-id="c2077-129">Enter a brief description of the posting profile.</span></span>|
-|<span data-ttu-id="c2077-130">Допустимый для</span><span class="sxs-lookup"><span data-stu-id="c2077-130">Valid for</span></span>|<span data-ttu-id="c2077-131">Выберите один из следующих вариантов для уровня группирования для настройки профиля разноски:</span><span class="sxs-lookup"><span data-stu-id="c2077-131">Select one of the following options for the level of grouping for setting up the posting profile:</span></span> 
+
+|      <span data-ttu-id="c2077-124">Поле</span><span class="sxs-lookup"><span data-stu-id="c2077-124">Field</span></span>      |                                            <span data-ttu-id="c2077-125">описание</span><span class="sxs-lookup"><span data-stu-id="c2077-125">Description</span></span>                                            |
+|-----------------|---------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="c2077-126">Профиль разноски</span><span class="sxs-lookup"><span data-stu-id="c2077-126">Posting profile</span></span> |               <span data-ttu-id="c2077-127">Введите идентификационный код профиля разноски для подотчетного лица.</span><span class="sxs-lookup"><span data-stu-id="c2077-127">Enter the posting profile identification code for the advance holder.</span></span>               |
+|   <span data-ttu-id="c2077-128">описание</span><span class="sxs-lookup"><span data-stu-id="c2077-128">Description</span></span>   |                         <span data-ttu-id="c2077-129">Введите краткое описание профиля разноски.</span><span class="sxs-lookup"><span data-stu-id="c2077-129">Enter a brief description of the posting profile.</span></span>                         |
+|    <span data-ttu-id="c2077-130">Допустимый для</span><span class="sxs-lookup"><span data-stu-id="c2077-130">Valid for</span></span>    | <span data-ttu-id="c2077-131">Выберите один из следующих вариантов для уровня группирования для настройки профиля разноски:</span><span class="sxs-lookup"><span data-stu-id="c2077-131">Select one of the following options for the level of grouping for setting up the posting profile:</span></span> |
+
 <span data-ttu-id="c2077-132">**Таблица** — этот параметр используется для настройки профиля разноски для одного подотчетного лица.</span><span class="sxs-lookup"><span data-stu-id="c2077-132">**Table** – This option is used to set up the posting profile for one advance holder.</span></span> <span data-ttu-id="c2077-133">Необходимо указать код подотчетного лица в поле ссылки.</span><span class="sxs-lookup"><span data-stu-id="c2077-133">You must indicate the advance holder code in the Reference field.</span></span>
 <span data-ttu-id="c2077-134">**Группа** — этот параметр используется для настройки профиля разноски для группы подотчетных лиц.</span><span class="sxs-lookup"><span data-stu-id="c2077-134">**Group** – This option is used to set up the posting profile for a group of advance holders.</span></span> <span data-ttu-id="c2077-135">Необходимо указать код группы в поле ссылки.</span><span class="sxs-lookup"><span data-stu-id="c2077-135">You must indicate the group code in the Reference field.</span></span>
 <span data-ttu-id="c2077-136">**Все** — этот параметр используется для настройки профиля разноски для всех подотчетных лиц.| |Ссылка|Выберите код подотчетного лица, если выбрано значение "Таблица" в поле "Допустимый для" или выберите группу подотчетных лиц, если выбрано значение "Группа" в поле "Допустимый для".| |Суммарный счет|Выберите суммарный счет для разноски проводок.|</span><span class="sxs-lookup"><span data-stu-id="c2077-136">**All** – This option is used to set up the posting profile for all advance holders.| |Reference|Select the advance holder code if Table is selected in the Valid for field, or select the advance holder group if Group is selected in the Valid for field.| |Summary account|Select the summary account for posting the transactions.|</span></span>
@@ -62,6 +63,7 @@ ms.lasthandoff: 03/26/2018
 ### <a name="account-payable-parameters"></a><span data-ttu-id="c2077-137">Параметры модуля расчетов с поставщиками</span><span class="sxs-lookup"><span data-stu-id="c2077-137">Account payable parameters</span></span>
 
 <span data-ttu-id="c2077-138">Для отражения проводок подотчетного лица необходимо настроить следующие параметры на странице **Параметры модуля расчетов с поставщиками** в разделе **Подотчетные лица**.</span><span class="sxs-lookup"><span data-stu-id="c2077-138">To reflect advance holder’s transactions you must set up the following on the **Account payable parameters** page in the **Advance holders** section.</span></span>
+
 |                                                |                   |
 |------------------------------------------------|-------------------|
 |  <span data-ttu-id="c2077-139">**Поле**</span><span class="sxs-lookup"><span data-stu-id="c2077-139">**Field**</span></span>                                     | <span data-ttu-id="c2077-140">**Описание**</span><span class="sxs-lookup"><span data-stu-id="c2077-140">**Description**</span></span>                                                                                                                                                                  |
@@ -80,6 +82,7 @@ ms.lasthandoff: 03/26/2018
 ### <a name="create-an-advance-holder-creation"></a><span data-ttu-id="c2077-160">Создание подотчетного лица</span><span class="sxs-lookup"><span data-stu-id="c2077-160">Create an advance holder creation</span></span>
 
 <span data-ttu-id="c2077-161">Перед создания подотчетного лица у вас уже должны быть настроены работники.</span><span class="sxs-lookup"><span data-stu-id="c2077-161">Before you can create an advance holder, you must have already set up workers.</span></span> <span data-ttu-id="c2077-162">Дополнительные сведения см. в разделе [Ввод сведений о работнике (руководство по задаче).](../../fin-and-ops/hr/tasks/enter-worker-information.md)</span><span class="sxs-lookup"><span data-stu-id="c2077-162">For more information, see [Enter worker information (Task guide).](../../fin-and-ops/hr/tasks/enter-worker-information.md)</span></span> <span data-ttu-id="c2077-163">Используйте страницу **Подотчетные лица**, чтобы настроить работника как подотчетное лицо.</span><span class="sxs-lookup"><span data-stu-id="c2077-163">Use the **Advance holders** page to set up a worker as an advance holder.</span></span> <span data-ttu-id="c2077-164">Выберите работника для использования в качестве подотчетного лица, щелкните **Изменить**, затем задайте для параметра **Подотчетное лицо** значение **True**.</span><span class="sxs-lookup"><span data-stu-id="c2077-164">Select the worker to use as an advance holder, click **Edit**, and then set the **Advance holder** option to **True**.</span></span> <span data-ttu-id="c2077-165">Кроме того, необходимо заполнить следующие поля.</span><span class="sxs-lookup"><span data-stu-id="c2077-165">You must also complete the following fields.</span></span>
+
 |                |                                                                                             |
 |----------------|---------------------------------------------------------------------------------------------|
 | <span data-ttu-id="c2077-166">**Поле**</span><span class="sxs-lookup"><span data-stu-id="c2077-166">**Field**</span></span>      | <span data-ttu-id="c2077-167">**Описание**</span><span class="sxs-lookup"><span data-stu-id="c2077-167">**Description**</span></span>                                                                             |

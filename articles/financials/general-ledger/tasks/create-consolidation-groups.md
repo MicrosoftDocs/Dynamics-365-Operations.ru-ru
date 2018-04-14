@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ee28b91d21050b08909ef701901398043d32abce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ab4b88f47fd1fe35f05811ce7d87deaba09a4c69
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a><span data-ttu-id="3f688-103">Создание групп консолидации и дополнительных счетов консолидации</span><span class="sxs-lookup"><span data-stu-id="3f688-103">Create consolidation groups and additional consolidation accounts</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3f688-104">Эта процедура описывает порядок создания группы счетов консолидации и последующего добавления счетов в группу.</span><span class="sxs-lookup"><span data-stu-id="3f688-104">This procedure shows how to create a consolidation account group and then add accounts to the group.</span></span> <span data-ttu-id="3f688-105">В этой процедуре используется компания с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="3f688-105">This procedure uses the demo data company USMF.</span></span>
 

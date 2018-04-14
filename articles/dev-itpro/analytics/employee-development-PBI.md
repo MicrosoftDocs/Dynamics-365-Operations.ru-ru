@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4cf60021b96ab492c5d0b2535a117cb33ab13524
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-development-power-bi-content"></a><span data-ttu-id="2ea26-103">Содержимое Power BI "Развитие сотрудников"</span><span class="sxs-lookup"><span data-stu-id="2ea26-103">Employee development Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2ea26-104">В этом разделе описывается содержимое Microsoft Power BI **Развитие сотрудников**.</span><span class="sxs-lookup"><span data-stu-id="2ea26-104">This topic describes the **Employee development** Microsoft Power BI content.</span></span>
 
@@ -45,6 +45,7 @@ ms.lasthandoff: 01/31/2018
 <span data-ttu-id="2ea26-124">Можно фильтровать диаграммы и плитки в этих отчетах, а также закреплять диаграммы и плитки на панели мониторинга.</span><span class="sxs-lookup"><span data-stu-id="2ea26-124">You can filter the charts and tiles on these reports, and pin the charts and tiles to the dashboard.</span></span> <span data-ttu-id="2ea26-125">Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span><span class="sxs-lookup"><span data-stu-id="2ea26-125">For more information about how to filter and pin in Power BI, see [Create and Configure A Dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span></span>
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="2ea26-126">Понимание модели данных и объектов</span><span class="sxs-lookup"><span data-stu-id="2ea26-126">Understanding the data model and entities</span></span>
+
 | <span data-ttu-id="2ea26-127">Объект</span><span class="sxs-lookup"><span data-stu-id="2ea26-127">Entity</span></span>                   | <span data-ttu-id="2ea26-128">Содержание</span><span class="sxs-lookup"><span data-stu-id="2ea26-128">Contents</span></span>                                                                                                   | <span data-ttu-id="2ea26-129">Связи с другими объектами</span><span class="sxs-lookup"><span data-stu-id="2ea26-129">Relationships with other entities</span></span> |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | <span data-ttu-id="2ea26-130">Смещение календаря</span><span class="sxs-lookup"><span data-stu-id="2ea26-130">Calendar Offset</span></span>          | <span data-ttu-id="2ea26-131">Календарь корреспондирует с отчетами по секторам</span><span class="sxs-lookup"><span data-stu-id="2ea26-131">Calendar offsets to slice reports</span></span>                                                                          | <span data-ttu-id="2ea26-132">После назначения на должность, тенденция должностей, тенденция сотрудников, увольнение сотрудника</span><span class="sxs-lookup"><span data-stu-id="2ea26-132">Past Position Assignment, Position Trend, Employee Trend, Terminated Employee</span></span> 

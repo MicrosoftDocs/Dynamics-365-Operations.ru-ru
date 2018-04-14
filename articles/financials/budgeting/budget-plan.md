@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c8af5d3343bf8376dfec5a41cd03e1325b10b978
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning"></a><span data-ttu-id="0ee05-105">Бюджетное планирование</span><span class="sxs-lookup"><span data-stu-id="0ee05-105">Budget planning</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0ee05-106">Цель этой практической работы — обеспечить управляемое представление об обновлениях функций Microsoft Dynamics 365 for Finance and Operations в области планирования бюджета.</span><span class="sxs-lookup"><span data-stu-id="0ee05-106">The objective of this lab is to provide a guided view of Microsoft Dynamics 365 for Finance and Operations functionality updates in Budget planning area.</span></span> <span data-ttu-id="0ee05-107">Смысл этой практической работы — проиллюстрировать быстрый пример настройки модуля бюджетного планирования и показать, как планирование бюджета может быть выполнено используя эта конфигурация.</span><span class="sxs-lookup"><span data-stu-id="0ee05-107">The intent of this lab is to illustrate a quick configuration example of budget planning module and showcase how budget planning can be accomplished using this configuration.</span></span>  <span data-ttu-id="0ee05-108">Эта практическая работа сфокусируется на следующих бизнес-процессах или задачах: — Создание организационной иерархии для бюджетного планирования и настройка безопасности пользователей — Определение сценариев бюджетного плана, столбцов бюджетного плана, форматов и шаблонов Excel — Создание и активация процессов бюджетного планирования — создание документа бюджетного планирования, получая фактические данные из главной книги — Использование распределений для корректировки данных документа бюджетного плана — Редактирование данных документа бюджетного плана в Excel</span><span class="sxs-lookup"><span data-stu-id="0ee05-108">This lab will focus specifically on the following business processes or tasks -    - Creating organizational hierarchy for budget planning and configuring user security   - Defining budget plan scenarios, budget plan columns, layouts and Excel templates   - Creating and activating budget planning process   - Creating budget plan document by pulling in actuals from General ledger   - Using allocations to adjust budget plan document data   - Editing budget plan document data in Excel</span></span> 
 

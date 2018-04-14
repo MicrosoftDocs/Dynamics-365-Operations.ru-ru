@@ -17,15 +17,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 68fe68ba92495eb089e9b38cfbd42eba05b7dc47
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="bank-management-workspace"></a><span data-ttu-id="bc29c-106">Рабочая область управления банками</span><span class="sxs-lookup"><span data-stu-id="bc29c-106">Bank management workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bc29c-107">Рабочая область **Управление банками** содержит сведения, которые связаны с банковскими счетами компании.</span><span class="sxs-lookup"><span data-stu-id="bc29c-107">The **Bank management** workspace shows information that is related to company bank accounts.</span></span> <span data-ttu-id="bc29c-108">Эта рабочая область содержит представление **Сводка** и страницу **Аналитика**.</span><span class="sxs-lookup"><span data-stu-id="bc29c-108">This workspace includes a **Summary** view and an **Analytics** page.</span></span> <span data-ttu-id="bc29c-109">Представление **Сводка** показывает сводные плитки, сведения о банковском счете, диаграмму сальдо и связанные данные.</span><span class="sxs-lookup"><span data-stu-id="bc29c-109">The **Summary** view shows summary tiles, bank account information, a balance chart, and related information.</span></span> <span data-ttu-id="bc29c-110">Страница **Аналитика** использует возможности Microsoft Power BI для отображения визуальных объектов, которые относятся к сальдо банковского счета.</span><span class="sxs-lookup"><span data-stu-id="bc29c-110">The **Analytics** page uses the capabilities of Microsoft Power BI to show visuals that are related to bank account balances.</span></span>
 

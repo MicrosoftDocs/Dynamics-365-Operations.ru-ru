@@ -19,17 +19,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: badbeb8f80cf10dac890cef6267e0d910cae971b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2e73441a3f4190561d1d16db40ee1581267c8dfb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-hr-parameters-across-legal-entities"></a><span data-ttu-id="a0bd8-104">Настройка параметров управления персоналом для нескольких юридических лиц</span><span class="sxs-lookup"><span data-stu-id="a0bd8-104">Set up HR parameters across legal entities</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="a0bd8-105">Необходимо настроить общие параметры для записей, которые используются совместно несколькими компаниями, например записи должностей.</span><span class="sxs-lookup"><span data-stu-id="a0bd8-105">You must set up shared parameters for records that are shared across companies, such as Position records.</span></span> <span data-ttu-id="a0bd8-106">В этой статье описывается, как настроить параметры модуля "Управление персоналом" в разных юридических лицах.</span><span class="sxs-lookup"><span data-stu-id="a0bd8-106">This article explains how to set up Human resources parameters across legal entities.</span></span>
 

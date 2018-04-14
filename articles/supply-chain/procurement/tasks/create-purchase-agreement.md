@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0d0cc6508071bea3f622bc21f06aa55d2b757b6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 84b8f08c5e72d3bae597d78cd8f1f77d59355917
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-agreement"></a><span data-ttu-id="2336c-103">Создание договора покупки</span><span class="sxs-lookup"><span data-stu-id="2336c-103">Create a purchase agreement</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2336c-104">Эта процедура демонстрирует создание договора покупки.</span><span class="sxs-lookup"><span data-stu-id="2336c-104">This procedure guides you through the creation of a purchase agreement.</span></span> <span data-ttu-id="2336c-105">Обычно это делает менеджер по закупкам.</span><span class="sxs-lookup"><span data-stu-id="2336c-105">This would typically be done by a purchasing manager.</span></span> <span data-ttu-id="2336c-106">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="2336c-106">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="2336c-107">Перед началом процедуры необходимо настроить классификации договоров покупки.</span><span class="sxs-lookup"><span data-stu-id="2336c-107">You need to have set up purchase agreement classifications before you start.</span></span> <span data-ttu-id="2336c-108">После создания договора его можно использовать при создании заказа на покупку, в результате чего условия договора покупки будут скопированы в заголовок и в строки заказа, на которые влияет этот договор.</span><span class="sxs-lookup"><span data-stu-id="2336c-108">Once you've created an agreement you can use it when you create a PO, and this will copy the purchase agreement conditions to the header and to any lines in the order that are affected by the agreement.</span></span>
 

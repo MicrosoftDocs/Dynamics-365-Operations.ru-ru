@@ -16,15 +16,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 0fa70da5e06d1bc82fb9d2419bb0a7c8dd0da467
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fef6a597ed126ff4e1148fd9710b214c0425c3ab
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a><span data-ttu-id="d16a0-103">Получение номенклатур в заказе на покупку из потребности в номенклатуре</span><span class="sxs-lookup"><span data-stu-id="d16a0-103">Receive items on purchase order from item requirement</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d16a0-104">В этой процедуре показано, как получить номенклатуры по заказу на покупку из потребности в номенклатуре.</span><span class="sxs-lookup"><span data-stu-id="d16a0-104">This procedure shows how to receive items on a purchase order from an item requirement.</span></span>
 

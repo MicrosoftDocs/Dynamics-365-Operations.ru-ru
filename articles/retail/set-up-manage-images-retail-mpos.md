@@ -20,17 +20,16 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: b11d8cc534964959662b4e2c67c19e3961295c3a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 16c6603ee6b4ed6cdd002adf516eeaf876ce7bb9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a><span data-ttu-id="261bf-103">Настройка и управление изображениями для Retail Modern POS</span><span class="sxs-lookup"><span data-stu-id="261bf-103">Set up and manage images for Retail Modern POS</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="261bf-104">В этой статье описываются шаги, которые выполняются при настройке и управлении изображениями для различных объектов, которые отображаются в Retail Modern POS (MPOS).</span><span class="sxs-lookup"><span data-stu-id="261bf-104">This article explains the steps that are involved in setting up and managing images for the various entities that appear in Retail Modern POS (MPOS).</span></span>
 
@@ -141,7 +140,7 @@ ms.lasthandoff: 01/18/2018
 6.  <span data-ttu-id="261bf-270">Пока MPOS работает в режиме онлайн, запустите в центральном офисе задание "Каталог", чтобы убедиться, что данные хотя бы один раз отправлены в автономную базу данных.</span><span class="sxs-lookup"><span data-stu-id="261bf-270">While MPOS is in Online mode, run the Catalog job in HQ, to make sure that the data is sent at least one time to the offline database.</span></span>
 7.  <span data-ttu-id="261bf-271">Переведите MPOS в автономный режим.</span><span class="sxs-lookup"><span data-stu-id="261bf-271">Put MPOS into Offline mode.</span></span> <span data-ttu-id="261bf-272">Вы должны увидеть изображение, которое вы отправили для данного продукта в центральном офисе.</span><span class="sxs-lookup"><span data-stu-id="261bf-272">You should see the image that you uploaded for the specific product in HQ.</span></span> <span data-ttu-id="261bf-273">[![автономный-режим1](./media/offline1.png)](./media/offline1.png)</span><span class="sxs-lookup"><span data-stu-id="261bf-273">[![offline1](./media/offline1.png)](./media/offline1.png)</span></span>
 
- 
+
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a><span data-ttu-id="261bf-274">Настройка изображений каталогов, категорий, сотрудников и клиентов для отображения в автономном режиме MPOS</span><span class="sxs-lookup"><span data-stu-id="261bf-274">Set up catalog, category, employee, and customer images to appear in Offline mode for MPOS</span></span>
 

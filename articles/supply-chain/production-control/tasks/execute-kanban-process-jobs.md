@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 752eab976f740606154d416678ba2381641697df
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c10fa829e5b696c951d041f11e3475d200b7751b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="execute-kanban-process-jobs"></a><span data-ttu-id="8916b-103">Выполнение заданий процессов канбана</span><span class="sxs-lookup"><span data-stu-id="8916b-103">Execute kanban process jobs</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8916b-104">Эта процедура рассматривает выполнение заданий процессов канбана.</span><span class="sxs-lookup"><span data-stu-id="8916b-104">This procedure focuses on executing kanban process jobs.</span></span> <span data-ttu-id="8916b-105">Первое задание завершено с ожидаемым количеством и без ошибок.</span><span class="sxs-lookup"><span data-stu-id="8916b-105">The first job is completed with the expected quantity and has no errors.</span></span> <span data-ttu-id="8916b-106">Второе задание завершено с ошибками.</span><span class="sxs-lookup"><span data-stu-id="8916b-106">The second job is completed with errors.</span></span> <span data-ttu-id="8916b-107">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="8916b-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="8916b-108">Эта процедура предназначена для оператора.</span><span class="sxs-lookup"><span data-stu-id="8916b-108">This procedure is intended for the machine operator.</span></span>
 

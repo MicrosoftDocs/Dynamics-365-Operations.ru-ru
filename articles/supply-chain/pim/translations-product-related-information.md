@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 87dfdf7085e185b3e0467088118838eb832546d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e10bd1453aef817e501fab326eb62c58a37e9825
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-related-translations-faq"></a><span data-ttu-id="03a11-103">Вопросы и ответы по переводам, связанным с продуктом</span><span class="sxs-lookup"><span data-stu-id="03a11-103">Product-related translations FAQ</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="03a11-104">В этом разделе описывается, как управлять переводами для продуктов, значений аналитик продуктов и атрибутов продуктов.</span><span class="sxs-lookup"><span data-stu-id="03a11-104">This topic describes how to manage translations for products, product dimension values, and product attributes.</span></span> 
 
@@ -95,8 +94,7 @@ ms.lasthandoff: 02/07/2018
 <tbody>
 <tr class="odd">
 <td><span data-ttu-id="03a11-150">Чтобы настроить предпочтительный язык клиента, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="03a11-150">To set the preferred language of a customer, follow these steps:</span></span>
-<ol>  
-<li><span data-ttu-id="03a11-151">Выберите <strong>Продажи и маркетинг</strong> &gt; <strong>Общее</strong> &gt; <strong>Клиенты</strong> &gt; <strong>Все</strong> <strong>клиенты</strong>.</span><span class="sxs-lookup"><span data-stu-id="03a11-151">Click <strong>Sales and marketing</strong> &gt; <strong>Common</strong> &gt; <strong>Customers</strong> &gt; <strong>All</strong> <strong>customers</strong>.</span></span></li>
+<ol><br/><li><span data-ttu-id="03a11-151">Выберите <strong>Продажи и маркетинг</strong> &gt; <strong>Общее</strong> &gt; <strong>Клиенты</strong> &gt; <strong>Все</strong> <strong>клиенты</strong>.</span><span class="sxs-lookup"><span data-stu-id="03a11-151">Click <strong>Sales and marketing</strong> &gt; <strong>Common</strong> &gt; <strong>Customers</strong> &gt; <strong>All</strong> <strong>customers</strong>.</span></span></li>
 <li><span data-ttu-id="03a11-152">Дважды щелкните счет клиента, чтобы открыть форму <strong>Клиенты</strong>.</span><span class="sxs-lookup"><span data-stu-id="03a11-152">Double-click a customer to open the <strong>Customers</strong> page.</span></span> <span data-ttu-id="03a11-153">На вкладке <strong>Общие</strong> в поле <strong>Язык</strong> выберите <strong>язык</strong>.</span><span class="sxs-lookup"><span data-stu-id="03a11-153">On the <strong>General</strong> tab, in the <strong>Language</strong> field, select the <strong>language</strong>.</span></span></li>
 </ol></td>
 </tr>

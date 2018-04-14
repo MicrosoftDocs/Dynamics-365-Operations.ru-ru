@@ -19,19 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b36b290026f384109ccd710a9979892dd5268307
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c1e1a588e07b9f60880dcf1c34139c5c1ceba35
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a><span data-ttu-id="6e5ca-103">Методы расчета налога в поле "Основание"</span><span class="sxs-lookup"><span data-stu-id="6e5ca-103">Sales tax calculation methods in the Origin field</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="6e5ca-104">В этой статье описываются параметры в поле "Источник" на странице налоговых кодов, а также порядок расчета налога на основе выбранного параметра для налогового кода.</span><span class="sxs-lookup"><span data-stu-id="6e5ca-104">This article explains the options in the Origin field on the sales tax codes page and how sales tax is calculated based on the selected option for a sales tax code.</span></span>
 
@@ -53,11 +52,12 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="6e5ca-122">НАЛОГ С ПРОДАЖ = 25% с использованием метода расчета "Процент от валовой суммы"</span><span class="sxs-lookup"><span data-stu-id="6e5ca-122">SALESTAX = 25%, using the Percentage of gross amount calculation method</span></span>
 
 <span data-ttu-id="6e5ca-123">Если чистая сумма составляет 10,00, то ПОШЛИНА 1 составляет 1,00 (10,00 x 10%), а ПОШЛИНА 2 составляет 2,00 (10,00 х 20%).</span><span class="sxs-lookup"><span data-stu-id="6e5ca-123">If the net amount is 10.00, then DUTY 1 is 1.00 (10.00 x 10%) and DUTY 2 = 2.00 (10.00 x 20%).</span></span> <span data-ttu-id="6e5ca-124">Суммы будут следующие: Валовая сумма: Чистая сумма + сумма ПОШЛИНА 1 + сумма ПОШЛИНА 2 (10,00 + 1,00 + 2,00) = 13,00 НАЛОГ С ПРОДАЖ = 13,00 x 25% = 3,25 Итого ПОШЛИНЫ и НАЛОГ С ПРОДАЖ: 1,00 + 2,00 + 3,25 = 6,25 Общая сумма: 10,00 + 6,25 = 16,25</span><span class="sxs-lookup"><span data-stu-id="6e5ca-124">The amounts would be as follows: Gross amount: Net amount + DUTY 1 amount + DUTY 2 amount (10.00 + 1.00 + 2.00) = 13.00 SALESTAX = 13.00 x 25% = 3.25 Total DUTIES and SALESTAX: 1.00 + 2.00 + 3.25 = 6.25 Total amount: 10.00 + 6.25 = 16.25</span></span>
+
 | <span data-ttu-id="6e5ca-125">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="6e5ca-125">**Note**</span></span>                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="6e5ca-126">Только один код налога с "Основание" = "Процент от валовой суммы" может использоваться для проводки.</span><span class="sxs-lookup"><span data-stu-id="6e5ca-126">Only one tax code with Origin = Percentage of gross amount can be used for a transaction.</span></span> <span data-ttu-id="6e5ca-127">Если для проводки определено более одного такого кода налога, отображается ошибка с предупреждением о невозможности расчета налога.</span><span class="sxs-lookup"><span data-stu-id="6e5ca-127">If more than one such tax code is determined for a transaction an error will be displayed that sales tax cannot be calculated.</span></span> |
 
- 
+
 <a name="percentage-of-sales-tax"></a><span data-ttu-id="6e5ca-128">Процент от другого налога</span><span class="sxs-lookup"><span data-stu-id="6e5ca-128">Percentage of sales tax</span></span>
 -----------------------
 
@@ -70,6 +70,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="6e5ca-136">НАЛОГ С ПРОДАЖ = 25% с использованием метода "Процент от валовой суммы"</span><span class="sxs-lookup"><span data-stu-id="6e5ca-136">SALESTAX = 25%, using the Percentage of gross amount method</span></span>
 
 <span data-ttu-id="6e5ca-137">Чистая сумма: 10,00 ПОШЛИНА 1: 10,00 x 10% = 1,00 ПОШЛИНА 2: 1,00 x 20% = 0,20 Валовая сумма: 10,00 + 1,00 + 0,20 = 11,20 НАЛОГ С ПРОДАЖ: 11,20 x 25% = 2,80 Итого ПОШЛИНЫ и НАЛОГ С ПРОДАЖ: 1,00 + 0,20 + 2,80 = 4,00 Общая сумма: 10,00 + 4,00 = 14,00</span><span class="sxs-lookup"><span data-stu-id="6e5ca-137">Net amount: 10.00 DUTY 1: 10.00 x 10% = 1.00 DUTY 2: 1.00 x 20% = 0.20 Gross amount: 10.00 + 1.00 + 0.20 = 11.20 SALESTAX: 11.20 x 25% = 2.80 Total DUTIES and SALESTAX: 1.00 + 0.20 + 2.80 = 4.00 Total amount: 10.00 + 4.00 = 14.00</span></span>
+
 | <span data-ttu-id="6e5ca-138">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="6e5ca-138">**Note**</span></span>                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="6e5ca-139">Расчеты многоуровневых налогов на налоги невозможны.</span><span class="sxs-lookup"><span data-stu-id="6e5ca-139">Multilevel tax on tax calculations are not possible.</span></span> <span data-ttu-id="6e5ca-140">Налог нельзя рассчитать на основе налога, который уже рассчитан на основе другого налога.</span><span class="sxs-lookup"><span data-stu-id="6e5ca-140">A tax cannot be calculated based on a tax which already is calculated based on another tax.</span></span> <span data-ttu-id="6e5ca-141">Несколько одноуровневых кодов налогов на налоги можно рассчитать в одной проводке.</span><span class="sxs-lookup"><span data-stu-id="6e5ca-141">Multiple single level tax on tax codes can be calculated on a transaction.</span></span> |
@@ -79,6 +80,7 @@ ms.lasthandoff: 11/03/2017
 ### <a name="example"></a><span data-ttu-id="6e5ca-146">Пример</span><span class="sxs-lookup"><span data-stu-id="6e5ca-146">Example</span></span>
 
 <span data-ttu-id="6e5ca-147">Код налога настраивается следующим образом: USD 1,20 на единицу = коробка. В строке накладной заказа на продажу продано 25 коробок номенклатуры. Налог рассчитывается как 25 x 1,20 = 30,00</span><span class="sxs-lookup"><span data-stu-id="6e5ca-147">Sales tax code is set up as: USD 1.20 per unit = box On a sales invoice line 25 boxes of an item are sold Sales tax is calculated as 25 x 1.20 = 30.00</span></span>
+
 | <span data-ttu-id="6e5ca-148">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="6e5ca-148">**Note**</span></span>                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="6e5ca-149">Если проводка введена в других единицах, чем единицы, определенные в коде налога на продажу, то они автоматически преобразуются на основе преобразований единиц измерения, настроенных на странице "Пересчеты единиц измерения".</span><span class="sxs-lookup"><span data-stu-id="6e5ca-149">If the transaction is entered in different unit than the unit specified on the sales tax code, it is converted automatically based on the unit conversions that are set up in the Unit conversions page.</span></span> |

@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1082c86361180db84bb2b5c0b8158816f76a219e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fb48914491597f2eb7cc08db99ed548764213709
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a><span data-ttu-id="78948-103">Настройка мест хранения на складе, на котором включена система управления складом</span><span class="sxs-lookup"><span data-stu-id="78948-103">Configure locations in a WMS-enabled warehouse</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="78948-104">Это руководство показывает, как настроить места хранения для нового склада с поддержкой системы управления складом (склада, на котором используются комплексные процессы управления складом).</span><span class="sxs-lookup"><span data-stu-id="78948-104">This guide shows you how to configure the location setup for a new WMS-enabled warehouse (a warehouse that uses advanced warehouse management processes).</span></span> <span data-ttu-id="78948-105">Процесс обычно выполняется менеджером склада.</span><span class="sxs-lookup"><span data-stu-id="78948-105">The process is typically done by a warehouse manager.</span></span> <span data-ttu-id="78948-106">Запускать этот руководство можно в компании с демонстрационными данными USMF или с собственными данными.</span><span class="sxs-lookup"><span data-stu-id="78948-106">You can run this guide in demo data company USMF or on your own data.</span></span> <span data-ttu-id="78948-107">Предварительным условием является наличие хотя бы одного настроенного сайта.</span><span class="sxs-lookup"><span data-stu-id="78948-107">A precondition is that you have at least one site configured.</span></span>
 

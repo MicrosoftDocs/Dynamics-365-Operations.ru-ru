@@ -19,17 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ea9550b7209064a2842d7e5efe55e9e51c23b9f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eeea5f6f9860bf109bb3063c5a2cc0517192e95d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-reporting-overview"></a><span data-ttu-id="58d4d-104">Обзор электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="58d4d-104">Electronic reporting overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="58d4d-105">В этой теме представлен обзор средства электронной отчетности (ER).</span><span class="sxs-lookup"><span data-stu-id="58d4d-105">This topic provides an overview of the Electronic reporting (ER) tool.</span></span> <span data-ttu-id="58d4d-106">Сюда входят сведения о ключевых понятиях, сценарии, поддерживаемые электронной отчетностью, и список форматов, которые были разработаны и выпущены в рамках решения.</span><span class="sxs-lookup"><span data-stu-id="58d4d-106">It includes information about key concepts, the scenarios that ER supports, and a list of formats that have been designed and released as part of the solution.</span></span>
 
@@ -287,6 +286,7 @@ ms.lasthandoff: 11/03/2017
 <span data-ttu-id="58d4d-344">Электронная отчетность позволяет автоматически внедрять изменения последней версии базового компонента в текущую черновую версию производного компонента.</span><span class="sxs-lookup"><span data-stu-id="58d4d-344">ER lets you automatically adopt changes of the latest version of the base component in the current draft version of the derived component.</span></span> <span data-ttu-id="58d4d-345">Этот процесс называется *повторным размещением*.</span><span class="sxs-lookup"><span data-stu-id="58d4d-345">This process is known as *rebasing*.</span></span> <span data-ttu-id="58d4d-346">Например, новое изменение в нормативной базе, которое было введено в последней версии компонента формата, импортированного из LCS, может быть автоматически внедрено в пользовательскую версию этого формата электронного документа.</span><span class="sxs-lookup"><span data-stu-id="58d4d-346">For example, a new regulatory change that has been introduced in the latest version of the format that was imported from LCS can be automatically merged into the customized version of this format of the electronic document.</span></span> <span data-ttu-id="58d4d-347">Любые изменения, которые не удалось внедрить автоматически, считаются конфликтами.</span><span class="sxs-lookup"><span data-stu-id="58d4d-347">Any changes that can’t be merged automatically are considered conflicts.</span></span> <span data-ttu-id="58d4d-348">Эти конфликты будут представлены для разрешения вручную в средстве конструктора для соответствующего компонента.</span><span class="sxs-lookup"><span data-stu-id="58d4d-348">These conflicts are presented for manual resolution in the designer tool for the appropriate component.</span></span> <span data-ttu-id="58d4d-349">Чтобы ознакомиться с этим сценарием подробнее, воспроизведите руководство по задаче **Электронная отчетность. Обновление формата путем взятия для него новой базовой версии** (входит в состав бизнес-процесса **7.5.5.3 Приобретение/разработка измененного компонента ИТ-услуг/решения (10683)**).</span><span class="sxs-lookup"><span data-stu-id="58d4d-349">To become familiar with the details of this scenario, play the **ER Upgrade format by adoption of new base version of that format** task guide (part of the **7.5.5.3 Acquire/Develop changed IT service/solution component (10683)** business process).</span></span>
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a><span data-ttu-id="58d4d-350">Список конфигураций электронной отчетности, предоставленных в решении Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="58d4d-350">List of ER configurations that are delivered in the Finance and Operations solution</span></span>
+
 | <span data-ttu-id="58d4d-351">Конфигурации модели данных для конкретного домена: заголовок</span><span class="sxs-lookup"><span data-stu-id="58d4d-351">Domain-specific data model configurations: Title</span></span> | <span data-ttu-id="58d4d-352">Домен</span><span class="sxs-lookup"><span data-stu-id="58d4d-352">Domain</span></span>                | <span data-ttu-id="58d4d-353">Конфигурации формата, зависимого от модели данных: заголовок</span><span class="sxs-lookup"><span data-stu-id="58d4d-353">Data model–dependent format configurations: Title</span></span> | <span data-ttu-id="58d4d-354">Описание</span><span class="sxs-lookup"><span data-stu-id="58d4d-354">Description</span></span>                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | <span data-ttu-id="58d4d-355">Модель файла аудита</span><span class="sxs-lookup"><span data-stu-id="58d4d-355">Audit file model</span></span>                                 | <span data-ttu-id="58d4d-356">Финансовый аудит</span><span class="sxs-lookup"><span data-stu-id="58d4d-356">Financial audit</span></span>       |                                                   |                                                                    |

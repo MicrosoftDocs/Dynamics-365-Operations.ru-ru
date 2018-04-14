@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: edcb01c177a3e43cea7f0b7936a4129d27314016
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3a5b9f98b371dbad9b6b0538e0d9975dc5ed701c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a><span data-ttu-id="edc36-104">Совмещение навыков рабочей силы с потребностями бизнеса</span><span class="sxs-lookup"><span data-stu-id="edc36-104">Align workforce skills with business needs</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="edc36-105">Можно отслеживать навыки, которые сотрудники, кандидаты или контактные лица имеют или должны иметь, чтобы эффективно выполнять свои роли.</span><span class="sxs-lookup"><span data-stu-id="edc36-105">You can track the skills that workers, applicants, or contact persons have, or should have, to fulfill their roles effectively.</span></span> <span data-ttu-id="edc36-106">Также можно указывать навыки, необходимые для определенной должности.</span><span class="sxs-lookup"><span data-stu-id="edc36-106">You can also specify the skills that are required for a specific job.</span></span>
 
@@ -55,8 +54,8 @@ ms.lasthandoff: 01/31/2018
 
 <span data-ttu-id="edc36-133">Профили подбора персонала позволяют найти текущих сотрудников или кандидатов с квалификациями, которые прямо соответствуют бизнес-потребностям.</span><span class="sxs-lookup"><span data-stu-id="edc36-133">Skill-mapping profiles allow you to find current employees or candidates with qualifications that directly correspond to business needs.</span></span>  <span data-ttu-id="edc36-134">Например, вы можете создать профиль подбора персонала для открытой позиции в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="edc36-134">For example, you could create a skill-mapping profile for an open position in your organization.</span></span> <span data-ttu-id="edc36-135">Путем создания профиля для определенной должности или копирования навыков, образования и сертификатов из этой должности в профиль, вы можете быстро искать работников, заявителей и контактных лиц, которые соответствуют одному или нескольким из критериев, введенных в профиль, а также просматривать список кандидатов, навыки которых наиболее близко соответствуют навыкам, необходимых для должности.</span><span class="sxs-lookup"><span data-stu-id="edc36-135">By creating a profile for a particular job and copying the skills, education and certificates from that job to the profile, you can quickly search workers, applicants and contact persons who match one or more of the criteria entered on the profile and view a list of the candidates whose skills most closely match the skills required for the job.</span></span>
 
-><span data-ttu-id="edc36-136">**Примечание.** Только сотрудники, кандидаты и контактные лица, которые выбраны для включения в поиск подбора персонала, могут отображаться в списке результатов подбора персонала или включаться в профиль навыков.</span><span class="sxs-lookup"><span data-stu-id="edc36-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="edc36-137">Для того, чтобы включить работника, заявителя или контактное лицо в поиски по подбору персонала, установите для параметра **Включить в подбор персонала** значение "Да" на следующих страницах:</span><span class="sxs-lookup"><span data-stu-id="edc36-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
-
+> <span data-ttu-id="edc36-136">**Примечание.** Только сотрудники, кандидаты и контактные лица, которые выбраны для включения в поиск подбора персонала, могут отображаться в списке результатов подбора персонала или включаться в профиль навыков.</span><span class="sxs-lookup"><span data-stu-id="edc36-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="edc36-137">Для того, чтобы включить работника, заявителя или контактное лицо в поиски по подбору персонала, установите для параметра **Включить в подбор персонала** значение "Да" на следующих страницах:</span><span class="sxs-lookup"><span data-stu-id="edc36-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
+> 
 > + <span data-ttu-id="edc36-138">Работник</span><span class="sxs-lookup"><span data-stu-id="edc36-138">Worker</span></span>
 > + <span data-ttu-id="edc36-139">Код сотрудника</span><span class="sxs-lookup"><span data-stu-id="edc36-139">Employee</span></span>
 > + <span data-ttu-id="edc36-140">Кандидат</span><span class="sxs-lookup"><span data-stu-id="edc36-140">Applicant</span></span>

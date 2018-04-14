@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: e50fc2b6b8f4cd91e9a5593297fff2e9a6ef5525
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e326acd4a7f681b02ee4846d36e94559ce6dbdfa
 ms.contentlocale: ru-ru
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a><span data-ttu-id="36e56-103">Настройка групп разноски ГК для налога</span><span class="sxs-lookup"><span data-stu-id="36e56-103">Set up ledger posting groups for sales tax</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="36e56-104">Налог рассчитывается и разносится на счета ГК, указанные в группах разноски ГК.</span><span class="sxs-lookup"><span data-stu-id="36e56-104">Sales tax is calculated and posted to main accounts that are specified in the Ledger posting groups.</span></span> <span data-ttu-id="36e56-105">Группы разноски ГК прикрепляются к каждому налоговому коду.</span><span class="sxs-lookup"><span data-stu-id="36e56-105">Ledger posting groups are attached to each sales tax code.</span></span> <span data-ttu-id="36e56-106">Можно настраивать отдельные группы разноски ГК для каждого налогового кода; можно использовать одну группу разноски ГК для всех налоговых кодов или назначить несколько групп разноски ГК налоговым кодам.</span><span class="sxs-lookup"><span data-stu-id="36e56-106">You can set up individual ledger posting groups for each sales tax code, use one ledger posting group for all sales tax codes or assign multiple ledger posting groups to the sales tax codes.</span></span> <span data-ttu-id="36e56-107">В данной записи используется демонстрационная компания DEMF.</span><span class="sxs-lookup"><span data-stu-id="36e56-107">This recording uses the DEMF demo company.</span></span> 
 

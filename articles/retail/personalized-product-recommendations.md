@@ -20,17 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: c5b9ee57b0b855766628caca239059205c103b86
-ms.openlocfilehash: 4a0586324dddc10d64ad6760222f2540f31d6bce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e6bab3de11dbd2aba8b1330284986514a6ac1dfc
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personalized-product-recommendations-overview"></a><span data-ttu-id="979cd-103">Обзор персонализированных рекомендаций по продуктам</span><span class="sxs-lookup"><span data-stu-id="979cd-103">Personalized product recommendations overview</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > <span data-ttu-id="979cd-104">Мы удаляем текущую версию службы рекомендации продуктов, так как мы переработали эту функцию с использованием более эффективного алгоритма и новыми возможностями, предназначенными для розничной торговли.</span><span class="sxs-lookup"><span data-stu-id="979cd-104">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span> <span data-ttu-id="979cd-105">Подробнее см. в разделе [Удаленные или устаревшие функции](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).</span><span class="sxs-lookup"><span data-stu-id="979cd-105">For more information see [Removed or deprecated features](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).</span></span> <span data-ttu-id="979cd-106">Перейдите в конец страницы, если вы сталкиваетесь с проблемами, связанными с уже включенными рекомендациями по продуктам для вашей среды.</span><span class="sxs-lookup"><span data-stu-id="979cd-106">Navigate to the bottom of the page if you are facing issues with already-enabled product recommendations for your environment.</span></span> 
@@ -86,9 +85,9 @@ ms.lasthandoff: 03/08/2018
 -   <span data-ttu-id="979cd-145">Учетные данные и код модели становятся доступными для CRT, чтобы можно было обрабатывать вызовы рекомендаций по продуктам из Cloud POS и MPOS в интерактивном режиме.</span><span class="sxs-lookup"><span data-stu-id="979cd-145">Model credentials and ID are made available to CRT so that calls for product recommendations from Cloud POS and MPOS in online mode can be honored.</span></span>
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a><span data-ttu-id="979cd-146">Устранение неполадок при наличии уже включенных рекомендации по продуктам</span><span class="sxs-lookup"><span data-stu-id="979cd-146">Troubleshoot issues where you have Product recommendations already enabled</span></span> 
->- <span data-ttu-id="979cd-147">Откройте **Параметры Retail** > **Машинное обучение** > **Отключить рекомендации по продуктам** и выполните **Задание глобальной конфигурации [1110]**.</span><span class="sxs-lookup"><span data-stu-id="979cd-147">Navigate to **Retail Parameters** > **Machine learning** > **Disable product recommendations** and run **Global configuration job [1110]**.</span></span> <span data-ttu-id="979cd-148">Если не удается найти вкладку **Машинное обучение**, обратитесь в службу поддержки Dynamics.</span><span class="sxs-lookup"><span data-stu-id="979cd-148">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span> 
-
->- <span data-ttu-id="979cd-149">Если вы добавили **Элемент управления рекомендациями** на свой экран проводки с помощью **Конструктора макета экрана**, удалите также этот элемент.</span><span class="sxs-lookup"><span data-stu-id="979cd-149">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span> 
+> - <span data-ttu-id="979cd-147">Откройте **Параметры Retail** > **Машинное обучение** > **Отключить рекомендации по продуктам** и выполните **Задание глобальной конфигурации [1110]**.</span><span class="sxs-lookup"><span data-stu-id="979cd-147">Navigate to **Retail Parameters** > **Machine learning** > **Disable product recommendations** and run **Global configuration job [1110]**.</span></span> <span data-ttu-id="979cd-148">Если не удается найти вкладку **Машинное обучение**, обратитесь в службу поддержки Dynamics.</span><span class="sxs-lookup"><span data-stu-id="979cd-148">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span> 
+> 
+> - <span data-ttu-id="979cd-149">Если вы добавили **Элемент управления рекомендациями** на свой экран проводки с помощью **Конструктора макета экрана**, удалите также этот элемент.</span><span class="sxs-lookup"><span data-stu-id="979cd-149">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span> 
 
 
 

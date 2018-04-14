@@ -19,17 +19,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
-ms.openlocfilehash: 3fc30669bf7a16616484bf7115cb121ce463840f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3874c2d97117ccc19916a9ad32971c8c8cea56f6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a><span data-ttu-id="fa9d1-106">Создание подразделения и связывание его с иерархией подразделений</span><span class="sxs-lookup"><span data-stu-id="fa9d1-106">Create a department and associate it with the department hierarchy</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="fa9d1-107">Подразделение — это операционная единица, которая представляет собой категорию или функциональную область в организации.</span><span class="sxs-lookup"><span data-stu-id="fa9d1-107">A department is an operating unit that represents a category or functional area of an organization.</span></span> <span data-ttu-id="fa9d1-108">Подразделение отвечает за конкретную область деятельности организации, например продажи, бухгалтерский учет или управление персоналом.</span><span class="sxs-lookup"><span data-stu-id="fa9d1-108">A department is responsible for a specific area of the organization, such as sales, accounting, or human resources.</span></span> <span data-ttu-id="fa9d1-109">Подразделения можно использовать для формирования отчетности по функциональным областям.</span><span class="sxs-lookup"><span data-stu-id="fa9d1-109">You can use departments to report on functional areas.</span></span> <span data-ttu-id="fa9d1-110">Подразделения могут нести ответственность за прибыли и убытки.</span><span class="sxs-lookup"><span data-stu-id="fa9d1-110">Departments might have profit and loss responsibility.</span></span>
 

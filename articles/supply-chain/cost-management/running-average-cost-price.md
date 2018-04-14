@@ -20,19 +20,18 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aeb23f78d9bec93cf92214470e9ace3cd88b92c3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 36ae8e44043c64984a0a8bb4e16ed5d3517041b7
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="running-average-cost-price"></a><span data-ttu-id="48b30-104">Скользящая средняя себестоимость</span><span class="sxs-lookup"><span data-stu-id="48b30-104">Running average cost price</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="48b30-105">Процесс закрытия запасов сопоставляет проводки расходов с проводками приходов на основе метода оценки запасов, который выбирается в группе номенклатурной модели номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="48b30-105">The inventory close process settles issue transactions to receipt transactions, based on the inventory valuation method that is selected in the item’s item model group.</span></span> <span data-ttu-id="48b30-106">Однако перед запуском закрытия запасов система вычисляет скользящую среднюю себестоимость, которая обычно используется при разноске проводок расхода.</span><span class="sxs-lookup"><span data-stu-id="48b30-106">However, before inventory close is run, the system calculates a running average cost price that is typically used when issue transactions are posted.</span></span>
 

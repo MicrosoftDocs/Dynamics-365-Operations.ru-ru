@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 637614a17513ec68c0a180f46606ac8430c00133
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2173527d7f4ea8d92e9daf5d0dd1818b975fd1e3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="maintain-a-route-for-a-product-model"></a><span data-ttu-id="ac9d6-103">Ведение маршрута для модели продукта</span><span class="sxs-lookup"><span data-stu-id="ac9d6-103">Maintain a route for a product model</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ac9d6-104">Выполнение этой процедуры требует наличия модели конфигурации продукта.</span><span class="sxs-lookup"><span data-stu-id="ac9d6-104">Running this procedure requires that a product configuration model exists.</span></span> <span data-ttu-id="ac9d6-105">Эта процедура использует модель динамика класса Hi-End в демонстрационной компании USMF для описания процесса.</span><span class="sxs-lookup"><span data-stu-id="ac9d6-105">This procedure uses the High end speaker model in the demo company USMF to walk you through the process.</span></span>
 

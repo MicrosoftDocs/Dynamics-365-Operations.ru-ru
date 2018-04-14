@@ -20,18 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 981effde3f5e99035bcd790ee8d98cc6acf550fb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-information-overview"></a><span data-ttu-id="cbdb7-104">Обзор сведений о продуктах</span><span class="sxs-lookup"><span data-stu-id="cbdb7-104">Product information overview</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="cbdb7-105">В этой теме содержится информация об управлении информацией о продуктах.</span><span class="sxs-lookup"><span data-stu-id="cbdb7-105">This topic provides information about product information management.</span></span> <span data-ttu-id="cbdb7-106">Управление информацией о продуктах работает с общим определением продукта, категоризацией и идентификаторами по всем юридическим лицам, а также с конкретными конфигурациями продуктов для обеспечения их соответствия бизнес-процессам.</span><span class="sxs-lookup"><span data-stu-id="cbdb7-106">Product information management works with a shared product definition, categorization, and identifiers across all legal entities, and also specific configurations of a product, to fit into the business processes.</span></span> 
 
