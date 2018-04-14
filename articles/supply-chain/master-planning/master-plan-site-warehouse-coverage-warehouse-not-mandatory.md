@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Сводное планирование для покрытия объекта и склада, склад не является обязательным
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описывается, как планируется номенклатура, которая имеет место и склад в качестве аналитики покрытия. Аналитика склада не обязательна.
 
@@ -48,7 +47,7 @@ ms.lasthandoff: 11/03/2017
 
 ![Спрос для узла и покрытие склада, склад необязательный](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
 
- 
+
 -
 
 

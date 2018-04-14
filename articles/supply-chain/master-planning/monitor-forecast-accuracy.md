@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="monitor-forecast-accuracy"></a>Мониторинг точности прогноза
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья описывает типы точности прогнозов, вычисляемые Microsoft Dynamics 365 for Finance and Operations, и поясняет, как просмотреть значения точности.
 

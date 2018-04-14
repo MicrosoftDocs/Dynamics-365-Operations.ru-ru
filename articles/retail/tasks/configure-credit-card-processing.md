@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-credit-card-processing"></a>Настройка обработки кредитных карт
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Эта процедура содержит инструкции по просмотру списка поставщиков платежей и настройке счета платежа для расчетов с клиентами. Эта процедура использует компанию USRT с демонстрационными данными и предназначена для администраторов и ИТ-специалистов.
 

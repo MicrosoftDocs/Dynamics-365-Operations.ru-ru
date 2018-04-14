@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>Настройка кредита и сборов
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье описывается, как настроить функцию сборов.
 
@@ -97,9 +96,9 @@ ms.lasthandoff: 11/03/2017
 Дополнительные сведения см. в следующих разделах:
 
  - [Создание последовательности писем-напоминаний](tasks/create-collection-letter-sequence.md)
- 
+
  - [Обработка писем-напоминаний](tasks/process-collection-letters.md)
- 
+
  - [Просмотр сведений о сборах](tasks/review-collections-information.md)
 
 

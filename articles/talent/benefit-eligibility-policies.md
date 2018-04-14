@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="benefit-eligibility-policies"></a>Политики приемлемости льготы
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 В этом разделе представлена информация о политиках по праву на льготы, которые помогают определить, кто подходит для конкретных льгот.
 

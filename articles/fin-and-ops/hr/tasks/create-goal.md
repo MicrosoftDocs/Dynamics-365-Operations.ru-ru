@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-goal"></a>Создание цели
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Можно создать цели, добавить мероприятия к целям, отслеживать измерения и связать цели с оценкой. Эта процедура была создана с использованием демонстрационных данных компании USMF. Эта процедура предназначена для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-finance-and-operations"></a>Синхронизация организаций непосредственно из Sales с клиентами в Finance and Operations
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных Dynamics 365](/common-data-service/entity-reference/dynamics-365-integration).

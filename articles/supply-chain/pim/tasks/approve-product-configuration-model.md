@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-a-product-configuration-model"></a>Утверждение модели конфигурации продукта
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Выполнение этой процедуры требует наличия не менее одной модели конфигурации продукта. Эта процедура использует модель динамика класса Hi-End в компании USMF с демонстрационными данными. Обратите внимание, что эта модель уже была утверждена, но процедура описывает весь процесс.
 

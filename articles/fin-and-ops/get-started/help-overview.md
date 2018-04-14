@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="help-system-overview"></a>Обзор справочной системы
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Этот раздел содержит обзор компонентов справочной системы Microsoft Dynamics 365 for Finance and Operations. Он также описывает порядок, как можно предоставит пользовательскую документацию и обучение для вашей организации. 
 

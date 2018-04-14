@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-a-finished-product-february-2016-only"></a>Создание готового продукта (только для версии от февраля 2016 г.)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта задача рассматривает создание готовой продукции. Это первая задача в серии расчетов спецификации. В качестве компании с демонстрационными данными для создания этой задачи используется USMF.
 

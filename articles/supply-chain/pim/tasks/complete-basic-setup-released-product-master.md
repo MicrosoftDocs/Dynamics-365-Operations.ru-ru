@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Завершение базовой настройки шаблона запущенных в производство продуктов
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как выполнить минимальную настройку, необходимую, прежде чем шаблон продукта можно будет использовать в версиях спецификаций.
 

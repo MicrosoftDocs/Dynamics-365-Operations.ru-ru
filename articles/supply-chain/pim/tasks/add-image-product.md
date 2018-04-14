@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-an-image-to-a-product"></a>Добавление изображение к продукту
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура демонстрирует порядок добавления изображение к продукту. Для создания этой задачи используются демонстрационные данные компании USMF.
 

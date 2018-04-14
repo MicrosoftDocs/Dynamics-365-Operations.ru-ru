@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a>Создание календаря и создание рабочего времени
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Календари описывают производительность и рабочее время операционных ресурсов. Эта процедура поможет определить рабочий календарь на основе шаблона рабочего времени. Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-journal-entries-and-transactions"></a>Просмотр записей журнала и проводок
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья описывает различные методы, которыми можно посмотреть записи и проводки в журнале 
 
@@ -55,7 +54,7 @@ ms.lasthandoff: 11/03/2017
 -   **Основание проводки** — в этом отчете по проводкам отображается счет по журналу, а также по валюте проводки, учета и отчетности. В нем также отображается каждая строка журнала, которая использовалась как смещение.
 
 
-##<a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также
 - [Сальдо счета главной книги](general-ledger-account-balances.md) 
 - [Анализатор источника учета](..\accounts-payable\accounting-source-explorer.md)
 - [Финансовая отчетность](financial-reporting-getting-started.md)

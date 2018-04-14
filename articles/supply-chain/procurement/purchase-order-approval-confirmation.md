@@ -28,9 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="approve-and-confirm-purchase-orders"></a>Утверждение и подтверждение заказов на покупку
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 В этой статье описываются статусы, через которые проходит заказ на покупку после его создания, и влияние включения управления изменениями в заказе на покупку.
 

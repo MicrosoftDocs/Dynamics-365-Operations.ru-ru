@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="initialize-seed-data-in-a-new-retail-environment"></a>Инициализация начальных данных в новой среде розничной торговли
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 В этой статье описываются данные, создаваемые в процессе инициализации для Microsoft Dynamics 365 for Retail.
 

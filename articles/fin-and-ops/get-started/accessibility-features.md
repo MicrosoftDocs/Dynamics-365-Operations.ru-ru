@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="accessibility-features"></a>Специальные возможности
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описывается функциональная возможность, призванная помочь пользователям с различными физическими нарушениями использовать Dynamics 365 for Finance and Operations, Dynamics 365 for Retail и Dynamics 365 for Talent. Например, имеются возможности для людей, использующих вспомогательные технологии при нарушении зрения, такие как экранный диктор Microsoft Windows.
 

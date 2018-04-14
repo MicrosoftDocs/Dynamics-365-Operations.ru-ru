@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a>Настройка рекомендаций по продуктам на основе машинного обучения
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Эта процедура обновляет данные в хранилище объектов, используемые системой машинного обучения, которая обеспечивает рекомендации по продуктам, а затем обеспечивает рекомендации по продуктам в клиентах POS. В этой процедуре используется компания с демонстрационными данными USRT.
 

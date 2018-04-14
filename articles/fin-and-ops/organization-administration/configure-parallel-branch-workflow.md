@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>Настройка параллельной ветви в workflow-процессе
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Чтобы настроить параллельную ветвь, необходимо выполнить следующие действия в редакторе workflow-процессов.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="customer-payment-overview"></a>Обзор платежей клиентов
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этом проводнике по задаче иллюстрируются различные методы ввода платежей клиентов. В этой задаче используется демонстрационная компания USMF.
 

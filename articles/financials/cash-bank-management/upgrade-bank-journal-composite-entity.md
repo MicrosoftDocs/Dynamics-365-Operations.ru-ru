@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-the-bank-journal-composite-entity"></a>Обновление составного объекта журнала банка
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Следующие шаги требуются, чтобы добавить дополнительное поле BankTransactionType в составной объект BankJournalEntity.
 

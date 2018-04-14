@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="explosion-of-a-bom-version"></a>Развертывание версии спецификации
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье объясняется сценарий сводного планирования, который включает в себя развертывание версии спецификации (BOM).
 

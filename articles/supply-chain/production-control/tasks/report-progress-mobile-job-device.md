@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Проверка хода выполнения на мобильном устройстве задания
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуры показано, как запустить производственное задание в регистрационной форме устройства задания и как сообщать о ходе выполнения задания.
 

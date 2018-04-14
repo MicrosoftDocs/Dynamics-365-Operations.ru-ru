@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="vendor-collaboration-invoicing-workspace"></a>Рабочая области выставления накладных при совместной работе с поставщиками
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описан порядок просмотра накладных поставщика и отправки накладных из рабочей области совместной работы с поставщиками.
 

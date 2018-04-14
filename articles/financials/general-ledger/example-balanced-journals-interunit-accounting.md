@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balanced-journals-for-interunit-accounting"></a>Сбалансированные журналы для внутрихолдингового учета
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье показано, как журнал автоматически балансируется, когда на странице "Книга учета" выбрана финансовая аналитика балансировки. 
 

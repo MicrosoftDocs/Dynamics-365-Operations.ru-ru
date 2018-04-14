@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Настройка основного часового пояса пользователя
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В следующей процедуре объясняется, как пользователь в роли "Системный администратор" может настроить часовой пояс для пользователя.
 

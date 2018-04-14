@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-call-center-catalog"></a>Создание каталога центра обработки вызовов
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 В этой статье содержится обзор процесса создания каталога для центра обработки вызовов. 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Синхронизация заголовков и строк накладных по продаже непосредственно из Finance and Operations с Sales
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации заголовков и строк накладных по продажам непосредственно из Microsoft Dynamics 365 for Finance and Operations в Microsoft Dynamics 365 for Sales.
 

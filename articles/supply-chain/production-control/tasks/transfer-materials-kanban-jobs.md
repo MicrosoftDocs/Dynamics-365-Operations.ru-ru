@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-materials-with-kanban-jobs-february-2016-only"></a>Перемещение материалов с помощью заданий канбана (только для версии от февраля 2016 г.)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура заключается в выполнении задания канбана изъятия для перемещения материалов. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для работника склада.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="optimization-advisor-overview"></a>Обзор помощника по оптимизации
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описывается, как использовать помощник по оптимизации для обеспечения оптимальной конфигурации Microsoft Dynamics 365 Finance and Operations.
 

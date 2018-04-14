@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="accounting-source-explorer"></a>Анализатор источника учета
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья представляет информацию об Анализаторе источника учета, который можно использовать для подробного анализа сведений об источнике за учетными записями ГК.
 

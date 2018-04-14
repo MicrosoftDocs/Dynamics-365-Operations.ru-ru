@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-workflow"></a>Workflow-процесс для рассмотрения расходов
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Систему workflow-процессов Microsoft Dynamics 365 for Finance and Operations можно использовать для настройки процесса рассмотрения отчетов о расходах в модуле "Управление расходами". Вы можете настроить workflow-процесс, в котором будут использоваться следующие критерии для определения того, кто должен утверждать отчеты о расходах:
 

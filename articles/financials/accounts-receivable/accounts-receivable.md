@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="accounts-receivable-home-page"></a>Домашняя страница расчетов с клиентами
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Расчеты с клиентами используются для отслеживания накладных и входящих платежей клиентов. 
 

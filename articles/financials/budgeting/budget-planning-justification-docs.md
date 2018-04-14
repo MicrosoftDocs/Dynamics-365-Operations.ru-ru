@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-justification-documents"></a>Документы обоснования бюджетного плана
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Документы обоснования предоставляют описания для этих запросов бюджета, чтобы объяснить причину, по которой необходим конкретный бюджет. 
 

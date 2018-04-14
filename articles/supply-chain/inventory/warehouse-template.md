@@ -29,7 +29,7 @@ ms.lasthandoff: 02/06/2018
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Настройка склада с помощью шаблона конфигурации склада
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе рассматривается настройка склада с помощью шаблона конфигурации склада. Существует несколько предварительно заданных шаблонов конфигурации, которые можно использовать. Сведения об использовании этих шаблонов см. в разделе [Шаблоны конфигурационных данных](../../dev-itpro/data-entities/configuration-data-templates.md).
 

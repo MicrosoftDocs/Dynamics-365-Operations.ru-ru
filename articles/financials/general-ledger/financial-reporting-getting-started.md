@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-reporting"></a>Финансовая отчетность
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описывается доступ к финансовой отчетности в Microsoft Dynamics 365 for Finance and Operations и использование возможностей финансовой отчетности. Он включает в себя описание финансовых отчетов по умолчанию, которые предоставляются.
 

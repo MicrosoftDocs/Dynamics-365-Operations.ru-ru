@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-purchase-orders"></a>Создание заказов на покупку
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 В данной статье описывается процесс и параметры, доступные при создании заказа на покупку вручную.
 

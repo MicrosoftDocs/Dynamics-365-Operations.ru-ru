@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-object-values"></a>Значения объекта запасов
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье представлена информация о том, как рассчитываются значения объекта запасов. 
 

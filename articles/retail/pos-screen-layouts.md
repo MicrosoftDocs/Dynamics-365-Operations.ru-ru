@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-screen-layouts-for-pos"></a>Настройка макетов экрана для POS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 В этой теме содержится информация о макетах экрана для работы с POS в Microsoft Dynamics 365 for Retail.
 

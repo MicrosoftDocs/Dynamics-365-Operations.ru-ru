@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="common-sources-of-production-variances"></a>Распространенные источники производственных отклонений
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья описывает различные стандартные источники каждого типа отклонения цены производства от себестоимости. 
 

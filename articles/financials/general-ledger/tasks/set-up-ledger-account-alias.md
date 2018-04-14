@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Настройка псевдонима счета ГК
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ниже описан порядок создания псевдонима счета, который обеспечивает ярлык для ввода номера счета. В этой процедуре используется компания с демонстрационными данными USMF.
 

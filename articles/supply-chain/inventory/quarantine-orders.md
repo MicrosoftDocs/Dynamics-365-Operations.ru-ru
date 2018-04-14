@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="quarantine-orders"></a>Карантинные заказы
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описывается, как карантинные заказы используются для блокировки запасов.
 

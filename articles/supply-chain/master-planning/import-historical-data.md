@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="import-historical-data-for-demand-forecasts"></a>Импорт исторических данных для прогнозов спроса
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Для обеспечения точности прогнозов спроса необходимо иметь максимальный объем исторических данных по спросу, который можно получить для номенклатуры или ключа распределения номенклатуры. Если исторические данные по спросу еще не импортированы, используйте информационный объект **Исторический внешний спрос** (ReqDemPlanHistoricalExternalDemandEntity) в Microsoft Dynamics 365 for Finance and Operations, чтобы импортировать его.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-interest"></a>Обработка процента
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как создать, напечатать и разнести процент-ноты. В этой задаче используется демонстрационная компания USMF.
 

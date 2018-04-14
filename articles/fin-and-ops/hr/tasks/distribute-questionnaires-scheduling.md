@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Распределение анкет с помощью планирования
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Планирование анкет позволяет планировать и распределять анкеты по нескольким респондентам. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 

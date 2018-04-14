@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Планирование заданий канбана для бережливого производства
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья представлена информация о визуальном контроле над планированием заданий канбана и различных способов для планирования заданий канбана.  
 

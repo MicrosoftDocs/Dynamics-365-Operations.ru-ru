@@ -24,7 +24,7 @@ ms.lasthandoff: 02/15/2018
 ---
 # <a name="benefit-eligibility-process"></a>Обработка применимости льгот
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура показывает, как работает процесс допустимости льготы. По завершении процесса можно просмотреть результаты. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="material-substitution-in-manufacturing"></a>Замещение материала на производстве
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта тема описывает, как заменять материалы во время производственного процесса. 
 

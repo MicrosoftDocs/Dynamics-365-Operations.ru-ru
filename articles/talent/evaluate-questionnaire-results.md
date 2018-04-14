@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Просмотр и оценка результатов анкеты
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 В этом разделе объясняется, как просмотреть и оценить результаты анкет, заполненных респондентами. 
 

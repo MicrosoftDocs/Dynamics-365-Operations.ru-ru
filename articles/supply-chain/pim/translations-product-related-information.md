@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>Вопросы и ответы по переводам, связанным с продуктом
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описывается, как управлять переводами для продуктов, значений аналитик продуктов и атрибутов продуктов. 
 
@@ -95,8 +94,7 @@ ms.lasthandoff: 02/07/2018
 <tbody>
 <tr class="odd">
 <td>Чтобы настроить предпочтительный язык клиента, выполните следующие действия.
-<ol>  
-<li>Выберите <strong>Продажи и маркетинг</strong> &gt; <strong>Общее</strong> &gt; <strong>Клиенты</strong> &gt; <strong>Все</strong> <strong>клиенты</strong>.</li>
+<ol><br/><li>Выберите <strong>Продажи и маркетинг</strong> &gt; <strong>Общее</strong> &gt; <strong>Клиенты</strong> &gt; <strong>Все</strong> <strong>клиенты</strong>.</li>
 <li>Дважды щелкните счет клиента, чтобы открыть форму <strong>Клиенты</strong>. На вкладке <strong>Общие</strong> в поле <strong>Язык</strong> выберите <strong>язык</strong>.</li>
 </ol></td>
 </tr>

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-codes"></a>Настройка штрих-кодов
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 В этой статье описывается, как использовать штрих-коды в Microsoft Dynamics 365 for Retail.
 

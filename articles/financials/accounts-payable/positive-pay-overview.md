@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="positive-pay-overview"></a>Обзор положительного платежа
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье приводятся сведения о положительном плате, используемом для формирования электронного списка чеков, которые можно предоставить банку. 
 

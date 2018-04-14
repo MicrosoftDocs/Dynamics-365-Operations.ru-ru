@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="monitor-a-master-planning-run"></a>Мониторинг выполнения сводного планирования
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Планировщик производства хочет просмотреть, выполняется ли сводное планирование. Для выполнения этой процедуры используйте компанию с демонстрационными данными USMF.
 

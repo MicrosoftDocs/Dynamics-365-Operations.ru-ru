@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-output-location"></a>Местонахождение получения из производства
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой теме описывается иерархия, которая используется для идентификации местоположения получения из производства.
 

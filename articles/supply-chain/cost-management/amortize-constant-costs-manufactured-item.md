@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>Амортизация постоянных затрат для производимой номенклатуры
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Постоянные затраты по произведенной номенклатуре отражают время настройки операции и компоненты, имеющие постоянное количество или постоянную сумму отходов. 
 

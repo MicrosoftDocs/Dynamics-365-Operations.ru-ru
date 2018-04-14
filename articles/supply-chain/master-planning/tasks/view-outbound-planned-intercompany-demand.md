@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-outbound-planned-intercompany-demand"></a>Просмотр исходящего запланированного внутрихолдингового спроса
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура показывает, как просмотреть все спланированные заказы, которые будут выполняться внутрихолдинговым поставщиком. В качестве компании с демонстрационными данными для создания этой процедуры используется DEMF.
 

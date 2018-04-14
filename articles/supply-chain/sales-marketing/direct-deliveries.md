@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="direct-deliveries"></a>Прямые поставки
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье представлены сведения о прямых поставках. Прямые поставки — это поставки, отправляемые напрямую от поставщика клиенту.
 

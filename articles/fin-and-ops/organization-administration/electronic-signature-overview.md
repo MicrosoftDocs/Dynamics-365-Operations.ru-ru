@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-signature-overview"></a>Обзор электронной подписи
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье представлен обзор электронных подписей и описан порядок их возможного использования в Microsoft Dynamics 365 for Finance and Operations.
 

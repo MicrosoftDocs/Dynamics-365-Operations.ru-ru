@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="registration-for-manufacturing-execution"></a>Регистрация для выполнения производства
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описаны ключевые понятия и термины, которые необходимо понимать для настройки и использования управления производством. 
 

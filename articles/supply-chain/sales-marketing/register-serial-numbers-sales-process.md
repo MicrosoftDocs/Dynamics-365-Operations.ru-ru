@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Регистрация серийных номеров в процессе продаж
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 В этом разделе объясняется, как можно регистрировать серийные номера в отборочных накладных или накладных в процессе продажи. Эта функция полезна, если компания хочет регистрировать серийные номера просто для целей обслуживания и гарантии, он им не требуется ведение серийных номеров в запасах от получения до выдачи.
 

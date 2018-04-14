@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a>Настройка способов оплаты для кредитового перевода ISO20022
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура показывает, как настроить метод платежа поставщику для переноса кредита ISO20022 или любого другого типа платежа с использованием электронной отчетности для создания файла. 
 

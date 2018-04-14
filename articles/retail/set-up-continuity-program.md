@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-continuity-program-for-a-call-center"></a>Настройка программы непрерывности для центра обработки вызовов
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 В этом статье описывается, как настроить программу непрерывности для центра обработки вызовов.
 

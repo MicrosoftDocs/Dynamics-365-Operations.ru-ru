@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>Создание документации или обучения с помощью записей задач
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе объясняется, что такое Регистратор задач и руководства по задачам, как создать записи задач и как настроить руководства по задачам Microsoft и включить их в вашу Справку.
 

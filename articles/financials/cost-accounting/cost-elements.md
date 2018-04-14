@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-element-dimensions"></a>Аналитики элемента затрат
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В качестве одного из ключевых столпов в модуле учета затрат, аналитики элементов затрат используются для классификации и отслеживания направления потока затрат. 
 

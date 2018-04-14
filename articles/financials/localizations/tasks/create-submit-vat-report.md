@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-submit-vat-report"></a>Создание и отправка отчета по НДС
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура описывает создание и отправку отчета по НДС в немецкие налоговые органы.
 

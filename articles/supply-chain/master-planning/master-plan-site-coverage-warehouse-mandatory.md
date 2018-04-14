@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Сводное планирование для покрытия объекта, обязательный склад
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описывается, как планируется номенклатура, которая имеет объект как аналитику покрытия. Аналитика склада обязательна.
 

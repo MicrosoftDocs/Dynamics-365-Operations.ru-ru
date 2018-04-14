@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>Настройка прав доступа для контролера объектов затрат
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура используется для конфигурирования прав доступа для контроллера объектов затрат. В этой записи используется компания с демонстрационными данными USP2.
 

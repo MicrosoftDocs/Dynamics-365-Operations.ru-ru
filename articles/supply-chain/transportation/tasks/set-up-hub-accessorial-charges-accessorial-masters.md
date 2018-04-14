@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Настройка дополнительных расходов и справочников дополнений для узла
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как создать справочник дополнений для узла и, используя этот справочник, создать дополнительные расходы для узла. В процедуре используется набор данных USMF. Обычно это настраивается координатором транспортировки.
 

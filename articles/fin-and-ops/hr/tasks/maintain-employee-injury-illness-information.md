@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Ведение сведений о травмах и заболеваниях сотрудников
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Рекомендуется сначала выполнить задание "Настройка травм и заболеваний", поскольку здесь используются некоторые сведения о настройке. 
 

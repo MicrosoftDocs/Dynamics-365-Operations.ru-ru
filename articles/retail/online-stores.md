@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="online-store-overview"></a>Обзор интернет-магазина
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 В этой статье представлена информация о розничных интернет-магазинах и их настройке в Microsoft Dynamics 365 for Retail.
 

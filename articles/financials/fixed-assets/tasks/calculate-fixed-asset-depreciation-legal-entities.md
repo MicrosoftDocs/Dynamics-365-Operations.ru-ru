@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a>Расчет амортизации ОС в разных юридических лицах
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Можно запустить амортизации основных средств для нескольких юридических лиц за один шаг. Эта процедура показывает, как настроить и запустить процесс для нескольких юридических лиц. Она использует роль бухгалтера.  
 

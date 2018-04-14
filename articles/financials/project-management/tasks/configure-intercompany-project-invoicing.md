@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Настройка внутрихолдингового выставления накладных по проектам
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как настроить выставление накладных по проекту между двумя компаниями в организации. В этой задаче используется набор данных компании USSI.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Добавление финансовых аналитик в рабочую область финансового директора
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой теме объясняется, как добавить финансовые аналитики в рабочую область финансового директора, чтобы их можно было использовать для отчетов по ГК и бюджету. Рабочая область финансового директора содержит вкладки **Обзор** и **Финансы**. Отчеты на этих двух вкладках обеспечиваются двумя измерениями: LedgerActivityMeasure и BudgetActivityMeasure. В Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.) существует связь между этими двумя измерениям и объектом DimensionCombinationEntity. Следовательно, можно выбрать аналитики.
 

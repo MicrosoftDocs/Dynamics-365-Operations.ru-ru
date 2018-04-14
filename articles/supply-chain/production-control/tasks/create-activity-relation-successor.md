@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-activity-relation-successor"></a>Создание связи мероприятия: последующий элемент
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Поток мероприятий в бережливом производственном потоке документируется через связи мероприятия. Эта запись показывает, как создать связь мероприятия.
 

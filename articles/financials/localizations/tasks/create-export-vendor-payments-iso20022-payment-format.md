@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Создание и экспорт платежей поставщикам с помощью формата платежей ISO20022
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как создать строки платежей в журнале платежей поставщику и как создать файл платежей поставщикам с использованием примера перемещения кредита ISO2022. 
 

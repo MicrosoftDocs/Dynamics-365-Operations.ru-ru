@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a>Настройка профиля функциональности для торгового представителя
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Эта процедура демонстрирует порядок задания настроек профиля функциональности магазина, которые применяются к торговым представителям. В этой процедуре используется компания с демонстрационными данными USRT.
 

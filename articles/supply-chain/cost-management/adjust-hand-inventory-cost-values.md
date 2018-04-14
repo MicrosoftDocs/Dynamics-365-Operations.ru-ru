@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="adjust-on-hand-inventory-cost-values"></a>Настройка себестоимости запасов в наличии
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Вы можете использовать страницу "Коррекция запасов в наличии", чтобы настроить себестоимость количеств запасов в наличии после выполнения процесса закрытия запасов.
 

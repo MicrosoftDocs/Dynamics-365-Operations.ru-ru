@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Резервирование такой же партии для заказа на продажу
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье описывается, как настроить продукт, чтобы разрешить резервирование запасов относительно одной партии запасов.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="credit-and-collections-management-power-bi-content"></a>Содержимое Power BI "Кредит и сборы"
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой теме описывается, что входит в содержимое Microsoft Power BI **Управление кредитом и сбором задолженностей**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
 
@@ -69,22 +69,24 @@ ms.lasthandoff: 03/07/2018
 
 Следующие данные используются для заполнения страниц отчета в содержимом **Управление кредитом и сбором задолженностей** Power BI. Эти данные представлены как общие измерения, которые помещаются на временное хранение в хранилище объектов. Хранилище объектов является базой данных Microsoft SQL Server, оптимизированной для аналитики. Дополнительные сведения см. в разделе [Обзор интеграции Power BI с хранилищем объектов](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
 
-| Объект                                      | Ключевые сводные измерения           | Иcточник данных                                 | Поле                                                      | описание |
-|---------------------------------------------|--------------------------------------|---------------------------------------------|------------------------------------------------------------|-------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities, AveragecClosedTime  | smmActivities                               | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) | Число закрытых мероприятий и среднее время для закрытия этих мероприятий. |
-| CustCollectionsBIActivitiesOpen             | ActivityNumber                       | smmActivities                               | Count(ActivityNumber)                                      | Число открытых мероприятий. |
-| CustCollectionsBIAgedBalances               | AgedBalances                         | CustCollectionsBIAgedBalancesView           | Sum(SystemCurrencyBalance)                                 | Сумма сальдо по срокам. |
-| CustCollectionsBIBalancesDue                | SystemCurrencyAmount                 | CustCollectionsBIBalanceDueView             | Sum(SystemCurrencyAmount)                                  | Просроченные суммы. |
-| CustCollectionsBICaseAverageCloseTIme       | NumOfCases, CaseAverageClosedTime    | CustCollectionsCaseDetail                   | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) | Число закрытых обращений и среднее время для закрытия этих обращений. |
-| CustCollectionsBICasesOpen                  | CaseId                               | CustCollectionsCaseDetail                   | Count(CaseId)                                              | Число открытых обращений. |
-| CustCollectionsBICollectionLetter           | CollectionLetterNum                  | CustCollectionLetterJour                    | Count(CollectionLetterNum)                                 | Число открытых писем-напоминаний. |
-| CustCollectionsBICollectionLetterAmount     | CollectionLetterAmounts              | CustCollectionsBIAccountsReceivables        | Sum(SystemCurrencyAmount)                                  | Сальдо разнесенных писем-напоминаний. |
-| CustCollectionsBICollectionStatus           | CollectionStatusAmounts              | CustCollectionsBIAccountsReceivables        | Sum(SystemCurrencyAmount)                                  | Сальдо проводок со статусом сбора. |
-| CustCollectionsBICredit                     | CreditExposed, AmountOverCreditLimit | CustCollectionsBICreditView                 | Sum(CreditExposed), Sum(AmountOverCreditLimit)             | Сумма используемого кредита и суммы превышения кредитного лимита клиентами. |
-| CustCollectionsBICustOnHold                 | Блокировано                              | CustCollectionsBICustTable                  | Count(Blocked)                                             | Число клиентов, которые заблокированы. |
-| CustCollectionsBIDSO                        | DSO30                                | CustCollectionsBIDSOView                    | AverageOfChildren(DSO30)                                   | Период погашения дебиторской задолженности 30 дней. |
-| CustCollectionsBIExpectedPayment            | ExpectedPayment                      | CustCollectionsBIExpectedPaymentView        | Sum(SystemCurrencyAmounts)                                 | Сумма платежей, ожидаемых в течение следующего года. |
-| CustCollectionsBIInterestNote               | InterestNote                         | CustInterestJour                            | Count(InterestNote)                                        | Число созданных процент-нот. |
-| CustCollectionsBISalesOnHold                | SalesId                              | SalesTable                                  | Count(SalesId)                                             | Число общих заказов на продажу, которые заблокированы. |
-| CustCollectionsBIWriteOff                   | WriteOffAmount                       | CustCollectionsBIWriteOffView               | Sum(SystemCurrencyAmount)                                  | Сумма проводок, которые были списаны. |
+
+|                   Объект                    |      Ключевые сводные измерения      |             Иcточник данных              |                           Поле                            |                                    описание                                     |
+|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
+| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities, AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     Число закрытых мероприятий и среднее время для закрытия этих мероприятий.     |
+|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           Число открытых мероприятий.                            |
+|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             Сумма сальдо по срокам.                              |
+|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           Просроченные суммы.                            |
+|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases, CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        Число закрытых обращений и среднее время для закрытия этих обращений.        |
+|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              Число открытых обращений.                              |
+|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       Число открытых писем-напоминаний.                        |
+|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     Сальдо разнесенных писем-напоминаний.                      |
+|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                Сальдо проводок со статусом сбора.                 |
+|           CustCollectionsBICredit           | CreditExposed, AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | Сумма используемого кредита и суммы превышения кредитного лимита клиентами. |
+|         CustCollectionsBICustOnHold         |               Блокировано                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     Число клиентов, которые заблокированы.                      |
+|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        Период погашения дебиторской задолженности 30 дней.                         |
+|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 Сумма платежей, ожидаемых в течение следующего года.                 |
+|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Число созданных процент-нот.                |
+|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Число общих заказов на продажу, которые заблокированы.                 |
+|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Сумма проводок, которые были списаны.                 |
+
 

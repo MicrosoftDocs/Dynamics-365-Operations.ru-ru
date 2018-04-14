@@ -25,7 +25,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="learning-power-bi-content"></a>Содержимое Power BI "Обучение"
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описывается содержимое Power BI **Обучение**.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>Настройка служб SQL Server Reporting Services для локального развертывания
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Используйте шаги, приведенные ранее в этой теме, для настройки служб SQL Server Reporting Services (SSRS) для развертывания Microsoft Dynamics 365 for Finance and Operations (локальная версия).
 
@@ -52,13 +52,13 @@ ms.lasthandoff: 03/26/2018
 
     [![вкладка "URL-адрес веб-портала"](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
     
-  После настройки портала вкладка **Веб-портал** будет соответствовать приведенному ниже рисунку.
+   После настройки портала вкладка **Веб-портал** будет соответствовать приведенному ниже рисунку.
     [![вкладка "Веб-портал"](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
     
 8. Перейдите по URL-адресу отчетов для просмотра веб-портал SQL Server Reporting Services. 
-9.  Находясь на портале, создайте новую папку с именем **Dynamics**.
+9. Находясь на портале, создайте новую папку с именем **Dynamics**.
 
-    [![папка Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+   [![папка Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
     
 10. В разделе **Диспетчер конфигурации служб Reporting Services** щелкните вкладку **Параметры электронной почты** и убедитесь, что параметры соответствуют приведенному ниже рисунку.
 
@@ -68,15 +68,15 @@ ms.lasthandoff: 03/26/2018
 
     [![вкладка "Учетная запись для выполнения"](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
     
-  Не следует изменять параметры по умолчанию на вкладке **Ключи шифрования**. [![Вкладка "Ключи шифрования"](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+    Не следует изменять параметры по умолчанию на вкладке **Ключи шифрования**. [![Вкладка "Ключи шифрования"](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
     
 12. Щелкните вкладку **Параметры подписки** и убедитесь, что параметры соответствуют приведенному ниже рисунку.
 
     [![вкладка "Параметры подписки"](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
     
-  Не следует изменять параметры по умолчанию на вкладке **Масштабное развертывание**. [![Вкладка "Масштабное развертывание"](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+    Не следует изменять параметры по умолчанию на вкладке **Масштабное развертывание**. [![Вкладка "Масштабное развертывание"](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
     
-  Не следует изменять параметры по умолчанию на вкладке **Интеграция с Power BI**. [![Вкладка "Интеграция с Power BI"](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
+    Не следует изменять параметры по умолчанию на вкладке **Интеграция с Power BI**. [![Вкладка "Интеграция с Power BI"](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
     
 13. Щелкните **Выход**, чтобы закрыть **Диспетчер конфигурации Reporting Services**.
 

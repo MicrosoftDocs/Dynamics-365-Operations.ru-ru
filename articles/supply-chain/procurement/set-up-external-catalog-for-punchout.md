@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Настройка внешнего каталога для внешних eProcurement
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Использование внешнего каталога позволяет гарантировать, что информация о продуктах и ценах, которую вы впоследствии обрабатываете в Dynamics 365 for Finance and Operations от июля 2017 г., будет точной и актуальной. После этого заявку можно будет утвердить и преобразовать в заказ на покупку, и разместить заказ у поставщика.
 

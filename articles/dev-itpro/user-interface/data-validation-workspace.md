@@ -25,8 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="data-validation-workspace"></a>Рабочая область проверки данных
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья предоставляет обзор **Рабочая область контрольного списка проверки данных** и соответствующей конфигурации.
 

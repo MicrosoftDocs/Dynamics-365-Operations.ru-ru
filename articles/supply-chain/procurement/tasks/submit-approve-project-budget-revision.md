@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="submit-and-approve-project-budget-revisions"></a>Отправка и утверждение версий бюджетов проектов
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре предоставляются сведения о пересмотре бюджета проекта. Вы можете пересматривать бюджет проекта столько раз, сколько необходимо, однако вы не можете просмотреть сумму отдельной версии, если бюджет был пересмотрен несколько раз. 
 

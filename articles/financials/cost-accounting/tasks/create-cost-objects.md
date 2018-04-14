@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="create-cost-objects"></a>Создание объектов затрат 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура показывает порядок создания объектов затрат путем импорта финансовой аналитики центра затрат Dynamics 365 for Finance and Operations в модуль учета затрат через соединитель данных. В качестве демонстрационной компании для создания этой процедуры используется USMF. Эта процедура предназначена для функции "Учет затрат", которая была добавлена в версии 1611 Dynamics 365 for Operations.
 

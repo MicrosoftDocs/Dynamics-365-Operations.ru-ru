@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-an-operations-resource"></a>Создание операционного ресурса
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Операционный ресурс участвует в мероприятиях проекта или производственного процесса. В этой процедуре показано, как определить операционный ресурс. Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.
 

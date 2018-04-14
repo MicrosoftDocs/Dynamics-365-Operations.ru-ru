@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="action-search"></a>Поиск действий
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье описываются функции поиска действий в Microsoft Dynamics 365 for Finance and Operations. Поиск действий служит для поиска и выполнения действий на странице.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accruals-overview"></a>Обзор начислений
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья описывает начисления и представляет информация о том, как настроить их и создать проводки.
 

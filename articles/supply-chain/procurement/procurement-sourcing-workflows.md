@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="procurement-and-sourcing-workflows"></a>Workflow-процессы модуля "Закупки и источники"
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В некоторых организациях требуется, чтобы заявки на покупку и заказы на покупку утверждались пользователем, отличным от сотрудника, который ввел проводку. Чтобы настроить процесс утверждения, можно создать workflow-процесс.
 

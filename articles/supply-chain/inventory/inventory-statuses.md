@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-statuses"></a>Статусы запасов
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья описывает, как можно использовать состояния запасов для классификации и отслеживания запасов.
 

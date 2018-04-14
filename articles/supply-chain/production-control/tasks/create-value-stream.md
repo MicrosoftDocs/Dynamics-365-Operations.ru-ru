@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-value-stream"></a>Создание потока создания ценности
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Потоки создания ценности — это операционные единицы, группирующие один или несколько производственных потоков. Для определения производственного потока сначала необходимо определить поток создания ценности.
 

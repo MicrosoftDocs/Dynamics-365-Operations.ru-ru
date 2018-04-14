@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-raw-materials-february-2016-only"></a>Создание сырья (только для версии от февраля 2016 г.)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта задача рассматривает создание компонентов готовой продукции и полуфабрикатов. Это третья задача в серии расчетов спецификации. В качестве компании с демонстрационными данными для создания этой задачи используется USMF.
 

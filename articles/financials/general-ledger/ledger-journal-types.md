@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="ledger-journal-types"></a>Типы журналов ГК
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье описываются типы журналов, которые можно настроить для финансовых журналов. Используйте страницу **Наименования журналов** для настройки журналов, применяемых в Microsoft Dynamics 365 for Finance and Operations.
 

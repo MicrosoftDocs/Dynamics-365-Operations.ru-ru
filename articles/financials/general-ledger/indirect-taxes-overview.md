@@ -28,10 +28,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="sales-tax-overview"></a>Обзор налога
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Этот раздел содержит обзор системы налогов. Она описывает элементы настройки налогов и как они работают вместе.
 

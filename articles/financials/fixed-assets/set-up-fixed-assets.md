@@ -28,7 +28,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="set-up-fixed-assets"></a>Настройка основных средств
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе приводится обзор настройки модуля **Основные средства**.
 

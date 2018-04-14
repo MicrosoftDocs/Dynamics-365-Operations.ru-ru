@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>Создание пакетов продуктов для заказов на покупку
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Эта процедура содержит инструкции по созданию пакета продуктов и его использованию в заказе на покупку. Заказ на покупку будет использоваться для создания заказа на заранее определенный набор продуктов. В этой процедуре используется компания с демонстрационными данными USRT.
 

@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>Поступление продуктов по заказу на покупку
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 В этой статье описываются различные параметры для регистрации продуктов как полученных.
 

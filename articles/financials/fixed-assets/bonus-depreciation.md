@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bonus-depreciation"></a>Амортизационная премия
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья содержит обзор функции Амортизационной премии.
 

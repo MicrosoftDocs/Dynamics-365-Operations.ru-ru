@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="vendor-collaboration-with-customers"></a>Совместная работа с клиентами
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описывается, как можно использовать модуль совместной работы с поставщиками для работы с клиентами в Microsoft Dynamics 365 for Finance and Operations. Поставщики могут выполнять ряд бизнес-процессов из следующих рабочих областей:
 

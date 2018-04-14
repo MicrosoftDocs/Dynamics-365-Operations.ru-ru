@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-resources"></a>Ресурсы Operations
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Операционные ресурсы выполняют действия проекта или производственного процесса. Они могут быть разных видов и могут иметь различные возможности. 
 

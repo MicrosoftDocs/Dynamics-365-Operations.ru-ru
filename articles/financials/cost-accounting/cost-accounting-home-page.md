@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Домашняя страница учета затрат
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Карта обучения 
 
@@ -37,6 +37,7 @@ ms.lasthandoff: 11/03/2017
 [![Карта обучения модуля "Учет затрат"](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Быстрые ссылки
+
 |      |   |
 |------|---|
 |  [Настройка базовых объектов (eLearning)](https://mbspartner.microsoft.com/Home) (требуется учетная запись CustomerSource)  |[Создать "Аналитики"](cost-elements.md)  |
