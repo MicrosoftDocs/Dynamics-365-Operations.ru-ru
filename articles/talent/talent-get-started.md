@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a8c2d097626fad905741c35ffa8c13336f8735b9
+ms.sourcegitcommit: 3662bb1a20fbdd3769b94247ac071a7cfd7e04f1
+ms.openlocfilehash: 94c07d18de06a75ad86d69d7c06a78e446f0b506
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/20/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="60c03-103">Начало работы с Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="60c03-103">Getting started with Microsoft Dynamics 365 for Talent</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 > [!NOTE] 
 > <span data-ttu-id="60c03-107">Следующие продукты тесно связаны: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail и Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="60c03-107">The following products are closely related: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; and Dynamics 365 for Talent.</span></span> <span data-ttu-id="60c03-108">Одинаковые функциональные возможности могут быть доступны во всех 3 продуктах.</span><span class="sxs-lookup"><span data-stu-id="60c03-108">The same functionality may appear in all 3 products.</span></span> <span data-ttu-id="60c03-109">Таким образом, в темах, которые в основном связаны с Retail, будет использоваться имя продукта Microsoft Dynamics 365 for Retail, а в темах, которые в основном связаны Talent, будет использоваться имя продукта Dynamics 365 for Talent, а в темах, которые в основном связаны основном продуктом, будет использоваться имя продукта Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="60c03-109">As a result, in topics that are primarily related to Retail, the product name will be Dynamics 365 for Retail; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent; and in topics that are related to the core product, the product name will be Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="60c03-110">Темы, написанные для одного продукта, могут относиться и к аналогичным функциональным возможностям в связанном продукте.</span><span class="sxs-lookup"><span data-stu-id="60c03-110">Topics that are written for one product may apply to the same functionality in a related product.</span></span>
 
-### <a name="personalizing-talent"></a><span data-ttu-id="60c03-111">Персонализация Talent</span><span class="sxs-lookup"><span data-stu-id="60c03-111">Personalizing Talent</span></span> 
+## <a name="personalizing-talent"></a><span data-ttu-id="60c03-111">Персонализация Talent</span><span class="sxs-lookup"><span data-stu-id="60c03-111">Personalizing Talent</span></span> 
 <span data-ttu-id="60c03-112">В следующих темах показано, как настроить многие функции в Dynamics 365 for Talent, которые упрощают своевременное выполнение работы.</span><span class="sxs-lookup"><span data-stu-id="60c03-112">The following topics show how to set up many features in Dynamics 365 for Talent that make it easier for you to get your work done in a timely manner.</span></span> 
 
 -   <span data-ttu-id="60c03-113">[Персонализация пользовательского интерфейса](../fin-and-ops/get-started/personalize-user-experience.md) — в этом разделе объясняются разные способы, которыми можно настраивать Talent и адаптировать части продукта для более точного соответствия вашим требованиям.</span><span class="sxs-lookup"><span data-stu-id="60c03-113">[Personalize the user experience](../fin-and-ops/get-started/personalize-user-experience.md) - This topic explains the different ways in which you can personalize Talent and adapt parts of the product to more closely suite your preferences.</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/13/2018
 
 -   <span data-ttu-id="60c03-117">[Сочетания клавиш](../fin-and-ops/get-started/shortcut-keys.md) — в этом разделе перечислены сочетания клавиш для раскладки клавиатуры для США.</span><span class="sxs-lookup"><span data-stu-id="60c03-117">[Keyboard shortcuts](../fin-and-ops/get-started/shortcut-keys.md) - This topic lists keyboard shortcuts for the United States keyboard layout.</span></span> 
 
-### <a name="accessing-information"></a><span data-ttu-id="60c03-118">Доступ к информации</span><span class="sxs-lookup"><span data-stu-id="60c03-118">Accessing information</span></span>
+## <a name="accessing-information"></a><span data-ttu-id="60c03-118">Доступ к информации</span><span class="sxs-lookup"><span data-stu-id="60c03-118">Accessing information</span></span>
 <span data-ttu-id="60c03-119">В следующих разделах описано, как использовать поиск с подстановкой и функции поиска и фильтрации, чтобы быстро находить информацию.</span><span class="sxs-lookup"><span data-stu-id="60c03-119">The following topics explain how to use lookups, and the search and filtering features, to find information quickly.</span></span> 
 
 -   <span data-ttu-id="60c03-120">[Использование списков подстановки для поиска информации](../fin-and-ops/get-started/use-lookups-to-find-information.md) — в этом разделе показано, как списки с подстановкой помогают быстро найти правильное требуемое значение.</span><span class="sxs-lookup"><span data-stu-id="60c03-120">[Use lookups to find information](../fin-and-ops/get-started/use-lookups-to-find-information.md) - This topic shows how lookups can help you quickly find the correct or desired value.</span></span> <span data-ttu-id="60c03-121">В разделе описывается, как работают списки подстановки, и приводятся рекомендации по оптимизации их использования.</span><span class="sxs-lookup"><span data-stu-id="60c03-121">The topic describes how lookups work and includes tips to help you optimize your use of them.</span></span>
