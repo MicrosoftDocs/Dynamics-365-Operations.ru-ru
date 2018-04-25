@@ -3,7 +3,7 @@
 # [Начало работы](talent-get-started.md)
 ## [Системные требования и политика обновления](talent-versions-update-policy.md)
 ## [Подготовка среды Microsoft Dynamics 365 for Talent](provisioning-talent.md)
-## [Удаление среды Talent](remove-test-environment.md)
+## [Удаление среды Talent](remove-talent-environment.md)
 ## [Подготовка модульных приложений Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
 ## [Расширение функциональности Talent](extend-talent-functionality.md)
 
@@ -13,7 +13,8 @@
 ## [Настройка параметров управления персоналом для нескольких юридических лиц](set-up-hr-parameters-across-legal-entities.md)
 ## [Настройка параметров управления персоналом для конкретной компании](set-up-company-specific-hr-parameters.md)
 ## [Вопросы и ответы по действиям персонала](personnel-actions-faq.md)
-## [Использование workflow-процесса для управления сведениями о сотруднике](workflow-manage-employee-information.md)
+## [Формализация бизнес-процессов](formalize-business-processes.md)
+## [Использование workflow-процессов для управления сведениями о сотрудниках](workflow-manage-employee-information.md)
 ## [Обзор отпусков и отсутствия на работе](leave-absence-overview.md)
 
 # Набор персонала для организации

@@ -31,7 +31,7 @@
 ## [Каталоги центра обработки вызовов](call-center-catalogs.md)
 ## [Создание каталога центра обработки вызовов](create-call-center-catalogs.md)
 ## [Настройка оповещений о мошенничестве](set-up-fraud-alerts.md)
-## [Настройка параметров обработки заказов](set-up-order-processing-options.md)
+## [Настройка центра обработки вызовов](set-up-order-processing-options.md)
 ## [Настройка программы непрерывности для центра обработки вызовов](set-up-continuity-program.md)
 ## [Удержания заказов](work-with-order-holds.md)
 ## [Параметры платежа](work-with-payments.md)
@@ -47,8 +47,9 @@
 # Modern Point of Sale (MPOS) и Cloud POS
 ## [Выбор между Modern POS и Cloud POS](MPOS-or-CPOS.md)
 ## [Выполнение операций POS в интерактивном и автономном режимах](pos-operations.md)
-## [Макеты экрана в демонстрационных данных для MPOS/CPOS](demo-data.md)
+## [Макеты экрана демонстрационных данных в MPOS/CPOS](demo-data.md)
 ## [Обзор поиска продукта и клиента на POS](POS-search-improvements.md)
+## [Поиск запасов в POS](product-variants-POS.md)
 ## Периферийные устройства
 ### [Обзор периферийных устройств розничной торговли](retail-peripherals-overview.md)
 ### [Периферийные устройства POS, протестированные корпорацией Майкрософт](microsoft-tested-pos-hardware-peripherals.md)
@@ -96,6 +97,7 @@
 ## [Настройка анализа RFM](set-up-rfm-analysis.md)
 
 # Скидки и корректировки цены
+## [Управление розничной цены продажи](price-management.md)
 ## [Корректировки цены и скидки](price-adjustments-discounts.md)
 ## [Определение оптимальной комбинации пересекающихся скидок](optimal-combination-overlapping-discounts.md)
 ## [Определение скидок, специфичных для канала](define-channel-specific-discounts.md)
@@ -139,16 +141,20 @@
 ## [Настройка компонентов должности](../talent/create-job.md)
 
 # Локализация и нормативные компоненты
+## Франция
+### [Контрольно-кассовые машины для Франции](localizations/emea-fra-cash-registers.md)
+### [Рекомендации по развертыванию контрольно-кассовых машин для Франции](localizations/emea-fra-deployment.md)
 ## Индия
-### [Интеграция GST для контрольно-кассовых машин для Индии](localizations/apac-ind-cash-registers.md)
-### [Рекомендации по развертыванию контрольно-кассовых машин для Индии](localizations/apac-ind-loc-deployment-guidelines.md)
+### [Интеграция GST для контрольно-кассовых машин](localizations/apac-ind-cash-registers.md)
+### [Рекомендации по развертыванию контрольно-кассовых машин в Индии](localizations/apac-ind-loc-deployment-guidelines.md)
 ## Норвегия
 ### [Контрольно-кассовые машины для Норвегии](localizations/emea-nor-cash-registers.md)
-### [Рекомендации по развертыванию контрольно-кассовых машин для Норвегии](localizations/emea-nor-loc-deployment-guidelines.md)
+### [Рекомендации по развертыванию контрольно-кассовых машин в Норвегии](localizations/emea-nor-loc-deployment-guidelines.md)
 ## Швеция
 ### [Контрольно-кассовые машины для Швеции](localizations/emea-swe-cash-registers.md)
+### [Пример интеграции Retail POS c блоками управления](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 
-# Задачи для розничной торговли
+# Задачи Retail
 ## [Создание продукта](../supply-chain/pim/tasks/create-product.md)
 ## [Настройка связанных продуктов](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [Выпуск продукта/шаблона продукта для юридических лиц](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
@@ -260,6 +266,7 @@
 ### [SDK платформы для электронной коммерции](dev-itpro/ecommerce-platform-sdk.md)
 
 ## Возможности расширения соединителя платежей
+### [Интеграция платежей с терминалом оплаты](dev-itpro/end-to-end-payment-extension.md)
 ### [Внедрение соединителя платежей и платежного устройства (технический документ)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ### [Развертывание соединителя платежей](dev-itpro/deploy-payment-connector.md)
 ### [Создание установщика Windows для соединителя платежей](dev-itpro/create-windows-installer-payment-connector.md)
@@ -269,7 +276,8 @@
 ### [Примеры расширения пакета Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Упаковка Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Примеры Retail SDK](dev-itpro/retail-sdk/retail-sdk-samples.md)
-### [Расширения базы данных каналов](dev-itpro/channel-db-extensions.md)
+#### [Точки расширения для отборочных накладных](dev-itpro/extensions-shipping-carrier-integration.md)
+### [Расширение базы данных каналов](dev-itpro/channel-db-extensions.md)
 ### [Расширение CDX](dev-itpro/cdx-extensibility.md)
 ### [Атрибуты заказа](dev-itpro/order-attributes.md)
 ### [Атрибуты клиента](dev-itpro/customer-attributes.md)
