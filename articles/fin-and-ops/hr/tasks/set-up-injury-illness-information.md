@@ -22,46 +22,46 @@ ms.contentlocale: ru-ru
 ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="19232-103">Настройка информации о травмах и заболеваниях</span><span class="sxs-lookup"><span data-stu-id="19232-103">Set up injury and illness information</span></span>
+# <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="d3370-103">Настройка информации о травмах и заболеваниях</span><span class="sxs-lookup"><span data-stu-id="d3370-103">Set up injury and illness information</span></span>
 
 [!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="19232-104">Работодателям необходимо знать о случаях травм или заболеваний работников в связи с источниками опасности на их рабочих местах.</span><span class="sxs-lookup"><span data-stu-id="19232-104">Employers need to know when their employees suffer injuries or illness resulting from hazards in the workplace.</span></span> <span data-ttu-id="19232-105">Страница "Травмы и заболевания" служит для настройки информации для отчетов по производственным травмам или заболеваниям.</span><span class="sxs-lookup"><span data-stu-id="19232-105">You can use the injury and illness page to set up information that facilitates reporting work-place injuries or illnesses.</span></span> <span data-ttu-id="19232-106">Вы можете настраивать типы травм и заболеваний, включая типы лечения, затраты и результаты.</span><span class="sxs-lookup"><span data-stu-id="19232-106">You can set up types of injuries and illnesses, including types of treatments, costs, and outcomes.</span></span> <span data-ttu-id="19232-107">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="19232-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="d3370-104">Работодателям необходимо знать о случаях травм или заболеваний работников в связи с источниками опасности на их рабочих местах.</span><span class="sxs-lookup"><span data-stu-id="d3370-104">Employers need to know when their employees suffer injuries or illness resulting from hazards in the workplace.</span></span> <span data-ttu-id="d3370-105">Страница "Травмы и заболевания" служит для настройки информации для отчетов по производственным травмам или заболеваниям.</span><span class="sxs-lookup"><span data-stu-id="d3370-105">You can use the injury and illness page to set up information that facilitates reporting work-place injuries or illnesses.</span></span> <span data-ttu-id="d3370-106">Вы можете настраивать типы травм и заболеваний, включая типы лечения, затраты и результаты.</span><span class="sxs-lookup"><span data-stu-id="d3370-106">You can set up types of injuries and illnesses, including types of treatments, costs, and outcomes.</span></span> <span data-ttu-id="d3370-107">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="d3370-107">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="19232-108">Перейдите в раздел "Управление персоналом" > "Работники" > "Травмы и заболевания" > "Настройка травм и заболеваний".</span><span class="sxs-lookup"><span data-stu-id="19232-108">Go to Human resources > Workers > Injury and illness > Injury and illness setup.</span></span>
-2. <span data-ttu-id="19232-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="19232-109">Click New.</span></span>
-3. <span data-ttu-id="19232-110">В поле "Тип травмы или заболевания" введите значение.</span><span class="sxs-lookup"><span data-stu-id="19232-110">In the Injury or illness type field, type a value.</span></span>
-    * <span data-ttu-id="19232-111">Пример: перелом</span><span class="sxs-lookup"><span data-stu-id="19232-111">Example: Fracture</span></span>  
-4. <span data-ttu-id="19232-112">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="19232-112">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="19232-113">Пример: перелом кости</span><span class="sxs-lookup"><span data-stu-id="19232-113">Example: Bone fracture</span></span>  
-5. <span data-ttu-id="19232-114">Перейдите на вкладку "Части тела".</span><span class="sxs-lookup"><span data-stu-id="19232-114">Click the Body parts tab.</span></span>
-6. <span data-ttu-id="19232-115">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="19232-115">Click New.</span></span>
-7. <span data-ttu-id="19232-116">В поле "Часть тела" введите значение.</span><span class="sxs-lookup"><span data-stu-id="19232-116">In the Body part field, type a value.</span></span>
-    * <span data-ttu-id="19232-117">Пример: запястье</span><span class="sxs-lookup"><span data-stu-id="19232-117">Example: Wrist</span></span>  
-8. <span data-ttu-id="19232-118">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="19232-118">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="19232-119">Пример: запястье</span><span class="sxs-lookup"><span data-stu-id="19232-119">Example: Wrist</span></span>  
-9. <span data-ttu-id="19232-120">Перейдите на вкладку "Типы лечения".</span><span class="sxs-lookup"><span data-stu-id="19232-120">Click the Treatment types tab.</span></span>
-10. <span data-ttu-id="19232-121">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="19232-121">Click New.</span></span>
-11. <span data-ttu-id="19232-122">В поле "Тип лечения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="19232-122">In the Treatment type field, type a value.</span></span>
-    * <span data-ttu-id="19232-123">Пример: шина</span><span class="sxs-lookup"><span data-stu-id="19232-123">Example: Splint</span></span>  
-12. <span data-ttu-id="19232-124">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="19232-124">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="19232-125">Пример: накладывать шину</span><span class="sxs-lookup"><span data-stu-id="19232-125">Example: Put a splint on</span></span>  
-13. <span data-ttu-id="19232-126">Перейдите на вкладку "Типы затрат".</span><span class="sxs-lookup"><span data-stu-id="19232-126">Click the Cost types tab.</span></span>
-14. <span data-ttu-id="19232-127">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="19232-127">Click New.</span></span>
-15. <span data-ttu-id="19232-128">В поле "Тип затрат" введите значение.</span><span class="sxs-lookup"><span data-stu-id="19232-128">In the Cost type field, type a value.</span></span>
-    * <span data-ttu-id="19232-129">Пример: рентгеновские снимки</span><span class="sxs-lookup"><span data-stu-id="19232-129">Example: X-rays</span></span>  
-16. <span data-ttu-id="19232-130">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="19232-130">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="19232-131">Пример: рентгеновские снимки</span><span class="sxs-lookup"><span data-stu-id="19232-131">Example: X-rays</span></span>  
-17. <span data-ttu-id="19232-132">Перейдите на вкладку "Типы результата".</span><span class="sxs-lookup"><span data-stu-id="19232-132">Click the Outcome types tab.</span></span>
-18. <span data-ttu-id="19232-133">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="19232-133">Click New.</span></span>
-19. <span data-ttu-id="19232-134">В поле "Тип результата" введите значение.</span><span class="sxs-lookup"><span data-stu-id="19232-134">In the Outcome type field, type a value.</span></span>
-    * <span data-ttu-id="19232-135">Пример: терапия</span><span class="sxs-lookup"><span data-stu-id="19232-135">Example: Therapy</span></span>  
-20. <span data-ttu-id="19232-136">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="19232-136">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="19232-137">Пример: физиотерапия</span><span class="sxs-lookup"><span data-stu-id="19232-137">Example: Physical therapy</span></span>  
-21. <span data-ttu-id="19232-138">Перейдите на вкладку "Уровни серьезности".</span><span class="sxs-lookup"><span data-stu-id="19232-138">Click the Severity levels tab.</span></span>
-    * <span data-ttu-id="19232-139">Можно создать настраиваемые уровни серьезности.</span><span class="sxs-lookup"><span data-stu-id="19232-139">Customizable severity levels can be created.</span></span> <span data-ttu-id="19232-140">Например: уровень серьезности 1 может означать легкую травму, а уровень серьезности 3 — тяжелую.</span><span class="sxs-lookup"><span data-stu-id="19232-140">For example: Severity 1 might mean a minor injury, where severity 3 might indicate a severe injury.</span></span>  
-22. <span data-ttu-id="19232-141">Перейдите на вкладку "Компетентные органы".</span><span class="sxs-lookup"><span data-stu-id="19232-141">Click the Reporting agencies tab.</span></span>
-    * <span data-ttu-id="19232-142">Компетентные органы — это агентства, которым следует сообщить об инциденте.</span><span class="sxs-lookup"><span data-stu-id="19232-142">Reporting agencies are the agencies that the incident needs to be reported to.</span></span> <span data-ttu-id="19232-143">Установите флажок по умолчанию для агентства, которое является агентством по умолчанию, которому следует сообщить о травме и заболеваниях.</span><span class="sxs-lookup"><span data-stu-id="19232-143">Select the default check box for the agency that is the default agency for reporting injury and illnesses to.</span></span>  
-23. <span data-ttu-id="19232-144">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="19232-144">Click Save.</span></span>
+1. <span data-ttu-id="d3370-108">Перейдите в раздел "Управление персоналом" > "Работники" > "Травмы и заболевания" > "Настройка травм и заболеваний".</span><span class="sxs-lookup"><span data-stu-id="d3370-108">Go to Human resources > Workers > Injury and illness > Injury and illness setup.</span></span>
+2. <span data-ttu-id="d3370-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="d3370-109">Click New.</span></span>
+3. <span data-ttu-id="d3370-110">В поле "Тип травмы или заболевания" введите значение.</span><span class="sxs-lookup"><span data-stu-id="d3370-110">In the Injury or illness type field, type a value.</span></span>
+    * <span data-ttu-id="d3370-111">Пример: перелом</span><span class="sxs-lookup"><span data-stu-id="d3370-111">Example: Fracture</span></span>  
+4. <span data-ttu-id="d3370-112">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="d3370-112">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="d3370-113">Пример: перелом кости</span><span class="sxs-lookup"><span data-stu-id="d3370-113">Example: Bone fracture</span></span>  
+5. <span data-ttu-id="d3370-114">Перейдите на вкладку "Части тела".</span><span class="sxs-lookup"><span data-stu-id="d3370-114">Click the Body parts tab.</span></span>
+6. <span data-ttu-id="d3370-115">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="d3370-115">Click New.</span></span>
+7. <span data-ttu-id="d3370-116">В поле "Часть тела" введите значение.</span><span class="sxs-lookup"><span data-stu-id="d3370-116">In the Body part field, type a value.</span></span>
+    * <span data-ttu-id="d3370-117">Пример: запястье</span><span class="sxs-lookup"><span data-stu-id="d3370-117">Example: Wrist</span></span>  
+8. <span data-ttu-id="d3370-118">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="d3370-118">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="d3370-119">Пример: запястье</span><span class="sxs-lookup"><span data-stu-id="d3370-119">Example: Wrist</span></span>  
+9. <span data-ttu-id="d3370-120">Перейдите на вкладку "Типы лечения".</span><span class="sxs-lookup"><span data-stu-id="d3370-120">Click the Treatment types tab.</span></span>
+10. <span data-ttu-id="d3370-121">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="d3370-121">Click New.</span></span>
+11. <span data-ttu-id="d3370-122">В поле "Тип лечения" введите значение.</span><span class="sxs-lookup"><span data-stu-id="d3370-122">In the Treatment type field, type a value.</span></span>
+    * <span data-ttu-id="d3370-123">Пример: шина</span><span class="sxs-lookup"><span data-stu-id="d3370-123">Example: Splint</span></span>  
+12. <span data-ttu-id="d3370-124">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="d3370-124">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="d3370-125">Пример: накладывать шину</span><span class="sxs-lookup"><span data-stu-id="d3370-125">Example: Put a splint on</span></span>  
+13. <span data-ttu-id="d3370-126">Перейдите на вкладку "Типы затрат".</span><span class="sxs-lookup"><span data-stu-id="d3370-126">Click the Cost types tab.</span></span>
+14. <span data-ttu-id="d3370-127">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="d3370-127">Click New.</span></span>
+15. <span data-ttu-id="d3370-128">В поле "Тип затрат" введите значение.</span><span class="sxs-lookup"><span data-stu-id="d3370-128">In the Cost type field, type a value.</span></span>
+    * <span data-ttu-id="d3370-129">Пример: рентгеновские снимки</span><span class="sxs-lookup"><span data-stu-id="d3370-129">Example: X-rays</span></span>  
+16. <span data-ttu-id="d3370-130">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="d3370-130">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="d3370-131">Пример: рентгеновские снимки</span><span class="sxs-lookup"><span data-stu-id="d3370-131">Example: X-rays</span></span>  
+17. <span data-ttu-id="d3370-132">Перейдите на вкладку "Типы результата".</span><span class="sxs-lookup"><span data-stu-id="d3370-132">Click the Outcome types tab.</span></span>
+18. <span data-ttu-id="d3370-133">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="d3370-133">Click New.</span></span>
+19. <span data-ttu-id="d3370-134">В поле "Тип результата" введите значение.</span><span class="sxs-lookup"><span data-stu-id="d3370-134">In the Outcome type field, type a value.</span></span>
+    * <span data-ttu-id="d3370-135">Пример: терапия</span><span class="sxs-lookup"><span data-stu-id="d3370-135">Example: Therapy</span></span>  
+20. <span data-ttu-id="d3370-136">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="d3370-136">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="d3370-137">Пример: физиотерапия</span><span class="sxs-lookup"><span data-stu-id="d3370-137">Example: Physical therapy</span></span>  
+21. <span data-ttu-id="d3370-138">Перейдите на вкладку "Уровни серьезности".</span><span class="sxs-lookup"><span data-stu-id="d3370-138">Click the Severity levels tab.</span></span>
+    * <span data-ttu-id="d3370-139">Можно создать настраиваемые уровни серьезности.</span><span class="sxs-lookup"><span data-stu-id="d3370-139">Customizable severity levels can be created.</span></span> <span data-ttu-id="d3370-140">Например: уровень серьезности 1 может означать легкую травму, а уровень серьезности 3 — тяжелую.</span><span class="sxs-lookup"><span data-stu-id="d3370-140">For example: Severity 1 might mean a minor injury, where severity 3 might indicate a severe injury.</span></span>  
+22. <span data-ttu-id="d3370-141">Перейдите на вкладку "Компетентные органы".</span><span class="sxs-lookup"><span data-stu-id="d3370-141">Click the Reporting agencies tab.</span></span>
+    * <span data-ttu-id="d3370-142">Компетентные органы — это агентства, которым следует сообщить об инциденте.</span><span class="sxs-lookup"><span data-stu-id="d3370-142">Reporting agencies are the agencies that the incident needs to be reported to.</span></span> <span data-ttu-id="d3370-143">Установите флажок по умолчанию для агентства, которое является агентством по умолчанию, которому следует сообщить о травме и заболеваниях.</span><span class="sxs-lookup"><span data-stu-id="d3370-143">Select the default check box for the agency that is the default agency for reporting injury and illnesses to.</span></span>  
+23. <span data-ttu-id="d3370-144">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="d3370-144">Click Save.</span></span>
 
 
