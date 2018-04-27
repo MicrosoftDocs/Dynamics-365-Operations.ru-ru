@@ -1,5 +1,5 @@
 --- 
-title: "Разработка модели данных для использования финансовых аналитик как источника данных для электронной отчетности (ER)"
+title: "Разработка модели данных для использования финансовых аналитик как источника данных"
 description: "В следующих шагах поясняется, как системный администратор или разработчик электронной отчетности может настроить модель электронной отчетности (ER) для использования финансовых аналитик как источника данных для отчетов электронной отчетности."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d8a03c4b85666975a7b42d46f3afdd35019e9b93
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3e55eedba1955ae79733afee1a0b3c7072147bb5
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-data-model-to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>Разработка модели данных для использования финансовых аналитик как источника данных для электронной отчетности (ER)
+# <a name="design-data-model-to-use-financial-dimensions-as-a-data-source"></a>Разработка модели данных для использования финансовых аналитик как источника данных 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В следующих шагах поясняется, как системный администратор или разработчик электронной отчетности может настроить модель электронной отчетности (ER) для использования финансовых аналитик как источника данных для отчетов электронной отчетности. Эти шаги можно выполнить в любой компании.
 

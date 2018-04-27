@@ -1,5 +1,5 @@
 --- 
-title: "Выполнение формата, использующего горизонтально разворачивающиеся диапазоны для динамического добавления столбцов в отчеты Excel для электронной отчетности (ER)"
+title: "Выполнение формата, использующего горизонтально разворачивающиеся диапазоны для динамического добавления столбцов в отчеты Excel"
 description: "Следующие шаги описывают, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для создания отчетов в виде файлов листов OPENXML (Excel), в которых необходимые столбцы можно создавать динамически как горизонтально расширяемые диапазоны."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ca72ab5c7ac15f3a788ea457a360d93a0b505b0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2d705d0d2803b5254adc27e6715c1eac311898a7
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="run-a-format-that-uses-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Выполнение формата, использующего горизонтально разворачивающиеся диапазоны для динамического добавления столбцов в отчеты Excel для электронной отчетности (ER)
+# <a name="run-a-format-that-uses-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports"></a>Выполнение формата, использующего горизонтально разворачивающиеся диапазоны для динамического добавления столбцов в отчеты Excel
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Следующие шаги описывают, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для создания отчетов в виде файлов листов OPENXML (Excel), в которых необходимые столбцы можно создавать динамически как горизонтально расширяемые диапазоны. Эти шаги можно выполнить в компании DEMF.
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 03/26/2018
 ## <a name="execute-format-to-create-excel-output"></a>Выполните формат для создания выходных данных Excel
 1. Щелкните "Выполнить".
 2. В поле "Имя аналитики" введите "BusinessUnit;CostCenter;Department".
-    * В поле "Имя аналитики" введите или выберите значение.  Чтобы выбрать все аналитики для текущей компании, введите следующие сведения:  BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
+    * В поле "Имя аналитики" введите или выберите значение.  Чтобы выбрать все аналитики для текущей компании, введите следующие сведения: BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
 3. Разверните раздел "Записи для добавления".
 4. Щелкните "Фильтр".
 5. Выберите строку для таблицы "Журнал ГК" и поля "Номер партии журнала".

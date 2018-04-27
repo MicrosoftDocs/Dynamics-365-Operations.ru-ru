@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0e5605b65b6203a50ef2fef81d032a887da32bf9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-a-customer-invoice"></a>Создание накладной клиента
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Накладная клиента для заказа на продажу** — это счет, который организация выставляет клиенту в связи с продажей. Этот тип накладной клиента создается на основе заказа на продажу, который содержит строки заказа и номера номенклатур. Коды номенклатур указываются и разносятся в главной книге. Записи в журнале субкниги недоступны для накладной клиента для заказа на продажу. Дополнительные сведения см. в разделе [Создание накладных по заказам на продажу](tasks/create-sales-order-invoices.md).
 

@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Конструктор формул в электронной отчетности
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описывается, как использовать конструктор формул в электронной отчетности (ER). При проектировании формата для определенного электронного документа в ER можно использовать формулы для преобразования данных, чтобы они отвечали требованиям для выполнения и форматирования этого документа. Эти формулы напоминают формулы в Microsoft Excel. В формулах поддерживаются различные типы функций: текст, дата и время, математические логические, информация, преобразование типа данных, и другое (характерные для конкретных бизнес-доменов функции).
 
@@ -313,12 +313,12 @@ ms.lasthandoff: 03/26/2018
 <tr class="odd">
 <td>ORDERBY (список [,выражение 1, выражение 2, …])</td>
 <td>Возврат указанного списка после его сортировки в соответствии с указанными аргументами. Эти аргументы могут определяться как выражения.</td>
-<td>Если <strong>Поставщик</strong> настраивается в качестве источника данных ER, который ссылается на таблицу VendTable, <strong>ORDERBY (Vendors, Vendors.'name()')</strong> возвращает список поставщиков, который отсортирован по имени в восходящем порядке.</td>
+<td>Если <strong>Поставщик</strong> настраивается в качестве источника данных ER, который ссылается на таблицу VendTable, <strong>ORDERBY (Vendors, Vendors.&#39;name()&#39;)</strong> возвращает список поставщиков, который отсортирован по имени в восходящем порядке.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (список)</td>
 <td>Возврат указанного списка в обращенном порядке сортировки.</td>
-<td>Если <strong>Поставщик</strong> настраивается в качестве источника данных ER, который ссылается на таблицу VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> возвращает список поставщиков, который отсортирован по имени в нисходящем порядке.</td>
+<td>Если <strong>Поставщик</strong> настраивается в качестве источника данных ER, который ссылается на таблицу VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;name()&#39;)) )</strong> возвращает список поставщиков, который отсортирован по имени в нисходящем порядке.</td>
 </tr>
 <tr class="odd">
 <td>WHERE (список, условие)</td>
@@ -395,7 +395,9 @@ ms.lasthandoff: 03/26/2018
 <tr class="even">
 <td>STRINGJOIN (список, имя поля, разделитель)</td>
 <td>Возвращает строку, состоящую из связанных значений указанного поля из указанного списка. Значения разделяются указанным разделителем.</td>
-<td>Если ввести <strong>SPLIT(&quot;abc&quot; , 1)</strong> в качестве источника данных (DS), выражение <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> возвращает <strong>&quot;a:b:c&quot;</strong>.</td>
+
+<td>Если ввести <strong>SPLIT(&quot;abc&quot; , 1)</strong> в качестве источника данных (DS), выражение <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> возвращает <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
+
 </tr>
 <tr class="odd">
 <td>SPLITLISTBYLIMIT (список, значение предела, источник предела)</td>
@@ -416,7 +418,7 @@ ms.lasthandoff: 03/26/2018
 <tr class="even">
 <td>FILTER (список, условие)</td>
 <td>Возврат указанного списка после изменения запроса для фильтрации в соответствии с указанным условием. Эта функция отличается от функции <strong>WHERE</strong>, так как указанное условие применяется на уровне базы данных к любому источнику данных ER с типом <strong>Записи таблицы</strong>. Список и условие могут определяться с помощью таблиц и связей.</td>
-  <td>Если <strong>Поставщик</strong> настраивается в качестве источника данных ER, который ссылается на таблицу VendTable, <strong>FILTER(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> возвращает список только поставщиков, которые относятся к группе поставщиков 40. Если <strong>Поставщик</strong> настроен в качестве источника данных ER, который ссылается на таблицу <strong>VendTable</strong> и <strong>parmVendorBankGroup</strong>, настроенный как источник данных ER возвращает значение строкового типа данных, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> возвращает список только счетов поставщиков, входящих в конкретную банковскую группу.</td>
+  <td>Если <strong>Поставщик</strong> настраивается в качестве источника данных ER, который ссылается на таблицу VendTable, <strong>FILTER(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> возвращает список только поставщиков, которые относятся к группе поставщиков 40. Если <strong>Поставщик</strong> настроен в качестве источника данных ER, который ссылается на таблицу <strong>VendTable</strong> и <strong>parmVendorBankGroup</strong>, настроенный как источник данных ER возвращает значение строкового типа данных, <strong>FILTER (Vendor.&#39;&lt;Relations&#39;.VendBankAccount, Vendor.&#39;&lt;Relations&#39;.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> возвращает список только счетов поставщиков, входящих в конкретную банковскую группу.</td>
 </tr>
 </tbody>
 </table>
@@ -553,7 +555,7 @@ ms.lasthandoff: 03/26/2018
 <li>Метка SYS18389 Finance and Operations которая имеет следующий текст:
 <ul>
 <li><strong>Для языка EN-US:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Для языка DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
+<li><strong>Для языка DE:</strong> &quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Вот формула, которую можно разработать:</p>
@@ -561,7 +563,7 @@ ms.lasthandoff: 03/26/2018
 <p>Если отчет обрабатывается для клиента <strong>Litware Retail</strong> 17 декабря 2015 г., в культуре <strong>EN-US</strong> и языке <strong>EN-US</strong>, эта формула возвращает следующий текст, который можно представить в виде сообщения исключения для пользователя:</p>
 <p>&quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Если этот же отчет обрабатывается для клиента <strong>Litware Retail</strong> 17 декабря 2015 г. в культуре <strong>DE</strong> и языке <strong>DE</strong>, эта формула возвращает следующий текст, который использует другой формат даты:</p>
-<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE]<br>
 Следующий синтаксис применяется в формулах ER для меток:
 <ul>
@@ -594,7 +596,7 @@ ms.lasthandoff: 03/26/2018
 <tr class="odd">
 <td>GETENUMVALUEBYNAME (путь к источнику данных перечисления, текст метки значения перечисления)</td>
 <td>Возвращает значение указанного источника данных перечисления на основе указанного текста метки перечисления.</td>
-<td>На следующем рисунке показано перечисление <strong>ReportDirection</strong>? введенное в модели данных. Обратите внимание, что метки определены для значений перечисления.
+<td>На следующем рисунке показано перечисление <strong>ReportDirection</strong> введенное в модели данных. Обратите внимание, что метки определены для значений перечисления.
 <p><a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></p>
 <p>Следующая иллюстрация показывает эти детали:</p>
 <ul>

@@ -19,17 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>Обзор кредитных переводов SEPA
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье приводятся общие сведения о кредитных переводах ISO 20022, которые включают единую зону платежей в евро (SEPA) и любые другие электронные платежи для поставщиков. Кредитный перевод SEPA — это особый вид платежа (в евро) одной компании или физического лица другой компании или физическому лицу. В разделе также объясняется, как настроить и отправить файл платежа кредитного перевода.
 

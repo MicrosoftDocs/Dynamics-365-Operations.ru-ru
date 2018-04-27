@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d7a672b80a0da7ab05acf5b5efe041f0f89c0042
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manual-depreciation"></a>Ручная амортизация
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья содержит обзор метода ручной амортизации.
 
@@ -67,7 +66,7 @@ ms.lasthandoff: 11/03/2017
 | Январь  | (11000 – 1000) × 10% = 1000 |
 | Февраль | (11000 – 1000) × 50% = 5000 |
 
-Если выбрать **Полгода** в поле ****Частота периода****, необходимо будет вручную настроить два интервала графика списания. Суммы амортизации для таких двух интервалов показаны в следующей таблице.
+Если выбрать <strong>Полгода</strong> в поле *<strong><em>Частота периода</em>*</strong>, необходимо будет вручную настроить два интервала графика списания. Суммы амортизации для таких двух интервалов показаны в следующей таблице.
 
 | Диапазон    | Сумма начисленной амортизации            |
 |-------------|--------------------------------|

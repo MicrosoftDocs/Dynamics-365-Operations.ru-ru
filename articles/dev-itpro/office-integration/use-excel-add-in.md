@@ -3,7 +3,7 @@ title: "Использование надстройки Excel"
 description: "В этом разделе объясняется, как открыть данные объекта в Microsoft Excel, и затем просматривать, обновлять и изменять эти данные с помощью надстройки Microsoft Dynamics Office для Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/30/2017
+ms.date: 04/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,16 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f3ed06dbbce21ac093107953d3a72d8ab086af2a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0e3e86820e0857b320d832c3bf3c94757667919
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-the-excel-add-in"></a>Использование надстройки Excel
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе объясняется, как открыть данные объекта в Microsoft Excel, и затем просматривать, обновлять и изменять эти данные с помощью надстройки Microsoft Dynamics Office для Excel. Чтобы открыть данные объекта, можно начать из Excel или из Microsoft Dynamics 365 for Finance and Operations.
 
@@ -35,6 +35,11 @@ ms.lasthandoff: 03/26/2018
 
 > [!NOTE]
 > Если ваш владелец Microsoft Azure Active Directory (Azure AD) настроен на использование служб федерации Active Directory (ADFS), необходимо убедиться, что применено обновление для Office за май 2016 г., чтобы надстройка Excel можно правильно выполнить вход.
+
+Для получения дополнительных сведений об использовании надстройки Excel, посмотрите короткое видео [Создание шаблона Excel для шаблонов заголовка и строк в Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
+
+> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
+
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Открытие данных объекта в Excel при запуске из Finance and Operations
 1. На странице в Finance and Operations выберите **Открыть в Microsoft Office**.

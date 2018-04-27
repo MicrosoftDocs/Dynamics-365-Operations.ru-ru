@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Сравнение характеристик облачной и локальной версий
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой теме показано, какие из функций доступны в следующих продуктах:
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 03/26/2018
 | | Расширение в зависимости от конфигурации| Да | Нет |
 | | Экспорт данных в ваше собственное хранилище данных| Да | Да |
 | | Включение экспорта инкрементных обновлений объекта данных | Да | Нет |
-| | Повторяющиеся интеграции                 |Да | Нет|
+| | Интеграции данных                 |Да | Да|
 | Управление документами| | Да| Да |
 | Управление финансами|  | Да | Да |
 | Справка| | Да | Нет |

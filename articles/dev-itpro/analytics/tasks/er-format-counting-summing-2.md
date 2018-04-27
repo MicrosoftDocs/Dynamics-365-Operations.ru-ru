@@ -1,5 +1,5 @@
 --- 
-title: "Настройка вычислений для подсчета и суммирования для электронной отчетности (ER)"
+title: "Настройка вычислений для подсчета и суммирования"
 description: "В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для выполнения инвентаризации и суммирования на основе данных уже созданных текстовых выходных данных."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f7b9035d8e7baf3c7ecb063b104b9a567be60840
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d41ce101c0b038627e2baf6b5eac2410095af7ce
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="configure-computations-to-do-counting-and-summing-for-electronic-reporting-er"></a>Настройка вычислений для подсчета и суммирования для электронной отчетности (ER)
+# <a name="configure-computations-to-do-counting-and-summing"></a>Настройка вычислений для подсчета и суммирования
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для выполнения инвентаризации и суммирования на основе данных уже созданных текстовых выходных данных. Эти шаги можно выполнить в любой компании.
 

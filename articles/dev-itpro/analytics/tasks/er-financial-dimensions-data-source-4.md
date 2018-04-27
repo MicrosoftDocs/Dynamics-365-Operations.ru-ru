@@ -1,5 +1,5 @@
 --- 
-title: "Выполнение отчета, использующего финансовые аналитики как источник данных для электронной отчетности (ER)"
+title: "Выполнение отчета, использующего финансовые аналитики как источник данных"
 description: "В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить модель электронной отчетности (ER) для использования финансовых аналитик как источника данных для отчетов электронной отчетности."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ee951d7f3f04e641f7bed767a2eebd1c180eb9f3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 47ba48461a1c502a93df416d1acac1e85a841079
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="run-a-report-that-uses-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>Выполнение отчета, использующего финансовые аналитики как источник данных для электронной отчетности (ER)
+# <a name="run-a-report-that-uses-financial-dimensions-as-a-data-source"></a>Выполнение отчета, использующего финансовые аналитики как источник данных
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить модель электронной отчетности (ER) для использования финансовых аналитик как источника данных для отчетов электронной отчетности. Эти шаги можно выполнить в компании DEMF.
 

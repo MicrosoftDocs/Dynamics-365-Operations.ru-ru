@@ -1,5 +1,5 @@
 --- 
-title: "Выполнение формата для использования файлов управления документами в выходных форматах для электронной отчетности (ER)"
+title: "Выполнение формата для использования файлов управления документами в выходных форматах"
 description: "В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для использования файлов управления документами (вложений) в выходных данных электронной отчетности."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 419c3e305dfdd7d8612340b4a8e8e54e13c6362b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 554de60fb8d2b6cb03cac5dc8d01df98390ad844
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="run-format-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>Выполнение формата для использования файлов управления документами в выходных форматах для электронной отчетности (ER)
+# <a name="run-format-to-use-document-management-files-in-format-outputs"></a>Выполнение формата для использования файлов управления документами в выходных форматах 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для использования файлов управления документами (вложений) в выходных данных электронной отчетности. Эти шаги можно выполнить в компании DEMF.
 
