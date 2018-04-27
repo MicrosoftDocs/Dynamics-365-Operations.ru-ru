@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="visibility-into-material-exceptions"></a>Видимость исключений материалов
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В рабочей области **Управление производственным участком** три плитки обеспечивают лучшую видимость исключений для сырья для производственных заказов и заказов партий:
 

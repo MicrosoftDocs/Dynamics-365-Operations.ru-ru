@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Удаление выбросов из исторических транзакционных данных при расчете прогноза спроса
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье описывается, как удалить выбросы из исторических данных, которые использовались для расчета прогноза спроса. Путем исключения выбросов, вы можете повысить точность прогноза.
 

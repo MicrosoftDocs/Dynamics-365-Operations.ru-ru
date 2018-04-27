@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="review-collections-information"></a>Просмотр сведений о сборе задолженностей
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура содержит инструкции по просмотру сведений о сборах, а также о различных вариантах процедуры и проводках сборов. В данной процедуре используется демонстрационная компания USMF.
 

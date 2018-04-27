@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="navigation-search"></a>Навигационный поиск
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Этот раздел описывает порядок использования функции поиска для навигации к страницам в Microsoft Dynamics 365 for Finance and Operations.
 

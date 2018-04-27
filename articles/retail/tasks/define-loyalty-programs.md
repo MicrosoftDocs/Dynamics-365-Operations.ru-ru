@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-programs"></a>Определение программ лояльности
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как настроить программу лояльности с двумя уровнями лояльности. В этой процедуре используется компания с демонстрационными данными USRT.
 

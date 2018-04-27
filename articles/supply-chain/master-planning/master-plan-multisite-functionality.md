@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-and-multisite-functionality"></a>Сводное планирование и функция работы с несколькими узлами
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 При сводном планировании учитываются настройки складских аналитик сайта и склада. 
 

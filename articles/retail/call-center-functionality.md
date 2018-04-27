@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="call-center-functionality"></a>Функциональность центра обработки вызовов
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Эта статья содержит обзор возможностей продаж в центре обработки вызовов в Microsoft Dynamics 365 for Retail.
 

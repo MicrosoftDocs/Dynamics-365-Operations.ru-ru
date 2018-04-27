@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="product-information-overview"></a>Обзор сведений о продуктах
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 В этой теме содержится информация об управлении информацией о продуктах. Управление информацией о продуктах работает с общим определением продукта, категоризацией и идентификаторами по всем юридическим лицам, а также с конкретными конфигурациями продуктов для обеспечения их соответствия бизнес-процессам. 
 

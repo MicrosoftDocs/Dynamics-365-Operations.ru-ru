@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>Импорт конфигурации безакцептного списания ISO20022
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура показывает, как импортировать конфигурацию электронной отчетности по платежам клиентов. Эта процедура использует формат прямого дебетования ISO 20022 в качестве примера. 
 

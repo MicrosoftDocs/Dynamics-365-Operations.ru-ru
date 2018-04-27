@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="absence-registration-in-time-and-attendance"></a>Регистрация отсутствия в модуле "Посещаемость и время присутствия"
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описываются понятия для отсутствия и объясняется, как обрабатывать отсутствие в модуле "Посещаемость и время присутствия".
 

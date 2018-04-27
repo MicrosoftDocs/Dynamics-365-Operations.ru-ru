@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Категории затрат, используемые в производственной маршрутизации
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья содержит информацию о категориях затрат, применяемых для производств, в которых используется маршрутизация.
 

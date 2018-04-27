@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a>Изменение формата для повторного применения шаблона Microsoft Excel для электронной отчетности (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Разработка конфигурации для создания отчетов в формате OPENXML".
 

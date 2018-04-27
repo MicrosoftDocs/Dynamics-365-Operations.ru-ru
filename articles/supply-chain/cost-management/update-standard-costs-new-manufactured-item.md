@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Обновление стандартной себестоимости для новой произведенной номенклатуры
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья содержит рекомендации по обновлению стандартных затрат для новой произведенной номенклатуры. 
 

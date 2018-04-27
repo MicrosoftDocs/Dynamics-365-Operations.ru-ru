@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consolidation-and-elimination-overview"></a>Обзор консолидации и Закрытия
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье приводятся общие сведения о процессе консолидации и закрытия. Она включает ответы на некоторые часто задаваемые вопросы.
 

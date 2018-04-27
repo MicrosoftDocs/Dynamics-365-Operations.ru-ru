@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-a-service-template-group"></a>Создание группы шаблонов обслуживания  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Группы шаблонов сервисного обслуживания можно использовать для сортировки и фильтрации этих шаблонов.
 

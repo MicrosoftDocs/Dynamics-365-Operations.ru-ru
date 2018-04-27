@@ -3,7 +3,7 @@ title: "Внедрение PowerApps"
 description: "В этом разделе описывается, как внедрить PowerApps в клиент Finance and Operations для расширения функциональных возможностей продукта."
 author: jasongre
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,20 +16,24 @@ ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 0fd0b1e5f94e39455b3c0799c89eea5a59444ad7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 07224faabcf2b183d4c8da0ba4588c33ec140d03
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="embed-powerapps"></a>Внедрение PowerApps
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
-В обновлении платформы 14 Microsoft Dynamics 365 for Finance and Operations поддерживает интеграцию с Microsoft PowerApps, службой, которая позволяет разработчикам и обычным пользователям создавать пользовательские бизнес-приложения для мобильных устройств, планшетов и интернета без написания кода. Затем приложения PowerApps, разработанные вами, вашей организации или более широкой экосистемой можно внедрить в клиент Finance and Operations для расширения функциональности продукта. Например, можно построить приложение PowerApp для дополнения Finance and Operations информацией, извлеченной из другой системы.  
+В обновлении платформы 14 Microsoft Dynamics 365 for Finance and Operations поддерживает интеграцию с Microsoft PowerApps, службой, которая позволяет разработчикам и обычным пользователям создавать пользовательские бизнес-приложения для мобильных устройств, планшетов и интернета без написания кода. Затем приложения PowerApps, разработанные вами, вашей организации или более широкой экосистемой можно внедрить в клиент Finance and Operations для расширения функциональности продукта. Например, можно построить приложение PowerApp для дополнения Finance and Operations информацией, извлеченной из другой системы. 
+
+Для получения дополнительных сведений о внедрении PowerApps посмотрите короткое видео [Как внедрить PowerApps в Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY).
+
+> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
 
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>Добавление внедренного приложения PowerApp на страницу
 ### <a name="overview"></a>Обзор

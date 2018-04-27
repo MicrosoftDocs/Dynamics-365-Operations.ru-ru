@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-predefined-product-variants"></a>Создание заранее определенных вариантов продукта
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как создать варианты продукта для шаблона продукта с использованием комбинаций аналитик продукта. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 

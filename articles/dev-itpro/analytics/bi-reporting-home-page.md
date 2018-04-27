@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="intelligence"></a>Бизнес-аналитика
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описаны ресурсы, которые можно использовать для получения дополнительных сведений о бизнес-аналитике (BI) и средствах отчетности, доступных в Microsoft Dynamics 365 for Finance and Operations.
 

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
-ms.openlocfilehash: ebb92d5ce05f2891d25fb38f6200a10f02bcc948
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 58895bfd2ef5ec5e8f6f1500158376b9140775d7
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Запись сотрудника в переменный план компенсаций
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Менеджер по компенсациям и льготам может регистрировать сотрудников в планах переменных компенсаций для расчета денежных и неденежных вознаграждений для сотрудников. Эта процедура предполагает, что план переменной компенсации создан, в поле "Включить регистрацию" задано значение "Да" и правила приемлемости созданы для данного плана переменной компенсации. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Чтобы начать эту процедуру, перейдите в раздел "Управление персоналом" > "Работники" > "Сотрудники" > "Компенсация" > "Регистрация переменного плана".
 

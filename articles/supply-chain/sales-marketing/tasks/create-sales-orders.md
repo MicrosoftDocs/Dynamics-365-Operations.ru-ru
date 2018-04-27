@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-orders"></a>Создавать заказы на продажу
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Следующая процедура используется для создания заказа на продажу. Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF. Заказы на продажу обычно создаются обработчиком заказов на продажу. 
 

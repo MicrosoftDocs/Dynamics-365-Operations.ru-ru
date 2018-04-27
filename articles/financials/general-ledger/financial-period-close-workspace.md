@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-period-close-workspace"></a>Рабочая область закрытия финансового периода
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья предоставляет обзор Рабочей области "Закрытие финансового периода" и соответствующего конфигурации.
 

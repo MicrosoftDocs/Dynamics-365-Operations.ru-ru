@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-address-books"></a>Настройка адресных книг
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Используйте эту процедуру и решения, принятые в разделе "Планирование конфигурации глобальной адресной книги и дополнительных адресных книг", чтобы настроить дополнительные адресные книги для вашей организации.
 

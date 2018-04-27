@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-assortments"></a>Настройка ассортиментов
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 В этой статье описывается, что такое ассортимент, и объясняется, как настроить ассортимент в Microsoft Dynamics 365 for Retail.
 

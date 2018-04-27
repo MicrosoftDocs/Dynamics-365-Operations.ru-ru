@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="generate-a-statistical-baseline-forecast"></a>Сгенерировать статистический базовый прогноз
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья содержит информацию о параметрах и фильтрах, которые используются для расчета прогноза спроса. 
 

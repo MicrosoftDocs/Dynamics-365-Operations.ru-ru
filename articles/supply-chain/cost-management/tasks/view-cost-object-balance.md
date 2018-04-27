@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-cost-object-balance"></a>Просмотр сальдо объекта затрат
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для контролера затрат.
 

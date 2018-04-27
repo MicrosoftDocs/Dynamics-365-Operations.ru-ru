@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="handling-cash-discounts-for-overpayments"></a>Обработка скидок по оплате наличными для переплат
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье приведены сценарии, показывающие как платежа обрабатывается, когда клиент принимает скидку по оплате, но также переплачивает. 
 

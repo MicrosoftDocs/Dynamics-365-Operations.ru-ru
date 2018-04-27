@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="generate-affordable-care-act-reports"></a>Создание отчетов по закону Affordable Care
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Предусмотрена функциональность для помощи работодателям, которым необходимо отслеживать информацию в отчетах по формах 1095 B и 1095-C для выполнения предписаний для работодателей (**Employer Mandate**), предусмотренных законом Affordable Care. Обратите внимание, что эта функциональность включена только для компаний в США.
 

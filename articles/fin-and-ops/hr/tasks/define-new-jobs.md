@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8f2d835bf1c29bdf7a9a247fdcf4db4490a64fce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2ed898877e2972799cdd361d7fedbe7bc19d4b6a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-new-jobs"></a>Определение новых заданий
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта задача рассматривает создание нового задания. Она будет выполнена с помощью ввода вручную и копирования из функциональных возможностей шаблонов. В качестве компании с демонстрационными данными для создания этой задачи используется USMF. Эта задача предназначена для специалиста по управлению персоналом.
 

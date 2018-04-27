@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>Ведение спецификации для модели конфигурации продукта
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Выполнение этой процедуры требует существующей модели конфигурации продукта. Модель динамика класса Hi-End в демонстрационной компании USMF используется для создания этой процедуры.
 

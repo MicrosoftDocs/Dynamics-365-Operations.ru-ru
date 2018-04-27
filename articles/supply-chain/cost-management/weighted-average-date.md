@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="weighted-average-date"></a>Взвешенное среднее по дате
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Взвешенное среднее по дате — это складская модель, основанная на принципе взвешенного среднего. Для принципа взвешенного среднего расходы со склада оцениваются по среднему значению номенклатур, полученных на склад за каждый день периода закрытия запасов. 
 

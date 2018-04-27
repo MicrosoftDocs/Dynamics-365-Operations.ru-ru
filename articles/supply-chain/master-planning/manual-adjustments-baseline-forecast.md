@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Внесение ручных корректировок в базовый прогноз
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе поясняется, как внести корректировки в базовый прогноз вручную и просмотреть подробные сведения о прогнозе. 
 

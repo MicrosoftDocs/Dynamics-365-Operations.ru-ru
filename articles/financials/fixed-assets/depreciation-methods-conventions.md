@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>Методы амортизации и соглашения по амортизации
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье представлен обзор соглашений по амортизации и методы амортизации, которые поддерживаются Microsoft Dynamics 365 for Finance and Operations.
 
@@ -62,7 +61,7 @@ ms.lasthandoff: 03/26/2018
 -   Уменьшаемый остаток в 150%
 -   Уменьшаемое сальдо в 125%
 
- 
+
 
 
 

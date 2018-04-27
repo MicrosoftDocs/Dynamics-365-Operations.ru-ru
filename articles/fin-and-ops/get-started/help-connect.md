@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="connect-the-help-system"></a>Подключение к системе справки
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой теме описываются компоненты системы Справки для Microsoft Dynamics 365 for Finance and Operations. В нем приводится обзор того, как подключить эти компоненты, и сводку того, как создать собственную справку. 
 
@@ -42,7 +41,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="connecting-the-help-system"></a>Подключение системы справки
 > [!NOTE]
 > Вкладка **Проводники по задачам** в настоящее время недоступна в Microsoft Dynamics 365 for Talent и Microsoft Dynamics 365 for Retail. Мы в настоящее время работаем для включения этой функции в будущих выпусках. Проводники по задачам в разделе начала работы в Talent остаются доступными для работы с основными функциями. Практические советы можно также получить на сайте docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) для Retail и Talent.
- 
+
 
 С помощью страницы **Системные параметры** системные администраторы подключают части системы справки для реализации. [![Форма "Системные параметры" с настройками системы справки](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) На странице **Системные параметры** выполните следующие действия:
 

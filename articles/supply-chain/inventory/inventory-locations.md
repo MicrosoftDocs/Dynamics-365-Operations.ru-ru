@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-locations"></a>Места хранения
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Места хранения используются с базовым управлением складом (WMS I), чтобы определить, где хранятся номенклатуры и где комплектуются номенклатуры внутри склада WMS I.
 

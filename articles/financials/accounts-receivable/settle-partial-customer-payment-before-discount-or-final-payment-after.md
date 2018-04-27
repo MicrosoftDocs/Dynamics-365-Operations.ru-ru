@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Сопоставление частичного платежа клиента до даты скидки с окончательным платежом после даты скидки
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье описывается влияние сопоставления платежей с накладными для клиентов. В сценарии основное внимание уделяется влиянию на субкнигу, а не на главную книгу.
 

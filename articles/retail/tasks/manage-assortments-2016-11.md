@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="manage-assortments"></a>Управление ассортиментами 
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как создать и опубликовать новый ассортимент продуктов с использованием демонстрационных данных компании USRT. Для выполнения этой процедуры требуется Dynamics AX 7.0.1 или более поздняя версия и платформа Dynamics AX 7.1.  
 

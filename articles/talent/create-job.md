@@ -19,19 +19,18 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
-ms.openlocfilehash: aaa8bdedc31ee03e96a0f7a5e78f25f888913e71
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 88e8c1ae98ad5618feff3d2bb88d8f8cfe2ff9ba
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="setting-up-the-components-of-a-job"></a>Настройка компонентов должности
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 В этом разделе описываются общие элементы, которые может содержать должность, и приводятся примеры того, как можно использовать эти элементы в вашей организации. 
 
@@ -75,8 +74,8 @@ ms.lasthandoff: 03/23/2018
 <tr class="odd">
 <td>Менеджер по продажам</td>
 <td><ul>
-<li><strong>Обзор производительности</strong> – обзор производительности должности каждого продавца.</li>
-<li><strong>Обзор отсутствия</strong> – утверждение или отклонение запросов или регистраций отсутствия каждого продавца.</li>
+<li><strong>Обзор производительности</strong> — обзор производительности задания каждого продавца.</li>
+<li><strong>Обзор отсутствия</strong> — утверждение или отклонение запросов или регистраций отсутствия каждого продавца.</li>
 </ul></td>
 </tr>
 <tr class="even">

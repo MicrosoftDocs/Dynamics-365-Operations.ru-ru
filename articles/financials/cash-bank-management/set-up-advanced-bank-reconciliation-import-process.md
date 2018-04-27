@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Настройка процесса расширенного импорта банковских выверок
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Функция расширенной банковской выверки позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations. В этой статье объясняется, как настроить функцию импорта для банковских выписок. 
 
@@ -57,7 +56,7 @@ ms.lasthandoff: 03/26/2018
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Настройка импорта банковских выписок ISO20022
 Во-первых, необходимо определить группу обработки формата банковской выписки для банковских выписок ISO20022 с помощью структуры информационного объекта.

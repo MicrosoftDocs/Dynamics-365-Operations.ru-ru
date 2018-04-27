@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Элементы статистической аналитики и шаблоны поставщика статистической меры
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Статистическая аналитика и ее элементы используются для регистрации и контроля немонетарных записей в модуле "Учет затрат". Элементы статистической аналитики можно использовать для двух целей:
 

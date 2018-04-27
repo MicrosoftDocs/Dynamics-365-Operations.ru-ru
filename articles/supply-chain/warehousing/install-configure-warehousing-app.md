@@ -29,11 +29,10 @@ ms.lasthandoff: 03/06/2018
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Установка и настройка Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
-
+> 
 > В этом разделе описывается, как настроить складские операции для размещения в облаке. Если требуется информация о настройке складских операций для локальных развертываний, см. раздел [Складские операции для локальных развертываний](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 

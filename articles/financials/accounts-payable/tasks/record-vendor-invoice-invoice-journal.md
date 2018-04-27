@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Регистрация накладной поставщика в журнале накладных
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этом руководстве показано, как зарегистрировать накладные поставщика, которые не связаны с заказами на покупку. Примеры этого типа накладной включают расходы на поставки или услуги.  В данной записи используется демонстрационная компания USMF.
 

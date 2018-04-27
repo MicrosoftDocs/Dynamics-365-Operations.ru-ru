@@ -17,18 +17,18 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 1f0b5ff383c8bb2d1ac892ef771e15f0afec2655
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad9373faa19761cccca2b5d581de05f0ac9dd165
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="alerts-overview"></a>Обзор оповещений
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>Об оповещениях
 Оповещения образуют систему уведомлений для критически важных событий в Microsoft Dynamics 365 for Finance and Operations. Можно пользоваться оповещениями, чтобы знать о событиях, которые вы хотите отслеживать в течение рабочего дня. Можно легко создать свой набор правил оповещения, чтобы получать оповещения о просроченных поставках, удаленных заказах, изменении цен и других событиях, на которые требуется реагировать.
@@ -71,4 +71,7 @@ ms.lasthandoff: 03/23/2018
 
     > [!NOTE]
     > Этот параметр ограничен администраторами организации.
+
+## <a name="email-notifications-from-alerts"></a>Уведомления по электронной почте из оповещений
+Уведомления по электронной почте из оповещений еще не включены. Это будет включено в будущем обновлении.
 

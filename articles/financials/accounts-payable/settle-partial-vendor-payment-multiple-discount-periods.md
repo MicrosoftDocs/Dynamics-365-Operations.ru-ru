@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Сопоставление частичного платежа поставщика с несколькими периодами скидок
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье рассматривается сценарий, в котором производится несколько частичных платежей поставщику, предлагающему несколько скидок по оплате. 
 

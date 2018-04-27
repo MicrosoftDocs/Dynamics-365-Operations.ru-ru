@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-rollup-policy"></a>Создание политики свертки затрат
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура показывает, как создать политику свертки затрат и создать правила для этой политики. В качестве компании с демонстрационными данными для создания этой процедуры используется USP2.
 

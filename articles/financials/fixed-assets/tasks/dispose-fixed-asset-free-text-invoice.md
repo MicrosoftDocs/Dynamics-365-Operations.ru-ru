@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Выбытие основного средства с использованием накладной с произвольным текстом
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура показывает, как приобрести основное средство с помощью предложения по приобретению в журнале основных средств. В нем используется роль бухгалтера и демонстрационные данные для юридического лица USMF.
 

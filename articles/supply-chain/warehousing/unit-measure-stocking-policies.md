@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="unit-of-measure-and-stocking-policies"></a>Единица измерения и политики хранения
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья описывает, как единицы измерения по умолчанию, последовательности единиц измерения и преобразования единиц измерения используются в складских процессах.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Создание кредит-нот для накладных по проекту
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 1. Перейдите в раздел "Управление и учет по проектам" > "Проекты" > "Все проекты". 
 2. В списке найдите и выберите требуемую запись. 

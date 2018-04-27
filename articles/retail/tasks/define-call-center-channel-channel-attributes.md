@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a>Определение канала центра обработки вызовов и атрибутов этого канала
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Эта процедура содержит указания по созданию нового канала розничной торговли и определению атрибутов канала. В качестве компании с демонстрационными данными для создания этой задачи используется USRT. Эта процедура предназначена для роли "ИТ розничной торговли".
 

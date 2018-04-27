@@ -19,23 +19,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
-ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0936ae3b8d07ef221345bda272170e1482f37cbf
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed"></a>Что нового и что изменилось
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних версиях Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 О том, как провести обновление до последней версии, см. в разделе [Процесс обновления до последнего обновления](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 
-[!include[release notes](../includes/release-notes.md)]
+[!INCLUDE [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Выпуски приложения
 
@@ -53,7 +53,7 @@ ms.lasthandoff: 03/25/2018
 <th>Версия</th>
 <th>Номер сборки</th>
 <th>Доступность</th>
-<th>Дополнительные сведения</th>
+<th>Подробнее</th>
 </tr>
 </thead>
 <tbody>
@@ -61,6 +61,13 @@ ms.lasthandoff: 03/25/2018
 
 </tr>
 <tr class="even">
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>8.0</td>
+<td>8.0.30</td>
+<td>Апрель 2018 г.</td>
+  <td><a href="whats-new-changed-8-0-April-2018.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations версия 8.0 (апрель 2018)</a></td>
+</tr>
 <td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
 <td>7.3</td>
 <td>7.3.11971.56116</td>
@@ -122,7 +129,7 @@ ms.lasthandoff: 03/25/2018
 <td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
 <td>Обновление платформы update 15</td>
 <td>7.0.4839</td>
-<td>Март 2018 (Эта функция является частью целевого выпуска и доступна только пользователям, принимающим участие в программе преимущества непрерывного автоматического обновления (ППНАО).)</td>
+<td>Март 2018 (Эта функция является частью целевого выпуска и доступна только пользователям, принимающим участие в программе Continuous Auto-update Advantage Program (CAAP).) Обновление платформы 15 также доступно в Dynamics 365 for Finance and Operations версии 8.0.)</td>
 <td><a href="whats-new-platform-update-15.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 15 (март 2018 г.)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="view-financial-reports"></a>Просмотр финансовых отчетов
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье описывается, как просматривать и изучать финансовые отчеты в Microsoft Dynamics 365 for Finance and Operations. Она содержит сведения о различных параметрах, которые можно применить к финансовым отчетам, чтобы изменить их внешний вид и данные, которые они содержат.
 

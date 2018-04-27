@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-pos-permission-groups"></a>Создание групп разрешений POS
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как создать группу разрешений POS. В качестве компании с демонстрационными данными для создания этой задачи используется USRT. Эта задача предназначена для роли директора-распорядителя в розничной торговле.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Рекомендации по импорту ваучеров с помощью объекта "Общий журнал"
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе приводятся советы по импорту данных в общий журнал с помощью объекта "Общий журнал".  
 

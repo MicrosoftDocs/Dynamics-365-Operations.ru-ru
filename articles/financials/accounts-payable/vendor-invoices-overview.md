@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-invoices-overview"></a>Обзор накладных поставщика
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье представлена общая информация о накладных поставщика. Накладные поставщика — это запросы платежа за продукты и услуги, которые были получены. Накладные поставщика могут представлять счет за текущие услуги, или они могут основываться на заказах на покупку на конкретные номенклатуры и услуги. 
 
@@ -87,11 +86,11 @@ ms.lasthandoff: 12/14/2017
  - [Настройка политик накладных поставщиков](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [Ввод данных счета в модуль расчетов с поставщиками с использованием накладной поставщика](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [Ввод данных счета в модуль расчетов с поставщиками с использованием журнала утверждения](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [Ввод данных счета в модуль расчетов с поставщиками с использованием кластера накладных](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [Регистрация накладной поставщика в журнале накладных](tasks/record-vendor-invoice-invoice-journal.md)
 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Контроль работы склада с шаблонами работы и директивами для мест хранения
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья описывает, как использовать шаблоны работы и директивы расположения для того, чтобы определить, как и где выполняется работа на складе.
 

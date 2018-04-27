@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-production-orders-as-finished"></a>Включение производственных заказов в отчет как завершенных
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Приемка является стадией производства. На этом этапе готовая продукция принимается и перемещается из производственного заказа в запасы.
 

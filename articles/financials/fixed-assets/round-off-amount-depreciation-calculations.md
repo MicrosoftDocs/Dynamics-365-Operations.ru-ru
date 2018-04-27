@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="round-off-amount-for-depreciation-calculations"></a>Округленная сумма для расчетов амортизации
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье рассматривается поле округление поле округления при амортизации, имеющееся на страницах настройки книг.
 

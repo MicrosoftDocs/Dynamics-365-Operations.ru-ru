@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-fixed-asset"></a>Создание основного средства
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В данном руководстве по задаче используется демонстрационная компания USMF.  Будет создано новое основное средство с помощью страницы списка "Основное средство".
 

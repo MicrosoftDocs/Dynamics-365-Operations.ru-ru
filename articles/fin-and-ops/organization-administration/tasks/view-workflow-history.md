@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-workflow-history"></a>Просмотр журнала workflow-процессов
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Используйте эти шаги для просмотра статуса документа, отправленного в систему workflow-процессов для обработки и утверждения. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 

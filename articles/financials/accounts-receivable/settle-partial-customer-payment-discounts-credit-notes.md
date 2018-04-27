@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Сопоставление частичного платежа клиента, имеющего скидки на кредит-ноты
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье рассматривается сценарий, в котором скидка по оплате используется для кредит-ноты, когда исходная накладная также имела скидку по оплате. 
 

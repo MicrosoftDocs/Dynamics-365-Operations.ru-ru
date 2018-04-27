@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="install-the-retail-pos-layout-designer"></a>Установка конструктора макета Retail POS
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Можно использовать конструктор одним щелчком, чтобы создать различные макеты Retail Modern POS (MPOS) и Cloud POS в альбомном или портретном режиме для магазинов, регистров, кассиров и менеджеров.
 

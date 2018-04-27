@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Создание плана материалов для сопутствующих продуктов
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Планировщик производства планирует материальные потребности в номенклатурах, представляющих собой сопутствующие продукты формулы. В качестве компании с демонстрационными данными для создания этой процедуры используется USP2.
 

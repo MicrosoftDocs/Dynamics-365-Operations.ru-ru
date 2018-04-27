@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cabaf8a579fcd9722e409630038167afb07ffc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0307db3a49bcdb62146b815383f744c5b8e0fde
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>Пользовательские параметры в конструкторе финансовых отчетов
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье объясняется, как настроить предпочтительные параметры пользователя для настройки взаимодействия в конструкторе финансовых отчетов и управления исходным входом в систему. Также можно управлять отображением отдельных отчетов, библиотекой отчетов и расположениями файлов по умолчанию. 
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 <td>Укажите, следует ли получать предупреждение при выходе из приложения. Это сообщение помогает гарантировать, что вы не выйдите из программы случайно.</td>
 </tr>
 <tr class="odd">
-<td>Автоматически применить подчеркивание ячеек в заголовках столбца</td>
+<td>Автоматически подчеркивать ячейки в заголовках столбцов</td>
 <td>Укажите, следует ли вставлять подчеркивание в ячейке нового заголовка столбца.</td>
 </tr>
 <tr class="even">

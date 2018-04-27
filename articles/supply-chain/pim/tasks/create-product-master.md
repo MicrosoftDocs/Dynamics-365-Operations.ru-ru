@@ -24,7 +24,7 @@ ms.lasthandoff: 10/25/2017
 ---
 # <a name="create-a-product-master"></a>Создание шаблона продукта
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Создайте шаблон продукта для предопределенных вариантов. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для конструктора продуктов.
 

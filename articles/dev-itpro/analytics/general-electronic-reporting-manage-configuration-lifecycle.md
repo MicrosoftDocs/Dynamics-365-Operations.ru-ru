@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Управление жизненным циклом конфигураций электронной отчетности
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описывается управление жизненным циклом конфигураций электронных отчетов (ER) для решения Microsoft Dynamics 365 for Finance and Operations.
 

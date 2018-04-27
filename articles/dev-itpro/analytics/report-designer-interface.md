@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-designer-interface"></a>Интерфейс конструктора отчетов
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье объясняется, как перемещаться по конструктору отчетов и как использовать различные параметры в соответствии с конкретными требованиями. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Разработка конфигурации для создания отчетов в формате Microsoft Word для электронной отчетности (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить форматы электронной отчетности (ER) для создания отчетов как файлов Microsoft Word. Эти шаги можно выполнить в компании GBSI.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="call-center-catalogs"></a>Каталоги центра обработки вызовов
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Эта статья содержит описание функций специально для центра обработки вызовов по каталогам в Microsoft Dynamics 365 for Retail.
 

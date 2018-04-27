@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Изменение соглашений по амортизации для нескольких основных средств
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В результате этой задачи будет обновлено соглашение по амортизации для указанной группы основных средств. В данном руководстве по задаче используется демонстрационная компания USMF.
 

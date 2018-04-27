@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mass-hire-projects"></a>Проекты по массовому набору сотрудников
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Проекты по массовому набору сотрудников позволяют специалисту по найму создавать нескольких должностей и эффективно нанимать сотрудников на эти должности.
 
@@ -94,7 +93,7 @@ ms.lasthandoff: 11/03/2017
 </tbody>
 </table>
 
- 
+
 
 
 

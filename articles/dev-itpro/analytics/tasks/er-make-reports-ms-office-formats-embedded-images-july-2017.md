@@ -1,5 +1,5 @@
 --- 
-title: "Разработка конфигураций для создания отчетов в форматах Microsoft Office с внедренными изображениями для электронной отчетности (ER) (часть 1)"
+title: "Разработка конфигураций для создания отчетов в форматах Microsoft Office с внедренными изображениями"
 description: "Шаги в этом разделе содержат сведения о том, как разрабатывать конфигурации электронной отчетности, которые формируют электронные документы в форматах Microsoft Office (Excel и Word), содержащие внедренные изображения."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
 ms.contentlocale: ru-ru
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>Разработка конфигураций для создания отчетов в форматах Microsoft Office с внедренными изображениями для электронной отчетности (ER) (часть 1) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Разработка конфигураций для создания отчетов в форматах Microsoft Office с внедренными изображениями
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Создание поставщика конфигурации и пометка его как активного". Эта процедура объясняет, как разрабатывать конфигурации электронной отчетности для формирования документа Microsoft Excel или Word, содержащего внедренные изображения. В этой процедуре создаются необходимые конфигурации электронной отчетности для демонстрационной компании Litware, Inc. Эти действия могут быть выполнены с использованием набора данных USMF. Эта процедура предназначена для пользователей, которым назначена роль "Системный администратор" или "Разработчик электронной отчетности". Прежде чем начать, загрузите и сохраните файлы, перечисленные в разделе справки [Внедрение изображений и фигур в бизнес-документы, создаваемые с помощью средства электронной отчетности](../electronic-reporting-embed-images-shapes.md). Это файлы: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png и Cheque template Word.docx.
 

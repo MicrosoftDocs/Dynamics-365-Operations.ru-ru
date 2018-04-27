@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-management-home-page"></a>Домашняя страница модуля "Управление финансами"
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 В этом разделе содержится список разделов справки и других ресурсов по функциям управления финансами в Microsoft Dynamics 365 for Finance and Operations. 
 

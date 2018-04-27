@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-application-and-user-language-settings"></a>Настройки приложения POS и языка пользователя
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 В этом разделе описано изменение настроек языка в Retail Modern POS (MPOS) и Cloud POS.
 

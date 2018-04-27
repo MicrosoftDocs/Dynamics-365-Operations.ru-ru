@@ -28,8 +28,7 @@ ms.lasthandoff: 02/05/2018
 
 # <a name="warehouse-mobile-device-display-settings"></a>Параметры отображения для мобильного устройства на складе
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом статье описывается, как настроить внешний вид дисплея мобильного устройства и как сопоставить сочетания клавиш с элементами управления, например кнопками. 
 

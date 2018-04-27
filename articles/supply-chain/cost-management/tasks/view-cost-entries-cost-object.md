@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>Просмотр записей затрат для объекта затрат
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ниже описан порядок просмотра записей затрат для объекта затрат. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для контролера затрат.
 

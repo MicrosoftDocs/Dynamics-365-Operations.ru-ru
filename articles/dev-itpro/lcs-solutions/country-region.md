@@ -3,7 +3,7 @@ title: "Локализация и нормативные компоненты"
 description: "В этом разделе содержатся списки ресурсов, которые помогут вам узнать больше о функциональности, относящейся к конкретным странам и регионам."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 04/12/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
-ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Локализация и нормативные компоненты
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations включает функции для стран и регионов, описанные описаны в [руководстве по международной доступности продукта](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Эти функции включаются в зависимости основного адреса активного юридического лица. 
 
@@ -51,10 +50,10 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 
 ### <a name="communication-and-alerts"></a>Сообщения и предупреждения
 -   [Отслеживание законов и информирование об их изменениях](regulatory-watch-communication.md)
--   [Информирование Майкрософт об изменениях в законодательстве страны/региона и отслеживание статуса функций, связанных с законодательством](submit-localization-alerts.md)
+-   [Информирование Майкрософт об оповещениях по законам страны/региона и отслеживание статуса функций, связанных с законами](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>Дорожная карта Dynamics 365
-[Дорожная карта Dynamics 365](https://roadmap.dynamics.com/) представляет собой "моментальный снимок" того, над чем мы работаем. Из нее вы можете узнать, какая функциональность в ближайшее время станет общедоступной, а также что находится в разработке. Все даты и сведения о находящихся в разработке функциональных возможностях являются предварительными, основаны на текущих ожиданиях и могут быть изменены без уведомления.
+### <a name="dynamics-365-release-notes"></a>Заметки о выпуске Dynamics 365
+[Заметки о выпуске Dynamics 365 (в формате PDF)](https://aka.ms/businessappsreleasenotes) содержат описание новых и улучшенных функциональных возможностей в бизнес-приложениях Dynamics 365 и платформах приложений. 
 
 ## <a name="electronic-reporting"></a>Электронная отчетность
 Средства электронной отчетности (ER) служат для настройки форматов электронных документов в соответствии с требованиями законодательства различных стран/регионов. Электронная отчетность позволяет управлять этими форматами в течение их жизненного цикла. Дополнительные сведения см. в следующих разделах:
@@ -79,25 +78,9 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 ## <a name="countryregion-specific-help-topics"></a>Разделы справки, относящиеся к конкретным странам и регионам
 В следующих разделах перечислены ресурсы по странам и регионам
 
-### <a name="australia"></a>Австралия
-
--   [Форматы банковских файлов](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
--   [Отчет по видам деятельности](../../financials/localizations/apac-aus-business-activity-statement.md)
--   [Амортизация кластера низкой стоимости](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
-
-### <a name="austria"></a>Австрия
-
-- [Полугодовая амортизация](../../financials/localizations/emea-aut-half-year-depreciation.md)
-- [Сборы за упаковочные материалы](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
-- [Пошлины по покупке](../../financials/localizations/emea-aut-purchase-duties.md)
-- [Отчет по НДС](../../financials/localizations/emea-aut-vat-statement-details.md)
-
-### <a name="belgium"></a>Бельгия
-
--   [Банковская выписка CODA](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
--   [Налоговая декларация Intervat](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
--   [Настройка отчетов PRODCOM](../../financials/localizations/emea-bel-prodcom-report.md)
--   [Отчеты по выверке](../../financials/localizations/emea-bel-reconciliation-reports.md)
+### <a name="australiafinancialslocalizationsaustraliamd"></a>[Австралия](../../financials/localizations/australia.md)
+### <a name="austriafinancialslocalizationsaustriamd"></a>[Австрия](../../financials/localizations/austria.md)
+### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[Бельгия](../../financials/localizations/belgium.md)
 
 ### <a name="brazil"></a>Бразилия
 
@@ -134,22 +117,9 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 -   [Разноска счетов ГК запасов по сайту](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
 -   [Отображение сумм дебета и кредита для счетов ГК](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
-### <a name="the-czech-republic"></a>Чешская Республика
-
--   [Скидка при оплате по кредит-ноте](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
--   [Округление амортизации](../../financials/localizations/emea-cze-depreciation-rounding.md)
--   [Полугодовая амортизация по выбытию ОС для Чешской Республики](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
--   [Приостановка амортизации (holidays.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
--   [Методы амортизации ОС для Чешской Республики](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
--   [Разноска предварительного приобретения ОС](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
--   [Отчет по НДС для Чешской Республики](../../financials/localizations/emea-cze-vat-statement-details.md)
--   [Налоговая отчетность ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
--   [Разделение по периодам в периодических журналах](../../financials/localizations/emea-create-post-periodic-journals.md)
--   [Настройка подписывающих лиц для печатных форм](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
--   [Обновление способа отображения сумм в отчетах и документах](../../financials/localizations/emea-amount-printing-forms.md)
+### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Чешская Республика](../../financials/localizations/czech-republic.md)
 
 ### <a name="estonia"></a>Эстония
-
 -   [Сведения об отчете по НДС для Эстонии](../../financials/localizations/emea-est-vat-statement-details.md)
 -   [Выбытие ОС](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
@@ -280,7 +250,7 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 -   [Отчет по декларации о поправке на инфляцию](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [Отчет по декларации ISR](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [Электронные накладные (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-   
+
 ### <a name="malaysia"></a>Малайзия
 
 -   [Налог на товары и услуги (GST)](../../financials/localizations/apac-mys-gst.md)

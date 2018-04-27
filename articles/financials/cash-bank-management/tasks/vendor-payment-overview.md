@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="vendor-payment-overview"></a>Обзор платежей поставщикам
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этом руководстве по задаче демонстрируются различные методы создания платежей поставщикам, в том числе с использованием предложения по оплате и путем ввода разового платежа. В данной процедуре используется демонстрационная компания USMF.
 

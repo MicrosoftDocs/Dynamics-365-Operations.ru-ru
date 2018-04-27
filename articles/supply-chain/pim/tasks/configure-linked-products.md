@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-linked-products"></a>Настройка связанных продуктов
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура содержит инструкции по настройке связанных продуктов. Эта процедура использует демонстрационные данные USRT и предполагает, что оба продукта уже были созданы и выпущены.
 

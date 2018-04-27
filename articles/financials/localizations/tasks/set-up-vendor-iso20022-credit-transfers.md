@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a>Настройка поставщиков и банковских счетов поставщиков для кредитовых переводов ISO20022
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как настроить поставщика и сведения о банковском счете поставщика, необходимые для создания файла платежа переноса кредита ISO20022 или любого другого платежа поставщику. 
 

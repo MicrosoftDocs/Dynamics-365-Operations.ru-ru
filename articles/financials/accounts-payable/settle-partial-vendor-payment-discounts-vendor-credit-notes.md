@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Настройка частичного платежа поставщика, имеющего скидки по кредит-нотам поставщика
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья дает пошаговое руководство через сценарий где кредитное авизо сопоставляется относительно накладной.
 

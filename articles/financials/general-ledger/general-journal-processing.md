@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="general-journal-processing"></a>Обработка общего журнала
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья описывает возможности в Microsoft Dynamics 365 for Finance and Operations, которые могут помочь выполнить обработку общего журнала легче, и которое также может помочь гарантировать, что правильные данные отражаются, и внутренний контроль не скомпрометирован.  
 

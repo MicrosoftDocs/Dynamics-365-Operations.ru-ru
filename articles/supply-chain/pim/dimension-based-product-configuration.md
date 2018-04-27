@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="dimension-based-product-configuration"></a>Конфигурация продукта на основе аналитик
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Конфигурация продукта на основе аналитик представляет простое решение для создания нескольких вариантов продукта из одного шаблона продукта и его спецификации.
 

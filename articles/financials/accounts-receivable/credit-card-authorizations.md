@@ -28,10 +28,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-card-setup-authorization-and-capture"></a>Настройка, авторизация и захват кредитной карточки
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Эта статья содержит обзор авторизации кредитной карты в Microsoft Dynamics 365 for Finance and Operations. Она включает информацию о том, как настроить службу платежей, добавить кредитную карту в заказ на продажу и аннулировать авторизацию.
 

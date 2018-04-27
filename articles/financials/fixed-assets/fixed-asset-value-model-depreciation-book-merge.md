@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Объединение модели стоимости основных средств и журнала амортизации
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В предыдущих выпусках имелось две концепции оценки для основных средств — модели стоимости и журналы амортизации. В Microsoft Dynamics 365 for Operations (1611) функция модели стоимости и функция журнала амортизации были объединены в одно понятие книги.
 

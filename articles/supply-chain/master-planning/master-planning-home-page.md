@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Домашняя страница сводного планирования
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 По своей сути, сводное планирование позволяет компаниям определять и балансировать будущую потребность в сырье и производственных мощностях для достижения целей компании. Сводное планирование оценивает следующее: 
 
@@ -58,6 +57,7 @@ ms.lasthandoff: 02/13/2018
 [![Карта обучения для сводного планирования](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>Быстрые ссылки
+
 |      |   |
 |------|---|
 |        [Сводные планы](master-plans.md)       |     [Создание плана с ограничениями](./tasks/constrained-plan.md)  |

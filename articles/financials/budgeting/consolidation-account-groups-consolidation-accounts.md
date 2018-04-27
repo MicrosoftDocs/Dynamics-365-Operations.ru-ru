@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Группы счетов консолидации и дополнительные счета консолидации
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе представлены сведения о группах счетов консолидации и дополнительных счетах консолидации и объясняется, как они используются в Microsoft Dynamics 365 for Finance and Operations.
 

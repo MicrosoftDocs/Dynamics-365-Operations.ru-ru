@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Просмотр связанных внутрихолдинговых ваучеров из журнала
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В окне связанного ваучера отображается ваучер в корреспондирующей компании при разноске внутрихолдинговой проводки из общего журнала.
 

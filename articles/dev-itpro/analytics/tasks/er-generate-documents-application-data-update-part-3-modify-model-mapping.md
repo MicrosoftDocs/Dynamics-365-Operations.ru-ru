@@ -1,5 +1,5 @@
 --- 
-title: "Изменение модели и сопоставления для создания документов с обновлением данных приложения для электронной отчетности (ER)"
+title: "Изменение модели и сопоставления для создания документов с обновлением данных приложения"
 description: "Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру \"Электронная отчетность — Формирование документов с обновлением данных приложения (Часть 2. Формирование документов)\"."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a29e273e5ef377826c0002a9a0a956defef6aa77
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c112b2895175bd23db313888ec1e964bdf5ed295
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="modify-model-and-mapping-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Изменение модели и сопоставления для создания документов с обновлением данных приложения для электронной отчетности (ER)
+# <a name="modify-model-and-mapping-to-generate-documents-with-application-data"></a>Изменение модели и сопоставления для создания документов с обновлением данных приложения
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Формирование документов с обновлением данных приложения (Часть 2. Формирование документов)". 
 

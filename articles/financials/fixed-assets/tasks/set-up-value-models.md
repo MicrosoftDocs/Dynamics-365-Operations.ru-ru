@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-books"></a>Настройка книг
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как создать новую модель стоимости основных средств и связать ее с группой ОС. В нем используется роль бухгалтера и демонстрационные данные для юридического лица USMF.
 

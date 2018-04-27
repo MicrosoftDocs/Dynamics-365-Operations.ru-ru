@@ -28,10 +28,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Организация рабочей силы с использованием подразделений, заданий и должностей
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 Подразделения, задания и должности — организационные элементы, которые поддерживаются в модуле « управление персоналом «. Этот раздел содержит общие сведения об этих элементах. 
 
@@ -48,7 +47,7 @@ ms.lasthandoff: 02/07/2018
 |**Управление персоналом**|Менеджер по персоналу (запад)|Менеджер по персоналу|
 |**Управление персоналом**|Менеджер по персоналу (центр)|Менеджер по персоналу|
 
- 
+
  <a name="departments"></a>Отделы
 ------------
 

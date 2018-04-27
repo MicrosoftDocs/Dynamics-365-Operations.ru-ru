@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="receipt-templates-and-printing"></a>Шаблоны поступлений и печать
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 В этой статье описывается, как изменять макеты форм с целью управления печатью чеков, накладных и других документов. Microsoft Dynamics 365 for Retail содержит конструктор макета форм, который можно использовать для простого создания и изменения макетов форм различного вида.
 

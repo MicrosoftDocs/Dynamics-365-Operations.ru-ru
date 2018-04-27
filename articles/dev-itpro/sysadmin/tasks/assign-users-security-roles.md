@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="assign-users-to-security-roles"></a>Назначение пользователей для ролей безопасности
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Для доступа к Microsoft Dynamics 365 for Finance and Operations пользователи должны быть назначены ролям безопасности. В этой процедуре описывается, как системные администраторы могут назначить пользователей ролям автоматически на основе бизнес-данных. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 

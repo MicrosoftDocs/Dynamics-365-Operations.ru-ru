@@ -114,7 +114,8 @@
 #### [Настройка: перекрытия и расширения](extensibility/customization-overlayering-extensions.md)
 ### Что нового
 #### [Изменения возможностей расширения от июля 2017 г.](extensibility/changes-july-2017.md)
-#### [Версия 7.3 изменений возможностей расширения](extensibility/extensibility-changes-73.md)
+#### [Изменения возможностей расширения версии 7.3](extensibility/extensibility-changes-73.md)
+#### [Изменения возможностей расширения версии 8.0](extensibility/changes-80.md)
 ### Основы
 #### [Глубокие настройки](extensibility/intrusive-customizations.md)
 #### [Расширения классов](extensibility/class-extensions.md)
@@ -382,17 +383,18 @@
 
 ### [Интеграция данных с использованием Common Data Service](data-entities/data-integration-cds.md) 
 #### [Настройка сценария продажи перспективному клиенту](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Синхронизация продуктов из Finance and Operations с продуктами в Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-##### [Синхронизация организаций из Sales с клиентами в Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-##### [Синхронизация контактов из Sales с контактами или клиентами в Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Синхронизация заголовков и строк предложений по продажам из Sales с Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [Синхронизация заголовков и строк заказов на продажу из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-##### [Синхронизация заголовков и строк накладных по продаже из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Синхронизация организаций непосредственно из Sales с клиентами в Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Синхронизация продуктов непосредственно из Finance and Operations с продуктами в Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Синхронизация контактов непосредственно из Sales с контактами или клиентами в Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Синхронизация заголовков и строк заказов на продажу непосредственно из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+##### [Синхронизация заголовков и строк предложений по продаже непосредственно из Sales с Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Синхронизация заказов на продажу напрямую между Sales и Finance and Operations](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Синхронизация заголовков и строк накладных по продаже непосредственно из Finance and Operations с Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+#### [Настройка интеграции с Field Service](../supply-chain/sales-marketing/field-service.md)
+##### [Синхронизация продуктов в Finance and Operations с продуктами в Field Service](../supply-chain/sales-marketing/field-service-product.md)
+##### [Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Finance and Operations](../supply-chain/sales-marketing/field-service-work-order.md)
+##### [Синхронизация накладных договора в Field Service с накладными в произвольной форме в Finance and Operations](../supply-chain/sales-marketing/field-service-invoice.md)
+
+
 
 ### [Использование внешних веб-служб](data-entities/consume-external-web-service.md)
 
@@ -407,7 +409,9 @@
 ### [Шаблоны конфигурационных данных](data-entities/configuration-data-templates.md)
 ### [Шаблоны данных с несколькими листами](data-entities/excel-template-multiple.md)
 ### [Отслеживание изменений в объектах](data-entities/entity-change-track.md)
+
 ### [Поиск сведений о стандартных информационных объектах](data-entities/data-entities-report.md)
+
 
 ## [Задания импорта и экспорта данных](data-entities/data-import-export-job.md)
 
@@ -427,13 +431,18 @@
 
 ## [Использование своей собственной базы данных](analytics/export-entities-to-your-own-database.md)
 
-## [Ресурсы для ответа на запросы данных GDPR](gdpr/gdpr-home-page.md)
+
+## [Автоматизация задач данных](data-entities/data-task-automation.md)
+
+## [Ресурсы для ответа на запрос данных GDPR](gdpr/gdpr-home-page.md)
 ### [Руководство по GDPR для Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+### [Классификация основных средств](gdpr/gdpr-asset-classification-values.md)
 ### [Использование отчета о поиске людей](gdpr/gdpr-person-search-report.md)
 ### [Расширение отчета о поиске людей](gdpr/gdpr-extend-person-search-report.md)
 ### [Управление доступом к конфиденциальным данным](gdpr/gdpr-auditing-sensitive-data.md)
 ### [Ответ на запрос персональных данных с помощью Talent](gdpr/respond-dsr-request-talent.md)
 ### [Ответ на запрос персональных данных с помощью Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
+
 
 # [Домашняя страница непрерывной поставки](dev-tools/continuous-delivery-home-page.md)
 ## [Вопросы и ответы по разработке и непрерывной поставке](dev-tools/continuous-delivery-faq.md)
@@ -529,7 +538,8 @@
 ### [Обновление AX 2012 — подготовка к вводу в эксплуатацию](migration-upgrade/upgrade-go-live-prep.md)
 ### [Обновление AX 2012 — ввод в эксплуатацию](migration-upgrade/2012-upgrade-cutover.md)
 
-### Изменения, влияющие на процесс обновления с AX 2012
+### Изменения, которые влияют на процесс обновления с AX 2012
+#### [Разграничитель плана счетов должно быть уникальным](migration-upgrade/chart-accounts-delimiter-unique.md)
 #### [Обновление использования одного ваучера и переоценки в валюте](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Модель данных планирования ресурсов проекта](migration-upgrade/data-model-changes-resource-management.md)
 #### [Изменения подсистемы workflow-процессов](migration-upgrade/workflow-subsystem.md)
@@ -569,6 +579,7 @@
 
 # [Администрирование системы](sysadmin/system-administration-home-page.md)
 ## [Вопросы и ответы по ежемесячным обновлениям платформы](sysadmin/faq-platform-monthly-updates.md)
+## [Вопросы и ответы по виртуальным машинам, которые не допускают доступа администратора](sysadmin/VMs-no-admin-access.md)
 ## [Добавление ссылки на юридические условия и заявление о конфиденциальности вашей организации](sysadmin/legal-terms-privacy-statement.md)
 ## [Отчет по лицензионным кодам и ключам конфигурации](sysadmin/license-codes-configuration-keys-report.md)
 ## [Совместное использование данных между компаниями](sysadmin/cross-company-data-sharing.md)
@@ -612,6 +623,7 @@
 ## [Выполнение задач в библиотеке BPM](lifecycle-services/complete-tasks-bpm.md)
 ## [Использование диаграмм мероприятий](lifecycle-services/using-activity-diagrams.md)
 ## [Синхронизация библиотеки BPM с Visual Studio Team Services (VSTS)](lifecycle-services/synchronize-bpm-vsts.md)
+## [Создание набора тестов приемки с помощью руководства по задачам и BPM](lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
 ## [Блок-схемы средства моделирования бизнес-процессов](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Отправка пользовательских бизнес-процессов](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Мониторинг и диагностика ](lifecycle-services/monitoring-diagnostics.md)
@@ -620,6 +632,8 @@
 ## [Библиотека активов](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 — обзор службы переводов](lifecycle-services/translation-service-overview.md)
 ### [Руководство пользователя службы переводов Microsoft Dynamics 365](lifecycle-services/use-translation-service.md)
+### [Служба переводов Microsoft Dynamics 365 — перевод файлов документации](lifecycle-services/use-translation-service-ua.md)
+### [Служба переводов Microsoft Dynamics 365 — память переводов](lifecycle-services/use-translation-service-tm.md)
 
 ## Функции Dynamics AX 2012 Lifecycle Services
 ### Развертывание

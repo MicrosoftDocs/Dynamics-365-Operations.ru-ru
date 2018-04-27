@@ -24,7 +24,7 @@ ms.lasthandoff: 10/27/2017
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Создание и назначение структур дополнительных правил
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Это руководство описывает создание и назначение структуры дополнительного правила в структуре счета. В данном руководстве используется демонстрационная компания USMF.
 

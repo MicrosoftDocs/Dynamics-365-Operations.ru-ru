@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-method-of-payment-for-iso20022-direct-debit"></a>Настройка метода оплаты для безакцептного списания ISO20022
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура показывает, как настроить метод платежей клиентов для прямого дебетования ISO20022 или любого другого типа платежа с использованием электронной отчетности. 
 

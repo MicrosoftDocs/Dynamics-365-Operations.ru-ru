@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Планирование маршрутов фрахта с несколькими остановками
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье описываются различные элементы, которые можно использовать для планирования маршрутов транспортировки в Microsoft Dynamics 365 for Finance and Operations.
 

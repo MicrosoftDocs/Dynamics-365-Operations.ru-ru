@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-order-overview"></a>Обзор заказа на покупку
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 В этой статье приводятся общие сведения о заказах на покупку и ссылки на дополнительные статьи, связанные с различными стадиями хода выполнения заказа на покупку.
 

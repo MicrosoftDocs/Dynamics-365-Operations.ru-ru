@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-journal-entry-using-a-template"></a>Создание записи в журнале с помощью шаблона
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Разнесенные ваучеры журнала можно сохранить как шаблоны ваучеров и применить в новом ваучере журнала. В данной процедуре используется демонстрационная компания USMF.
 

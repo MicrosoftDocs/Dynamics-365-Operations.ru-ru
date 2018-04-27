@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="define-and-maintain-retail-channels"></a>Определение и ведение каналов розничной торговли
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Этом раздел предоставляет обзор процесса для настройки реальных магазинов, которые называются розничными магазинами в Microsoft Dynamics 365 for Retail. Она содержит сведения о задачах, которую следует выполнить как до, так и после настройки розничного магазина.
 

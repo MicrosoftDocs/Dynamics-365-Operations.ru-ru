@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-code-masks"></a>Настройка масок штрих-кодов
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 В этом разделе описывается настройка символов маски штрих-кодов и маски штрих-кодов, а также порядок назначения штрих-кодам масок штрих-кодов.
 

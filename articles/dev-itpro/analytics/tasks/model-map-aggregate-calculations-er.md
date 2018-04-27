@@ -24,7 +24,7 @@ ms.lasthandoff: 03/09/2018
 ---
 # <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a>Использование конфигурации сопоставления модели для агрегированных расчетов на уровне базы данных (ER) 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре предоставляются сведения о создании новой конфигурации сопоставления модели электронной отчетности (ER) и использовании встроенных функций ER для эффективного агрегирования расчетов. В этой процедуре вам предстоит создать конфигурацию для компании-образца Litware, Inc. 
 

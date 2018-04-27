@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="before-you-buy"></a>Перед покупкой 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Не имеете опыта работы в Dynamics 365 for Finance and Operations? Мы представляем пошаговое руководство для тех, кто еще думает, приобрести ли Finance and Operations, и тех, кто уже готов совершить покупку.
 

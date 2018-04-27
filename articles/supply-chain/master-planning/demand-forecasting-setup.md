@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="demand-forecasting-setup"></a>Настройка прогнозирования спроса
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этом разделе описывается, как настроить задачи, которые необходимо выполнить, чтобы подготовиться к прогнозированию спроса.  
 

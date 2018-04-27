@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advance-holder-transactions"></a>Проводки по подотч. лицам
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Сведения о работе с проводками по подотчетным лицам в Microsoft Dynamics 365 for Finance and Operations.
 

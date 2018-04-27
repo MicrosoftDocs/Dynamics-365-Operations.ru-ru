@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Распределение времени для заданий в наборе заданий
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В модуле "Управление производством" можно объединять задания в наборы. Затем можно запустить одновременно несколько заданий на странице списка заданий.
 

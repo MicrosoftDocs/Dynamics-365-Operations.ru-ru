@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-blocking"></a>Блокировка запасов
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Эта статья содержит обзор блокировки запасов, которая является частью процесса проверки качества в Microsoft Dynamics 365 for Finance and Operations. Можно использовать блокировку запасов для предотвращения обработки или расхода номенклатур.
 

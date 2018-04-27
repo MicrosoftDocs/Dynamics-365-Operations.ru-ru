@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-validate-journals"></a>Создание и проверка журналов
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Это руководство описывает создание и проверку журналов и строк журналов. В этих задачах используется демонстрационная компания USMF.  
 

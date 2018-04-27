@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Сопоставление частичного платежа клиента с несколькими периодами скидок
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 В этой статье показано, как сопоставляются частичные платежи клиента при наличии нескольких периодов скидки.
 
