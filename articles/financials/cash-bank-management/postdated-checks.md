@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="postdated-checks"></a>Чеки, датированные будущим числом
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья содержит сведения о поддержке чеков, датированных будущим числом, в Microsoft Dynamics 365 for Finance and Operations. Чеки, датированные будущим числом, выпускаются для создания и получения платежей в будущем. Поэтому чек нельзя обналичить до указанной даты.
 

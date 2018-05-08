@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advance-holders"></a>Подотчетные лица
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Сведения о работе с функциями по подотчетным лицам в Microsoft Dynamics 365 for Finance and Operations.
 

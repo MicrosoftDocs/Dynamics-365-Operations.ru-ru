@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Кросс-докинг из производственных заказов в дебаркадеры отгрузки
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе описывается, как управлять процессом кросс-докинга материала, который принят из производственной линии в транспортный док отгрузки.
 

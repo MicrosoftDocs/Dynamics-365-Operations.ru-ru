@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-financial-dimensions"></a>Определение финансовых аналитик
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этом руководстве показано добавление финансовой аналитики на основе объекта и пользовательской финансовой аналитики.  В данном руководстве используется демонстрационная компания USMF.
 

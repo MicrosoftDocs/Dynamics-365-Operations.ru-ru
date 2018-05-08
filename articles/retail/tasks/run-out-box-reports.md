@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Создание и выполнение готовых отчетов
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Используйте этот проводник по задаче для формирования готовых отчетов в центральном офисе из различных рабочих областей и отчетов по запросам и продажам из раздела "Розничная торговля и коммерция".
 

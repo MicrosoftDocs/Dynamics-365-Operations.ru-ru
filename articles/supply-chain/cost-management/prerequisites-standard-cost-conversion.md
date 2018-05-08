@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Предварительные требования для преобразования стандартных затрат
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе описаны задачи, которые нужно выполнить перед выполнением преобразования стандартной себестоимости. 
 

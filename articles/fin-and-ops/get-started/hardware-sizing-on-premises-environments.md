@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Определение параметров оборудования для локальных сред
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Прежде чем начать процесс определения параметров оборудования и инфраструктуры для локальной среды, ознакомьтесь с разделами [Требования к системе](system-requirements.md) и [Инструкции по настройке и развертыванию](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md), чтобы получить четкое представление о базовой инфраструктуре. 
 

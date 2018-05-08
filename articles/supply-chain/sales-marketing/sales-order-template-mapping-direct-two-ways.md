@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Синхронизация заказов на продажу непосредственно между Sales и Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой теме рассматриваются шаблоны и базовые задачи, которые используются для выполнения синхронизации заказов на продажу напрямую между Microsoft Dynamics 365 for Sales и Microsoft Dynamics 365 for Finance and Operations.
 

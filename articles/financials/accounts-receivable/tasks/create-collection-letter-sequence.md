@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-collection-letter-sequence"></a>Создание последовательности писем-напоминаний
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Используйте это руководство по задаче для создания последовательности писем-напоминаний. В этой задаче используется демонстрационная компания USMF.
 

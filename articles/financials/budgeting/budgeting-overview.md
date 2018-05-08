@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-home-page"></a>Домашняя страница бюджетирования
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой теме представлен обзор компонентов функциональности бюджетирования, инструментов бюджетирования и возможностей отчетности в Finance and Operations. 
 

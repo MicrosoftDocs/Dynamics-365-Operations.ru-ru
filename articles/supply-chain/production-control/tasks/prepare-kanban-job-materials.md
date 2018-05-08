@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>Подготовка обработки заданий канбана при наличии материалов для производственной ячейки
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой задаче особое внимание обращается на подготовку задания канбана обработки, когда для производственной ячейки имеются все материалы. В качестве компании с демонстрационными данными для создания этой задачи используется USMF. Эта задача предназначена для оператора.
 

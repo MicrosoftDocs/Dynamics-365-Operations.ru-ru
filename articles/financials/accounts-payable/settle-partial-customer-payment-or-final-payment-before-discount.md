@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Сопоставление частичного платежа клиента и окончательного платежа полностью до даты скидки
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье приведены сценарии, которые показывают, как записывать частичные платежи для клиента и использовать скидки по оплате в период скидки по оплате.
 

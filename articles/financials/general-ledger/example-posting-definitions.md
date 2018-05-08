@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="posting-definition-examples"></a>Примеры определений разноски
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье приводятся примеры, которые показывают, как используются определения разноски для бюджетных обязательств по заказу на покупку и ассигнований бюджета.
 

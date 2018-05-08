@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-subcontracting-work-in-production"></a>Управление субподрядной работой в производстве
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе объясняется, как в Microsoft Dynamics 365 for Finance and Operations осуществляется управление субподрядными операциями. Другими словами, в нем объясняется, как производственные операций, которые распределены ресурсу, управляются поставщиком.
 

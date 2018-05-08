@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-and-sourcing-home-page"></a>Домашняя страница модуля "Закупки и источники"
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой теме представлен список разделов справки и другие ресурсы, доступные для модуля "Закупки и источники".
 

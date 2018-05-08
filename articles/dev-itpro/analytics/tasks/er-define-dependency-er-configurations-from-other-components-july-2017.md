@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components"></a>Определение зависимости конфигураций от других компонентов 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Чтобы выполнить следующие действия, необходимо сначала выполнить действия в проводнике по задаче "Электронная отчетность — Управление конфигурациями сопоставлений модели", а также иметь доступ к Microsoft Dynamics Lifecycle Services (LCS).
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-hierarchies"></a>Иерархии розничной торговли
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 В этой статье описываются иерархии розничной торговли в Microsoft Dynamics 365 for Retail.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="backflush-costing"></a>Backflush-расчет себестоимости
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе рассматривается понятие backflush-расчета себестоимости, используемого для бережливого производства. 
 

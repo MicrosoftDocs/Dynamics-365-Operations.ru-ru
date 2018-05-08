@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a>Использование шаблона записи для создания новой записи
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как использовать ранее определенный шаблон записи для создания новой записи. Чтобы выполнить эту процедуру, сначала необходимо выполнить процедуру "Создание шаблона записи для облегчения ввода данных".
 

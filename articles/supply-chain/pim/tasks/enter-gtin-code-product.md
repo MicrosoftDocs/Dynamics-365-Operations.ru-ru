@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>Ввод кода GTIN для продукта
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Коды GTIN назначаются организацией GS1. В этом примере вы введете код для номера продукта M0001 в демонстрационных данных компании USMF.
 

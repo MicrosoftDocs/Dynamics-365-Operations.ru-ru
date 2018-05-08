@@ -27,7 +27,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Сканирование штрих-кодов с помощью камеры в Dynamics 365 for Finance and Operations – Warehousing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе объясняется, как настроить Dynamics 365 for Finance and Operations – Warehousing для сканирования штрих-кодов с помощью камеры мобильного устройства. 
 

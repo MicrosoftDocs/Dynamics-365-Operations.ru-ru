@@ -28,7 +28,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="set-up-training-courses"></a>Настройка курсов обучения
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Администраторы и менеджеры по управлению персоналом могут использовать характеристики курсов для ведения информации об обучении, которое предложено работникам.
 

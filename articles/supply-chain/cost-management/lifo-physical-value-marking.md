@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-with-physical-value-and-marking"></a>Модель ЛИФО с физической стоимостью и маркировкой
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Метод ЛИФО - это складская модель, в которой последние (самые новые) приходы расходуются первыми. Расходы из запасов сопоставляются с последними приходами в запасах на дату складской проводки. 
 

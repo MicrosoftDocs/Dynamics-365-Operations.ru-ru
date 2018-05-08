@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-registers"></a>Создание и связывание регистраторов
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как создать регистр POS. В этой процедуре используется компания с демонстрационными данными USRT.
 

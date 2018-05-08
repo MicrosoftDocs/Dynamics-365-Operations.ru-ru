@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Регистрация номенклатур для расширенных складских процессов с использованием журнала прихода номенклатуры
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как зарегистрировать номенклатуры с помощью журнала прибытия номенклатур при расширенного управления складами. Обычно эту задачу выполняет сотрудник, ответственный за приемку. 
 

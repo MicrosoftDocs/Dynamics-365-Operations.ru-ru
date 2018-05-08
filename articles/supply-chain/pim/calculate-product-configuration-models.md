@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="calculations-for-product-configuration-models-faq"></a>Часто задаваемые вопросы по расчетам моделей конфигураций продуктов
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе описываются расчеты для моделей конфигурации продуктов и объясняется, как использовать расчеты вместе с ограничениями.
 

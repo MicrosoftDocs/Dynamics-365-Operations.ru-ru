@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="project-management-and-accounting"></a>Управление и учет по проектам
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Функции управления проектом и учета можно использовать в нескольких отраслях, чтобы обеспечить услуги, произвести продукт, или достичь результата.  
 

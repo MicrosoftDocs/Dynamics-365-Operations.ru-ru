@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>Настройка анализа RFM
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как настроить анализ RFM (новизна, частота и денежные средства) клиентов.
 

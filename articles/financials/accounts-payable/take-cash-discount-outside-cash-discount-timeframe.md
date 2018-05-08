@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Принимать скидку по оплате вне периода скидки по оплате
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье приводятся два сценария, которые показывают, как можно использовать скидку по оплате, даже если платеж осуществляется вне периода скидки по оплате.
 

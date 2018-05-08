@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-continuity-schedules"></a>Определение планов непрерывности
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 В этом разделе выполняется пошаговая настройка программы непрерывности (также называемой повторяющимися заказами). В этом разделе в демонстрационных данных используется компания USRT.
 

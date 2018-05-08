@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-depreciation-books"></a>Настройка журналов амортизации 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этом руководстве по задаче будет создан новый журнал амортизации и связан с группой основных средств.  В нем используется роль бухгалтера и демонстрационные данные для юридического лица USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Изменение прогноза спроса вручную
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как внести изменения в прогноз для номенклатуры. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта запись предназначена для планировщика производства. 
 

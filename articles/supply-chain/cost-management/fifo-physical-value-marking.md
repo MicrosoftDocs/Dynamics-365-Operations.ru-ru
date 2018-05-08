@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fifo-with-physical-value-and-marking"></a>Модель ФИФО с физической стоимостью и маркировкой
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 ФИФО является складской моделью, в которой полученные первыми поступления выдаются первыми. Финансово обновленные расходы из запасов сопоставляются с первыми финансово обновленными приходами в запасы на основе финансовой даты проводки по запасам. 
 

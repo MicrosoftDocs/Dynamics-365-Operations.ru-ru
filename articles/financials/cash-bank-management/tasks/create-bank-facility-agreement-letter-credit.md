@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Создание договора о банковских услугах для аккредитива
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой задаче представлен процесс создания договора о банковских услугах для обработки аккредитива. До выполнения этой задачи необходимо настроить банковские услуги и профили разноски.  В данной задаче используется демонстрационная компания USMF.  
 

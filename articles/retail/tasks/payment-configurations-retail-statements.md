@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="payment-configurations-for-retail-statements"></a>Конфигурации платежей для журналов операций розничной торговли
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Эта процедура демонстрирует конфигурации способов оплаты в розничном магазине, которые влияют на то, как создаются и разносятся журналы операций розницы.
 

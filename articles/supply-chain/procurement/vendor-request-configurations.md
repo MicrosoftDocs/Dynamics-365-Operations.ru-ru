@@ -25,7 +25,7 @@ ms.lasthandoff: 02/08/2018
 ---
 
 # <a name="vendor-request-configurations"></a>Конфигурации запросов поставщика
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Для выполнения запроса поставщика контактное лицо поставщика должно заполнить мастер регистрации потенциального поставщика.
 

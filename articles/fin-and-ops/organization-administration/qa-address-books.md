@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="address-books-faq"></a>Вопросы и ответы по адресным книгам
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <a name="how-do-i-check-for-duplicate-records"></a>Как проверить дублирующие записи?
 -------------------------------------

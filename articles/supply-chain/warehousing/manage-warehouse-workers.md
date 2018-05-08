@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="manage-warehouse-workers"></a>Управление работниками склада
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье рассматривается использование Microsoft Dynamics 365 for Finance and Operations для контроля и мониторинга работы, выполняемой сотрудниками на складах.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a>Отображение страниц рядом друг с другом с помощью значка "Открыть в новом окне"
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья описывает способ отображения страницы в двухколоночном формате в Microsoft Dynamics 365 for Finance and Operations.
 

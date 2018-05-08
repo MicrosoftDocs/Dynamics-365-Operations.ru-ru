@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-retail-products"></a>Настройка розничных продуктов
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 В этой статье описывается, как настроить розничные продукты в Microsoft Dynamics 365 for Retail.
 

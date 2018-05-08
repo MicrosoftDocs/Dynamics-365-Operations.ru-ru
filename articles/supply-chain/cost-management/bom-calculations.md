@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations"></a>Расчеты BOM
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Расчеты свертки затрат и цены продажи называются расчетами спецификации, и они инициируются со страницы «Расчеты». В этой теме представлены сведения о расчетах BOM.
 

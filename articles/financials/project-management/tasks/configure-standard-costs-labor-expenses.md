@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Настройка стандартной стоимости труда и расходов
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как настроить стандартные затраты на труд и расходы по проекту. В этой задаче используется набор данных компании USSI.
 

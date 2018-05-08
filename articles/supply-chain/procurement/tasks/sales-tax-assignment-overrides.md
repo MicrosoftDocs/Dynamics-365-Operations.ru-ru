@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>Назначение и переопределения налога
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как назначить налоговые группы каналам розничной торговли. В ней также представлен процесс создания нового переопределения налога и его назначения существующей группе переопределений налога. В этой процедуре
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>Назначение шаблона накладной с произвольным текстом клиенту
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой задаче показано, как назначить шаблон накладной с произвольным текстом клиенту. В этой задаче используется демонстрационная компания USMF и задача предназначена для пользователя, ответственного за обработку накладных расчетов с клиентами и управление ими.
 

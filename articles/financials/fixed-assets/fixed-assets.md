@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-assets-home-page"></a>Домашняя страница основных средств
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Основные средства — это находящиеся в собственности человека или организации здания, транспортные средства, земля и оборудование. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Отказ, возобновление или сторнирование процентных сборов
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья описывает порядок, как отказаться, восстановить и реверсировать начисления для процентов и сборов.
 

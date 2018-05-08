@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="action-messages"></a>Сообщения по действию
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Сообщение по действию — это созданное системой предложение изменить существующий Спланированный или подтвержденный заказ.
 

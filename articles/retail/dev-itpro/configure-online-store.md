@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-online-store"></a>Настройка интернет-магазина
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье приводятся ссылки на разделы, которые помогут централизованно настраивать и управлять интернет-магазином.
 

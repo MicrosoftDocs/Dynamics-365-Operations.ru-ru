@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Распределение бюджета проекта или версии бюджета проекта по периодам
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
  После ввода бюджета проекта или версии бюджета проекта, но перед их отправкой на утверждение, можно распределять суммы по периодам. Если бюджет или версия бюджета отклонены, перед их повторной отправкой также можно распределить суммы. 
 

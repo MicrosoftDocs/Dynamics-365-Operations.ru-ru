@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Ведение шаблонов финансовой аналитики по умолчанию
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура показывает порядок настройки шаблонов финансовых аналитик по умолчанию. Шаблоны можно использовать, чтобы быстро распределить суммы по исходным документам.
 

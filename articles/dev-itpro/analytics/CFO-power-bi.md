@@ -25,7 +25,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="cfo-overview-power-bi-content"></a>Содержимое Power BI для обзора финансового директора
 
-[!INCLUDE [banner](../includes/banner.md)] 
+[!include [banner](../includes/banner.md)] 
 
 В этом разделе описывается содержимое Microsoft Power BI **Обзор финансового директора**. Это содержимое Power BI предназначено для пользователей Microsoft Dynamics 365 for Finance and Operations версии 7.2. Если используется версия 7.3 или новее, см. раздел [Финансовый анализ](financial-insights.md).
 

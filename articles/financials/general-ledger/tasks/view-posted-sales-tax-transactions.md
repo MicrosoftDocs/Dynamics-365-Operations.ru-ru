@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Просмотр разнесенных проводок налога
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Можно просмотреть разнесенные налоговые проводки на другой странице в зависимости от того, что необходимо просмотреть. В этой задаче используется демонстрационная компания USMF.
 

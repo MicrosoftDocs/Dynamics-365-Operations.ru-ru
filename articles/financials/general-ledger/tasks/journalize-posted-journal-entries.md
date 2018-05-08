@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="journalize-posted-journal-entries"></a>Учет учтенных записей журнала в субкниге
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура описывает, как выполнить журнализацию разнесенных записей в журнале. В этой процедуре используется компания с демонстрационными данными USMF.
 

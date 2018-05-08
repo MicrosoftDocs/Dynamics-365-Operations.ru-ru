@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Обзор поиска продукта и клиента на POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 В Modern Point of Sale (MPOS) и Cloud Point of Sale (CPOS) предусмотрена удобная функциональность поиска продуктов и клиентов. Поскольку панель поиска всегда присутствует в верхней части окон MPOS и CPOS, чтобы сотрудники могли быстро искать продукты и клиентов.
 

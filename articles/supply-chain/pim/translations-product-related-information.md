@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>Вопросы и ответы по переводам, связанным с продуктом
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе описывается, как управлять переводами для продуктов, значений аналитик продуктов и атрибутов продуктов. 
 

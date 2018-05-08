@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-schedule-for-a-site"></a>Создание графика для сайта
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как запланировать производственные заказы, которые еще не начаты для сайта.  Для выполнения этой процедуры используется компания с демонстрационными данными USMF.
 

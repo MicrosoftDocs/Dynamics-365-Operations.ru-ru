@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>Создание бюджета из счетов проводки и итоговых счетов
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья содержит обзор процесса для создания бюджетов на основе итоговых счетов. Она также описывает, как включить бюджетный контроль для итоговых счетов, если бюджетный контроль требуется.
 

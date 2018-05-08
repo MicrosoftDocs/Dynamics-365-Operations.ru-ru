@@ -27,7 +27,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="compensation-and-benefits-power-bi-content"></a>Содержимое компенсации и льгот Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе рассматривается содержимое Finance and Operations — компенсации и льготы Power BI. 
 

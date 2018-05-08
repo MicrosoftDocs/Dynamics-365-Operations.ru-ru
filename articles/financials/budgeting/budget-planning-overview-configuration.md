@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="budget-planning-overview"></a>Обзор планирования бюджета
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье приводится обзор бюджетного планирования и сведения о конфигурации бюджетного планирования и настройке процессов бюджетного планирования.
 

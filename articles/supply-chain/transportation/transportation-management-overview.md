@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="transportation-management-overview"></a>Обзор управления транспортировкой
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе представлен обзор функций управления транспортировкой в Microsoft Dynamics 365 for Finance and Operations.
 

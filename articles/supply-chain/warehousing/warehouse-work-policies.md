@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="warehouse-work-policies"></a>Политики работы склада
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Политики работы склада в Microsoft Dynamics 365 for Finance and Operations определяют, создается ли работа склада складскими процессами в производстве, исходя из типа заказа на выполнение работ, местонахождения запасов и продукта.
 

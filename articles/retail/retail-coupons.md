@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-coupons-for-retail-sales"></a>Создание купонов для розничных продаж
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>О купонах
 

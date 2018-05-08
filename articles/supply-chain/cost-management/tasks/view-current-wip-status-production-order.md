@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>Просмотр текущего статуса НЗП по производственному заказу
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Следующая процедура показывает просмотр отчета по НЗП конкретного производственного заказа. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для контролера затрат.
 

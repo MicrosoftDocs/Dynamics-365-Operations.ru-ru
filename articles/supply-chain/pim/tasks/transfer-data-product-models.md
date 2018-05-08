@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-data-for-product-models"></a>Передача данных для моделей продукта
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Для экспорта данных для модели конфигурации продукта требуется наличие по крайней мере одной модели продукта. Эта процедура использует модель динамика класса Hi-End в демонстрационной компании USMF, чтобы описать экспорт данных для этой модели.
 

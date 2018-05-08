@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a>Создание и назначение политик распределения затрат единицам управления затратами
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура используется для создания политики распределения затрат с соответствующими правилами и ее назначения единице управления затратами. В этой записи используется компания с демонстрационными данными USP2.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-online-channels-and-define-channel-attributes"></a>Создание каналов продаж через Интернет и определение атрибутов каналов
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Эта процедура содержит указания по созданию нового канала и его добавлению в организационную иерархию. Необходимо создать организационную иерархию перед созданием нового интернет-канала. В этой процедуре используется компания с демонстрационными данными USRT.
 

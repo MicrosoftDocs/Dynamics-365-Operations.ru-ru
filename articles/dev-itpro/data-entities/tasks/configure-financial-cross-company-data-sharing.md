@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-financial-cross-company-data-sharing"></a>Настройка совместного использования финансовых данных компаниями
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре описывается, как настроить, включить, проверить и разрешить конфликты при обмене данными между компаниями. В ней используется компания с демонстрационными данными USMF и шаблон публикации финансовых данных.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>Разработка конфигурации для импорта данных из внешнего файла в формате CSV (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Используйте эту процедуру для разработка конфигураций электронной отчетности (ER) для импорта данных в приложение Dynamics 365 for Finance and Operations из внешнего файла в формате CSV. В этой процедуре вам предстоит создать необходимые конфигурации ER для примера компании Litware, Inc. Чтобы выполнить следующие шаги, вам необходимо выполнить шаги в процедуре "Электронная отчетность — Создание поставщика конфигурации и пометка его как активного". 
 

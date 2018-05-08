@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Запуск средства перемещения тестовых данных (бета-версия) для Dynamics AX (AX 2012)
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 С помощью быстрого импорта/экспорта можно импортировать и экспортировать, выполняя меньшее число шагов.
 

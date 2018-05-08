@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreement-groups"></a>Создание групп соглашений на обслуживание 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Группы соглашений о сервисном обслуживании целесообразно использовать для сортировки и фильтрации соглашений о сервисном обслуживании.
 

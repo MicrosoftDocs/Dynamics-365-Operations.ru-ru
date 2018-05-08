@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-advanced-rules-for-journals"></a>Создание расширенных правил для журналов
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура описывает создание дополнительных правил для журналов. Сюда входят настройка управления журналом и ограничения разноски по пользователю. В этой процедуре используется компания с демонстрационными данными USMF.
 

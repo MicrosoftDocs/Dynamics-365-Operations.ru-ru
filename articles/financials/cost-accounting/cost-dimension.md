@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-dimensions-and-import-dimension-members"></a>Создание аналитик и импорт элементов аналитик
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Учет затрат — это независимый модуль, для работы которого требуются данные из других модулей. Эти данные подразделяется на следующие:
 

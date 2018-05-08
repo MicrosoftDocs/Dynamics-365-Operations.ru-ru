@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a>Выполнение самообслуживания для загрузки станции оборудования
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Эта процедура содержит инструкции по загрузке ранее определенной станции оборудования. В качестве компании с демонстрационными данными в процедуре используется USRT. Перед началом этой задачи необходимо создать новый профиль станции оборудования и станцию оборудования.
 

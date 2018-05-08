@@ -29,9 +29,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Взвешенное среднее с физической стоимостью и маркировкой
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Средневзвешенная стоимость - это складская модель, действующая на основании принципа средневзвешенного значения, когда запасы на складе оцениваются по средней стоимости продукции, поступившей на склад до конца отчетного периода, плюс запасы, имеющиеся в наличии с предыдущего периода.
 

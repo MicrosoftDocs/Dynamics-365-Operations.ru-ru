@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="organization-administration-home-page"></a>Домашняя страница управления организацией
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой теме перечислены материалы, которые пригодятся опытным пользователям и администраторам при настройке Microsoft Dynamics 365 for Finance and Operations. Эти материалы помогут им настроить систему для бесперебойной и эффективной работы на благо организации и бизнеса.
 

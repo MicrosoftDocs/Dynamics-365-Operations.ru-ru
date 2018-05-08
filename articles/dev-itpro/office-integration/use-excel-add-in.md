@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="use-the-excel-add-in"></a>Использование надстройки Excel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе объясняется, как открыть данные объекта в Microsoft Excel, и затем просматривать, обновлять и изменять эти данные с помощью надстройки Microsoft Dynamics Office для Excel. Чтобы открыть данные объекта, можно начать из Excel или из Microsoft Dynamics 365 for Finance and Operations.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Классификация продукта с помощью иерархии категорий
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Используйте иерархии категорий для классификации продуктов для экспорта, покупки, продажи или других целей. Обычно эта задача выполняется менеджером продуктов. В этом примере используется номер продукта M0009 в демонстрационных данных компании USMF.
 

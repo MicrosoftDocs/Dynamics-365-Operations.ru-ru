@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Публикация строк журналов и документов из Excel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе объясняется, как вводить и публиковать строки для финансовых журналов из Microsoft Excel. Сюда входят сведения о различных шаблонах, которые можно использовать в зависимости от типа вводимых проводок.
 

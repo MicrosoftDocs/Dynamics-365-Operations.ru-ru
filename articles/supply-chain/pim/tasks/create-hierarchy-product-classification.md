@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Создание иерархии классификации продуктов
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как создать новую иерархию категорий и назначить тип иерархии "товарный код". В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для менеджера категорий.
 
