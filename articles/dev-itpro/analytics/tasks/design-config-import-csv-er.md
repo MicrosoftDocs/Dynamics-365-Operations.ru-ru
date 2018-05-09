@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0859eb7bf461f61396c34f4bcd89537260a536a0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f80b9824e005ccca5beb8577576781d00a43d7b3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a><span data-ttu-id="e0cb9-103">Разработка конфигурации для импорта данных из внешнего файла в формате CSV (ER)</span><span class="sxs-lookup"><span data-stu-id="e0cb9-103">Design a configuration to import data from an external file in CSV format (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e0cb9-104">Используйте эту процедуру для разработка конфигураций электронной отчетности (ER) для импорта данных в приложение Dynamics 365 for Finance and Operations из внешнего файла в формате CSV.</span><span class="sxs-lookup"><span data-stu-id="e0cb9-104">Use this procedure to design Electronic reporting (ER) configurations to import data in to the Dynamics 365 for Finance and Operations application from an external file in CSV format.</span></span> <span data-ttu-id="e0cb9-105">В этой процедуре вам предстоит создать необходимые конфигурации ER для примера компании Litware, Inc. Чтобы выполнить следующие шаги, вам необходимо выполнить шаги в процедуре "Электронная отчетность — Создание поставщика конфигурации и пометка его как активного".</span><span class="sxs-lookup"><span data-stu-id="e0cb9-105">In this procedure, you will create the required ER configurations for the sample company, Litware, Inc. To complete these steps, you must first complete the steps in the procedure, “ER Create a configuration provider and mark it as active.”</span></span> 
 

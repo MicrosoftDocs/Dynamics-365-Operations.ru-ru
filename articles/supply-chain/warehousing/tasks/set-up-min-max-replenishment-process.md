@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 30bff74da8399ddc15f2bc84e83887c8b5e60570
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 09a5bbe7601248fd2635fda4a0d87973a6e1ceba
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a><span data-ttu-id="dc2bb-103">Настройка процесса пополнения "Мин./Макс."</span><span class="sxs-lookup"><span data-stu-id="dc2bb-103">Set up a min-max replenishment process</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dc2bb-104">В этой процедуре показано, как настроить новый процесс пополнения, использующий стратегию пополнения "Мин./Макс.".</span><span class="sxs-lookup"><span data-stu-id="dc2bb-104">This procedure shows you how to set up a new replenishment process which uses the minimum/maximum replenishment strategy.</span></span> <span data-ttu-id="dc2bb-105">Когда уровень запасов опускается ниже минимального, создается работа для пополнения местонахождения.</span><span class="sxs-lookup"><span data-stu-id="dc2bb-105">When inventory falls below the minimum level, work will be created to replenish the location.</span></span> <span data-ttu-id="dc2bb-106">В этой процедуре также показано, как использовать фиксированные ячейки комплектации, чтобы разрешить пополнение запасов, даже если уровень запасов ниже минимального, и как выполнять процесс пополнения регулярно, используя пакетное задание.</span><span class="sxs-lookup"><span data-stu-id="dc2bb-106">The procedure also shows how to use fixed picking locations to allow restocking even if inventory falls below the minimum level, and how to enable the replenishment process to run regularly using a batch job.</span></span> <span data-ttu-id="dc2bb-107">Эти задачи обычно выполняются менеджером склада.</span><span class="sxs-lookup"><span data-stu-id="dc2bb-107">These tasks would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="dc2bb-108">Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF и примеры значений в примечаниях либо собственные данные.</span><span class="sxs-lookup"><span data-stu-id="dc2bb-108">You can run this procedure in the USMF demo data company using the example values in the notes, or can run it on your own data.</span></span> <span data-ttu-id="dc2bb-109">При использовании собственных данных убедитесь, что для процессов управления складом включен склад.</span><span class="sxs-lookup"><span data-stu-id="dc2bb-109">If you’re using your own data, make sure that you have a warehouse that’s enabled for Warehouse management processes.</span></span>
 

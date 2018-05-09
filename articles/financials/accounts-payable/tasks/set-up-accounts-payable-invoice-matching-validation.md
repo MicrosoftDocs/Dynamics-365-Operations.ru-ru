@@ -16,16 +16,16 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6cc5c5b8dc60e3807a535b0d40e68200fb4da165
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c0edefb59e656222f08e5db889252a84e40b9839
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a><span data-ttu-id="e4cc5-103">Настройка проверки сопоставления накладных в модуле расчетов с поставщиками</span><span class="sxs-lookup"><span data-stu-id="e4cc5-103">Set up accounts payable invoice matching validation</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e4cc5-104">В данной записи используется демонстрационная компания USMF.</span><span class="sxs-lookup"><span data-stu-id="e4cc5-104">This recording uses the USMF demo company.</span></span> <span data-ttu-id="e4cc5-105">Эти шаги выполняются ролями менеджера по расчету с поставщиками или главного бухгалтера.</span><span class="sxs-lookup"><span data-stu-id="e4cc5-105">The accounts payable manager or accounting manager role would perform these steps.</span></span> <span data-ttu-id="e4cc5-106">Перед началом работы убедитесь, что выбран конфигурационный ключ "Сопоставление накладных".</span><span class="sxs-lookup"><span data-stu-id="e4cc5-106">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> <span data-ttu-id="e4cc5-107">Если ваше юридическое лицо отслеживает расходы, такие как расходы на поставку, убедитесь, что выбран конфигурационный ключ "Накладные расходы".</span><span class="sxs-lookup"><span data-stu-id="e4cc5-107">If your legal entity tracks expenses, such as freight, by using charges, make sure that the Charges configuration key is selected.</span></span>  <span data-ttu-id="e4cc5-108">Сопоставление накладных по расчетам с поставщиками – это процесс сопоставления информации в накладной поставщика, заказе на покупку и сведений о поступлении продуктов.</span><span class="sxs-lookup"><span data-stu-id="e4cc5-108">Accounts payable invoice matching is the process of matching vendor invoice, purchase order, and product receipt information.</span></span> <span data-ttu-id="e4cc5-109">Отличия между этими документами называются несоответствиями.</span><span class="sxs-lookup"><span data-stu-id="e4cc5-109">Differences among these documents are called matching discrepancies.</span></span> <span data-ttu-id="e4cc5-110">Совпадающие несоответствия сравниваются с указанными допусками.</span><span class="sxs-lookup"><span data-stu-id="e4cc5-110">Matching discrepancies are compared with the tolerances that are specified.</span></span> <span data-ttu-id="e4cc5-111">Если несоответствие превышает допуск в виде процента или суммы, значки отклонения отображаются в формах "Накладная поставщика" и "Сведения о сопоставлении накладных".</span><span class="sxs-lookup"><span data-stu-id="e4cc5-111">If a matching discrepancy exceeds the tolerance percentage or amount, match variance icons are displayed in the Vendor invoice form and in the Invoice matching details form.</span></span>
 

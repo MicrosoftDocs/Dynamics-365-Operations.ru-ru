@@ -16,15 +16,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d5b7149551df33d439980ec4e04fa343749daa16
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3a42873cde84d67e1a4dd8c01f97b125b3a4f8cf
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a><span data-ttu-id="51590-103">Создание субподрядной производственной ячейки для бережливого производства</span><span class="sxs-lookup"><span data-stu-id="51590-103">Create a subcontracted work cell for lean manufacturing</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="51590-104">Для моделирования субподрядной работы для бережливого производства необходимо создать производственную ячейку, связанную с поставщиком, выполняющим работу.</span><span class="sxs-lookup"><span data-stu-id="51590-104">To model subcontracted work for lean manufacturing, you must create a work cell that is associated with the vendor that provides the work.</span></span> <span data-ttu-id="51590-105">Субподрядная производственная ячейка связывается с поставщиком посредством привязки ресурса типа "Поставщик".</span><span class="sxs-lookup"><span data-stu-id="51590-105">A subcontracted work cell is linked to the vendor through the association of a resource of the Vendor type.</span></span> <span data-ttu-id="51590-106">Если вы воспроизводите эту запись в демонстрационной компании USMF, вы можете выбрать код счет поставщика 1002 и сайт 1.</span><span class="sxs-lookup"><span data-stu-id="51590-106">If you play this recording in the USMF demo company, you can select vendor account ID 1002 and site 1.</span></span>
 

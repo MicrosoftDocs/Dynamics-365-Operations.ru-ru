@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2b07f9d971dc152e9168b9867e70c59481325284
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 70c7f7a9ca119abbfedf8e09e9994b2a904dc421
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-asset-management-workspace"></a><span data-ttu-id="3d274-105">Рабочая область управления основными средствами</span><span class="sxs-lookup"><span data-stu-id="3d274-105">Fixed asset management workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3d274-106">Рабочая область **Управление основными средствами** содержит сведения, относящиеся к основным средствам, которые вводятся в систему.</span><span class="sxs-lookup"><span data-stu-id="3d274-106">The **Fixed asset management** workspace shows information that is related to fixed assets that are entered in the system.</span></span> <span data-ttu-id="3d274-107">Эта рабочая область содержит представление сводки и представление аналитики.</span><span class="sxs-lookup"><span data-stu-id="3d274-107">This workspace includes a summary view and an analytics view.</span></span> <span data-ttu-id="3d274-108">На вкладке **Моя работа** отображаются плитки сводки, сведения об основных средствах и связанная информация об основных средствах в текущей компании.</span><span class="sxs-lookup"><span data-stu-id="3d274-108">The **My work** tab shows summary tiles, fixed asset details, and related information about fixed assets in the current company.</span></span> <span data-ttu-id="3d274-109">Также можно добавить аналитику в раздел аналитики Power BI непосредственно в рабочей области.</span><span class="sxs-lookup"><span data-stu-id="3d274-109">You can also add analytics to the Power BI analytics section directly in the workspace.</span></span> <span data-ttu-id="3d274-110">Вкладка **Аналитика — все компании** использует возможности Microsoft Power BI для показа визуальных элементов, которые относятся к основным средствам во всех компаниях.</span><span class="sxs-lookup"><span data-stu-id="3d274-110">The **Analytics – all companies** tab uses capabilities of Microsoft Power BI to show visuals that are related to fixed assets in all companies.</span></span>
 

@@ -16,16 +16,16 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ba174973cd730a8ddbde84c877acdee340deda8c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="data-import-and-export-jobs"></a><span data-ttu-id="08b8d-103">Задания импорта и экспорта данных</span><span class="sxs-lookup"><span data-stu-id="08b8d-103">Data import and export jobs</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="08b8d-104">Для создания заданий импорта и экспорта данных и управления ими в Microsoft Dynamics 365 for Finance and Operations служит рабочая область **Управление данными**.</span><span class="sxs-lookup"><span data-stu-id="08b8d-104">To create and manage data import and export jobs in Microsoft Dynamics 365 for Finance and Operations, you use the **Data management** workspace.</span></span> <span data-ttu-id="08b8d-105">По умолчанию процесс импорта и экспорта данных создает промежуточную таблицу для каждого объекта в целевой базе данных.</span><span class="sxs-lookup"><span data-stu-id="08b8d-105">By default, the data import and export process creates a staging table for each entity in the target database.</span></span> <span data-ttu-id="08b8d-106">Промежуточные таблицы позволяют проверить, очистить или преобразовать данные перед перемещением.</span><span class="sxs-lookup"><span data-stu-id="08b8d-106">Staging tables let you verify, clean up, or convert data before you move it.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 86d07f07bd15d8b2dbbc987027b2e6976001f554
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dbe22cd265b86ace30120547d3baee185d4ced9c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="split-a-fixed-asset"></a><span data-ttu-id="cc619-103">Разбивка ОС</span><span class="sxs-lookup"><span data-stu-id="cc619-103">Split a fixed asset</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cc619-104">В данном руководстве по задаче показано, как разделить процент одной модели стоимости основного средства в новую модель стоимости основного средства.</span><span class="sxs-lookup"><span data-stu-id="cc619-104">This task guide will split a percentage of one asset book to a new asset book.</span></span>  <span data-ttu-id="cc619-105">В нем используется роль бухгалтера и демонстрационные данные USMF.</span><span class="sxs-lookup"><span data-stu-id="cc619-105">It uses the Accountant role and USMF demo data.</span></span>
 

@@ -17,16 +17,16 @@ ms.author: v-kikozl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e05c73a434ed42eb91d0cf85bcc0bd5f03fd0bff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7486282d4fad1f9557d19f33b067242debc264f2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="invoice-processing"></a><span data-ttu-id="6ef53-103">Обработка накладных</span><span class="sxs-lookup"><span data-stu-id="6ef53-103">Invoice processing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6ef53-104">В этой теме кратко описаны некоторые сценарии, характерные для конкретных стран, такие как внутренний налог на добавленную стоимость (НДС) и отложенный налог.</span><span class="sxs-lookup"><span data-stu-id="6ef53-104">This topic briefly describes some country-specific scenarios, such as intra-community value-added tax (VAT) and deferred tax.</span></span> <span data-ttu-id="6ef53-105">Требования законодательства в некоторых странах Европы влияют на процесс обработки накладных.</span><span class="sxs-lookup"><span data-stu-id="6ef53-105">Legal requirements for some European countries affect the invoicing process.</span></span> <span data-ttu-id="6ef53-106">В этой теме также приводятся сведения о том, как в этих странах происходит обработка накладных клиента и накладных поставщика.</span><span class="sxs-lookup"><span data-stu-id="6ef53-106">This topic provides also an information about how customer and vendor invoices are processed for these countries.</span></span> 
 <table>

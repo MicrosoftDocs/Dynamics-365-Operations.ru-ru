@@ -20,16 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe8dd3136f14e182e261a4dce57eef0b1946d304
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 20fc9da6ce977845c32c91b9bddd9aebc69e2622
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="payment-methods-in-a-call-center"></a><span data-ttu-id="e09a4-103">Методы оплаты в центре обработки вызовов</span><span class="sxs-lookup"><span data-stu-id="e09a4-103">Payment methods in a call center</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="e09a4-104">В Microsoft Dynamics 365 for Retail конфигурация канала центра обработки вызов включает параметр, который называется **Включить заполнение заказа**.</span><span class="sxs-lookup"><span data-stu-id="e09a4-104">In Microsoft Dynamics 365 for Retail, the configuration of the call center channel includes a setting that is named **Enable order completion**.</span></span> <span data-ttu-id="e09a4-105">Этот параметр помогает гарантировать, что все заказы, которые создает пользователь канала, выпускаются для обработки заказов только в том случае, если они имеют предварительную оплату или заранее авторизованный платеж, который находится в утвержденных допусках.</span><span class="sxs-lookup"><span data-stu-id="e09a4-105">This setting helps guarantee that all orders that users of the channel create are released to order processing only if they have a prepaid or pre-authorized payment that is within approved tolerances.</span></span> <span data-ttu-id="e09a4-106">Если параметр **Включить заполнение заказа** включен, пользователи центра обработки вызовов могут вводить платежи по заказам на продажу для клиентов с помощью функций обработки платежей центра обработки вызовов.</span><span class="sxs-lookup"><span data-stu-id="e09a4-106">If the **Enable order completion** setting is turned on, call center users can enter payments against sales orders for customers by using the payment processing features of Call center.</span></span> <span data-ttu-id="e09a4-107">Если этот параметр отключен, пользователи центра обработки вызовов не могут использовать функции обработки платежей центра обработки вызовов, но они все равно могут применять предоплату к заказам на продажу с помощью стандартных функций модуля расчетов с клиентами.</span><span class="sxs-lookup"><span data-stu-id="e09a4-107">If the setting is turned off, call center users can't use the Call center payment processing features, but they can still apply prepayments to sales orders by using standard Accounts receivable functionality.</span></span>
 

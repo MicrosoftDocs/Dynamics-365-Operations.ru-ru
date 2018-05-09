@@ -19,16 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7c738d888b7177a26b28438c820ce18312947318
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 878297b8207b78e7b77c6db5e75f7dabe6c56c96
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-and-sourcing-overview"></a><span data-ttu-id="6f332-103">Обзор модуля "Закупки и источники"</span><span class="sxs-lookup"><span data-stu-id="6f332-103">Procurement and sourcing overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6f332-104">В этой статье содержится обзор функциональных возможностей, доступных в модуле " Закупки и источники".</span><span class="sxs-lookup"><span data-stu-id="6f332-104">This article gives an overview of the functionality that's available in the Procurement and sourcing module.</span></span>
 

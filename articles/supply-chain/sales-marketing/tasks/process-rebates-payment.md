@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a6eb7fd5a44d5e4fb81f5939d820e429ff131246
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b2d97a59ae782af0a3d5ab71903961ef244a8e62
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="process-rebates-for-payment"></a><span data-ttu-id="8e44b-103">Обработка ретробонусов для оплаты</span><span class="sxs-lookup"><span data-stu-id="8e44b-103">Process rebates for payment</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8e44b-104">В этой процедуре демонстрируется, как преобразовывать утвержденные и обработанные ретробонусы клиентов в кредит-ноты.</span><span class="sxs-lookup"><span data-stu-id="8e44b-104">This procedure demonstrates how to convert approved and processed customer rebates to credit notes.</span></span> <span data-ttu-id="8e44b-105">Это руководство можно выполнить в компании демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="8e44b-105">You can use this guide in the USMF demo company.</span></span> <span data-ttu-id="8e44b-106">Необходимым условием для этого руководства является наличие одного или нескольких требований по ретробонусам со статусом "Пометка".</span><span class="sxs-lookup"><span data-stu-id="8e44b-106">The precondition for this guide is to have one or more rebate claims which have a status of Mark.</span></span> <span data-ttu-id="8e44b-107">При использовании компании USMF необходимо выполнить руководство "Создание и обработка ретробонусов клиента", прежде чем приступать к этому руководству.</span><span class="sxs-lookup"><span data-stu-id="8e44b-107">If you’re using USMF you should run the "Generate and process customer rebates" guide before you start this guide.</span></span>
 

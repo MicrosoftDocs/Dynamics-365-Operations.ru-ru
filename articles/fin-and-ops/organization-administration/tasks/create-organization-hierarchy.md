@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2deec5470eef68f18042bb789e3760189caffdeb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 40efd239a4d86c0b1d07b02bba5158dabe7b3078
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-an-organization-hierarchy"></a><span data-ttu-id="a27c0-103">Создание организационной иерархии</span><span class="sxs-lookup"><span data-stu-id="a27c0-103">Create an organization hierarchy</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a27c0-104">Следующая процедура используется для создания организационной иерархии.</span><span class="sxs-lookup"><span data-stu-id="a27c0-104">Use the following procedure to create an organizational hierarchy.</span></span> <span data-ttu-id="a27c0-105">Организационные иерархии служат для просмотра сведений и составления отчетов о бизнесе с разных точек зрения.</span><span class="sxs-lookup"><span data-stu-id="a27c0-105">You can use organizational hierarchies to view and report on your business from various perspectives.</span></span> <span data-ttu-id="a27c0-106">Например, можно настроить одну иерархию для налоговой, юридической или правовой отчетности.</span><span class="sxs-lookup"><span data-stu-id="a27c0-106">For example, you can set up one hierarchy for tax, legal, or statutory reporting.</span></span> <span data-ttu-id="a27c0-107">И можно настроить другую иерархию, чтобы составлять отчеты с использованием финансовой информации, которая не является юридически обязательной, но используется для целей внутренней отчетности.</span><span class="sxs-lookup"><span data-stu-id="a27c0-107">You can then set up another hierarchy to report financial information that is not legally required, but that is used for internal reporting.</span></span> 
 

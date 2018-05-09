@@ -19,16 +19,16 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 65501866f0c465f40de842c5f612aae9349db7be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: adbae0254b1f5b61c889bfcae3fffdea3b478dad
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="import-and-maintain-credit-card-transactions"></a><span data-ttu-id="b4e67-104">Импорт и ведение проводок по кредитным картам</span><span class="sxs-lookup"><span data-stu-id="b4e67-104">Import and maintain credit card transactions</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b4e67-105">Связанные с расходами проводки по кредитным картам можно настроить так, чтобы они автоматически импортировались по графику.</span><span class="sxs-lookup"><span data-stu-id="b4e67-105">Expense-related credit card transactions can be set up so that they are automatically imported on a recurring schedule.</span></span> <span data-ttu-id="b4e67-106">Кроме того, проводки можно импортировать вручную по мере необходимости.</span><span class="sxs-lookup"><span data-stu-id="b4e67-106">Alternatively, the transactions can be manually imported as they are required.</span></span> <span data-ttu-id="b4e67-107">Проводки по кредитным картам импортируются посредством информационного объекта "Проводки кредитной карты".</span><span class="sxs-lookup"><span data-stu-id="b4e67-107">The credit card transactions are imported through the Credit card transactions data entity.</span></span>
 

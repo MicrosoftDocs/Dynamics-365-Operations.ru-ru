@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2ed898877e2972799cdd361d7fedbe7bc19d4b6a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7cd9753cef26a0d85c591f157986c30352702fa0
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-new-jobs"></a><span data-ttu-id="3dccd-103">Определение новых заданий</span><span class="sxs-lookup"><span data-stu-id="3dccd-103">Define new jobs</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3dccd-104">Эта задача рассматривает создание нового задания.</span><span class="sxs-lookup"><span data-stu-id="3dccd-104">This task focuses on the creation of a new job.</span></span> <span data-ttu-id="3dccd-105">Она будет выполнена с помощью ввода вручную и копирования из функциональных возможностей шаблонов.</span><span class="sxs-lookup"><span data-stu-id="3dccd-105">It will be completed using manual entry and copy from template functionality.</span></span> <span data-ttu-id="3dccd-106">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="3dccd-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="3dccd-107">Эта задача предназначена для специалиста по управлению персоналом.</span><span class="sxs-lookup"><span data-stu-id="3dccd-107">This task is intended for the human resources specialist.</span></span>
 

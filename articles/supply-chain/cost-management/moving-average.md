@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8ac8ebede5c333835b0974843a69e70e51028117
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 05ac3b28c4d0806f71f1e0cb069c0d48137a4332
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="moving-average"></a><span data-ttu-id="c6867-105">Скользящее среднее</span><span class="sxs-lookup"><span data-stu-id="c6867-105">Moving average</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c6867-106">Скользящее среднее является методом непрерывного расчета себестоимости, основанным на принципе среднего значения, где стоимость расходов запасов не меняется, когда меняется стоимость покупки.</span><span class="sxs-lookup"><span data-stu-id="c6867-106">Moving average is a perpetual costing method based on the average principle, where the costs on inventory issues do not change when the purchase cost does.</span></span> <span data-ttu-id="c6867-107">Разница капитализируются и основывается на пропорциональном расчете.</span><span class="sxs-lookup"><span data-stu-id="c6867-107">The difference is capitalized and is based on a proportional calculation.</span></span> <span data-ttu-id="c6867-108">Оставшаяся сумма списывается в расход.</span><span class="sxs-lookup"><span data-stu-id="c6867-108">The amount that remains is expensed.</span></span> 
 

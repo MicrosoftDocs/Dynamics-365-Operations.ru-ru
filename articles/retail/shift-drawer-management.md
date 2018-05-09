@@ -20,16 +20,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4b39fafb7fb51ee26bd45fb28ce4b505a91de813
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 92819d121f0822078413e058fad8f10905bb8a47
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="shift-and-cash-drawer-management"></a><span data-ttu-id="228e2-104">Управление сменами и кассовым лотком</span><span class="sxs-lookup"><span data-stu-id="228e2-104">Shift and cash drawer management</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="228e2-105">В этой статье объясняется, как настроить и использовать два типа смен POS розничной торговли — автономную и совместную.</span><span class="sxs-lookup"><span data-stu-id="228e2-105">This article explains how to set up and use the two types of retail point of sale (POS) shifts -  shared and stand-alone.</span></span> <span data-ttu-id="228e2-106">Совместные смены могут использоваться несколькими пользователями в нескольких местах, тогда как автономные смены одновременно могут использоваться только одним работником.</span><span class="sxs-lookup"><span data-stu-id="228e2-106">Shared shifts can be used by multiple users in multiple places, whereas stand-alone shifts can be used by only one worker at a time.</span></span>
 

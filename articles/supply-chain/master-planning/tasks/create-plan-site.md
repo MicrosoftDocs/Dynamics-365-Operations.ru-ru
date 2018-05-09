@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8c44579df2f844bcd4668a218df2ebdca37fa0cc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d123dac767a8985f6c1a5fef64a9814160f76a8d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-plan-for-a-site"></a><span data-ttu-id="a2033-103">Создание плана для сайта</span><span class="sxs-lookup"><span data-stu-id="a2033-103">Create a plan for a site</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a2033-104">Планировщик производства рассчитывает потребности в материалах и потребности в мощностях для производства конкретной номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="a2033-104">The production planner calculates the material and capacity requirements for the production of a specific item.</span></span> <span data-ttu-id="a2033-105">После создания исходных предложений он обнаруживает заказы на сайте, для которого он планирует и утверждает заказы, начиная со срочных.</span><span class="sxs-lookup"><span data-stu-id="a2033-105">After the sourcing suggestions are created, he finds the orders at the site for which he is planning and firms the orders, starting from the urgent ones.</span></span> <span data-ttu-id="a2033-106">Самые срочные заказы — это заказы, которые необходимо утвердить на текущую дату.</span><span class="sxs-lookup"><span data-stu-id="a2033-106">The most urgent orders are the ones that need to be firmed on the current date.</span></span> <span data-ttu-id="a2033-107">Для выполнения этих задач используйте компанию с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="a2033-107">Use the demo data company USMF to perform these tasks.</span></span>
 

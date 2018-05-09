@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 892b06210ca1af29c314edd68ccd656ead32d2ec
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 89f0a316699a2b3e244c1b47a259f2cda6c97bd2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a><span data-ttu-id="aa501-103">Создание метода оценки для запросов предложений</span><span class="sxs-lookup"><span data-stu-id="aa501-103">Create a scoring method for RFQs</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="aa501-104">Следующая процедура используется для создания метода оценки.</span><span class="sxs-lookup"><span data-stu-id="aa501-104">This procedure shows you how to create a scoring method.</span></span> <span data-ttu-id="aa501-105">Метод оценки — это набор критериев, которые можно использовать для сравнения предложений, отправляемых в ответ на запрос предложения.</span><span class="sxs-lookup"><span data-stu-id="aa501-105">A scoring method is a set of criteria that can be used to compare bids that are sent in reply to a request for quotation (RFQ).</span></span> <span data-ttu-id="aa501-106">Например, может потребоваться оценить поставщика по его производительности в прошлом, оценить, является ли деятельность компании безопасной для окружающей среды и насколько просто с ней сотрудничать, либо сравнить предложения на основе цены.</span><span class="sxs-lookup"><span data-stu-id="aa501-106">For example, you might want to rate a vendor on past performance, or rate whether the company is environmentally friendly or a good collaborator, or you might want to compare bids based on price.</span></span> <span data-ttu-id="aa501-107">Метод оценки можно связать с типом обращения как метод оценки по умолчанию для запросов предложения этого типа.</span><span class="sxs-lookup"><span data-stu-id="aa501-107">The scoring method can be associated with a solicitation type as the default scoring method for RFQs of that type.</span></span> <span data-ttu-id="aa501-108">Эти задачи обычно выполняются менеджером по закупкам.</span><span class="sxs-lookup"><span data-stu-id="aa501-108">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="aa501-109">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="aa501-109">You can use this procedure in demo data company USMF or on your own data.</span></span>
 

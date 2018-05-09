@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: afb045ba29ef720e6b1ec03511dc812be4e4c2de
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9edc4c3f19d7498614211a539bfe685cb0efcdf6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="d3370-103">Настройка информации о травмах и заболеваниях</span><span class="sxs-lookup"><span data-stu-id="d3370-103">Set up injury and illness information</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d3370-104">Работодателям необходимо знать о случаях травм или заболеваний работников в связи с источниками опасности на их рабочих местах.</span><span class="sxs-lookup"><span data-stu-id="d3370-104">Employers need to know when their employees suffer injuries or illness resulting from hazards in the workplace.</span></span> <span data-ttu-id="d3370-105">Страница "Травмы и заболевания" служит для настройки информации для отчетов по производственным травмам или заболеваниям.</span><span class="sxs-lookup"><span data-stu-id="d3370-105">You can use the injury and illness page to set up information that facilitates reporting work-place injuries or illnesses.</span></span> <span data-ttu-id="d3370-106">Вы можете настраивать типы травм и заболеваний, включая типы лечения, затраты и результаты.</span><span class="sxs-lookup"><span data-stu-id="d3370-106">You can set up types of injuries and illnesses, including types of treatments, costs, and outcomes.</span></span> <span data-ttu-id="d3370-107">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="d3370-107">The demo data company used to create this procedure is USMF.</span></span>
 

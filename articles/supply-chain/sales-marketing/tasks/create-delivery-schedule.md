@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 13add634e275a0156c2c0f87d1fec80385d62fea
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 407337d31e0aa68217a27a5709da16ddc7d6e4a1
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-delivery-schedule"></a><span data-ttu-id="988f0-103">Создание графика поставки</span><span class="sxs-lookup"><span data-stu-id="988f0-103">Create a delivery schedule</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="988f0-104">В этой процедуре показано, как создать график поставки для заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="988f0-104">This procedure demonstrates how to create a delivery schedule for a sales order.</span></span> <span data-ttu-id="988f0-105">График поставки используется, когда количество в заказе или предложении должно быть поставлено в нескольких отгрузках.</span><span class="sxs-lookup"><span data-stu-id="988f0-105">A delivery schedule is used when a quantity on an order or a quotation is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="988f0-106">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="988f0-106">You can run this procedure in demo data company USMF or on your own data.</span></span>
 

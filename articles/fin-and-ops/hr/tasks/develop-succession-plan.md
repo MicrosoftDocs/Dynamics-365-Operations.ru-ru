@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 006f3d4b30711651e389dd76f871de1214c158d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7c03cb914db83de1f3229e1b659eab02698e5e8a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="develop-a-succession-plan"></a><span data-ttu-id="71e87-103">Разработка плана преемственности</span><span class="sxs-lookup"><span data-stu-id="71e87-103">Develop a succession plan</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="71e87-104">По мере роста организации, если вы рассматриваете возможность планирования преемственности, может потребоваться найти лицо, обладающее похожими навыками с другим лицом.</span><span class="sxs-lookup"><span data-stu-id="71e87-104">As your organization grows, and you consider succession planning, you may want to find someone who has similar skills to another person.</span></span>  <span data-ttu-id="71e87-105">Модуль подбора персонала позволяет проанализировать существующих сотрудников и кандидатов, чтобы узнать, обладают ли они похожим набором навыков с ценным сотрудником.</span><span class="sxs-lookup"><span data-stu-id="71e87-105">Skill mapping allows you to analyze your existing employees and applicants to see if they match the skill set of a valued employee.</span></span> <span data-ttu-id="71e87-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="71e87-106">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1dbd81a18e8baacf91406b3ee3dcefae495242f9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f612836ea1756dee149db6310f4b3afe386c3222
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="generate-a-constrained-plan"></a><span data-ttu-id="3cd65-103">Создание плана с ограничениями</span><span class="sxs-lookup"><span data-stu-id="3cd65-103">Generate a constrained plan</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3cd65-104">Следующая процедура используется для создания плана, в котором учитываются ограничения по материалам и мощности.</span><span class="sxs-lookup"><span data-stu-id="3cd65-104">This procedure shows how to create a plan that takes into account both material and capacity constraints.</span></span> <span data-ttu-id="3cd65-105">План гарантирует, что производство не начнется, пока не будут доступны материалы, и что ресурсы не будут зарезервированы с превышением.</span><span class="sxs-lookup"><span data-stu-id="3cd65-105">The plan ensures that manufacturing doesn't start before materials are available and resources are not overbooked.</span></span> 
 

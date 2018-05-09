@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5839962a5a3be5d7836c74fc8476ceafa414d48c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30d91d2ffab74250b3a8a46d7b7c5441a94d8dfd
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a><span data-ttu-id="4ebb6-103">Настройка разрешений на заказ продуктов от имени другого сотрудника</span><span class="sxs-lookup"><span data-stu-id="4ebb6-103">Set up permissions for ordering products on behalf of someone else</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4ebb6-104">В этой процедуре показано, как предоставить работникам разрешение на подготовку заявок на покупку от имени других работников.</span><span class="sxs-lookup"><span data-stu-id="4ebb6-104">This procedure shows how to grant workers permission to prepare purchase requisitions on behalf of other workers.</span></span> <span data-ttu-id="4ebb6-105">Другими словами, "составитель" заявки на покупку может создать заявку для другого "инициатора запроса".</span><span class="sxs-lookup"><span data-stu-id="4ebb6-105">In other words, a purchase requisition “preparer” can create a requisition for another “requester.”</span></span> <span data-ttu-id="4ebb6-106">В этой процедуре показано, как предоставить работнику разрешение на заказ номенклатур и услуг в различных юридических лицах или операционных единицах.</span><span class="sxs-lookup"><span data-stu-id="4ebb6-106">The procedure also shows how to grant a worker permission to order items and services in different legal entities or operating units.</span></span> <span data-ttu-id="4ebb6-107">Обычно эти задачи выполняет менеджер по закупкам.</span><span class="sxs-lookup"><span data-stu-id="4ebb6-107">Typically, these tasks are performed by a purchasing manager.</span></span> <span data-ttu-id="4ebb6-108">Чтобы выполнить эту процедуру, можно использовать компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="4ebb6-108">You can use this procedure either on data for the USMF demo company or on your own data.</span></span>
 

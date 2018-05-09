@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c5f795f8d3c31c9acdbddd94879dbd427145956c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3b70bdf110a1bcf27a73dea3f593c6f6a4cbf5ea
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="30668-103">Создание правила канбана с помощью события минимального запаса</span><span class="sxs-lookup"><span data-stu-id="30668-103">Create a kanban rule using a minimum stock event</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="30668-104">Эта процедура рассматривает настройку, необходимую для создания правила канбана с помощью события минимального запаса, чтобы гарантировать, что определенный продукт всегда доступен в определенном местонахождении.</span><span class="sxs-lookup"><span data-stu-id="30668-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="30668-105">Правило канбана создается для перемещения материала в местонахождение, когда уровень запасов опускается ниже 200 шт.</span><span class="sxs-lookup"><span data-stu-id="30668-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="30668-106">В результате обработки события возникновения потребности создаются необходимые канбаны.</span><span class="sxs-lookup"><span data-stu-id="30668-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="30668-107">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="30668-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="30668-108">Эта задача предназначена для инженер-технолога или менеджера потока создания ценности, так как он подготавливает производство нового или измененного продукта в среде бережливого производства.</span><span class="sxs-lookup"><span data-stu-id="30668-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 

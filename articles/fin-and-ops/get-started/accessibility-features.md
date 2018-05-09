@@ -16,16 +16,16 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8f23791736d677027dc6e172b4ee322b73da3f57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 97e4f20871e36cf6d9665120428c90ca3b45dd13
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="accessibility-features"></a><span data-ttu-id="02ff0-103">Специальные возможности</span><span class="sxs-lookup"><span data-stu-id="02ff0-103">Accessibility features</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="02ff0-104">В этом разделе описывается функциональная возможность, призванная помочь пользователям с различными физическими нарушениями использовать Dynamics 365 for Finance and Operations, Dynamics 365 for Retail и Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="02ff0-104">This topic describes the functionality that is designed to help users who have various disabilities use Dynamics 365 for Finance and Operations, Dynamics 365 for Retail, and Dynamics 365 for Talent.</span></span> <span data-ttu-id="02ff0-105">Например, имеются возможности для людей, использующих вспомогательные технологии при нарушении зрения, такие как экранный диктор Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="02ff0-105">For example, there are features for people who use sight-assistive technologies such as Microsoft Windows Narrator.</span></span>
 

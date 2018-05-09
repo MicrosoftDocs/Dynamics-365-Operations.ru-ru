@@ -20,17 +20,17 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 40bcde0a43386cfd9e55d96e4a1cbc82b47e8494
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9846f66997090de0219f59b4ba33efa15694ce8d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a><span data-ttu-id="3b8d1-103">Подготовка к поддержке стандартных затрат по произведенной номенклатуре</span><span class="sxs-lookup"><span data-stu-id="3b8d1-103">Prepare to maintain standard costs for manufactured items</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3b8d1-104">В этом разделе описываются шаги для подготовки к ведению затрат для произведенных номенклатур.</span><span class="sxs-lookup"><span data-stu-id="3b8d1-104">This topic describes the steps for preparing to maintain costs for manufactured items.</span></span> <span data-ttu-id="3b8d1-105">Шаги для произведенных номенклатур немного отличаются от шагов для приобретенных номенклатур.</span><span class="sxs-lookup"><span data-stu-id="3b8d1-105">The steps for manufactured items differ slightly from the steps for purchased items.</span></span>
 

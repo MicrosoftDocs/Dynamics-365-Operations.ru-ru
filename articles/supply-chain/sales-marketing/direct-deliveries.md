@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5ea5b8bbc5c9f932179b48c1d6539c578f992254
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ab6abfd37e71cc52f929a33befb58154ad5b6d48
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="direct-deliveries"></a><span data-ttu-id="28c2d-104">Прямые поставки</span><span class="sxs-lookup"><span data-stu-id="28c2d-104">Direct deliveries</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="28c2d-105">В этой статье представлены сведения о прямых поставках.</span><span class="sxs-lookup"><span data-stu-id="28c2d-105">This article provides information about direct deliveries.</span></span> <span data-ttu-id="28c2d-106">Прямые поставки — это поставки, отправляемые напрямую от поставщика клиенту.</span><span class="sxs-lookup"><span data-stu-id="28c2d-106">Direct deliveries are deliveries that are sent directly from the vendor to your customer.</span></span>
 

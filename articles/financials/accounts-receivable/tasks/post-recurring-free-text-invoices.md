@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: be973f37273e09640a9df04c80eb554ca0721132
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f9f3fd3f25ba51cd04243de3dcef33475aaea5c6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a><span data-ttu-id="51a94-103">Формирование и разноска повторяющихся накладных с произвольным текстом</span><span class="sxs-lookup"><span data-stu-id="51a94-103">Generate and post recurring free text invoices</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="51a94-104">Периодические накладные используются для выставления счетов клиентам регулярно на одни и те же суммы.</span><span class="sxs-lookup"><span data-stu-id="51a94-104">Recurring invoices are used to invoice customers regularly for the same amount.</span></span> <span data-ttu-id="51a94-105">В данной записи используется демонстрационная компания USMF.</span><span class="sxs-lookup"><span data-stu-id="51a94-105">This recording uses the USMF demo company.</span></span> <span data-ttu-id="51a94-106">Запись предназначена для пользователя, ответственного за обработку накладных расчетов с клиентами и управление ими.</span><span class="sxs-lookup"><span data-stu-id="51a94-106">The recording is intended for the person responsible for managing and processing A/R invoices.</span></span>
 

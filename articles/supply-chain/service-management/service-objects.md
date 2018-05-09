@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0f7b63393085858c5ff4c64ebdf5d64b3c3ccdef
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 29d63357b11d6222646102e53d83f68ae75cb5bb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="service-objects"></a><span data-ttu-id="0eb08-103">Объекты обслуживания</span><span class="sxs-lookup"><span data-stu-id="0eb08-103">Service objects</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0eb08-104">Объекты сервисного обслуживания — это основные средства и продукты клиента, сервисное обслуживание которых вы можете выполнить.</span><span class="sxs-lookup"><span data-stu-id="0eb08-104">Service objects are a customer’s assets and products for which you can perform a service.</span></span> <span data-ttu-id="0eb08-105">В зависимости от типа предоставляемых услуг объекты могут быть материальными и нематериальными:</span><span class="sxs-lookup"><span data-stu-id="0eb08-105">Depending on the type of service you provide, objects can be tangible or intangible:</span></span>
 

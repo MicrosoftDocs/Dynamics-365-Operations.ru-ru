@@ -19,16 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5af345af10e4f68cb74432c4fce8bfb514c4503a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c2072c571d584185e867f221c24dc44cdbad1dd6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="letters-of-guarantee"></a><span data-ttu-id="99a34-104">Гарантийные письма</span><span class="sxs-lookup"><span data-stu-id="99a34-104">Letters of guarantee</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="99a34-105">В этой статье представлена информация о гарантийных письмах.</span><span class="sxs-lookup"><span data-stu-id="99a34-105">This article provides information about letters of guarantee.</span></span> <span data-ttu-id="99a34-106">В гарантийном письме, банк соглашается заплатить определенную сумму денег лицу, если один из клиентов банка объявляет банкротство по платежу или обязательству этому лицу.</span><span class="sxs-lookup"><span data-stu-id="99a34-106">In a letter of guarantee, a bank agrees to pay a specific amount of money to a person if one of the bank's customers defaults on a payment or obligation to that person.</span></span> 
 

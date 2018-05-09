@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8a47dac61705831b330f7b4939a18c865a8ace7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3a9c87b8790ed6cfe4139180f1f1785db04e7431
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a><span data-ttu-id="48752-103">Регистрация поступления товаров по заказу на покупку</span><span class="sxs-lookup"><span data-stu-id="48752-103">Record the receipt of goods on the purchase order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="48752-104">В этой процедуре показано, как зарегистрировать поступление товаров непосредственно в заказе на покупку.</span><span class="sxs-lookup"><span data-stu-id="48752-104">This procedure shows you how to record receipt of goods directly on a purchase order.</span></span> <span data-ttu-id="48752-105">Также можно зарегистрировать поступление продуктов на складе, а затем зарегистрировать его в заказе на покупку.</span><span class="sxs-lookup"><span data-stu-id="48752-105">It’s also possible to register product receipt in the warehouse, and then later record it on the purchase order.</span></span> <span data-ttu-id="48752-106">Эта задача обычно выполняется специалистом по закупке или координатором расчетов с поставщиками.</span><span class="sxs-lookup"><span data-stu-id="48752-106">This task is typically done by a purchasing agent or an accounts payable coordinator.</span></span> <span data-ttu-id="48752-107">Пример, представленный в этом руководстве, можно использовать в компании с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="48752-107">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="48752-108">Этот пример описывает шаги создания простого заказа на покупку, чтобы можно процедуру можно было воспроизвести как руководство по задаче.</span><span class="sxs-lookup"><span data-stu-id="48752-108">The example includes steps to create a simple purchase order so that you can play the procedure as a task guide.</span></span> <span data-ttu-id="48752-109">Если вы используете собственные данные в процедуре, вы начнете с подзадачи "Регистрация получения товаров".</span><span class="sxs-lookup"><span data-stu-id="48752-109">If you were using the procedure on your own data, you would start at the Record receipt of goods subtask.</span></span>
 

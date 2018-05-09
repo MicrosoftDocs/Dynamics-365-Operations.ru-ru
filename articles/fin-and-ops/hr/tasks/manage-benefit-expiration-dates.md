@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5a7767433750a0f76fa234ebdba91991d3b8e947
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f6624db66a1ff6c227ab002692eea08406f38c59
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="manage-benefit-expiration-dates"></a><span data-ttu-id="37c69-103">Управление сроками действия льгот</span><span class="sxs-lookup"><span data-stu-id="37c69-103">Manage benefit expiration dates</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="37c69-104">В этой процедуре показано, как завершить или продлить срок действия льгот, а также как управлять датами регистрации работников, зарегистрированными для получения льготы.</span><span class="sxs-lookup"><span data-stu-id="37c69-104">This procedure shows how you can expire or extend a benefit, and manage the enrollment dates of workers that are enrolled in the benefit.</span></span> <span data-ttu-id="37c69-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="37c69-105">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 66aa30e88cec914a9cd4d02a0992ff7570d1ced2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: be0db88639586e50f8a883bada64a52fb3e83e14
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-direct-debit-mandate-for-a-customer"></a><span data-ttu-id="df0a2-103">Создание поручения на безакцептное списание для клиента</span><span class="sxs-lookup"><span data-stu-id="df0a2-103">Create a direct debit mandate for a customer</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="df0a2-104">В этом руководстве по задаче показано, как создать поручение на безакцептное списание и использовать его в накладной.</span><span class="sxs-lookup"><span data-stu-id="df0a2-104">This task guide demonstrates how to create a direct debit mandate and use it on an invoice.</span></span>
 

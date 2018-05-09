@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4e01d45c9f1e2a4ec866f18e18827f6dab2cdbd1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f1cfd25f44182650330e0ff927c2e660f27f134d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-finished-product-february-2016-only"></a><span data-ttu-id="e9c41-103">Создание готового продукта (только для версии от февраля 2016 г.)</span><span class="sxs-lookup"><span data-stu-id="e9c41-103">Create a finished product (February 2016 only)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e9c41-104">Эта задача рассматривает создание готовой продукции.</span><span class="sxs-lookup"><span data-stu-id="e9c41-104">This task focuses on creating a finished product.</span></span> <span data-ttu-id="e9c41-105">Это первая задача в серии расчетов спецификации.</span><span class="sxs-lookup"><span data-stu-id="e9c41-105">It is the first task in the BOM calculation series.</span></span> <span data-ttu-id="e9c41-106">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="e9c41-106">The demo data company used to create this task is USMF.</span></span>
 

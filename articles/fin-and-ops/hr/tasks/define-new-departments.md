@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ccd1714d5ac594e04eea65d997fe198bdae32a86
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 29256eccc0b188f49256ed64f248bbd7d61afc0d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-new-departments"></a><span data-ttu-id="350ec-103">Определение новых подразделений</span><span class="sxs-lookup"><span data-stu-id="350ec-103">Define new departments</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="350ec-104">Подразделения — это операционные единицы, которые представляют функциональные области бизнеса (например, продажи или бухгалтерский учет).</span><span class="sxs-lookup"><span data-stu-id="350ec-104">Departments are operating units that represent a functional area of a business, such as sales or accounting.</span></span> <span data-ttu-id="350ec-105">Во многих компаниях имеются организационные иерархии, в которых отображаются различные подразделения в рамках организации.</span><span class="sxs-lookup"><span data-stu-id="350ec-105">Many companies have organizational hierarchies that display the various departments within a business.</span></span> <span data-ttu-id="350ec-106">Эта процедура содержит инструкции по созданию подразделений и их добавлению в иерархию подразделений организации.</span><span class="sxs-lookup"><span data-stu-id="350ec-106">This procedure walks through the process of creating departments, and adding those departments to an organizations departmental hierarchy.</span></span> <span data-ttu-id="350ec-107">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="350ec-107">The demo data company used to create this procedure is USMF.</span></span>
 

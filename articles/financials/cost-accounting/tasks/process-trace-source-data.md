@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 57884660fb9459c8cd918e5d1ba4df14efcf6db3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d7470c53c3fe48e4adb584847dbb3b7dc931e578
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="process-and-trace-source-data"></a><span data-ttu-id="f331c-103">Обработка и трассировка исходных данных</span><span class="sxs-lookup"><span data-stu-id="f331c-103">Process and trace source data</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f331c-104">Вся обработка данных выполняется посредством заданий.</span><span class="sxs-lookup"><span data-stu-id="f331c-104">All data processing is run by jobs.</span></span> <span data-ttu-id="f331c-105">Для каждого задания и поставщика данных создается журнал для документирования того, что процесс был выполнен, и что были обработаны записи в текущем задании.</span><span class="sxs-lookup"><span data-stu-id="f331c-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="f331c-106">Эта процедура используется для настройки источника данных с последующим отслеживанием основания конкретной записи затрат.</span><span class="sxs-lookup"><span data-stu-id="f331c-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="f331c-107">В этой записи используется компания с демонстрационными данными USP2.</span><span class="sxs-lookup"><span data-stu-id="f331c-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="f331c-108">Перед выполнением этой задачи не забудьте воспроизвести следующие проводники по задачам: "Создание книги учета затрат", "Определение единиц управления затратами" и "Управление источником данных для книги учета затрат".</span><span class="sxs-lookup"><span data-stu-id="f331c-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
 

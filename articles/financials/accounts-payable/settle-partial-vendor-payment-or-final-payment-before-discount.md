@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 62eea2f013904f0b7ad4f5681440506445ec6330
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c859210c5117ee913b604d0b9746f79115e8b605
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a><span data-ttu-id="4484b-103">Сопоставление частичного платежа поставщика и окончательного платежа полностью до даты скидки</span><span class="sxs-lookup"><span data-stu-id="4484b-103">Settle a partial vendor payment and the final payment in full before the discount date</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4484b-104">В этой статье рассматривается сценарий, в котором производится частичные платежи по накладной поставщика и берется скидка по оплате.</span><span class="sxs-lookup"><span data-stu-id="4484b-104">This article walks you through a scenario where partial payments are made for a vendor invoice, and a cash discount is taken.</span></span>
 

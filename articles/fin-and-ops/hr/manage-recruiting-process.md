@@ -19,16 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8a91074fb6d8bca223d9b143763b2be580a08cd4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 75d8ac183c7fbeed2bdab49dc4217a77ac1c979b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-a-recruiting-process"></a><span data-ttu-id="4ef6b-103">Управление процессом набора сотрудников</span><span class="sxs-lookup"><span data-stu-id="4ef6b-103">Manage a recruiting process</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4ef6b-104">Этот раздел описывает принципиальную схему, которую специалисты по набору персонала могут использовать для того, чтобы отслеживать шаги в процессе приема на работу, включая усилия по рекламе открытых позиций и приему заявителей, отслеживанию данных заявителя и заявления, собеседованию с заявителями и выбору одного или больше кандидатов на заполнение открытых позиций в вашей организации.</span><span class="sxs-lookup"><span data-stu-id="4ef6b-104">This topic describes a concept that recruiters can use to track the steps in a recruiting process, including efforts to advertise open positions and recruit applicants, tracking applicant and application information, interviewing applicants, and selecting one or more candidates to fill the open positions in your organization.</span></span>
 

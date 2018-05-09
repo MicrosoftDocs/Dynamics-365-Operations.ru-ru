@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c9728714944b54f3bff1e2a8b43c7adcf5200f08
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e12c47e4acd6aa8a92a909d490da9e590b5fcd20
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="chart-of-accounts-delimiter-must-be-unique"></a><span data-ttu-id="9ddec-104">Разделитель плана счетов должен быть уникальным</span><span class="sxs-lookup"><span data-stu-id="9ddec-104">Chart of accounts delimiter must be unique</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9ddec-105">В Microsoft Dynamics AX 2012 можно использовать одинаковые разделителя для вашего плана счетов и значений аналитик.</span><span class="sxs-lookup"><span data-stu-id="9ddec-105">In Microsoft Dynamics AX 2012, you could use the same delimiter for your chart of accounts and dimension values.</span></span> <span data-ttu-id="9ddec-106">В Dynamics 365 for Finance and Operations не допускается одинаковый разделитель для плана счетов и значений аналитик.</span><span class="sxs-lookup"><span data-stu-id="9ddec-106">In Dynamics 365 for Finance and Operations, you cannot have the same delimiter for the chart of accounts and dimension values.</span></span> <span data-ttu-id="9ddec-107">Если имеется дублирующий разделитель, его можно изменить после обновления.</span><span class="sxs-lookup"><span data-stu-id="9ddec-107">If there is a duplicate delimiter, you can change it after upgrade.</span></span> 
 

@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: aa7c7bfaf4301904e1b7ae242efaf8b660fb076a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e213c4436452ddf1d0e22d791c7ee2cee803edc7
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-expense-management"></a><span data-ttu-id="e3a54-103">Настройка управления расходами</span><span class="sxs-lookup"><span data-stu-id="e3a54-103">Configure expense management</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e3a54-104">Этот раздел описывает вопросы и решения, которые следует принять во время процесса планирования, прежде чем настраивать Управление расходами в Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e3a54-104">This topic describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="e3a54-105">В модуле "Управление расходами" можно хранить информацию о способах оплаты, заявки на командировку, отчеты о расходах, политики и т. д.</span><span class="sxs-lookup"><span data-stu-id="e3a54-105">In Expense management, you can store information about payment methods, travel requisitions, expense reports, policies, and so on.</span></span>
 

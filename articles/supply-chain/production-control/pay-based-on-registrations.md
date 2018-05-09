@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: df8e011a0ec0234f346d25a863d97c1a98ebe9ee
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="pay-based-on-registrations"></a><span data-ttu-id="cb3c2-103">Оплата на основе регистраций</span><span class="sxs-lookup"><span data-stu-id="cb3c2-103">Pay based on registrations</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cb3c2-104">В этом разделе подробно объясняется, как оплата вычисляется на основе регистраций работника.</span><span class="sxs-lookup"><span data-stu-id="cb3c2-104">This topic explains, in detail, how pay is calculated based on worker registrations.</span></span> <span data-ttu-id="cb3c2-105">Он включает примеры, которые показывают, как различные комбинации параметров настройки, которые доступны для расчета, влияют на результат.</span><span class="sxs-lookup"><span data-stu-id="cb3c2-105">It includes examples that show how the various combinations of setup options that are available for the calculation affect the result.</span></span> <span data-ttu-id="cb3c2-106">Вот несколько областей, которые будут рассмотрены:</span><span class="sxs-lookup"><span data-stu-id="cb3c2-106">Here are some of the areas that will be covered:</span></span>
 

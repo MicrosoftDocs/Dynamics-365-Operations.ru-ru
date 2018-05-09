@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e068105bcd5983220c43613569f80700922360e5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 59582e33a3a012d6f9e3f506d1f8303c07fb06a9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-order-for-a-one-time-supplier"></a><span data-ttu-id="ffc65-103">Создание заказа на покупку для разового поставщика</span><span class="sxs-lookup"><span data-stu-id="ffc65-103">Create a purchase order for a one-time supplier</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ffc65-104">В этой процедуре показано, как создать заказ на покупку для разового поставщика.</span><span class="sxs-lookup"><span data-stu-id="ffc65-104">This procedure shows you how to create a purchase order for a one-time supplier.</span></span> <span data-ttu-id="ffc65-105">Поставщик создается автоматически с заказом на покупку вместо того, чтобы создавать счет поставщика вручную.</span><span class="sxs-lookup"><span data-stu-id="ffc65-105">The supplier is created automatically with the purchase order, rather than having to create the vendor account manually.</span></span> <span data-ttu-id="ffc65-106">Заказы на покупку обычно создаются специалистом по закупке.</span><span class="sxs-lookup"><span data-stu-id="ffc65-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="ffc65-107">Пример, представленный в этом руководстве, можно использовать в компании с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="ffc65-107">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="ffc65-108">В качестве предварительного требования следует настроить счет разового поставщика на странице "Параметры модуля расчетов с поставщиками".</span><span class="sxs-lookup"><span data-stu-id="ffc65-108">It is a prerequisite that a one-time vendor account has been set up in the Account payable parameters page.</span></span>
 

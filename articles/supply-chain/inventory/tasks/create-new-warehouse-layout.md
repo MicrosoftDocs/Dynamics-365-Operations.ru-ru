@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4a9c75bf84bf2bf8d92be23573cc0477209c2378
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 136ba30e8658dc1fe80124a74c773ce0e56ec310
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-new-warehouse-layout"></a><span data-ttu-id="7e4b9-103">Создание нового макета склада</span><span class="sxs-lookup"><span data-stu-id="7e4b9-103">Create a new warehouse layout</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7e4b9-104">Следующая процедура используется для настройки сведений о местонахождениях на складе.</span><span class="sxs-lookup"><span data-stu-id="7e4b9-104">This procedure shows you how to set up information about the locations in a warehouse.</span></span> <span data-ttu-id="7e4b9-105">Она применяется только к складам, созданным с помощью функции базового управления складами в модуле "Управление запасами", и не применяется к складам, созданным в модуле "Управление складом".</span><span class="sxs-lookup"><span data-stu-id="7e4b9-105">This applies only to warehouses created using "basic warehousing" in the Inventory management module, not to warehouses created in the Warehouse management module.</span></span> <span data-ttu-id="7e4b9-106">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="7e4b9-106">You can use this procedure in demo data company USMF, or on your own data.</span></span>
 

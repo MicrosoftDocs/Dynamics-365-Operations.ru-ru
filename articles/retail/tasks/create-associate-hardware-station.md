@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 023c3b3be6544ecf25975965daf1487159c6076b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2720ba4060252ef6d6d27e310619ec5639f020ca
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-associate-a-hardware-station"></a><span data-ttu-id="23b4b-103">Создание и связывание станции оборудования</span><span class="sxs-lookup"><span data-stu-id="23b4b-103">Create and associate a hardware station</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="23b4b-104">Эта процедура содержит инструкции по созданию станции оборудования.</span><span class="sxs-lookup"><span data-stu-id="23b4b-104">This procedure walks through how to create a new hardware station.</span></span> <span data-ttu-id="23b4b-105">Новый профиль оборудования будет создан и будет использован для добавления новых станций оборудования в предварительно определенный магазин (канал).</span><span class="sxs-lookup"><span data-stu-id="23b4b-105">A new hardware profile will be created and used to add new hardware stations to a pre-defined store (channel).</span></span> <span data-ttu-id="23b4b-106">В этой процедуре используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="23b4b-106">This procedure uses the USRT company in demo data.</span></span>
 

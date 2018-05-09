@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c12980fed5e6b26cc23aed93ce1f5ed71ea05b2b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a6cbf5473419e9a390cd223706d12ba1e3c887bb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-associate-a-device"></a><span data-ttu-id="d388b-103">Создание и связывание устройства</span><span class="sxs-lookup"><span data-stu-id="d388b-103">Create and associate a device</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d388b-104">Эта процедура содержит инструкции по созданию нового устройства и его связыванию с кассовым терминалом.</span><span class="sxs-lookup"><span data-stu-id="d388b-104">This procedure walks through how to create a new device and associate it to a register.</span></span> <span data-ttu-id="d388b-105">Предполагается, что терминал уже создан.</span><span class="sxs-lookup"><span data-stu-id="d388b-105">It is assumed that the register is already created.</span></span>  <span data-ttu-id="d388b-106">В этой задаче используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="d388b-106">This task uses the USRT company in demo data.</span></span> <span data-ttu-id="d388b-107">Эта задача назначена для ролей администраторов, ИТ-специалистов или ИТ-специалистов розничной торговли, а также для директоров магазинов.</span><span class="sxs-lookup"><span data-stu-id="d388b-107">This task is intended for Administrators, IT Professional or Retail IT, and the Store Manager roles.</span></span>
 

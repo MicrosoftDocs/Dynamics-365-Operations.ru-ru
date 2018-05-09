@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: beed4c261b887ce545d431bbd9a413bd1745bc0c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3146c74a0749bf7a29eba1e079b9b15cab92393b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="hire-a-candidate-through-recruiting"></a><span data-ttu-id="052e5-103">Прием кандидата через набор сотрудников</span><span class="sxs-lookup"><span data-stu-id="052e5-103">Hire a candidate through recruiting</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="052e5-104">Эта процедура позволяет специалисту по найму принять на работу кандидата, подавшего заявление через конкретный проект по набору сотрудников.</span><span class="sxs-lookup"><span data-stu-id="052e5-104">This procedure enables a recruiter to hire an applicant who submitted an application through a specific recruitment project.</span></span> <span data-ttu-id="052e5-105">При приеме кандидата на работу через проект по набору сотрудников будет создана новая запись работника, и статус записи кандидата изменится на "Принят на работу".</span><span class="sxs-lookup"><span data-stu-id="052e5-105">When you hire an applicant through a recruiting project, a new worker record will be created and the applicant’s record will have a status of Employed.</span></span> <span data-ttu-id="052e5-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="052e5-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="052e5-107">Чтобы выполнить эту процедуру, перейдите в раздел "Управление персоналом" > "Набор сотрудников" > "Заявления" > "Заявления"</span><span class="sxs-lookup"><span data-stu-id="052e5-107">To complete this procedure, navigate to Human resources > Recruitment > Applications >Applications</span></span> 
 

@@ -20,16 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 1e1cf6480029a25acd5758a178a19bce60c86df5
-ms.openlocfilehash: 473799e00b753616ece98fe4024ebdca741296cf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f5ff667ca48ab59dcf5e6db5add81675f1e7a461
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-a-call-center-channel"></a><span data-ttu-id="76e7f-103">Настройка канала центра обработки вызовов</span><span class="sxs-lookup"><span data-stu-id="76e7f-103">Set up a call center channel</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="76e7f-104">Компания может определить несколько каналов центра обработки вызовов в Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="76e7f-104">A company can define multiple call center channels in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="76e7f-105">Каналы центра обработки вызовов настраиваются в пункте **Retail** \> **Каналы** \> **Центры обработки вызовов** \> **Все центры обработки вызовов**, и они являются специфическими для юридического лица.</span><span class="sxs-lookup"><span data-stu-id="76e7f-105">Call center channels are configured at **Retail** \> **Channels** \> **Call centers** \> **All call centers**, and they are specific to a legal entity.</span></span>
 

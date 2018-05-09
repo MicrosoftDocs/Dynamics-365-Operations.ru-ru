@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3a9719082749f48c04c6c86394b8131a10ae6138
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ccd54805020e3399471d1b70c6a7be4bf3b86586
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="approve-application-inbox-records"></a><span data-ttu-id="b5fc2-103">Одобрение записей входящих заявлений</span><span class="sxs-lookup"><span data-stu-id="b5fc2-103">Approve application inbox records</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b5fc2-104">В этой процедуре показано рассмотрение заявлений, полученных через портал самообслуживания сотрудников.</span><span class="sxs-lookup"><span data-stu-id="b5fc2-104">This procedure shows how to review applications received through the Employee self-service pages.</span></span> <span data-ttu-id="b5fc2-105">Помимо рассмотрения заявлений, вы можете утверждать выбранные записи входящих заявлений.</span><span class="sxs-lookup"><span data-stu-id="b5fc2-105">In addition to reviewing the applications, you can approve the application in box records that you select.</span></span> <span data-ttu-id="b5fc2-106">Записи входящих заявлений — это заявления о приеме на работу, отправленные в компанию на рассмотрение.</span><span class="sxs-lookup"><span data-stu-id="b5fc2-106">Application inbox records represent employment applications that were submitted to the company for consideration.</span></span> <span data-ttu-id="b5fc2-107">После утверждения записи лица, отправившего заявление, будет создана запись кандидата.</span><span class="sxs-lookup"><span data-stu-id="b5fc2-107">After approving a record, an applicant record will be created for the person who submitted the application.</span></span> <span data-ttu-id="b5fc2-108">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="b5fc2-108">The demo data company used to create this procedure is USMF.</span></span>
 

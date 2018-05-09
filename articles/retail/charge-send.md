@@ -19,16 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c873fdc2b54c8acedaf8e58bf245a13ca65a3ac2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2796ef1a9c312f86c878dd72fa26dcb45c88ed88
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="ship-an-order-from-a-different-store"></a><span data-ttu-id="bdda0-103">Отгрузка заказа из другого магазина</span><span class="sxs-lookup"><span data-stu-id="bdda0-103">Ship an order from a different store</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="bdda0-104">С помощью функции отправки накладных расходов в Dynamics 365 for Retail заказы клиента могут быть размещены в одном магазине и отгружены из другого магазина.</span><span class="sxs-lookup"><span data-stu-id="bdda0-104">With the Charge send feature in Dynamics 365 for Retail, customer orders can be placed in one store and shipped from another store.</span></span> <span data-ttu-id="bdda0-105">Заказы клиента в клиенте POS-терминала поддерживают несколько вариантов исполнения.</span><span class="sxs-lookup"><span data-stu-id="bdda0-105">Customer orders in the point of sale (POS) client support multiple fulfillment options.</span></span> <span data-ttu-id="bdda0-106">Некоторые примеры вариантов выполнения приведены ниже.</span><span class="sxs-lookup"><span data-stu-id="bdda0-106">Some examples of fulfillment options include:</span></span>
 -   <span data-ttu-id="bdda0-107">Получение в том же магазине в другой день.</span><span class="sxs-lookup"><span data-stu-id="bdda0-107">Pick up from the same store on a different date.</span></span>

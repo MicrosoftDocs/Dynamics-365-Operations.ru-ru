@@ -16,15 +16,15 @@ ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 29d57216b260838f277905e33bf54cbbd314e0d2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 94c453e8b51204a7c15a1a6fe8e323b38de6f455
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="change-the-date-for-the-session"></a><span data-ttu-id="47b3b-103">Изменение даты для сеанса</span><span class="sxs-lookup"><span data-stu-id="47b3b-103">Change the date for the session</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="47b3b-104">По умолчанию текущая дата используется при вводе и разноске записей журналов или документов-источников.</span><span class="sxs-lookup"><span data-stu-id="47b3b-104">By default, the current date is used when entering and posting journal entries or source documents.</span></span> <span data-ttu-id="47b3b-105">Можно изменить дату для текущего сеанса.</span><span class="sxs-lookup"><span data-stu-id="47b3b-105">You can change the date that is used for your current session.</span></span> <span data-ttu-id="47b3b-106">Используйте эту функцию для пометки задним числом записей журналов или документов-источников, если необходимо.</span><span class="sxs-lookup"><span data-stu-id="47b3b-106">Use this feature to back-date journal entries or source documents, as necessary.</span></span>
 

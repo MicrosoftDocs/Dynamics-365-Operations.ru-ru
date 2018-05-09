@@ -18,16 +18,16 @@ ms.author: v-elgolu
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2848326dd3efe55301cc034ce28891765ad61e39
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eece22113824fd520568dc46bbd384bda23c3c8d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="exchange-rate-adjustments"></a><span data-ttu-id="d685e-103">Корректировки курсовой разницы</span><span class="sxs-lookup"><span data-stu-id="d685e-103">Exchange rate adjustments</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d685e-104">В этом разделе содержатся сведения о функции корректировки курсовой разницы для пользователей в Эстонии, Венгрии, Чехии, Латвии, Литве, Польше и России.</span><span class="sxs-lookup"><span data-stu-id="d685e-104">This topic provides information about the exchange rate adjustment functionality for users in legal entities in Estonia, Hungary, Czech Republic, Latvia, Lithuania, Poland, and Russia.</span></span>
 

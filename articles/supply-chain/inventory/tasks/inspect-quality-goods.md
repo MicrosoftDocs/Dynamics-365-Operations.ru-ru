@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ab536047340bdebecb7c8317e20208c87a4776f7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3afa22d99f1915015b49964d9e22a6df15ecf6f9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="ac15e-103">Контроль качества товаров</span><span class="sxs-lookup"><span data-stu-id="ac15e-103">Inspect the quality of goods</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ac15e-104">В этой процедуре показано, как обрабатывать заказ контроля качества.</span><span class="sxs-lookup"><span data-stu-id="ac15e-104">This procedure shows you how to process a quality order.</span></span> <span data-ttu-id="ac15e-105">Это руководство можно выполнить, используя компанию с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="ac15e-105">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="ac15e-106">Перед началом этой процедуры необходимо подтвердить заказ на покупку "000016" и разнести поступление продуктов.</span><span class="sxs-lookup"><span data-stu-id="ac15e-106">Before you start this example procedure, you need to confirm purchase order “000016” and post a product receipt.</span></span> <span data-ttu-id="ac15e-107">При этом автоматически будет создан заказ контроля качества.</span><span class="sxs-lookup"><span data-stu-id="ac15e-107">This will automatically create a quality order.</span></span> <span data-ttu-id="ac15e-108">Контроль качества обычно производится сотрудником отдела контроля качества.</span><span class="sxs-lookup"><span data-stu-id="ac15e-108">Quality inspections are typically carried out by a quality clerk.</span></span>
 

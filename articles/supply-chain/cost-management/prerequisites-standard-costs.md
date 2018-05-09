@@ -20,16 +20,16 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7f1cef3198462eab15c1c7d2de4c5d4a5576919
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b1b0de596c1b40a4213128d5ed51066ee414681d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prerequisites-for-standard-costs"></a><span data-ttu-id="26ee2-103">Предварительные требования для стандартных затрат</span><span class="sxs-lookup"><span data-stu-id="26ee2-103">Prerequisites for standard costs</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="26ee2-104">Этот раздел описывает основные шаги по использованию стандартных затрат.</span><span class="sxs-lookup"><span data-stu-id="26ee2-104">This topic describes the basic steps for using standard costs.</span></span> <span data-ttu-id="26ee2-105">Последующие шаги зависят от операционной деятельности компании.</span><span class="sxs-lookup"><span data-stu-id="26ee2-105">Subsequent steps depend on the company's operations.</span></span> <span data-ttu-id="26ee2-106">Например, шаги различаются для непроизводственной среды, производственной среды, в которой не используется маршрутизация и производственной среды, в которой маршрутизация используется.</span><span class="sxs-lookup"><span data-stu-id="26ee2-106">For example, the steps differ for a nonmanufacturing environment, a manufacturing environment that doesn't use routings, and a manufacturing environment that uses routings.</span></span> 
 

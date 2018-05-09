@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 47fbd077023ff924cb36f2db9f5e2db8b9d5c281
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9a81ef09072350091b7dbc3333429304ddbdcd28
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="arrival-overview"></a><span data-ttu-id="9e608-104">Обзор прибытия</span><span class="sxs-lookup"><span data-stu-id="9e608-104">Arrival overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9e608-105">В этом разделе представлена информация о функции обзора прибытия.</span><span class="sxs-lookup"><span data-stu-id="9e608-105">This topic provides information about the Arrival overview feature.</span></span> <span data-ttu-id="9e608-106">Страница обзора прибытия является частью этой функции и представляет обзор всех номенклатур, прибытие которых ожидается в качестве входящих номенклатур.</span><span class="sxs-lookup"><span data-stu-id="9e608-106">The Arrival overview page is part of this feature and provides an overview of all items that are expected to arrive as incoming items.</span></span>
 

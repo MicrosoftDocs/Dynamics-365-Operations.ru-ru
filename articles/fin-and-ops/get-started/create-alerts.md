@@ -17,18 +17,18 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93e8f97dbd3f60be72793c04eb729623321016f8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fbec520054ab41e3b2d92e422d1b5f5276d44e2c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-alerts"></a><span data-ttu-id="57ad0-103">Создание оповещений</span><span class="sxs-lookup"><span data-stu-id="57ad0-103">Create alerts</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a><span data-ttu-id="57ad0-104">Начало работы</span><span class="sxs-lookup"><span data-stu-id="57ad0-104">Getting started</span></span>
 <span data-ttu-id="57ad0-105">Перед созданием правила оповещения необходимо определить когда или в каких ситуациях получать оповещение.</span><span class="sxs-lookup"><span data-stu-id="57ad0-105">Before you set up an alert rule, decide when or in what situations you want to receive alerts.</span></span> <span data-ttu-id="57ad0-106">Если уже известно, о каких событиях необходимо оповещать, в Microsoft Dynamics 365 for Finance and Operations найдите страницу, на которой будут отображены данные, вызвавшие появление оповещения.</span><span class="sxs-lookup"><span data-stu-id="57ad0-106">When you know which event you want to be notified about, in Microsoft Dynamics 365 for Finance and Operations find the page where the data that causes that event appears.</span></span> <span data-ttu-id="57ad0-107">Событие может быть датой, которая наступила, или определенным изменением, которое произошло.</span><span class="sxs-lookup"><span data-stu-id="57ad0-107">The event can be a date that arrives or a specific change that occurs.</span></span> <span data-ttu-id="57ad0-108">Поэтому необходимо найти страницу, где эта дата определяется, или на которой отображаются поле, которое изменилось, или созданная новая запись.</span><span class="sxs-lookup"><span data-stu-id="57ad0-108">Therefore, you must find the page where the date is specified, or where the field that changes or the new record that is created appears.</span></span> <span data-ttu-id="57ad0-109">После получения этой информации можно создать правило оповещения.</span><span class="sxs-lookup"><span data-stu-id="57ad0-109">After you have this information, you can create the alert rule.</span></span>

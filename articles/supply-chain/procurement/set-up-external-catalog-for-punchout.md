@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fec3811b6c0e3f740e68618a403281628c5eb468
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4e14d0674ea20524b86669977db8db6a013aca4d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a><span data-ttu-id="35ced-103">Настройка внешнего каталога для внешних eProcurement</span><span class="sxs-lookup"><span data-stu-id="35ced-103">Set up an external catalog for PunchOut eProcurement</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="35ced-104">Использование внешнего каталога позволяет гарантировать, что информация о продуктах и ценах, которую вы впоследствии обрабатываете в Dynamics 365 for Finance and Operations от июля 2017 г., будет точной и актуальной.</span><span class="sxs-lookup"><span data-stu-id="35ced-104">By using the external catalog, you can ensure that the product and price information that you subsequently process in Dynamics 365 for Finance and Operations July 2017 is accurate and up to date.</span></span> <span data-ttu-id="35ced-105">После этого заявку можно будет утвердить и преобразовать в заказ на покупку, и разместить заказ у поставщика.</span><span class="sxs-lookup"><span data-stu-id="35ced-105">The requisition can then be approved and converted to a purchase order and an order can be placed at the vendor.</span></span>
 

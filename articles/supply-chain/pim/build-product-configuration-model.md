@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 63c4147791a3b115f41638ab11a68c2dcf1c929a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 78e296cd032b9e11071a2c52407ccec5ab1daa69
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="build-a-product-configuration-model"></a><span data-ttu-id="76d01-103">Построение модели конфигурации продукта</span><span class="sxs-lookup"><span data-stu-id="76d01-103">Build a product configuration model</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="76d01-104">Потребность в конфигурировании продуктов в соответствии с особыми требованиями становится скорее правилом, чем исключением, как в B2B-, так и в B2C-отношениях.</span><span class="sxs-lookup"><span data-stu-id="76d01-104">The need to configure products to meet special requirements is becoming the rule rather than the exception, in both business-to-business and business-to-consumer relationships.</span></span>
 

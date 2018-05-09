@@ -16,15 +16,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 402f387ac58d550037fbae2011b176c09f45185a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 86876007b3e65e267e1057ed8cd17aed8c7ae06a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="find-obsolete-product-variants"></a><span data-ttu-id="fbbf1-103">Поиск устаревших вариантов продуктов</span><span class="sxs-lookup"><span data-stu-id="fbbf1-103">Find obsolete product variants</span></span> 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fbbf1-104">В данной процедуре показано, как находить устаревшие используемые продукты или варианты продуктов, а также как связать состояние жизненного цикла продукта с устаревшими продуктами.</span><span class="sxs-lookup"><span data-stu-id="fbbf1-104">This procedure shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="fbbf1-105">Необходимое условие: следует определить по крайней мере одно состояние жизненного цикла продукта, которое неактивно для планирования, до запуска этого проводника по задаче.</span><span class="sxs-lookup"><span data-stu-id="fbbf1-105">Prerequisite: You need to define at least one product lifecycle state that is inactive for planning before you can play this task guide.</span></span>
 

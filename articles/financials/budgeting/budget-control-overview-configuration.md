@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6554043f3d582850e3318292da0892a00d0dc45b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 225f502bc155ed57e7d3e45646418ae7d22e68ef
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-control-overview"></a><span data-ttu-id="3d745-103">Обзор бюджетного контроля</span><span class="sxs-lookup"><span data-stu-id="3d745-103">Budget control overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3d745-104">Эта статья представляет бюджетный контроль и предоставляет сведения по настройке бюджетного контроля в Microsoft Dynamics 365 for Finance and Operations, чтобы иметь возможность управлять финансовыми ресурсами.</span><span class="sxs-lookup"><span data-stu-id="3d745-104">This article introduces budget control and provides information to help you configure budget control in Microsoft Dynamics 365 for Finance and Operations so that you can manage financial resources.</span></span>
 

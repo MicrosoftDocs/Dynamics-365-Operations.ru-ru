@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4b6533d1ba538bdc115a865f94212b84781e506e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1dfb0d62f87f4bfdf4916fe2348bee5019841e93
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a><span data-ttu-id="d07be-103">Использование конфигурации сопоставления модели для агрегированных расчетов на уровне базы данных (ER)</span><span class="sxs-lookup"><span data-stu-id="d07be-103">Use a model mapping configuration for aggregate calculations at the database level(ER)</span></span> 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d07be-104">В этой процедуре предоставляются сведения о создании новой конфигурации сопоставления модели электронной отчетности (ER) и использовании встроенных функций ER для эффективного агрегирования расчетов.</span><span class="sxs-lookup"><span data-stu-id="d07be-104">This procedure provides information about how to design a new Electronic reporting (ER) model mapping configuration and use built-in ER functions for efficient aggregate calculations.</span></span> <span data-ttu-id="d07be-105">В этой процедуре вам предстоит создать конфигурацию для компании-образца Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="d07be-105">In this procedure you will create a configuration for the sample company, Litware, Inc.</span></span> 
 

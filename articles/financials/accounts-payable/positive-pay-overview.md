@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ed4ca769c8d2b7e4935edbd442f8e96756ae78c1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bd564ec908056a8a71e227ca7a85f198d9a82e7a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="positive-pay-overview"></a><span data-ttu-id="d2d49-103">Обзор положительного платежа</span><span class="sxs-lookup"><span data-stu-id="d2d49-103">Positive pay overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d2d49-104">В этой статье приводятся сведения о положительном плате, используемом для формирования электронного списка чеков, которые можно предоставить банку.</span><span class="sxs-lookup"><span data-stu-id="d2d49-104">This article provides information about positive pay, which is used to generate an electronic list of checks that can be presented to a bank.</span></span> 
 

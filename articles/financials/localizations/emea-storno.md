@@ -17,16 +17,16 @@ ms.author: v-semaz
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3b31dd459e15563a2220f893ab487e34a4427e84
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a9352b0a80d8c5fe013e951bd4380b87834c0030
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="storno-accounting"></a><span data-ttu-id="bd2ed-103">Учет с использованием сторно</span><span class="sxs-lookup"><span data-stu-id="bd2ed-103">Storno accounting</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="bd2ed-104">Учет с использованием сторно — практика использования отрицательных чисел для изменения записей учета в журналах на противоположные.</span><span class="sxs-lookup"><span data-stu-id="bd2ed-104">Storno accounting is the practice of using negative numbers to reverse original journal account entries.</span></span>
 

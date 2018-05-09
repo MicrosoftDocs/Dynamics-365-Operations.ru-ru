@@ -18,16 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6b07db5c1f11d5ead5610c2cbd48955077a90405
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f71df6fff803855cf08ca0672604ae97efe3f40e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="advance-holder-transactions"></a><span data-ttu-id="aa0e1-103">Проводки по подотч. лицам</span><span class="sxs-lookup"><span data-stu-id="aa0e1-103">Advance holder transactions</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="aa0e1-104">Сведения о работе с проводками по подотчетным лицам в Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="aa0e1-104">Learn how to work with advance holder transactions in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4e95b4ea192d2029f5a35590cff9ba6776d1751b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="weighted-average-with-physical-value-and-marking"></a><span data-ttu-id="278c7-103">Взвешенное среднее с физической стоимостью и маркировкой</span><span class="sxs-lookup"><span data-stu-id="278c7-103">Weighted average with physical value and marking</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="278c7-104">Средневзвешенная стоимость - это складская модель, действующая на основании принципа средневзвешенного значения, когда запасы на складе оцениваются по средней стоимости продукции, поступившей на склад до конца отчетного периода, плюс запасы, имеющиеся в наличии с предыдущего периода.</span><span class="sxs-lookup"><span data-stu-id="278c7-104">Weighted average is an inventory model based on the weighted average principle, where issues from inventory are valued at the average value of the items that are received into inventory during the inventory closing period, plus any on-hand inventory from the previous period.</span></span>
 

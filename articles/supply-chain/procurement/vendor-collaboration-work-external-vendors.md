@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0c035f73fb35c6390be3c665c2645b1fdc411650
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a><span data-ttu-id="1433c-103">Совместная работа с внешними поставщиками</span><span class="sxs-lookup"><span data-stu-id="1433c-103">Vendor collaboration with external vendors</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1433c-104">Модуль **Совместная работа с поставщиками** предназначен для поставщиков, которые не имеют интеграции обмена электронными данными (EDI) с Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="1433c-104">The **Vendor collaboration** module is targeted at vendors who don't have electronic data interchange (EDI) integration with Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="1433c-105">Он позволяет поставщикам работать с заказами на покупку (PO), накладными, информацией о консигнационных запасах и запросами предложений (RFQ), а также позволяет им получить доступ к части своих основных данных поставщика.</span><span class="sxs-lookup"><span data-stu-id="1433c-105">It lets vendors work with purchase orders (POs), invoices, consignment inventory information, and requests for quotation (RFQs), and also lets them access parts of their vendor master data.</span></span> <span data-ttu-id="1433c-106">В этом разделе объясняется, как можно сотрудничать с внешними поставщиками, использующими интерфейс для совместной работы с поставщиками, для работы с заказами на покупку, запросами предложений и консигнационными запасами.</span><span class="sxs-lookup"><span data-stu-id="1433c-106">This topic explains how you can collaborate with external vendors who use the vendor collaboration interface to work with POs, RFQs, and consignment inventory.</span></span> <span data-ttu-id="1433c-107">Он также объясняет, как разрешить конкретному поставщику использовать совместную работу с поставщиками, а также как определить информацию, которую будут видеть все поставщики при ответе на заказ на покупку.</span><span class="sxs-lookup"><span data-stu-id="1433c-107">It also explains how to enable a specific vendor to use vendor collaboration, and how to define the information that all vendors see when they respond to a PO.</span></span>
 

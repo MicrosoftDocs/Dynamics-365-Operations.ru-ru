@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a840324862a7d3e279fce49288771d202527b77
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3774943e7147df88be0133c6fc983df54ca70f35
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a><span data-ttu-id="3ba28-103">Создание заказа на покупку из заказа на продажу</span><span class="sxs-lookup"><span data-stu-id="3ba28-103">Create a purchase order from a sales order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3ba28-104">Эта процедура описывает создание заказа на покупку на основе заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="3ba28-104">This procedure shows you how to create a purchase order that is based on a sales order.</span></span> <span data-ttu-id="3ba28-105">Количества продукта по заказу на покупку предназначены для удовлетворения спроса исходного заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="3ba28-105">The product's quantities on the purchase order are then designated to fulfill the demand of the originating sales order.</span></span> <span data-ttu-id="3ba28-106">Выполнение спрос на продажу таким способ является альтернативой более всестороннему и оптимизированному методу планирование требований к распределению.</span><span class="sxs-lookup"><span data-stu-id="3ba28-106">Fulfilling sales demand this way is an alternative to a more comprehensive and optimized method of Distribution Requirements Planning.</span></span> <span data-ttu-id="3ba28-107">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="3ba28-107">You can run this procedure in demo data company USMF or on your own data.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 818d7d21605ada63a29a41d3bf20ed9cbf21a178
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 36707ec37d4756393d0c3c2cf071d87a78ebc6c5
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a><span data-ttu-id="fd439-103">Управление потреблением сырья с использованием принципа очистки</span><span class="sxs-lookup"><span data-stu-id="fd439-103">Controlling raw material consumption by using flushing principles</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="fd439-104">Принципы очистки отражают различные стратегии потребления сырья, которые используются в процессах производства.</span><span class="sxs-lookup"><span data-stu-id="fd439-104">The flushing principles reflect different consumption strategies for raw materials that are used in production processes.</span></span> <span data-ttu-id="fd439-105">Потребление является процессом, который предусматривает использование материала из запасов в наличии и задает значение потребленных материалов как **Незавершенное производство** (НЗП) для производственных и партионных заказов.</span><span class="sxs-lookup"><span data-stu-id="fd439-105">Consumption is the process that deducts material from the on-hand inventory and sets the value of the consumed materials to **Work in progress** (WIP) for production orders and batch orders.</span></span> <span data-ttu-id="fd439-106">Обычно сырье потребляется из местонахождения, настроенного для процесса, в котором используется материал.</span><span class="sxs-lookup"><span data-stu-id="fd439-106">Raw materials are usually consumed from a location that is configured for the process that consumes the material.</span></span> <span data-ttu-id="fd439-107">Это местонахождение называется местонахождением поступлений на производство.</span><span class="sxs-lookup"><span data-stu-id="fd439-107">This location is known as the production input location.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7ea96953d07b4025f294a07040ea9d8b1db87945
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 192af4e8a9f77e4728954375d9d9699187137803
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-financial-dimensions"></a><span data-ttu-id="f5eaa-103">Определение финансовых аналитик</span><span class="sxs-lookup"><span data-stu-id="f5eaa-103">Define financial dimensions</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f5eaa-104">В этом руководстве показано добавление финансовой аналитики на основе объекта и пользовательской финансовой аналитики.</span><span class="sxs-lookup"><span data-stu-id="f5eaa-104">This task guide demonstrates adding an entity backed financial dimension and a custom financial dimension.</span></span>  <span data-ttu-id="f5eaa-105">В данном руководстве используется демонстрационная компания USMF.</span><span class="sxs-lookup"><span data-stu-id="f5eaa-105">The guide uses the USMF demo company.</span></span>
 

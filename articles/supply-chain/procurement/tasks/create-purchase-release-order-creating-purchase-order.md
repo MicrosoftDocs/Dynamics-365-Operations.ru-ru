@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bc133306fccd747f15e6a0c6eb347d04a80df0fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2a5fde13fac7f0523c098f750d897ca5da06473b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a><span data-ttu-id="58fe7-103">Создание заказа на выпуск покупки при создании заказа на покупку</span><span class="sxs-lookup"><span data-stu-id="58fe7-103">Create a purchase release order when creating the purchase order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="58fe7-104">В этой процедуре показано, как использовать договор покупки при создании заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="58fe7-104">This procedure shows how to use a purchase agreement when you create a purchase order.</span></span> <span data-ttu-id="58fe7-105">При создании заказа на покупку необходимо применить к нему договор покупки, поскольку в нем содержатся общие условия, которые следует скопировать в заголовок заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="58fe7-105">The purchase agreement has to be applied when you create the purchase order because there are general terms that should be copied to the purchase order header.</span></span> <span data-ttu-id="58fe7-106">Обычно эту задачу выполняет специалист по закупке.</span><span class="sxs-lookup"><span data-stu-id="58fe7-106">Typically this task would be carried out by a purchasing agent.</span></span> <span data-ttu-id="58fe7-107">Предварительным условием для данного руководства является наличие действующего договора покупки с обязательством по количеству продукта для поставщика и номенклатур.</span><span class="sxs-lookup"><span data-stu-id="58fe7-107">As a prerequisite for this guide, you must have an effective purchase agreement with a product quantity commitment for a vendor and items.</span></span> <span data-ttu-id="58fe7-108">Эта же процедура может использоваться при наличии договора покупки с другими типами обязательств.</span><span class="sxs-lookup"><span data-stu-id="58fe7-108">The same procedure can be used if you have a purchase agreement with other types of commitments.</span></span> <span data-ttu-id="58fe7-109">Это руководство можно выполнить, используя компанию с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="58fe7-109">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="58fe7-110">При использовании компании USMF можно сначала выполнить руководств "Создание договора покупки" для выполнения необходимых предварительных условий для данного руководства.</span><span class="sxs-lookup"><span data-stu-id="58fe7-110">If you’re using USMF, you can run the “Create a purchase agreement” guide first to set up the necessary preconditions for this guide.</span></span>
 

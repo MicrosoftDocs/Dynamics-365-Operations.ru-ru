@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 787c958f07bc3fbd442be8132b55de7f3e769cae
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-a-customer-invoice"></a><span data-ttu-id="f1de0-103">Создание накладной клиента</span><span class="sxs-lookup"><span data-stu-id="f1de0-103">Create a customer invoice</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f1de0-104">**Накладная клиента для заказа на продажу** — это счет, который организация выставляет клиенту в связи с продажей.</span><span class="sxs-lookup"><span data-stu-id="f1de0-104">A **customer invoice for a sales order** is a bill that is related to a sale, and that an organization gives to a customer.</span></span> <span data-ttu-id="f1de0-105">Этот тип накладной клиента создается на основе заказа на продажу, который содержит строки заказа и номера номенклатур.</span><span class="sxs-lookup"><span data-stu-id="f1de0-105">This type of customer invoice is created based on a sales order, which includes order lines and item numbers.</span></span> <span data-ttu-id="f1de0-106">Коды номенклатур указываются и разносятся в главной книге.</span><span class="sxs-lookup"><span data-stu-id="f1de0-106">Item numbers are specified and posted in the ledger.</span></span> <span data-ttu-id="f1de0-107">Записи в журнале субкниги недоступны для накладной клиента для заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="f1de0-107">Subledger journal entries aren't available for a customer invoice for a sales order.</span></span> <span data-ttu-id="f1de0-108">Дополнительные сведения см. в разделе [Создание накладных по заказам на продажу](tasks/create-sales-order-invoices.md).</span><span class="sxs-lookup"><span data-stu-id="f1de0-108">For more information, see [Create sales order invoices](tasks/create-sales-order-invoices.md).</span></span>
 

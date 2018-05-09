@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2acb1f1bddb725edf47440b1860eed612edaf17f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a3726f7de1679fa3aaeda43a55b9ca14895f5ac4
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-dimensions-and-import-dimension-members"></a><span data-ttu-id="e0bee-103">Создание аналитик и импорт элементов аналитик</span><span class="sxs-lookup"><span data-stu-id="e0bee-103">Create dimensions and import dimension members</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e0bee-104">Учет затрат — это независимый модуль, для работы которого требуются данные из других модулей.</span><span class="sxs-lookup"><span data-stu-id="e0bee-104">Cost accounting is an independent module that requires data from other modules.</span></span> <span data-ttu-id="e0bee-105">Эти данные подразделяется на следующие:</span><span class="sxs-lookup"><span data-stu-id="e0bee-105">This data is categorized into the following:</span></span>
 

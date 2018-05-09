@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d0ee9e2edcda436d3dec6f9002a2d3d30de85503
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3782d5d2a43b6b22a6f5b25c806e9d4bba5999a5
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a><span data-ttu-id="b8856-103">Создание финансовых аналитик для каналов розничной торговли и настройка значений аналитик для магазинов</span><span class="sxs-lookup"><span data-stu-id="b8856-103">Create financial dimensions for Retail channels and configure dimension values on stores</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b8856-104">Эта процедура содержит инструкции по созданию финансовой аналитики канала розничной торговли со значениями аналитик и по настройке значений финансовых аналитик для розничных магазинов.</span><span class="sxs-lookup"><span data-stu-id="b8856-104">This procedure walks through creating a retail channel financial dimension with dimension values and steps to configure financial dimension values on retail stores.</span></span> <span data-ttu-id="b8856-105">Раздел не включает другие связанные действия, например создание наборов аналитик и структур счетов.</span><span class="sxs-lookup"><span data-stu-id="b8856-105">The topic does not include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="b8856-106">В этой процедуре используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="b8856-106">This procedure uses the USRT company in demo data.</span></span>
 

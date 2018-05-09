@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ad16d00788122eb1ab22dd03561cac488b9fad6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e44b585c6e6e86d244328e73846a5c91f94233eb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-quality-orders"></a><span data-ttu-id="29a30-103">Настройка заказов на контроль качества</span><span class="sxs-lookup"><span data-stu-id="29a30-103">Set up quality orders</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="29a30-104">В этой процедуре показано, как включить процесс управления качеством, в котором входящие запасы должны проверяться сразу после регистрации прибытия.</span><span class="sxs-lookup"><span data-stu-id="29a30-104">This procedure shows you how to enable a quality management process where incoming inventory must be inspected immediately after arrival registration.</span></span> <span data-ttu-id="29a30-105">Эту процедуру обычно выполняет менеджер по контролю качества.</span><span class="sxs-lookup"><span data-stu-id="29a30-105">The procedure will typically be carried out by a quality manager.</span></span> <span data-ttu-id="29a30-106">Процесс включает создание группы контроля качества для определения номенклатур, которые будут использоваться для выборки, и группу проверки для группировки проверок, которые будут проходить номенклатуры в группе контроля качества.</span><span class="sxs-lookup"><span data-stu-id="29a30-106">The process includes the creation of a quality group, to define the items that are going to be sampled, and a test group to group the tests that are to be performed on items in the quality group.</span></span> <span data-ttu-id="29a30-107">Это руководство можно выполнить, используя компанию с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="29a30-107">You can run this guide in the USMF demo data company.</span></span>
 

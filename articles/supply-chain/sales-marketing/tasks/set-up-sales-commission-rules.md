@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ad1bd0babbf81e6296c59440cf679f131f9976c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7b2d44b8ee6751516621cbb11148c9a92bdf427a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-sales-commission-rules"></a><span data-ttu-id="81e00-103">Настройка правил комиссий продаж</span><span class="sxs-lookup"><span data-stu-id="81e00-103">Set up sales commission rules</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="81e00-104">Эта процедура описывает, как настроить и включить расчет комиссии по продажам и отслеживание.</span><span class="sxs-lookup"><span data-stu-id="81e00-104">This procedure shows you how to set up and enable sales commission calculation and tracking.</span></span> <span data-ttu-id="81e00-105">Процедура показывает, как создать группы комиссий клиента и номенклатуры, а затем как связать выбранных клиента и продукта с соответствующими группами.</span><span class="sxs-lookup"><span data-stu-id="81e00-105">The procedure shows how to create both customer and item commission groups, and then how to link a selected customer and product to the respective groups.</span></span> <span data-ttu-id="81e00-106">Затем эти группы используются при настройке расчета комиссии для создания комбинации клиента, номенклатуры и торговых представителей, которая должна быть сопоставлена заказом на продажу для назначения продавцов для комиссии.</span><span class="sxs-lookup"><span data-stu-id="81e00-106">Those groups are then used in the commission calculation setup to create a customer, item, and sales representatives combination that must be matched by the sales order to entitle the sales people to a commission.</span></span> <span data-ttu-id="81e00-107">Создание групп комиссий клиента и номенклатуры является необязательным, так как расчет комиссии можно также сделать для отдельного клиента и/или номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="81e00-107">Creating customer and item commission groups are optional, as the calculation of commission can also be done for an individual customer and/or item.</span></span> <span data-ttu-id="81e00-108">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="81e00-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4467987c4bb25ec7c44550c9e941298e459bbf22
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 77159c0ef8e8046b50fa1dae60423823865e80b5
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="petty-cash-for-eastern-europe"></a><span data-ttu-id="c028b-103">Мелкие наличные деньги для Восточной Европы</span><span class="sxs-lookup"><span data-stu-id="c028b-103">Petty cash for Eastern Europe</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c028b-104">В этом разделе содержатся сведения о функциях мелких наличных деньги, которая позволяет пользователям в Эстонии, Литве, Чехии, Венгрии, Латвии, Польше и России отражать кассовые операции в системе.</span><span class="sxs-lookup"><span data-stu-id="c028b-104">This topic provides information about the petty cash functionality that lets users in Estonia, Lithuania, Czech Republic, Hungary, Latvia, Poland, and Russia reflect cash operations in the system.</span></span>
 

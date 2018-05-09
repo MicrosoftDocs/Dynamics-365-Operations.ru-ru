@@ -19,16 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f118ef38e88171ad1eac463078acf37ba4390e57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 22d495fd1c9e7c2d4ef31e3fd99e37fac6ffb175
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="merge-inventory-batches"></a><span data-ttu-id="e8c8b-103">Слияние складских партий</span><span class="sxs-lookup"><span data-stu-id="e8c8b-103">Merge inventory batches</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e8c8b-104">В этой статье приводятся сведения о порядке объединения двух или более партий запасов в объединенную партию.</span><span class="sxs-lookup"><span data-stu-id="e8c8b-104">This article provides information about how to consolidate two or more inventory batches into a merged batch.</span></span>
 

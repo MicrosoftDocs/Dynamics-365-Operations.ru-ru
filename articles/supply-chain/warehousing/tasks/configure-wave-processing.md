@@ -17,15 +17,15 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ad45fd25a6911ca8f9976ee0040f193da0b3a993
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9a1318055f9c740e8d659a15db8311a0ca518f61
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="configure-wave-processing"></a><span data-ttu-id="27eaa-103">Настройка обработки волн</span><span class="sxs-lookup"><span data-stu-id="27eaa-103">Configure wave processing</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="27eaa-104">В этом руководстве описывается, как настроить критерии, определяющие работу, создаваемую для склада при обработке волны, и способ обработки волн (вручную или автоматически).</span><span class="sxs-lookup"><span data-stu-id="27eaa-104">This guide describes how to set up the criteria that determine what work is generated for a warehouse when a wave is processed, and whether waves are processed manually or automatically.</span></span> <span data-ttu-id="27eaa-105">Чтобы определить критерии, настройте шаблоны и запросы волн, которые соответствуют волне с запущенными в производство строками в заказах на продажу, производственных заказах или заказах канбана.</span><span class="sxs-lookup"><span data-stu-id="27eaa-105">You specify the criteria by setting up wave templates and queries that match a wave with released lines in sales orders, production orders, or kanban orders.</span></span> <span data-ttu-id="27eaa-106">Обработка волны используется на складах, использующих функции модуля "Управление складом", и не используется на складах, использующих функции модуля "Управление запасами".</span><span class="sxs-lookup"><span data-stu-id="27eaa-106">Wave processing is used in warehouses that use the functionality in the Warehouse management module, and not those that use the functionality in the Inventory management module.</span></span> <span data-ttu-id="27eaa-107">Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF.</span><span class="sxs-lookup"><span data-stu-id="27eaa-107">You can run this procedure in demo data company USMF.</span></span>
 
