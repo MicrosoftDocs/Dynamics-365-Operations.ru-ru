@@ -10,8 +10,13 @@
 ## [Получение ознакомительной версии](dev-tools/get-evaluation-copy.md)
 ## [Регистрация на подписку](dev-tools/sign-up-preview-subscription.md)
 ## [Развертывание среды разработки и доступ к ней](dev-tools/access-instances.md)
-## [Требования к системе для разработки](dev-tools/development-system-requirements.md)
-## Пример приложения для управления автопарком
+### [Настройка виртуальной машины разработчика](dev-tools/configure-developer-vm.md)
+### [Создание нового пользователя на компьютере для разработки](dev-tools/enable-development-machine.md)
+### [Вопросы и ответы по виртуальным машинам разработки и сборки, не допускающим доступ администратора](sysadmin/VMs-no-admin-access.md)
+### [Переименование локальной среды для обеспечения доступа к Visual Studio Team Services](migration-upgrade/vso-machine-renaming.md)
+### [Требования к системе для разработки](dev-tools/development-system-requirements.md)
+## [Управление версиями, поиск метаданных и навигация](dev-tools/version-control-metadata-navigation.md)
+## ​Пример приложения для управления автопарком
 ### [Пример приложения для управления автопарком](dev-tools/fleet-management-sample.md)
 ### [Обзор примера приложения для управления автопарком](dev-tools/introduction-fleet-management-sample.md)
 ## Средства Visual Studio
@@ -22,7 +27,8 @@
 ### [Операции сборки](dev-tools/build-operations.md)
 ### [Редактор кода](dev-tools/code-editor.md)
 ### [Создание модели и элементы модели данных](dev-tools/create-data-model-elements.md)
-### [Создание нового пользователя на компьютере для разработки](dev-tools/enable-development-machine.md)
+#### [Правила именования](extensibility/NamingGuidelines.md)
+#### [Отключение настройки моделей и отказ от функций](dev-tools/lock-models.md)
 ### [Отчет об анализе настройки](dev-tools/customization-analysis-report.md)
 ### [Конструкторы элементов](dev-tools/element-designers.md)
 ### [Использование элементов](dev-tools/element-usage.md)
@@ -31,7 +37,6 @@
 ### [Модели](dev-tools/models.md)
 ### [Проекты в Dynamics 365 for Finance and Operations](dev-tools/projects.md)
 ### [Надстройки с инструментами для Visual Studio](dev-tools/developer-tools-add-ins.md)
-### [Отключение настройки моделей и отказ от функций](dev-tools/lock-models.md)
 ### [Обновление средств разработки Visual Studio](dev-tools/update-development-tools.md)
 ## Язык программирования X++
 ### [X++ и функции отладчика](dev-tools/new-x-debugger-features.md)
@@ -104,7 +109,7 @@
 #### [Классы W](dev-ref/w-classes.md)
 #### [Классы X](dev-ref/x-classes.md)
 
-## [Домашняя страница расширения](extensibility/extensibility-home-page.md)
+## [Расширяемость](extensibility/extensibility-home-page.md)
 ### Введение и начало работы
 #### [Планы расширения приложения](extensibility/extensibility-roadmap.md)
 #### [Запросы на расширение](extensibility/extensibility-requests.md) 
@@ -261,9 +266,9 @@
 ### [Создание документации или обучения с помощью регистратора задач](user-interface/task-recorder-training-docs.md)
 
 # [Мобильная платформа](mobile-apps/platform/mobile-platform-home-page.md)
-## Начало работы
-### [Начало работы](mobile-apps/platform/mobile-platform-getting-started.md)
+## [Начало работы](mobile-apps/platform/mobile-platform-getting-started.md)
 ### [Архитектура](mobile-apps/platform/mobile-platform-architecture.md)
+### [Обзор событий бизнес-логики](mobile-apps/platform/business-logic-events-overview.md)
 ### [Руководство по разработке страниц](mobile-apps/platform/page-design-guidelines.md)
 ### [Руководство по разработке действий](mobile-apps/platform/action-design-guidelines.md)
 ### [Требования к дизайну форм](mobile-apps/platform/form-design-requirements.md)
@@ -409,7 +414,7 @@
 ### [Шаблоны конфигурационных данных](data-entities/configuration-data-templates.md)
 ### [Шаблоны данных с несколькими листами](data-entities/excel-template-multiple.md)
 ### [Отслеживание изменений в объектах](data-entities/entity-change-track.md)
-
+### [Конфигурационные ключи и информационные объекты](data-entities/config-key-entities.md)
 ### [Поиск сведений о стандартных информационных объектах](data-entities/data-entities-report.md)
 
 
@@ -418,6 +423,7 @@
 ### [Рекомендации по импорту ваучеров с помощью объекта "Общий журнал"](data-entities/tips-tricks-import-general-journal-entity.md)
 
 ## Разработка с использованием информационных объектов
+### [Принципы и рекомендации по разработке для информационных объектов](dev-tools/design-best-practices.md)
 ### [Создание новых информационных объектов](data-entities/build-consuming-data-entities.md)
 ### [Свойства информационного объекта](data-entities/behavioral-properties-data-entities.md)
 ### [Создание вычисляемых столбцов и виртуальных полей](data-entities/data-entity-computed-columns-virtual-fields.md)
@@ -428,14 +434,17 @@
 ### [Свойства метаданных](data-entities/behavioral-properties-data-entities.md)
 ### [Проверки, значения по умолчанию и несопоставленные поля](data-entities/validations-defaults-unmapped-fields.md)
 ### [Безопасность и информационные объекты](data-entities/security-data-entities.md)
+### [Сборка объекта, доступного только для чтения, предоставляющего финансовые аналитики](financial/read-only-entity-financial.md)
+ 
+
 
 ## [Использование своей собственной базы данных](analytics/export-entities-to-your-own-database.md)
 
 
 ## [Автоматизация задач данных](data-entities/data-task-automation.md)
 
-## [Ресурсы для ответа на запрос данных GDPR](gdpr/gdpr-home-page.md)
-### [Руководство по GDPR для Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-auditing-sensitive-data.md)
+## [Ресурсы для ответа на запросы данных GDPR](gdpr/gdpr-home-page.md)
+### [Руководство по GDPR для Microsoft Dynamics 365 for Finance and Operations](gdpr/gdpr-guide.md)
 ### [Классификация основных средств](gdpr/gdpr-asset-classification-values.md)
 ### [Использование отчета о поиске людей](gdpr/gdpr-person-search-report.md)
 ### [Расширение отчета о поиске людей](gdpr/gdpr-extend-person-search-report.md)
@@ -443,8 +452,9 @@
 ### [Ответ на запрос персональных данных с помощью Talent](gdpr/respond-dsr-request-talent.md)
 ### [Ответ на запрос персональных данных с помощью Microsoft Dynamics AX 2012](gdpr/gdpr-ax2012.md)
 
+## [Рабочая область проверки данных](user-interface/data-validation-workspace.md)
 
-# [Домашняя страница непрерывной поставки](dev-tools/continuous-delivery-home-page.md)
+# [Непрерывная поставка](dev-tools/continuous-delivery-home-page.md)
 ## [Вопросы и ответы по разработке и непрерывной поставке](dev-tools/continuous-delivery-faq.md)
 ## [Исключение тестовых пакетов из выходной сборки](dev-tools/exclude-test-packages.md)
 ## [Управление сторонними моделями и пакетами сред выполнения с помощью системы управления версиями](dev-tools/manage-runtime-packages.md)
@@ -487,6 +497,7 @@
 ## [Методы parm элементов управления посегментного ввода](financial/segmented-entry-control-parm-method-specification.md)
 ## [Добавление возможности подстановки значений для финансовых аналитик из шаблонов Microsoft Excel](financial/add-dimensions-excel-templates.md)
 ## [Создание поставщиков валютных курсов](financial/create-exchange-rate-providers.md)
+## [Создание поставщиков валютных курсов в Microsoft Dynamics Finance and Operations версии 8.0](financial/create-exchange-rate-8.md)
 
 # Разработка цепочек поставок
 ## [Руководство по разработке диаграмм Ганта](user-interface/gantt-development-guide.md)
@@ -579,7 +590,6 @@
 
 # [Администрирование системы](sysadmin/system-administration-home-page.md)
 ## [Вопросы и ответы по ежемесячным обновлениям платформы](sysadmin/faq-platform-monthly-updates.md)
-## [Вопросы и ответы по виртуальным машинам, которые не допускают доступа администратора](sysadmin/VMs-no-admin-access.md)
 ## [Добавление ссылки на юридические условия и заявление о конфиденциальности вашей организации](sysadmin/legal-terms-privacy-statement.md)
 ## [Отчет по лицензионным кодам и ключам конфигурации](sysadmin/license-codes-configuration-keys-report.md)
 ## [Совместное использование данных между компаниями](sysadmin/cross-company-data-sharing.md)

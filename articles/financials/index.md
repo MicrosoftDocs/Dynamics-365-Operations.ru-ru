@@ -18,29 +18,29 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a0f89579cd921b1036ea102ccc89f3863fb40ac3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 19ba20ce16c9916e09b862b0ebedbf68259c7769
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="financial-management-home-page"></a><span data-ttu-id="f9f3c-103">Домашняя страница модуля "Управление финансами"</span><span class="sxs-lookup"><span data-stu-id="f9f3c-103">Financial management home page</span></span>
+# <a name="financial-management-home-page"></a><span data-ttu-id="79792-103">Домашняя страница модуля "Управление финансами"</span><span class="sxs-lookup"><span data-stu-id="79792-103">Financial management home page</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-<span data-ttu-id="f9f3c-104">В этом разделе содержится список разделов справки и других ресурсов по функциям управления финансами в Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="f9f3c-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
+<span data-ttu-id="79792-104">В этом разделе содержится список разделов справки и других ресурсов по функциям управления финансами в Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="79792-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-<span data-ttu-id="f9f3c-105">Выберите область компонентов для получения дополнительных сведений о ней.</span><span class="sxs-lookup"><span data-stu-id="f9f3c-105">Select a feature area to learn more about it.</span></span>
-- [<span data-ttu-id="f9f3c-106">Расчеты с поставщиками</span><span class="sxs-lookup"><span data-stu-id="f9f3c-106">Accounts payable</span></span>](accounts-payable\accounts-payable.md) 
-- [<span data-ttu-id="f9f3c-107">Расчеты с клиентами</span><span class="sxs-lookup"><span data-stu-id="f9f3c-107">Accounts receivable</span></span>](accounts-receivable\accounts-receivable.md) 
-- [<span data-ttu-id="f9f3c-108">Управление банком и кассовыми операциями</span><span class="sxs-lookup"><span data-stu-id="f9f3c-108">Cash and bank management</span></span>](cash-bank-management\cash-bank-management.md)
-- [<span data-ttu-id="f9f3c-109">Учет затрат</span><span class="sxs-lookup"><span data-stu-id="f9f3c-109">Cost accounting</span></span>](cost-accounting\cost-accounting-home-page.md)
-- [<span data-ttu-id="f9f3c-110">Основные средства</span><span class="sxs-lookup"><span data-stu-id="f9f3c-110">Fixed assets</span></span>](fixed-assets\fixed-assets.md)
-- [<span data-ttu-id="f9f3c-111">Главная книга</span><span class="sxs-lookup"><span data-stu-id="f9f3c-111">General ledger</span></span>](general-ledger\general-ledger.md) 
-- [<span data-ttu-id="f9f3c-112">Управление проектами</span><span class="sxs-lookup"><span data-stu-id="f9f3c-112">Project management</span></span>](project-management\overview-project-management-accounting.md)
-- [<span data-ttu-id="f9f3c-113">Государственный сектор</span><span class="sxs-lookup"><span data-stu-id="f9f3c-113">Public sector</span></span>](public-sector\public-sector-functionality.md) 
-- [<span data-ttu-id="f9f3c-114">Бюджетирование</span><span class="sxs-lookup"><span data-stu-id="f9f3c-114">Budgeting</span></span>](budgeting\budgeting-overview.md) 
+<span data-ttu-id="79792-105">Выберите область компонентов для получения дополнительных сведений о ней.</span><span class="sxs-lookup"><span data-stu-id="79792-105">Select a feature area to learn more about it.</span></span>
+- [<span data-ttu-id="79792-106">Расчеты с поставщиками</span><span class="sxs-lookup"><span data-stu-id="79792-106">Accounts payable</span></span>](accounts-payable/accounts-payable.md) 
+- [<span data-ttu-id="79792-107">Расчеты с клиентами</span><span class="sxs-lookup"><span data-stu-id="79792-107">Accounts receivable</span></span>](accounts-receivable/accounts-receivable.md) 
+- [<span data-ttu-id="79792-108">Управление банком и кассовыми операциями</span><span class="sxs-lookup"><span data-stu-id="79792-108">Cash and bank management</span></span>](cash-bank-management/cash-bank-management.md)
+- [<span data-ttu-id="79792-109">Учет затрат</span><span class="sxs-lookup"><span data-stu-id="79792-109">Cost accounting</span></span>](cost-accounting/cost-accounting-home-page.md)
+- [<span data-ttu-id="79792-110">Основные средства</span><span class="sxs-lookup"><span data-stu-id="79792-110">Fixed assets</span></span>](fixed-assets/fixed-assets.md)
+- [<span data-ttu-id="79792-111">Главная книга</span><span class="sxs-lookup"><span data-stu-id="79792-111">General ledger</span></span>](general-ledger/general-ledger.md) 
+- [<span data-ttu-id="79792-112">Управление проектами</span><span class="sxs-lookup"><span data-stu-id="79792-112">Project management</span></span>](project-management/overview-project-management-accounting.md)
+- [<span data-ttu-id="79792-113">Государственный сектор</span><span class="sxs-lookup"><span data-stu-id="79792-113">Public sector</span></span>](public-sector/public-sector-functionality.md) 
+- [<span data-ttu-id="79792-114">Бюджетирование</span><span class="sxs-lookup"><span data-stu-id="79792-114">Budgeting</span></span>](budgeting/budgeting-overview.md) 
 
 
 
