@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-data-allocation"></a>Распределение данных бюджетного планирования
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья описывает различные методы распределения, доступные в Microsoft Dynamics 365 for Finance and Operations, и порядок их возможного использования.  
 

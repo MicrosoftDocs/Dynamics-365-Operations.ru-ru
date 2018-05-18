@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a>Создание заказа на продажу для настраиваемого продукта
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура показывает, как применять шаблон конфигурации к продукту в заказе на продажу. В этом примере использует модель динамика D0006 в демонстрационных данных компании USMF. Обычно эту процедуру используется сотрудник, обрабатывающий заказы на продажу.
 

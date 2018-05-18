@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-a-route-for-a-product-model"></a>Ведение маршрута для модели продукта
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Выполнение этой процедуры требует наличия модели конфигурации продукта. Эта процедура использует модель динамика класса Hi-End в демонстрационной компании USMF для описания процесса.
 

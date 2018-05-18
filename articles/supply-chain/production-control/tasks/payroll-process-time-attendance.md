@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>Включение процесса обработки зарплаты по посещаемости и времени присутствия
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Следующая процедура используется для включения обработки зарплаты по времени присутствия и посещаемости. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 

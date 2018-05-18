@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>Анализ тенденций и моделей продаж
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Можно анализировать тенденции и модели продаж в реальном времени в Microsoft Dynamics 365 for Retail.
 

@@ -24,9 +24,9 @@ ms.lasthandoff: 03/23/2018
 ---
 
 # <a name="batch-processing-for-alerts"></a>Пакетная обработка оповещений
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 Оповещения обрабатываются функцией пакетной обработки в Microsoft Dynamics 365 for Finance and Operations. Необходимо настроить пакетную обработку, прежде чем станет возможна доставка оповещений.
 

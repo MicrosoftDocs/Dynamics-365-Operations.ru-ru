@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Корреспондентские счета по умолчанию для журналов накладных поставщика и журналов утверждения накладных
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Корр. счета по умолчанию используются на следующих страницах журналов накладных поставщика:
 

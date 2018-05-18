@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Планирование организационной иерархии
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Перед настройкой организаций и организационных иерархий в Microsoft Dynamics 365 for Finance and Operations убедитесь, что вы спланировали моделирование своей компании. Организационная модель имеет значительное влияет на реализацию Dynamics 365 for Finance and Operations и бизнес-процессы. 
 

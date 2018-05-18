@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-product"></a>Создание нового продукта
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта задача показывает, как создать новый общий продукт. Она обычно выполняется конструктором продуктов. В качестве компании с демонстрационными данными для создания этой задачи используется USMF.
 

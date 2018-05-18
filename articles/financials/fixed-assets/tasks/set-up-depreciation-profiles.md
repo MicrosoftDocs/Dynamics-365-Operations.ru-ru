@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Настройка и создание методов амортизации
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Методы амортизации определяют тип и частоту амортизации для основного средства.   В этой записи используется демонстрационная компания USMF и роль бухгалтера.
 

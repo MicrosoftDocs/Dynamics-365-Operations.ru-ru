@@ -27,7 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="employee-competencies-and-development-power-bi-content"></a>Содержимое Power BI "Компетенции и развитие сотрудников"
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе рассматривается содержимое Finance and Operations — компетенции и развитие сотрудников (Power BI). 
 

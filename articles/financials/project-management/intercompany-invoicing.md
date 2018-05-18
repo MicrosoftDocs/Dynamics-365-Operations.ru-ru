@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intercompany-invoicing"></a>Внутрихолдинговое выставление накладных
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье представлены сведения и примеры внутрихолдингового выставления накладных по проектам в Microsoft Dynamics 365 for Finance and Operations.
 

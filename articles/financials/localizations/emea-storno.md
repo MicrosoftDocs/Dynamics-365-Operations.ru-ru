@@ -26,7 +26,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="storno-accounting"></a>Учет с использованием сторно
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Учет с использованием сторно — практика использования отрицательных чисел для изменения записей учета в журналах на противоположные.
 

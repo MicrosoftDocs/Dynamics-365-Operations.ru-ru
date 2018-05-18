@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Настройка функции расширенного входа для Cloud POS и MPOS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 В этом разделе описываются параметры настройки расширенного входа для Cloud POS и Retail Modern POS (MPOS).
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Создание заказа на покупку в соответствии с бюджетом
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура служит для создания заказа на покупку, который проверяется на наличие доступного бюджета. В этой записи используется компания с демонстрационными данными USMF.
 

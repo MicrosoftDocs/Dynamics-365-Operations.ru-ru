@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Начисление затрат по проекту по приходам покупки
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой теме описывается, как начисленные затраты по проекту по приходам покупки можно отслеживать в Microsoft Dynamics 365 for Finance and Operations. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="manage-benefit-expiration-dates"></a>Управление сроками действия льгот
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре показано, как завершить или продлить срок действия льгот, а также как управлять датами регистрации работников, зарегистрированными для получения льготы. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 

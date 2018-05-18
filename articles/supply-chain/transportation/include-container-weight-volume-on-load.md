@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="include-container-weight-and-volume-on-load"></a>Включение веса и объема контейнера при загрузке
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Функциональность для включения в загрузку веса и объема контейнера дает четкое представление об общем весе и объеме контейнеров и номенклатур, входящих в загрузку.
 

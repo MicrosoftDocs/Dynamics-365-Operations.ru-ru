@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-semi-finished-product-february-2016-only"></a>Создание полуфабриката (только для версии от февраля 2016 г.)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта задача рассматривает создание полуфабриката. Это вторая задача в серии расчетов спецификации. В качестве компании с демонстрационными данными для создания этой задачи используется USMF.
 

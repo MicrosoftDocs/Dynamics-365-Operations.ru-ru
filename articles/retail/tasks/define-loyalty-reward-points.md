@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-reward-points"></a>Определение баллов поощрения по программе лояльности
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Эта процедура содержит инструкции по определению баллов поощрения лояльности. Необходимо настроить баллы поощрения лояльности перед настройкой программы лояльности. В этой процедуре используется компания с демонстрационными данными USRT.
 

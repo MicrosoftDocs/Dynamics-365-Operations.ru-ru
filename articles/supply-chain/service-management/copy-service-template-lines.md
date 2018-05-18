@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="copy-service-templates-lines"></a>Копирование строк шаблонов обслуживания 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Информацию шаблона можно скопировать в соглашение о сервисном обслуживании или в заказ на сервисное обслуживание.
 

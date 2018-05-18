@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Создание формулы путем копирования из существующей формулы
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ниже описан порядок быстрого создания новой формулы путем копирования из существующей формулы. Можно использовать компании USMF, USP2 или USPI с демонстрационными данными для создания этой процедуры.
 

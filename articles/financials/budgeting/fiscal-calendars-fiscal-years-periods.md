@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Финансовые календари, финансовые годы и периоды
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья описывает финансовые календари, финансовые годы и периоды и как их использовать для юридических лиц, основных средств и планирования.
 

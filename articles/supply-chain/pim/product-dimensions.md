@@ -29,9 +29,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-dimensions"></a>Аналитики продуктов
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [Retail name](../includes/retail-name.md)]
+[!include [Retail name](../includes/retail-name.md)]
 
 Предусмотрено четыре аналитики продукта — цвет, конфигурация, размер и стиль. Аналитики продукта объединяются в группы аналитик, а группы аналитик назначаются шаблонам продуктов. Комбинации аналитик продукта определяют, как определяются варианты продуктов.
 

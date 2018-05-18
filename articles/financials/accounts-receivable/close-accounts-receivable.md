@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="close-accounts-receivable"></a>Закрытие модуля "Расчеты с клиентами"
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В следующей таблице перечислены страницы, которые поддерживают бизнес-процесс закрытия модуля "Расчеты с клиентами".
 

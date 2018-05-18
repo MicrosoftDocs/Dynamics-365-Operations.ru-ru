@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-channel-attributes"></a>Определение атрибутов канала
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Обогатите канал, добавив атрибуты канала и продуктов. Необходимо добавить канал в организационную иерархию по умолчанию, прежде чем можно будет задать атрибуты.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="deliver-an-employee-benefits-program"></a>Реализация программы льгот сотрудника
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой задаче показано, как создать элементы льгот, которые будут использоваться при создании новой льготы. В качестве компании с демонстрационными данными для создания этой задачи используется USMF. Эта задача предназначена для менеджера по компенсациям и льготам.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Настройка автоматической выверки фрахта
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура показывает порядок настройки данных для автоматической выверки фрахта. Это обычно выполняется менеджером склада. Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF.
 

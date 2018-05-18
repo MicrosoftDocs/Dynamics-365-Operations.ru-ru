@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Настройка безопасности для содержимого анализа учета затрат для Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе объясняется, как можно распространить защиту на уровне доступа в модуле "Учет затрат" на защиту на уровне строк в Microsoft Power BI. Данная функция позволяет гарантировать, что пользователи видят только те данные Power BI, к которым им предоставлен доступ.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="elimination-rules"></a>Правила элиминирования
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Этот раздел содержит сведения о правилах исключения и различных вариантах для отчетности об исключениях.
 

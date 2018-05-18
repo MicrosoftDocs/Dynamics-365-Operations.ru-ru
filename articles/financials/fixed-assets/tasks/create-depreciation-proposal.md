@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-depreciation-proposal"></a>Создание предложения по амортизации
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре описывается, как работают предложения партий амортизации и как предложить амортизацию для основных средств. В этой задаче используется демонстрационная компания USMF и роль бухгалтера.
 

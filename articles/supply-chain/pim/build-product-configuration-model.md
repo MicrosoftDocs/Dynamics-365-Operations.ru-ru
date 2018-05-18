@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="build-a-product-configuration-model"></a>Построение модели конфигурации продукта
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Потребность в конфигурировании продуктов в соответствии с особыми требованиями становится скорее правилом, чем исключением, как в B2B-, так и в B2C-отношениях.
 

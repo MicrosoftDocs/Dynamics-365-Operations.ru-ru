@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Обзор обновления журнала амортизации
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В предыдущих выпусках имелось две концепции оценки для основных средств — модели стоимости и журналы амортизации. В Microsoft Dynamics 365 for Operations (1611) функция модели стоимости и функция журнала амортизации были объединены в одно понятие книги. В этом разделе приводятся некоторые сведения, которые следует учитывать для обновления. 
 
@@ -62,17 +62,17 @@ ms.lasthandoff: 11/03/2017
 Эти параметры расположены в начале класса ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans. 
 
 *// Укажите предпочтительный подход распределения ваучеров* 
-*// true, если вы хотите использовать существующий код номерной серии* 
-*// false, если планируется использовать определенную системой номерную серию (по умолчанию)* const boolean NumberSequenceUseExistingCode = false;  
+ *// true, если вы хотите использовать существующий код номерной серии* 
+ *// false, если планируется использовать определенную системой номерную серию (по умолчанию)* const boolean NumberSequenceUseExistingCode = false;  
 
 *// Если используется подход с номерной серией, определенной системой, укажите параметры для номерной серии.*
-*// Новая номерная серия будет создана с этими параметрами.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *// Новая номерная серия будет создана с этими параметрами.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *// Если используется подход с существующей номерной серией, укажите существующий код номерной серии.* 
-*// Распределение ваучеров будет выполняться построчно для существующих номерных серий.* const str NumberSequenceExistingCode = ''; *// Укажите область действия существующего кода номерной серии* 
-*// true, если указанная номерная серия является общей* 
-*// false, если указана номерная серия для каждой компании* 
-*// Будет использоваться определенная системой номерная серия по умолчанию, если код номерной серии с указанной областью действия не найден.* const boolean NumberSequenceExistingIsShared = true; 
+ *// Распределение ваучеров будет выполняться построчно для существующих номерных серий.* const str NumberSequenceExistingCode = ''; *// Укажите область действия существующего кода номерной серии* 
+ *// true, если указанная номерная серия является общей* 
+ *// false, если указана номерная серия для каждой компании* 
+ *// Будет использоваться определенная системой номерная серия по умолчанию, если код номерной серии с указанной областью действия не найден.* const boolean NumberSequenceExistingIsShared = true; 
 
 Перестройте проект, содержащий этот класс, после изменения констант. 
 

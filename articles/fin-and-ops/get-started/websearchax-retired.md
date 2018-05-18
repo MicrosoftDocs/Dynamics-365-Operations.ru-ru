@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="websearchax-retired"></a>WebSearchAX удалена
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Мы вынуждены удалить страницу WebSearchAX. Для ее замены рекомендуется использовать службу поиска сайтов из поисковой системы, которую вы предпочитаете.  Пример: 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-accounts-payable"></a>Настройка модуля "Расчеты с поставщиками"
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья описывает страницы, используемые для настройки основной и дополнительных функций для расчетов с поставщиками в Microsoft Dynamics 365 for Finance and Operations. Она также описывают шаги настройки, которые необходимо выполнить до начала настройки расчетов с поставщиками.
 

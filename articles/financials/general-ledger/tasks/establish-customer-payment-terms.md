@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="establish-customer-payment-terms"></a>Определение условий оплаты для клиентов
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура определяет настройку скидки по оплате и срока выполнения. В данном руководстве по задаче используется демонстрационная компания USMF.
 

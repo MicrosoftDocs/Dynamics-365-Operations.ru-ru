@@ -24,6 +24,7 @@
 # Налог
 ## [Обзор налога](../financials/general-ledger/indirect-taxes-overview.md)
 ## [Методы расчета налога в поле "Основание"](../financials/general-ledger/sales-tax-calculation-methods-origin-field.md)
+## #### [Назначение и переопределения налога](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md)
 ## [Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
 
 # Центр обработки вызовов
@@ -167,6 +168,7 @@
 ## [Создание и связывание станции оборудования](tasks/create-associate-hardware-station.md)
 ## [Создание и связывание регистраторов](tasks/create-associate-registers.md)
 ## [Создание, расчет и разноска журнала операций для розничного магазина](tasks/create-calculate-post-statement-retail-store.md)
+## [Усовершенствования разноски журнала операций](statement-posting-EOD.md)
 ## [Создание заказов центра обработки вызовов](tasks/create-call-center-orders.md)
 ## [Создание финансовых аналитик для POS-регистраторов и настройка значений аналитики для регистраторов](tasks/create-financial-dimensions-pos.md)
 ## [Создание финансовых аналитик для каналов розничной торговли и настройка значений аналитик для магазинов](tasks/create-financial-dimensions-retail-channels.md)
@@ -289,7 +291,6 @@
 ### [Вызов API или операции POS из расширения POS](dev-itpro/pos-api-extension.md)
 ### [Триггеры и вывод на печать в Retail Modern POS](dev-itpro/pos-trigger-printing.md)
 ### [Добавление пользовательского элемента управления в представление на основе конструктора без экрана в Retail Modern POS](dev-itpro/pos-control-non-screen.md)
-### [Создание прокси Retail для POS и электронной коммерции](dev-itpro/pos-generate-retail-proxy.md)
 ### [Этапы настройки конфигурации для разработчиков Retail, работающих с размещенными в облаке окнами для разработки](dev-itpro/cloud-dev-box.md)
 
 ## Среда выполнения Commerce Runtime

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-filtering-and-query-syntax"></a>Расширенная фильтрация и синтаксис запросов
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья описывает параметры фильтрации и запросов, которые доступны при использовании оператора "matches" в диалоговом окне расширенной фильтрации/сортировки.
 

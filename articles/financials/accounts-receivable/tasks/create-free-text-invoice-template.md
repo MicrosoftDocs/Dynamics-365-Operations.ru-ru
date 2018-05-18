@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-free-text-invoice-template"></a>Создание шаблона накладных с произвольным текстом
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В данной записи используется демонстрационная компания USMF. Запись предназначена для пользователя, ответственного за обработку накладных расчетов с клиентами и управление ими.
 

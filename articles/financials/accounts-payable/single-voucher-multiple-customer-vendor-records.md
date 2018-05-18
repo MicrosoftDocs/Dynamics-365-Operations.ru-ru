@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Один ваучер с несколькими записями клиента или поставщика
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе содержится обзор того, что происходит при разноске одного ваучера с несколькими записями клиентов или поставщиков. Эта функция не будет поддерживаться в будущих версиях Microsoft Dynamics 365 for Finance and Operations, поэтому не рекомендуется использовать этот метод разноски из-за влияния учета на обработку сопоставления. 
 

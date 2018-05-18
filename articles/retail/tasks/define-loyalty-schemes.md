@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a>Определение схем лояльности
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Эта процедура содержит инструкции по определению схемы лояльности. Схемы лояльности представляют собой правила начислений и списания баллов для программы лояльности. В этой процедуре используется компания с демонстрационными данными USRT.
 

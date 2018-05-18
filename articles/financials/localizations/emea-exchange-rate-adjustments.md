@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="exchange-rate-adjustments"></a>Корректировки курсовой разницы
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе содержатся сведения о функции корректировки курсовой разницы для пользователей в Эстонии, Венгрии, Чехии, Латвии, Литве, Польше и России.
 

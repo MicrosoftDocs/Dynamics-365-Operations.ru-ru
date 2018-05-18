@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Настройка и управление изображениями для Retail Modern POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 В этой статье описываются шаги, которые выполняются при настройке и управлении изображениями для различных объектов, которые отображаются в Retail Modern POS (MPOS).
 

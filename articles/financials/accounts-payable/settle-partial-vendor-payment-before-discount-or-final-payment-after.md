@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Сопоставление частичного платежа поставщика до даты скидки с окончательным платежом после даты скидки
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья — пошаговое руководство по сценарию, где многие частичные платежи выполняются, некоторые в период скидки по оплате и другие вне периода скидки по оплате.
 

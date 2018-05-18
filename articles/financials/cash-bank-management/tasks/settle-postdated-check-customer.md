@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Сопоставление датированного будущим числом чека от клиента
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Можно сопоставить чек, датированный задним числом, после того как банком был выполнен клиринг чека. Эта финансовая проводка также приведет к очистке проводки на промежуточный счет для чека, датированного задним числом. 
 

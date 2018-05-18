@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="one-voucher"></a>Один ваучер
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Эта функция будет доступна в Dynamics 365 for Finance and Operations версии 8.0, которая будут доступна в выпуске за весну 2018.   

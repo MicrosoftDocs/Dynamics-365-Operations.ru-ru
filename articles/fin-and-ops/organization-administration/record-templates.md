@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="record-templates"></a>Шаблоны записей
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья вводит понятие шаблонов записей и описывает порядок, как их можно использовать для создания записей, совместно использующих сведения.
 

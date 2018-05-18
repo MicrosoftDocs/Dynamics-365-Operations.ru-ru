@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit"></a>Аккредитивы
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Аккредитивы являются банковскими документами, которые обычно используются для покупки и продажи товаров через международные границы. 
 

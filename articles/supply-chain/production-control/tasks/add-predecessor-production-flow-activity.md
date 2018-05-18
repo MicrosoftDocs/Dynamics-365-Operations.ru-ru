@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a>Добавление предшествующего элемента к мероприятию производственного потока
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В версии производственного потока все мероприятия должны быть последовательными. Мероприятие может иметь один или несколько предыдущих или последующих мероприятий. 
 

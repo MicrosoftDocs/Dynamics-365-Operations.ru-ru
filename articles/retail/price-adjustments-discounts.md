@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-adjustments-and-discounts"></a>Корректировки цены и скидки
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 В этой статье представлена информация о корректировках цен и скидок в модуле Microsoft Dynamics 365 for Retail.
 

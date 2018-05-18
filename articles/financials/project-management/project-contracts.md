@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-contracts"></a>Контракты по проектам
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе приводятся примеры контрактов по проекту, которые можно создавать для различных типов проектов и источников финансирования, а также для управления контрактами и клиентами счета по проекту в Microsoft Dynamics 365 for Finance and Operations.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Создание штрих-кода для продукта
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре описан порядок создания вручную штрих-кода с использованием кода номенклатуры M0001 в качестве примера. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 

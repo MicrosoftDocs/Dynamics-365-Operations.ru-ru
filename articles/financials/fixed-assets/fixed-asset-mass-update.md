@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-mass-update"></a>Массовое обновление основных средств
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 При использовании книг можно изменить соглашения по амортизации для группы активов, являющейся частью одной и той же книги.
 

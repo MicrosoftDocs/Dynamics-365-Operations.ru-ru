@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Обновление способа отображения сумм в отчетах и документах
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе представлена информация о том, как обновить способ отображения сумм в отчетах и других документах для Эстонии, Латвии, Литвы, Польши, Чехии, Венгрии и России.
 

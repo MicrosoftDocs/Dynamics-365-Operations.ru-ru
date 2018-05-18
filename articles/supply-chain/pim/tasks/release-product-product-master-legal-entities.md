@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Выпуск продукта/шаблона продукта для юридических лиц
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 В этой процедуре рассматривается выпуск продукта или шаблона продукта в одно или несколько юридических лиц. В качестве компании с демонстрационными данными для создания этой задачи использовалась компания USRT. Задача предназначена для директора по сбыту и конструктора продуктов.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="distributions-on-an-expense-report"></a>Распределения по отчету по расходам
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  При вводе расходов в отчете о расходах, их можно распределить по нескольким проектам, финансовым аналитикам или счетам в вашей организации.
 

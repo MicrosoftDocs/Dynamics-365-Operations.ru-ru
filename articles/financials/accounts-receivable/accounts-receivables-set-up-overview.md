@@ -28,7 +28,7 @@ ms.lasthandoff: 11/15/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Настройка модулей "Расчеты с клиентами" и "Кредит и сборы"
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Настройка разделов Расчеты с клиентами и Кредит и сборы для отслеживания накладных и входящих платежей от клиентов.
 

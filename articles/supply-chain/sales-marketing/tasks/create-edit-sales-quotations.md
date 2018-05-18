@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-and-edit-sales-quotations"></a>Создание и изменение предложений по продаже
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта процедура демонстрирует способ создания и обновления предложения по продажам. Эту процедуру можно выполнить со своими данными или с демонстрационными данными USMF.
 

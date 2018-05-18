@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="lean-manufacturing-overview"></a>Обзор бережливого производства
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье содержится обзор и описание функций бережливого производства в Microsoft Dynamics 365 for Finance and Operations.
 

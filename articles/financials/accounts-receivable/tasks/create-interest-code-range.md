@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Создание кода процента с диапазоном
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Коды процента можно настроить для расчета различных сумм процента на основе диапазона значений. В этой процедуре показано, как добавить код процента и добавить в него диапазон.
 

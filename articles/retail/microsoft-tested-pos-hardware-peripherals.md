@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-hardware-peripherals"></a>Периферийное POS-оборудование
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Retail Modern POS и Cloud POS могут использовать широкий диапазон периферийных POS-устройств с несколькими интерфейсами и параметрами развертывания для охвата различных бизнес-сценариев в розничной торговле. 
 

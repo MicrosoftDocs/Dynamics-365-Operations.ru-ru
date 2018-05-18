@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Создание договора о банковских услугах для гарантийного письма
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Эта задача создает договор о банковских услугах для обработки гарантийного письма. В этой задаче используется демонстрационная компания USMF. 
 

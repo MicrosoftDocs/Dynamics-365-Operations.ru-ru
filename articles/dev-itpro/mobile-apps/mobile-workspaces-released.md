@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-workspaces"></a>Мобильные рабочие области
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой теме перечислены мобильные рабочие области, доступные для использования с мобильным приложением Microsoft Dynamics 365 for Unified Operations.
 
