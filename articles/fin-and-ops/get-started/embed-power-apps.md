@@ -33,8 +33,6 @@ ms.lasthandoff: 04/13/2018
 
 Для получения дополнительных сведений о внедрении PowerApps посмотрите короткое видео [Как внедрить PowerApps в Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
-> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
-
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>Добавление внедренного приложения PowerApp на страницу
 ### <a name="overview"></a>Обзор
 Перед внедрением приложения PowerApp в клиент Finance and Operations необходимо сначала найти или построить приложение PowerApp с требуемыми визуальными элементами и/или функциональными возможностями. Мы не будет здесь подробно описывать процесс построения приложения PowerApp. Раздел [Знакомство с PowerApps](https://docs.microsoft.com/en-us/powerapps/getting-started) является хорошей начальной точкой, если вы не знакомы с PowerApps.
