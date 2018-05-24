@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ea9550b7209064a2842d7e5efe55e9e51c23b9f8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8f0bc18dd7ead37e970b659afbb10243dac5f967
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="electronic-reporting-overview"></a>Обзор электронной отчетности
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой теме представлен обзор средства электронной отчетности (ER). Сюда входят сведения о ключевых понятиях, сценарии, поддерживаемые электронной отчетностью, и список форматов, которые были разработаны и выпущены в рамках решения.
 
@@ -369,7 +369,7 @@ Finance and Operations можно настроить на использован
 
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Требования к локализации — создание конфигурации электронной отчетности](electronic-reporting-configuration.md)

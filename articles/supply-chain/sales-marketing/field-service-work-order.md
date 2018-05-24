@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 854240bef9d6193c8f0f608687b68e6842fe272c
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -230,7 +230,47 @@ ms.lasthandoff: 04/11/2018
 6. Задайте в поле **Тип источника продаж** значение **Интеграция заказов на выполнение работ**.
 7. Выберите **Сохранить**.
 
-### <a name="template-mapping-in-data-integration"></a>Сопоставление шаблона в интеграции данных
 
-(Скоро ожидается)
+### <a name="setup-in-data-integration"></a>Настройка в интеграции данных
+
+Проверьте, что значение **Ключ интеграции** существует для **msdyn_workorders**.
+1. Перейдите в раздел "Интеграция данных".
+2. Перейдите на вкладку **Набор подключений**.
+3. Выберите набор подключений, используемый для синхронизации заказа на выполнение работ.
+4. Перейдите на вкладку **Ключ интеграции**.
+5. Найдите msdyn_workorders и проверьте, что добавлен ключ **msdyn_name (номер заказа на выполнение работ)**. Если ключ не отображается, добавьте его с помощью команды **Добавить ключ** и нажмите кнопку **Сохранить** вверху страницы.
+
+## <a name="template-mapping-in-data-integration"></a>Сопоставление шаблона в интеграции данных
+
+На следующем рисунке показано сопоставление шаблона в интеграции данных.
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>Заказы на выполнение работ с заказами на продажу (Field Service с Fin and Ops): WorkOrderHeader
+
+Фильтр: (msdyn_systemstatus ne 690970005) and (msdyn_systemstatus ne 690970000) and (msdynce_hasexternallymaintainedproductsonly eq true)
+
+[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>Заказы на выполнение работ с заказами на продажу (Field Service с Fin and Ops): WorkOrderServiceLineEstimate
+
+Фильтр: (msdynce_headersystemstatus ne 690970005) and (msdynce_headersystemstatus ne 690970000) and (msdynce_orderhasexternalmaintainedproductsonly eq true) and (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004)
+
+[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>Заказы на выполнение работ с заказами на продажу (Field Service с Fin and Ops): WorkOrderServiceLineUsed
+
+Фильтр: (msdynce_headersystemstatus ne 690970005) and (msdynce_headersystemstatus ne 690970000) and (msdynce_orderhasexternalmaintainedproductsonly eq true) and ((msdyn_linestatus eq 690970001) or (msdynce_headersystemstatus eq 690970004))
+
+[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>Заказы на выполнение работ с заказами на продажу (Field Service с Fin and Ops): WorkOrderProductLineEstimate
+
+Фильтр: (msdynce_headersystemstatus ne 690970005) and (msdynce_headersystemstatus ne 690970000) and (msdynce_orderhasexternalmaintainedproductsonly eq true) and (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004) and (msdyn_allocated eq true)
+
+[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>Заказы на выполнение работ с заказами на продажу (Field Service с Fin and Ops): WorkOrderProductLineUsed
+
+Фильтр: (msdynce_headersystemstatus ne 690970005) and (msdynce_headersystemstatus ne 690970000) and (msdynce_orderhasexternalmaintainedproductsonly eq true) and ((msdyn_linestatus eq 690970001) or (msdynce_headersystemstatus eq 690970004) or (msdyn_allocated ne true))
+
+[![Сопоставление шаблона в интеграции данных](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 

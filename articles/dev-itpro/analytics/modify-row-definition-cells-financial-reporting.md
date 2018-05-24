@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 23b8e0b51f63ecabc704a2fc5b3ebafe657b52f6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Изменение ячеек определения строки
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье описываются сведения, необходимые для каждой ячейки в определении строки в финансовом отчете, и объясняется, как ввести эти сведения. 
 
@@ -488,10 +488,10 @@ ms.lasthandoff: 04/13/2018
 1.  В конструкторе отчетов откройте редактируемое определение строки, столбца или аналитической структуры.
 2.  В меню **Редактировать**, щелкните **Управление наборами значений аналитик**.
 3.  В диалоговом окне **Управление наборами значений аналитик** в поле **Аналитика** выберите тип аналитики.
-4.  Выберите удаляемый набор и щелкните **Удалить**. Щелкните **Да**, чтобы постоянно удалить набор значений аналитик.
+4.  Выберите удаляемый объект и нажмите кнопку **Удалить**. Нажмите кнопку **Да**, чтобы удалить набор без возможности восстановления.
 
 
-## <a name="see-also"></a>См. также
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Финансовая отчетность](financial-reporting-intro.md)
 

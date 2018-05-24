@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 58030df8db467f754ec93ecc3f41585b20f03893
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-definitions-in-financial-report-designer"></a>Определения отчетов в конструкторе финансовых отчетов
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья содержит сведения об определениях отчетов. Определение отчета — это компонент отчета (или строительный блок), который использует определение строки, определение столбца и необязательное определение дерева отчетности для создания отчета. Определение отчета также предоставляет параметры и настройки для настройки отчета. 
 
@@ -79,8 +79,8 @@ ms.lasthandoff: 11/03/2017
 <li>Форматирование подробных отчетов</li>
 <li>Форматирование аналитических структур</li>
 <li>Создать отчет об исключениях</li>
-<li>Указать Конвертацию валюты</li>
-<li>промежуточный итог и фильтрация сведений счета</li>
+<li>Задание пересчета валюты</li>
+<li>Получение промежуточных итогов по счетам и фильтрация сведений о счетах</li>
 </ul></td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ ms.lasthandoff: 11/03/2017
 
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Финансовая отчетность](financial-reporting-intro.md)

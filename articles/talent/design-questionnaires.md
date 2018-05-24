@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 506c4db7cd37fd85b3e132e7900eafdc4385fa5a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cc25f4fde93df03145baedafb9c6b093659594d0
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="design-a-questionnaire"></a>Разработка анкеты
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 В этом разделе описывается процесс создания анкеты. Первым шагом является составление анкеты. При составлении анкеты вы не только пишите вопросы и ответы, но также создаете структуру, которая позволяет записывать ответы и составлять таблицы на их основании. 
 
@@ -230,7 +230,7 @@ ms.lasthandoff: 03/08/2018
 
 Либо, если респондент выбирает ответ А на вопрос 1, то вопрос 2 может быть следующим в последовательности вопросов. Однако, если респондент на вопрос 1 выбирает ответ В, то следующим может быть вопрос 5.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Использование анкет](questionnaires.md)

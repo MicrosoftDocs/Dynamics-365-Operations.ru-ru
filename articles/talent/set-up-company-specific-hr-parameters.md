@@ -19,16 +19,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e19c0eb8f28f16ba827d5218a96ee21c976aacb7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e195f9976465a933ceaaeb0bd2cbec4f814bc5f8
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-company-specific-hr-parameters"></a>Настройка параметров управления персоналом для конкретной компании
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Настройки некоторых параметров модуля "Управление персоналом" (HR) используются совместно несколькими компаниями, в то время как настройки других параметров относятся только к конкретной компании. В этой статье описывается, как настроить параметры модуля "Управление персоналом", относящиеся к конкретной компании.
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 04/13/2018
 
 **Примечание.** Количество отработанных часов не может превышать 1250, а длительность трудоустройства не может превышать 12 месяцев. Эти максимальные значения соответствуют федеральному законодательству США. И наконец, настройки на вкладке **Самообслуживание сотрудников** определяют информацию, которую менеджер может вводить от имени своих сотрудников.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Настройка параметров управления персоналом для нескольких юридических лиц](set-up-hr-parameters-across-legal-entities.md)

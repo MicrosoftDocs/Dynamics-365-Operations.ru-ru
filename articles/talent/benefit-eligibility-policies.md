@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 46dba3a61cf96b19b5bc4d2956d028bbbeaaa60e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ae4be70058e61cdbc1d2b063b346b45b023eb9e9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="benefit-eligibility-policies"></a>Политики приемлемости льготы
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 В этом разделе представлена информация о политиках по праву на льготы, которые помогают определить, кто подходит для конкретных льгот.
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 04/13/2018
 
 Вы определяете объем правила в пределах политики. Например, при создании типа правила политики льготы с именем **Руководители** можно указать, что правило находится в пределах этой политики. В этом примере правило может указывать, что любая должность со словом "руководитель" должна быть включена в правило. После определения параметров правила или правил, которые включены в политику, можно назначить конкретное правило льготе.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Определение и управление программой льгот](manage-benefit-program.md)

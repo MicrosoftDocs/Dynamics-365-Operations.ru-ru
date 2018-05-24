@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b8e4f306d2ee20323229b478c93c1c7eeaba50be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 29a46eb2ec36fdc7e52b148efdadd4401bc8bca2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Что нового и что изменилось в версии приложения Dynamics AX 7.0.1 (май 2016 г.)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В данной статье описаны функциональные возможности, которые были введены или изменены в версии приложения Microsoft Dynamics AX 7.0.1. Эта версия была выпущена в мае 2016 г. и имеет номер сборки 7.0.1265.23014.
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 11/03/2017
 
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Что нового и что изменилось](whats-new-changed.md)

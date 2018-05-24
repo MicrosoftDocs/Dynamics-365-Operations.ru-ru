@@ -19,18 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b36b290026f384109ccd710a9979892dd5268307
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1473eeb2950296f5ae6250d7a53794af3d9cba81
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Методы расчета налога в поле "Основание"
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 В этой статье описываются параметры в поле "Источник" на странице налоговых кодов, а также порядок расчета налога на основе выбранного параметра для налогового кода.
 
@@ -125,7 +125,7 @@ ms.lasthandoff: 11/03/2017
 
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Определение ставок налога на основе полей "База маржинальной прибыли" и "Метода расчета"](marginal-base-field.md)

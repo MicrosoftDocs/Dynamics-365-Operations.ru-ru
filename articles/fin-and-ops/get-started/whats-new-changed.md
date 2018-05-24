@@ -19,23 +19,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0936ae3b8d07ef221345bda272170e1482f37cbf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f49c5157294f615b134c9ea0f00b93f70d59f527
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed"></a>Что нового и что изменилось
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних версиях Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 О том, как провести обновление до последней версии, см. в разделе [Процесс обновления до последнего обновления](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 
-[!INCLUDE [release notes](../includes/release-notes.md)]
+[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Выпуски приложения
 
@@ -129,12 +129,12 @@ ms.lasthandoff: 04/13/2018
 <td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
 <td>Обновление платформы update 15</td>
 <td>7.0.4839</td>
-<td>Март 2018 (Эта функция является частью целевого выпуска и доступна только пользователям, принимающим участие в программе Continuous Auto-update Advantage Program (CAAP).) Обновление платформы 15 также доступно в Dynamics 365 for Finance and Operations версии 8.0.)</td>
+<td>Обновление платформы 15 является целевым выпуском. Это означает, что оно будет доступно всем пользователям в июне 2018 г.</td>
 <td><a href="whats-new-platform-update-15.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 15 (март 2018 г.)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
 <td>Обновление платформы update 12</td>
-<td>7.0.4709</td>
+<td>7.0.4841</td>
 <td>Ноябрь 2017 г.</td>
 <td><a href="whats-new-platform-update-12.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 12 (ноябрь 2017 г.)</a></td>
 <tbody><tr class="odd">

@@ -3,27 +3,28 @@ title: "Управление ассортиментом"
 description: "В этом разделе описываются основные понятия управления ассортиментом в Microsoft Dynamics 365 for Retail и обсуждаются вопросы реализации для вашего проекта."
 author: jblucher
 manager: AnnBe
-ms.date: 3/12/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="assortment-management"></a>Управление ассортиментом
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Обзор
 Microsoft Dynamics 365 for Retail предоставляет *ассортименты*, которые позволяют управлять доступность продукта в разных каналах. Ассортименты определяют, какие продукты доступны в конкретных магазинах и в течение определенного периода.
@@ -35,25 +36,25 @@ Microsoft Dynamics 365 for Retail предоставляет *ассортиме
 ### <a name="basic-assortment-setup"></a>Базовая настройка ассортимента
 В следующем примере уникальный ассортимент настраивается для каждого магазина. В этом случае только продукт 1 доступен в магазине 1, и только продукт 2 доступен в магазине 2.
 
-![Каждый продукт доступен в одном магазине](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure1.png?raw=true "Каждый продукт доступен в одном магазине")
+![Каждый продукт доступен в одном магазине](./media/Managing-assortments-figure1.png)
 
 Чтобы сделать продукт 2 доступным в магазине 1, можно добавить продукт в ассортимент 1.
 
-![Продукт 2 добавлен в ассортимент 1](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure2.png?raw=true "Продукт 2 добавлен в ассортимент 1")
+![Продукт 2 добавлен в ассортимент 1](./media/Managing-assortments-figure2.png)
 
 Можно также добавить магазин 1 в ассортимент 2.
 
-![Магазин 1 добавлен в ассортимент 2](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure3.png?raw=true "Магазин 1 добавлен в ассортимент 2")
+![Магазин 1 добавлен в ассортимент 2](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Организационные иерархии
 В ситуациях, когда несколько каналов используют одинаковые ассортименты продуктов, можно настраивать ассортименты с использованием организационной иерархии розничного ассортимента Retail. При добавлении узлов из этой иерархии, будут включены все каналы в этом узле и его дочерних узлах.
 
-![Организационная иерархия](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure4.png?raw=true "Организационная иерархия")
+![Организационная иерархия](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Категории продуктов
 Аналогично, со стороны продукта можно включить группы продуктов с помощью иерархий категорий продуктов. Можно настроить ассортименты, включая один или несколько узлов иерархии категорий. В этом случае ассортимент будет включать все продукты в этом узле категорий и его дочерних узлах.
 
-![Категории продуктов](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure5.png?raw=true "Категории продуктов")
+![Категории продуктов](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Исключенные продукты или категории
 Помимо включения продуктов и категорий в ассортименты, можно использовать параметр "Исключить" для определения конкретных продуктов или категорий, которые должны быть исключены из ассортиментов. В следующем примере необходимо включить все продукты из конкретной категории, за исключением продукта 2. В этом случае не нужно определить ассортимент, перечисляя все продукты, или создавать дополнительные узлы категорий. Вместо этого можно просто включить категорию, но исключить продукт.
@@ -61,7 +62,7 @@ Microsoft Dynamics 365 for Retail предоставляет *ассортиме
 > [!NOTE]
 > Если продукт является как включенным, так и исключенным в одном или нескольких ассортиментов по определению, продукт будет всегда считаться исключенным.
 
-![Исключенный продукт](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure6.png?raw=true "Исключенный продукт")
+![Исключенный продукт](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Глобальные и запущенные в производство продукты
 Ассортименты определяются на глобальном уровне и могут содержать каналы от нескольких юридических лиц. Продукты и категории, которые включены в ассортименты, также являются общими для юридических лиц. Однако продукт должно быть выпущен, прежде чем его можно будет продавать, заказывать, инвентаризировать или получать в канале (например, в POS-терминале \[POS\]). Таким образом, хотя два магазина в различных юридических лицах могут совместно использовать ассортимент, который содержит одинаковые продукты, продукты доступны только в том случае, если они были выпущены для этих юридических лиц.

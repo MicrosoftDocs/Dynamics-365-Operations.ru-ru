@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 88570a8dc9da6f6a2b4d3a9499e1ea406f681451
-ms.openlocfilehash: 4608f43a3db9308881d4737e49df949190e3ede2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18ae41c3c1b19edc2d56a7e3480890c8aea28054
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/14/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Определения столбцов в финансовых отчетах
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья содержит сведения об определениях столбцов. Определение столбца — это компонент отчета или строительный блок, который определяет содержимое столбцов в отчете. Как и определения строк, базовые определения столбцов можно использовать в нескольких отчетах.
 
@@ -583,7 +583,7 @@ ms.lasthandoff: 04/14/2018
 
 Сумму в столбце можно разделить на указанное число периодов. Например, формула **B/Periods** разделяет значение в столбце B на число периодов в столбце B. Если вычисление занимает множество столбцов, укажите число периодов для использования в вычислении. Например, формула **(B+C)/Periods** складывает количество в столбце B и столбце C, и после этого разделяет результат на значение периода.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Определения строк в финансовой отчетности](row-definitions-financial-reporting.md)

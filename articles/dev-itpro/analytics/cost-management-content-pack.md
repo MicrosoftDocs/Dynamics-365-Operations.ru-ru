@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -38,8 +38,7 @@ ms.lasthandoff: 04/13/2018
 > [!Note]
 > Содержимое Power BI **Управление затратами**, описанное в этом разделе, относится к Dynamics 365 for Finance and Operations 8.0.
 > 
-> Пакет содержимого Power BI **Управление затратами**, опубликованный на сайте PowerBI.com, является устаревшим. Дополнительные сведения об этом устаревании см. в разделе [Пакеты содержимого Power BI, опубликованные на PowerBI.com](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom).
-
+> Пакет содержимого Power BI **Управление затратами**, доступный на сайте AppSource, является устаревшим. Дополнительные сведения об этом устаревании см. в разделе [Пакеты содержимого Power BI, доступные в AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Это содержимое Power BI предоставляет формат по категориям, который помогает контролировать эффективность запасов и визуально отображать, как через них проходят затраты. Можно получить аналитику для менеджеров, такую как коэффициент товарооборота, количество дней, когда запасы находятся в наличии, точность и "ABC-классификация" на требуемом уровне обобщения (компания, номенклатура, номенклатурная группа или место). Информация, которая становится доступна, может также использоваться как подробное приложение к финансовой отчетности.
 

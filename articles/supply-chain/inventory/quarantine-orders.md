@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 515f14e72137f7299093cc6e75cb8e6eec2893fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9a05c35d2e4a9e3ad81421eac863d182e8a6b499
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quarantine-orders"></a>Карантинные заказы
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе описывается, как карантинные заказы используются для блокировки запасов.
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="quarantine-order-scrap"></a>Отправка карантинного заказа в отходы
 В рамках обработки карантинного заказа запасы можно отправлять в отходы. При обработке отхода для запасов устанавливается статус **Продано** посредством проводки расхода из карантинного склада.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Блокировка запасов](inventory-blocking.md)

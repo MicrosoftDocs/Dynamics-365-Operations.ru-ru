@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 055001c992e70ceacf57cf25a8bf83207d8d7334
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d9c7bcb8cae7b17636ffc0c87bb1147b9d27a6c8
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-financial-reports"></a>Просмотр финансовых отчетов
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье описывается, как просматривать и изучать финансовые отчеты в Microsoft Dynamics 365 for Finance and Operations. Она содержит сведения о различных параметрах, которые можно применить к финансовым отчетам, чтобы изменить их внешний вид и данные, которые они содержат.
 
@@ -84,7 +84,7 @@ ms.lasthandoff: 03/26/2018
 ## <a name="export-a-financial-report"></a>Экспорт финансового отчета
 Чтобы экспортировать финансовый отчет, в области действий нажмите кнопку **Экспорт**. Отчет будет экспортирован в Microsoft Excel, и браузер выдаст запрос на открытие или сохранение экспортированного файла. Параметры экспорта, которые определены в дизайне отчета, будут применены к экспортированному отчету.    
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Финансовая отчетность в Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)

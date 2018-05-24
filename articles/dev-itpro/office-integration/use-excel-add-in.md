@@ -38,9 +38,6 @@ ms.lasthandoff: 04/13/2018
 
 Для получения дополнительных сведений об использовании надстройки Excel, посмотрите короткое видео [Создание шаблона Excel для шаблонов заголовка и строк в Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
-
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Открытие данных объекта в Excel при запуске из Finance and Operations
 1. На странице в Finance and Operations выберите **Открыть в Microsoft Office**.
 

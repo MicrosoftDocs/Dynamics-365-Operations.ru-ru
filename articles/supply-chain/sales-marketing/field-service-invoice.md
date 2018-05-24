@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 1863814d6dd645da8602495858d024fbad2e7149
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -95,4 +95,16 @@ ms.lasthandoff: 04/11/2018
 Убедитесь, что значение по умолчанию для поля Finance and Operations **Отображаемое значение счета ГК** обновлено в соответствии с нужным значением.
 
 Значение шаблона по умолчанию — **401100**.
+
+## <a name="template-mapping-in-data-integration"></a>Сопоставление шаблона в интеграции данных
+
+На следующем рисунке показано сопоставление шаблона в интеграции данных.
+
+### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-headers"></a>Накладные по соглашению (из Field Service в Fin and Ops): заголовки накладной
+
+[![Сопоставление шаблона в интеграции данных](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+
+### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Накладные по соглашению (из Field Service в Fin and Ops): строки накладной
+
+[![Сопоставление шаблона в интеграции данных](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 

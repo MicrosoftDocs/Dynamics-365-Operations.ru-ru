@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7cc6ba50b8df54eadc9a23990a58d1d37365cb6a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-control-overview"></a>Обзор управления затратами 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Рабочая область **Управление затратами** является центральной точкой, где менеджеры, ответственные за управление объектом затрат или группой объектов затрат в пределах аналитики или нескольких аналитик (например, центр затраты и группы продуктов) могут получить доступ к отчетам. Отчеты в рабочей области полностью управляются бухгалтерами по затратам, поэтому макет и данные, которые используются создания отчетов, могут быть согласованными по всей организации.
 
@@ -154,7 +154,7 @@ ms.lasthandoff: 11/03/2017
 
 ![Расчеты по объекту затрат](./media/cost-entries-allocation-base.png)
 
-См. также 
+Дополнительные ресурсы 
 
 [Определение прав доступа для контроллеров объектов затрат](access-rights-cost-object-controller.md)
 

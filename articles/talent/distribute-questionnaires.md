@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3954ec2a06c7a2ec964b656e088f8c677094c963
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 61aebf9190bd7f76a8d4d3e80c06adae1d27f7a3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Распределение и заполнение анкеты
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 В этом разделе объясняется, как распределить составленные анкеты, чтобы они были доступны отдельному пользователю или группе пользователей, которые должны ее заполнить. 
 
@@ -124,7 +124,7 @@ ms.lasthandoff: 02/07/2018
 
 Анкеты могут быть сделаны доступными для всех пользователей сети, либо для всех пользователей в сети.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Создание анкет](design-questionnaires.md)

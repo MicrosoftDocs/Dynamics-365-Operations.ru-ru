@@ -18,16 +18,16 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 2d0fb4de84838f1778625d977bdd2ceeaac61f8c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Содержимое Power BI для анализа учета затрат
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой теме описывается, что входит в содержимое Microsoft Power BI **Анализ учета затрат**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
 
@@ -44,12 +44,14 @@ ms.lasthandoff: 12/18/2017
 Определив безопасность уровня доступа в модуле учета затрат и объединив его безопасностью уровня строк в Power BI, можно предоставить доступ всем владельцам объектов затрат доступ к содержимому **Анализ учета затрат** Power BI. Все данные в визуализациях затем фильтруются на основе уровня доступа, который контролируется в модуле учета затрат. Для получения дополнительных сведений о безопасности уровня доступа и безопасности уровня строк, см. в разделе [Настройка безопасности для содержимого учета затрат для Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
-Содержимое **Анализ учета затрат** Power BI можно найти в библиотеке общих ресурсов в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). Чтобы просмотреть демонстрацию, которая показывает, как реализовать содержимое Power BI, см. [Содержимое Power BI от Майкрософт и ваших партнеров в службах Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) (Office mix).
+Содержимое **Анализ учета затрат** Power BI можно найти в библиотеке общих ресурсов в Microsoft Dynamics Lifecycle Services (LCS). Дополнительные сведения о том, как загрузить содержимое и реализовать его в вашей организации, см. в разделе [Содержимое Power BI в LCS от Майкрософт и ваших партнеров](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). 
+
+<!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
 Обязательно загрузите содержимое **Анализ учета затрат**, которое применяется к версии Microsoft Dynamics 365, которую вы используете.
 
 > [!NOTE]
-> KB 4011327 является обязательным условием для этого содержимого Power BI. После входа в службы LCS, этот KB можно найти здесь: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+> KB 4011327 является обязательным условием для этого содержимого Power BI. После входа в LCS доступ к базе знаний можно получить на странице <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Показатели, которые включены в содержимое Power BI
 Содержимое включает в себя набор страниц отчета. Каждая страница состоит из набора показателей, которые отображаются в виде диаграмм, плиток и таблиц. В следующей таблице приводится обзор визуализации в содержимом **Анализ учета затрат** Power BI.

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 73d1a3316db7589d114c70a4dbf847dc67aa077b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a>Создание финансового отчета
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В данном разделе содержится информация о создании финансового отчета. 
 
@@ -155,11 +155,11 @@ ms.lasthandoff: 12/01/2017
 | Исключение выбранного шаблона  | Alt+X                      |
 | Исключение выбранного определения строки  | Ctrl+B                     |
 | Исключение выбранного значения измерения | Ctrl+D                     |
-| Открыть выбранное определение отчета  | Ctrl+R                     |
-| Открыть выбранное определение строки     | Ctrl+O                     |
+| Открытие выбранного определения отчета  | Ctrl+R                     |
+| Открытие выбранного определения строки     | Ctrl+O                     |
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Финансовая отчетность](financial-reporting-intro.md)

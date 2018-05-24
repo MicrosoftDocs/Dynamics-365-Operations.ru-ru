@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Элементы статистической аналитики и шаблоны поставщика статистической меры
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Статистическая аналитика и ее элементы используются для регистрации и контроля немонетарных записей в модуле "Учет затрат". Элементы статистической аналитики можно использовать для двух целей:
 
@@ -344,7 +344,7 @@ ms.lasthandoff: 03/26/2018
 | CC002       | FI | 4,100.00  | (4100 ÷ 21550) × сумма  |
 | CC003       | СП | 15,000.00 | (15000 ÷ 21550) × сумма |
 
-## <a name="see-also"></a>См. также
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Базы распределения](allocation-bases.md)
 

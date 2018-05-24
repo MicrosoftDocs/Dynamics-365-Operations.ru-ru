@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 7ae83192924a790451d8da511638c7fc1cd92f90
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f87238b3b2f6e7cc68bf2f1a7cd3a21254f3599a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Просмотр и оценка результатов анкеты
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 В этом разделе объясняется, как просмотреть и оценить результаты анкет, заполненных респондентами. 
 
@@ -73,7 +73,7 @@ ms.lasthandoff: 03/08/2018
 
 Указанные параметры сохраняются и могут использоваться для периодического повторного расчета результатов.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Создание анкет](design-questionnaires.md)

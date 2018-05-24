@@ -20,16 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
-ms.openlocfilehash: b99d1d30fc320bca5c49921b7c4ccdd7e977f67c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eac70614770189d1e45f347b282c94e645e95b00
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>Добавление элемента управления рекомендациями на странице проводки на устройстве POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE]
 > Мы удаляем текущую версию службы рекомендации продуктов, так как мы переработали эту функцию с использованием более эффективного алгоритма и новыми возможностями, предназначенными для розничной торговли. Подробнее см. в разделе [Удаленные или устаревшие функции](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). 
@@ -78,10 +78,10 @@ ms.lasthandoff: 02/07/2018
 12. Щелкните **Запустить сейчас**.
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Обзор персональных рекомендаций по продуктам](personalized-product-recommendations.md)
+[Обзор персонализированных рекомендаций по продуктам](personalized-product-recommendations.md)
 
 
 

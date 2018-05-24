@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4fbcc83123ce11a8f9208226a67a01e43b255bab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ea1386bc06c0e91a2d1f23dd05794ca6ff99106a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Определения строк в конструкторе финансовых отчетов
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Определение строки — это компонент отчета или строительный блок, который указывает содержимое каждой строки в финансовом отчете. Определения строки можно объединить с определениями столбцов, определениями дерева отчетности и определениями отчетов, чтобы создать группу строительных блоков, которую можно использовать во множестве компаний.
 
@@ -172,7 +172,7 @@ ms.lasthandoff: 11/03/2017
 2.  Щелкните правой кнопкой мыши минимизированный столбец для отображения и щелкните **Показать**.
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Финансовая отчетность](financial-reporting-intro.md)

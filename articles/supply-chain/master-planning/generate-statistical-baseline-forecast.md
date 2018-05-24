@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c71d7632cfdafe48eee49c848982dfa85116df75
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-statistical-baseline-forecast"></a>Сгенерировать статистический базовый прогноз
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья содержит информацию о параметрах и фильтрах, которые используются для расчета прогноза спроса. 
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/03/2017
 
 Если прогноз создается не для большого набора элементов, а для одного элемента или одного ключа распределения номенклатуры, то для получения более высокой производительности можно установить флажок **Использовать режим отклика на запрос** на вкладке **Сводное планирование — Настройка — Прогнозирование спроса** - **Параметры прогнозирования спроса — Azure Machine Learning**.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Настройка прогнозирования спроса](demand-forecasting-setup.md)

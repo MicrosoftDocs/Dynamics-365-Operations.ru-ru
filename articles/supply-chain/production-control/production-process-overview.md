@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>Обзор производственного процесса
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Этот раздел содержит обзор производственных процессов. В ней описываются различные этапы производственных заказов, заказов партии и канбанов, начиная с создания заказа до закрытия финансового периода. 
 
@@ -78,7 +78,7 @@ ms.lasthandoff: 11/03/2017
 12. **Закрытие периода** — некоторые принципы калькуляции себестоимости, такие как периодическое среднее, backflush-расчет себестоимости, FIFO или LIFO, требуют периодических действий для закрытия инвентарного или финансового периода. Обычно система пытается сообщить о всем потреблении материалов и ресурсов, и также коррекциях запасов и утиля перед тем, как периоды будут закрыты. Эта отчетность обычно выполняется с помощью журналов движения запасов или журналов корректировки. Цель — оценка экономических показателей операционных единиц за период. В некоторых случаях, когда используются длительные производственные заказы, охватывающие несколько периодов финансовой отчетности, используются журналы производства для информирования о ходе производства и потреблении ресурса в конце периода.
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Обратная связь производства](production-feedback.md)

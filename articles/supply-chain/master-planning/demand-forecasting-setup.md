@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 974edd06460df4afe594b0a033a042b8c2763f7f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-setup"></a>Настройка прогнозирования спроса
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе описывается, как настроить задачи, которые необходимо выполнить, чтобы подготовиться к прогнозированию спроса.  
 
@@ -78,7 +78,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>Параметры для сервиса машинного обучения прогнозирования спроса Finance and Operations
 Для просмотра параметров, которые можно настроить для сервиса прогнозирования спроса Finance and Operations, перейдите в раздел **Сводное планирование** &gt; **Настройка** &gt; **Прогнозирование спроса** &gt; **Параметры алгоритма прогнозирования**. На странице **Параметры алгоритма прогнозирования** показаны значения по умолчанию для этих параметров. Можно переопределить эти параметры на странице **Параметры прогнозирования спроса**. Воспользуйтесь вкладкой **Общие**, чтобы перезаписать параметры глобально, или вкладкой **Ключи распределения номенклатуры**, чтобы перезаписать параметры для отдельных ключей распределения номенклатуры. Параметры, которые перезаписаны для ключа распределения номенклатуры, влияют только на прогноз номенклатур, которые связаны с ключом.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Вводные сведения о прогнозировании спроса](introduction-demand-forecasting.md)

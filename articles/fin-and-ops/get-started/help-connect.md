@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c0942b66859da3659be49b19986bfd146ac43130
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="connect-the-help-system"></a>Подключение к системе справки
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой теме описываются компоненты системы Справки для Microsoft Dynamics 365 for Finance and Operations. В нем приводится обзор того, как подключить эти компоненты, и сводку того, как создать собственную справку. 
 
@@ -72,7 +72,7 @@ ms.lasthandoff: 11/03/2017
 
 Если вы являетесь партнером и обновляете библиотеку до корпоративной библиотеки и включаете ее в решение, она будет доступна вашим клиентам. Вы также можете сделать копию глобальной унифицированной библиотеки APQC, а затем открыть копию, открыть записи задач из нее, изменить их и сохранить записи с изменениями. Дополнительные сведения см. в разделе [Создание записи задачи для использования как документации или обучения](../../dev-itpro/user-interface/task-recorder.md).
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Обзор справки](help-overview.md)

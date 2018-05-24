@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 78dd1b5e0a19690ffefdb03de495061ef51f2e16
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ec1286f1f3fb75cefd40f3982ec62d5ed078299c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Определения дерева отчетности в финансовых отчетах
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья содержит сведения об определениях дерева отчетности. Определение дерева отчетности — компонент отчета или строительный блок, который помогает определить структуру и иерархию организации.
 
@@ -206,7 +206,7 @@ ms.lasthandoff: 04/13/2018
 
 [![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
-# <a name="see-also"></a>См. также
+# <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Финансовая отчетность](financial-reporting-intro.md)
 

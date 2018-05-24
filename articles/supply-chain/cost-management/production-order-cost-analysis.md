@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 703070ae85f504cf204244b2197732dc6849abd6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 40ac5108216fd6d9eb5cd6e76fefd66828a7da84
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-order-cost-analysis"></a>Анализ затрат по производственному заказу
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье приводятся сведения об анализе затрат, который можно выполнить для завершенных и текущих производственных заказов. Вы можете анализировать оценочные и фактические затраты, используя страницу "Расчет цены" или отчет "Оценка затрат и калькуляция себестоимости". Можно просматривать сведения об оценочных и фактических затратах (и количестве) для каждых компонентной номенклатуры, операции маршрутизации и элемента косвенных затрат.
 
@@ -59,10 +59,10 @@ ms.lasthandoff: 11/03/2017
 -   **Приемка номенклатуры в обработке** — в этом отчете перечисляются текущие производственные заказы и проводки по учету готовой номенклатуры на указанную дату проводки.
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Распространенные источники производственных отклонений](common-sources-of-production-variances.md)
+[Общие источники отклонений цены производства от себестоимости](common-sources-of-production-variances.md)
 
 
 

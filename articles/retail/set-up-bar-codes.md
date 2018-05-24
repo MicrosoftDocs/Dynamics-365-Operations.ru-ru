@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bfb47e653cc3ef36135fd7c4f60771a354699af7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4ad8c2a984229b96cc5b81c0fd505a264ba58f0
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-bar-codes"></a>Настройка штрих-кодов
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 В этой статье описывается, как использовать штрих-коды в Microsoft Dynamics 365 for Retail.
 
@@ -41,10 +41,10 @@ ms.lasthandoff: 11/03/2017
 4.  Создание штрих-кодов для продуктов.
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Настройка масок штрих-кодов](set-up-bar-code-masks.md)
+[Настройка масок штрихкодов](set-up-bar-code-masks.md)
 
 
 

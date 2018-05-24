@@ -3,7 +3,7 @@ title: "Решение \"Перспективный клиент в наличн
 description: "В этой теме представлен обзор решения \"Перспективный клиент в наличные деньги\" между Microsoft Dynamics 365 for Finance and Operations и Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 04/03/2018
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,22 +20,24 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bc0fa8fe3e20ae4be3e572932f99ccc54e3b746b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f43b3943ce27c44cc0b4756d1d5f23e3be093273
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prospect-to-cash"></a>Решение "Перспективный клиент в наличные деньги"
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Решение "Перспективный клиент в наличные деньги" обеспечивает прямую синхронизацию между Dynamics 365 for Finance and Operations и Dynamics 365 for Sales. Шаблоны "Перспективный клиент в наличные деньги", доступные в компоненте интеграции данных, обеспечивают движение данных для организаций, контактов, продуктов, предложений по продажам, заказов на продажу и накладных по продажам между Finance and Operations и Sales. Во время выполнения обмена данными между Finance and Operations и Sales вы можете выполнять мероприятия по продажам и маркетингу в Sales и обрабатывать выполнение заказов с помощью управления запасами в Finance and Operations. 
 
 Дополнительные сведения об интеграции решения "Перспективный клиент в наличные деньги" см. в коротком видео на YouTube:
 
 > [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
+
+[Интеграции решения "Перспективный клиент в наличные деньги" (видео на YouTube)](https://youtu.be/AVV9x5x-XCg) 
 
 В текущей версии решение "Перспективный клиент в наличные деньги" предоставляет следующие типы прямой синхронизации:
 
@@ -76,7 +78,7 @@ ms.lasthandoff: 04/13/2018
   - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** — требуется поддержка интеграции решения "Перспективный клиент в наличные деньги" с помощью информационных объектов.
     
     > [!NOTE]
-    > После установки исправлений необходимо запустить следующее пакетное задание из формы **SalesPopulateProspectToCash**. Эта форма скрыта, так как она требуется только один раз. Для доступа к форме выполните вход в среду и добавьте следующее в URL-адрес в веб-браузере: &mi=action:SalesPopulateProspectToCash, Например, `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Когда форма откроется, щелкните OK. При этом новое поле **LineCreationSequnceNumber** в таблицах **SalesLine**, **SalesQuotationLine** и **CustInvoiceTrans** будет заполнено уникальными значениями, и будет обновлен список продуктов. Это необходимо для работы интеграции решения "Перспективный клиент в наличные деньги".
+    > После установки исправлений необходимо запустить следующее пакетное задание из формы **SalesPopulateProspectToCash**. Эта форма скрыта, так как она требуется только один раз. Для доступа к форме выполните вход в среду и добавьте следующее в URL-адрес в веб-браузере: *&mi=action:SalesPopulateProspectToCash*, например `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Когда форма откроется, щелкните OK. При этом новое поле **LineCreationSequnceNumber** в таблицах **SalesLine**, **SalesQuotationLine** и **CustInvoiceTrans** будет заполнено уникальными значениями, и будет обновлен список продуктов. Это необходимо для работы интеграции решения "Перспективный клиент в наличные деньги".
 
 
 ## <a name="system-requirements-for-sales"></a>Системные требования для Sales
