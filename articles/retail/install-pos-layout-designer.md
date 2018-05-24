@@ -20,16 +20,16 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8fdebf692bd3cd8500274cc73ca5b0591dba4140
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30adfefd5ec70ddce348dab2481d518875e01ff2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>Установка конструктора макета Retail POS
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Можно использовать конструктор одним щелчком, чтобы создать различные макеты Retail Modern POS (MPOS) и Cloud POS в альбомном или портретном режиме для магазинов, регистров, кассиров и менеджеров.
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 11/03/2017
 
 **Известная проблема:** конструктор не работает правильно в браузерах Google Chrome и Mozilla Firefox. Мы работаем, чтобы устранить эту проблему.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Настройка, загрузка, установка и активирование Retail Modern POS](retail-modern-pos-device-activation.md)

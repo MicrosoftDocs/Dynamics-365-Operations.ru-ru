@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d8a443d03f8eb2d6ff44d869964b47b6569ce4c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ac83ec4f37f5bafde30e5afc131a138df8dae419
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-entries"></a>Записи затрат
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье представлена информация о записях затрат и когда они созданы. Запись затрат — это запись, регистрирующая количество и стоимость данного события.
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 11/03/2017
 > [!NOTE]
 > Записи затрат доступны только для [объектов затрат](cost-object.md) или выпущенных продуктов.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Объекты затрат](cost-object.md)

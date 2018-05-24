@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4252112272e2f86c2c18dc399a713bf652e4228e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6ab1d60839131b3d4bb1782319754ba63d54cfd7
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-with-customers"></a>Совместная работа с клиентами
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе описывается, как можно использовать модуль совместной работы с поставщиками для работы с клиентами в Microsoft Dynamics 365 for Finance and Operations. Поставщики могут выполнять ряд бизнес-процессов из следующих рабочих областей:
 
@@ -141,7 +141,7 @@ ms.lasthandoff: 03/26/2018
 
 Доступны следующие сведения: название поставщика, адреса, контактная информация, контактные лица и их контактные данные, идентификационные номера, налоговые регистрационные номера, категории закупаемой продукции, для которых поставщик утвержден для продажи клиенту, и сведения о сертификации.
 
-## <a name="see-also"></a>См. также
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Ведение пользователей совместной работы с поставщиками](manage-vendor-collaboration-users.md)
 

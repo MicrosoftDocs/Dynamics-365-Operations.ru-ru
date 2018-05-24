@@ -20,16 +20,16 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 4026fa937ddf88f006cdcd13a8eda10c326ada62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 95e7f5179ac88c0cd6b2336a914c2c527d37d57f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="routes-and-operations"></a>Маршруты и операции
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В данном разделе содержится общая информация о маршрутах и операциях. Маршрут определяет процесс для производства продукта или варианта продукта. Он описывает каждый шаг (операцию) в производственном процессе и порядок, в котором следует выполнять эти шаги. Для каждого шага маршрут также определяет необходимые операционные ресурсы, необходимое время настройки и время выполнения, а также порядок расчета затрат.
 
@@ -230,12 +230,12 @@ ms.lasthandoff: 03/09/2018
 -   **Пакет ресурсов** — этот вариант в целом аналогичен варианту **Партия**. Однако вычисление включает поле **Объем пакета** из операционного ресурса. Поэтому время зависит от ресурса.
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Спецификации и формулы](bill-of-material-bom.md)
 
-[Категории затрат, используемые в производственной маршрутизации](../cost-management/cost-categories-used-production-routings.md)
+[Категории затрат, используемые в маршрутизации производства](../cost-management/cost-categories-used-production-routings.md)
 
 [Возможности ресурса](resource-capabilities.md)
 

@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 838dc40fb3fa2b0de7fa131850754c3674266d73
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Новые или обновленные руководства по задачам (август 2016 г.)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе перечислены новые или обновленные руководства по задачам, выпущенные в унифицированной библиотеке APQC (август 2016 г. — все языки) от Майкрософт для Microsoft Dynamics AX. Новая библиотека начала работы не была выпущена.
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Руководства по задачам в унифицированной библиотеке APQC (август 2016 г. — все языки) для Microsoft Dynamics AX
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Руководства по задачам в унифицированной библиотеке APQC (август 2016 г. — все языки) для Microsoft Dynamics AX
 ---------------------------------------------------------------------------------------------------
 
 Унифицированная библиотека APQC (август 2016 г. — все языки) содержит руководства по задачам, которые предназначены для использования в справке по обновлению 2 платформы Microsoft Dynamics AX (за август 2016 г., обновлению приложения Dynamics AX за май 2016 г. и выпуску Microsoft Dynamics AX за февраль 2016 г. Дополнительные сведения об этих выпусках см. в разделе [Что нового и что изменилось](whats-new-changed.md). Локализованные версии руководств по задачам доступны в данной библиотеке. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Начало работы со справкой](help-overview.md).
@@ -97,7 +97,7 @@ ms.lasthandoff: 11/06/2017
 
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Новые руководства по задачам (февраль 2016 г.)](new-task-guides-available-february-2016.md)

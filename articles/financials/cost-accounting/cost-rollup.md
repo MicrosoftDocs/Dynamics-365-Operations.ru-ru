@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 044a943eeba91f5dbebd4dcd70bc8152c4109037
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Политика свертки затрат и расчет накладных расходов 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Учет затрат позволяет получить точное представление, как поток затрат относится к продуктам и услугам, поставляемым в рамках организации. Чтобы просмотреть прозрачность затрат, очень важно получить распределение затрат между объектами затрат на основании соответствующих распределений. По умолчанию распределение затрат получается для элемента основных затрат, который необходим в некоторых ситуациях, однако есть ряд последствий, которые необходимо учитывать.
 
@@ -297,7 +297,7 @@ ms.lasthandoff: 11/03/2017
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="additional-resources"></a>Дополнительные ресурсы
 -  [Аналитики объекта затрат](cost-objects.md)
 -  [Аналитики элемента затрат](cost-elements.md)
 -  [Иерархии аналитик](dimension-hierarchy.md)

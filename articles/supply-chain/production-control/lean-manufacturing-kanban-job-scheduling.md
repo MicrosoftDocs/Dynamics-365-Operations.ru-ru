@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6ac4c1afecb72d4007d830a9927bd3171ddd48ec
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5f1044e6731fd757532e34292109b9d81ca38719
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Планирование заданий канбана для бережливого производства
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья представлена информация о визуальном контроле над планированием заданий канбана и различных способов для планирования заданий канбана.  
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 11/03/2017
 
 На странице **Планирование заданий канбана** имеется информационное поле, в котором отображается доступная и зарезервированная мощность периода для выбранной производственной ячейки. В зависимости от выбранных периодов планирования в модели производственного потока периоды отображаются как дни или как недели.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 

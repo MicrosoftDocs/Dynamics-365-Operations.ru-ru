@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ba1b158908ac2328c29f7efe23756248be5be33c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fe8d8812aaa78c7b5558615f586940488f2dc1b2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-items-lent-to-workers"></a>Управление номенклатурами, сданными в аренду работникам
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Арендованные номенклатуры для временного пользования — это записи, позволяющие менеджерам отслеживать физические номенклатуры, сдаваемые организацией в аренду работникам. 
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 04/13/2018
 Если номенклатура оказывается поврежденной или замененной, зарегистрируйте воображаемый возврат. Затем либо удалите номенклатуру, либо сохраните ее в обзоре и измените описание, чтобы показать недоступность номенклатуры.
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Управление персоналом](index.md)

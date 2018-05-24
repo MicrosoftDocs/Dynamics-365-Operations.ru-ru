@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 6a0455c5d86f953e270501a7f1648f7700f717d0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 20eb67a341f462328bc73907fb3052b3405190d4
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-overview"></a>Обзор прогнозирования спроса
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Прогнозирование спроса используется для прогнозирования независимого спроса по заказам на продажу и зависимого спроса в любой точке разъединения для заказов клиента. Правила уменьшения расширенного прогнозирования спроса являются идеальным решением для массовой настройки.
 
@@ -72,7 +72,7 @@ ms.lasthandoff: 02/13/2018
 ## <a name="limitations"></a>Ограничения
 Прогнозирование спроса в Finance and Operations — это инструмент, с помощью которого клиенты в производственной отрасли могут создавать процессы прогнозирования. Он обеспечивает базовую функциональность решения для прогнозирования спроса и создан таким образом, что его легко расширить. Прогнозирование спроса может не идеально подходить для клиентов в розничной, оптовой, складской отрасли, сфере транспортировки и других профессиональных услуг.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Настройка прогнозирования спроса](demand-forecasting-setup.md)

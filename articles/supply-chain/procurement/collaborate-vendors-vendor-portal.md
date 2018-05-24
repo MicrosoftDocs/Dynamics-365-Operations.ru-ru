@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 25dd62081e4a6e196bffaa6cc72ff40ed68c736c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Сотрудничество с поставщиками с помощью портала поставщика
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе описывается, как специалисты по закупкам могут использовать портал поставщиков, чтобы сотрудничать со внешними поставщиками в процессе подтверждения заказа на покупку. Эта информация относится только к версиям Dynamics AX от февраля 2016 г. и мая 2016 г.
 
@@ -96,7 +96,7 @@ ms.lasthandoff: 04/13/2018
 |                           Вы отправляете новую версию заказа на покупку на портал поставщиков.                            |                                                                                                                                                                    Новая версия регистрируется на портале поставщиков, и статус меняется на <strong>На внешнем рассмотрении</strong>.                                                                                                                                                                     |
 |                                Поставщик утверждает новую версию заказа на покупку.                                 |                                                                                                                                                     Статус меняется на <strong>Подтверждено</strong> либо автоматически, либо когда вы получаете ответ от поставщика и затем подтверждаете заказ на покупку.                                                                                                                                                     |
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Настройка безопасности для пользователей совместной работы с поставщиками](configure-security-vendor-portal-users.md)

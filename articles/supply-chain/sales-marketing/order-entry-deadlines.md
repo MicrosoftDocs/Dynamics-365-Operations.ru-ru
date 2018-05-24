@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 31308e64d4871a4d09540df16fdcd02cc83bd0be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4f3905f364ea67eab226323fd3450ebed30e4735
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="order-entry-deadlines"></a>Крайние сроки ввода заказа
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья содержит сведения о крайних сроках ввода заказа. Крайний срок ввода заказа — это крайнее время, которое определяет, обрабатывается ли (и выполняется ли) заказ клиента, как если бы он был получен в текущий день или на следующий день.
 
@@ -103,7 +103,7 @@ ms.lasthandoff: 11/03/2017
 
 **Примечание.** Если действует летнее время, крайние сроки ввода заказов соответствующим образом корректируются.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Графики поставки](delivery-schedules.md)

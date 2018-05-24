@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c5d13024ba15744f81406c4c8f5d5d33de658d63
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cea4aec80bc0b519a6b393724835555b4d0937a8
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-fixed-compensation-plans"></a>Создание планов фиксированных компенсаций
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Фиксированная компенсация ссылается на регулярную общую арплату или зарплаты сотрудника регулярную большую. Этот раздел описывает компоненты, которые необходимо настроить перед использованием плана фиксированной компенсации и регистрацией сотрудников.
 
@@ -101,10 +101,10 @@ ms.lasthandoff: 04/13/2018
 
 Система проверяет, что сумма компенсации, указанная для плана компенсации ступенчатого или ленточного типа, находится в пределах минимальной и максимальной опорных точек для данного уровня компенсации в задании сотрудника. Если сумма компенсации выходит за пределы допустимого диапазона, отображается предупреждение или сообщение об ошибке в зависимости от уровня допуска, заданного для плана фиксированной компенсации.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Планы компенсации](compensation-plans.md)
+[Планы компенсационных выплат](compensation-plans.md)
 
 
 

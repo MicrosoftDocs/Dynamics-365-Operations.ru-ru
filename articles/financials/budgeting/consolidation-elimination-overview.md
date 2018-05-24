@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 60dd33f296a37f0010a948c410738ce5486b780e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4c966badd87b80e203f475cc632f5388ad1d8e5
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="consolidation-and-elimination-overview"></a>Обзор консолидации и Закрытия
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье приводятся общие сведения о процессе консолидации и закрытия. Она включает ответы на некоторые часто задаваемые вопросы.
 
@@ -88,7 +88,7 @@ ms.lasthandoff: 11/03/2017
 Путем использования параметра **Экспорт сальдо компаний**, чтобы экспортировать от одного экземпляра, и после этого используя параметр **Консолидировать с импортом** на другом экземпляре, вы можете консолидировать данные.
 
 
-Дополнительные сведения см. в разделе [Валютная переоценка в компании консолидации](..\general-ledger\currency-revaluation-consolidation-company.md).
+Дополнительные сведения см. в разделе [Валютная переоценка в компании консолидации](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
 

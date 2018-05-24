@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d6828860d9e56dc8db80a11b4b611b9c0fdc2b62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a5dcc294b3dde7dc7e0f789d9e7678b75bc699b0
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-requisition-workflow"></a>Документооборот заявок на закупку
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Бизнес-процесс переносит заявки на покупку во время проверки, начиная со статуса "Черновик", заканчивая финальным статусом "Утверждено". После отправки заявки на покупку на рассмотрение запускается бизнес-процесс. После того, как заявка на покупку утверждена, для строк заявки на покупку может создаваться заказ на покупку, который отправляется поставщику для выполнения заказа.
 
@@ -106,7 +106,7 @@ ms.lasthandoff: 11/03/2017
 
 Для использования одного из рецензентов расхода, которого вы настраиваете в workflow-процессе, вы должны задать для параметра **Тип участника** значение **Участники расходов** в свойствах **Назначение** для соответствующего элемента workflow-процесса.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Создание заявки на потребление (проводник по задаче)](tasks/create-requisition-consumption.md)

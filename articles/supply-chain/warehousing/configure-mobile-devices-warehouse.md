@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Настройка мобильных устройств для работы склада
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье описывается, как настроить пункты меню, используемые работниками склада для выполнения работы на мобильном устройстве.
 
@@ -407,10 +407,10 @@ ms.lasthandoff: 04/13/2018
 
 **Примечание.** Вы можете требовать подтверждения продукта только для типов работ "комплектация" и "складирование".
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Параметры отображения для мобильного устройства на складе](change-warehouse-mobile-device-displays.md)
+[Параметры отображения мобильного устройства склада](change-warehouse-mobile-device-displays.md)
 
 [Настройка пункта меню мобильного устройства для выполнения работы типа заказа на покупку (проводник по задаче)](tasks/set-up-mobile-device-menu.md)
 

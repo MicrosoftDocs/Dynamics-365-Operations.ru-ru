@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f3891688542ac6d4f9afce026808c65992a592d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2642ced283d815ad671512cc5a17e531e9169f91
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="use-tracing-for-explosion"></a>Использование трассировки для развертывания
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья описывает, как можно использовать трассировку, чтобы исследовать причины результата развертывания заказа.
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/03/2017
 
 Вы можете просматривать информацию о фьючерсах и действия для выбранного заказа. На странице **Развертывание** отслеживание информации доступно на вкладке **Объяснение** в верхней области. Трассировка происходит при развертывании заказа. Чтобы начать трассировку для заказа щелкните **Обновить**, а затем установите флажок **Включить трассировку**. Можно использовать поле **Найти текст** для поиска конкретной информации в журнале. Результаты поиска будут выделены в дереве.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Сводные планы](master-plans.md)

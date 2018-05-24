@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ddb035eaa496a7c84f117f0523d509eccdf58505
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9da40e90982d9d4aca38890ed121782f4236712d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cycle-counting"></a>Цикличный подсчет
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья описывает, как можно использовать подсчет циклов с решением складирования, которое доступно в модуле управления складом. Эта статья не относится к решению складирования, доступному в модуле управления запасами.
 
@@ -136,7 +136,7 @@ ms.lasthandoff: 11/03/2017
 
 Можно скорректировать значения разницы в подсчитанном значении, а затем принять подсчитанное значение на странице **Ожидающий просмотра подсчет циклов**. Можно проверить измененный подсчет количества номенклатуры на странице **В наличии по местонахождению**. Подсчитанное значение отклоняется, если разницу невозможно утвердить.
 
-## <a name="see-also"></a>См. также
+## <a name="additional-resources"></a>Дополнительные ресурсы
 [Настройка мобильных устройств для работы склада](configure-mobile-devices-warehouse.md)
 
 

@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 22264f0d82844e63bc7fc42705184c6ecc27e28d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c71ce3045bd91a136288016cb55b460f7ac787ae
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-purchase-orders"></a>Создание заказов на покупку
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 В данной статье описывается процесс и параметры, доступные при создании заказа на покупку вручную.
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 11/03/2017
 
 Может потребоваться отложить выполнение заказа на покупку. Например, могут потребоваться дополнительные сведения о продуктах или услугах или может потребоваться получить авторизацию для расхода. Существует несколько способов задержать заказ. Например, можно отложить подтверждение заказа. Либо, если используется workflow-процесс управления изменениями, можно не отправлять заказ для утверждения. Если необходимо заблокировать все заказы для конкретного поставщика, можно также пометить поставщика как **Заблокировано** для обработки в шаблоне поставщика. Также существуют ситуации, которые могут не позволить обработать заказ. Например, обработка может быть недоступна, если превышены кредитные лимиты или недоступны требуемые бюджетные средства.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Обзор заказа на покупку](purchase-order-overview.md)

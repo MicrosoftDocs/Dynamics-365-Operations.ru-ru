@@ -18,16 +18,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 45717bc1a7093c0282d214fc4ce5fdf153bb14a1
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Настройка электронной отчетности для загрузки данных в Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе описывается, как можно использовать конфигурацию электронной отчетности (ER), чтобы настроить перенос данных из вашего экземпляра Finance and Operations в службы Power BI. В качестве примера в этом разделе используются проводки Интрастат как бизнес-данные, которые необходимо перенести. Визуализация карты Power BI использует эти данные о проводках Интрастат для представления анализа мероприятий импорта или экспорта компании в отчете Power BI.
 
@@ -132,7 +132,7 @@ Microsoft Power BI представляет собой набор програм
 2. Выберите созданный вами отчет Power BI **Сведения об импорте и экспорте**, чтобы показать этот отчет как пункт действий на выбранной странице. 
 3. Нажмите на пункт действия, чтобы открыть страницу Finance and Operations, на которой отображается отчет, созданный в Power BI. [![Отчет со сведениями об импорте и экспорте](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Места назначения электронной отчетности](electronic-reporting-destinations.md)

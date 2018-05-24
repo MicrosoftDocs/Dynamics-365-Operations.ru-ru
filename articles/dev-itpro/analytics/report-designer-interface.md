@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69766e1bf37955bfd4d7253c1b7881780d491d1c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 683d3de59a427df296bb0d3d644f0ec23b3a8e5e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-designer-interface"></a>Интерфейс конструктора отчетов
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье объясняется, как перемещаться по конструктору отчетов и как использовать различные параметры в соответствии с конкретными требованиями. 
 
@@ -220,11 +220,11 @@ ms.lasthandoff: 11/03/2017
 | [![Кнопка "Определение столбца"](./media/columnc130389.png)](./media/columnc130389.png)                 | Отображение определения столбцов, назначенного для активного определения отчета.                                                                                                 |
 | [![Кнопка "Определение дерева отчетности"](./media/treec130389.png)](./media/treec130389.png)             | Отображение определения аналитической структуры, назначенного для активного определения отчета.                                                                                         |
 | [![Кнопка "Report Viewer"](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Запуск средства просмотра отчетов и отображение последней версии созданного отчета. Данная кнопка доступна в определении отчета, если создан хотя бы один отчет. |
-| [![Кнопка "Создать отчет"](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Создать отчет из активного определения отчета. Эта кнопка доступна из определения отчета.                                                                      |
+| [![Кнопка "Создать отчет"](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Формирование отчета на основе активного определения отчета. Кнопка доступна в определении отчета.                                                                      |
 
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Финансовая отчетность](financial-reporting-intro.md)

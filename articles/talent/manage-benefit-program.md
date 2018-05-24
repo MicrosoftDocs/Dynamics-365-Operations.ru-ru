@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7344fad7c4dffabd99993924604e2e497bebc5ef
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc325b519299098a4f8257c013bce0842237f9ea
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="define-and-manage-a-benefits-program"></a>Определение и управление программой льгот
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Человеческие ресурсы обеспечивают комплект инструментов, которые можно использовать для того, чтобы настроить и поддержать льготы, вычеты, и планы компенсации работников, которые организация предлагает или обрабатывает для своих работников. Этот раздел обеспечивает информацию, как настроить преимущества и управлять ими.
 
@@ -66,10 +66,10 @@ ms.lasthandoff: 04/13/2018
 
 Подобным образом, массовое продление льготы позволяет вам продлить дату истечения срока как льготы, так и регистрации работника на эту льготу, если вы решаете предложить льготу дольше, чем вы первоначально запланировали.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Политики приемлемости льготы](benefit-eligibility-policies.md)
+[Политики прав на льготы](benefit-eligibility-policies.md)
 
 
 

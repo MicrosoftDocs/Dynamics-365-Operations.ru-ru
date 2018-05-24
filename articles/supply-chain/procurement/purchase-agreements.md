@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a47c631b265262f78e0fb3d956a98a7c9e9f5172
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-agreements"></a>Договоры покупки
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта статья представляет информацию о договорах покупки. Договор покупки представляет собой контракт, по которому организация обязана приобрести указанное количество или объем продукции с использованием нескольких заказов на покупку. Взамен этого обязательства покупатель получает специальные цены и скидки. 
 
@@ -91,7 +91,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Финансовые аналитики договоров покупки
 Финансовые аналитики можно скопировать в заголовки документа или в отдельные строки договора покупки. Если вы изменяете аналитики в заголовке договора или в строке договора, изменение не влияет на выпущенные заказы, но будет отражено во всех новых заказах.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Создание договора покупки (проводник по задаче)](tasks/create-purchase-agreement.md)

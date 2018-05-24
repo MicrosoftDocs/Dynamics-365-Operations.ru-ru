@@ -19,16 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d1ee87dbe9dab089a893d9c69d2573a4c4b11b58
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Просмотр и экспорт описаний полей
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье описываются способы просмотра описаний полей и использования страницы "Описания полей" для экспорта описаний.
 
@@ -97,7 +97,7 @@ ms.lasthandoff: 04/13/2018
 
 Сведения о различных способах поиска страниц см. в разделе "Поиск страниц" ранее в этой статье. Если вы ввели точное имя страницы, описания полей могут не отображаться, если существует несколько страниц с одинаковым именем. Щелкните стрелку в поле **Выбор страницы**, чтобы открыть отфильтрованный список доступных страниц.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Настройка справки полей](../../dev-itpro/user-interface/customize-field-help.md)

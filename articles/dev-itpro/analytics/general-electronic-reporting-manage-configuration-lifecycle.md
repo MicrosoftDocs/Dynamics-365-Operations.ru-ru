@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eecd53d181a086a5cf295f54f9fa72aa2960c272
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f3d6463ab07aaaf69a16aa0d59840cbe47427335
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Управление жизненным циклом конфигураций электронной отчетности
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе описывается управление жизненным циклом конфигураций электронных отчетов (ER) для решения Microsoft Dynamics 365 for Finance and Operations.
 
@@ -74,7 +74,7 @@ ms.lasthandoff: 11/03/2017
 
 Разработанные в среде разработки конфигурации ER можно отправлять в тестовую среду для оценки конфигурации (надлежащей интеграции в процесс, правильности результатов и быстродействия) и контроля качества, например правильности обуславливаемых ролями прав доступа и разделения обязанностей. Функции, которые включают обмен конфигурациями ER, можно использовать для этой цели. И наконец, проверенные конфигурации ER можно либо отправлять в LCS, где их можно сделать доступными подписчикам службы, либо в производственную среду для внутреннего использования, как показано на следующем рисунке. ![Жизненный цикл конфигурации электронной отчетности](./media/ger-configuration-lifecycle.png)
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Обзор электронной отчетности](general-electronic-reporting.md)

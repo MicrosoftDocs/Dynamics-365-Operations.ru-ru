@@ -18,16 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3db07708df55c24108c66797885318486b2b1003
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7708c8e091ef561c1a4205a1424a51d51d05002f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-november-2016"></a>Новые или обновленные руководства по задачам (ноябрь 2016 г.)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе перечислены новые или обновленные руководства по задачам, выпущенные в унифицированной библиотеке APQC (ноябрь 2016 г. — все языки) от Майкрософт для Microsoft Dynamics 365 for Operations. Новая библиотека начала работы не была выпущена.
 
@@ -587,7 +587,7 @@ ms.lasthandoff: 04/13/2018
 |                       Настройка автоматической выверки фрахта                       |     Глобально     |
 |              <strong>\</strong>*Настройка перераспределения номенклатур для недоукомплектованности              |     Глобально     |
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Доступны новые руководства по задачам (февраль 2016 г.)](new-task-guides-available-february-2016.md)

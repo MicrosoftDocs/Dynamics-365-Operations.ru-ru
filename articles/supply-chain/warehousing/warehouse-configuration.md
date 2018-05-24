@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-configuration"></a>Конфигурация склада
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье описывается, как настроить склад. Она включает информацию о том, как включить макет склада и процессы склада.
 
@@ -112,7 +112,7 @@ ms.lasthandoff: 03/26/2018
 
 Чтобы упростить и ускорить определение действий, которые связаны с каждой строкой директивы местонахождений, используйте одну из предопределенных стратегий. Например, можно использовать стратегию **Пустое местонахождение без входящих работ** для поиска свободных местонахождений на складе или можно использовать стратегию **Резервирование партии по FEFO** для исходящей комплектации для продаж.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Настройка мест хранения на складе, на котором включена система управления складом (проводник по задаче)](tasks/configure-locations-wms-enabled-warehouse.md)

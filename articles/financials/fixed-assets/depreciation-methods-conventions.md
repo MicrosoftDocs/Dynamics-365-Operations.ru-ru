@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: eb38de1e7e39cb66d15bfe344f6f5fcd5d4fccd7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f545b0a9abbd7c797afead67917cf80f4cbe0dae
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="depreciation-methods-and-conventions"></a>Методы амортизации и соглашения по амортизации
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой статье представлен обзор соглашений по амортизации и методы амортизации, которые поддерживаются Microsoft Dynamics 365 for Finance and Operations.
 
@@ -65,12 +65,12 @@ ms.lasthandoff: 03/26/2018
 
 
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Амортизация ОС](fixed-asset-depreciation.md)
 
-[Амортизация срока службы (прямолинейный метод)](Straight-line-service-life-depreciation.md)
+[Линейная амортизация срока службы](Straight-line-service-life-depreciation.md)
 
 [Уменьшение амортизации баланса](reduce-balance-depreciation.md)
 

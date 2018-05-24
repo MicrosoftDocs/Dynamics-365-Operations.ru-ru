@@ -19,16 +19,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fbf7edbd141f5e94c333b64beedf9126d2900d47
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>Создание документации или обучения с помощью записей задач
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе объясняется, что такое Регистратор задач и руководства по задачам, как создать записи задач и как настроить руководства по задачам Microsoft и включить их в вашу Справку.
 
@@ -118,7 +118,7 @@ ms.lasthandoff: 03/26/2018
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Включение записей задач в область "Справка"
 Чтобы отобразить собственные пользовательские записи задач в области "Справка", чтобы их можно было воспроизвести как руководства по задачам или просмотреть как текст, необходимо сохранить записи задач в собственной библиотеке BPM, а затем обновить параметры системы справки, чтобы она указывала на вашу библиотеку BPM. Дополнительные сведения см. в разделе [Подключение системы справки.](../../fin-and-ops/get-started/help-connect.md)
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Обзор справки](../../fin-and-ops/get-started/help-overview.md)

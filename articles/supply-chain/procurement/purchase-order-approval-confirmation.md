@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1c7209c91f3821a77e9b127d767c78df403ff6cc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 475470fa87455e187e0a93148046cb1df634da1f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="approve-and-confirm-purchase-orders"></a>Утверждение и подтверждение заказов на покупку
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 В этой статье описываются статусы, через которые проходит заказ на покупку после его создания, и влияние включения управления изменениями в заказе на покупку.
 
@@ -75,14 +75,14 @@ ms.lasthandoff: 11/03/2017
 
 После подтверждения заказа его невозможно удалить. Однако можно отменить общее количество или любое оставшееся количество в заказе при условии, что количество еще не было получено или по нему не была выставлена накладная.
 
-<a name="see-also"></a>См. также
+<a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
 [Обзор заказа на покупку](purchase-order-overview.md)
 
 [Создание заказа на покупку](purchase-order-creation.md)
 
-[Поступление продуктов по заказу на покупку](product-receipt-against-purchase-orders.md)
+[Поступление продуктов по заказам на покупку](product-receipt-against-purchase-orders.md)
 
 [Обзор накладных поставщика](../../financials/accounts-payable/vendor-invoices-overview.md)
 

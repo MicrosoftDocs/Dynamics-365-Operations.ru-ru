@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Конструктор формул в электронной отчетности
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этом разделе описывается, как использовать конструктор формул в электронной отчетности (ER). При проектировании формата для определенного электронного документа в ER можно использовать формулы для преобразования данных, чтобы они отвечали требованиям для выполнения и форматирования этого документа. Эти формулы напоминают формулы в Microsoft Excel. В формулах поддерживаются различные типы функций: текст, дата и время, математические логические, информация, преобразование типа данных, и другое (характерные для конкретных бизнес-доменов функции).
 
@@ -647,7 +647,7 @@ ms.lasthandoff: 04/13/2018
 
 ER позволяет расширение перечня функций, используемых в выражениях ER. Для этого требуются некоторые усилия со стороны разработчика. Дополнительные сведения см. в разделе [Расширение списка функций электронной отчетности](general-electronic-reporting-formulas-list-extension.md).
 
-## <a name="see-also"></a>См. также
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор электронной отчетности](general-electronic-reporting.md)
 
