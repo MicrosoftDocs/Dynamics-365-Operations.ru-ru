@@ -3,7 +3,7 @@ title: "Пакетное выполнение для оповещений"
 description: "В этой теме представлены сведения о пакетной обработке оповещениях в Microsoft Dynamics 365 for Finance and Operations."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -25,8 +25,6 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="batch-processing-for-alerts"></a>Пакетная обработка оповещений
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 Оповещения обрабатываются функцией пакетной обработки в Microsoft Dynamics 365 for Finance and Operations. Необходимо настроить пакетную обработку, прежде чем станет возможна доставка оповещений.
 
