@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6f0257d6a16d3d53953e1fbbf023109425fa6844
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: f2aa55ae4258f5ef81456b92278415297c194d66
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -34,10 +34,7 @@ ms.lasthandoff: 05/08/2018
 
 Возможность добавления настраиваемых полей доступна в обновлении платформы 13 или более поздней версии.
 
-Это видео показывает, насколько просто можно добавить настраиваемое поле на страницу.
-
-
-> [!Video https://www.youtube.com/embed/gWSGZI9Vtnc]
+Это видео показывает, насколько просто можно добавить настраиваемое поле на страницу: [Добавление настраиваемых полей в Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
 ## <a name="creating-custom-fields"></a>Создание пользовательских полей
 Определив дополнительную информацию, которую вы хотите отслеживать в приложении, можно создать настраиваемое поле в соответствующей таблице и отобразить это новое поле на странице.   

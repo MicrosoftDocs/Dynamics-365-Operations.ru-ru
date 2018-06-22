@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1fcd82f34178e9bac72dc387399fc78e1bc5529e
+ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
+ms.openlocfilehash: 5211270eb45749529c38b3d3d9af974e7650d632
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/24/2018
 
 ---
 
 # <a name="create-service-subscriptions-from-a-project"></a>Создание подписок на обслуживание из проекта    
 
-[!include [баннер](../includes/banner.md)
+[!include [banner](../includes/banner.md)]
 
 
 Можно создать подписку на обслуживание из проекта в модуле **Управление и учет по проектам**.
@@ -41,7 +41,7 @@ ms.lasthandoff: 05/08/2018
 
 4.  Введите остальные сведения в форму.
 
-Теперь для этой подписки можно создавать проводки по подписке.
+Теперь для этой подписки можно создавать транзакции по подписке.
 
 
 > [!NOTE]

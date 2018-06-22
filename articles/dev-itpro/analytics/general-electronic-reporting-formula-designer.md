@@ -3,7 +3,7 @@ title: "Конструктор формул в электронной отчет
 description: "В этом разделе описывается, как использовать конструктор формул в электронной отчетности (ER)."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/27/2017
+ms.date: 04/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
+ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
+ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/25/2018
 
 ---
 
@@ -217,13 +217,13 @@ ms.lasthandoff: 05/08/2018
 | NULLDATE () | Возврат значения даты **null**. | |
 | NULLDATETIME () | Возврат значение даты/времени **null**. | |
 | DATETIMEFORMAT (дата и время, формат) | Преобразование указанного значения даты/времени в строку в указанном формате. (Сведения о поддерживаемых форматах см. разделы [стандартный](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "дд-ММ-гггг")** возвращает текущую дату сервера приложений Finance and Operations, 24 декабря 2015, как **"24-12-2015"**, на основе указанного настраиваемого формата. |
-| DATETIMEFORMAT (дата и время, формат, культура) | Преобразование указанного значения даты/времени в строку в указанном формате и [культуре](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Сведения о поддерживаемых форматах см. в разделах [стандартный](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (NOW(), "d", "de")** возвращает текущую дату сервера приложений Finance and Operations, 24 декабря 2015, как **"24.12.2015"**, на основе выбранного немецкого языкового стандарта. |
+| DATETIMEFORMAT (дата и время, формат, культура) | Преобразование указанного значения даты/времени в строку в указанном формате и [культуре](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Сведения о поддерживаемых форматах см. разделы [стандартный](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** возвращает текущую дату сервера приложений Finance and Operations, 24 декабря 2015, как **"24.12.2015"**, на основе выбранного немецкого языкового стандарта. |
 | SESSIONTODAY () | Возврат даты текущей сессии Finance and Operations в качестве значения даты. | |
 | SESSIONNOW () | Возврат даты и времени текущей сессии Finance and Operations в качестве значения даты/времени. | |
 | DATEFORMAT (дата, формат) | Возвращает строковое представление указанной даты в указанном формате. | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** возвращает дату текущей сессии Finance and Operations, 24 декабря 2015, как **"24-12-2015"**, на основе указанного настраиваемого формата. |
-| DATEFORMAT (дата, формат, культура) | Преобразование указанного значения даты в строку в указанном формате и [культуре](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Сведения о поддерживаемых форматах см. в разделах [стандартный](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** возвращает дату текущей сессии Finance and Operations, 24 декабря 2015, как **"24.12.2015"**, на основе выбранного немецкого языкового стандарта. |
+| DATEFORMAT (дата, формат, культура) | Преобразование указанного значения даты в строку в указанном формате и [культуре](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Сведения о поддерживаемых форматах см. разделы [стандартный](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** возвращает дату текущей сессии Finance and Operations, 24 декабря 2015, как **"24.12.2015"**, на основе выбранного немецкого языкового стандарта. |
 | DAYOFYEAR (дата) | Возвращает целочисленное представление числа дней между 1 января и указанной датой. | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** возвращает **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** возвращает **1**. |
-| DAYS (дата 1, дата 2) | Возвращает число дней между первой указанной датой и второй указанной датой. Возвращает положительное значение, если первая дата позднее второй даты, возвращает **0** (ноль), когда первая дата равна второй дате, или возвращает отрицательное значение в противном случае. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** возвращает **-1**. |
+| DAYS (дата 1, дата 2) | Возвращает число дней между первой указанной датой и второй указанной датой. Возвращает положительное значение, если первая дата позднее второй даты, возвращает **0** (ноль), когда первая дата равна второй дате, или возвращает отрицательное значение, когда первая дата раньше, чем вторая дата. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** возвращает **-1**. |
 
 ### <a name="data-conversion-functions"></a>Функции преобразования данных
 
@@ -238,113 +238,125 @@ ms.lasthandoff: 05/08/2018
 ### <a name="list-functions"></a>Функции для работы со списками
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Функция</th>
 <th>описание</th>
 <th>Пример</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>SPLIT (ввод, длина)</td>
 <td>Разделение указанной строки ввода на подстроки, каждая из которых имеет заданную длину. Возврат результата как новый список.</td>
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> возвращает новый список, который состоит из 2 записей, которые имеют поле <strong>STRING</strong>. Поле в первой записи содержит текст <strong>&quot;abc&quot;</strong>, и поле во второй записи содержит текст <strong>&quot;d&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>SPLITLIST (список, номер)</td>
 <td>Разделение указанного списка на партии, каждый из содержит заданный количество записей. Возврат результата как новый список партий, который содержит следующие элементы:
 <ul>
 <li>Партии как регулярные списки (компонент <strong>Значение</strong>)</li>
 <li>Номер текущего пакета (компонент <strong>BatchNumber</strong>)</li>
-</ul></td>
+</ul>
+</td>
 <td>На следующем рисунке источник данных <strong>Строки</strong> создается как список записей из трех записей. Этот список разделяется на пакеты, каждый из которых содержит до двух записей.
 <p><a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></p>
 <p>На следующем рисунке показан созданный макет формата. В этом макете формата привязки к источнику данных <strong>Строки</strong> создаются для создания выходных данных в формате XML. Эти выходные данные представляют отдельные узлы для каждого пакета и записей в нем.</p>
 <p><a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a></p>
 <p>На следующем рисунке показан результат выполнения созданного формата.</p>
-<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LIST (запись 1 [, запись 2, …])</td>
 <td>Возвращает новый список, который создан из определенных аргументов.</td>
 <td><strong>LIST (model.MainData, model.OtherData)</strong> возвращает пустую запись, где список полей содержит все поля списков записей <strong>MainData</strong> и <strong>OtherData</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LISTJOIN (список 1, список 2, …)</td>
 <td>Возвращает соединенный список, который создан из списков определенных аргументов.</td>
 <td><strong>LISTJOIN (SPLIT (&quot;abc&quot;, 1), SPLIT (&quot;def&quot;, 1))</strong> возвращает список из шести записей, где одно поле типа данных <strong>STRING</strong> содержит по одной букве.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>ISEMPTY (список)</td>
 <td>Возврат <strong>TRUE</strong>, если указанный список не содержит никаких элементов. В противном случае возврат <strong>FALSE</strong>.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>EMPTYLIST (список)</td>
 <td>Возврат пустого списка с использованием указанного списка в качестве источника для структуры списка.</td>
 <td><strong>EMPTYLIST (SPLIT (&quot;abc&quot;, 1))</strong> возвращает новый пустой список, который имеет такую же структуру, как список, который возвращен функцией <strong>SPLIT</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>FIRST (список)</td>
 <td>Возврат первой записи определенного списка, если эта запись не пуста. В противном случае создается исключение.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>FIRSTORNULL (список)</td>
 <td>Возврат первой записи определенного списка, если эта запись не пуста. В противном случае возврат записи <strong>NULL</strong>.</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LISTOFFIRSTITEM (список)</td>
 <td>Возврат списка, содержащий только первый элемент указанного списка.</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>ALLITEMS (путь)</td>
-<td>Возврат нового плоского список, представляющий все элементы, соответствующие указанному пути. Путь должен быть определен как действительный путь источника данных для элемента источника данных с типом данных списка записей. Элементы данных, такие как строка пути и дата, должны вызывать ошибку в построителе выражения ER во время разработки.</td>
+<td>Эта функция работает как выбор в памяти. Возврат нового плоского список, представляющий все элементы, соответствующие указанному пути. Путь должен быть определен как действительный путь источника данных для элемента источника данных с типом данных списка записей. Элементы данных, такие как строка пути и дата, должны вызывать ошибку в построителе выражения ER во время разработки.</td>
 <td>Если ввести <strong>SPLIT(&quot;abcdef&quot; , 2)</strong> в качестве источника данных (DS), <strong>COUNT( ALLITEMS (DS.Value))</strong> возвращает <strong>3</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
+<td>ALLITEMSQUERY (путь)</td>
+<td>Эта функция работает как объединенный SQL-запрос. Возврат нового плоского список, представляющий все элементы, соответствующие указанному пути. Указанный путь должен быть определен как действительный путь источника данных для элемента источника данных с типом данных списка записей и должен содержать по крайней мере одну связь. Элементы данных, такие как строка пути и дата, должны вызывать ошибку в построителе выражения ER во время разработки.</td>
+<td>Определите следующие источники данных в соответствии вашей модели:
+<ul>
+<li><strong>CustInv</strong> (тип<strong>Записи таблицы</strong> ), который относится к таблице CustInvoiceTable</li> 
+<li><strong>FilteredInv</strong> (тип<strong>Рассчитаное поле</strong> ) содержит выражение <strong>ФИЛЬТЕР (CustInv, CustInv.InvoiceAccount = &quot;US-001&quot;)</strong></li>
+<li><strong>JourLines</strong> (тип<strong>Рассчитанное поле</strong> ) содержит выражение <strong>ALLITEMSQUERY (FilteredInv.'&lt;Relations'.CustInvoiceJour.'&lt;Relations'.CustInvoiceTrans)</strong></li>
+</ul>
+<p>При выполнении соответствия вашей модели для обращения к источнику данных <strong>JourLines</strong>, выполняется следующая инструкция SQL:</p>
+ВЫБЕРИТЕ ... ИЗ CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUSTINVOICETRANS T3, ГДЕ...
+</td>
+</tr>
+<tr>
 <td>ORDERBY (список [,выражение 1, выражение 2, …])</td>
 <td>Возврат указанного списка после его сортировки в соответствии с указанными аргументами. Эти аргументы могут определяться как выражения.</td>
 <td>Если <strong>Поставщик</strong> настраивается в качестве источника данных ER, который ссылается на таблицу VendTable, <strong>ORDERBY (Vendors, Vendors.&#39;name()&#39;)</strong> возвращает список поставщиков, который отсортирован по имени в восходящем порядке.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>REVERSE (список)</td>
 <td>Возврат указанного списка в обращенном порядке сортировки.</td>
 <td>Если <strong>Поставщик</strong> настраивается в качестве источника данных ER, который ссылается на таблицу VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;name()&#39;)) )</strong> возвращает список поставщиков, который отсортирован по имени в нисходящем порядке.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>WHERE (список, условие)</td>
 <td>Возврат указанного списка после его фильтрации в соответствии с указанным условием. Указанное условие применяется к списку в памяти. Таким образом, функция <strong>WHERE</strong> отличается от функции <strong>FILTER</strong>.</td>
 <td>Если <strong>Поставщик</strong> настраивается в качестве источника данных ER, который ссылается на таблицу VendTable, <strong>WHERE(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> возвращает список только поставщиков, которые относятся к группе поставщиков 40.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>ENUMERATE (список)</td>
 <td>Возврат нового списка, состоящей из перечисленных записей определенного списка, и с использованием следующие элементов:
 <ul>
 <li>Определенные записи списка как регулярные списки (компонент <strong>Значение</strong>)</li>
 <li>Индекс текущей записи (<strong>Номер</strong> компонента)</li>
-</ul></td>
+</ul>
+</td>
 <td>На следующем рисунке источник данных <strong>Enumerated</strong> создается как нумерованный список записей поставщика из источника данных <strong>Vendors</strong>, который ссылается на таблицу VendTable.
 <p><a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a></p>
 <p>На следующем рисунке показан формат. В этом формате привязки данных создаются для создания выходных данных в формате XML. Эти выходные данные представляют отдельных поставщиков как перечислимые узлы.</p>
 <p><a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a></p>
 <p>На следующем рисунке показан результат выполнения созданного формата.</p>
-<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>COUNT (список)</td>
 <td>Возврат количества записей определенного списка, если список не пуст. В противном случае возврат <strong>0</strong> (ноль).</td>
 <td><strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> возвращает <strong>2</strong>, поскольку функция <strong>SPLIT</strong> создает список, который состоит из двух записей.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LISTOFFIELDS (путь)</td>
 <td>Возвращает список записей, который создается из аргумента одного из следующих типов:
 <ul>
@@ -358,7 +370,8 @@ ms.lasthandoff: 05/08/2018
 <li>Этикетка</li>
 <li>описание</li>
 </ul>
-Во время выполнения поля <strong>Метка</strong> и <strong>Описание</strong> возвращают значения, основанные на настройках языка для формата.</td>
+Во время выполнения поля <strong>Метка</strong> и <strong>Описание</strong> возвращают значения, основанные на настройках языка для формата.
+</td>
 <td>На следующем рисунке показано перечисление, введенное в модели данных.
 <p><a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a></p>
 <p>Следующая иллюстрация показывает эти детали:</p>
@@ -372,10 +385,10 @@ ms.lasthandoff: 05/08/2018
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>На следующем рисунке показан результат выполнения созданного формата.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>
-На основе параметров языка родительских элементов формата FILE и FOLDER переведенный текст для меток и описаний вводится в выходные данные формата электронной отчетности.</blockquote></td>
+<blockquote>[!NOTE]<br>На основе параметров языка родительских элементов формата FILE и FOLDER переведенный текст для меток и описаний вводится в выходные данные формата электронной отчетности.</blockquote>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LISTOFFIELDS (путь, язык)</td>
 <td>Возвращает список записей, созданный из аргумента, например перечисление модели, перечисление формата или контейнер. Созданный список состоит из записей, которые имеют следующие поля:
 <ul>
@@ -384,26 +397,27 @@ ms.lasthandoff: 05/08/2018
 <li>описание</li>
 <li>Переведено</li>
 </ul>
-<p>Во время выполнения поля <strong>Метка</strong> и <strong>Описание</strong> возвращают значения, основанные на параметрах языка для формата и указанного языка. Поле <strong>Переведено</strong> указывает, что поле <strong>Метка</strong> было переведено на указанный язык.</td>
+Во время выполнения поля <strong>Метка</strong> и <strong>Описание</strong> возвращают значения, основанные на параметрах языка для формата и указанного языка. Поле <strong>Переведено</strong> указывает, что поле <strong>Метка</strong> было переведено на указанный язык.
+</td>
 <td>Например, можно использовать тип источника данных <strong>Вычисляемое поле</strong> для настройки источников данных <strong>enumType_de</strong> и <strong>enumType_deCH</strong> для перечисления модели данных <strong>enumType</strong>:
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-В этом случае можно использовать следующее выражение для получения метки значения перечисления на немецком языке (Швейцария), если этот перевод доступен. Если перевод на немецкий язык (Швейцария) недоступен, метка будет на немецком языке: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.</td>
+В этом случае можно использовать следующее выражение для получения метки значения перечисления на немецком языке (Швейцария), если этот перевод доступен. Если перевод на немецкий язык (Швейцария) недоступен, метка будет на немецком языке: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>STRINGJOIN (список, имя поля, разделитель)</td>
 <td>Возвращает строку, состоящую из связанных значений указанного поля из указанного списка. Значения разделяются указанным разделителем.</td>
-
-<td>Если ввести <strong>SPLIT(&quot;abc&quot; , 1)</strong> в качестве источника данных (DS), выражение <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> возвращает <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
-
+<td>Если ввести <strong>SPLIT(&quot;abc&quot; , 1)</strong> в качестве источника данных (DS), <strong>STRINGJOIN (DS, DS.Value, &quot;-&quot;)</strong> вернется <strong>&quot;a-b-c&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>SPLITLISTBYLIMIT (список, значение предела, источник предела)</td>
-<td>Разделяет указанный список на новый список подсписков и возвращает результаты в содержимом списка записей. Параметр предельного значения определяет значение предела для разделения исходного списка. Параметр предела источника определяет шаг, на котором увеличивается общая сумма. Предел не применяется к одному элементу исходного списка, если источник предела превышает заданный предел.</td>
-<td>На следующих рисунках показана формат и источники данных, которые используются для него. 
+<td>Разделяет указанный список на новый список подсписков и возвращает результаты в содержимом списка записей. Параметр <strong>предельное значение</strong> определяет значение предела для разделения исходного списка. Параметр <strong>источника предела</strong> определяет шаг, на который увеличивается общая сумма. Предел не применяется к одному элементу исходного списка, если источник предела превышает заданный предел.</td>
+<td>На следующем рисунке показан формат. 
 <p><a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="Format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a></p>
+<p>На следующих рисунках показаны источники данных, которые используются для формата.</p>
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
 <p>На следующем рисунке показан результат выполнения формата. В этом случае выводится плоский список товарных номенклатур.</p>
 <p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
@@ -412,13 +426,13 @@ ms.lasthandoff: 05/08/2018
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>На следующем рисунке показан результат выполнения скорректированного формата.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>
-Предел не применяется к последнему элементу исходного списка, так как значение (11) источника предела (вес) превышает заданный предел (9). Используйте функцию <strong>WHERE</strong> или выражение <strong>Включено</strong> соответствующего элемента формата, чтобы игнорировать (пропустить) подсписки во время создания отчета по мере необходимости.</blockquote></td>
+<blockquote>[!NOTE]<br>Предел не применяется к последнему элементу исходного списка, так как значение (11) источника предела (вес) превышает заданный предел (9). Используйте функцию <strong>WHERE</strong> или выражение <strong>Включено</strong> соответствующего элемента формата, чтобы игнорировать (пропустить) подсписки во время создания отчета по мере необходимости.</blockquote>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>FILTER (список, условие)</td>
 <td>Возврат указанного списка после изменения запроса для фильтрации в соответствии с указанным условием. Эта функция отличается от функции <strong>WHERE</strong>, так как указанное условие применяется на уровне базы данных к любому источнику данных ER с типом <strong>Записи таблицы</strong>. Список и условие могут определяться с помощью таблиц и связей.</td>
-  <td>Если <strong>Поставщик</strong> настраивается в качестве источника данных ER, который ссылается на таблицу VendTable, <strong>FILTER(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> возвращает список только поставщиков, которые относятся к группе поставщиков 40. Если <strong>Поставщик</strong> настроен в качестве источника данных ER, который ссылается на таблицу <strong>VendTable</strong> и <strong>parmVendorBankGroup</strong>, настроенный как источник данных ER возвращает значение строкового типа данных, <strong>FILTER (Vendor.&#39;&lt;Relations&#39;.VendBankAccount, Vendor.&#39;&lt;Relations&#39;.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> возвращает список только счетов поставщиков, входящих в конкретную банковскую группу.</td>
+<td>Если <strong>Поставщик</strong> настраивается в качестве источника данных ER, который ссылается на таблицу VendTable, <strong>FILTER(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> возвращает список только поставщиков, которые относятся к группе поставщиков 40. Если <strong>Поставщик</strong> астроен в качестве источника данных электронной отчетности, который ссылается на таблицу <strong>VendTable</strong> и <strong>parmVendorBankGroup</strong> настроенный как источник данных электронной отчетности возвращает значение строкового типа данных <strong>String</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> возвращает список только счетов поставщиков, входящих в конкретную банковскую группу.</td>
 </tr>
 </tbody>
 </table>
@@ -441,9 +455,9 @@ ms.lasthandoff: 05/08/2018
 | POWER (число, степень) | Возврат результата возведения указанного положительного значения в определенную степень. | **POWER (10, 2)** возвращает **100**. |
 | NUMBERVALUE (строка, десятичный разделитель, разделитель групп цифр) | Преобразование указанной строки в число. Указанный десятичный разделитель используется между целой и дробной частями десятичного числа. Указанный разделитель групп разрядов используется в качестве разделителя тысяч. | **NUMBERVALUE("1 234,56", ",", " ")** возвращает значение **1234.56**. |
 | VALUE (строка) | Преобразование указанной строки в число. Символы запятой и точки (.) считаются десятичными разделителями, и ведущий дефис (-) используются в качестве отрицательного знака. Создается исключение, если указанная строка содержит другие символы, не являющиеся цифрами. | **VALUE ("1 234,56")** создает исключение. |
-| ROUND (число, десятичных знаков) | Возвращает указанное число после его округления до указанного числа десятичных знаков:<ul><li>Если значение параметра десятичных знаков больше 0 (нуля), указанное число округляется до этого числа десятичных знаков.</li><li>Если значение параметра десятичных знаков равно **0** (ноль), указанное число округляется до ближайшего целого.</li><li>Если значение параметра десятичных знаков меньше 0 (нуля), указанное число округляется слева от десятичного разделителя.</li></ul> | **ROUND (1200.767, 2)** округляет до двух десятичных знаков и возвращает **1200.77**. **ROUND (1200.767, -3)** округляет до ближайшего числа, кратного тысяче, и возвращает **1000**. |
-| ROUNDDOWN (число, десятичных знаков) | Возвращает указанное число после его округления вниз до указанного числа десятичных знаков.<blockquote>[!NOTE]<br>Эта функция поступает как <strong>ROUND</strong>, но она всегда округляет указанное число вниз (в направлении нуля).</blockquote> | **ROUNDDOWN (1200.767, 2)** округляет вниз до двух десятичных знаков и возвращает **1200.76**. **ROUNDDOWN (1700.767, -3)** округляет вниз до ближайшего числа, кратного тысяче, и возвращает **1000**. |
-| ROUNDUP (число, десятичных знаков) | Возвращает указанное число после его округления вверх до указанного числа десятичных знаков.<blockquote>[!NOTE]<br>Эта функция поступает как <strong>ROUND</strong>, но она всегда округляет указанное число вверх (в направлении от нуля).</blockquote> | **ROUNDUP (1200.763, 2)** округляет вверх до двух десятичных знаков и возвращает **1200.77**. **ROUNDUP (1200.767, -3)** округляет вверх до ближайшего числа, кратного тысяче, и возвращает **1,000**. |
+| ROUND (число, десятичных знаков) | Возвращает указанное число после его округления до указанного числа десятичных знаков:<ul><li>Если значение параметр **десятичных знаков** больше 0 (нуля), указанное число округляется до этого числа десятичных знаков.</li><li>Если значение параметра **десятичных знаков** равно **0** (ноль), указанное число округляется до ближайшего целого.</li><li>Если значение параметра **десятичных знаков** меньше 0 (нуля), указанное число округляется слева от десятичного разделителя.</li></ul> | **ROUND (1200.767, 2)** округляет до двух десятичных знаков и возвращает **1200.77**. **ROUND (1200.767, -3)** округляет до ближайшего числа, кратного тысяче, и возвращает **1000**. |
+| ROUNDDOWN (число, десятичных знаков) | Возвращает указанное число после его округления вниз до указанного числа десятичных знаков.<blockquote>[!NOTE]<br>Эта функция поступает как **ROUND**, но она всегда округляет указанное число вниз (в направлении нуля).</blockquote> | **ROUNDDOWN (1200.767, 2)** округляет вниз до двух десятичных знаков и возвращает **1200.76**. **ROUNDDOWN (1700.767, -3)** округляет вниз до ближайшего числа, кратного тысяче, и возвращает **1000**. |
+| ROUNDUP (число, десятичных знаков) | Возвращает указанное число после его округления вверх до указанного числа десятичных знаков.<blockquote>[!NOTE]<br>Эта функция поступает как **ROUND**, но она всегда округляет указанное число вверх (в направлении от нуля).</blockquote> | **ROUNDUP (1200.763, 2)** округляет вверх до двух десятичных знаков и возвращает **1200.77**. **ROUNDUP (1200.767, -3)** округляет вверх до ближайшего числа, кратного тысяче, и возвращает **1,000**. |
 
 ### <a name="data-conversion-functions"></a>Функции преобразования данных
 
@@ -460,87 +474,80 @@ ms.lasthandoff: 05/08/2018
 
 | Функция | описание | Пример |
 |----------|-------------|---------|
-| NULLCONTAINER (список) | Возвращает запись **NULL** с той же структурой, как указанный список записей или запись.<blockquote>[!NOTE]<br>Эта функция является устаревшей. Используйте вместо <strong>EMPTYRECORD</strong>.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** возвращает новый пустой запись, который имеет такую же структуру, как список, который возвращен функцией **SPLIT**. |
-| EMPTYRECORD (запись) | Возвращает запись **NULL** с той же структурой, как указанный список записей или запись.<blockquote>[!NOTE]<br>Запись <strong>null</strong> является записью, в которой все поля имеют пустое значение. Пустое значения равно <strong>0</strong> (ноль) для чисел, пустой строке для строк и т. д.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** возвращает новый пустой запись, который имеет такую же структуру, как список, который возвращен функцией **SPLIT**. |
+| NULLCONTAINER (список) | Возвращает запись **NULL** с той же структурой, как указанный список записей или запись.<blockquote>[!NOTE]<br>Эта функция является устаревшей. Используйте вместо **EMPTYRECORD**.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** возвращает новый пустой запись, который имеет такую же структуру, как список, который возвращен функцией **SPLIT**. |
+| EMPTYRECORD (запись) | Возвращает запись **NULL** с той же структурой, как указанный список записей или запись.<blockquote>[!NOTE]<br>Запись **null** является записью, в которой все поля имеют пустое значение. Пустое значения равно **0** (ноль) для чисел, пустой строке для строк и т. д.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** возвращает новый пустой запись, который имеет такую же структуру, как список, который возвращен функцией **SPLIT**. |
 
 ### <a name="text-functions"></a>Текстовые функции
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Функция</th>
 <th>описание</th>
 <th>Пример</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>UPPER (строка)</td>
 <td>Возвращает указанную строку после ее преобразования в верхний регистр.</td>
 <td><strong>UPPER(&quot;Sample&quot;)</strong> возвращает <strong>&quot;SAMPLE&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LOWER (строка)</td>
 <td>Возвращает указанную строку после ее преобразования в нижний регистр.</td>
 <td><strong>LOWER (&quot;Sample&quot;)</strong> возвращает <strong>&quot;sample&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LEFT (строка, количество символов)</td>
 <td>Возвращает указанное число символов с начала указанной строки.</td>
 <td><strong>LEFT (&quot;Sample&quot;, 3)</strong> возвращает <strong>&quot;Sam&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>RIGHT (строка, количество символов)</td>
 <td>Возвращает указанное число символов с конца указанной строки.</td>
 <td><strong>RIGHT (&quot;Sample&quot;, 3)</strong> возвращает <strong>&quot;ple&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>MID (строка, исходная позиция, количество символов)</td>
 <td>Возвращает указанное число символов из указанной строки, начиная с указанного положения.</td>
 <td><strong>MID (&quot;Sample&quot;, 2, 3)</strong> возвращает <strong>&quot;amp&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LEN (строка)</td>
 <td>Возвращает число символов в указанной строке.</td>
 <td><strong>LEN (&quot;Sample&quot;)</strong> возвращает <strong>6</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CHAR (число)</td>
 <td>Возврат строки символов, на которые имеются ссылки по указанному номеру юникод.</td>
 <td><strong>CHAR (255)</strong> возвращает <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>
-Строка, возвращаемая этой функцией, зависит от кодировки, выбранной в родительском элементе формата FILE. Список поддерживаемых кодировок см. в разделе <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Класс Encoding</a>.</blockquote>
+<blockquote>[!NOTE]<br>Строка, возвращаемая этой функцией, зависит от кодировки, выбранной в родительском элементе формата FILE. Список поддерживаемых кодировок см. в разделе <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Класс Encoding</a>.</blockquote>
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONCATENATE (строка 1 [, строка 2, …])</td>
 <td>Возвращает все указанные текстовые строки после их объединения в одну строку.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> возвращает <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>
-Выражение <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> также возвращает <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE]<br>Выражение <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> также возвращает <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>TRANSLATE (строка, шаблон, замена)</td>
 <td>Возврат указанной строки после замены всех вхождений символов в указанной строке шаблона символами на соответствующей позиции в указанной строке замены.</td>
 <td><strong>TRANSLATE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;)</strong> заменяет шаблон <strong>&quot;cd&quot;</strong> строкой <strong>&quot;GH&quot;</strong> и возвращает <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>REPLACE (строка, шаблон, замена, флаг регулярного выражения)</td>
 <td>Когда определенный флаг регулярного выражения — <strong>true</strong>, возвращает указанную строку после ее изменения путем применения регулярного выражения, которое определяется как аргумент шаблона для этой функции. Это выражение используется для обнаружения символов, которые необходимо заменить. Символы определенного аргумента замены используются для замены найденных символов. Когда определенный флаг регулярного выражения — <strong>false</strong>, эта функция ведет как <strong>TRANSLATE</strong>.</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> применяет регулярное выражение, которое удаляет все нечисловые символы и возвращает <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> заменяет шаблон <strong>&quot;cd&quot;</strong> строкой <strong>&quot;GH&quot;</strong> и возвращает <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>TEXT (ввод)</td>
 <td>Возврат указанного ввода после его преобразования в текстовую строку, которая отформатирована в соответствии с параметрами языкового стандарта сервера текущего экземпляра Finance and Operations. Для значений типа <strong>real</strong> преобразование строки ограничено до 2 десятичных знаков.</td>
 <td>Если языковой стандарт экземпляра сервера Finance and Operations определен как <strong>EN-US</strong>, <strong>TEXT (NOW ())</strong> возвращает текущую дату сеанса Finance and Operations, 17 декабря 2015, как текстовую строку <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> возвращает <strong>&quot;0.33&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>FORMAT (строка 1, строка 2[, строка 3, …])</td>
 <td>Возврат указанной строки после ее форматирования путем замены любых вхождений <strong>%N</strong> <em>n</em>-ным аргументом. Аргументы — строки. Если аргумент не предусмотрен для параметра, параметр возвращается как <strong>&quot;%N&quot;</strong> в строке. Для значений типа <strong>real</strong> преобразование строки ограничено до 2 десятичных знаков.</td>
 <td>На следующем рисунке источник данных <strong>PaymentModel</strong> возвращает список записей клиентов через компонент <strong>Customer</strong> и значение даты обработки в поле <strong>ProcessingDate</strong>.
@@ -563,37 +570,38 @@ ms.lasthandoff: 05/08/2018
 <p>Если отчет обрабатывается для клиента <strong>Litware Retail</strong> 17 декабря 2015 г., в культуре <strong>EN-US</strong> и языке <strong>EN-US</strong>, эта формула возвращает следующий текст, который можно представить в виде сообщения исключения для пользователя:</p>
 <p>&quot;Nothing to print. Customer Litware Retail is stopped for 12/17/2015.&quot;</p>
 <p>Если этот же отчет обрабатывается для клиента <strong>Litware Retail</strong> 17 декабря 2015 г. в культуре <strong>DE</strong> и языке <strong>DE</strong>, эта формула возвращает следующий текст, который использует другой формат даты:</p>
-<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>
-Следующий синтаксис применяется в формулах ER для меток:
+<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<blockquote>[!NOTE]<br>Следующий синтаксис применяется в формулах ER для меток:
 <ul>
 <li><strong>Для меток из ресурсов Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>, где Х — идентификатор метки в репозитории прикладных объектов (AOT)</li>
 <li><strong>Для меток, которые находятся в конфигурациях:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, где Х — код метки в конфигурации ER</li>
-</ul></blockquote></td>
+</ul>
+</blockquote>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>NUMBERFORMAT (число, формат)</td>
 <td>Возвращает строковое представление указанного числа в указанном формате. (Сведения о поддерживаемых форматах см. в разделах <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">стандартный</a> и <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">настраиваемый</a>.) Контекст, в котором эта функция выполняется, определяет культуру, используемую для форматирования чисел.</td>
 <td>Для культуры EN-US <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> возвращает <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> возвращает <strong>&quot;10&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>NUMERALSTOTEXT (номер, язык, валюта, флаг печати названия валюты, десятичные знаки)</td>
 <td>Возврат указанного числа после его написания (преобразования) в виде текстовой строки на указанном языке. Код языка указывать необязательно. Если он определен как пустая строка, вместо него используется код языка для контекста выполнения. (Код языка контекста выполнения определяется для создающей папки или файла.) Код валюты также указывать необязательно. Когда он определен как пустая строка, используется валюта компании.
-<blockquote>[!NOTE]<br>
-Флаг названия валюты для печати и параметры десятичных знаков анализируются только для следующих кодов языков: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> и <strong>RU</strong>. Кроме того, параметр флага названия валюты для печати анализируется только для компаний Finance and Operations, в которых контекст страны или региона поддерживает склонение названий валюты.</blockquote></td>
+<blockquote>[!NOTE]<br>Параметры <strong>флаг печати названия валюты</strong> и <strong>десятичные знаки</strong> анализируются только для следующих кодов языков:<strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong>и <strong>RU</strong>. Кроме того, <strong>флаг печати названия валюты</strong> анализируется только для компаний Finance and Operations, в которых контекст страны или региона поддерживает склонение названий валюты.</blockquote>
+</td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> возвращает <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> возвращает <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> возвращает <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>PADLEFT (строка, длина, дополняющие символы)</td>
 <td>Возвращает строку указанной длины, в которой в начало указанной строки добавлены указанные символы.</td>
 <td><strong>PADLEFT (&quot;1234&quot;, 10, &quot;&nbsp;&quot;)</strong> возвращает текстовую строку <strong>&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234&quot;</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>TRIM (строка)</td>
 <td>Возвращает указанную текстовую строку после удаления начальных и конечных пробелов и после преобразования нескольких пробелов между словами в одинарные пробелы.</td>
 <td><strong>TRIM (&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sample&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;)</strong> возвращает <strong>&quot;Sample text&quot;</strong>.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>GETENUMVALUEBYNAME (путь к источнику данных перечисления, текст метки значения перечисления)</td>
 <td>Возвращает значение указанного источника данных перечисления на основе указанного текста метки перечисления.</td>
 <td>На следующем рисунке показано перечисление <strong>ReportDirection</strong> введенное в модели данных. Обратите внимание, что метки определены для значений перечисления.
@@ -603,7 +611,24 @@ ms.lasthandoff: 05/08/2018
 <li>Перечисление модели <strong>ReportDirection</strong> вставлено в отчет как источник данных, <strong>$Direction</strong>.</li>
 <li>Выражение ER, <strong>$IsArrivals</strong>, разработано для использования перечисления модели в качестве параметра этой функции. Значение этого выражения — <strong>TRUE</strong>.</li>
 </ul>
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
+<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+</td>
+</tr>
+<tr>
+<td>GUIDVALUE (ввод)</td>
+<td>Преобразование заданного ввода из типа данных <strong>Строка</strong> в элемент данных из тип данных <strong>GUID</strong>.</td>
+<td>Определите следующие источники данных в соответствии вашей модели:
+<ul>
+<li><strong>myID</strong> (тип<strong>Рассчитанное поле</strong> ) содержит выражение <strong>GUIDVALUE (&quot;AF5CCDAC-F728-4609-8C8B-A4B30B0C0AA0&quot;)</strong></li>
+<li><strong>Пользовтаели</strong> (тип<strong>Записи таблицы</strong> ), относится к таблице UserInfo</li>
+</ul>
+При определении этих источников данных можно использовать выражение, например <strong>FILTER (Users, Users.objectId = myID)</strong> для фильтрации таблицы UserInfo по полю <strong>objectId</strong> типа данных <strong>GUID</strong> тип данных.
+</td>
+</tr>
+<tr>
+<td>JSONVALUE (код, путь)</td>
+<td>Разбить данные в формате JavaScript Object Notation (JSON), к которому осуществляется доступ по специальному пути с целью извлечь скалярное значение на основании указанного идентификатора.</td>
+<td>Источник данных <strong>$JsonField</strong> содержит следующие данные в формате JSON: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Для этого источника данных </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> возвращает значение <strong>7.3.1234.1</strong> из типа данных <strong>Строка</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -613,7 +638,7 @@ ms.lasthandoff: 05/08/2018
 | Функция | описание | Пример |
 |----------|-------------|---------|
 | TEXT (ввод) | Возврат указанного ввода после его преобразования в текстовую строку, которая отформатирована в соответствии с параметрами языкового стандарта сервера текущего экземпляра Finance and Operations. Для значений типа **real** преобразование строки ограничено до 2 десятичных знаков. | Если языковой стандарт экземпляра сервера Finance and Operations определен как **EN-US**, **TEXT (NOW ())** возвращает текущую дату сеанса Finance and Operations, 17 декабря 2015, как текстовую строку **"12/17/2015 07:59:23 AM"**. **TEXT (1/3)** возвращает **"0.33"**. |
-| QRCODE (строка) | Возвращает изображение QR-кода для указанной строки в двоичном формате base64. | **QRCODE ("Sample text")** возвращает **U2FtcGxlIHRleHQ=**. |
+| QRCODE (строка) | Возвращает изображение Quick Response Code (QR-кода) для указанной строки в двоичном формате base64. | **QRCODE ("Sample text")** возвращает **U2FtcGxlIHRleHQ=**. |
 
 ### <a name="data-collection-functions"></a>Функции сбора данных
 
@@ -623,19 +648,19 @@ ms.lasthandoff: 05/08/2018
 | SUMIFS (ключевая строка для суммирования, строка критериев range1, строка критериев value1 \[, строка критериев range2, строка критериев value2,…\]) | Возвращает сумму значений XML-узлов (где имя определено как ключ), который был собран во время выполнения формата и который удовлетворяет указанным условиям (пары "диапазон-значение"). Возвращает значение **0** (ноль), когда флаг **Сбор сведений о результате** для текущих файлов выключен. | |
 | SUMIF (ключевая строка для суммирования, строка диапазона критериев, строка значения критериев) | Возвращает сумму значений XML-узлов (где имя определено как ключ), который был собран во время выполнения формата и который удовлетворяет указанному условию (пара "диапазон-значение"). Возвращает значение **0** (ноль), когда флаг **Сбор сведений о результате** для текущих файлов выключен. | |
 | COUNTIFS (ключевая строка для суммирования, строка критериев range1, строка критериев value1 \[, строка критериев range2, строка критериев value2,…\]) | Возвращает количество XML-узлов, которые были собраны во время выполнения формата и которые удовлетворяют указанным условиям (пары "диапазон-значение"). Возвращает значение **0** (ноль), когда флаг **Сбор сведений о результате** для текущих файлов выключен. | |
-| COUNTIF (строка диапазона критериев, строка значения критериев) | Возвращает количество XML-узлов, которые были собраны во время выполнения формата и которые удовлетворяют введенному условию ("диапазон-значение"). Возвращает значение **0** (ноль), когда флаг **Сбор сведений о результате** для текущих файлов выключен. | |
-| COLLECTEDLIST (ключевая строка для суммирования, строка критериев range1, строка критериев value1 \[, строка критериев range2, строка критериев value2,…\]) | Возвращает список значений XML-узлов XML-кода, которые были собраны во время выполнения формата и которые удовлетворяют введенным условиям ("диапазон-значение"). Возвращает пустой список, когда флаг **Сбор сведений о результате** для текущих файлов выключен. | |
+| COUNTIF (строка диапазона критериев, строка значения критериев) | Возвращает количество XML-узлов, которые были собраны во время выполнения формата и которые удовлетворяют указанному условию ("диапазон-значение"). Возвращает значение **0** (ноль), когда флаг **Сбор сведений о результате** для текущих файлов выключен. | |
+| COLLECTEDLIST (ключевая строка для суммирования, строка критериев range1, строка критериев value1 \[, строка критериев range2, строка критериев value2,…\]) | Возвращает список значений XML-узлов XML-кода, которые были собраны во время выполнения формата и которые удовлетворяют указанным условиям ("диапазон-значение"). Возвращает пустой список, когда флаг **Сбор сведений о результате** для текущих файлов выключен. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Другие функции (характерные для конкретных бизнес-доменов)
 
 | Функция | описание | Пример |
 |----------|-------------|---------|
 | CONVERTCURRENCY (сумма, валюта источника, валюта целевая, дата, компания) | Преобразование указанной денежной суммы от указанной валюты источника в указанную валюту целевую, используя настройки определенной компании Finance and Operations на указанную дату. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** возвращает эквивалент одного евро в долларах США на текущую дату сеанса на основе настроек для компании DEMF. |
-| ROUNDAMOUNT (число, десятичные знаки, правило округления) | Округление указанной суммы до указанного количества десятичных знаков в соответствии с указанным правилом округления.<blockquote>[!NOTE]<br>Правило округления необходимо определить как значение перечисления <strong>RoundOffType</strong> Finance and Operations.</blockquote> | Если параметр **model.RoundOff** задан как **Downward**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** возвращает значение **1000.78**. Если параметр **model.RoundOff** задан как **Normal** или **Rounding-up**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** возвращает значение **1000.79**. |
+| ROUNDAMOUNT (число, десятичные знаки, правило округления) | Округление указанной суммы до указанного количества десятичных знаков в соответствии с указанным правилом округления.<blockquote>[!NOTE]<br>Правило округления необходимо определить как значение перечисления **RoundOffType** Finance and Operations.</blockquote> | Если параметр **model.RoundOff** задан как **Downward**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** возвращает значение **1000.78**. Если параметр **model.RoundOff** задан как **Normal** или **Rounding-up**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** возвращает значение **1000.79**. |
 | CURCredRef (цифры) | Возврат ссылки кредитора на основе цифр определенного номера накладной. | **CURCredRef ("VEND-200002")** возвращает **"2200002"**. |
 | MOD\_97 (цифры) | Возврат ссылки кредитора как выражение MOD97 на основе цифр определенного номера накладной. | **MOD\_97 ("VEND-200002")** возвращает **"20000285"**. |
 | ISOCredRef (цифры) | Возврат ссылки кредитора международной организации по стандартизации (ISO) на основе цифр и алфавитных символов определенного номера накладной.<blockquote>[!NOTE]<br>Чтобы исключить символы из алфавитов, не совместимых с ISO, входной параметр необходимо перевести до передачи к этой функции.</blockquote> | **ISOCredRef ("VEND-200002")** возвращает **"RF23VEND-200002"**. |
-| CN\_GBT\_AdditionalDimensionID (строка, номер) | Получить код дополнительной финансовой аналитики. Аналитики представлены в этой строке как коды, отделенные запятыми. В этой строке номера определяют код серии запрошенной аналитики. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** возвращает **"CC"**. |
+| CN\_GBT\_AdditionalDimensionID (строка, номер) | Получить указанный код дополнительной финансовой аналитики. Аналитики представлены в этой строке как коды, отделенные запятыми в параметре **строка**. Параметр **номер** определяет код серии запрошенной аналитики в этой строке . | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** возвращает **"CC"**. |
 | GetCurrentCompany () | Возвращает текстовое представление кода для юридического лица (компании), в которую выполнил вход пользователь. | **GETCURRENTCOMPANY ()** возвращает **USMF** для пользователя, выполнившего вход в компанию **Contoso Entertainment System USA** в Finance and Operations. |
 | CH\_BANK\_MOD\_10 (цифры) | Возврат ссылки кредитора как выражение MOD10 на основе цифр определенного номера накладной. | **CH\_BANK\_MOD\_10 ("VEND-200002")** возвращает **3**. |
 | FA\_SUM (код основного средства, код модели стоимости, дата начала, дата окончания) | Возвращает подготовленный контейнер данных суммы основных средств за указанный период. | **FA\_SUM ("COMP-000001", "Current", Date1, Date2)** возвращает подготовленный контейнер данных основного средства **"COMP-000001"**, которое имеет модель стоимости **"Current"** для периода от **Date1** до **Date2**. |
