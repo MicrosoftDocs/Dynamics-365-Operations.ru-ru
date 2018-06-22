@@ -1,9 +1,9 @@
 ---
-title: "Содержимое Power BI"
-description: "В этой теме перечислено доступное содержимое Power BI и ресурсы, где можно получить дополнительную информацию о нем."
+title: "Решения PowerBI.com"
+description: "В этой теме перечислено доступное решения PowerBI.com и описаны ресурсы, где можно получить дополнительную информацию о решениях."
 author: sericks007
 manager: AnnBe
-ms.date: 04/02/2018
+ms.date: 05/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,69 +19,49 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 43675cdeaa8498e38e7ab030b935293d71035ea0
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 0aa9971226e5aa79cab85f098e098dbb789a1e2d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="power-bi-content"></a><span data-ttu-id="da77a-103">Содержимое Power BI</span><span class="sxs-lookup"><span data-stu-id="da77a-103">Power BI content</span></span>
-[!include [banner](../includes/banner.md)]
+# <a name="powerbicom-solutions"></a><span data-ttu-id="e0492-103">Решения PowerBI.com</span><span class="sxs-lookup"><span data-stu-id="e0492-103">PowerBI.com solutions</span></span>
+<span data-ttu-id="e0492-104">Следующие решения PowerBI.com доступны для сред Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e0492-104">The following PowerBI.com solutions are available for Dynamics 365 for Finance and Operations environments.</span></span> 
 
-<span data-ttu-id="da77a-104">В этой теме перечислено доступное содержимое Microsoft Power BI и ресурсы, где можно получить дополнительную информацию о нем.</span><span class="sxs-lookup"><span data-stu-id="da77a-104">This topic lists the Microsoft Power BI content that is available and points you to resources where you can learn more about it.</span></span>
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="e0492-105">Решения PowerBI.com, которые доступны из Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="e0492-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a><span data-ttu-id="da77a-105">Содержимое Power BI для Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="da77a-105">Power BI content for Dynamics 365 for Finance and Operations</span></span>
-<span data-ttu-id="da77a-106">При использовании Microsoft Dynamics 365 for Finance and Operations доступно следующее содержимое Power BI:</span><span class="sxs-lookup"><span data-stu-id="da77a-106">If you're using Microsoft Dynamics 365 for Finance and Operations, the following Power BI content is available:</span></span>
-
-- [<span data-ttu-id="da77a-107">Содержимое Power BI фактическое в сравнении с бюджетом</span><span class="sxs-lookup"><span data-stu-id="da77a-107">Actual vs budget Power BI content</span></span>](ledger-budgets-power-bi.md)
-- [<span data-ttu-id="da77a-108">Содержимое Power BI "Льготы"</span><span class="sxs-lookup"><span data-stu-id="da77a-108">Benefits Power BI content</span></span>](benefits-power-bi.md)
-- [<span data-ttu-id="da77a-109">Содержимое Power BI "Обзор кассы"</span><span class="sxs-lookup"><span data-stu-id="da77a-109">Cash overview Power BI content</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [<span data-ttu-id="da77a-110">Содержимое Power BI "Обзор финансового директора"</span><span class="sxs-lookup"><span data-stu-id="da77a-110">CFO overview Power BI content</span></span>](CFO-power-bi.md)
-- [<span data-ttu-id="da77a-111">Содержимое Power BI "Компенсация"</span><span class="sxs-lookup"><span data-stu-id="da77a-111">Compensation Power BI content</span></span>](compensation-power-bi.md)
-- [<span data-ttu-id="da77a-112">Содержимое Power BI анализа учета затрат</span><span class="sxs-lookup"><span data-stu-id="da77a-112">Cost accounting analysis Power BI content</span></span>](cost-accounting-analysis-content-pack.md) 
-- [<span data-ttu-id="da77a-113">Содержимое Power BI "Управление затратами"</span><span class="sxs-lookup"><span data-stu-id="da77a-113">Cost management Power BI content</span></span>](cost-management-content-pack.md)    
-- [<span data-ttu-id="da77a-114">Содержимое Power BI "Управление кредитом и сбором задолженностей"</span><span class="sxs-lookup"><span data-stu-id="da77a-114">Credit and collections management Power BI content</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [<span data-ttu-id="da77a-115">Содержимое Power BI "Развитие сотрудников"</span><span class="sxs-lookup"><span data-stu-id="da77a-115">Employee development Power BI content</span></span>](employee-development-PBI.md) 
-- [<span data-ttu-id="da77a-116">Содержимое "Финансовый анализ" для Power BI</span><span class="sxs-lookup"><span data-stu-id="da77a-116">Financial insights Power BI content</span></span>](financial-insights.md)
-- [<span data-ttu-id="da77a-117">Содержимое "Финансовые показатели" для Power BI</span><span class="sxs-lookup"><span data-stu-id="da77a-117">Financial performance Power BI content</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="da77a-118">Содержимое Power BI "Управление основными средствами"</span><span class="sxs-lookup"><span data-stu-id="da77a-118">Fixed asset management Power BI content</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [<span data-ttu-id="da77a-119">Содержимое Power BI "Обучение"</span><span class="sxs-lookup"><span data-stu-id="da77a-119">Learning Power BI content</span></span>](learning-power-bi.md)
-- [<span data-ttu-id="da77a-120">Содержимое Power BI "Менеджер по методикам"</span><span class="sxs-lookup"><span data-stu-id="da77a-120">Practice manager Power BI content</span></span>](practice-manager-power-bi.md)
-- [<span data-ttu-id="da77a-121">Содержимое Power BI "Эффективность производства"</span><span class="sxs-lookup"><span data-stu-id="da77a-121">Production performance Power BI content</span></span>](production-performance-power-bi.md)
-- [<span data-ttu-id="da77a-122">Содержимое Power BI "Анализ расходов на закупку"</span><span class="sxs-lookup"><span data-stu-id="da77a-122">Purchase spend analysis Power BI content</span></span>](purchase-content-pack-for-power-bi.md) 
-- [<span data-ttu-id="da77a-123">Содержимое Power BI по набору сотрудников</span><span class="sxs-lookup"><span data-stu-id="da77a-123">Recruiting Power BI content</span></span>](recruiting-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="da77a-124">Содержимое "Показатели продаж и прибыльности" для Power BI</span><span class="sxs-lookup"><span data-stu-id="da77a-124">Sales and profitability performance Power BI content</span></span>](sales-profitability-performance-content-pack.md)
-- [<span data-ttu-id="da77a-125">Содержимое Power BI "Платежи поставщикам"</span><span class="sxs-lookup"><span data-stu-id="da77a-125">Vendor payments Power BI content</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [<span data-ttu-id="da77a-126">Содержимое "Производительность склада" для Power BI</span><span class="sxs-lookup"><span data-stu-id="da77a-126">Warehouse performance Power BI content</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="da77a-127">Содержимое Power BI "Показатели трудовых ресурсов"</span><span class="sxs-lookup"><span data-stu-id="da77a-127">Workforce metrics Power BI content</span></span>](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a><span data-ttu-id="da77a-128">Содержимое Power BI для Dynamics 365 for Operations версии 1611</span><span class="sxs-lookup"><span data-stu-id="da77a-128">Power BI content for Dynamics 365 for Operations version 1611</span></span>
-<span data-ttu-id="da77a-129">При использовании Microsoft Dynamics 365 for Finance and Operations версии 1611 доступно следующее содержимое Power BI:</span><span class="sxs-lookup"><span data-stu-id="da77a-129">If you're using Microsoft Dynamics 365 for Operations version 1611, the following Power BI content is available:</span></span>
-
-- [<span data-ttu-id="da77a-130">Содержимое Power BI "Компенсации и льготы"</span><span class="sxs-lookup"><span data-stu-id="da77a-130">Compensation and benefits Power BI content</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)   
-- [<span data-ttu-id="da77a-131">Содержимое Power BI анализа учета затрат</span><span class="sxs-lookup"><span data-stu-id="da77a-131">Cost accounting analysis Power BI content</span></span>](cost-accounting-analysis-content-pack.md) 
-- [<span data-ttu-id="da77a-132">Содержимое Power BI "Управление кредитом и сбором задолженностей"</span><span class="sxs-lookup"><span data-stu-id="da77a-132">Credit and collections management Power BI content</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [<span data-ttu-id="da77a-133">Содержимое Power BI "Компетенции и развитие сотрудников"</span><span class="sxs-lookup"><span data-stu-id="da77a-133">Employee competencies and development Power BI content</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="da77a-134">Содержимое "Финансовые показатели" для Power BI</span><span class="sxs-lookup"><span data-stu-id="da77a-134">Financial performance Power BI content</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="da77a-135">Содержимое Power BI "Организационное обучение"</span><span class="sxs-lookup"><span data-stu-id="da77a-135">Organizational training Power BI content</span></span>](organizational-training-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="da77a-136">Содержимое Power BI "Менеджер по методикам"</span><span class="sxs-lookup"><span data-stu-id="da77a-136">Practice manager Power BI content</span></span>](practice-manager-power-bi.md)
-- [<span data-ttu-id="da77a-137">Содержимое Power BI "Эффективность производства"</span><span class="sxs-lookup"><span data-stu-id="da77a-137">Production performance Power BI content</span></span>](production-performance-power-bi.md)
-- [<span data-ttu-id="da77a-138">Содержимое Power BI "Анализ расходов на закупку"</span><span class="sxs-lookup"><span data-stu-id="da77a-138">Purchase spend analysis Power BI content</span></span>](purchase-content-pack-for-power-bi.md) 
-- [<span data-ttu-id="da77a-139">Содержимое Power BI по набору сотрудников</span><span class="sxs-lookup"><span data-stu-id="da77a-139">Recruiting Power BI content</span></span>](recruiting-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="da77a-140">Содержимое "Показатели продаж и прибыльности" для Power BI</span><span class="sxs-lookup"><span data-stu-id="da77a-140">Sales and profitability performance Power BI content</span></span>](sales-profitability-performance-content-pack.md)
-- [<span data-ttu-id="da77a-141">Содержимое "Производительность склада" для Power BI</span><span class="sxs-lookup"><span data-stu-id="da77a-141">Warehouse performance Power BI content</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="da77a-142">Содержимое Power BI "Показатели трудовых ресурсов"</span><span class="sxs-lookup"><span data-stu-id="da77a-142">Workforce metrics Power BI content</span></span>](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-microsoft-dynamics-ax"></a><span data-ttu-id="da77a-143">Содержимое Power BI content для Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="da77a-143">Power BI content for Microsoft Dynamics AX</span></span>
-<span data-ttu-id="da77a-144">При использовании Microsoft Dynamics AX 7.0 или Microsoft Dynamics AX 7.0.1 доступно следующее содержимое Power BI:</span><span class="sxs-lookup"><span data-stu-id="da77a-144">If you're using Microsoft Dynamics AX 7.0 or Microsoft Dynamics AX 7.0.1, the following Power BI content is available:</span></span>
+<span data-ttu-id="e0492-106">В библиотеке общих ресурсов в LCS доступны следующие решения PowerBI.com.</span><span class="sxs-lookup"><span data-stu-id="e0492-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="e0492-107">См. сведения о версии в библиотеке общих ресурсов, чтобы загрузить правильную версию для существующей среды.</span><span class="sxs-lookup"><span data-stu-id="e0492-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span> 
 
 > [!Note]
-> <span data-ttu-id="da77a-145">Эти пакеты содержимого являются устаревшим, как описано в разделе [Пакеты содержимого Power BI, опубликованные на PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).</span><span class="sxs-lookup"><span data-stu-id="da77a-145">These content packs have been deprecated as documented in [Power BI content packs published to PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).</span></span>
+> <span data-ttu-id="e0492-108">Большинство решений PowerBI.com в следующем списке были встроены в аналитические рабочие области в последних версиях Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e0492-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions of Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="e0492-109">Использование аналитических рабочих областей устраняет необходимость загрузки этих решений из библиотеки общих ресурсов в LCS.</span><span class="sxs-lookup"><span data-stu-id="e0492-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="e0492-110">Темы в этом списке указывают, где эти решения PowerBI.com были встроены в Finance and Operations, где это применимо.</span><span class="sxs-lookup"><span data-stu-id="e0492-110">The topics in this list indicate where these PowerBI.com solutions have been embedded in Finance and Operations, where applicable.</span></span> 
 
-- [<span data-ttu-id="da77a-146">Содержимое Power BI "Управление затратами"</span><span class="sxs-lookup"><span data-stu-id="da77a-146">Cost management Power BI content</span></span>](cost-management-content-pack.md)    
-- [<span data-ttu-id="da77a-147">Содержимое "Финансовые показатели" для Power BI</span><span class="sxs-lookup"><span data-stu-id="da77a-147">Financial performance Power BI content</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="da77a-148">Содержимое Power BI "Эффективность канала розничной торговли"</span><span class="sxs-lookup"><span data-stu-id="da77a-148">Retail channel performance Power BI content</span></span>](retail-channel-performance-dashboard-power-bi-data.md) 
+- [<span data-ttu-id="e0492-111">Факт/Бюджет</span><span class="sxs-lookup"><span data-stu-id="e0492-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
+- [<span data-ttu-id="e0492-112">Обзор кассы</span><span class="sxs-lookup"><span data-stu-id="e0492-112">Cash overview</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [<span data-ttu-id="e0492-113">Компенсации и льготы</span><span class="sxs-lookup"><span data-stu-id="e0492-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [<span data-ttu-id="e0492-114">Анализ учета затрат</span><span class="sxs-lookup"><span data-stu-id="e0492-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md) 
+- [<span data-ttu-id="e0492-115">Управление кредитом и сбором задолженностей</span><span class="sxs-lookup"><span data-stu-id="e0492-115">Credit and collections management</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [<span data-ttu-id="e0492-116">Компетенции и развитие сотрудников</span><span class="sxs-lookup"><span data-stu-id="e0492-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [<span data-ttu-id="e0492-117">Результаты финансовой деятельности</span><span class="sxs-lookup"><span data-stu-id="e0492-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="e0492-118">Управление основными средствами</span><span class="sxs-lookup"><span data-stu-id="e0492-118">Fixed asset management</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [<span data-ttu-id="e0492-119">Организационное обучение</span><span class="sxs-lookup"><span data-stu-id="e0492-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md) 
+- [<span data-ttu-id="e0492-120">Менеджер методики</span><span class="sxs-lookup"><span data-stu-id="e0492-120">Practice manager</span></span>](practice-manager-power-bi.md)
+- [<span data-ttu-id="e0492-121">Эффективность производства</span><span class="sxs-lookup"><span data-stu-id="e0492-121">Production performance</span></span>](production-performance-power-bi.md)
+- [<span data-ttu-id="e0492-122">Анализ расходов на покупки</span><span class="sxs-lookup"><span data-stu-id="e0492-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md) 
+- [<span data-ttu-id="e0492-123">Набор сотрудников</span><span class="sxs-lookup"><span data-stu-id="e0492-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="e0492-124">Эффективность продаж и прибыльность</span><span class="sxs-lookup"><span data-stu-id="e0492-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
+- [<span data-ttu-id="e0492-125">Платежи поставщикам</span><span class="sxs-lookup"><span data-stu-id="e0492-125">Vendor payments</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [<span data-ttu-id="e0492-126">Эффективность склада</span><span class="sxs-lookup"><span data-stu-id="e0492-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
+- [<span data-ttu-id="e0492-127">Показатели трудовых ресурсов</span><span class="sxs-lookup"><span data-stu-id="e0492-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)  
 
+## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="e0492-128">Решения PowerBI.com, доступные из AppSource</span><span class="sxs-lookup"><span data-stu-id="e0492-128">PowerBI.com solutions available from AppSource</span></span>
 
+<span data-ttu-id="e0492-129">Следующие решения PowerBI.com доступны в [Microsoft AppSource](https://appsource.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="e0492-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+
+> [!Note]
+> <span data-ttu-id="e0492-130">Эти решения устарели, как описано в разделе [Пакеты содержимого Power BI, доступные в AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span><span class="sxs-lookup"><span data-stu-id="e0492-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+
+- <span data-ttu-id="e0492-131">Управление затратами</span><span class="sxs-lookup"><span data-stu-id="e0492-131">Cost management</span></span>    
+- [<span data-ttu-id="e0492-132">Результаты финансовой деятельности</span><span class="sxs-lookup"><span data-stu-id="e0492-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="e0492-133">Эффективность канала розничной торговли</span><span class="sxs-lookup"><span data-stu-id="e0492-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md) 
 
