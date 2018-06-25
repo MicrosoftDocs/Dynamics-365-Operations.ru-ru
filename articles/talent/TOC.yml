@@ -1,0 +1,84 @@
+- name: Добро пожаловать в Dynamics 365 for Talent
+  href: index.md
+- name: Начало работы
+  href: talent-get-started.md
+  items:
+    - name: Системные требования и политика обновления
+      href: talent-versions-update-policy.md
+    - name: Подготовка среды Microsoft Dynamics 365 for Talent
+      href: provisioning-talent.md
+    - name: Удаление среды Talent
+      href: remove-talent-environment.md
+    - name: Подготовка модульных приложений Microsoft Dynamics 365 for Talent
+      href: modular-app-tech-faq.md
+    - name: Расширение функциональности Talent
+      href: extend-talent-functionality.md
+    - name: Доступ к функциям предварительного просмотра в Dynamics 365 for Talent
+      href: access-preview-feature.md
+- name: Разработка стратегии управления персоналом
+  href: departments-jobs-positions.md
+  items:
+    - name: Настройка компонентов задания
+      href: create-job.md
+    - name: Создание подразделения и связывание его с иерархией подразделений
+      href: create-department-add-department-hierarchy.md
+    - name: Настройка параметров управления персоналом для нескольких юридических лиц
+      href: set-up-hr-parameters-across-legal-entities.md
+    - name: Настройка параметров управления персоналом для конкретной компании
+      href: set-up-company-specific-hr-parameters.md
+    - name: Вопросы и ответы по действиям персонала
+      href: personnel-actions-faq.md
+    - name: Формализация бизнес-процессов
+      href: formalize-business-processes.md
+    - name: Использование workflow-процессов для управления сведениями о сотрудниках
+      href: workflow-manage-employee-information.md
+    - name: Обзор отпусков и отсутствия на работе
+      href: leave-absence-overview.md
+- name: Набор персонала для организации
+  items:
+    - name: Обзор модуля Attract
+      href: attract-overview.md
+    - name: Обзор модуля Onboard
+      href: create-onboarding-experience.md
+- name: Мотивация персонала
+  items:
+    - name: Планы компенсаций
+      href: compensation-plans.md
+    - name: Создание планов фиксированной компенсации
+      href: create-fixed-compensation-plans.md
+    - name: Создание планов переменной компенсации
+      href: create-variable-compensation-plans.md
+    - name: Обработка компенсаций
+      href: process-compensation.md
+- name: Развитие и обучение сотрудников
+  items:
+    - name: Обзор управления производительностью
+      href: performance-management-overview.md
+    - name: Совмещение навыков рабочей силы с потребностями бизнеса
+      href: skills.md
+    - name: Настройка учебных курсов
+      href: courses.md
+- name: Создание и ведение льгот
+  href: manage-benefit-program.md
+- name: Политики прав на льготы
+  href: benefit-eligibility-policies.md
+  items:
+    - name: 'Управление номенклатурами, сданными в аренду работникам'
+      href: loan-items.md
+- name: Сбор сведений с помощью анкет
+  href: questionnaires.md
+  items:
+    - name: Разработка анкеты
+      href: design-questionnaires.md
+    - name: Распространение и заполнение анкеты
+      href: distribute-questionnaires.md
+    - name: Оценка результатов анкеты
+      href: evaluate-questionnaire-results.md
+- name: Безопасность и соответствие рабочего места (США)
+  items:
+    - name: Ответ на запрос персональных данных с помощью Talent
+      href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+    - name: Проверка сотрудников по форме I-9
+      href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+    - name: Обеспечение соответствия требованиям ADA
+      href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
