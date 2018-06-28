@@ -3,7 +3,7 @@ title: "Внедрение PowerApps"
 description: "В этом разделе описывается, как внедрить PowerApps в клиент Finance and Operations для расширения функциональных возможностей продукта."
 author: jasongre
 manager: AnnBe
-ms.date: 04/12/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -26,8 +26,6 @@ ms.lasthandoff: 04/13/2018
 # <a name="embed-powerapps"></a>Внедрение PowerApps
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 В обновлении платформы 14 Microsoft Dynamics 365 for Finance and Operations поддерживает интеграцию с Microsoft PowerApps, службой, которая позволяет разработчикам и обычным пользователям создавать пользовательские бизнес-приложения для мобильных устройств, планшетов и интернета без написания кода. Затем приложения PowerApps, разработанные вами, вашей организации или более широкой экосистемой можно внедрить в клиент Finance and Operations для расширения функциональности продукта. Например, можно построить приложение PowerApp для дополнения Finance and Operations информацией, извлеченной из другой системы. 
 

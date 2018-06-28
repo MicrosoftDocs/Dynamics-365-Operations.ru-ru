@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 03a932652cdd93b2a5917d0fca72809d1648b678
-ms.openlocfilehash: b1acf0b64914a3199fcf44f8377e32b26f0af99e
+ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
+ms.openlocfilehash: 0c1268d2fddcf7b28ecfc3197f21e9d30a5a5855
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/25/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 
@@ -44,11 +44,9 @@ Microsoft Dynamics 365 for Finance and Operations включает синхро�
 - [Заказы на выполнение работ в Field Service с заказами на продажу в Finance and Operations](field-service-work-order.md)
 - [Накладные в Field Service с накладными с произвольным текстом в Finance and Operations](field-service-invoice.md)
 
-Чтобы просмотреть пример того, как можно выполнить синхронизацию заказа на выполнение работ между Field Service и Finance and Operations, просмотрите краткий видеоролик на YouTube:
+Чтобы просмотреть пример того, как можно выполнять синхронизацию заказа на выполнение работ между Field Service и Finance and Operations, просмотрите это короткое видео на YouTube [Синхронизация заказа на выполнение работ между Dynamics 365 for Field Service и Finance and Operations](https://www.youtube.com/watch?v=hAB4TDVMjxU).
 
-> [!Video https://www.youtube.com/embed/hAB4TDVMjxU]
-
-[Синхронизация заказа на выполнение работ между Field Service и Finance and Operations (видео на YouTube)](https://youtu.be/hAB4TDVMjxU)
+[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Системные требования для Finance and Operations
 Интеграция Field Service поддерживает следующие версии:
