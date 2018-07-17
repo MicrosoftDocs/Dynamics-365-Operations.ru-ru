@@ -3,7 +3,7 @@ title: "Обзор оповещений"
 description: "В этой теме представлены общие сведения об оповещениях в Microsoft Dynamics 365 for Finance and Operations. Можно пользоваться оповещениями, чтобы знать о событиях, которые вы хотите отслеживать в течение рабочего дня."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -27,8 +27,6 @@ ms.lasthandoff: 04/13/2018
 # <a name="alerts-overview"></a>Обзор оповещений
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>Об оповещениях
 Оповещения образуют систему уведомлений для критически важных событий в Microsoft Dynamics 365 for Finance and Operations. Можно пользоваться оповещениями, чтобы знать о событиях, которые вы хотите отслеживать в течение рабочего дня. Можно легко создать свой набор правил оповещения, чтобы получать оповещения о просроченных поставках, удаленных заказах, изменении цен и других событиях, на которые требуется реагировать.

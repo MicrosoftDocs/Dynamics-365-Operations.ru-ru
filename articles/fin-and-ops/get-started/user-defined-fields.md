@@ -3,7 +3,7 @@ title: "Пользовательские поля"
 description: "В этом разделе показано, как Microsoft Dynamics 365 for Finance and Operations позволяет некоторым пользователям создавать настраиваемые поля для настройки приложения в соответствии с их бизнесом."
 author: jasongre
 manager: AnnBe
-ms.date: 04/18/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -27,8 +27,6 @@ ms.lasthandoff: 05/23/2018
 # <a name="custom-fields"></a>Пользовательские поля
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 В то время как Microsoft Dynamics 365 for Finance and Operations предоставляет обширный набор готовых полей для управления широким диапазоном бизнес-процессов, иногда компании требуется отслеживать дополнительную информацию в системе. Чтобы удовлетворить эту потребность, Finance and Operations позволяет создавать пользовательские поля для настройки приложения в соответствии с вашим бизнесом, если у вас имеются разрешения на доступ к этой функции. 
 
