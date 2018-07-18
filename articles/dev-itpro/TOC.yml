@@ -1014,6 +1014,8 @@
           href: deployment/apply-deployable-package-system.md
         - name: Установка готового к развертыванию пакета
           href: deployment/install-deployable-package.md
+        - name: Удаление пакета
+          href: deployment/uninstall-deployable-package.md
         - name: Устранение неполадок приложений пакета
           href: deployment/deployable-package-troubleshooting.md
 - name: 'Модификации, обновления и исправления'
