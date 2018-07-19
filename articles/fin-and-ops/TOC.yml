@@ -1653,6 +1653,7 @@
                 - name: Закрытие на конец года
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Дания
+              href: ../financials/localizations/denmark.md
               items:
                 - name: Назначение формата платежной квитанции счету клиента
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1684,6 +1685,7 @@
                 - name: Отчет по НДС
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: Франция
+              href: ../financials/localizations/france.md
               items:
                 - name: Государственный сектор
                   items:
@@ -1760,6 +1762,7 @@
                 - name: Настройка электронной налоговой декларации
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Венгрия
+              href: ../financials/localizations/hungary.md
               items:
                 - name: Расчет обменного курса
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1774,6 +1777,7 @@
                 - name: Закрытие на конец года
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Исландия
+              href: ../financials/localizations/iceland.md
               items:
                 - name: Создание счета поставщика и прикрепление категории декларации накладной
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1784,6 +1788,7 @@
                 - name: Обновление деклараций накладных поставщиков и создание отчета
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: Италия
+              href: ../financials/localizations/italy.md
               items:
                 - name: Сведения для отчетов по НДС
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1806,6 +1811,7 @@
                 - name: Подоходный налог
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: Латвия
+              href: ../financials/localizations/latvia.md
               items:
                 - name: Учет основных средств
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1818,6 +1824,7 @@
                 - name: Сведения для отчета по НДС
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: Литва
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: Отчет по ремонту основных средств
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1828,12 +1835,14 @@
                 - name: Сведения для отчета по НДС
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: Голландия
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: Электронная налоговая декларация (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Интеграция Semansys XBRL
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: Норвегия
+              href: ../financials/localizations/norway.md
               items:
                 - name: Форматы платежей клиентов и поставщиков
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1848,6 +1857,7 @@
                 - name: Рекомендации по развертыванию контрольно-кассовых машин
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Польша
+              href: ../financials/localizations/poland.md
               items:
                 - name: Расчет скидок по строке из цены за единицу
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1870,6 +1880,7 @@
                 - name: Оборотно-сальдовая ведомость
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: Испания
+              href: ../financials/localizations/spain.md
               items:
                 - name: Применение скидок по оплате в накладной
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1898,6 +1909,7 @@
                 - name: Специальные записи и открывающие ведомости
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: Швеция
+              href: ../financials/localizations/sweden.md
               items:
                 - name: Экспорт финансовой информации для аудиторов в Швеции
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1906,10 +1918,12 @@
                 - name: Контрольно-кассовые машины
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: Швейцария
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: Импорт платежей клиентов в ESR
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: Великобритания
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: 'Construction Industry Scheme '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
