@@ -3,7 +3,7 @@ title: "Прямая синхронизация продуктов из Finance 
 description: "В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации продуктов из Microsoft Dynamics 365 for Finance and Operations с Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -78,7 +78,8 @@ ms.lasthandoff: 03/26/2018
 Управляемые извне продукты автоматически добавляются к первому допустимому прайс-листу с той же валютой. Прайс-листы упорядочены в алфавитном порядке по имени. Цена продажи продукта из Finance and Operations используется как цена в прайс-листе. Таким образом, должен быть прайс-лист в Sales для каждой валюты продажи продуктов в Finance and Operations. Валюта в запущенных в производство продуктах продажи задана как валюта учета в юридическом лице, из которого экспортируется продукт.
 
 > [!NOTE]
-> Продукт не будет успешно синхронизирован при отсутствии прайс-листа в соответствующей валюте.
+> - Продукт не будет успешно синхронизирован при отсутствии прайс-листа в соответствующей валюте.
+> - Вы можете управлять используемым прайс-листом с интеграцией путем соответствия pricelevelid.name [Прайс-лист по умолчанию (Имя)] в проекте интеграции данных. Ввод данных должен осуществляться буквами нижнего регистра. Например, для прайс-листа в Продажи с именем «Стандарт» будет стоять по умолчанию: поле назначения: pricelevelid.name [Прайс-лист по умолчанию (Имя)] и тип карты: [{«transformType»: "Default", "defaultValue": "standard" }].
 
 ## <a name="preconditions-and-mapping-setup"></a>Предварительные условия и настройка сопоставления
 
