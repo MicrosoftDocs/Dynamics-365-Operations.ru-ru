@@ -410,151 +410,6 @@
     - name: Управление финансами
       href: ../financials/index.md
       items:
-        - name: Главная книга
-          href: ../financials/general-ledger/general-ledger.md
-          items:
-            - name: Счета
-              items:
-                - name: Обзор начислений
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: Правила элиминирования
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: Комбинации счетов и аналитик
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: Сбалансированные журналы для сбалансированного учета
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: Определения разносок
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: 'Примеры определений разносок '
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: Сальдо счетов главной книги
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: Определение финансовых аналитик
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: Ведение шаблонов финансовой аналитики по умолчанию
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: Создание структур счетов
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: Создание схем начисления
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: Создание групп консолидации и дополнительных счетов консолидации
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: Типы счетов ГК
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: Создание счета ГК
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: Планирование плана счетов
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: Сопоставление проводок между счетами ГК
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: Настройка псевдонима счета ГК
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: Настройка категорий счетов ГК
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: Анализатор источника учета
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: Распределение по бухгалтерским счетам
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: Обработка распределений
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: Финансовые аналитики
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: Конвертация валют учета или отчетности
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: Группы счетов консолидации и счета
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: Обзор консолидации и закрытия
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: 'Финансовые календари, финансовые года и периоды'
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: Настройка структур счетов
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: Журналы и книги учета
-              items:
-                - name: Обработка общего журнала
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: Разноска периодических журналов
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: Обработка журнала распределения ГК
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: Настройка внутрихолдингового учета
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: Правила распределения ГК
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: Создание расширенных правил для журналов
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: Создание и назначение структур дополнительных правил
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: Типы журналов ГК
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: Создание и проверка журналов
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: Просмотр записей или проводок в журнале
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: Просмотр связанных внутрихолдинговых ваучеров из журнала
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: Создание записи в журнале с помощью шаблона
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: Создание проводок начисления ГК
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: Публикация строк журнала и документов из Excel
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: Просмотр записей в журнале и проводок
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: Учет учтенных записей в журнале в субкниге
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: Переоценка валюты в консолидированной компании
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: Переоценка в иностранной валюте для главной книги
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Импорт курсов обмена валют
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-            - name: Закрытие периода
-              items:
-                - name: Закрытие ГК в конце периода
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: Рабочая область закрытия финансового периода
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: Закрытие на конец года
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: Закрытие финансового года
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: Массовое закрытие финансовых периодов
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: Налог
-              items:
-                - name: Обзор налога
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: Ставки налога на основе маржинальной базы и методов расчета
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: Налоговые платежи и правила округления
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: Методы расчета налога в поле "Основание"
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Расчет и корректировка налога по накладной поставщика
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Создание налогового платежа
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: Создание налоговых проводок по документам
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Настройка групп разноски ГК для налога
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Настройка налоговых органов
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Настройка налоговых кодов
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Настройка налоговых групп и налоговых групп номенклатур
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Настройка кодов налоговой отчетности
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Настройка периодов сопоставления налогов
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Настройка подоходного налога
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: Просмотр разнесенных налоговых проводок
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: Расчеты с поставщиками
           href: ../financials/accounts-payable/accounts-payable.md
           items:
@@ -662,6 +517,10 @@
               href: ../financials/accounts-receivable/sepa-direct-debit-mandate.md
             - name: 'Настройка, авторизация и проверка данных кредитной карты'
               href: ../financials/accounts-receivable/credit-card-authorizations.md
+            - name: Создание накладных с произвольным текстом
+              href: ../financials/accounts-receivable/create-free-text-invoice-new.md
+            - name: Создание шаблона накладных с произвольным текстом
+              href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
             - name: Исправление накладной с произвольным текстом
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
             - name: Настройка процентных ставок для кода процента
@@ -682,12 +541,6 @@
                   href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
                 - name: Создание последовательности писем-напоминаний
                   href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: Создание поручения на безакцептное списание для клиента
-                  href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
-                - name: Создание накладных с произвольным текстом
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice.md
-                - name: Создание шаблона накладных с произвольным текстом
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice-template.md
                 - name: Создание кода процента с диапазоном
                   href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
                 - name: Создание накладных по заказам на продажу
@@ -732,6 +585,31 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: Платежи клиентов на частичную сумму
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+        - name: Бюджетирование
+          href: ../financials/budgeting/budgeting-overview.md
+          items:
+            - name: 'Обзор бюджетного планирования '
+              href: ../financials/budgeting/budget-planning-overview-configuration.md
+            - name: 'Обзор бюджетного контроля '
+              href: ../financials/budgeting/budget-control-overview-configuration.md
+            - name: 'Обзор бюджетирования '
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: Прогнозирование должности
+              href: ../financials/budgeting/position-forecasting.md
+            - name: Документы обоснования бюджетного планирования
+              href: ../financials/budgeting/budget-planning-justification-docs.md
+            - name: Создание бюджета из счетов проводки и итоговых счетов
+              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: Шаблоны бюджетного планирования для Excel
+              href: ../financials/budgeting/budget-planning-excel-templates.md
+            - name: Устранение неполадок с бюджетированием должностей
+              href: ../financials/budgeting/position-budgeting-set-up-issues.md
+            - name: Бюджетное планирование
+              href: ../financials/budgeting/budget-plan.md
+            - name: Распределение данных бюджетного планирования
+              href: ../financials/budgeting/budget-planning-data-allocation.md
+            - name: Интеграция бюджетного планирования с другими модулями
+              href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: Управление банком и кассовыми операциями
           href: ../financials/cash-bank-management/cash-bank-management.md
           items:
@@ -811,6 +689,112 @@
                   href: ../financials/cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Обновление составного объекта журнала банка
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
+        - name: Учет затрат
+          href: ../financials/cost-accounting/cost-accounting-home-page.md
+          items:
+            - name: Терминология учета затрат
+              href: ../financials/cost-accounting/terms-cost-accounting.md
+            - name: 'Финансовые календари, финансовые года и периоды'
+              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+            - name: Финансовые аналитики
+              href: ../financials/general-ledger/financial-dimensions.md
+            - name: Структуры счетов
+              href: ../financials/general-ledger/Default-dimensions.md
+            - name: Создание структур счетов
+              href: ../financials/general-ledger/tasks/create-account-structures.md
+            - name: Обзор бюджетирования
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: Создание аналитик и импорт элементов аналитик
+              href: ../financials/cost-accounting/cost-dimension.md
+            - name: Аналитики элементов затрат
+              href: ../financials/cost-accounting/cost-elements.md
+            - name: Создание элементов затрат
+              href: ../financials/cost-accounting/tasks/create-cost-elements.md
+            - name: Аналитики объектов затрат
+              href: ../financials/cost-accounting/cost-objects.md
+            - name: Создание объектов затрат
+              href: ../financials/cost-accounting/tasks/create-cost-objects.md
+            - name: Сопоставление элементов аналитик элементов затрат с общим набором элементов аналитик
+              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
+            - name: Сопоставление аналитики элемента затрат
+              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
+            - name: Иерархия аналитик
+              href: ../financials/cost-accounting/dimension-hierarchy.md
+            - name: Создание иерархии отчетности организации
+              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
+            - name: Права доступа контролера объектов затрат
+              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
+            - name: Настройка прав доступа для контролера объектов затрат
+              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
+            - name: Определение единиц управления затратами
+              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
+            - name: Создание книги учета затрат
+              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
+            - name: Элементы статистических аналитик и шаблоны поставщиков статистических мер
+              href: ../financials/cost-accounting/statistical-measure-provider-template.md
+            - name: Базы распределения
+              href: ../financials/cost-accounting/allocation-bases.md
+            - name: Создание и назначение политик распределения затрат единицам управления затратами
+              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
+            - name: Создание и назначение политик поведения затрат единицам управления затратами
+              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
+            - name: Создание и назначение политик отнесения затрат по единицам управления затратами
+              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
+            - name: Создание политики свертки затрат
+              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
+            - name: Управление источником данных для книги учета затрат
+              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
+            - name: Обработка и трассировка исходных данных
+              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
+            - name: Расчет накладных расходов
+              href: ../financials/cost-accounting/overhead-calculation.md
+            - name: Политика свертки затрат и расчет накладных расходов
+              href: ../financials/cost-accounting/cost-rollup.md
+            - name: Настройка рабочей области управления затратами
+              href: ../financials/cost-accounting/cost-control-workspace.md
+            - name: Настройка параметров рабочей области управления затратами
+              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
+            - name: Сведения о безопасности на основе списка доступа и RLS в Microsoft Power BI
+              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: Использование пакета содержимого для отчетности Microsoft Power BI
+              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: Использование рабочей области управления затратами для мобильных приложений Finance and Operations
+              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+        - name: Управление расходами
+          href: ../financials/expense-management/expense-management.md
+          items:
+            - name: Планирование управления расходами
+              href: ../financials/expense-management/plan-expense-management.md
+            - name: Параметры управления расходами
+              href: ../financials/expense-management/Expense-Management-Parameters.md
+            - name: Мобильная рабочая область управления расходами
+              href: ../financials/expense-management/expense-management-mobile-workspace.md
+            - name: Настройка workflow-процессов для управления расходами
+              href: ../financials/expense-management/expense-workflows.md
+            - name: Документооборот управления расходами
+              href: ../financials/expense-management/expense-workflow.md
+            - name: Импорт и ведение проводок по кредитным картам
+              href: ../financials/expense-management/import-credit-card.md
+            - name: Распределения по отчету по расходам
+              href: ../financials/expense-management/expense-report-distributions.md
+            - name: Внутрихолдинговые расходы
+              href: ../financials/expense-management/intercompany-expense.md
+            - name: Политики расходов
+              href: ../financials/expense-management/travel-expense-policies.md
+            - name: Просмотр отчета по расходам
+              href: ../financials/expense-management/view-expense-report.md
+            - name: Разноска отчета по расходам
+              href: ../financials/expense-management/post-expense.md
+            - name: Отчеты по расходам и использование нескольких утверждающих лиц
+              href: ../financials/expense-management/expense-report-multiple-approvers.md
+            - name: Возмещение НДС в модуле Управление расходами
+              href: ../financials/expense-management/VAT-expense-report.md
+            - name: Суточные правила
+              href: ../financials/expense-management/per-diem.md
+            - name: Заявки на командировки
+              href: ../financials/expense-management/travel-req.md
+            - name: Личные расходы в отчете о расходах
+              href: ../financials/expense-management/personal-expenses.md
         - name: Основные средства
           href: ../financials/fixed-assets/fixed-assets.md
           items:
@@ -916,152 +900,151 @@
                   href: ../financials/fixed-assets/tasks/split-fixed-asset.md
                 - name: Передача основного средства
                   href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
-        - name: Управление расходами
-          href: ../financials/expense-management/expense-management.md
+        - name: Главная книга
+          href: ../financials/general-ledger/general-ledger.md
           items:
-            - name: Планирование управления расходами
-              href: ../financials/expense-management/plan-expense-management.md
-            - name: Параметры управления расходами
-              href: ../financials/expense-management/Expense-Management-Parameters.md
-            - name: Мобильная рабочая область управления расходами
-              href: ../financials/expense-management/expense-management-mobile-workspace.md
-            - name: Настройка workflow-процессов для управления расходами
-              href: ../financials/expense-management/expense-workflows.md
-            - name: Документооборот управления расходами
-              href: ../financials/expense-management/expense-workflow.md
-            - name: Импорт и ведение проводок по кредитным картам
-              href: ../financials/expense-management/import-credit-card.md
-            - name: Распределения по отчету по расходам
-              href: ../financials/expense-management/expense-report-distributions.md
-            - name: Внутрихолдинговые расходы
-              href: ../financials/expense-management/intercompany-expense.md
-            - name: Политики расходов
-              href: ../financials/expense-management/travel-expense-policies.md
-            - name: Просмотр отчета по расходам
-              href: ../financials/expense-management/view-expense-report.md
-            - name: Разноска отчета по расходам
-              href: ../financials/expense-management/post-expense.md
-            - name: Отчеты по расходам и использование нескольких утверждающих лиц
-              href: ../financials/expense-management/expense-report-multiple-approvers.md
-            - name: Возмещение НДС в модуле Управление расходами
-              href: ../financials/expense-management/VAT-expense-report.md
-            - name: Суточные правила
-              href: ../financials/expense-management/per-diem.md
-            - name: Заявки на командировки
-              href: ../financials/expense-management/travel-req.md
-            - name: Личные расходы в отчете о расходах
-              href: ../financials/expense-management/personal-expenses.md
-        - name: Бюджетирование
-          href: ../financials/budgeting/budgeting-overview.md
-          items:
-            - name: 'Обзор бюджетного планирования '
-              href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: 'Обзор бюджетного контроля '
-              href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'Обзор бюджетирования '
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: Прогнозирование должности
-              href: ../financials/budgeting/position-forecasting.md
-            - name: Документы обоснования бюджетного планирования
-              href: ../financials/budgeting/budget-planning-justification-docs.md
-            - name: Создание бюджета из счетов проводки и итоговых счетов
-              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
-            - name: Шаблоны бюджетного планирования для Excel
-              href: ../financials/budgeting/budget-planning-excel-templates.md
-            - name: Устранение неполадок с бюджетированием должностей
-              href: ../financials/budgeting/position-budgeting-set-up-issues.md
-            - name: Бюджетное планирование
-              href: ../financials/budgeting/budget-plan.md
-            - name: Распределение данных бюджетного планирования
-              href: ../financials/budgeting/budget-planning-data-allocation.md
-            - name: Интеграция бюджетного планирования с другими модулями
-              href: ../financials/budgeting/budget-planning-integration-other-modules.md
-        - name: Отчетность
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
-          items:
-            - name: Финансовые отчеты по балансовому отчету
-              href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: Создание финансового отчета
-              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-            - name: Финансовый отчет по отчету о доходах
-              href: ../financials/general-ledger/income-statement-financial-report.md
-            - name: Финансовые отчеты по пробному балансу
-              href: ../financials/general-ledger/trial-balance-financial-reports.md
-            - name: Просмотр финансовых отчетов
-              href: ../financials/general-ledger/view-financial-reports.md
-            - name: Конструктор отчетов
-              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: Учет затрат
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
-          items:
-            - name: Терминология учета затрат
-              href: ../financials/cost-accounting/terms-cost-accounting.md
-            - name: 'Финансовые календари, финансовые года и периоды'
-              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: Финансовые аналитики
-              href: ../financials/general-ledger/financial-dimensions.md
-            - name: Структуры счетов
-              href: ../financials/general-ledger/Default-dimensions.md
-            - name: Создание структур счетов
-              href: ../financials/general-ledger/tasks/create-account-structures.md
-            - name: Обзор бюджетирования
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: Создание аналитик и импорт элементов аналитик
-              href: ../financials/cost-accounting/cost-dimension.md
-            - name: Аналитики элементов затрат
-              href: ../financials/cost-accounting/cost-elements.md
-            - name: Создание элементов затрат
-              href: ../financials/cost-accounting/tasks/create-cost-elements.md
-            - name: Аналитики объектов затрат
-              href: ../financials/cost-accounting/cost-objects.md
-            - name: Создание объектов затрат
-              href: ../financials/cost-accounting/tasks/create-cost-objects.md
-            - name: Сопоставление элементов аналитик элементов затрат с общим набором элементов аналитик
-              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
-            - name: Сопоставление аналитики элемента затрат
-              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
-            - name: Иерархия аналитик
-              href: ../financials/cost-accounting/dimension-hierarchy.md
-            - name: Создание иерархии отчетности организации
-              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
-            - name: Права доступа контролера объектов затрат
-              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
-            - name: Настройка прав доступа для контролера объектов затрат
-              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
-            - name: Определение единиц управления затратами
-              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
-            - name: Создание книги учета затрат
-              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
-            - name: Элементы статистических аналитик и шаблоны поставщиков статистических мер
-              href: ../financials/cost-accounting/statistical-measure-provider-template.md
-            - name: Базы распределения
-              href: ../financials/cost-accounting/allocation-bases.md
-            - name: Создание и назначение политик распределения затрат единицам управления затратами
-              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
-            - name: Создание и назначение политик поведения затрат единицам управления затратами
-              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
-            - name: Создание и назначение политик отнесения затрат по единицам управления затратами
-              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
-            - name: Создание политики свертки затрат
-              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: Управление источником данных для книги учета затрат
-              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
-            - name: Обработка и трассировка исходных данных
-              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
-            - name: Расчет накладных расходов
-              href: ../financials/cost-accounting/overhead-calculation.md
-            - name: Политика свертки затрат и расчет накладных расходов
-              href: ../financials/cost-accounting/cost-rollup.md
-            - name: Настройка рабочей области управления затратами
-              href: ../financials/cost-accounting/cost-control-workspace.md
-            - name: Настройка параметров рабочей области управления затратами
-              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
-            - name: Сведения о безопасности на основе списка доступа и RLS в Microsoft Power BI
-              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: Использование пакета содержимого для отчетности Microsoft Power BI
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: Использование рабочей области управления затратами для мобильных приложений Finance and Operations
-              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+            - name: Счета
+              items:
+                - name: Обзор начислений
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: Правила элиминирования
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: Комбинации счетов и аналитик
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: Сбалансированные журналы для сбалансированного учета
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Определения разносок
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: 'Примеры определений разносок '
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: Сальдо счетов главной книги
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: Определение финансовых аналитик
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: Ведение шаблонов финансовой аналитики по умолчанию
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Создание структур счетов
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Создание схем начисления
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: Создание групп консолидации и дополнительных счетов консолидации
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: Типы счетов ГК
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: Создание счета ГК
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: Планирование плана счетов
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: Сопоставление проводок между счетами ГК
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Настройка псевдонима счета ГК
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Настройка категорий счетов ГК
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: Анализатор источника учета
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: Распределение по бухгалтерским счетам
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: Обработка распределений
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: Финансовые аналитики
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: Конвертация валют учета или отчетности
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: Группы счетов консолидации и счета
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Обзор консолидации и закрытия
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: 'Финансовые календари, финансовые года и периоды'
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Настройка структур счетов
+                  href: ../financials/general-ledger/configure-account-structures.md
+            - name: Журналы и книги учета
+              items:
+                - name: Обработка общего журнала
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: Разноска периодических журналов
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: Обработка журнала распределения ГК
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Настройка внутрихолдингового учета
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: Правила распределения ГК
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: Создание расширенных правил для журналов
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Создание и назначение структур дополнительных правил
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: Типы журналов ГК
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: Создание и проверка журналов
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: Просмотр записей или проводок в журнале
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Просмотр связанных внутрихолдинговых ваучеров из журнала
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: Создание записи в журнале с помощью шаблона
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: Создание проводок начисления ГК
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Публикация строк журнала и документов из Excel
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: Просмотр записей в журнале и проводок
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: Учет учтенных записей в журнале в субкниге
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Переоценка валюты в консолидированной компании
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: Переоценка в иностранной валюте для главной книги
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Импорт курсов обмена валют
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+            - name: Закрытие периода
+              items:
+                - name: Закрытие ГК в конце периода
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: Рабочая область закрытия финансового периода
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: Закрытие на конец года
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: Закрытие финансового года
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: Массовое закрытие финансовых периодов
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: Налог
+              items:
+                - name: Обзор налога
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: Ставки налога на основе маржинальной базы и методов расчета
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: Налоговые платежи и правила округления
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: Методы расчета налога в поле "Основание"
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Расчет и корректировка налога по накладной поставщика
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Создание налогового платежа
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: Создание налоговых проводок по документам
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: Настройка групп разноски ГК для налога
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: Настройка налоговых органов
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: Настройка налоговых кодов
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: Настройка налоговых групп и налоговых групп номенклатур
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: Настройка кодов налоговой отчетности
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Настройка периодов сопоставления налогов
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Настройка подоходного налога
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: Просмотр разнесенных налоговых проводок
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: Государственный сектор
           href: ../financials/public-sector/public-sector-functionality.md
           items:
@@ -1149,31 +1132,41 @@
                   href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
                 - name: Настройка классификаций договоров покупки для государственного сектора
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
-    - name: Финансовая отчетность
-      href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
-      items:
-        - name: Создание финансового отчета
-          href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-        - name: Компоненты финансового отчета
-          href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
-        - name: Конструктор отчетов
-          href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: Предпочтения пользователя
-          href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: Расширенные параметры форматирования
-          href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Упорядочение компонентов отчета
-          href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: Определения отчетов
-          href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
-        - name: Определения строк
-          href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Определения столбцов
-          href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
-        - name: Изменение ячеек определений строк
-          href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Сброс киоска данных финансовой отчетности после восстановления базы данных
-          href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Финансовая отчетность
+          href: ../financials/general-ledger/financial-reporting-getting-started.md
+          items:
+            - name: Обзор финансовой отчетности
+              href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
+            - name: Компоненты финансового отчета
+              href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
+            - name: Финансовые отчеты по балансовому отчету
+              href: ../financials/general-ledger/balance-sheet-financial-reports.md
+            - name: Создание финансового отчета
+              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
+            - name: Финансовый отчет по отчету о доходах
+              href: ../financials/general-ledger/income-statement-financial-report.md
+            - name: Финансовые отчеты по пробному балансу
+              href: ../financials/general-ledger/trial-balance-financial-reports.md
+            - name: Просмотр финансовых отчетов
+              href: ../financials/general-ledger/view-financial-reports.md
+            - name: Конструктор отчетов
+              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
+            - name: Предпочтения пользователя
+              href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: Расширенные параметры форматирования
+              href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Упорядочение компонентов отчета
+              href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: Определения отчетов
+              href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
+            - name: Определения строк
+              href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Определения столбцов
+              href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
+            - name: Изменение ячеек определений строк
+              href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Сброс киоска данных финансовой отчетности после восстановления базы данных
+              href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: Локализация и нормативные компоненты
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -1660,6 +1653,7 @@
                 - name: Закрытие на конец года
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Дания
+              href: ../financials/localizations/denmark.md
               items:
                 - name: Назначение формата платежной квитанции счету клиента
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1691,6 +1685,7 @@
                 - name: Отчет по НДС
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: Франция
+              href: ../financials/localizations/france.md
               items:
                 - name: Государственный сектор
                   items:
@@ -1767,6 +1762,7 @@
                 - name: Настройка электронной налоговой декларации
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Венгрия
+              href: ../financials/localizations/hungary.md
               items:
                 - name: Расчет обменного курса
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1781,6 +1777,7 @@
                 - name: Закрытие на конец года
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Исландия
+              href: ../financials/localizations/iceland.md
               items:
                 - name: Создание счета поставщика и прикрепление категории декларации накладной
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1791,6 +1788,7 @@
                 - name: Обновление деклараций накладных поставщиков и создание отчета
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: Италия
+              href: ../financials/localizations/italy.md
               items:
                 - name: Сведения для отчетов по НДС
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1813,6 +1811,7 @@
                 - name: Подоходный налог
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: Латвия
+              href: ../financials/localizations/latvia.md
               items:
                 - name: Учет основных средств
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1825,6 +1824,7 @@
                 - name: Сведения для отчета по НДС
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: Литва
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: Отчет по ремонту основных средств
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1835,12 +1835,14 @@
                 - name: Сведения для отчета по НДС
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: Голландия
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: Электронная налоговая декларация (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Интеграция Semansys XBRL
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: Норвегия
+              href: ../financials/localizations/norway.md
               items:
                 - name: Форматы платежей клиентов и поставщиков
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1855,6 +1857,7 @@
                 - name: Рекомендации по развертыванию контрольно-кассовых машин
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Польша
+              href: ../financials/localizations/poland.md
               items:
                 - name: Расчет скидок по строке из цены за единицу
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1877,6 +1880,7 @@
                 - name: Оборотно-сальдовая ведомость
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: Испания
+              href: ../financials/localizations/spain.md
               items:
                 - name: Применение скидок по оплате в накладной
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1905,6 +1909,7 @@
                 - name: Специальные записи и открывающие ведомости
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: Швеция
+              href: ../financials/localizations/sweden.md
               items:
                 - name: Экспорт финансовой информации для аудиторов в Швеции
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1913,10 +1918,12 @@
                 - name: Контрольно-кассовые машины
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: Швейцария
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: Импорт платежей клиентов в ESR
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: Великобритания
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: 'Construction Industry Scheme '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
@@ -3994,5 +4001,3 @@
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-- name: Dynamics 365 for Talent
-  href: ../talent/toc.yml

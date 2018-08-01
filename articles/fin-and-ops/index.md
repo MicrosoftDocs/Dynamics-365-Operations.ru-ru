@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d1307729945494ee78c0ca6089b384d666fe5f20
+ms.sourcegitcommit: e7e10768dd1e0a441842d5b13964f49153c35be3
+ms.openlocfilehash: cced03d29bb04182a3f5bae86c3bec6d3c086cde
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 07/10/2018
 
 ---
 
@@ -110,20 +110,20 @@ ms.lasthandoff: 03/26/2018
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Обслуживание</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Платформа управления данными</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
-<p><a href="organization-administration/organization-administration-home-page.md">Управление организацией</a></p>
+<p><a href="organization-administration/organization-administration-home-page.md">Администрирование организации</a></p>
 </td>
 <td>
 <h3>Связанные продукты</h3>
-<h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
-<p><a href="../talent/manage-benefit-program.md">Льготы</a></p>
-<p><a href="../talent/performance-management-overview.md">Развитие и обучение сотрудников</a></p>
-<p><a href="../talent/questionnaires.md">Анкета</a></p>
-
 <h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">Центр обработки вызовов</p>
 <p><a href="../retail/define-maintain-retail-channels.md">Настройка канала и управление им</p>
 <p><a href="../retail/retail-peripherals-overview.md">MPOS и Cloud POS</p>
 <p><a href="../retail/dev-itpro/dev-retail-home-page.md">Администрирование и разработка для Retail</p>
+
+<h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
+<p><a href="../talent/manage-benefit-program.md">Льготы</a></p>
+<p><a href="../talent/performance-management-overview.md">Развитие и обучение сотрудников</a></p>
+<p><a href="../talent/questionnaires.md">Анкета</a></p>
 
 </td>
 </tr>
