@@ -1,7 +1,7 @@
 ---
 title: "Распределение по бухгалтерским счетам"
 description: "Эта статья представляет информация о распределениях по бухгалтерским счетам и описываются параметры, доступные для обработки их. Распределения по бухгалтерским счетам используются для распределения денежных сумм для документа-источника по конкретным счетам ГК."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AccountingDistribution
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 17231
 ms.assetid: 9030355d-8e6e-408b-9e7d-7b346eaa652c

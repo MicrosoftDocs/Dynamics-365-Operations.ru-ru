@@ -1,7 +1,7 @@
 ---
 title: "Обработка распределений"
 description: "Эта статья представляет информацию о распределениях, параметры для обработки их в Microsoft Dynamics 365 for Finance and Operations и как их можно использовать в бюджетном планировании. Распределения используются для распределения сумм на несколько комбинаций счетов ГК. Они помогают гарантировать, что расходы или выручка начисляется на правильные объекты учета."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023

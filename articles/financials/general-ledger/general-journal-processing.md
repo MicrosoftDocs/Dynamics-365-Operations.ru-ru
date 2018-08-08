@@ -1,7 +1,7 @@
 ---
 title: "Обработка общего журнала"
 description: "Эта статья описывает возможности в Microsoft Dynamics 365 for Finance and Operations, которые могут помочь выполнить обработку общего журнала легче, и которое также может помочь гарантировать, что правильные данные отражаются, и внутренний контроль не скомпрометирован."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef

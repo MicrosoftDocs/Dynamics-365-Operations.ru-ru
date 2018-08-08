@@ -1,7 +1,7 @@
 ---
 title: "Чеки, датированные будущим числом"
 description: "Эта статья содержит сведения о поддержке чеков, датированных будущим числом, в Microsoft Dynamics 365 for Finance and Operations. Чеки, датированные будущим числом, выпускаются для создания и получения платежей в будущем. Поэтому чек нельзя обналичить до указанной даты."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229

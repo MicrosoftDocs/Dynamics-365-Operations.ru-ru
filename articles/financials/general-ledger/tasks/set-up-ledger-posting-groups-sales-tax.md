@@ -1,7 +1,7 @@
 --- 
 title: "Настройка групп разноски ГК для налога"
 description: "Налог рассчитывается и разносится на счета ГК, указанные в группах разноски ГК."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman
