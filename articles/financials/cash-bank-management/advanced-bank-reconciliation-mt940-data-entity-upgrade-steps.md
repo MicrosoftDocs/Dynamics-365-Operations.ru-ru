@@ -1,7 +1,7 @@
 ---
 title: "Импорт расширенной банковской выверки MT940 — обновление составного информационного объекта"
 description: "Порядковый номер должен быть добавлен в объект импорта банковской выписки для поддержки формата MT940."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 221594
 ms.assetid: dddc99ae-56ae-48df-856a-131079c17dcb

@@ -3,13 +3,13 @@ title: "Создание шаблона накладных с произволь
 description: "Эта процедура показывает, как создать шаблона периодической накладной с произвольным текстом."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 05/29/2019
+ms.date: 05/29/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shpandey

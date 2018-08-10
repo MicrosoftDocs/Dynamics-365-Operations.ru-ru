@@ -1,7 +1,7 @@
 ---
 title: "Настройка правил сопоставления банковской выверки"
 description: "Этот раздел описывает, как настроить правила сопоставления выверки и наборы правил сопоставления выверки, чтобы помочь процессу банковской выверки. Правила сопоставления выверки — это набор критериев, используемых при фильтрации строк банковской выписки и строки банковского документа во время процесса выверки."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 12971
 ms.assetid: b5073f83-31dc-404f-af42-3fd84a02a7c6
