@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63432fe5fe98b2c20ddbf9ebec6ac14b981f0106
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="83d04-105">В этой теме описывается содержимое Microsoft Power BI **Набор сотрудников**.</span><span class="sxs-lookup"><span data-stu-id="83d04-105">This topic describes the **Recruiting** Microsoft Power BI content.</span></span> <span data-ttu-id="83d04-106">В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.</span><span class="sxs-lookup"><span data-stu-id="83d04-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 
 ## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="83d04-107">Доступ к содержимому Power BI</span><span class="sxs-lookup"><span data-stu-id="83d04-107">Accessing the Power BI content</span></span>
-<span data-ttu-id="83d04-108">Содержимое Power BI **Набор сотрудников** отображается в рабочей области **Управление набором сотрудников**.</span><span class="sxs-lookup"><span data-stu-id="83d04-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span> 
+<span data-ttu-id="83d04-108">Содержимое Power BI **Набор сотрудников** отображается в рабочей области **Управление набором сотрудников**.</span><span class="sxs-lookup"><span data-stu-id="83d04-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span>
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a><span data-ttu-id="83d04-109">Отчеты и визуализации в рабочей области "Управление набором сотрудников"</span><span class="sxs-lookup"><span data-stu-id="83d04-109">Reports and visuals in the Recruitment management workspace</span></span>
 <span data-ttu-id="83d04-110">Рабочая область **Управление набором сотрудников** содержит вкладку **Аналитика**. На этой вкладке содержится интегрированное содержимое Power BI по набору сотрудников.</span><span class="sxs-lookup"><span data-stu-id="83d04-110">The **Recruitment management** workspace contains an **Analytics** tab. This tab contains the embedded Power BI content for recruiting.</span></span> <span data-ttu-id="83d04-111">Содержимое состоит из обзорной вкладки и дополнительных вкладок с подробными сведениями.</span><span class="sxs-lookup"><span data-stu-id="83d04-111">The content consists of an overview tab and additional tabs that contain details.</span></span> <span data-ttu-id="83d04-112">В следующей таблице приводится описание отчетов на каждой вкладке.</span><span class="sxs-lookup"><span data-stu-id="83d04-112">The following table describes the reports on each tab.</span></span>
@@ -66,6 +66,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="83d04-163">Производительность</span><span class="sxs-lookup"><span data-stu-id="83d04-163">Performance</span></span>          | <span data-ttu-id="83d04-164">Оценка, описание и модель оценки</span><span class="sxs-lookup"><span data-stu-id="83d04-164">Rating, description, and rating model</span></span>                            | <span data-ttu-id="83d04-165">Кандидат, принятый на работу кандидат, уволенный кандидат</span><span class="sxs-lookup"><span data-stu-id="83d04-165">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="83d04-166">Проект по набору сотрудников</span><span class="sxs-lookup"><span data-stu-id="83d04-166">Recruitment Project</span></span>  | <span data-ttu-id="83d04-167">Описание проекта, статус проекта и вакансии</span><span class="sxs-lookup"><span data-stu-id="83d04-167">Project description, project status, and openings</span></span>                | <span data-ttu-id="83d04-168">Кандидат, принятый на работу кандидат, уволенный кандидат</span><span class="sxs-lookup"><span data-stu-id="83d04-168">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="83d04-169">Уволенный кандидат</span><span class="sxs-lookup"><span data-stu-id="83d04-169">Terminated Applicant</span></span> | <span data-ttu-id="83d04-170">Уволенные кандидаты, причины, производительность и дата увольнения</span><span class="sxs-lookup"><span data-stu-id="83d04-170">Terminated applicants, reason, performance, and termination date</span></span> | <span data-ttu-id="83d04-171">Компания, смещение календаря, дата, географическое местоположение, имя кандидата, демографические данные, занятость, источник, проект по набору сотрудников, имя кандидата</span><span class="sxs-lookup"><span data-stu-id="83d04-171">Company, Calendar Offset, Date, Geographic Location, Performance, Demographics, Employment, Media, Recruitment Project, Applicant Name</span></span> |
-
-
 

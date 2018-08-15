@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6a0c1459da8770a8cc880a48483102494feb38bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -64,6 +64,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="c4209-162">Занимаемая должность</span><span class="sxs-lookup"><span data-stu-id="c4209-162">Position</span></span>         | <span data-ttu-id="c4209-163">Должность, название и эквивалент полной занятости (FTE)</span><span class="sxs-lookup"><span data-stu-id="c4209-163">Position, title, and full-time equivalent (FTE)</span></span>                  | <span data-ttu-id="c4209-164">План курса, участники курса</span><span class="sxs-lookup"><span data-stu-id="c4209-164">Course Agenda, Course Attendees</span></span> |
 | <span data-ttu-id="c4209-165">Имя сотрудника</span><span class="sxs-lookup"><span data-stu-id="c4209-165">Employee Name</span></span>    | <span data-ttu-id="c4209-166">Имя, фамилия и ФИО</span><span class="sxs-lookup"><span data-stu-id="c4209-166">First name, last name, and full name</span></span>                             | <span data-ttu-id="c4209-167">Участники курса</span><span class="sxs-lookup"><span data-stu-id="c4209-167">Course Attendees</span></span> |
 | <span data-ttu-id="c4209-168">Должность сотрудника</span><span class="sxs-lookup"><span data-stu-id="c4209-168">Employee Title</span></span>   | <span data-ttu-id="c4209-169">Должность и дата трудового стажа</span><span class="sxs-lookup"><span data-stu-id="c4209-169">Title and seniority date</span></span>                                         | <span data-ttu-id="c4209-170">Участники курса</span><span class="sxs-lookup"><span data-stu-id="c4209-170">Course Attendees</span></span> |
-
-
 
