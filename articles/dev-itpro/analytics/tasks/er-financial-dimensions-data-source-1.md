@@ -1,5 +1,5 @@
 --- 
-title: "Разработка модели данных для использования финансовых аналитик как источника данных"
+title: "Разработка моделей данных для использования финансовых аналитик как источников данных"
 description: "В следующих шагах поясняется, как системный администратор или разработчик электронной отчетности может настроить модель электронной отчетности (ER) для использования финансовых аналитик как источника данных для отчетов электронной отчетности."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e55eedba1955ae79733afee1a0b3c7072147bb5
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9b33d78b60ca4e4813dd4b158febee2323cea476
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-data-model-to-use-financial-dimensions-as-a-data-source"></a>Разработка модели данных для использования финансовых аналитик как источника данных 
+# <a name="design-data-models-to-use-financial-dimensions-as-data-sources"></a>Разработка моделей данных для использования финансовых аналитик как источников данных
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

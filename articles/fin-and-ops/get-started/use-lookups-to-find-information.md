@@ -1,5 +1,5 @@
 ---
-title: "Использование списков подстановок для поиска информации"
+title: "Поиск информации с помощью списков подстановки"
 description: "В Microsoft Dynamics 365 for Finance and Operations многие поля имеют списки подстановки, которые помогают легко найти правильное или требуемое значение. Ряд улучшений был добавлен в списки подстановок, чтобы сделать эти элементы управления более удобными и повысить производительность работы пользователей. В этом разделе вы узнаете об этих новых возможностях поиска и получите некоторые полезные советы по оптимальному использованию списков подстановки в системе."
 author: jasongre
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 013901724864092571099835b2c71b297710ff03
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 9de957490b2ca87949a7cbcecc9acb4e8b98aaaf
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="use-lookups-to-find-information"></a>Использование списков подстановок для поиска информации
+# <a name="find-information-by-using-lookups"></a>Поиск информации с помощью списков подстановки
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "Создание юридического лица"
+title: "Создание юридических лиц"
 description: "Юридическое лицо - это организация, которая определяется посредством регистрации в органе власти."
 author: sericks007
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 89d3babc4447ca7398521b93634db7ecb6cfb5de
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 4cbfbc5eab20cd94eb8e92f81f18b1f6b5b9cac1
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-a-legal-entity"></a>Создание юридического лица
+# <a name="create-legal-entities"></a>Создание юридических лиц
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

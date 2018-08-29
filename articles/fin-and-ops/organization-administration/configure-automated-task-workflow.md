@@ -1,5 +1,5 @@
 ---
-title: "Настройка автоматизированной задачи в workflow-процессе"
+title: "Настройка автоматизированных задач в workflow-процессе"
 description: "В этом разделе описывается, как настроить свойства автоматизированной задачи."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e8189f8d16e9b6dcbc339a23c1af5402c0316ce3
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 047abbf297b3514c7f97d2baa6c0f5cab6696cde
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>Настройка автоматизированной задачи в workflow-процессе
+# <a name="configure-automated-tasks-in-a-workflow"></a>Настройка автоматизированных задач в workflow-процессе
 
 [!include [banner](../includes/banner.md)]
 

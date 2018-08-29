@@ -1,5 +1,5 @@
 ---
-title: "Выполнение операций POS в подключенном и автономном режимах"
+title: "Операции POS в интерактивном и автономном режимах"
 description: "Этот раздел содержит сведения об операциях POS-терминала в Microsoft Dynamics 365 for Retail. Он указывает, где в приложении можно инициировать операции, а также доступны ли они в автономном режиме."
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="pos-operations-online-and-offline"></a>Выполнение операций POS в подключенном и автономном режимах
+# <a name="online-and-offline-point-of-sale-pos-operations"></a>Операции POS в интерактивном и автономном режимах
 
 [!include [banner](includes/banner.md)]
 

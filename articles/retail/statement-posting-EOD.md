@@ -1,5 +1,5 @@
 ---
-title: "Усовершенствования разноски журналов операций"
+title: "Усовершенствования функции разноски журнала операций"
 description: "В этом разделе описываются усовершенствования, которые были внесены в функцию разноски журналов операций."
 author: josaw1
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 4961ee7fcc56af0646e421c9e040e2129cc322c4
-ms.openlocfilehash: e6d6ede65764c0b35c9ce0985af0d9f2cd6653c0
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: d428da2a6fb8ce5d63c3373def879c9b32cfd492
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/12/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="improvements-to-statement-posting"></a>Усовершенствования разноски журналов операций
+# <a name="improvements-to-statement-posting-functionality"></a>Усовершенствования функции разноски журнала операций
 
 [!include[banner](includes/banner.md)]
 

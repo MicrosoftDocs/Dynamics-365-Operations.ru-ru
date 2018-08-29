@@ -1,5 +1,5 @@
 --- 
-title: "Обзор конфигураций для подготовки отчетов в форматах Microsoft Office с внедренными изображениями"
+title: "Проверка конфигураций для формирования отчетов в формате Office, содержащих внедренные изображения"
 description: "Для выполнения этих действий необходимо сначала выполнить действия в проводнике по задаче \"Электронная отчетность — Создание отчетов в форматах MS Office с внедренными изображениями (Часть 1. Настройка параметров)\"."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe58809c60fa27a605d84a61893ff569ded058ef
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8f3462f16ad7638071ab0aa2175d0bc291eeae89
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images"></a>Обзор конфигураций для подготовки отчетов в форматах Microsoft Office с внедренными изображениями
+# <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Проверка конфигураций для формирования отчетов в формате Office, содержащих внедренные изображения
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

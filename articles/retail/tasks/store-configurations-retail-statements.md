@@ -1,5 +1,5 @@
 --- 
-title: "Конфигурации магазинов для журналов операций розничной торговли"
+title: "Настройка параметров магазина, влияющих на розничные отчеты"
 description: "Эта процедура показывает процесс настройки параметров розничного магазина, которые влияют на то, как создаются и разносятся журналы операций розницы."
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 441ba692f559f9966f3e2512c7760ad2f732b768
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: fdfb233a3e6c3ab17577afb67aa0fdd0d4588020
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="store-configurations-for-retail-statements"></a>Конфигурации магазинов для журналов операций розничной торговли
+# <a name="configure-store-settings-that-affect-retail-statements"></a>Настройка параметров магазина, влияющих на розничные отчеты
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

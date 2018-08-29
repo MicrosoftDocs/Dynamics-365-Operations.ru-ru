@@ -3,7 +3,7 @@ title: "Локализация и нормативные компоненты"
 description: "В этом разделе содержатся списки ресурсов, которые помогут вам узнать больше о функциональности, относящейся к конкретным странам и регионам."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2018
+ms.date: 07/18/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4485bd6442d186e5a6bac90e0a9041566e2e26d0
-ms.openlocfilehash: efa82abcd25101fc7be772c32e6c4fee7976d4bb
+ms.sourcegitcommit: 46165351f3c9048cfbecf25a1c49d8aeac1f3e1e
+ms.openlocfilehash: 787ce11701a9df951b38af5209206902d7c98019
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -90,7 +90,7 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 -   [Финансовые журналы](../../financials/localizations/latam-bra-fiscal-books.md)
 -   [Текстовые заполнители финансовых документов](../../financials/localizations/latam-bra-fiscal-document-text-placeholders.md)
 -   [Финансовые документы](../../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md)
--   [Финансовые документы налога ICMS](../../financials/localizations/latam-bra-icms-tax-fiscal-documents.md)
+-   [Финансовые документы по налогу ICMS](../../financials/localizations/latam-bra-icms-tax-fiscal-documents.md)
 -   [Импорт и проверка XML-документов NF-e и DANFE-файлов](../../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
 -   [Импорт финансовых документов](../../financials/localizations/latam-bra-import-fiscal-documents.md)
 -   [Журналы, созданные во время процесса возврата электронных платежей](../../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md)
@@ -147,33 +147,9 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 - [Отчетность по НДС](../../financials/localizations/emea-vat-reporting.md)
 - [Просмотр проводок по сопоставлению](../../financials/localizations/emea-transactions-settlement-form.md)
 
-### <a name="france"></a>Франция
--   [Накладные и коды ваучеров в хронологическом порядке](../../financials/localizations/emea-fra-chronological-invoices-vouchers.md)
--   [Амортизационная разница для Франции](../../financials/localizations/emea-fra-derogatory-depreciation.md)
--   [Коды NAF и Siret](../../financials/localizations/emea-fra-naf-codes-siret-numbers.md)
--   [Штрафы за просроченные платежи клиента во Франции](../../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md)
--   [Печать текста восстановления общей суммы в накладной клиента](../../financials/localizations/emea-fra-print-lump-sum-recovery-text.md)
--   [Амортизация RB/SL](../../financials/localizations/emea-fra-rbsl-depreciation.md)
-
-#### <a name="public-sector"></a>Государственный сектор
-   -   [Обязательства в государственном секторе](../../financials/localizations/emea-fra-commitments-public-sector.md)
-   -   [Mandats de paiement в государственном секторе](../../financials/localizations/emea-fra-mandats-de-paiement.md)
-   -   [Закупки и источники](../../financials/localizations/emea-fra-procurement-sourcing-public-sector.md)
-   -   [Учет в государственном секторе](../../financials/localizations/emea-fra-public-sector-accounting.md)
-   -   [Titres de recette](../../financials/localizations/emea-fra-titres-de-recette-public-sector.md)
-   -   [Удержание платежей по накладным поставщика](../../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md)
-
-### <a name="germany"></a>Германия
--   [Амортизация дополнительного приобретения](../../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
--   [Немецкий файл аудита (GDPdU/GoBD)](../../financials/localizations/emea-deu-gdpdu-audit-data-export.md)
--   [Отчет о списке журналов (Германия)](../../financials/localizations/emea-deu-journal-list-report.md)
--   [Печать отдельной этикетки для кредитовых авизо, возникающих в результате продаж](../../financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md)
-
-### <a name="hungary"></a>Венгрия
-
--   [Методы амортизации основных средств](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
--   [Перемещение основного средства на склад](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
--   [Малоценные ОС](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+### <a name="francefinancialslocalizationsfrancemd"></a>[Франция](../../financials/localizations/france.md)
+### <a name="germanyfinancialslocalizationsgermanymd"></a>[Германия](../../financials/localizations/germany.md)
+### <a name="hungaryfinancialslocalizationshungarymd"></a>[Венгрия](../../financials/localizations/hungary.md)
 
 ### <a name="india"></a>Индия
 
@@ -190,18 +166,7 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
     - [Вопросы и ответы по налоговым порогам](../../financials/localizations/apac-ind-tax-thresholds.md)
     - [Расширение механизма начисления налога](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
-### <a name="italy"></a>Италия
-
--   [Отчет по итальянскому черному списку](../../financials/localizations/emea-ita-black-list-report.md)
--   [Сведения об отчетах по НДС](../../financials/localizations/emea-ita-vat-statements-details.md)
--   [Дата обеспечения для проводок](../../financials/localizations/emea-ita-competence-date.md)
--   [Ручная амортизация основных средств](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
--   [Modello 770](../../financials/localizations/emea-ita-modello770.md)
--   [Проверка даты отборочной накладной в накладных для Италии](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
--   [Итальянские книги учета налогов](../../financials/localizations/emea-ita-fiscal-books.md)
--   [Разбиение платежа для накладных, выписанных государственным административным органам](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
--   [Подоходный налог](../../financials/localizations/emea-ita-withholding-tax.md)
-
+### <a name="italyfinancialslocalizationsitalymd"></a>[Италия](../../financials/localizations/italy.md)
 ### <a name="japan"></a>Япония
 
 -  [Сборы по банковским платежам, покрываемые поставщиками](../../financials/localizations/apac-jpn-bank-payment-fees-vendors.md)
@@ -216,24 +181,13 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 -  [Оплата поставщику путем индоссирования переводного векселя](../../financials/localizations/apac-jpn-endorse-bill-of-exchange.md)
 -  [Прогрессивный расчет подоходного налога](../../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md)
 
-### <a name="latvia"></a>Латвия
-
--   [Учет основных средств для целей налогообложения](../../financials/localizations/emea-lva-fixed-assets-accounting.md)
--   [Отслеживание изменений расположения основных средств](../../financials/localizations/emea-lva-fixed-assets-location-fields-change.md)
--   [Нумерация накладных и отборочных накладных](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [Отчет по налогам на использование природных ресурсов](../../financials/localizations/emea-lva-tax-natural-resources.md)
--   [Сведения об отчете по НДС](../../financials/localizations/emea-lva-vat-statement-details.md)
-
-### <a name="lithuania"></a>Литва
-
--   [Отчет по ремонту ОС](../../financials/localizations/emea-ltu-fixed-asset-repair-statement.md)
--   [Нумерация накладных и отборочных накладных](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [Сведения об отчете по НДС](../../financials/localizations/emea-ltu-vat-statement-details.md)
+### <a name="latviafinancialslocalizationslatviamd"></a>[Латвия](../../financials/localizations/latvia.md)
+### <a name="lithuaniafinancialslocalizationslithuaniamd"></a>[Литва](../../financials/localizations/lithuania.md)
 
 ### <a name="mexico"></a>Мексика
 
--   [Отчет по декларации DIOT](../../financials/localizations/latam-mex-diot-declaration-statement.md)
--   [Отчеты по электронному учету ГК](../../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md)
+-   [Декларация DIOT](../../financials/localizations/latam-mex-diot-declaration-statement.md)
+-   [Электронные отчеты по счетам ГК](../../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md)
 -   [Отчет по декларации о поправке на инфляцию](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [Отчет по декларации ISR](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [Электронные накладные (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
@@ -242,29 +196,9 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 
 -   [Налог на товары и услуги (GST)](../../financials/localizations/apac-mys-gst.md)
 
-### <a name="netherlands"></a>Голландия
-
--   [Крайний срок выпуска накладных](../../financials/localizations/emea-invoice-issue-deadline.md)
-
-### <a name="norway"></a>Норвегия
-
--   [Контрольно-кассовые машины для Норвегии](../../retail/localizations/emea-nor-cash-registers.md)
--   [Рекомендации по развертыванию контрольно-кассовых машин для Норвегии](../../retail/localizations/emea-nor-loc-deployment-guidelines.md)
--   [Формат импорта Nets](../../financials/localizations/emea-nor-nets-import-format.md)
--   [Отчет по НДС](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
-
-### <a name="poland"></a>Польша
-
--   [Расчет скидок по строке из цены за единицу](../../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
--   [Замечания при корректировке](../../financials/localizations/emea-pol-correction-notes.md)
--   [Нумерация дубликатов накладных по продаже](../../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md)
--   [Амортизация ОС](../../financials/localizations/emea-pol-fixed-assets-depreciation.md)
--   [Выбытие ОС](../../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md)
--   [Возвращаемая упаковка](../../financials/localizations/emea-pol-returnable-packages.md)
--   [Налоговые отчеты](../../financials/localizations/emea-pol-sales-tax-reports.md)
--   [Стандартный файл аудита (SAF)](../../financials/localizations/emea-pol-standard-audit-file-saf.md)
--   [Отчет об обороте и сальдо](../../financials/localizations/emea-pol-turnover-balances-statement.md)
-
+### <a name="netherlandsfinancialslocalizationsnetherlandsmd"></a>[Голландия](../../financials/localizations/netherlands.md)
+### <a name="norwayfinancialslocalizationsnorwaymd"></a>[Норвегия](../../financials/localizations/norway.md)
+### <a name="polandfinancialslocalizationspolandmd"></a>[Польша](../../financials/localizations/poland.md)
 ### <a name="saudi-arabia"></a>Саудовская Аравия
 
 -   [Отчетность Zakat](../../financials/localizations/emea-sau-zakat-reporting.md)
@@ -273,40 +207,17 @@ Microsoft Dynamics 365 for Finance and Operations включает функци�
 
 -   [Создание отчета GST-05 для Сингапура](../../financials/localizations/apac-sgp-generate-gst-05-report.md)
 
-### <a name="spain"></a>Испания
-
--   [Параметры испанских переводных векселей](../../financials/localizations/emea-esp-bill-of-exchange-options.md)
--   [Параметр "В накладной применена скидка по оплате"](../../financials/localizations/emea-esp-cash-discount-applied-invoice.md)
--   [Условные налоги](../../financials/localizations/emea-esp-conditional-sales-tax.md)
--   [Группы переоценки основных средств](../../financials/localizations/emea-esp-fixed-asset-group-revaluation.md)
--   [Внутренний НДС (ЕС)](../../financials/localizations/emea-esp-intra-community-vat.md)
--   [Разовые клиенты](../../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md)
--   [Печать чеков с использованием испанского макета](../../financials/localizations/emea-esp-print-checks-with-spanish-layout.md)
--   [Параметры испанских простых векселей](../../financials/localizations/emea-esp-promissory-note-options.md)
--   [Циклы продажи и покупки](../../financials/localizations/emea-esp-sales-purchase-cycle.md)
--   [Специальные записи и открывающие ведомости](../../financials/localizations/emea-esp-opening-sheets-spain.md)
--   [Использование финансовых данных из счета в накладной](../../financials/localizations/emea-esp-fiscal-data-invoice-account.md)
-
-### <a name="sweden"></a>Швеция
-
--   [Форматы импорта платежей для Швеции](../../financials/localizations/emea-swe-payment-formats-import.md)
--   [Контрольно-кассовые машины для Швеции](../../retail/localizations/emea-swe-cash-registers.md)
-
-### <a name="switzerland"></a>Швейцария
-
--   [Импорт платежей клиентов в формате ESR](../../financials/localizations/emea-che-esr-customer-payments-import.md)
-
+### <a name="spainfinancialslocalizationsspainmd"></a>[Испания](../../financials/localizations/spain.md)
+### <a name="swedenfinancialslocalizationsswedenmd"></a>[Швеция](../../financials/localizations/sweden.md)
+### <a name="switzerlandfinancialslocalizationsswitzerlandmd"></a>[Швейцария](../../financials/localizations/switzerland.md)
 ### <a name="thailand"></a>Таиланд
 
--   [Отчеты по картам запаса](../../financials/localizations/apac-tha-stock-card-reports.md)
+-   [Отчеты по картам запасов](../../financials/localizations/apac-tha-stock-card-reports.md)
 -   [Накладная по налогам для подстановки или корректировки для Таиланда](../../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md)
 -   [Нереализованный НДС](../../financials/localizations/apac-tha-unrealized-vat.md)
 -   [Подоходный налог](../../financials/localizations/apac-tha-withholding-tax.md)
 
-### <a name="united-kingdom"></a>Великобритания
-
--   [Construction Industry Scheme для Великобритании](../../financials/localizations/emea-gbr-cis-construction-industry-scheme.md)
-
+### <a name="united-kingdomfinancialslocalizationsunited-kingdommd"></a>[Великобритания](../../financials/localizations/united-kingdom.md)
 ### <a name="united-states"></a>США
 
 -   [Форма 1099 для государственного сектора](../../financials/localizations/noam-usa-form-1099-public-sector.md)   

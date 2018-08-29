@@ -1,5 +1,5 @@
 --- 
-title: "Изменение и выполнение формата для использования файлов управления документами в выходных форматах"
+title: "Изменение и выполнение форматов для использования файлов управления документами в выходных данных электронной отчетности"
 description: "В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для использования файлов управления документами (вложений) в выходных данных электронной отчетности."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b38f69fc169367aa56468b2c8f06b65fd1291c79
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 5effbecf98e633d07f9e5eb22d3df1a12967c1e4
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="modify-and-run-format-to-use-document-management-files-in-format-outputs"></a>Изменение и выполнение формата для использования файлов управления документами в выходных форматах
+# <a name="modify-and-run-formats-to-use-document-management-files-in-er-output"></a>Изменение и выполнение форматов для использования файлов управления документами в выходных данных электронной отчетности
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Обзор модуля Attract"
+title: "Функции и возможности Attract"
 description: "Модуль Attract предоставляет возможности для управления процессом приема на работу новых специалистов. Можно добавлять кандидатов на открытые вакансии и переводить их со стадии на стадию, пока им не будет сделано предложение или их кандидатура не будет отклонена."
 author: rschloma
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b64a97897a1ea75eb2a9681bc9357433a570dd74
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 37dd0396787375fccd4082f392e079ed5dab04e9
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="attract-overview"></a>Обзор модуля Attract
+# <a name="attract-features-and-capabilities"></a>Функции и возможности Attract
 
 [!include [banner](includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "Импорт конфигурации из Lifecycle Services для электронной отчетности (ER)"
+title: "Импорт конфигураций электронной отчетности из Lifecycle Services"
 description: "В следующих шагах поясняется, как пользователь с ролью \"Системный администратор\" или \"Разработчик электронной отчетности\" может импортировать новую конфигурацию электронной отчетности из Microsoft Lifecycle Services (LCS)."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9eb4f54897c84b98828c927f0f93613583fd4599
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: f3b8cdb722cf49194faccc19fbb95265a230d48b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="import-a-configuration-from-lifecycle-services-for-electronic-reporting-er"></a>Импорт конфигурации из Lifecycle Services для электронной отчетности (ER)
+# <a name="import-electronic-reporting-configurations-from-lifecycle-services"></a>Импорт конфигураций электронной отчетности из Lifecycle Services
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

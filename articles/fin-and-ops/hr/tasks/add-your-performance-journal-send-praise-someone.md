@@ -1,5 +1,5 @@
 --- 
-title: "Добавление данных в журнал производительности и отправка похвалы другому пользователю"
+title: "Добавление информации в журнал производительности и отправка похвалы другому пользователю"
 description: "Журнал производительности содержит информацию, относящуюся к тому, насколько вы соответствуете целям или как хорошо вы работали во время периода."
 author: ShielaSogge
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 92cbb25839b8f202ba37a19ad88a54194a73c179
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Добавление данных в журнал производительности и отправка похвалы другому пользователю
+# <a name="add-information-to-your-performance-journal-and-send-praise"></a>Добавление информации в журнал производительности и отправка похвалы другому пользователю
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

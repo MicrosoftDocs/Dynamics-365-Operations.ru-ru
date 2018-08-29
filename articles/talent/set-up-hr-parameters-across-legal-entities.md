@@ -1,5 +1,5 @@
 ---
-title: "Настройка параметров управления персоналом для нескольких юридических лиц"
+title: "Настройка параметров управления персоналом (HR) для нескольких юридических лиц"
 description: "Необходимо настроить общие параметры для записей, которые используются совместно несколькими компаниями, например записи должностей. В этой статье описывается, как настроить параметры модуля \"Управление персоналом\" в разных юридических лицах."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1241d8da101af094ac510819376908727f9bcf07
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: cc5acf7ba1b350ee2c91923c7de3b4780385f3ef
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-hr-parameters-across-legal-entities"></a>Настройка параметров управления персоналом для нескольких юридических лиц
+# <a name="set-up-human-resources-hr-parameters-across-legal-entities"></a>Настройка параметров управления персоналом (HR) для нескольких юридических лиц
 
 [!include [banner](includes/banner.md)]
 
