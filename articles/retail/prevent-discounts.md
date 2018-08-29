@@ -1,5 +1,5 @@
 ---
-title: "Запрет скидок для розничных продуктов"
+title: "Параметры для запрета скидок для розничных продуктов"
 description: "Существует несколько причин, по которым предприятиям розничной торговли может потребоваться запретить скидки на некоторые продукты либо в ходе рекламной акции, либо при продаже на POS."
 author: jblucher
 manager: AnnBe
@@ -20,26 +20,26 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3b10270ea410b45d8c39885b3b87183b078378e0
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: eaee79e2a20ab443cf3779e8499bf29d63ad3dfc
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
-# <a name="prevent-discounts-for-retail-products"></a><span data-ttu-id="a7411-103">Запрет скидок для розничных продуктов</span><span class="sxs-lookup"><span data-stu-id="a7411-103">Prevent discounts for retail products</span></span>
+# <a name="options-for-preventing-discounts-for-retail-products"></a><span data-ttu-id="cefb7-103">Параметры для запрета скидок для розничных продуктов</span><span class="sxs-lookup"><span data-stu-id="cefb7-103">Options for preventing discounts for retail products</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="a7411-104">Существует несколько причин, по которым предприятиям розничной торговли может потребоваться запретить скидки на некоторые продукты либо в ходе рекламной акции, либо при продаже на POS.</span><span class="sxs-lookup"><span data-stu-id="a7411-104">There are various reasons why retailers may want to prevent some products from being discounted, either from a promotion or during the sale at the POS.</span></span>
+<span data-ttu-id="cefb7-104">Существует несколько причин, по которым предприятиям розничной торговли может потребоваться запретить скидки на некоторые продукты либо в ходе рекламной акции, либо при продаже на POS.</span><span class="sxs-lookup"><span data-stu-id="cefb7-104">There are various reasons why retailers may want to prevent some products from being discounted, either from a promotion or during the sale at the POS.</span></span>
 
-<span data-ttu-id="a7411-105">Следующие параметры, которые находятся на вкладке **Розница** выпущенных продуктов, позволяют настроить продукта так, чтобы запретить все или предоставляемые вручную скидки.</span><span class="sxs-lookup"><span data-stu-id="a7411-105">The following options, which can be found on the **Retail** tab of released products, will allow the product to be configured to prevent all or manual discounts.</span></span> <span data-ttu-id="a7411-106">Эти параметры можно задать на уровне категории в иерархии категорий розничной торговли.</span><span class="sxs-lookup"><span data-stu-id="a7411-106">The settings can also be specified at the category level from the retail category hierarchy.</span></span>
+<span data-ttu-id="cefb7-105">Следующие параметры, которые находятся на вкладке **Розница** выпущенных продуктов, позволяют настроить продукта так, чтобы запретить все или предоставляемые вручную скидки.</span><span class="sxs-lookup"><span data-stu-id="cefb7-105">The following options, which can be found on the **Retail** tab of released products, will allow the product to be configured to prevent all or manual discounts.</span></span> <span data-ttu-id="cefb7-106">Эти параметры можно задать на уровне категории в иерархии категорий розничной торговли.</span><span class="sxs-lookup"><span data-stu-id="cefb7-106">The settings can also be specified at the category level from the retail category hierarchy.</span></span>
 
-<span data-ttu-id="a7411-107">**Запретить все скидки**: выберите этот вариант, чтобы запретить применение к этому продукту всех типов скидок.</span><span class="sxs-lookup"><span data-stu-id="a7411-107">**Prevent all discounts**: Select this option to prevent all types of discounts from being applied to this product.</span></span> <span data-ttu-id="a7411-108">Это включает такие рекламные акции, как скидки при покупке комплекта, скидки при покупке определенного количества и скидки по пороговому значению, а также предоставляемые вручную скидки по строкам и транзакциям, применяемые при продаже пользователем POS.</span><span class="sxs-lookup"><span data-stu-id="a7411-108">This includes promotions such as mix and match, quantity and threshold discounts, as well as manual line and transaction discounts that are applied during a sale by a POS user.</span></span>
+<span data-ttu-id="cefb7-107">**Запретить все скидки**: выберите этот вариант, чтобы запретить применение к этому продукту всех типов скидок.</span><span class="sxs-lookup"><span data-stu-id="cefb7-107">**Prevent all discounts**: Select this option to prevent all types of discounts from being applied to this product.</span></span> <span data-ttu-id="cefb7-108">Это включает такие рекламные акции, как скидки при покупке комплекта, скидки при покупке определенного количества и скидки по пороговому значению, а также предоставляемые вручную скидки по строкам и транзакциям, применяемые при продаже пользователем POS.</span><span class="sxs-lookup"><span data-stu-id="cefb7-108">This includes promotions such as mix and match, quantity and threshold discounts, as well as manual line and transaction discounts that are applied during a sale by a POS user.</span></span>
 
-<span data-ttu-id="a7411-109">**Запретить заданные вручную скидки**: выберите этот вариант, чтобы запретить применение к этому продукту предоставляемых вручную скидок по строкам и транзакциям, применяемых при продаже пользователем POS.</span><span class="sxs-lookup"><span data-stu-id="a7411-109">**Prevent manual discounts**: Select this option to only prevent the manual line or transaction discounts that are applied during a sale by a POS user.</span></span> <span data-ttu-id="a7411-110">Продукты, для которых выбран этот вариант, по-прежнему могут участвовать в рекламных акциях, таких как скидки при покупке комплекта, скидки при покупке определенного количества и скидки по пороговому значению.</span><span class="sxs-lookup"><span data-stu-id="a7411-110">Products with this option selected are still eligible for promotions, such as mix and match and quantity and threshold discounts.</span></span>
+<span data-ttu-id="cefb7-109">**Запретить заданные вручную скидки**: выберите этот вариант, чтобы запретить применение к этому продукту предоставляемых вручную скидок по строкам и транзакциям, применяемых при продаже пользователем POS.</span><span class="sxs-lookup"><span data-stu-id="cefb7-109">**Prevent manual discounts**: Select this option to only prevent the manual line or transaction discounts that are applied during a sale by a POS user.</span></span> <span data-ttu-id="cefb7-110">Продукты, для которых выбран этот вариант, по-прежнему могут участвовать в рекламных акциях, таких как скидки при покупке комплекта, скидки при покупке определенного количества и скидки по пороговому значению.</span><span class="sxs-lookup"><span data-stu-id="cefb7-110">Products with this option selected are still eligible for promotions, such as mix and match and quantity and threshold discounts.</span></span>
 
-<span data-ttu-id="a7411-111">**Примечание.** Эти параметры не ограничивают доступ к операции переопределения цены, поскольку при этом задается базисная цена, что не рассматривается как скидка.</span><span class="sxs-lookup"><span data-stu-id="a7411-111">**Note**: These settings do not restrict the price override operation, because that sets the base price and is not treated as a discount.</span></span>  
+<span data-ttu-id="cefb7-111">**Примечание.** Эти параметры не ограничивают доступ к операции переопределения цены, поскольку при этом задается базисная цена, что не рассматривается как скидка.</span><span class="sxs-lookup"><span data-stu-id="cefb7-111">**Note**: These settings do not restrict the price override operation, because that sets the base price and is not treated as a discount.</span></span>  
 
-<span data-ttu-id="a7411-112">[![поле для запрета скидок](./media/prevent discounts.png)](./media/prevent discounts.png)</span><span class="sxs-lookup"><span data-stu-id="a7411-112">[![prevent discounts field](./media/prevent discounts.png)](./media/prevent discounts.png)</span></span>
+<span data-ttu-id="cefb7-112">[![поле для запрета скидок](./media/prevent discounts.png)](./media/prevent discounts.png)</span><span class="sxs-lookup"><span data-stu-id="cefb7-112">[![prevent discounts field](./media/prevent discounts.png)](./media/prevent discounts.png)</span></span>
 

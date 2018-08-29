@@ -1,5 +1,5 @@
 ---
-title: "Финансовые аналитики и счета ГК в языке с направлением письма справа налево"
+title: "Финансовые аналитики и счета ГК в языках с направлением письма справа налево"
 description: "В этом разделе описаны некоторые решений реализации, которые следует учитывать при использовании языка с направлением письма справа налево и которые необходимо настроить в финансовых аналитик и счетах ГК."
 author: aprilolson
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222564
 ms.assetid: 875dcebb-1bbb-4841-a8c6-9e134da07e96
@@ -18,28 +18,28 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 857f2c7ea948717695c3c741a20f6b3e922b33e1
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 9609c052083dc3157618584da9311211ea036eba
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="financial-dimensions-and-main-accounts-in-a-right-to-left-language"></a><span data-ttu-id="404bb-103">Финансовые аналитики и счета ГК в языке с направлением письма справа налево</span><span class="sxs-lookup"><span data-stu-id="404bb-103">Financial dimensions and main accounts in a right-to-left language</span></span>
+# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a><span data-ttu-id="af8a0-103">Финансовые аналитики и счета ГК в языках с направлением письма справа налево</span><span class="sxs-lookup"><span data-stu-id="af8a0-103">Financial dimensions and main accounts in right-to-left languages</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="404bb-104">В этом разделе описаны некоторые решений реализации, которые следует учитывать при использовании языка с направлением письма справа налево и которые необходимо настроить в финансовых аналитик и счетах ГК.</span><span class="sxs-lookup"><span data-stu-id="404bb-104">This topic describes some of the implementation decisions that you should consider when you use a right-to-left language, and you must set up financial dimensions and main accounts.</span></span>
+<span data-ttu-id="af8a0-104">В этом разделе описаны некоторые решений реализации, которые следует учитывать при использовании языка с направлением письма справа налево и которые необходимо настроить в финансовых аналитик и счетах ГК.</span><span class="sxs-lookup"><span data-stu-id="af8a0-104">This topic describes some of the implementation decisions that you should consider when you use a right-to-left language, and you must set up financial dimensions and main accounts.</span></span>
 
-<span data-ttu-id="404bb-105">Финансовые аналитики и счета ГК являются ключевыми компонентами этапа планирования для реализации.</span><span class="sxs-lookup"><span data-stu-id="404bb-105">Financial dimensions and main accounts are key components of the planning phase for an implementation.</span></span> <span data-ttu-id="404bb-106">После создания финансовых аналитик и счетов ГК в системе они используются на страницах **Настройка структур счета**, **Структуры дополнительных правил** и **Конфигурация финансовой аналитики для при интеграции приложений**.</span><span class="sxs-lookup"><span data-stu-id="404bb-106">After financial dimensions and main accounts are created in the system, they are used on the **Configure account structures**, **Advanced rule structures**, and **Financial dimension configuration for integrating applications** pages.</span></span> <span data-ttu-id="404bb-107">Порядок, определенный на этих страницах, используется в системе для ввода данных и потребления.</span><span class="sxs-lookup"><span data-stu-id="404bb-107">The order that is defined on those pages is used in the system for data entry and consumption.</span></span> <span data-ttu-id="404bb-108">В некоторых местах системы финансовые аналитики и счета ГК отображаются в отдельных полях.</span><span class="sxs-lookup"><span data-stu-id="404bb-108">In some places in the system, the financial dimensions and main accounts appear in separate fields.</span></span> <span data-ttu-id="404bb-109">Однако в других местах, таких как журналы, финансовые аналитики и счета ГК отображаются как одна строка.</span><span class="sxs-lookup"><span data-stu-id="404bb-109">However, in other places, such as journals, the financial dimensions and main accounts appear as a single string.</span></span>
+<span data-ttu-id="af8a0-105">Финансовые аналитики и счета ГК являются ключевыми компонентами этапа планирования для реализации.</span><span class="sxs-lookup"><span data-stu-id="af8a0-105">Financial dimensions and main accounts are key components of the planning phase for an implementation.</span></span> <span data-ttu-id="af8a0-106">После создания финансовых аналитик и счетов ГК в системе они используются на страницах **Настройка структур счета**, **Структуры дополнительных правил** и **Конфигурация финансовой аналитики для при интеграции приложений**.</span><span class="sxs-lookup"><span data-stu-id="af8a0-106">After financial dimensions and main accounts are created in the system, they are used on the **Configure account structures**, **Advanced rule structures**, and **Financial dimension configuration for integrating applications** pages.</span></span> <span data-ttu-id="af8a0-107">Порядок, определенный на этих страницах, используется в системе для ввода данных и потребления.</span><span class="sxs-lookup"><span data-stu-id="af8a0-107">The order that is defined on those pages is used in the system for data entry and consumption.</span></span> <span data-ttu-id="af8a0-108">В некоторых местах системы финансовые аналитики и счета ГК отображаются в отдельных полях.</span><span class="sxs-lookup"><span data-stu-id="af8a0-108">In some places in the system, the financial dimensions and main accounts appear in separate fields.</span></span> <span data-ttu-id="af8a0-109">Однако в других местах, таких как журналы, финансовые аналитики и счета ГК отображаются как одна строка.</span><span class="sxs-lookup"><span data-stu-id="af8a0-109">However, in other places, such as journals, the financial dimensions and main accounts appear as a single string.</span></span>
 
-### <a name="best-practices-for-setting-up-financial-dimensions-and-main-accounts-in-a-right-to-left-system"></a><span data-ttu-id="404bb-110">Рекомендации по настройке финансовых аналитик и счетов ГК в системе с направлением письма справа налево</span><span class="sxs-lookup"><span data-stu-id="404bb-110">Best practices for setting up financial dimensions and main accounts in a right-to-left system</span></span>
+### <a name="best-practices-for-setting-up-financial-dimensions-and-main-accounts-in-a-right-to-left-system"></a><span data-ttu-id="af8a0-110">Рекомендации по настройке финансовых аналитик и счетов ГК в системе с направлением письма справа налево</span><span class="sxs-lookup"><span data-stu-id="af8a0-110">Best practices for setting up financial dimensions and main accounts in a right-to-left system</span></span>
 
--   <span data-ttu-id="404bb-111">При выборе разделителя для планов счетов выберите один из вариантов двойных разделителей: два дефиса (--), две вертикальные черты (||), две точки (..) или два символа подчеркивания (\_\_).</span><span class="sxs-lookup"><span data-stu-id="404bb-111">When you select the delimiter for charts of accounts, select one of the double delimiter options: double hyphen (--), double bar (||) or double period (..), or double underscore (\_\_).</span></span>
--   <span data-ttu-id="404bb-112">При создании значений финансовой аналитики и счета ГК используйте только цифры и символы языка с направлением письма справа налево.</span><span class="sxs-lookup"><span data-stu-id="404bb-112">When you create financial dimension and main account values, use only numbers and right-to-left language characters.</span></span>
--   <span data-ttu-id="404bb-113">Не используйте выбранный разделить плана счетов в значениях финансовой аналитики и счета ГК.</span><span class="sxs-lookup"><span data-stu-id="404bb-113">Avoid using the selected chart of accounts delimiter in financial dimension and main account values.</span></span>
+-   <span data-ttu-id="af8a0-111">При выборе разделителя для планов счетов выберите один из вариантов двойных разделителей: два дефиса (--), две вертикальные черты (||), две точки (..) или два символа подчеркивания (\_\_).</span><span class="sxs-lookup"><span data-stu-id="af8a0-111">When you select the delimiter for charts of accounts, select one of the double delimiter options: double hyphen (--), double bar (||) or double period (..), or double underscore (\_\_).</span></span>
+-   <span data-ttu-id="af8a0-112">При создании значений финансовой аналитики и счета ГК используйте только цифры и символы языка с направлением письма справа налево.</span><span class="sxs-lookup"><span data-stu-id="af8a0-112">When you create financial dimension and main account values, use only numbers and right-to-left language characters.</span></span>
+-   <span data-ttu-id="af8a0-113">Не используйте выбранный разделить плана счетов в значениях финансовой аналитики и счета ГК.</span><span class="sxs-lookup"><span data-stu-id="af8a0-113">Avoid using the selected chart of accounts delimiter in financial dimension and main account values.</span></span>
 
-<span data-ttu-id="404bb-114">Следуя этим рекомендациям, вы помогаете обеспечить согласованное представление определяемого пользователем порядка во всей системе.</span><span class="sxs-lookup"><span data-stu-id="404bb-114">By following these best practices, you help guarantee consistent representation of the user defined-order throughout the system.</span></span>
+<span data-ttu-id="af8a0-114">Следуя этим рекомендациям, вы помогаете обеспечить согласованное представление определяемого пользователем порядка во всей системе.</span><span class="sxs-lookup"><span data-stu-id="af8a0-114">By following these best practices, you help guarantee consistent representation of the user defined-order throughout the system.</span></span>
 
 
 

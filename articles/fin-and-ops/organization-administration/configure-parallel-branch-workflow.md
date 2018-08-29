@@ -1,5 +1,5 @@
 ---
-title: "Настройка параллельной ветви в workflow-процессе"
+title: "Настройка параллельных ветвей в workflow-процессе"
 description: "Чтобы настроить параллельную ветвь, необходимо выполнить следующие действия в редакторе workflow-процессов."
 author: sericks007
 manager: AnnBe
@@ -18,39 +18,39 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d0e45f4a6b1f6bcf94103dbcf4a8ca01457dc85d
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: a0359f8312e5e3fe1349dbc89831c98c46cd61ff
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-a-parallel-branch-in-a-workflow"></a><span data-ttu-id="73307-103">Настройка параллельной ветви в workflow-процессе</span><span class="sxs-lookup"><span data-stu-id="73307-103">Configure a parallel branch in a workflow</span></span>
+# <a name="configure-parallel-branches-in-a-workflow"></a><span data-ttu-id="ccecd-103">Настройка параллельных ветвей в workflow-процессе</span><span class="sxs-lookup"><span data-stu-id="ccecd-103">Configure parallel branches in a workflow</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="73307-104">Чтобы настроить параллельную ветвь, необходимо выполнить следующие действия в редакторе workflow-процессов.</span><span class="sxs-lookup"><span data-stu-id="73307-104">To configure a parallel branch, complete the following procedures in the workflow editor.</span></span>
+<span data-ttu-id="ccecd-104">Чтобы настроить параллельную ветвь, необходимо выполнить следующие действия в редакторе workflow-процессов.</span><span class="sxs-lookup"><span data-stu-id="ccecd-104">To configure a parallel branch, complete the following procedures in the workflow editor.</span></span>
 
-<span data-ttu-id="73307-105">Параллельная ветвь — это по сути workflow-процесс, который выполняется в контексте родительского workflow-процесса.</span><span class="sxs-lookup"><span data-stu-id="73307-105">A parallel branch is essentially a workflow that runs in the context of a parent workflow.</span></span>
+<span data-ttu-id="ccecd-105">Параллельная ветвь — это по сути workflow-процесс, который выполняется в контексте родительского workflow-процесса.</span><span class="sxs-lookup"><span data-stu-id="ccecd-105">A parallel branch is essentially a workflow that runs in the context of a parent workflow.</span></span>
 
-## <a name="name-a-branch"></a><span data-ttu-id="73307-106">Имя ветви</span><span class="sxs-lookup"><span data-stu-id="73307-106">Name a branch</span></span>
-<span data-ttu-id="73307-107">Чтобы ввести название параллельной ветви, необходимо выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="73307-107">Follow these steps to enter a name for a parallel branch.</span></span>
-1.  <span data-ttu-id="73307-108">Щелкните правой кнопкой мыши параллельную ветвь и выберите пункт **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="73307-108">Right-click the parallel branch, and then click **Properties**.</span></span> <span data-ttu-id="73307-109">Будет открыта форма **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="73307-109">The **Properties** form is displayed.</span></span>
-2.  <span data-ttu-id="73307-110">В левой области нажмите **Основные настройки**.</span><span class="sxs-lookup"><span data-stu-id="73307-110">In the left pane, click **Basic Settings**.</span></span>
-3.  <span data-ttu-id="73307-111">В поле **Имя** введите уникальное имя для параллельной ветви.</span><span class="sxs-lookup"><span data-stu-id="73307-111">In the **Name** field, enter a unique name for the parallel branch.</span></span>
-4.  <span data-ttu-id="73307-112">Нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="73307-112">Click **Close**.</span></span>
+## <a name="name-a-branch"></a><span data-ttu-id="ccecd-106">Имя ветви</span><span class="sxs-lookup"><span data-stu-id="ccecd-106">Name a branch</span></span>
+<span data-ttu-id="ccecd-107">Чтобы ввести название параллельной ветви, необходимо выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="ccecd-107">Follow these steps to enter a name for a parallel branch.</span></span>
+1.  <span data-ttu-id="ccecd-108">Щелкните правой кнопкой мыши параллельную ветвь и выберите пункт **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="ccecd-108">Right-click the parallel branch, and then click **Properties**.</span></span> <span data-ttu-id="ccecd-109">Будет открыта форма **Свойства**.</span><span class="sxs-lookup"><span data-stu-id="ccecd-109">The **Properties** form is displayed.</span></span>
+2.  <span data-ttu-id="ccecd-110">В левой области нажмите **Основные настройки**.</span><span class="sxs-lookup"><span data-stu-id="ccecd-110">In the left pane, click **Basic Settings**.</span></span>
+3.  <span data-ttu-id="ccecd-111">В поле **Имя** введите уникальное имя для параллельной ветви.</span><span class="sxs-lookup"><span data-stu-id="ccecd-111">In the **Name** field, enter a unique name for the parallel branch.</span></span>
+4.  <span data-ttu-id="ccecd-112">Нажмите кнопку **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="ccecd-112">Click **Close**.</span></span>
 
-## <a name="design-and-configure-the-elements-of-a-branch"></a><span data-ttu-id="73307-113">Создание и настройка элементов ветви</span><span class="sxs-lookup"><span data-stu-id="73307-113">Design and configure the elements of a branch</span></span>
-<span data-ttu-id="73307-114">Выполните следующие действия, чтобы создать и настроить элементы параллельной ветви.</span><span class="sxs-lookup"><span data-stu-id="73307-114">Follow these steps to design and configure the elements of a parallel branch.</span></span>
-1.  <span data-ttu-id="73307-115">Дважды щелкните параллельную ветвь.</span><span class="sxs-lookup"><span data-stu-id="73307-115">Double-click the parallel branch.</span></span>
-2.  <span data-ttu-id="73307-116">Перетащите элементы workflow-процесса на холст, а затем настройте элементы, как и любой другой workflow-процесс.</span><span class="sxs-lookup"><span data-stu-id="73307-116">Drag workflow elements onto the canvas, and then configure the elements, just as you would to create any other workflow.</span></span> <span data-ttu-id="73307-117">Дополнительные сведения см. в разделе "Создание workflow-процесса".</span><span class="sxs-lookup"><span data-stu-id="73307-117">For more information, see Create a workflow.</span></span>
+## <a name="design-and-configure-the-elements-of-a-branch"></a><span data-ttu-id="ccecd-113">Создание и настройка элементов ветви</span><span class="sxs-lookup"><span data-stu-id="ccecd-113">Design and configure the elements of a branch</span></span>
+<span data-ttu-id="ccecd-114">Выполните следующие действия, чтобы создать и настроить элементы параллельной ветви.</span><span class="sxs-lookup"><span data-stu-id="ccecd-114">Follow these steps to design and configure the elements of a parallel branch.</span></span>
+1.  <span data-ttu-id="ccecd-115">Дважды щелкните параллельную ветвь.</span><span class="sxs-lookup"><span data-stu-id="ccecd-115">Double-click the parallel branch.</span></span>
+2.  <span data-ttu-id="ccecd-116">Перетащите элементы workflow-процесса на холст, а затем настройте элементы, как и любой другой workflow-процесс.</span><span class="sxs-lookup"><span data-stu-id="ccecd-116">Drag workflow elements onto the canvas, and then configure the elements, just as you would to create any other workflow.</span></span> <span data-ttu-id="ccecd-117">Дополнительные сведения см. в разделе "Создание workflow-процесса".</span><span class="sxs-lookup"><span data-stu-id="ccecd-117">For more information, see Create a workflow.</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="73307-118">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="73307-118">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="ccecd-118">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="ccecd-118">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="73307-119">Создание workflow-процесса</span><span class="sxs-lookup"><span data-stu-id="73307-119">Create a workflow</span></span>](create-workflow.md)
+[<span data-ttu-id="ccecd-119">Создание workflow-процесса</span><span class="sxs-lookup"><span data-stu-id="ccecd-119">Create a workflow</span></span>](create-workflow.md)
 
 
 

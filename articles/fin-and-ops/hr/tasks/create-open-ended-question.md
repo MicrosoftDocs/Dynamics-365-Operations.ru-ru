@@ -1,5 +1,5 @@
 --- 
-title: "Создание открытого вопроса"
+title: "Создание открытых вопросов"
 description: "Открытые вопросы позволяют респондентам ввести свой собственный ответ."
 author: kherr75
 manager: AnnBe
@@ -16,25 +16,25 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d200c517591a5ef1969c704f0516f3595732b15e
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 5ae80e9c1c36ea983b21da2d9c7cca5148157b67
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-an-open-ended-question"></a><span data-ttu-id="98278-103">Создание открытого вопроса</span><span class="sxs-lookup"><span data-stu-id="98278-103">Create an open-ended question</span></span>
+# <a name="create-open-ended-questions"></a><span data-ttu-id="d677a-103">Создание открытых вопросов</span><span class="sxs-lookup"><span data-stu-id="d677a-103">Create open-ended questions</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="98278-104">Открытые вопросы позволяют респондентам ввести свой собственный ответ.</span><span class="sxs-lookup"><span data-stu-id="98278-104">Open-ended questions enable respondents to provide their own response.</span></span> <span data-ttu-id="98278-105">Можно управлять тем, будет ли этот вопрос числом, десятичным числом, датой, комментарием и т. п.</span><span class="sxs-lookup"><span data-stu-id="98278-105">You can control whether that response is a number, decimal, date, comment and so on.</span></span> <span data-ttu-id="98278-106">Эта процедура иллюстрирует создание определенного типа вопроса — открытого вопроса.</span><span class="sxs-lookup"><span data-stu-id="98278-106">This procedure walks through the process of creating a specific type of question, an open-ended question.</span></span> <span data-ttu-id="98278-107">Чтобы начать эту процедуру, перейдите в раздел "Анкета" > "Дизайн" > "Вопросы".</span><span class="sxs-lookup"><span data-stu-id="98278-107">To begin this procedure, go to Questionnaire > Design > Questions.</span></span> <span data-ttu-id="98278-108">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="98278-108">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="d677a-104">Открытые вопросы позволяют респондентам ввести свой собственный ответ.</span><span class="sxs-lookup"><span data-stu-id="d677a-104">Open-ended questions enable respondents to provide their own response.</span></span> <span data-ttu-id="d677a-105">Можно управлять тем, будет ли этот вопрос числом, десятичным числом, датой, комментарием и т. п.</span><span class="sxs-lookup"><span data-stu-id="d677a-105">You can control whether that response is a number, decimal, date, comment and so on.</span></span> <span data-ttu-id="d677a-106">Эта процедура иллюстрирует создание определенного типа вопроса — открытого вопроса.</span><span class="sxs-lookup"><span data-stu-id="d677a-106">This procedure walks through the process of creating a specific type of question, an open-ended question.</span></span> <span data-ttu-id="d677a-107">Чтобы начать эту процедуру, перейдите в раздел "Анкета" > "Дизайн" > "Вопросы".</span><span class="sxs-lookup"><span data-stu-id="d677a-107">To begin this procedure, go to Questionnaire > Design > Questions.</span></span> <span data-ttu-id="d677a-108">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="d677a-108">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="98278-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="98278-109">Click New.</span></span>
-2. <span data-ttu-id="98278-110">Выберите тип для группирования связанных вопросов.</span><span class="sxs-lookup"><span data-stu-id="98278-110">Select a Type to group related questions.</span></span>
-3. <span data-ttu-id="98278-111">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="98278-111">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="98278-112">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="98278-112">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="98278-113">Типы ввода "Текст", "Целое число", "Вещественный", "Дата", "Время" и "Примечание" используются для открытых вопросов.</span><span class="sxs-lookup"><span data-stu-id="98278-113">Input types of Text, Integer, Real, Date, Time, and Note are used for open-ended questions.</span></span>  
-5. <span data-ttu-id="98278-114">В поле "Тип ввода" выберите один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="98278-114">In the Input type field, select an option.</span></span>
-    * <span data-ttu-id="98278-115">Тип ввода "Текст" или "Примечание" используется для открытых вопросов.</span><span class="sxs-lookup"><span data-stu-id="98278-115">An input type of Text or Note is used for an open-ended question.</span></span>  
-6. <span data-ttu-id="98278-116">В поле "Текст" введите текст вопроса.</span><span class="sxs-lookup"><span data-stu-id="98278-116">In the Text field, enter your question.</span></span>
+1. <span data-ttu-id="d677a-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="d677a-109">Click New.</span></span>
+2. <span data-ttu-id="d677a-110">Выберите тип для группирования связанных вопросов.</span><span class="sxs-lookup"><span data-stu-id="d677a-110">Select a Type to group related questions.</span></span>
+3. <span data-ttu-id="d677a-111">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="d677a-111">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="d677a-112">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="d677a-112">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="d677a-113">Типы ввода "Текст", "Целое число", "Вещественный", "Дата", "Время" и "Примечание" используются для открытых вопросов.</span><span class="sxs-lookup"><span data-stu-id="d677a-113">Input types of Text, Integer, Real, Date, Time, and Note are used for open-ended questions.</span></span>  
+5. <span data-ttu-id="d677a-114">В поле "Тип ввода" выберите один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="d677a-114">In the Input type field, select an option.</span></span>
+    * <span data-ttu-id="d677a-115">Тип ввода "Текст" или "Примечание" используется для открытых вопросов.</span><span class="sxs-lookup"><span data-stu-id="d677a-115">An input type of Text or Note is used for an open-ended question.</span></span>  
+6. <span data-ttu-id="d677a-116">В поле "Текст" введите текст вопроса.</span><span class="sxs-lookup"><span data-stu-id="d677a-116">In the Text field, enter your question.</span></span>
 
 

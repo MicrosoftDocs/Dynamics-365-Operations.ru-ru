@@ -4,7 +4,7 @@
   items:
     - name: Что нового и что изменилось
       href: get-started/whats-new.md
-    - name: Перед покупкой Dynamics 365 for Retail
+    - name: Перед покупкой Retail
       href: get-started/before-you-buy.md
     - name: Регистрация для получения ознакомительной подписки
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
@@ -12,13 +12,44 @@
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Варианты развертывания
       href: dev-itpro/choose-deployment.md
+- name: Общие сведения о жизненном цикле реализации
+  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+  items:
+    - name: Microsoft FastTrack для Dynamics 365
+      href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
+    - name: Адаптация
+      href: ../fin-and-ops/imp-lifecycle/onboard.md
+    - name: Подготовка к вводу в эксплуатацию
+      href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
+    - name: Вопросы и ответы по вводу в эксплуатацию
+      href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
+    - name: Отправка запроса на обслуживание
+      href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
+    - name: 'Вопросы и ответы по подпискам, проектам LCS и клиентам Azure Active Directory'
+      href: ../fin-and-ops/get-started/subscription-overview.md
+    - name: Перемещение сред между центрами обработки данных
+      href: ../fin-and-ops/get-started/move-environments-data-center.md
+    - name: Перемещение лицензий между соглашениями различных типов
+      href: ../fin-and-ops/get-started/move-licenses-between-agreement-types.md
+    - name: Перемещение проекта реализации LCS в другой клиент Azure Active Directory
+      href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
+    - name: Реализация нескольких проектов LCS и производственных сред в одном клиенте Azure Active Directory
+      href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
+    - name: Реализации проектов Retail Finance and Operations
+      href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+    - name: 'Настройка новых сред, VSTS и ветвей для проектов Retail'
+      href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+    - name: Обновление кода и сред для проектов Retail
+      href: dev-itpro/updating-environments.md
+    - name: Тестирование и проблемы с производительностью
+      href: dev-itpro/retail-implementation-testing-performance.md
 - name: Платежи
   items:
-    - name: Способы платежа
+    - name: Способы оплаты
       href: payment-methods.md
     - name: 'Настройка, авторизация и проверка данных кредитной карты'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: Настройка способов оплаты для POS-терминала
+    - name: Настройка номиналов валюты для POS
       href: cash-denominations.md
     - name: Вопросы и ответы по платежам
       href: dev-itpro/payments-retail.md
@@ -34,23 +65,23 @@
       href: ../supply-chain/procurement/purchase-order-approval-confirmation.md
     - name: Мобильные рабочие области утверждения заказов на покупку
       href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
-- name: Журналы операций
+- name: Отчеты
   items:
-    - name: Обзор журналов операций розничной торговли
+    - name: Журналы операций розничной торговли
       href: retail-statements.md
-    - name: 'Создание, расчет и разноска журнала операций для розничного магазина'
+    - name: 'Создание, расчет и разноска журналов операций для розничного магазина'
       href: tasks/create-calculate-post-statement-retail-store.md
-    - name: Усовершенствования в разноске журналов операций
+    - name: Усовершенствования функциональности разноски журнала операций
       href: statement-posting-EOD.md
-    - name: Конфигурации параметров для журналов операций розничной торговли
+    - name: 'Настройка параметров Retail, влияющих на журналы операций розничной торговли'
       href: tasks/parameter-configurations-retail-statements.md
-    - name: Конфигурации платежей для журналов операций розничной торговли
+    - name: 'Настройка параметров способа оплаты, влияющих на журналы операций розничной торговли'
       href: tasks/payment-configurations-retail-statements.md
     - name: Настройка и выполнение задания для расчета журналов операций
       href: tasks/run-job-calculate-statements.md
     - name: Настройка и выполнение задания для разноски журналов операций
       href: tasks/run-job-post-statements.md
-    - name: Конфигурации магазинов для журналов операций розничной торговли
+    - name: 'Настройка параметров магазина, влияющих на журналы операций розничной торговли'
       href: tasks/store-configurations-retail-statements.md
 - name: Налог
   items:
@@ -64,7 +95,7 @@
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: Центр обработки вызовов
   items:
-    - name: Обзор центра обработки вызовов
+    - name: Функциональность продажи центра обработки вызовов
       href: call-center-functionality.md
     - name: Каталоги центра обработки вызовов
       href: call-center-catalogs.md
@@ -72,25 +103,25 @@
       href: create-call-center-catalogs.md
     - name: Настройка режимов доставки и накладных расходов
       href: configure-call-center-delivery.md
-    - name: Настройка оповещений о мошенничестве
+    - name: Настройка оповещений о мошенничестве и работа с ними
       href: set-up-fraud-alerts.md
-    - name: Настройка центра обработки вызовов
+    - name: Настройка каналов центра обработки вызовов
       href: set-up-order-processing-options.md
-    - name: Настройка программы непрерывности для центра обработки вызовов
+    - name: Настройка программ непрерывности для центров обработки вызовов
       href: set-up-continuity-program.md
-    - name: Удержания заказов центра обработки вызовов
+    - name: Настройка удержаний заказов центра обработки вызовов и работа с ними
       href: work-with-order-holds.md
-    - name: Параметры платежей
+    - name: Способы оплаты
       href: work-with-payments.md
 - name: Настройка канала и управление им
   items:
-    - name: Инициализация начальных данных в среде Retail
+    - name: Инициализация начальных данных в новых средах Retail
       href: enable-configure-retail-functionality.md
-    - name: Определение каналов розничной торговли
+    - name: Определение и ведение каналов розничной торговли
       href: define-maintain-retail-channels.md
     - name: Управление ассортиментом
       href: assortments.md
-    - name: Обзор интернет-магазина
+    - name: Настройка интернет-магазинов
       href: online-stores.md
     - name: Настройка и установка Retail Hardware Station
       href: retail-hardware-station-configuration-installation.md
@@ -98,29 +129,29 @@
       href: retail-time-attendance.md
 - name: Modern Point of Sale (MPOS) и Cloud POS
   items:
-    - name: Выбор между Modern POS и Cloud POS
+    - name: Выбор между MPOS и Cloud POS
       href: MPOS-or-CPOS.md
     - name: Выполнение операций POS в интерактивном и автономном режимах
       href: pos-operations.md
-    - name: Макеты экрана демонстрационных данных в MPOS/CPOS
+    - name: Макеты экрана демонстрационных данных в MPOS и Cloud POS
       href: demo-data.md
-    - name: Обзор поиска продукта и клиента на POS
+    - name: Поиск продуктов и клиентов в POS
       href: POS-search-improvements.md
     - name: Поиск запасов в POS
       href: product-variants-POS.md
     - name: Периферийные устройства
       items:
-        - name: Обзор периферийных устройств розничной торговли
+        - name: Периферийные устройства для розничной торговли
           href: retail-peripherals-overview.md
         - name: 'Периферийные устройства POS, протестированные корпорацией Майкрософт'
           href: microsoft-tested-pos-hardware-peripherals.md
         - name: Симулятор периферийных устройств розничной торговли
           href: dev-itpro/retail-peripheral-simulator.md
-        - name: 'Определение и ведение клиентов канала, кассовых терминалов и станций оборудования'
+        - name: Подключение периферийных устройств к POS
           href: define-maintain-channel-clients-registers-hw-stations.md
-    - name: Макет экрана
+    - name: Макеты экрана
       items:
-        - name: Настройка макетов экрана для POS
+        - name: Макеты экрана для POS
           href: pos-screen-layouts.md
         - name: Установка конструктора макета Retail POS
           href: install-pos-layout-designer.md
@@ -128,17 +159,17 @@
           href: Notifications-POS.md
         - name: Параметры приложения POS и языка пользователя
           href: pos-application-user-language-settings.md
-        - name: Настройка изображений для MPOS
+        - name: Настройка изображений для MPOS и управление ими
           href: set-up-manage-images-retail-mpos.md
-    - name: Обзор инфокодов
+    - name: Инфокоды и группы инфокодов
       href: info-codes-retail.md
     - name: Усовершенствования в POS для продуктов с серийными номерами
       href: serialized-inventory.md
     - name: Рекомендации по продуктам
       items:
-        - name: Обзор персонализированных рекомендаций по продуктам
+        - name: Персонализированные рекомендации по продуктам
           href: personalized-product-recommendations.md
-        - name: Добавление элемента управления рекомендациями в устройство POS
+        - name: Добавление элемента управления рекомендациями в устройства POS
           href: add-recommendations-control-pos-screen.md
     - name: Функциональность POS в автономном режиме
       href: pos-offline-functionality.md
@@ -146,7 +177,7 @@
       href: shift-drawer-management.md
     - name: Клиентские заказы
       items:
-        - name: Обзор клиентских заказов
+        - name: Клиентские заказы в MPOS
           href: customer-orders-overview.md
         - name: Гибридные клиентские заказы
           href: hybrid-customer-orders.md
@@ -154,31 +185,31 @@
       items:
         - name: Отслеживание комиссий в POS с помощью групп продаж
           href: pos-sales-groups-track-commissions.md
-    - name: Отправка товара из другого магазина
+    - name: Отгрузка заказов из одного магазина
       href: charge-send.md
     - name: Активация устройства
       items:
-        - name: Настройка и установка MPOS
+        - name: 'Настройка, установка и активация MPOS'
           href: retail-modern-pos-device-activation.md
-        - name: Настройка расширенного входа для Cloud POS и MPOS
+        - name: Настройка функциональности расширенного входа для MPOS и Cloud POS
           href: extended-logon.md
-        - name: Управление учетными записями и устройствами Retail из центрального офиса
+        - name: Управление учетными записями активации и устройствами проверки Retail
           href: set-up-activation-accounts-validate-devices-hq.md
     - name: Чеки
       items:
-        - name: Настройка шаблонов чеков
+        - name: Настройка и дизайн форматов чеков
           href: receipt-templates-printing.md
         - name: Отправка чеков по электронной почте из MPOS
           href: email-receipts.md
-    - name: Регистратор задач и справка для POS
+    - name: Регистратор задач и справка для MPOS и Cloud POS
       href: task-recorder-retail-pos.md
 - name: Выполнение заказов
   items:
-    - name: Общие сведения о выполнения заказа в магазине
+    - name: Выполнение заказов магазинами
       href: Order-fulfillment-overview.md
-    - name: Настройка выполнения в магазине
+    - name: Настройка выполнения заказов для магазинов
       href: Order-fulfillment-POS-setup.md
-    - name: Включение уведомлений в POS
+    - name: Отображение уведомлений по заказу в POS
       href: Notifications-POS.md
 - name: Мониторинг и анализ
   items:
@@ -192,11 +223,11 @@
       href: assess-customer-product-profitability.md
     - name: Анализ производительности магазина
       href: store-performance-information.md
-    - name: Настройка анализа RFM
+    - name: 'Настройка анализа актуальности, периодичности и денежных значений (RFM)'
       href: set-up-rfm-analysis.md
 - name: Скидки и корректировки цены
   items:
-    - name: Управление розничной цены продажи
+    - name: Управление ценой продажи Retail
       href: price-management.md
     - name: Корректировки цены и скидки
       href: price-adjustments-discounts.md
@@ -204,9 +235,9 @@
       href: optimal-combination-overlapping-discounts.md
     - name: 'Определение скидок, специфичных для канала'
       href: define-channel-specific-discounts.md
-    - name: Запрет скидок для розничных продуктов
+    - name: Параметры для предотвращения скидок по розничным продуктам
       href: prevent-discounts.md
-    - name: Создание купонов для розничных продаж
+    - name: Настройка купонов для розничных продаж
       href: retail-coupons.md
 - name: Продукты и сбыт
   items:
@@ -214,13 +245,13 @@
       href: ../supply-chain/pim/product-information.md
     - name: Иерархии розничной торговли
       href: retail-hierarchies.md
-    - name: Обзор атрибутов и групп атрибутов
+    - name: Атрибуты и группы атрибутов
       href: attribute-attributegroups-lifecycle.md
     - name: Создание атрибутов и управление ими
       href: create-manage-attributes.md
     - name: Настройка розничных продуктов
       href: set-up-retail-products.md
-    - name: Расширенное управление продуктами и категориями
+    - name: Управление категориям продуктов и продуктами Retail
       href: category-management-product-creation.md
     - name: Аналитики продуктов
       href: ../supply-chain/pim/product-dimensions.md
@@ -230,7 +261,7 @@
       href: set-up-bar-code-masks.md
     - name: Настройка ассортиментов
       href: set-up-assortments.md
-    - name: Продажа и возврат продуктов за пределами ассортимента
+    - name: 'Продажа и возврат продуктов, не включенных в ассортимент магазина'
       href: sell-return-outside-assortments.md
     - name: Параметры заказа по умолчанию для аналитик и вариантов продуктов
       href: ../supply-chain/production-control/default-order-settings.md
@@ -238,7 +269,7 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: Лояльность
   items:
-    - name: Настройка программы лояльности клиентов
+    - name: Настройка программ лояльности клиентов
       href: set-up-customer-loyalty-program.md
 - name: Запасы
   items:
@@ -276,25 +307,25 @@
   items:
     - name: Франция
       items:
-        - name: Контрольно-кассовые машины для Франции
+        - name: Функциональность контрольно-кассовой машины
           href: localizations/emea-fra-cash-registers.md
-        - name: Рекомендации по развертыванию контрольно-кассовых машин для Франции
+        - name: Рекомендации по развертыванию контрольно-кассовых машин
           href: localizations/emea-fra-deployment.md
     - name: Индия
       items:
-        - name: Интеграция GST для контрольно-кассовых машин
+        - name: Интеграция налога на товары и услуги (GST) для контрольно-кассовых машин
           href: localizations/apac-ind-cash-registers.md
-        - name: Рекомендации по развертыванию контрольно-кассовых машин в Индии
+        - name: Рекомендации по развертыванию контрольно-кассовых машин
           href: localizations/apac-ind-loc-deployment-guidelines.md
     - name: Норвегия
       items:
-        - name: Контрольно-кассовые машины для Норвегии
+        - name: Функциональность контрольно-кассовой машины
           href: localizations/emea-nor-cash-registers.md
-        - name: Рекомендации по развертыванию контрольно-кассовых машин в Норвегии
+        - name: Рекомендации по развертыванию контрольно-кассовых машин
           href: localizations/emea-nor-loc-deployment-guidelines.md
     - name: Швеция
       items:
-        - name: Контрольно-кассовые машины для Швеции
+        - name: Функциональность контрольно-кассовой машины
           href: localizations/emea-swe-cash-registers.md
         - name: Пример интеграции Retail POS c блоками управления
           href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
@@ -306,25 +337,25 @@
       href: ../supply-chain/pim/tasks/configure-linked-products.md
     - name: Выпуск продукта/шаблона продукта для юридических лиц
       href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
-    - name: Базовая цена и коммерческие соглашения
+    - name: Создание коммерческих соглашений для определенных каналов
       href: tasks/base-price-trade-agreements.md
-    - name: Правила ценообразования категорий для создания коммерческих соглашений
+    - name: Создание коммерческих соглашений с помощью правил ценообразования категорий
       href: tasks/category-pricing-rules-trade-agreements.md
     - name: Настройка обработки кредитных карт
       href: tasks/configure-credit-card-processing.md
-    - name: Настройка профиля функциональности для торгового представителя
+    - name: Настройка профилей функциональности для торговых представителей
       href: tasks/configure-functionality-profile-sales-representative.md
     - name: Настройка рекомендаций по продуктам на основе машинного обучения
       href: tasks/configure-machine-learning-product-recommendations.md
-    - name: Создание и связывание устройства
+    - name: Создание устройств и их связь с ККМ
       href: tasks/create-associate-device.md
-    - name: Создание и связывание станции оборудования
+    - name: Создание станций оборудования
       href: tasks/create-associate-hardware-station.md
-    - name: Создание и связывание регистраторов
+    - name: Создание ККМ POS
       href: tasks/create-associate-registers.md
     - name: Создание заказов центра обработки вызовов
       href: tasks/create-call-center-orders.md
-    - name: Создание финансовых аналитик для POS-регистраторов и настройка значений аналитики для регистраторов
+    - name: Создание финансовых аналитик для ККМ POS и настройка значений аналитики в ККМ
       href: tasks/create-financial-dimensions-pos.md
     - name: Создание финансовых аналитик для каналов розничной торговли и настройка значений аналитик для магазинов
       href: tasks/create-financial-dimensions-retail-channels.md
@@ -332,11 +363,11 @@
       href: tasks/create-online-channel-define-channel-attributes.md
     - name: Создание групп разрешений POS
       href: tasks/create-pos-permission-groups.md
-    - name: 'Создание визуального профиля POS '
+    - name: Создание визуальных профилей POS
       href: tasks/create-pos-visual-profile-2016-02.md
     - name: Создание пакетов продуктов для заказов на покупку
       href: tasks/create-product-packages-purchase-orders.md
-    - name: Определение канала центра обработки вызовов и атрибутов этого канала
+    - name: Создание каналов центра обработки вызовов и определение атрибутов каналов
       href: tasks/define-call-center-channel-channel-attributes.md
     - name: Определение атрибутов канала
       href: tasks/define-channel-attributes.md
@@ -352,40 +383,40 @@
       href: tasks/design-relationships-between-organizational-units.md
     - name: Управление ассортиментами
       href: tasks/manage-assortments-2016-11.md
-    - name: Выполнение самообслуживания для загрузки станции оборудования
+    - name: Загрузка станций оборудования с помощью дистанционного обслуживания
       href: tasks/perform-self-service-download-hardware-station.md
     - name: Разноска интернет-продаж и платежей
       href: tasks/posting-online-sales-payments.md
     - name: Обработка корректировок баллов поощрения по программе лояльности
       href: tasks/process-loyalty-reward-point-adjustments.md
-    - name: Отправка продуктов из центра распределения в магазин через централизованное распределение
+    - name: Отправка продуктов из центров распределения в магазины через централизованное распределение
       href: tasks/push-products-distribution-center-store-buyers-push.md
-    - name: Корректировки розничных цен
+    - name: Создание корректировок розничных цен
       href: tasks/retail-price-adjustments.md
     - name: Создание и выполнение готовых отчетов
       href: tasks/run-out-box-reports.md
     - name: Настройка правил и параметров для централизованного распределения и кросс-докинга
       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
-    - name: Использование программы непрерывности
+    - name: Продажа программ непрерывности и обработка заказов на продажу
       href: tasks/use-continuity-program.md
-    - name: Настройка работника
+    - name: Настройка работников розничной торговли
       href: tasks/worker.md
-- name: Разработка для Retail и администрирование Retail
+- name: Разработка и администрирование Retail
   href: dev-itpro/dev-retail-home-page.md
   items:
     - name: Архитектура
       items:
-        - name: Компоненты Microsoft Dynamics 365 for Finance and Operations — Retail
+        - name: Компоненты Retail
           href: retail-components.md
         - name: Архитектура Retail Server
           href: dev-itpro/retail-server-architecture.md
-        - name: Взаимодействия по каналам розничной торговли
+        - name: Commerce Data Exchange и взаимодействия по каналам розничной торговли
           href: dev-itpro/define-retail-channel-communications-cdx.md
-        - name: Архитектура MPOS
+        - name: Архитектура Retail Modern POS
           href: dev-itpro/retail-modern-pos-architecture.md
         - name: Архитектура публикации в интернет-магазинах Retail
           href: dev-itpro/retail-online-store-publishing-architecture.md
-        - name: Содержимое "Эффективность канала розничной торговли" для Power BI
+        - name: Содержимое Retail Channel Performance Power BI
           href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
         - name: Сертификация стандартов безопасности данных платежных приложений (PA-DSS)
           href: dev-itpro/PA-DSS-Certification.md
@@ -393,7 +424,7 @@
           href: retail-onprem.md
     - name: Развертывание и исправления
       items:
-        - name: Обзор Retail Store Scale Unit
+        - name: Retail Store Scale Unit
           href: dev-itpro/retail-store-system-begin.md
         - name: Настройка и установка Retail Store Scale Unit
           href: dev-itpro/retail-store-scale-unit-configuration-installation.md
@@ -403,11 +434,11 @@
           href: set-up-activation-accounts-validate-devices-hq.md
         - name: Активация устройств Retail POS
           href: dev-itpro/retail-device-activation.md
-        - name: Защита Retail Cloud POS
+        - name: Обеспечение безопасности Cloud POS в общих средах
           href: dev-itpro/secure-retail-cloud-pos.md
         - name: Настройка и установка Retail Hardware Station
           href: retail-hardware-station-configuration-installation.md
-        - name: Массовое развертывание компонентов самообслуживания Retail
+        - name: Массовое развертывание компонентов дистанционного обслуживания Retail
           href: dev-itpro/retail-mass-deployment.md
         - name: События компонентов Retail для диагностики и устранения неполадок
           href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
@@ -415,9 +446,9 @@
           href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
     - name: Обновление и поддержка N-1
       items:
-        - name: Обзор обновления и поддержки N-1
+        - name: Обновление и поддержка N-1 для Retail
           href: dev-itpro/overview-upgrade-n-minus1.md
-        - name: Установка компонентов N-1
+        - name: 'Установка, настройка и переключение поэтапного выпуска (N-1)'
           href: dev-itpro/n-1-installation-configuration.md
     - name: Руководство по внедрению
       items:
@@ -437,57 +468,57 @@
           href: pos-screen-layouts.md
         - name: Установка конструктора макетов POS
           href: install-pos-layout-designer.md
-        - name: Настройка MPOS для работы в автономном режиме
+        - name: Retail Modern POS в автономном режиме
           href: dev-itpro/retail-modern-pos-offline.md
         - name: Расширение представления дисплея POS Dual
           href: dev-itpro/pos-dual-display-extension.md
-        - name: Расширяемость триггеров MPOS и Cloud POS
+        - name: Расширяемость триггеров Retail Modern POS и Cloud POS
           href: dev-itpro/modern-pos-trigger-extensibility.md
-        - name: Добавление пользовательского элемента управления в представление POS
+        - name: Добавление пользовательских элементов управления в представления POS
           href: dev-itpro/pos-custom-control.md
-        - name: Добавление новой операции POS в макет POS
+        - name: Добавление операций POS в макеты POS с помощью конструктора сетки кнопок
           href: dev-itpro/add-POS-operations.md
         - name: Расширение механизма оплаты для POS
           href: dev-itpro/pos-payment-extension.md
         - name: Поддержка внешних подарочных карт
           href: dev-itpro/gift-card.md
-        - name: Создание приложения Retail Experience
+        - name: Создание и применение фирменной символики к приложению Retail Experience
           href: dev-itpro/create-retail-experience-app.md
-    - name: Обзор и расширяемость Hardware Station
+    - name: Hardware Station и расширяемость
       href: dev-itpro/hardware-station-extensibility.md
     - name: Расширяемость Retail Server
       items:
         - name: Расширение контроллера OData Retail Server
           href: dev-itpro/extend-retail-server-odata-controller.md
-        - name: Контроллеры веб-API и OData
+        - name: Создание контроллера веб-API для Retail Server
           href: dev-itpro/odata-controllers-api.md
         - name: API клиентов и потребителей Retail Server
           href: dev-itpro/retail-server-customer-consumer-api.md
-        - name: Расширение метаданных
+        - name: Расширение контроллера метаданных Retail Server по умолчанию
           href: dev-itpro/extend-metadata.md
-        - name: Расширение Commerce Runtime для поддержки автономного режима POS
+        - name: Вызов службы CRT в автономном режиме
           href: dev-itpro/call-crt-service-offline.md
-    - name: Расширяемость Commerce Runtime
+    - name: Расширяемость Commerce Runtime (CRT)
       items:
-        - name: Обзор Commerce Runtime
+        - name: Архитектура и настройка CRT
           href: dev-itpro/commerce-runtime-overview.md
-        - name: Службы Commerce Runtime
+        - name: Службы CRT
           href: dev-itpro/crt-services.md
-        - name: Расширяемость Commerce Runtime и Retail Server
+        - name: Расширяемость CRT и Retail Server
           href: dev-itpro/commerce-runtime-extensibility.md
-        - name: Добавление данных о предпочтениях клиентов в базу данных канала
+        - name: Добавление данных о предпочтениях клиентов в базы данных канала
           href: dev-itpro/add-customer-preference-channel.md
-        - name: Добавление свойств в заказ на продажу
+        - name: Добавление свойств в заказы на продажу
           href: dev-itpro/add-properties-sales-order.md
-        - name: Расширение и триггеры среды выполнения Commerce Runtime
+        - name: Расширяемость и триггеры CRT
           href: dev-itpro/commerce-runtime-extensibility-trigger.md
-        - name: 'Пример триггера: блокирующая транзакция'
+        - name: Блокировка проводок с помощью триггеров
           href: dev-itpro/trigger-example-blocking-transaction.md
-        - name: 'Пример триггера: политика возврата'
+        - name: Реализация политики возврата с помощью триггеров
           href: dev-itpro/trigger-example-return-policy.md
-    - name: Возможности расширения электронной коммерции
+    - name: Расширяемость электронной коммерции
       items:
-        - name: Настройка интернет-магазина
+        - name: Настройка интерактивных магазинов
           href: dev-itpro/configure-online-store.md
         - name: Настройка поставщиков проверки подлинности
           href: dev-itpro/configure-authentication-providers.md
@@ -495,37 +526,39 @@
           href: dev-itpro/ecommerce-platform.md
         - name: SDK платформы для электронной коммерции
           href: dev-itpro/ecommerce-platform-sdk.md
-    - name: Возможности расширения соединителя платежей
+    - name: Расширяемость соединителя платежей
       items:
-        - name: Интеграция платежей с терминалом оплаты
+        - name: Создание интеграции платежей для терминала оплаты
           href: dev-itpro/end-to-end-payment-extension.md
         - name: Внедрение соединителя платежей и платежного устройства (технический документ)
           href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
-        - name: Развертывание соединителя платежей
+        - name: Развертывание соединителей платежей
           href: dev-itpro/deploy-payment-connector.md
-        - name: Создание установщика Windows для соединителя платежей
+        - name: Создание пользовательских локализованных сообщений об ошибках для расширений терминалов платежей
+          href: dev-itpro/payment-custom-error-messages.md
+        - name: Создание установщиков Windows для соединителей платежей
           href: dev-itpro/create-windows-installer-payment-connector.md
     - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
-        - name: Интеграция Retail SDK с системой непрерывной сборки
+        - name: Объединение систем сборки для Retail и Finance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Примеры расширяемости Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
-        - name: Упаковка Retail SDK
+        - name: Создание готовых к развертыванию пакетов розничной торговли
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-        - name: 'Примеры Retail SDK '
+        - name: Примеры Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
           items:
             - name: Точки расширения для отборочных накладных
               href: dev-itpro/extensions-shipping-carrier-integration.md
         - name: Расширения базы данных канала
           href: dev-itpro/channel-db-extensions.md
-        - name: Расширяемость CDX
+        - name: Включение пользовательской синхронизации CDX через расширение
           href: dev-itpro/cdx-extensibility.md
-        - name: Добавление пользовательских полей на панель POS
+        - name: Добавление пользовательских полей на панель итогов POS
           href: dev-itpro/custom-field-pos-totals.md
-        - name: Атрибуты заказа
+        - name: Определение и настройка атрибутов заказа
           href: dev-itpro/order-attributes.md
         - name: Атрибуты клиента
           href: dev-itpro/customer-attributes.md
@@ -533,19 +566,19 @@
           href: dev-itpro/typescript-proxy-retail-pos.md
         - name: Запуск примеров Retail POS
           href: dev-itpro/pos-run-samples.md
-        - name: Расширение имеющихся представлений POS с добавлением пользовательских столбцов и кнопок панели приложения
+        - name: Расширение представлений POS с добавлением пользовательских столбцов и кнопок панели приложения
           href: dev-itpro/pos-view-extension.md
-        - name: Добавление пользовательских элементов управления на страницы транзакций Retail Modern POS
+        - name: Добавление пользовательских элементов управления на страницы проводок Retail Modern POS
           href: dev-itpro/pos-custom-transaction.md
-        - name: Добавление пользовательских столбцов в сетку транзакций POS
+        - name: Добавление пользовательских столбцов в сетку проводок POS
           href: dev-itpro/pos-custom-transaction-column.md
-        - name: Вызов API или операции POS из расширения POS
+        - name: Вызов API или операций POS из расширений POS
           href: dev-itpro/pos-api-extension.md
         - name: Триггеры и вывод на печать в Retail Modern POS
           href: dev-itpro/pos-trigger-printing.md
-        - name: Добавление пользовательского элемента управления в представление на основе конструктора без экрана в Retail Modern POS
+        - name: Добавление пользовательских элементов управления в представления POS на основе конструктора без экрана
           href: dev-itpro/pos-control-non-screen.md
-        - name: 'Этапы настройки конфигурации для разработчиков Retail, работающих с размещенными в облаке окнами для разработки'
+        - name: 'Разработка в среде разработки, размещенной в облаке, без доступа администратора'
           href: dev-itpro/cloud-dev-box.md
     - name: Среда выполнения Commerce Runtime
       items:
