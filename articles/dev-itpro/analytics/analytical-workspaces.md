@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 7e2a9297a417fb25384341dcabcafa41c50f8c84
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/22/2018
 - [Содержимое Power BI "Обзор финансового директора"](CFO-power-bi.md)
 - [Содержимое Power BI "Компенсация"](compensation-power-bi.md)
 - [Содержимое Power BI анализа учета затрат](cost-accounting-analysis-content-pack.md) 
-- [Содержимое Power BI "Управление затратами"](cost-management-content-pack.md)    
+- [Содержимое Power BI "Управление затратами"](cost-management-content-pack.md)
 - [Содержимое Power BI "Управление кредитом и сбором задолженностей"](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Содержимое Power BI "Развитие сотрудников"](employee-development-PBI.md) 
 - [Содержимое "Финансовый анализ" для Power BI](financial-insights.md)
@@ -46,5 +46,5 @@ ms.lasthandoff: 05/22/2018
 - [Содержимое "Показатели продаж и прибыльности" для Power BI](sales-profitability-performance-content-pack.md)
 - [Содержимое Power BI "Платежи поставщикам"](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [Содержимое "Производительность склада" для Power BI](warehouse-power-bi-content.md)
-- [Содержимое Power BI "Показатели трудовых ресурсов"](workforce-analysis-power-bi-content-pack.md)  
+- [Содержимое Power BI "Показатели трудовых ресурсов"](workforce-analysis-power-bi-content-pack.md)
 

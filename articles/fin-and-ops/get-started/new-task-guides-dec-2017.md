@@ -1,5 +1,5 @@
 ---
-title: "Новые или обновленные Проводники по задачам (декабрь 2017 г.)"
+title: "Новые или обновленные проводники по задачам (декабрь 2017 г.)"
 description: "В этом теме перечислены новые или обновленные Проводники по задачам, выпущенные в унифицированной библиотеке APQC (декабрь 2016 г. — все языки) от Майкрософт для Microsoft Dynamics 365 for Operations. Новая библиотека начала работы не была выпущена."
 author: josaw1
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a6bec9c0e9b591f99a0c00e554c18a5ebe440859
-ms.openlocfilehash: 25ee17c98d1071129e212512d75883dccd32791f
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: fbf99e6c01101209bf9e2a213c8008f50e67ad68
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="new-or-updated-task-guides-december-2017"></a>Новые или обновленные Проводники по задачам (декабрь 2017 г.)
+# <a name="new-or-updated-task-guides-december-2017"></a>Новые или обновленные проводники по задачам (декабрь 2017 г.)
 
 В этом теме перечислены новые или обновленные Проводники по задачам, выпущенные в унифицированной библиотеке APQC (декабрь 2016 г. — все языки) от Майкрософт для Microsoft Dynamics 365 for Operations.
 

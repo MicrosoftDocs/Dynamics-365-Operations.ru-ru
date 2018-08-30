@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,16 +33,23 @@ ms.lasthandoff: 06/25/2018
 
 Выберите область компонентов для получения дополнительных сведений о ней.
 
-:::row::: :::column::: - [Расчеты с поставщиками](accounts-payable/accounts-payable.md) 
+:::row:::
+    :::column:::
+        - [Расчеты с поставщиками](accounts-payable/accounts-payable.md) 
         - [Расчеты с клиентами](accounts-receivable/accounts-receivable.md)
         - [Бюджетирование](budgeting/budgeting-overview.md) 
         - [Управление банком и кассовыми операциями](cash-bank-management/cash-bank-management.md)
-        - [Учет затрат](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Управление расходами](expense-management/expense-management.md)
+        - [Учет затрат](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [Управление расходами](expense-management/expense-management.md)
         - [Финансовая отчетность](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Основные средства](fixed-assets/fixed-assets.md)
         - [Главная книга](general-ledger/general-ledger.md) 
         - [Управление проектами](project-management/overview-project-management-accounting.md)
-        - [Государственный сектор](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
+        - [Государственный сектор](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы

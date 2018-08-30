@@ -12,7 +12,7 @@
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: Сравнение характеристик облачной и локальной версий
               href: get-started/cloud-prem-comparison.md
-            - name: Выбор варианта развертывания
+            - name: Варианты развертывания
               href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Облачное развертывание
@@ -23,7 +23,7 @@
                   href: ../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/fin-and-ops/toc.json
                 - name: Требования к системе для локальных развертываний
                   href: get-started/system-requirements-on-prem.md
-                - name: Складские операции для локальных развертываний
+                - name: Настройка складских операций для локальных развертываний
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
             - name: Стандартные выпуски и выпуски для конкретных платформ
               href: get-started/public-preview-releases.md
@@ -44,11 +44,11 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 'Функции, не реализованные в локальных развертываниях'
               href: get-started/features-not-implemented-on-prem.md
-            - name: Finance and Operations 8.0 (апрель 2018)
+            - name: Finance and Operations версии 8.0 (апрель 2018 г.)
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: Platform update 15 (март 2018 г.)
               href: get-started/whats-new-platform-update-15.md
-            - name: Локальные развертывания версии 7.2 с Platform update 12 (март 2018)
+            - name: 'Локальные развертывания Finance and Operations, Enterprise edition 7.2 с Platform update 12 (март 2018 г.)'
               href: get-started/whats-new-LBD-PU12-App72.md
             - name: 'Finance and Operations, Enterprise edition 7.3'
               href: get-started/whats-new-application-7.3-update.md
@@ -78,11 +78,11 @@
               href: get-started/whats-new-platform-update-3.md
             - name: Platform update 2 (август 2016 г.)
               href: get-started/whats-new-platform-update-2.md
-            - name: Приложение Dynamics AX версии 7.0.1 (май 2016)
+            - name: Приложение Dynamics AX версии 7.0.1 (май 2016 г.)
               href: get-started/whats-new-changed-application-version-7-0-1-may-2016.md
             - name: Platform update 1 (май 2016 г.)
               href: get-started/whats-new-changed-platform-version-7-1-may-2016.md
-            - name: Dynamics AX 7.0 (февраль 2016 г.)
+            - name: AX 7.0 (февраль 2016 г.)
               href: get-started/whats-new-changed-7-0-february-2016.md
             - name: Обновленные проводники по задачам
               items:
@@ -100,7 +100,7 @@
           items:
             - name: Специальные возможности
               href: get-started/accessibility-features.md
-            - name: Вопросы и ответы по пользовательскому интерфейсу клиента
+            - name: Вопросы и ответы по клиенту
               href: get-started/client-faq.md
             - name: Поиск действий
               href: get-started/action-search.md
@@ -108,21 +108,21 @@
               href: get-started/advanced-filtering-query-options.md
             - name: Настройка и фильтрация рабочих областей
               href: get-started/configure-filter-workspaces.md
-            - name: Отображение страниц друг рядом с другом с помощью значка "Открыть в новом окне"
+            - name: Отображение страниц друг рядом с другом с помощью функции "Открыть в новом окне"
               href: get-started/display-pages-side-by-side.md
             - name: Сочетания клавиш
               href: get-started/shortcut-keys.md
-            - name: Изменение баннера или эмблемы
+            - name: Изменение изображений баннеров или логотипов для юридических лиц
               href: get-started/tasks/change-banner-or-logo.md
             - name: Навигационный поиск
               href: get-started/navigation-search.md
             - name: Персонализация пользовательского интерфейса
               href: get-started/personalize-user-experience.md
-            - name: Пользовательские поля
+            - name: Создание настраиваемых полей и работа с ними
               href: get-started/user-defined-fields.md
-            - name: Внедрение PowerApps
+            - name: Внедрение приложений PowerApps
               href: get-started/embed-power-apps.md
-            - name: Использование списков подстановки для поиска информации
+            - name: Поиск сведений с использованием поиска
               href: get-started/use-lookups-to-find-information.md
             - name: Изменение даты для сеанса
               href: organization-administration/tasks/change-date-session.md
@@ -130,11 +130,11 @@
               href: organization-administration/tasks/set-users-preferred-time-zone.md
             - name: Общие сведения о Lifecycle Services
               href: ../dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json
-        - name: Прочтите и запустите документацию
+        - name: Чтение и запуск документации
           items:
-            - name: Обзор справки
+            - name: Система справки
               href: get-started/help-overview.md
-            - name: Подключение справки
+            - name: Подключение к системе справки
               href: get-started/help-connect.md
             - name: Просмотр и экспорт описаний полей
               href: get-started/view-export-field-descriptions.md
@@ -146,32 +146,32 @@
                   href: ../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/fin-and-ops/toc.json
             - name: Глоссарий
               href: get-started/glossary.md
-        - name: Видео для Dynamics 365 for Finance and Operations
+        - name: Видео для Finance and Operations
           href: get-started/videos.md
-    - name: Общие сведения о жизненном цикле реализации
+    - name: Реализация управления жизненным циклом
       href: imp-lifecycle/implementation-lifecycle.md
       items:
         - name: Архитектура Finance and Operations
           href: imp-lifecycle/architecture-overview.md
-        - name: Microsoft FastTrack for Dynamics 365
+        - name: Microsoft FastTrack for Finance and Operations
           href: get-started/fasttrack-dynamics-365-overview.md
-        - name: Адаптация
+        - name: Адаптация проекта реализации
           href: imp-lifecycle/onboard.md
         - name: Подготовка к вводу в эксплуатацию
           href: imp-lifecycle/prepare-go-live.md
         - name: Вопросы и ответы по вводу в эксплуатацию
           href: imp-lifecycle/go-live-faq.md
-        - name: Отправить запрос на обслуживание
+        - name: Отправка запроса на обслуживание
           href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
-        - name: 'Вопросы и ответы по подпискам, проектам LCS и клиентам Azure Active Directory'
+        - name: 'Вопросы и ответы по подпискам, проектам LCS и клиентам Azure AD'
           href: get-started/subscription-overview.md
         - name: Перемещение сред между центрами обработки данных
           href: get-started/move-environments-data-center.md
         - name: Перемещение лицензий между соглашениями различных типов
           href: get-started/move-licenses-between-agreement-types.md
-        - name: Перемещение проекта реализации LCS в другой клиент Azure Active Directory
+        - name: Перемещение проектов реализации LCS в другие клиенты Azure AD
           href: get-started/move-lcs-implementation-project-tenant.md
-        - name: Реализация нескольких проектов LCS и производственных сред в одном клиенте Azure Active Directory
+        - name: Несколько проектов LCS и производственных сред в одном клиенте Azure AD
           href: get-started/implement-multiple-projects-aad-tenant.md
     - name: Соответствие
       items:
@@ -345,10 +345,25 @@
                       href: ../supply-chain/sales-marketing/field-service-product.md
                     - name: Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Finance and Operations
                       href: ../supply-chain/sales-marketing/field-service-work-order.md
-                    - name: Синхронизация накладных договора в Field Service с накладными в произвольной форме в Finance and Operations
+                    - name: Синхронизация накладных договора в Field Service с накладными с произвольным текстом в Finance and Operations
                       href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: Использование внешних веб-служб
-              href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+                - name: Настройка интеграции Project Service Automation
+                  href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
+                  items:
+                    - name: Настройка параметров Project Service Automation
+                      href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
+                    - name: Синхронизация контрактов по проекту и проектов
+                      href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Синхронизация задач проекта
+                      href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
+                    - name: Синхронизация категорий расходов по проекту
+                      href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Синхронизация оценок для проекта с прогнозами по проекту
+                      href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Синхронизация фактических данных проекта с журналом интеграции проекта
+                      href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
+                - name: Использование внешних веб-служб
+                  href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
     - name: Управление данными
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -357,10 +372,10 @@
           items:
             - name: Проекты данных конфигурации
               href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/fin-and-ops/toc.json
-            - name: Копирование данных конфигурации между компаниями
+            - name: Копирование данных конфигурации между компаниями или юридическими лицами
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Пакеты конфигурационных данных (только выпуск за июль 2017 г.)
+                - name: Пакеты данных конфигурации (только выпуск за июль 2017 г.)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
             - name: Шаблоны данных конфигурации
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
@@ -401,7 +416,7 @@
               href: ../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Использование программ тестирования от независимых производителей
               href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/fin-and-ops/toc.json
-        - name: Использование своей собственной базы данных
+        - name: Использование собственной базы данных
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
         - name: Автоматизация задач данных
           href: ../dev-itpro/data-entities/data-task-automation.md
@@ -468,6 +483,8 @@
                   href: ../financials/cash-bank-management/configure-settlement.md
                 - name: Рабочая область платежей поставщикам
                   href: ../financials/accounts-payable/vendor-payments-workspace.md
+                - name: Указание кросс-курса
+                  href: ../financials/accounts-payable/specify-cross-rate.md
                 - name: Определение сборов по платежам поставщикам
                   href: ../financials/accounts-payable/tasks/define-vendor-payment-fees.md
                 - name: Определение условий оплаты для поставщиков
@@ -588,11 +605,11 @@
         - name: Бюджетирование
           href: ../financials/budgeting/budgeting-overview.md
           items:
-            - name: 'Обзор бюджетного планирования '
+            - name: Обзор бюджетного планирования
               href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: 'Обзор бюджетного контроля '
+            - name: Обзор бюджетного контроля
               href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'Обзор бюджетирования '
+            - name: Обзор бюджетирования
               href: ../financials/budgeting/basic-budgeting-overview-configuration.md
             - name: Прогнозирование должности
               href: ../financials/budgeting/position-forecasting.md
@@ -622,7 +639,7 @@
             - name: Скидки по оплате для переплат
               href: ../financials/cash-bank-management/cash-discount-handling-overpayments.md
             - name: Обзор сопоставления
-              href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
+              href: ../financials/cash-bank-management/settlement-overview.md
             - name: Обзор сопоставления для централизованных платежей
               href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
             - name: Аккредитивы
@@ -700,6 +717,8 @@
               href: ../financials/general-ledger/financial-dimensions.md
             - name: Структуры счетов
               href: ../financials/general-ledger/Default-dimensions.md
+            - name: Добавление финансовых аналитик в рабочую область финансового директора
+              href: ../financials/general-ledger/CFO-workspace.md
             - name: Создание структур счетов
               href: ../financials/general-ledger/tasks/create-account-structures.md
             - name: Обзор бюджетирования
@@ -830,6 +849,8 @@
                   href: ../financials/fixed-assets/fixed-asset-integration.md
             - name: Методы амортизации
               items:
+                - name: Соглашения по амортизации
+                  href: ../financials/fixed-assets/Fixed-asset-depreciation-conventions.md
                 - name: "Амортизация с уменьшаемым остатком в 125\_%"
                   href: ../financials/fixed-assets/125-percent-reducing-balance-depreciation.md
                 - name: "Амортизация с уменьшаемым остатком в 150\_%"
@@ -886,7 +907,7 @@
                   href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
                 - name: Настройка амортизационной премии
                   href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
-                - name: 'Настройка журналов амортизации '
+                - name: Настройка журналов амортизации
                   href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
                 - name: Настройка и создание методов амортизации
                   href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
@@ -915,7 +936,7 @@
                   href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
                 - name: Определения разносок
                   href: ../financials/general-ledger/posting-definitions.md
-                - name: 'Примеры определений разносок '
+                - name: Примеры определений разносок
                   href: ../financials/general-ledger/example-posting-definitions.md
                 - name: Сальдо счетов главной книги
                   href: ../financials/general-ledger/general-ledger-account-balances.md
@@ -999,6 +1020,8 @@
                   href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Импорт курсов обмена валют
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Один ваучер
+                  href: ../financials/general-ledger/one-voucher.md
             - name: Закрытие периода
               items:
                 - name: Закрытие ГК в конце периода
@@ -1141,7 +1164,7 @@
               href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
             - name: Финансовые отчеты по балансовому отчету
               href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: Создание финансового отчета
+            - name: Создание финансовых отчетов
               href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
             - name: Финансовый отчет по отчету о доходах
               href: ../financials/general-ledger/income-statement-financial-report.md
@@ -1149,13 +1172,13 @@
               href: ../financials/general-ledger/trial-balance-financial-reports.md
             - name: Просмотр финансовых отчетов
               href: ../financials/general-ledger/view-financial-reports.md
-            - name: Конструктор отчетов
+            - name: Интерфейс конструктора отчетов
               href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-            - name: Предпочтения пользователя
+            - name: Пользовательские параметры в конструкторе финансовых отчетов
               href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
             - name: Расширенные параметры форматирования
               href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-            - name: Упорядочение компонентов отчета
+            - name: Организация компонентов отчета в конструкторе отчетов
               href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
             - name: Определения отчетов
               href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
@@ -1165,7 +1188,7 @@
               href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
             - name: Изменение ячеек определений строк
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-            - name: Сброс киоска данных финансовой отчетности после восстановления базы данных
+            - name: Сброс киоска данных финансовой отчетности
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: Локализация и нормативные компоненты
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
@@ -1223,6 +1246,7 @@
                 - name: Вопросы и ответы по накладным клиента с НДС
                   href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
             - name: Индия
+              href: ../financials/localizations/india.md
               items:
                 - name: Основные средства
                   href: ../financials/localizations/apac-ind-fixed-assets.md
@@ -1268,6 +1292,7 @@
                 - name: Вопросы и ответы по налоговым порогам
                   href: ../financials/localizations/apac-ind-tax-thresholds.md
             - name: Япония
+              href: ../financials/localizations/japan.md
               items:
                 - name: Приобретение основного средства и требование субсидии по правительственному гранту
                   href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
@@ -1426,6 +1451,7 @@
                 - name: Использование списка разборки для основных средств
                   href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
             - name: Малайзия
+              href: ../financials/localizations/malaysia.md
               items:
                 - name: Создание кредита клиента для продаж по проектам
                   href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
@@ -1448,10 +1474,12 @@
                 - name: Настройка предложений сброса GST
                   href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
             - name: Сингапур
+              href: ../financials/localizations/singapore.md
               items:
                 - name: Создание отчета GST-05
                   href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
             - name: Таиланд
+              href: ../financials/localizations/thailand.md
               items:
                 - name: Отчеты по картам запасов
                   href: ../financials/localizations/apac-tha-stock-card-reports.md
@@ -1619,7 +1647,7 @@
                   href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
                 - name: Отчеты по выверке
                   href: ../financials/localizations/emea-bel-reconciliation-reports.md
-                - name: 'Настройка отчетности по сальдо платежей  '
+                - name: Настройка отчетности по сальдо платежей
                   href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: Настройка и ведение PRODCOM
                   href: ../financials/localizations/emea-bel-prodcom-report.md
@@ -1744,7 +1772,7 @@
               items:
                 - name: Амортизация дополнительного приобретения
                   href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
-                - name: 'Файл аудита '
+                - name: Файл аудита
                   href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
                   items:
                     - name: Настройка конфигурации файла аудита
@@ -1759,12 +1787,12 @@
                   href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Отчет "Список журналов"
                   href: ../financials/localizations/emea-deu-journal-list-report.md
-                - name: Настройка электронной налоговой декларации
+                - name: Настройка электронных налоговых деклараций
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Венгрия
               href: ../financials/localizations/hungary.md
               items:
-                - name: Расчет обменного курса
+                - name: Расчет валютного курса
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
                 - name: Методы амортизации основных средств
                   href: ../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md
@@ -1925,7 +1953,7 @@
             - name: Великобритания
               href: ../financials/localizations/united-kingdom.md
               items:
-                - name: 'Construction Industry Scheme '
+                - name: Construction Industry Scheme
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
                 - name: Создание кредита по скидке при сопоставлении
                   href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
@@ -1942,11 +1970,14 @@
         - name: Латинская Америка
           items:
             - name: Бразилия
+              href: ../financials/localizations/brazil.md
               items:
+                - name: Область локализации
+                  href: ../financials/localizations/latam-bra-scope.md
                 - name: Финансовые журналы
                   href: ../financials/localizations/latam-bra-fiscal-books.md
                   items:
-                    - name: Настройка финансовых журналов
+                    - name: Настройка финансовых книг
                       href: ../financials/localizations/latam-bra-configure-fiscal-books.md
                     - name: Финансовые документы по налогу ICMS
                       href: ../financials/localizations/latam-bra-icms-tax-fiscal-documents.md
@@ -2032,7 +2063,7 @@
                       href: ../financials/localizations/latam-bra-tax-payments.md
                     - name: Налог в предложениях по продажам
                       href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
-                    - name: 'Подоходные налоги  '
+                    - name: Подоходные налоги
                       href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
                     - name: Подоходные налоги по платежам клиентов
                       href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
@@ -2105,6 +2136,7 @@
                     - name: Основные средства PIS и COFINS
                       href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
             - name: Мексика
+              href: ../financials/localizations/mexico.md
               items:
                 - name: Область локализации
                   href: ../financials/localizations/latam-mex-scope.md
@@ -2120,7 +2152,7 @@
                   href: ../financials/localizations/latam-mex-diot-declaration-statement.md
                 - name: Электронные накладные CFDI
                   href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
-                - name: 'Электронные накладные '
+                - name: Электронные накладные
                   href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
                 - name: Электронные отчеты по счетам ГК
                   href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
@@ -2144,13 +2176,15 @@
                   href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Коды регистрации поставщиков
                   href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
-        - name: Ближний Восток
+        - name: Саудовская Аравия
+          href: ../financials/localizations/saudi-arabia.md
           items:
             - name: Налог
               href: ../financials/localizations/apac-sau-sales-tax.md
-            - name: Отчет Zakat для Саудовской Аравии
+            - name: Отчетность Zakat для Саудовской Аравии
               href: ../financials/localizations/emea-sau-zakat-reporting.md
-        - name: Северная Америка
+        - name: США
+          href: ../financials/localizations/united-states.md
           items:
             - name: Отчетность по форме 1099 на конец года для США
               href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
@@ -2173,17 +2207,17 @@
               href: ../talent/set-up-company-specific-hr-parameters.md
             - name: Вопросы и ответы по действиям персонала
               href: ../talent/personnel-actions-faq.md
-            - name: Использование workflow-процессов для управления сведениями о сотрудниках
+            - name: Использование бизнес-правил для управления сведениями о сотрудниках
               href: ../talent/workflow-manage-employee-information.md
         - name: Набор сотрудников
           items:
-            - name: Управление процессом набора сотрудников
+            - name: Управление процессами набора сотрудников
               href: hr/manage-recruiting-process.md
             - name: Проекты по массовому набору сотрудников
               href: hr/mass-hire-projects.md
-        - name: Мотивация персонала
+        - name: Мотивация сотрудников
           items:
-            - name: Планы компенсаций
+            - name: Планы компенсационных выплат
               href: ../talent/compensation-plans.md
             - name: Создание планов фиксированной компенсации
               href: ../talent/create-fixed-compensation-plans.md
@@ -2203,7 +2237,7 @@
           items:
             - name: Управление программой льгот
               href: ../talent/manage-benefit-program.md
-            - name: Политики приемлемости льготы
+            - name: Политики прав на льготы
               href: ../talent/benefit-eligibility-policies.md
             - name: 'Управление номенклатурами, сданными в аренду работникам'
               href: ../talent/loan-items.md
@@ -2219,13 +2253,13 @@
               href: ../talent/evaluate-questionnaire-results.md
         - name: Безопасность и соответствие рабочего места (США)
           items:
-            - name: Проверка сотрудников по форме I-9
+            - name: Проверка формы I-9
               href: hr/localizations/noam-usa-form-i-9-verification.md
-            - name: Проверка сотрудников с помощью формы I-9
+            - name: Подтверждение права на трудоустройство по форме I-9
               href: hr/localizations/tasks/employment-verification-i9-verification.md
-            - name: Настройка типов документов I-9
+            - name: Настройка типов документов по форме I-9
               href: hr/localizations/tasks/set-up-i9-document-types.md
-            - name: Обеспечение соответствия требованиям ADA
+            - name: Соответствие требованиям закона о защите прав нетрудоспособных граждан США
               href: hr/localizations/noam-usa-comply-ada.md
             - name: Управление проживанием работников
               href: hr/localizations/tasks/manage-worker-accommodations.md
@@ -2238,44 +2272,50 @@
                   href: hr/localizations/noam-usa-worker-position-payroll-tasks.md
                 - name: Настройка рабочих циклов и рабочих периодов
                   href: hr/localizations/noam-usa-work-cycle-work-period-tasks.md
-                - name: 'Настройка планов начисления льгот '
+                - name: Настройка планов начисления льгот
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
                 - name: Настройка льгот
                   href: hr/localizations/noam-usa-benefit-set-up-tasks.md
             - name: Частота и циклы
-            - name: Задачи цикла оплаты и периода выплат зарплаты
+            - name: Настройка циклов оплаты и платежных периодов
               href: hr/localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md
-            - name: Задачи по расчету зарплаты и частоте
+            - name: Настройка частоты вычисления зарплаты
               href: hr/localizations/noam-usa-payroll-calculation-frequencies-tasks.md
-            - name: Задачи по графику работы и отпуску
+            - name: Настройка графиков работы и отпуска
               href: hr/localizations/noam-usa-work-schedule-leave-tasks.md
             - name: Коды и налоги
               items:
-                - name: Задачи по коду дохода в группе кодов дохода
+                - name: Настройка кодов дохода и групп кодов дохода
                   href: hr/localizations/noam-usa-earning-code-group-tasks.md
-                - name: Задачи по информации по налогам
+                - name: 'Настройка налогов, налоговых регионов, налоговых кодов и налоговых групп'
                   href: hr/localizations/noam-usa-tax-information-tasks.md
+                - name: 'Вопросы и ответы по налоговым кодам, налоговым группам и определениям разноски'
+                  href: hr/localizations/noam-usa-tax-codes-tax-groups-definitions.md
+                - name: Ввод начальных сальдо зарплат
+                  href: hr/localizations/noam-usa-enter-beginning-balances.md
             - name: 'Наложение ареста на зарплату, налоговые сборы и выплата вознаграждения'
               items:
                 - name: Настройка наложения ареста на зарплату и налоговых сборов
                   href: hr/localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md
-                - name: Регистрация работников для наложения ареста на зарплату и налоговых сборов
+                - name: Регистрация работников для наложения ареста на зарплату или налоговых сборов
                   href: hr/localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md
-                - name: 'Настройка вознаграждения '
+                - name: Настройка вознаграждения
                   href: hr/localizations/noam-usa-premium-earning-setup-tasks.md
                 - name: 'Вопросы и ответы по наложению ареста на зарплату, налоговым сборам и административным сборам'
                   href: hr/localizations/noam-usa-garnishment-tax-levy-administrative-fees.md
-            - name: Отслеживание отгулов для FMLA
+            - name: Отслеживание отгулов для Family and Medical Leave Act (Закон об отпуске по семейным и медицинским причинам)
               href: hr/localizations/noam-usa-track-time-for-fmla.md
             - name: Задачи по обработке заработной платы
               items:
-                - name: Создание заработной платы
+                - name: Вопросы и ответы по доходам и созданию доходов
                   href: hr/localizations/noam-usa-earnings-generation-process.md
+                - name: Создание доходов для работников
+                  href: hr/localizations/noam-usa-generate-earnings.md
                 - name: Осуществление платежей работникам
                   href: hr/localizations/noam-usa-issue-worker-payments.md
-                - name: Разноска зарплаты и создание накладных поставщика
+                - name: Разноска распределений зарплаты и создание накладных поставщика
                   href: hr/localizations/noam-usa-post-payroll-generate-vendor-invoices.md
-                - name: Часто задаваемые вопросы по выписке по оплате и созданию платежей
+                - name: Часто задаваемые вопросы по выпискам по оплате и созданию платежей
                   href: hr/localizations/noam-usa-pay-statements-payment-generation-process.md
             - name: Завершение процесса оплаты
               items:
@@ -2283,63 +2323,63 @@
                   href: hr/localizations/noam-usa-existing-payroll-payments.md
                 - name: Обработка существующих доходов
                   href: hr/localizations/noam-usa-existing-earnings.md
-                - name: Обработка выписок по оплате
+                - name: Создание выписок по оплате и работа с ними
                   href: hr/localizations/noam-usa-pay-statements.md
             - name: Обслуживание и отчетность
               items:
                 - name: Вопросы и ответы по обновлениям данных о заработной плате
                   href: hr/localizations/noam-usa-payroll-data-updates.md
-                - name: Создание отчетов по заработной плате
+                - name: Стандартные отчеты по заработной плате
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
         - name: Задачи по управлению персоналом
           items:
-            - name: Добавление данных в журнал производительности и отправка похвалы другому пользователю
+            - name: Добавление данных в журнал производительности и отправка похвалы
               href: hr/tasks/add-your-performance-journal-send-praise-someone.md
-            - name: Анализ результатов анкетирования
+            - name: Анализ результатов анкеты
               href: hr/tasks/analyze-questionnaire-results.md
             - name: Одобрение записей входящих заявлений
               href: hr/tasks/approve-application-inbox-records.md
             - name: Процесс работы с правами на льготы
               href: hr/tasks/benefit-eligibility-process.md
-            - name: Создание календаря и создание рабочего времени
+            - name: Создание календарей и создание рабочего времени
               href: hr/tasks/create-calendar-working-times.md
-            - name: Создание закрытого вопроса
+            - name: Создание закрытых вопросов
               href: hr/tasks/create-closed-ended-question.md
-            - name: Создание цели
+            - name: Создание целей
               href: hr/tasks/create-goal.md
             - name: Создание одалживаемых номенклатур
               href: hr/tasks/create-loan-items.md
-            - name: Создание проекта по массовому набору сотрудников
+            - name: Создание проектов по массовому набору сотрудников
               href: hr/tasks/create-mass-hire-project.md
-            - name: Создание новой льготы
+            - name: Создание новых льгот
               href: hr/tasks/create-new-benefit.md
-            - name: Создание открытого вопроса
+            - name: Создание открытых вопросов
               href: hr/tasks/create-open-ended-question.md
-            - name: Создание оценки производительности
+            - name: Создание оценок производительности
               href: hr/tasks/create-performance-review.md
             - name: Определение правил и политик проверки прав на льготы
               href: hr/tasks/define-benefit-eligibility-rules-policies.md
-            - name: Определение процесса компенсации и расчет результатов
+            - name: Определение процессов компенсации и расчет результатов
               href: hr/tasks/define-compensation-process-calculate-results.md
             - name: Определение новых подразделений
               href: hr/tasks/define-new-departments.md
-            - name: Определение новых заданий
+            - name: Определение новых должностей
               href: hr/tasks/define-new-jobs.md
             - name: Реализация программы льгот сотрудника
               href: hr/tasks/deliver-employee-benefits-program.md
-            - name: Разработка и открытие заявки на должность
+            - name: Разработка и открытие заявок на должность
               href: hr/tasks/develop-open-job-requisition.md
-            - name: Разработка структуры и планов зарплаты/компенсации
+            - name: Разработка структур и планов зарплаты/компенсации
               href: hr/tasks/develop-salary-compensation-structure-plan.md
             - name: Разработка плана преемственности
               href: hr/tasks/develop-succession-plan.md
             - name: Распределение анкет с помощью планирования
               href: hr/tasks/distribute-questionnaires-scheduling.md
-            - name: Включение сотрудника в план фиксированных компенсаций
+            - name: Включение сотрудников в план фиксированных компенсаций
               href: hr/tasks/enroll-employee-fixed-compensation-plan.md
-            - name: Включение сотрудника в план переменных компенсаций
+            - name: Включение сотрудников в план переменных компенсаций
               href: hr/tasks/enroll-employee-variable-compensation-plan.md
-            - name: Регистрация и удаление льгот для работников
+            - name: Регистрация работников на получение льготы и удаление льгот для работников
               href: hr/tasks/enroll-remove-benefits-workers.md
             - name: Ввод кандидата и данных заявления вручную
               href: hr/tasks/enter-applicant-application-data-manually.md
@@ -2347,25 +2387,25 @@
               href: hr/tasks/enter-project-timesheets.md
             - name: Ввод сведений о работнике
               href: hr/tasks/enter-worker-information.md
-            - name: Прием кандидата через набор сотрудников
+            - name: Прием на работу кандидатов через набор сотрудников
               href: hr/tasks/hire-candidate-through-recruiting.md
-            - name: Прием на работу действующего сотрудника через набор сотрудников
+            - name: Прием на работу действующих сотрудников через набор сотрудников
               href: hr/tasks/hire-existing-employee-through-recruiting.md
             - name: Определение и развертывание средств выбора кандидатов
               href: hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Одалживание номенклатур работнику
+            - name: Одалживание номенклатур работникам
               href: hr/tasks/loan-item-worker.md
             - name: Ведение сведений о травмах и заболеваниях сотрудников
               href: hr/tasks/maintain-employee-injury-illness-information.md
-            - name: 'Создание вопроса, зависящего от ответа на предыдущий вопрос'
+            - name: 'Создание вопросов, зависящих от ответа на предыдущий вопрос'
               href: hr/tasks/make-question-dependent-answer-previous-question.md
             - name: Управление сроками действия льгот
               href: hr/tasks/manage-benefit-expiration-dates.md
             - name: Управление шаблонами электронной почты
               href: hr/tasks/manage-email-templates.md
-            - name: Управление отпуском
+            - name: Управление отпусками
               href: hr/tasks/manage-leave-absence.md
-            - name: Изменение отношений подотчетности для должности
+            - name: Изменение отношений подотчетности для должностей
               href: hr/tasks/modify-reporting-relationships-position.md
             - name: Настройка сеток компенсаций
               href: hr/tasks/set-up-compensation-grids.md
@@ -2396,7 +2436,7 @@
             - name: Анализ учета затрат
               href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Безопасность для анализа учета затрат
+                - name: Настройка безопасности для содержимого Power BI анализа учета затрат
                   href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Управление затратами
               href: ../dev-itpro/analytics/cost-management-content-pack.md?toc=/fin-and-ops/toc.json
@@ -2424,7 +2464,7 @@
               href: ../dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Набор сотрудников
               href: ../dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: 'Эффективность канала розничной торговли '
+            - name: Эффективность канала розничной торговли
               href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/fin-and-ops/toc.json
             - name: Эффективность продаж и прибыльность
               href: ../dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/fin-and-ops/toc.json
@@ -2438,24 +2478,24 @@
           items:
             - name: Обзор служб Reporting Services для документов
               href: ../dev-itpro/analytics/document-reporting-services.md?toc=/fin-and-ops/toc.json
-            - name: Настройка служб SSRS для локального развертывания
+            - name: Настройка служб SSRS для локальных развертываний
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
             - name: Печать
               href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Установка агента маршрутизации документов для включения сетевых принтеров
+                - name: Установка агента маршрутизации документов для включения сетевой печати
                   href: ../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json
                 - name: Обновление агента маршрутизации документов
                   href: ../dev-itpro/analytics/upgrade-document-routing-agent.md
                 - name: Установка сетевых принтеров в локальных средах
                   href: ../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json
-                - name: 'Возможности создания, публикации и печати документов в локальных развертываниях'
+                - name: 'Создание, публикация и печать документов в локальных развертываниях'
                   href: ../dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/fin-and-ops/toc.json
                 - name: Запуск агента маршрутизации документов в качестве службы Windows
                   href: ../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json
             - name: Как не допустить истечения времени ожидания при длительном формировании отчетов
               href: ../dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/fin-and-ops/toc.json
-            - name: Список отчетов служб SQL Server Reporting Services
+            - name: Доступные отчеты служб SQL Server Reporting Services
               href: ../dev-itpro/analytics/SSRS-report.md?toc=/fin-and-ops/toc.json
             - name: Создание решений отчетности
               href: ../dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/fin-and-ops/toc.json
@@ -2465,139 +2505,141 @@
               href: ../dev-itpro/analytics/customize-app-suite-reports-with-extensions.md?toc=/fin-and-ops/toc.json
             - name: Расширение наборов данных отчетности для набора приложений
               href: ../dev-itpro/analytics/expand-app-suite-report-data-sets.md?toc=/fin-and-ops/toc.json
-            - name: Расширение элементов меню отчетов
+            - name: Расширение элементов меню отчетов для перенаправления навигации пользователя
               href: ../dev-itpro/analytics/extend-report-menu-items.md?toc=/fin-and-ops/toc.json
-            - name: Бизнес-документы с пользовательским дизайном
+            - name: Создание пользовательского оформления для бизнес-документов
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
         - name: Электронная отчетность
           href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
           items:
             - name: Настройка платформы для электронной отчетности
               href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
-            - name: Создание конфигурации
+            - name: Создание конфигураций
               href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Создание поставщика конфигурации и пометка его как активного для электронной отчетности
+                - name: Создание поставщиков конфигураций и пометка их как активных
                   href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Разработка модели данных конкретного домена для электронной отчетности
+                - name: Проектирование моделей данных для конкретных доменов
                   href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Определение сопоставления моделей и выбор источников данных для электронной отчетности
+                - name: Определение сопоставлений моделей и выбор источников данных
                   href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Сопоставление модели данных с выбранными источниками данных для электронной отчетности
+                - name: Сопоставление моделей данных с выбранными источникам данных
                   href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Создание конфигурации формата для электронной отчетности
+                - name: Создание конфигураций форматов
                   href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Сопоставление компонентов созданного формата с элементами модели данных для электронной отчетности
+                - name: Сопоставление компонентов форматов с элементами модели данных
                   href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Создание электронных документов для платежей с помощью конфигурации формата для электронной отчетности
+                - name: Создание электронных документов для платежей с помощью конфигураций формата
                   href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-                - name: Обновление формата путем принятия новой базовой версии этого формата для электронной отчетности
+                - name: Обновление форматов путем принятия новых базовых версий
                   href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
             - name: Конструктор формул в электронной отчетности
               href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-            - name: Настройка электронной отчетности с помощью Power BI
+            - name: Настройка электронной отчетности для загрузки данных в Power BI
               href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
-            - name: Места назначения
+            - name: Места назначений
               href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Настройка мест назначения для электронной отчетности
+                - name: Настройка мест назначений
                   href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Разработка конфигурации для создания отчетов в формате Microsoft Word для электронной отчетности
+            - name: Разработка конфигураций для создания отчетов в формате Word
               href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Разработка конфигурации для создания отчетов в формате OpenXML для электронной отчетности
+            - name: Разработка конфигураций для создания отчетов в формате OpenXML
               href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Изменение формата электронной отчетности путем повторного применения шаблона Microsoft Excel
+            - name: Изменение форматов электронной отчетности путем повторного применения шаблонов Excel
               href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: Выбор определения модели данных при создании формата для электронной отчетности
+            - name: Выбор определения модели данных во время создания форматов
               href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-            - name: Определение зависимости конфигураций от других компонентов для электронной отчетности
+            - name: Определение зависимости конфигураций от других компонентов
               href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Разработка модели данных для использования финансовых аналитик как источника данных
+                - name: Разработка моделей данных для использования финансовых аналитик как источников данных
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-                - name: Модели данных для использования финансовых аналитик как источника данных
+                - name: Сопоставление моделей для использования финансовых аналитик как источников данных
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-                - name: Разработка отчета для использования финансовых аналитик как источника данных
+                - name: Разработка отчетов для использования финансовых аналитик как источников данных
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-                - name: 'Выполнение отчета, использующего финансовые аналитики как источник данных'
+                - name: 'Выполнение отчетов, использующих финансовые аналитики как источники данных'
                   href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-                - name: Создание формата для подсчета и суммирования
+                - name: Создание форматов для подсчета и суммирования
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
                 - name: Настройка вычислений для подсчета и суммирования
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-                - name: Использование вычислений для получения выходных данных подсчета и суммирования
+                - name: Использование вычислений для создания выходных данных подсчета и суммирования
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-                - name: Выполнение формата для подсчета и суммирования
+                - name: Выполнение форматов для подсчета и суммирования
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-                - name: Разработка формата для использования горизонтально разворачивающихся диапазонов для динамического добавления столбцов в отчеты Excel
+                - name: Разработка форматов для динамического добавления столбцов в качестве горизонтально разворачивающихся диапазонов
                   href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-                - name: 'Выполнение формата, использующего горизонтально разворачивающиеся диапазоны для динамического добавления столбцов в отчеты Excel'
+                - name: Выполнение форматов для динамического добавления столбцов в качестве горизонтально разворачивающихся диапазонов
                   href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-                - name: Подготовка модели данных для использования файлов управления документами в выходных данных формата
+                - name: Подготовка моделей данных для использования файлов управления документами в выходных данных
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-                - name: Расширение модели данных для использования файлов управления документами в выходных данных формата
+                - name: Расширение моделей данных для использования файлов управления документами в выходных данных
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-                - name: Создание формата для использования файлов управления документами в выходных данных формата
+                - name: Создание форматов для использования файлов управления документами в выходных данных
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-                - name: Выполнение формата для использования файлов управления документами в выходных данных формата
+                - name: Выполнение форматов для использования файлов управления документами в выходных данных
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-                - name: Изменение и выполнение формата для использования файлов управления документами в выходных данных формата
+                - name: Изменение и выполнение форматов для использования файлов управления документами в выходных данных
                   href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-                - name: Разработка конфигураций для формирования отчетов в форматах Microsoft Office с внедренными изображениями
+                - name: Разработка конфигураций для формирования отчетов в форматах Office с внедренными изображениями
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: Проверка конфигураций для создания отчетов в форматах Microsoft Office с внедренными изображениями
+                - name: Проверка конфигураций для формирования отчетов в форматах Office с внедренными изображениями
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Формирование отчетов в форматах Microsoft Office с внедренными изображениями
+                - name: Формирование отчетов в форматах Office с внедренными изображениями
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
-            - name: Формирование электронных документов и обновление данных в приложении с помощью средства электронной отчетности
+            - name: Создание электронных документов и обновление данных приложения
               href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
               items:
                 - name: Импорт конфигураций для формирования документов с данными приложений
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
                 - name: Разработка конфигураций для формирования документов с данными приложений
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-                - name: Изменение модели и сопоставления для формирования документов с данными приложений
+                - name: Изменение моделей и сопоставлений для формирования документов с данными приложений
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-                - name: Изменение формата для формирования документов с данными приложений
+                - name: Изменение форматов для формирования документов с данными приложений
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
                 - name: Формирование документов с данными приложений
                   href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+            - name: Создание печатных форм FTI
+              href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
             - name: Формирование отчетов путем добавления содержимого в виде исходного XML-документа
               href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
             - name: Отслеживание результатов из сформированного отчета и их сравнение с базовыми значениями
               href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
             - name: Источники данных из разных компаний в электронной отчетности
               href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-            - name: 'Внедрение изображений и фигур в бизнес-документы, создаваемые с помощью средства электронной отчетности'
+            - name: Внедрение изображений и фигур в создаваемые документы
               href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
             - name: Управление жизненным циклом конфигураций
               href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Отправка конфигурации в Lifecycle Services для электронной отчетности
+                - name: Отправка конфигураций в Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Импорт конфигурации из Lifecycle Services для электронной отчетности
+                - name: Импорт конфигураций из Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: Загрузка конфигураций из Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-                - name: Импорт конфигураций электронной отчетности
+                - name: Импорт конфигураций
                   href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Управление конфигурациями сопоставления модели для электронной отчетности
+            - name: Управление конфигурациями сопоставлений моделей
               href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Создание необходимых конфигураций для импорта данных из внешнего файла для электронной отчетности
+                - name: Создание конфигураций для импорта данных из внешних файлов
                   href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
                 - name: Настройка импорта данных из SharePoint
                   href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: Разбор входящих документов в Microsoft Excel
+            - name: Разбор входящих документов в формате Excel
               href: ../dev-itpro/analytics/parse-incoming-documents-excel.md?toc=/fin-and-ops/toc.json
             - name: Разбор входящих документов для обновления данных приложений
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
             - name: Разбор входящих документов в формате CSV
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
-            - name: Разбиение созданных файлов по их размеру и количеству содержимого
+            - name: Разбиение созданных XML-файлов по их размеру и количеству содержимого
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Расширение функций электронной отчетности
+                - name: Расширение списка функций электронной отчетности
                   href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
                 - name: Изменения в API платформы электронной отчетности для Application update 7.3
                   href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
@@ -2609,7 +2651,7 @@
               href: ../dev-itpro/analytics/power-bi-embedded-integration.md?toc=/fin-and-ops/toc.json
         - name: Параметры персонализации с PowerBI.com
           items:
-            - name: Интеграция с Power BI
+            - name: 'Функции и службы, доступные в результате интеграции Power BI'
               href: ../dev-itpro/analytics/power-bi-integration.md?toc=/fin-and-ops/toc.json
             - name: Закрепление отчетов Power BI в рабочих областях
               href: ../dev-itpro/analytics/pin-power-bi-reports.md?toc=/fin-and-ops/toc.json
@@ -2617,9 +2659,9 @@
           items:
             - name: 'Аналитика, агрегированные измерения и моделирование КПЭ'
               href: ../dev-itpro/analytics/analytics.md?toc=/fin-and-ops/toc.json
-            - name: Разработка аналитических отчетов с помощью Power BI Desktop
+            - name: Создание аналитических отчетов с помощью Power BI Desktop
               href: ../dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/fin-and-ops/toc.json
-            - name: Моделирование и агрегированные данные
+            - name: Агрегированные данные модели
               href: ../dev-itpro/analytics/model-aggregate-data.md?toc=/fin-and-ops/toc.json
             - name: Добавление финансовых аналитик в агрегированные измерения
               href: ../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/fin-and-ops/toc.json
@@ -2627,15 +2669,15 @@
               href: ../dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/fin-and-ops/toc.json
             - name: Защита аналитических рабочих областей и отчетов с помощью Power BI Embedded
               href: ../dev-itpro/analytics/secure-analytical-workspaces.md?toc=/fin-and-ops/toc.json
-        - name: Средства управления опытными пользователями
+        - name: Средства управления пользователями Power
           items:
             - name: Интеграция Power BI с хранилищем объектов
               href: ../dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/fin-and-ops/toc.json
-            - name: Обслуживание хранилища объектов
+            - name: Устранение проблем после обслуживания хранилища объектов
               href: ../dev-itpro/analytics/entity-store-maintenance.md
             - name: Настройка интеграции с Power BI для рабочих областей
               href: ../dev-itpro/analytics/configure-power-bi-integration.md?toc=/fin-and-ops/toc.json
-            - name: Использование своей собственной базы данных
+            - name: Использование собственной базы данных
               href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
     - name: Управление запасами
       href: ../supply-chain/inventory/inventory-home-page.md
@@ -2803,10 +2845,10 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Изменение прогноза спроса вручную
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Мобильное приложение
+    - name: Мобильное приложение Dynamics 365 for Unified Operations
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
-        - name: Мобильные рабочие области
+        - name: Доступные мобильные рабочие области
           href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
           items:
             - name: Каталог компании
@@ -2829,14 +2871,14 @@
               href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md
             - name: Совместная работа с поставщиками
               href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md
-        - name: Публикация мобильной рабочей области
+        - name: Публикация мобильных рабочих областей
           href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
     - name: Интеграция с Office
       href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
       items:
         - name: Учебник по интеграции с Office
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
-        - name: Использование надстройки Excel
+        - name: Открытие данных объекта в Excel и его обновление с помощью надстройки Excel
           href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/fin-and-ops/toc.json
         - name: Создание функции открытия в Excel
           href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/fin-and-ops/toc.json
@@ -2996,65 +3038,67 @@
               href: organization-administration/plan-organizational-hierarchy.md
             - name: Создание организационной иерархии
               href: organization-administration/tasks/create-organization-hierarchy.md
-            - name: Создание юридического лица
+            - name: Создание юридических лиц
               href: organization-administration/tasks/create-legal-entity.md
-            - name: Создание операционной единицы
+            - name: Создание операционных единиц
               href: organization-administration/tasks/create-operating-unit.md
         - name: Глобальная адресная книга
           href: organization-administration/overview-global-address-book.md
           items:
-            - name: Планирование настройки глобальной адресной книги
+            - name: План для глобальной адресной книги и других адресных книг
               href: organization-administration/plan-configuration-global-address-book-additional-address-books.md
             - name: Настройка глобальной адресной книги
               href: organization-administration/tasks/configure-global-address-book.md
             - name: Вопросы и ответы по адресным книгам
               href: organization-administration/qa-address-books.md
-        - name: Workflow-процесс
+            - name: Настройка адресных книг
+              href: organization-administration/tasks/address-books.md
+        - name: Система бизнес-правил
           href: organization-administration/overview-workflow-system.md
           items:
-            - name: Архитектура системы workflow-процессов
+            - name: Архитектура системы бизнес-правил
               href: organization-administration/workflow-system-architecture.md
-            - name: Элементы workflow-процесса
+            - name: Элементы бизнес-правила
               href: organization-administration/workflow-elements.md
-            - name: Действия workflow-процесса
+            - name: Действия бизнес-правила
               href: organization-administration/workflow-actions.md
-            - name: Создание workflow-процесса
+            - name: Создание бизнес-правил
               href: organization-administration/create-workflow.md
               items:
-                - name: Настройка свойств workflow-процесса
+                - name: Настройка свойств бизнес-правила
                   href: organization-administration/configure-workflow-properties.md
-                - name: 'Настройка задачи, выполняемой вручную'
+                - name: 'Настройка задач, выполняемых вручную'
                   href: organization-administration/configure-manual-task-workflow.md
-                - name: Настройка автоматизированной задачи
+                - name: Настройка автоматизированных задач
                   href: organization-administration/configure-automated-task-workflow.md
-                - name: Настройка процесса утверждения
+                - name: Настройка процессов утверждения
                   href: organization-administration/configure-approval-process-workflow.md
-                - name: Настройка шага утверждения
+                - name: Настройка шагов утверждения
                   href: organization-administration/configure-approval-step-workflow.md
-                - name: 'Настройка решения, принимаемого вручную'
+                - name: 'Настройка решений, принимаемых вручную'
                   href: organization-administration/configure-manual-decision-workflow.md
-                - name: 'Настройка решения, принимаемого по условию'
+                - name: 'Настройка решений, принимаемых по условию'
                   href: organization-administration/configure-conditional-decision-workflow.md
-                - name: Настройка параллельного мероприятия
+                - name: Настройка параллельных мероприятий
                   href: organization-administration/configure-parallel-activity-workflow.md
-                - name: Настройка параллельной ветви
+                - name: Настройка параллельных ветвей
                   href: organization-administration/configure-parallel-branch-workflow.md
-                - name: Настройка workflow-процесса по номенклатуре строки
+                - name: Настройка бизнес-правил по строке
                   href: organization-administration/configure-line-item-workflow.md
-            - name: Настройка пакетного задания обработки сообщений
+            - name: Настройка пакетного задания обработки сообщения бизнес-правила как критического
               href: organization-administration/workflow-batch-job-critical.md
-            - name: Делегирование рабочих элементов в workflow-процессе
+            - name: Делегирование рабочих элементов в бизнес-правиле
               href: organization-administration/tasks/delegate-work-items-workflow.md
-            - name: Просмотр журнала workflow-процессов
+            - name: Просмотр истории бизнес-правила
               href: organization-administration/tasks/view-workflow-history.md
-            - name: 'Настройка отправки пользователям сообщений электронной почты, связанных с workflow-процессом'
+            - name: 'Настройка системы для отправки пользователям сообщения электронной почты, связанного с бизнес-правилом'
               href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
-            - name: Отчет о типах workflow-процессов
+            - name: Отчет о типах бизнес-правил
               href: organization-administration/workflow-types-report.md
         - name: Оповещения
           href: get-started/alerts-overview.md
           items:
-            - name: Создание оповещений
+            - name: Создание правил оповещения
               href: get-started/create-alerts.md
             - name: Пакетная обработка оповещений
               href: get-started/alerts-managing.md
@@ -3066,7 +3110,7 @@
         - name: Управление обращениями
           href: organization-administration/cases.md
           items:
-            - name: 'Настройка безопасности обращений, процессов и категорий'
+            - name: 'Планирование безопасности обращений, процессов и категорий'
               href: organization-administration/plan-case-management.md
         - name: Шаблоны записей
           href: organization-administration/record-templates.md
@@ -3792,7 +3836,7 @@
                       href: ../supply-chain/service-management/reverse-changes-in-a-dispatch-board.md
                     - name: Просмотр не подготовленных к отправке заказов на сервисное обслуживание
                       href: ../supply-chain/service-management/view-undispatched-service-orders.md
-                    - name: 'Изменение спецификации обслуживания  '
+                    - name: Изменение спецификации обслуживания
                       href: ../supply-chain/service-management/modify-service-bom.md
                 - name: Оказание услуг
                   items:
@@ -3893,7 +3937,7 @@
         - name: Политики работы склада
           href: ../supply-chain/warehousing/warehouse-work-policies.md
           items:
-            - name: 'Настройка политик работы склада  '
+            - name: Настройка политик работы склада
               href: ../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
             - name: Перемещение запасов со связанной работой в модуле "Управление складом"
               href: ../supply-chain/warehousing/move-inventory-associated-work.md
@@ -3935,11 +3979,11 @@
               href: ../supply-chain/inventory/inventory-blocking.md
             - name: Цикличный подсчет
               href: ../supply-chain/warehousing/cycle-counting.md
-            - name: 'Определение цикличного подсчета '
+            - name: Определение цикличного подсчета
               href: ../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
             - name: Частичный цикличный подсчет по ячейкам
               href: ../supply-chain/warehousing/partial-location-cycle-counting.md
-            - name: 'Определение процесса частичного цикличного подсчета по местонахождениям '
+            - name: Определение процесса частичного цикличного подсчета по местонахождениям
               href: ../supply-chain/warehousing/tasks/define-partial-location-cycle-counting-process-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017-update.md
             - name: Журнал запасов
               href: ../supply-chain/inventory/inventory-journals.md
@@ -3958,7 +4002,7 @@
               href: ../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md
             - name: Настройка процесса пополнения "Мин./Макс."
               href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
-        - name: 'Установка и настройка складского приложения '
+        - name: Установка и настройка складского приложения
           href: ../supply-chain/warehousing/install-configure-warehousing-app.md
           items:
             - name: Настройка имен полей в складском приложении
@@ -3981,7 +4025,7 @@
               href: ../supply-chain/warehousing/display-older-batches-within-warehouses.md
             - name: Комплектация самой старой партии на мобильном устройстве
               href: ../supply-chain/warehousing/pick-oldest-batch.md
-        - name: ​Обновление и миграция
+        - name: Обновление и миграция
           items:
             - name: Обновление процессов управления складом Microsoft Dynamics AX 2012 до Finance and Operations
               href: ../supply-chain/warehousing/upgrade-migration-warehouse-management-processes.md

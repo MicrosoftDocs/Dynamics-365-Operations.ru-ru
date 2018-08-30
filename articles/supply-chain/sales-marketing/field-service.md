@@ -46,8 +46,6 @@ Microsoft Dynamics 365 for Finance and Operations включает синхро�
 
 Чтобы просмотреть пример того, как можно выполнять синхронизацию заказа на выполнение работ между Field Service и Finance and Operations, просмотрите это короткое видео на YouTube [Синхронизация заказа на выполнение работ между Dynamics 365 for Field Service и Finance and Operations](https://www.youtube.com/watch?v=hAB4TDVMjxU).
 
-[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
-
 ## <a name="system-requirements-for-finance-and-operations"></a>Системные требования для Finance and Operations
 Интеграция Field Service поддерживает следующие версии:
 

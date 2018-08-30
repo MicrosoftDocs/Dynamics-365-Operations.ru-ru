@@ -1,5 +1,5 @@
 ---
-title: "Импорт данных из шаблонов информационных объектов Excel с несколькими листами"
+title: "Импорт данных из шаблонов информационных объектов Excel, содержащих несколько листов"
 description: "В этом разделе описывается, как импортировать данные с помощью шаблонов информационных объектов Excel в Microsoft Dynamics 365 for Finance and Operations."
 author: Sunil-Garg
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 5bc021ce9f0835f2eda310ef7818c9bc9be749f2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="excel-templates-with-multiple-worksheets"></a>Шаблоны Excel с несколькими листами
+# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Импорт данных из шаблонов информационных объектов Excel, содержащих несколько листов
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Бизнес-аналитика"
+title: "Домашняя страница бизнес-аналитики (BI) и отчетности"
 description: "В этом разделе описаны ресурсы, которые можно использовать для получения дополнительных сведений о бизнес-аналитике и средствах отчетности, доступных в Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="intelligence"></a>Бизнес-аналитика
+# <a name="business-intelligence-bi-and-reporting-home-page"></a>Домашняя страница бизнес-аналитики (BI) и отчетности
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,13 +43,13 @@ ms.lasthandoff: 03/26/2018
 
 ![Пример Power BI в рабочей области](./media/Power-BI-in-D365-Workspace.png)
 
- Дополнительные сведения см. в следующих разделах.
+Дополнительные сведения см. в следующих разделах.
 
- - [Power BI Embedded в рабочих областях](embed-power-bi-workspaces.md)
- - [Интеграция с Power BI Embedded](power-bi-embedded-integration.md)
- - [Добавление аналитики в рабочие области с помощью Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Защита аналитических рабочих областей и отчетов с помощью Power BI Embedded](secure-analytical-workspaces.md)
- - [Содержимое Power BI для Finance and Operations](power-bi-home-page.md)
+- [Внедренное решение Power BI в рабочих областях](embed-power-bi-workspaces.md)
+- [Интеграция с Power BI Embedded](power-bi-embedded-integration.md)
+- [Добавление аналитики в рабочие области с помощью Power BI Embedded](add-analytics-tab-workspaces.md)
+- [Защита аналитических рабочих областей и отчетов с помощью Power BI Embedded](secure-analytical-workspaces.md)
+- [Содержимое Power BI для Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Бизнес-документы и печать
 Решения для формирования отчетности часто используются для сбора и передачи информации о бизнес-операциях. Поэтому такое решение должно поддерживать создание физических представлений бизнес-данных с помощью имеющихся устройств, например сетевых принтеров. Такими бизнес-документами могут быть накладные по продаже, выписки по клиентам и чеки.
@@ -88,7 +88,7 @@ ms.lasthandoff: 03/26/2018
 Следующие отчеты содержат справочные сведения об объектах Finance and Operations:
 
 - [Отчет по информационным объектам](../data-entities/data-entities-report.md)
-- [Отчет по лицензионным кодам и ключам конфигурации](../sysadmin/license-codes-configuration-keys-report.md)
+- [Отчет о лицензионных кодах и ключах конфигурации](../sysadmin/license-codes-configuration-keys-report.md)
 - [Отчет служб SQL Server Reporting Services](SSRS-report.md)
-- [Отчет по типам workflow-процессов](../../fin-and-ops/organization-administration/workflow-types-report.md)
+- [Отчет о типах бизнес-правил](../../fin-and-ops/organization-administration/workflow-types-report.md)
 

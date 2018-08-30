@@ -1,9 +1,9 @@
 ---
-title: "Устаревшие функции"
+title: "Удаленные или устаревшие функции"
 description: "В этом разделе описываются возможности, который удалены или которые планируется удалить."
 author: sericks007
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 08/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 65101b5f0030a25973a584b68ec9697506868294
-ms.openlocfilehash: 6b954d1eedb7c7af1c9a5eda92aa1dd6132a19fa
+ms.sourcegitcommit: 884a1372c6ebdcc665a812090d75c158c1fef895
+ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/30/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -38,6 +38,9 @@ ms.lasthandoff: 05/30/2018
 
 > [!Note]
 > Начиная с выпуска Dynamics 365 for Finance and Operations от июля 2017 г. с обновлением платформы 8, типы развертывания указаны для каждой удаленной или устаревшей функции. Все предыдущие выпуски, упоминаемые в этом разделе, поддерживают только облачные развертывания.
+
+> [!Note]
+> Подробные сведения об объектах в Finance and Operations можно найти в документе [Технический справочник по отчетам](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии Finance and Operations.
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 с обновлением платформы 15
 В этом выпуске ни один компонент не был удален или объявленным устаревшим. Обновление платформы 15 является накопительным и включает новые или измененные функции из обновления платформы 13, обновления платформы 14 и обновления платформы 15.

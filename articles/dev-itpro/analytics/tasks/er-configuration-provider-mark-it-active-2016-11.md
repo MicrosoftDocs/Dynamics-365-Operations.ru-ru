@@ -1,5 +1,5 @@
 --- 
-title: "Создание поставщика конфигурации и пометка его как активного для электронной отчетности (ER)"
+title: "Создание поставщиков конфигурации и пометка их как активных"
 description: "В следующих шагах поясняется, как пользователь с ролью \"Системный администратор\" или \"Разработчик электронной отчетности\" может создать поставщика конфигурации для электронной отчетности."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 37957f224cb57fd9f6c5014740bcea124a99a03a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>Создание поставщика конфигурации и пометка его как активного для электронной отчетности (ER)
+# <a name="create-configuration-providers-and-mark-them-as-active"></a>Создание поставщиков конфигурации и пометка их как активных
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

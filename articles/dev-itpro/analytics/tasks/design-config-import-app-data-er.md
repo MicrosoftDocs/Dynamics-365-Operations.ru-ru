@@ -1,5 +1,5 @@
 --- 
-title: "Разработка конфигураций для анализа входящих документов для обновления данных приложения (ER)"
+title: "Разработка конфигураций электронной отчетности для анализа входящих документов"
 description: "В этой процедуре показано, как разработать конфигурации электронной отчетности для анализа входящего электронного документа."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 96c9397c6a83d61b679492f66f4aa6661f1f8621
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Разработка конфигураций для анализа входящих документов для обновления данных приложения (ER)
+# <a name="design-er-configurations-to-parse-incoming-documents"></a>Разработка конфигураций электронной отчетности для анализа входящих документов
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/07/2018
 
 Эта процедура предназначена для пользователей, которым назначена роль "Системный администратор" или "Разработчик электронной отчетности". 
 
-Эти шаги можно выполнить с использованием любого набора данных. Прежде чем начать, загрузите и сохраните файлы, перечисленные в разделе "Анализ входящих документов для обновления данных приложения" (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Файлы: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Эти шаги можно выполнить с использованием любого набора данных. Перед тем как начать, загрузите и сохраните файлы, перечисленные в разделе "Разбор входящих документов для обновления данных приложений" (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)). Файлы: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Перейдите в раздел "Управление организацией" > "Рабочие области" > "Электронная отчетность".
     * Убедитесь, что поставщик конфигурации для демонстрационной компании Litware, Inc. доступен и помечен как активный. Если вы не видите этого поставщика конфигурации, необходимо сначала выполнить шаги в процедуре "Создание поставщика конфигурации и пометка его как активного".  

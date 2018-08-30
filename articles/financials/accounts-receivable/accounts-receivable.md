@@ -1,7 +1,7 @@
 ---
 title: "Домашняя страница расчетов с клиентами"
 description: "Расчеты с клиентами используются для отслеживания накладных и входящих платежей клиентов."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 20671
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
-ms.openlocfilehash: 9fcf106b03cd1abdd135681ceefbb7877f07c773
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -43,17 +43,24 @@ ms.lasthandoff: 06/25/2018
 
 Модуль "Расчеты с клиентами" служит для отслеживания накладных клиентов и получаемых от клиентов платежей. В модуле "Расчеты с клиентами" вы можете настраивать группы клиентов, клиентов, профили разноски, процент-ноты, письма-напоминания, комиссии, параметры клиентов, накладных расходов, поставок и назначений, переводных векселей и других типов. 
 
-:::row::: :::column::: - [Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных с произвольным текстом](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+:::row:::
+    :::column:::
+        - [Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных с произвольным текстом](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
         - [Профили разноски по клиенту](customer-posting-profiles.md)
         - [Настройка, авторизация и проверка данных кредитной карты](credit-card-authorizations.md)
         - [Создание накладной клиента](configure-customer-invoices.md)
         - [Настройка и обработка периодических накладных](set-up-process-recurring-invoices.md)
-        - [Исправление накладной с произвольным текстом](correct-free-text-invoice.md) :::column-end::: :::column::: - [Настройка переводных векселей](set-up-bills-exchange.md)
+        - [Исправление накладной с произвольным текстом](correct-free-text-invoice.md)
+    :::column-end:::
+    :::column:::
+        - [Настройка переводных векселей](set-up-bills-exchange.md)
         - [Настройка процентных ставок для кода процента](set-up-interest-rates-interest-code.md)
         - [Отмена, возобновление или реверсирование процентных сборов](waive-reinstate-reverse-interest-fees.md)
         - [Обзор прямого дебетования SEPA](sepa-direct-debit-overview.md)
         - [Настройка поручения прямого дебетования SEPA](sepa-direct-debit-mandate.md)
-        - [Закрытие расчетов с клиентами](close-accounts-receivable.md) :::column-end::: :::row-end:::
+        - [Закрытие расчетов с клиентами](close-accounts-receivable.md)
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="set-up-credit-and-collections"></a>Настройка модуля "Кредит и сборы"
@@ -70,13 +77,20 @@ ms.lasthandoff: 06/25/2018
 
 Вы можете принимать от клиентов платежи различных типов, например переводные векселя, наличные, чеки, кредитные карты и электронные платежи. 
 
-:::row::: :::column::: - [Использование платежа клиента для сопоставления нескольких накладных, охватывающих несколько периодов скидок](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+:::row:::
+    :::column:::
+        - [Использование платежа клиента для сопоставления нескольких накладных, охватывающих несколько периодов скидок](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
         - [Централизованные платежи для расчетов с клиентами](centralized-payments-accounts-receivable.md)
         - [Сопоставление частичного платежа клиента и окончательного платежа в полном объеме до даты скидки](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [Настройка частичного платежа клиента до даты скидки с окончательным платежом после даты скидки](settle-partial-customer-payment-before-discount-or-final-payment-after.md) :::column-end::: :::column::: - [Настройка частичного платежа клиента, имеющего скидки по кредит-нотам](settle-partial-customer-payment-discounts-credit-notes.md)
+        - [Настройка частичного платежа клиента до даты скидки с окончательным платежом после даты скидки](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+    :::column-end:::
+    :::column:::
+        - [Настройка частичного платежа клиента, имеющего скидки по кредит-нотам](settle-partial-customer-payment-discounts-credit-notes.md)
         - [Сопоставление частичного платежа клиента с несколькими периодами скидок](settle-partial-customer-payment-multiple-discount-periods.md)
         - [Возмещение клиентам](reimburse-customers.md)
-        - [Платежи клиентов на частичную сумму](customer-payments-partial-amount.md) :::column-end::: :::row-end:::
+        - [Платежи клиентов на частичную сумму](customer-payments-partial-amount.md)
+    :::column-end:::
+:::row-end:::
 
 
 ### <a name="additional-resources"></a>Дополнительные ресурсы

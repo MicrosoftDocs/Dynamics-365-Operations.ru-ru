@@ -1,5 +1,5 @@
 --- 
-title: "Изменение формата для создания документов с обновлением данных приложения"
+title: "Изменение форматов для формирования документов, содержащих данные приложений"
 description: "Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру \"Электронная отчетность — Формирование документов с обновлением данных приложения (Часть 3. Изменение модели и сопоставления)\"."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6c7455e4293993f297aeede4d9d6a50f25ca6c07
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: a095d0326835b0ae7322d5d58307216ee828649e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="modify-format-to-generate-documents-with-application-data"></a>Изменение формата для создания документов с обновлением данных приложения
+# <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Изменение форматов для формирования документов, содержащих данные приложений
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

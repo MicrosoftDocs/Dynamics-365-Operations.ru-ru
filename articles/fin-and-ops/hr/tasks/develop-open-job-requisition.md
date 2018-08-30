@@ -1,5 +1,5 @@
 --- 
-title: "Разработка и открытие заявки на должность"
+title: "Разработка и открытие заявок на должность"
 description: "Проекты по набору сотрудников помогают управлять процессом найма."
 author: kherr75
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0eb5ec731655e2f023d941724a10d1cf12f8e558
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 927b9125e033af8aa94523092ab2ac69b7ba868d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="develop-and-open-a-job-requisition"></a>Разработка и открытие заявки на должность
+# <a name="develop-and-open-job-requisitions"></a>Разработка и открытие заявок на должность
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

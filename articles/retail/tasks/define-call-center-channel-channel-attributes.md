@@ -1,5 +1,5 @@
 --- 
-title: "Определение канала центра обработки вызовов и атрибутов этого канала"
+title: "Создание каналов центра обработки вызовов и определение атрибутов каналов"
 description: "Эта процедура содержит указания по созданию нового канала розничной торговли и определению атрибутов канала."
 author: mugunthanm
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1418f04d8fb4d05756ac7a5f4b92a1950037be1d
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 7ef094535214ecf4c65f95c36a93455446d7e388
 ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="define-call-center-channel-and-channel-attributes"></a>Определение канала центра обработки вызовов и атрибутов этого канала
+# <a name="create-call-center-channels-and-define-channel-attributes"></a>Создание каналов центра обработки вызовов и определение атрибутов каналов
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

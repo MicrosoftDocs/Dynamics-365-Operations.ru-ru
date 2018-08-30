@@ -1,5 +1,5 @@
 ---
-title: "Настройка номиналов валюты для POS"
+title: "Настройка номиналов денежных знаков для терминала POS"
 description: "Можно определить в бэк-офисе номиналы банкнот и монет, которые будут использоваться кассирами, продавцами и менеджерами в магазине из POS."
 author: jblucher
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: afe7c359f284fde10ada377fb19add9819a8dd21
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: afc53754c3ff5b1afed2380369cf8280cfffc5e4
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-cash-denominations-for-pos"></a>Настройка номиналов валюты для POS
+# <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Настройка номиналов денежных знаков для терминала POS
 
 [!include [banner](includes/banner.md)]
 

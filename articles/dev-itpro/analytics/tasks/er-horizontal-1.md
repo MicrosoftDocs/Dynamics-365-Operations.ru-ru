@@ -1,5 +1,5 @@
 --- 
-title: "Разработка формата для использования горизонтально разворачивающихся диапазонов для динамического добавления столбцов в отчеты Excel"
+title: "Разработка форматов для динамического добавления столбцов в отчеты Excel в виде горизонтально разворачивающихся диапазонов"
 description: "Следующие шаги описывают, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для создания отчетов в виде файлов листов OPENXML (Excel), в которых необходимые столбцы можно создавать динамически как горизонтально расширяемые диапазоны."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d9c3cf17cd406a50a9f92e78991289f9139d7c73
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 80cd2603ba5ee47f861077d75a955037ffbde96e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports"></a>Разработка формата для использования горизонтально разворачивающихся диапазонов для динамического добавления столбцов в отчеты Excel
+# <a name="design-formats-to-dynamically-add-columns-to-excel-reports-as-horizontally-expandable-ranges"></a>Разработка форматов для динамического добавления столбцов в отчеты Excel в виде горизонтально разворачивающихся диапазонов
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Время розничной торговли и посещаемость"
+title: "Планирование управления временем и присутствием в Retail"
 description: "В этой теме описываются сценарии, поддерживаемые для управления временем и посещаемостью в Microsoft Dynamics 365 for Retail."
 author: aamirallaqaband
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d5672579c1e2d51e4b6494a1e86e3606c09a93a2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="retail-time-and-attendance"></a>Посещаемость и время присутствия для розничной торговли
+# <a name="time-and-attendance-management-in-retail"></a>Планирование управления временем и присутствием в Retail
 
 [!include [banner](includes/banner.md)]
 
@@ -135,7 +135,7 @@ ms.lasthandoff: 11/03/2017
 -   Массовый уход
 -   Регистрация отсутствия
 
-Дополнительные сведения об обработке регистраций времени и посещаемости см. в разделе <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+Дополнительную информацию об обработке регистраций времени и присутствия см. в <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
 
 
 
