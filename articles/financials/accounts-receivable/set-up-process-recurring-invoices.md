@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 056bc38fc69422b17b1b7720ce37089b27e8aa2e
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: ac9e836b0baa24c40554844ea4f3288b80e0c654
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -55,11 +55,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="generate-the-recurring-invoices"></a><span data-ttu-id="2d55d-125">Создание периодических накладных</span><span class="sxs-lookup"><span data-stu-id="2d55d-125">Generate the recurring invoices</span></span>
 <span data-ttu-id="2d55d-126">На странице **Периодические накладные** имеется задача, которая обрабатывает шаблоны периодических накладных.</span><span class="sxs-lookup"><span data-stu-id="2d55d-126">On the **Recurring invoices** page, there is a task that processes recurring invoice templates.</span></span> <span data-ttu-id="2d55d-127">Укажите дату накладной и шаблон для создания накладных.</span><span class="sxs-lookup"><span data-stu-id="2d55d-127">You specify the invoice date and the template to generate the invoices from.</span></span> <span data-ttu-id="2d55d-128">Накладные будут созданы, и им будет назначен один номер кода повторения для каждой обрабатываемой группы накладных.</span><span class="sxs-lookup"><span data-stu-id="2d55d-128">Invoices will be generated and assigned a single recurrence ID number for each group of invoices that is processed.</span></span>
-<span data-ttu-id="2d55d-129">Накладные с произвольным текстом повторения разноски</span><span class="sxs-lookup"><span data-stu-id="2d55d-129">Post recurring free text invoices</span></span>
+
+<a name="post-recurring-free-text-invoices"></a><span data-ttu-id="2d55d-129">Накладные с произвольным текстом повторения разноски</span><span class="sxs-lookup"><span data-stu-id="2d55d-129">Post recurring free text invoices</span></span>
 ---------------------------------
 
 <span data-ttu-id="2d55d-130">После создания периодических накладных коды повторения накладных будут отображаться в задаче разноски на странице **Периодические накладные**.</span><span class="sxs-lookup"><span data-stu-id="2d55d-130">After recurring invoices are generated, the invoice recurrence IDs appear in a posting task on the **Recurring invoices** page.</span></span> <span data-ttu-id="2d55d-131">Можно просмотреть все накладные по коду повторения, перейдя по ссылке.</span><span class="sxs-lookup"><span data-stu-id="2d55d-131">You can view all of the invoices for a recurrence ID by clicking the link.</span></span> <span data-ttu-id="2d55d-132">Во время предварительного просмотра накладных по коду повторения можно удалить отдельные накладные.</span><span class="sxs-lookup"><span data-stu-id="2d55d-132">During your review of the invoices for the recurrence ID, you can delete individual invoices.</span></span> <span data-ttu-id="2d55d-133">Параметры повторения клиента будут сброшены для этого шаблона, чтобы его можно было повторно создать позже.</span><span class="sxs-lookup"><span data-stu-id="2d55d-133">The customer's recurrence settings will be reset for that template, so that it can be regenerated later.</span></span> <span data-ttu-id="2d55d-134">Можно разнести одну, несколько или все накладные по коду повторения.</span><span class="sxs-lookup"><span data-stu-id="2d55d-134">You can post one, many, or all of the invoices for a recurrence ID.</span></span> <span data-ttu-id="2d55d-135">Если включены workflow-процессы, щелкните **Отправить** перед разноской накладных.</span><span class="sxs-lookup"><span data-stu-id="2d55d-135">If workflows are enabled, you must click **Submit** before you can post the invoices.</span></span>
-<span data-ttu-id="2d55d-136">Печать периодических накладных с произвольным текстом</span><span class="sxs-lookup"><span data-stu-id="2d55d-136">Print recurring free text invoices</span></span>
+
+<a name="print-recurring-free-text-invoices"></a><span data-ttu-id="2d55d-136">Печать периодических накладных с произвольным текстом</span><span class="sxs-lookup"><span data-stu-id="2d55d-136">Print recurring free text invoices</span></span>
 ----------------------------------
 
 <span data-ttu-id="2d55d-137">После разноски периодических накладных можно напечатать накладные на странице списка накладных с произвольным текстом.</span><span class="sxs-lookup"><span data-stu-id="2d55d-137">After recurring invoices are posted, you can print the invoices from the free text invoice list page.</span></span> <span data-ttu-id="2d55d-138">Можно напечатать выбранные накладные или можно выбрать ряд накладных для печати.</span><span class="sxs-lookup"><span data-stu-id="2d55d-138">You can print the invoices that are selected, or you can select a range of invoices to print.</span></span>
