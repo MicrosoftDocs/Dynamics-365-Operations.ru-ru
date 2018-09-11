@@ -1,26 +1,27 @@
----
+--- 
 title: "Сообщение о завершении производственного заказа"
 description: "В этой процедуре показано, как составить отчет по производственному заказу как \"завершено\"."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProdTableListPage, ProdParmReportFinished, ProdJournalTransProd
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 9c523350af46ffa1516ea42aa0328d4f24f57133
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 3ad1027eccd543adf883890d343705b928daa405
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="report-a-production-order-as-finished"></a><span data-ttu-id="47b00-103">Сообщение о завершении производственного заказа</span><span class="sxs-lookup"><span data-stu-id="47b00-103">Report a production order as finished</span></span>
@@ -50,4 +51,5 @@ ms.lasthandoff: 08/07/2018
 3. <span data-ttu-id="47b00-123">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="47b00-123">In the list, mark the selected row.</span></span>
 4. <span data-ttu-id="47b00-124">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="47b00-124">In the list, click the link in the selected row.</span></span>
     * <span data-ttu-id="47b00-125">Выполняется разноска журнала "Приемка".</span><span class="sxs-lookup"><span data-stu-id="47b00-125">The Report as finished journal is posted.</span></span> <span data-ttu-id="47b00-126">Если вы хотите выполнить корректировки в журнале, можно вручную создать новый журнал, в котором можно внести изменения.</span><span class="sxs-lookup"><span data-stu-id="47b00-126">If you want to make adjustments to the journal, you can manually create  a new journal where you can make changes.</span></span>  
+
 

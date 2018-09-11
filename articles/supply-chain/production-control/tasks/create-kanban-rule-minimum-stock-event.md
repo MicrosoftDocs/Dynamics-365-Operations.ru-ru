@@ -3,24 +3,25 @@ title: "Создание правила канбана с помощью соб�
 description: "Эта процедура рассматривает настройку, необходимую для создания правила канбана с помощью события минимального запаса, чтобы гарантировать, что определенный продукт всегда доступен в определенном местонахождении."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/24/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 97975a07d7f0a64a98595cf5dc7c8f572ded9a4d
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: b325f659ea026797205cde8408c2fb3de27bb48d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="30668-103">Создание правила канбана с помощью события минимального запаса</span><span class="sxs-lookup"><span data-stu-id="30668-103">Create a kanban rule using a minimum stock event</span></span>

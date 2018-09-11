@@ -3,23 +3,24 @@ title: "Настройка разделения обязанностей"
 description: "Можно настроить правила для разделения задач, которые должны выполняться разными пользователями."
 author: maertenm
 manager: AnnBe
-ms.date: 11/15/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysSecSegregationOfDutiesRule
 audience: Application User
-ms.reviewer: sericks
-ms.search.scope: Operations
+ms.reviewer: margoc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e04109770de8352c3301e4cb950555c5d94f58f8
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 0e20272f09cc8c75bdd93ebcc996cf58b98ccf67
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-segregation-of-duties"></a><span data-ttu-id="afa27-103">Настройка разделения обязанностей</span><span class="sxs-lookup"><span data-stu-id="afa27-103">Set up segregation of duties</span></span>

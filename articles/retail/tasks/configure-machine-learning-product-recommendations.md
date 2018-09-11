@@ -3,29 +3,30 @@ title: "Настройка рекомендаций по продуктам на
 description: "Эта процедура обновляет данные в хранилище объектов, используемые системой машинного обучения, которая обеспечивает рекомендации по продуктам, а затем обеспечивает рекомендации по продуктам в клиентах POS."
 author: ashishmsft
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BIMeasurementDeployManagementEntityStore, RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 46d98ad66aebf89653d9330d3c09118999205d49
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 6c3f838372cc17414741ccc3165e129c46d19a6a
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a><span data-ttu-id="4d720-103">Настройка рекомендаций по продуктам на основе машинного обучения</span><span class="sxs-lookup"><span data-stu-id="4d720-103">Configure machine learning-powered product recommendations</span></span>
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4d720-104">Эта процедура обновляет данные в хранилище объектов, используемые системой машинного обучения, которая обеспечивает рекомендации по продуктам, а затем обеспечивает рекомендации по продуктам в клиентах POS.</span><span class="sxs-lookup"><span data-stu-id="4d720-104">This procedure refreshes the data in the Entity store that is used by the machine learning system that powers product recommendations, and then enables product recommendations on POS clients.</span></span> <span data-ttu-id="4d720-105">В этой процедуре используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="4d720-105">This procedure uses the USRT company in demo data.</span></span>
 

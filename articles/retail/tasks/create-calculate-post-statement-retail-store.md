@@ -1,50 +1,51 @@
 --- 
-title: "Создание, расчет и разноска журналов операций для розничного магазина"
+title: "Создание, расчет и разноска журнала операций для розничного магазина"
 description: "В этой процедуре описано, как вручную создать, рассчитать и разнести журнал операций для магазина."
 author: jashanno
 manager: AnnBe
-ms.date: 11/15/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 1c31c849c4c72762f0fdeb3f1d256cd3529394b2
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: d949cf46857992d5f16d349862ff67cccf417fed
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/11/2018
 
 ---
-# <a name="create-calculate-and-post-statements-for-a-retail-store"></a><span data-ttu-id="ab851-103">Создание, расчет и разноска журналов операций для розничного магазина</span><span class="sxs-lookup"><span data-stu-id="ab851-103">Create, calculate, and post statements for a retail store</span></span>
+# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a><span data-ttu-id="e4bfd-103">Создание, расчет и разноска журнала операций для розничного магазина</span><span class="sxs-lookup"><span data-stu-id="e4bfd-103">Create, calculate, and post a statement for a retail store</span></span>
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ab851-104">В этой процедуре описано, как вручную создать, рассчитать и разнести журнал операций для магазина.</span><span class="sxs-lookup"><span data-stu-id="ab851-104">This procedure walks through the manual steps for creating, calculating, and posting a statement for a store.</span></span> <span data-ttu-id="ab851-105">Кроме того, существуют пакетные задания, которые могут быть настроены для тех же задач.</span><span class="sxs-lookup"><span data-stu-id="ab851-105">There are also batch jobs that can be configured for the same tasks.</span></span> <span data-ttu-id="ab851-106">Инструкции по настройке и запуску пакетных задач можно найти в других разделах.</span><span class="sxs-lookup"><span data-stu-id="ab851-106">The steps for configuring and running the batch jobs can be found in other topics.</span></span> <span data-ttu-id="ab851-107">Чтобы выполнить эту процедуру, необходимо иметь проводки, которые были выполнены в кассовом терминале, а затем переданы в Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="ab851-107">To complete this procedure, you must have transactions that were completed in POS and then pulled into Dynamics AX.</span></span> <span data-ttu-id="ab851-108">В этой записи используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="ab851-108">This recording uses the USRT company in demo data.</span></span> <span data-ttu-id="ab851-109">Эта процедура может ссылаться на Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="ab851-109">This procedure may refer to Microsoft Dynamics AX.</span></span> <span data-ttu-id="ab851-110">Обратите внимание, что теперь Dynamics AX называется Microsoft Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="ab851-110">Please note that Dynamics AX is now called Microsoft Dynamics 365 for Operations.</span></span>
+<span data-ttu-id="e4bfd-104">В этой процедуре описано, как вручную создать, рассчитать и разнести журнал операций для магазина.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-104">This procedure walks through the manual steps for creating, calculating, and posting a statement for a store.</span></span> <span data-ttu-id="e4bfd-105">Кроме того, существуют пакетные задания, которые могут быть настроены для тех же задач.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-105">There are also batch jobs that can be configured for the same tasks.</span></span> <span data-ttu-id="e4bfd-106">Инструкции по настройке и запуску пакетных задач можно найти в других разделах.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-106">The steps for configuring and running the batch jobs can be found in other topics.</span></span> <span data-ttu-id="e4bfd-107">Чтобы выполнить эту процедуру, необходимо иметь проводки, которые были выполнены в кассовом терминале, а затем переданы в Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-107">To complete this procedure, you must have transactions that were completed in POS and then pulled into Dynamics AX.</span></span> <span data-ttu-id="e4bfd-108">В этой записи используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-108">This recording uses the USRT company in demo data.</span></span> <span data-ttu-id="e4bfd-109">Эта процедура может ссылаться на Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-109">This procedure may refer to Microsoft Dynamics AX.</span></span> <span data-ttu-id="e4bfd-110">Обратите внимание, что теперь Dynamics AX называется Microsoft Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-110">Please note that Dynamics AX is now called Microsoft Dynamics 365 for Operations.</span></span>
 
-1. <span data-ttu-id="ab851-111">Перейдите в раздел "Все рабочие области" > ..</span><span class="sxs-lookup"><span data-stu-id="ab851-111">Go to All workspaces > ..</span></span> <span data-ttu-id="ab851-112">> "Финансовая информация розничного магазина".</span><span class="sxs-lookup"><span data-stu-id="ab851-112">> Retail store financials.</span></span>
-2. <span data-ttu-id="ab851-113">Щелкните "Новый журнал операций".</span><span class="sxs-lookup"><span data-stu-id="ab851-113">Click New statement.</span></span>
-3. <span data-ttu-id="ab851-114">В поле "Номер магазина" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="ab851-114">In the Store number field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="ab851-115">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="ab851-115">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="ab851-116">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="ab851-116">Click OK.</span></span>
-    * <span data-ttu-id="ab851-117">Группа "Настройка" имеет параметры, определяющие, какие проводки включаются в журнал операций и как они группируются по строкам журнала.</span><span class="sxs-lookup"><span data-stu-id="ab851-117">The Setup group has the settings that control what transactions are included in the statement and how they are grouped into statement lines.</span></span> <span data-ttu-id="ab851-118">В можете открыть группу "Настройка" и изменить эти параметры или использовать параметры по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="ab851-118">You can open the Setup group and change these settings, or you can use the defaults.</span></span>  
-    * <span data-ttu-id="ab851-119">Поле "Метод агрегирования операций" определяет, как будут группироваться строки журнала операций.</span><span class="sxs-lookup"><span data-stu-id="ab851-119">The Statement method field defines how the statement lines will be grouped.</span></span>  
-    * <span data-ttu-id="ab851-120">Выберите сотрудника или кассовый терминал, если вы хотите создать журнал операций только для определенного сотрудника или терминала.</span><span class="sxs-lookup"><span data-stu-id="ab851-120">Select a staff member or a register if you want to calculate a statement only for the specific staff member or register.</span></span>  
-6. <span data-ttu-id="ab851-121">В поле "Способ закрытия" выберите один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="ab851-121">In the Closing method field, select an option.</span></span>
-7. <span data-ttu-id="ab851-122">Щелкните "Создать строки журнала операций".</span><span class="sxs-lookup"><span data-stu-id="ab851-122">Click Calculate statement.</span></span>
-8. <span data-ttu-id="ab851-123">Щелкните Да.</span><span class="sxs-lookup"><span data-stu-id="ab851-123">Click Yes.</span></span>
-    * <span data-ttu-id="ab851-124">После расчета журнала операций должны быть созданы строки с общими суммами для каждого способа оплаты и способа агрегирования операций, который был использован.</span><span class="sxs-lookup"><span data-stu-id="ab851-124">After calculating the statement, there should be lines created with total amounts for each payment method and statement method that was used.</span></span>  
-    * <span data-ttu-id="ab851-125">Введите рассчитанную сумму в каждую строку, если ее нужно ввести или обновить.</span><span class="sxs-lookup"><span data-stu-id="ab851-125">Enter a counted amount in each line if it needs to be entered or updated.</span></span> <span data-ttu-id="ab851-126">В поле с рассчитанными значениями будут подставлены суммы их деклараций платежных средств, выполненных в кассовом терминале.</span><span class="sxs-lookup"><span data-stu-id="ab851-126">The counted field is populated with amounts from tender declarations done in POS.</span></span>  
-9. <span data-ttu-id="ab851-127">Щелкните "Разнести журнал операций".</span><span class="sxs-lookup"><span data-stu-id="ab851-127">Click Post statement.</span></span>
-10. <span data-ttu-id="ab851-128">Щелкните "Закрыть".</span><span class="sxs-lookup"><span data-stu-id="ab851-128">Click Close.</span></span>
-11. <span data-ttu-id="ab851-129">Перейдите в раздел "Розничная торговля и коммерция" > "Каналы" > "Финансовая информация розничного магазина".</span><span class="sxs-lookup"><span data-stu-id="ab851-129">Go to Retail and commerce > Channels > Retail store financials.</span></span>
-12. <span data-ttu-id="ab851-130">Щелкните вкладку "Разнесенные журналы операций".</span><span class="sxs-lookup"><span data-stu-id="ab851-130">Click the Posted statements tab.</span></span>
+1. <span data-ttu-id="e4bfd-111">Перейдите в раздел "Все рабочие области" > ..</span><span class="sxs-lookup"><span data-stu-id="e4bfd-111">Go to All workspaces > ..</span></span> <span data-ttu-id="e4bfd-112">> "Финансовая информация розничного магазина".</span><span class="sxs-lookup"><span data-stu-id="e4bfd-112">> Retail store financials.</span></span>
+2. <span data-ttu-id="e4bfd-113">Щелкните "Новый журнал операций".</span><span class="sxs-lookup"><span data-stu-id="e4bfd-113">Click New statement.</span></span>
+3. <span data-ttu-id="e4bfd-114">В поле "Номер магазина" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-114">In the Store number field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="e4bfd-115">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-115">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="e4bfd-116">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="e4bfd-116">Click OK.</span></span>
+    * <span data-ttu-id="e4bfd-117">Группа "Настройка" имеет параметры, определяющие, какие проводки включаются в журнал операций и как они группируются по строкам журнала.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-117">The Setup group has the settings that control what transactions are included in the statement and how they are grouped into statement lines.</span></span> <span data-ttu-id="e4bfd-118">В можете открыть группу "Настройка" и изменить эти параметры или использовать параметры по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-118">You can open the Setup group and change these settings, or you can use the defaults.</span></span>  
+    * <span data-ttu-id="e4bfd-119">Поле "Метод агрегирования операций" определяет, как будут группироваться строки журнала операций.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-119">The Statement method field defines how the statement lines will be grouped.</span></span>  
+    * <span data-ttu-id="e4bfd-120">Выберите сотрудника или кассовый терминал, если вы хотите создать журнал операций только для определенного сотрудника или терминала.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-120">Select a staff member or a register if you want to calculate a statement only for the specific staff member or register.</span></span>  
+6. <span data-ttu-id="e4bfd-121">В поле "Способ закрытия" выберите один из вариантов.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-121">In the Closing method field, select an option.</span></span>
+7. <span data-ttu-id="e4bfd-122">Щелкните "Создать строки журнала операций".</span><span class="sxs-lookup"><span data-stu-id="e4bfd-122">Click Calculate statement.</span></span>
+8. <span data-ttu-id="e4bfd-123">Щелкните Да.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-123">Click Yes.</span></span>
+    * <span data-ttu-id="e4bfd-124">После расчета журнала операций должны быть созданы строки с общими суммами для каждого способа оплаты и способа агрегирования операций, который был использован.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-124">After calculating the statement, there should be lines created with total amounts for each payment method and statement method that was used.</span></span>  
+    * <span data-ttu-id="e4bfd-125">Введите рассчитанную сумму в каждую строку, если ее нужно ввести или обновить.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-125">Enter a counted amount in each line if it needs to be entered or updated.</span></span> <span data-ttu-id="e4bfd-126">В поле с рассчитанными значениями будут подставлены суммы их деклараций платежных средств, выполненных в кассовом терминале.</span><span class="sxs-lookup"><span data-stu-id="e4bfd-126">The counted field is populated with amounts from tender declarations done in POS.</span></span>  
+9. <span data-ttu-id="e4bfd-127">Щелкните "Разнести журнал операций".</span><span class="sxs-lookup"><span data-stu-id="e4bfd-127">Click Post statement.</span></span>
+10. <span data-ttu-id="e4bfd-128">Щелкните "Закрыть".</span><span class="sxs-lookup"><span data-stu-id="e4bfd-128">Click Close.</span></span>
+11. <span data-ttu-id="e4bfd-129">Перейдите в раздел "Розничная торговля и коммерция" > "Каналы" > "Финансовая информация розничного магазина".</span><span class="sxs-lookup"><span data-stu-id="e4bfd-129">Go to Retail and commerce > Channels > Retail store financials.</span></span>
+12. <span data-ttu-id="e4bfd-130">Щелкните вкладку "Разнесенные журналы операций".</span><span class="sxs-lookup"><span data-stu-id="e4bfd-130">Click the Posted statements tab.</span></span>
 
 

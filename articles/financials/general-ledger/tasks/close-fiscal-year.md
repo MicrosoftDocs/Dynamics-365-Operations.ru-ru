@@ -3,23 +3,24 @@ title: "Закрытие финансового года"
 description: "В этой процедуре описывается процесс закрытия на конец конца, который переносит сальдо в новый финансовый год."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/24/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: df864716e64c626e486279b568be4fe5cef4abf2
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: f68152d1164f446be7e08d45e7187169c4324d9d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="close-the-fiscal-year"></a><span data-ttu-id="1f306-103">Закрытие финансового года</span><span class="sxs-lookup"><span data-stu-id="1f306-103">Close the fiscal year</span></span>

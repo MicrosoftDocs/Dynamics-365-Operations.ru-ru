@@ -3,23 +3,24 @@ title: "Получение номенклатур в заказе на поку�
 description: "В этой процедуре показано, как получить номенклатуры по заказу на покупку из потребности в номенклатуре."
 author: KimANelson
 manager: AnnBe
-ms.date: 02/13/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProjProjectsListPage, ProjTable, ProjSalesItemReq, InventItemIdLookupSimple, PurchCreateFromSalesOrder, VendAccountItemLookup, PurchTable, PurchEditLines
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 99e038ef7fa5a6a2f3beb41f817b21503d92556e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: faaea6c46e83dc85e9b7efe7a9ca5c261811a3de
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a><span data-ttu-id="d16a0-103">Получение номенклатур в заказе на покупку из потребности в номенклатуре</span><span class="sxs-lookup"><span data-stu-id="d16a0-103">Receive items on purchase order from item requirement</span></span>

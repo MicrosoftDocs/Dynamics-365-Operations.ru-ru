@@ -3,23 +3,24 @@ title: "Настройка адресных книг"
 description: "Используйте эту процедуру и решения, принятые в разделе \"Планирование конфигурации глобальной адресной книги и дополнительных адресных книг\", чтобы настроить дополнительные адресные книги для вашей организации."
 author: kfend
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DirAddressBook, DirAddressBookTeam
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8f1929eb4f1e58bf7d2a913394a3c41cf16b0998
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 0db6308167741408e787f60f657aa24e4f1a8469
 ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="configure-address-books"></a><span data-ttu-id="cf516-103">Настройка адресных книг</span><span class="sxs-lookup"><span data-stu-id="cf516-103">Configure address books</span></span>
