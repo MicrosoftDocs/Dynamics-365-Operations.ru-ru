@@ -1,21 +1,22 @@
----
+--- 
 title: "Создание нового макета склада"
 description: "Следующая процедура используется для настройки сведений о местонахождениях на складе."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 253440d81edd6f71b52ae349398e3c6a895bf05c
@@ -49,7 +50,7 @@ ms.lasthandoff: 09/29/2017
 7. Переключите развертывание раздела "Имена местонахождений".
     * Параметры в этом разделе определяют формат по умолчанию для имен местонахождений. В нашем примере мы включим номер прохода, номер стеллажа и номер полки.  
 8. Установите для параметра "Включать проход" значение "Да".
-9. Установите для параметра "Включать стеллаж" значение "Да".
+9. Установите для параметра "Включать стеллаж" значение "Да". 
 10. В поле "Формат" введите значение для стеллажа.
     * Пример: -##  
 11. Установите для параметра "Включать полку" значение "Да".
@@ -74,4 +75,5 @@ ms.lasthandoff: 09/29/2017
 14. Нажмите кнопку Готово.
 15. Закройте страницу.
 16. Обновите страницу.
+
 

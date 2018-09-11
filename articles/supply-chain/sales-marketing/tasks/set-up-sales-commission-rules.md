@@ -3,23 +3,24 @@ title: "Настройка правил комиссий продаж"
 description: "Эта процедура описывает, как настроить и включить расчет комиссии по продажам и отслеживание."
 author: omulvad
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CommissionCustomerGroup, CommissionItemGroup, CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, CommissionCalc, InventPosting, CustTable, EcoResProductDetailsExtended
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
-ms.openlocfilehash: 3d5c38b1f07803242350fe016b45c45d49c0b59b
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 8d81765884f741443d1c0f5b0cb8bc545945e1a1
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-sales-commission-rules"></a>Настройка правил комиссий продаж
@@ -45,7 +46,7 @@ ms.lasthandoff: 11/03/2017
     * Группа комиссий по продажам задает сотрудников в ролях торгового представителя, которые имеют право получать комиссию, когда клиент, связанный с соответствующей группой продажи, покупает некоторые номенклатуры.  
     * В компании демонстрационных данных USMF имеется группа продаж с названием "Торговые представители США".  
 13. В области действий щелкните "Общие".
-14. Щелкните "Торг. представитель".
+14. Щелкните "Торговый представитель".
     * На странице торговых представителей отображается список продавец компании, связанных с конкретной группой комиссий. Можно назначить несколько торговых представителей для одной группы и определить их соответствующую долю в общем сборе комиссии как значение процента. Полная доля комиссии по всем сотрудникам не должна превышать 100.  
 15. В списке пометьте выбранную строку.
 16. Щелкните "Изменить".

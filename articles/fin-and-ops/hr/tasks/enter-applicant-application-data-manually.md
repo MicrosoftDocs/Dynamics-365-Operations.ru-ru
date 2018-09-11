@@ -3,26 +3,27 @@ title: "Ввод кандидата и данных заявления вруч�
 description: "В этой процедуре показано ведение информации о кандидатах и их заявлениях вручную."
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 05ff2e5563a49d0b1f598299fb34f85b98700b9e
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6aef83b18ba5f18506921e08f3674b6bb272d3ab
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="manually-enter-applicant-and-application-data"></a>Ввод кандидата и данных заявления вручную
+# <a name="enter-applicant-and-application-data-manually"></a>Ввод кандидата и данных заявления вручную
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
