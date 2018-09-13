@@ -3,7 +3,7 @@ title: "Настройка глобальной адресной книги"
 description: "Эта процедура используется для настройки значений по умолчанию и политик безопасности для глобальной адресной книги."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Добавление данных в журнал производите
 description: "Журнал производительности содержит информацию, относящуюся к тому, насколько вы соответствуете целям или как хорошо вы работали во время периода."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

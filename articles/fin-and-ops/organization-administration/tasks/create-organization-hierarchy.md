@@ -3,7 +3,7 @@ title: "Создание организационной иерархии"
 description: "Следующая процедура используется для создания организационной иерархии."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

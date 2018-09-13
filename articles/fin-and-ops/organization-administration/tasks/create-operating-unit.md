@@ -3,7 +3,7 @@ title: "Создание операционной единицы"
 description: "Операционная единица — это организация, используемая для разделения управления экономическими ресурсами и операционными процессами в бизнесе."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
