@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 5a950a100fd5e9026300ea08eb1a6311a8e63129
+ms.sourcegitcommit: 033c9bdfce0840e1af1c63708905aec6829bbe90
+ms.openlocfilehash: 7a1d3c73e4305375ddf356b93b9502b0255df99b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 
@@ -44,11 +44,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="adding-a-new-credit-card"></a><span data-ttu-id="d00c5-117">Добавление новой кредитной карты</span><span class="sxs-lookup"><span data-stu-id="d00c5-117">Adding a new credit card</span></span>
 <span data-ttu-id="d00c5-118">Вы можете создать новые записи кредитной карточки на странице "Клиенты" путем использования пунктов "Клиент", "Настройка", "Кредитная карта".</span><span class="sxs-lookup"><span data-stu-id="d00c5-118">You can create new credit card records on the Customers page by using Customer, Set up, Credit card.</span></span> <span data-ttu-id="d00c5-119">Вы можете также создать записи кредитной карты, когда вы вводите заказы на продажу на странице "Заказ на продажу", путем использования пунктов "Управление", "Клиент", "Кредитная карта", "Регистрация".</span><span class="sxs-lookup"><span data-stu-id="d00c5-119">You can also create credit card records when you enter sales orders on the Sales order page, by using Manage, Customer, Credit card, Register.</span></span>
-<span data-ttu-id="d00c5-120">Добавление кредитной карточки к заказу на продажу</span><span class="sxs-lookup"><span data-stu-id="d00c5-120">Adding a credit card to a sales order</span></span>
+
+<a name="adding-a-credit-card-to-a-sales-order"></a><span data-ttu-id="d00c5-120">Добавление кредитной карточки к заказу на продажу</span><span class="sxs-lookup"><span data-stu-id="d00c5-120">Adding a credit card to a sales order</span></span>
 -------------------------------------
 
 <span data-ttu-id="d00c5-121">Вы можете добавить кредитную карточку к заказу на продажу путем выбора кредитной карточки в функции поиска кредитной карточки на экспресс-вкладке "Цена и скидки" на странице "Заказ на продажу".</span><span class="sxs-lookup"><span data-stu-id="d00c5-121">You can add a credit card to a sales order by selecting a credit card in the credit card lookup on the Price and discounts FastTab on the Sales order page.</span></span> <span data-ttu-id="d00c5-122">Чтобы начать процесс авторизации на панели действия на вкладке "Управление" выберите "Кредитная карточка" и "Авторизовать".</span><span class="sxs-lookup"><span data-stu-id="d00c5-122">To start the authorization process, on the Action Pane, on the Manage tab, select Credit card and Authorize.</span></span>
-<span data-ttu-id="d00c5-123">Авторизация кредитной карты</span><span class="sxs-lookup"><span data-stu-id="d00c5-123">Authorizing a credit card</span></span>
+
+<a name="authorizing-a-credit-card"></a><span data-ttu-id="d00c5-123">Авторизация кредитной карты</span><span class="sxs-lookup"><span data-stu-id="d00c5-123">Authorizing a credit card</span></span>
 -------------------------
 
 <span data-ttu-id="d00c5-124">Когда кредитная карта авторизуется, проверяется номер карты и имя ее владельца и подтверждается доступное сальдо по кредиту.</span><span class="sxs-lookup"><span data-stu-id="d00c5-124">When a credit card is authorized, the card number and cardholder's name are verified, and the available credit balance is confirmed.</span></span> <span data-ttu-id="d00c5-125">Также возможна необязательная проверка контрольного кода карты и адреса владельца карты.</span><span class="sxs-lookup"><span data-stu-id="d00c5-125">Optionally, the card verification value and the cardholder’s address are verified.</span></span> <span data-ttu-id="d00c5-126">Доступное клиенту кредитовое сальдо затем уменьшается на сумму, указанную в накладной.</span><span class="sxs-lookup"><span data-stu-id="d00c5-126">The customer's available credit balance is then reduced by the amount of the invoice.</span></span> <span data-ttu-id="d00c5-127">Служба платежей отправляет сведения о подтверждении или отклонении кредитной карты.</span><span class="sxs-lookup"><span data-stu-id="d00c5-127">The payment service sends information that the credit card has been approved or declined.</span></span> <span data-ttu-id="d00c5-128">Когда выставляется накладная по заказу на продажу, на кредитную карту возлагается (на ней блокируется) расход на сумму накладной.</span><span class="sxs-lookup"><span data-stu-id="d00c5-128">When the sales order is invoiced, the credit card is charged (captured) for the invoice amount.</span></span>
