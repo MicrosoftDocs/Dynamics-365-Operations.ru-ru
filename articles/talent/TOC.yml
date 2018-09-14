@@ -6,6 +6,8 @@
       items:
         - name: Что нового и что изменилось
           items:
+            - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (август 2018 г.)
+              href: whats-new-talent-august2018.md
             - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (июль 2018 г.)
               href: whats-new-talent-july2018.md
         - name: Системные требования и политика обновления
@@ -16,8 +18,8 @@
           href: remove-talent-environment.md
         - name: Подготовка модульных приложений Talent
           href: modular-app-tech-faq.md
-        - name: Расширение функциональности Talent
-          href: extend-talent-functionality.md
+        - name: Внедрение приложений PowerApps
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Доступ к функциям предварительного просмотра
           href: access-preview-feature.md
         - name: Настройка интеграции зарплаты между Talent и Dayforce
@@ -55,7 +57,7 @@
           href: create-fixed-compensation-plans.md
         - name: Создание планов переменной компенсации
           href: create-variable-compensation-plans.md
-        - name: Обработка компенсаций
+        - name: Обработка компенсации
           href: process-compensation.md
     - name: Развитие и обучение сотрудников
       items:

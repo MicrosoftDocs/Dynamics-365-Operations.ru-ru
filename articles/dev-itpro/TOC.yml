@@ -263,9 +263,9 @@
               href: extensibility/naming-guidelines-extensions.md
             - name: Ослабление ограничений моделей для рефакторинга перекрытий к расширениям
               href: extensibility/refactoring-over-layering.md
-        - name: Инструкции
+        - name: Создание расширений
           items:
-            - name: Добавление значений в enums
+            - name: Добавление значений в перечисления
               href: extensibility/add-enum-value.md
             - name: Изменение расширенных типов данных
               href: extensibility/modify-edt.md
@@ -311,15 +311,37 @@
               href: extensibility/maps-as-interfaces.md
             - name: 'Расширение сопоставлений таблиц, используемых для управления версиями'
               href: extensibility/maps-with-versioning.md
+        - name: Создание расширяемых решений
+          items:
+            - name: Написание расширяемого кода
+              href: extensibility/writing-extensible-code.md
+            - name: Классы
+              href: extensibility/extensible-classes.md
+            - name: Методы
+              href: extensibility/extensible-methods.md
+            - name: Формы
+              href: extensibility/extensible-forms.md
+            - name: Расширенные типы данных
+              href: extensibility/extensible-edts.md
+            - name: Расширяемые перечисления
+              href: extensibility/extensible-enums.md
+            - name: Делегаты
+              href: extensibility/extensible-code-delegates.md
+            - name: Таблицы
+              href: extensibility/extensible-tables.md
+            - name: Атрибуты расширяемости для методов
+              href: extensibility/extensibility-attributes.md
+            - name: Критические изменения
+              href: extensibility/breaking-changes.md
     - name: Производительность
       items:
-        - name: Трассировка с помощью синтаксического анализатора трассировки
+        - name: Трассировка с помощью синтаксического анализатора Trace
           href: perf-test/trace-trace-tutorial.md
         - name: Проверка производительности пакета SDK и многопользовательское тестирование с помощью Visual Studio Online
           href: perf-test/perfsdk-tutorial.md
         - name: Проверка производительности пакета SDK и многопользовательское тестирование в локальных средах
           href: perf-test/perfsdk-tutorial-lbd.md
-        - name: Диагностика проблем и анализ производительности с помощью синтаксического анализатора трассировки
+        - name: Диагностика проблем и анализ производительности с помощью синтаксического анализатора Trace
           href: perf-test/trace-parser.md
         - name: Таймер производительности
           href: perf-test/performance-timer.md
@@ -1184,6 +1206,8 @@
       items:
         - name: Создание правил для помощника по оптимизации
           href: sysadmin/create-rules-optimization-advisor.md
+    - name: Сообщение о сбое производства
+      href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
     - name: Ресурсы для Lifecycle Services
@@ -1236,6 +1260,8 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Перезапуск служб среды
       href: lifecycle-services/restart-environment-services.md
+    - name: Сообщение о сбое производства
+      href: lifecycle-services/report-production-outage.md
     - name: Отслеживание входов пользователя
       href: lifecycle-services/user-logins.md
     - name: Библиотека активов

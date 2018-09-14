@@ -157,6 +157,8 @@
           href: get-started/fasttrack-dynamics-365-overview.md
         - name: Адаптация проекта реализации
           href: imp-lifecycle/onboard.md
+        - name: Планирование среды
+          href: imp-lifecycle/environment-planning.md
         - name: Подготовка к вводу в эксплуатацию
           href: imp-lifecycle/prepare-go-live.md
         - name: Вопросы и ответы по вводу в эксплуатацию
@@ -460,6 +462,8 @@
               href: ../financials/accounts-payable/set-up-generate-positive-pay-files.md
             - name: Корреспондентские счета по умолчанию для журналов накладных поставщиков и журналов утверждения накладных
               href: ../financials/accounts-payable/default-offset-accounts-vendor-invoice-journals.md
+            - name: Бизнес-правило поставщика
+              href: ../financials/accounts-payable/vendor-workflow.md
             - name: Устранение несоответствий во время сопоставления итогов по накладным
               href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
               items:
@@ -475,12 +479,18 @@
               href: ../financials/accounts-payable/vendor-portal-invoicing-workspace.md
             - name: Автоматизация накладных поставщиков
               href: ../financials/accounts-payable/vendor-invoice-automation.md
+            - name: Управление контрактом брокера
+              href: ../financials/accounts-payable/broker-contract.md
+            - name: Управление контрактом по роялти
+              href: ../financials/accounts-payable/royalty-contract.md
             - name: Платежи и сопоставления
               items:
                 - name: Централизованные платежи для расчетов с поставщиками
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
                 - name: Настройка сопоставления
                   href: ../financials/cash-bank-management/configure-settlement.md
+                - name: Обзор платежей поставщикам
+                  href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Рабочая область платежей поставщикам
                   href: ../financials/accounts-payable/vendor-payments-workspace.md
                 - name: Указание кросс-курса
@@ -513,6 +523,8 @@
                   href: ../financials/accounts-payable/take-discount-more-calculated-discount-vendor-payment.md
                 - name: Платежи поставщику на частичную сумму
                   href: ../financials/accounts-payable/vendor-payments-partial-amount.md
+                - name: Страница списка проводок по поставщику
+                  href: ../financials/accounts-payable/vendor-transaction-list-page.md
         - name: Расчеты с клиентами
           href: ../financials/accounts-receivable/accounts-receivable.md
           items:
@@ -522,6 +534,8 @@
               href: ../financials/accounts-receivable/accounts-receivables-set-up-overview.md
             - name: Настройка модуля "Кредит и сборы"
               href: ../financials/accounts-receivable/set-up-collections.md
+            - name: Просмотр сведений о сборах
+              href: ../financials/accounts-receivable/tasks/review-collections-information.md
             - name: Настройка и обработка периодических накладных
               href: ../financials/accounts-receivable/set-up-process-recurring-invoices.md
             - name: Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных с произвольным текстом
@@ -540,52 +554,54 @@
               href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
             - name: Исправление накладной с произвольным текстом
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
+            - name: Назначение шаблона накладной с произвольным текстом клиенту
+              href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
+            - name: Формирование и разноска повторяющихся накладных с произвольным текстом
+              href: ../financials/accounts-receivable/tasks/post-recurring-free-text-invoices.md
+            - name: Создание накладных по заказам на продажу
+              href: ../financials/accounts-receivable/tasks/create-sales-order-invoices.md
             - name: Настройка процентных ставок для кода процента
               href: ../financials/accounts-receivable/set-up-interest-rates-interest-code.md
             - name: 'Отмена, возобновление или реверсирование процентных сборов'
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
+            - name: Обработка процента
+              href: ../financials/accounts-receivable/tasks/process-interest.md
+            - name: Настройка политик накладных поставщиков
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Регистрация накладной поставщика и сопоставление с полученными количествами
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Создание накладной клиента
               href: ../financials/accounts-receivable/configure-customer-invoices.md
+            - name: Внесение платежей клиентов
+              href: ../financials/accounts-receivable/tasks/deposit-customer-payments.md
             - name: Определение условий оплаты для клиентов
               href: ../financials/general-ledger/tasks/establish-customer-payment-terms.md
+            - name: Установка способов оплаты для клиентов
+              href: ../financials/accounts-receivable/tasks/establish-customer-method-payment.md
+            - name: Определение сборов по платежам для клиентов
+              href: ../financials/accounts-receivable/tasks/establish-customer-payment-fees.md
             - name: Настройка переводных векселей
               href: ../financials/accounts-receivable/set-up-bills-exchange.md
             - name: Закрытие расчетов с клиентами
               href: ../financials/accounts-receivable/close-accounts-receivable.md
-            - name: Задачи по расчетам с клиентами
-              items:
-                - name: Назначение шаблона накладной с произвольным текстом клиенту
-                  href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
-                - name: Создание последовательности писем-напоминаний
-                  href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: Создание кода процента с диапазоном
-                  href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
-                - name: Создание накладных по заказам на продажу
-                  href: ../financials/accounts-receivable/tasks/create-sales-order-invoices.md
-                - name: Создание журнала списания для клиента
-                  href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
-                - name: Внесение платежей клиентов
-                  href: ../financials/accounts-receivable/tasks/deposit-customer-payments.md
-                - name: Установка способов оплаты для клиентов
-                  href: ../financials/accounts-receivable/tasks/establish-customer-method-payment.md
-                - name: Определение сборов по платежам для клиентов
-                  href: ../financials/accounts-receivable/tasks/establish-customer-payment-fees.md
-                - name: Формирование и разноска повторяющихся накладных с произвольным текстом
-                  href: ../financials/accounts-receivable/tasks/post-recurring-free-text-invoices.md
-                - name: Обработка писем-напоминаний
-                  href: ../financials/accounts-receivable/tasks/process-collection-letters.md
-                - name: Обработка процента
-                  href: ../financials/accounts-receivable/tasks/process-interest.md
-                - name: Регистрация накладной поставщика и сопоставление с полученными количествами
-                  href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
-                - name: Просмотр сведений о сборах
-                  href: ../financials/accounts-receivable/tasks/review-collections-information.md
-                - name: Настройка и создание сведений о распределении по срокам для расчетов с клиентами
-                  href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-                - name: Настройка политик накладных поставщиков
-                  href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Создание последовательности писем-напоминаний
+              href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
+            - name: Обработка писем-напоминаний
+              href: ../financials/accounts-receivable/tasks/process-collection-letters.md
+            - name: Создание поручения прямого дебетования для клиента
+              href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
+            - name: Создание кода процента с диапазоном
+              href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
+            - name: Создание журнала списания для клиента
+              href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
+            - name: Настройка и создание сведений о распределении по срокам для расчетов с клиентами
+              href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Бизнес-правило клиента
+              href: ../financials/accounts-receivable/customer-workflow.md
             - name: Платежи и сопоставления
               items:
+                - name: Обзор платежей клиентов
+                  href: ../financials/cash-bank-management/tasks/customer-payment-overview.md
                 - name: 'Использование платежа клиента для сопоставления нескольких накладных, охватывающих несколько периодов скидок'
                   href: ../financials/accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
                 - name: Централизованные платежи для расчетов с клиентами
@@ -602,6 +618,8 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: Платежи клиентов на частичную сумму
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+                - name: Страница списка проводок по клиенту
+                  href: ../financials/accounts-receivable/customer-transactions-list-page.md
         - name: Бюджетирование
           href: ../financials/budgeting/budgeting-overview.md
           items:
@@ -638,18 +656,44 @@
               href: ../financials/cash-bank-management/cash-discounts.md
             - name: Скидки по оплате для переплат
               href: ../financials/cash-bank-management/cash-discount-handling-overpayments.md
+            - name: Управление проверкой счета IBAN
+              href: ../financials/cash-bank-management/iban-validation.md
             - name: Обзор сопоставления
               href: ../financials/cash-bank-management/settlement-overview.md
             - name: Обзор сопоставления для централизованных платежей
               href: ../financials/cash-bank-management/settlement-overview-centralized-payments.md
             - name: Аккредитивы
               href: ../financials/cash-bank-management/letters-of-credit.md
+            - name: Создание договора о банковских услугах для аккредитива
+              href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-credit.md
+            - name: Настройка банковских услуг и профилей разноски для аккредитива
+              href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
             - name: Аккредитивы и импортные инкассо
               href: ../financials/cash-bank-management/letters-of-credit-import-collections.md
+            - name: Экспорт аккредитива
+              href: ../financials/cash-bank-management/tasks/export-letter-credit.md
+            - name: Импорт аккредитива
+              href: ../financials/cash-bank-management/tasks/import-letter-credit.md
             - name: Гарантийные письма
               href: ../financials/cash-bank-management/letters-of-guarantee.md
+            - name: 'Проводка, связанная с гарантийным письмом'
+              href: ../financials/cash-bank-management/tasks/letter-guarantee-transaction.md
+            - name: Создание договора о банковских услугах для гарантийного письма
+              href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-guarantee.md
+            - name: Настройка банковских услуг и профилей разноски для гарантийного письма
+              href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles.md
             - name: 'Чеки, датированные будущим числом'
               href: ../financials/cash-bank-management/postdated-checks.md
+            - name: Настройка датированных будущим числом чеков
+              href: ../financials/cash-bank-management/tasks/set-up-postdated-checks.md
+            - name: Регистрация и разноска датированного будущим числом чека для клиента
+              href: ../financials/cash-bank-management/tasks/register-post-postdated-check-customer.md
+            - name: Регистрация и разноска датированного будущим числом чека для поставщика
+              href: ../financials/cash-bank-management/tasks/register-post-postdated-check-vendor.md
+            - name: Сопоставление датированного будущим числом чека от клиента
+              href: ../financials/cash-bank-management/tasks/settle-postdated-check-customer.md
+            - name: Сопоставление датированного будущим числом чека для поставщика
+              href: ../financials/cash-bank-management/tasks/settle-postdated-check-vendor.md
             - name: Счета по предоплате и предоплата
               href: ../financials/accounts-payable/prepayments-invoices-vs-prepayments.md
             - name: Обработка скидок по оплате для переплат
@@ -658,36 +702,6 @@
               href: ../financials/cash-bank-management/set-up-centralized-payments.md
             - name: Автоматическое сопоставление и определение приоритетов
               href: ../financials/accounts-receivable/automatic-settlement-prioritization.md
-            - name: Задачи по управлению банком и кассовыми операциями
-              items:
-                - name: Создание договора о банковских услугах для аккредитива
-                  href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-credit.md
-                - name: Создание договора о банковских услугах для гарантийного письма
-                  href: ../financials/cash-bank-management/tasks/create-bank-facility-agreement-letter-guarantee.md
-                - name: Обзор платежей клиентов
-                  href: ../financials/cash-bank-management/tasks/customer-payment-overview.md
-                - name: Экспорт аккредитива
-                  href: ../financials/cash-bank-management/tasks/export-letter-credit.md
-                - name: Импорт аккредитива
-                  href: ../financials/cash-bank-management/tasks/import-letter-credit.md
-                - name: 'Проводка, связанная с гарантийным письмом'
-                  href: ../financials/cash-bank-management/tasks/letter-guarantee-transaction.md
-                - name: Регистрация и разноска датированного будущим числом чека для клиента
-                  href: ../financials/cash-bank-management/tasks/register-post-postdated-check-customer.md
-                - name: Регистрация и разноска датированного будущим числом чека для поставщика
-                  href: ../financials/cash-bank-management/tasks/register-post-postdated-check-vendor.md
-                - name: Сопоставление датированного будущим числом чека от клиента
-                  href: ../financials/cash-bank-management/tasks/settle-postdated-check-customer.md
-                - name: Сопоставление датированного будущим числом чека для поставщика
-                  href: ../financials/cash-bank-management/tasks/settle-postdated-check-vendor.md
-                - name: Настройка банковских услуг и профилей разноски для гарантийного письма
-                  href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles.md
-                - name: Настройка банковских услуг и профилей разноски для аккредитива
-                  href: ../financials/cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
-                - name: Настройка датированных будущим числом чеков
-                  href: ../financials/cash-bank-management/tasks/set-up-postdated-checks.md
-                - name: Обзор платежей поставщикам
-                  href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
             - name: Расширенная банковская выверка
               items:
                 - name: Задачи по настройке расширенной банковской выверки
@@ -817,6 +831,14 @@
         - name: Основные средства
           href: ../financials/fixed-assets/fixed-assets.md
           items:
+            - name: Создание основного средства
+              href: ../financials/fixed-assets/tasks/create-fixed-asset.md
+            - name: Ввод дополнения к ОС
+              href: ../financials/fixed-assets/tasks/enter-addition-fixed-asset.md
+            - name: Предложение по приобретению ОС
+              href: ../financials/fixed-assets/tasks/propose-fixed-asset-acquisitions.md
+            - name: Переклассификация основных средств
+              href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
             - name: Рабочая область основных средств
               href: ../financials/fixed-assets/fixed-asset-management-workspace.md
             - name: Отчет о движении основных средств
@@ -833,10 +855,20 @@
               href: ../financials/fixed-assets/post-fixed-asset-transactions-posting-layers.md
             - name: Параметры проводки основных средств
               href: ../financials/fixed-assets/enter-fixed-asset-transactions.md
-            - name: Пересчет восстановительной стоимости и сумм страхования для групп основных средств
+            - name: Передача основного средства
+              href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
+            - name: Разбивка ОС
+              href: ../financials/fixed-assets/tasks/split-fixed-asset.md
+            - name: Настройка групп ОС
+              href: ../financials/fixed-assets/tasks/set-up-fixed-asset-groups.md
+            - name: Изменение группы ОС
+              href: ../financials/fixed-assets/tasks/change-fixed-asset-group.md
+            - name: Пересчет восстановительной стоимости и сумм страхования для групп ОС
               href: ../financials/fixed-assets/recalculate-replacement-costs-insured-values-fixed-asset-groups.md
             - name: Счета разноски удаления ОС
               href: ../financials/fixed-assets/fixed-asset-disposal-posting-accounts.md
+            - name: Выбытие основного средства с использованием накладной с произвольным текстом
+              href: ../financials/fixed-assets/tasks/dispose-fixed-asset-free-text-invoice.md
             - name: Массовое обновление основных средств
               href: ../financials/fixed-assets/fixed-asset-mass-update.md
             - name: Приобретение ОС через закупку
@@ -845,8 +877,18 @@
               items:
                 - name: Настройка основных средств
                   href: ../financials/fixed-assets/set-up-fixed-assets.md
+                - name: Настройка профилей разноски основных средств
+                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
                 - name: Интеграция основных средств
                   href: ../financials/fixed-assets/fixed-asset-integration.md
+                - name: Создание и приобретение основных средств в модуле "Расчеты с поставщиками"
+                  href: ../financials/fixed-assets/tasks/create-acquire-assets-accounts-payable.md
+                - name: 'Настройка журналов амортизации '
+                  href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
+                - name: Настройка и создание методов амортизации
+                  href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
+                - name: Настройка моделей стоимости
+                  href: ../financials/fixed-assets/tasks/set-up-value-models.md
             - name: Методы амортизации
               items:
                 - name: Соглашения по амортизации
@@ -861,18 +903,26 @@
                   href: ../financials/fixed-assets/200-percent-reducing-balance-depreciation.md
                 - name: Амортизационная премия
                   href: ../financials/fixed-assets/bonus-depreciation.md
+                - name: Настройка амортизационной премии
+                  href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
                 - name: Амортизация по выпуску/пробегу
                   href: ../financials/fixed-assets/consumption-depreciation.md
                 - name: Результаты амортизации с реверсированиями
                   href: ../financials/fixed-assets/depreciation-effects-reversals.md
                 - name: Методы амортизации и соглашения по амортизации
                   href: ../financials/fixed-assets/depreciation-methods-conventions.md
+                - name: Создание предложения по амортизации
+                  href: ../financials/fixed-assets/tasks/create-depreciation-proposal.md
                 - name: Коэффициент амортизации
                   href: ../financials/fixed-assets/factor-depreciation.md
                 - name: Счета разноски приобретения ОС
                   href: ../financials/fixed-assets/fixed-asset-acquisition-posting-accounts.md
                 - name: Амортизация ОС
                   href: ../financials/fixed-assets/fixed-asset-depreciation.md
+                - name: Расчет амортизации ОС в разных юридических лицах
+                  href: ../financials/fixed-assets/tasks/calculate-fixed-asset-depreciation-legal-entities.md
+                - name: Изменение соглашений по амортизации для нескольких основных средств
+                  href: ../financials/fixed-assets/tasks/change-depreciation-conventions-multiple-fixed-assets.md
                 - name: Ручная амортизация
                   href: ../financials/fixed-assets/manual-depreciation.md
                 - name: Амортизация с уменьшаемым остатком
@@ -883,44 +933,6 @@
                   href: ../financials/fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: Линейная амортизация в течение срока службы
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
-            - name: 'Задачи, связанные с основными средствами'
-              items:
-                - name: Расчет амортизации ОС в разных юридических лицах
-                  href: ../financials/fixed-assets/tasks/calculate-fixed-asset-depreciation-legal-entities.md
-                - name: Изменение соглашений по амортизации для нескольких основных средств
-                  href: ../financials/fixed-assets/tasks/change-depreciation-conventions-multiple-fixed-assets.md
-                - name: Изменение группы ОС
-                  href: ../financials/fixed-assets/tasks/change-fixed-asset-group.md
-                - name: Создание и приобретение основных средств в модуле "Расчеты с поставщиками"
-                  href: ../financials/fixed-assets/tasks/create-acquire-assets-accounts-payable.md
-                - name: Создание предложения по амортизации
-                  href: ../financials/fixed-assets/tasks/create-depreciation-proposal.md
-                - name: Создание основного средства
-                  href: ../financials/fixed-assets/tasks/create-fixed-asset.md
-                - name: Выбытие основного средства с использованием накладной с произвольным текстом
-                  href: ../financials/fixed-assets/tasks/dispose-fixed-asset-free-text-invoice.md
-                - name: Ввод дополнения к ОС
-                  href: ../financials/fixed-assets/tasks/enter-addition-fixed-asset.md
-                - name: Предложение по приобретению ОС
-                  href: ../financials/fixed-assets/tasks/propose-fixed-asset-acquisitions.md
-                - name: Реклассификация основных средств
-                  href: ../financials/fixed-assets/tasks/reclassify-fixed-assets.md
-                - name: Настройка амортизационной премии
-                  href: ../financials/fixed-assets/tasks/set-up-bonus-depreciation.md
-                - name: Настройка журналов амортизации
-                  href: ../financials/fixed-assets/tasks/set-up-depreciation-books-2016-05.md
-                - name: Настройка и создание методов амортизации
-                  href: ../financials/fixed-assets/tasks/set-up-depreciation-profiles.md
-                - name: Настройка групп основных средств
-                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-groups.md
-                - name: Настройка профилей разноски основных средств
-                  href: ../financials/fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
-                - name: Настройка моделей стоимости
-                  href: ../financials/fixed-assets/tasks/set-up-value-models.md
-                - name: Разбивка ОС
-                  href: ../financials/fixed-assets/tasks/split-fixed-asset.md
-                - name: Передача основного средства
-                  href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
         - name: Главная книга
           href: ../financials/general-ledger/general-ledger.md
           items:
@@ -948,7 +960,14 @@
                   href: ../financials/general-ledger/tasks/create-account-structures.md
                 - name: Создание схем начисления
                   href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: Создание групп консолидации и дополнительных счетов консолидации
+                - name: Финансовые консолидации и пересчет валют
+                  href: ../financials/general-ledger/financial-consolidations-currency-translation.md
+                  items:
+                    - name: Консолидировать интерактивно
+                      href: ../financials/general-ledger/consolidate-online.md
+                    - name: Создание консолидированных финансовых отчетов
+                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
+                - name: Создание групп консолидации и дополнительного счета консолидации
                   href: ../financials/general-ledger/tasks/create-consolidation-groups.md
                 - name: Типы счетов ГК
                   href: ../financials/general-ledger/main-account-types.md
@@ -1073,22 +1092,40 @@
           items:
             - name: Планирование функциональности государственного сектора
               href: ../financials/public-sector/plan-public-sector-functionality.md
+            - name: Создание обложки и страницы с подписями для отчета о платежах для государственного сектора
+              href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
             - name: Расчеты с поставщиками в государственном секторе
               href: ../financials/public-sector/accounts-payable-public-sector.md
               items:
                 - name: Коды заказов на покупку в государственном секторе
                   href: ../financials/public-sector/purchase-order-codes-public-sector.md
+                - name: Создание и назначение кода торгового партнера в государственном секторе
+                  href: ../financials/public-sector/tasks/create-assign-trading-partner-code-public-sector.md
                 - name: Определения разноски в государственном секторе
                   href: ../financials/public-sector/posting-definitions-public-sector.md
-                - name: Планирование разовых поставщиков в государственном секторе
-                  href: ../financials/public-sector/plan-one-time-vendors-public-sector.md
                 - name: Разовые поставщики в государственном секторе
                   href: ../financials/public-sector/one-time-vendors-public-sector.md
+                - name: Создание разового поставщика и накладной в государственном секторе
+                  href: ../financials/public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
+                - name: Создание типа сертификации поставщика в государственном секторе
+                  href: ../financials/public-sector/tasks/create-vendor-certification-type-public-sector.md
+                - name: Импорт и создание нескольких разовых поставщиков и накладных в государственном секторе
+                  href: ../financials/public-sector/tasks/import-multiple-one-time-vendors.md
+                - name: Планирование разовых поставщиков в государственном секторе
+                  href: ../financials/public-sector/plan-one-time-vendors-public-sector.md
+                - name: Управление доступом к договорам покупки в государственном секторе
+                  href: ../financials/public-sector/tasks/control-access-purchase-agreements-public-sector.md
+                - name: Настройка классификаций договоров покупки в государственном секторе
+                  href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: Расчеты с клиентами в государственном секторе
               href: ../financials/public-sector/accounts-receivable-public-sector.md
               items:
                 - name: Классификация выставления счетов и коды выставления счетов в государственном секторе
                   href: ../financials/public-sector/billing-classifications-billing-codes-public-sector.md
+                - name: Создание классификации выставления счетов в государственном секторе
+                  href: ../financials/public-sector/tasks/create-billing-classification-public-sector.md
+                - name: Создание кода выставления счетов в государственном секторе
+                  href: ../financials/public-sector/tasks/create-billing-code-public-sector.md
                 - name: Приоритет сопоставления в государственном секторе
                   href: ../financials/public-sector/settlement-priority-public-sector.md
                 - name: Накладные с произвольным текстом в государственном секторе
@@ -1098,10 +1135,16 @@
             - name: Бюджетирование в государственном секторе
               href: ../financials/public-sector/budgeting-public-sector.md
               items:
+                - name: Создание исходного бюджета и реверсирование предварительных записей бюджета в государственном секторе
+                  href: ../financials/public-sector/tasks/create-original-budget.md
+                - name: Создание предварительного бюджета в государственном секторе
+                  href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
                 - name: Анализ бюджета в государственном секторе
                   href: ../financials/public-sector/budget-analysis-public-sector.md
                 - name: Предварительные бюджеты и распределения в государственном секторе
                   href: ../financials/public-sector/preliminary-budgets-apportionments-public-sector.md
+                - name: Создание обязательства зарезервировать бюджетные средства для государственного сектора
+                  href: ../financials/public-sector/tasks/create-commitment-reserve-budget-funds-public-sector.md
             - name: Основные средства в государственном секторе
               href: ../financials/public-sector/fixed-asset-public-sector.md
             - name: Главная книга в государственном секторе
@@ -1109,52 +1152,26 @@
               items:
                 - name: Расширенные операции ГК в государственном секторе
                   href: ../financials/public-sector/advanced-ledger-entries-public-sector.md
+                - name: Создание расширенной записи ГК в государственном секторе
+                  href: ../financials/public-sector/tasks/create-advanced-ledger-entry-public-sector.md
                 - name: Обработка на конец года в государственном секторе
                   href: ../financials/public-sector/year-end-processing-public-sector.md
                 - name: Производные финансовые иерархии в государственном секторе
                   href: ../financials/public-sector/derived-financial-hierarchies-public-sector.md
+                - name: Настройка производной финансовой иерархии в государственном секторе
+                  href: ../financials/public-sector/tasks/set-up-derived-financial-hierarchy-public-sector.md
             - name: Закупки и источники в государственном секторе
               href: ../financials/public-sector/procurement-sourcing-public-sector.md
             - name: Роли безопасности в государственном секторе
               href: ../financials/public-sector/security-roles-public-sector.md
             - name: Средства в государственном секторе
               href: ../financials/public-sector/funds-public-sector.md
-            - name: Задачи для государственного сектора
-              items:
-                - name: Добавление типа сертификации к поставщику для государственного сектора
-                  href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
-                - name: Управление доступом к договорам покупки для государственного сектора
-                  href: ../financials/public-sector/tasks/control-access-purchase-agreements-public-sector.md
-                - name: Создание расширенной записи ГК для государственного сектора
-                  href: ../financials/public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: Создание и назначение кода торгового партнера для государственного сектора
-                  href: ../financials/public-sector/tasks/create-assign-trading-partner-code-public-sector.md
-                - name: Создание классификации выставления счетов для государственного сектора
-                  href: ../financials/public-sector/tasks/create-billing-classification-public-sector.md
-                - name: Создание кода выставления счетов для государственного сектора
-                  href: ../financials/public-sector/tasks/create-billing-code-public-sector.md
-                - name: Создание обязательства зарезервировать бюджетные средства для государственного сектора
-                  href: ../financials/public-sector/tasks/create-commitment-reserve-budget-funds-public-sector.md
-                - name: Создание обложки и страницы с подписями для отчета о платежах для государственного сектора
-                  href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
-                - name: Создание типа фондов для государственного сектора
-                  href: ../financials/public-sector/tasks/create-fund-type-public-sector.md
-                - name: Создание одноразового поставщика и накладной для государственного сектора
-                  href: ../financials/public-sector/tasks/create-one-time-vendor-invoice-public-sector.md
-                - name: Создание исходного бюджета и реверсирование предварительных записей бюджета для государственного сектора
-                  href: ../financials/public-sector/tasks/create-original-budget.md
-                - name: Создание предварительного бюджета для государственного сектора
-                  href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
-                - name: Создание типа сертификации поставщика для государственного сектора
-                  href: ../financials/public-sector/tasks/create-vendor-certification-type-public-sector.md
-                - name: Импорт и создание нескольких одноразовых поставщиков и накладных для государственного сектора
-                  href: ../financials/public-sector/tasks/import-multiple-one-time-vendors.md
-                - name: Настройка производной финансовой иерархии для государственного сектора
-                  href: ../financials/public-sector/tasks/set-up-derived-financial-hierarchy-public-sector.md
-                - name: Настройка фонда для государственного сектора
-                  href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
-                - name: Настройка классификаций договоров покупки для государственного сектора
-                  href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
+            - name: Настройка фонда в государственном секторе
+              href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
+            - name: Создание типа фондов в государственном секторе
+              href: ../financials/public-sector/tasks/create-fund-type-public-sector.md
+            - name: Добавление типа сертификации к поставщику в государственном секторе
+              href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: Финансовая отчетность
           href: ../financials/general-ledger/financial-reporting-getting-started.md
           items:
@@ -1193,311 +1210,315 @@
     - name: Локализация и нормативные компоненты
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
-        - name: Азиатско-тихоокеанский регион
+        - name: Австралия
+          href: ../financials/localizations/australia.md
           items:
-            - name: Австралия
-              href: ../financials/localizations/australia.md
+            - name: Отчет по деловым операциям (BAS)
+              href: ../financials/localizations/apac-aus-business-activity-statement.md
+            - name: Добавление полей отчета и создание BAS
+              href: ../financials/localizations/tasks/add-bas-report-boxes.md
+            - name: Амортизация кластера низкой стоимости
+              href: ../financials/localizations/apac-aus-low-value-pool-depreciation.md
+            - name: Настройка кодов основания для отчета BAS
+              href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
+        - name: Австрия
+          href: ../financials/localizations/austria.md
+          items:
+            - name: Полугодовая амортизация по дополнительным приобретениям
+              href: ../financials/localizations/emea-aut-half-year-depreciation.md
+            - name: Сборы за упаковочные материалы
+              href: ../financials/localizations/emea-aut-packing-material-fee-calculation.md
+            - name: Отчет по НДС
+              href: ../financials/localizations/emea-aut-vat-statement-details.md
+        - name: Бельгия
+          href: ../financials/localizations/belgium.md
+          items:
+            - name: Банковская выписка CODA
+              href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
+            - name: Создание и перенос проводок в BLWI
+              href: ../financials/localizations/tasks/be-00011-create-transfer-blwi.md
+            - name: Налоговая декларация INTERVAT
+              href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
+            - name: Отчеты по выверке
+              href: ../financials/localizations/emea-bel-reconciliation-reports.md
+            - name: Настройка отчетности по сальдо платежей
+              href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
+            - name: Настройка и ведение PRODCOM
+              href: ../financials/localizations/emea-bel-prodcom-report.md
+        - name: Бразилия
+          href: ../financials/localizations/brazil.md
+          items:
+            - name: Область локализации
+              href: ../financials/localizations/latam-bra-scope.md
+            - name: Финансовые книги
+              href: ../financials/localizations/latam-bra-fiscal-books.md
               items:
-                - name: Отчет по деловым операциям (BAS)
-                  href: ../financials/localizations/apac-aus-business-activity-statement.md
-                - name: Добавление полей отчета и создание BAS
-                  href: ../financials/localizations/tasks/add-bas-report-boxes.md
-                - name: Амортизация кластера низкой стоимости
-                  href: ../financials/localizations/apac-aus-low-value-pool-depreciation.md
-                - name: Настройка кодов основания для отчета BAS
-                  href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
-            - name: Китай
-              href: ../financials/localizations/china.md
+                - name: Настройка финансовых книг
+                  href: ../financials/localizations/latam-bra-configure-fiscal-books.md
+                - name: Финансовые документы по налогу ICMS
+                  href: ../financials/localizations/latam-bra-icms-tax-fiscal-documents.md
+                - name: Импорт финансовых документов
+                  href: ../financials/localizations/latam-bra-import-fiscal-documents.md
+                - name: Экспорт и импорт проводок юридического лица из консолидации главной книги
+                  href: ../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md
+                - name: Импорт и проверка XML-документов NF-e и DANFE-файлов
+                  href: ../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md
+                - name: Обслуживание электронного финансового документа с использованием текстовых файлов
+                  href: ../financials/localizations/tasks/br00059-service-electronic-fiscal-document-text-files.md
+                - name: Обработка предъявлений к оплате электронных платежей
+                  href: ../financials/localizations/latam-bra-process-electronic-payment-remittances.md
+                - name: Управление электронными платежами для платежей поставщикам
+                  href: ../financials/localizations/tasks/br-00067-electronic-payment-management-vendor-payments.md
+                - name: Финансовые документы
+                  href: ../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md
+                - name: Текстовые заполнители финансовых документов
+                  href: ../financials/localizations/latam-bra-fiscal-document-text-placeholders.md
+                - name: Настройка исходного текста финансового документа
+                  href: ../financials/localizations/tasks/br-00001-2-set-up-fiscal-document-source-text.md
+                - name: Управление текстом финансовых документов в документах для закупки
+                  href: ../financials/localizations/tasks/br-00080-manage-fiscal-document-texts-procurement-documents.md
+                - name: Выпуск финансовых документов для поставщиков
+                  href: ../financials/localizations/tasks/br-00033-issuing-fiscal-document-non-taxable-vendors.md
+                - name: Выпуск финансовых документов клиента
+                  href: ../financials/localizations/tasks/br-00038-issuing-customer-fiscal-document.md
+                - name: Дополнительные финансовые документы покупки
+                  href: ../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md
+                - name: Создание и разноска дополнительного финансового документа покупки
+                  href: ../financials/localizations/tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md
+                - name: Отмена дополнительного финансового документа покупки
+                  href: ../financials/localizations/tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md
+                - name: 'Финансовые документы, на которые имеются ссылки'
+                  href: ../financials/localizations/latam-bra-referenced-fiscal-documents.md
+                - name: Получение финансовых документов поставщика (продукты)
+                  href: ../financials/localizations/tasks/br-00024-receiving-vendor-fiscal-document-products.md
+                - name: Получение финансовых документов поставщика (ОС — возместимое долгосрочное PIS и COFINS)
+                  href: ../financials/localizations/tasks/br-00014-receiving-vendor-fiscal-document-fixed-assets-pis-cofins-long-term-recoverable.md
+                - name: Получение финансовых документов поставщика (ОС — возместимое долгосрочное ICMS)
+                  href: ../financials/localizations/tasks/br-00082-receiving-vendor-fiscal-document-fixed-assets-icms-long-term-recoverable.md
+                - name: Выпуск финансовых документов клиента (услуги)
+                  href: ../financials/localizations/tasks/br-00084-issuing-customer-fiscal-documents-services.md
+                - name: Выпуск финансовых документов клиента (основные средства)
+                  href: ../financials/localizations/tasks/br-00085-issuing-customer-fiscal-documents-fixed-assets.md
+                - name: Выпуск финансовых документов клиента (проект)
+                  href: ../financials/localizations/tasks/br-00086-issuing-customer-fiscal-documents-project.md
+                - name: Выпуск финансовых документов клиента (для конечных пользователей)
+                  href: ../financials/localizations/tasks/br-00087-issuing-customer-fiscal-documents-end-user.md
+                - name: Выпуск финансовых документов клиента (для клиентов SUFRAMA)
+                  href: ../financials/localizations/tasks/br-00088-issuing-customer-fiscal-documents-suframa-customers.md
+                - name: Отмена финансового документа клиента (проект)
+                  href: ../financials/localizations/tasks/br-00092-cancel-customer-fiscal-document-project.md
+                - name: Дополнительные финансовые документы продажи
+                  href: ../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md
+                - name: Создание и разноска дополнительного финансового документа продажи
+                  href: ../financials/localizations/tasks/br-00052-1-create-post-sales-complementary-fiscal-documents.md
+                - name: Отмена дополнительного финансового документа продажи
+                  href: ../financials/localizations/tasks/br-00052-2-cancel-sales-complementary-fiscal-document.md
+                - name: Обслуживание электронного финансового документа
+                  href: ../financials/localizations/latam-bra-service-electronic-fiscal-document.md
+                - name: 'Журналы, создаваемые в процессе возврата электронных платежей'
+                  href: ../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md
+                - name: Дебет-ноты по проекту
+                  href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
+            - name: Процесс работы с NF-e
+              href: ../financials/localizations/latam-bra-nf-e-process.md
               items:
-                - name: Сравнение спецификаций
-                  href: ../financials/localizations/apac-chn-bom-comparison.md
-                - name: Китайская иерархия плана счетов
-                  href: ../financials/localizations/tasks/china-hierarchy-chart-accounts.md
-                - name: Проверка непрерывности ваучера для Китая
-                  href: ../financials/localizations/tasks/chinese-voucher-continuity-check.md
-                - name: Ваучеры для Китая
-                  href: ../financials/localizations/apac-chn-vouchers.md
-                - name: Настройка налоговой интеграции
-                  href: ../financials/localizations/apac-chn-tax-integration.md
-                - name: Настройка экспорта интеграции золотого налога Китая
-                  href: ../financials/localizations/tasks/golden-tax-integration-export-setup.md
+                - name: Автоматическая передача финансовых документов NF-e
+                  href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
+                - name: Создание сообщений электронной почты для утвержденных NF-e и вложение PDF-файлов DANFE и XML-файлов NF-e в сообщения электронной почты
+                  href: ../financials/localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
+                - name: Сертификаты NF-e
+                  href: ../financials/localizations/latam-bra-nfe-certs.md
+                - name: 'Настройка, импорт и проверка XML-документов NF-e и DANFE'
+                  href: ../financials/localizations/latam-bra-set-up-import-nfe.md
+                - name: Настройка параметров федерального NF-e
+                  href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
+                - name: Настройка параметров NF-e для финансового учреждения
+                  href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+            - name: Параметры для юридических лиц
+              href: ../financials/localizations/latam-bra-legal-entity-parameters.md
+            - name: Настройка параметров юридического лица
+              href: ../financials/localizations/tasks/br-00001-1-set-up-brazil-legal-entity-parameters.md
+            - name: Приобретение основного средства CIAP
+              href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
+            - name: Выбытие основного средства CIAP
+              href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
+            - name: Ввод проводки CIAP
+              href: ../financials/localizations/tasks/br-10020-1-enter-ciap-transaction.md
+            - name: Расчет суммы кредита CIAP
+              href: ../financials/localizations/tasks/br-10020-2-calculate-ciap-credit-amount.md
+            - name: Включение кредита CIAP из предыдущего периода
+              href: ../financials/localizations/tasks/br-10020-3-include-ciap-credit-from-previous-period.md
+            - name: Накладные по поставке
+              href: ../financials/localizations/tasks/br-00041-delivery-slip.md
+            - name: Нефинансовые операции
+              href: ../financials/localizations/tasks/br-10016-non-fiscal-operations.md
+            - name: Накладные расходы по накладным с произвольным текстом
+              href: ../financials/localizations/tasks/br-00050-miscellaneous-charge-free-text-invoice.md
+            - name: Настройка процентов и штрафов для платежей поставщикам
+              href: ../financials/localizations/tasks/br-00065-1-set-up-interest-fines-vendor-payments.md
+            - name: Расчет процентов и штрафов по платежам поставщикам
+              href: ../financials/localizations/tasks/br-00065-2-calculate-interest-fines-vendor-payments.md
+            - name: Настройка процентов и штрафов по платежам клиентов
+              href: ../financials/localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
+            - name: Расчет процентов и штрафов по платежам клиентов
+              href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
+            - name: Налоги
+              href: ../financials/localizations/latam-bra-calculate-taxes.md
+              items:
+                - name: Расчет налога на предложения по покупке
+                  href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
+                - name: Создание оценки налогов — ICMS
+                  href: ../financials/localizations/tasks/br-10001-4-create-tax-assessment-icms.md
+                - name: Создание оценки налогов — налог IPI
+                  href: ../financials/localizations/tasks/br-10004-2-create-tax-assessment-ipi-tax.md
+                - name: Создание оценки налогов — налог PIS и COFINS
+                  href: ../financials/localizations/tasks/br-10006-4-create-tax-assessment-pis-cofins-tax.md
+                - name: Ввод и разноска транзакций корректировки налогов
+                  href: ../financials/localizations/tasks/br-10001-3-enter-post-tax-adjustment-transactions.md
+                - name: Ввод транзакций корректировки налогов PIS и COFINS
+                  href: ../financials/localizations/tasks/br-10006-3-enter-pis-cofins-tax-adjustment-transactions.md
+                - name: Налоговые атрибуты финансового учреждения
+                  href: ../financials/localizations/tasks/br-00002-fiscal-establishment-tax-attributes.md
+                - name: Выпуск финансовых документов по кредиту налога ICMS
+                  href: ../financials/localizations/tasks/br-00072-issuing-icms-tax-credit-fiscal-document.md
+                - name: Выпуск финансовых документов на кредитовый перевод налога ICMS
+                  href: ../financials/localizations/tasks/br-00071-issuing-icms-tax-credit-transfer-fiscal-document.md
+                - name: Настройка кодов корректировки для налога ICMS
+                  href: ../financials/localizations/tasks/br-10001-1-set-up-adjustment-codes-icms-tax.md
+                - name: Настройка кодов корректировки для налогов ICMS для финансовых документов
+                  href: ../financials/localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
+                - name: Настройка кодов корректировки для налогов IPI
+                  href: ../financials/localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
+                - name: Основные средства PIS и COFINS
+                  href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
+                - name: Настройка кодов корректировки для налогов PIS и COFINS
+                  href: ../financials/localizations/tasks/br-10006-2-set-up-adjustment-codes-pis-cofins-taxes.md
+                - name: Настройка таблиц PIS и COFINS
+                  href: ../financials/localizations/tasks/br-10006-1-set-up-pis-cofins-tables.md
+                - name: Оценка налога ISS
+                  href: ../financials/localizations/tasks/br-10005-tax-assessment-iss-tax.md
+                - name: Атрибуты налогов
+                  href: ../financials/localizations/latam-bra-tax-attributes.md
+                - name: Налоговые платежи
+                  href: ../financials/localizations/latam-bra-tax-payments.md
+                - name: Налог в предложениях по продажам
+                  href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
+                - name: Подоходные налоги
+                  href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
+                - name: Подоходные налоги по платежам клиентов
+                  href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
+                - name: Подоходные налоги по платежам поставщикам
+                  href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
+        - name: Китай
+          href: ../financials/localizations/china.md
+          items:
+            - name: Сравнение спецификаций
+              href: ../financials/localizations/apac-chn-bom-comparison.md
+            - name: Китайская иерархия плана счетов
+              href: ../financials/localizations/tasks/china-hierarchy-chart-accounts.md
+            - name: Проверка непрерывности ваучера для Китая
+              href: ../financials/localizations/tasks/chinese-voucher-continuity-check.md
+            - name: Ваучеры для Китая
+              href: ../financials/localizations/apac-chn-vouchers.md
+            - name: Настройка налоговой интеграции
+              href: ../financials/localizations/apac-chn-tax-integration.md
+            - name: Настройка экспорта интеграции золотого налога Китая
+              href: ../financials/localizations/tasks/golden-tax-integration-export-setup.md
+            - name: Методы амортизации основных средств
+              href: ../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md
+            - name: Импорт информационного объекта золотого налога Китая
+              href: ../financials/localizations/apac-chn-import-golden-tax-data-entity.md
+            - name: Модель ежемесячной средней стоимости
+              href: ../financials/localizations/apac-chn-monthly-average-cost-model.md
+            - name: Разноска счетов ГК запасов по сайту
+              href: ../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md
+            - name: Разноска ваучеров из других модулей
+              href: ../financials/localizations/tasks/post-vouchers-other-modules-like-sales-invoices.md
+            - name: Разноска ваучеров из общего журнала
+              href: ../financials/localizations/tasks/post-vouchers-general-journal.md
+            - name: Настройка основного профиля интеграции налога для Китая
+              href: ../financials/localizations/tasks/set-up-basic-tax-integration-profile-china.md
+            - name: Настройка китайских ваучеров
+              href: ../financials/localizations/tasks/set-up-chinese-vouchers.md
+            - name: Настройка распределения амортизации основных средств
+              href: ../financials/localizations/tasks/fixed-asset-depreciation-allocation.md
+            - name: Отображение сумм дебета и кредита в счетах ГК
+              href: ../financials/localizations/apac-chn-negative-debits-credits.md
+            - name: Журнал операций пользователей по правилу деятельности Китая
+              href: ../financials/localizations/tasks/user-operation-log-china-working-rule.md
+            - name: Вопросы и ответы по накладным клиента с НДС
+              href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
+        - name: Чешская Республика
+          href: ../financials/localizations/czech-republic.md
+          items:
+            - name: Кредит-нота на скидку по оплате
+              href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
+            - name: Основные средства
+              items:
+                - name: Округление амортизации
+                  href: ../financials/localizations/emea-cze-depreciation-rounding.md
+                - name: Полугодовая амортизация по ОС
+                  href: ../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md
+                - name: Приостановка амортизации (праздники)
+                  href: ../financials/localizations/emea-cze-depreciation-suspension-holidays.md
                 - name: Методы амортизации основных средств
-                  href: ../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: Импорт информационного объекта золотого налога Китая
-                  href: ../financials/localizations/apac-chn-import-golden-tax-data-entity.md
-                - name: Модель ежемесячной средней стоимости
-                  href: ../financials/localizations/apac-chn-monthly-average-cost-model.md
-                - name: Разноска счетов ГК запасов по сайту
-                  href: ../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md
-                - name: Разноска ваучеров из других модулей
-                  href: ../financials/localizations/tasks/post-vouchers-other-modules-like-sales-invoices.md
-                - name: Разноска ваучеров из общего журнала
-                  href: ../financials/localizations/tasks/post-vouchers-general-journal.md
-                - name: Настройка основного профиля интеграции налога для Китая
-                  href: ../financials/localizations/tasks/set-up-basic-tax-integration-profile-china.md
-                - name: Настройка китайских ваучеров
-                  href: ../financials/localizations/tasks/set-up-chinese-vouchers.md
-                - name: Настройка распределения амортизации основных средств
-                  href: ../financials/localizations/tasks/fixed-asset-depreciation-allocation.md
-                - name: Отображение сумм дебета и кредита в счетах ГК
-                  href: ../financials/localizations/apac-chn-negative-debits-credits.md
-                - name: Журнал операций пользователей по правилу деятельности Китая
-                  href: ../financials/localizations/tasks/user-operation-log-china-working-rule.md
-                - name: Вопросы и ответы по накладным клиента с НДС
-                  href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
-            - name: Индия
-              href: ../financials/localizations/india.md
-              items:
-                - name: Основные средства
-                  href: ../financials/localizations/apac-ind-fixed-assets.md
-                  items:
-                    - name: Вложение ежедневного календаря в журнал ОС
-                      href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
-                    - name: Расчет амортизации за смену
-                      href: ../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md
-                    - name: Создание группы складских моделей для единиц основного капитала
-                      href: ../financials/localizations/tasks/apac-ind-create-inventory-model-group.md
-                    - name: Создание и разноска амортизации
-                      href: ../financials/localizations/apac-ind-calculate-post-depreciation.md
-                    - name: Определение типа смены и отрасли для книг и вложение в ОС
-                      href: ../financials/localizations/tasks/apac-ind-books-shift-industry-types.md
-                    - name: Реверсирование проводок основных средств
-                      href: ../financials/localizations/apac-ind-reverse-fixed-assets-transactions.md
-                    - name: Расчет амортизации за смену
-                      href: ../financials/localizations/apac-ind-calculation-shift-depreciation.md
-                    - name: Настройка ежедневного финансового календаря
-                      href: ../financials/localizations/tasks/apac-ind-day-based-calendar.md
-                    - name: Настройка параметров для расчета амортизации
-                      href: ../financials/localizations/tasks/apac-ind-set-up-depreciation.md
-                    - name: Настройка амортизационной группы ОС для журналов амортизации
-                      href: ../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: Перенос единиц основного капитала в ОС
-                      href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: GST Индии
-                  href: ../financials/localizations/apac-ind-gst.md
-                  items:
-                    - name: Эталонные группы GST Индии
-                      href: ../financials/localizations/apac-ind-gst-reference-groups.md
-                    - name: Интеграция GST для контрольно-кассовых машин
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: Рекомендации по развертыванию контрольно-кассовых машин
-                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-                - name: Обзор механизма начисления налога
-                  href: ../financials/general-ledger/tax-engine.md
-                  items:
-                    - name: Интеграция механизма начисления налога
-                      href: ../financials/general-ledger/tax-engine-integration.md
-                    - name: Расширение механизма начисления налога
-                      href: ../financials/general-ledger/extend-tax-engine-configurations.md
-                - name: Вопросы и ответы по налоговым порогам
-                  href: ../financials/localizations/apac-ind-tax-thresholds.md
-            - name: Япония
-              href: ../financials/localizations/japan.md
-              items:
-                - name: Приобретение основного средства и требование субсидии по правительственному гранту
-                  href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
-                - name: Приобретение основного средства с обязательствами по выбытию активов
-                  href: ../financials/localizations/tasks/acquire-fixed-asset-asset-retirement-obligations.md
-                - name: Настройка оценки обязательств по выбытию активов
-                  href: ../financials/localizations/tasks/adjustment-asset-retirement-obligation-estimate.md
-                - name: 'Распределение суммы переноса общего актива и гудвилла на единицы, генерирующие денежные средства'
-                  href: ../financials/localizations/tasks/allocate-carrying-amount.md
-                - name: Правила распределения
-                  href: ../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md
-                - name: 'Сборы по банковским платежам, покрываемые поставщиками'
-                  href: ../financials/localizations/apac-jpn-bank-payment-fees-vendors.md
-                - name: Изменение метода амортизации в течении службы актива для книги
-                  href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-book.md
-                - name: Изменение метода амортизации в течении службы актива для одного актива
-                  href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-one-asset.md
-                - name: Настройка параметров и профилей разноски для ускоренной амортизации
-                  href: ../financials/localizations/tasks/accelerated-depreciation-posting-profiles.md
-                - name: Настройка параметров консолидированной накладной и настройка расчетов с поставщиками
-                  href: ../financials/localizations/tasks/consolidated-invoice-parameters-setup-accounts-payable.md
-                - name: Настройка профиля амортизации и профиля разноски для дополнительной амортизации
-                  href: ../financials/localizations/tasks/configure-depreciation-profile-posting.md
-                - name: Настройка счетов ГК для разноски обязательств по выбытию активов и рыночных ставок скидок
-                  href: ../financials/localizations/tasks/configure-main-accounts-asset-retirement.md
-                - name: Консолидированные накладные
-                  href: ../financials/localizations/apac-jpn-consolidate-invoices.md
-                - name: Создание основных средств с дополнительной амортизацией
-                  href: ../financials/localizations/tasks/create-fixed-asset-additional-depreciation.md
-                - name: Создание основного средства с особым методом амортизации
-                  href: ../financials/localizations/tasks/create-fixed-asset-special-depreciation-profile.md
-                - name: Создание документа ускоренной амортизации и ввод данных об использовании
-                  href: ../financials/localizations/tasks/create-accelerated-depreciation-document-enter-usage-data.md
-                - name: Создание профиля ускоренной амортизации и назначение его книге
-                  href: ../financials/localizations/tasks/create-accelerated-depreciation-profile-assign-it-book.md
-                - name: Создание и назначение документа записи сокращения для субсидии гранта правительства
-                  href: ../financials/localizations/tasks/create-assign-reduction-document.md
-                - name: Создание и назначение группы оборудования
-                  href: ../financials/localizations/tasks/create-assign-equipment-group.md
-                - name: Создание и подтверждение консолидированной накладной клиента
-                  href: ../financials/localizations/tasks/create-confirm-customer-consolidated-invoice.md
-                - name: Создание и подтверждение проверки распознавания
-                  href: ../financials/localizations/tasks/create-confirm-recognition-test.md
-                - name: Создание и подтверждение консолидированной накладной поставщика
-                  href: ../financials/localizations/tasks/create-confirm-vendor-consolidated-invoice.md
-                - name: 'Создание группы ЕГДС и единиц, генерирующих денежные средства'
-                  href: ../financials/localizations/tasks/create-cgu-group-cash-generating-units.md
-                - name: Создание активов амортизации общей суммы с использованием метода деления поровну
-                  href: ../financials/localizations/tasks/create-lump-sum-depreciation-assets-equally-divided-method.md
-                - name: Определение периода простоя основного средства и проверка процесса амортизации
-                  href: ../financials/localizations/tasks/define-asset-idle-period-validate-depreciation-process.md
-                - name: Амортизация и начисление расходов на выплату процентов по обязательствам выбытия актива
-                  href: ../financials/localizations/tasks/depreciate-accrue-interest-expense.md
-                - name: Амортизация основных средств с разнесенной записью сокращения
-                  href: ../financials/localizations/tasks/depreciation-fixed-assets-reduction-entry-posted.md
-                - name: Вопросы и ответы по амортизации
-                  href: ../financials/localizations/apac-jpn-fixed-asset-depreciation.md
-                - name: Выбытие основного средства с записью сокращения
-                  href: ../financials/localizations/tasks/dispose-fixed-asset-reduction-entry.md
-                - name: Включение формата файлов платежей JBA
-                  href: ../financials/localizations/tasks/jba-payment-file-format.md
-                - name: Ввод графика курса амортизации и связывание с методом амортизации
-                  href: ../financials/localizations/tasks/enter-depreciation-rate-schedule.md
-                - name: Метод амортизации с делением поровну
-                  href: ../financials/localizations/apac-jpn-equally-divided-depreciation-method.md
-                - name: Форма 26 для декларации подлежащего амортизации налога
-                  href: ../financials/localizations/tasks/jp-00027-form-26-depreciable-tax-declaration.md
-                - name: Создание файла платежей EFT в формате JBA
-                  href: ../financials/localizations/tasks/eft-payment-file-jba-format.md
-                - name: Создание и разноска сборов по платежам
-                  href: ../financials/localizations/tasks/post-payment-fee.md
-                - name: Создание отчета по налогу на потребление
-                  href: ../financials/localizations/tasks/japan-consumption-tax-report.md
-                - name: 'Учет с постоянным снижением в единице, генерирующей денежные средства'
-                  href: ../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md
-                - name: Учет с постоянным снижением
-                  href: ../financials/localizations/apac-jpn-impairment-accounting-fixed-assets.md
-                - name: Импорт платежа клиента с форматом файла JBA
-                  href: ../financials/localizations/tasks/import-customer-payment-jba-file-format.md
-                - name: Импорт почтовых индексов
-                  href: ../financials/localizations/apac-jpn-import-postal-codes.md
-                - name: Журнал ввода в форме T-образного счета
-                  href: ../financials/localizations/tasks/jp-00005-input-journal-t-account-form-japan.md
-                - name: Запрос по проводкам обязательств выбытия активов
-                  href: ../financials/localizations/tasks/inquiries-asset-retirement-obligation.md
-                - name: 'Запрос по расходам, которые подлежат вычету'
-                  href: ../financials/localizations/tasks/inquiry-deductible-expenses.md
-                - name: Запрос по сборам по платежам в журнале
-                  href: ../financials/localizations/tasks/inquiries-payment-fee-journal.md
-                - name: 'Ведение файлов справочника основных средств для расходов, которые подлежат вычету'
-                  href: ../financials/localizations/tasks/maintain-fixed-asset-master-data-files-deductible-expenses.md
-                - name: Ведение индикаторов постоянного снижения стоимости отдельных активов
-                  href: ../financials/localizations/tasks/maintain-impairment-indicators-individual-assets.md
-                - name: Оплата поставщику путем индоссирования переводного векселя
-                  href: ../financials/localizations/apac-jpn-endorse-bill-of-exchange.md
-                - name: Оплата проводки по поставщику за счет утверждения переводного векселя клиента
-                  href: ../financials/localizations/tasks/pay-vendor-transaction.md
-                - name: Периодическое сопоставление завышенной и заниженной амортизации
-                  href: ../financials/localizations/tasks/periodic-settlement-over-under-depreciation.md
-                - name: Прогрессивный расчет подоходного налога
-                  href: ../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md
-                - name: Предложение дополнительной амортизации
-                  href: ../financials/localizations/tasks/propose-additional-depreciation.md
-                - name: Предложение и разноска ускоренной амортизации
-                  href: ../financials/localizations/tasks/propose-post-accelerated-depreciation.md
-                - name: Предложение и разноска суммы постоянного снижения стоимости по партии
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-batch.md
-                - name: Предложение и разноска суммы постоянного снижения стоимости с использованием журнала основных средств
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-fixed-asset-journal.md
-                - name: 'Предложение и разноска суммы постоянного снижения стоимости по единице, генерирующей денежные средства'
-                  href: ../financials/localizations/tasks/propose-post-impairment-amount-cash-generating-unit.md
-                - name: Предложение специальной амортизации
-                  href: ../financials/localizations/tasks/propose-special-depreciation.md
-                - name: Повторное открытие и редактирование консолидированной накладной клиента
-                  href: ../financials/localizations/tasks/reopen-edit-customer-consolidated-invoice.md
-                - name: Повторное открытие и редактирование консолидированной накладной поставщика
-                  href: ../financials/localizations/tasks/reopen-edit-vendor-consolidated-invoice.md
-                - name: Отмена утвержденного переводного векселя
-                  href: ../financials/localizations/tasks/reverse-endorsed-bill-exchange.md
-                - name: Выполнение проверки распознавания и вычисление суммы постоянного снижения стоимости по отдельным активам
-                  href: ../financials/localizations/tasks/run-recognition-test-calculate.md
-                - name: 'Настройка клиента и заказа на продажу так, чтобы они были целью консолидированной накладной'
-                  href: ../financials/localizations/tasks/set-up-customer-sales-order-target-consolidated-invoice.md
-                - name: Настройка обязательств по выбытию активов (ARO)
-                  href: ../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md
-                - name: Настройка документов обязательств о выбытии активов и ввод суммы ARO по основному средству
-                  href: ../financials/localizations/tasks/set-up-asset-retirement-obligation.md
-                - name: Настройка консолидированных накладных
-                  href: ../financials/localizations/tasks/set-up-consolidated-invoices.md
-                - name: Настройка общих параметров и профиля разноски учета постоянного снижения стоимости
-                  href: ../financials/localizations/tasks/impairment-accounting.md
-                - name: Настройка отчета о налоге на потребление для Японии
-                  href: ../financials/localizations/tasks/setup-japan-consumption-tax-report.md
-                - name: Настройка платежа за счет утверждения переводного векселя клиента для Японии
-                  href: ../financials/localizations/tasks/setup-japan-payment-endorsing-customer-bill-exchange.md
-                - name: 'Настройка справочника для включения расходов, которые подлежат вычету, для нескольких слоев разноски'
-                  href: ../financials/localizations/tasks/set-up-master-data-inclusion.md
-                - name: Настройка сборов по платежам для Японии
-                  href: ../financials/localizations/tasks/setup-payment-fee-japan.md
-                - name: Настройка записей сокращения
-                  href: ../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md
-                - name: 'Настройка справочника поставщиков и заказа на покупку, который должен быть целью консолидированной накладной'
-                  href: ../financials/localizations/tasks/vendor-master-po.md
-                - name: Сопоставление утвержденного переводного векселя
-                  href: ../financials/localizations/tasks/settle-endorsed-bill-exchange.md
-                - name: Сопоставление консолидированных накладных клиента с использованием журнала платежей
-                  href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-payment-journal.md
-                - name: Сопоставление консолидированных накладных клиента с использованием сопоставления проводок
-                  href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-settle-transactions.md
-                - name: Сопоставление консолидированных накладных поставщика с использованием журнала платежей
-                  href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
-                - name: Сопоставление консолидированных накладных поставщика с использованием сопоставления проводок
-                  href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
-                - name: Использование списка сборки для основных средств
-                  href: ../financials/localizations/tasks/use-assemble-list-fixed-asset.md
-                - name: Использование списка разборки для основных средств
-                  href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
-            - name: Малайзия
-              href: ../financials/localizations/malaysia.md
-              items:
-                - name: Создание кредита клиента для продаж по проектам
-                  href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
-                - name: Создание дебета клиента для продаж по проектам
-                  href: ../financials/localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
-                - name: Налог на товары и услуги (GST)
-                  href: ../financials/localizations/apac-mys-gst.md
-                - name: GST — создание файлов GAF в требуемом формате
-                  href: ../financials/localizations/tasks/my-00010-gst-gaf-files-required-format.md
-                - name: Управление дебетом и кредитом клиента для GST
-                  href: ../financials/localizations/tasks/my-00003-manage-customer-debit-note-credit-note-gst.md
-                - name: Управление дебетом и кредитом поставщика для GST
-                  href: ../financials/localizations/tasks/my-00004-manage-vendor-debit-note-credit-note-gst.md
-                - name: Печать накладных клиента GST с предложением сброса
-                  href: ../financials/localizations/tasks/my-00006-02-print-gst-customer-invoices-relief-clause.md
-                - name: Печать налоговых накладных GST
-                  href: ../financials/localizations/tasks/my-00005-print-gst-tax-invoices.md
-                - name: Накладные с самостоятельным выставлением счетов
-                  href: ../financials/localizations/tasks/my-00007-self-billed-invoices.md
-                - name: Настройка предложений сброса GST
-                  href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
-            - name: Сингапур
-              href: ../financials/localizations/singapore.md
-              items:
-                - name: Создание отчета GST-05
-                  href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
-            - name: Таиланд
-              href: ../financials/localizations/thailand.md
-              items:
-                - name: Отчеты по картам запасов
-                  href: ../financials/localizations/apac-tha-stock-card-reports.md
-                - name: Накладная по налогам для подстановки или корректировки
-                  href: ../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md
-                - name: Нереализованный НДС
-                  href: ../financials/localizations/apac-tha-unrealized-vat.md
-                - name: Подоходный налог
-                  href: ../financials/localizations/apac-tha-withholding-tax.md
+                  href: ../financials/localizations/emea-cze-fixed-assets-depreciation.md
+                - name: Разноска приобретения
+                  href: ../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md
+            - name: Разноска периодических журналов
+              href: ../financials/general-ledger/tasks/post-periodic-journals.md
+            - name: Настройка подписывающих лиц для печатных форм
+              href: ../financials/localizations/emea-set-up-signers-for-printing-forms.md
+            - name: Разделение по периодам в периодических журналах
+              href: ../financials/localizations/emea-create-post-periodic-journals.md
+            - name: Обновление способа отображения сумм в отчетах и документах
+              href: ../financials/localizations/emea-amount-printing-forms.md
+            - name: Отчет по НДС
+              href: ../financials/localizations/emea-cze-vat-statement-details.md
+            - name: Закрытие на конец года
+              href: ../financials/localizations/emea-cze-hun-year-end.md
+        - name: Дания
+          href: ../financials/localizations/denmark.md
+          items:
+            - name: Назначение формата платежной квитанции счету клиента
+              href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
+            - name: Создание и разноска накладной клиента для клиентов из государственного сектора
+              href: ../financials/localizations/tasks/create-post-customer-invoice-public-sector-customer.md
+            - name: Создание и разноска накладной с произвольным текстом для клиентов из государственного сектора
+              href: ../financials/localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
+            - name: Создание и разноска накладной по проекту для клиентов из государственного сектора
+              href: ../financials/localizations/tasks/create-post-project-invoice-public-sector-customer.md
+            - name: Импорт конфигураций электронного выставления накладных OIOUBL
+              href: ../financials/localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+            - name: Разноска накладной с произвольным текстом с платежной квитанцией
+              href: ../financials/localizations/tasks/post-free-text-invoice-payment-slip.md
+            - name: Разноска накладной по проекту с платежной квитанцией
+              href: ../financials/localizations/tasks/post-project-invoice-payment-slip.md
+            - name: Разноска накладной по продаже с платежной квитанцией
+              href: ../financials/localizations/tasks/post-sales-invoice-payment-slip.md
+            - name: Настройка счетов клиентов для электронного выставления накладных OIOUBL
+              href: ../financials/localizations/tasks/set-up-customer-accounts-oioubl-electronic-invoicing.md
+            - name: Настройка электронных накладных OIOUBL
+              href: ../financials/localizations/tasks/set-up-oioubl-electronic-invoicing.md
+            - name: Настройка формата платежной квитанции
+              href: ../financials/localizations/tasks/set-up-payment-slip-format.md
+        - name: Эстония
+          href: ../financials/localizations/estonia.md
+          items:
+            - name: Запросы личных данных
+              href: ../financials/localizations/emea-est-personal-info.md
+            - name: Отчет по НДС
+              href: ../financials/localizations/emea-est-vat-statement-details.md
         - name: Европа
+          href: ../financials/localizations/europe.md
           items:
             - name: Подотчетные лица
               href: ../financials/localizations/emea-advance-holders.md
               items:
                 - name: Проводки по подотчетным лицам
                   href: ../financials/localizations/emea-advance-holders-transactions.md
-            - name: Авансовый платеж сотруднику (Восточная Европа)
-              href: ../financials/localizations/tasks/advance-payment-employee.md
+                - name: Авансовый платеж сотруднику (Восточная Европа)
+                  href: ../financials/localizations/tasks/advance-payment-employee.md
             - name: Выставление накладных на предоплату
               href: ../financials/localizations/emea-advance-invoice.md
             - name: Банковская выверка
@@ -1526,11 +1547,9 @@
               href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Создание документа перемещения для внутреннего перемещения запасов
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
-            - name: Создание декларации Интрастат ЕС
-              href: ../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md
             - name: Создание отчета ЕС по НДС
               href: ../financials/localizations/tasks/eur-00011-eu-sales-list-report.md
-            - name: ISO20022-файлы
+            - name: Файлы ISO20022
               items:
                 - name: Импорт файлов ISO20022
                   href: ../financials/localizations/emea-ISO20022-file-formats.md
@@ -1557,6 +1576,10 @@
               items:
                 - name: Перенос проводок в Интрастат
                   href: ../financials/localizations/tasks/transfer-transactions-intrastat.md
+                - name: Определение адреса погрузки для внутренней проводки
+                  href: ../financials/localizations/tasks/eur-00002-specify-lading-address-intra-community.md
+                - name: Создание декларации Интрастат ЕС
+                  href: ../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md
             - name: Отчеты по журналам запасов
               href: ../financials/localizations/emea-set-up-report-inventory-journal-names.md
             - name: Крайние сроки выпуска накладных
@@ -1627,555 +1650,470 @@
                   href: ../financials/localizations/tasks/create-submit-vat-report.md
             - name: Просмотр проводок по сопоставлению
               href: ../financials/localizations/emea-transactions-settlement-form.md
-            - name: Австрия
-              href: ../financials/localizations/austria.md
-              items:
-                - name: Полугодовая амортизация по дополнительному вводу в эксплуатацию
-                  href: ../financials/localizations/emea-aut-half-year-depreciation.md
-                - name: Сборы за упаковочные материалы
-                  href: ../financials/localizations/emea-aut-packing-material-fee-calculation.md
-                - name: Отчет по НДС
-                  href: ../financials/localizations/emea-aut-vat-statement-details.md
-            - name: Бельгия
-              href: ../financials/localizations/belgium.md
-              items:
-                - name: Банковская выписка CODA
-                  href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
-                - name: Создание и перенос проводок в BLWI
-                  href: ../financials/localizations/tasks/be-00011-create-transfer-blwi.md
-                - name: Налоговая декларация INTERVAT
-                  href: ../financials/localizations/emea-bel-intervat-tax-declaration.md
-                - name: Отчеты по выверке
-                  href: ../financials/localizations/emea-bel-reconciliation-reports.md
-                - name: Настройка отчетности по сальдо платежей
-                  href: ../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md
-                - name: Настройка и ведение PRODCOM
-                  href: ../financials/localizations/emea-bel-prodcom-report.md
-            - name: Чешская Республика
-              href: ../financials/localizations/czech-republic.md
-              items:
-                - name: Кредит-нота на скидку по оплате
-                  href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
-                - name: Основные средства
-                  items:
-                    - name: Округление амортизации
-                      href: ../financials/localizations/emea-cze-depreciation-rounding.md
-                    - name: Полугодовая амортизация по ОС
-                      href: ../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md
-                    - name: Приостановка амортизации (праздники)
-                      href: ../financials/localizations/emea-cze-depreciation-suspension-holidays.md
-                    - name: Методы амортизации основных средств
-                      href: ../financials/localizations/emea-cze-fixed-assets-depreciation.md
-                    - name: Разноска приобретения
-                      href: ../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md
-                - name: Разноска периодических журналов
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: Настройка подписывающих лиц для печатных форм
-                  href: ../financials/localizations/emea-set-up-signers-for-printing-forms.md
-                - name: Разделение по периодам в периодических журналах
-                  href: ../financials/localizations/emea-create-post-periodic-journals.md
-                - name: Обновление способа отображения сумм в отчетах и документах
-                  href: ../financials/localizations/emea-amount-printing-forms.md
-                - name: Отчет по НДС
-                  href: ../financials/localizations/emea-cze-vat-statement-details.md
-                - name: Закрытие на конец года
-                  href: ../financials/localizations/emea-cze-hun-year-end.md
-            - name: Дания
-              href: ../financials/localizations/denmark.md
-              items:
-                - name: Назначение формата платежной квитанции счету клиента
-                  href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
-                - name: Создание и разноска накладной клиента для клиентов из государственного сектора
-                  href: ../financials/localizations/tasks/create-post-customer-invoice-public-sector-customer.md
-                - name: Создание и разноска накладной с произвольным текстом для клиентов из государственного сектора
-                  href: ../financials/localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
-                - name: Создание и разноска накладной по проекту для клиентов из государственного сектора
-                  href: ../financials/localizations/tasks/create-post-project-invoice-public-sector-customer.md
-                - name: Импорт конфигураций электронного выставления накладных OIOUBL
-                  href: ../financials/localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
-                - name: Разноска накладной с произвольным текстом с платежной квитанцией
-                  href: ../financials/localizations/tasks/post-free-text-invoice-payment-slip.md
-                - name: Разноска накладной по проекту с платежной квитанцией
-                  href: ../financials/localizations/tasks/post-project-invoice-payment-slip.md
-                - name: Разноска накладной по продаже с платежной квитанцией
-                  href: ../financials/localizations/tasks/post-sales-invoice-payment-slip.md
-                - name: Настройка счетов клиентов для электронного выставления накладных OIOUBL
-                  href: ../financials/localizations/tasks/set-up-customer-accounts-oioubl-electronic-invoicing.md
-                - name: Настройка электронных накладных OIOUBL
-                  href: ../financials/localizations/tasks/set-up-oioubl-electronic-invoicing.md
-                - name: Настройка формата платежной квитанции
-                  href: ../financials/localizations/tasks/set-up-payment-slip-format.md
-            - name: Эстония
-              href: ../financials/localizations/estonia.md
-              items:
-                - name: Запросы личных сведений
-                  href: ../financials/localizations/emea-est-personal-info.md
-                - name: Отчет по НДС
-                  href: ../financials/localizations/emea-est-vat-statement-details.md
-            - name: Франция
-              href: ../financials/localizations/france.md
-              items:
-                - name: Государственный сектор
-                  items:
-                    - name: Учет в государственном секторе
-                      href: ../financials/localizations/emea-fra-public-sector-accounting.md
-                    - name: Обязательства
-                      href: ../financials/localizations/emea-fra-commitments-public-sector.md
-                    - name: Mandats de paiement
-                      href: ../financials/localizations/emea-fra-mandats-de-paiement.md
-                    - name: Закупки и источники
-                      href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
-                    - name: Titres de recette
-                      href: ../financials/localizations/emea-fra-titres-de-recette-public-sector.md
-                    - name: Удержание платежей по накладным поставщиков
-                      href: ../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
-                - name: Утверждение и разноска выписанных переводных векселей
-                  href: ../financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
-                - name: Ваучеры и накладные в хронологическом порядке
-                  href: ../financials/localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: Создание стандартного файла аудита для Франции (FEC)
-                  href: ../financials/localizations/emea-fra-fec-audit-file.md
-                - name: Выписки по счетам поставщиков и клиентов
-                  href: ../financials/localizations/tasks/fr-00002-customer-vendor-account-statements.md
-                - name: Ежедневный расчет процента для просроченного платежа и общей суммы в накладной и письме-напоминании
-                  href: ../financials/localizations/tasks/fr-00018-daily-interest.md
-                - name: Амортизационная разница
-                  href: ../financials/localizations/emea-fra-derogatory-depreciation.md
-                - name: Французские переводные и простые векселя
-                  href: ../financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
-                - name: Коды NAF и Siret
-                  href: ../financials/localizations/emea-fra-naf-codes-siret-numbers.md
-                - name: Настройка кодов NAF и Siret
-                  href: ../financials/localizations/tasks/fr-00003-naf-codes-siret-numbers.md
-                - name: Штрафы за просроченные платежи клиентов
-                  href: ../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md
-                - name: Разноска журнала выписки опротестованных переводных векселей
-                  href: ../financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal.md
-                - name: Разноска журнала повторной выписки переводных векселей
-                  href: ../financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal.md
-                - name: Печать общей суммы задолженности в накладной клиента
-                  href: ../financials/localizations/emea-fra-print-lump-sum-recovery-text.md
-                - name: Амортизация RB/SL
-                  href: ../financials/localizations/emea-fra-rbsl-depreciation.md
-                - name: Настройка способа оплаты
-                  href: ../financials/localizations/tasks/fr-00004-setup-method-payment.md
-                - name: Обновление способа оплаты для клиента
-                  href: ../financials/localizations/tasks/fr-00004-update-method-payment-customer.md
-                - name: Retail
-                  items:
-                    - name: Контрольно-кассовые машины
-                      href: ../retail/localizations/emea-fra-cash-registers.md
-                    - name: Рекомендации по развертыванию контрольно-кассовых машин
-                      href: ../retail/localizations/emea-fra-deployment.md
-            - name: Германия
-              href: ../financials/localizations/germany.md
-              items:
-                - name: Амортизация дополнительного приобретения
-                  href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
-                - name: Файл аудита
-                  href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
-                  items:
-                    - name: Настройка конфигурации файла аудита
-                      href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: Создание файла аудита
-                      href: ../financials/localizations/tasks/german-audit-file.md
-                    - name: Импорт конфигурации файла аудита
-                      href: ../financials/localizations/tasks/import-german-audit-file-configuration.md
-                - name: Корректировки амортизации для дополнительных приобретений во второй год
-                  href: ../financials/localizations/tasks/de-00002-depreciation.md
-                - name: Электронная передача декларации НДС (ELSTER)
-                  href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
-                - name: Отчет "Список журналов"
-                  href: ../financials/localizations/emea-deu-journal-list-report.md
-                - name: Настройка электронных налоговых деклараций
-                  href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
-            - name: Венгрия
-              href: ../financials/localizations/hungary.md
-              items:
-                - name: Расчет валютного курса
-                  href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
-                - name: Методы амортизации основных средств
-                  href: ../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md
-                - name: Малоценные основные средства
-                  href: ../financials/localizations/emea-hun-low-cost-fixed-assets.md
-                - name: Перемещение основного средства в запасы
-                  href: ../financials/localizations/emea-hun-fixed-asset-to-inventory.md
-                - name: Документы о зачете налога
-                  href: ../financials/localizations/emea-hun-tax-reimbursement-docs.md
-                - name: Закрытие на конец года
-                  href: ../financials/localizations/emea-cze-hun-year-end.md
-            - name: Исландия
-              href: ../financials/localizations/iceland.md
-              items:
-                - name: Создание счета поставщика и прикрепление категории декларации накладной
-                  href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
-                - name: Настройка декларации накладных для поставщиков
-                  href: ../financials/localizations/tasks/set-up-invoice-declaration-vendors.md
-                - name: Настройка обязательных ссылок на платеж
-                  href: ../financials/localizations/tasks/set-up-mandatory-payment-references.md
-                - name: Обновление деклараций накладных поставщиков и создание отчета
-                  href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
-            - name: Италия
-              href: ../financials/localizations/italy.md
-              items:
-                - name: Сведения для отчетов по НДС
-                  href: ../financials/localizations/emea-ita-vat-statements-details.md
-                - name: Отчет "Черный список"
-                  href: ../financials/localizations/emea-ita-black-list-report.md
-                - name: Дата обеспечения
-                  href: ../financials/localizations/emea-ita-competence-date.md
-                - name: Амортизация основных средств
-                  href: ../financials/localizations/emea-ita-depreciation-of-fixed-assets.md
-                - name: Modello 770
-                  href: ../financials/localizations/emea-ita-modello770.md
-                - name: Проверка даты отборочной накладной в накладных
-                  href: ../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md
-                - name: Разноска и печать отборочной накладной с подробными сведениями транспортной доставки
-                  href: ../financials/localizations/emea-ita-packing-slip.md
-                - name: Книги учета налогов
-                  href: ../financials/localizations/emea-ita-fiscal-books.md
-                - name: 'Разбиение платежей по накладным, выписанным государственным органам'
-                  href: ../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md
-                - name: Подоходный налог
-                  href: ../financials/localizations/emea-ita-withholding-tax.md
-            - name: Латвия
-              href: ../financials/localizations/latvia.md
-              items:
-                - name: Учет основных средств
-                  href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
-                - name: Отслеживание изменений местонахождения основных средств
-                  href: ../financials/localizations/emea-lva-fixed-assets-location-fields-change.md
-                - name: Нумерация накладных и отборочных накладных
-                  href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
-                - name: Отчет по налогам на использование природных ресурсов
-                  href: ../financials/localizations/emea-lva-tax-natural-resources.md
-                - name: Сведения для отчета по НДС
-                  href: ../financials/localizations/emea-lva-vat-statement-details.md
-            - name: Литва
-              href: ../financials/localizations/lithuania.md
-              items:
-                - name: Отчет по ремонту основных средств
-                  href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
-                - name: Создание документа о перемещении ОС между складами
-                  href: ../financials/localizations/tasks/lt-00003-fixed-asset-transfer.md
-                - name: Нумерация накладных и отборочных накладных
-                  href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
-                - name: Сведения для отчета по НДС
-                  href: ../financials/localizations/emea-ltu-vat-statement-details.md
-            - name: Голландия
-              href: ../financials/localizations/netherlands.md
-              items:
-                - name: Электронная налоговая декларация (EVAT)
-                  href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
-                - name: Интеграция Semansys XBRL
-                  href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
-            - name: Норвегия
-              href: ../financials/localizations/norway.md
-              items:
-                - name: Форматы платежей клиентов и поставщиков
-                  href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
-                - name: Платеж клиента на основе идентификатора платежа
-                  href: ../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md
-                - name: Формат импорта Nets
-                  href: ../financials/localizations/emea-nor-nets-import-format.md
-                - name: Отчет по НДС
-                  href: ../financials/localizations/emea-nor-sales-tax-payment-report.md
-                - name: Контрольно-кассовые машины
-                  href: ../retail/localizations/emea-nor-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: Рекомендации по развертыванию контрольно-кассовых машин
-                  href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-            - name: Польша
-              href: ../financials/localizations/poland.md
-              items:
-                - name: Расчет скидок по строке из цены за единицу
-                  href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
-                - name: Корректирующие документы
-                  href: ../financials/localizations/emea-pol-correction-notes.md
-                - name: Нумерация дубликатов накладных по продаже
-                  href: ../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md
-                - name: Амортизация ОС
-                  href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
-                - name: Расширение функциональности выбытия основных средств
-                  href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
-                - name: Возвращаемая упаковка
-                  href: ../financials/localizations/emea-pol-returnable-packages.md
-                - name: Налоговые отчеты
-                  href: ../financials/localizations/emea-pol-sales-tax-reports.md
-                - name: Стандартный файл аудита
-                  href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
-                - name: Процент налога и свободный процент
-                  href: ../financials/localizations/emea-pol-interest-calculation.md
-                - name: Оборотно-сальдовая ведомость
-                  href: ../financials/localizations/emea-pol-turnover-balances-statement.md
-            - name: Испания
-              href: ../financials/localizations/spain.md
-              items:
-                - name: Применение скидок по оплате в накладной
-                  href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
-                - name: Параметры переводного векселя
-                  href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
-                - name: Условные налоги
-                  href: ../financials/localizations/emea-esp-conditional-sales-tax.md
-                - name: Кредитование при обработке накладной
-                  href: ../financials/localizations/tasks/emea-esp-credit-invoicing.md
-                - name: Финансовые данные из счета по накладной
-                  href: ../financials/localizations/emea-esp-fiscal-data-invoice-account.md
-                - name: Переоценка группы основных средств
-                  href: ../financials/localizations/emea-esp-fixed-asset-group-revaluation.md
-                - name: Внутренний НДС (ЕС)
-                  href: ../financials/localizations/emea-esp-intra-community-vat.md
-                - name: Разовые клиенты
-                  href: ../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md
-                - name: Печать чеков в испанском формате
-                  href: ../financials/localizations/emea-esp-print-checks-with-spanish-layout.md
-                - name: Параметры простого векселя
-                  href: ../financials/localizations/emea-esp-promissory-note-options.md
-                - name: Отчет 340
-                  href: ../financials/localizations/emea-esp-report-340.md
-                - name: Циклы продажи и покупки
-                  href: ../financials/localizations/emea-esp-sales-purchase-cycle.md
-                - name: Специальные записи и открывающие ведомости
-                  href: ../financials/localizations/emea-esp-opening-sheets-spain.md
-            - name: Швеция
-              href: ../financials/localizations/sweden.md
-              items:
-                - name: Экспорт финансовой информации для аудиторов в Швеции
-                  href: ../financials/localizations/emea-swe-sie-standard-report.md
-                - name: Импорт форматов платежей
-                  href: ../financials/localizations/emea-swe-payment-formats-import.md
-                - name: Контрольно-кассовые машины
-                  href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
-            - name: Швейцария
-              href: ../financials/localizations/switzerland.md
-              items:
-                - name: Импорт платежей клиентов в ESR
-                  href: ../financials/localizations/emea-che-esr-customer-payments-import.md
-            - name: Великобритания
-              href: ../financials/localizations/united-kingdom.md
-              items:
-                - name: Construction Industry Scheme
-                  href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
-                - name: Создание кредита по скидке при сопоставлении
-                  href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
-                - name: 'Создание заказа на покупку, включающего номенклатуры, по которым производится удержание НДС с покупателя'
-                  href: ../financials/localizations/tasks/purchase-order-reverse-charge-vat.md
-                - name: 'Создание заказа на продажу, включающего номенклатуры, по которым производится удержание НДС с покупателя'
-                  href: ../financials/localizations/tasks/gb-00002-sales-order.md
-                - name: 'Настройка налоговых групп номенклатур для НДС, удерживаемого с покупателя'
-                  href: ../financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                - name: 'Настройка номенклатурных групп, правил и параметров НДС, удерживаемого с покупателя'
-                  href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
-                - name: 'Настройка налоговых групп для НДС, удерживаемого с покупателя'
-                  href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-        - name: Латинская Америка
+        - name: Франция
+          href: ../financials/localizations/france.md
           items:
-            - name: Бразилия
-              href: ../financials/localizations/brazil.md
+            - name: Государственный сектор
               items:
-                - name: Область локализации
-                  href: ../financials/localizations/latam-bra-scope.md
-                - name: Финансовые журналы
-                  href: ../financials/localizations/latam-bra-fiscal-books.md
-                  items:
-                    - name: Настройка финансовых книг
-                      href: ../financials/localizations/latam-bra-configure-fiscal-books.md
-                    - name: Финансовые документы по налогу ICMS
-                      href: ../financials/localizations/latam-bra-icms-tax-fiscal-documents.md
-                    - name: Импорт финансовых документов
-                      href: ../financials/localizations/latam-bra-import-fiscal-documents.md
-                    - name: Экспорт и импорт проводок юридического лица из консолидации главной книги
-                      href: ../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md
-                    - name: Импорт и проверка XML-документов NF-e и DANFE-файлов
-                      href: ../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md
-                    - name: Обработка предъявлений к оплате электронных платежей
-                      href: ../financials/localizations/latam-bra-process-electronic-payment-remittances.md
-                    - name: Финансовые документы
-                      href: ../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md
-                    - name: Текстовые заполнители финансовых документов
-                      href: ../financials/localizations/latam-bra-fiscal-document-text-placeholders.md
-                    - name: Дополнительные финансовые документы покупки
-                      href: ../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md
-                    - name: 'Финансовые документы, на которые имеются ссылки'
-                      href: ../financials/localizations/latam-bra-referenced-fiscal-documents.md
-                    - name: Дополнительные финансовые документы продажи
-                      href: ../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md
-                    - name: Обслуживание электронного финансового документа
-                      href: ../financials/localizations/latam-bra-service-electronic-fiscal-document.md
-                    - name: 'Журналы, создаваемые в процессе возврата электронных платежей'
-                      href: ../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md
-                - name: Процесс работы с NF-e
-                  href: ../financials/localizations/latam-bra-nf-e-process.md
-                  items:
-                    - name: Автоматическая передача финансовых документов NF-e
-                      href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
-                    - name: Создание сообщений электронной почты для утвержденных NF-e и вложение PDF-файлов DANFE и XML-файлов NF-e в сообщения электронной почты
-                      href: ../financials/localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
-                    - name: Сертификаты NF-e
-                      href: ../financials/localizations/latam-bra-nfe-certs.md
-                    - name: 'Настройка, импорт и проверка XML-документов NF-e и DANFE'
-                      href: ../financials/localizations/latam-bra-set-up-import-nfe.md
-                    - name: Настройка параметров федерального NF-e
-                      href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
-                    - name: Настройка параметров NF-e для финансового учреждения
-                      href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
-                - name: Параметры для юридических лиц
-                  href: ../financials/localizations/latam-bra-legal-entity-parameters.md
-                - name: Приобретение основного средства CIAP
-                  href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
-                - name: Выбытие основного средства CIAP
-                  href: ../financials/localizations/latam-bra-ciap-fixed-asset.md
-                - name: Налоги
-                  href: ../financials/localizations/latam-bra-calculate-taxes.md
-                  items:
-                    - name: Расчет налога на предложения по покупке
-                      href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
-                    - name: Создание оценки налогов — ICMS
-                      href: ../financials/localizations/tasks/br-10001-4-create-tax-assessment-icms.md
-                    - name: Создание оценки налогов — налог IPI
-                      href: ../financials/localizations/tasks/br-10004-2-create-tax-assessment-ipi-tax.md
-                    - name: Создание оценки налогов — налог PIS и COFINS
-                      href: ../financials/localizations/tasks/br-10006-4-create-tax-assessment-pis-cofins-tax.md
-                    - name: Ввод и разноска транзакций корректировки налогов
-                      href: ../financials/localizations/tasks/br-10001-3-enter-post-tax-adjustment-transactions.md
-                    - name: Ввод транзакций корректировки налогов PIS и COFINS
-                      href: ../financials/localizations/tasks/br-10006-3-enter-pis-cofins-tax-adjustment-transactions.md
-                    - name: Налоговые атрибуты финансового учреждения
-                      href: ../financials/localizations/tasks/br-00002-fiscal-establishment-tax-attributes.md
-                    - name: Выпуск финансовых документов по кредиту налога ICMS
-                      href: ../financials/localizations/tasks/br-00072-issuing-icms-tax-credit-fiscal-document.md
-                    - name: Выпуск финансовых документов на кредитовый перевод налога ICMS
-                      href: ../financials/localizations/tasks/br-00071-issuing-icms-tax-credit-transfer-fiscal-document.md
-                    - name: Настройка кодов корректировки для налога ICMS
-                      href: ../financials/localizations/tasks/br-10001-1-set-up-adjustment-codes-icms-tax.md
-                    - name: Настройка кодов корректировки для налогов ICMS для финансовых документов
-                      href: ../financials/localizations/tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md
-                    - name: Настройка кодов корректировки для налогов IPI
-                      href: ../financials/localizations/tasks/br-10004-1-set-up-adjustment-codes-ipi-taxes.md
-                    - name: Настройка кодов корректировки для налогов PIS и COFINS
-                      href: ../financials/localizations/tasks/br-10006-2-set-up-adjustment-codes-pis-cofins-taxes.md
-                    - name: Настройка таблиц PIS и COFINS
-                      href: ../financials/localizations/tasks/br-10006-1-set-up-pis-cofins-tables.md
-                    - name: Оценка налога ISS
-                      href: ../financials/localizations/tasks/br-10005-tax-assessment-iss-tax.md
-                    - name: Атрибуты налогов
-                      href: ../financials/localizations/latam-bra-tax-attributes.md
-                    - name: Налоговые платежи
-                      href: ../financials/localizations/latam-bra-tax-payments.md
-                    - name: Налог в предложениях по продажам
-                      href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
-                    - name: Подоходные налоги
-                      href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
-                    - name: Подоходные налоги по платежам клиентов
-                      href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
-                    - name: Подоходные налоги по платежам поставщикам
-                      href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
-                - name: Задачи для Бразилии
-                  items:
-                    - name: Настройка параметров юридического лица
-                      href: ../financials/localizations/tasks/br-00001-1-set-up-brazil-legal-entity-parameters.md
-                    - name: Настройка исходного текста финансового документа
-                      href: ../financials/localizations/tasks/br-00001-2-set-up-fiscal-document-source-text.md
-                    - name: Получение финансовых документов поставщика (ОС — возместимое долгосрочное PIS и COFINS)
-                      href: ../financials/localizations/tasks/br-00014-receiving-vendor-fiscal-document-fixed-assets-pis-cofins-long-term-recoverable.md
-                    - name: Получение финансовых документов поставщика (продукты)
-                      href: ../financials/localizations/tasks/br-00024-receiving-vendor-fiscal-document-products.md
-                    - name: Создание и разноска дополнительного финансового документа покупки
-                      href: ../financials/localizations/tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md
-                    - name: Отмена дополнительного финансового документа покупки
-                      href: ../financials/localizations/tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md
-                    - name: Выпуск финансовых документов для поставщиков
-                      href: ../financials/localizations/tasks/br-00033-issuing-fiscal-document-non-taxable-vendors.md
-                    - name: Выпуск финансовых документов клиента
-                      href: ../financials/localizations/tasks/br-00038-issuing-customer-fiscal-document.md
-                    - name: Накладные по поставке
-                      href: ../financials/localizations/tasks/br-00041-delivery-slip.md
-                    - name: Накладные расходы по накладным с произвольным текстом
-                      href: ../financials/localizations/tasks/br-00050-miscellaneous-charge-free-text-invoice.md
-                    - name: Создание и разноска дополнительного финансового документа продажи
-                      href: ../financials/localizations/tasks/br-00052-1-create-post-sales-complementary-fiscal-documents.md
-                    - name: Отмена дополнительного финансового документа продажи
-                      href: ../financials/localizations/tasks/br-00052-2-cancel-sales-complementary-fiscal-document.md
-                    - name: Обслуживание электронного финансового документа с использованием текстовых файлов
-                      href: ../financials/localizations/tasks/br00059-service-electronic-fiscal-document-text-files.md
-                    - name: Настройка процентов и штрафов для платежей поставщикам
-                      href: ../financials/localizations/tasks/br-00065-1-set-up-interest-fines-vendor-payments.md
-                    - name: Расчет процентов и штрафов по платежам поставщикам
-                      href: ../financials/localizations/tasks/br-00065-2-calculate-interest-fines-vendor-payments.md
-                    - name: Настройка процентов и штрафов по платежам клиентов
-                      href: ../financials/localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
-                    - name: Расчет процентов и штрафов по платежам клиентов
-                      href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
-                    - name: Управление электронными платежами для платежей поставщикам
-                      href: ../financials/localizations/tasks/br-00067-electronic-payment-management-vendor-payments.md
-                    - name: Дебет-ноты по проекту
-                      href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
-                    - name: Управление текстом финансовых документов в документах для закупки
-                      href: ../financials/localizations/tasks/br-00080-manage-fiscal-document-texts-procurement-documents.md
-                    - name: Получение финансовых документов поставщика (ОС — возместимое долгосрочное ICMS)
-                      href: ../financials/localizations/tasks/br-00082-receiving-vendor-fiscal-document-fixed-assets-icms-long-term-recoverable.md
-                    - name: Выпуск финансовых документов клиента (услуги)
-                      href: ../financials/localizations/tasks/br-00084-issuing-customer-fiscal-documents-services.md
-                    - name: Выпуск финансовых документов клиента (основные средства)
-                      href: ../financials/localizations/tasks/br-00085-issuing-customer-fiscal-documents-fixed-assets.md
-                    - name: Выпуск финансовых документов клиента (проект)
-                      href: ../financials/localizations/tasks/br-00086-issuing-customer-fiscal-documents-project.md
-                    - name: Выпуск финансовых документов клиента (для конечных пользователей)
-                      href: ../financials/localizations/tasks/br-00087-issuing-customer-fiscal-documents-end-user.md
-                    - name: Выпуск финансовых документов клиента (для клиентов SUFRAMA)
-                      href: ../financials/localizations/tasks/br-00088-issuing-customer-fiscal-documents-suframa-customers.md
-                    - name: Отмена финансового документа клиента (проект)
-                      href: ../financials/localizations/tasks/br-00092-cancel-customer-fiscal-document-project.md
-                    - name: Нефинансовые операции
-                      href: ../financials/localizations/tasks/br-10016-non-fiscal-operations.md
-                    - name: Ввод проводки CIAP
-                      href: ../financials/localizations/tasks/br-10020-1-enter-ciap-transaction.md
-                    - name: Расчет суммы кредита CIAP
-                      href: ../financials/localizations/tasks/br-10020-2-calculate-ciap-credit-amount.md
-                    - name: Включение кредита CIAP из предыдущего периода
-                      href: ../financials/localizations/tasks/br-10020-3-include-ciap-credit-from-previous-period.md
-                    - name: Основные средства PIS и COFINS
-                      href: ../financials/localizations/tasks/br-10020-4-pis-cofins-fixed-assets.md
-            - name: Мексика
-              href: ../financials/localizations/mexico.md
+                - name: Учет в государственном секторе
+                  href: ../financials/localizations/emea-fra-public-sector-accounting.md
+                - name: Обязательства
+                  href: ../financials/localizations/emea-fra-commitments-public-sector.md
+                - name: Mandats de paiement
+                  href: ../financials/localizations/emea-fra-mandats-de-paiement.md
+                - name: Закупки и источники
+                  href: ../financials/localizations/emea-fra-procurement-sourcing-public-sector.md
+                - name: Titres de recette
+                  href: ../financials/localizations/emea-fra-titres-de-recette-public-sector.md
+                - name: Удержание платежей по накладным поставщиков
+                  href: ../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md
+            - name: Утверждение и разноска выписанных переводных векселей
+              href: ../financials/localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
+            - name: Ваучеры и накладные в хронологическом порядке
+              href: ../financials/localizations/emea-fra-chronological-invoices-vouchers.md
+            - name: Создание стандартного файла аудита для Франции (FEC)
+              href: ../financials/localizations/emea-fra-fec-audit-file.md
+            - name: Выписки по счетам поставщиков и клиентов
+              href: ../financials/localizations/tasks/fr-00002-customer-vendor-account-statements.md
+            - name: Ежедневный расчет процента для просроченного платежа и общей суммы в накладной и письме-напоминании
+              href: ../financials/localizations/tasks/fr-00018-daily-interest.md
+            - name: Амортизационная разница
+              href: ../financials/localizations/emea-fra-derogatory-depreciation.md
+            - name: Французские переводные и простые векселя
+              href: ../financials/localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+            - name: Коды NAF и Siret
+              href: ../financials/localizations/emea-fra-naf-codes-siret-numbers.md
+            - name: Настройка кодов NAF и Siret
+              href: ../financials/localizations/tasks/fr-00003-naf-codes-siret-numbers.md
+            - name: Штрафы за просроченные платежи клиентов
+              href: ../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md
+            - name: Разноска журнала выписки опротестованных переводных векселей
+              href: ../financials/localizations/tasks/fr-00004-post-protest-draw-bill-exchange-journal.md
+            - name: Разноска журнала повторной выписки переводных векселей
+              href: ../financials/localizations/tasks/fr-00004-post-re-draw-bill-exchange-journal.md
+            - name: Печать общей суммы задолженности в накладной клиента
+              href: ../financials/localizations/emea-fra-print-lump-sum-recovery-text.md
+            - name: Амортизация RB/SL
+              href: ../financials/localizations/emea-fra-rbsl-depreciation.md
+            - name: Настройка способа оплаты
+              href: ../financials/localizations/tasks/fr-00004-setup-method-payment.md
+            - name: Обновление способа оплаты для клиента
+              href: ../financials/localizations/tasks/fr-00004-update-method-payment-customer.md
+            - name: Retail
               items:
-                - name: Область локализации
-                  href: ../financials/localizations/latam-mex-scope.md
-                - name: Декларация о поправке на инфляцию
-                  href: ../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md
-                - name: Отмена электронной накладной
-                  href: ../financials/localizations/tasks/mx-00010-cancel-electronic-invoice.md
-                - name: CFDI версии 3.3
-                  href: ../financials/localizations/latam-mex-cfdi-3-3.md
-                - name: Коды регистрации клиентов и другая информация
-                  href: ../financials/localizations/tasks/mx-00007-customer-registration-ids-other-information.md
-                - name: Декларация DIOT
-                  href: ../financials/localizations/latam-mex-diot-declaration-statement.md
-                - name: Электронные накладные CFDI
-                  href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
-                - name: Электронные накладные
-                  href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
-                - name: Электронные отчеты по счетам ГК
-                  href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
-                - name: Ввод кодов регистрации налога для мексиканских юридических лиц
-                  href: ../financials/localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
-                - name: Запрос и печать электронной накладной
-                  href: ../financials/localizations/tasks/mx-00010-inquire-print-electronic-invoice.md
-                - name: Декларация ISR
-                  href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
-                - name: Разноска накладной с произвольным текстом
-                  href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
-                - name: Создание версии 1.1 мексиканского отчета электронного учета ГК
-                  href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
-                - name: Настройка параметров для электронной накладной
-                  href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
-                - name: Настройка налоговых кодов для Мексики
-                  href: ../financials/localizations/tasks/mx-00006-sales-tax-code.md
-                - name: Настройка плана счетов для юридического лица в Мексике
-                  href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
-                - name: Определение кода регистрации RFC для мексиканских банковских счетов
-                  href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
-                - name: Коды регистрации поставщиков
-                  href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
+                - name: Контрольно-кассовые машины
+                  href: ../retail/localizations/emea-fra-cash-registers.md
+                - name: Рекомендации по развертыванию контрольно-кассовых машин
+                  href: ../retail/localizations/emea-fra-deployment.md
+        - name: Германия
+          href: ../financials/localizations/germany.md
+          items:
+            - name: Амортизация дополнительного приобретения
+              href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
+            - name: Файл аудита
+              href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
+              items:
+                - name: Настройка конфигурации файла аудита
+                  href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
+                - name: Создание файла аудита
+                  href: ../financials/localizations/tasks/german-audit-file.md
+                - name: Импорт конфигурации файла аудита
+                  href: ../financials/localizations/tasks/import-german-audit-file-configuration.md
+            - name: Корректировки амортизации для дополнительных приобретений во второй год
+              href: ../financials/localizations/tasks/de-00002-depreciation.md
+            - name: Электронная передача декларации НДС (ELSTER)
+              href: ../financials/localizations/tasks/de-00003-electronic-transmission-elster.md
+            - name: Отчет "Список журналов"
+              href: ../financials/localizations/emea-deu-journal-list-report.md
+            - name: Настройка электронных налоговых деклараций
+              href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
+        - name: Венгрия
+          href: ../financials/localizations/hungary.md
+          items:
+            - name: Расчет валютного курса
+              href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
+            - name: Методы амортизации основных средств
+              href: ../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md
+            - name: Малоценные основные средства
+              href: ../financials/localizations/emea-hun-low-cost-fixed-assets.md
+            - name: Перемещение основного средства в запасы
+              href: ../financials/localizations/emea-hun-fixed-asset-to-inventory.md
+            - name: Документы о зачете налога
+              href: ../financials/localizations/emea-hun-tax-reimbursement-docs.md
+            - name: Закрытие на конец года
+              href: ../financials/localizations/emea-cze-hun-year-end.md
+        - name: Исландия
+          href: ../financials/localizations/iceland.md
+          items:
+            - name: Создание счета поставщика и прикрепление категории декларации накладной
+              href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
+            - name: Настройка декларации накладных для поставщиков
+              href: ../financials/localizations/tasks/set-up-invoice-declaration-vendors.md
+            - name: Настройка обязательных ссылок на платеж
+              href: ../financials/localizations/tasks/set-up-mandatory-payment-references.md
+            - name: Обновление деклараций накладных поставщиков и создание отчета
+              href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
+        - name: Индия
+          href: ../financials/localizations/india.md
+          items:
+            - name: Основные средства
+              href: ../financials/localizations/apac-ind-fixed-assets.md
+              items:
+                - name: Вложение ежедневного календаря в журнал ОС
+                  href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
+                - name: Расчет амортизации за смену
+                  href: ../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md
+                - name: Создание группы складских моделей для единиц основного капитала
+                  href: ../financials/localizations/tasks/apac-ind-create-inventory-model-group.md
+                - name: Создание и разноска амортизации
+                  href: ../financials/localizations/apac-ind-calculate-post-depreciation.md
+                - name: Определение типа смены и отрасли для книг и вложение в ОС
+                  href: ../financials/localizations/tasks/apac-ind-books-shift-industry-types.md
+                - name: Реверсирование проводок основных средств
+                  href: ../financials/localizations/apac-ind-reverse-fixed-assets-transactions.md
+                - name: Расчет амортизации за смену
+                  href: ../financials/localizations/apac-ind-calculation-shift-depreciation.md
+                - name: Настройка ежедневного финансового календаря
+                  href: ../financials/localizations/tasks/apac-ind-day-based-calendar.md
+                - name: Настройка параметров для расчета амортизации
+                  href: ../financials/localizations/tasks/apac-ind-set-up-depreciation.md
+                - name: Настройка амортизационной группы ОС для журналов амортизации
+                  href: ../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md
+                - name: Перенос единиц основного капитала в ОС
+                  href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
+            - name: GST Индии
+              href: ../financials/localizations/apac-ind-gst.md
+              items:
+                - name: Эталонные группы GST Индии
+                  href: ../financials/localizations/apac-ind-gst-reference-groups.md
+                - name: Интеграция GST для контрольно-кассовых машин
+                  href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
+            - name: Рекомендации по развертыванию контрольно-кассовых машин
+              href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+            - name: Обзор механизма начисления налога
+              href: ../financials/general-ledger/tax-engine.md
+              items:
+                - name: Интеграция механизма начисления налога
+                  href: ../financials/general-ledger/tax-engine-integration.md
+                - name: Расширение механизма начисления налога
+                  href: ../financials/general-ledger/extend-tax-engine-configurations.md
+            - name: Вопросы и ответы по налоговым порогам
+              href: ../financials/localizations/apac-ind-tax-thresholds.md
+        - name: Италия
+          href: ../financials/localizations/italy.md
+          items:
+            - name: Сведения для отчетов по НДС
+              href: ../financials/localizations/emea-ita-vat-statements-details.md
+            - name: Отчет "Черный список"
+              href: ../financials/localizations/emea-ita-black-list-report.md
+            - name: Дата обеспечения
+              href: ../financials/localizations/emea-ita-competence-date.md
+            - name: Амортизация основных средств
+              href: ../financials/localizations/emea-ita-depreciation-of-fixed-assets.md
+            - name: Modello 770
+              href: ../financials/localizations/emea-ita-modello770.md
+            - name: Проверка даты отборочной накладной в накладных
+              href: ../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md
+            - name: Разноска и печать отборочной накладной с подробными сведениями транспортной доставки
+              href: ../financials/localizations/emea-ita-packing-slip.md
+            - name: Книги учета налогов
+              href: ../financials/localizations/emea-ita-fiscal-books.md
+            - name: 'Разбиение платежей по накладным, выписанным государственным органам'
+              href: ../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md
+            - name: Подоходный налог
+              href: ../financials/localizations/emea-ita-withholding-tax.md
+        - name: Япония
+          href: ../financials/localizations/japan.md
+          items:
+            - name: Приобретение основного средства и требование субсидии по правительственному гранту
+              href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
+            - name: Приобретение основного средства с обязательствами по выбытию активов
+              href: ../financials/localizations/tasks/acquire-fixed-asset-asset-retirement-obligations.md
+            - name: Настройка оценки обязательств по выбытию активов
+              href: ../financials/localizations/tasks/adjustment-asset-retirement-obligation-estimate.md
+            - name: 'Распределение суммы переноса общего актива и гудвилла на единицы, генерирующие денежные средства'
+              href: ../financials/localizations/tasks/allocate-carrying-amount.md
+            - name: Правила распределения
+              href: ../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md
+            - name: 'Сборы по банковским платежам, покрываемые поставщиками'
+              href: ../financials/localizations/apac-jpn-bank-payment-fees-vendors.md
+            - name: Изменение метода амортизации в течении службы актива для книги
+              href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-book.md
+            - name: Изменение метода амортизации в течении службы актива для одного актива
+              href: ../financials/localizations/tasks/change-depreciation-method-during-asset-life-one-asset.md
+            - name: Настройка параметров и профилей разноски для ускоренной амортизации
+              href: ../financials/localizations/tasks/accelerated-depreciation-posting-profiles.md
+            - name: Настройка параметров консолидированной накладной и настройка расчетов с поставщиками
+              href: ../financials/localizations/tasks/consolidated-invoice-parameters-setup-accounts-payable.md
+            - name: Настройка профиля амортизации и профиля разноски для дополнительной амортизации
+              href: ../financials/localizations/tasks/configure-depreciation-profile-posting.md
+            - name: Настройка счетов ГК для разноски обязательств по выбытию активов и рыночных ставок скидок
+              href: ../financials/localizations/tasks/configure-main-accounts-asset-retirement.md
+            - name: Консолидированные накладные
+              href: ../financials/localizations/apac-jpn-consolidate-invoices.md
+            - name: Создание основных средств с дополнительной амортизацией
+              href: ../financials/localizations/tasks/create-fixed-asset-additional-depreciation.md
+            - name: Создание основного средства с особым методом амортизации
+              href: ../financials/localizations/tasks/create-fixed-asset-special-depreciation-profile.md
+            - name: Создание документа ускоренной амортизации и ввод данных об использовании
+              href: ../financials/localizations/tasks/create-accelerated-depreciation-document-enter-usage-data.md
+            - name: Создание профиля ускоренной амортизации и назначение его книге
+              href: ../financials/localizations/tasks/create-accelerated-depreciation-profile-assign-it-book.md
+            - name: Создание и назначение документа записи сокращения для субсидии гранта правительства
+              href: ../financials/localizations/tasks/create-assign-reduction-document.md
+            - name: Создание и назначение группы оборудования
+              href: ../financials/localizations/tasks/create-assign-equipment-group.md
+            - name: Создание и подтверждение консолидированной накладной клиента
+              href: ../financials/localizations/tasks/create-confirm-customer-consolidated-invoice.md
+            - name: Создание и подтверждение проверки распознавания
+              href: ../financials/localizations/tasks/create-confirm-recognition-test.md
+            - name: Создание и подтверждение консолидированной накладной поставщика
+              href: ../financials/localizations/tasks/create-confirm-vendor-consolidated-invoice.md
+            - name: 'Создание группы ЕГДС и единиц, генерирующих денежные средства'
+              href: ../financials/localizations/tasks/create-cgu-group-cash-generating-units.md
+            - name: Создание активов амортизации общей суммы с использованием метода деления поровну
+              href: ../financials/localizations/tasks/create-lump-sum-depreciation-assets-equally-divided-method.md
+            - name: Определение периода простоя основного средства и проверка процесса амортизации
+              href: ../financials/localizations/tasks/define-asset-idle-period-validate-depreciation-process.md
+            - name: Амортизация и начисление расходов на выплату процентов по обязательствам выбытия актива
+              href: ../financials/localizations/tasks/depreciate-accrue-interest-expense.md
+            - name: Амортизация основных средств с разнесенной записью сокращения
+              href: ../financials/localizations/tasks/depreciation-fixed-assets-reduction-entry-posted.md
+            - name: Вопросы и ответы по амортизации
+              href: ../financials/localizations/apac-jpn-fixed-asset-depreciation.md
+            - name: Выбытие основного средства с записью сокращения
+              href: ../financials/localizations/tasks/dispose-fixed-asset-reduction-entry.md
+            - name: Включение формата файлов платежей JBA
+              href: ../financials/localizations/tasks/jba-payment-file-format.md
+            - name: Ввод графика курса амортизации и связывание с методом амортизации
+              href: ../financials/localizations/tasks/enter-depreciation-rate-schedule.md
+            - name: Метод амортизации с делением поровну
+              href: ../financials/localizations/apac-jpn-equally-divided-depreciation-method.md
+            - name: Форма 26 для декларации подлежащего амортизации налога
+              href: ../financials/localizations/tasks/jp-00027-form-26-depreciable-tax-declaration.md
+            - name: Создание файла платежей EFT в формате JBA
+              href: ../financials/localizations/tasks/eft-payment-file-jba-format.md
+            - name: Создание и разноска сборов по платежам
+              href: ../financials/localizations/tasks/post-payment-fee.md
+            - name: Создание отчета по налогу на потребление
+              href: ../financials/localizations/tasks/japan-consumption-tax-report.md
+            - name: 'Учет с постоянным снижением в единице, генерирующей денежные средства'
+              href: ../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md
+            - name: Учет с постоянным снижением
+              href: ../financials/localizations/apac-jpn-impairment-accounting-fixed-assets.md
+            - name: Импорт платежа клиента с форматом файла JBA
+              href: ../financials/localizations/tasks/import-customer-payment-jba-file-format.md
+            - name: Импорт почтовых индексов
+              href: ../financials/localizations/apac-jpn-import-postal-codes.md
+            - name: Журнал ввода в форме T-образного счета
+              href: ../financials/localizations/tasks/jp-00005-input-journal-t-account-form-japan.md
+            - name: Запрос по проводкам обязательств выбытия активов
+              href: ../financials/localizations/tasks/inquiries-asset-retirement-obligation.md
+            - name: 'Запрос по расходам, которые подлежат вычету'
+              href: ../financials/localizations/tasks/inquiry-deductible-expenses.md
+            - name: Запрос по сборам по платежам в журнале
+              href: ../financials/localizations/tasks/inquiries-payment-fee-journal.md
+            - name: 'Ведение файлов справочника основных средств для расходов, которые подлежат вычету'
+              href: ../financials/localizations/tasks/maintain-fixed-asset-master-data-files-deductible-expenses.md
+            - name: Ведение индикаторов постоянного снижения стоимости отдельных активов
+              href: ../financials/localizations/tasks/maintain-impairment-indicators-individual-assets.md
+            - name: Оплата поставщику путем индоссирования переводного векселя
+              href: ../financials/localizations/apac-jpn-endorse-bill-of-exchange.md
+            - name: Оплата проводки по поставщику за счет утверждения переводного векселя клиента
+              href: ../financials/localizations/tasks/pay-vendor-transaction.md
+            - name: Периодическое сопоставление завышенной и заниженной амортизации
+              href: ../financials/localizations/tasks/periodic-settlement-over-under-depreciation.md
+            - name: Прогрессивный расчет подоходного налога
+              href: ../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md
+            - name: Предложение дополнительной амортизации
+              href: ../financials/localizations/tasks/propose-additional-depreciation.md
+            - name: Предложение и разноска ускоренной амортизации
+              href: ../financials/localizations/tasks/propose-post-accelerated-depreciation.md
+            - name: Предложение и разноска суммы постоянного снижения стоимости по партии
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-batch.md
+            - name: Предложение и разноска суммы постоянного снижения стоимости с использованием журнала основных средств
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-fixed-asset-journal.md
+            - name: 'Предложение и разноска суммы постоянного снижения стоимости по единице, генерирующей денежные средства'
+              href: ../financials/localizations/tasks/propose-post-impairment-amount-cash-generating-unit.md
+            - name: Предложение специальной амортизации
+              href: ../financials/localizations/tasks/propose-special-depreciation.md
+            - name: Повторное открытие и редактирование консолидированной накладной клиента
+              href: ../financials/localizations/tasks/reopen-edit-customer-consolidated-invoice.md
+            - name: Повторное открытие и редактирование консолидированной накладной поставщика
+              href: ../financials/localizations/tasks/reopen-edit-vendor-consolidated-invoice.md
+            - name: Отмена утвержденного переводного векселя
+              href: ../financials/localizations/tasks/reverse-endorsed-bill-exchange.md
+            - name: Выполнение проверки распознавания и вычисление суммы постоянного снижения стоимости по отдельным активам
+              href: ../financials/localizations/tasks/run-recognition-test-calculate.md
+            - name: 'Настройка клиента и заказа на продажу так, чтобы они были целью консолидированной накладной'
+              href: ../financials/localizations/tasks/set-up-customer-sales-order-target-consolidated-invoice.md
+            - name: Настройка обязательств по выбытию активов (ARO)
+              href: ../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md
+            - name: Настройка документов обязательств о выбытии активов и ввод суммы ARO по основному средству
+              href: ../financials/localizations/tasks/set-up-asset-retirement-obligation.md
+            - name: Настройка консолидированных накладных
+              href: ../financials/localizations/tasks/set-up-consolidated-invoices.md
+            - name: Настройка общих параметров и профиля разноски учета постоянного снижения стоимости
+              href: ../financials/localizations/tasks/impairment-accounting.md
+            - name: Настройка отчета о налоге на потребление для Японии
+              href: ../financials/localizations/tasks/setup-japan-consumption-tax-report.md
+            - name: Настройка платежа за счет утверждения переводного векселя клиента для Японии
+              href: ../financials/localizations/tasks/setup-japan-payment-endorsing-customer-bill-exchange.md
+            - name: 'Настройка справочника для включения расходов, которые подлежат вычету, для нескольких слоев разноски'
+              href: ../financials/localizations/tasks/set-up-master-data-inclusion.md
+            - name: Настройка сборов по платежам для Японии
+              href: ../financials/localizations/tasks/setup-payment-fee-japan.md
+            - name: Настройка записей сокращения
+              href: ../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md
+            - name: 'Настройка справочника поставщиков и заказа на покупку, который должен быть целью консолидированной накладной'
+              href: ../financials/localizations/tasks/vendor-master-po.md
+            - name: Сопоставление утвержденного переводного векселя
+              href: ../financials/localizations/tasks/settle-endorsed-bill-exchange.md
+            - name: Сопоставление консолидированных накладных клиента с использованием журнала платежей
+              href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-payment-journal.md
+            - name: Сопоставление консолидированных накладных клиента с использованием сопоставления проводок
+              href: ../financials/localizations/tasks/settle-customer-consolidated-invoices-settle-transactions.md
+            - name: Сопоставление консолидированных накладных поставщика с использованием журнала платежей
+              href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-payment-journal.md
+            - name: Сопоставление консолидированных накладных поставщика с использованием сопоставления проводок
+              href: ../financials/localizations/tasks/settle-vendor-consolidated-invoices-settle-transactions.md
+            - name: Использование списка сборки для основных средств
+              href: ../financials/localizations/tasks/use-assemble-list-fixed-asset.md
+            - name: Использование списка разборки для основных средств
+              href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
+        - name: Латвия
+          href: ../financials/localizations/latvia.md
+          items:
+            - name: Учет основных средств
+              href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
+            - name: Отслеживание изменений местонахождения основных средств
+              href: ../financials/localizations/emea-lva-fixed-assets-location-fields-change.md
+            - name: Нумерация накладных и отборочных накладных
+              href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
+            - name: Отчет по налогам на использование природных ресурсов
+              href: ../financials/localizations/emea-lva-tax-natural-resources.md
+            - name: Сведения для отчета по НДС
+              href: ../financials/localizations/emea-lva-vat-statement-details.md
+        - name: Литва
+          href: ../financials/localizations/lithuania.md
+          items:
+            - name: Отчет по ремонту основных средств
+              href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
+            - name: Создание документа о перемещении ОС между складами
+              href: ../financials/localizations/tasks/lt-00003-fixed-asset-transfer.md
+            - name: Нумерация накладных и отборочных накладных
+              href: ../financials/localizations/emea-invoices-packing-slips-numbering.md
+            - name: Сведения для отчета по НДС
+              href: ../financials/localizations/emea-ltu-vat-statement-details.md
+        - name: Малайзия
+          href: ../financials/localizations/malaysia.md
+          items:
+            - name: Создание кредита клиента для продаж по проектам
+              href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
+            - name: Создание дебета клиента для продаж по проектам
+              href: ../financials/localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
+            - name: Налог на товары и услуги (GST)
+              href: ../financials/localizations/apac-mys-gst.md
+            - name: GST — создание файлов GAF в требуемом формате
+              href: ../financials/localizations/tasks/my-00010-gst-gaf-files-required-format.md
+            - name: Управление дебетом и кредитом клиента для GST
+              href: ../financials/localizations/tasks/my-00003-manage-customer-debit-note-credit-note-gst.md
+            - name: Управление дебетом и кредитом поставщика для GST
+              href: ../financials/localizations/tasks/my-00004-manage-vendor-debit-note-credit-note-gst.md
+            - name: Печать накладных клиента GST с предложением сброса
+              href: ../financials/localizations/tasks/my-00006-02-print-gst-customer-invoices-relief-clause.md
+            - name: Печать налоговых накладных GST
+              href: ../financials/localizations/tasks/my-00005-print-gst-tax-invoices.md
+            - name: Накладные с самостоятельным выставлением счетов
+              href: ../financials/localizations/tasks/my-00007-self-billed-invoices.md
+            - name: Настройка предложений сброса GST
+              href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
+        - name: Мексика
+          href: ../financials/localizations/mexico.md
+          items:
+            - name: Область локализации
+              href: ../financials/localizations/latam-mex-scope.md
+            - name: Декларация о поправке на инфляцию
+              href: ../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md
+            - name: Отмена электронной накладной
+              href: ../financials/localizations/tasks/mx-00010-cancel-electronic-invoice.md
+            - name: CFDI версии 3.3
+              href: ../financials/localizations/latam-mex-cfdi-3-3.md
+            - name: Коды регистрации клиентов и другая информация
+              href: ../financials/localizations/tasks/mx-00007-customer-registration-ids-other-information.md
+            - name: Декларация DIOT
+              href: ../financials/localizations/latam-mex-diot-declaration-statement.md
+            - name: Электронные накладные CFDI
+              href: ../financials/localizations/tasks/mx-00010-e-invoicing-cfdi.md
+            - name: Электронные накладные
+              href: ../financials/localizations/latam-mex-CFDI-electronic-invoices.md
+            - name: Электронные отчеты по счетам ГК
+              href: ../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md
+            - name: Ввод кодов регистрации налога для мексиканских юридических лиц
+              href: ../financials/localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
+            - name: Запрос и печать электронной накладной
+              href: ../financials/localizations/tasks/mx-00010-inquire-print-electronic-invoice.md
+            - name: Декларация ISR
+              href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
+            - name: Разноска накладной с произвольным текстом
+              href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
+            - name: Создание версии 1.1 мексиканского отчета электронного учета ГК
+              href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
+            - name: Настройка параметров для электронной накладной
+              href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
+            - name: Настройка налоговых кодов для Мексики
+              href: ../financials/localizations/tasks/mx-00006-sales-tax-code.md
+            - name: Настройка плана счетов для юридического лица в Мексике
+              href: ../financials/localizations/tasks/mx-00020-chart-accounts-legal-entity-mexico.md
+            - name: Определение кода регистрации RFC для мексиканских банковских счетов
+              href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
+            - name: Коды регистрации поставщиков
+              href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
+        - name: Голландия
+          href: ../financials/localizations/netherlands.md
+          items:
+            - name: Электронная налоговая декларация (EVAT)
+              href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
+            - name: Интеграция Semansys XBRL
+              href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
+        - name: Норвегия
+          href: ../financials/localizations/norway.md
+          items:
+            - name: Форматы платежей клиентов и поставщиков
+              href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
+            - name: Платеж клиента на основе идентификатора платежа
+              href: ../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md
+            - name: Формат импорта Nets
+              href: ../financials/localizations/emea-nor-nets-import-format.md
+            - name: Отчет по НДС
+              href: ../financials/localizations/emea-nor-sales-tax-payment-report.md
+            - name: Контрольно-кассовые машины
+              href: ../retail/localizations/emea-nor-cash-registers.md?toc=/fin-and-ops/toc.json
+            - name: Рекомендации по развертыванию контрольно-кассовых машин
+              href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+        - name: Польша
+          href: ../financials/localizations/poland.md
+          items:
+            - name: Расчет скидок по строке из цены за единицу
+              href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
+            - name: Корректирующие документы
+              href: ../financials/localizations/emea-pol-correction-notes.md
+            - name: Нумерация дубликатов накладных по продаже
+              href: ../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md
+            - name: Амортизация ОС
+              href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
+            - name: Расширение функциональности выбытия основных средств
+              href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: Возвращаемая упаковка
+              href: ../financials/localizations/emea-pol-returnable-packages.md
+            - name: Налоговые отчеты
+              href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: Стандартный файл аудита
+              href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
+            - name: Процент налога и свободный процент
+              href: ../financials/localizations/emea-pol-interest-calculation.md
+            - name: Оборотно-сальдовая ведомость
+              href: ../financials/localizations/emea-pol-turnover-balances-statement.md
         - name: Саудовская Аравия
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2183,6 +2121,82 @@
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: Отчетность Zakat для Саудовской Аравии
               href: ../financials/localizations/emea-sau-zakat-reporting.md
+        - name: Сингапур
+          href: ../financials/localizations/singapore.md
+          items:
+            - name: Создание отчета GST-05
+              href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
+        - name: Испания
+          href: ../financials/localizations/spain.md
+          items:
+            - name: Применение скидок по оплате в накладной
+              href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
+            - name: Параметры переводного векселя
+              href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: Условные налоги
+              href: ../financials/localizations/emea-esp-conditional-sales-tax.md
+            - name: Кредитование при обработке накладной
+              href: ../financials/localizations/tasks/emea-esp-credit-invoicing.md
+            - name: Финансовые данные из счета по накладной
+              href: ../financials/localizations/emea-esp-fiscal-data-invoice-account.md
+            - name: Переоценка группы основных средств
+              href: ../financials/localizations/emea-esp-fixed-asset-group-revaluation.md
+            - name: Внутренний НДС (ЕС)
+              href: ../financials/localizations/emea-esp-intra-community-vat.md
+            - name: Разовые клиенты
+              href: ../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md
+            - name: Печать чеков в испанском формате
+              href: ../financials/localizations/emea-esp-print-checks-with-spanish-layout.md
+            - name: Параметры простого векселя
+              href: ../financials/localizations/emea-esp-promissory-note-options.md
+            - name: Отчет 340
+              href: ../financials/localizations/emea-esp-report-340.md
+            - name: Циклы продажи и покупки
+              href: ../financials/localizations/emea-esp-sales-purchase-cycle.md
+            - name: Специальные записи и открывающие ведомости
+              href: ../financials/localizations/emea-esp-opening-sheets-spain.md
+        - name: Швеция
+          href: ../financials/localizations/sweden.md
+          items:
+            - name: Экспорт финансовой информации для аудиторов в Швеции
+              href: ../financials/localizations/emea-swe-sie-standard-report.md
+            - name: Импорт форматов платежей
+              href: ../financials/localizations/emea-swe-payment-formats-import.md
+            - name: Контрольно-кассовые машины
+              href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
+        - name: Швейцария
+          href: ../financials/localizations/switzerland.md
+          items:
+            - name: Импорт платежей клиентов в ESR
+              href: ../financials/localizations/emea-che-esr-customer-payments-import.md
+        - name: Таиланд
+          href: ../financials/localizations/thailand.md
+          items:
+            - name: Отчеты по картам запасов
+              href: ../financials/localizations/apac-tha-stock-card-reports.md
+            - name: Накладная по налогам для подстановки или корректировки
+              href: ../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md
+            - name: Нереализованный НДС
+              href: ../financials/localizations/apac-tha-unrealized-vat.md
+            - name: Подоходный налог
+              href: ../financials/localizations/apac-tha-withholding-tax.md
+        - name: Великобритания
+          href: ../financials/localizations/united-kingdom.md
+          items:
+            - name: Construction Industry Scheme
+              href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
+            - name: Создание кредита по скидке при сопоставлении
+              href: ../financials/localizations/tasks/gb-00009-credit-note-settlement-discount.md
+            - name: 'Создание заказа на покупку, включающего номенклатуры, по которым производится удержание НДС с покупателя'
+              href: ../financials/localizations/tasks/purchase-order-reverse-charge-vat.md
+            - name: 'Создание заказа на продажу, включающего номенклатуры, по которым производится удержание НДС с покупателя'
+              href: ../financials/localizations/tasks/gb-00002-sales-order.md
+            - name: 'Настройка налоговых групп номенклатур для НДС, удерживаемого с покупателя'
+              href: ../financials/localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
+            - name: 'Настройка номенклатурных групп, правил и параметров НДС, удерживаемого с покупателя'
+              href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
+            - name: 'Настройка налоговых групп для НДС, удерживаемого с покупателя'
+              href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
         - name: США
           href: ../financials/localizations/united-states.md
           items:
@@ -2195,26 +2209,68 @@
       items:
         - name: Разработка стратегии управления персоналом
           items:
+            - name: Создание целей
+              href: hr/tasks/create-goal.md
             - name: 'Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц'
               href: ../talent/departments-jobs-positions.md
             - name: Настройка компонентов должности
               href: ../talent/create-job.md
+            - name: Определение новых подразделений
+              href: hr/tasks/define-new-departments.md
+            - name: Определение новых должностей
+              href: hr/tasks/define-new-jobs.md
             - name: Создание подразделения и связывание его с иерархией подразделений
               href: ../talent/create-department-add-department-hierarchy.md
+            - name: Создание календарей и создание рабочего времени
+              href: hr/tasks/create-calendar-working-times.md
             - name: Настройка параметров управления персоналом для нескольких юридических лиц
               href: ../talent/set-up-hr-parameters-across-legal-entities.md
             - name: Настройка параметров управления персоналом для конкретной компании
               href: ../talent/set-up-company-specific-hr-parameters.md
             - name: Вопросы и ответы по действиям персонала
               href: ../talent/personnel-actions-faq.md
-            - name: Использование бизнес-правил для управления сведениями о сотрудниках
+            - name: Использование бизнес-правила для управления сведениями о сотрудниках
               href: ../talent/workflow-manage-employee-information.md
+            - name: Изменение отношений подотчетности для должностей
+              href: hr/tasks/modify-reporting-relationships-position.md
+            - name: Утверждение записей входящих заявлений
+              href: hr/tasks/approve-application-inbox-records.md
+            - name: Ввод сведений о работнике
+              href: hr/tasks/enter-worker-information.md
+            - name: Одалживание номенклатур работникам
+              href: hr/tasks/loan-item-worker.md
+            - name: Создание одалживаемых номенклатур
+              href: hr/tasks/create-loan-items.md
+            - name: 'Управление номенклатурами, сданными в аренду работникам'
+              href: ../talent/loan-items.md
+            - name: Разработка плана преемственности
+              href: hr/tasks/develop-succession-plan.md
+            - name: Ввод табелей учета рабочего времени проекта
+              href: hr/tasks/enter-project-timesheets.md
+            - name: Управление шаблонами электронной почты
+              href: hr/tasks/manage-email-templates.md
+            - name: Управление отпусками
+              href: hr/tasks/manage-leave-absence.md
         - name: Набор сотрудников
           items:
             - name: Управление процессами набора сотрудников
               href: hr/manage-recruiting-process.md
             - name: Проекты по массовому набору сотрудников
               href: hr/mass-hire-projects.md
+            - name: Создание проектов по массовому набору сотрудников
+              href: hr/tasks/create-mass-hire-project.md
+            - name: Ввод кандидата и данных заявления вручную
+              href: hr/tasks/enter-applicant-application-data-manually.md
+            - name: Разработка и открытие заявок на должность
+              href: hr/tasks/develop-open-job-requisition.md
+            - name: Настройка должностей
+              href: hr/tasks/set-up-positions.md
+            - name: Прием на работу кандидатов через набор сотрудников
+              href: hr/tasks/hire-candidate-through-recruiting.md
+            - name: Прием на работу действующих сотрудников через набор сотрудников
+              href: hr/tasks/hire-existing-employee-through-recruiting.md
+            - name: Определение и развертывание средств выбора кандидатов
+              href: hr/tasks/identify-deploy-candidate-selection-tools.md
         - name: Мотивация сотрудников
           items:
             - name: Планы компенсационных выплат
@@ -2223,8 +2279,22 @@
               href: ../talent/create-fixed-compensation-plans.md
             - name: Создание планов переменной компенсации
               href: ../talent/create-variable-compensation-plans.md
-            - name: Обработка компенсаций
+            - name: Определение процессов компенсации и расчет результатов
+              href: hr/tasks/define-compensation-process-calculate-results.md
+            - name: Обработка компенсации
               href: ../talent/process-compensation.md
+            - name: Настройка сеток компенсаций
+              href: hr/tasks/set-up-compensation-grids.md
+            - name: Разработка структур и планов зарплаты/компенсации
+              href: hr/tasks/develop-salary-compensation-structure-plan.md
+            - name: Добавление данных в журнал производительности и отправка похвалы
+              href: hr/tasks/add-your-performance-journal-send-praise-someone.md
+            - name: Включение сотрудников в план фиксированной компенсации
+              href: hr/tasks/enroll-employee-fixed-compensation-plan.md
+            - name: Включение сотрудников в план переменной компенсации
+              href: hr/tasks/enroll-employee-variable-compensation-plan.md
+            - name: Создание оценок производительности
+              href: hr/tasks/create-performance-review.md
         - name: Развитие и обучение сотрудников
           items:
             - name: Обзор управления производительностью
@@ -2239,18 +2309,38 @@
               href: ../talent/manage-benefit-program.md
             - name: Политики прав на льготы
               href: ../talent/benefit-eligibility-policies.md
-            - name: 'Управление номенклатурами, сданными в аренду работникам'
-              href: ../talent/loan-items.md
+            - name: Процесс работы с правами на льготы
+              href: hr/tasks/benefit-eligibility-process.md
+            - name: Определение правил и политик проверки прав на льготы
+              href: hr/tasks/define-benefit-eligibility-rules-policies.md
+            - name: Реализация программы льгот сотрудника
+              href: hr/tasks/deliver-employee-benefits-program.md
+            - name: Создание новых льгот
+              href: hr/tasks/create-new-benefit.md
+            - name: Регистрация работников на получение льготы и удаление льгот для работников
+              href: hr/tasks/enroll-remove-benefits-workers.md
+            - name: Управление датами окончания срока действия льгот
+              href: hr/tasks/manage-benefit-expiration-dates.md
         - name: Сбор сведений с помощью анкет
           items:
             - name: Анкеты
               href: ../talent/questionnaires.md
             - name: Разработка анкеты
               href: ../talent/design-questionnaires.md
-            - name: Распространение и заполнение анкет
+            - name: Распространение и заполнение анкеты
               href: ../talent/distribute-questionnaires.md
+            - name: Распределение анкет с помощью планирования
+              href: hr/tasks/distribute-questionnaires-scheduling.md
             - name: Оценка результатов анкеты
               href: ../talent/evaluate-questionnaire-results.md
+            - name: Анализ результатов анкеты
+              href: hr/tasks/analyze-questionnaire-results.md
+            - name: Создание открытых вопросов
+              href: hr/tasks/create-open-ended-question.md
+            - name: Создание закрытых вопросов
+              href: hr/tasks/create-closed-ended-question.md
+            - name: 'Создание вопросов, зависящих от ответа на предыдущий вопрос'
+              href: hr/tasks/make-question-dependent-answer-previous-question.md
         - name: Безопасность и соответствие рабочего места (США)
           items:
             - name: Проверка формы I-9
@@ -2263,6 +2353,10 @@
               href: hr/localizations/noam-usa-comply-ada.md
             - name: Управление проживанием работников
               href: hr/localizations/tasks/manage-worker-accommodations.md
+            - name: Настройка информации о травмах и заболеваниях
+              href: hr/tasks/set-up-injury-illness-information.md
+            - name: Ведение сведений о травмах и заболеваниях сотрудников
+              href: hr/tasks/maintain-employee-injury-illness-information.md
         - name: 'Зарплата, США'
           href: hr/localizations/noam-usa-payroll.md
           items:
@@ -2331,88 +2425,6 @@
                   href: hr/localizations/noam-usa-payroll-data-updates.md
                 - name: Стандартные отчеты по заработной плате
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
-        - name: Задачи по управлению персоналом
-          items:
-            - name: Добавление данных в журнал производительности и отправка похвалы
-              href: hr/tasks/add-your-performance-journal-send-praise-someone.md
-            - name: Анализ результатов анкеты
-              href: hr/tasks/analyze-questionnaire-results.md
-            - name: Одобрение записей входящих заявлений
-              href: hr/tasks/approve-application-inbox-records.md
-            - name: Процесс работы с правами на льготы
-              href: hr/tasks/benefit-eligibility-process.md
-            - name: Создание календарей и создание рабочего времени
-              href: hr/tasks/create-calendar-working-times.md
-            - name: Создание закрытых вопросов
-              href: hr/tasks/create-closed-ended-question.md
-            - name: Создание целей
-              href: hr/tasks/create-goal.md
-            - name: Создание одалживаемых номенклатур
-              href: hr/tasks/create-loan-items.md
-            - name: Создание проектов по массовому набору сотрудников
-              href: hr/tasks/create-mass-hire-project.md
-            - name: Создание новых льгот
-              href: hr/tasks/create-new-benefit.md
-            - name: Создание открытых вопросов
-              href: hr/tasks/create-open-ended-question.md
-            - name: Создание оценок производительности
-              href: hr/tasks/create-performance-review.md
-            - name: Определение правил и политик проверки прав на льготы
-              href: hr/tasks/define-benefit-eligibility-rules-policies.md
-            - name: Определение процессов компенсации и расчет результатов
-              href: hr/tasks/define-compensation-process-calculate-results.md
-            - name: Определение новых подразделений
-              href: hr/tasks/define-new-departments.md
-            - name: Определение новых должностей
-              href: hr/tasks/define-new-jobs.md
-            - name: Реализация программы льгот сотрудника
-              href: hr/tasks/deliver-employee-benefits-program.md
-            - name: Разработка и открытие заявок на должность
-              href: hr/tasks/develop-open-job-requisition.md
-            - name: Разработка структур и планов зарплаты/компенсации
-              href: hr/tasks/develop-salary-compensation-structure-plan.md
-            - name: Разработка плана преемственности
-              href: hr/tasks/develop-succession-plan.md
-            - name: Распределение анкет с помощью планирования
-              href: hr/tasks/distribute-questionnaires-scheduling.md
-            - name: Включение сотрудников в план фиксированных компенсаций
-              href: hr/tasks/enroll-employee-fixed-compensation-plan.md
-            - name: Включение сотрудников в план переменных компенсаций
-              href: hr/tasks/enroll-employee-variable-compensation-plan.md
-            - name: Регистрация работников на получение льготы и удаление льгот для работников
-              href: hr/tasks/enroll-remove-benefits-workers.md
-            - name: Ввод кандидата и данных заявления вручную
-              href: hr/tasks/enter-applicant-application-data-manually.md
-            - name: Ввод табелей учета рабочего времени проекта
-              href: hr/tasks/enter-project-timesheets.md
-            - name: Ввод сведений о работнике
-              href: hr/tasks/enter-worker-information.md
-            - name: Прием на работу кандидатов через набор сотрудников
-              href: hr/tasks/hire-candidate-through-recruiting.md
-            - name: Прием на работу действующих сотрудников через набор сотрудников
-              href: hr/tasks/hire-existing-employee-through-recruiting.md
-            - name: Определение и развертывание средств выбора кандидатов
-              href: hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Одалживание номенклатур работникам
-              href: hr/tasks/loan-item-worker.md
-            - name: Ведение сведений о травмах и заболеваниях сотрудников
-              href: hr/tasks/maintain-employee-injury-illness-information.md
-            - name: 'Создание вопросов, зависящих от ответа на предыдущий вопрос'
-              href: hr/tasks/make-question-dependent-answer-previous-question.md
-            - name: Управление сроками действия льгот
-              href: hr/tasks/manage-benefit-expiration-dates.md
-            - name: Управление шаблонами электронной почты
-              href: hr/tasks/manage-email-templates.md
-            - name: Управление отпусками
-              href: hr/tasks/manage-leave-absence.md
-            - name: Изменение отношений подотчетности для должностей
-              href: hr/tasks/modify-reporting-relationships-position.md
-            - name: Настройка сеток компенсаций
-              href: hr/tasks/set-up-compensation-grids.md
-            - name: Настройка информации о травмах и заболеваниях
-              href: hr/tasks/set-up-injury-illness-information.md
-            - name: Настройка должностей
-              href: hr/tasks/set-up-positions.md
     - name: Бизнес-аналитика
       href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
       items:
@@ -3635,6 +3647,8 @@
               href: ../supply-chain/sales-marketing/tasks/register-sales-commissions.md
             - name: Настройка правил комиссий продаж
               href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
+        - name: Торговая скидка
+          href: ../supply-chain/sales-marketing/trade-allowance.md
     - name: Управление сервисным обслуживанием
       href: ../supply-chain/service-management/service-management-home-page.md
       items:
