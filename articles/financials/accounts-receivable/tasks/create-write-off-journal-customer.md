@@ -3,7 +3,7 @@ title: "Создание журнала списания для клиента"
 description: "В этом руководстве по задаче показано, как настроить параметры для списания, а затем списать проводки на странице \"Сборы\", странице \"Открытые накладные клиента\" и странице \"Клиент\"."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

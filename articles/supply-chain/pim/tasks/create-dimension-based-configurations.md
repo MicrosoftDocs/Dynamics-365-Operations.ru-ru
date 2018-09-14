@@ -3,7 +3,7 @@ title: "Создание конфигураций на основе аналит
 description: "В этой процедуре показано, как определить конфигурацию для продукта на основе аналитик."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

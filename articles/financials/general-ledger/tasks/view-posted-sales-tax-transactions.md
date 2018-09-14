@@ -3,7 +3,7 @@ title: "Просмотр разнесенных проводок налога"
 description: "Можно просмотреть разнесенные налоговые проводки на другой странице в зависимости от того, что необходимо просмотреть."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Настройка кодов налоговой отчетности"
 description: "Эти коды налоговой отчетности ссылаются на номер поля в налоговом отчете."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

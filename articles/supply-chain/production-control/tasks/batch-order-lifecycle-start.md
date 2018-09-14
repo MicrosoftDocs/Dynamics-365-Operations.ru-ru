@@ -3,7 +3,7 @@ title: "Жизненный цикл заказа партии от создан�
 description: "Эта процедура включает выполнение первой части жизненного цикла заказа партии."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

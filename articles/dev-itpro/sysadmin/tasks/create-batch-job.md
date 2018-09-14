@@ -3,7 +3,7 @@ title: "Создание пакетного задания"
 description: "Пакетное задание — это группа задач, отправляемых в экземпляр AOS для автоматической обработки."
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

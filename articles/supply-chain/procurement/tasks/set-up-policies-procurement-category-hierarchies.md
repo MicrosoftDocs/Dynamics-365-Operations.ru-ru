@@ -3,7 +3,7 @@ title: "Настройка политик для иерархий категор
 description: "Эта процедура используется, чтобы настроить для заказа продукции в категории."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

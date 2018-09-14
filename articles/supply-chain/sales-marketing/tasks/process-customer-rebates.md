@@ -3,7 +3,7 @@ title: "Создание и обработка ретробонусов клие
 description: "В этой процедуре демонстрируется обработка ретробонусов клиентам от момента формирования требования до передачи их в виде начислений в модуль \"Расчеты с клиентами\"."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

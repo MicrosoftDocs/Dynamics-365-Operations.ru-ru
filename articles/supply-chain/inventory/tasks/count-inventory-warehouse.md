@@ -3,7 +3,7 @@ title: "Учет запасов на складе"
 description: "Эта процедура позволяет создать и разнести журнал инвентаризации запасов для подсчета конкретной номенклатуры в местонахождении на складе."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

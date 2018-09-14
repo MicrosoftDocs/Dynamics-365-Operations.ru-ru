@@ -3,7 +3,7 @@ title: "Создание налоговых проводок по докумен
 description: "Налог в документах рассчитывается путем указания налоговой группы и налоговой группы номенклатур в строках документа."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Обзор платежей клиентов"
 description: "В этом проводнике по задаче иллюстрируются различные методы ввода платежей клиентов."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Инициализация уровней запасов на склад
 description: "В этой процедуре показано, как вручную загружать обновлять запасы в наличии с использованием журнала складских проводок."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

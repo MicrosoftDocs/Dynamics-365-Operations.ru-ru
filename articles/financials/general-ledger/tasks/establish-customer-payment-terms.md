@@ -3,7 +3,7 @@ title: "Определение условий оплаты для клиенто
 description: "Эта процедура определяет настройку скидки по оплате и срока выполнения."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

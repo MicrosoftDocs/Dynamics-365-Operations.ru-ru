@@ -3,7 +3,7 @@ title: "Создайте компонентов модели продукта"
 description: "В моделях конфигурации на основе ограничений используются компоненты в качестве строительных блоков, чтобы настроить структуру модели продукта."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

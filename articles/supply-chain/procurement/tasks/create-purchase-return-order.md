@@ -3,7 +3,7 @@ title: "Создание заказа на возврат покупки"
 description: "В этой процедуре показано, как создать заказ на возврат покупки с помощью действия \"Кредит-нота\" для копирования строк из документа накладной поставщика в новый заказ на покупку."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

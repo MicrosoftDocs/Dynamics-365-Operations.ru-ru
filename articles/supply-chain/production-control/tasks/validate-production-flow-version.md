@@ -3,7 +3,7 @@ title: "Проверка производственного потока и ве
 description: "Эта процедура показывает, как создать новый производственный поток и первую версию для бережливого производства."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

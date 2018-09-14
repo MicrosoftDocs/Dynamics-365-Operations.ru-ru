@@ -3,7 +3,7 @@ title: "Регистрация отметки прибытия и отъезда
 description: "Эта процедура показывает порядок регистрации прибытия и убытия водителя."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Изменение баннера или эмблемы"
 description: "Следующая процедура перечисляет этапы, которые системные администраторы могут использовать для обновления изображения баннера или логотипа, отображаемого для юридического лица."
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

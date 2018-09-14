@@ -3,7 +3,7 @@ title: "Удаление задания канбана из плана"
 description: "В этой процедуре описывается удаление запланированного задания обработки канбана из плана путем изменения статуса задания на \"Не запланировано\"."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

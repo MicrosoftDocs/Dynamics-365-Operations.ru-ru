@@ -3,7 +3,7 @@ title: "Вернуть статус задания канбана"
 description: "Эта процедура направлена на отмену неправильных статусов заданий канбана."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

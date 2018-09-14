@@ -3,7 +3,7 @@ title: "Регистрация поступления товаров по зак
 description: "В этой процедуре показано, как зарегистрировать поступление товаров непосредственно в заказе на покупку."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

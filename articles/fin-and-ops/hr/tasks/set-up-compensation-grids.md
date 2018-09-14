@@ -3,7 +3,7 @@ title: "Настройка сеток компенсаций"
 description: "Сетки компенсации используются для определения и ведения структур оплаты для фиксированных компенсационных выплат."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

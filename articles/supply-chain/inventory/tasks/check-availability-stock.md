@@ -3,7 +3,7 @@ title: "Проверка доступности запасов"
 description: "В этой процедуре показано, как проверить запасы в наличии и физические запасы в наличии для определенного кода номенклатуры."
 author: 
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

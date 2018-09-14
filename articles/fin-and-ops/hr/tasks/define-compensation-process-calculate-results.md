@@ -3,7 +3,7 @@ title: "Определение процесса компенсации и рас
 description: "Процессы компенсации используются для определения новых сумм компенсации и вознаграждения для сотрудников, участвующих в фиксированных и переменных планах компенсаций."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Ввод договоров продажи"
 description: "В этой процедуре показано, как создать договор продажи, который обязывает одного из ваших клиентов закупить продукцию на согласованную суммы в течение определенно времени в обмен на специальные скидки."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

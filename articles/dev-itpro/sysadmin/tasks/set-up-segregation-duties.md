@@ -3,7 +3,7 @@ title: "Настройка разделения обязанностей"
 description: "Можно настроить правила для разделения задач, которые должны выполняться разными пользователями."
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

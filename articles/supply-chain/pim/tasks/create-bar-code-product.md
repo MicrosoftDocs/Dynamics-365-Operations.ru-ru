@@ -3,7 +3,7 @@ title: "Создание штрих-кода для продукта"
 description: "В этой процедуре описан порядок создания вручную штрих-кода с использованием кода номенклатуры M0001 в качестве примера."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

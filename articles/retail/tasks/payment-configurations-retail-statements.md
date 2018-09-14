@@ -3,7 +3,7 @@ title: "Конфигурации платежей для журналов опе
 description: "Эта процедура демонстрирует конфигурации способов оплаты в розничном магазине, которые влияют на то, как создаются и разносятся журналы операций розницы."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

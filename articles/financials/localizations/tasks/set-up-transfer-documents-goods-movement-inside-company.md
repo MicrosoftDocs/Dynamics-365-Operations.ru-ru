@@ -3,7 +3,7 @@ title: "Настройка документов перемещения для п
 description: "Эта процедура демонстрирует порядок создания документов перемещения для перемещения товаров внутри компании."
 author: v-oloski
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Подготовка обработки заданий канбана п
 description: "В этой задаче особое внимание обращается на подготовку задания канбана обработки, когда для производственной ячейки имеются все материалы."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

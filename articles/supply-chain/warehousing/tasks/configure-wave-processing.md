@@ -3,7 +3,7 @@ title: "Настройка обработки волн"
 description: "В этом руководстве описывается, как настроить критерии, определяющие работу, создаваемую для склада при обработке волны, и способ обработки волн (вручную или автоматически)."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Создание и связывание устройства"
 description: "Эта процедура содержит инструкции по созданию нового устройства и его связыванию с кассовым терминалом."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

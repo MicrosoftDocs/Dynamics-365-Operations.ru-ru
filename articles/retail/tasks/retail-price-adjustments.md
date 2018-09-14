@@ -3,7 +3,7 @@ title: "Корректировки розничных цен"
 description: "Эта процедура содержит инструкции по созданию корректировки розничной цены."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

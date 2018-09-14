@@ -3,7 +3,7 @@ title: "Настройка профилей разноски основных с
 description: "В этом руководстве по задаче показано, как настроить профили разноски основных средств."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

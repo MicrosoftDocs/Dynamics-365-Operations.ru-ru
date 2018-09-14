@@ -3,7 +3,7 @@ title: "Настройка работника с использованием м
 description: "В этой процедуры показано, как назначить правильные роли учетной записи пользователя работника, а затем позволить работнику регистрироваться в цеху."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

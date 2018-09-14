@@ -3,7 +3,7 @@ title: "Внесение платежей клиентов"
 description: "Депонируйте платежи клиента."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

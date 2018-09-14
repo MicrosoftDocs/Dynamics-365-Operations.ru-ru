@@ -3,7 +3,7 @@ title: "Сопоставление проводок между счетами Г
 description: "Ниже описан порядок сопоставления проводок между счетами ГК и отмена сопоставления ГК."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

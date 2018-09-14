@@ -3,7 +3,7 @@ title: "Передача данных для моделей продукта"
 description: "Для экспорта данных для модели конфигурации продукта требуется наличие по крайней мере одной модели продукта."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

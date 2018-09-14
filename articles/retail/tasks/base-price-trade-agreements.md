@@ -3,7 +3,7 @@ title: "Базовая цена и коммерческие соглашения
 description: "Эта процедура содержит инструкции по созданию коммерческих предложений по ценам продажи для конкретных каналов."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

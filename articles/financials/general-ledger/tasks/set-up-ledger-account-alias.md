@@ -3,7 +3,7 @@ title: "Настройка псевдонима счета ГК"
 description: "Ниже описан порядок создания псевдонима счета, который обеспечивает ярлык для ввода номера счета."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

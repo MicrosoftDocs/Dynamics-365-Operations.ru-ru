@@ -3,7 +3,7 @@ title: "Настройка пункта меню мобильного устро
 description: "Эта задача рассматривает настройку элемента меню мобильного устройства."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

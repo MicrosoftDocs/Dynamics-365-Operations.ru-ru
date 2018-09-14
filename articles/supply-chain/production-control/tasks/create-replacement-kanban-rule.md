@@ -3,7 +3,7 @@ title: "Создание правила канбана замены"
 description: "Эта процедура рассматривает замену существующего правила канбана на новое правило канбана на конкретную дату."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Просмотр сведений о сборе задолженност
 description: "Эта процедура содержит инструкции по просмотру сведений о сборах, а также о различных вариантах процедуры и проводках сборов."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

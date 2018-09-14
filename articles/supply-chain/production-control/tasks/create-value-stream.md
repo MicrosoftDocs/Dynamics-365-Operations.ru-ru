@@ -3,7 +3,7 @@ title: "Создание потока создания ценности"
 description: "Потоки создания ценности — это операционные единицы, группирующие один или несколько производственных потоков."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

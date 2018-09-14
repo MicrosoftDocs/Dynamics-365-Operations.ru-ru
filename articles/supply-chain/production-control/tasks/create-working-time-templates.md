@@ -3,7 +3,7 @@ title: "Создание шаблонов рабочего времени"
 description: "Шаблоны рабочего времени определяют рабочие часы в течение недели и используются для создания рабочего времени для периода времени."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

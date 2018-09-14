@@ -3,7 +3,7 @@ title: "Настройка налоговых групп и налоговых �
 description: "В этой записи задачи представлен процесс настройки налога и налоговых групп."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

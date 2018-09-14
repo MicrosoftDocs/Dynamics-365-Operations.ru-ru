@@ -3,7 +3,7 @@ title: "Создание банковского счета поставщика"
 description: "В этой процедуре показано, как создать банковский счет для поставщика."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

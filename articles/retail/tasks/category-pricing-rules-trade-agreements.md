@@ -3,7 +3,7 @@ title: "Правила ценообразования категорий для 
 description: "Эта процедура демонстрирует способ создания коммерческих соглашения по ценам продажи с использованием правила ценообразования категории."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

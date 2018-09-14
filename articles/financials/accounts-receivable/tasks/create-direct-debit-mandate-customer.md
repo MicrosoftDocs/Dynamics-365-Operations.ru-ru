@@ -3,7 +3,7 @@ title: "Создание поручения на безакцептное спи
 description: "В этом руководстве по задаче показано, как создать поручение на безакцептное списание и использовать его в накладной."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

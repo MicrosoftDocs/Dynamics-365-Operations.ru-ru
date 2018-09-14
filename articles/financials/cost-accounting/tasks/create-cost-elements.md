@@ -3,7 +3,7 @@ title: "Создание элементов затрат"
 description: "Существует несколько способов создания элементов затрат в модуле учета затрат."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

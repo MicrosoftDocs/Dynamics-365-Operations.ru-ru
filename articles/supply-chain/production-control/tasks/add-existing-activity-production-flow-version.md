@@ -3,7 +3,7 @@ title: "Добавление имеющегося мероприятия в ве
 description: "При создании новых версий производственных потоков можно выбрать добавление мероприятий, созданных для более старых версий, в новую версию."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

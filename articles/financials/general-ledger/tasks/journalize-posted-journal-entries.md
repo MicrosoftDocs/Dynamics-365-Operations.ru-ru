@@ -3,7 +3,7 @@ title: "Учет учтенных записей журнала в субкни�
 description: "Эта процедура описывает, как выполнить журнализацию разнесенных записей в журнале."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

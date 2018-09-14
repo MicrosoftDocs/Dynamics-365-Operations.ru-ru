@@ -3,7 +3,7 @@ title: "Настройка стандартной стоимости труда 
 description: "В этой процедуре показано, как настроить стандартные затраты на труд и расходы по проекту."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

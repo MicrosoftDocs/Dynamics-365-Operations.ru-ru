@@ -3,7 +3,7 @@ title: "Обновление статуса канбана"
 description: "Если канбан освобождается по ошибке или полученный канбан требуется освободить, необходимо обновить статус канбана."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

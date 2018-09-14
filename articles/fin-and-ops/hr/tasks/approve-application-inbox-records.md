@@ -3,7 +3,7 @@ title: "Одобрение записей входящих заявлений"
 description: "В этой процедуре показано рассмотрение заявлений, полученных через портал самообслуживания сотрудников."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

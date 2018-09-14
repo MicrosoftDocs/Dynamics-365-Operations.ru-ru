@@ -3,7 +3,7 @@ title: "Настройка банковских счетов компании д
 description: "В этой задаче описывается настройка сведений о банковском счете компании, которые необходимы для создания файлов платежей клиентов."
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

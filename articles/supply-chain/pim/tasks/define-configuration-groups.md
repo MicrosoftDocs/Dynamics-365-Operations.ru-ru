@@ -3,7 +3,7 @@ title: "Определение конфигурационных групп"
 description: "В этой процедуре показано, как определить конфигурационные группы продукта, путем создания двух групп в компании с демонстрационными данными USMF."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

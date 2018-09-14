@@ -3,7 +3,7 @@ title: "Создание и назначение структур дополни
 description: "Это руководство описывает создание и назначение структуры дополнительного правила в структуре счета."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

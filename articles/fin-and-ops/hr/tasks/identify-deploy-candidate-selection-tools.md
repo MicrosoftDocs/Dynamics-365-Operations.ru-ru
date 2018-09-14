@@ -3,7 +3,7 @@ title: "Определение и развертывание средств вы
 description: "Найти соответствующих кандидатов для заполнения вакансий может быть трудно, особенно если для должности требуется уникальный набор навыков."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

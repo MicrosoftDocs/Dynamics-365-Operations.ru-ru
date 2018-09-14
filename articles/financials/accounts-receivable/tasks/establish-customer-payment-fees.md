@@ -3,7 +3,7 @@ title: "Определение сборов по платежам для кли�
 description: "Создайте сборы по платежам для платежей клиентов."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

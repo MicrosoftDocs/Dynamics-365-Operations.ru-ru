@@ -3,7 +3,7 @@ title: "Добавление ограничения выражения к мод
 description: "Ниже описан порядок добавления нового выражения ограничения в модель конфигурации продукта."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

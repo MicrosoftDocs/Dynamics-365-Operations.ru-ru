@@ -3,7 +3,7 @@ title: "Включение печати меток грузомест"
 description: "Эта процедура позволяет автоматически печатать этикетку с кодом SSCC после комплектации последней номенклатуры из запасов в процессе работы комплектации для продаж."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Планирование заданий канбана"
 description: "В этой процедуре описывается планирование заданий обработки канбана для определенной производственной ячейки."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

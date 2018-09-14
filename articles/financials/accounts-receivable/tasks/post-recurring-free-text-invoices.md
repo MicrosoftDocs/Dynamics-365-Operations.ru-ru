@@ -3,7 +3,7 @@ title: "Формирование и разноска повторяющихся 
 description: "Периодические накладные используются для выставления счетов клиентам регулярно на одни и те же суммы."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

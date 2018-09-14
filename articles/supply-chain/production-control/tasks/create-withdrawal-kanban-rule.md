@@ -3,7 +3,7 @@ title: "Создание правила канбана изъятия"
 description: "В этой процедуре показано, как выполнить настройку, необходимую для создания правила канбана изъятия для перемещения материалов в среде бережливого производства."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

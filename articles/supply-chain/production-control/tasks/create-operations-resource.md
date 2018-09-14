@@ -3,7 +3,7 @@ title: "Создание операционного ресурса"
 description: "Операционный ресурс участвует в мероприятиях проекта или производственного процесса."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

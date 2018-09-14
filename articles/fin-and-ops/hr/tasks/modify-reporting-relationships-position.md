@@ -3,7 +3,7 @@ title: "Изменение отношений подотчетности для 
 description: "Ниже описан порядок изменения связи подотчетных отношений для сотрудника."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

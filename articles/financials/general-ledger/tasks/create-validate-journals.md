@@ -3,7 +3,7 @@ title: "Создание и проверка журналов"
 description: "Это руководство описывает создание и проверку журналов и строк журналов."
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

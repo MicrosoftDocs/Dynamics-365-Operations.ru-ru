@@ -3,7 +3,7 @@ title: "Определение правил покрытия для номенк
 description: "В качестве компании с демонстрационными данными для создания этой процедуры используется USMF."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

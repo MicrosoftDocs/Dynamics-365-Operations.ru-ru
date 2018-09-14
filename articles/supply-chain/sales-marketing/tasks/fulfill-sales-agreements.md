@@ -3,7 +3,7 @@ title: "Выполнение договоров продажи"
 description: "Эта процедура описывает, как выполнить договор продажи, связав с ним заказы на продажу."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

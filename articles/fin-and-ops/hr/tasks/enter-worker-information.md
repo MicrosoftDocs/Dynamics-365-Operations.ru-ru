@@ -3,7 +3,7 @@ title: "Ввод сведений о работнике"
 description: "После того как специалист по найму создал проект по массовому набору сотрудников и сформировал должности, следующий шаг — ввести сведения о работниках для лиц, нанимаемых на эти должности."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

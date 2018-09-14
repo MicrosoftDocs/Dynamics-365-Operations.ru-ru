@@ -3,7 +3,7 @@ title: "Создание свойств графика рабочего врем
 description: "Свойства графика рабочего времени используются для классификации интервалов рабочего времени и определения настроек, которые должны учитывать операторы."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

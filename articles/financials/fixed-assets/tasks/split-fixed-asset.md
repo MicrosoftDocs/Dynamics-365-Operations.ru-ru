@@ -3,7 +3,7 @@ title: "Разбивка ОС"
 description: "В данном руководстве по задаче показано, как разделить процент одной модели стоимости основного средства в новую модель стоимости основного средства."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

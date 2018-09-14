@@ -3,7 +3,7 @@ title: "Планирование производственного заказа
 description: "Следующая процедура показывает планирование производственного заказа."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

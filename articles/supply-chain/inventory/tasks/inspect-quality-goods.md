@@ -3,7 +3,7 @@ title: "Контроль качества товаров"
 description: "В этой процедуре показано, как обрабатывать заказ контроля качества."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

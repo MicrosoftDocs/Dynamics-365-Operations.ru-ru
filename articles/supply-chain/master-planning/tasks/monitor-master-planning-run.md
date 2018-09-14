@@ -3,7 +3,7 @@ title: "Мониторинг выполнения сводного планир�
 description: "Планировщик производства хочет просмотреть, выполняется ли сводное планирование."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

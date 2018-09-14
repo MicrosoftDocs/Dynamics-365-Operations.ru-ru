@@ -3,7 +3,7 @@ title: "Настройка перераспределения номенклат
 description: "На этой процедуры показано, как разрешить работникам склада быстро искать альтернативные местоположения, если нет достаточного количества запасов в ячейке, к которой они были направлены."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

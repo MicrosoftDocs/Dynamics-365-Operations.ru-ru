@@ -3,7 +3,7 @@ title: "Настройка правил и параметров для цент�
 description: "Эта процедура демонстрирует шаги по созданию правил пополнения."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Создание заказов центра обработки вызо
 description: "Эта процедура демонстрирует поиск клиента, создание нового заказа, поиск продукта и получение платежа от клиента."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

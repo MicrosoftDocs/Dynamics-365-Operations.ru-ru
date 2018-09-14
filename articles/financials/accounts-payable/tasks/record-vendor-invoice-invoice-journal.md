@@ -3,7 +3,7 @@ title: "Регистрация накладной поставщика в жур
 description: "В этом руководстве показано, как зарегистрировать накладные поставщика, которые не связаны с заказами на покупку."
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

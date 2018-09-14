@@ -3,7 +3,7 @@ title: "Настройка налоговых органов"
 description: "Налоговые органы — это юридические лица, которым отправляются налоговые отчеты и выплачиваются налоги."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

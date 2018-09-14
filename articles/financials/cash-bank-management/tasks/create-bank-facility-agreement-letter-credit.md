@@ -3,7 +3,7 @@ title: "Создание договора о банковских услугах
 description: "В этой задаче представлен процесс создания договора о банковских услугах для обработки аккредитива."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

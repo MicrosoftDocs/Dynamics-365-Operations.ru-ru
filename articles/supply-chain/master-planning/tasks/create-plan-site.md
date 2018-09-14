@@ -3,7 +3,7 @@ title: "Создание плана для сайта"
 description: "Планировщик производства рассчитывает потребности в материалах и потребности в мощностях для производства конкретной номенклатуры."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

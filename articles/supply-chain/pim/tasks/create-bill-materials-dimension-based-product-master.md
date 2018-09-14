@@ -3,7 +3,7 @@ title: "Создание спецификации для шаблона прод
 description: "Для данной процедуры необходимо завершить предыдущие 4 руководства в этой последовательности из восьми записей."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

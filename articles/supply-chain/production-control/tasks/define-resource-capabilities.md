@@ -3,7 +3,7 @@ title: "Определение возможностей ресурса"
 description: "Возможности ресурса описывают, что могут делать операционные ресурсы."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

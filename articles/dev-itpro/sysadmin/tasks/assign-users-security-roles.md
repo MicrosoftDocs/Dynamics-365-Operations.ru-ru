@@ -3,7 +3,7 @@ title: "Назначение пользователей ролям безопа�
 description: "Для доступа к Microsoft Dynamics 365 for Finance and Operations, Enterprise edition пользователи должны быть назначены ролям безопасности."
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

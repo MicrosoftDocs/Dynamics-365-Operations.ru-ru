@@ -3,7 +3,7 @@ title: "Изменение правил канбана для задания о�
 description: "Эта процедура нацелена на изменение используемого правила канбана для данного канбана."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

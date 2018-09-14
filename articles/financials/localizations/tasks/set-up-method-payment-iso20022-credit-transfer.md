@@ -3,7 +3,7 @@ title: "Настройка способов оплаты для кредитов
 description: "Эта процедура показывает, как настроить метод платежа поставщику для переноса кредита ISO20022 или любого другого типа платежа с использованием электронной отчетности для создания файла."
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

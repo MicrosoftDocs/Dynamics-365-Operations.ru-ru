@@ -3,7 +3,7 @@ title: "Планирование производственного заказа
 description: "Эта процедура рассматривает планирование производственного заказа с помощью планирования операций и планирования заданий."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

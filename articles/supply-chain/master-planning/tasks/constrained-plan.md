@@ -3,7 +3,7 @@ title: "Создание плана с ограничениями"
 description: "Следующая процедура используется для создания плана, в котором учитываются ограничения по материалам и мощности."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

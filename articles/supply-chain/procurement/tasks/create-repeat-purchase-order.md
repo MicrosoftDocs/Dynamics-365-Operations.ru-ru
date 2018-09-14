@@ -3,7 +3,7 @@ title: "Создание повторного заказа на покупку"
 description: "В этой процедуре показано, как создать повторный заказ на покупку путем копирования строк из предыдущего документа заказа на покупку в новый заказ на покупку или существующий заказа на покупку."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

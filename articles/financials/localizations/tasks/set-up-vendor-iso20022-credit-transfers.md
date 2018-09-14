@@ -3,7 +3,7 @@ title: "Настройка поставщиков и банковских сче
 description: "В этой процедуре показано, как настроить поставщика и сведения о банковском счете поставщика, необходимые для создания файла платежа переноса кредита ISO20022 или любого другого платежа поставщику."
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

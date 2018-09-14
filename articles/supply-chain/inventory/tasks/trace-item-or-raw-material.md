@@ -3,7 +3,7 @@ title: "Трассировка номенклатуры или сырья"
 description: "Эта процедура демонстрирует способ использования трассировки номенклатуры, чтобы указать, где номенклатуры или сырье использовались или используются."
 author: pjacobse
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

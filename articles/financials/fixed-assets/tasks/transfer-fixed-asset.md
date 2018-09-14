@@ -3,7 +3,7 @@ title: "Передача основного средства"
 description: "В этом руководстве по задаче показано, как переместить финансовые сведения для журнала основных средств из одного набора финансовых аналитик в новый набор финансовых аналитик."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Создание графика для сайта"
 description: "В этой процедуре показано, как запланировать производственные заказы, которые еще не начаты для сайта."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

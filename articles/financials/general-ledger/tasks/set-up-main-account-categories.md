@@ -3,7 +3,7 @@ title: "Настройка категорий счетов ГК"
 description: "Категории счетов ГК используются для отчетов по умолчанию в финансовой отчетности и в Power BI."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

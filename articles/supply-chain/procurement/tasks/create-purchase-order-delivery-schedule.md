@@ -3,7 +3,7 @@ title: "Создание заказа на покупку с графиком п
 description: "В этой процедуре показано, как создать график поставки для заказа на покупку."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

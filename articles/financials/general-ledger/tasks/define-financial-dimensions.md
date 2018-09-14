@@ -3,7 +3,7 @@ title: "Определение финансовых аналитик"
 description: "В этом руководстве показано добавление финансовой аналитики на основе объекта и пользовательской финансовой аналитики."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

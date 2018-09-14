@@ -3,7 +3,7 @@ title: "Настройка ценообразования на основе ат
 description: "В этой процедуре показано, как настроить ценообразование на основе атрибутов."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Настройка внутрихолдингового выставле
 description: "В этой процедуре показано, как настроить выставление накладных по проекту между двумя компаниями в организации."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

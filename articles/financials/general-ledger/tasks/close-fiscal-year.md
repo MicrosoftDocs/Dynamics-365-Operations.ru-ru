@@ -3,7 +3,7 @@ title: "Закрытие финансового года"
 description: "В этой процедуре описывается процесс закрытия на конец конца, который переносит сальдо в новый финансовый год."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

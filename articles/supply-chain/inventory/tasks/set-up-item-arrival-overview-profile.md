@@ -3,7 +3,7 @@ title: "Настройка профиля обзора поступления н
 description: "Эта задача заключается в настройке профиля обзора прибытия."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

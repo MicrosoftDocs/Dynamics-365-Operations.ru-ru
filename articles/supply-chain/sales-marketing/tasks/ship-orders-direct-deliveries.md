@@ -3,7 +3,7 @@ title: "Отгрузка заказов как прямых поставок"
 description: "В этой процедуре показано, как создать прямую поставку для заказа на продажу."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

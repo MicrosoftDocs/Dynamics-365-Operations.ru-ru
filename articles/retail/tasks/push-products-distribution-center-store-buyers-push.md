@@ -3,7 +3,7 @@ title: "Распределение продуктов из центров рас
 description: "Эта процедура содержит инструкции по созданию и обработке централизованного распределения для распределения продуктов из одного местоположения между одним или несколькими магазинами."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

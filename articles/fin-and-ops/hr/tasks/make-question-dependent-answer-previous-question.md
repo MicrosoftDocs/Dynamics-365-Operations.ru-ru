@@ -3,7 +3,7 @@ title: "Создание вопроса, зависящего от ответа 
 description: "Зависимые вопросы позволяют указать, какой следующий вопрос будет предложен респонденту, в зависимости от ответа на предыдущий вопрос."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

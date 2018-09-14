@@ -3,7 +3,7 @@ title: "Настройка амортизационной премии"
 description: "В этой процедуре показано, как создать амортизационную премию и связать ее с моделью стоимости ОС."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

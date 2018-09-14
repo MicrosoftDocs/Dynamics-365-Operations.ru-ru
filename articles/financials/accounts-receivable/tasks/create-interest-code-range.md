@@ -3,7 +3,7 @@ title: "Создание кода процента с диапазоном"
 description: "Коды процента можно настроить для расчета различных сумм процента на основе диапазона значений."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Изменение соглашений по амортизации дл
 description: "В результате этой задачи будет обновлено соглашение по амортизации для указанной группы основных средств."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

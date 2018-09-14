@@ -3,7 +3,7 @@ title: "Настройка основного часового пояса пол
 description: "В следующей процедуре объясняется, как пользователь в роли \"Системный администратор\" может настроить часовой пояс для пользователя."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

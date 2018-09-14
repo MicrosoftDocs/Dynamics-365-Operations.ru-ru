@@ -3,7 +3,7 @@ title: "Добавление предшествующего элемента к 
 description: "В версии производственного потока все мероприятия должны быть последовательными."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

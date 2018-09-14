@@ -3,7 +3,7 @@ title: "Изменение даты для сеанса"
 description: "По умолчанию текущая дата используется при вводе и разноске записей журналов или документов-источников."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
