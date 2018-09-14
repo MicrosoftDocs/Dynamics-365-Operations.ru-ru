@@ -3,7 +3,7 @@ title: "Создание формулы путем копирования из �
 description: "Ниже описан порядок быстрого создания новой формулы путем копирования из существующей формулы."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: a9e8fb3aa45b814e0c3f26cd81d0aca26cfcaed7
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c831f3ac78e5ee7b348c72b9e7ebc699a62ec013
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a><span data-ttu-id="fbeea-103">Создание формулы путем копирования из существующей формулы</span><span class="sxs-lookup"><span data-stu-id="fbeea-103">Create a formula by copying from an existing formula</span></span>

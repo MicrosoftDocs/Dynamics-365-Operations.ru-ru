@@ -3,7 +3,7 @@ title: "Создание и связывание регистраторов"
 description: "В этой процедуре показано, как создать регистр POS."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 92eb4e0ccbf0d402619dea2f8506cf65dc02e75c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 07e4b9f32a3a74b273272bd0b759d35c2a963e2e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-and-associate-registers"></a><span data-ttu-id="2a1be-103">Создание и связывание регистраторов</span><span class="sxs-lookup"><span data-stu-id="2a1be-103">Create and associate registers</span></span>

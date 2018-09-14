@@ -3,7 +3,7 @@ title: "Жизненный цикл заказа партии от создан�
 description: "Эта процедура включает выполнение первой части жизненного цикла заказа партии."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: b04960c0f92e8871e0de99b4ebb0c69e1225d21c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 6484c1954ff4cc600938adb07b5384f1edce8bf7
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="batch-order-lifecycle-from-create-to-start"></a><span data-ttu-id="6ee1d-103">Жизненный цикл заказа партии от создания до запуска</span><span class="sxs-lookup"><span data-stu-id="6ee1d-103">Batch order lifecycle from create to start</span></span>

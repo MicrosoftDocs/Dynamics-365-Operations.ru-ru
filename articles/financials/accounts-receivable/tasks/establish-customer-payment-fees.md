@@ -3,7 +3,7 @@ title: "Определение сборов по платежам для кли�
 description: "Создайте сборы по платежам для платежей клиентов."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 3be8db49bab80fa8765b685d73d54a42975870c3
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5acb202d46ef39376a01ca592f60926786d11186
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="establish-customer-payment-fees"></a><span data-ttu-id="8db7b-103">Определение сборов по платежам для клиентов</span><span class="sxs-lookup"><span data-stu-id="8db7b-103">Establish customer payment fees</span></span>

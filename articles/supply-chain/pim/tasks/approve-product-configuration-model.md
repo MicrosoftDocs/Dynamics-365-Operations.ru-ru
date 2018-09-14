@@ -3,7 +3,7 @@ title: "Утверждение модели конфигурации проду�
 description: "Выполнение этой процедуры требует наличия не менее одной модели конфигурации продукта."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: d5d82c1be4fc7ff549ba577fda84359342e2a9f8
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c196731046fa01059d61f2df08f47639ba839642
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="approve-a-product-configuration-model"></a><span data-ttu-id="240c0-103">Утверждение модели конфигурации продукта</span><span class="sxs-lookup"><span data-stu-id="240c0-103">Approve a product configuration model</span></span>

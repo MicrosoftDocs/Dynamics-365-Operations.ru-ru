@@ -3,7 +3,7 @@ title: "Создание заранее определенных вариант�
 description: "В этой процедуре показано, как создать варианты продукта для шаблона продукта с использованием комбинаций аналитик продукта."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 79d44dce56d7e942c990c68f74d340ba3963ff2d
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: ab4f43957f7c661349714dbb0933ac3c1d19ab0e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-predefined-product-variants"></a><span data-ttu-id="e8c3a-103">Создание заранее определенных вариантов продукта</span><span class="sxs-lookup"><span data-stu-id="e8c3a-103">Create predefined product variants</span></span>

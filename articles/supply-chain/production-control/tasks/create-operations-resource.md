@@ -3,7 +3,7 @@ title: "Создание операционного ресурса"
 description: "Операционный ресурс участвует в мероприятиях проекта или производственного процесса."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: f0a77e9fc474a90c31dde8b4e8b12c2456cee4c8
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f9d8f13e29ea813eb9721ddca795b67837e2aa5e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-an-operations-resource"></a><span data-ttu-id="cbd96-103">Создание операционного ресурса</span><span class="sxs-lookup"><span data-stu-id="cbd96-103">Create an operations resource</span></span>

@@ -3,7 +3,7 @@ title: "Создание пункта меню мобильного устрой
 description: "Эта процедура показывает, как создать пункт меню мобильного устройства для работы по консолидации номерных знаков."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: fc3c6e0d48cd4f8135aa710ae86affd7b7098421
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: bfe07426e9ff11c60c5f703b810ba09d6c863399
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a><span data-ttu-id="d4aff-103">Создание пункта меню мобильного устройства для консолидации грузомест</span><span class="sxs-lookup"><span data-stu-id="d4aff-103">Create a mobile device menu item for license plate consolidation</span></span>

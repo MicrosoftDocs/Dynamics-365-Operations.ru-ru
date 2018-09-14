@@ -3,7 +3,7 @@ title: "Ведение сведений о травмах и заболеван�
 description: "Рекомендуется сначала выполнить задание \"Настройка травм и заболеваний\", поскольку здесь используются некоторые сведения о настройке."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 6f16a54f243623607ed46899173f4c6ddc604c82
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 03d1e7f7b648e65cbe628aa4ff8b39dfa03ce96b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a><span data-ttu-id="e46c6-103">Ведение сведений о травмах и заболеваниях сотрудников</span><span class="sxs-lookup"><span data-stu-id="e46c6-103">Maintain employee injury and illness information</span></span>

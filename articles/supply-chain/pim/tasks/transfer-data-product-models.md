@@ -3,7 +3,7 @@ title: "Передача данных для моделей продукта"
 description: "Для экспорта данных для модели конфигурации продукта требуется наличие по крайней мере одной модели продукта."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 1c1353b48d6bf20e8e1589069fe25890b021fe6b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 8a2bd6d6762010f70bcee95b8befa9dab935335b
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="transfer-data-for-product-models"></a><span data-ttu-id="99d82-103">Передача данных для моделей продукта</span><span class="sxs-lookup"><span data-stu-id="99d82-103">Transfer data for product models</span></span>

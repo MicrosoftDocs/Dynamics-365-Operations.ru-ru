@@ -3,7 +3,7 @@ title: "Создание правила канбана с помощью соб�
 description: "В ходе этой процедуры создается правило канбана с помощью настройки события строки канбана для запуска получения данных из мероприятия обработки."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 31a7bf0466855defa90fbe746f2d7a9b7445099c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: bff5f16c1911739a29d50c546c3c2a9ab85c2371
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a><span data-ttu-id="a419d-103">Создание правила канбана с помощью события строки канбана</span><span class="sxs-lookup"><span data-stu-id="a419d-103">Create a kanban rule using a kanban line event</span></span>

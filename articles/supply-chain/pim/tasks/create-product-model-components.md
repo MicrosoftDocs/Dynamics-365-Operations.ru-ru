@@ -3,7 +3,7 @@ title: "Создайте компонентов модели продукта"
 description: "В моделях конфигурации на основе ограничений используются компоненты в качестве строительных блоков, чтобы настроить структуру модели продукта."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: e3caac880ad892eccccde5a42680631a522a7d5b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 070f8aa61f6aead46e35a52a180d42fcc08bd3a7
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-product-model-components"></a><span data-ttu-id="16b99-103">Создайте компонентов модели продукта</span><span class="sxs-lookup"><span data-stu-id="16b99-103">Create product model components</span></span>

@@ -3,7 +3,7 @@ title: "Определение процесса компенсации и рас
 description: "Процессы компенсации используются для определения новых сумм компенсации и вознаграждения для сотрудников, участвующих в фиксированных и переменных планах компенсаций."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 40f9e52688da258fd5f8d1c7f5d0f5351baf5493
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5e5b0bb5558a8b71d02b5988c6f82f53f4f42646
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="d7618-103">Определение процесса компенсации и расчет результатов</span><span class="sxs-lookup"><span data-stu-id="d7618-103">Define compensation process and calculate results</span></span>

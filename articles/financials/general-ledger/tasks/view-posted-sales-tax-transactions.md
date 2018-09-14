@@ -3,7 +3,7 @@ title: "Просмотр разнесенных проводок налога"
 description: "Можно просмотреть разнесенные налоговые проводки на другой странице в зависимости от того, что необходимо просмотреть."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 64675dbaccdc71f5b4446ea9ce478f3ebb7deabf
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f18f2ab02af571f81149ec3564bbac0f98b1d2c6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="view-posted-sales-tax-transactions"></a><span data-ttu-id="61434-103">Просмотр разнесенных проводок налога</span><span class="sxs-lookup"><span data-stu-id="61434-103">View posted sales tax transactions</span></span>

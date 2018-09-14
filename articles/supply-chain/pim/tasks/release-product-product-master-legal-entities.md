@@ -3,7 +3,7 @@ title: "Выпуск продукта/шаблона продукта для ю�
 description: "В этой процедуре рассматривается выпуск продукта или шаблона продукта в одно или несколько юридических лиц."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 9ddcd0378c25d7de6ed0967ee71f8f4f92b8fab0
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 87037254072509afd91a50b66147d7e13e09dd0c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a><span data-ttu-id="c06d4-103">Выпуск продукта/шаблона продукта для юридических лиц</span><span class="sxs-lookup"><span data-stu-id="c06d4-103">Release a product/product master to legal entities</span></span>

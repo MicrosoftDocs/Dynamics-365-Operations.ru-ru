@@ -3,7 +3,7 @@ title: "Создание иерархии классификации проду�
 description: "В этой процедуре показано, как создать новую иерархию категорий и назначить тип иерархии \"товарный код\"."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: ee65e4ff990c14942432af48a6a7d451460c7b15
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: fb49f5f3f8a5a788cb4c6d1be69534ba808e3675
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a><span data-ttu-id="b9842-103">Создание иерархии классификации продуктов</span><span class="sxs-lookup"><span data-stu-id="b9842-103">Create a hierarchy of product classification</span></span>

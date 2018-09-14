@@ -3,7 +3,7 @@ title: "Настройка формата платежной квитанции 
 description: "Компании обычно вкладывают распечатанные платежные квитанции к накладным, чтобы помочь клиентам и предоставить ссылку на платеж для разноски и сопоставления."
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 396c66a235024b569e5976175bb3a51555090643
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: b365585e884749bb73f8ba9054e446f210e10f37
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a><span data-ttu-id="60f7b-103">Настройка формата платежной квитанции для накладных проекта</span><span class="sxs-lookup"><span data-stu-id="60f7b-103">Set up payment slip format for project invoices</span></span>
