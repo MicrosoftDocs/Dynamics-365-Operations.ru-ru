@@ -3,23 +3,24 @@ title: "Создание базового прогноза"
 description: "Планировщик производства может создать базовый прогноз либо путем использования моделей прогнозирования временных рядов, либо путем копирования исторического спроса."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 111/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupAllocKeys, ReqDemPlanForecastParameters, ReqDemPlanCreateForecastDialog, SysQueryForm, ReqDemPlanForecastViewer
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: 6a712077fed4a94ae6ae6ce7ea2cfba8848e5fa5
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e6363ee48c0d13c79a6c623205dfa10f50d6070f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-baseline-forecast"></a>Создание базового прогноза
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/02/2017
 7. Закройте страницу.
 8. Закройте страницу.
 
-## <a name="set-up-the-demand-forecasting-parameters"></a>Настройка параметров прогнозирования спроса
+## <a name="set-up-the-demand-forecasting-paramters"></a>Настройка параметров прогнозирования спроса
 1. Перейдите в раздел "Сводное планирование" > "Настройка" > "Прогнозирование спроса" > "Параметры прогнозирования спроса".
 2. Разверните раздел "Параметры алгоритма прогнозирования".
 3. В поле "Стратегия создания прогноза" выберите "Копировать поверх исторического спроса".

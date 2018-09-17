@@ -89,7 +89,7 @@
       href: ../financials/general-ledger/indirect-taxes-overview.md
     - name: Методы расчета налога в поле "Основание"
       href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-    - name: ' Назначение и переопределения налога'
+    - name: Назначение и переопределения налога
       href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
     - name: Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
@@ -99,8 +99,6 @@
       href: call-center-functionality.md
     - name: Каталоги центра обработки вызовов
       href: call-center-catalogs.md
-    - name: Создание каталога центра обработки вызовов
-      href: create-call-center-catalogs.md
     - name: Настройка режимов доставки и накладных расходов
       href: configure-call-center-delivery.md
     - name: Настройка оповещений о мошенничестве и работа с ними
@@ -133,6 +131,8 @@
       href: MPOS-or-CPOS.md
     - name: Выполнение операций POS в интерактивном и автономном режимах
       href: pos-operations.md
+    - name: Активация настраиваемого Retail Modern POS
+      href: dev-itpro/retail-POS-activation-changes.md
     - name: Макеты экрана демонстрационных данных в MPOS и Cloud POS
       href: demo-data.md
     - name: Поиск продуктов и клиентов в POS

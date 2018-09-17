@@ -3,24 +3,25 @@ title: "Настройка контейнеризации"
 description: "В этой процедуре описывается, как автоматизировать контейнеризацию загрузок в модуле \"Управление складом\"."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-containerization"></a>Настройка контейнеризации
@@ -83,7 +84,7 @@ ms.lasthandoff: 11/02/2017
 ## <a name="set-up-a-container-group"></a>Настройка группы контейнеров
 1. Перейдите в раздел "Управление складом" > "Настройка" > "Контейнеры" > "Группы контейнеров".
 2. Щелкните "Создать".
-    * Можно настроить логические группы типов контейнеров. Для каждой группы можно указать последовательность, в которой упаковываются контейнеры, и процент заполнения каждого контейнера. Аналитики размера номенклатуры используются для определения того, поместится ли она в контейнер. Используется контейнер, размеры которого наиболее подходят к аналитикам размера номенклатуры. При наличии нескольких типов контейнеров в группе рекомендуется упорядочивать последовательность по размеру, чтобы самый большой контейнер был в последовательности первым, а самый маленький — последним.    
+    * Можно настроить логические группы типов контейнеров. Для каждой группы можно определить последовательность, в которой будут упаковываться контейнеры, и процент заполнения контейнеров. Для определения того, поместится ли номенклатура в контейнер, используются аналитики размеров номенклатуры. Используется контейнер, размеры которого наиболее подходят к аналитикам размера номенклатуры. При наличии нескольких типов контейнеров в группе рекомендуется упорядочивать последовательность по размеру, чтобы самый большой контейнер был в последовательности первым, а самый маленький — последним.    
 3. В поле "Код группы контейнеров" введите значение.
 4. В поле "Описание" введите значение.
 5. Нажмите Создать.

@@ -3,18 +3,19 @@ title: "Создание типов обращений и критериев о�
 description: "В этом руководстве показано, как создать тип обращения и связать его с методом оценки."
 author: mkirknel
 manager: AnnBe
-ms.date: 08/23/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 095855d552d228375635bdbaa9fca37c47a3b952
@@ -42,6 +43,7 @@ ms.lasthandoff: 09/29/2017
 1. Перейдите в раздел "Закупки и источники" > "Запросы предложений" > "Все запросы предложений".
 2. Щелкните "Создать".
 3. В поле "Тип обращения" выберите созданный тип обращения. 
+    *   
 4. Нажмите кнопку "OК".
 5. Щелкните "Критерии оценки".
     * Отображаемые критерии оценки — это критерии из метода оценки, связанного с типом обращения. Можно добавить или удалить критерии на этой странице. Также можно добавить новый критерий, скопировав его из других методов оценки.  

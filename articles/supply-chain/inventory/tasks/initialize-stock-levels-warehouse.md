@@ -1,26 +1,27 @@
----
+--- 
 title: "Инициализация уровней запасов на складе"
 description: "В этой процедуре показано, как вручную загружать обновлять запасы в наличии с использованием журнала складских проводок."
 author: perlynne
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalMovement, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d804480167414cd038f8229db312dc9c52d131f8
-ms.openlocfilehash: 3b4685b034f7e6a3af0259fb921230e7b3397754
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 45c93febbbc4ea78fe2b87735ed96fd773605d96
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a>Инициализация уровней запасов на складе
@@ -33,7 +34,7 @@ ms.lasthandoff: 11/02/2017
 2. Щелкните "Создать".
 3. В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
 4. Выберите IMov.
-    * Рекомендуется использовать разные шаблоны имен журналов для разных деловых целей.  
+    * Рекомендуется использовать для разных бизнес-целей разные шаблоны имен журналов.  
 5. В списке перейдите по ссылке в выбранной строке.
 6. В поле "Корр.счет" укажите требуемые значения "140200".
     * Это корреспондирующий счет, который будет счетом по умолчанию в строках журнала. Можно переопределить значение по умолчанию, чтобы назначить разные корр. счета в строках.  
@@ -58,4 +59,5 @@ ms.lasthandoff: 11/02/2017
 24. Нажмите кнопку "OК".
 25. Закройте страницу.
 26. Закройте страницу.
+
 

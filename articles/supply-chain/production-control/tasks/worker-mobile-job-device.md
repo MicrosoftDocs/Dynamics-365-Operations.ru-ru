@@ -3,19 +3,20 @@ title: "Настройка работника с использованием м
 description: "В этой процедуры показано, как назначить правильные роли учетной записи пользователя работника, а затем позволить работнику регистрироваться в цеху."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
 ms.openlocfilehash: f9de2f79c68fead5ede714ff05bba97118874aad
@@ -68,4 +69,5 @@ ms.lasthandoff: 02/06/2018
 5. Щелкните "Изменить".
 6. В поле "Производственное подразделение" можно установить фильтр по умолчанию для работника. В результате, когда работник входит в систему для устройства, будут отображаться только производственные задания для выбранного производственного подразделения.
 7. Закройте страницу.
+
 

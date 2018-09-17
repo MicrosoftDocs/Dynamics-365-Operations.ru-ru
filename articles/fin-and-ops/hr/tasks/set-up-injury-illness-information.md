@@ -3,18 +3,19 @@ title: "Настройка информации о травмах и забол�
 description: "Работодателям необходимо знать о случаях травм или заболеваний работников в связи с источниками опасности на их рабочих местах."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HRMInjurySetup
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
 ms.openlocfilehash: afb045ba29ef720e6b1ec03511dc812be4e4c2de

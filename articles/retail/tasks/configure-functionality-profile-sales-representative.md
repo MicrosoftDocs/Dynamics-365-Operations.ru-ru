@@ -1,31 +1,32 @@
 --- 
-title: "Настройка профилей функциональности для торговых представителей"
+title: "Настройка профиля функциональности для торгового представителя"
 description: "Эта процедура демонстрирует порядок задания настроек профиля функциональности магазина, которые применяются к торговым представителям."
 author: jblucher
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: b9cec2059fa35a632593b4b90bd30fadfde4212d
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 2652a75f9c4509addd5804d4798f1bc142106c60
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="configure-functionality-profiles-for-sales-representatives"></a>Настройка профилей функциональности для торговых представителей
+# <a name="configure-the-functionality-profile-for-a-sales-representative"></a>Настройка профиля функциональности для торгового представителя
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Эта процедура демонстрирует порядок задания настроек профиля функциональности магазина, которые применяются к торговым представителям. В этой процедуре используется компания с демонстрационными данными USRT.
 
