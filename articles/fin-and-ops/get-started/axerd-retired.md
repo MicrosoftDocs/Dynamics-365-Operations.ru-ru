@@ -27,6 +27,8 @@ ms.lasthandoff: 08/09/2018
 
 # <a name="axerd-page-has-been-retired"></a>Страница AxErd удалена
 
+[!include [banner](../includes/banner.md)]
+
 К сожалению нам пришлось удалить веб-страницу AxErd, которая предоставляет схемы отношений объектов (ERD) для большого числа таблиц Microsoft Dynamics AX 2012. Нам удалось разместить как исходный код проекта, так и HTML-файлы веб-страницы в репозитории GitHub: https://github.com/Microsoft/ax-2012-doc-tools
 
 HTML-страницы находятся в репозитории по адресу [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)

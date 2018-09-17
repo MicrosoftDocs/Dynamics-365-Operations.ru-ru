@@ -26,6 +26,8 @@ ms.lasthandoff: 08/09/2018
 ---
 # <a name="remove-talent-environments"></a>Удаление сред Talent
 
+[!include [banner](includes/banner.md)]
+
 В этом разделе содержится пошаговое описание процесса удаления тестовой или производственной среды для Microsoft Dynamics 365 for Talent.
 
 ## <a name="removing-a-test-drive-environment"></a>Удаление тестовой среды

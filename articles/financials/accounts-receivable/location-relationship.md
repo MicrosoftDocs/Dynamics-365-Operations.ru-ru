@@ -28,6 +28,8 @@ ms.lasthandoff: 06/12/2018
 
 # <a name="add-location-roles-and-party-relationship-types"></a>Добавить роли местоположения и типы отношения субъектов 
 
+[!include [banner](../includes/banner.md)]
+
 ## <a name="add-location-roles"></a>Добавить роли местонахождения
 
 Существует два способа добавить новые роли местоположения для адреса и контактной информации:

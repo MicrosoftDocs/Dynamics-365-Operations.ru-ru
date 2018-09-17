@@ -25,6 +25,8 @@ ms.lasthandoff: 08/09/2018
 
 # <a name="new-or-updated-task-guides-december-2017"></a>Новые или обновленные проводники по задачам (декабрь 2017 г.)
 
+[!include [banner](../includes/banner.md)]
+
 В этом теме перечислены новые или обновленные Проводники по задачам, выпущенные в унифицированной библиотеке APQC (декабрь 2016 г. — все языки) от Майкрософт для Microsoft Dynamics 365 for Operations.
 
 
