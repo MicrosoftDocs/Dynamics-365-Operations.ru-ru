@@ -16,14 +16,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: fbf99e6c01101209bf9e2a213c8008f50e67ad68
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 2e7b62de678788325534b351e17d95002590e963
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-december-2017"></a><span data-ttu-id="cd835-104">Новые или обновленные проводники по задачам (декабрь 2017 г.)</span><span class="sxs-lookup"><span data-stu-id="cd835-104">New or updated task guides (December 2017)</span></span>
+
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cd835-105">В этом теме перечислены новые или обновленные Проводники по задачам, выпущенные в унифицированной библиотеке APQC (декабрь 2016 г. — все языки) от Майкрософт для Microsoft Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="cd835-105">This topic lists the new or updated Task guides that were released to the Microsoft (December 2016 - all languages) APQC Unified Library for Microsoft Dynamics 365 for Operations.</span></span>
 
