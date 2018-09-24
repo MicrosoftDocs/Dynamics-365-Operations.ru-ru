@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b9cdb2b2c2b5aaf7743cd2cd0dbfee6c602a5a46
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: d6d26da330974305fa3725fe7c2506d198b17e2c
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -138,9 +138,10 @@ ms.lasthandoff: 08/09/2018
 <td>8</td>
 <td>Пользователь</td>
 <td>Загрузите и установите мобильное приложение.</td>
-<td><ul>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850662">Для ОС Android</a></li>
-<li><a href="https://go.microsoft.com/fwlink/?linkid=850663">Для iPhone</a></li></ul>
+<td>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Приложение Unified Operations для Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Приложение Unified Operations для iOS</a><BR/>
+(Windows Phone не поддерживается)
 </td>
 </tr>
 <tr class="odd">

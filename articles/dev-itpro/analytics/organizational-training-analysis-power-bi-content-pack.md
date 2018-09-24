@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: 18567a3241fce02e17df368f544e545fad93e1d9
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 6c1855013dc449950877f8727a5453942aeb75de
 ms.contentlocale: ru-ru
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -29,10 +29,10 @@ ms.lasthandoff: 03/23/2018
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе рассматривается содержимое Finance and Operations — организационное обучение Power BI. 
+В этом разделе рассматривается содержимое Finance and Operations — организационное обучение Power BI.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Отчеты, включенные в пакет содержимого
-После подключения пакета содержимого к данным Finance and Operations данные организации будут отображаться в отчетах. Если вы никогда не использовали Microsoft Power BI до этого, см. дополнительные сведения на [странице интерактивного обучения по Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Отчеты, включенные в пакет содержимого, включают диаграммы и таблицы, которые содержат дополнительные сведения. В следующей таблице приводится описание отчетов.
+После подключения пакета содержимого к данным Finance and Operations в отчетах будут отображаться данные вашей организации. Если вы до сих пор не использовали Microsoft Power BI, больше узнать о Power BI можно на [странице интерактивного обучения по Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Отчеты, включенные в пакет содержимого, включают диаграммы и таблицы, которые содержат дополнительные сведения. В следующей таблице приводится описание отчетов.
 
 | Отчет          | Содержание                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
@@ -44,23 +44,19 @@ ms.lasthandoff: 03/23/2018
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 Данные Finance and Operations используются для заполнения отчетов в пакете содержимого организационного обучения. В следующей таблице показаны объекты, на которых основан пакет содержимого.
 
-| Объект                    | Содержание                                                         | Связи с другими объектами                                                                                                                                                                  |
-|---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Training\_CalendarOffset  | Календарь корреспондирует с отчетами по секторам                                | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Company         | Компании, по которым требуется фильтровать отчеты                                   | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Course          | Курс, описание, имя лектора, расположение, комната и статус | Training\_CourseAgenda Training\_CourseAttendees Training\_CourseSkill                                                                                                                             |
-| Training\_CourseAgenda    | Программа, курс и время начала и окончания                          | Training\_Company Training\_CalendarOffset Training\_Date Training\_Course                                                                                                                         |
-| Training\_CourseAttendees | Имя, статус, должность и дата регистрации                         | Training\_Company Training\_CalendarOffset Training\_Date Training\_Demographics Training\_Employment Training\_Course Training\_WorkerName Training\_WorkerTitle Training\_Job Training\_Position |
-| Training\_CourseSkill     | Навык, типа навыка и уровень                                     | Training\_Course                                                                                                                                                                                   |
-| Training\_Date            | Дни, недели, месяцы и годы                                   | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Demographics    | Дата рождения, пол, этническое происхождение и семейное положение         | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Employment      | Дата начала, дата окончания и дата перехода                        | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Job             | Функция, тип и должность                                        | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_Position        | Должность, название и эквивалент полной занятости (FTE)                  | Training\_CourseAgenda Training\_CourseAttendees                                                                                                                                                   |
-| Training\_WorkerName      | Имя, фамилия и ФИО                             | Training\_CourseAttendees                                                                                                                                                                          |
-| Training\_WorkerTitle     | Должность и дата трудового стажа                                         | Training\_CourseAttendees                                                                                                                                                                          |
-
-
-
-
+| Объект                    | Содержание                                                         | Связи с другими объектами |
+|---------------------------|------------------------------------------------------------------|-----------------------------------|
+| Training\_CalendarOffset  | Календарь корреспондирует с отчетами по секторам                                | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Company         | Компании, по которым требуется фильтровать отчеты                                   | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Course          | Курс, описание, имя лектора, расположение, комната и статус | Training\_CourseAgenda, Training\_CourseAttendees, Training\_CourseSkill |
+| Training\_CourseAgenda    | Программа, курс и время начала и окончания                          | Training\_Company, Training\_CalendarOffset, Training\_Date Training\_Course |
+| Training\_CourseAttendees | Имя, статус, должность и дата регистрации                         | Training\_Company, Training\_CalendarOffset, Training\_Date, Training\_Demographics, Training\_Employment, Training\_Course, Training\_WorkerName, Training\_WorkerTitle, Training\_Job, Training\_Position |
+| Training\_CourseSkill     | Навык, типа навыка и уровень                                     | Training\_Course |
+| Training\_Date            | Дни, недели, месяцы и годы                                   | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Demographics    | Дата рождения, пол, этническое происхождение и семейное положение         | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Employment      | Дата начала, дата окончания и дата перехода                        | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Job             | Функция, тип и должность                                        | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_Position        | Должность, название и эквивалент полной занятости (FTE)                  | Training\_CourseAgenda, Training\_CourseAttendees |
+| Training\_WorkerName      | Имя, фамилия и ФИО                             | Training\_CourseAttendees |
+| Training\_WorkerTitle     | Должность и дата трудового стажа                                         | Training\_CourseAttendees |
 
