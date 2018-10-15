@@ -6,6 +6,14 @@
       items:
         - name: Что нового и что изменилось
           items:
+            - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (1 октября 2018 г.)
+              href: whats-new-talent-october-01.md
+            - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (24 сентября 2018 г.)
+              href: whats-new-talent-september-24.md
+            - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (17 сентября 2018 г.)
+              href: whats-new-talent-september-17-2018.md
+            - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (10 сентября 2018 г.)
+              href: whats-new-talent-september-10.md
             - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (август 2018 г.)
               href: whats-new-talent-august2018.md
             - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (июль 2018 г.)
@@ -20,10 +28,14 @@
           href: modular-app-tech-faq.md
         - name: Внедрение приложений PowerApps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Доступ к функциям предварительного просмотра
+        - name: Core HR и Common Data Service для приложений
+          href: CoreHREntities.md
+        - name: Доступ к предварительным версиям функций
           href: access-preview-feature.md
         - name: Настройка интеграции зарплаты между Talent и Dayforce
           href: configure-payroll-integration.md
+        - name: Получение поддержки по Talent
+          href: talent-support.md
     - name: 'Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц'
       href: departments-jobs-positions.md
       items:
@@ -39,10 +51,15 @@
           href: personnel-actions-faq.md
         - name: Формализация бизнес-процессов
           href: formalize-business-processes.md
-        - name: Использование бизнес-правил для управления сведениями о сотрудниках
+        - name: Использование workflow-процессов для управления сведениями о сотрудниках
           href: workflow-manage-employee-information.md
-        - name: Управление отпусками и отсутствием на работе
-          href: leave-absence-overview.md
+    - name: Управление отпусками и отсутствиями
+      href: leave-absence-overview.md
+      items:
+        - name: Начисление отгулов на основании отработанных часов
+          href: leave-accrue-hours-worked.md
+        - name: Календари рабочего времени
+          href: working-time-calendars.md
     - name: Набор персонала для организации
       items:
         - name: Функции и возможности Attract
@@ -59,6 +76,8 @@
           href: create-variable-compensation-plans.md
         - name: Обработка компенсации
           href: process-compensation.md
+        - name: Настройка компонентов должности
+          href: create-job.md
     - name: Развитие и обучение сотрудников
       items:
         - name: Управление производительностью

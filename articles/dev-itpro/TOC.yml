@@ -9,7 +9,7 @@
   items:
     - name: Создание демонстрационных данных с помощью пакетов данных
       href: data-entities/generate-demo-data-packages.md
-- name: Разработка и настройка с помощью Visual Studio
+- name: Разработка и настройка
   href: dev-tools/developer-home-page.md
   items:
     - name: Стек приложений и архитектура сервера
@@ -27,11 +27,11 @@
           href: dev-tools/enable-development-machine.md
         - name: 'Вопросы и ответы по виртуальным машинам разработки и сборки, не допускающим доступ администратора'
           href: sysadmin/VMs-no-admin-access.md
-        - name: Переименование локальных сред для доступа к Visual Studio Team Services
+        - name: Переименование локальных сред для доступа к Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
         - name: Требования к системе для разработки
           href: dev-tools/development-system-requirements.md
-    - name: 'Управление версиями, поиск метаданных и навигация'
+    - name: 'Управление версиями, поиск по метаданным и навигация'
       href: dev-tools/version-control-metadata-navigation.md
     - name: Пример приложения для управления автопарком
       items:
@@ -106,9 +106,11 @@
               href: dev-ref/xpp-variables-data-types.md
             - name: 'Инструкции, циклы и обработка исключений в X++'
               href: dev-ref/xpp-statements-loops.md
+            - name: Исключение X++ "Ошибка подключения SQL"
+              href: dev-ref/sql-connection-error.md
             - name: Операторы X++
               href: dev-ref/xpp-operators.md
-            - name: Приоритет операторов в X ++
+            - name: Приоритет операторов в X++
               href: dev-ref/xpp-operator-precedence.md
             - name: Классы и методы в X++
               href: dev-ref/xpp-classes-methods.md
@@ -251,6 +253,10 @@
               href: extensibility/extensibility-changes-802.md
             - name: Изменения возможностей расширения версии 8.0.3
               href: extensibility/extensibility-changes-803.md
+            - name: Изменения возможностей расширения версии 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: Изменения возможностей расширения версии 8.1
+              href: extensibility/extensibility-changes-81.md
         - name: Основы
           items:
             - name: Глубокие настройки
@@ -914,8 +920,10 @@
           href: gdpr/gdpr-ax2012.md
         - name: Запросы данных GDPR для LCS
           href: gdpr/gdpr-lcs.md
-    - name: Рабочая область контрольного списка проверки данных
+    - name: Рабочая область "Контрольный список проверки данных"
       href: user-interface/data-validation-workspace.md
+    - name: Описания ошибок управления данными
+      href: data-entities/dm-error-descriptions.md
 - name: Непрерывная поставка
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1109,24 +1117,41 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Обновление бюджетного планирования
               href: migration-upgrade/upgrade-budget-planning.md
+    - name: Перенос данных из AX 2009 в Finance and Operations
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: "Миграция с AX 2009\_— установка средства переноса данных"
+          href: migration-upgrade/install-dmt.md
+        - name: "Миграция с AX 2009\_— создание сопоставлений"
+          href: migration-upgrade/generate-maps.md
+        - name: "Миграция с AX 2009\_— создание шаблонов"
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: "Миграция с AX 2009\_— создание групп миграции"
+          href: migration-upgrade/create-definition.md
+        - name: "Миграция с AX 2009\_— экспорт пакетов"
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: "Миграция с AX 2009\_— импорт пакетов"
+          href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Перенос и обновление кода
       href: migration-upgrade/code-migration-home-page.md
       items:
         - name: Подготовка к переносу кода
           href: migration-upgrade/prepare-migration.md
-        - name: Настройка сопоставления Visual Studio Team Services
+        - name: Настройка соответствия Azure DevOps
           href: migration-upgrade/configure-vso-solution.md
         - name: Разбиение моделей
           href: dev-tools/model-split.md
         - name: Разрешение зависимостей между моделями с помощью делегатов
           href: migration-upgrade/delegates-migration.md
-    - name: Установка последнего обновления (облако)
+    - name: Переход на последнее обновление (облако)
       items:
-        - name: Процесс перехода на последнюю версию
+        - name: Процесс перехода на последнее обновление
           href: migration-upgrade/upgrade-latest-update.md
+        - name: Обновление сред с версии 8.0 до 8.1
+          href: migration-upgrade/appupdate-80-81.md
         - name: Политика жизненного цикла программного обеспечения и облачные выпуски
           href: migration-upgrade/versions-update-policy.md
-        - name: Установка последнего обновления платформы в средах
+        - name: Применение последнего обновления платформы к средам
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: Обновление платформы Dynamics AX до выпуска от августа 2016 г.
           href: migration-upgrade/update-platform-each-release.md
@@ -1248,7 +1273,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: Работа с диаграммами мероприятий в библиотеках BPM
       href: lifecycle-services/using-activity-diagrams.md
-    - name: Синхронизация библиотек BPM с Visual Studio Team Services
+    - name: Синхронизация библиотек BPM с Azure DevOps
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: Создание библиотек пользовательских приемочных тестов с помощью проводников по задаче и BPM
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
@@ -1266,6 +1291,10 @@
       href: lifecycle-services/user-logins.md
     - name: Библиотека активов
       href: lifecycle-services/asset-library.md
+    - name: Решение проблем с производительностью с помощью средств в LCS
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: Учебник по запросам
+      href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
