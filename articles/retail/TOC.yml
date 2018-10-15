@@ -12,10 +12,12 @@
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Варианты развертывания
       href: dev-itpro/choose-deployment.md
+    - name: Получение поддержки по Retail
+      href: retail-support.md
 - name: Общие сведения о жизненном цикле реализации
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
-    - name: Microsoft FastTrack для Dynamics 365
+    - name: Microsoft FastTrack for Dynamics 365
       href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
     - name: Адаптация
       href: ../fin-and-ops/imp-lifecycle/onboard.md
@@ -35,9 +37,9 @@
       href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
     - name: Реализация нескольких проектов LCS и производственных сред в одном клиенте Azure Active Directory
       href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
-    - name: Реализации проектов Retail Finance and Operations
+    - name: Реализация проектов Finance and Operations Retail
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-    - name: 'Настройка новых сред, VSTS и ветвей для проектов Retail'
+    - name: 'Настройка новых сред, Azure DevOps и ветвей для проектов Retail'
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
     - name: Обновление кода и сред для проектов Retail
       href: dev-itpro/updating-environments.md
@@ -305,6 +307,14 @@
       href: ../talent/create-job.md
 - name: Локализация и нормативные компоненты
   items:
+    - name: Восточная Европа
+      items:
+        - name: Авансовые счета для Retail для Восточной Европы
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: Управление мелкими наличными деньгами для Retail для Восточной Европы
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: Накладные клиента и возвратные заказы на продажу для Retail в странах Восточной Европы
+          href: localizations/emea-eeu-retail-invoices.md
     - name: Франция
       items:
         - name: Функциональность контрольно-кассовой машины
@@ -317,6 +327,8 @@
           href: localizations/apac-ind-cash-registers.md
         - name: Рекомендации по развертыванию контрольно-кассовых машин
           href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: Поддержка обновления и N-1 для Индии
+          href: localizations/apac-ind-n-1-for-india.md
     - name: Норвегия
       items:
         - name: Функциональность контрольно-кассовой машины

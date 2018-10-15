@@ -38,12 +38,18 @@
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Политика жизненного цикла программного обеспечения и локальные выпуски
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
+            - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
+              href: get-started/mainstream-support-ax-2009-2012.md
             - name: Удаленные или устаревшие функции
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
-            - name: 'Компоненты AX 2012, реализация которых была отложена'
+            - name: 'Функции AX 2012, реализация которых была отложена'
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 'Функции, не реализованные в локальных развертываниях'
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations версии 8.1 (октябрь 2018 г.)
+              href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 20 (сентябрь 2018 г.)
+              href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations версии 8.0 (апрель 2018 г.)
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: Platform update 15 (март 2018 г.)
@@ -456,6 +462,10 @@
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Сопоставление накладных и внутрихолдинговые заказы на покупку
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
+            - name: Настройка политик накладных поставщиков
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Регистрация накладной поставщика и сопоставление с полученными количествами
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Обзор положительного платежа
               href: ../financials/accounts-payable/positive-pay-overview.md
             - name: Настройка и создание файлов положительных платежей
@@ -566,10 +576,6 @@
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
             - name: Обработка процента
               href: ../financials/accounts-receivable/tasks/process-interest.md
-            - name: Настройка политик накладных поставщиков
-              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
-            - name: Регистрация накладной поставщика и сопоставление с полученными количествами
-              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Создание накладной клиента
               href: ../financials/accounts-receivable/configure-customer-invoices.md
             - name: Внесение платежей клиентов
@@ -596,7 +602,9 @@
               href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Настройка и создание сведений о распределении по срокам для расчетов с клиентами
               href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-            - name: Бизнес-правило клиента
+            - name: Копирование клиентов с использованием общих номерных серий
+              href: ../financials/accounts-receivable/copy-customer.md
+            - name: Workflow-процесс клиента
               href: ../financials/accounts-receivable/customer-workflow.md
             - name: Платежи и сопоставления
               items:
@@ -1541,10 +1549,8 @@
               href: ../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md
             - name: Интеграция финансовых служб (ESR)
               href: ../financials/localizations/emea-fiscal-service-integration.md
-            - name: Выбытие основных средств для Эстонии и Литвы
+            - name: Выбытие ОС для Эстонии и Литвы
               href: ../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md
-            - name: Переоценка в иностранной валюте
-              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Создание документа перемещения для внутреннего перемещения запасов
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
             - name: Создание отчета ЕС по НДС
@@ -2102,18 +2108,56 @@
               href: ../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md
             - name: Амортизация ОС
               href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
-            - name: Расширение функциональности выбытия основных средств
+            - name: Расширение функциональности выбытия ОС
               href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: Переоценка в иностранной валюте
+              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Возвращаемая упаковка
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: Налоговые отчеты
               href: ../financials/localizations/emea-pol-sales-tax-reports.md
             - name: Стандартный файл аудита
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
-            - name: Процент налога и свободный процент
+            - name: Налоговый процент и свободный процент
               href: ../financials/localizations/emea-pol-interest-calculation.md
             - name: Оборотно-сальдовая ведомость
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
+        - name: Россия
+          href: ../financials/localizations/russia.md
+          items:
+            - name: Подотчетные лица
+              href: ../financials/localizations/rus-advance-holders.md
+              items:
+                - name: Создание подотчетного лица
+                  href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
+                - name: Ежедневные операции по подотчетным лицам
+                  href: ../financials/localizations/rus-advance-holders-daily-operations.md
+            - name: Основные средства
+              items:
+                - name: Приобретение ОС и их ввод в эксплуатацию
+                  href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Создание и разноска журналов бюджета для приобретений ОС
+                  href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
+                - name: Инвентаризация ОС
+                  href: ../financials/localizations/rus-fixed-assets-counting.md
+                - name: Переоценка ОС в иностранной валюте
+                  href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Частичная разборка ОС (ликвидация)
+                  href: ../financials/localizations/rus-fixed-assets-disassembly.md
+            - name: Настройка и обработка платежных поручений
+              href: ../financials/localizations/rus-payment-order-settings-processing.md
+            - name: Настройка валютных курсов для проводок в валюте
+              href: ../financials/localizations/rus-exchange-difference.md
+            - name: Предварительный просмотр проводок ГК
+              href: ../financials/localizations/rus-ledger-transactions-preview.md
+            - name: Настройка должностных лиц
+              href: ../financials/localizations/rus-officials.md
+            - name: Настройка банковских счетов
+              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+            - name: Налог на добавленную стоимость (НДС) для налоговых агентов
+              href: ../financials/localizations/rus-tax-agent.md
+            - name: Настройка контроля аналитик для сопоставлений
+              href: ../financials/localizations/rus-transactions-settlement-date.md
         - name: Саудовская Аравия
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2133,11 +2177,13 @@
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Параметры переводного векселя
               href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
-            - name: Условные налоги
+            - name: Расчет срока оплаты и создание отчета по среднему сроку оплаты
+              href: ../financials/localizations/emea-esp-invoice-due-dates.md
+            - name: Условный налог
               href: ../financials/localizations/emea-esp-conditional-sales-tax.md
-            - name: Кредитование при обработке накладной
+            - name: Связывание кредит-ноты с накладной
               href: ../financials/localizations/tasks/emea-esp-credit-invoicing.md
-            - name: Финансовые данные из счета по накладной
+            - name: Финансовые данные из счета в накладной
               href: ../financials/localizations/emea-esp-fiscal-data-invoice-account.md
             - name: Переоценка группы основных средств
               href: ../financials/localizations/emea-esp-fixed-asset-group-revaluation.md
@@ -2857,7 +2903,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Изменение прогноза спроса вручную
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Мобильное приложение Dynamics 365 for Unified Operations
+    - name: Приложение Dynamics 365 for Unified Operations Mobile
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: Доступные мобильные рабочие области
