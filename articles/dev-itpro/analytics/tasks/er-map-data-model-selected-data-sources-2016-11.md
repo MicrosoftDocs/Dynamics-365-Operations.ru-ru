@@ -1,149 +1,150 @@
 --- 
-title: "Сопоставление моделей данных электронной отчетности (ER) с выбранными источниками данных"
-description: "В следующих шагах поясняется, как пользователь с ролью \"Системный администратор\" или \"Разработчик электронной отчетности\" может сопоставить модель данных электронной отчетности с выбранными источниками данных Dynamics 365 for Finance and Operations, Enterprise edition (ноябрь 2016)."
+title: "Электронная отчетность Сопоставление модели данных с выбранными источникам данных"
+description: "В следующих шагах поясняется, как пользователь с ролью \"Системный администратор\" или \"Разработчик электронной отчетности\" может сопоставить модель данных электронной отчетности с выбранными источниками данных Dynamics 365 for Finance and Operations, Enterprise edition."
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: f347c19d940330c830509be4d11127f9e3324deb
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 249bf3f3806ed43eccf39086bdf9697a3e879c27
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="map-electronic-reporting-er-data-models-to-selected-data-sources"></a><span data-ttu-id="abcc4-103">Сопоставление моделей данных электронной отчетности (ER) с выбранными источниками данных</span><span class="sxs-lookup"><span data-stu-id="abcc4-103">Map Electronic reporting (ER) data models to selected data sources</span></span>
+# <a name="er-map-data-model-to-selected-data-sources"></a><span data-ttu-id="3ddac-103">Электронная отчетность Сопоставление модели данных с выбранными источникам данных</span><span class="sxs-lookup"><span data-stu-id="3ddac-103">ER Map data model to selected data sources</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="abcc4-104">В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может сопоставить модель данных электронной отчетности с выбранными источниками данных Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="abcc4-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can map an Electronic reporting (ER) data model to selected Dynamics 365 for Finance and Operations data sources.</span></span> <span data-ttu-id="abcc4-105">Это сопоставление модели позднее будет использоваться в качестве источника данных в конфигурации формата, которая будет использоваться для управления документами электронных платежей.</span><span class="sxs-lookup"><span data-stu-id="abcc4-105">This model mapping will later be used as a data source in a format configuration that will be used to manage electronic payment documents.</span></span> <span data-ttu-id="abcc4-106">В этом примере вам предстоит сопоставить модель данных для компании-образца Litware, Inc. с источниками данных.</span><span class="sxs-lookup"><span data-stu-id="abcc4-106">In this example, you map a data model for sample company, Litware, Inc. to data sources.</span></span> <span data-ttu-id="abcc4-107">Для выполнения этих шагов сначала необходимо выполнить шаги в процедуре "Выбор источников данных для сопоставления с моделью".</span><span class="sxs-lookup"><span data-stu-id="abcc4-107">To complete these steps, you must first complete the steps in the “Select data sources for model mapping” procedure.</span></span>
+<span data-ttu-id="3ddac-104">В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может сопоставить модель данных электронной отчетности с выбранными источниками данных Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="3ddac-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can map an Electronic reporting (ER) data model to selected Dynamics 365 for Finance and Operations, Enterprise edition data sources.</span></span> <span data-ttu-id="3ddac-105">Это сопоставление модели позднее будет использоваться в качестве источника данных в конфигурации формата, которая будет использоваться для управления документами электронных платежей.</span><span class="sxs-lookup"><span data-stu-id="3ddac-105">This model mapping will later be used as a data source in a format configuration that will be used to manage electronic payment documents.</span></span> <span data-ttu-id="3ddac-106">В этом примере вам предстоит сопоставить модель данных для компании-образца Litware, Inc. с источниками данных.</span><span class="sxs-lookup"><span data-stu-id="3ddac-106">In this example, you map a data model for sample company, Litware, Inc. to data sources.</span></span> <span data-ttu-id="3ddac-107">Для выполнения этих шагов сначала необходимо выполнить шаги в процедуре "Выбор источников данных для сопоставления с моделью".</span><span class="sxs-lookup"><span data-stu-id="3ddac-107">To complete these steps, you must first complete the steps in the “Select data sources for model mapping” procedure.</span></span>
 
 
-## <a name="open-er-configurations-tree"></a><span data-ttu-id="abcc4-108">Открытие дерева конфигураций электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="abcc4-108">Open ER configurations tree</span></span>
-1. <span data-ttu-id="abcc4-109">Перейдите в раздел "Управление организацией" > "Рабочие области" > "Электронная отчетность".</span><span class="sxs-lookup"><span data-stu-id="abcc4-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="abcc4-110">Щелкните "Конфигурации".</span><span class="sxs-lookup"><span data-stu-id="abcc4-110">Click Configurations.</span></span>
+## <a name="open-er-configurations-tree"></a><span data-ttu-id="3ddac-108">Открытие дерева конфигураций электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="3ddac-108">Open ER configurations tree</span></span>
+1. <span data-ttu-id="3ddac-109">Перейдите в раздел "Управление организацией" > "Рабочие области" > "Электронная отчетность".</span><span class="sxs-lookup"><span data-stu-id="3ddac-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="3ddac-110">Щелкните "Конфигурации".</span><span class="sxs-lookup"><span data-stu-id="3ddac-110">Click Configurations.</span></span>
 
-## <a name="select-created-model-mapping"></a><span data-ttu-id="abcc4-111">Выбор созданного сопоставления модели</span><span class="sxs-lookup"><span data-stu-id="abcc4-111">Select created model mapping</span></span>
-1. <span data-ttu-id="abcc4-112">В дереве выберите "Платежи (упрощенная модель)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-112">In the tree, select 'Payments (simplified model)'.</span></span>
-    * <span data-ttu-id="abcc4-113">Убедитесь, что предварительно была создана конфигурация модели "Платежи (упрощенная модель)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-113">Make sure that the model configuration “Payments (simplified model)” has been created in advance.</span></span> <span data-ttu-id="abcc4-114">В противном случае остановитесь сейчас и вернитесь по завершении руководства по задаче "Создание новой конфигурации с моделью данных выбранного домена".</span><span class="sxs-lookup"><span data-stu-id="abcc4-114">Otherwise, stop now and return after completion of the task guide ‘Create a new configuration with data model of the selected domain’.</span></span>  
-2. <span data-ttu-id="abcc4-115">Щелкните "Конструктор моделей".</span><span class="sxs-lookup"><span data-stu-id="abcc4-115">Click Model designer.</span></span>
-3. <span data-ttu-id="abcc4-116">Щелкните "Сопоставить модель с источником данных".</span><span class="sxs-lookup"><span data-stu-id="abcc4-116">Click Map model to datasource.</span></span>
-4. <span data-ttu-id="abcc4-117">Выберите запись "Сопоставление для кредитовых переводов".</span><span class="sxs-lookup"><span data-stu-id="abcc4-117">Select the 'CT mapping' record.</span></span>
-    * <span data-ttu-id="abcc4-118">Сопоставление для кредитовых переводов</span><span class="sxs-lookup"><span data-stu-id="abcc4-118">CT mapping</span></span>  
+## <a name="select-created-model-mapping"></a><span data-ttu-id="3ddac-111">Выбор созданного сопоставления модели</span><span class="sxs-lookup"><span data-stu-id="3ddac-111">Select created model mapping</span></span>
+1. <span data-ttu-id="3ddac-112">В дереве выберите "Платежи (упрощенная модель)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-112">In the tree, select 'Payments (simplified model)'.</span></span>
+    * <span data-ttu-id="3ddac-113">Убедитесь, что предварительно была создана конфигурация модели "Платежи (упрощенная модель)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-113">Make sure that the model configuration “Payments (simplified model)” has been created in advance.</span></span> <span data-ttu-id="3ddac-114">В противном случае остановитесь сейчас и вернитесь по завершении руководства по задаче "Создание новой конфигурации с моделью данных выбранного домена".</span><span class="sxs-lookup"><span data-stu-id="3ddac-114">Otherwise, stop now and return after completion of the task guide ‘Create a new configuration with data model of the selected domain’.</span></span>  
+2. <span data-ttu-id="3ddac-115">Щелкните "Конструктор моделей".</span><span class="sxs-lookup"><span data-stu-id="3ddac-115">Click Model designer.</span></span>
+3. <span data-ttu-id="3ddac-116">Щелкните "Сопоставить модель с источником данных".</span><span class="sxs-lookup"><span data-stu-id="3ddac-116">Click Map model to datasource.</span></span>
+4. <span data-ttu-id="3ddac-117">Выберите запись "Сопоставление для кредитовых переводов".</span><span class="sxs-lookup"><span data-stu-id="3ddac-117">Select the 'CT mapping' record.</span></span>
+    * <span data-ttu-id="3ddac-118">Сопоставление для кредитовых переводов</span><span class="sxs-lookup"><span data-stu-id="3ddac-118">CT mapping</span></span>  
 
-## <a name="bind-created-data-sources-to-data-model-elements"></a><span data-ttu-id="abcc4-119">Связывание созданных источников данных с элементами модели данных</span><span class="sxs-lookup"><span data-stu-id="abcc4-119">Bind created data sources to data model elements</span></span>
-1. <span data-ttu-id="abcc4-120">Выберите Конструктор.</span><span class="sxs-lookup"><span data-stu-id="abcc4-120">Click Designer.</span></span>
-2. <span data-ttu-id="abcc4-121">В дереве выберите "Дата и время обработки(ProcessingDateTime)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-121">In the tree, select 'Processing date & time(ProcessingDateTime)'.</span></span>
-3. <span data-ttu-id="abcc4-122">В дереве выберите "Дата обработки(ProcessingDateTime)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-122">In the tree, select 'Processing date(ProcessingDateTime)'.</span></span>
-4. <span data-ttu-id="abcc4-123">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-123">Click Bind.</span></span>
-5. <span data-ttu-id="abcc4-124">В дереве выберите "Идентификатор платежного сообщения (MessageIdentification)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-124">In the tree, select 'Payment message identification(MessageIdentification)'.</span></span>
-6. <span data-ttu-id="abcc4-125">В дереве разверните узел "Проводки".</span><span class="sxs-lookup"><span data-stu-id="abcc4-125">In the tree, expand 'Transactions'.</span></span>
-7. <span data-ttu-id="abcc4-126">В дереве выберите «Проводки\Номер партии журнала(JournalNum)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-126">In the tree, select 'Transactions\Journal batch number(JournalNum)'.</span></span>
-8. <span data-ttu-id="abcc4-127">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-127">Click Bind.</span></span>
-9. <span data-ttu-id="abcc4-128">В дереве выберите "Платежи".</span><span class="sxs-lookup"><span data-stu-id="abcc4-128">In the tree, select 'Payments'.</span></span>
-10. <span data-ttu-id="abcc4-129">В дереве выберите "Проводки".</span><span class="sxs-lookup"><span data-stu-id="abcc4-129">In the tree, select 'Transactions'.</span></span>
-11. <span data-ttu-id="abcc4-130">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-130">Click Bind.</span></span>
-12. <span data-ttu-id="abcc4-131">В дереве разверните узел "Платежи= Проводки".</span><span class="sxs-lookup"><span data-stu-id="abcc4-131">In the tree, expand 'Payments= Transactions'.</span></span>
-13. <span data-ttu-id="abcc4-132">В дереве разверните узел "Платежи= Проводки\Кредитор".</span><span class="sxs-lookup"><span data-stu-id="abcc4-132">In the tree, expand 'Payments= Transactions\Creditor'.</span></span>
-14. <span data-ttu-id="abcc4-133">В дереве разверните узел "Платежи= Проводки\Кредитор\Счет".</span><span class="sxs-lookup"><span data-stu-id="abcc4-133">In the tree, expand 'Payments= Transactions\Creditor\Account'.</span></span>
-15. <span data-ttu-id="abcc4-134">В дереве выберите "Платежи= Проводки\Кредитор\Счет\Код валюты(Currency)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-134">In the tree, select 'Payments= Transactions\Creditor\Account\Currency code(Currency)'.</span></span>
-16. <span data-ttu-id="abcc4-135">В дереве разверните узел "Проводки\vendBankAccountInTransactionCompany()".</span><span class="sxs-lookup"><span data-stu-id="abcc4-135">In the tree, expand 'Transactions\vendBankAccountInTransactionCompany()'.</span></span>
-17. <span data-ttu-id="abcc4-136">В дереве выберите "Проводки\vendBankAccountInTransactionCompany()\Валюта(CurrencyCode)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-136">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Currency(CurrencyCode)'.</span></span>
-18. <span data-ttu-id="abcc4-137">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-137">Click Bind.</span></span>
-19. <span data-ttu-id="abcc4-138">В дереве выберите "Платежи= Проводки\Кредитор\Счет\Код IBAN(IBAN)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-138">In the tree, select 'Payments= Transactions\Creditor\Account\IBAN code(IBAN)'.</span></span>
-20. <span data-ttu-id="abcc4-139">В дереве выберите "Проводки\vendBankAccountInTransactionCompany()\IBAN(BankIBAN)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-139">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\IBAN(BankIBAN)'.</span></span>
-21. <span data-ttu-id="abcc4-140">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-140">Click Bind.</span></span>
-22. <span data-ttu-id="abcc4-141">В дереве выберите "Платежи= Проводки\Кредитор\Счет\Номер".</span><span class="sxs-lookup"><span data-stu-id="abcc4-141">In the tree, select 'Payments= Transactions\Creditor\Account\Number'.</span></span>
-23. <span data-ttu-id="abcc4-142">В дереве выберите "Проводки\vendBankAccountInTransactionCompany()\Номер банковского счета(AccountNum)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-142">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Bank account number(AccountNum)'.</span></span>
-24. <span data-ttu-id="abcc4-143">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-143">Click Bind.</span></span>
-25. <span data-ttu-id="abcc4-144">В дереве разверните узел "Платежи= Проводки\Кредитор\Агент".</span><span class="sxs-lookup"><span data-stu-id="abcc4-144">In the tree, expand 'Payments= Transactions\Creditor\Agent'.</span></span>
-26. <span data-ttu-id="abcc4-145">В дереве выберите "Платежи= Проводки\Кредитор\Агент\Имя".</span><span class="sxs-lookup"><span data-stu-id="abcc4-145">In the tree, select 'Payments= Transactions\Creditor\Agent\Name'.</span></span>
-27. <span data-ttu-id="abcc4-146">В дереве выберите "Проводки\vendBankAccountInTransactionCompany()\Имя".</span><span class="sxs-lookup"><span data-stu-id="abcc4-146">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Name'.</span></span>
-28. <span data-ttu-id="abcc4-147">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-147">Click Bind.</span></span>
-29. <span data-ttu-id="abcc4-148">В дереве выберите "Платежи= Проводки\Кредитор\Агент\Код банка(RoutingNumber)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-148">In the tree, select 'Payments= Transactions\Creditor\Agent\Routing number(RoutingNumber)'.</span></span>
-30. <span data-ttu-id="abcc4-149">В дереве выберите "Проводки\vendBankAccountInTransactionCompany()\Код банка(RegistrationNum)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-149">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Routing number(RegistrationNum)'.</span></span>
-31. <span data-ttu-id="abcc4-150">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-150">Click Bind.</span></span>
-32. <span data-ttu-id="abcc4-151">В дереве выберите "Платежи= Проводки\Кредитор\Агент\Код SWIFT(SWIFT)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-151">In the tree, select 'Payments= Transactions\Creditor\Agent\SWIFT code(SWIFT)'.</span></span>
-33. <span data-ttu-id="abcc4-152">В дереве выберите "Проводки\vendBankAccountInTransactionCompany()\Код SWIFT(SWIFTNo)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-152">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\SWIFT code(SWIFTNo)'.</span></span>
-34. <span data-ttu-id="abcc4-153">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-153">Click Bind.</span></span>
-35. <span data-ttu-id="abcc4-154">В дереве выберите "Платежи= Проводки\Кредитор\Имя".</span><span class="sxs-lookup"><span data-stu-id="abcc4-154">In the tree, select 'Payments= Transactions\Creditor\Name'.</span></span>
-36. <span data-ttu-id="abcc4-155">В дереве разверните узел "Проводки\findVendTable()".</span><span class="sxs-lookup"><span data-stu-id="abcc4-155">In the tree, expand 'Transactions\findVendTable()'.</span></span>
-37. <span data-ttu-id="abcc4-156">В дереве выберите "Transactions\findVendTable()\name()".</span><span class="sxs-lookup"><span data-stu-id="abcc4-156">In the tree, select 'Transactions\findVendTable()\name()'.</span></span>
-38. <span data-ttu-id="abcc4-157">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-157">Click Bind.</span></span>
-39. <span data-ttu-id="abcc4-158">В дереве выберите "Платежи= Проводки\Код валюты(Currency)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-158">In the tree, select 'Payments= Transactions\Currency code(Currency)'.</span></span>
-40. <span data-ttu-id="abcc4-159">В дереве разверните узел "Проводки\>Связи".</span><span class="sxs-lookup"><span data-stu-id="abcc4-159">In the tree, expand 'Transactions\>Relations'.</span></span>
-41. <span data-ttu-id="abcc4-160">В дереве разверните узел "Проводки\>Связи\Таблица валюты(Currency)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-160">In the tree, expand 'Transactions\>Relations\Currency table(Currency)'.</span></span>
-42. <span data-ttu-id="abcc4-161">В дереве выберите "Проводки\>Связи\Таблица валюты(Currency)\Код валюты (CurrencyCodeISO)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-161">In the tree, select 'Transactions\>Relations\Currency table(Currency)\Currency code(CurrencyCodeISO)'.</span></span>
-43. <span data-ttu-id="abcc4-162">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-162">Click Bind.</span></span>
-44. <span data-ttu-id="abcc4-163">В дереве разверните узел "Платежи= Проводки\Дебитор".</span><span class="sxs-lookup"><span data-stu-id="abcc4-163">In the tree, expand 'Payments= Transactions\Debtor'.</span></span>
-45. <span data-ttu-id="abcc4-164">В дереве разверните узел "Платежи= Проводки\Дебитор\Счет".</span><span class="sxs-lookup"><span data-stu-id="abcc4-164">In the tree, expand 'Payments= Transactions\Debtor\Account'.</span></span>
-46. <span data-ttu-id="abcc4-165">В дереве выберите "Платежи= Проводки\Дебитор\Счет\Код валюты(Currency)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-165">In the tree, select 'Payments= Transactions\Debtor\Account\Currency code(Currency)'.</span></span>
-47. <span data-ttu-id="abcc4-166">В дереве выберите "Банковский счет(BankAccount)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-166">In the tree, select 'Bank Account(BankAccount)'.</span></span>
-48. <span data-ttu-id="abcc4-167">В дереве разверните узел "Банковский счет(BankAccount)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-167">In the tree, expand 'Bank Account(BankAccount)'.</span></span>
-49. <span data-ttu-id="abcc4-168">В дереве выберите "Банковский счет(BankAccount)\Валюта(CurrencyCode)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-168">In the tree, select 'Bank Account(BankAccount)\Currency(CurrencyCode)'.</span></span>
-50. <span data-ttu-id="abcc4-169">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-169">Click Bind.</span></span>
-51. <span data-ttu-id="abcc4-170">В дереве выберите "Банковский счет(BankAccount)\IBAN".</span><span class="sxs-lookup"><span data-stu-id="abcc4-170">In the tree, select 'Bank Account(BankAccount)\IBAN'.</span></span>
-52. <span data-ttu-id="abcc4-171">В дереве выберите "Платежи= Проводки\Дебитор\Счет\Код IBAN(IBAN)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-171">In the tree, select 'Payments= Transactions\Debtor\Account\IBAN code(IBAN)'.</span></span>
-53. <span data-ttu-id="abcc4-172">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-172">Click Bind.</span></span>
-54. <span data-ttu-id="abcc4-173">В дереве выберите "Платежи= Проводки\Дебитор\Счет\Номер".</span><span class="sxs-lookup"><span data-stu-id="abcc4-173">In the tree, select 'Payments= Transactions\Debtor\Account\Number'.</span></span>
-55. <span data-ttu-id="abcc4-174">В дереве выберите "Банковский счет(BankAccount)\Номер банковского счета(AccountNum)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-174">In the tree, select 'Bank Account(BankAccount)\Bank account number(AccountNum)'.</span></span>
-56. <span data-ttu-id="abcc4-175">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-175">Click Bind.</span></span>
-57. <span data-ttu-id="abcc4-176">В дереве разверните узел "Платежи= Проводки\Дебитор\Агент".</span><span class="sxs-lookup"><span data-stu-id="abcc4-176">In the tree, expand 'Payments= Transactions\Debtor\Agent'.</span></span>
-58. <span data-ttu-id="abcc4-177">В дереве выберите "Платежи= Проводки\Дебитор\Агент\Имя".</span><span class="sxs-lookup"><span data-stu-id="abcc4-177">In the tree, select 'Payments= Transactions\Debtor\Agent\Name'.</span></span>
-59. <span data-ttu-id="abcc4-178">В дереве выберите "Банковский счет(BankAccount)\Имя".</span><span class="sxs-lookup"><span data-stu-id="abcc4-178">In the tree, select 'Bank Account(BankAccount)\Name'.</span></span>
-60. <span data-ttu-id="abcc4-179">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-179">Click Bind.</span></span>
-61. <span data-ttu-id="abcc4-180">В дереве выберите "Платежи= Проводки\Дебитор\Агент\Код банка(RoutingNumber)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-180">In the tree, select 'Payments= Transactions\Debtor\Agent\Routing number(RoutingNumber)'.</span></span>
-62. <span data-ttu-id="abcc4-181">В дереве выберите "Банковский счет(BankAccount)\Код банка(RegistrationNum)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-181">In the tree, select 'Bank Account(BankAccount)\Routing number(RegistrationNum)'.</span></span>
-63. <span data-ttu-id="abcc4-182">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-182">Click Bind.</span></span>
-64. <span data-ttu-id="abcc4-183">В дереве выберите "Платежи= Проводки\Дебитор\Агент\Код SWIFT(SWIFT)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-183">In the tree, select 'Payments= Transactions\Debtor\Agent\SWIFT code(SWIFT)'.</span></span>
-65. <span data-ttu-id="abcc4-184">В дереве выберите "Банковский счет(BankAccount)\Код SWIFT(SWIFTNo)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-184">In the tree, select 'Bank Account(BankAccount)\SWIFT code(SWIFTNo)'.</span></span>
-66. <span data-ttu-id="abcc4-185">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-185">Click Bind.</span></span>
-67. <span data-ttu-id="abcc4-186">В дереве выберите "Платежи= Проводки\Дебитор\Имя".</span><span class="sxs-lookup"><span data-stu-id="abcc4-186">In the tree, select 'Payments= Transactions\Debtor\Name'.</span></span>
-68. <span data-ttu-id="abcc4-187">В дереве выберите "Информация о компании(Company)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-187">In the tree, select 'Company information(Company)'.</span></span>
-69. <span data-ttu-id="abcc4-188">В дереве разверните узел "Информация о компании(Company)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-188">In the tree, expand 'Company information(Company)'.</span></span>
-70. <span data-ttu-id="abcc4-189">В дереве выберите "Информация о компании(Company)\Имя".</span><span class="sxs-lookup"><span data-stu-id="abcc4-189">In the tree, select 'Company information(Company)\Name'.</span></span>
-71. <span data-ttu-id="abcc4-190">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-190">Click Bind.</span></span>
-72. <span data-ttu-id="abcc4-191">В дереве выберите "Платежи= Проводки\Описание".</span><span class="sxs-lookup"><span data-stu-id="abcc4-191">In the tree, select 'Payments= Transactions\Description'.</span></span>
-73. <span data-ttu-id="abcc4-192">В дереве выберите "Платежи= Проводки\Описание(Txt)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-192">In the tree, select 'Transactions\Description(Txt)'.</span></span>
-74. <span data-ttu-id="abcc4-193">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-193">Click Bind.</span></span>
-75. <span data-ttu-id="abcc4-194">В дереве выберите "Платежи= Проводки\Сквозной идентификационный код(End2EndID)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-194">In the tree, select 'Payments= Transactions\End to end identification code(End2EndID)'.</span></span>
-76. <span data-ttu-id="abcc4-195">В дереве выберите "Проводки\$EndToEndID".</span><span class="sxs-lookup"><span data-stu-id="abcc4-195">In the tree, select 'Transactions\$EndToEndID'.</span></span>
-77. <span data-ttu-id="abcc4-196">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-196">Click Bind.</span></span>
-78. <span data-ttu-id="abcc4-197">В дереве выберите "Платежи= Проводки\Начальная сумма платежного поручения(InstructedAmount)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-197">In the tree, select 'Payments= Transactions\Instructed amount(InstructedAmount)'.</span></span>
-79. <span data-ttu-id="abcc4-198">В дереве выберите "Проводки\$Amount".</span><span class="sxs-lookup"><span data-stu-id="abcc4-198">In the tree, select 'Transactions\$Amount'.</span></span>
-80. <span data-ttu-id="abcc4-199">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-199">Click Bind.</span></span>
-81. <span data-ttu-id="abcc4-200">В дереве выберите "Платежи= Проводки\Дата проводки(TransactionDate)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-200">In the tree, select 'Payments= Transactions\Transaction date(TransactionDate)'.</span></span>
-82. <span data-ttu-id="abcc4-201">В дереве выберите "Проводки\Дата(TransDate)".</span><span class="sxs-lookup"><span data-stu-id="abcc4-201">In the tree, select 'Transactions\Date(TransDate)'.</span></span>
-83. <span data-ttu-id="abcc4-202">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="abcc4-202">Click Bind.</span></span>
+## <a name="bind-created-data-sources-to-data-model-elements"></a><span data-ttu-id="3ddac-119">Связывание созданных источников данных с элементами модели данных</span><span class="sxs-lookup"><span data-stu-id="3ddac-119">Bind created data sources to data model elements</span></span>
+1. <span data-ttu-id="3ddac-120">Выберите Конструктор.</span><span class="sxs-lookup"><span data-stu-id="3ddac-120">Click Designer.</span></span>
+2. <span data-ttu-id="3ddac-121">В дереве выберите "Дата и время обработки(ProcessingDateTime)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-121">In the tree, select 'Processing date & time(ProcessingDateTime)'.</span></span>
+3. <span data-ttu-id="3ddac-122">В дереве выберите "Дата обработки(ProcessingDateTime)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-122">In the tree, select 'Processing date(ProcessingDateTime)'.</span></span>
+4. <span data-ttu-id="3ddac-123">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-123">Click Bind.</span></span>
+5. <span data-ttu-id="3ddac-124">В дереве выберите "Идентификатор платежного сообщения (MessageIdentification)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-124">In the tree, select 'Payment message identification(MessageIdentification)'.</span></span>
+6. <span data-ttu-id="3ddac-125">В дереве разверните узел "Проводки".</span><span class="sxs-lookup"><span data-stu-id="3ddac-125">In the tree, expand 'Transactions'.</span></span>
+7. <span data-ttu-id="3ddac-126">В дереве выберите «Проводки\Номер партии журнала(JournalNum)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-126">In the tree, select 'Transactions\Journal batch number(JournalNum)'.</span></span>
+8. <span data-ttu-id="3ddac-127">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-127">Click Bind.</span></span>
+9. <span data-ttu-id="3ddac-128">В дереве выберите "Платежи".</span><span class="sxs-lookup"><span data-stu-id="3ddac-128">In the tree, select 'Payments'.</span></span>
+10. <span data-ttu-id="3ddac-129">В дереве выберите "Проводки".</span><span class="sxs-lookup"><span data-stu-id="3ddac-129">In the tree, select 'Transactions'.</span></span>
+11. <span data-ttu-id="3ddac-130">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-130">Click Bind.</span></span>
+12. <span data-ttu-id="3ddac-131">В дереве разверните узел "Платежи= Проводки".</span><span class="sxs-lookup"><span data-stu-id="3ddac-131">In the tree, expand 'Payments= Transactions'.</span></span>
+13. <span data-ttu-id="3ddac-132">В дереве разверните узел "Платежи= Проводки\Кредитор".</span><span class="sxs-lookup"><span data-stu-id="3ddac-132">In the tree, expand 'Payments= Transactions\Creditor'.</span></span>
+14. <span data-ttu-id="3ddac-133">В дереве разверните узел "Платежи= Проводки\Кредитор\Счет".</span><span class="sxs-lookup"><span data-stu-id="3ddac-133">In the tree, expand 'Payments= Transactions\Creditor\Account'.</span></span>
+15. <span data-ttu-id="3ddac-134">В дереве выберите "Платежи= Проводки\Кредитор\Счет\Код валюты(Currency)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-134">In the tree, select 'Payments= Transactions\Creditor\Account\Currency code(Currency)'.</span></span>
+16. <span data-ttu-id="3ddac-135">В дереве разверните узел "Проводки\vendBankAccountInTransactionCompany()".</span><span class="sxs-lookup"><span data-stu-id="3ddac-135">In the tree, expand 'Transactions\vendBankAccountInTransactionCompany()'.</span></span>
+17. <span data-ttu-id="3ddac-136">В дереве выберите "Проводки\vendBankAccountInTransactionCompany()\Валюта(CurrencyCode)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-136">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Currency(CurrencyCode)'.</span></span>
+18. <span data-ttu-id="3ddac-137">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-137">Click Bind.</span></span>
+19. <span data-ttu-id="3ddac-138">В дереве выберите "Платежи= Проводки\Кредитор\Счет\Код IBAN(IBAN)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-138">In the tree, select 'Payments= Transactions\Creditor\Account\IBAN code(IBAN)'.</span></span>
+20. <span data-ttu-id="3ddac-139">В дереве выберите "Проводки\vendBankAccountInTransactionCompany()\IBAN(BankIBAN)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-139">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\IBAN(BankIBAN)'.</span></span>
+21. <span data-ttu-id="3ddac-140">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-140">Click Bind.</span></span>
+22. <span data-ttu-id="3ddac-141">В дереве выберите "Платежи= Проводки\Кредитор\Счет\Номер".</span><span class="sxs-lookup"><span data-stu-id="3ddac-141">In the tree, select 'Payments= Transactions\Creditor\Account\Number'.</span></span>
+23. <span data-ttu-id="3ddac-142">В дереве выберите "Проводки\vendBankAccountInTransactionCompany()\Номер банковского счета(AccountNum)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-142">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Bank account number(AccountNum)'.</span></span>
+24. <span data-ttu-id="3ddac-143">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-143">Click Bind.</span></span>
+25. <span data-ttu-id="3ddac-144">В дереве разверните узел "Платежи= Проводки\Кредитор\Агент".</span><span class="sxs-lookup"><span data-stu-id="3ddac-144">In the tree, expand 'Payments= Transactions\Creditor\Agent'.</span></span>
+26. <span data-ttu-id="3ddac-145">В дереве выберите "Платежи= Проводки\Кредитор\Агент\Имя".</span><span class="sxs-lookup"><span data-stu-id="3ddac-145">In the tree, select 'Payments= Transactions\Creditor\Agent\Name'.</span></span>
+27. <span data-ttu-id="3ddac-146">В дереве выберите "Проводки\vendBankAccountInTransactionCompany()\Имя".</span><span class="sxs-lookup"><span data-stu-id="3ddac-146">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Name'.</span></span>
+28. <span data-ttu-id="3ddac-147">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-147">Click Bind.</span></span>
+29. <span data-ttu-id="3ddac-148">В дереве выберите "Платежи= Проводки\Кредитор\Агент\Код банка(RoutingNumber)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-148">In the tree, select 'Payments= Transactions\Creditor\Agent\Routing number(RoutingNumber)'.</span></span>
+30. <span data-ttu-id="3ddac-149">В дереве выберите "Проводки\vendBankAccountInTransactionCompany()\Код банка(RegistrationNum)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-149">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\Routing number(RegistrationNum)'.</span></span>
+31. <span data-ttu-id="3ddac-150">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-150">Click Bind.</span></span>
+32. <span data-ttu-id="3ddac-151">В дереве выберите "Платежи= Проводки\Кредитор\Агент\Код SWIFT(SWIFT)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-151">In the tree, select 'Payments= Transactions\Creditor\Agent\SWIFT code(SWIFT)'.</span></span>
+33. <span data-ttu-id="3ddac-152">В дереве выберите "Проводки\vendBankAccountInTransactionCompany()\Код SWIFT(SWIFTNo)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-152">In the tree, select 'Transactions\vendBankAccountInTransactionCompany()\SWIFT code(SWIFTNo)'.</span></span>
+34. <span data-ttu-id="3ddac-153">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-153">Click Bind.</span></span>
+35. <span data-ttu-id="3ddac-154">В дереве выберите "Платежи= Проводки\Кредитор\Имя".</span><span class="sxs-lookup"><span data-stu-id="3ddac-154">In the tree, select 'Payments= Transactions\Creditor\Name'.</span></span>
+36. <span data-ttu-id="3ddac-155">В дереве разверните узел "Проводки\findVendTable()".</span><span class="sxs-lookup"><span data-stu-id="3ddac-155">In the tree, expand 'Transactions\findVendTable()'.</span></span>
+37. <span data-ttu-id="3ddac-156">В дереве выберите "Transactions\findVendTable()\name()".</span><span class="sxs-lookup"><span data-stu-id="3ddac-156">In the tree, select 'Transactions\findVendTable()\name()'.</span></span>
+38. <span data-ttu-id="3ddac-157">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-157">Click Bind.</span></span>
+39. <span data-ttu-id="3ddac-158">В дереве выберите "Платежи= Проводки\Код валюты(Currency)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-158">In the tree, select 'Payments= Transactions\Currency code(Currency)'.</span></span>
+40. <span data-ttu-id="3ddac-159">В дереве разверните узел "Проводки\>Связи".</span><span class="sxs-lookup"><span data-stu-id="3ddac-159">In the tree, expand 'Transactions\>Relations'.</span></span>
+41. <span data-ttu-id="3ddac-160">В дереве разверните узел "Проводки\>Связи\Таблица валюты(Currency)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-160">In the tree, expand 'Transactions\>Relations\Currency table(Currency)'.</span></span>
+42. <span data-ttu-id="3ddac-161">В дереве выберите "Проводки\>Связи\Таблица валюты(Currency)\Код валюты (CurrencyCodeISO)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-161">In the tree, select 'Transactions\>Relations\Currency table(Currency)\Currency code(CurrencyCodeISO)'.</span></span>
+43. <span data-ttu-id="3ddac-162">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-162">Click Bind.</span></span>
+44. <span data-ttu-id="3ddac-163">В дереве разверните узел "Платежи= Проводки\Дебитор".</span><span class="sxs-lookup"><span data-stu-id="3ddac-163">In the tree, expand 'Payments= Transactions\Debtor'.</span></span>
+45. <span data-ttu-id="3ddac-164">В дереве разверните узел "Платежи= Проводки\Дебитор\Счет".</span><span class="sxs-lookup"><span data-stu-id="3ddac-164">In the tree, expand 'Payments= Transactions\Debtor\Account'.</span></span>
+46. <span data-ttu-id="3ddac-165">В дереве выберите "Платежи= Проводки\Дебитор\Счет\Код валюты(Currency)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-165">In the tree, select 'Payments= Transactions\Debtor\Account\Currency code(Currency)'.</span></span>
+47. <span data-ttu-id="3ddac-166">В дереве выберите "Банковский счет(BankAccount)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-166">In the tree, select 'Bank Account(BankAccount)'.</span></span>
+48. <span data-ttu-id="3ddac-167">В дереве разверните узел "Банковский счет(BankAccount)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-167">In the tree, expand 'Bank Account(BankAccount)'.</span></span>
+49. <span data-ttu-id="3ddac-168">В дереве выберите "Банковский счет(BankAccount)\Валюта(CurrencyCode)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-168">In the tree, select 'Bank Account(BankAccount)\Currency(CurrencyCode)'.</span></span>
+50. <span data-ttu-id="3ddac-169">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-169">Click Bind.</span></span>
+51. <span data-ttu-id="3ddac-170">В дереве выберите "Банковский счет(BankAccount)\IBAN".</span><span class="sxs-lookup"><span data-stu-id="3ddac-170">In the tree, select 'Bank Account(BankAccount)\IBAN'.</span></span>
+52. <span data-ttu-id="3ddac-171">В дереве выберите "Платежи= Проводки\Дебитор\Счет\Код IBAN(IBAN)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-171">In the tree, select 'Payments= Transactions\Debtor\Account\IBAN code(IBAN)'.</span></span>
+53. <span data-ttu-id="3ddac-172">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-172">Click Bind.</span></span>
+54. <span data-ttu-id="3ddac-173">В дереве выберите "Платежи= Проводки\Дебитор\Счет\Номер".</span><span class="sxs-lookup"><span data-stu-id="3ddac-173">In the tree, select 'Payments= Transactions\Debtor\Account\Number'.</span></span>
+55. <span data-ttu-id="3ddac-174">В дереве выберите "Банковский счет(BankAccount)\Номер банковского счета(AccountNum)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-174">In the tree, select 'Bank Account(BankAccount)\Bank account number(AccountNum)'.</span></span>
+56. <span data-ttu-id="3ddac-175">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-175">Click Bind.</span></span>
+57. <span data-ttu-id="3ddac-176">В дереве разверните узел "Платежи= Проводки\Дебитор\Агент".</span><span class="sxs-lookup"><span data-stu-id="3ddac-176">In the tree, expand 'Payments= Transactions\Debtor\Agent'.</span></span>
+58. <span data-ttu-id="3ddac-177">В дереве выберите "Платежи= Проводки\Дебитор\Агент\Имя".</span><span class="sxs-lookup"><span data-stu-id="3ddac-177">In the tree, select 'Payments= Transactions\Debtor\Agent\Name'.</span></span>
+59. <span data-ttu-id="3ddac-178">В дереве выберите "Банковский счет(BankAccount)\Имя".</span><span class="sxs-lookup"><span data-stu-id="3ddac-178">In the tree, select 'Bank Account(BankAccount)\Name'.</span></span>
+60. <span data-ttu-id="3ddac-179">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-179">Click Bind.</span></span>
+61. <span data-ttu-id="3ddac-180">В дереве выберите "Платежи= Проводки\Дебитор\Агент\Код банка(RoutingNumber)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-180">In the tree, select 'Payments= Transactions\Debtor\Agent\Routing number(RoutingNumber)'.</span></span>
+62. <span data-ttu-id="3ddac-181">В дереве выберите "Банковский счет(BankAccount)\Код банка(RegistrationNum)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-181">In the tree, select 'Bank Account(BankAccount)\Routing number(RegistrationNum)'.</span></span>
+63. <span data-ttu-id="3ddac-182">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-182">Click Bind.</span></span>
+64. <span data-ttu-id="3ddac-183">В дереве выберите "Платежи= Проводки\Дебитор\Агент\Код SWIFT(SWIFT)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-183">In the tree, select 'Payments= Transactions\Debtor\Agent\SWIFT code(SWIFT)'.</span></span>
+65. <span data-ttu-id="3ddac-184">В дереве выберите "Банковский счет(BankAccount)\Код SWIFT(SWIFTNo)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-184">In the tree, select 'Bank Account(BankAccount)\SWIFT code(SWIFTNo)'.</span></span>
+66. <span data-ttu-id="3ddac-185">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-185">Click Bind.</span></span>
+67. <span data-ttu-id="3ddac-186">В дереве выберите "Платежи= Проводки\Дебитор\Имя".</span><span class="sxs-lookup"><span data-stu-id="3ddac-186">In the tree, select 'Payments= Transactions\Debtor\Name'.</span></span>
+68. <span data-ttu-id="3ddac-187">В дереве выберите "Информация о компании(Company)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-187">In the tree, select 'Company information(Company)'.</span></span>
+69. <span data-ttu-id="3ddac-188">В дереве разверните узел "Информация о компании(Company)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-188">In the tree, expand 'Company information(Company)'.</span></span>
+70. <span data-ttu-id="3ddac-189">В дереве выберите "Информация о компании(Company)\Имя".</span><span class="sxs-lookup"><span data-stu-id="3ddac-189">In the tree, select 'Company information(Company)\Name'.</span></span>
+71. <span data-ttu-id="3ddac-190">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-190">Click Bind.</span></span>
+72. <span data-ttu-id="3ddac-191">В дереве выберите "Платежи= Проводки\Описание".</span><span class="sxs-lookup"><span data-stu-id="3ddac-191">In the tree, select 'Payments= Transactions\Description'.</span></span>
+73. <span data-ttu-id="3ddac-192">В дереве выберите "Платежи= Проводки\Описание(Txt)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-192">In the tree, select 'Transactions\Description(Txt)'.</span></span>
+74. <span data-ttu-id="3ddac-193">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-193">Click Bind.</span></span>
+75. <span data-ttu-id="3ddac-194">В дереве выберите "Платежи= Проводки\Сквозной идентификационный код(End2EndID)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-194">In the tree, select 'Payments= Transactions\End to end identification code(End2EndID)'.</span></span>
+76. <span data-ttu-id="3ddac-195">В дереве выберите "Проводки\$EndToEndID".</span><span class="sxs-lookup"><span data-stu-id="3ddac-195">In the tree, select 'Transactions\$EndToEndID'.</span></span>
+77. <span data-ttu-id="3ddac-196">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-196">Click Bind.</span></span>
+78. <span data-ttu-id="3ddac-197">В дереве выберите "Платежи= Проводки\Начальная сумма платежного поручения(InstructedAmount)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-197">In the tree, select 'Payments= Transactions\Instructed amount(InstructedAmount)'.</span></span>
+79. <span data-ttu-id="3ddac-198">В дереве выберите "Проводки\$Amount".</span><span class="sxs-lookup"><span data-stu-id="3ddac-198">In the tree, select 'Transactions\$Amount'.</span></span>
+80. <span data-ttu-id="3ddac-199">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-199">Click Bind.</span></span>
+81. <span data-ttu-id="3ddac-200">В дереве выберите "Платежи= Проводки\Дата проводки(TransactionDate)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-200">In the tree, select 'Payments= Transactions\Transaction date(TransactionDate)'.</span></span>
+82. <span data-ttu-id="3ddac-201">В дереве выберите "Проводки\Дата(TransDate)".</span><span class="sxs-lookup"><span data-stu-id="3ddac-201">In the tree, select 'Transactions\Date(TransDate)'.</span></span>
+83. <span data-ttu-id="3ddac-202">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="3ddac-202">Click Bind.</span></span>
 
-## <a name="validate-created-mapping"></a><span data-ttu-id="abcc4-203">Проверка созданного сопоставления</span><span class="sxs-lookup"><span data-stu-id="abcc4-203">Validate created mapping</span></span>
-1. <span data-ttu-id="abcc4-204">Щелкните "Проверить".</span><span class="sxs-lookup"><span data-stu-id="abcc4-204">Click Validate.</span></span>
-    * <span data-ttu-id="abcc4-205">Проверьте новое сопоставление, чтобы убедиться, что все привязки работают верно.</span><span class="sxs-lookup"><span data-stu-id="abcc4-205">Validate the new mapping to ensure that all bindings are okay.</span></span>  
-2. <span data-ttu-id="abcc4-206">Щелкните стрелку, чтобы развернуть или свернуть раздел "Список ошибок".</span><span class="sxs-lookup"><span data-stu-id="abcc4-206">Click the arrow to expand or collapse the Error List section.</span></span>
-3. <span data-ttu-id="abcc4-207">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="abcc4-207">Click Save.</span></span>
-4. <span data-ttu-id="abcc4-208">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="abcc4-208">Close the page.</span></span>
-5. <span data-ttu-id="abcc4-209">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="abcc4-209">Close the page.</span></span>
-6. <span data-ttu-id="abcc4-210">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="abcc4-210">Close the page.</span></span>
+## <a name="validate-created-mapping"></a><span data-ttu-id="3ddac-203">Проверка созданного сопоставления</span><span class="sxs-lookup"><span data-stu-id="3ddac-203">Validate created mapping</span></span>
+1. <span data-ttu-id="3ddac-204">Щелкните "Проверить".</span><span class="sxs-lookup"><span data-stu-id="3ddac-204">Click Validate.</span></span>
+    * <span data-ttu-id="3ddac-205">Проверьте новое сопоставление, чтобы убедиться, что все привязки работают верно.</span><span class="sxs-lookup"><span data-stu-id="3ddac-205">Validate the new mapping to ensure that all bindings are okay.</span></span>  
+2. <span data-ttu-id="3ddac-206">Щелкните стрелку, чтобы развернуть или свернуть раздел "Список ошибок".</span><span class="sxs-lookup"><span data-stu-id="3ddac-206">Click the arrow to expand or collapse the Error List section.</span></span>
+3. <span data-ttu-id="3ddac-207">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="3ddac-207">Click Save.</span></span>
+4. <span data-ttu-id="3ddac-208">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="3ddac-208">Close the page.</span></span>
+5. <span data-ttu-id="3ddac-209">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="3ddac-209">Close the page.</span></span>
+6. <span data-ttu-id="3ddac-210">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="3ddac-210">Close the page.</span></span>
 
-## <a name="change-the-status-of-the-current-version-of-model-configuration"></a><span data-ttu-id="abcc4-211">Изменение статуса текущей версии модели конфигурации</span><span class="sxs-lookup"><span data-stu-id="abcc4-211">Change the status of the current version of model configuration</span></span>
-1. <span data-ttu-id="abcc4-212">Щелкните "Изменить статус".</span><span class="sxs-lookup"><span data-stu-id="abcc4-212">Click Change status.</span></span>
-    * <span data-ttu-id="abcc4-213">Измените статус созданной конфигурации модели с "Черновик" на "Завершено", чтобы сделать ее доступной для дизайна формата платежа.</span><span class="sxs-lookup"><span data-stu-id="abcc4-213">Change the status of designed model configuration – from Draft to Completed to make it available for payment format design.</span></span>  
-2. <span data-ttu-id="abcc4-214">Щелкните "Завершить".</span><span class="sxs-lookup"><span data-stu-id="abcc4-214">Click Complete.</span></span>
-    * <span data-ttu-id="abcc4-215">Выберите "Завершить".</span><span class="sxs-lookup"><span data-stu-id="abcc4-215">Select Complete.</span></span>  
-3. <span data-ttu-id="abcc4-216">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="abcc4-216">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="abcc4-217">Например, "версия 1".</span><span class="sxs-lookup"><span data-stu-id="abcc4-217">For example, 'version 1'.</span></span>  
-4. <span data-ttu-id="abcc4-218">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="abcc4-218">Click OK.</span></span>
-5. <span data-ttu-id="abcc4-219">Выберите завершенную версию текущей конфигурации.</span><span class="sxs-lookup"><span data-stu-id="abcc4-219">Select the completed version of the current configuration.</span></span>
-    * <span data-ttu-id="abcc4-220">Обратите внимание, что созданная конфигурация сохраняется как завершенная версия 1.</span><span class="sxs-lookup"><span data-stu-id="abcc4-220">Note that the created configuration is saved as completed version 1.</span></span>  
+## <a name="change-the-status-of-the-current-version-of-model-configuration"></a><span data-ttu-id="3ddac-211">Изменение статуса текущей версии модели конфигурации</span><span class="sxs-lookup"><span data-stu-id="3ddac-211">Change the status of the current version of model configuration</span></span>
+1. <span data-ttu-id="3ddac-212">Щелкните "Изменить статус".</span><span class="sxs-lookup"><span data-stu-id="3ddac-212">Click Change status.</span></span>
+    * <span data-ttu-id="3ddac-213">Измените статус созданной конфигурации модели с "Черновик" на "Завершено", чтобы сделать ее доступной для дизайна формата платежа.</span><span class="sxs-lookup"><span data-stu-id="3ddac-213">Change the status of designed model configuration – from Draft to Completed to make it available for payment format design.</span></span>  
+2. <span data-ttu-id="3ddac-214">Щелкните "Завершить".</span><span class="sxs-lookup"><span data-stu-id="3ddac-214">Click Complete.</span></span>
+    * <span data-ttu-id="3ddac-215">Выберите "Завершить".</span><span class="sxs-lookup"><span data-stu-id="3ddac-215">Select Complete.</span></span>  
+3. <span data-ttu-id="3ddac-216">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="3ddac-216">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="3ddac-217">Например, "версия 1".</span><span class="sxs-lookup"><span data-stu-id="3ddac-217">For example, 'version 1'.</span></span>  
+4. <span data-ttu-id="3ddac-218">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="3ddac-218">Click OK.</span></span>
+5. <span data-ttu-id="3ddac-219">Выберите завершенную версию текущей конфигурации.</span><span class="sxs-lookup"><span data-stu-id="3ddac-219">Select the completed version of the current configuration.</span></span>
+    * <span data-ttu-id="3ddac-220">Обратите внимание, что созданная конфигурация сохраняется как завершенная версия 1.</span><span class="sxs-lookup"><span data-stu-id="3ddac-220">Note that the created configuration is saved as completed version 1.</span></span>  
 
 
