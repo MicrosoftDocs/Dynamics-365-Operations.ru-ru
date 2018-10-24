@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 85318332b802aace7d705289e6a298b49799b847
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 08/09/2018
 > * Редактор workflow-процессов запускается в виде приложения ClickOnce. Только Microsoft Edge и Internet Explorer (на поддерживаемой версии Microsoft Windows) поддерживают приложение ClickOnce. Для приложения ClickOnce редактора workflow-процессов требуется 64-разрядная совместимая операционная система.
 > * Для предварительного просмотра PDF-файлов рекомендуется использовать современные браузеры, такие как Microsoft Edge (последней общедоступной версии) в Windows 10 или Google Chrome (последней общедоступной версии) в Windows 10, Windows 8.1, Windows 8, Windows 7 или на планшете Google Nexus 10.
 >   Требования к сети
-> * Система Dynamics 365 for Talent предназначена для сетей с задержкой 250-300 миллисекунд (мс) и менее. Это задержка от клиента браузера до центра данных Microsoft Azure, на котором размещена система Dynamics 365 for Talent. Рекомендуется проверить задержку в сети на сайте [www.azurespeed.com](http://www.azurespeed.com "Azure Latency Test").
+> * Система Dynamics 365 for Talent предназначена для сетей с задержкой 250-300 миллисекунд (мс) и менее. Это задержка от клиента браузера до центра данных Microsoft Azure, на котором размещена система Dynamics 365 for Talent. Рекомендуется проверить задержку в сети на сайте [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
 > * Требования к пропускной способности для Dynamics 365 for Talent зависят от конкретного сценария. В большинстве типичных сценариев требуется пропускная способность более 50 Кбайт в секунду (КБ/с).
 > 
 > [!WARNING]

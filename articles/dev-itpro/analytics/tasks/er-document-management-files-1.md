@@ -1,28 +1,29 @@
 --- 
-title: "Подготовка моделей данных для использования файлов управления документами в выходных данных электронной отчетности"
+title: "Электронная отчетность — Использование файлов управления документами в выходных данных формата (Часть 1. Подготовка модели данных)"
 description: "В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для использования файлов управления документами (вложений) в выходных данных электронной отчетности."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: fcafaf17315f54594116a143f36e924bc705d839
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 00d366e61077e27a13b13e31a55acc89ae2b0cd0
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="prepare-data-models-to-use-document-management-files-in-er-output"></a>Подготовка моделей данных для использования файлов управления документами в выходных данных электронной отчетности
+# <a name="er-use-document-management-files-in-format-outputs-part-1-prepare-data-model"></a>Электронная отчетность — Использование файлов управления документами в выходных данных формата (Часть 1. Подготовка модели данных)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

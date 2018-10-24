@@ -1,28 +1,29 @@
 --- 
-title: "Выполнение отчетов, использующих финансовые аналитики как источники данных"
+title: "Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 4. Выполнение отчета)"
 description: "В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить модель электронной отчетности (ER) для использования финансовых аналитик как источника данных для отчетов электронной отчетности."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERSolutionTable, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 6569f9b97d5d15bf74b8b3882bf4bab50970dd0f
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 917eae141bbb8792f02d3323054e2a4096dae551
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="run-reports-that-use-financial-dimensions-as-data-sources"></a>Выполнение отчетов, использующих финансовые аналитики как источники данных
+# <a name="er-use-financial-dimensions-as-a-data-source-part-4-run-the-report"></a>Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 4. Выполнение отчета)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -44,6 +45,6 @@ ms.lasthandoff: 08/09/2018
 9. В поле "Критерии" введите "00057".
 10. Нажмите кнопку "OК".
 11. Нажмите кнопку "OК".
-    * Просмотрите созданные выходные данные. Обратите внимание, что для каждой проводки выбранной партии представлены финансовые аналитики из соответствующих аналитик. Выполните этот отчет и выберите другие аналитики, чтобы убедиться, что отчет не зависит от количества выбранных аналитик или количества аналитик, настроенных для данного экземпляра Dynamics 365 for Finance and Operations.  
+    * Просмотрите созданные выходные данные. Обратите внимание, что для каждой проводки выбранной партии представлены финансовые аналитики из соответствующих аналитик. Выполните этот отчет и выберите другие аналитики, чтобы убедиться, что отчет не зависит от количества выбранных аналитик или количества аналитик, настроенных для данного экземпляра Dynamics 365 for Finance and Operations, Enterprise Edition.  
 
 

@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Эта тема содержит сведения и ссылки на ресурсы, которые помогут вам настроить Dynamics 365 for Finance and Operations для юридических лиц с основным адресом в Бразилии. 
+Эта тема содержит сведения и ссылки на ресурсы, которые помогут вам настроить Dynamics 365 for Finance and Operations для юридических лиц с основным адресом в Европе. 
 
 - [Подотчетные лица](emea-advance-holders.md)
  - [Проводки по подотчетным лицам](emea-advance-holders-transactions.md)
@@ -44,11 +44,9 @@ ms.lasthandoff: 08/13/2018
 - [Форматы файлов для способов оплаты](emea-select-file-formats-for-the-method-of-payments.md)
 - [Интеграция финансовых служб (ESR)](emea-fiscal-service-integration.md)
 - [Выбытие основных средств для Эстонии и Литвы](emea-credit-note-reverse-fixed-asset-sale.md)
-- [Переоценка в иностранной валюте](emea-foreign-currency-revaluation.md)
 - [Создание документа перемещения для внутреннего перемещения запасов](tasks/transfer-document-internal-inventory-transfer.md)
-- [Создание декларации Интрастат ЕС](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Создание отчета ЕС по НДС](tasks/eur-00011-eu-sales-list-report.md)
-- ISO20022-файлы
+- Файлы ISO20022
   - [Импорт файлов ISO20022](emea-ISO20022-file-formats.md)
   - [Импорт конфигурации безакцептного списания ISO20022](tasks/import-iso20022-direct-debit-configuration.md)
   - [Импорт конфигурации кредитового перевода ISO20022](tasks/import-iso20022-credit-transfer-configuration.md)
@@ -61,6 +59,8 @@ ms.lasthandoff: 08/13/2018
   - [Создание и экспорт платежей поставщикам с помощью формата платежей ISO20022](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [Интрастат](emea-intrastat.md)
   - [Перенос проводок в Интрастат](tasks/transfer-transactions-intrastat.md)
+  - [Определение адреса погрузки для внутренней проводки](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [Создание декларации Интрастат ЕС](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Отчеты по журналам запасов](emea-set-up-report-inventory-journal-names.md)
 - [Крайние сроки выпуска накладных](emea-invoice-issue-deadline.md)
 - [Обработка накладных](emea-invoice-processing.md)
@@ -82,8 +82,6 @@ ms.lasthandoff: 08/13/2018
 - [Настройка отчетности ЕС по НДС](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Настройка формата платежной квитанции для накладных проекта](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Настройка подписывающих лиц для печатных форм](emea-set-up-signers-for-printing-forms.md)
-- [Настройка документов перемещения для перемещения товаров в компании](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [Определение адреса погрузки для внутренней проводки](tasks/eur-00002-specify-lading-address-intra-community.md)
 - [Учет с использованием сторно](emea-storno.md)
 - [Налоговые директивы](emea-tax-directives.md)
 - [Обновление способа отображения сумм в отчетах и документах](emea-amount-printing-forms.md)

@@ -18,10 +18,10 @@ ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
-ms.openlocfilehash: 7061ee2e8b22d29381131815898902a482b7b730
+ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
+ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -31,8 +31,7 @@ ms.lasthandoff: 08/29/2018
 
 В этой статье объясняется, как получить помощь по работе с Finance and Operations или Microsoft Dynamics Lifecycle Services (LCS). 
 
-<a name="contact-support"></a>Обратиться в службу поддержки
----------------
+## <a name="contact-support"></a>Обратиться в службу поддержки
 
 Используйте сведения в этой статье для обращения в корпорацию Майкрософт в случае появления технических вопросов по Finance and Operations или если вам нужна помощь с доступом к Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -89,8 +88,10 @@ ms.lasthandoff: 08/29/2018
 </tbody>
 </table>
 
-Дополнительные сведения об услугах поддержки Microsoft Dynamics см. в разделе [Поддержка Microsoft Dynamics Online](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
 
-
+## <a name="additional-resources"></a>Дополнительные ресурсы
+- [Получение поддержки по Dynamics 365 for Retail](../../retail/retail-support.md)
+- [Получение поддержки по Dynamics 365 for Talent](../../talent/talent-support.md)
+- Дополнительные сведения об услугах поддержки Microsoft Dynamics см. в разделе [Поддержка Microsoft Dynamics Online](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
 
 
