@@ -1,25 +1,26 @@
 --- 
 title: "Разработка конфигураций электронной отчетности для создания отчетов в формате Word"
-description: "В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить форматы электронной отчетности (ER) для создания отчетов как файлов Microsoft Word."
+description: "В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить форматы электронной отчетности для создания отчетов в виде файлов Microsoft Word."
 author: NickSelin
 manager: AnnBe
-ms.date: 12/21/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Разработка конфигураций электронной отчетности для создания отчетов в формате Word
@@ -30,9 +31,9 @@ ms.lasthandoff: 08/09/2018
 
 Для выполнения этих шагов необходимо сначала выполнить шаги в руководстве по задаче "Создание конфигурации электронной отчетности для создания отчетов в формате OPENXML". Необходимо заранее загрузить и сохранить локально для следующие шаблоны для примера отчета:
 
-[Шаблон отчета о платежах](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Шаблон отчета о платежах](https://go.microsoft.com/fwlink/?linkid=862266)
+- [Связанный шаблон отчета о платежах](https://go.microsoft.com/fwlink/?linkid=862266)
 
-[Связанный шаблон отчета о платежах](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Эта процедура предназначена для функции, которая была добавлена в версии 1611 Microsoft Dynamics 365 for Operations.
 
@@ -49,7 +50,7 @@ ms.lasthandoff: 08/09/2018
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Замена шаблона Excel на шаблон Word
     * В настоящее время документ Excel используется как шаблон для создания выходных данных в формате OPENXML. Мы импортируем шаблон отчета в формате Word.  
 1. Нажмите кнопку Вложения.
-    * Замените существующий шаблон Excel на ранее загруженный шаблон Word — шаблон отчета о платежах. Обратите внимание, что этот шаблон содержит только макет документа, который требуется создать как выходные данные ER.  
+    * Замените существующий шаблон Excel на ранее загруженный шаблон Word — SampleVendPaymDocReport.docx. Обратите внимание, что этот шаблон содержит только макет документа, который требуется создать как выходные данные ER.  
 2. Нажмите кнопку Удалить.
 3. Щелкните Да.
 4. Щелкните "Создать".

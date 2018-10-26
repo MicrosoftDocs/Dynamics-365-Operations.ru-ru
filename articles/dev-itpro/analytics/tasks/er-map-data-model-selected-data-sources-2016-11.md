@@ -1,32 +1,33 @@
 --- 
-title: "Сопоставление моделей данных электронной отчетности (ER) с выбранными источниками данных"
-description: "В следующих шагах поясняется, как пользователь с ролью \"Системный администратор\" или \"Разработчик электронной отчетности\" может сопоставить модель данных электронной отчетности с выбранными источниками данных Dynamics 365 for Finance and Operations, Enterprise edition (ноябрь 2016)."
+title: "Электронная отчетность Сопоставление модели данных с выбранными источникам данных"
+description: "В следующих шагах поясняется, как пользователь с ролью \"Системный администратор\" или \"Разработчик электронной отчетности\" может сопоставить модель данных электронной отчетности с выбранными источниками данных Dynamics 365 for Finance and Operations, Enterprise edition."
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: f347c19d940330c830509be4d11127f9e3324deb
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 249bf3f3806ed43eccf39086bdf9697a3e879c27
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="map-electronic-reporting-er-data-models-to-selected-data-sources"></a>Сопоставление моделей данных электронной отчетности (ER) с выбранными источниками данных
+# <a name="er-map-data-model-to-selected-data-sources"></a>Электронная отчетность Сопоставление модели данных с выбранными источникам данных
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может сопоставить модель данных электронной отчетности с выбранными источниками данных Dynamics 365 for Finance and Operations. Это сопоставление модели позднее будет использоваться в качестве источника данных в конфигурации формата, которая будет использоваться для управления документами электронных платежей. В этом примере вам предстоит сопоставить модель данных для компании-образца Litware, Inc. с источниками данных. Для выполнения этих шагов сначала необходимо выполнить шаги в процедуре "Выбор источников данных для сопоставления с моделью".
+В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может сопоставить модель данных электронной отчетности с выбранными источниками данных Dynamics 365 for Finance and Operations, Enterprise edition. Это сопоставление модели позднее будет использоваться в качестве источника данных в конфигурации формата, которая будет использоваться для управления документами электронных платежей. В этом примере вам предстоит сопоставить модель данных для компании-образца Litware, Inc. с источниками данных. Для выполнения этих шагов сначала необходимо выполнить шаги в процедуре "Выбор источников данных для сопоставления с моделью".
 
 
 ## <a name="open-er-configurations-tree"></a>Открытие дерева конфигураций электронной отчетности

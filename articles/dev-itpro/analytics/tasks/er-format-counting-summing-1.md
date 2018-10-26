@@ -1,28 +1,29 @@
 --- 
-title: "Создание форматов электронной отчетности для подсчета и суммирования"
+title: "Электронная отчетность — Настройка формата для инвентаризации и суммирования (Часть 1. Создание формата)"
 description: "В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для выполнения инвентаризации и суммирования на основе данных уже созданных текстовых выходных данных."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 7261a2324b61cacfca8d69ad52762aa545b70220
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: d1f925ef8d772189a505f2793de1176756866bf4
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-electronic-reporting-er-formats-to-do-counting-and-summing"></a>Создание форматов электронной отчетности (ER) для подсчета и суммирования
+# <a name="er-configure-format-to-do-counting-and-summing-part-1-create-format"></a>Электронная отчетность — Настройка формата для инвентаризации и суммирования (Часть 1. Создание формата)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,28 +1,29 @@
 --- 
-title: "Разработка форматов для динамического добавления столбцов в отчеты Excel в виде горизонтально разворачивающихся диапазонов"
+title: "Электронная отчетность — Использование горизонтально разворачивающихся диапазонов для динамического добавления столбцов в отчеты Excel (Часть 1. Разработка формата)"
 description: "Следующие шаги описывают, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для создания отчетов в виде файлов листов OPENXML (Excel), в которых необходимые столбцы можно создавать динамически как горизонтально расширяемые диапазоны."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 80cd2603ba5ee47f861077d75a955037ffbde96e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 7f0481a09e2ff4ae06fc53011067050c3373d6bc
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="design-formats-to-dynamically-add-columns-to-excel-reports-as-horizontally-expandable-ranges"></a>Разработка форматов для динамического добавления столбцов в отчеты Excel в виде горизонтально разворачивающихся диапазонов
+# <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format"></a>Электронная отчетность — Использование горизонтально разворачивающихся диапазонов для динамического добавления столбцов в отчеты Excel (Часть 1. Разработка формата)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -36,8 +37,7 @@ ms.lasthandoff: 08/09/2018
 
 "Электронная отчетность — Использование финансовых аналитик как источника данных (Часть 2. Сопоставление модели)"
 
-Необходимо также загрузить и сохранить локальную копию шаблона с примером отчета, который находится здесь, [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
-
+Необходимо также загрузить и сохранить локальную копию шаблона с примером отчета, который находится здесь: [Sample Financial Dimensions Web Service Report](https://go.microsoft.com/fwlink/?linkid=862266).
 
 Эта процедура предназначена для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
 

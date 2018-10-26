@@ -3,24 +3,25 @@ title: "Настройка ограничений по транспортиро�
 description: "В этой процедуре показано, как настроить ограничение по транспортировке для предотвращения транспортировки выбранной номенклатуры через выбранный узел."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TMSConstraint, InventLocationIdLookup, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f2ef71e2d4d8fa0d0af0d8cb076ca59d32934181
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 900ea1476c95d295a151125afe46aebd9642630e
 ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Настройка ограничений по транспортировке для номенклатуры
@@ -30,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 В этой процедуре показано, как настроить ограничение по транспортировке для предотвращения транспортировки выбранной номенклатуры через выбранный узел. Обычно эту задачу выполняет координатор транспортировки. Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.
 
 
-## <a name="create-an-item-constraint"></a>Создание ограничения номенклатуры
+## <a name="create-an-item-constaint"></a>Создание ограничения номенклатуры
 1. Перейдите в раздел "Ограничения".
 2. Щелкните "Создать".
 3. В поле "Ограничение номенклатуры" введите значение.
