@@ -257,6 +257,10 @@
               href: extensibility/extensibility-changes-804.md
             - name: Изменения возможностей расширения версии 8.1
               href: extensibility/extensibility-changes-81.md
+            - name: Изменения возможностей расширения версии 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: Изменения возможностей расширения версии 8.1.2
+              href: extensibility/extensibility-changes-812.md
         - name: Основы
           items:
             - name: Глубокие настройки
@@ -303,8 +307,6 @@
               href: extensibility/change-caption-form.md
             - name: Изменение свойств элемента управления формы
               href: extensibility/modify-control-properties.md
-            - name: Изменение меток с помощью файлов расширения меток
-              href: extensibility/change-label.md
             - name: Расширение области номерных серий
               href: extensibility/extend-number-sequence-scope.md
             - name: Добавление новых складских аналитик
@@ -317,6 +319,8 @@
               href: extensibility/maps-as-interfaces.md
             - name: 'Расширение сопоставлений таблиц, используемых для управления версиями'
               href: extensibility/maps-with-versioning.md
+            - name: Расширение точности десятичной запятой для выбранных типов данных
+              href: extensibility/decimal-point-precision.md
         - name: Создание расширяемых решений
           items:
             - name: Написание расширяемого кода
@@ -534,7 +538,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: Расширяемость элементов управления
       items:
-        - name: Создание элементов управления aextensible
+        - name: Создание расширяемых элементов управления
           href: user-interface/build-extensible-control.md
         - name: Сочетания клавиш для расширяемых элементов управления
           href: user-interface/keyboard-shortcuts-controls.md
@@ -764,148 +768,12 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
             - name: Тип ValueMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-- name: Интеграция данных
+- name: Общий регламент по защите данных (GDPR)
+  href: gdpr/gdpr-guide.md
   items:
-    - name: Выбор стратегии интеграции данных (импорт/экспорт)
-      href: data-entities/integration-overview.md
-    - name: API интеграции данных
-      items:
-        - name: API REST пакета управления данными
-          href: data-entities/data-management-api.md
-        - name: Конечные точки служб
-          href: data-entities/services-home-page.md
-          items:
-            - name: Устранение неполадок с проверкой подлинности в службах
-              href: data-entities/troubleshoot-service-authentication.md
-        - name: OData
-          href: data-entities/odata.md
-        - name: Разработка настраиваемых служб
-          href: data-entities/custom-services.md
-        - name: Повторяющиеся интеграции
-          href: data-entities/recurring-integrations.md
-        - name: Тестирование служб с помощью программ от независимых производителей
-          href: data-entities/third-party-service-test.md
-    - name: Разработка механизмов интеграции
-      items:
-        - name: Управление данными и интеграция с использованием информационных объектов
-          href: data-entities/data-management-integration-data-entity.md
-          items:
-            - name: Разработка объектов для переноса данных
-              href: data-entities/develop-entity-for-data-migration.md
-            - name: Разработка составных информационных объектов
-              href: data-entities/develop-composite-data-entities.md
-            - name: Настройка совместного использования финансовых данных компаниями
-              href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: Создание шаблонов записей для более удобного ввода данных
-              href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: Создание записей с использованием шаблонов записей
-              href: data-entities/tasks/use-record-template-new-record.md
-        - name: Интеграция данных с использованием Common Data Service
-          href: data-entities/data-integration-cds.md
-          items:
-            - name: Настройка сценария продажи перспективному клиенту
-              href: ../supply-chain/sales-marketing/prospect-to-cash.md
-              items:
-                - name: Синхронизация организаций непосредственно из Sales с клиентами в Finance and Operations
-                  href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                - name: Синхронизация продуктов непосредственно из Finance and Operations с продуктами в Sales
-                  href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                - name: Синхронизация контактов непосредственно из Sales с контактами или клиентами в Finance and Operations
-                  href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                - name: Синхронизация заголовков и строк предложений по продаже непосредственно из Sales с Finance and Operations
-                  href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                - name: Синхронизация заказов на продажу напрямую между Sales и Finance and Operations
-                  href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                - name: Синхронизация заголовков и строк накладных по продаже непосредственно из Finance and Operations с Sales
-                  href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-            - name: Настройка интеграции с Field Service
-              href: ../supply-chain/sales-marketing/field-service.md
-              items:
-                - name: Синхронизация продуктов в Finance and Operations с продуктами в Field Service
-                  href: ../supply-chain/sales-marketing/field-service-product.md
-                - name: Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-work-order.md
-                - name: Синхронизация накладных договора в Field Service с накладными с произвольным текстом в Finance and Operations
-                  href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: Настройка интеграции Project Service Automation
-              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
-              items:
-                - name: Настройка параметров Project Service Automation
-                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
-                - name: Синхронизация контрактов по проекту и проектов
-                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
-                - name: Синхронизация задач проекта
-                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
-                - name: Синхронизация категорий расходов по проекту
-                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
-                - name: Синхронизация оценок для проекта с прогнозами по проекту
-                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
-                - name: Синхронизация фактических данных проекта с журналом интеграции проекта
-                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
-        - name: Использование внешних веб-служб
-          href: data-entities/consume-external-web-service.md
-- name: Управление данными
-  href: data-entities/data-entities-data-packages.md
-  items:
-    - name: Информационные объекты
-      href: data-entities/data-entities.md
-      items:
-        - name: Проекты данных конфигурации
-          href: data-entities/configuration-data-projects.md
-        - name: Пакеты данных конфигурации
-          href: data-entities/configuration-data-packages.md
-        - name: Копирование данных конфигурации между компаниями
-          href: data-entities/copy-configuration.md
-        - name: Шаблоны данных конфигурации
-          href: data-entities/configuration-data-templates.md
-        - name: Шаблоны данных с несколькими листами
-          href: data-entities/excel-template-multiple.md
-        - name: Включение отслеживания изменений для объектов
-          href: data-entities/entity-change-track.md
-        - name: Конфигурационные ключи и информационные объекты
-          href: data-entities/config-key-entities.md
-        - name: Поиск сведений о стандартных информационных объектах
-          href: data-entities/data-entities-report.md
-    - name: Задания импорта и экспорта данных
-      href: data-entities/data-import-export-job.md
-      items:
-        - name: Рекомендации по импорту ваучеров с помощью объекта "Общий журнал"
-          href: data-entities/tips-tricks-import-general-journal-entity.md
-    - name: Разработка с использованием информационных объектов
-      items:
-        - name: Принципы и рекомендации по разработке для информационных объектов
-          href: dev-tools/design-best-practices.md
-        - name: Создание новых информационных объектов
-          href: data-entities/build-consuming-data-entities.md
-        - name: Свойства поведения информационного объекта
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: Создание вычисляемых столбцов и виртуальных полей
-          href: data-entities/data-entity-computed-columns-virtual-fields.md
-        - name: Межфирменное взаимодействие
-          href: data-entities/cross-company-behavior.md
-        - name: Коды стран/регионов и ключи конфигурации
-          href: data-entities/countryregion-codes-configuration-keys.md
-        - name: Схемы наследования
-          href: data-entities/support-super-type-sub-type.md
-        - name: Правила мастера информационных объектов
-          href: data-entities/data-entity-wizard-rules.md
-        - name: Свойства метаданных
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: 'Проверки, значения по умолчанию и несопоставленные поля'
-          href: data-entities/validations-defaults-unmapped-fields.md
-        - name: Безопасность и информационные объекты
-          href: data-entities/security-data-entities.md
-        - name: 'Создание доступных только для чтения объектов, предоставляющих финансовые аналитики'
-          href: financial/read-only-entity-financial.md
-    - name: Использование собственной базы данных
-      href: analytics/export-entities-to-your-own-database.md
-    - name: Автоматизация задач данных
-      href: data-entities/data-task-automation.md
     - name: Ресурсы для ответа на запросы данных GDPR
       href: gdpr/gdpr-home-page.md
       items:
-        - name: Руководство по GDPR для Finance and Operations
-          href: gdpr/gdpr-guide.md
         - name: Классификация основных средств
           href: gdpr/gdpr-asset-classification-values.md
         - name: Отчет о поиске людей
@@ -920,10 +788,6 @@
           href: gdpr/gdpr-ax2012.md
         - name: Запросы данных GDPR для LCS
           href: gdpr/gdpr-lcs.md
-    - name: Рабочая область "Контрольный список проверки данных"
-      href: user-interface/data-validation-workspace.md
-    - name: Описания ошибок управления данными
-      href: data-entities/dm-error-descriptions.md
 - name: Непрерывная поставка
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1039,10 +903,12 @@
         - name: Настройка и развертывание локальных сред
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: Развертывание локальных сред в Platform update 12
+            - name: Развертывание локальных сред (Platform update 12 и более поздние версии)
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: Развертывание локальных сред в Platform update 8 и 11
+            - name: Развертывание локальных сред (Platform update 8 и 11)
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
+            - name: Действия по установке для компонентов канала розничной торговли в локальной среде
+              href: deployment/deploy-retail-onprem.md
         - name: Разработка и развертывание пользовательских моделей в локальных средах
           href: deployment/develop-deploy-custom-models-on-premises.md
         - name: Настройка обратных прокси-серверов для локальных сред
@@ -1161,6 +1027,8 @@
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Обновление средств разработки
           href: dev-tools/update-development-tools.md
+        - name: Планирование компиляции кода согласно последнему обновлению и подготовка к ней
+          href: migration-upgrade/compile-considerations.md
     - name: Установка последнего обновления (локальная версия)
       items:
         - name: Применение обновлений к локальным развертываниям
@@ -1226,6 +1094,12 @@
           href: sysadmin/batch-server-overview.md
         - name: Создание пакетных заданий
           href: sysadmin/tasks/create-batch-job.md
+        - name: Копирование пакетного задания
+          href: sysadmin/copy-batch-job.md
+        - name: Активные периоды пакета
+          href: sysadmin/activeperiod.md
+        - name: Роль безопасности пакетного диспетчера
+          href: sysadmin/runby.md
     - name: Помощник по оптимизации
       href: sysadmin/optimization-advisor-overview.md
       items:

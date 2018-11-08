@@ -1,11 +1,20 @@
-- name: Добро пожаловать в Dynamics 365 for Talent
+- name: Dynamics 365 for Talent
   href: index.md
   items:
     - name: Начало работы
       href: talent-get-started.md
       items:
         - name: Что нового и что изменилось
+          href: whats-new.md
           items:
+            - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (31 октября 2018 г.)
+              href: whats-new-talent-october-31.md
+            - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (19 октября 2018 г.)
+              href: whats-new-talent-october-19.md
+            - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (15 октября 2018 г.)
+              href: whats-new-talent-october-11.md
+            - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (8 октября 2018 г.)
+              href: whats-new-talent-october-8.md
             - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (1 октября 2018 г.)
               href: whats-new-talent-october-01.md
             - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (24 сентября 2018 г.)
@@ -30,6 +39,8 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR и Common Data Service для приложений
           href: CoreHREntities.md
+        - name: Интеграции
+          href: talent-financeandoperations-integration.md
         - name: Доступ к предварительным версиям функций
           href: access-preview-feature.md
         - name: Настройка интеграции зарплаты между Talent и Dayforce
@@ -64,6 +75,34 @@
       items:
         - name: Функции и возможности Attract
           href: attract-overview.md
+        - name: Создание шаблона процесса в Attract
+          href: Process-templates-Attract.md
+        - name: 'Создание, утверждение и разноска заданий в Attract'
+          href: Creating-jobs-Attract.md
+        - name: Поиск ресурсов с помощью кадровых пулов
+          href: attract-talent-pools.md
+        - name: Поиск ресурсов с помощью специалиста по найму LinkedIn
+          href: attract-linked-in-recruiter.md
+        - name: Мероприятия процесса найма в Attract
+          href: activities-attract.md
+        - name: Расширяемость
+          href: extensibility-attract.md
+        - name: Сайт вакансий и взаимодействие с кандидатами
+          href: career-site.md
+        - name: Настройка управления предложениями
+          href: offer-setup.md
+        - name: 'Создание, утверждение и подпись предложений'
+          href: creating-offers.md
+        - name: Создание шаблонов сообщений электронной почты и управление ими
+          href: email-templates.md
+        - name: Отчетность и аналитика
+          href: Reporting-Analytics-Attract.md
+        - name: Безопасность и управление ролями в Attract
+          href: security-attract.md
+        - name: Параметры администрирования в Attract
+          href: Admin-Settings-Attract.md
+        - name: Интеллектуальные рекомендации
+          href: Intelligent-Recommendations.md
         - name: Создание эффективного процесса адаптации
           href: create-onboarding-experience.md
     - name: Мотивация сотрудников
