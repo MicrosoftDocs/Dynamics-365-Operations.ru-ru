@@ -14,6 +14,8 @@
       href: dev-itpro/choose-deployment.md
     - name: Получение поддержки по Retail
       href: retail-support.md
+    - name: Вопросы и ответы по обновлениям службы с одной версией
+      href: ../fin-and-ops/get-started/one-version.md
 - name: Общие сведения о жизненном цикле реализации
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -145,8 +147,6 @@
       items:
         - name: Периферийные устройства для розничной торговли
           href: retail-peripherals-overview.md
-        - name: 'Периферийные устройства POS, протестированные корпорацией Майкрософт'
-          href: microsoft-tested-pos-hardware-peripherals.md
         - name: Симулятор периферийных устройств розничной торговли
           href: dev-itpro/retail-peripheral-simulator.md
         - name: Подключение периферийных устройств к POS
@@ -229,7 +229,9 @@
       href: set-up-rfm-analysis.md
 - name: Скидки и корректировки цены
   items:
-    - name: Управление ценой продажи Retail
+    - name: Розничные скидки
+      href: retail-discounts-overview.md
+    - name: Управление ценой продажи розничной торговли
       href: price-management.md
     - name: Корректировки цены и скидки
       href: price-adjustments-discounts.md
@@ -271,7 +273,7 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: Лояльность
   items:
-    - name: Настройка программ лояльности клиентов
+    - name: Обзор лояльности
       href: set-up-customer-loyalty-program.md
 - name: Запасы
   items:
@@ -307,6 +309,8 @@
       href: ../talent/create-job.md
 - name: Локализация и нормативные компоненты
   items:
+    - name: Финансовая интеграция канала розничной торговли
+      href: localizations/fiscal-integration-for-retail-channel.md
     - name: Восточная Европа
       items:
         - name: Авансовые счета для Retail для Восточной Европы
@@ -315,6 +319,8 @@
           href: localizations/emea-eeu-petty-cash-for-retail.md
         - name: Накладные клиента и возвратные заказы на продажу для Retail в странах Восточной Европы
           href: localizations/emea-eeu-retail-invoices.md
+        - name: 'Рекомендации по развертыванию контрольно-кассовых машин для Чешской Республики, Венгрии и Польши'
+          href: localizations/emea-eeu-deployment.md
     - name: Франция
       items:
         - name: Функциональность контрольно-кассовой машины
@@ -329,6 +335,10 @@
           href: localizations/apac-ind-loc-deployment-guidelines.md
         - name: Поддержка обновления и N-1 для Индии
           href: localizations/apac-ind-n-1-for-india.md
+    - name: Италия
+      items:
+        - name: Интеграция фискальных принтеров
+          href: localizations/emea-ita-fpi-sample.md
     - name: Норвегия
       items:
         - name: Функциональность контрольно-кассовой машины
@@ -490,6 +500,8 @@
           href: dev-itpro/pos-custom-control.md
         - name: Добавление операций POS в макеты POS с помощью конструктора сетки кнопок
           href: dev-itpro/add-POS-operations.md
+        - name: API-интерфейсы Retail POS
+          href: dev-itpro/POS-APIs.md
         - name: Расширение механизма оплаты для POS
           href: dev-itpro/pos-payment-extension.md
         - name: Поддержка внешних подарочных карт
