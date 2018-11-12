@@ -17,14 +17,16 @@ ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: cda229b5c7907bd9059bdc74eba420f94c949604
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: bf4865c8553ce251d062049e3dbf8dce7c78c3a7
 ms.contentlocale: ru-ru
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/12/2018
 
 ---
 
 # <a name="set-up-bank-accounts-russia"></a><span data-ttu-id="e1e8d-103">Настройка банковских счетов (Россия)</span><span class="sxs-lookup"><span data-stu-id="e1e8d-103">Set up bank accounts (Russia)</span></span>
+
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e1e8d-104">Прежде чем работать с рабочей областью **Управление банками**, необходимо выполнить следующие процедуры, чтобы обеспечить соблюдение предварительных условий для настройки банковских счетов для России.</span><span class="sxs-lookup"><span data-stu-id="e1e8d-104">Before working in the **Bank management** workspace, you should complete the following procedures to ensure that you have the prerequisites needed for setting up bank accounts for Russia.</span></span>
 
