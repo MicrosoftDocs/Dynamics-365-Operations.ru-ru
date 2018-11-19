@@ -1,0 +1,80 @@
+---
+title: "Сопоставления ГК"
+description: "В этом разделе объясняется, как использовать страницу сопоставлений ГК для сопоставления проводок ГК и реверсирования сопоставлений."
+author: mikefalkner
+manager: aolson
+ms.date: 09/28/2018
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: LedgerTransSettlement
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: mikefalkner
+ms.search.validFrom: 2018-11-30
+ms.dyn365.ops.version: 8.1.1
+ms.translationtype: HT
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: ec659a53c187b1bdfd81565d6e2f20a59e08834c
+ms.contentlocale: ru-ru
+ms.lasthandoff: 10/12/2018
+
+---
+
+# <a name="ledger-settlements"></a><span data-ttu-id="8db6f-103">Сопоставления ГК</span><span class="sxs-lookup"><span data-stu-id="8db6f-103">Ledger settlements</span></span>
+
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="8db6f-104">Сопоставления ГК позволяют сопоставить дебетовые и кредитные проводки в главной книге и пометить их как сопоставленные.</span><span class="sxs-lookup"><span data-stu-id="8db6f-104">Ledger settlements let you match debit and credit transactions in the general ledger, and mark them as settled.</span></span> <span data-ttu-id="8db6f-105">Таким образом можно убедиться в том, что связанные проводки были очищены.</span><span class="sxs-lookup"><span data-stu-id="8db6f-105">In this way, you can make sure that related transactions have been cleared.</span></span> <span data-ttu-id="8db6f-106">Можно также реверсировать сопоставления, если они были сделаны по ошибке.</span><span class="sxs-lookup"><span data-stu-id="8db6f-106">You can also reverse settlements if they were made by mistake.</span></span>
+
+## <a name="enable-advanced-ledger-settlements"></a><span data-ttu-id="8db6f-107">Включение расширенных сопоставлений ГК</span><span class="sxs-lookup"><span data-stu-id="8db6f-107">Enable advanced ledger settlements</span></span>
+
+<span data-ttu-id="8db6f-108">На странице расширенных сопоставлений главной книги предусмотрены дополнительные возможности для фильтрации и выбора проводок.</span><span class="sxs-lookup"><span data-stu-id="8db6f-108">The advanced ledger settlements page provides additional capabilities for filtering and selecting transactions.</span></span> <span data-ttu-id="8db6f-109">Чтобы включить страницу расширенных сопоставлений главной книги, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="8db6f-109">To enable advanced ledger settlements page, follow these steps.</span></span>
+
+1. <span data-ttu-id="8db6f-110">Выберите **Главная книга** \> **Настройка главной книги** \> **Параметры главной книги**.</span><span class="sxs-lookup"><span data-stu-id="8db6f-110">Select **General ledger** \> **Ledger setup** \> **General ledger parameters**.</span></span> 
+2. <span data-ttu-id="8db6f-111">На вкладке **Сопоставления ГК** задайте для параметра **Расширенное сопоставление ГК** значение **Да** для включения функции расширенного сопоставления главной книги.</span><span class="sxs-lookup"><span data-stu-id="8db6f-111">On the **Ledger settlements** tab, set the **Advanced ledger settlement** option to **Yes** to turn on the advanced ledger settlement functionality.</span></span> <span data-ttu-id="8db6f-112">Расширенная страница **Сопоставления ГК** будет использоваться при выборе **Сопоставления ГК** в области **Периодические задачи**.</span><span class="sxs-lookup"><span data-stu-id="8db6f-112">The advanced **Ledger settlements** page will be used when you select **Ledger settlements** in the **Periodic tasks**.</span></span> 
+3. <span data-ttu-id="8db6f-113">Необходимо ввести список счетов, который будет использоваться для сопоставлений главной книги для каждого плана счетов.</span><span class="sxs-lookup"><span data-stu-id="8db6f-113">You must enter the list of accounts to use for ledger settlements for each chart of accounts.</span></span> <span data-ttu-id="8db6f-114">Этот список используется для фильтрации списка проводок, которые отображаются на странице **Сопоставления ГК**.</span><span class="sxs-lookup"><span data-stu-id="8db6f-114">This list is used to filter the list of transactions that appears on the **Ledger settlements** page.</span></span> <span data-ttu-id="8db6f-115">В списке **План счетов** выберите план счетов, затем выберите **Создать** для добавления новых счетов в список.</span><span class="sxs-lookup"><span data-stu-id="8db6f-115">In the **Chart of accounts** list, select a chart of accounts, and then select **New** to add new accounts to the list.</span></span>
+
+## <a name="settle-transactions-by-using-the-advanced-ledger-settlements-page"></a><span data-ttu-id="8db6f-116">Сопоставление проводок с помощью страницы расширенных сопоставлений главной книги</span><span class="sxs-lookup"><span data-stu-id="8db6f-116">Settle transactions by using the advanced ledger settlements page</span></span>
+
+<span data-ttu-id="8db6f-117">Для сопоставления проводок ГК выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="8db6f-117">To settle ledger transactions, follow these steps.</span></span>
+
+1. <span data-ttu-id="8db6f-118">Выберите **Главная книга** \> **Периодические задачи** \> **Сопоставления ГК**.</span><span class="sxs-lookup"><span data-stu-id="8db6f-118">Select **General ledger** \> **Periodic tasks** \> **Ledger settlements**.</span></span>
+2. <span data-ttu-id="8db6f-119">Установите фильтры в верхней части страницы:</span><span class="sxs-lookup"><span data-stu-id="8db6f-119">Set the filters at the top of the page:</span></span>
+
+    - <span data-ttu-id="8db6f-120">Выберите диапазон дат или выберите **Код интервала дат** для автоматического заполнения диапазона дат.</span><span class="sxs-lookup"><span data-stu-id="8db6f-120">Select a date range, or select **Date interval code** to automatically fill in the date range.</span></span>
+    - <span data-ttu-id="8db6f-121">Внесите требуемые изменения в слой разноски.</span><span class="sxs-lookup"><span data-stu-id="8db6f-121">Change the posting layer as you require.</span></span>
+    - <span data-ttu-id="8db6f-122">Для отображения счета ГК и аналитик отдельно, выберите набор финансовых аналитик.</span><span class="sxs-lookup"><span data-stu-id="8db6f-122">To show the ledger account and dimensions separately, select a financial dimension set.</span></span>
+
+3. <span data-ttu-id="8db6f-123">Выберите **Отобразить проводки** для отображения всех проводок, соответствующих заданным фильтрам и списку счетов, указанному при настройке списка плана счетов в предыдущем разделе.</span><span class="sxs-lookup"><span data-stu-id="8db6f-123">Select **Display transactions** to show all the transactions that match the filters that you set and the list of accounts that you specified when you set up the chart of accounts list in the previous section.</span></span> <span data-ttu-id="8db6f-124">Если изменить любой из фильтров или наборов аналитик, необходимо выбрать **Отобразить проводки** еще раз.</span><span class="sxs-lookup"><span data-stu-id="8db6f-124">If you change any of the filters or the dimension sets, you must select **Display transactions** again.</span></span>
+4. <span data-ttu-id="8db6f-125">Выберите одну или несколько строк, которые вы рассматриваете для сопоставления.</span><span class="sxs-lookup"><span data-stu-id="8db6f-125">Select one or more lines that you're considering for settlement.</span></span> <span data-ttu-id="8db6f-126">Значение поля **Выбранная сумма** в верхней части страницы увеличивается или уменьшается на общую сумму в строках, которые были выбраны.</span><span class="sxs-lookup"><span data-stu-id="8db6f-126">The value of the **Selected amount** field at the top of the page increases or decreases by the total amount on the lines that you selected.</span></span>
+5. <span data-ttu-id="8db6f-127">После завершения выбора проводок выберите **Отметить выбранное**.</span><span class="sxs-lookup"><span data-stu-id="8db6f-127">After you've finished selecting transactions, select **Mark selected**.</span></span> <span data-ttu-id="8db6f-128">Появится галочка в столбце **Отмечено** для каждой проводки, которая выбрана.</span><span class="sxs-lookup"><span data-stu-id="8db6f-128">A check mark appears in the **Marked** column for each transaction that you selected.</span></span> <span data-ttu-id="8db6f-129">Кроме того, значение поля **Выбранная сумма** над сеткой увеличивается или уменьшается на общую сумму в строках, которые были отмечены.</span><span class="sxs-lookup"><span data-stu-id="8db6f-129">Additionally, the value of the **Marked amount** field above the grid increases or decreases by the total amount on the lines that you marked.</span></span>
+6. <span data-ttu-id="8db6f-130">Когда значение **Выбранная сумма** равна **0** (ноль), выберите **Сопоставить отмеченные проводки**.</span><span class="sxs-lookup"><span data-stu-id="8db6f-130">When the **Marked amount** value is **0** (zero), select **Settle marked transactions**.</span></span> <span data-ttu-id="8db6f-131">Статус отмеченных проводок обновляется на **Сопоставлено**.</span><span class="sxs-lookup"><span data-stu-id="8db6f-131">The status of the marked transactions is updated to **Settled**.</span></span>
+
+## <a name="make-transactions-easier-to-find"></a><span data-ttu-id="8db6f-132">Упрощение поиска проводок</span><span class="sxs-lookup"><span data-stu-id="8db6f-132">Make transactions easier to find</span></span>
+
+<span data-ttu-id="8db6f-133">Страница **Сопоставления ГК** включает возможности, облегчающие просмотр проводок, которые необходимы для сопоставления.</span><span class="sxs-lookup"><span data-stu-id="8db6f-133">The **Ledger settlements** page includes capabilities that make it easier to see the transactions that you need for settlement.</span></span>
+
+- <span data-ttu-id="8db6f-134">Кнопка **Снять пометки для выбранного** очищает поле **Отмечено** для всех выбранных строк.</span><span class="sxs-lookup"><span data-stu-id="8db6f-134">The **Unmark selected** button clears the **Marked** field for all lines that are selected.</span></span>
+- <span data-ttu-id="8db6f-135">Фильтр **Отмечено** позволяет отфильтровывать проводки в зависимости от того, выбрано или очищено поле **Отмечено** для них.</span><span class="sxs-lookup"><span data-stu-id="8db6f-135">The **Marked** filter lets you filter transactions based on whether the **Marked** field for them is selected or cleared.</span></span>
+- <span data-ttu-id="8db6f-136">Фильтр **Статус** позволяет отфильтровывать проводки на основе их статуса: **Сопоставлено** или **Не сопоставлено**.</span><span class="sxs-lookup"><span data-stu-id="8db6f-136">The **Status** filter lets you filter transactions based on whether their status is **Settled** or **Not settled**.</span></span>
+- <span data-ttu-id="8db6f-137">Кнопка **Сортировка по абсолютной суммой** позволяет сортировать суммы по абсолютному значению, чтобы можно было сгруппировать вместе значения дебета и кредита с одинаковыми суммами.</span><span class="sxs-lookup"><span data-stu-id="8db6f-137">The **Sort by absolute amount** button lets you sort the amounts by absolute value, so that you can group together debits and credits that have the same amount.</span></span>
+
+## <a name="reverse-a-settlement"></a><span data-ttu-id="8db6f-138">Отмена сопоставления</span><span class="sxs-lookup"><span data-stu-id="8db6f-138">Reverse a settlement</span></span>
+
+<span data-ttu-id="8db6f-139">Можно реверсировать сопоставление, которое было сделано по ошибке.</span><span class="sxs-lookup"><span data-stu-id="8db6f-139">You can reverse a settlement that was made by mistake.</span></span>
+
+1. <span data-ttu-id="8db6f-140">Выполните шаги с 1 по 3 в разделе "Сопоставление проводок с помощью страницы расширенных сопоставлений главной книги" для отображения проводок, которые вы ищете.</span><span class="sxs-lookup"><span data-stu-id="8db6f-140">Follow steps 1 through 3 in the "Settle transactions by using advanced ledger settlements page" section to show the transactions that you're looking for.</span></span>
+2. <span data-ttu-id="8db6f-141">В фильтре **Статус** выберите **Сопоставлено**.</span><span class="sxs-lookup"><span data-stu-id="8db6f-141">In the **Status** filter, select **Settled**.</span></span>
+3. <span data-ttu-id="8db6f-142">Выберите одну или несколько строк, которые вы рассматриваете для реверсирования.</span><span class="sxs-lookup"><span data-stu-id="8db6f-142">Select one or more lines that you're considering for reversal.</span></span> <span data-ttu-id="8db6f-143">Значение поля **Выбранная сумма** в верхней части страницы увеличивается или уменьшается на общую сумму в строках, которые были выбраны.</span><span class="sxs-lookup"><span data-stu-id="8db6f-143">The value of the **Selected amount** field at the top of the page increases or decreases by the total amount on the lines that you selected.</span></span>
+4. <span data-ttu-id="8db6f-144">После завершения выбора проводок выберите **Отметить выбранное**.</span><span class="sxs-lookup"><span data-stu-id="8db6f-144">After you've finished selecting transactions, select **Mark selected**.</span></span> <span data-ttu-id="8db6f-145">Появится галочка в столбце **Отмечено** для каждой проводки, которая выбрана.</span><span class="sxs-lookup"><span data-stu-id="8db6f-145">A check mark appears in the **Marked** column for each transaction that you selected.</span></span> <span data-ttu-id="8db6f-146">Кроме того, значение поля **Выбранная сумма** вверху страницы увеличивается или уменьшается на общую сумму в строках, которые были отмечены.</span><span class="sxs-lookup"><span data-stu-id="8db6f-146">Additionally, the value of the **Marked amount** field at the top of the page increases or decreases by the total amount on the lines that you marked.</span></span>
+5. <span data-ttu-id="8db6f-147">Когда значение **Выбранная сумма** равна **0** (ноль), выберите **Реверсировать отмеченные проводки**.</span><span class="sxs-lookup"><span data-stu-id="8db6f-147">When the **Marked amount** value is **0** (zero), select **Reverse marked transactions**.</span></span> <span data-ttu-id="8db6f-148">Статус отмеченных проводок обновляется на **Не сопоставлено**.</span><span class="sxs-lookup"><span data-stu-id="8db6f-148">The status of the marked transactions is updated to **Not settled**.</span></span>
+
+## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a><span data-ttu-id="8db6f-149">Обновление списка счетов, которые включаются в список проводок</span><span class="sxs-lookup"><span data-stu-id="8db6f-149">Update the list of accounts that are included in the list of transactions</span></span>
+
+<span data-ttu-id="8db6f-150">Выберите **Счета сопоставления ГК**, чтобы открыть диалоговое окно, где можно изменять счета, которые включаются в список проводок.</span><span class="sxs-lookup"><span data-stu-id="8db6f-150">Select **Ledger settlement accounts** to open a dialog box where you can edit the accounts that are included in the list of transactions.</span></span> <span data-ttu-id="8db6f-151">Выберите **Создать**, чтобы добавить новые счета в список.</span><span class="sxs-lookup"><span data-stu-id="8db6f-151">Select **New** to add new accounts to the list.</span></span> <span data-ttu-id="8db6f-152">Этот список используется для фильтрации списка проводок, которые отображаются на странице **Сопоставления ГК**.</span><span class="sxs-lookup"><span data-stu-id="8db6f-152">This list is used to filter the list of transactions that appears on the **Ledger settlements** page.</span></span>
+
