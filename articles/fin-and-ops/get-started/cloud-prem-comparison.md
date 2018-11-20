@@ -3,7 +3,7 @@ title: "Сравнение характеристик облачной и лок
 description: "В этой теме показано, какие функции поддерживаются в облачной и локальной версиях."
 author: robinarh
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 11/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: b59921820f02e2ac026873ce45fdecd104fef544
-ms.openlocfilehash: 4354b9d55cc84f7c74020d95617c406dc5fb225c
+ms.sourcegitcommit: 53c0da5e9697deaf946ccd4fbcd2102faa62b195
+ms.openlocfilehash: bc2b8aafa28d3998e223891fa95e3fe8175349e6
 ms.contentlocale: ru-ru
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 11/02/2018
 
 ---
 
@@ -116,11 +116,8 @@ ms.lasthandoff: 10/25/2018
 | Разработка в Visual Studio |  | Да | Да |
 
 
-## <a name="dynamics-365-for-retail"></a>Dynamics 365 for Retail 
-
-| Область | Функция | Облачное хранилище | Локально|
-|---|---|---|---|
-| Все области Retail | Все функции Retail | Да | Нет |
+### <a name="retail"></a>Retail 
+Список возможностей Retail, доступных в локальных развертываниях, см. в разделе [Возможности Retail, доступные в локальных развертываниях](../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-for-talent"></a>Dynamics 365 for Talent
 

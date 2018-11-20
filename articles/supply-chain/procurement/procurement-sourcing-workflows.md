@@ -50,11 +50,12 @@ ms.lasthandoff: 05/08/2018
 | Workflow-процесс приложения добавления поставщика  | Создание workflow-процессов проверки и утверждения для добавления новых поставщиков через запросы поставщиков. |
 
 ## <a name="creating-a-workflow"></a>Создание workflow-процесса
+
 Чтобы создать workflow-процесс, перейдите к пункту "Закупки и источники" &gt; "Настройка" &gt; "Workflow-процессы модуля "Закупки и источники" и создайте новый workflow-процесс, выбрав тип создаваемого workflow-процесса.  
 
 В холсте workflow-процесса можно перетаскивать элементы workflow-процесса в конструктор и связывать элементы в поток. Элементы workflow-процесса должны быть настроены. Для утверждения и элементов workflow-процесса задачи можно настроить, какой участник должен выполнять действие.
-Типы участников
-----------------------
+
+## <a name="types-of-participants"></a>Типы участников
 
 Можно назначить шаг утверждения следующим группам участников.
 
@@ -68,13 +69,12 @@ ms.lasthandoff: 05/08/2018
 
 
 
-<a name="additional-resources"></a>Дополнительные ресурсы
---------
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Определение workflow-процессов бизнес-процессов для заявок на покупку](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [Определение workflow-процессов бизнес-процессов для заявок на покупку](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Workflow-процесс заявок на покупку](purchase-requisitions-workflow.md)
+- [Workflow-процесс заявок на покупку](purchase-requisitions-workflow.md)
 
-[Адаптация поставщиков](vendor-onboarding.md)
+- [Адаптация поставщиков](vendor-onboarding.md)
 
 

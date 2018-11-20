@@ -25,6 +25,7 @@ ms.lasthandoff: 09/24/2018
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Выбытие основного средства с использованием накладной с произвольным текстом
 
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ниже описан порядок списания основного средства с использованием накладной с произвольным текстом.
 

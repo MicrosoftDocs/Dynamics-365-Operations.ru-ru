@@ -29,11 +29,13 @@
               href: get-started/public-preview-releases.md
             - name: Покупка Finance and Operations
               items:
-                - name: Купить Finance and Operations (локальная версия)
+                - name: Покупка Finance and Operations (локальная версия)
                   href: get-started/purchase-on-premises.md
         - name: Что нового и что изменилось
           href: get-started/whats-new-changed.md
           items:
+            - name: Вопросы и ответы по обновлениям службы с одной версией
+              href: get-started/one-version.md
             - name: Политика жизненного цикла программного обеспечения и облачные выпуски
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Политика жизненного цикла программного обеспечения и локальные выпуски
@@ -46,8 +48,16 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 'Функции, не реализованные в локальных развертываниях'
               href: get-started/features-not-implemented-on-prem.md
+            - name: Platform update 22 (ноябрь 2018 г.)
+              href: get-started/whats-new-platform-update-22.md
+            - name: Finance and Operations версии 8.1.2 (ноябрь 2018 г.)
+              href: get-started/whats-new-changed-8-1-2.md
+            - name: Finance and Operations версии 8.1.1 (октябрь 2018 г.)
+              href: get-started/whats-new-changed-8-1-1.md
             - name: Finance and Operations версии 8.1 (октябрь 2018 г.)
               href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 21 (октябрь 2018 г.)
+              href: get-started/whats-new-platform-update-21.md
             - name: Platform update 20 (сентябрь 2018 г.)
               href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations версии 8.0 (апрель 2018 г.)
@@ -300,7 +310,7 @@
           href: ../dev-itpro/data-entities/integration-overview.md?toc=/fin-and-ops/toc.json
         - name: API интеграции данных
           items:
-            - name: API пакета управления данными
+            - name: REST API пакета управления данными
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: Конечные точки служб
               href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
@@ -309,10 +319,12 @@
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
               href: ../dev-itpro/data-entities/odata.md?toc=/fin-and-ops/toc.json
-            - name: Пользовательские службы
+            - name: Разработка настраиваемых служб
               href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
             - name: Повторяющиеся интеграции
               href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
+            - name: Тестирование служб с помощью программ от независимых производителей
+              href: ../dev-itpro/data-entities/third-party-service-test.md
         - name: Разработка механизмов интеграции
           items:
             - name: Интеграция данных с использованием информационных объектов
@@ -324,9 +336,9 @@
                   href: ../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/fin-and-ops/toc.json
                 - name: Настройка совместного использования финансовых данных компаниями
                   href: ../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/fin-and-ops/toc.json
-                - name: Создание шаблона записи для более удобного ввода данных
+                - name: Создание шаблонов записей для более удобного ввода данных
                   href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
-                - name: Использование шаблона записи для создания новой записи
+                - name: Создание записей с использованием шаблонов записей
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: Интеграция данных с использованием Common Data Service
               href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
@@ -383,6 +395,8 @@
             - name: Копирование данных конфигурации между компаниями или юридическими лицами
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Пакеты данных конфигурации
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Пакеты данных конфигурации (только выпуск за июль 2017 г.)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
             - name: Шаблоны данных конфигурации
@@ -391,6 +405,10 @@
               href: ../dev-itpro/data-entities/entity-change-track.md?toc=/fin-and-ops/toc.json
             - name: Поиск сведений о стандартных информационных объектах
               href: ../dev-itpro/data-entities/data-entities-report.md?toc=/fin-and-ops/toc.json
+            - name: Шаблоны данных с несколькими листами
+              href: ../dev-itpro/data-entities/excel-template-multiple.md
+            - name: Включение отслеживания изменений для объектов
+              href: ../dev-itpro/data-entities/entity-change-track.md
             - name: Конфигурационные ключи и информационные объекты
               href: ../dev-itpro/data-entities/config-key-entities.md?toc=/fin-and-ops/toc.json
             - name: Пакеты данных конфигурации
@@ -402,6 +420,8 @@
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: Разработка с использованием информационных объектов
           items:
+            - name: Принципы и рекомендации по разработке для информационных объектов
+              href: ../dev-itpro/dev-tools/design-best-practices.md
             - name: Создание новых информационных объектов
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Свойства информационного объекта
@@ -424,12 +444,16 @@
               href: ../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Использование программ тестирования от независимых производителей
               href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/fin-and-ops/toc.json
+            - name: 'Создание доступных только для чтения объектов, предоставляющих финансовые аналитики'
+              href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/fin-and-ops/toc.json
         - name: Использование собственной базы данных
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
         - name: Автоматизация задач данных
           href: ../dev-itpro/data-entities/data-task-automation.md
-        - name: Рабочая область проверки данных
+        - name: Рабочая область "Контрольный список проверки данных"
           href: ../dev-itpro/user-interface/data-validation-workspace.md
+        - name: Описания ошибок управления данными
+          href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Управление финансами
       href: ../financials/index.md
       items:
@@ -1007,6 +1031,8 @@
                   href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
                 - name: Настройка структур счетов
                   href: ../financials/general-ledger/configure-account-structures.md
+                - name: Двойная валюта
+                  href: ../financials/general-ledger/dual-currency.md
             - name: Журналы и книги учета
               items:
                 - name: Обработка общего журнала
@@ -1049,6 +1075,8 @@
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
                 - name: Один ваучер
                   href: ../financials/general-ledger/one-voucher.md
+                - name: Сопоставления ГК
+                  href: ../financials/general-ledger/ledger-settlements.md
             - name: Закрытие периода
               items:
                 - name: Закрытие ГК в конце периода
@@ -1799,6 +1827,10 @@
             - name: Обзор механизма начисления налога
               href: ../financials/general-ledger/tax-engine.md
               items:
+                - name: Импортировать конфигурацию
+                  href: ../financials/general-ledger/tax-engine-import-configuration.md
+                - name: Применимость механизма начисления налога
+                  href: ../financials/general-ledger/tax-engine-applicability.md
                 - name: Интеграция механизма начисления налога
                   href: ../financials/general-ledger/tax-engine-integration.md
                 - name: Расширение механизма начисления налога
@@ -2100,6 +2132,8 @@
         - name: Польша
           href: ../financials/localizations/poland.md
           items:
+            - name: Активация учета с использованием сторно
+              href: ../financials/localizations/emea-pol-red-storno.md
             - name: Расчет скидок по строке из цены за единицу
               href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
             - name: Корректирующие документы
@@ -2116,6 +2150,8 @@
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: Налоговые отчеты
               href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: Настройка номерных серий по складу
+              href: ../financials/localizations/emea-pol-number-sequence-warehouses.md
             - name: Стандартный файл аудита
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
             - name: Налоговый процент и свободный процент
@@ -2132,32 +2168,60 @@
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Ежедневные операции по подотчетным лицам
                   href: ../financials/localizations/rus-advance-holders-daily-operations.md
+                - name: Авансовые отчеты с бюджетным контролем
+                  href: ../financials/localizations/rus-advance-holders-reports-dailyops.md
+                - name: Переоценка в иностранной валюте для подотчетных лиц
+                  href: ../financials/localizations/rus-advance-adjustment-parameters.md
+                - name: Сортировка отчетов по подотчетным лицам
+                  href: ../financials/localizations/rus-local-management-reports-primary-forms.md
+            - name: Банк
+              items:
+                - name: Настройка банковских счетов
+                  href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+                - name: Настройка и обработка платежных поручений
+                  href: ../financials/localizations/rus-payment-order-settings-processing.md
             - name: Основные средства
               items:
                 - name: Приобретение ОС и их ввод в эксплуатацию
                   href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Регистрация приобретений основных средств
+                  href: ../financials/localizations/rus-register-acquisition.md
                 - name: Создание и разноска журналов бюджета для приобретений ОС
                   href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
                 - name: Инвентаризация ОС
                   href: ../financials/localizations/rus-fixed-assets-counting.md
                 - name: Переоценка ОС в иностранной валюте
                   href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Переоценка стоимости основных средств и амортизация
+                  href: ../financials/localizations/rus-fixed-assets-revaluation.md
                 - name: Частичная разборка ОС (ликвидация)
                   href: ../financials/localizations/rus-fixed-assets-disassembly.md
-            - name: Настройка и обработка платежных поручений
-              href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: 'Продажа, выбытие и списание ОС'
+                  href: ../financials/localizations/rus-sell-dispose-write-off-fixed-assets.md
+                - name: Настройка расположений основных средств и нумерация
+                  href: ../financials/localizations/rus-fixed-assets-locations-numbering.md
+                - name: Настройка амортизации
+                  href: ../financials/localizations/rus-depreciation-setup.md
+                - name: Методы амортизации
+                  href: ../financials/localizations/rus-depreciation-methods.md
+                - name: Амортизационные премии
+                  href: ../financials/localizations/rus-bonus-depreciation.md
+                - name: Расчет амортизации
+                  href: ../financials/localizations/rus-depreciation-calculation.md
+            - name: Подразделения компании
+              href: ../financials/localizations/rus-company-divisions.md
             - name: Настройка валютных курсов для проводок в валюте
               href: ../financials/localizations/rus-exchange-difference.md
             - name: Предварительный просмотр проводок ГК
               href: ../financials/localizations/rus-ledger-transactions-preview.md
             - name: Настройка должностных лиц
               href: ../financials/localizations/rus-officials.md
-            - name: Настройка банковских счетов
-              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
             - name: Налог на добавленную стоимость (НДС) для налоговых агентов
               href: ../financials/localizations/rus-tax-agent.md
             - name: Настройка контроля аналитик для сопоставлений
               href: ../financials/localizations/rus-transactions-settlement-date.md
+            - name: Счета на оплату
+              href: ../financials/localizations/rus-invoice-payment.md
         - name: Саудовская Аравия
           href: ../financials/localizations/saudi-arabia.md
           items:
