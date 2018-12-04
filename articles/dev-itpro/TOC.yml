@@ -1,0 +1,1208 @@
+- name: Разработка и администрирование для Finance and Operations
+  href: index.md
+- name: Требования к системе для облачных развертываний
+  href: ../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json
+- name: Требования к системе для локальных развертываний
+  href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
+- name: Демонстрационные данные
+  href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
+  items:
+    - name: Создание демонстрационных данных с помощью пакетов данных
+      href: data-entities/generate-demo-data-packages.md
+- name: Разработка и настройка
+  href: dev-tools/developer-home-page.md
+  items:
+    - name: Стек приложений и архитектура сервера
+      href: dev-tools/application-stack-server-architecture.md
+    - name: Получение ознакомительных версий
+      href: dev-tools/get-evaluation-copy.md
+    - name: Регистрация на ознакомительные подписки
+      href: dev-tools/sign-up-preview-subscription.md
+    - name: Развертывание сред разработки и доступ к ним
+      href: dev-tools/access-instances.md
+      items:
+        - name: Настройка односерверных сред разработки
+          href: dev-tools/configure-developer-vm.md
+        - name: Создание новых пользователей на компьютерах для разработки
+          href: dev-tools/enable-development-machine.md
+        - name: 'Вопросы и ответы по виртуальным машинам разработки и сборки, не допускающим доступ администратора'
+          href: sysadmin/VMs-no-admin-access.md
+        - name: Переименование локальных сред для доступа к Azure DevOps
+          href: migration-upgrade/vso-machine-renaming.md
+        - name: Требования к системе для разработки
+          href: dev-tools/development-system-requirements.md
+    - name: 'Управление версиями, поиск по метаданным и навигация'
+      href: dev-tools/version-control-metadata-navigation.md
+    - name: Пример приложения для управления автопарком
+      items:
+        - name: Сквозной сценарий для примера приложения для управления автопарком
+          href: dev-tools/fleet-management-sample.md
+        - name: Пример приложения для управления автопарком
+          href: dev-tools/introduction-fleet-management-sample.md
+    - name: Средства Visual Studio
+      items:
+        - name: Средства разработки
+          href: dev-tools/development-tools-overview.md
+        - name: Учебник по средствам разработки
+          href: dev-tools/introduction-visual-studio.md
+        - name: Обозреватель приложений
+          href: dev-tools/application-explorer.md
+        - name: Сборка и отладка проектов
+          href: dev-tools/build-debug-project.md
+        - name: Операции сборки
+          href: dev-tools/build-operations.md
+        - name: Функции редактора кода
+          href: dev-tools/code-editor.md
+        - name: Создание моделей и элементы модели данных
+          href: dev-tools/create-data-model-elements.md
+          items:
+            - name: Правила именования для расширений
+              href: extensibility/NamingGuidelines.md
+            - name: Отключение настройки моделей и отказ от функций
+              href: dev-tools/lock-models.md
+        - name: Отчет об анализе настройки
+          href: dev-tools/customization-analysis-report.md
+        - name: Конструкторы элементов
+          href: dev-tools/element-designers.md
+        - name: Команды для определения использования элемента
+          href: dev-tools/element-usage.md
+        - name: Экспорт и импорт моделей
+          href: dev-tools/models-export-import.md
+        - name: Поиск по метаданным в Visual Studio
+          href: dev-tools/metadata-search-visual-studio.md
+        - name: Модели и пакеты
+          href: dev-tools/models.md
+        - name: Тип проекта Finance and Operations
+          href: dev-tools/projects.md
+        - name: Надстройки с инструментами для Visual Studio
+          href: dev-tools/developer-tools-add-ins.md
+        - name: Обновление средств разработки Visual Studio
+          href: dev-tools/update-development-tools.md
+    - name: Язык программирования X++
+      items:
+        - name: X++ и функции отладчика
+          href: dev-tools/new-x-debugger-features.md
+        - name: Отладка X++ с копиями рабочих баз данных
+          href: dev-tools/debug-x-issue-against-copy-of-production.md
+        - name: Отладка кода X++
+          href: dev-tools/debug-xpp.md
+        - name: Классы EventHandlerResult в сценариях с запросами и ответами
+          href: dev-tools/event-handler-result-class.md
+        - name: 'Написание бизнес-логики на языках C# и X++ Source Code'
+          href: dev-tools/write-business-logic.md
+        - name: Изменения в X++ и компиляторе X++
+          href: dev-tools/programming-language-support.md
+        - name: 'Поставщик LINQ для C#'
+          href: dev-tools/linq-provider-c.md
+        - name: Написание правил рекомендаций
+          href: dev-tools/author-best-practice-rules.md
+        - name: Свойства обозревателя приложений
+          href: dev-ref/application-explorer-aot-properties.md
+        - name: Справочник по языку X++
+          items:
+            - name: Справочник по языку X++
+              href: dev-ref/xpp-language-reference.md
+            - name: Переменные и типы данных в X++
+              href: dev-ref/xpp-variables-data-types.md
+            - name: 'Инструкции, циклы и обработка исключений в X++'
+              href: dev-ref/xpp-statements-loops.md
+            - name: Исключение X++ "Ошибка подключения SQL"
+              href: dev-ref/sql-connection-error.md
+            - name: Операторы X++
+              href: dev-ref/xpp-operators.md
+            - name: Приоритет операторов в X++
+              href: dev-ref/xpp-operator-precedence.md
+            - name: Классы и методы в X++
+              href: dev-ref/xpp-classes-methods.md
+            - name: Выбор данных и манипуляции с данными в X++
+              href: dev-ref/xpp-data-query.md
+            - name: Макросы в X++
+              href: dev-ref/xpp-macros.md
+            - name: Классы атрибутов в X++
+              href: dev-ref/xpp-attribute-classes.md
+            - name: 'Сравнение X++ и C#'
+              href: dev-ref/xpp-cs-comparison.md
+            - name: Синтаксис X++
+              href: dev-ref/xpp-syntax.md
+    - name: 'Справочник по API, классам и таблицам'
+      href: dev-ref/api-reference.md
+      items:
+        - name: Функции времени компиляции X++
+          href: dev-ref/xpp-compile-time-functions.md
+        - name: Функции времени выполнения X++
+          href: dev-ref/xpp-run-time-functions.md
+          items:
+            - name: Бизнес-функции времени выполнения X++
+              href: dev-ref/xpp-business-run-time-functions.md
+            - name: Контейнерные функции времени выполнения X++
+              href: dev-ref/xpp-container-run-time-functions.md
+            - name: Функции конвертации времени выполнения X++
+              href: dev-ref/xpp-conversion-run-time-functions.md
+            - name: Функции даты времени выполнения X++
+              href: dev-ref/xpp-date-run-time-functions.md
+            - name: Математические функции времени выполнения X++
+              href: dev-ref/xpp-math-run-time-functions.md
+            - name: Функции отражения времени выполнения X++
+              href: dev-ref/xpp-reflection-run-time-functions.md
+            - name: Функции сеансов времени выполнения X++
+              href: dev-ref/xpp-session-run-time-functions.md
+            - name: Строковые функции времени выполнения X++
+              href: dev-ref/xpp-string-run-time-functions.md
+        - name: Системные таблицы
+          href: dev-ref/system-tables.md
+        - name: Системные классы
+          items:
+            - name: Классы A
+              href: dev-ref/a-classes.md
+            - name: Классы B
+              href: dev-ref/b-classes.md
+            - name: Классы C
+              href: dev-ref/c-classes.md
+            - name: Классы D
+              href: dev-ref/d-classes.md
+            - name: Классы E
+              href: dev-ref/e-classes.md
+            - name: Классы F (от FieldBinding до FormBuildAnimateControl)
+              href: dev-ref/fieldbinding-classes.md
+            - name: Классы F (от FormBuildButtonControl до FormBuildFastTabSummarySeparator)
+              href: dev-ref/formbuildbuttoncontrol-classes.md
+            - name: Классы F (от FormBuildFilterPaneControl до FormBuildRealControl)
+              href: dev-ref/formbuildfilterpanecontrol-classes.md
+            - name: Классы F (от FormBuildReferenceControl до FormButtonSeparatorControl)
+              href: dev-ref/formbuildreferencecontrol-classes.md
+            - name: Классы F (от FormChangeTracker до FormControlEventArgs)
+              href: dev-ref/formchangetracker-classes.md
+            - name: Классы F (от FormDataObject до FormFastTabHeaderControl)
+              href: dev-ref/formdataobject-classes.md
+            - name: Классы F (от FormFastTabSummarySeparator до FormGridControl)
+              href: dev-ref/formfasttabsummaryseparator-classes.md
+            - name: Классы F (от FormGroupControl до FormIntControl)
+              href: dev-ref/formgroupcontrol-classes.md
+            - name: Классы F (от FormListBoxControl до FormNotifyEventArgs)
+              href: dev-ref/formlistboxcontrol-classes.md
+            - name: Классы F (от FormObject до FormRealControl)
+              href: dev-ref/formobject-classes.md
+            - name: Классы F (от FormReferenceControl до FormStringControl)
+              href: dev-ref/formreferencecontrol-classes.md
+            - name: Классы F (от FormTabControl до FormWindowControl)
+              href: dev-ref/formtabcontrol-classes.md
+            - name: Классы G
+              href: dev-ref/g-classes.md
+            - name: Классы H
+              href: dev-ref/h-classes.md
+            - name: Классы I
+              href: dev-ref/i-classes.md
+            - name: Классы J
+              href: dev-ref/j-classes.md
+            - name: Классы K
+              href: dev-ref/k-classes.md
+            - name: Классы L
+              href: dev-ref/l-classes.md
+            - name: Классы M
+              href: dev-ref/m-classes.md
+            - name: Классы N
+              href: dev-ref/n-classes.md
+            - name: Классы O
+              href: dev-ref/o-classes.md
+            - name: Классы P
+              href: dev-ref/p-classes.md
+            - name: Классы Q
+              href: dev-ref/q-classes.md
+            - name: Классы R
+              href: dev-ref/r-classes.md
+            - name: Классы S
+              href: dev-ref/s-classes.md
+            - name: Классы T
+              href: dev-ref/t-classes.md
+            - name: Классы U
+              href: dev-ref/u-classes.md
+            - name: Классы V
+              href: dev-ref/v-classes.md
+            - name: Классы W
+              href: dev-ref/w-classes.md
+            - name: Классы X
+              href: dev-ref/x-classes.md
+    - name: Расширяемость
+      href: extensibility/extensibility-home-page.md
+      items:
+        - name: Введение и начало работы
+          items:
+            - name: План расширения приложения
+              href: extensibility/extensibility-roadmap.md
+            - name: Запросы на расширение
+              href: extensibility/extensibility-requests.md
+            - name: Вопросы и ответы по расширяемости
+              href: extensibility/app-sealing-faq.md
+            - name: Переход от перекрытий к расширениям
+              href: extensibility/migrate-overlayer-extension.md
+            - name: Настройка элементов моделей с помощью расширения (учебник)
+              href: extensibility/customize-model-elements-extensions.md
+            - name: Настройка с помощью расширения и перекрытия
+              href: extensibility/customization-overlayering-extensions.md
+        - name: Что нового
+          items:
+            - name: Изменения возможностей расширения от июля 2017 г.
+              href: extensibility/changes-july-2017.md
+            - name: Изменения возможностей расширения в версии 7.3
+              href: extensibility/extensibility-changes-73.md
+            - name: Изменения возможностей расширения в версии 8.0
+              href: extensibility/changes-80.md
+            - name: Изменения возможностей расширения версии 8.0.1
+              href: extensibility/extensibility-changes-801.md
+            - name: Изменения возможностей расширения версии 8.0.2
+              href: extensibility/extensibility-changes-802.md
+            - name: Изменения возможностей расширения версии 8.0.3
+              href: extensibility/extensibility-changes-803.md
+            - name: Изменения возможностей расширения версии 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: Изменения возможностей расширения версии 8.1
+              href: extensibility/extensibility-changes-81.md
+            - name: Изменения возможностей расширения версии 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: Изменения возможностей расширения версии 8.1.2
+              href: extensibility/extensibility-changes-812.md
+        - name: Основы
+          items:
+            - name: Глубокие настройки
+              href: extensibility/intrusive-customizations.md
+            - name: Модель расширения классов
+              href: extensibility/class-extensions.md
+            - name: Расширение классов с помощью заключения методов в оболочку и цепочки команд
+              href: extensibility/method-wrapping-coc.md
+            - name: Правила именования для расширений моделей
+              href: extensibility/naming-guidelines-extensions.md
+            - name: Ослабление ограничений моделей для рефакторинга перекрытий к расширениям
+              href: extensibility/refactoring-over-layering.md
+        - name: Создание расширений
+          items:
+            - name: Добавление значений в перечисления
+              href: extensibility/add-enum-value.md
+            - name: Изменение расширенных типов данных
+              href: extensibility/modify-edt.md
+            - name: Регистрация подклассов для методов фабрики
+              href: extensibility/register-subclass-factory-methods.md
+            - name: Ответ с использованием EventHandlerResult
+              href: extensibility/respond-event-handler-result.md
+            - name: Расширение класса RunBase
+              href: extensibility/extend-runbase-class.md
+            - name: Настройка процедуры запуска приложения с помощью делегатов
+              href: extensibility/startup-customizations.md
+            - name: Изменение имеющихся полей в таблице
+              href: extensibility/modify-existing-field.md
+            - name: Добавление полей в таблицы
+              href: extensibility/add-field-extension.md
+            - name: Добавление индексов в таблицы
+              href: extensibility/add-index.md
+            - name: Добавление связей в таблицы
+              href: extensibility/add-relation.md
+            - name: Изменение свойств таблицы
+              href: extensibility/modify-properties.md
+            - name: Добавление методов в таблицы
+              href: extensibility/add-method-table.md
+            - name: Выполнение бизнес-действий на протяжении жизненного цикла записей таблицы
+              href: extensibility/subscribe-table-events.md
+            - name: Добавление источников данных в формы
+              href: extensibility/add-datasource.md
+            - name: Изменение заголовков формы
+              href: extensibility/change-caption-form.md
+            - name: Изменение свойств элемента управления формы
+              href: extensibility/modify-control-properties.md
+            - name: Расширение области номерных серий
+              href: extensibility/extend-number-sequence-scope.md
+            - name: Добавление новых складских аналитик
+              href: extensibility/inventory-dimensions.md
+            - name: Расширяемость цен и скидок
+              href: extensibility/pricing-app73.md
+            - name: Расширение сопоставлений таблиц
+              href: extensibility/map-extensions.md
+            - name: 'Расширение сопоставлений таблиц, используемых в качестве интерфейсов'
+              href: extensibility/maps-as-interfaces.md
+            - name: 'Расширение сопоставлений таблиц, используемых для управления версиями'
+              href: extensibility/maps-with-versioning.md
+            - name: Расширение точности десятичной запятой для выбранных типов данных
+              href: extensibility/decimal-point-precision.md
+        - name: Создание расширяемых решений
+          items:
+            - name: Написание расширяемого кода
+              href: extensibility/writing-extensible-code.md
+            - name: Классы
+              href: extensibility/extensible-classes.md
+            - name: Методы
+              href: extensibility/extensible-methods.md
+            - name: Формы
+              href: extensibility/extensible-forms.md
+            - name: Расширенные типы данных
+              href: extensibility/extensible-edts.md
+            - name: Расширяемые перечисления
+              href: extensibility/extensible-enums.md
+            - name: Делегаты
+              href: extensibility/extensible-code-delegates.md
+            - name: Таблицы
+              href: extensibility/extensible-tables.md
+            - name: Атрибуты расширяемости для методов
+              href: extensibility/extensibility-attributes.md
+            - name: Критические изменения
+              href: extensibility/breaking-changes.md
+    - name: Производительность
+      items:
+        - name: Трассировка с помощью синтаксического анализатора Trace
+          href: perf-test/trace-trace-tutorial.md
+        - name: Проверка производительности пакета SDK и многопользовательское тестирование с помощью Visual Studio Online
+          href: perf-test/perfsdk-tutorial.md
+        - name: Проверка производительности пакета SDK и многопользовательское тестирование в локальных средах
+          href: perf-test/perfsdk-tutorial-lbd.md
+        - name: Диагностика проблем и анализ производительности с помощью синтаксического анализатора Trace
+          href: perf-test/trace-parser.md
+        - name: Таймер производительности
+          href: perf-test/performance-timer.md
+    - name: Поддержка тестирования в Visual Studio
+      items:
+        - name: Тестирование и проверки
+          href: perf-test/testing-validation.md
+        - name: Проекты тестирования в Visual Studio
+          href: perf-test/testing-support.md
+        - name: 'Развертывание топологий, поддерживающих непрерывную сборку и автоматизацию тестирования'
+          href: perf-test/continuous-build-test-automation.md
+    - name: Даты вступления в силу
+      href: dev-tools/date-effectivity.md
+    - name: Лицензирование для независимых поставщиков программного обеспечения
+      href: dev-tools/isv-licensing.md
+    - name: Локальное лицензирование для независимых поставщиков программного обеспечения
+      href: dev-tools/isv-licensing-on-prem.md
+- name: Разработка пользовательского интерфейса
+  href: user-interface/user-interface-development-home-page.md
+  items:
+    - name: Учебники
+      items:
+        - name: Создание формы типа накладных расходов на аренду
+          href: user-interface/build-rental-charge-type-form.md
+        - name: Создание формы клиента
+          href: user-interface/build-customer-form.md
+        - name: Создание навигации
+          href: user-interface/build-navigation.md
+        - name: Создание рабочих областей
+          href: user-interface/build-workspace.md
+    - name: Формы
+      items:
+        - name: Понятия навигации
+          href: user-interface/page-navigation.md
+        - name: Макет страницы в веб-клиенте
+          href: user-interface/page-layout.md
+        - name: Шрифт символов Dynamics
+          href: user-interface/symbol-font.md
+        - name: 'Тестирование форм, использующих пользовательские шаблоны'
+          href: user-interface/testing-forms-custom-patterns.md
+        - name: Создание защищенных URL-адресов с возможностью общего доступа (прямые ссылки)
+          href: user-interface/create-deep-links.md
+        - name: 'Специальные возможности в формах, продуктах и элементах управления'
+          href: user-interface/enable-accessibility.md
+        - name: Настройка описаний полей
+          href: user-interface/customize-field-help.md
+    - name: Элементы управления
+      items:
+        - name: Элементы управления действиями
+          href: user-interface/action-controls.md
+        - name: Элементы управления вводом и размеры столбцов в сетке
+          href: user-interface/sizing-input-controls-grid-columns.md
+        - name: Поддержка флажков в древовидных элементах управления
+          href: user-interface/check-box-tree-controls.md
+        - name: Параметры фильтрации
+          href: user-interface/filtering.md
+        - name: Элемент управления узлом PowerApps
+          href: user-interface/powerapps-host-control.md
+    - name: Управление окнами
+      items:
+        - name: Перенос кода контекстного меню
+          href: migration-upgrade/code-migration-context-menus.md
+        - name: Перенос логики двойного щелчка мыши
+          href: migration-upgrade/code-migration-double-click.md
+        - name: Ввод контекстных данных для поиска
+          href: user-interface/contextual-data-entry-lookups.md
+        - name: Элемент управления HierarchyViewer
+          href: user-interface/hierarchy-viewer-control.md
+        - name: Элементы управления поиском
+          href: user-interface/lookups-controls.md
+        - name: Элемент управления отправкой файлов
+          href: user-interface/file-upload-control.md
+        - name: Системные кнопки
+          href: user-interface/system-defined-buttons.md
+        - name: Изображения на странице или в сетке
+          href: user-interface/images-form-grid.md
+        - name: 'Цвет шрифта и фона для элементов управления вводом данных, таблиц и сеток'
+          href: user-interface/specify-color-font-background-controls.md
+        - name: Поддержка языков с написанием справа налево и двунаправленного текста
+          href: user-interface/bidirectional-support.md
+        - name: Создание значков для элементов рабочей области
+          href: user-interface/create-icons-workspace-tiles.md
+        - name: Открытые API JavaScript для расширяемых элементов управления
+          href: user-interface/public-javascript-apis.md
+        - name: Контрольный список для элементов управления
+          href: user-interface/control-checklist.md
+    - name: Сообщения
+      items:
+        - name: Диалоговые окна "Ползунок" и MessageBox
+          href: user-interface/slider-messagebox.md
+        - name: 'API центра сообщений, панели сообщений и подробных сведений о сообщении'
+          href: user-interface/messaging-api-center-bar-details.md
+        - name: 'Вопросы и ответы по центру сообщений, панели сообщений и подробным сведениям о сообщении'
+          href: user-interface/messaging-user.md
+    - name: Требования к шаблону основной формы
+      items:
+        - name: Шаблоны форм для перенесенных форм
+          href: user-interface/select-form-pattern.md
+        - name: Стили и шаблоны форм
+          href: user-interface/form-styles-patterns.md
+        - name: 'Надстройки Visual Studio, поддерживающие шаблоны форм'
+          href: user-interface/form-pattern-add-ins.md
+    - name: Шаблоны форм
+      items:
+        - name: Общие рекомендации по формам
+          href: user-interface/general-form-guidelines.md
+        - name: Шаблон основной формы сведений
+          href: user-interface/details-master-form-pattern.md
+        - name: Шаблон основной формы проводки
+          href: user-interface/details-transaction-form-pattern.md
+        - name: Шаблоны форм списка выбора части формы
+          href: user-interface/section-list-form-pattern.md
+        - name: Шаблон формы страницы со списком
+          href: user-interface/list-page-form-pattern.md
+        - name: Шаблон простой формы сведений
+          href: user-interface/simple-details-form-pattern.md
+        - name: Шаблон простой формы списка и сведений
+          href: user-interface/simple-list-details-form-pattern.md
+        - name: Шаблон простой формы списка
+          href: user-interface/simple-list-form-pattern.md
+        - name: Шаблон формы содержания
+          href: user-interface/table-of-contents-form-pattern.md
+        - name: Шаблон двойной формы задачи
+          href: user-interface/task-double-form-pattern.md
+        - name: Шаблон одиночной формы задачи
+          href: user-interface/task-single-form-pattern.md
+        - name: Шаблон формы мастера
+          href: user-interface/wizard-form-pattern.md
+        - name: Шаблон формы рабочей области
+          href: user-interface/workspace-form-pattern.md
+    - name: Дополнительные шаблоны форм
+      items:
+        - name: Шаблон формы расширенного выделения
+          href: user-interface/advanced-selection-form-pattern.md
+        - name: Шаблон формы диалогового окна
+          href: user-interface/dialog-form-pattern.md
+        - name: Шаблон формы раскрывающегося диалога
+          href: user-interface/drop-dialog-form-pattern.md
+        - name: Шаблон формы подстановки
+          href: user-interface/lookup-form-pattern.md
+        - name: Шаблоны форм информационного поля
+          href: user-interface/factbox-form-patterns.md
+    - name: Вложенные шаблоны
+      items:
+        - name: Вложенный шаблон настраиваемой группы фильтров
+          href: user-interface/custom-filter-group-subpattern.md
+        - name: Вложенный шаблон элемента управления вводом аналитик
+          href: financial/dimension-entry-control-subpattern.md
+        - name: Вложенный шаблон построителя выражений аналитик
+          href: financial/dimension-expression-builder-subpattern.md
+        - name: Вложенный шаблон полей и групп полей
+          href: user-interface/fields-field-groups-subpattern.md
+        - name: Вложенные шаблоны фильтров и панелей инструментов
+          href: user-interface/filters-toolbar-subpattern.md
+        - name: Вложенный шаблон заполнения текста
+          href: user-interface/fill-text-subpattern.md
+        - name: Вложенный шаблон горизонтальных полей и групп кнопок
+          href: user-interface/horizontal-fields-buttons-group-subpattern.md
+        - name: Вложенный шаблон предварительного просмотра изображений
+          href: user-interface/image-preview-subpattern.md
+        - name: Вложенный шаблон панели со списком
+          href: user-interface/list-panel-subpattern.md
+        - name: Вложенный шаблон вложенного простого списка и сведений
+          href: user-interface/nested-simple-list-details-subpattern.md
+        - name: Шаблон формы диаграммы раздела
+          href: user-interface/section-chart-form-pattern.md
+        - name: Вложенный шаблон раздела Power BI
+          href: user-interface/section-powerbi-subpattern.md
+        - name: Вложенный шаблон раздела связанных ссылок
+          href: user-interface/section-related-links-subpattern.md
+        - name: Вложенный шаблон раздела диаграммы с накоплением
+          href: user-interface/section-stacked-chart-subpattern.md
+        - name: Вложенный шаблон раздела списка с вкладками
+          href: user-interface/section-tabbed-list-subpattern.md
+        - name: Вложенный шаблон раздела с плитками
+          href: user-interface/section-tiles-subpattern.md
+        - name: Вложенный шаблон табличных полей
+          href: user-interface/tabular-fields-subpattern.md
+        - name: Вложенный шаблоны панели инструментов и полей
+          href: user-interface/toolbar-fields-subpattern.md
+        - name: Вложенный шаблоны панели инструментов и списка
+          href: user-interface/toolbar-list-subpattern.md
+        - name: Вложенный шаблон группы фильтров страниц рабочей области
+          href: user-interface/workspace-filter-group-subpattern.md
+    - name: Расширяемость элементов управления
+      items:
+        - name: Создание расширяемых элементов управления
+          href: user-interface/build-extensible-control.md
+        - name: Сочетания клавиш для расширяемых элементов управления
+          href: user-interface/keyboard-shortcuts-controls.md
+        - name: Справка по программированию расширяемых элементов управления
+          href: user-interface/extensible-control-programming-reference.md
+        - name: Расширяемость элементов управления
+          href: user-interface/control-extensibility.md
+        - name: Создание локализуемых подписей
+          href: user-interface/create-localizable-labels-client.md
+        - name: Руководство по созданию макетов расширяемых элементов управления
+          href: user-interface/extensible-controls-layout.md
+        - name: 'Управление текстом, который формируется регистратором задач для элементов управления'
+          href: user-interface/task-recorder-control-text.md
+    - name: Создание рабочих областей
+      items:
+        - name: Создание работающих рабочих областей
+          href: user-interface/build-workspaces.md
+        - name: Кэширование плиток и списков для рабочих областей
+          href: user-interface/tile-list-caching-workspaces.md
+    - name: Регистратор задач
+      href: user-interface/task-recorder.md
+      items:
+        - name: Краткий справочник по регистратору задач
+          href: user-interface/task-recorder-quick-reference.md
+        - name: Создание документации или учебных материалов с помощью записей задач
+          href: user-interface/task-recorder-training-docs.md
+- name: Мобильная платформа
+  href: mobile-apps/platform/mobile-platform-home-page.md
+  items:
+    - name: Начало работы
+      href: mobile-apps/platform/mobile-platform-getting-started.md
+      items:
+        - name: Вопросы архитектуры и дизайна
+          href: mobile-apps/platform/mobile-platform-architecture.md
+        - name: События бизнес-логики
+          href: mobile-apps/platform/business-logic-events-overview.md
+        - name: Руководство по разработке страниц
+          href: mobile-apps/platform/page-design-guidelines.md
+        - name: Руководство по разработке действий
+          href: mobile-apps/platform/action-design-guidelines.md
+        - name: Требования к дизайну форм
+          href: mobile-apps/platform/form-design-requirements.md
+    - name: Общие задачи
+      items:
+        - name: Настройка рабочих областей с помощью класса SysAppWorkspace
+          href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
+        - name: 'Настройка полей на страницах мобильного приложения, чтобы они были доступны для выбора'
+          href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
+        - name: Отображение количества в полях
+          href: mobile-apps/platform/scenarios/display-count-workspace.md
+        - name: Обеспечение безопасности рабочих областей мобильного приложения
+          href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
+        - name: Локализация мобильных рабочих областей
+          href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
+        - name: Задание полей как обязательных с использованием классов рабочей области
+          href: mobile-apps/platform/scenarios/make-field-mandatory.md
+    - name: Справочник по разработке на стороне сервера
+      items:
+        - name: Разработка на стороне сервера (API-интерфейсы X++ рабочей области)
+          href: mobile-apps/platform/mobile-workspace-server-apis.md
+    - name: Справочник по разработке на стороне клиента
+      items:
+        - name: Клиентские API-интерфейсы разработки
+          href: mobile-apps/platform/scenarios/client-api-design-overview.md
+        - name: Клиентские API-интерфейсы
+          href: mobile-apps/platform/client-apis/client-apis-reference.md
+          items:
+            - name: Перечисление PageState
+              href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
+            - name: Модуль приложения
+              href: mobile-apps/platform/client-apis/modules/services-application.md
+            - name: Модуль РБП
+              href: mobile-apps/platform/client-apis/modules/defer.md
+            - name: Модуль события
+              href: mobile-apps/platform/client-apis/modules/event-ievent.md
+            - name: Модуль управления
+              href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
+            - name: Модуль контейнера
+              href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
+            - name: Модуль поля
+              href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
+            - name: Модуль отправки файлов
+              href: mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md
+            - name: Модуль группы
+              href: mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md
+            - name: Модуль гиперссылки
+              href: mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md
+            - name: Модуль изображения
+              href: mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md
+            - name: Модуль ввода
+              href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md
+            - name: Модуль списка
+              href: mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md
+            - name: Модуль подстановки
+              href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md
+            - name: Модуль множественной подстановки
+              href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md
+            - name: Модуль страницы
+              href: mobile-apps/platform/client-apis/modules/view-model-ipage.md
+            - name: Модуль Pagelink
+              href: mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md
+            - name: Модуль части
+              href: mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md
+            - name: Модуль служб
+              href: mobile-apps/platform/client-apis/modules/services-business-logic-services.md
+            - name: Модуль значения
+              href: mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md
+            - name: Тип Application
+              href: mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md
+            - name: Тип ApplicationMetadata
+              href: mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md
+            - name: Тип AsyncService
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md
+            - name: Тип CacheService
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md
+            - name: Тип CompleteEventArgs
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md
+            - name: Тип ContainerControl
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md
+            - name: Тип ContainerControlDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md
+            - name: Тип ContainerControlMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md
+            - name: Тип ControlMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
+            - name: Тип DataService
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
+            - name: Тип Deferred<T>
+              href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
+            - name: Тип Design
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
+            - name: Тип EventHook<T>
+              href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
+            - name: Тип Field
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
+            - name: Тип FieldDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md
+            - name: Тип FieldMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md
+            - name: Тип FileUploader
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md
+            - name: Тип FileUploaderDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md
+            - name: Тип FileUploaderMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md
+            - name: Тип GenericValue
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md
+            - name: Тип getDataSource
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md
+            - name: Тип Group
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md
+            - name: Тип GroupDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md
+            - name: Тип GroupMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md
+            - name: Тип HyperLink
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md
+            - name: Тип HyperLinkDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md
+            - name: Тип HyperLinkMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md
+            - name: Тип Image
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md
+            - name: Тип ImageDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md
+            - name: Тип ImageMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md
+            - name: Тип InputControl
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md
+            - name: Тип InputControlDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md
+            - name: Тип InputControlMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md
+            - name: Тип List
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md
+            - name: Тип ListDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md
+            - name: Тип ListMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md
+            - name: Тип Lookup
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md
+            - name: Тип LookupDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md
+            - name: Тип LookupMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md
+            - name: Тип MetadataService
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md
+            - name: Тип MultiLookup
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md
+            - name: Тип MultiLookupDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md
+            - name: Тип MultiLookupMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md
+            - name: Тип NavigationArgs
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md
+            - name: Тип NumberSequenceConfig
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md
+            - name: Тип Page
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md
+            - name: Тип PageData
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md
+            - name: Тип PageLink
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md
+            - name: Тип PageLinkDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md
+            - name: Тип PageLinkMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md
+            - name: Тип PageMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md
+            - name: Тип PageOptions
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md
+            - name: Тип PageSubmitArgs
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md
+            - name: Тип PageTarget
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md
+            - name: Тип Part
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md
+            - name: Тип PartDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
+            - name: Тип PartMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
+            - name: Тип Row
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
+            - name: Тип Value
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
+            - name: Тип ValueDesign
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
+            - name: Тип ValueMetadata
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+- name: Общий регламент по защите данных (GDPR)
+  href: gdpr/gdpr-guide.md
+  items:
+    - name: Ресурсы для ответа на запросы данных GDPR
+      href: gdpr/gdpr-home-page.md
+      items:
+        - name: Классификация основных средств
+          href: gdpr/gdpr-asset-classification-values.md
+        - name: Отчет о поиске людей
+          href: gdpr/gdpr-person-search-report.md
+        - name: Расширение отчета о поиске людей
+          href: gdpr/gdpr-extend-person-search-report.md
+        - name: Управление доступом к конфиденциальным данным
+          href: gdpr/gdpr-auditing-sensitive-data.md
+        - name: Ответ на запросы персональных данных с помощью Talent
+          href: gdpr/respond-dsr-request-talent.md
+        - name: Ответ на запросы персональных данных в AX 2012
+          href: gdpr/gdpr-ax2012.md
+        - name: Запросы данных GDPR для LCS
+          href: gdpr/gdpr-lcs.md
+- name: Непрерывная поставка
+  href: dev-tools/continuous-delivery-home-page.md
+  items:
+    - name: Вопросы и ответы по разработке и непрерывной поставке
+      href: dev-tools/continuous-delivery-faq.md
+    - name: Исключение тестовых пакетов из выходных данных сборки
+      href: dev-tools/exclude-test-packages.md
+    - name: Управление сторонними моделями и пакетами сред выполнения с помощью системы управления версиями
+      href: dev-tools/manage-runtime-packages.md
+    - name: Обновление версий модели при автоматической сборке
+      href: dev-tools/version-models-build.md
+- name: Выпуск решений с использованием Lifecycle Services
+  items:
+    - name: Разработка и выпуск
+      href: lcs-solutions/lcs-solutions-app-source.md
+    - name: Промежуточное размещение и публикации
+      href: lcs-solutions/marketing-content-lcs-solutions.md
+    - name: Добавление методологий
+      href: lcs-solutions/methodologies-lcs-solutions.md
+    - name: Настройка библиотек средства моделирования бизнес-процессов
+      href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
+    - name: Перенос кода
+      href: lcs-solutions/code-migration-lcs-solutions.md
+    - name: Проверка приложений
+      href: lcs-solutions/app-validation-lcs-solutions.md
+    - name: Обработка и потребление пакетов данных
+      href: lcs-solutions/process-data-packages-lcs-solutions.md
+    - name: Резервное копирование баз данных решения
+      href: lcs-solutions/database-backup-lcs-solutions.md
+    - name: Локализация и нормативные компоненты
+      href: lcs-solutions/country-region.md
+      items:
+        - name: Классификация функций локализации
+          href: lcs-solutions/classify-localization-features.md
+        - name: Применение контекста страны/региона
+          href: lcs-solutions/apply-country-context.md
+        - name: Нормативные сведения о сертификации в заголовках компонентов
+          href: lcs-solutions/regulatory-certifications.md
+        - name: Нормативные обновления
+          href: lcs-solutions/regulatory-watch-communication.md
+        - name: Разделение моделей локализации
+          href: lcs-solutions/separate-localization-models.md
+        - name: Отправка нормативных оповещений
+          href: lcs-solutions/submit-localization-alerts.md
+- name: Финансовая разработка
+  href: financial/financial-dev-home-page.md
+  items:
+    - name: Поддержка различных шаблонов аналитик
+      href: financial/dimensions.md
+    - name: Добавление аналитик в шаблоны Excel
+      href: financial/dimensions-overview.md
+    - name: Поддержка элементов управления вводом аналитик в диалоговых окнах
+      href: financial/dimension-entry-control-dialog-support.md
+    - name: Перенос элементов управления аналитик по умолчанию в элементы управления вводом аналитик
+      href: financial/dimension-entry-control-migration.md
+    - name: Работа элементов управления вводом аналитик
+      href: financial/dimension-entry-control-uptake.md
+    - name: Вложенный шаблон построителя выражений аналитик
+      href: financial/dimension-expression-builder-subpattern.md
+    - name: Конфигурация финансовых аналитик
+      href: financial/financial-dimension-configuration-integration.md
+    - name: Активация финансовых аналитик
+      href: financial/activate-financial-dimensions.md
+    - name: Финансовые аналитики и счета ГК в языках с направлением письма справа налево
+      href: financial/financial-dimensions-main-accounts-right-left-language.md
+    - name: Включение резервных таблиц для использования в качестве финансовых аналитик
+      href: financial/dimensionable-entities.md
+    - name: Перенос элементов управления посегментным вводом
+      href: financial/segmented-entry-control-conversion.md
+    - name: Поддержка элементов управления посегментным вводом в диалоговых окнах
+      href: financial/segmented-entry-control-dialog-support.md
+    - name: Метаданные времени разработки для элементов управления посегментным вводом
+      href: financial/segmented-entry-control-metadata-specification.md
+    - name: Руководство по переносу элементов управления посегментным вводом
+      href: financial/segmented-entry-control-migration-guidance.md
+    - name: Методы parm элементов управления посегментным вводом
+      href: financial/segmented-entry-control-parm-method-specification.md
+    - name: Добавление значения подстановки для финансовых аналитик в шаблоны Excel
+      href: financial/add-dimensions-excel-templates.md
+    - name: Создание поставщиков валютных курсов
+      href: financial/create-exchange-rate-providers.md
+    - name: Создание поставщиков валютных курсов в Finance and Operations версии 8.0
+      href: financial/create-exchange-rate-8.md
+- name: Разработка цепочек поставок
+  items:
+    - name: Руководство по разработке элемента управления Ганта
+      href: user-interface/gantt-development-guide.md
+    - name: Создание нового механизма управления транспортировкой
+      href: ../supply-chain/transportation/create-new-transportation-management-engine.md
+- name: Развертывание
+  items:
+    - name: Развертывание демонстрационных сред
+      href: deployment/deploy-demo-environment.md
+    - name: Облачное развертывание
+      items:
+        - name: Завершение адаптации Azure Resource Manager
+          href: deployment/arm-onboarding.md
+        - name: Azure ExpressRoute и Finance and Operations
+          href: deployment/expressroute.md
+        - name: Архитектура Finance and Operations
+          href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+    - name: Локальное развертывание
+      href: deployment/on-premises-deployment-landing-page.md
+      items:
+        - name: Параметр локального развертывания
+          href: deployment/on-premises-overview.md
+        - name: Планирование локального развертывания и подготовка к ним
+          href: deployment/plan-onprem-deployment.md
+        - name: Требования к определению параметров оборудования
+          href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+        - name: Настройка локальных проектов
+          href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+        - name: Настройка и развертывание локальных сред
+          href: deployment/setup-deploy-on-premises-environments.md
+          items:
+            - name: Развертывание локальных сред (Platform update 12 и более поздние версии)
+              href: deployment/setup-deploy-on-premises-pu12.md
+            - name: Развертывание локальных сред (Platform update 8 и 11)
+              href: deployment/setup-deploy-on-premises-pu8-pu11.md
+            - name: Действия по установке для компонентов канала розничной торговли в локальной среде
+              href: deployment/deploy-retail-onprem.md
+        - name: Разработка и развертывание пользовательских моделей в локальных средах
+          href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: Настройка обратных прокси-серверов для локальных сред
+          href: deployment/onprem-reverseproxy.md
+        - name: Применение обновлений к локальному развертыванию
+          href: deployment/apply-updates-on-premises.md
+        - name: Локальная диагностика
+          href: deployment/on-premises-diagnostics.md
+        - name: Повторное развертывание локальных развертываний
+          href: deployment/redeploy-on-prem.md
+        - name: Обновление локального агента
+          href: lifecycle-services/update-local-agent.md
+        - name: Повторная настройка сред
+          href: lifecycle-services/reconfigure-environment.md
+        - name: Подключение к Интернету клиента
+          href: user-interface/client-disconnected.md
+        - name: Устранение неполадок локальных развертываний
+          href: deployment/troubleshoot-on-prem.md
+    - name: Развертывание пользовательского кода
+      items:
+        - name: Создание пакетов развертывания моделей
+          href: deployment/create-apply-deployable-package.md
+        - name: Применение обновлений к облачным средам
+          href: deployment/apply-deployable-package-system.md
+        - name: Установка готовых к развертыванию пакетов из командной строки
+          href: deployment/install-deployable-package.md
+        - name: Удаление пакета
+          href: deployment/uninstall-deployable-package.md
+        - name: Устранение неполадок приложений пакета
+          href: deployment/deployable-package-troubleshooting.md
+- name: 'Модификации, обновления и исправления'
+  href: migration-upgrade/upgrade-home-page.md
+  items:
+    - name: Обновление AX 2012 до Finance and Operations
+      href: migration-upgrade/upgrade-overview-2012.md
+      items:
+        - name: Обновление AX 2012 — планирование использования средства анализа обновления
+          href: migration-upgrade/upgrade-analyzer-tool.md
+        - name: Обновление AX 2012 — оценка трудозатрат с помощью службы обновления кода
+          href: migration-upgrade/analyze-code-upgrade.md
+        - name: Обновление AX 2012 — развертывание демонстрационной среды для анализа
+          href: migration-upgrade/analysis-sandbox.md
+        - name: Обновление AX 2012 — обновление данных в средах разработки
+          href: migration-upgrade/data-upgrade-2012.md
+        - name: Обновление AX 2012 — контрольный список перед обновлением для обновления данных
+          href: migration-upgrade/prepare-data-upgrade.md
+        - name: Обновление AX 2012 — обновление данных в средах "песочницы"
+          href: migration-upgrade/upgrade-data-sandbox.md
+        - name: Обновление AX 2012 — тестирование переключения
+          href: migration-upgrade/upgrade-cutover-testing.md
+        - name: Обновление AX 2012 — задачи после обновления
+          href: migration-upgrade/app-validation-process.md
+        - name: Обновление AX 2012 — выполнение функциональных тестов
+          href: migration-upgrade/upgrade-functional-validation.md
+        - name: Обновление AX 2012 — подготовка к вводу в эксплуатацию
+          href: migration-upgrade/upgrade-go-live-prep.md
+        - name: Обновление AX 2012 — ввод в эксплуатацию
+          href: migration-upgrade/2012-upgrade-cutover.md
+        - name: 'Изменения, влияющие на процесс обновления с AX 2012'
+          items:
+            - name: Настройка разделителя плана счетов как уникального
+              href: migration-upgrade/chart-accounts-delimiter-unique.md
+            - name: Обновление журналов с одним ваучером и переоценок в валюте
+              href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
+            - name: Модель данных планирования ресурсов проекта
+              href: migration-upgrade/data-model-changes-resource-management.md
+            - name: Изменения подсистемы бизнес-правил
+              href: migration-upgrade/workflow-subsystem.md
+            - name: 'Агрегированные модели, используемые вместо кубов для аналитики'
+              href: migration-upgrade/in-memory-real-time-aggregate-models.md
+            - name: Перенос обновленных кубов продаж в хранилище объектов
+              href: migration-upgrade/migrate-upgraded-cube-entity-store.md
+            - name: Обновление бюджетного планирования
+              href: migration-upgrade/upgrade-budget-planning.md
+    - name: Перенос данных из AX 2009 в Finance and Operations
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: "Миграция с AX 2009\_— установка средства переноса данных"
+          href: migration-upgrade/install-dmt.md
+        - name: "Миграция с AX 2009\_— создание сопоставлений"
+          href: migration-upgrade/generate-maps.md
+        - name: "Миграция с AX 2009\_— создание шаблонов"
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: "Миграция с AX 2009\_— создание групп миграции"
+          href: migration-upgrade/create-definition.md
+        - name: "Миграция с AX 2009\_— экспорт пакетов"
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: "Миграция с AX 2009\_— импорт пакетов"
+          href: migration-upgrade/ax2009-upgrade-import-package.md
+    - name: Перенос и обновление кода
+      href: migration-upgrade/code-migration-home-page.md
+      items:
+        - name: Подготовка к переносу кода
+          href: migration-upgrade/prepare-migration.md
+        - name: Настройка соответствия Azure DevOps
+          href: migration-upgrade/configure-vso-solution.md
+        - name: Разбиение моделей
+          href: dev-tools/model-split.md
+        - name: Разрешение зависимостей между моделями с помощью делегатов
+          href: migration-upgrade/delegates-migration.md
+    - name: Переход на последнее обновление (облако)
+      items:
+        - name: Процесс перехода на последнее обновление
+          href: migration-upgrade/upgrade-latest-update.md
+        - name: Обновление сред с версии 8.0 до 8.1
+          href: migration-upgrade/appupdate-80-81.md
+        - name: Политика жизненного цикла программного обеспечения и облачные выпуски
+          href: migration-upgrade/versions-update-policy.md
+        - name: Применение последнего обновления платформы к средам
+          href: migration-upgrade/upgrade-latest-platform-update.md
+        - name: Обновление платформы Dynamics AX до выпуска от августа 2016 г.
+          href: migration-upgrade/update-platform-each-release.md
+        - name: Обновление сред "песочницы"
+          href: migration-upgrade/upgrade-sandbox-environment.md
+        - name: 'Обновление данных в среде разработки, демонстрационной среде или среде "песочницы"'
+          href: migration-upgrade/upgrade-data-to-latest-update.md
+        - name: Обновление средств разработки
+          href: dev-tools/update-development-tools.md
+        - name: Планирование компиляции кода согласно последнему обновлению и подготовка к ней
+          href: migration-upgrade/compile-considerations.md
+    - name: Установка последнего обновления (локальная версия)
+      items:
+        - name: Применение обновлений к локальным развертываниям
+          href: deployment/apply-updates-on-premises.md
+        - name: Повторное развертывание локального развертывания
+          href: deployment/redeploy-on-prem.md
+    - name: Исправления
+      items:
+        - name: Загрузка исправлений из Lifecycle Services
+          href: migration-upgrade/download-hotfix-lcs.md
+        - name: Применение обновлений к облачным средам
+          href: deployment/apply-deployable-package-system.md
+        - name: Установка исправлений метаданных в средах разработки
+          href: migration-upgrade/install-metadata-hotfix-package.md
+        - name: Исправление Reporting Services в односерверных средах
+          href: migration-upgrade/patch-reporting-service-environment.md
+        - name: Обновление средств разработки Visual Studio
+          href: dev-tools/update-development-tools.md
+    - name: Устаревшие элементы
+      items:
+        - name: Устаревшие API
+          href: migration-upgrade/deprecated-apis.md
+        - name: Устаревшие функции
+          href: migration-upgrade/deprecated-features.md
+- name: Администрирование системы
+  href: sysadmin/system-administration-home-page.md
+  items:
+    - name: Вопросы и ответы по ежемесячным обновлениям облачной платформы
+      href: sysadmin/faq-platform-monthly-updates.md
+    - name: Добавление ссылок на юридические условия и заявление о конфиденциальности
+      href: sysadmin/legal-terms-privacy-statement.md
+    - name: Отчет о лицензионных кодах и ключах конфигурации
+      href: sysadmin/license-codes-configuration-keys-report.md
+    - name: Совместное использование данных между компаниями
+      href: sysadmin/cross-company-data-sharing.md
+    - name: Режим обслуживания
+      href: sysadmin/maintenance-mode.md
+    - name: Предварительно настроенные системные счета
+      href: sysadmin/pre-configured-system-accounts.md
+    - name: Экспорт пользователей B2B в Azure AD
+      href: sysadmin/implement-b2b.md
+    - name: Безопасность на основе ролей
+      href: sysadmin/role-based-security.md
+      items:
+        - name: Архитектура безопасности
+          href: sysadmin/security-architecture.md
+        - name: Готовые отчеты безопасности
+          href: sysadmin/security-reports.md
+        - name: Создание новых пользователей
+          href: sysadmin/tasks/create-new-users.md
+        - name: Импорт пользователей в пакетном режиме
+          href: sysadmin/tasks/import-bulk-users.md
+        - name: Настройка разделения обязанностей
+          href: sysadmin/tasks/set-up-segregation-duties.md
+        - name: Выявление и разрешение конфликтов в разделении обязанностей
+          href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
+        - name: Назначение пользователей для ролей безопасности
+          href: sysadmin/tasks/assign-users-security-roles.md
+    - name: Пакетная обработка
+      href: sysadmin/batch-processing-overview.md
+      items:
+        - name: Пакетная обработка и серверы обработки пакетных заданий
+          href: sysadmin/batch-server-overview.md
+        - name: Создание пакетных заданий
+          href: sysadmin/tasks/create-batch-job.md
+        - name: Копирование пакетного задания
+          href: sysadmin/copy-batch-job.md
+        - name: Активные периоды пакета
+          href: sysadmin/activeperiod.md
+        - name: Роль безопасности пакетного диспетчера
+          href: sysadmin/runby.md
+    - name: Помощник по оптимизации
+      href: sysadmin/optimization-advisor-overview.md
+      items:
+        - name: Создание правил для помощника по оптимизации
+          href: sysadmin/create-rules-optimization-advisor.md
+    - name: Сообщение о сбое производства
+      href: lifecycle-services/report-production-outage.md
+- name: Lifecycle Services
+  items:
+    - name: Ресурсы для Lifecycle Services
+      href: lifecycle-services/lcs.md
+      items:
+        - name: LCS для клиентов
+          href: lifecycle-services/lcs-works-lcs.md
+        - name: LCS для партнеров
+          href: lifecycle-services/getting-started-lcs.md
+        - name: Что нового
+          href: lifecycle-services/whats-new-lcs.md
+        - name: Известные проблемы
+          href: lifecycle-services/known-issues.md
+    - name: Руководство пользователя Lifecycle Services
+      href: lifecycle-services/lcs-user-guide.md
+    - name: Средство оценки подписки
+      href: lifecycle-services/subscription-estimator.md
+    - name: Настройка безопасности
+      href: lifecycle-services/configure-lcs-security.md
+    - name: Поиск проблем
+      href: lifecycle-services/issue-search-lcs.md
+    - name: Диспетчер конфигураций
+      href: lifecycle-services/configuration-manager-lcs.md
+      items:
+        - name: Настройка диспетчера конфигураций
+          href: lifecycle-services/set-up-configuration-manager-lcs.md
+    - name: Настройка службы обновления кода
+      href: lifecycle-services/configure-execute-code-upgrade.md
+    - name: Создание или обновление методологий
+      href: lifecycle-services/create-methodology.md
+    - name: Средство моделирования бизнес-процессов
+      href: lifecycle-services/bpm-overview.md
+    - name: Библиотеки бизнес-процессов в средстве моделирования бизнес-процессов
+      href: lifecycle-services/business-process-libraries-business-process-modeler.md
+    - name: 'Создание, изменение и поиск библиотек средства моделирования бизнес-процессов'
+      href: lifecycle-services/creating-editing-browsing.md
+    - name: Выполнение задач в средстве моделирования бизнес-процессов
+      href: lifecycle-services/complete-tasks-bpm.md
+    - name: Работа с диаграммами мероприятий в библиотеках BPM
+      href: lifecycle-services/using-activity-diagrams.md
+    - name: Синхронизация библиотек BPM с Azure DevOps
+      href: lifecycle-services/synchronize-bpm-vsts.md
+    - name: Создание библиотек пользовательских приемочных тестов с помощью проводников по задаче и BPM
+      href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+    - name: Блок-схемы в средства моделирования бизнес-процессов
+      href: lifecycle-services/flowcharts-business-process-modeler.md
+    - name: Отправка пользовательских бизнес-процессов в средство моделирования бизнес-процессов
+      href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+    - name: Мониторинг и диагностика
+      href: lifecycle-services/monitoring-diagnostics.md
+    - name: Перезапуск служб среды
+      href: lifecycle-services/restart-environment-services.md
+    - name: Сообщение о сбое производства
+      href: lifecycle-services/report-production-outage.md
+    - name: Отслеживание входов пользователя
+      href: lifecycle-services/user-logins.md
+    - name: Библиотека активов
+      href: lifecycle-services/asset-library.md
+    - name: Решение проблем с производительностью с помощью средств в LCS
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: Учебник по запросам
+      href: lifecycle-services/querycookbook.md
+    - name: Microsoft Dynamics 365 Translation Service
+      href: lifecycle-services/translation-service-overview.md
+      items:
+        - name: Перевод файлов пользовательского интерфейса
+          href: lifecycle-services/use-translation-service.md
+        - name: Перевод файлов документации
+          href: lifecycle-services/use-translation-service-ua.md
+        - name: Файлы базы переводов
+          href: lifecycle-services/use-translation-service-tm.md
+- name: Управление базами данных
+  items:
+    - name: Копирование баз данных из базы данных Azure SQL в среды SQL Server
+      href: database/copy-database-from-azure-sql-to-sql-server.md
+    - name: Копирование баз данных из SQL Server в производственные среды базы данных Azure SQL
+      href: database/copy-database-from-sql-server-to-azure-sql.md
+    - name: Восстановление баз данных в непроизводственных средах
+      href: database/request-point-in-time-restore.md
+    - name: Экспорт копий баз данных для последующего восстановления
+      href: database/copy-operations-database.md
+    - name: Запрос на обновления баз данных в "песочнице"
+      href: database/database-refresh.md
+- name: Поддержка
+  items:
+    - name: Получение поддержки по Finance and Operations и Lifecycle Services
+      href: lifecycle-services/lcs-support.md
+    - name: Создание запроса на поддержку Premier
+      href: lifecycle-services/premier-support.md
+    - name: Отправка запросов команде разработчиков служб Dynamics
+      href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+    - name: Настройка технической поддержки Finance and Operations
+      href: lifecycle-services/support-experience.md
+    - name: Вопросы и ответы по окну планового обслуживания
+      href: lifecycle-services/planned-maintenance-window-faq.md
+    - name: Облачные операции и обслуживание
+      href: lifecycle-services/cloud-operations-servicing.md
+    - name: Управление поддержкой Finance and Operations
+      href: lifecycle-services/cloud-powered-support-lcs.md
