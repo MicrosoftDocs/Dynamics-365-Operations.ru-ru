@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 69f600c8ed64aa05b77cfe31f4ec9bbe9164a63f
-ms.openlocfilehash: 60e07b80d34e094e1b4138ad2a05f9aba12ad1c0
+ms.sourcegitcommit: 467348de3f80fb0e63a69d6ed0f77dbc98769557
+ms.openlocfilehash: 302146874f74ea79ec4bcabcf9f97ca8577fa66d
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/02/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -69,4 +69,6 @@ ms.lasthandoff: 11/02/2018
 - [Налог на добавленную стоимость (НДС) для налоговых агентов](rus-tax-agent.md)
 - [Настройка контроля аналитик для сопоставлений](rus-transactions-settlement-date.md)
 - [Счета на оплату](rus-invoice-payment.md)
+- [Финансовая отчетность](rus-financial-reports.md)
+- [Книги продаж, книги покупок и журналы счетов-фактур](rus-sales-books-purchase-books.md)
 

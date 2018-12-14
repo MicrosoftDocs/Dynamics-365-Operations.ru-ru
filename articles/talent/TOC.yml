@@ -7,6 +7,10 @@
         - name: Что нового и что изменилось
           href: whats-new.md
           items:
+            - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (27 ноября 2018 г.)
+              href: whats-new-talent-november-27.md
+            - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (15 ноября 2018 г.)
+              href: whats-new-talent-november-15.md
             - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (31 октября 2018 г.)
               href: whats-new-talent-october-31.md
             - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (19 октября 2018 г.)
@@ -95,8 +99,6 @@
           href: creating-offers.md
         - name: Создание шаблонов сообщений электронной почты и управление ими
           href: email-templates.md
-        - name: Отчетность и аналитика
-          href: Reporting-Analytics-Attract.md
         - name: Безопасность и управление ролями в Attract
           href: security-attract.md
         - name: Параметры администрирования в Attract
@@ -266,3 +268,27 @@
           href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Создание оценки производительности
           href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Устранение неполадок в Talent
+      items:
+        - name: Аналитические отчеты не обновляются
+          href: analytic-reports-not-updated.md
+        - name: Не удается создать среду в центре администрирования PowerApps
+          href: create-envi-powerapps-admin-ctr.md
+        - name: Клиент Talent отключился
+          href: client-disconnects.md
+        - name: Как обрабатываются резервные копии базы данных
+          href: database-backups.md
+        - name: Как избежать усечения текста в иерархии должностей и при экспорте в Visio
+          href: avoid-text-truncation-position-hierarchy-visio.md
+        - name: Запуска процесса компенсации
+          href: run-compensation-process.md
+        - name: Сохранение проводников по задачам в LCS и их воспроизведение
+          href: save-play-task-guides-LCS.md
+        - name: Доступ к личным адресам по роли безопасности
+          href: security-roles-addresses.md
+        - name: Talent отсутствует среди приложений Microsoft Dynamics 365 (CDS1.0)
+          href: talent-not-in-home-CDS.md
+        - name: 'Пользователю доступно Core HR, но недоступно приложение Onboard или Attract'
+          href: user-access-core-hr.md
+        - name: Варианты отчетов в Talent
+          href: talent-reporting-options.md

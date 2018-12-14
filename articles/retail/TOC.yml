@@ -47,6 +47,8 @@
       href: dev-itpro/updating-environments.md
     - name: Тестирование и проблемы с производительностью
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: Распределенное управление заказами (DOM)
+  href: dom.md
 - name: Платежи
   items:
     - name: Способы оплаты
@@ -55,6 +57,8 @@
       href: ../financials/accounts-receivable/credit-card-authorizations.md
     - name: Настройка номиналов валюты для POS
       href: cash-denominations.md
+    - name: Настройка сценариев оплаты накладных
+      href: payinvoice.md
     - name: Вопросы и ответы по платежам
       href: dev-itpro/payments-retail.md
 - name: Заказы на покупку
@@ -213,6 +217,8 @@
       href: Order-fulfillment-POS-setup.md
     - name: Отображение уведомлений по заказу в POS
       href: Notifications-POS.md
+- name: Настройка и обработка обмена по заказу на возврат
+  href: orderexchanges.md
 - name: Мониторинг и анализ
   items:
     - name: Мониторинг эффективности продаж и маржи
@@ -235,6 +241,8 @@
       href: price-management.md
     - name: Корректировки цены и скидки
       href: price-adjustments-discounts.md
+    - name: Применение к продукту нескольких розничных скидок
+      href: Apply-multiple-retail-discounts.md
     - name: Определение оптимальной комбинации пересекающихся скидок
       href: optimal-combination-overlapping-discounts.md
     - name: 'Определение скидок, специфичных для канала'
@@ -488,6 +496,8 @@
       items:
         - name: Макеты экрана Retail POS
           href: pos-screen-layouts.md
+        - name: Открытие URL-адреса в POS
+          href: Open-URL-in-POS.md
         - name: Установка конструктора макетов POS
           href: install-pos-layout-designer.md
         - name: Retail Modern POS в автономном режиме
@@ -508,6 +518,10 @@
           href: dev-itpro/gift-card.md
         - name: Создание и применение фирменной символики к приложению Retail Experience
           href: dev-itpro/create-retail-experience-app.md
+        - name: Настройка приложения POS Hybrid в Android и iOS
+          href: dev-itpro/hybridApp.md
+        - name: Переопределение обработчика запросов POS
+          href: dev-itpro/pos-handler.md
     - name: Hardware Station и расширяемость
       href: dev-itpro/hardware-station-extensibility.md
     - name: Расширяемость Retail Server
@@ -562,9 +576,13 @@
           href: dev-itpro/payment-custom-error-messages.md
         - name: Создание установщиков Windows для соединителей платежей
           href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Использование платежных данных
+          href: payment-connector-data-fields.md
     - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Предстоящие изменения в Retail SDK
+          href: dev-itpro/UpcomingSDKChanges.md
         - name: Объединение систем сборки для Retail и Finance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Примеры расширяемости Retail SDK

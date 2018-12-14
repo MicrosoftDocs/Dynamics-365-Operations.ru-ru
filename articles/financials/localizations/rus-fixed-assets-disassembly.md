@@ -1,6 +1,6 @@
 ---
 title: "Частичная разборка (ликвидация) ОС"
-description: "В этой теме содержится информация сведения о частичной разборке или ликвидации основных средств для России."
+description: "В этом разделе содержатся сведения о частичной разборке или ликвидации основных средств для России."
 author: v-oloski
 manager: AnnBe
 ms.date: 09/14/2018
@@ -18,10 +18,10 @@ ms.author: v-oloski
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 22d21fd1a9d6e9d1d750b1cabc4b1cac4a33e154
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 4f13ad4f3a6138c38ea2676570c441910d523c46
 ms.contentlocale: ru-ru
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
