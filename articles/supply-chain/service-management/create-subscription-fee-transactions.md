@@ -1,6 +1,6 @@
 ---
 title: "Создать проводки по сборам по подписке"
-description: 
+description: "Эта тема описывает, как создавать проводки по сборам по подписке."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
@@ -19,27 +19,27 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 0c719f9ebdabfc67fc7e763707542d85daf9cc06
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 1c42f595a317170ab5bb64fcb0bb1ca299523bd7
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
-# <a name="create-subscription-fee-transactions"></a><span data-ttu-id="8bf21-102">Создать проводки по сборам по подписке</span><span class="sxs-lookup"><span data-stu-id="8bf21-102">Create subscription fee transactions</span></span> 
+# <a name="create-subscription-fee-transactions"></a><span data-ttu-id="e5beb-103">Создать проводки по сборам по подписке</span><span class="sxs-lookup"><span data-stu-id="e5beb-103">Create subscription fee transactions</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="8bf21-103">Щелкните **Управление сервисным обслуживанием** \> **Общий** \> **Подписки на сервисное обслуживание** \> **Все подписки на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="8bf21-103">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
+1.  <span data-ttu-id="e5beb-104">Щелкните **Управление сервисным обслуживанием** \> **Общий** \> **Подписки на сервисное обслуживание** \> **Все подписки на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="e5beb-104">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
 
-2.  <span data-ttu-id="8bf21-104">На странице списка **Все подписки на сервисное обслуживание** выберите подписку, для которой необходимо создать проводку сбора подписки.</span><span class="sxs-lookup"><span data-stu-id="8bf21-104">On the **All service subscriptions** list page, select the subscription for which you want to create a subscription fee transaction.</span></span>
+2.  <span data-ttu-id="e5beb-105">На странице списка **Все подписки на сервисное обслуживание** выберите подписку, для которой необходимо создать проводку сбора подписки.</span><span class="sxs-lookup"><span data-stu-id="e5beb-105">On the **All service subscriptions** list page, select the subscription for which you want to create a subscription fee transaction.</span></span>
 
-3.  <span data-ttu-id="8bf21-105">В разделе **Панель операций** на вкладке **Подписка** выберите **Взносы по подписке**.</span><span class="sxs-lookup"><span data-stu-id="8bf21-105">On the **Action Pane**, on the **Subscription** tab, click **Subscription fees**.</span></span>
+3.  <span data-ttu-id="e5beb-106">В разделе **Панель операций** на вкладке **Подписка** выберите **Взносы по подписке**.</span><span class="sxs-lookup"><span data-stu-id="e5beb-106">On the **Action Pane**, on the **Subscription** tab, click **Subscription fees**.</span></span>
 
-4.  <span data-ttu-id="8bf21-106">В форме **Создание сбора по подписке** введите соответствующую информацию в поля.</span><span class="sxs-lookup"><span data-stu-id="8bf21-106">On the **Create subscription fee** form, enter the appropriate information in the fields.</span></span>
+4.  <span data-ttu-id="e5beb-107">В форме **Создание сбора по подписке** введите соответствующую информацию в поля.</span><span class="sxs-lookup"><span data-stu-id="e5beb-107">On the **Create subscription fee** form, enter the appropriate information in the fields.</span></span>
 
-5.  <span data-ttu-id="8bf21-107">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="8bf21-107">Click **OK**.</span></span>
+5.  <span data-ttu-id="e5beb-108">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="e5beb-108">Click **OK**.</span></span>
 
   
 
