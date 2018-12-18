@@ -18,10 +18,10 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 770796b42e79ad616b469e1dbf5149789bff0788
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 7eb6d743131937081ce83b31988d792185cb28b2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,28 +31,29 @@ ms.lasthandoff: 08/09/2018
 
 <span data-ttu-id="aff16-104">В этой теме описывается система workflow-процессов в Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="aff16-104">This topic describes the workflow system in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
-<a name="what-is-workflow"></a><span data-ttu-id="aff16-105">Что такое Wokrflow?</span><span class="sxs-lookup"><span data-stu-id="aff16-105">What is workflow?</span></span>
------------------
+## <a name="what-is-workflow"></a><span data-ttu-id="aff16-105">Что такое Wokrflow?</span><span class="sxs-lookup"><span data-stu-id="aff16-105">What is workflow?</span></span>
 
 <span data-ttu-id="aff16-106">Термин *workflow-процесс* можно определить 2 способами: как система и как бизнес-процесс.</span><span class="sxs-lookup"><span data-stu-id="aff16-106">The term *workflow* can be defined in two ways: as a system and as a business process.</span></span>
+
 ### <a name="workflow-is-a-system"></a><span data-ttu-id="aff16-107">Документооборот как система</span><span class="sxs-lookup"><span data-stu-id="aff16-107">Workflow is a system</span></span>
 
 <span data-ttu-id="aff16-108">Workflow-процесс — это система, которая устанавливается с Finance and Operations и выполняется на сервере Application Object Server (AOS).</span><span class="sxs-lookup"><span data-stu-id="aff16-108">Workflow is a system that is installed with Finance and Operations and runs on the Application Object Server (AOS).</span></span> <span data-ttu-id="aff16-109">Система workflow-процессов предоставляет функции, позволяющие создавать отдельные workflow-процессы, или бизнес-процессы.</span><span class="sxs-lookup"><span data-stu-id="aff16-109">The workflow system provides functionality that you can use to create individual workflows, or business processes.</span></span>
 
 ### <a name="workflow-is-a-business-process"></a><span data-ttu-id="aff16-110">Документооборот как бизнес-процесс</span><span class="sxs-lookup"><span data-stu-id="aff16-110">Workflow is a business process</span></span>
 
-<span data-ttu-id="aff16-111">workflow-процесс представляет бизнес-процесс.</span><span class="sxs-lookup"><span data-stu-id="aff16-111">A workflow represents a business process.</span></span> <span data-ttu-id="aff16-112">Он определяет потоки, или перемещения, документа по системе, показывая, кто должен выполнить задачу, принять решение или утвердить документ.</span><span class="sxs-lookup"><span data-stu-id="aff16-112">It defines how a document flows, or moves, through the system by showing who must complete a task, make a decision, or approve a document.</span></span> <span data-ttu-id="aff16-113">Например, на следующем рисунке показан workflow-процесс для отчетов о расходах.</span><span class="sxs-lookup"><span data-stu-id="aff16-113">For example, the following illustration shows a workflow for expense reports.</span></span> 
+<span data-ttu-id="aff16-111">workflow-процесс представляет бизнес-процесс.</span><span class="sxs-lookup"><span data-stu-id="aff16-111">A workflow represents a business process.</span></span> <span data-ttu-id="aff16-112">Он определяет потоки, или перемещения, документа по системе, показывая, кто должен выполнить задачу, принять решение или утвердить документ.</span><span class="sxs-lookup"><span data-stu-id="aff16-112">It defines how a document flows, or moves, through the system by showing who must complete a task, make a decision, or approve a document.</span></span> <span data-ttu-id="aff16-113">Например, на следующем рисунке показан workflow-процесс для отчетов о расходах.</span><span class="sxs-lookup"><span data-stu-id="aff16-113">For example, the following illustration shows a workflow for expense reports.</span></span>
 
-![Workflow-процесс с элементами, назначенными пользователям](./media/workflow_user.gif) 
+![Workflow-процесс с элементами, назначенными пользователям](./media/workflow_user.gif)
 
 <span data-ttu-id="aff16-115">Для прояснения этого workflow-процесса предположим, что Сэм подает отчет о расходах на сумму USD 7000.</span><span class="sxs-lookup"><span data-stu-id="aff16-115">To better understand this workflow, suppose that Sam submits an expense report for USD 7,000.</span></span> <span data-ttu-id="aff16-116">В этом случае Иван должен рассмотреть приходы, направленные ему Сэмом.</span><span class="sxs-lookup"><span data-stu-id="aff16-116">In this scenario, Ivan must review the receipts that Sam routes to him.</span></span> <span data-ttu-id="aff16-117">Затем Фрэнк и Сью должны утвердить отчет о расходах.</span><span class="sxs-lookup"><span data-stu-id="aff16-117">Then Frank and Sue must approve the expense report.</span></span> <span data-ttu-id="aff16-118">Теперь предположим, что Сэм подает отчет о расходах на сумму 11 000 USD.</span><span class="sxs-lookup"><span data-stu-id="aff16-118">Now suppose that Sam submits an expense report for USD 11,000.</span></span> <span data-ttu-id="aff16-119">В этом случае Иван должен рассмотреть чеки, а Фрэнк, Сью и Анна должны утвердить отчет о расходах.</span><span class="sxs-lookup"><span data-stu-id="aff16-119">In this scenario, Ivan must review the receipts, and Frank, Sue, and Ann must approve the expense report.</span></span>
 
 ## <a name="benefits-of-using-the-workflow-system"></a><span data-ttu-id="aff16-120">Преимущества использования системы workflow-процессов</span><span class="sxs-lookup"><span data-stu-id="aff16-120">Benefits of using the workflow system</span></span>
 
 <span data-ttu-id="aff16-121">Имеется несколько преимуществ использования системы workflow-процессов в организации:</span><span class="sxs-lookup"><span data-stu-id="aff16-121">There are several benefits of using the workflow system in your organization:</span></span>
--   <span data-ttu-id="aff16-122">**Непротиворечивые процессы** - можно определить как обрабатываются определенные документы, таких как заявки на покупку и отчеты по расходам.</span><span class="sxs-lookup"><span data-stu-id="aff16-122">**Consistent processes** – You can define how specific documents, such as purchase requisitions and expense reports, are processed.</span></span> <span data-ttu-id="aff16-123">Использование системы workflow-процессов может обеспечить обработку и утверждение документов непротиворечивым и эффективным образом.</span><span class="sxs-lookup"><span data-stu-id="aff16-123">By using the workflow system, you ensure that documents are processed and approved in a consistent and efficient manner.</span></span>
--   <span data-ttu-id="aff16-124">**Видимость процессов** - можно отслеживать статус, историю и метрики производительности экземпляров workflow-процесса.</span><span class="sxs-lookup"><span data-stu-id="aff16-124">**Process visibility** – You can track the status, history, and performance metrics of workflow instances.</span></span> <span data-ttu-id="aff16-125">Это позволяет определить, должны ли быть внесены изменения в workflow-процесс для повышения эффективности.</span><span class="sxs-lookup"><span data-stu-id="aff16-125">This helps you determine whether changes should be made to the workflow to improve efficiency.</span></span>
--   <span data-ttu-id="aff16-126">**Централизованный список работ** — Пользователи могут просматривать централизованный список работ, отображающий задачи workflow-процесса и утверждения, назначенные им.</span><span class="sxs-lookup"><span data-stu-id="aff16-126">**Centralized work list** – Users can view a centralized work list that displays the workflow tasks and approvals that are assigned to them.</span></span>
+
+- <span data-ttu-id="aff16-122">**Непротиворечивые процессы** - можно определить как обрабатываются определенные документы, таких как заявки на покупку и отчеты по расходам.</span><span class="sxs-lookup"><span data-stu-id="aff16-122">**Consistent processes** – You can define how specific documents, such as purchase requisitions and expense reports, are processed.</span></span> <span data-ttu-id="aff16-123">Использование системы workflow-процессов может обеспечить обработку и утверждение документов непротиворечивым и эффективным образом.</span><span class="sxs-lookup"><span data-stu-id="aff16-123">By using the workflow system, you ensure that documents are processed and approved in a consistent and efficient manner.</span></span>
+- <span data-ttu-id="aff16-124">**Видимость процессов** - можно отслеживать статус, историю и метрики производительности экземпляров workflow-процесса.</span><span class="sxs-lookup"><span data-stu-id="aff16-124">**Process visibility** – You can track the status, history, and performance metrics of workflow instances.</span></span> <span data-ttu-id="aff16-125">Это позволяет определить, должны ли быть внесены изменения в workflow-процесс для повышения эффективности.</span><span class="sxs-lookup"><span data-stu-id="aff16-125">This helps you determine whether changes should be made to the workflow to improve efficiency.</span></span>
+- <span data-ttu-id="aff16-126">**Централизованный список работ** — Пользователи могут просматривать централизованный список работ, отображающий задачи workflow-процесса и утверждения, назначенные им.</span><span class="sxs-lookup"><span data-stu-id="aff16-126">**Centralized work list** – Users can view a centralized work list that displays the workflow tasks and approvals that are assigned to them.</span></span>
 
 
 ## <a name="workflow-content"></a><span data-ttu-id="aff16-127">Содержимое workflow-процесса</span><span class="sxs-lookup"><span data-stu-id="aff16-127">Workflow content</span></span>
