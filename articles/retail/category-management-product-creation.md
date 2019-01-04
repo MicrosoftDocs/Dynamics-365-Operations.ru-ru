@@ -59,4 +59,3 @@ ms.lasthandoff: 08/09/2018
 
 ![Диалоговое окно обновления продуктов](media/NewUpdateProductsEnhancedView.PNG)
 
-

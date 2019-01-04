@@ -42,25 +42,30 @@ ms.lasthandoff: 08/09/2018
 Эта страница содержит ссылки на соответствующую документацию, относящуюся к настройке, конфигурации и функциональному использованию функций центра обработки вызов в Dynamics 365 for Retail.
 
 ## <a name="configure-the-call-center"></a>Настройка центра обработки вызовов
+
 [Настройка параметров обработки заказов](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Настройка обработки заказов
+
 [Настройка оповещений о мошенничестве](set-up-fraud-alerts.md)
 
 [Блокировка заказов вручную](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Настройка обработки платежей
+
 [Методы оплаты в центре обработки вызовов](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Настройка режимов доставки
+
 [Настройка режимов доставки и расходов центра обработки вызовов](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>Настройка прямого маркетинга
+
 [Каталоги центра обработки вызовов](call-center-catalogs.md)
 
 [Настройка анализа RFM](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Настройка программ непрерывности
-[Настройка программы непрерывности для центра обработки вызовов](set-up-continuity-program.md)
 
+[Настройка программы непрерывности для центра обработки вызовов](set-up-continuity-program.md)
 
