@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/13/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -40,6 +40,7 @@ ms.lasthandoff: 11/13/2018
 ![Объекты макета экрана POS](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a><span data-ttu-id="eb71f-108">Визуальный профиль</span><span class="sxs-lookup"><span data-stu-id="eb71f-108">Visual profile</span></span>
+
 <span data-ttu-id="eb71f-109">Визуальные профили назначаются ККМ и используются для указания визуальных элементов, относящихся к конкретной ККМ и общих для всех пользователей.</span><span class="sxs-lookup"><span data-stu-id="eb71f-109">Visual profiles are assigned to registers, and they specify the visual elements that are register-specific and shared across users.</span></span> <span data-ttu-id="eb71f-110">Любой пользователь, входящий в ККМ, будет видеть одинаковые тему, цвета и изображения.</span><span class="sxs-lookup"><span data-stu-id="eb71f-110">Every user who signs in to the register sees the same theme, colors, and images.</span></span>
 
 ![Экран приветствия POS со светлой темой](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ ms.lasthandoff: 11/13/2018
 - <span data-ttu-id="eb71f-123">**Фон приложения** — вы можете указать изображение, используемое в качестве фона, вместо темы со сплошным цветом фона для всего приложения.</span><span class="sxs-lookup"><span data-stu-id="eb71f-123">**Application background** – You can specify a background image that is used instead of the solid theme color throughout the application.</span></span> <span data-ttu-id="eb71f-124">Что касается фона при входе в систему, размер файла следует сохранять как можно меньшего размера.</span><span class="sxs-lookup"><span data-stu-id="eb71f-124">As for login backgrounds, the file size should be kept as small as possible.</span></span>
 
 ## <a name="screen-layouts"></a><span data-ttu-id="eb71f-125">Макеты экрана</span><span class="sxs-lookup"><span data-stu-id="eb71f-125">Screen layouts</span></span>
+
 <span data-ttu-id="eb71f-126">Конфигурации макета экрана определяют действия, содержимое и расположение элементов управления пользовательского интерфейса на экранах приветствия и **Проводка** в POS.</span><span class="sxs-lookup"><span data-stu-id="eb71f-126">Screen layout configurations determine the actions, content, and placement of UI controls on the POS welcome screen and **Transaction** screen.</span></span>
 
 ![Объекта макета экрана POS](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ ms.lasthandoff: 11/13/2018
 ![Размеры макетов POS](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a><span data-ttu-id="eb71f-163">Сетки кнопок</span><span class="sxs-lookup"><span data-stu-id="eb71f-163">Button grids</span></span>
+
 <span data-ttu-id="eb71f-164">Для каждого размера макета в макете экрана, можно настроить и назначить сетку кнопок для экрана приветствия POS и экрана **Проводка**.</span><span class="sxs-lookup"><span data-stu-id="eb71f-164">For each layout size in a screen layout, you can configure and assign button grids for the POS welcome screen and **Transaction** screen.</span></span> <span data-ttu-id="eb71f-165">Сетки кнопок на экране приветствия автоматически распределяются слева направо от наименьшего номера к максимальному (Экран приветствия 1).</span><span class="sxs-lookup"><span data-stu-id="eb71f-165">Button grids for the welcome screen are automatically laid out from left to right, from the lowest number (Welcome screen 1) to the highest number.</span></span>
 
 <span data-ttu-id="eb71f-166">В полных макетах POS размещение сеток кнопок указывается в конструкторе макетов экрана.</span><span class="sxs-lookup"><span data-stu-id="eb71f-166">In Full POS layouts, the placement of button grids is specified in the screen layout designer.</span></span>
@@ -104,6 +107,7 @@ ms.lasthandoff: 11/13/2018
 ![Компактные сетки кнопки макета](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a><span data-ttu-id="eb71f-170">Изображения</span><span class="sxs-lookup"><span data-stu-id="eb71f-170">Images</span></span>
+
 <span data-ttu-id="eb71f-171">Для каждого размера макета в макете экрана можно указать изображения, которые будут включены в пользовательский интерфейс POS.</span><span class="sxs-lookup"><span data-stu-id="eb71f-171">For each layout size in a screen layout, you can specify images to include in the POS UI.</span></span> <span data-ttu-id="eb71f-172">Для полных макетов POS одно изображение может быть указано для экрана приветствия.</span><span class="sxs-lookup"><span data-stu-id="eb71f-172">For Full POS layouts, a single image can be specified for the welcome screen.</span></span> <span data-ttu-id="eb71f-173">Это изображение отображается как первый элемент пользовательского интерфейса в левой части окна.</span><span class="sxs-lookup"><span data-stu-id="eb71f-173">This image appears as the first UI element on the left.</span></span> <span data-ttu-id="eb71f-174">На экране **Проводка** изображения могут использоваться как вкладка изображений или логотипа.</span><span class="sxs-lookup"><span data-stu-id="eb71f-174">On the **Transaction** screen, images can be used as tab images or as a logo.</span></span> <span data-ttu-id="eb71f-175">Компактные макеты POS не используют эти изображения.</span><span class="sxs-lookup"><span data-stu-id="eb71f-175">Compact POS layouts don't use these images.</span></span>
 
 ### <a name="screen-layout-designer"></a><span data-ttu-id="eb71f-176">Конструктор макета экрана</span><span class="sxs-lookup"><span data-stu-id="eb71f-176">Screen layout designer</span></span>
@@ -141,11 +145,13 @@ ms.lasthandoff: 11/13/2018
     - <span data-ttu-id="eb71f-222">**Пользовательский элемент управленияl** — пользовательский элемент управления действует как местозаполнитель в макете экрана и позволяет пользователям зарезервировать пространство для настраиваемого содержимого.</span><span class="sxs-lookup"><span data-stu-id="eb71f-222">**Custom control** – The custom control acts as a placeholder in the screen layout and lets you reserve space for custom content.</span></span> <span data-ttu-id="eb71f-223">Пользовательский элемент управления доступен только для полных макетов.</span><span class="sxs-lookup"><span data-stu-id="eb71f-223">The custom control is available only for Full layouts.</span></span>
 
 ### <a name="compact-layout-designer"></a><span data-ttu-id="eb71f-224">Конструктор компактного макета</span><span class="sxs-lookup"><span data-stu-id="eb71f-224">Compact layout designer</span></span>
+
 <span data-ttu-id="eb71f-225">Как и конструктор полного макета, конструктор компактного макета позволяет настроить макет экрана POS для телефонов и небольших планшетов.</span><span class="sxs-lookup"><span data-stu-id="eb71f-225">Like the Full layout designer, the Compact layout designer lets you configure the POS screen layout for phones and small tablets.</span></span> <span data-ttu-id="eb71f-226">Тем не менее при этом сам макет является фиксированным.</span><span class="sxs-lookup"><span data-stu-id="eb71f-226">However, in this case, the layout itself is fixed.</span></span> <span data-ttu-id="eb71f-227">Вы можете настроить элементы управления в макете, щелкнув правой кнопкой мыши и используя контекстное меню.</span><span class="sxs-lookup"><span data-stu-id="eb71f-227">You can configure the controls in the layout by right-clicking and using the shortcut menu.</span></span> <span data-ttu-id="eb71f-228">Тем не менее нельзя использовать операции перетаскивания мышью для дополнительного содержимого.</span><span class="sxs-lookup"><span data-stu-id="eb71f-228">However, you can't use drag-and-drop operations for additional content.</span></span>
 
 ![Конструктор компактного макета](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a><span data-ttu-id="eb71f-230">Конструктор сетки кнопок</span><span class="sxs-lookup"><span data-stu-id="eb71f-230">Button grid designer</span></span>
+
 <span data-ttu-id="eb71f-231">Конструктора сетки кнопок позволяет настроить сетки кнопок, которые могут быть использованы на экране приветствия POS и экране **Проводка** для полного и компактного макетов.</span><span class="sxs-lookup"><span data-stu-id="eb71f-231">The button grid designer lets you configure button grids that can be used on the POS welcome screen and **Transaction** screen for both Full and Compact layouts.</span></span> <span data-ttu-id="eb71f-232">Эта же сетка кнопок же может использоваться для всех макетов и типов макета.</span><span class="sxs-lookup"><span data-stu-id="eb71f-232">The same button grid can be used across layouts and layout types.</span></span> <span data-ttu-id="eb71f-233">Как и конструктор макета экрана, конструктор сетки кнопок использует технологию запуска ClickOnce для загрузки, установки и запуска последней версии приложения каждый раз, когда пользователь обращается к нему.</span><span class="sxs-lookup"><span data-stu-id="eb71f-233">Like the screen layout designer, the button grid designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</span></span> <span data-ttu-id="eb71f-234">Необходимо проверить требования к браузеру для ClickOnce.</span><span class="sxs-lookup"><span data-stu-id="eb71f-234">Be sure to check the browser requirements for ClickOnce.</span></span> <span data-ttu-id="eb71f-235">Некоторые браузеры, такие как Google Chrome, требует расширений.</span><span class="sxs-lookup"><span data-stu-id="eb71f-235">Some browsers, such as Google Chrome, require extensions.</span></span>
 
 ![Конструктор сетки кнопок](../retail/media/Button-Grid-Designer.png)
