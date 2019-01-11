@@ -261,6 +261,8 @@
               href: extensibility/extensibility-changes-811.md
             - name: Изменения возможностей расширения версии 8.1.2
               href: extensibility/extensibility-changes-812.md
+            - name: Изменения возможностей расширения версии 8.1.3
+              href: extensibility/extensibility-changes-813.md
         - name: Основы
           items:
             - name: Глубокие настройки
@@ -883,18 +885,39 @@
       href: deployment/deploy-demo-environment.md
     - name: Облачное развертывание
       items:
+        - name: Дистанционное развертывание
+          href: deployment/infrastructure-stack.md
+          items:
+            - name: Развертывание новой среды
+              href: deployment/deployenvironment-newinfrastructure.md
+            - name: Вопросы и ответы по развертыванию
+              href: deployment/deploymentFAQ.md
+            - name: Известные проблемы с дистанционным развертыванием
+              href: deployment/known-issues-new-deployment-experience.md
+            - name: Операции обслуживания для развертываний
+              href: deployment/maintenanceoperationsguide-newinfrastructure.md
+            - name: Обновление среды
+              href: deployment/updateenvironment-newinfrastructure.md
+            - name: 'Устранение неполадок сред, развернутых с помощью дистанционного развертывания'
+              href: deployment/troubleshoot-newinfrastructure.md
         - name: Завершение адаптации Azure Resource Manager
           href: deployment/arm-onboarding.md
         - name: Azure ExpressRoute и Finance and Operations
           href: deployment/expressroute.md
         - name: Архитектура Finance and Operations
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+        - name: Применение обновлений к облачным средам
+          href: deployment/apply-deployable-package-system.md
+        - name: Применение обновлений и расширений к размещенным в облаке компонентам канала Retail
+          href: deployment/Update-retail-channel.md
+        - name: Инициализация размещенных в облаке компонентов канала Retail
+          href: deployment/Initialize-Retail-Channels.md
     - name: Локальное развертывание
       href: deployment/on-premises-deployment-landing-page.md
       items:
         - name: Параметр локального развертывания
           href: deployment/on-premises-overview.md
-        - name: Планирование локального развертывания и подготовка к ним
+        - name: Планирование локальных развертываний и подготовка к ним
           href: deployment/plan-onprem-deployment.md
         - name: Требования к определению параметров оборудования
           href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
@@ -929,10 +952,8 @@
           href: deployment/troubleshoot-on-prem.md
     - name: Развертывание пользовательского кода
       items:
-        - name: Создание пакетов развертывания моделей
+        - name: Создание готовых к развертыванию пакетов моделей
           href: deployment/create-apply-deployable-package.md
-        - name: Применение обновлений к облачным средам
-          href: deployment/apply-deployable-package-system.md
         - name: Установка готовых к развертыванию пакетов из командной строки
           href: deployment/install-deployable-package.md
         - name: Удаление пакета
@@ -1021,8 +1042,6 @@
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: Обновление платформы Dynamics AX до выпуска от августа 2016 г.
           href: migration-upgrade/update-platform-each-release.md
-        - name: Обновление сред "песочницы"
-          href: migration-upgrade/upgrade-sandbox-environment.md
         - name: 'Обновление данных в среде разработки, демонстрационной среде или среде "песочницы"'
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Обновление средств разработки

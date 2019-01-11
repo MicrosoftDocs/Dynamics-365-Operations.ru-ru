@@ -19,34 +19,31 @@ ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
-ms.openlocfilehash: 53c4b9a9c9dac1add7021d909b2c8900d11e5c0c
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/04/2019
 
 ---
-# <a name="set-up-pay-invoice-scenarios"></a><span data-ttu-id="313b1-103">Настройка сценариев оплаты накладных</span><span class="sxs-lookup"><span data-stu-id="313b1-103">Set up pay invoice scenarios</span></span>
+# <a name="set-up-pay-invoice-scenarios"></a><span data-ttu-id="e0324-103">Настройка сценариев оплаты накладных</span><span class="sxs-lookup"><span data-stu-id="e0324-103">Set up pay invoice scenarios</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="313b1-104">В функции оплаты накладных в Dynamics 365 for Retail были добавлены следующие возможности.</span><span class="sxs-lookup"><span data-stu-id="313b1-104">The Pay invoice functionality in Dynamics 365 for Retail has been expanded to support:</span></span>
-- <span data-ttu-id="313b1-105">Оплата нескольких накладных по заказам на продажу в одной транзакции в POS.</span><span class="sxs-lookup"><span data-stu-id="313b1-105">Payoff of multiple sales order invoices in a single POS transaction.</span></span>
-- <span data-ttu-id="313b1-106">Оплата накладных клиентов различного типа, включая накладные с произвольным текстом, накладные по проектам и кредит-ноты.</span><span class="sxs-lookup"><span data-stu-id="313b1-106">Payment of various customer invoice types including free text invoices, project-based invoices, and credit notes.</span></span>
+<span data-ttu-id="e0324-104">В функции оплаты накладных в Dynamics 365 for Retail были добавлены следующие возможности.</span><span class="sxs-lookup"><span data-stu-id="e0324-104">The Pay invoice functionality in Dynamics 365 for Retail has been expanded to support:</span></span>
 
-<span data-ttu-id="313b1-107">Для реализации этих сценариев необходимо настроить профиль функциональности, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="313b1-107">To enable these scenarios, the functionality profile for stores must be configured as outlined in below.</span></span>  
+- <span data-ttu-id="e0324-105">Оплата нескольких накладных по заказам на продажу в одной транзакции в POS.</span><span class="sxs-lookup"><span data-stu-id="e0324-105">Payoff of multiple sales order invoices in a single POS transaction.</span></span>
+- <span data-ttu-id="e0324-106">Оплата накладных клиентов различного типа, включая накладные с произвольным текстом, накладные по проектам и кредит-ноты.</span><span class="sxs-lookup"><span data-stu-id="e0324-106">Payment of various customer invoice types including free text invoices, project-based invoices, and credit notes.</span></span>
 
-1. <span data-ttu-id="313b1-108">Выберите **Retail > Настройка канала > Настройка POS > Профили POS > Профили функциональности** и выберите профиль, связанный магазинами, для которых требуется внести изменения.</span><span class="sxs-lookup"><span data-stu-id="313b1-108">Go to **Retail > Channel setup > POS setup > POS profiles > Functionality profiles** and select a profile that's linked to the stores that you want to make the changes for.</span></span>
+<span data-ttu-id="e0324-107">Для реализации этих сценариев необходимо настроить профиль функциональности, как описано ниже.</span><span class="sxs-lookup"><span data-stu-id="e0324-107">To enable these scenarios, the functionality profile for stores must be configured as outlined in below.</span></span>
 
-1. <span data-ttu-id="313b1-109">На вкладке **Функции** настройте следующие параметры.</span><span class="sxs-lookup"><span data-stu-id="313b1-109">On the **Functions** tab, configure the following parameters as needed.</span></span>
+1. <span data-ttu-id="e0324-108">Выберите **Розничная торговля \> Настройка канала \> Настройка POS \> Профили POS \> Профили функциональности** и выберите профиль, связанный с магазинами, для которых требуется внести изменения.</span><span class="sxs-lookup"><span data-stu-id="e0324-108">Go to **Retail \> Channel setup \> POS setup \> POS profiles \> Functionality profiles** and select a profile that's linked to the stores that you want to make the changes for.</span></span>
+2. <span data-ttu-id="e0324-109">На вкладке **Функции** настройте следующие параметры.</span><span class="sxs-lookup"><span data-stu-id="e0324-109">On the **Functions** tab, configure the following parameters as needed.</span></span>
 
-    - <span data-ttu-id="313b1-110">**Накладная по заказу на продажу** — выберите **Да**, чтобы разрешить пользователям оплачивать несколько накладных по заказам на продажу одной транзакцией POS.</span><span class="sxs-lookup"><span data-stu-id="313b1-110">**Sales order invoice** - Select **Yes** to allow users to pay one or more sales order-based invoices in a single POS transaction.</span></span>
-
-    - <span data-ttu-id="313b1-111">**Накладная с произвольным текстом** — выберите **Да**, чтобы разрешить пользователям оплачивать несколько накладных с произвольным текстом одной транзакцией POS.</span><span class="sxs-lookup"><span data-stu-id="313b1-111">**Free text invoice** - Select **Yes** to allow users to pay one or more free text-based invoices in a single POS transaction.</span></span>
-
-    - <span data-ttu-id="313b1-112">**Накладная по проекту** — выберите **Да**, чтобы разрешить пользователям оплачивать несколько накладных по проектам одной транзакцией POS.</span><span class="sxs-lookup"><span data-stu-id="313b1-112">**Project invoice** - Select **Yes** to allow users to pay one or more project-based invoices in a single POS transaction.</span></span>
-
-    - <span data-ttu-id="313b1-113">**Кредит-нота по заказу на продажу** — выберите **Да**, чтобы разрешить пользователям сопоставлять несколько кредит-нот по заказам на продажу с открытыми накладными или обрабатывать возврат денежных средств клиенту по открытой кредит-ноте.</span><span class="sxs-lookup"><span data-stu-id="313b1-113">**Sales order credit note** - Select **Yes** to allow users to settle multiple sales order-based credit notes against open invoices or process a refund to the customer for an open credit note.</span></span>
+    - <span data-ttu-id="e0324-110">**Накладная по заказу на продажу** — выберите **Да**, чтобы разрешить пользователям оплачивать несколько накладных по заказам на продажу в одной проводке POS.</span><span class="sxs-lookup"><span data-stu-id="e0324-110">**Sales order invoice** – Select **Yes** to allow users to pay one or more sales order-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="e0324-111">**Накладная с произвольным текстом** — выберите **Да**, чтобы разрешить пользователям оплачивать несколько накладных с произвольным текстом в одной проводке POS.</span><span class="sxs-lookup"><span data-stu-id="e0324-111">**Free text invoice** – Select **Yes** to allow users to pay one or more free text-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="e0324-112">**Накладная по проекту** — выберите **Да**, чтобы разрешить пользователям оплачивать несколько накладных по проектам в одной проводке POS.</span><span class="sxs-lookup"><span data-stu-id="e0324-112">**Project invoice** – Select **Yes** to allow users to pay one or more project-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="e0324-113">**Кредит-нота по заказу на продажу** — выберите **Да**, чтобы разрешить пользователям сопоставлять несколько кредит-нот по заказам на продажу с открытыми накладными или обрабатывать возврат денежных средств клиенту по открытой кредит-ноте.</span><span class="sxs-lookup"><span data-stu-id="e0324-113">**Sales order credit note** – Select **Yes** to allow users to settle multiple sales order-based credit notes against open invoices or process a refund to the customer for an open credit note.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="313b1-114">Оплата и сопоставление частичных сумм пока не поддерживаются.</span><span class="sxs-lookup"><span data-stu-id="313b1-114">Payment or settlement of partial amounts is not yet supported.</span></span>
+> <span data-ttu-id="e0324-114">Оплата и сопоставление частичных сумм пока не поддерживаются.</span><span class="sxs-lookup"><span data-stu-id="e0324-114">Payment or settlement of partial amounts is not yet supported.</span></span>
 

@@ -7,6 +7,10 @@
         - name: Что нового и что изменилось
           href: whats-new.md
           items:
+            - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (14 декабря 2018 г.)
+              href: whats-new-talent-december-14.md
+            - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (6 декабря 2018 г.)
+              href: whats-new-talent-december-6.md
             - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (27 ноября 2018 г.)
               href: whats-new-talent-november-27.md
             - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (15 ноября 2018 г.)
@@ -71,6 +75,8 @@
     - name: Управление отпусками и отсутствиями
       href: leave-absence-overview.md
       items:
+        - name: Понятия отпусков и отсутствия
+          href: leave-absence-concepts.md
         - name: Начисление отгулов на основании отработанных часов
           href: leave-accrue-hours-worked.md
         - name: Календари рабочего времени
@@ -128,10 +134,13 @@
         - name: Настройка учебных курсов
           href: courses.md
     - name: Определение и управление программой льгот
-      href: manage-benefit-program.md
-    - name: Политики прав на льготы
-      href: benefit-eligibility-policies.md
       items:
+        - name: Управление программой льгот
+          href: manage-benefit-program.md
+        - name: Политики прав на льготы
+          href: benefit-eligibility-policies.md
+        - name: Создание отчетов по закону США о доступном медицинском обслуживании (ACA)
+          href: generate-aca-reports.md
         - name: 'Управление номенклатурами, сданными в аренду работникам'
           href: loan-items.md
     - name: Сбор сведений с помощью анкет
@@ -272,12 +281,10 @@
       items:
         - name: Аналитические отчеты не обновляются
           href: analytic-reports-not-updated.md
-        - name: Не удается создать среду в центре администрирования PowerApps
+        - name: Невозможно создать среду в центре администрирования PowerApps
           href: create-envi-powerapps-admin-ctr.md
         - name: Клиент Talent отключился
           href: client-disconnects.md
-        - name: Как обрабатываются резервные копии базы данных
-          href: database-backups.md
         - name: Как избежать усечения текста в иерархии должностей и при экспорте в Visio
           href: avoid-text-truncation-position-hierarchy-visio.md
         - name: Запуска процесса компенсации
