@@ -3,7 +3,7 @@ title: "Обзор сопоставления"
 description: "В этой статье приводятся общие сведения о процессе сопоставления. В ней описываются типы проводок, которые могут быть сопоставлены, когда и как можно сопоставлять проводки, и результаты процесса сопоставления."
 author: kweekley
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2f1f11a7f1340d408374e658ae616ffa99f3c911
+ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
 ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2018
 
 ---
 
@@ -52,5 +52,8 @@ ms.lasthandoff: 11/03/2017
 
 Если [платеж меньше суммы по накладной](../accounts-payable/vendor-payments-partial-amount.md) из-за скидки по оплате, списания или недоплаты, то накладная и платеж все равно могут быть закрыты, в зависимости от настройки сопоставления в параметрах модуля расчетов с поставщиками и параметрах модуля расчетов с клиентами. Сопоставление может также создавать проводки. Например, сопоставление накладной и платежа могут создавать скидку по оплате, реализованную прибыль или убыток, корректировки налога, списание или допустимое расхождение.
 
+
+## <a name="additional-resources"></a>Дополнительные ресурсы
+- [Сопоставить остаток](settle-remainder.md)
 
 

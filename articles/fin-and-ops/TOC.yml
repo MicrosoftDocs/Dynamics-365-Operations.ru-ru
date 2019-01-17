@@ -25,11 +25,11 @@
                   href: get-started/system-requirements-on-prem.md
                 - name: Настройка складских операций для локальных развертываний
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-            - name: Стандартные выпуски и выпуски для конкретных платформ
+            - name: Стандартные обновления и обновления первого выпуска службы
               href: get-started/public-preview-releases.md
             - name: Покупка Finance and Operations
               items:
-                - name: Покупка Finance and Operations (локальная версия)
+                - name: Покупка Finance and Operations (on-premises)
                   href: get-started/purchase-on-premises.md
         - name: Что нового и что изменилось
           href: get-started/whats-new-changed.md
@@ -48,13 +48,13 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 'Функции, не реализованные в локальных развертываниях'
               href: get-started/features-not-implemented-on-prem.md
-            - name: Finance and Operations версии 8.1.3 (декабрь 2018 г.)
+            - name: Finance and Operations версии 8.1.3 (январь 2019 г.)
               href: get-started/whats-new-changed-8-1-3.md
-            - name: Platform update 23 (декабрь 2018 г.)
+            - name: Platform update 23 (январь 2019)
               href: get-started/whats-new-platform-update-23.md
-            - name: Platform update 22 (ноябрь 2018 г.)
+            - name: Platform update 22 (декабрь 2018 г.)
               href: get-started/whats-new-platform-update-22.md
-            - name: Finance and Operations версии 8.1.2 (ноябрь 2018 г.)
+            - name: Finance and Operations версии 8.1.2 (декабрь 2018 г.)
               href: get-started/whats-new-changed-8-1-2.md
             - name: Finance and Operations версии 8.1.1 (октябрь 2018 г.)
               href: get-started/whats-new-changed-8-1-1.md
@@ -373,10 +373,22 @@
                       href: ../supply-chain/sales-marketing/field-service-work-order.md
                     - name: Синхронизация накладных договора в Field Service с накладными с произвольным текстом в Finance and Operations
                       href: ../supply-chain/sales-marketing/field-service-invoice.md
+                    - name: Синхронизация перемещений и корректировок запасов Field Service с Finance and Operations
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                    - name: Синхронизация сведений об уровне запасов Finance and Operations с Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                    - name: Синхронизация продуктов с единицами измерения складского учета Finance and Operations с Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                    - name: Синхронизация списка проектов Finance and Operations с Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                    - name: Синхронизация складов Finance and Operations с Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                    - name: Синхронизация заказов на выполнение работ Finance and Operations с Field Service
+                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
                 - name: Настройка интеграции Project Service Automation
                   href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                   items:
-                    - name: Настройка параметров Project Service Automation
+                    - name: Параметры интеграции Project Service Automation
                       href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
                     - name: Синхронизация контрактов по проекту и проектов
                       href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
@@ -388,8 +400,8 @@
                       href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
                     - name: Синхронизация фактических данных проекта с журналом интеграции проекта
                       href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
-                - name: Использование внешних веб-служб
-                  href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: Использование внешних веб-служб
+          href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
     - name: Управление данными
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -405,9 +417,11 @@
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Пакеты данных конфигурации (только выпуск за июль 2017 г.)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
+                - name: Предоставление хранилища объектов как Data Lake
+                  href: ../dev-itpro/data-entities/entity-store-data-lake.md?toc=/fin-and-ops/toc.json
             - name: Шаблоны данных конфигурации
               href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/fin-and-ops/toc.json
-            - name: Отслеживание изменений в объектах
+            - name: Отслеживание изменений в объекте
               href: ../dev-itpro/data-entities/entity-change-track.md?toc=/fin-and-ops/toc.json
             - name: Поиск сведений о стандартных информационных объектах
               href: ../dev-itpro/data-entities/data-entities-report.md?toc=/fin-and-ops/toc.json
@@ -529,6 +543,8 @@
                   href: ../financials/accounts-payable/centralized-payments-accounts-payable.md
                 - name: Настройка сопоставления
                   href: ../financials/cash-bank-management/configure-settlement.md
+                - name: Сопоставление остатка
+                  href: ../financials/cash-bank-management/settle-remainder.md
                 - name: Обзор платежей поставщикам
                   href: ../financials/cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Рабочая область платежей поставщикам
@@ -2099,12 +2115,10 @@
               href: ../financials/localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
             - name: Запрос и печать электронной накладной
               href: ../financials/localizations/tasks/mx-00010-inquire-print-electronic-invoice.md
-            - name: Декларация ISR
+            - name: Отчет по декларации ISR
               href: ../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md
             - name: Разноска накладной с произвольным текстом
               href: ../financials/localizations/tasks/mx-00010-post-free-text-invoice.md
-            - name: Создание версии 1.1 мексиканского отчета электронного учета ГК
-              href: ../financials/localizations/tasks/mx-00020-electronic-ledger.md
             - name: Настройка параметров для электронной накладной
               href: ../financials/localizations/tasks/mx-00010-set-parameters-electronic-invoice.md
             - name: Настройка налоговых кодов для Мексики

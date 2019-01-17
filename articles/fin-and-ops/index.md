@@ -51,7 +51,7 @@ ms.lasthandoff: 08/09/2018
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack для Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Адаптация проекта</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Подготовка к вводу в эксплуатацию</a></p>
-  
+
 <h3><a href="../financials/index.md">Управление финансами</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Расчеты с поставщиками</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Расчеты с клиентами</a></p>
@@ -65,7 +65,7 @@ ms.lasthandoff: 08/09/2018
 <p><a href="../financials/public-sector/public-sector-functionality.md">Государственный сектор</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Региональные нормативные компоненты</a></p>
 
-<H3><a href="hr/hr-landing-page.md">Управление персоналом</a></h3>
+<h3><a href="hr/hr-landing-page.md">Управление персоналом</a></h3>
 <p><a href="../talent/manage-benefit-program.md">Льготы</a></p>
 <p><a href="../talent/performance-management-overview.md">Развитие и обучение сотрудников</a></p>
 <p><a href="../talent/questionnaires.md">Анкета</a></p>
