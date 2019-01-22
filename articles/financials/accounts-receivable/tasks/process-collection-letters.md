@@ -26,7 +26,6 @@ ms.lasthandoff: 12/06/2018
 # <a name="process-collection-letters"></a>Обработка писем-напоминаний
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 Ниже описан порядок создания, печати и разноски писем-напоминаний. В этой задаче используется демонстрационная компания USMF.
 
