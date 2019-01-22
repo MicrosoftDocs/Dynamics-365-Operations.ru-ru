@@ -14,21 +14,19 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
-ms.search.validFrom: 2018-11-30
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2018-12-01
+ms.dyn365.ops.version: 8.1.3
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
+ms.sourcegitcommit: 18eaadf417ce6d0aacf0b13b3e4f857e06031e66
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
 ms.contentlocale: ru-ru
-ms.lasthandoff: 12/06/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 
 # <a name="settle-remainder"></a><span data-ttu-id="20764-103">Сопоставить остаток</span><span class="sxs-lookup"><span data-stu-id="20764-103">Settle remainder</span></span>
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview banner](../includes/preview-banner.md)]
 
 <span data-ttu-id="20764-104">Можно сопоставить сумму, остающуюся от действия сопоставления, применив эту сумму к счету ГК или другому клиенту.</span><span class="sxs-lookup"><span data-stu-id="20764-104">You can settle the amount remaining from settlement activity by applying that amount to a ledger account or another customer.</span></span> <span data-ttu-id="20764-105">Можно сопоставить остаток, когда сопоставляете суммы, введенные в журнал, или когда сопоставляются только открытые проводки.</span><span class="sxs-lookup"><span data-stu-id="20764-105">You can settle the remainder when you are settling amounts entered into a journal or when you are only settling open transactions.</span></span>
 
