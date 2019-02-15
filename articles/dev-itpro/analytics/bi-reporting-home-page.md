@@ -1,13 +1,13 @@
 ---
-title: "Домашняя страница бизнес-аналитики (BI) и отчетности"
-description: "В этом разделе описаны ресурсы, которые можно использовать для получения дополнительных сведений о бизнес-аналитике и средствах отчетности, доступных в Microsoft Dynamics 365 for Finance and Operations."
+title: Домашняя страница бизнес-аналитики (BI) и отчетности
+description: В этом разделе описаны ресурсы, которые можно использовать для получения дополнительных сведений о бизнес-аналитике и средствах отчетности, доступных в Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302779"
 ---
-
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Домашняя страница бизнес-аналитики (BI) и отчетности
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описаны ресурсы, которые можно использовать для получения дополнительных сведений о бизнес-аналитике (BI) и средствах отчетности, доступных в Microsoft Dynamics 365 for Finance and Operations.
+В этом разделе описаны ресурсы, которые можно использовать для получения дополнительных сведений о бизнес-аналитике и средствах отчетности, доступных в Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="get-started"></a>Начало работы
 - [Доступ к данным и отчетность](information-access-reporting.md)
@@ -91,4 +90,3 @@ ms.lasthandoff: 08/09/2018
 - [Отчет о лицензионных кодах и ключах конфигурации](../sysadmin/license-codes-configuration-keys-report.md)
 - [Отчет служб SQL Server Reporting Services](SSRS-report.md)
 - [Отчет о типах бизнес-правил](../../fin-and-ops/organization-administration/workflow-types-report.md)
-

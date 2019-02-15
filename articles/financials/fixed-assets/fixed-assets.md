@@ -1,13 +1,13 @@
 ---
-title: "Домашняя страница основных средств"
-description: "Основные средства — это находящиеся в собственности человека или организации здания, транспортные средства, земля и оборудование."
+title: Домашняя страница основных средств
+description: Основные средства — это находящиеся в собственности человека или организации здания, транспортные средства, земля и оборудование.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 78c70ade5a1ca9794760e72fb94e0735848aae79
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3c49ff15a6ac5dddd64ded4a6e9c755504393346
-ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302783"
 ---
-
 # <a name="fixed-assets-home-page"></a>Домашняя страница основных средств
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ ms.lasthandoff: 02/07/2018
 
 #### <a name="blogs"></a>Блоги
 
-Мнения, новости и другие сведения об основных средствах и других решениях см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Мнения, новости и другие сведения о модуле основных средств и других решениях см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
 В [блоге группы разработчиков Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) есть множество публикаций об основных средствах. Хотя некоторые из этих записей посвящены предыдущей версии модуля "Расчеты с поставщиками", обсуждаемые в них понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии.
 
@@ -57,8 +56,7 @@ ms.lasthandoff: 02/07/2018
 
 #### <a name="videos"></a>Видео
 
-Смотрите видео с инструкциями на канале [Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Смотрите видео с инструкциями на [канале Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

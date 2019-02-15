@@ -1,13 +1,13 @@
 ---
-title: "Бизнес-правило клиента"
-description: "В этом разделе приводятся сведения о бизнес-правиле клиента. Измените отдельные поля для клиента и отправьте эти изменения на утверждение с помощью бизнес-правила, чтобы они были добавлены к клиенту."
+title: Бизнес-правило клиента
+description: В этом разделе приводятся сведения о бизнес-правиле клиента. Измените отдельные поля для клиента и отправьте эти изменения на утверждение с помощью бизнес-правила, чтобы они были добавлены к клиенту.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 1b0e1621b256e6bbb42f97134b87dd65fa146193
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302797"
 ---
-
 # <a name="customer-workflow"></a>Бизнес-правило клиента
 
 [!include [banner](../includes/banner.md)]
 
-В Microsoft Dynamics 365 for Finance and Operations версии 8.0.4 добавлено бизнес-правило клиента. Можно изменить отдельные поля для клиента и отправить эти изменения на утверждение с помощью бизнес-правила, чтобы они были добавлены к клиенту.
+В Microsoft Dynamics 365 for Finance and Operations версии 8.0.4 появилось бизнес-правило клиента. Можно изменить отдельные поля для клиента и отправить эти изменения на утверждение с помощью бизнес-правила, чтобы они были добавлены к клиенту.
 
 ## <a name="set-up-the-customer-workflow"></a>Настройка бизнес-правила клиента
 
@@ -62,4 +61,3 @@ ms.lasthandoff: 08/31/2018
     Статус на странице изменится на **Изменения, ожидающие утверждения**.
 
 Бизнес-правило следует стандартному процессу бизнес-правила в Finance and Operations. Утверждающее лицо будет направлено на страницу **Клиент**, на которой оно может просмотреть изменения на странице **Предлагаемые изменения** и выбрать **Бизнес-правило \> Утвердить** для утверждения бизнес-правила. По завершении всех утверждений поля будут обновлены для отображения предложенных значений.
-
