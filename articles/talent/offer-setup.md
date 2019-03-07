@@ -1,28 +1,28 @@
 ---
-title: "Настройка управления предложениями"
-description: "В этом разделе описывается, как настроить предложения в Talent."
+title: Настройка управления предложениями
+description: В этом разделе описывается, как настроить предложения в Talent.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
+ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "376515"
 ---
 # <a name="set-up-offer-management"></a>Настройка управления предложениями 
 
@@ -203,5 +203,7 @@ ms.lasthandoff: 12/07/2018
 
     - ESign — это параметр по умолчанию, поставляющийся готовым, с которым пользователь может подписывать предложение, вводя свое имя и инициалы.
 
-Дополнительные сведения о процессе создания предложения см. в разделе [Создание, утверждение и подписание предложений](./creating-offers.md).
+>[!NOTE]
+> Для получения лицензий на Adobe Sign и бесплатной пробной версии перейдите по этой [ссылке](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+Дополнительные сведения о процессе создания предложения см. в разделе [Создание, утверждение и подписание предложений](./creating-offers.md).

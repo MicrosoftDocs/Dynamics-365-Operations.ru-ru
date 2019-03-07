@@ -1,13 +1,13 @@
---- 
-title: "Добавление данных в журнал производительности и отправка похвалы другому пользователю"
-description: "Журнал производительности содержит информацию, относящуюся к тому, насколько вы соответствуете целям или как хорошо вы работали во время периода."
+---
+title: Добавление данных в журнал производительности и отправка похвалы другому пользователю
+description: Журнал производительности содержит информацию, относящуюся к тому, насколько вы соответствуете целям или как хорошо вы работали во время периода.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 07f5a16ccb349fbef4c0d2be14c1ef02ed8831dd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364565"
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Добавление данных в журнал производительности и отправка похвалы другому пользователю
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Журнал производительности содержит информацию, относящуюся к тому, насколько вы соответствуете целям или как хорошо вы работали во время периода. Можно также похвалить действий сотрудника из журнала. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
+Журнал производительности содержит информацию, относящуюся к тому, насколько вы соответствуете целям или как хорошо вы работали во время периода. Можно также похвалить действий сотрудника из журнала. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
 
 1. Перейдите в раздел "Все рабочие области" > "Самообслуживание сотрудников".
 2. Щелкните "Журнал показателей производительности".
@@ -55,5 +55,4 @@ ms.lasthandoff: 09/29/2017
 19. Выберите человека в списке сотрудников компании.
 20. В поле "Описание" введите "Спасибо для большую помощь на конференции!".
 21. Нажмите кнопку Отправить.
-
 

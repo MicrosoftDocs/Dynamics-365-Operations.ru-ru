@@ -1,30 +1,29 @@
 ---
-title: "Частичная разборка (ликвидация) ОС"
-description: "В этом разделе содержатся сведения о частичной разборке или ликвидации основных средств для России."
+title: Частичная разборка (ликвидация) ОС
+description: В этом разделе содержатся сведения о частичной разборке или ликвидации основных средств для России.
 author: v-oloski
 manager: AnnBe
 ms.date: 09/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RAssetPosting
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.search.region: Russia
 ms.author: v-oloski
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 4f13ad4f3a6138c38ea2676570c441910d523c46
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371777"
 ---
-
 # <a name="partial-fixed-asset-disassembly-liquidation-russia"></a>Частичная разборка (ликвидация) ОС (Россия)
 
 [!include [banner](../includes/banner.md)]
@@ -264,4 +263,3 @@ A<sub>j</sub> = A<sub>bal</sub> × (S<sub>j,PIO</sub> ÷ S<sub>PIO</sub>)
 Проводка частичной разборки оказывает косвенное влияние на балансовую стоимость основного средства. Проводка частичной разборки создает проводки переоценки стоимости и амортизации. Эти проводки, в свою очередь, уже учитываются в балансовой стоимости основного средства.
 
 В результате расчета создаются балансовая стоимость, амортизация балансовой стоимости и рыночная стоимость, равная остаточной стоимости.
-

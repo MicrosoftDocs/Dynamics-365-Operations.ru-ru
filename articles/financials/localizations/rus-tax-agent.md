@@ -1,13 +1,13 @@
 ---
-title: "Налог на добавленную стоимость (НДС) для налоговых агентов (Россия)"
-description: "В этой теме поясняется, как настроить НДС и выполнять проводки для налогового агента для России."
+title: Налог на добавленную стоимость (НДС) для налоговых агентов (Россия)
+description: В этой теме поясняется, как настроить НДС и выполнять проводки для налогового агента для России.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority, VATOperationCodeTable_RU
 audience: Application User
 ms.reviewer: shylaw
@@ -15,13 +15,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 4ef6f03ef2548e6bc67dcaae8b373940560e6609
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371750"
 ---
 # <a name="value-added-tax-vat-for-tax-agents-russia"></a>Налог на добавленную стоимость (НДС) для налоговых агентов (Россия)
 
@@ -175,4 +175,3 @@ ms.lasthandoff: 12/04/2018
 6. Выберите **Печать** \> **Исходный** для счет-фактуры, созданной для налоговой проводки **Налоговый агент - начислено**.
 
 В отчете о счете-фактуре отображается номер и дата платежного поручения, базовая сумма без НДС и расчетная ставка налога (значение НДС ÷ значение НДС + 100).
-

@@ -1,13 +1,13 @@
 ---
-title: "Аналитики элемента затрат"
-description: "В качестве одного из ключевых столпов в модуле учета затрат, аналитики элементов затрат используются для классификации и отслеживания направления потока затрат."
+title: Аналитики элемента затрат
+description: В качестве одного из ключевых столпов в модуле учета затрат, аналитики элементов затрат используются для классификации и отслеживания направления потока затрат.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c703d1a9ae36d4342dc652d70dd82379187057c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0f47c75b6f6f4533501070f78698de82cf70f9bd
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366083"
 ---
-
 # <a name="cost-element-dimensions"></a>Аналитики элемента затрат
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="implementation-considerations"></a>Вопросы реализации
 Так как элементы затрат представляют самый низший уровень сведений о затратах, необходимо убедиться, что все элементы затрат, необходимые для подготовки распорядительской отчетности, включены при реализации структуры элементов затрат. Это может быть проблемой, найти требуемое число подходящих элементов издержек для учета затрат. Если имеются тысячи элементов затрат, может быть трудно контролировать каждый элемент затрат. В качестве альтернативы можно группировать элементы затрат и управлять затратами на суммированном уровне.
-
 
 
 

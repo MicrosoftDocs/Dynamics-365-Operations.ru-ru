@@ -1,13 +1,13 @@
 ---
-title: "Что нового и что изменилось"
-description: "Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних версиях Microsoft Dynamics 365 for Finance and Operations."
+title: Что нового и что изменилось
+description: Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних версиях Microsoft Dynamics 365 for Finance and Operations.
 author: josaw1
 manager: AnnBe
-ms.date: 12/05/2018
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 982b72b3fd71d58038218e007f9f3790874ceddc
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
-ms.openlocfilehash: 7d2a334792655a762c136a367c43ad56393001f5
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377213"
 ---
-
 # <a name="whats-new-or-changed"></a>Что нового и что изменилось
 
 [!include [banner](../includes/banner.md)]
 
-Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних версиях Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних версиях Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 О том, как провести обновление до последней версии, см. в разделе [Процесс обновления до последнего обновления](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
@@ -54,59 +53,66 @@ ms.lasthandoff: 12/18/2018
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>10,0</td>
+<td>10.0.8</td>
+<td>Апрель 2019 г.</td>
+<td><a href="whats-new-changed-10.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations версии 10.0 (апрель 2019 г.)</a></td>
+</tr>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.1.3</td>
 <td>8.1.227</td>
 <td>январь 2019 г.</td>
-<td><a href="whats-new-changed-8-1-3.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations версия 8.1.3 (январь 2019 г.)</a></td>
+<td><a href="whats-new-changed-8-1-3.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations версии 8.1.3 (январь 2019 г.)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.1.2</td>
 <td>8.1.195</td>
 <td>декабрь 2018 г.</td>
-<td><a href="whats-new-changed-8-1-2.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations версия 8.1.2 (декабрь 2018 г.)</a></td>
+<td><a href="whats-new-changed-8-1-2.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations версии 8.1.2 (декабрь 2018 г.)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.1.1</td>
 <td>8.1.170</td>
 <td>2018 октября</td>
-<td><a href="whats-new-changed-8-1-1.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations версия 8.1.1 (октябрь 2018 г.)</a></td>
+<td><a href="whats-new-changed-8-1-1.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations версии 8.1.1 (октябрь 2018 г.)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.1</td>
 <td>8.1.136</td>
 <td>2018 октября</td>
-<td><a href="whats-new-changed-8-1-October-2018.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations версия 8.1 (октябрь 2018 г.)</a></td>
+<td><a href="whats-new-changed-8-1-October-2018.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations версии 8.1 (октябрь 2018 г.)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.0</td>
 <td>8.0.30, 8.0.35</td>
 <td>Апрель 2018 г.</td>
-<td><a href="whats-new-changed-8-0-April-2018.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations версия 8.0 (апрель 2018 г.)</a></td>
+<td><a href="whats-new-changed-8-0-April-2018.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations версии 8.0 (апрель 2018 г.)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>7.3</td>
 <td>7.3.11971.56116</td>
 <td>декабрь 2017 г.</td>
-<td><a href="whats-new-application-7.3-update.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition 7.3</a></td>
+<td><a href="whats-new-application-7.3-update.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise edition 7.3</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>Июль 2017</td>
 <td>7.2.11792.56024</td>
 <td>2017 июня</td>
-<td><a href="whats-new-application-July-2017-update.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.)</a></td>
+<td><a href="whats-new-application-July-2017-update.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise edition (июль 2017 г.)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Operations</td>
 <td>1611</td>
 <td>7.1.1541.3036</td>
 <td>Ноябрь 2016 г.</td>
-<td><a href="whats-new-dynamics-365-operations-1611.md">Что нового и что изменилось в Dynamics 365 for Operations версии 1611 (ноябрь 2016)</a></td>
+<td><a href="whats-new-dynamics-365-operations-1611.md">Что нового и что изменилось в Dynamics 365 for Operations версии 1611 (ноябрь 2016 г.)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics AX</td>
@@ -140,108 +146,115 @@ ms.lasthandoff: 12/18/2018
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>Обновление платформы update 24</td>
+<td>7.0.5179</td>
+<td>2019 марта</td>
+<td><a href="whats-new-platform-update-24.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, обновление платформы 24 (март 2019 г.)</a></td>
+</tr>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Обновление платформы update 23</td>
 <td>7.0.5126</td>
 <td>январь 2019 г.</td>
-<td><a href="whats-new-platform-update-23.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, Platform update 23 (январь 2019 г.)</a></td>
+<td><a href="whats-new-platform-update-23.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, обновление платформы 23 (январь 2019 г.)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Обновление платформы update 22</td>
 <td>7.0.5095</td>
 <td>декабрь 2018 г.</td>
-<td><a href="whats-new-platform-update-22.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Platform update 22 (декабрь 2018 г.)</a></td>
+<td><a href="whats-new-platform-update-22.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, обновление платформы 22 (декабрь 2018 г.)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Обновление платформы update 21</td>
 <td>7.0.5073</td>
-<td>2018 октября</td>
-<td><a href="whats-new-platform-update-21.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, Platform update 21 (октябрь 2018 г.)</a></td>
+<td>Ноябрь 2018 г.</td>
+<td><a href="whats-new-platform-update-21.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, обновление платформы 21 (ноябрь 2018 г.)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Обновление платформы update 20</td>
 <td>7.0.5030</td>
 <td>2018 сентября</td>
-<td><a href="whats-new-platform-update-20.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, Platform update 20 (сентябрь 2018 г.)</a></td>
+<td><a href="whats-new-platform-update-20.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, обновление платформы 20 (сентябрь 2018 г.)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>Обновление платформы update 15</td>
 <td>7.0.4841</td>
 <td>2018 марта</td>
-<td><a href="whats-new-platform-update-15.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 15 (март 2018 г.)</a></td>
+<td><a href="whats-new-platform-update-15.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise edition, обновление платформы 15 (март 2018 г.)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>Обновление платформы update 12</td>
 <td>7.0.4709</td>
 <td>Ноябрь 2017 г.</td>
-<td><a href="whats-new-platform-update-12.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 12 (ноябрь 2017 г.)</a></td>
+<td><a href="whats-new-platform-update-12.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise edition, обновление платформы 12 (ноябрь 2017 г.)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>Обновление платформы update 11</td>
 <td>7.0.4679.35176</td>
 <td>2017 октября</td>
-<td><a href="whats-new-platform-update-11.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 11 (октябрь 2017 г.)</a></td>
+<td><a href="whats-new-platform-update-11.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise edition, обновление платформы 11 (октябрь 2017 г.)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>Обновление платформы update 10</td>
 <td>7.0.4641.16233</td>
 <td>2017 августа</td>
-<td><a href="whats-new-platform-update-10.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 10 (август 2017 г.)</a></td>
+<td><a href="whats-new-platform-update-10.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise edition, обновление платформы 10 (август 2017 г.)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>Обновление платформы update 9</td>
 <td>7.0.4612.35162</td>
 <td>Июль 2017</td>
-<td><a href="whats-new-platform-update-9.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 9 (июль 2017 г.)</a></td>
+<td><a href="whats-new-platform-update-9.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise edition, обновление платформы 9 (июль 2017 г.)</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, выпуск Enterprise</td>
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>Обновление платформы update 8</td>
 <td>7.0.4565.16212</td>
 <td>2017 июня</td>
-<td><a href="whats-new-platform-update-8.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise Edition, обновление платформы 8 (июнь 2017 г.)</a></td>
+<td><a href="whats-new-platform-update-8.md">Что нового и что изменилось в Dynamics 365 for Finance and Operations, Enterprise edition, обновление платформы 8 (июнь 2017 г.)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Operations</td>
 <td>Обновление платформы update 7</td>
 <td>7.0.4542.16189</td>
 <td>2017 мая</td>
-<td><a href="whats-new-platform-update-7.md">Что нового и что изменилось в обновлении 7 платформы Dynamics 365 for Operations (май 2017 г.)</a></td>
+<td><a href="whats-new-platform-update-7.md">Что нового и что изменилось в Dynamics 365 for Operations, обновление платформы 7 (май 2017 г.)</a></td>
 </tr>
 <tr>
 <td>Dynamics 365 for Operations</td>
 <td>Обновление платформы update 6</td>
 <td>7.0.4509.16180</td>
 <td>Апрель 2017 г.</td>
-<td><a href="whats-new-platform-update-6.md">Что нового и что изменилось в обновлении 6 платформы Dynamics 365 for Operations (апрель 2017 г.)</a></td>
+<td><a href="whats-new-platform-update-6.md">Что нового и что изменилось в Dynamics 365 for Operations, обновление платформы 6 (апрель 2017 г.)</a></td>
 </tr>
 <tr>
 <td>Dynamics 365 for Operations</td>
 <td>Обновление платформы update 5</td>
 <td>7.0.4475.16165</td>
 <td>2017 марта</td>
-<td><a href="whats-new-platform-update-5.md">Что нового и что изменилось в обновлении 5 платформы Dynamics 365 for Operations (март 2017 г.)</a></td>
+<td><a href="whats-new-platform-update-5.md">Что нового и что изменилось в Dynamics 365 for Operations, обновление платформы 5 (март 2017 г.)</a></td>
 </tr>
 <tr>
 <td>Dynamics 365 for Operations</td>
 <td>Обновление платформы update 4</td>
 <td>7.0.4425.16161</td>
 <td>2017 февраля</td>
-<td><a href="whats-new-platform-update-4.md">Что нового и что изменилось в обновлении 4 платформы Dynamics 365 for Operations (февраль 2017 г.)</a></td>
+<td><a href="whats-new-platform-update-4.md">Что нового и что изменилось в Dynamics 365 for Operations, обновление платформы 4 (февраль 2017 г.)</a></td>
 </tr>
 <tr>
 <td>Dynamics 365 for Operations</td>
 <td>Обновление платформы update 3</td>
 <td>7.0.4307.16141</td>
 <td>Ноябрь 2016 г.</td>
-<td><a href="whats-new-platform-update-3.md">Что нового и что изменилось в обновлении 3 платформы Dynamics 365 for Operations (ноябрь 2016 г.)</a></td>
+<td><a href="whats-new-platform-update-3.md">Что нового и что изменилось в Dynamics 365 for Operations, обновление платформы 3 (ноябрь 2016 г.)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics AX</td>
@@ -266,4 +279,3 @@ ms.lasthandoff: 12/18/2018
 </tr>
 </tbody>
 </table>
-

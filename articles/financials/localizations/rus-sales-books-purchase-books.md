@@ -1,28 +1,27 @@
 ---
-title: "Книги продаж, книги покупок и журналы счетов-фактур для России"
-description: "В этом разделе представлена информация о книгах продаж, книгах покупок и журналах счетов-фактур для России."
+title: Книги продаж, книги покупок и журналы счетов-фактур для России
+description: В этом разделе представлена информация о книгах продаж, книгах покупок и журналах счетов-фактур для России.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 467348de3f80fb0e63a69d6ed0f77dbc98769557
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: b081141ecb3dad8e3ed02326e1c1b16b47105d0e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371783"
 ---
-
 # <a name="sales-books-purchase-books-and-invoice-factures-journals"></a>Книги продаж, книги покупок и журналы счетов-фактур
 
 [!include [banner](../includes/banner.md)]
@@ -157,4 +156,3 @@ ms.lasthandoff: 12/04/2018
 4. Задайте для параметра **Дата отчетности** значение **Да** для фильтрации счетов-фактур по дате отчетности, а не по дате счета-фактуры.
 5. Задайте для параметра **Создать XML-файл** значение **Да** для создания электронного отчета XML в дополнение к отчету Excel.
 6. Выберите **ОК**, чтобы напечатать журналы учета счетов-фактур для выбранного периода.
-

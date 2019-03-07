@@ -1,13 +1,13 @@
---- 
-title: "Разработка конфигураций электронной отчетности для импорта данных из внешних файлов в формате CSV"
-description: "Используйте эту процедуру для разработка конфигураций электронной отчетности (ER) для импорта данных в приложение Dynamics 365 for Finance and Operations из внешнего файла в формате CSV."
+---
+title: Разработка конфигураций электронной отчетности для импорта данных из внешних файлов в формате CSV
+description: Используйте эту процедуру для разработка конфигураций электронной отчетности (ER) для импорта данных в приложение Dynamics 365 for Finance and Operations из внешнего файла в формате CSV.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8d3ea3d797de154979eae112658cf05d1914feeb
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365232"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Разработка конфигураций электронной отчетности для импорта данных из внешних файлов в формате CSV
 
@@ -119,5 +119,4 @@ ms.lasthandoff: 08/09/2018
     * Просмотрите выходные данные в формате XML, представляющем данные, которые были импортированы из выбранного файла, а затем перенесены в модель данных. Обратите внимание, что были обработаны все 7 строк импортированного CSV-файла. Заголовки содержащих полей в строке 1 пропущены, 4 проводки проанализированы верно, а 2 проводки распознаны как недопустимые.   
 3. Закройте страницу.
 4. Закройте страницу.
-
 

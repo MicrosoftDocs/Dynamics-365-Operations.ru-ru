@@ -1,13 +1,13 @@
---- 
-title: "Создание кода процента с диапазоном"
-description: "Коды процента можно настроить для расчета различных сумм процента на основе диапазона значений."
+---
+title: Создание кода процента с диапазоном
+description: Коды процента можно настроить для расчета различных сумм процента на основе диапазона значений.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2d76ae320ee43a473b64afe311876cc94b953b20
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 05ca41dd5d660e9f0ef72ee5bd49d800645081a5
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367647"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Создание кода процента с диапазоном
 
@@ -51,5 +51,4 @@ ms.lasthandoff: 09/29/2017
 20. Введите следующее значение "С" как 7, что означает следующий месяц, с которого будет рассчитываться новый уровень процентов.
 21. Введите процент в месяц, который будет использоваться для расчета процента начиная с месяца 7. В этом примере он равен 2,5.
 22. Щелкните "Закрыть", чтобы завершить настройку.
-
 

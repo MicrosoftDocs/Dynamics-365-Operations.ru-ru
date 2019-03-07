@@ -1,32 +1,31 @@
 ---
-title: "Обзор сведений о продуктах"
-description: "В этой теме содержится информация об управлении информацией о продуктах. Управление информацией о продуктах работает с общим определением продукта, категоризацией и идентификаторами по всем юридическим лицам, а также с конкретными конфигурациями продуктов для обеспечения их соответствия бизнес-процессам."
+title: Обзор сведений о продуктах
+description: В этой теме содержится информация об управлении информацией о продуктах. Управление информацией о продуктах работает с общим определением продукта, категоризацией и идентификаторами по всем юридическим лицам, а также с конкретными конфигурациями продуктов для обеспечения их соответствия бизнес-процессам.
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363024"
 ---
-
 # <a name="product-information-overview"></a>Обзор сведений о продуктах
 
 [!include [banner](../includes/banner.md)]
@@ -97,4 +96,3 @@ ms.lasthandoff: 03/26/2018
 ### <a name="manually-creating-a-new-released-product"></a>Создание нового выпущенного продукта вручную
 
 Вы можете вручную создать выпущенный продукт в рамках одной процедуры, в зависимости от бизнес-процессов организации и правил, определяющих, может ли использоваться эта функция. Эта функция позволяет создать новый продукт и автоматически выпустить его в текущее юридическое лицо. Чтобы создать новый продукт, щелкните **Выпущенные продукты** в рабочей области **Обслуживание выпущенного продукта** или на странице списка **Используемый продукт**.
-

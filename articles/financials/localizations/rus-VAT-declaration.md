@@ -1,14 +1,14 @@
 ---
-title: "Декларация НДС (Россия)"
-description: "В данном разделе содержится информация о декларации НДС для России."
+title: Декларация НДС (Россия)
+description: В данном разделе содержится информация о декларации НДС для России.
 author: anasyash
 manager: AnnBe
 ms.date: 01/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-11-23
 ms.dyn365.ops.version: 8.1.1
-ms.translationtype: HT
-ms.sourcegitcommit: 5dac99fb0d46eabad74825a2aa8e0b54dc6b9b5d
 ms.openlocfilehash: 6502eb9340b30c744ec950e92f5baf96c602ed67
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371791"
 ---
-
 # <a name="vat-declaration-russia"></a>Декларация НДС (Россия)
 
 [!include [banner](../includes/banner.md)]
@@ -364,4 +363,3 @@ ms.lasthandoff: 01/07/2019
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Как начать работу с декларацией по НДС](https://support.microsoft.com/help/4477332/rusrussiavatdeclarationinelectronicformat)
-

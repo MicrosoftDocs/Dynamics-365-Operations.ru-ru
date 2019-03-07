@@ -1,13 +1,13 @@
---- 
-title: "Прием на работу действующих сотрудников через набор сотрудников"
-description: "Иногда открытые позиции могут заполняться кандидатами, которые уже являются сотрудниками организации."
+---
+title: Прием на работу действующих сотрудников через набор сотрудников
+description: Иногда открытые позиции могут заполняться кандидатами, которые уже являются сотрудниками организации.
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
 ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365393"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Прием на работу действующих сотрудников через набор сотрудников
 
@@ -40,5 +40,4 @@ ms.lasthandoff: 08/09/2018
 8. При необходимости можно выбрать код основания. Пример: реорганизация
 9. Щелкните "Изменить должность".
     * В это время также можно изменить компенсацию. Если не назначать компенсацию в это время, изменить ее можно, перейдя в форму работника и выбрав "Фиксированный план" на вкладке "Компенсация". После нажатия кнопки "Изменить должность" статус заявки меняется на "Принят на работу".  
-
 

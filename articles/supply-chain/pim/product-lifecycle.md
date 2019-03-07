@@ -1,32 +1,31 @@
 ---
-title: "Состояние жизненного цикла продукта"
-description: "Состояние жизненного цикла продукта документирует состояние жизненного цикла выпущенного продукта или варианта продукта."
+title: Состояние жизненного цикла продукта
+description: Состояние жизненного цикла продукта документирует состояние жизненного цикла выпущенного продукта или варианта продукта.
 author: cvocph
 manager: AnnBe
 ms.date: 12/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: bf9e8fe828cae0f643bfb89c34f1d545e3993619
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
-ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
-ms.contentlocale: ru-ru
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364841"
 ---
-
 # <a name="product-lifecycle-state"></a>Состояние жизненного цикла продукта 
 
 [!include [banner](../includes/banner.md)]
@@ -114,4 +113,3 @@ ms.lasthandoff: 02/08/2018
 -  [Назначение состояния жизненного цикла продукта выпущенному продукту (проводник по задаче)](tasks/product-lifecycle-state-released-product.md)
 -  [Поиск устаревших вариантов продуктов и назначение состояния жизненного цикла продукта (проводник по задаче)](tasks/obsolete-product-variants.md)
 -  [Создание состояния жизненного цикла продукта для исключения продуктов из сводного планирования (проводник по задаче)](tasks/exclude-products-master-planning.md)
-

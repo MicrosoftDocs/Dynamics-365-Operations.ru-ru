@@ -1,13 +1,13 @@
 ---
-title: "Выверка банковских выписок с помощью расширенной банковской выверки"
-description: "Функция расширенной банковской выверки позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations. В данном разделе описывается процесс выверки."
+title: Выверка банковских выписок с помощью расширенной банковской выверки
+description: Функция расширенной банковской выверки позволяет импортировать электронные банковские выписки и автоматически выверять их с банковскими проводками в Microsoft Dynamics 365 for Finance and Operations. В данном разделе описывается процесс выверки.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93b311d541ab588be82e6704dbe9ae3e43deabba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364979"
 ---
-
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Выверка банковских выписок с помощью расширенной банковской выверки
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,6 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Разноска новых проводок, связанных с выверкой
 Проводки по банковской выписке, помеченные как **Новая** в листе выверки, разносятся на странице **Банковская выписка**. На странице **Банковская выписка** выберите код выписки для просмотра сведений о выписке. В меню **Учет** можно использовать параметры **Просмотр распределений** и **Просмотр учета** для просмотра сведений о новых проводках и связанных записях главной книги. Выберите параметр **Разнести**, чтобы разнести строки банковской выписки, помеченные как **Новая**, в главную книгу. Обратите внимание, что разноску можно выполнить только один раз для каждой банковской выписки.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Выполнение форматов для использования файлов управления документами в выходных данных электронной отчетности"
-description: "В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для использования файлов управления документами в выходных данных электронной отчетности."
+---
+title: Выполнение форматов для использования файлов управления документами в выходных данных электронной отчетности
+description: В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для использования файлов управления документами в выходных данных электронной отчетности.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e87dbb0fa890f4d554c3e2ff09566fb2b1f3206b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364795"
 ---
 # <a name="run-formats-to-use-document-management-files-in-er-output"></a>Выполнение форматов для использования файлов управления документами в выходных данных электронной отчетности
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/14/2018
 
 Для выполнения этих действий необходимо сначала выполнить шаги в процедуре "Электронная отчетность — Использование файлов управления документами в выходных данных формата (Часть 3. Создание формата)".
 
-Эта процедура предназначена для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
+Эта процедура для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
 
 
 ## <a name="add-necessary-attachments-for-sales-order-of-a-single-invoice"></a>Добавьте необходимые вложения для заказа на продажу одной накладной
@@ -69,5 +69,4 @@ ms.lasthandoff: 09/14/2018
 10. Нажмите кнопку "OК".
 11. Нажмите кнопку "OК".
     * Просмотрите созданные выходные данные. Обратите внимание, что для каждого вложения был создан один узел XML. Содержимое вложения записывается в выходные данные XML в текстовом формате MIME (base64).  
-
 

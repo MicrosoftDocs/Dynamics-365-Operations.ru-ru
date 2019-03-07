@@ -1,13 +1,13 @@
 ---
-title: "Создание и разноска журналов бюджета для приобретений ОС (Россия)"
-description: "В этой теме поясняется, как создать и разнести журнал бюджета для приобретения основных средств для России."
+title: Создание и разноска журналов бюджета для приобретений ОС (Россия)
+description: В этой теме поясняется, как создать и разнести журнал бюджета для приобретения основных средств для России.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetModel
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: c7f82969c17b847844621b4181a7e40b8528a2ac
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371723"
 ---
-
 # <a name="create-and-post-budget-journals-for-fixed-asset-acquisitions-russia"></a>Создание и разноска журналов бюджета для приобретений ОС (Россия)
 
 [!include [banner](../includes/banner.md)]
@@ -61,4 +60,3 @@ ms.lasthandoff: 10/01/2018
 21. Выберите **Проверить** \> **Проверить**, чтобы проверить в журнале сведения об основном средстве.
 22. Выберите **Разнести** \> **Перенос в бюджет ОС**, чтобы перенести проводки в бюджет основных средств.
 23. Выберите **Разнести** \> **Перенос в бюджет ОС и в бюджет ГК**, чтобы перенести проводки в бюджет основных средств и ГК.
-

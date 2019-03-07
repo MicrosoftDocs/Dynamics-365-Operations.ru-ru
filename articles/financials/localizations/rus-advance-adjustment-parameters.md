@@ -1,31 +1,30 @@
 ---
-title: "Переоценка в иностранной валюте для подотчетных лиц (Россия)"
-description: "В этой теме содержится информация о переоценке в иностранной валюте для подотчетных лиц в России."
+title: Переоценка в иностранной валюте для подотчетных лиц (Россия)
+description: В этой теме содержится информация о переоценке в иностранной валюте для подотчетных лиц в России.
 author: ilkond
 manager: AnnBe
 ms.date: 09/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Russia
 ms.author: ilkond
-ms.dyn365.ops.version: 8.1
+ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
+ms.openlocfilehash: d4feb7eab0839ce44e6d431fa72f90d32d2c8107
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 77d54fe01075e125eae738fb4f8fc46d31ebaa09
-ms.openlocfilehash: d06b99ca1d088028942929e583d3d98a1082505b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/23/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371799"
 ---
-
 # <a name="revaluate-foreign-currency-for-advance-holders-russia"></a>Переоценка в иностранной валюте для подотчетных лиц (Россия)
 
 [!include [banner](../includes/banner.md)]
@@ -88,4 +87,3 @@ ms.lasthandoff: 10/23/2018
 - Выберите **Ваучер**, чтобы открыть страницу **Проводки ваучера**, где можно просмотреть проводки, которые были выполнены в главной книге.
 - Выберите **Проводки**, чтобы открыть страницу **Проводки по подотчетным лицам**, где можно просмотреть проводки, которые были выполнены для подотчетного лица.
 - Выберите **Проверено**, чтобы пометить выбранную строку как проверенную.
-

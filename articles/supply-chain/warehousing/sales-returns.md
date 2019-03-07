@@ -1,13 +1,13 @@
 ---
-title: "Возвраты продаж"
-description: "В этом разделе представлена информация о процессе для заказов на возврат. Сюда входят сведения о возвратах клиентами и их влияние на расчет себестоимости и количества запасов в наличии."
+title: Возвраты продаж
+description: В этом разделе представлена информация о процессе для заказов на возврат. Сюда входят сведения о возвратах клиентами и их влияние на расчет себестоимости и количества запасов в наличии.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362702"
 ---
-
 # <a name="sales-returns"></a>Возвраты продаж
 
 [!include [banner](../includes/banner.md)]
@@ -133,11 +132,11 @@ ms.lasthandoff: 05/08/2018
 <ul>
 <li>Имеется достаточный уровень доверия между сторонами.</li>
 <li>Затраты на возврат дефектной номенклатуры чрезмерно высоки.</li>
-<li>Номенклатуры невозможно поместить обратно в запасы. Из-за других условий физический возврат не требуется.</li>
+<li>Номенклатуры невозможно поместить обратно в запасы. Из-за других условий физический возврат не требуется.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>По кредиту</td>
+<td>по кредиту</td>
 <td><ul>
 <li>Клиенту возвращается цена продажи за вычетом всех сборов или накладных расходов.</li>
 <li>Стоимость запасов увеличивается на стоимость возвращенной номенклатуры.</li>
@@ -329,7 +328,6 @@ ms.lasthandoff: 05/08/2018
 ![Строка заказа на возврат, созданная с помощью функции "Найти заказ на продажу" ](./media/SalesReturn11.png)  
 
 >[Примечание.] **Скидка** и **Себестоимость по возврату** заданы правильно. Таким образом, выполняется точное реверсирование накладной клиента.
-
 
 
 

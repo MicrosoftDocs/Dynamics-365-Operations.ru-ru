@@ -1,29 +1,28 @@
 ---
-title: "Переоценка стоимости основных средств и амортизация (Россия)"
-description: "В этом разделе объясняется, как выполнять переоценку стоимости и амортизацию ОС для России."
+title: Переоценка стоимости основных средств и амортизация (Россия)
+description: В этом разделе объясняется, как выполнять переоценку стоимости и амортизацию ОС для России.
 author: anasyash
 manager: AnnBe
 ms.date: 10/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 77d54fe01075e125eae738fb4f8fc46d31ebaa09
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 9bf271ca8be984ec5e090a3cca7005150a7967ae
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371778"
 ---
-
 # <a name="revaluate-fixed-asset-cost-and-depreciation-russia"></a>Переоценка стоимости основных средств и амортизация (Россия)
 
 [!include [banner](../includes/banner.md)]
@@ -72,4 +71,3 @@ ms.lasthandoff: 10/23/2018
 11. Выберите **Журнал ОС**, затем, на странице **Журнал ОС**, выберите **Строки**. На странице **Проводка по ваучеру** отображаются проводки переоценки. Эти проводки можно при необходимости исправить.
 12. Выберите **Разнести** \> **Разнести**, чтобы разнести журнал.
 13. Проверьте баланс в модели стоимости (**Основные средства (Россия)** \> **Основные средства** \> **Модели учета** \> **Баланс**). Значения в полях **Переоценка стоимости** и **Переоценка амортизации** будут обновлены.
-

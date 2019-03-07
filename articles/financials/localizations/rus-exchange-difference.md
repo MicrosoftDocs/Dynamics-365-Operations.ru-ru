@@ -1,28 +1,27 @@
 ---
-title: "Настройка валютных курсов для проводок в валюте"
-description: "В этой теме рассматривается настройка валютных курсов для проводок в валюте в России."
+title: Настройка валютных курсов для проводок в валюте
+description: В этой теме рассматривается настройка валютных курсов для проводок в валюте в России.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: ceddaa3e217032bf46a962665592477f858b8ed7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371767"
 ---
-
 # <a name="set-up-exchange-rates-for-currency-transactions"></a>Настройка валютных курсов для проводок в валюте
 
 [!include [banner](../includes/banner.md)]
@@ -265,4 +264,3 @@ ms.lasthandoff: 10/01/2018
 8. Установите флажок **Включить в книгу**, чтобы обновить счета-фактуру суммовой разницы в книге продаж.
 9. Выберите **Печать**.
 10. Установите для параметра **Только включенные** значение **Да**, чтобы напечатать исходный счет-фактуру только вместе с выбранными счетами-фактурами суммовых разницы. Если установить этот параметр в значение **Нет**, вместе с исходным счетом-фактурой будут напечатаны все счета-фактуры суммовой разницы.
-

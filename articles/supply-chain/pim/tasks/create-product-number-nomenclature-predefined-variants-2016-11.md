@@ -1,13 +1,13 @@
---- 
-title: "Создание номенклатуры номера продукта для заранее определенных вариантов продукта"
-description: "На этом руководстве показано, как настроить номенклатуру номера продукта для предопределенных вариантов продукта, и как назначить ее соответствующей группе аналитик продукта."
+---
+title: Создание номенклатуры номера продукта для заранее определенных вариантов продукта
+description: На этом руководстве показано, как настроить номенклатуру номера продукта для предопределенных вариантов продукта, и как назначить ее соответствующей группе аналитик продукта.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductDimensionGroup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4b49e96677b94d5f669ea41861f64e62e118938c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364887"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Создание номенклатуры номера продукта для заранее определенных вариантов продукта
 
@@ -57,5 +57,4 @@ ms.lasthandoff: 09/14/2018
 4. Выберите "Да" в поле "Использовать номенклатуру".
 5. В поле "Номенклатура номеров вариантов продуктов" введите или выберите значение.
 6. Закройте страницу.
-
 

@@ -1,13 +1,13 @@
---- 
-title: "EEU-00047 Авансовый платеж сотруднику"
-description: "Эта процедура демонстрирует, как настраивать и регистрировать проводки для подотчетного лица."
+---
+title: EEU-00047 Авансовый платеж сотруднику
+description: Эта процедура демонстрирует, как настраивать и регистрировать проводки для подотчетного лица.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RCashTable, LedgerJournalSetup, HcmWorkerGroup_RU, EmplPosting_RU, VendParameters, RCashPosting, BankParameters, PaymTerm, HcmWorker, HcmWorkerNewWorker, HcmWorkerAdvHolderTableListPage_RU, HcmWorkerAdvHolderTable_RU, PurchTable, PurchCreateOrder, HcmAdvHolderLookup_RU, InventItemIdLookupPurchase, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog, EmplTrans_RU, EmplBalance_RU
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e3c07789bfa0839436caf32e428f3abeecb8f2b7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371789"
 ---
 # <a name="eeu-00047-advance-payment-to-employee"></a>EEU-00047 Авансовый платеж сотруднику
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура демонстрирует, как настраивать и регистрировать проводки для подотчетного лица. Эта процедура была создана с использованием компании с демонстрационными данными DEMF с основным адресом в Литве. Эта задача работает только для юридических лиц с основным адресом в Польше, Литве, Латвии, Эстонии, Чехии или Венгрии. Эта процедура предназначена для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
+Эта процедура демонстрирует, как настраивать и регистрировать проводки для подотчетного лица. Эта процедура была создана с использованием компании с демонстрационными данными DEMF с основным адресом в Литве. Эта задача работает только для юридических лиц с основным адресом в Польше, Литве, Латвии, Эстонии, Чехии или Венгрии. Эта процедура для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
 
 
 ## <a name="create-a-new-cash-account"></a>Создать новый кассовый счет
@@ -170,5 +170,4 @@ ms.lasthandoff: 09/14/2018
 11. Нажмите кнопку "OК".
 12. Закройте страницу.
 13. Щелкните "Проводки".
-
 

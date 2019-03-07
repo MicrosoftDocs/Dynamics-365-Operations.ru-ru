@@ -1,28 +1,28 @@
 ---
-title: "Домашняя страница локальных развертываний"
-description: "В этой теме представлены сведения и ссылки на содержимое о локальных развертываниях."
+title: Домашняя страница локальных развертываний
+description: В этой теме представлены сведения и ссылки на содержимое о локальных развертываниях.
 author: kfend
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
+ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
-ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/02/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373285"
 ---
 # <a name="on-premises-deployments-home-page"></a>Домашняя страница локальных развертываний
 
@@ -59,10 +59,11 @@ ms.lasthandoff: 11/02/2018
 ## <a name="retail"></a>Retail
 - [Возможности Retail, доступные в локальных развертываниях](../../retail/retail-onprem.md)
 - [Действия по установке для компонентов канала розничной торговли в локальной среде](deploy-retail-onprem.md)
-- [Настройка,установка и активирование Retail Modern POS (MPOS)](../../retail/retail-modern-pos-device-activation.md)
+- [Настройка, установка и активация Retail Modern POS (MPOS)](../../retail/retail-modern-pos-device-activation.md)
 - [Настройка и установка Retail Store Scale Unit](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-
+## <a name="upgrade"></a>Обновить
+- [Процесс обновления на месте для локальных сред](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>Другие ресурсы
 - [Устранение неполадок локальных развертываний](troubleshoot-on-prem.md)
@@ -71,4 +72,3 @@ ms.lasthandoff: 11/02/2018
 - [Удаленные или устаревшие функции](../migration-upgrade/deprecated-features.md)
 - [Политика жизненного цикла программного обеспечения и локальные выпуски](../migration-upgrade/on-prem-version-update-policy.md)
  
-

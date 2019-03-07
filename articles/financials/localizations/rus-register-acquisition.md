@@ -1,28 +1,27 @@
 ---
-title: "Регистрация приобретений основных средств (Россия)"
-description: "В этом разделе рассматривается регистрация приобретения основных средств для Microsoft Dynamics 365 for Finance and Operations в России."
+title: Регистрация приобретений основных средств (Россия)
+description: В этом разделе рассматривается регистрация приобретения основных средств для Microsoft Dynamics 365 for Finance and Operations в России.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 25630ed9567568006674cb6b8fc046176039e91d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371787"
 ---
-
 # <a name="register-fixed-assets-acquisitions-russia"></a>Регистрация приобретений основных средств (Россия)
 
 [!include [banner](../includes/banner.md)]
@@ -106,4 +105,3 @@ ms.lasthandoff: 10/17/2018
 
     > [!NOTE]
     > Чтобы изменить статус на **Запланировано**, выполните реверсирующую проводку приобретения для всех моделей стоимости. Если актив, который был реверсирован, состоял из складских компонентов, создаются проводки для записи возврата компонентов в запасы. При реверсировании проводки приобретения себестоимость возвращаемых компонентов может отличаться от текущей складской себестоимости. Однако после закрытия запасов компоненты будут отражать текущее ценообразование.
-

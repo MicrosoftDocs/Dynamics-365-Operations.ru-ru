@@ -1,28 +1,27 @@
 ---
-title: "Ежедневные операции по подотчетным лицам в России"
-description: "В этой теме содержится информация о ежедневных операциях, таких как обработка денежных средств и исходящих сальдо по подотчетным лицам для России."
+title: Ежедневные операции по подотчетным лицам в России
+description: В этой теме содержится информация о ежедневных операциях, таких как обработка денежных средств и исходящих сальдо по подотчетным лицам для России.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 5385dc25e4a5cfb4d4a93ec63d203324387c6cdd
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371761"
 ---
-
 # <a name="daily-operations-for-advance-holders-in-russia"></a>Ежедневные операции по подотчетным лицам в России
 
 [!include [banner](../includes/banner.md)]
@@ -245,4 +244,3 @@ ms.lasthandoff: 10/01/2018
 2. В поле **Дата проводки** выберите дату проводки по подотчетному лицу. Все проводки, сопоставленные до этой даты, будут реверсированы.
 3. На экспресс-вкладке **Включаемые записи** определите дополнительную фильтрацию проводок, сопоставления которых требуется отменить.
 4. Выберите **ОК** для отмены периодического сопоставления.
-

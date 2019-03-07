@@ -1,13 +1,13 @@
 ---
-title: "Переоценка ОС в иностранной валюте"
-description: "В этой теме содержится информация о переоценке основных средств в иностранной валюте для России."
+title: Переоценка ОС в иностранной валюте
+description: В этой теме содержится информация о переоценке основных средств в иностранной валюте для России.
 author: Anasyash
 manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: Anasyash
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: c82de977ce3e23b77c0a56a5efbbac1da6696d52
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371794"
 ---
-
 # <a name="fixed-asset-currency-revaluation"></a>Переоценка ОС в иностранной валюте
 
 [!include [banner](../includes/banner.md)]
@@ -55,4 +54,3 @@ ms.lasthandoff: 10/01/2018
 ## <a name="reverse-revaluation-transactions"></a>Реверсирование проводок переоценки
 
 Проводки переоценки реверсируются так же, как проводки приобретения (проводки ввода в эксплуатацию). Создается две проводки: проводка переоценки стоимости и проводка переоценки амортизации.
-

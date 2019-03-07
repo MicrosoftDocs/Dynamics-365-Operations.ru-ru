@@ -1,13 +1,13 @@
 ---
-title: "Безопасность пользователя портала поставщика"
-description: "В этой статье описывается порядок настройки безопасности для внешних поставщиков, которые используют портал поставщиков. Эта информация относится только к версиям Dynamics AX от февраля 2016 г. и мая 2016 г."
+title: Безопасность пользователя портала поставщика
+description: В этой статье описывается порядок настройки безопасности для внешних поставщиков, которые используют портал поставщиков. Эта информация относится только к версиям Dynamics AX от февраля 2016 г. и мая 2016 г.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement
 audience: Application User
 ms.reviewer: josaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 176eeb2ddb145d21f7ff9fd94a9a56e173caee59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5819d21a91ac2a7c91f19fd6d80fd7b983411545
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367072"
 ---
-
-# <a name="vendor-portal-user-security"></a>Безопасность пользователя портала поставщика
+# <a name="vendor-portal-user-security"></a>Безопасность пользователей портала поставщика
 
 [!include [banner](../includes/banner.md)]
 
@@ -48,7 +47,6 @@ ms.lasthandoff: 05/08/2018
 --------
 
 [Совместная работа с поставщиками](collaborate-vendors-vendor-portal.md)
-
 
 
 

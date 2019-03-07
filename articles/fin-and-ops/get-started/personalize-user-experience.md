@@ -1,13 +1,13 @@
 ---
-title: "Персонализация взаимодействия с пользователями"
-description: "В этой теме описывается порядок персональной настройки Microsoft Dynamics 365 for Finance and Operations."
+title: Персонализация пользовательского интерфейса
+description: В этой теме описывается порядок персональной настройки Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
-ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363484"
 ---
-
-# <a name="personalize-the-user-experience"></a>Персонализация взаимодействия с пользователями
+# <a name="personalize-the-user-experience"></a>Персонализация пользовательского интерфейса
 
 [!include [banner](../includes/banner.md)]
 
@@ -171,4 +170,3 @@ ms.lasthandoff: 09/28/2018
 Параметры **Отображение аналитики** применяются ко всем страницам, и эти параметры будут переопределять собой всю персонализированную настройку полей складских аналитик на отдельных страницах.
 
 В результате, в предыдущем примере, если вы не хотите, чтобы столбец для складской аналитики "Номер партии" отображался, следует удалить эту аналитику в рамках параметра **Отображение аналитик** для таблицы. В итоге это изменение будет применяться не только на конкретной странице, но на всех страницах.
-

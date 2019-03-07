@@ -1,28 +1,27 @@
 ---
-title: "Продажа, выбытие и списание ОС (Россия)"
-description: "В этой теме поясняется, как обрабатывать продажу, выбытии и списание основных средств в Microsoft Dynamics 365 for Finance and Operations в России."
+title: Продажа, выбытие и списание ОС (Россия)
+description: В этой теме поясняется, как обрабатывать продажу, выбытии и списание основных средств в Microsoft Dynamics 365 for Finance and Operations в России.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: e2181d6beb07d20467d69825b26b047691254d35
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8a849f56c0adbe0ddf2a237db4ac3bc0a906404d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371782"
 ---
-
 # <a name="sell-dispose-and-write-off-assets-russia"></a>Продажа, выбытие и списание ОС (Россия)
 [!include [banner](../includes/banner.md)]
 
@@ -110,6 +109,5 @@ ms.lasthandoff: 11/01/2018
 16. Щелкните **ОК**, чтобы выполнить разноску счета-фактуры. Накладная, счет-фактура, книга учета и проводки по основным средствам созданы и статус изменяется на **Отгружено**. Статус актива — **Списано (продажа)**.
 17. Щелкните **Основные средства (Россия)** \> **Общее** \> **Основные средства**, чтобы открыть страницу **Модели учета основных средств**. Дата выбытия и стоимость основного средства отображаются в полях **Дата выбытия** и **Стоимость выбытия**.
 18. Выберите **Баланс**, чтобы открыть страницу **Сальдо по ОС**. Сведения отображаются в полях **Вывод (продажа)** и **Прибыль / Убыток**.
-
 
 
