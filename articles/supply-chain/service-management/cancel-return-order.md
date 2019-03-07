@@ -1,53 +1,51 @@
 ---
-title: "Отмена заказа на возврат"
-description: "Имеется возможность отменить заказ на возврат, вместо его удаления, когда нужно сохранить запись о запланированном возврате."
+title: Отмена заказа на возврат
+description: Имеется возможность отменить заказ на возврат, вместо его удаления, когда нужно сохранить запись о запланированном возврате.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 2a920c54e7cbb4d8478b6e409459807db68c77cc
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342600"
 ---
-
-# <a name="cancel-a-return-order"></a><span data-ttu-id="becbc-103">Отмена заказа на возврат</span><span class="sxs-lookup"><span data-stu-id="becbc-103">Cancel a return order</span></span> 
+# <a name="cancel-a-return-order"></a><span data-ttu-id="1d655-103">Отмена заказа на возврат</span><span class="sxs-lookup"><span data-stu-id="1d655-103">Cancel a return order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="becbc-104">Имеется возможность отменить заказ на возврат, вместо его удаления, когда нужно сохранить запись о запланированном возврате.</span><span class="sxs-lookup"><span data-stu-id="becbc-104">You can cancel a return order, instead of deleting it, when you want to save a record of the planned return.</span></span>
+<span data-ttu-id="1d655-104">Имеется возможность отменить заказ на возврат, вместо его удаления, когда нужно сохранить запись о запланированном возврате.</span><span class="sxs-lookup"><span data-stu-id="1d655-104">You can cancel a return order, instead of deleting it, when you want to save a record of the planned return.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="becbc-105">Могут быть отменены только заказы на возврат, имеющие статус <STRONG>Создано</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="becbc-105">Only return orders that have a <STRONG>Created</STRONG> status can be canceled.</span></span> <span data-ttu-id="becbc-106">Заказы на возврат со статусом <STRONG>Открыто</STRONG> или <STRONG>Закрыто</STRONG> не могут быть отменены.</span><span class="sxs-lookup"><span data-stu-id="becbc-106">Return orders with an <STRONG>Open</STRONG> or <STRONG>Closed</STRONG> status cannot be canceled.</span></span></P>
+> <P><span data-ttu-id="1d655-105">Могут быть отменены только заказы на возврат, имеющие статус <STRONG>Создано</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="1d655-105">Only return orders that have a <STRONG>Created</STRONG> status can be canceled.</span></span> <span data-ttu-id="1d655-106">Заказы на возврат со статусом <STRONG>Открыто</STRONG> или <STRONG>Закрыто</STRONG> не могут быть отменены.</span><span class="sxs-lookup"><span data-stu-id="1d655-106">Return orders with an <STRONG>Open</STRONG> or <STRONG>Closed</STRONG> status cannot be canceled.</span></span></P>
 
 
-1.  <span data-ttu-id="becbc-107">Выберите **Продажи и маркетинг** \> **Общее** \> **Заказы на возврат** \> **Все заказы на возврат**.</span><span class="sxs-lookup"><span data-stu-id="becbc-107">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span>
+1.  <span data-ttu-id="1d655-107">Выберите **Продажи и маркетинг** \> **Общее** \> **Заказы на возврат** \> **Все заказы на возврат**.</span><span class="sxs-lookup"><span data-stu-id="1d655-107">Click **Sales and marketing** \> **Common** \> **Return orders** \> **All return orders**.</span></span>
     
-    <span data-ttu-id="becbc-108">– или –</span><span class="sxs-lookup"><span data-stu-id="becbc-108">–or–</span></span>
+    <span data-ttu-id="1d655-108">– или –</span><span class="sxs-lookup"><span data-stu-id="1d655-108">–or–</span></span>
     
-    <span data-ttu-id="becbc-109">Выберите **Продажи и маркетинг** \> **Общее** \> **Заказы на возврат** \> **Созданные заказы на возврат**.</span><span class="sxs-lookup"><span data-stu-id="becbc-109">Click **Sales and marketing** \> **Common** \> **Return orders** \> **Created return orders**.</span></span>
+    <span data-ttu-id="1d655-109">Выберите **Продажи и маркетинг** \> **Общее** \> **Заказы на возврат** \> **Созданные заказы на возврат**.</span><span class="sxs-lookup"><span data-stu-id="1d655-109">Click **Sales and marketing** \> **Common** \> **Return orders** \> **Created return orders**.</span></span>
 
-2.  <span data-ttu-id="becbc-110">Выберите отменяемый заказ на возврат.</span><span class="sxs-lookup"><span data-stu-id="becbc-110">Select the return order to cancel.</span></span>
+2.  <span data-ttu-id="1d655-110">Выберите отменяемый заказ на возврат.</span><span class="sxs-lookup"><span data-stu-id="1d655-110">Select the return order to cancel.</span></span>
 
-3.  <span data-ttu-id="becbc-111">Щелкните **Отменить заказ**.</span><span class="sxs-lookup"><span data-stu-id="becbc-111">Click **Cancel order**.</span></span>
-
+3.  <span data-ttu-id="1d655-111">Щелкните **Отменить заказ**.</span><span class="sxs-lookup"><span data-stu-id="1d655-111">Click **Cancel order**.</span></span>
 
 
 

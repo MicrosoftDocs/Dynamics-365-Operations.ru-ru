@@ -1,51 +1,49 @@
 ---
-title: "Объекты обслуживания"
-description: "Объекты сервисного обслуживания — это основные средства и продукты клиента, сервисное обслуживание которых вы можете выполнить."
+title: Объекты обслуживания
+description: Объекты сервисного обслуживания — это основные средства и продукты клиента, сервисное обслуживание которых вы можете выполнить.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 5641077de84b6702d2c5621edef74783f2f104fd
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353410"
 ---
-
-# <a name="service-objects"></a><span data-ttu-id="0eb08-103">Объекты обслуживания</span><span class="sxs-lookup"><span data-stu-id="0eb08-103">Service objects</span></span> 
+# <a name="service-objects"></a><span data-ttu-id="e542c-103">Объекты обслуживания</span><span class="sxs-lookup"><span data-stu-id="e542c-103">Service objects</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0eb08-104">Объекты сервисного обслуживания — это основные средства и продукты клиента, сервисное обслуживание которых вы можете выполнить.</span><span class="sxs-lookup"><span data-stu-id="0eb08-104">Service objects are a customer’s assets and products for which you can perform a service.</span></span> <span data-ttu-id="0eb08-105">В зависимости от типа предоставляемых услуг объекты могут быть материальными и нематериальными:</span><span class="sxs-lookup"><span data-stu-id="0eb08-105">Depending on the type of service you provide, objects can be tangible or intangible:</span></span>
+<span data-ttu-id="e542c-104">Объекты сервисного обслуживания — это основные средства и продукты клиента, сервисное обслуживание которых вы можете выполнить.</span><span class="sxs-lookup"><span data-stu-id="e542c-104">Service objects are a customer’s assets and products for which you can perform a service.</span></span> <span data-ttu-id="e542c-105">В зависимости от типа предоставляемых услуг объекты могут быть материальными и нематериальными:</span><span class="sxs-lookup"><span data-stu-id="e542c-105">Depending on the type of service you provide, objects can be tangible or intangible:</span></span>
 
--  <span data-ttu-id="0eb08-106">Материальные объекты - это предметы, например, станок или здание, в отношении которого вы выполняете задачу физического обслуживания.</span><span class="sxs-lookup"><span data-stu-id="0eb08-106">Tangible objects are things, such as a machine or a building, on which you can perform a physical service task.</span></span>
+-  <span data-ttu-id="e542c-106">Материальные объекты - это предметы, например, станок или здание, в отношении которого вы выполняете задачу физического обслуживания.</span><span class="sxs-lookup"><span data-stu-id="e542c-106">Tangible objects are things, such as a machine or a building, on which you can perform a physical service task.</span></span>
 
-    <span data-ttu-id="0eb08-107">Материальным объектом сервисного обслуживания может быть складируемая номенклатура, которая создается в форме "Сведения об используемом продукте".</span><span class="sxs-lookup"><span data-stu-id="0eb08-107">A tangible service object can also be an inventory item that you create in the Released product details form.</span></span> <span data-ttu-id="0eb08-108">В зависимости от группы складских аналитик, присоединенной к номенклатуре, можно создать объект сервисного обслуживания с уровнем детализации, который включает серийный номер номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="0eb08-108">Depending on the inventory dimension group that you attach to the item, you can create a service object to a level of detail that includes the item serial number.</span></span> <span data-ttu-id="0eb08-109">Это полезно, когда требуется отслеживать точную номенклатуру, которую представляет объект сервисного обслуживания.</span><span class="sxs-lookup"><span data-stu-id="0eb08-109">This is useful when you must keep track of the exact item that the service object represents.</span></span>
+    <span data-ttu-id="e542c-107">Материальным объектом сервисного обслуживания может быть складируемая номенклатура, которая создается в форме "Сведения об используемом продукте".</span><span class="sxs-lookup"><span data-stu-id="e542c-107">A tangible service object can also be an inventory item that you create in the Released product details form.</span></span> <span data-ttu-id="e542c-108">В зависимости от группы складских аналитик, присоединенной к номенклатуре, можно создать объект сервисного обслуживания с уровнем детализации, который включает серийный номер номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="e542c-108">Depending on the inventory dimension group that you attach to the item, you can create a service object to a level of detail that includes the item serial number.</span></span> <span data-ttu-id="e542c-109">Это полезно, когда требуется отслеживать точную номенклатуру, которую представляет объект сервисного обслуживания.</span><span class="sxs-lookup"><span data-stu-id="e542c-109">This is useful when you must keep track of the exact item that the service object represents.</span></span>
 
-    <span data-ttu-id="0eb08-110">Материальным объектом сервисного обслуживания также может быть номенклатура, которая не связана напрямую с продукцией компании или ее цепочкой поставок.</span><span class="sxs-lookup"><span data-stu-id="0eb08-110">A tangible service object can also be an item that is not directly related to a company's direct production or supply chain.</span></span> <span data-ttu-id="0eb08-111">Например, набор инструментов, используемый для проведения ремонта по заказу на сервисное обслуживание, не включенный в запасы.</span><span class="sxs-lookup"><span data-stu-id="0eb08-111">For example, a tool kit that is used for repairs in a service order can be a service object that is not included in inventory.</span></span> <span data-ttu-id="0eb08-112">В этом случае он не регистрируется как складируемая номенклатура.</span><span class="sxs-lookup"><span data-stu-id="0eb08-112">In this case, you don’t register it as an inventory item.</span></span>
+    <span data-ttu-id="e542c-110">Материальным объектом сервисного обслуживания также может быть номенклатура, которая не связана напрямую с продукцией компании или ее цепочкой поставок.</span><span class="sxs-lookup"><span data-stu-id="e542c-110">A tangible service object can also be an item that is not directly related to a company's direct production or supply chain.</span></span> <span data-ttu-id="e542c-111">Например, набор инструментов, используемый для проведения ремонта по заказу на сервисное обслуживание, не включенный в запасы.</span><span class="sxs-lookup"><span data-stu-id="e542c-111">For example, a tool kit that is used for repairs in a service order can be a service object that is not included in inventory.</span></span> <span data-ttu-id="e542c-112">В этом случае он не регистрируется как складируемая номенклатура.</span><span class="sxs-lookup"><span data-stu-id="e542c-112">In this case, you don’t register it as an inventory item.</span></span>
 
--  <span data-ttu-id="0eb08-113">К нематериальным объектам относятся нефизические сущности, такие как набор счетов или юридический документ, в отношении которых выполняется задача сервисного обслуживания.</span><span class="sxs-lookup"><span data-stu-id="0eb08-113">Intangible objects are nonphysical things, such as a set of accounts or a legal document, on which you can perform a service task.</span></span>
+-  <span data-ttu-id="e542c-113">К нематериальным объектам относятся нефизические сущности, такие как набор счетов или юридический документ, в отношении которых выполняется задача сервисного обслуживания.</span><span class="sxs-lookup"><span data-stu-id="e542c-113">Intangible objects are nonphysical things, such as a set of accounts or a legal document, on which you can perform a service task.</span></span>
 
-## <a name="example-of-an-intangible-service-object"></a><span data-ttu-id="0eb08-114">Пример нематериального объекта сервисного обслуживания</span><span class="sxs-lookup"><span data-stu-id="0eb08-114">Example of an intangible service object</span></span>
+## <a name="example-of-an-intangible-service-object"></a><span data-ttu-id="e542c-114">Пример нематериального объекта сервисного обслуживания</span><span class="sxs-lookup"><span data-stu-id="e542c-114">Example of an intangible service object</span></span>
 
-<span data-ttu-id="0eb08-115">Компания A создает финансовые записи для нескольких небольших компаний.</span><span class="sxs-lookup"><span data-stu-id="0eb08-115">Company A maintains the financial records for several small companies.</span></span> <span data-ttu-id="0eb08-116">Одним из клиентов компании A является местная футбольная команда, для которой компания A еженедельно ведет бухгалтерию и проводит ежегодный аудит счетов клуба.</span><span class="sxs-lookup"><span data-stu-id="0eb08-116">One of Company A's clients is the local football team, for which Company A does the weekly bookkeeping and annual audit of the club's accounts.</span></span> <span data-ttu-id="0eb08-117">Счета клуба настраиваются в форме "Объекты обслуживания" и определяются как объект в соглашении о сервисном обслуживании.</span><span class="sxs-lookup"><span data-stu-id="0eb08-117">The club's accounts are set up in the Service objects form and specified as the object in the service agreement.</span></span> <span data-ttu-id="0eb08-118">Существует две строки соглашения о сервисном обслуживании для объекта.</span><span class="sxs-lookup"><span data-stu-id="0eb08-118">There are two service agreement lines for the object.</span></span> <span data-ttu-id="0eb08-119">Строка 1 — это еженедельное ведение бухгалтерии с интервалом в одну неделю, назначенным строке, а строка 2 — ежегодный аудит с интервалом один год, назначенным строке.</span><span class="sxs-lookup"><span data-stu-id="0eb08-119">Line 1 is weekly bookkeeping with a weekly interval assigned to the line, and line 2 is the annual audit with a yearly interval assigned to it.</span></span>
+<span data-ttu-id="e542c-115">Компания A создает финансовые записи для нескольких небольших компаний.</span><span class="sxs-lookup"><span data-stu-id="e542c-115">Company A maintains the financial records for several small companies.</span></span> <span data-ttu-id="e542c-116">Одним из клиентов компании A является местная футбольная команда, для которой компания A еженедельно ведет бухгалтерию и проводит ежегодный аудит счетов клуба.</span><span class="sxs-lookup"><span data-stu-id="e542c-116">One of Company A's clients is the local football team, for which Company A does the weekly bookkeeping and annual audit of the club's accounts.</span></span> <span data-ttu-id="e542c-117">Счета клуба настраиваются в форме "Объекты обслуживания" и определяются как объект в соглашении о сервисном обслуживании.</span><span class="sxs-lookup"><span data-stu-id="e542c-117">The club's accounts are set up in the Service objects form and specified as the object in the service agreement.</span></span> <span data-ttu-id="e542c-118">Существует две строки соглашения о сервисном обслуживании для объекта.</span><span class="sxs-lookup"><span data-stu-id="e542c-118">There are two service agreement lines for the object.</span></span> <span data-ttu-id="e542c-119">Строка 1 — это еженедельное ведение бухгалтерии с интервалом в одну неделю, назначенным строке, а строка 2 — ежегодный аудит с интервалом один год, назначенным строке.</span><span class="sxs-lookup"><span data-stu-id="e542c-119">Line 1 is weekly bookkeeping with a weekly interval assigned to the line, and line 2 is the annual audit with a yearly interval assigned to it.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="0eb08-120">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="0eb08-120">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="e542c-120">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="e542c-120">Related topics</span></span>
 
-[<span data-ttu-id="0eb08-121">Создание объектов обслуживания</span><span class="sxs-lookup"><span data-stu-id="0eb08-121">Create service objects</span></span>](create-service-objects.md)
-
+[<span data-ttu-id="e542c-121">Создание объектов обслуживания</span><span class="sxs-lookup"><span data-stu-id="e542c-121">Create service objects</span></span>](create-service-objects.md)
 

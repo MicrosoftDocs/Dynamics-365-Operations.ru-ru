@@ -1,13 +1,13 @@
 ---
-title: "Сальдо счета главной книги"
-description: "Эта статья описывает 2 метода для просмотра сальдо счета ГК — страница списка оборотно-сальдовой ведомости и финансовые отчеты. Она также рассматривает, как обновлять сальдо набора аналитик."
+title: Сальдо счета главной книги
+description: Эта статья описывает 2 метода для просмотра сальдо счета ГК — страница списка оборотно-сальдовой ведомости и финансовые отчеты. Она также рассматривает, как обновлять сальдо набора аналитик.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,38 +18,36 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: a505610e94daeb73abef37a88f6c506a6bd7bc30
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354859"
 ---
-
-# <a name="general-ledger-account-balances"></a><span data-ttu-id="d977e-104">Сальдо счета главной книги</span><span class="sxs-lookup"><span data-stu-id="d977e-104">General ledger account balances</span></span>
+# <a name="general-ledger-account-balances"></a><span data-ttu-id="5b547-104">Сальдо счета главной книги</span><span class="sxs-lookup"><span data-stu-id="5b547-104">General ledger account balances</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d977e-105">Эта статья описывает 2 метода для просмотра сальдо счета ГК — страница списка оборотно-сальдовой ведомости и финансовые отчеты.</span><span class="sxs-lookup"><span data-stu-id="d977e-105">This article explains two ways to view general ledger account balances -  the Trial balance list page and financial reports.</span></span> <span data-ttu-id="d977e-106">Она также рассматривает, как обновлять сальдо набора аналитик.</span><span class="sxs-lookup"><span data-stu-id="d977e-106">It also discusses how to update dimension set balances.</span></span>
+<span data-ttu-id="5b547-105">Эта статья описывает 2 метода для просмотра сальдо счета ГК — страница списка оборотно-сальдовой ведомости и финансовые отчеты.</span><span class="sxs-lookup"><span data-stu-id="5b547-105">This article explains two ways to view general ledger account balances -  the Trial balance list page and financial reports.</span></span> <span data-ttu-id="5b547-106">Она также рассматривает, как обновлять сальдо набора аналитик.</span><span class="sxs-lookup"><span data-stu-id="5b547-106">It also discusses how to update dimension set balances.</span></span>
 
-<span data-ttu-id="d977e-107">Существует несколько способов просмотра сальдо в главной книге.</span><span class="sxs-lookup"><span data-stu-id="d977e-107">There are a variety of ways users can view balances in the general ledger.</span></span> <span data-ttu-id="d977e-108">Вот некоторые из самых популярных способов:</span><span class="sxs-lookup"><span data-stu-id="d977e-108">Some of the most common options are:</span></span>
+<span data-ttu-id="5b547-107">Существует несколько способов просмотра сальдо в главной книге.</span><span class="sxs-lookup"><span data-stu-id="5b547-107">There are a variety of ways users can view balances in the general ledger.</span></span> <span data-ttu-id="5b547-108">Вот некоторые из самых популярных способов:</span><span class="sxs-lookup"><span data-stu-id="5b547-108">Some of the most common options are:</span></span>
 
--   <span data-ttu-id="d977e-109">Оборотно-сальдовая ведомость</span><span class="sxs-lookup"><span data-stu-id="d977e-109">Trial balance</span></span>
--   <span data-ttu-id="d977e-110">Финансовые отчеты</span><span class="sxs-lookup"><span data-stu-id="d977e-110">Financial reports</span></span>
--   <span data-ttu-id="d977e-111">Проводки ваучера</span><span class="sxs-lookup"><span data-stu-id="d977e-111">Voucher transactions</span></span>
--   <span data-ttu-id="d977e-112">Отчеты по главной книге</span><span class="sxs-lookup"><span data-stu-id="d977e-112">Ledger reports</span></span>
+-   <span data-ttu-id="5b547-109">Оборотно-сальдовая ведомость</span><span class="sxs-lookup"><span data-stu-id="5b547-109">Trial balance</span></span>
+-   <span data-ttu-id="5b547-110">Финансовые отчеты</span><span class="sxs-lookup"><span data-stu-id="5b547-110">Financial reports</span></span>
+-   <span data-ttu-id="5b547-111">Проводки ваучера</span><span class="sxs-lookup"><span data-stu-id="5b547-111">Voucher transactions</span></span>
+-   <span data-ttu-id="5b547-112">Отчеты по главной книге</span><span class="sxs-lookup"><span data-stu-id="5b547-112">Ledger reports</span></span>
 
-<span data-ttu-id="d977e-113">Самыми популярными способами являются страница списка пробного баланса и финансовые отчеты.</span><span class="sxs-lookup"><span data-stu-id="d977e-113">The most common ways are the trial balance list page and financial reports.</span></span>
+<span data-ttu-id="5b547-113">Самыми популярными способами являются страница списка пробного баланса и финансовые отчеты.</span><span class="sxs-lookup"><span data-stu-id="5b547-113">The most common ways are the trial balance list page and financial reports.</span></span>
 
-## <a name="trial-balance"></a><span data-ttu-id="d977e-114">Оборотно-сальдовая ведомость</span><span class="sxs-lookup"><span data-stu-id="d977e-114">Trial balance</span></span>
-<span data-ttu-id="d977e-115">Пробный баланс — это страница списка, на которой отображаются сальдо счета и аналитики за определенный период времени.</span><span class="sxs-lookup"><span data-stu-id="d977e-115">The trial balance is a list page that shows all of the balances of an account and/or dimensions for a given period of time.</span></span> <span data-ttu-id="d977e-116">При открытии пробного баланса в первый раз он обновляется для отображения сальдо для дат и свойств, заданных на странице "Параметры".</span><span class="sxs-lookup"><span data-stu-id="d977e-116">When the trial balance is first opened it refreshes with the balances for the dates and properties that are set in the Parameters.</span></span> <span data-ttu-id="d977e-117">Свойства, которые можно изменить на странице "Параметры", — это даты, слой разноски, способ отображения входящих сальдо и то, какие типы закрывающих проводок отображать.</span><span class="sxs-lookup"><span data-stu-id="d977e-117">Properties that can be changed in Parameters are the dates, posting layer, how they want opening balances to appear, and what closing transaction types to show.</span></span> 
+## <a name="trial-balance"></a><span data-ttu-id="5b547-114">Оборотно-сальдовая ведомость</span><span class="sxs-lookup"><span data-stu-id="5b547-114">Trial balance</span></span>
+<span data-ttu-id="5b547-115">Пробный баланс — это страница списка, на которой отображаются сальдо счета и аналитики за определенный период времени.</span><span class="sxs-lookup"><span data-stu-id="5b547-115">The trial balance is a list page that shows all of the balances of an account and/or dimensions for a given period of time.</span></span> <span data-ttu-id="5b547-116">При открытии пробного баланса в первый раз он обновляется для отображения сальдо для дат и свойств, заданных на странице "Параметры".</span><span class="sxs-lookup"><span data-stu-id="5b547-116">When the trial balance is first opened it refreshes with the balances for the dates and properties that are set in the Parameters.</span></span> <span data-ttu-id="5b547-117">Свойства, которые можно изменить на странице "Параметры", — это даты, слой разноски, способ отображения входящих сальдо и то, какие типы закрывающих проводок отображать.</span><span class="sxs-lookup"><span data-stu-id="5b547-117">Properties that can be changed in Parameters are the dates, posting layer, how they want opening balances to appear, and what closing transaction types to show.</span></span> 
 
-<span data-ttu-id="d977e-118">Когда пользователь меняет параметры, сальдо обновляются.</span><span class="sxs-lookup"><span data-stu-id="d977e-118">When a user changes the parameters the balances are refreshed.</span></span> <span data-ttu-id="d977e-119">Пользователь также может выбрать набор аналитик, для которого следует просмотреть сальдо, и указать, следует ли отображать каждую аналитику в отдельных столбцах.</span><span class="sxs-lookup"><span data-stu-id="d977e-119">The user can also pick what dimension set they want to view balances for and whether each of the dimensions show in separate columns.</span></span> 
+<span data-ttu-id="5b547-118">Когда пользователь меняет параметры, сальдо обновляются.</span><span class="sxs-lookup"><span data-stu-id="5b547-118">When a user changes the parameters the balances are refreshed.</span></span> <span data-ttu-id="5b547-119">Пользователь также может выбрать набор аналитик, для которого следует просмотреть сальдо, и указать, следует ли отображать каждую аналитику в отдельных столбцах.</span><span class="sxs-lookup"><span data-stu-id="5b547-119">The user can also pick what dimension set they want to view balances for and whether each of the dimensions show in separate columns.</span></span> 
 
-<span data-ttu-id="d977e-120">Пользователи могут выполнить детализацию сальдо для просмотра проводок, которые составляют сальдо.</span><span class="sxs-lookup"><span data-stu-id="d977e-120">Users can drill down on the balances to view the transactions that make up the balance.</span></span>    
+<span data-ttu-id="5b547-120">Пользователи могут выполнить детализацию сальдо для просмотра проводок, которые составляют сальдо.</span><span class="sxs-lookup"><span data-stu-id="5b547-120">Users can drill down on the balances to view the transactions that make up the balance.</span></span>    
 
-<span data-ttu-id="d977e-121">Дополнительные сведения см. в разделе [Просмотр финансовых отчетов](view-financial-reports.md).</span><span class="sxs-lookup"><span data-stu-id="d977e-121">For more information, see [View financial reports](view-financial-reports.md).</span></span>
-
+<span data-ttu-id="5b547-121">Дополнительные сведения см. в разделе [Просмотр финансовых отчетов](view-financial-reports.md).</span><span class="sxs-lookup"><span data-stu-id="5b547-121">For more information, see [View financial reports](view-financial-reports.md).</span></span>
 
 
 
