@@ -1,13 +1,13 @@
 ---
-title: "Аккредитивы и импорт коллекций"
-description: "Эта статья содержит общие сведения об аккредитивах и импорте коллекций. Оба типа банковского документа часто используются для покупки и продажи товаров через международные границы."
+title: Аккредитивы и импорт коллекций
+description: Эта статья содержит общие сведения об аккредитивах и импорте коллекций. Оба типа банковского документа часто используются для покупки и продажи товаров через международные границы.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,41 +18,39 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 2b5deef65cc4af2fdfee6549660527007c3bed3a
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323050"
 ---
-
-# <a name="letters-of-credit-and-import-collections"></a><span data-ttu-id="52be1-104">Аккредитивы и импорт коллекций</span><span class="sxs-lookup"><span data-stu-id="52be1-104">Letters of credit and import collections</span></span>
+# <a name="letters-of-credit-and-import-collections"></a><span data-ttu-id="08c8c-104">Аккредитивы и импорт коллекций</span><span class="sxs-lookup"><span data-stu-id="08c8c-104">Letters of credit and import collections</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="52be1-105">Эта статья содержит общие сведения об аккредитивах и импорте коллекций.</span><span class="sxs-lookup"><span data-stu-id="52be1-105">This article provides general information about letters of credit and import collections.</span></span> <span data-ttu-id="52be1-106">Оба типа банковского документа часто используются для покупки и продажи товаров через международные границы.</span><span class="sxs-lookup"><span data-stu-id="52be1-106">Both types of bank document are often used for the purchase and sale of goods across international borders.</span></span>
+<span data-ttu-id="08c8c-105">Эта статья содержит общие сведения об аккредитивах и импорте коллекций.</span><span class="sxs-lookup"><span data-stu-id="08c8c-105">This article provides general information about letters of credit and import collections.</span></span> <span data-ttu-id="08c8c-106">Оба типа банковского документа часто используются для покупки и продажи товаров через международные границы.</span><span class="sxs-lookup"><span data-stu-id="08c8c-106">Both types of bank document are often used for the purchase and sale of goods across international borders.</span></span>
 
-<a name="letters-of-credit"></a><span data-ttu-id="52be1-107">Аккредитивы</span><span class="sxs-lookup"><span data-stu-id="52be1-107">Letters of credit</span></span>
+<a name="letters-of-credit"></a><span data-ttu-id="08c8c-107">Аккредитивы</span><span class="sxs-lookup"><span data-stu-id="08c8c-107">Letters of credit</span></span>
 -----------------
 
-<span data-ttu-id="52be1-108">Аккредитивы используются для международных транзакций, чтобы помочь гарантировать, что платежи будут выполнены.</span><span class="sxs-lookup"><span data-stu-id="52be1-108">Letters of credit are used for international transactions and help guarantee that payments will be made.</span></span> <span data-ttu-id="52be1-109">Аккредитив — это соглашение, выданное банком, в котором банк соглашается обеспечить платеж от имени покупателя, если будут выполнены условия соглашения между покупателем и продавцом.</span><span class="sxs-lookup"><span data-stu-id="52be1-109">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to guarantee payment on behalf of a buyer, provided that the terms of the agreement between the buyer and seller are met.</span></span> <span data-ttu-id="52be1-110">Аккредитивом также называется документарный аккредитив.</span><span class="sxs-lookup"><span data-stu-id="52be1-110">A letter of credit is also referred to as a documentary credit (DC).</span></span>
+<span data-ttu-id="08c8c-108">Аккредитивы используются для международных транзакций, чтобы помочь гарантировать, что платежи будут выполнены.</span><span class="sxs-lookup"><span data-stu-id="08c8c-108">Letters of credit are used for international transactions and help guarantee that payments will be made.</span></span> <span data-ttu-id="08c8c-109">Аккредитив — это соглашение, выданное банком, в котором банк соглашается обеспечить платеж от имени покупателя, если будут выполнены условия соглашения между покупателем и продавцом.</span><span class="sxs-lookup"><span data-stu-id="08c8c-109">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to guarantee payment on behalf of a buyer, provided that the terms of the agreement between the buyer and seller are met.</span></span> <span data-ttu-id="08c8c-110">Аккредитивом также называется документарный аккредитив.</span><span class="sxs-lookup"><span data-stu-id="08c8c-110">A letter of credit is also referred to as a documentary credit (DC).</span></span>
 
-<span data-ttu-id="52be1-111">Для кредитного письма импорта юридическое лицо является покупателем или заявителем кредитного письма.</span><span class="sxs-lookup"><span data-stu-id="52be1-111">For an import letter of credit, the legal entity is the buyer or the applicant for the letter of credit.</span></span> <span data-ttu-id="52be1-112">Для кредитного письма экспорта юридическое лицо является продавцом или бенефициаром кредитного письма.</span><span class="sxs-lookup"><span data-stu-id="52be1-112">For an export letter of credit, the legal entity is the seller or the beneficiary of the letter of credit.</span></span> <span data-ttu-id="52be1-113">Следующие субъекты являются участниками кредитного письма:</span><span class="sxs-lookup"><span data-stu-id="52be1-113">The following parties are involved in a letter of credit:</span></span>
+<span data-ttu-id="08c8c-111">Для кредитного письма импорта юридическое лицо является покупателем или заявителем кредитного письма.</span><span class="sxs-lookup"><span data-stu-id="08c8c-111">For an import letter of credit, the legal entity is the buyer or the applicant for the letter of credit.</span></span> <span data-ttu-id="08c8c-112">Для кредитного письма экспорта юридическое лицо является продавцом или бенефициаром кредитного письма.</span><span class="sxs-lookup"><span data-stu-id="08c8c-112">For an export letter of credit, the legal entity is the seller or the beneficiary of the letter of credit.</span></span> <span data-ttu-id="08c8c-113">Следующие субъекты являются участниками кредитного письма:</span><span class="sxs-lookup"><span data-stu-id="08c8c-113">The following parties are involved in a letter of credit:</span></span>
 
--   <span data-ttu-id="52be1-114">Заявитель (покупатель), который намеревается оплатить товары</span><span class="sxs-lookup"><span data-stu-id="52be1-114">The applicant (buyer) who intends to pay for the goods</span></span>
--   <span data-ttu-id="52be1-115">Бенефициар (продавец), который получает платеж</span><span class="sxs-lookup"><span data-stu-id="52be1-115">The beneficiary (seller) who will receive the payment</span></span>
--   <span data-ttu-id="52be1-116">Выставляющий банк, выдающий аккредитив</span><span class="sxs-lookup"><span data-stu-id="52be1-116">The issuing bank that issues the letter of credit</span></span>
--   <span data-ttu-id="52be1-117">Авизующий банк, который выполняет проводку от имени заявителя</span><span class="sxs-lookup"><span data-stu-id="52be1-117">The advising bank that carries out the transaction on behalf of the applicant</span></span>
+-   <span data-ttu-id="08c8c-114">Заявитель (покупатель), который намеревается оплатить товары</span><span class="sxs-lookup"><span data-stu-id="08c8c-114">The applicant (buyer) who intends to pay for the goods</span></span>
+-   <span data-ttu-id="08c8c-115">Бенефициар (продавец), который получает платеж</span><span class="sxs-lookup"><span data-stu-id="08c8c-115">The beneficiary (seller) who will receive the payment</span></span>
+-   <span data-ttu-id="08c8c-116">Выставляющий банк, выдающий аккредитив</span><span class="sxs-lookup"><span data-stu-id="08c8c-116">The issuing bank that issues the letter of credit</span></span>
+-   <span data-ttu-id="08c8c-117">Авизующий банк, который выполняет проводку от имени заявителя</span><span class="sxs-lookup"><span data-stu-id="08c8c-117">The advising bank that carries out the transaction on behalf of the applicant</span></span>
 
-<span data-ttu-id="52be1-118">Аккредитив включает описание товаров, все необходимые документы, дату отгрузки и дату окончания действия, после которой платеж не будет совершаться.</span><span class="sxs-lookup"><span data-stu-id="52be1-118">The letter of credit includes a description of the goods, any required documents, the date of shipment, and the expiration date after which payment won't be made.</span></span> <span data-ttu-id="52be1-119">Выставляющий банк собирает маржу для аккредитива.</span><span class="sxs-lookup"><span data-stu-id="52be1-119">The issuing bank collects a margin for the letter of credit.</span></span> 
+<span data-ttu-id="08c8c-118">Аккредитив включает описание товаров, все необходимые документы, дату отгрузки и дату окончания действия, после которой платеж не будет совершаться.</span><span class="sxs-lookup"><span data-stu-id="08c8c-118">The letter of credit includes a description of the goods, any required documents, the date of shipment, and the expiration date after which payment won't be made.</span></span> <span data-ttu-id="08c8c-119">Выставляющий банк собирает маржу для аккредитива.</span><span class="sxs-lookup"><span data-stu-id="08c8c-119">The issuing bank collects a margin for the letter of credit.</span></span> 
 
-<span data-ttu-id="52be1-120">Аккредитив может быть **отзывной** или **безотзывный**.</span><span class="sxs-lookup"><span data-stu-id="52be1-120">A letter of credit can be **revocable** or **irrevocable**.</span></span> <span data-ttu-id="52be1-121">Аккредитив может быть **передаваемым**, **непередаваемым** или **возобновляемым**.</span><span class="sxs-lookup"><span data-stu-id="52be1-121">The nature of a letter of credit can be **transferable**, **non-transferable**, or **revolving**.</span></span> <span data-ttu-id="52be1-122">Обычно аккредитив является безотзывным и подтвержденным соглашением о том, что платеж будет выполнен конкретному бенефициару после оформления полной и точной документации по отгрузке.</span><span class="sxs-lookup"><span data-stu-id="52be1-122">Typically, a letter of credit is an irrevocable and confirmed agreement that payment will be made to a specific beneficiary upon submission of complete and accurate shipping documentation.</span></span>
+<span data-ttu-id="08c8c-120">Аккредитив может быть **отзывной** или **безотзывный**.</span><span class="sxs-lookup"><span data-stu-id="08c8c-120">A letter of credit can be **revocable** or **irrevocable**.</span></span> <span data-ttu-id="08c8c-121">Аккредитив может быть **передаваемым**, **непередаваемым** или **возобновляемым**.</span><span class="sxs-lookup"><span data-stu-id="08c8c-121">The nature of a letter of credit can be **transferable**, **non-transferable**, or **revolving**.</span></span> <span data-ttu-id="08c8c-122">Обычно аккредитив является безотзывным и подтвержденным соглашением о том, что платеж будет выполнен конкретному бенефициару после оформления полной и точной документации по отгрузке.</span><span class="sxs-lookup"><span data-stu-id="08c8c-122">Typically, a letter of credit is an irrevocable and confirmed agreement that payment will be made to a specific beneficiary upon submission of complete and accurate shipping documentation.</span></span>
 
-## <a name="import-collections"></a><span data-ttu-id="52be1-123">Импорт коллекций</span><span class="sxs-lookup"><span data-stu-id="52be1-123">Import collections</span></span>
-<span data-ttu-id="52be1-124">Импортное инкассо — это соглашение между банком и экспортером (продавцом), в котором банк соглашается на поставку документации по отгрузке международному импортеру (покупателю).</span><span class="sxs-lookup"><span data-stu-id="52be1-124">An import collection is an agreement between the bank and the exporter (seller), in which the bank agrees to deliver the shipping documentation to the international importer (buyer).</span></span> <span data-ttu-id="52be1-125">Предполагается, что банк доставляет документацию по отгрузке после получения платежа за отправленные товары наличными или подписанного платежного поручения для платежа.</span><span class="sxs-lookup"><span data-stu-id="52be1-125">The bank is expected to deliver the shipping documentation upon receipt of payment for the shipped goods in cash, or upon receipt of a signed draft toward the payment.</span></span> 
+## <a name="import-collections"></a><span data-ttu-id="08c8c-123">Импорт коллекций</span><span class="sxs-lookup"><span data-stu-id="08c8c-123">Import collections</span></span>
+<span data-ttu-id="08c8c-124">Импортное инкассо — это соглашение между банком и экспортером (продавцом), в котором банк соглашается на поставку документации по отгрузке международному импортеру (покупателю).</span><span class="sxs-lookup"><span data-stu-id="08c8c-124">An import collection is an agreement between the bank and the exporter (seller), in which the bank agrees to deliver the shipping documentation to the international importer (buyer).</span></span> <span data-ttu-id="08c8c-125">Предполагается, что банк доставляет документацию по отгрузке после получения платежа за отправленные товары наличными или подписанного платежного поручения для платежа.</span><span class="sxs-lookup"><span data-stu-id="08c8c-125">The bank is expected to deliver the shipping documentation upon receipt of payment for the shipped goods in cash, or upon receipt of a signed draft toward the payment.</span></span> 
 
-<span data-ttu-id="52be1-126">Импортное инкассо помогает гарантировать, что продавец получит деньги, когда покупатель получит документы по отгрузке для получения поставки импортированных товаров.</span><span class="sxs-lookup"><span data-stu-id="52be1-126">An import collection helps guarantee that the seller is paid when the buyer collects the shipping documents to take delivery of the imported goods.</span></span>
-
+<span data-ttu-id="08c8c-126">Импортное инкассо помогает гарантировать, что продавец получит деньги, когда покупатель получит документы по отгрузке для получения поставки импортированных товаров.</span><span class="sxs-lookup"><span data-stu-id="08c8c-126">An import collection helps guarantee that the seller is paid when the buyer collects the shipping documents to take delivery of the imported goods.</span></span>
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Расчет спецификации с помощью многоуровневой структуры (февраль 2016 г.)"
-description: "В этой процедуре показано, как рассчитать затраты на готовую продукцию с помощью многоуровневого развертывания, основанного на схеме калькуляции."
+---
+title: Расчет спецификации с помощью многоуровневой структуры (февраль 2016 г.)
+description: В этой процедуре показано, как рассчитать затраты на готовую продукцию с помощью многоуровневого развертывания, основанного на схеме калькуляции.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog, BOMCalcTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,36 +17,35 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: fcc1248d64145c10f1c67bfac49c053e99dc1598
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323372"
 ---
-# <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a><span data-ttu-id="b077f-103">Расчет спецификации с помощью многоуровневой структуры (февраль 2016 г.)</span><span class="sxs-lookup"><span data-stu-id="b077f-103">Calculate a BOM by using a multilevel structure (February 2016)</span></span>
+# <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a><span data-ttu-id="549ab-103">Расчет спецификации с помощью многоуровневой структуры (февраль 2016 г.)</span><span class="sxs-lookup"><span data-stu-id="549ab-103">Calculate a BOM by using a multilevel structure (February 2016)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b077f-104">В этой процедуре показано, как рассчитать затраты на готовую продукцию с помощью многоуровневого развертывания, основанного на схеме калькуляции.</span><span class="sxs-lookup"><span data-stu-id="b077f-104">This procedure shows how to calculate the cost of a finished product by using multilevel explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="b077f-105">Это седьмая задача в серии расчетов спецификации.</span><span class="sxs-lookup"><span data-stu-id="b077f-105">It is the seventh task in the BOM calculation series.</span></span> <span data-ttu-id="b077f-106">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="b077f-106">The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="549ab-104">В этой процедуре показано, как рассчитать затраты на готовую продукцию с помощью многоуровневого развертывания, основанного на схеме калькуляции.</span><span class="sxs-lookup"><span data-stu-id="549ab-104">This procedure shows how to calculate the cost of a finished product by using multilevel explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="549ab-105">Это седьмая задача в серии расчетов спецификации.</span><span class="sxs-lookup"><span data-stu-id="549ab-105">It is the seventh task in the BOM calculation series.</span></span> <span data-ttu-id="549ab-106">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="549ab-106">The demo data company used to create this task is USMF.</span></span>
 
-1. <span data-ttu-id="b077f-107">Щелкните "Управление сведениями о продукте" > "Продукты" > "Выпущенные продукты".</span><span class="sxs-lookup"><span data-stu-id="b077f-107">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="b077f-108">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="b077f-108">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="b077f-109">Выберите продукт BOM_1.</span><span class="sxs-lookup"><span data-stu-id="b077f-109">Select product BOM_1.</span></span>  
-3. <span data-ttu-id="b077f-110">В области действий щелкните "Управление затратами".</span><span class="sxs-lookup"><span data-stu-id="b077f-110">On the Action Pane, click Manage costs.</span></span>
-4. <span data-ttu-id="b077f-111">Щелкните "Цена номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="b077f-111">Click Item price.</span></span>
-5. <span data-ttu-id="b077f-112">Щелкните "Расчет себестоимости номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="b077f-112">Click Calculate item cost.</span></span>
-    * <span data-ttu-id="b077f-113">Может потребоваться нажать кнопку с многоточием (...), чтобы увидеть этот параметр в верхнем меню.</span><span class="sxs-lookup"><span data-stu-id="b077f-113">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  
-6. <span data-ttu-id="b077f-114">В поле "Версия стоимости" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="b077f-114">In the Costing version field, enter or select a value.</span></span>
-    * <span data-ttu-id="b077f-115">Выберите версию расчета себестоимости 20, поскольку это тип запланированных затрат и режим развертывания — многоуровневый.</span><span class="sxs-lookup"><span data-stu-id="b077f-115">Select Costing version 20, because it's Planned cost type and Explosion mode is Multilevel.</span></span>   <span data-ttu-id="b077f-116">Многоуровневой режим развертывания предназначен для запланированных затрат и моделирования.</span><span class="sxs-lookup"><span data-stu-id="b077f-116">The Multilevel explosion mode is for planned costs and simulations.</span></span> <span data-ttu-id="b077f-117">Он не используется для стандартной себестоимости.</span><span class="sxs-lookup"><span data-stu-id="b077f-117">It is not used for standard cost.</span></span>  
-7. <span data-ttu-id="b077f-118">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="b077f-118">Click OK.</span></span>
-8. <span data-ttu-id="b077f-119">Щелкните "Просмотреть сведения расчета".</span><span class="sxs-lookup"><span data-stu-id="b077f-119">Click View calculation details.</span></span>
-    * <span data-ttu-id="b077f-120">Может потребоваться нажать кнопку с многоточием (...), чтобы увидеть этот параметр в верхнем меню.</span><span class="sxs-lookup"><span data-stu-id="b077f-120">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  <span data-ttu-id="b077f-121">В этом случае обратите внимание на то, как была рассчитана BOM_2, учитывая сырье, процесс и накладные расходы общей суммой 29,40, вместо стандартной себестоимости 10, которая была активирована в первоначальном руководстве по задаче в этой серии.</span><span class="sxs-lookup"><span data-stu-id="b077f-121">In this case, notice how BOM_2 has been calculated taking into account the raw material, process, and overhead with a total of 29,40 instead of the standard cost of 10 that was activated in the initial task guide in this series.</span></span>  
-9. <span data-ttu-id="b077f-122">Перейдите на вкладку "Схема калькуляции".</span><span class="sxs-lookup"><span data-stu-id="b077f-122">Click the Costing sheet tab.</span></span>
-    * <span data-ttu-id="b077f-123">Если перейти на вкладку "Схема калькуляции", итоговые значения по группам затрат отличаются по сравнению с расчетом, выполненным в предыдущем руководстве по задаче.</span><span class="sxs-lookup"><span data-stu-id="b077f-123">Moving to the Costing sheet tab, the totals per cost group are different compared to the calculation done in previous task guide.</span></span>  
-10. <span data-ttu-id="b077f-124">В поле "Уровень" выберите "Мульти".</span><span class="sxs-lookup"><span data-stu-id="b077f-124">In the Level field, select 'Multi'.</span></span>
-    * <span data-ttu-id="b077f-125">При выборе значения "Мульти" затраты классифицируются согласно составу BOM_2, где 10 — производное значение от группы затрат M1 (ITEM_C), а 15,60 — от производства, где группой затрат является L2.</span><span class="sxs-lookup"><span data-stu-id="b077f-125">When selecting Multi, the costs are classified according to the composition of BOM_2, where 10 is derived from the M1 cost group (ITEM_C), and 15,60 is derived from its manufacturing where the cost group is L2.</span></span> <span data-ttu-id="b077f-126">Косвенные затраты также отличаются.</span><span class="sxs-lookup"><span data-stu-id="b077f-126">Indirect costs also vary.</span></span>  
-11. <span data-ttu-id="b077f-127">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="b077f-127">Close the page.</span></span>
-12. <span data-ttu-id="b077f-128">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="b077f-128">Close the page.</span></span>
-
+1. <span data-ttu-id="549ab-107">Щелкните "Управление сведениями о продукте" > "Продукты" > "Выпущенные продукты".</span><span class="sxs-lookup"><span data-stu-id="549ab-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="549ab-108">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="549ab-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="549ab-109">Выберите продукт BOM_1.</span><span class="sxs-lookup"><span data-stu-id="549ab-109">Select product BOM_1.</span></span>  
+3. <span data-ttu-id="549ab-110">В области действий щелкните "Управление затратами".</span><span class="sxs-lookup"><span data-stu-id="549ab-110">On the Action Pane, click Manage costs.</span></span>
+4. <span data-ttu-id="549ab-111">Щелкните "Цена номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="549ab-111">Click Item price.</span></span>
+5. <span data-ttu-id="549ab-112">Щелкните "Расчет себестоимости номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="549ab-112">Click Calculate item cost.</span></span>
+    * <span data-ttu-id="549ab-113">Может потребоваться нажать кнопку с многоточием (...), чтобы увидеть этот параметр в верхнем меню.</span><span class="sxs-lookup"><span data-stu-id="549ab-113">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  
+6. <span data-ttu-id="549ab-114">В поле "Версия стоимости" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="549ab-114">In the Costing version field, enter or select a value.</span></span>
+    * <span data-ttu-id="549ab-115">Выберите версию расчета себестоимости 20, поскольку это тип запланированных затрат и режим развертывания — многоуровневый.</span><span class="sxs-lookup"><span data-stu-id="549ab-115">Select Costing version 20, because it's Planned cost type and Explosion mode is Multilevel.</span></span>   <span data-ttu-id="549ab-116">Многоуровневой режим развертывания предназначен для запланированных затрат и моделирования.</span><span class="sxs-lookup"><span data-stu-id="549ab-116">The Multilevel explosion mode is for planned costs and simulations.</span></span> <span data-ttu-id="549ab-117">Он не используется для стандартной себестоимости.</span><span class="sxs-lookup"><span data-stu-id="549ab-117">It is not used for standard cost.</span></span>  
+7. <span data-ttu-id="549ab-118">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="549ab-118">Click OK.</span></span>
+8. <span data-ttu-id="549ab-119">Щелкните "Просмотреть сведения расчета".</span><span class="sxs-lookup"><span data-stu-id="549ab-119">Click View calculation details.</span></span>
+    * <span data-ttu-id="549ab-120">Может потребоваться нажать кнопку с многоточием (...), чтобы увидеть этот параметр в верхнем меню.</span><span class="sxs-lookup"><span data-stu-id="549ab-120">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  <span data-ttu-id="549ab-121">В этом случае обратите внимание на то, как была рассчитана BOM_2, учитывая сырье, процесс и накладные расходы общей суммой 29,40, вместо стандартной себестоимости 10, которая была активирована в первоначальном руководстве по задаче в этой серии.</span><span class="sxs-lookup"><span data-stu-id="549ab-121">In this case, notice how BOM_2 has been calculated taking into account the raw material, process, and overhead with a total of 29,40 instead of the standard cost of 10 that was activated in the initial task guide in this series.</span></span>  
+9. <span data-ttu-id="549ab-122">Перейдите на вкладку "Схема калькуляции".</span><span class="sxs-lookup"><span data-stu-id="549ab-122">Click the Costing sheet tab.</span></span>
+    * <span data-ttu-id="549ab-123">Если перейти на вкладку "Схема калькуляции", итоговые значения по группам затрат отличаются по сравнению с расчетом, выполненным в предыдущем руководстве по задаче.</span><span class="sxs-lookup"><span data-stu-id="549ab-123">Moving to the Costing sheet tab, the totals per cost group are different compared to the calculation done in previous task guide.</span></span>  
+10. <span data-ttu-id="549ab-124">В поле "Уровень" выберите "Мульти".</span><span class="sxs-lookup"><span data-stu-id="549ab-124">In the Level field, select 'Multi'.</span></span>
+    * <span data-ttu-id="549ab-125">При выборе значения "Мульти" затраты классифицируются согласно составу BOM_2, где 10 — производное значение от группы затрат M1 (ITEM_C), а 15,60 — от производства, где группой затрат является L2.</span><span class="sxs-lookup"><span data-stu-id="549ab-125">When selecting Multi, the costs are classified according to the composition of BOM_2, where 10 is derived from the M1 cost group (ITEM_C), and 15,60 is derived from its manufacturing where the cost group is L2.</span></span> <span data-ttu-id="549ab-126">Косвенные затраты также отличаются.</span><span class="sxs-lookup"><span data-stu-id="549ab-126">Indirect costs also vary.</span></span>  
+11. <span data-ttu-id="549ab-127">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="549ab-127">Close the page.</span></span>
+12. <span data-ttu-id="549ab-128">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="549ab-128">Close the page.</span></span>
 

@@ -1,13 +1,13 @@
 ---
-title: "Сбалансированные журналы для внутрихолдингового учета"
-description: "В этой статье показано, как журнал автоматически балансируется, когда на странице \"Книга учета\" выбрана финансовая аналитика балансировки."
+title: Сбалансированные журналы для внутрихолдингового учета
+description: В этой статье показано, как журнал автоматически балансируется, когда на странице "Книга учета" выбрана финансовая аналитика балансировки.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,40 +18,38 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 5b596a2332a9ada01df7b4e718a79eb624ee52fc
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326776"
 ---
-
-# <a name="balanced-journals-for-interunit-accounting"></a><span data-ttu-id="14ba5-103">Сбалансированные журналы для внутрихолдингового учета</span><span class="sxs-lookup"><span data-stu-id="14ba5-103">Balanced journals for interunit accounting</span></span>
+# <a name="balanced-journals-for-interunit-accounting"></a><span data-ttu-id="d5ce4-103">Сбалансированные журналы для внутрихолдингового учета</span><span class="sxs-lookup"><span data-stu-id="d5ce4-103">Balanced journals for interunit accounting</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="14ba5-104">В этой статье показано, как журнал автоматически балансируется, когда на странице "Книга учета" выбрана финансовая аналитика балансировки.</span><span class="sxs-lookup"><span data-stu-id="14ba5-104">This article shows how a journal is automatically balanced when a balancing financial dimension is selected on the Ledger page.</span></span> 
+<span data-ttu-id="d5ce4-104">В этой статье показано, как журнал автоматически балансируется, когда на странице "Книга учета" выбрана финансовая аналитика балансировки.</span><span class="sxs-lookup"><span data-stu-id="d5ce4-104">This article shows how a journal is automatically balanced when a balancing financial dimension is selected on the Ledger page.</span></span> 
 
-<span data-ttu-id="14ba5-105">Если записи счета не сбалансированы на уровне значений финансовых аналитик, дополнительные учетные записи создаются автоматически, чтобы сбалансировать этот журнал.</span><span class="sxs-lookup"><span data-stu-id="14ba5-105">If account entries don't balance at the level of the financial dimension values, additional account entries are created automatically to balance the journal.</span></span> <span data-ttu-id="14ba5-106">Эти записи счета используют типы разноски **Внутрихолдинговый дебет** и **Внутрихолдинговый кредит** на странице **Счета для автоматических проводок**, чтобы определить счет ГК.</span><span class="sxs-lookup"><span data-stu-id="14ba5-106">These account entries use the **Interunit - debit** and **Interunit - credit** posting types on the **Accounts for automatic transactions** page to determine the main account.</span></span> <span data-ttu-id="14ba5-107">Например, "Бизнес-единица", который является вторым сегментом счета ГК, выбирается в качестве финансовой аналитики балансировки, и подготавливаются к созданию следующие записи учета.</span><span class="sxs-lookup"><span data-stu-id="14ba5-107">For example, Business Unit, which is the second segment of the ledger account, is selected as the balancing financial dimension, and the following accounting entries are about to be created.</span></span>
+<span data-ttu-id="d5ce4-105">Если записи счета не сбалансированы на уровне значений финансовых аналитик, дополнительные учетные записи создаются автоматически, чтобы сбалансировать этот журнал.</span><span class="sxs-lookup"><span data-stu-id="d5ce4-105">If account entries don't balance at the level of the financial dimension values, additional account entries are created automatically to balance the journal.</span></span> <span data-ttu-id="d5ce4-106">Эти записи счета используют типы разноски **Внутрихолдинговый дебет** и **Внутрихолдинговый кредит** на странице **Счета для автоматических проводок**, чтобы определить счет ГК.</span><span class="sxs-lookup"><span data-stu-id="d5ce4-106">These account entries use the **Interunit - debit** and **Interunit - credit** posting types on the **Accounts for automatic transactions** page to determine the main account.</span></span> <span data-ttu-id="d5ce4-107">Например, "Бизнес-единица", который является вторым сегментом счета ГК, выбирается в качестве финансовой аналитики балансировки, и подготавливаются к созданию следующие записи учета.</span><span class="sxs-lookup"><span data-stu-id="d5ce4-107">For example, Business Unit, which is the second segment of the ledger account, is selected as the balancing financial dimension, and the following accounting entries are about to be created.</span></span>
 
 |                      |           |
 |----------------------|-----------|
-| <span data-ttu-id="14ba5-108">6100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="14ba5-108">6100 – MSP – OU\_256</span></span> | <span data-ttu-id="14ba5-109">100,00 DR</span><span class="sxs-lookup"><span data-stu-id="14ba5-109">100.00 DR</span></span> |
-| <span data-ttu-id="14ba5-110">6100 – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="14ba5-110">6100 – NY – OU\_249</span></span>  | <span data-ttu-id="14ba5-111">100,00 DR</span><span class="sxs-lookup"><span data-stu-id="14ba5-111">100.00 DR</span></span> |
-| <span data-ttu-id="14ba5-112">2100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="14ba5-112">2100 – MSP – OU\_256</span></span> | <span data-ttu-id="14ba5-113">200,00 CR</span><span class="sxs-lookup"><span data-stu-id="14ba5-113">200.00 CR</span></span> |
+| <span data-ttu-id="d5ce4-108">6100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="d5ce4-108">6100 – MSP – OU\_256</span></span> | <span data-ttu-id="d5ce4-109">100,00 DR</span><span class="sxs-lookup"><span data-stu-id="d5ce4-109">100.00 DR</span></span> |
+| <span data-ttu-id="d5ce4-110">6100 – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="d5ce4-110">6100 – NY – OU\_249</span></span>  | <span data-ttu-id="d5ce4-111">100,00 DR</span><span class="sxs-lookup"><span data-stu-id="d5ce4-111">100.00 DR</span></span> |
+| <span data-ttu-id="d5ce4-112">2100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="d5ce4-112">2100 – MSP – OU\_256</span></span> | <span data-ttu-id="d5ce4-113">200,00 CR</span><span class="sxs-lookup"><span data-stu-id="d5ce4-113">200.00 CR</span></span> |
 
-<span data-ttu-id="14ba5-114">В этом случае определяются следующие сальдо:</span><span class="sxs-lookup"><span data-stu-id="14ba5-114">In this case, the following balances are determined:</span></span>
+<span data-ttu-id="d5ce4-114">В этом случае определяются следующие сальдо:</span><span class="sxs-lookup"><span data-stu-id="d5ce4-114">In this case, the following balances are determined:</span></span>
 
--   <span data-ttu-id="14ba5-115">Для бизнес-единицы MSP = 100,00 CR</span><span class="sxs-lookup"><span data-stu-id="14ba5-115">For Business Unit MSP = 100.00 CR</span></span>
--   <span data-ttu-id="14ba5-116">Для бизнес-единицы NY = 100,00 DR</span><span class="sxs-lookup"><span data-stu-id="14ba5-116">For Business Unit NY = 100.00 DR</span></span>
+-   <span data-ttu-id="d5ce4-115">Для бизнес-единицы MSP = 100,00 CR</span><span class="sxs-lookup"><span data-stu-id="d5ce4-115">For Business Unit MSP = 100.00 CR</span></span>
+-   <span data-ttu-id="d5ce4-116">Для бизнес-единицы NY = 100,00 DR</span><span class="sxs-lookup"><span data-stu-id="d5ce4-116">For Business Unit NY = 100.00 DR</span></span>
 
-<span data-ttu-id="14ba5-117">Таким образом, следующие учетные записи создаются автоматически для балансировки журнала на уровне значений финансовых аналитик.</span><span class="sxs-lookup"><span data-stu-id="14ba5-117">Therefore, the following accounting entries are created automatically to balance the  journal at the level of the financial dimension values.</span></span>
+<span data-ttu-id="d5ce4-117">Таким образом, следующие учетные записи создаются автоматически для балансировки журнала на уровне значений финансовых аналитик.</span><span class="sxs-lookup"><span data-stu-id="d5ce4-117">Therefore, the following accounting entries are created automatically to balance the  journal at the level of the financial dimension values.</span></span>
 
 |                                   |           |
 |-----------------------------------|-----------|
-| <span data-ttu-id="14ba5-118">(Внутрихолдинговый дебет) – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="14ba5-118">(Interunit Debit) – MSP – OU\_256</span></span> | <span data-ttu-id="14ba5-119">100,00 DR</span><span class="sxs-lookup"><span data-stu-id="14ba5-119">100.00 DR</span></span> |
-| <span data-ttu-id="14ba5-120">(Внутрихолдинговый кредит) – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="14ba5-120">(Interunit Credit) – NY – OU\_249</span></span> | <span data-ttu-id="14ba5-121">100,00 CR</span><span class="sxs-lookup"><span data-stu-id="14ba5-121">100.00 CR</span></span> |
-
+| <span data-ttu-id="d5ce4-118">(Внутрихолдинговый дебет) – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="d5ce4-118">(Interunit Debit) – MSP – OU\_256</span></span> | <span data-ttu-id="d5ce4-119">100,00 DR</span><span class="sxs-lookup"><span data-stu-id="d5ce4-119">100.00 DR</span></span> |
+| <span data-ttu-id="d5ce4-120">(Внутрихолдинговый кредит) – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="d5ce4-120">(Interunit Credit) – NY – OU\_249</span></span> | <span data-ttu-id="d5ce4-121">100,00 CR</span><span class="sxs-lookup"><span data-stu-id="d5ce4-121">100.00 CR</span></span> |
 
 
 
