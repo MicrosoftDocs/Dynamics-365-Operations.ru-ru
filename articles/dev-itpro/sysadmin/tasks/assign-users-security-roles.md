@@ -1,13 +1,13 @@
---- 
-title: "Назначение пользователей ролям безопасности"
-description: "Для доступа к Microsoft Dynamics 365 for Finance and Operations, Enterprise edition пользователи должны быть назначены ролям безопасности."
+---
+title: Назначение пользователей для ролей безопасности
+description: Для получения доступа к Microsoft Dynamics 365 for Finance and Operations, Enterprise edition пользователи должны быть назначены ролям безопасности.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
 ms.reviewer: margoc
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 55cb085bb5170aa4894a2240a12f6ca451b922fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349960"
 ---
-# <a name="assign-users-to-security-roles"></a>Назначение пользователей ролям безопасности
+# <a name="assign-users-to-security-roles"></a>Назначение пользователей для ролей безопасности
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Для доступа к Microsoft Dynamics 365 for Finance and Operations, Enterprise edition пользователи должны быть назначены ролям безопасности. В этой процедуре описывается, как системные администраторы могут назначить пользователей ролям автоматически на основе бизнес-данных. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
+Для получения доступа к Microsoft Dynamics 365 for Finance and Operations, Enterprise edition пользователи должны быть назначены ролям безопасности. В этой процедуре описывается, как системные администраторы могут назначить пользователей ролям автоматически на основе бизнес-данных. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 
 
 ## <a name="automatically-assign-users-to-roles"></a>Автоматическое назначение пользователей ролям
@@ -52,5 +52,4 @@ ms.lasthandoff: 09/29/2017
     * Выберите пользователя.  
 6. Щелкните "Исключить из роли".
     * Щелкните "Исключить из роли", чтобы исключить выбранных пользователей из роли. Чтобы удалить исключения, выберите пользователей, для которых требуется удалить исключения, а затем щелкните "Сброс статуса". При удалении исключения путем сброса статуса пользователя роль пользователя назначается снова автоматически. Однако пользователь не сразу назначается роли и не исключается из роли при сбросе статуса. Вместо этого пользователь либо назначается роли, либо удаляется из роли при следующем выполнении правил для автоматического назначения ролей.  
-
 

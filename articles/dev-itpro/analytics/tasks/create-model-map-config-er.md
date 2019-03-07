@@ -1,13 +1,13 @@
---- 
-title: "Создание конфигураций сопоставления модели электронной отчетности (ER)"
-description: "Эта процедура используется для создания новой конфигурации сопоставления модели электронной отчетности (ER) и использования встроенных функций ER для эффективного агрегирования расчетов."
+---
+title: Создание конфигураций сопоставления модели электронной отчетности (ER)
+description: Эта процедура используется для создания новой конфигурации сопоставления модели электронной отчетности (ER) и использования встроенных функций ER для эффективного агрегирования расчетов.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 614ef06fcf5761f1cf2afb6e7655558d2858d763
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357182"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Создание конфигураций сопоставления модели электронной отчетности (ER)
 
@@ -65,5 +65,4 @@ ms.lasthandoff: 08/09/2018
 4. В поле "Имя" введите "Сопоставление образца Интрастат".
     * Сопоставление образца Интрастат  
 5. Нажмите Создать конфигурацию.
-
 

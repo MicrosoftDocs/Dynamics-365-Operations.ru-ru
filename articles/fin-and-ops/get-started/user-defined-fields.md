@@ -1,13 +1,13 @@
 ---
-title: "Создание и работа с настраиваемыми полями"
-description: "В этом разделе показано, как Microsoft Dynamics 365 for Finance and Operations позволяет некоторым пользователям создавать настраиваемые поля для настройки приложения в соответствии с их бизнесом."
+title: Создание настраиваемых полей и работа с ними
+description: В этом разделе показано, как Microsoft Dynamics 365 for Finance and Operations позволяет некоторым пользователям создавать настраиваемые поля для настройки приложения в соответствии с их бизнесом.
 author: jasongre
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 18402579789c17de7b46dd7a013b3b6327ea5d4f
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348028"
 ---
-
-# <a name="create-and-work-with-custom-fields"></a>Создание и работа с настраиваемыми полями
+# <a name="create-and-work-with-custom-fields"></a>Создание настраиваемых полей и работа с ними
 
 [!include [banner](../includes/banner.md)]
 
@@ -160,4 +159,3 @@ ms.lasthandoff: 12/18/2018
 - Таблица не может расширять другую таблицу.
 - Таблица не может быть отмечена как системная таблица.
 - Таблица не может быть временной таблицей.
-

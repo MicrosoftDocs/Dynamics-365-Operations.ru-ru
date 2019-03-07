@@ -1,13 +1,13 @@
 ---
-title: "Перед покупкой"
-description: "Пошаговые инструкции для использования, если вы решили приобрести Dynamics 365 for Finance and Operations."
+title: Перед покупкой
+description: Пошаговые инструкции для использования, если вы решили приобрести Dynamics 365 for Finance and Operations.
 author: kfend
 manager: AnnBe
 ms.date: 01/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345475"
 ---
-
 # <a name="before-you-buy"></a>Перед покупкой
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,7 @@ ms.lasthandoff: 01/04/2019
 
 Чтобы изучить параметры подписки, перейдите на страницу ценообразования [Dynamics 365](https://www.microsoft.com/dynamics365/pricing). Эта страница включает несколько различных планов в соответствии с требованиями вашей организации.
 
-Существует множество способов купить подписку Dynamics 365 for Finance and Operations:
+Существует множество способов купить подписку на Dynamics 365 for Finance and Operations:
 
 - Можно приобрести подписку у партнера и использовать корпоративное лицензирование (в облаке или локально).
 - Можно приобрести подписку у поставщика облачных решений (только в облаке).
@@ -79,7 +78,7 @@ ms.lasthandoff: 01/04/2019
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Покупка у партнера Dynamics (локально)
 
-Необходимо работать с партнером для покупки локальной версии Finance and Operations. Дополнительные сведения см. в разделе [Приобретение Dynamics 365 for Finance and Operations (локальная версия)](purchase-on-premises.md)
+Необходимо работать с партнером для покупки локальной версии Finance and Operations. Дополнительные сведения см. в разделе [Приобретение Dynamics 365 for Finance and Operations (On-premises)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Выбор плана поддержки
 
@@ -97,4 +96,3 @@ Microsoft FastTrack for Dynamics 365 — это служба успеха кли
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Обновление с Dynamics AX 2012 или миграция с AX 2009
 
 Если вы клиент, который выполняет обновление с Microsoft Dynamics AX 2012 или мигрирует с Microsoft Dynamics AX 2009, вы можете иметь право на более длительный период действия пробной версии. Для получения дополнительных сведений обратитесь по адресу <daxcf@microsoft.com>.
-

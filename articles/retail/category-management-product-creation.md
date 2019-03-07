@@ -1,32 +1,31 @@
 ---
-title: "Управление категориям розничных продуктов и продуктами"
-description: "В этом разделе описывается, как директора по сбыту могут использовать категории розничных продуктов для управления отношениями между иерархией розничных продуктов и сведениями о выпущенных продуктах."
+title: Управление категориям розничных продуктов и продуктами
+description: В этом разделе описывается, как директора по сбыту могут использовать категории розничных продуктов для управления отношениями между иерархией розничных продуктов и сведениями о выпущенных продуктах.
 author: ashishmsft
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 0bcc5989edd9913fce414c0c24068f111d8c1aeb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 19c972164474c972aab642c3cccc67cf396a6cb2
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344693"
 ---
-
 # <a name="manage-retail-product-categories-and-products"></a>Управление категориям розничных продуктов и продуктами
 
 [!include [banner](./includes/banner.md)]
@@ -58,4 +57,3 @@ ms.lasthandoff: 08/09/2018
 Можно использовать эту новую улучшенную структуру свойств продукта для выбора того, какие обновленные свойства продукта должны принудительно передаваться в соответствующие продукты. На странице **Иерархия розничных продуктов** в области действий выберите **Категория**, затем выберите **Обновить продукты** для открытия диалогового окна **Обновить продукты**.
 
 ![Диалоговое окно обновления продуктов](media/NewUpdateProductsEnhancedView.PNG)
-

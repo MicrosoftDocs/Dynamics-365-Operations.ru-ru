@@ -1,13 +1,13 @@
---- 
-title: "Ввод и сравнение предложений по запросу предложения и заключение контрактов"
-description: "В этой процедуре показано, как ввести ответы на запрос предложения, поставить оценку и сравнить предложения, а затем присудить предложение одному из поставщиков."
+---
+title: Ввод и сравнение предложений по запросу предложения и заключение контрактов
+description: В этой процедуре показано, как ввести ответы на запрос предложения, поставить оценку и сравнить предложения, а затем присудить предложение одному из поставщиков.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 7cd4876acfebcc9595abb358cfc9b355e93041d6
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350006"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Ввод и сравнение предложений по запросу предложения и заключение контрактов
 
@@ -116,5 +116,4 @@ ms.lasthandoff: 09/14/2018
 4. Закройте страницу.
 5. Закройте страницу.
 6. Закройте страницу.
-
 

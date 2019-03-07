@@ -1,13 +1,13 @@
---- 
-title: "Создание заявки, которая использует запрос предложения"
-description: "В этом руководстве показано, как добавить сведения о цене и поставщике в заявку на покупку из процесса запроса предложения."
+---
+title: Создание заявки, которая использует запрос предложения
+description: В этом руководстве показано, как добавить сведения о цене и поставщике в заявку на покупку из процесса запроса предложения.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqTableListPage, PurchReqCreate, PurchReqTable, PurchReqLineRelatedDocuments, EcoResCategorySingleLookup, PurchReqWorkflowDropDialog, WorkflowSubmitDialog, WorkflowStatus, WorkflowWorkItemActionDialog, WorkflowUserListLookup, PurchReqCopyRFQ, SysDataAreaSelectLookup, PurchRFQCaseTable, PurchRFQEditLines, PurchRFQReplyTable, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8a9418b526f992008086f10ce78e95cb682bc164
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d97ccd15031b2f7398486eee4a716ecef5e9dafd
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344992"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Создание заявки, которая использует запрос предложения
 
@@ -103,5 +103,4 @@ ms.lasthandoff: 09/29/2017
 7. Щелкните "Завершить".
 8. Закройте страницу.
 9. Щелкните "Завершить".
-
 

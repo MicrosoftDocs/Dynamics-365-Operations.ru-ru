@@ -1,13 +1,13 @@
 ---
-title: "Конфигурационные ключи и информационные объекты"
-description: "В этом разделе описывается взаимосвязь между конфигурационными ключами и информационными объектами в Microsoft Dynamics 365 for Finance and Operations."
+title: Конфигурационные ключи и информационные объекты
+description: В этом разделе описывается взаимосвязь между конфигурационными ключами и информационными объектами в Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336482"
 ---
-
 # <a name="configuration-keys-and-data-entities"></a>Конфигурационные ключи и информационные объекты
 
 [!include [banner](../includes/banner.md)]
@@ -96,4 +95,3 @@ ms.lasthandoff: 08/13/2018
 При каждом обновлении конфигурационных ключей на уровне объекта, таблицы или поля список объектов в структуре управления данными необходимо обновить. Этот процесс обеспечивает, что структура получает последние настройки ключей конфигурации. Пока список объектов не будет обновлен, на странице списка объектов отображается следующее предупреждение. Обновленные изменения ключей конфигурации вступят в силу немедленно после обновления списка объектов. Рекомендуется проверить существующие проекты данных и задания, чтобы убедиться в том, что они работают должным образом после вступления в силу изменений ключей конфигурации.
 
 ![Целевые поля](./media/Target_fields_3.png)
-

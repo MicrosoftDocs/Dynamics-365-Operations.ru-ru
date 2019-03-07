@@ -1,13 +1,13 @@
 ---
-title: "Создание электронных документов и обновление данных приложений с помощью электронной отчетности (ER)"
-description: "Можно разработать форматы электронной отчетности (ER), которые могут использоваться в приложении Finance and Operations для создания исходящих электронных документов. Можно также создать форматы ER, которые анализируют входящие электронные документы и используют содержимое в таких документах для обновления данных приложения."
+title: Создание электронных документов и обновление данных приложений с помощью электронной отчетности (ER)
+description: Можно разработать форматы электронной отчетности (ER), которые могут использоваться в приложении Finance and Operations для создания исходящих электронных документов. Можно также создать форматы ER, которые анализируют входящие электронные документы и используют содержимое в таких документах для обновления данных приложения.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Developer, IT Pro, Application user
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2a989b0000766478c71b243d7793b2fc8c4ece28
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 6bb2b2480b619a8aee72c2d65052ed419c9a7c7d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349224"
 ---
-
 # <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Создание электронных документов и обновление данных приложений с помощью электронной отчетности (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -42,4 +41,3 @@ ms.lasthandoff: 08/09/2018
 - [Конфигурация модели данных: Интрастат (модель)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Конфигурация сопоставления модели ER: Интрастат (сопоставление)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Конфигурация формата ER: Интрастат (формат)](https://go.microsoft.com/fwlink/?linkid=849038)
-

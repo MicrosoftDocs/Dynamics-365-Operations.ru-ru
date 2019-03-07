@@ -1,13 +1,13 @@
 ---
 title: Project Service Automation
-description: "В этом разделе содержатся сведения о решении интеграции Project Service Automation с Finance and Operations. Это решение интеграции использует функцию интеграции данных для синхронизации данных между экземплярами Microsoft Dynamics 365 for Finance and Operations и Microsoft Dynamics 365 for Project Service Automation с помощью Common Data Service."
+description: В этом разделе содержатся сведения о решении интеграции Project Service Automation с Finance and Operations. Это решение интеграции использует функцию интеграции данных для синхронизации данных между экземплярами Microsoft Dynamics 365 for Finance and Operations и Microsoft Dynamics 365 for Project Service Automation с помощью Common Data Service.
 author: KimANelson
 manager: AnnBe
 ms.date: 06/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
 ms.openlocfilehash: 4b1d2ae69899a2937d47f6547ee4ba72b2d1ece4
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335700"
 ---
-
 # <a name="project-service-automation"></a>Project Service Automation
 
 [!include[banner](../includes/banner.md)]
@@ -32,10 +31,10 @@ ms.lasthandoff: 08/09/2018
 Решение интеграции Project Service Automation с Finance and Operations использует интеграцию данных для синхронизации данных между экземплярами Microsoft Dynamics 365 for Finance and Operations и Microsoft Dynamics 365 for Project Service Automation с помощью Common Data Service. Шаблоны интеграции, доступные с функцией интеграции данных, позволяют передавать данные по проектам, контрактам проекта, строкам контракта проекта, этапам строк контракта проекта, задачам проекта, категориям транзакции расходов, оценкам часов и оценкам расходов из Project Service Automation в Finance and Operations.
 
 > [!NOTE]
-> - При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, после установки обновлений KB 4132657 и KB 4132660, можно использовать шаблоны для интеграции задачи проекта, категорий транзакций расходов, оценок часов, оценок расходов и фактических данных и для настройки функции блокировки. Если необходимо сбросить распределения по бухгалтерским счетам, рекомендуется также установить КБ 4131710.
+> - При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, после установки обновлений КБ 4132657 и 4132660 КБ, можно использовать шаблоны для интеграции задачи проекта, категорий транзакций расходов, оценок часов, оценок расходов и фактических данных и для настройки функции блокировки. Если необходимо сбросить распределения по бухгалтерским счетам, рекомендуется также установить КБ 4131710.
 > - При использовании Finance and Operations 7.3.0 необходимо установить KB 4074835. После этого можно будет интегрировать проекты с фиксированной ценой.
 > - Если при использовании Finance and Operations 7.3.0 вы переносите проводки по сборам из Project Service Automation, чтобы включить эти расходы в накладную проекта необходимо установить KB 4345320.
-> - Если вы используете Microsoft Dynamics 365 for Finance and Operations версии 8.0, вы можете использовать интеграцию задач проекта, категории транзакции расходов, оценки часов, оценки затрат и блокировку функциональности.
+> - Если вы используете Microsoft Dynamics 365 for Finance and Operations версии 8.0, вы можете использовать интеграция задач проекта, категории транзакции расходов, оценки часов, оценки затрат и блокировку функциональности.
 > - При использовании Microsoft Dynamics 365 for Finance and Operations версии 8.0.1 или новее можно выполнить синхронизацию фактических данных.
 
 Перед интеграцией Project Service Automation with Finance and Operations необходимо конфигурировать параметры интеграции Project Service Automation. Для получения дополнительных сведений см. раздел [Параметры интеграции Project Service Automation](PSA-parameters.md).
@@ -69,11 +68,10 @@ ms.lasthandoff: 08/09/2018
 
 Чтобы использовать решение интеграции Project Service Automation в Finance and Operations необходимо установить следующие компоненты:
 
-- Microsoft Dynamics 365 for Project Service Automation версии 9.0.0.0 или более поздней версии
-- Решение "Перспективный клиент в наличные деньги" Microsoft Dynamics 365 for Sales, версия 1.14.0.0 (v14) или выше
-- Решение Project Service Automation в Finance and Operations для Microsoft Dynamics 365 for Project Service Automation версии 1.0.0.0 или более поздней версии
+- Microsoft Dynamics 365 for Project Service Automation версии 9.0.0.0 или более новая версия
+- Решение "Перспективный клиент в наличные деньги" для Microsoft Dynamics 365 for Sales, версия 1.14.0.0 (v14) или более новая версия
+- Решение для интеграции Project Service Automation в Finance and Operations для Microsoft Dynamics 365 for Project Service Automation версии 1.0.0.0 или новее
 
 ## <a name="install-the-project-service-automation-to-finance-and-operations-integration-solution-in-your-project-service-automation-instance"></a>Установите решение интеграции Project Service Automation в Finance and Operations в вашем экземпляре Project Service Automation
 
 Загрузите решение интеграции Project Service Automation с Finance and Operations из [центра загрузки Майкрософт](https://www.microsoft.com/en-us/download/details.aspx?id=57016) и следуйте указаниям, включенным в решение.
-

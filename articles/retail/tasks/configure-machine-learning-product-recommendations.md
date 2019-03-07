@@ -1,13 +1,13 @@
---- 
-title: "Настройка рекомендаций по продуктам на основе машинного обучения"
-description: "Эта процедура обновляет данные в хранилище объектов, используемые системой машинного обучения, которая обеспечивает рекомендации по продуктам, а затем обеспечивает рекомендации по продуктам в клиентах POS."
+---
+title: Настройка рекомендаций по продуктам на основе машинного обучения
+description: Эта процедура обновляет данные в хранилище объектов, используемые системой машинного обучения, которая обеспечивает рекомендации по продуктам, а затем обеспечивает рекомендации по продуктам в клиентах POS.
 author: ashishmsft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BIMeasurementDeployManagementEntityStore, RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 700af913f18e23c66db53a92033def06818af1ec
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 277ffb879b80fe57deeaa2b52c1543baaf820274
-ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348534"
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a>Настройка рекомендаций по продуктам на основе машинного обучения
 
@@ -41,5 +41,4 @@ ms.lasthandoff: 02/07/2018
     * Если получено сообщение "Не удалось извлечь модели рекомендаций", это потому, что вы недавно обновили хранилище объектов и система еще не завершила ассимиляцию новых данных. Подождите 2-3 часа и повторите попытку.  
 9. Нажмите кнопку "Сохранить".
 10. Закройте страницу.
-
 

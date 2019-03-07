@@ -1,13 +1,13 @@
 ---
-title: "Документы обоснования бюджетного плана"
-description: "Документы обоснования предоставляют описания для этих запросов бюджета, чтобы объяснить причину, по которой необходим конкретный бюджет."
+title: Документы обоснования бюджетного плана
+description: Документы обоснования предоставляют описания для этих запросов бюджета, чтобы объяснить причину, по которой необходим конкретный бюджет.
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cae6334cd39a91eaf3a2a79f30edc705f484bc8c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333584"
 ---
-
 # <a name="budget-planning-justification-documents"></a>Документы обоснования бюджетного плана
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 03/26/2018
 
 Шаблон бюджетного плана создается менеджером бюджета в Microsoft Word и назначается текущему процессу планирования бюджета. Владельцы бюджета могут затем открыть шаблон, и данные будут автоматически заполнены в Word на основе их запроса бюджета. Затем они могут добавить дополнительный текст или данные перед сохранением и присоединить свои персональные документы обоснования к бюджетному плану.
 
-##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Настройка надстройки Microsoft Dynamics Office для Microsoft Word
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Настройка надстройки Microsoft Dynamics Office Add-in для Microsoft Word
 
 1.  Откройте новый документ Microsoft Word.
 2.  Щелкните **Вставить** на ленте, затем щелкните **Магазин**.
@@ -69,7 +68,6 @@ ms.lasthandoff: 03/26/2018
 1.  В Finance and Operations создайте новый бюджетный план или откройте существующий бюджетный план.
 2.  В раскрывающемся меню **Обоснование** выберите **Создать новое обоснование**.
 3.  После заполнения сведений выберите отправку персонализированного документа из раскрывающегося меню **Обоснование**.
-
 
 
 

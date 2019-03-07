@@ -1,13 +1,13 @@
---- 
-title: "Создание заказов центра обработки вызовов"
-description: "Эта процедура демонстрирует поиск клиента, создание нового заказа, поиск продукта и получение платежа от клиента."
+---
+title: Создание заказов центра обработки вызовов
+description: Эта процедура демонстрирует поиск клиента, создание нового заказа, поиск продукта и получение платежа от клиента.
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRCustomerService, SalesTable, MCRSourceIdTargetLookup, MCRSalesQuickQuote, MCRSalesOrderRecap, MCRCustPaymDialog, MCRCustPaymLookup
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4867ad67dc570ab42420ba12fc7dc2da6b5ba503
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: b2e986df1e089ef2a394d0e9d9236d39f2726c77
-ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334320"
 ---
 # <a name="create-call-center-orders"></a>Создание заказов центра обработки вызовов
 
@@ -55,5 +55,4 @@ ms.lasthandoff: 02/07/2018
     * Для этой процедуры введите сумму, равную сальдо заказа, которую можно видеть на странице сводке заказ на продажу слева от поля суммы. Это позволит вам завершить заказ как полностью оплаченный.  
 17. Нажмите кнопку "OК".
 18. Щелкните Отправить.
-
 

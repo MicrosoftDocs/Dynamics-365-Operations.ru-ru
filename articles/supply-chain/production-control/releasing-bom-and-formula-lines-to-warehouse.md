@@ -1,13 +1,13 @@
 ---
-title: "Выпуск спецификации и строк формулы на склад"
-description: "В этом разделе описан процесс выпуска сырья для строк спецификации и строк формулы на склад."
+title: Выпуск спецификации и строк формулы на склад
+description: В этом разделе описан процесс выпуска сырья для строк спецификации и строк формулы на склад.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 8ccdb71f49652d6cca6ced2e9e9764d9ad0fffd8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343152"
 ---
-
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Выпуск спецификации и строк формулы на склад
 
 [!include [banner](../includes/banner.md)]
@@ -99,4 +98,3 @@ ms.lasthandoff: 05/23/2018
     Доступные единицы измерения определяются в коде группы упорядочения единиц измерения готовой продукции.
 
     Например, готовый товар имеет следующие преобразования единиц измерения между фунтами и палетами (PL): 1 PL = 100 фунтов. Чтобы создать производственный заказ на 10000 фунтов готовой продукции, можно выпустить сырье для числа палет, которые планируется произвести. Выберите единицу измерения **PL**, затем выберите соответствующее количество в поле **Количество**.
-

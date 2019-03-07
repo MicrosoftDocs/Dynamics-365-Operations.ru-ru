@@ -1,13 +1,13 @@
 ---
-title: "Выставление накладных по проекту"
-description: "Эта статья содержит обзор выставления накладных по проекту для Проектов Время и расходы и Проектов Фиксированная цена. Она содержит сведения о предложениях накладных (предварительные накладные), управлении накладными, Выставлении накладной по промежуточной накладной, выставлении накладных поставщика и кредит-нотах."
+title: Выставление накладных по проекту
+description: Эта статья содержит обзор выставления накладных по проекту для Проектов Время и расходы и Проектов Фиксированная цена. Она содержит сведения о предложениях накладных (предварительные накладные), управлении накладными, Выставлении накладной по промежуточной накладной, выставлении накладных поставщика и кредит-нотах.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5dd51e442479a05ce715fe91ebab0c99df9a8b6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2434e0a97846ce9ca0643327a7a032a9998bde5b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346326"
 ---
-
 # <a name="project-invoicing"></a>Выставление накладных по проекту
 
 [!include [banner](../includes/banner.md)]
@@ -121,7 +120,6 @@ ms.lasthandoff: 11/03/2017
 Чтобы кредитовать сумму, по которой была выставлена накладная, необходимо сначала выбрать эту сумму для кредитования, а затем создать кредит-ноту. Создайте кредит-ноту, используя ту же процедуру, что и для создания накладной клиента. 
 
 Можно создать накладную с отрицательной суммой; такая накладная рассматривается как кредит-нота. Для создания и печати кредит-ноты необходимо выбрать проводки, которые ранее были разнесены для накладной клиента, а затем изменить проводки. За исключением юридических лиц с основным адресом в Германии, в качестве заголовка накладной используйте "Корректирующий счет".
-
 
 
 

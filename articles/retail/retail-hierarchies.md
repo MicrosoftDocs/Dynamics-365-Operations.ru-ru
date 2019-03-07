@@ -1,13 +1,13 @@
 ---
-title: "Иерархии розничной торговли"
-description: "В этой статье описываются иерархии розничной торговли в Microsoft Dynamics 365 for Retail."
+title: Иерархии розничной торговли
+description: В этой статье описываются иерархии розничной торговли в Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 198c8da336f3e225c5d6da2eb02c86581dc9b4d6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e94b59540c9ef188a07e2e24ef4a04829b9d37f8
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341910"
 ---
-
 # <a name="retail-hierarchies"></a>Иерархии розничной торговли
 
 [!include [banner](includes/banner.md)]
@@ -46,4 +45,3 @@ ms.lasthandoff: 11/03/2017
 | Навигационная иерархия розничной торговли   | Используйте этот тип иерархии, чтобы группировать и систематизировать продукты по категориям, чтобы эти продукты можно было просматривать по Интернету или в пункте продаж (POS). |
 
 С помощью иерархии розничных категорий можно структурировать продукты, настраивать и вести атрибуты и свойства продукции на уровне категорий. Эти атрибуты и свойства включают настройки для аналитик продукции и настройки пункта продаж (POS). Любые продукты, назначаемые категориям, автоматически наследуют определенные пользователем атрибуты и свойства. Можно также скопировать настройки свойств любой продукции на несколько продуктов в выбранной категории одновременно.
-

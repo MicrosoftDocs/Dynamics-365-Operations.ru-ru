@@ -1,13 +1,13 @@
---- 
-title: "Электронная отчетность — Создание электронных документов для платежей с помощью конфигурации формата"
-description: "В следующих шагах поясняется, как пользователь с ролью \"Системный администратор\" или \"Разработчик электронной отчетности\" может использовать новую конфигурацию формата электронной отчетности для создания электронных документов для обработки платежей."
+---
+title: Электронная отчетность — Создание электронных документов для платежей с помощью конфигурации формата
+description: В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может использовать новую конфигурацию формата электронной отчетности для создания электронных документов для обработки платежей.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: cf2ae8fb451eba1054bb94edbce009dcfa8c872c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348327"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>Электронная отчетность — Создание электронных документов для платежей с помощью конфигурации формата
 
@@ -81,5 +81,4 @@ ms.lasthandoff: 09/14/2018
 24. Нажмите кнопку "OК".
 25. Нажмите кнопку "OК".
     * Проанализируйте созданный файл платежа в формате XML. Сравните его с созданным макетом документа и определенными атрибутами проводки по оплате.  
-
 

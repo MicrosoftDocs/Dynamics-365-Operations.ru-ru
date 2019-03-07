@@ -1,13 +1,13 @@
 ---
-title: "Создание workflow-процессов"
-description: "В этом разделе объясняется, как создать workflow-процесс."
+title: Создание workflow-процессов
+description: В этом разделе объясняется, как создать workflow-процесс.
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353364"
 ---
-
 # <a name="create-workflows"></a>Создание workflow-процессов
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="open-the-workflow-editor"></a>Откройте редактор workflow-процесса
 
-Модуль Microsoft Dynamics 365 for Finance and Operations, в котором вы работаете, определяет типы workflow-процессов, которые можно создать. Выполните следующие действия, чтобы выбрать тип workflow-процесса для создания и открытия редактора workflow-процесса.
+Модуль Microsoft Dynamics 365 for Finance and Operations, в котором вы работаете, определяет типы workflow-процесса, которые можно создать. Выполните следующие действия, чтобы выбрать тип workflow-процесса для создания и открытия редактора workflow-процесса.
 
 1. Откройте модуль, для которой требуется создать новый workflow-процесс. Например, чтобы создать workflow-процесс для заявок на покупку, нажмите кнопку **Закупки и источники**.
 2. Щелкните **Настройка** &gt; **Workflow-процессы \[имя модуля\]**.
@@ -85,4 +84,3 @@ ms.lasthandoff: 08/09/2018
 
     - Чтобы активировать эту версию workflow-процесса, нажмите **Активировать новую версию**. Когда workflow-процесс станет активным, пользователи смогут представлять документы на обработку.
     - Если вы не хотите активировать данную версию, нажмите **Не активировать новую версию**. workflow-процесс можно активировать позднее.
-

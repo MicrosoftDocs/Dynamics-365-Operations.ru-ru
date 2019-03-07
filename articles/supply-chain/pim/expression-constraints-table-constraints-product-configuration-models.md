@@ -1,13 +1,13 @@
 ---
-title: "Ограничения выражений и ограничения таблиц в моделях конфигурации продукта"
-description: "В этом разделе описывается использование ограничений выражений и ограничений таблиц. Ограничения управляют значениями атрибутов, которые можно выбирать при настройке продуктов для заказа на продажу, предложения по продажам, заказа на покупку или производственного заказа. Можно использовать ограничения выражений или ограничения таблиц в зависимости того, как вы предпочитаете формировать ограничения."
+title: Ограничения выражений и ограничения таблиц в моделях конфигурации продукта
+description: В этом разделе описывается использование ограничений выражений и ограничений таблиц. Ограничения управляют значениями атрибутов, которые можно выбирать при настройке продуктов для заказа на продажу, предложения по продажам, заказа на покупку или производственного заказа. Можно использовать ограничения выражений или ограничения таблиц в зависимости того, как вы предпочитаете формировать ограничения.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356653"
 ---
-
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Ограничения выражений и ограничения таблиц в моделях конфигурации продукта
 
 [!include [banner](../includes/banner.md)]
@@ -170,7 +169,7 @@ ms.lasthandoff: 05/08/2018
 </tr>
 <tr class="even">
 <td>Степень</td>
-<td>Выражение возводит аргумент в степень. Возведение в степень применяется справа налево. (То есть, это правоассоциативное выражение.) Поэтому выражение <strong>Power[a, b, c]</strong> эквивалентно <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> можно использовать только в том случае, если экспонента является положительной константой.</td>
+<td>Выражение возводит аргумент в степень. Возведение в степень применяется справа налево. (То есть, это правоассоциативное выражение.) Поэтому выражение <strong>Power[a, b, c]</strong> эквивалентно <strong>Power[a, Power[b, c]]</strong>. <strong>Power</strong> можно использовать только в том случае, если экспонента является положительной константой.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Оператор:</strong> Power[x, 2] == y</li>
@@ -223,7 +222,7 @@ ms.lasthandoff: 05/08/2018
 |        (x)        |                           Скобки имеют наивысший приоритет.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Почему мои ограничения выражений не проходят проверку?
-Нельзя использовать зарезервированные ключевые слова, такие как имена решателя, для атрибутов, компонентов или субкомпонентов в модели конфигурации продукта. Ниже приведен список зарезервированных ключевых слов, которые нельзя использовать.
+Нельзя использовать зарезервированные ключевые слова, такие как имена решателя, для атрибутов, компонентов или субкомпонентов в модели конфигурации продукта. Ниже приведен список зарезервированных ключевых слов, которые нельзя использовать.
 
 -   Ceiling
 -   Элемент
@@ -252,7 +251,6 @@ ms.lasthandoff: 05/08/2018
 [Создание ограничения выражения (проводник по задаче)](tasks/add-expression-constraint-product-configuration-model.md)
 
 [Добавление расчета к модели конфигурации продукта (проводник по задаче)](tasks/add-calculation-product-configuration-model.md)
-
 
 
 

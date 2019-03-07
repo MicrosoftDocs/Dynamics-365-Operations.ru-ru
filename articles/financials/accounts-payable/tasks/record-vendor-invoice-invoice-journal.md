@@ -1,13 +1,13 @@
---- 
-title: "Регистрация накладной поставщика в журнале накладных"
-description: "В этом руководстве показано, как зарегистрировать накладные поставщика, которые не связаны с заказами на покупку."
+---
+title: Регистрация накладной поставщика в журнале накладных
+description: В этом руководстве показано, как зарегистрировать накладные поставщика, которые не связаны с заказами на покупку.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace, LedgerJournalTable, LedgerJournalTransVendInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 775f3764d34cecbfc071ff7420d32c7832b42308
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 42f93e6d8fcf62babc3e3244bc1fe76d1efd9d13
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348948"
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Регистрация накладной поставщика в журнале накладных
 
@@ -47,5 +47,4 @@ ms.lasthandoff: 09/29/2017
     * По умолчанию в качестве значения "Скидка по оплате" будет использоваться значение из счета поставщика.  
 12. Щелкните "Разнести".
 13. Закройте страницу.
-
 

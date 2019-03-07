@@ -1,13 +1,13 @@
 ---
-title: "Настройка каналов центра обработки вызовов"
-description: "В этой статье содержится информация о том, как обрабатывать заказы для центров обработки вызовов с помощью Microsoft Dynamics 365 for Retail."
+title: Настройка каналов центра обработки вызовов
+description: В этой теме приводятся сведения об обработке заказов для центров обработки вызовов с помощью Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334849"
 ---
-
 # <a name="set-up-call-center-channels"></a>Настройка каналов центра обработки вызовов
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ ms.lasthandoff: 01/04/2019
 Пользователей, которые не связаны с каналом центра обработки вызовов, используют стандартные функции ввода заказа Microsoft Dynamics 365 for Finance and Operations. Заказы, которые эти пользователи вводят через форму ввода заказа на продажу, не определяются системой как заказы Retail. Кроме того, на эти заказы, введенные такими пользователями, не будут распространяться никакие правила обработки для завершения заказа, логика ценообразования розничной торговли или другие проверки заказа, которые могут быть определены в конфигурации канала центра обработки вызовов или в системных параметрах центра обработки вызовов.
 
 После того как вы завершили настройку канала центра обработки вызова и определили пользователей, чтобы помочь обеспечить требуемое поведение системы, убедитесь, что все необходимые параметры центра обработки вызовов определены в **Retail** \> **Настройка канала** \> **Настройка центра обработки вызовов** \> **Параметры центра обработки вызовов**. Убедитесь, что также определены связанные номерные серии.
-

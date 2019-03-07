@@ -1,13 +1,13 @@
 ---
-title: "Обеспечение уникальности разделителя плана счетов"
-description: "В Dynamics 365 for Finance and Operations не допускается одинаковый разделитель для плана счетов и значений аналитик. После обновления необходимо изменить значения разделителя."
+title: Настройка разделителя плана счетов как уникального
+description: В Dynamics 365 for Finance and Operations не допускается одинаковый разделитель для плана счетов и значений аналитик. После обновления необходимо изменить значения разделителя.
 author: ryansandness
 manager: AnnBe
 ms.date: 03/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: e197a1b44e038a97b8bf6db692dcc2eef2bc5f7b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335861"
 ---
-
-# <a name="make-the-chart-of-accounts-delimiter-unique"></a>Обеспечение уникальности разделителя плана счетов
+# <a name="make-the-chart-of-accounts-delimiter-unique"></a>Настройка разделителя плана счетов как уникального
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,4 +42,3 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Как определить, требуется ли в вашей среде обновление разделителей 
 В случае конфликта разделители в обновленной среде возможна неустойчивая работа при вводе значений в элементе управление сегментированным вводом или элементе управления вводом аналитики. Это означает, что необходимо будет всегда использовать поиск с подстановкой или всплывающее меню при вводе комбинаций счета и аналитики.
-

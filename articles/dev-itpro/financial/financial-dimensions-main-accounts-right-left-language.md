@@ -1,13 +1,13 @@
 ---
-title: "Финансовые аналитики и счета ГК в языках с направлением письма справа налево"
-description: "В этом разделе описаны некоторые решений реализации, которые следует учитывать при использовании языка с направлением письма справа налево и которые необходимо настроить в финансовых аналитик и счетах ГК."
+title: Финансовые аналитики и счета ГК в языках с направлением письма справа налево
+description: В этом разделе описаны некоторые решений реализации, которые следует учитывать при использовании языка с направлением письма справа налево и которые необходимо настроить в финансовых аналитик и счетах ГК.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 9609c052083dc3157618584da9311211ea036eba
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340208"
 ---
-
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Финансовые аналитики и счета ГК в языках с направлением письма справа налево
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,6 @@ ms.lasthandoff: 08/09/2018
 -   Не используйте выбранный разделить плана счетов в значениях финансовой аналитики и счета ГК.
 
 Следуя этим рекомендациям, вы помогаете обеспечить согласованное представление определяемого пользователем порядка во всей системе.
-
 
 
 

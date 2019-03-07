@@ -1,13 +1,13 @@
---- 
-title: "Настройка работника"
-description: "Эта процедура демонстрирует порядок настройки работника розничной торговли в качестве торгового представителя, который имеет право на комиссионные по продажам в POS."
+---
+title: Настройка работника
+description: Эта процедура демонстрирует порядок настройки работника розничной торговли в качестве торгового представителя, который имеет право на комиссионные по продажам в POS.
 author: jblucher
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, HcmWorker
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 797640b487884fc487582addea274007e4ba7a7d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 27b075cf1152f16fc4726b224e877eacb2f2572c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362541"
 ---
 # <a name="configure-a-worker"></a>Настройка работника
 
@@ -56,5 +56,4 @@ ms.lasthandoff: 02/07/2018
 5. Щелкните "Изменить".
 6. В поле "Группа по умолчанию" введите или выберите значение.
 7. Нажмите кнопку "Сохранить".
-
 

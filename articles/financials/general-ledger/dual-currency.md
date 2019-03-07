@@ -1,30 +1,29 @@
 ---
-title: "Две валюты"
-description: "В этом разделе содержатся сведения об учете в двух валютах, где валюта отчетности используется как вторая валюта учета для Microsoft Dynamics 365 for Finance and Operations."
+title: Две валюты
+description: В этом разделе содержатся сведения об учете в двух валютах, где валюта отчетности используется как вторая валюта учета для Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330318"
 ---
-
-# <a name="dual-currency"></a>Две валюты
+# <a name="dual-currency"></a>Двойная валюта
 
 [!include [banner](../includes/banner.md)]
 
@@ -184,4 +183,3 @@ ms.lasthandoff: 12/04/2018
     - Если тип проводки амортизации вводится в журнал основных средств, суммы в валюте отчетности отображаются в новых столбцах. Эти суммы могут быть изменены.
     - Если валюта учета и валюта отчетности в книге учета совпадают, суммы будут поддерживаться синхронизированными. При изменении суммы **Кредит** сумма **Кредит в валюте отчетности** автоматически изменяется, чтобы она соответствовала ей.
     - Если любой другой тип проводки вводится в журнал основных средств, суммы **Дебет в валюте отчетности** и **Кредит в валюте отчетности** никогда не отображаются, ни до, ни после разноски. Суммы в валюте учета и в валюте отчетности по-прежнему доступны в ваучере, который разносится в главную книгу.
-

@@ -1,13 +1,13 @@
 ---
-title: "Расчеты BOM"
-description: "Расчеты свертки затрат и цены продажи называются расчетами спецификации, и они инициируются со страницы «Расчеты». В этой теме представлены сведения о расчетах BOM."
+title: Расчеты BOM
+description: Расчеты свертки затрат и цены продажи называются расчетами спецификации, и они инициируются со страницы «Расчеты». В этой теме представлены сведения о расчетах BOM.
 author: AndersGirke
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 29ea9ddefba3416a33cd0e2f873624cc5c781a55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad00a3b5e41892aaa705fd8eafa52cc199e1d806
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341565"
 ---
-
 # <a name="bom-calculations"></a>Расчеты BOM
 
 [!include [banner](../includes/banner.md)]
@@ -91,7 +90,6 @@ ms.lasthandoff: 11/03/2017
 
 -   Расчет скомплектованной под заказ спецификации не создает запись затрат по номенклатуре в рамках версии цены. Поэтому политики расчета спецификации не применяются при создании записи затрат по номенклатуре или при переопределении записи затрат по номенклатуре.
 -   Расчет скомплектованной под заказ спецификации всегда использует активные записи затрат для компонентов, категорий затрат и формул расчета косвенных затрат.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Разработка структуры и плана зарплаты/компенсации"
-description: "В этом проводнике по задаче рассматривается процесс создания плана фиксированной компенсации и регистрации сотрудников в плане с помощью правил приемлемости."
+---
+title: Разработка структуры и плана зарплаты/компенсации
+description: В этом проводнике по задаче рассматривается процесс создания плана фиксированной компенсации и регистрации сотрудников в плане с помощью правил приемлемости.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332779"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>Разработка структуры и плана зарплаты/компенсации
 
@@ -74,5 +74,4 @@ ms.lasthandoff: 09/14/2018
     * Выберите критерии, которым должен отвечать сотрудник, чтобы иметь право на план компенсации. Критерии могут включать подразделение, профсоюз, местоположение (регион компенсации), задание, функцию, тип задания или уровень компенсации. Сотрудник должен отвечать всем указанным критериям, чтобы иметь право на план компенсации. Если критерии не указаны, все сотрудники будут иметь право на план компенсации. Если сотрудник не отвечает критериям, указанным в правиле приемлемости, или правило приемлемости не указано для плана компенсации, план компенсации не будет отображаться в результатах поиска при создании записи фиксированной компенсации для сотрудника.  
 7. Закройте страницу.
 8. Закройте страницу.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Настройка электронной отчетности (ER) для загрузки данных в Power BI"
-description: "В этом разделе описывается, как можно использовать конфигурацию электронной отчетности (ER), чтобы настроить перенос данных из вашего экземпляра Finance and Operations в службы Power BI."
+title: Настройка электронной отчетности (ER) для загрузки данных в Power BI
+description: В этом разделе описывается, как можно использовать конфигурацию электронной отчетности (ER), чтобы настроить перенос данных из вашего экземпляра Finance and Operations в службы Power BI.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e2d3c03a75fd03dfd3a96a181eff20f934546ec4
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335792"
 ---
-
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Настройка электронной отчетности (ER) для загрузки данных в Power BI
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="overview"></a>Обзор
 
-Microsoft Power BI представляет собой набор программных служб, приложений и соединителей, работающих вместе для превращения внешних источников данных в когерентные интерактивные знания с визуальным эффектом присутствия. Электронная отчетность (ER) позволяет пользователям Microsoft Dynamics 365 for Finance and Operations легко настраивать источники данных и организовывать перенос данных из Dynamics 365 for Finance and Operations в Power BI. Данные переносятся как файлы в формате листа OpenXML (файл книги Microsoft Excel). Перенесенные файлы хранятся на сервере Microsoft SharePoint Server, заданного для этой цели. Сохраненные файлов используются в Power BI для создания отчетов, которые включают визуализации (таблицы, диаграммы, карты и т. д.). Отчеты Power BI совместно используются пользователями Power BI, а доступ к ним возможен с панелей мониторинга Power BI и со страниц Finance and Operations. В этом раздел рассматриваются следующие задачи:
+Microsoft Power BI представляет собой набор программных служб, приложений и соединителей, работающих вместе для превращения внешних источников данных в когерентные интерактивные знания с визуальным эффектом присутствия. Электронная отчетность (ER) позволяет пользователям Microsoft Dynamics 365 for Finance and Operations легко настроить источники данных и организовать перенос данных из Finance and Operations в Power BI. Данные переносятся как файлы в формате листа OpenXML (файл книги Microsoft Excel). Перенесенные файлы хранятся на сервере Microsoft SharePoint Server, заданного для этой цели. Сохраненные файлов используются в Power BI для создания отчетов, которые включают визуализации (таблицы, диаграммы, карты и т. д.). Отчеты Power BI совместно используются пользователями Power BI, а доступ к ним возможен с панелей мониторинга Power BI и со страниц Finance and Operations. В этом раздел рассматриваются следующие задачи:
 
 - Настройка Finance and Operations.
 - Подготовка конфигурации формата ER для получения данных из Finance and Operations.
@@ -162,7 +161,7 @@ Microsoft Power BI представляет собой набор програм
 
 5. Настройте график обновления для данного набора данных, чтобы использовать принудительное периодическое обновление. Периодические обновления обеспечивает потребление новых бизнес-данных, поступающих из Finance and Operations, путем периодического выполнения отчета с новыми версиями файла Excel, созданных в SharePoint Server.
 
-## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Создание отчета Power BI. используя новый набор данных
+## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Создание отчета Power BI, используя новый набор данных
 1. Щелкните созданный вами набор данных Power BI **Сведения об импорте и экспорте**.
 2. Настройте визуализацию. Например, выберите визуализацию **Картограмма** и настройте ее следующим образом:
 
@@ -198,4 +197,3 @@ Microsoft Power BI представляет собой набор програм
 [Места назначения электронной отчетности](electronic-reporting-destinations.md)
 
 [Обзор электронной отчетности](general-electronic-reporting.md)
-

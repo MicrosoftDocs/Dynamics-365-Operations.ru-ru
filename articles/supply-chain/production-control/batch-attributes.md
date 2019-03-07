@@ -1,13 +1,13 @@
 ---
-title: "Атрибуты партии"
-description: "В этом разделе представлена информация об атрибутах партии. Атрибуты партии являются характеристиками сырья и готовых продуктов, которые образуют партии складских запасов. В разделе также описывается, как назначать атрибуты партии, и как можно производить по ним поиск при резервировании партий."
+title: Атрибуты партии
+description: В этом разделе представлена информация об атрибутах партии. Атрибуты партии являются характеристиками сырья и готовых продуктов, которые образуют партии складских запасов. В разделе также описывается, как назначать атрибуты партии, и как можно производить по ним поиск при резервировании партий.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 325e647185e3eb4c0eacdfd00c320804e31ddb48
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6c18b007a72686b1ede69b750e930d72e86f0aba
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347637"
 ---
-
 # <a name="batch-attributes"></a>Атрибуты партии
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="reserve-batches"></a>Резервирование партий
 Вы можете искать по атрибутам партии, когда вы резервируете партию для заказа на продажу, чтобы выполнить заказ клиента, или когда вы комплектуете и резервируете партии для производственного заказа. Поиск помогает найти партию складских запасов, в которой содержится продукт с требуемыми атрибутами партии. После того как партия или партии найдены, можно затем зарезервировать продукт для создаваемой строки складской проводки.
-
 
 
 

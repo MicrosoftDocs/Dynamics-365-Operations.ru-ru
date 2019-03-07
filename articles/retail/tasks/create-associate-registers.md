@@ -1,13 +1,13 @@
---- 
-title: "Создание и связывание регистраторов"
-description: "В этой процедуре показано, как создать регистр POS."
+---
+title: Создание и связывание регистраторов
+description: В этой процедуре показано, как создать регистр POS.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 07e4b9f32a3a74b273272bd0b759d35c2a963e2e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1de4e71fd554ba0486a5d2f65803f0806df37fe4
-ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360655"
 ---
 # <a name="create-and-associate-registers"></a>Создание и связывание регистраторов
 
@@ -43,5 +43,4 @@ ms.lasthandoff: 02/07/2018
 8. В поле "Номер POS для электронных платежей" введите значение.
     * Номер регистра POS для электронных платежей используется для уведомления процессора платежа, которому терминал платежей отправляет запросы на авторизацию. Это значение часто называется "Код терминала" или "TID". TID обычно указывается на наклейке на платежном терминале.  
 9. Нажмите кнопку "Сохранить".
-
 

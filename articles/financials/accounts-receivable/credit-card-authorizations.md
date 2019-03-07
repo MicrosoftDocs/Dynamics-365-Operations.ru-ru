@@ -1,13 +1,13 @@
 ---
-title: "Настройка, авторизация и захват кредитной карточки"
-description: "Эта статья содержит обзор авторизации кредитной карты в Microsoft Dynamics 365 for Finance and Operations. Она включает информацию о том, как настроить службу платежей, добавить кредитную карту в заказ на продажу и аннулировать авторизацию."
+title: Настройка, авторизация и захват кредитной карточки
+description: Эта статья содержит обзор авторизации кредитной карты в Microsoft Dynamics 365 for Finance and Operations. Она включает информацию о том, как настроить службу платежей, добавить кредитную карту в заказ на продажу и аннулировать авторизацию.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CreditCardProcessors, CustTable, SalesTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7a1d3c73e4305375ddf356b93b9502b0255df99b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a6354563fdebff901498f1cd6caed3aedae668b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343014"
 ---
-
 # <a name="credit-card-setup-authorization-and-capture"></a>Настройка, авторизация и захват кредитной карточки
 
 [!include [banner](../includes/banner.md)]
@@ -78,7 +77,6 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="voiding-an-authorization"></a>Аннулирование авторизации
 Чтобы аннулировать авторизацию кредитной карты, вы можете изменить метод платежа на другой метод, который не имеет типа кредитной карточки.
-
 
 
 

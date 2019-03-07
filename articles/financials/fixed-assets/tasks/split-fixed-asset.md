@@ -1,13 +1,13 @@
---- 
-title: "Разбивка ОС"
-description: "В данном руководстве по задаче показано, как разделить процент одной модели стоимости основного средства в новую модель стоимости основного средства."
+---
+title: Разбивка ОС
+description: В данном руководстве по задаче показано, как разделить процент одной модели стоимости основного средства в новую модель стоимости основного средства.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6be9de64265a4d7b5c91af3ee8acfce80c78e0f1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b4c1b39bcae1fa3830f3a217d1ad89e84cd72134
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333377"
 ---
 # <a name="split-a-fixed-asset"></a>Разбивка ОС
 
@@ -58,5 +58,4 @@ ms.lasthandoff: 09/29/2017
 3. Щелкните "Строки".
     * Проверьте созданные строки журнала.  Проводка о корректировке приобретения создается для исходного основного средства для уменьшения стоимости на процент, указанный в процессе разбиения.  Проводка приобретения создается для нового основного средства на ту же сумму.  
 4. Щелкните "Разнести".
-
 

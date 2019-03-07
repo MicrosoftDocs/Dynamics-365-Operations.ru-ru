@@ -1,13 +1,13 @@
 ---
-title: "Получение поддержки по Finance and Operations или Lifecycle Services (LCS)"
-description: "В этой статье объясняется, как получить помощь по работе с Microsoft Dynamics 365 for Finance and Operations или Microsoft Dynamics Lifecycle Services (LCS)."
+title: Получение поддержки по Finance and Operations или Lifecycle Services (LCS)
+description: В этой статье объясняется, как получить помощь по работе с Microsoft Dynamics 365 for Finance and Operations или Microsoft Dynamics Lifecycle Services (LCS).
 author: kfend
 manager: AnnBe
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334780"
 ---
-
 # <a name="get-support-for-finance-and-operations-or-lifecycle-services-lcs"></a>Получение поддержки по Finance and Operations или Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ ms.lasthandoff: 09/22/2018
 <tbody>
 <tr class="odd">
 <td>Задать вопрос в сообществе.</td>
-<td>Перейдите на страницу <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">сообщества Dynamics 365 for Finance and Operations</span></a> и попробуйте получить ответ на свои вопросы у сообщества Dynamics.</td>
+<td>Перейдите на страницу <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">Сообщество Dynamics 365 for Finance and Operations</span></a> и попробуйте получить ответ на свои вопросы у сообщества Dynamics.</td>
 </tr>
 <tr class="even">
 <td>Воспользоваться средством "Поиск проблем".</td>
@@ -93,5 +92,4 @@ ms.lasthandoff: 09/22/2018
 - [Получение поддержки по Dynamics 365 for Retail](../../retail/retail-support.md)
 - [Получение поддержки по Dynamics 365 for Talent](../../talent/talent-support.md)
 - Дополнительные сведения об услугах поддержки Microsoft Dynamics см. в разделе [Поддержка Microsoft Dynamics Online](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
-
 

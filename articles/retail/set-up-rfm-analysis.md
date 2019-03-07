@@ -1,13 +1,13 @@
 ---
-title: "Настройка анализа новизны, частоты и денежных средств (RFM)"
-description: "В этом разделе описывается, как настроить анализ RFM (новизна, частота и денежные средства) клиентов."
+title: Настройка анализа новизны, частоты и денежных средств (RFM)
+description: В этом разделе описывается, как настроить анализ RFM (новизна, частота и денежные средства) клиентов.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRRFMDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 4314c81823940ce3192da23dfdf777e8ebf781f2
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336643"
 ---
-
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Настройка анализа новизны, частоты и денежных средств (RFM)
 
 [!include [banner](includes/banner.md)]
@@ -98,4 +97,3 @@ ms.lasthandoff: 01/04/2019
 2. На странице **RFM-анализ** выберите запись, которую требуется просмотреть.
 3. Чтобы просмотреть журнал записей, выберите экспресс-вкладку **История**.
 4. Чтобы очистить журнал записей, выберите **Очистить историю**.
-

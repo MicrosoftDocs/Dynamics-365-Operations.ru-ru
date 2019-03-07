@@ -1,32 +1,31 @@
 ---
-title: "Политика свертки затрат и расчет накладных расходов"
-description: "В этом разделе представлена информация о том, как определить правильный уровень элементов вторичных затрат и создать правила сводки затрат, соответствующие отчетности организации и отслеживанию затрат."
+title: Политика свертки затрат и расчет накладных расходов
+description: В этом разделе представлена информация о том, как определить правильный уровень элементов вторичных затрат и создать правила сводки затрат, соответствующие отчетности организации и отслеживанию затрат.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e809cb2cadadc623134805e028de7f2e64dd662f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356147"
 ---
-
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Политика свертки затрат и расчет накладных расходов 
 
 [!include [banner](../includes/banner.md)]
@@ -251,13 +250,13 @@ ms.lasthandoff: 05/08/2018
 | CC003       | Сборка     | SC-CC002 | Финансы         | 11.527,75   | 31.01.2017 |
 | CC004       | Упаковка    | SC-CC002 | Финансы         | 6.207,25    | 31.01.2017 |
 
-После завершения **Расчета накладных расходов**, можно учесть в отчете результаты, используя средства, такие как Microsoft SharePoint Workspace, Excel или Power BI.
+После завершения **Расчета накладных расходов** можно учесть в отчете результаты, используя средства, такие как Microsoft SharePoint Workspace, Excel или Power BI.
 
 ## <a name="view-reporting-in-excel"></a>Просмотр отчетности в Excel 
 
 В иерархиях аналитик можно просматривать данные на разных уровнях агрегирования.
 
-Ниже приведен пример отчетности Power BI в Excel.
+Ниже приведен пример отчетности Power Pivot в Excel.
 
 | **Отчет о прибылях и убытках** | **Объект затрат** |                |               |               |  **Итого**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
@@ -302,4 +301,3 @@ ms.lasthandoff: 05/08/2018
 -  [Аналитики элемента затрат](cost-elements.md)
 -  [Иерархии аналитик](dimension-hierarchy.md)
 -  [Расчет накладных расходов](overhead-calculation.md)
-

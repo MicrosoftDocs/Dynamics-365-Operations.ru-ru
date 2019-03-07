@@ -1,31 +1,30 @@
 ---
-title: "Выбор между Retail Modern POS (MPOS) и Cloud POS"
-description: "В этом разделе объясняются ключевые различия между Retail Modern POS и Cloud POS. Здесь также описываются различные факторы, которые предприятиям розничной торговли, внедряющие Microsoft Dynamics 365 for Retail, следует рассмотреть, чтобы сделать лучший выбор для своих потребностей."
+title: Выбор между Retail Modern POS (MPOS) и Cloud POS
+description: В этом разделе объясняются ключевые различия между Retail Modern POS и Cloud POS. Здесь также описываются различные факторы, которые предприятиям розничной торговли, внедряющие Microsoft Dynamics 365 for Retail, следует рассмотреть, чтобы сделать лучший выбор для своих потребностей.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336252"
 ---
-
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Выбор между Retail Modern POS (MPOS) и Cloud POS
 
 [!include [banner](includes/banner.md)]
@@ -58,10 +57,10 @@ Retail поддерживает следующие параметры POS:
 
 #### <a name="mpos"></a>MPOS
 
-MPOS на устройстве Windows, iOS, или Android — это приложение, которое упаковывается, устанавливается и обслуживания на этом устройстве.
+MPOS на устройстве Windows, iOS, или Android — это приложение, которое упаковывается, устанавливается и обслуживания на этом устройстве.
 
 - **Windows** — приложение MPOS для Windows содержит весь код приложения и внедренную коммерческую среду выполнения (CRT). 
-- **iOS/Android** — на этих платформах приложение выполняет роль узла для кода приложения CPOS. Другими словами, код приложения поступает с сервера CPOS на Microsoft Azure или Retail Store Scale Unit (RSSU). Дополнительные сведения см. в разделе [Общие сведения о Retail Store Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** — на этих платформах приложение выполняет роль узла для кода приложения CPOS. Другими словами, код приложения поступает с сервера CPOS на Microsoft Azure или Retail Store Scale Unit (RSSU). Дополнительные сведения см. в разделе [Обзор Retail Store Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 
@@ -106,4 +105,3 @@ MPOS для Windows поддерживает автономный режим. В
 - **Оборудование/периферийные устройства** — один важный аспект системы Retail POS заключается в возможности использования периферийного оборудования POS, такого как принтеры, денежные ящики и платежные терминалы. Несмотря на то, что все доступные варианты POS могут использовать периферийные устройства, только MPOS для Windows поддерживает их непосредственно. Для других приложений необходима одна или несколько станций оборудования. Хотя такой подход добавляет гибкости, дополнительные компоненты необходимо развертывать, настраивать и обслуживать.
 - **Требования к системе** — требования к системе для POS-приложения различаются. Обязательно проверьте последние сведения, прежде чем делать выбор. Например, так как приложение CPOS выполняется в браузере, оно поддерживает широкий диапазон операционных систем. Дополнительные сведения о требованиях к системе см. в документе [Требования к системе для облачных развертываний](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
 - **Развертывание и обслуживание** — требования к сложности развертывания и обслуживания могут различаться в зависимости от выбора приложения и развертывания. Например, для развертывания CPOS с размещением в облаке не требуется устанавливать и обновлять каждое устройство. Таким образом, этот подход значительно уменьшает сложность и стоимость. Однако если выполнить развертывание MPOS на каждой ККМ и включить автономный режим, а также развернуть общую станцию оборудования, значительно увеличивается количество конечных точек, которыми требуется управлять.
-

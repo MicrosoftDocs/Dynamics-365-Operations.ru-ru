@@ -1,13 +1,13 @@
 ---
-title: "Настройка ручных решений в workflow-процессе"
-description: "В этом разделе описывается, как настроить свойства ручного решения."
+title: Настройка ручных решений в workflow-процессе
+description: В этом разделе описывается, как настроить свойства ручного решения.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d09e99a5bf99593a8fa7682f9d4f29eaa4e7c836
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341404"
 ---
-
 # <a name="configure-manual-decisions-in-a-workflow"></a>Настройка ручных решений в workflow-процессе
 
 [!include [banner](../includes/banner.md)]
@@ -372,4 +371,3 @@ ms.lasthandoff: 12/18/2018
     - **Годы** — выберите день, неделю и месяц, к которым должно быть принято решение. Например, можно указать, что решение должно быть принято до пятницы третьей недели декабря.
 
 4. По истечении предельного срока система принимает решение. В списке **Действие** выберите параметр, который должна выбрать система.
-

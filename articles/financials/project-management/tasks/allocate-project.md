@@ -1,13 +1,13 @@
---- 
-title: "Распределение бюджета проекта или версии бюджета проекта по периодам"
-description: "Эта процедура показывает, как распределять суммы бюджета проекта по периодам."
+---
+title: Распределение бюджета проекта или версии бюджета проекта по периодам
+description: Эта процедура показывает, как распределять суммы бюджета проекта по периодам.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d001cd3d922fc4790a1e5288f432df13e90ce03c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a253a37bc83482c5bc971cad585e18ccb230b16f
-ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344164"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Распределение бюджета проекта или версии бюджета проекта по периодам
 
@@ -42,6 +42,5 @@ ms.lasthandoff: 04/13/2018
 8. В форме "Распределение бюджета проекта" или форме "Распределение версии бюджета проекта" просмотрите или обновите распределяемые суммы. 
 9. Закройте страницу.
 10. Когда будет получено требуемое распределение, щелкните "Отправить" на странице "Бюджет проекта" для отправки бюджета или версий бюджета в workflow-процесс утверждения.  
-
 
 

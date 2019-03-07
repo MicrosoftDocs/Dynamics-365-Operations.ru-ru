@@ -1,13 +1,13 @@
 ---
-title: "Амортизация с уменьшаемым остатком в 150%"
-description: "Эта статья содержит обзор метода амортизации с уменьшаемым остатком в 150 %."
+title: Амортизация с уменьшаемым остатком в 150%
+description: Эта статья содержит обзор метода амортизации с уменьшаемым остатком в 150 %.
 author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff4b40663f0da6bcc01b00f3f44cd8d8b43b56a1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b35b8ea652ccb06c45b8091cc7f57e849e1a5915
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331629"
 ---
-
 # <a name="150-percent-reducing-balance-depreciation"></a>Амортизация с уменьшаемым остатком в 150%
 
 [!include [banner](../includes/banner.md)]
@@ -85,8 +84,7 @@ ms.lasthandoff: 11/03/2017
 | 3-й год | 4900 × 30% = 1470                           | 5900 – 1470 = 4430  | 4900 – 1470 = 3430                 |
 
 > [!NOTE]
-> Обычно если сумма, которая вычислена с помощью метода амортизации с уменьшаемым сальдо в 150%, становится меньше суммы, которая была бы получена при использовании метода прямой линии, производится переход на метод прямой линии на оставшийся срок службы.
-
+> Обычно если сумма, которая вычислена с помощью метода амортизации с уменьшаемым сальдо в 150%, становится меньше суммы, которая была бы получена при использовании метода прямой линии, производится переход на метод прямой линии на оставшийся срок службы.
 
 
 

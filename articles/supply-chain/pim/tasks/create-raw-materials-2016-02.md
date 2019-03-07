@@ -1,13 +1,13 @@
---- 
-title: "Создание сырья (февраль 2016 г.)"
-description: "Эта задача рассматривает создание компонентов готовой продукции и полуфабрикатов."
+---
+title: Создание сырья (февраль 2016 г.)
+description: Эта задача рассматривает создание компонентов готовой продукции и полуфабрикатов.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup, InventItemPrice
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 091b6edaf43e86e6e3665bf79871648473e284c7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351064"
 ---
 # <a name="create-raw-materials-february-2016"></a>Создание сырья (февраль 2016 г.)
 
@@ -156,5 +156,4 @@ ms.lasthandoff: 09/14/2018
 25. Щелкните "Активировать ожидающие цены".
 26. Закройте страницу.
 27. Закройте страницу.
-
 

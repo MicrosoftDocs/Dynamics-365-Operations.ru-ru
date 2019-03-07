@@ -1,13 +1,13 @@
---- 
-title: "Определение новых заданий"
-description: "Эта задача рассматривает создание нового задания."
+---
+title: Определение новых заданий
+description: Эта задача рассматривает создание нового задания.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347936"
 ---
 # <a name="define-new-jobs"></a>Определение новых заданий
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 09/14/2018
 21. В списке найдите и выберите требуемую запись.
 22. В списке перейдите по ссылке в выбранной строке.
 23. Переключите развертывание раздела "Навыки".
-    * Обратите внимание, что поля на экспресс-вкладках "Навыки, "Образование" и "Сертификаты" пусты. После копирования информации из шаблона должности сведения, указанные в этих полях, будут введены одновременно.   
+    * Обратите внимание, что поля на экспресс-вкладках "Навыки, "Образование" и "Сертификаты" пусты. После копирования информации из шаблона должности сведения, указанные в этих полях, будут введены одновременно.   
 24. Нажмите кнопку "Сохранить".
 25. Щелкните "Копировать из".
 26. Щелкните "Копировать из шаблона".
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/14/2018
 32. Переключите развертывание раздела "Сертификаты".
 33. Переключите развертывание раздела "Образование".
 34. Нажмите кнопку "Сохранить".
-
 

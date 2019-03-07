@@ -1,13 +1,13 @@
 ---
-title: "Клиентские заказы в Retail Modern POS (MPOS)"
-description: "В этом разделе представлена информация о заказах клиентов в современном терминале розничной торговли Retail Modern POS (MPOS). Заказы клиентов также называются специальными заказами. Раздел включает в себя обсуждение связанных параметров и потоков проводки."
+title: Клиентские заказы в Retail Modern POS (MPOS)
+description: В этом разделе представлена информация о заказах клиентов в Retail Modern POS (MPOS). Заказы клиентов также называются специальными заказами. Раздел включает в себя обсуждение связанных параметров и потоков проводки.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: b54f39cc7896871d77f9371e6197bf6dbaac51de
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336620"
 ---
-
 # <a name="customer-orders-in-retail-modern-pos-mpos"></a>Клиентские заказы в Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе представлена информация о заказах клиентов в современном терминале розничной торговли Retail Modern POS (MPOS). Заказы клиентов также называются специальными заказами. Раздел включает в себя обсуждение связанных параметров и потоков проводки.
+В этом разделе представлена информация о заказах клиентов в Retail Modern POS (MPOS). Заказы клиентов также называются специальными заказами. Раздел включает в себя обсуждение связанных параметров и потоков проводки.
 
 В мире многоканальной розничной торговли многие компании розничной торговли предоставляют возможность заказов клиента или специальных заказов для удовлетворения требований разных продуктов и требований выполнения. Вот некоторые типовые сценарии:
 
@@ -57,7 +56,7 @@ ms.lasthandoff: 01/04/2019
 
 ## <a name="transaction-flow-for-customer-orders"></a>Порядок проводки для клиентских заказов
 
-### <a name="create-a-customer-order-in-retail-modern-pos"></a>Создайте клиентский заказ в Retail Modern POS
+### <a name="create-a-customer-order-in-retail-modern-pos"></a>Создание заказа клиента в Retail Modern POS
 
 1. Добавьте клиента к этой проводке.
 2. Добавить продукты в корзину.
@@ -102,4 +101,3 @@ ms.lasthandoff: 01/04/2019
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Гибридные клиентские заказы](hybrid-customer-orders.md)
-

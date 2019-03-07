@@ -1,13 +1,13 @@
---- 
-title: "Настройка банковских счетов компании для безакцептного списания ISO20022"
-description: "В этой задаче описывается настройка сведений о банковском счете компании, которые необходимы для создания файлов платежей клиентов."
+---
+title: Настройка банковских счетов компании для безакцептного списания ISO20022
+description: В этой задаче описывается настройка сведений о банковском счете компании, которые необходимы для создания файлов платежей клиентов.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, OMLegalEntity, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 290d0eeb383dc3808935809e21b1bf6c99a8550a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 6b61495342b18d6dbadb36d8ca146f5a68ba9f6c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353525"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>Настройка банковских счетов компании для безакцептного списания ISO20022
 
@@ -59,5 +59,4 @@ ms.lasthandoff: 09/29/2017
 5. В списке перейдите по ссылке в выбранной строке.
     * Например, выберите банковский счет "DEMF OPER".  
 6. Нажмите кнопку "Сохранить".
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Планирование маршрутов фрахта с несколькими остановками"
-description: "В этой статье описываются различные элементы, которые можно использовать для планирования маршрутов транспортировки в Dynamics 365 for Finance and Operations."
+title: Планирование маршрутов фрахта с несколькими остановками
+description: В этой статье описываются различные элементы, которые можно использовать для планирования маршрутов транспортировки в Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328317"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Планирование маршрутов фрахта с несколькими остановками
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="load-building-workbench"></a>Рабочее место формирования загрузки
 На странице "Рабочее место формирования загрузки" используются адреса клиентов и даты поставки из заказов на продажу и доступных запланированных маршрутов для предложения загрузки. По умолчанию значения из маршрута вводятся в рабочем месте. Тем не менее, можно выбрать дату "с", предшествующую дате "с" в маршруте. Если предлагается загрузка, проверяются адрес поставки и дата поставки всех открытых заказов на продажу. Если почтовый индекс в адресе поставки соответствует почтовому индексу узла в плане маршрута и дата поставки находится в пределах диапазона, выбранного в критериях, заказ на продажу предлагается для загрузки. Также учитывается вместимость шаблона загрузки. Одновременно предлагается только одна загрузка. Если заказ на продажу не включается, может потребоваться использовать другой шаблон загрузки (например, шаблон загрузки для большего грузовика или контейнера) или запланировать дополнительную поставку.
-
 
 
 

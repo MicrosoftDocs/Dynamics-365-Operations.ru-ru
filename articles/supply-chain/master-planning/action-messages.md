@@ -1,13 +1,13 @@
 ---
-title: "Сообщения по действию"
-description: "Сообщение по действию — это созданное системой предложение изменить существующий Спланированный или подтвержденный заказ."
+title: Сообщения по действию
+description: Сообщение по действию — это созданное системой предложение изменить существующий Спланированный или подтвержденный заказ.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a417abc8b725f4d57ada595da57505ae1347bfc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0990ddc9c330b1d590e4c49eba0582c9cf70aa06
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349661"
 ---
-
 # <a name="action-messages"></a>Сообщения по действию
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ ms.lasthandoff: 11/03/2017
 | **Сокращение**        | Если вы выбираете это сообщение, производственные заказы, заказы на покупку и другие проводки по приходу должны быть уменьшены для предотвращения избыточного уровня запасов.                                                                                                   |
 | **Увеличение**        | Если вы выбираете это сообщение, производственные заказы, заказы на покупку и другие проводки по приходу должны быть увеличены для предотвращения недостаточного уровня запасов.                                                                                                    |
 | **Производные действия** | Если вы выбираете это сообщение, создаются сообщения по действиям для производных требований, например действий для заказов компонентов для удовлетворения требований производства.                                                                                                   |
-
 
 
 

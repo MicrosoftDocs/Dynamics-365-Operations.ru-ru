@@ -1,13 +1,13 @@
 ---
-title: "Настройка мобильных устройств для работы склада"
-description: "В этой теме описывается, как настроить пункты меню, используемые работниками склада для выполнения работы на мобильном устройстве."
+title: Настройка мобильных устройств для работы склада
+description: В этой теме описывается, как настроить пункты меню, используемые работниками склада для выполнения работы на мобильном устройстве.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
 ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/03/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347959"
 ---
-
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Настройка мобильных устройств для работы склада
 
 [!include [banner](../includes/banner.md)]
@@ -208,7 +207,7 @@ ms.lasthandoff: 10/03/2018
 </thead>
 <tbody>
 <tr class="odd">
-<td>None</td>
+<td>Не допускается</td>
 <td>Это значение по умолчанию не обрабатывает работу.</td>
 </tr>
 <tr class="even">
@@ -245,7 +244,7 @@ ms.lasthandoff: 10/03/2018
 <td>Работник группирует работу в кластеры. Кластеры позволяют работникам комплектовать номенклатуры из одного местонахождения для нескольких заказов на выполнение работ одновременно.</td>
 </tr>
 <tr class="even">
-<td>Группировка подсчетов циклов</td>
+<td>Группировка цикличного подсчета</td>
 <td>Работник выбирает зону, пул работ или местонахождение, а Microsoft Dynamics 365 for Finance and Operations назначает работу на основании этого выбора. При выборе этого параметра можно щелкнуть <strong>Подсчет циклов</strong> на панели действий, чтобы указать дополнительную информацию для отображения и можно также определить, сколько раз работник должен повторить подсчет для определения разницы.</td>
 </tr>
  <tr class="odd">
@@ -387,7 +386,7 @@ ms.lasthandoff: 10/03/2018
 </tr>
 <tr class="odd">
 <td>Код шаблона работы</td>
-<td>Выберите шаблон работы, который создаст работу для процесса. Например, при получении номенклатуры для заказа на покупку работа размещения будет создана на основании шаблона работы. Если не выбрать шаблон работы, Microsoft Dynamics 365 for Finance and Operations назначает шаблон на основе критериев запроса. Дополнительные сведения о шаблонах работы см. в разделе <a href="control-warehouse-location-directives.md">Контроль работы склада с шаблонами работы и директивами для мест хранения</a>.</td>
+<td>Выберите шаблон работы, который создаст работу для процесса. Например, при получении номенклатуры для заказа на покупку работа размещения будет создана на основании шаблона работы. Если шаблон работы не выбран, Microsoft Dynamics 365 for Finance and Operations назначит шаблон на основании критериев запроса. Дополнительные сведения о шаблонах работы см. в разделе <a href="control-warehouse-location-directives.md">Контроль работы склада с шаблонами работы и директивами для мест хранения</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -420,6 +419,5 @@ ms.lasthandoff: 10/03/2018
 
 [Настройка пункта меню мобильного устройства для регистрации полученных номенклатуры (проводник по задаче)](tasks/set-up-mobile-device-menu-item-register-received-items.md)
 [Преимущества использования состояний запасов](../inventory/inventory-statuses.md)
-
 
 

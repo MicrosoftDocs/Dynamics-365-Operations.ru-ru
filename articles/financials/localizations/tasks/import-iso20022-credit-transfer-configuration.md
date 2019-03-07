@@ -1,13 +1,13 @@
---- 
-title: "Импорт конфигурации кредитового перевода ISO20022"
-description: "Эта процедура показывает, как импортировать конфигурацию электронной отчетности по платежам поставщикам."
+---
+title: Импорт конфигурации кредитового перевода ISO20022
+description: Эта процедура показывает, как импортировать конфигурацию электронной отчетности по платежам поставщикам.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3fbd2e39f488696ebe8db5579ed88595e246ce97
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 71c0175178203006e297466c4a37cd3e6319b6ea
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337356"
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>Импорт конфигурации кредитового перевода ISO20022
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 
 Эта задача была создана с использованием демонстрационных данных компании DEMF, но можно использовать любую компанию с демонстрационными данными для выполнения этой задачи.
 
-Это первая из пяти задач, которые совместно иллюстрируют процесс платежа поставщикам с помощью конфигурации электронной отчетности. Эта процедура предназначена для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
+Это первая из пяти задач, которые совместно иллюстрируют процесс платежа поставщикам с помощью конфигурации электронной отчетности. Эта процедура для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
 
 1. Перейдите в раздел "Управление организацией" > "Рабочие области" > "Электронная отчетность".
 2. В списке доступных поставщиков конфигурации выберите Microsoft.
@@ -44,5 +44,4 @@ ms.lasthandoff: 09/29/2017
 8. Нажмите кнопку Импорт.
     * Если кнопка "Импорт" недоступна, это означает, что данная конфигурация уже была импортирована.  
 9. Щелкните Да.
-
 

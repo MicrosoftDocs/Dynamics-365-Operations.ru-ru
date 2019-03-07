@@ -1,13 +1,13 @@
 ---
-title: "Вопросы и ответы по адресным книгам"
-description: "В этом разделе содержатся ответы на часто задаваемые вопросы, относящиеся к адресным книгам в Microsoft Dynamics 365 for Finance and Operations."
+title: Вопросы и ответы по адресным книгам
+description: В этом разделе содержатся ответы на часто задаваемые вопросы, относящиеся к адресным книгам в Microsoft Dynamics 365 for Finance and Operations.
 author: kfend
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: bb0239fd9bd80ae15bd2cca08d5a5f5258aef638
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337816"
 ---
-
 # <a name="address-books-faq"></a>Вопросы и ответы по адресным книгам
 
 [!include [banner](../includes/banner.md)]
@@ -69,4 +68,3 @@ ms.lasthandoff: 12/18/2018
 ## <a name="can-i-translate-address-information-for-party-records"></a>Можно ли перевести сведения об адресе для записей субъектов?
 
 Переводы сведений об адресе можно настроить так, чтобы сведения отображались на языке пользователя (системном языке) в Microsoft Dynamics 365 for Finance and Operations, но при этом отображались на другом языке в документах, таких как заказы на продажу. Можно ввести трансляции для имен стран и регионов, целей адреса и последовательностей имен. Например, язык системы — датский, и создается заказ на продажу для клиента во Франции. В этом случае можно просмотреть запись клиента на датском языке в программе, но отобразить сведения об адресе на французском языке в печатном заказе на продажу. При настройке переводов необходимо указать перевод для каждого элемента в списке. Любой элемент, для которого перевод не указан, будет отображаться на системном языке. Пусть, например, язык системы - датский, а документ отправляется клиенту в Испании. Если для сведений об адресе не введены переводы на испанский, эти сведения будут отображаться в программе и в печатных документах на датском языке.
-

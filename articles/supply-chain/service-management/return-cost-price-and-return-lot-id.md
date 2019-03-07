@@ -1,31 +1,30 @@
 ---
-title: "Себестоимость по возврату и номер возвращенного лота"
-description: "Может потребоваться, чтобы стоимость возвращенных продуктов совпадала со стоимостью продуктов на момент их продажи клиенту. Это можно сделать с помощью параметра **Номер возвращенного лота**."
+title: Себестоимость по возврату и номер возвращенного лота
+description: Может потребоваться, чтобы стоимость возвращенных продуктов совпадала со стоимостью продуктов на момент их продажи клиенту. Это можно сделать с помощью параметра **Номер возвращенного лота**.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33cd3d50fe342ba12a17419f4e759c243a60b3e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: aeba56128ab6c9ab7d244bdf153faba8e96069d6
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335148"
 ---
-
 # <a name="return-cost-price-and-return-lot-id"></a>Себестоимость по возврату и номер возвращенного лота        
 
 [!include [banner](../includes/banner.md)]
@@ -109,7 +108,6 @@ ms.lasthandoff: 05/08/2018
 10. В модуле "Управление запасами и складом" используйте форму **Закрытие и коррекция** для выполнения процедуры **3. Закрытие**.
     
     Это действие корректирует стоимость в строке исходной продажи с -35,00 (5 единиц \* 7,00) до -30,00 (5 единиц \* 6,00). Это связано с тем, что группа складских моделей метод ФИФО, и 6,00 за единицу является ценой ФИФО из первого заказа на покупку. Кроме того, это действие корректирует стоимость в строке возврата для соответствия цене за единицу в исходной строке продажи. Поэтому стоимость в строке возврата меняется с 35,00 на 30,00.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Параметры для запрета скидок для розничных продуктов"
-description: "Существует несколько причин, по которым предприятиям розничной торговли может потребоваться запретить скидки на некоторые продукты либо в ходе рекламной акции, либо при продаже на POS."
+title: Параметры для запрета скидок для розничных продуктов
+description: Существует несколько причин, по которым предприятиям розничной торговли может потребоваться запретить скидки на некоторые продукты либо в ходе рекламной акции, либо при продаже на POS.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: c9d3e7af95dffddfddc34059d93a2a5a350d08e5
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/15/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346073"
 ---
-
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Параметры для запрета скидок для розничных продуктов
 
 [!include [banner](includes/banner.md)]
@@ -42,4 +41,3 @@ ms.lasthandoff: 01/15/2019
 > Эти параметры не ограничивают доступ к операции переопределения цены, поскольку при этом задается базисная цена, что не рассматривается как скидка.
 
 [![поле для запрета скидок](./media/prevent-discounts.png)](./media/prevent-discounts.png)
-

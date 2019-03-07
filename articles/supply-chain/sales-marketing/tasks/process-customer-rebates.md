@@ -1,13 +1,13 @@
---- 
-title: "Создание и обработка ретробонусов клиента"
-description: "В этой процедуре демонстрируется обработка ретробонусов клиентам от момента формирования требования до передачи их в виде начислений в модуль \"Расчеты с клиентами\"."
+---
+title: Создание и обработка ретробонусов клиента
+description: В этой процедуре демонстрируется обработка ретробонусов клиентам от момента формирования требования до передачи их в виде начислений в модуль "Расчеты с клиентами".
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5afe2fa73e218aa9eb21aff866baa509860a83cb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336459"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Создание и обработка ретробонусов клиента
 
@@ -83,5 +83,4 @@ ms.lasthandoff: 09/29/2017
 9. В поле "Клиент" введите или выберите значение.
 10. Нажмите кнопку "OК".
     * Появляется сообщение о том, что ретробонусы были успешно обработаны, и статус требований меняется на "Пометка". Это означает, что в результате разноски журнала начисления "Ретробонус": а) требования перенесены на временное сальдо клиента в качестве вычетов; б) счет начисления "Ретробонус" был кредитован для отражения будущей задолженности перед клиентом и в) счет расходов "Ретробонус" был дебетован для отражения затрат, понесенных в связи с продажей.   
-
 

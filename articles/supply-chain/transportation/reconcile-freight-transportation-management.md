@@ -1,13 +1,13 @@
 ---
-title: "Выверка фрахта в модуле \"Управление транспортировкой\""
-description: "В этой статье описывается процесс выверки фрахта."
+title: Выверка фрахта в модуле "Управление транспортировкой"
+description: В этой статье описывается процесс выверки фрахта.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSInvoiceTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f92808f904ba93513e20b74bd2b597712cb93d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 722c52c22a98317dd67887f50fc95f3e3764ed83
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344785"
 ---
-
 # <a name="reconcile-freight-in-transportation-management"></a>Выверка фрахта в модуле "Управление транспортировкой"
 
 [!include [banner](../includes/banner.md)]
@@ -41,11 +40,10 @@ ms.lasthandoff: 11/03/2017
 [![Процесс выверки фрахта](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>Выверка вручную
-Если фрахт выверяется вручную, необходимо сопоставить каждую строку накладной со строкой или строками векселя фрахта для загрузки, по которой выставляется накладная. Это сопоставление выполняется на странице **Сопоставление векселя фрахта с накладной**. Если сумма в строке накладной не соответствует сумме векселя фрахта, необходимо выбрать причину для разницы выверки. Если существует несколько причин для выверки, можно разделить несоответствующую сумму между ними. Причина выверки определяет способ разноски сумм разницы в главной книге. При учитывается выверка всей суммы накладной, она направляется на утверждение, после чего выполняется разноска журнала. На следующем рисунке показано, как создать накладную фрахта и выполнить выверку фрахта в Microsoft Dynamics 365 for Finance and Operations. 
-[![Задачи выверки фрахта в Dynamics AX](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+Если фрахт выверяется вручную, необходимо сопоставить каждую строку накладной со строкой или строками векселя фрахта для загрузки, по которой выставляется накладная. Это сопоставление выполняется на странице **Сопоставление векселя фрахта с накладной**. Если сумма в строке накладной не соответствует сумме векселя фрахта, необходимо выбрать причину для разницы выверки. Если существует несколько причин для выверки, можно разделить несоответствующую сумму между ними. Причина выверки определяет способ разноски сумм разницы в главной книге. При учитывается выверка всей суммы накладной, она направляется на утверждение, после чего выполняется разноска журнала. В следующем примере показано, как создать накладную фрахта и выполнить выверку фрахта в Microsoft Dynamics 365 for Finance and Operations. 
+[![Выверка фрахта в Dynamics AX](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 ## <a name="automatic-reconciliation"></a>Автоматическая выверка
 Чтобы использовать автоматическую выверку, необходимо указать расписание для выверки, а также накладные и перевозчиков для использования. Сопоставление строк накладной и векселей фрахта осуществляется в соответствии с настройкой шаблона аудита и типом векселя фрахта. После выполнения автоматической выверки необходимо обработать все накладные, которые система не может сопоставить. Затем необходимо обработать эти накладные вручную, перед разноской всех накладных для платежа.
-
 
 
 

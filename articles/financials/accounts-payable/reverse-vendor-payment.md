@@ -1,13 +1,13 @@
 ---
-title: "Реверсирование платежа поставщику"
-description: "В этой статье описывается разница между реверсированием, удалением, аннулированием и отклонением платежа. Кроме того, объясняются два метода для реверсирования чека поставщика."
+title: Реверсирование платежа поставщику
+description: В этой статье описывается разница между реверсированием, удалением, аннулированием и отклонением платежа. Кроме того, объясняются два метода для реверсирования чека поставщика.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankChequeTable, LedgerJournalTransBankChequeReversal, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d58aac20f9ef54e4ee41464a30b7c8190ade26b7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 019b765cd1e9fa00078018354f0d0792b97faba6
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329628"
 ---
-
 # <a name="reverse-a-vendor-payment"></a>Реверсирование платежа поставщику
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ ms.lasthandoff: 11/03/2017
 
 -   Для реверсирования платежа проводка разносится на счет клиента, и сопоставление между исходным платежом и документом, с которым первоначально был сопоставлен платеж, реверсируется (создается отрицательный платеж).
 -   Сторнирование платежа применяется по отношению к исходному платежу. Поле **Последний ваучер сопоставления** на странице **Проводки по клиенту** для исходного платежа клиента обновляется, чтобы отразить код операции сторнированной проводки.
-
 
 
 

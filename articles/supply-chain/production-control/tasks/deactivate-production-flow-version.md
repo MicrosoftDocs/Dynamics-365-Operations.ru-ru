@@ -1,13 +1,13 @@
---- 
-title: "Деактивация версии производственного потока"
-description: "Когда активная версия производственного потока больше не требуется, ее можно отключить."
+---
+title: Деактивация версии производственного потока
+description: Когда активная версия производственного потока больше не требуется, ее можно отключить.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 091cafd02bd568323e586373fc8b0f983afee343
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4a7eee6617e12d59a3d06207f5f6b58c93e28240
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340760"
 ---
 # <a name="deactivate-a-production-flow-version"></a>Деактивация версии производственного потока
 
@@ -45,5 +45,4 @@ ms.lasthandoff: 09/29/2017
 5. Нажмите кнопку "Деактивировать".
     * Не продолжайте, если вы не уверены на 100%, что эта версия производственного потока является устаревшей. При нажатии ОК истекает срок действия всех активных правил канбана и происходит немедленная остановка всех действий по производству и пополнению этой версии производственного потока.  
 6. Нажмите кнопку "OК".
-
 

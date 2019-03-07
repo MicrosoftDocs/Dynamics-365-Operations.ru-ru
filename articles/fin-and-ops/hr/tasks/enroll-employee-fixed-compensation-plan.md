@@ -1,13 +1,13 @@
---- 
-title: "Включение сотрудника в план фиксированных компенсаций"
-description: "Менеджер по компенсациям и льготам может назначить сотрудников планам фиксированной компенсации для управления их базовой заработной платой."
+---
+title: Включение сотрудника в план фиксированных компенсаций
+description: Менеджер по компенсациям и льготам может назначить сотрудников планам фиксированной компенсации для управления их базовой заработной платой.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompFixedEmpl, HRMCompFixedEmplActionDialog, HcmPositionLookup, HRMCompRefPointLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: c9c11292feec06a53cd4426a25bfb2aaac7de3e8
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353341"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Включение сотрудника в план фиксированных компенсаций
 
@@ -40,5 +40,4 @@ ms.lasthandoff: 09/14/2018
     * В качестве даты вступления в силу и даты окончания срока действия компенсации по умолчанию используются дата начала и дата окончания назначения работника на должность. Эти даты можно изменить при необходимости.  
     * Если план фиксированной компенсации является пошаговым планом, выберите шаг, содержащий правильную ставку оплаты для сотрудника. Если план фиксированной компенсации является ступенчатым или ленточным планом, введите ставку оплаты для сотрудника. Ставка оплаты будет утверждена согласно настроек допуска для плана, а также минимальной и максимальной опорных точек для уровня компенсации задания.  
 8. Нажмите кнопку "OК".
-
 

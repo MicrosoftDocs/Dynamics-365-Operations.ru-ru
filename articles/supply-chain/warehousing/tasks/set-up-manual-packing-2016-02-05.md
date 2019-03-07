@@ -1,13 +1,13 @@
---- 
-title: "Настройка ручной упаковки (февраль 2016 г. и май 2016 г.)"
-description: "Процесс упаковки позволяет утвердить и упаковать продукты в контейнеры."
+---
+title: Настройка ручной упаковки (февраль 2016 г. и май 2016 г.)
+description: Процесс упаковки позволяет утвердить и упаковать продукты в контейнеры.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347729"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Настройка ручной упаковки (февраль 2016 г. и май 2016 г.)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Процесс упаковки позволяет утвердить и упаковать продукты в контейнеры. В ходе этого процесса работники склада комплектуют продукты из мест хранения и перемещают их на станции упаковки, где они выполняют проверку количества и типов номенклатур и назначают их соответствующим контейнерам. Когда контейнер полностью упакован, его можно закрыть и переместить в дебаркадеры отгрузки; продукты готовы к отгрузке. В данной процедуре используется демонстрационная компания USMF. Эта процедура относится только к версиям Dynamics 365 for Operations от февраля 2016 г. и мая 2016 г.
+Процесс упаковки позволяет утвердить и упаковать продукты в контейнеры. В ходе этого процесса работники склада комплектуют продукты из мест хранения и перемещают их на станции упаковки, где они выполняют проверку количества и типов номенклатур и назначают их соответствующим контейнерам. Когда контейнер полностью упакован, его можно закрыть и переместить в дебаркадеры отгрузки; продукты готовы к отгрузке. В данной процедуре используется демонстрационная компания USMF. Эта процедура относится только к версиям Dynamics 365 for Operations от февраля 2016 и мая 2016.
 
 
 ## <a name="set-up-location-profiles"></a>Настройка профилей местонахождений
@@ -94,5 +94,4 @@ ms.lasthandoff: 09/14/2018
     * Это будет местонахождение, в которое будут перемещены продукты после закрытия контейнеров. Это местонахождение должно иметь профиль местонахождения, определенный в параметрах склада.  
 8. В поле "Единица веса" введите или выберите значение.
 9. Нажмите кнопку "Сохранить".
-
 

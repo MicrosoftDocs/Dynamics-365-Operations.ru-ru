@@ -1,31 +1,30 @@
 ---
-title: "Операции POS в интерактивном и автономном режимах"
-description: "Этот раздел содержит сведения об операциях POS-терминала в Microsoft Dynamics 365 for Retail. Он указывает, где в приложении можно инициировать операции, а также доступны ли они в автономном режиме."
+title: Операции POS в интерактивном и автономном режимах
+description: Этот раздел содержит сведения об операциях POS-терминала в Microsoft Dynamics 365 for Retail. Он указывает, где в приложении можно инициировать операции, а также доступны ли они в автономном режиме.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353824"
 ---
-
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Операции POS в интерактивном и автономном режимах
 
 [!include [banner](includes/banner.md)]
@@ -199,4 +198,3 @@ ms.lasthandoff: 01/04/2019
 § Когда POS-терминал работает в автономном режиме, для возврата можно повторно открывать только проводки из текущей автономной базы данных.
 
 \*\* Когда POS-терминал работает в автономном режиме, в журнале отображаются только проводки из текущей базы данных автономного канала.
-

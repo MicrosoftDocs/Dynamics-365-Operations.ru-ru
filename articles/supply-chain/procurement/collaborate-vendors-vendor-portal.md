@@ -1,13 +1,13 @@
 ---
-title: "Сотрудничество с поставщиками с помощью портала поставщика"
-description: "В этом разделе описывается, как специалисты по закупкам могут использовать портал поставщиков, чтобы сотрудничать со внешними поставщиками в процессе подтверждения заказа на покупку. Эта информация относится только к версиям Dynamics AX от февраля 2016 г. и мая 2016 г."
+title: Сотрудничество с поставщиками с помощью портала поставщика
+description: В этом разделе описывается, как специалисты по закупкам могут использовать портал поставщиков, чтобы сотрудничать со внешними поставщиками в процессе подтверждения заказа на покупку. Эта информация относится только к версиям Dynamics AX от февраля 2016 г. и мая 2016 г.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339886"
 ---
-
-# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Сотрудничество с поставщиками с помощью портала поставщика
+# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Совместная работа с поставщиками с помощью портала поставщика
 
 [!include [banner](../includes/banner.md)]
 
@@ -102,7 +101,6 @@ ms.lasthandoff: 05/08/2018
 [Настройка безопасности для пользователей совместной работы с поставщиками](configure-security-vendor-portal-users.md)
 
 [Рабочая области выставления накладных при совместной работе с поставщиками](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
-
 
 
 

@@ -1,32 +1,31 @@
 ---
-title: "Создание правил для помощника по оптимизации"
-description: "В этом разделе описывается добавление новых правил в помощник по оптимизации."
+title: Создание правил для помощника по оптимизации
+description: В этом разделе описывается добавление новых правил в помощник по оптимизации.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: ca73120a5a0da4dc348c2d16dca8e7654876af5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: a18fac31b5acb7d2a1ec40203122d4eb9d94a439
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354169"
 ---
-
 # <a name="create-rules-for-optimization-advisor"></a>Создание правил для помощника по оптимизации
 
 [!include [banner](../includes/banner.md)]
@@ -196,7 +195,7 @@ class ScanNewRulesJob
 
 Правило будет отображаться в форме **Правило проверки диагностики**, доступной из **Администрирование системы** > **Периодические задачи** > **Ведение правила проверки диагностики**. Для его повторного вычисления выберите **Администрирование системы** > **Периодические задачи** > **Расписание правила проверки диагностики**, выберите частоту правила, например **Ежедневно**. Нажмите кнопку **ОК**. Выберите **Администрирование системы** > **Помощник по оптимизации** для просмотра новой возможности. 
 
-В следующем примере показан фрагмент кода со схемой правила, включая все необходимые методы и атрибуты. Он поможет начать работу по созданию новых правил. Метки и пункты меню действий, которые используются в примере, используются только для демонстрационных целей.
+В следующем примере показан фрагмент кода со схемой правила, включая все необходимые методы и атрибуты. Он поможет начать работу по созданию новых правил. Метки и пункты меню действий, которые используются в примере, используются только для демонстрационных целей.
 
 ```
 [DiagnosticsRuleAttribute]
@@ -255,5 +254,4 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 }
 ```
 
-Для получения дополнительных сведений посмотрите короткое видео на YouTube: [Помощник по оптимизации в Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
-
+Для получения дополнительных сведений посмотрите короткое видео на YouTube: [Помощник по оптимизации в Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

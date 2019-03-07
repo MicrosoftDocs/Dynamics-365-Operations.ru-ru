@@ -1,13 +1,13 @@
---- 
-title: "Настройка профилей разноски основных средства"
-description: "В этом руководстве по задаче показано, как настроить профили разноски основных средств."
+---
+title: Настройка профилей разноски основных средства
+description: В этом руководстве по задаче показано, как настроить профили разноски основных средств.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 286c8732c1f2c92d0f16582b0b9de41990280e5a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9766d96d16429d0ce0864695a3157f54cad4054
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351110"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Настройка профилей разноски основных средства
 
@@ -132,5 +132,4 @@ ms.lasthandoff: 09/29/2017
 87. В поле "Сумма к разноске" выберите "Остаточная стоимость".
 88. В поле "Счет ГК" укажите требуемые значения.
 89. В поле "Корр.счет" укажите требуемые значения.
-
 

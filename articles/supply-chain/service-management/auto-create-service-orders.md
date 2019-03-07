@@ -1,31 +1,30 @@
 ---
-title: "Автоматическое создание заказов на обслуживание"
-description: "Можно создать заказы на сервисное обслуживание, на основе соглашения о сервисном обслуживании на период действия соглашения на сервисное обслуживание."
+title: Автоматическое создание заказов на обслуживание
+description: Можно создать заказы на сервисное обслуживание, на основе соглашения о сервисном обслуживании на период действия соглашения на сервисное обслуживание.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0189a9f99ffbb6ed2387211ba9e3b9f3bcdb3b52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2d942d4448e0f792945603d3f5960fb82095be30
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331192"
 ---
-
 # <a name="automatically-create-service-orders"></a>Автоматическое создание заказов на обслуживание 
 
 [!include [banner](../includes/banner.md)]
@@ -58,6 +57,5 @@ ms.lasthandoff: 05/08/2018
 Соглашение о сервисном обслуживании действует с 1 января 2012 г. до 31 декабря 2012 г. К соглашению прикреплено две строки соглашения о сервисном обслуживании. Первая строка соглашения о сервисном обслуживании имеет дату начала 2 января 2012 г. и дату окончания 1 марта 2012 г. Вторая строка соглашения о сервисном обслуживании имеет дату начала 1 апреля 2012 г. и дату окончания 31 декабря 2012 г. Можно указать период в форме **Создать заказы на сервисное обслуживание** начиная с 1 октября 2012 г. до 31 декабря 2012 г. Таким образом, заказы на обслуживание создаются только по второй строке соглашения, так как даты начала и окончания первой строки лежат ранее периода, указанного для заказа на сервисное обслуживание.
 
   
-
 
 

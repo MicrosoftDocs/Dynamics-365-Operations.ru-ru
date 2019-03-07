@@ -1,32 +1,30 @@
 ---
-title: "Мониторинг действий сервиса"
-description: "Форма \"Панель исполнения\" обеспечивает возможность визуального обновления статуса запланированных действий сервиса и предоставляет средства отслеживания общего потока заказов на сервисное обслуживание в компании."
+title: Мониторинг действий сервиса
+description: Форма "Панель исполнения" обеспечивает возможность визуального обновления статуса запланированных действий сервиса и предоставляет средства отслеживания общего потока заказов на сервисное обслуживание в компании.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 81994343acf5d99e9cfc1f6253c65aa7260822d7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 32dd8660367480d47d159b237fededc9f4338e25
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343566"
 ---
-
-
 # <a name="monitor-service-activities"></a>Мониторинг действий сервиса 
 
 [!include [banner](../includes/banner.md)]
@@ -60,6 +58,5 @@ ms.lasthandoff: 05/08/2018
 [Панель подготовки к отправке (форма)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))
 
   
-
 
 

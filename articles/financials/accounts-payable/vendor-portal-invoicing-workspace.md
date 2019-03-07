@@ -1,13 +1,13 @@
 ---
-title: "Рабочая области выставления накладных при совместной работе с поставщиками"
-description: "В этом разделе описан порядок просмотра накладных поставщика и отправки накладных из рабочей области совместной работы с поставщиками."
+title: Рабочая области выставления накладных при совместной работе с поставщиками
+description: В этом разделе описан порядок просмотра накладных поставщика и отправки накладных из рабочей области совместной работы с поставщиками.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 5520012a00e918e8748b974773eeaf2450f0c55e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2368fae3913f67d9d2ce0bbe6b2e0bee7968bb15
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340530"
 ---
-
 # <a name="vendor-collaboration-invoicing-workspace"></a>Рабочая области выставления накладных при совместной работе с поставщиками
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ ms.lasthandoff: 03/26/2018
 Можно создать новую накладную поставщика, выбрав действие **Создать** в рабочей области **Выставление накладных при совместной работе с поставщиками**. Номер заказа на покупку и номер накладной должны быть предоставлены поставщиком. По умолчанию все строки из заказа на покупку поставщика отображаются в новой накладной. Сведения о количестве и затратах можно изменить до передачи накладной поставщика в workflow-процесс. Можно прикрепить файлы, примечания, изображения и URL-адреса у накладной, прежде чем отправить ее.
 
 Дополнительные сведения см. в разделе [Совместная работа с внешними поставщиками](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
-
 
 
 

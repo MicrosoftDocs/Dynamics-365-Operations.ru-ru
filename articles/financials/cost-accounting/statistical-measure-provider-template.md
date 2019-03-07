@@ -1,32 +1,31 @@
 ---
-title: "Элементы статистической аналитики и шаблоны поставщика статистической меры"
-description: "В этой теме содержится информация об элементы статистической аналитики и шаблонах поставщиков статистической меры. Элементы статистической аналитики могут использоваться в качестве базы распределения в таких политиках, как распределение затрат и распределение стоимости. Их также можно использовать для включения в отчетность потребления немонетарных ресурсов."
+title: Элементы статистической аналитики и шаблоны поставщика статистической меры
+description: В этой теме содержится информация об элементы статистической аналитики и шаблонах поставщиков статистической меры. Элементы статистической аналитики могут использоваться в качестве базы распределения в таких политиках, как распределение затрат и распределение стоимости. Их также можно использовать для включения в отчетность потребления немонетарных ресурсов.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cc9170f10fe2be0446b1c974a50dbdf1cb5fe236
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360310"
 ---
-
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Элементы статистической аналитики и шаблоны поставщика статистической меры
 
 [!include [banner](../includes/banner.md)]
@@ -136,9 +135,9 @@ ms.lasthandoff: 05/08/2018
 
 **Источник данных**
 
-| Наименование        | Соединитель данных                                                                     | Элемент статистической аналитики |
+| Название        | Соединитель данных                                                                     | Элемент статистической аналитики |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| FTEs D365FO | Microsoft Dynamics 365 for Finance and Operations — статистические меры | FTEs                         |
+| FTEs D365FO | Dynamics 365 for Finance and Operations — статистические меры | FTEs                         |
 
 **Конфигурация поставщика данных**
 
@@ -226,7 +225,7 @@ ms.lasthandoff: 05/08/2018
 
 | Наименование           | Соединитель данных                                                                     | Элемент статистической аналитики |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Pack CC D365FO | Microsoft Dynamics 365 for Finance and Operations — статистические меры | Pack CC                      |
+| Pack CC D365FO | Dynamics 365 for Finance and Operations — статистические меры | Pack CC                      |
 
 Система распознает, что ProdRouteTrans является таблицей, где каждая запись относится к отдельному юридическому лицу. Поэтому вам будет предложено выбрать юридическое лицо, из которого следует импортировать проводки.
 
@@ -347,4 +346,3 @@ ms.lasthandoff: 05/08/2018
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Базы распределения](allocation-bases.md)
-

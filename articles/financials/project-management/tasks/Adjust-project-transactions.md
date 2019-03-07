@@ -1,13 +1,13 @@
---- 
-title: "Корректировать проводки"
-description: "В данном руководстве по задаче показано, как корректировать проводку по проекту."
+---
+title: Корректировать проводки
+description: В данном руководстве по задаче показано, как корректировать проводку по проекту.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 922914a50932fcf91e80c80333d7ab0b4a66f089
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 94942b4dc499c225fd636e7080ef253d5370b96e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344509"
 ---
 # <a name="adjust-project-transactions"></a>Корректировка проводок по проекту
 
@@ -44,4 +44,3 @@ ms.lasthandoff: 11/06/2017
 13. В списке пометьте выбранную строку. 
 14. В поле "Себестоимость" введите число. 
 15. Щелкните "Разнести". 
-

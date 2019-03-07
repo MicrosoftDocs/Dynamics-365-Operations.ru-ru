@@ -1,13 +1,13 @@
 ---
-title: "Обзор бюджетирования"
-description: "Почти всем компаниям, которые используют функциональность модуля \"Финансы\" в Microsoft Dynamics 365 for Finance and Operations, необходимо иметь возможность создавать отчеты о бюджете в сравнении с фактическими данными. В этой статье объясняется минимальная конфигурация, необходимая для создания бюджетов в Dynamics 365 for Finance and Operations или их загрузки из программ независимых разработчиков."
+title: Обзор бюджетирования
+description: Почти всем компаниям, которые используют функциональность модуля "Финансы" в Microsoft Dynamics 365 for Finance and Operations, необходимо иметь возможность создавать отчеты о бюджете в сравнении с фактическими данными. В этой статье объясняется минимальная конфигурация, необходимая для создания бюджетов в Dynamics 365 for Finance and Operations или их загрузки из программ независимых разработчиков.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01b7970119b9abb26570c19162e159dd05496168
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332319"
 ---
-
 # <a name="budgeting-overview"></a>Обзор бюджетирования
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ ms.lasthandoff: 03/26/2018
 Страница запроса **Факт/бюджет** позволяет детализировать сравнение бюджетных сумм с фактическими. Выберите строку на странице запроса, а затем щелкните **Сальдо по периодам**, чтобы просмотреть бюджетные и фактические суммы по финансовым периодам. Страница **Записи счета бюджета** позволяет просмотреть подробные сведения о бюджетной сумме в записях бюджетного регистра. На странице **Записи общего журнала** открываются проводки ГК, включенные в рассчитанную сумму **Фактические показатели**. 
 
 Компания, в которой используется функциональность "Планирование бюджета", может создавать и использовать *прогнозы бюджета* в рабочей области **Бюджеты и прогнозы главной книги**.
-
 
 
 

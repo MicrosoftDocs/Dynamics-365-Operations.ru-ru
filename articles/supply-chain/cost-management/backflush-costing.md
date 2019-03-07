@@ -1,13 +1,13 @@
 ---
-title: "Backflush-расчет себестоимости"
-description: "В этом разделе рассматривается понятие backflush-расчета себестоимости, используемого для бережливого производства."
+title: Backflush-расчет себестоимости
+description: В этом разделе рассматривается понятие backflush-расчета себестоимости, используемого для бережливого производства.
 author: cvocph
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 484bac74ccb498f0b006458f5e6d8fb0e9461a8f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9fe717752da4c697cf0d896c0d40832330f0d118
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352720"
 ---
-
 # <a name="backflush-costing"></a>Backflush-расчет себестоимости
 
 [!include [banner](../includes/banner.md)]
@@ -122,7 +121,6 @@ ms.lasthandoff: 11/03/2017
     -   Все косвенные затраты, рассчитанные для потребленного материала в рамках периода, рассчитываются и вычитаются из НЗП. Остаток косвенных затрат разносится как расхождение.
 
 5.  Выполните расчет производственных отклонений для стандартных затрат. Расхождение рассчитывается по группам затрат.
-
 
 
 

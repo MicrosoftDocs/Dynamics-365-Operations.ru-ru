@@ -1,13 +1,13 @@
 ---
-title: "Анализ тенденций и моделей продаж"
-description: "Можно анализировать тенденции и модели продаж в реальном времени в Microsoft Dynamics 365 for Retail."
+title: Анализ тенденций и моделей продаж
+description: Можно анализировать тенденции и модели продаж в реальном времени в Microsoft Dynamics 365 for Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelReport, SysReportViewerForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b2a23b6013fd9096457647142a40a6710da6ca88
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358010"
 ---
-
 # <a name="analyze-sales-trends-and-patterns"></a>Анализ тенденций и моделей продаж
 
 [!include [banner](includes/banner.md)]
@@ -44,4 +43,3 @@ ms.lasthandoff: 11/03/2017
 - Рабочая область **Руководство розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет о продажах каналов по часам**
 - Рабочая область **Финансовая информация розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Финансовая информация розничного магазина** &gt; **Отчеты** &gt; **Отчет о продажах каналов по часам**
 - Раздел **Запросы и отчеты** &gt; **Розничная торговля** &gt; **Запросы и отчеты** &gt; **Отчеты о продажах** &gt; **Отчет о продажах каналов по часам**
-

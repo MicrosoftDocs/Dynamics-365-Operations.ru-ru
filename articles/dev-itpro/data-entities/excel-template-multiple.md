@@ -1,30 +1,29 @@
 ---
-title: "Импорт данных из шаблонов информационных объектов Excel, содержащих несколько листов"
-description: "В этом разделе описывается, как импортировать данные с помощью шаблонов информационных объектов Excel в Microsoft Dynamics 365 for Finance and Operations."
+title: Импорт данных из шаблонов информационных объектов Excel, содержащих несколько листов
+description: В этом разделе описывается, как импортировать данные с помощью шаблонов информационных объектов Excel в Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351271"
 ---
-
 # <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Импорт данных из шаблонов информационных объектов Excel, содержащих несколько листов
 
 [!include [banner](../includes/banner.md)]
@@ -51,4 +50,3 @@ ms.lasthandoff: 08/13/2018
 ## <a name="upload-a-file-using-run-project"></a>Отправка файла с помощью команды "Выполнить проект"
 
 Можно отправить файл Excel при использовании параметра **Выполнить проект** для выполнения проекта импорта. Будьте внимательны, чтобы отправить только файлы, имеющие те же листы, что и существующие сопоставления для информационных объектов в проекте данных. Если лист отсутствует в новом отправленном файле, система выводит сообщение об ошибке и останавливает импорт. Если сопоставление с листом должно быть изменено для объекта, сначала необходимо обновить сопоставления в проекте данных из проекта данных, прежде чем использовать этот файл в процессе **Выполнить проект**.
-

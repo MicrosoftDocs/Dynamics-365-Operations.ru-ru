@@ -1,13 +1,13 @@
 ---
-title: "Параметры интеграции Project Service Automation"
-description: "В этом разделе описывается, как настроить способ ввода данных по умолчанию при интеграции Microsoft Dynamics 365 for Project Service Automation с Microsoft Dynamics 365 for Finance and Operations."
+title: Параметры интеграции Project Service Automation
+description: В этом разделе описывается, как настроить способ ввода данных по умолчанию при интеграции Microsoft Dynamics 365 for Project Service Automation с Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 33960a97f69d6bcc70a3035d4d68095ca6993a10
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347062"
 ---
-
 # <a name="project-service-automation-integration-parameters"></a>Параметры интеграции Project Service Automation
 
 [!include[banner](../includes/banner.md)]
@@ -33,8 +32,8 @@ ms.lasthandoff: 08/09/2018
 
 > [!NOTE]
 > - В Microsoft Dynamics 365 for Finance and Operations версии 8.0 доступна интеграция задач проекта, категорий проводок расходов, оценки часов, оценки затрат и блокировка функциональности.
-> - Интеграция фактических данных доступна в Microsoft Dynamics 365 for Finance and Operations версии 8.01 или новее.
-> - При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, после установки обновлений KB 4132657 и KB 4132660, можно использовать шаблоны для интеграции задачи проекта, категорий транзакций расходов, оценок часов, оценок расходов и фактических данных и для настройки функции блокировки. Если необходимо сбросить распределения по бухгалтерским счетам, рекомендуется также установить KB 4131710.
+> - Интеграция фактических данных доступна в Microsoft Dynamics 365 for Finance and Operations версии 8.0.1 или новее.
+> - При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, после установки обновлений КБ 4132657 и 4132660 КБ, можно использовать шаблоны для интеграции задачи проекта, категорий транзакций расходов, оценок часов, оценок расходов и фактических данных и для настройки функции блокировки. Если необходимо сбросить распределения по бухгалтерским счетам, рекомендуется также установить KB 4131710.
 
 | Вкладка                    | Поле                | описание |
 |------------------------|----------------------|-------------|
@@ -46,4 +45,3 @@ ms.lasthandoff: 08/09/2018
 | Значения по умолчанию для типа оплаты  | Тип выставления счетов         | Щелкните **Создать** для добавления строки, где можно выбрать тип выставления счетов, для которого требуется задать свойство строки по умолчанию. В конфигурации только один раз можно выбрать конкретный тип выставления счетов. |
 |                        | Свойство строки        | Выбор свойства строки по умолчанию для выбранного типа выставления счетов. Когда новые оценки часов, новые оценки расходов или новые фактические данные синхронизируются из Project Service Automation, для поля **Свойство строки** задается значение по умолчанию для типа выставления счетов. |
 | Блокировка функциональности  | Неприменимо       | Выберите функцию для отключения в Finance and Operations для проектов и контрактов, которые происходят из Project Service Automation. Например, можно отключить возможность редактирования контрактов и проектов, создать структурные декомпозиции работ и ввести табели учета рабочего времени в Finance and Operations. Поля, связанные с учетом, будут оставаться включенными, даже если они становятся недоступными из-за настройки параметра. По умолчанию все функциональные возможности включены. |
-

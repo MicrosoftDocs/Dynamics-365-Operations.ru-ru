@@ -1,13 +1,13 @@
 ---
-title: "Настройка структур счета"
-description: "В этом теме представлена информация о структурах счета и финансовых аналитиках."
+title: Настройка структур счета
+description: В этом теме представлена информация о структурах счета и финансовых аналитиках.
 author: aprilolson
 manager: AnnBe
 ms.date: 05/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 8435389a523d8393e9d4daa0cb1244203c0dbb12
 ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351731"
 ---
-
 # <a name="configure-account-structures"></a>Настройка структур счета
 
 [!include[banner](../includes/banner.md)]
@@ -100,4 +99,3 @@ ms.lasthandoff: 08/09/2018
 Когда вы удовлетворены новой настройкой или изменением структуры счета, необходимо активировать ее. Если структура счета назначена книге учета, эта активация может быть длительным процессом, поскольку все неразнесенные транзакции в системе должны быть синхронизирована с новой структурой. Разнесенные транзакции не влияют на изменения структуры счета.
 
 Дополнительные сведения см. в разделе [Планирование плана счетов](plan-chart-of-accounts.md), [Финансовые аналитики](financial-dimensions.md) и [Ввод счета и комбинаций аналитик (элемент управления сегментированным вводом)](enter-account-dimension-combinations-segmented-entry-control.md).
-

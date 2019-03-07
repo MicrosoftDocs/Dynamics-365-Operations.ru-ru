@@ -1,13 +1,13 @@
 ---
-title: "Настройка масок штрих-кодов"
-description: "В этом разделе описывается настройка символов маски штрих-кодов и маски штрих-кодов, а также порядок назначения штрих-кодам масок штрих-кодов."
+title: Настройка масок штрих-кодов
+description: В этом разделе описывается настройка символов маски штрих-кодов и маски штрих-кодов, а также порядок назначения штрих-кодам масок штрих-кодов.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d3527807650061804212abf67e536c17078aabf9
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340622"
 ---
-
 # <a name="set-up-bar-code-masks"></a>Настройка масок штрих-кодов
 
 [!include [banner](includes/banner.md)]
@@ -84,4 +83,3 @@ ms.lasthandoff: 01/04/2019
 5. Нажмите кнопку **Сохранить**.
 
 Маску штрих-кода теперь можно использовать для создания штрих-кодов для продуктов. Описанные выше шаги являются примерами создания масок штрих-кодов для продуктов, но они также показывают, как создавать маски штрих-кода для любых других поддерживаемых типов штрих-кодов. Маски штрих-кодов, типы и значения длины следует настроить для использования в конкретной среде.
-

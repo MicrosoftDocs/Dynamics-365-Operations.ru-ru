@@ -1,13 +1,13 @@
 ---
-title: "Сопоставление частичного платежа клиента, имеющего скидки на кредит-ноты"
-description: "В этой статье рассматривается сценарий, в котором скидка по оплате используется для кредит-ноты, когда исходная накладная также имела скидку по оплате."
+title: Сопоставление частичного платежа клиента, имеющего скидки на кредит-ноты
+description: В этой статье рассматривается сценарий, в котором скидка по оплате используется для кредит-ноты, когда исходная накладная также имела скидку по оплате.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa641f996d1ee516f588fcd1520bdc23d5d25f86
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5402aa886d7194c4dcfad329aa30eb19bae3bc84
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333446"
 ---
-
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Сопоставление частичного платежа клиента, имеющего скидки на кредит-ноты
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Fabrikam позволяет клиентам получать скидки по 
 | Сумма скидки по оплате | -1,00     |
 
 Сопоставление будет равно 100,00 и будет включать платеж 99,00 и скидку 1,00.
-
 
 
 

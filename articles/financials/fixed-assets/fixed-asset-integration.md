@@ -1,13 +1,13 @@
 ---
-title: "Интеграция основных средств"
-description: "Модуль \"Основные средства\" интегрируется с модулями \"Главная книга\", \"Управление запасами\", \"Расчеты с клиентами\" и \"Расчеты с поставщиками\". Можно также настроить модуль \"Основные средства\" для интегрирования с заказами на покупку."
+title: Интеграция основных средств
+description: Модуль "Основные средства" интегрируется с модулями "Главная книга", "Управление запасами", "Расчеты с клиентами" и "Расчеты с поставщиками". Можно также настроить модуль "Основные средства" для интегрирования с заказами на покупку.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a598a562b35a8bb1e0ede6bb8f3dc0515c162a06
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336988"
 ---
-
 # <a name="fixed-assets-integration"></a>Интеграция основных средств
 
 [!include [banner](../includes/banner.md)]
@@ -93,7 +92,6 @@ ms.lasthandoff: 11/03/2017
 Можно также указать ОС, создаваемые или производимые как часть проекта НЗП. В конце проекта НЗП можно автоматически разнести проводку приобретения активов.
 
 Дополнительные сведения см. в разделе [Приобретение активов через закупку](acquire-assets-procurement.md)
-
 
 
 

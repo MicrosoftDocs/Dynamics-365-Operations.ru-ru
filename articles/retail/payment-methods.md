@@ -1,13 +1,13 @@
 ---
-title: "Способы оплаты"
-description: "Каждый тип платежа, принимаемый розничным магазином, нужно настроить в процессе настройки системы. Эта статья описывает типы платежа, которые можно настроить, и описывает процесс настройки их."
+title: Способы оплаты
+description: Каждый тип платежа, принимаемый розничным магазином, нужно настроить в процессе настройки системы. Эта статья описывает типы платежа, которые можно настроить, и описывает процесс настройки их.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1ba80e48c8b3b5ed94b9e03302788099a1d31909
-ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328984"
 ---
-
 # <a name="payment-methods"></a>Способы оплаты
 
 [!include [banner](includes/banner.md)]
@@ -50,4 +49,3 @@ ms.lasthandoff: 02/07/2018
 2. Создайте типы и номера карт на уровне организации. Если кредитные карты или дебетовые карты принимаются, необходимо создать один способ оплаты картами, а затем создать типы и номера карт на уровне организации.
 3. Настройте способ оплаты для магазина. Свяжите способы оплаты с каждым магазином, а затем введите параметры для каждого способа оплаты, характерные для конкретного магазина.
 4. Настройте способы платежа картами для магазинов. Завершите настройку карты для любого карточного способа оплаты, используемого в магазине.
-

@@ -1,13 +1,13 @@
 ---
-title: "Мобильная рабочая область управления расходами"
-description: "В этом разделе приводятся сведения о мобильной рабочей области \"Управление расходами\". Эта рабочая область позволяет пользователям снять и отправить чек, чтобы потом его можно было приложить к отчету о расходах. Пользователи могут быстро создать строку расходов с помощью вложенной приходной накладной, а также создать отчеты по расходам и управлять ими."
+title: Мобильная рабочая область управления расходами
+description: В этом разделе приводятся сведения о мобильной рабочей области "Управление расходами". Эта рабочая область позволяет пользователям снять и отправить чек, чтобы потом его можно было приложить к отчету о расходах. Пользователи могут быстро создать строку расходов с помощью вложенной приходной накладной, а также создать отчеты по расходам и управлять ими.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344348"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>Мобильная рабочая область управления расходами
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 03/26/2018
 В этом разделе приводятся сведения о мобильной рабочей области **Управление расходами**. Эта рабочая область позволяет пользователям снять и отправить чек, чтобы потом его можно было приложить к отчету о расходах. Пользователи могут быстро создать строку расходов с помощью вложенной приходной накладной, а также создать отчеты по расходам и управлять ими. Кроме того, утверждающие могут использовать мобильную рабочую область **Управление расходами** для просмотра отчетов по расходам, назначенных им, а также для утверждения или отклонения этих отчетов по расходам.
 
 
-Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations.
+Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations Mobile.
 
 
 ## <a name="overview"></a>Обзор
@@ -58,13 +57,13 @@ ms.lasthandoff: 03/26/2018
 - Утверждение или отклонение отчетов по расходам, для которых вы назначены утверждающим.
 
 ## <a name="prerequisites"></a>Необходимые условия
-Необходимые условия различаются в зависимости от версии Microsoft Dynamics 365, развернутой в организации.
+Предварительные условия различаются, в зависимости от версии Microsoft Dynamics 365, развернутой в организации.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations 
 Если в вашей организации развернута система Microsoft Dynamics 365 for Finance and Operations, системный администратор должен опубликовать мобильную рабочую область **Управление расходами**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии.
-Если в вашей организации развернута Microsoft Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии
+Если в вашей организации развернута система Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
 
 <table>
 <thead>
@@ -94,10 +93,10 @@ ms.lasthandoff: 03/26/2018
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Загрузка и установка мобильного приложения Dynamics 365 for Operations
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Загрузите и установите мобильное приложение Dynamics 365 for Operations.
 Загрузите и установите мобильное приложение Dynamics 365 for Unified Operations:
 
-- [Для ОС Android](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Войдите в систему в мобильном приложении
@@ -243,4 +242,3 @@ ms.lasthandoff: 03/26/2018
 22. Выберите **Отправить**.
 23. Введите комментарии для утверждающего лица.
 24. Выберите **Готово**.
-

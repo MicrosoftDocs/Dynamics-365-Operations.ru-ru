@@ -1,13 +1,13 @@
---- 
-title: "Формирование и разноска повторяющихся накладных с произвольным текстом"
-description: "Периодические накладные используются для выставления счетов клиентам регулярно на одни и те же суммы."
+---
+title: Формирование и разноска повторяющихся накладных с произвольным текстом
+description: Периодические накладные используются для выставления счетов клиентам регулярно на одни и те же суммы.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysLookupMultiSelectGrid, CustRecurrenceInvoiceGroup, CustFreeInvoice, CustRecurrenceInvoiceTotals
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8352b32b1a3c950bed6dd5f0c18c00173e725e69
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e04f9baf6b757ed2c22e018c660cd7291395f877
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362518"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Формирование и разноска повторяющихся накладных с произвольным текстом
 
@@ -45,5 +45,4 @@ ms.lasthandoff: 09/29/2017
     * Убедитесь, что выбранные накладные не содержат ошибок, но не разносите накладные.  
 6. Щелкните "Разнести".
     * Разнесите выбранные накладные.  
-
 

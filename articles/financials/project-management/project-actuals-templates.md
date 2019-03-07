@@ -1,13 +1,13 @@
 ---
-title: "Синхронизировать фактические данные проекта непосредственно из Project Service Automation в журнал интеграции проекта для разноски в Finance and Operations"
-description: "В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации фактических данных проекта непосредственно из Microsoft Dynamics 365 for Project Service Automation с Microsoft Dynamics 365 for Finance and Operations."
+title: Синхронизировать фактические данные проекта непосредственно из Project Service Automation в журнал интеграции проекта для разноски в Finance and Operations
+description: В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации фактических данных проекта непосредственно из Microsoft Dynamics 365 for Project Service Automation в Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 0a965e8de596decf39a15977e6df8a6aa9dd35b0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343359"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Синхронизировать фактические данные проекта непосредственно из Project Service Automation в журнал интеграции проекта для разноски в Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации фактических данных проекта непосредственно из Microsoft Dynamics 365 for Project Service Automation с Microsoft Dynamics 365 for Finance and Operations.
+В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации фактических данных проекта непосредственно из Microsoft Dynamics 365 for Project Service Automation в Microsoft Dynamics 365 for Finance and Operations.
 
 Шаблон синхронизирует транзакции из Project Service Automation в промежуточную таблицу в Finance and Operations. После завершения синхронизации **необходимо** импортировать данные из промежуточной таблицы в журнал интеграции.
 
 > [!NOTE]
-> - Интеграция фактических данных проекта доступна в Microsoft Dynamics 365 for Finance and Operations версии 8.01 или новее.
-> - При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, после установки обновлений KB 4132657 и KB 4132660, можно использовать шаблоны для интеграции задачи проекта, категорий транзакций расходов, оценок часов, оценок расходов и фактических данных и для настройки функции блокировки. Если необходимо сбросить распределения по бухгалтерским счетам, рекомендуется также установить КБ 4131710.
+> - Интеграция фактических данных проекта доступна в Microsoft Dynamics 365 for Finance and Operations версии 8.0.1 или новее.
+> - При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, после установки обновлений КБ 4132657 и 4132660 КБ, можно использовать шаблоны для интеграции задачи проекта, категорий транзакций расходов, оценок часов, оценок расходов и фактических данных и для настройки функции блокировки. Если необходимо сбросить распределения по бухгалтерским счетам, рекомендуется также установить КБ 4131710.
 > - Если при использовании Finance and Operations 7.3.0 вы переносите проводки по сборам из Project Service Automation, чтобы включить эти расходы в накладную проекта необходимо установить KB 4345320.
 > - При своевременном вводе суммы налога или проводок расходов в Project Service Automation необходимо установить Project Service Automation Update 7. В противном случае фактические данные налога не будут связаны с ассоциированным временем или фактическими данными о расходах, и они не будут синхронизированы с Finance and Operations. Для получения дополнительных сведений обратитесь в службу поддержки.
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 08/09/2018
 
 ### <a name="template-and-tasks"></a>Шаблон и задачи
 
-Для доступа к доступным шаблонам в центре администрирования Microsoft PowerApps выберите **Проекты**и выберите в правом верхнем углу **Новый проект** для выбора общих шаблонов.
+Для доступа к доступным шаблонам в центре администрирования Microsoft PowerApps выберите **Проекты** и выберите в правом верхнем углу **Новый проект** для выбора общих шаблонов.
 
 Следующий шаблон и базовые задачи используются для синхронизации фактических данных по проект из Project Service Automation в Finance and Operations:
 
@@ -140,4 +140,3 @@ ms.lasthandoff: 08/09/2018
 [![Соответствие шаблона](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Соответствие шаблона](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-

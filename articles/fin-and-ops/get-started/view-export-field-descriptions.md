@@ -1,13 +1,13 @@
 ---
-title: "Просмотр и экспорт описаний полей"
-description: "В этой статье описываются способы просмотра описаний полей и использования страницы \"Описания полей\" для экспорта описаний."
+title: Просмотр и экспорт описаний полей
+description: В этой статье описываются способы просмотра описаний полей и использования страницы "Описания полей" для экспорта описаний.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
 ms.reviewer: rschloma
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7be1495fc42b5f19884a7d9df747f6bec9b64680
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359344"
 ---
-
 # <a name="view-and-export-field-descriptions"></a>Просмотр и экспорт описаний полей
 
 [!include [banner](../includes/banner.md)]
 
 В этой статье описываются способы просмотра описаний полей и использования страницы "Описания полей" для экспорта описаний.
 
-В Microsoft Dynamics 365 for Finance and Operations предусмотрены описания для некоторых из более сложных полей. Эти описания отображаются при наведении указателя мыши на поле. Также можно просмотреть и экспортировать описания на странице **Описания полей**.
+Microsoft Dynamics 365 for Finance and Operations включает описания для некоторых из более сложных полей. Эти описания отображаются при наведении указателя мыши на поле. Также можно просмотреть и экспортировать описания на странице **Описания полей**.
 
 Не все страницы имеют описания полей. Мы хотим предоставить описания только для более сложных полей, а не для полей, использование которых очевидно. Таким образом, некоторые страницы не имеют описаний полей, некоторые страницы имеют несколько описаний, а некоторые из более сложных страниц, например многие страницы параметров, имеют множество описаний.
 
@@ -109,4 +108,3 @@ ms.lasthandoff: 12/18/2018
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Настройка справки полей](../../dev-itpro/user-interface/customize-field-help.md)
-

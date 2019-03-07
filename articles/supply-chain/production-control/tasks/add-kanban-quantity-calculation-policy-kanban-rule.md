@@ -1,13 +1,13 @@
---- 
-title: "Добавление политики расчета количества канбанов в правило канбана"
-description: "Эта процедура заключается в создании политики вычисления количества канбанов и добавлении ее к правилу канбана для оптимизации размера и количества канбанов."
+---
+title: Добавление политики расчета количества канбанов в правило канбана
+description: Эта процедура заключается в создании политики вычисления количества канбанов и добавлении ее к правилу канбана для оптимизации размера и количества канбанов.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanQuantityPolicy, KanbanRules
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fffd623104dc403e230128c9234521ad1e39c7bb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6a947d4a5302c6ed1848396d50cfbfcb78aabf97
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352145"
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>Добавление политики расчета количества канбанов в правило канбана
 
@@ -62,5 +62,4 @@ ms.lasthandoff: 09/29/2017
 7. В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
 8. В списке перейдите по ссылке в выбранной строке.
     * Выберите политику Speaker2016, созданную в предыдущей подзадаче.  
-
 

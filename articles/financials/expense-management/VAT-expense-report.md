@@ -1,13 +1,13 @@
 ---
-title: "Возврат НДС в модуле \"Управление расходами\""
-description: "В этом разделе описан порядок получения возврата денежных средств по соответствующим проводкам налога на добавленную стоимость (НДС)."
+title: Возврат НДС в модуле "Управление расходами"
+description: В этом разделе описан порядок получения возврата денежных средств по соответствующим проводкам налога на добавленную стоимость (НДС).
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: d1c9357f8f51e1a87aebeb8f802dbe3b5fdd5aa0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359574"
 ---
-
 # <a name="vat-recovery-in-expense-management"></a>Возврат НДС в модуле "Управление расходами"
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ ms.lasthandoff: 03/13/2018
 Арни должен проверить, что проводки отчета о расходах применимы для возмещения НДС, а цифровые чеки прикреплены к отчетам. Для запуска обработки подходящие расходов для локального возмещения Арни открывает страницу **Возврат налоговых расходов** и выбирает отчет о расходах, который требует проверки. Он проверяет, что чеки выданы на имя компании, а не на имя сотрудника. Для возмещения НДС чеки должны быть на имя компании. Arnie затем подтверждает, что правильные налоговую группу и налоговые коды номенклатур применены.
 
 Когда Арни получает бумажные чеки, он изменяет статус отчета о расходах на **Готово для возмещения**. Затем он может подать документы на возврат в соответствующий налоговый орган. В этом случае соответствующий налоговый орган в США — налоговое ведомство (IRS).
-

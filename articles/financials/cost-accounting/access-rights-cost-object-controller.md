@@ -1,32 +1,31 @@
 ---
-title: "Определение прав доступа для контроллеров объектов затрат"
-description: "В этом разделе даны сведения о правах доступа для контроллеров объектов затрат."
+title: Определение прав доступа для контроллеров объектов затрат
+description: В этом разделе даны сведения о правах доступа для контроллеров объектов затрат.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 290b16eeb99ac7ddb9b552b289215c99a0451660
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1cac3c3b724dda4ab39a65aa5221eda427767eb8
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355549"
 ---
-
 # <a name="access-rights-of-a-cost-object-controller"></a>Права доступа для контроллера объектов затрат
 
 [!include [banner](../includes/banner.md)]
@@ -96,10 +95,10 @@ ms.lasthandoff: 05/08/2018
 - Microsoft Power BI:
 
     - Данные, показанные в визуализации Power BI
-    - Визуализация данных Power BI, которые встроены в клиент Microsoft Dynamics 365 для Finance and Operations
+    - Визуализация данных Power BI, которые встроены в клиент Microsoft Dynamics 365 for Finance and Operations
 
 > [!IMPORTANT]
-> - Прежде чем иерархия списков доступа может повлиять на данные в Power BI, необходимо подсоединить иерархию списка доступа и безопасность на уровне строк в Power BI. Дополнительные сведения см. в разделе [Настройка защиты пакета содержимого учета затрат](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Прежде чем иерархия списков доступа может повлиять на данные в Power BI, необходимо подсоединить иерархию списка доступа и безопасность на уровне строк в Power BI. Дополнительные сведения см. в разделе [Настройка защиты пакета содержимого учета затрат](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - В этом разделе показаны необходимые компоненты, которые должны присутствовать перед использованием рабочей области **Управление затратами**.
 
 Дополнительные ресурсы
@@ -107,4 +106,3 @@ ms.lasthandoff: 05/08/2018
 - [Рабочая область управления затратами](cost-control-workspace.md)
 - [Иерархия аналитик](dimension-hierarchy.md)
 - [Настройка безопасности для пакета содержимого учета затрат](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-

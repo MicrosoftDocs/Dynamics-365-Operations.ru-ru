@@ -1,13 +1,13 @@
 ---
-title: "Домашняя страница управления организацией"
-description: "Этот раздел указывает на ресурсы, которые помогут использовать Microsoft Dynamics 365 for Finance and Operations в организации."
+title: Домашняя страница управления организацией
+description: Эта тема указывает на ресурсы, которые помогут использовать Microsoft Dynamics 365 for Finance and Operations в организации.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a693529b55b66eb940f8215a336d5c4ae0acedd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332825"
 ---
-
 # <a name="organization-administration-home-page"></a>Домашняя страница управления организацией
 
 [!include [banner](../includes/banner.md)]
@@ -103,4 +102,3 @@ Workflow-процесс — это система, устанавливаетс�
 - [Настройка управления документами](configure-document-management.md)
 - [Настройка и отправка электронной почты](configure-email.md)
 - [Данные времени/даты и часовые пояса](date-time-zones.md)
-

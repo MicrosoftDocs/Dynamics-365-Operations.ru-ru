@@ -1,13 +1,13 @@
---- 
-title: "Настройка обработки волн"
-description: "В этом руководстве описывается, как настроить критерии, определяющие работу, создаваемую для склада при обработке волны, и способ обработки волн (вручную или автоматически)."
+---
+title: Настройка обработки волн
+description: В этом руководстве описывается, как настроить критерии, определяющие работу, создаваемую для склада при обработке волны, и способ обработки волн (вручную или автоматически).
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399146d35388a0151abb23e57bc36ec0173be928
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337517"
 ---
 # <a name="configure-wave-processing"></a>Настройка обработки волн
 
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 24. В поле "Запуск на склад" выберите параметр.
     * Для заказов на продажу и заказов канбана необходимо зарезервировать запасы до выпуска заказа на склад. В противном случае номенклатуры или строки распределения нельзя обрабатывать в волне. Для производственных заказов также доступен параметр "Разрешить частичное резервирование". Например, это полезно, если имеются материалы, которые необходимы для запуска производства, и можно подождать, пока станут доступны дополнительные материалы, чтобы завершить процесс. При выборе этого параметра необходимо вручную повторить процесс выпуска на склад, когда станут доступны дополнительные материалы.  
 25. Закройте страницу.
-
 

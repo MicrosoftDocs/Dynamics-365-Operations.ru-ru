@@ -1,13 +1,13 @@
 ---
-title: "Управление проверкой счетов с International Bank Account Number (IBAN)"
-description: "В этой теме рассматривается, как управлять проверкой счетов с International Bank Account Number (IBAN)."
+title: Управление проверкой счетов с International Bank Account Number (IBAN)
+description: В этой теме рассматривается, как управлять проверкой счетов с International Bank Account Number (IBAN).
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
 ms.openlocfilehash: 19e0528b95952de8e5503c361efcfeca4c529caf
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/12/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360011"
 ---
-
 # <a name="manage-international-bank-account-number-iban-validation"></a>Управление проверкой International Bank Account Number (IBAN)
 
 [!include [banner](../includes/banner.md)]
@@ -49,4 +48,3 @@ ms.lasthandoff: 10/12/2018
     Также проверяется, соответствует ли номер банковского счета той части IBAN, которая представляет номер банковского счета. Если номер банковского счета не соответствует структуре, будет выведено сообщение. Это сообщение — не более чем предупреждение. Можно продолжить выполнение операции, даже если номер банковского счета не соответствует структуре IBAN.
 
     Также проверяется, соответствует ли код банка той части IBAN, которая представляет код банка. Код банка включает номер банка и, часто, дополнительное отделение банка. Если код банка не соответствует, будет выведено сообщение. Это сообщение — не более чем предупреждение. Можно продолжить выполнение операции, даже если код банка не соответствует.
-

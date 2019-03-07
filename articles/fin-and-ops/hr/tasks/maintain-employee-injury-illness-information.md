@@ -1,13 +1,13 @@
---- 
-title: "Ведение сведений о травмах и заболеваниях сотрудников"
-description: "Рекомендуется сначала выполнить задание \"Настройка травм и заболеваний\", поскольку здесь используются некоторые сведения о настройке."
+---
+title: Ведение сведений о травмах и заболеваниях сотрудников
+description: Рекомендуется сначала выполнить задание "Настройка травм и заболеваний", поскольку здесь используются некоторые сведения о настройке.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 03d1e7f7b648e65cbe628aa4ff8b39dfa03ce96b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332618"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Ведение сведений о травмах и заболеваниях сотрудников
 
@@ -92,5 +92,4 @@ ms.lasthandoff: 09/14/2018
     * Пример: рентгеновский снимок подтверждает перелом, носить лонгету  
 36. Нажмите кнопку "Сохранить".
     * Статус инцидента можно изменить в любое время.  Установите для инцидента статус "В работе", если выполняется обработка травмы или заболевания.  После закрытия инцидента можно только добавлять или удалять затраты, лечение или отчеты, связанные с инцидентом.  Чтобы изменить другую информацию, повторное откройте инцидент.  
-
 

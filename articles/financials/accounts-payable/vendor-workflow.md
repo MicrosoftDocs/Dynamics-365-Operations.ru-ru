@@ -1,13 +1,13 @@
 ---
-title: "Workflow-процесс поставщика"
-description: "Изменение информации о поставщике и использование workflow-процесса для ее утверждения."
+title: Workflow-процесс поставщика
+description: Изменение информации о поставщике и использование workflow-процесса для ее утверждения.
 author: mikefalkner
 manager: annbe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 950a1852acf9f3e4747ce2d55738c0eb3a646897
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329697"
 ---
-
 # <a name="vendor-workflow"></a>Workflow-процесс поставщика
 
 [!include [banner](../includes/banner.md)]
@@ -61,5 +60,4 @@ ms.lasthandoff: 08/31/2018
 
     Статус на странице изменится на **Изменения, ожидающие утверждения**.
 
-Workflow-процесс следует стандартной схеме workflow-процессов в Microsoft Dynamics 365 for Finance and Operations. Утверждающее лицо направляется на страницу **Поставщик**, где может просмотреть изменения на странице **Предлагаемые изменения** странице, а затем выбрать **Workflow-процесс \> Утвердить**, чтобы утвердить workflow-процесс. По завершении всех утверждений поля обновляются в соответствии с предложенными вами значениями.
-
+Бизнес-правило следует стандартному процессу бизнес-правила в Microsoft Dynamics 365 for Finance and Operations. Утверждающее лицо направляется на страницу **Поставщик**, где может просмотреть изменения на странице **Предлагаемые изменения** странице, а затем выбрать **Workflow-процесс \> Утвердить**, чтобы утвердить workflow-процесс. По завершении всех утверждений поля будут обновлены для отображения предложенных значений.
