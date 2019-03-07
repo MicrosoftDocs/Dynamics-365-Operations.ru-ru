@@ -1,13 +1,13 @@
 ---
-title: "Настройка процентных ставок для кода процента"
-description: "Коды процента содержат настройки, определяющие, когда процент начисляется и как он вычисляется для просроченных счетов."
+title: Настройка процентных ставок для кода процента
+description: Коды процента содержат настройки, определяющие, когда процент начисляется и как он вычисляется для просроченных счетов.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Interest
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 665c58fd29fb986bf51e10f5814c4793940c0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1c19cb68df5be5245722da43f3ef9c2072873a34
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317783"
 ---
-
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Настройка процентных ставок для кода процента
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,6 @@ ms.lasthandoff: 05/08/2018
 Коды процентов имеют даты вступления в силу. Если требуется изменить процентную ставку, моно создать **новую версию**, которая вступит в силу в будущем.
 
 Чтобы просмотреть другие версии, можно использовать меню **По состоянию на**, чтобы выбрать дату прекращения. Также можно выбрать значение **Отобразить все записи**, чтобы просмотреть все коды процентов на странице.
-
 
 
 

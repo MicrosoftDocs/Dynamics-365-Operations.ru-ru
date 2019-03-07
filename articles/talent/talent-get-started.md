@@ -1,13 +1,13 @@
 ---
-title: "Начало работы с Talent"
-description: "В этом разделе представлена информация о том, как адаптировать интерфейс пользователя в соответствии с вашими предпочтениями, а также как подключаться к ресурсам справки, доступным в продукте и на сайте docs.microsoft.com."
+title: Начало работы с Talent
+description: В этом разделе представлена информация о том, как адаптировать интерфейс пользователя в соответствии с вашими предпочтениями, а также как подключаться к ресурсам справки, доступным в продукте и на сайте docs.microsoft.com.
 author: rschloma
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306017"
 ---
 # <a name="get-started-with-talent"></a>Начало работы с Talent
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 08/09/2018
 В Microsoft Dynamics 365 for Talent легко изменять интерфейс пользователя и задавать параметры, чтобы сделать программное обеспечение более понятным для ваших потребностей. В этом разделе содержатся ссылки на разделы, содержащие сведения о том, как адаптировать пользовательский интерфейс к вашим требованиям. Раздел также содержит ссылки на сведения, которые помогут более эффективно и точно искать информацию в системе. 
 
 > [!NOTE] 
-> Следующие продукты тесно связаны: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail и Dynamics 365 for Talent. Одинаковые функциональные возможности могут быть доступны во всех 3 продуктах. Таким образом, в темах, которые в основном связаны с Retail, будет использоваться имя продукта Microsoft Dynamics 365 for Retail, а в темах, которые в основном связаны Talent, будет использоваться имя продукта Dynamics 365 for Talent, а в темах, которые в основном связаны основном продуктом, будет использоваться имя продукта Dynamics 365 for Finance and Operations. Темы, написанные для одного продукта, могут относиться и к аналогичным функциональным возможностям в связанном продукте.
+> Следующие продукты тесно связаны: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail и Dynamics 365 for Talent. Одинаковые функциональные возможности могут быть доступны во всех 3 продуктах. В результате в темах, относящихся в первую очередь к Retail, используется название продукта Dynamics 365 for Retail; в темах, относящихся в основном к Talent, используется название продукта Dynamics 365 for Talent; и в темах, относящихся в первую очередь к базовому продукту, используется название продукта Dynamics 365 for Finance and Operations. Темы, написанные для одного продукта, могут относиться и к аналогичным функциональным возможностям в связанном продукте.
 
 ## <a name="personalizing-talent"></a>Персонализация Talent 
 В следующих темах показано, как настроить многие функции в Dynamics 365 for Talent, которые упрощают своевременное выполнение работы. 
@@ -58,12 +58,11 @@ ms.lasthandoff: 08/09/2018
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 ### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
-Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80), чтобы просмотреть новые функции, которые уже выпущены и которые все еще находятся в разработке.
+Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80), чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке.
 
 ### <a name="blogs"></a>Блоги
-Мнения, новости и другие сведения о расчетах с поставщиками и других решениях см. в [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
+Мнения, новости и другие сведения о расчетах с поставщиками и других решениях см. в блоге по [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
 
 ### <a name="videos"></a>Видео
-Смотрите видео с инструкциями на канале [Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Смотрите видео с инструкциями на [канале Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

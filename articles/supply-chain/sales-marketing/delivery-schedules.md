@@ -1,13 +1,13 @@
 ---
-title: "Графики поставки"
-description: "Графики поставки позволяют отслеживать количество в строках заказа при использовании нескольких поставок для одного заказа на продажу, предложения по продажам или заказа на покупку."
+title: Графики поставки
+description: Графики поставки позволяют отслеживать количество в строках заказа при использовании нескольких поставок для одного заказа на продажу, предложения по продажам или заказа на покупку.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchDeliverySchedule, SalesDeliverySchedule, SalesQuotationDeliverySchedule
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 068a881a7fa9b19198bd3ad22988465be49c1fa3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ceb568cc223a631f704caf2417f1a3bd56b56288
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325143"
 ---
-
 # <a name="delivery-schedules"></a>Графики поставки
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ ms.lasthandoff: 11/03/2017
 -   Просмотр страниц списков и отчетов
 
 После подтверждения предложений по продажам в итоговых заказах на покупку отображается весь график поставки, включая даже строки заказа с несколькими поставками. Кроме того, весь график поставки отображается на всех основных страницах, таких как заказы на продажу, предложения по продажам и заказы на покупку.
-
 
 
 

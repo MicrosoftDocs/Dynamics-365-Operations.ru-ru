@@ -1,13 +1,13 @@
---- 
-title: "Создание и приобретение основных средств в модуле \"Расчеты с поставщиками\""
-description: "В этом руководстве по задаче показано, как создать и приобрести основное средство в процессе покупки."
+---
+title: Создание и приобретение основных средств в модуле "Расчеты с поставщиками"
+description: В этом руководстве по задаче показано, как создать и приобрести основное средство в процессе покупки.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetParameters, VendInvoiceWorkspace, VendEditInvoice, VendTableLookup, InventItemIdLookupSimple, AssetTable
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e6c36338cc67855c79ec97d88bb8b633417b85c7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316426"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Создание и приобретение основных средств в модуле "Расчеты с поставщиками"
 
@@ -58,5 +58,4 @@ ms.lasthandoff: 09/14/2018
 17. В списке перейдите по ссылке в выбранной строке.
 18. Щелкните "Разнести".
     * Основное средство будет создано и приобретено при разноске накладной.  
-
 

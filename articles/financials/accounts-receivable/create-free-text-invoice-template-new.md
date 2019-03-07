@@ -1,13 +1,13 @@
---- 
-title: "Создание шаблона накладных с произвольным текстом"
-description: "Эта процедура показывает, как создать шаблона периодической накладной с произвольным текстом."
+---
+title: Создание шаблона накладных с произвольным текстом
+description: Эта процедура показывает, как создать шаблона периодической накладной с произвольным текстом.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 91f2ec2f8ab21616c6a1b886ee89d6faf84023e4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f69505f0c6137121cae92d42d052b244326c8436
-ms.openlocfilehash: 9b7ce8ba180f67c4a52439f4e03b59f07a71323d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/28/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310791"
 ---
 # <a name="create-a-free-text-invoice-template"></a>Создание шаблона накладных с произвольным текстом
 
@@ -68,4 +68,3 @@ ms.lasthandoff: 06/28/2018
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Сохранение накладной с произвольным текстом в качестве шаблона.
 Можно также сохранить существующую накладную с произвольным текстом в качестве шаблона. При выборе Сохранить в шаблон на вкладке Накладная, введите имя и описание для шаблона. Если шаблон с таким именем уже существует, появится уведомление о том, что шаблон с таким именем уже существует. По-прежнему можно щелкнуть "Ok", чтобы заменить его. 
-

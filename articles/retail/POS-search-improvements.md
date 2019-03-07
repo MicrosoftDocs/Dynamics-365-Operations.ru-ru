@@ -1,31 +1,30 @@
 ---
-title: "Поиск продуктов и клиентов в POS"
-description: "В этой теме приведен обзор усовершенствований, внесенных в функциональность поиска продукта и клиента в Microsoft Dynamics 365 for Retail."
+title: Поиск продуктов и клиентов в POS
+description: В этой теме приведен обзор усовершенствований, внесенных в функциональность поиска продукта и клиента в Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
+ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 50b0cec27e343b3b6aba464a04c9883160ab263a
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313597"
 ---
-
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Поиск продуктов и клиентов в POS
 
 [!include [banner](includes/banner.md)]
@@ -102,4 +101,3 @@ ms.lasthandoff: 08/09/2018
 
 > [!NOTE]
 > Пользовательское свойство, которое добавлено в перечисление, не влияет на стандартный алгоритм поиска клиентов. Другими словами, алгоритм поиска клиентов не будет выполнять поиск в пользовательском свойстве. Пользователи могут использовать пользовательское свойство для поиска только в том случае, если это пользовательское свойство добавлено как ярлык или если алгоритм поиска по умолчанию переопределен.
-

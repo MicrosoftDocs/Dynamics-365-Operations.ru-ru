@@ -1,13 +1,13 @@
 ---
-title: "Анкеты"
-description: "В этом разделе представлены общие сведения об анкетах и ссылки на более подробные сведения. Анкета — это набор вопросов, используемых для сбора сведений для различных целей. Анкеты можно разрабатывать, создавать, распространять и заполнять, а затем анализировать результаты."
+title: Анкеты
+description: В этом разделе представлены общие сведения об анкетах и ссылки на более подробные сведения. Анкета — это набор вопросов, используемых для сбора сведений для различных целей. Анкеты можно разрабатывать, создавать, распространять и заполнять, а затем анализировать результаты.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: d5c3e02bf5bc17db7232ccbb56e4dfbc062795b4
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305909"
 ---
-
 # <a name="questionnaires"></a>Анкеты
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 08/09/2018
 Анкету можно модифицировать, чтобы она соответствовала конкретным потребностям, с помощью разнообразных функций, доступных в Microsoft Dynamics 365 for Finance and Operations. Вот несколько примеров использования анкет:
 
 -   Проверка профессиональных навыков и кандидатов.
--   Определение того, выучили ли участники курса материал курса.
+-   Определение того, выучили ли участники курса материал курса.
 -   Оценка курса (например, оснащение, содержимое и лектор).
 -   Исследование степени удовлетворения сотрудников и клиентов.
 -   Оценка производительности работы сотрудников.
@@ -58,5 +57,4 @@ ms.lasthandoff: 08/09/2018
 [Распространение и заполнение анкет](distribute-questionnaires.md)
 
 [Просмотр и оценка результатов анкет](evaluate-questionnaire-results.md)
-
 

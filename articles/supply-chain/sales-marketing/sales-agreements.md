@@ -1,13 +1,13 @@
 ---
-title: "Договоры продажи"
-description: "В этой разделе представлены сведения о договорах продажи. Договор продажи является контрактом, который обязывает клиента приобрести продукты в определенном количестве или объеме за определенный период времени в обмен на специальные цены и скидки."
+title: Договоры продажи
+description: В этой разделе представлены сведения о договорах продажи. Договор продажи является контрактом, который обязывает клиента приобрести продукты в определенном количестве или объеме за определенный период времени в обмен на специальные цены и скидки.
 author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f4ab396d06383e3d6fc7bfab2e01f1afe4aa8fc4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4db47f445fe820e65389799ddcb6ea4a99949178
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309526"
 ---
-
 # <a name="sales-agreements"></a>Договоры продажи
 
 [!include [banner](../includes/banner.md)]
@@ -111,7 +110,6 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Финансовые аналитики договоров продажи
 Финансовые аналитики можно скопировать в заголовки документа или в отдельные строки договора продажи. Вы можете изменить аналитики в заголовке договора или строке договора в любое время. В этом случае аналитики автоматически копируются в заголовок отпуска или в строку отпуска заказов отпуска.
-
 
 
 

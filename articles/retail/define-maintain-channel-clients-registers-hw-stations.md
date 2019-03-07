@@ -1,13 +1,13 @@
 ---
-title: "Подключение периферийных устройств к POS"
-description: "В этом разделе описываются способы подключения периферийных устройств к Retail POS."
+title: Подключение периферийных устройств к POS
+description: В этом разделе описываются способы подключения периферийных устройств к Retail POS.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308790"
 ---
-
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Подключение периферийных устройств к POS
 
 [!include [banner](includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 01/04/2019
 В этом разделе описываются способы подключения периферийных устройств к Retail POS.
 
 > [!NOTE]
-> Конкретные инструкции по установке см. в разделах [Установка и конфигурация станции оборудования розничной торговли](retail-hardware-station-configuration-installation.md) и [Загрузка/установка самообслуживания Retail Modern POS и активация устройства Modern POS и Cloud POS](retail-modern-pos-device-activation.md).
+> Конкретные инструкции по установке см. в разделах [Установка и конфигурация станции Retail Hardware Station](retail-hardware-station-configuration-installation.md) и [Загрузка/установка самообслуживания Retail Modern POS и активация устройства Modern POS и Cloud POS](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Ключевые компоненты
 
@@ -188,4 +187,3 @@ Cloud POS — это POS на основе браузера. Поскольку 
 ### <a name="client-data-synchronization"></a>Синхронизация данных клиента
 
 Все изменения в клиенте POS за исключением изменений в статусе активации устройства необходимо синхронизировать с базой данных канала, чтобы они вступили в силу. Чтобы синхронизировать изменения с базой данных канала, перейдите в раздел **Розничная торговля** &gt; **ИТ розничной торговли** &gt; **График распределения** и выполните требуемый график распределения. В случае изменений клиента необходимо выполнить графики распределения "Регистры" и "Конфигурация канала".
-

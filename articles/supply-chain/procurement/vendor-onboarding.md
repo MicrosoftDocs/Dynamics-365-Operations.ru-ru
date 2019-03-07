@@ -1,13 +1,13 @@
 ---
-title: "Адаптация поставщиков"
-description: "В этом разделе описан процесс адаптации новых поставщиков. В нем описываются действия, которые требуются для различных ролей во время этого процесса."
+title: Адаптация поставщиков
+description: В этом разделе описан процесс адаптации новых поставщиков. В нем описываются действия, которые требуются для различных ролей во время этого процесса.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
 ms.reviewer: josaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f831d986d7b534bf030bee0fa0c5dcb97af03289
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322153"
 ---
-
 # <a name="onboard-vendors"></a>Адаптация поставщиков
 [!include [banner](../includes/banner.md)]
 
@@ -49,7 +48,7 @@ ms.lasthandoff: 05/23/2018
 | Администратор            | | | Создание пользователя в Finance and Operations и Microsoft Azure. | | | |
 | Контактное лицо поставщика    | | | Отправка электронной почты контактному лицу. | Регистрация сведений о поставщике. | | |
 
-Для быстрой демонстрации процесса адаптации поставщика просмотрите это короткое видео на YouTube: [Адаптация нового поставщика в Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
+Для быстрой демонстрации процесса адаптации поставщиков посмотрите это короткое видео на YouTube: [Адаптация нового поставщика в Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Импорт запроса на регистрацию потенциального поставщика
 
@@ -174,5 +173,4 @@ ms.lasthandoff: 05/23/2018
 |  Запрос поставщика создан  |                                                                     Мастер регистрации поставщика была выполнен.                                                                      | Создается запрос на деактивацию пользователя, и удаляются запрос регистрации потенциального поставщика, данные, которые были введены в мастере регистрации поставщика, и запрос поставщика.<blockquote>[!NOTE]<br>Нельзя использовать действие <strong>Удалить</strong>, когда запрос поставщика находится в процессе рассмотрения в workflow-процессе.</blockquote> |
 |         Одобрено         |                                                                               Запрос поставщика утвержден.                                                                               |                                                                                                   Запрос регистрации потенциального поставщика, данные, которые были введены в мастере регистрации поставщика, и запрос поставщика удаляются.                                                                                                    |
 |         Отклонено         |                                                                               Запрос поставщика отклонен.                                                                               |                                                                                                   Запрос регистрации потенциального поставщика, данные, которые были введены в мастере регистрации поставщика, и запрос поставщика удаляются.                                                                                                    |
-
 

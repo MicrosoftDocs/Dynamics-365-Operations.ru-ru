@@ -1,13 +1,13 @@
 ---
-title: "Обновление стандартных затрат в непроизводственной среде"
-description: "Эта статья содержит рекомендации по обновлению стандартных затрат в непроизводственной среде."
+title: Обновление стандартных затрат в непроизводственной среде
+description: Эта статья содержит рекомендации по обновлению стандартных затрат в непроизводственной среде.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4fa545aa6903bd6f789dda20ab5755ffe9a12b88
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0386ca1e5e7bf6e578ba2abf1b2c9eefe4dd2a02
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323027"
 ---
-
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Обновление стандартных затрат в непроизводственной среде
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ ms.lasthandoff: 11/03/2017
 4.  Используйте страницу **Поддержка версии калькуляции издержек** для изменения блокирующего флага, чтобы активировать записи предстоящих затрат в рамках второй версии расчета себестоимости.
 5.  Используйте страницу **Активировать цены** (которая открывается со страницы **Поддержка версии калькуляции издержек**) для активирования всех записей предстоящих затрат в рамках второй версии расчета себестоимости. Кроме того, записи по ожидаемым затратам для отдельных номенклатур можно активировать, нажав кнопку **Активировать ожидающие цены** на странице **Цена номенклатуры**.
 6.  Используйте страницу **Настройка версии калькуляции издержек** для изменения блокирующих флагов в рамках второй версии расчета себестоимости, чтобы избежать поддержки дополнительных данных. Политики блокирования помогут предотвратить ввод новых предстоящих затрат и активацию предстоящих затрат.
-
 
 
 

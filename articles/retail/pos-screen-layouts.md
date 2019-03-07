@@ -1,13 +1,13 @@
 ---
-title: "Макеты экранов для POS"
-description: "В этой теме содержится информация о макетах экрана для работы с POS в Microsoft Dynamics 365 for Retail."
+title: Макеты экранов для POS
+description: В этой теме содержится информация о макетах экрана для работы с POS в Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/13/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321900"
 ---
-
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Макеты экранов для POS
 
 [!include [banner](includes/banner.md)]
@@ -51,7 +50,7 @@ ms.lasthandoff: 11/13/2018
 - **Описание** — вы можете указать понятное имя, которое помогает определить правильный профиль в вашей ситуации.
 - **Тема** — вы можете выбрать светлую или темную тему приложения. Тема влияет на цвета шрифта и фона в приложении.
 - **Цвет выделения** — цвет выделения используется во всем POS-терминале для различения или выделения определенных визуальных элементов, таких как заголовки, кнопки команд и гиперссылки. Обычно эти элементы обычно связаны с действиями.
-- **Цвет заголовка** — можно настроить цвет заголовка страницы для удовлетворения требований предприятия розничной торговли. Эта возможность доступна только в Microsoft Dynamics 365 for Retail версии 1611.
+- **Цвет заголовка** — можно настроить цвет заголовка страницы для удовлетворения требований предприятия розничной торговли. Эта функция доступна только в Microsoft Dynamics 365 for Retail версии 1611.
 - **Фон при входе в систему** — вы можете указать фоновое изображение для экрана входа в систему. Размер файла фоновых изображений должен быть как можно меньше, так как хранение и загрузка больших файлов могут оказывать влияние на производительность и поведение приложения.
 - **Фон приложения** — вы можете указать изображение, используемое в качестве фона, вместо темы со сплошным цветом фона для всего приложения. Что касается фона при входе в систему, размер файла следует сохранять как можно меньшего размера.
 
@@ -194,4 +193,3 @@ ms.lasthandoff: 11/13/2018
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Установка конструктора макета Retail POS](install-pos-layout-designer.md)
-

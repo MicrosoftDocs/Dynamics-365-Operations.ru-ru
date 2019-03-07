@@ -1,13 +1,13 @@
 ---
-title: "Обновление управления складом с Microsoft Dynamics AX 2012 до Finance and Operations"
-description: "В этой теме приведен обзор вариантов миграции продуктов и управления складом."
+title: Обновление управления складом с Microsoft Dynamics AX 2012 до Finance and Operations
+description: В этой теме приведен обзор вариантов миграции продуктов и управления складом.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324476"
 ---
-
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Обновление управления складом с Microsoft Dynamics AX 2012 до Finance and Operations
 
 
@@ -84,4 +83,3 @@ Finance and Operations больше не поддерживает устарев
 6.  На странице **Изменить группу аналитик хранения для номенклатур** добавьте коды номенклатур, группы аналитик хранения и группы упорядочения единиц измерения. Этот шаг можно выполнить непосредственно на странице, с помощью интеграции с Microsoft Office или с помощью процесса обработки информационных объектов в модуле [Управление данными](../../dev-itpro/data-entities/data-entities.md).
 7.  Проверьте изменения. В процессе проверки проводятся различные проверки целостности данных. В рамках более масштабного процесса обновления проблемы, которые могут возникнут, необходимо устранять на стороне исходной реализации. В этом случае потребуется дополнительное обновление данных.
 8.  Обработайте изменения. Обновление складских аналитик может занять некоторое время. Можно отслеживать ход выполнения с помощью задач в пакетных заданиях.
-

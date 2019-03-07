@@ -1,13 +1,13 @@
---- 
-title: "Определение процесса компенсации и расчет результатов"
-description: "Процессы компенсации используются для определения новых сумм компенсации и вознаграждения для сотрудников, участвующих в фиксированных и переменных планах компенсаций."
+---
+title: Определение процесса компенсации и расчет результатов
+description: Процессы компенсации используются для определения новых сумм компенсации и вознаграждения для сотрудников, участвующих в фиксированных и переменных планах компенсаций.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5e5b0bb5558a8b71d02b5988c6f82f53f4f42646
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ba28cf1fa6a8e9a4497d3bac1a2161098ec53db1
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325741"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Определение процесса компенсации и расчет результатов
 
@@ -101,5 +101,4 @@ ms.lasthandoff: 09/29/2017
 9. Щелкните "Изменить статус".
 10. Щелкните "Одобрить".
     * После утверждения записи ее можно загрузить в официальную запись компенсаций сотрудника. Новая компенсация будет действовать на дату проводки, установленную для процесса компенсации.  
-
 

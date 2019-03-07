@@ -1,13 +1,13 @@
---- 
-title: "Настройка групп разноски ГК для налога"
-description: "Налог рассчитывается и разносится на счета ГК, указанные в группах разноски ГК."
+---
+title: Настройка групп разноски ГК для налога
+description: Налог рассчитывается и разносится на счета ГК, указанные в группах разноски ГК.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 15421da6f325dfee22a303e9fe83a0e72895fa08
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308353"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Настройка групп разноски ГК для налога
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/14/2018
 11. В поле "Скидка при оплате наличными по клиенту" выберите счет ГК для разноски скидки по оплате для налоговых кодов, связанных с данной группой разноски ГК.
     * Это необязательно, и если счет не введен, используется счет ГК для кодов скидок по оплате. Может быть полезно использовать другие счета в группе разноски ГК при использовании параметра "Сторнировать налог со скидки по оплате" в группе налогов.  
 12. Нажмите кнопку "Сохранить".
-
 

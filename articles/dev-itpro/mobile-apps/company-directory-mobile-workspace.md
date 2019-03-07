@@ -1,13 +1,13 @@
 ---
-title: "Мобильная рабочая область каталога компании"
-description: "Эта тема содержит сведения о мобильной рабочей области каталога компании, которая позволяет пользователям просматривать и связываться с другими сотрудниками в своей организации."
+title: Мобильная рабочая область каталога компании
+description: Эта тема содержит сведения о мобильной рабочей области каталога компании, которая позволяет пользователям просматривать и связываться с другими сотрудниками в своей организации.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 527d40452bcf52875e3f7b04d328110147417072
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308629"
 ---
-
 # <a name="company-directory-mobile-workspace"></a>Мобильная рабочая область каталога компании
 
 [!include [banner](../includes/banner.md)]
 
 В этом разделе приводятся сведения о мобильной рабочей области **Каталог компании**. Эта рабочая область позволяет пользователям просматривать и связываться с другими сотрудниками в своей организации.
 
-Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations.
+Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Обзор
 Мобильная рабочая область **Каталог компании** позволяет пользователям выполнять следующие задачи:
@@ -58,7 +57,7 @@ ms.lasthandoff: 08/29/2018
 </ul>
 </td>
 <td>Системный администратор</td>
-<td>Если в вашей организации еще не развернуто Finance and Operations см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Talent, системный администратор может получить доступ к пробной версии на <a href="https://www.microsoft.com/en-us/dynamics365/talent">странице Talent</a>.
+<td>Если в вашей организации еще не развернуто Finance and Operations см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Talent, системный администратор может получить доступ к пробной версии на <a href="https://www.microsoft.com/en-us/dynamics365/talent">веб-странице Talent</a>.
 </td>
 </tr>
 <tr class="even">
@@ -72,12 +71,12 @@ ms.lasthandoff: 08/29/2018
 ## <a name="download-and-install-the-mobile-app"></a>Загрузите и установите мобильное приложение
 Загрузите и установите мобильное приложение Dynamics 365 for Unified Operations:
 
--   [Для ОС Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Войдите в систему в мобильном приложении
 1.  Запустите приложение на мобильном устройстве.
-2.  Введите URL-адрес Microsoft Dynamics 365.
+2.  Введите ваш URL-адрес Microsoft Dynamics 365.
 3.  При первом входе появится запрос имени пользователя и пароля. Введите свои учетные данные.
 4.  После входа будут показаны доступные рабочие области для вашей компании. Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.
 
@@ -91,4 +90,3 @@ ms.lasthandoff: 08/29/2018
 1.  В мобильном приложении выберите рабочую область **Каталог компании**.
 2.  В поле **Поиск** введите имя сотрудника, фамилию, должность или подразделение, чтобы начать поиск.
 3.  Выберите сотрудника. Появляется страница **Профиль сотрудника**. Сведения на этой странице содержат имя сотрудника, фамилию, должность и отдел.
-

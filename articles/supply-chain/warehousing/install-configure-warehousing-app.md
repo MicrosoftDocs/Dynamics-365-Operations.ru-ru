@@ -1,13 +1,13 @@
 ---
-title: "Установка и настройка Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing"
-description: "В этом разделе описывается, как установить и настроить Microsoft Dynamics 365 for Finance and Operations — Warehousing."
+title: Установка и настройка  Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing
+description: В этом разделе описывается, как установить и настроить Microsoft Dynamics 365 for Finance and Operations — Warehousing.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 11/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
-ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316127"
 ---
-
-# <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Установка и настройка Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing
+# <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Установка и настройка  Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,21 +46,23 @@ Finance and Operations — Warehousing представляет собой пр�
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10 (все версии)                                                                                                                                                   |
-| Finance and Operations | Microsoft Dynamics 365 for Operations, версия 1611 <br>–или– <br>Microsoft Dynamics AX версии 7.0/7.0.1 и платформа Microsoft Dynamics AX с обновлением 2 и исправлением КБ 3210014 |
+| Finance and Operations | Microsoft Dynamics 365 for Operations, версия 1611 <br>–или– <br>Microsoft Dynamics AX версии 7.0/7.0.1 и Microsoft Dynamics AX, обновление платформы 2 с исправлением KB 3210014 |
 
 ## <a name="get-the-app"></a>Получение приложения
 -   Windows (UWP)
      - [Finance and Operations - Warehousing в Магазине Windows](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 -   Android
     - [Finance and Operations — Warehousing в магазине Google Play](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
-    - [Finance and Operations — Warehousing в Zebra App Gallery](https://appgallery.zebra.com/showcase/apps/146?type=showcase)
+
+> [!NOTE]
+> Zebra App Gallery была удалена, что означает, что приложение Finance and Operations — Warehousing больше не будет доступно для загрузки из этого расположения.
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a>Создание приложения веб-службы в Azure Active Directory
 Чтобы приложение могло взаимодействовать с определенным сервером Finance and Operations, необходимо зарегистрировать приложение веб-службы в Azure Active Directory для владельца Finance and Operations. По соображениям безопасности рекомендуется создавать приложения веб-службы для каждого устройства, которое используется. Чтобы создать приложение веб-службы в Azure Active Directory (Azure AD), выполните следующие действия:
 
 1.  В веб-браузере перейдите к <https://portal.azure.com>.
 2.  Введите имя и пароль пользователя, который имеет доступ к подписке Azure.
-3.  На портале Azure в левой области навигации щелкните **Azure Active Directory**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-пример-active-directory](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+3.  На портале Azure в левой области навигации щелкните **Azure Active Directory**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-пример-активного-каталога](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
 4.  Убедитесь, что экземпляр службы каталогов Active Directory — это экземпляр, используемый Finance and Operations.
 5.  В списке щелкните **Регистрации приложений**. [![WMA-02-регистрации-приложений-active-directory](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
 6.  В верхней области щелкните **Регистрация нового приложения**. Запускается мастер **Добавление приложения**.
@@ -79,7 +80,7 @@ Finance and Operations — Warehousing представляет собой пр�
     2.  Создайте нового пользователя.
     3.  Назначьте пользователя складского мобильного устройства, как показано на следующем рисунке. [![wh-09-добавление-роли-безопасности-пользователя](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-2.  Свяжите приложения Azure Active Directory с пользователем складского приложения.
+2.  Свяжите приложение Azure Active Directory с пользователем складского приложения.
     1.  В Finance and Operations перейдите к **Администрирование системы** &gt; **Настройка** &gt; **Приложения Azure Active Directory**.
     2.  Создайте новую строку.
     3.  Введите **Код клиента** (полученный в предыдущем разделе), присвойте ему имя, затем выберите ранее созданного пользователя. Рекомендуется пометить все устройства, чтобы можно было легко удалять их доступ к Finance and Operations, с этой страницы в случае, если они будут потеряны. [![wh-10-форма-приложений-ad](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
@@ -92,13 +93,13 @@ Finance and Operations — Warehousing представляет собой пр�
 3.  Введите следующую информацию: 
     + **Код клиента Azure Active Directory** — код клиента, который получен на шаге 9 в разделе "Создание приложения веб-службы в Active Directory". 
     + **Секрет клиента Azure Active Directory** — секрет клиента, который получен на шаге 11 в разделе "Создание приложения веб-службы в Active Directory". 
-    + **Ресурс Azure Active Directory** — ресурс Azure AD Directory описывает корневой URL-адрес Dynamics 365 for Finance and Operations. **Примечание**. Не завершайте это поле символом прямой косой черты (/). 
-    + **Владелец Azure Active Directory** — владелец Azure AD Directory, используемый с сервером Finance and Operations: `https://login.windows.net/your-AD-tenant-ID`. Пример: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
+    + **Ресурс Azure Active Directory** — ресурс каталога Azure AD описывает корневой URL-адрес Finance and Operations. **Примечание**. Не завершайте это поле символом прямой косой черты (/). 
+    + **Владелец Azure Active Directory** — владелец каталога Azure AD, используемый с сервером Finance and Operations: `https://login.windows.net/your-AD-tenant-ID`. Пример: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Примечание**. Не завершайте это поле символом прямой косой черты (/). 
     + **Компания** — введите юридическое лицо в Finance and Operations, к которому должно подключаться приложение. <br>[![wh-12-настройки-подключения-приложения](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Нажмите кнопку **Назад** в левом верхнем углу приложения. Теперь приложение подключится к серверу Finance and Operations, и на дисплее появится экран входа для работника склада. <br>[![wh-13-экран-входа](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
 
-Сведения о том, как настроить Dynamics 365 for Finance and Operations – Warehousing для сканирования штрих-кодов с помощью камеры мобильного устройства, см. в разделе [Сканирование штрих-кодов с помощью камеры в Dynamics 365 for Finance and Operations – Warehousing](scan-bar-codes-using-a-camera.md)
+Сведения о том, как настроить приложение Dynamics 365 for Finance and Operations — Warehousing для сканирование штрих-кодов с помощью камеры на мобильном устройстве см. в разделе [Сканирование штрих-кодов с помощью камеры в Dynamics 365 for Finance and Operations — Warehousing](scan-bar-codes-using-a-camera.md)
 
 ## <a name="remove-access-for-a-device"></a>Удаление доступа для устройства
 Если устройство было потеряно или взломано, необходимо удалить доступ к Finance and Operations для устройства. Следующие шаги описывают рекомендуемый процесс удаления доступа.
@@ -111,4 +112,3 @@ Finance and Operations — Warehousing представляет собой пр�
 6.  Убедитесь, что **Код клиента** приложения совпадает с кодом из шага 2 в этом разделе.
 7.  Нажмите кнопку **Удалить** в верхней области.
 8.  Нажмите **Да** в сообщение с запросом подтверждения.
-

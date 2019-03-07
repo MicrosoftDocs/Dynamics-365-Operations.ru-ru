@@ -1,13 +1,13 @@
---- 
-title: "Разработка конфигураций для формирования документов, имеющих данные приложений"
-description: "Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру \"Электронная отчетность — Формирование документов с обновлением данных приложения (Часть 1. Импорт конфигураций)\"."
+---
+title: Разработка конфигураций для формирования документов, имеющих данные приложений
+description: Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Формирование документов с обновлением данных приложения (Часть 1. Импорт конфигураций)".
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8376107a33dd83e04f82fcab6847e7f073f08dbc
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316357"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Разработка конфигураций для формирования документов, имеющих данные приложений
 
@@ -58,5 +58,4 @@ ms.lasthandoff: 08/09/2018
     * Поскольку выполненный формат электронной отчетности не содержит никаких параметров для обновления данных приложения, сведения о завершенном отчете Интрастат архивированы не были.  
 10. Закройте страницу.
 11. Закройте страницу.
-
 

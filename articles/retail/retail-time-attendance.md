@@ -1,13 +1,13 @@
 ---
-title: "Планирование управления временем и присутствием в Retail"
-description: "В этой теме описываются сценарии, поддерживаемые для управления временем и посещаемостью в Microsoft Dynamics 365 for Retail."
+title: Планирование управления временем и присутствием в Retail
+description: В этой теме описываются сценарии, поддерживаемые для управления временем и посещаемостью в Microsoft Dynamics 365 for Retail.
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321279"
 ---
-
 # <a name="time-and-attendance-management-in-retail"></a>Планирование управления временем и присутствием в Retail
 
 [!include [banner](includes/banner.md)]
@@ -126,7 +125,7 @@ ms.lasthandoff: 01/04/2019
 
 ## <a name="process-and-manage-time-registrations"></a>Обработка регистраций времени и управление ими
 
-Пользователь Dynamics 365 for Retail выполняет workflow-процесс, чтобы вычислить, утвердить и перенести регистрации времени в зарплату.
+Пользователь Dynamics 365 for Retail выполняет workflow-процесс, чтобы вычислить, утвердить и перенеси регистрации времени в зарплату.
 
 ### <a name="primary-operations"></a>Основные операции
 
@@ -140,4 +139,3 @@ ms.lasthandoff: 01/04/2019
 - Регистрация отсутствия
 
 Дополнительные сведения о том, как обрабатывать регистрацию времени и посещаемости, см. в разделе [Обработка регистраций времени и посещаемости](https://technet.microsoft.com/library/aa573180.aspx).
-

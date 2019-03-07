@@ -1,13 +1,13 @@
 ---
-title: "Использование платежа клиента для сопоставления нескольких накладных, охватывающих несколько периодов скидок"
-description: "В этом разделе показано, как оплачиваются несколько накладных, когда для каждой накладной действует скидка по оплате. Сценарии в этой статье показывают, как изменяются используемые скидки по оплате в зависимости от времени выполнения платежа."
+title: Использование платежа клиента для сопоставления нескольких накладных, охватывающих несколько периодов скидок
+description: В этом разделе показано, как оплачиваются несколько накладных, когда для каждой накладной действует скидка по оплате. Сценарии в этой статье показывают, как изменяются используемые скидки по оплате в зависимости от времени выполнения платежа.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a358af4878de0d02ce4dd3520e786d8779d7f030
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92a981cbf9803e8adce1efc26a3fcfcb998540da
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319232"
 ---
-
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Использование платежа клиента для сопоставления нескольких накладных, охватывающих несколько периодов скидок
 
 [!include [banner](../includes/banner.md)]
@@ -97,7 +96,6 @@ ms.lasthandoff: 11/03/2017
 | FTI-10042  | Счет          | 25.06.2015 | 10042   | 1 000,00                             |                                       | 505,10   | американский доллар      |
 | ARP-10040  | Платеж          | 29.06.2015 |         |                                      | 1 485,00                              | 0,00     | американский доллар      |
 | DISC-10040 | Скидка по оплате    | 29.06.2015 |         |                                      | 9,90                                  | 0,00     | американский доллар      |
-
 
 
 

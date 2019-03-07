@@ -1,13 +1,13 @@
 ---
-title: "Добавление элемента управления рекомендациями на экране проводки на устройствах POS"
-description: "В этом разделе описывается, как добавить элемент управления рекомендациями на экране проводки устройства POS, используя конструктор макета экрана в Microsoft Dynamics 365 for Retail."
+title: Добавление элемента управления рекомендациями на экране проводки на устройствах POS
+description: В этом разделе описывается, как добавить элемент управления рекомендациями на экране проводки устройства POS, используя конструктор макета экрана в Microsoft Dynamics 365 for Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 02/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320451"
 ---
-
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Добавление элемента управления рекомендациями на экране проводки на устройствах POS
 
 [!include [banner](includes/banner.md)]
@@ -67,7 +66,7 @@ ms.lasthandoff: 01/04/2019
     [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 3. Нажмите кнопку **X**, чтобы сохранить конструктор макетов и выйти из него.
-4. В Dynamics 365 for Retail перейдите в раздел **Розничная торговля** &gt; **ИТ розничной торговли** &gt; **График распределения**.
+4. В Dynamics 365 for Retail выберите **Розничная торговля** &gt; **ИТ розничной торговли** &gt; **Графики распределения**.
 5. В списке выберите  **1090, Регистры**.
 6. Щелкните **Запустить сейчас**.
 
@@ -88,11 +87,10 @@ ms.lasthandoff: 01/04/2019
 7. В поле **Изображение** выберите изображение, которое должно появляться на вкладке.
 8. Щелкните **OK**. Новая вкладка отображается в сетке кнопок.
 9. Нажмите кнопку **X**, чтобы сохранить конструктор макетов и выйти из него.
-10. В Dynamics 365 for Retail перейдите в раздел **Розничная торговля** &gt; **ИТ розничной торговли** &gt; **График распределения**.
+10. В Dynamics 365 for Retail выберите **Розничная торговля** &gt; **ИТ розничной торговли** &gt; **Графики распределения**.
 11. В списке выберите **1090, Регистры**.
 12. Щелкните **Запустить сейчас**.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор персонализированных рекомендаций по продуктам](personalized-product-recommendations.md)
-

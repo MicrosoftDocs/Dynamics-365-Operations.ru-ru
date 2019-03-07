@@ -1,13 +1,13 @@
 ---
-title: "Местонахождение получения из производства"
-description: "В этой теме описывается иерархия, которая используется для идентификации местоположения получения из производства."
+title: Местонахождение получения из производства
+description: В этой теме описывается иерархия, которая используется для идентификации местоположения получения из производства.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 9445db6d78d46831ed961977d6041459f118fee9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b1d6d1270dcbdf3baff63b2ccf300d6195329b41
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315782"
 ---
-
 # <a name="production-output-location"></a>Местонахождение получения из производства
 
 [!include [banner](../includes/banner.md)]
@@ -41,4 +40,3 @@ ms.lasthandoff: 11/03/2017
 4. Если местонахождение не обнаружено, используйте местоположение получения, которое определено в складе, определенном для производственного заказа.
 
 Местонахождение получения из производства по умолчанию задается только для продуктов, которые были настроены с помощью расширенных процессов складов. Когда принимается этот тип номенклатуры, создается работа склада типа **Размещение готовой продукции** или **Размещение побочных и попутных продуктов**. Этот тип работы использует местонахождение получения из производства в качестве местонахождения комплектации. Местонахождение размещения определяется директивами местонахождения.
-

@@ -1,13 +1,13 @@
 ---
-title: "Синхронизация контрактов по проекту и проектов непосредственно из Project Service Automation с Finance and Operations"
-description: "В этой теме обсуждается шаблон и базовые задачи, которые используются для синхронизации контрактов и проектов непосредственно из Microsoft Dynamics 365 for Project Service Automation с Microsoft Dynamics 365 for Finance and Operations."
+title: Синхронизация контрактов по проекту и проектов непосредственно из Project Service Automation с Finance and Operations
+description: В этой теме обсуждается шаблон и базовые задачи, которые используются для синхронизации контрактов по проекту и проектов непосредственно из Microsoft Dynamics 365 for Project Service Automation в Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312125"
 ---
-
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Синхронизация контрактов по проекту и проектов непосредственно из Project Service Automation с Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме обсуждается шаблон и базовые задачи, которые используются для синхронизации контрактов и проектов непосредственно из Microsoft Dynamics 365 for Project Service Automation с Microsoft Dynamics 365 for Finance and Operations.
+В этой теме обсуждается шаблон и базовые задачи, которые используются для синхронизации контрактов по проекту и проектов непосредственно из Microsoft Dynamics 365 for Project Service Automation в Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE] 
-> При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, необходимо установить пакет обновления KB 4074835.
+> При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, необходимо установить KB 4074835.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Поток данных для Project Service Automation для Finance and Operations
 
@@ -47,7 +46,7 @@ ms.lasthandoff: 11/01/2018
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
 
-Для доступа к доступным шаблонам в центре администрирования Microsoft PowerApps выберите **Проекты**и выберите в правом верхнем углу **Новый проект** для выбора общих шаблонов.
+Для доступа к доступным шаблонам в центре администрирования Microsoft PowerApps выберите **Проекты** и выберите в правом верхнем углу **Новый проект** для выбора общих шаблонов.
 
 Следующий шаблон и базовые задачи используются для синхронизации контрактов и проектов из Project Service Automation в Finance and Operations:
 
@@ -135,4 +134,3 @@ ms.lasthandoff: 11/01/2018
 [![Соответствие шаблона](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
 [![Соответствие шаблона](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
-

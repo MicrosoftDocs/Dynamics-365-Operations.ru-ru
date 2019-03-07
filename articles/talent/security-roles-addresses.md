@@ -1,30 +1,29 @@
 ---
-title: "Доступ к частным адресам по роли безопасности"
-description: "В этом разделе объясняется, как решить проблему, когда клиент не может получить доступ к частным адресам."
+title: Доступ к частным адресам по роли безопасности
+description: В этом разделе объясняется, как решить проблему, когда клиент не может получить доступ к частным адресам.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: c1c1c3ce1233408e73d177f9e04f1137f3171a49
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305899"
 ---
-
 # <a name="access-to-private-addresses-by-security-role"></a>Доступ к частным адресам по роли безопасности
 
 [!include [banner](includes/banner.md)]
@@ -42,4 +41,3 @@ ms.lasthandoff: 12/04/2018
 3. Выберите **Сохранить**.
 
 ![Страница параметров глобальной адресной книги](media/GAD-parameters.png)
-

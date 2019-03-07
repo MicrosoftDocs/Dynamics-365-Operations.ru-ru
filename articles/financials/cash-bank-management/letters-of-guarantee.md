@@ -1,13 +1,13 @@
 ---
-title: "Гарантийные письма"
-description: "В этой статье представлена информация о гарантийных письмах. В гарантийном письме, банк соглашается заплатить определенную сумму денег лицу, если один из клиентов банка объявляет банкротство по платежу или обязательству этому лицу."
+title: Гарантийные письма
+description: В этой статье представлена информация о гарантийных письмах. В гарантийном письме, банк соглашается заплатить определенную сумму денег лицу, если один из клиентов банка объявляет банкротство по платежу или обязательству этому лицу.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLGGuarantee
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3146a4a910a76c21ca8c65d52748ede61220b964
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c3d61bbfdd6a304a7bd2edd81e51e556a4955dce
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313298"
 ---
-
 # <a name="letters-of-guarantee"></a>Гарантийные письма
 
 [!include [banner](../includes/banner.md)]
@@ -64,6 +63,5 @@ ms.lasthandoff: 11/03/2017
 [Проводка, связанная с гарантийным письмом](tasks/letter-guarantee-transaction.md)
 
 [Настройка банковских услуг и профилей разноски для гарантийного письма](tasks/set-up-bank-facilities-posting-profiles.md)
-
 
 

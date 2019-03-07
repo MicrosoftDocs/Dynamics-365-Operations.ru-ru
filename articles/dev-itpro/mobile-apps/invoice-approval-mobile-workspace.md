@@ -1,13 +1,13 @@
 ---
-title: "Мобильная рабочая область \"Утверждения накладных\""
-description: "В этом разделе содержится информация о мобильной рабочей области утверждения накладных. Эта рабочая область содержит список накладных, которые были назначены вам через процесс workflow-процесса заголовка накладной поставщика."
+title: Мобильная рабочая область "Утверждения накладных"
+description: В этом разделе содержится информация о мобильной рабочей области утверждения накладных. Эта рабочая область содержит список накладных, которые были назначены вам через процесс workflow-процесса заголовка накладной поставщика.
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: ff726670e0fd7566a74e6def73555a7c53b86f97
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6c95c2779d996f489679c8dda4cda462ba0a05ac
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327006"
 ---
-
 # <a name="invoice-approvals-mobile-workspace"></a>Мобильная рабочая область "Утверждения накладных"
 
 [!include [banner](../includes/banner.md)]
 
 В этом разделе содержится информация о мобильной рабочей области **Утверждения накладных**. Эта рабочая область содержит список накладных, которые были назначены вам через процесс workflow-процесса заголовка накладной поставщика. 
 
-Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations.
+Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Обзор
 
@@ -66,13 +65,13 @@ ms.lasthandoff: 03/26/2018
 
 Загрузите и установите мобильное приложение Dynamics 365 for Unified Operations:
 
--   [Для ОС Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Войдите в систему в мобильном приложении
 
 1.  Запустите приложение на мобильном устройстве.
-2.  Введите URL-адрес Microsoft Dynamics 365.
+2.  Введите ваш URL-адрес Microsoft Dynamics 365.
 3.  При первом входе появится запрос имени пользователя и пароля. Введите свои учетные данные.
 4.  После входа будут показаны доступные рабочие области для вашей компании. Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.
 
@@ -88,4 +87,3 @@ ms.lasthandoff: 03/26/2018
 7.  Выберите **Вложения** для просмотра любых примечаний или файлов, которые присоединены к накладной.
 8.  На странице **Сведения о накладной** выберите соответствующее действие workflow-процесса для выполнения процесса проверки.
 9.  Выберите **Готово**.
-

@@ -1,13 +1,13 @@
 ---
-title: "Производные книги"
-description: "Эта статья содержит обзор функции производной книги."
+title: Производные книги
+description: Эта статья содержит обзор функции производной книги.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 153b6437205d5a849fa6a90c0d3b9f3d51dd6768
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e43dcc15212ae90a33d59fa32692aabcba7a19cb
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313919"
 ---
-
 # <a name="derived-books"></a>Производные книги
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ ms.lasthandoff: 11/03/2017
 > Книги, которые настраиваются в проводках разноски на интервалах, отличных от интервалов первичной книги, должны присоединяться к основным средствам в качестве отдельных книг, а не в виде производных книг.  
 
 Дополнительные сведения см. в разделе [Разноска с производными книгами](post-derived-value-models.md).
-
 
 
 

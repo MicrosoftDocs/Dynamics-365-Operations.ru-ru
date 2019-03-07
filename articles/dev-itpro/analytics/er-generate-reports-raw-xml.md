@@ -1,13 +1,13 @@
 ---
-title: "Формирование отчетов путем добавления содержимого в виде исходного XML-документа"
-description: "Можно разработать форматы электронной отчетности (ER) , которые создают исходящие документы в формате XML."
+title: Формирование отчетов путем добавления содержимого в виде исходного XML-документа
+description: Можно разработать форматы электронной отчетности (ER) , которые создают исходящие документы в формате XML.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 39503d051e3b4686bbaa0130fe5be7cb980fbcb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 56a5f53e1d3da8aa57e98e7d34fbc9c4005b6df8
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312194"
 ---
-
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>Формирование отчетов путем добавления содержимого в виде исходного XML-документа
 
 [!include[banner](../includes/banner.md)]
@@ -39,4 +38,3 @@ ms.lasthandoff: 08/09/2018
 > Имейте в виду, что структура не контролирует правильность содержимого XML, помещенного в созданный документ, с помощью элемент формата **ИСХОДНОГО XML**.
 
 Для получения дополнительных сведений о данной функции, воспроизведите проводники по задаче **ER использует исходные данные XML для создания отчетов XML (часть 1: разработка модели данных)** и **ER использует исходные данные XML для создания отчетов XML (часть 2: разработка и выполнение отчета)** которые являются частью бизнес-процесса **7.5.4.3 Приобретение/разработка компонентов ИТ-услуг и решений (10677)** и могут быть загружены из [центра загрузки Майкрософт](https://go.microsoft.com/fwlink/?linkid=874684). Эти задачи проводники по задаче описывают процесс настройки формата ER для вставки исходных данных XML в созданные файлы.
-

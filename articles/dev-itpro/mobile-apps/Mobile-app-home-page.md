@@ -1,13 +1,13 @@
 ---
-title: "Домашняя страница приложения Dynamics 365 for Unified Operations Mobile"
-description: "В этом разделе описывается мобильное приложение Microsoft Dynamics 365 for Unified Operations и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации."
+title: Домашняя страница приложения Dynamics 365 for Unified Operations Mobile
+description: В этом разделе описывается мобильное приложение Microsoft Dynamics 365 for Unified Operations Mobile и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации.
 author: sericks007
 manager: AnnBe
 ms.date: 10/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.translationtype: HT
-ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321394"
 ---
-
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Домашняя страница приложения Dynamics 365 for Unified Operations Mobile
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается мобильное приложение Microsoft Dynamics 365 for Unified Operations и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации.
+В этом разделе описывается мобильное приложение Microsoft Dynamics 365 for Unified Operations Mobile и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации.
 
 > [!NOTE]
 > Прежнее название мобильного приложения — *Microsoft Dynamics 365 for Finance and Operations*.
@@ -120,7 +119,7 @@ ms.lasthandoff: 10/26/2018
 <td>5</td>
 <td>ISV</td>
 <td>Создайте пакет развертывания, содержащий настраиваемые мобильные рабочие области, и отправьте пакет в службы Microsoft Dynamics Lifecycle Services (LCS).</td>
-<td><a href="../deployment/create-apply-deployable-package.md">Создание пакета развертывания</a></td>
+<td><a href="../deployment/create-apply-deployable-package.md">Создание готового к развертыванию пакета</a></td>
 </tr>
 <tr class="even">
 <td>6</td>
@@ -153,4 +152,3 @@ ms.lasthandoff: 10/26/2018
 </tr>
 </tbody>
 </table>
-

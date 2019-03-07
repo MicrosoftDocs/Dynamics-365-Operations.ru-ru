@@ -1,13 +1,13 @@
 ---
-title: "Подготовка Talent"
-description: "В этом разделе содержится пошаговое описание процесса подготовки новой среды для Microsoft Dynamics 365 for Talent."
+title: Подготовка Talent
+description: В этом разделе содержится пошаговое описание процесса подготовки новой среды для Microsoft Dynamics 365 for Talent.
 author: rschloma
 manager: AnnBe
 ms.date: 09/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305996"
 ---
 # <a name="provision-talent"></a>Подготовка Talent
 
@@ -87,5 +87,4 @@ ms.lasthandoff: 11/01/2018
  
 ## <a name="grant-access-to-the-environment"></a>Предоставление доступа к среде
 По умолчанию, глобальный администратор, который создал среду, имеет к ней доступ. Однако дополнительным пользователям приложения необходимо явно предоставить доступ. Чтобы предоставить доступ, [добавьте пользователей](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) и [присвоить им соответствующие роли](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) в среде Core HR. Глобальный администратор, который выполнил развертывание Talent, должен запустить приложения Attract и Onboard для завершения инициализации и предоставления доступа другим пользователям клиента.  До этого другие пользователи не смогут получить доступ к приложениям Attract и Onboard и будут получать ошибки нарушения прав доступа.
-
 

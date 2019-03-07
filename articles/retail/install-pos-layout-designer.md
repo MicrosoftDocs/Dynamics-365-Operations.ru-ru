@@ -1,13 +1,13 @@
 ---
-title: "Установка конструктора макета Retail POS"
-description: "Можно использовать конструктор одним щелчком, чтобы создать различные макеты Retail Modern POS (MPOS) и Cloud POS в альбомном или портретном режиме для магазинов, регистров, кассиров и менеджеров."
+title: Установка конструктора макета Retail POS
+description: Можно использовать конструктор одним щелчком, чтобы создать различные макеты Retail Modern POS (MPOS) и Cloud POS в альбомном или портретном режиме для магазинов, регистров, кассиров и менеджеров.
 author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4c647f49101dcbbe7dd1feac2dd9aad5c6dd5bcc
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327650"
 ---
-
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>Установка конструктора макета Retail POS
 
 [!include [banner](includes/banner.md)]
@@ -53,15 +52,14 @@ ms.lasthandoff: 08/09/2018
     **Решения:**
 
     - В Internet Explorer убедитесь, что блокатор всплывающих окон отключен для этого сайта. Щелкните **Настройки** &gt; **Свойства браузера** &gt; **Конфиденциальность** &gt; **найдите Блокирование всплывающих окон** и изменяет настройку, если изменение требуется.
-    - В Internet Explorer добавьте URL-адрес Dynamics 365 for Retail в список доверенных сайтов. Щелкните **Настройки** &gt; **Свойства браузера** &gt; **Безопасность** &gt; **Надежные сайты** &gt; **Сайты** &gt; **Добавить**.
+    - В Internet Explorer добавьте URL-адрес Dynamics 365 for Retail в зону надежных сайтов. Щелкните **Настройки** &gt; **Свойства браузера** &gt; **Безопасность** &gt; **Надежные сайты** &gt; **Сайты** &gt; **Добавить**.
 
 - Программа не запускается и отображается инструкция обратиться к поставщику.
 
-    **Решение.** В Internet Explorer добавьте URL-адрес Dynamics 365 for Retail в список доверенных сайтов. Щелкните **Настройка** &gt; **Свойства браузера** &gt; **Безопасность** &gt; **Надежные сайты** &gt; **Сайты** &gt; **Добавить**.
+    **Решение.** В Internet Explorer добавьте URL-адрес Dynamics 365 for Retail в зону надежных сайтов. Щелкните **Настройка** &gt; **Свойства браузера** &gt; **Безопасность** &gt; **Надежные сайты** &gt; **Сайты** &gt; **Добавить**.
 
 **Известная проблема:** конструктор не работает правильно в браузерах Google Chrome и Mozilla Firefox. Мы работаем, чтобы устранить эту проблему.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Настройка, загрузка, установка и активирование Retail Modern POS](retail-modern-pos-device-activation.md)
-
+[Настройка, загрузка, установка и активация Retail Modern POS](retail-modern-pos-device-activation.md)

@@ -1,32 +1,30 @@
 ---
-title: "Обзор последовательности подписки"
-description: "В этом разделе представлен обзор последовательности подписки."
+title: Обзор последовательности подписки
+description: В этом разделе представлен обзор последовательности подписки.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMASubscriptionGroup, SMASubscriptionCreateDialog
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5cff6910dcb273fc081443546676426387f6625
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b4872c0753b54bdddf2c7778a13819726eea4a90
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321647"
 ---
-
-
 # <a name="subscription-workflow-overview"></a>Обзор последовательности подписки 
 
 [!include [banner](../includes/banner.md)]
@@ -57,6 +55,5 @@ ms.lasthandoff: 05/08/2018
 В конце каждого месяца, выручка за один месяц может быть начислена из подписки клиента на счет прибылей и убытков и на счета НЗП. Дополнительные сведения о настройке начисления выручки по подпискам см. в разделе [Начисление выручки по подписке](accrue-subscription-revenue.md).
 
   
-
 
 

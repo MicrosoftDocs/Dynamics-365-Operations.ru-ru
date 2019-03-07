@@ -1,13 +1,13 @@
 ---
-title: "Аккредитивы и импорт коллекций"
-description: "Эта статья содержит общие сведения об аккредитивах и импорте коллекций. Оба типа банковского документа часто используются для покупки и продажи товаров через международные границы."
+title: Аккредитивы и импорт коллекций
+description: Эта статья содержит общие сведения об аккредитивах и импорте коллекций. Оба типа банковского документа часто используются для покупки и продажи товаров через международные границы.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2b5deef65cc4af2fdfee6549660527007c3bed3a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ebabff4d467df54b2e79485ba3a16344435140e6
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323050"
 ---
-
 # <a name="letters-of-credit-and-import-collections"></a>Аккредитивы и импорт коллекций
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ ms.lasthandoff: 11/03/2017
 Импортное инкассо — это соглашение между банком и экспортером (продавцом), в котором банк соглашается на поставку документации по отгрузке международному импортеру (покупателю). Предполагается, что банк доставляет документацию по отгрузке после получения платежа за отправленные товары наличными или подписанного платежного поручения для платежа. 
 
 Импортное инкассо помогает гарантировать, что продавец получит деньги, когда покупатель получит документы по отгрузке для получения поставки импортированных товаров.
-
 
 
 

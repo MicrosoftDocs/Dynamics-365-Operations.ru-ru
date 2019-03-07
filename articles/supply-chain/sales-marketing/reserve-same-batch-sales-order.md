@@ -1,13 +1,13 @@
 ---
-title: "Резервирование такой же партии для заказа на продажу"
-description: "В этой статье описывается, как настроить продукт, чтобы разрешить резервирование запасов относительно одной партии запасов."
+title: Резервирование такой же партии для заказа на продажу
+description: В этой статье описывается, как настроить продукт, чтобы разрешить резервирование запасов относительно одной партии запасов.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2d6089d07b0f8bc1a36703b5b1c2f24af72770d5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aef3a52f4cb2d5af47a8c25a67e6c2076fa1ff03
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309549"
 ---
-
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Резервирование такой же партии для заказа на продажу
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,6 @@ ms.lasthandoff: 11/03/2017
 -   Код расстановки партии имеет настройку **Резервирование блока** для продаж со значением **Заблокировано**.
 -   Срок годности партии определяется на основе даты окончания срока годности и всех применимых дней продажи клиента. Номенклатура может по-прежнему рассматриваться как доступная для резервирования, если группа складских моделей для номенклатуры является управлением датой по принципу FEFO и в качестве критерия комплектации выбран срок годности.
 -   Партия имеет недостаточное количество оставшихся дней срока хранения на основании даты окончания срока годности и даты, до которой желательно использовать продукцию, плюс все дни продаж клиента.
-
 
 
 

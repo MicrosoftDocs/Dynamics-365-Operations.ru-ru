@@ -1,39 +1,38 @@
 ---
-title: "Решение \"Перспективный клиент в наличные деньги\""
-description: "В этой теме представлен обзор решения \"Перспективный клиент в наличные деньги\" между Microsoft Dynamics 365 for Finance and Operations и Microsoft Dynamics 365 for Sales."
+title: Решение "Перспективный клиент в наличные деньги"
+description: В этой теме представлен обзор решения "Перспективный клиент в наличные деньги" между Microsoft Dynamics 365 for Finance and Operations и Microsoft Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: b46ece384a28f8e78989253fcf467fbf3feaf1b7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309503"
 ---
-
 # <a name="prospect-to-cash"></a>Решение "Перспективный клиент в наличные деньги"
 
 [!include [banner](../includes/banner.md)]
 
 Решение "Перспективный клиент в наличные деньги" обеспечивает прямую синхронизацию между Dynamics 365 for Finance and Operations и Dynamics 365 for Sales. Шаблоны "Перспективный клиент в наличные деньги", доступные в компоненте интеграции данных, обеспечивают движение данных для организаций, контактов, продуктов, предложений по продажам, заказов на продажу и накладных по продажам между Finance and Operations и Sales. Во время выполнения обмена данными между Finance and Operations и Sales вы можете выполнять мероприятия по продажам и маркетингу в Sales и обрабатывать выполнение заказов с помощью управления запасами в Finance and Operations. 
 
-Дополнительные сведения об интеграции решения "Перспективный клиент в наличные деньги" см. в коротком видео на YouTube: [Перспективный клиент в наличные деньги](https://www.youtube.com/watch?v=AVV9x5x-XCg).
+Дополнительные сведения об интеграции решения "Перспективный клиент в наличные деньги" см. в коротком видео на YouTube: [Интеграция решения "Перспективный клиент в наличные деньги"](https://www.youtube.com/watch?v=AVV9x5x-XCg).
 
 В текущей версии решение "Перспективный клиент в наличные деньги" предоставляет следующие типы прямой синхронизации:
 
@@ -47,13 +46,13 @@ ms.lasthandoff: 08/13/2018
 ## <a name="system-requirements-for-finance-and-operations"></a>Системные требования для Finance and Operations
 Интеграция решения "Перспективный клиент в наличные деньги" поддерживается в следующих версиях:
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (декабрь 2017 г.)
+### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (декабрь 2017 г.)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (декабрь 2017 г.) — сборка приложения 7.3.11971.56116 с обновлением платформы 12 (7.0.4709.41129)
+- Dynamics 365 for Finance and Operations, Enterprise edition (декабрь 2017 г.) — сборка приложения 7.3.11971.56116 с обновлением платформы 12 (7.0.4709.41129)
 
-### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.)
+### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise edition (июль 2017 г.)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.) — с обновлением платформы 8 (сборка приложения 7.2.11792.56024 со сборкой платформы 7.0.4565.16212).
+- Dynamics 365 for Finance and Operations, Enterprise edition (июль 2017 г.) — с обновлением платформы 8 (сборка приложения 7.2.11792.56024 со сборкой платформы 7.0.4565.16212).
 - Следующие исправления являются обязательными:
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** — это исправление делает возможным синхронизацию заказов на продажу из Sales в Finance and Operations с помощью компонента интеграции данных. Оно также предоставляет несколько других улучшений.
@@ -63,9 +62,9 @@ ms.lasthandoff: 08/13/2018
     > [!NOTE]
     > Достаточно установить только KB4045570, потому что в пакет установки входят изменения из других исправлений. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations, версия 1611 (ноябрь 2016 г.)
+### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations версии 1611 (ноябрь 2016 г.)
 
-- Dynamics 365 for Finance and Operations, версия 1611 (ноябрь 2016 г.) с обновлением платформы 8 или выше
+- Dynamics 365 for Finance and Operations версии 1611 (ноябрь 2016 г.) с обновлением платформы 8 или выше
 
 - Следующие исправления являются обязательными:
 
@@ -81,6 +80,5 @@ ms.lasthandoff: 08/13/2018
 
 Чтобы использовать решение "Перспективный клиент в наличные деньги", вы должны установить следующие компоненты:
 
-- Dynamics 365 for Sales версии 1612 (8.2.1.207) (БД 8.2.1.207) (сетевая версия) или более новой.
-- Решение "Перспективный клиент в наличные деньги" Dynamics 365 for Sales, версия 1.15.0.0 или более новая. Это решение можно загрузить с сайта AppSource. [Загрузка Dynamics 365, "Перспективный клиент в наличные деньги"](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
-
+- Dynamics 365 for Sales версии 1612 (8.2.1.207) (DB 8.2.1.207) Online или более новая версия
+- Решение "Перспективный клиент в наличные деньги" для Dynamics 365 for Sales, версия 1.15.0.0 или более новая версия. Это решение можно загрузить с сайта AppSource. [Загрузка Dynamics 365, "Перспективный клиент в наличные деньги"](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).

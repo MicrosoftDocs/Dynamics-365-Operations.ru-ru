@@ -1,13 +1,13 @@
 ---
-title: "Управление расходами"
-description: "Управление расходами позволяет создавать интегрированный документооборот, позволяющий сохранять сведения о способе оплаты, импортировать проводки кредитной карты и отслеживать денежные средства, потраченные сотрудниками в процессе своей деловой активности."
+title: Управление расходами
+description: Управление расходами позволяет создавать интегрированный документооборот, позволяющий сохранять сведения о способе оплаты, импортировать проводки кредитной карты и отслеживать денежные средства, потраченные сотрудниками в процессе своей деловой активности.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1cd637f1b74056db89520b762255d03afa3855ba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1e075a7f114efdea1d9cc62cf302eaaba63c7ba0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313413"
 ---
-
 # <a name="expense-management"></a>Управление расходами
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,7 @@ ms.lasthandoff: 02/07/2018
 
 #### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 
-Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы просмотреть новые функции, которые уже выпущены и которые все еще находятся в разработке. 
+Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке. 
 
 #### <a name="blogs"></a>Блоги
 
@@ -53,8 +52,7 @@ ms.lasthandoff: 02/07/2018
 
 #### <a name="videos"></a>Видео
 
-Смотрите видео с инструкциями на канале [Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Смотрите видео с инструкциями на [канале Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

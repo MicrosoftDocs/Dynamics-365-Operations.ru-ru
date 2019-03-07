@@ -1,31 +1,30 @@
 ---
-title: "Что нового и что изменилось в Dynamics 365 for Talent Core HR (17 сентября 2018 г.)"
-description: "В этой теме описываются новые и измененные компоненты в текущем выпуске Microsoft Dynamics 365 for Talent Core HR."
+title: Что нового и что изменилось в Dynamics 365 for Talent Core HR (17 сентября 2018 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 6586761fc62c13c701e8a8f61e15eedc66e2f751
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305965"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Что нового и что изменилось в Dynamics 365 for Talent Core HR (17 сентября 2018 г.)
 
 [!include [banner](includes/banner.md)]
@@ -57,4 +56,3 @@ Platform update 18 теперь входит в состав выпуска Tale
 ## <a name="bug-fixes"></a>Исправления ошибок
 
 Эта версия включает в себя несколько дополнительных исправлений ошибок; в частности, ссылки на ACA, ADA и I9 теперь будут включены только в компаниях, которые находятся в США.
-

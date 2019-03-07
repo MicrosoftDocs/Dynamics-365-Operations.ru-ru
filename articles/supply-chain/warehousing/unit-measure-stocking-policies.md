@@ -1,13 +1,13 @@
 ---
-title: "Единица измерения и политики хранения"
-description: "Эта статья описывает, как единицы измерения по умолчанию, последовательности единиц измерения и преобразования единиц измерения используются в складских процессах."
+title: Единица измерения и политики хранения
+description: Эта статья описывает, как единицы измерения по умолчанию, последовательности единиц измерения и преобразования единиц измерения используются в складских процессах.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c484f814d9f1e726fd326e1cd0ea8fe694f797b9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e0a22e07f5a0e5bc30c8ad9dc87c5a506d62847d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318105"
 ---
-
 # <a name="unit-of-measure-and-stocking-policies"></a>Единица измерения и политики хранения
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="default-order-settings"></a>Параметры заказа по умолчанию
 Как часть создания выпущенных продуктов, вы должны выбрать единицы по умолчанию для покупок, продаж и запасов, чтобы обрабатывать различные заказы. Вы можете установить единицы и количества по умолчанию для различных исходных документов с помощью страниц **Параметры заказа по умолчанию** и **Параметры заказа для определенного сайта**. Вы можете открыть этих страницы со страницы **Используемые продукты**.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Содержимое Power BI для обзора кассы"
-description: "В этом разделе описывается содержимое Power BI для обзора кассы. В нем описывается порядок доступа к отчетам, входящим в содержимое, и предоставляется информация о модели данных и объектах, которые использовались для построения содержимого."
+title: Содержимое Power BI "Обзор кассы"
+description: В этом разделе описывается содержимое Microsoft Power BI "Обзор кассы". В нем описывается порядок доступа к отчетам, входящим в содержимое, и предоставляется информация о модели данных и объектах, которые использовались для построения содержимого.
 author: saraschi2
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: sericks
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 5d02a009ca988f91a212e467d4f9784248bbae76
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/19/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318657"
 ---
-
-# <a name="cash-overview-power-bi-content"></a>Содержимое Power BI для обзора кассы
+# <a name="cash-overview-power-bi-content"></a>Содержимое Power BI "Обзор кассы"
 
 [!include [banner](../includes/banner.md)]
 
@@ -42,7 +41,7 @@ ms.lasthandoff: 12/19/2017
 
 В демонстрационных целях можно добавить демонстрационные данные прогноза движения денежных средств с помощью страницы **Создать данные** из модуля "Демонстрационные данные".  Этот сценарий вставит данные в таблицы прогноза движения денежных средств, чтобы быстро заполнять сведения, необходимые для отчетов.  Этот модуль доступен, только если модель комплекта демонстрационных данных развернута в среде. 
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Отчеты, которые включены в содержимое Power BI
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Отчеты, включенные в содержимое Power BI
 В следующей таблице приводятся подробные сведения о показателях, которые находятся на каждой странице отчета, в содержимом Power BI **Обзор кассы**.
 
 | Отчет                                | Содержание |
@@ -68,6 +67,5 @@ ms.lasthandoff: 12/19/2017
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Суммарные данные по притоку, оттоку денежных средств и сальдо в валюте учета каждой компании |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Суммарные данные по притоку, оттоку денежных средств и сальдо в валюте системы всех компаний |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Суммарная чистая сумма проводки и сальдо по валюте в валюте проводки |
-
 
 

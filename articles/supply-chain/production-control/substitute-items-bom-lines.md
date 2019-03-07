@@ -1,13 +1,13 @@
 ---
-title: "Замещение материала на производстве"
-description: "Эта тема описывает, как заменять материалы во время производственного процесса."
+title: Замещение материала на производстве
+description: Эта тема описывает, как заменять материалы во время производственного процесса.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdBOM
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461b717acafb5ccf37acae23a1564069cea6828a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3e70a6ad074911438ef45b6aac2523a4a9fccf8
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327627"
 ---
-
 # <a name="material-substitution-in-manufacturing"></a>Замещение материала на производстве
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="substituting-material-during-production"></a>Замена материала во время производства
 Рассмотрим следующий сценарий: часть металлической пластины необходима для сварочной операции. Во время операции работник склада сообщает оператору машины, что пластины нет в наличии. Однако он решал, что пластину можно заменить на пластину, которая немного толще. Таким образом, операцию можно завершить. Материал можно добавить в спецификацию для открытого производственного заказа. Если производственный заказ имеет статус **Начато**, пользователей попросят повторно оценить заказ, когда они добавляют новую номенклатуру в производственную спецификацию. После добавления материала можно создать новый лист подбора для новой номенклатуры. Вы не должны добавлять новый материал в производственную спецификацию. Вместо этого вы можете добавить его сразу в производственный лист подбора. После этого, когда лист побора разнесен, система добавляет материал в производственную спецификацию.
-
 
 
 

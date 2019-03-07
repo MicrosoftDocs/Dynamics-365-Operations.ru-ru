@@ -1,14 +1,14 @@
 ---
-title: "Интеллектуальные рекомендации"
-description: "В этом разделе объясняется, как машинное обучение может использовать для предоставления рекомендаций для должностей и кандидатов на должности."
+title: Интеллектуальные рекомендации
+description: В этом разделе объясняется, как машинное обучение может использовать для предоставления рекомендаций для должностей и кандидатов на должности.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fea36661c65739ef09261c82ec44e16c29fad0e7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305955"
 ---
-
 # <a name="intelligent-recommendations"></a>Интеллектуальные рекомендации
 
 [!include[banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ ms.lasthandoff: 10/22/2018
 ## <a name="job-recommendations"></a>Рекомендации должностей 
 
 Когда потенциальный сотрудник использует сайт карьеры для подачи заявления на должность рекомендуются другие открытые вакансии в организации. Эти рекомендации основаны на прошлых заявлениях соискателя, на его или ее резюме или профиле кандидата. Таким образом, рекомендации должностей помогают соискателям быстро определить должности, которые являются для них оптимальными. Рекомендации должностей предоставляются соискателям, если на сайте карьеры есть более десяти объявлений о вакансиях. Соискатели могут открыть сведения из объявления о вакансии из карты рекомендаций. Они также могут предоставить отзыв о рекомендации для улучшения будущих рекомендаций.
-

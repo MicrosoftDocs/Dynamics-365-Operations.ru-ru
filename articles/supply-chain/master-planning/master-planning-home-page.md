@@ -1,32 +1,31 @@
 ---
-title: "Домашняя страница сводного планирования"
-description: "Сводное планирование позволяет компаниям определять и балансировать будущую потребность в сырье и производственных мощностях для достижения целей компании."
+title: Домашняя страница сводного планирования
+description: Сводное планирование позволяет компаниям определять и балансировать будущую потребность в сырье и производственных мощностях для достижения целей компании.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
 ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314793"
 ---
-
 # <a name="master-planning-home-page"></a>Домашняя страница сводного планирования
 
 [!include [banner](../includes/banner.md)]
@@ -72,7 +71,7 @@ ms.lasthandoff: 12/04/2018
 Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке.
 
 ### <a name="blogs"></a>Блоги
-В [блоге группы исследований производства Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) и в [блоге группы исследований управления цепочками поставок Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) можно найти мнения, новости и другие сведения о сводном планировании и других решениях.
+В [блоге группы исследований производства Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) можно найти мнения, новости и другие сведения о сводном планировании и других решениях.
 
 ### <a name="task-guides"></a>Проводники по задачам
 Проводники по задачам в Finance and Operations — это еще один источник справочной информации. Чтобы перейти к руководствам по задачам, нажмите кнопку **Справка** на любой странице.
@@ -84,7 +83,6 @@ ms.lasthandoff: 12/04/2018
 -  [Расширение функциональных возможностей прогнозирования спроса](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [Сводное планирование — советы и рекомендации по устранению проблем с производительностью](https://youtu.be/7v8BPmEs9Dg)
 -  [Помогите! MRP работает медленно!](https://youtu.be/RLXybx20B5o)
-
 
 
 

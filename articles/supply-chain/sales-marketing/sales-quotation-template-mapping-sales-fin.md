@@ -1,40 +1,39 @@
 ---
-title: "Синхронизация заголовков и строк предложений по продажам напрямую из Sales с Finance and Operations"
-description: "В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации заголовков и строк предложений по продаже непосредственно из Microsoft Dynamics 365 for Sales в Microsoft Dynamics 365 for Finance and Operations."
+title: Синхронизация заголовков и строк предложений по продажам напрямую из Sales с Finance and Operations
+description: В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации заголовков и строк предложений по продаже непосредственно из Microsoft Dynamics 365 for Sales в Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: efe943f5c874ed041ce7984272ebc19f57cca6ef
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313804"
 ---
-
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Синхронизация заголовков и строк предложений по продажам напрямую из Sales с Finance and Operations
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Синхронизация заголовков и строк предложений по продаже непосредственно из Sales с Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
 В этой теме рассматриваются шаблоны и базовые задачи, которые используются для синхронизации заголовков и строк предложений по продаже непосредственно из Microsoft Dynamics 365 for Sales в Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
-> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных с Common Data Service для приложений](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Common Data Service для приложений](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Поток данных в решение "Перспективный клиент в наличные деньги"
 
@@ -141,5 +140,4 @@ ms.lasthandoff: 11/01/2018
 ## <a name="related-topics"></a>Связанные разделы
 
 [Решение "Перспективный клиент в наличные деньги"](prospect-to-cash.md)
-
 

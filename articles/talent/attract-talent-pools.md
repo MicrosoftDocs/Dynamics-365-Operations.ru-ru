@@ -1,31 +1,30 @@
 ---
-title: "Поиск кандидатов с помощью кадровых пулов"
-description: "В этом разделе объясняется, как создать и настроить кадровые пулы в Attract."
-author: 
+title: Поиск кандидатов с помощью кадровых пулов
+description: В этом разделе объясняется, как создать и настроить кадровые пулы в Attract.
+author: ''
 manager: AnnBe
 ms.date: 10/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305939"
 ---
-
 # <a name="source-candidates-by-using-talent-pools"></a>Поиск кандидатов с помощью кадровых пулов
 
 [!include[banner](../includes/banner.md)]
@@ -139,4 +138,3 @@ ms.lasthandoff: 10/22/2018
 1. На странице заявления выберите **Добавить в кадровый пул**. Отображается список кадровых пулов, к которым вы имеете доступ.
 
 1. Выберите или найдите кадровый пул, затем выберите **Добавить** для добавления кандидата в этот кадровый пул.
-

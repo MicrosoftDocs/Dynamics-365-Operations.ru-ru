@@ -1,13 +1,13 @@
 ---
-title: "Содержимое Power BI \"Кредит и сборы\""
-description: "В этой теме описывается, что входит в содержимое Power BI для кредита и сборов. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого."
+title: Содержимое Power BI "Управление кредитом и сбором задолженностей"
+description: В этой теме описывается, что входит в содержимое Power BI для кредита и сборов. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые используются для построения пакета содержимого.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
-ms.openlocfilehash: 3832cabb11d67eda7afd7f3d5322c005b36dc1f5
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325189"
 ---
-
-# <a name="credit-and-collections-management-power-bi-content"></a>Содержимое Power BI "Кредит и сборы"
+# <a name="credit-and-collections-management-power-bi-content"></a>Содержимое Power BI "Управление кредитом и сбором задолженностей"
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, что входит в содержимое Microsoft Power BI **Управление кредитом и сбором задолженностей**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+В этой теме описывается, что входит в содержимое Microsoft Power BI для **Управление кредитом и сбором задолженностей**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
 
 ## <a name="overview"></a>Обзор
 
@@ -46,7 +45,7 @@ ms.lasthandoff: 03/07/2018
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
 Содержимое Power BI **Управление кредитом и сбором задолженностей** отображается в рабочей области **Кредит и сбор задолженностей клиента**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Отчеты, которые включены в содержимое Power BI
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Отчеты, включенные в содержимое Power BI
 
 Содержимое Power BI **CustCollectionsBICrossCompany** включает отчет, состоящий из набора показателей. Эти показатели отображаются в виде диаграмм, плиток и таблиц. В следующей таблице приводится обзор визуализации в содержимом Power BI **CustCollectionsBICrossCompany**.
 
@@ -88,5 +87,4 @@ ms.lasthandoff: 03/07/2018
 |        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Число созданных процент-нот.                |
 |        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Число общих заказов на продажу, которые заблокированы.                 |
 |          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Сумма проводок, которые были списаны.                 |
-
 

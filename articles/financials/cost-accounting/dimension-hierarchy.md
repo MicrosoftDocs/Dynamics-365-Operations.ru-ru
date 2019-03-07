@@ -1,32 +1,31 @@
 ---
-title: "Иерархия аналитик"
-description: "В этом разделе представлены сведения об иерархиях аналитик. Иерархии аналитик используются для определения структуры отчетов, политик затрат и настройки безопасности в учете затрат."
+title: Иерархия аналитик
+description: В этом разделе представлены сведения об иерархиях аналитик. Иерархии аналитик используются для определения структуры отчетов, политик затрат и настройки безопасности в учете затрат.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 55d567eb3b4ad6746f39118b575457bb00fe0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320221"
 ---
-
 # <a name="dimension-hierarchy"></a>Иерархия аналитик
 
 [!include [banner](../includes/banner.md)]
@@ -329,9 +328,8 @@ ms.lasthandoff: 03/26/2018
 - Power BI:
 
     - Данные, показанные в визуализации Power BI
-    - Визуализация данных Power BI, которые встроены в клиент Microsoft Dynamics 365 для Finance and Operations
+    - Визуализация данных Power BI, которые встроены в клиент Microsoft Dynamics 365 for Finance and Operations
 
 > [!NOTE] 
 > - Прежде чем иерархия списков доступа может повлиять на данные в Power BI, необходимо подсоединить иерархию списка доступа и безопасность на уровне строк в Power BI. Дополнительные сведения см. в разделе [Настройка защиты пакета содержимого учета затрат](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Иерархия списков доступа не позволяет защитить экспорт данных в Excel. Таким образом, средства отчетности должны использоваться только бухгалтерами и менеджерами, которые должны иметь полный доступ для просмотра данных.
-

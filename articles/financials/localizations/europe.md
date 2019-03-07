@@ -1,13 +1,13 @@
 ---
-title: "Европа"
-description: "В этой теме разделе приведены ссылки на документацию по Microsoft Dynamics 365 for Finance and Operations для Европы."
+title: Европа
+description: В этой теме разделе приведены ссылки на документацию по Microsoft Dynamics 365 for Finance and Operations для Европы.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321739"
 ---
-
 # <a name="europe"></a>Европа 
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ ms.lasthandoff: 09/17/2018
 - [Корректировка курсовой разницы](emea-exchange-rate-adjustments.md)
 - [Форматы файлов для способов оплаты](emea-select-file-formats-for-the-method-of-payments.md)
 - [Интеграция финансовых служб (ESR)](emea-fiscal-service-integration.md)
-- [Выбытие основных средств для Эстонии и Литвы](emea-credit-note-reverse-fixed-asset-sale.md)
+- [Выбытие ОС для Эстонии и Литвы](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Создание документа перемещения для внутреннего перемещения запасов](tasks/transfer-document-internal-inventory-transfer.md)
 - [Создание отчета ЕС по НДС](tasks/eur-00011-eu-sales-list-report.md)
 - Файлы ISO20022
@@ -99,5 +98,4 @@ ms.lasthandoff: 09/17/2018
 
 - [Обзор электронной отчетности](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
 
