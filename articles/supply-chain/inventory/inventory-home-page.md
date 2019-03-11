@@ -1,13 +1,13 @@
 ---
-title: "Домашняя страница модуля управления запасами"
-description: "В этом разделе содержится обзор управления запасами."
+title: Домашняя страница модуля управления запасами
+description: В этом разделе содержится обзор управления запасами.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5376c6c18c2d7d48d3ee253e8818e0c868a52145
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 01b51b3442ca2a924cec2e894c3840c90989791c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364933"
 ---
-
 # <a name="inventory-management"></a>Управление запасами 
 
 [!include [banner](../includes/banner.md)]
@@ -49,16 +48,15 @@ ms.lasthandoff: 11/03/2017
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 ### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
-Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы просмотреть новые функции, которые уже выпущены и которые все еще находятся в разработке.
+Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке.
 
 ### <a name="inventory-accounting"></a>Учет запасов 
 Дополнительные сведения см. в разделе [Учет запасов в управлении затратами](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>Блоги по управлению производством и цепочками поставок
-В [блоге группы исследований производства Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) и в [блоге группы исследований управления цепочками поставок Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) можно найти мнения, новости и другие сведения об управлении запасами и других решениях.
+В [блоге группы исследований производства Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) можно найти мнения, новости и другие сведения об управлении запасами и других решениях.
 
 ### <a name="task-guides"></a>Проводники по задачам
-Руководства по задачам в Finance and Operations — это еще один источник справочной информации. Чтобы перейти к руководствам по задачам, нажмите кнопку **Справка** на любой странице.
-
+Проводники по задачам в Finance and Operations — это еще один источник справочной информации. Чтобы перейти к руководствам по задачам, нажмите кнопку **Справка** на любой странице.
 
 

@@ -1,34 +1,31 @@
 ---
-title: "Сопоставить остаток"
-description: "Можно сопоставить сумму, остающуюся от действия сопоставления, применив эту сумму к счету ГК."
+title: Сопоставить остаток
+description: Можно сопоставить сумму, остающуюся от действия сопоставления, применив эту сумму к счету ГК.
 author: mikefalkner
 manager: aolson
 ms.date: 10/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
-ms.search.validFrom: 2018-11-30
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2018-12-01
+ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367210"
 ---
-
 # <a name="settle-remainder"></a>Сопоставить остаток
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview banner](../includes/preview-banner.md)]
 
 Можно сопоставить сумму, остающуюся от действия сопоставления, применив эту сумму к счету ГК или другому клиенту. Можно сопоставить остаток, когда сопоставляете суммы, введенные в журнал, или когда сопоставляются только открытые проводки.
 
@@ -73,4 +70,3 @@ ms.lasthandoff: 12/06/2018
 7)  Также можно создать журнал платежей с остатком сопоставления или просто разнести его без журнала. Выберите **Да** для пункта **Изменить в журнале**, чтобы создать журнал платежей. Вы сможете изменить журнал платежей, который вы создаете.
 8)  Щелкните **Сопоставить остаток**. Если вы решили создать журнал, кнопка изменится на **Создать журнал**. Щелкните **Создать журнал**.
 9)  Если был создан журнал оплаты, после нажатия кнопки **Сопоставить остаток** откроется страница журнала. Строка журнала будет добавлена в журнал с суммой сопоставления остатка в качестве суммы и со счетом сопоставления остатка в качестве корр. счета. Если вы добавили клиента или поставщика, чтобы можно было перенести сумму сопоставления на другого клиента или поставщика, дополнительная строка добавляется в журнал для перемещения к этому клиенту или поставщику суммы сопоставления.
-

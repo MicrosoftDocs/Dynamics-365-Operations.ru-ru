@@ -1,13 +1,13 @@
 ---
-title: "Подотчетные лица"
-description: "Сведения о работе с функциями по подотчетным лицам в Microsoft Dynamics 365 for Finance and Operations."
+title: Подотчетные лица
+description: Сведения о работе с функциями по подотчетным лицам в Microsoft Dynamics 365 for Finance and Operations.
 author: LizaGolub
 manager: AnnBe
 ms.date: 08/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
 ms.openlocfilehash: 1fc13461ab166d8f20ea2f56f641c86c3172f33b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371739"
 ---
-
 # <a name="advance-holders"></a>Подотчетные лица
 
 [!include [banner](../includes/banner.md)]
@@ -160,7 +159,6 @@ ms.lasthandoff: 10/01/2018
 
 - [Авансовый платеж сотруднику (Восточная Европа)](tasks/advance-payment-employee.md)
 - [Подотчетные лица для России](rus-advance-holders.md)
-
 
 
 

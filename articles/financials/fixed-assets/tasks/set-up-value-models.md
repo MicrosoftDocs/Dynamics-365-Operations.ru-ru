@@ -1,13 +1,13 @@
---- 
-title: "Настройка моделей стоимости"
-description: "В этой процедуре показано, как создать новую модель стоимости основных средств и связать ее с группой ОС."
+---
+title: Настройка моделей стоимости
+description: В этой процедуре показано, как создать новую модель стоимости основных средств и связать ее с группой ОС.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, AssetGroupBookSetup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e067173b27488422fd05ad45f37528f00f04a2bd
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311803"
 ---
 # <a name="set-up-value-models"></a>Настройка моделей стоимости
 
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/14/2018
 3. В поле "Срок службы" введите число.
     * Обратите внимание, что поле "Периоды амортизации" рассчитывается после задания срока службы.  
     * Можно настроить соглашение по амортизации, требуемое для налогообложения.  
-
 

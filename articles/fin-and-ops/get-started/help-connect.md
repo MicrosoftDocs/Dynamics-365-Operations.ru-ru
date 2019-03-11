@@ -1,13 +1,13 @@
 ---
-title: "Подключение к системе справки"
-description: "В этом разделе описываются компоненты системы Справки для Microsoft Dynamics 365 for Finance and Operations и приводится обзор того, как подключить их и сводку того, как создать собственную справки."
+title: Подключение к системе справки
+description: В этом разделе описываются компоненты системы справки для Microsoft Dynamics 365 for Finance and Operations и приводится обзор того, как подключить их и сводку того, как создать собственную справку.
 author: margoc
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 673b01648127fe1d19fb3c75c4d6812c4f22c761
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317737"
 ---
-
 # <a name="connect-the-help-system"></a>Подключение к системе справки
 
 [!include [banner](../includes/banner.md)]
@@ -102,4 +101,3 @@ ms.lasthandoff: 12/18/2018
 [Обзор регистратора задач](../../dev-itpro/user-interface/task-recorder.md)
 
 [Создание записи задачи для использования в качестве документации или обучения](../../dev-itpro/user-interface/task-recorder-training-docs.md)
-

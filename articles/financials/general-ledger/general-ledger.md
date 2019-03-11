@@ -1,13 +1,13 @@
 ---
-title: "Домашняя страница главной книги и финансовой отчетности"
-description: "Используйте главную книгу для определения финансовых записей юридического лица и управления ими."
+title: Домашняя страница главной книги и финансовой отчетности
+description: Используйте главную книгу для определения финансовых записей юридического лица и управления ими.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
-ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
-ms.contentlocale: ru-ru
-ms.lasthandoff: 06/25/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363369"
 ---
-
 # <a name="general-ledger"></a>Главная книга 
 
 [!include [banner](../includes/banner.md)]
@@ -60,18 +59,17 @@ ms.lasthandoff: 06/25/2018
 
 ### <a name="videos"></a>Видео
 
-Смотрите видео с инструкциями на канале [Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Смотрите видео с инструкциями на [канале Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="blogs"></a>Блоги
 
 Мнения, новости и другие сведения о расчетах с поставщиками и других решениях см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-В [блоге группы разработчиков Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) есть множество публикаций о модуле "Главная книга". Хотя некоторые из этих записей посвящены предыдущей версии модуля "Главная книга", обсуждаемые в них понятия по-прежнему актуальны, а процедуры аналогичны процедурам в текущей версии.
+В [блоге группы разработчиков Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) есть множество публикаций о главной книге. Хотя некоторые из этих записей посвящены предыдущей версии модуля "Главная книга", обсуждаемые в них понятия по-прежнему актуальны, а процедуры аналогичны процедурам в текущей версии.
 
 [Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в MBS Operations.
 
 #### <a name="community-blogs"></a>Блоги сообщества
 
-- [Что нужно знать о книге учета в Dynamics 365 для Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
-
+- [Что нужно знать о книге учета в Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 

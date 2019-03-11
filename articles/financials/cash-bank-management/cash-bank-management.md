@@ -1,13 +1,13 @@
 ---
-title: "Домашняя страница модуля \"Управление банком и кассовыми операциями\""
-description: "Модуль \"Управление банком и кассовыми операциями\" можно использовать для ведения банковских счетов юридического лица и финансовых инструментов, связанных с этими банковскими счетами."
+title: Домашняя страница модуля "Управление банком и кассовыми операциями"
+description: Модуль "Управление банком и кассовыми операциями" можно использовать для ведения банковских счетов юридического лица и финансовых инструментов, связанных с этими банковскими счетами.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 944030859c26a1aadeb98a070d071e30f8b86dc4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 46eeb9cb19eed71256d38db78738c09761060c66
-ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302813"
 ---
-
 # <a name="cash-and-bank-management-home-page"></a>Домашняя страница модуля "Управление банком и кассовыми операциями"
 
 [!include [banner](../includes/banner.md)]
@@ -91,7 +90,7 @@ ms.lasthandoff: 02/07/2018
 
 #### <a name="blogs"></a>Блоги
 
-Мнения, новости и другие сведения о модуле "Управление банком и кассовыми операциями" и других решениях см. в [блоге Microsoft Dynamics 365] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Мнения, новости и другие сведения о модуле "Управление банком и кассовыми операциями" и других решениях см. в [блоге по Microsoft Dynamics 365] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
 В [блоге группы разработчиков Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) есть множество публикаций о модуле "Управление банком и кассовыми операциями". Хотя некоторые из этих публикаций посвящены предыдущей версии модуля "Управление банком и кассовыми операциями", обсуждаемые в них понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии.
 
@@ -103,4 +102,3 @@ ms.lasthandoff: 02/07/2018
 #### <a name="videos"></a>Видео
 
 Смотрите видео с инструкциями на [канале Microsoft Dynamics 365 в YouTube] (https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-

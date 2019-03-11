@@ -1,13 +1,13 @@
 ---
-title: "Новые руководства по задачам (февраль 2016 г.)"
-description: "В этом разделе перечислены руководства по задачам, выпущенные в библиотеках Microsoft BPM на февраль 2016 г.  Опубликованные библиотеки включают унифицированную библиотеку APQC (февраль 2016 г.) для Microsoft Dynamics 365 for Operations и библиотеку по началу работы (февраль 2016 г.)."
+title: Новые руководства по задачам (февраль 2016 г.)
+description: В этом разделе перечислены руководства по задачам, выпущенные в библиотеках Microsoft BPM на февраль 2016 г.  Опубликованные библиотеки включают унифицированную библиотеку APQC (февраль 2016 г.) для Microsoft Dynamics 365 for Operations и библиотеку по началу работы (февраль 2016 г.).
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366451"
 ---
-
 # <a name="new-task-guides-february-2016"></a>Новые руководства по задачам (февраль 2016 г.)
 
 [!include [banner](../includes/banner.md)]
@@ -647,4 +646,3 @@ ms.lasthandoff: 12/18/2018
 [Новые или обновленные руководства по задачам (август 2016 г.)](new-updated-task-guides-available-august-2016.md)
 
 [Новые или обновленные руководства по задачам (ноябрь 2016 г.)](new-task-guides-november-2016.md)
-

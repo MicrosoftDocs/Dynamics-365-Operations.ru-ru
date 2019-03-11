@@ -1,13 +1,13 @@
 ---
-title: "Мобильная рабочая область регистрации времени по проектам"
-description: "В этом разделе приводятся сведения о мобильной рабочей области регистрации времени по проекту. Эта рабочая область позволяет пользователям вводить и сохранять время по проекту, используя мобильное устройство."
+title: Мобильная рабочая область регистрации времени по проектам
+description: В этом разделе приводятся сведения о мобильной рабочей области регистрации времени по проекту. Эта рабочая область позволяет пользователям вводить и сохранять время по проекту, используя мобильное устройство.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: e671fe6e7c99bfb6d66f3b00560c3b0c404d2343
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9bf79af6eea6f899158fc3c8d523587cb11c90ad
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333009"
 ---
-
 # <a name="project-time-entry-mobile-workspace"></a>Мобильная рабочая область регистрации времени по проектам
 
 [!include [banner](../includes/banner.md)]
 
 В этой теме содержится информация о мобильной рабочей области **Регистрация времени проекта**. Эта рабочая область позволяет пользователям вводить и сохранять время по проекту, используя мобильное устройство.
 
-Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations. 
+Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations Mobile. 
 
 ## <a name="overview"></a>Обзор
 В рамках своей повседневной работы ресурсы проекта часто находятся на площадке или в командировке. Мобильная рабочая область **Регистрация времени по проекту** позволяет пользователям вводить оплачиваемое или неоплачиваемое время по проекту на мобильном устройстве по своему выбору. Таким образом, ресурсы проекта могут регистрировать записи времени в любое время и в любом месте. Они также могут просмотреть записи времени, которые уже были зарегистрированы. 
@@ -51,8 +50,8 @@ ms.lasthandoff: 03/26/2018
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations
 Если в вашей организации развернута система Microsoft Dynamics 365 for Finance and Operations, системный администратор должен опубликовать мобильную рабочую область **Регистрация времени проекта**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии.
-Если в вашей организации развернута Microsoft Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии
+Если в вашей организации развернута система Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
 
 <table>
 <thead>
@@ -88,7 +87,7 @@ ms.lasthandoff: 03/26/2018
 
 Загрузите и установите мобильное приложение Dynamics 365 for Unified Operations:
 
--   [Для ОС Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Войдите в систему в мобильном приложении
@@ -114,4 +113,3 @@ ms.lasthandoff: 03/26/2018
 11. Выбор свойство строки.
 12. Необязательно: введите любые внешние и внутренние комментарии.
 13. Выберите **Готово**.
-

@@ -1,31 +1,30 @@
 ---
-title: "Что нового и что изменилось в Dynamics 365 for Talent Core HR (1 октября 2018 г.)"
-description: "В этой теме описываются новые и измененные компоненты в текущем выпуске Microsoft Dynamics 365 for Talent Core HR."
+title: Что нового и что изменилось в Dynamics 365 for Talent Core HR (1 октября 2018 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-07
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 657c19896b20a514dc5308bf7fb086085b482fec
 ms.openlocfilehash: 92eb1508905309294e17b770829b1c5a22be1316
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305989"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-8-2018"></a>Что нового и что изменилось в Dynamics 365 for Talent Core HR (8 октября 2018 г.)
 
 [!include [banner](includes/banner.md)]
@@ -44,4 +43,3 @@ ms.lasthandoff: 10/08/2018
 ## <a name="known-issue"></a>Известная проблема
 
 **Проблема:** при добавлении нового вложения в работника кнопки **Создать** и **Редактировать** неактивны. **Обход:** перед открытием страницы вложения убедитесь, что информационные панели на странице **Работник** закрыты. Если информационные панели закрыты при загрузке страницы **Работник**, кнопки вложений будут активны. (Эта проблема будет исправлена в следующем обновлении платформы.)
-

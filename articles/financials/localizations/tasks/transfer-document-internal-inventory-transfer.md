@@ -1,13 +1,13 @@
---- 
-title: "Создание документа перемещения для внутреннего перемещения запасов"
-description: "Эта процедура демонстрирует порядок создания документов перемещения для перемещения товаров внутри компании."
+---
+title: Создание документа перемещения для внутреннего перемещения запасов
+description: Эта процедура демонстрирует порядок создания документов перемещения для перемещения товаров внутри компании.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4b9ef0026129d958b4214bb6e235c288de023d10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 30e5f6ad184720d0e119f86fb703ed7211b27fab
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321371"
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a>Создание документа перемещения для внутреннего перемещения запасов
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура демонстрирует порядок создания документов перемещения для перемещения товаров внутри компании. Эта процедура доступна только для юридических лиц с основным адресом в Литве. Процедура была создана с использованием компании с демонстрационными данными DEMF с основным адресом в Литве. Перед выполнением данной процедуры необходимо завершить процедуру "Настройка документов переноса для перемещения товаров в компании". Эта процедура предназначена для бухгалтеров по складскому учету. Эта процедура предназначена для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
+Эта процедура демонстрирует порядок создания документов перемещения для перемещения товаров внутри компании. Эта процедура доступна только для юридических лиц с основным адресом в Литве. Процедура была создана с использованием компании с демонстрационными данными DEMF с основным адресом в Литве. Перед выполнением данной процедуры необходимо завершить процедуру "Настройка документов переноса для перемещения товаров в компании". Эта процедура предназначена для бухгалтеров по складскому учету. Эта процедура для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
 
 
 ## <a name="create-a-transfer-order"></a>Создание заказа на перемещение
@@ -73,5 +73,4 @@ ms.lasthandoff: 09/29/2017
 9. В области действий щелкните "Отгрузить".
 10. Щелкните "Отборочная накладная".
 11. Нажмите кнопку "OК".
-
 

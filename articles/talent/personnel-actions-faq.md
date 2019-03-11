@@ -1,13 +1,13 @@
 ---
-title: "Вопросы и ответы по действиям персонала"
-description: "В этом разделе содержатся ответы на вопросы, которые могут возникнуть, если в организации используются действия персонала. Действия персонала представляют собой дополнительные действия, которые необходимо выполнить при выполнении некоторых задач, связанных с персоналом."
+title: Вопросы и ответы по действиям персонала
+description: В этом разделе содержатся ответы на вопросы, которые могут возникнуть, если в организации используются действия персонала. Действия персонала представляют собой дополнительные действия, которые необходимо выполнить при выполнении некоторых задач, связанных с персоналом.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 0e68154ec70fdf26d1d783de29a386a336fff92f
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305946"
 ---
-
 # <a name="personnel-actions-faq"></a>Вопросы и ответы по действиям персонала
 
 [!include [banner](includes/banner.md)]
@@ -94,5 +93,4 @@ ms.lasthandoff: 08/09/2018
 - Дата в заголовке для вступления в силу действия **Увольнение работника** является датой, введенной в поле **Дата увольнения** для работника.
 - Дата в заголовке для вступления в силу действия **Прием на работу работника** является датой, введенной в поле **Дата приема сотрудника на работу** для работника.
 - Дата в заголовке для вступления в силу действия **Перенести работника** является датой, введенной в поле **Назначить дату начала** для работника.
-
 

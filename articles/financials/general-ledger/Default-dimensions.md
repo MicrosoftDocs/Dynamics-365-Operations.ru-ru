@@ -1,13 +1,13 @@
 ---
-title: "Финансовые аналитики и разноска"
-description: "При планировании и настройке плана счетов необходимо учитывать, как различные компоненты будут взаимодействовать при разноске документа или журнала. К этим компонентам относятся структуры счетов, расширенные правила, балансирование и фиксированные аналитики. В этой теме объясняется, что представляет собой каждый из компонентов и как эти компоненты взаимодействуют."
+title: Финансовые аналитики и разноска
+description: При планировании и настройке плана счетов необходимо учитывать, как различные компоненты будут взаимодействовать при разноске документа или журнала. К этим компонентам относятся структуры счетов, расширенные правила, балансирование и фиксированные аналитики. В этой теме объясняется, что представляет собой каждый из компонентов и как эти компоненты взаимодействуют.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 89bc6f1f01f77dac4c24419705737783b07e4ac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327949"
 ---
-
 # <a name="financial-dimensions-and-posting"></a>Финансовые аналитики и разноска 
 
 [!include [banner](../includes/banner.md)]
@@ -128,4 +127,3 @@ ms.lasthandoff: 03/26/2018
 [Значения аналитик по умолчанию в распределениях по бухгалтерским счетам](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [Значения аналитик по умолчанию в структуре аналитик](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2014/09/)
-

@@ -1,13 +1,13 @@
---- 
-title: "Просмотр разнесенных проводок налога"
-description: "Можно просмотреть разнесенные налоговые проводки на другой странице в зависимости от того, что необходимо просмотреть."
+---
+title: Просмотр разнесенных проводок налога
+description: Можно просмотреть разнесенные налоговые проводки на другой странице в зависимости от того, что необходимо просмотреть.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxTrans, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f18f2ab02af571f81149ec3564bbac0f98b1d2c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3a6aa136018e586fd66e77c0f2af3a9f321f822f
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356377"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Просмотр разнесенных проводок налога
 
@@ -41,5 +41,4 @@ ms.lasthandoff: 09/29/2017
 10. Перейдите в раздел "Налог" > "Косвенные налоги" > "Налог" > "Налоговые коды".
 11. В области действий щелкните "Налоговый код".
 12. Щелкните "Разнесенный налог".
-
 

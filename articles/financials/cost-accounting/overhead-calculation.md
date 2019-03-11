@@ -1,13 +1,13 @@
 ---
-title: "Расчет накладных расходов"
-description: "В этом разделе описываются типовые процессы расчета и распределения накладных расходов."
+title: Расчет накладных расходов
+description: В этом разделе описываются типовые процессы расчета и распределения накладных расходов.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
 ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/05/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335125"
 ---
-
 # <a name="overhead-calculation"></a>Расчет накладных расходов
 
 [!include [banner](../includes/banner.md)]
@@ -1413,7 +1412,6 @@ ms.lasthandoff: 10/05/2018
 
 > [!NOTE]
 > В этом разделе показано, как основной элемент затрат, 10001 Электричество, проходит через объекты затрат. Таким образом, стоимость этих накладных расходов распределяется на самые нижние уровни в организации. Другими словами, объекты затрат на самом нижнем уровне используются для покрытия затрат. Если требуется визуальное представление потока затрат между объектами затрат, можно использовать правила политики свертки затрат для визуализации потока по затратам. Дополнительные сведения см. в разделе [Свертка затрат](cost-rollup.md).
-
 
 
 

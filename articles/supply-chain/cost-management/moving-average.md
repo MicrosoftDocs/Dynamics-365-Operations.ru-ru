@@ -1,13 +1,13 @@
 ---
-title: "Скользящее среднее"
-description: "Скользящее среднее является методом непрерывного расчета себестоимости, основанным на принципе среднего значения, где стоимость расходов запасов не меняется, когда меняется стоимость покупки. Разница капитализируются и основывается на пропорциональном расчете. Оставшаяся сумма списывается в расход."
+title: Скользящее среднее
+description: Скользящее среднее является методом непрерывного расчета себестоимости, основанным на принципе среднего значения, где стоимость расходов запасов не меняется, когда меняется стоимость покупки. Разница капитализируются и основывается на пропорциональном расчете. Оставшаяся сумма списывается в расход.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348074"
 ---
-
 # <a name="moving-average"></a>Скользящее среднее
 
 [!include [banner](../includes/banner.md)]
@@ -113,8 +112,7 @@ ms.lasthandoff: 11/03/2017
 | 8 октября        | 8 октября    | Переоценка для скользящего среднего |          | 4,00   | 16.00             |
 |                  | 31 октября   | Итоговый                      | 2        | 32.00  | 16.00             |
 
- **Примечание.** Невозможно выверить главную книгу с запасами, используя параметр сортировки **Время проводки**. Отчет должен быть распечатан с помощью параметра **Дата разноски**.
-
+ **Примечание.** Невозможно выверить главную книгу с запасами, используя параметр сортировки **Время проводки**. Отчет должен быть распечатан с помощью параметра **Дата разноски**.
 
 
 

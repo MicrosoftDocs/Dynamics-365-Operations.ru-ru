@@ -1,13 +1,13 @@
 ---
-title: "Интеграция с клиентом Microsoft Project"
-description: "Планирование и поддержка графика проекта может быть сложным делом, поэтому руководители проектов должны использовать средства, помогающие справиться с этой задачей. Интеграция с клиентом Microsoft Project обеспечивает поддержку для открытия и управления структурной декомпозицией работ по проекту."
+title: Интеграция с клиентом Microsoft Project
+description: Планирование и поддержка графика проекта может быть сложным делом, поэтому руководители проектов должны использовать средства, помогающие справиться с этой задачей. Интеграция с клиентом Microsoft Project обеспечивает поддержку для открытия и управления структурной декомпозицией работ по проекту.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,15 +17,14 @@ ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-04
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 48feb0182c623714b2acffafc42016c0471ba6c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317484"
 ---
-
 # <a name="microsoft-project-client-integration"></a>Интеграция с клиентом Microsoft Project
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 03/26/2018
 Планирование и поддержка графика проекта может быть сложным делом, поэтому руководители проектов должны использовать средства, помогающие справиться с этой задачей. Интеграция с клиентом Microsoft Project обеспечивает поддержку для открытия и управления структурной декомпозицией работ по проекту. Руководитель проекта может обратно публиковать любые изменения в структурной декомпозиции работ по проекту в Finance and Operations.
 
 > [!NOTE]
-> При использовании Microsoft Dynamics 365 for Finance and Operations, обновление от июля 2017 г., необходимо установить пакеты обновления KB 4054797 и 4055884.
+> При использовании Microsoft Dynamics 365 for Finance and Operations, обновление за июль, необходимо установить KB 4054797 и 4055884.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Настройка надстройки клиента Microsoft Project
 Чтобы включить интеграцию с клиентом Microsoft Project, необходимо установить надстройку Microsoft Dynamics 365 в клиентское приложение Microsoft Project пользователя. Это можно сделать, открыв **рабочую область управления проектами**.
@@ -128,4 +127,3 @@ ms.lasthandoff: 03/26/2018
 8.  Выберите **Календарь** для подбора ресурсов.
 
 11. Нажмите кнопку **ОК**.
-

@@ -1,13 +1,13 @@
 ---
-title: "Поиск действий"
-description: "В этой статье описываются функции поиска действий в Microsoft Dynamics 365 for Finance and Operations. Поиск действий служит для поиска и выполнения действий на странице."
+title: Поиск действий
+description: В этой статье описываются функции поиска действий в Microsoft Dynamics 365 for Finance and Operations. Поиск действий служит для поиска и выполнения действий на странице.
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 960c715c487fbda5d93630327f07380e6d8fbd3c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317507"
 ---
-
 # <a name="action-search"></a>Поиск действий
 
 [!include [banner](../includes/banner.md)]
 
 В этой статье описываются функции поиска действий в Microsoft Dynamics 365 for Finance and Operations. Поиск действий служит для поиска и выполнения действий на странице.
 
-## <a name="introduction"></a>Приветствие
+## <a name="introduction"></a>Введение
 
 Страницы в Microsoft Dynamics 365 for Finance and Operations в первую очередь предоставляют команды на панелях операций, как в стандартной области действий, которая появляется в верхней части страницы, так и на панелях инструментов, которые отображаются в различных разделах страницы. В предыдущих версиях функция сочетаний клавиш позволяла быстро получить доступ к любой кнопке на панели операций, нажав клавишу Alt, затем последовательность букв.
 

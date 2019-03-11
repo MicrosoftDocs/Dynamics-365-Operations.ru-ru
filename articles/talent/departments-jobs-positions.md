@@ -1,13 +1,13 @@
 ---
-title: "Организация трудовых ресурсов с помощью подразделений, должностей и штатных единиц"
-description: "Подразделения, задания и должности — организационные элементы, которые поддерживаются в модуле « управление персоналом «. Этот раздел содержит общие сведения об этих элементах."
+title: Организация трудовых ресурсов с помощью подразделений, должностей и штатных единиц
+description: Подразделения, задания и должности — организационные элементы, которые поддерживаются в модуле « управление персоналом «. Этот раздел содержит общие сведения об этих элементах.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 8b74542b85810409e062a42e323c0527711d562f
+ms.sourcegitcommit: 49a642cd5e0519e381ff558f59c993ee77f55108
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "374405"
 ---
-
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Организация трудовых ресурсов с помощью подразделений, должностей и штатных единиц
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Подразделения, задания и должности — организационные элементы, которые поддерживаются в модуле « управление персоналом «. Этот раздел содержит общие сведения об этих элементах. 
 
@@ -165,7 +163,6 @@ ms.lasthandoff: 08/09/2018
 </table>
 
 Можно изменять информацию, указанную в предыдущей таблице, для должности или задания, и указать дату, когда изменения должности или задания должны вступить в силу. Например, должность может быть назначена только одному работнику, но Сергей Пател, которому назначена должность Бухгалтер А, уходит через 2 недели. Джо Хили заменит Сергея Патела когда он уйдет. Даже если Сергей все еще назначен для его должности, можно назначить Джо Хили на эту же должность так, что назначение будет действовать только после последнего дня Сергея.
-
 
 
 

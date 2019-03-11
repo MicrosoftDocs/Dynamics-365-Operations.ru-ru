@@ -1,13 +1,13 @@
 ---
-title: "Формализация бизнес-процессов"
-description: "Эта тема объясняет, как можно использовать функцию бизнес-процесса, чтобы создать шаблон бизнес-процесса для процессов, которые должны выполняться в вашей организации."
+title: Формализация бизнес-процессов
+description: Эта тема объясняет, как можно использовать функцию бизнес-процесса, чтобы создать шаблон бизнес-процесса для процессов, которые должны выполняться в вашей организации.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 01/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: PersonnelBusinessProcessGenericWorkspace, BusinessProcessGenericTemplateListpage, BusinessProcessGenericMyTemplates, BusinessProcessGroupAssignment
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: ee4035f3156a91faecdecba45289dbb1ca6e947a
 ms.openlocfilehash: fd538677d897c1e7d3103cd714c688373aab8d29
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306007"
 ---
 # <a name="formalize-business-processes"></a>Формализация бизнес-процессов
 
@@ -74,5 +74,4 @@ ms.lasthandoff: 08/09/2018
 - Выберите **Начать процесс**, чтобы запустить выбранный бизнес-процесс, назначить задачи и рассчитать сроки выполнения.
 
 Для просмотра активных процессов и связанных с ними задач откройте рабочую область **Бизнес-процессы**.
-
 

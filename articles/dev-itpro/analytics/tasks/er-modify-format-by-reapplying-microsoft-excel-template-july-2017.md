@@ -1,13 +1,13 @@
---- 
-title: "Изменение форматов путем повторного применения шаблонов Excel"
-description: "Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру \"Электронная отчетность — Разработка конфигурации для создания отчетов в формате OPENXML\"."
+---
+title: Изменение форматов путем повторного применения шаблонов Excel
+description: Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Разработка конфигурации для создания отчетов в формате OPENXML".
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 3d5752caba9327475bb28c7bc6b0ee7e072f44f3
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327121"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Изменение форматов путем повторного применения шаблонов Excel
 
@@ -83,5 +83,4 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Использование измененной черновой версии формата электронной отчетности для использования при обработке журнала платежей
     * Просмотрите созданный лист, включая новый элемент сведений строк платежа — дату платежа.  
-
 

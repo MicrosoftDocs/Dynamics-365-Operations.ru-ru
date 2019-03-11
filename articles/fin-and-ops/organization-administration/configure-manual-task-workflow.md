@@ -1,13 +1,13 @@
 ---
-title: "Настройка ручных задач в workflow-процессе"
-description: "В этом разделе описывается, как настроить свойства ручной задачи."
+title: Настройка ручных задач в workflow-процессе
+description: В этом разделе описывается, как настроить свойства ручной задачи.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 669fce3ddade4d6e0a130da2420ab33ca4ff4671
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309756"
 ---
-
 # <a name="configure-manual-tasks-in-a-workflow"></a>Настройка ручных задач в workflow-процессе
 
 [!include [banner](../includes/banner.md)]
@@ -383,4 +382,3 @@ ms.lasthandoff: 12/18/2018
 5. Установите флажок **Делегировать**, если требуется, чтобы пользователь мог назначить эту задачу другому пользователю.
 6. Установите флажок **Назначить повторно**, если требуется, чтобы пользователь мог назначить повторно эту задачу другому пользователю в очереди задач.
 7. Установите флажок **Запуск в производство**, если требуется, чтобы пользователь мог назначить повторно эту задачу в очередь задач. Другой пользователь затем сможет выполнить задачу.
-

@@ -1,13 +1,13 @@
---- 
-title: "Связывание индекса топлива с перевозчиком как дополнительного расхода"
-description: "В этом руководстве демонстрируется создание назначения дополнения, дополнительных расходов перевозчика, справочника дополнений для доплаты за топливо, а также связывание индекс топлива перевозчика с перевозчиком."
+---
+title: Связывание индекса топлива с перевозчиком как дополнительного расхода
+description: В этом руководстве демонстрируется создание назначения дополнения, дополнительных расходов перевозчика, справочника дополнений для доплаты за топливо, а также связывание индекс топлива перевозчика с перевозчиком.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ae0aa90cfd673704bcd8e19f795499283ff01d44
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a2b8534231c5fa50b1e0f709e09d318bb8202a43
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349799"
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Связывание индекса топлива с перевозчиком как дополнительного расхода
 
@@ -76,5 +76,4 @@ ms.lasthandoff: 09/29/2017
 5. В поле "Индекс топлива перевозчика" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
 6. В списке перейдите по ссылке в выбранной строке.
 7. Нажмите кнопку "Сохранить".
-
 

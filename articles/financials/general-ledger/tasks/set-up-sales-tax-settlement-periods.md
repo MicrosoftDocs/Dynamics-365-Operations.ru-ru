@@ -1,13 +1,13 @@
---- 
-title: "Настройка периодов сопоставления налогов"
-description: "Периоды сопоставления налога содержат сведения об интервалах периода, за которые необходимо отправить налоговые отчеты и выплатить налоги."
+---
+title: Настройка периодов сопоставления налогов
+description: Периоды сопоставления налога содержат сведения об интервалах периода, за которые необходимо отправить налоговые отчеты и выплатить налоги.
 author: twheeloc
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326201"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Настройка периодов сопоставления налогов
 
@@ -60,5 +60,4 @@ ms.lasthandoff: 10/16/2018
 20. Щелкните "Новый интервал периода".
     * После ввода первого интервала периода новые периоды можно создавать автоматически. Можно вернуться и добавить новые интервалы периода по мере необходимости.  
 21. Закройте страницу.
-
 

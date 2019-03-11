@@ -1,13 +1,13 @@
 ---
-title: "Мобильная рабочая область заказов на продажу"
-description: "В этой теме содержится информация о мобильной рабочей области \"Заказы на продажу\". Эта рабочая область помогает отслеживать заказы на продажу в любом месте и в любое время."
+title: Мобильная рабочая область заказов на продажу
+description: В этой теме содержится информация о мобильной рабочей области "Заказы на продажу". Эта рабочая область помогает отслеживать заказы на продажу в любом месте и в любое время.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 03e8908ecb78b4f72dae8426b0165f9350d5fe85
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a3b06832112779a4b0826a51b696a1ced10711ec
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365071"
 ---
-
 # <a name="sales-orders-mobile-workspace"></a>Мобильная рабочая область заказов на продажу
 
 [!include [banner](../includes/banner.md)]
 
 В этой теме содержится информация о мобильной рабочей области **Заказы на продажу**. Эта рабочая область помогает отслеживать заказы на продажу в любом месте и в любое время. 
 
-Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations.
+Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Обзор
 Мобильная рабочая область **Заказы на продажу** позволяет просмотреть подробные сведения по каждому заказу на продажу. Эти сведения включают статус заказа, контактную информацию для клиента и контактную информацию для приемщика заказа. Мобильная рабочая область **Заказы на продажу** обеспечивает мгновенный просмотр заказов на продажу. Можно просматривать все заказы на продажу, заказы на продажу по клиентам или сведения о конкретном заказе на продажу. 
@@ -87,7 +86,7 @@ ms.lasthandoff: 03/26/2018
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations 
 Если в вашей организации развернута система Dynamics 365 for Finance and Operations, системный администратор должен опубликовать мобильную рабочую область **Заказы на продажу**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии
 Если в вашей организации развернута система Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
 
 <table>
@@ -123,7 +122,7 @@ ms.lasthandoff: 03/26/2018
 ## <a name="download-and-install-the-mobile-app"></a>Загрузите и установите мобильное приложение
 Загрузите и установите мобильное приложение Dynamics 365 for Unified Operations:
 
--   [Для ОС Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Войдите в систему в мобильном приложении
@@ -143,4 +142,3 @@ ms.lasthandoff: 03/26/2018
 4.  Выберите клиента.
 5.  Выберите **Контактная информация** или **Заказы на продажу**. Если выбран пункт **Заказы на продажу**, отображается список заказов на продажу для клиента.
 6.  Выберите **Заказ на продажу**. Теперь можно просмотреть сведения о строках заказа на продажу, сведения об отгрузках, контактные данные клиента и контактные данные для приемщика заказа.
-

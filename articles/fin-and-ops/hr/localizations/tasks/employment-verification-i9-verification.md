@@ -1,13 +1,13 @@
---- 
-title: "Проверка проверки сотрудника i9"
-description: "Закон об иммиграционной реформе и контроле над иммиграцией требует, чтобы работодатели США проверяли наличие права на трудоустройство у вновь нанимаемых сотрудников."
+---
+title: Проверка проверки сотрудника i9
+description: Закон об иммиграционной реформе и контроле над иммиграцией требует, чтобы работодатели США проверяли наличие права на трудоустройство у вновь нанимаемых сотрудников.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4d7346507179d237f60459978b9b7c6351f48611
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333331"
 ---
 # <a name="employment-verification-i9-verification"></a>Проверка проверки сотрудника i9
 
@@ -54,5 +54,4 @@ ms.lasthandoff: 09/14/2018
 21. В поле "Тип документа I-9" выберите тип документа, который предоставил работник.
 22. В поле "Номер документа" введите или выберите значение.
 23. Нажмите кнопку "Сохранить".
-
 

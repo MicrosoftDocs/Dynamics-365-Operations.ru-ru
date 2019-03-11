@@ -1,13 +1,13 @@
 ---
-title: "Содержимое \"Производительность склада\" для Power BI"
-description: "В этой теме описывается, что входит в содержимое \"Производительность склада\" для Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого."
+title: Содержимое Power BI "Производительность склада"
+description: В этой теме описывается, что входит в содержимое "Производительность склада" для Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые используются для построения пакета содержимого.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 99966a67fa1fd91fc54e7100f8e2e41b87f6a406
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365370"
 ---
-
-# <a name="warehouse-performance-power-bi-content"></a>Содержимое "Производительность склада" для Power BI
+# <a name="warehouse-performance-power-bi-content"></a>Содержимое Power BI "Производительность склада"
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, что входит в содержимое Microsoft Power BI **Производительность склада**. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
+В этой теме описывается, что входит в содержимое **Производительность склада** для Microsoft Power BI. В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые используются для построения пакета содержимого.
 
 ## <a name="overview"></a>Обзор
 
@@ -45,7 +44,7 @@ ms.lasthandoff: 08/13/2018
 ## <a name="accessing-the-power-bi-content-pack"></a>Доступ к пакету содержимого Power BI
 Содержимое Power BI **Эффективность склада** отображается на странице **Эффективность склада** (**Управление складом** \> **Запросы и отчеты** \> **Анализ эффективности склада** \> **Эффективность склада**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Показатели, которые включены в содержимое Power BI
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Показатели, включенные в пакет содержимого Power BI
 Содержимое **Производительность склада** Power BI включает отчет. Этот отчет состоит из набора показателей, которые отображаются в виде диаграмм, плиток и таблиц. В следующей таблице приводится обзор визуализации в содержимом Power BI **Производительность склада**.
 
 | Страница отчета                 | Диаграммы                                   | описание |
@@ -113,4 +112,3 @@ ms.lasthandoff: 08/13/2018
 | Производительность отгрузки        | Отгружено по продуктам                       | CustPackingSlipOnTimeStatus           | С опережением, вовремя и с опозданием (см. описания выше в этой таблице). |
 | Производительность отгрузки        | Отгружено по клиентам                      | CustPackingSlipOnTimeStatus           | С опережением, вовремя и с опозданием (см. описания выше в этой таблице). |
 | Производительность отгрузки        | Отгружено по сайтам/складам              | CustPackingSlipOnTimeStatus           | С опережением, вовремя и с опозданием (см. описания выше в этой таблице). |
-

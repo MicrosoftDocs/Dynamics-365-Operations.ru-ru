@@ -1,13 +1,13 @@
 ---
-title: "Построение модели конфигурации продукта"
-description: "Потребность в конфигурировании продуктов в соответствии с особыми требованиями становится скорее правилом, чем исключением, как в B2B-, так и в B2C-отношениях."
+title: Построение модели конфигурации продукта
+description: Потребность в конфигурировании продуктов в соответствии с особыми требованиями становится скорее правилом, чем исключением, как в B2B-, так и в B2C-отношениях.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfaf16cde329909c167d1ad402e08619bdcd5a2
-ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327466"
 ---
-
 # <a name="build-a-product-configuration-model"></a>Построение модели конфигурации продукта
 
 [!include [banner](../includes/banner.md)]
@@ -158,7 +157,6 @@ API реализован путем использования набора кл
 ### <a name="multiple-sites-and-intercompany"></a>Многоузловые и внутрихолдинговые сценарии
 
 Если конфигурирование будет производиться в узле или даже в компании, отличных от узла или компании, где будет происходить производство, будут созданы спецификация и маршрут для узла поставщика в поставляющей компании и помещены в этот узел. Вариант продукта будет выпущен во всех компаниях, которые участвуют в цепочке поставок.
-
 
 
 

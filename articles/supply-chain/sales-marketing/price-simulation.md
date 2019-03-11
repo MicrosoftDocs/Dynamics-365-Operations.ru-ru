@@ -1,13 +1,13 @@
 ---
-title: "Моделирование цены"
-description: "Эта статья представляет информацию о моделировании цены для предложений. Моделирование цены позволяет оценить последствия вычетов на будущую цену продажи в процессе предложения, до принятия определенной цены."
+title: Моделирование цены
+description: Эта статья представляет информацию о моделировании цены для предложений. Моделирование цены позволяет оценить последствия вычетов на будущую цену продажи в процессе предложения, до принятия определенной цены.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316541"
 ---
-
 # <a name="price-simulation"></a>Моделирование цены
 
 [!include [banner](../includes/banner.md)]
@@ -143,7 +142,6 @@ ms.lasthandoff: 05/08/2018
 | Новая общая процентная маржа                      | \[(302,88 – 184,96) ÷ 302,88\] × 100    | 38,93%   |
 
 Моделирование цены влияет только на строку, к которой оно применяется, уменьшая общую сумму для этой строки.
-
 
 
 

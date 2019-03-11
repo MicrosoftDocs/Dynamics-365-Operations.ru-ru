@@ -1,13 +1,13 @@
 ---
-title: "Настройка программ непрерывности для центров обработки вызовов"
-description: "В этом статье описывается, как настроить программу непрерывности для центра обработки вызовов."
+title: Настройка программ непрерывности для центров обработки вызовов
+description: В этом статье описывается, как настроить программу непрерывности для центра обработки вызовов.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 369856f33c6da49b6c6b3f51f42c99a8f07fe777
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 9952785afd8e5d1877e96239ee23f9de1c332bcf
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320980"
 ---
-
 # <a name="set-up-continuity-programs-for-call-centers"></a>Настройка программ непрерывности для центров обработки вызовов
 
 [!include [banner](includes/banner.md)]
@@ -51,4 +50,3 @@ ms.lasthandoff: 08/09/2018
 - **Расширение строк непрерывности** (при необходимости) — увеличение количества повторов события непрерывности. Количество повторов отгрузки можно увеличить, превысив лимит, установленный в поле **Порог повторения непрерывности** в параметрах центра обработки вызовов.
 - **Выполнение обновления непрерывности** (при необходимости)— синхронизация изменений между программой непрерывности и непрерывными родительскими заказами на продажу.
 - **Закрытие строк и заказов родительского объекта непрерывности** — закрытие непрерывных заказов.
-

@@ -1,13 +1,13 @@
 ---
-title: "Обработка общего журнала"
-description: "В этой теме рассматриваются возможности Microsoft Dynamics 365 for Finance and Operations, которые могут упростить обработку общих журналов, обеспечить отражение в учете правильных данных и избежать компрометации внутреннего контроля."
+title: Обработка общего журнала
+description: Этот раздел описывает возможности в Microsoft Dynamics 365 for Finance and Operations, которые могут помочь выполнить обработку общего журнала легче, и которое также может помочь гарантировать, что правильные данные отражаются, и внутренний контроль не скомпрометирован.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
 ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358447"
 ---
-
 # <a name="general-journal-processing"></a>Обработка общего журнала
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме рассматриваются возможности Microsoft Dynamics 365 for Finance and Operations, которые могут упростить обработку общих журналов, обеспечить отражение в учете правильных данных и избежать компрометации внутреннего контроля.  
+Этот раздел описывает возможности в Microsoft Dynamics 365 for Finance and Operations, которые могут помочь выполнить обработку общего журнала легче, и которое также может помочь гарантировать, что правильные данные отражаются, и внутренний контроль не скомпрометирован.  
 
 ## <a name="journal-names"></a>Наименования журналов
 
@@ -97,4 +96,3 @@ ms.lasthandoff: 09/24/2018
 Пункт **Смоделировать разноску** есть в меню **Проверить** большинства журналов. При проверке журнала с помощью функции **Проверить** система тестирует журнал на предмет конкретных условий ошибок. При использовании функции **Смоделировать разноску** система запускает все процессы, которые выполняются при разноске, не разнося при этом журнал. Вы затем можете просмотреть отображаемые сообщения разноски, исправить найденные ошибки и разнести журнал с помощью меню **Разнести**. 
 
 Функция **Смоделировать разноску** недоступна для пакетной обработки. Тем не менее, существует код, позволяющий моделировать пакетную разноску, и разработчики могут расширять свой код для добавления этой функциональной возможности.  
-

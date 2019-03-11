@@ -1,13 +1,13 @@
---- 
-title: "Закрытие финансового года"
-description: "В этой процедуре описывается процесс закрытия на конец конца, который переносит сальдо в новый финансовый год."
+---
+title: Закрытие финансового года
+description: В этой процедуре описывается процесс закрытия на конец конца, который переносит сальдо в новый финансовый год.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 628b084dbcc85c3f7c08f209bdb325a110554ad9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4f2f1f1206f3cb3534ef93923d4945bb63814514
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367923"
 ---
 # <a name="close-the-fiscal-year"></a>Закрытие финансового года
 
@@ -67,5 +67,4 @@ ms.lasthandoff: 09/29/2017
 23. Закрытие на конец года по умолчанию выполняется в пакетном режиме.
     * Рекомендуется выполнять длительные процессы в пакетном режиме. Обычно это один из таких процессов, поэтому по умолчанию задано использование пакетного режима.  
 24. Нажмите кнопку "OК".
-
 

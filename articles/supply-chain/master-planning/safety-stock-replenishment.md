@@ -1,32 +1,31 @@
 ---
-title: "Выполнение резервного запаса для номенклатур"
-description: "В этом разделе обсуждается выполнение резервного запаса и порядок настройки количества резервного запаса для номенклатур."
+title: Выполнение резервного запаса для номенклатур
+description: В этом разделе обсуждается выполнение резервного запаса и порядок настройки количества резервного запаса для номенклатур.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 147cc3984e6dc641209beefdb3545615b42767a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: d6ecb346f7bfa54a4e16307f623c82acb3a86892
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341542"
 ---
-
 # <a name="safety-stock-fulfillment-for-items"></a>Выполнение резервного запаса для номенклатур
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ ms.lasthandoff: 12/14/2017
 На этапе покрытия сводного планирования пополнение резервных запасов больше не имеет пониженный приоритет. Запасы в наличии могут использоваться до любых других типов спроса. Во время вычисления задержки новая логика будет добавлен для просмотра задержанных строки продаж, потребностей строк спецификации и всех другие типов спроса, чтобы определить, могут ли они быть доставлены в срок, при условии использования резервного запаса. Если система определяет, что может минимизировать задержки с помощью резервных запасов, то в строках продажи или строках спецификации их первоначальное покрытие будет заменено на резервный запас, и взамен система активирует пополнение резервного запаса.
 
 Если план и номенклатура не настроены для расчета задержки, то ограничение резервного запаса будет иметь тот же приоритет, что и любые другие типы спроса. Это означает, что имеется резервирование наличных запасов и других доступных запасов до других типов спроса.
-

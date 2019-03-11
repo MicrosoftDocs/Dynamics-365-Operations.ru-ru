@@ -1,13 +1,13 @@
 ---
-title: "Финансовый анализ"
-description: "Финансовый анализ использует Microsoft Power BI для объединения финансовых ключевых индикаторов (KPI), диаграмм и финансовых отчетов."
+title: Финансовый анализ
+description: Финансовый анализ использует Microsoft Power BI для объединения финансовых ключевых индикаторов (KPI), диаграмм и финансовых отчетов.
 author: kweekley
 manager: AnnBe
 ms.date: 08/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,15 +16,14 @@ ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308859"
 ---
-
 # <a name="financial-insights"></a>Финансовый анализ
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,7 @@ ms.lasthandoff: 08/14/2018
 |-----------------------------------------|-------|------------|
 | Просмотр рабочей области обзора финансового директора             | Финансовый директор | Эти полномочия предоставляют доступ к рабочей области "Обзор финансового директора". По умолчанию активная компания используется в качестве фильтра. Тем не менее можно добавить все юридические лица, независимо от того, имеет ли пользователь доступ к другим юридическим лицам. |
 | Просмотр финансового анализа текущей компании | <ul><li>Бухгалтер</li><li>Главный бухгалтер</li><li>Супервизор по учету</li><li>Аудитор</li><li>Менеджер бюджета</li><li>Генеральный директор</li><li>Финансовый директор</li><li>Финансовый контролер</li></ul> | Эти полномочия предоставляют доступ к рабочей области "Финансовый анализ". По умолчанию активная компания используется в качестве фильтра. Добавить другие юридические лица нельзя. |
-| Просмотр межфирменного финансового анализа   | В Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, эти полномочия не назначены никакой роли. В следующем выпуске эти полномочия будут назначены роли "Финансовый директор". | Эти полномочия предоставляют доступ к пункту меню для рабочей области "Обзор финансового директора". По умолчанию активная компания используется в качестве фильтра. Тем не менее можно добавить все юридические лица, независимо от того, имеет ли пользователь доступ к другим юридическим лицам. |
+| Просмотр межфирменного финансового анализа   | В Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, эти полномочия не назначены роли. В следующем выпуске эти полномочия будут назначены роли "Финансовый директор". | Эти полномочия предоставляют доступ к пункту меню для рабочей области "Обзор финансового директора". По умолчанию активная компания используется в качестве фильтра. Тем не менее можно добавить все юридические лица, независимо от того, имеет ли пользователь доступ к другим юридическим лицам. |
 
 
 ## <a name="financial-reporting-vs-finanical-insights"></a>Финансовая отчетность и финансовый анализ
@@ -250,4 +249,3 @@ ms.lasthandoff: 08/14/2018
 - <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
 
 - <https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
-

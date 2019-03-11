@@ -1,13 +1,13 @@
 ---
-title: "Содержимое Power BI \"Развитие сотрудников\""
-description: "В этом разделе описывается содержимое Power BI \"Развитие сотрудников\""
+title: Содержимое Power BI "Развитие сотрудников"
+description: В этом разделе описывается содержимое Power BI "Развитие сотрудников"
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347177"
 ---
-
 # <a name="employee-development-power-bi-content"></a>Содержимое Power BI "Развитие сотрудников"
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается содержимое Microsoft Power BI **Развитие сотрудников**.
+В этом разделе описывается содержимое Microsoft Power BI **Развитие сотрудников**
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Отчеты, которые включены в содержимое Power BI
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Отчеты, включенные в содержимое Power BI
 Отчеты, включенные в пакет содержимое Power BI **Развитие сотрудников**, включают диаграммы и таблицы, которые содержат дополнительные сведения. В следующей таблице приводится описание отчетов.
 
 | Отчет                        | Содержание |
@@ -70,4 +69,3 @@ ms.lasthandoff: 08/13/2018
 | Анализ навыков сотрудника  | Сертифицированный, уровень, дата уровня и навык                                                                    | Имя работника, навык |
 | Производительность              | Оценка, описание и модель оценки                                                                      | Текущий сотрудник, текущая должность, тенденция сотрудника, предпочитаемый навык для задания, последнее назначение на должность, тенденция должности, уволенный сотрудник |
 | Навык                    | Навык, типа навыка и рейтинг                                                                              | Анализ навыков сотрудника, предпочтительный навык для задания |
-

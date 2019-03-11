@@ -1,13 +1,13 @@
 ---
-title: "Управление мелкими наличными деньгами для Retail для Восточной Европы"
-description: "В этом разделе описывается, как настроить и использовать возможности управления кассой в Retail для Восточной Европы."
+title: Управление мелкими наличными деньгами для Retail для Восточной Европы
+description: В этом разделе описывается, как настроить и использовать возможности управления кассой в Retail для Восточной Европы.
 author: epopov
 manager: annbe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,15 +15,14 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 01239f0eff3e59f62188fca64f99e93be843d2e2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: c198cedba9268229dc1057711d9f16ca33acebac
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371745"
 ---
-
 # <a name="petty-cash-management-for-retail-for-eastern-europe"></a>Управление мелкими наличными деньгами для Retail для Восточной Европы
 
 [!include [banner](../includes/banner.md)]
@@ -99,4 +98,3 @@ ms.lasthandoff: 10/24/2018
 
 > [!NOTE]
 > Необходимо настроить корр. счета как для способ оплаты наличными, так и для способа оплаты удаления платежного средства и ввода остатка для магазина. При этом создаются сбалансированные записи ГК для проводок удаления платежного средства и ввода остатка.
-

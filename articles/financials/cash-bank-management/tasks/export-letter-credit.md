@@ -1,13 +1,13 @@
---- 
-title: "Экспортный аккредитив"
-description: "Эта процедура содержит указания по обработке экспортного аккредитива."
+---
+title: Экспортный аккредитив
+description: Эта процедура содержит указания по обработке экспортного аккредитива.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustBankAccounts, DefaultDashboard, SalesTableListPage, SalesCreateOrder, SalesTable, BankLCExport, SalesEditLines,  LedgerJournalTable, LedgerJournalTransCustPaym, CustOpenTrans
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 730a6cc6ed4872f8d0ad92b89665587f472f6791
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335907"
 ---
 # <a name="export-letter-of-credit"></a>Экспортный аккредитив
 
@@ -139,5 +139,4 @@ ms.lasthandoff: 09/14/2018
 2. В списке найдите и выберите требуемую запись.
 3. В списке перейдите по ссылке в выбранной строке.
     * Проверьте, что "Статус отгрузки = Платеж получен" и "Сальдо = 0.00".  
-
 

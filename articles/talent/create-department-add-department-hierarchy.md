@@ -1,13 +1,13 @@
 ---
-title: "Создание подразделений и включение их в иерархию подразделений"
-description: "Подразделение — это операционная единица, которая представляет собой категорию или функциональную область в организации. Подразделение отвечает за конкретную область деятельности организации, например продажи, бухгалтерский учет или управление персоналом. Подразделения можно использовать для формирования отчетности по функциональным областям. Подразделения могут нести ответственность за прибыли и убытки."
+title: Создание подразделений и включение их в иерархию подразделений
+description: Подразделение — это операционная единица, которая представляет собой категорию или функциональную область в организации. Подразделение отвечает за конкретную область деятельности организации, например продажи, бухгалтерский учет или управление персоналом. Подразделения можно использовать для формирования отчетности по функциональным областям. Подразделения могут нести ответственность за прибыли и убытки.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 14e0acb2ea16641eecb81bcf23c8b7d778b2b208
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305932"
 ---
-
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Создание подразделений и включение их в иерархию подразделений
 
 [!include [banner](includes/banner.md)]
@@ -57,4 +56,3 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="steps-for-creating-a-department"></a>Шаги для создания подразделения
 Описание пошаговой процедуры создания нового подразделения см. в разделе [Определение новых подразделений](../fin-and-ops/hr/tasks/define-new-departments.md). 
-

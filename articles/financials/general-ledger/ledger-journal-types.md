@@ -1,13 +1,13 @@
 ---
-title: "Типы журналов ГК"
-description: "В этом разделе описываются типы журналов, которые можно настроить для финансовых журналов."
+title: Типы журналов ГК
+description: В этом разделе описываются типы журналов, которые можно настроить для финансовых журналов.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308675"
 ---
-
 # <a name="ledger-journal-types"></a>Типы журналов ГК
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,6 @@ ms.lasthandoff: 10/16/2018
 | Регистрация накладной от поставщика          | Разноска накладных поставщика, находящихся в журнале.                                                                                                                                                                                                                                                                                                                 | Журнал накладных                                                |
 | Перевыписка простого векселя на поставщика     | Перевыписка простого векселя, который до этого был оплачен вашим банком.                                                                                                                                                                                                                                                                      | Журнал перевыписки простых векселей                                 |
 | Сопоставление простого векселя поставщика     | Создание проводок сопоставления по простому векселю поставщика.                                                                                                                                                                                                                                                                                                          | Журнал сопоставления простых векселей                                 |
-
 
 
 

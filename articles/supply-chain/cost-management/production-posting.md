@@ -1,13 +1,13 @@
 ---
-title: "Разноски по производству"
-description: "В это статье представлена информация о различных типах разносок в процессе производства."
+title: Разноски по производству
+description: В это статье представлена информация о различных типах разносок в процессе производства.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemGroup, ProjCategory, WrkCtrResourceGroup, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0b44d57fe89ef7ae3def835865e4da80c260f907
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 413bf76b40ec1e6d00322605900a71f163c9396c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332411"
 ---
-
 # <a name="production-posting"></a>Разноски по производству
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ ms.lasthandoff: 11/03/2017
 -   **Производственные группы** — используйте счета ГК, которые настроены для производственных групп как для потребления материала, так и времени. Производственные группы связаны с выпущенными продуктами и копируются в производственные группы при создании таких заказов. Разноска производственных заказов будет выполнена по производственным группам, связанным с производственный заказом.
 
 **Примечание.** Если используется стандартный метод расчета затрат, это влияет и на конечные проводки. Если фактические затраты и затраты, рассчитанные стандартным методом отличаются, разница разносится на счет прибылей или убытков.
-
 
 
 

@@ -1,38 +1,37 @@
 ---
-title: "Что нового и что изменилось в Dynamics 365 for Talent Core HR (10 сентября 2018 г.)"
-description: "В этой теме описываются новые и измененные компоненты в текущем выпуске Microsoft Dynamics 365 for Talent Core HR."
+title: Что нового и что изменилось в Dynamics 365 for Talent Core HR (10 сентября 2018 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-06
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: d6a281e2baa1b96e570850ea946669d3b2a90fb7
 ms.openlocfilehash: b41ce93c8ae93054d2b0d71340b99e0910d4510f
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/12/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306000"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-10-2018"></a>Что нового и что изменилось в Dynamics 365 for Talent Core HR (10 сентября 2018 г.)
 
 [!include [banner](includes/banner.md)]
 
 **Сборка 8.1.138.0**
 
-В этой теме описываются новые и измененные компоненты в текущем выпуске Microsoft Dynamics 365 for Talent Core HR.
+В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent Core HR.
 
 ## <a name="allow-specific-time-of-day-on-time-off-requests-half-days"></a>Возможность указания конкретного времени суток в запросах на отгулы (на половину дня)
 
@@ -101,4 +100,3 @@ ms.lasthandoff: 09/12/2018
 - При найме подрядчика вкладка **Компенсация** не должна быть доступна на странице запроса/действия.
 - В процессе запроса увольнения нельзя продолжить, пока все обязательные поля не будут содержать данные.
 - Решены проблемы с порядком сортировки и отображения дат в аналитике управления персоналом.
-

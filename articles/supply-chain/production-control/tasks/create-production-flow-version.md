@@ -1,13 +1,13 @@
---- 
-title: "Создание версии производственного потока"
-description: "В этой процедуре рассматривается создание новой версии производственного потока."
+---
+title: Создание версии производственного потока
+description: В этой процедуре рассматривается создание новой версии производственного потока.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9a76e5bb6f63f793e4644c2ccf70cef21785ff10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320681"
 ---
 # <a name="create-a-production-flow-version"></a>Создание версии производственного потока
 
@@ -63,5 +63,4 @@ ms.lasthandoff: 11/03/2017
 12. Введите число в поле "Период для фактического времени цикла (дни)".
     * Введите количество дней в период для фактического времени цикла. Период для фактического времени цикла — это число дней, из которых суммируются задания по фактической минуте назад для расчета фактического времени цикла. Значение можно изменить в любое время, и оно используется только для расчета фактического времени цикла.  
 13. Нажмите кнопку "Сохранить".
-
 

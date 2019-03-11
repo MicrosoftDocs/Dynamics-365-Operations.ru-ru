@@ -1,13 +1,13 @@
 ---
-title: "Субподряды на основе мероприятий"
-description: "В этом разделе подробно описывается использование субподрядных мероприятий в производственном потоке для бережливого производства."
+title: Субподряды на основе мероприятий
+description: В этом разделе подробно описывается использование субподрядных мероприятий в производственном потоке для бережливого производства.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 59b41b31931a128898ee70a583bfb9c515f90abc
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350052"
 ---
-
 # <a name="activity-based-subcontracting"></a>Субподряды на основе мероприятий
 
 [!include [banner](../includes/banner.md)]
@@ -104,7 +103,6 @@ Backflush-расчет себестоимости для бережливого 
 Субподряд на основе мероприятий в бережливом производстве позволяет интегрировать перевозчиков и поставщиков транспортировки, которые перемещают материалы и продукты между складами производственного потока. Путем моделирования мероприятие перемещения можно назначить перевозчика или поставщика. Мероприятия или задания перемещения основываются на договоре на обслуживание или покупку, и можно создавать заказы на покупку и уведомления о получении на основании фактических заданий перемещения. Эта функция аналогична функции для субподрядных мероприятий обработки.  
 
 Таким образом, Finance and Operations теперь поддерживает расчет спецификации, который включает в учет затрат на производственный поток услуги транспортировки, создание соответствующих заказов на покупку, интегрированную регистрацию прихода и интеграцию затрат на услуги транспортировки.
-
 
 
 

@@ -1,29 +1,28 @@
 ---
-title: "Обмен электронными сообщениями"
-description: "В этом разделе содержится обзор и сведения о настройке для обмена электронными сообщениями в Microsoft Dynamics 365 for Finance and Operations."
+title: Обмен электронными сообщениями
+description: В этом разделе содержится обзор и сведения о настройке для обмена электронными сообщениями в Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 232398a6c4193d0074881e26fff361deb9784bf2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357941"
 ---
-
-# <a name="electronic-messaging"></a>Обмен электронными сообщениями
+# <a name="electronic-messaging"></a>Электронные сообщения
 
 [!include [banner](../includes/banner.md)]
 
@@ -452,4 +451,3 @@ ms.lasthandoff: 12/04/2018
 ![Обновление статуса сообщения](media/update-status.png)
 
 Статус сообщения обновляется до **Подготовлено**, и теперь можно создать отчет, выбрав **Создать отчет**. Создается отчет, и обновляются статус сообщения и журнал действий. Чтобы просмотреть созданный отчет, выберите кнопку **Вложение** в области действий.
-

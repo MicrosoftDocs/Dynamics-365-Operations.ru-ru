@@ -1,13 +1,13 @@
 ---
-title: "Настройка этапов утверждения в workflow-процессе"
-description: "В этом разделе описывается, как настроить свойства шага утверждения."
+title: Настройка этапов утверждения в workflow-процессе
+description: В этом разделе описывается, как настроить свойства шага утверждения.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f52b6ffed7c1edb97c7a673cefbc8bf486ba831
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368061"
 ---
-
 # <a name="configure-approval-steps-in-a-workflow"></a>Настройка этапов утверждения в workflow-процессе
 
 [!include [banner](../includes/banner.md)]
@@ -278,4 +277,3 @@ ms.lasthandoff: 08/09/2018
 
 5. Повторите шаги с 3 по 4 для каждого пользователя, которого следует добавить в маршрут эскалации. можно изменить порядок пользователей.
 6. Если пользователи, перечисленные в маршруте эскалации, не отвечают за отведенное время, система автоматически выполняет действие с документом. Чтобы указать действие, которое будет выполнять система, выберите строку **Действие** и на вкладке **Конечное действие** выберите действие.
-

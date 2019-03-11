@@ -1,13 +1,13 @@
 ---
-title: "Обзор заявки на покупку"
-description: "В этой теме описывается workflow-процесс заявки на покупку и различные возможные статусы заявки на покупку."
+title: Обзор заявки на покупку
+description: В этой теме описывается workflow-процесс заявки на покупку и различные возможные статусы заявки на покупку.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309848"
 ---
-
 # <a name="purchase-requisition-overview"></a>Обзор заявки на покупку
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,7 @@ ms.lasthandoff: 05/08/2018
 <tr class="odd">
 <td>Черновик</td>
 <td>Черновик</td>
-<td>Заявка на покупку и строки заявки на покупку были созданы, но не были отправлены на рассмотрение. Заявки на покупку и строку заявок на покупку, которые имеют статус <strong>Черновик</strong>, можно изменить. Заявка на покупку или строки заявки на покупку также могут иметь статус <strong>Черновик</strong>, если они отозваны и не были повторно отправлены на рассмотрение. <strong>Примечание.</strong> Отправить или отозвать заявку на покупку можно на уровне документа. Однако нельзя отправить или отозвать отдельную строку заявки на покупку.</td>
+<td>Заявка на покупку и строки заявки на покупку были созданы, но не были отправлены на рассмотрение. Заявки на покупку и строку заявок на покупку, которые имеют статус <strong>Черновик</strong>, можно изменить. Заявка на покупку или строки заявки на покупку также могут иметь статус <strong>Черновик</strong>, если они отозваны и не были повторно отправлены на рассмотрение. <strong>Примечание.</strong> Отправить или отозвать заявку на покупку можно на уровне документа. Однако нельзя отправить или отозвать отдельную строку заявки на покупку.</td>
 </tr>
 <tr class="even">
 <td>На рассмотрении</td>
@@ -142,7 +141,7 @@ ms.lasthandoff: 05/08/2018
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Заявки с целью потребления
 
-Заявка с целью потребления представляет потребность в номенклатурах или услугах, которые будут использоваться внутри вашей организацией. Потребность, которая создается этим видом заявки, всегда выполняется заказом на покупку. Если система Microsoft Dynamics 365 for Finance and Operations настроена на автоматическое создание заказов на покупку, то заказы на покупку создаются после утверждения заявки на покупку.
+Заявка с целью потребления представляет потребность в номенклатурах или услугах, которые будут использоваться внутри вашей организацией. Потребность, которая создается этим видом заявки, всегда выполняется заказом на покупку. Если в Microsoft Dynamics 365 for Finance and Operations настроено автоматическое создание заказов на покупку, заказы на покупку создаются после утверждения заявки на покупку.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Заявки с целью пополнения
 
@@ -198,7 +197,6 @@ ms.lasthandoff: 05/08/2018
 [Создание заявки на потребление (проводник по задаче)](tasks/create-requisition-consumption.md)
 
 [Workflow-процесс заявок на покупку](purchase-requisitions-workflow.md)
-
 
 
 

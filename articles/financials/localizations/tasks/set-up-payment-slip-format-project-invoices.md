@@ -1,13 +1,13 @@
---- 
-title: "Настройка формата платежной квитанции для накладных проекта"
-description: "Компании обычно вкладывают распечатанные платежные квитанции к накладным, чтобы помочь клиентам и предоставить ссылку на платеж для разноски и сопоставления."
+---
+title: Настройка формата платежной квитанции для накладных проекта
+description: Компании обычно вкладывают распечатанные платежные квитанции к накладным, чтобы помочь клиентам и предоставить ссылку на платеж для разноски и сопоставления.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntity, CustFormletterParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b365585e884749bb73f8ba9054e446f210e10f37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9700571110a1b488e250dd8ee7b8c5c8f15cbc01
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345613"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Настройка формата платежной квитанции для накладных проекта
 
@@ -65,5 +65,4 @@ ms.lasthandoff: 09/29/2017
     * Нет — не печатать платежную квитанцию. Выберите этот параметр, если сумма платежа представлена в валюте, отличной от датских крон (DKK).   FIK 751 — печать платежной квитанции FIK 751, если планируется вручную указать сумму оплаты и срок оплаты на платежной квитанции.   FIK 752 — печать платежной квитанции FIK 752, если планируется использовать созданную системой платежную квитанцию с уже распечатанными суммой оплаты и сроком.  
 16. Нажмите кнопку "Сохранить".
 17. Закройте страницу.
-
 

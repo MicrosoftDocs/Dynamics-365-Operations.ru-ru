@@ -1,13 +1,13 @@
 ---
-title: "Сопоставление элементов аналитики элемента затрат с общим набором элементов аналитики"
-description: "Сопоставив различные члены аналитики элемента затрат общему набору членов аналитики элемента затрат, можно объединить данные в общий формат для целей анализа."
+title: Сопоставление элементов аналитики элемента затрат с общим набором элементов аналитики
+description: Сопоставив различные члены аналитики элемента затрат общему набору членов аналитики элемента затрат, можно объединить данные в общий формат для целей анализа.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e5c9387d74443ec6ca5dc70ad923b67f962181dc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6f2384155a07d17004c640160aee90b1e8bdb9f8
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318151"
 ---
-
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Сопоставление элементов аналитики элемента затрат с общим набором элементов аналитики
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="update-mappings-at-any-time"></a>Обновление сопоставлений в любое время
 Можно обновить определения сопоставления для аналитики элемента затрат в любое время. Поскольку сопоставления не имеют даты вступления в силу, изменения будут применены в следующий раз, когда будут обрабатываться проводки затрат или выполняться расчеты затрат.
-
 
 
 

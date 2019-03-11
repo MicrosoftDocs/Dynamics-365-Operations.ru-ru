@@ -1,13 +1,13 @@
 ---
-title: "Управление складом"
-description: "Управление складом используется для отслеживания и автоматизации процессов склада."
+title: Управление складом
+description: Управление складом используется для отслеживания и автоматизации процессов склада.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7c9613070e077bced4b272b136985de5f4ddbdd0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc039b3c35c9ff8f40bf671e523104031c598171
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335263"
 ---
 # <a name="warehouse-management"></a>Управление складом
 
 [!include [banner](../includes/banner.md)]
 
-Модуль "Управление складом" для Dynamics 365 for Finance and Operations позволяет управлять складскими процессами в производственных, дистрибьюционных и розничных компаниях. Этот модуль имеет самые разнообразные функции для поддержки оборудования склада оптимального уровня, в любое время. Модуль "Управление складом" полностью интегрирован с другими бизнес-процессами в Finance and Operations, такими как транспортировка, производство, контроль качества, закупки, перемещение, продажи и возвраты.
+Модуль управления складом для Dynamics 365 for Finance and Operations позволяет управлять процессами склада в производственных компаниях, компаниях-дистрибьюторах и компаниях розничной торговли. Этот модуль имеет самые разнообразные функции для поддержки оборудования склада оптимального уровня, в любое время. Модуль "Управление складом" полностью интегрирован с другими бизнес-процессами в Finance and Operations, такими как транспортировка, производство, контроль качества, закупки, перемещение, продажи и возвраты.
 
 ## <a name="get-started"></a>Начало работы
 Для начала работы с модулем "Управление склада" необходимо выполнить настройку общих параметров склада в соответствии с бизнес-процессами в вашей компании.
@@ -66,12 +66,11 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 ### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
-Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы просмотреть новые функции, которые уже выпущены и которые все еще находятся в разработке.
+Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке.
 
 ### <a name="blogs"></a>Блоги
-Мнения, новости и другие сведения о модуле "Управление складом" и других решениях см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).
+Мнения, новости и другие сведения об управлении складом и других решениях см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).
 
 
  
-
 

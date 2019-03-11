@@ -1,13 +1,13 @@
 ---
-title: "Поштучное подтверждение комплектации"
-description: "В этом разделе описывается, как настроить и применить поштучное подтверждение комплектации на мобильном устройстве."
+title: Поштучное подтверждение комплектации
+description: В этом разделе описывается, как настроить и применить поштучное подтверждение комплектации на мобильном устройстве.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9b85414dd1385dc3d8c97632eaaeb252759590ff
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5ef9ab68c20ae095de03b0a0e05aa15ef5bf8a5d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349638"
 ---
-
 # <a name="piece-picking-confirmation"></a>Поштучное подтверждение комплектации
 
 [!include [banner](../includes/banner.md)]
@@ -51,5 +50,4 @@ ms.lasthandoff: 11/03/2017
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Поштучное подтверждение комплектации | Доступно для типов работы "комплектация" и "инвентаризация". Подтверждение продукта устанавливается автоматически. Позволяет подтверждать каждую штуку запасов с мобильного устройства. |
 |  Максимальное число штук  |                   Доступно для типа работы "комплектация", если включено подтверждение комплектации. Устанавливает ограничение на количество штук, которые необходимо подтвердить.                   |
-
 

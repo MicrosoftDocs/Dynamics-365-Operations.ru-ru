@@ -1,31 +1,30 @@
 ---
-title: "Получение частичных поставок возврата"
-description: "Частичные поставки определяются в терминах строк заказа на возврат, а не отгрузок по заказам на возврат."
+title: Получение частичных поставок возврата
+description: Частичные поставки определяются в терминах строк заказа на возврат, а не отгрузок по заказам на возврат.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2b7bfad1e0d80675848353d4118960d44f2dc01
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f9f596d31f2438a353b02bf939786b284937db86
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363921"
 ---
-
 # <a name="receive-partial-deliveries-of-returned-items"></a>Получение частичных поставок возврата    
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ ms.lasthandoff: 05/08/2018
 4.  В поле **Разбить количество** введите количество, отражающее общее число полученных номенклатур, а затем нажмите кнопку **OK**.
 
 5.  В форме **Строки журнала, местоположения** выберите строку для прибывшего количества номенклатур, а затем щелкните **Разнести**. После прибытия номенклатур можно разнести строку для дополнительного количества.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Объединение модели стоимости основных средств и журнала амортизации"
-description: "В предыдущих выпусках имелось две концепции оценки для основных средств — модели стоимости и журналы амортизации. В Microsoft Dynamics 365 for Operations (1611) функция модели стоимости и функция журнала амортизации были объединены в одно понятие книги."
+title: Объединение модели стоимости основных средств и журнала амортизации
+description: В предыдущих выпусках имелось две концепции оценки для основных средств — модели стоимости и журналы амортизации. В Microsoft Dynamics 365 for Operations (1611) функция модели стоимости и функция журнала амортизации были объединены в одно понятие книги.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 26f4b73f67064a83eb7b3d57f2dc98d90602c254
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ef31b63dd253ab5b436a65385e248c4753abf1e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342531"
 ---
-
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Объединение модели стоимости основных средств и журнала амортизации
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="upgrade"></a>Обновить
 В процессе обновления ваша существующая настройка и все ваши существующие проводки будут перемещены в структуру новой книги. Модели стоимости будут оставаться как есть на данный момент в качестве книги, которая выполняет разноску в главную книгу. Однако журналы амортизации будет перемещены в книгу, в которой для параметра **Разноска в главную книгу** задано значение **Нет**. Имена журналов амортизации будут перемещены в имя журнала ГК, в котором для слоя разноски установлено значение **Нет**.
-
 
 
 

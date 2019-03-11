@@ -1,13 +1,13 @@
 ---
-title: "Категории затрат, используемые в производственной маршрутизации"
-description: "Эта статья содержит информацию о категориях затрат, применяемых для производств, в которых используется маршрутизация."
+title: Категории затрат, используемые в производственной маршрутизации
+description: Эта статья содержит информацию о категориях затрат, применяемых для производств, в которых используется маршрутизация.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 90177a6b8dd277ba1180073c9cf416f857c5d730
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 53e038183a10b8732a9a5e0f25aac440c224400e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315805"
 ---
-
 # <a name="cost-categories-used-in-production-routing"></a>Категории затрат, используемые в производственной маршрутизации
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,6 @@ ms.lasthandoff: 11/03/2017
 Обычно операции маршрутизации присваиваются те же категории затрат, которые назначены операционному ресурсу или образцовой операции. При создании производственного заказа маршрутные операции в рамках маршрута производства отображают выбранную версию маршрута. Можно отказаться от категорий затрат, назначенных операциям в рамках маршрута производства. 
 
 Некоторые типы производственных работ могут применяться к оценкам времени и отчетам проекта. В этом случае категория затрат необходима для целей производства и для целей проекта. Связанную с проектом дополнительную информацию необходимо определить, когда категория затрат помечается как категория для использования в проектах.
-
 
 
 

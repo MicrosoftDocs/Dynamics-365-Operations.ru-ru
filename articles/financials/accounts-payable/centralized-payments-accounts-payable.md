@@ -1,13 +1,13 @@
 ---
-title: "Централизованные платежи по расчетам с поставщиками"
-description: "Организации, состоящие из нескольких юридических лиц, могут создавать платежи и управлять ими, используя одно юридическое лицо, обрабатывающее все платежи. Поэтому такие же платежи нет необходимости вводить для нескольких юридических лиц. В этой статье приводятся примеры, которые показывают, как разноска для централизованных платежей обрабатывается в различных сценариях."
+title: Централизованные платежи по расчетам с поставщиками
+description: Организации, состоящие из нескольких юридических лиц, могут создавать платежи и управлять ими, используя одно юридическое лицо, обрабатывающее все платежи. Поэтому такие же платежи нет необходимости вводить для нескольких юридических лиц. В этой статье приводятся примеры, которые показывают, как разноска для централизованных платежей обрабатывается в различных сценариях.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e6744aae97499385405e192cd6d6cb8590dd79b7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 54329582abd36a8ca896ce731ce06ca4de58bbb0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327075"
 ---
-
 # <a name="centralized-payments-for-accounts-payable"></a>Централизованные платежи по расчетам с поставщиками
 
 [!include [banner](../includes/banner.md)]
@@ -297,7 +296,6 @@ ms.lasthandoff: 11/03/2017
 | Задолженность Fabrikam (Fabrikam Запад      |              | 75,00         |
 | Расчеты с поставщиками (Fabrikam Запад)     | 25,00        |               |
 | Задолженность Fabrikam Восток (Fabrikam Запад) |              | 25,00         |
-
 
 
 

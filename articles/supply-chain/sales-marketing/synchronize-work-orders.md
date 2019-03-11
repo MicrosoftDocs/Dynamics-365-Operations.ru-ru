@@ -1,37 +1,36 @@
 ---
-title: "Синхронизация заказов на выполнение работ Finance and Operations с Field Service"
-description: "В этой теме обсуждаются шаблоны и базовая задача, которые используются для синхронизации заказов на выполнение работ с номером проекта из Microsoft Dynamics 365 for Field Service с Microsoft Dynamics 365 for Finance and Operations."
+title: Синхронизация заказов на выполнение работ с проектом из Field Service с Finance and Operations
+description: В этой теме обсуждаются шаблоны и базовая задача, которые используются для синхронизации заказов на выполнение работ с номером проекта из Microsoft Dynamics 365 for Field Service в Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 12/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
+ms.openlocfilehash: 6b61411a5a235e2d0aad8bb25ae4a3bfcf1248d1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
-ms.openlocfilehash: f5bd6b8c554688d0d1b2bfd93a34a60a95412bf3
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/20/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329858"
 ---
-
 # <a name="synchronize-work-orders-with-project-from-field-service-to-finance-and-operations"></a>Синхронизация заказов на выполнение работ с проектом из Field Service с Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме обсуждаются шаблоны и базовая задача, которые используются для синхронизации заказов на выполнение работ с номером проекта из Microsoft Dynamics 365 for Field Service с Microsoft Dynamics 365 for Finance and Operations.
+В этой теме обсуждаются шаблоны и базовая задача, которые используются для синхронизации заказов на выполнение работ с номером проекта из Microsoft Dynamics 365 for Field Service в Microsoft Dynamics 365 for Finance and Operations.
 
 [![Синхронизация бизнес-процессов между Finance and Operations и Field Service](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 12/20/2018
 
 В этом разделе описываются только различия между шаблонами **Продукты Field Service (из Finance and Operations в Field Service)** и **Продукты (из Finance and Operations в Field Service) — напрямую**.
 
-Основное различие заключается в том, что этот шаблон включает сопоставление номера проекта, назначенного заказу на выполнение работ в Field Service, гарантируя, что заказ на продажу, созданный в Finance and Operations, содержит этот номер проекта, а также что выставление накладных будет возможно для связанного проекта. Помимо этого, шаблон использует расширенные запросы и фильтрацию.
+Основное различие заключается в том, что этот шаблон включает сопоставление номера проекта, назначенного заказу на выполнение работ в Field Service, гарантируя, что заказ на продажу, созданный в Finance and Operations, содержит этот номер проекта, а также что выставление накладных будет возможно для связанного проекта. Помимо этого, шаблон использует расширенные запросы и фильтрацию.
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
 
@@ -76,4 +75,3 @@ ms.lasthandoff: 12/20/2018
 ### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderservice"></a>Заказы на выполнение работ с проектом (из Field Service в Finance and Operations): WorkOrderService
 
 [![Сопоставление шаблона в интеграции данных](./media/FSWOP4.png)](./media/FSWOP4.png)
-

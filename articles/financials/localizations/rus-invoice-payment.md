@@ -1,28 +1,27 @@
 ---
-title: "Счета на оплату (Россия)"
-description: "В этой теме поясняется, как разносить и печатать счета на оплату в Microsoft Dynamics 365 for Finance and Operations в России."
+title: Счета на оплату (Россия)
+description: В этой теме поясняется, как разносить и печатать счета на оплату в Microsoft Dynamics 365 for Finance and Operations в России.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 77d54fe01075e125eae738fb4f8fc46d31ebaa09
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 97086e49206d0b2a328744fd501e87226f1d3077
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371743"
 ---
-
 # <a name="invoices-for-payment-russia"></a>Счета на оплату (Россия)
 [!include [banner](../includes/banner.md)]
 
@@ -125,4 +124,3 @@ ms.lasthandoff: 10/23/2018
 8.  Задайте для параметра **Печатать счет на оплату** значение **Да**, чтобы распечатать счет на оплату после разноски.
 
 9.  Щелкните **ОК**, чтобы разнести накладную для платежа. Можно просмотреть сведения о разнесенной накладной в списке страницы **Журнал счетов на оплату** (в области действий **Покупка** щелкните **Журналы** \> **Счет на оплату**).
-

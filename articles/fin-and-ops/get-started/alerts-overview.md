@@ -1,13 +1,13 @@
 ---
-title: "Оповещения"
-description: "В этой теме представлены общие сведения об оповещениях в Microsoft Dynamics 365 for Finance and Operations. Можно пользоваться оповещениями, чтобы знать о событиях, которые вы хотите отслеживать в течение рабочего дня."
+title: Оповещения
+description: В этой теме представлены общие сведения об оповещениях в Microsoft Dynamics 365 for Finance and Operations. Можно пользоваться оповещениями, чтобы знать о событиях, которые вы хотите отслеживать в течение рабочего дня.
 author: tjvass
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367463"
 ---
-
 # <a name="alerts"></a>Оповещения
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="about-alerts"></a>Об оповещениях
-Оповещения образуют систему уведомлений для критически важных событий в Microsoft Dynamics 365 for Finance and Operations. Можно пользоваться оповещениями, чтобы знать о событиях, которые вы хотите отслеживать в течение рабочего дня. Можно легко создать свой набор правил оповещения, чтобы получать оповещения о просроченных поставках, удаленных заказах, изменении цен и других событиях, на которые требуется реагировать.
+Оповещения в системе уведомлений для критически важных событий в Microsoft Dynamics 365 for Finance and Operations. Можно пользоваться оповещениями, чтобы знать о событиях, которые вы хотите отслеживать в течение рабочего дня. Можно легко создать свой набор правил оповещения, чтобы получать оповещения о просроченных поставках, удаленных заказах, изменении цен и других событиях, на которые требуется реагировать.
 
 В системе планирования ресурсов предприятия (ERP) существует несколько типичных сценариев, где можно использовать функцию оповещений в Finance and Operations. Далее приводятся некоторые примеры.
 
@@ -78,4 +77,3 @@ ms.lasthandoff: 08/09/2018
 ## <a name="email-notifications-from-alerts"></a>Уведомления по электронной почте из оповещений
 
 Уведомления по электронной почте из оповещений еще не включены. Это будет включено в будущем обновлении.
-

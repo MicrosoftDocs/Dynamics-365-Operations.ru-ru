@@ -1,13 +1,13 @@
 ---
-title: "Пакетная обработка оповещений"
-description: "В этой теме представлены сведения о пакетной обработке оповещениях в Microsoft Dynamics 365 for Finance and Operations."
+title: Пакетная обработка оповещений
+description: В этой теме представлены сведения о пакетной обработке оповещений в Microsoft Dynamics 365 for Finance and Operations.
 author: tjvass
 manager: AnnBe
 ms.date: 06/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 482cf30b4f82e8801ebc12e3925c1efb09f7eb1e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 74db212b2086bd7c94825d8a52d9a8b86ea7b739
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341933"
 ---
-
 # <a name="batch-processing-of-alerts"></a>Пакетная обработка оповещений
 
 [!include [banner](../includes/banner.md)]
 
-Оповещения обрабатываются функцией пакетной обработки в Microsoft Dynamics 365 for Finance and Operations. Необходимо настроить пакетную обработку, прежде чем станет возможна доставка оповещений.
+Оповещения обрабатываются при помощи функции пакетной обработки в Microsoft Dynamics 365 for Finance and Operations. Необходимо настроить пакетную обработку, прежде чем станет возможна доставка оповещений.
 
 Finance and Operations поддерживает два типа событий:
 
@@ -84,4 +83,3 @@ Finance and Operations определяет все события, причин�
 
 1. Выберите **Администрирование системы** &gt; **Периодические задачи** &gt; **Оповещения** &gt; **Оповещения о сроке выполнения**.
 2. В диалоговом окне **Оповещения о сроке выполнения** введите соответствующую информацию.
-

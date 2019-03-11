@@ -1,13 +1,13 @@
 ---
-title: "Мобильная рабочая область запасов в наличии"
-description: "В этом разделе содержится информация о мобильной рабочей области запасов в наличии. Эта рабочая область помогает получать ценные мобильные сведения о зарезервированных и доступных запасах в любое время и в любом месте."
+title: Мобильная рабочая область запасов в наличии
+description: В этом разделе содержится информация о мобильной рабочей области запасов в наличии. Эта рабочая область помогает получать ценные мобильные сведения о зарезервированных и доступных запасах в любое время и в любом месте.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: e2a99476da7ce3feab1d2c37e8510f0042cf4b63
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 735a25d625774892ff71d4799932f15c258dfbfa
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335608"
 ---
-
 # <a name="inventory-on-hand-mobile-workspace"></a>Мобильная рабочая область запасов в наличии
 
 [!include [banner](../includes/banner.md)]
 
 В этом разделе содержится информация о **мобильной рабочей области запасов в наличии**. Эта рабочая область помогает получать ценные сведения о зарезервированных и доступных запасах в любое время и в любом месте.
 
-Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations.
+Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Обзор
 Как правило, компании имеют несколько отгрузок и несколько приходов запасов ежедневно. Эти движения постоянно изменяют статус запасов в наличии. Мобильная рабочая область **Запасы в наличии** позволяет увидеть статус запасов в наличии между компаниями, чтобы можно было получать последние данные о запасах на мобильном устройстве по вашему выбору. Независимо от того, работаете ли вы на складе, в отделе закупок, в отделе продаж, на производстве, в руководстве или выполняете другие роли, данные о наличных запасах доступны вам в любое время и в любом месте. 
@@ -62,8 +61,8 @@ ms.lasthandoff: 03/26/2018
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations 
 Если в вашей организации развернута система Microsoft Dynamics 365 for Finance and Operations, системный администратор должен опубликовать мобильную рабочую область **Запасы в наличии**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии.
-Если в вашей организации развернута Microsoft Dynamics 365 for Operations версии 1611 с платформой обновления 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии
+Если в вашей организации развернута система Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
 
 <table>
 <thead>
@@ -99,7 +98,7 @@ ms.lasthandoff: 03/26/2018
 
 Загрузите и установите мобильное приложение Dynamics 365 for Unified Operations:
 
--   [Для ОС Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Войдите в систему в мобильном приложении
@@ -131,4 +130,3 @@ ms.lasthandoff: 03/26/2018
     -   По физическим запасам (Это представление показывает общее количество.)
     -   По физически зарезервированным запасам (Это представление показывает зарезервированное количество.)
     -   По доступным физическим запасам (Это представление показывает доступное количество, которое не было зарезервировано.)
-

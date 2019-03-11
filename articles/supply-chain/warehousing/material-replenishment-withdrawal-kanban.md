@@ -1,32 +1,31 @@
 ---
-title: "Пополнение канбанами изъятия"
-description: "В этом разделе описывается использование канбана изъятия для пополнения материалов для производственных мероприятий."
+title: Пополнение канбанами изъятия
+description: В этом разделе описывается использование канбана изъятия для пополнения материалов для производственных мероприятий.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7fe3ebe3c27c380d95cbc12b864264e9538d433f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 011da8cd894cc044b6af8b740e49ed8d7c3c0c67
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320934"
 ---
-
 # <a name="replenishment-with-withdrawal-kanbans"></a>Пополнение канбанами изъятия
 
 [!include [banner](../includes/banner.md)]
@@ -87,5 +86,4 @@ ms.lasthandoff: 11/03/2017
 6.  Производственный процесс
 
 После потребления канбана в местонахождении получения из производства канбан регистрируется как пустой и новый канбан добавляется в поток. При создании канбана строка волны добавляется к волне канбана. При обработке волны канбана создается работа склада для комплектации канбана. Работник склада обрабатывает работу для комплектации канбана и направляется работой на комплектацию материала для канбана в местонахождении склада. Когда работник склада подтверждает комплектацию, канбан автоматически выполняется, и работник склада направляется на комплектацию материала в местонахождение получения из производства.
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Электронная отчетность — Отправка конфигурации в Lifecycle Services"
-description: "В следующих шагах поясняется, как пользователь с ролью \"Системный администратор\" или \"Разработчик электронной отчетности\" может создать новую конфигурацию электронной отчетности и отправить ее в Microsoft Lifecycle Services (LCS)."
+---
+title: Электронная отчетность — Отправка конфигурации в Lifecycle Services
+description: В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может создать новую конфигурацию электронной отчетности и отправить ее в Microsoft Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 19ae8820e5d4a798a5789e9632edb431fe9fede4
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335102"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>Электронная отчетность — Отправка конфигурации в Lifecycle Services
 
@@ -94,5 +94,4 @@ ms.lasthandoff: 09/14/2018
     * Выберите репозиторий LCS и откройте его.  
     * Обратите внимание, что выбранная конфигурация отображается как актив выбранного проекта LCS.  
     * Откройте LCS с помощью https://lcs.dynamics.com. Откройте проект, который использовался ранее для регистрации репозитория, откройте библиотеку активов данного проекта и разверните содержимое типа актива "Конфигурация GER". Отправленная конфигурация электронной отчетности станет доступна. Обратите внимание, что отправленную конфигурацию LCS можно импортировать в другой экземпляр Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, если поставщики имеют доступ к этому проекту LCS.  
-
 

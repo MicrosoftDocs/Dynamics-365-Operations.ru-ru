@@ -1,13 +1,13 @@
 ---
-title: "Амортизация с уменьшаемым остатком в 125%"
-description: "Эта статья содержит обзор метода амортизации с уменьшаемым остатком в 125%."
+title: Амортизация с уменьшаемым остатком в 125%
+description: Эта статья содержит обзор метода амортизации с уменьшаемым остатком в 125%.
 author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f7af5413376a98c3b2b7ded46c757c9156a3fadf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ec88d799c44e035b6490861383557f8c3beda41
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362725"
 ---
-
 # <a name="125-percent-reducing-balance-depreciation"></a>Амортизация с уменьшаемым остатком в 125%
 
 [!include [banner](../includes/banner.md)]
@@ -85,8 +84,7 @@ ms.lasthandoff: 11/03/2017
 | 3-й год | 5625 × 25% = 1406,25                        | (6625 – 1406,25) = 5218,75 | (5625 – 1406,25) = 4218,75         |
 
 > [!NOTE] 
-> Обычно если сумма, которая вычислена с помощью метода амортизации с уменьшаемым сальдо в 125%, становится меньше суммы, которая была бы получена при использовании метода прямой линии, производится переход на метод прямой линии на оставшийся срок службы.
-
+> Обычно если сумма, которая вычислена с помощью метода амортизации с уменьшаемым сальдо в 125%, становится меньше суммы, которая была бы получена при использовании метода прямой линии, производится переход на метод прямой линии на оставшийся срок службы.
 
 
 

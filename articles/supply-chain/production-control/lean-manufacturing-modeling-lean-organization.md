@@ -1,13 +1,13 @@
 ---
-title: "Моделирование бережливой организации"
-description: "Статья представляет информацию о ключевых понятиях в моделировании бережливый организации."
+title: Моделирование бережливой организации
+description: Статья представляет информацию о ключевых понятиях в моделировании бережливый организации.
 author: cvocph
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 92cd1ea0a6ab6039da7074e032e0f78dd7443cba
 ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350995"
 ---
-
 # <a name="modeling-a-lean-organization"></a>Моделирование бережливой организации
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,6 @@ ms.lasthandoff: 09/24/2018
 
 ## <a name="simplicity"></a>Простота
 Для реализации бережливого производства мы выбрали подход, основанный на производственном потоке и мероприятиях, который позволяет моделировать и простые, и сложные производственные сценарии в рамках единой масштабируемой архитектуры. При более тщательном рассмотрении концепции мероприятий очевидной становится простота для тех пользователей, которым она нужна: работников цеха и логистических работников. За счет отчетности по заданиям, основанным на мероприятиях, а не проводкам по запасам, и унифицированного пользовательского интерфейса для всех вариантов бережливого производства сложность переносится из пользовательского интерфейса туда, где ей место: в производственный поток как основу бережливого производства.
-
 
 
 

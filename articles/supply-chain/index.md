@@ -1,36 +1,35 @@
 ---
-title: "Домашняя страница модуля \"Управление цепочкой поставок\""
-description: "На этой странице представлен список разделов справки и других ресурсов по функциям управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations."
+title: Домашняя страница модуля "Управление цепочкой поставок"
+description: На этой странице представлен список тем справки и другие ресурсы для функций управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302807"
 ---
-
 # <a name="supply-chain-management-home-page"></a>Домашняя страница модуля "Управление цепочкой поставок"
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе содержится список разделов справки и других ресурсов по функциям управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations. 
+В этой теме представлен список тем справки и другие ресурсы для функций управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations. 
 
 ## <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 Перейдите в раздел <a href="https://roadmap.dynamics.com/">Дорожная карта Dynamics 365</a>, чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке. 
@@ -53,17 +52,17 @@ ms.lasthandoff: 05/09/2018
 
 ## <a name="videos"></a>Видео
 
-Эти небольшие видеоролики помогут познакомиться с новыми функциями Microsoft Dynamics 365 for Finance and Operations версии 8.0 (апрель 2018 года).
+Эти небольшие видеоролики помогут познакомиться с новыми функциями Microsoft Dynamics 365 for Finance and Operations версии 8.0 (апрель 2018).
 
 - [Синхронизация заказа на выполнение работ между Field Service и Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
-Эти небольшие видеоролики помогут познакомиться с новыми функциями Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (декабрь 2017 года).
+Эти небольшие видеоролики помогут познакомиться с новыми функциями Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, версии 7.3 (апрель 2017).
 
 -  [Интеграции решения "Перспективный клиент в наличные деньги"](https://youtu.be/AVV9x5x-XCg) 
 -  [Помощник по оптимизации](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 -  [Использование шаблона склада для копирования конфигурации](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Эти небольшие видеоролики помогут познакомиться с новыми функциями Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 года).
+Эти небольшие видеоролики помогут познакомиться с новыми функциями Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017).
 
 -  [Начало работы с учетом затрат](https://youtu.be/1pUDtJQZ8FU)
 -  [Мобильная рабочая область управления затратами](https://youtu.be/imsuTg8rUVk)
@@ -115,6 +114,5 @@ ms.lasthandoff: 05/09/2018
 
 ## <a name="elearning-courses"></a>Курсы eLearning
 Сведения об обучении Microsoft Dynamics 365 for Finance and Operations см. на <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">портале по обучению Microsoft Dynamics</a>. (требуется учетная запись CustomerSource) 
-
 
 

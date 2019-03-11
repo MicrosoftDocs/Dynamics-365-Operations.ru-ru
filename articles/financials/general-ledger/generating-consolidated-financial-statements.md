@@ -1,14 +1,14 @@
 ---
-title: "Формирование консолидированных финансовых отчетов"
-description: "В этой теме описываются различные сценарии, в которых возможно формирование консолидированных финансовых отчетов."
+title: Формирование консолидированных финансовых отчетов
+description: В этой теме описываются различные сценарии, в которых возможно формирование консолидированных финансовых отчетов.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 2a9ceb774a8f205e39abe6a12a0deb69dd4cb69b
 ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355204"
 ---
-
 # <a name="generate-consolidated-financial-statements"></a>Формирование консолидированных финансовых отчетов
 
 [!include [banner](../includes/banner.md)]
@@ -225,4 +224,3 @@ ms.lasthandoff: 08/20/2018
 Дополнительные сведения о консолидации и пересчете валют см. в родительской теме этой темы: [Финансовые консолидации и пересчет валют](./financial-consolidations-currency-translation.md).
 
 Дополнительные сведения о том, как вводить информацию для интерактивной консолидации, см. в разделе [Консолидировать интерактивно](./consolidate-online.md).
-

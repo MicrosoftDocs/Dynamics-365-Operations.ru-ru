@@ -1,13 +1,13 @@
---- 
-title: "Изменение группы ОС"
-description: "Основные средства должны быть назначены правильной группе основных средств."
+---
+title: Изменение группы ОС
+description: Основные средства должны быть назначены правильной группе основных средств.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetChangeGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 32f1daa6de6034d123b1f2cf732059759f6c10ae
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 91dcefe92370733f6558292b195881993f1b71be
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358263"
 ---
 # <a name="change-a-fixed-asset-group"></a>Изменение группы ОС
 
@@ -45,5 +45,4 @@ ms.lasthandoff: 09/29/2017
     * Поле "Инв. номер ОС" доступно, если выбран параметр "Новый инвентарный номер ОС".   Если для основных средств настроена автоматическая нумерация, в этом поле отображается следующий доступный номер ОС. Этот номер можно изменить.   Если настроена нумерация вручную, это поле остается пустым, и следует ввести новый номер ОС.     
 6. Нажмите кнопку "OК".
 7. Щелкните Да.
-
 

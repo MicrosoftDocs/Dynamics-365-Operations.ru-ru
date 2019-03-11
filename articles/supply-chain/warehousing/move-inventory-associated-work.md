@@ -1,13 +1,13 @@
 ---
-title: "Перемещение запасов со связанной работой в Управлении складом"
-description: "В этом разделе описывается, как настроить и применить поштучное подтверждение комплектации на мобильном устройстве."
+title: Перемещение запасов со связанной работой в Управлении складом
+description: В этом разделе описывается, как настроить и применить поштучное подтверждение комплектации на мобильном устройстве.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorker
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 618942ff22b6a81c75bd472955e4add14e6f4d84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7b330d6aa8e972d3c35bb7783ec0a39f09775011
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347660"
 ---
-
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>Перемещение запасов со связанной работой в Управлении складом
 
 [!include [banner](../includes/banner.md)]
@@ -59,5 +58,4 @@ ms.lasthandoff: 11/03/2017
 
 Для этой функции поддерживается обратная совместимость с Microsoft Dynamics AX 2012 R3, она будет входить в состав CU12.
 Ее можно также загрузить отдельно по номеру статьи базы знаний 3192548. 
-
 

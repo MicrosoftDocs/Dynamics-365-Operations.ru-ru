@@ -1,13 +1,13 @@
 ---
-title: "Кредитные лимиты для клиентов"
-description: "Эта статья содержит обзор функционирования кредитных лимитов в Microsoft Dynamics 365 for Finance and Operations."
+title: Кредитные лимиты для клиентов
+description: Эта статья содержит обзор функционирования кредитных лимитов в Microsoft Dynamics 365 for Finance and Operations.
 author: omulvad
 manager: AnnBe
 ms.date: 09/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8fd7022eb1ed2671fcfc2861eb8ec7504ebf9f98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e00828ea24434da6dfd7443153b007ea728375f3
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312677"
 ---
-
 # <a name="credit-limits-for-customers"></a>Кредитные лимиты для клиентов
 
 [!include [banner](../includes/banner.md)]
@@ -139,4 +138,3 @@ ms.lasthandoff: 11/03/2017
 1.  Выберите **Продажи и маркетинг** \> **Общее** \> **Заказы на продажу** \> **Все заказы на продажу**. Щелкните дважды по заказу на продажу.
 
 2.  В форме **Заказ на продажу** в области действий на вкладке **Управление** нажмите **Проверка кредитного лимита**.
-

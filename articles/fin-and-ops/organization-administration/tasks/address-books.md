@@ -1,13 +1,13 @@
---- 
-title: "Настройка адресных книг"
-description: "Используйте эту процедуру и решения, принятые в разделе \"Планирование конфигурации глобальной адресной книги и дополнительных адресных книг\", чтобы настроить дополнительные адресные книги для вашей организации."
+---
+title: Настройка адресных книг
+description: Используйте эту процедуру и решения, принятые в разделе "Планирование конфигурации глобальной адресной книги и дополнительных адресных книг", чтобы настроить дополнительные адресные книги для вашей организации.
 author: kfend
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 325e3974cb38afea46c2f735165ee2fd1a6a22ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: e633b35cdd5441f7f9d1c1465dbc468e047cdee5
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353226"
 ---
 # <a name="configure-address-books"></a>Настройка адресных книг
 
@@ -41,5 +41,4 @@ ms.lasthandoff: 09/29/2017
 6. В списке найдите и выберите требуемую запись.
 7. Щелкните стрелку, чтобы добавить в адресную книгу выбранные доступные группы.
 8. Нажмите кнопку "Сохранить".
-
 

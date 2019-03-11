@@ -1,13 +1,13 @@
 ---
-title: "Создание отчетов по закону Affordable Care (ACA)"
-description: "Предусмотрена функциональность для помощи работодателям, которым необходимо отслеживать информацию в отчетах по формах 1095 B и 1095-C для выполнения предписаний для работодателей (Employer Mandate), предусмотренных законом Affordable Care. Обратите внимание, что эта функциональность включена только для компаний в США."
+title: Создание отчетов по закону Affordable Care (ACA)
+description: Предусмотрена функциональность для помощи работодателям, которым необходимо отслеживать информацию в отчетах по формах 1095 B и 1095-C для выполнения предписаний для работодателей (Employer Mandate), предусмотренных законом Affordable Care. Обратите внимание, что эта функциональность включена только для компаний в США.
 author: kherr75
 manager: AnnBe
 ms.date: 12/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
 ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305942"
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Создание отчетов по закону Affordable Care (ACA)
 
@@ -70,4 +70,3 @@ ms.lasthandoff: 12/17/2018
 Если необходимо вставить в отчет, покрытых страховкой лиц, поскольку работодатель предлагает самостоятельное покрытие, можно также просмотреть иждивенцев, на которых распространяются планы льгот, которые были помечены как **Для отчета ACA**, выбрав действие "Просмотр покрытия иждивенца" на полосе области действий.
 
 **Примечание:** только льготы, план которых был помечен как **Для отчета ACA** будет отображаться в окне запроса.
-

@@ -1,13 +1,13 @@
 ---
-title: "Параметры приложения POS и языка пользователя"
-description: "В этом разделе описано изменение настроек языка в Retail Modern POS (MPOS) и Cloud POS."
+title: Параметры приложения POS и языка пользователя
+description: В этом разделе описано изменение настроек языка в Retail Modern POS (MPOS) и Cloud POS.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: faf8cdcee70b55842072298b51789f6cd7a577af
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336758"
 ---
-
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Параметры приложения POS и языка пользователя
 
 [!include [banner](includes/banner.md)]
@@ -67,4 +66,3 @@ Retail Modern POS (MPOS) и Cloud POS поддерживают среды, в к
 | **Компания** | По умолчанию                    | По умолчанию                                                       |
 | **Магазин**   | Переопределяет компанию          | Переопределяет компанию                                             |
 | **Пользователь**    | Переопределяет магазин или компанию | Никогда                                                         |
-

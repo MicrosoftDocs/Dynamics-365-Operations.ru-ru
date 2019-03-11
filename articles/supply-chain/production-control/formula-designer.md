@@ -1,32 +1,31 @@
 ---
-title: "Конструктор формул"
-description: "В этом разделе описывается использование конструктора формул для анализа и поддержания формул в виде дерева."
+title: Конструктор формул
+description: В этом разделе описывается использование конструктора формул для анализа и поддержания формул в виде дерева.
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 31a46230251be3a654092a4acc05a404533001b2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
-ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348511"
 ---
-
 # <a name="formula-designer"></a>Конструктор формул
 
 [!include [banner](../includes/banner.md)]
@@ -121,5 +120,4 @@ ms.lasthandoff: 04/13/2018
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     Спецификация     | Используйте флажки, чтобы выбрать критерии, которые показываются в древовидной структуре. Выбранные критерии отображаются в нижней части обеих вкладок конструктора формул. |
 |    Маршрут    |                                           Используйте флажки, чтобы выбрать критерии, которые показываются для маршрутов.                                           |
-
 

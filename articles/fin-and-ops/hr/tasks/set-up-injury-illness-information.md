@@ -1,13 +1,13 @@
---- 
-title: "Настройка информации о травмах и заболеваниях"
-description: "Работодателям необходимо знать о случаях травм или заболеваний работников в связи с источниками опасности на их рабочих местах."
+---
+title: Настройка информации о травмах и заболеваниях
+description: Работодателям необходимо знать о случаях травм или заболеваний работников в связи с источниками опасности на их рабочих местах.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjurySetup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9fcc924e11ac17b561c5f5840a4fe1b183a8232d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316035"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Настройка информации о травмах и заболеваниях
 
@@ -64,5 +64,4 @@ ms.lasthandoff: 09/14/2018
 22. Перейдите на вкладку "Компетентные органы".
     * Компетентные органы — это агентства, которым следует сообщить об инциденте. Установите флажок по умолчанию для агентства, которое является агентством по умолчанию, которому следует сообщить о травме и заболеваниях.  
 23. Нажмите кнопку "Сохранить".
-
 

@@ -1,32 +1,31 @@
 ---
-title: "Макеты экрана демонстрационных данных в Retail Modern POS (MPOS) и Cloud POS"
-description: "В этом разделе приводятся сведения о макетах экрана, входящих в состав набора демонстрационных данных POS-терминала в Microsoft Dynamics 365 for Retail."
+title: Макеты экрана демонстрационных данных в Retail Modern POS (MPOS) и Cloud POS
+description: В этом разделе приводятся сведения о макетах экрана, входящих в состав набора демонстрационных данных POS-терминала в Microsoft Dynamics 365 for Retail.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352490"
 ---
-
 # <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Макеты экрана демонстрационных данных в Retail Modern POS (MPOS) и Cloud POS
 
 [!include [banner](includes/banner.md)]
@@ -108,7 +107,7 @@ F3MGR
 \* Эти дополнительные размеры макетов доступны только в макетах Adventure Works и Fabrikam.
 
 > [!TIP]
-> POS-терминал автоматически выбирает размеры макета на основании ближайшего размера, доступного для разрешения экрана текущего окна приложения. Чтобы найти код макета экрана и разрешение макета, которые используются в настоящее время, в Retail Modern POS (MPOS) or Retail Cloud POS (CPOS) откройте страницу **Параметры** и смотрите раздел **Сведения о сеансе**. Можно также просмотреть фактическое разрешение окна для текущего приложения или фрейма браузера. Получив эту информацию, можно найти источник содержимого макета в приложении Retail, последовательно выбрав пункты **Настройка канала** \> **Настройка POS** \> **POS** \> **Макеты экрана**.
+> POS-терминал автоматически выбирает размеры макета на основании ближайшего размера, доступного для разрешения экрана текущего окна приложения. Чтобы найти код макета экрана и разрешение макета, которые используются в настоящее время, в Retail Modern POS (MPOS) или Retail Cloud POS (CPOS) откройте страницу **Параметры** и смотрите раздел **Сведения о сеансе**. Можно также просмотреть фактическое разрешение окна для текущего приложения или фрейма браузера. Получив эту информацию, можно найти источник содержимого макета в приложении Retail, последовательно выбрав пункты **Настройка канала** \> **Настройка POS** \> **POS** \> **Макеты экрана**.
 
 ![Макеты экрана и разрешения/размеры макета в Retail и POS-терминале](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -175,4 +174,3 @@ F3MGR
 <!-- Use the [POS Icon and Image Mapping](../retail/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-

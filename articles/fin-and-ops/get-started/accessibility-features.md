@@ -1,33 +1,32 @@
 ---
-title: "Специальные возможности"
-description: "В этом разделе описывается функциональная возможность, призванная помочь пользователям с различными физическими нарушениями использовать Dynamics 365 for Finance and Operations, Dynamics 365 for Retail и Dynamics 365 for Talent."
+title: Специальные возможности
+description: В этом разделе описываются возможности, помогающие пользователям с различными физическими нарушениями использовать Dynamics 365 for Finance and Operations, Dynamics 365 for Retail и Dynamics 365 for Talent.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363415"
 ---
-
 # <a name="accessibility-features"></a>Специальные возможности
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается функциональная возможность, призванная помочь пользователям с различными физическими нарушениями использовать Dynamics 365 for Finance and Operations, Dynamics 365 for Retail и Dynamics 365 for Talent. Например, имеются возможности для людей, использующих вспомогательные технологии при нарушении зрения, такие как экранный диктор Microsoft Windows.
+В этом разделе описываются возможности, помогающие пользователям с различными физическими нарушениями использовать Dynamics 365 for Finance and Operations, Dynamics 365 for Retail и Dynamics 365 for Talent. Например, имеются возможности для людей, использующих вспомогательные технологии при нарушении зрения, такие как экранный диктор Microsoft Windows.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Экранный диктор Windows и доступ только с помощью клавиатуры
 
@@ -97,4 +96,3 @@ ms.lasthandoff: 12/18/2018
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Руководства, помогающие разработчикам и клиентам учитывать специальные возможности при настройке
 
 Дополнительные сведения о рекомендациях корпорации Майкрософт по включению специальных возможностей см. в разделе [Специальные возможности в формах, продуктах и элементах управления](../../dev-itpro/user-interface/enable-accessibility.md).
-

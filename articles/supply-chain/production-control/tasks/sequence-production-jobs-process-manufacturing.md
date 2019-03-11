@@ -1,13 +1,13 @@
---- 
-title: "Определение последовательности производственных заданий для непрерывного производства"
-description: "В этой процедуре используются краски в качестве примера, чтобы показать, как определить последовательность спланированных заказов в соответствии с приоритетом по цвету и размеру упаковки."
+---
+title: Определение последовательности производственных заданий для непрерывного производства
+description: В этой процедуре используются краски в качестве примера, чтобы показать, как определить последовательность спланированных заказов в соответствии с приоритетом по цвету и размеру упаковки.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4e064f55ed451d44f58e60ba0aa722166981c129
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a25a4575ca1600b07b2dac5949c8775bcd162650
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312263"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Определение последовательности производственных заданий для непрерывного производства
 
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
 7. В списке перейдите по ссылке в выбранной строке.
 8. В экспресс-фильтре по полю "Код номенклатуры" выберите значение "P300".
     * Обратите внимание, что заказы теперь упорядочены в соответствии с приоритетом по цвету и размеру и спланированные заказы запускаются на самую раннюю дату заказа и дату поставки. Проверьте столбец "Дата заказа" или "Дата начала" в информационном поле "Сведения о плане".  
-
 

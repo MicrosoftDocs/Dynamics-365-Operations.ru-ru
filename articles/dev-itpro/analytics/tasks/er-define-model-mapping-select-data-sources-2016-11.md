@@ -1,13 +1,13 @@
---- 
-title: "Определение сопоставлений моделей электронной отчетности и выбор источников данных для них"
-description: "В следующих шагах поясняется, как пользователь с ролью \"Системный администратор\" или \"Разработчик электронной отчетности\" может выбрать источники данных для модели данных электронной отчетности."
+---
+title: Определение сопоставлений моделей электронной отчетности и выбор источников данных для них
+description: В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может выбрать источники данных для модели данных электронной отчетности.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5f2f2c699514d723f42f5d1fb25724f46dfc4f4
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348879"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Определение сопоставлений моделей электронной отчетности и выбор источников данных для них
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 09/14/2018
 
 ## <a name="define-required-data-sources-for-the-current-model-mapping"></a>Определение необходимых источников данных для текущего сопоставления модели
 1. Выберите Конструктор.
-2. В дереве выберите "Dynamics 365 for Operations\Записи таблицы".
+2. В дереве выберите узел "Dynamics 365 for Operations\Записи таблиц".
 3. Щелкните "Добавить корень".
     * Введите этот источник данных для доступа к проводкам по платежам.  
 4. В поле "Имя" введите "Проводки".
@@ -110,7 +110,7 @@ ms.lasthandoff: 09/14/2018
 41. В дереве разверните узел "Проводки".
 42. В дереве разверните или сверните "Проводки\$Amount".
 43. В дереве разверните или сверните "Проводки".
-44. В дереве выберите "Dynamics 365 for Operations\Записи таблицы".
+44. В дереве выберите узел "Dynamics 365 for Operations\Записи таблиц".
 45. Щелкните "Добавить корень".
     * Введите этот источник данных для доступа к сведениям о банковском счете компании.  
 46. В поле "Имя" введите "BankAccount".
@@ -157,5 +157,4 @@ ms.lasthandoff: 09/14/2018
 70. Закройте страницу.
 71. Закройте страницу.
 72. Закройте страницу.
-
 

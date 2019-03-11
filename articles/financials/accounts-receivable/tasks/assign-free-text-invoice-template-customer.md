@@ -1,13 +1,13 @@
---- 
-title: "Назначение шаблона накладной с произвольным текстом клиенту"
-description: "В этой задаче показано, как назначить шаблон накладной с произвольным текстом клиенту."
+---
+title: Назначение шаблона накладной с произвольным текстом клиенту
+description: В этой задаче показано, как назначить шаблон накладной с произвольным текстом клиенту.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 317b3bd4c1f395987ef3dbbd268c40be5c688320
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318933"
 ---
 # <a name="assign-free-text-invoice-template-to-a-customer"></a>Назначение шаблона накладной с произвольным текстом клиенту
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/14/2018
 10. Выберите шаблон повторения.
     * "Ежедневно" — выберите этот параметр и введите число дней в поле "На". Например, если ввести 15, накладная будет произведена каждые 15 дней для этого клиента.  "Еженедельно" — выберите этот параметр и введите число недель в поле "На". Например, если ввести 2, накладная будет произведена каждые две недели для этого клиента.  "Ежемесячно" — выберите этот параметр и введите число месяцев в поле "На". Например, если ввести 6, накладная будет произведена каждые шесть месяцев для этого клиента.  "Ежегодно" — выберите этот параметр и введите число лет в поле "На". Например, если ввести 2, накладная будет произведена каждые две года для этого клиента.  
 11. В поле "На" введите число.
-
 

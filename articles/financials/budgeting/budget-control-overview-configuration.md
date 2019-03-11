@@ -1,13 +1,13 @@
 ---
-title: "Обзор бюджетного контроля"
-description: "Эта статья представляет бюджетный контроль и предоставляет сведения по настройке бюджетного контроля в Microsoft Dynamics 365 for Finance and Operations, чтобы иметь возможность управлять финансовыми ресурсами."
+title: Обзор бюджетного контроля
+description: Эта статья представляет бюджетный контроль и предоставляет сведения по настройке бюджетного контроля в Microsoft Dynamics 365 for Finance and Operations, чтобы иметь возможность управлять финансовыми ресурсами.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4dbbbdf403c3e3f7c1bfa391cc32f80505098db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308537"
 ---
-
 # <a name="budget-control-overview"></a>Обзор бюджетного контроля
 
 [!include [banner](../includes/banner.md)]
@@ -128,4 +127,3 @@ ms.lasthandoff: 03/26/2018
 С этой страницы пользователи могут детализировать в страницу **Статистика бюджетного контроля по периоду**, чтобы посмотреть сведения и резервирования доступности бюджета для выбранной комбинации аналитик бюджетного контроля. Пользователи могут также детализировать в страницу **Статистика бюджетного контроля** для просмотра доступности бюджета для всех комбинаций финансовых аналитик, используемых в бюджетном контроле. 
 
 Если бюджетный контроль включен для заказов на покупку, то менеджер бюджета может использовать Рабочую область **Бюджеты и прогнозы главной книги**, чтобы посмотреть очередь всех неподтверждённых заказов на покупку с предупреждениями и ошибками проверки бюджета. Если для менеджера бюджета настроены разрешения превышения бюджета, он или она может подтвердить заказ на покупку прямо в рабочей области.    
-

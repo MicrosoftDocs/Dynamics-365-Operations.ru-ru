@@ -1,35 +1,34 @@
 ---
-title: "Получение поддержки по Dynamics 365 for Retail"
-description: "В этой статье поясняется, как получить помощь по Microsoft Dynamics 365 for Retail."
+title: Получение поддержки по Dynamics 365 for Retail
+description: В этой статье объясняется, как получить справку по Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
+ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 2e74554338e4b12991756f63257f67ee3e2e6dc4
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364059"
 ---
-
 # <a name="get-support-for-dynamics-365-for-retail"></a>Получение поддержки по Dynamics 365 for Retail
 
 [!include [banner](../includes/banner.md)]
 
-В этой статье поясняется, как получить помощь по Dynamics 365 for Retail.
+В этой статье объясняется, как получить справку по Dynamics 365 for Retail.
 
 ## <a name="contact-support"></a>Обратиться в службу поддержки
 
@@ -85,5 +84,4 @@ ms.lasthandoff: 01/04/2019
 </tbody>
 </table>
 
-Дополнительные сведения об услугах поддержки Microsoft Dynamics см. в разделе [Поддержка Microsoft Dynamics Online](https://www.microsoft.com/dynamics/dynamics-online-support.aspx).
-
+Дополнительные сведения об услугах поддержки Microsoft Dynamics см. в разделе [Поддержка Microsoft Dynamics Online](https://dynamics.microsoft.com/en-us/support/).

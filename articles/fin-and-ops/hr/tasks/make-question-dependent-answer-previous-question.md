@@ -1,13 +1,13 @@
---- 
-title: "Создание вопроса, зависящего от ответа на предыдущий вопрос"
-description: "Зависимые вопросы позволяют указать, какой следующий вопрос будет предложен респонденту, в зависимости от ответа на предыдущий вопрос."
+---
+title: Создание вопроса, зависящего от ответа на предыдущий вопрос
+description: Зависимые вопросы позволяют указать, какой следующий вопрос будет предложен респонденту, в зависимости от ответа на предыдущий вопрос.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: deb79398f5a0ebdbdb774c106c90ca50a69c275e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341289"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Создание вопроса, зависящего от ответа на предыдущий вопрос
 
@@ -55,5 +55,4 @@ ms.lasthandoff: 09/14/2018
 9. Нажмите кнопку Сохранить.
 10. В дереве выберите "Вопросы\Я получаю достойную оплату за свою работу".
     * Обратите внимание, что дерево вопроса обновилось, чтобы отразить зависимость.  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Приемка в местонахождении, не находящемся под управлением грузоместа (приложение, май 2016 г.)"
-description: "В этом руководстве по задаче показан пример приемки отчетности в местонахождении, которое не управляется грузоместом."
+---
+title: Приемка в местонахождении, не находящемся под управлением грузоместа (приложение, май 2016 г.)
+description: В этом руководстве по задаче показан пример приемки отчетности в местонахождении, которое не управляется грузоместом.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdParmCostEstimation, ProdParmStartUp, ProdParmReportFinished, WHSWorkTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4da6868a2184a76c435efe824f4670504e1134e7
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344555"
 ---
 # <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a>Приемка в местонахождении, не находящемся под управлением грузоместа (приложение, май 2016 г.)
 
@@ -61,5 +61,4 @@ ms.lasthandoff: 09/14/2018
 17. В области действий щелкните "Склад".
 18. Щелкните "Сведения о работе".
     * При учете производственного заказа не была создана работа размещения. Это происходит, потому что определена политика работы, которая предотвращает создание работы при приемке продукта L0101 в местоположении 001.  
-
 

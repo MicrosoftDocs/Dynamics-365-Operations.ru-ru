@@ -1,13 +1,13 @@
 ---
-title: "Интеграция бюджетного планирования с другими модулями"
-description: "Бюджетные планы можно создавать из нескольких разных ресурсов. Базовые элементы периодического процесса одинаковы для всех ресурсов."
+title: Интеграция бюджетного планирования с другими модулями
+description: Бюджетные планы можно создавать из нескольких разных ресурсов. Базовые элементы периодического процесса одинаковы для всех ресурсов.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 97c33a222d31e690d2a395f972c0ddc4b89e8fdb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353042"
 ---
-
 # <a name="budget-planning-integration-with-other-modules"></a>Интеграция бюджетного планирования с другими модулями
 
 [!include [banner](../includes/banner.md)]
@@ -145,7 +144,6 @@ ms.lasthandoff: 05/08/2018
 Используйте кнопки **Прогноз поставки** и **Прогноз спроса** для выполнения этих запросов. В обоих случаях запрос ищет строки прогноза, которые могли создать строки бюджетного плана. 
 
 Доступен также дополнительный отчет **Прогнозируемые должности по бюджетному плану**. Этот отчет особенно полезен, если нужно определить, правильно ли была выделена позиция бюджетным планам.
-
 
 
 

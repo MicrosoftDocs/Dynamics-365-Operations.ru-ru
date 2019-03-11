@@ -1,13 +1,13 @@
 ---
-title: "Номенклатура номеров и названий вариантов продуктов"
-description: "В этом разделе описывается, как можно настроить номенклатуру номеров продукции для замены фиксированного формата [Номер шаблона продукта - Конфигурация – Размер - Цвет - Стиль]."
+title: Номенклатура номеров и названий вариантов продуктов
+description: В этом разделе описывается, как можно настроить номенклатуру номеров продукции для замены фиксированного формата [Номер шаблона продукта - Конфигурация – Размер - Цвет - Стиль].
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: f84b6982af8b81ff83086d163a77e1c2f58ca478
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3baf1d7313d8ff03ae5ece035b6f3641c0f1d707
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336689"
 ---
-
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Номенклатура номеров и названий вариантов продуктов
 
 [!include [banner](../includes/banner.md)]
@@ -122,7 +121,7 @@ ms.lasthandoff: 05/08/2018
 2.  Текстовая константа: "&"
 3.  Конфигурационная группа: Передняя решетка
 
-В этом случае код конфигурации для стандартного корпуса с тканевой передней решеткой будет M0007&M0021.
+В этом случае код конфигурации для стандартного корпуса с тканевой передней решеткой будет M0007&M0021.
 
 ## <a name="nomenclature-for-a-combination-of-product-variants-and-configurations"></a>Номенклатура для комбинации вариантов продукта и конфигураций
 При использовании технологии конфигурации на основе ограничений или на основе аналитик для конфигурации вариантов продукта для шаблона продукта варианты продукта могут получить номера вариантов продукта, которые включают номенклатуру из аналитики конфигурации. Чтобы настроить варианты, выполните следующие действия.
@@ -198,5 +197,4 @@ ms.lasthandoff: 05/08/2018
 [Создание номенклатуры номера продукта для заранее определенных вариантов продукта](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Создание номенклатуры номера продукта для сконфигурированных вариантов продуктов](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
-
 

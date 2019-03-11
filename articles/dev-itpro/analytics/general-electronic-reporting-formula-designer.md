@@ -1,13 +1,13 @@
 ---
-title: "Конструктор формул в электронной отчетности (ER)"
-description: "В этом разделе описывается, как использовать конструктор формул в электронной отчетности (ER)."
+title: Конструктор формул в электронной отчетности (ER)
+description: В этом разделе описывается, как использовать конструктор формул в электронной отчетности (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
 ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331284"
 ---
-
 # <a name="formula-designer-in-electronic-reporting-er"></a>Конструктор формул в электронной отчетности (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -743,4 +742,3 @@ ER позволяет расширение перечня функций, исп
 
 - [Обзор электронной отчетности](general-electronic-reporting.md)
 - [Расширение списка функций электронной отчетности (ER)](general-electronic-reporting-formulas-list-extension.md)
-

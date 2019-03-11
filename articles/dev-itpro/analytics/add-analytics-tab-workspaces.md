@@ -1,13 +1,13 @@
 ---
-title: "Добавление аналитики в рабочие области с помощью Power BI Embedded"
-description: "В этом разделе показано, как внедрить отчет Power BI на вкладку \"Аналитика\" рабочей области."
+title: Добавление аналитики в рабочие области с помощью Power BI Embedded
+description: В этом разделе показано, как внедрить отчет Power BI на вкладку "Аналитика" рабочей области.
 author: tjvass
 manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -15,22 +15,21 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355227"
 ---
-
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Добавление аналитики в рабочие области с помощью Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Эта функция поддерживается в Dynamics 365 for Finance and Operations (версия 7.2 и выше).
+> Эта возможность поддерживается в Dynamics 365 for Finance and Operations (версии 7.2 и выше).
 
-## <a name="introduction"></a>Приветствие
+## <a name="introduction"></a>Введение
 В этом разделе показано, как внедрить отчет Microsoft Power BI на вкладку **Аналитика** рабочей области. В данном примере мы расширим рабочую область **Управление резервированием** в приложении "Управления автопарком" для внедрения аналитической рабочей области на вкладку **Аналитика**.
 
 ## <a name="prerequisites"></a>Необходимые условия
@@ -154,7 +153,7 @@ ms.lasthandoff: 08/13/2018
 ## <a name="reference"></a>Справка
 
 ### <a name="pbireporthelperinitializereportcontrol-method"></a>Метод PBIReportHelper.initializeReportControl
-В этом разделе представлены сведения о вспомогательном классе, который используется для внедрения отчета Power BI (PBIXресурс) в элемент управления группой форм.
+В этом разделе представлены сведения о вспомогательном классе, который используется для внедрения отчета Power BI (PBIX-ресурс) в элемент управления группой форм.
 
 #### <a name="syntax"></a>Синтаксис
 ```
@@ -177,4 +176,3 @@ public static void initializeReportControl(
 | showFilterPane   | Логическое значение, указывающее, должна ли отображаться область фильтров (**true**) или нет (**false**).     |
 | showNavPane      | Логическое значение, указывающее, должна ли отображаться область перехода (**true**) или нет (**false**). |
 | defaultFilters   | Фильтры по умолчанию для отчета Power BI.                                                                 |
-

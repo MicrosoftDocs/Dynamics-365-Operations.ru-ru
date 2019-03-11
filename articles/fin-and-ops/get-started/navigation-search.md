@@ -1,13 +1,13 @@
 ---
-title: "Навигационный поиск"
-description: "Этот раздел описывает порядок использования функции поиска для навигации к страницам в Microsoft Dynamics 365 for Finance and Operations."
+title: Навигационный поиск
+description: Этот раздел описывает порядок использования функции поиска для навигации к страницам в Microsoft Dynamics 365 for Finance and Operations.
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7c05098815c6b330cbb9c7f5ce886779927c6804
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353019"
 ---
-
 # <a name="navigation-search"></a>Навигационный поиск
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ Finance and Operations предоставляет функциональност
 ## <a name="development"></a>Разработка
 
 С точки зрения разработки функцию навигационного поиска легко использовать, поскольку отсутствует задержка между развертыванием пунктов меню и их способностью отображаться в результатах поиска. Пока пункты меню связаны с областью перехода или панелью мониторинга, они автоматически становятся доступны для поиска.
-

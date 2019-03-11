@@ -1,13 +1,13 @@
---- 
-title: "Изменение баннера или эмблемы"
-description: "Следующая процедура перечисляет этапы, которые системные администраторы могут использовать для обновления изображения баннера или логотипа, отображаемого для юридического лица."
+---
+title: Изменение баннера или эмблемы
+description: Следующая процедура перечисляет этапы, которые системные администраторы могут использовать для обновления изображения баннера или логотипа, отображаемого для юридического лица.
 author: aneesmsft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntity, DefaultDashboard
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ed0a4e31e840f771f1620b42518ed0e03dbad151
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d2dac4d1799a958b6eff4c7aa134fe0b136089ca
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332963"
 ---
 # <a name="change-the-banner-or-logo"></a>Изменение баннера или эмблемы
 
@@ -41,5 +41,4 @@ ms.lasthandoff: 09/29/2017
 8. Перейдите в раздел "Общее" > "Общее" > "Панель мониторинга по умолчанию".
     * Вы должны видеть новый баннер и изображение эмблемы на панели мониторинга.  
     * Вам может потребоваться изменить свою компанию, используя элемент управления выбора компании, на ту, для которой вы загрузили баннер.  
-
 

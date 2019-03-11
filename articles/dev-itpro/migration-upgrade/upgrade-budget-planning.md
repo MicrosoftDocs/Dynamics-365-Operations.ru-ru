@@ -1,13 +1,13 @@
 ---
-title: "Обновление бюджетного планирования"
-description: "Существуют значительные различия между планированием бюджета в Microsoft Dynamics AX 2012 и Microsoft Dynamics 365 for Finance and Operations. Некоторые компоненты не были обновлены и поэтому для них требуется изменение конфигурации. В этом разделе объясняется, что требует изменения конфигурации, а также приводится описание новых возможностей, которые необходимо учесть после завершения обновления."
+title: Обновление бюджетного планирования
+description: Существуют значительные различия между планированием бюджета в Microsoft Dynamics AX 2012 и Microsoft Dynamics 365 for Finance and Operations. Некоторые компоненты не были обновлены и поэтому для них требуется изменение конфигурации. В этом разделе объясняется, что требует изменения конфигурации, а также приводится описание новых возможностей, которые необходимо учесть после завершения обновления.
 author: ryansandness
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a39f516bb6d023ea18492ba3dfe721bd1127c60e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342968"
 ---
-
 # <a name="upgrade-budget-planning"></a>Обновление бюджетного планирования
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ ms.lasthandoff: 11/03/2017
 -   Ограничения сценария (конфигурация планирования бюджета)
 -   Шаблоны для правил стадий и шаблонов планирования бюджета (процесс планирования бюджета)
 -   Поля матрицы для шаблонов листов
--   Мастер шаблона плана бюджета Microsoft Excel
+-   Мастер шаблона Microsoft Excel бюджетного плана
 
 Обновление некоторых новых концепций непосредственно из прежних функций невозможно. Поэтому необходимо выполнить некоторые изменения конфигурации для учета этих новых концепций. В следующих разделах описаны понятия, которые заменили элементы, перечисленные в приведенном выше списке.
 
@@ -160,7 +159,6 @@ ms.lasthandoff: 11/03/2017
 -   Приоритеты бюджетного плана
 -   Столбцы бюджетного плана
 -   Элементы макета бюджетного плана
-
 
 
 

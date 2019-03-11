@@ -1,13 +1,13 @@
 ---
-title: "Амортизационная премия"
-description: "Эта статья содержит обзор функции Амортизационной премии."
+title: Амортизационная премия
+description: Эта статья содержит обзор функции Амортизационной премии.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBonus
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5e05c0c195ddb948547ae008d050686bbcdc6ed3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d50cbba648beb9831e186cd160853abe79c4e4
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323326"
 ---
-
 # <a name="bonus-depreciation"></a>Амортизационная премия
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ ms.lasthandoff: 11/03/2017
 Можно создать неограниченное количество записей амортизационных премий. После назначения этих записей журналу группы активов они используются для журнала активов. 
 
 Амортизационная премия вводится как процент или фиксированная сумма. При разноске предложений по амортизации проводки амортизационной премии разносятся в книгу как проводки, отделенные от проводок амортизации.
-
 
 
 

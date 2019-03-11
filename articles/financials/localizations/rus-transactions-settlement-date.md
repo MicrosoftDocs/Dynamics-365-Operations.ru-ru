@@ -1,13 +1,13 @@
 ---
-title: "Настройка контроля аналитик для сопоставлений (Россия)"
-description: "В этой теме описывается настройка контроля аналитик для сопоставлений в России."
+title: Настройка контроля аналитик для сопоставлений (Россия)
+description: В этой теме описывается настройка контроля аналитик для сопоставлений в России.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 96a35c5b427f39a83eea86fad94f89db653d36ce
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371801"
 ---
-
 # <a name="set-up-dimension-control-for-settlements-russia"></a>Настройка контроля аналитик для сопоставлений (Россия)
 [!include [banner](../includes/banner.md)]
 
@@ -97,4 +96,3 @@ ms.lasthandoff: 10/01/2018
 
 1. Выберите **Главная книга** \> **План счетов** \> **Размеры** \> **Набор финансовых аналитик**.
 2. Нажмите CTRL+N, чтобы создать набор аналитик, и введите необходимые сведения.
-

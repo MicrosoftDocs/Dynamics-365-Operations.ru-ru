@@ -1,13 +1,13 @@
---- 
-title: "Регистрация номенклатур для основной номенклатуры с поддержкой складирования с использованием номенклатуры журнала прибытия номенклатур"
-description: "В этой процедуре показано, как зарегистрировать номенклатуры с помощью журнала прибытия номенклатур при использовании базового управления складами и модуля \"Управление запасами\"."
+---
+title: Регистрация номенклатур для основной номенклатуры с поддержкой складирования с использованием номенклатуры журнала прибытия номенклатур
+description: В этой процедуре показано, как зарегистрировать номенклатуры с помощью журнала прибытия номенклатур при использовании базового управления складами и модуля "Управление запасами".
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, WMSJournalTable, WMSJournalCreate, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 5c53a38eb6afdf8d3cc1a316c8da5e84549ab60d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361437"
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a>Регистрация номенклатур для основной номенклатуры с поддержкой складирования с использованием номенклатуры журнала прибытия номенклатур
 
@@ -57,5 +57,4 @@ ms.lasthandoff: 09/14/2018
 1. Щелкните Функции.
 2. Щелкните "Поступление продуктов".
 3. Нажмите кнопку "OК".
-
 

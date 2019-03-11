@@ -1,13 +1,13 @@
 ---
-title: "Рабочая область закрытия финансового периода"
-description: "Эта статья предоставляет обзор Рабочей области \"Закрытие финансового периода\" и соответствующего конфигурации."
+title: Рабочая область закрытия финансового периода
+description: Эта статья предоставляет обзор Рабочей области "Закрытие финансового периода" и соответствующего конфигурации.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9c3c7f00d0a0e4379547edc5199f4a9a6727f3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326914"
 ---
-
 # <a name="financial-period-close-workspace"></a>Рабочая область закрытия финансового периода
 
 [!include [banner](../includes/banner.md)]
@@ -106,7 +105,6 @@ ms.lasthandoff: 03/26/2018
 Необходимо также определить компании, которые будут связаны с графиком закрытия. Если задачи шаблона связаны с несколькими компаниям, то отдельные задачи будут созданы для каждой компании, которая есть в графике закрытия и назначена задаче в шаблоне. 
 
 После завершения графика закрытия выберите для него параметр **Закрыт**. Журнал задач по-прежнему будут доступен со страницы **Все задачи закрытия финансового периода**, но график закрытия будет удален из рабочей области. После того как график закрытия был помечен как **Закрыт**, нельзя будет добавлять в него задачи, изменять задачи или удалять задачи из него.
-
 
 
 

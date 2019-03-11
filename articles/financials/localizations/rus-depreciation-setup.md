@@ -1,29 +1,28 @@
 ---
-title: "Настройка амортизации (Россия)"
-description: "В этом разделе описывается настройка амортизации для основных средств в России."
+title: Настройка амортизации (Россия)
+description: В этом разделе описывается настройка амортизации для основных средств в России.
 author: anasyash
 manager: AnnBe
 ms.date: 10/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 77d54fe01075e125eae738fb4f8fc46d31ebaa09
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: b7a9b36f15e7cfa5b72ca27ab58f40b9ff837f48
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371720"
 ---
-
 # <a name="set-up-depreciation-russia"></a>Настройка амортизации (Россия)
 
 [!include [banner](../includes/banner.md)]
@@ -125,4 +124,3 @@ ms.lasthandoff: 10/23/2018
 
 - [Методы амортизации (Россия)](rus-depreciation-methods.md)
 - [Расчет амортизации (Россия)](rus-depreciation-calculation.md)
-

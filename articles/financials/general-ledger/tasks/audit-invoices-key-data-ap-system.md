@@ -1,13 +1,13 @@
---- 
-title: "Аудит накладных и ключевых данных в системе расчетов с поставщиками"
-description: "При получении накладной от поставщика за товары или услуги по заказу на покупку для бизнес-процессов может потребоваться, чтобы товары или услуги были получены, прежде чем накладная может утверждена для платежа."
+---
+title: Аудит накладных и ключевых данных в системе расчетов с поставщиками
+description: При получении накладной от поставщика за товары или услуги по заказу на покупку для бизнес-процессов может потребоваться, чтобы товары или услуги были получены, прежде чем накладная может утверждена для платежа.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
 ms.openlocfilehash: 946076d682a10becdc2c4a8baff7f52de7893119
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331537"
 ---
 # <a name="audit-invoices-and-key-data-in-ap-system"></a>Аудит накладных и ключевых данных в системе расчетов с поставщиками
 
@@ -61,5 +61,4 @@ ms.lasthandoff: 12/04/2018
 8. Нажмите кнопку **ОК**.
 9. В области действий щелкните **Просмотр**.
 10. Щелкните **Сведения о сопоставлении**.
-
 

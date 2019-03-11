@@ -1,32 +1,31 @@
 ---
-title: "Визуальное планирование для бережливого производства"
-description: "В этой теме содержится информация о доске графика канбана, которую планировщик производства может использовать для контроля и оптимизации производственного плана для заданий канбана."
+title: Визуальное планирование для бережливого производства
+description: В этой теме содержится информация о доске графика канбана, которую планировщик производства может использовать для контроля и оптимизации производственного плана для заданий канбана.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoard, KanbanJobSchedulingListPage, LeanProductionFlowVisualization
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6fdfa78ba0ace5481305d2ab505ed5fc7538e29e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d2ead061fe39c3dcb54d697f246c2c826339b699
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334550"
 ---
-
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Визуальное планирование для бережливого производства
 
 [!include [banner](../includes/banner.md)]
@@ -95,5 +94,4 @@ ms.lasthandoff: 05/08/2018
 --------
 
 [Бережливое производство — планирование заданий канбана](lean-manufacturing-kanban-job-scheduling.md)
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Планирование глобальной адресной книги и других адресных книг"
-description: "Этот раздел описывает вопросы и решения, которые следует принять во время процесса планирования, прежде чем настраивать и устанавливать глобальную адресную книгу и любые дополнительные адресные книги в Microsoft Dynamics 365 for Finance and Operations. Некоторые из решений потребуют от вас подтвердить решения, которые были сделаны в других зонах продукта, таких как организационная иерархия."
+title: Планирование глобальной адресной книги и других адресных книг
+description: Эта тема описывает вопросы и решения, которые следует принять во время процесса планирования, прежде чем настраивать и устанавливать глобальную адресную книгу и любые дополнительные адресные книги в Microsoft Dynamics 365 for Finance and Operations. Некоторые из решений потребуют от вас подтвердить решения, которые были сделаны в других зонах продукта, таких как организационная иерархия.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam, DirParameters, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 20795cb8dd752a32f6c57fdb8f369691e41139b3
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332664"
 ---
-
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Планирование глобальной адресной книги и других адресных книг
 
 [!include [banner](../includes/banner.md)]
 
-Этот раздел описывает вопросы и решения, которые следует принять во время процесса планирования, прежде чем настраивать и устанавливать глобальную адресную книгу и любые дополнительные адресные книги в Microsoft Dynamics 365 for Finance and Operations. Некоторые из решений потребуют от вас подтвердить решения, которые были сделаны в других зонах продукта, таких как организационная иерархия.
+Эта тема описывает вопросы и решения, которые следует принять во время процесса планирования, прежде чем настраивать и устанавливать глобальную адресную книгу и любые дополнительные адресные книги в Microsoft Dynamics 365 for Finance and Operations. Некоторые из решений потребуют от вас подтвердить решения, которые были сделаны в других зонах продукта, таких как организационная иерархия.
 
 ## <a name="global-address-book"></a>Глобальная адресная книга
 
@@ -67,4 +66,3 @@ ms.lasthandoff: 12/18/2018
 **Решение.**
 
 - Какие группы должны иметь доступ к каждой новой адресной книге?
-

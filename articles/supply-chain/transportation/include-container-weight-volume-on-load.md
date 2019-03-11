@@ -1,13 +1,13 @@
 ---
-title: "Включение веса и объема контейнера при загрузке"
-description: "В этой теме описывается, как настроить и использовать функциональность для включения в загрузки веса и объема контейнера."
+title: Включение веса и объема контейнера при загрузке
+description: В этой теме описывается, как настроить и использовать функциональность для включения в загрузки веса и объема контейнера.
 author: pjacobse
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSRateRouteWorkbench, TMSDriverLogListPage, TMSTransportationTender
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: adbaa379889d373d597b2f6882b78f82bd71ae57
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4190b5cb05cccc3d762d8ad153ecbd467fa0a332
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356607"
 ---
-
 # <a name="include-container-weight-and-volume-on-load"></a>Включение веса и объема контейнера при загрузке
 
 [!include [banner](../includes/banner.md)]
@@ -46,4 +45,3 @@ ms.lasthandoff: 11/03/2017
 -   Чтобы задать вес и объем для контейнера, выберите **Управление складом** \> **Настройка** \> **Контейнеры** \> **Типы контейнеров**.
 
 -   Чтобы задать процент использования контейнера, выберите **Управление складом** \> **Настройка** \> **Контейнеры** \> **Группы контейнеров**, а затем введите значение в поле **Процент загрузки контейнера**.
-

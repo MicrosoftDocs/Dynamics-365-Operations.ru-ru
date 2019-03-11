@@ -1,13 +1,13 @@
 ---
-title: "Корректировки курсовой разницы"
-description: "В этом разделе содержатся сведения о функции корректировки курсовой разницы для пользователей в Эстонии, Венгрии, Чехии, Латвии, Литве, Польше и России."
+title: Корректировки курсовой разницы
+description: В этом разделе содержатся сведения о функции корректировки курсовой разницы для пользователей в Эстонии, Венгрии, Чехии, Латвии, Литве, Польше и России.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: eece22113824fd520568dc46bbd384bda23c3c8d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dbc715a23e14d96e0ac93e47ff793e49fad24b93
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371807"
 ---
-
 # <a name="exchange-rate-adjustments"></a>Корректировки курсовой разницы
 
 [!include [banner](../includes/banner.md)]
@@ -95,7 +94,6 @@ ms.lasthandoff: 11/03/2017
 |3 янв 13 | По кредиту | 0 CAD/5 000 USD | Внереализационная прибыль по курсовой разнице | Переоценка в иностранной валюте | Курсовая прибыль | Х |   |
 
 Поведение системы не изменяется, независимо от значения, которое задано в параметре **Коррекция** в разделе **Реверсирование проводки** на странице **Параметры главной книги**: **Да** или **Нет**.
-
 
 
 

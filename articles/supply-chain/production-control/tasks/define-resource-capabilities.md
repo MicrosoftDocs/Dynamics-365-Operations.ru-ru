@@ -1,13 +1,13 @@
---- 
-title: "Определение возможностей ресурса"
-description: "Возможности ресурса описывают, что могут делать операционные ресурсы."
+---
+title: Определение возможностей ресурса
+description: Возможности ресурса описывают, что могут делать операционные ресурсы.
 author: sorenva
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0940883d0e9edf56e61b5ecd817062aac5e0f8a6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 99c230c0e6a580f77d863b6f0be298615966c479
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340162"
 ---
 # <a name="define-resource-capabilities"></a>Определение возможностей ресурса
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
     * При планировании заданий и операций можно указать, следует ли выбирать ресурсы по приоритету. Если выбрать этот параметр и если нескольких ресурсов могут выполнить задание либо операцию к запрашиваемой дате, будет выбран ресурс с наименьшим приоритетом по отношению к необходимой возможности.  
 5. В поле "Уровень" введите число.
     * Если указать, что для задания или операции требуется определенная возможность, можно также указать минимальный необходимый уровень. Используйте уровень возможности для дифференциации ресурсов, которые могут выполнить одно задание, но различаются по скорости, сильным сторонам, размерам и т. д.  
-
 

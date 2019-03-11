@@ -1,13 +1,13 @@
 ---
-title: "Настройка безопасности для содержимого анализа учета затрат для Power BI"
-description: "В этом разделе объясняется, как можно распространить защиту на уровне доступа в модуле \"Учет затрат\" на защиту на уровне строк в Microsoft Power BI. Данная функция позволяет гарантировать, что пользователи видят только те данные Power BI, к которым им предоставлен доступ."
+title: Настройка безопасности для содержимого Power BI анализа учета затрат
+description: В этом разделе объясняется, как можно распространить защиту на уровне доступа в модуле "Учет затрат" на защиту на уровне строк в Microsoft Power BI. Данная функция позволяет гарантировать, что пользователи видят только те данные Power BI, к которым им предоставлен доступ.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: d1cd378a58d4a4fe4388238f97e84a8e2b07937b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352881"
 ---
-
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Настройка безопасности для содержимого анализа учета затрат для Power BI
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Настройка безопасности для содержимого Power BI анализа учета затрат
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,4 +64,3 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 Для получения дополнительных сведений о безопасности на уровне строк Power BI см. раздел [Управления безопасностью в своей модели в Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
-

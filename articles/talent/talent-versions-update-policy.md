@@ -1,13 +1,13 @@
 ---
-title: "Системные требования и политика обновления Talent"
-description: "В этой теме перечислены требования к системе для Dynamics 365 for Talent. Также рассматривается политика обновления."
+title: Системные требования и политика обновления Talent
+description: В этом разделе перечислены требования к Dynamics 365 for Talent. Также рассматривается политика обновления.
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305873"
 ---
-
 # <a name="talent-system-requirements-and-update-policy"></a>Системные требования и политика обновления Talent
 
 [!include [banner](includes/banner.md)]
 
-В этой теме перечислены требования к системе для Microsoft Dynamics 365 for Talent. Также рассматривается политика обновления.
+В этом разделе перечислены требования к Microsoft Dynamics 365 for Talent. Также рассматривается политика обновления.
 
 ## <a name="supported-web-browsers"></a>Поддерживаемые веб-браузеры
 
@@ -44,11 +43,11 @@ ms.lasthandoff: 09/17/2018
 
 > [!NOTE]
 > * Для захвата изображений, создаваемых в регистраторе задач, и включения их в документы Microsoft Word должно быть установлено расширение Chrome. 
-> * Редактор workflow-процессов запускается в виде приложения ClickOnce. Только Microsoft Edge и Internet Explorer (на поддерживаемой версии Microsoft Windows) поддерживают приложение ClickOnce. Для приложения ClickOnce редактора workflow-процессов требуется 64-разрядная совместимая операционная система.
+> * Редактор workflow-процессов запускается в виде приложения ClickOnce. Только Microsoft Edge и Internet Explorer (на поддерживаемой версии Microsoft Windows) поддерживают приложения ClickOnce. Для приложения ClickOnce редактора workflow-процессов требуется 64-разрядная совместимая операционная система.
 > * Для предварительного просмотра PDF-файлов рекомендуется использовать современные браузеры, такие как Microsoft Edge (последней общедоступной версии) в Windows 10 или Google Chrome (последней общедоступной версии) в Windows 10, Windows 8.1, Windows 8, Windows 7 или на планшете Google Nexus 10.
 >   Требования к сети
-> * Система Dynamics 365 for Talent предназначена для сетей с задержкой 250-300 миллисекунд (мс) и менее. Это задержка от клиента браузера до центра данных Microsoft Azure, на котором размещена система Dynamics 365 for Talent. Рекомендуется проверить задержку в сети на сайте [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
-> * Требования к пропускной способности для Dynamics 365 for Talent зависят от конкретного сценария. В большинстве типичных сценариев требуется пропускная способность более 50 Кбайт в секунду (КБ/с).
+> * Приложение Dynamics 365 for Talent предназначено для сетей с задержкой не более 250-300 мс. Это задержка от клиента браузера до центра данных Microsoft Azure, на котором размещено приложение Dynamics 365 for Talent. Рекомендуется проверить задержку в сети на сайте [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
+> * Требования к пропускной способности для Dynamics 365 for Talent зависят от конкретного сценария реализации. В большинстве типичных сценариев требуется пропускная способность более 50 Кбайт в секунду (КБ/с).
 > 
 > [!WARNING]
 > Не вычисляйте требования к пропускной способности из местоположения клиента путем умножения числа пользователей на минимальные требования к пропускной способности. Параллельное использование для конкретного местоположения очень сложно рассчитать. Клиентам, которых беспокоят требования к пропускной способности, следует использовать пробную версию Dynamics 365 for Talent.
@@ -60,7 +59,6 @@ ms.lasthandoff: 09/17/2018
 
 ## <a name="update-policy"></a>Политика обновления
 
-Microsoft Dynamics 365 for Talent обслуживается как облачная система. Dynamics 365 for Talent постоянно обновляется, и обновления автоматически применяются корпорацией Майкрософт.
+Microsoft Dynamics 365 for Talent обслуживается как облачное предложение. Dynamics 365 for Talent постоянно обновляется, и обновления автоматически применяются корпорацией Майкрософт.
 
 Обновления выпускаются регулярно и применяются ко всем средам.  Dynamics 365 for Talent поддерживается в соответствии с [политикой жизненного цикла поддержки Майкрософт](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Политика жизненного цикла поддержки Майкрософт"), которая обеспечивает единообразную и предсказуемую поддержку продукта.
-

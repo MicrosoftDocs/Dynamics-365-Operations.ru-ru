@@ -1,13 +1,13 @@
 ---
-title: "Настройка коносамента"
-description: "В этом разделе описаны способы настройки входящих операций консигнационных запасов."
+title: Настройка коносамента
+description: В этом разделе описаны способы настройки входящих операций консигнационных запасов.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventJournalOwnershipChange, InventOwner, InventTableInventoryDimensionGroups, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 24500ff46cc77ca8fa59c0c16427d9f05f33a87e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 758ea8b658693910edeada3a4c27c34ae187b28c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308721"
 ---
-
 # <a name="set-up-consignment"></a>Настройка коносамента
 
 [!include [banner](../includes/banner.md)]
@@ -51,4 +50,3 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Совместная работа с поставщиками в процессах коносамента
 Если поставщики используют интерфейс совместной работы с поставщиками, они могут использовать его, чтобы контролировать потребление запасов на вашем сайте. Дополнительные сведения о настройке поставщиков для использования совместной работы с поставщиками см. в разделе [Настройка безопасности для пользователей совместной работы с поставщиками](../procurement/configure-security-vendor-portal-users.md).
-

@@ -1,13 +1,13 @@
 ---
-title: "Массовое обновление основных средств"
-description: "При использовании книг можно изменить соглашения по амортизации для группы активов, являющейся частью одной и той же книги."
+title: Массовое обновление основных средств
+description: При использовании книг можно изменить соглашения по амортизации для группы активов, являющейся частью одной и той же книги.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b740f1fe710c2278bd5ac5f8d615f0e305cd7df1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3fb55f1a51652299db8a31274b07f239fbaf28f
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348810"
 ---
-
 # <a name="fixed-asset-mass-update"></a>Массовое обновление основных средств
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,6 @@ ms.lasthandoff: 11/03/2017
 Чтобы обновить соглашение по амортизации для активов, которые уже были списаны, необходимо сначала удалить существующие проводки выбытия, включая проводки, созданные по причине выполнения процесса списания. Также необходимо удалить все проводки, которые были созданы по причине выполнения процесса списания. 
 
 После обновления соглашения по амортизации для активов можно выполнить обработку амортизации и дополнительной амортизации для каждого актива. Если это необходимо, можно выполнить корректировки амортизации вручную.
-
 
 
 

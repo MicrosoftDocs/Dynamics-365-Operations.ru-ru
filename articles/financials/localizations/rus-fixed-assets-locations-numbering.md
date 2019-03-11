@@ -1,29 +1,28 @@
 ---
-title: "Настройка расположений основных средств и нумерация (Россия)"
-description: "В этом разделе описывается настройка расположения и нумерации для основного средства в России."
+title: Настройка расположений основных средств и нумерация (Россия)
+description: В этом разделе описывается настройка расположения и нумерации для основного средства в России.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Russia
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 77d54fe01075e125eae738fb4f8fc46d31ebaa09
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: cabd98cdfd4217c3221708465c6ac99a6ed8b273
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371729"
 ---
-
 # <a name="set-up-fixed-asset-locations-and-numbering-russia"></a>Настройка расположений основных средств и нумерация (Россия)
 
 [!include [banner](../includes/banner.md)]
@@ -83,4 +82,3 @@ ms.lasthandoff: 10/23/2018
 1. Выберите **Основные средства (Россия)** \> **Периодические операции** \> **Формирование штрих-код из инв. номера ОС**.
 2. На экспресс-вкладке **Включаемые записи** выберите **Фильтр**, затем в диалоговом окне **Активы** введите критерии, которые используются для выбора основных средств. Затем выберите **OK**, чтобы вернуться в диалоговое окно **Формирование штрих-код из инв. номера ОС**.
 4. Нажмите **ОК**. Если не указан штрих-код для основного средства, значение, указанное в поле **Инвентарный номер ОС** появится в поле **Штрих-код** на странице **Основные средства** (**Основные средства (Россия)** \> **Обычные** \> **Основные средства**).
-

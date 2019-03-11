@@ -1,13 +1,13 @@
 ---
-title: "Метод распределения общих затрат"
-description: "В этом разделе содержатся указания по использованию распределения совокупных затрат (РСЗ). РСЗ — метод вычисления затрат между основной номенклатурой-формулой для партионного заказа и сопутствующими продуктами, которые определены для этой формулы."
+title: Метод распределения общих затрат
+description: В этом разделе содержатся указания по использованию распределения совокупных затрат (РСЗ). РСЗ — метод вычисления затрат между основной номенклатурой-формулой для партионного заказа и сопутствующими продуктами, которые определены для этой формулы.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cda1c5251b81a3bb73d4d8703d7c3fa1ab4e9c16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341588"
 ---
-
 # <a name="total-cost-allocation-method"></a>Метод распределения общих затрат
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ ms.lasthandoff: 11/03/2017
 -   **Процент** ─ сумма затрат вычисляется как процент совокупных затрат на сырье, потребляемое в производстве. Процент, используемый для расчета, вводится в это поле.
 -   **На серию** ─ сумма затрат, вычисляемая как сумма в расчете на размер стандартной партии производственного заказа. Данная сумма не зависит от отчетного количеств в производстве. Сумма, используемая для расчета, вводится в это поле.
 -   **На количество** — сумма затрат, вычисляемая как сумма в расчете на отчетное количество номенклатуры-формулы в производстве. Сумма, используемая для расчета, вводится в это поле.
-
 
 
 

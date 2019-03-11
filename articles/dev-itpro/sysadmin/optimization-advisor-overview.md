@@ -1,33 +1,32 @@
 ---
-title: "Помощник по оптимизации"
-description: "В этом разделе описывается, как использовать помощник по оптимизации для обеспечения оптимальной конфигурации Microsoft Dynamics 365 Finance and Operations."
+title: Помощник по оптимизации
+description: В этом разделе описывается, как использовать помощник по оптимизации для обеспечения оптимальной конфигурации Microsoft Dynamics 365 Finance and Operations.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 206b8a23a52d412d1810b8a355b09ecc461f00b3
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335631"
 ---
-
-# <a name="optimization-advisor"></a>Помощник по оптимизации
+# <a name="optimization-advisor"></a>Советник по оптимизации
 
 [!include [banner](../includes/banner.md)]
 
@@ -96,4 +95,3 @@ ms.lasthandoff: 08/09/2018
 [Создание новых правил](./create-rules-optimization-advisor.md)
 
 [Помощник по оптимизации в Dynamics 365 for Finance and Operations (видео)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-

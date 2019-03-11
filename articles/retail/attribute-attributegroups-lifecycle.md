@@ -1,32 +1,31 @@
 ---
-title: "Атрибуты и группы атрибутов"
-description: "В этом разделе описывается, как использовать атрибуты, чтобы предоставить способ описания продукта и его характеристик с помощью определенных пользователем полей."
+title: Атрибуты и группы атрибутов
+description: В этом разделе описывается, как использовать атрибуты, чтобы предоставить способ описания продукта и его характеристик с помощью определенных пользователем полей.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326247"
 ---
-
 # <a name="attributes-and-attribute-groups"></a>Атрибуты и группы атрибутов
 
 [!include [banner](includes/banner.md)]
@@ -257,4 +256,3 @@ ms.lasthandoff: 01/04/2019
 
     > [!NOTE]
     > Если совместно используемые носители продукта и атрибуты продукта создаются в Finance and Operations, они применяются для всех розничных продуктов.
-

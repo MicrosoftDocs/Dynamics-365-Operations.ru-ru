@@ -1,13 +1,13 @@
---- 
-title: "Регистрация поступления товаров по заказу на покупку"
-description: "В этой процедуре показано, как зарегистрировать поступление товаров непосредственно в заказе на покупку."
+---
+title: Регистрация поступления товаров по заказу на покупку
+description: В этой процедуре показано, как зарегистрировать поступление товаров непосредственно в заказе на покупку.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 14d1d43479f9864d8fd5ed94a98a654e75eeedf0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9b2300a593c9e153ee598fa72e29907c82f2b79e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343221"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Регистрация поступления товаров по заказу на покупку
 
@@ -52,5 +52,4 @@ ms.lasthandoff: 09/29/2017
 6. Сверните раздел "Строки".
 7. Нажмите кнопку "OК".
     * Товары зарегистрированы как полученные по заказу на покупку, и журнал поступления продуктов был создан как документ, в котором это указано. Можно использовать действие "Поступление продуктов" для просмотра журналов, созданных с заказом на покупку, чтобы узнать, что было получено и когда.  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Управление источником данных для книги учета затрат"
-description: "Эта процедура используется для управления источником данных главной книги для книги учета затрат."
+---
+title: Управление источником данных для книги учета затрат
+description: Эта процедура используется для управления источником данных главной книги для книги учета затрат.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f53101d73bc69199fafb00de0fa1759d59ea4ce8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5735cabd5a1eab23fbe2b92cf1395110cb33a93c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319324"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Управление источником данных для книги учета затрат
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/29/2017
 6. Щелкните "Создать".
 7. В поле "Имя" введите значение.
 8. В поле "Поставщик данных" введите или выберите значение.
-    * В данном примере выберите "Dynamics 365 for Finance and Operations  — записи главной книги".  
+    * В этом примере выберите "Dynamics 365 for Finance and Operations — записи главной книги".  
 9. В поле "Аналитика элемента затрат" введите или выберите значение.
     * В этом примере выберите "Элементы затрат".  
 10. Нажмите кнопку "Сохранить".
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 13. Щелкните "Создать".
 14. В поле "Слой разноски" выберите "Текущий".
 15. Нажмите кнопку "OК".
-
 

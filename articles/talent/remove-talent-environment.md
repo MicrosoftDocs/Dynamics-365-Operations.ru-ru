@@ -1,13 +1,13 @@
 ---
-title: "Удаление сред Talent"
-description: "В этом разделе содержится пошаговое описание процесса удаления тестовой или производственной среды для Microsoft Dynamics 365 for Talent."
+title: Удаление сред Talent
+description: В этом разделе содержится пошаговое описание процесса удаления тестовой или производственной среды для Microsoft Dynamics 365 for Talent.
 author: rschloma
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306029"
 ---
 # <a name="remove-talent-environments"></a>Удаление сред Talent
 
@@ -73,5 +73,4 @@ ms.lasthandoff: 08/09/2018
 6. В проекте LCS выберите плитку **Управление приложением Talent**. 
 7. Выберите экземпляр, который вы хотите удалить, которой должен быть помечен статусом развертывания **Сбой**.
 8. Выберите **Удалить экземпляр** и подтвердите этот выбор. 
-
 

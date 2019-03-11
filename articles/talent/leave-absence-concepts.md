@@ -1,28 +1,27 @@
 ---
-title: "Концепции отпусков и отсутствия на работе"
-description: "В этой теме описываются концепции отпусков и отсутствия на работе, а также способ определения сальдо отгулов."
+title: Концепции отпусков и отсутствия на работе
+description: В этой теме описываются концепции отпусков и отсутствия на работе, а также способ определения сальдо отгулов.
 author: jcart
 manager: AnnBe
 ms.date: 01/03/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2019-01-01
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: a388e0efe6c19a3aabe04e7fff039ce11ae023c4
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 563593d6c93b0488c681f5b43004f5c0d22cc004
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306015"
 ---
-
 # <a name="leave-and-absence-concepts"></a>Концепции отпусков и отсутствия на работе
 
 [!include[banner](../includes/banner.md)]
@@ -297,4 +296,3 @@ ms.lasthandoff: 01/07/2019
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson (Джанет Никольсон) | 0,00              | 01.06.2018        | 01.06.2018   | 1.00           | 01.09.2018        | 3,00    |
 | Jay Norman (Джей Норман)          | 0,00              | 15.06.2018       | 15.06.2018  | 1.00           | 01.09.2018        | 2.00    |
-

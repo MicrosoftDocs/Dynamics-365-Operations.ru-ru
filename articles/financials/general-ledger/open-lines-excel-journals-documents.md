@@ -1,13 +1,13 @@
 ---
-title: "Публикация строк журналов и документов из Excel"
-description: "В этом разделе объясняется, как вводить и публиковать строки для финансовых журналов из Microsoft Excel. Сюда входят сведения о различных шаблонах, которые можно использовать в зависимости от типа вводимых проводок."
+title: Публикация строк журналов и документов из Excel
+description: В этом разделе объясняется, как вводить и публиковать строки для финансовых журналов из Microsoft Excel. Сюда входят сведения о различных шаблонах, которые можно использовать в зависимости от типа вводимых проводок.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36eed913e658433b9200043163aad38521381be2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321049"
 ---
-
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Публикация строк журналов и документов из Excel
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 03/26/2018
 При публикации строк они проходят проверку, чтобы убедиться в том, что они соответствуют правилам, которые настроены в финансовых журналах. После публикации строк пользователи могут редактировать или разносить ваучеры из Microsoft Dynamics 365 for Finance and Operations. 
 
 Чтобы добавить финансовые аналитики в шаблон требуются дополнительные изменения. Дополнительные сведения см. в разделе [Добавление аналитик в шаблон Microsoft Excel](../../dev-itpro/financial/add-dimensions-excel-templates.md). После добавления аналитик к объекту они будут доступны в конструкторе Excel и могут быть добавлены в шаблон.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Создание мероприятий процесса для бережливого производства"
-description: "Создайте мероприятие процесса для бережливого производства."
+---
+title: Создание мероприятий процесса для бережливого производства
+description: Создайте мероприятие процесса для бережливого производства.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityWizard, LeanWorkCellLookup, InventLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fa4d7fe2345d54faf405086a1e1bef599265470b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: dd77c20b622fd8a14e1cdf77883043699f9a6317
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345222"
 ---
 # <a name="create-process-activities-for-lean-manufacturing"></a>Создание мероприятий процесса для бережливого производства
 
@@ -93,5 +93,4 @@ ms.lasthandoff: 09/29/2017
 11. Щелкните Далее.
 12. Нажмите кнопку Готово.
 13. Закройте страницу.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Платежи клиенту на частичную сумму"
-description: "Клиенты иногда делают платеж, сумма которого меньше суммы накладной. Эта статья описывает различные варианты для обработки этой ситуации. Доступные варианты зависят от потребностей и конфигурации бизнеса."
+title: Платежи клиенту на частичную сумму
+description: Клиенты иногда делают платеж, сумма которого меньше суммы накладной. Эта статья описывает различные варианты для обработки этой ситуации. Доступные варианты зависят от потребностей и конфигурации бизнеса.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 510fda7bf35e459e0da5595b083e041bb708c873
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 6b7494a05392cbee70e6d5883bae0295e8b55ac9
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/18/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341381"
 ---
-
 # <a name="customer-payments-for-a-partial-amount"></a>Платежи клиенту на частичную сумму
 
 [!include [banner](../includes/banner.md)]
@@ -61,4 +60,3 @@ ms.lasthandoff: 01/18/2018
 
 
 Дополнительные сведения см. в разделе [Внесение платежей клиентов](tasks/deposit-customer-payments.md).
-

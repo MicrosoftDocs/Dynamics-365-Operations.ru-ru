@@ -1,13 +1,13 @@
---- 
-title: "Добавление предшествующего элемента к мероприятию производственного потока"
-description: "В версии производственного потока все мероприятия должны быть последовательными."
+---
+title: Добавление предшествующего элемента к мероприятию производственного потока
+description: В версии производственного потока все мероприятия должны быть последовательными.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9acb1c2672af70f535f3dce1c8f5a97e8d479158
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d19fb20e8cc941daeaa506e4bf1cb0c7031cf2ee
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343681"
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a>Добавление предшествующего элемента к мероприятию производственного потока
 
@@ -51,5 +51,4 @@ ms.lasthandoff: 09/29/2017
 4. В поле "Коэффициент времени цикла" введите число.
     * Коэффициент времени цикла по умолчанию для связи мероприятий равен 1. Это предполагает, что оба мероприятия выполняются в одном темпе или с одинаковым временем такта. Если предшествующий элемент работает в более высоком темпе (с меньшим временем такта), коэффициент должен быть меньше 1, если предшествующий элемент работает в более медленном темпе (с большим временем такта) коэффициент времени цикла будет больше 1.  
 5. Нажмите кнопку "OК".
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Настройка workflow-процессов по номенклатуре строки"
-description: "В этом разделе описывается, как настроить элемент workflow-процесса номенклатуры по строке."
+title: Настройка workflow-процессов по номенклатуре строки
+description: В этом разделе описывается, как настроить элемент workflow-процесса номенклатуры по строке.
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 66e79389bba4566176330914ace462110cd0aa22
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0a57baa3ecae727721f62477cfc5fa41f60ad06d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336114"
 ---
-
 # <a name="configure-line-item-workflows"></a>Настройка workflow-процессов по номенклатуре строки
 
 [!include [banner](../includes/banner.md)]
@@ -56,4 +55,3 @@ ms.lasthandoff: 08/09/2018
     6. Чтобы проверить, что введенный набор условий настроен верно, нажмите **Проверка**. На странице **Проверить условие workflow-процесса** в области **Проверить условие** выберите запись и щелкните **Проверка**. Система оценит запись и определит, соответствует ли она определенным вами условиям. Нажмите кнопку **OK** или **Отмена** для возврата на страницу **Свойства**.
 
     На вкладке **Workflow-процесс** выберите workflow-процесс, который будет использоваться для обработки номенклатур строк, которые соответствуют определенным вами условиям.
-

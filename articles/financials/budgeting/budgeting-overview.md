@@ -1,13 +1,13 @@
 ---
-title: "Домашняя страница бюджетирования"
-description: "В этом разделе содержится обзор компонентов функции бюджетирования, инструментов бюджетирования и возможностей отчетности в Microsoft Dynamics 365 for Finance and Operations."
+title: Домашняя страница бюджетирования
+description: В этой теме представлен обзор компонентов функции бюджетирования, инструментов бюджетирования и возможностей отчетности в Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/09/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 84321b78c9869a4920c3488373876bb56bcb3a29
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: efe348d9967ab7594afd22a3ebb4df76dc6607f8
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302805"
 ---
-
 # <a name="budgeting-home-page"></a>Домашняя страница бюджетирования
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ ms.lasthandoff: 03/26/2018
 -   [Базовое бюджетирование: обзор и настройка](basic-budgeting-overview-configuration.md)
 -   [Бюджетный контроль: обзор и настройка](budget-control-overview-configuration.md)
 -   [Бюджетное планирование: обзор и настройка](budget-planning-overview-configuration.md)
--   [Прогнозирование должностей](position-forecasting.md)
+-   [Прогнозирование должности](position-forecasting.md)
 -   [Документы обоснования бюджетного планирования](budget-planning-justification-docs.md)
 -   [Шаблоны Microsoft Excel для бюджетного планирования](budget-planning-excel-templates.md)
 
@@ -66,7 +65,6 @@ ms.lasthandoff: 03/26/2018
 В Finance and Operations пользователи могут создавать бюджетные планы как непосредственно в клиенте Finance and Operations (на странице документа настраиваемого бюджетного плана), так и с помощью Excel. В Excel имеется несколько дополнительных возможностей. Например, можно в качестве источника бюджетного плана использовать внешние данные, выполнять собственные расчеты, использовать диаграммы и сводные таблицы Microsoft Excel. Большинство переменных в процессе бюджетного планирования можно настраивать. 
 
 Например, можно определить, кто выполняет бюджетирование, что входит в бюджет и как выглядит процесс. Хотя для бюджетного планирования можно использовать Excel, Finance and Operations остается единственным источником надежных данных и помогает избежать проблем бюджетного контроля. Для добавления в бюджетный план исходных данных можно использовать периодические процессы. Для отчетности в Finance and Operations имеется набор стандартных страниц запросов, которые позволяют просматривать и анализировать данные бюджетирования. С данными бюджетного плана можно работать через Management Reporter; отдельные сценарии бюджетного планирования при этом отображаются в виде столбцов отчета Management Reporter.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Содержимое управления затратами в Power BI"
-description: "В этой теме описывается, что входит в содержимое Power BI для управления затратами."
+title: Пакет содержимого Power BI для управления затратами
+description: В этой теме описывается, что входит в содержимое Power BI для управления затратами.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -19,15 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f67b1c901267bdf79c94e4f4c698c8731c515bb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327811"
 ---
-
-# <a name="cost-management-power-bi-content"></a>Содержимое управления затратами в Power BI
+# <a name="cost-management-power-bi-content"></a>Пакет содержимого Power BI для управления затратами
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,9 +35,9 @@ ms.lasthandoff: 08/13/2018
 Содержимое Microsoft Power BI **Управление затратами** предназначено для бухгалтеров по складскому учету или сотрудников в организации, которые отвечают за или заинтересованы в статусе запасов или незавершенного производства (НЗП), или которые отвечают за или заинтересованы в анализе расхождений стандартной себестоимости.
 
 > [!NOTE]
-> Содержимое Power BI **Управление затратами**, описанное в этом разделе, относится к Dynamics 365 for Finance and Operations 8.0.
+> Содержимое Power BI **Управление затратами**, описываемое в этой теме, относится к Dynamics 365 for Finance and Operations 8.0.
 > 
-> Пакет содержимого Power BI **Управление затратами**, доступный на сайте AppSource, является устаревшим. Дополнительные сведения об этом устаревании см. в разделе [Пакеты содержимого Power BI, доступные в AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Пакет содержимого Power BI **Управление затратами**, доступный на сайте AppSource, является устаревшим. Дополнительные сведения об этом устаревании см. в разделе [Пакет содержимого Power BI, доступный в AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Это содержимое Power BI предоставляет формат по категориям, который помогает контролировать эффективность запасов и визуально отображать, как через них проходят затраты. Можно получить аналитику для менеджеров, такую как коэффициент товарооборота, количество дней, когда запасы находятся в наличии, точность и "ABC-классификация" на требуемом уровне обобщения (компания, номенклатура, номенклатурная группа или место). Информация, которая становится доступна, может также использоваться как подробное приложение к финансовой отчетности.
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 08/13/2018
 - **Анализ учета производства** — на этой вкладке отображается содержимое Power BI.
 - **Анализ отклонения стандартной стоимости** — на этой вкладке отображается содержимое Power BI.
 
-## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Страницы отчета, которые включены в содержимое Power BI
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Страницы отчетов, включенные в содержимое Power BI
 
 Содержимое Power BI **Управление затратами** включает набор страниц отчет, состоящий из набора показателей. Эти показатели отображаются в виде диаграмм, плиток и таблиц. 
 
@@ -173,7 +172,7 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 
-Данные из Microsoft Dynamics 365 for Finance and Operations используются для заполнения страниц отчета в содержимом Power BI **Управление затратами**. Эти данные представлены как агрегированные измерения, которые помещаются на временное хранение в хранилище объектов, которая представляет собой базу данных Microsoft SQL Server, оптимизированную для аналитики. Дополнительные сведения см. в разделе [Интеграция Power BI с хранилищем объектов](power-bi-integration-entity-store.md).
+Данные из Microsoft Dynamics 365 for Finance and Operations используются для заполнения страниц отчета в содержимом Power BI **Управление стоимостью**. Эти данные представлены как агрегированные измерения, которые помещаются на временное хранение в хранилище объектов, которая представляет собой базу данных Microsoft SQL Server, оптимизированную для аналитики. Дополнительные сведения см. в разделе [Интеграция Power BI с хранилищем объектов](power-bi-integration-entity-store.md).
 
 Ключевые агрегированные измерения следующих объектов используются в качестве основы для содержимого Power BI.
 
@@ -209,4 +208,3 @@ ms.lasthandoff: 08/13/2018
 | Юридические лица                                          | Названия юридических лиц                              |
 | Финансовые календари                                        | Финансовый календарь, Год, Квартал, Период, Месяц   |
 | Узел                                                    | Идентификатор, Имя, Адрес, Регион, Страна               |
-

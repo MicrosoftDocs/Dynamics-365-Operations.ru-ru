@@ -1,13 +1,13 @@
 ---
-title: "Типы счетов ГК"
-description: "Типы счетов ГК определяют, каким образом счет ГК используется в плане счетов."
+title: Типы счетов ГК
+description: Типы счетов ГК определяют, каким образом счет ГК используется в плане счетов.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5aadac3defc01be10daf5f3737d428135f4fb544
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 31d070972afd76f6069924e2c9a1ca3bcb4ba8d2
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313873"
 ---
-
 # <a name="main-account-types"></a>Типы счетов ГК
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ ms.lasthandoff: 11/03/2017
 -   "Отчетность" — эти счета ГК используются для составления финансовых отчетов только для Бразилии.
 
 Дополнительные сведения см. в разделе [Настройка категорий счетов ГК](tasks/set-up-main-account-categories.md).
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Новые или обновленные руководства по задачам (май 2016 г.)"
-description: "В этой статье перечислены новые или обновленные руководства по задачам, выпущенные в унифицированной библиотеке APQC (май 2016 г. — все языки) от Майкрософт для Microsoft Dynamics AX. Новая библиотека начала работы не была выпущена."
+title: Новые или обновленные руководства по задачам (май 2016 г.)
+description: В этой статье перечислены новые или обновленные руководства по задачам, выпущенные в унифицированной библиотеке APQC (май 2016 г. — все языки) от Майкрософт для Microsoft Dynamics AX. Новая библиотека начала работы не была выпущена.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341358"
 ---
-
 # <a name="new-or-updated-task-guides-may-2016"></a>Новые или обновленные руководства по задачам (май 2016 г.)
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 12/18/2018
 
 ## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Руководства по задачам в унифицированной библиотеке APQC (май 2016 г. — все языки) для Microsoft Dynamics AX
 
-Унифицированная библиотека APQC (май 2016 г.) содержит руководства по задачам, которые предназначены для использования в справке по обновлению Microsoft Dynamics AX за май 2016 г. и выпуску Microsoft Dynamics AX за февраль 2016 г. Локализованные версии руководств по задачам, выпущенные в унифицированной библиотеке APQC (февраль 2016 г.), доступны в этой библиотеке. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Начало работы со справкой](help-overview.md).
+Унифицированная библиотека APQC (май 2016 г.) содержит руководства по задачам, которые предназначены для использования в справке по выпуску Microsoft Dynamics AX за май 2016 г. и Microsoft Dynamics AX за февраль 2016 г. Локализованные версии руководств по задачам, выпущенные в унифицированной библиотеке APQC (февраль 2016 г.), доступны в этой библиотеке. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Начало работы со справкой](help-overview.md).
 
 > [!NOTE]
 > Символ звездочки (\*) рядом с заголовком строки средства моделирования бизнес-процессов указывает, что руководство по задаче для этого бизнес-процесса было создано для обновления Dynamics AX за май 2016 г. и не поддерживается в более ранних версиях Microsoft Dynamics AX.
@@ -195,4 +194,3 @@ ms.lasthandoff: 12/18/2018
 [Новые или обновленные руководства по задачам (август 2016 г.)](new-updated-task-guides-available-august-2016.md)
 
 [Новые или обновленные руководства по задачам (ноябрь 2016 г.)](new-task-guides-november-2016.md)
-

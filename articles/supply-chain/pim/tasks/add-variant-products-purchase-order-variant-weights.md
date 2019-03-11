@@ -1,13 +1,13 @@
---- 
-title: "Добавление вариантов продуктов в заказы на покупку с использованием весов вариантов"
-description: "Эта процедура содержит инструкции по использованию различных вариантов веса для автоматического заполнения строк заказа на покупку для каждого варианта продукта."
+---
+title: Добавление вариантов продуктов в заказы на покупку с использованием весов вариантов
+description: Эта процедура содержит инструкции по использованию различных вариантов веса для автоматического заполнения строк заказа на покупку для каждого варианта продукта.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 446260a09bd5177877637ac8a288ad584dfa2b2b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3db13646c82ea6dc6949aaa714a5769f9c5ad2a9
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345498"
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>Добавление вариантов продуктов в заказы на покупку с использованием весов вариантов
 
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 16. В поле "Код номенклатуры" введите "0140".
 17. В поле "Количество" укажите "1000".
 18. Нажмите кнопку "Сохранить".
-
 

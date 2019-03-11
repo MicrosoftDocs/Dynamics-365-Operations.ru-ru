@@ -1,13 +1,13 @@
---- 
-title: "Создание заказа на покупку для разового поставщика"
-description: "В этой процедуре показано, как создать заказ на покупку для разового поставщика."
+---
+title: Создание заказа на покупку для разового поставщика
+description: В этой процедуре показано, как создать заказ на покупку для разового поставщика.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: beaf6bcbc870e11e74289375611c631306545633
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2d4dabaf6e1d79cbd626294ee4e327f2725a5e43
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312884"
 ---
 # <a name="create-a-purchase-order-for-a-one-time-supplier"></a>Создание заказа на покупку для разового поставщика
 
@@ -38,5 +38,4 @@ ms.lasthandoff: 09/29/2017
 4. В поле "Имя" введите имя поставщика.
 5. Нажмите кнопку "OК".
     * Заказ на покупку теперь можно завершить и обработать как любой другой заказ. Не существует особых характеристик, связанных с тем, как это выполняется. В накладной будет учитываться проводка к оплате в счете поставщика, который был создан с заказом, после чего будет обработан платеж. По завершении этого счет поставщика можно удалить. Обычно эту операцию выполняет отдел по расчетам с поставщиками.  
-
 

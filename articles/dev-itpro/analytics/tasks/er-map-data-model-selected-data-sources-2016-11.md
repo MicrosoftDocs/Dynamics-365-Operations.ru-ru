@@ -1,13 +1,13 @@
---- 
-title: "Электронная отчетность Сопоставление модели данных с выбранными источникам данных"
-description: "В следующих шагах поясняется, как пользователь с ролью \"Системный администратор\" или \"Разработчик электронной отчетности\" может сопоставить модель данных электронной отчетности с выбранными источниками данных Dynamics 365 for Finance and Operations, Enterprise edition."
+---
+title: Электронная отчетность Сопоставление модели данных с выбранными источникам данных
+description: В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может сопоставить модель данных электронной отчетности с выбранными источниками данных Dynamics 365 for Finance and Operations, Enterprise edition.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 249bf3f3806ed43eccf39086bdf9697a3e879c27
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331560"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>Электронная отчетность Сопоставление модели данных с выбранными источникам данных
 
@@ -146,5 +146,4 @@ ms.lasthandoff: 09/14/2018
 4. Нажмите кнопку "OК".
 5. Выберите завершенную версию текущей конфигурации.
     * Обратите внимание, что созданная конфигурация сохраняется как завершенная версия 1.  
-
 

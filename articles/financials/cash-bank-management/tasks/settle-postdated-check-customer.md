@@ -1,13 +1,13 @@
---- 
-title: "Сопоставление датированного будущим числом чека от клиента"
-description: "Можно сопоставить чек, датированный задним числом, после того как банком был выполнен клиринг чека."
+---
+title: Сопоставление датированного будущим числом чека от клиента
+description: Можно сопоставить чек, датированный задним числом, после того как банком был выполнен клиринг чека.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPostDatedChecks, SystemDate, LedgerJournalTable, LedgerJournalTransDaily, LedgerTransVoucher
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 86cefaac99a1ce5aa777f4f62456c3248045cc27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a905166dcfbf8cee5b0e5831b47c95d443a74f8d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338253"
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Сопоставление датированного будущим числом чека от клиента
 
@@ -55,5 +55,4 @@ ms.lasthandoff: 09/29/2017
 9. Выберите Строки.
 10. Щелкните "Операция".
 11. Закройте страницу.
-
 

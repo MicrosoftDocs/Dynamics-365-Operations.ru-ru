@@ -1,14 +1,14 @@
 ---
-title: "Шаблоны сообщений эл. почты"
-description: "Этот раздел содержит сведения о шаблонах электронной почты, которые можно создать и использовать в Microsoft Dynamics 365 for Talent - Attract."
+title: Шаблоны сообщений эл. почты
+description: Этот раздел содержит сведения о шаблонах электронной почты, которые можно создать и использовать в Microsoft Dynamics 365 for Talent - Attract.
 author: josaw
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305991"
 ---
-
 # <a name="email-templates"></a>Шаблоны сообщений эл. почты
 [!include[banner](../includes/banner.md)]
 
@@ -81,4 +80,3 @@ ms.lasthandoff: 01/04/2019
 
 > [!NOTE] 
 > Для автоматически отправляемых сообщений электронной почты можно создать несколько шаблонов. Однако только один шаблон можно задать в качестве активного шаблона. Поскольку этот процесс запускается событием, только администратор может определить шаблон, который необходимо использовать, на основе сочетания значков **По умолчанию** и **Отправляется автоматически** в библиотеке шаблонов.
-

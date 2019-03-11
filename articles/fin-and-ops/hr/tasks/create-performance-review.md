@@ -1,13 +1,13 @@
---- 
-title: "Создание оценки производительности"
-description: "Эта процедура показывает порядок создания оценки производительности и описывает назначение каждого раздела оценки."
+---
+title: Создание оценки производительности
+description: Эта процедура показывает порядок создания оценки производительности и описывает назначение каждого раздела оценки.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: 437a63159f0333434175acce081fa4ff417c334b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338483"
 ---
 # <a name="create-a-performance-review"></a>Создание оценки производительности
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Эта процедура показывает порядок создания оценки производительности и описывает назначение каждого раздела оценки. Эта процедура была создана с использованием демонстрационных данных компании USMF. Эта процедура предназначена для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
+Эта процедура показывает порядок создания оценки производительности и описывает назначение каждого раздела оценки. Эта процедура была создана с использованием демонстрационных данных компании USMF. Эта процедура для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
 
 1. Щелкните "Портал самообслуживания сотрудников".
 2. Чтобы создать новую оценку, нажмите кнопку "Новая оценка".
@@ -79,5 +79,4 @@ ms.lasthandoff: 09/13/2018
     * По мере последовательного изменения статусов оценки сотрудник и менеджер могут добавить комментарии для каждой цели или компетенции.  
 42. Перейдите на вкладку "Утверждения".
     * Работник и менеджер могут утвердить оценку. После получения всех необходимых утверждений статус изменяется на "Завершено" и никакие дальнейшие изменения не допускаются.  
-
 

@@ -1,32 +1,31 @@
 ---
-title: "Идентификаторы продуктов"
-description: "В этом разделе представлены сведения о различных типах идентификаторов продуктов и объясняется, как можно добавить идентификаторы продуктов в данных продукции."
+title: Идентификаторы продуктов
+description: В этом разделе представлены сведения о различных типах идентификаторов продуктов и объясняется, как можно добавить идентификаторы продуктов в данных продукции.
 author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: afd542a652abdf6e45c83a6097dc8f0d36efa905
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/23/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335424"
 ---
-
 # <a name="product-identifiers"></a>Идентификаторы продуктов 
 
 [!include [banner](../includes/banner.md)]
@@ -186,4 +185,3 @@ Finance and Operations предлагает дополнительное кра�
 ## <a name="related-topic"></a>Связанные раздел
 
 [Поиск продуктов и вариантов продуктов во время ввода заказа](search-products-product-variants.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Настройка компонентов должности"
-description: "В этом разделе описываются общие элементы, которые может содержать должность, и приводятся примеры того, как можно использовать эти элементы в вашей организации."
+title: Настройка компонентов должности
+description: В этом разделе описываются общие элементы, которые может содержать должность, и приводятся примеры того, как можно использовать эти элементы в вашей организации.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User
 ms.author: rschloma
@@ -18,19 +18,17 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377167"
 ---
-
 # <a name="set-up-the-components-of-a-job"></a>Настройка компонентов должности
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 В этом разделе описываются общие элементы, которые может содержать должность, и приводятся примеры того, как можно использовать эти элементы в вашей организации. 
 
@@ -75,7 +73,7 @@ ms.lasthandoff: 08/09/2018
 <td>Менеджер по продажам</td>
 <td><ul>
 <li><strong>Обзор производительности</strong> — обзор производительности задания каждого продавца.</li>
-<li><strong>Обзор отсутствия</strong> — утверждение или отклонение запросов или регистраций отсутствия каждого продавца.</li>
+<li><strong>Обзор отсутствия</strong> — утверждение или отклонение запросов или регистраций отсутствий каждого продавца.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -92,4 +90,3 @@ ms.lasthandoff: 08/09/2018
 
 ## <a name="steps-for-creating-a-job"></a>Шаги для создания должности
 Описание пошаговой процедуры создания новой должности см. в разделе [Определение новых должностей](../fin-and-ops/hr/tasks/define-new-jobs.md). 
-

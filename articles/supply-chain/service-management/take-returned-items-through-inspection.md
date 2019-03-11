@@ -1,32 +1,30 @@
 ---
-title: "Прохождение возвратом процедуры проверки"
-description: "Прохождение возвратом процедуры проверки."
+title: Прохождение возвратом процедуры проверки
+description: Прохождение возвратом процедуры проверки.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventQuarantineOrder
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 82d94e055326e598113822b8d7c4852b7dcb0c4e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: df209cfdbdef591e9f24161b3651316c43d69ee0
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356492"
 ---
-
-
 # <a name="take-returned-items-through-inspection"></a>Прохождение возвратом процедуры проверки 
 
 [!include [banner](../includes/banner.md)]
@@ -58,6 +56,5 @@ ms.lasthandoff: 05/08/2018
 [Определение порядка списания возврата](specify-how-to-dispose-of-returned-items.md)
 
   
-
 
 

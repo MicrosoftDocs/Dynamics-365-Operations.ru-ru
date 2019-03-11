@@ -1,13 +1,13 @@
 ---
-title: "Розничные отчеты"
-description: "В этой теме описывается, как создаются и разносятся отчеты."
+title: Розничные отчеты
+description: В этой теме описывается, как создаются и разносятся отчеты.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347706"
 ---
-
-# <a name="retail-statements"></a>Розничные отчеты
+# <a name="retail-statements"></a>Журналы операций розничной торговли
 
 [!include [banner](includes/banner.md)]
 
@@ -86,7 +85,6 @@ ms.lasthandoff: 01/04/2019
 При разноске создаются отчета заказы на продажу и накладные для розничных продаж в отчете.
 
 - Мелкооптовые продажи за наличные объединяются в один заказ на продажу и включаются в накладную для клиента по умолчанию, назначенного магазину.
-- Розничные продажи, в которых клиент был добавлен в проводку в Microsoft Dynamics 365 for Retail POS, создают отдельные заказы на продажу и накладные — по одной для каждого уникального клиента.
+- Розничные продажи, в которых клиент был добавлен в проводку в POS Microsoft Dynamics 365 for Retail, создают отдельные заказы на продажу и накладные — по одной для каждого уникального клиента.
 
 Журналы платежей автоматически создаются для платежей в отчете, а сведения о запасах для POS обновляются.
-

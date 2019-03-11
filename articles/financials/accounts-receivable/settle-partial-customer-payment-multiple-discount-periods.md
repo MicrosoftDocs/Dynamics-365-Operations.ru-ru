@@ -1,13 +1,13 @@
 ---
-title: "Сопоставление частичного платежа клиента с несколькими периодами скидок"
-description: "В этой статье показано, как сопоставляются частичные платежи клиента при наличии нескольких периодов скидки."
+title: Сопоставление частичного платежа клиента с несколькими периодами скидок
+description: В этой статье показано, как сопоставляются частичные платежи клиента при наличии нескольких периодов скидки.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60c8b9b3a5aebed7e1a999335aab0baf83ea952a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ac64ece82abe75f3cba437b1ec1af499fbbce8e4
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337908"
 ---
-
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Сопоставление частичного платежа клиента с несколькими периодами скидок
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,6 @@ Fabrikam предлагает клиенту 4031 два периода скид
 | DISC-10030 |  Скидка по оплате   | 28.06.2015 |         |                                      | 6,00                                  | 0,00    | американский доллар      |
 | ARP-10031  |  Платеж         | 08.07.2015  |         |                                      | 693.00                                | 0,00    | американский доллар      |
 | DISC-1031  |  Скидка по оплате   | 08.07.2015  |         |                                      | 7,00                                  | 0,00    | американский доллар      |
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Определение и разрешение конфликтов в разделении обязанностей"
-description: "Можно настроить правила для разделения задач, которые должны выполняться разными пользователями."
+---
+title: Определение и разрешение конфликтов в разделении обязанностей
+description: Можно настроить правила для разделения задач, которые должны выполняться разными пользователями.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesConflict, SysSecSegregationOfDutiesRule
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9d4a6bd14090213cc19a072d030bc26886c7a8d0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c3a366ea4b558ba4e4af7336992dbb091b0b1414
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353111"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Определение и разрешение конфликтов в разделении обязанностей
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
     * Выберите правило.  
 2. Щелкните "Проверить обязанности и роли".
     * Если какая-либо из имеющихся ролей нарушают выбранное правило, выводится сообщение, которое содержит имя роли и имена конфликтующих полномочий. Администратор должен либо указать меры снижения риска для безопасности, либо изменить роль так, чтобы она не нарушала правила разделения обязанностей.     Если никакие роли не нарушают выбранное правило, выводится сообщение о том, что все роли соответствуют требованиям.  
-
 

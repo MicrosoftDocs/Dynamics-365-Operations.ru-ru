@@ -1,13 +1,13 @@
 ---
-title: "Рабочая область управления банками"
-description: "В этой теме содержится информация о рабочей области управления банками. В этой рабочей области отображаются сведения, которые связаны с банковскими счетами компании, представление сводки и страница аналитики. Представление сводки показывает сводные плитки, сведения о банковском счете, диаграмму сальдо и связанные данные. Страницы аналитики использует возможности Microsoft Power BI для отображения визуальных объектов, которые относятся к сальдо банковского счета."
+title: Рабочая область управления банками
+description: В этой теме содержится информация о рабочей области управления банками. В этой рабочей области отображаются сведения, которые связаны с банковскими счетами компании, представление сводки и страница аналитики. Представление сводки показывает сводные плитки, сведения о банковском счете, диаграмму сальдо и связанные данные. Страницы аналитики использует возможности Microsoft Power BI для отображения визуальных объектов, которые относятся к сальдо банковского счета.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fdc0d1e5ea02cdcff9f7f5ede4ab685f54365698
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/05/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348373"
 ---
 # <a name="bank-management-workspace"></a>Рабочая область управления банками
 
@@ -64,4 +64,3 @@ ms.lasthandoff: 03/05/2018
 -   Сальдо по валютам
 
 Можно просмотреть аналитики банка для всех компаний в рабочей области **Обзор кассы — все компании**.
-

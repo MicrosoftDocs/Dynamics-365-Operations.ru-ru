@@ -1,13 +1,13 @@
 ---
-title: "Настройка банковских счетов (Россия)"
-description: "В этой теме содержится информация о локальных параметрах и необходимых условиях для банковских модулей для России."
+title: Настройка банковских счетов (Россия)
+description: В этой теме содержится информация о локальных параметрах и необходимых условиях для банковских модулей для России.
 author: anasyash
 manager: AnnBe
 ms.date: 12/06/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankGroup, BankAccountTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 060c3dec71e2b953d9341c5b5c89e60925fda34d
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 25c15f9516dbd6511d0a507f9fc4a838ce363294
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371797"
 ---
-
 # <a name="set-up-bank-accounts-russia"></a>Настройка банковских счетов (Россия)
 
 [!include [banner](../includes/banner.md)]
@@ -87,4 +86,3 @@ ms.lasthandoff: 12/08/2018
 > Прежде чем определять шаблон документа, создайте шаблоны в виде файлов и вложите их в запись. Определить наличие вложенных документов можно по числовому индикатору на значке **Вложения документов**.
 
 ![Банковский счет](media/rus-bank-account.jpg)
-

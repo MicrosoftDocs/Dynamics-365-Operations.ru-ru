@@ -1,13 +1,13 @@
 ---
-title: "Планирование организационной иерархии"
-description: "Прежде чем настраивать организации и организационные иерархии, вы должны понять, как лучше всего смоделировать вашу компанию."
+title: Планирование организационной иерархии
+description: Прежде чем настраивать организации и организационные иерархии, вы должны понять, как лучше всего смоделировать вашу компанию.
 author: sericks007
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 633d85333a510cec9cee2721e6e2330a47b6c78c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331997"
 ---
-
 # <a name="plan-your-organizational-hierarchy"></a>Планирование организационной иерархии
 
 [!include [banner](../includes/banner.md)]
@@ -243,4 +242,3 @@ ms.lasthandoff: 12/18/2018
 - Перед моделированием основных сценариев реструктуризации используйте даты вступления в силу иерархии для выполнения анализа влияния и проверочного испытания.
 - Используйте режим черновика для изменения иерархии до публикации новой версии в производственной среде.
 - Ограничьте число людей, которые будут иметь разрешения на добавление или удаление организаций из иерархии в производственной среде. Чем меньше таких пользователей, тем меньше вероятность возникновения дорогостоящих ошибок, которые будет необходимо исправить.
-

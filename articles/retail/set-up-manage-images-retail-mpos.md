@@ -1,13 +1,13 @@
 ---
-title: "Настройка и управление изображениями для Retail Modern POS (MPOS)"
-description: "В этой статье описываются шаги, которые выполняются при настройке и управлении изображениями для различных объектов, которые отображаются в Retail Modern POS (MPOS)."
+title: Настройка изображений для Retail Modern POS (MPOS) и управление ими
+description: В этой статье описываются шаги, которые выполняются при настройке и управлении изображениями для различных объектов, которые отображаются в Retail Modern POS (MPOS).
 author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
 audience: Application User
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d2f4cc99ec239c4c35c44a226235d01e18d4185f
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356745"
 ---
-
-# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Настройка и управление изображениями для Retail Modern POS (MPOS)
+# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Настройка изображений для Retail Modern POS (MPOS) и управление ими
 
 [!include [banner](includes/banner.md)]
 
@@ -47,7 +46,7 @@ ms.lasthandoff: 01/04/2019
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>Настройка базового URL-адреса мультимедиа для канала
 
-1. Откройте портал центрального офиса Dynamics 365 for Retail.
+1. Откройте портал центрального офиса Dynamics 365 for Retail HQ.
 2. Выберите **Розничная торговля** &gt; **Настройка канала** &gt; **Профили канала**.
 
     [![профиль-канала1](./media/channel-profile1.png)](./media/channel-profile1.png)
@@ -214,4 +213,3 @@ MPOS может работать в режиме онлайн (с подключ
 5. Следуйте тем же инструкциям для остальных объектов, таких как "Категория", "Сотрудник" и "Клиент".
 
     [![автономный-режим2](./media/offline2.png)](./media/offline2.png)
-

@@ -1,13 +1,13 @@
 ---
-title: "Прогнозирование движения денежных средств"
-description: "В этом разделе представлен обзор процесса прогноза движения денежных средств. Здесь также объясняется, как прогноз движения денежных средств интегрируется с другими модулями в системе."
+title: Прогнозирование движения денежных средств
+description: В этом разделе представлен обзор процесса прогноза движения денежных средств. Здесь также объясняется, как прогноз движения денежных средств интегрируется с другими модулями в системе.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 681817f2879034d65b53666a9d56ec00cc175ad8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9aefc79897d0abcee14c05f33516181b3eb05e55
-ms.contentlocale: ru-ru
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324499"
 ---
-
 # <a name="cash-flow-forecasting"></a>Прогнозирование движения денежных средств
 
 [!include [banner](../includes/banner.md)]
@@ -138,5 +137,4 @@ ms.lasthandoff: 02/07/2018
 - **Все заказы на покупку**: на вкладке **Накладная** выберите **Прогнозы движения денежных средств** для просмотра прогнозируемого влияния денежных средств по выбранному заказу на покупку.
 - **Прогноз поставки**: выберите **Прогнозы движения денежных средств** для просмотра будущего движения денежных средств, которое связано с выбранным прогнозом поставки номенклатуры.
 - **Прогноз спроса**: выберите **Прогнозы движения денежных средств** для просмотра будущего движения денежных средств, которое связано с выбранным прогнозом спроса номенклатуры.
-
 

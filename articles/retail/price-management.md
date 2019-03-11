@@ -1,14 +1,14 @@
 ---
-title: "Управление розничной ценой продажи"
-description: "В этом разделе описываются принципы создания цен продажи и управления ими в Microsoft Dynamics 365 for Retail."
+title: Управление розничной ценой продажи
+description: В этом разделе описываются принципы создания цен продажи и управления ими в Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 04/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -17,15 +17,14 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362150"
 ---
-
-# <a name="retail-sales-price-management"></a>Управление розничной ценой продажи
+# <a name="retail-sales-price-management"></a>Управление ценой продажи розничной торговли
 
 [!include [banner](includes/banner.md)]
 
@@ -232,4 +231,3 @@ Microsoft SQL Server Express часто используется для базы
 
 - Цена основана на аналитиках продукта, в порядке от цены самого конкретного варианта до цены наименее конкретного варианта и до цены шаблона продукта. Цена, устанавливаемая с помощью двух аналитик продукта (например, цвет и размер) используется до цены, устанавливаемой с помощью только одной аналитики продукта (например, размер).
 - Одна и та же ценовая группа может использоваться для управления ценообразованием и скидками.
-

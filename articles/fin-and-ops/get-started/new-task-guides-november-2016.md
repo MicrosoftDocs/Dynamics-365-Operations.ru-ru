@@ -1,13 +1,13 @@
 ---
-title: "Новые или обновленные руководства по задачам (ноябрь 2016 г.)"
-description: "В этом разделе перечислены новые или обновленные руководства по задачам, выпущенные в унифицированной библиотеке APQC (ноябрь 2016 г. — все языки) от Майкрософт для Microsoft Dynamics 365 for Operations. Новая библиотека начала работы не была выпущена."
+title: Новые или обновленные руководства по задачам (ноябрь 2016 г.)
+description: В этом разделе перечислены новые или обновленные руководства по задачам, выпущенные в унифицированной библиотеке APQC (ноябрь 2016 г. — все языки) от Майкрософт для Microsoft Dynamics 365 for Operations. Новая библиотека начала работы не была выпущена.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,21 +17,20 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9cba30560762b5f647621aafb8db19241523f904
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348925"
 ---
-
 # <a name="new-or-updated-task-guides-november-2016"></a>Новые или обновленные руководства по задачам (ноябрь 2016 г.)
 
 [!include [banner](../includes/banner.md)]
 
 В этом разделе перечислены новые или обновленные руководства по задачам, выпущенные в унифицированной библиотеке APQC (ноябрь 2016 г. — все языки) от Майкрософт для Microsoft Dynamics 365 for Operations. Новая библиотека начала работы не была выпущена.
 
-Унифицированная библиотека APQC (ноябрь 2016 г. — все языки) содержит руководства по задачам, которые предназначены для получения справки по Microsoft Dynamics 365 for Operations, платформе Microsoft Dynamics 365 for Operations, обновление 3, платформе Microsoft Dynamics AX, обновление 2, Dynamics AX с обновлением от мая 2016 г. и Microsoft Dynamics AX, выпуск февраля 2016 г. Дополнительные сведения об этих выпусках см. в разделе [Что нового и что изменилось](whats-new-changed.md). Локализованные версии руководств по задачам доступны в данной библиотеке. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Начало работы со справкой](help-overview.md).
+Унифицированная библиотека APQC (ноябрь 2016 г. — все языки) содержит руководства по задачам, которые предназначены для использования в справке по Microsoft Dynamics 365 for Operations, обновлению 3 платформы Microsoft Dynamics 365 for Operations, обновлению 2 платформы Microsoft Dynamics AX, обновлению приложения Dynamics AX за май 2016 г. и выпуску Microsoft Dynamics AX за февраль 2016 г. Дополнительные сведения об этих выпусках см. в разделе [Что нового и что изменилось](whats-new-changed.md). Локализованные версии руководств по задачам доступны в данной библиотеке. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Начало работы со справкой](help-overview.md).
 
 > [!NOTE]
 > Символ звездочки (\*) рядом с заголовком строки средства моделирования бизнес-процессов указывает, что руководство по задаче для этого бизнес-процесса было создано для обновления Dynamics 365 for Operations за ноябрь 2016 г. и не поддерживается в более ранних версиях Microsoft Dynamics AX.
@@ -549,4 +548,3 @@ ms.lasthandoff: 12/18/2018
 [Доступны новые или обновленные руководства по задачам (май 2016 г.)](new-updated-task-guides-available-may-2016.md)
 
 [Доступны новые или обновленные руководства по задачам (август 2016 г.)](new-updated-task-guides-available-august-2016.md)
-

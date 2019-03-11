@@ -1,13 +1,13 @@
---- 
-title: "Ключевые сведения по накладной в систему расчетов с поставщиками с использованием журнала утверждения"
-description: "В этом руководстве по задаче показано, как использовать регистр накладных для создания накладных и последующего использования журнала утверждения для обновления счетов расходов."
+---
+title: Ключевые сведения по накладной в систему расчетов с поставщиками с использованием журнала утверждения
+description: В этом руководстве по задаче показано, как использовать регистр накладных для создания накладных и последующего использования журнала утверждения для обновления счетов расходов.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransInvoiceRegister, HcmWorkerLookUp, LedgerJournalTransApprove, LedgerJournalTransApproveFetchVouchers, LedgerTransVoucher
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 048eda77064b6aa3f666e998a8e551d2f7adc385
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363530"
 ---
 # <a name="key-invoice-data-into-ap-system-using-approval-journal"></a>Ключевые сведения по накладной в систему расчетов с поставщиками с использованием журнала утверждения
 
@@ -62,5 +62,4 @@ ms.lasthandoff: 09/14/2018
 12. Щелкните "Разнести".
 13. Щелкните "Ваучер" для просмотра разнесенных записей.
     * Счет утверждения ожидающих накладных реверсируется и заменяется на счет фактических расходов.  
-
 

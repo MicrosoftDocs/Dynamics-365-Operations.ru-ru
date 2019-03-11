@@ -1,13 +1,13 @@
 ---
-title: "Подотчетные лица для России"
-description: "В этой теме рассматривается регистрация и настройка подотчетных лиц для России."
+title: Подотчетные лица для России
+description: В этой теме рассматривается регистрация и настройка подотчетных лиц для России.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkerAdvHolderTableListPage_RU, HcmWorkerAdvHolderTable_RU
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: d8e5b2ec55c6886edff1f5ce3a627974e93061ac
-ms.contentlocale: ru-ru
-ms.lasthandoff: 10/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371753"
 ---
-
 # <a name="advance-holders-for-russia"></a>Подотчетные лица для России
 [!include [banner](../includes/banner.md)]
 
@@ -152,4 +151,3 @@ ms.lasthandoff: 10/01/2018
 ## <a name="set-up-the-advance-holder"></a>Настройка подотчетного лица
 
 [Создание подотчетного лица](emea-advance-holders.md#create-an-advance-holder)
-

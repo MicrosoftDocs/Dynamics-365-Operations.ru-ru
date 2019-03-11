@@ -1,13 +1,13 @@
 ---
-title: "Настройка ассортимента"
-description: "В этой статье описывается, что такое ассортимент, и объясняется, как настроить ассортимент в Microsoft Dynamics 365 for Retail."
+title: Настройка ассортимента
+description: В этой статье описывается, что такое ассортимент, и объясняется, как настроить ассортимент в Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: a9578a0784d4f4fbfca27ec4093a3f61d1068a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 91713a4492ad82520f7dde611c17a5ea168ed80d
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314977"
 ---
-
 # <a name="set-up-assortments"></a>Настройка ассортиментов
 
 [!include [banner](includes/banner.md)]
@@ -56,4 +55,3 @@ ms.lasthandoff: 11/03/2017
 2. Выберите розничные каналы или общие группы розничных каналов, в отношении которых действует ассортимент.
 3. Добавьте категории продуктов, отдельные продукты или варианты продуктов в ассортимент. Можно включить все продукты в конкретную категорию или исключить выбранные продукты из категории, включенной в ассортимент.
 4. Опубликуйте ассортимент. При публикации ассортимента автоматически запускается планировщик ассортимента для розничной торговли. Этот процесс позволяет получить список продуктов. Когда этот процесс завершен, продукты становятся доступны розничным каналам, которым назначен ассортимент продуктов. Если вносятся изменения в ассортимент, который был опубликован, или в розничные каналы, которым назначен ассортимент, его необходимо обновить. Чтобы обновить ассортимент после внесения изменений можно запустить планировщик ассортимента как пакетное задание.
-

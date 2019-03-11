@@ -1,28 +1,27 @@
 ---
-title: "Настройка и обработка платежных поручений для России"
-description: "В этой теме рассматривается, как настраивать и обрабатывать платежные поручения для России."
+title: Настройка и обработка платежных поручений для России
+description: В этой теме рассматривается, как настраивать и обрабатывать платежные поручения для России.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: ebc663d0c8b9c24648c2bca5fd38806bf301606c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/05/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371765"
 ---
-
 # <a name="set-up-and-process-payment-orders-for-russia"></a>Настройка и обработка платежных поручений для России
 
 [!include [banner](../includes/banner.md)]
@@ -129,5 +128,4 @@ ms.lasthandoff: 11/05/2018
 3. Выберите **Начальная дата** и **Конечная дата**.
 4. Определите следующие фильтры для платежных поручений: **Статус платежного поручения**, **Код валюты**, **Банковский счет** и примечание **Электронный платеж** (Все, Электронный, Печатная форма).
 5. Щелкните **ОК**, чтобы создать отчет.
-
 

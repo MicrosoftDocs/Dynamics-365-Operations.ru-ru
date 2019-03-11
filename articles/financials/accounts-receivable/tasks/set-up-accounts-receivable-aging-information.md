@@ -1,13 +1,13 @@
---- 
-title: "Настройка и создание сведений о распределении по срокам для расчетов с клиентами"
-description: "Это руководство поможет настроить определение периода распределения по срокам, распределить сальдо клиента по срокам и просмотреть сальдо в списке \"Сальдо с распределением по срокам\" и на странице \"Сборы\"."
+---
+title: Настройка и создание сведений о распределении по срокам для расчетов с клиентами
+description: Это руководство поможет настроить определение периода распределения по срокам, распределить сальдо клиента по срокам и просмотреть сальдо в списке "Сальдо с распределением по срокам" и на странице "Сборы".
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9fd8738cfd3466464c9fec1760e9a369ff3a4a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2e9f393acaa47d485a583b99ace459474f30be6a
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334642"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Настройка и создание сведений о распределении по срокам для расчетов с клиентами
 
@@ -61,5 +61,4 @@ ms.lasthandoff: 09/29/2017
 2. Выберите клиента с сальдо.
 3. Разверните информационное поле "Распределение по срокам", чтобы просмотреть сальдо с распределением по срокам.
     * Определение периода распределения по срокам для информационного поля берется из определения периода распределения по срокам по умолчанию, указанного в параметрах. Его можно изменить с помощью меню "Сбор".  
-
 

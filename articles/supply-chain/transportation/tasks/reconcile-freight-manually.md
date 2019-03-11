@@ -1,13 +1,13 @@
---- 
-title: "Выверка фрахта вручную"
-description: "Эта процедура показывает, как выверять фрахт вручную."
+---
+title: Выверка фрахта вручную
+description: Эта процедура показывает, как выверять фрахт вручную.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, TMSFreightBillDetail, TMSInvoiceTable, TMSFreightBillInvoiceReconcile, TMSInvoiceJournal, LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ee2d114b0a725b947add3e155cc6445021fee998
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 15148725664d839694ede8419213d881c7be83dd
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351892"
 ---
 # <a name="reconcile-freight-manually"></a>Выверка фрахта вручную
 
@@ -60,5 +60,4 @@ ms.lasthandoff: 09/29/2017
 4. Щелкните "Журналы накладных поставщиков".
 5. Щелкните для перехода по ссылке в поле "Номер ссылочного журнала".
 6. Щелкните "Строки".
-
 

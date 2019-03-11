@@ -1,13 +1,13 @@
 ---
-title: "Закрыть запасы"
-description: "Как часть процесса сопоставления проводок расхода и проводками прихода можно также выбрать обновление главной книги для того, чтобы отражать сделанные корректировки."
+title: Закрыть запасы
+description: Как часть процесса сопоставления проводок расхода и проводками прихода можно также выбрать обновление главной книги для того, чтобы отражать сделанные корректировки.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a705853ea27d117c99a00893b862348bbac0b9b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dfb6b9c2f4bad95c165a8d8a1e888e7a67e66c69
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326500"
 ---
-
 # <a name="inventory-close"></a>Закрыть запасы
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ ms.lasthandoff: 11/03/2017
 В некоторых случаях бывает необходимо отменить завершенное закрытие запасов, чтобы вернуть сопоставления к состоянию, в котором они находились перед проведением корректировки. При отмене завершенного закрытия запасов запасы вновь открываются, чтобы включить разноску в период, который охватывает это закрытие. Соответствующие изменения также могут быть сделаны в главной книге. После завершения корректировки можно снова запустить закрытие запасов за период, с которым вы в данный момент работаете. 
 
 **Примечание.** Можно заново открыть только последний закрытый период инвентаризации. Чтобы реверсировать более раннее закрытие запасов, необходимо реверсировать каждое последующее закрытие запасов по одному, начиная с последнего закрытия.
-
 
 
 

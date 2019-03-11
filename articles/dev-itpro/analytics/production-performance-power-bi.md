@@ -1,13 +1,13 @@
 ---
-title: "Содержимое Power BI \"Эффективность производства\""
-description: "В этой теме описывается, что входит в содержимое Power BI \"Эффективность производства\". В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого."
+title: Содержимое Power BI "Эффективность производства"
+description: В этой теме описывается, что входит в содержимое Power BI "Эффективность производства". В нем описывается порядок доступа к отчетам Power BI и предоставляется информация о модели данных и объектах, которые использовались для построения пакета содержимого.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365968"
 ---
-
 # <a name="production-performance-power-bi-content"></a>Содержимое Power BI "Эффективность производства"
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ ms.lasthandoff: 08/13/2018
 ## <a name="accessing-the-power-bi-content"></a>Доступ к содержимому Power BI
 Содержимое Power BI **Эффективность производства** отображается на странице **Эффективность производства** (**Управление производством** \> **Запросы и отчеты** \> **Анализ эффективности производства** \> **Эффективность производства**). 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Показатели, которые включены в содержимое Power BI
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Показатели, включенные в пакет содержимого Power BI
 
 Содержимое Power BI **Эффективность производства** включает в себя набор страниц отчетов. Каждая страница состоит из набора показателей, которые отображаются в виде диаграмм, плиток и таблиц.
 
@@ -130,4 +129,3 @@ ms.lasthandoff: 08/13/2018
 | Объекты                  | Код и имя                                                   |
 | Ресурсы                 | Код ресурса, имя ресурса, тип ресурса и группа ресурсов |
 | Товары                  | Номер продукта, наименование продукта, код номенклатуры и группа номенклатур         |
-

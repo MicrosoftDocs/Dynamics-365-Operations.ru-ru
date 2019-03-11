@@ -1,13 +1,13 @@
 ---
-title: "Настройка счетов поставщиков"
-description: "В этом разделе описываются типы сведений, которые необходимо указывать при создании нового счета поставщика."
+title: Настройка счетов поставщиков
+description: В этом разделе описываются типы сведений, которые необходимо указывать при создании нового счета поставщика.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a20fca7420e7bd546e29278b40046d69a81aac6
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329145"
 ---
-
 # <a name="set-up-vendor-accounts"></a>Настройка счетов поставщиков
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ ms.lasthandoff: 11/03/2017
 Можно указать счета по умолчанию, которые автоматически отображаются в журналах накладных поставщика для определенного поставщика. Эта функция может быть полезна, если вы обычно оплачиваете номенклатуры или услуги одного типа от одних и тех же поставщиков с течением времени. При указании счета по умолчанию можно быстро и эффективно ввести записи журнала в журнал накладных. Заданные счета по умолчанию не используются для заказов на покупку или накладных поставщика, которые вводятся на странице **Накладная поставщика**.  
 
 Счета по умолчанию можно выбрать на странице **Настройка счета по умолчанию**, которую можно открыть на вкладке **Накладная** в записи поставщика. Счета, которые вы выбираете здесь, отображаются в отфильтрованном списке счетов для счета поставщика при вводе записи в журнале. Один из счетом можно настроить в качестве счета по умолчанию.
-
 
 
 

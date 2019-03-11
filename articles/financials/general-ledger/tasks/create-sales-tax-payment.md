@@ -1,13 +1,13 @@
---- 
-title: "Создание налогового платежа"
-description: "Задание сопоставления и разноски налога сопоставит налоговые сальдо в налоговых счетах и корреспондирует их со счетом сопоставления налогов за определенный период."
+---
+title: Создание налогового платежа
+description: Задание сопоставления и разноски налога сопоставит налоговые сальдо в налоговых счетах и корреспондирует их со счетом сопоставления налогов за определенный период.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Dialog
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b0d72c88d6ba851e96ca07b896630549690e9396
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6ee84da7fd055c8b0b50c43f134c0fc048ecfaeb
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321762"
 ---
 # <a name="create-a-sales-tax-payment"></a>Создание налогового платежа
 
@@ -36,5 +36,4 @@ ms.lasthandoff: 09/29/2017
     * Если параметр "Включать коррекции" не выбран на странице "Параметры главной книги", сопоставление может быть обработано для разных версий. Оригинал — это первое сопоставление за интервал периода и может быть обработано только один раз за интервал периода. Последние корректировки сопоставят налоговые проводки, которые были разнесены после создания исходной версии.   
 5. В поле "Дата проводки" введите дату.
 6. Нажмите кнопку "OК".
-
 

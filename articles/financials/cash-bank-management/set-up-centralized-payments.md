@@ -1,13 +1,13 @@
 ---
-title: "Настройка централизованных платежей"
-description: "Выполните эти шаги для подготовки к обработке в одном юридическом лице платежей, осуществляемых от имени других юридических лиц в вашей организации."
+title: Настройка централизованных платежей
+description: Выполните эти шаги для подготовки к обработке в одном юридическом лице платежей, осуществляемых от имени других юридических лиц в вашей организации.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb0769d605b831da09046a1e7bf0c2a704dba398
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2e309655bbc1d0fe7a088062b90fab34c642ab29
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361920"
 ---
-
 # <a name="set-up-centralized-payments"></a>Настройка централизованных платежей
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="set-up-default-descriptions"></a>Настройка описаний по умолчанию
 Можно определить описания, используемые по умолчанию для внутрихолдинговых операций сопоставления. Описание по умолчанию включается кредиторские и дебиторские проводки во время процесса сопоставления между компаниями. На странице **Описания по умолчанию**, вы можете создать новые описания и для **Внутрихолдинговое сопоставление по клиенту**, и для **Внутрихолдинговое сопоставление по поставщику** путем выбора языка и после этого ввода текста.
-
 
 
 

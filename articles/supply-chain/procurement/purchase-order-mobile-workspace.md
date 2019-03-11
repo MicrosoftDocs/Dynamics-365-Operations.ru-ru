@@ -1,13 +1,13 @@
 ---
-title: "Мобильная рабочая область \"Утверждение заказа на покупку\""
-description: "В этой теме содержится информация о мобильной рабочей области \"Утверждение заказа на покупку\", которая позволяет просматривать заказы на покупку и отвечать на них посредством действий. Например, можно утвердить или отклонить заказ на покупку."
+title: Мобильная рабочая область "Утверждение заказа на покупку"
+description: В этой теме содержится информация о мобильной рабочей области "Утверждение заказа на покупку", которая позволяет просматривать заказы на покупку и отвечать на них посредством действий. Например, можно утвердить или отклонить заказ на покупку.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348856"
 ---
-
 # <a name="purchase-order-approval-mobile-workspace"></a>Мобильная рабочая область "Утверждение заказа на покупку"
 
 [!include [banner](../includes/banner.md)]
@@ -44,8 +43,8 @@ ms.lasthandoff: 03/26/2018
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations 
 Если в вашей организации развернута система Microsoft Dynamics 365 for Finance and Operations, системный администратор должен опубликовать мобильную рабочую область **Утверждение заказа на покупку**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии
-Если в вашей организации развернута система Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии
+Если в вашей организации развернута система Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
 
 <table>
 <thead>
@@ -76,16 +75,16 @@ ms.lasthandoff: 03/26/2018
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Загрузите и установите мобильное приложение
-Загрузите и установите мобильное приложение Microsoft Dynamics 365 for Unified Operations:
+Загрузите и установите мобильное приложение Microsoft Dynamics 365 for Unified Operations Mobile:
 
-- [Для ОС Android](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 
 ## <a name="sign-in-to-the-mobile-app"></a>Войдите в систему в мобильном приложении
 
 1. Запустите приложение на мобильном устройстве.
-2. Введите URL-адрес Microsoft Dynamics 365.
+2. Введите ваш URL-адрес Microsoft Dynamics 365.
 3. При первом входе появится запрос имени пользователя и пароля. Введите свои учетные данные.
 4. После входа будут показаны доступные рабочие области для вашей компании. Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.
 
@@ -116,4 +115,3 @@ ms.lasthandoff: 03/26/2018
 5. Выбор соответствующего действия.
 6. На странице **Завершить задачу** введите комментарий. Обратите внимание, что при выборе действия **Делегировать** необходимо выбрать пользователя, которому будет делегирована задача.
 7. Выберите **Готово**. После обновления рабочей области заказа на покупку больше не будет в вашем списке. 
-

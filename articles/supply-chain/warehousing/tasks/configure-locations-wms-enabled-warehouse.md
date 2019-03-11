@@ -1,13 +1,13 @@
---- 
-title: "Настройка мест хранения на складе, на котором включена система управления складом"
-description: "Это руководство показывает, как настроить места хранения для нового склада с поддержкой системы управления складом (склада, на котором используются комплексные процессы управления складом)."
+---
+title: Настройка мест хранения на складе, на котором включена система управления складом
+description: Это руководство показывает, как настроить места хранения для нового склада с поддержкой системы управления складом (склада, на котором используются комплексные процессы управления складом).
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocationFormat, WHSLocationType, WHSLocationProfile, WHSParameters, WHSZoneGroup, WHSZone, WHSLocationBuild, WHSLocation, WHSPackSizeCategory, WHSLocationLimit, WHSInventFixedLocation, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2be3c7cb33225041872e8b747ba28063f897dae9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1082c86361180db84bb2b5c0b8158816f76a219e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337333"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Настройка мест хранения на складе, на котором включена система управления складом
 
@@ -193,5 +193,4 @@ ms.lasthandoff: 09/29/2017
 5. В поле "Местонахождение" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
 6. В списке перейдите по ссылке в выбранной строке.
 7. Закройте страницу.
-
 

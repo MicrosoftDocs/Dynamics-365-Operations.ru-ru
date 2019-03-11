@@ -1,13 +1,13 @@
 ---
-title: "Ставки налога на основе базы маржинальной прибыли и методов расчета"
-description: "В этом разделе описываются, как значения в полях \"База маржинальной прибыли\" и \"Метод расчета\" определяют ставку налога в проводках продажи и покупки."
+title: Ставки налога на основе базы маржинальной прибыли и методов расчета
+description: В этом разделе описываются, как значения в полях "База маржинальной прибыли" и "Метод расчета" определяют ставку налога в проводках продажи и покупки.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0128743e608ec56bea2301ac576551065a1ff290
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf0f8f2e3f553ea181e8cc9ab5b712fce64a89d4
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366428"
 ---
-
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Ставки налога на основе базы маржинальной прибыли и методов расчета
 
 [!include [banner](../includes/banner.md)]
@@ -184,7 +183,6 @@ ms.lasthandoff: 11/03/2017
 Уплачивается особая пошлина в сумме 5,00 на каждую лампу. Пошлина добавляется к чистой сумме до расчета налога. Приобретается 8 ламп по цене 25,00 каждая. Чистая сумма накладной составляет 200,00. Валовая сумма накладной равна 200,00 + (8 x 5,00) = 240,00. Налог вычисляется следующим образом: итоговая сумма налога = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 10 + 14 = 39,00 Итоговая пошлина = 5,00 x 8 = 40,00 Итоговая сумма накладной = 200,00 + 39,00 + 40,00 = 279,00
 
 Дополнительные сведения см. в разделах [Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов](whole-amount-interval-options-sales-tax-codes.md) и [Методы расчета налога в поле "Основание"](sales-tax-calculation-methods-origin-field.md).
-
 
 
 

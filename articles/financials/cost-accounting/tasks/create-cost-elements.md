@@ -1,13 +1,13 @@
---- 
-title: "Создание элементов затрат"
-description: "Существует несколько способов создания элементов затрат в модуле учета затрат."
+---
+title: Создание элементов затрат
+description: Существует несколько способов создания элементов затрат в модуле учета затрат.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension, CAMAXMainAccountDimensionMemberProviderConfiguration, CAMDimensionMember
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bbaf4f7533d51d554d838e8e9e2aa05ca451298a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1e665fc53455e457a2488f4ec28ebb5b715d90eb
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321716"
 ---
 # <a name="create-cost-elements"></a>Создание элементов затрат 
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Существует несколько способов создания элементов затрат в модуле учета затрат. Эта процедура показывает порядок создания элементов издержек путем импорта счетов ГК через соединитель данных. В качестве демонстрационной компании для создания этой процедуры используется USMF. Эта процедура предназначена для функции "Учет затрат", которая была добавлена в версии 1611 Dynamics 365 for Operations.
+Существует несколько способов создания элементов затрат в модуле учета затрат. Эта процедура показывает порядок создания элементов издержек путем импорта счетов ГК через соединитель данных. В качестве демонстрационной компании для создания этой процедуры используется USMF. Эта процедура для функции учета затрат, которая была добавлена в версии 1611 Dynamics 365 for Operations.
 
 
 ## <a name="create-new-cost-elements"></a>Создание новых элементов затрат
@@ -57,5 +57,4 @@ ms.lasthandoff: 09/29/2017
 ## <a name="view-the-imported-accounts-as-cost-elements"></a>Просмотр импортированных счетов как элементов затрат
 1. Щелкните "Просмотр элементов аналитики".
     * Просмотрите импортированные счета ГК как элементы издержек в компании, в которую могут поступать затраты.  
-
 

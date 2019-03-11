@@ -1,13 +1,13 @@
---- 
-title: "Создание исходного бюджета, а затем реверсирование предварительных записей бюджета для государственного сектора"
-description: "При создании записи исходного бюджета и использовании бюджетной модели и значений аналитики, которые содержат предварительные бюджетные суммы, предварительные бюджетные суммы можно реверсировать."
+---
+title: Создание исходного бюджета, а затем реверсирование предварительных записей бюджета для государственного сектора
+description: При создании записи исходного бюджета и использовании бюджетной модели и значений аналитики, которые содержат предварительные бюджетные суммы, предварительные бюджетные суммы можно реверсировать.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9d1c34ac2bd94196b7bad599e9aca7ed942ae9c8
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344946"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Создание исходного бюджета, а затем реверсирование предварительных записей бюджета для государственного сектора
 
@@ -50,5 +50,4 @@ ms.lasthandoff: 09/14/2018
     * Необязательно. Можно выбрать параметр реверсирования предварительного бюджета. Обратите внимание, что можно реверсировать как все записи предварительного бюджета, так и только те записи предварительного бюджета, которые имеют указанный код бюджета.  
     * Чтобы выбрать дополнительные параметры, щелкните значок "Разблокировать" в верхней части страницы.  
 18. Щелкните Обновить.
-
 

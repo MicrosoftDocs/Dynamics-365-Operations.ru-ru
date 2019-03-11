@@ -1,13 +1,13 @@
---- 
-title: "Поиск применимых цен и скидок"
-description: "В этой процедуре показано, как найти цену и/или скидку по продукту, которая в настоящее время действует для определенного клиента, без создания заказа на продажу."
+---
+title: Поиск применимых цен и скидок
+description: В этой процедуре показано, как найти цену и/или скидку по продукту, которая в настоящее время действует для определенного клиента, без создания заказа на продажу.
 author: omulvad
 manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ba95e651898da0e0fbd1221f61436ffac59db09e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 7ef63151f352b3664bccd7a59e7417dfddc7470b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/02/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359873"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Поиск применимых цен и скидок
 
@@ -59,5 +59,4 @@ ms.lasthandoff: 11/02/2017
 3. Щелкните "Просмотр скидки по строке".
     * Для продукта T0012 существует для соглашения по скидке по сроке, согласно которым при количестве по строке заказа от 1 до 10 скидка составляет 5 процентов, а при количестве свыше 10 — 7 процентов. Обратите внимание, что скидки применяются к группе продуктов, в данном примере с кодом группы 01, в которую входит продукт T0012.  
 4. Закройте страницу.
-
 

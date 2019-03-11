@@ -1,13 +1,13 @@
 ---
-title: "Мобильная рабочая группа \"Моя группа\""
-description: "Этот раздел содержит сведения о мобильной рабочей области \"Моя группа\", которая позволяет менеджерам просматривать их прямых подчиненных и расширенный персонал. Пользователь может также отсылать благодарности лицам в рамках цепочки их отчетности."
+title: Мобильная рабочая группа "Моя группа"
+description: Этот раздел содержит сведения о мобильной рабочей области "Моя группа", которая позволяет менеджерам просматривать их прямых подчиненных и расширенный персонал. Пользователь может также отсылать благодарности лицам в рамках цепочки их отчетности.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
-ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346924"
 ---
-
 # <a name="my-team-mobile-workspace"></a>Мобильная рабочая группа "Моя группа"
 
 [!include [banner](../includes/banner.md)]
 
 В этой теме содержится информация о мобильной рабочей области **Моя группа**. Эта рабочая область позволяет менеджерам просматривать их прямых подчиненных и расширенный персонал. Они могут также отсылать благодарности лицам в рамках цепи их отчетности.
 
-Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations.
+Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations Mobile.
 
 ## <a name="overview"></a>Обзор 
 Мобильная рабочая область **Моя группа** позволяет менеджерам выполнять следующие задачи:
@@ -58,7 +57,7 @@ ms.lasthandoff: 04/13/2018
 </ul>
 </td>
 <td>Системный администратор</td>
-<td>Если в вашей организации еще не развернуто Finance and Operations см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Talent, системный администратор может получить доступ к пробной версии на <a href="https://www.microsoft.com/en-us/dynamics365/talent">странице Talent</a>.
+<td>Если в вашей организации еще не развернуто Finance and Operations см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Talent, системный администратор может получить доступ к пробной версии на <a href="https://www.microsoft.com/en-us/dynamics365/talent">веб-странице Talent</a>.
 </td>
 </tr>
 <tr class="even">
@@ -73,12 +72,12 @@ ms.lasthandoff: 04/13/2018
 
 Загрузите и установите мобильное приложение Dynamics 365 for Unified Operations:
 
--   [Для ОС Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Войдите в систему в мобильном приложении
 1.  Запустите приложение на мобильном устройстве.
-2.  Введите URL-адрес Microsoft Dynamics 365.
+2.  Введите ваш URL-адрес Microsoft Dynamics 365.
 3.  При первом входе появится запрос имени пользователя и пароля. Введите свои учетные данные.
 4.  После входа будут показаны доступные рабочие области для вашей компании. Обратите внимание, что если позже системный администратор опубликует новую рабочую область, вам потребуется обновить список мобильных рабочих областей.
 
@@ -99,4 +98,3 @@ ms.lasthandoff: 04/13/2018
 1.  Выберите **Отправить благодарность**. 
 1. Введите текст благодарности, который необходимо отправить. 
 1. Выберите **Готово**.
-

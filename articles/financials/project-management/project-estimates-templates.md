@@ -1,13 +1,13 @@
 ---
-title: "Синхронизация оценок по проекту напрямую из Project Service Automation в Finance and Operations"
-description: "В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации оценок часов и оценок расходов по проекту непосредственно из Microsoft Dynamics 365 for Project Service Automation с Microsoft Dynamics 365 for Finance and Operations."
+title: Синхронизация оценок по проекту напрямую из Project Service Automation в Finance and Operations
+description: В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации оценок часов и оценок расходов по проекту непосредственно из Microsoft Dynamics 365 for Project Service Automation в Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 21338b889e0377dbfd5adfd461ea81b39a75baf8
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353962"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Синхронизация оценок по проекту напрямую из Project Service Automation в Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации оценок часов и оценок расходов по проекту непосредственно из Microsoft Dynamics 365 for Project Service Automation с Microsoft Dynamics 365 for Finance and Operations.
+В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации оценок часов и оценок расходов по проекту непосредственно из Microsoft Dynamics 365 for Project Service Automation в Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
-> - В Microsoft Dynamics 365 for Finance and Operations версии 8.0 доступна интеграция задач проекта, категорий проводок расходов, оценки часов, оценки затрат и блокировка функциональности.
-> - Интеграция фактических данных доступна в Microsoft Dynamics 365 for Finance and Operations версии 8.01 или новее.
-> - При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, после установки обновлений KB 4132657 и KB 4132660, можно использовать шаблоны для интеграции задачи проекта, категорий транзакций расходов, оценок часов, оценок расходов и фактических данных и для настройки функции блокировки. Если необходимо сбросить распределения по бухгалтерским счетам, рекомендуется также установить КБ 4131710.
+> - В Microsoft Dynamics 365 for Finance and Operations версии 8.0 доступна интеграция задач проекта, категорий проводок расходов, оценки часов, оценки затрат и блокировка функциональности.
+> - Интеграция фактических данных доступна в Microsoft Dynamics 365 for Finance and Operations версии 8.0.1 или новее.
+> - При использовании Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, после установки обновлений КБ 4132657 и 4132660 КБ, можно использовать шаблоны для интеграции задачи проекта, категорий транзакций расходов, оценок часов, оценок расходов и фактических данных и для настройки функции блокировки. Если необходимо сбросить распределения по бухгалтерским счетам, рекомендуется также установить КБ 4131710.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Поток данных для Project Service Automation для Finance and Operations
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 08/09/2018
 
 ### <a name="template-and-tasks"></a>Шаблон и задачи
 
-Для доступа к доступным шаблонам в центре администрирования Microsoft PowerApps выберите **Проекты**и выберите в правом верхнем углу **Новый проект** для выбора общих шаблонов.
+Для доступа к доступным шаблонам в центре администрирования Microsoft PowerApps выберите **Проекты** и выберите в правом верхнем углу **Новый проект** для выбора общих шаблонов.
 
 Следующий шаблон и базовые задачи используются для синхронизации оценок часов из Project Service Automation в Finance and Operations:
 
@@ -171,4 +171,3 @@ else **null**
 [![Соответствие шаблона](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Соответствие шаблона](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
-

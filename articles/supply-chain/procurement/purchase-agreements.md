@@ -1,13 +1,13 @@
 ---
-title: "Договоры покупки"
-description: "Эта статья представляет информацию о договорах покупки. Договор покупки представляет собой контракт, по которому организация обязана приобрести указанное количество или объем продукции с использованием нескольких заказов на покупку. Взамен этого обязательства покупатель получает специальные цены и скидки."
+title: Договоры покупки
+description: Эта статья представляет информацию о договорах покупки. Договор покупки представляет собой контракт, по которому организация обязана приобрести указанное количество или объем продукции с использованием нескольких заказов на покупку. Взамен этого обязательства покупатель получает специальные цены и скидки.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314540"
 ---
-
 # <a name="purchase-agreements"></a>Договоры покупки
 
 [!include [banner](../includes/banner.md)]
@@ -97,7 +96,6 @@ ms.lasthandoff: 05/08/2018
 [Создание договора покупки (проводник по задаче)](tasks/create-purchase-agreement.md)
 
 [Создание заказа на выпуск покупки из договора покупки (проводник по задаче)](tasks/create-purchase-release-order-purchase-agreement.md)
-
 
 
 

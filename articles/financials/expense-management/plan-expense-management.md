@@ -1,13 +1,13 @@
 ---
-title: "Настройка управления расходами"
-description: "Эта статья описывает вопросы и решения, которые следует принять во время процесса планирования, прежде чем настраивать Управление расходами в Microsoft Dynamics 365 for Finance and Operations."
+title: Настройка управления расходами
+description: Эта статья описывает вопросы и решения, которые следует принять во время процесса планирования, прежде чем настраивать Управление расходами в Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ac9959a4ee66e52ead5050897403602e407ca10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
-ms.contentlocale: ru-ru
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322038"
 ---
-
 # <a name="configure-expense-management"></a>Настройка управления расходами
 
 [!include [banner](../includes/banner.md)]
 
-Этот раздел описывает вопросы и решения, которые следует принять во время процесса планирования, прежде чем настраивать Управление расходами в Microsoft Dynamics 365 for Finance and Operations. В модуле "Управление расходами" можно хранить информацию о способах оплаты, заявки на командировку, отчеты о расходах, политики и т. д.
+Эта тема описывает вопросы и решения, которые следует принять во время процесса планирования, прежде чем настраивать Управление расходами в Microsoft Dynamics 365 for Finance and Operations. В модуле "Управление расходами" можно хранить информацию о способах оплаты, заявки на командировку, отчеты о расходах, политики и т. д.
 
 Поскольку множество решений, которые вы принимаете при планировании конфигурации для управления расходами, основаны на иерархии и финансовой структуре организации, необходимо ссылаться на документы планирования для этих областей.
 
@@ -163,4 +162,3 @@ ms.lasthandoff: 03/26/2018
 - Когда истекает срок действия политики?
 - Что такое правило политики?
 - Каков результат правила политики?
-

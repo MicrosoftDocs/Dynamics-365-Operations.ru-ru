@@ -1,13 +1,13 @@
 ---
-title: "Выбор самой старой партии на мобильном устройстве"
-description: "В этом разделе описывается, как настроить и применить параметры для комплектации самой старой партии на мобильном устройстве."
+title: Выбор самой старой партии на мобильном устройстве
+description: В этом разделе описывается, как настроить и применить параметры для комплектации самой старой партии на мобильном устройстве.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3a592425ed28f591783ec45bdfd61574bb889557
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 929c55559f1eac9681e632572ffee71bf83158de
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320612"
 ---
-
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>Выбор самой старой партии на мобильном устройстве
 
 [!include [banner](../includes/banner.md)]
@@ -42,4 +41,3 @@ ms.lasthandoff: 11/03/2017
 **Предупредить** и **Инициировать**: список партии (партий) с самыми старыми сроками окончания действия будут отображаться над элементом управления партии, если работник выбирает партию. Если в местонахождении находятся грузоместа, над элементом управления грузоместом отобразится список грузомест с самой старой партией. 
 -   **Предупреждение**: если работник выбирает грузоместо или партию, которая отсутствует в списке, элемент управления начнет мигать и будет показано предупреждение, что для выбора доступна более старая партия. Чтобы продолжать работу, работник снова может выбрать то же грузоместо или партию.  
 -   **Инициировать**: работник продолжит получать сообщение, что для комплектации доступна более старая партия.
-

@@ -1,13 +1,13 @@
---- 
-title: "Настройка ограничений по транспортировке для номенклатуры"
-description: "В этой процедуре показано, как настроить ограничение по транспортировке для предотвращения транспортировки выбранной номенклатуры через выбранный узел."
+---
+title: Настройка ограничений по транспортировке для номенклатуры
+description: В этой процедуре показано, как настроить ограничение по транспортировке для предотвращения транспортировки выбранной номенклатуры через выбранный узел.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSConstraint, InventLocationIdLookup, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 900ea1476c95d295a151125afe46aebd9642630e
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338138"
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Настройка ограничений по транспортировке для номенклатуры
 
@@ -43,5 +43,4 @@ ms.lasthandoff: 09/14/2018
 9. В поле "Действие ограничения" выберите параметр.
 10. Нажмите кнопку "Сохранить".
 11. Закройте страницу.
-
 

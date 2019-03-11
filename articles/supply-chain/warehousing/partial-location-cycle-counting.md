@@ -1,32 +1,31 @@
 ---
-title: "Частичный подсчет циклов местонахождений"
-description: "Планы подсчета циклов регулируют фактические операции подсчета. Можно запросить, чтобы только конкретные продукты и варианты продуктов подчитывались вместо всех запасов в наличии в местонахождении."
+title: Частичный подсчет циклов местонахождений
+description: Планы подсчета циклов регулируют фактические операции подсчета. Можно запросить, чтобы только конкретные продукты и варианты продуктов подчитывались вместо всех запасов в наличии в местонахождении.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cd7cb8b35023ed63af191545d01c60c2c7cc8ef5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 643d9a07681beeffe90f39e5a0dc5ed9ad71b097
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320658"
 ---
-
 # <a name="partial-location-cycle-counting"></a>Частичный подсчет циклов местонахождений
 
 [!include [banner](../includes/banner.md)]
@@ -61,5 +60,4 @@ ms.lasthandoff: 05/08/2018
 --------
 
 [Цикличный подсчет](cycle-counting.md)
-
 

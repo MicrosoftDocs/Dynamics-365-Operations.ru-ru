@@ -1,13 +1,13 @@
 ---
-title: "Печать документов"
-description: "В Microsoft Dynamics 365 for Finance and Operations можно печатать документы с помощью локального принтера или устройства, подключенного к сети. В этой статье представлен обзор того, как печатаются документы."
+title: Печать документов
+description: В Microsoft Dynamics 365 for Finance and Operations можно печатать документы с помощью локального принтера или устройства, подключенного к сети. В этой статье представлен обзор того, как печатаются документы.
 author: TJVass
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 4fd20022ff91fedb6d0323e82fbe3c1acae38e48
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362058"
 ---
-
 # <a name="document-printing"></a>Печать документов
 
 [!include [banner](../includes/banner.md)]
@@ -76,4 +75,3 @@ Microsoft Dynamics 365 for Finance and Operations предоставляет и�
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Обратите внимание, что один принтер может быть зарегистрирован с несколькими агентами маршрутизации документа. Чтобы решить настройки принтера, размещенная служба использует сетевой путь, который уникально идентифицирует каждый сетевой принтер. В результате даже в том случае, если принтер зарегистрирован несколькими клиентами, он отображается как один элемент в списке принтеров, доступных в приложениях Finance and Operations.
-

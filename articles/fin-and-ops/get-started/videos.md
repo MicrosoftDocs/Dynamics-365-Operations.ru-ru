@@ -1,30 +1,29 @@
 ---
-title: "Видео для Finance and Operations"
-description: "На этой странице перечислены созданные Майкрософт практические советы и видео по техническим вопросам, связанные с Dynamics 365 for Finance and Operations, которые доступны на YouTube и других сайтах."
+title: Видео для Finance and Operations
+description: На этой странице перечислены созданные Майкрософт практические советы и видео по техническим вопросам, связанные с Dynamics 365 for Finance and Operations, которые доступны на YouTube и других сайтах.
 author: josaw1
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
+ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
-ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
-ms.contentlocale: ru-ru
-ms.lasthandoff: 09/17/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317829"
 ---
-
 # <a name="videos-for-finance-and-operations"></a>Видео для Finance and Operations
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 09/17/2018
 
 ## <a name="dynamics-365-youtube-channel"></a>Канал YouTube по Dynamics 365
 
-На [канале YouTube по Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) можно найти видео, созданный корпорацией Майкрософт, которые демонстрируют широкий спектр бизнес-решений для продуктов Dynamics 365. В этом разделе перечислены видеоролики с практическими советами по Dynamics 365 for Finance and Operations, которые размещены на канале.
+На [канале YouTube по Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) можно найти видео, созданные корпорацией Майкрософт, которые демонстрируют широкий спектр бизнес-решений для продуктов Dynamics 365. В этом разделе перечислены видеоролики с практическими советами по Dynamics 365 for Finance and Operations, которые размещены на канале.
 
 Видеоролики перечислены по функции, так что прокрутите вниз, чтобы просмотреть весь список видеосодержимого.
 
@@ -88,7 +87,7 @@ ms.lasthandoff: 09/17/2018
 - [Применение нового выпуска платформы Dynamics 365 for Finance and Operations после обновления платформы 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Использование телеметрии для отслеживания ключевых счетчиков производительности в Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
-#### <a name="office-integration"></a>Интеграция с Office
+#### <a name="office-integration"></a>Интеграция в Office
 
 - [Создание шаблона Excel для шаблонов заголовка и строки в Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
 
@@ -170,10 +169,10 @@ ms.lasthandoff: 09/17/2018
 - [Регистрация времени ухода (DYN332PAL2)](https://infopedia.eventbuilder.com/event?eventid=w5u5q8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Совместная работа с поставщиками (DYN327PAL)](https://infopedia.eventbuilder.com/event?eventid=c3e4c0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
-#### <a name="retail"></a>Retail
+#### <a name="retail"></a>Розница
 
 - [Расширяемость POS Dynamics 365 for Retail: подробные сведения (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Архитектура розничной торговли и модуль весов для магазина розничной торговли (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Архитектура розничной торговли и модуль Retail Store Scale Unit (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Что нового в расширяемости POS Dynamics 365 for Retail (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="support"></a>Поддержка
@@ -196,4 +195,3 @@ ms.lasthandoff: 09/17/2018
 - [Процесс поштучной комплектации (DYN330PAL2)](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Визуальное планирование производственных заказов и канбанов (DYN328PAL)](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Интеграция склада с производством (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [Мобильное приложение управления запасами (VIR816PAL)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-

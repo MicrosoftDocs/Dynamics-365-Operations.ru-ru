@@ -1,14 +1,14 @@
 ---
-title: "Безопасность и управление ролями в Attract"
-description: "В этом разделе представлены сведения о безопасности ролей в Microsoft Dynamics 365 for Talent - Attract."
+title: Безопасность и управление ролями в Attract
+description: В этом разделе представлены сведения о роли безопасности в Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 9eb12bd6b9fc1aa66002908e5989b3ac504ab673
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374788"
 ---
-
 # <a name="security-and-role-management-in-attract"></a>Безопасность и управление ролями в Attract
 
 [!include[banner](../includes/banner.md)]
@@ -108,7 +107,7 @@ Microsoft Dynamics 365 for Talent: Attract использует безопасн
 | Перейти на следующий этап           | Может отклонить, если пользователь входит в группу найма | Может перевести на следующий этап, если пользователь входит в группу найма | Не разрешенный |
 | Запуск управления предложением | Можно запустить управление предложением | Имеется параметр конфигурации для действия предложения. | Не разрешенный |
 
-\*\* Параметр конфигурации в [настройке действия отзыва](./activities-attract.md#feedback-activity) управляет тем, могут ли сотрудники, проводящие собеседование, видеть отзывы друг друга.
+\*\* Параметр конфигурации в [настройке действия отзыва](activities-attract.md#feedback-activity) управляет тем, могут ли сотрудники, проводящие собеседование, видеть отзывы друг друга.
 
 ## <a name="process-templates"></a>Шаблоны процесса
 
@@ -146,4 +145,3 @@ Microsoft Dynamics 365 for Talent: Attract использует безопасн
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Профиль — сведения о кандидате | Создание, чтение, обновление и удаление | Создание, чтение, обновление и удаление | Нет доступа   |
 | Документы                   | Создание, чтение, обновление и удаление | Создание, чтение, обновление и удаление | Нет доступа   |
-

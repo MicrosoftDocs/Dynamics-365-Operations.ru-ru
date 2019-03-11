@@ -1,32 +1,31 @@
 ---
-title: "Поиск запасов в POS"
-description: "В этом разделе описаны параметры, доступные для просмотра сведений о запасах в POS."
+title: Поиск запасов в POS
+description: В этом разделе описаны параметры, доступные для просмотра сведений о запасах в POS.
 author: ashishmsft
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314425"
 ---
-
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Поиск запасов в POS
 
 [!include [banner](includes/banner.md)]
@@ -53,7 +52,7 @@ ms.lasthandoff: 01/04/2019
 Список местоположений включает в себя два вида объектов:
 
 - **Розничные магазины** — список магазинов, которые настраиваются с использованием группы указателей магазинов для текущего магазина в "Розничная сеть - Центральный офис".
-- **Центры распределения** — различные типы центров распределения (такие как склады) могут быть настроены в Microsoft Dynamics 365 for Retail. Однако в списке отображаются сведения о доступности запасов только для центров распределения типа по умолчанию **Стандартный**.
+- **Центры распределения** — различные типы центров распределения (такие как склады) могут быть настроены в Microsoft Dynamics 365 for Retail. Однако в списке отображаются сведения о доступности запасов только для центров распределения типа по умолчанию **Стандартный**.
 
     > [!NOTE]
     > Сведения о доступности запасов не отображаются для складов типов **Транзитный**, **Карантинный** и **Товаров в пути** для POS.
@@ -116,4 +115,3 @@ ms.lasthandoff: 01/04/2019
 | Доступность         | Отображение сведений о доступности для резервирования для выбранной комбинации вариантов для выбранного местонахождения. |
 | Показать все местоположения   | Переключение на стандартное представление поиска запасов и выделение сведений о доступности запасов для варианта номенклатуры по всем магазинам в группе указателей магазинов, а также в центрах распределения типа **Стандартный/По умолчанию**. |
 | Просмотр сведений о продукте | Перенаправление пользователя на страницу **Сведения о продукте** связанного шаблона продукта. |
-

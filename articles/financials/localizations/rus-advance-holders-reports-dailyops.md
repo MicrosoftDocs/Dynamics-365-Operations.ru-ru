@@ -1,31 +1,30 @@
 ---
-title: "Авансовые отчеты с бюджетным контролем (Россия)"
-description: "В этом разделе показано, как создать субкниги из документов-источников, таких как накладные, отборочные накладные и отгрузочные накладные для клиентов и поставщиков."
+title: Авансовые отчеты с бюджетным контролем (Россия)
+description: В этом разделе показано, как создать субкниги из документов-источников, таких как накладные, отборочные накладные и отгрузочные накладные для клиентов и поставщиков.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Russia
 ms.author: shylaw
-ms.dyn365.ops.version: 8.1
+ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.translationtype: HT
-ms.sourcegitcommit: e2971837939a3b37f43fdfec803ed18788a75e86
 ms.openlocfilehash: 93a690db8ea1499b911a03a715fa196df99b5ca2
-ms.contentlocale: ru-ru
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "371781"
 ---
-
 # <a name="advance-reports-with-budget-control-russia"></a>Авансовые отчеты с бюджетным контролем (Россия)
 
 [!include [banner](../includes/banner.md)]
@@ -62,4 +61,3 @@ ms.lasthandoff: 12/04/2018
 ## <a name="accounting-distributions-and-subledger-journals"></a>Распределения по бухгалтерским счетам и журналам субкниги
 
 Строки журнала субкниги — это записи ГК, разнесенные в главную книгу с помощью общего журнала. Можно создать субкниги из документов-источников, таких как накладные, отборочные накладные и отгрузочные накладные для клиентов и поставщиков. Перед разноской сведения о поставщике в главной книге можно просмотреть или изменить журналы субкниги с помощью метода распределения. Этот метод позволяет распределить суммы разноски между несколькими финансовыми аналитиками. В зависимости от разрешений пользователя можно также изменить номер счета ГК или значения финансовых аналитик по умолчанию. Распределения служат в качестве интерфейса в журналы субкниги и содержат только одну сторону учетной записи.
-

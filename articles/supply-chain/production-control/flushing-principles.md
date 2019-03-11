@@ -1,13 +1,13 @@
 ---
-title: "Принципы очистки"
-description: "В этой теме описывается четыре принципа очистки, которые используются для потребления сырья."
+title: Принципы очистки
+description: В этой теме описывается четыре принципа очистки, которые используются для потребления сырья.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e4b9cd918bec9a094744b208821285c57f01798a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
-ms.contentlocale: ru-ru
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358309"
 ---
-
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Управление потреблением сырья с использованием принципа очистки
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ ms.lasthandoff: 02/08/2018
 
 ### <a name="available-at-location"></a>Доступно в ячейке
 Принцип очистки "Доступно в местонахождении" указывает, что материала будет автоматически потребляться, когда он регистрируется как скомплектованный для производства. Материал регистрируется как скомплектованный из местонахождения, если завершена работа по комплектации сырья или если материал доступен в местонахождении поступлений на производство и строка материала выпущена на склад. Лист подбора, которая создается во время процесса, разносится в пакетном задании. Этот принцип используется, если, например, имеется много мероприятий комплектации для одного производственного заказа. Таким образом, не нужно вручную обновлять лист подбора, и можно получить текущее представление сальдо НЗП.
-

@@ -1,31 +1,30 @@
 ---
-title: "Продажа и возврат продуктов, которые не являются частью ассортимента магазина"
-description: "С 365 Dynamics for Retail можно продавать и возвращать продукты за пределами ассортиментов."
+title: Продажа и возврат продуктов, которые не являются частью ассортимента магазина
+description: С Dynamics 365 for Retail можно продавать и возвращать продукты за пределами ассортиментов.
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.contentlocale: ru-ru
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352306"
 ---
-
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Продажа и возврат продуктов, которые не являются частью ассортимента магазина
 
 [!include [banner](includes/banner.md)]
@@ -47,4 +46,3 @@ ms.lasthandoff: 01/04/2019
 + Оформлять самовывоз продуктов клиентами из текущего магазина или из другого магазина.
 + Отменять заказы в текущем магазине или в другом магазине.
 + Оформлять возврат заказов с учетом или без учета прихода в текущем магазине или в другом магазине.
-

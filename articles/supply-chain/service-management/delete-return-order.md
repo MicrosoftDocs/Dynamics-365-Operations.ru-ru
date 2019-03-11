@@ -1,32 +1,30 @@
 ---
-title: "Удаление заказа на возврат"
-description: "Форма \"Удаление заказа на возврат\" используется для удаления нескольких заказов на возврат."
+title: Удаление заказа на возврат
+description: Форма "Удаление заказа на возврат" используется для удаления нескольких заказов на возврат.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesDeleteOrder
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4bd6794745de3039d004b40f41325df8b5b78986
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 715443d2601c09b24b59d8332b12469b046d99fc
-ms.contentlocale: ru-ru
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353617"
 ---
-
-
 # <a name="delete-a-return-order"></a>Удаление заказа на возврат 
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +41,6 @@ ms.lasthandoff: 05/08/2018
 4.  Выберите удаляемую строку заказа на возврат и щелкните **ОК**.
 
 5.  Щелкните **Да** для удаления заказов на возврат.
-
 
 
 

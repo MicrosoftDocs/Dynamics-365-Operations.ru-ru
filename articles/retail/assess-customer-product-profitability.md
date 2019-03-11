@@ -1,13 +1,13 @@
 ---
-title: "Оценка рентабельности по клиентам и продуктам"
-description: "В этой статье описывается, как можно использовать размещенные в памяти аналитики и аналитики реального времени для получения доступа, изучения и анализа рентабельности клиентов и продуктов на основе данных Microsoft Dynamics 365 for Retail."
+title: Оценка рентабельности по клиентам и продуктам
+description: В этой статье описывается, как можно использовать размещенные в памяти аналитики и аналитики реального времени для получения доступа, изучения и анализа рентабельности клиентов и продуктов на основе данных Microsoft Dynamics 365 for Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationsTemplateForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 28d4eeaa3fcae33f817690ad496b4b123a5838ce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 04ebc624212e6909eda7589b71cd84a22010e721
-ms.contentlocale: ru-ru
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326017"
 ---
-
 # <a name="assess-customer-and-product-profitability"></a>Оценка рентабельности по клиентам и продуктам
 
 [!include [banner](includes/banner.md)]
@@ -57,4 +56,3 @@ ms.lasthandoff: 11/03/2017
 - Рабочая область **Руководство розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Самые популярные продукты"**
 - Рабочая область **Управление категориями и продуктами** &gt; **Розничная торговля** &gt; **Продукты и категории** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Ведущие продукты"**
 - Раздел **Запросы и отчеты** &gt; **Розничная торговля** &gt; **Запросы и отчеты** &gt; **Отчеты о продажах** &gt; **Отчет "Самые популярные продукты"**
-

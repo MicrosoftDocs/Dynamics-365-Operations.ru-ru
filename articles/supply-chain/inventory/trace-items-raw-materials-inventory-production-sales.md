@@ -1,13 +1,13 @@
 ---
-title: "Трассировка номенклатур и сырья в запасах, производстве и продажах"
-description: "В этом разделе описывается, как можно использовать трассировку номенклатуры, чтобы определять, где использовались, используются или будут использоваться номенклатуры и сырье в процессах производства и продаж."
+title: Трассировка номенклатур и сырья в запасах, производстве и продажах
+description: В этом разделе описывается, как можно использовать трассировку номенклатуры, чтобы определять, где использовались, используются или будут использоваться номенклатуры и сырье в процессах производства и продаж.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
-ms.contentlocale: ru-ru
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310078"
 ---
-
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Трассировка номенклатур и сырья в запасах, производстве и продажах
 
 [!include [banner](../includes/banner.md)]
@@ -141,4 +140,3 @@ ms.lasthandoff: 04/13/2018
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Можно ли выполнять трассировку побочных и сопутствующих продуктов?
 Можно отслеживать сопутствующие продукты, но нельзя отслеживать побочные продукты, поскольку таким продуктам обычно не назначаются аналитики отслеживания. При трассировке номенклатуры в сведения трассировки включаются все связанные побочные продукты. Узел, который содержит сопутствующий продукт включает слово «сопутствующий продукт» в сведениях. Можно также просмотреть подробные сведения о сопутствующем продукте, выбрав узел в сведениях трассировки, а затем щелкнув экспресс-вкладку **Производство**.
-

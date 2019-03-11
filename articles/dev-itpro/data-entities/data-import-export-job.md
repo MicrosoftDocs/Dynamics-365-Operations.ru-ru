@@ -1,13 +1,13 @@
 ---
-title: "Задания импорта и экспорта данных"
-description: "Для создания заданий импорта и экспорта данных и управления ими служит рабочая область \"Управление данными\"."
+title: Задания импорта и экспорта данных
+description: Для создания заданий импорта и экспорта данных и управления ими служит рабочая область "Управление данными".
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.contentlocale: ru-ru
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360218"
 ---
-
 # <a name="data-import-and-export-jobs"></a>Задания импорта и экспорта данных
 
 [!include [banner](../includes/banner.md)]
 
-Для создания заданий импорта и экспорта данных и управления ими в Microsoft Dynamics 365 for Finance and Operations служит рабочая область **Управление данными**. По умолчанию процесс импорта и экспорта данных создает промежуточную таблицу для каждого объекта в целевой базе данных. Промежуточные таблицы позволяют проверить, очистить или преобразовать данные перед перемещением.
+Для создания заданий импорта и экспорта данных в Microsoft Dynamics 365 for Finance and Operations и управления ими служит рабочая область **Управление данными**. По умолчанию процесс импорта и экспорта данных создает промежуточную таблицу для каждого объекта в целевой базе данных. Промежуточные таблицы позволяют проверить, очистить или преобразовать данные перед перемещением.
 
 > [!NOTE]
 > В этом разделе предполагается, что вы знакомы с [информационными объектами](data-entities.md).
@@ -158,4 +157,3 @@ ms.lasthandoff: 08/13/2018
 - **Проекты данных** — если только выбран проект данных, удаляются все записи для всех объектов и во всех заданиях для выбранного проекта данных.
 
 Можно также сочетать эти варианты для дальнейшего ограничения удаляемого набора записей.
-
