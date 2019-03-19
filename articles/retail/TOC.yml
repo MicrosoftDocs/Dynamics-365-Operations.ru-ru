@@ -5,6 +5,10 @@ items:
   items:
   - name: Что нового и что изменилось
     href: get-started/whats-new.md
+  - name: Предварительные версии функций Dynamics 365 for Retail 10.0.1
+    href: get-started/whats-new-10-0-1.md
+  - name: Что нового и что изменилось в Dynamics 365 for Retail (апрель 2019 г.)
+    href: get-started/april-whats-new.md
   - name: Перед покупкой Retail
     href: get-started/before-you-buy.md
   - name: Регистрация для получения ознакомительной подписки
@@ -109,7 +113,11 @@ items:
   - name: Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов
     href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: Омниканальные расширенные автоматические накладные расходы
-  href: omni-auto-charges.md
+  items:
+  - name: Настройка и использование расширенных автоматических накладных расходов
+    href: omni-auto-charges.md
+  - name: Пропорциональное распределение и группировка автоматических накладных расходов для заголовка
+    href: pro-rate-charges-matching-lines.md
 - name: Центр обработки вызовов
   items:
   - name: Функциональность продажи центра обработки вызовов
@@ -387,7 +395,7 @@ items:
     - name: Функциональность контрольно-кассовой машины
       href: localizations/emea-swe-cash-registers.md
     - name: Пример интеграции Retail POS c блоками управления
-      href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
+      href: localizations/retail-sdk-control-unit-sample.md
 - name: Задачи Retail
   items:
   - name: Создание продукта
@@ -553,6 +561,8 @@ items:
       href: dev-itpro/hybridApp.md
     - name: Переопределение обработчика запросов POS
       href: dev-itpro/pos-handler.md
+    - name: Просмотр сведений об пакете расширений POS
+      href: view-pos-extension-package-details.md
   - name: Hardware Station и расширяемость
     href: dev-itpro/hardware-station-extensibility.md
   - name: Расширяемость Retail Server
@@ -659,9 +669,9 @@ items:
     items:
     - name: Расширение программы лояльности
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 1f86096b0572f0309afa04e086d53294a7a8f4fa
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
+ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377259"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791646"

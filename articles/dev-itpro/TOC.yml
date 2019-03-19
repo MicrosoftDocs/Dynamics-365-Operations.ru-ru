@@ -46,6 +46,10 @@ items:
       href: dev-tools/development-tools-overview.md
     - name: Учебник по средствам разработки
       href: dev-tools/introduction-visual-studio.md
+    - name: AppChecker
+      items:
+      - name: Установка BaseX для AppChecker
+        href: dev-tools/install-basex.md
     - name: Обозреватель приложений
       href: dev-tools/application-explorer.md
     - name: Сборка и отладка проектов
@@ -264,6 +268,8 @@ items:
         href: extensibility/extensibility-changes-812.md
       - name: Изменения возможностей расширения версии 8.1.3
         href: extensibility/extensibility-changes-813.md
+      - name: Изменения возможностей расширения версии 10.0
+        href: extensibility/extensibility-changes-10.md
     - name: Основы
       items:
       - name: Глубокие настройки
@@ -887,6 +893,7 @@ items:
   - name: Развертывание демонстрационных сред
     href: deployment/deploy-demo-environment.md
   - name: Облачное развертывание
+    href: deployment/cloud-deployment-overview.md
     items:
     - name: Дистанционное развертывание
       href: deployment/infrastructure-stack.md
@@ -1073,10 +1080,12 @@ items:
       href: dev-tools/update-development-tools.md
   - name: Устаревшие элементы
     items:
-    - name: Устаревшие API
-      href: migration-upgrade/deprecated-apis.md
-    - name: Устаревшие функции
+    - name: Удаленные или устаревшие функции
       href: migration-upgrade/deprecated-features.md
+    - name: Удаление методов и элементов метаданных
+      href: migration-upgrade/deprecation-deletion-apis.md
+    - name: Устаревшие API (июнь 2017 г.)
+      href: migration-upgrade/deprecated-apis.md
 - name: Администрирование системы
   href: sysadmin/system-administration-home-page.md
   items:
@@ -1122,6 +1131,8 @@ items:
       href: sysadmin/activeperiod.md
     - name: Роль безопасности пакетного диспетчера
       href: sysadmin/runby.md
+    - name: Пакетное задание для обработки дефрагментация индекса SQL
+      href: sysadmin/batch-job-SQL-defragmentation.md
   - name: Помощник по оптимизации
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1200,18 +1211,30 @@ items:
       href: lifecycle-services/use-translation-service-ua.md
     - name: Файлы базы переводов
       href: lifecycle-services/use-translation-service-tm.md
-- name: Управление базами данных
+- name: Операций перемещения баз данных
   items:
-  - name: Копирование баз данных из базы данных Azure SQL в среды SQL Server
-    href: database/copy-database-from-azure-sql-to-sql-server.md
-  - name: Копирование баз данных из SQL Server в производственные среды базы данных Azure SQL
-    href: database/copy-database-from-sql-server-to-azure-sql.md
-  - name: Восстановление баз данных в непроизводственных средах
-    href: database/request-point-in-time-restore.md
-  - name: Экспорт копий баз данных для последующего восстановления
-    href: database/copy-operations-database.md
-  - name: Запрос на обновления баз данных в "песочнице"
-    href: database/database-refresh.md
+  - name: Обзор
+    href: database/dbmovement-operations.md
+  - name: Краткие руководства по началу работы
+    items:
+    - name: Обновление баз данных
+      href: database/database-refresh.md
+    - name: Экспорт базы данных
+      href: database/export-database.md
+    - name: Импорт базы данных.
+      href: database/import-database.md
+    - name: Восстановление базы данных на определенный момент времени
+      href: database/database-point-in-time-restore.md
+  - name: Учебники
+    items:
+    - name: Обновление для целей обучения
+      href: database/dbmovement-scenario-general-refresh.md
+    - name: Отладка и диагностика
+      href: database/dbmovement-scenario-debugdiag.md
+    - name: Реклама эталонной конфигурации
+      href: database/dbmovement-scenario-goldenconfig.md
+    - name: Тестирование с разрушением
+      href: database/dbmovement-scenario-destructivetests.md
 - name: Поддержка
   items:
   - name: Получение поддержки по Finance and Operations и Lifecycle Services
@@ -1228,9 +1251,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: Управление поддержкой Finance and Operations
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: 9baabd73eb9a6e0c33b41bc30a1ba0788a858ce9
-ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
+ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
+ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373331"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "773810"
