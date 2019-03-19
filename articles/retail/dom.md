@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4f682e0c98ff70d526648bc50f8a5d6cb884ac93
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302801"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "380024"
 ---
 # <a name="distributed-order-management-dom"></a>Распределенное управление заказами (DOM)
 
@@ -63,7 +63,7 @@ ms.locfileid: "302801"
 
         1. В Microsoft Dynamics Lifecycle Services откройте общую библиотеку активов, выберите тип актива **Модель** и загрузите файл **лицензии DOM**.
         2. Запустите диспетчер служб IIS, щелкните правой кнопкой мыши **Веб-сайт AOSService** и выберите **Обзор**. В проводнике Windows будет открыта папка **\<Корневая папку службы AOS\>\\webroot**. Запишите или скопируйте путь \<Корневая папка службы AOS\>, поскольку он понадобится на следующем шаге.
-        3. Скопируйте файл конфигурации в папку **\<Корневая папку службы AOS\>\\PackagesLocalDirectory\\DOM\\bin**.
+        3. Скопируйте файл конфигурации в папку **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
         4. Перейдите в клиент Retail Headquarters и откройте страницу **Параметры DOM**. На вкладке **Решатель** в поле **Тип решателя** выберите **Рабочий решатель** и убедитесь, что никакие сообщения об ошибках не появляются.
 
         > [!NOTE]
