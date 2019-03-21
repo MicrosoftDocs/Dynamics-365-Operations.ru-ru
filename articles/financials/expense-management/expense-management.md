@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cd637f1b74056db89520b762255d03afa3855ba
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 11445390acef5ddfd57a1a0017e8bc423cdb1914
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313413"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403222"
 ---
 # <a name="expense-management"></a>Управление расходами
 
@@ -37,15 +37,13 @@ ms.locfileid: "313413"
 
 #### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 
-Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке. 
+Выберите [Сведения о версии Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы увидеть, какие новые возможности были запланированы. 
 
 #### <a name="blogs"></a>Блоги
 
-Мнения, новости и другие сведения о расчетах с клиентами и других решениях см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Мнения, новости и другие сведения можно найти в [блоге Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и [блоге Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-В [блоге группы разработчиков Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) есть множество публикаций о расчетах с клиентами. Хотя некоторые из этих публикаций написаны для предыдущей версии модуля "Расчеты с клиентами", приведенные в них сведения не устарели, а процедуры аналогичны текущей версии.
-
-[Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в MBS Operations.
+[Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в MBS Operations. 
 
 #### <a name="task-guides"></a>Проводники по задачам
 Проводники по задачам в Finance and Operations — это еще один источник справочной информации. Чтобы перейти к проводникам по задачам, нажмите кнопку "Справка" на любой странице.

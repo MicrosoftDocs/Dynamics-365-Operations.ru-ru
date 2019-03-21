@@ -1,9 +1,9 @@
 ---
 title: Настройка и создание файлов положительных платежей
-description: В этой статье описывается, как настроить положительный платеж и создавать файлы положительных платежей.
+description: В этой теме описывается, как настроить положительный платеж и создавать файлы положительных платежей.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dbc512c6d214dc8cf2527ac23103529111896ec5
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346096"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778186"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Настройка и создание файлов положительных платежей
 
 [!include [banner](../includes/banner.md)]
 
-В этой статье описывается, как настроить положительный платеж и создавать файлы положительных платежей. 
+В этой теме описывается, как настроить положительный платеж и создавать файлы положительных платежей. 
 
 Настройте положительные платежи для формирования электронного списка чеков, предоставляемых банку. Затем, когда чек передается в банк, банк сравнивает чек со списком чеков. Если чек соответствует чеку в списке, банк производит клиринг чека. Если чек не соответствует чеку в списке, банк отправляет чек на рассмотрение.
 
@@ -94,7 +94,7 @@ ms.locfileid: "346096"
           <xsl:value-of select="'
     '" />
           <!--Header End-->
-          <xsl:for-each select="Document/BankPositivePayExportEntity">
+          <xsl:for-each select="Document/BANKPOSITIVEPAYEXPORTENTITY">
             <!--Cheque Detail begin-->
             <xsl:value-of select='RECIPIENTACCOUNTNUM/text()'/>
             <xsl:value-of select="','" />

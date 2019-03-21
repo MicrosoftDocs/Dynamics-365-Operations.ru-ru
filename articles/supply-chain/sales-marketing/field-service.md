@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d636e77888fff383849b3a91bf643475a6d516ac
-ms.sourcegitcommit: 383a344deb5abf48584ea2ee7774b8dbbbec49b3
+ms.openlocfilehash: efda4e39f63155785386ecec6d21973e01a0f69f
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "377886"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770901"
 ---
 # <a name="integration-with-microsoft-dynamics-365-for-field-service"></a>Интеграция с Microsoft Dynamics 365 for Field Service
 
@@ -75,7 +75,7 @@ Microsoft Dynamics 365 for Finance and Operations обеспечивает си�
 ### <a name="system-requirements-for-finance-and-operations"></a>Системные требования для Finance and Operations
 Интеграция Field Service поддерживает следующие версии:
 
-- Версия 8.1.2 Dynamics 365 for Finance and Operations (декабрь 2019) была выпущена в декабре 2019 г. и имеет номер сборки приложения 8.1.195 с Platform Update 22 (7.0.5095). 
+- Версия 8.1.2 Dynamics 365 for Finance and Operations (декабрь 2018) была выпущена в декабре 2018 г. и имеет номер сборки приложения 8.1.195 с Platform Update 22 (7.0.5095). 
 
 ### <a name="system-requirements-for-field-service"></a>Системные требования для Field Service
 Чтобы использовать решение интеграции Field Service, вы должны установить следующие компоненты:

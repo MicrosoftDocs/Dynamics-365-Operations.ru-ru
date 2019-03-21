@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 01d12acb039c9e0216dc36acb3e244e4161ba061
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1e43d5a83fd31fdbde308e2b23cbb2990fe933b5
+ms.sourcegitcommit: b3bce180d3b5aea3cd95d46b61505e9de3f58118
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371724"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832689"
 ---
 # <a name="russia"></a>Россия
 
@@ -44,11 +44,11 @@ ms.locfileid: "371724"
 ## <a name="vat"></a>НДС
 
 - [Налог на добавленную стоимость (НДС) для налоговых агентов](rus-tax-agent.md)
-- [Декларация VAT](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-VAT-declaration)
+- [Декларация по НДС](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-VAT-declaration)
 - [Книги продаж, книги покупок и журналы счетов-фактур](rus-sales-books-purchase-books.md)
 
 ## <a name="fixed-assets-russia"></a>Основные средства (Россия)
-
+- [Настройка основных средств](rus-set-up-fixed-assets.md)
 - [Приобретение ОС и их ввод в эксплуатацию](rus-fixed-asset-acquisition.md)
 - [Регистрация приобретений основных средств](rus-register-acquisition.md)
 - [Создание и разноска журналов бюджета для приобретений ОС](rus-post-budget-fixed-asset-acquisition.md)
@@ -64,6 +64,11 @@ ms.locfileid: "371724"
 - [Амортизационные премии](rus-bonus-depreciation.md)
 - [Расчет амортизации](rus-depreciation-calculation.md)
 
+## <a name="accounts-payable-and-receivable"></a>Расчеты с поставщиками и клиентами
+- [Счета на оплату](rus-invoice-payment.md)
+- [Управление движением денежных средств](rus-cash-flow.md)
+- [Настройка контроля аналитик для сопоставлений](rus-transactions-settlement-date.md)
+
 ## <a name="reporting"></a>Отчетность
 
 - [Финансовая отчетность](rus-financial-reports.md)
@@ -78,6 +83,4 @@ ms.locfileid: "371724"
 - [Предварительный просмотр проводок ГК](rus-ledger-transactions-preview.md)
 - [Настройка должностных лиц](rus-officials.md)
 - [Настройка контроля аналитик для сопоставлений](rus-transactions-settlement-date.md)
-- [Счета на оплату](rus-invoice-payment.md)
-
 

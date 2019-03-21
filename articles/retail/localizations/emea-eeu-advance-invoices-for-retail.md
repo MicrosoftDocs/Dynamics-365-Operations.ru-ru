@@ -16,14 +16,15 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ba2cfb176242e2e611375c9943a9e4da2b2bb02a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0dd49d6fc3294342ebc13d16eb871d0b20229b0c
+ms.sourcegitcommit: 2cf5498098e7a5ade1c16eac6df26bc98e4565cd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371741"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "760706"
 ---
 # <a name="advance-invoices-for-retail-for-eastern-europe"></a>Авансовые счета для Retail для Восточной Европы
+
 [!include [banner](../includes/banner.md)]
 
 Сведения в этом разделе применяется к локализации для Восточной Европы и относится к сфере розничной торговли.
@@ -32,7 +33,7 @@ ms.locfileid: "371741"
 
 При окончательной разноске накладной для заказа на продажу итоговый документ следует включать авансовый счет, и любые предварительные платежи необходимо указывать.
 
-Если создавать заказы на продажу из модуля "Расчеты с клиентами", необходимо вручную создать авансовые счета, используя процедуру, описанную в разделе [Авансовые счета для Восточной Европы](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/emea-advance-invoice). При создании заказов на продажу через POS-терминал система создает и разносит авансовые счета автоматически.
+Если создавать заказы на продажу из модуля "Расчеты с клиентами", необходимо вручную создать авансовые счета, используя процедуру, описанную в разделе [Авансовые счета для Восточной Европы](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/emea-advance-invoice). При создании заказов на продажу через POS-терминал система создает и разносит авансовые счета автоматически.
 
 ## <a name="supported-scenarios"></a>Поддерживаемые сценарии
 

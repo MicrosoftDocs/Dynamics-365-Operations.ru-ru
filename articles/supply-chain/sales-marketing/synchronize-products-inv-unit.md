@@ -3,7 +3,7 @@ title: Синхронизация продуктов с единицами из�
 description: В этой теме обсуждаются шаблоны и базовая задача, которые используются для синхронизации продуктов с единицей измерения складского учета из Microsoft Dynamics 365 for Finance and Operations в Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 5d3767c1a499f3d888d8fc2ce06c2837442e39f0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 8e421be79fde6103be6344040b6ae6cda0626c5a
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "359252"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836310"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-finance-and-operations-to-field-service"></a>Синхронизация продуктов с единицами измерения складского учета Finance and Operations с Field Service
 
@@ -34,9 +34,11 @@ ms.locfileid: "359252"
 
 [![Синхронизация бизнес-процессов между Finance and Operations и Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
-Используемый шаблон **Продукты Field Service (из Finance and Operations в Field Service)** основан на шаблоне **Продукты (из Finance and Operations в Sales) — напрямую** из решения "Перспективный клиент в наличные деньги". Дополнительные сведения см. в разделе [Продукты (из Finance and Operations в Sales) — напрямую](products-template-mapping-direct.md).
+Использованный шаблон **Продукты Field Service Products с единицей измерения складского учета (из Finance and Operations в Field Service)** основан на шаблоне **Продукты Field Service (из Finance and Operations в Field Service)**. Дополнительные сведения см. в разделе [Продукты Field Service (из Finance and Operations в Field Service)](field-service-product.md).
 
-В этом разделе описываются только различия между шаблонами **Продукты Field Service (из Finance and Operations в Field Service)** и **Продукты (из Finance and Operations в Field Service) — напрямую**.
+В этом разделе описываются только различия между двумя шаблонами: 
+- **Продукты Field Service с единицей измерения складских запасов (из Finance and Operations в Sales)**
+- **Продукты Field Service (из Finance and Operations в Field Service)**. 
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
 
