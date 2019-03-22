@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78c70ade5a1ca9794760e72fb94e0735848aae79
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a925d16239ec78b09403a0c0db1346e35b7eee20
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302783"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403270"
 ---
 # <a name="fixed-assets-home-page"></a>Домашняя страница основных средств
 
@@ -41,13 +41,11 @@ ms.locfileid: "302783"
 
 #### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 
-Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке. 
+Перейдите к [Заметкам о выпуске Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы узнать о новых и запланированных возможностях. 
 
 #### <a name="blogs"></a>Блоги
 
-Мнения, новости и другие сведения о модуле основных средств и других решениях см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-В [блоге группы разработчиков Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) есть множество публикаций об основных средствах. Хотя некоторые из этих записей посвящены предыдущей версии модуля "Расчеты с поставщиками", обсуждаемые в них понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии.
+Мнения, новости и другие сведения см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в MBS Operations.
 

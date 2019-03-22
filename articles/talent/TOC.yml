@@ -5,44 +5,52 @@ items:
   - name: Начало работы
     href: talent-get-started.md
     items:
-    - name: Что нового и что изменилось
+    - name: Что нового и что изменилось в Talent
       href: whats-new.md
       items:
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (31 января 2019 г.)
+      - name: 5 марта 2019 г.
+        href: whats-new-talent-march-5.md
+      - name: 27 февраля 2019 г.
+        href: whats-new-talent-feb-27.md
+      - name: 14 февраля 2019 г.
+        href: whats-new-talent-feb14.md
+      - name: 7 февраля 2019 г.
+        href: whats-new-talent-february-7.md
+      - name: 31 января 2019 г.
         href: whats-new-talent-january-29.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (23 января 2019 г.)
+      - name: 23 января 2019 г.
         href: whats-new-talent-january-23.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (17 января 2019 г.)
+      - name: 17 января 2019 г.
         href: whats-new-talent-january-17.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (11 января 2019 г.)
+      - name: 11 января 2019 г.
         href: whats-new-talent-january-11.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (14 декабря 2018 г.)
+      - name: 14 декабря 2018 г.
         href: whats-new-talent-december-14.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (6 декабря 2018 г.)
+      - name: 6 декабря 2018 г.
         href: whats-new-talent-december-6.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (27 ноября 2018 г.)
+      - name: 27 ноября 2018 г.
         href: whats-new-talent-november-27.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (15 ноября 2018 г.)
+      - name: 15 ноября 2018 г.
         href: whats-new-talent-november-15.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (31 октября 2018 г.)
+      - name: 31 октября 2018 г.
         href: whats-new-talent-october-31.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (19 октября 2018 г.)
+      - name: 19 октября 2018 г.
         href: whats-new-talent-october-19.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (15 октября 2018 г.)
+      - name: 15 октября 2018 г.
         href: whats-new-talent-october-11.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (8 октября 2018 г.)
+      - name: 8 октября 2018 г.
         href: whats-new-talent-october-8.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (1 октября 2018 г.)
+      - name: 1 октября 2018 г.
         href: whats-new-talent-october-01.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (24 сентября 2018 г.)
+      - name: 24 сентября 2018 г.
         href: whats-new-talent-september-24.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (17 сентября 2018 г.)
+      - name: 17 сентября 2018 г.
         href: whats-new-talent-september-17-2018.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (10 сентября 2018 г.)
+      - name: 10 сентября 2018 г.
         href: whats-new-talent-september-10.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (август 2018 г.)
+      - name: Август 2018 г.
         href: whats-new-talent-august2018.md
-      - name: Что нового и что изменилось в Dynamics 365 for Talent Core HR (июль 2018 г.)
+      - name: Июль 2018 г.
         href: whats-new-talent-july2018.md
     - name: Системные требования и политика обновления
       href: talent-versions-update-policy.md
@@ -193,6 +201,8 @@ items:
       href: data-integration.md
     - name: Вопросы и ответы по интеграции
       href: talent-fo-integration.md
+    - name: Экспорт повторяющихся данных с помощью Azure Logic Apps
+      href: tutorial-integration-recurring-export.md
   - name: Интеграция с Office
     items:
     - name: Учебник по интеграции с Office
@@ -322,9 +332,9 @@ items:
       href: talent-FO-integration.md
     - name: Пользователи Azure Active Directory отсутствуют в средстве выбора пользователей
       href: people-picker-user-not-found.md
-ms.openlocfilehash: 2e3035ec9aa71fd66cba7b394bf5007880646aca
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: 4123fb80126695bb35a02d3d2fc00b3ea38c1881
+ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374835"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "782760"

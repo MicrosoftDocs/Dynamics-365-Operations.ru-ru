@@ -35,12 +35,6 @@ items:
     - name: Что нового и что изменилось
       href: get-started/whats-new-changed.md
       items:
-      - name: Вопросы и ответы по обновлениям службы с одной версией
-        href: get-started/one-version.md
-      - name: Политика жизненного цикла программного обеспечения и облачные выпуски
-        href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
-      - name: Политика жизненного цикла программного обеспечения и локальные выпуски
-        href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
       - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
         href: get-started/mainstream-support-ax-2009-2012.md
       - name: Удаленные или устаревшие функции
@@ -49,10 +43,14 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: Функции, не реализованные в локальных развертываниях
         href: get-started/features-not-implemented-on-prem.md
+      - name: Предварительные версии функций Finance and Operations версии 10.0.1 (апрель 2019 г.)
+        href: get-started/whats-new-changed-10-0-1.md
       - name: Finance and Operations версии 10.0 (апрель 2019 г.)
         href: get-started/whats-new-changed-10.md
       - name: Finance and Operations версии 8.1.3 (январь 2019 г.)
         href: get-started/whats-new-changed-8-1-3.md
+      - name: Предварительные версии функций Finance and Operations platform update 25 (апрель 2019 г.)
+        href: get-started/whats-new-platform-25.md
       - name: Platform update 24 (март 2019 г.)
         href: get-started/whats-new-platform-update-24.md
       - name: Platform update 23 (январь 2019 г.)
@@ -202,6 +200,29 @@ items:
       href: get-started/move-lcs-implementation-project-tenant.md
     - name: Несколько проектов LCS и производственных сред в одном клиенте Azure AD
       href: get-started/implement-multiple-projects-aad-tenant.md
+  - name: Обновления службы с одной версией
+    href: ../dev-itpro/lifecycle-services/oneversion-overview.md
+    items:
+    - name: Вопросы и ответы по обновлениям службы с одной версией
+      href: get-started/one-version.md
+    - name: 'Политика жизненного цикла программного обеспечения: облачное развертывание'
+      href: ../dev-itpro/migration-upgrade/versions-update-policy.md
+    - name: 'Политика жизненного цикла программного обеспечения: локальное развертывание'
+      href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
+    - name: Стандартные обновления и обновления первого выпуска службы
+      href: get-started/public-preview-releases.md
+    - name: Применение обновлений к облачным средам
+      href: ../dev-itpro/deployment/apply-deployable-package-system.md
+    - name: Настройка обновлений службы
+      href: ../dev-itpro/lifecycle-services/configure-service-updates.md
+    - name: Приостановка обновлений службы
+      href: ../dev-itpro/lifecycle-services/pause-service-updates.md
+    - name: Получение уведомлений об обновлениях службы
+      href: ../dev-itpro/lifecycle-services/notifications-service-updates.md
+    - name: Автоматизация задач данных
+      href: ../dev-itpro/data-entities/data-task-automation.md
+    - name: Regression Suite Automation Tool
+      href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
   - name: Бизнес-события
     href: ../dev-itpro/business-events/home-page.md
     items:
@@ -401,7 +422,7 @@ items:
             href: ../supply-chain/sales-marketing/synchronize-project-list.md
           - name: Синхронизация складов Finance and Operations с Field Service
             href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-          - name: Синхронизация заказов на выполнение работ Finance and Operations с Field Service
+          - name: Синхронизация заказов на выполнение работ с проектом из Field Service в Finance and Operations
             href: ../supply-chain/sales-marketing/synchronize-work-orders.md
         - name: Настройка интеграции Project Service Automation
           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
@@ -1416,6 +1437,8 @@ items:
           href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
         - name: Настройка параметров NF-e для финансового учреждения
           href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+      - name: SPED ECD
+        href: ../financials/localizations/latam-bra-sped-ecd.md
       - name: Налоговая декларация SPED-Reinf
         href: ../financials/localizations/latam-bra-sped-reinf.md
       - name: Параметры для юридических лиц
@@ -2236,6 +2259,8 @@ items:
           href: ../financials/localizations/rus-sales-books-purchase-books.md
       - name: Основные средства
         items:
+        - name: Настройка основных средств
+          href: ../financials/localizations/rus-set-up-fixed-assets.md
         - name: Приобретение ОС и их ввод в эксплуатацию
           href: ../financials/localizations/rus-fixed-asset-acquisition.md
         - name: Регистрация приобретений основных средств
@@ -2266,6 +2291,18 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: Расчет амортизации
           href: ../financials/localizations/rus-depreciation-calculation.md
+      - name: Расчеты с поставщиками и клиентами
+        items:
+        - name: Счета на оплату
+          href: ../financials/localizations/rus-invoice-payment.md
+        - name: Настройка контроля аналитик для сопоставлений
+          href: ../financials/localizations/rus-transactions-settlement-date.md
+        - name: Управление движением денежных средств
+          href: ../financials/localizations/rus-cash-flow.md
+      - name: Отчетность
+        items:
+        - name: Финансовая отчетность
+          href: ../financials/localizations/rus-financial-reports.md
       - name: Подразделения компании
         href: ../financials/localizations/rus-company-divisions.md
       - name: Настройка валютных курсов для проводок в валюте
@@ -2280,8 +2317,10 @@ items:
         href: ../financials/localizations/rus-invoice-payment.md
       - name: Финансовая отчетность
         href: ../financials/localizations/rus-financial-reports.md
-      - name: Создание книги покупок
-        href: ../financials/localizations/rus-sales-books-purchase-books.md
+      - name: Учет отчетности в электронном формате
+        href: ../financials/localizations/rus-accounting-reporting.md
+      - name: Управление движением денежных средств
+        href: ../financials/localizations/rus-cash-flow.md
     - name: Саудовская Аравия
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2367,6 +2406,8 @@ items:
         href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
       - name: Настройка налоговых групп для НДС, удерживаемого с покупателя
         href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+      - name: Making Tax Digital для НДС
+        href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
     - name: США
       href: ../financials/localizations/united-states.md
       items:
@@ -2827,6 +2868,8 @@ items:
           href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
         - name: Изменения в API платформы электронной отчетности для Application update 7.3
           href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+        - name: Определение пользовательского хранилища для создаваемых документов
+          href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
     - name: Внедренные аналитические решения
       items:
       - name: Внедренное решение Power BI в рабочих областях
@@ -3281,6 +3324,8 @@ items:
         href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
       - name: Отчет о типах бизнес-правил
         href: organization-administration/workflow-types-report.md
+      - name: Вопросы и ответы по бизнес-правилам
+        href: organization-administration/workflow-FAQ.md
     - name: Оповещения
       href: get-started/alerts-overview.md
       items:
@@ -3799,8 +3844,6 @@ items:
         href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
       - name: Выполнение договоров продажи
         href: ../supply-chain/sales-marketing/tasks/fulfill-sales-agreements.md
-      - name: Создание нового коммерческого соглашения
-        href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
       - name: Создание и обработка ретробонусов клиента
         href: ../supply-chain/sales-marketing/tasks/process-customer-rebates.md
       - name: Обработка ретробонусов для оплаты
@@ -3827,6 +3870,8 @@ items:
         href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
     - name: Торговая скидка
       href: ../supply-chain/sales-marketing/trade-allowance.md
+    - name: Создание нового коммерческого соглашения
+      href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
   - name: Управление сервисным обслуживанием
     href: ../supply-chain/service-management/service-management-home-page.md
     items:
@@ -4241,9 +4286,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: cb58a9f8fa8305a3d8b956804ef74bef86ca04b9
-ms.sourcegitcommit: 7e0097bdd835e04521bffbce2fd802e6381dde0d
+ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "376926"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836404"
