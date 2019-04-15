@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: Добро пожаловать в Dynamics 365 for Talent
-description: 'Talent упрощает множество повседневных задач по управлению записями и автоматизирует несколько процессов, связанных с персоналом организации. К этим процессам относится удержание сотрудников, администрирование льгот, обучение, оценки производительности и управление изменениями.'
-author: josaw
+description: Talent упрощает множество повседневных задач по управлению записями и автоматизирует несколько процессов, связанных с персоналом организации. К этим процессам относится удержание сотрудников, администрирование льгот, обучение, оценки производительности и управление изменениями.
+author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: null
+ms.technology: ''
 audience: Application User
-ms.reviewer: rschloma
-ms.search.scope: 'Core, Operations, Talent'
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Talent
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
-ms.author: rschloma
-ms.search.validFrom: '2016-02-28'
-ms.dyn365.ops.version: 'AX 7.0.0, Talent July 2017 update'
+ms.author: anbichse
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 39133474b4a66e53a5525e7c90216342a6f9ed34
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859882"
 ---
-
 # <a name="welcome-to-dynamics-365-for-talent"></a>Добро пожаловать в Dynamics 365 for Talent
 
 [!include [banner](includes/banner.md)]

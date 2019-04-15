@@ -8,6 +8,14 @@ items:
     - name: Что нового и что изменилось в Talent
       href: whats-new.md
       items:
+      - name: 2 апреля 2019 г.
+        href: whats-new-talent-april-2-2019.md
+      - name: 26 марта 2019 г.
+        href: whats-new-talent-march-26-2019.md
+      - name: 20 марта 2019 г.
+        href: whats-new-talent-march-20.md
+      - name: 14 марта 2019 г.
+        href: whats-new-talent-march-14.md
       - name: 5 марта 2019 г.
         href: whats-new-talent-march-5.md
       - name: 27 февраля 2019 г.
@@ -20,38 +28,42 @@ items:
         href: whats-new-talent-january-29.md
       - name: 23 января 2019 г.
         href: whats-new-talent-january-23.md
-      - name: 17 января 2019 г.
-        href: whats-new-talent-january-17.md
-      - name: 11 января 2019 г.
-        href: whats-new-talent-january-11.md
-      - name: 14 декабря 2018 г.
-        href: whats-new-talent-december-14.md
-      - name: 6 декабря 2018 г.
-        href: whats-new-talent-december-6.md
-      - name: 27 ноября 2018 г.
-        href: whats-new-talent-november-27.md
-      - name: 15 ноября 2018 г.
-        href: whats-new-talent-november-15.md
-      - name: 31 октября 2018 г.
-        href: whats-new-talent-october-31.md
-      - name: 19 октября 2018 г.
-        href: whats-new-talent-october-19.md
-      - name: 15 октября 2018 г.
-        href: whats-new-talent-october-11.md
-      - name: 8 октября 2018 г.
-        href: whats-new-talent-october-8.md
-      - name: 1 октября 2018 г.
-        href: whats-new-talent-october-01.md
-      - name: 24 сентября 2018 г.
-        href: whats-new-talent-september-24.md
-      - name: 17 сентября 2018 г.
-        href: whats-new-talent-september-17-2018.md
-      - name: 10 сентября 2018 г.
-        href: whats-new-talent-september-10.md
-      - name: Август 2018 г.
-        href: whats-new-talent-august2018.md
-      - name: Июль 2018 г.
-        href: whats-new-talent-july2018.md
+      - name: Архивы "Что нового" за 2019 г.
+        items:
+        - name: 17 января 2019 г.
+          href: whats-new-talent-january-17.md
+        - name: 11 января 2019 г.
+          href: whats-new-talent-january-11.md
+      - name: Архивы "Что нового" за 2018 г.
+        items:
+        - name: 14 декабря 2018 г.
+          href: whats-new-talent-december-14.md
+        - name: 6 декабря 2018 г.
+          href: whats-new-talent-december-6.md
+        - name: 27 ноября 2018 г.
+          href: whats-new-talent-november-27.md
+        - name: 15 ноября 2018 г.
+          href: whats-new-talent-november-15.md
+        - name: 31 октября 2018 г.
+          href: whats-new-talent-october-31.md
+        - name: 19 октября 2018 г.
+          href: whats-new-talent-october-19.md
+        - name: 15 октября 2018 г.
+          href: whats-new-talent-october-11.md
+        - name: 8 октября 2018 г.
+          href: whats-new-talent-october-8.md
+        - name: 1 октября 2018 г.
+          href: whats-new-talent-october-01.md
+        - name: 24 сентября 2018 г.
+          href: whats-new-talent-september-24.md
+        - name: 17 сентября 2018 г.
+          href: whats-new-talent-september-17-2018.md
+        - name: 10 сентября 2018 г.
+          href: whats-new-talent-september-10.md
+        - name: Август 2018 г.
+          href: whats-new-talent-august2018.md
+        - name: Июль 2018 г.
+          href: whats-new-talent-july2018.md
     - name: Системные требования и политика обновления
       href: talent-versions-update-policy.md
     - name: Подготовка Talent
@@ -62,7 +74,7 @@ items:
       href: modular-app-tech-faq.md
     - name: Внедрение приложений PowerApps
       href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Core HR и Common Data Service для приложений
+    - name: Core HR и Common Data Service
       href: CoreHREntities.md
     - name: Доступ к предварительным версиям функций
       href: access-preview-feature.md
@@ -100,8 +112,10 @@ items:
       href: attract-overview.md
     - name: Создание шаблона процесса в Attract
       href: Process-templates-Attract.md
-    - name: Создание, утверждение и разноска заданий в Attract
+    - name: Создание, утверждение и публикация вакансий в Attract
       href: Creating-jobs-Attract.md
+    - name: Публикация вакансий на внешних сайтах из Attract
+      href: posting-jobs-external.md
     - name: Поиск ресурсов с помощью кадровых пулов
       href: attract-talent-pools.md
     - name: Поиск ресурсов с помощью LinkedIn Recruiter
@@ -128,6 +142,8 @@ items:
       href: Intelligent-Recommendations.md
     - name: Создание эффективного процесса адаптации
       href: create-onboarding-experience.md
+    - name: Отслеживание источников для профилей и заявлений кандидатов
+      href: source-tracking.md
     - name: Возможности полной надстройки Attract Comprehensive Hiring
       href: attract-comprehensive-hiring.md
   - name: Мотивация сотрудников
@@ -203,6 +219,14 @@ items:
       href: talent-fo-integration.md
     - name: Экспорт повторяющихся данных с помощью Azure Logic Apps
       href: tutorial-integration-recurring-export.md
+  - name: Расширяемость
+    items:
+    - name: Расширение Talent с помощью PowerApps и Microsoft Flow — примеры сценариев
+      href: extensibility-examples.md
+    - name: Расширяемость в Attract
+      href: extensibility-attract.md
+    - name: Настраиваемые поля в Core HR
+      href: corehr-custom-fields.md
   - name: Интеграция с Office
     items:
     - name: Учебник по интеграции с Office
@@ -322,7 +346,7 @@ items:
       href: save-play-task-guides-LCS.md
     - name: Доступ к личным адресам по роли безопасности
       href: security-roles-addresses.md
-    - name: Talent отсутствует среди приложений Microsoft Dynamics 365 (CDS1.0)
+    - name: Talent отсутствует среди приложений Microsoft Dynamics 365 (Common Data Service 1.0)
       href: talent-not-in-home-CDS.md
     - name: Пользователю доступно Core HR, но недоступно приложение Onboard или Attract
       href: user-access-core-hr.md
@@ -332,9 +356,9 @@ items:
       href: talent-FO-integration.md
     - name: Пользователи Azure Active Directory отсутствуют в средстве выбора пользователей
       href: people-picker-user-not-found.md
-ms.openlocfilehash: 4123fb80126695bb35a02d3d2fc00b3ea38c1881
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: 0454094f05b3e571a38b8361fa9573c929647551
+ms.sourcegitcommit: 594fd4c7b937695396a7154a906563f43293926a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782760"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "969455"
