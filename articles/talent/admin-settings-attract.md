@@ -1,7 +1,7 @@
 ---
 title: Параметры администрирования в Attract
 description: В этом разделе описывается, как включить функциональность для организаций и пользователей в Attract.
-author: ''
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0de215103306ef7115ba390b1b4855179979c77b
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305937"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856378"
 ---
 # <a name="admin-settings-in-attract"></a>Параметры администрирования в Attract
 [!include[banner](../includes/banner.md)]
@@ -36,9 +36,9 @@ ms.locfileid: "305937"
 
 ## <a name="linkedin-integration"></a>Интеграция с LinkedIn
 
-Настройка интеграции с LinkedIn Recruiter System Connect (RSC). После подключения к LinkedIn, используя учетные данные LinkedIn, можно выполнить синхронизацию профиля LinkedIn, приложений, отзывов по собеседованиям и примечаний группы найма. Необходима полная лицензия агентства по найму LinkedIn. Дополнительные сведения о LinkedIn Recruiter см. в разделе [Recruiter System Connect (RSC) — вопросы и ответы](https://www.linkedin.com/help/recruiter/answer/90483).
+Настройка интеграции с модулем LinkedIn Recruiter System Connect (RSC). После подключения к LinkedIn, используя учетные данные LinkedIn, можно выполнить синхронизацию профиля LinkedIn, приложений, отзывов по собеседованиям и примечаний группы найма. Необходима полная лицензия агентства по найму LinkedIn. Дополнительные сведения о LinkedIn Recruiter см. в разделе [Recruiter System Connect (RSC) — вопросы и ответы](https://www.linkedin.com/help/recruiter/answer/90483).
 
-## <a name="user-permissions"></a>Разрешения пользователя
+## <a name="user-permissions"></a>Разрешения пользователей
 
 Назначьте роли пользователям в вашей организации. Доступны следующие роли: **Администратор**, **Специалист по найму**, **Специалист по комплектации штата** и **Только для чтения**. Дополнительные сведения о разрешениях пользователя см. в разделе [Безопасность и управление ролями в Attract](./security-attract.md).
 

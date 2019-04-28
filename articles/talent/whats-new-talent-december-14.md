@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305874"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949859"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Что нового и что изменилось в Dynamics 365 for Talent Core HR (14 декабря 2018 г.)
 
@@ -65,7 +65,7 @@ ms.locfileid: "305874"
 
 ### <a name="integration-between-core-hr-and-attract"></a>Интеграцию между модулями Core HR и Attract
 
-Внесено изменение для обновления интеграции между модулями Core HR и Attract, связанной с кандидатами для приема на работу. Чтобы кандидаты для приема на работу отображались в рабочей области **Управление персоналом**, используются следующие сущности CDS для приложений (CDS 2.0):
+Внесено изменение для обновления интеграции между модулями Core HR и Attract, связанной с кандидатами для приема на работу. Чтобы кандидаты для приема на работу отображались в рабочей области **Управление персоналом**, используются следующие сущности Common Data Service:
 
 Заявление о приеме на работу
 - Для причины состояния необходимо задать значение "Предложение принято"
@@ -139,7 +139,7 @@ ms.locfileid: "305874"
 
 Также необходимо обновить преобразование поля "Пол". Выберите тип сопоставления **fn** (функция) для поля "Пол" и обновите следующие сопоставления значений.
 
-| Значение в CDS                   | Значение в Finance and Operations                     |
+| Значение Common Data Service                   | Значение в Finance and Operations                     |
 | ----------------------------|--------------------------------------------------|
 | 75440000                    | Пол сотрудника                                             |
 | 75440001                    | Женский                                           |

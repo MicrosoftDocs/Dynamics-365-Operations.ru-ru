@@ -1,7 +1,7 @@
 ---
 title: Создание платежей поставщика с помощью предложения по оплате
 description: Этот раздел содержит обзор параметров предложения по оплате и несколько примеров, которые показывают, как работают предложения по оплате.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 332a18eb98811505b38c023c97c22b86a9367af1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 54c3d2b6ecae1481fd9b979e5d4ced217a67f5aa
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327420"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896864"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Создание платежей поставщику с помощью предложения по оплате
 

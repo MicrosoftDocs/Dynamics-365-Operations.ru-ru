@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6fae56d2feeec8e5c26fc86bdf89b8ab4c282144
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 80d62492d58a436c15fac82df0d000ab9efa6ea5
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306018"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949951"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Что нового и что изменилось в Dynamics 365 for Talent Core HR (6 декабря 2018 г.)
 
@@ -56,7 +56,7 @@ ms.locfileid: "306018"
 
 Для некоторых задач у пользователей может иметься список значений в Excel, которые требуется использовать для фильтрации данных в Talent. Например, у пользователя модуля управления персоналом может быть определен набор сотрудников из отчета, для которых требуется дополнительное исследование в системе, и было бы идеально для этого пользователя иметь возможность скопировать список непосредственно из Excel в поле фильтра в Talent.
 
-Начиная с обновления Platform update 22, оператор "является одним из" в области фильтрации и фильтрация по столбцам сетки теперь распознают списки, скопированные из Microsoft Excel, чтобы их можно было вставить непосредственно в поле фильтра. Это включает коллекцию значений, копируемых из разных строк и столбцов в Excel. Дополнительные сведения об этой функции см. в разделе [Вставка списков из Excel в поля фильтра с оператором "является одним из"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+Начиная с обновления Platform update 22, оператор "является одним из" в области фильтрации и фильтрация по столбцам сетки теперь распознают списки, скопированные из Excel, чтобы их можно было вставить непосредственно в поле фильтра. Это включает коллекцию значений, копируемых из разных строк и столбцов в Excel. Дополнительные сведения об этой функции см. в разделе [Вставка списков из Excel в поля фильтра с оператором "является одним из"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>В режиме предварительного просмотра
 
@@ -135,7 +135,7 @@ ms.locfileid: "306018"
 
 Также необходимо обновить преобразование поля "Пол". Выберите тип сопоставления **fn** (функция) для поля "Пол" и обновите следующие сопоставления значений.
 
-| Значение CDS   | Значение Finance and Operations | | ------------|------------------ -----------| | 75440000    | Мужской                         | | 75440001    | Женский                       | | 75440002    | Нет                         | | 75440003    | Не указан                  |
+| Значение Common Data Service   | Значение Finance and Operations | | ------------|------------------ -----------| | 75440000    | Мужской                         | | 75440001    | Женский                       | | 75440002    | Нет                         | | 75440003    | Не указан                  |
 
 Обновленные сопоставления должна выглядеть следующим образом.
 

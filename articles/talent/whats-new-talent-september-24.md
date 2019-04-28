@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: aeb75fe4c775b9003c6429de536498f495224098
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 24526a5884c6c5d30d1f49077b88a24364aa4365
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305959"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856169"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-24-2018"></a>Что нового и что изменилось в Dynamics 365 for Talent Core HR (24 сентября 2018 г.)
 

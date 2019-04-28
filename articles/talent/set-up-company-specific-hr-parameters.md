@@ -1,7 +1,7 @@
 ---
 title: Настройка параметров управления персоналом (HR) для конкретной компании
 description: Настройки некоторых параметров модуля "Управление персоналом" (HR) используются совместно несколькими компаниями, в то время как настройки других параметров относятся только к конкретной компании. В этой статье описывается, как настроить параметры модуля "Управление персоналом", относящиеся к конкретной компании.
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: HRMParameters
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: shielas
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 00facce5913fb82f67c5844d74d29032735db707
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306012"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859007"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Настройка параметров управления персоналом (HR) для конкретной компании
 

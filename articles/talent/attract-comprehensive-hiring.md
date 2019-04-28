@@ -1,64 +1,87 @@
 ---
-title: Возможности полной надстройки Attract Comprehensive Hiring
-description: Этот раздел содержит сведения о возможностях в надстройке Microsoft Dynamics 365 for Talent Attract с полнофункциональным приемом на работу.
-author: ''
+title: Какая версия Attract
+description: В этом разделе представлена информация о возможностях в разных версиях Microsoft Dynamics 365 for Talent - Attract.
+author: andreabichsel
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6adc2398d9ebcc655ad7ac7e0c949f44dc011013
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: b061233239fcaee768579cde9d1015ebbeaa66cb
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376444"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993630"
 ---
-# <a name="attract-comprehensive-hiring-add-on-capabilities"></a>Возможности полной надстройки Attract Comprehensive Hiring
+# <a name="which-version-of-attract"></a>Какая версия Attract?
 
 [!include[banner](../includes/banner.md)]
 
-Разные организации придают значение различным наборам функциональных возможностей в Attract. В результате существует два "уровня" продукта Attract. Имеется продукт Attract, который предназначен для небольших рабочих групп или организаций, в которых специалист по комплектации штата является основным пользователем процесса приема на работу. Имеется также полнофункциональная надстройка найма на работа, которую можно добавить в продукт Attract за дополнительную плату; она предназначена для средних и крупных рабочих групп или организаций, где наниматель или специалист Talent является основным пользователем процесса приема на работу.
-Дополнительные сведения о ценах и лицензировании см. в последнем [руководстве по лицензированию](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).
+Версия Microsoft Dynamics 365 for Talent: Attract, которая подходит для вас, зависит от размера и потребностей вашей организации. Базовая версия Attract предоставляет ограниченный набор функций, предназначенных для небольших рабочих групп или организаций, где менеджера по найму является основным пользователем. Можно начать использовать базовую версию Attract с одной или несколькими лицензиями.
 
-Бесплатные пробные версии Attract автоматически включают полную надстройку найма на период пробного использования. Если надстройка Comprehensive Hiring необходима для потребностям вашей организации, найдите [локального партнера Dynamics 365 for Talent](https://dynamics.microsoft.com/partners/find-a-partner/), чтобы он помог вам с вашими потребностями.
+Attract с надстройкой Comprehensive Hiring Add-On предназначен для средних и больших рабочих групп или организаций, где агент по найму или специалист по кадрам является основным пользователем. Для надстройки Comprehensive Hiring Add-On требуется приобрести лицензии через [партнера Microsoft Dynamics 365](https://dynamics.microsoft.com/partners/find-a-partner/).
 
-## <a name="capability-details"></a>Сведения о возможностях
+> [!NOTE]
+> Пробная версия Attract демонстрирует Attract с надстройкой Comprehensive Hiring Add-On. Эта надстройка предоставляет полный подбор возможностей подбора и найма сотрудников, такие как возможность размещать объявления о вакансиях на сайте карьеры Attract или на внешнем кадровом сайта, например LinkedIn. Если выбрана базовая версия Attract, подписка включает часть возможностей, предоставляемых в пробной версии.
 
-В следующем обзоре показаны возможности Attract между Attract и Attract с полнофункциональной надстройкой по найму Comprehensive Hiring.
+Дополнительные сведения о ценах и лицензировании см. в [руководстве по лицензированию Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-| **Способность**                                           | **Привлечение**         | **Attract с Comprehensive Hiring** |
-|----------------------------------------------------------|---------------------|---------------------------------------|
-| **Аудитория или основной** **пользователь**                      | **Менеджеры пользователей** | **Наниматели/специалисты Talent**    |
-| Управление заявками на должность                                | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Конфигурация процесса найма на уровне должности                    | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Управление созданием и профилем кандидата                  | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Интеллектуальное планирование собеседования                         | :heavy_check_mark:  | :heavy_check_mark:                    |
-| Настройка единого персонального пула кандидатов                        | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Управление безопасностью и ролями                              | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Базовая панель мониторинга                                          | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Доступ кандидатов к сведениям индивидуального заявления        | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Поток утверждения заявления на должность                             |                     | :heavy_check_mark:                    |
-| Управление шаблоном процесса найма уровня организации    |                     | :heavy_check_mark:                    |
-| Публикация должности на сайте карьеры Attract                       |                     | :heavy_check_mark:                    |
-| Потоки заявления кандидата через сайт карьеры Attract   |                      | :heavy_check_mark:                    |
-| Доступ кандидатов к полному профилю и журналу заявлений |                     | :heavy_check_mark:                    |
-| Подключение к LinkedIn Recruiter<sup>1</sup>                |                     | :heavy_check_mark:                    |
-| Offer Management                                         |                     | :heavy_check_mark:                    |
-| Настройка общего и глобального пула кандидатов                     |                     | :heavy_check_mark:                    |
-| Управление шаблонами электронной почты                                |                     | :heavy_check_mark:                    |
-| Рекомендации кандидатов и должностей                        |                     | :heavy_check_mark:                    |
+## <a name="feature-comparison"></a>Сравнение характеристик
 
+| Способность | Привлечение | Надстройка Comprehensive Hiring Add-On |
+| ---------- | :-----------: | :-------------------: |
+| Базовая панель мониторинга | :heavy_check_mark: | :heavy_check_mark: |
+| Управление безопасностью и ролями | :heavy_check_mark: | :heavy_check_mark: |
+| Управление заявками на должность | :heavy_check_mark: | :heavy_check_mark: |
+| Создание процесса найма на уровне должности | :heavy_check_mark: | :heavy_check_mark: |
+| Создание кандидатов и управление профилями | :heavy_check_mark: | :heavy_check_mark: |
+| Создание одного кадрового пула | :heavy_check_mark: | :heavy_check_mark: |
+| Планирование собеседований | :heavy_check_mark: | :heavy_check_mark: |
+| Предоставление кандидатам доступа к сведениям заявления | :heavy_check_mark: | :heavy_check_mark: |
+| Создание потоков утверждения для заявок на должность | | :heavy_check_mark: |
+| Управление процессами найма уровня организации | | :heavy_check_mark: |
+| Публикация вакансий в Attract и на внешних сайтах вакансий | | :heavy_check_mark: |
+| Создание потоков заявлений кандидатов через сайт карьеры Attract | | :heavy_check_mark: |
+| Предоставление доступа кандидатов к полному профилю и журналу заявлений | | :heavy_check_mark: |
+| Связь с LinkedIn Recruiter<br></br>Для этой возможности необходима лицензия LinkedIn Recruiter, которую необходимо <br></br> приобрести отдельно через LinkedIn.</blockquote> | | :heavy_check_mark: |
+| Управление предложениями | | :heavy_check_mark: |
+| Создание общих и глобальных пулов кандидатов | | :heavy_check_mark: |
+| Управление шаблонами электронной почты | | :heavy_check_mark: |
+| Предоставление рекомендаций кандидатов и должностей | | :heavy_check_mark: |
 
-<sup>1</sup>Для работы этой функции необходимы лицензии LinkedIn Recruiter, которые необходимо приобрести отдельно в LinkedIn.
+## <a name="find-out-which-version-of-attract-you-have"></a>Выяснение имеющейся версии Attract
+
+1. В Attract выберите знак вопроса (**?**) в правом верхнем углу страницы.
+2. Выберите **О программе**.
+
+    Окно, которое появляется, показывает, какой тип лицензии имеется для Attract.
+
+    ![Просмотр типа вашей лицензии Attract](media/attract-license-types.png)
+
+## <a name="frequently-asked-questions"></a>Часто задаваемые вопросы
+
+### <a name="why-dont-i-see-all-the-features-that-were-included-in-the-attract-trial"></a>Почему отображаются не все функции, которые были включены в пробную версию Attract?
+
+Существует несколько причин, почему могут не отображаться все функции, которые были включены в пробную версию Attract:
+
+- Пробная версия Attract демонстрирует Attract с надстройкой Comprehensive Hiring Add-On, а теперь у вас базовая версия Attract. Базовая версия Attract включает в себя часть функций, предназначенных для менеджеров по найму в небольших рабочих группах и организациях.
+- У вас есть Attract с надстройкой Comprehensive Hiring Add-On, но вам не назначены правильные роли для использования всех функций. Дополнительные сведения см. в разделе [Безопасность и управление ролями в Attract](security-attract.md).
+
+### <a name="why-dont-i-see-all-the-attract-features-that-my-coworker-sees"></a>Почему я не вижу все функции Attract, которые видит мой коллега?
+
+Существует несколько причин, почему могут не отображаться все функции Attract, доступные вашему коллеге:
+
+- Ваш коллега работает с пробной версией или лицензией для Attract с надстройкой Comprehensive Hiring Add-On, в то время как вы работаете в базовой версии Attract.
+- У вас есть Attract с надстройкой Comprehensive Hiring Add-On, но вам не назначены правильные роли для использования всех функций. Дополнительные сведения см. в разделе [Безопасность и управление ролями в Attract](security-attract.md).

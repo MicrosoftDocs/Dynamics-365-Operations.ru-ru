@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b622276000c56a5af1bb258dbc3c6c4a56af4d20
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782990"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949905"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (27 февраля 2019 г.)
 
@@ -87,7 +87,7 @@ ms.locfileid: "782990"
 
 ## <a name="known-issues"></a>Известные проблемы
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-for-apps-to-finance-and-operations"></a>Изменения в шаблоне интеграции Core HR (Talent Common Data Service для приложений с Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Изменения в шаблоне интеграции Core HR (Talent Common Data Service с Finance and Operations)
 Шаблон для Core HR обновлен до "шаблона расширенного запроса". Таким образом, по умолчанию расширенный запрос будет доступен для проектов, созданных с помощью этого шаблона. Кроме того, все функции сопоставления по умолчанию будет отображаться только в редакторе расширенного запроса. (Функции сопоставления по умолчанию отображаются как "FN" в сопоставлениях.)
 
 Дополнительные сведения об ошибках сопоставления см. в разделе [Что нового и что изменилось в Dynamics 365 for Talent Core HR (14 декабря 2018 г.)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
@@ -100,19 +100,19 @@ ms.locfileid: "782990"
 
     - **Позиции должности с должностями:** удалите это сопоставление.
     - **Позиции должности с назначения должностей для родительских должностей:** удалите это сопоставление.
-    - **Позиции должности с базовой позицией:** добавьте новое сопоставление из сущности **Позиции должности** Common Data Service для приложений с сущностью **Базовая позиция** Finance and Operations. Переместите ее в положение 7 в последовательности.
+    - **Позиции должности с базовой позицией:** добавьте новое сопоставление из сущности **Позиции должности** Common Data Service с сущностью **Базовая позиция** Finance and Operations. Переместите ее в положение 7 в последовательности.
 
         [![Сопоставление позиций должности с базовой позицией](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Позиции должности со сведения о позиции:** добавьте новое сопоставление из сущности **Позиции должности** Common Data Service для приложений с сущностью **Сведения о позиции** Finance and Operations. Переместите ее в положение 8 в последовательности.
+    - **Позиции должности со сведения о позиции:** добавьте новое сопоставление из сущности **Позиции должности** Common Data Service с сущностью **Сведения о позиции** Finance and Operations. Переместите ее в положение 8 в последовательности.
 
         [![Сопоставление позиций должности со сведениями о позиции](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Позиции должности с длительностями позиции:** добавьте новое сопоставление из сущности **Позиции должности** Common Data Service для приложений с сущностью **Длительности позиции** Finance and Operations.
+    - **Позиции должности с длительностями позиции:** добавьте новое сопоставление из сущности **Позиции должности** Common Data Service с сущностью **Длительности позиции** Finance and Operations.
 
         [![Сопоставление позиций должности с длительностями позиции](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Позиции должности с иерархиями позиций:** добавьте новое сопоставление из сущности **Позиции должности** Common Data Service для приложений с сущностью **Иерархии позиций** Finance and Operations. Выберите **Расширенный запрос**, чтобы ваш расширенный запрос был доступен для вашего проекта.
+    - **Позиции должности с иерархиями позиций:** добавьте новое сопоставление из сущности **Позиции должности** Common Data Service с сущностью **Иерархии позиций** Finance and Operations. Выберите **Расширенный запрос**, чтобы ваш расширенный запрос был доступен для вашего проекта.
 
        [![Кнопка расширенного запроса](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 

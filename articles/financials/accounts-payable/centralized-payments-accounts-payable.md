@@ -1,7 +1,7 @@
 ---
 title: Централизованные платежи по расчетам с поставщиками
 description: Организации, состоящие из нескольких юридических лиц, могут создавать платежи и управлять ими, используя одно юридическое лицо, обрабатывающее все платежи. Поэтому такие же платежи нет необходимости вводить для нескольких юридических лиц. В этой статье приводятся примеры, которые показывают, как разноска для централизованных платежей обрабатывается в различных сценариях.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 02/12/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b61320617dd85a880414b31ad6c88e611beca161
-ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
+ms.openlocfilehash: 41d94f4327268ef24388d97fc24804b650a84d57
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "390174"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "897163"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Централизованные платежи по расчетам с поставщиками
 
