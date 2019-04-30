@@ -3,7 +3,7 @@ title: Синхронизация сведений уровня запасов �
 description: В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации сведений об уровне запасов из Microsoft Dynamics 365 for Finance and Operations в Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b81694f1ed56d8542de46203ac5faf5fae2b6645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356791"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842564"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Синхронизация сведений об уровне запасов Finance and Operations с Field Service 
 
@@ -38,14 +38,14 @@ ms.locfileid: "356791"
 Следующие шаблон и базовые задачи используются для синхронизации корректировок и перемещений наличных запасов из Microsoft Dynamics 365 for Finance and Operations в Microsoft Dynamics 365 for Field Service.
 
 **Шаблон в интеграции данных**
-- Запасы продуктов (из Finance and Operations в Field Service)
+- Запасы продуктов (из Fin and Ops в Field Service)
   
 **Задача в проекте интеграции данных**
 - Запасы продуктов
 
 Чтобы была возможна синхронизация уровней запасов, требуются следующие задачи синхронизации:
-- Склады (из Finance and Operations в Field Service) 
-- Продукты Field Service с единицей измерения складских запасов (из Finance and Operations в Sales) 
+- Склады (из Fin and Ops в Field Service) 
+- Продукты Field Service с единицей измерения складских запасов (из Fin and Ops в Sales) 
 
 ## <a name="entity-set"></a>Набор объектов
 
@@ -80,6 +80,6 @@ ms.locfileid: "356791"
 
 ## <a name="template-mapping-in-data-integration"></a>Сопоставление шаблона в интеграции данных
 
-### <a name="product-inventory-finance-and-operations-to-field-service-product-inventory"></a>Запасы продуктов (из Finance and Operations в Field Service): Запасы продуктов
+### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Запасы продуктов (из Fin and Ops в Field Service): Запасы продуктов
 
 [![Сопоставление шаблона в интеграции данных](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 9d5d6fd65717cd886f1c6576aabf2bc59ca4fcaf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: a47f705976b7a5b34492294e28aa8cd47ea38825
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
+ms.lasthandoff: 03/22/2019
 ms.locfileid: "345935"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Преобразование единиц измерения для вариантов продукта
@@ -92,4 +92,4 @@ ms.locfileid: "345935"
 
 Если для продукта существует много вариантов продукта с различными преобразованиями единиц измерения, рекомендуется экспортировать преобразования единиц измерения со страницы **Пересчет ед. изм** в электронную таблицу Excel, обновить преобразования, затем снова опубликовать их в приложении Finance and Operations.
 
-Возможность экспорта в Excel и публикации изменений обратно в приложении Finance and Operations включается в пункте меню **Открыть в Microsoft Office** на панели операций на странице **Пересчет ед. изм.**.
+Возможность экспорта в Excel и публикации изменений обратно в приложении Finance and Operations включается в пункте меню **Open in Microsoft Office** на панели операций на странице **Пересчет ед. изм.**.

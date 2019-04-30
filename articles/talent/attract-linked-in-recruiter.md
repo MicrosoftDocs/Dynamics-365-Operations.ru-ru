@@ -1,7 +1,7 @@
 ---
-title: Поиск с помощью LinkedIn Recruiter
+title: Поиск ресурсов с помощью LinkedIn Recruiter
 description: В этом разделе представлена информация об использовании машинного обучения для получения должности и рекомендаций кандидата на должность.
-author: josaw
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -10,23 +10,23 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4ac7a302e5bf589beb2b560b0ff5818e90c67139
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305897"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859582"
 ---
-# <a name="sourcing-with-linkedin-recruiter"></a>Поиск с помощью LinkedIn Recruiter
+# <a name="sourcing-with-linkedin-recruiter"></a>Поиск ресурсов с помощью LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
 LinkedIn является крупнейшей в мире кадровой базой данных и часто основной системой, которую агенты по найму могут использовать для поиска, взаимодействия и привлечения кандидатов для должностей, которые агентам по найму требуется заполнить. Интеграция LinkedIn Recruiter с Dynamics 365 for Talent: Attract упрощает для пользователей прием на работу и поддержание синхронизации данных между двумя системами.

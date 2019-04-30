@@ -3,7 +3,7 @@ title: Домашняя страница бизнес-аналитики (BI) и
 description: В этом разделе описаны ресурсы, которые можно использовать для получения дополнительных сведений о бизнес-аналитике и средствах отчетности, доступных в Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 03/27/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302779"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902850"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Домашняя страница бизнес-аналитики (BI) и отчетности
 
@@ -33,7 +33,7 @@ ms.locfileid: "302779"
 ## <a name="get-started"></a>Начало работы
 - [Доступ к данным и отчетность](information-access-reporting.md)
 - [Технические вопросы: варианты отчетности](https://www.youtube.com/watch?v=NzZONjKs5xA) (видео)
-- [Finance and Operations: бизнес-аналитика](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (блог)
+- [Finance and Operations: блог по Power BI Analytics & Reporting Services](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (блог)
 
 ## <a name="analytical-workspaces"></a>Рабочие области для аналитики
 В Finance and Operations формируются интерактивные отчетов, легко интегрируемые с рабочими областями приложений. В рабочих областях можно использовать инфографику и другие визуальные элементы, поддерживаемые Microsoft Power BI. Эти визуальные элементы содержат множество элементов управления, предоставляемых сторонними разработчиками. Поэтому рабочие области представляют собой очень наглядный интерактивный инструмент для пользователей.

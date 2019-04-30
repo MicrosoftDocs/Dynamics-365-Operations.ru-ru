@@ -3,7 +3,7 @@ title: Синхронизация перемещений и корректиро
 description: В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации корректировок и перемещений запасов из Microsoft Dynamics 365 for Finance and Operations в Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: aa54945cea5821da163e1f6ea1747ac29b31a3ce
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 75181661c41d238cdc06ffbb6969a2efd7d88d46
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308376"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842423"
 ---
 # <a name="synchronize-inventory-adjustments-from-field-service-to-finance-and-operations"></a>Синхронизация корректировок запасов из Field Service в Finance and Operations
 
@@ -38,8 +38,8 @@ ms.locfileid: "308376"
 Следующие шаблон и базовые задачи используются для синхронизации корректировок и перемещений запасов из Microsoft Dynamics 365 for Field Service в Microsoft Dynamics 365 for Finance and Operations.
 
 **Шаблоны в интеграции данных**
-- Корректировка запасов (из Field Service в Finance and Operations)
-- Перемещение запасов (из Field Service в Finance and Operations)
+- Корректировка запасов (из Field Service в Fin and Ops)
+- Перемещение запасов (из Field Service в Fin and Ops)
 
 **Задачи в проектах интеграции данных**
 - Корректировки запасов
@@ -71,11 +71,11 @@ ms.locfileid: "308376"
 
 На следующем рисунке показано сопоставление шаблона в интеграции данных.
 
-### <a name="inventory-adjustment-field-service-to-finance-and-operations-inventory-adjustment"></a>Корректировка запасов (Field Service с Finance and Operations): Корректировка запасов
+### <a name="inventory-adjustment-field-service-to-fin-and-ops-inventory-adjustment"></a>Корректировка запасов (Field Service с Fin and Ops): Корректировка запасов
 
 [![Сопоставление шаблона в интеграции данных](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
-### <a name="inventory-transfer-field-service-to-finance-and-operations-inventory-transfer"></a>Перемещение запасов (Field Service с Finance and Operations): Перемещение запасов
+### <a name="inventory-transfer-field-service-to-fin-and-ops-inventory-transfer"></a>Перемещение запасов (Field Service с Fin and Ops): Перемещение запасов
 
 [![Сопоставление шаблона в интеграции данных](./media/FSTrans1.png)](./media/FSTrans1.png)

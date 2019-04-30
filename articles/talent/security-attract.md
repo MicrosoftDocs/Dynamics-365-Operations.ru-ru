@@ -1,7 +1,7 @@
 ---
 title: Безопасность и управление ролями в Attract
 description: В этом разделе представлены сведения о роли безопасности в Microsoft Dynamics 365 for Talent - Attract.
-author: josaw1
+author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: josaw1
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
-ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
+ms.openlocfilehash: 9c0f9d3304b1b15aa84fd1a296267d606bf9c59d
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "789705"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993699"
 ---
 # <a name="security-and-role-management-in-attract"></a>Безопасность и управление ролями в Attract
 
@@ -70,6 +70,16 @@ Microsoft Dynamics 365 for Talent: Attract использует безопасн
 
 Пользователи, которым назначена роль только для чтения, имеют доступ только для чтения ко всем данным в среде Attract. Тем не менее, они не могут создавать или изменять какие-либо данные.
 
+## <a name="find-out-which-roles-you-have"></a>Узнайте, какие роли у вас есть
+
+1.  В Attract щелкните знак вопроса (**?**) в правом верхнем углу страницы.
+
+2.  Щелкните **О программе**.
+
+    В открывшемся окне можно будет увидеть, какие роли вы имеете для Attract:
+
+    ![Просмотр типа вашей лицензии Attract](media/attract-license-types.png)
+    
 ## <a name="delegated-roles"></a>Делегированные роли
 
 Для каждой должности, для которой они включены в группу найма, агенты и менеджеры по найму могут назначить одного или несколько представителей для себя. Тем не менее, они не могут назначить делегатов для других пользователей в группе найма на работу.

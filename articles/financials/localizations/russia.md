@@ -3,7 +3,7 @@ title: Россия
 description: В этой теме представлен обзор функциональности Dynamics 365 for Finance and Operations, относящейся к России.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/30/2018
+ms.date: 03/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,18 +15,23 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1e43d5a83fd31fdbde308e2b23cbb2990fe933b5
-ms.sourcegitcommit: b3bce180d3b5aea3cd95d46b61505e9de3f58118
+ms.openlocfilehash: 937534f391c68c5bc9355f07dd054a740b7ea663
+ms.sourcegitcommit: 594fd4c7b937695396a7154a906563f43293926a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832689"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "969312"
 ---
 # <a name="russia"></a>Россия
 
 [!include [banner](../includes/banner.md)]
 
 В этой теме содержится информация о функциональности Dynamics 365 for Finance and Operations, поддерживающей российские законы. 
+
+## <a name="general-ledger"></a>Главная книга
+
+- [Корреспонденция счетов](rus-correspondence-accounts.md)
+- [Предварительный просмотр проводок ГК](rus-ledger-transactions-preview.md)
 
 ## <a name="advance-holders"></a>Подотчетные лица
 
@@ -63,6 +68,7 @@ ms.locfileid: "832689"
 - [Методы амортизации](rus-depreciation-methods.md)
 - [Амортизационные премии](rus-bonus-depreciation.md)
 - [Расчет амортизации](rus-depreciation-calculation.md)
+- [Перенос основных средств](rus-fixed-asset-transfer.md)
 
 ## <a name="accounts-payable-and-receivable"></a>Расчеты с поставщиками и клиентами
 - [Счета на оплату](rus-invoice-payment.md)
@@ -72,6 +78,14 @@ ms.locfileid: "832689"
 ## <a name="reporting"></a>Отчетность
 
 - [Финансовая отчетность](rus-financial-reports.md)
+- [Декларация налога на имущество](rus-assessed-tax-declaration.md)
+
+
+## <a name="organization-administration"></a>Администрирование организации
+
+- [Сведения о налоговой регистрации, связанные с адресом](emea-registration-ids.md)
+- [Настройка должностных лиц](rus-officials.md)
+- [Подразделения компании](rus-company-divisions.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
@@ -79,8 +93,8 @@ ms.locfileid: "832689"
 - [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Портал локализации Microsoft Dynamics: отчет для России (требуется учетная запись CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/RussianFederation.html)
 - [Подразделения компании](rus-company-divisions.md)
+- [Настройка должностных лиц](rus-officials.md)
 - [Настройка валютных курсов для проводок в валюте](rus-exchange-difference.md)
 - [Предварительный просмотр проводок ГК](rus-ledger-transactions-preview.md)
-- [Настройка должностных лиц](rus-officials.md)
 - [Настройка контроля аналитик для сопоставлений](rus-transactions-settlement-date.md)
 

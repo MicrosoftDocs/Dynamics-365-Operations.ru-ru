@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e6b490a696dc0a00c47e56f57373f330d0e53dde
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782989"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949813"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (5 марта 2019 г.)
 
@@ -35,7 +35,7 @@ ms.locfileid: "782989"
 
 ### <a name="extending-option-sets-in-attract"></a>Расширение наборов параметров в Attract
 
-В Attract имеется несколько полей, которые являются наборам параметров в Common Data Service (CDS). Были добавлены новые возможности для расширения наборов параметров, начиная с поля **Причина отклонения**, поля **Тип трудоустройства** и поле **Типа трудового стажа**.
+В Attract имеется несколько полей, которые являются наборам параметров в Common Data Service. Были добавлены новые возможности для расширения наборов параметров, начиная с поля **Причина отклонения**, поля **Тип трудоустройства** и поле **Типа трудового стажа**.
 
 > [!IMPORTANT]
 > Для функциональности публикации объявлений о вакансии в LinkedIn необходимо использовать поля **Тип трудоустройства** и **Тип трудового стажа** на странице **Сведения о вакансии**. Значения по умолчанию в этих полях поддерживаются LinkedIn и отображаются при публикации вакансии. Если при публикации вакансий в LinkedIn изменить существующие значения набора параметров для этих полей, вакансия по-прежнему будут опубликована, но LinkedIn не будет отображать настраиваемые значения **Тип трудоустройства** и **Тип трудового стажа**.
@@ -70,8 +70,8 @@ ms.locfileid: "782989"
 ### <a name="other-miscellaneous-bug-fixes"></a>Исправление прочих ошибок
 Другие исправления незначительных ошибок включены в этот выпуск.
 
-### <a name="upgrade-to-cds-for-apps"></a>Обновление на CDS для приложений
-Крайние сроки для обновления на CDS для приложений быстро приближаются. Войдите в центр администрирования PowerApps для определения, необходимо ли обновить вашу базу данных. Дополнительные сведения о крайних сроках и необходимых действиях по обновлению см. в разделе [Обновление до Common Data Service для приложений](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+### <a name="upgrade-to-common-data-service"></a>Обновление до Common Data Service
+Крайние сроки для обновления до Common Data Service быстро приближаются. Войдите в центр администрирования PowerApps для определения, необходимо ли обновить вашу базу данных. Дополнительные сведения о крайних сроках и необходимых действиях по обновлению см. в разделе [Обновление до Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Скоро
 

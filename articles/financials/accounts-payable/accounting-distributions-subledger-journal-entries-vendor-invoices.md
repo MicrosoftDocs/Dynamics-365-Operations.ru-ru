@@ -1,7 +1,7 @@
 ---
 title: Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных поставщиков
 description: Распределения по бухгалтерским счетам используются, чтобы определить, как будет включена сумма. Например, как расходы, налоги или начисления будут включены в накладную поставщика. На каждую сумму, которая должна быть включена в накладную поставщика, будет приходится одно или несколько распределений по бухгалтерским счетам.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/20/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f59eb2f61bc6bc887461683408b57c4672ce5bf1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3b75b1c8d98c15579909bd8816f2f7df8e6a5ba0
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351363"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896749"
 ---
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных поставщиков
 
