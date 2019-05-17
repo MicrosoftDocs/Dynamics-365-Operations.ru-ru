@@ -1,2 +1,2 @@
 > [!NOTE]
-> Эта тема относится к Dynamics 365 for Finance and Operations и Dynamics 365 for Retail. 
+> Этот раздел относится как к Dynamics 365 for Finance and Operations, так и к Dynamics 365 for Retail. 
