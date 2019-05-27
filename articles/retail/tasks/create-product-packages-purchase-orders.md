@@ -17,59 +17,59 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b7a7386a9be15f4eeef7aaab73cb320b71994eea
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360448"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556169"
 ---
-# <a name="create-product-packages-for-purchase-orders"></a><span data-ttu-id="50c18-103">Создание пакетов продуктов для заказов на покупку</span><span class="sxs-lookup"><span data-stu-id="50c18-103">Create product packages for purchase orders</span></span>
+# <a name="create-product-packages-for-purchase-orders"></a><span data-ttu-id="a194b-103">Создание пакетов продуктов для заказов на покупку</span><span class="sxs-lookup"><span data-stu-id="a194b-103">Create product packages for purchase orders</span></span>
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="50c18-104">Эта процедура содержит инструкции по созданию пакета продуктов и его использованию в заказе на покупку.</span><span class="sxs-lookup"><span data-stu-id="50c18-104">This procedure walks through creating a product package and using it on a purchase order.</span></span> <span data-ttu-id="50c18-105">Заказ на покупку будет использоваться для создания заказа на заранее определенный набор продуктов.</span><span class="sxs-lookup"><span data-stu-id="50c18-105">The purchase order will be used to create an order for a pre-defined set of products.</span></span> <span data-ttu-id="50c18-106">В этой процедуре используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="50c18-106">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="a194b-104">Эта процедура содержит инструкции по созданию пакета продуктов и его использованию в заказе на покупку.</span><span class="sxs-lookup"><span data-stu-id="a194b-104">This procedure walks through creating a product package and using it on a purchase order.</span></span> <span data-ttu-id="a194b-105">Заказ на покупку будет использоваться для создания заказа на заранее определенный набор продуктов.</span><span class="sxs-lookup"><span data-stu-id="a194b-105">The purchase order will be used to create an order for a pre-defined set of products.</span></span> <span data-ttu-id="a194b-106">В этой процедуре используется компания с демонстрационными данными USRT.</span><span class="sxs-lookup"><span data-stu-id="a194b-106">This procedure uses the USRT demo data company.</span></span>
 
 
-## <a name="create-a-product-package"></a><span data-ttu-id="50c18-107">Создание пакета продуктов</span><span class="sxs-lookup"><span data-stu-id="50c18-107">Create a product package</span></span>
-1. <span data-ttu-id="50c18-108">Перейдите в раздел "Розничная торговля и коммерция" > "Управление запасами" > "Пополнение" > "Пакеты продуктов".</span><span class="sxs-lookup"><span data-stu-id="50c18-108">Go to Retail and commerce > Inventory management > Replenishment > Product packages.</span></span>
-2. <span data-ttu-id="50c18-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="50c18-109">Click New.</span></span>
-3. <span data-ttu-id="50c18-110">В поле "Номер пакета" введите значение.</span><span class="sxs-lookup"><span data-stu-id="50c18-110">In the Package number field, type a value.</span></span>
-4. <span data-ttu-id="50c18-111">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="50c18-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="50c18-112">В поле "Счет поставщика" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="50c18-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="50c18-113">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="50c18-113">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="50c18-114">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="50c18-114">Click Add.</span></span>
-8. <span data-ttu-id="50c18-115">В поле "Код номенклатуры" введите "0160".</span><span class="sxs-lookup"><span data-stu-id="50c18-115">In the Item number field, type '0160'.</span></span>
-9. <span data-ttu-id="50c18-116">В поле "Размер" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="50c18-116">In the Size field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="50c18-117">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="50c18-117">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="50c18-118">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="50c18-118">In the Quantity field, enter a number.</span></span>
-12. <span data-ttu-id="50c18-119">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="50c18-119">Click Add.</span></span>
-13. <span data-ttu-id="50c18-120">В поле "Код номенклатуры" введите "0160".</span><span class="sxs-lookup"><span data-stu-id="50c18-120">In the Item number field, type '0160'.</span></span>
-14. <span data-ttu-id="50c18-121">В поле "Номер варианта" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="50c18-121">In the Variant number field, click the drop-down button to open the lookup.</span></span>
-15. <span data-ttu-id="50c18-122">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="50c18-122">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="50c18-123">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="50c18-123">In the Quantity field, enter a number.</span></span>
-17. <span data-ttu-id="50c18-124">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="50c18-124">Click Add.</span></span>
-18. <span data-ttu-id="50c18-125">В поле "Код номенклатуры" введите "0175".</span><span class="sxs-lookup"><span data-stu-id="50c18-125">In the Item number field, type '0175'.</span></span>
-19. <span data-ttu-id="50c18-126">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="50c18-126">In the Quantity field, enter a number.</span></span>
-20. <span data-ttu-id="50c18-127">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="50c18-127">Click Save.</span></span>
-21. <span data-ttu-id="50c18-128">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="50c18-128">Close the page.</span></span>
+## <a name="create-a-product-package"></a><span data-ttu-id="a194b-107">Создание пакета продуктов</span><span class="sxs-lookup"><span data-stu-id="a194b-107">Create a product package</span></span>
+1. <span data-ttu-id="a194b-108">Перейдите в раздел "Розничная торговля и коммерция" > "Управление запасами" > "Пополнение" > "Пакеты продуктов".</span><span class="sxs-lookup"><span data-stu-id="a194b-108">Go to Retail and commerce > Inventory management > Replenishment > Product packages.</span></span>
+2. <span data-ttu-id="a194b-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="a194b-109">Click New.</span></span>
+3. <span data-ttu-id="a194b-110">В поле "Номер пакета" введите значение.</span><span class="sxs-lookup"><span data-stu-id="a194b-110">In the Package number field, type a value.</span></span>
+4. <span data-ttu-id="a194b-111">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="a194b-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="a194b-112">В поле "Счет поставщика" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="a194b-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="a194b-113">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="a194b-113">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="a194b-114">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="a194b-114">Click Add.</span></span>
+8. <span data-ttu-id="a194b-115">В поле "Код номенклатуры" введите "0160".</span><span class="sxs-lookup"><span data-stu-id="a194b-115">In the Item number field, type '0160'.</span></span>
+9. <span data-ttu-id="a194b-116">В поле "Размер" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="a194b-116">In the Size field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="a194b-117">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="a194b-117">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="a194b-118">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="a194b-118">In the Quantity field, enter a number.</span></span>
+12. <span data-ttu-id="a194b-119">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="a194b-119">Click Add.</span></span>
+13. <span data-ttu-id="a194b-120">В поле "Код номенклатуры" введите "0160".</span><span class="sxs-lookup"><span data-stu-id="a194b-120">In the Item number field, type '0160'.</span></span>
+14. <span data-ttu-id="a194b-121">В поле "Номер варианта" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="a194b-121">In the Variant number field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="a194b-122">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="a194b-122">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="a194b-123">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="a194b-123">In the Quantity field, enter a number.</span></span>
+17. <span data-ttu-id="a194b-124">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="a194b-124">Click Add.</span></span>
+18. <span data-ttu-id="a194b-125">В поле "Код номенклатуры" введите "0175".</span><span class="sxs-lookup"><span data-stu-id="a194b-125">In the Item number field, type '0175'.</span></span>
+19. <span data-ttu-id="a194b-126">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="a194b-126">In the Quantity field, enter a number.</span></span>
+20. <span data-ttu-id="a194b-127">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="a194b-127">Click Save.</span></span>
+21. <span data-ttu-id="a194b-128">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="a194b-128">Close the page.</span></span>
 
-## <a name="add-package-to-purchase-order"></a><span data-ttu-id="50c18-129">Добавление пакета в заказ на покупку</span><span class="sxs-lookup"><span data-stu-id="50c18-129">Add package to purchase order</span></span>
-1. <span data-ttu-id="50c18-130">Перейдите в раздел "Расчеты с поставщиками" > "Заказы на покупку" > "Все заказы на покупку".</span><span class="sxs-lookup"><span data-stu-id="50c18-130">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
-2. <span data-ttu-id="50c18-131">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="50c18-131">Click New.</span></span>
-3. <span data-ttu-id="50c18-132">В поле "Счет поставщика" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="50c18-132">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="50c18-133">В списке выберите поставщика, для которого ранее был создан пакет продуктов, если поставщик был выбран.</span><span class="sxs-lookup"><span data-stu-id="50c18-133">In the list, select the same vendor that the product package was previously created for, if a vendor was selected.</span></span>
-5. <span data-ttu-id="50c18-134">Переключите развертывание раздела "Общее".</span><span class="sxs-lookup"><span data-stu-id="50c18-134">Toggle the expansion of the General section.</span></span>
-6. <span data-ttu-id="50c18-135">В поле "Сайт" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="50c18-135">In the Site field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="50c18-136">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="50c18-136">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="50c18-137">В поле "Склад" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="50c18-137">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="50c18-138">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="50c18-138">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="50c18-139">Нажмите кнопку OK.</span><span class="sxs-lookup"><span data-stu-id="50c18-139">Click OK.</span></span>
-11. <span data-ttu-id="50c18-140">Переключите развертывание раздела "Сведения о строке".</span><span class="sxs-lookup"><span data-stu-id="50c18-140">Toggle the expansion of the Line details section.</span></span>
-12. <span data-ttu-id="50c18-141">Откройте вкладку "Пакеты продуктов".</span><span class="sxs-lookup"><span data-stu-id="50c18-141">Click the Product packages tab.</span></span>
-13. <span data-ttu-id="50c18-142">Щелкните "Строка заказа на покупку".</span><span class="sxs-lookup"><span data-stu-id="50c18-142">Click Purchase order line.</span></span>
-14. <span data-ttu-id="50c18-143">Щелкните "Создать строки из пакета".</span><span class="sxs-lookup"><span data-stu-id="50c18-143">Click Create lines from package.</span></span>
-15. <span data-ttu-id="50c18-144">В списке найдите и выберите пакет продуктов, созданный в предыдущем шаге.</span><span class="sxs-lookup"><span data-stu-id="50c18-144">In the list, find and select the product package created in previous step.</span></span>
-16. <span data-ttu-id="50c18-145">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="50c18-145">In the Quantity field, enter a number.</span></span>
-17. <span data-ttu-id="50c18-146">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="50c18-146">Click Create.</span></span>
-18. <span data-ttu-id="50c18-147">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="50c18-147">Click Save.</span></span>
+## <a name="add-package-to-purchase-order"></a><span data-ttu-id="a194b-129">Добавление пакета в заказ на покупку</span><span class="sxs-lookup"><span data-stu-id="a194b-129">Add package to purchase order</span></span>
+1. <span data-ttu-id="a194b-130">Перейдите в раздел "Расчеты с поставщиками" > "Заказы на покупку" > "Все заказы на покупку".</span><span class="sxs-lookup"><span data-stu-id="a194b-130">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="a194b-131">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="a194b-131">Click New.</span></span>
+3. <span data-ttu-id="a194b-132">В поле "Счет поставщика" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="a194b-132">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="a194b-133">В списке выберите поставщика, для которого ранее был создан пакет продуктов, если поставщик был выбран.</span><span class="sxs-lookup"><span data-stu-id="a194b-133">In the list, select the same vendor that the product package was previously created for, if a vendor was selected.</span></span>
+5. <span data-ttu-id="a194b-134">Переключите развертывание раздела "Общее".</span><span class="sxs-lookup"><span data-stu-id="a194b-134">Toggle the expansion of the General section.</span></span>
+6. <span data-ttu-id="a194b-135">В поле "Сайт" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="a194b-135">In the Site field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="a194b-136">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="a194b-136">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="a194b-137">В поле "Склад" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="a194b-137">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="a194b-138">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="a194b-138">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="a194b-139">Нажмите кнопку OK.</span><span class="sxs-lookup"><span data-stu-id="a194b-139">Click OK.</span></span>
+11. <span data-ttu-id="a194b-140">Переключите развертывание раздела "Сведения о строке".</span><span class="sxs-lookup"><span data-stu-id="a194b-140">Toggle the expansion of the Line details section.</span></span>
+12. <span data-ttu-id="a194b-141">Откройте вкладку "Пакеты продуктов".</span><span class="sxs-lookup"><span data-stu-id="a194b-141">Click the Product packages tab.</span></span>
+13. <span data-ttu-id="a194b-142">Щелкните "Строка заказа на покупку".</span><span class="sxs-lookup"><span data-stu-id="a194b-142">Click Purchase order line.</span></span>
+14. <span data-ttu-id="a194b-143">Щелкните "Создать строки из пакета".</span><span class="sxs-lookup"><span data-stu-id="a194b-143">Click Create lines from package.</span></span>
+15. <span data-ttu-id="a194b-144">В списке найдите и выберите пакет продуктов, созданный в предыдущем шаге.</span><span class="sxs-lookup"><span data-stu-id="a194b-144">In the list, find and select the product package created in previous step.</span></span>
+16. <span data-ttu-id="a194b-145">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="a194b-145">In the Quantity field, enter a number.</span></span>
+17. <span data-ttu-id="a194b-146">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="a194b-146">Click Create.</span></span>
+18. <span data-ttu-id="a194b-147">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="a194b-147">Click Save.</span></span>
 

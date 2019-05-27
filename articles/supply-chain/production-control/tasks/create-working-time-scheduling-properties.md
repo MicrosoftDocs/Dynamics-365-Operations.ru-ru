@@ -18,29 +18,29 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 699ba33a766f5bbb6c03a41821a3eb809e3a3e55
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351018"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569179"
 ---
-# <a name="create-working-time-scheduling-properties"></a><span data-ttu-id="3b516-103">Создание свойств графика рабочего времени</span><span class="sxs-lookup"><span data-stu-id="3b516-103">Create working time scheduling properties</span></span>
+# <a name="create-working-time-scheduling-properties"></a><span data-ttu-id="6abfb-103">Создание свойств графика рабочего времени</span><span class="sxs-lookup"><span data-stu-id="6abfb-103">Create working time scheduling properties</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="3b516-104">Свойства графика рабочего времени используются для классификации интервалов рабочего времени и определения настроек, которые должны учитывать операторы.</span><span class="sxs-lookup"><span data-stu-id="3b516-104">Working time scheduling properties are used to categorize working time intervals and define the settings that operators must take into account.</span></span> <span data-ttu-id="3b516-105">Следующая процедура используется для определения свойства графика рабочего времени и связанных значений свойства.</span><span class="sxs-lookup"><span data-stu-id="3b516-105">This procedure shows how to define a working time scheduling property and associated property values.</span></span> <span data-ttu-id="3b516-106">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="3b516-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
+<span data-ttu-id="6abfb-104">Свойства графика рабочего времени используются для классификации интервалов рабочего времени и определения настроек, которые должны учитывать операторы.</span><span class="sxs-lookup"><span data-stu-id="6abfb-104">Working time scheduling properties are used to categorize working time intervals and define the settings that operators must take into account.</span></span> <span data-ttu-id="6abfb-105">Следующая процедура используется для определения свойства графика рабочего времени и связанных значений свойства.</span><span class="sxs-lookup"><span data-stu-id="6abfb-105">This procedure shows how to define a working time scheduling property and associated property values.</span></span> <span data-ttu-id="6abfb-106">Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.</span><span class="sxs-lookup"><span data-stu-id="6abfb-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. <span data-ttu-id="3b516-107">Перейдите в раздел "Все рабочие области" > "Управление жизненным циклом ресурса".</span><span class="sxs-lookup"><span data-stu-id="3b516-107">Go to All workspaces > Resource lifecycle management.</span></span>
-2. <span data-ttu-id="3b516-108">Щелкните Свойства.</span><span class="sxs-lookup"><span data-stu-id="3b516-108">Click Properties.</span></span>
+1. <span data-ttu-id="6abfb-107">Перейдите в раздел "Все рабочие области" > "Управление жизненным циклом ресурса".</span><span class="sxs-lookup"><span data-stu-id="6abfb-107">Go to All workspaces > Resource lifecycle management.</span></span>
+2. <span data-ttu-id="6abfb-108">Щелкните Свойства.</span><span class="sxs-lookup"><span data-stu-id="6abfb-108">Click Properties.</span></span>
 
-## <a name="create-property"></a><span data-ttu-id="3b516-109">Создание свойства</span><span class="sxs-lookup"><span data-stu-id="3b516-109">Create property</span></span>
-1. <span data-ttu-id="3b516-110">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="3b516-110">Click New.</span></span>
-2. <span data-ttu-id="3b516-111">В поле "Свойство" введите значение.</span><span class="sxs-lookup"><span data-stu-id="3b516-111">In the Property field, type a value.</span></span>
-3. <span data-ttu-id="3b516-112">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="3b516-112">In the Name field, type a value.</span></span>
+## <a name="create-property"></a><span data-ttu-id="6abfb-109">Создание свойства</span><span class="sxs-lookup"><span data-stu-id="6abfb-109">Create property</span></span>
+1. <span data-ttu-id="6abfb-110">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="6abfb-110">Click New.</span></span>
+2. <span data-ttu-id="6abfb-111">В поле "Свойство" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6abfb-111">In the Property field, type a value.</span></span>
+3. <span data-ttu-id="6abfb-112">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6abfb-112">In the Name field, type a value.</span></span>
 
-## <a name="create-property-values"></a><span data-ttu-id="3b516-113">Создание значений свойства</span><span class="sxs-lookup"><span data-stu-id="3b516-113">Create property values</span></span>
-1. <span data-ttu-id="3b516-114">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="3b516-114">In the list, mark the selected row.</span></span>
-2. <span data-ttu-id="3b516-115">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="3b516-115">In the Name field, type a value.</span></span>
-3. <span data-ttu-id="3b516-116">В поле "Значение" введите значение.</span><span class="sxs-lookup"><span data-stu-id="3b516-116">In the Value field, type a value.</span></span>
-4. <span data-ttu-id="3b516-117">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="3b516-117">Click Save.</span></span>
+## <a name="create-property-values"></a><span data-ttu-id="6abfb-113">Создание значений свойства</span><span class="sxs-lookup"><span data-stu-id="6abfb-113">Create property values</span></span>
+1. <span data-ttu-id="6abfb-114">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="6abfb-114">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="6abfb-115">В поле "Имя" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6abfb-115">In the Name field, type a value.</span></span>
+3. <span data-ttu-id="6abfb-116">В поле "Значение" введите значение.</span><span class="sxs-lookup"><span data-stu-id="6abfb-116">In the Value field, type a value.</span></span>
+4. <span data-ttu-id="6abfb-117">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="6abfb-117">Click Save.</span></span>
 

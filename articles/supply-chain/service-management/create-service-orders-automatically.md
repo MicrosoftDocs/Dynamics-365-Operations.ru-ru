@@ -19,54 +19,54 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ee68190b117b974ff4131f5d2237d138cac1fda3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "358332"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1552284"
 ---
-# <a name="create-service-orders-automatically"></a><span data-ttu-id="c990f-103">Автоматическое создание заказов на сервисное обслуживание</span><span class="sxs-lookup"><span data-stu-id="c990f-103">Create service orders automatically</span></span>    
+# <a name="create-service-orders-automatically"></a><span data-ttu-id="a2e99-103">Автоматическое создание заказов на сервисное обслуживание</span><span class="sxs-lookup"><span data-stu-id="a2e99-103">Create service orders automatically</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="c990f-104">Заказы на сервисное обслуживание можно создавать для одного или нескольких соглашений о сервисном обслуживании.</span><span class="sxs-lookup"><span data-stu-id="c990f-104">You can create service orders for one service agreement or for several service agreements.</span></span> <span data-ttu-id="c990f-105">После создания заказов их можно просмотреть в форме **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="c990f-105">When they are created, you can view your service orders in the **Service orders** form.</span></span>
+<span data-ttu-id="a2e99-104">Заказы на сервисное обслуживание можно создавать для одного или нескольких соглашений о сервисном обслуживании.</span><span class="sxs-lookup"><span data-stu-id="a2e99-104">You can create service orders for one service agreement or for several service agreements.</span></span> <span data-ttu-id="a2e99-105">После создания заказов их можно просмотреть в форме **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="a2e99-105">When they are created, you can view your service orders in the **Service orders** form.</span></span>
 
-<span data-ttu-id="c990f-106">Заказы на сервисное обслуживание можно создавать только на период действия соглашения о сервисном обслуживании.</span><span class="sxs-lookup"><span data-stu-id="c990f-106">Service orders are created only for the valid period of the service agreement.</span></span> <span data-ttu-id="c990f-107">Если интервал, указанный в форме **Создать заказы на сервисное обслуживание**, приходится на период до начальной или конечной даты соглашения о сервисном обслуживании, заказы на сервисное обслуживание будут созданы только на ту часть периода, который находится в пределах дат соглашения о сервисном обслуживании.</span><span class="sxs-lookup"><span data-stu-id="c990f-107">If the interval that you specify in the **Create service orders** form is before the starting date or after the ending date of the service agreement, service orders are created only for the part of the interval that is within the service agreement dates.</span></span>
+<span data-ttu-id="a2e99-106">Заказы на сервисное обслуживание можно создавать только на период действия соглашения о сервисном обслуживании.</span><span class="sxs-lookup"><span data-stu-id="a2e99-106">Service orders are created only for the valid period of the service agreement.</span></span> <span data-ttu-id="a2e99-107">Если интервал, указанный в форме **Создать заказы на сервисное обслуживание**, приходится на период до начальной или конечной даты соглашения о сервисном обслуживании, заказы на сервисное обслуживание будут созданы только на ту часть периода, который находится в пределах дат соглашения о сервисном обслуживании.</span><span class="sxs-lookup"><span data-stu-id="a2e99-107">If the interval that you specify in the **Create service orders** form is before the starting date or after the ending date of the service agreement, service orders are created only for the part of the interval that is within the service agreement dates.</span></span>
 
-<span data-ttu-id="c990f-108">При создании (вручную или автоматически) заказов на сервисное обслуживание из данной строки соглашения о сервисном обслуживании заказ на сервисное обслуживание должен попадать в интервал времени, определенный начальной и конечной датами для строки, кроме случаев, когда конечная дата в строке не указана.</span><span class="sxs-lookup"><span data-stu-id="c990f-108">When you create service orders manually or automatically from the service agreement line, the service order must be in the time interval that is defined by the starting and ending dates for the line, unless you do not specify an ending date on the line.</span></span>
+<span data-ttu-id="a2e99-108">При создании (вручную или автоматически) заказов на сервисное обслуживание из данной строки соглашения о сервисном обслуживании заказ на сервисное обслуживание должен попадать в интервал времени, определенный начальной и конечной датами для строки, кроме случаев, когда конечная дата в строке не указана.</span><span class="sxs-lookup"><span data-stu-id="a2e99-108">When you create service orders manually or automatically from the service agreement line, the service order must be in the time interval that is defined by the starting and ending dates for the line, unless you do not specify an ending date on the line.</span></span>
 
-## <a name="create-service-orders-automatically-for-a-service-agreement"></a><span data-ttu-id="c990f-109">Автоматическое создание заказов на обслуживание для соглашения на обслуживание</span><span class="sxs-lookup"><span data-stu-id="c990f-109">Create service orders automatically for a service agreement</span></span>
+## <a name="create-service-orders-automatically-for-a-service-agreement"></a><span data-ttu-id="a2e99-109">Автоматическое создание заказов на обслуживание для соглашения на обслуживание</span><span class="sxs-lookup"><span data-stu-id="a2e99-109">Create service orders automatically for a service agreement</span></span>
 
-1.  <span data-ttu-id="c990f-110">Щелкните **Управление сервисным обслуживанием** \> **Общее** \> **Соглашения на обслуживание** \> **Соглашения на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="c990f-110">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="a2e99-110">Щелкните **Управление сервисным обслуживанием** \> **Общее** \> **Соглашения на обслуживание** \> **Соглашения на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="a2e99-110">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="c990f-111">Выберите соглашение на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="c990f-111">Select a service agreement.</span></span>
+2.  <span data-ttu-id="a2e99-111">Выберите соглашение на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="a2e99-111">Select a service agreement.</span></span>
 
-3.  <span data-ttu-id="c990f-112">Перейдите на вкладку **Доставлять** и щелкните **Планируемые заказы на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="c990f-112">Click the **Deliver** tab, and then click **Planned service orders**.</span></span>
+3.  <span data-ttu-id="a2e99-112">Перейдите на вкладку **Доставлять** и щелкните **Планируемые заказы на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="a2e99-112">Click the **Deliver** tab, and then click **Planned service orders**.</span></span>
 
-4.  <span data-ttu-id="c990f-113">Укажите даты в полях **Дата начала** и **Дата окончания**, чтобы определить период обслуживания.</span><span class="sxs-lookup"><span data-stu-id="c990f-113">Specify dates in the **From date** and **To date** fields to define the service period.</span></span>
+4.  <span data-ttu-id="a2e99-113">Укажите даты в полях **Дата начала** и **Дата окончания**, чтобы определить период обслуживания.</span><span class="sxs-lookup"><span data-stu-id="a2e99-113">Specify dates in the **From date** and **To date** fields to define the service period.</span></span>
 
-5.  <span data-ttu-id="c990f-114">Установите флажок **Отобразить Infolog**, чтобы отобразить список созданных заказов на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="c990f-114">Select the **Show Infolog** check box to display a list of the service orders that are created.</span></span>
+5.  <span data-ttu-id="a2e99-114">Установите флажок **Отобразить Infolog**, чтобы отобразить список созданных заказов на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="a2e99-114">Select the **Show Infolog** check box to display a list of the service orders that are created.</span></span>
 
-6.  <span data-ttu-id="c990f-115">Выберите типы проводок в группе полей **Включить проводки вида**.</span><span class="sxs-lookup"><span data-stu-id="c990f-115">Select transaction types in the **Include transaction types** field group.</span></span> <span data-ttu-id="c990f-116">Типы проводок соответствуют строкам, созданным в соглашении на обслуживание, и для каждого из выбранных типов проводок создается несколько заказов на обслуживание, в зависимости от интервала обслуживания, указанного в строке соглашения на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="c990f-116">The transaction types represent the lines that are created in the service agreement, and each transaction type that you select generates several service orders, depending on the service interval that is specified on the service agreement line.</span></span>
+6.  <span data-ttu-id="a2e99-115">Выберите типы проводок в группе полей **Включить проводки вида**.</span><span class="sxs-lookup"><span data-stu-id="a2e99-115">Select transaction types in the **Include transaction types** field group.</span></span> <span data-ttu-id="a2e99-116">Типы проводок соответствуют строкам, созданным в соглашении на обслуживание, и для каждого из выбранных типов проводок создается несколько заказов на обслуживание, в зависимости от интервала обслуживания, указанного в строке соглашения на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="a2e99-116">The transaction types represent the lines that are created in the service agreement, and each transaction type that you select generates several service orders, depending on the service interval that is specified on the service agreement line.</span></span>
 
-7.  <span data-ttu-id="c990f-117">Для создания заказов на сервисное обслуживание, которых не хватает в последовательной серии заказов на сервисное обслуживание, установите флажок **Непрерывная**.</span><span class="sxs-lookup"><span data-stu-id="c990f-117">To create any service orders that are missing from continuous series of service orders, select the **Continuous** check box.</span></span>
+7.  <span data-ttu-id="a2e99-117">Для создания заказов на сервисное обслуживание, которых не хватает в последовательной серии заказов на сервисное обслуживание, установите флажок **Непрерывная**.</span><span class="sxs-lookup"><span data-stu-id="a2e99-117">To create any service orders that are missing from continuous series of service orders, select the **Continuous** check box.</span></span>
 
-8.  <span data-ttu-id="c990f-118">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="c990f-118">Click **OK**.</span></span>
+8.  <span data-ttu-id="a2e99-118">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="a2e99-118">Click **OK**.</span></span>
 
-## <a name="create-service-orders-automatically-for-several-service-agreements"></a><span data-ttu-id="c990f-119">Автоматическое создание заказов на обслуживание для нескольких соглашений на обслуживание</span><span class="sxs-lookup"><span data-stu-id="c990f-119">Create service orders automatically for several service agreements</span></span>
+## <a name="create-service-orders-automatically-for-several-service-agreements"></a><span data-ttu-id="a2e99-119">Автоматическое создание заказов на обслуживание для нескольких соглашений на обслуживание</span><span class="sxs-lookup"><span data-stu-id="a2e99-119">Create service orders automatically for several service agreements</span></span>
 
-1.  <span data-ttu-id="c990f-120">Щелкните **Управление сервисным обслуживанием** \> **Периодические операции** \> **Заказы на сервисное обслуживание** \> **Создание заказов на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="c990f-120">Click **Service management** \> **Periodic** \> **Service orders** \> **Create service orders**.</span></span>
+1.  <span data-ttu-id="a2e99-120">Щелкните **Управление сервисным обслуживанием** \> **Периодические операции** \> **Заказы на сервисное обслуживание** \> **Создание заказов на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="a2e99-120">Click **Service management** \> **Periodic** \> **Service orders** \> **Create service orders**.</span></span>
 
-2.  <span data-ttu-id="c990f-121">Щелкните **Выбрать** и добавьте или удалите критерии, которые будут использоваться при создании заказов на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="c990f-121">Click **Select** to make selections to add or remove criteria to use to create service orders.</span></span>
+2.  <span data-ttu-id="a2e99-121">Щелкните **Выбрать** и добавьте или удалите критерии, которые будут использоваться при создании заказов на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="a2e99-121">Click **Select** to make selections to add or remove criteria to use to create service orders.</span></span>
 
-3.  <span data-ttu-id="c990f-122">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="c990f-122">Click **OK**.</span></span>
+3.  <span data-ttu-id="a2e99-122">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="a2e99-122">Click **OK**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c990f-123">См. также</span><span class="sxs-lookup"><span data-stu-id="c990f-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a2e99-123">См. также</span><span class="sxs-lookup"><span data-stu-id="a2e99-123">See also</span></span>
 
-[<span data-ttu-id="c990f-124">Заказы на обслуживание</span><span class="sxs-lookup"><span data-stu-id="c990f-124">Service orders</span></span>](service-orders.md)
+[<span data-ttu-id="a2e99-124">Заказы на обслуживание</span><span class="sxs-lookup"><span data-stu-id="a2e99-124">Service orders</span></span>](service-orders.md)
 
-[<span data-ttu-id="c990f-125">Автоматическое создание заказов на обслуживание</span><span class="sxs-lookup"><span data-stu-id="c990f-125">Automatically creating service orders</span></span>](auto-create-service-orders.md)
+[<span data-ttu-id="a2e99-125">Автоматическое создание заказов на обслуживание</span><span class="sxs-lookup"><span data-stu-id="a2e99-125">Automatically creating service orders</span></span>](auto-create-service-orders.md)
 
   
 

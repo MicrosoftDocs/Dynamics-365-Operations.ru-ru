@@ -16,23 +16,23 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c81625e9a042bf88268759065727bde332d37ea9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c3b97de064d7e151c6136d77d993ff4323055bc8
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371775"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538366"
 ---
-# <a name="set-up-signers-for-print-forms"></a><span data-ttu-id="42010-103">Настройка подписывающих лиц для печатных форм</span><span class="sxs-lookup"><span data-stu-id="42010-103">Set up signers for print forms</span></span>
+# <a name="set-up-signers-for-print-forms"></a><span data-ttu-id="470dc-103">Настройка подписывающих лиц для печатных форм</span><span class="sxs-lookup"><span data-stu-id="470dc-103">Set up signers for print forms</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="42010-104">Для юридических лиц в Чехии, Эстонии, Венгрии, Литве, Латвии, Польше и России можно настроить подписывающих лиц и должности для клиентов и поставщиков, которые печатают документы, такие как накладные и кассовые ордера.</span><span class="sxs-lookup"><span data-stu-id="42010-104">For legal entities in Czech Republic, Estonia, Hungary, Lithuania, Latvia, Poland, and Russia, you can set up signers and titles for customers and vendors that print documents such as invoices and cash orders.</span></span>
+<span data-ttu-id="470dc-104">Для юридических лиц в Чехии, Эстонии, Венгрии, Литве, Латвии, Польше и России можно настроить подписывающих лиц и должности для клиентов и поставщиков, которые печатают документы, такие как накладные и кассовые ордера.</span><span class="sxs-lookup"><span data-stu-id="470dc-104">For legal entities in Czech Republic, Estonia, Hungary, Lithuania, Latvia, Poland, and Russia, you can set up signers and titles for customers and vendors that print documents such as invoices and cash orders.</span></span>
 
-<a name="set-up-default-values"></a><span data-ttu-id="42010-105">Настройка значений по умолчанию</span><span class="sxs-lookup"><span data-stu-id="42010-105">Set up default values</span></span>
+<a name="set-up-default-values"></a><span data-ttu-id="470dc-105">Настройка значений по умолчанию</span><span class="sxs-lookup"><span data-stu-id="470dc-105">Set up default values</span></span>
 ---------------------
 
-<span data-ttu-id="42010-106">Чтобы настроить подписывающих лиц для документов, которые компания распечатывает, используйте страницу **Должностные лица**.</span><span class="sxs-lookup"><span data-stu-id="42010-106">To set up signers for the documents that a company prints, use the **Officials** page.</span></span> <span data-ttu-id="42010-107">Подписывающих лиц и их должности можно настроить как для компании, так и для клиентов или поставщиков, в зависимости от типа документа.</span><span class="sxs-lookup"><span data-stu-id="42010-107">You can set up signers and their titles both for the company and for customers or vendors, depending on the document type.</span></span> <span data-ttu-id="42010-108">В следующей таблице описаны вкладки на странице **Должностные лица**.</span><span class="sxs-lookup"><span data-stu-id="42010-108">The following table describes the tabs on the **Officials** page.</span></span>
+<span data-ttu-id="470dc-106">Чтобы настроить подписывающих лиц для документов, которые компания распечатывает, используйте страницу **Должностные лица**.</span><span class="sxs-lookup"><span data-stu-id="470dc-106">To set up signers for the documents that a company prints, use the **Officials** page.</span></span> <span data-ttu-id="470dc-107">Подписывающих лиц и их должности можно настроить как для компании, так и для клиентов или поставщиков, в зависимости от типа документа.</span><span class="sxs-lookup"><span data-stu-id="470dc-107">You can set up signers and their titles both for the company and for customers or vendors, depending on the document type.</span></span> <span data-ttu-id="470dc-108">В следующей таблице описаны вкладки на странице **Должностные лица**.</span><span class="sxs-lookup"><span data-stu-id="470dc-108">The following table describes the tabs on the **Officials** page.</span></span>
 
 <table>
 <colgroup>
@@ -41,63 +41,63 @@ ms.locfileid: "371775"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="42010-109">Вкладка</span><span class="sxs-lookup"><span data-stu-id="42010-109">Tab</span></span></th>
-<th><span data-ttu-id="42010-110">описание</span><span class="sxs-lookup"><span data-stu-id="42010-110">Description</span></span></th>
+<th><span data-ttu-id="470dc-109">Вкладка</span><span class="sxs-lookup"><span data-stu-id="470dc-109">Tab</span></span></th>
+<th><span data-ttu-id="470dc-110">описание</span><span class="sxs-lookup"><span data-stu-id="470dc-110">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="42010-111">Общие</span><span class="sxs-lookup"><span data-stu-id="42010-111">General</span></span></td>
-<td><span data-ttu-id="42010-112">Добавление должностей и связанных данных для подписывающих лиц (директор и главный бухгалтер), которые могут подписывать любые печатные документы.</span><span class="sxs-lookup"><span data-stu-id="42010-112">Add positions and related information for signers (Director and Chief accountant) who can sign print documents of all types.</span></span></td>
+<td><span data-ttu-id="470dc-111">Общие</span><span class="sxs-lookup"><span data-stu-id="470dc-111">General</span></span></td>
+<td><span data-ttu-id="470dc-112">Добавление должностей и связанных данных для подписывающих лиц (директор и главный бухгалтер), которые могут подписывать любые печатные документы.</span><span class="sxs-lookup"><span data-stu-id="470dc-112">Add positions and related information for signers (Director and Chief accountant) who can sign print documents of all types.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="42010-113">Главная книга</span><span class="sxs-lookup"><span data-stu-id="42010-113">Ledger</span></span></td>
-<td><span data-ttu-id="42010-114">Добавление должностей и связанных данных для подписывающих лиц, которые могут подписывать следующие внутренние финансовые документы, связанные с движением денежных средств:</span><span class="sxs-lookup"><span data-stu-id="42010-114">Add the position and related information for signers who can sign the following internal financial documents that are related to cash flow:</span></span>
+<td><span data-ttu-id="470dc-113">Главная книга</span><span class="sxs-lookup"><span data-stu-id="470dc-113">Ledger</span></span></td>
+<td><span data-ttu-id="470dc-114">Добавление должностей и связанных данных для подписывающих лиц, которые могут подписывать следующие внутренние финансовые документы, связанные с движением денежных средств:</span><span class="sxs-lookup"><span data-stu-id="470dc-114">Add the position and related information for signers who can sign the following internal financial documents that are related to cash flow:</span></span>
 <ul>
-<li><span data-ttu-id="42010-115">Кассовые ордера</span><span class="sxs-lookup"><span data-stu-id="42010-115">Cash slips</span></span></li>
-<li><span data-ttu-id="42010-116">Авансовый отчет</span><span class="sxs-lookup"><span data-stu-id="42010-116">Advance report</span></span></li>
-<li><span data-ttu-id="42010-117">Лист кассовой книги</span><span class="sxs-lookup"><span data-stu-id="42010-117">Page of cash book</span></span></li>
-<li><span data-ttu-id="42010-118">Акт инвентаризации</span><span class="sxs-lookup"><span data-stu-id="42010-118">Count statement</span></span></li>
-<li><span data-ttu-id="42010-119">РБП<em></span><span class="sxs-lookup"><span data-stu-id="42010-119">Deferrals<em></span></span></li>
+<li><span data-ttu-id="470dc-115">Кассовые ордера</span><span class="sxs-lookup"><span data-stu-id="470dc-115">Cash slips</span></span></li>
+<li><span data-ttu-id="470dc-116">Авансовый отчет</span><span class="sxs-lookup"><span data-stu-id="470dc-116">Advance report</span></span></li>
+<li><span data-ttu-id="470dc-117">Лист кассовой книги</span><span class="sxs-lookup"><span data-stu-id="470dc-117">Page of cash book</span></span></li>
+<li><span data-ttu-id="470dc-118">Акт инвентаризации</span><span class="sxs-lookup"><span data-stu-id="470dc-118">Count statement</span></span></li>
+<li><span data-ttu-id="470dc-119">РБП<em></span><span class="sxs-lookup"><span data-stu-id="470dc-119">Deferrals<em></span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="42010-120">Заказы на продажу</span><span class="sxs-lookup"><span data-stu-id="42010-120">Sales orders</span></span></td>
-<td><span data-ttu-id="42010-121">Добавление должностей и связанных данных для подписывающих лиц, которые могут подписывать следующие исходящие первичные документы, связанные с клиентами:</span><span class="sxs-lookup"><span data-stu-id="42010-121">Add positions and related information for signers who can sign the following outgoing primary documents that are related to customers:</span></span>
+<td><span data-ttu-id="470dc-120">Заказы на продажу</span><span class="sxs-lookup"><span data-stu-id="470dc-120">Sales orders</span></span></td>
+<td><span data-ttu-id="470dc-121">Добавление должностей и связанных данных для подписывающих лиц, которые могут подписывать следующие исходящие первичные документы, связанные с клиентами:</span><span class="sxs-lookup"><span data-stu-id="470dc-121">Add positions and related information for signers who can sign the following outgoing primary documents that are related to customers:</span></span>
 <ul>
-<li><span data-ttu-id="42010-122">Счет на оплату</span><span class="sxs-lookup"><span data-stu-id="42010-122">Invoice for payment</span></span></em></li>
-<li><span data-ttu-id="42010-123">Счет-фактура</span><span class="sxs-lookup"><span data-stu-id="42010-123">Invoice</span></span></li>
-<li><span data-ttu-id="42010-124">Фактура<em></span><span class="sxs-lookup"><span data-stu-id="42010-124">Facture<em></span></span></li>
-<li><span data-ttu-id="42010-125">Накладная - Кредит-нота</span><span class="sxs-lookup"><span data-stu-id="42010-125">Invoice - credit-note</span></span></li>
-<li><span data-ttu-id="42010-126">Фактура - Кредит-нота</span><span class="sxs-lookup"><span data-stu-id="42010-126">Facture - credit-note</span></span></em></li>
-<li><span data-ttu-id="42010-127">Фактура по налоговой проводке (клиент)<em></span><span class="sxs-lookup"><span data-stu-id="42010-127">Tax transaction facture (client)<em></span></span></li>
+<li><span data-ttu-id="470dc-122">Счет на оплату</span><span class="sxs-lookup"><span data-stu-id="470dc-122">Invoice for payment</span></span></em></li>
+<li><span data-ttu-id="470dc-123">Счет-фактура</span><span class="sxs-lookup"><span data-stu-id="470dc-123">Invoice</span></span></li>
+<li><span data-ttu-id="470dc-124">Фактура<em></span><span class="sxs-lookup"><span data-stu-id="470dc-124">Facture<em></span></span></li>
+<li><span data-ttu-id="470dc-125">Накладная - Кредит-нота</span><span class="sxs-lookup"><span data-stu-id="470dc-125">Invoice - credit-note</span></span></li>
+<li><span data-ttu-id="470dc-126">Фактура - Кредит-нота</span><span class="sxs-lookup"><span data-stu-id="470dc-126">Facture - credit-note</span></span></em></li>
+<li><span data-ttu-id="470dc-127">Фактура по налоговой проводке (клиент)<em></span><span class="sxs-lookup"><span data-stu-id="470dc-127">Tax transaction facture (client)<em></span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="42010-128">Заказы на покупку</span><span class="sxs-lookup"><span data-stu-id="42010-128">Purchase orders</span></span></td>
-<td><span data-ttu-id="42010-129">Добавление должностей и связанных данных для подписывающих лиц, которые могут подписывать следующие входящие первичные документы, связанные с поставщиками:</span><span class="sxs-lookup"><span data-stu-id="42010-129">Add positions and related information for signers who can sign the following incoming primary documents that are related to vendors:</span></span>
+<td><span data-ttu-id="470dc-128">Заказы на покупку</span><span class="sxs-lookup"><span data-stu-id="470dc-128">Purchase orders</span></span></td>
+<td><span data-ttu-id="470dc-129">Добавление должностей и связанных данных для подписывающих лиц, которые могут подписывать следующие входящие первичные документы, связанные с поставщиками:</span><span class="sxs-lookup"><span data-stu-id="470dc-129">Add positions and related information for signers who can sign the following incoming primary documents that are related to vendors:</span></span>
 <ul>
-<li><span data-ttu-id="42010-130">Счет-фактура</span><span class="sxs-lookup"><span data-stu-id="42010-130">Invoice</span></span></li>
-<li><span data-ttu-id="42010-131">Фактура</span><span class="sxs-lookup"><span data-stu-id="42010-131">Facture</span></span></em></li>
-<li><span data-ttu-id="42010-132">Накладная - Кредит-нота</span><span class="sxs-lookup"><span data-stu-id="42010-132">Invoice - credit-note</span></span></li>
-<li><span data-ttu-id="42010-133">Фактура - Кредит-нота<em></span><span class="sxs-lookup"><span data-stu-id="42010-133">Facture - credit-note<em></span></span></li>
-<li><span data-ttu-id="42010-134">Счет на оплату</span><span class="sxs-lookup"><span data-stu-id="42010-134">Invoice for payment</span></span></em></li>
-<li><span data-ttu-id="42010-135">Фактура по налоговой проводке (поставщик)<em></span><span class="sxs-lookup"><span data-stu-id="42010-135">Tax transaction facture (vendor)<em></span></span></li>
+<li><span data-ttu-id="470dc-130">Счет-фактура</span><span class="sxs-lookup"><span data-stu-id="470dc-130">Invoice</span></span></li>
+<li><span data-ttu-id="470dc-131">Фактура</span><span class="sxs-lookup"><span data-stu-id="470dc-131">Facture</span></span></em></li>
+<li><span data-ttu-id="470dc-132">Накладная - Кредит-нота</span><span class="sxs-lookup"><span data-stu-id="470dc-132">Invoice - credit-note</span></span></li>
+<li><span data-ttu-id="470dc-133">Фактура - Кредит-нота<em></span><span class="sxs-lookup"><span data-stu-id="470dc-133">Facture - credit-note<em></span></span></li>
+<li><span data-ttu-id="470dc-134">Счет на оплату</span><span class="sxs-lookup"><span data-stu-id="470dc-134">Invoice for payment</span></span></em></li>
+<li><span data-ttu-id="470dc-135">Фактура по налоговой проводке (поставщик)<em></span><span class="sxs-lookup"><span data-stu-id="470dc-135">Tax transaction facture (vendor)<em></span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="42010-136">Учет МЦ</span><span class="sxs-lookup"><span data-stu-id="42010-136">Inventory item management</span></span></td>
-<td><span data-ttu-id="42010-137">Добавление должностей и связанных данных для подписывающих лиц, которые могут подписывать следующие складские документы, когда материальные средства выдаются клиенту или получаются от поставщика:</span><span class="sxs-lookup"><span data-stu-id="42010-137">Add positions and related information for signers who can sign the following warehouse documents when tangible assets are issued to a customer or received from a vendor:</span></span>
+<td><span data-ttu-id="470dc-136">Учет МЦ</span><span class="sxs-lookup"><span data-stu-id="470dc-136">Inventory item management</span></span></td>
+<td><span data-ttu-id="470dc-137">Добавление должностей и связанных данных для подписывающих лиц, которые могут подписывать следующие складские документы, когда материальные средства выдаются клиенту или получаются от поставщика:</span><span class="sxs-lookup"><span data-stu-id="470dc-137">Add positions and related information for signers who can sign the following warehouse documents when tangible assets are issued to a customer or received from a vendor:</span></span>
 <ul>
-<li><span data-ttu-id="42010-138">Накладная на отпуск по заказу на продажу (М-15)</span><span class="sxs-lookup"><span data-stu-id="42010-138">Issue slip for sales order (M-15)</span></span></em></li>
-<li><span data-ttu-id="42010-139">Прих.</span><span class="sxs-lookup"><span data-stu-id="42010-139">Rmb.</span></span> <span data-ttu-id="42010-140">ордер/акт о приемке</span><span class="sxs-lookup"><span data-stu-id="42010-140">slip/Receipt order</span></span></li>
-<li><span data-ttu-id="42010-141">Накладная на отпуск по заказу на перемещение (М-15)\*</span><span class="sxs-lookup"><span data-stu-id="42010-141">Issue slip for transfer order (M-15)\*</span></span></li>
+<li><span data-ttu-id="470dc-138">Накладная на отпуск по заказу на продажу (М-15)</span><span class="sxs-lookup"><span data-stu-id="470dc-138">Issue slip for sales order (M-15)</span></span></em></li>
+<li><span data-ttu-id="470dc-139">Прих.</span><span class="sxs-lookup"><span data-stu-id="470dc-139">Rmb.</span></span> <span data-ttu-id="470dc-140">ордер/акт о приемке</span><span class="sxs-lookup"><span data-stu-id="470dc-140">slip/Receipt order</span></span></li>
+<li><span data-ttu-id="470dc-141">Накладная на отпуск по заказу на перемещение (М-15)\*</span><span class="sxs-lookup"><span data-stu-id="470dc-141">Issue slip for transfer order (M-15)\*</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="42010-142">\* Этот тип документа доступен только для юридических лиц, основной адрес которых находится в России.</span><span class="sxs-lookup"><span data-stu-id="42010-142">\* This document type is available only for legal entities that have their primary address in Russia.</span></span> <span data-ttu-id="42010-143">В следующей таблице описаны поля на странице **Должностные лица**.</span><span class="sxs-lookup"><span data-stu-id="42010-143">The following table describes the fields on the **Officials** page.</span></span>
+<span data-ttu-id="470dc-142">\* Этот тип документа доступен только для юридических лиц, основной адрес которых находится в России.</span><span class="sxs-lookup"><span data-stu-id="470dc-142">\* This document type is available only for legal entities that have their primary address in Russia.</span></span> <span data-ttu-id="470dc-143">В следующей таблице описаны поля на странице **Должностные лица**.</span><span class="sxs-lookup"><span data-stu-id="470dc-143">The following table describes the fields on the **Officials** page.</span></span>
 
 <table>
 <colgroup>
@@ -106,62 +106,62 @@ ms.locfileid: "371775"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="42010-144">Поле</span><span class="sxs-lookup"><span data-stu-id="42010-144">Field</span></span></th>
-<th><span data-ttu-id="42010-145">описание</span><span class="sxs-lookup"><span data-stu-id="42010-145">Description</span></span></th>
+<th><span data-ttu-id="470dc-144">Поле</span><span class="sxs-lookup"><span data-stu-id="470dc-144">Field</span></span></th>
+<th><span data-ttu-id="470dc-145">описание</span><span class="sxs-lookup"><span data-stu-id="470dc-145">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="42010-146">Занимаемая должность</span><span class="sxs-lookup"><span data-stu-id="42010-146">Position</span></span></td>
-<td><span data-ttu-id="42010-147">Выберите название должности подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="42010-147">Select the signer’s post title.</span></span></td>
+<td><span data-ttu-id="470dc-146">Занимаемая должность</span><span class="sxs-lookup"><span data-stu-id="470dc-146">Position</span></span></td>
+<td><span data-ttu-id="470dc-147">Выберите название должности подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="470dc-147">Select the signer’s post title.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="42010-148">Наименование</span><span class="sxs-lookup"><span data-stu-id="42010-148">Name</span></span></td>
-<td><span data-ttu-id="42010-149">Выберите имя подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="42010-149">Select the signer’s name.</span></span> <span data-ttu-id="42010-150">Имена в списке поступают из таблицы контактных лиц или таблицы сотрудников, в зависимости от типа подписывающего лица (то есть, в зависимости от того, установлен ли флажок <strong>Свой</strong>).</span><span class="sxs-lookup"><span data-stu-id="42010-150">The names in the list come from either the Contacts table or the Employees table, depending on the type of signer (that is, depending on whether the <strong>Our</strong> check box is selected).</span></span> <span data-ttu-id="42010-151">Если имя подписывающего лица отсутствует в списке, необходимо вручную ввести полное имя подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="42010-151">If the signer&#39;s name isn&#39;t in the list, manually enter the signer’s full name.</span></span></td>
+<td><span data-ttu-id="470dc-148">Наименование</span><span class="sxs-lookup"><span data-stu-id="470dc-148">Name</span></span></td>
+<td><span data-ttu-id="470dc-149">Выберите имя подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="470dc-149">Select the signer’s name.</span></span> <span data-ttu-id="470dc-150">Имена в списке поступают из таблицы контактных лиц или таблицы сотрудников, в зависимости от типа подписывающего лица (то есть, в зависимости от того, установлен ли флажок <strong>Свой</strong>).</span><span class="sxs-lookup"><span data-stu-id="470dc-150">The names in the list come from either the Contacts table or the Employees table, depending on the type of signer (that is, depending on whether the <strong>Our</strong> check box is selected).</span></span> <span data-ttu-id="470dc-151">Если имя подписывающего лица отсутствует в списке, необходимо вручную ввести полное имя подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="470dc-151">If the signer&#39;s name isn&#39;t in the list, manually enter the signer’s full name.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="42010-152">Название должности</span><span class="sxs-lookup"><span data-stu-id="42010-152">Job title</span></span></td>
-<td><span data-ttu-id="42010-153">Выберите название должности подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="42010-153">Select the signer’s job title.</span></span> <span data-ttu-id="42010-154">Если должность подписывающего лица отсутствует в списке, необходимо вручную ввести должность подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="42010-154">If the signer’s title isn&#39;t in the list, manually enter the signer’s title.</span></span></td>
+<td><span data-ttu-id="470dc-152">Название должности</span><span class="sxs-lookup"><span data-stu-id="470dc-152">Job title</span></span></td>
+<td><span data-ttu-id="470dc-153">Выберите название должности подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="470dc-153">Select the signer’s job title.</span></span> <span data-ttu-id="470dc-154">Если должность подписывающего лица отсутствует в списке, необходимо вручную ввести должность подписывающего лица.</span><span class="sxs-lookup"><span data-stu-id="470dc-154">If the signer’s title isn&#39;t in the list, manually enter the signer’s title.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="42010-155">Код счета</span><span class="sxs-lookup"><span data-stu-id="42010-155">Account code</span></span></td>
-<td><span data-ttu-id="42010-156">Укажите, может ли подписывающее лицо подписывать все документы выбранного типа или только документы для определенного клиента или поставщика.</span><span class="sxs-lookup"><span data-stu-id="42010-156">Select whether the signer can sign all documents of the selected document type, or only documents for a specific customer or vendor.</span></span></td>
+<td><span data-ttu-id="470dc-155">Код счета</span><span class="sxs-lookup"><span data-stu-id="470dc-155">Account code</span></span></td>
+<td><span data-ttu-id="470dc-156">Укажите, может ли подписывающее лицо подписывать все документы выбранного типа или только документы для определенного клиента или поставщика.</span><span class="sxs-lookup"><span data-stu-id="470dc-156">Select whether the signer can sign all documents of the selected document type, or only documents for a specific customer or vendor.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="42010-157">Связь счета</span><span class="sxs-lookup"><span data-stu-id="42010-157">Account relation</span></span></td>
-<td><span data-ttu-id="42010-158">Выберите счет клиента или поставщика, который относится к выбранному коду счета.</span><span class="sxs-lookup"><span data-stu-id="42010-158">Select the customer or vendor account that is related to the selected account code.</span></span> <span data-ttu-id="42010-159">Это поле доступно только в том случае, если в поле <strong>Код счета</strong> выбрано значение <strong>Запись</strong>.</span><span class="sxs-lookup"><span data-stu-id="42010-159">This field is available only if you select <strong>Record</strong> in the <strong>Account code</strong> field.</span></span></td>
+<td><span data-ttu-id="470dc-157">Связь счета</span><span class="sxs-lookup"><span data-stu-id="470dc-157">Account relation</span></span></td>
+<td><span data-ttu-id="470dc-158">Выберите счет клиента или поставщика, который относится к выбранному коду счета.</span><span class="sxs-lookup"><span data-stu-id="470dc-158">Select the customer or vendor account that is related to the selected account code.</span></span> <span data-ttu-id="470dc-159">Это поле доступно только в том случае, если в поле <strong>Код счета</strong> выбрано значение <strong>Запись</strong>.</span><span class="sxs-lookup"><span data-stu-id="470dc-159">This field is available only if you select <strong>Record</strong> in the <strong>Account code</strong> field.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="42010-160">Свой</span><span class="sxs-lookup"><span data-stu-id="42010-160">Our</span></span></td>
-<td><span data-ttu-id="42010-161">Установленный флажок указывает, что эта должность является внутренней.</span><span class="sxs-lookup"><span data-stu-id="42010-161">A selected check box indicates that the position is internal.</span></span></td>
+<td><span data-ttu-id="470dc-160">Свой</span><span class="sxs-lookup"><span data-stu-id="470dc-160">Our</span></span></td>
+<td><span data-ttu-id="470dc-161">Установленный флажок указывает, что эта должность является внутренней.</span><span class="sxs-lookup"><span data-stu-id="470dc-161">A selected check box indicates that the position is internal.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="42010-162">Связь со складом</span><span class="sxs-lookup"><span data-stu-id="42010-162">Association with warehouse</span></span></td>
-<td><span data-ttu-id="42010-163">Укажите, назначено ли подписывающее лицо для всех складов или только для конкретного склада.</span><span class="sxs-lookup"><span data-stu-id="42010-163">Select whether the signer is assigned to all warehouses or only a specific warehouse.</span></span> <span data-ttu-id="42010-164">Имеются следующие варианты:</span><span class="sxs-lookup"><span data-stu-id="42010-164">The following options are available:</span></span>
+<td><span data-ttu-id="470dc-162">Связь со складом</span><span class="sxs-lookup"><span data-stu-id="470dc-162">Association with warehouse</span></span></td>
+<td><span data-ttu-id="470dc-163">Укажите, назначено ли подписывающее лицо для всех складов или только для конкретного склада.</span><span class="sxs-lookup"><span data-stu-id="470dc-163">Select whether the signer is assigned to all warehouses or only a specific warehouse.</span></span> <span data-ttu-id="470dc-164">Имеются следующие варианты:</span><span class="sxs-lookup"><span data-stu-id="470dc-164">The following options are available:</span></span>
 <ul>
-<li><span data-ttu-id="42010-165"><strong>Все</strong> — подписывающее лицо назначается всем складам.</span><span class="sxs-lookup"><span data-stu-id="42010-165"><strong>All</strong> – The signer is assigned to all warehouses.</span></span></li>
-<li><span data-ttu-id="42010-166"><strong>Запись</strong> — подписывающее лицо назначается конкретному складу.</span><span class="sxs-lookup"><span data-stu-id="42010-166"><strong>Record</strong> – The signer is assigned to a specific warehouse.</span></span></li>
+<li><span data-ttu-id="470dc-165"><strong>Все</strong> — подписывающее лицо назначается всем складам.</span><span class="sxs-lookup"><span data-stu-id="470dc-165"><strong>All</strong> – The signer is assigned to all warehouses.</span></span></li>
+<li><span data-ttu-id="470dc-166"><strong>Запись</strong> — подписывающее лицо назначается конкретному складу.</span><span class="sxs-lookup"><span data-stu-id="470dc-166"><strong>Record</strong> – The signer is assigned to a specific warehouse.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="42010-167">Склад</span><span class="sxs-lookup"><span data-stu-id="42010-167">Warehouse</span></span></td>
-<td><span data-ttu-id="42010-168">Выберите код склада, который соответствует складу, которому назначено подписывающее лицо.</span><span class="sxs-lookup"><span data-stu-id="42010-168">Select the warehouse code that corresponds to the warehouse that the signer is assigned to.</span></span> <span data-ttu-id="42010-169">Это поле доступно только в том случае, если в поле <strong>Связь со складом</strong> выбрано значение <strong>Запись</strong>.</span><span class="sxs-lookup"><span data-stu-id="42010-169">This field is available only if you select <strong>Record</strong> in the <strong>Association with warehouse</strong> field.</span></span></td>
+<td><span data-ttu-id="470dc-167">Склад</span><span class="sxs-lookup"><span data-stu-id="470dc-167">Warehouse</span></span></td>
+<td><span data-ttu-id="470dc-168">Выберите код склада, который соответствует складу, которому назначено подписывающее лицо.</span><span class="sxs-lookup"><span data-stu-id="470dc-168">Select the warehouse code that corresponds to the warehouse that the signer is assigned to.</span></span> <span data-ttu-id="470dc-169">Это поле доступно только в том случае, если в поле <strong>Связь со складом</strong> выбрано значение <strong>Запись</strong>.</span><span class="sxs-lookup"><span data-stu-id="470dc-169">This field is available only if you select <strong>Record</strong> in the <strong>Association with warehouse</strong> field.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="set-up-a-number-sequence-code-for-officials"></a><span data-ttu-id="42010-170">Настройка кода номерной серии для должностных лиц</span><span class="sxs-lookup"><span data-stu-id="42010-170">Set up a number sequence code for officials</span></span>
-<span data-ttu-id="42010-171">Можно назначить код номерной серии для должностных лиц в разделе **Номерные серии** страницы **Юридические лица**.</span><span class="sxs-lookup"><span data-stu-id="42010-171">You can assign a number sequence code for officials in the **Number sequences** section of the **Legal entities** page.</span></span> <span data-ttu-id="42010-172">Выберите код номерной серии для ссылки **Код сессии должностных лиц**.</span><span class="sxs-lookup"><span data-stu-id="42010-172">Select a number sequence code for the **Officials session ID** reference.</span></span>
+## <a name="set-up-a-number-sequence-code-for-officials"></a><span data-ttu-id="470dc-170">Настройка кода номерной серии для должностных лиц</span><span class="sxs-lookup"><span data-stu-id="470dc-170">Set up a number sequence code for officials</span></span>
+<span data-ttu-id="470dc-171">Можно назначить код номерной серии для должностных лиц в разделе **Номерные серии** страницы **Юридические лица**.</span><span class="sxs-lookup"><span data-stu-id="470dc-171">You can assign a number sequence code for officials in the **Number sequences** section of the **Legal entities** page.</span></span> <span data-ttu-id="470dc-172">Выберите код номерной серии для ссылки **Код сессии должностных лиц**.</span><span class="sxs-lookup"><span data-stu-id="470dc-172">Select a number sequence code for the **Officials session ID** reference.</span></span>
 
-## <a name="modify-signers-in-primary-documents"></a><span data-ttu-id="42010-173">Изменение подписывающих лиц в первичных документах</span><span class="sxs-lookup"><span data-stu-id="42010-173">Modify signers in primary documents</span></span>
-<span data-ttu-id="42010-174">Функция работы с должностными лицами показывает заранее заданных подписывающих лиц по умолчанию из таблицы "Должностные лица".</span><span class="sxs-lookup"><span data-stu-id="42010-174">The Officials functionality shows the default predefined signers from the Officials table.</span></span> <span data-ttu-id="42010-175">На странице **Разноска накладной**, на вкладке **Должностные лица**, можно изменить имя и должность подписывающего лица для первичного документа следующих типов документов:</span><span class="sxs-lookup"><span data-stu-id="42010-175">On the **Posting invoice** page, on the **Officials** tab, you can modify a signer’s name and title on the primary document for the following document types:</span></span>
+## <a name="modify-signers-in-primary-documents"></a><span data-ttu-id="470dc-173">Изменение подписывающих лиц в первичных документах</span><span class="sxs-lookup"><span data-stu-id="470dc-173">Modify signers in primary documents</span></span>
+<span data-ttu-id="470dc-174">Функция работы с должностными лицами показывает заранее заданных подписывающих лиц по умолчанию из таблицы "Должностные лица".</span><span class="sxs-lookup"><span data-stu-id="470dc-174">The Officials functionality shows the default predefined signers from the Officials table.</span></span> <span data-ttu-id="470dc-175">На странице **Разноска накладной**, на вкладке **Должностные лица**, можно изменить имя и должность подписывающего лица для первичного документа следующих типов документов:</span><span class="sxs-lookup"><span data-stu-id="470dc-175">On the **Posting invoice** page, on the **Officials** tab, you can modify a signer’s name and title on the primary document for the following document types:</span></span>
 
--   <span data-ttu-id="42010-176">Накладная клиента</span><span class="sxs-lookup"><span data-stu-id="42010-176">Customer invoice</span></span>
--   <span data-ttu-id="42010-177">Накладная поставщика</span><span class="sxs-lookup"><span data-stu-id="42010-177">Vendor invoice</span></span>
--   <span data-ttu-id="42010-178">Отгрузить заказ на перемещение</span><span class="sxs-lookup"><span data-stu-id="42010-178">Ship transfer order</span></span>
--   <span data-ttu-id="42010-179">Кассовый ордер</span><span class="sxs-lookup"><span data-stu-id="42010-179">Cash order</span></span>
+-   <span data-ttu-id="470dc-176">Накладная клиента</span><span class="sxs-lookup"><span data-stu-id="470dc-176">Customer invoice</span></span>
+-   <span data-ttu-id="470dc-177">Накладная поставщика</span><span class="sxs-lookup"><span data-stu-id="470dc-177">Vendor invoice</span></span>
+-   <span data-ttu-id="470dc-178">Отгрузить заказ на перемещение</span><span class="sxs-lookup"><span data-stu-id="470dc-178">Ship transfer order</span></span>
+-   <span data-ttu-id="470dc-179">Кассовый ордер</span><span class="sxs-lookup"><span data-stu-id="470dc-179">Cash order</span></span>
 
-<span data-ttu-id="42010-180">**Примечание.** После разноски документа изменение должностных лиц невозможно.</span><span class="sxs-lookup"><span data-stu-id="42010-180">**Note:** After a document is posted, officials can't be edited.</span></span>
+<span data-ttu-id="470dc-180">**Примечание.** После разноски документа изменение должностных лиц невозможно.</span><span class="sxs-lookup"><span data-stu-id="470dc-180">**Note:** After a document is posted, officials can't be edited.</span></span>
 
 
 
