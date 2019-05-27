@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 937534f391c68c5bc9355f07dd054a740b7ea663
-ms.sourcegitcommit: 594fd4c7b937695396a7154a906563f43293926a
+ms.openlocfilehash: c26011bb8ff094fa7c1407177662f5cfff0af115
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "969312"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538338"
 ---
 # <a name="russia"></a>Россия
 
@@ -32,6 +32,7 @@ ms.locfileid: "969312"
 
 - [Корреспонденция счетов](rus-correspondence-accounts.md)
 - [Предварительный просмотр проводок ГК](rus-ledger-transactions-preview.md)
+- [Настройка валютных курсов для проводок в валюте](rus-exchange-difference.md)
 
 ## <a name="advance-holders"></a>Подотчетные лица
 
@@ -39,12 +40,14 @@ ms.locfileid: "969312"
 - [Создание подотчетного лица](emea-advance-holders.md#create-an-advance-holder)
 - [Ежедневные операции по подотчетным лицам](rus-advance-holders-daily-operations.md)
 - [Авансовые отчеты с бюджетным контролем](rus-advance-holders-reports-dailyops.md)
+- [Переоценка в иностранной валюте для подотчетных лиц](rus-advance-adjustment-parameters.md)
 - [Сортировка отчетов по подотчетным лицам](rus-local-management-reports-primary-forms.md)
 
-## <a name="bank"></a>Денежные средства
+## <a name="bank"></a>Банк
 
 - [Настройка банковских счетов](rus-local-settings-requisites-bank-module.md)
 - [Настройка и обработка платежных поручений](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-payment-order-settings-processing)
+- [Продажа, покупка и переводы иностранной валюты](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-currency-sale-purchase)
 
 ## <a name="vat"></a>НДС
 
@@ -72,14 +75,16 @@ ms.locfileid: "969312"
 
 ## <a name="accounts-payable-and-receivable"></a>Расчеты с поставщиками и клиентами
 - [Счета на оплату](rus-invoice-payment.md)
-- [Управление движением денежных средств](rus-cash-flow.md)
 - [Настройка контроля аналитик для сопоставлений](rus-transactions-settlement-date.md)
+- [Регистрация товаров, отгруженных клиентам](../../supply-chain/localizations/rus-goods-transit-postponed.md)
+- [Управление движением денежных средств](rus-cash-flow.md)
 
 ## <a name="reporting"></a>Отчетность
 
 - [Финансовая отчетность](rus-financial-reports.md)
+- [Настройка финансовых отчетов в Excel](rus-excel-financial-report.md)
+- [Учет отчетности в электронном формате](rus-accounting-reporting.md)
 - [Декларация налога на имущество](rus-assessed-tax-declaration.md)
-
 
 ## <a name="organization-administration"></a>Администрирование организации
 
@@ -92,9 +97,7 @@ ms.locfileid: "969312"
 - [Обзор электронной отчетности](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Загрузка конфигураций электронной отчетности из Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Портал локализации Microsoft Dynamics: отчет для России (требуется учетная запись CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/RussianFederation.html)
-- [Подразделения компании](rus-company-divisions.md)
-- [Настройка должностных лиц](rus-officials.md)
-- [Настройка валютных курсов для проводок в валюте](rus-exchange-difference.md)
-- [Предварительный просмотр проводок ГК](rus-ledger-transactions-preview.md)
-- [Настройка контроля аналитик для сопоставлений](rus-transactions-settlement-date.md)
+
+
+
 

@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 97086e49206d0b2a328744fd501e87226f1d3077
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5e7864a6d5cbc57dc9ac3c699e3d82cebc8284db
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371743"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513001"
 ---
 # <a name="invoices-for-payment-russia"></a>Счета на оплату (Россия)
 [!include [banner](../includes/banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5b91d8589fa4226a2c28e6935b32109e702afc1a
-ms.sourcegitcommit: 2cf5498098e7a5ade1c16eac6df26bc98e4565cd
+ms.openlocfilehash: 86df4508d897f1534c24e97bb4f4309d0d730c34
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "760653"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538331"
 ---
 # <a name="petty-cash-management-for-retail-for-eastern-europe"></a>Управление мелкими наличными деньгами для Retail для Восточной Европы
 

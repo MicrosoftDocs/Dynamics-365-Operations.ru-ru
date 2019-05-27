@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
 ms.openlocfilehash: be76f29dc9d38cdf3c2d56120a830acae69937a4
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "857022"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518900"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Что нового и что изменилось в Dynamics 365 for Talent Core HR (август 2018 г.)
 

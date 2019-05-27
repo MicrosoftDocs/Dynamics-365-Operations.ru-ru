@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aa8eae9414107c32e1ee2d74272f3b1e910874c6
-ms.sourcegitcommit: 385f3c53308e19077c846c7bfda0ed65be8467a5
+ms.openlocfilehash: f7c8174448d701c5be94c0ee320b72943ae1cda1
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "403953"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538343"
 ---
 # <a name="set-up-fixed-assets-russia"></a>Настройка основных средств (Россия)
 

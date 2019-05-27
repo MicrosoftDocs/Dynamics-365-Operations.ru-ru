@@ -17,11 +17,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a82c3e8e8787beb309b75b73cda36f4ca8031d6f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336804"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1558891"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Определение политик аудита для документов-источников
 
@@ -72,7 +72,7 @@ ms.locfileid: "336804"
 41. Выберите "Сумма проводки".
 42. В поле "Поле" введите или выберите значение.
 43. В поле "Функция расчета" выберите "Сумма".
-44. В поле "Критерии" введите ">2000".
+44. В поле "Критерии" введите &quot;&gt;2000".
 45. Нажмите кнопку "OК".
 46. Щелкните Тест.
 47. В поле "Начальная дата выбора документов" введите дату и время.

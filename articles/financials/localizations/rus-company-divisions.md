@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b76791077377181ac0e5a7af0e918f6669ee44df
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 418b5182e4e9b06ee61449672a3bdc5166ae4727
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371759"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538337"
 ---
 # <a name="company-divisions-russia"></a>Подразделения компании (Россия)
 

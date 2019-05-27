@@ -17,11 +17,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 5c870c134a9dae81cd619268bed7ce545bdd5f52
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "347085"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544618"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output"></a>Электронная отчетность — Настройка формата для инвентаризации и суммирования (Часть 3. Использование вычислений для создания выходных данных)
 

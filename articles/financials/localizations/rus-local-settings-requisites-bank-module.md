@@ -16,12 +16,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 25c15f9516dbd6511d0a507f9fc4a838ce363294
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4101c936c3aac651e171ed39824abc6ee7841af7
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371797"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513020"
 ---
 # <a name="set-up-bank-accounts-russia"></a>Настройка банковских счетов (Россия)
 

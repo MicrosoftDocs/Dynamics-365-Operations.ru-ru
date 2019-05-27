@@ -3,7 +3,7 @@ title: Функции и возможности Attract
 description: В этом разделе описываются функции, которые модуль Attract предоставляет для управления процессом приема на работу новых специалистов.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d80e4d6359e51841e28ab5ef96e281838831db92
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.openlocfilehash: 6b76913ea5a3e9a2e935d8b0cfde88dd721cb5db
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859744"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518967"
 ---
 # <a name="attract-features-and-capabilities"></a>Функции и возможности Attract
 
@@ -46,3 +46,6 @@ ms.locfileid: "859744"
 
 ## <a name="candidate-app"></a>Приложение для кандидатов
 Сразу же после добавления в вакансию кандидаты получают сообщение электронной почты, содержащее ссылку на веб-приложение. Это приложение предоставляет сведения о вакансии и используется для связи с группой комплектации штата. Кандидаты также могут использовать его для указания, доступны ли они для собеседований.
+
+## <a name="analytic-reports"></a>Аналитические отчеты
+Группы по найму сотрудников могут использовать просмотр основных показателей процесса найма на работу для одной должности или агрегированных показателей по всем должностям с [аналитическими отчетами в Attract](analytic-reports.md). Эта функция в настоящее время находится в [режиме предварительного просмотра](access-preview-feature.md) для клиентов с надстройкой [Comprehensive Hiring Add-On](attract-comprehensive-hiring.md).

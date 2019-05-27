@@ -3,7 +3,7 @@ title: Что нового и что изменилось
 description: Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних версиях Microsoft Dynamics 365 for Finance and Operations.
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2019
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 47b8a5354635303e8ce280d09201e7823137661f
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 2b6884165c6f0811a649e8fd5db831260ed1508e
+ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "975787"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1538987"
 ---
 # <a name="whats-new-or-changed"></a>Что нового и что изменилось
 
@@ -52,6 +52,12 @@ ms.locfileid: "975787"
 </thead>
 <tbody>
 <tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>10.0.3</td>
+<td>10.0.107</td>
+<td>2019 июня</td>
+<td><a href="whats-new-changed-10-0-3.md">Функции предварительной версии в Dynamics 365 for Finance and Operations версии 10.0.3 (июнь 2019 г.)</a></td>
+</tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.2</td>
 <td>10.0.80</td>
@@ -159,6 +165,12 @@ ms.locfileid: "975787"
 </thead>
 <tbody>
 <tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>Обновление платформы update 27</td>
+<td>7.0.5286</td>
+<td>2019 июня</td>
+<td><a href="whats-new-platform-update-27.md">Функции предварительной версии в Dynamics 365 for Finance and Operations с обновлением платформы Platform update 27 (июнь 2019 г.)</a></td>
+</tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Обновление платформы update 26</td>
 <td>7.0.5257</td>

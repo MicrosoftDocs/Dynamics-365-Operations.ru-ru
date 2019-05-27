@@ -16,12 +16,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4ef6f03ef2548e6bc67dcaae8b373940560e6609
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f63f9cd16ddac95d75ba99afc6412130490cef12
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371750"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538344"
 ---
 # <a name="value-added-tax-vat-for-tax-agents-russia"></a>Налог на добавленную стоимость (НДС) для налоговых агентов (Россия)
 
