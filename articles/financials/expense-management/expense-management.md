@@ -1,9 +1,9 @@
 ---
 title: Управление расходами
-description: Управление расходами позволяет создавать интегрированный документооборот, позволяющий сохранять сведения о способе оплаты, импортировать проводки кредитной карты и отслеживать денежные средства, потраченные сотрудниками в процессе своей деловой активности.
+description: В этом разделе представлены общие сведения об управлении расходами и ссылки на дополнительные ресурсы. Управление расходами можно использовать, чтобы создавать интегрированный документооборот, позволяющий сохранять сведения о способе оплаты, импортировать проводки кредитной карты и отслеживать денежные средства, потраченные сотрудниками в процессе своей деловой активности.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,41 +18,44 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11445390acef5ddfd57a1a0017e8bc423cdb1914
-ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
+ms.openlocfilehash: fe1e92dbf63d2683a53684b350f77c978b14c75e
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "403222"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538617"
 ---
 # <a name="expense-management"></a>Управление расходами
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Управление расходами позволяет создавать интегрированный документооборот, позволяющий сохранять сведения о способе оплаты, импортировать проводки кредитной карты и отслеживать денежные средства, потраченные сотрудниками в процессе своей деловой активности. Имеется также возможность определить политики расходов и автоматизировать компенсацию командировочных расходов. 
+Управление расходами можно использовать, чтобы создавать интегрированный документооборот, позволяющий сохранять сведения о способе оплаты, импортировать проводки кредитной карты и отслеживать денежные средства, потраченные сотрудниками в процессе своей деловой активности. Имеется также возможность определить политики расходов и автоматизировать компенсацию командировочных расходов.
 
-[Планирование управления расходами](plan-expense-management.md) 
+Дополнительные сведения см. в разделе [Настройка управления расходами](plan-expense-management.md).
 
-### <a name="additional-resources"></a>Дополнительные ресурсы
+## <a name="additional-resources"></a>Дополнительные ресурсы
 
-#### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
+### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 
-Выберите [Сведения о версии Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы увидеть, какие новые возможности были запланированы. 
+Сведения о запланированных новых функциях см. в разделе [Сведения о версии Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158).
 
-#### <a name="blogs"></a>Блоги
+#### <a name="expense-report-entry"></a>Ввод отчета о расходах
 
-Мнения, новости и другие сведения можно найти в [блоге Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и [блоге Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Запись отчета о расходах была изменена для упрощения процесса и уменьшения времени, необходимого для заполнения отчетов о расходах. Эту функцию можно включить в управлении функциями. Можно добавить новую страницу настройки для настройки видимости полей расходов и указать, какие данные являются обязательными, необязательными или недоступными при вводе отчетов о расходах. Когда эта функция включена, доступна новая рабочая область расходов. Эта рабочая область заменяет предыдущую рабочую область расходов и является начальной страницей для улучшенного опыта ввода.
 
-[Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в MBS Operations. 
+Дополнительные сведения см. в разделе [Переработанные отчеты о расходах](ExpenseWorkspaceNew.md).
 
-#### <a name="task-guides"></a>Проводники по задачам
-Проводники по задачам в Finance and Operations — это еще один источник справочной информации. Чтобы перейти к проводникам по задачам, нажмите кнопку "Справка" на любой странице.
+### <a name="blogs"></a>Блоги
 
-#### <a name="videos"></a>Видео
+Мнения, новости и другие сведения см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).
+
+[Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в MBS Operations.
+
+### <a name="task-guides"></a>Проводники по задачам
+
+Дополнительная справка доступна в виде руководств по задачам внутри Microsoft Dynamics 365 for Finance and Operations. Чтобы перейти к проводникам по задачам, выберите кнопку **Справка** на любой странице.
+
+### <a name="videos"></a>Видео
 
 Смотрите видео с инструкциями на [канале Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
-
-
-
-

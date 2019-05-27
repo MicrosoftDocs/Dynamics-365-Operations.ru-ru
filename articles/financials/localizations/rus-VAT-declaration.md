@@ -16,18 +16,16 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: cea7e4df73a81854a67d00e96042a96d09c3d5e8
-ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
+ms.openlocfilehash: bcfd37bb6a5029d3f055440ef3379103913da4c8
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832161"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538361"
 ---
 # <a name="vat-declaration-russia"></a>Декларация НДС (Россия)
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview-banner](../includes/preview-banner.md)]
 
 В данном разделе содержится информация о декларации налога на добавленную стоимость (НДС) для России. Он включает инструкции по настройке и созданию декларации НДС.
 
