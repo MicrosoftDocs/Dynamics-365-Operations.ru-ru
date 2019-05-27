@@ -16,31 +16,31 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 52b9f6a5b71349d404fe9621b58f58aab843a71f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308514"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570701"
 ---
-# <a name="map-a-cost-element-dimension"></a><span data-ttu-id="37503-103">Сопоставление аналитики элемента затрат</span><span class="sxs-lookup"><span data-stu-id="37503-103">Map a cost element dimension</span></span>
+# <a name="map-a-cost-element-dimension"></a><span data-ttu-id="4a41d-103">Сопоставление аналитики элемента затрат</span><span class="sxs-lookup"><span data-stu-id="4a41d-103">Map a cost element dimension</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="37503-104">Контроллер затрат может использовать эту процедуру для сопоставления аналитики элемента затрат аналитике элемента затрат в юридическом лице MXMF.</span><span class="sxs-lookup"><span data-stu-id="37503-104">A cost controller can use this procedure to map a cost element dimension to a cost element dimension in the MXMF legal entity.</span></span> <span data-ttu-id="37503-105">В этой записи используется компания с демонстрационными данными USP2.</span><span class="sxs-lookup"><span data-stu-id="37503-105">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="4a41d-104">Контроллер затрат может использовать эту процедуру для сопоставления аналитики элемента затрат аналитике элемента затрат в юридическом лице MXMF.</span><span class="sxs-lookup"><span data-stu-id="4a41d-104">A cost controller can use this procedure to map a cost element dimension to a cost element dimension in the MXMF legal entity.</span></span> <span data-ttu-id="4a41d-105">В этой записи используется компания с демонстрационными данными USP2.</span><span class="sxs-lookup"><span data-stu-id="4a41d-105">This recording uses the USP2 demo data company.</span></span>
 
-1. <span data-ttu-id="37503-106">Перейдите в раздел "Учет затрат" > "Аналитики" > "Аналитики элемента затрат".</span><span class="sxs-lookup"><span data-stu-id="37503-106">Go to Cost accounting > Dimensions > Cost element dimensions.</span></span>
-2. <span data-ttu-id="37503-107">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="37503-107">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="37503-108">В этом примере выберите "Элементы затрат".</span><span class="sxs-lookup"><span data-stu-id="37503-108">For this example, select Cost elements.</span></span>  
-3. <span data-ttu-id="37503-109">Щелкните "Сопоставления аналитик".</span><span class="sxs-lookup"><span data-stu-id="37503-109">Click Dimension mappings.</span></span>
-4. <span data-ttu-id="37503-110">Щелкните "Настроить сопоставления из этой аналитики".</span><span class="sxs-lookup"><span data-stu-id="37503-110">Click Configure mappings from this dimension.</span></span>
-5. <span data-ttu-id="37503-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="37503-111">Click New.</span></span>
-6. <span data-ttu-id="37503-112">В поле "В аналитику" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="37503-112">In the To dimension field, enter or select a value.</span></span>
-    * <span data-ttu-id="37503-113">В этом примере выберите "Элементы затрат MXMF".</span><span class="sxs-lookup"><span data-stu-id="37503-113">For this example, select MXMF Cost elements.</span></span>  
-7. <span data-ttu-id="37503-114">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="37503-114">Click New.</span></span>
-8. <span data-ttu-id="37503-115">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="37503-115">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="37503-116">В поле "Из элемента аналитики" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="37503-116">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="37503-117">В этом примере выберите элемент аналитики 606400, "Расходы на телефон и факс".</span><span class="sxs-lookup"><span data-stu-id="37503-117">For this example, select dimension member 606400 Telephone & Fax Expense.</span></span>  
-10. <span data-ttu-id="37503-118">В поле "В элемент аналитики" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="37503-118">In the To dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="37503-119">В этом примере выберите элемент аналитики 6001004 "Telefono".</span><span class="sxs-lookup"><span data-stu-id="37503-119">For this example, select dimension member 6001004 Telefono.</span></span>  
-11. <span data-ttu-id="37503-120">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="37503-120">Click Save.</span></span>
+1. <span data-ttu-id="4a41d-106">Перейдите в раздел "Учет затрат" > "Аналитики" > "Аналитики элемента затрат".</span><span class="sxs-lookup"><span data-stu-id="4a41d-106">Go to Cost accounting > Dimensions > Cost element dimensions.</span></span>
+2. <span data-ttu-id="4a41d-107">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="4a41d-107">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="4a41d-108">В этом примере выберите "Элементы затрат".</span><span class="sxs-lookup"><span data-stu-id="4a41d-108">For this example, select Cost elements.</span></span>  
+3. <span data-ttu-id="4a41d-109">Щелкните "Сопоставления аналитик".</span><span class="sxs-lookup"><span data-stu-id="4a41d-109">Click Dimension mappings.</span></span>
+4. <span data-ttu-id="4a41d-110">Щелкните "Настроить сопоставления из этой аналитики".</span><span class="sxs-lookup"><span data-stu-id="4a41d-110">Click Configure mappings from this dimension.</span></span>
+5. <span data-ttu-id="4a41d-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="4a41d-111">Click New.</span></span>
+6. <span data-ttu-id="4a41d-112">В поле "В аналитику" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="4a41d-112">In the To dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="4a41d-113">В этом примере выберите "Элементы затрат MXMF".</span><span class="sxs-lookup"><span data-stu-id="4a41d-113">For this example, select MXMF Cost elements.</span></span>  
+7. <span data-ttu-id="4a41d-114">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="4a41d-114">Click New.</span></span>
+8. <span data-ttu-id="4a41d-115">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="4a41d-115">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="4a41d-116">В поле "Из элемента аналитики" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="4a41d-116">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="4a41d-117">В этом примере выберите элемент аналитики 606400, "Расходы на телефон и факс".</span><span class="sxs-lookup"><span data-stu-id="4a41d-117">For this example, select dimension member 606400 Telephone & Fax Expense.</span></span>  
+10. <span data-ttu-id="4a41d-118">В поле "В элемент аналитики" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="4a41d-118">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="4a41d-119">В этом примере выберите элемент аналитики 6001004 "Telefono".</span><span class="sxs-lookup"><span data-stu-id="4a41d-119">For this example, select dimension member 6001004 Telefono.</span></span>  
+11. <span data-ttu-id="4a41d-120">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="4a41d-120">Click Save.</span></span>
 
