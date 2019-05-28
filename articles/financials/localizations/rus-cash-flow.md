@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f677c9d9d67ce9b205dd20c39aaa1fbe29175128
-ms.sourcegitcommit: 6cb58ce6226d13d777085097c4258b775ecef132
+ms.openlocfilehash: 07ab794ff4ebe4cd6c14ced75367b7a9d192a6d0
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "759727"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538376"
 ---
 # <a name="cash-flow-management-russia"></a>Управление движением денежных средств (Россия)
 

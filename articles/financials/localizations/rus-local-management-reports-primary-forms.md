@@ -18,12 +18,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: a393fee73a664f3fe138176d239a4f3f3be1aac2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c91a328b3e5d9f712fe22c9fc1e979ed724da750
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371793"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538347"
 ---
 # <a name="advance-holders-reports-russia"></a>Отчеты по подотчетным лицам (Россия)
 

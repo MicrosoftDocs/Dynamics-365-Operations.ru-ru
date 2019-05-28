@@ -17,11 +17,11 @@ ms.author: shylaw
 ms.search.validFrom: 2019-05-01
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: eeed4da78ebfe96aad822788ca5eb3280fa1b4a0
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "950485"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538362"
 ---
 # <a name="assessed-tax-declaration-russia"></a>Налоговая декларация по налогу на имущество (Россия)
 

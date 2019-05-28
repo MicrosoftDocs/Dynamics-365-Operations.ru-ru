@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 614b95483aafe2977bcf47470ff3e22e186edc37
-ms.sourcegitcommit: 185d13bc3e2b2a51569471368671d5cc3023ab14
+ms.openlocfilehash: f8f5c3ef062e8b54056480f133a60a08275a2bf2
+ms.sourcegitcommit: 1f269e1afd876bd592f88eee683664bc93fa64bf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "993009"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539453"
 ---
 # <a name="not-valuable-fixed-assets-nvfas-russia"></a>Малоценные основные средства (МОС) (Россия)
 
@@ -56,7 +56,7 @@ ms.locfileid: "993009"
 3. Выберите **Соответствие** и укажите, как номенклатура связана с группой основных средств.
 
     > [!NOTE]
-    > Система использует этот параметр для заполнения полей **Группа ОС** и **Срок службы** на странице **Строки журнала выдачи спецодежды, спецоснастки и МОС**. Дополнительные сведения см. в разделе [Создания записей МОС, ввод в эксплуатацию и проводки амортизации для МОС](#Generate-nvfa-records,-putting-into-operation,-and-depreciation-transactions-for-nvfas).
+    > Система использует этот параметр для заполнения полей **Группа ОС** и **Срок службы** на странице **Строки журнала выдачи спецодежды, спецоснастки и МОС**. Дополнительные сведения см. в разделе [Создания записей МОС, проводки ввода в эксплуатацию и проводки амортизации для МОС](#generate-nvfa-records-putting-into-operation-transactions-and-depreciation-transactions-for-nvfas).
 
 ## <a name="set-up-inventory-dimensions-for-nvfas"></a>Настройка складских аналитик для МОС
 

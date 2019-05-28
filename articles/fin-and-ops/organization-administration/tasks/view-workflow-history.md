@@ -17,11 +17,11 @@ ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a40fe377322e2d64b751f6cace3eda20736cd321
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "309664"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560460"
 ---
 # <a name="view-workflow-history"></a>Просмотр журнала workflow-процессов
 
@@ -29,7 +29,7 @@ ms.locfileid: "309664"
 
 Используйте эти шаги для просмотра статуса документа, отправленного в систему workflow-процессов для обработки и утверждения. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 
-1. Перейдите в раздел "Общее" > "Запросы" > "Workflow-процесс"> "История workflow-процесса".
+1. Перейдите в раздел "Общее" > "Запросы" > "Workflow-процесс" > "История workflow-процесса".
     * Данная форма предназначена для просмотра статуса документа, отправленного в систему workflow-процессов для обработки и утверждения.  
     * Код экземпляра — это идентификационный код экземпляра workflow-процесса, в рамках которого обрабатывается или обработан данный документ.  
     * Статус — это статус workflow-процесса документа.  

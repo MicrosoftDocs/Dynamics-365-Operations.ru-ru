@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: efda4e39f63155785386ecec6d21973e01a0f69f
-ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "770901"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564037"
 ---
 # <a name="integration-with-microsoft-dynamics-365-for-field-service"></a>Интеграция с Microsoft Dynamics 365 for Field Service
 

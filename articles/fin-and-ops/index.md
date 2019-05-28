@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: Документация по Microsoft Dynamics 365 for Finance and Operations
 description: Документация по Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 04/11/2019
 ms.topic: index-page
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: 'Core, Operations'
+ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4547a0c8d43584e4cb8981e0a055c514c184f6dd
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507597"
 ---
-
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Документация по Microsoft Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
@@ -60,6 +64,11 @@ ms.dyn365.ops.version: AX 7.0.0
 <p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Получение уведомлений об обновлениях службы</a></p>
 <p><a href="../dev-itpro/data-entities/data-task-automation.md">Автоматизация задач данных</a></p>
 <p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
+
+<h3><a href="../dev-itpro/data-entities/integration-overview.md">Интеграции</a></h3>
+<p><a href="../dev-itpro/business-events/home-page.md">Бизнес-события</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Информационные объекты</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Интеграция с помощью Microsoft Flow</a></p>
 
 <h3><a href="../financials/index.md">Управление финансами</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Расчеты с поставщиками</a></p>
@@ -105,10 +114,6 @@ ms.dyn365.ops.version: AX 7.0.0
 
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Разработка</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Расширяемость</a></p>
-
-<p><a href="../dev-itpro/data-entities/integration-overview.md">Интеграция данных</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Управление данными</a></p>
-
 <p><a href="../dev-itpro/office-integration/office-integration.md">Интеграция с Office</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Непрерывная поставка</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Мобильная платформа</a></p>
@@ -119,7 +124,6 @@ ms.dyn365.ops.version: AX 7.0.0
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Локальное развертывание</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Обновление</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Обслуживание</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Платформа управления данными</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">Администрирование организации</a></p>
 </td>

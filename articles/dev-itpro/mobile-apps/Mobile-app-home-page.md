@@ -18,11 +18,11 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321394"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554470"
 ---
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Домашняя страница приложения Dynamics 365 for Unified Operations Mobile
 
@@ -89,7 +89,7 @@ ms.locfileid: "321394"
 <tr class="even">
 <td>2</td>
 <td>Системный администратор</td>
-<td><strong>Если вы используете Microsoft Dynamics 365 for Operations версии 1611:</strong> загрузите и установите КБ, обеспечивающие использование мобильных рабочих областей, которые предоставляются корпорацией Майкрософт.</td>
+<td><strong>Если вы используете Microsoft Dynamics 365 for Operations версии 1611:</strong> загрузите и установите KB, обеспечивающие использование мобильных рабочих областей, которые предоставляются корпорацией Майкрософт.</td>
 <td>Дополнительные сведения см. в следующих разделах:
 <ul>
 

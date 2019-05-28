@@ -16,11 +16,11 @@ ms.author: anasyash
 ms.search.validFrom: 2019-4-30
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 71754cffaa2995afc1946c9385363433f6f222e7
-ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832461"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538346"
 ---
 # <a name="accounting-reporting-in-electronic-format-russia"></a>Бухгалтерская отчетность в электронном формате (Россия)
 

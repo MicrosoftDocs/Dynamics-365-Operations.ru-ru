@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321739"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545470"
 ---
 # <a name="europe"></a>Европа 
 
@@ -75,7 +75,7 @@ ms.locfileid: "321739"
 - [Получение сертификата записи ЕС](tasks/eur-00012-receive-eu-entry-certificate.md)
 - [Регистрационные номера](emea-registration-ids.md)
 - [Возмещения](emea-reverse-charge.md)
-- [Обзор кредитового перевода SEPA](../accounts-payable/sepa-credit-transfer.md)
+- [Обзор кредитных переводов SEPA](../accounts-payable/sepa-credit-transfer.md)
 - [Обзор прямого дебетования SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 - [Настройка компенсации клиентам и поставщикам](emea-compensation-customer-vendor-transactions.md)
 - [Настройка отчетности ЕС по НДС](tasks/eur-00011-eu-sales-list-reporting.md)

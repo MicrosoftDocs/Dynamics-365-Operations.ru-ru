@@ -1,12 +1,12 @@
 ---
 title: Доступ к функциям предварительного просмотра в Talent
 description: В этом разделе описывается, как администратор может включить функции предварительного просмотра, и перечисляются функции, которые в настоящее время включены для предварительного просмотра.
-author: andreabichsel
+author: tracykeya
 manager: AnnBe
-ms.date: 04/17/2018
+ms.date: 04/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,15 +15,15 @@ ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: trkeya
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 060a36185641d5bb7912631b7c857c5c4331c8b7
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
+ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856332"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518970"
 ---
 # <a name="access-preview-features-in-talent"></a>Доступ к функциям предварительного просмотра в Talent
 
@@ -72,6 +72,7 @@ ms.locfileid: "856332"
 
 - **Подача заявления о приеме на работу кандидатом** — внутренние и внешние кандидаты теперь могут подать заявление о приеме на работу на странице должностей на сайте карьеры.
 - **Управление предложениями** — пользователи теперь могут создавать письма с предложением из шаблонов, содержащих заполнители. Когда кандидаты переходят на стадию предложения, специалисты по найму и специалисты по комплектации штата могут использовать средство Offer для подготовки формального предложения кандидата с помощью шаблонов, отправки предложения на внутреннее утверждение и, наконец, отправки предложения кандидату на подпись. Со временем в Offer будет добавлено много новых возможностей, и функция предварительного просмотра будет обновлена для включения этих возможностей по мере их готовности к выпуску для предварительного просмотра.
+- **[Аналитические отчеты](analytic-reports.md)** — группы найма могут просматривать ключевые метрики для одной должности с аналитикой должности или агрегированные показатели по всем должностям в центре аналитики.
 
 ### <a name="core-hr"></a>Core HR
 
