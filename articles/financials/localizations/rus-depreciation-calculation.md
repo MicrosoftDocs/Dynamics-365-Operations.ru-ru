@@ -1,103 +1,243 @@
----
-title: Расчет амортизации для России
-description: В этом разделе описывается расчет амортизации для основных средств в России.
-author: anasyash
-manager: AnnBe
-ms.date: 10/28/2018
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Russia
-ms.search.industry: ''
-ms.author: anasyash
-ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4f375f30c38e54a86ba9b7ce8a6d3897136152f8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538359"
----
-# <a name="calculate-depreciation-russia"></a><span data-ttu-id="7921d-103">Расчет амортизации (Россия)</span><span class="sxs-lookup"><span data-stu-id="7921d-103">Calculate depreciation (Russia)</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="7921d-104">В этом разделе описывается расчет амортизации для основных средств в России.</span><span class="sxs-lookup"><span data-stu-id="7921d-104">This topic explains how to calculate depreciation for Russian fixed assets.</span></span>
-
-## <a name="calculate-fixed-asset-depreciation"></a><span data-ttu-id="7921d-105">Расчет амортизации для ОС</span><span class="sxs-lookup"><span data-stu-id="7921d-105">Calculate fixed asset depreciation</span></span>
-
-1. <span data-ttu-id="7921d-106">Выберите **Основные средства (Россия)** \> **Журналы** \> **Журнал ОС**.</span><span class="sxs-lookup"><span data-stu-id="7921d-106">Select **Fixed assets (Russia)** \> **Journals** \> **FA journal**.</span></span>
-2. <span data-ttu-id="7921d-107">Выберите вкладку **Список** и выберите **Создать**, чтобы создать журнал.</span><span class="sxs-lookup"><span data-stu-id="7921d-107">Select the **List** tab, and then select **New** to create a journal.</span></span>
-3. <span data-ttu-id="7921d-108">В поле **Имя** выберите имя журнала.</span><span class="sxs-lookup"><span data-stu-id="7921d-108">In the **Name** field, select a journal name.</span></span>
-4. <span data-ttu-id="7921d-109">В поле **Описание** можно изменить описание журнала.</span><span class="sxs-lookup"><span data-stu-id="7921d-109">In the **Description** field, you can change the description of the journal.</span></span>
-5. <span data-ttu-id="7921d-110">Выберите **Строки**, чтобы открыть страницу **Ваучер журнала**.</span><span class="sxs-lookup"><span data-stu-id="7921d-110">Select **Lines** to open the **Journal voucher** page.</span></span>
-6. <span data-ttu-id="7921d-111">Выберите вкладку **Обзор**, выберите **Создать**, чтобы открыть диалоговое окно **Добавление в журнал** и создать одну проводку по амортизации для одного основного средства.</span><span class="sxs-lookup"><span data-stu-id="7921d-111">Select the **Overview** tab, select **New** to open the **Add to journal** dialog box, and create one depreciation transaction for one fixed asset.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="7921d-112">Для создания проводок амортизации для нескольких основных средств на странице **Ваучер журнала** выберите **Групповые операции** \> **Амортизация**, чтобы открыть диалоговое окно **Амортизация**.</span><span class="sxs-lookup"><span data-stu-id="7921d-112">To create depreciation transactions for several fixed assets, on the **Journal voucher** page, select **Group operations** \> **Depreciation** to open the **Depreciation** dialog box.</span></span> <span data-ttu-id="7921d-113">На экспресс-вкладке **Включаемые записи** выберите **Фильтр**, чтобы открыть диалоговое окно **Активы**, в котором можно задать критерии, которые используются для выбора основных средств.</span><span class="sxs-lookup"><span data-stu-id="7921d-113">On the **Records to include** FastTab, select **Filter** to open the **Assets** dialog box, where you can set the criteria that are used to select fixed assets.</span></span>
-
-7. <span data-ttu-id="7921d-114">В поле **Дата проводки** выберите дату следующего периода расчета.</span><span class="sxs-lookup"><span data-stu-id="7921d-114">In the **Transaction date** field, select the date of the next calculation period.</span></span> <span data-ttu-id="7921d-115">Если амортизация не была вычислена за предыдущие периоды, проводки амортизации создаются в журнале для всех месяцев до даты проводки, исключая месяц проводки.</span><span class="sxs-lookup"><span data-stu-id="7921d-115">If no depreciation was calculated for the previous periods, depreciation transactions are created in the journal for all months before the transaction date, except the month of the transaction.</span></span>
-8. <span data-ttu-id="7921d-116">В поле **Тип проводки** выберите **Амортизация**.</span><span class="sxs-lookup"><span data-stu-id="7921d-116">In the **Transaction type** field, select **Depreciation**.</span></span>
-9. <span data-ttu-id="7921d-117">В поле **Инвентарный номер ОС** выберите номер основного средства.</span><span class="sxs-lookup"><span data-stu-id="7921d-117">In the **FA inventory number** field, select a fixed asset number.</span></span>
-10. <span data-ttu-id="7921d-118">В поле **Модель учета** выберите модель учета ОС.</span><span class="sxs-lookup"><span data-stu-id="7921d-118">In the **Value model** field, select a fixed asset value model.</span></span> <span data-ttu-id="7921d-119">Если не выбрать модель, проводки по всем моделям стоимости создаются в журнале.</span><span class="sxs-lookup"><span data-stu-id="7921d-119">If you don't select a model, transactions for all value models are created in the journal.</span></span>
-11. <span data-ttu-id="7921d-120">В поле **Код основания** выберите код основания.</span><span class="sxs-lookup"><span data-stu-id="7921d-120">In the **Reason code** field, select a reason code.</span></span> <span data-ttu-id="7921d-121">В поле **Комментарий к причине** можно изменить причину проводки амортизации.</span><span class="sxs-lookup"><span data-stu-id="7921d-121">In the **Reason comment** field, you can change the reason for the depreciation transaction.</span></span>
-13. <span data-ttu-id="7921d-122">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="7921d-122">Select **OK**.</span></span> <span data-ttu-id="7921d-123">Проводки амортизации создаются в журнале для всех моделей стоимости, настроенных на странице **Модели стоимости**.</span><span class="sxs-lookup"><span data-stu-id="7921d-123">Depreciation transactions are created in the journal for all value models that you set up on the **Value models** page.</span></span>
-14. <span data-ttu-id="7921d-124">Выберите пункт меню **Проверка** \> **Проверка**, чтобы проверить сведения транзакции.</span><span class="sxs-lookup"><span data-stu-id="7921d-124">Select **Validate** \> **Validate** to validate the transaction details.</span></span>
-15. <span data-ttu-id="7921d-125">Выберите **Разнести** \> **Разнести**, чтобы разнести журнал.</span><span class="sxs-lookup"><span data-stu-id="7921d-125">Select **Post** \> **Post** to post the journal.</span></span> <span data-ttu-id="7921d-126">Создаются транзации основного средства и главной книги.</span><span class="sxs-lookup"><span data-stu-id="7921d-126">Fixed asset and ledger transactions are created.</span></span>
-
-## <a name="calculate-or-reverse-depreciation-by-using-the-tax-non-linear-group-depreciation-method"></a><span data-ttu-id="7921d-127">Расчет или реверсирование амортизации с использованием нелинейного метода налоговой групповой амортизации</span><span class="sxs-lookup"><span data-stu-id="7921d-127">Calculate or reverse depreciation by using the tax non-linear group depreciation method</span></span> 
-
-<span data-ttu-id="7921d-128">Амортизацию для налогового учета можно рассчитывать с помощью линейного метода амортизации или нелинейного метода амортизации.</span><span class="sxs-lookup"><span data-stu-id="7921d-128">You can calculate depreciation for tax accounting by using the linear depreciation method or the non-linear depreciation method.</span></span> <span data-ttu-id="7921d-129">Также можно рассчитывать налоговую амортизацию с использованием налогового нелинейного метода амортизации групп.</span><span class="sxs-lookup"><span data-stu-id="7921d-129">You can also calculate tax depreciation by using the tax non-linear group depreciation method.</span></span> <span data-ttu-id="7921d-130">Этот метод позволяет рассчитать сумму амортизации, начисляемую для каждой группы или подгруппы амортизации.</span><span class="sxs-lookup"><span data-stu-id="7921d-130">This method lets you calculate the depreciation amount that is accrued for each depreciation group or subgroup.</span></span> <span data-ttu-id="7921d-131">Для использования этого метода необходимо указать ставку амортизации для каждой группы или коэффициент амортизации для каждой подгруппы.</span><span class="sxs-lookup"><span data-stu-id="7921d-131">To use this method, you specify a depreciation rate for each group, or a depreciation factor for each subgroup.</span></span>
-
-<span data-ttu-id="7921d-132">Можно группировать строки регистра амортизации по группам или подгруппам амортизации с помощью налоговых регистров **ОС - амортизация (нелинейный метод)**, **НМА - амортизация (нелинейный метод)**, **ОC - информация об объекте** и **НМА - информация об объекте**.</span><span class="sxs-lookup"><span data-stu-id="7921d-132">You can group the depreciation register lines by depreciation group or subgroup by using the **FA depreciation (nonlinear method)**, **IA depreciation (nonlinear method)**, **FA - information about object**, and **IA - object information** tax registers.</span></span>
-
-<span data-ttu-id="7921d-133">Используйте следующие процедуры для настройки метода амортизации и расчета или реверсирования амортизации с использованием налогового нелинейного метода амортизации групп.</span><span class="sxs-lookup"><span data-stu-id="7921d-133">Use the following procedures to set up a depreciation method, and to calculate or reverse depreciation by using the tax non-linear group method.</span></span>
-
-### <a name="calculate-fixed-asset-depreciation-by-using-the-tax-non-linear-group-method"></a><span data-ttu-id="7921d-134">Вычисление амортизации основных средств с помощью налогового нелинейного метода амортизации групп</span><span class="sxs-lookup"><span data-stu-id="7921d-134">Calculate fixed asset depreciation by using the tax non-linear group method</span></span>
-
-1. <span data-ttu-id="7921d-135">Выберите **Основные средства (Россия)** \> **Журналы** \> **Журнал ОС**.</span><span class="sxs-lookup"><span data-stu-id="7921d-135">Select **Fixed assets (Russia)** \> **Journals** \> **FA journal**.</span></span>
-2. <span data-ttu-id="7921d-136">Выберите **Создать**, чтобы создать журнал.</span><span class="sxs-lookup"><span data-stu-id="7921d-136">Select **New** to create a journal.</span></span>
-3. <span data-ttu-id="7921d-137">В поле **Имя** выберите имя журнала.</span><span class="sxs-lookup"><span data-stu-id="7921d-137">In the **Name** field, select a journal name.</span></span>
-4. <span data-ttu-id="7921d-138">В поле **Описание** измените описание журнала.</span><span class="sxs-lookup"><span data-stu-id="7921d-138">In the **Description** field, change the description of the journal.</span></span>
-5. <span data-ttu-id="7921d-139">Выберите **Строки**, чтобы открыть страницу **Ваучер журнала**.</span><span class="sxs-lookup"><span data-stu-id="7921d-139">Select **Lines** to open the **Journal voucher** page.</span></span>
-6. <span data-ttu-id="7921d-140">Выберите **Групповые операции** \> **Амортизация по группе**, чтобы открыть диалоговое окно **Амортизации по группе**.</span><span class="sxs-lookup"><span data-stu-id="7921d-140">Select **Group operations** \> **Depreciation by group** to open the **Depreciation by group** dialog box.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="7921d-141">Если выбрать в качестве метода амортизации **Налоговый нелинейный групповой метод**, рассчитывать амортизацию для налоговой модели стоимости с помощью одиночной или групповой функции амортизации будет невозможно.</span><span class="sxs-lookup"><span data-stu-id="7921d-141">If you select **Tax nonlinear group method** as the depreciation method, you can't calculate the depreciation for a tax value model by using the single or group depreciation operation.</span></span>
-
-7. <span data-ttu-id="7921d-142">В поле **Дата транзакции** введите дату для транзакции.</span><span class="sxs-lookup"><span data-stu-id="7921d-142">In the **Transaction date** field, select the date of the transaction.</span></span>
-8. <span data-ttu-id="7921d-143">На экспресс-вкладке **Включаемые записи** выберите **Фильтр**, чтобы открыть диалоговое окно **Активы**, затем задайте критерии, которые используются для выбора основных средств.</span><span class="sxs-lookup"><span data-stu-id="7921d-143">On the **Records to include** FastTab, select **Filter** to open the **Assets** dialog box, and then set the criteria that are used to select fixed assets.</span></span>
-9. <span data-ttu-id="7921d-144">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="7921d-144">Select **OK**.</span></span> <span data-ttu-id="7921d-145">В журнале будут созданы проводки амортизации.</span><span class="sxs-lookup"><span data-stu-id="7921d-145">Depreciation transactions are created in the journal.</span></span>
-10. <span data-ttu-id="7921d-146">Выберите **Проверить** \> **Проверить**, чтобы проверить журнал.</span><span class="sxs-lookup"><span data-stu-id="7921d-146">Select **Validate** \> **Validate** to validate the journal.</span></span>
-11. <span data-ttu-id="7921d-147">Выберите **Разнести** \> **Разнести**, чтобы разнести журнал.</span><span class="sxs-lookup"><span data-stu-id="7921d-147">Select **Post** \> **Post** to post the journal.</span></span> <span data-ttu-id="7921d-148">Будут созданы соответствующие проводки основных средств и главной книги.</span><span class="sxs-lookup"><span data-stu-id="7921d-148">Corresponding fixed asset and ledger transactions are created.</span></span>
-
-### <a name="calculating-a-depreciation-bonus"></a><span data-ttu-id="7921d-149">Расчет премии амортизации</span><span class="sxs-lookup"><span data-stu-id="7921d-149">Calculating a depreciation bonus</span></span>
-
-<span data-ttu-id="7921d-150">Премия амортизации — это дополнительная сумма амортизации, определяемая в течении первого года для некоторых типов производственных основных средств.</span><span class="sxs-lookup"><span data-stu-id="7921d-150">The depreciation bonus is an additional depreciation amount that is assessed during the first year for some operational asset types.</span></span> <span data-ttu-id="7921d-151">Перед расчетом премии амортизации основных средств необходимо настроить профиль разноски и создать журнал приобретения.</span><span class="sxs-lookup"><span data-stu-id="7921d-151">Before you can calculate the fixed asset depreciation bonus, you must set up a posting profile and create an acquisition journal.</span></span>
-
-<span data-ttu-id="7921d-152">Используйте страницу **Амортизационная премия** для расчета амортизационной премии для основных средств с помощью налогового нелинейного группового метода амортизации.</span><span class="sxs-lookup"><span data-stu-id="7921d-152">Use the **Depreciation bonus** page to calculate the depreciation bonus for fixed assets by using the tax non-linear group depreciation method.</span></span> <span data-ttu-id="7921d-153">При создании проводки амортизации премия амортизации рассчитывается для каждого ОС.</span><span class="sxs-lookup"><span data-stu-id="7921d-153">When you create the depreciation transactions, a depreciation bonus is calculated for every asset.</span></span> <span data-ttu-id="7921d-154">Сначала рассчитывается сумма премии, а затем рассчитывается амортизация на основе стоимости.</span><span class="sxs-lookup"><span data-stu-id="7921d-154">The bonus amount is calculated first, and then the depreciation from the cost is calculated.</span></span> <span data-ttu-id="7921d-155">Эта амортизация не включает премии.</span><span class="sxs-lookup"><span data-stu-id="7921d-155">This depreciation excludes the bonus.</span></span> <span data-ttu-id="7921d-156">Сумма премии не включается в общее сальдо группы амортизации.</span><span class="sxs-lookup"><span data-stu-id="7921d-156">The bonus amount isn't included in the total balance of the depreciation group.</span></span> <span data-ttu-id="7921d-157">Дополнительные сведения см. в разделе [Амортизационная премия (Россия)](rus-bonus-depreciation.md).</span><span class="sxs-lookup"><span data-stu-id="7921d-157">For more information, see [Depreciation bonus (Russia)](rus-bonus-depreciation.md).</span></span>
-
-### <a name="reverse-fixed-asset-depreciation"></a><span data-ttu-id="7921d-158">Реверсирование амортизации основных средств</span><span class="sxs-lookup"><span data-stu-id="7921d-158">Reverse fixed asset depreciation</span></span>
-
-1. <span data-ttu-id="7921d-159">Выберите **Основные средства (Россия)** \> **Журналы** \> **Журнал ОС**.</span><span class="sxs-lookup"><span data-stu-id="7921d-159">Select **Fixed assets (Russia)** \> **Journals** \> **FA journal**.</span></span>
-2. <span data-ttu-id="7921d-160">Выберите вкладку **Список** и выберите **Создать**, чтобы создать журнал.</span><span class="sxs-lookup"><span data-stu-id="7921d-160">Select the **List** tab, and then select **New** to create a journal.</span></span>
-3. <span data-ttu-id="7921d-161">В поле **Имя** выберите имя журнала.</span><span class="sxs-lookup"><span data-stu-id="7921d-161">In the **Name** field, select a journal name.</span></span>
-4. <span data-ttu-id="7921d-162">В поле **Описание** можно изменить описание журнала.</span><span class="sxs-lookup"><span data-stu-id="7921d-162">In the **Description** field, you can change the description of the journal.</span></span>
-5. <span data-ttu-id="7921d-163">Выберите **Строки**, чтобы открыть страницу **Ваучер журнала**.</span><span class="sxs-lookup"><span data-stu-id="7921d-163">Select **Lines** to open the **Journal voucher** page.</span></span>
-6. <span data-ttu-id="7921d-164">Выберите **Групповые операции** \> **Сторно амортизации**, чтобы открыть диалоговое окно **Сторно амортизации**.</span><span class="sxs-lookup"><span data-stu-id="7921d-164">Select **Group operations** \> **Storno of depreciation** to open the **Storno of depreciation** dialog box.</span></span>
-7. <span data-ttu-id="7921d-165">В поле **Дата сторнирования** выберите дату для реверсирования амортизации.</span><span class="sxs-lookup"><span data-stu-id="7921d-165">In the **Date of storno** field, select a date for the depreciation reversal.</span></span>
-8. <span data-ttu-id="7921d-166">В поле **Учет** выберите модель стоимости ОС.</span><span class="sxs-lookup"><span data-stu-id="7921d-166">In the **Accounting** field, select a fixed asset value model.</span></span>
-9. <span data-ttu-id="7921d-167">На экспресс-вкладке **Включаемые записи** выберите **Фильтр**, чтобы открыть диалоговое окно **Активы**, затем задайте критерии, которые используются для выбора основных средств.</span><span class="sxs-lookup"><span data-stu-id="7921d-167">On the **Records to include** FastTab, select **Filter** to open the **Assets** dialog box, and then set the criteria that are used to select fixed assets.</span></span>
-10. <span data-ttu-id="7921d-168">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="7921d-168">Select **OK**.</span></span> <span data-ttu-id="7921d-169">В журнале будут созданы проводки реверсирования амортизации.</span><span class="sxs-lookup"><span data-stu-id="7921d-169">Depreciation reversal transactions are created in the journal.</span></span>
-11. <span data-ttu-id="7921d-170">Выберите пункт меню **Проверка** \> **Проверка**, чтобы проверить сведения транзакции.</span><span class="sxs-lookup"><span data-stu-id="7921d-170">Select **Validate** \> **Validate** to validate the transaction details.</span></span>
-12. <span data-ttu-id="7921d-171">Выберите **Разнести** \> **Разнести**, чтобы разнести журнал.</span><span class="sxs-lookup"><span data-stu-id="7921d-171">Select **Post** \> **Post** to post the journal.</span></span> <span data-ttu-id="7921d-172">Проводка амортизации ОС будет реверсирована, и будет соответственно обновлена проводка ГК.</span><span class="sxs-lookup"><span data-stu-id="7921d-172">The fixed asset depreciation transaction is reversed, and the ledger transaction is updated accordingly.</span></span>
-
-## <a name="additional-resources"></a><span data-ttu-id="7921d-173">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="7921d-173">Additional resources</span></span>
-
-- [<span data-ttu-id="7921d-174">Настройка амортизации (Россия)</span><span class="sxs-lookup"><span data-stu-id="7921d-174">Depreciation setup (Russia)</span></span>](rus-depreciation-setup.md)
-- [<span data-ttu-id="7921d-175">Методы амортизации (Россия)</span><span class="sxs-lookup"><span data-stu-id="7921d-175">Depreciation methods (Russia)</span></span>](rus-depreciation-methods.md)
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="rus-depreciation-calculation.md" target-language="ru-RU">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>rus-depreciation-calculation.d20afb.640795d5faccf737621d0d54b2d2f85860aea8da.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>640795d5faccf737621d0d54b2d2f85860aea8da</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\rus-depreciation-calculation.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Calculate depreciation for Russia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расчет амортизации для России</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains how to calculate depreciation for Russian fixed assets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этом разделе описывается расчет амортизации для основных средств в России.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Calculate depreciation (Russia)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расчет амортизации (Россия)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic explains how to calculate depreciation for Russian fixed assets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этом разделе описывается расчет амортизации для основных средств в России.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Calculate fixed asset depreciation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расчет амортизации для ОС</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Select <bpt id="p1">**</bpt>Fixed assets (Russia)<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Journals<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>FA journal<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Основные средства (Россия)<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Журналы<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Журнал ОС<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Select the <bpt id="p1">**</bpt>List<ept id="p1">**</ept> tab, and then select <bpt id="p2">**</bpt>New<ept id="p2">**</ept> to create a journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите вкладку <bpt id="p1">**</bpt>Список<ept id="p1">**</ept> и выберите <bpt id="p2">**</bpt>Создать<ept id="p2">**</ept>, чтобы создать журнал.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>In the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, select a journal name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Имя<ept id="p1">**</ept> выберите имя журнала.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>In the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field, you can change the description of the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Описание<ept id="p1">**</ept> можно изменить описание журнала.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Journal voucher<ept id="p2">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>, чтобы открыть страницу <bpt id="p2">**</bpt>Ваучер журнала<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Select the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> tab, select <bpt id="p2">**</bpt>New<ept id="p2">**</ept> to open the <bpt id="p3">**</bpt>Add to journal<ept id="p3">**</ept> dialog box, and create one depreciation transaction for one fixed asset.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите вкладку <bpt id="p1">**</bpt>Обзор<ept id="p1">**</ept>, выберите <bpt id="p2">**</bpt>Создать<ept id="p2">**</ept>, чтобы открыть диалоговое окно <bpt id="p3">**</bpt>Добавление в журнал<ept id="p3">**</ept> и создать одну проводку по амортизации для одного основного средства.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>To create depreciation transactions for several fixed assets, on the <bpt id="p1">**</bpt>Journal voucher<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Group operations<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Depreciation<ept id="p3">**</ept> to open the <bpt id="p4">**</bpt>Depreciation<ept id="p4">**</ept> dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Для создания проводок амортизации для нескольких основных средств на странице <bpt id="p1">**</bpt>Ваучер журнала<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Групповые операции<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Амортизация<ept id="p3">**</ept>, чтобы открыть диалоговое окно <bpt id="p4">**</bpt>Амортизация<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>On the <bpt id="p1">**</bpt>Records to include<ept id="p1">**</ept> FastTab, select <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept> to open the <bpt id="p3">**</bpt>Assets<ept id="p3">**</ept> dialog box, where you can set the criteria that are used to select fixed assets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Включаемые записи<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Фильтр<ept id="p2">**</ept>, чтобы открыть диалоговое окно <bpt id="p3">**</bpt>Активы<ept id="p3">**</ept>, в котором можно задать критерии, которые используются для выбора основных средств.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>In the <bpt id="p1">**</bpt>Transaction date<ept id="p1">**</ept> field, select the date of the next calculation period.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Дата проводки<ept id="p1">**</ept> выберите дату следующего периода расчета.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>If no depreciation was calculated for the previous periods, depreciation transactions are created in the journal for all months before the transaction date, except the month of the transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если амортизация не была вычислена за предыдущие периоды, проводки амортизации создаются в журнале для всех месяцев до даты проводки, исключая месяц проводки.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>In the <bpt id="p1">**</bpt>Transaction type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Depreciation<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Тип проводки<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Амортизация<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>In the <bpt id="p1">**</bpt>FA inventory number<ept id="p1">**</ept> field, select a fixed asset number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Инвентарный номер ОС<ept id="p1">**</ept> выберите номер основного средства.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>In the <bpt id="p1">**</bpt>Value model<ept id="p1">**</ept> field, select a fixed asset value model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Модель учета<ept id="p1">**</ept> выберите модель учета ОС.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>If you don't select a model, transactions for all value models are created in the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если не выбрать модель, проводки по всем моделям стоимости создаются в журнале.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>In the <bpt id="p1">**</bpt>Reason code<ept id="p1">**</ept> field, select a reason code.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Код основания<ept id="p1">**</ept> выберите код основания.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>In the <bpt id="p1">**</bpt>Reason comment<ept id="p1">**</ept> field, you can change the reason for the depreciation transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Комментарий к причине<ept id="p1">**</ept> можно изменить причину проводки амортизации.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Depreciation transactions are created in the journal for all value models that you set up on the <bpt id="p1">**</bpt>Value models<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проводки амортизации создаются в журнале для всех моделей стоимости, настроенных на странице <bpt id="p1">**</bpt>Модели стоимости<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Select <bpt id="p1">**</bpt>Validate<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Validate<ept id="p2">**</ept> to validate the transaction details.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите пункт меню <bpt id="p1">**</bpt>Проверка<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Проверка<ept id="p2">**</ept>, чтобы проверить сведения транзакции.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Select <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Post<ept id="p2">**</ept> to post the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Разнести<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Разнести<ept id="p2">**</ept>, чтобы разнести журнал.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Fixed asset and ledger transactions are created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создаются транзации основного средства и главной книги.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Calculate or reverse depreciation by using the tax non-linear group depreciation method</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расчет или реверсирование амортизации с использованием нелинейного метода налоговой групповой амортизации</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>You can calculate depreciation for tax accounting by using the linear depreciation method or the non-linear depreciation method.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Амортизацию для налогового учета можно рассчитывать с помощью линейного метода амортизации или нелинейного метода амортизации.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>You can also calculate tax depreciation by using the tax non-linear group depreciation method.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Также можно рассчитывать налоговую амортизацию с использованием налогового нелинейного метода амортизации групп.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>This method lets you calculate the depreciation amount that is accrued for each depreciation group or subgroup.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Этот метод позволяет рассчитать сумму амортизации, начисляемую для каждой группы или подгруппы амортизации.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>To use this method, you specify a depreciation rate for each group, or a depreciation factor for each subgroup.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Для использования этого метода необходимо указать ставку амортизации для каждой группы или коэффициент амортизации для каждой подгруппы.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>You can group the depreciation register lines by depreciation group or subgroup by using the <bpt id="p1">**</bpt>FA depreciation (nonlinear method)<ept id="p1">**</ept>, <bpt id="p2">**</bpt>IA depreciation (nonlinear method)<ept id="p2">**</ept>, <bpt id="p3">**</bpt>FA - information about object<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>IA - object information<ept id="p4">**</ept> tax registers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно группировать строки регистра амортизации по группам или подгруппам амортизации с помощью налоговых регистров <bpt id="p1">**</bpt>ОС - амортизация (нелинейный метод)<ept id="p1">**</ept>, <bpt id="p2">**</bpt>НМА - амортизация (нелинейный метод)<ept id="p2">**</ept>, <bpt id="p3">**</bpt>ОC - информация об объекте<ept id="p3">**</ept> и <bpt id="p4">**</bpt>НМА - информация об объекте<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Use the following procedures to set up a depreciation method, and to calculate or reverse depreciation by using the tax non-linear group method.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Используйте следующие процедуры для настройки метода амортизации и расчета или реверсирования амортизации с использованием налогового нелинейного метода амортизации групп.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Calculate fixed asset depreciation by using the tax non-linear group method</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вычисление амортизации основных средств с помощью налогового нелинейного метода амортизации групп</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Select <bpt id="p1">**</bpt>Fixed assets (Russia)<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Journals<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>FA journal<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Основные средства (Россия)<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Журналы<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Журнал ОС<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Select <bpt id="p1">**</bpt>New<ept id="p1">**</ept> to create a journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Создать<ept id="p1">**</ept>, чтобы создать журнал.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>In the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, select a journal name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Имя<ept id="p1">**</ept> выберите имя журнала.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field, change the description of the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Описание<ept id="p1">**</ept> измените описание журнала.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Journal voucher<ept id="p2">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>, чтобы открыть страницу <bpt id="p2">**</bpt>Ваучер журнала<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Select <bpt id="p1">**</bpt>Group operations<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Depreciation by group<ept id="p2">**</ept> to open the <bpt id="p3">**</bpt>Depreciation by group<ept id="p3">**</ept> dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Групповые операции<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Амортизация по группе<ept id="p2">**</ept>, чтобы открыть диалоговое окно <bpt id="p3">**</bpt>Амортизации по группе<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>If you select <bpt id="p1">**</bpt>Tax nonlinear group method<ept id="p1">**</ept> as the depreciation method, you can't calculate the depreciation for a tax value model by using the single or group depreciation operation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если выбрать в качестве метода амортизации <bpt id="p1">**</bpt>Налоговый нелинейный групповой метод<ept id="p1">**</ept>, рассчитывать амортизацию для налоговой модели стоимости с помощью одиночной или групповой функции амортизации будет невозможно.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>In the <bpt id="p1">**</bpt>Transaction date<ept id="p1">**</ept> field, select the date of the transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Дата транзакции<ept id="p1">**</ept> введите дату для транзакции.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>On the <bpt id="p1">**</bpt>Records to include<ept id="p1">**</ept> FastTab, select <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept> to open the <bpt id="p3">**</bpt>Assets<ept id="p3">**</ept> dialog box, and then set the criteria that are used to select fixed assets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Включаемые записи<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Фильтр<ept id="p2">**</ept>, чтобы открыть диалоговое окно <bpt id="p3">**</bpt>Активы<ept id="p3">**</ept>, затем задайте критерии, которые используются для выбора основных средств.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Depreciation transactions are created in the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В журнале будут созданы проводки амортизации.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Select <bpt id="p1">**</bpt>Validate<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Validate<ept id="p2">**</ept> to validate the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Проверить<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Проверить<ept id="p2">**</ept>, чтобы проверить журнал.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Select <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Post<ept id="p2">**</ept> to post the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Разнести<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Разнести<ept id="p2">**</ept>, чтобы разнести журнал.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Corresponding fixed asset and ledger transactions are created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Будут созданы соответствующие проводки основных средств и главной книги.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Calculating a depreciation bonus</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расчет премии амортизации</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>The depreciation bonus is an additional depreciation amount that is assessed during the first year for some operational asset types.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Премия амортизации — это дополнительная сумма амортизации, определяемая в течении первого года для некоторых типов производственных основных средств.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Before you can calculate the fixed asset depreciation bonus, you must set up a posting profile and create an acquisition journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перед расчетом премии амортизации основных средств необходимо настроить профиль разноски и создать журнал приобретения.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Use the <bpt id="p1">**</bpt>Depreciation bonus<ept id="p1">**</ept> page to calculate the depreciation bonus for fixed assets by using the tax non-linear group depreciation method.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Используйте страницу <bpt id="p1">**</bpt>Амортизационная премия<ept id="p1">**</ept> для расчета амортизационной премии для основных средств с помощью налогового нелинейного группового метода амортизации.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>When you create the depreciation transactions, a depreciation bonus is calculated for every asset.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">При создании проводки амортизации премия амортизации рассчитывается для каждого ОС.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>The bonus amount is calculated first, and then the depreciation from the cost is calculated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сначала рассчитывается сумма премии, а затем рассчитывается амортизация на основе стоимости.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>This depreciation excludes the bonus.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эта амортизация не включает премии.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>The bonus amount isn't included in the total balance of the depreciation group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сумма премии не включается в общее сальдо группы амортизации.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>For more information, see <bpt id="p1">[</bpt>Depreciation bonus (Russia)<ept id="p1">](rus-bonus-depreciation.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>Амортизационная премия (Россия)<ept id="p1">](rus-bonus-depreciation.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Reverse fixed asset depreciation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Реверсирование амортизации основных средств</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Select <bpt id="p1">**</bpt>Fixed assets (Russia)<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Journals<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>FA journal<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Основные средства (Россия)<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Журналы<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Журнал ОС<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Select the <bpt id="p1">**</bpt>List<ept id="p1">**</ept> tab, and then select <bpt id="p2">**</bpt>New<ept id="p2">**</ept> to create a journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите вкладку <bpt id="p1">**</bpt>Список<ept id="p1">**</ept> и выберите <bpt id="p2">**</bpt>Создать<ept id="p2">**</ept>, чтобы создать журнал.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>In the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, select a journal name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Имя<ept id="p1">**</ept> выберите имя журнала.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>In the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field, you can change the description of the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Описание<ept id="p1">**</ept> можно изменить описание журнала.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Journal voucher<ept id="p2">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>, чтобы открыть страницу <bpt id="p2">**</bpt>Ваучер журнала<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Select <bpt id="p1">**</bpt>Group operations<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Storno of depreciation<ept id="p2">**</ept> to open the <bpt id="p3">**</bpt>Storno of depreciation<ept id="p3">**</ept> dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Групповые операции<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Сторно амортизации<ept id="p2">**</ept>, чтобы открыть диалоговое окно <bpt id="p3">**</bpt>Сторно амортизации<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>In the <bpt id="p1">**</bpt>Date of storno<ept id="p1">**</ept> field, select a date for the depreciation reversal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Дата сторнирования<ept id="p1">**</ept> выберите дату для реверсирования амортизации.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>In the <bpt id="p1">**</bpt>Accounting<ept id="p1">**</ept> field, select a fixed asset value model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Учет<ept id="p1">**</ept> выберите модель стоимости ОС.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>On the <bpt id="p1">**</bpt>Records to include<ept id="p1">**</ept> FastTab, select <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept> to open the <bpt id="p3">**</bpt>Assets<ept id="p3">**</ept> dialog box, and then set the criteria that are used to select fixed assets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Включаемые записи<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Фильтр<ept id="p2">**</ept>, чтобы открыть диалоговое окно <bpt id="p3">**</bpt>Активы<ept id="p3">**</ept>, затем задайте критерии, которые используются для выбора основных средств.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Depreciation reversal transactions are created in the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В журнале будут созданы проводки реверсирования амортизации.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Select <bpt id="p1">**</bpt>Validate<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Validate<ept id="p2">**</ept> to validate the transaction details.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите пункт меню <bpt id="p1">**</bpt>Проверка<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Проверка<ept id="p2">**</ept>, чтобы проверить сведения транзакции.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Select <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Post<ept id="p2">**</ept> to post the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Разнести<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Разнести<ept id="p2">**</ept>, чтобы разнести журнал.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>The fixed asset depreciation transaction is reversed, and the ledger transaction is updated accordingly.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проводка амортизации ОС будет реверсирована, и будет соответственно обновлена проводка ГК.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Дополнительные ресурсы</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source><bpt id="p1">[</bpt>Depreciation setup (Russia)<ept id="p1">](rus-depreciation-setup.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка амортизации (Россия)<ept id="p1">](rus-depreciation-setup.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source><bpt id="p1">[</bpt>Depreciation methods (Russia)<ept id="p1">](rus-depreciation-methods.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Методы амортизации (Россия)<ept id="p1">](rus-depreciation-methods.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

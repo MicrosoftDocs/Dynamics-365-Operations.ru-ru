@@ -1,392 +1,1215 @@
----
-title: Продажи, покупки и переводы в иностранной валюте
-description: Этот раздел описывает функциональные возможности для регистрации проводок для продажи, покупки и перевода валюты.
-author: anasyash
-manager: AnnBe
-ms.date: 02/20/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Russia
-ms.author: anasyash
-ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 440dad2f869490429a11cf02d8effa48a87a4ac4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538360"
----
-# <a name="foreign-currency-sales-purchases-and-transfers"></a><span data-ttu-id="e7184-103">Продажи, покупки и переводы в иностранной валюте</span><span class="sxs-lookup"><span data-stu-id="e7184-103">Foreign currency sales, purchases, and transfers</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="e7184-104">Microsoft Dynamics 365 for Finance and Operations позволяет выполнять следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="e7184-104">Microsoft Dynamics 365 for Finance and Operations lets you perform the following tasks:</span></span>
-
-- <span data-ttu-id="e7184-105">Регистрировать проводки для продажи, покупки или перевода иностранной валюты, которые выполняются с помощью счета учета **Переводы в пути**.</span><span class="sxs-lookup"><span data-stu-id="e7184-105">Register transactions for a sale, purchase, or transfer of foreign currency that is done by using the **Money transfers in transit** ledger account.</span></span>
-- <span data-ttu-id="e7184-106">Автоматически рассчитывать суммы прибыли и убытков, вызванных конвертацией иностранной валюты, для продаж и покупок иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-106">Automatically calculate the profit/loss amounts that are caused by the foreign currency conversion for a sale or purchase of foreign currency.</span></span> <span data-ttu-id="e7184-107">(В расчете учитывается валютный курс иностранной валюты центрального банка и валютный курс банка юридического лица на дату перевода иностранной валюты.) Также автоматически создаются проводки для прибылей/убытков от конвертации иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-107">(The calculation considers the foreign currency exchange rate of the Central Bank and the exchange rate of the legal entity's bank on the date of the foreign currency transfer.) Also automatically generate transactions for profit/loss from the foreign currency conversion.</span></span>
-- <span data-ttu-id="e7184-108">Автоматическое создание проводок для нереализованной курсовой разницы, возникающей, когда валютные курсы в иностранной валюте на даты проводок отличаются.</span><span class="sxs-lookup"><span data-stu-id="e7184-108">Automatically generate transactions for the unrealized exchange rate difference that is caused when the exchange rates on the foreign currency transaction dates differ.</span></span>
-- <span data-ttu-id="e7184-109">Печать заказа на перемещение иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-109">Print a foreign currency transfer order.</span></span>
-
-
-## <a name="set-up-the-sale-purchase-and-transfer-of-foreign-currency"></a><span data-ttu-id="e7184-110">Настройка продажи, покупки и перевода иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-110">Set up the sale, purchase and transfer of foreign currency</span></span>
-
-<span data-ttu-id="e7184-111">Ниже приведен обзор задач, которые необходимо выполнить для настройки системы для расчета курсовой разницы и прибыли/убытков на счете **Промежуточный счет предъявления к оплате**:</span><span class="sxs-lookup"><span data-stu-id="e7184-111">Here is an overview of the tasks that you must complete to set up the system to calculate the exchange adjustment and the profit/loss on the **Remittance en route** account:</span></span>
-
-- [<span data-ttu-id="e7184-112">Настройка валютного курса</span><span class="sxs-lookup"><span data-stu-id="e7184-112">Set up an exchange rate</span></span>](#set-up-an-exchange-rate)
-- [<span data-ttu-id="e7184-113">Настройка банка для использования проводок конвертации иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-113">Set up a bank to use for foreign currency conversion transactions</span></span>](#set-up-a-bank-to-use-for-foreign-currency-conversion-transactions)
-- [<span data-ttu-id="e7184-114">Настройка типа банковских проводок</span><span class="sxs-lookup"><span data-stu-id="e7184-114">Set up a bank transaction type</span></span>](#set-up-a-bank-transaction-type)
-- [<span data-ttu-id="e7184-115">Настройка способа оплаты</span><span class="sxs-lookup"><span data-stu-id="e7184-115">Set up a method of payment</span></span>](#set-up-a-method-of-payment)
-- [<span data-ttu-id="e7184-116">Настройка номерной серии</span><span class="sxs-lookup"><span data-stu-id="e7184-116">Set up a number sequence</span></span>](#set-up-a-number-sequence)
-- [<span data-ttu-id="e7184-117">Настройка банковского счета</span><span class="sxs-lookup"><span data-stu-id="e7184-117">Set up a bank account</span></span>](#set-up-a-bank-account)
-
-### <a name="set-up-an-exchange-rate"></a><span data-ttu-id="e7184-118">Настройка валютного курса</span><span class="sxs-lookup"><span data-stu-id="e7184-118">Set up an exchange rate</span></span>
-
-<span data-ttu-id="e7184-119">Страница **Счета валютной переоценки** используется для расчета сумм прибыли или убытка для конвертации иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-119">Use the **Currency revaluation accounts** page to set up the calculation of profit/loss amounts for foreign currency conversion.</span></span>
-
-1. <span data-ttu-id="e7184-120">Откройте **Главная книга \> Валюты \> Параметры валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-120">Go to **General ledger \> Currencies \> Currency parameters**.</span></span>
-2. <span data-ttu-id="e7184-121">В поле **Юридические лица** выберите компанию.</span><span class="sxs-lookup"><span data-stu-id="e7184-121">In the **Legal entities** field, select a company.</span></span>
-3. <span data-ttu-id="e7184-122">На экспресс-вкладке **Покупки/Поставщики** определяет следующие счета учета для конвертации валюты: **Конвертация - прибыль** и **Конвертация - убытки**.</span><span class="sxs-lookup"><span data-stu-id="e7184-122">On the **Purchases/Vendors** FastTab, define the following ledger accounts for currency conversion: **Conversion gain** and **Conversion loss**.</span></span>
-4. <span data-ttu-id="e7184-123">Определите следующие коды выручки и дохода для конвертации иностранной валюты: **Код дохода (конвертация валюты)** и **Код расхода (конвертация валюты)**.</span><span class="sxs-lookup"><span data-stu-id="e7184-123">Define the following revenue and income codes for foreign currency conversion: **Revenue code (currency conversion)** and **Expense code (currency conversion)**.</span></span>
-
-### <a name="set-up-a-bank-to-use-for-foreign-currency-conversion-transactions"></a><span data-ttu-id="e7184-124">Настройка банка для использования проводок конвертации иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-124">Set up a bank to use for foreign currency conversion transactions</span></span>
-
-<span data-ttu-id="e7184-125">Используйте страницу **Банки**, чтобы связать счет поставщика с банком, который должен использоваться для проводок продажи или покупки в иностранной валюте.</span><span class="sxs-lookup"><span data-stu-id="e7184-125">Use the **Banks** page to associate a vendor account with the bank that should be used for foreign currency sale or purchase transactions.</span></span>
-
-1. <span data-ttu-id="e7184-126">Перейдите в раздел **Управление банком и кассовыми операциями \> Настройка \> Банковские группы**.</span><span class="sxs-lookup"><span data-stu-id="e7184-126">Go to **Cash and bank management \> Setup \> Bank groups**.</span></span>
-2. <span data-ttu-id="e7184-127">Создайте банк или выберите существующий банк.</span><span class="sxs-lookup"><span data-stu-id="e7184-127">Create a bank, or select an existing bank.</span></span>
-3. <span data-ttu-id="e7184-128">На экспресс-вкладке **Общее** в поле **Счет поставщика** выберите счет поставщика.</span><span class="sxs-lookup"><span data-stu-id="e7184-128">On the **General** FastTab, in the **Vendor account** field, select the vendor account.</span></span>
-
-<span data-ttu-id="e7184-129">При связывании счета поставщика с банком становится доступна кнопка **Проводки** на панели действий.</span><span class="sxs-lookup"><span data-stu-id="e7184-129">When you associate a vendor account with a bank, the **Transactions** button on the Action Pane becomes available.</span></span> <span data-ttu-id="e7184-130">Параметры **Сопоставление открытых проводок** и **Редактирование сопоставленных проводок** на кнопке меню **Функции** также станут доступны.</span><span class="sxs-lookup"><span data-stu-id="e7184-130">The **Settle open transactions** and **Closed transaction editing** options on the **Functions** menu button also become available.</span></span>
-
-### <a name="set-up-a-bank-transaction-type"></a><span data-ttu-id="e7184-131">Настройка типа банковских проводок</span><span class="sxs-lookup"><span data-stu-id="e7184-131">Set up a bank transaction type</span></span>
-
-<span data-ttu-id="e7184-132">Страница **Типы банковских проводок** служит для настройки типа банковской проводки для проводок продажи, покупки и перевода иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-132">Use the **Bank transaction types** page to set up a bank transaction type for foreign currency sale, purchase, and transfer transactions.</span></span>
-
-1. <span data-ttu-id="e7184-133">Перейдите в раздел **Управление банком и кассовыми операциями \> Настройка \> Типы банковских проводок**.</span><span class="sxs-lookup"><span data-stu-id="e7184-133">Go to **Cash and bank management \> Setup \> Bank transaction types**.</span></span>
-2. <span data-ttu-id="e7184-134">Создайте тип банковской проводки.</span><span class="sxs-lookup"><span data-stu-id="e7184-134">Create a bank transaction type.</span></span>
-3. <span data-ttu-id="e7184-135">В поле **Расширенный тип проводки** выберите один из следующих типов перевода иностранной валюты: **Продажа валюты**, **Покупка валюты** или **Перевод валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-135">In the **Transaction extended type** field, select one of the following foreign currency transfer types: **Currency sale**, **Currency purchase**, or **Currency transfer**.</span></span>
-4. <span data-ttu-id="e7184-136">В поле **Профиль разноски по поставщику** выберите профиль разноски по поставщику, который должен использоваться для разноски на счет учета **Переводы в пути**.</span><span class="sxs-lookup"><span data-stu-id="e7184-136">In the **Vendor posting profile** field, select the vendor posting profile that should be used to post to the **Money transfers in transit** ledger account.</span></span>
-
-### <a name="set-up-a-method-of-payment"></a><span data-ttu-id="e7184-137">Настройка способа оплаты</span><span class="sxs-lookup"><span data-stu-id="e7184-137">Set up a method of payment</span></span>
-
-<span data-ttu-id="e7184-138">Используйте страницу **Способы оплаты**, чтобы настроить способ оплаты для продажи, покупки или перевода иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-138">Use the **Methods of payment** page to set up a method of payment for the sale, purchase, or transfer of foreign currency.</span></span>
-
-1. <span data-ttu-id="e7184-139">Перейдите в раздел **Расчеты с поставщиками \> Настройка платежей \> Способы оплаты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-139">Go to **Accounts payable \> Payment setup \> Methods of payment**.</span></span>
-2. <span data-ttu-id="e7184-140">Создайте способ оплаты.</span><span class="sxs-lookup"><span data-stu-id="e7184-140">Create a method of payment.</span></span>
-3. <span data-ttu-id="e7184-141">На экспресс-вкладке **Общее** в поле **Тип счета** выберите **Банк**.</span><span class="sxs-lookup"><span data-stu-id="e7184-141">On the **General** FastTab, in the **Account type** field, select **Bank**.</span></span>
-4. <span data-ttu-id="e7184-142">В поле **Счет оплаты** выберите банковский счет, с которого переводится иностранная валюта для данного метода оплаты.</span><span class="sxs-lookup"><span data-stu-id="e7184-142">In the **Payment account** field, select the bank account to transfer foreign currency from for this method of payment.</span></span>
-5. <span data-ttu-id="e7184-143">В поле **Тип банковской проводки** выберите тип банковской проводки для продажи, покупки или перевода иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-143">In the **Bank transaction type** field, select the bank transaction type for the sale, purchase, or transfer of foreign currency.</span></span>
-6. <span data-ttu-id="e7184-144">На экспресс-вкладке **Форматы файлов** в поле **Формат экспорта** выберите **Поручение на конвертацию/перевод валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-144">On the **File formats** FastTab, in the **Export format** field, select **Currency transfer order**.</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="e7184-145">Если параметр **Поручение на конвертацию/перевод валюты** недоступен, выберите **Настройка**, чтобы открыть страницу **Форматы файлов для способов оплаты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-145">If the **Currency transfer order** option isn't available, select **Setup** to open the **File formats for methods of payment** page.</span></span> <span data-ttu-id="e7184-146">На вкладке **Экспорт** в списке **Доступно** выберите **Поручение на конвертацию/перевод валюты**, затем выберите кнопку со стрелкой вправо, чтобы добавить формат в список **Выбранные**.</span><span class="sxs-lookup"><span data-stu-id="e7184-146">On the **Export** tab, in the **Available** list, select **Currency transfer order**, and then select the right arrow button to add the format to the **Selected** list.</span></span>
-
-### <a name="set-up-a-bank-account"></a><span data-ttu-id="e7184-147">Настройка банковского счета</span><span class="sxs-lookup"><span data-stu-id="e7184-147">Set up a bank account</span></span>
-
-<span data-ttu-id="e7184-148">Используйте страницу **Банковские счета** для настройки конкретных сведений для продажи или покупки иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-148">Use the **Bank accounts** page to set up specific information for the sale or purchase of foreign currency.</span></span>
-
-1. <span data-ttu-id="e7184-149">Перейдите в раздел **Управление банком и кассовыми операциями \> Банковские счета \> Банковские счета**.</span><span class="sxs-lookup"><span data-stu-id="e7184-149">Go to **Cash and bank management \> Bank accounts \> Bank accounts**.</span></span>
-2. <span data-ttu-id="e7184-150">Создайте банковский счет или выберите существующий.</span><span class="sxs-lookup"><span data-stu-id="e7184-150">Create a bank account, or select an existing bank account.</span></span>
-3. <span data-ttu-id="e7184-151">На экспресс-вкладке **Управление платежами** в полях **Шаблон поручения (продажа валюты)** и **Шаблон поручения (покупка валюты)** выберите шаблон Microsoft Word.</span><span class="sxs-lookup"><span data-stu-id="e7184-151">On the **Payment management** FastTab, in the **Order template (currency sale)** and **Order template (currency purchase)** fields, select the Microsoft Word template.</span></span>
-
-<span data-ttu-id="e7184-152">Дополнительные сведения см. в разделе [Настройка банковских счетов (Россия)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-local-settings-requisites-bank-module).</span><span class="sxs-lookup"><span data-stu-id="e7184-152">For more information, see [Set up Bank accounts (Russia)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-local-settings-requisites-bank-module).</span></span>
-
-### <a name="set-up-a-number-sequence"></a><span data-ttu-id="e7184-153">Настройка номерной серии</span><span class="sxs-lookup"><span data-stu-id="e7184-153">Set up a number sequence</span></span>
-
-<span data-ttu-id="e7184-154">Используйте страницу **Параметры управления банком и кассовыми операциями**, чтобы назначить номерную серию для проводок в иностранной валюте.</span><span class="sxs-lookup"><span data-stu-id="e7184-154">Use the **Cash and bank management parameters** page to assign a number sequence for foreign currency transactions.</span></span>
-
-1. <span data-ttu-id="e7184-155">Перейдите в раздел **Управление банком и кассовыми операциями \> Настройка \> Параметры управления банком и кассовыми операциями**.</span><span class="sxs-lookup"><span data-stu-id="e7184-155">Go to **Cash and bank management \> Setup \> Cash and bank management parameters**.</span></span>
-2. <span data-ttu-id="e7184-156">На вкладке **Номерные серии** в поле **Код номерной серии** выберите номерную серию для ссылки **Поручение на конвертацию/перевод валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-156">On the **Number sequences** tab, in the **Number sequence code** field for the **Currency transfer order** reference, select a number sequence.</span></span>
-
-## <a name="foreign-currency-sales"></a><span data-ttu-id="e7184-157">Продажи иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-157">Foreign currency sales</span></span>
-
-### <a name="create-a-foreign-currency-sale-transaction"></a><span data-ttu-id="e7184-158">Создание проводки продажи иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-158">Create a foreign currency sale transaction</span></span>
-
-1. <span data-ttu-id="e7184-159">Перейдите в раздел **Расчеты с поставщиками \> Платежи \> Журнал платежей**.</span><span class="sxs-lookup"><span data-stu-id="e7184-159">Go to **Accounts payable \> Payments \> Payment journal**.</span></span>
-2. <span data-ttu-id="e7184-160">Создайте журнал платежей.</span><span class="sxs-lookup"><span data-stu-id="e7184-160">Create a payment journal.</span></span>
-3. <span data-ttu-id="e7184-161">Выберите **Строки** и создайте строку журнала.</span><span class="sxs-lookup"><span data-stu-id="e7184-161">Select **Lines**, and create a journal line.</span></span>
-4. <span data-ttu-id="e7184-162">На вкладке **Список** в поле **Счет** выберите счет поставщика, связанный с банковским счетом, который используется для проводок конвертации иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-162">On the **List** tab, in the **Account** field, select the vendor account that is associated with the bank account that is used for foreign currency conversion transactions.</span></span>
-5. <span data-ttu-id="e7184-163">В поле **Дебет** введите сумму проводки в иностранной валюте, которую необходимо продать.</span><span class="sxs-lookup"><span data-stu-id="e7184-163">In the **Debit** field, enter the transaction amount in the foreign currency that must be sold.</span></span>
-6. <span data-ttu-id="e7184-164">В поле **Валюта** введите код иностранной валюты, на продажу которой дается поручение.</span><span class="sxs-lookup"><span data-stu-id="e7184-164">In the **Currency** field, enter the code for the foreign currency that is ordered to be sold.</span></span>
-7. <span data-ttu-id="e7184-165">В поле **Тип корр. счета** выберите **Банк**.</span><span class="sxs-lookup"><span data-stu-id="e7184-165">In the **Offset account type** field, select **Bank**.</span></span>
-8. <span data-ttu-id="e7184-166">В поле **Корр. счет** выберите банковский счет.</span><span class="sxs-lookup"><span data-stu-id="e7184-166">In the **Offset account** field, select the bank account.</span></span>
-9. <span data-ttu-id="e7184-167">В поле **Способ оплаты** выберите способ оплаты, созданный ранее для продажи иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-167">In the **Method of payment** field, select the method of payment that you created earlier for the sale of foreign currency.</span></span>
-10. <span data-ttu-id="e7184-168">На вкладке **Банк** в поле **Тип банковской проводки** проверьте значение, которое заполняется автоматически на основе метода оплаты, или выберите тип проводки для проводки продажи иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-168">On the **Bank** tab, in the **Bank transaction type** field, validate the value that is automatically filled in based on the method of payment, or select the transaction type for the foreign currency sale transaction.</span></span>
-11. <span data-ttu-id="e7184-169">На вкладке **Платеж** в поле **Профиль разноски** убедитесь, что значение равно профилю, который используется для разноски на счет учета **Переводы в пути**.</span><span class="sxs-lookup"><span data-stu-id="e7184-169">On the **Payment** tab, in the **Posting profile** field, verify that the value equals the profile that is used to post to the **Money transfers in transit** ledger account.</span></span>
-12. <span data-ttu-id="e7184-170">Выберите **Создать платежи**.</span><span class="sxs-lookup"><span data-stu-id="e7184-170">Select **Generate payments**.</span></span>
-13. <span data-ttu-id="e7184-171">В диалоговом окне **Создание платежей** выберите параметр **Формат экспорта**, затем в поле **Формат экспорта** выберите **Поручение на конвертацию/перевод валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-171">In the **Generate payments** dialog box, select the **Export format** option, and then, in the **Export format** field, select **Currency transfer order**.</span></span> <span data-ttu-id="e7184-172">Можно также выбрать параметр **Способ оплаты**, затем в поле **Способ оплаты** выбрать метод оплаты для продажи иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-172">Alternatively, select the **Method of payment** option, and then, in the **Method of payment** field, select the method of payment for the foreign currency sale.</span></span>
-14. <span data-ttu-id="e7184-173">В поле **Банковский счет** выберите банковский счет для платежа.</span><span class="sxs-lookup"><span data-stu-id="e7184-173">In the **Bank account** field, select the bank account for the payment.</span></span>
-15. <span data-ttu-id="e7184-174">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="e7184-174">Select **OK**.</span></span>
-16. <span data-ttu-id="e7184-175">В диалоговом окне **Параметры платежа** введите требуемую информацию.</span><span class="sxs-lookup"><span data-stu-id="e7184-175">In the **Bank currency transfer** dialog box, enter the required information.</span></span>
-
-    | <span data-ttu-id="e7184-176">Поле</span><span class="sxs-lookup"><span data-stu-id="e7184-176">Field</span></span>              | <span data-ttu-id="e7184-177">Описание</span><span class="sxs-lookup"><span data-stu-id="e7184-177">Description</span></span> |
-    |--------------------|-------------|
-    | <span data-ttu-id="e7184-178">Рабочий</span><span class="sxs-lookup"><span data-stu-id="e7184-178">Worker</span></span>             | <span data-ttu-id="e7184-179">Выберите работника, ответственного за продажу иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-179">Select the worker who is responsible for the foreign currency sale.</span></span> |
-    | <span data-ttu-id="e7184-180">Транзитный счет</span><span class="sxs-lookup"><span data-stu-id="e7184-180">Transit account</span></span>    | <span data-ttu-id="e7184-181">Выберите банковский счет, на который должны поступить рубли за проданную иностранную валюту (результат конвертирования иностранной валюты).</span><span class="sxs-lookup"><span data-stu-id="e7184-181">Select the bank account where rubles should be received for the foreign currency that is sold (the result of the foreign currency conversion).</span></span> <span data-ttu-id="e7184-182">Шаблон, который будет использоваться для печати поручения на продажу иностранной валюты, берется из данного банковского счета.</span><span class="sxs-lookup"><span data-stu-id="e7184-182">The template that will be used to print a foreign currency sales order is taken from this bank account.</span></span> |
-    | <span data-ttu-id="e7184-183">Валютное</span><span class="sxs-lookup"><span data-stu-id="e7184-183">Currency</span></span>           | <span data-ttu-id="e7184-184">Выберите код валюты, которая должна быть получена на транзитный банковский счет после продажи иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-184">Select the currency code that should be received in the transit bank account after the foreign currency sale.</span></span> |
-    | <span data-ttu-id="e7184-185">Обменный курс банка</span><span class="sxs-lookup"><span data-stu-id="e7184-185">Bank exchange rate</span></span> | <span data-ttu-id="e7184-186">Определите валютный курс иностранной валюты для конвертации иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-186">Identify the foreign currency exchange rate for the foreign currency conversion.</span></span> <span data-ttu-id="e7184-187">Эта информация печатается в поручении на продажу иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-187">This information will be printed on the foreign currency sale order.</span></span> |
-    | <span data-ttu-id="e7184-188">Счет поставщика</span><span class="sxs-lookup"><span data-stu-id="e7184-188">Supplier account</span></span>   | <span data-ttu-id="e7184-189">Выберите сведения о контракте в иностранной валюте, который является основанием для проводки продажи иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-189">Select information about the contract in foreign currency that is the basis for the foreign currency sale transaction.</span></span> |
-    | <span data-ttu-id="e7184-190">Договор покупки</span><span class="sxs-lookup"><span data-stu-id="e7184-190">Purchase agreement</span></span> | <span data-ttu-id="e7184-191">Выберите сведения о контракте в иностранной валюте, который является основанием для проводки продажи иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-191">Select information about the contract in foreign currency that is the basis for the foreign currency sale transaction.</span></span> |
-    | <span data-ttu-id="e7184-192">Печатать документ</span><span class="sxs-lookup"><span data-stu-id="e7184-192">Print Document</span></span>     | <span data-ttu-id="e7184-193">Задайте для этого параметра значение "Да", чтобы печатать поручение на продажу иностранной валюты при создании платежей.</span><span class="sxs-lookup"><span data-stu-id="e7184-193">Set the option to "Yes" to print a foreign currency sale order when payments are generated.</span></span> |
-
-
-
-17. <span data-ttu-id="e7184-194">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="e7184-194">Select **OK**.</span></span>
-
-    <span data-ttu-id="e7184-195">В строке журнала платежей значение поля **Статус платежа** обновляется до **Отправлено**.</span><span class="sxs-lookup"><span data-stu-id="e7184-195">On the payment journal line, the value of the **Payment status** field is updated to **Sent**.</span></span>
-
-    <span data-ttu-id="e7184-196">На вкладке **Платеж** обновляются поля **Транзитный счет**, **Иностранный контрагент**, **Группа договоров** и **Контракт по сделке**.</span><span class="sxs-lookup"><span data-stu-id="e7184-196">On the **Payment** tab, the fields **Transit account**, **Foreign counteragent**, **Contracts group**, and **Contract of the deal** are updated.</span></span>
-
-18. <span data-ttu-id="e7184-197">Выберите **Печать \> Поручения на продажу валюты** для печати поручения на продажу иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-197">Select **Print \> Currency sale order** to print the foreign currency sales order.</span></span> <span data-ttu-id="e7184-198">В отчете содержится следующая информация:</span><span class="sxs-lookup"><span data-stu-id="e7184-198">The report contains the following information:</span></span>
-19. <span data-ttu-id="e7184-199">Проверьте и разнесите журнал.</span><span class="sxs-lookup"><span data-stu-id="e7184-199">Validate and post the journal.</span></span>
-
-### <a name="create-transactions-for-the-bank-commission-and-the-local-currency-rubles-amount-that-is-received-as-a-result-of-the-foreign-currency-sale"></a><span data-ttu-id="e7184-200">Создание проводок по комиссии банка и суммы в основной валюте (в рублях), полученной в результате продажи иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-200">Create transactions for the bank commission and the local currency (rubles) amount that is received as a result of the foreign currency sale</span></span>
-
-<span data-ttu-id="e7184-201">После учета платежного поручения для продажи иностранной валюты можно зарегистрировать комиссию банка и в местную валюту, полученную в результате конвертации иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-201">After you post the payment order for a foreign currency sale, you can register the bank commission and the local currency that is received as a result of the foreign currency conversion.</span></span> <span data-ttu-id="e7184-202">(В данном случае получаются российские рубли.)</span><span class="sxs-lookup"><span data-stu-id="e7184-202">(In this case, Russian rubles are received.)</span></span>
-
-1. <span data-ttu-id="e7184-203">Перейдите в раздел **Расчеты с поставщиками \> Платежи \> Журнал платежей**.</span><span class="sxs-lookup"><span data-stu-id="e7184-203">Go to **Accounts payable \> Payments \> Payment journal**.</span></span>
-2. <span data-ttu-id="e7184-204">Создайте журнал платежей.</span><span class="sxs-lookup"><span data-stu-id="e7184-204">Create a payment journal.</span></span>
-3. <span data-ttu-id="e7184-205">Выберите **Строки**, создайте строку журнала для списания комиссии банка и введите следующие сведения.</span><span class="sxs-lookup"><span data-stu-id="e7184-205">Select **Lines**, create a journal line for the bank commission withdrawal, and enter the following information.</span></span>
-
-    | <span data-ttu-id="e7184-206">Вкладка</span><span class="sxs-lookup"><span data-stu-id="e7184-206">Tab</span></span>     | <span data-ttu-id="e7184-207">Поле</span><span class="sxs-lookup"><span data-stu-id="e7184-207">Field</span></span>                 | <span data-ttu-id="e7184-208">Описание</span><span class="sxs-lookup"><span data-stu-id="e7184-208">Description</span></span> |
-    |---------|-----------------------|-------------|
-    | <span data-ttu-id="e7184-209">Список</span><span class="sxs-lookup"><span data-stu-id="e7184-209">List</span></span>    | <span data-ttu-id="e7184-210">Счет</span><span class="sxs-lookup"><span data-stu-id="e7184-210">Account</span></span>               | <span data-ttu-id="e7184-211">Выберите счет поставщика, который был использован при проводке по продаже иностранной валюты в предыдущей процедуре.</span><span class="sxs-lookup"><span data-stu-id="e7184-211">Select the vendor account that you used for the foreign currency sale transaction in the previous procedure.</span></span> |
-    |         | <span data-ttu-id="e7184-212">по кредиту</span><span class="sxs-lookup"><span data-stu-id="e7184-212">Credit</span></span>                | <span data-ttu-id="e7184-213">Введите сумму комиссии банка.</span><span class="sxs-lookup"><span data-stu-id="e7184-213">Enter the amount of the bank commission.</span></span> |
-    |         | <span data-ttu-id="e7184-214">Валютное</span><span class="sxs-lookup"><span data-stu-id="e7184-214">Currency</span></span>              | <span data-ttu-id="e7184-215">Выберите валюту комиссии банка.</span><span class="sxs-lookup"><span data-stu-id="e7184-215">Select the currency of the bank commission.</span></span> |
-    |         | <span data-ttu-id="e7184-216">Тип корр. счета</span><span class="sxs-lookup"><span data-stu-id="e7184-216">Offset account type</span></span>   | <span data-ttu-id="e7184-217">Выберите **Главная книга**.</span><span class="sxs-lookup"><span data-stu-id="e7184-217">Select **Ledger**.</span></span> |
-    |         | <span data-ttu-id="e7184-218">Корр. счет</span><span class="sxs-lookup"><span data-stu-id="e7184-218">Offset account</span></span>        | <span data-ttu-id="e7184-219">Выберите счет ГК для убытков от банковской комиссии.</span><span class="sxs-lookup"><span data-stu-id="e7184-219">Select the ledger account for bank commission losses.</span></span> |
-    | <span data-ttu-id="e7184-220">Банк</span><span class="sxs-lookup"><span data-stu-id="e7184-220">Bank</span></span>    | <span data-ttu-id="e7184-221">Тип банковской проводки</span><span class="sxs-lookup"><span data-stu-id="e7184-221">Bank transaction type</span></span> | <span data-ttu-id="e7184-222">Выберите тип проводки, который имеет расширенный тип **Продажа валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-222">Select the transaction type that has the **Currency sale** extended type.</span></span> |
-    | <span data-ttu-id="e7184-223">Платеж</span><span class="sxs-lookup"><span data-stu-id="e7184-223">Payment</span></span> | <span data-ttu-id="e7184-224">Профиль разноски</span><span class="sxs-lookup"><span data-stu-id="e7184-224">Posting profile</span></span>       | <span data-ttu-id="e7184-225">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК **Переводы в пути**.</span><span class="sxs-lookup"><span data-stu-id="e7184-225">Verify that the value equals the profile that is used to post to the **Money transfers in transit** ledger account.</span></span> |
-
-4. <span data-ttu-id="e7184-226">Создайте строку журнала для полученной местной валюты и введите следующие сведения.</span><span class="sxs-lookup"><span data-stu-id="e7184-226">Create a journal line for the received local currency, and enter the following information.</span></span>
-
-    | <span data-ttu-id="e7184-227">Вкладка</span><span class="sxs-lookup"><span data-stu-id="e7184-227">Tab</span></span>     | <span data-ttu-id="e7184-228">Поле</span><span class="sxs-lookup"><span data-stu-id="e7184-228">Field</span></span>                                              | <span data-ttu-id="e7184-229">Описание</span><span class="sxs-lookup"><span data-stu-id="e7184-229">Description</span></span> |
-    |---------|----------------------------------------------------|-------------|
-    | <span data-ttu-id="e7184-230">Список</span><span class="sxs-lookup"><span data-stu-id="e7184-230">List</span></span>    | <span data-ttu-id="e7184-231">Счет</span><span class="sxs-lookup"><span data-stu-id="e7184-231">Account</span></span>                                            | <span data-ttu-id="e7184-232">Выберите счет поставщика, который был использован при проводке по продаже иностранной валюты в предыдущей процедуре.</span><span class="sxs-lookup"><span data-stu-id="e7184-232">Select the vendor account that you used for the foreign currency sale transaction in the previous procedure.</span></span> |
-    |         | <span data-ttu-id="e7184-233">по кредиту</span><span class="sxs-lookup"><span data-stu-id="e7184-233">Credit</span></span>                                             | <span data-ttu-id="e7184-234">Введите сумму валюты учета (в рублях), которая была получена.</span><span class="sxs-lookup"><span data-stu-id="e7184-234">Enter the amount of accounting currency (rubles) that is received.</span></span> |
-    |         | <span data-ttu-id="e7184-235">Валютное</span><span class="sxs-lookup"><span data-stu-id="e7184-235">Currency</span></span>                                           | <span data-ttu-id="e7184-236">Выберите валюту учета, которая является валютой, полученной в результате продажи иностранной валюты (рубли).</span><span class="sxs-lookup"><span data-stu-id="e7184-236">Select the accounting currency, which is the currency that is received as a result of the foreign currency sale (rubles).</span></span> |
-    |         | <span data-ttu-id="e7184-237">Тип корр. счета</span><span class="sxs-lookup"><span data-stu-id="e7184-237">Offset account type</span></span>                                | <span data-ttu-id="e7184-238">Выберите **Банк**.</span><span class="sxs-lookup"><span data-stu-id="e7184-238">Select **Bank**.</span></span> |
-    |         | <span data-ttu-id="e7184-239">Корр. счет</span><span class="sxs-lookup"><span data-stu-id="e7184-239">Offset account</span></span>                                     | <span data-ttu-id="e7184-240">Выберите банковский счет, на который получена валюта учета.</span><span class="sxs-lookup"><span data-stu-id="e7184-240">Select the bank account where the accounting currency is received.</span></span> |
-    | <span data-ttu-id="e7184-241">Банк</span><span class="sxs-lookup"><span data-stu-id="e7184-241">Bank</span></span>    | <span data-ttu-id="e7184-242">Тип банковской проводки</span><span class="sxs-lookup"><span data-stu-id="e7184-242">Bank transaction type</span></span>                              | <span data-ttu-id="e7184-243">Выберите тип проводки, который имеет расширенный тип **Продажа валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-243">Select the transaction type that has the **Currency sale** extended type.</span></span> |
-    | <span data-ttu-id="e7184-244">Платеж</span><span class="sxs-lookup"><span data-stu-id="e7184-244">Payment</span></span> | <span data-ttu-id="e7184-245">Валюта (в пункте **Конвертация валюты**)</span><span class="sxs-lookup"><span data-stu-id="e7184-245">Currency (under **Currency conversion**)</span></span>           | <span data-ttu-id="e7184-246">Выберите иностранную валюту, которая была продана.</span><span class="sxs-lookup"><span data-stu-id="e7184-246">Select the foreign currency that was sold.</span></span> <span data-ttu-id="e7184-247">Этот код иностранной валюты должен отличаться от валюты учета.</span><span class="sxs-lookup"><span data-stu-id="e7184-247">This foreign currency code must differ from the accounting currency.</span></span> |
-    |         | <span data-ttu-id="e7184-248">Обменный курс банка (в пункте **Конвертация валюты**)</span><span class="sxs-lookup"><span data-stu-id="e7184-248">Bank exchange rate (under **Currency conversion**)</span></span> | <span data-ttu-id="e7184-249">Введите валютный курс банка, который применялся при продаже иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-249">Enter the bank exchange rate that was applied to the foreign currency sale.</span></span> |
-    |         | <span data-ttu-id="e7184-250">Профиль разноски</span><span class="sxs-lookup"><span data-stu-id="e7184-250">Posting profile</span></span>                                    | <span data-ttu-id="e7184-251">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК **Переводы в пути**.</span><span class="sxs-lookup"><span data-stu-id="e7184-251">Verify that the value equals the profile that is used to post to the **Money transfers in transit** ledger account.</span></span> |
-
-5. <span data-ttu-id="e7184-252">Разноска журнала.</span><span class="sxs-lookup"><span data-stu-id="e7184-252">Post the journal.</span></span>
-
-### <a name="post-the-settlement-of-foreign-currency-sale-transactions"></a><span data-ttu-id="e7184-253">Разноска сопоставления проводок продажи иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-253">Post the settlement of foreign currency sale transactions</span></span>
-
-<span data-ttu-id="e7184-254">Сопоставление проводок по продаже иностранной валюты разносится для создания проводок прибылей/убытков от них и от проводок курсовой разницы иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-254">You post the settlement of foreign currency sale transactions to generate profit/loss transactions from them and from the foreign currency exchange difference transactions.</span></span>
-
-1. <span data-ttu-id="e7184-255">Перейдите в раздел **Управление банком и кассовыми операциями \> Настройка \> Банковские группы**.</span><span class="sxs-lookup"><span data-stu-id="e7184-255">Go to **Cash and bank management \> Setup \> Bank groups**.</span></span>
-2. <span data-ttu-id="e7184-256">Выберите банк, затем выберите **Функции \> Сопоставление открытых проводок** для сопоставления проводок продажи иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-256">Select a bank, and then select **Functions \> Settle open transactions** to settle foreign currency sale transactions.</span></span>
-3. <span data-ttu-id="e7184-257">В поле **Дата разноски сопоставления** выберите тип даты разноски: **Последняя дата**, **Текущая дата** или **Выбранная дата**.</span><span class="sxs-lookup"><span data-stu-id="e7184-257">In the **Settlement posting date** field, select the posting date type: **Latest date**, **Today's date**, or **Selected date**.</span></span>
-4. <span data-ttu-id="e7184-258">Если вы выбрали **Выбранная дата** в поле **Дата разноски сопоставления**, вручную введите дату разноски.</span><span class="sxs-lookup"><span data-stu-id="e7184-258">If you selected **Selected date** in the **Settlement posting date** field, manually enter the posting date.</span></span>
-5. <span data-ttu-id="e7184-259">Просмотрите проводки, которые будут сопоставлены:</span><span class="sxs-lookup"><span data-stu-id="e7184-259">Review the transactions that will be settled:</span></span>
-
-    - <span data-ttu-id="e7184-260">На вкладке **Обзор** поля **Транзитный счет** и **Банковский счет (поступление)** специфичны для продажи иностранной валюты:</span><span class="sxs-lookup"><span data-stu-id="e7184-260">On the **Overview** tab, the **Transit account** and **Bank account - inflow** fields are specific to the foreign currency sale:</span></span>
-
-        - <span data-ttu-id="e7184-261">Для проводок с положительным значением значение поля **Транзитный счет** равно транзитному банковскому счету, который был выбран для проводки по продаже иностранной валюты в поле **Транзитный счет** в диалоговом окне **Параметры платежа**.</span><span class="sxs-lookup"><span data-stu-id="e7184-261">For positive transactions, the value of the **Transit account** field equals the transit bank account that was selected for the foreign currency sale transaction in the **Transit account** field in the **Bank currency transfer** dialog box.</span></span>
-        - <span data-ttu-id="e7184-262">Для проводок с отрицательным значением поле **Банковский счет (поступление)** равно банковскому счету, на который получена сумма в валюте учета в результате проводки продажи иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-262">For negative transactions, the value of the **Bank account - inflow** field equals the bank account where the accounting currency amount is received as a result of the foreign currency sale transaction.</span></span>
-
-        <span data-ttu-id="e7184-263">Значения в этих полях должны быть равны для проводок, помеченных для сопоставления.</span><span class="sxs-lookup"><span data-stu-id="e7184-263">The values of these fields should be equal for transactions that are marked for settlement.</span></span>
-
-    - <span data-ttu-id="e7184-264">На вкладке **Общие** поля в разделе **Конвертация валюты** специфичны для продажи иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-264">On the **General** tab, the fields in the **Currency conversion** section are specific to the foreign currency sale.</span></span>
-
-6. <span data-ttu-id="e7184-265">Пометить проводки для сопоставления.</span><span class="sxs-lookup"><span data-stu-id="e7184-265">Mark transactions for settlement.</span></span>
-
-    <span data-ttu-id="e7184-266">Во время сопоставления проверяется следующая информация:</span><span class="sxs-lookup"><span data-stu-id="e7184-266">During settlement, the following information is validated:</span></span>
-
-    - <span data-ttu-id="e7184-267">Тип проводки обоих проводок должен иметь расширенный тип **Продажа валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-267">The transaction type of both transactions must have the **Currency sale** extended type.</span></span>
-    - <span data-ttu-id="e7184-268">Значение поля **Валюта** в разделе **Конвертация валюты** на вкладке **Общие** для положительной проводки (продажа иностранной валюты) должно быть равно значение поля **Валюта** на вкладке **Обзор** для отрицательной проводки (поступление в валюте учета в результате продажи иностранной валюты).</span><span class="sxs-lookup"><span data-stu-id="e7184-268">The value of the **Currency** field in the **Currency conversion** section of the **General** tab for the positive transaction (the foreign currency sale) must equal the value of the **Currency** field on the **Overview** tab for the negative transaction (the accounting currency receipt that is a result of the foreign currency sale).</span></span>
-    - <span data-ttu-id="e7184-269">Банковский счет, указанный в поле **Транзитный счет** для положительной проводки, должен быть равен банковскому счету, указанному в поле **Банковский счет (поступление)** для отрицательной проводки.</span><span class="sxs-lookup"><span data-stu-id="e7184-269">The bank account that is specified in the **Transit account** field for the positive transaction must equal the bank account that is specified in the **Bank account - inflow** field for the negative transaction.</span></span>
-
-7. <span data-ttu-id="e7184-270">Выберите **Разнести**.</span><span class="sxs-lookup"><span data-stu-id="e7184-270">Select **Post**.</span></span> <span data-ttu-id="e7184-271">Следующие проводки создаются:</span><span class="sxs-lookup"><span data-stu-id="e7184-271">The following transactions are generated:</span></span>
-
-    - <span data-ttu-id="e7184-272">Нереализованная курсовая разница иностранной валюты (если, для иностранной валюты, которая продана, валютный курс иностранной валюты на дату продажи иностранной валюты отличается от курс обмена иностранной валюты на дату получения валюты учета)</span><span class="sxs-lookup"><span data-stu-id="e7184-272">Unrealized foreign currency exchange difference (if, for the foreign currency that is sold, the foreign currency exchange rate on the date of the foreign currency sale differs from the foreign currency exchange rate on the accounting currency receipt date)</span></span>
-    - <span data-ttu-id="e7184-273">Прибыль или убыток от продажи валюты (если, для проданной иностранной валюты, валютный курс банка отличается от валютного курса Центрального банка на дату проводки поступления валюты учета)</span><span class="sxs-lookup"><span data-stu-id="e7184-273">Foreign currency sale profit or loss (if, for the foreign currency that is sold, the bank exchange rate differs from the Central Bank exchange rate on the date of the accounting currency receipt transaction)</span></span>
-
-8. <span data-ttu-id="e7184-274">Можно просмотреть проводки, которые будут созданы.</span><span class="sxs-lookup"><span data-stu-id="e7184-274">You can review the transactions that are generated.</span></span> <span data-ttu-id="e7184-275">На страницы **Банковские группы** выберите **Проводки**.</span><span class="sxs-lookup"><span data-stu-id="e7184-275">On the **Bank groups** page, select **Transactions**.</span></span>
-9. <span data-ttu-id="e7184-276">Имеется возможность разноски отмены сопоставления проводок.</span><span class="sxs-lookup"><span data-stu-id="e7184-276">You can also post an unsettlement of the transactions.</span></span> <span data-ttu-id="e7184-277">На странице **Банковские группы** выберите **Функции \> Редактирование сопоставленных проводок**, отметьте проводки, затем выберите **Сторнировать**.</span><span class="sxs-lookup"><span data-stu-id="e7184-277">On the **Bank groups** page, select **Functions \> Closed transitions editing**, mark transactions, and then select **Reverse**.</span></span>
-
-## <a name="foreign-currency-purchases"></a><span data-ttu-id="e7184-278">Покупка иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-278">Foreign currency purchases</span></span>
-
-### <a name="create-a-transaction-of-rubles-movement-for-a-foreign-currency-purchase"></a><span data-ttu-id="e7184-279">Создание проводки перевода в рублях для покупки иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-279">Create a transaction of rubles movement for a foreign currency purchase</span></span>
-
-1. <span data-ttu-id="e7184-280">Перейдите в раздел **Расчеты с поставщиками \> Платежи \> Журнал платежей**.</span><span class="sxs-lookup"><span data-stu-id="e7184-280">Go to **Accounts payable \> Payments \> Payment journal**.</span></span>
-2. <span data-ttu-id="e7184-281">Создайте журнал платежей.</span><span class="sxs-lookup"><span data-stu-id="e7184-281">Create a payment journal.</span></span>
-3. <span data-ttu-id="e7184-282">Выберите **Строки**, создайте строку журнала и введите следующие сведения.</span><span class="sxs-lookup"><span data-stu-id="e7184-282">Select **Lines**, create a journal line, and enter the following information.</span></span>
-
-    | <span data-ttu-id="e7184-283">Вкладка</span><span class="sxs-lookup"><span data-stu-id="e7184-283">Tab</span></span>     | <span data-ttu-id="e7184-284">Поле</span><span class="sxs-lookup"><span data-stu-id="e7184-284">Field</span></span>                 | <span data-ttu-id="e7184-285">Описание</span><span class="sxs-lookup"><span data-stu-id="e7184-285">Description</span></span> |
-    |---------|-----------------------|-------------|
-    | <span data-ttu-id="e7184-286">Список</span><span class="sxs-lookup"><span data-stu-id="e7184-286">List</span></span>    | <span data-ttu-id="e7184-287">Счет</span><span class="sxs-lookup"><span data-stu-id="e7184-287">Account</span></span>               | <span data-ttu-id="e7184-288">Выберите счет поставщика, связанный с банковским счетом, который используется для проводок конвертации иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-288">Select the vendor account that is associated with the bank account that is used for foreign currency conversion transactions.</span></span> <span data-ttu-id="e7184-289">Если ввести сумму в поле **Дебет** и если в поле **Тип банковской проводки** задан тип проводки расширенного типа **Значение**, это поле заполняется автоматически при выборе банковского счета в поле **Корр. счет**.</span><span class="sxs-lookup"><span data-stu-id="e7184-289">If you enter an amount in the **Debit** field, and if the **Bank transaction type** field is set to the transaction type of the **Value** extended type, this field is automatically filled in when you select a bank account in the **Offset account** field.</span></span> |
-    |         | <span data-ttu-id="e7184-290">по дебету</span><span class="sxs-lookup"><span data-stu-id="e7184-290">Debit</span></span>                 | <span data-ttu-id="e7184-291">Введите сумму проводки в валюте учета (рубли).</span><span class="sxs-lookup"><span data-stu-id="e7184-291">Enter the transaction amount in the accounting currency (rubles).</span></span> |
-    |         | <span data-ttu-id="e7184-292">Валютное</span><span class="sxs-lookup"><span data-stu-id="e7184-292">Currency</span></span>              | <span data-ttu-id="e7184-293">Введите код валюты учета (рубли).</span><span class="sxs-lookup"><span data-stu-id="e7184-293">Enter the code for the accounting currency (rubles).</span></span> |
-    |         | <span data-ttu-id="e7184-294">Тип корр. счета</span><span class="sxs-lookup"><span data-stu-id="e7184-294">Offset account type</span></span>   | <span data-ttu-id="e7184-295">Выберите **Банк**.</span><span class="sxs-lookup"><span data-stu-id="e7184-295">Select **Bank**.</span></span> |
-    |         | <span data-ttu-id="e7184-296">Корр. счет</span><span class="sxs-lookup"><span data-stu-id="e7184-296">Offset account</span></span>        | <span data-ttu-id="e7184-297">Выберите банковский счет, на который переводятся рубли для покупки иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-297">Select the bank account that rubles are moved from for the foreign currency purchase.</span></span> |
-    |         | <span data-ttu-id="e7184-298">Способ оплаты</span><span class="sxs-lookup"><span data-stu-id="e7184-298">Method of payment</span></span>     | <span data-ttu-id="e7184-299">Выберите способ оплаты, созданный ранее для покупки иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-299">Select the method of payment that you created earlier for the purchase of foreign currency.</span></span> |
-    | <span data-ttu-id="e7184-300">Банк</span><span class="sxs-lookup"><span data-stu-id="e7184-300">Bank</span></span>    | <span data-ttu-id="e7184-301">Тип банковской проводки</span><span class="sxs-lookup"><span data-stu-id="e7184-301">Bank transaction type</span></span> | <span data-ttu-id="e7184-302">Проверьте значение, которое заполняется автоматически на основе метода оплаты, или выберите тип проводки для проводки покупки иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-302">Validate the value that is automatically filled in based on the method of payment, or select the transaction type for the foreign currency purchase transaction.</span></span> |
-    | <span data-ttu-id="e7184-303">Платеж</span><span class="sxs-lookup"><span data-stu-id="e7184-303">Payment</span></span> | <span data-ttu-id="e7184-304">Профиль разноски</span><span class="sxs-lookup"><span data-stu-id="e7184-304">Posting profile</span></span>       | <span data-ttu-id="e7184-305">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК **Переводы в пути**.</span><span class="sxs-lookup"><span data-stu-id="e7184-305">Verify that the value equals the profile that is used to post to the **Money transfers in transit** ledger account.</span></span> |
-
-4. <span data-ttu-id="e7184-306">Выберите **Создать платежи**.</span><span class="sxs-lookup"><span data-stu-id="e7184-306">Select **Generate payments**.</span></span>
-5. <span data-ttu-id="e7184-307">В диалоговом окне **Создать платежи** выберите параметр **Способ оплаты**, затем в поле **Способ оплаты** выберите метод оплаты для покупки иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-307">In the **Generate payments** dialog box, select the **Method of payment** option, and then, in the **Method of payment** field, select the method of payment for the foreign currency purchase.</span></span>
-6. <span data-ttu-id="e7184-308">В поле **Банковский счет** выберите банковский счет для платежа.</span><span class="sxs-lookup"><span data-stu-id="e7184-308">In the **Bank account** field, select the bank account for the payment.</span></span>
-7. <span data-ttu-id="e7184-309">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="e7184-309">Select **OK**.</span></span>
-8. <span data-ttu-id="e7184-310">В диалоговом окне **Параметры платежа** введите требуемую информацию.</span><span class="sxs-lookup"><span data-stu-id="e7184-310">In the **Bank currency transfer** dialog box, enter the required information.</span></span>
-
-    | <span data-ttu-id="e7184-311">Поле</span><span class="sxs-lookup"><span data-stu-id="e7184-311">Field</span></span>              | <span data-ttu-id="e7184-312">Описание</span><span class="sxs-lookup"><span data-stu-id="e7184-312">Description</span></span> |
-    |--------------------|-------------|
-    | <span data-ttu-id="e7184-313">Рабочий</span><span class="sxs-lookup"><span data-stu-id="e7184-313">Worker</span></span>             | <span data-ttu-id="e7184-314">Выберите работника, ответственного за покупку иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-314">Select the worker who is responsible for the foreign currency purchase.</span></span> |
-    | <span data-ttu-id="e7184-315">Транзитный счет</span><span class="sxs-lookup"><span data-stu-id="e7184-315">Transit account</span></span>    | <span data-ttu-id="e7184-316">Выберите банковский счет, на который должна поступить приобретенная иностранная валюта (результат конвертирования иностранной валюты).</span><span class="sxs-lookup"><span data-stu-id="e7184-316">Select the bank account where the foreign currency that is purchased should be received (the result of the foreign currency conversion).</span></span> |
-    | <span data-ttu-id="e7184-317">Валютное</span><span class="sxs-lookup"><span data-stu-id="e7184-317">Currency</span></span>           | <span data-ttu-id="e7184-318">Выберите код иностранной валюты, которая должна быть получена на транзитный банковский счет после покупки иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-318">Select the foreign currency code that should be received in the transit bank account after the foreign currency purchase.</span></span> |
-    | <span data-ttu-id="e7184-319">Обменный курс банка</span><span class="sxs-lookup"><span data-stu-id="e7184-319">Bank exchange rate</span></span> | <span data-ttu-id="e7184-320">Определите валютный курс иностранной валюты для конвертации иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-320">Identify the foreign currency exchange rate for the foreign currency conversion.</span></span> <span data-ttu-id="e7184-321">Эта информация печатается в поручении на покупку иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-321">This information will be printed on the currency purchase order.</span></span> |
-    | <span data-ttu-id="e7184-322">Счет поставщика</span><span class="sxs-lookup"><span data-stu-id="e7184-322">Supplier account</span></span>   | <span data-ttu-id="e7184-323">Выберите сведения о контракте в иностранной валюте, который является основанием для проводки покупки иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-323">Select information about the contract in foreign currency that is the basis for the foreign currency purchase transaction.</span></span> |
-    | <span data-ttu-id="e7184-324">Договор покупки</span><span class="sxs-lookup"><span data-stu-id="e7184-324">Purchase agreement</span></span> | <span data-ttu-id="e7184-325">Выберите сведения о контракте в иностранной валюте, который является основанием для проводки покупки иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-325">Select information about the contract in foreign currency that is the basis for the foreign currency purchase transaction.</span></span> |
-    | <span data-ttu-id="e7184-326">Печатать документ</span><span class="sxs-lookup"><span data-stu-id="e7184-326">Print Document</span></span>     | <span data-ttu-id="e7184-327">Задайте для этого параметра значение "Да", чтобы печатать поручение на покупку иностранной валюты при создании платежей.</span><span class="sxs-lookup"><span data-stu-id="e7184-327">Set the option to "Yes" to print a foreign currency purchase order when payments are generated.</span></span> |
-
-9. <span data-ttu-id="e7184-328">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="e7184-328">Select **OK**.</span></span>
-
-    <span data-ttu-id="e7184-329">В строке журнала платежей поле **Статус платежа** обновляется до **Отправлено**.</span><span class="sxs-lookup"><span data-stu-id="e7184-329">On the payment journal line, the **Payment status** field is updated to **Sent**.</span></span>
-
-    <span data-ttu-id="e7184-330">На вкладке **Платеж** обновляются поля **Транзитный счет**, **Иностранный контрагент**, **Группа договоров** и **Контракт по сделке**.</span><span class="sxs-lookup"><span data-stu-id="e7184-330">On the **Payment** tab, the **Transit account**, **Foreign counteragent**, **Contracts group**, and **Contract of the deal** fields are updated.</span></span>
-
-    <span data-ttu-id="e7184-331">Во время создания поручения на покупку иностранной валюты проверяется следующая информация:</span><span class="sxs-lookup"><span data-stu-id="e7184-331">During generation of the foreign currency purchase order, the following information is validated:</span></span>
-
-    - <span data-ttu-id="e7184-332">Код валюты транзитного банковского счета должен отличаться от валюты учета.</span><span class="sxs-lookup"><span data-stu-id="e7184-332">The currency code of the transit bank account must differ from the accounting currency.</span></span>
-    - <span data-ttu-id="e7184-333">Код валюты транзитного банковского счета должен быть равен код валюты, которая выбрана в диалоговом окне **Параметры платежа**.</span><span class="sxs-lookup"><span data-stu-id="e7184-333">The currency code of the transit bank account must equal the currency code that is selected in the **Bank currency transfer** dialog box.</span></span>
-    - <span data-ttu-id="e7184-334">Код валюты из строки журнала платежа должен быть в валюте учета.</span><span class="sxs-lookup"><span data-stu-id="e7184-334">The currency code of the payment journal line must be the accounting currency.</span></span>
-
-10. <span data-ttu-id="e7184-335">Выберите **Печать \> Поручения на покупку валюты** для печати поручения на покупку иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-335">Select **Print \> Currency purchase order** to print the foreign currency purchase order.</span></span> <span data-ttu-id="e7184-336">(Шаблон берется из транзитного банковского счета, который выбран в диалоговом окне **Параметры платежа**.)</span><span class="sxs-lookup"><span data-stu-id="e7184-336">(The template is taken from the transit bank account that is selected in the **Bank currency transfer** dialog box.)</span></span>
-11. <span data-ttu-id="e7184-337">Проверьте и разнесите журнал.</span><span class="sxs-lookup"><span data-stu-id="e7184-337">Validate and post the journal.</span></span>
-
-### <a name="create-transactions-for-the-bank-commission-and-the-foreign-currency-amount-that-is-received-as-a-result-of-the-foreign-currency-purchase"></a><span data-ttu-id="e7184-338">Создание проводок по комиссии банка и суммы в иностранной валюте, полученной в результате покупки иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-338">Create transactions for the bank commission and the foreign currency amount that is received as a result of the foreign currency purchase</span></span>
-
-<span data-ttu-id="e7184-339">После учета платежного поручения для покупки иностранной валюты можно зарегистрировать комиссию банка и сумму в иностранной валюте, полученную в результате конвертации иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-339">After you post the payment order for a foreign currency purchase, you can register the bank commission and the foreign currency amount that is received as a result of the foreign currency conversion.</span></span>
-
-1. <span data-ttu-id="e7184-340">Перейдите в раздел **Расчеты с поставщиками \> Платежи \> Журнал платежей**.</span><span class="sxs-lookup"><span data-stu-id="e7184-340">Go to **Accounts payable \> Payments \> Payment journal**.</span></span>
-2. <span data-ttu-id="e7184-341">Создайте журнал платежей.</span><span class="sxs-lookup"><span data-stu-id="e7184-341">Create a payment journal.</span></span>
-3. <span data-ttu-id="e7184-342">Выберите **Строки**, создайте строку журнала для списания комиссии банка и введите следующие сведения.</span><span class="sxs-lookup"><span data-stu-id="e7184-342">Select **Lines**, create a journal line for the bank commission withdrawal, and enter the following information.</span></span>
-
-    | <span data-ttu-id="e7184-343">Вкладка</span><span class="sxs-lookup"><span data-stu-id="e7184-343">Tab</span></span>     | <span data-ttu-id="e7184-344">Поле</span><span class="sxs-lookup"><span data-stu-id="e7184-344">Field</span></span>                 | <span data-ttu-id="e7184-345">Описание</span><span class="sxs-lookup"><span data-stu-id="e7184-345">Description</span></span> |
-    |---------|-----------------------|-------------|
-    | <span data-ttu-id="e7184-346">Список</span><span class="sxs-lookup"><span data-stu-id="e7184-346">List</span></span>    | <span data-ttu-id="e7184-347">Счет</span><span class="sxs-lookup"><span data-stu-id="e7184-347">Account</span></span>               | <span data-ttu-id="e7184-348">Выберите счет поставщика, который был использован при проводке по покупке иностранной валюты в предыдущей процедуре.</span><span class="sxs-lookup"><span data-stu-id="e7184-348">Select the vendor account that you used for the foreign currency purchase transaction in the previous procedure.</span></span> |
-    |         | <span data-ttu-id="e7184-349">по кредиту</span><span class="sxs-lookup"><span data-stu-id="e7184-349">Credit</span></span>                | <span data-ttu-id="e7184-350">Введите сумму комиссии банка.</span><span class="sxs-lookup"><span data-stu-id="e7184-350">Enter the amount of the bank commission.</span></span> |
-    |         | <span data-ttu-id="e7184-351">Валютное</span><span class="sxs-lookup"><span data-stu-id="e7184-351">Currency</span></span>              | <span data-ttu-id="e7184-352">Выберите код валюты комиссии банка.</span><span class="sxs-lookup"><span data-stu-id="e7184-352">Select the currency code of the bank commission.</span></span> |
-    |         | <span data-ttu-id="e7184-353">Тип корр. счета</span><span class="sxs-lookup"><span data-stu-id="e7184-353">Offset account type</span></span>   | <span data-ttu-id="e7184-354">Выберите **Главная книга**.</span><span class="sxs-lookup"><span data-stu-id="e7184-354">Select **Ledger**.</span></span> |
-    |         | <span data-ttu-id="e7184-355">Корр. счет</span><span class="sxs-lookup"><span data-stu-id="e7184-355">Offset account</span></span>        | <span data-ttu-id="e7184-356">Выберите счет ГК для убытков от банковской комиссии.</span><span class="sxs-lookup"><span data-stu-id="e7184-356">Select the ledger account for bank commission losses.</span></span> |
-    | <span data-ttu-id="e7184-357">Банк</span><span class="sxs-lookup"><span data-stu-id="e7184-357">Bank</span></span>    | <span data-ttu-id="e7184-358">Тип банковской проводки</span><span class="sxs-lookup"><span data-stu-id="e7184-358">Bank transaction type</span></span> | <span data-ttu-id="e7184-359">Выберите тип проводки, который имеет расширенный тип **Покупка валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-359">Select the transaction type that has the **Currency purchase** extended type.</span></span> |
-    | <span data-ttu-id="e7184-360">Платеж</span><span class="sxs-lookup"><span data-stu-id="e7184-360">Payment</span></span> | <span data-ttu-id="e7184-361">Профиль разноски</span><span class="sxs-lookup"><span data-stu-id="e7184-361">Posting profile</span></span>       | <span data-ttu-id="e7184-362">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК **Переводы в пути**.</span><span class="sxs-lookup"><span data-stu-id="e7184-362">Verify that the value equals the profile that is used to post to the **Money transfers in transit** ledger account.</span></span> |
-
-4. <span data-ttu-id="e7184-363">Создайте строку журнала для полученной иностранной валюты и введите следующие сведения.</span><span class="sxs-lookup"><span data-stu-id="e7184-363">Create a journal line for the received foreign currency, and enter the following information.</span></span>
-
-    | <span data-ttu-id="e7184-364">Вкладка</span><span class="sxs-lookup"><span data-stu-id="e7184-364">Tab</span></span>     | <span data-ttu-id="e7184-365">Поле</span><span class="sxs-lookup"><span data-stu-id="e7184-365">Field</span></span>                                              | <span data-ttu-id="e7184-366">Описание</span><span class="sxs-lookup"><span data-stu-id="e7184-366">Description</span></span> |
-    |---------|----------------------------------------------------|-------------|
-    | <span data-ttu-id="e7184-367">Список</span><span class="sxs-lookup"><span data-stu-id="e7184-367">List</span></span>    | <span data-ttu-id="e7184-368">Счет</span><span class="sxs-lookup"><span data-stu-id="e7184-368">Account</span></span>                                            | <span data-ttu-id="e7184-369">Выберите счет поставщика, который был использован при проводке по покупке иностранной валюты в предыдущей процедуре.</span><span class="sxs-lookup"><span data-stu-id="e7184-369">Select the vendor account that you used for the foreign currency purchase transaction in the previous procedure.</span></span> |
-    |         | <span data-ttu-id="e7184-370">по кредиту</span><span class="sxs-lookup"><span data-stu-id="e7184-370">Credit</span></span>                                             | <span data-ttu-id="e7184-371">Введите сумму в иностранной валюте, которая была получена.</span><span class="sxs-lookup"><span data-stu-id="e7184-371">Enter the amount of foreign currency that is received.</span></span> |
-    |         | <span data-ttu-id="e7184-372">Валютное</span><span class="sxs-lookup"><span data-stu-id="e7184-372">Currency</span></span>                                           | <span data-ttu-id="e7184-373">Выберите код купленной иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-373">Select the code for the foreign currency that is purchased.</span></span> |
-    |         | <span data-ttu-id="e7184-374">Тип корр. счета</span><span class="sxs-lookup"><span data-stu-id="e7184-374">Offset account type</span></span>                                | <span data-ttu-id="e7184-375">Выберите **Банк**.</span><span class="sxs-lookup"><span data-stu-id="e7184-375">Select **Bank**.</span></span> |
-    |         | <span data-ttu-id="e7184-376">Корр. счет</span><span class="sxs-lookup"><span data-stu-id="e7184-376">Offset account</span></span>                                     | <span data-ttu-id="e7184-377">Выберите банковский счет, на который получена иностранная валюта.</span><span class="sxs-lookup"><span data-stu-id="e7184-377">Select the bank account where the foreign currency is received.</span></span> <span data-ttu-id="e7184-378">Банк этого банковского счета должен иметь связь со счетом поставщика, который выбран в поле **Счет**.</span><span class="sxs-lookup"><span data-stu-id="e7184-378">The bank of this bank account should have a relation for the vendor account that you selected in the **Account** field.</span></span> |
-    | <span data-ttu-id="e7184-379">Банк</span><span class="sxs-lookup"><span data-stu-id="e7184-379">Bank</span></span>    | <span data-ttu-id="e7184-380">Тип банковской проводки</span><span class="sxs-lookup"><span data-stu-id="e7184-380">Bank transaction type</span></span>                              | <span data-ttu-id="e7184-381">Выберите тип проводки, который имеет расширенный тип **Покупка валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-381">Select the transaction type that has the **Currency purchase** extended type.</span></span> |
-    | <span data-ttu-id="e7184-382">Платеж</span><span class="sxs-lookup"><span data-stu-id="e7184-382">Payment</span></span> | <span data-ttu-id="e7184-383">Валюта (в пункте **Конвертация валюты**)</span><span class="sxs-lookup"><span data-stu-id="e7184-383">Currency (under **Currency conversion**)</span></span>           | <span data-ttu-id="e7184-384">Выберите валюту учета, используемую для покупки иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-384">Select the accounting currency that is used for the foreign currency purchase.</span></span> |
-    |         | <span data-ttu-id="e7184-385">Обменный курс банка (в пункте **Конвертация валюты**)</span><span class="sxs-lookup"><span data-stu-id="e7184-385">Bank exchange rate (under **Currency conversion**)</span></span> | <span data-ttu-id="e7184-386">Введите валютный курс банка, который применялся при покупке иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-386">Enter the bank exchange rate that was applied to the foreign currency purchase.</span></span> |
-    |         | <span data-ttu-id="e7184-387">Профиль разноски</span><span class="sxs-lookup"><span data-stu-id="e7184-387">Posting profile</span></span>                                    | <span data-ttu-id="e7184-388">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК **Переводы в пути**.</span><span class="sxs-lookup"><span data-stu-id="e7184-388">Verify that the value equals the profile that is used to post to the **Money transfers in transit** ledger account.</span></span> |
-
-5. <span data-ttu-id="e7184-389">Разноска журнала.</span><span class="sxs-lookup"><span data-stu-id="e7184-389">Post the journal.</span></span>
-
-    <span data-ttu-id="e7184-390">Во время разности проверяется следующая информация:</span><span class="sxs-lookup"><span data-stu-id="e7184-390">During posting, the following information is validated:</span></span>
-
-    - <span data-ttu-id="e7184-391">Код валюты проводки должен отличаться от валюты учета компании.</span><span class="sxs-lookup"><span data-stu-id="e7184-391">The transaction currency code must differ from the company's accounting currency.</span></span>
-    - <span data-ttu-id="e7184-392">Код валюты, который выбран в поле **Валюта** на вкладке **Платеж**, должен быть равен валюте учета компании.</span><span class="sxs-lookup"><span data-stu-id="e7184-392">The currency code that is selected in the **Currency** field on the **Payment** tab must equal the company's accounting currency.</span></span>
-    - <span data-ttu-id="e7184-393">Значения должны быть введены в поля **Валюта** и **Обменный курс банка** на вкладке **Платеж**.</span><span class="sxs-lookup"><span data-stu-id="e7184-393">Values must be entered in the **Currency** and **Bank exchange rate** fields on the **Payment** tab.</span></span>
-
-### <a name="post-the-settlement-of-foreign-currency-purchase-transactions"></a><span data-ttu-id="e7184-394">Разноска сопоставления проводок покупки иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-394">Post the settlement of foreign currency purchase transactions</span></span>
-
-<span data-ttu-id="e7184-395">Разноска сопоставления проводки покупки иностранной валюты выполняется для создания проводок прибылей и убытков от них.</span><span class="sxs-lookup"><span data-stu-id="e7184-395">You post the settlement of foreign currency purchase transactions to generate profit/loss transactions from them.</span></span>
-
-1. <span data-ttu-id="e7184-396">Перейдите в раздел **Управление банком и кассовыми операциями \> Настройка \> Банковские группы**.</span><span class="sxs-lookup"><span data-stu-id="e7184-396">Go to **Cash and bank management \> Setup \> Bank groups**.</span></span>
-2. <span data-ttu-id="e7184-397">Выберите банк, затем выберите **Функции \> Сопоставление открытых проводок** для сопоставления проводок покупки иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-397">Select a bank, and then select **Functions \> Settle open transactions** to settle foreign currency purchase transactions.</span></span>
-3. <span data-ttu-id="e7184-398">Пометить проводки для сопоставления.</span><span class="sxs-lookup"><span data-stu-id="e7184-398">Mark transactions for settlement.</span></span>
-
-    <span data-ttu-id="e7184-399">Во время сопоставления проверяется следующая информация:</span><span class="sxs-lookup"><span data-stu-id="e7184-399">During settlement, the following information is validated:</span></span>
-
-    - <span data-ttu-id="e7184-400">Тип проводки обоих проводок должен иметь расширенный тип **Покупка валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-400">The transaction type of both transactions must have the **Currency purchase** extended type.</span></span>
-    - <span data-ttu-id="e7184-401">Значение поля **Валюта** в разделе **Конвертация валюты** на вкладке **Общие** для проводки покупки иностранной валюты должно быть равно значение поля **Валюта** на вкладке **Обзор** для проводки поступления иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-401">The value of the **Currency** field in the **Currency conversion** section of the **General** tab for the foreign currency purchase transaction must equal the value of the **Currency** field on **Overview** tab for the transaction for the foreign currency receipt.</span></span>
-    - <span data-ttu-id="e7184-402">Банковский счет, указанный в поле **Транзитный счет** для проводки покупки иностранной валюты, должен быть равен банковскому счету, на который получена иностранная валюта.</span><span class="sxs-lookup"><span data-stu-id="e7184-402">The bank account that is specified in the **Transit account** field for the foreign currency purchase transaction must equal the bank account where the foreign currency is received.</span></span>
-
-4. <span data-ttu-id="e7184-403">Выберите **Разнести**.</span><span class="sxs-lookup"><span data-stu-id="e7184-403">Select **Post**.</span></span> <span data-ttu-id="e7184-404">Проводка для прибыли или убытка от покупки иностранной валюты создается (если, для купленной иностранной валюты, курс обмена банка отличается от валютного курса Центрального банка на дату поступления иностранной валюты).</span><span class="sxs-lookup"><span data-stu-id="e7184-404">The transaction for profit or loss from the foreign currency purchase is generated (if, for the foreign currency that is purchased, the bank exchange rate differs from the Central Bank exchange rate on the date of the foreign currency receipt).</span></span>
-5. <span data-ttu-id="e7184-405">Можно просмотреть проводки, которые будут созданы.</span><span class="sxs-lookup"><span data-stu-id="e7184-405">You can review the transactions that are generated.</span></span> <span data-ttu-id="e7184-406">На страницы **Банковские группы** выберите **Проводки**.</span><span class="sxs-lookup"><span data-stu-id="e7184-406">On the **Bank groups** page, select **Transactions**.</span></span>
-6. <span data-ttu-id="e7184-407">Имеется возможность разноски отмены сопоставления проводок.</span><span class="sxs-lookup"><span data-stu-id="e7184-407">You can also post an unsettlement of transactions.</span></span> <span data-ttu-id="e7184-408">На странице **Банковские группы** выберите **Функции \> Редактирование сопоставленных проводок**, отметьте проводки, затем выберите **Сторнировать**.</span><span class="sxs-lookup"><span data-stu-id="e7184-408">On the **Bank groups** page, select **Functions \> Closed transitions editing**, mark transactions, and then select **Reverse**.</span></span>
-
-## <a name="foreign-currency-transfers"></a><span data-ttu-id="e7184-409">Переводы иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-409">Foreign currency transfers</span></span>
-
-### <a name="create-a-foreign-currency-movement-for-a-foreign-currency-transfer"></a><span data-ttu-id="e7184-410">Создание перемещения иностранной валюты для перевода иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-410">Create a foreign currency movement for a foreign currency transfer</span></span>
-
-1. <span data-ttu-id="e7184-411">Перейдите в раздел **Расчеты с поставщиками \> Платежи \> Журнал платежей**.</span><span class="sxs-lookup"><span data-stu-id="e7184-411">Go to **Accounts payable \> Payments \> Payment journal**.</span></span>
-2. <span data-ttu-id="e7184-412">Создайте журнал платежей.</span><span class="sxs-lookup"><span data-stu-id="e7184-412">Create a payment journal.</span></span>
-3. <span data-ttu-id="e7184-413">Выберите **Строки**, создайте строку журнала и введите следующие сведения.</span><span class="sxs-lookup"><span data-stu-id="e7184-413">Select **Lines**, create a journal line, and enter the following information.</span></span>
-
-    | <span data-ttu-id="e7184-414">Вкладка</span><span class="sxs-lookup"><span data-stu-id="e7184-414">Tab</span></span>     | <span data-ttu-id="e7184-415">Поле</span><span class="sxs-lookup"><span data-stu-id="e7184-415">Field</span></span>                 | <span data-ttu-id="e7184-416">Описание</span><span class="sxs-lookup"><span data-stu-id="e7184-416">Description</span></span> |
-    |---------|-----------------------|-------------|
-    | <span data-ttu-id="e7184-417">Список</span><span class="sxs-lookup"><span data-stu-id="e7184-417">List</span></span>    | <span data-ttu-id="e7184-418">Счет</span><span class="sxs-lookup"><span data-stu-id="e7184-418">Account</span></span>               | <span data-ttu-id="e7184-419">Выберите номер счет поставщика, связанный с банковским счетом, который используется для проводок конвертации валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-419">Select the vendor account number that is associated with the bank account that is used for currency conversion transactions.</span></span> |
-    |         | <span data-ttu-id="e7184-420">по дебету</span><span class="sxs-lookup"><span data-stu-id="e7184-420">Debit</span></span>                 | <span data-ttu-id="e7184-421">Введите сумму проводки для перевода иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-421">Enter the transaction amount for the foreign currency transfer.</span></span> |
-    |         | <span data-ttu-id="e7184-422">Валютное</span><span class="sxs-lookup"><span data-stu-id="e7184-422">Currency</span></span>              | <span data-ttu-id="e7184-423">Введите код переводимой валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-423">Enter the code for the currency that is transferred.</span></span> |
-    |         | <span data-ttu-id="e7184-424">Тип корр. счета</span><span class="sxs-lookup"><span data-stu-id="e7184-424">Offset account type</span></span>   | <span data-ttu-id="e7184-425">Выберите **Банк**.</span><span class="sxs-lookup"><span data-stu-id="e7184-425">Select **Bank**.</span></span> |
-    |         | <span data-ttu-id="e7184-426">Корр. счет</span><span class="sxs-lookup"><span data-stu-id="e7184-426">Offset account</span></span>        | <span data-ttu-id="e7184-427">Выберите банковский счет, с которого производится перевод иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-427">Select the bank account that the foreign currency transfer is generated from.</span></span> <span data-ttu-id="e7184-428">Банк этого банковского счета должен быть связан со счетом поставщика, который выбран в поле **Счет**.</span><span class="sxs-lookup"><span data-stu-id="e7184-428">The bank of this bank account must be associated with the vendor account that you selected in the **Account** field.</span></span> |
-    |         | <span data-ttu-id="e7184-429">Способ оплаты</span><span class="sxs-lookup"><span data-stu-id="e7184-429">Method of payment</span></span>     | <span data-ttu-id="e7184-430">Выберите способ оплаты, созданный ранее для перевода иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-430">Select the method of payment that you created earlier for the transfer of foreign currency transfer.</span></span> |
-    | <span data-ttu-id="e7184-431">Банк</span><span class="sxs-lookup"><span data-stu-id="e7184-431">Bank</span></span>    | <span data-ttu-id="e7184-432">Тип банковской проводки</span><span class="sxs-lookup"><span data-stu-id="e7184-432">Bank transaction type</span></span> | <span data-ttu-id="e7184-433">Проверьте значение, которое заполняется автоматически на основе метода оплаты, или выберите тип проводки для проводки перевода иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-433">Validate the value that is automatically filled in based on the method of payment, or select the transaction type for the foreign currency transfer transaction.</span></span> |
-    | <span data-ttu-id="e7184-434">Платеж</span><span class="sxs-lookup"><span data-stu-id="e7184-434">Payment</span></span> | <span data-ttu-id="e7184-435">Профиль разноски</span><span class="sxs-lookup"><span data-stu-id="e7184-435">Posting profile</span></span>       | <span data-ttu-id="e7184-436">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК **Переводы в пути**.</span><span class="sxs-lookup"><span data-stu-id="e7184-436">Verify that the value equals the profile that is used to post to the **Money transfers in transit** ledger account.</span></span> |
-
-4. <span data-ttu-id="e7184-437">Проверьте и разнесите журнал.</span><span class="sxs-lookup"><span data-stu-id="e7184-437">Validate and post the journal.</span></span>
-
-### <a name="create-transactions-for-the-bank-commission-and-the-result-of-the-foreign-currency-transfer"></a><span data-ttu-id="e7184-438">Создание проводок для банковской комиссии и результата перевода иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-438">Create transactions for the bank commission and the result of the foreign currency transfer</span></span>
-
-1. <span data-ttu-id="e7184-439">Перейдите в раздел **Расчеты с поставщиками \> Платежи \> Журнал платежей**.</span><span class="sxs-lookup"><span data-stu-id="e7184-439">Go to **Accounts payable \> Payments \> Payment journal**.</span></span>
-2. <span data-ttu-id="e7184-440">Создайте журнал платежей.</span><span class="sxs-lookup"><span data-stu-id="e7184-440">Create a payment journal.</span></span>
-3. <span data-ttu-id="e7184-441">Выберите **Строки**, создайте строку журнала для списания комиссии банка и введите следующие сведения.</span><span class="sxs-lookup"><span data-stu-id="e7184-441">Select **Lines**, create a journal line for the bank commission withdrawal, and enter the following information.</span></span>
-
-    | <span data-ttu-id="e7184-442">Вкладка</span><span class="sxs-lookup"><span data-stu-id="e7184-442">Tab</span></span>     | <span data-ttu-id="e7184-443">Поле</span><span class="sxs-lookup"><span data-stu-id="e7184-443">Field</span></span>                 | <span data-ttu-id="e7184-444">Описание</span><span class="sxs-lookup"><span data-stu-id="e7184-444">Description</span></span> |
-    |---------|-----------------------|-------------|
-    | <span data-ttu-id="e7184-445">Список</span><span class="sxs-lookup"><span data-stu-id="e7184-445">List</span></span>    | <span data-ttu-id="e7184-446">Счет</span><span class="sxs-lookup"><span data-stu-id="e7184-446">Account</span></span>               | <span data-ttu-id="e7184-447">Выберите счет поставщика, связанный с банковским счетом, который используется для перевода иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-447">Select the vendor account that is related to the bank account that is used for the foreign currency transfer.</span></span> |
-    |         | <span data-ttu-id="e7184-448">по кредиту</span><span class="sxs-lookup"><span data-stu-id="e7184-448">Credit</span></span>                | <span data-ttu-id="e7184-449">Введите сумму комиссии банка.</span><span class="sxs-lookup"><span data-stu-id="e7184-449">Enter the amount of the bank commission.</span></span> |
-    |         | <span data-ttu-id="e7184-450">Валютное</span><span class="sxs-lookup"><span data-stu-id="e7184-450">Currency</span></span>              | <span data-ttu-id="e7184-451">Выберите код валюты комиссии банка.</span><span class="sxs-lookup"><span data-stu-id="e7184-451">Select the currency code of the bank commission.</span></span> |
-    |         | <span data-ttu-id="e7184-452">Тип корр. счета</span><span class="sxs-lookup"><span data-stu-id="e7184-452">Offset account type</span></span>   | <span data-ttu-id="e7184-453">Выберите **Главная книга**.</span><span class="sxs-lookup"><span data-stu-id="e7184-453">Select **Ledger**.</span></span> |
-    |         | <span data-ttu-id="e7184-454">Корр. счет</span><span class="sxs-lookup"><span data-stu-id="e7184-454">Offset account</span></span>        | <span data-ttu-id="e7184-455">Выберите счет ГК для убытков от банковской комиссии.</span><span class="sxs-lookup"><span data-stu-id="e7184-455">Select the ledger account for bank commission losses.</span></span> |
-    | <span data-ttu-id="e7184-456">Банк</span><span class="sxs-lookup"><span data-stu-id="e7184-456">Bank</span></span>    | <span data-ttu-id="e7184-457">Тип банковской проводки</span><span class="sxs-lookup"><span data-stu-id="e7184-457">Bank transaction type</span></span> | <span data-ttu-id="e7184-458">Выберите тип проводки, который имеет расширенный тип **Перевод валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-458">Select the transaction type that has the **Currency transfer** extended type.</span></span> |
-    | <span data-ttu-id="e7184-459">Платеж</span><span class="sxs-lookup"><span data-stu-id="e7184-459">Payment</span></span> | <span data-ttu-id="e7184-460">Профиль разноски</span><span class="sxs-lookup"><span data-stu-id="e7184-460">Posting profile</span></span>       | <span data-ttu-id="e7184-461">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК **Переводы в пути**.</span><span class="sxs-lookup"><span data-stu-id="e7184-461">Verify that the value equals the profile that is used to post to the **Money transfers in transit** ledger account.</span></span> |
-
-4. <span data-ttu-id="e7184-462">Создайте строку журнала для получения переведенной иностранной валюты и введите следующие сведения.</span><span class="sxs-lookup"><span data-stu-id="e7184-462">Create a journal line for receiving the transferred foreign currency, and enter the following information.</span></span>
-
-    | <span data-ttu-id="e7184-463">Вкладка</span><span class="sxs-lookup"><span data-stu-id="e7184-463">Tab</span></span>     | <span data-ttu-id="e7184-464">Поле</span><span class="sxs-lookup"><span data-stu-id="e7184-464">Field</span></span>                 | <span data-ttu-id="e7184-465">Описание</span><span class="sxs-lookup"><span data-stu-id="e7184-465">Description</span></span> |
-    |---------|-----------------------|-------------|
-    | <span data-ttu-id="e7184-466">Список</span><span class="sxs-lookup"><span data-stu-id="e7184-466">List</span></span>    | <span data-ttu-id="e7184-467">Счет</span><span class="sxs-lookup"><span data-stu-id="e7184-467">Account</span></span>               | <span data-ttu-id="e7184-468">Выберите счет поставщика, связанный с банковским счетом, который используется для перевода иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-468">Select the vendor account that is related to the bank account that is used for the foreign currency transfer.</span></span> |
-    |         | <span data-ttu-id="e7184-469">по кредиту</span><span class="sxs-lookup"><span data-stu-id="e7184-469">Credit</span></span>                | <span data-ttu-id="e7184-470">Введите сумму перевода иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-470">Enter the amount of the foreign currency transfer.</span></span> |
-    |         | <span data-ttu-id="e7184-471">Валютное</span><span class="sxs-lookup"><span data-stu-id="e7184-471">Currency</span></span>              | <span data-ttu-id="e7184-472">Выберите код переводимой валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-472">Select the code for the currency that is transferred.</span></span> |
-    |         | <span data-ttu-id="e7184-473">Тип корр. счета</span><span class="sxs-lookup"><span data-stu-id="e7184-473">Offset account type</span></span>   | <span data-ttu-id="e7184-474">Выберите **Банк**.</span><span class="sxs-lookup"><span data-stu-id="e7184-474">Select **Bank**.</span></span> |
-    |         | <span data-ttu-id="e7184-475">Корр. счет</span><span class="sxs-lookup"><span data-stu-id="e7184-475">Offset account</span></span>        | <span data-ttu-id="e7184-476">Выберите банковский счет, на который получена иностранная валюта.</span><span class="sxs-lookup"><span data-stu-id="e7184-476">Select the bank account where the foreign currency is received.</span></span> <span data-ttu-id="e7184-477">Банк этого банковского счета должен иметь связь со счетом поставщика, который выбран в поле **Счет**.</span><span class="sxs-lookup"><span data-stu-id="e7184-477">The bank of this bank account should have a relation for the vendor account that you selected in the **Account** field.</span></span> |
-    | <span data-ttu-id="e7184-478">Банк</span><span class="sxs-lookup"><span data-stu-id="e7184-478">Bank</span></span>    | <span data-ttu-id="e7184-479">Тип банковской проводки</span><span class="sxs-lookup"><span data-stu-id="e7184-479">Bank transaction type</span></span> | <span data-ttu-id="e7184-480">Выберите тип проводки, который имеет расширенный тип **Перевод валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-480">Select the transaction type that has the **Currency transfer** extended type.</span></span> |
-    | <span data-ttu-id="e7184-481">Платеж</span><span class="sxs-lookup"><span data-stu-id="e7184-481">Payment</span></span> | <span data-ttu-id="e7184-482">Профиль разноски</span><span class="sxs-lookup"><span data-stu-id="e7184-482">Posting profile</span></span>       | <span data-ttu-id="e7184-483">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК **Переводы в пути**.</span><span class="sxs-lookup"><span data-stu-id="e7184-483">Verify that the value equals the profile that is used to post to the **Money transfers in transit** ledger account.</span></span> |
-
-5. <span data-ttu-id="e7184-484">Разноска журнала.</span><span class="sxs-lookup"><span data-stu-id="e7184-484">Post the journal.</span></span>
-
-### <a name="post-the-settlement-of-foreign-currency-transfer-transactions"></a><span data-ttu-id="e7184-485">Разноска сопоставления проводок перевода иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="e7184-485">Post the settlement of foreign currency transfer transactions</span></span>
-
-<span data-ttu-id="e7184-486">Разноска сопоставления проводки покупки иностранной валюты выполняется для создания проводок курсовой разницы для иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-486">You post the settlement of foreign currency purchase transactions to generate foreign currency exchange difference transactions.</span></span>
-
-1. <span data-ttu-id="e7184-487">Перейдите в раздел **Управление банком и кассовыми операциями \> Настройка \> Банковские группы**.</span><span class="sxs-lookup"><span data-stu-id="e7184-487">Go to **Cash and bank management \> Setup \> Bank groups**.</span></span>
-2. <span data-ttu-id="e7184-488">Выберите банк, затем выберите **Функции \> Сопоставление открытых проводок** для сопоставления проводок покупки иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-488">Select a bank, and then select **Functions \> Settle open transactions** to settle foreign currency purchase transactions.</span></span>
-3. <span data-ttu-id="e7184-489">Пометить проводки для сопоставления.</span><span class="sxs-lookup"><span data-stu-id="e7184-489">Mark transactions for settlement.</span></span>
-
-    <span data-ttu-id="e7184-490">Во время сопоставления проверяется следующая информация:</span><span class="sxs-lookup"><span data-stu-id="e7184-490">During settlement, the following information is validated:</span></span>
-
-    - <span data-ttu-id="e7184-491">Тип проводки обоих проводок должен иметь расширенный тип **Перевод валюты**.</span><span class="sxs-lookup"><span data-stu-id="e7184-491">The transaction type of both transactions must have the **Currency transfer** extended type.</span></span>
-    - <span data-ttu-id="e7184-492">Коды валют по проводкам должны быть равны.</span><span class="sxs-lookup"><span data-stu-id="e7184-492">The currency codes of the transactions must be equal.</span></span>
-
-4. <span data-ttu-id="e7184-493">Выберите **Разнести**.</span><span class="sxs-lookup"><span data-stu-id="e7184-493">Select **Post**.</span></span> <span data-ttu-id="e7184-494">Создается проводка разницы валютных курсов.</span><span class="sxs-lookup"><span data-stu-id="e7184-494">The exchange rate difference transaction is generated.</span></span> <span data-ttu-id="e7184-495">Счета ГК для курсовой разницы иностранной валюты берутся из счетов **Реализованная прибыль** и **Реализованный убыток**, которые указаны в настройке параметров иностранной валюты.</span><span class="sxs-lookup"><span data-stu-id="e7184-495">Ledger accounts for the foreign currency exchange difference are taken from the **Realized gain** and **Realized loss** accounts that are specified in the setup of foreign currency parameters.</span></span>
-5. <span data-ttu-id="e7184-496">Можно просмотреть проводки, которые будут созданы.</span><span class="sxs-lookup"><span data-stu-id="e7184-496">You can review the transactions that are generated.</span></span> <span data-ttu-id="e7184-497">На страницы **Банковские группы** выберите **Проводки**.</span><span class="sxs-lookup"><span data-stu-id="e7184-497">On the **Bank groups** page, select **Transactions**.</span></span>
-6. <span data-ttu-id="e7184-498">Имеется возможность разноски отмены сопоставления проводок.</span><span class="sxs-lookup"><span data-stu-id="e7184-498">You can also post an unsettlement of transactions.</span></span> <span data-ttu-id="e7184-499">На странице **Банковские группы** выберите **Функции \> Редактирование сопоставленных проводок**, отметьте проводки, затем выберите **Сторнировать**.</span><span class="sxs-lookup"><span data-stu-id="e7184-499">On **Bank groups** page, select **Functions \> Closed transitions editing**, mark transactions, and then select **Reverse**.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="rus-currency-sale-purchase.md" target-language="ru-RU">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>rus-currency-sale-purchase.d59273.9ed4f86d66e7152ce059831092fa8e6854d094f5.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>9ed4f86d66e7152ce059831092fa8e6854d094f5</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\rus-currency-sale-purchase.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Foreign currency sales, purchases, and transfers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Продажи, покупки и переводы в иностранной валюте</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic describes the functionality for registering transactions for the sale, purchase, and transfer of currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Этот раздел описывает функциональные возможности для регистрации проводок для продажи, покупки и перевода валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Foreign currency sales, purchases, and transfers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Продажи, покупки и переводы в иностранной валюте</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Microsoft Dynamics 365 for Finance and Operations lets you perform the following tasks:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations позволяет выполнять следующие задачи:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Register transactions for a sale, purchase, or transfer of foreign currency that is done by using the <bpt id="p1">**</bpt>Money transfers in transit<ept id="p1">**</ept> ledger account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Регистрировать проводки для продажи, покупки или перевода иностранной валюты, которые выполняются с помощью счета учета <bpt id="p1">**</bpt>Переводы в пути<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Automatically calculate the profit/loss amounts that are caused by the foreign currency conversion for a sale or purchase of foreign currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Автоматически рассчитывать суммы прибыли и убытков, вызванных конвертацией иностранной валюты, для продаж и покупок иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>(The calculation considers the foreign currency exchange rate of the Central Bank and the exchange rate of the legal entity's bank on the date of the foreign currency transfer.) Also automatically generate transactions for profit/loss from the foreign currency conversion.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(В расчете учитывается валютный курс иностранной валюты центрального банка и валютный курс банка юридического лица на дату перевода иностранной валюты.) Также автоматически создаются проводки для прибылей/убытков от конвертации иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Automatically generate transactions for the unrealized exchange rate difference that is caused when the exchange rates on the foreign currency transaction dates differ.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Автоматическое создание проводок для нереализованной курсовой разницы, возникающей, когда валютные курсы в иностранной валюте на даты проводок отличаются.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Print a foreign currency transfer order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Печать заказа на перемещение иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Set up the sale, purchase and transfer of foreign currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка продажи, покупки и перевода иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Here is an overview of the tasks that you must complete to set up the system to calculate the exchange adjustment and the profit/loss on the <bpt id="p1">**</bpt>Remittance en route<ept id="p1">**</ept> account:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ниже приведен обзор задач, которые необходимо выполнить для настройки системы для расчета курсовой разницы и прибыли/убытков на счете <bpt id="p1">**</bpt>Промежуточный счет предъявления к оплате<ept id="p1">**</ept>:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source><bpt id="p1">[</bpt>Set up an exchange rate<ept id="p1">](#set-up-an-exchange-rate)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка валютного курса<ept id="p1">](#set-up-an-exchange-rate)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source><bpt id="p1">[</bpt>Set up a bank to use for foreign currency conversion transactions<ept id="p1">](#set-up-a-bank-to-use-for-foreign-currency-conversion-transactions)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка банка для использования проводок конвертации иностранной валюты<ept id="p1">](#set-up-a-bank-to-use-for-foreign-currency-conversion-transactions)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source><bpt id="p1">[</bpt>Set up a bank transaction type<ept id="p1">](#set-up-a-bank-transaction-type)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка типа банковских проводок<ept id="p1">](#set-up-a-bank-transaction-type)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source><bpt id="p1">[</bpt>Set up a method of payment<ept id="p1">](#set-up-a-method-of-payment)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка способа оплаты<ept id="p1">](#set-up-a-method-of-payment)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source><bpt id="p1">[</bpt>Set up a number sequence<ept id="p1">](#set-up-a-number-sequence)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка номерной серии<ept id="p1">](#set-up-a-number-sequence)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source><bpt id="p1">[</bpt>Set up a bank account<ept id="p1">](#set-up-a-bank-account)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка банковского счета<ept id="p1">](#set-up-a-bank-account)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Set up an exchange rate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка валютного курса</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Use the <bpt id="p1">**</bpt>Currency revaluation accounts<ept id="p1">**</ept> page to set up the calculation of profit/loss amounts for foreign currency conversion.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Страница <bpt id="p1">**</bpt>Счета валютной переоценки<ept id="p1">**</ept> используется для расчета сумм прибыли или убытка для конвертации иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Go to <bpt id="p1">**</bpt>General ledger <ph id="ph1">\&gt;</ph> Currencies <ph id="ph2">\&gt;</ph> Currency parameters<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Откройте <bpt id="p1">**</bpt>Главная книга <ph id="ph1">\&gt;</ph> Валюты <ph id="ph2">\&gt;</ph> Параметры валюты<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>In the <bpt id="p1">**</bpt>Legal entities<ept id="p1">**</ept> field, select a company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Юридические лица<ept id="p1">**</ept> выберите компанию.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>On the <bpt id="p1">**</bpt>Purchases/Vendors<ept id="p1">**</ept> FastTab, define the following ledger accounts for currency conversion: <bpt id="p2">**</bpt>Conversion gain<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Conversion loss<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Покупки/Поставщики<ept id="p1">**</ept> определяет следующие счета учета для конвертации валюты: <bpt id="p2">**</bpt>Конвертация - прибыль<ept id="p2">**</ept> и <bpt id="p3">**</bpt>Конвертация - убытки<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Define the following revenue and income codes for foreign currency conversion: <bpt id="p1">**</bpt>Revenue code (currency conversion)<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Expense code (currency conversion)<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определите следующие коды выручки и дохода для конвертации иностранной валюты: <bpt id="p1">**</bpt>Код дохода (конвертация валюты)<ept id="p1">**</ept> и <bpt id="p2">**</bpt>Код расхода (конвертация валюты)<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Set up a bank to use for foreign currency conversion transactions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка банка для использования проводок конвертации иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Use the <bpt id="p1">**</bpt>Banks<ept id="p1">**</ept> page to associate a vendor account with the bank that should be used for foreign currency sale or purchase transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Используйте страницу <bpt id="p1">**</bpt>Банки<ept id="p1">**</ept>, чтобы связать счет поставщика с банком, который должен использоваться для проводок продажи или покупки в иностранной валюте.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Bank groups<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Настройка <ph id="ph2">\&gt;</ph> Банковские группы<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Create a bank, or select an existing bank.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте банк или выберите существующий банк.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Vendor account<ept id="p2">**</ept> field, select the vendor account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Общее<ept id="p1">**</ept> в поле <bpt id="p2">**</bpt>Счет поставщика<ept id="p2">**</ept> выберите счет поставщика.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>When you associate a vendor account with a bank, the <bpt id="p1">**</bpt>Transactions<ept id="p1">**</ept> button on the Action Pane becomes available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">При связывании счета поставщика с банком становится доступна кнопка <bpt id="p1">**</bpt>Проводки<ept id="p1">**</ept> на панели действий.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>The <bpt id="p1">**</bpt>Settle open transactions<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Closed transaction editing<ept id="p2">**</ept> options on the <bpt id="p3">**</bpt>Functions<ept id="p3">**</ept> menu button also become available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Параметры <bpt id="p1">**</bpt>Сопоставление открытых проводок<ept id="p1">**</ept> и <bpt id="p2">**</bpt>Редактирование сопоставленных проводок<ept id="p2">**</ept> на кнопке меню <bpt id="p3">**</bpt>Функции<ept id="p3">**</ept> также станут доступны.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Set up a bank transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка типа банковских проводок</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Use the <bpt id="p1">**</bpt>Bank transaction types<ept id="p1">**</ept> page to set up a bank transaction type for foreign currency sale, purchase, and transfer transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Страница <bpt id="p1">**</bpt>Типы банковских проводок<ept id="p1">**</ept> служит для настройки типа банковской проводки для проводок продажи, покупки и перевода иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Bank transaction types<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Настройка <ph id="ph2">\&gt;</ph> Типы банковских проводок<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Create a bank transaction type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте тип банковской проводки.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>In the <bpt id="p1">**</bpt>Transaction extended type<ept id="p1">**</ept> field, select one of the following foreign currency transfer types: <bpt id="p2">**</bpt>Currency sale<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Currency purchase<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>Currency transfer<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Расширенный тип проводки<ept id="p1">**</ept> выберите один из следующих типов перевода иностранной валюты: <bpt id="p2">**</bpt>Продажа валюты<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Покупка валюты<ept id="p3">**</ept> или <bpt id="p4">**</bpt>Перевод валюты<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>In the <bpt id="p1">**</bpt>Vendor posting profile<ept id="p1">**</ept> field, select the vendor posting profile that should be used to post to the <bpt id="p2">**</bpt>Money transfers in transit<ept id="p2">**</ept> ledger account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Профиль разноски по поставщику<ept id="p1">**</ept> выберите профиль разноски по поставщику, который должен использоваться для разноски на счет учета <bpt id="p2">**</bpt>Переводы в пути<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Set up a method of payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка способа оплаты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Use the <bpt id="p1">**</bpt>Methods of payment<ept id="p1">**</ept> page to set up a method of payment for the sale, purchase, or transfer of foreign currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Используйте страницу <bpt id="p1">**</bpt>Способы оплаты<ept id="p1">**</ept>, чтобы настроить способ оплаты для продажи, покупки или перевода иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Go to <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Payment setup <ph id="ph2">\&gt;</ph> Methods of payment<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Настройка платежей <ph id="ph2">\&gt;</ph> Способы оплаты<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Create a method of payment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте способ оплаты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Account type<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Bank<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Общее<ept id="p1">**</ept> в поле <bpt id="p2">**</bpt>Тип счета<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Банк<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>In the <bpt id="p1">**</bpt>Payment account<ept id="p1">**</ept> field, select the bank account to transfer foreign currency from for this method of payment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Счет оплаты<ept id="p1">**</ept> выберите банковский счет, с которого переводится иностранная валюта для данного метода оплаты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>In the <bpt id="p1">**</bpt>Bank transaction type<ept id="p1">**</ept> field, select the bank transaction type for the sale, purchase, or transfer of foreign currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Тип банковской проводки<ept id="p1">**</ept> выберите тип банковской проводки для продажи, покупки или перевода иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>On the <bpt id="p1">**</bpt>File formats<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Export format<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Currency transfer order<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Форматы файлов<ept id="p1">**</ept> в поле <bpt id="p2">**</bpt>Формат экспорта<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Поручение на конвертацию/перевод валюты<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>If the <bpt id="p1">**</bpt>Currency transfer order<ept id="p1">**</ept> option isn't available, select <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> to open the <bpt id="p3">**</bpt>File formats for methods of payment<ept id="p3">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если параметр <bpt id="p1">**</bpt>Поручение на конвертацию/перевод валюты<ept id="p1">**</ept> недоступен, выберите <bpt id="p2">**</bpt>Настройка<ept id="p2">**</ept>, чтобы открыть страницу <bpt id="p3">**</bpt>Форматы файлов для способов оплаты<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>On the <bpt id="p1">**</bpt>Export<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Available<ept id="p2">**</ept> list, select <bpt id="p3">**</bpt>Currency transfer order<ept id="p3">**</ept>, and then select the right arrow button to add the format to the <bpt id="p4">**</bpt>Selected<ept id="p4">**</ept> list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Экспорт<ept id="p1">**</ept> в списке <bpt id="p2">**</bpt>Доступно<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Поручение на конвертацию/перевод валюты<ept id="p3">**</ept>, затем выберите кнопку со стрелкой вправо, чтобы добавить формат в список <bpt id="p4">**</bpt>Выбранные<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Set up a bank account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка банковского счета</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Use the <bpt id="p1">**</bpt>Bank accounts<ept id="p1">**</ept> page to set up specific information for the sale or purchase of foreign currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Используйте страницу <bpt id="p1">**</bpt>Банковские счета<ept id="p1">**</ept> для настройки конкретных сведений для продажи или покупки иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Bank accounts <ph id="ph2">\&gt;</ph> Bank accounts<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Банковские счета <ph id="ph2">\&gt;</ph> Банковские счета<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Create a bank account, or select an existing bank account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте банковский счет или выберите существующий.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>On the <bpt id="p1">**</bpt>Payment management<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Order template (currency sale)<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Order template (currency purchase)<ept id="p3">**</ept> fields, select the Microsoft Word template.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Управление платежами<ept id="p1">**</ept> в полях <bpt id="p2">**</bpt>Шаблон поручения (продажа валюты)<ept id="p2">**</ept> и <bpt id="p3">**</bpt>Шаблон поручения (покупка валюты)<ept id="p3">**</ept> выберите шаблон Microsoft Word.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>For more information, see <bpt id="p1">[</bpt>Set up Bank accounts (Russia)<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-local-settings-requisites-bank-module)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Дополнительные сведения см. в разделе <bpt id="p1">[</bpt>Настройка банковских счетов (Россия)<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-local-settings-requisites-bank-module)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Set up a number sequence</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка номерной серии</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Use the <bpt id="p1">**</bpt>Cash and bank management parameters<ept id="p1">**</ept> page to assign a number sequence for foreign currency transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Используйте страницу <bpt id="p1">**</bpt>Параметры управления банком и кассовыми операциями<ept id="p1">**</ept>, чтобы назначить номерную серию для проводок в иностранной валюте.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Cash and bank management parameters<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Настройка <ph id="ph2">\&gt;</ph> Параметры управления банком и кассовыми операциями<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>On the <bpt id="p1">**</bpt>Number sequences<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Number sequence code<ept id="p2">**</ept> field for the <bpt id="p3">**</bpt>Currency transfer order<ept id="p3">**</ept> reference, select a number sequence.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Номерные серии<ept id="p1">**</ept> в поле <bpt id="p2">**</bpt>Код номерной серии<ept id="p2">**</ept> выберите номерную серию для ссылки <bpt id="p3">**</bpt>Поручение на конвертацию/перевод валюты<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Foreign currency sales</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Продажи иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Create a foreign currency sale transaction</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание проводки продажи иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Go to <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Payments <ph id="ph2">\&gt;</ph> Payment journal<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Платежи <ph id="ph2">\&gt;</ph> Журнал платежей<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Create a payment journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте журнал платежей.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept>, and create a journal line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept> и создайте строку журнала.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>On the <bpt id="p1">**</bpt>List<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Account<ept id="p2">**</ept> field, select the vendor account that is associated with the bank account that is used for foreign currency conversion transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Список<ept id="p1">**</ept> в поле <bpt id="p2">**</bpt>Счет<ept id="p2">**</ept> выберите счет поставщика, связанный с банковским счетом, который используется для проводок конвертации иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>In the <bpt id="p1">**</bpt>Debit<ept id="p1">**</ept> field, enter the transaction amount in the foreign currency that must be sold.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Дебет<ept id="p1">**</ept> введите сумму проводки в иностранной валюте, которую необходимо продать.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>In the <bpt id="p1">**</bpt>Currency<ept id="p1">**</ept> field, enter the code for the foreign currency that is ordered to be sold.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Валюта<ept id="p1">**</ept> введите код иностранной валюты, на продажу которой дается поручение.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>In the <bpt id="p1">**</bpt>Offset account type<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>Bank<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Тип корр. счета<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Банк<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>In the <bpt id="p1">**</bpt>Offset account<ept id="p1">**</ept> field, select the bank account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Корр. счет<ept id="p1">**</ept> выберите банковский счет.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>In the <bpt id="p1">**</bpt>Method of payment<ept id="p1">**</ept> field, select the method of payment that you created earlier for the sale of foreign currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Способ оплаты<ept id="p1">**</ept> выберите способ оплаты, созданный ранее для продажи иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>On the <bpt id="p1">**</bpt>Bank<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Bank transaction type<ept id="p2">**</ept> field, validate the value that is automatically filled in based on the method of payment, or select the transaction type for the foreign currency sale transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Банк<ept id="p1">**</ept> в поле <bpt id="p2">**</bpt>Тип банковской проводки<ept id="p2">**</ept> проверьте значение, которое заполняется автоматически на основе метода оплаты, или выберите тип проводки для проводки продажи иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>On the <bpt id="p1">**</bpt>Payment<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Posting profile<ept id="p2">**</ept> field, verify that the value equals the profile that is used to post to the <bpt id="p3">**</bpt>Money transfers in transit<ept id="p3">**</ept> ledger account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Платеж<ept id="p1">**</ept> в поле <bpt id="p2">**</bpt>Профиль разноски<ept id="p2">**</ept> убедитесь, что значение равно профилю, который используется для разноски на счет учета <bpt id="p3">**</bpt>Переводы в пути<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Select <bpt id="p1">**</bpt>Generate payments<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Создать платежи<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>In the <bpt id="p1">**</bpt>Generate payments<ept id="p1">**</ept> dialog box, select the <bpt id="p2">**</bpt>Export format<ept id="p2">**</ept> option, and then, in the <bpt id="p3">**</bpt>Export format<ept id="p3">**</ept> field, select <bpt id="p4">**</bpt>Currency transfer order<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В диалоговом окне <bpt id="p1">**</bpt>Создание платежей<ept id="p1">**</ept> выберите параметр <bpt id="p2">**</bpt>Формат экспорта<ept id="p2">**</ept>, затем в поле <bpt id="p3">**</bpt>Формат экспорта<ept id="p3">**</ept> выберите <bpt id="p4">**</bpt>Поручение на конвертацию/перевод валюты<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Alternatively, select the <bpt id="p1">**</bpt>Method of payment<ept id="p1">**</ept> option, and then, in the <bpt id="p2">**</bpt>Method of payment<ept id="p2">**</ept> field, select the method of payment for the foreign currency sale.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно также выбрать параметр <bpt id="p1">**</bpt>Способ оплаты<ept id="p1">**</ept>, затем в поле <bpt id="p2">**</bpt>Способ оплаты<ept id="p2">**</ept> выбрать метод оплаты для продажи иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>In the <bpt id="p1">**</bpt>Bank account<ept id="p1">**</ept> field, select the bank account for the payment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Банковский счет<ept id="p1">**</ept> выберите банковский счет для платежа.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>In the <bpt id="p1">**</bpt>Bank currency transfer<ept id="p1">**</ept> dialog box, enter the required information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В диалоговом окне <bpt id="p1">**</bpt>Параметры платежа<ept id="p1">**</ept> введите требуемую информацию.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Worker</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Рабочий</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Select the worker who is responsible for the foreign currency sale.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите работника, ответственного за продажу иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Transit account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Транзитный счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Select the bank account where rubles should be received for the foreign currency that is sold (the result of the foreign currency conversion).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите банковский счет, на который должны поступить рубли за проданную иностранную валюту (результат конвертирования иностранной валюты).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>The template that will be used to print a foreign currency sales order is taken from this bank account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Шаблон, который будет использоваться для печати поручения на продажу иностранной валюты, берется из данного банковского счета.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Валютное</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Select the currency code that should be received in the transit bank account after the foreign currency sale.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите код валюты, которая должна быть получена на транзитный банковский счет после продажи иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Bank exchange rate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обменный курс банка</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Identify the foreign currency exchange rate for the foreign currency conversion.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определите валютный курс иностранной валюты для конвертации иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>This information will be printed on the foreign currency sale order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эта информация печатается в поручении на продажу иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Supplier account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Счет поставщика</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Select information about the contract in foreign currency that is the basis for the foreign currency sale transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите сведения о контракте в иностранной валюте, который является основанием для проводки продажи иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Purchase agreement</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Договор покупки</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Select information about the contract in foreign currency that is the basis for the foreign currency sale transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите сведения о контракте в иностранной валюте, который является основанием для проводки продажи иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>Print Document</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Печатать документ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>Set the option to "Yes" to print a foreign currency sale order when payments are generated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Задайте для этого параметра значение "Да", чтобы печатать поручение на продажу иностранной валюты при создании платежей.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>On the payment journal line, the value of the <bpt id="p1">**</bpt>Payment status<ept id="p1">**</ept> field is updated to <bpt id="p2">**</bpt>Sent<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В строке журнала платежей значение поля <bpt id="p1">**</bpt>Статус платежа<ept id="p1">**</ept> обновляется до <bpt id="p2">**</bpt>Отправлено<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>On the <bpt id="p1">**</bpt>Payment<ept id="p1">**</ept> tab, the fields <bpt id="p2">**</bpt>Transit account<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Foreign counteragent<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Contracts group<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Contract of the deal<ept id="p5">**</ept> are updated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Платеж<ept id="p1">**</ept> обновляются поля <bpt id="p2">**</bpt>Транзитный счет<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Иностранный контрагент<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Группа договоров<ept id="p4">**</ept> и <bpt id="p5">**</bpt>Контракт по сделке<ept id="p5">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Select <bpt id="p1">**</bpt>Print <ph id="ph1">\&gt;</ph> Currency sale order<ept id="p1">**</ept> to print the foreign currency sales order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Печать <ph id="ph1">\&gt;</ph> Поручения на продажу валюты<ept id="p1">**</ept> для печати поручения на продажу иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>The report contains the following information:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В отчете содержится следующая информация:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>Validate and post the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проверьте и разнесите журнал.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Create transactions for the bank commission and the local currency (rubles) amount that is received as a result of the foreign currency sale</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание проводок по комиссии банка и суммы в основной валюте (в рублях), полученной в результате продажи иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>After you post the payment order for a foreign currency sale, you can register the bank commission and the local currency that is received as a result of the foreign currency conversion.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">После учета платежного поручения для продажи иностранной валюты можно зарегистрировать комиссию банка и в местную валюту, полученную в результате конвертации иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>(In this case, Russian rubles are received.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(В данном случае получаются российские рубли.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>Go to <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Payments <ph id="ph2">\&gt;</ph> Payment journal<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Платежи <ph id="ph2">\&gt;</ph> Журнал платежей<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Create a payment journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте журнал платежей.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept>, create a journal line for the bank commission withdrawal, and enter the following information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>, создайте строку журнала для списания комиссии банка и введите следующие сведения.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Tab</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вкладка</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>List</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Список</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>Select the vendor account that you used for the foreign currency sale transaction in the previous procedure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите счет поставщика, который был использован при проводке по продаже иностранной валюты в предыдущей процедуре.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">по кредиту</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Enter the amount of the bank commission.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Введите сумму комиссии банка.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Валютное</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Select the currency of the bank commission.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите валюту комиссии банка.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>Offset account type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип корр. счета</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>Select <bpt id="p1">**</bpt>Ledger<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Главная книга<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>Offset account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Корр. счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>Select the ledger account for bank commission losses.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите счет ГК для убытков от банковской комиссии.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>Bank</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банк</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Bank transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип банковской проводки</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>Select the transaction type that has the <bpt id="p1">**</bpt>Currency sale<ept id="p1">**</ept> extended type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите тип проводки, который имеет расширенный тип <bpt id="p1">**</bpt>Продажа валюты<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>Payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платеж</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>Posting profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Профиль разноски</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>Verify that the value equals the profile that is used to post to the <bpt id="p1">**</bpt>Money transfers in transit<ept id="p1">**</ept> ledger account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК <bpt id="p1">**</bpt>Переводы в пути<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>Create a journal line for the received local currency, and enter the following information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте строку журнала для полученной местной валюты и введите следующие сведения.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>Tab</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вкладка</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>List</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Список</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Select the vendor account that you used for the foreign currency sale transaction in the previous procedure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите счет поставщика, который был использован при проводке по продаже иностранной валюты в предыдущей процедуре.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">по кредиту</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Enter the amount of accounting currency (rubles) that is received.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Введите сумму валюты учета (в рублях), которая была получена.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Валютное</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Select the accounting currency, which is the currency that is received as a result of the foreign currency sale (rubles).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите валюту учета, которая является валютой, полученной в результате продажи иностранной валюты (рубли).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Offset account type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип корр. счета</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>Select <bpt id="p1">**</bpt>Bank<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Банк<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>Offset account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Корр. счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>Select the bank account where the accounting currency is received.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите банковский счет, на который получена валюта учета.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Bank</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банк</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Bank transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип банковской проводки</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Select the transaction type that has the <bpt id="p1">**</bpt>Currency sale<ept id="p1">**</ept> extended type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите тип проводки, который имеет расширенный тип <bpt id="p1">**</bpt>Продажа валюты<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>Payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платеж</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Currency (under <bpt id="p1">**</bpt>Currency conversion<ept id="p1">**</ept>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Валюта (в пункте <bpt id="p1">**</bpt>Конвертация валюты<ept id="p1">**</ept>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Select the foreign currency that was sold.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите иностранную валюту, которая была продана.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>This foreign currency code must differ from the accounting currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Этот код иностранной валюты должен отличаться от валюты учета.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>Bank exchange rate (under <bpt id="p1">**</bpt>Currency conversion<ept id="p1">**</ept>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обменный курс банка (в пункте <bpt id="p1">**</bpt>Конвертация валюты<ept id="p1">**</ept>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Enter the bank exchange rate that was applied to the foreign currency sale.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Введите валютный курс банка, который применялся при продаже иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>Posting profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Профиль разноски</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>Verify that the value equals the profile that is used to post to the <bpt id="p1">**</bpt>Money transfers in transit<ept id="p1">**</ept> ledger account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК <bpt id="p1">**</bpt>Переводы в пути<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>Post the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разноска журнала.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Post the settlement of foreign currency sale transactions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разноска сопоставления проводок продажи иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>You post the settlement of foreign currency sale transactions to generate profit/loss transactions from them and from the foreign currency exchange difference transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сопоставление проводок по продаже иностранной валюты разносится для создания проводок прибылей/убытков от них и от проводок курсовой разницы иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Bank groups<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Настройка <ph id="ph2">\&gt;</ph> Банковские группы<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Select a bank, and then select <bpt id="p1">**</bpt>Functions <ph id="ph1">\&gt;</ph> Settle open transactions<ept id="p1">**</ept> to settle foreign currency sale transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите банк, затем выберите <bpt id="p1">**</bpt>Функции <ph id="ph1">\&gt;</ph> Сопоставление открытых проводок<ept id="p1">**</ept> для сопоставления проводок продажи иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>In the <bpt id="p1">**</bpt>Settlement posting date<ept id="p1">**</ept> field, select the posting date type: <bpt id="p2">**</bpt>Latest date<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Today's date<ept id="p3">**</ept>, or <bpt id="p4">**</bpt>Selected date<ept id="p4">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Дата разноски сопоставления<ept id="p1">**</ept> выберите тип даты разноски: <bpt id="p2">**</bpt>Последняя дата<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Текущая дата<ept id="p3">**</ept> или <bpt id="p4">**</bpt>Выбранная дата<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>If you selected <bpt id="p1">**</bpt>Selected date<ept id="p1">**</ept> in the <bpt id="p2">**</bpt>Settlement posting date<ept id="p2">**</ept> field, manually enter the posting date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если вы выбрали <bpt id="p1">**</bpt>Выбранная дата<ept id="p1">**</ept> в поле <bpt id="p2">**</bpt>Дата разноски сопоставления<ept id="p2">**</ept>, вручную введите дату разноски.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Review the transactions that will be settled:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотрите проводки, которые будут сопоставлены:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>On the <bpt id="p1">**</bpt>Overview<ept id="p1">**</ept> tab, the <bpt id="p2">**</bpt>Transit account<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Bank account - inflow<ept id="p3">**</ept> fields are specific to the foreign currency sale:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Обзор<ept id="p1">**</ept> поля <bpt id="p2">**</bpt>Транзитный счет<ept id="p2">**</ept> и <bpt id="p3">**</bpt>Банковский счет (поступление)<ept id="p3">**</ept> специфичны для продажи иностранной валюты:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>For positive transactions, the value of the <bpt id="p1">**</bpt>Transit account<ept id="p1">**</ept> field equals the transit bank account that was selected for the foreign currency sale transaction in the <bpt id="p2">**</bpt>Transit account<ept id="p2">**</ept> field in the <bpt id="p3">**</bpt>Bank currency transfer<ept id="p3">**</ept> dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Для проводок с положительным значением значение поля <bpt id="p1">**</bpt>Транзитный счет<ept id="p1">**</ept> равно транзитному банковскому счету, который был выбран для проводки по продаже иностранной валюты в поле <bpt id="p2">**</bpt>Транзитный счет<ept id="p2">**</ept> в диалоговом окне <bpt id="p3">**</bpt>Параметры платежа<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>For negative transactions, the value of the <bpt id="p1">**</bpt>Bank account - inflow<ept id="p1">**</ept> field equals the bank account where the accounting currency amount is received as a result of the foreign currency sale transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Для проводок с отрицательным значением поле <bpt id="p1">**</bpt>Банковский счет (поступление)<ept id="p1">**</ept> равно банковскому счету, на который получена сумма в валюте учета в результате проводки продажи иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>The values of these fields should be equal for transactions that are marked for settlement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Значения в этих полях должны быть равны для проводок, помеченных для сопоставления.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> tab, the fields in the <bpt id="p2">**</bpt>Currency conversion<ept id="p2">**</ept> section are specific to the foreign currency sale.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Общие<ept id="p1">**</ept> поля в разделе <bpt id="p2">**</bpt>Конвертация валюты<ept id="p2">**</ept> специфичны для продажи иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>Mark transactions for settlement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Пометить проводки для сопоставления.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>During settlement, the following information is validated:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Во время сопоставления проверяется следующая информация:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>The transaction type of both transactions must have the <bpt id="p1">**</bpt>Currency sale<ept id="p1">**</ept> extended type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип проводки обоих проводок должен иметь расширенный тип <bpt id="p1">**</bpt>Продажа валюты<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>The value of the <bpt id="p1">**</bpt>Currency<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Currency conversion<ept id="p2">**</ept> section of the <bpt id="p3">**</bpt>General<ept id="p3">**</ept> tab for the positive transaction (the foreign currency sale) must equal the value of the <bpt id="p4">**</bpt>Currency<ept id="p4">**</ept> field on the <bpt id="p5">**</bpt>Overview<ept id="p5">**</ept> tab for the negative transaction (the accounting currency receipt that is a result of the foreign currency sale).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Значение поля <bpt id="p1">**</bpt>Валюта<ept id="p1">**</ept> в разделе <bpt id="p2">**</bpt>Конвертация валюты<ept id="p2">**</ept> на вкладке <bpt id="p3">**</bpt>Общие<ept id="p3">**</ept> для положительной проводки (продажа иностранной валюты) должно быть равно значение поля <bpt id="p4">**</bpt>Валюта<ept id="p4">**</ept> на вкладке <bpt id="p5">**</bpt>Обзор<ept id="p5">**</ept> для отрицательной проводки (поступление в валюте учета в результате продажи иностранной валюты).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>The bank account that is specified in the <bpt id="p1">**</bpt>Transit account<ept id="p1">**</ept> field for the positive transaction must equal the bank account that is specified in the <bpt id="p2">**</bpt>Bank account - inflow<ept id="p2">**</ept> field for the negative transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банковский счет, указанный в поле <bpt id="p1">**</bpt>Транзитный счет<ept id="p1">**</ept> для положительной проводки, должен быть равен банковскому счету, указанному в поле <bpt id="p2">**</bpt>Банковский счет (поступление)<ept id="p2">**</ept> для отрицательной проводки.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>Select <bpt id="p1">**</bpt>Post<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Разнести<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>The following transactions are generated:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Следующие проводки создаются:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Unrealized foreign currency exchange difference (if, for the foreign currency that is sold, the foreign currency exchange rate on the date of the foreign currency sale differs from the foreign currency exchange rate on the accounting currency receipt date)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нереализованная курсовая разница иностранной валюты (если, для иностранной валюты, которая продана, валютный курс иностранной валюты на дату продажи иностранной валюты отличается от курс обмена иностранной валюты на дату получения валюты учета)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>Foreign currency sale profit or loss (if, for the foreign currency that is sold, the bank exchange rate differs from the Central Bank exchange rate on the date of the accounting currency receipt transaction)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Прибыль или убыток от продажи валюты (если, для проданной иностранной валюты, валютный курс банка отличается от валютного курса Центрального банка на дату проводки поступления валюты учета)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>You can review the transactions that are generated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно просмотреть проводки, которые будут созданы.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>On the <bpt id="p1">**</bpt>Bank groups<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Transactions<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На страницы <bpt id="p1">**</bpt>Банковские группы<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Проводки<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>You can also post an unsettlement of the transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Имеется возможность разноски отмены сопоставления проводок.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>On the <bpt id="p1">**</bpt>Bank groups<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Functions <ph id="ph1">\&gt;</ph> Closed transitions editing<ept id="p2">**</ept>, mark transactions, and then select <bpt id="p3">**</bpt>Reverse<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Банковские группы<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Функции <ph id="ph1">\&gt;</ph> Редактирование сопоставленных проводок<ept id="p2">**</ept>, отметьте проводки, затем выберите <bpt id="p3">**</bpt>Сторнировать<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Foreign currency purchases</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Покупка иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>Create a transaction of rubles movement for a foreign currency purchase</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание проводки перевода в рублях для покупки иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>Go to <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Payments <ph id="ph2">\&gt;</ph> Payment journal<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Платежи <ph id="ph2">\&gt;</ph> Журнал платежей<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>Create a payment journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте журнал платежей.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept>, create a journal line, and enter the following information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>, создайте строку журнала и введите следующие сведения.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Tab</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вкладка</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>List</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Список</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="287">
+          <source>Account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="288">
+          <source>Select the vendor account that is associated with the bank account that is used for foreign currency conversion transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите счет поставщика, связанный с банковским счетом, который используется для проводок конвертации иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="289">
+          <source>If you enter an amount in the <bpt id="p1">**</bpt>Debit<ept id="p1">**</ept> field, and if the <bpt id="p2">**</bpt>Bank transaction type<ept id="p2">**</ept> field is set to the transaction type of the <bpt id="p3">**</bpt>Value<ept id="p3">**</ept> extended type, this field is automatically filled in when you select a bank account in the <bpt id="p4">**</bpt>Offset account<ept id="p4">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если ввести сумму в поле <bpt id="p1">**</bpt>Дебет<ept id="p1">**</ept> и если в поле <bpt id="p2">**</bpt>Тип банковской проводки<ept id="p2">**</ept> задан тип проводки расширенного типа <bpt id="p3">**</bpt>Значение<ept id="p3">**</ept>, это поле заполняется автоматически при выборе банковского счета в поле <bpt id="p4">**</bpt>Корр. счет<ept id="p4">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="290">
+          <source>Debit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">по дебету</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="291">
+          <source>Enter the transaction amount in the accounting currency (rubles).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Введите сумму проводки в валюте учета (рубли).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="292">
+          <source>Currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Валютное</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="293">
+          <source>Enter the code for the accounting currency (rubles).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Введите код валюты учета (рубли).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="294">
+          <source>Offset account type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип корр. счета</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="295">
+          <source>Select <bpt id="p1">**</bpt>Bank<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Банк<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="296">
+          <source>Offset account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Корр. счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="297">
+          <source>Select the bank account that rubles are moved from for the foreign currency purchase.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите банковский счет, на который переводятся рубли для покупки иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="298">
+          <source>Method of payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Способ оплаты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="299">
+          <source>Select the method of payment that you created earlier for the purchase of foreign currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите способ оплаты, созданный ранее для покупки иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="300">
+          <source>Bank</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банк</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="301">
+          <source>Bank transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип банковской проводки</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="302">
+          <source>Validate the value that is automatically filled in based on the method of payment, or select the transaction type for the foreign currency purchase transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проверьте значение, которое заполняется автоматически на основе метода оплаты, или выберите тип проводки для проводки покупки иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="303">
+          <source>Payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платеж</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="304">
+          <source>Posting profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Профиль разноски</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="305">
+          <source>Verify that the value equals the profile that is used to post to the <bpt id="p1">**</bpt>Money transfers in transit<ept id="p1">**</ept> ledger account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК <bpt id="p1">**</bpt>Переводы в пути<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="306">
+          <source>Select <bpt id="p1">**</bpt>Generate payments<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Создать платежи<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="307">
+          <source>In the <bpt id="p1">**</bpt>Generate payments<ept id="p1">**</ept> dialog box, select the <bpt id="p2">**</bpt>Method of payment<ept id="p2">**</ept> option, and then, in the <bpt id="p3">**</bpt>Method of payment<ept id="p3">**</ept> field, select the method of payment for the foreign currency purchase.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В диалоговом окне <bpt id="p1">**</bpt>Создать платежи<ept id="p1">**</ept> выберите параметр <bpt id="p2">**</bpt>Способ оплаты<ept id="p2">**</ept>, затем в поле <bpt id="p3">**</bpt>Способ оплаты<ept id="p3">**</ept> выберите метод оплаты для покупки иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="308">
+          <source>In the <bpt id="p1">**</bpt>Bank account<ept id="p1">**</ept> field, select the bank account for the payment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Банковский счет<ept id="p1">**</ept> выберите банковский счет для платежа.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="309">
+          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="310">
+          <source>In the <bpt id="p1">**</bpt>Bank currency transfer<ept id="p1">**</ept> dialog box, enter the required information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В диалоговом окне <bpt id="p1">**</bpt>Параметры платежа<ept id="p1">**</ept> введите требуемую информацию.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="311">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="312">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="313">
+          <source>Worker</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Рабочий</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="314">
+          <source>Select the worker who is responsible for the foreign currency purchase.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите работника, ответственного за покупку иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="315">
+          <source>Transit account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Транзитный счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="316">
+          <source>Select the bank account where the foreign currency that is purchased should be received (the result of the foreign currency conversion).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите банковский счет, на который должна поступить приобретенная иностранная валюта (результат конвертирования иностранной валюты).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="317">
+          <source>Currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Валютное</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="318">
+          <source>Select the foreign currency code that should be received in the transit bank account after the foreign currency purchase.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите код иностранной валюты, которая должна быть получена на транзитный банковский счет после покупки иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="319">
+          <source>Bank exchange rate</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обменный курс банка</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="320">
+          <source>Identify the foreign currency exchange rate for the foreign currency conversion.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определите валютный курс иностранной валюты для конвертации иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="321">
+          <source>This information will be printed on the currency purchase order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эта информация печатается в поручении на покупку иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="322">
+          <source>Supplier account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Счет поставщика</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="323">
+          <source>Select information about the contract in foreign currency that is the basis for the foreign currency purchase transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите сведения о контракте в иностранной валюте, который является основанием для проводки покупки иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="324">
+          <source>Purchase agreement</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Договор покупки</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="325">
+          <source>Select information about the contract in foreign currency that is the basis for the foreign currency purchase transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите сведения о контракте в иностранной валюте, который является основанием для проводки покупки иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="326">
+          <source>Print Document</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Печатать документ</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="327">
+          <source>Set the option to "Yes" to print a foreign currency purchase order when payments are generated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Задайте для этого параметра значение "Да", чтобы печатать поручение на покупку иностранной валюты при создании платежей.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="328">
+          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="329">
+          <source>On the payment journal line, the <bpt id="p1">**</bpt>Payment status<ept id="p1">**</ept> field is updated to <bpt id="p2">**</bpt>Sent<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В строке журнала платежей поле <bpt id="p1">**</bpt>Статус платежа<ept id="p1">**</ept> обновляется до <bpt id="p2">**</bpt>Отправлено<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="330">
+          <source>On the <bpt id="p1">**</bpt>Payment<ept id="p1">**</ept> tab, the <bpt id="p2">**</bpt>Transit account<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Foreign counteragent<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Contracts group<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Contract of the deal<ept id="p5">**</ept> fields are updated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Платеж<ept id="p1">**</ept> обновляются поля <bpt id="p2">**</bpt>Транзитный счет<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Иностранный контрагент<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Группа договоров<ept id="p4">**</ept> и <bpt id="p5">**</bpt>Контракт по сделке<ept id="p5">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="331">
+          <source>During generation of the foreign currency purchase order, the following information is validated:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Во время создания поручения на покупку иностранной валюты проверяется следующая информация:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="332">
+          <source>The currency code of the transit bank account must differ from the accounting currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Код валюты транзитного банковского счета должен отличаться от валюты учета.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="333">
+          <source>The currency code of the transit bank account must equal the currency code that is selected in the <bpt id="p1">**</bpt>Bank currency transfer<ept id="p1">**</ept> dialog box.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Код валюты транзитного банковского счета должен быть равен код валюты, которая выбрана в диалоговом окне <bpt id="p1">**</bpt>Параметры платежа<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="334">
+          <source>The currency code of the payment journal line must be the accounting currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Код валюты из строки журнала платежа должен быть в валюте учета.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="335">
+          <source>Select <bpt id="p1">**</bpt>Print <ph id="ph1">\&gt;</ph> Currency purchase order<ept id="p1">**</ept> to print the foreign currency purchase order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Печать <ph id="ph1">\&gt;</ph> Поручения на покупку валюты<ept id="p1">**</ept> для печати поручения на покупку иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="336">
+          <source>(The template is taken from the transit bank account that is selected in the <bpt id="p1">**</bpt>Bank currency transfer<ept id="p1">**</ept> dialog box.)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Шаблон берется из транзитного банковского счета, который выбран в диалоговом окне <bpt id="p1">**</bpt>Параметры платежа<ept id="p1">**</ept>.)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="337">
+          <source>Validate and post the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проверьте и разнесите журнал.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="338">
+          <source>Create transactions for the bank commission and the foreign currency amount that is received as a result of the foreign currency purchase</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание проводок по комиссии банка и суммы в иностранной валюте, полученной в результате покупки иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="339">
+          <source>After you post the payment order for a foreign currency purchase, you can register the bank commission and the foreign currency amount that is received as a result of the foreign currency conversion.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">После учета платежного поручения для покупки иностранной валюты можно зарегистрировать комиссию банка и сумму в иностранной валюте, полученную в результате конвертации иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="340">
+          <source>Go to <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Payments <ph id="ph2">\&gt;</ph> Payment journal<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Платежи <ph id="ph2">\&gt;</ph> Журнал платежей<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="341">
+          <source>Create a payment journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте журнал платежей.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="342">
+          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept>, create a journal line for the bank commission withdrawal, and enter the following information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>, создайте строку журнала для списания комиссии банка и введите следующие сведения.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="343">
+          <source>Tab</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вкладка</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="344">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="345">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="346">
+          <source>List</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Список</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="347">
+          <source>Account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="348">
+          <source>Select the vendor account that you used for the foreign currency purchase transaction in the previous procedure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите счет поставщика, который был использован при проводке по покупке иностранной валюты в предыдущей процедуре.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="349">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">по кредиту</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="350">
+          <source>Enter the amount of the bank commission.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Введите сумму комиссии банка.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="351">
+          <source>Currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Валютное</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="352">
+          <source>Select the currency code of the bank commission.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите код валюты комиссии банка.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="353">
+          <source>Offset account type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип корр. счета</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="354">
+          <source>Select <bpt id="p1">**</bpt>Ledger<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Главная книга<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="355">
+          <source>Offset account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Корр. счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="356">
+          <source>Select the ledger account for bank commission losses.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите счет ГК для убытков от банковской комиссии.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="357">
+          <source>Bank</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банк</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="358">
+          <source>Bank transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип банковской проводки</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="359">
+          <source>Select the transaction type that has the <bpt id="p1">**</bpt>Currency purchase<ept id="p1">**</ept> extended type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите тип проводки, который имеет расширенный тип <bpt id="p1">**</bpt>Покупка валюты<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="360">
+          <source>Payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платеж</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="361">
+          <source>Posting profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Профиль разноски</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="362">
+          <source>Verify that the value equals the profile that is used to post to the <bpt id="p1">**</bpt>Money transfers in transit<ept id="p1">**</ept> ledger account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК <bpt id="p1">**</bpt>Переводы в пути<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="363">
+          <source>Create a journal line for the received foreign currency, and enter the following information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте строку журнала для полученной иностранной валюты и введите следующие сведения.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="364">
+          <source>Tab</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вкладка</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="365">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="366">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="367">
+          <source>List</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Список</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="368">
+          <source>Account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="369">
+          <source>Select the vendor account that you used for the foreign currency purchase transaction in the previous procedure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите счет поставщика, который был использован при проводке по покупке иностранной валюты в предыдущей процедуре.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="370">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">по кредиту</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="371">
+          <source>Enter the amount of foreign currency that is received.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Введите сумму в иностранной валюте, которая была получена.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="372">
+          <source>Currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Валютное</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="373">
+          <source>Select the code for the foreign currency that is purchased.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите код купленной иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="374">
+          <source>Offset account type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип корр. счета</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="375">
+          <source>Select <bpt id="p1">**</bpt>Bank<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Банк<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="376">
+          <source>Offset account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Корр. счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="377">
+          <source>Select the bank account where the foreign currency is received.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите банковский счет, на который получена иностранная валюта.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="378">
+          <source>The bank of this bank account should have a relation for the vendor account that you selected in the <bpt id="p1">**</bpt>Account<ept id="p1">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банк этого банковского счета должен иметь связь со счетом поставщика, который выбран в поле <bpt id="p1">**</bpt>Счет<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="379">
+          <source>Bank</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банк</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="380">
+          <source>Bank transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип банковской проводки</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="381">
+          <source>Select the transaction type that has the <bpt id="p1">**</bpt>Currency purchase<ept id="p1">**</ept> extended type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите тип проводки, который имеет расширенный тип <bpt id="p1">**</bpt>Покупка валюты<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="382">
+          <source>Payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платеж</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="383">
+          <source>Currency (under <bpt id="p1">**</bpt>Currency conversion<ept id="p1">**</ept>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Валюта (в пункте <bpt id="p1">**</bpt>Конвертация валюты<ept id="p1">**</ept>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="384">
+          <source>Select the accounting currency that is used for the foreign currency purchase.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите валюту учета, используемую для покупки иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="385">
+          <source>Bank exchange rate (under <bpt id="p1">**</bpt>Currency conversion<ept id="p1">**</ept>)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обменный курс банка (в пункте <bpt id="p1">**</bpt>Конвертация валюты<ept id="p1">**</ept>)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="386">
+          <source>Enter the bank exchange rate that was applied to the foreign currency purchase.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Введите валютный курс банка, который применялся при покупке иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="387">
+          <source>Posting profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Профиль разноски</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="388">
+          <source>Verify that the value equals the profile that is used to post to the <bpt id="p1">**</bpt>Money transfers in transit<ept id="p1">**</ept> ledger account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК <bpt id="p1">**</bpt>Переводы в пути<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="389">
+          <source>Post the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разноска журнала.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="390">
+          <source>During posting, the following information is validated:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Во время разности проверяется следующая информация:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="391">
+          <source>The transaction currency code must differ from the company's accounting currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Код валюты проводки должен отличаться от валюты учета компании.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="392">
+          <source>The currency code that is selected in the <bpt id="p1">**</bpt>Currency<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Payment<ept id="p2">**</ept> tab must equal the company's accounting currency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Код валюты, который выбран в поле <bpt id="p1">**</bpt>Валюта<ept id="p1">**</ept> на вкладке <bpt id="p2">**</bpt>Платеж<ept id="p2">**</ept>, должен быть равен валюте учета компании.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="393">
+          <source>Values must be entered in the <bpt id="p1">**</bpt>Currency<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Bank exchange rate<ept id="p2">**</ept> fields on the <bpt id="p3">**</bpt>Payment<ept id="p3">**</ept> tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Значения должны быть введены в поля <bpt id="p1">**</bpt>Валюта<ept id="p1">**</ept> и <bpt id="p2">**</bpt>Обменный курс банка<ept id="p2">**</ept> на вкладке <bpt id="p3">**</bpt>Платеж<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="394">
+          <source>Post the settlement of foreign currency purchase transactions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разноска сопоставления проводок покупки иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="395">
+          <source>You post the settlement of foreign currency purchase transactions to generate profit/loss transactions from them.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разноска сопоставления проводки покупки иностранной валюты выполняется для создания проводок прибылей и убытков от них.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="396">
+          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Bank groups<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Настройка <ph id="ph2">\&gt;</ph> Банковские группы<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="397">
+          <source>Select a bank, and then select <bpt id="p1">**</bpt>Functions <ph id="ph1">\&gt;</ph> Settle open transactions<ept id="p1">**</ept> to settle foreign currency purchase transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите банк, затем выберите <bpt id="p1">**</bpt>Функции <ph id="ph1">\&gt;</ph> Сопоставление открытых проводок<ept id="p1">**</ept> для сопоставления проводок покупки иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="398">
+          <source>Mark transactions for settlement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Пометить проводки для сопоставления.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="399">
+          <source>During settlement, the following information is validated:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Во время сопоставления проверяется следующая информация:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="400">
+          <source>The transaction type of both transactions must have the <bpt id="p1">**</bpt>Currency purchase<ept id="p1">**</ept> extended type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип проводки обоих проводок должен иметь расширенный тип <bpt id="p1">**</bpt>Покупка валюты<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="401">
+          <source>The value of the <bpt id="p1">**</bpt>Currency<ept id="p1">**</ept> field in the <bpt id="p2">**</bpt>Currency conversion<ept id="p2">**</ept> section of the <bpt id="p3">**</bpt>General<ept id="p3">**</ept> tab for the foreign currency purchase transaction must equal the value of the <bpt id="p4">**</bpt>Currency<ept id="p4">**</ept> field on <bpt id="p5">**</bpt>Overview<ept id="p5">**</ept> tab for the transaction for the foreign currency receipt.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Значение поля <bpt id="p1">**</bpt>Валюта<ept id="p1">**</ept> в разделе <bpt id="p2">**</bpt>Конвертация валюты<ept id="p2">**</ept> на вкладке <bpt id="p3">**</bpt>Общие<ept id="p3">**</ept> для проводки покупки иностранной валюты должно быть равно значение поля <bpt id="p4">**</bpt>Валюта<ept id="p4">**</ept> на вкладке <bpt id="p5">**</bpt>Обзор<ept id="p5">**</ept> для проводки поступления иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="402">
+          <source>The bank account that is specified in the <bpt id="p1">**</bpt>Transit account<ept id="p1">**</ept> field for the foreign currency purchase transaction must equal the bank account where the foreign currency is received.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банковский счет, указанный в поле <bpt id="p1">**</bpt>Транзитный счет<ept id="p1">**</ept> для проводки покупки иностранной валюты, должен быть равен банковскому счету, на который получена иностранная валюта.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="403">
+          <source>Select <bpt id="p1">**</bpt>Post<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Разнести<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="404">
+          <source>The transaction for profit or loss from the foreign currency purchase is generated (if, for the foreign currency that is purchased, the bank exchange rate differs from the Central Bank exchange rate on the date of the foreign currency receipt).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проводка для прибыли или убытка от покупки иностранной валюты создается (если, для купленной иностранной валюты, курс обмена банка отличается от валютного курса Центрального банка на дату поступления иностранной валюты).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="405">
+          <source>You can review the transactions that are generated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно просмотреть проводки, которые будут созданы.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="406">
+          <source>On the <bpt id="p1">**</bpt>Bank groups<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Transactions<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На страницы <bpt id="p1">**</bpt>Банковские группы<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Проводки<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="407">
+          <source>You can also post an unsettlement of transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Имеется возможность разноски отмены сопоставления проводок.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="408">
+          <source>On the <bpt id="p1">**</bpt>Bank groups<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Functions <ph id="ph1">\&gt;</ph> Closed transitions editing<ept id="p2">**</ept>, mark transactions, and then select <bpt id="p3">**</bpt>Reverse<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Банковские группы<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Функции <ph id="ph1">\&gt;</ph> Редактирование сопоставленных проводок<ept id="p2">**</ept>, отметьте проводки, затем выберите <bpt id="p3">**</bpt>Сторнировать<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="409">
+          <source>Foreign currency transfers</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Переводы иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="410">
+          <source>Create a foreign currency movement for a foreign currency transfer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание перемещения иностранной валюты для перевода иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="411">
+          <source>Go to <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Payments <ph id="ph2">\&gt;</ph> Payment journal<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Платежи <ph id="ph2">\&gt;</ph> Журнал платежей<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="412">
+          <source>Create a payment journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте журнал платежей.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="413">
+          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept>, create a journal line, and enter the following information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>, создайте строку журнала и введите следующие сведения.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="414">
+          <source>Tab</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вкладка</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="415">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="416">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="417">
+          <source>List</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Список</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="418">
+          <source>Account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="419">
+          <source>Select the vendor account number that is associated with the bank account that is used for currency conversion transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите номер счет поставщика, связанный с банковским счетом, который используется для проводок конвертации валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="420">
+          <source>Debit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">по дебету</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="421">
+          <source>Enter the transaction amount for the foreign currency transfer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Введите сумму проводки для перевода иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="422">
+          <source>Currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Валютное</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="423">
+          <source>Enter the code for the currency that is transferred.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Введите код переводимой валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="424">
+          <source>Offset account type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип корр. счета</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="425">
+          <source>Select <bpt id="p1">**</bpt>Bank<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Банк<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="426">
+          <source>Offset account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Корр. счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="427">
+          <source>Select the bank account that the foreign currency transfer is generated from.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите банковский счет, с которого производится перевод иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="428">
+          <source>The bank of this bank account must be associated with the vendor account that you selected in the <bpt id="p1">**</bpt>Account<ept id="p1">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банк этого банковского счета должен быть связан со счетом поставщика, который выбран в поле <bpt id="p1">**</bpt>Счет<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="429">
+          <source>Method of payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Способ оплаты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="430">
+          <source>Select the method of payment that you created earlier for the transfer of foreign currency transfer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите способ оплаты, созданный ранее для перевода иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="431">
+          <source>Bank</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банк</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="432">
+          <source>Bank transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип банковской проводки</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="433">
+          <source>Validate the value that is automatically filled in based on the method of payment, or select the transaction type for the foreign currency transfer transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проверьте значение, которое заполняется автоматически на основе метода оплаты, или выберите тип проводки для проводки перевода иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="434">
+          <source>Payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платеж</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="435">
+          <source>Posting profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Профиль разноски</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="436">
+          <source>Verify that the value equals the profile that is used to post to the <bpt id="p1">**</bpt>Money transfers in transit<ept id="p1">**</ept> ledger account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК <bpt id="p1">**</bpt>Переводы в пути<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="437">
+          <source>Validate and post the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проверьте и разнесите журнал.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="438">
+          <source>Create transactions for the bank commission and the result of the foreign currency transfer</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание проводок для банковской комиссии и результата перевода иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="439">
+          <source>Go to <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Payments <ph id="ph2">\&gt;</ph> Payment journal<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Платежи <ph id="ph2">\&gt;</ph> Журнал платежей<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="440">
+          <source>Create a payment journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте журнал платежей.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="441">
+          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept>, create a journal line for the bank commission withdrawal, and enter the following information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>, создайте строку журнала для списания комиссии банка и введите следующие сведения.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="442">
+          <source>Tab</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вкладка</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="443">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="444">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="445">
+          <source>List</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Список</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="446">
+          <source>Account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="447">
+          <source>Select the vendor account that is related to the bank account that is used for the foreign currency transfer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите счет поставщика, связанный с банковским счетом, который используется для перевода иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="448">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">по кредиту</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="449">
+          <source>Enter the amount of the bank commission.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Введите сумму комиссии банка.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="450">
+          <source>Currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Валютное</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="451">
+          <source>Select the currency code of the bank commission.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите код валюты комиссии банка.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="452">
+          <source>Offset account type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип корр. счета</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="453">
+          <source>Select <bpt id="p1">**</bpt>Ledger<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Главная книга<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="454">
+          <source>Offset account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Корр. счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="455">
+          <source>Select the ledger account for bank commission losses.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите счет ГК для убытков от банковской комиссии.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="456">
+          <source>Bank</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банк</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="457">
+          <source>Bank transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип банковской проводки</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="458">
+          <source>Select the transaction type that has the <bpt id="p1">**</bpt>Currency transfer<ept id="p1">**</ept> extended type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите тип проводки, который имеет расширенный тип <bpt id="p1">**</bpt>Перевод валюты<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="459">
+          <source>Payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платеж</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="460">
+          <source>Posting profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Профиль разноски</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="461">
+          <source>Verify that the value equals the profile that is used to post to the <bpt id="p1">**</bpt>Money transfers in transit<ept id="p1">**</ept> ledger account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК <bpt id="p1">**</bpt>Переводы в пути<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="462">
+          <source>Create a journal line for receiving the transferred foreign currency, and enter the following information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте строку журнала для получения переведенной иностранной валюты и введите следующие сведения.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="463">
+          <source>Tab</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вкладка</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="464">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="465">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="466">
+          <source>List</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Список</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="467">
+          <source>Account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="468">
+          <source>Select the vendor account that is related to the bank account that is used for the foreign currency transfer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите счет поставщика, связанный с банковским счетом, который используется для перевода иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="469">
+          <source>Credit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">по кредиту</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="470">
+          <source>Enter the amount of the foreign currency transfer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Введите сумму перевода иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="471">
+          <source>Currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Валютное</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="472">
+          <source>Select the code for the currency that is transferred.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите код переводимой валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="473">
+          <source>Offset account type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип корр. счета</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="474">
+          <source>Select <bpt id="p1">**</bpt>Bank<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Банк<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="475">
+          <source>Offset account</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Корр. счет</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="476">
+          <source>Select the bank account where the foreign currency is received.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите банковский счет, на который получена иностранная валюта.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="477">
+          <source>The bank of this bank account should have a relation for the vendor account that you selected in the <bpt id="p1">**</bpt>Account<ept id="p1">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банк этого банковского счета должен иметь связь со счетом поставщика, который выбран в поле <bpt id="p1">**</bpt>Счет<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="478">
+          <source>Bank</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банк</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="479">
+          <source>Bank transaction type</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип банковской проводки</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="480">
+          <source>Select the transaction type that has the <bpt id="p1">**</bpt>Currency transfer<ept id="p1">**</ept> extended type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите тип проводки, который имеет расширенный тип <bpt id="p1">**</bpt>Перевод валюты<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="481">
+          <source>Payment</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платеж</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="482">
+          <source>Posting profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Профиль разноски</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="483">
+          <source>Verify that the value equals the profile that is used to post to the <bpt id="p1">**</bpt>Money transfers in transit<ept id="p1">**</ept> ledger account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Убедитесь, что значение равно профилю, который используется для разноски на счет ГК <bpt id="p1">**</bpt>Переводы в пути<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="484">
+          <source>Post the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разноска журнала.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="485">
+          <source>Post the settlement of foreign currency transfer transactions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разноска сопоставления проводок перевода иностранной валюты</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="486">
+          <source>You post the settlement of foreign currency purchase transactions to generate foreign currency exchange difference transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разноска сопоставления проводки покупки иностранной валюты выполняется для создания проводок курсовой разницы для иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="487">
+          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Bank groups<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Настройка <ph id="ph2">\&gt;</ph> Банковские группы<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="488">
+          <source>Select a bank, and then select <bpt id="p1">**</bpt>Functions <ph id="ph1">\&gt;</ph> Settle open transactions<ept id="p1">**</ept> to settle foreign currency purchase transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите банк, затем выберите <bpt id="p1">**</bpt>Функции <ph id="ph1">\&gt;</ph> Сопоставление открытых проводок<ept id="p1">**</ept> для сопоставления проводок покупки иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="489">
+          <source>Mark transactions for settlement.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Пометить проводки для сопоставления.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="490">
+          <source>During settlement, the following information is validated:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Во время сопоставления проверяется следующая информация:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="491">
+          <source>The transaction type of both transactions must have the <bpt id="p1">**</bpt>Currency transfer<ept id="p1">**</ept> extended type.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип проводки обоих проводок должен иметь расширенный тип <bpt id="p1">**</bpt>Перевод валюты<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="492">
+          <source>The currency codes of the transactions must be equal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Коды валют по проводкам должны быть равны.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="493">
+          <source>Select <bpt id="p1">**</bpt>Post<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Разнести<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="494">
+          <source>The exchange rate difference transaction is generated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создается проводка разницы валютных курсов.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="495">
+          <source>Ledger accounts for the foreign currency exchange difference are taken from the <bpt id="p1">**</bpt>Realized gain<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Realized loss<ept id="p2">**</ept> accounts that are specified in the setup of foreign currency parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Счета ГК для курсовой разницы иностранной валюты берутся из счетов <bpt id="p1">**</bpt>Реализованная прибыль<ept id="p1">**</ept> и <bpt id="p2">**</bpt>Реализованный убыток<ept id="p2">**</ept>, которые указаны в настройке параметров иностранной валюты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="496">
+          <source>You can review the transactions that are generated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно просмотреть проводки, которые будут созданы.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="497">
+          <source>On the <bpt id="p1">**</bpt>Bank groups<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Transactions<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На страницы <bpt id="p1">**</bpt>Банковские группы<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Проводки<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="498">
+          <source>You can also post an unsettlement of transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Имеется возможность разноски отмены сопоставления проводок.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="499">
+          <source>On <bpt id="p1">**</bpt>Bank groups<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Functions <ph id="ph1">\&gt;</ph> Closed transitions editing<ept id="p2">**</ept>, mark transactions, and then select <bpt id="p3">**</bpt>Reverse<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Банковские группы<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Функции <ph id="ph1">\&gt;</ph> Редактирование сопоставленных проводок<ept id="p2">**</ept>, отметьте проводки, затем выберите <bpt id="p3">**</bpt>Сторнировать<ept id="p3">**</ept>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

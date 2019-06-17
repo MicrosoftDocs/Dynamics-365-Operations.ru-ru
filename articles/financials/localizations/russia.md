@@ -1,103 +1,195 @@
----
-title: Россия
-description: В этой теме представлен обзор функциональности Dynamics 365 for Finance and Operations, относящейся к России.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 03/28/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Russia
-ms.author: shylaw
-ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c26011bb8ff094fa7c1407177662f5cfff0af115
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538338"
----
-# <a name="russia"></a><span data-ttu-id="d3d2b-103">Россия</span><span class="sxs-lookup"><span data-stu-id="d3d2b-103">Russia</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="d3d2b-104">В этой теме содержится информация о функциональности Dynamics 365 for Finance and Operations, поддерживающей российские законы.</span><span class="sxs-lookup"><span data-stu-id="d3d2b-104">This topic provides information about Dynamics 365 for Finance and Operations functionality that supports Russian regulations.</span></span> 
-
-## <a name="general-ledger"></a><span data-ttu-id="d3d2b-105">Главная книга</span><span class="sxs-lookup"><span data-stu-id="d3d2b-105">General ledger</span></span>
-
-- [<span data-ttu-id="d3d2b-106">Корреспонденция счетов</span><span class="sxs-lookup"><span data-stu-id="d3d2b-106">Correspondence of accounts</span></span>](rus-correspondence-accounts.md)
-- [<span data-ttu-id="d3d2b-107">Предварительный просмотр проводок ГК</span><span class="sxs-lookup"><span data-stu-id="d3d2b-107">Preview ledger transactions</span></span>](rus-ledger-transactions-preview.md)
-- [<span data-ttu-id="d3d2b-108">Настройка валютных курсов для проводок в валюте</span><span class="sxs-lookup"><span data-stu-id="d3d2b-108">Set up exchange rates for currency transactions</span></span>](rus-exchange-difference.md)
-
-## <a name="advance-holders"></a><span data-ttu-id="d3d2b-109">Подотчетные лица</span><span class="sxs-lookup"><span data-stu-id="d3d2b-109">Advance holders</span></span>
-
-- [<span data-ttu-id="d3d2b-110">Подотчетные лица</span><span class="sxs-lookup"><span data-stu-id="d3d2b-110">Advance holders</span></span>](rus-advance-holders.md)
-- [<span data-ttu-id="d3d2b-111">Создание подотчетного лица</span><span class="sxs-lookup"><span data-stu-id="d3d2b-111">Create an advance holder</span></span>](emea-advance-holders.md#create-an-advance-holder)
-- [<span data-ttu-id="d3d2b-112">Ежедневные операции по подотчетным лицам</span><span class="sxs-lookup"><span data-stu-id="d3d2b-112">Daily operations for advance holders</span></span>](rus-advance-holders-daily-operations.md)
-- [<span data-ttu-id="d3d2b-113">Авансовые отчеты с бюджетным контролем</span><span class="sxs-lookup"><span data-stu-id="d3d2b-113">Advance reports with budget control</span></span>](rus-advance-holders-reports-dailyops.md)
-- [<span data-ttu-id="d3d2b-114">Переоценка в иностранной валюте для подотчетных лиц</span><span class="sxs-lookup"><span data-stu-id="d3d2b-114">Revaluate foreign currency for advance holders</span></span>](rus-advance-adjustment-parameters.md)
-- [<span data-ttu-id="d3d2b-115">Сортировка отчетов по подотчетным лицам</span><span class="sxs-lookup"><span data-stu-id="d3d2b-115">Advance holder reports</span></span>](rus-local-management-reports-primary-forms.md)
-
-## <a name="bank"></a><span data-ttu-id="d3d2b-116">Банк</span><span class="sxs-lookup"><span data-stu-id="d3d2b-116">Bank</span></span>
-
-- [<span data-ttu-id="d3d2b-117">Настройка банковских счетов</span><span class="sxs-lookup"><span data-stu-id="d3d2b-117">Set up bank accounts</span></span>](rus-local-settings-requisites-bank-module.md)
-- [<span data-ttu-id="d3d2b-118">Настройка и обработка платежных поручений</span><span class="sxs-lookup"><span data-stu-id="d3d2b-118">Set up and process payment orders</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-payment-order-settings-processing)
-- [<span data-ttu-id="d3d2b-119">Продажа, покупка и переводы иностранной валюты</span><span class="sxs-lookup"><span data-stu-id="d3d2b-119">Foreign currency sales, purchases, and transfers</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-currency-sale-purchase)
-
-## <a name="vat"></a><span data-ttu-id="d3d2b-120">НДС</span><span class="sxs-lookup"><span data-stu-id="d3d2b-120">VAT</span></span>
-
-- [<span data-ttu-id="d3d2b-121">Налог на добавленную стоимость (НДС) для налоговых агентов</span><span class="sxs-lookup"><span data-stu-id="d3d2b-121">Value-added tax (VAT) for tax agents</span></span>](rus-tax-agent.md)
-- [<span data-ttu-id="d3d2b-122">Декларация по НДС</span><span class="sxs-lookup"><span data-stu-id="d3d2b-122">VAT declaration</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-VAT-declaration)
-- [<span data-ttu-id="d3d2b-123">Книги продаж, книги покупок и журналы счетов-фактур</span><span class="sxs-lookup"><span data-stu-id="d3d2b-123">Sales books, purchase books, and invoice-factures journals</span></span>](rus-sales-books-purchase-books.md)
-
-## <a name="fixed-assets-russia"></a><span data-ttu-id="d3d2b-124">Основные средства (Россия)</span><span class="sxs-lookup"><span data-stu-id="d3d2b-124">Fixed assets (Russia)</span></span>
-- [<span data-ttu-id="d3d2b-125">Настройка основных средств</span><span class="sxs-lookup"><span data-stu-id="d3d2b-125">Set up fixed assets</span></span>](rus-set-up-fixed-assets.md)
-- [<span data-ttu-id="d3d2b-126">Приобретение ОС и их ввод в эксплуатацию</span><span class="sxs-lookup"><span data-stu-id="d3d2b-126">Acquiring fixed assets and putting them into operation</span></span>](rus-fixed-asset-acquisition.md)
-- [<span data-ttu-id="d3d2b-127">Регистрация приобретений основных средств</span><span class="sxs-lookup"><span data-stu-id="d3d2b-127">Register fixed assets acquisitions</span></span>](rus-register-acquisition.md)
-- [<span data-ttu-id="d3d2b-128">Создание и разноска журналов бюджета для приобретений ОС</span><span class="sxs-lookup"><span data-stu-id="d3d2b-128">Create and post budget journals for fixed asset acquisitions</span></span>](rus-post-budget-fixed-asset-acquisition.md)
-- [<span data-ttu-id="d3d2b-129">Инвентаризация ОС</span><span class="sxs-lookup"><span data-stu-id="d3d2b-129">Fixed asset counting</span></span>](rus-fixed-assets-counting.md)
-- [<span data-ttu-id="d3d2b-130">Переоценка ОС в иностранной валюте</span><span class="sxs-lookup"><span data-stu-id="d3d2b-130">Fixed asset currency revaluation</span></span>](rus-fixed-asset-currency-revaluation.md)
-- [<span data-ttu-id="d3d2b-131">Ведение основных средств</span><span class="sxs-lookup"><span data-stu-id="d3d2b-131">Maintain fixed assets</span></span>](rus-maintain-fixed-assets.md)
-- [<span data-ttu-id="d3d2b-132">Переоценка стоимости основных средств и амортизация</span><span class="sxs-lookup"><span data-stu-id="d3d2b-132">Revaluate fixed asset cost and depreciation</span></span>](rus-fixed-assets-revaluation.md)
-- [<span data-ttu-id="d3d2b-133">Частичная разборка ОС (ликвидация)</span><span class="sxs-lookup"><span data-stu-id="d3d2b-133">Partial fixed asset disassembly (liquidation)</span></span>](rus-fixed-assets-disassembly.md)
-- [<span data-ttu-id="d3d2b-134">Продажа, выбытие и списание ОС</span><span class="sxs-lookup"><span data-stu-id="d3d2b-134">Sell, dispose, and write-off assets</span></span>](rus-sell-dispose-write-off-fixed-assets.md)
-- [<span data-ttu-id="d3d2b-135">Настройка расположений основных средств и нумерация</span><span class="sxs-lookup"><span data-stu-id="d3d2b-135">Set up fixed asset locations and numbering</span></span>](rus-fixed-assets-locations-numbering.md)
-- [<span data-ttu-id="d3d2b-136">Настройка амортизации</span><span class="sxs-lookup"><span data-stu-id="d3d2b-136">Set up depreciation</span></span>](rus-depreciation-setup.md)
-- [<span data-ttu-id="d3d2b-137">Методы амортизации</span><span class="sxs-lookup"><span data-stu-id="d3d2b-137">Depreciation methods</span></span>](rus-depreciation-methods.md)
-- [<span data-ttu-id="d3d2b-138">Амортизационные премии</span><span class="sxs-lookup"><span data-stu-id="d3d2b-138">Depreciation bonuses</span></span>](rus-bonus-depreciation.md)
-- [<span data-ttu-id="d3d2b-139">Расчет амортизации</span><span class="sxs-lookup"><span data-stu-id="d3d2b-139">Calculate depreciation</span></span>](rus-depreciation-calculation.md)
-- [<span data-ttu-id="d3d2b-140">Перенос основных средств</span><span class="sxs-lookup"><span data-stu-id="d3d2b-140">Transfer fixed assets</span></span>](rus-fixed-asset-transfer.md)
-
-## <a name="accounts-payable-and-receivable"></a><span data-ttu-id="d3d2b-141">Расчеты с поставщиками и клиентами</span><span class="sxs-lookup"><span data-stu-id="d3d2b-141">Accounts payable and receivable</span></span>
-- [<span data-ttu-id="d3d2b-142">Счета на оплату</span><span class="sxs-lookup"><span data-stu-id="d3d2b-142">Invoices for payment</span></span>](rus-invoice-payment.md)
-- [<span data-ttu-id="d3d2b-143">Настройка контроля аналитик для сопоставлений</span><span class="sxs-lookup"><span data-stu-id="d3d2b-143">Set up dimension control for settlements</span></span>](rus-transactions-settlement-date.md)
-- [<span data-ttu-id="d3d2b-144">Регистрация товаров, отгруженных клиентам</span><span class="sxs-lookup"><span data-stu-id="d3d2b-144">Register goods shipped to customers</span></span>](../../supply-chain/localizations/rus-goods-transit-postponed.md)
-- [<span data-ttu-id="d3d2b-145">Управление движением денежных средств</span><span class="sxs-lookup"><span data-stu-id="d3d2b-145">Cash flow management</span></span>](rus-cash-flow.md)
-
-## <a name="reporting"></a><span data-ttu-id="d3d2b-146">Отчетность</span><span class="sxs-lookup"><span data-stu-id="d3d2b-146">Reporting</span></span>
-
-- [<span data-ttu-id="d3d2b-147">Финансовая отчетность</span><span class="sxs-lookup"><span data-stu-id="d3d2b-147">Financial reporting</span></span>](rus-financial-reports.md)
-- [<span data-ttu-id="d3d2b-148">Настройка финансовых отчетов в Excel</span><span class="sxs-lookup"><span data-stu-id="d3d2b-148">Configure financial reports in Excel</span></span>](rus-excel-financial-report.md)
-- [<span data-ttu-id="d3d2b-149">Учет отчетности в электронном формате</span><span class="sxs-lookup"><span data-stu-id="d3d2b-149">Accounting reporting in electronic format</span></span>](rus-accounting-reporting.md)
-- [<span data-ttu-id="d3d2b-150">Декларация налога на имущество</span><span class="sxs-lookup"><span data-stu-id="d3d2b-150">Assessed tax declaration</span></span>](rus-assessed-tax-declaration.md)
-
-## <a name="organization-administration"></a><span data-ttu-id="d3d2b-151">Администрирование организации</span><span class="sxs-lookup"><span data-stu-id="d3d2b-151">Organization administration</span></span>
-
-- [<span data-ttu-id="d3d2b-152">Сведения о налоговой регистрации, связанные с адресом</span><span class="sxs-lookup"><span data-stu-id="d3d2b-152">Tax registration info related to address</span></span>](emea-registration-ids.md)
-- [<span data-ttu-id="d3d2b-153">Настройка должностных лиц</span><span class="sxs-lookup"><span data-stu-id="d3d2b-153">Set up officials</span></span>](rus-officials.md)
-- [<span data-ttu-id="d3d2b-154">Подразделения компании</span><span class="sxs-lookup"><span data-stu-id="d3d2b-154">Company divisions</span></span>](rus-company-divisions.md)
-
-## <a name="additional-resources"></a><span data-ttu-id="d3d2b-155">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="d3d2b-155">Additional resources</span></span>
-
-- [<span data-ttu-id="d3d2b-156">Обзор электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="d3d2b-156">Electronic reporting overview</span></span>](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [<span data-ttu-id="d3d2b-157">Загрузка конфигураций электронной отчетности из Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="d3d2b-157">Download Electronic reporting configurations from Lifecycle Services</span></span>](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-- [<span data-ttu-id="d3d2b-158">Портал локализации Microsoft Dynamics: отчет для России (требуется учетная запись CustomerSource)</span><span class="sxs-lookup"><span data-stu-id="d3d2b-158">Microsoft Dynamics Localization Portal: Russia report (requires CustomerSource account)</span></span>](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/RussianFederation.html)
-
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="russia.md" target-language="ru-RU">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>russia.711c1f.0cf2c996f60c412034d18ffd5435407aacad980c.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>0cf2c996f60c412034d18ffd5435407aacad980c</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>c3047d55b286daf1a0af0f8d2b5f7ab3ee1ed03b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/20/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\russia.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Russia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Россия</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides an overview of Dynamics 365 for Finance and Operations functionality that is specific to Russia.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этой теме представлен обзор функциональности Dynamics 365 for Finance and Operations, относящейся к России.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Russia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Россия</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides information about Dynamics 365 for Finance and Operations functionality that supports Russian regulations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этой теме содержится информация о функциональности Dynamics 365 for Finance and Operations, поддерживающей российские законы.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>General ledger</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Главная книга</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source><bpt id="p1">[</bpt>Correspondence of accounts<ept id="p1">](rus-correspondence-accounts.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Корреспонденция счетов<ept id="p1">](rus-correspondence-accounts.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source><bpt id="p1">[</bpt>Preview ledger transactions<ept id="p1">](rus-ledger-transactions-preview.md)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Предварительный просмотр проводок ГК<ept id="p1">](rus-ledger-transactions-preview.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source><bpt id="p1">[</bpt>Set up exchange rates for currency transactions<ept id="p1">](rus-exchange-difference.md)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка валютных курсов для проводок в валюте<ept id="p1">](rus-exchange-difference.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source><bpt id="p1">[</bpt>Import currency exchange rates from CBRF<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/general-ledger/import-currency-exchange-rates)</ept></source><target logoport:matchpercent="83" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">[</bpt>Импорт курсов обмена валют из ЦБРФ<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/general-ledger/import-currency-exchange-rates)</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Advance holders</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Подотчетные лица</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source><bpt id="p1">[</bpt>Advance holders<ept id="p1">](rus-advance-holders.md)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Подотчетные лица<ept id="p1">](rus-advance-holders.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source><bpt id="p1">[</bpt>Create an advance holder<ept id="p1">](emea-advance-holders.md#create-an-advance-holder)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Создание подотчетного лица<ept id="p1">](emea-advance-holders.md#create-an-advance-holder)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source><bpt id="p1">[</bpt>Daily operations for advance holders<ept id="p1">](rus-advance-holders-daily-operations.md)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Ежедневные операции по подотчетным лицам<ept id="p1">](rus-advance-holders-daily-operations.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source><bpt id="p1">[</bpt>Advance reports with budget control<ept id="p1">](rus-advance-holders-reports-dailyops.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Авансовые отчеты с бюджетным контролем<ept id="p1">](rus-advance-holders-reports-dailyops.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source><bpt id="p1">[</bpt>Revaluate foreign currency for advance holders<ept id="p1">](rus-advance-adjustment-parameters.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Переоценка в иностранной валюте для подотчетных лиц<ept id="p1">](rus-advance-adjustment-parameters.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source><bpt id="p1">[</bpt>Advance holder reports<ept id="p1">](rus-local-management-reports-primary-forms.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Сортировка отчетов по подотчетным лицам<ept id="p1">](rus-local-management-reports-primary-forms.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Bank</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банк</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source><bpt id="p1">[</bpt>Set up bank accounts<ept id="p1">](rus-local-settings-requisites-bank-module.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка банковских счетов<ept id="p1">](rus-local-settings-requisites-bank-module.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source><bpt id="p1">[</bpt>Set up and process payment orders<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-payment-order-settings-processing)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка и обработка платежных поручений<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-payment-order-settings-processing)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source><bpt id="p1">[</bpt>Foreign currency sales, purchases, and transfers<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-currency-sale-purchase)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Продажа, покупка и переводы иностранной валюты<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-currency-sale-purchase)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>VAT</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">НДС</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source><bpt id="p1">[</bpt>Value-added tax (VAT) for tax agents<ept id="p1">](rus-tax-agent.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Налог на добавленную стоимость (НДС) для налоговых агентов<ept id="p1">](rus-tax-agent.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source><bpt id="p1">[</bpt>VAT declaration<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-VAT-declaration)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Декларация по НДС<ept id="p1">](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-VAT-declaration)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">[</bpt>Sales books, purchase books, and invoice-factures journals<ept id="p1">](rus-sales-books-purchase-books.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Книги продаж, книги покупок и журналы счетов-фактур<ept id="p1">](rus-sales-books-purchase-books.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Fixed assets (Russia)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Основные средства (Россия)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">[</bpt>Set up fixed assets<ept id="p1">](rus-set-up-fixed-assets.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка основных средств<ept id="p1">](rus-set-up-fixed-assets.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source><bpt id="p1">[</bpt>Acquiring fixed assets and putting them into operation<ept id="p1">](rus-fixed-asset-acquisition.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Приобретение ОС и их ввод в эксплуатацию<ept id="p1">](rus-fixed-asset-acquisition.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source><bpt id="p1">[</bpt>Register fixed assets acquisitions<ept id="p1">](rus-register-acquisition.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Регистрация приобретений основных средств<ept id="p1">](rus-register-acquisition.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">[</bpt>Create and post budget journals for fixed asset acquisitions<ept id="p1">](rus-post-budget-fixed-asset-acquisition.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Создание и разноска журналов бюджета для приобретений ОС<ept id="p1">](rus-post-budget-fixed-asset-acquisition.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">[</bpt>Fixed asset counting<ept id="p1">](rus-fixed-assets-counting.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Инвентаризация ОС<ept id="p1">](rus-fixed-assets-counting.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source><bpt id="p1">[</bpt>Fixed asset currency revaluation<ept id="p1">](rus-fixed-asset-currency-revaluation.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Переоценка ОС в иностранной валюте<ept id="p1">](rus-fixed-asset-currency-revaluation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">[</bpt>Maintain fixed assets<ept id="p1">](rus-maintain-fixed-assets.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Ведение основных средств<ept id="p1">](rus-maintain-fixed-assets.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source><bpt id="p1">[</bpt>Revaluate fixed asset cost and depreciation<ept id="p1">](rus-fixed-assets-revaluation.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Переоценка стоимости основных средств и амортизация<ept id="p1">](rus-fixed-assets-revaluation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">[</bpt>Partial fixed asset disassembly (liquidation)<ept id="p1">](rus-fixed-assets-disassembly.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Частичная разборка ОС (ликвидация)<ept id="p1">](rus-fixed-assets-disassembly.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source><bpt id="p1">[</bpt>Sell, dispose, and write-off assets<ept id="p1">](rus-sell-dispose-write-off-fixed-assets.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Продажа, выбытие и списание ОС<ept id="p1">](rus-sell-dispose-write-off-fixed-assets.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">[</bpt>Set up fixed asset locations and numbering<ept id="p1">](rus-fixed-assets-locations-numbering.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка расположений основных средств и нумерация<ept id="p1">](rus-fixed-assets-locations-numbering.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source><bpt id="p1">[</bpt>Set up depreciation<ept id="p1">](rus-depreciation-setup.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка амортизации<ept id="p1">](rus-depreciation-setup.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source><bpt id="p1">[</bpt>Depreciation methods<ept id="p1">](rus-depreciation-methods.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Методы амортизации<ept id="p1">](rus-depreciation-methods.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">[</bpt>Depreciation bonuses<ept id="p1">](rus-bonus-depreciation.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Амортизационные премии<ept id="p1">](rus-bonus-depreciation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source><bpt id="p1">[</bpt>Calculate depreciation<ept id="p1">](rus-depreciation-calculation.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Расчет амортизации<ept id="p1">](rus-depreciation-calculation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source><bpt id="p1">[</bpt>Transfer fixed assets<ept id="p1">](rus-fixed-asset-transfer.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Перенос основных средств<ept id="p1">](rus-fixed-asset-transfer.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Accounts payable and receivable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расчеты с поставщиками и клиентами</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source><bpt id="p1">[</bpt>Invoices for payment<ept id="p1">](rus-invoice-payment.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Счета на оплату<ept id="p1">](rus-invoice-payment.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source><bpt id="p1">[</bpt>Set up dimension control for settlements<ept id="p1">](rus-transactions-settlement-date.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка контроля аналитик для сопоставлений<ept id="p1">](rus-transactions-settlement-date.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source><bpt id="p1">[</bpt>Register goods shipped to customers<ept id="p1">](../../supply-chain/localizations/rus-goods-transit-postponed.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Регистрация товаров, отгруженных клиентам<ept id="p1">](../../supply-chain/localizations/rus-goods-transit-postponed.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source><bpt id="p1">[</bpt>Cash flow management<ept id="p1">](rus-cash-flow.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Управление движением денежных средств<ept id="p1">](rus-cash-flow.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Reporting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Отчетность</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source><bpt id="p1">[</bpt>Financial reporting<ept id="p1">](rus-financial-reports.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Финансовая отчетность<ept id="p1">](rus-financial-reports.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source><bpt id="p1">[</bpt>Configure financial reports in Excel<ept id="p1">](rus-excel-financial-report.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка финансовых отчетов в Excel<ept id="p1">](rus-excel-financial-report.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source><bpt id="p1">[</bpt>Accounting reporting in electronic format<ept id="p1">](rus-accounting-reporting.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Учет отчетности в электронном формате<ept id="p1">](rus-accounting-reporting.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source><bpt id="p1">[</bpt>Assessed tax declaration<ept id="p1">](rus-assessed-tax-declaration.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Декларация налога на имущество<ept id="p1">](rus-assessed-tax-declaration.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Organization administration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Администрирование организации</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source><bpt id="p1">[</bpt>Tax registration info related to address<ept id="p1">](emea-registration-ids.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Сведения о налоговой регистрации, связанные с адресом<ept id="p1">](emea-registration-ids.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source><bpt id="p1">[</bpt>Set up officials<ept id="p1">](rus-officials.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка должностных лиц<ept id="p1">](rus-officials.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source><bpt id="p1">[</bpt>Company divisions<ept id="p1">](rus-company-divisions.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Подразделения компании<ept id="p1">](rus-company-divisions.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Дополнительные ресурсы</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source><bpt id="p1">[</bpt>Electronic reporting overview<ept id="p1">](../../dev-itpro/analytics/general-electronic-reporting.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Обзор электронной отчетности<ept id="p1">](../../dev-itpro/analytics/general-electronic-reporting.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source><bpt id="p1">[</bpt>Download Electronic reporting configurations from Lifecycle Services<ept id="p1">](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Загрузка конфигураций электронной отчетности из Lifecycle Services<ept id="p1">](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source><bpt id="p1">[</bpt>Microsoft Dynamics Localization Portal: Russia report (requires CustomerSource account)<ept id="p1">](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/RussianFederation.html)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Портал локализации Microsoft Dynamics: отчет для России (требуется учетная запись CustomerSource)<ept id="p1">](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/RussianFederation.html)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

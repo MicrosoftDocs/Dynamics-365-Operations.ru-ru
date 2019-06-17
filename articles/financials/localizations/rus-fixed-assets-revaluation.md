@@ -1,73 +1,189 @@
----
-title: Переоценка стоимости основных средств и амортизация (Россия)
-description: В этом разделе объясняется, как выполнять переоценку стоимости и амортизацию ОС для России.
-author: anasyash
-manager: AnnBe
-ms.date: 10/28/2018
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Russia
-ms.search.industry: ''
-ms.author: anasyash
-ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4904ab0e27024b4f3ff6cc9d61e2a805493d6044
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538348"
----
-# <a name="revaluate-fixed-asset-cost-and-depreciation-russia"></a><span data-ttu-id="89b6f-103">Переоценка стоимости основных средств и амортизация (Россия)</span><span class="sxs-lookup"><span data-stu-id="89b6f-103">Revaluate fixed asset cost and depreciation (Russia)</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="89b6f-104">Организация может независимо изменить стоимость основных средств один раз в год на конец отчетного года (как правило, на 31.12).</span><span class="sxs-lookup"><span data-stu-id="89b6f-104">An organization can independently change the cost of a fixed asset one time per year at the end of the reporting year (usually on 12.31).</span></span> <span data-ttu-id="89b6f-105">Переоценка основных средств также может быть сделано в связи с решением правительства.</span><span class="sxs-lookup"><span data-stu-id="89b6f-105">Revaluation of fixed assets can also be done because of a decision of the state.</span></span> <span data-ttu-id="89b6f-106">Как правило, переоценка стоимости основных средств сопровождается переоценкой амортизации.</span><span class="sxs-lookup"><span data-stu-id="89b6f-106">As a rule, revaluation of fixed assets cost is accompanied by a revaluation of depreciation.</span></span> <span data-ttu-id="89b6f-107">Два метода могут использоваться для изменения стоимости основных средств в результате переоценки стоимости основных средств:</span><span class="sxs-lookup"><span data-stu-id="89b6f-107">Two methods can be used to change the cost of fixed assets as a result of revaluation of fixed asset cost:</span></span>
-
-- <span data-ttu-id="89b6f-108">**Индексация** — индексы используются.</span><span class="sxs-lookup"><span data-stu-id="89b6f-108">**Indexing** – Indices are used.</span></span> <span data-ttu-id="89b6f-109">Эти индексы обычно устанавливаются государством.</span><span class="sxs-lookup"><span data-stu-id="89b6f-109">These indices are usually set by the state.</span></span> <span data-ttu-id="89b6f-110">В этом случае начальная стоимость основных средств и сумма начисленной амортизации умножаются на соответствующие индексы.</span><span class="sxs-lookup"><span data-stu-id="89b6f-110">In this case, the initial cost of the fixed asset and the amount of accrued depreciation are multiplied by the corresponding indices.</span></span>
-- <span data-ttu-id="89b6f-111">**Прямой пересчет (прямое вычисление)** — используются документированные данные о рыночной цене основного средства.</span><span class="sxs-lookup"><span data-stu-id="89b6f-111">**Direct recalculation (direct evaluation)** – Documented data about the market price of the fixed asset is used.</span></span> <span data-ttu-id="89b6f-112">В тоже время сумма амортизации подлежит индексации на коэффициент пересчета.</span><span class="sxs-lookup"><span data-stu-id="89b6f-112">At the same time, the amount of depreciation is subject to indexation by the conversion factor.</span></span> <span data-ttu-id="89b6f-113">Коэффициент пересчета рассчитывается как отношение новой стоимости объекта к его старой стоимости.</span><span class="sxs-lookup"><span data-stu-id="89b6f-113">The conversion factor is calculated as the ratio of the object's new cost to its old cost.</span></span>
-
-<span data-ttu-id="89b6f-114">В результате переоценки стоимости основных средств и амортизации возникают следующие события:</span><span class="sxs-lookup"><span data-stu-id="89b6f-114">As a result of revaluation of fixed asset cost and depreciation, the following events occur:</span></span>
-
-- <span data-ttu-id="89b6f-115">Создаются проводки книги учета и основных средств.</span><span class="sxs-lookup"><span data-stu-id="89b6f-115">Ledger and fixed asset transactions are created.</span></span> <span data-ttu-id="89b6f-116">Проводки ОС, которые были созданы, имеют типы проводки **Переоценка стоимости** и **Переоценка амортизации**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-116">The fixed asset transactions that are created have transaction types of **Cost revaluation** and **Depreciation revaluation**.</span></span>
-- <span data-ttu-id="89b6f-117">На странице **Баланс по ОС** заполняются поля **Переоценка стоимости** и **Переоценка амортизации**, и значение в поле **Остаточная стоимость** увеличивается или уменьшается на сумму проводки переоценки.</span><span class="sxs-lookup"><span data-stu-id="89b6f-117">On the **Balance by FA** page, the **Cost revaluation** and **Depreciation revaluation** fields are filled in, and the value in the **Net book value** field is increased or decreased by the revaluation transaction amount.</span></span>
-
-<span data-ttu-id="89b6f-118">Для переоценки стоимости основных средств и амортизация выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="89b6f-118">To revaluate fixed asset cost and depreciation, follow these steps.</span></span>
-
-1. <span data-ttu-id="89b6f-119">Выберите **Основные средства (Россия)** \> **Журналы** \> **Периодические журналы** \> **Переоценка ОС**, чтобы открыть страницу **Переоценка ОС**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-119">Select **Fixed assets (Russia)** \> **Journals** \> **Periodic journals** \> **FA revaluation** to open the **FA revaluation** page.</span></span>
-2. <span data-ttu-id="89b6f-120">Выберите **Создать**, чтобы создать журнал переоценки.</span><span class="sxs-lookup"><span data-stu-id="89b6f-120">Select **New** to create a revaluation journal.</span></span>
-3. <span data-ttu-id="89b6f-121">Поля **Период переоценки** и **По состоянию на** заполняются автоматически значениями текущего периода и даты.</span><span class="sxs-lookup"><span data-stu-id="89b6f-121">The **Revaluation period** and **State on** fields are automatically set to the current period and date.</span></span> <span data-ttu-id="89b6f-122">Тем не менее, можно обновить эти поля требуемым образом.</span><span class="sxs-lookup"><span data-stu-id="89b6f-122">However, you can update these fields as you require.</span></span> <span data-ttu-id="89b6f-123">Поле **По состоянию на** определяет дату, из которой рассчитывается переоценка амортизации.</span><span class="sxs-lookup"><span data-stu-id="89b6f-123">The **State on** field specifies the date that depreciation revaluation is calculated from.</span></span>
-4. <span data-ttu-id="89b6f-124">В поле **Наименование журнала основных средств** выберите наименование журнала.</span><span class="sxs-lookup"><span data-stu-id="89b6f-124">In the **Fixed asset journal name** field, select a journal name.</span></span> <span data-ttu-id="89b6f-125">Это наименование журнала используется для создания журнала основных средств после закрытия журнала переоценки.</span><span class="sxs-lookup"><span data-stu-id="89b6f-125">This journal name is used to create the Fixed asset journal when the revaluation journal is closed.</span></span>
-5. <span data-ttu-id="89b6f-126">Поле **Журнал ОС** автоматически устанавливается на основе параметра номерной серии при закрытии журнала переоценки основных средств.</span><span class="sxs-lookup"><span data-stu-id="89b6f-126">The **FA journal** field is automatically set, based on the number sequence setting, when the Fixed asset revaluation journal is closed.</span></span>
-6. <span data-ttu-id="89b6f-127">Выберите **Строки**, затем, в диалоговом окне **Создание строк переоценок** выберите модель стоимости **РСБУ**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-127">Select **Lines**, and then, in the **Revaluation lines creation** dialog box, select the **RAP** value model.</span></span> <span data-ttu-id="89b6f-128">Чтобы задать фильтр для выбора основных средств для переоценки, на экспресс-вкладке **Включаемые записи** выберите **Фильтр**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-128">To set a filter to select fixed assets for revaluation, on the **Records to include** Fast Tab, select **Filter**.</span></span> <span data-ttu-id="89b6f-129">Затем выберите **OK**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-129">Then select **OK**.</span></span>
-
-    <span data-ttu-id="89b6f-130">На странице **Строки переоценки ОС** система создает строки для основных средств, которые имеют выбранную модель стоимости.</span><span class="sxs-lookup"><span data-stu-id="89b6f-130">On the **FA revaluation lines** page, the system creates lines for fixed assets that have the selected value model.</span></span>
-
-    <span data-ttu-id="89b6f-131">Для поля **Балансовая стоимость** задается значение **Остаточную стоимость**, а для поля **Восстановительная стоимость** задается новая стоимость основного средства.</span><span class="sxs-lookup"><span data-stu-id="89b6f-131">The **Balance cost** field is set to **Net book value**, and the **Replacement cost** field is set to the new fixed asset cost.</span></span> <span data-ttu-id="89b6f-132">Значение **Балансовая стоимость** соответствует значению в поле **Остаточная стоимость** на странице **Баланс по ОС** (**Основные средства (Россия)** \> **Общие** \> **Основные средства**, выберите **Модели учета** на странице **Основные средства**, затем выберите **Баланс** на странице **Модели учета основных средств**).</span><span class="sxs-lookup"><span data-stu-id="89b6f-132">The **Balance cost** value corresponds to the value in **Net book value** field on the **Balance by FA** page (**Fixed assets (Russia)** \> **Common** \> **Fixed assets**, select **Value models** on the **Fixed assets** page, and then select **Balance** on the **FA value models** page).</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="89b6f-133">Можно указать вручную значение поля **Восстановительная стоимость**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-133">You can manually set the **Replacement cost** field.</span></span> <span data-ttu-id="89b6f-134">В этом случае система пересчитывает коэффициент.</span><span class="sxs-lookup"><span data-stu-id="89b6f-134">In this case, the system recalculates the factor.</span></span> <span data-ttu-id="89b6f-135">Можно также указать вручную значение поля **Коэффициент**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-135">Alternatively, you can manually set the **Factor** field.</span></span> <span data-ttu-id="89b6f-136">В этом случае система пересчитывает восстановительную стоимость.</span><span class="sxs-lookup"><span data-stu-id="89b6f-136">In this case, the system recalculates the replacement cost.</span></span>
-
-7. <span data-ttu-id="89b6f-137">Можно добавлять и удалять строки по мере необходимости:</span><span class="sxs-lookup"><span data-stu-id="89b6f-137">You can add and remove lines as you require:</span></span>
-
-    - <span data-ttu-id="89b6f-138">Чтобы добавить строку, выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-138">To add a line, select **New**.</span></span> <span data-ttu-id="89b6f-139">В диалоговом окне **Создание строк переоценок** выберите инвентарный номер и модель учета основного средства, затем выберите **OK**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-139">In the **Revaluation lines creation** dialog box, select the fixed asset inventory number and value model, and then select **OK**.</span></span> <span data-ttu-id="89b6f-140">Если модель стоимости не указана, система создает строки для всех моделей стоимости, которые настроены в основном средстве.</span><span class="sxs-lookup"><span data-stu-id="89b6f-140">If you don't specify the value model, the system creates lines for all value models that are set up in the fixed asset.</span></span>
-    - <span data-ttu-id="89b6f-141">Чтобы удалить строку, выберите ее, затем выберите **Удалить**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-141">To remove a line, select it, and then select **Delete**</span></span>
-
-8. <span data-ttu-id="89b6f-142">Выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="89b6f-142">Follow one of these steps:</span></span>
-
-    - <span data-ttu-id="89b6f-143">Чтобы выполнить переоценку стоимости и амортизации основных средств по методу прямой переоценки, в поле **Восстановительная стоимость** введите рыночную стоимость основных средств.</span><span class="sxs-lookup"><span data-stu-id="89b6f-143">To revaluate fixed asset cost and depreciation by using the direct revaluation method, in the **Replacement cost** field, enter the market cost of fixed assets.</span></span>
-    - <span data-ttu-id="89b6f-144">Чтобы выполнить переоценку стоимости и амортизации основных средств для всех основных средств на странице **Строки переоценки ОС**, используя метод индексации, выберите **Переоценка**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-144">To revaluate fixed asset cost and depreciation for all fixed assets on the **FA revaluation lines** page by using the indexing method, select **Revaluation**.</span></span> <span data-ttu-id="89b6f-145">В диалоговом окне **Групповая переоценка** выберите модель стоимости, для которой должна рассчитываться переоценка, и введите коэффициент.</span><span class="sxs-lookup"><span data-stu-id="89b6f-145">In the **Group revaluation** dialog box, select the value model that the revaluation should be calculated for, and enter the factor.</span></span> <span data-ttu-id="89b6f-146">Чтобы задать фильтр для выбора основных средств для переоценки, на экспресс-вкладке **Включаемые записи** выберите **Фильтр**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-146">To set a filter to select fixed assets for revaluation, on the **Records to include** Fast Tab, select **Filter**.</span></span> <span data-ttu-id="89b6f-147">Затем выберите **OK**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-147">Then select **OK**.</span></span> <span data-ttu-id="89b6f-148">Поля **Коэффициент** и **Восстановительную стоимость** будут заполнены для всех строк.</span><span class="sxs-lookup"><span data-stu-id="89b6f-148">The **Factor** and **Replacement cost** fields are filled in for all lines.</span></span>
-
-9. <span data-ttu-id="89b6f-149">Закройте страницу **Строки переоценки ОС**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-149">Close the **FA revaluation lines** page.</span></span>
-10. <span data-ttu-id="89b6f-150">На странице **Переоценка ОС** на панели действий выберите **Закрыть**, чтобы подтвердить результаты переоценки.</span><span class="sxs-lookup"><span data-stu-id="89b6f-150">On the **FA revaluation** page, on the Action Pane, select **Close** to confirm the revaluation results.</span></span>
-
-    <span data-ttu-id="89b6f-151">После закрытия журнала переоценки основных средств и создания журнала основных средств заполняется номер журнала основных средств, и становится доступна кнопка **Журнал ОС** на панели действий.</span><span class="sxs-lookup"><span data-stu-id="89b6f-151">After the Fixed asset revaluation journal is closed and the Fixed asset journal is created, the Fixed asset journal number is filled in, and the **FA journal** button on the Action Pane becomes available.</span></span>
-
-11. <span data-ttu-id="89b6f-152">Выберите **Журнал ОС**, затем, на странице **Журнал ОС**, выберите **Строки**.</span><span class="sxs-lookup"><span data-stu-id="89b6f-152">Select **FA journal**, and then, on the **FA journal** page, select **Lines**.</span></span> <span data-ttu-id="89b6f-153">На странице **Проводка по ваучеру** отображаются проводки переоценки.</span><span class="sxs-lookup"><span data-stu-id="89b6f-153">The **Voucher transaction** page shows revaluation transactions.</span></span> <span data-ttu-id="89b6f-154">Эти проводки можно при необходимости исправить.</span><span class="sxs-lookup"><span data-stu-id="89b6f-154">You can correct these transactions as you require.</span></span>
-12. <span data-ttu-id="89b6f-155">Выберите **Разнести** \> **Разнести**, чтобы разнести журнал.</span><span class="sxs-lookup"><span data-stu-id="89b6f-155">Select **Post** \> **Post** to post the journal.</span></span>
-13. <span data-ttu-id="89b6f-156">Проверьте баланс в модели стоимости (**Основные средства (Россия)** \> **Основные средства** \> **Модели учета** \> **Баланс**).</span><span class="sxs-lookup"><span data-stu-id="89b6f-156">Validate the balance in the value model (**Fixed asset (Russia)** \> **Fixed assets** \> **Value models** \> **Balance**).</span></span> <span data-ttu-id="89b6f-157">Значения в полях **Переоценка стоимости** и **Переоценка амортизации** будут обновлены.</span><span class="sxs-lookup"><span data-stu-id="89b6f-157">The values in the **Cost revaluation** and **Depreciation revaluation** fields are updated.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="rus-fixed-assets-revaluation.md" target-language="ru-RU">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>rus-fixed-assets-revaluation.fc70a5.9bf271ca8be984ec5e090a3cca7005150a7967ae.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>9bf271ca8be984ec5e090a3cca7005150a7967ae</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\rus-fixed-assets-revaluation.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Revaluate fixed asset cost and depreciation (Russia)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Переоценка стоимости основных средств и амортизация (Россия)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic explains how to revaluate the cost and depreciation of fixed assets for Russia.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этом разделе объясняется, как выполнять переоценку стоимости и амортизацию ОС для России.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Revaluate fixed asset cost and depreciation (Russia)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Переоценка стоимости основных средств и амортизация (Россия)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>An organization can independently change the cost of a fixed asset one time per year at the end of the reporting year (usually on 12.31).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Организация может независимо изменить стоимость основных средств один раз в год на конец отчетного года (как правило, на 31.12).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Revaluation of fixed assets can also be done because of a decision of the state.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Переоценка основных средств также может быть сделано в связи с решением правительства.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>As a rule, revaluation of fixed assets cost is accompanied by a revaluation of depreciation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Как правило, переоценка стоимости основных средств сопровождается переоценкой амортизации.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Two methods can be used to change the cost of fixed assets as a result of revaluation of fixed asset cost:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Два метода могут использоваться для изменения стоимости основных средств в результате переоценки стоимости основных средств:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source><bpt id="p1">**</bpt>Indexing<ept id="p1">**</ept> – Indices are used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Индексация<ept id="p1">**</ept> — индексы используются.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>These indices are usually set by the state.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эти индексы обычно устанавливаются государством.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>In this case, the initial cost of the fixed asset and the amount of accrued depreciation are multiplied by the corresponding indices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этом случае начальная стоимость основных средств и сумма начисленной амортизации умножаются на соответствующие индексы.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source><bpt id="p1">**</bpt>Direct recalculation (direct evaluation)<ept id="p1">**</ept> – Documented data about the market price of the fixed asset is used.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Прямой пересчет (прямое вычисление)<ept id="p1">**</ept> — используются документированные данные о рыночной цене основного средства.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>At the same time, the amount of depreciation is subject to indexation by the conversion factor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В тоже время сумма амортизации подлежит индексации на коэффициент пересчета.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>The conversion factor is calculated as the ratio of the object's new cost to its old cost.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Коэффициент пересчета рассчитывается как отношение новой стоимости объекта к его старой стоимости.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>As a result of revaluation of fixed asset cost and depreciation, the following events occur:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В результате переоценки стоимости основных средств и амортизации возникают следующие события:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Ledger and fixed asset transactions are created.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создаются проводки книги учета и основных средств.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>The fixed asset transactions that are created have transaction types of <bpt id="p1">**</bpt>Cost revaluation<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Depreciation revaluation<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проводки ОС, которые были созданы, имеют типы проводки <bpt id="p1">**</bpt>Переоценка стоимости<ept id="p1">**</ept> и <bpt id="p2">**</bpt>Переоценка амортизации<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>On the <bpt id="p1">**</bpt>Balance by FA<ept id="p1">**</ept> page, the <bpt id="p2">**</bpt>Cost revaluation<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Depreciation revaluation<ept id="p3">**</ept> fields are filled in, and the value in the <bpt id="p4">**</bpt>Net book value<ept id="p4">**</ept> field is increased or decreased by the revaluation transaction amount.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Баланс по ОС<ept id="p1">**</ept> заполняются поля <bpt id="p2">**</bpt>Переоценка стоимости<ept id="p2">**</ept> и <bpt id="p3">**</bpt>Переоценка амортизации<ept id="p3">**</ept>, и значение в поле <bpt id="p4">**</bpt>Остаточная стоимость<ept id="p4">**</ept> увеличивается или уменьшается на сумму проводки переоценки.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>To revaluate fixed asset cost and depreciation, follow these steps.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Для переоценки стоимости основных средств и амортизация выполните следующие действия.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Select <bpt id="p1">**</bpt>Fixed assets (Russia)<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Journals<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Periodic journals<ept id="p3">**</ept> <ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>FA revaluation<ept id="p4">**</ept> to open the <bpt id="p5">**</bpt>FA revaluation<ept id="p5">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Основные средства (Россия)<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Журналы<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Периодические журналы<ept id="p3">**</ept> <ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>Переоценка ОС<ept id="p4">**</ept>, чтобы открыть страницу <bpt id="p5">**</bpt>Переоценка ОС<ept id="p5">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Select <bpt id="p1">**</bpt>New<ept id="p1">**</ept> to create a revaluation journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Создать<ept id="p1">**</ept>, чтобы создать журнал переоценки.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>The <bpt id="p1">**</bpt>Revaluation period<ept id="p1">**</ept> and <bpt id="p2">**</bpt>State on<ept id="p2">**</ept> fields are automatically set to the current period and date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поля <bpt id="p1">**</bpt>Период переоценки<ept id="p1">**</ept> и <bpt id="p2">**</bpt>По состоянию на<ept id="p2">**</ept> заполняются автоматически значениями текущего периода и даты.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>However, you can update these fields as you require.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тем не менее, можно обновить эти поля требуемым образом.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>The <bpt id="p1">**</bpt>State on<ept id="p1">**</ept> field specifies the date that depreciation revaluation is calculated from.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле <bpt id="p1">**</bpt>По состоянию на<ept id="p1">**</ept> определяет дату, из которой рассчитывается переоценка амортизации.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>In the <bpt id="p1">**</bpt>Fixed asset journal name<ept id="p1">**</ept> field, select a journal name.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Наименование журнала основных средств<ept id="p1">**</ept> выберите наименование журнала.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>This journal name is used to create the Fixed asset journal when the revaluation journal is closed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Это наименование журнала используется для создания журнала основных средств после закрытия журнала переоценки.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>The <bpt id="p1">**</bpt>FA journal<ept id="p1">**</ept> field is automatically set, based on the number sequence setting, when the Fixed asset revaluation journal is closed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле <bpt id="p1">**</bpt>Журнал ОС<ept id="p1">**</ept> автоматически устанавливается на основе параметра номерной серии при закрытии журнала переоценки основных средств.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept>, and then, in the <bpt id="p2">**</bpt>Revaluation lines creation<ept id="p2">**</ept> dialog box, select the <bpt id="p3">**</bpt>RAP<ept id="p3">**</ept> value model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>, затем, в диалоговом окне <bpt id="p2">**</bpt>Создание строк переоценок<ept id="p2">**</ept> выберите модель стоимости <bpt id="p3">**</bpt>РСБУ<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>To set a filter to select fixed assets for revaluation, on the <bpt id="p1">**</bpt>Records to include<ept id="p1">**</ept> Fast Tab, select <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Чтобы задать фильтр для выбора основных средств для переоценки, на экспресс-вкладке <bpt id="p1">**</bpt>Включаемые записи<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Фильтр<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Then select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Затем выберите <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>On the <bpt id="p1">**</bpt>FA revaluation lines<ept id="p1">**</ept> page, the system creates lines for fixed assets that have the selected value model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Строки переоценки ОС<ept id="p1">**</ept> система создает строки для основных средств, которые имеют выбранную модель стоимости.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>The <bpt id="p1">**</bpt>Balance cost<ept id="p1">**</ept> field is set to <bpt id="p2">**</bpt>Net book value<ept id="p2">**</ept>, and the <bpt id="p3">**</bpt>Replacement cost<ept id="p3">**</ept> field is set to the new fixed asset cost.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Для поля <bpt id="p1">**</bpt>Балансовая стоимость<ept id="p1">**</ept> задается значение <bpt id="p2">**</bpt>Остаточную стоимость<ept id="p2">**</ept>, а для поля <bpt id="p3">**</bpt>Восстановительная стоимость<ept id="p3">**</ept> задается новая стоимость основного средства.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>The <bpt id="p1">**</bpt>Balance cost<ept id="p1">**</ept> value corresponds to the value in <bpt id="p2">**</bpt>Net book value<ept id="p2">**</ept> field on the <bpt id="p3">**</bpt>Balance by FA<ept id="p3">**</ept> page (<bpt id="p4">**</bpt>Fixed assets (Russia)<ept id="p4">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p5">**</bpt>Common<ept id="p5">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p6">**</bpt>Fixed assets<ept id="p6">**</ept>, select <bpt id="p7">**</bpt>Value models<ept id="p7">**</ept> on the <bpt id="p8">**</bpt>Fixed assets<ept id="p8">**</ept> page, and then select <bpt id="p9">**</bpt>Balance<ept id="p9">**</ept> on the <bpt id="p10">**</bpt>FA value models<ept id="p10">**</ept> page).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Значение <bpt id="p1">**</bpt>Балансовая стоимость<ept id="p1">**</ept> соответствует значению в поле <bpt id="p2">**</bpt>Остаточная стоимость<ept id="p2">**</ept> на странице <bpt id="p3">**</bpt>Баланс по ОС<ept id="p3">**</ept> (<bpt id="p4">**</bpt>Основные средства (Россия)<ept id="p4">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p5">**</bpt>Общие<ept id="p5">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p6">**</bpt>Основные средства<ept id="p6">**</ept>, выберите <bpt id="p7">**</bpt>Модели учета<ept id="p7">**</ept> на странице <bpt id="p8">**</bpt>Основные средства<ept id="p8">**</ept>, затем выберите <bpt id="p9">**</bpt>Баланс<ept id="p9">**</ept> на странице <bpt id="p10">**</bpt>Модели учета основных средств<ept id="p10">**</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>You can manually set the <bpt id="p1">**</bpt>Replacement cost<ept id="p1">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно указать вручную значение поля <bpt id="p1">**</bpt>Восстановительная стоимость<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>In this case, the system recalculates the factor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этом случае система пересчитывает коэффициент.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Alternatively, you can manually set the <bpt id="p1">**</bpt>Factor<ept id="p1">**</ept> field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно также указать вручную значение поля <bpt id="p1">**</bpt>Коэффициент<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>In this case, the system recalculates the replacement cost.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этом случае система пересчитывает восстановительную стоимость.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>You can add and remove lines as you require:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно добавлять и удалять строки по мере необходимости:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>To add a line, select <bpt id="p1">**</bpt>New<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Чтобы добавить строку, выберите <bpt id="p1">**</bpt>Создать<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>In the <bpt id="p1">**</bpt>Revaluation lines creation<ept id="p1">**</ept> dialog box, select the fixed asset inventory number and value model, and then select <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В диалоговом окне <bpt id="p1">**</bpt>Создание строк переоценок<ept id="p1">**</ept> выберите инвентарный номер и модель учета основного средства, затем выберите <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>If you don't specify the value model, the system creates lines for all value models that are set up in the fixed asset.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если модель стоимости не указана, система создает строки для всех моделей стоимости, которые настроены в основном средстве.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>To remove a line, select it, and then select <bpt id="p1">**</bpt>Delete<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Чтобы удалить строку, выберите ее, затем выберите <bpt id="p1">**</bpt>Удалить<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Follow one of these steps:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполните одно из следующих действий.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>To revaluate fixed asset cost and depreciation by using the direct revaluation method, in the <bpt id="p1">**</bpt>Replacement cost<ept id="p1">**</ept> field, enter the market cost of fixed assets.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Чтобы выполнить переоценку стоимости и амортизации основных средств по методу прямой переоценки, в поле <bpt id="p1">**</bpt>Восстановительная стоимость<ept id="p1">**</ept> введите рыночную стоимость основных средств.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>To revaluate fixed asset cost and depreciation for all fixed assets on the <bpt id="p1">**</bpt>FA revaluation lines<ept id="p1">**</ept> page by using the indexing method, select <bpt id="p2">**</bpt>Revaluation<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Чтобы выполнить переоценку стоимости и амортизации основных средств для всех основных средств на странице <bpt id="p1">**</bpt>Строки переоценки ОС<ept id="p1">**</ept>, используя метод индексации, выберите <bpt id="p2">**</bpt>Переоценка<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>In the <bpt id="p1">**</bpt>Group revaluation<ept id="p1">**</ept> dialog box, select the value model that the revaluation should be calculated for, and enter the factor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В диалоговом окне <bpt id="p1">**</bpt>Групповая переоценка<ept id="p1">**</ept> выберите модель стоимости, для которой должна рассчитываться переоценка, и введите коэффициент.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>To set a filter to select fixed assets for revaluation, on the <bpt id="p1">**</bpt>Records to include<ept id="p1">**</ept> Fast Tab, select <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Чтобы задать фильтр для выбора основных средств для переоценки, на экспресс-вкладке <bpt id="p1">**</bpt>Включаемые записи<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Фильтр<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Then select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Затем выберите <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>The <bpt id="p1">**</bpt>Factor<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Replacement cost<ept id="p2">**</ept> fields are filled in for all lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поля <bpt id="p1">**</bpt>Коэффициент<ept id="p1">**</ept> и <bpt id="p2">**</bpt>Восстановительную стоимость<ept id="p2">**</ept> будут заполнены для всех строк.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Close the <bpt id="p1">**</bpt>FA revaluation lines<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Закройте страницу <bpt id="p1">**</bpt>Строки переоценки ОС<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>On the <bpt id="p1">**</bpt>FA revaluation<ept id="p1">**</ept> page, on the Action Pane, select <bpt id="p2">**</bpt>Close<ept id="p2">**</ept> to confirm the revaluation results.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Переоценка ОС<ept id="p1">**</ept> на панели действий выберите <bpt id="p2">**</bpt>Закрыть<ept id="p2">**</ept>, чтобы подтвердить результаты переоценки.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>After the Fixed asset revaluation journal is closed and the Fixed asset journal is created, the Fixed asset journal number is filled in, and the <bpt id="p1">**</bpt>FA journal<ept id="p1">**</ept> button on the Action Pane becomes available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">После закрытия журнала переоценки основных средств и создания журнала основных средств заполняется номер журнала основных средств, и становится доступна кнопка <bpt id="p1">**</bpt>Журнал ОС<ept id="p1">**</ept> на панели действий.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Select <bpt id="p1">**</bpt>FA journal<ept id="p1">**</ept>, and then, on the <bpt id="p2">**</bpt>FA journal<ept id="p2">**</ept> page, select <bpt id="p3">**</bpt>Lines<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Журнал ОС<ept id="p1">**</ept>, затем, на странице <bpt id="p2">**</bpt>Журнал ОС<ept id="p2">**</ept>, выберите <bpt id="p3">**</bpt>Строки<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>The <bpt id="p1">**</bpt>Voucher transaction<ept id="p1">**</ept> page shows revaluation transactions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Проводка по ваучеру<ept id="p1">**</ept> отображаются проводки переоценки.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>You can correct these transactions as you require.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эти проводки можно при необходимости исправить.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Select <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Post<ept id="p2">**</ept> to post the journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Разнести<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Разнести<ept id="p2">**</ept>, чтобы разнести журнал.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Validate the balance in the value model (<bpt id="p1">**</bpt>Fixed asset (Russia)<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Fixed assets<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Value models<ept id="p3">**</ept> <ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>Balance<ept id="p4">**</ept>).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проверьте баланс в модели стоимости (<bpt id="p1">**</bpt>Основные средства (Россия)<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Основные средства<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Модели учета<ept id="p3">**</ept> <ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>Баланс<ept id="p4">**</ept>).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>The values in the <bpt id="p1">**</bpt>Cost revaluation<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Depreciation revaluation<ept id="p2">**</ept> fields are updated.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Значения в полях <bpt id="p1">**</bpt>Переоценка стоимости<ept id="p1">**</ept> и <bpt id="p2">**</bpt>Переоценка амортизации<ept id="p2">**</ept> будут обновлены.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
