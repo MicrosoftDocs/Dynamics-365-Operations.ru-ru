@@ -1,1596 +1,647 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="rus-cash-flow.md" target-language="ru-RU">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>rus-cash-flow.11359b.f677c9d9d67ce9b205dd20c39aaa1fbe29175128.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>f677c9d9d67ce9b205dd20c39aaa1fbe29175128</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\rus-cash-flow.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Cash flow management (Russia)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление движением денежных средств (Россия)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic walks you through an example that shows how to set up and use cash flow management in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Это руководство содержит пример, в котором показано, как настроить и использовать управление движением денежных средств в Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Cash flow management (Russia)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление движением денежных средств (Россия)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>In a centralized payment organization, there are many legal entities for operations, and each operating legal entity manages information for its own invoices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В организации, использующей систему централизованных платежей, имеется несколько юридических лиц, ведущих деятельность, и каждое из действующих юридических лиц управляет сведениями о своих накладных.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Payments for all the operating legal entities are generated from a single legal entity, which is sometimes referred to as the Treasury legal entity or Treasury company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выплаты по всем оперирующим юридическим лицам выполняются в одном юридическом лице, которое иногда называется кассовым юридическим лицом или кассовой компанией.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>A Treasury company is responsible for monitoring the flow of cash and liquidity movement across companies and cash positions (shortage and surplus), and for preventing corporate cash shortage in a timely manner.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Кассовая компания отвечает за наблюдение за потоком денежных средств и движением ликвидности между компаниями и денежными позициями (нехватка и излишек), а также за своевременное предотвращение нехватки корпоративных денежных средств.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Here are the main goals of a Treasury company:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ниже приведены основные цели кассовой компании:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Get an accurate liquidity/cash flow forecast, and do analysis for the medium-term/short-term horizon.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Получение точного прогноза движения ликвидности/денежных средств и выполнять среднесрочный и краткосрочный анализ.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Manage payments daily by using payment schedule journals.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ежедневное управление платежами, используя журналы графика оплаты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Control the company's cash position.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление состоянием денежной наличности компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Maintain the company's cash flows through centralized control.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ведение движения денежных средств компании за счет централизованного контроля.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>This topic provides a step-by-step example that shows the settings and user activities for cash flow management in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Этот раздел предоставляет пошаговый пример, показывающий параметры и действия пользователя для управления движением денежных средств в Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>The data set that is used in this topic is for demo purposes only.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Набор данных, используемый в этом разделе, предназначен только в целях демонстрации.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>The codes that you use for ledger accounts, value-added tax (VAT), rates, and so on, should comply with the rules that are accepted in your company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Коды, которые используются для создания счетов ГК, налог на добавленную стоимость (НДС), курсы и т. д., должны соответствовать правилам, принятым в вашей компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>In this example, Contoso Retail RUS (RURT) is a subsidiary of an industrial holding company and does business as an operating legal entity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этом примере компания Contoso Retail RUS (RURT) является дочерней компанией промышленного холдинга и работает как операционное юридическое лицо.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Contoso Entertainment Systems Russia (RUMF) is an internal bank of an industrial holding company and handles all payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Компания Contoso Entertainment Systems Russia (RUMF) — этой внутренний банк промышленного холдинга, который обрабатывает все платежи.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>The following table shows the stages of payment that a treasurer deals with during payment processing.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В следующей таблице показаны этапы оплаты, с которыми имеет дело казначей во время обработки платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Business scenario</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Бизнес-сценарий</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Payment cause</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Причина платежа</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Payment stage</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Стадия платежа</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>The company requests and confirms delivery of goods (that is, a purchase order that has a delivery schedule that is confirmed).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Компания отправляет запрос и подтверждает поставку товаров (т. е., заказ на покупку, имеющий график поставки, который подтвержден).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>A treasurer includes information about the expected payments (inflow or outflow) in the cash flow forecast by creating payment schedule journal of type "payment plan".</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Казначей включает сведения об ожидаемых платежах (входящих или исходящих) в прогнозе движения денежных средств, создавая журнал графика оплаты с типом "план платежей".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Purchase order</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Заказ на покупку</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Sales order</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Заказ на продажу</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Free text invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Накладная с произвольным текстом</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Planned payment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плановые платежи</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>The company receives the payment request (prepayment request, invoice, and so on) from a seller.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Компания получает запрос платежа (запрос предоплаты, накладная и т. д.) от продавца.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>The manager creates a payment request, which should be approved by the manager lead and a treasurer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Менеджер создает запрос оплаты, который должен быть утвержден руководителем менеджера и казначеем.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>The treasurer includes information about the expected and approved payments (inflow or outflow) in the cash flow forecast.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Казначей включает сведения об ожидаемых и утвержденных платежах (входящих или исходящих) в прогноз движения денежных средств.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>The Payment request and the associated functionality are available only if the <bpt id="p1">&lt;strong&gt;</bpt>Payment request<ept id="p1">&lt;/strong&gt;</ept> license configuration key is turned on.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Запрос платежа и связанные с ним функции доступны только тогда, когда включен конфигурационный ключ лицензии <bpt id="p1">&lt;strong&gt;</bpt>Запрос платежа<ept id="p1">&lt;/strong&gt;</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Vendor invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Накладная поставщика</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Prepayment invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Счет-фактура по предоплате</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Planned payment for confirmed purchase order</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плановый платеж для подтвержденного заказа на покупку</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Customer return invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Накладная на возврат клиента</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Payment request</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Запрос платежа</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>A treasurer generates and confirms the payment schedule journal (payment register).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Казначей создает и подтверждает журнал графика платежей (реестр платежей).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>In this way, the company defines the list of payments that should be made by the bank/cash account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Таким образом компания определяет список платежей, которые должны быть выполнены с банковского или кассового счета.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Payment schedule journal (of the <bpt id="p1">&lt;strong&gt;</bpt>Payment register<ept id="p1">&lt;/strong&gt;</ept> type)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Журнал графика платежей (типа <bpt id="p1">&lt;strong&gt;</bpt>Реестр платежей<ept id="p1">&lt;/strong&gt;</ept>)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Payment order</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платежное поручение</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>The company receives the statement from a bank.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Компания получает выписку из банка.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>This statement includes the authorized transactions (completed payments).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эта выписка включает авторизованные транзакции (выполненные платежи).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Bank statement</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Банковская выписка</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Completed payment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполненные платежи</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>After you complete the example that is provided in this topic, you will be able to perform the following tasks:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">После выполнения примера в этом разделе можно выполнять следующие задачи:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Configure parameters for cash flow management to support the new functionality.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настроить параметры управления движением денежных средств для поддержки новых функций.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Process planned payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обработать плановые платежи.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Forecast transactions of incoming and outgoing payments are automatically created and updated based on purchase orders, sales orders, and free text invoices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Прогнозировать проводки входящих и исходящих платежей автоматически создаются и обновляются на основе заказов на покупку, заказов на продажу и накладных с произвольным текстом.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>If the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> license configuration key is turned on, process payment requests based on indebtedness to vendors, customers, and workers, and prepayment requirements from vendors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если включен конфигурационный ключ лицензии <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept>, обрабатывать запросы платежей на основании задолженности поставщикам, клиентам и работникам и запросы предоплаты от поставщиков.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>(The processing includes the creation, update, and approval of payment requests.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Обработка включает создание, обновление и утверждение запросов платежей.)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Process payment schedule journals for medium-term liquidity planning (payment plan) and daily payment management (payment register).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обрабатывать журналы графика платежей для среднесрочного планирования ликвидности (план платежей) и ежедневного управления платежами (реестр платежей).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Analyze cash deficit and surplus through payment schedule sheet balancing (the simulation function).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Анализировать недостаточность и излишки денежных средств с помощью балансировки листа графика оплаты (функция моделирования).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Generate payments, based on an approved payment register, which is a type of payment schedule journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создавать платежи на основе реестра утвержденных платежей, имеющих тип журнала графика платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Setup</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Set up the license configuration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка конфигурации лицензии</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Go to <bpt id="p1">**</bpt>System administration <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> License configuration<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Администрирование системы <ph id="ph1">\&gt;</ph> Настройка <ph id="ph2">\&gt;</ph> Конфигурация лицензии<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Under <bpt id="p1">**</bpt>Country/Regional specific features <ph id="ph1">\&gt;</ph> Russia<ept id="p1">**</ept>, select the <bpt id="p2">**</bpt>Cash flow management<ept id="p2">**</ept> check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В разделе <bpt id="p1">**</bpt>Функции для страны/региона <ph id="ph1">\&gt;</ph> Россия<ept id="p1">**</ept> установите флажок <bpt id="p2">**</bpt>Управление движением денежных средств<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>If the organization plans to use payment requests, select the <bpt id="p1">**</bpt>Payment requests<ept id="p1">**</ept> check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если организация планирует использовать запросы платежей, установите флажок <bpt id="p1">**</bpt>Запросы платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Optional: Set up an organization hierarchy for centralized payments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Не обязательно: настройте организационную иерархию для централизованных платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Go to <bpt id="p1">**</bpt>Organization administration <ph id="ph1">\&gt;</ph> Organizations <ph id="ph2">\&gt;</ph> Organization hierarchies<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление организацией <ph id="ph1">\&gt;</ph> Организации <ph id="ph2">\&gt;</ph> Организационные иерархии<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>In the left pane, select <bpt id="p1">**</bpt>Centralized Payments<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В левой области выберите <bpt id="p1">**</bpt>Централизованные платежи<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Organization hierarchy for centralized payments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Организационная иерархия для централизованных платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Select <bpt id="p1">**</bpt>View<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Представление<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>On the <bpt id="p1">**</bpt>Hierarchy designer<ept id="p1">**</ept> page, create a hierarchy where <bpt id="p2">**</bpt>Contoso Entertainment Systems Russia<ept id="p2">**</ept> (<bpt id="p3">**</bpt>RUMF<ept id="p3">**</ept>) is the legal entity of the payment and <bpt id="p4">**</bpt>Contoso Retail RUS<ept id="p4">**</ept> (<bpt id="p5">**</bpt>RURT<ept id="p5">**</ept>) is the operating legal entity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Конструктор иерархии<ept id="p1">**</ept> создайте иерархию, в которой компания <bpt id="p2">**</bpt>Contoso Entertainment Systems Russia<ept id="p2">**</ept> (<bpt id="p3">**</bpt>RUMF<ept id="p3">**</ept>) — это юридическое лицо платежа, а <bpt id="p4">**</bpt>Contoso Retail RUS<ept id="p4">**</ept> (<bpt id="p5">**</bpt>RURT<ept id="p5">**</ept>) является операционных юридическим лицом.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Organization hierarchy designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Конструктор организационной иерархии</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Publish the new hierarchy.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Опубликуйте новую иерархию.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Set up a workflow for cash flow management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка workflow-процесса для управления движением денежных средств</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Cash and bank management workflows<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Настройка <ph id="ph2">\&gt;</ph> Workflow-процессы управления банками и кассами<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Select <bpt id="p1">**</bpt>New<ept id="p1">**</ept> to create a record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Создать<ept id="p1">**</ept>, чтобы создать запись.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Select the required workflow type: <bpt id="p1">**</bpt>Workflow type for payment requests approval<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Payment schedule journal approval workflow<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите требуемый тип workflow-процесса: <bpt id="p1">**</bpt>Тип workflow-процесса для утверждения запросов платежей<ept id="p1">**</ept> или <bpt id="p2">**</bpt>Workflow-процесс утверждения журнала графика платежей<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Set up the new workflow by using the new <bpt id="p1">**</bpt>Approve the payment request<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Approve payment schedule journal<ept id="p2">**</ept> workflow element.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройте новый workflow-процесс с помощью нового элемента workflow-процесса <bpt id="p1">**</bpt>Утвердить запрос платежа<ept id="p1">**</ept> или <bpt id="p2">**</bpt>Утвердить журнал графика платежей<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Workflow elements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Элементы бизнес-правила</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Activate the new workflow.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Активируйте новый workflow-процесс.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Set up a payment priority</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка приоритета платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Cash flow management <ph id="ph3">\&gt;</ph> Payment priority<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Настройка <ph id="ph2">\&gt;</ph> Управление движением денежных средств <ph id="ph3">\&gt;</ph> Приоритет платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Select <bpt id="p1">**</bpt>New<ept id="p1">**</ept> to create a record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Создать<ept id="p1">**</ept>, чтобы создать запись.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>On the <bpt id="p1">**</bpt>Manage priority<ept id="p1">**</ept> FastTab, use the <bpt id="p2">**</bpt>Up<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Down<ept id="p3">**</ept> buttons to arrange the priority list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Управление приоритетом<ept id="p1">**</ept> используйте кнопки <bpt id="p2">**</bpt>Вверх<ept id="p2">**</ept> и <bpt id="p3">**</bpt>Вниз<ept id="p3">**</ept>, чтобы упорядочить список приоритетов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Go to <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Vendors <ph id="ph2">\&gt;</ph> All vendors<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Поставщики <ph id="ph2">\&gt;</ph> Все поставщики<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Select the vendor, and then select <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите поставщика, затем выберите <bpt id="p1">**</bpt>Изменить<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>In the <bpt id="p1">**</bpt>Payment priority<ept id="p1">**</ept> field, specify a priority code for the associated party.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Приоритет платежа<ept id="p1">**</ept> укажите код приоритета для связанного субъекта.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>You can also complete this operation on the <bpt id="p1">**</bpt>Party<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Customer<ept id="p2">**</ept> pages.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно также выполнить эту операцию на страницах <bpt id="p1">**</bpt>Субъект<ept id="p1">**</ept> и <bpt id="p2">**</bpt>Клиент<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Set up a payment request type</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка типа запроса платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Cash flow management <ph id="ph3">\&gt;</ph> Payment request type<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Настройка <ph id="ph2">\&gt;</ph> Управление движением денежных средств <ph id="ph3">\&gt;</ph> Тип запроса платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>The <bpt id="p1">**</bpt>Payment request type<ept id="p1">**</ept> page is available only if the <bpt id="p2">**</bpt>Payment request<ept id="p2">**</ept> license configuration key is turned on.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Страница <bpt id="p1">**</bpt>Тип запроса платежа<ept id="p1">**</ept> доступна только тогда, когда включен конфигурационный ключ лицензии <bpt id="p2">**</bpt>Запрос платежа<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>Select <bpt id="p1">**</bpt>New<ept id="p1">**</ept> to create a record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Создать<ept id="p1">**</ept>, чтобы создать запись.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>Specify the payment priority.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите приоритет платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>If a payment priority isn't specified for a payment request type, the lowest payment priority will be used for payment requests of that type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если для типа запроса платежа приоритета платежа не указан, самый низкий приоритет платежа будет использоваться для запросов платежей этого типа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>The payment priority for a payment request will be the higher of the payment priority of the party and the payment priority of the payment request type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Приоритет платежа для запроса платежа будет выше приоритета платежа субъекта и приоритета платежа типа запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Specify the cash flow direction: <bpt id="p1">**</bpt>Cash inflow<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Cash outflow<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите направление движения денежных средств: <bpt id="p1">**</bpt>Поступление денежных средств<ept id="p1">**</ept> или <bpt id="p2">**</bpt>Расход денежных средств<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Specify the workflow that is associated with payment request approval, if the approval procedure should be applied to payment requests of this type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите workflow-процесс, который связан с утверждением запроса платежа, если процедура утверждения должна быть применена к запросам платежей этого типа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>Specify cash flow management parameters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Указания параметров управления движением денежных средств</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>This setup should be completed for a Treasury company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эту настройку следует выполнять для кассовой компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Cash and bank management parameters<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Настройка <ph id="ph2">\&gt;</ph> Параметры управления банком и кассовыми операциями<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>On the <bpt id="p1">**</bpt>Cash flow management<ept id="p1">**</ept> tab, on the <bpt id="p2">**</bpt>Financial dimensions<ept id="p2">**</ept> FastTab, specify the dimension set.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Управление движением денежных средств<ept id="p1">**</ept> на экспресс-вкладке <bpt id="p2">**</bpt>Финансовые аналитики<ept id="p2">**</ept> укажите набор аналитик.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>This step lets an organization determine which dimensions in the account structures that are associated with the chart of accounts (for legal entities in a centralized payment hierarchy) are available for cash flow management processing.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Этот шаг позволяет организации определить, какие аналитики в структуре счетов, которая связана с планом счетов (для юридических лиц в иерархии централизованных платежей), доступны для обработки управления движением денежных средств.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>For example, combinations of departments that have cost centers can be used for liquidity/cash flow forecast analysis.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Например, комбинации подразделений, которые имеют центры затрат, могут использоваться для анализа прогноза движения денежных средств и ликвидности.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>On the <bpt id="p1">**</bpt>Default exchange rate type for forecast<ept id="p1">**</ept> FastTab, specify the default exchange rate type for forecasts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Тип валютного курса для прогноза по умолчанию<ept id="p1">**</ept> укажите тип валютного курса по умолчанию для прогнозов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>This value is used in payment plans when the currency of a payment source differs from the payment currency.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Это значение используется в планах платежей, когда валюта источника платежа отличается от валюты платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Complete the steps 4-7 if the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> license configuration key is turned on.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполните шаги 4–7, если включен конфигурационный ключ лицензии <bpt id="p1">**</bpt>Запросы платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>On the <bpt id="p1">**</bpt>Payment request types<ept id="p1">**</ept> FastTab, specify payment request types for <bpt id="p2">**</bpt>Indebtedness to vendor<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Vendor prepayment<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Indebtedness to customer<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Indebtedness to worker<ept id="p5">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Типы запросов платежей<ept id="p1">**</ept> укажите типы запросов платежей для параметров <bpt id="p2">**</bpt>Задолженность поставщику<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Предоплата поставщику<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Задолженность клиенту<ept id="p4">**</ept> и <bpt id="p5">**</bpt>Задолженность работнику<ept id="p5">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>These payment request types are used during automatic creation of payment requests.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эти типы запросов платежей используются во время автоматического создания запросов платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>On the <bpt id="p1">**</bpt>Payments<ept id="p1">**</ept> FastTab, specify the vendor payment journal and customer payment journal that are used to post payments that are generated by the payment register.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Платежи<ept id="p1">**</ept> укажите журнал платежей поставщикам и журнал платежей клиентам, которые используются для разноски платежей, созданных реестром платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>On the <bpt id="p1">**</bpt>Payment request re-approval<ept id="p1">**</ept> FastTab, in the <bpt id="p2">**</bpt>Amount to pay change<ept id="p2">**</ept> field, specify the system behavior if the amount to pay for a payment request is changed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Повторное утверждение запросов платежей<ept id="p1">**</ept> в поле <bpt id="p2">**</bpt>Изменение суммы платежа<ept id="p2">**</ept> укажите поведение системы при изменении суммы для оплаты по запросу платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>You can specify that the system should always initialize a payment request reapproval through a workflow, that the system should initialize a payment request reapproval only if the amount to pay has increased, or that reapproval is never required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно указать, что система всегда должна инициализировать повторное утверждение запроса платежей через workflow-процесс, что система должна инициализировать повторное утверждение запроса платежа только в том случае, если сумма, подлежащая оплате, увеличена, или повторное утверждение никогда не требуется.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>On the <bpt id="p1">**</bpt>Number sequences<ept id="p1">**</ept> tab, specify number sequence codes for the following references:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Номерные серии<ept id="p1">**</ept> укажите коды номерных серий для следующих ссылок:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Payment request</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Запрос платежа</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Payment schedule journal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Журнал графика платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Set up terms of payment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка условий оплаты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>This setup is available only if the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> license configuration key is turned on.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эта настройка доступна только тогда, когда включен конфигурационный ключ лицензии <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Go to <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Payment setup <ph id="ph2">\&gt;</ph> Terms of payment<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Настройка платежей <ph id="ph2">\&gt;</ph> Условия оплаты<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Select <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>, and specify the payment request types for payments and prepayments, if specific payment request types should be used in these scenarios.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Изменить<ept id="p1">**</ept>и укажите типы запросов платежей для платежей и предоплаты, если конкретные типы запросов платежей следует использовать в следующих сценариях.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Set up payment schedules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка графиков платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>Go to <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Payment setup <ph id="ph2">\&gt;</ph> Payment schedules<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Настройка платежей <ph id="ph2">\&gt;</ph> Графики платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Create a payment schedule.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте график платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>In the <bpt id="p1">**</bpt>Allocation<ept id="p1">**</ept> field, set the allocation method to <bpt id="p2">**</bpt>Specified<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Распределение<ept id="p1">**</ept> задайте метод распределения <bpt id="p2">**</bpt>Задано<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>On the <bpt id="p1">**</bpt>Payment lines<ept id="p1">**</ept> FastTab, create payment lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Строки оплаты<ept id="p1">**</ept> создайте строки платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>Select the <bpt id="p1">**</bpt>Prepayment<ept id="p1">**</ept> check box for a line if a payment request should be created for prepayment amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите флажок <bpt id="p1">**</bpt>Предоплата<ept id="p1">**</ept> для строки, если запрос платежа должен быть создан для суммы предоплаты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>Set up the remittance en route account</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка промежуточного счета предъявления к оплате</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>This setup should be completed for a Treasury company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эту настройку следует выполнять для кассовой компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Cash flow forecasting <ph id="ph2">\&gt;</ph> Cash flow forecast setup<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Прогнозирование движения денежных средств <ph id="ph2">\&gt;</ph> Настройка прогноза движения денежных средств<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>On the <bpt id="p1">**</bpt>General ledger<ept id="p1">**</ept> tab, on the <bpt id="p2">**</bpt>Liquidity accounts<ept id="p2">**</ept> FastTab, select <bpt id="p3">**</bpt>Add<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Главная книга<ept id="p1">**</ept> на экспресс-вкладке <bpt id="p2">**</bpt>Счета денежных средств<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Добавить<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>In the <bpt id="p1">**</bpt>Main account<ept id="p1">**</ept> field, select the ledger account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Счет ГК<ept id="p1">**</ept> выберите счет учета.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>Select the <bpt id="p1">**</bpt>Remittance en route<ept id="p1">**</ept> check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Установите флажок <bpt id="p1">**</bpt>Промежуточный счет предъявления к оплате<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>Set up the minimum cash balance for bank accounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка минимальных денежных остатков для банковских счетов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>This setup should be completed for a Treasury company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эту настройку следует выполнять для кассовой компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Bank accounts <ph id="ph2">\&gt;</ph> Bank accounts<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Банковские счета <ph id="ph2">\&gt;</ph> Банковские счета<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Select a bank account, and then select <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите банковский счет, затем выберите <bpt id="p1">**</bpt>Изменить<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>Specify the minimum cash balance.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите минимальные денежные остатки.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>If the estimated balance amount of the bank account is less than the minimum cash balance that you specify, the payment schedule sheet will overwrite the estimated balance for that date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если оценка сальдо банковского счета меньше минимального денежного остатка, который вы указали, лист графика платежей перезапишет оцененное сальдо для этой даты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>Set up the minimum cash balance for cash accounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка минимальных денежных остатков для кассовых счетов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>This setup should be completed for a Treasury company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эту настройку следует выполнять для кассовой компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Bank accounts <ph id="ph2">\&gt;</ph> Cash accounts<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Банковские счета <ph id="ph2">\&gt;</ph> Кассы<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>Select the cash account, and then select <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите кассовый счет, затем выберите <bpt id="p1">**</bpt>Изменить<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>Specify the minimum cash balance.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите минимальные денежные остатки.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>If the estimated balance amount of the cash account is less than the minimum cash balance that you specify, the payment schedule sheet will overwrite the estimated balance for that date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если оценка сальдо кассового счета меньше минимального денежного остатка, который вы указали, лист графика платежей перезапишет оцененное сальдо для этой даты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Set up default payment order requisites for purchase agreements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка реквизитов платежного поручение по умолчанию для договоров покупки</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Select <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Purchase orders <ph id="ph2">\&gt;</ph> Purchase agreements<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Заказы на покупку <ph id="ph2">\&gt;</ph> Договоры покупки<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Select a purchase agreement that has a method of payment that is associated with a payment order in Russian rubles (RUB).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите договор покупки, который содержит метод оплаты, который связан с платежным поручением в российских рублях (руб.).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Purchase agreement<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Payment order<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Договор покупки<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Настройка<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Платежное поручение<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>Select <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>, and specify default payment order requisites.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Изменить<ept id="p1">**</ept>и укажите реквизиты платежного поручения по умолчанию.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>Payment order requisites for a payment request or a payment journal line that is associated with this purchase agreement will be initialized from the purchase agreement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Реквизиты платежного поручения для запроса платежа или строки журнала платежей, которые связаны с этим договором покупки, будут инициализированы из договора покупки.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Planned payment processing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обработка плановых платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>Planned payments on purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плановые платежи по заказам на покупку</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>A planned payment contains details about future payments: the amount, method of payment, payment account, payment priority, and cash discount amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плановый платеж содержит подробные сведения о будущих платежах: сумма, метод оплаты, платежный счет, приоритет платежа и скидка по оплате.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>The due date is calculated based on the <bpt id="p1">**</bpt>Confirmed delivery date<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Delivery date<ept id="p2">**</ept> if the <bpt id="p3">**</bpt>Confirmed delivery date<ept id="p3">**</ept> isn't specified.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Дата оплаты вычисляется на основе <bpt id="p1">**</bpt>Подтвержденная дата доставки<ept id="p1">**</ept> или <bpt id="p2">**</bpt>Дата поставки<ept id="p2">**</ept>, если <bpt id="p3">**</bpt>Подтвержденная дата доставки<ept id="p3">**</ept> не указана.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>If a user posts an invoice, planned payments are recalculated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если пользователь выполняет разноску накладной, пересчитываются плановые платежи.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>If a purchase order is fully invoiced, the purchase order won't have any planned payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если счета за заказ на покупку полностью выставлены, заказ на покупку не будет иметь никаких запланированных платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>If the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> license configuration key is turned on, a planned payment is created based on the financial dimensions from the purchase order lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если лицензионный ключ конфигурации <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> включен, запланированный платеж создается на основе финансовых аналитик из строк заказа на покупку.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>Otherwise, the planned payment is based on the financial dimensions from the purchase order header.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В противном случае плановые платежи основаны на финансовой аналитике из заголовка заказа на покупку.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>Planned payments are generated for a purchase order if a payment schedule is calculated, or if a user selects the <bpt id="p1">**</bpt>Planned payments<ept id="p1">**</ept> button.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плановые платежи создаются для заказа на покупку, если график оплаты рассчитывается или если пользователь выбирает кнопку <bpt id="p1">**</bpt>Плановые платежи<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>This procedure should be completed in a subsidiary company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эту процедуру следует выполнять в дочерней компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>Go to <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Purchase orders <ph id="ph2">\&gt;</ph> All purchase orders<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Заказы на покупку <ph id="ph2">\&gt;</ph> Все заказы на покупку<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>Create a purchase order.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание заказа на покупку.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>On the purchase order header, specify the terms of payments, payment schedule, method of payment, cash discount, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В заголовке заказа на покупку укажите условия платежей, график оплаты, метод оплаты, скидку по оплате и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>Create purchase order lines, and specify the sales tax group, item sales tax group, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте строки заказа на покупку и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>Distribute the amount of a line if distribution is required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Распределите сумму строк, если требуется распределение.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Invoice<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Bill<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Planned payments<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Накладная<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Выставление счета<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Плановые платежи<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>Review the planned payments that have been created based on the due dates, financial dimension values, sales tax group, and item sales tax group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотрите плановые платежи, которые были созданы, на основе даты оплаты, значений финансовых аналитик, налоговой группы и налоговой группы номенклатур.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>Planned payments on sales orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плановые платежи по заказам на продажу</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>A planned payment contains details about future payments: the value, method of payment, payment account, payment priority, and cash discount amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плановый платеж содержит подробные сведения о будущих платежах: сумма, метод оплаты, платежный счет, приоритет платежа и скидка по оплате.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>If the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> license configuration key is turned on, a planned payment is created based on the financial dimensions from the sales order lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если лицензионный ключ конфигурации <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> включен, запланированный платеж создается на основе финансовых аналитик из строк заказа на продажу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>Otherwise, the planned payment is based on the financial dimensions from the sales order header.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В противном случае плановые платежи основаны на финансовой аналитике из заголовка заказа на продажу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>Planned payments are generated for a sales order if a payment schedule is calculated, or if a user selects the <bpt id="p1">**</bpt>Planned payments<ept id="p1">**</ept> button.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плановые платежи создаются для заказа на продажу, если график оплаты рассчитывается или если пользователь выбирает кнопку <bpt id="p1">**</bpt>Плановые платежи<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>This step should be completed in a subsidiary company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Этот шаг следует выполнять в дочерней компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>Go to <bpt id="p1">**</bpt>Accounts receivable <ph id="ph1">\&gt;</ph> Orders <ph id="ph2">\&gt;</ph> All sales orders<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с клиентами <ph id="ph1">\&gt;</ph> Заказы <ph id="ph2">\&gt;</ph> Все заказы на продажу<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>Create a sales order.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание заказа на продажу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>On the sales order header, specify the terms of payments, payment schedule, method of payment, cash discount, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В заголовке заказа на продажу укажите условия платежей, график оплаты, метод оплаты, скидку по оплате и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>Create sales order lines, and specify the sales tax group, item sales tax group, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте строки заказа на продажу и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Invoice<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Bill<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Planned payments<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Накладная<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Выставление счета<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Плановые платежи<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source>Review the planned payments that have been created based on the due dates, dimension values, sales tax group, and item sales tax group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотрите плановые платежи, которые были созданы, на основе даты оплаты, значений аналитик, налоговой группы и налоговой группы номенклатур.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>Planned payments on free text invoices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плановые платежи по накладным с произвольным текстом</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>A planned payment contains details about future payments: the value, method of payment, payment account, payment priority, and cash discount amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плановый платеж содержит подробные сведения о будущих платежах: сумма, метод оплаты, платежный счет, приоритет платежа и скидка по оплате.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>If the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> license configuration key is turned on, a planned payment is created based on the financial dimensions from the free text invoice lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если лицензионный ключ конфигурации <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> включен, запланированный платеж создается на основе финансовых аналитик из строк накладных с произвольным текстом.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>Otherwise, the planned payment is based on the financial dimensions from the free text invoice header.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В противном случае плановые платежи основаны на финансовой аналитике из заголовка накладной с произвольным текстом.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source>Planned payments are generated for a free text invoice if a payment schedule is calculated, or if a user selects the <bpt id="p1">**</bpt>Planned payments<ept id="p1">**</ept> button.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плановые платежи создаются для накладной с произвольным текстом, если график оплаты рассчитывается или если пользователь выбирает кнопку <bpt id="p1">**</bpt>Плановые платежи<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>This step should be completed in a subsidiary company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Этот шаг следует выполнять в дочерней компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source>Go to <bpt id="p1">**</bpt>Accounts receivable <ph id="ph1">\&gt;</ph> Invoices <ph id="ph2">\&gt;</ph> All free text invoices<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с клиентами <ph id="ph1">\&gt;</ph> Накладные <ph id="ph2">\&gt;</ph> Все накладные с произвольным текстом<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>Create a free text invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте накладную с произвольным текстом.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source>On the free text invoice header, specify the terms of payments, payment schedule, method of payment, cash discount, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В заголовке накладной с произвольным текстом укажите условия платежей, график оплаты, метод оплаты, скидку по оплате и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source>Create free text invoice lines, and specify the sales tax group, item sales tax group, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте строки накладной с произвольным текстом и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source>Distribute the amount of a line if distribution is required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Распределите сумму строк, если требуется распределение.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Invoice<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Details<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Planned payments<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Накладная<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Сведения<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Плановые платежи<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>Review the planned payments that have been created based on the due dates, dimension values, sales tax group, and item sales tax group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотрите плановые платежи, которые были созданы, на основе даты оплаты, значений аналитик, налоговой группы и налоговой группы номенклатур.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>Periodic creation of planned payments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Периодическое создание плановых платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source>This step should be completed for a Treasury company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Этот шаг следует выполнять для кассовой компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Periodic tasks <ph id="ph2">\&gt;</ph> Cash flow management <ph id="ph3">\&gt;</ph> Calculate planned payments<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Периодические задачи <ph id="ph2">\&gt;</ph> Управление движением денежных средств <ph id="ph3">\&gt;</ph> Рассчитать плановые платежи<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>Set the following parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Задайте следующие параметры.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="287">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="288">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="289">
-          <source>From date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">с даты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="290">
-          <source>Specify the start of the date range for the planned payment sources.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите начало диапазона дат для источников плановых платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="291">
-          <source>To date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">До даты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="292">
-          <source>Specify the end of the date range for the planned payment sources.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите конец диапазона дат для источников плановых платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="293">
-          <source>Planned payment source</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Источник планового платежа</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="294">
-          <source>Select a planned payment source.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите источник планового платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="295">
-          <source>Legal entities</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Юридические лица</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="296">
-          <source>Select legal entities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите юридические лица.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="297">
-          <source>A Treasury company can include all legal entities that belong to the current centralized payment hierarchy.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Кассовая компания может включать все юридические лица, которые принадлежат текущей иерархии для централизованных платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="298">
-          <source>Recalculate all</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перерассчитать все</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="299">
-          <source>Set this option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept> if all planned payments should be recalculated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Установите для этого параметра значение <bpt id="p1">**</bpt>Да<ept id="p1">**</ept>, если все спланированные платежи должны быть пересчитаны.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="300">
-          <source>If this option is set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>, only new planned payment will be created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если этот параметр имеет значение <bpt id="p1">**</bpt>Нет<ept id="p1">**</ept>, будет создан только новый плановый платеж.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="301">
-          <source>Payment request processing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обработка запросов платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="302">
-          <source>Create a manual payment request</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание запроса платежей вручную</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="303">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Cash flow management <ph id="ph2">\&gt;</ph> All payment requests<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Управление движением денежных средств <ph id="ph2">\&gt;</ph> Все запросы платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="304">
-          <source>Create a payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте запрос платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="305">
-          <source>Specify the payment request type, currency of the payment request, account type (<bpt id="p1">**</bpt>Vendor<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Customer<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Worker<ept id="p3">**</ept>), account, invoice account, agreement registration number, payment currency, due date, and method of payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите тип запроса платежа, валюту запроса платежа, тип счета (<bpt id="p1">**</bpt>Поставщик<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Клиент<ept id="p2">**</ept> или <bpt id="p3">**</bpt>Работник<ept id="p3">**</ept>), счет, счет накладной, регистрационный номер договора, валюту оплаты, срок выполнения и метод оплаты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="306">
-          <source>The <bpt id="p1">**</bpt>Payment request type<ept id="p1">**</ept> field defines the cash flow direction and the workflow.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле <bpt id="p1">**</bpt>Тип запроса платежа<ept id="p1">**</ept> определяет направление движения денежных средств и workflow-процесс.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="307">
-          <source>The <bpt id="p1">**</bpt>Method of payment<ept id="p1">**</ept> field defines the payment account type and payment account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле <bpt id="p1">**</bpt>Способ оплаты<ept id="p1">**</ept> определяет тип счета платежа и счет платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="308">
-          <source>The <bpt id="p1">**</bpt>Payment request priority<ept id="p1">**</ept> value is defined by properties of the payment account type and party.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Значение <bpt id="p1">**</bpt>Приоритет запроса платежа<ept id="p1">**</ept> определяется свойствами типа счета платежа и субъектом.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="309">
-          <source>The centralized payment hierarchy defines the Treasury company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Иерархия централизованных платежей определяет кассовую компанию.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="310">
-          <source>A payment request company is a company where a payment request is created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Компания запрос платежа — это, компания, где был создан запрос платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="311">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="312">
-          <source>In the <bpt id="p1">**</bpt>Header<ept id="p1">**</ept> view, on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> FastTab, set the required payment request parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В представлении <bpt id="p1">**</bpt>Заголовок<ept id="p1">**</ept> на экспресс-вкладке <bpt id="p2">**</bpt>Общие<ept id="p2">**</ept> задайте требуемые параметры запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="313">
-          <source>You can change the value of the <bpt id="p1">**</bpt>Payment date<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Payment currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Payment priority<ept id="p3">**</ept>, and other parameters as you require.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно изменить значение полей <bpt id="p1">**</bpt>Дата оплаты<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Валюта платежа<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Приоритет платежа<ept id="p3">**</ept> и другие параметры, как требуется.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="314">
-          <source>On the <bpt id="p1">**</bpt>Payment<ept id="p1">**</ept> FastTab, set the required payment request parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Платеж<ept id="p1">**</ept> задайте требуемые параметры запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="315">
-          <source>You can change the value of the <bpt id="p1">**</bpt>Posting profile<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Payment account type<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Payment account<ept id="p3">**</ept>, and other parameters as you require.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно изменить значение полей <bpt id="p1">**</bpt>Профиль разноски<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Тип счета платежа<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Счет платежа<ept id="p3">**</ept> и другие параметры, как требуется.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="316">
-          <source>On the <bpt id="p1">**</bpt>Payment order<ept id="p1">**</ept> FastTab, specify the required payment order requisites.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Платежное поручение<ept id="p1">**</ept> укажите требуемые реквизиты платежного поручения.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="317">
-          <source>By default, these requisites are initialized from a purchase agreement or sales agreement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">По умолчанию эти реквизитов инициализируются из договора покупки или договора продажи.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="318">
-          <source>This FastTab is available only if the method of payment is associated with a payment order in RUB.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эта экспресс-вкладка доступна только в том случае, если метод оплаты связан с платежным поручением в российских рублях.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="319">
-          <source>On the <bpt id="p1">**</bpt>History<ept id="p1">**</ept> FastTab, review the details about payment request processing.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>История<ept id="p1">**</ept> просмотрите сведения о обработки запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="320">
-          <source>You can change the payment request initiator as you require.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно изменить инициатора запроса платежа, как требуется.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="321">
-          <source>On the <bpt id="p1">**</bpt>Financial dimensions<ept id="p1">**</ept> FastTab, specify the financial dimensions of the payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Финансовые аналитики<ept id="p1">**</ept> укажите финансовые аналитики запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="322">
-          <source>Switch to the <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> view.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите к представлению <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="323">
-          <source>Select <bpt id="p1">**</bpt>Add line<ept id="p1">**</ept> to create a record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Добавить строку<ept id="p1">**</ept>, чтобы создать запись.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="324">
-          <source>Specify the <bpt id="p1">**</bpt>Sales tax group<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Item sales tax group<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Original amount<ept id="p3">**</ept> dimension values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите значения аналитик <bpt id="p1">**</bpt>Налоговая группа<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Налоговая группа номенклатур<ept id="p2">**</ept> и <bpt id="p3">**</bpt>Исходная сумма<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="325">
-          <source>By default, the <bpt id="p1">**</bpt>Amount to pay<ept id="p1">**</ept> field is set to <bpt id="p2">**</bpt>Original amount<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">По умолчанию в поле <bpt id="p1">**</bpt>Сумма к выплате<ept id="p1">**</ept> устанавливается значение <bpt id="p2">**</bpt>Исходная сумма<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="326">
-          <source>Repeat steps 11 through 12 to create more lines, as you require.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Повторите шаги 11–12, чтобы создать несколько строк, сколько требуется.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="327">
-          <source>Save the record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сохранение записи.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="328">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Bill<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Cash discount<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Общие<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Выставление счета<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Скидка по оплате<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="329">
-          <source>Create a record, and specify the cash discount date and cash discount amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте запись и укажите дату скидки по оплате и сумму скидки по оплате.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="330">
-          <source>Repeat step 16 to create more lines, as you require.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Повторите шаг 16, чтобы создать несколько строк, сколько требуется.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="331">
-          <source>Then close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Затем закройте страницу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="332">
-          <source>If all the data is filled in, and workflow approval can start, on the Action Pane, on the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Generate<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Confirmation<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если все данные заполнены и можно начать утверждение workflow-процесса, на панели действий на вкладке <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Создать<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Подтверждение<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="333">
-          <source>Select <bpt id="p1">**</bpt>Workflow <ph id="ph1">\&gt;</ph> Submit<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Workflow-процесс <ph id="ph1">\&gt;</ph> Отправить<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="334">
-          <source>Submitting a payment request for workflow approval</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Отправка запроса платежа для утверждения workflow-процесса</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="335">
-          <source>The status of a payment request is automatically updated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Статус запроса платежа автоматически обновляется.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="336">
-          <source>The following table describes all the payment request statuses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В следующей таблице описаны все статусы запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="337">
-          <source>Payment request status</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Статус запроса платежа</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="338">
-          <source>System event</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Системное событие</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="339">
-          <source>Opened</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Прочтено</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="340">
-          <source>A user creates a manual payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Пользователь создает запрос платежа вручную.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="341">
-          <source>Confirmed</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Подтверждено</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="342">
-          <source>A user confirms a manual payment request, or the system creates a payment request that is based on a source (vendor invoice, customer invoice, or prepayment planned payment).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Пользователь подтверждает запрос платежа вручную или система создает запрос платежа, основанный на источнике (накладная поставщика, накладная клиента или плановый платеж предоплаты).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="343">
-          <source>Scheduled</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Запланировано</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="344">
-          <source>A payment schedule journal of the <bpt id="p1">**</bpt>Payment plan<ept id="p1">**</ept> type (which includes a payment request) is posted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разносится журнал графика платежей типа <bpt id="p1">**</bpt>План платежей<ept id="p1">**</ept> (который включает запрос платежа).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="345">
-          <source>Accepted</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Акцептировано</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="346">
-          <source>A payment schedule journal of the <bpt id="p1">**</bpt>Payment register<ept id="p1">**</ept> type (which includes a payment request) is posted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разносится журнал графика платежей типа <bpt id="p1">**</bpt>Реестр платежей<ept id="p1">**</ept> (который включает запрос платежа).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="347">
-          <source>Completed</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Завершено</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="348">
-          <source>A payment journal (which includes a payment request) is posted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разносится журнал платежей (который включает запрос платежа).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="349">
-          <source>Canceled</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Отменено</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="350">
-          <source>A user cancels a payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Пользователь отменяет запрос платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="351">
-          <source>Cancel a payment request</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Отмена запроса платежа</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="352">
-          <source>You can cancel a payment request only if its status is <bpt id="p1">**</bpt>Opened<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Confirmed<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Scheduled<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Запрос платежа можно отменить только в том случае, если его статус <bpt id="p1">**</bpt>Открыто<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Подтверждено<ept id="p2">**</ept> или <bpt id="p3">**</bpt>Запланировано<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="353">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Cash flow management <ph id="ph2">\&gt;</ph> All payment requests<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Управление движением денежных средств <ph id="ph2">\&gt;</ph> Все запросы платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="354">
-          <source>Select a payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите запрос платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="355">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Maintain<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Cancel<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Поддержка<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Отмена<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="356">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="357">
-          <source>Put a payment request on hold</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Блокировка платежного требования</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="358">
-          <source>You can put a payment request on hold only if its status is <bpt id="p1">**</bpt>Opened<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Confirmed<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Scheduled<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платежное требование можно заблокировать только в том случае, если его статус <bpt id="p1">**</bpt>Открыто<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Подтверждено<ept id="p2">**</ept> или <bpt id="p3">**</bpt>Запланировано<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="359">
-          <source>A payment request that is on hold isn't included in payment schedule journals.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Запрос платежа, который находится в заблокированном состоянии, не включается в журналы графика платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="360">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Cash flow management <ph id="ph2">\&gt;</ph> All payment requests<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Управление движением денежных средств <ph id="ph2">\&gt;</ph> Все запросы платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="361">
-          <source>Select a payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите запрос платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="362">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Maintain<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>On hold<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Поддержка<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Заблокировано<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="363">
-          <source>Set the <bpt id="p1">**</bpt>On hold<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, and specify a reason code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Задайте для параметра <bpt id="p1">**</bpt>Заблокировано<ept id="p1">**</ept> значение <bpt id="p2">**</bpt>Да<ept id="p2">**</ept> и укажите код причины.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="364">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="365">
-          <source>To remove the hold from a payment request, on the Action Pane, on the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Maintain<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>On hold<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Для снятия блокировки с платежного требования на панели операций на вкладке <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Поддержка<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Заблокировано<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="366">
-          <source>Then set the <bpt id="p1">**</bpt>On hold<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>No<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Затем задайте для параметра <bpt id="p1">**</bpt>Заблокировано<ept id="p1">**</ept> значение <bpt id="p2">**</bpt>Нет<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="367">
-          <source>Split a payment request</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разделение запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="368">
-          <source>You can split a payment request only if the following conditions are met:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Запрос платежа можно разделить только в том случае, если выполняются следующие условия:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="369">
-          <source>The status of the payment request is <bpt id="p1">**</bpt>Confirmed<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Scheduled<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Статус запроса платежа является <bpt id="p1">**</bpt>Подтверждено<ept id="p1">**</ept> или <bpt id="p2">**</bpt>Запланировано<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="370">
-          <source>The payment request isn't included in an unposted payment schedule journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Запрос платежа не включен в журнал графика неразнесенных платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="371">
-          <source>The workflow status isn't <bpt id="p1">**</bpt>Submitted<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Статус workflow-процесса не имеет значение <bpt id="p1">**</bpt>Отправлено<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="372">
-          <source>The system will create a payment request by copying all the main requisites from the original payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Система создаст запрос платежа посредством копирования всех основных реквизитов из исходного запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="373">
-          <source>The amount and amount to pay of the original payment request will be reduced.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сумма и сумма к выплате исходного запроса платежа будут уменьшены.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="374">
-          <source>If the status of the original payment is <bpt id="p1">**</bpt>Scheduled<ept id="p1">**</ept>, but the new payment request is out of range for the associated payment schedule journal, the status of the new payment request will be <bpt id="p2">**</bpt>Confirmed<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если статус исходного платежа <bpt id="p1">**</bpt>Запланировано<ept id="p1">**</ept>, но новый запрос платежа находится вне диапазона для связанного журнала графика платежей, статус новый запрос платежа будет <bpt id="p2">**</bpt>Подтверждено<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="375">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Cash flow management <ph id="ph2">\&gt;</ph> All payment requests<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Управление движением денежных средств <ph id="ph2">\&gt;</ph> Все запросы платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="376">
-          <source>Select a payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите запрос платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="377">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Generate<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Split request<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Создать<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Разделить запрос<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="378">
-          <source>Specify the amount to pay and the payment date for the new payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите суммы к оплате и дату платежа для нового запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="379">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="380">
-          <source>Copy a payment request</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Копирование запроса платежа</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="381">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Cash flow management <ph id="ph2">\&gt;</ph> All payment requests<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Управление движением денежных средств <ph id="ph2">\&gt;</ph> Все запросы платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="382">
-          <source>Select a payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите запрос платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="383">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Copy<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Создать<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Копировать<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="384">
-          <source>Specify the due date for the new payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите дату выполнения для нового запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="385">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="386">
-          <source>Select the payment request created on step 3.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите запрос платежа, созданный на шаге 3.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="387">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>New<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Создать<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Изменить<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="388">
-          <source>Change the values of the payment request parameters as you require.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Внесите требуемые изменения в значения параметров запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="389">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="390">
-          <source>Create a payment request for a vendor invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание запроса платежа для накладной поставщика</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="391">
-          <source>Go to <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Purchase orders <ph id="ph2">\&gt;</ph> All purchase orders<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Заказы на покупку <ph id="ph2">\&gt;</ph> Все заказы на покупку<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="392">
-          <source>Create a purchase order.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание заказа на покупку.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="393">
-          <source>On the purchase order header, specify the terms of payments, payment schedules, method of payment, cash discount, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В заголовке заказа на покупку укажите условия платежей, графики оплаты, метод оплаты, скидку по оплате и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="394">
-          <source>Create purchase order lines, and specify the sales tax group, item sales tax group, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте строки заказа на покупку и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="395">
-          <source>Distribute the amount of a line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Распределите сумму строки.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="396">
-          <source>Generate and post an invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте и разнесите накладную.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="397">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Purchase<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Generate<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Payment requests<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Покупка<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Создать<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Запросы платежей<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="398">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Purchase<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Journals<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Payment requests<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Покупка<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Журналы<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Запросы платежей<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="399">
-          <source>Review the payment requests that have been created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотрите запросы платежей, которые были созданы.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="400">
-          <source>On the <bpt id="p1">**</bpt>All vendors<ept id="p1">**</ept> page, on the Action Pane, on the <bpt id="p2">**</bpt>Vendor<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Transactions<ept id="p3">**</ept> group, select <bpt id="p4">**</bpt>Transactions<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Все поставщики<ept id="p1">**</ept> в области действий на вкладке <bpt id="p2">**</bpt>Поставщик<ept id="p2">**</ept> в группе <bpt id="p3">**</bpt>Проводки<ept id="p3">**</ept> выберите <bpt id="p4">**</bpt>Проводки<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="401">
-          <source>Select the vendor transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите проводку поставщика.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="402">
-          <source>Select <bpt id="p1">**</bpt>Inquiry <ph id="ph1">\&gt;</ph> Payment requests<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Запрос <ph id="ph1">\&gt;</ph> Запросы платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="403">
-          <source>Review the associated payment requests.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотрите связанные запросы платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="404">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Related information<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Request origin<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Общие<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Связанные сведения<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Источник запроса<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="405">
-          <source>Verify that the vendor transaction is a source for the payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Убедитесь, что проводка поставщика является источником для запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="406">
-          <source>Vendor transactions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проводки по поставщику</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="407">
-          <source>You can't change the payment requisites (method of payment, due date, vendor bank account, and so on) on an open vendor transaction if a payment request exists for that transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Невозможно изменить реквизиты платежа (способ платежа, дату, банковский счет поставщика и т. д.) для открытой проводки по поставщику, если для данной проводки существует платежное требование.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="408">
-          <source>Instead, you should change the payment requisites in the payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вместо этого следует изменить реквизиты платежа в запросе платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="409">
-          <source>They will then be automatically synced on the open vendor transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Они затем будут автоматически синхронизированы в открытой проводке по поставщику.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="410">
-          <source>Create a payment request for a prepayment to a vendor</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание запроса платежа для предоплаты поставщику</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="411">
-          <source>Go to <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Purchase orders <ph id="ph2">\&gt;</ph> All purchase orders<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Заказы на покупку <ph id="ph2">\&gt;</ph> Все заказы на покупку<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="412">
-          <source>Create a purchase order.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание заказа на покупку.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="413">
-          <source>On the purchase order header, specify the terms of payments, payment schedules, method of payment, cash discount, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В заголовке заказа на покупку укажите условия платежей, графики оплаты, метод оплаты, скидку по оплате и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="414">
-          <source>One or more payment schedules lines should be marked as prepayments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Одна или несколько строк графика платежей должны быть помечена как предоплата.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="415">
-          <source>Create purchase order lines, and specify the sales tax group, item sales tax group, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте строки заказа на покупку и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="416">
-          <source>Distribute the amount of a line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Распределите сумму строки.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="417">
-          <source>Confirm the purchase order.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Подтвердите заказ на покупку.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="418">
-          <source>Calculate planned payments by using the periodic operation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Рассчитайте плановые платежи с помощью периодической операции.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="419">
-          <source>Alternatively, on the purchase order, on the Action Pane, on the <bpt id="p1">**</bpt>Invoice<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Bill<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Planned payments<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Кроме того, в заказе на покупку на панели операций на вкладке <bpt id="p1">**</bpt>Накладная<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Выставление счета<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Плановые платежи<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="420">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Закройте страницу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="421">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Purchase<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Generate<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Payment requests<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Покупка<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Создать<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Запросы платежей<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="422">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Purchase<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Journals<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Payment requests<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Покупка<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Журналы<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Запросы платежей<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="423">
-          <source>Review the payment requests that have been created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотрите запросы платежей, которые были созданы.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="424">
-          <source>On the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> page, on the Action Pane, on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Related information<ept id="p3">**</ept> group, select <bpt id="p4">**</bpt>Request origin<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> в области действий на вкладке <bpt id="p2">**</bpt>Общие<ept id="p2">**</ept> в группе <bpt id="p3">**</bpt>Связанные сведения<ept id="p3">**</ept> выберите <bpt id="p4">**</bpt>Источник запроса<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="425">
-          <source>Verify that the purchase order is a source for the payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Убедитесь, что заказ на покупку является источником для запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="426">
-          <source>Create a payment request for a customer invoice return</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание запроса платежа для возврата накладной клиента</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="427">
-          <source>Go to <bpt id="p1">**</bpt>Accounts receivable <ph id="ph1">\&gt;</ph> Orders <ph id="ph2">\&gt;</ph> All sales orders<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с клиентами <ph id="ph1">\&gt;</ph> Заказы <ph id="ph2">\&gt;</ph> Все заказы на продажу<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="428">
-          <source>Create a return sales order.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте заказ на возврат продажи.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="429">
-          <source>On the sales order header, specify the terms of payments, method of payment, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В заголовке заказа на продажу укажите условия платежей, метод оплаты и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="430">
-          <source>Create sales order lines, and specify the sales tax group, item sales tax group, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте строки заказа на продажу и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="431">
-          <source>Generate and post an invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте и разнесите накладную.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="432">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Sell<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Generate<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Payment requests<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Продажа<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Создать<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Запросы платежей<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="433">
-          <source>Select <bpt id="p1">**</bpt>Close<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Закрыть<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="434">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Sell<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Journals<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Payment requests<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Продажа<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Журналы<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Запросы платежей<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="435">
-          <source>Review the payment requests that have been created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотрите запросы платежей, которые были созданы.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="436">
-          <source>On the <bpt id="p1">**</bpt>All customers<ept id="p1">**</ept> page, on the Action Pane, on the <bpt id="p2">**</bpt>Customer<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Transactions<ept id="p3">**</ept> group, select <bpt id="p4">**</bpt>Transactions<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Все клиенты<ept id="p1">**</ept> в области действий на вкладке <bpt id="p2">**</bpt>Клиент<ept id="p2">**</ept> в группе <bpt id="p3">**</bpt>Проводки<ept id="p3">**</ept> выберите <bpt id="p4">**</bpt>Проводки<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="437">
-          <source>Select the last customer transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите последнюю проводку по клиенту.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="438">
-          <source>Select the ellipsis button (<bpt id="p1">**</bpt>...<ept id="p1">**</ept>), and then select <bpt id="p2">**</bpt>Payment requests<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите кнопку с многоточием (<bpt id="p1">**</bpt>...<ept id="p1">**</ept>), затем выберите <bpt id="p2">**</bpt>Запросы платежей<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="439">
-          <source>Review the associated payment requests.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотрите связанные запросы платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="440">
-          <source>On the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> page, on the Action Pane, on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Related information<ept id="p3">**</ept> group, select <bpt id="p4">**</bpt>Request origin<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> в области действий на вкладке <bpt id="p2">**</bpt>Общие<ept id="p2">**</ept> в группе <bpt id="p3">**</bpt>Связанные сведения<ept id="p3">**</ept> выберите <bpt id="p4">**</bpt>Источник запроса<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="441">
-          <source>Verify that the customer transaction is a source for the payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Убедитесь, что проводка клиента является источником для запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="442">
-          <source>You can't change the payment requisites (method of payment, due date, customer bank account, and so on) on an open customer transaction if a payment request exists for that transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Невозможно изменить реквизиты платежа (способ платежа, дату, банковский счет клиента и т. д.) для открытой проводки по клиенту, если для данной проводки существует платежное требование.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="443">
-          <source>Instead, you should change the payment requisites in the payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вместо этого следует изменить реквизиты платежа в запросе платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="444">
-          <source>They will then be automatically synced on the open customer transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Они затем будут автоматически синхронизированы в открытой проводке по клиенту.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="445">
-          <source>Go to <bpt id="p1">**</bpt>Accounts receivable <ph id="ph1">\&gt;</ph> Invoices <ph id="ph2">\&gt;</ph> All free text invoices<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Расчеты с клиентами <ph id="ph1">\&gt;</ph> Накладные <ph id="ph2">\&gt;</ph> Все накладные с произвольным текстом<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="446">
-          <source>Create a return free text invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте накладную с произвольным текстом для возврата.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="447">
-          <source>On free text invoice header, specify the terms of payments, method of payment, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В заголовке накладной с произвольным текстом укажите условия платежей, метод оплаты и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="448">
-          <source>Create free text invoice lines, and specify the sales tax group, item sales tax group, and financial dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте строки накладной с произвольным текстом и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="449">
-          <source>Generate and post an invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте и разнесите накладную.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="450">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Invoice<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Details<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Payment requests<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Накладная<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Сведения<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Запросы платежей<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="451">
-          <source>Select <bpt id="p1">**</bpt>Close<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Закрыть<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="452">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Invoice<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Related information<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Payment requests<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Накладная<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Связанные сведения<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Запросы платежей<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="453">
-          <source>Review the payment requests that have been created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотрите запросы платежей, которые были созданы.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="454">
-          <source>On the <bpt id="p1">**</bpt>All customers<ept id="p1">**</ept> page, on the Action Pane, on the <bpt id="p2">**</bpt>Customer<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Transactions<ept id="p3">**</ept> group, select <bpt id="p4">**</bpt>Transactions<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Все клиенты<ept id="p1">**</ept> в области действий на вкладке <bpt id="p2">**</bpt>Клиент<ept id="p2">**</ept> в группе <bpt id="p3">**</bpt>Проводки<ept id="p3">**</ept> выберите <bpt id="p4">**</bpt>Проводки<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="455">
-          <source>Select the last customer transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите последнюю проводку по клиенту.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="456">
-          <source>Select the ellipsis button (<bpt id="p1">**</bpt>...<ept id="p1">**</ept>), and then select <bpt id="p2">**</bpt>Payment requests<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите кнопку с многоточием (<bpt id="p1">**</bpt>...<ept id="p1">**</ept>), затем выберите <bpt id="p2">**</bpt>Запросы платежей<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="457">
-          <source>Review the associated payment requests.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотрите связанные запросы платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="458">
-          <source>On the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> page, on the Action Pane, on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Related information<ept id="p3">**</ept> group, select <bpt id="p4">**</bpt>Request origin<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> в области действий на вкладке <bpt id="p2">**</bpt>Общие<ept id="p2">**</ept> в группе <bpt id="p3">**</bpt>Связанные сведения<ept id="p3">**</ept> выберите <bpt id="p4">**</bpt>Источник запроса<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="459">
-          <source>Verify that the customer transaction is a source for the payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Убедитесь, что проводка клиента является источником для запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="460">
-          <source>Periodic creation of payment requests</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Периодическое создание запросов платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="461">
-          <source>This procedure should be completed for a Treasury company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эту процедуру следует выполнять для кассовой компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="462">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Periodic tasks <ph id="ph2">\&gt;</ph> Cash flow management <ph id="ph3">\&gt;</ph> Create payment requests<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Периодические задачи <ph id="ph2">\&gt;</ph> Управление движением денежных средств <ph id="ph3">\&gt;</ph> Создать запросы платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="463">
-          <source>Set the following parameters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Задайте следующие параметры</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="464">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="465">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="466">
-          <source>From date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">с даты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="467">
-          <source>Specify the start of the date range for the payment request sources.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите начало диапазона дат для источников запросов платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="468">
-          <source>To date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">До даты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="469">
-          <source>Specify the end of the date range for the payment request sources.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите конец диапазона дат для источников запросов платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="470">
-          <source>Request sources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Источники запросов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="471">
-          <source>Select the sources of the payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите источники запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="472">
-          <source>Legal entities</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Юридические лица</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="473">
-          <source>Select legal entities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите юридические лица.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="474">
-          <source>A Treasury company can include all legal entities that belong to the current centralized payment hierarchy.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Кассовая компания может включать все юридические лица, которые принадлежат текущей иерархии для централизованных платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="475">
-          <source>Number of batch threads</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Количество потоков в пакетном задании</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="476">
-          <source>Enter the number of parallel tasks for payment request creation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Введите число параллельных задач для создания запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="477">
-          <source>Update a payment request</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обновление запроса платежа</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="478">
-          <source>When you update a payment request, the <bpt id="p1">**</bpt>Amount to pay<ept id="p1">**</ept> value is changed on payment request lines and in the cash discount details.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">При обновлении запроса платежа значение <bpt id="p1">**</bpt>Сумма к выплате<ept id="p1">**</ept> изменяется в строках запроса платежа и с сведениях о скидке по оплате.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="479">
-          <source>Reapproval of payment requests can be required and is controlled by the <bpt id="p1">**</bpt>Amount to pay change<ept id="p1">**</ept> parameter on the <bpt id="p2">**</bpt>Cash and bank management parameters<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Повторное утверждение платежных требований может быть необходимо и контролируется параметром <bpt id="p1">**</bpt>Изменение суммы платежа<ept id="p1">**</ept> на странице <bpt id="p2">**</bpt>Параметры управления банком и кассовыми операциями<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="480">
-          <source>You can update a payment request only if the following conditions are met:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Запрос платежа можно обновить только в том случае, если выполняются следующие условия:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="481">
-          <source>The status of the payment request is <bpt id="p1">**</bpt>Confirmed<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Scheduled<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Статус запроса платежа является <bpt id="p1">**</bpt>Подтверждено<ept id="p1">**</ept> или <bpt id="p2">**</bpt>Запланировано<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="482">
-          <source>The payment request isn't included in an unposted payment schedule journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Запрос платежа не включен в журнал графика неразнесенных платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="483">
-          <source>The workflow status isn't <bpt id="p1">**</bpt>Submitted<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Статус workflow-процесса не имеет значение <bpt id="p1">**</bpt>Отправлено<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="484">
-          <source>Follow these steps to update a payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполните следующие действия для обновления платежного требования.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="485">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Cash flow management <ph id="ph2">\&gt;</ph> All payment requests<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Управление движением денежных средств <ph id="ph2">\&gt;</ph> Все запросы платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="486">
-          <source>Select a payment request that the <bpt id="p1">**</bpt>Outdated<ept id="p1">**</ept> check box is selected for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите платежное требование, для которого установлен флажок <bpt id="p1">**</bpt>Устарело<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="487">
-          <source>Outdated check box on payment requests</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Флажок "Устарело" для запросов платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="488">
-          <source>The system automatically selects this check box if the original source of a payment request has been changed through settlement or unsettlement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Система автоматически устанавливает этот флажок, если исходный источник запроса платежа был изменен при помощи сопоставления или отмены сопоставления.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="489">
-          <source>A selected check box indicates that the amount to pay of the payment request differs from the amount of the open vendor or customer transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Установленный флажок указывает, что сумма для выплаты запроса платежа отличается от суммы открытой проводки по поставщику или клиенту.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="490">
-          <source>On the Action Pane, on the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Generate<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Request update<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий на вкладке <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Создать<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Обновить запрос<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="491">
-          <source>Periodic update of payment requests</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Периодическое обновление запросов платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="492">
-          <source>This step should be completed for a Treasury company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Этот шаг следует выполнять для кассовой компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="493">
-          <source>Select <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Periodic tasks <ph id="ph2">\&gt;</ph> Cash flow management <ph id="ph3">\&gt;</ph> Update payment requests<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Периодические задачи <ph id="ph2">\&gt;</ph> Управление движением денежных средств <ph id="ph3">\&gt;</ph> Обновить запросы платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="494">
-          <source>Set the following parameters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Задайте следующие параметры</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="495">
-          <source>Field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поле</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="496">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="497">
-          <source>From date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">с даты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="498">
-          <source>Specify the start of the date range for the payment requests.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите начало диапазона дат для запросов платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="499">
-          <source>To date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">До даты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="500">
-          <source>Specify the end of the date range for the payment requests.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите конец диапазона дат для запросов платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="501">
-          <source>Request sources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Источники запросов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="502">
-          <source>Specify the sources of the payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите источники запроса платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="503">
-          <source>Legal entities</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Юридические лица</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="504">
-          <source>Specify legal entities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите юридические лица.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="505">
-          <source>A Treasury company can include all legal entities that belong to the current centralized payment hierarchy.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Кассовая компания может включать все юридические лица, которые принадлежат текущей иерархии для централизованных платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="506">
-          <source>Payment schedule journal processing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обработка журнала графика платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="507">
-          <source>Set up a payment schedule journal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка журнала графика платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="508">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Setup <ph id="ph2">\&gt;</ph> Cash flow management <ph id="ph3">\&gt;</ph> Payment schedule journal names<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Настройка <ph id="ph2">\&gt;</ph> Управление движением денежных средств <ph id="ph3">\&gt;</ph> Названия журналов графика платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="509">
-          <source>Select <bpt id="p1">**</bpt>New<ept id="p1">**</ept> to create a record, and specify a name and description for the journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Создать<ept id="p1">**</ept> для создания записи и укажите имя и описание для журнала.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="510">
-          <source>Select the journal type:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите тип журнала:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="511">
-          <source><bpt id="p1">**</bpt>Payment plan<ept id="p1">**</ept> – This journal type is intended for payment forecasts that have a medium-term/short-term horizon.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>План платежей<ept id="p1">**</ept> — этот тип журнала предназначен для прогнозов платежей, имеющих среднесрочный или краткосрочный горизонт.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="512">
-          <source><bpt id="p1">**</bpt>Payment register<ept id="p1">**</ept> – This journal type is intended for payment statement generation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Реестр платежей<ept id="p1">**</ept> — этот тип журнала предназначен для создания уведомлений о платежах.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="513">
-          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> FastTab, set the following parameters:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Общие<ept id="p1">**</ept> настройте следующие параметры:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="514">
-          <source>Set the <bpt id="p1">**</bpt>Payment on cash discount date<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> if the payment date in the payment schedule should be used as the cash discount date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Задайте для параметра <bpt id="p1">**</bpt>Платежа в дату скидки по оплате<ept id="p1">**</ept> значение <bpt id="p2">**</bpt>Да<ept id="p2">**</ept>, если дата платежа в графике платежей должна использоваться в качестве даты скидки по оплате.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="515">
-          <source>If you selected <bpt id="p1">**</bpt>Payment plan<ept id="p1">**</ept> as the journal type, set the <bpt id="p2">**</bpt>Overdue payments<ept id="p2">**</ept> option to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept> if the payment schedule should include outstanding payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если вы выбрали <bpt id="p1">**</bpt>План платежей<ept id="p1">**</ept> как тип журнала, задайте для параметра <bpt id="p2">**</bpt>Просроченные платежи<ept id="p2">**</ept> значение <bpt id="p3">**</bpt>Да<ept id="p3">**</ept>, если график оплаты должен включать просроченные платежи.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="516">
-          <source>Set the <bpt id="p1">**</bpt>Active<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> if this journal should use the workflow procedure.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Задайте для параметра <bpt id="p1">**</bpt>Активен<ept id="p1">**</ept> значение <bpt id="p2">**</bpt>Да<ept id="p2">**</ept>, если этот журнал доложен использовать workflow-процесс.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="517">
-          <source>In the <bpt id="p1">**</bpt>Workflow ID<ept id="p1">**</ept> field, select the workflow that should be applied.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>ИД workflow-процесса<ept id="p1">**</ept> выберите workflow-процесс, который должен быть применен.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="518">
-          <source>The <bpt id="p1">**</bpt>Dimensions<ept id="p1">**</ept> FastTab defines how the lines of the payment schedule journal are aggregated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Экспресс-вкладка <bpt id="p1">**</bpt>Аналитики<ept id="p1">**</ept> определяет, как выполняется агрегирование строк журнала графика платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="519">
-          <source>The analytic report of the payment schedule journal also uses these dimensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Аналитический отчет журнала графика платежей также использует эти аналитики.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="520">
-          <source>Use the arrow buttons to move dimensions to or from the <bpt id="p1">**</bpt>Selected dimensions<ept id="p1">**</ept> list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Используйте кнопки со стрелками для перемещения аналитик в список <bpt id="p1">**</bpt>Выбранные аналитики<ept id="p1">**</ept> или из него.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="521">
-          <source>Dimensions for payment schedule journals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Аналитики для журналов графика платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="522">
-          <source>The <bpt id="p1">**</bpt>Legal entities<ept id="p1">**</ept> FastTab defines the legal entities that are used to generate payment schedule journals.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Экспресс-вкладка <bpt id="p1">**</bpt>Юридические лица<ept id="p1">**</ept> определяет юридические лица, которые используются для создания журналов графика платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="523">
-          <source>Use the arrow buttons to move legal entities to or from the <bpt id="p1">**</bpt>Selected sources<ept id="p1">**</ept> list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Используйте кнопки со стрелками для перемещения юридических лиц в список <bpt id="p1">**</bpt>Выбранные источники<ept id="p1">**</ept> или из него.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="524">
-          <source>On the <bpt id="p1">**</bpt>Journal data sources<ept id="p1">**</ept> FastTab, select <bpt id="p2">**</bpt>Add line<ept id="p2">**</ept> to create a record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Источники данных журнала<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Добавить строку<ept id="p2">**</ept>, чтобы создать запись.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="525">
-          <source>Specify the data source and source direction for the payment schedule journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите источник данных и направление источника для журнала графика платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="526">
-          <source>The following table lists the possible sources.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В следующей таблице перечислены возможные источники.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="527">
-          <source>Journal data source (direction)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Источник данных журнала (направление)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="528">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="529">
-          <source>Bank account balance (inflow)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сальдо банковского счета (поступление)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="530">
-          <source>The current balance of bank accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Текущее сальдо банковских счетов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="531">
-          <source>Cash account balance (inflow)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сальдо кассового счета (поступление)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="532">
-          <source>The current balance of cash accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Текущее сальдо кассовых счетов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="533">
-          <source>Remittance en route balance (inflow)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сальдо промежуточного счета предъявления к оплате (поступление)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="534">
-          <source>The current balance of general ledger (GL) accounts that are marked <bpt id="p1">**</bpt>Remittance en route<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Текущее сальдо счетов главной книги (ГК), которые помечены <bpt id="p1">**</bpt>Промежуточный счет предъявления к оплате<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="535">
-          <source>Open payment journals (inflow/outflow)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Открытые журналы платежей (поступление/расход)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="536">
-          <source>Payments that are included in open payment journals.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платежи, которые включены в открытые журналы платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="537">
-          <source>Open slip journals (inflow/outflow)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Открытые журналы кассовых ордеров (поступление/расход)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="538">
-          <source>Payments that are included in open cash slip journals.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платежи, которые включены в открытые журналы кассовых ордеров.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="539">
-          <source>Planned payment (inflow/outflow)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плановые платежи (поступление/расход)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="540">
-          <source>Planned payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плановые платежи.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="541">
-          <source>Payment request (inflow/outflow)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платежное требование (поступление/расход)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="542">
-          <source>Payment requests.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Запросы платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="543">
-          <source>Accounts payable (inflow/outflow)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расчеты с поставщиками (поступление/расход)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="544">
-          <source>Open vendor transactions that aren't linked to a payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Открытые проводки поставщика, которые не связаны с платежным требованием.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="545">
-          <source>Accounts receivable (inflow/outflow)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расчеты с клиентами (поступление/расход)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="546">
-          <source>Open customer transactions that aren't linked to a payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Открытые проводки клиентов, которые не связаны с платежным требованием.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="547">
-          <source>Repeat steps 7 through 8 to create other lines that have the required journal data sources.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Повторите шаги с 7 по 8 для создания других строк, которые имеют необходимые источники данных журнала.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="548">
-          <source>On the <bpt id="p1">**</bpt>Payment accounts<ept id="p1">**</ept> FastTab, set the <bpt id="p2">**</bpt>Include transactions with no specified bank account<ept id="p2">**</ept> option to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept> if the payment schedule journal should include planned payments and payment requests that a payment account isn't specified for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Счета оплаты<ept id="p1">**</ept> установите для параметра <bpt id="p2">**</bpt>Включить проводки без указанного банковского счета<ept id="p2">**</ept> значение <bpt id="p3">**</bpt>Да<ept id="p3">**</ept>, если журнал графика платежей должен включать плановые платежи и платежные требования, для которых не указан счет оплаты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="549">
-          <source>Select <bpt id="p1">**</bpt>Add line<ept id="p1">**</ept> to create a record.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Добавить строку<ept id="p1">**</ept>, чтобы создать запись.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="550">
-          <source>Specify the payment account type and account number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите тип счета платежа и номер счета.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="551">
-          <source>The payment schedule journal will include only sources that are associated with the specified payment accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Журнал графика платежей будет включать только те источники, которые связаны с указанными счетами оплаты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="552">
-          <source>On the <bpt id="p1">**</bpt>Cash balance control<ept id="p1">**</ept> FastTab, select <bpt id="p2">**</bpt>Add line<ept id="p2">**</ept>, and then specify the currency and minimum cash balance.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Контроль сальдо денежных средств<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Добавить строку<ept id="p2">**</ept>, затем укажите валюту и минимальное сальдо денежных средств.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="553">
-          <source>If the estimated balance amount of the cash account is less than the minimum cash balance that you specify, the payment schedule sheet will overwrite the estimated balance for that date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если оценка сальдо кассового счета меньше минимального денежного остатка, который вы указали, лист графика платежей перезапишет оцененное сальдо для этой даты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="554">
-          <source>Payment plan processing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обработка плана платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="555">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Cash flow management <ph id="ph2">\&gt;</ph> Payment schedule journal<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Управление движением денежных средств <ph id="ph2">\&gt;</ph> Журнал графика платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="556">
-          <source>Create a payment schedule journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте журнал графика платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="557">
-          <source>In the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, select a payment schedule journal of the <bpt id="p2">**</bpt>Payment plan<ept id="p2">**</ept> type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Имя<ept id="p1">**</ept> выберите журнал графика платежей типа <bpt id="p2">**</bpt>План платежей<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="558">
-          <source>Use the <bpt id="p1">**</bpt>From date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>To date<ept id="p2">**</ept> fields to specify an effective date range.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Используйте поля <bpt id="p1">**</bpt>Начальная дата<ept id="p1">**</ept> и <bpt id="p2">**</bpt>Конечная дата<ept id="p2">**</ept>, чтобы указать диапазон дат действия.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="559">
-          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Dimensions<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Legal entities<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Journal data sources<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Payment accounts<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Cash balance control<ept id="p6">**</ept> tabs, change the attributes of the payment schedule journal as you require.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладках <bpt id="p1">**</bpt>Общие<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Аналитики<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Юридические лица<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Источники данных журнала<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Счета оплаты<ept id="p5">**</ept> и <bpt id="p6">**</bpt>Контроль сальдо денежных средств<ept id="p6">**</ept> измените атрибуты журнала графика платежей, как требуется.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="560">
-          <source>Select <bpt id="p1">**</bpt>Calculate<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Рассчитать<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="561">
-          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> to validate the payment schedule journal lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept> для проверки строк журнала графика платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="562">
-          <source>Select <bpt id="p1">**</bpt>Edit beginning balance<ept id="p1">**</ept> to change the beginning balance of this journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Изменить начальное сальдо<ept id="p1">**</ept>, чтобы изменить начальное сальдо этого журнала.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="563">
-          <source>For lines that have <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> as the journal data source, select <bpt id="p2">**</bpt>Payment request lines<ept id="p2">**</ept> to review the payment request lines that are included on the current journal line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Для строк, которые имеют <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> как источник данных журнала, выберите <bpt id="p2">**</bpt>Строки запроса платежей<ept id="p2">**</ept> для просмотра строк запроса платежа, которые включены в текущей строке журнала.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="564">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Закройте страницу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="565">
-          <source>On the <bpt id="p1">**</bpt>Payment schedule journal<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Payment schedule<ept id="p2">**</ept> to review the payment schedule sheet.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Журнал графика платежей<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>График платежей<ept id="p2">**</ept> для просмотра листа графика платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="566">
-          <source>If a cash shortage or surplus is detected and should be prevented, you can make changes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если обнаружен недостаток или излишек денежных средств, который требуется предотвратить, можно внести изменения.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="567">
-          <source>Payment schedule sheet</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Лист графика оплаты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="568">
-          <source>Set the <bpt id="p1">**</bpt>Show totals per payment accounts<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> if the payment schedule sheet should be calculated based on payment accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Задайте для параметра <bpt id="p1">**</bpt>Показать итоги по счетам оплаты<ept id="p1">**</ept> значение <bpt id="p2">**</bpt>Да<ept id="p2">**</ept>, если лист графика оплаты должен вычисляться на основе счетов оплаты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="569">
-          <source>Set the <bpt id="p1">**</bpt>Show totals per method of payments<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> if the payment schedule sheet should be calculated based on methods of payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Задайте для параметра <bpt id="p1">**</bpt>Показать итоги по способам платежа<ept id="p1">**</ept> значение <bpt id="p2">**</bpt>Да<ept id="p2">**</ept>, если лист графика оплаты должен вычисляться на основе способов платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="570">
-          <source>Use the right arrow button (<bpt id="p1">**</bpt><ph id="ph1">\&gt;</ph><ept id="p1">**</ept>) to select an aggregation parameter for the payment schedule sheet.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Используйте кнопку со стрелкой вправо (<bpt id="p1">**</bpt><ph id="ph1">\&gt;</ph><ept id="p1">**</ept>) для выбора параметра агрегирования для ведомости графика платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="571">
-          <source>Select <bpt id="p1">**</bpt>Show results<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Отобразить результаты<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="572">
-          <source>If the minimum cash balance for a currency or a payment account is exceeded, the payment schedule sheet highlights the <bpt id="p1">**</bpt>Estimated balance<ept id="p1">**</ept> amounts in yellow.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">При превышении минимального сальдо денежных средств для валюты или счета оплаты, в ведомости графика платежей сумма <bpt id="p1">**</bpt>Оценка сальдо<ept id="p1">**</ept> выделяется желтым цветом.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="573">
-          <source>Payment schedule sheet overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обзор ведомости графика платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="574">
-          <source>If the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> license configuration key is turned on, select the amount for a <bpt id="p2">**</bpt>Payment request<ept id="p2">**</ept> journal data source.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если лицензионный ключ конфигурации <bpt id="p1">**</bpt>Запросы платежей<ept id="p1">**</ept> включен, выберите сумму для источника данных журнала <bpt id="p2">**</bpt>Запросы платежей<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="575">
-          <source>If the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> license configuration key isn't turned on, select an <bpt id="p2">**</bpt>Accounts payable<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Accounts receivable<ept id="p3">**</ept> journal data source.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если лицензионный ключ конфигурации <bpt id="p1">**</bpt>Запросы платежей<ept id="p1">**</ept> не включен, выберите источник данных журнала <bpt id="p2">**</bpt>Расчеты с поставщиками<ept id="p2">**</ept> или <bpt id="p3">**</bpt>Расчеты с клиентами<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="576">
-          <source>Select <bpt id="p1">**</bpt>Show origin<ept id="p1">**</ept> to open the sources of that amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Показать источник<ept id="p1">**</ept> для открытия источников этой сумму.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="577">
-          <source>Select the amount for a <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> journal data source, and then select <bpt id="p2">**</bpt>Change payment sources<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите сумму для источника данных журнала <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept>, затем выберите <bpt id="p2">**</bpt>Изменить источники платежей<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="578">
-          <source>Change payment sources button on a payment schedule sheet</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Кнопка изменения источников платежей в ведомости графика платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="579">
-          <source>Select payment sources that should be moved to another date, or that should be paid by using another method of payment or payment account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите источники платежей, которые должны быть перемещены на другую дату или которые должны быть оплачены с помощью другого средства платежа или счета оплаты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="580">
-          <source>Payment schedule balancing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Балансировка графика платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="581">
-          <source>Select <bpt id="p1">**</bpt>Multiple change<ept id="p1">**</ept>, specify the new payment details in the <bpt id="p2">**</bpt>Modify payment attributes<ept id="p2">**</ept> dialog box, and then select <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Несколько изменений<ept id="p1">**</ept>, укажите новые детали оплаты в диалоговом окне <bpt id="p2">**</bpt>Изменить атрибуты оплаты<ept id="p2">**</ept>, затем выберите <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="582">
-          <source>Alternatively, you can specify new payment attributes for a specific line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Кроме того, можно указать новые атрибуты платежа для конкретной строки.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="583">
-          <source>Select <bpt id="p1">**</bpt>Update payment schedule<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Обновить график платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="584">
-          <source>The system updates the payment schedule sheet and creates uncommitted payment schedule journal lines for payment sources correction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Система обновляет ведомость графика платежей и создает незавершенные строки журнала графика платежей для корректировки источников платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="585">
-          <source>Make any other required changes to the payment schedule sheet.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Внесите все необходимые изменения в ведомость графика платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="586">
-          <source>On the <bpt id="p1">**</bpt>Payment schedule journal<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Functions <ph id="ph1">\&gt;</ph> Apply changes<ept id="p2">**</ept> to apply your changes or <bpt id="p3">**</bpt>Functions <ph id="ph2">\&gt;</ph> Revert changes<ept id="p3">**</ept> to reject them.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Журнал графика платежей<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Функции <ph id="ph1">\&gt;</ph> Применить изменения<ept id="p2">**</ept> для применения изменений или <bpt id="p3">**</bpt>Функции <ph id="ph2">\&gt;</ph> Отменить изменения<ept id="p3">**</ept> для их отклонения.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="587">
-          <source>If changes to the journal setup are required, select <bpt id="p1">**</bpt>Functions <ph id="ph1">\&gt;</ph> Delete journal lines<ept id="p1">**</ept>, and calculate the journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если требуются изменения в настройку журнала, выберите <bpt id="p1">**</bpt>Функции <ph id="ph1">\&gt;</ph> Удалить строки журнала<ept id="p1">**</ept> и рассчитайте журнал.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="588">
-          <source>Select <bpt id="p1">**</bpt>Validate<ept id="p1">**</ept> to validate the journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Проверить<ept id="p1">**</ept>, чтобы проверить журнал.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="589">
-          <source>The system notifies you if canceled, on-hold, or incomplete workflow payment requests are included in this journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Система уведомляет пользователя, если отмененные, заблокированные или неготовые запросы платежей workflow-процесса включены в этот журнал.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="590">
-          <source>If all the data is correct, and workflow approval of the payment plan can start, select <bpt id="p1">**</bpt>Workflow <ph id="ph1">\&gt;</ph> Submit<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если все данные верны, и workflow-процесс плана платежей можно запустить, выберите <bpt id="p1">**</bpt>Workflow-процесс <ph id="ph1">\&gt;</ph> Отправить<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="591">
-          <source>Approvers might see the following actions during the approval workflow: <bpt id="p1">**</bpt>Approve<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Reject<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Request change<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Delegate<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Recall<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>View history<ept id="p6">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Утверждающие могут видеть следующие действия во время workflow-процесса утверждения: <bpt id="p1">**</bpt>Утвердить<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Отклонить<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Запросить изменение<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Делегировать<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Отозвать<ept id="p5">**</ept> и <bpt id="p6">**</bpt>Просмотреть историю<ept id="p6">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="592">
-          <source>Workflow actions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Действия бизнес-правила</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="593">
-          <source>If the payment plan is approved, select <bpt id="p1">**</bpt>Confirm<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если план платежей одобрен, выберите <bpt id="p1">**</bpt>Подтвердить<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="594">
-          <source>The status of the payment requests that are included is changed to <bpt id="p1">**</bpt>Scheduled<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Статус платежных поручений, которые включены, изменяется на <bpt id="p1">**</bpt>Запланировано<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="595">
-          <source>On the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> page, on the Action Pane, on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Related information<ept id="p3">**</ept> group, select <bpt id="p4">**</bpt>Payment schedule journal<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> в области действий на вкладке <bpt id="p2">**</bpt>Общие<ept id="p2">**</ept> в группе <bpt id="p3">**</bpt>Связанные сведения<ept id="p3">**</ept> выберите <bpt id="p4">**</bpt>Журнал графика платежей<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="596">
-          <source>Review the payment schedule journal that is associated with the payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотрите журнал графика платежей, связанный с запросом платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="597">
-          <source>Payment register processing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обработка регистрации платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="598">
-          <source>Go to <bpt id="p1">**</bpt>Cash and bank management <ph id="ph1">\&gt;</ph> Cash flow management <ph id="ph2">\&gt;</ph> Payment schedule journal<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление банком и кассовыми операциями <ph id="ph1">\&gt;</ph> Управление движением денежных средств <ph id="ph2">\&gt;</ph> Журнал графика платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="599">
-          <source>Create a payment schedule journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте журнал графика платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="600">
-          <source>In the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, select a payment schedule journal of the <bpt id="p2">**</bpt>Payment register<ept id="p2">**</ept> type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Имя<ept id="p1">**</ept> выберите журнал графика платежей типа <bpt id="p2">**</bpt>Реестр платежей<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="601">
-          <source>Use the <bpt id="p1">**</bpt>From date<ept id="p1">**</ept> and <bpt id="p2">**</bpt>To date<ept id="p2">**</ept> fields to specify an effective date range.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Используйте поля <bpt id="p1">**</bpt>Начальная дата<ept id="p1">**</ept> и <bpt id="p2">**</bpt>Конечная дата<ept id="p2">**</ept>, чтобы указать диапазон дат действия.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="602">
-          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Dimensions<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Legal entities<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Journal data sources<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Payment accounts<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Cash balance control<ept id="p6">**</ept> tabs, change the attributes of the payment schedule journal as you require.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладках <bpt id="p1">**</bpt>Общие<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Аналитики<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Юридические лица<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Источники данных журнала<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Счета оплаты<ept id="p5">**</ept> и <bpt id="p6">**</bpt>Контроль сальдо денежных средств<ept id="p6">**</ept> измените атрибуты журнала графика платежей, как требуется.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="603">
-          <source>Select <bpt id="p1">**</bpt>Calculate<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Рассчитать<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="604">
-          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> to validate the payment schedule journal lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept> для проверки строк журнала графика платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="605">
-          <source>Select <bpt id="p1">**</bpt>Edit beginning balance<ept id="p1">**</ept> to change the beginning balance of this journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Изменить начальное сальдо<ept id="p1">**</ept>, чтобы изменить начальное сальдо этого журнала.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="606">
-          <source>For lines that have <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> as the journal data source, select <bpt id="p2">**</bpt>Payment request lines<ept id="p2">**</ept> to review the payment request lines that are included on the current journal line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Для строк, которые имеют <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> как источник данных журнала, выберите <bpt id="p2">**</bpt>Строки запроса платежей<ept id="p2">**</ept> для просмотра строк запроса платежа, которые включены в текущей строке журнала.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="607">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Закройте страницу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="608">
-          <source>On the <bpt id="p1">**</bpt>Payment schedule journal<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Payment schedule<ept id="p2">**</ept> to review the payment register.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Журнал графика платежей<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>График платежей<ept id="p2">**</ept> для просмотра реестра платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="609">
-          <source>If a cash shortage or surplus is detected, you can make changes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если обнаружен недостаток или излишек денежных средств, можно внести изменения.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="610">
-          <source>Select <bpt id="p1">**</bpt>Validate<ept id="p1">**</ept> to validate the journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Проверить<ept id="p1">**</ept>, чтобы проверить журнал.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="611">
-          <source>The system notifies you if canceled or on-hold payment requests are included in this journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Система уведомляет пользователя, если отмененные или заблокированные запросы платежей включены в этот журнал.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="612">
-          <source>If all the data is correct, and workflow approval of the payment plan can start, <bpt id="p1">**</bpt>Workflow <ph id="ph1">\&gt;</ph> Submit<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если все данные верны, и workflow-процесс плана платежей можно запустить, выберите <bpt id="p1">**</bpt>Workflow-процесс <ph id="ph1">\&gt;</ph> Отправить<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="613">
-          <source>If the payment plan is approved, select <bpt id="p1">**</bpt>Confirm<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если план платежей одобрен, выберите <bpt id="p1">**</bpt>Подтвердить<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="614">
-          <source>The status of the payment requests that are included is changed to <bpt id="p1">**</bpt>Accepted<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Статус платежных поручений, которые включены, изменяется на <bpt id="p1">**</bpt>Принято<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="615">
-          <source>On the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> page, on the Action Pane, on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>Related information<ept id="p3">**</ept> group, select <bpt id="p4">**</bpt>Payment schedule journal<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Запрос платежа<ept id="p1">**</ept> в области действий на вкладке <bpt id="p2">**</bpt>Общие<ept id="p2">**</ept> в группе <bpt id="p3">**</bpt>Связанные сведения<ept id="p3">**</ept> выберите <bpt id="p4">**</bpt>Журнал графика платежей<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="616">
-          <source>Review the payment schedule journal that is associated with the payment request.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотрите журнал графика платежей, связанный с запросом платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="617">
-          <source>Complete the steps 16-20 if the <bpt id="p1">**</bpt>Payment request<ept id="p1">**</ept> license configuration key is turned on.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполните шаги 16–20, если включен конфигурационный ключ лицензии <bpt id="p1">**</bpt>Запросы платежей<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="618">
-          <source>On the <bpt id="p1">**</bpt>Payment schedule journal<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Functions <ph id="ph1">\&gt;</ph> Generate payments<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Журнал графика платежей<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Функции <ph id="ph1">\&gt;</ph> Создать платежи<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="619">
-          <source>Set the parameters for payment journal generation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Задайте параметры для создания журнала платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="620">
-          <source>Parameters for payment journal generation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Параметры для создания журнала платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="621">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="622">
-          <source>Select <bpt id="p1">**</bpt>Accounts payable <ph id="ph1">\&gt;</ph> Payments <ph id="ph2">\&gt;</ph> Vendor payment journal<ept id="p1">**</ept> to validate and process the vendor payment journal that is created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Расчеты с поставщиками <ph id="ph1">\&gt;</ph> Платежи <ph id="ph2">\&gt;</ph> Журнал платежей поставщика<ept id="p1">**</ept> для проверки и обработки журнала платежей поставщика, который создан.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="623">
-          <source>Select <bpt id="p1">**</bpt>Accounts receivable <ph id="ph1">\&gt;</ph> Payments <ph id="ph2">\&gt;</ph> Customer payment journal<ept id="p1">**</ept> to validate and process the customer payment journal that is created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Расчеты с клиентами <ph id="ph1">\&gt;</ph> Платежи <ph id="ph2">\&gt;</ph> Журнал платежей клиентов<ept id="p1">**</ept> для проверки и обработки журнала платежей клиентов, который создан.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="624">
-          <source>Standard payment proposal functionality will process open transactions that are linked to a payment request that has <bpt id="p1">**</bpt>Accepted<ept id="p1">**</ept> status.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Стандартная функция предложения по оплате будет обрабатывать открытые проводки, связанные с платежным требованием, имеющим статус <bpt id="p1">**</bpt>Принято<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="625">
-          <source>The payment proposal algorithm includes additional changes that are applied when payment requests are used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Алгоритм предложения по оплате включает дополнительные изменения, которые применяются при использовании платежных требований.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="626">
-          <source>The system considers the posting profile, the setting of the <bpt id="p1">**</bpt>Prepayment<ept id="p1">**</ept> parameter, and the payment order requisites that are filled in on payment requests.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Система учитывает профиль разноски, значение параметра <bpt id="p1">**</bpt>Предоплата<ept id="p1">**</ept> и реквизиты платежного поручения, которые заполняются по платежному требованию.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Управление движением денежных средств (Россия)
+description: Это руководство содержит пример, в котором показано, как настроить и использовать управление движением денежных средств в Microsoft Dynamics 365 for Finance and Operations.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 02/11/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Russia
+ms.author: shylaw
+ms.search.validFrom: ''
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: f677c9d9d67ce9b205dd20c39aaa1fbe29175128
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545424"
+---
+# <a name="cash-flow-management-russia"></a><span data-ttu-id="33c91-103">Управление движением денежных средств (Россия)</span><span class="sxs-lookup"><span data-stu-id="33c91-103">Cash flow management (Russia)</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="33c91-104">В организации, использующей систему централизованных платежей, имеется несколько юридических лиц, ведущих деятельность, и каждое из действующих юридических лиц управляет сведениями о своих накладных.</span><span class="sxs-lookup"><span data-stu-id="33c91-104">In a centralized payment organization, there are many legal entities for operations, and each operating legal entity manages information for its own invoices.</span></span> <span data-ttu-id="33c91-105">Выплаты по всем оперирующим юридическим лицам выполняются в одном юридическом лице, которое иногда называется кассовым юридическим лицом или кассовой компанией.</span><span class="sxs-lookup"><span data-stu-id="33c91-105">Payments for all the operating legal entities are generated from a single legal entity, which is sometimes referred to as the Treasury legal entity or Treasury company.</span></span>
+
+<span data-ttu-id="33c91-106">Кассовая компания отвечает за наблюдение за потоком денежных средств и движением ликвидности между компаниями и денежными позициями (нехватка и излишек), а также за своевременное предотвращение нехватки корпоративных денежных средств.</span><span class="sxs-lookup"><span data-stu-id="33c91-106">A Treasury company is responsible for monitoring the flow of cash and liquidity movement across companies and cash positions (shortage and surplus), and for preventing corporate cash shortage in a timely manner.</span></span>
+
+<span data-ttu-id="33c91-107">Ниже приведены основные цели кассовой компании:</span><span class="sxs-lookup"><span data-stu-id="33c91-107">Here are the main goals of a Treasury company:</span></span>
+
+- <span data-ttu-id="33c91-108">Получение точного прогноза движения ликвидности/денежных средств и выполнять среднесрочный и краткосрочный анализ.</span><span class="sxs-lookup"><span data-stu-id="33c91-108">Get an accurate liquidity/cash flow forecast, and do analysis for the medium-term/short-term horizon.</span></span>
+- <span data-ttu-id="33c91-109">Ежедневное управление платежами, используя журналы графика оплаты.</span><span class="sxs-lookup"><span data-stu-id="33c91-109">Manage payments daily by using payment schedule journals.</span></span>
+- <span data-ttu-id="33c91-110">Управление состоянием денежной наличности компании.</span><span class="sxs-lookup"><span data-stu-id="33c91-110">Control the company's cash position.</span></span>
+- <span data-ttu-id="33c91-111">Ведение движения денежных средств компании за счет централизованного контроля.</span><span class="sxs-lookup"><span data-stu-id="33c91-111">Maintain the company's cash flows through centralized control.</span></span>
+
+<span data-ttu-id="33c91-112">Этот раздел предоставляет пошаговый пример, показывающий параметры и действия пользователя для управления движением денежных средств в Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="33c91-112">This topic provides a step-by-step example that shows the settings and user activities for cash flow management in Microsoft Dynamics 365 for Finance and Operations.</span></span> 
+
+> [!NOTE]
+> <span data-ttu-id="33c91-113">Набор данных, используемый в этом разделе, предназначен только в целях демонстрации.</span><span class="sxs-lookup"><span data-stu-id="33c91-113">The data set that is used in this topic is for demo purposes only.</span></span> <span data-ttu-id="33c91-114">Коды, которые используются для создания счетов ГК, налог на добавленную стоимость (НДС), курсы и т. д., должны соответствовать правилам, принятым в вашей компании.</span><span class="sxs-lookup"><span data-stu-id="33c91-114">The codes that you use for ledger accounts, value-added tax (VAT), rates, and so on, should comply with the rules that are accepted in your company.</span></span>
+
+<span data-ttu-id="33c91-115">В этом примере компания Contoso Retail RUS (RURT) является дочерней компанией промышленного холдинга и работает как операционное юридическое лицо.</span><span class="sxs-lookup"><span data-stu-id="33c91-115">In this example, Contoso Retail RUS (RURT) is a subsidiary of an industrial holding company and does business as an operating legal entity.</span></span> <span data-ttu-id="33c91-116">Компания Contoso Entertainment Systems Russia (RUMF) — этой внутренний банк промышленного холдинга, который обрабатывает все платежи.</span><span class="sxs-lookup"><span data-stu-id="33c91-116">Contoso Entertainment Systems Russia (RUMF) is an internal bank of an industrial holding company and handles all payments.</span></span>
+
+<span data-ttu-id="33c91-117">В следующей таблице показаны этапы оплаты, с которыми имеет дело казначей во время обработки платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-117">The following table shows the stages of payment that a treasurer deals with during payment processing.</span></span>
+
+<table>
+<thead>
+<tr>
+<th><span data-ttu-id="33c91-118">Бизнес-сценарий</span><span class="sxs-lookup"><span data-stu-id="33c91-118">Business scenario</span></span></th>
+<th><span data-ttu-id="33c91-119">Причина платежа</span><span class="sxs-lookup"><span data-stu-id="33c91-119">Payment cause</span></span></th>
+<th><span data-ttu-id="33c91-120">Стадия платежа</span><span class="sxs-lookup"><span data-stu-id="33c91-120">Payment stage</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="33c91-121">Компания отправляет запрос и подтверждает поставку товаров (т. е., заказ на покупку, имеющий график поставки, который подтвержден).</span><span class="sxs-lookup"><span data-stu-id="33c91-121">The company requests and confirms delivery of goods (that is, a purchase order that has a delivery schedule that is confirmed).</span></span> <span data-ttu-id="33c91-122">Казначей включает сведения об ожидаемых платежах (входящих или исходящих) в прогнозе движения денежных средств, создавая журнал графика оплаты с типом "план платежей".</span><span class="sxs-lookup"><span data-stu-id="33c91-122">A treasurer includes information about the expected payments (inflow or outflow) in the cash flow forecast by creating payment schedule journal of type "payment plan".</span></span>
+</td>
+<td>
+<ul>
+<li><span data-ttu-id="33c91-123">Заказ на покупку</span><span class="sxs-lookup"><span data-stu-id="33c91-123">Purchase order</span></span></li>
+<li><span data-ttu-id="33c91-124">Заказ на продажу</span><span class="sxs-lookup"><span data-stu-id="33c91-124">Sales order</span></span></li>
+<li><span data-ttu-id="33c91-125">Накладная с произвольным текстом</span><span class="sxs-lookup"><span data-stu-id="33c91-125">Free text invoice</span></span></li>
+</ul>
+</td>
+<td><span data-ttu-id="33c91-126">Плановые платежи</span><span class="sxs-lookup"><span data-stu-id="33c91-126">Planned payment</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="33c91-127">Компания получает запрос платежа (запрос предоплаты, накладная и т. д.) от продавца.</span><span class="sxs-lookup"><span data-stu-id="33c91-127">The company receives the payment request (prepayment request, invoice, and so on) from a seller.</span></span> <span data-ttu-id="33c91-128">Менеджер создает запрос оплаты, который должен быть утвержден руководителем менеджера и казначеем.</span><span class="sxs-lookup"><span data-stu-id="33c91-128">The manager creates a payment request, which should be approved by the manager lead and a treasurer.</span></span> <span data-ttu-id="33c91-129">Казначей включает сведения об ожидаемых и утвержденных платежах (входящих или исходящих) в прогноз движения денежных средств.</span><span class="sxs-lookup"><span data-stu-id="33c91-129">The treasurer includes information about the expected and approved payments (inflow or outflow) in the cash flow forecast.</span></span>
+<blockquote>[!IMPORTANT] <span data-ttu-id="33c91-130">Запрос платежа и связанные с ним функции доступны только тогда, когда включен конфигурационный ключ лицензии <strong>Запрос платежа</strong>.</span><span class="sxs-lookup"><span data-stu-id="33c91-130">The Payment request and the associated functionality are available only if the <strong>Payment request</strong> license configuration key is turned on.</span></span></blockquote>
+</td>
+<td>
+<ul>
+<li><span data-ttu-id="33c91-131">Накладная поставщика</span><span class="sxs-lookup"><span data-stu-id="33c91-131">Vendor invoice</span></span></li>
+<li><span data-ttu-id="33c91-132">Счет-фактура по предоплате</span><span class="sxs-lookup"><span data-stu-id="33c91-132">Prepayment invoice</span></span></li>
+<li><span data-ttu-id="33c91-133">Плановый платеж для подтвержденного заказа на покупку</span><span class="sxs-lookup"><span data-stu-id="33c91-133">Planned payment for confirmed purchase order</span></span></li>
+<li><span data-ttu-id="33c91-134">Накладная на возврат клиента</span><span class="sxs-lookup"><span data-stu-id="33c91-134">Customer return invoice</span></span></li>
+</ul>
+</td>
+<td><span data-ttu-id="33c91-135">Запрос платежа</span><span class="sxs-lookup"><span data-stu-id="33c91-135">Payment request</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="33c91-136">Казначей создает и подтверждает журнал графика платежей (реестр платежей).</span><span class="sxs-lookup"><span data-stu-id="33c91-136">A treasurer generates and confirms the payment schedule journal (payment register).</span></span> <span data-ttu-id="33c91-137">Таким образом компания определяет список платежей, которые должны быть выполнены с банковского или кассового счета.</span><span class="sxs-lookup"><span data-stu-id="33c91-137">In this way, the company defines the list of payments that should be made by the bank/cash account.</span></span></td>
+<td><span data-ttu-id="33c91-138">Журнал графика платежей (типа <strong>Реестр платежей</strong>)</span><span class="sxs-lookup"><span data-stu-id="33c91-138">Payment schedule journal (of the <strong>Payment register</strong> type)</span></span></td>
+<td><span data-ttu-id="33c91-139">Платежное поручение</span><span class="sxs-lookup"><span data-stu-id="33c91-139">Payment order</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="33c91-140">Компания получает выписку из банка.</span><span class="sxs-lookup"><span data-stu-id="33c91-140">The company receives the statement from a bank.</span></span> <span data-ttu-id="33c91-141">Эта выписка включает авторизованные транзакции (выполненные платежи).</span><span class="sxs-lookup"><span data-stu-id="33c91-141">This statement includes the authorized transactions (completed payments).</span></span></td>
+<td><span data-ttu-id="33c91-142">Банковская выписка</span><span class="sxs-lookup"><span data-stu-id="33c91-142">Bank statement</span></span></td>
+<td><span data-ttu-id="33c91-143">Выполненные платежи</span><span class="sxs-lookup"><span data-stu-id="33c91-143">Completed payment</span></span></td>
+</tr>
+</tbody>
+</table>
+
+<span data-ttu-id="33c91-144">После выполнения примера в этом разделе можно выполнять следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="33c91-144">After you complete the example that is provided in this topic, you will be able to perform the following tasks:</span></span>
+
+- <span data-ttu-id="33c91-145">Настроить параметры управления движением денежных средств для поддержки новых функций.</span><span class="sxs-lookup"><span data-stu-id="33c91-145">Configure parameters for cash flow management to support the new functionality.</span></span>
+- <span data-ttu-id="33c91-146">Обработать плановые платежи.</span><span class="sxs-lookup"><span data-stu-id="33c91-146">Process planned payments.</span></span> <span data-ttu-id="33c91-147">Прогнозировать проводки входящих и исходящих платежей автоматически создаются и обновляются на основе заказов на покупку, заказов на продажу и накладных с произвольным текстом.</span><span class="sxs-lookup"><span data-stu-id="33c91-147">Forecast transactions of incoming and outgoing payments are automatically created and updated based on purchase orders, sales orders, and free text invoices.</span></span>
+- <span data-ttu-id="33c91-148">Если включен конфигурационный ключ лицензии **Запрос платежа**, обрабатывать запросы платежей на основании задолженности поставщикам, клиентам и работникам и запросы предоплаты от поставщиков.</span><span class="sxs-lookup"><span data-stu-id="33c91-148">If the **Payment request** license configuration key is turned on, process payment requests based on indebtedness to vendors, customers, and workers, and prepayment requirements from vendors.</span></span> <span data-ttu-id="33c91-149">(Обработка включает создание, обновление и утверждение запросов платежей.)</span><span class="sxs-lookup"><span data-stu-id="33c91-149">(The processing includes the creation, update, and approval of payment requests.)</span></span>
+- <span data-ttu-id="33c91-150">Обрабатывать журналы графика платежей для среднесрочного планирования ликвидности (план платежей) и ежедневного управления платежами (реестр платежей).</span><span class="sxs-lookup"><span data-stu-id="33c91-150">Process payment schedule journals for medium-term liquidity planning (payment plan) and daily payment management (payment register).</span></span> <span data-ttu-id="33c91-151">Анализировать недостаточность и излишки денежных средств с помощью балансировки листа графика оплаты (функция моделирования).</span><span class="sxs-lookup"><span data-stu-id="33c91-151">Analyze cash deficit and surplus through payment schedule sheet balancing (the simulation function).</span></span>
+- <span data-ttu-id="33c91-152">Создавать платежи на основе реестра утвержденных платежей, имеющих тип журнала графика платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-152">Generate payments, based on an approved payment register, which is a type of payment schedule journal.</span></span>
+
+## <a name="setup"></a><span data-ttu-id="33c91-153">Настройка</span><span class="sxs-lookup"><span data-stu-id="33c91-153">Setup</span></span>
+
+### <a name="set-up-the-license-configuration"></a><span data-ttu-id="33c91-154">Настройка конфигурации лицензии</span><span class="sxs-lookup"><span data-stu-id="33c91-154">Set up the license configuration</span></span>
+
+1. <span data-ttu-id="33c91-155">Перейдите в раздел **Администрирование системы \> Настройка \> Конфигурация лицензии**.</span><span class="sxs-lookup"><span data-stu-id="33c91-155">Go to **System administration \> Setup \> License configuration**.</span></span>
+2. <span data-ttu-id="33c91-156">В разделе **Функции для страны/региона \> Россия** установите флажок **Управление движением денежных средств**.</span><span class="sxs-lookup"><span data-stu-id="33c91-156">Under **Country/Regional specific features \> Russia**, select the **Cash flow management** check box.</span></span>
+3. <span data-ttu-id="33c91-157">Если организация планирует использовать запросы платежей, установите флажок **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-157">If the organization plans to use payment requests, select the **Payment requests** check box.</span></span>
+
+### <a name="optional-set-up-an-organization-hierarchy-for-centralized-payments"></a><span data-ttu-id="33c91-158">Не обязательно: настройте организационную иерархию для централизованных платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-158">Optional: Set up an organization hierarchy for centralized payments</span></span>
+
+1. <span data-ttu-id="33c91-159">Перейдите в раздел **Управление организацией \> Организации \> Организационные иерархии**.</span><span class="sxs-lookup"><span data-stu-id="33c91-159">Go to **Organization administration \> Organizations \> Organization hierarchies**.</span></span>
+2. <span data-ttu-id="33c91-160">В левой области выберите **Централизованные платежи**.</span><span class="sxs-lookup"><span data-stu-id="33c91-160">In the left pane, select **Centralized Payments**.</span></span>
+
+    ![Организационная иерархия для централизованных платежей](media/rus-org-hierarchy.jpg)
+
+3. <span data-ttu-id="33c91-162">Выберите **Представление**.</span><span class="sxs-lookup"><span data-stu-id="33c91-162">Select **View**.</span></span>
+4. <span data-ttu-id="33c91-163">На странице **Конструктор иерархии** создайте иерархию, в которой компания **Contoso Entertainment Systems Russia** (**RUMF**) — это юридическое лицо платежа, а **Contoso Retail RUS** (**RURT**) является операционных юридическим лицом.</span><span class="sxs-lookup"><span data-stu-id="33c91-163">On the **Hierarchy designer** page, create a hierarchy where **Contoso Entertainment Systems Russia** (**RUMF**) is the legal entity of the payment and **Contoso Retail RUS** (**RURT**) is the operating legal entity.</span></span>
+
+    ![Конструктор организационной иерархии](media/rus-org-hierarchy-designer.jpg)
+
+5. <span data-ttu-id="33c91-165">Опубликуйте новую иерархию.</span><span class="sxs-lookup"><span data-stu-id="33c91-165">Publish the new hierarchy.</span></span>
+
+### <a name="set-up-a-workflow-for-cash-flow-management"></a><span data-ttu-id="33c91-166">Настройка workflow-процесса для управления движением денежных средств</span><span class="sxs-lookup"><span data-stu-id="33c91-166">Set up a workflow for cash flow management</span></span> 
+
+1. <span data-ttu-id="33c91-167">Перейдите в раздел **Управление банком и кассовыми операциями \> Настройка \> Workflow-процессы управления банками и кассами**.</span><span class="sxs-lookup"><span data-stu-id="33c91-167">Go to **Cash and bank management \> Setup \> Cash and bank management workflows**.</span></span>
+2. <span data-ttu-id="33c91-168">Выберите **Создать**, чтобы создать запись.</span><span class="sxs-lookup"><span data-stu-id="33c91-168">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="33c91-169">Выберите требуемый тип workflow-процесса: **Тип workflow-процесса для утверждения запросов платежей** или **Workflow-процесс утверждения журнала графика платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-169">Select the required workflow type: **Workflow type for payment requests approval** or **Payment schedule journal approval workflow**.</span></span>
+4. <span data-ttu-id="33c91-170">Настройте новый workflow-процесс с помощью нового элемента workflow-процесса **Утвердить запрос платежа** или **Утвердить журнал графика платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-170">Set up the new workflow by using the new **Approve the payment request** or **Approve payment schedule journal** workflow element.</span></span>
+
+    ![Элементы бизнес-правила](media/rus-cash-flow-workflow.jpg)
+
+5. <span data-ttu-id="33c91-172">Активируйте новый workflow-процесс.</span><span class="sxs-lookup"><span data-stu-id="33c91-172">Activate the new workflow.</span></span>
+
+### <a name="set-up-a-payment-priority"></a><span data-ttu-id="33c91-173">Настройка приоритета платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-173">Set up a payment priority</span></span>
+
+1. <span data-ttu-id="33c91-174">Перейдите в раздел **Управление банком и кассовыми операциями \> Настройка \> Управление движением денежных средств \> Приоритет платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-174">Go to **Cash and bank management \> Setup \> Cash flow management \> Payment priority**.</span></span>
+2. <span data-ttu-id="33c91-175">Выберите **Создать**, чтобы создать запись.</span><span class="sxs-lookup"><span data-stu-id="33c91-175">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="33c91-176">На экспресс-вкладке **Управление приоритетом** используйте кнопки **Вверх** и **Вниз**, чтобы упорядочить список приоритетов.</span><span class="sxs-lookup"><span data-stu-id="33c91-176">On the **Manage priority** FastTab, use the **Up** and **Down** buttons to arrange the priority list.</span></span>
+4. <span data-ttu-id="33c91-177">Перейдите в раздел **Расчеты с поставщиками \> Поставщики \> Все поставщики**.</span><span class="sxs-lookup"><span data-stu-id="33c91-177">Go to **Accounts payable \> Vendors \> All vendors**.</span></span>
+5. <span data-ttu-id="33c91-178">Выберите поставщика, затем выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="33c91-178">Select the vendor, and then select **Edit**.</span></span>
+6. <span data-ttu-id="33c91-179">В поле **Приоритет платежа** укажите код приоритета для связанного субъекта.</span><span class="sxs-lookup"><span data-stu-id="33c91-179">In the **Payment priority** field, specify a priority code for the associated party.</span></span> <span data-ttu-id="33c91-180">Можно также выполнить эту операцию на страницах **Субъект** и **Клиент**.</span><span class="sxs-lookup"><span data-stu-id="33c91-180">You can also complete this operation on the **Party** and **Customer** pages.</span></span>
+
+### <a name="set-up-a-payment-request-type"></a><span data-ttu-id="33c91-181">Настройка типа запроса платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-181">Set up a payment request type</span></span>
+
+1. <span data-ttu-id="33c91-182">Перейдите в раздел **Управление банком и кассовыми операциями \> Настройка \> Управление движением денежных средств \> Тип запроса платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-182">Go to **Cash and bank management \> Setup \> Cash flow management \> Payment request type**.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="33c91-183">Страница **Тип запроса платежа** доступна только тогда, когда включен конфигурационный ключ лицензии **Запрос платежа**.</span><span class="sxs-lookup"><span data-stu-id="33c91-183">The **Payment request type** page is available only if the **Payment request** license configuration key is turned on.</span></span>
+
+2. <span data-ttu-id="33c91-184">Выберите **Создать**, чтобы создать запись.</span><span class="sxs-lookup"><span data-stu-id="33c91-184">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="33c91-185">Укажите приоритет платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-185">Specify the payment priority.</span></span>
+
+    <span data-ttu-id="33c91-186">Если для типа запроса платежа приоритета платежа не указан, самый низкий приоритет платежа будет использоваться для запросов платежей этого типа.</span><span class="sxs-lookup"><span data-stu-id="33c91-186">If a payment priority isn't specified for a payment request type, the lowest payment priority will be used for payment requests of that type.</span></span> <span data-ttu-id="33c91-187">Приоритет платежа для запроса платежа будет выше приоритета платежа субъекта и приоритета платежа типа запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-187">The payment priority for a payment request will be the higher of the payment priority of the party and the payment priority of the payment request type.</span></span>
+
+4. <span data-ttu-id="33c91-188">Укажите направление движения денежных средств: **Поступление денежных средств** или **Расход денежных средств**.</span><span class="sxs-lookup"><span data-stu-id="33c91-188">Specify the cash flow direction: **Cash inflow** or **Cash outflow**.</span></span>
+5. <span data-ttu-id="33c91-189">Укажите workflow-процесс, который связан с утверждением запроса платежа, если процедура утверждения должна быть применена к запросам платежей этого типа.</span><span class="sxs-lookup"><span data-stu-id="33c91-189">Specify the workflow that is associated with payment request approval, if the approval procedure should be applied to payment requests of this type.</span></span>
+
+### <a name="specify-cash-flow-management-parameters"></a><span data-ttu-id="33c91-190">Указания параметров управления движением денежных средств</span><span class="sxs-lookup"><span data-stu-id="33c91-190">Specify cash flow management parameters</span></span>
+
+<span data-ttu-id="33c91-191">Эту настройку следует выполнять для кассовой компании.</span><span class="sxs-lookup"><span data-stu-id="33c91-191">This setup should be completed for a Treasury company.</span></span>
+
+1. <span data-ttu-id="33c91-192">Перейдите в раздел **Управление банком и кассовыми операциями \> Настройка \> Параметры управления банком и кассовыми операциями**.</span><span class="sxs-lookup"><span data-stu-id="33c91-192">Go to **Cash and bank management \> Setup \> Cash and bank management parameters**.</span></span>
+2. <span data-ttu-id="33c91-193">На вкладке **Управление движением денежных средств** на экспресс-вкладке **Финансовые аналитики** укажите набор аналитик.</span><span class="sxs-lookup"><span data-stu-id="33c91-193">On the **Cash flow management** tab, on the **Financial dimensions** FastTab, specify the dimension set.</span></span> <span data-ttu-id="33c91-194">Этот шаг позволяет организации определить, какие аналитики в структуре счетов, которая связана с планом счетов (для юридических лиц в иерархии централизованных платежей), доступны для обработки управления движением денежных средств.</span><span class="sxs-lookup"><span data-stu-id="33c91-194">This step lets an organization determine which dimensions in the account structures that are associated with the chart of accounts (for legal entities in a centralized payment hierarchy) are available for cash flow management processing.</span></span> <span data-ttu-id="33c91-195">Например, комбинации подразделений, которые имеют центры затрат, могут использоваться для анализа прогноза движения денежных средств и ликвидности.</span><span class="sxs-lookup"><span data-stu-id="33c91-195">For example, combinations of departments that have cost centers can be used for liquidity/cash flow forecast analysis.</span></span>
+3. <span data-ttu-id="33c91-196">На экспресс-вкладке **Тип валютного курса для прогноза по умолчанию** укажите тип валютного курса по умолчанию для прогнозов.</span><span class="sxs-lookup"><span data-stu-id="33c91-196">On the **Default exchange rate type for forecast** FastTab, specify the default exchange rate type for forecasts.</span></span> <span data-ttu-id="33c91-197">Это значение используется в планах платежей, когда валюта источника платежа отличается от валюты платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-197">This value is used in payment plans when the currency of a payment source differs from the payment currency.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="33c91-198">Выполните шаги 4–7, если включен конфигурационный ключ лицензии **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-198">Complete the steps 4-7 if the **Payment request** license configuration key is turned on.</span></span>
+
+4. <span data-ttu-id="33c91-199">На экспресс-вкладке **Типы запросов платежей** укажите типы запросов платежей для параметров **Задолженность поставщику**, **Предоплата поставщику**, **Задолженность клиенту** и **Задолженность работнику**.</span><span class="sxs-lookup"><span data-stu-id="33c91-199">On the **Payment request types** FastTab, specify payment request types for **Indebtedness to vendor**, **Vendor prepayment**, **Indebtedness to customer**, and **Indebtedness to worker**.</span></span> <span data-ttu-id="33c91-200">Эти типы запросов платежей используются во время автоматического создания запросов платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-200">These payment request types are used during automatic creation of payment requests.</span></span>
+5. <span data-ttu-id="33c91-201">На экспресс-вкладке **Платежи** укажите журнал платежей поставщикам и журнал платежей клиентам, которые используются для разноски платежей, созданных реестром платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-201">On the **Payments** FastTab, specify the vendor payment journal and customer payment journal that are used to post payments that are generated by the payment register.</span></span>
+6. <span data-ttu-id="33c91-202">На экспресс-вкладке **Повторное утверждение запросов платежей** в поле **Изменение суммы платежа** укажите поведение системы при изменении суммы для оплаты по запросу платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-202">On the **Payment request re-approval** FastTab, in the **Amount to pay change** field, specify the system behavior if the amount to pay for a payment request is changed.</span></span> <span data-ttu-id="33c91-203">Можно указать, что система всегда должна инициализировать повторное утверждение запроса платежей через workflow-процесс, что система должна инициализировать повторное утверждение запроса платежа только в том случае, если сумма, подлежащая оплате, увеличена, или повторное утверждение никогда не требуется.</span><span class="sxs-lookup"><span data-stu-id="33c91-203">You can specify that the system should always initialize a payment request reapproval through a workflow, that the system should initialize a payment request reapproval only if the amount to pay has increased, or that reapproval is never required.</span></span>
+7. <span data-ttu-id="33c91-204">На вкладке **Номерные серии** укажите коды номерных серий для следующих ссылок:</span><span class="sxs-lookup"><span data-stu-id="33c91-204">On the **Number sequences** tab, specify number sequence codes for the following references:</span></span>
+
+    - <span data-ttu-id="33c91-205">Запрос платежа</span><span class="sxs-lookup"><span data-stu-id="33c91-205">Payment request</span></span>
+    - <span data-ttu-id="33c91-206">Журнал графика платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-206">Payment schedule journal</span></span>
+
+### <a name="set-up-terms-of-payment"></a><span data-ttu-id="33c91-207">Настройка условий оплаты</span><span class="sxs-lookup"><span data-stu-id="33c91-207">Set up terms of payment</span></span>
+
+<span data-ttu-id="33c91-208">Эта настройка доступна только тогда, когда включен конфигурационный ключ лицензии **Запрос платежа**.</span><span class="sxs-lookup"><span data-stu-id="33c91-208">This setup is available only if the **Payment request** license configuration key is turned on.</span></span>
+
+1. <span data-ttu-id="33c91-209">Перейдите в раздел **Расчеты с поставщиками \> Настройка платежей \> Условия оплаты**.</span><span class="sxs-lookup"><span data-stu-id="33c91-209">Go to **Accounts payable \> Payment setup \> Terms of payment**.</span></span>
+2. <span data-ttu-id="33c91-210">Выберите **Изменить**и укажите типы запросов платежей для платежей и предоплаты, если конкретные типы запросов платежей следует использовать в следующих сценариях.</span><span class="sxs-lookup"><span data-stu-id="33c91-210">Select **Edit**, and specify the payment request types for payments and prepayments, if specific payment request types should be used in these scenarios.</span></span>
+
+### <a name="set-up-payment-schedules"></a><span data-ttu-id="33c91-211">Настройка графиков платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-211">Set up payment schedules</span></span>
+
+1. <span data-ttu-id="33c91-212">Перейдите в раздел **Расчеты с поставщиками \> Настройка платежей \> Графики платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-212">Go to **Accounts payable \> Payment setup \> Payment schedules**.</span></span>
+2. <span data-ttu-id="33c91-213">Создайте график платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-213">Create a payment schedule.</span></span>
+3. <span data-ttu-id="33c91-214">В поле **Распределение** задайте метод распределения **Задано**.</span><span class="sxs-lookup"><span data-stu-id="33c91-214">In the **Allocation** field, set the allocation method to **Specified**.</span></span>
+4. <span data-ttu-id="33c91-215">На экспресс-вкладке **Строки оплаты** создайте строки платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-215">On the **Payment lines** FastTab, create payment lines.</span></span> <span data-ttu-id="33c91-216">Выберите флажок **Предоплата** для строки, если запрос платежа должен быть создан для суммы предоплаты.</span><span class="sxs-lookup"><span data-stu-id="33c91-216">Select the **Prepayment** check box for a line if a payment request should be created for prepayment amount.</span></span>
+
+### <a name="set-up-the-remittance-en-route-account"></a><span data-ttu-id="33c91-217">Настройка промежуточного счета предъявления к оплате</span><span class="sxs-lookup"><span data-stu-id="33c91-217">Set up the remittance en route account</span></span>
+
+<span data-ttu-id="33c91-218">Эту настройку следует выполнять для кассовой компании.</span><span class="sxs-lookup"><span data-stu-id="33c91-218">This setup should be completed for a Treasury company.</span></span>
+
+1. <span data-ttu-id="33c91-219">Выберите **Управление банком и кассовыми операциями \> Прогнозирование движения денежных средств \> Настройка прогноза движения денежных средств**.</span><span class="sxs-lookup"><span data-stu-id="33c91-219">Go to **Cash and bank management \> Cash flow forecasting \> Cash flow forecast setup**.</span></span>
+2. <span data-ttu-id="33c91-220">На вкладке **Главная книга** на экспресс-вкладке **Счета денежных средств** выберите **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="33c91-220">On the **General ledger** tab, on the **Liquidity accounts** FastTab, select **Add**.</span></span>
+3. <span data-ttu-id="33c91-221">В поле **Счет ГК** выберите счет учета.</span><span class="sxs-lookup"><span data-stu-id="33c91-221">In the **Main account** field, select the ledger account.</span></span>
+4. <span data-ttu-id="33c91-222">Установите флажок **Промежуточный счет предъявления к оплате**.</span><span class="sxs-lookup"><span data-stu-id="33c91-222">Select the **Remittance en route** check box.</span></span>
+
+### <a name="set-up-the-minimum-cash-balance-for-bank-accounts"></a><span data-ttu-id="33c91-223">Настройка минимальных денежных остатков для банковских счетов</span><span class="sxs-lookup"><span data-stu-id="33c91-223">Set up the minimum cash balance for bank accounts</span></span>
+
+<span data-ttu-id="33c91-224">Эту настройку следует выполнять для кассовой компании.</span><span class="sxs-lookup"><span data-stu-id="33c91-224">This setup should be completed for a Treasury company.</span></span>
+
+1. <span data-ttu-id="33c91-225">Перейдите в раздел **Управление банком и кассовыми операциями \> Банковские счета \> Банковские счета**.</span><span class="sxs-lookup"><span data-stu-id="33c91-225">Go to **Cash and bank management \> Bank accounts \> Bank accounts**.</span></span>
+2. <span data-ttu-id="33c91-226">Выберите банковский счет, затем выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="33c91-226">Select a bank account, and then select **Edit**.</span></span>
+3. <span data-ttu-id="33c91-227">Укажите минимальные денежные остатки.</span><span class="sxs-lookup"><span data-stu-id="33c91-227">Specify the minimum cash balance.</span></span> <span data-ttu-id="33c91-228">Если оценка сальдо банковского счета меньше минимального денежного остатка, который вы указали, лист графика платежей перезапишет оцененное сальдо для этой даты.</span><span class="sxs-lookup"><span data-stu-id="33c91-228">If the estimated balance amount of the bank account is less than the minimum cash balance that you specify, the payment schedule sheet will overwrite the estimated balance for that date.</span></span>
+
+### <a name="set-up-the-minimum-cash-balance-for-cash-accounts"></a><span data-ttu-id="33c91-229">Настройка минимальных денежных остатков для кассовых счетов</span><span class="sxs-lookup"><span data-stu-id="33c91-229">Set up the minimum cash balance for cash accounts</span></span>
+
+<span data-ttu-id="33c91-230">Эту настройку следует выполнять для кассовой компании.</span><span class="sxs-lookup"><span data-stu-id="33c91-230">This setup should be completed for a Treasury company.</span></span>
+
+1. <span data-ttu-id="33c91-231">Перейдите в раздел **Управление банком и кассовыми операциями \> Банковские счета \> Кассы**.</span><span class="sxs-lookup"><span data-stu-id="33c91-231">Go to **Cash and bank management \> Bank accounts \> Cash accounts**.</span></span>
+2. <span data-ttu-id="33c91-232">Выберите кассовый счет, затем выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="33c91-232">Select the cash account, and then select **Edit**.</span></span>
+3. <span data-ttu-id="33c91-233">Укажите минимальные денежные остатки.</span><span class="sxs-lookup"><span data-stu-id="33c91-233">Specify the minimum cash balance.</span></span> <span data-ttu-id="33c91-234">Если оценка сальдо кассового счета меньше минимального денежного остатка, который вы указали, лист графика платежей перезапишет оцененное сальдо для этой даты.</span><span class="sxs-lookup"><span data-stu-id="33c91-234">If the estimated balance amount of the cash account is less than the minimum cash balance that you specify, the payment schedule sheet will overwrite the estimated balance for that date.</span></span>
+
+### <a name="set-up-default-payment-order-requisites-for-purchase-agreements"></a><span data-ttu-id="33c91-235">Настройка реквизитов платежного поручение по умолчанию для договоров покупки</span><span class="sxs-lookup"><span data-stu-id="33c91-235">Set up default payment order requisites for purchase agreements</span></span>
+
+    Note. Setup procedure is similar for both purchase agreements and sales agreements
+
+1. <span data-ttu-id="33c91-236">Перейдите в раздел **Расчеты с поставщиками \> Заказы на покупку \> Договоры покупки**.</span><span class="sxs-lookup"><span data-stu-id="33c91-236">Select **Accounts payable \> Purchase orders \> Purchase agreements**.</span></span>
+2. <span data-ttu-id="33c91-237">Выберите договор покупки, который содержит метод оплаты, который связан с платежным поручением в российских рублях (руб.).</span><span class="sxs-lookup"><span data-stu-id="33c91-237">Select a purchase agreement that has a method of payment that is associated with a payment order in Russian rubles (RUB).</span></span>
+3. <span data-ttu-id="33c91-238">В области действий на вкладке **Договор покупки** в группе **Настройка** выберите **Платежное поручение**.</span><span class="sxs-lookup"><span data-stu-id="33c91-238">On the Action Pane, on the **Purchase agreement** tab, in the **Setup** group, select **Payment order**.</span></span>
+4. <span data-ttu-id="33c91-239">Выберите **Изменить**и укажите реквизиты платежного поручения по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="33c91-239">Select **Edit**, and specify default payment order requisites.</span></span> <span data-ttu-id="33c91-240">Реквизиты платежного поручения для запроса платежа или строки журнала платежей, которые связаны с этим договором покупки, будут инициализированы из договора покупки.</span><span class="sxs-lookup"><span data-stu-id="33c91-240">Payment order requisites for a payment request or a payment journal line that is associated with this purchase agreement will be initialized from the purchase agreement.</span></span>
+
+## <a name="planned-payment-processing"></a><span data-ttu-id="33c91-241">Обработка плановых платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-241">Planned payment processing</span></span>
+
+### <a name="planned-payments-on-purchase-orders"></a><span data-ttu-id="33c91-242">Плановые платежи по заказам на покупку</span><span class="sxs-lookup"><span data-stu-id="33c91-242">Planned payments on purchase orders</span></span>
+
+<span data-ttu-id="33c91-243">Плановый платеж содержит подробные сведения о будущих платежах: сумма, метод оплаты, платежный счет, приоритет платежа и скидка по оплате.</span><span class="sxs-lookup"><span data-stu-id="33c91-243">A planned payment contains details about future payments: the amount, method of payment, payment account, payment priority, and cash discount amount.</span></span>
+
+<span data-ttu-id="33c91-244">Дата оплаты вычисляется на основе **Подтвержденная дата доставки** или **Дата поставки**, если **Подтвержденная дата доставки** не указана.</span><span class="sxs-lookup"><span data-stu-id="33c91-244">The due date is calculated based on the **Confirmed delivery date** or **Delivery date** if the **Confirmed delivery date** isn't specified.</span></span>
+
+<span data-ttu-id="33c91-245">Если пользователь выполняет разноску накладной, пересчитываются плановые платежи.</span><span class="sxs-lookup"><span data-stu-id="33c91-245">If a user posts an invoice, planned payments are recalculated.</span></span> <span data-ttu-id="33c91-246">Если счета за заказ на покупку полностью выставлены, заказ на покупку не будет иметь никаких запланированных платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-246">If a purchase order is fully invoiced, the purchase order won't have any planned payments.</span></span>
+
+<span data-ttu-id="33c91-247">Если лицензионный ключ конфигурации **Запрос платежа** включен, запланированный платеж создается на основе финансовых аналитик из строк заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="33c91-247">If the **Payment request** license configuration key is turned on, a planned payment is created based on the financial dimensions from the purchase order lines.</span></span> <span data-ttu-id="33c91-248">В противном случае плановые платежи основаны на финансовой аналитике из заголовка заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="33c91-248">Otherwise, the planned payment is based on the financial dimensions from the purchase order header.</span></span>
+
+<span data-ttu-id="33c91-249">Плановые платежи создаются для заказа на покупку, если график оплаты рассчитывается или если пользователь выбирает кнопку **Плановые платежи**.</span><span class="sxs-lookup"><span data-stu-id="33c91-249">Planned payments are generated for a purchase order if a payment schedule is calculated, or if a user selects the **Planned payments** button.</span></span>
+
+<span data-ttu-id="33c91-250">Эту процедуру следует выполнять в дочерней компании.</span><span class="sxs-lookup"><span data-stu-id="33c91-250">This procedure should be completed in a subsidiary company.</span></span>
+
+1. <span data-ttu-id="33c91-251">Перейдите в раздел **Расчеты с поставщиками \> Заказы на покупку \> Все заказы на покупку**.</span><span class="sxs-lookup"><span data-stu-id="33c91-251">Go to **Accounts payable \> Purchase orders \> All purchase orders**.</span></span>
+2. <span data-ttu-id="33c91-252">Создание заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="33c91-252">Create a purchase order.</span></span> <span data-ttu-id="33c91-253">В заголовке заказа на покупку укажите условия платежей, график оплаты, метод оплаты, скидку по оплате и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-253">On the purchase order header, specify the terms of payments, payment schedule, method of payment, cash discount, and financial dimensions.</span></span>
+3. <span data-ttu-id="33c91-254">Создайте строки заказа на покупку и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-254">Create purchase order lines, and specify the sales tax group, item sales tax group, and financial dimensions.</span></span> <span data-ttu-id="33c91-255">Распределите сумму строк, если требуется распределение.</span><span class="sxs-lookup"><span data-stu-id="33c91-255">Distribute the amount of a line if distribution is required.</span></span>
+4. <span data-ttu-id="33c91-256">В области действий на вкладке **Накладная** в группе **Выставление счета** выберите **Плановые платежи**.</span><span class="sxs-lookup"><span data-stu-id="33c91-256">On the Action Pane, on the **Invoice** tab, in the **Bill** group, select **Planned payments**.</span></span>
+5. <span data-ttu-id="33c91-257">Просмотрите плановые платежи, которые были созданы, на основе даты оплаты, значений финансовых аналитик, налоговой группы и налоговой группы номенклатур.</span><span class="sxs-lookup"><span data-stu-id="33c91-257">Review the planned payments that have been created based on the due dates, financial dimension values, sales tax group, and item sales tax group.</span></span>
+
+### <a name="planned-payments-on-sales-orders"></a><span data-ttu-id="33c91-258">Плановые платежи по заказам на продажу</span><span class="sxs-lookup"><span data-stu-id="33c91-258">Planned payments on sales orders</span></span>
+
+<span data-ttu-id="33c91-259">Плановый платеж содержит подробные сведения о будущих платежах: сумма, метод оплаты, платежный счет, приоритет платежа и скидка по оплате.</span><span class="sxs-lookup"><span data-stu-id="33c91-259">A planned payment contains details about future payments: the value, method of payment, payment account, payment priority, and cash discount amount.</span></span>
+
+<span data-ttu-id="33c91-260">Если лицензионный ключ конфигурации **Запрос платежа** включен, запланированный платеж создается на основе финансовых аналитик из строк заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="33c91-260">If the **Payment request** license configuration key is turned on, a planned payment is created based on the financial dimensions from the sales order lines.</span></span> <span data-ttu-id="33c91-261">В противном случае плановые платежи основаны на финансовой аналитике из заголовка заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="33c91-261">Otherwise, the planned payment is based on the financial dimensions from the sales order header.</span></span>
+
+<span data-ttu-id="33c91-262">Плановые платежи создаются для заказа на продажу, если график оплаты рассчитывается или если пользователь выбирает кнопку **Плановые платежи**.</span><span class="sxs-lookup"><span data-stu-id="33c91-262">Planned payments are generated for a sales order if a payment schedule is calculated, or if a user selects the **Planned payments** button.</span></span>
+
+<span data-ttu-id="33c91-263">Этот шаг следует выполнять в дочерней компании.</span><span class="sxs-lookup"><span data-stu-id="33c91-263">This step should be completed in a subsidiary company.</span></span>
+
+1. <span data-ttu-id="33c91-264">Перейдите в раздел **Расчеты с клиентами \> Заказы \> Все заказы на продажу**.</span><span class="sxs-lookup"><span data-stu-id="33c91-264">Go to **Accounts receivable \> Orders \> All sales orders**.</span></span>
+2. <span data-ttu-id="33c91-265">Создание заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="33c91-265">Create a sales order.</span></span> <span data-ttu-id="33c91-266">В заголовке заказа на продажу укажите условия платежей, график оплаты, метод оплаты, скидку по оплате и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-266">On the sales order header, specify the terms of payments, payment schedule, method of payment, cash discount, and financial dimensions.</span></span>
+3. <span data-ttu-id="33c91-267">Создайте строки заказа на продажу и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-267">Create sales order lines, and specify the sales tax group, item sales tax group, and financial dimensions.</span></span>
+4. <span data-ttu-id="33c91-268">В области действий на вкладке **Накладная** в группе **Выставление счета** выберите **Плановые платежи**.</span><span class="sxs-lookup"><span data-stu-id="33c91-268">On the Action Pane, on the **Invoice** tab, in the **Bill** group, select **Planned payments**.</span></span>
+5. <span data-ttu-id="33c91-269">Просмотрите плановые платежи, которые были созданы, на основе даты оплаты, значений аналитик, налоговой группы и налоговой группы номенклатур.</span><span class="sxs-lookup"><span data-stu-id="33c91-269">Review the planned payments that have been created based on the due dates, dimension values, sales tax group, and item sales tax group.</span></span>
+
+### <a name="planned-payments-on-free-text-invoices"></a><span data-ttu-id="33c91-270">Плановые платежи по накладным с произвольным текстом</span><span class="sxs-lookup"><span data-stu-id="33c91-270">Planned payments on free text invoices</span></span>
+
+<span data-ttu-id="33c91-271">Плановый платеж содержит подробные сведения о будущих платежах: сумма, метод оплаты, платежный счет, приоритет платежа и скидка по оплате.</span><span class="sxs-lookup"><span data-stu-id="33c91-271">A planned payment contains details about future payments: the value, method of payment, payment account, payment priority, and cash discount amount.</span></span>
+
+<span data-ttu-id="33c91-272">Если лицензионный ключ конфигурации **Запрос платежа** включен, запланированный платеж создается на основе финансовых аналитик из строк накладных с произвольным текстом.</span><span class="sxs-lookup"><span data-stu-id="33c91-272">If the **Payment request** license configuration key is turned on, a planned payment is created based on the financial dimensions from the free text invoice lines.</span></span> <span data-ttu-id="33c91-273">В противном случае плановые платежи основаны на финансовой аналитике из заголовка накладной с произвольным текстом.</span><span class="sxs-lookup"><span data-stu-id="33c91-273">Otherwise, the planned payment is based on the financial dimensions from the free text invoice header.</span></span>
+
+<span data-ttu-id="33c91-274">Плановые платежи создаются для накладной с произвольным текстом, если график оплаты рассчитывается или если пользователь выбирает кнопку **Плановые платежи**.</span><span class="sxs-lookup"><span data-stu-id="33c91-274">Planned payments are generated for a free text invoice if a payment schedule is calculated, or if a user selects the **Planned payments** button.</span></span>
+
+<span data-ttu-id="33c91-275">Этот шаг следует выполнять в дочерней компании.</span><span class="sxs-lookup"><span data-stu-id="33c91-275">This step should be completed in a subsidiary company.</span></span>
+
+1. <span data-ttu-id="33c91-276">Перейдите в раздел **Расчеты с клиентами \> Накладные \> Все накладные с произвольным текстом**.</span><span class="sxs-lookup"><span data-stu-id="33c91-276">Go to **Accounts receivable \> Invoices \> All free text invoices**.</span></span>
+2. <span data-ttu-id="33c91-277">Создайте накладную с произвольным текстом.</span><span class="sxs-lookup"><span data-stu-id="33c91-277">Create a free text invoice.</span></span> <span data-ttu-id="33c91-278">В заголовке накладной с произвольным текстом укажите условия платежей, график оплаты, метод оплаты, скидку по оплате и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-278">On the free text invoice header, specify the terms of payments, payment schedule, method of payment, cash discount, and financial dimensions.</span></span>
+3. <span data-ttu-id="33c91-279">Создайте строки накладной с произвольным текстом и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-279">Create free text invoice lines, and specify the sales tax group, item sales tax group, and financial dimensions.</span></span> <span data-ttu-id="33c91-280">Распределите сумму строк, если требуется распределение.</span><span class="sxs-lookup"><span data-stu-id="33c91-280">Distribute the amount of a line if distribution is required.</span></span>
+4. <span data-ttu-id="33c91-281">В области действий на вкладке **Накладная** в группе **Сведения** выберите **Плановые платежи**.</span><span class="sxs-lookup"><span data-stu-id="33c91-281">On the Action Pane, on the **Invoice** tab, in the **Details** group, select **Planned payments**.</span></span>
+5. <span data-ttu-id="33c91-282">Просмотрите плановые платежи, которые были созданы, на основе даты оплаты, значений аналитик, налоговой группы и налоговой группы номенклатур.</span><span class="sxs-lookup"><span data-stu-id="33c91-282">Review the planned payments that have been created based on the due dates, dimension values, sales tax group, and item sales tax group.</span></span>
+
+### <a name="periodic-creation-of-planned-payments"></a><span data-ttu-id="33c91-283">Периодическое создание плановых платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-283">Periodic creation of planned payments</span></span>
+
+<span data-ttu-id="33c91-284">Этот шаг следует выполнять для кассовой компании.</span><span class="sxs-lookup"><span data-stu-id="33c91-284">This step should be completed for a Treasury company.</span></span>
+
+1. <span data-ttu-id="33c91-285">Выберите **Управление банком и кассовыми операциями \> Периодические задачи \> Управление движением денежных средств \> Рассчитать плановые платежи**.</span><span class="sxs-lookup"><span data-stu-id="33c91-285">Go to **Cash and bank management \> Periodic tasks \> Cash flow management \> Calculate planned payments**.</span></span>
+2. <span data-ttu-id="33c91-286">Задайте следующие параметры.</span><span class="sxs-lookup"><span data-stu-id="33c91-286">Set the following parameters.</span></span>
+
+    | <span data-ttu-id="33c91-287">Поле</span><span class="sxs-lookup"><span data-stu-id="33c91-287">Field</span></span>                  | <span data-ttu-id="33c91-288">Описание</span><span class="sxs-lookup"><span data-stu-id="33c91-288">Description</span></span> |
+    |------------------------|-------------|
+    | <span data-ttu-id="33c91-289">с даты</span><span class="sxs-lookup"><span data-stu-id="33c91-289">From date</span></span>              | <span data-ttu-id="33c91-290">Укажите начало диапазона дат для источников плановых платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-290">Specify the start of the date range for the planned payment sources.</span></span> |
+    | <span data-ttu-id="33c91-291">До даты</span><span class="sxs-lookup"><span data-stu-id="33c91-291">To date</span></span>                | <span data-ttu-id="33c91-292">Укажите конец диапазона дат для источников плановых платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-292">Specify the end of the date range for the planned payment sources.</span></span> |
+    | <span data-ttu-id="33c91-293">Источник планового платежа</span><span class="sxs-lookup"><span data-stu-id="33c91-293">Planned payment source</span></span> | <span data-ttu-id="33c91-294">Выберите источник планового платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-294">Select a planned payment source.</span></span> |
+    | <span data-ttu-id="33c91-295">Юридические лица</span><span class="sxs-lookup"><span data-stu-id="33c91-295">Legal entities</span></span>         | <span data-ttu-id="33c91-296">Выберите юридические лица.</span><span class="sxs-lookup"><span data-stu-id="33c91-296">Select legal entities.</span></span> <span data-ttu-id="33c91-297">Кассовая компания может включать все юридические лица, которые принадлежат текущей иерархии для централизованных платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-297">A Treasury company can include all legal entities that belong to the current centralized payment hierarchy.</span></span> |
+    | <span data-ttu-id="33c91-298">Перерассчитать все</span><span class="sxs-lookup"><span data-stu-id="33c91-298">Recalculate all</span></span>        | <span data-ttu-id="33c91-299">Установите для этого параметра значение **Да**, если все спланированные платежи должны быть пересчитаны.</span><span class="sxs-lookup"><span data-stu-id="33c91-299">Set this option to **Yes** if all planned payments should be recalculated.</span></span> <span data-ttu-id="33c91-300">Если этот параметр имеет значение **Нет**, будет создан только новый плановый платеж.</span><span class="sxs-lookup"><span data-stu-id="33c91-300">If this option is set to **No**, only new planned payment will be created.</span></span> |
+
+## <a name="payment-request-processing"></a><span data-ttu-id="33c91-301">Обработка запросов платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-301">Payment request processing</span></span>
+
+### <a name="create-a-manual-payment-request"></a><span data-ttu-id="33c91-302">Создание запроса платежей вручную</span><span class="sxs-lookup"><span data-stu-id="33c91-302">Create a manual payment request</span></span>
+
+1. <span data-ttu-id="33c91-303">Перейдите в раздел **Управление банком и кассовыми операциями \> Управление движением денежных средств \> Все запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-303">Go to **Cash and bank management \> Cash flow management \> All payment requests**.</span></span>
+2. <span data-ttu-id="33c91-304">Создайте запрос платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-304">Create a payment request.</span></span>
+3. <span data-ttu-id="33c91-305">Укажите тип запроса платежа, валюту запроса платежа, тип счета (**Поставщик**, **Клиент** или **Работник**), счет, счет накладной, регистрационный номер договора, валюту оплаты, срок выполнения и метод оплаты.</span><span class="sxs-lookup"><span data-stu-id="33c91-305">Specify the payment request type, currency of the payment request, account type (**Vendor**, **Customer**, or **Worker**), account, invoice account, agreement registration number, payment currency, due date, and method of payment.</span></span>
+
+    - <span data-ttu-id="33c91-306">Поле **Тип запроса платежа** определяет направление движения денежных средств и workflow-процесс.</span><span class="sxs-lookup"><span data-stu-id="33c91-306">The **Payment request type** field defines the cash flow direction and the workflow.</span></span>
+    - <span data-ttu-id="33c91-307">Поле **Способ оплаты** определяет тип счета платежа и счет платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-307">The **Method of payment** field defines the payment account type and payment account.</span></span>
+    - <span data-ttu-id="33c91-308">Значение **Приоритет запроса платежа** определяется свойствами типа счета платежа и субъектом.</span><span class="sxs-lookup"><span data-stu-id="33c91-308">The **Payment request priority** value is defined by properties of the payment account type and party.</span></span>
+    - <span data-ttu-id="33c91-309">Иерархия централизованных платежей определяет кассовую компанию.</span><span class="sxs-lookup"><span data-stu-id="33c91-309">The centralized payment hierarchy defines the Treasury company.</span></span> <span data-ttu-id="33c91-310">Компания запрос платежа — это, компания, где был создан запрос платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-310">A payment request company is a company where a payment request is created.</span></span>
+
+4. <span data-ttu-id="33c91-311">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="33c91-311">Select **OK**.</span></span>
+5. <span data-ttu-id="33c91-312">В представлении **Заголовок** на экспресс-вкладке **Общие** задайте требуемые параметры запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-312">In the **Header** view, on the **General** FastTab, set the required payment request parameters.</span></span> <span data-ttu-id="33c91-313">Можно изменить значение полей **Дата оплаты**, **Валюта платежа**, **Приоритет платежа** и другие параметры, как требуется.</span><span class="sxs-lookup"><span data-stu-id="33c91-313">You can change the value of the **Payment date**, **Payment currency**, **Payment priority**, and other parameters as you require.</span></span>
+6. <span data-ttu-id="33c91-314">На экспресс-вкладке **Платеж** задайте требуемые параметры запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-314">On the **Payment** FastTab, set the required payment request parameters.</span></span> <span data-ttu-id="33c91-315">Можно изменить значение полей **Профиль разноски**, **Тип счета платежа**, **Счет платежа** и другие параметры, как требуется.</span><span class="sxs-lookup"><span data-stu-id="33c91-315">You can change the value of the **Posting profile**, **Payment account type**, **Payment account**, and other parameters as you require.</span></span>
+7. <span data-ttu-id="33c91-316">На экспресс-вкладке **Платежное поручение** укажите требуемые реквизиты платежного поручения.</span><span class="sxs-lookup"><span data-stu-id="33c91-316">On the **Payment order** FastTab, specify the required payment order requisites.</span></span> <span data-ttu-id="33c91-317">По умолчанию эти реквизитов инициализируются из договора покупки или договора продажи.</span><span class="sxs-lookup"><span data-stu-id="33c91-317">By default, these requisites are initialized from a purchase agreement or sales agreement.</span></span> <span data-ttu-id="33c91-318">Эта экспресс-вкладка доступна только в том случае, если метод оплаты связан с платежным поручением в российских рублях.</span><span class="sxs-lookup"><span data-stu-id="33c91-318">This FastTab is available only if the method of payment is associated with a payment order in RUB.</span></span>
+8. <span data-ttu-id="33c91-319">На экспресс-вкладке **История** просмотрите сведения о обработки запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-319">On the **History** FastTab, review the details about payment request processing.</span></span> <span data-ttu-id="33c91-320">Можно изменить инициатора запроса платежа, как требуется.</span><span class="sxs-lookup"><span data-stu-id="33c91-320">You can change the payment request initiator as you require.</span></span>
+9. <span data-ttu-id="33c91-321">На экспресс-вкладке **Финансовые аналитики** укажите финансовые аналитики запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-321">On the **Financial dimensions** FastTab, specify the financial dimensions of the payment request.</span></span>
+10. <span data-ttu-id="33c91-322">Перейдите к представлению **Строки**.</span><span class="sxs-lookup"><span data-stu-id="33c91-322">Switch to the **Lines** view.</span></span>
+11. <span data-ttu-id="33c91-323">Выберите **Добавить строку**, чтобы создать запись.</span><span class="sxs-lookup"><span data-stu-id="33c91-323">Select **Add line** to create a record.</span></span>
+12. <span data-ttu-id="33c91-324">Укажите значения аналитик **Налоговая группа**, **Налоговая группа номенклатур** и **Исходная сумма**.</span><span class="sxs-lookup"><span data-stu-id="33c91-324">Specify the **Sales tax group**, **Item sales tax group**, and **Original amount** dimension values.</span></span> <span data-ttu-id="33c91-325">По умолчанию в поле **Сумма к выплате** устанавливается значение **Исходная сумма**.</span><span class="sxs-lookup"><span data-stu-id="33c91-325">By default, the **Amount to pay** field is set to **Original amount**.</span></span>
+13. <span data-ttu-id="33c91-326">Повторите шаги 11–12, чтобы создать несколько строк, сколько требуется.</span><span class="sxs-lookup"><span data-stu-id="33c91-326">Repeat steps 11 through 12 to create more lines, as you require.</span></span>
+14. <span data-ttu-id="33c91-327">Сохранение записи.</span><span class="sxs-lookup"><span data-stu-id="33c91-327">Save the record.</span></span>
+15. <span data-ttu-id="33c91-328">В области действий на вкладке **Общие** в группе **Выставление счета** выберите **Скидка по оплате**.</span><span class="sxs-lookup"><span data-stu-id="33c91-328">On the Action Pane, on the **General** tab, in the **Bill** group, select **Cash discount**.</span></span>
+16. <span data-ttu-id="33c91-329">Создайте запись и укажите дату скидки по оплате и сумму скидки по оплате.</span><span class="sxs-lookup"><span data-stu-id="33c91-329">Create a record, and specify the cash discount date and cash discount amount.</span></span>
+17. <span data-ttu-id="33c91-330">Повторите шаг 16, чтобы создать несколько строк, сколько требуется.</span><span class="sxs-lookup"><span data-stu-id="33c91-330">Repeat step 16 to create more lines, as you require.</span></span> <span data-ttu-id="33c91-331">Затем закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="33c91-331">Then close the page.</span></span>
+18. <span data-ttu-id="33c91-332">Если все данные заполнены и можно начать утверждение workflow-процесса, на панели действий на вкладке **Запрос платежа** в группе **Создать** выберите **Подтверждение**.</span><span class="sxs-lookup"><span data-stu-id="33c91-332">If all the data is filled in, and workflow approval can start, on the Action Pane, on the **Payment request** tab, in the **Generate** group, select **Confirmation**.</span></span>
+19. <span data-ttu-id="33c91-333">Выберите **Workflow-процесс \> Отправить**.</span><span class="sxs-lookup"><span data-stu-id="33c91-333">Select **Workflow \> Submit**.</span></span>
+
+    ![Отправка запроса платежа для утверждения workflow-процесса](media/rus-workflow-submit.jpg)
+
+<span data-ttu-id="33c91-335">Статус запроса платежа автоматически обновляется.</span><span class="sxs-lookup"><span data-stu-id="33c91-335">The status of a payment request is automatically updated.</span></span> <span data-ttu-id="33c91-336">В следующей таблице описаны все статусы запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-336">The following table describes all the payment request statuses.</span></span>
+
+| <span data-ttu-id="33c91-337">Статус запроса платежа</span><span class="sxs-lookup"><span data-stu-id="33c91-337">Payment request status</span></span> | <span data-ttu-id="33c91-338">Системное событие</span><span class="sxs-lookup"><span data-stu-id="33c91-338">System event</span></span> |
+|------------------------|--------------|
+| <span data-ttu-id="33c91-339">Прочтено</span><span class="sxs-lookup"><span data-stu-id="33c91-339">Opened</span></span>                 | <span data-ttu-id="33c91-340">Пользователь создает запрос платежа вручную.</span><span class="sxs-lookup"><span data-stu-id="33c91-340">A user creates a manual payment request.</span></span> |
+| <span data-ttu-id="33c91-341">Подтверждено</span><span class="sxs-lookup"><span data-stu-id="33c91-341">Confirmed</span></span>              | <span data-ttu-id="33c91-342">Пользователь подтверждает запрос платежа вручную или система создает запрос платежа, основанный на источнике (накладная поставщика, накладная клиента или плановый платеж предоплаты).</span><span class="sxs-lookup"><span data-stu-id="33c91-342">A user confirms a manual payment request, or the system creates a payment request that is based on a source (vendor invoice, customer invoice, or prepayment planned payment).</span></span> |
+| <span data-ttu-id="33c91-343">Запланировано</span><span class="sxs-lookup"><span data-stu-id="33c91-343">Scheduled</span></span>              | <span data-ttu-id="33c91-344">Разносится журнал графика платежей типа **План платежей** (который включает запрос платежа).</span><span class="sxs-lookup"><span data-stu-id="33c91-344">A payment schedule journal of the **Payment plan** type (which includes a payment request) is posted.</span></span> |
+| <span data-ttu-id="33c91-345">Акцептировано</span><span class="sxs-lookup"><span data-stu-id="33c91-345">Accepted</span></span>               | <span data-ttu-id="33c91-346">Разносится журнал графика платежей типа **Реестр платежей** (который включает запрос платежа).</span><span class="sxs-lookup"><span data-stu-id="33c91-346">A payment schedule journal of the **Payment register** type (which includes a payment request) is posted.</span></span> |
+| <span data-ttu-id="33c91-347">Завершено</span><span class="sxs-lookup"><span data-stu-id="33c91-347">Completed</span></span>              | <span data-ttu-id="33c91-348">Разносится журнал платежей (который включает запрос платежа).</span><span class="sxs-lookup"><span data-stu-id="33c91-348">A payment journal (which includes a payment request) is posted.</span></span> |
+| <span data-ttu-id="33c91-349">Отменено</span><span class="sxs-lookup"><span data-stu-id="33c91-349">Canceled</span></span>               | <span data-ttu-id="33c91-350">Пользователь отменяет запрос платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-350">A user cancels a payment request.</span></span> |
+
+### <a name="cancel-a-payment-request"></a><span data-ttu-id="33c91-351">Отмена запроса платежа</span><span class="sxs-lookup"><span data-stu-id="33c91-351">Cancel a payment request</span></span>
+
+<span data-ttu-id="33c91-352">Запрос платежа можно отменить только в том случае, если его статус **Открыто**, **Подтверждено** или **Запланировано**.</span><span class="sxs-lookup"><span data-stu-id="33c91-352">You can cancel a payment request only if its status is **Opened**, **Confirmed**, or **Scheduled**.</span></span>
+
+1. <span data-ttu-id="33c91-353">Перейдите в раздел **Управление банком и кассовыми операциями \> Управление движением денежных средств \> Все запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-353">Go to **Cash and bank management \> Cash flow management \> All payment requests**.</span></span>
+2. <span data-ttu-id="33c91-354">Выберите запрос платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-354">Select a payment request.</span></span>
+3. <span data-ttu-id="33c91-355">В области действий на вкладке **Запрос платежа** в группе **Поддержка** выберите **Отмена**.</span><span class="sxs-lookup"><span data-stu-id="33c91-355">On the Action Pane, on the **Payment request** tab, in the **Maintain** group, select **Cancel**.</span></span>
+4. <span data-ttu-id="33c91-356">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="33c91-356">Select **OK**.</span></span>
+
+### <a name="put-a-payment-request-on-hold"></a><span data-ttu-id="33c91-357">Блокировка платежного требования</span><span class="sxs-lookup"><span data-stu-id="33c91-357">Put a payment request on hold</span></span>
+
+<span data-ttu-id="33c91-358">Платежное требование можно заблокировать только в том случае, если его статус **Открыто**, **Подтверждено** или **Запланировано**.</span><span class="sxs-lookup"><span data-stu-id="33c91-358">You can put a payment request on hold only if its status is **Opened**, **Confirmed**, or **Scheduled**.</span></span>
+
+<span data-ttu-id="33c91-359">Запрос платежа, который находится в заблокированном состоянии, не включается в журналы графика платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-359">A payment request that is on hold isn't included in payment schedule journals.</span></span>
+
+1. <span data-ttu-id="33c91-360">Перейдите в раздел **Управление банком и кассовыми операциями \> Управление движением денежных средств \> Все запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-360">Go to **Cash and bank management \> Cash flow management \> All payment requests**.</span></span>
+2. <span data-ttu-id="33c91-361">Выберите запрос платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-361">Select a payment request.</span></span>
+3. <span data-ttu-id="33c91-362">В области действий на вкладке **Запрос платежа** в группе **Поддержка** выберите **Заблокировано**.</span><span class="sxs-lookup"><span data-stu-id="33c91-362">On the Action Pane, on the **Payment request** tab, in the **Maintain** group, select **On hold**.</span></span>
+4. <span data-ttu-id="33c91-363">Задайте для параметра **Заблокировано** значение **Да** и укажите код причины.</span><span class="sxs-lookup"><span data-stu-id="33c91-363">Set the **On hold** option to **Yes**, and specify a reason code.</span></span>
+5. <span data-ttu-id="33c91-364">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="33c91-364">Select **OK**.</span></span>
+
+<span data-ttu-id="33c91-365">Для снятия блокировки с платежного требования на панели операций на вкладке **Запрос платежа** в группе **Поддержка** выберите **Заблокировано**.</span><span class="sxs-lookup"><span data-stu-id="33c91-365">To remove the hold from a payment request, on the Action Pane, on the **Payment request** tab, in the **Maintain** group, select **On hold**.</span></span> <span data-ttu-id="33c91-366">Затем задайте для параметра **Заблокировано** значение **Нет**.</span><span class="sxs-lookup"><span data-stu-id="33c91-366">Then set the **On hold** option to **No**.</span></span>
+
+### <a name="split-a-payment-request"></a><span data-ttu-id="33c91-367">Разделение запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-367">Split a payment request</span></span>
+
+<span data-ttu-id="33c91-368">Запрос платежа можно разделить только в том случае, если выполняются следующие условия:</span><span class="sxs-lookup"><span data-stu-id="33c91-368">You can split a payment request only if the following conditions are met:</span></span>
+
+- <span data-ttu-id="33c91-369">Статус запроса платежа является **Подтверждено** или **Запланировано**.</span><span class="sxs-lookup"><span data-stu-id="33c91-369">The status of the payment request is **Confirmed** or **Scheduled**.</span></span>
+- <span data-ttu-id="33c91-370">Запрос платежа не включен в журнал графика неразнесенных платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-370">The payment request isn't included in an unposted payment schedule journal.</span></span>
+- <span data-ttu-id="33c91-371">Статус workflow-процесса не имеет значение **Отправлено**.</span><span class="sxs-lookup"><span data-stu-id="33c91-371">The workflow status isn't **Submitted**.</span></span>
+
+<span data-ttu-id="33c91-372">Система создаст запрос платежа посредством копирования всех основных реквизитов из исходного запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-372">The system will create a payment request by copying all the main requisites from the original payment request.</span></span> <span data-ttu-id="33c91-373">Сумма и сумма к выплате исходного запроса платежа будут уменьшены.</span><span class="sxs-lookup"><span data-stu-id="33c91-373">The amount and amount to pay of the original payment request will be reduced.</span></span> <span data-ttu-id="33c91-374">Если статус исходного платежа **Запланировано**, но новый запрос платежа находится вне диапазона для связанного журнала графика платежей, статус новый запрос платежа будет **Подтверждено**.</span><span class="sxs-lookup"><span data-stu-id="33c91-374">If the status of the original payment is **Scheduled**, but the new payment request is out of range for the associated payment schedule journal, the status of the new payment request will be **Confirmed**.</span></span>
+
+1. <span data-ttu-id="33c91-375">Перейдите в раздел **Управление банком и кассовыми операциями \> Управление движением денежных средств \> Все запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-375">Go to **Cash and bank management \> Cash flow management \> All payment requests**.</span></span>
+2. <span data-ttu-id="33c91-376">Выберите запрос платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-376">Select a payment request.</span></span>
+3. <span data-ttu-id="33c91-377">В области действий на вкладке **Запрос платежа** в группе **Создать** выберите **Разделить запрос**.</span><span class="sxs-lookup"><span data-stu-id="33c91-377">On the Action Pane, on the **Payment request** tab, in the **Generate** group, select **Split request**.</span></span>
+4. <span data-ttu-id="33c91-378">Укажите суммы к оплате и дату платежа для нового запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-378">Specify the amount to pay and the payment date for the new payment request.</span></span>
+5. <span data-ttu-id="33c91-379">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="33c91-379">Select **OK**.</span></span>
+
+### <a name="copy-a-payment-request"></a><span data-ttu-id="33c91-380">Копирование запроса платежа</span><span class="sxs-lookup"><span data-stu-id="33c91-380">Copy a payment request</span></span>
+
+1. <span data-ttu-id="33c91-381">Перейдите в раздел **Управление банком и кассовыми операциями \> Управление движением денежных средств \> Все запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-381">Go to **Cash and bank management \> Cash flow management \> All payment requests**.</span></span>
+2. <span data-ttu-id="33c91-382">Выберите запрос платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-382">Select a payment request.</span></span>
+3. <span data-ttu-id="33c91-383">В области действий на вкладке **Запрос платежа** в группе **Создать** выберите **Копировать**.</span><span class="sxs-lookup"><span data-stu-id="33c91-383">On the Action Pane, on the **Payment request** tab, in the **New** group, select **Copy**.</span></span>
+4. <span data-ttu-id="33c91-384">Укажите дату выполнения для нового запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-384">Specify the due date for the new payment request.</span></span>
+5. <span data-ttu-id="33c91-385">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="33c91-385">Select **OK**.</span></span>
+6. <span data-ttu-id="33c91-386">Выберите запрос платежа, созданный на шаге 3.</span><span class="sxs-lookup"><span data-stu-id="33c91-386">Select the payment request created on step 3.</span></span> 
+7. <span data-ttu-id="33c91-387">В области действий на вкладке **Запрос платежа** в группе **Создать** выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="33c91-387">On the Action Pane, on the **Payment request** tab, in the **New** group, select **Edit**.</span></span>
+8. <span data-ttu-id="33c91-388">Внесите требуемые изменения в значения параметров запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-388">Change the values of the payment request parameters as you require.</span></span>
+9. <span data-ttu-id="33c91-389">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="33c91-389">Select **OK**.</span></span>
+
+### <a name="create-a-payment-request-for-a-vendor-invoice"></a><span data-ttu-id="33c91-390">Создание запроса платежа для накладной поставщика</span><span class="sxs-lookup"><span data-stu-id="33c91-390">Create a payment request for a vendor invoice</span></span>
+
+1. <span data-ttu-id="33c91-391">Перейдите в раздел **Расчеты с поставщиками \> Заказы на покупку \> Все заказы на покупку**.</span><span class="sxs-lookup"><span data-stu-id="33c91-391">Go to **Accounts payable \> Purchase orders \> All purchase orders**.</span></span>
+2. <span data-ttu-id="33c91-392">Создание заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="33c91-392">Create a purchase order.</span></span> <span data-ttu-id="33c91-393">В заголовке заказа на покупку укажите условия платежей, графики оплаты, метод оплаты, скидку по оплате и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-393">On the purchase order header, specify the terms of payments, payment schedules, method of payment, cash discount, and financial dimensions.</span></span>
+3. <span data-ttu-id="33c91-394">Создайте строки заказа на покупку и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-394">Create purchase order lines, and specify the sales tax group, item sales tax group, and financial dimensions.</span></span> <span data-ttu-id="33c91-395">Распределите сумму строки.</span><span class="sxs-lookup"><span data-stu-id="33c91-395">Distribute the amount of a line.</span></span>
+4. <span data-ttu-id="33c91-396">Создайте и разнесите накладную.</span><span class="sxs-lookup"><span data-stu-id="33c91-396">Generate and post an invoice.</span></span>
+5. <span data-ttu-id="33c91-397">В области действий на вкладке **Покупка** в группе **Создать** выберите **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-397">On the Action Pane, on the **Purchase** tab, in the **Generate** group, select **Payment requests**.</span></span>
+6. <span data-ttu-id="33c91-398">В области действий на вкладке **Покупка** в группе **Журналы** выберите **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-398">On the Action Pane, on the **Purchase** tab, in the **Journals** group, select **Payment requests**.</span></span>
+7. <span data-ttu-id="33c91-399">Просмотрите запросы платежей, которые были созданы.</span><span class="sxs-lookup"><span data-stu-id="33c91-399">Review the payment requests that have been created.</span></span>
+8. <span data-ttu-id="33c91-400">На странице **Все поставщики** в области действий на вкладке **Поставщик** в группе **Проводки** выберите **Проводки**.</span><span class="sxs-lookup"><span data-stu-id="33c91-400">On the **All vendors** page, on the Action Pane, on the **Vendor** tab, in the **Transactions** group, select **Transactions**.</span></span>
+9. <span data-ttu-id="33c91-401">Выберите проводку поставщика.</span><span class="sxs-lookup"><span data-stu-id="33c91-401">Select the vendor transaction.</span></span>
+10. <span data-ttu-id="33c91-402">Выберите **Запрос \> Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-402">Select **Inquiry \> Payment requests**.</span></span>
+11. <span data-ttu-id="33c91-403">Просмотрите связанные запросы платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-403">Review the associated payment requests.</span></span>
+12. <span data-ttu-id="33c91-404">В области действий на вкладке **Общие** в группе **Связанные сведения** выберите **Источник запроса**.</span><span class="sxs-lookup"><span data-stu-id="33c91-404">On the Action Pane, on the **General** tab, in the **Related information** group, select **Request origin**.</span></span>
+13. <span data-ttu-id="33c91-405">Убедитесь, что проводка поставщика является источником для запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-405">Verify that the vendor transaction is a source for the payment request.</span></span>
+
+    ![Проводки по поставщику](media/rus-vendor-transactions.jpg)
+
+    > [!NOTE]
+    > <span data-ttu-id="33c91-407">Невозможно изменить реквизиты платежа (способ платежа, дату, банковский счет поставщика и т. д.) для открытой проводки по поставщику, если для данной проводки существует платежное требование.</span><span class="sxs-lookup"><span data-stu-id="33c91-407">You can't change the payment requisites (method of payment, due date, vendor bank account, and so on) on an open vendor transaction if a payment request exists for that transaction.</span></span> <span data-ttu-id="33c91-408">Вместо этого следует изменить реквизиты платежа в запросе платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-408">Instead, you should change the payment requisites in the payment request.</span></span> <span data-ttu-id="33c91-409">Они затем будут автоматически синхронизированы в открытой проводке по поставщику.</span><span class="sxs-lookup"><span data-stu-id="33c91-409">They will then be automatically synced on the open vendor transaction.</span></span>
+
+### <a name="create-a-payment-request-for-a-prepayment-to-a-vendor"></a><span data-ttu-id="33c91-410">Создание запроса платежа для предоплаты поставщику</span><span class="sxs-lookup"><span data-stu-id="33c91-410">Create a payment request for a prepayment to a vendor</span></span>
+
+1. <span data-ttu-id="33c91-411">Перейдите в раздел **Расчеты с поставщиками \> Заказы на покупку \> Все заказы на покупку**.</span><span class="sxs-lookup"><span data-stu-id="33c91-411">Go to **Accounts payable \> Purchase orders \> All purchase orders**.</span></span>
+2. <span data-ttu-id="33c91-412">Создание заказа на покупку.</span><span class="sxs-lookup"><span data-stu-id="33c91-412">Create a purchase order.</span></span> <span data-ttu-id="33c91-413">В заголовке заказа на покупку укажите условия платежей, графики оплаты, метод оплаты, скидку по оплате и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-413">On the purchase order header, specify the terms of payments, payment schedules, method of payment, cash discount, and financial dimensions.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="33c91-414">Одна или несколько строк графика платежей должны быть помечена как предоплата.</span><span class="sxs-lookup"><span data-stu-id="33c91-414">One or more payment schedules lines should be marked as prepayments.</span></span>
+
+3. <span data-ttu-id="33c91-415">Создайте строки заказа на покупку и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-415">Create purchase order lines, and specify the sales tax group, item sales tax group, and financial dimensions.</span></span> <span data-ttu-id="33c91-416">Распределите сумму строки.</span><span class="sxs-lookup"><span data-stu-id="33c91-416">Distribute the amount of a line.</span></span>
+4. <span data-ttu-id="33c91-417">Подтвердите заказ на покупку.</span><span class="sxs-lookup"><span data-stu-id="33c91-417">Confirm the purchase order.</span></span>
+5. <span data-ttu-id="33c91-418">Рассчитайте плановые платежи с помощью периодической операции.</span><span class="sxs-lookup"><span data-stu-id="33c91-418">Calculate planned payments by using the periodic operation.</span></span> <span data-ttu-id="33c91-419">Кроме того, в заказе на покупку на панели операций на вкладке **Накладная** в группе **Выставление счета** выберите **Плановые платежи**.</span><span class="sxs-lookup"><span data-stu-id="33c91-419">Alternatively, on the purchase order, on the Action Pane, on the **Invoice** tab, in the **Bill** group, select **Planned payments**.</span></span> <span data-ttu-id="33c91-420">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="33c91-420">Close the page.</span></span>
+6. <span data-ttu-id="33c91-421">В области действий на вкладке **Покупка** в группе **Создать** выберите **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-421">On the Action Pane, on the **Purchase** tab, in the **Generate** group, select **Payment requests**.</span></span>
+7. <span data-ttu-id="33c91-422">В области действий на вкладке **Покупка** в группе **Журналы** выберите **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-422">On the Action Pane, on the **Purchase** tab, in the **Journals** group, select **Payment requests**.</span></span>
+8. <span data-ttu-id="33c91-423">Просмотрите запросы платежей, которые были созданы.</span><span class="sxs-lookup"><span data-stu-id="33c91-423">Review the payment requests that have been created.</span></span>
+9. <span data-ttu-id="33c91-424">На странице **Запрос платежа** в области действий на вкладке **Общие** в группе **Связанные сведения** выберите **Источник запроса**.</span><span class="sxs-lookup"><span data-stu-id="33c91-424">On the **Payment request** page, on the Action Pane, on the **General** tab, in the **Related information** group, select **Request origin**.</span></span>
+10. <span data-ttu-id="33c91-425">Убедитесь, что заказ на покупку является источником для запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-425">Verify that the purchase order is a source for the payment request.</span></span>
+
+### <a name="create-a-payment-request-for-a-customer-invoice-return"></a><span data-ttu-id="33c91-426">Создание запроса платежа для возврата накладной клиента</span><span class="sxs-lookup"><span data-stu-id="33c91-426">Create a payment request for a customer invoice return</span></span>
+
+1. <span data-ttu-id="33c91-427">Перейдите в раздел **Расчеты с клиентами \> Заказы \> Все заказы на продажу**.</span><span class="sxs-lookup"><span data-stu-id="33c91-427">Go to **Accounts receivable \> Orders \> All sales orders**.</span></span>
+2. <span data-ttu-id="33c91-428">Создайте заказ на возврат продажи.</span><span class="sxs-lookup"><span data-stu-id="33c91-428">Create a return sales order.</span></span> <span data-ttu-id="33c91-429">В заголовке заказа на продажу укажите условия платежей, метод оплаты и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-429">On the sales order header, specify the terms of payments, method of payment, and financial dimensions.</span></span>
+3. <span data-ttu-id="33c91-430">Создайте строки заказа на продажу и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-430">Create sales order lines, and specify the sales tax group, item sales tax group, and financial dimensions.</span></span>
+4. <span data-ttu-id="33c91-431">Создайте и разнесите накладную.</span><span class="sxs-lookup"><span data-stu-id="33c91-431">Generate and post an invoice.</span></span>
+5. <span data-ttu-id="33c91-432">В области действий на вкладке **Продажа** в группе **Создать** выберите **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-432">On the Action Pane, on the **Sell** tab, in the **Generate** group, select **Payment requests**.</span></span>
+6. <span data-ttu-id="33c91-433">Выберите **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="33c91-433">Select **Close**.</span></span>
+7. <span data-ttu-id="33c91-434">В области действий на вкладке **Продажа** в группе **Журналы** выберите **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-434">On the Action Pane, on the **Sell** tab, in the **Journals** group, select **Payment requests**.</span></span>
+8. <span data-ttu-id="33c91-435">Просмотрите запросы платежей, которые были созданы.</span><span class="sxs-lookup"><span data-stu-id="33c91-435">Review the payment requests that have been created.</span></span>
+9. <span data-ttu-id="33c91-436">На странице **Все клиенты** в области действий на вкладке **Клиент** в группе **Проводки** выберите **Проводки**.</span><span class="sxs-lookup"><span data-stu-id="33c91-436">On the **All customers** page, on the Action Pane, on the **Customer** tab, in the **Transactions** group, select **Transactions**.</span></span>
+10. <span data-ttu-id="33c91-437">Выберите последнюю проводку по клиенту.</span><span class="sxs-lookup"><span data-stu-id="33c91-437">Select the last customer transaction.</span></span>
+11. <span data-ttu-id="33c91-438">Нажмите кнопку с многоточием (**...**), затем выберите **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-438">Select the ellipsis button (**...**), and then select **Payment requests**.</span></span>
+12. <span data-ttu-id="33c91-439">Просмотрите связанные запросы платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-439">Review the associated payment requests.</span></span>
+13. <span data-ttu-id="33c91-440">На странице **Запрос платежа** в области действий на вкладке **Общие** в группе **Связанные сведения** выберите **Источник запроса**.</span><span class="sxs-lookup"><span data-stu-id="33c91-440">On the **Payment request** page, on the Action Pane, on the **General** tab, in the **Related information** group, select **Request origin**.</span></span>
+14. <span data-ttu-id="33c91-441">Убедитесь, что проводка клиента является источником для запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-441">Verify that the customer transaction is a source for the payment request.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="33c91-442">Невозможно изменить реквизиты платежа (способ платежа, дату, банковский счет клиента и т. д.) для открытой проводки по клиенту, если для данной проводки существует платежное требование.</span><span class="sxs-lookup"><span data-stu-id="33c91-442">You can't change the payment requisites (method of payment, due date, customer bank account, and so on) on an open customer transaction if a payment request exists for that transaction.</span></span> <span data-ttu-id="33c91-443">Вместо этого следует изменить реквизиты платежа в запросе платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-443">Instead, you should change the payment requisites in the payment request.</span></span> <span data-ttu-id="33c91-444">Они затем будут автоматически синхронизированы в открытой проводке по клиенту.</span><span class="sxs-lookup"><span data-stu-id="33c91-444">They will then be automatically synced on the open customer transaction.</span></span>
+
+15. <span data-ttu-id="33c91-445">Перейдите в раздел **Расчеты с клиентами \> Накладные \> Все накладные с произвольным текстом**.</span><span class="sxs-lookup"><span data-stu-id="33c91-445">Go to **Accounts receivable \> Invoices \> All free text invoices**.</span></span>
+16. <span data-ttu-id="33c91-446">Создайте накладную с произвольным текстом для возврата.</span><span class="sxs-lookup"><span data-stu-id="33c91-446">Create a return free text invoice.</span></span> <span data-ttu-id="33c91-447">В заголовке накладной с произвольным текстом укажите условия платежей, метод оплаты и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-447">On free text invoice header, specify the terms of payments, method of payment, and financial dimensions.</span></span>
+17. <span data-ttu-id="33c91-448">Создайте строки накладной с произвольным текстом и укажите налоговую группу, налоговую группы номенклатуры и финансовые аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-448">Create free text invoice lines, and specify the sales tax group, item sales tax group, and financial dimensions.</span></span>
+18. <span data-ttu-id="33c91-449">Создайте и разнесите накладную.</span><span class="sxs-lookup"><span data-stu-id="33c91-449">Generate and post an invoice.</span></span>
+19. <span data-ttu-id="33c91-450">В области действий на вкладке **Накладная** в группе **Сведения** выберите **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-450">On the Action Pane, on the **Invoice** tab, in the **Details** group, select **Payment requests**.</span></span>
+20. <span data-ttu-id="33c91-451">Выберите **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="33c91-451">Select **Close**.</span></span>
+21. <span data-ttu-id="33c91-452">В области действий на вкладке **Накладная** в группе **Связанные сведения** выберите **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-452">On the Action Pane, on the **Invoice** tab, in the **Related information** group, select **Payment requests**.</span></span>
+22. <span data-ttu-id="33c91-453">Просмотрите запросы платежей, которые были созданы.</span><span class="sxs-lookup"><span data-stu-id="33c91-453">Review the payment requests that have been created.</span></span>
+23. <span data-ttu-id="33c91-454">На странице **Все клиенты** в области действий на вкладке **Клиент** в группе **Проводки** выберите **Проводки**.</span><span class="sxs-lookup"><span data-stu-id="33c91-454">On the **All customers** page, on the Action Pane, on the **Customer** tab, in the **Transactions** group, select **Transactions**.</span></span>
+24. <span data-ttu-id="33c91-455">Выберите последнюю проводку по клиенту.</span><span class="sxs-lookup"><span data-stu-id="33c91-455">Select the last customer transaction.</span></span>
+25. <span data-ttu-id="33c91-456">Нажмите кнопку с многоточием (**...**), затем выберите **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-456">Select the ellipsis button (**...**), and then select **Payment requests**.</span></span>
+26. <span data-ttu-id="33c91-457">Просмотрите связанные запросы платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-457">Review the associated payment requests.</span></span>
+27. <span data-ttu-id="33c91-458">На странице **Запрос платежа** в области действий на вкладке **Общие** в группе **Связанные сведения** выберите **Источник запроса**.</span><span class="sxs-lookup"><span data-stu-id="33c91-458">On the **Payment request** page, on the Action Pane, on the **General** tab, in the **Related information** group, select **Request origin**.</span></span>
+28. <span data-ttu-id="33c91-459">Убедитесь, что проводка клиента является источником для запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-459">Verify that the customer transaction is a source for the payment request.</span></span>
+
+### <a name="periodic-creation-of-payment-requests"></a><span data-ttu-id="33c91-460">Периодическое создание запросов платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-460">Periodic creation of payment requests</span></span>
+
+<span data-ttu-id="33c91-461">Эту процедуру следует выполнять для кассовой компании.</span><span class="sxs-lookup"><span data-stu-id="33c91-461">This procedure should be completed for a Treasury company.</span></span>
+
+1. <span data-ttu-id="33c91-462">Выберите **Управление банком и кассовыми операциями \> Периодические задачи \> Управление движением денежных средств \> Создать запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-462">Go to **Cash and bank management \> Periodic tasks \> Cash flow management \> Create payment requests**.</span></span>
+2. <span data-ttu-id="33c91-463">Задайте следующие параметры</span><span class="sxs-lookup"><span data-stu-id="33c91-463">Set the following parameters</span></span>
+
+    | <span data-ttu-id="33c91-464">Поле</span><span class="sxs-lookup"><span data-stu-id="33c91-464">Field</span></span>                   | <span data-ttu-id="33c91-465">Описание</span><span class="sxs-lookup"><span data-stu-id="33c91-465">Description</span></span> |
+    |-------------------------|-------------|
+    | <span data-ttu-id="33c91-466">с даты</span><span class="sxs-lookup"><span data-stu-id="33c91-466">From date</span></span>               | <span data-ttu-id="33c91-467">Укажите начало диапазона дат для источников запросов платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-467">Specify the start of the date range for the payment request sources.</span></span> |
+    | <span data-ttu-id="33c91-468">До даты</span><span class="sxs-lookup"><span data-stu-id="33c91-468">To date</span></span>                 | <span data-ttu-id="33c91-469">Укажите конец диапазона дат для источников запросов платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-469">Specify the end of the date range for the payment request sources.</span></span> |
+    | <span data-ttu-id="33c91-470">Источники запросов</span><span class="sxs-lookup"><span data-stu-id="33c91-470">Request sources</span></span>         | <span data-ttu-id="33c91-471">Выберите источники запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-471">Select the sources of the payment request.</span></span> |
+    | <span data-ttu-id="33c91-472">Юридические лица</span><span class="sxs-lookup"><span data-stu-id="33c91-472">Legal entities</span></span>          | <span data-ttu-id="33c91-473">Выберите юридические лица.</span><span class="sxs-lookup"><span data-stu-id="33c91-473">Select legal entities.</span></span> <span data-ttu-id="33c91-474">Кассовая компания может включать все юридические лица, которые принадлежат текущей иерархии для централизованных платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-474">A Treasury company can include all legal entities that belong to the current centralized payment hierarchy.</span></span> |
+    | <span data-ttu-id="33c91-475">Количество потоков в пакетном задании</span><span class="sxs-lookup"><span data-stu-id="33c91-475">Number of batch threads</span></span> | <span data-ttu-id="33c91-476">Введите число параллельных задач для создания запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-476">Enter the number of parallel tasks for payment request creation.</span></span> |
+
+### <a name="update-a-payment-request"></a><span data-ttu-id="33c91-477">Обновление запроса платежа</span><span class="sxs-lookup"><span data-stu-id="33c91-477">Update a payment request</span></span>
+
+<span data-ttu-id="33c91-478">При обновлении запроса платежа значение **Сумма к выплате** изменяется в строках запроса платежа и с сведениях о скидке по оплате.</span><span class="sxs-lookup"><span data-stu-id="33c91-478">When you update a payment request, the **Amount to pay** value is changed on payment request lines and in the cash discount details.</span></span>
+
+<span data-ttu-id="33c91-479">Повторное утверждение платежных требований может быть необходимо и контролируется параметром **Изменение суммы платежа** на странице **Параметры управления банком и кассовыми операциями**.</span><span class="sxs-lookup"><span data-stu-id="33c91-479">Reapproval of payment requests can be required and is controlled by the **Amount to pay change** parameter on the **Cash and bank management parameters** page.</span></span>
+
+<span data-ttu-id="33c91-480">Запрос платежа можно обновить только в том случае, если выполняются следующие условия:</span><span class="sxs-lookup"><span data-stu-id="33c91-480">You can update a payment request only if the following conditions are met:</span></span>
+
+- <span data-ttu-id="33c91-481">Статус запроса платежа является **Подтверждено** или **Запланировано**.</span><span class="sxs-lookup"><span data-stu-id="33c91-481">The status of the payment request is **Confirmed** or **Scheduled**.</span></span>
+- <span data-ttu-id="33c91-482">Запрос платежа не включен в журнал графика неразнесенных платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-482">The payment request isn't included in an unposted payment schedule journal.</span></span>
+- <span data-ttu-id="33c91-483">Статус workflow-процесса не имеет значение **Отправлено**.</span><span class="sxs-lookup"><span data-stu-id="33c91-483">The workflow status isn't **Submitted**.</span></span>
+
+<span data-ttu-id="33c91-484">Выполните следующие действия для обновления платежного требования.</span><span class="sxs-lookup"><span data-stu-id="33c91-484">Follow these steps to update a payment request.</span></span>
+
+1. <span data-ttu-id="33c91-485">Перейдите в раздел **Управление банком и кассовыми операциями \> Управление движением денежных средств \> Все запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-485">Go to **Cash and bank management \> Cash flow management \> All payment requests**.</span></span>
+2. <span data-ttu-id="33c91-486">Выберите платежное требование, для которого установлен флажок **Устарело**.</span><span class="sxs-lookup"><span data-stu-id="33c91-486">Select a payment request that the **Outdated** check box is selected for.</span></span>
+
+    ![Флажок "Устарело" для запросов платежей](media/rus-outdated-check-box.jpg)
+
+    <span data-ttu-id="33c91-488">Система автоматически устанавливает этот флажок, если исходный источник запроса платежа был изменен при помощи сопоставления или отмены сопоставления.</span><span class="sxs-lookup"><span data-stu-id="33c91-488">The system automatically selects this check box if the original source of a payment request has been changed through settlement or unsettlement.</span></span> <span data-ttu-id="33c91-489">Установленный флажок указывает, что сумма для выплаты запроса платежа отличается от суммы открытой проводки по поставщику или клиенту.</span><span class="sxs-lookup"><span data-stu-id="33c91-489">A selected check box indicates that the amount to pay of the payment request differs from the amount of the open vendor or customer transaction.</span></span>
+
+3. <span data-ttu-id="33c91-490">В области действий на вкладке **Запрос платежа** в группе **Создать** выберите **Обновить запрос**.</span><span class="sxs-lookup"><span data-stu-id="33c91-490">On the Action Pane, on the **Payment request** tab, in the **Generate** group, select **Request update**.</span></span>
+
+### <a name="periodic-update-of-payment-requests"></a><span data-ttu-id="33c91-491">Периодическое обновление запросов платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-491">Periodic update of payment requests</span></span>
+
+<span data-ttu-id="33c91-492">Этот шаг следует выполнять для кассовой компании.</span><span class="sxs-lookup"><span data-stu-id="33c91-492">This step should be completed for a Treasury company.</span></span>
+
+1. <span data-ttu-id="33c91-493">Выберите **Управление банком и кассовыми операциями \> Периодические задачи \> Управление движением денежных средств \> Обновить запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-493">Select **Cash and bank management \> Periodic tasks \> Cash flow management \> Update payment requests**.</span></span>
+2. <span data-ttu-id="33c91-494">Задайте следующие параметры</span><span class="sxs-lookup"><span data-stu-id="33c91-494">Set the following parameters</span></span>
+
+    | <span data-ttu-id="33c91-495">Поле</span><span class="sxs-lookup"><span data-stu-id="33c91-495">Field</span></span>                   | <span data-ttu-id="33c91-496">Описание</span><span class="sxs-lookup"><span data-stu-id="33c91-496">Description</span></span> |
+    |-------------------------|-------------|
+    | <span data-ttu-id="33c91-497">с даты</span><span class="sxs-lookup"><span data-stu-id="33c91-497">From date</span></span>               | <span data-ttu-id="33c91-498">Укажите начало диапазона дат для запросов платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-498">Specify the start of the date range for the payment requests.</span></span> |
+    | <span data-ttu-id="33c91-499">До даты</span><span class="sxs-lookup"><span data-stu-id="33c91-499">To date</span></span>                 | <span data-ttu-id="33c91-500">Укажите конец диапазона дат для запросов платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-500">Specify the end of the date range for the payment requests.</span></span> |
+    | <span data-ttu-id="33c91-501">Источники запросов</span><span class="sxs-lookup"><span data-stu-id="33c91-501">Request sources</span></span>         | <span data-ttu-id="33c91-502">Укажите источники запроса платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-502">Specify the sources of the payment request.</span></span> |
+    | <span data-ttu-id="33c91-503">Юридические лица</span><span class="sxs-lookup"><span data-stu-id="33c91-503">Legal entities</span></span>          | <span data-ttu-id="33c91-504">Укажите юридические лица.</span><span class="sxs-lookup"><span data-stu-id="33c91-504">Specify legal entities.</span></span> <span data-ttu-id="33c91-505">Кассовая компания может включать все юридические лица, которые принадлежат текущей иерархии для централизованных платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-505">A Treasury company can include all legal entities that belong to the current centralized payment hierarchy.</span></span> |
+
+## <a name="payment-schedule-journal-processing"></a><span data-ttu-id="33c91-506">Обработка журнала графика платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-506">Payment schedule journal processing</span></span>
+
+### <a name="set-up-a-payment-schedule-journal"></a><span data-ttu-id="33c91-507">Настройка журнала графика платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-507">Set up a payment schedule journal</span></span>
+
+1. <span data-ttu-id="33c91-508">Перейдите в раздел **Управление банком и кассовыми операциями \> Настройка \> Управление движением денежных средств \> Названия журналов графика платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-508">Go to **Cash and bank management \> Setup \> Cash flow management \> Payment schedule journal names**.</span></span>
+2. <span data-ttu-id="33c91-509">Выберите **Создать** для создания записи и укажите имя и описание для журнала.</span><span class="sxs-lookup"><span data-stu-id="33c91-509">Select **New** to create a record, and specify a name and description for the journal.</span></span>
+3. <span data-ttu-id="33c91-510">Выберите тип журнала:</span><span class="sxs-lookup"><span data-stu-id="33c91-510">Select the journal type:</span></span>
+
+    - <span data-ttu-id="33c91-511">**План платежей** — этот тип журнала предназначен для прогнозов платежей, имеющих среднесрочный или краткосрочный горизонт.</span><span class="sxs-lookup"><span data-stu-id="33c91-511">**Payment plan** – This journal type is intended for payment forecasts that have a medium-term/short-term horizon.</span></span>
+    - <span data-ttu-id="33c91-512">**Реестр платежей** — этот тип журнала предназначен для создания уведомлений о платежах.</span><span class="sxs-lookup"><span data-stu-id="33c91-512">**Payment register** – This journal type is intended for payment statement generation.</span></span>
+
+4. <span data-ttu-id="33c91-513">На экспресс-вкладке **Общие** настройте следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="33c91-513">On the **General** FastTab, set the following parameters:</span></span>
+
+    - <span data-ttu-id="33c91-514">Задайте для параметра **Платежа в дату скидки по оплате** значение **Да**, если дата платежа в графике платежей должна использоваться в качестве даты скидки по оплате.</span><span class="sxs-lookup"><span data-stu-id="33c91-514">Set the **Payment on cash discount date** option to **Yes** if the payment date in the payment schedule should be used as the cash discount date.</span></span>
+    - <span data-ttu-id="33c91-515">Если вы выбрали **План платежей** как тип журнала, задайте для параметра **Просроченные платежи** значение **Да**, если график оплаты должен включать просроченные платежи.</span><span class="sxs-lookup"><span data-stu-id="33c91-515">If you selected **Payment plan** as the journal type, set the **Overdue payments** option to **Yes** if the payment schedule should include outstanding payments.</span></span>
+    - <span data-ttu-id="33c91-516">Задайте для параметра **Активен** значение **Да**, если этот журнал доложен использовать workflow-процесс.</span><span class="sxs-lookup"><span data-stu-id="33c91-516">Set the **Active** option to **Yes** if this journal should use the workflow procedure.</span></span>
+    - <span data-ttu-id="33c91-517">В поле **ИД workflow-процесса** выберите workflow-процесс, который должен быть применен.</span><span class="sxs-lookup"><span data-stu-id="33c91-517">In the **Workflow ID** field, select the workflow that should be applied.</span></span>
+
+5. <span data-ttu-id="33c91-518">Экспресс-вкладка **Аналитики** определяет, как выполняется агрегирование строк журнала графика платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-518">The **Dimensions** FastTab defines how the lines of the payment schedule journal are aggregated.</span></span> <span data-ttu-id="33c91-519">Аналитический отчет журнала графика платежей также использует эти аналитики.</span><span class="sxs-lookup"><span data-stu-id="33c91-519">The analytic report of the payment schedule journal also uses these dimensions.</span></span> <span data-ttu-id="33c91-520">Используйте кнопки со стрелками для перемещения аналитик в список **Выбранные аналитики** или из него.</span><span class="sxs-lookup"><span data-stu-id="33c91-520">Use the arrow buttons to move dimensions to or from the **Selected dimensions** list.</span></span>
+
+    ![Аналитики для журналов графика платежей](media/rus-journal-names-dimensions.jpg)
+
+6. <span data-ttu-id="33c91-522">Экспресс-вкладка **Юридические лица** определяет юридические лица, которые используются для создания журналов графика платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-522">The **Legal entities** FastTab defines the legal entities that are used to generate payment schedule journals.</span></span> <span data-ttu-id="33c91-523">Используйте кнопки со стрелками для перемещения юридических лиц в список **Выбранные источники** или из него.</span><span class="sxs-lookup"><span data-stu-id="33c91-523">Use the arrow buttons to move legal entities to or from the **Selected sources** list.</span></span>
+7. <span data-ttu-id="33c91-524">На экспресс-вкладке **Источники данных журнала** выберите **Добавить строку**, чтобы создать запись.</span><span class="sxs-lookup"><span data-stu-id="33c91-524">On the **Journal data sources** FastTab, select **Add line** to create a record.</span></span>
+8. <span data-ttu-id="33c91-525">Укажите источник данных и направление источника для журнала графика платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-525">Specify the data source and source direction for the payment schedule journal.</span></span>
+
+    <span data-ttu-id="33c91-526">В следующей таблице перечислены возможные источники.</span><span class="sxs-lookup"><span data-stu-id="33c91-526">The following table lists the possible sources.</span></span>
+
+    | <span data-ttu-id="33c91-527">Источник данных журнала (направление)</span><span class="sxs-lookup"><span data-stu-id="33c91-527">Journal data source (direction)</span></span>        | <span data-ttu-id="33c91-528">Описание</span><span class="sxs-lookup"><span data-stu-id="33c91-528">Description</span></span> |
+    |----------------------------------------|-------------|
+    | <span data-ttu-id="33c91-529">Сальдо банковского счета (поступление)</span><span class="sxs-lookup"><span data-stu-id="33c91-529">Bank account balance (inflow)</span></span>          | <span data-ttu-id="33c91-530">Текущее сальдо банковских счетов.</span><span class="sxs-lookup"><span data-stu-id="33c91-530">The current balance of bank accounts.</span></span> |
+    | <span data-ttu-id="33c91-531">Сальдо кассового счета (поступление)</span><span class="sxs-lookup"><span data-stu-id="33c91-531">Cash account balance (inflow)</span></span>          | <span data-ttu-id="33c91-532">Текущее сальдо кассовых счетов.</span><span class="sxs-lookup"><span data-stu-id="33c91-532">The current balance of cash accounts.</span></span> |
+    | <span data-ttu-id="33c91-533">Сальдо промежуточного счета предъявления к оплате (поступление)</span><span class="sxs-lookup"><span data-stu-id="33c91-533">Remittance en route balance (inflow)</span></span>   | <span data-ttu-id="33c91-534">Текущее сальдо счетов главной книги (ГК), которые помечены **Промежуточный счет предъявления к оплате**.</span><span class="sxs-lookup"><span data-stu-id="33c91-534">The current balance of general ledger (GL) accounts that are marked **Remittance en route**.</span></span> |
+    | <span data-ttu-id="33c91-535">Открытые журналы платежей (поступление/расход)</span><span class="sxs-lookup"><span data-stu-id="33c91-535">Open payment journals (inflow/outflow)</span></span> | <span data-ttu-id="33c91-536">Платежи, которые включены в открытые журналы платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-536">Payments that are included in open payment journals.</span></span> |
+    | <span data-ttu-id="33c91-537">Открытые журналы кассовых ордеров (поступление/расход)</span><span class="sxs-lookup"><span data-stu-id="33c91-537">Open slip journals (inflow/outflow)</span></span>    | <span data-ttu-id="33c91-538">Платежи, которые включены в открытые журналы кассовых ордеров.</span><span class="sxs-lookup"><span data-stu-id="33c91-538">Payments that are included in open cash slip journals.</span></span> |
+    | <span data-ttu-id="33c91-539">Плановые платежи (поступление/расход)</span><span class="sxs-lookup"><span data-stu-id="33c91-539">Planned payment (inflow/outflow)</span></span>       | <span data-ttu-id="33c91-540">Плановые платежи.</span><span class="sxs-lookup"><span data-stu-id="33c91-540">Planned payments.</span></span> |
+    | <span data-ttu-id="33c91-541">Платежное требование (поступление/расход)</span><span class="sxs-lookup"><span data-stu-id="33c91-541">Payment request (inflow/outflow)</span></span>       | <span data-ttu-id="33c91-542">Запросы платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-542">Payment requests.</span></span> |
+    | <span data-ttu-id="33c91-543">Расчеты с поставщиками (поступление/расход)</span><span class="sxs-lookup"><span data-stu-id="33c91-543">Accounts payable (inflow/outflow)</span></span>      | <span data-ttu-id="33c91-544">Открытые проводки поставщика, которые не связаны с платежным требованием.</span><span class="sxs-lookup"><span data-stu-id="33c91-544">Open vendor transactions that aren't linked to a payment request.</span></span> |
+    | <span data-ttu-id="33c91-545">Расчеты с клиентами (поступление/расход)</span><span class="sxs-lookup"><span data-stu-id="33c91-545">Accounts receivable (inflow/outflow)</span></span>   | <span data-ttu-id="33c91-546">Открытые проводки клиентов, которые не связаны с платежным требованием.</span><span class="sxs-lookup"><span data-stu-id="33c91-546">Open customer transactions that aren't linked to a payment request.</span></span> |
+
+9. <span data-ttu-id="33c91-547">Повторите шаги с 7 по 8 для создания других строк, которые имеют необходимые источники данных журнала.</span><span class="sxs-lookup"><span data-stu-id="33c91-547">Repeat steps 7 through 8 to create other lines that have the required journal data sources.</span></span>
+10. <span data-ttu-id="33c91-548">На экспресс-вкладке **Счета оплаты** установите для параметра **Включить проводки без указанного банковского счета** значение **Да**, если журнал графика платежей должен включать плановые платежи и платежные требования, для которых не указан счет оплаты.</span><span class="sxs-lookup"><span data-stu-id="33c91-548">On the **Payment accounts** FastTab, set the **Include transactions with no specified bank account** option to **Yes** if the payment schedule journal should include planned payments and payment requests that a payment account isn't specified for.</span></span>
+11. <span data-ttu-id="33c91-549">Выберите **Добавить строку**, чтобы создать запись.</span><span class="sxs-lookup"><span data-stu-id="33c91-549">Select **Add line** to create a record.</span></span>
+12. <span data-ttu-id="33c91-550">Укажите тип счета платежа и номер счета.</span><span class="sxs-lookup"><span data-stu-id="33c91-550">Specify the payment account type and account number.</span></span> <span data-ttu-id="33c91-551">Журнал графика платежей будет включать только те источники, которые связаны с указанными счетами оплаты.</span><span class="sxs-lookup"><span data-stu-id="33c91-551">The payment schedule journal will include only sources that are associated with the specified payment accounts.</span></span>
+13. <span data-ttu-id="33c91-552">На экспресс-вкладке **Контроль сальдо денежных средств** выберите **Добавить строку**, затем укажите валюту и минимальное сальдо денежных средств.</span><span class="sxs-lookup"><span data-stu-id="33c91-552">On the **Cash balance control** FastTab, select **Add line**, and then specify the currency and minimum cash balance.</span></span> <span data-ttu-id="33c91-553">Если оценка сальдо кассового счета меньше минимального денежного остатка, который вы указали, лист графика платежей перезапишет оцененное сальдо для этой даты.</span><span class="sxs-lookup"><span data-stu-id="33c91-553">If the estimated balance amount of the cash account is less than the minimum cash balance that you specify, the payment schedule sheet will overwrite the estimated balance for that date.</span></span>
+
+### <a name="payment-plan-processing"></a><span data-ttu-id="33c91-554">Обработка плана платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-554">Payment plan processing</span></span>
+
+1. <span data-ttu-id="33c91-555">Перейдите в раздел **Управление банком и кассовыми операциями \> Управление движением денежных средств \> Журнал графика платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-555">Go to **Cash and bank management \> Cash flow management \> Payment schedule journal**.</span></span>
+2. <span data-ttu-id="33c91-556">Создайте журнал графика платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-556">Create a payment schedule journal.</span></span> <span data-ttu-id="33c91-557">В поле **Имя** выберите журнал графика платежей типа **План платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-557">In the **Name** field, select a payment schedule journal of the **Payment plan** type.</span></span>
+3. <span data-ttu-id="33c91-558">Используйте поля **Начальная дата** и **Конечная дата**, чтобы указать диапазон дат действия.</span><span class="sxs-lookup"><span data-stu-id="33c91-558">Use the **From date** and **To date** fields to specify an effective date range.</span></span>
+4. <span data-ttu-id="33c91-559">На вкладках **Общие**, **Аналитики**, **Юридические лица**, **Источники данных журнала**, **Счета оплаты** и **Контроль сальдо денежных средств** измените атрибуты журнала графика платежей, как требуется.</span><span class="sxs-lookup"><span data-stu-id="33c91-559">On the **General**, **Dimensions**, **Legal entities**, **Journal data sources**, **Payment accounts**, and **Cash balance control** tabs, change the attributes of the payment schedule journal as you require.</span></span>
+5. <span data-ttu-id="33c91-560">Выберите **Рассчитать**.</span><span class="sxs-lookup"><span data-stu-id="33c91-560">Select **Calculate**.</span></span>
+6. <span data-ttu-id="33c91-561">Выберите **Строки** для проверки строк журнала графика платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-561">Select **Lines** to validate the payment schedule journal lines.</span></span>
+7. <span data-ttu-id="33c91-562">Выберите **Изменить начальное сальдо**, чтобы изменить начальное сальдо этого журнала.</span><span class="sxs-lookup"><span data-stu-id="33c91-562">Select **Edit beginning balance** to change the beginning balance of this journal.</span></span>
+8. <span data-ttu-id="33c91-563">Для строк, которые имеют **Запрос платежа** как источник данных журнала, выберите **Строки запроса платежей** для просмотра строк запроса платежа, которые включены в текущей строке журнала.</span><span class="sxs-lookup"><span data-stu-id="33c91-563">For lines that have **Payment request** as the journal data source, select **Payment request lines** to review the payment request lines that are included on the current journal line.</span></span>
+9. <span data-ttu-id="33c91-564">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="33c91-564">Close the page.</span></span>
+10. <span data-ttu-id="33c91-565">На странице **Журнал графика платежей** выберите **График платежей** для просмотра листа графика платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-565">On the **Payment schedule journal** page, select **Payment schedule** to review the payment schedule sheet.</span></span> <span data-ttu-id="33c91-566">Если обнаружен недостаток или излишек денежных средств, который требуется предотвратить, можно внести изменения.</span><span class="sxs-lookup"><span data-stu-id="33c91-566">If a cash shortage or surplus is detected and should be prevented, you can make changes.</span></span>
+
+    ![Лист графика оплаты](media/rus-payment-schedule-sheet.jpg)
+
+11. <span data-ttu-id="33c91-568">Задайте для параметра **Показать итоги по счетам оплаты** значение **Да**, если лист графика оплаты должен вычисляться на основе счетов оплаты.</span><span class="sxs-lookup"><span data-stu-id="33c91-568">Set the **Show totals per payment accounts** option to **Yes** if the payment schedule sheet should be calculated based on payment accounts.</span></span>
+12. <span data-ttu-id="33c91-569">Задайте для параметра **Показать итоги по способам платежа** значение **Да**, если лист графика оплаты должен вычисляться на основе способов платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-569">Set the **Show totals per method of payments** option to **Yes** if the payment schedule sheet should be calculated based on methods of payments.</span></span>
+13. <span data-ttu-id="33c91-570">Используйте кнопку со стрелкой вправо (**\>**) для выбора параметра агрегирования для ведомости графика платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-570">Use the right arrow button (**\>**) to select an aggregation parameter for the payment schedule sheet.</span></span>
+14. <span data-ttu-id="33c91-571">Выберите **Отобразить результаты**.</span><span class="sxs-lookup"><span data-stu-id="33c91-571">Select **Show results**.</span></span>
+
+    <span data-ttu-id="33c91-572">При превышении минимального сальдо денежных средств для валюты или счета оплаты, в ведомости графика платежей сумма **Оценка сальдо** выделяется желтым цветом.</span><span class="sxs-lookup"><span data-stu-id="33c91-572">If the minimum cash balance for a currency or a payment account is exceeded, the payment schedule sheet highlights the **Estimated balance** amounts in yellow.</span></span>
+
+    ![Обзор ведомости графика платежей](media/rus-payment-schedule-sheet-overview.jpg)
+
+15. <span data-ttu-id="33c91-574">Если лицензионный ключ конфигурации **Запросы платежей** включен, выберите сумму для источника данных журнала **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-574">If the **Payment request** license configuration key is turned on, select the amount for a **Payment request** journal data source.</span></span> <span data-ttu-id="33c91-575">Если лицензионный ключ конфигурации **Запросы платежей** не включен, выберите источник данных журнала **Расчеты с поставщиками** или **Расчеты с клиентами**.</span><span class="sxs-lookup"><span data-stu-id="33c91-575">If the **Payment request** license configuration key isn't turned on, select an **Accounts payable** or **Accounts receivable** journal data source.</span></span> <span data-ttu-id="33c91-576">Выберите **Показать источник** для открытия источников этой сумму.</span><span class="sxs-lookup"><span data-stu-id="33c91-576">Select **Show origin** to open the sources of that amount.</span></span>
+16. <span data-ttu-id="33c91-577">Выберите сумму для источника данных журнала **Запрос платежа**, затем выберите **Изменить источники платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-577">Select the amount for a **Payment request** journal data source, and then select **Change payment sources**.</span></span>
+
+    ![Кнопка изменения источников платежей в ведомости графика платежей](media/rus-change-payment-sources.jpg)
+
+17. <span data-ttu-id="33c91-579">Выберите источники платежей, которые должны быть перемещены на другую дату или которые должны быть оплачены с помощью другого средства платежа или счета оплаты.</span><span class="sxs-lookup"><span data-stu-id="33c91-579">Select payment sources that should be moved to another date, or that should be paid by using another method of payment or payment account.</span></span>
+
+    ![Балансировка графика платежей](media/rus-payment-schedule-balancing.jpg)
+
+18. <span data-ttu-id="33c91-581">Выберите **Несколько изменений**, укажите новые детали оплаты в диалоговом окне **Изменить атрибуты оплаты**, затем выберите **OK**.</span><span class="sxs-lookup"><span data-stu-id="33c91-581">Select **Multiple change**, specify the new payment details in the **Modify payment attributes** dialog box, and then select **OK**.</span></span>
+
+    <span data-ttu-id="33c91-582">Кроме того, можно указать новые атрибуты платежа для конкретной строки.</span><span class="sxs-lookup"><span data-stu-id="33c91-582">Alternatively, you can specify new payment attributes for a specific line.</span></span>
+
+19. <span data-ttu-id="33c91-583">Выберите **Обновить график платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-583">Select **Update payment schedule**.</span></span> <span data-ttu-id="33c91-584">Система обновляет ведомость графика платежей и создает незавершенные строки журнала графика платежей для корректировки источников платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-584">The system updates the payment schedule sheet and creates uncommitted payment schedule journal lines for payment sources correction.</span></span>
+20. <span data-ttu-id="33c91-585">Внесите все необходимые изменения в ведомость графика платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-585">Make any other required changes to the payment schedule sheet.</span></span>
+21. <span data-ttu-id="33c91-586">На странице **Журнал графика платежей** выберите **Функции \> Применить изменения** для применения изменений или **Функции \> Отменить изменения** для их отклонения.</span><span class="sxs-lookup"><span data-stu-id="33c91-586">On the **Payment schedule journal** page, select **Functions \> Apply changes** to apply your changes or **Functions \> Revert changes** to reject them.</span></span>
+22. <span data-ttu-id="33c91-587">Если требуются изменения в настройку журнала, выберите **Функции \> Удалить строки журнала** и рассчитайте журнал.</span><span class="sxs-lookup"><span data-stu-id="33c91-587">If changes to the journal setup are required, select **Functions \> Delete journal lines**, and calculate the journal.</span></span>
+23. <span data-ttu-id="33c91-588">Выберите **Проверить**, чтобы проверить журнал.</span><span class="sxs-lookup"><span data-stu-id="33c91-588">Select **Validate** to validate the journal.</span></span> <span data-ttu-id="33c91-589">Система уведомляет пользователя, если отмененные, заблокированные или неготовые запросы платежей workflow-процесса включены в этот журнал.</span><span class="sxs-lookup"><span data-stu-id="33c91-589">The system notifies you if canceled, on-hold, or incomplete workflow payment requests are included in this journal.</span></span>
+24. <span data-ttu-id="33c91-590">Если все данные верны, и workflow-процесс плана платежей можно запустить, выберите **Workflow-процесс \> Отправить**.</span><span class="sxs-lookup"><span data-stu-id="33c91-590">If all the data is correct, and workflow approval of the payment plan can start, select **Workflow \> Submit**.</span></span>
+
+    <span data-ttu-id="33c91-591">Утверждающие могут видеть следующие действия во время workflow-процесса утверждения: **Утвердить**, **Отклонить**, **Запросить изменение**, **Делегировать**, **Отозвать** и **Просмотреть историю**.</span><span class="sxs-lookup"><span data-stu-id="33c91-591">Approvers might see the following actions during the approval workflow: **Approve**, **Reject**, **Request change**, **Delegate**, **Recall**, and **View history**.</span></span>
+
+    ![Действия бизнес-правила](media/rus-workflow-actions.jpg)
+
+26. <span data-ttu-id="33c91-593">Если план платежей одобрен, выберите **Подтвердить**.</span><span class="sxs-lookup"><span data-stu-id="33c91-593">If the payment plan is approved, select **Confirm**.</span></span> <span data-ttu-id="33c91-594">Статус платежных поручений, которые включены, изменяется на **Запланировано**.</span><span class="sxs-lookup"><span data-stu-id="33c91-594">The status of the payment requests that are included is changed to **Scheduled**.</span></span>
+27. <span data-ttu-id="33c91-595">На странице **Запрос платежа** в области действий на вкладке **Общие** в группе **Связанные сведения** выберите **Журнал графика платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-595">On the **Payment request** page, on the Action Pane, on the **General** tab, in the **Related information** group, select **Payment schedule journal**.</span></span>
+28. <span data-ttu-id="33c91-596">Просмотрите журнал графика платежей, связанный с запросом платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-596">Review the payment schedule journal that is associated with the payment request.</span></span>
+
+### <a name="payment-register-processing"></a><span data-ttu-id="33c91-597">Обработка регистрации платежей</span><span class="sxs-lookup"><span data-stu-id="33c91-597">Payment register processing</span></span>
+
+1. <span data-ttu-id="33c91-598">Перейдите в раздел **Управление банком и кассовыми операциями \> Управление движением денежных средств \> Журнал графика платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-598">Go to **Cash and bank management \> Cash flow management \> Payment schedule journal**.</span></span>
+2. <span data-ttu-id="33c91-599">Создайте журнал графика платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-599">Create a payment schedule journal.</span></span> <span data-ttu-id="33c91-600">В поле **Имя** выберите журнал графика платежей типа **Реестр платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-600">In the **Name** field, select a payment schedule journal of the **Payment register** type.</span></span>
+3. <span data-ttu-id="33c91-601">Используйте поля **Начальная дата** и **Конечная дата**, чтобы указать диапазон дат действия.</span><span class="sxs-lookup"><span data-stu-id="33c91-601">Use the **From date** and **To date** fields to specify an effective date range.</span></span>
+4. <span data-ttu-id="33c91-602">На вкладках **Общие**, **Аналитики**, **Юридические лица**, **Источники данных журнала**, **Счета оплаты** и **Контроль сальдо денежных средств** измените атрибуты журнала графика платежей, как требуется.</span><span class="sxs-lookup"><span data-stu-id="33c91-602">On the **General**, **Dimensions**, **Legal entities**, **Journal data sources**, **Payment accounts**, and **Cash balance control** tabs, change the attributes of the payment schedule journal as you require.</span></span>
+5. <span data-ttu-id="33c91-603">Выберите **Рассчитать**.</span><span class="sxs-lookup"><span data-stu-id="33c91-603">Select **Calculate**.</span></span>
+6. <span data-ttu-id="33c91-604">Выберите **Строки** для проверки строк журнала графика платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-604">Select **Lines** to validate the payment schedule journal lines.</span></span>
+7. <span data-ttu-id="33c91-605">Выберите **Изменить начальное сальдо**, чтобы изменить начальное сальдо этого журнала.</span><span class="sxs-lookup"><span data-stu-id="33c91-605">Select **Edit beginning balance** to change the beginning balance of this journal.</span></span>
+8. <span data-ttu-id="33c91-606">Для строк, которые имеют **Запрос платежа** как источник данных журнала, выберите **Строки запроса платежей** для просмотра строк запроса платежа, которые включены в текущей строке журнала.</span><span class="sxs-lookup"><span data-stu-id="33c91-606">For lines that have **Payment request** as the journal data source, select **Payment request lines** to review the payment request lines that are included on the current journal line.</span></span>
+9. <span data-ttu-id="33c91-607">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="33c91-607">Close the page.</span></span>
+10. <span data-ttu-id="33c91-608">На странице **Журнал графика платежей** выберите **График платежей** для просмотра реестра платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-608">On the **Payment schedule journal** page, select **Payment schedule** to review the payment register.</span></span> <span data-ttu-id="33c91-609">Если обнаружен недостаток или излишек денежных средств, можно внести изменения.</span><span class="sxs-lookup"><span data-stu-id="33c91-609">If a cash shortage or surplus is detected, you can make changes.</span></span>
+11. <span data-ttu-id="33c91-610">Выберите **Проверить**, чтобы проверить журнал.</span><span class="sxs-lookup"><span data-stu-id="33c91-610">Select **Validate** to validate the journal.</span></span> <span data-ttu-id="33c91-611">Система уведомляет пользователя, если отмененные или заблокированные запросы платежей включены в этот журнал.</span><span class="sxs-lookup"><span data-stu-id="33c91-611">The system notifies you if canceled or on-hold payment requests are included in this journal.</span></span>
+12. <span data-ttu-id="33c91-612">Если все данные верны, и workflow-процесс плана платежей можно запустить, выберите **Workflow-процесс \> Отправить**.</span><span class="sxs-lookup"><span data-stu-id="33c91-612">If all the data is correct, and workflow approval of the payment plan can start, **Workflow \> Submit**.</span></span>
+13. <span data-ttu-id="33c91-613">Если план платежей одобрен, выберите **Подтвердить**.</span><span class="sxs-lookup"><span data-stu-id="33c91-613">If the payment plan is approved, select **Confirm**.</span></span> <span data-ttu-id="33c91-614">Статус платежных поручений, которые включены, изменяется на **Принято**.</span><span class="sxs-lookup"><span data-stu-id="33c91-614">The status of the payment requests that are included is changed to **Accepted**.</span></span>
+14. <span data-ttu-id="33c91-615">На странице **Запрос платежа** в области действий на вкладке **Общие** в группе **Связанные сведения** выберите **Журнал графика платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-615">On the **Payment request** page, on the Action Pane, on the **General** tab, in the **Related information** group, select **Payment schedule journal**.</span></span>
+15. <span data-ttu-id="33c91-616">Просмотрите журнал графика платежей, связанный с запросом платежа.</span><span class="sxs-lookup"><span data-stu-id="33c91-616">Review the payment schedule journal that is associated with the payment request.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="33c91-617">Выполните шаги 16–20, если включен конфигурационный ключ лицензии **Запросы платежей**.</span><span class="sxs-lookup"><span data-stu-id="33c91-617">Complete the steps 16-20 if the **Payment request** license configuration key is turned on.</span></span>
+
+16. <span data-ttu-id="33c91-618">На странице **Журнал графика платежей** выберите **Функции \> Создать платежи**.</span><span class="sxs-lookup"><span data-stu-id="33c91-618">On the **Payment schedule journal** page, select **Functions \> Generate payments**.</span></span>
+17. <span data-ttu-id="33c91-619">Задайте параметры для создания журнала платежей.</span><span class="sxs-lookup"><span data-stu-id="33c91-619">Set the parameters for payment journal generation.</span></span>
+
+    ![Параметры для создания журнала платежей](media/rus-payments-payment-schedule-journal.jpg)
+
+18. <span data-ttu-id="33c91-621">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="33c91-621">Select **OK**.</span></span>
+19. <span data-ttu-id="33c91-622">Выберите **Расчеты с поставщиками \> Платежи \> Журнал платежей поставщика** для проверки и обработки журнала платежей поставщика, который создан.</span><span class="sxs-lookup"><span data-stu-id="33c91-622">Select **Accounts payable \> Payments \> Vendor payment journal** to validate and process the vendor payment journal that is created.</span></span>
+20. <span data-ttu-id="33c91-623">Выберите **Расчеты с клиентами \> Платежи \> Журнал платежей клиентов** для проверки и обработки журнала платежей клиентов, который создан.</span><span class="sxs-lookup"><span data-stu-id="33c91-623">Select **Accounts receivable \> Payments \> Customer payment journal** to validate and process the customer payment journal that is created.</span></span>
+
+<span data-ttu-id="33c91-624">Стандартная функция предложения по оплате будет обрабатывать открытые проводки, связанные с платежным требованием, имеющим статус **Принято**.</span><span class="sxs-lookup"><span data-stu-id="33c91-624">Standard payment proposal functionality will process open transactions that are linked to a payment request that has **Accepted** status.</span></span>
+
+<span data-ttu-id="33c91-625">Алгоритм предложения по оплате включает дополнительные изменения, которые применяются при использовании платежных требований.</span><span class="sxs-lookup"><span data-stu-id="33c91-625">The payment proposal algorithm includes additional changes that are applied when payment requests are used.</span></span> <span data-ttu-id="33c91-626">Система учитывает профиль разноски, значение параметра **Предоплата** и реквизиты платежного поручения, которые заполняются по платежному требованию.</span><span class="sxs-lookup"><span data-stu-id="33c91-626">The system considers the posting profile, the setting of the **Prepayment** parameter, and the payment order requisites that are filled in on payment requests.</span></span>

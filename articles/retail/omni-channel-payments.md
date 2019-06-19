@@ -1,636 +1,231 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="omni-channel-payments.md" target-language="ru-RU">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>omni-channel-payments.9bb9af.78a4538d5b4854a4c87417acc156bcfb7c0da01d.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>78a4538d5b4854a4c87417acc156bcfb7c0da01d</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>45eeca48c6cb4f3f94d61392f4f99a52dc443a97</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/24/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\retail\omni-channel-payments.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Omni-channel payments overview</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Обзор омниканальных платежей</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides an overview of omni-channel payments in Microsoft Dynamics 365 for Retail.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В этой теме представлен обзор омниканальных платежей в Microsoft Dynamics 365 for Retail.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Omni-channel payments overview</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Обзор омниканальных платежей</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic provides an overview of omni-channel payments in Microsoft Dynamics 365 for Retail.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">В этой теме представлен обзор омниканальных платежей в Microsoft Dynamics 365 for Retail.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>It includes a comprehensive list of supported scenarios, information about functionality, setup, and troubleshooting, and descriptions of some typical issues.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Она содержит полный список поддерживаемых сценариев, информацию о функциях, настройке и устранении неполадок, а также описания типичных проблем.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Key terms</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Ключевые термины</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Term</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Срок</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Description</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Описание</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Token</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Маркер</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>A string of data that a payment processor provides as a reference.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Строка данных, которую процессор платежей предоставляет в качестве ссылки.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Tokens can represent payment card numbers, payment authorizations, and previous payment captures.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Маркеры могут представлять номера платежных карт, авторизации платежей и предыдущие записи платежей.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Tokens are important because they help keep sensitive data out of the point of sale (POS) system.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Маркеры важны, потому что они помогают хранить конфиденциальные данные вне системы POS-терминалов.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>They are sometimes also referred to as <bpt id="p1">*</bpt>references<ept id="p1">*</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Иногда они также называются <bpt id="p1">*</bpt>ссылками<ept id="p1">*</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Card token</source><target logoport:matchpercent="68" state="translated" state-qualifier="fuzzy-match">Маркер карты</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>A token that a payment processor provides for storage in the POS system.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Маркер, предоставляемый процессором платежей для хранения в системе POS.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>A card token can be used only by the merchant who receives it.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Маркер карты может использоваться только продавцом, который его получает.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Card tokens are sometimes also referred to as <bpt id="p1">*</bpt>card references<ept id="p1">*</ept>.</source><target logoport:matchpercent="73" state="translated" state-qualifier="fuzzy-match">Маркеры карт они называются <bpt id="p1">*</bpt>ссылками карт<ept id="p1">*</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Authorization (auth) token</source><target logoport:matchpercent="69" state="translated" state-qualifier="fuzzy-match">Маркер авторизации (auth)</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>A unique ID that a payment process provides as part of the response that it sends to a POS system after the POS system makes an authorization request.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Уникальный код, который процесс платежа представляет как часть отклика, который он отправляет в систему POS после того, как система POS-терминалов выполнит запрос авторизации.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>An authorization token can be used later if the processor is called to perform actions such as reversing or voiding the authorization.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Маркер авторизации может использоваться позднее, если процессор вызван для выполнения таких действий, как реверсирование или аннулирование авторизации.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>However, it's most often used to capture funds when an order is fulfilled or a transaction is finalized.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Однако чаще всего он используется для регистрации фондов при выполнении заказа или при завершении проводки.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Authorization tokens are sometimes also referred to as <bpt id="p1">*</bpt>authorization references<ept id="p1">*</ept>.</source><target logoport:matchpercent="82" state="translated" state-qualifier="fuzzy-match">Маркеры авторизации иногда называются <bpt id="p1">*</bpt>ссылками авторизации<ept id="p1">*</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Capture token</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Маркер подтверждения</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>A reference that a payment processor provides to a POS system when a payment is finalized or captured.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Ссылка, которую процессор платежей предоставляет системе POS при завершении или подтверждении платежа.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>The capture token can then be used to reference the payment capture in subsequent operations, such as refund requests.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Маркер подтверждения можно затем использовать для ссылки на подтверждение платежа в последующих операциях, таких как запросы на возврат средств.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Card not present</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Карта отсутствует</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>A term that refers to payment transactions where a physical card isn't presented.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Термин, который относится к платежным проводкам, в которых физическая карта не представлена.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>For example, these transactions can occur in e-commerce or call center scenarios.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Например, эти проводки могут выполняться в сценариях электронной коммерции или в центре обработки вызовов.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>For these transactions, the payment-related information is manually entered on an e-commerce website, in a call center flow, or on the POS or payment terminal.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Для этих проводок информация, связанная с платежом, вручную вводится на веб-сайте электронной коммерции, в потоке центра обработки вызовов или на POS-терминале или платежном терминале.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Card present</source><target logoport:matchpercent="71" state="translated" state-qualifier="fuzzy-match">Карта присутствует</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>A term that refers to payment transactions where a physical card is presented and used on a payment terminal that is connected to the Microsoft Dynamics 365 POS system.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Термин, который относится к проводкам платежа, в которых физическая карта представлена и используется на платежном терминале, подключенном к системе POS-терминалов Microsoft Dynamics 365.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Overview</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Обзор</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>In general, the term <bpt id="p1">*</bpt>omni-channel payments<ept id="p1">*</ept> describes the ability to create an order in one channel and fulfill it in another channel.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В общем случае термин <bpt id="p1">*</bpt>омниканальные платежи<ept id="p1">*</ept> описывает возможность создания заказа в одном канале и выполнения его в другом канале.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>The key to omni-channel payment support is preserving payment details together with the rest of the order details, and then using those payment details when the order is recalled or processed in another channel.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Ключом к поддержке омниканальных платежей является сохранение сведений об оплате вместе с остальными сведениями о заказе, а затем использование этих сведений об оплате при вызове или обработке заказа в другом канале.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>A classic example is the "Buy online, pick up in store" scenario.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Классическим примером является сценарий "купить в Интернете, забрать в магазине".</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>In this scenario, the payment details are added when the order is created online.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В этом сценарии сведения об оплате добавляются, когда заказ создается в Интернете.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>They are then recalled at the POS to charge the customer's payment card at the time of pickup.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Затем они вызываются в POS-терминале, чтобы снять средства с платежной карты клиента в момент выдачи.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>All the scenarios that are described in this topic can be implemented by using the standard Payments software development kit (SDK) that is provided with Retail.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Все сценарии, описанные в этом разделе, могут быть реализованы с помощью стандартного пакета средств разработки программного обеспечения (SDK) платежей, поставляемого вместе с Retail.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>The <bpt id="p1">[</bpt>Dynamics 365 Payment Connector for Adyen<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)</ept> provides an out-of-box implementation of every scenario that is described here.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">[</bpt>Соединитель платежей Dynamics 365 для Adyen<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)</ept> предоставляет готовую реализацию каждого сценария, описанного здесь.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Prerequisites</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Необходимые условия</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Every scenario that is described in this topic requires a payment connector that supports omni-channel payments.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Для каждого сценария, описанного в этом разделе, требуется соединитель платежей, поддерживающий омниканальные платежи.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>The out-of-box Adyen connector can also be used, because it supports the scenarios that are made available through the Payments SDK.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Готовый соединитель Adyen также можно использовать, поскольку он поддерживает сценарии, доступные через пакет SDK для платежей.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>For more information about how to implement payment connectors, and about the Retail SDK in general, visit the <bpt id="p1">[</bpt>Retail for IT pros and developers home page<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors)</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Для получения дополнительных сведений о том, как реализовать соединители платежей, и о пакете SDK Retail в целом см. на <bpt id="p1">[</bpt>домашней странице Retail для ИТ-специалистов и разработчиков<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors)</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Supported versions</source><target logoport:matchpercent="84" state="translated" state-qualifier="fuzzy-match">Поддерживаемые версии</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>The omni-channel payment capabilities that are described in this topic were released as part of Microsoft Dynamics 365 for Retail version 8.1.3.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Возможности омниканальных платежей, описанные в этом разделе, были выпущены как часть Microsoft Dynamics 365 for Retail версии 8.1.3.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>"Card present" and "card not present" connectors</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Соединители "карта присутствует" и "карта отсутствует"</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>The Payments SDK relies on two sets of application programming interfaces (APIs) for payments.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В пакете SDK "Платежи" для платежей используются два набора интерфейсов прикладного программирования (API).</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>The first set of APIs is named <bpt id="p1">**</bpt>iPaymentProcessor<ept id="p1">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Первый набор интерфейсов API называется <bpt id="p1">**</bpt>iPaymentProcessor<ept id="p1">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>It's used to implement "card not present" payment connectors that can be used in call centers and with the Microsoft Dynamics e-Commerce platform.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Он используется для реализации соединителей платежа "карты нет", которые могут использоваться в центрах обработки вызовов и в платформе электронной коммерции Microsoft Dynamics.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>For more information about the <bpt id="p1">**</bpt>iPaymentProcessor<ept id="p1">**</ept> interface, see the <bpt id="p2">[</bpt>Implement a payment connector and a payment device<ept id="p2">](https://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)</ept> white paper, which covers payments.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Дополнительные сведения об интерфейсе <bpt id="p1">**</bpt>iPaymentProcessor<ept id="p1">**</ept> см. в техническом документе <bpt id="p2">[</bpt>Реализация соединителя платежей и платежного устройства<ept id="p2">](https://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)</ept>, который охватывает платежи.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>The second set of APIs is named <bpt id="p1">**</bpt>iNamedRequestHandler<ept id="p1">**</ept>.</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Второй набор интерфейсов API называется <bpt id="p1">**</bpt>iNamedRequestHandler<ept id="p1">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>It supports the implementation of "card present" payment integrations that use a payment terminal.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Он поддерживает реализацию случаев интеграции платежей "карта присутствует", использующих платежный терминал.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>For more information about the <bpt id="p1">**</bpt>iNamedRequestHandler<ept id="p1">**</ept> interface, see <bpt id="p2">[</bpt>Create a payment integration for a payment terminal<ept id="p2">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension)</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Дополнительные сведения об интерфейсе <bpt id="p1">**</bpt>iNamedRequestHandler<ept id="p1">**</ept> см. в разделе <bpt id="p2">[</bpt>Создание интеграции платежей для платежного терминала<ept id="p2">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension)</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Setup and configuration</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Настройка и конфигурация</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>The following components and setup steps are required:</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Следующие компоненты и шаги настройки являются обязательными:</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source><bpt id="p1">**</bpt>eCommerce integration:<ept id="p1">**</ept> An integration with Retail is required to support scenarios where an order originates in an online storefront.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Интеграция электронной коммерции:<ept id="p1">**</ept> интеграция с модулем Retail необходима для поддержки сценариев, когда заказ исходит из Интернет-магазина.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>For more information about the Retail e-Commerce SDK, see <bpt id="p1">[</bpt>e-Commerce platform software development kit (SDK)<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk)</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Для получения дополнительных сведений о пакете SDK для электронной коммерции Retail см. в разделе <bpt id="p1">[</bpt>Пакет разработки программного обеспечения для платформы электронной коммерции (SDK)<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk)</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>In a demo environment, the reference storefront supports omni-channel payment scenarios.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В демонстрационной среде указанный магазин поддерживает сценарии омниканальных платежей.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source><bpt id="p1">**</bpt>Online payments configuration:<ept id="p1">**</ept> The setup of the online channel must include a payment connector that has been updated to support omni-channel payments.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Конфигурация интернет-платежей:<ept id="p1">**</ept> настройка интернет-канала должна включать в себя соединитель платежей, который был обновлен для поддержки многоканальных платежей.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Alternatively, the out-of-box payment connector can be used.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В качестве альтернативы можно использовать готовый соединитель платежей.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>For information about how to configure the Adyen payment connector for online stores, see <bpt id="p1">[</bpt>Adyen payment connector<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce)</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Сведения о настройке соединителя платежей Adyen для интернет-магазинов см. в разделе <bpt id="p1">[</bpt>Соединитель платежей Adyen<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce)</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>In addition to the eCommerce setup steps that are described in that topic, the <bpt id="p1">**</bpt>Allow saving payment information in e-commerce<ept id="p1">**</ept> parameter must be set to <bpt id="p2">**</bpt>True<ept id="p2">**</ept> in the settings for the Adyen connector.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В дополнение к шагам настройки электронной коммерции, описанным в этом разделе, необходимо установить для параметра <bpt id="p1">**</bpt>Разрешить сохранение информации о платеже в электронной коммерции<ept id="p1">**</ept> значение <bpt id="p2">**</bpt>True<ept id="p2">**</ept> в настройках соединителя Adyen.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source><bpt id="p1">**</bpt>Omni-channel payments configuration:<ept id="p1">**</ept> In the back office, go to <bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Headquarters setup <ph id="ph2">\&gt;</ph> Parameters <ph id="ph3">\&gt;</ph> Retail shared parameters<ept id="p2">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Конфигурация омниканальных платежей:<ept id="p1">**</ept> в бэк-офисе выберите <bpt id="p2">**</bpt>Retail <ph id="ph1">\&gt;</ph> Настройка центрального офиса <ph id="ph2">\&gt;</ph> Параметры <ph id="ph3">\&gt;</ph> Общие параметры розничной торговли<ept id="p2">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Then, on the <bpt id="p1">**</bpt>Omni-channel payments<ept id="p1">**</ept> tab, set the <bpt id="p2">**</bpt>Use omni-channel payments<ept id="p2">**</ept> option to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Затем на вкладке <bpt id="p1">**</bpt>Омниканальные платежи<ept id="p1">**</ept> выберите значение для параметра <bpt id="p2">**</bpt>Использовать омниканальные платежи<ept id="p2">**</ept> значение <bpt id="p3">**</bpt>Да<ept id="p3">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source><bpt id="p1">**</bpt>Payment services:<ept id="p1">**</ept> The call center uses the default payment connector on the <bpt id="p2">**</bpt>Payment services<ept id="p2">**</ept> page to process payments.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Службы платежей:<ept id="p1">**</ept> центр обработки звонков использует соединитель платежей по умолчанию на странице <bpt id="p2">**</bpt>Службы платежей<ept id="p2">**</ept> для обработки платежей.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>To support scenarios such as "Buy in call center, pick up in store," this default payment connector must be the Adyen payment connector or a payment connector that meets the implementation requirements for omni-channel payments.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Для поддержки таких сценариев, как "Купить в центре обработки вызовов, забрать в магазине", этот платежный соединитель по умолчанию должен быть платежным соединителем Adyen или платежным соединителем, который удовлетворяет требованиям к реализации для омниканальных платежей.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source><bpt id="p1">**</bpt>EFT service:<ept id="p1">**</ept> Payments through a payment terminal must be set up on the <bpt id="p2">**</bpt>EFT service<ept id="p2">**</ept> FastTab of the hardware profile.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Услуга электронного платежа:<ept id="p1">**</ept> платежи через платежный терминал должны быть настроены на экспресс-вкладке <bpt id="p2">**</bpt>Услуга электронного платежа<ept id="p2">**</ept> в профиле оборудования.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>The Adyen connector supports omni-channel payments scenarios out of the box.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Соединитель Adyen включает готовую поддержку сценариев омниканальных платежей.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Other payment connectors that support the <bpt id="p1">**</bpt>iNamedRequestHandler<ept id="p1">**</ept> interface can also be used if they support omni-channel payments.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Другие соединители платежей, поддерживающие интерфейс <bpt id="p1">**</bpt>iNamedRequestHandler<ept id="p1">**</ept>, также могут использоваться, если они поддерживают омниканальные платежи.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source><bpt id="p1">**</bpt>Payment connector availability:<ept id="p1">**</ept> When an order is recalled, the payment tender lines that are recalled together with the order include the name of the payment connector that was used to create the authorizations that are associated with that order.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Доступность платежного соединителя:<ept id="p1">**</ept> при повторном вызове заказа строки платежного средства, которые вызываются вместе с заказом, включают имя соединителя платежа, который использовался для создания авторизаций, связанных с этим заказом.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>When the order is fulfilled, the Payments SDK tries to use the same connector that was used to create the original authorization.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Когда заказ будет выполнен, SDK платежей предпринимает попытку использования того же соединителя, который использовался для создания исходной авторизации.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Therefore, a payment connector that has the same merchant properties must be available for capture.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Таким образом, платежный соединитель с теми же свойствами получателя платежа должен быть доступен для фиксации.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source><bpt id="p1">**</bpt>Card types:<ept id="p1">**</ept> For omni-channel scenarios to work properly, each channel must have the same setup for tender types that can be used for omni-channel.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Типы карт:<ept id="p1">**</ept> для правильной работы омниканальных сценариев каждый канал должен иметь одинаковую настройку типов платежных средств, которые могут быть использованы для омниканальной работы.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>This setup includes payment method IDs and card type IDs.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Эта настройка включает коды методов оплаты и коды типов карт.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>For example, if the <bpt id="p1">**</bpt>Cards<ept id="p1">**</ept> tender type has an ID of <bpt id="p2">**</bpt>2<ept id="p2">**</ept> in the online store setup, it should have the same ID in the retail store setup.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Например, если тип платежного средства <bpt id="p1">**</bpt>Карты<ept id="p1">**</ept> имеет идентификатор <bpt id="p2">**</bpt>2<ept id="p2">**</ept> в настройке интернет-магазина, он должен иметь такой же код в настройке розничного магазина.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>The same requirement applies to card type IDs.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Эти же требования относятся к кодам типов карт.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>If card number <bpt id="p1">**</bpt>12<ept id="p1">**</ept> is set to <bpt id="p2">**</bpt>VISA<ept id="p2">**</ept> in the online store, the same ID should be set up for the retail store.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Если в интернет-магазине для номера карт <bpt id="p1">**</bpt>12<ept id="p1">**</ept> установлено значение <bpt id="p2">**</bpt>VISA<ept id="p2">**</ept>, для розничного магазина необходимо настроить этот же код.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Basic principle supporting omni-channel payments</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Основной принцип поддержки омниканальных платежей</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Payment connectors and payment processors use tokens, or references, to reference interactions that are related to card payments.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Соединители платежей и процессоры платежей используют маркеры, или ссылки, для ссылки на взаимодействия, которые относятся к платежам картой.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>For example, when a payment authorization is requested, a reference to that authorization is provided.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Например, при запросе авторизации платежа предоставляется ссылка на эту авторизацию.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Therefore, the authorization can be referenced later, when funds are captured at the time of fulfillment.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Таким образом, в дальнейшем можно использовать ссылку на авторизацию, когда средства фиксируются во время выполнения.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>This authorization is unique to the merchant, payment connector, and processor.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Эта авторизация является уникальной для продавца, платежного соединителя и процессора.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>If an order that was created online is being picked up in the store, the same payment details for that order must be recalled and used.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Если заказ, созданный в Интернете, забирается в магазине, необходимо вызвать и использовать те же сведения об оплате для этого заказа.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>When the original details are provided as part of the request to capture a payment against the original authorization, the payment processor will be able to handle the request and capture the payment.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Когда исходные сведения предоставляются в рамках запроса на фиксацию платежа относительно исходной авторизации, процессор платежа сможет обработать запрос и зафиксировать платеж.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>To correctly reference the online order, a "card not present" payment connector that supports the same processor must also be available.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Чтобы правильно ссылаться на интернет-заказ, также должен быть доступен соединитель платежей "карта отсутствует", поддерживающий этот же процессор.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>In this way, the POS system can have one processor for "card present" payments, but it can also have access to other payment connectors so that it can fulfill orders that are created in other channels by using different payment processors.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Таким образом, система POS может иметь один процессор для платежей "карта присутствует", но она также может иметь доступ к другим соединителям платежей, чтобы выполнять заказы, созданные в других каналах, используя различные процессоры оплаты.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Supported scenarios</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Поддерживаемые сценарии</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>The following omni-channel payment scenarios are supported:</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Поддерживаются следующие сценарии омниканальных платежей:</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Buy online, pick up in store</source><target logoport:matchpercent="87" state="translated" state-qualifier="fuzzy-match">Покупка в сети, получение в магазине</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>Buy in call center, pick up in store</source><target logoport:matchpercent="79" state="translated" state-qualifier="fuzzy-match">Покупка в центре обработки вызовов, получение в магазине</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Buy in store A, pick up in store B</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Покупка в магазине A, получение в магазине B</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>Buy in store A, ship to customer</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Покупка в магазине A, отгрузка клиенту</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>Variations of these scenarios are also supported.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Также поддерживаются вариации этих сценариев.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>For example, an online order might include both lines that will be shipped to the customer and lines that will be picked up in a store.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Например, заказ в Интернете может включать как строки, которые будут отгружены клиенту, так и строки, которые будут получены в магазине.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>All order fulfillment options are supported via omni-channel payments.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Все варианты выполнения заказа поддерживаются через омниканальные платежи.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>The following sections describe the steps for each scenario and show how to run the scenario by using demo data.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В следующих разделах описываются шаги для каждого сценария и показано, как запустить сценарий, используя демонстрационные данные.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Buy online, pick up in store</source>
-        <target logoport:matchpercent="87" state="translated" state-qualifier="leveraged-inherited">Покупка в сети, получение в магазине</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Before you start, make sure that the following prerequisites are in place:</source><target logoport:matchpercent="90" state="translated" state-qualifier="fuzzy-match">Перед началом убедитесь, что выполнены следующие предварительные условия:</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>You have a reference storefront where the Adyen connector is configured.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Имеется пример магазина, в котором настроен соединитель Adyen.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>The <bpt id="p1">**</bpt>Omni-channel payments<ept id="p1">**</ept> option on the <bpt id="p2">**</bpt>Retail shared parameters<ept id="p2">**</ept> page is set to <bpt id="p3">**</bpt>True<ept id="p3">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Параметр <bpt id="p1">**</bpt>Омниканальные платежи<ept id="p1">**</ept> на странице <bpt id="p2">**</bpt>Общие параметры розничной торговли<ept id="p2">**</ept> имеет значение <bpt id="p3">**</bpt>True<ept id="p3">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>The Adyen payment connector is configured for the Houston POS register.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Соединитель платежей Adyen настроен для POS-ККМ Houston.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Follow these steps to run the scenario.</source><target logoport:matchpercent="87" state="translated" state-qualifier="fuzzy-match">Для выполнения этого сценария выполните следующие действия.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>In the reference storefront, create an order for in-store pickup.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В примере магазине создайте заказ для получения в магазине.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>Be sure to select the <bpt id="p1">**</bpt>Houston<ept id="p1">**</ept> store.</source><target logoport:matchpercent="71" state="translated" state-qualifier="fuzzy-match">Не забудьте выбрать магазин <bpt id="p1">**</bpt>Houston<ept id="p1">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Go through the checkout steps, and pay by using a test credit card number.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выполните действия для оформления заказа и оплатите, используя номер тестовой кредитной карты.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>You can find test credit card numbers on the <bpt id="p1">[</bpt>Adyen test card numbers page<ept id="p1">](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/#description)</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Номера тестовых кредитных карт можно найти на <bpt id="p1">[</bpt>странице номеров тестовых карт Adyen<ept id="p1">](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/#description)</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>In Retail, use the <bpt id="p1">**</bpt>Synchronize orders<ept id="p1">**</ept> batch job and the <bpt id="p2">**</bpt>P-001<ept id="p2">**</ept> distribution schedule to create the orders in the back office.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В модуле Retail используйте пакетное задание <bpt id="p1">**</bpt>Синхронизация заказов<ept id="p1">**</ept> и график распределения <bpt id="p2">**</bpt>P-001<ept id="p2">**</ept>, чтобы создать заказы в бэк-офисе.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>In the POS, on the welcome page, select the <bpt id="p1">**</bpt>Orders to pickup<ept id="p1">**</ept> operation to see the orders for in-store pickup.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В POS-терминале на странице приветствия выберите операцию <bpt id="p1">**</bpt>Заказы для отправки<ept id="p1">**</ept>, чтобы просмотреть заказы, которые должны быть получены в магазине.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Select one or more lines from the order that was created in the reference storefront, and then select <bpt id="p1">**</bpt>Pick up<ept id="p1">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выберите одну или несколько строк из заказа, который был создан в примере магазина, затем выберите <bpt id="p1">**</bpt>Вывоз<ept id="p1">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>The order is retrieved from the back office.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Заказ извлекается из бэк-офиса.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>When the order line details are retrieved from the back office, and a card payment that can be used for omni-channel is detected, you're informed that a payment method is available.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Когда сведения о строке заказа извлекаются из бэк-офиса и платеж по карте, который может использоваться для омниканального сценария обнаружен, вы получаете сведения о том, что доступен метод оплаты.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>Select <bpt id="p1">**</bpt>Use available payment method<ept id="p1">**</ept> to complete the transaction by using the card details that were entered in the reference storefront.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выберите <bpt id="p1">**</bpt>Использовать доступный метод оплаты<ept id="p1">**</ept>, чтобы выполнить проводку, используя сведения о карте, которые были введены в примере магазина.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>The order lines are loaded on the transaction page, and the balance due is 0 (zero).</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Строки заказа загружаются на страницу проводки, а задолженность равна 0 (нулю).</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Select the <bpt id="p1">**</bpt>Payments<ept id="p1">**</ept> tab to view the tender line that was pulled from the online order.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Перейдите на вкладку <bpt id="p1">**</bpt>Платежи<ept id="p1">**</ept>, чтобы просмотреть строку платежного средства, которая была извлечена из заказа в Интернете.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>Select any payment method to complete the transaction.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выберите любой метод оплаты, чтобы выполнить проводку.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>Buy in call center, pick up in store</source>
-        <target logoport:matchpercent="79" state="translated" state-qualifier="leveraged-inherited">Покупка в центре обработки вызовов, получение в магазине</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>In Retail, on the <bpt id="p1">**</bpt>Customer service<ept id="p1">**</ept> page, enter <bpt id="p2">**</bpt>Karen Berg<ept id="p2">**</ept> in the search bar, and then select <bpt id="p3">**</bpt>Search<ept id="p3">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В модуле Retail на странице <bpt id="p1">**</bpt>Обслуживание клиентов<ept id="p1">**</ept> введите <bpt id="p2">**</bpt>Карен Берг<ept id="p2">**</ept> на панели поиска, затем выберите <bpt id="p3">**</bpt>Поиск<ept id="p3">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>Select <bpt id="p1">**</bpt>Karen Berg<ept id="p1">**</ept> in the search results.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выберите <bpt id="p1">**</bpt>Карен Берг<ept id="p1">**</ept> в результатах поиска.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>After Karen is loaded onto the <bpt id="p1">**</bpt>Customer service<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>New sales order<ept id="p2">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">После загрузки Карен на страницу <bpt id="p1">**</bpt>Обслуживание клиентов<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Новый заказ на продажу<ept id="p2">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>On the new sales order page, select <bpt id="p1">**</bpt>Header<ept id="p1">**</ept> to view the order header.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">На странице нового заказа на продажу выберите <bpt id="p1">**</bpt>Заголовок<ept id="p1">**</ept> для просмотра заголовка заказа.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>On the <bpt id="p1">**</bpt>Order header<ept id="p1">**</ept> page, set the site to <bpt id="p2">**</bpt>Central<ept id="p2">**</ept> and the warehouse to <bpt id="p3">**</bpt>Houston<ept id="p3">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">На странице <bpt id="p1">**</bpt>Заголовок заказа<ept id="p1">**</ept> задайте сайт <bpt id="p2">**</bpt>Центральный<ept id="p2">**</ept> и склад <bpt id="p3">**</bpt>Хьюстон<ept id="p3">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>On the <bpt id="p1">**</bpt>Deliver<ept id="p1">**</ept> tab, set the <bpt id="p2">**</bpt>Mode of delivery<ept id="p2">**</ept> field to <bpt id="p3">**</bpt>60<ept id="p3">**</ept> for customer pickup.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">На вкладке <bpt id="p1">**</bpt>Доставка<ept id="p1">**</ept> задайте в поле <bpt id="p2">**</bpt>Способ поставки<ept id="p2">**</ept> значение <bpt id="p3">**</bpt>60<ept id="p3">**</ept> для отправки клиенту.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept>, and then add one or more lines to the order.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>, затем добавьте одну или несколько строк в заказ.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Select <bpt id="p1">**</bpt>Complete<ept id="p1">**</ept> to enter the order completion flow.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выберите <bpt id="p1">**</bpt>Завершить<ept id="p1">**</ept>, чтобы перейти в поток завершения заказа.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Scroll down to the payments section, select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept>, and then select a line where the payment method type is set to <bpt id="p2">**</bpt>Cards<ept id="p2">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Перейдите вниз в раздел платежей, выберите команду <bpt id="p1">**</bpt>Добавить<ept id="p1">**</ept>, затем выберите строку, для которой установлен тип метода платежа <bpt id="p2">**</bpt>Карты<ept id="p2">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Select the plus sign (<bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept>) to add a card payment.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выберите знак "плюс" (<bpt id="p1">**</bpt><ph id="ph1">+</ph><ept id="p1">**</ept>), чтобы добавить платеж по карте.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>Enter the details for a test credit card number that you found on the <bpt id="p1">[</bpt>Adyen test card numbers page<ept id="p1">](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/#description)</ept>, and then select <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Введите сведения для номера пробной кредитной карты, который вы нашли на <bpt id="p1">[</bpt>странице номеров тестовых карт Adyen<ept id="p1">](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/#description)</ept>, затем нажмите кнопку <bpt id="p2">**</bpt>ОК<ept id="p2">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>If the card brand for the card number that you entered differs from the brand that was selected when the payment was initiated, the payment will still go through.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Если бренд карты для введенного номера отличается от бренда, который был выбрана при запуске платежа, платеж все равно пройдет.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>However, it will be posted to the accounts that are mapped to the card brand that you selected in step 10.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Однако он будет разнесен на счета, сопоставленные с брендом карт, выбранным на шаге 10.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> again to close the <bpt id="p2">**</bpt>Order completion payments<ept id="p2">**</ept> dialog box.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Снова нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>, чтобы закрыть диалоговое окно <bpt id="p2">**</bpt>Завершение оплаты заказа<ept id="p2">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>On the <bpt id="p1">**</bpt>Sales order summary<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Submit<ept id="p2">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">На странице <bpt id="p1">**</bpt>Сводка заказа на продажу<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Отправить<ept id="p2">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>In the POS, on the welcome page, select the <bpt id="p1">**</bpt>Orders to pickup<ept id="p1">**</ept> operation to see the orders for in-store pickup.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">В POS-терминале на странице приветствия выберите операцию <bpt id="p1">**</bpt>Заказы для отправки<ept id="p1">**</ept>, чтобы просмотреть заказы, которые должны быть получены в магазине.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>Select one or more lines from the order that was created in the reference storefront, and then select <bpt id="p1">**</bpt>Pick up<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Выберите одну или несколько строк из заказа, который был создан в примере магазина, затем выберите <bpt id="p1">**</bpt>Вывоз<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>The order is retrieved from the back office.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Заказ извлекается из бэк-офиса.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>When the order line details are retrieved from the back office, and a card payment that can be used for omni-channel is detected, you're informed that a payment method is available.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Когда сведения о строке заказа извлекаются из бэк-офиса и платеж по карте, который может использоваться для омниканального сценария обнаружен, вы получаете сведения о том, что доступен метод оплаты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Select <bpt id="p1">**</bpt>Use available payment method<ept id="p1">**</ept> to complete the transaction by using the card details that were entered in the reference storefront.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Выберите <bpt id="p1">**</bpt>Использовать доступный метод оплаты<ept id="p1">**</ept>, чтобы выполнить проводку, используя сведения о карте, которые были введены в примере магазина.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>The order lines are loaded on the transaction page, and the balance due is 0 (zero).</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Строки заказа загружаются на страницу проводки, а задолженность равна 0 (нулю).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>Select the <bpt id="p1">**</bpt>Payments<ept id="p1">**</ept> tab to view the tender line that was pulled from the online order.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Перейдите на вкладку <bpt id="p1">**</bpt>Платежи<ept id="p1">**</ept>, чтобы просмотреть строку платежного средства, которая была извлечена из заказа в Интернете.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>Select any payment method to complete the transaction.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Выберите любой метод оплаты, чтобы выполнить проводку.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>Buy in store A, pick up in store B</source>
-        <target logoport:matchpercent="77" state="translated" state-qualifier="leveraged-inherited">Покупка в магазине A, получение в магазине B</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Start the POS for the Houston store.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Запустите POS-терминал для магазина Хьюстон.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>On the <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> page, add Karen Berg to the transaction by using the number pad to enter <bpt id="p2">**</bpt>2001<ept id="p2">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">На странице <bpt id="p1">**</bpt>Проводка<ept id="p1">**</ept> добавьте Карен Берг в проводку, используя цифровую клавиатуру для ввода <bpt id="p2">**</bpt>2001<ept id="p2">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>Add one or more lines to the transaction.</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Добавить одну или несколько строк в проводку.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>Select <bpt id="p1">**</bpt>Orders<ept id="p1">**</ept> to see the order options.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выберите <bpt id="p1">**</bpt>Заказы<ept id="p1">**</ept>, чтобы просмотреть параметры заказа.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>Select <bpt id="p1">**</bpt>Pick up all<ept id="p1">**</ept>, and then, when you're prompted, select <bpt id="p2">**</bpt>Customer order<ept id="p2">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выберите <bpt id="p1">**</bpt>Скомплектовать все<ept id="p1">**</ept>, затем, когда появится запрос, выберите <bpt id="p2">**</bpt>Заказ клиента<ept id="p2">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>In the search bar, enter <bpt id="p1">**</bpt>Seattle<ept id="p1">**</ept>, and then select the <bpt id="p2">**</bpt>Seattle<ept id="p2">**</ept> store for pickup.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В строке поиска введите <bpt id="p1">**</bpt>Сиэтл<ept id="p1">**</ept>, затем выберите магазин <bpt id="p2">**</bpt>Сиэтл<ept id="p2">**</ept> для получения.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to accept the current date as the date of pickup.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выберите кнопку <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>, чтобы принять текущую дату в качестве даты получения.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>Select <bpt id="p1">**</bpt>Pay card<ept id="p1">**</ept> to initiate the payment.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выберите <bpt id="p1">**</bpt>Платежная карта<ept id="p1">**</ept>, чтобы начать платеж.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>Tender the card payment for the amount that is due for the deposit.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выставите в платеже по карте сумму, подлежащую оплате на депозит.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>Complete the deposit payment on the payment terminal.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Выполните платеж на депозит на платежном терминале.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>After the deposit is paid, select the option to use the same card for fulfillment, and wait for the order to be completed.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">После выплаты депозита выберите параметр для использования той же карты для выполнения и дождитесь завершения заказа.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>Start the POS for the Seattle store.</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">Запустите POS-терминал для магазина Сиэтла.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>In the POS, on the welcome page, select the <bpt id="p1">**</bpt>Orders to pickup<ept id="p1">**</ept> operation to see the orders for in-store pickup.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">В POS-терминале на странице приветствия выберите операцию <bpt id="p1">**</bpt>Заказы для отправки<ept id="p1">**</ept>, чтобы просмотреть заказы, которые должны быть получены в магазине.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>Select one or more lines from the order that was created in the reference storefront, and then select <bpt id="p1">**</bpt>Pick up<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Выберите одну или несколько строк из заказа, который был создан в примере магазина, затем выберите <bpt id="p1">**</bpt>Вывоз<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>The order is retrieved from the back office.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Заказ извлекается из бэк-офиса.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>When the order line details are retrieved from the back office, and a card payment that can be used for omni-channel is detected, you're informed that a payment method is available.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Когда сведения о строке заказа извлекаются из бэк-офиса и платеж по карте, который может использоваться для омниканального сценария обнаружен, вы получаете сведения о том, что доступен метод оплаты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>Select <bpt id="p1">**</bpt>Use available payment method<ept id="p1">**</ept> to complete the transaction by using the card details that were entered in the reference storefront.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Выберите <bpt id="p1">**</bpt>Использовать доступный метод оплаты<ept id="p1">**</ept>, чтобы выполнить проводку, используя сведения о карте, которые были введены в примере магазина.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>The order lines are loaded on the transaction page, and the balance due is 0 (zero).</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Строки заказа загружаются на страницу проводки, а задолженность равна 0 (нулю).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>Select the <bpt id="p1">**</bpt>Payments<ept id="p1">**</ept> tab to view the tender line that was pulled from the online order.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Перейдите на вкладку <bpt id="p1">**</bpt>Платежи<ept id="p1">**</ept>, чтобы просмотреть строку платежного средства, которая была извлечена из заказа в Интернете.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>Select any payment method to complete the transaction.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Выберите любой метод оплаты, чтобы выполнить проводку.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>Buy in store A, ship to customer</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Покупка в магазине A, отгрузка клиенту</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>Start the POS for the Houston store.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Запустите POS-терминал для магазина Хьюстон.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>On the <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> page, add Karen Berg to the transaction by using the number pad to enter <bpt id="p2">**</bpt>2001<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">На странице <bpt id="p1">**</bpt>Проводка<ept id="p1">**</ept> добавьте Карен Берг в проводку, используя цифровую клавиатуру для ввода <bpt id="p2">**</bpt>2001<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>Add one or more lines to the transaction.</source>
-        <target logoport:matchpercent="77" state="translated" state-qualifier="leveraged-inherited">Добавить одну или несколько строк в проводку.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>Select <bpt id="p1">**</bpt>Orders<ept id="p1">**</ept> to see the order options.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Выберите <bpt id="p1">**</bpt>Заказы<ept id="p1">**</ept>, чтобы просмотреть параметры заказа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>Select <bpt id="p1">**</bpt>Pick up all<ept id="p1">**</ept>, and then, when you're prompted, select <bpt id="p2">**</bpt>Customer order<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Выберите <bpt id="p1">**</bpt>Скомплектовать все<ept id="p1">**</ept>, затем, когда появится запрос, выберите <bpt id="p2">**</bpt>Заказ клиента<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>In the search bar, enter <bpt id="p1">**</bpt>Seattle<ept id="p1">**</ept>, and then select the <bpt id="p2">**</bpt>Seattle<ept id="p2">**</ept> store for pickup.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">В строке поиска введите <bpt id="p1">**</bpt>Сиэтл<ept id="p1">**</ept>, затем выберите магазин <bpt id="p2">**</bpt>Сиэтл<ept id="p2">**</ept> для получения.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to accept the current date as the date of pickup.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Выберите кнопку <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>, чтобы принять текущую дату в качестве даты получения.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source>Select <bpt id="p1">**</bpt>Pay card<ept id="p1">**</ept> to initiate the payment.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Выберите <bpt id="p1">**</bpt>Платежная карта<ept id="p1">**</ept>, чтобы начать платеж.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>Tender the card payment for the amount that is due for the deposit.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Выставите в платеже по карте сумму, подлежащую оплате на депозит.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>Complete the deposit payment on the payment terminal.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">Выполните платеж на депозит на платежном терминале.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>After the deposit is paid, select the option to use the same card for fulfillment, and wait for the order to be completed.</source>
-        <target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-inherited">После выплаты депозита выберите параметр для использования той же карты для выполнения и дождитесь завершения заказа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>When the order is picked, packed, and invoiced in the back office, the payment details that are provided at the POS will be used to capture the funds for the goods that are being shipped to the customer.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Когда заказ скомплектован, упакован и за него выставлен счет в бэк-офисе, сведения об оплате, предоставленные в POS, будут использоваться для фиксации средств за товары, отправляемые клиенту.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source>Scenario details</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Подробности сценария</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>In addition to the basic scenarios that were just described, several enhancements have been made to the Payments SDK to support omni-channel payments.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">В дополнение к базовым сценариям, которые только что были описаны, в пакет SDK для модуля "Платежи" были внесены некоторые усовершенствования, поддерживающие омниканальные платежи.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source>POS</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>Single swipe/dip for customer orders</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Однократное использование карты для заказов клиента</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source>Before the omni-channel payments feature was implemented, when customer orders that included deposits were created at the POS, customers were required to swipe (or dip) their card two times: one time to pay the deposit and one time to tokenize the card for subsequent order fulfillment.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">До реализации функции омниканальных платежей при создании в POS-терминале заказов клиента, которые включают депозиты, клиентам было необходимо два раза предъявить карту: один раз для оплаты депозита и один раз для токенизации карты для последующего выполнения заказа.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source>When the omni-channel tokenization feature is turned on, customers must swipe their card only one time to both pay the deposit and authorize the amount that is due for goods that will be fulfilled later.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Когда функция создания омниканальных маркеров включена, клиенты должны предъявить карту только один раз, чтобы оплатить депозит и авторизовать сумму, которая должна быть выплачена за товары, которые будут поставлены позже.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source>At the time of fulfillment, the authorized funds are captured.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Во время выполнения авторизированные средства списываются.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>Before the omni-channel tokenization feature was implemented, only a recurring card token was created for subsequent order fulfillment.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">До реализации функции омниканальной маркировки для последующего выполнения заказа создавался только повторяющийся маркер карты.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>Therefore, the funds for the pending fulfillment weren't authorized, and because those funds weren't being held for that specific purchase, it was less likely that they could be captured later.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Таким образом, средства для ожидающего выполнения не были авторизованы, и поскольку эти средства не были заблокированы для данной покупки, было менее вероятно, что они могут быть списаны позднее.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>Single swipe isn't supported in Retail version 8.1.3.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Одно считывание не поддерживается в Retail версии 8.1.3.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source>Customer orders in version 8.1.3 use the same flow that was used before the omni-channel tokenization feature was implemented.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Заказы клиентов в версии 8.1.3 используют тот же поток, который использовался до реализации функции омниканальной токенизации.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>Cards that can't issue recurring card tokens</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Карты, которые не могут выдавать повторяющиеся маркеры карт</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>Some cards can't be used for omni-channel payments, because they don't support issuing recurring card tokens.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Некоторые карты не могут использоваться для омниканальных платежей, так как они не поддерживают выдачу повторяющихся маркеров карты.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="287">
-          <source>When an order is created at the POS, if the deposit is paid by using a card that doesn't support recurring card tokens, the previous card tokenization flow is used.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Когда заказ создается на POS-терминале, если депозит оплачивается с помощью карты, которая не поддерживает повторяющиеся маркеры карт, используется предыдущий процесс токенизации карты.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="288">
-          <source>Therefore, a customer who wants to provide a payment that will be used for subsequent order fulfillment must present a second card.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Поэтому клиент, который хочет предоставить платеж, который будет использоваться для последующего выполнения заказа, должен предоставить вторую карту.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="289">
-          <source>If the second card doesn't support recurring card tokens, the tokenization action will be declined, and the cashier will be prompted to ask the customer to provide a different card.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Если вторая карта не поддерживает повторяющиеся маркеры карт, действие токенизации будет отклонено, и кассиру будет предложено попросить клиента предоставить другую карту.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="290">
-          <source>Using a different card</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Использование другой карты</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="291">
-          <source>A customer who comes to the store for order pickup has the option to use a different card.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Клиент, который пришел в магазин, чтобы забрать заказ, имеет возможность использовать другую карту.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="292">
-          <source>When the cashier receives the <bpt id="p1">**</bpt>Use available payment method<ept id="p1">**</ept> prompt at the time of order pickup, he or she can ask whether the customer wants to use the same card.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Когда кассир получает запрос <bpt id="p1">**</bpt>Использование доступного способа платежа<ept id="p1">**</ept> при получении заказа, он может спросить, хочет ли клиент использовать ту же карту.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="293">
-          <source>If the customer has lost the card that was used to create the order and wants to pay for the order by using a different card, the cashier can select <bpt id="p1">**</bpt>Use a different payment method<ept id="p1">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Если клиент потерял карту, которая использовалась для создания заказа, и хочет заплатить за заказ с помощью другой карты, кассир может выбрать разрешается <bpt id="p1">**</bpt>Использовать другой способ платежа<ept id="p1">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="294">
-          <source>If the customer comes back later to pick up more items for the same order, if the original card authorization is still valid, the cashier can again ask whether the customer wants to use that card.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Если позже клиент придет, чтобы забрать дополнительные номенклатуры из того же заказа, если исходная авторизация карты все еще действительна, кассир может снова спросить, хочет ли клиент использовать эту карту.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="295">
-          <source>Invalid authorizations</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Недействительные авторизации</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="296">
-          <source>If the card that was used to create an order is no longer valid, when products are selected for pickup, the payment capture request will fail.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Если карта, которая использовалась для создания заказа, больше не действительна, то при выборе продуктов для получения запрос на списание платежа будет неудачным.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="297">
-          <source>The POS payment connector will then try to create a new authorization and capture by using the same card details.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">После этого соединитель платежей POS попытается создать новую авторизацию и выполнить списание с использованием тех же сведений карты.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="298">
-          <source>If the new authorization or capture fails, the cashier will be informed that the payment could not be processed.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Если произойдет сбой новой авторизации или списания, кассиру будет сообщено, что платеж не может быть обработан.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="299">
-          <source>The cashier must then get a new payment from the customer.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Затем кассир должен получить новый платеж от клиента.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="300">
-          <source>Multiple available payments</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Несколько доступных платежей</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="301">
-          <source>When an order that has multiple tenders and multiple lines is picked up, the cashier first receives the <bpt id="p1">**</bpt>Use available payment method<ept id="p1">**</ept> prompt.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">При получении заказа, в котором имеется несколько платежных средств и несколько строк, кассир сначала получает запрос <bpt id="p1">**</bpt>Использование доступного способа платежа<ept id="p1">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="302">
-          <source>If there are multiple cards, when the cashier selects <bpt id="p1">**</bpt>Use available payment method<ept id="p1">**</ept>, existing card tender lines will be captured until the balance is met for the goods that are currently being picked up.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Если есть несколько карт, когда кассир выбирает вариант <bpt id="p1">**</bpt>Использование доступного способа платежа<ept id="p1">**</ept>, существующие строки карточного платежного средства списываются до тех пор, пока сальдо не будет достигнуто для текущих забираемых товаров.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="303">
-          <source>The cashier won't have the option to select the card that should be used for the goods that are being picked up.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">У кассира нет возможности выбора карты, которая должна использоваться для забираемых товаров.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="304">
-          <source>Related topics</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Связанные разделы</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="305">
-          <source><bpt id="p1">[</bpt>Payments FAQ<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)</ept></source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match"><bpt id="p1">[</bpt>Вопросы и ответы по платежам<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)</ept></target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="306">
-          <source><bpt id="p1">[</bpt>Dynamics 365 Payment Connector for Adyen<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Соединитель платежей Dynamics 365 для Adyen<ept id="p1">](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Обзор омниканальных платежей
+description: В этой теме представлен обзор омниканальных платежей в Microsoft Dynamics 365 for Retail.
+author: rubendel
+manager: AnnBe
+ms.date: 05/12/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+audience: Application user
+ms.reviewer: josaw
+ms.search.scope: Operations, Retail
+ms.custom: 141393
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Retail
+ms.author: rubendel
+ms.search.validFrom: 2019-01-01
+ms.dyn365.ops.version: AX 8.1.3
+ms.openlocfilehash: 78a4538d5b4854a4c87417acc156bcfb7c0da01d
+ms.sourcegitcommit: 45eeca48c6cb4f3f94d61392f4f99a52dc443a97
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "1606200"
+---
+# <a name="omni-channel-payments-overview"></a><span data-ttu-id="b0fb9-103">Обзор омниканальных платежей</span><span class="sxs-lookup"><span data-stu-id="b0fb9-103">Omni-channel payments overview</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="b0fb9-104">В этой теме представлен обзор омниканальных платежей в Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-104">This topic provides an overview of omni-channel payments in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="b0fb9-105">Она содержит полный список поддерживаемых сценариев, информацию о функциях, настройке и устранении неполадок, а также описания типичных проблем.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-105">It includes a comprehensive list of supported scenarios, information about functionality, setup, and troubleshooting, and descriptions of some typical issues.</span></span>
+
+## <a name="key-terms"></a><span data-ttu-id="b0fb9-106">Ключевые термины</span><span class="sxs-lookup"><span data-stu-id="b0fb9-106">Key terms</span></span>
+
+| <span data-ttu-id="b0fb9-107">Срок</span><span class="sxs-lookup"><span data-stu-id="b0fb9-107">Term</span></span> | <span data-ttu-id="b0fb9-108">Описание</span><span class="sxs-lookup"><span data-stu-id="b0fb9-108">Description</span></span> |
+|---|---|
+| <span data-ttu-id="b0fb9-109">Маркер</span><span class="sxs-lookup"><span data-stu-id="b0fb9-109">Token</span></span> | <span data-ttu-id="b0fb9-110">Строка данных, которую процессор платежей предоставляет в качестве ссылки.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-110">A string of data that a payment processor provides as a reference.</span></span> <span data-ttu-id="b0fb9-111">Маркеры могут представлять номера платежных карт, авторизации платежей и предыдущие записи платежей.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-111">Tokens can represent payment card numbers, payment authorizations, and previous payment captures.</span></span> <span data-ttu-id="b0fb9-112">Маркеры важны, потому что они помогают хранить конфиденциальные данные вне системы POS-терминалов.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-112">Tokens are important because they help keep sensitive data out of the point of sale (POS) system.</span></span> <span data-ttu-id="b0fb9-113">Иногда они также называются *ссылками*.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-113">They are sometimes also referred to as *references*.</span></span> |
+| <span data-ttu-id="b0fb9-114">Маркер карты</span><span class="sxs-lookup"><span data-stu-id="b0fb9-114">Card token</span></span> | <span data-ttu-id="b0fb9-115">Маркер, предоставляемый процессором платежей для хранения в системе POS.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-115">A token that a payment processor provides for storage in the POS system.</span></span> <span data-ttu-id="b0fb9-116">Маркер карты может использоваться только продавцом, который его получает.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-116">A card token can be used only by the merchant who receives it.</span></span> <span data-ttu-id="b0fb9-117">Маркеры карт они называются *ссылками карт*.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-117">Card tokens are sometimes also referred to as *card references*.</span></span> |
+| <span data-ttu-id="b0fb9-118">Маркер авторизации (auth)</span><span class="sxs-lookup"><span data-stu-id="b0fb9-118">Authorization (auth) token</span></span> | <span data-ttu-id="b0fb9-119">Уникальный код, который процесс платежа представляет как часть отклика, который он отправляет в систему POS после того, как система POS-терминалов выполнит запрос авторизации.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-119">A unique ID that a payment process provides as part of the response that it sends to a POS system after the POS system makes an authorization request.</span></span> <span data-ttu-id="b0fb9-120">Маркер авторизации может использоваться позднее, если процессор вызван для выполнения таких действий, как реверсирование или аннулирование авторизации.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-120">An authorization token can be used later if the processor is called to perform actions such as reversing or voiding the authorization.</span></span> <span data-ttu-id="b0fb9-121">Однако чаще всего он используется для регистрации фондов при выполнении заказа или при завершении проводки.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-121">However, it's most often used to capture funds when an order is fulfilled or a transaction is finalized.</span></span> <span data-ttu-id="b0fb9-122">Маркеры авторизации иногда называются *ссылками авторизации*.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-122">Authorization tokens are sometimes also referred to as *authorization references*.</span></span> |
+| <span data-ttu-id="b0fb9-123">Маркер подтверждения</span><span class="sxs-lookup"><span data-stu-id="b0fb9-123">Capture token</span></span> | <span data-ttu-id="b0fb9-124">Ссылка, которую процессор платежей предоставляет системе POS при завершении или подтверждении платежа.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-124">A reference that a payment processor provides to a POS system when a payment is finalized or captured.</span></span> <span data-ttu-id="b0fb9-125">Маркер подтверждения можно затем использовать для ссылки на подтверждение платежа в последующих операциях, таких как запросы на возврат средств.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-125">The capture token can then be used to reference the payment capture in subsequent operations, such as refund requests.</span></span> | 
+| <span data-ttu-id="b0fb9-126">Карта отсутствует</span><span class="sxs-lookup"><span data-stu-id="b0fb9-126">Card not present</span></span> | <span data-ttu-id="b0fb9-127">Термин, который относится к платежным проводкам, в которых физическая карта не представлена.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-127">A term that refers to payment transactions where a physical card isn't presented.</span></span> <span data-ttu-id="b0fb9-128">Например, эти проводки могут выполняться в сценариях электронной коммерции или в центре обработки вызовов.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-128">For example, these transactions can occur in e-commerce or call center scenarios.</span></span> <span data-ttu-id="b0fb9-129">Для этих проводок информация, связанная с платежом, вручную вводится на веб-сайте электронной коммерции, в потоке центра обработки вызовов или на POS-терминале или платежном терминале.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-129">For these transactions, the payment-related information is manually entered on an e-commerce website, in a call center flow, or on the POS or payment terminal.</span></span> |
+| <span data-ttu-id="b0fb9-130">Карта присутствует</span><span class="sxs-lookup"><span data-stu-id="b0fb9-130">Card present</span></span> | <span data-ttu-id="b0fb9-131">Термин, который относится к проводкам платежа, в которых физическая карта представлена и используется на платежном терминале, подключенном к системе POS-терминалов Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-131">A term that refers to payment transactions where a physical card is presented and used on a payment terminal that is connected to the Microsoft Dynamics 365 POS system.</span></span> |
+
+## <a name="overview"></a><span data-ttu-id="b0fb9-132">Обзор</span><span class="sxs-lookup"><span data-stu-id="b0fb9-132">Overview</span></span>
+
+<span data-ttu-id="b0fb9-133">В общем случае термин *омниканальные платежи* описывает возможность создания заказа в одном канале и выполнения его в другом канале.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-133">In general, the term *omni-channel payments* describes the ability to create an order in one channel and fulfill it in another channel.</span></span> <span data-ttu-id="b0fb9-134">Ключом к поддержке омниканальных платежей является сохранение сведений об оплате вместе с остальными сведениями о заказе, а затем использование этих сведений об оплате при вызове или обработке заказа в другом канале.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-134">The key to omni-channel payment support is preserving payment details together with the rest of the order details, and then using those payment details when the order is recalled or processed in another channel.</span></span> <span data-ttu-id="b0fb9-135">Классическим примером является сценарий "купить в Интернете, забрать в магазине".</span><span class="sxs-lookup"><span data-stu-id="b0fb9-135">A classic example is the "Buy online, pick up in store" scenario.</span></span> <span data-ttu-id="b0fb9-136">В этом сценарии сведения об оплате добавляются, когда заказ создается в Интернете.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-136">In this scenario, the payment details are added when the order is created online.</span></span> <span data-ttu-id="b0fb9-137">Затем они вызываются в POS-терминале, чтобы снять средства с платежной карты клиента в момент выдачи.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-137">They are then recalled at the POS to charge the customer's payment card at the time of pickup.</span></span> 
+
+<span data-ttu-id="b0fb9-138">Все сценарии, описанные в этом разделе, могут быть реализованы с помощью стандартного пакета средств разработки программного обеспечения (SDK) платежей, поставляемого вместе с Retail.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-138">All the scenarios that are described in this topic can be implemented by using the standard Payments software development kit (SDK) that is provided with Retail.</span></span> <span data-ttu-id="b0fb9-139">[Соединитель платежей Dynamics 365 для Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) предоставляет готовую реализацию каждого сценария, описанного здесь.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-139">The [Dynamics 365 Payment Connector for Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) provides an out-of-box implementation of every scenario that is described here.</span></span> 
+
+### <a name="prerequisites"></a><span data-ttu-id="b0fb9-140">Необходимые условия</span><span class="sxs-lookup"><span data-stu-id="b0fb9-140">Prerequisites</span></span>
+
+<span data-ttu-id="b0fb9-141">Для каждого сценария, описанного в этом разделе, требуется соединитель платежей, поддерживающий омниканальные платежи.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-141">Every scenario that is described in this topic requires a payment connector that supports omni-channel payments.</span></span> <span data-ttu-id="b0fb9-142">Готовый соединитель Adyen также можно использовать, поскольку он поддерживает сценарии, доступные через пакет SDK для платежей.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-142">The out-of-box Adyen connector can also be used, because it supports the scenarios that are made available through the Payments SDK.</span></span> <span data-ttu-id="b0fb9-143">Для получения дополнительных сведений о том, как реализовать соединители платежей, и о пакете SDK Retail в целом см. на [домашней странице Retail для ИТ-специалистов и разработчиков](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).</span><span class="sxs-lookup"><span data-stu-id="b0fb9-143">For more information about how to implement payment connectors, and about the Retail SDK in general, visit the [Retail for IT pros and developers home page](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).</span></span>
+
+#### <a name="supported-versions"></a><span data-ttu-id="b0fb9-144">Поддерживаемые версии</span><span class="sxs-lookup"><span data-stu-id="b0fb9-144">Supported versions</span></span>
+
+<span data-ttu-id="b0fb9-145">Возможности омниканальных платежей, описанные в этом разделе, были выпущены как часть Microsoft Dynamics 365 for Retail версии 8.1.3.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-145">The omni-channel payment capabilities that are described in this topic were released as part of Microsoft Dynamics 365 for Retail version 8.1.3.</span></span> 
+
+#### <a name="card-present-and-card-not-present-connectors"></a><span data-ttu-id="b0fb9-146">Соединители "карта присутствует" и "карта отсутствует"</span><span class="sxs-lookup"><span data-stu-id="b0fb9-146">"Card present" and "card not present" connectors</span></span>
+
+<span data-ttu-id="b0fb9-147">В пакете SDK "Платежи" для платежей используются два набора интерфейсов прикладного программирования (API).</span><span class="sxs-lookup"><span data-stu-id="b0fb9-147">The Payments SDK relies on two sets of application programming interfaces (APIs) for payments.</span></span> <span data-ttu-id="b0fb9-148">Первый набор интерфейсов API называется **iPaymentProcessor**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-148">The first set of APIs is named **iPaymentProcessor**.</span></span> <span data-ttu-id="b0fb9-149">Он используется для реализации соединителей платежа "карты нет", которые могут использоваться в центрах обработки вызовов и в платформе электронной коммерции Microsoft Dynamics.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-149">It's used to implement "card not present" payment connectors that can be used in call centers and with the Microsoft Dynamics e-Commerce platform.</span></span> <span data-ttu-id="b0fb9-150">Дополнительные сведения об интерфейсе **iPaymentProcessor** см. в техническом документе [Реализация соединителя платежей и платежного устройства](https://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx), который охватывает платежи.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-150">For more information about the **iPaymentProcessor** interface, see the [Implement a payment connector and a payment device](https://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx) white paper, which covers payments.</span></span> 
+
+<span data-ttu-id="b0fb9-151">Второй набор интерфейсов API называется **iNamedRequestHandler**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-151">The second set of APIs is named **iNamedRequestHandler**.</span></span> <span data-ttu-id="b0fb9-152">Он поддерживает реализацию случаев интеграции платежей "карта присутствует", использующих платежный терминал.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-152">It supports the implementation of "card present" payment integrations that use a payment terminal.</span></span> <span data-ttu-id="b0fb9-153">Дополнительные сведения об интерфейсе **iNamedRequestHandler** см. в разделе [Создание интеграции платежей для платежного терминала](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension).</span><span class="sxs-lookup"><span data-stu-id="b0fb9-153">For more information about the **iNamedRequestHandler** interface, see [Create a payment integration for a payment terminal](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension).</span></span> 
+
+### <a name="setup-and-configuration"></a><span data-ttu-id="b0fb9-154">Настройка и конфигурация</span><span class="sxs-lookup"><span data-stu-id="b0fb9-154">Setup and configuration</span></span>
+
+<span data-ttu-id="b0fb9-155">Следующие компоненты и шаги настройки являются обязательными:</span><span class="sxs-lookup"><span data-stu-id="b0fb9-155">The following components and setup steps are required:</span></span>
+
+- <span data-ttu-id="b0fb9-156">**Интеграция электронной коммерции:** интеграция с модулем Retail необходима для поддержки сценариев, когда заказ исходит из Интернет-магазина.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-156">**eCommerce integration:** An integration with Retail is required to support scenarios where an order originates in an online storefront.</span></span> <span data-ttu-id="b0fb9-157">Для получения дополнительных сведений о пакете SDK для электронной коммерции Retail см. в разделе [Пакет разработки программного обеспечения для платформы электронной коммерции (SDK)](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk).</span><span class="sxs-lookup"><span data-stu-id="b0fb9-157">For more information about the Retail e-Commerce SDK, see [e-Commerce platform software development kit (SDK)](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk).</span></span> <span data-ttu-id="b0fb9-158">В демонстрационной среде указанный магазин поддерживает сценарии омниканальных платежей.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-158">In a demo environment, the reference storefront supports omni-channel payment scenarios.</span></span> 
+- <span data-ttu-id="b0fb9-159">**Конфигурация интернет-платежей:** настройка интернет-канала должна включать в себя соединитель платежей, который был обновлен для поддержки многоканальных платежей.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-159">**Online payments configuration:** The setup of the online channel must include a payment connector that has been updated to support omni-channel payments.</span></span> <span data-ttu-id="b0fb9-160">В качестве альтернативы можно использовать готовый соединитель платежей.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-160">Alternatively, the out-of-box payment connector can be used.</span></span> <span data-ttu-id="b0fb9-161">Сведения о настройке соединителя платежей Adyen для интернет-магазинов см. в разделе [Соединитель платежей Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce).</span><span class="sxs-lookup"><span data-stu-id="b0fb9-161">For information about how to configure the Adyen payment connector for online stores, see [Adyen payment connector](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce).</span></span> <span data-ttu-id="b0fb9-162">В дополнение к шагам настройки электронной коммерции, описанным в этом разделе, необходимо установить для параметра **Разрешить сохранение информации о платеже в электронной коммерции** значение **True** в настройках соединителя Adyen.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-162">In addition to the eCommerce setup steps that are described in that topic, the **Allow saving payment information in e-commerce** parameter must be set to **True** in the settings for the Adyen connector.</span></span> 
+- <span data-ttu-id="b0fb9-163">**Конфигурация омниканальных платежей:** в бэк-офисе выберите **Retail \> Настройка центрального офиса \> Параметры \> Общие параметры розничной торговли**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-163">**Omni-channel payments configuration:** In the back office, go to **Retail \> Headquarters setup \> Parameters \> Retail shared parameters**.</span></span> <span data-ttu-id="b0fb9-164">Затем на вкладке **Омниканальные платежи** выберите значение для параметра **Использовать омниканальные платежи** значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-164">Then, on the **Omni-channel payments** tab, set the **Use omni-channel payments** option to **Yes**.</span></span>
+- <span data-ttu-id="b0fb9-165">**Службы платежей:** центр обработки звонков использует соединитель платежей по умолчанию на странице **Службы платежей** для обработки платежей.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-165">**Payment services:** The call center uses the default payment connector on the **Payment services** page to process payments.</span></span> <span data-ttu-id="b0fb9-166">Для поддержки таких сценариев, как "Купить в центре обработки вызовов, забрать в магазине", этот платежный соединитель по умолчанию должен быть платежным соединителем Adyen или платежным соединителем, который удовлетворяет требованиям к реализации для омниканальных платежей.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-166">To support scenarios such as "Buy in call center, pick up in store," this default payment connector must be the Adyen payment connector or a payment connector that meets the implementation requirements for omni-channel payments.</span></span>
+- <span data-ttu-id="b0fb9-167">**Услуга электронного платежа:** платежи через платежный терминал должны быть настроены на экспресс-вкладке **Услуга электронного платежа** в профиле оборудования.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-167">**EFT service:** Payments through a payment terminal must be set up on the **EFT service** FastTab of the hardware profile.</span></span> <span data-ttu-id="b0fb9-168">Соединитель Adyen включает готовую поддержку сценариев омниканальных платежей.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-168">The Adyen connector supports omni-channel payments scenarios out of the box.</span></span> <span data-ttu-id="b0fb9-169">Другие соединители платежей, поддерживающие интерфейс **iNamedRequestHandler**, также могут использоваться, если они поддерживают омниканальные платежи.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-169">Other payment connectors that support the **iNamedRequestHandler** interface can also be used if they support omni-channel payments.</span></span>
+- <span data-ttu-id="b0fb9-170">**Доступность платежного соединителя:** при повторном вызове заказа строки платежного средства, которые вызываются вместе с заказом, включают имя соединителя платежа, который использовался для создания авторизаций, связанных с этим заказом.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-170">**Payment connector availability:** When an order is recalled, the payment tender lines that are recalled together with the order include the name of the payment connector that was used to create the authorizations that are associated with that order.</span></span> <span data-ttu-id="b0fb9-171">Когда заказ будет выполнен, SDK платежей предпринимает попытку использования того же соединителя, который использовался для создания исходной авторизации.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-171">When the order is fulfilled, the Payments SDK tries to use the same connector that was used to create the original authorization.</span></span> <span data-ttu-id="b0fb9-172">Таким образом, платежный соединитель с теми же свойствами получателя платежа должен быть доступен для фиксации.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-172">Therefore, a payment connector that has the same merchant properties must be available for capture.</span></span> 
+- <span data-ttu-id="b0fb9-173">**Типы карт:** для правильной работы омниканальных сценариев каждый канал должен иметь одинаковую настройку типов платежных средств, которые могут быть использованы для омниканальной работы.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-173">**Card types:** For omni-channel scenarios to work properly, each channel must have the same setup for tender types that can be used for omni-channel.</span></span> <span data-ttu-id="b0fb9-174">Эта настройка включает коды методов оплаты и коды типов карт.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-174">This setup includes payment method IDs and card type IDs.</span></span> <span data-ttu-id="b0fb9-175">Например, если тип платежного средства **Карты** имеет идентификатор **2** в настройке интернет-магазина, он должен иметь такой же код в настройке розничного магазина.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-175">For example, if the **Cards** tender type has an ID of **2** in the online store setup, it should have the same ID in the retail store setup.</span></span> <span data-ttu-id="b0fb9-176">Эти же требования относятся к кодам типов карт.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-176">The same requirement applies to card type IDs.</span></span> <span data-ttu-id="b0fb9-177">Если в интернет-магазине для номера карт **12** установлено значение **VISA**, для розничного магазина необходимо настроить этот же код.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-177">If card number **12** is set to **VISA** in the online store, the same ID should be set up for the retail store.</span></span> 
+
+### <a name="basic-principle-supporting-omni-channel-payments"></a><span data-ttu-id="b0fb9-178">Основной принцип поддержки омниканальных платежей</span><span class="sxs-lookup"><span data-stu-id="b0fb9-178">Basic principle supporting omni-channel payments</span></span>
+
+<span data-ttu-id="b0fb9-179">Соединители платежей и процессоры платежей используют маркеры, или ссылки, для ссылки на взаимодействия, которые относятся к платежам картой.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-179">Payment connectors and payment processors use tokens, or references, to reference interactions that are related to card payments.</span></span> <span data-ttu-id="b0fb9-180">Например, при запросе авторизации платежа предоставляется ссылка на эту авторизацию.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-180">For example, when a payment authorization is requested, a reference to that authorization is provided.</span></span> <span data-ttu-id="b0fb9-181">Таким образом, в дальнейшем можно использовать ссылку на авторизацию, когда средства фиксируются во время выполнения.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-181">Therefore, the authorization can be referenced later, when funds are captured at the time of fulfillment.</span></span> <span data-ttu-id="b0fb9-182">Эта авторизация является уникальной для продавца, платежного соединителя и процессора.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-182">This authorization is unique to the merchant, payment connector, and processor.</span></span> 
+
+<span data-ttu-id="b0fb9-183">Если заказ, созданный в Интернете, забирается в магазине, необходимо вызвать и использовать те же сведения об оплате для этого заказа.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-183">If an order that was created online is being picked up in the store, the same payment details for that order must be recalled and used.</span></span> <span data-ttu-id="b0fb9-184">Когда исходные сведения предоставляются в рамках запроса на фиксацию платежа относительно исходной авторизации, процессор платежа сможет обработать запрос и зафиксировать платеж.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-184">When the original details are provided as part of the request to capture a payment against the original authorization, the payment processor will be able to handle the request and capture the payment.</span></span> 
+
+<span data-ttu-id="b0fb9-185">Чтобы правильно ссылаться на интернет-заказ, также должен быть доступен соединитель платежей "карта отсутствует", поддерживающий этот же процессор.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-185">To correctly reference the online order, a "card not present" payment connector that supports the same processor must also be available.</span></span> <span data-ttu-id="b0fb9-186">Таким образом, система POS может иметь один процессор для платежей "карта присутствует", но она также может иметь доступ к другим соединителям платежей, чтобы выполнять заказы, созданные в других каналах, используя различные процессоры оплаты.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-186">In this way, the POS system can have one processor for "card present" payments, but it can also have access to other payment connectors so that it can fulfill orders that are created in other channels by using different payment processors.</span></span> 
+
+## <a name="supported-scenarios"></a><span data-ttu-id="b0fb9-187">Поддерживаемые сценарии</span><span class="sxs-lookup"><span data-stu-id="b0fb9-187">Supported scenarios</span></span>
+
+<span data-ttu-id="b0fb9-188">Поддерживаются следующие сценарии омниканальных платежей:</span><span class="sxs-lookup"><span data-stu-id="b0fb9-188">The following omni-channel payment scenarios are supported:</span></span>
+
+- <span data-ttu-id="b0fb9-189">Покупка в сети, получение в магазине</span><span class="sxs-lookup"><span data-stu-id="b0fb9-189">Buy online, pick up in store</span></span>
+- <span data-ttu-id="b0fb9-190">Покупка в центре обработки вызовов, получение в магазине</span><span class="sxs-lookup"><span data-stu-id="b0fb9-190">Buy in call center, pick up in store</span></span>
+- <span data-ttu-id="b0fb9-191">Покупка в магазине A, получение в магазине B</span><span class="sxs-lookup"><span data-stu-id="b0fb9-191">Buy in store A, pick up in store B</span></span>
+- <span data-ttu-id="b0fb9-192">Покупка в магазине A, отгрузка клиенту</span><span class="sxs-lookup"><span data-stu-id="b0fb9-192">Buy in store A, ship to customer</span></span>
+
+<span data-ttu-id="b0fb9-193">Также поддерживаются вариации этих сценариев.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-193">Variations of these scenarios are also supported.</span></span> <span data-ttu-id="b0fb9-194">Например, заказ в Интернете может включать как строки, которые будут отгружены клиенту, так и строки, которые будут получены в магазине.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-194">For example, an online order might include both lines that will be shipped to the customer and lines that will be picked up in a store.</span></span> <span data-ttu-id="b0fb9-195">Все варианты выполнения заказа поддерживаются через омниканальные платежи.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-195">All order fulfillment options are supported via omni-channel payments.</span></span> 
+
+<span data-ttu-id="b0fb9-196">В следующих разделах описываются шаги для каждого сценария и показано, как запустить сценарий, используя демонстрационные данные.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-196">The following sections describe the steps for each scenario and show how to run the scenario by using demo data.</span></span> 
+
+### <a name="buy-online-pick-up-in-store"></a><span data-ttu-id="b0fb9-197">Покупка в сети, получение в магазине</span><span class="sxs-lookup"><span data-stu-id="b0fb9-197">Buy online, pick up in store</span></span>
+
+<span data-ttu-id="b0fb9-198">Перед началом убедитесь, что выполнены следующие предварительные условия:</span><span class="sxs-lookup"><span data-stu-id="b0fb9-198">Before you start, make sure that the following prerequisites are in place:</span></span>
+
+- <span data-ttu-id="b0fb9-199">Имеется пример магазина, в котором настроен соединитель Adyen.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-199">You have a reference storefront where the Adyen connector is configured.</span></span>
+- <span data-ttu-id="b0fb9-200">Параметр **Омниканальные платежи** на странице **Общие параметры розничной торговли** имеет значение **True**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-200">The **Omni-channel payments** option on the **Retail shared parameters** page is set to **True**.</span></span>
+- <span data-ttu-id="b0fb9-201">Соединитель платежей Adyen настроен для POS-ККМ Houston.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-201">The Adyen payment connector is configured for the Houston POS register.</span></span>
+
+<span data-ttu-id="b0fb9-202">Для выполнения этого сценария выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-202">Follow these steps to run the scenario.</span></span>
+
+1. <span data-ttu-id="b0fb9-203">В примере магазине создайте заказ для получения в магазине.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-203">In the reference storefront, create an order for in-store pickup.</span></span> <span data-ttu-id="b0fb9-204">Не забудьте выбрать магазин **Houston**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-204">Be sure to select the **Houston** store.</span></span> 
+2. <span data-ttu-id="b0fb9-205">Выполните действия для оформления заказа и оплатите, используя номер тестовой кредитной карты.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-205">Go through the checkout steps, and pay by using a test credit card number.</span></span> <span data-ttu-id="b0fb9-206">Номера тестовых кредитных карт можно найти на [странице номеров тестовых карт Adyen](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/#description).</span><span class="sxs-lookup"><span data-stu-id="b0fb9-206">You can find test credit card numbers on the [Adyen test card numbers page](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/#description).</span></span>
+3. <span data-ttu-id="b0fb9-207">В модуле Retail используйте пакетное задание **Синхронизация заказов** и график распределения **P-001**, чтобы создать заказы в бэк-офисе.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-207">In Retail, use the **Synchronize orders** batch job and the **P-001** distribution schedule to create the orders in the back office.</span></span>
+4. <span data-ttu-id="b0fb9-208">В POS-терминале на странице приветствия выберите операцию **Заказы для отправки**, чтобы просмотреть заказы, которые должны быть получены в магазине.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-208">In the POS, on the welcome page, select the **Orders to pickup** operation to see the orders for in-store pickup.</span></span> 
+5. <span data-ttu-id="b0fb9-209">Выберите одну или несколько строк из заказа, который был создан в примере магазина, затем выберите **Вывоз**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-209">Select one or more lines from the order that was created in the reference storefront, and then select **Pick up**.</span></span>
+
+    <span data-ttu-id="b0fb9-210">Заказ извлекается из бэк-офиса.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-210">The order is retrieved from the back office.</span></span> 
+
+6. <span data-ttu-id="b0fb9-211">Когда сведения о строке заказа извлекаются из бэк-офиса и платеж по карте, который может использоваться для омниканального сценария обнаружен, вы получаете сведения о том, что доступен метод оплаты.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-211">When the order line details are retrieved from the back office, and a card payment that can be used for omni-channel is detected, you're informed that a payment method is available.</span></span>
+7. <span data-ttu-id="b0fb9-212">Выберите **Использовать доступный метод оплаты**, чтобы выполнить проводку, используя сведения о карте, которые были введены в примере магазина.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-212">Select **Use available payment method** to complete the transaction by using the card details that were entered in the reference storefront.</span></span>
+
+    <span data-ttu-id="b0fb9-213">Строки заказа загружаются на страницу проводки, а задолженность равна 0 (нулю).</span><span class="sxs-lookup"><span data-stu-id="b0fb9-213">The order lines are loaded on the transaction page, and the balance due is 0 (zero).</span></span> 
+
+8. <span data-ttu-id="b0fb9-214">Перейдите на вкладку **Платежи**, чтобы просмотреть строку платежного средства, которая была извлечена из заказа в Интернете.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-214">Select the **Payments** tab to view the tender line that was pulled from the online order.</span></span> 
+9. <span data-ttu-id="b0fb9-215">Выберите любой метод оплаты, чтобы выполнить проводку.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-215">Select any payment method to complete the transaction.</span></span> 
+
+### <a name="buy-in-call-center-pick-up-in-store"></a><span data-ttu-id="b0fb9-216">Покупка в центре обработки вызовов, получение в магазине</span><span class="sxs-lookup"><span data-stu-id="b0fb9-216">Buy in call center, pick up in store</span></span>
+
+1. <span data-ttu-id="b0fb9-217">В модуле Retail на странице **Обслуживание клиентов** введите **Карен Берг** на панели поиска, затем выберите **Поиск**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-217">In Retail, on the **Customer service** page, enter **Karen Berg** in the search bar, and then select **Search**.</span></span> 
+3. <span data-ttu-id="b0fb9-218">Выберите **Карен Берг** в результатах поиска.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-218">Select **Karen Berg** in the search results.</span></span>
+4. <span data-ttu-id="b0fb9-219">После загрузки Карен на страницу **Обслуживание клиентов** выберите **Новый заказ на продажу**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-219">After Karen is loaded onto the **Customer service** page, select **New sales order**.</span></span>
+5. <span data-ttu-id="b0fb9-220">На странице нового заказа на продажу выберите **Заголовок** для просмотра заголовка заказа.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-220">On the new sales order page, select **Header** to view the order header.</span></span> 
+6. <span data-ttu-id="b0fb9-221">На странице **Заголовок заказа** задайте сайт **Центральный** и склад **Хьюстон**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-221">On the **Order header** page, set the site to **Central** and the warehouse to **Houston**.</span></span>
+7. <span data-ttu-id="b0fb9-222">На вкладке **Доставка** задайте в поле **Способ поставки** значение **60** для отправки клиенту.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-222">On the **Deliver** tab, set the **Mode of delivery** field to **60** for customer pickup.</span></span>
+8. <span data-ttu-id="b0fb9-223">Выберите **Строки**, затем добавьте одну или несколько строк в заказ.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-223">Select **Lines**, and then add one or more lines to the order.</span></span> 
+9. <span data-ttu-id="b0fb9-224">Выберите **Завершить**, чтобы перейти в поток завершения заказа.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-224">Select **Complete** to enter the order completion flow.</span></span>
+10. <span data-ttu-id="b0fb9-225">Перейдите вниз в раздел платежей, выберите команду **Добавить**, затем выберите строку, для которой установлен тип метода платежа **Карты**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-225">Scroll down to the payments section, select **Add**, and then select a line where the payment method type is set to **Cards**.</span></span> 
+11. <span data-ttu-id="b0fb9-226">Выберите знак "плюс" (**+**), чтобы добавить платеж по карте.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-226">Select the plus sign (**+**) to add a card payment.</span></span> 
+12. <span data-ttu-id="b0fb9-227">Введите сведения для номера пробной кредитной карты, который вы нашли на [странице номеров тестовых карт Adyen](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/#description), затем нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-227">Enter the details for a test credit card number that you found on the [Adyen test card numbers page](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/#description), and then select **OK**.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="b0fb9-228">Если бренд карты для введенного номера отличается от бренда, который был выбрана при запуске платежа, платеж все равно пройдет.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-228">If the card brand for the card number that you entered differs from the brand that was selected when the payment was initiated, the payment will still go through.</span></span> <span data-ttu-id="b0fb9-229">Однако он будет разнесен на счета, сопоставленные с брендом карт, выбранным на шаге 10.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-229">However, it will be posted to the accounts that are mapped to the card brand that you selected in step 10.</span></span>
+
+12. <span data-ttu-id="b0fb9-230">Снова нажмите **ОК**, чтобы закрыть диалоговое окно **Завершение оплаты заказа**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-230">Select **OK** again to close the **Order completion payments** dialog box.</span></span>
+13. <span data-ttu-id="b0fb9-231">На странице **Сводка заказа на продажу** выберите **Отправить**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-231">On the **Sales order summary** page, select **Submit**.</span></span>
+14. <span data-ttu-id="b0fb9-232">В POS-терминале на странице приветствия выберите операцию **Заказы для отправки**, чтобы просмотреть заказы, которые должны быть получены в магазине.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-232">In the POS, on the welcome page, select the **Orders to pickup** operation to see the orders for in-store pickup.</span></span> 
+15. <span data-ttu-id="b0fb9-233">Выберите одну или несколько строк из заказа, который был создан в примере магазина, затем выберите **Вывоз**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-233">Select one or more lines from the order that was created in the reference storefront, and then select **Pick up**.</span></span>
+
+    <span data-ttu-id="b0fb9-234">Заказ извлекается из бэк-офиса.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-234">The order is retrieved from the back office.</span></span> 
+
+16. <span data-ttu-id="b0fb9-235">Когда сведения о строке заказа извлекаются из бэк-офиса и платеж по карте, который может использоваться для омниканального сценария обнаружен, вы получаете сведения о том, что доступен метод оплаты.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-235">When the order line details are retrieved from the back office, and a card payment that can be used for omni-channel is detected, you're informed that a payment method is available.</span></span>
+17. <span data-ttu-id="b0fb9-236">Выберите **Использовать доступный метод оплаты**, чтобы выполнить проводку, используя сведения о карте, которые были введены в примере магазина.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-236">Select **Use available payment method** to complete the transaction by using the card details that were entered in the reference storefront.</span></span>
+
+    <span data-ttu-id="b0fb9-237">Строки заказа загружаются на страницу проводки, а задолженность равна 0 (нулю).</span><span class="sxs-lookup"><span data-stu-id="b0fb9-237">The order lines are loaded on the transaction page, and the balance due is 0 (zero).</span></span>
+
+18. <span data-ttu-id="b0fb9-238">Перейдите на вкладку **Платежи**, чтобы просмотреть строку платежного средства, которая была извлечена из заказа в Интернете.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-238">Select the **Payments** tab to view the tender line that was pulled from the online order.</span></span> 
+19. <span data-ttu-id="b0fb9-239">Выберите любой метод оплаты, чтобы выполнить проводку.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-239">Select any payment method to complete the transaction.</span></span> 
+
+### <a name="buy-in-store-a-pick-up-in-store-b"></a><span data-ttu-id="b0fb9-240">Покупка в магазине A, получение в магазине B</span><span class="sxs-lookup"><span data-stu-id="b0fb9-240">Buy in store A, pick up in store B</span></span>
+
+1. <span data-ttu-id="b0fb9-241">Запустите POS-терминал для магазина Хьюстон.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-241">Start the POS for the Houston store.</span></span>
+2. <span data-ttu-id="b0fb9-242">На странице **Проводка** добавьте Карен Берг в проводку, используя цифровую клавиатуру для ввода **2001**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-242">On the **Transaction** page, add Karen Berg to the transaction by using the number pad to enter **2001**.</span></span>
+3. <span data-ttu-id="b0fb9-243">Добавить одну или несколько строк в проводку.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-243">Add one or more lines to the transaction.</span></span>
+4. <span data-ttu-id="b0fb9-244">Выберите **Заказы**, чтобы просмотреть параметры заказа.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-244">Select **Orders** to see the order options.</span></span>
+5. <span data-ttu-id="b0fb9-245">Выберите **Скомплектовать все**, затем, когда появится запрос, выберите **Заказ клиента**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-245">Select **Pick up all**, and then, when you're prompted, select **Customer order**.</span></span>
+6. <span data-ttu-id="b0fb9-246">В строке поиска введите **Сиэтл**, затем выберите магазин **Сиэтл** для получения.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-246">In the search bar, enter **Seattle**, and then select the **Seattle** store for pickup.</span></span> 
+7. <span data-ttu-id="b0fb9-247">Выберите кнопку **ОК**, чтобы принять текущую дату в качестве даты получения.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-247">Select **OK** to accept the current date as the date of pickup.</span></span>
+9. <span data-ttu-id="b0fb9-248">Выберите **Платежная карта**, чтобы начать платеж.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-248">Select **Pay card** to initiate the payment.</span></span>
+10. <span data-ttu-id="b0fb9-249">Выставите в платеже по карте сумму, подлежащую оплате на депозит.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-249">Tender the card payment for the amount that is due for the deposit.</span></span> 
+11. <span data-ttu-id="b0fb9-250">Выполните платеж на депозит на платежном терминале.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-250">Complete the deposit payment on the payment terminal.</span></span> 
+12. <span data-ttu-id="b0fb9-251">После выплаты депозита выберите параметр для использования той же карты для выполнения и дождитесь завершения заказа.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-251">After the deposit is paid, select the option to use the same card for fulfillment, and wait for the order to be completed.</span></span> 
+13. <span data-ttu-id="b0fb9-252">Запустите POS-терминал для магазина Сиэтла.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-252">Start the POS for the Seattle store.</span></span>
+14. <span data-ttu-id="b0fb9-253">В POS-терминале на странице приветствия выберите операцию **Заказы для отправки**, чтобы просмотреть заказы, которые должны быть получены в магазине.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-253">In the POS, on the welcome page, select the **Orders to pickup** operation to see the orders for in-store pickup.</span></span> 
+15. <span data-ttu-id="b0fb9-254">Выберите одну или несколько строк из заказа, который был создан в примере магазина, затем выберите **Вывоз**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-254">Select one or more lines from the order that was created in the reference storefront, and then select **Pick up**.</span></span>
+
+    <span data-ttu-id="b0fb9-255">Заказ извлекается из бэк-офиса.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-255">The order is retrieved from the back office.</span></span> 
+
+16. <span data-ttu-id="b0fb9-256">Когда сведения о строке заказа извлекаются из бэк-офиса и платеж по карте, который может использоваться для омниканального сценария обнаружен, вы получаете сведения о том, что доступен метод оплаты.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-256">When the order line details are retrieved from the back office, and a card payment that can be used for omni-channel is detected, you're informed that a payment method is available.</span></span>
+17. <span data-ttu-id="b0fb9-257">Выберите **Использовать доступный метод оплаты**, чтобы выполнить проводку, используя сведения о карте, которые были введены в примере магазина.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-257">Select **Use available payment method** to complete the transaction by using the card details that were entered in the reference storefront.</span></span>
+
+    <span data-ttu-id="b0fb9-258">Строки заказа загружаются на страницу проводки, а задолженность равна 0 (нулю).</span><span class="sxs-lookup"><span data-stu-id="b0fb9-258">The order lines are loaded on the transaction page, and the balance due is 0 (zero).</span></span>
+
+18. <span data-ttu-id="b0fb9-259">Перейдите на вкладку **Платежи**, чтобы просмотреть строку платежного средства, которая была извлечена из заказа в Интернете.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-259">Select the **Payments** tab to view the tender line that was pulled from the online order.</span></span> 
+19. <span data-ttu-id="b0fb9-260">Выберите любой метод оплаты, чтобы выполнить проводку.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-260">Select any payment method to complete the transaction.</span></span> 
+
+### <a name="buy-in-store-a-ship-to-customer"></a><span data-ttu-id="b0fb9-261">Покупка в магазине A, отгрузка клиенту</span><span class="sxs-lookup"><span data-stu-id="b0fb9-261">Buy in store A, ship to customer</span></span>
+
+1. <span data-ttu-id="b0fb9-262">Запустите POS-терминал для магазина Хьюстон.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-262">Start the POS for the Houston store.</span></span>
+2. <span data-ttu-id="b0fb9-263">На странице **Проводка** добавьте Карен Берг в проводку, используя цифровую клавиатуру для ввода **2001**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-263">On the **Transaction** page, add Karen Berg to the transaction by using the number pad to enter **2001**.</span></span>
+3. <span data-ttu-id="b0fb9-264">Добавить одну или несколько строк в проводку.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-264">Add one or more lines to the transaction.</span></span>
+4. <span data-ttu-id="b0fb9-265">Выберите **Заказы**, чтобы просмотреть параметры заказа.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-265">Select **Orders** to see the order options.</span></span>
+5. <span data-ttu-id="b0fb9-266">Выберите **Скомплектовать все**, затем, когда появится запрос, выберите **Заказ клиента**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-266">Select **Pick up all**, and then, when you're prompted, select **Customer order**.</span></span>
+6. <span data-ttu-id="b0fb9-267">В строке поиска введите **Сиэтл**, затем выберите магазин **Сиэтл** для получения.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-267">In the search bar, enter **Seattle**, and then select the **Seattle** store for pickup.</span></span> 
+7. <span data-ttu-id="b0fb9-268">Выберите кнопку **ОК**, чтобы принять текущую дату в качестве даты получения.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-268">Select **OK** to accept the current date as the date of pickup.</span></span>
+8. <span data-ttu-id="b0fb9-269">Выберите **Платежная карта**, чтобы начать платеж.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-269">Select **Pay card** to initiate the payment.</span></span>
+9. <span data-ttu-id="b0fb9-270">Выставите в платеже по карте сумму, подлежащую оплате на депозит.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-270">Tender the card payment for the amount that is due for the deposit.</span></span> 
+10. <span data-ttu-id="b0fb9-271">Выполните платеж на депозит на платежном терминале.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-271">Complete the deposit payment on the payment terminal.</span></span> 
+11. <span data-ttu-id="b0fb9-272">После выплаты депозита выберите параметр для использования той же карты для выполнения и дождитесь завершения заказа.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-272">After the deposit is paid, select the option to use the same card for fulfillment, and wait for the order to be completed.</span></span>
+
+<span data-ttu-id="b0fb9-273">Когда заказ скомплектован, упакован и за него выставлен счет в бэк-офисе, сведения об оплате, предоставленные в POS, будут использоваться для фиксации средств за товары, отправляемые клиенту.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-273">When the order is picked, packed, and invoiced in the back office, the payment details that are provided at the POS will be used to capture the funds for the goods that are being shipped to the customer.</span></span> 
+
+## <a name="scenario-details"></a><span data-ttu-id="b0fb9-274">Подробности сценария</span><span class="sxs-lookup"><span data-stu-id="b0fb9-274">Scenario details</span></span>
+
+<span data-ttu-id="b0fb9-275">В дополнение к базовым сценариям, которые только что были описаны, в пакет SDK для модуля "Платежи" были внесены некоторые усовершенствования, поддерживающие омниканальные платежи.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-275">In addition to the basic scenarios that were just described, several enhancements have been made to the Payments SDK to support omni-channel payments.</span></span> 
+
+### <a name="pos"></a><span data-ttu-id="b0fb9-276">POS</span><span class="sxs-lookup"><span data-stu-id="b0fb9-276">POS</span></span>
+
+#### <a name="single-swipedip-for-customer-orders"></a><span data-ttu-id="b0fb9-277">Однократное использование карты для заказов клиента</span><span class="sxs-lookup"><span data-stu-id="b0fb9-277">Single swipe/dip for customer orders</span></span>
+
+<span data-ttu-id="b0fb9-278">До реализации функции омниканальных платежей при создании в POS-терминале заказов клиента, которые включают депозиты, клиентам было необходимо два раза предъявить карту: один раз для оплаты депозита и один раз для токенизации карты для последующего выполнения заказа.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-278">Before the omni-channel payments feature was implemented, when customer orders that included deposits were created at the POS, customers were required to swipe (or dip) their card two times: one time to pay the deposit and one time to tokenize the card for subsequent order fulfillment.</span></span> <span data-ttu-id="b0fb9-279">Когда функция создания омниканальных маркеров включена, клиенты должны предъявить карту только один раз, чтобы оплатить депозит и авторизовать сумму, которая должна быть выплачена за товары, которые будут поставлены позже.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-279">When the omni-channel tokenization feature is turned on, customers must swipe their card only one time to both pay the deposit and authorize the amount that is due for goods that will be fulfilled later.</span></span> <span data-ttu-id="b0fb9-280">Во время выполнения авторизированные средства списываются.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-280">At the time of fulfillment, the authorized funds are captured.</span></span> <span data-ttu-id="b0fb9-281">До реализации функции омниканальной маркировки для последующего выполнения заказа создавался только повторяющийся маркер карты.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-281">Before the omni-channel tokenization feature was implemented, only a recurring card token was created for subsequent order fulfillment.</span></span> <span data-ttu-id="b0fb9-282">Таким образом, средства для ожидающего выполнения не были авторизованы, и поскольку эти средства не были заблокированы для данной покупки, было менее вероятно, что они могут быть списаны позднее.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-282">Therefore, the funds for the pending fulfillment weren't authorized, and because those funds weren't being held for that specific purchase, it was less likely that they could be captured later.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="b0fb9-283">Одно считывание не поддерживается в Retail версии 8.1.3.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-283">Single swipe isn't supported in Retail version 8.1.3.</span></span> <span data-ttu-id="b0fb9-284">Заказы клиентов в версии 8.1.3 используют тот же поток, который использовался до реализации функции омниканальной токенизации.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-284">Customer orders in version 8.1.3 use the same flow that was used before the omni-channel tokenization feature was implemented.</span></span> 
+
+### <a name="cards-that-cant-issue-recurring-card-tokens"></a><span data-ttu-id="b0fb9-285">Карты, которые не могут выдавать повторяющиеся маркеры карт</span><span class="sxs-lookup"><span data-stu-id="b0fb9-285">Cards that can't issue recurring card tokens</span></span>
+
+<span data-ttu-id="b0fb9-286">Некоторые карты не могут использоваться для омниканальных платежей, так как они не поддерживают выдачу повторяющихся маркеров карты.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-286">Some cards can't be used for omni-channel payments, because they don't support issuing recurring card tokens.</span></span> <span data-ttu-id="b0fb9-287">Когда заказ создается на POS-терминале, если депозит оплачивается с помощью карты, которая не поддерживает повторяющиеся маркеры карт, используется предыдущий процесс токенизации карты.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-287">When an order is created at the POS, if the deposit is paid by using a card that doesn't support recurring card tokens, the previous card tokenization flow is used.</span></span> <span data-ttu-id="b0fb9-288">Поэтому клиент, который хочет предоставить платеж, который будет использоваться для последующего выполнения заказа, должен предоставить вторую карту.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-288">Therefore, a customer who wants to provide a payment that will be used for subsequent order fulfillment must present a second card.</span></span> <span data-ttu-id="b0fb9-289">Если вторая карта не поддерживает повторяющиеся маркеры карт, действие токенизации будет отклонено, и кассиру будет предложено попросить клиента предоставить другую карту.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-289">If the second card doesn't support recurring card tokens, the tokenization action will be declined, and the cashier will be prompted to ask the customer to provide a different card.</span></span> 
+
+### <a name="using-a-different-card"></a><span data-ttu-id="b0fb9-290">Использование другой карты</span><span class="sxs-lookup"><span data-stu-id="b0fb9-290">Using a different card</span></span>
+
+<span data-ttu-id="b0fb9-291">Клиент, который пришел в магазин, чтобы забрать заказ, имеет возможность использовать другую карту.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-291">A customer who comes to the store for order pickup has the option to use a different card.</span></span> <span data-ttu-id="b0fb9-292">Когда кассир получает запрос **Использование доступного способа платежа** при получении заказа, он может спросить, хочет ли клиент использовать ту же карту.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-292">When the cashier receives the **Use available payment method** prompt at the time of order pickup, he or she can ask whether the customer wants to use the same card.</span></span> <span data-ttu-id="b0fb9-293">Если клиент потерял карту, которая использовалась для создания заказа, и хочет заплатить за заказ с помощью другой карты, кассир может выбрать разрешается **Использовать другой способ платежа**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-293">If the customer has lost the card that was used to create the order and wants to pay for the order by using a different card, the cashier can select **Use a different payment method**.</span></span> <span data-ttu-id="b0fb9-294">Если позже клиент придет, чтобы забрать дополнительные номенклатуры из того же заказа, если исходная авторизация карты все еще действительна, кассир может снова спросить, хочет ли клиент использовать эту карту.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-294">If the customer comes back later to pick up more items for the same order, if the original card authorization is still valid, the cashier can again ask whether the customer wants to use that card.</span></span>
+
+### <a name="invalid-authorizations"></a><span data-ttu-id="b0fb9-295">Недействительные авторизации</span><span class="sxs-lookup"><span data-stu-id="b0fb9-295">Invalid authorizations</span></span>
+
+<span data-ttu-id="b0fb9-296">Если карта, которая использовалась для создания заказа, больше не действительна, то при выборе продуктов для получения запрос на списание платежа будет неудачным.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-296">If the card that was used to create an order is no longer valid, when products are selected for pickup, the payment capture request will fail.</span></span> <span data-ttu-id="b0fb9-297">После этого соединитель платежей POS попытается создать новую авторизацию и выполнить списание с использованием тех же сведений карты.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-297">The POS payment connector will then try to create a new authorization and capture by using the same card details.</span></span> <span data-ttu-id="b0fb9-298">Если произойдет сбой новой авторизации или списания, кассиру будет сообщено, что платеж не может быть обработан.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-298">If the new authorization or capture fails, the cashier will be informed that the payment could not be processed.</span></span> <span data-ttu-id="b0fb9-299">Затем кассир должен получить новый платеж от клиента.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-299">The cashier must then get a new payment from the customer.</span></span> 
+
+### <a name="multiple-available-payments"></a><span data-ttu-id="b0fb9-300">Несколько доступных платежей</span><span class="sxs-lookup"><span data-stu-id="b0fb9-300">Multiple available payments</span></span>
+
+<span data-ttu-id="b0fb9-301">При получении заказа, в котором имеется несколько платежных средств и несколько строк, кассир сначала получает запрос **Использование доступного способа платежа**.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-301">When an order that has multiple tenders and multiple lines is picked up, the cashier first receives the **Use available payment method** prompt.</span></span> <span data-ttu-id="b0fb9-302">Если есть несколько карт, когда кассир выбирает вариант **Использование доступного способа платежа**, существующие строки карточного платежного средства списываются до тех пор, пока сальдо не будет достигнуто для текущих забираемых товаров.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-302">If there are multiple cards, when the cashier selects **Use available payment method**, existing card tender lines will be captured until the balance is met for the goods that are currently being picked up.</span></span> <span data-ttu-id="b0fb9-303">У кассира нет возможности выбора карты, которая должна использоваться для забираемых товаров.</span><span class="sxs-lookup"><span data-stu-id="b0fb9-303">The cashier won't have the option to select the card that should be used for the goods that are being picked up.</span></span> 
+
+## <a name="related-topics"></a><span data-ttu-id="b0fb9-304">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="b0fb9-304">Related topics</span></span>
+
+- [<span data-ttu-id="b0fb9-305">Вопросы и ответы по платежам</span><span class="sxs-lookup"><span data-stu-id="b0fb9-305">Payments FAQ</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
+- [<span data-ttu-id="b0fb9-306">Соединитель платежей Dynamics 365 для Adyen</span><span class="sxs-lookup"><span data-stu-id="b0fb9-306">Dynamics 365 Payment Connector for Adyen</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
