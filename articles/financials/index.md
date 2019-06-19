@@ -1,105 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="index.md" target-language="ru-RU">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>index.84b867.437c9ba7142dadcb49c9255b119586598511453d.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>437c9ba7142dadcb49c9255b119586598511453d</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\index.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Financial management home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Домашняя страница модуля "Управление финансами"</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этой теме представлен список тем справки и другие ресурсы для функций управления финансами в Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Financial management home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Домашняя страница модуля "Управление финансами"</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этой теме представлен список тем справки и другие ресурсы для функций управления финансами в Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Select a feature area to learn more about it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите область компонентов для получения дополнительных сведений о ней.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source><bpt id="p1">[</bpt>Accounts payable<ept id="p1">](accounts-payable/accounts-payable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Расчеты с поставщиками<ept id="p1">](accounts-payable/accounts-payable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source><bpt id="p1">[</bpt>Accounts receivable<ept id="p1">](accounts-receivable/accounts-receivable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Расчеты с клиентами<ept id="p1">](accounts-receivable/accounts-receivable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source><bpt id="p1">[</bpt>Budgeting<ept id="p1">](budgeting/budgeting-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Бюджетирование<ept id="p1">](budgeting/budgeting-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source><bpt id="p1">[</bpt>Cash and bank management<ept id="p1">](cash-bank-management/cash-bank-management.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Управление банком и кассовыми операциями<ept id="p1">](cash-bank-management/cash-bank-management.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source><bpt id="p1">[</bpt>Cost accounting<ept id="p1">](cost-accounting/cost-accounting-home-page.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Учет затрат<ept id="p1">](cost-accounting/cost-accounting-home-page.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source><bpt id="p1">[</bpt>Expense management<ept id="p1">](expense-management/expense-management.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Управление расходами<ept id="p1">](expense-management/expense-management.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source><bpt id="p1">[</bpt>Financial reporting<ept id="p1">](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Финансовая отчетность<ept id="p1">](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source><bpt id="p1">[</bpt>Fixed assets<ept id="p1">](fixed-assets/fixed-assets.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Основные средства<ept id="p1">](fixed-assets/fixed-assets.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source><bpt id="p1">[</bpt>General ledger<ept id="p1">](general-ledger/general-ledger.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Главная книга<ept id="p1">](general-ledger/general-ledger.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source><bpt id="p1">[</bpt>Project management<ept id="p1">](project-management/overview-project-management-accounting.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Управление проектами<ept id="p1">](project-management/overview-project-management-accounting.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source><bpt id="p1">[</bpt>Public sector<ept id="p1">](public-sector/public-sector-functionality.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Государственный сектор<ept id="p1">](public-sector/public-sector-functionality.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Дополнительные ресурсы</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Blogs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Блоги</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">[</bpt>Microsoft Dynamics 365 blog<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Блог по Microsoft Dynamics 365<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source><bpt id="p1">[</bpt>Financials blog<ept id="p1">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Блог по Financials<ept id="p1">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source><bpt id="p1">[</bpt>Microsoft Dynamics Operations Partner Community Blog<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Блог сообщества партнеров Microsoft Dynamics Operations<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Task guides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проводники по задачам</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Additional help is available as task guides inside Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проводники по задачам в Finance and Operations — это еще один источник справочной информации.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>To access task guides, click the Help button on any page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Чтобы перейти к проводникам по задачам, нажмите кнопку "Справка" на любой странице.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Videos</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Видео</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Check out the how-to videos that are now available on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 YouTube Channel<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Смотрите видео с инструкциями на <bpt id="p1">[</bpt>канале Microsoft Dynamics 365 в YouTube<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Country/region functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Функциональность страны/региона</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Country/region regulations affect tax setup and other areas of financial management.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Законодательство страны/региона влияет на настройку налогов и другие области управления финансами.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Refer to the <bpt id="p1">[</bpt>Localization and regulatory features<ept id="p1">](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)</ept> section of our help content to learn about country/region-specific functionality.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сведения о функциональности, относящейся к конкретным странам и регионам, см. в разделе <bpt id="p1">[</bpt>Локализация и нормативные компоненты<ept id="p1">](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)</ept> нашего справочного содержимого.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Домашняя страница модуля "Управление финансами"
+description: В этой теме представлен список тем справки и другие ресурсы для функций управления финансами в Microsoft Dynamics 365 for Finance and Operations.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2018
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 206434
+ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
+ms.search.region: Global
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 437c9ba7142dadcb49c9255b119586598511453d
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559711"
+---
+# <a name="financial-management-home-page"></a>Домашняя страница модуля "Управление финансами"
+
+[!include [banner](includes/banner.md)]
+
+В этой теме представлен список тем справки и другие ресурсы для функций управления финансами в Microsoft Dynamics 365 for Finance and Operations. 
+
+Выберите область компонентов для получения дополнительных сведений о ней.
+
+:::row:::
+    :::column:::
+        - [Расчеты с поставщиками](accounts-payable/accounts-payable.md) 
+        - [Расчеты с клиентами](accounts-receivable/accounts-receivable.md)
+        - [Бюджетирование](budgeting/budgeting-overview.md) 
+        - [Управление банком и кассовыми операциями](cash-bank-management/cash-bank-management.md)
+        - [Учет затрат](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [Управление расходами](expense-management/expense-management.md)
+        - [Финансовая отчетность](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Основные средства](fixed-assets/fixed-assets.md)
+        - [Главная книга](general-ledger/general-ledger.md) 
+        - [Управление проектами](project-management/overview-project-management-accounting.md)
+        - [Государственный сектор](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
+
+
+## <a name="additional-resources"></a>Дополнительные ресурсы
+
+### <a name="blogs"></a>Блоги
+
+- [Блог по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+- [Блог по Financials](https://community.dynamics.com/365/financeandoperations/b/financials) 
+- [Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
+
+### <a name="task-guides"></a>Проводники по задачам
+Проводники по задачам в Finance and Operations — это еще один источник справочной информации. Чтобы перейти к проводникам по задачам, нажмите кнопку "Справка" на любой странице.
+
+### <a name="videos"></a>Видео
+
+Смотрите видео с инструкциями на [канале Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+### <a name="countryregion-functionality"></a>Функциональность страны/региона
+
+Законодательство страны/региона влияет на настройку налогов и другие области управления финансами. Сведения о функциональности, относящейся к конкретным странам и регионам, см. в разделе [Локализация и нормативные компоненты](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) нашего справочного содержимого.
+
