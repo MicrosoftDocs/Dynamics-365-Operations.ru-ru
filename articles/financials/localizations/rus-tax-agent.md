@@ -1,384 +1,177 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="rus-tax-agent.md" target-language="ru-RU">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>rus-tax-agent.9093c9.4ef6f03ef2548e6bc67dcaae8b373940560e6609.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>4ef6f03ef2548e6bc67dcaae8b373940560e6609</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\rus-tax-agent.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Value-added tax (VAT) for tax agents (Russia)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Налог на добавленную стоимость (НДС) для налоговых агентов (Россия)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic explains how to set up VAT and perform transactions for tax agent for Russia.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этой теме поясняется, как настроить НДС и выполнять проводки для налогового агента для России.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Value-added tax (VAT) for tax agents (Russia)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Налог на добавленную стоимость (НДС) для налоговых агентов (Россия)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>When a company is acknowledged as a tax agent, it must correctly accrue and deduct value-added tax (VAT) from funds that are paid to taxpayers, or it must accrue VAT at the expense of its own funds.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Когда компания признается налоговым агентом, она должна правильно начислять и вычитать налог на добавленную стоимость (НДС) из сумм, выплачиваемых налогоплательщикам, или начислять НДС за счет собственных средств.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>It must then transfer VAT to the tax authority.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Затем она должна переводить НДС налоговому органу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This functionality is required in order to generate invoices, factures, and payments to vendors that the company is defined as a tax agent (fiscal agent) for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Такая функциональная возможность необходима для создания накладных, счетов-фактур и платежей поставщикам, для которых компания определена в качестве налогового агента.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>The following functions are supported:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поддерживаются следующие функции:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Create vendors that your company operates as a tax agent for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание поставщиков, для которых ваша компания выступает в качестве налогового агента.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Mark sales tax codes for tax agent transactions to specify whether the VAT payments must be made from the vendor's funds or at the expense of your company's own funds.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Пометка налоговых кодов для проводок налогового агента для указания того, как должна происходить уплата НДС: из средств поставщика или за счет собственных средств компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Create payment proposals for vendor invoices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание предложений по оплате для накладных поставщиков.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Create payments for tax authorities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание платежей для налоговых органов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Post and settle payments to the vendor.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разноска и сопоставление платежей поставщику.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Create and print factures for the VAT amount that is to be remitted to tax authorities, and register the factures in the sales book</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание и печать счетов-фактур на сумму НДС, которая должна быть перечислена налоговым органам, и регистрация счетов-фактур в книге продаж.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Register factures for VAT deduction in the purchase book.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Регистрация счетов-фактур для вычета НДС в книге покупок.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Set up tax agent transactions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка проводок налогового агента</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Before you can create tax agent transactions, you must set up the parameters for them in the <bpt id="p1">**</bpt>Tax<ept id="p1">**</ept> module.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Прежде чем создавать проводки налогового агента, необходимо настроить параметры для них в модуле <bpt id="p1">**</bpt>Налог<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Set up the VAT operation code for the tax declaration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка кода операции по НДС для налоговой декларации</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Select <bpt id="p1">**</bpt>Tax<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Sales tax<ept id="p3">**</ept> <ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>VAT operation codes<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Налог<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Настройка<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Налог<ept id="p3">**</ept> <ph id="ph3">\&gt;</ph> <bpt id="p4">**</bpt>Коды операций по НДС<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>In the <bpt id="p1">**</bpt>VAT operation code<ept id="p1">**</ept> field, enter the operation code for the VAT declaration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Код операции по НДС<ept id="p1">**</ept> введите код операции для декларации по НДС.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>In the <bpt id="p1">**</bpt>Description<ept id="p1">**</ept> field, enter a description for the transaction code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Описание<ept id="p1">**</ept> введите описание для кода проводки.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Закройте страницу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Set up the sales tax code for tax agent transactions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка налогового кода для проводок налогового агента</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Select <bpt id="p1">**</bpt>Indirect taxes<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Sales tax<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Sales tax codes<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Косвенные налоги<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Налог<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Налоговые коды<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Create a tax code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте налоговый код.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>In the <bpt id="p1">**</bpt>Sales tax code<ept id="p1">**</ept> field, enter a code for sales tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Налоговый код<ept id="p1">**</ept> введите код для налога.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>In the <bpt id="p1">**</bpt>Settlement period<ept id="p1">**</ept> field, select the period that the tax is calculated and paid to the tax authority for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Период сопоставления<ept id="p1">**</ept> выберите период, за который рассчитывается налог и уплачивается налоговому органу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>In the <bpt id="p1">**</bpt>Ledger posting group<ept id="p1">**</ept> field, select the ledger posting group for the sales tax code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Группа разноски ГК<ept id="p1">**</ept> выберите группу разноски ГК для выбранного налогового кода.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>In the <bpt id="p1">**</bpt>Type of tax<ept id="p1">**</ept> field, select either <bpt id="p2">**</bpt>Standard VAT<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Reduced VAT<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Тип налога<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Стандартный НДС<ept id="p2">**</ept> или <bpt id="p3">**</bpt>Пониженный НДС<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>In the <bpt id="p1">**</bpt>VAT charge<ept id="p1">**</ept> field, select the source of VAT accrual:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Начисление НДС<ept id="p1">**</ept> выберите источник начисления НДС:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source><bpt id="p1">**</bpt>From vendor funds<ept id="p1">**</ept> − The VAT payment is made from the vendor's income.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Из средств поставщика<ept id="p1">**</ept> — выплата НДС производится из дохода поставщика.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source><bpt id="p1">**</bpt>From own funds<ept id="p1">**</ept> − The VAT payment is made from the tax agent's funds.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Из собственных средств<ept id="p1">**</ept> — выплата НДС производится из средств налогового агента.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Select <bpt id="p1">**</bpt>Values<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Values<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Значения<ept id="p1">**</ept>, чтобы открыть страницу <bpt id="p2">**</bpt>Значения<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>In the <bpt id="p1">**</bpt>Value<ept id="p1">**</ept> field, enter the VAT percentage.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Значение<ept id="p1">**</ept> введите процент НДС.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Закройте страницу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Select <bpt id="p1">**</bpt>Indirect taxes<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Sales tax<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Sales tax groups<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Косвенные налоги<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Налог<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Налоговые группы<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Create a sales tax group, and enter the required information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте налоговую группу и введите требуемую информацию.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>On the <bpt id="p1">**</bpt>Setup<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Sales tax code<ept id="p2">**</ept> field, select the sales tax code that you created in steps 1 through 10.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Настройка<ept id="p1">**</ept>, в поле <bpt id="p2">**</bpt>Налоговый код<ept id="p2">**</ept> выберите налоговый код, созданный на шагах 1–10.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>If you selected the <bpt id="p1">**</bpt>From own funds<ept id="p1">**</ept> option for the sales tax code in step 7, the <bpt id="p2">**</bpt>Exempt<ept id="p2">**</ept> option is selected by default on the <bpt id="p3">**</bpt>Setup<ept id="p3">**</ept> tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если вы выбрали вариант <bpt id="p1">**</bpt>Из собственных средств<ept id="p1">**</ept> для налогового кода на шаге 7, по умолчанию устанавливается флажок <bpt id="p2">**</bpt>Налоговое освобождение<ept id="p2">**</ept> на вкладке <bpt id="p3">**</bpt>Настройка<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Закройте страницу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Select <bpt id="p1">**</bpt>Indirect taxes<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Sales tax<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Item sales tax groups<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Косвенные налоги<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Налог<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Налоговые группы номенклатур<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Create an item sales tax group, and enter the required information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте налоговую группу номенклатур и введите требуемую информацию.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>On the <bpt id="p1">**</bpt>Setup<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Sales tax code<ept id="p2">**</ept> field, select the sales tax code that you created in steps 1 through 10.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Настройка<ept id="p1">**</ept>, в поле <bpt id="p2">**</bpt>Налоговый код<ept id="p2">**</ept> выберите налоговый код, созданный на шагах 1–10.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Закройте страницу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Set up a vendor tax authority</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка налогового органа поставщика</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Select <bpt id="p1">**</bpt>Indirect taxes<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Sales tax<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Sales tax authorities<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Косвенные налоги<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Налог<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Налоговые органы<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Create a tax authority, and enter the required information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте налоговый орган и введите требуемую информацию.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>In the <bpt id="p1">**</bpt>Vendor account<ept id="p1">**</ept> field, select the vendor that operates as the tax authority.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Счет поставщика<ept id="p1">**</ept> выберите поставщика, который выступает в качестве налогового органа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Закройте страницу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Create a vendor that your company acts as a tax agent for, and post transactions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание поставщика, для которого ваша компания выступает в качестве налогового агента, и разноска проводок</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>On the <bpt id="p1">**</bpt>Vendors<ept id="p1">**</ept> page, you can define a vendor as a tax agent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Поставщики<ept id="p1">**</ept> можно определить поставщика в качестве налогового агента.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>You can then perform transactions with this vendor.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">После этого можно совершать транзакции с этим поставщиком.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Select <bpt id="p1">**</bpt>Accounts payable<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Vendors<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>All vendors<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Расчеты с поставщиками<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Поставщики<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Все поставщики<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Create a vendor that your company acts as a tax agent for, and enter the required information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте поставщика, для которого ваша компания выступает в качестве налогового агента, и введите необходимую информацию.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> tab, set the <bpt id="p2">**</bpt>Tax agent<ept id="p2">**</ept> option to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept> to define the vendor as a tax agent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Общее<ept id="p1">**</ept> установите для параметра <bpt id="p2">**</bpt>Налоговый агент<ept id="p2">**</ept> значение <bpt id="p3">**</bpt>Да<ept id="p3">**</ept>, чтобы определить поставщика как налогового агента.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>In the <bpt id="p1">**</bpt>Vendor type<ept id="p1">**</ept> field, select the type of vendor:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Тип поставщика<ept id="p1">**</ept> выберите тип поставщика:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source><bpt id="p1">**</bpt>Blank<ept id="p1">**</ept> – The vendor is a common vendor.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Пустое поле<ept id="p1">**</ept> — поставщик является обычным поставщиком.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source><bpt id="p1">**</bpt>Non resident<ept id="p1">**</ept> – The vendor is a foreigner.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Нерезидент<ept id="p1">**</ept> — Поставщик — иностранец.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source><bpt id="p1">**</bpt>State authority<ept id="p1">**</ept> – The vendor is a governmental or municipal authority.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Государственный орган<ept id="p1">**</ept> — Поставщик — правительственная или муниципальная организация.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>In the <bpt id="p1">**</bpt>VAT operation code<ept id="p1">**</ept> field, select the operation code for the VAT declaration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Код операции по НДС<ept id="p1">**</ept> выберите код операции для декларации по НДС.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Закройте страницу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Select <bpt id="p1">**</bpt>Accounts payable<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Purchase orders<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>All purchase orders<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Расчеты с поставщиками<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Заказы на покупку<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Все заказы на покупку<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Create a purchase order for the vendor, and enter the required information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте заказ на покупку для поставщика и введите необходимую информацию.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Select <bpt id="p1">**</bpt>Header<ept id="p1">**</ept> to open the Header view, and then, on the <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> tab, in the <bpt id="p3">**</bpt>VAT operation code<ept id="p3">**</ept> field, view or modify the code for the VAT declaration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Заголовок<ept id="p1">**</ept> чтобы открыть представление заголовка, а затем на вкладке <bpt id="p2">**</bpt>Настройка<ept id="p2">**</ept> в поле <bpt id="p3">**</bpt>Код операции по НДС<ept id="p3">**</ept> просмотрите или измените код для декларации по НДС.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>In the <bpt id="p1">**</bpt>VAT charge<ept id="p1">**</ept> field, select the source of VAT accrual: <bpt id="p2">**</bpt>From vendor funds<ept id="p2">**</ept> or <bpt id="p3">**</bpt>From own funds<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Начисление НДС<ept id="p1">**</ept> выберите источник начисления НДС: <bpt id="p2">**</bpt>Из средств поставщика<ept id="p2">**</ept> или <bpt id="p3">**</bpt>Из собственных средств<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Confirm the purchase order, and post the invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Подтвердите заказ на покупку и разнесите накладную.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Create tax payments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание налоговых платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>In the Vendor payment journal, two options for paying VAT as a tax agent are implemented:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В журнале платежей поставщикам реализованы два варианта уплаты НДС в качестве налогового агента:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Payment for a specific invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Уплата по выбранной накладной</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Prepayment (invoice is unknown)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Предоплата (накладная неизвестна)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Create a payment proposal for a tax agent invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание предложения по оплате для накладной налогового агента</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>On the <bpt id="p1">**</bpt>Vendor payment proposal<ept id="p1">**</ept> page, you can create payment proposals that you can use to generate payments to a vendor tax agent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Предложение по оплате от поставщика<ept id="p1">**</ept> можно создавать предложения по оплате, которые можно использовать для формирования платежей поставщику-налоговому агенту.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>You can also generate VAT payments to a tax authority.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно также формировать выплаты НДС налоговому органу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Select <bpt id="p1">**</bpt>Accounts payable<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Payments<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Payment journal<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Расчеты с поставщиками<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Платежи<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Журнал платежей<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Create a journal, and then select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Vendor payments<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте журнал, затем выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>, чтобы открыть страницу <bpt id="p2">**</bpt>Платежи поставщикам<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Select <bpt id="p1">**</bpt>Payment proposal<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Create payment proposal<ept id="p2">**</ept> to open the <bpt id="p3">**</bpt>Vendor payment proposal<ept id="p3">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Предложение по оплате<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Создать предложение по оплате<ept id="p2">**</ept>, чтобы открыть страницу <bpt id="p3">**</bpt>Предложение по оплате от поставщика<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>In the <bpt id="p1">**</bpt>Select invoices by<ept id="p1">**</ept> field, select the type of payment proposal to create.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Выбрать накладные по<ept id="p1">**</ept> выберите тип предложения по оплате, которое необходимо создать.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>You can create the proposal by due date, by cash discount date, or by both due date and cash discount date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Предложение можно создать по дате оплаты, дате скидки за оплату наличными, или и по дате оплаты, и по дате скидки за оплату наличными.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Select <bpt id="p1">**</bpt>Records to include<ept id="p1">**</ept>, and then select <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept> to define the criteria for the payment proposal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Включаемые записи<ept id="p1">**</ept>, а затем выберите <bpt id="p2">**</bpt>Фильтр<ept id="p2">**</ept>, чтобы определить критерии для предложения по оплате.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>For example, you can use the vendor account as a criterion.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Например, можно использовать в качестве критерия счет поставщика.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Vendor payment proposal<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>, чтобы открыть страницу <bpt id="p2">**</bpt>Предложение по оплате от поставщика<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>In the upper pane, you can view the open invoice transactions that contribute to the payment proposal line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В верхней области можно просмотреть открытые проводки по накладным, которые вносят свой вклад в строку предложения по оплате.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>On the <bpt id="p1">**</bpt>VAT Proposal<ept id="p1">**</ept> tab, you can view the details of the tax transaction for the VAT payment to the tax authorities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Предложение по НДС<ept id="p1">**</ept> можно просмотреть сведения о налоговой проводке по уплате НДС налоговому органу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Select <bpt id="p1">**</bpt>Create payments<ept id="p1">**</ept> to transfer the proposal lines to the payment journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Создать платежи<ept id="p1">**</ept>, чтобы перенести строки предложения в журнал платежей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>The <bpt id="p1">**</bpt>Vendor payments<ept id="p1">**</ept> page shows two payment lines for each invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Платежи поставщикам<ept id="p1">**</ept> отображается по две строки платежа для каждой накладной.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>One line is for a payment to a vendor, and the other line is for a tax payment to a tax authority.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Одна строка — это платеж поставщику, а другая — налоговый платеж в налоговый орган.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>On the second journal line, the <bpt id="p1">**</bpt>Purpose text<ept id="p1">**</ept> field shows the purpose of the VAT payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На второй строке журнала в поле <bpt id="p1">**</bpt>Назначение платежа<ept id="p1">**</ept> отображается назначение платежа НДС.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>The vendor account number and address are included.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Также отображаются номер счета и адрес поставщика.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>For the line that is a tax payment to a tax authority, the <bpt id="p1">**</bpt>Sales tax code<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>General<ept id="p2">**</ept> tab shows the sales tax code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Для строки, которая представляет собой налоговый платеж в налоговый орган, в поле <bpt id="p1">**</bpt>Налоговый код<ept id="p1">**</ept> на вкладке <bpt id="p2">**</bpt>Общие<ept id="p2">**</ept> отображается налоговый код.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>The <bpt id="p1">**</bpt>Vendor account<ept id="p1">**</ept> field on the <bpt id="p2">**</bpt>Payment<ept id="p2">**</ept> tab shows the vendor account that the tax is paid for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Счет поставщика<ept id="p1">**</ept> на вкладке <bpt id="p2">**</bpt>Платеж<ept id="p2">**</ept> отображается счет поставщика, за которого уплачивается налог.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>In the <bpt id="p1">**</bpt>VAT operation code<ept id="p1">**</ept> field, view or modify the operation code for the VAT declaration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Код операции по НДС<ept id="p1">**</ept> просмотрите или измените код операции для декларации по НДС.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Select <bpt id="p1">**</bpt>Generate payments<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Generate payments<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Создание платежей<ept id="p1">**</ept>, чтобы открыть страницу <bpt id="p2">**</bpt>Создание платежей<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>Select either the payment method or the export format, depending on the method of payment on the journal line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите способ оплаты или формат экспорта в зависимости от метода платежа, указанного в строке журнала.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>Then select the bank account to draw the payment from, and enter the required information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите банковский счет для осуществления платежа и введите нужную информацию.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Select <bpt id="p1">**</bpt>Print<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Payment order<ept id="p2">**</ept> to print the payment order report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Печать<ept id="p1">**</ept><ph id="ph1">\&gt;</ph><bpt id="p2">**</bpt>Платежное поручение<ept id="p2">**</ept>, чтобы распечатать отчет о платежном поручении.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>On the <bpt id="p1">**</bpt>Journal voucher<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Validate<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Validate<ept id="p3">**</ept> to validate the journal line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Ваучер журнала<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Проверить<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Проверить<ept id="p3">**</ept>, чтобы проверить строку журнала.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Then select <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Post<ept id="p2">**</ept> to post the journal lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Затем выберите <bpt id="p1">**</bpt>Разнести<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Разнести<ept id="p2">**</ept> , чтобы разнести строки журнала.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>After payments to the vendor are completed, you can view the settled transactions on the <bpt id="p1">**</bpt>Transactions on settlement<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">После того как платежи налоговому агенту поставщика совершены, можно просмотреть сопоставленные проводки на странице <bpt id="p1">**</bpt>Проводки по сопоставлению<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>You can view the posted sales tax transactions on the <bpt id="p1">**</bpt>Sales tax transactions<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотреть разнесенные налоговые проводки можно на странице <bpt id="p1">**</bpt>Налоговые проводки<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>Create a prepayment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание предоплаты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>Select <bpt id="p1">**</bpt>Accounts payable<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Payments<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Payment journal<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Расчеты с поставщиками<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Платежи<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Журнал платежей<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Create a journal, and then select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept> to open the <bpt id="p2">**</bpt>Vendor payments<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте журнал, затем выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>, чтобы открыть страницу <bpt id="p2">**</bpt>Платежи поставщикам<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>Create a new journal line, select the vendor, and enter a prepayment amount.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте новую строку журнала, выберите поставщика и введите сумму предоплаты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>Specify the sales tax group and item sales tax group that contain the sales tax code that has the required setup of the VAT charge.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Укажите налоговую группу и налоговую группу номенклатур, содержащие налоговый код с необходимой настройкой начисления НДС.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>The VAT amount that must be paid is calculated based on the value of the sales tax code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Подлежащая уплате сумма НДС рассчитывается на основании значения налогового кода.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>To prevent tax from being calculated on the prepayment itself, on the <bpt id="p1">**</bpt>Accounts payable parameters<ept id="p1">**</ept> page, on the <bpt id="p2">**</bpt>Ledger and sales tax<ept id="p2">**</ept> tab, set the <bpt id="p3">**</bpt>Sales tax on prepayment in payment journal<ept id="p3">**</ept> option to <bpt id="p4">**</bpt>No<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Чтобы запретить расчет налога на саму предоплату, на странице <bpt id="p1">**</bpt>Параметры модуля расчетов с поставщиками<ept id="p1">**</ept> на вкладке <bpt id="p2">**</bpt>Главная книга и налог<ept id="p2">**</ept> установите для параметра <bpt id="p3">**</bpt>Налог по предоплате в журнале платежей<ept id="p3">**</ept> значение <bpt id="p4">**</bpt>Нет<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Select <bpt id="p1">**</bpt>Payment proposal<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>VAT Proposal<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Предложение по оплате<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Предложение по НДС<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>The tax payment line that is created includes information about the tax code, the VAT operation code, and the supplier that you pay the tax for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Созданная строка налогового платежа включает информацию о налоговом коде, код операции по НДС и поставщика, за которого вы уплачиваете налог.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Create and print factures for VAT deductions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание и печать счетов-фактур для вычетов НДС</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Before you can create and print a facture report for received invoices, issued invoices, purchases, or sales in estimates of VAT, you must complete the following tasks.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Прежде чем можно будет создать и распечатать отчет о счетах-фактурах для полученных накладных, выпущенных накладных, покупок или продаж в оценках НДС, необходимо выполнить следующие задачи:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Set up the parameters for a tax agent transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройте параметры проводок налоговых агентов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>Define a vendor as a tax agent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определите поставщика в качестве налогового агента.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Create and post a purchase order that has a sales tax group and an item sales tax group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте и разнесите заказ на покупку с налоговой группой и налоговой группой номенклатуры.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Create a payment proposal, and post the payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте предложение по оплате и разнесите платеж.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>As a result of tax payment posting, sales tax transactions are created that have the following tax directions:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В результате разноски налогового платежа создаются налоговые проводки со следующими направлениями налога:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source><bpt id="p1">**</bpt>Tax agent – charged<ept id="p1">**</ept> – Accrued VAT that must be paid.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Налоговый агент - начислено<ept id="p1">**</ept> — начисленный НДС, который должен быть уплачен.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>A facture document is created on this sales tax transaction and will be reflected in the sales book.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">По этой налоговой проводке создается документ-фактура, который будет отражен в книге продаж.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source><bpt id="p1">**</bpt>Sales tax receivable<ept id="p1">**</ept> – VAT that must be deducted because the VAT amount was transferred to the tax authority.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Входящий налог<ept id="p1">**</ept> — НДС, который следует вычесть, потому что сумма НДС была переведена налоговому органу.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>The facture is created on the sales tax transaction and will be reflected in the purchase book after VAT incoming is processed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">По налоговой проводке создается счет-фактура, который будет отражен в книге покупок после обработки входящего НДС.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>Select <bpt id="p1">**</bpt>Accounts payable<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Inquiries and reports<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Facture<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Расчеты с поставщиками<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Запросы и отчеты<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Фактура<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>Select <bpt id="p1">**</bpt>Print<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Original<ept id="p2">**</ept> for the facture that is created on the <bpt id="p3">**</bpt>Tax agent - charged<ept id="p3">**</ept> sales tax transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Печать<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Исходный<ept id="p2">**</ept> для счет-фактуры, созданной для налоговой проводки <bpt id="p3">**</bpt>Налоговый агент - начислено<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>The facture report shows the number and date of the payment order, the base amount without VAT, and the computational tax rate (VAT value ÷ VAT value + 100).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В отчете о счете-фактуре отображается номер и дата платежного поручения, базовая сумма без НДС и расчетная ставка налога (значение НДС ÷ значение НДС + 100).</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Налог на добавленную стоимость (НДС) для налоговых агентов (Россия)
+description: В этой теме поясняется, как настроить НДС и выполнять проводки для налогового агента для России.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/28/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: TaxAuthority, VATOperationCodeTable_RU
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Russia
+ms.author: shylaw
+ms.search.validFrom: 2018-10-28
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 4ef6f03ef2548e6bc67dcaae8b373940560e6609
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555180"
+---
+# <a name="value-added-tax-vat-for-tax-agents-russia"></a><span data-ttu-id="b8e98-103">Налог на добавленную стоимость (НДС) для налоговых агентов (Россия)</span><span class="sxs-lookup"><span data-stu-id="b8e98-103">Value-added tax (VAT) for tax agents (Russia)</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="b8e98-104">Когда компания признается налоговым агентом, она должна правильно начислять и вычитать налог на добавленную стоимость (НДС) из сумм, выплачиваемых налогоплательщикам, или начислять НДС за счет собственных средств.</span><span class="sxs-lookup"><span data-stu-id="b8e98-104">When a company is acknowledged as a tax agent, it must correctly accrue and deduct value-added tax (VAT) from funds that are paid to taxpayers, or it must accrue VAT at the expense of its own funds.</span></span> <span data-ttu-id="b8e98-105">Затем она должна переводить НДС налоговому органу.</span><span class="sxs-lookup"><span data-stu-id="b8e98-105">It must then transfer VAT to the tax authority.</span></span>
+
+<span data-ttu-id="b8e98-106">Такая функциональная возможность необходима для создания накладных, счетов-фактур и платежей поставщикам, для которых компания определена в качестве налогового агента.</span><span class="sxs-lookup"><span data-stu-id="b8e98-106">This functionality is required in order to generate invoices, factures, and payments to vendors that the company is defined as a tax agent (fiscal agent) for.</span></span>
+
+<span data-ttu-id="b8e98-107">Поддерживаются следующие функции:</span><span class="sxs-lookup"><span data-stu-id="b8e98-107">The following functions are supported:</span></span>
+
+- <span data-ttu-id="b8e98-108">Создание поставщиков, для которых ваша компания выступает в качестве налогового агента.</span><span class="sxs-lookup"><span data-stu-id="b8e98-108">Create vendors that your company operates as a tax agent for.</span></span>
+- <span data-ttu-id="b8e98-109">Пометка налоговых кодов для проводок налогового агента для указания того, как должна происходить уплата НДС: из средств поставщика или за счет собственных средств компании.</span><span class="sxs-lookup"><span data-stu-id="b8e98-109">Mark sales tax codes for tax agent transactions to specify whether the VAT payments must be made from the vendor's funds or at the expense of your company's own funds.</span></span>
+- <span data-ttu-id="b8e98-110">Создание предложений по оплате для накладных поставщиков.</span><span class="sxs-lookup"><span data-stu-id="b8e98-110">Create payment proposals for vendor invoices.</span></span>
+- <span data-ttu-id="b8e98-111">Создание платежей для налоговых органов.</span><span class="sxs-lookup"><span data-stu-id="b8e98-111">Create payments for tax authorities.</span></span>
+- <span data-ttu-id="b8e98-112">Разноска и сопоставление платежей поставщику.</span><span class="sxs-lookup"><span data-stu-id="b8e98-112">Post and settle payments to the vendor.</span></span>
+- <span data-ttu-id="b8e98-113">Создание и печать счетов-фактур на сумму НДС, которая должна быть перечислена налоговым органам, и регистрация счетов-фактур в книге продаж.</span><span class="sxs-lookup"><span data-stu-id="b8e98-113">Create and print factures for the VAT amount that is to be remitted to tax authorities, and register the factures in the sales book</span></span> 
+- <span data-ttu-id="b8e98-114">Регистрация счетов-фактур для вычета НДС в книге покупок.</span><span class="sxs-lookup"><span data-stu-id="b8e98-114">Register factures for VAT deduction in the purchase book.</span></span>
+
+## <a name="set-up-tax-agent-transactions"></a><span data-ttu-id="b8e98-115">Настройка проводок налогового агента</span><span class="sxs-lookup"><span data-stu-id="b8e98-115">Set up tax agent transactions</span></span>
+
+<span data-ttu-id="b8e98-116">Прежде чем создавать проводки налогового агента, необходимо настроить параметры для них в модуле **Налог**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-116">Before you can create tax agent transactions, you must set up the parameters for them in the **Tax** module.</span></span>
+
+### <a name="set-up-the-vat-operation-code-for-the-tax-declaration"></a><span data-ttu-id="b8e98-117">Настройка кода операции по НДС для налоговой декларации</span><span class="sxs-lookup"><span data-stu-id="b8e98-117">Set up the VAT operation code for the tax declaration</span></span>
+
+1. <span data-ttu-id="b8e98-118">Выберите **Налог** \> **Настройка** \> **Налог** \> **Коды операций по НДС**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-118">Select **Tax** \> **Setup** \> **Sales tax** \> **VAT operation codes**.</span></span>
+2. <span data-ttu-id="b8e98-119">В поле **Код операции по НДС** введите код операции для декларации по НДС.</span><span class="sxs-lookup"><span data-stu-id="b8e98-119">In the **VAT operation code** field, enter the operation code for the VAT declaration.</span></span>
+3. <span data-ttu-id="b8e98-120">В поле **Описание** введите описание для кода проводки.</span><span class="sxs-lookup"><span data-stu-id="b8e98-120">In the **Description** field, enter a description for the transaction code.</span></span>
+4. <span data-ttu-id="b8e98-121">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="b8e98-121">Close the page.</span></span>
+
+### <a name="set-up-the-sales-tax-code-for-tax-agent-transactions"></a><span data-ttu-id="b8e98-122">Настройка налогового кода для проводок налогового агента</span><span class="sxs-lookup"><span data-stu-id="b8e98-122">Set up the sales tax code for tax agent transactions</span></span>
+
+1. <span data-ttu-id="b8e98-123">Выберите **Косвенные налоги** \> **Налог** \> **Налоговые коды**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-123">Select **Indirect taxes** \> **Sales tax** \> **Sales tax codes**.</span></span>
+2. <span data-ttu-id="b8e98-124">Создайте налоговый код.</span><span class="sxs-lookup"><span data-stu-id="b8e98-124">Create a tax code.</span></span>
+3. <span data-ttu-id="b8e98-125">В поле **Налоговый код** введите код для налога.</span><span class="sxs-lookup"><span data-stu-id="b8e98-125">In the **Sales tax code** field, enter a code for sales tax.</span></span>
+4. <span data-ttu-id="b8e98-126">В поле **Период сопоставления** выберите период, за который рассчитывается налог и уплачивается налоговому органу.</span><span class="sxs-lookup"><span data-stu-id="b8e98-126">In the **Settlement period** field, select the period that the tax is calculated and paid to the tax authority for.</span></span>
+5. <span data-ttu-id="b8e98-127">В поле **Группа разноски ГК** выберите группу разноски ГК для выбранного налогового кода.</span><span class="sxs-lookup"><span data-stu-id="b8e98-127">In the **Ledger posting group** field, select the ledger posting group for the sales tax code.</span></span>
+6. <span data-ttu-id="b8e98-128">В поле **Тип налога** выберите **Стандартный НДС** или **Пониженный НДС**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-128">In the **Type of tax** field, select either **Standard VAT** or **Reduced VAT**.</span></span>
+7. <span data-ttu-id="b8e98-129">В поле **Начисление НДС** выберите источник начисления НДС:</span><span class="sxs-lookup"><span data-stu-id="b8e98-129">In the **VAT charge** field, select the source of VAT accrual:</span></span>
+
+    - <span data-ttu-id="b8e98-130">**Из средств поставщика** — выплата НДС производится из дохода поставщика.</span><span class="sxs-lookup"><span data-stu-id="b8e98-130">**From vendor funds** − The VAT payment is made from the vendor's income.</span></span>
+    - <span data-ttu-id="b8e98-131">**Из собственных средств** — выплата НДС производится из средств налогового агента.</span><span class="sxs-lookup"><span data-stu-id="b8e98-131">**From own funds** − The VAT payment is made from the tax agent's funds.</span></span>
+
+8. <span data-ttu-id="b8e98-132">Выберите **Значения**, чтобы открыть страницу **Значения**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-132">Select **Values** to open the **Values** page.</span></span>
+9. <span data-ttu-id="b8e98-133">В поле **Значение** введите процент НДС.</span><span class="sxs-lookup"><span data-stu-id="b8e98-133">In the **Value** field, enter the VAT percentage.</span></span>
+10. <span data-ttu-id="b8e98-134">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="b8e98-134">Close the page.</span></span>
+11. <span data-ttu-id="b8e98-135">Выберите **Косвенные налоги** \> **Налог** \> **Налоговые группы**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-135">Select **Indirect taxes** \> **Sales tax** \> **Sales tax groups**.</span></span>
+12. <span data-ttu-id="b8e98-136">Создайте налоговую группу и введите требуемую информацию.</span><span class="sxs-lookup"><span data-stu-id="b8e98-136">Create a sales tax group, and enter the required information.</span></span>
+13. <span data-ttu-id="b8e98-137">На вкладке **Настройка**, в поле **Налоговый код** выберите налоговый код, созданный на шагах 1–10.</span><span class="sxs-lookup"><span data-stu-id="b8e98-137">On the **Setup** tab, in the **Sales tax code** field, select the sales tax code that you created in steps 1 through 10.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="b8e98-138">Если вы выбрали вариант **Из собственных средств** для налогового кода на шаге 7, по умолчанию устанавливается флажок **Налоговое освобождение** на вкладке **Настройка**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-138">If you selected the **From own funds** option for the sales tax code in step 7, the **Exempt** option is selected by default on the **Setup** tab.</span></span>
+
+14. <span data-ttu-id="b8e98-139">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="b8e98-139">Close the page.</span></span>
+15. <span data-ttu-id="b8e98-140">Выберите **Косвенные налоги** \> **Налог** \> **Налоговые группы номенклатур**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-140">Select **Indirect taxes** \> **Sales tax** \> **Item sales tax groups**.</span></span>
+16. <span data-ttu-id="b8e98-141">Создайте налоговую группу номенклатур и введите требуемую информацию.</span><span class="sxs-lookup"><span data-stu-id="b8e98-141">Create an item sales tax group, and enter the required information.</span></span> 
+17. <span data-ttu-id="b8e98-142">На вкладке **Настройка**, в поле **Налоговый код** выберите налоговый код, созданный на шагах 1–10.</span><span class="sxs-lookup"><span data-stu-id="b8e98-142">On the **Setup** tab, in the **Sales tax code** field, select the sales tax code that you created in steps 1 through 10.</span></span>
+18. <span data-ttu-id="b8e98-143">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="b8e98-143">Close the page.</span></span>
+
+### <a name="set-up-a-vendor-tax-authority"></a><span data-ttu-id="b8e98-144">Настройка налогового органа поставщика</span><span class="sxs-lookup"><span data-stu-id="b8e98-144">Set up a vendor tax authority</span></span>
+
+1. <span data-ttu-id="b8e98-145">Выберите **Косвенные налоги** \> **Налог** \> **Налоговые органы**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-145">Select **Indirect taxes** \> **Sales tax** \> **Sales tax authorities**.</span></span>
+2. <span data-ttu-id="b8e98-146">Создайте налоговый орган и введите требуемую информацию.</span><span class="sxs-lookup"><span data-stu-id="b8e98-146">Create a tax authority, and enter the required information.</span></span>
+3. <span data-ttu-id="b8e98-147">В поле **Счет поставщика** выберите поставщика, который выступает в качестве налогового органа.</span><span class="sxs-lookup"><span data-stu-id="b8e98-147">In the **Vendor account** field, select the vendor that operates as the tax authority.</span></span>
+4. <span data-ttu-id="b8e98-148">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="b8e98-148">Close the page.</span></span>
+
+## <a name="create-a-vendor-that-your-company-acts-as-a-tax-agent-for-and-post-transactions"></a><span data-ttu-id="b8e98-149">Создание поставщика, для которого ваша компания выступает в качестве налогового агента, и разноска проводок</span><span class="sxs-lookup"><span data-stu-id="b8e98-149">Create a vendor that your company acts as a tax agent for, and post transactions</span></span>
+
+<span data-ttu-id="b8e98-150">На странице **Поставщики** можно определить поставщика в качестве налогового агента.</span><span class="sxs-lookup"><span data-stu-id="b8e98-150">On the **Vendors** page, you can define a vendor as a tax agent.</span></span> <span data-ttu-id="b8e98-151">После этого можно совершать транзакции с этим поставщиком.</span><span class="sxs-lookup"><span data-stu-id="b8e98-151">You can then perform transactions with this vendor.</span></span>
+
+1. <span data-ttu-id="b8e98-152">Выберите **Расчеты с поставщиками** \> **Поставщики** \> **Все поставщики**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-152">Select **Accounts payable** \> **Vendors** \> **All vendors**.</span></span>
+2. <span data-ttu-id="b8e98-153">Создайте поставщика, для которого ваша компания выступает в качестве налогового агента, и введите необходимую информацию.</span><span class="sxs-lookup"><span data-stu-id="b8e98-153">Create a vendor that your company acts as a tax agent for, and enter the required information.</span></span>
+3. <span data-ttu-id="b8e98-154">На вкладке **Общее** установите для параметра **Налоговый агент** значение **Да**, чтобы определить поставщика как налогового агента.</span><span class="sxs-lookup"><span data-stu-id="b8e98-154">On the **General** tab, set the **Tax agent** option to **Yes** to define the vendor as a tax agent.</span></span>
+4. <span data-ttu-id="b8e98-155">В поле **Тип поставщика** выберите тип поставщика:</span><span class="sxs-lookup"><span data-stu-id="b8e98-155">In the **Vendor type** field, select the type of vendor:</span></span>
+
+    - <span data-ttu-id="b8e98-156">**Пустое поле** — поставщик является обычным поставщиком.</span><span class="sxs-lookup"><span data-stu-id="b8e98-156">**Blank** – The vendor is a common vendor.</span></span>
+    - <span data-ttu-id="b8e98-157">**Нерезидент** — Поставщик — иностранец.</span><span class="sxs-lookup"><span data-stu-id="b8e98-157">**Non resident** – The vendor is a foreigner.</span></span>
+    - <span data-ttu-id="b8e98-158">**Государственный орган** — Поставщик — правительственная или муниципальная организация.</span><span class="sxs-lookup"><span data-stu-id="b8e98-158">**State authority** – The vendor is a governmental or municipal authority.</span></span>
+
+5. <span data-ttu-id="b8e98-159">В поле **Код операции по НДС** выберите код операции для декларации по НДС.</span><span class="sxs-lookup"><span data-stu-id="b8e98-159">In the **VAT operation code** field, select the operation code for the VAT declaration.</span></span>
+6. <span data-ttu-id="b8e98-160">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="b8e98-160">Close the page.</span></span>
+7. <span data-ttu-id="b8e98-161">Выберите **Расчеты с поставщиками** \> **Заказы на покупку** \> **Все заказы на покупку**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-161">Select **Accounts payable** \> **Purchase orders** \> **All purchase orders**.</span></span>
+8. <span data-ttu-id="b8e98-162">Создайте заказ на покупку для поставщика и введите необходимую информацию.</span><span class="sxs-lookup"><span data-stu-id="b8e98-162">Create a purchase order for the vendor, and enter the required information.</span></span>
+9. <span data-ttu-id="b8e98-163">Выберите **Заголовок** чтобы открыть представление заголовка, а затем на вкладке **Настройка** в поле **Код операции по НДС** просмотрите или измените код для декларации по НДС.</span><span class="sxs-lookup"><span data-stu-id="b8e98-163">Select **Header** to open the Header view, and then, on the **Setup** tab, in the **VAT operation code** field, view or modify the code for the VAT declaration.</span></span>
+10. <span data-ttu-id="b8e98-164">В поле **Начисление НДС** выберите источник начисления НДС: **Из средств поставщика** или **Из собственных средств**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-164">In the **VAT charge** field, select the source of VAT accrual: **From vendor funds** or **From own funds**.</span></span>
+11. <span data-ttu-id="b8e98-165">Подтвердите заказ на покупку и разнесите накладную.</span><span class="sxs-lookup"><span data-stu-id="b8e98-165">Confirm the purchase order, and post the invoice.</span></span>
+
+## <a name="create-tax-payments"></a><span data-ttu-id="b8e98-166">Создание налоговых платежей</span><span class="sxs-lookup"><span data-stu-id="b8e98-166">Create tax payments</span></span>
+
+<span data-ttu-id="b8e98-167">В журнале платежей поставщикам реализованы два варианта уплаты НДС в качестве налогового агента:</span><span class="sxs-lookup"><span data-stu-id="b8e98-167">In the Vendor payment journal, two options for paying VAT as a tax agent are implemented:</span></span>
+
+- <span data-ttu-id="b8e98-168">Уплата по выбранной накладной</span><span class="sxs-lookup"><span data-stu-id="b8e98-168">Payment for a specific invoice</span></span>
+- <span data-ttu-id="b8e98-169">Предоплата (накладная неизвестна)</span><span class="sxs-lookup"><span data-stu-id="b8e98-169">Prepayment (invoice is unknown)</span></span>
+
+### <a name="create-a-payment-proposal-for-a-tax-agent-invoice"></a><span data-ttu-id="b8e98-170">Создание предложения по оплате для накладной налогового агента</span><span class="sxs-lookup"><span data-stu-id="b8e98-170">Create a payment proposal for a tax agent invoice</span></span>
+
+<span data-ttu-id="b8e98-171">На странице **Предложение по оплате от поставщика** можно создавать предложения по оплате, которые можно использовать для формирования платежей поставщику-налоговому агенту.</span><span class="sxs-lookup"><span data-stu-id="b8e98-171">On the **Vendor payment proposal** page, you can create payment proposals that you can use to generate payments to a vendor tax agent.</span></span> <span data-ttu-id="b8e98-172">Можно также формировать выплаты НДС налоговому органу.</span><span class="sxs-lookup"><span data-stu-id="b8e98-172">You can also generate VAT payments to a tax authority.</span></span>
+
+1. <span data-ttu-id="b8e98-173">Выберите **Расчеты с поставщиками** \> **Платежи** \> **Журнал платежей**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-173">Select **Accounts payable** \> **Payments** \> **Payment journal**.</span></span>
+2. <span data-ttu-id="b8e98-174">Создайте журнал, затем выберите **Строки**, чтобы открыть страницу **Платежи поставщикам**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-174">Create a journal, and then select **Lines** to open the **Vendor payments** page.</span></span>
+3. <span data-ttu-id="b8e98-175">Выберите **Предложение по оплате** \> **Создать предложение по оплате**, чтобы открыть страницу **Предложение по оплате от поставщика**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-175">Select **Payment proposal** \> **Create payment proposal** to open the **Vendor payment proposal** page.</span></span>
+4. <span data-ttu-id="b8e98-176">В поле **Выбрать накладные по** выберите тип предложения по оплате, которое необходимо создать.</span><span class="sxs-lookup"><span data-stu-id="b8e98-176">In the **Select invoices by** field, select the type of payment proposal to create.</span></span> <span data-ttu-id="b8e98-177">Предложение можно создать по дате оплаты, дате скидки за оплату наличными, или и по дате оплаты, и по дате скидки за оплату наличными.</span><span class="sxs-lookup"><span data-stu-id="b8e98-177">You can create the proposal by due date, by cash discount date, or by both due date and cash discount date.</span></span>
+5. <span data-ttu-id="b8e98-178">Выберите **Включаемые записи**, а затем выберите **Фильтр**, чтобы определить критерии для предложения по оплате.</span><span class="sxs-lookup"><span data-stu-id="b8e98-178">Select **Records to include**, and then select **Filter** to define the criteria for the payment proposal.</span></span> <span data-ttu-id="b8e98-179">Например, можно использовать в качестве критерия счет поставщика.</span><span class="sxs-lookup"><span data-stu-id="b8e98-179">For example, you can use the vendor account as a criterion.</span></span>
+6. <span data-ttu-id="b8e98-180">Выберите **OK**, чтобы открыть страницу **Предложение по оплате от поставщика**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-180">Select **OK** to open the **Vendor payment proposal** page.</span></span> <span data-ttu-id="b8e98-181">В верхней области можно просмотреть открытые проводки по накладным, которые вносят свой вклад в строку предложения по оплате.</span><span class="sxs-lookup"><span data-stu-id="b8e98-181">In the upper pane, you can view the open invoice transactions that contribute to the payment proposal line.</span></span> <span data-ttu-id="b8e98-182">На вкладке **Предложение по НДС** можно просмотреть сведения о налоговой проводке по уплате НДС налоговому органу.</span><span class="sxs-lookup"><span data-stu-id="b8e98-182">On the **VAT Proposal** tab, you can view the details of the tax transaction for the VAT payment to the tax authorities.</span></span>
+7. <span data-ttu-id="b8e98-183">Выберите **Создать платежи**, чтобы перенести строки предложения в журнал платежей.</span><span class="sxs-lookup"><span data-stu-id="b8e98-183">Select **Create payments** to transfer the proposal lines to the payment journal.</span></span>
+
+    <span data-ttu-id="b8e98-184">На странице **Платежи поставщикам** отображается по две строки платежа для каждой накладной.</span><span class="sxs-lookup"><span data-stu-id="b8e98-184">The **Vendor payments** page shows two payment lines for each invoice.</span></span> <span data-ttu-id="b8e98-185">Одна строка — это платеж поставщику, а другая — налоговый платеж в налоговый орган.</span><span class="sxs-lookup"><span data-stu-id="b8e98-185">One line is for a payment to a vendor, and the other line is for a tax payment to a tax authority.</span></span> <span data-ttu-id="b8e98-186">На второй строке журнала в поле **Назначение платежа** отображается назначение платежа НДС.</span><span class="sxs-lookup"><span data-stu-id="b8e98-186">On the second journal line, the **Purpose text** field shows the purpose of the VAT payment.</span></span> <span data-ttu-id="b8e98-187">Также отображаются номер счета и адрес поставщика.</span><span class="sxs-lookup"><span data-stu-id="b8e98-187">The vendor account number and address are included.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="b8e98-188">Для строки, которая представляет собой налоговый платеж в налоговый орган, в поле **Налоговый код** на вкладке **Общие** отображается налоговый код.</span><span class="sxs-lookup"><span data-stu-id="b8e98-188">For the line that is a tax payment to a tax authority, the **Sales tax code** field on the **General** tab shows the sales tax code.</span></span> <span data-ttu-id="b8e98-189">В поле **Счет поставщика** на вкладке **Платеж** отображается счет поставщика, за которого уплачивается налог.</span><span class="sxs-lookup"><span data-stu-id="b8e98-189">The **Vendor account** field on the **Payment** tab shows the vendor account that the tax is paid for.</span></span>
+
+8. <span data-ttu-id="b8e98-190">В поле **Код операции по НДС** просмотрите или измените код операции для декларации по НДС.</span><span class="sxs-lookup"><span data-stu-id="b8e98-190">In the **VAT operation code** field, view or modify the operation code for the VAT declaration.</span></span>
+9. <span data-ttu-id="b8e98-191">Выберите **Создание платежей**, чтобы открыть страницу **Создание платежей**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-191">Select **Generate payments** to open the **Generate payments** page.</span></span>
+10. <span data-ttu-id="b8e98-192">Выберите способ оплаты или формат экспорта в зависимости от метода платежа, указанного в строке журнала.</span><span class="sxs-lookup"><span data-stu-id="b8e98-192">Select either the payment method or the export format, depending on the method of payment on the journal line.</span></span> <span data-ttu-id="b8e98-193">Выберите банковский счет для осуществления платежа и введите нужную информацию.</span><span class="sxs-lookup"><span data-stu-id="b8e98-193">Then select the bank account to draw the payment from, and enter the required information.</span></span> 
+11. <span data-ttu-id="b8e98-194">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-194">Select **OK**.</span></span>
+12. <span data-ttu-id="b8e98-195">Выберите **Печать**\>**Платежное поручение**, чтобы распечатать отчет о платежном поручении.</span><span class="sxs-lookup"><span data-stu-id="b8e98-195">Select **Print** \> **Payment order** to print the payment order report.</span></span>
+13. <span data-ttu-id="b8e98-196">На странице **Ваучер журнала** выберите **Проверить** \> **Проверить**, чтобы проверить строку журнала.</span><span class="sxs-lookup"><span data-stu-id="b8e98-196">On the **Journal voucher** page, select **Validate** \> **Validate** to validate the journal line.</span></span> <span data-ttu-id="b8e98-197">Затем выберите **Разнести** \> **Разнести** , чтобы разнести строки журнала.</span><span class="sxs-lookup"><span data-stu-id="b8e98-197">Then select **Post** \> **Post** to post the journal lines.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="b8e98-198">После того как платежи налоговому агенту поставщика совершены, можно просмотреть сопоставленные проводки на странице **Проводки по сопоставлению**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-198">After payments to the vendor are completed, you can view the settled transactions on the **Transactions on settlement** page.</span></span> <span data-ttu-id="b8e98-199">Просмотреть разнесенные налоговые проводки можно на странице **Налоговые проводки**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-199">You can view the posted sales tax transactions on the **Sales tax transactions** page.</span></span>
+
+### <a name="create-a-prepayment"></a><span data-ttu-id="b8e98-200">Создание предоплаты</span><span class="sxs-lookup"><span data-stu-id="b8e98-200">Create a prepayment</span></span>
+
+1. <span data-ttu-id="b8e98-201">Выберите **Расчеты с поставщиками** \> **Платежи** \> **Журнал платежей**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-201">Select **Accounts payable** \> **Payments** \> **Payment journal**.</span></span>
+2. <span data-ttu-id="b8e98-202">Создайте журнал, затем выберите **Строки**, чтобы открыть страницу **Платежи поставщикам**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-202">Create a journal, and then select **Lines** to open the **Vendor payments** page.</span></span>
+3. <span data-ttu-id="b8e98-203">Создайте новую строку журнала, выберите поставщика и введите сумму предоплаты.</span><span class="sxs-lookup"><span data-stu-id="b8e98-203">Create a new journal line, select the vendor, and enter a prepayment amount.</span></span>
+4. <span data-ttu-id="b8e98-204">Укажите налоговую группу и налоговую группу номенклатур, содержащие налоговый код с необходимой настройкой начисления НДС.</span><span class="sxs-lookup"><span data-stu-id="b8e98-204">Specify the sales tax group and item sales tax group that contain the sales tax code that has the required setup of the VAT charge.</span></span>
+
+    > [!NOTE]
+    > - <span data-ttu-id="b8e98-205">Подлежащая уплате сумма НДС рассчитывается на основании значения налогового кода.</span><span class="sxs-lookup"><span data-stu-id="b8e98-205">The VAT amount that must be paid is calculated based on the value of the sales tax code.</span></span>
+    > - <span data-ttu-id="b8e98-206">Чтобы запретить расчет налога на саму предоплату, на странице **Параметры модуля расчетов с поставщиками** на вкладке **Главная книга и налог** установите для параметра **Налог по предоплате в журнале платежей** значение **Нет**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-206">To prevent tax from being calculated on the prepayment itself, on the **Accounts payable parameters** page, on the **Ledger and sales tax** tab, set the **Sales tax on prepayment in payment journal** option to **No**.</span></span>
+
+5. <span data-ttu-id="b8e98-207">Выберите **Предложение по оплате** \> **Предложение по НДС**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-207">Select **Payment proposal** \> **VAT Proposal**.</span></span> <span data-ttu-id="b8e98-208">Созданная строка налогового платежа включает информацию о налоговом коде, код операции по НДС и поставщика, за которого вы уплачиваете налог.</span><span class="sxs-lookup"><span data-stu-id="b8e98-208">The tax payment line that is created includes information about the tax code, the VAT operation code, and the supplier that you pay the tax for.</span></span>
+ 
+
+## <a name="create-and-print-factures-for-vat-deductions"></a><span data-ttu-id="b8e98-209">Создание и печать счетов-фактур для вычетов НДС</span><span class="sxs-lookup"><span data-stu-id="b8e98-209">Create and print factures for VAT deductions</span></span>
+
+<span data-ttu-id="b8e98-210">Прежде чем можно будет создать и распечатать отчет о счетах-фактурах для полученных накладных, выпущенных накладных, покупок или продаж в оценках НДС, необходимо выполнить следующие задачи:</span><span class="sxs-lookup"><span data-stu-id="b8e98-210">Before you can create and print a facture report for received invoices, issued invoices, purchases, or sales in estimates of VAT, you must complete the following tasks.</span></span>
+
+1. <span data-ttu-id="b8e98-211">Настройте параметры проводок налоговых агентов.</span><span class="sxs-lookup"><span data-stu-id="b8e98-211">Set up the parameters for a tax agent transaction.</span></span>
+2. <span data-ttu-id="b8e98-212">Определите поставщика в качестве налогового агента.</span><span class="sxs-lookup"><span data-stu-id="b8e98-212">Define a vendor as a tax agent.</span></span>
+3. <span data-ttu-id="b8e98-213">Создайте и разнесите заказ на покупку с налоговой группой и налоговой группой номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="b8e98-213">Create and post a purchase order that has a sales tax group and an item sales tax group.</span></span>
+4. <span data-ttu-id="b8e98-214">Создайте предложение по оплате и разнесите платеж.</span><span class="sxs-lookup"><span data-stu-id="b8e98-214">Create a payment proposal, and post the payment.</span></span>
+
+    <span data-ttu-id="b8e98-215">В результате разноски налогового платежа создаются налоговые проводки со следующими направлениями налога:</span><span class="sxs-lookup"><span data-stu-id="b8e98-215">As a result of tax payment posting, sales tax transactions are created that have the following tax directions:</span></span>
+
+    - <span data-ttu-id="b8e98-216">**Налоговый агент - начислено** — начисленный НДС, который должен быть уплачен.</span><span class="sxs-lookup"><span data-stu-id="b8e98-216">**Tax agent – charged** – Accrued VAT that must be paid.</span></span> <span data-ttu-id="b8e98-217">По этой налоговой проводке создается документ-фактура, который будет отражен в книге продаж.</span><span class="sxs-lookup"><span data-stu-id="b8e98-217">A facture document is created on this sales tax transaction and will be reflected in the sales book.</span></span>
+    - <span data-ttu-id="b8e98-218">**Входящий налог** — НДС, который следует вычесть, потому что сумма НДС была переведена налоговому органу.</span><span class="sxs-lookup"><span data-stu-id="b8e98-218">**Sales tax receivable** – VAT that must be deducted because the VAT amount was transferred to the tax authority.</span></span> <span data-ttu-id="b8e98-219">По налоговой проводке создается счет-фактура, который будет отражен в книге покупок после обработки входящего НДС.</span><span class="sxs-lookup"><span data-stu-id="b8e98-219">The facture is created on the sales tax transaction and will be reflected in the purchase book after VAT incoming is processed.</span></span>
+
+5. <span data-ttu-id="b8e98-220">Выберите **Расчеты с поставщиками** \> **Запросы и отчеты** \> **Фактура**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-220">Select **Accounts payable** \> **Inquiries and reports** \> **Facture**.</span></span>
+6. <span data-ttu-id="b8e98-221">Выберите **Печать** \> **Исходный** для счет-фактуры, созданной для налоговой проводки **Налоговый агент - начислено**.</span><span class="sxs-lookup"><span data-stu-id="b8e98-221">Select **Print** \> **Original** for the facture that is created on the **Tax agent - charged** sales tax transaction.</span></span>
+
+<span data-ttu-id="b8e98-222">В отчете о счете-фактуре отображается номер и дата платежного поручения, базовая сумма без НДС и расчетная ставка налога (значение НДС ÷ значение НДС + 100).</span><span class="sxs-lookup"><span data-stu-id="b8e98-222">The facture report shows the number and date of the payment order, the base amount without VAT, and the computational tax rate (VAT value ÷ VAT value + 100).</span></span>

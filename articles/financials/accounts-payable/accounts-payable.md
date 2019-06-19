@@ -1,210 +1,147 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="accounts-payable.md" target-language="ru-RU">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>accounts-payable.199fb9.f1acf2bade2bb279a35fdf4689bbbcc49e64101f.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>f1acf2bade2bb279a35fdf4689bbbcc49e64101f</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\accounts-payable\accounts-payable.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Accounts payable home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Домашняя страница расчетов с поставщиками</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides an overview of Accounts payable.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этом разделе представлен обзор расчетов с поставщиками.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Accounts payable home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Домашняя страница расчетов с поставщиками</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic provides an overview of Accounts payable.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этом разделе представлен обзор расчетов с поставщиками.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>You can enter vendor invoices manually or receive them electronically through a data entity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Накладные поставщиков можно вводить вручную или получать в электронном виде с использованием информационных объектов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the <bpt id="p1">**</bpt>Vendor invoice<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">После ввода или получения накладных поставщиков вы можете просматривать и утверждать их с помощью журнала утверждения накладных или страницы <bpt id="p1">**</bpt>Накладная поставщика<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вы также можете автоматизировать процесс проверки с помощью функций сопоставления накладных, политик накладных поставщика и бизнес-правил, чтобы удовлетворяющие определенным критериям накладные утверждались автоматически. При этом остальные накладные будут помечаться для проверки уполномоченным пользователем.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source><bpt id="p1">**</bpt>Business processes<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Бизнес-процессы<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Business process<ept id="p1">](./media/AP-process.PNG)](./media/AP-process.PNG)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Бизнес-процесс<ept id="p1">](./media/AP-process.PNG)](./media/AP-process.PNG)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Set up Accounts payable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка модуля "Расчеты с поставщиками"</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Модуль "Расчеты с поставщиками" позволяет настроить группы поставщиков, поставщиков, профили разноски, параметры оплаты, а также параметры, связанные с поставщиками, накладными расходами, поставками и местами назначения, простыми векселями и другие сведения.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source><bpt id="p1">[</bpt>Configure Accounts payable<ept id="p1">](accounts-payable-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка модуля "Расчеты с поставщиками"<ept id="p1">](accounts-payable-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source><bpt id="p1">[</bpt>Accounting distributions and subledger journal entries for vendor invoices<ept id="p1">](accounting-distributions-subledger-journal-entries-vendor-invoices.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных поставщиков<ept id="p1">](accounting-distributions-subledger-journal-entries-vendor-invoices.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source><bpt id="p1">[</bpt>Foreign currency revaluation for Accounts payable and Accounts receivable<ept id="p1">](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Переоценка в иностранной валюте для расчетов с поставщиками и расчетов с клиентами<ept id="p1">](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Configure vendor invoices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка накладных поставщиков</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Use Accounts payable to track invoices and outgoing expenditures to vendors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Модуль "Расчеты с поставщиками" позволяет отслеживать накладные и исходящих расходы на поставщиков.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source><bpt id="p1">[</bpt>Accounts payable invoice matching<ept id="p1">](accounts-payable-invoice-matching.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Сопоставление накладных по расчетам с поставщиками<ept id="p1">](accounts-payable-invoice-matching.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source><bpt id="p1">[</bpt>Vendor posting profiles<ept id="p1">](vendor-posting-profiles.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Профили разноски поставщиков<ept id="p1">](vendor-posting-profiles.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">[</bpt>Set up accounts payable invoice matching validation<ept id="p1">](tasks/set-up-accounts-payable-invoice-matching-validation.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка проверки сопоставления накладных в модуле расчетов с поставщиками<ept id="p1">](tasks/set-up-accounts-payable-invoice-matching-validation.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source><bpt id="p1">[</bpt>Three-way matching policies<ept id="p1">](three-way-matching-policies.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Политики трехсторонней проверки соответствия<ept id="p1">](three-way-matching-policies.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source><bpt id="p1">[</bpt>Invoice matching and intercompany purchase orders<ept id="p1">](invoice-matching-intercompany-purchase-orders.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Сопоставление накладных и внутрихолдинговые заказы на покупку<ept id="p1">](invoice-matching-intercompany-purchase-orders.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source><bpt id="p1">[</bpt>Resolve discrepancies during invoice totals matching<ept id="p1">](resolve-invoice-totals-invoice-matching-discrepancies.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Устранение несоответствий во время сопоставления итогов по накладным<ept id="p1">](resolve-invoice-totals-invoice-matching-discrepancies.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source><bpt id="p1">[</bpt>Default offset accounts for vendor invoice journals and invoice approval journals<ept id="p1">](default-offset-accounts-vendor-invoice-journals.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Корреспондирующие счета по умолчанию для журналов накладных поставщика и журналов утверждения накладных<ept id="p1">](default-offset-accounts-vendor-invoice-journals.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source><bpt id="p1">[</bpt>Mobile invoice approvals<ept id="p1">](mobile-invoice-approvals.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Утверждения накладных на мобильном устройстве<ept id="p1">](mobile-invoice-approvals.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source><bpt id="p1">[</bpt>Vendor collaboration invoicing workspace<ept id="p1">](vendor-portal-invoicing-workspace.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Рабочая область выставления накладных по совместной работе с поставщиками<ept id="p1">](vendor-portal-invoicing-workspace.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source><bpt id="p1">[</bpt>Vendor invoice automation<ept id="p1">](vendor-invoice-automation.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Автоматизация накладных поставщиков<ept id="p1">](vendor-invoice-automation.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Configure vendor payments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка платежей поставщикам</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вы можете назначить определенный в системе тип платежей, например "Чек", "Электронный платеж" или "Простой вексель", любому пользовательскому способу оплаты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Указывать типы платежей необязательно, но они могут быть полезны при проверке электронных платежей, когда нужно быстро определить тип конкретного платежа.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source><bpt id="p1">[</bpt>Vendor payments workspace<ept id="p1">](vendor-payments-workspace.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Рабочая область платежей поставщику<ept id="p1">](vendor-payments-workspace.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source><bpt id="p1">[</bpt>Define vendor payment fees<ept id="p1">](tasks/define-vendor-payment-fees.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Определение сборов по платежам поставщикам<ept id="p1">](tasks/define-vendor-payment-fees.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source><bpt id="p1">[</bpt>Define vendor payment terms<ept id="p1">](tasks/define-vendor-payment-terms.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Определение условий оплаты для поставщиков<ept id="p1">](tasks/define-vendor-payment-terms.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source><bpt id="p1">[</bpt>Positive pay overview<ept id="p1">](positive-pay-overview.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Обзор положительного платежа<ept id="p1">](positive-pay-overview.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source><bpt id="p1">[</bpt>Set up and generate positive pay files<ept id="p1">](set-up-generate-positive-pay-files.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка и создание файлов положительных платежей<ept id="p1">](set-up-generate-positive-pay-files.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source><bpt id="p1">[</bpt>Create vendor payments by using a payment proposal<ept id="p1">](create-vendor-payments-payment-proposal.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Создание платежей поставщику с помощью предложения по оплате<ept id="p1">](create-vendor-payments-payment-proposal.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source><bpt id="p1">[</bpt>Vendor payments for a partial amount<ept id="p1">](vendor-payments-partial-amount.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Платежи поставщику на частичную сумму<ept id="p1">](vendor-payments-partial-amount.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source><bpt id="p1">[</bpt>Take a discount that is more than the calculated discount for a vendor payment<ept id="p1">](take-discount-more-calculated-discount-vendor-payment.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Использование скидки, превышающей рассчитанную скидку для платежа поставщику<ept id="p1">](take-discount-more-calculated-discount-vendor-payment.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source><bpt id="p1">[</bpt>Take a cash discount outside the cash discount period<ept id="p1">](take-cash-discount-outside-cash-discount-timeframe.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Использование скидки по оплате вне периода скидки по оплате<ept id="p1">](take-cash-discount-outside-cash-discount-timeframe.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source><bpt id="p1">[</bpt>Electronic reporting for vendor checks<ept id="p1">](electronic-reporting-sample-vendor-checks.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Электронная отчетность для чеков поставщиков<ept id="p1">](electronic-reporting-sample-vendor-checks.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source><bpt id="p1">[</bpt>Reverse a vendor payment<ept id="p1">](reverse-vendor-payment.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Реверсирование платежа поставщику<ept id="p1">](reverse-vendor-payment.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source><bpt id="p1">[</bpt>Prepayment invoices and prepayments overview<ept id="p1">](prepayments-invoices-vs-prepayments.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Обзор счетов по предоплате и предоплат<ept id="p1">](prepayments-invoices-vs-prepayments.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source><bpt id="p1">[</bpt>Centralized payments for Accounts payable<ept id="p1">](centralized-payments-accounts-payable.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Централизованные платежи для расчетов с поставщиками<ept id="p1">](centralized-payments-accounts-payable.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Settlements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сопоставления</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>The following topics provide information about settlements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Следующие темы содержат информацию о сопоставлениях.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Settlement is the process of settling payments with invoices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сопоставление — это процесс сопоставления платежей со счетами-фактурами.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source><bpt id="p1">[</bpt>Configure settlement<ept id="p1">](../cash-bank-management/configure-settlement.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка сопоставления<ept id="p1">](../cash-bank-management/configure-settlement.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source><bpt id="p1">[</bpt>Settle a partial vendor payment before the discount date<ept id="p1">](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Сопоставление частичного платежа поставщику до даты скидки<ept id="p1">](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source><bpt id="p1">[</bpt>Settle a partial vendor payment that has discounts on vendor credit notes<ept id="p1">](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Настройка частичного платежа поставщику, имеющего скидки по кредит-нотам поставщика<ept id="p1">](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source><bpt id="p1">[</bpt>Settle a partial vendor payment that has multiple discount periods<ept id="p1">](settle-partial-vendor-payment-multiple-discount-periods.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Сопоставление частичного платежа поставщику с несколькими периодами скидок<ept id="p1">](settle-partial-vendor-payment-multiple-discount-periods.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source><bpt id="p1">[</bpt>Settle a partial vendor payment or final payment before discount<ept id="p1">](settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Сопоставление частичного платежа поставщику или окончательного платежа до скидки<ept id="p1">](settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source><bpt id="p1">[</bpt>Single voucher with multiple customer or vendor records<ept id="p1">](single-voucher-multiple-customer-vendor-records.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Один ваучер с несколькими записями клиента или поставщика<ept id="p1">](single-voucher-multiple-customer-vendor-records.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Дополнительные ресурсы</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>What's new and in development</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Новые возможности и текущие разработки</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Go to the <bpt id="p1">[</bpt>Microsoft Dynamics 365 Release Notes<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> to see what new features are planned.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите к <bpt id="p1">[</bpt>Заметкам о выпуске Microsoft Dynamics 365<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept>, чтобы узнать о новых и запланированных возможностях.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Blogs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Блоги</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>You can find opinions, news, and other information about Accounts payable and other solutions on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 blog<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept>and the <bpt id="p2">[</bpt>Microsoft Dynamics 365 Finance and Operations - Financials blog<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Мнения, новости и другие сведения о расчетах с поставщиками и других решениях см. в <bpt id="p1">[</bpt>блоге по Microsoft Dynamics 365<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept> и в <bpt id="p2">[</bpt>блоге по финансам в Microsoft Dynamics 365 Finance and Operations<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>The <bpt id="p1">[</bpt>Microsoft Dynamics Operations Partner Community Blog<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Блог сообщества партнеров Microsoft Dynamics Operations<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в MBS Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Community blogs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Блоги сообщества</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source><bpt id="p1">[</bpt>How to manage payables in Dynamics 365 for Finance and Operations<ept id="p1">](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Управление расчетами с поставщиками в Dynamics 365 for Finance and Operations<ept id="p1">](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Task guides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проводники по задачам</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Additional help is available as task guides inside Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проводники по задачам в Finance and Operations — это еще один источник справочной информации.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>To access task guides, click the Help button on any page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Чтобы перейти к проводникам по задачам, нажмите кнопку "Справка" на любой странице.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Videos</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Видео</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Check out the how-to videos that are now available on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 YouTube Channel<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Смотрите видео с инструкциями на <bpt id="p1">[</bpt>канале Microsoft Dynamics 365 в YouTube<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Домашняя страница расчетов с поставщиками
+description: В этом разделе представлен обзор расчетов с поставщиками.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 02/15/2019
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: VendInvoiceWorkspace
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 21901
+ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
+ms.search.region: Global
+ms.author: shylaw
+ms.search.validFrom: 2016-05-31
+ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: f1acf2bade2bb279a35fdf4689bbbcc49e64101f
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559465"
+---
+# <a name="accounts-payable-home-page"></a><span data-ttu-id="b245d-103">Домашняя страница расчетов с поставщиками</span><span class="sxs-lookup"><span data-stu-id="b245d-103">Accounts payable home page</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="b245d-104">В этом разделе представлен обзор расчетов с поставщиками.</span><span class="sxs-lookup"><span data-stu-id="b245d-104">This topic provides an overview of Accounts payable.</span></span> 
+
+<span data-ttu-id="b245d-105">Накладные поставщиков можно вводить вручную или получать в электронном виде с использованием информационных объектов.</span><span class="sxs-lookup"><span data-stu-id="b245d-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="b245d-106">После ввода или получения накладных поставщиков вы можете просматривать и утверждать их с помощью журнала утверждения накладных или страницы **Накладная поставщика**.</span><span class="sxs-lookup"><span data-stu-id="b245d-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="b245d-107">Вы также можете автоматизировать процесс проверки с помощью функций сопоставления накладных, политик накладных поставщика и бизнес-правил, чтобы удовлетворяющие определенным критериям накладные утверждались автоматически. При этом остальные накладные будут помечаться для проверки уполномоченным пользователем.</span><span class="sxs-lookup"><span data-stu-id="b245d-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
+
+<span data-ttu-id="b245d-108">**Бизнес-процессы**</span><span class="sxs-lookup"><span data-stu-id="b245d-108">**Business processes**</span></span>
+
+<span data-ttu-id="b245d-109">[![Бизнес-процесс](./media/AP-process.PNG)](./media/AP-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="b245d-109">[![Business process](./media/AP-process.PNG)](./media/AP-process.PNG)</span></span>
+
+## <a name="set-up-accounts-payable"></a><span data-ttu-id="b245d-110">Настройка модуля "Расчеты с поставщиками"</span><span class="sxs-lookup"><span data-stu-id="b245d-110">Set up Accounts payable</span></span>
+
+<span data-ttu-id="b245d-111">Модуль "Расчеты с поставщиками" позволяет настроить группы поставщиков, поставщиков, профили разноски, параметры оплаты, а также параметры, связанные с поставщиками, накладными расходами, поставками и местами назначения, простыми векселями и другие сведения.</span><span class="sxs-lookup"><span data-stu-id="b245d-111">Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</span></span> 
+
+[<span data-ttu-id="b245d-112">Настройка модуля "Расчеты с поставщиками"</span><span class="sxs-lookup"><span data-stu-id="b245d-112">Configure Accounts payable</span></span>](accounts-payable-overview.md)
+
+[<span data-ttu-id="b245d-113">Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных поставщиков</span><span class="sxs-lookup"><span data-stu-id="b245d-113">Accounting distributions and subledger journal entries for vendor invoices</span></span>](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
+
+[<span data-ttu-id="b245d-114">Переоценка в иностранной валюте для расчетов с поставщиками и расчетов с клиентами</span><span class="sxs-lookup"><span data-stu-id="b245d-114">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
+
+## <a name="configure-vendor-invoices"></a><span data-ttu-id="b245d-115">Настройка накладных поставщиков</span><span class="sxs-lookup"><span data-stu-id="b245d-115">Configure vendor invoices</span></span>
+
+<span data-ttu-id="b245d-116">Модуль "Расчеты с поставщиками" позволяет отслеживать накладные и исходящих расходы на поставщиков.</span><span class="sxs-lookup"><span data-stu-id="b245d-116">Use Accounts payable to track invoices and outgoing expenditures to vendors.</span></span>
+
+[<span data-ttu-id="b245d-117">Сопоставление накладных по расчетам с поставщиками</span><span class="sxs-lookup"><span data-stu-id="b245d-117">Accounts payable invoice matching</span></span>](accounts-payable-invoice-matching.md)
+
+[<span data-ttu-id="b245d-118">Профили разноски поставщиков</span><span class="sxs-lookup"><span data-stu-id="b245d-118">Vendor posting profiles</span></span>](vendor-posting-profiles.md)
+
+[<span data-ttu-id="b245d-119">Настройка проверки сопоставления накладных в модуле расчетов с поставщиками</span><span class="sxs-lookup"><span data-stu-id="b245d-119">Set up accounts payable invoice matching validation</span></span>](tasks/set-up-accounts-payable-invoice-matching-validation.md)
+
+[<span data-ttu-id="b245d-120">Политики трехсторонней проверки соответствия</span><span class="sxs-lookup"><span data-stu-id="b245d-120">Three-way matching policies</span></span>](three-way-matching-policies.md)
+
+[<span data-ttu-id="b245d-121">Сопоставление накладных и внутрихолдинговые заказы на покупку</span><span class="sxs-lookup"><span data-stu-id="b245d-121">Invoice matching and intercompany purchase orders</span></span>](invoice-matching-intercompany-purchase-orders.md)
+
+[<span data-ttu-id="b245d-122">Устранение несоответствий во время сопоставления итогов по накладным</span><span class="sxs-lookup"><span data-stu-id="b245d-122">Resolve discrepancies during invoice totals matching</span></span>](resolve-invoice-totals-invoice-matching-discrepancies.md)
+
+[<span data-ttu-id="b245d-123">Корреспондирующие счета по умолчанию для журналов накладных поставщика и журналов утверждения накладных</span><span class="sxs-lookup"><span data-stu-id="b245d-123">Default offset accounts for vendor invoice journals and invoice approval journals</span></span>](default-offset-accounts-vendor-invoice-journals.md)
+
+[<span data-ttu-id="b245d-124">Утверждения накладных на мобильном устройстве</span><span class="sxs-lookup"><span data-stu-id="b245d-124">Mobile invoice approvals</span></span>](mobile-invoice-approvals.md)
+
+[<span data-ttu-id="b245d-125">Рабочая область выставления накладных по совместной работе с поставщиками</span><span class="sxs-lookup"><span data-stu-id="b245d-125">Vendor collaboration invoicing workspace</span></span>](vendor-portal-invoicing-workspace.md)
+
+[<span data-ttu-id="b245d-126">Автоматизация накладных поставщиков</span><span class="sxs-lookup"><span data-stu-id="b245d-126">Vendor invoice automation</span></span>](vendor-invoice-automation.md)
+
+## <a name="configure-vendor-payments"></a><span data-ttu-id="b245d-127">Настройка платежей поставщикам</span><span class="sxs-lookup"><span data-stu-id="b245d-127">Configure vendor payments</span></span> 
+
+<span data-ttu-id="b245d-128">Вы можете назначить определенный в системе тип платежей, например "Чек", "Электронный платеж" или "Простой вексель", любому пользовательскому способу оплаты.</span><span class="sxs-lookup"><span data-stu-id="b245d-128">Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</span></span> <span data-ttu-id="b245d-129">Указывать типы платежей необязательно, но они могут быть полезны при проверке электронных платежей, когда нужно быстро определить тип конкретного платежа.</span><span class="sxs-lookup"><span data-stu-id="b245d-129">Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</span></span> 
+
+[<span data-ttu-id="b245d-130">Рабочая область платежей поставщику</span><span class="sxs-lookup"><span data-stu-id="b245d-130">Vendor payments workspace</span></span>](vendor-payments-workspace.md)
+
+[<span data-ttu-id="b245d-131">Определение сборов по платежам поставщикам</span><span class="sxs-lookup"><span data-stu-id="b245d-131">Define vendor payment fees</span></span>](tasks/define-vendor-payment-fees.md)
+
+[<span data-ttu-id="b245d-132">Определение условий оплаты для поставщиков</span><span class="sxs-lookup"><span data-stu-id="b245d-132">Define vendor payment terms</span></span>](tasks/define-vendor-payment-terms.md)
+
+[<span data-ttu-id="b245d-133">Обзор положительного платежа</span><span class="sxs-lookup"><span data-stu-id="b245d-133">Positive pay overview</span></span>](positive-pay-overview.md)
+
+[<span data-ttu-id="b245d-134">Настройка и создание файлов положительных платежей</span><span class="sxs-lookup"><span data-stu-id="b245d-134">Set up and generate positive pay files</span></span>](set-up-generate-positive-pay-files.md)
+
+[<span data-ttu-id="b245d-135">Создание платежей поставщику с помощью предложения по оплате</span><span class="sxs-lookup"><span data-stu-id="b245d-135">Create vendor payments by using a payment proposal</span></span>](create-vendor-payments-payment-proposal.md)
+
+[<span data-ttu-id="b245d-136">Платежи поставщику на частичную сумму</span><span class="sxs-lookup"><span data-stu-id="b245d-136">Vendor payments for a partial amount</span></span>](vendor-payments-partial-amount.md)
+
+[<span data-ttu-id="b245d-137">Использование скидки, превышающей рассчитанную скидку для платежа поставщику</span><span class="sxs-lookup"><span data-stu-id="b245d-137">Take a discount that is more than the calculated discount for a vendor payment</span></span>](take-discount-more-calculated-discount-vendor-payment.md)
+
+[<span data-ttu-id="b245d-138">Использование скидки по оплате вне периода скидки по оплате</span><span class="sxs-lookup"><span data-stu-id="b245d-138">Take a cash discount outside the cash discount period</span></span>](take-cash-discount-outside-cash-discount-timeframe.md)
+
+[<span data-ttu-id="b245d-139">Электронная отчетность для чеков поставщиков</span><span class="sxs-lookup"><span data-stu-id="b245d-139">Electronic reporting for vendor checks</span></span>](electronic-reporting-sample-vendor-checks.md)
+
+[<span data-ttu-id="b245d-140">Реверсирование платежа поставщику</span><span class="sxs-lookup"><span data-stu-id="b245d-140">Reverse a vendor payment</span></span>](reverse-vendor-payment.md)
+
+[<span data-ttu-id="b245d-141">Обзор счетов по предоплате и предоплат</span><span class="sxs-lookup"><span data-stu-id="b245d-141">Prepayment invoices and prepayments overview</span></span>](prepayments-invoices-vs-prepayments.md)
+
+[<span data-ttu-id="b245d-142">Централизованные платежи для расчетов с поставщиками</span><span class="sxs-lookup"><span data-stu-id="b245d-142">Centralized payments for Accounts payable</span></span>](centralized-payments-accounts-payable.md)
+
+## <a name="settlements"></a><span data-ttu-id="b245d-143">Сопоставления</span><span class="sxs-lookup"><span data-stu-id="b245d-143">Settlements</span></span>
+
+<span data-ttu-id="b245d-144">Следующие темы содержат информацию о сопоставлениях.</span><span class="sxs-lookup"><span data-stu-id="b245d-144">The following topics provide information about settlements.</span></span> <span data-ttu-id="b245d-145">Сопоставление — это процесс сопоставления платежей со счетами-фактурами.</span><span class="sxs-lookup"><span data-stu-id="b245d-145">Settlement is the process of settling payments with invoices.</span></span> 
+
+[<span data-ttu-id="b245d-146">Настройка сопоставления</span><span class="sxs-lookup"><span data-stu-id="b245d-146">Configure settlement</span></span>](../cash-bank-management/configure-settlement.md)
+
+[<span data-ttu-id="b245d-147">Сопоставление частичного платежа поставщику до даты скидки</span><span class="sxs-lookup"><span data-stu-id="b245d-147">Settle a partial vendor payment before the discount date</span></span>](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+
+[<span data-ttu-id="b245d-148">Настройка частичного платежа поставщику, имеющего скидки по кредит-нотам поставщика</span><span class="sxs-lookup"><span data-stu-id="b245d-148">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+
+[<span data-ttu-id="b245d-149">Сопоставление частичного платежа поставщику с несколькими периодами скидок</span><span class="sxs-lookup"><span data-stu-id="b245d-149">Settle a partial vendor payment that has multiple discount periods</span></span>](settle-partial-vendor-payment-multiple-discount-periods.md)
+
+[<span data-ttu-id="b245d-150">Сопоставление частичного платежа поставщику или окончательного платежа до скидки</span><span class="sxs-lookup"><span data-stu-id="b245d-150">Settle a partial vendor payment or final payment before discount</span></span>](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+
+[<span data-ttu-id="b245d-151">Один ваучер с несколькими записями клиента или поставщика</span><span class="sxs-lookup"><span data-stu-id="b245d-151">Single voucher with multiple customer or vendor records</span></span>](single-voucher-multiple-customer-vendor-records.md)
+
+
+
+### <a name="additional-resources"></a><span data-ttu-id="b245d-152">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="b245d-152">Additional resources</span></span>
+
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="b245d-153">Новые возможности и текущие разработки</span><span class="sxs-lookup"><span data-stu-id="b245d-153">What's new and in development</span></span>
+
+<span data-ttu-id="b245d-154">Перейдите к [Заметкам о выпуске Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы узнать о новых и запланированных возможностях.</span><span class="sxs-lookup"><span data-stu-id="b245d-154">Go to the [Microsoft Dynamics 365 Release Notes](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features are planned.</span></span> 
+
+#### <a name="blogs"></a><span data-ttu-id="b245d-155">Блоги</span><span class="sxs-lookup"><span data-stu-id="b245d-155">Blogs</span></span>
+
+<span data-ttu-id="b245d-156">Мнения, новости и другие сведения о расчетах с поставщиками и других решениях см. в [блоге по Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) и в [блоге по финансам в Microsoft Dynamics 365 Finance and Operations](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="b245d-156">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
+
+<span data-ttu-id="b245d-157">[Блог сообщества партнеров Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) предоставляет партнерам Microsoft Dynamics единый источник информации о новых возможностях и тенденциях в MBS Operations.</span><span class="sxs-lookup"><span data-stu-id="b245d-157">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
+
+#### <a name="community-blogs"></a><span data-ttu-id="b245d-158">Блоги сообщества</span><span class="sxs-lookup"><span data-stu-id="b245d-158">Community blogs</span></span>
+
+[<span data-ttu-id="b245d-159">Управление расчетами с поставщиками в Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="b245d-159">How to manage payables in Dynamics 365 for Finance and Operations</span></span>](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
+
+#### <a name="task-guides"></a><span data-ttu-id="b245d-160">Проводники по задачам</span><span class="sxs-lookup"><span data-stu-id="b245d-160">Task guides</span></span>
+<span data-ttu-id="b245d-161">Проводники по задачам в Finance and Operations — это еще один источник справочной информации.</span><span class="sxs-lookup"><span data-stu-id="b245d-161">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="b245d-162">Чтобы перейти к проводникам по задачам, нажмите кнопку "Справка" на любой странице.</span><span class="sxs-lookup"><span data-stu-id="b245d-162">To access task guides, click the Help button on any page.</span></span>
+
+#### <a name="videos"></a><span data-ttu-id="b245d-163">Видео</span><span class="sxs-lookup"><span data-stu-id="b245d-163">Videos</span></span>
+
+<span data-ttu-id="b245d-164">Смотрите видео с инструкциями на [канале Microsoft Dynamics 365 в YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="b245d-164">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+
+
+
+

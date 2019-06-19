@@ -1,180 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="rus-fixed-assets-counting.md" target-language="ru-RU">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>rus-fixed-assets-counting.f62cab.6244f10d57cc643dc55fc92bc089102561c47f08.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>6244f10d57cc643dc55fc92bc089102561c47f08</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\rus-fixed-assets-counting.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Fixed asset counting (Russia)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Инвентаризация ОС (Россия)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides information about fixed asset counting for Russia.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этой теме содержится информация об инвентаризации основных средств для России.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Fixed asset counting (Russia)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Инвентаризация ОС (Россия)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>The procedure for counting fixed assets is regulated by legislative acts and is one of the procedures that help control the safety of a company's property.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Процедура инвентаризации основных средств регулируется законодательными актами и представляет собой одну из процедур, призванных обезопасить имущество компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Essentially, in fixed asset counting, the actual presence of values (money, equipment, buildings, and obligations) is compared with accounting data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">По сути в процессе инвентаризации основных средств производится сравнение фактического наличия ценностей (деньги, оборудование, здания и обязательства) с данными учета.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>As a rule, fixed asset counting is done before the annual reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Как правило, инвентаризацию основных средств проводят перед составлением годовой отчетности.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>To register fixed asset counting, follow these steps.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Чтобы зарегистрировать инвентаризацию основных средств, выполните следующие действия.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Select <bpt id="p1">**</bpt>Fixed assets (Russia) <ph id="ph1">\&gt;</ph> Journals <ph id="ph2">\&gt;</ph> Periodic journals <ph id="ph3">\&gt;</ph> FA counting<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Основные средства (Россия) <ph id="ph1">\&gt;</ph> Журналы <ph id="ph2">\&gt;</ph> Периодические журналы <ph id="ph3">\&gt;</ph> Инвентаризация ОС<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Select <bpt id="p1">**</bpt>New<ept id="p1">**</ept> to create a journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Создать<ept id="p1">**</ept>, чтобы создать журнал.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>In the <bpt id="p1">**</bpt>Counting start date<ept id="p1">**</ept> field, set a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Дата начала инвентаризации<ept id="p1">**</ept> установите дату.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>In the <bpt id="p1">**</bpt>Fixed asset journal name<ept id="p1">**</ept> field, select a journal name.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Наименование журнала основных средств<ept id="p1">**</ept> выберите наименование журнала.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>This journal name is used to create the Fixed asset journal when the counting journal is closed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Это наименование журнала используется для создания журнала основных средств после закрытия журнала инвентаризации.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>In the <bpt id="p1">**</bpt>FA location<ept id="p1">**</ept> field, enter the department that fixed asset counting is being done in.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Местоположение ОС<ept id="p1">**</ept> введите подразделение, в котором производится инвентаризация основных средств.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>The <bpt id="p1">**</bpt>Counting end date<ept id="p1">**</ept> field is automatically set when the Fixed asset counting journal is closed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Значение в поле <bpt id="p1">**</bpt>Дата окончания инвентаризации<ept id="p1">**</ept> автоматически устанавливается при закрытии журнала инвентаризации ОС.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>It can't be manually updated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Его нельзя изменить вручную.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>The <bpt id="p1">**</bpt>Journal number<ept id="p1">**</ept> field is automatically set if the corresponding number sequence is set up and used in printing forms.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Значение в поле <bpt id="p1">**</bpt>Номер журнала<ept id="p1">**</ept> устанавливается автоматически, если соответствующая номерная серия настроена и используется в формах печати.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>On the <bpt id="p1">**</bpt>General<ept id="p1">**</ept> tab, enter values in the <bpt id="p2">**</bpt>First responsible<ept id="p2">**</ept> and <bpt id="p3">**</bpt>Second responsible<ept id="p3">**</ept> fields.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Общие<ept id="p1">**</ept> введите значения в поля <bpt id="p2">**</bpt>Первый ответственный<ept id="p2">**</ept> и <bpt id="p3">**</bpt>Второй ответственный<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>On the <bpt id="p1">**</bpt>Setup<ept id="p1">**</ept> tab, set the <bpt id="p2">**</bpt>Quantity initialization by fact<ept id="p2">**</ept> option to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На вкладке <bpt id="p1">**</bpt>Настройка<ept id="p1">**</ept> установите для параметра <bpt id="p2">**</bpt>Инициализация кол-ва по факту<ept id="p2">**</ept> значение <bpt id="p3">**</bpt>Да<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>The <bpt id="p1">**</bpt>Actual quantity<ept id="p1">**</ept> field is automatically set to the value of <bpt id="p2">**</bpt>Accounting quantity<ept id="p2">**</ept> field in the journal line when this option is set to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Фактическое количество<ept id="p1">**</ept> в строке журнала автоматически устанавливается значение <bpt id="p2">**</bpt>Кол-во по учету<ept id="p2">**</ept>, если этот параметр имеет значение <bpt id="p3">**</bpt>Да<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Select <bpt id="p1">**</bpt>Lines<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Строки<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>In the <bpt id="p1">**</bpt>FA counting line creation<ept id="p1">**</ept> dialog box, in the <bpt id="p2">**</bpt>Accounting<ept id="p2">**</ept> field, select the value model that the fixed asset counting is being done on.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В диалоговом окне <bpt id="p1">**</bpt>Создание строки инвентаризации ОС<ept id="p1">**</ept> в поле <bpt id="p2">**</bpt>Учет<ept id="p2">**</ept> выберите модель стоимости, по которой производится инвентаризация основных средств.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>If you must select fixed assets for counting, on the <bpt id="p1">**</bpt>Records to include<ept id="p1">**</ept> FastTab, select <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept>, and then set a filter.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если вам нужно выбрать основные средства для инвентаризации, на экспресс-вкладке <bpt id="p1">**</bpt>Включаемые записи<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Фильтр<ept id="p2">**</ept> и установите фильтр.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>The <bpt id="p1">**</bpt>FA counting lines<ept id="p1">**</ept> page is opened.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Откроется страница <bpt id="p1">**</bpt>Строки инвентаризации ОС<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>This page shows which fixed assets were found, based on the filter that you set.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эта страница показывает, какие основные средства были найдены, на основе установленного фильтра.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>The <bpt id="p1">**</bpt>Accounting quantity<ept id="p1">**</ept> field shows the accounting quantity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Кол-во по учету<ept id="p1">**</ept> отображается количество по учету.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>This field is always set to <bpt id="p1">**</bpt>1<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этом поле всегда устанавливается значение <bpt id="p1">**</bpt>1<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>If you set the <bpt id="p1">**</bpt>Quantity initialization by fact<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> in step 7, the <bpt id="p3">**</bpt>Actual quantity<ept id="p3">**</ept> field is automatically set to <bpt id="p4">**</bpt>1<ept id="p4">**</ept>, the value of <bpt id="p5">**</bpt>Accounting quantity<ept id="p5">**</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если на шаге 7 вы установили для параметра <bpt id="p1">**</bpt>Инициализация кол-ва по факту<ept id="p1">**</ept> значение <bpt id="p2">**</bpt>Да<ept id="p2">**</ept>, значение в поле <bpt id="p3">**</bpt>Фактическое количество<ept id="p3">**</ept> автоматически устанавливается равным <bpt id="p4">**</bpt>1<ept id="p4">**</ept> — значению в поле <bpt id="p5">**</bpt>Кол-во по учету<ept id="p5">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>If you set the option to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>, enter a value in the <bpt id="p2">**</bpt>Actual quantity<ept id="p2">**</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если вы установили для параметра значение <bpt id="p1">**</bpt>Нет<ept id="p1">**</ept>, введите значение в поле <bpt id="p2">**</bpt>Фактическое количество<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>If any fixed assets weren't found during the counting process, you must set the <bpt id="p1">**</bpt>Actual quantity<ept id="p1">**</ept> field to <bpt id="p2">**</bpt>0<ept id="p2">**</ept> (zero) for them.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если в процессе инвентаризации основные средства найдены не были, в поле <bpt id="p1">**</bpt>Фактическое количество<ept id="p1">**</ept> для них необходимо установить значение <bpt id="p2">**</bpt>0<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>If any fixed assets were found but aren't listed on the <bpt id="p1">**</bpt>FA counting lines<ept id="p1">**</ept> page, you must create new lines for them.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если найдены основные средства, но отсутствующие на странице <bpt id="p1">**</bpt>Строки инвентаризации ОС<ept id="p1">**</ept>, для них необходимо создать новые строки.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Previously, you had to create fixed asset record in the system (<bpt id="p1">**</bpt>Fixed assets (Russia)<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Fixed assets<ept id="p2">**</ept>).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Раньше нужно было создавать запись основного средства в системе (<bpt id="p1">**</bpt>Основные средства (Россия)<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Основные средства<ept id="p2">**</ept>).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>On the <bpt id="p1">**</bpt>FA counting lines<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>New<ept id="p2">**</ept> to create a line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Строки инвентаризации ОС<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Создать<ept id="p2">**</ept>, чтобы создать строку.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>In the <bpt id="p1">**</bpt>Counting lines creation<ept id="p1">**</ept> dialog box, in the <bpt id="p2">**</bpt>FA inventory number<ept id="p2">**</ept> field, select the fixed asset.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В диалоговом окне <bpt id="p1">**</bpt>Создание строк инвентаризации<ept id="p1">**</ept> в поле <bpt id="p2">**</bpt>Инвентарный номер ОС<ept id="p2">**</ept> выберите основное средство.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>In the <bpt id="p1">**</bpt>Value model<ept id="p1">**</ept> field, select the value model.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Модель стоимости<ept id="p1">**</ept> выберите модель стоимости.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Then select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Затем выберите <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>In the <bpt id="p1">**</bpt>Actual quantity<ept id="p1">**</ept> field, enter <bpt id="p2">**</bpt>1<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В поле <bpt id="p1">**</bpt>Фактическое количество<ept id="p1">**</ept> введите <bpt id="p2">**</bpt>1<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>When you've finished making corrections, close the <bpt id="p1">**</bpt>FA counting lines<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Закончив внесение исправлений, закройте страницу <bpt id="p1">**</bpt>Строки инвентаризации ОС<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>On the <bpt id="p1">**</bpt>FA counting<ept id="p1">**</ept> page, on the Action Pane, select <bpt id="p2">**</bpt>Close<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Инвентаризация ОС<ept id="p1">**</ept> в области действий выберите <bpt id="p2">**</bpt>Закрыть<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>In the <bpt id="p1">**</bpt>Closing of inventory journal<ept id="p1">**</ept> dialog box, specify the closing date and the value model.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В диалоговом окне <bpt id="p1">**</bpt>Закрытие журнала запасов<ept id="p1">**</ept> укажите дату закрытия и модель стоимости.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Select <bpt id="p1">**</bpt>OK<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нажмите <bpt id="p1">**</bpt>ОК<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>If there were line corrections, the <bpt id="p1">**</bpt>FA journal<ept id="p1">**</ept> button on the Action Pane of the <bpt id="p2">**</bpt>FA counting<ept id="p2">**</ept> page becomes available.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если в строках были корректировки, становится доступна кнопка <bpt id="p1">**</bpt>Журнал ОС<ept id="p1">**</ept> в области действий <bpt id="p2">**</bpt>Инвентаризация ОС<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Select <bpt id="p1">**</bpt>FA journal<ept id="p1">**</ept> to open the Fixed asset journal, which includes the fixed asset transactions for posting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Журнал ОС<ept id="p1">**</ept>, чтобы открыть журнал основных средств, включающий проводки основных средств для разноски.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>On the <bpt id="p1">**</bpt>Journal voucher<ept id="p1">**</ept> page, the transactions are automatically created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Ваучер журнала<ept id="p1">**</ept> проводки создаются автоматически.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>The transactions have a transaction type of <bpt id="p1">**</bpt>Writing-off<ept id="p1">**</ept> if they were not found during the counting process (but there is record in the system).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проводки имеют тип проводки <bpt id="p1">**</bpt>Списание<ept id="p1">**</ept>, если они не были найдены в процессе инвентаризации (но для них есть запись в системе).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>If they were found but there is no record in the system, they have a transaction type of <bpt id="p1">**</bpt>Putting into operation<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если они найдены, но в системе нет соответствующей записи, они имеют тип проводки <bpt id="p1">**</bpt>Ввод в эксплуатацию<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Select <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Post<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Разнести<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Разнести<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>To view the posted transactions, on the <bpt id="p1">**</bpt>Journal voucher<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Inquiries<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Transactions<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Чтобы просмотреть разнесенные проводки на вкладке <bpt id="p1">**</bpt>Ваучер журнала<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Запросы<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Проводки<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>On the <bpt id="p1">**</bpt>FA counting<ept id="p1">**</ept> page, select <bpt id="p2">**</bpt>Reports<ept id="p2">**</ept> to print reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На странице <bpt id="p1">**</bpt>Инвентаризация ОС<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Отчеты<ept id="p2">**</ept>, чтобы напечатать отчеты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>You can print the following reports:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно напечатать следующие отчеты:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source><bpt id="p1">**</bpt>INV-1<ept id="p1">**</ept> is used to register the results of counting the company's fixed assets.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ИНВ-1<ept id="p1">**</ept> используется для регистрации результатов инвентаризации основных средств компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>During the counting process, the commission examines the fixed assets and fixes them in unified primary document form INV-1.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В процессе инвентаризации комиссия изучает основные средства и исправляет их в едином основном документе формы ИНВ-1.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source><bpt id="p1">**</bpt>INV-1a<ept id="p1">**</ept> - is used to to register the results of counting the company's intangible assets.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ИНВ-1а<ept id="p1">**</ept> используется для регистрации результатов инвентаризации нематериальных активов компании.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source><bpt id="p1">**</bpt>Collation statement<ept id="p1">**</ept> – INV-18 is a unified form that is used to document discrepancies between inventory results and accounting data on both fixed assets (FP) and intangible assets (NMA).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Сличительная ведомость<ept id="p1">**</ept> — ИНВ-18 — это единая форма, используемая для документирования расхождений между результатами инвентаризации и данными учета как основных средств (ОС), так и нематериальных активов (НМА).</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Инвентаризация ОС (Россия)
+description: В этой теме содержится информация об инвентаризации основных средств для России.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 09/18/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: RAssetTable, RAssetComponents
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Russia
+ms.author: shylaw
+ms.search.validFrom: 2018-10-28
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 6244f10d57cc643dc55fc92bc089102561c47f08
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565088"
+---
+# <a name="fixed-asset-counting-russia"></a><span data-ttu-id="d70e9-103">Инвентаризация ОС (Россия)</span><span class="sxs-lookup"><span data-stu-id="d70e9-103">Fixed asset counting (Russia)</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="d70e9-104">Процедура инвентаризации основных средств регулируется законодательными актами и представляет собой одну из процедур, призванных обезопасить имущество компании.</span><span class="sxs-lookup"><span data-stu-id="d70e9-104">The procedure for counting fixed assets is regulated by legislative acts and is one of the procedures that help control the safety of a company's property.</span></span> <span data-ttu-id="d70e9-105">По сути в процессе инвентаризации основных средств производится сравнение фактического наличия ценностей (деньги, оборудование, здания и обязательства) с данными учета.</span><span class="sxs-lookup"><span data-stu-id="d70e9-105">Essentially, in fixed asset counting, the actual presence of values (money, equipment, buildings, and obligations) is compared with accounting data.</span></span>
+
+<span data-ttu-id="d70e9-106">Как правило, инвентаризацию основных средств проводят перед составлением годовой отчетности.</span><span class="sxs-lookup"><span data-stu-id="d70e9-106">As a rule, fixed asset counting is done before the annual reporting.</span></span> <span data-ttu-id="d70e9-107">Чтобы зарегистрировать инвентаризацию основных средств, выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="d70e9-107">To register fixed asset counting, follow these steps.</span></span>
+
+1. <span data-ttu-id="d70e9-108">Выберите **Основные средства (Россия) \> Журналы \> Периодические журналы \> Инвентаризация ОС**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-108">Select **Fixed assets (Russia) \> Journals \> Periodic journals \> FA counting**.</span></span>
+2. <span data-ttu-id="d70e9-109">Выберите **Создать**, чтобы создать журнал.</span><span class="sxs-lookup"><span data-stu-id="d70e9-109">Select **New** to create a journal.</span></span>
+3. <span data-ttu-id="d70e9-110">В поле **Дата начала инвентаризации** установите дату.</span><span class="sxs-lookup"><span data-stu-id="d70e9-110">In the **Counting start date** field, set a date.</span></span>
+4. <span data-ttu-id="d70e9-111">В поле **Наименование журнала основных средств** выберите наименование журнала.</span><span class="sxs-lookup"><span data-stu-id="d70e9-111">In the **Fixed asset journal name** field, select a journal name.</span></span> <span data-ttu-id="d70e9-112">Это наименование журнала используется для создания журнала основных средств после закрытия журнала инвентаризации.</span><span class="sxs-lookup"><span data-stu-id="d70e9-112">This journal name is used to create the Fixed asset journal when the counting journal is closed.</span></span>
+5. <span data-ttu-id="d70e9-113">В поле **Местоположение ОС** введите подразделение, в котором производится инвентаризация основных средств.</span><span class="sxs-lookup"><span data-stu-id="d70e9-113">In the **FA location** field, enter the department that fixed asset counting is being done in.</span></span>
+
+    <span data-ttu-id="d70e9-114">Значение в поле **Дата окончания инвентаризации** автоматически устанавливается при закрытии журнала инвентаризации ОС.</span><span class="sxs-lookup"><span data-stu-id="d70e9-114">The **Counting end date** field is automatically set when the Fixed asset counting journal is closed.</span></span> <span data-ttu-id="d70e9-115">Его нельзя изменить вручную.</span><span class="sxs-lookup"><span data-stu-id="d70e9-115">It can't be manually updated.</span></span>
+
+    <span data-ttu-id="d70e9-116">Значение в поле **Номер журнала** устанавливается автоматически, если соответствующая номерная серия настроена и используется в формах печати.</span><span class="sxs-lookup"><span data-stu-id="d70e9-116">The **Journal number** field is automatically set if the corresponding number sequence is set up and used in printing forms.</span></span>
+
+6. <span data-ttu-id="d70e9-117">На вкладке **Общие** введите значения в поля **Первый ответственный** и **Второй ответственный**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-117">On the **General** tab, enter values in the **First responsible** and **Second responsible** fields.</span></span>
+7. <span data-ttu-id="d70e9-118">На вкладке **Настройка** установите для параметра **Инициализация кол-ва по факту** значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-118">On the **Setup** tab, set the **Quantity initialization by fact** option to **Yes**.</span></span> <span data-ttu-id="d70e9-119">В поле **Фактическое количество** в строке журнала автоматически устанавливается значение **Кол-во по учету**, если этот параметр имеет значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-119">The **Actual quantity** field is automatically set to the value of **Accounting quantity** field in the journal line when this option is set to **Yes**.</span></span>
+8. <span data-ttu-id="d70e9-120">Выберите **Строки**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-120">Select **Lines**.</span></span>
+9. <span data-ttu-id="d70e9-121">В диалоговом окне **Создание строки инвентаризации ОС** в поле **Учет** выберите модель стоимости, по которой производится инвентаризация основных средств.</span><span class="sxs-lookup"><span data-stu-id="d70e9-121">In the **FA counting line creation** dialog box, in the **Accounting** field, select the value model that the fixed asset counting is being done on.</span></span>
+10. <span data-ttu-id="d70e9-122">Если вам нужно выбрать основные средства для инвентаризации, на экспресс-вкладке **Включаемые записи** выберите **Фильтр** и установите фильтр.</span><span class="sxs-lookup"><span data-stu-id="d70e9-122">If you must select fixed assets for counting, on the **Records to include** FastTab, select **Filter**, and then set a filter.</span></span>
+11. <span data-ttu-id="d70e9-123">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-123">Select **OK**.</span></span> <span data-ttu-id="d70e9-124">Откроется страница **Строки инвентаризации ОС**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-124">The **FA counting lines** page is opened.</span></span> <span data-ttu-id="d70e9-125">Эта страница показывает, какие основные средства были найдены, на основе установленного фильтра.</span><span class="sxs-lookup"><span data-stu-id="d70e9-125">This page shows which fixed assets were found, based on the filter that you set.</span></span>
+
+    <span data-ttu-id="d70e9-126">В поле **Кол-во по учету** отображается количество по учету.</span><span class="sxs-lookup"><span data-stu-id="d70e9-126">The **Accounting quantity** field shows the accounting quantity.</span></span> <span data-ttu-id="d70e9-127">В этом поле всегда устанавливается значение **1**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-127">This field is always set to **1**.</span></span>
+
+12. <span data-ttu-id="d70e9-128">Если на шаге 7 вы установили для параметра **Инициализация кол-ва по факту** значение **Да**, значение в поле **Фактическое количество** автоматически устанавливается равным **1** — значению в поле **Кол-во по учету**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-128">If you set the **Quantity initialization by fact** option to **Yes** in step 7, the **Actual quantity** field is automatically set to **1**, the value of **Accounting quantity** field.</span></span> <span data-ttu-id="d70e9-129">Если вы установили для параметра значение **Нет**, введите значение в поле **Фактическое количество**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-129">If you set the option to **No**, enter a value in the **Actual quantity** field.</span></span>
+13. <span data-ttu-id="d70e9-130">Если в процессе инвентаризации основные средства найдены не были, в поле **Фактическое количество** для них необходимо установить значение **0**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-130">If any fixed assets weren't found during the counting process, you must set the **Actual quantity** field to **0** (zero) for them.</span></span> <span data-ttu-id="d70e9-131">Если найдены основные средства, но отсутствующие на странице **Строки инвентаризации ОС**, для них необходимо создать новые строки.</span><span class="sxs-lookup"><span data-stu-id="d70e9-131">If any fixed assets were found but aren't listed on the **FA counting lines** page, you must create new lines for them.</span></span> <span data-ttu-id="d70e9-132">Раньше нужно было создавать запись основного средства в системе (**Основные средства (Россия)** \> **Основные средства**).</span><span class="sxs-lookup"><span data-stu-id="d70e9-132">Previously, you had to create fixed asset record in the system (**Fixed assets (Russia)** \> **Fixed assets**).</span></span>
+14. <span data-ttu-id="d70e9-133">На странице **Строки инвентаризации ОС** выберите **Создать**, чтобы создать строку.</span><span class="sxs-lookup"><span data-stu-id="d70e9-133">On the **FA counting lines** page, select **New** to create a line.</span></span>
+15. <span data-ttu-id="d70e9-134">В диалоговом окне **Создание строк инвентаризации** в поле **Инвентарный номер ОС** выберите основное средство.</span><span class="sxs-lookup"><span data-stu-id="d70e9-134">In the **Counting lines creation** dialog box, in the **FA inventory number** field, select the fixed asset.</span></span> <span data-ttu-id="d70e9-135">В поле **Модель стоимости** выберите модель стоимости.</span><span class="sxs-lookup"><span data-stu-id="d70e9-135">In the **Value model** field, select the value model.</span></span> <span data-ttu-id="d70e9-136">Затем выберите **OK**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-136">Then select **OK**.</span></span>
+16. <span data-ttu-id="d70e9-137">В поле **Фактическое количество** введите **1**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-137">In the **Actual quantity** field, enter **1**.</span></span>
+17. <span data-ttu-id="d70e9-138">Закончив внесение исправлений, закройте страницу **Строки инвентаризации ОС**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-138">When you've finished making corrections, close the **FA counting lines** page.</span></span>
+18. <span data-ttu-id="d70e9-139">На странице **Инвентаризация ОС** в области действий выберите **Закрыть**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-139">On the **FA counting** page, on the Action Pane, select **Close**.</span></span>
+19. <span data-ttu-id="d70e9-140">В диалоговом окне **Закрытие журнала запасов** укажите дату закрытия и модель стоимости.</span><span class="sxs-lookup"><span data-stu-id="d70e9-140">In the **Closing of inventory journal** dialog box, specify the closing date and the value model.</span></span>
+20. <span data-ttu-id="d70e9-141">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-141">Select **OK**.</span></span>
+
+    <span data-ttu-id="d70e9-142">Если в строках были корректировки, становится доступна кнопка **Журнал ОС** в области действий **Инвентаризация ОС**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-142">If there were line corrections, the **FA journal** button on the Action Pane of the **FA counting** page becomes available.</span></span>
+
+21. <span data-ttu-id="d70e9-143">Выберите **Журнал ОС**, чтобы открыть журнал основных средств, включающий проводки основных средств для разноски.</span><span class="sxs-lookup"><span data-stu-id="d70e9-143">Select **FA journal** to open the Fixed asset journal, which includes the fixed asset transactions for posting.</span></span>
+
+    <span data-ttu-id="d70e9-144">На странице **Ваучер журнала** проводки создаются автоматически.</span><span class="sxs-lookup"><span data-stu-id="d70e9-144">On the **Journal voucher** page, the transactions are automatically created.</span></span> <span data-ttu-id="d70e9-145">Проводки имеют тип проводки **Списание**, если они не были найдены в процессе инвентаризации (но для них есть запись в системе).</span><span class="sxs-lookup"><span data-stu-id="d70e9-145">The transactions have a transaction type of **Writing-off** if they were not found during the counting process (but there is record in the system).</span></span> <span data-ttu-id="d70e9-146">Если они найдены, но в системе нет соответствующей записи, они имеют тип проводки **Ввод в эксплуатацию**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-146">If they were found but there is no record in the system, they have a transaction type of **Putting into operation**.</span></span>
+
+22. <span data-ttu-id="d70e9-147">Выберите **Разнести** \> **Разнести**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-147">Select **Post** \> **Post**.</span></span>
+23. <span data-ttu-id="d70e9-148">Чтобы просмотреть разнесенные проводки на вкладке **Ваучер журнала** выберите **Запросы** \> **Проводки**.</span><span class="sxs-lookup"><span data-stu-id="d70e9-148">To view the posted transactions, on the **Journal voucher** page, select **Inquiries** \> **Transactions**.</span></span>
+22. <span data-ttu-id="d70e9-149">На странице **Инвентаризация ОС** выберите **Отчеты**, чтобы напечатать отчеты.</span><span class="sxs-lookup"><span data-stu-id="d70e9-149">On the **FA counting** page, select **Reports** to print reports.</span></span> <span data-ttu-id="d70e9-150">Можно напечатать следующие отчеты:</span><span class="sxs-lookup"><span data-stu-id="d70e9-150">You can print the following reports:</span></span>
+
+    - <span data-ttu-id="d70e9-151">**ИНВ-1** используется для регистрации результатов инвентаризации основных средств компании.</span><span class="sxs-lookup"><span data-stu-id="d70e9-151">**INV-1** is used to register the results of counting the company's fixed assets.</span></span> <span data-ttu-id="d70e9-152">В процессе инвентаризации комиссия изучает основные средства и исправляет их в едином основном документе формы ИНВ-1.</span><span class="sxs-lookup"><span data-stu-id="d70e9-152">During the counting process, the commission examines the fixed assets and fixes them in unified primary document form INV-1.</span></span> 
+    - <span data-ttu-id="d70e9-153">**ИНВ-1а** используется для регистрации результатов инвентаризации нематериальных активов компании.</span><span class="sxs-lookup"><span data-stu-id="d70e9-153">**INV-1a** - is used to to register the results of counting the company's intangible assets.</span></span>
+    - <span data-ttu-id="d70e9-154">**Сличительная ведомость** — ИНВ-18 — это единая форма, используемая для документирования расхождений между результатами инвентаризации и данными учета как основных средств (ОС), так и нематериальных активов (НМА).</span><span class="sxs-lookup"><span data-stu-id="d70e9-154">**Collation statement** – INV-18 is a unified form that is used to document discrepancies between inventory results and accounting data on both fixed assets (FP) and intangible assets (NMA).</span></span>
