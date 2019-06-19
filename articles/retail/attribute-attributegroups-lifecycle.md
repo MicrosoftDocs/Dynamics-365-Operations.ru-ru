@@ -1,699 +1,258 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="attribute-attributegroups-lifecycle.md" target-language="ru-RU">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>attribute-attributegroups-lifecycle.90dcb9.7c722c311048258ce75170ac4276d397fe2828fe.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>7c722c311048258ce75170ac4276d397fe2828fe</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\retail\attribute-attributegroups-lifecycle.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Attributes and attribute groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Атрибуты и группы атрибутов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic describes how to use attributes to provide a way to describe a product and its characteristics through user-defined fields.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этом разделе описывается, как использовать атрибуты, чтобы предоставить способ описания продукта и его характеристик с помощью определенных пользователем полей.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Attributes and attribute groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Атрибуты и группы атрибутов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source><bpt id="p1">*</bpt>Attributes<ept id="p1">*</ept> provide a way to further describe a product and its characteristics through user-defined fields (such as <bpt id="p2">**</bpt>Memory size<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Hard disk capacity<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Is Energy star compliant<ept id="p4">**</ept>, and so on).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">*</bpt>Атрибуты<ept id="p1">*</ept> предоставляют способ дальнейшего описания продукта и его характеристик через определенные пользователем поля (например, <bpt id="p2">**</bpt>Объем памяти<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Емкость жесткого диска<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Соответствие требованиям Energy Star<ept id="p4">**</ept> и так далее).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В Microsoft Dynamics 365 for Finance and Operations атрибуты можно связывать с различными объектами Retail, такими как категории продуктов и каналы розничной торговли, и устанавливать для них значения по умолчанию.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Будучи связанными с категориями продуктов или каналами розничной торговли, продукты наследуют их атрибуты и значения по умолчанию.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Значения по умолчанию могут быть переопределены на уровне отдельного продукта, на уровне канала розничной торговли или в каталоге розничной торговли.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>For example, a typical television product might have the following attributes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Например, типичный телевизионный продукт может иметь следующие атрибуты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Category</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Категория</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Attribute</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Атрибут</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Permissible values</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Допустимые значения</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Default value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Значение по умолчанию</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>TV &amp; Video</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Теле- и видеооборудование</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Brand</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Марка</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Any valid brand value</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Любое действительное значение марки</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>None</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">None</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>TV</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Телевизор</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Screen Size</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Размер экрана</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>20–80 inches</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20–80 дюймов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>None</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">None</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Vertical Resolution</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разрешение по вертикали</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>480i, 720p, 1080i, or 1080p</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">480i, 720p, 1080i или 1080p</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>1080p</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1080p</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Screen Refresh Rate</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Частота обновления экрана</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>60hz, 120hz, or 240hz</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">60 Гц, 120 Гц или 240 Гц</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>60hz</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">60 Гц</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>HDMI Inputs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Входы HDMI</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>0–10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>DVI Inputs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Входы DVI</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>0–10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Composite Inputs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Композитные входы</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>0–10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Component Inputs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Компонентные входы</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>0–10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0–10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>LCD</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ЖК</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>3D Ready</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3D Ready</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Yes or No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Да или Нет</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Yes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Да</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>3D Enabled</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3D</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Yes or No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Да или Нет</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Нет</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Plasma</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Плазменный</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Operating Temp From</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Температура эксплуатации от</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>32–110 degrees</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32–110 градусов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>32</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Operating Temp To</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Температура эксплуатации до</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>32–110 degrees</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32–110 градусов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>100</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">100</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Projection</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Проекционный</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Projection Tube Warranty</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Гарантия на проекционную трубку</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>6, 12, or 18 months</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">6, 12 или 18 месяцев</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>12</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">12;</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source><ph id="ph1">\#</ph> of Projection Tubes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">\#</ph> проекционных трубок</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>1–5</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1–5</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Attributes and attribute types</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Атрибуты и типы атрибутов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Attributes are based on <bpt id="p1">*</bpt>attribute types<ept id="p1">*</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Атрибуты основываются на <bpt id="p1">*</bpt>типах атрибутов<ept id="p1">*</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>The attribute type identifies the type of data that can be entered for a specific attribute.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Тип атрибута определяет тип данных, которые можно ввести для определенного атрибута.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Finance and Operations currently supports the following attribute types:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В Finance and Operations в настоящее время поддерживаются следующие типы атрибутов:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source><bpt id="p1">**</bpt>Currency<ept id="p1">**</ept> – This type supports a currency value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Валюта<ept id="p1">**</ept> — этот тип поддерживает значение в валюте.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>It can be bounded (that is, it can support a range of values), or it can be left open.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Его можно ограничить (то есть, он может поддерживать диапазон значений) или оставить открытым.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source><bpt id="p1">**</bpt>DateTime<ept id="p1">**</ept> – This type supports a date and time value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Дата и время<ept id="p1">**</ept> — этот тип поддерживает значение даты и времени.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>It can be bounded or left open.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Он может быть ограниченным или открытым.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source><bpt id="p1">**</bpt>Decimal<ept id="p1">**</ept> – This type supports a numerical value that includes decimal places.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Десятичный<ept id="p1">**</ept> — этот тип поддерживает числовое значение, которое включают в себя десятичные разряды.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>It also supports a unit of measure.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Он также поддерживает единицу измерения.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>It can be bounded or left open.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Он может быть ограниченным или открытым.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source><bpt id="p1">**</bpt>Integer<ept id="p1">**</ept> – This type supports a numerical value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Целочисленный<ept id="p1">**</ept> — этот тип поддерживает числовое значение.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>It also supports a unit of measure.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Он также поддерживает единицу измерения.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>It can be bounded or left open.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Он может быть ограниченным или открытым.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source><bpt id="p1">**</bpt>Text<ept id="p1">**</ept> – This type supports a text value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Текст<ept id="p1">**</ept> — этот тип поддерживает текстовое значение.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>It also supports a predefined set of possible values (that is, an <bpt id="p1">*</bpt>enumeration<ept id="p1">*</ept>).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Он также поддерживает предопределенный набор возможных значений (то есть, <bpt id="p1">*</bpt>перечисление<ept id="p1">*</ept>).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source><bpt id="p1">**</bpt>Boolean<ept id="p1">**</ept> – This type supports a binary value (<bpt id="p2">**</bpt>true<ept id="p2">**</ept> or <bpt id="p3">**</bpt>false<ept id="p3">**</ept>).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Логический<ept id="p1">**</ept> — этот тип поддерживает двоичное значение (<bpt id="p2">**</bpt>истина<ept id="p2">**</ept> или <bpt id="p3">**</bpt>ложь<ept id="p3">**</ept>).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source><bpt id="p1">**</bpt>Reference<ept id="p1">**</ept> – This type references other attributes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ссылка<ept id="p1">**</ept> — этот тип ссылается на другие атрибуты.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Set up attribute types in Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка типов атрибутов в Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Sign in to the Finance and Operations back-office client as a retail merchandising manager.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполните вход в клиент бэк-офиса Finance and Operations в качестве директора по сбыту в розничной торговле.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Go to <bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Categories and attributes<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Attribute types<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление сведениями о продукте<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Настройка<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Категории и атрибуты<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Типы атрибутов<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Create two attribute types of the <bpt id="p1">**</bpt>Text<ept id="p1">**</ept> type, set the <bpt id="p2">**</bpt>Fixed list<ept id="p2">**</ept> option to <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept>, and then add a list of values:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте два типа атрибутов типа <bpt id="p1">**</bpt>Текст<ept id="p1">**</ept>, установите для параметра <bpt id="p2">**</bpt>Фиксированный список<ept id="p2">**</ept> значение <bpt id="p3">**</bpt>Да<ept id="p3">**</ept>, затем добавьте список значений:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>Name one attribute type <bpt id="p1">**</bpt>Lens shape<ept id="p1">**</ept>, and add the following values: <bpt id="p2">**</bpt>Oval<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Square<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Rectangle<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Назовите один атрибут <bpt id="p1">**</bpt>Форма линзы<ept id="p1">**</ept> и добавьте следующие значения: <bpt id="p2">**</bpt>Овальная<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Квадратная<ept id="p3">**</ept> и <bpt id="p4">**</bpt>Прямоугольная<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Name the other attribute type <bpt id="p1">**</bpt>Sunglass brand<ept id="p1">**</ept>, and add the following values: <bpt id="p2">**</bpt>Ray ban<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Aviator<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Oakley<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Назовите другой тип атрибута <bpt id="p1">**</bpt>Марка солнцезащитных очков<ept id="p1">**</ept> и добавьте следующие значения: <bpt id="p2">**</bpt>Ray ban<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Aviator<ept id="p3">**</ept> и <bpt id="p4">**</bpt>Oakley<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>Attribute types</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Типы атрибутов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>Set up an attribute in Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка атрибута в Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>Sign in to the back-office client as a retail merchandising manager.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Go to <bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Categories and attributes<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Attributes<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление сведениями о продукте<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Настройка<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Категории и атрибуты<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Атрибуты<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Create an attribute that is named <bpt id="p1">**</bpt>Lens<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создать атрибут с именем <bpt id="p1">**</bpt>Линза<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Set the <bpt id="p1">**</bpt>Attribute type<ept id="p1">**</ept> field to <bpt id="p2">**</bpt>Lens shape<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Задайте в поле <bpt id="p1">**</bpt>Тип атрибута<ept id="p1">**</ept> значение <bpt id="p2">**</bpt>Форма линзы<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>Attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Атрибуты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Attribute metadata</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Метаданные атрибута</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source><bpt id="p1">*</bpt>Attribute metadata<ept id="p1">*</ept> lets you select options to specify how the attributes for each product should behave.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">*</bpt>Метаданные атрибута<ept id="p1">*</ept> позволяют выбрать параметры для указания поведения атрибутов для каждого продукта.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>For example, you can specify whether attributes are required, whether they can be used for searches, and whether they can be used as a filter.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Например, можно указать, являются ли атрибуты обязательными, можно ли их использовать для поиска и в качестве фильтра.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>For retail products, the attribute metadata settings can be overridden at the channel level.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Для розничных продуктов можно переопределить параметры метаданных атрибута на уровне канала.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>This capability will be discussed later in this topic.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эта возможность обсуждается далее в этом разделе.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>As you might notice, the <bpt id="p1">**</bpt>Attributes<ept id="p1">**</ept> page includes options that are related to attribute metadata.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Как вы, возможно, заметили, страница <bpt id="p1">**</bpt>Атрибуты<ept id="p1">**</ept> включает параметры, которые связаны с метаданными атрибутов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Under <bpt id="p1">**</bpt>Attribute metadata for POS<ept id="p1">**</ept>, one option that is named <bpt id="p2">**</bpt>Can be refined<ept id="p2">**</ept> affects the behavior of the attribute values in the retail point of sale (POS) or the way that the system handles those attribute values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В разделе <bpt id="p1">**</bpt>Метаданные атрибута для POS<ept id="p1">**</ept> один параметр с именем <bpt id="p2">**</bpt>Возможно уточнение<ept id="p2">**</ept> влияет на поведение значений атрибутов в розничном POS или способ, которым система обрабатывает эти значения атрибутов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Only attributes for which you may set the <bpt id="p1">**</bpt>Can be refined<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, will show up for refinement or filtering of products in the retail POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Только атрибуты, для которых вы можете установить для параметра <bpt id="p1">**</bpt>Возможно уточнение<ept id="p1">**</ept> значение <bpt id="p2">**</bpt>Да<ept id="p2">**</ept>, будут отображаться для уточнения или фильтрации продуктов в Retail POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Here are the remaining attribute metadata options on the <bpt id="p1">**</bpt>Attributes<ept id="p1">**</ept> page:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вот остальные параметры метаданных атрибутов на странице <bpt id="p1">**</bpt>Атрибуты<ept id="p1">**</ept>:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>Searchable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Возможность поиска</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>Retrievable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Возможно извлечение</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Can be queried</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Возможен запрос</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>Sortable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Возможность сортировки</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>Allow multiple values</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разрешить ввод нескольких значений</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Ignore case and format</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Игнорировать регистр и форматирование</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Complete match</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Полное совпадение</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>These options were originally intended to improve the search functionality for the online storefront.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эти параметры были изначально предназначены для улучшения функции поиска для витрины интернет-магазина.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Although Finance and Operations doesn't include the online storefront out of the box, it does include the eCommerce Publishing Software Development Kit (SDK).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Хотя Finance and Operations не включает готовой витрины интернет-магазина, он включает пакета средств разработки eCommerce Publishing Software Development Kit (SDK).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Customers can use this SDK to put products into a search index of their choice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Клиенты могут использовать этот пакет SDK для размещения продуктов в индексе поиска по своему выбору.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Although the product data is imported, customers should still be able to distinguish searchable data, data that can be queried, and so on.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Хотя данные о продукции импортируются, клиенты по-прежнему смогут отличать данные, по которым возможен поиск, данные, которые можно запрашивать, и т. д.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>In that way, they can build an optimal index to make sure that they index only attributes that, <bpt id="p1">*</bpt>in their opinion<ept id="p1">*</ept>, should be indexed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Таким образом, они могут создать оптимальный индекс, обеспечивающий индексацию только тех атрибутов, которые, <bpt id="p1">*</bpt>по их мнению<ept id="p1">*</ept>, должны быть проиндексированы.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>For information about the purpose of these remaining options, see <bpt id="p1">[</bpt>Overview of the search schema in SharePoint Server 2013<ept id="p1">](https://technet.microsoft.com/library/jj219669.aspx)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сведения о назначении этих оставшихся параметров см. в разделе <bpt id="p1">[</bpt>Обзор схемы поиска в SharePoint Server 2013<ept id="p1">](https://technet.microsoft.com/library/jj219669.aspx)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Filter settings for attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройки фильтра для атрибутов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Filter settings for attributes let you define how the filters for attributes are shown in the retail POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройки фильтра для атрибутов позволяют определить, как фильтры для атрибутов будут показаны в POS-терминале для розничной торговли.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>To access the filter settings for an attribute, on the <bpt id="p1">**</bpt>Attributes<ept id="p1">**</ept> page in Finance and Operations, select the attribute, and then, on the Action Pane, select <bpt id="p2">**</bpt>Filter settings<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Для доступа к настройкам фильтра для атрибута на странице <bpt id="p1">**</bpt>Атрибуты<ept id="p1">**</ept> в Finance and Operations выберите атрибут, затем выберите в области действий пункт <bpt id="p2">**</bpt>Настройки фильтра<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>The <bpt id="p1">**</bpt>Filter display preferences<ept id="p1">**</ept> page includes the following fields:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Страница <bpt id="p1">**</bpt>Параметры отображения фильтра<ept id="p1">**</ept> включает следующие поля:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept> – By default, this field is set to the name of the attribute.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Имя<ept id="p1">**</ept> — по умолчанию это поле имеет значение имени атрибута.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>However, you can change the value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Однако это значение можно изменить.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source><bpt id="p1">**</bpt>Display option<ept id="p1">**</ept> – The following options are available:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Параметр отображения<ept id="p1">**</ept> — доступны следующие параметры:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source><bpt id="p1">**</bpt>Single value<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Boolean<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Currency<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Decimal<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Integer<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Text<ept id="p6">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Одно значение<ept id="p1">**</ept> — этот параметр доступен для следующих типов атрибутов: <bpt id="p2">**</bpt>Логический<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Валюта<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Десятичный<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Целочисленный<ept id="p5">**</ept> и <bpt id="p6">**</bpt>Текст<ept id="p6">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>This option enables single value selection for these attributes in the client for refinement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Этот параметр позволяет выбирать одно значение для этих атрибутов в клиенте для уточнения.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source><bpt id="p1">**</bpt>Multi value<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>, and <bpt id="p5">**</bpt>Text<ept id="p5">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Несколько значений<ept id="p1">**</ept> — этот параметр доступен для следующих типов атрибутов: <bpt id="p2">**</bpt>Валюта<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Десятичный<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Целочисленный<ept id="p4">**</ept> и <bpt id="p5">**</bpt>Текст<ept id="p5">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>This option enables multi-value selection for this attribute in the client for refinement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Этот параметр позволяет выбирать несколько значений для этого атрибута в клиенте для уточнения.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source><bpt id="p1">**</bpt>Display control<ept id="p1">**</ept> – The following options are available:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Управление отображением<ept id="p1">**</ept> — доступны следующие параметры:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source><bpt id="p1">**</bpt>List<ept id="p1">**</ept> – This option is available for the all attribute types.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Список<ept id="p1">**</ept> — этот параметр доступен для всех типов атрибутов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source><bpt id="p1">**</bpt>Range<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Диапазон<ept id="p1">**</ept> — этот параметр доступен для следующих типов атрибутов: <bpt id="p2">**</bpt>Валюта<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Десятичный<ept id="p3">**</ept> и <bpt id="p4">**</bpt>Целочисленный<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source><bpt id="p1">**</bpt>Slider<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ползунок<ept id="p1">**</ept> — этот параметр доступен для следующих типов атрибутов: <bpt id="p2">**</bpt>Валюта<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Десятичный<ept id="p3">**</ept> и <bpt id="p4">**</bpt>Целочисленный<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source><bpt id="p1">**</bpt>Slider with bars<ept id="p1">**</ept> – This option is available for the following attribute types: <bpt id="p2">**</bpt>Currency<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Decimal<ept id="p3">**</ept>, and <bpt id="p4">**</bpt>Integer<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ползунок с панелями<ept id="p1">**</ept> — этот параметр доступен для следующих типов атрибутов: <bpt id="p2">**</bpt>Валюта<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Десятичный<ept id="p3">**</ept> и <bpt id="p4">**</bpt>Целочисленный<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source><bpt id="p1">**</bpt>Threshold value<ept id="p1">**</ept> – This setting is required if you selected <bpt id="p2">**</bpt>Range<ept id="p2">**</ept> as the display control type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Пороговое значение<ept id="p1">**</ept> — этот параметр является обязательным, если выбрано значение <bpt id="p2">**</bpt>Диапазон<ept id="p2">**</ept> как тип отображения элемента управления.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>You can define values by using a semicolon (;) as a delimiter.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно определять значения с помощью точки с запятой (;) в качестве разделителя.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>For example, for the filter like <bpt id="p1">**</bpt>Bag Volume<ept id="p1">**</ept>, a threshold value can be <bpt id="p2">**</bpt>10; 20; 50; 100; 200; 500; 1000; 5000<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Например, для такого фильтра, как <bpt id="p1">**</bpt>Объем сумки<ept id="p1">**</ept>, пороговое значение может быть <bpt id="p2">**</bpt>10; 20; 50; 100; 200; 500; 1000; 5000<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>In this case, the retail POS will show the following ranges.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этом случае на POS-терминале для розничной торговли будут показаны следующие диапазоны.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>Any ranges that don't have any products in the result set will appear dimmed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Любые диапазоны, в которых в наборе результатов отсутствуют продукты, будут отображаться серым цветом.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>Less than 10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Меньше чем 10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>10 – 20</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10 – 20</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>20 – 50</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20 – 50</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>50 – 100</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">50 – 100</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>100 – 200</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">100 – 200</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>200 – 500</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">200 – 500</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>500 or more</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">500 и более</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Attribute filter settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройки фильтра атрибутов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>Attribute groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Группы атрибутов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>After attributes have been defined, they can be assigned to attribute groups.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">После того как атрибуты определены, они могут быть назначены группам атрибутов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>An <bpt id="p1">*</bpt>attribute group<ept id="p1">*</ept> is used to group the individual attributes for a component or subcomponent in a product configuration model.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">*</bpt>Группа атрибутов<ept id="p1">*</ept> используется для группирования отдельных атрибутов компонентов или субкомпонентов в модели конфигурации продукта.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>An attribute can be included in more than one attribute group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Атрибут может быть включен не в одну, а в несколько групп атрибутов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>Attribute groups can help users configure products, because the various selections are arranged in a specific context.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Группы атрибутов могут помочь пользователям настраивать продукты, так как разные варианты выбора располагаются в конкретном контексте.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>Attribute groups can be assigned to retail categories or retail channels.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Группы атрибутов можно назначить розничным категориям или каналам розничной торговли.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>You can also set default values for attributes that are included in an attribute group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Можно также задать значения по умолчанию для атрибутов, включенных в группу атрибутов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>For example, you add an attribute for color to an attribute group and select <bpt id="p1">**</bpt>Blue<ept id="p1">**</ept> as the default attribute value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Например, можно добавить атрибут для цвета в группу атрибутов и выбрать значение <bpt id="p1">**</bpt>Синий<ept id="p1">**</ept> в качестве значения атрибута по умолчанию.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>In this case, when the attribute group is added to a retail product that includes color as one of its attributes, <bpt id="p1">**</bpt>Blue<ept id="p1">**</ept> appears as the default color for that product.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В этом случае при добавлении группы атрибутов к продукту розничной торговли, который включает цвет как один из его атрибутов, <bpt id="p1">**</bpt>Синий<ept id="p1">**</ept> отображается как цвет по умолчанию для этого продукта.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>Attribute groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Группы атрибутов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>Create an attribute group</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание группы атрибутов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>Sign in to the back-office client as a retail merchandising manager.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>Go to <bpt id="p1">**</bpt>Product information management<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Categories and attributes<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Attribute groups<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Управление сведениями о продукте<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Настройка<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Категории и атрибуты<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Группы атрибутов<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>Create an attribute group that is named <bpt id="p1">**</bpt>Fashion Sunglasses<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создайте группу атрибутов с именем <bpt id="p1">**</bpt>Модные солнцезащитные очки<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>Add the following attributes: <bpt id="p1">**</bpt>Lens shape<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Sunglass brand<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Добавьте следующие атрибуты: <bpt id="p1">**</bpt>Форма линзы<ept id="p1">**</ept> и <bpt id="p2">**</bpt>Марка солнцезащитных очков<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>Assign attribute groups to retail categories</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Назначение групп атрибутов розничным категориям</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>One or more attribute groups can be associated with category nodes in the following types of retail category hierarchies: Retail product hierarchy, Channel navigation category hierarchy, and Supplemental product category hierarchy.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Одна или несколько групп атрибутов могут быть связаны с узлами категорий в следующих типах иерархий розничных категорий: иерархия розничной продукции, иерархия навигационных категорий канала и иерархия категорий дополнительной продукции.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>Then, when products are categorized, they inherit the attributes that are included in the attribute groups.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Затем при классификации продуктов они наследуют атрибуты, входящие в группы атрибутов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>Retail product hierarchy – Product attribute groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Иерархия розничной продукции — группы атрибутов продукта</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>Follow these steps to assign attribute groups to categories in the Retail product hierarchy.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполните следующие действия, чтобы назначить группы атрибутов категориям в иерархии розничной продукции.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>Sign in to the back-office client as a retail merchandising manager.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Category and product management<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Retail product hierarchy<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Розничная торговля<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Управление категориями и продуктами<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Иерархия розничных продуктов<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>Select <bpt id="p1">**</bpt>Fashion navigation hierarchy<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Иерархия навигации по модным продуктам<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>Under <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept>, select the <bpt id="p2">**</bpt>Pants<ept id="p2">**</ept> category, and then, on the <bpt id="p3">**</bpt>Product attribute groups<ept id="p3">**</ept> FastTab, add an attribute group that is named <bpt id="p4">**</bpt>Men's belt<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В разделе <bpt id="p1">**</bpt>Мужская одежда<ept id="p1">**</ept>, выберите категорию <bpt id="p2">**</bpt>Брюки<ept id="p2">**</ept>, а затем на экспресс-вкладке <bpt id="p3">**</bpt>Группы атрибутов продукта<ept id="p3">**</ept> добавьте группу атрибутов с именем <bpt id="p4">**</bpt>Мужской ремень<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>Select the <bpt id="p1">**</bpt>Fashion sunglasses<ept id="p1">**</ept> category, and verify the new attributes in the <bpt id="p2">**</bpt>Fashion Sunglasses<ept id="p2">**</ept> attribute group by selecting <bpt id="p3">**</bpt>View attributes<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите категорию <bpt id="p1">**</bpt>Модные солнцезащитные очки<ept id="p1">**</ept> и проверьте новые атрибуты в группе атрибутов <bpt id="p2">**</bpt>Модные солнцезащитные очки<ept id="p2">**</ept>, выбрав <bpt id="p3">**</bpt>Просмотр атрибутов<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>The attribute group should show the new <bpt id="p1">**</bpt>Lens shape<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Sunglass brand<ept id="p2">**</ept> attributes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В группе атрибутов должны отображаться новые атрибуты <bpt id="p1">**</bpt>Форма линз<ept id="p1">**</ept> и <bpt id="p2">**</bpt>Марка солнцезащитных очков<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>Under <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept>, select the <bpt id="p2">**</bpt>Pants<ept id="p2">**</ept> category, and verify the attributes for the <bpt id="p3">**</bpt>Men's belt<ept id="p3">**</ept> attribute group by selecting <bpt id="p4">**</bpt>View attributes<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В разделе <bpt id="p1">**</bpt>Мужская одежда<ept id="p1">**</ept> выберите категорию <bpt id="p2">**</bpt>Брюки<ept id="p2">**</ept> и проверьте группу атрибутов <bpt id="p3">**</bpt>Мужской ремень<ept id="p3">**</ept>, выбрав пункт <bpt id="p4">**</bpt>Просмотр атрибутов<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source>The attribute group should show the <bpt id="p1">**</bpt>Men's belt brand<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Belt fabric<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Belt size<ept id="p3">**</ept> attributes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В группе атрибутов должны отображаться атрибуты <bpt id="p1">**</bpt>Марка мужского ремня<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Материал ремня<ept id="p2">**</ept> и <bpt id="p3">**</bpt>Размер ремня<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>This procedure can also be used to assign attribute groups to categories in the Channel navigation category hierarchy and the Supplemental product category hierarchy.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Эта процедура может также использоваться для назначения групп атрибутов категориям в иерархии навигационных категорий канала и иерархии дополнительных категорий продукции.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>In step 2, use the following navigation paths:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На шаге 2 используйте следующие пути перехода:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>Retail <ph id="ph1">&amp;gt;</ph> Category and product management <ph id="ph2">&amp;gt;</ph> Channel navigation categories</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Розничная торговля <ph id="ph1">&amp;gt;</ph> Управление категориями и продуктами <ph id="ph2">&amp;gt;</ph> Навигационные категории каналов</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>Retail <ph id="ph1">&amp;gt;</ph> Category and product management <ph id="ph2">&amp;gt;</ph> Supplemental product categories</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Розничная торговля <ph id="ph1">&amp;gt;</ph> Управление категориями и продуктами <ph id="ph2">&amp;gt;</ph> Дополнительные категории продуктов.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source>Assign attribute groups to retail stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Назначение групп атрибутов розничным магазинам</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>One or more attribute groups can be associated with one or more retail stores in the retail store hierarchy.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">С одним или несколькими розничными магазинами в иерархии категорий розничных магазинов можно связать одну или несколько групп атрибутов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source>Then, when products are enriched for specific retail stores, they inherit the attributes that are included in the attribute groups.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Затем ,после обогащения продуктов путем добавления конкретных розничных магазинов, продукты наследуют атрибуты, входящие в группы атрибутов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>Sign in to the back-office client as a retail merchandising manager.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Channel categories and product attributes<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Розничная торговля<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Настройка канала<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Категории каналов и атрибуты продуктов<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source>Assign attribute groups to the Houston channel:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Назначьте группы атрибутов каналу "Хьюстон":</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source>Select the <bpt id="p1">**</bpt>Houston<ept id="p1">**</ept> channel.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите канал <bpt id="p1">**</bpt>Хьюстон<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>On the <bpt id="p1">**</bpt>Attribute group<ept id="p1">**</ept> FastTab, select <bpt id="p2">**</bpt>Add<ept id="p2">**</ept>, and then, in the <bpt id="p3">**</bpt>Name<ept id="p3">**</ept> field, select <bpt id="p4">**</bpt>SharePointProvisionedProductAttributeGroup<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Группа атрибутов<ept id="p1">**</ept> выберите <bpt id="p2">**</bpt>Добавить<ept id="p2">**</ept>, затем в поле <bpt id="p3">**</bpt>Имя<ept id="p3">**</ept> выберите <bpt id="p4">**</bpt>SharePointProvisionedProductAttributeGroup<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>Select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> again, and then, in the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Men's belt<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Снова выберите <bpt id="p1">**</bpt>Добавить<ept id="p1">**</ept>, затем в поле <bpt id="p2">**</bpt>Имя<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Мужской ремень<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>Select <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> again, and then, in the <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> field, select <bpt id="p3">**</bpt>Fashion Sunglasses<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Снова выберите <bpt id="p1">**</bpt>Добавить<ept id="p1">**</ept>, затем в поле <bpt id="p2">**</bpt>Имя<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Модные солнцезащитные очки<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source>An option lets you specify that this channel should inherit the attribute groups from its parent channel in the hierarchy.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Параметр позволяет указать, что этот канал должен наследовать группы атрибутов из своего родительского канала в иерархии.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>If you set the <bpt id="p1">**</bpt>Inherit<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>, the child channel node inherits all the attribute groups and all the attributes in those attribute groups.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если для параметра <bpt id="p1">**</bpt>Наследовать<ept id="p1">**</ept> задано значение <bpt id="p2">**</bpt>Да<ept id="p2">**</ept>, дочерний узел канала наследует все группы атрибутов и все атрибуты из этих групп атрибутов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>Enable the attributes so that they are available in the Houston channel:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Включите атрибуты, чтобы они были доступны в канале "Хьюстон":</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="287">
-          <source>On the Action Pane, select <bpt id="p1">**</bpt>Set attribute metadata<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В области действий выберите <bpt id="p1">**</bpt>Задать метаданные атрибута<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="288">
-          <source>Select the <bpt id="p1">**</bpt>Fashion<ept id="p1">**</ept> category node, and then, on the <bpt id="p2">**</bpt>Channel product attributes<ept id="p2">**</ept> FastTab, select <bpt id="p3">**</bpt>Include attribute<ept id="p3">**</ept> for each attribute.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите узел категории <bpt id="p1">**</bpt>Мода<ept id="p1">**</ept>, затем на экспресс-вкладке <bpt id="p2">**</bpt>Атрибуты продуктов канала<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Включить атрибут<ept id="p3">**</ept> для каждого атрибута.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="289">
-          <source>Select the <bpt id="p1">**</bpt>Fashion Accessories<ept id="p1">**</ept> category node, select the <bpt id="p2">**</bpt>Fashion Sunglasses<ept id="p2">**</ept> category, and then, on the <bpt id="p3">**</bpt>Channel product attributes<ept id="p3">**</ept> FastTab, select <bpt id="p4">**</bpt>Include attribute<ept id="p4">**</ept> for each attribute.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите узел категории <bpt id="p1">**</bpt>Модные аксессуары<ept id="p1">**</ept>, затем выберите категорию <bpt id="p2">**</bpt>Модные солнцезащитные очки<ept id="p2">**</ept>, и затем на экспресс-вкладке <bpt id="p3">**</bpt>Атрибуты продуктов канала<ept id="p3">**</ept> выберите <bpt id="p4">**</bpt>Включить атрибут<ept id="p4">**</ept> для каждого атрибута.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="290">
-          <source>Select the <bpt id="p1">**</bpt>Menswear<ept id="p1">**</ept> category node, select the <bpt id="p2">**</bpt>Pants<ept id="p2">**</ept> category, and then, on the <bpt id="p3">**</bpt>Channel product attributes<ept id="p3">**</ept> FastTab, select <bpt id="p4">**</bpt>Include attribute<ept id="p4">**</ept> for each attribute.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите узел категории <bpt id="p1">**</bpt>Мужская одежда<ept id="p1">**</ept>, затем выберите категорию <bpt id="p2">**</bpt>Брюки<ept id="p2">**</ept>, и затем на экспресс-вкладке <bpt id="p3">**</bpt>Атрибуты продуктов канала<ept id="p3">**</ept> выберите <bpt id="p4">**</bpt>Включить атрибут<ept id="p4">**</ept> для каждого атрибута.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="291">
-          <source>Channel categories and product attributes – Attribute groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Категории каналов и атрибуты продуктов — группы атрибутов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="292">
-          <source>Overriding attribute values</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Переопределение значений атрибутов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="293">
-          <source>The default values of attributes can be overridden for individual products at the product level.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Значения по умолчанию атрибутов можно переопределять для отдельных продуктов на уровне продукта.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="294">
-          <source>Default values can also be overridden for individual products in specific catalogs that are targeted at specific retail channels.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Значения по умолчанию можно также переопределять для отдельных продуктов в конкретных каталогах, предназначенных для конкретных каналов розничной торговли.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="295">
-          <source>Override the attribute values of an individual product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Переопределение значений атрибутов для конкретного продукта</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="296">
-          <source>Sign in to the back-office client as a retail merchandising manager.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="297">
-          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Category and product management<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Released products by category<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Розничная торговля<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Управление категориями и продуктами<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Используемые продукты по категориям<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="298">
-          <source>Select the <bpt id="p1">**</bpt>Fashion<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Fashion Accessories<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Fashion Sunglasses<ept id="p3">**</ept> category node.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите узел категории <bpt id="p1">**</bpt>Мода<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Модные аксессуары<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Модные солнцезащитные очки<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="299">
-          <source>Select the required product in the grid.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите требуемый продукт в сетке.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="300">
-          <source>Then, on the Action Pane, on the <bpt id="p1">**</bpt>Product<ept id="p1">**</ept> tab, in the <bpt id="p2">**</bpt>Set up<ept id="p2">**</ept> group, select <bpt id="p3">**</bpt>Product attributes<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Затем в область действий на вкладке <bpt id="p1">**</bpt>Продукт<ept id="p1">**</ept> в группе <bpt id="p2">**</bpt>Настройка<ept id="p2">**</ept> выберите <bpt id="p3">**</bpt>Атрибуты продукта<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="301">
-          <source>Select an attribute in the left pane, and then update its value in the right pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите атрибут в левой области, затем обновите его значение в правой области.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="302">
-          <source>Product details page – Product attribute groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Страница сведений о продукте — группы атрибутов продукта</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="303">
-          <source>Override the attribute values of products in a catalog</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Переопределение значений атрибутов продуктов в каталоге</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="304">
-          <source>Sign in to the back-office client as a retail merchandising manager.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="305">
-          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Catalog management<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>All catalogs<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите <bpt id="p1">**</bpt>Розничная торговля<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Управление каталогами<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Все каталоги<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="306">
-          <source>Select the <bpt id="p1">**</bpt>Fabrikam Base Catalog<ept id="p1">**</ept> catalog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите каталог <bpt id="p1">**</bpt>Fabrikam Base Catalog<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="307">
-          <source>Select the <bpt id="p1">**</bpt>Fashion<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Fashion Accessories<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Fashion Sunglasses<ept id="p3">**</ept> category node.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите узел категории <bpt id="p1">**</bpt>Мода<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Модные аксессуары<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Модные солнцезащитные очки<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="308">
-          <source>On the <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> FastTab, select the required product, and then select <bpt id="p2">**</bpt>Attributes<ept id="p2">**</ept> above the product grid.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Продукты<ept id="p1">**</ept> выберите требуемый продукт, затем выберите <bpt id="p2">**</bpt>Атрибуты<ept id="p2">**</ept> над сеткой продукции.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="309">
-          <source>On the following FastTabs, update the values of the required attributes:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В следующих экспресс-вкладках обновите значения обязательных атрибутов:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="310">
-          <source>Shared product media</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">СМИ общих продуктов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="311">
-          <source>Shared product attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Общие атрибуты продуктов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="312">
-          <source>Channel media</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Канал СМИ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="313">
-          <source>Channel product attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Атрибуты продуктов канала</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="314">
-          <source>If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если совместно используемые носители продукта и атрибуты продукта создаются в Finance and Operations, они применяются для всех розничных продуктов.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="315">
-          <source>Catalog product attribute groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Группы атрибутов продукта из каталога</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="316">
-          <source>Override the attribute values of products in a channel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Переопределение значений атрибутов продуктов в канале</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="317">
-          <source>Sign in to the back-office client as a retail merchandising manager.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="318">
-          <source>Go to <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Channel categories and product attributes<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перейдите в раздел <bpt id="p1">**</bpt>Розничная торговля<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Настройка канала<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Категории каналов и атрибуты продуктов<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="319">
-          <source>Select the <bpt id="p1">**</bpt>Houston<ept id="p1">**</ept> channel.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выберите канал <bpt id="p1">**</bpt>Хьюстон<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="320">
-          <source>On the <bpt id="p1">**</bpt>Products<ept id="p1">**</ept> FastTab, select the required product, and then select <bpt id="p2">**</bpt>Attributes<ept id="p2">**</ept> above the product grid.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">На экспресс-вкладке <bpt id="p1">**</bpt>Продукты<ept id="p1">**</ept> выберите требуемый продукт, затем выберите <bpt id="p2">**</bpt>Атрибуты<ept id="p2">**</ept> над сеткой продукции.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="321">
-          <source>If no products are available, add products by selecting <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>Products<ept id="p2">**</ept> FastTab and then selecting the required products in the <bpt id="p3">**</bpt>Add products<ept id="p3">**</ept> dialog box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если никакие продукты не доступны, добавьте продукты, выбрав <bpt id="p1">**</bpt>Добавить<ept id="p1">**</ept> на экспресс-вкладке <bpt id="p2">**</bpt>Продукты<ept id="p2">**</ept>, затем выбрав необходимые продукты в диалоговом окне <bpt id="p3">**</bpt>Добавить продукты<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="322">
-          <source>On the following FastTabs, update the values of the required attributes:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">В следующих экспресс-вкладках обновите значения обязательных атрибутов:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="323">
-          <source>Shared product media</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">СМИ общих продуктов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="324">
-          <source>Shared product attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Общие атрибуты продуктов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="325">
-          <source>Channel media</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Канал СМИ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="326">
-          <source>Channel product attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Атрибуты продуктов канала</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="327">
-          <source>If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Если совместно используемые носители продукта и атрибуты продукта создаются в Finance and Operations, они применяются для всех розничных продуктов.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Атрибуты и группы атрибутов
+description: В этом разделе описывается, как использовать атрибуты, чтобы предоставить способ описания продукта и его характеристик с помощью определенных пользователем полей.
+author: ashishmsft
+manager: AnnBe
+ms.date: 04/28/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: asharchw
+ms.search.validFrom: 2018-03-30
+ms.dyn365.ops.version: Application pdate 5, AX 8.0
+ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606903"
+---
+# <a name="attributes-and-attribute-groups"></a><span data-ttu-id="32396-103">Атрибуты и группы атрибутов</span><span class="sxs-lookup"><span data-stu-id="32396-103">Attributes and attribute groups</span></span>
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="32396-104">*Атрибуты* предоставляют способ дальнейшего описания продукта и его характеристик через определенные пользователем поля (например, **Объем памяти**, **Емкость жесткого диска**, **Соответствие требованиям Energy Star** и так далее).</span><span class="sxs-lookup"><span data-stu-id="32396-104">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="32396-105">В Microsoft Dynamics 365 for Finance and Operations атрибуты можно связывать с различными объектами Retail, такими как категории продуктов и каналы розничной торговли, и устанавливать для них значения по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="32396-105">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="32396-106">Будучи связанными с категориями продуктов или каналами розничной торговли, продукты наследуют их атрибуты и значения по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="32396-106">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="32396-107">Значения по умолчанию могут быть переопределены на уровне отдельного продукта, на уровне канала розничной торговли или в каталоге розничной торговли.</span><span class="sxs-lookup"><span data-stu-id="32396-107">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
+
+<span data-ttu-id="32396-108">Например, типичный телевизионный продукт может иметь следующие атрибуты.</span><span class="sxs-lookup"><span data-stu-id="32396-108">For example, a typical television product might have the following attributes.</span></span>
+
+| <span data-ttu-id="32396-109">Категория</span><span class="sxs-lookup"><span data-stu-id="32396-109">Category</span></span>   | <span data-ttu-id="32396-110">Атрибут</span><span class="sxs-lookup"><span data-stu-id="32396-110">Attribute</span></span>                | <span data-ttu-id="32396-111">Допустимые значения</span><span class="sxs-lookup"><span data-stu-id="32396-111">Permissible values</span></span>          | <span data-ttu-id="32396-112">Значение по умолчанию</span><span class="sxs-lookup"><span data-stu-id="32396-112">Default value</span></span> |
+|------------|--------------------------|-----------------------------|---------------|
+| <span data-ttu-id="32396-113">Теле- и видеооборудование</span><span class="sxs-lookup"><span data-stu-id="32396-113">TV & Video</span></span> | <span data-ttu-id="32396-114">Марка</span><span class="sxs-lookup"><span data-stu-id="32396-114">Brand</span></span>                    | <span data-ttu-id="32396-115">Любое действительное значение марки</span><span class="sxs-lookup"><span data-stu-id="32396-115">Any valid brand value</span></span>       | <span data-ttu-id="32396-116">None</span><span class="sxs-lookup"><span data-stu-id="32396-116">None</span></span>          |
+| <span data-ttu-id="32396-117">Телевизор</span><span class="sxs-lookup"><span data-stu-id="32396-117">TV</span></span>         | <span data-ttu-id="32396-118">Размер экрана</span><span class="sxs-lookup"><span data-stu-id="32396-118">Screen Size</span></span>              | <span data-ttu-id="32396-119">20–80 дюймов</span><span class="sxs-lookup"><span data-stu-id="32396-119">20–80 inches</span></span>                | <span data-ttu-id="32396-120">None</span><span class="sxs-lookup"><span data-stu-id="32396-120">None</span></span>          |
+|            | <span data-ttu-id="32396-121">Разрешение по вертикали</span><span class="sxs-lookup"><span data-stu-id="32396-121">Vertical Resolution</span></span>      | <span data-ttu-id="32396-122">480i, 720p, 1080i или 1080p</span><span class="sxs-lookup"><span data-stu-id="32396-122">480i, 720p, 1080i, or 1080p</span></span> | <span data-ttu-id="32396-123">1080p</span><span class="sxs-lookup"><span data-stu-id="32396-123">1080p</span></span>         |
+|            | <span data-ttu-id="32396-124">Частота обновления экрана</span><span class="sxs-lookup"><span data-stu-id="32396-124">Screen Refresh Rate</span></span>      | <span data-ttu-id="32396-125">60 Гц, 120 Гц или 240 Гц</span><span class="sxs-lookup"><span data-stu-id="32396-125">60hz, 120hz, or 240hz</span></span>       | <span data-ttu-id="32396-126">60 Гц</span><span class="sxs-lookup"><span data-stu-id="32396-126">60hz</span></span>          |
+|            | <span data-ttu-id="32396-127">Входы HDMI</span><span class="sxs-lookup"><span data-stu-id="32396-127">HDMI Inputs</span></span>              | <span data-ttu-id="32396-128">0–10</span><span class="sxs-lookup"><span data-stu-id="32396-128">0–10</span></span>                        | <span data-ttu-id="32396-129">3</span><span class="sxs-lookup"><span data-stu-id="32396-129">3</span></span>             |
+|            | <span data-ttu-id="32396-130">Входы DVI</span><span class="sxs-lookup"><span data-stu-id="32396-130">DVI Inputs</span></span>               | <span data-ttu-id="32396-131">0–10</span><span class="sxs-lookup"><span data-stu-id="32396-131">0–10</span></span>                        | <span data-ttu-id="32396-132">1</span><span class="sxs-lookup"><span data-stu-id="32396-132">1</span></span>             |
+|            | <span data-ttu-id="32396-133">Композитные входы</span><span class="sxs-lookup"><span data-stu-id="32396-133">Composite Inputs</span></span>         | <span data-ttu-id="32396-134">0–10</span><span class="sxs-lookup"><span data-stu-id="32396-134">0–10</span></span>                        | <span data-ttu-id="32396-135">2</span><span class="sxs-lookup"><span data-stu-id="32396-135">2</span></span>             |
+|            | <span data-ttu-id="32396-136">Компонентные входы</span><span class="sxs-lookup"><span data-stu-id="32396-136">Component Inputs</span></span>         | <span data-ttu-id="32396-137">0–10</span><span class="sxs-lookup"><span data-stu-id="32396-137">0–10</span></span>                        | <span data-ttu-id="32396-138">1</span><span class="sxs-lookup"><span data-stu-id="32396-138">1</span></span>             |
+| <span data-ttu-id="32396-139">ЖК</span><span class="sxs-lookup"><span data-stu-id="32396-139">LCD</span></span>        | <span data-ttu-id="32396-140">3D Ready</span><span class="sxs-lookup"><span data-stu-id="32396-140">3D Ready</span></span>                 | <span data-ttu-id="32396-141">Да или Нет</span><span class="sxs-lookup"><span data-stu-id="32396-141">Yes or No</span></span>                   | <span data-ttu-id="32396-142">Да</span><span class="sxs-lookup"><span data-stu-id="32396-142">Yes</span></span>           |
+|            | <span data-ttu-id="32396-143">3D</span><span class="sxs-lookup"><span data-stu-id="32396-143">3D Enabled</span></span>               | <span data-ttu-id="32396-144">Да или Нет</span><span class="sxs-lookup"><span data-stu-id="32396-144">Yes or No</span></span>                   | <span data-ttu-id="32396-145">Нет</span><span class="sxs-lookup"><span data-stu-id="32396-145">No</span></span>            |
+| <span data-ttu-id="32396-146">Плазменный</span><span class="sxs-lookup"><span data-stu-id="32396-146">Plasma</span></span>     | <span data-ttu-id="32396-147">Температура эксплуатации от</span><span class="sxs-lookup"><span data-stu-id="32396-147">Operating Temp From</span></span>      | <span data-ttu-id="32396-148">32–110 градусов</span><span class="sxs-lookup"><span data-stu-id="32396-148">32–110 degrees</span></span>              | <span data-ttu-id="32396-149">32</span><span class="sxs-lookup"><span data-stu-id="32396-149">32</span></span>            |
+|            | <span data-ttu-id="32396-150">Температура эксплуатации до</span><span class="sxs-lookup"><span data-stu-id="32396-150">Operating Temp To</span></span>        | <span data-ttu-id="32396-151">32–110 градусов</span><span class="sxs-lookup"><span data-stu-id="32396-151">32–110 degrees</span></span>              | <span data-ttu-id="32396-152">100</span><span class="sxs-lookup"><span data-stu-id="32396-152">100</span></span>           |
+| <span data-ttu-id="32396-153">Проекционный</span><span class="sxs-lookup"><span data-stu-id="32396-153">Projection</span></span> | <span data-ttu-id="32396-154">Гарантия на проекционную трубку</span><span class="sxs-lookup"><span data-stu-id="32396-154">Projection Tube Warranty</span></span> | <span data-ttu-id="32396-155">6, 12 или 18 месяцев</span><span class="sxs-lookup"><span data-stu-id="32396-155">6, 12, or 18 months</span></span>         | <span data-ttu-id="32396-156">12;</span><span class="sxs-lookup"><span data-stu-id="32396-156">12</span></span>            |
+|            | <span data-ttu-id="32396-157">\# проекционных трубок</span><span class="sxs-lookup"><span data-stu-id="32396-157">\# of Projection Tubes</span></span>   | <span data-ttu-id="32396-158">1–5</span><span class="sxs-lookup"><span data-stu-id="32396-158">1–5</span></span>                         | <span data-ttu-id="32396-159">3</span><span class="sxs-lookup"><span data-stu-id="32396-159">3</span></span>             |
+
+## <a name="attributes-and-attribute-types"></a><span data-ttu-id="32396-160">Атрибуты и типы атрибутов</span><span class="sxs-lookup"><span data-stu-id="32396-160">Attributes and attribute types</span></span>
+
+<span data-ttu-id="32396-161">Атрибуты основываются на *типах атрибутов*.</span><span class="sxs-lookup"><span data-stu-id="32396-161">Attributes are based on *attribute types*.</span></span> <span data-ttu-id="32396-162">Тип атрибута определяет тип данных, которые можно ввести для определенного атрибута.</span><span class="sxs-lookup"><span data-stu-id="32396-162">The attribute type identifies the type of data that can be entered for a specific attribute.</span></span> <span data-ttu-id="32396-163">В Finance and Operations в настоящее время поддерживаются следующие типы атрибутов:</span><span class="sxs-lookup"><span data-stu-id="32396-163">Finance and Operations currently supports the following attribute types:</span></span>
+
+- <span data-ttu-id="32396-164">**Валюта** — этот тип поддерживает значение в валюте.</span><span class="sxs-lookup"><span data-stu-id="32396-164">**Currency** – This type supports a currency value.</span></span> <span data-ttu-id="32396-165">Его можно ограничить (то есть, он может поддерживать диапазон значений) или оставить открытым.</span><span class="sxs-lookup"><span data-stu-id="32396-165">It can be bounded (that is, it can support a range of values), or it can be left open.</span></span>
+- <span data-ttu-id="32396-166">**Дата и время** — этот тип поддерживает значение даты и времени.</span><span class="sxs-lookup"><span data-stu-id="32396-166">**DateTime** – This type supports a date and time value.</span></span> <span data-ttu-id="32396-167">Он может быть ограниченным или открытым.</span><span class="sxs-lookup"><span data-stu-id="32396-167">It can be bounded or left open.</span></span>
+- <span data-ttu-id="32396-168">**Десятичный** — этот тип поддерживает числовое значение, которое включают в себя десятичные разряды.</span><span class="sxs-lookup"><span data-stu-id="32396-168">**Decimal** – This type supports a numerical value that includes decimal places.</span></span> <span data-ttu-id="32396-169">Он также поддерживает единицу измерения.</span><span class="sxs-lookup"><span data-stu-id="32396-169">It also supports a unit of measure.</span></span> <span data-ttu-id="32396-170">Он может быть ограниченным или открытым.</span><span class="sxs-lookup"><span data-stu-id="32396-170">It can be bounded or left open.</span></span>
+- <span data-ttu-id="32396-171">**Целочисленный** — этот тип поддерживает числовое значение.</span><span class="sxs-lookup"><span data-stu-id="32396-171">**Integer** – This type supports a numerical value.</span></span> <span data-ttu-id="32396-172">Он также поддерживает единицу измерения.</span><span class="sxs-lookup"><span data-stu-id="32396-172">It also supports a unit of measure.</span></span> <span data-ttu-id="32396-173">Он может быть ограниченным или открытым.</span><span class="sxs-lookup"><span data-stu-id="32396-173">It can be bounded or left open.</span></span>
+- <span data-ttu-id="32396-174">**Текст** — этот тип поддерживает текстовое значение.</span><span class="sxs-lookup"><span data-stu-id="32396-174">**Text** – This type supports a text value.</span></span> <span data-ttu-id="32396-175">Он также поддерживает предопределенный набор возможных значений (то есть, *перечисление*).</span><span class="sxs-lookup"><span data-stu-id="32396-175">It also supports a predefined set of possible values (that is, an *enumeration*).</span></span>
+- <span data-ttu-id="32396-176">**Логический** — этот тип поддерживает двоичное значение (**истина** или **ложь**).</span><span class="sxs-lookup"><span data-stu-id="32396-176">**Boolean** – This type supports a binary value (**true** or **false**).</span></span>
+- <span data-ttu-id="32396-177">**Ссылка** — этот тип ссылается на другие атрибуты.</span><span class="sxs-lookup"><span data-stu-id="32396-177">**Reference** – This type references other attributes.</span></span>
+
+### <a name="set-up-attribute-types-in-finance-and-operations"></a><span data-ttu-id="32396-178">Настройка типов атрибутов в Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="32396-178">Set up attribute types in Finance and Operations</span></span>
+
+1. <span data-ttu-id="32396-179">Выполните вход в клиент бэк-офиса Finance and Operations в качестве директора по сбыту в розничной торговле.</span><span class="sxs-lookup"><span data-stu-id="32396-179">Sign in to the Finance and Operations back-office client as a retail merchandising manager.</span></span>
+2. <span data-ttu-id="32396-180">Перейдите в раздел **Управление сведениями о продукте** &gt; **Настройка** &gt; **Категории и атрибуты** &gt; **Типы атрибутов**.</span><span class="sxs-lookup"><span data-stu-id="32396-180">Go to **Product information management** &gt; **Setup** &gt; **Categories and attributes** &gt; **Attribute types**.</span></span>
+3. <span data-ttu-id="32396-181">Создайте два типа атрибутов типа **Текст**, установите для параметра **Фиксированный список** значение **Да**, затем добавьте список значений:</span><span class="sxs-lookup"><span data-stu-id="32396-181">Create two attribute types of the **Text** type, set the **Fixed list** option to **Yes**, and then add a list of values:</span></span>
+
+    - <span data-ttu-id="32396-182">Назовите один атрибут **Форма линзы** и добавьте следующие значения: **Овальная**, **Квадратная** и **Прямоугольная**.</span><span class="sxs-lookup"><span data-stu-id="32396-182">Name one attribute type **Lens shape**, and add the following values: **Oval**, **Square**, and **Rectangle**.</span></span>
+    - <span data-ttu-id="32396-183">Назовите другой тип атрибута **Марка солнцезащитных очков** и добавьте следующие значения: **Ray ban**, **Aviator** и **Oakley**.</span><span class="sxs-lookup"><span data-stu-id="32396-183">Name the other attribute type **Sunglass brand**, and add the following values: **Ray ban**, **Aviator**, and **Oakley**.</span></span>
+
+![Типы атрибутов](media/AttributeType.png)
+
+### <a name="set-up-an-attribute-in-finance-and-operations"></a><span data-ttu-id="32396-185">Настройка атрибута в Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="32396-185">Set up an attribute in Finance and Operations</span></span>
+
+1. <span data-ttu-id="32396-186">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</span><span class="sxs-lookup"><span data-stu-id="32396-186">Sign in to the back-office client as a retail merchandising manager.</span></span>
+2. <span data-ttu-id="32396-187">Перейдите в раздел **Управление сведениями о продукте** &gt; **Настройка** &gt; **Категории и атрибуты** &gt; **Атрибуты**.</span><span class="sxs-lookup"><span data-stu-id="32396-187">Go to **Product information management** &gt; **Setup** &gt; **Categories and attributes** &gt; **Attributes**.</span></span>
+3. <span data-ttu-id="32396-188">Создать атрибут с именем **Линза**.</span><span class="sxs-lookup"><span data-stu-id="32396-188">Create an attribute that is named **Lens**.</span></span>
+4. <span data-ttu-id="32396-189">Задайте в поле **Тип атрибута** значение **Форма линзы**.</span><span class="sxs-lookup"><span data-stu-id="32396-189">Set the **Attribute type** field to **Lens shape**.</span></span>
+
+![Атрибуты](media/Attribute.png)
+
+## <a name="attribute-metadata"></a><span data-ttu-id="32396-191">Метаданные атрибута</span><span class="sxs-lookup"><span data-stu-id="32396-191">Attribute metadata</span></span>
+
+<span data-ttu-id="32396-192">*Метаданные атрибута* позволяют выбрать параметры для указания поведения атрибутов для каждого продукта.</span><span class="sxs-lookup"><span data-stu-id="32396-192">*Attribute metadata* lets you select options to specify how the attributes for each product should behave.</span></span> <span data-ttu-id="32396-193">Например, можно указать, являются ли атрибуты обязательными, можно ли их использовать для поиска и в качестве фильтра.</span><span class="sxs-lookup"><span data-stu-id="32396-193">For example, you can specify whether attributes are required, whether they can be used for searches, and whether they can be used as a filter.</span></span>
+
+<span data-ttu-id="32396-194">Для розничных продуктов можно переопределить параметры метаданных атрибута на уровне канала.</span><span class="sxs-lookup"><span data-stu-id="32396-194">For retail products, the attribute metadata settings can be overridden at the channel level.</span></span> <span data-ttu-id="32396-195">Эта возможность обсуждается далее в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="32396-195">This capability will be discussed later in this topic.</span></span>
+
+<span data-ttu-id="32396-196">Как вы, возможно, заметили, страница **Атрибуты** включает параметры, которые связаны с метаданными атрибутов.</span><span class="sxs-lookup"><span data-stu-id="32396-196">As you might notice, the **Attributes** page includes options that are related to attribute metadata.</span></span> <span data-ttu-id="32396-197">В разделе **Метаданные атрибута для POS** один параметр с именем **Возможно уточнение** влияет на поведение значений атрибутов в розничном POS или способ, которым система обрабатывает эти значения атрибутов.</span><span class="sxs-lookup"><span data-stu-id="32396-197">Under **Attribute metadata for POS**, one option that is named **Can be refined** affects the behavior of the attribute values in the retail point of sale (POS) or the way that the system handles those attribute values.</span></span> <span data-ttu-id="32396-198">Только атрибуты, для которых вы можете установить для параметра **Возможно уточнение** значение **Да**, будут отображаться для уточнения или фильтрации продуктов в Retail POS.</span><span class="sxs-lookup"><span data-stu-id="32396-198">Only attributes for which you may set the **Can be refined** option to **Yes**, will show up for refinement or filtering of products in the retail POS.</span></span>
+
+<span data-ttu-id="32396-199">Вот остальные параметры метаданных атрибутов на странице **Атрибуты**:</span><span class="sxs-lookup"><span data-stu-id="32396-199">Here are the remaining attribute metadata options on the **Attributes** page:</span></span>
+
+- <span data-ttu-id="32396-200">Возможность поиска</span><span class="sxs-lookup"><span data-stu-id="32396-200">Searchable</span></span>
+- <span data-ttu-id="32396-201">Возможно извлечение</span><span class="sxs-lookup"><span data-stu-id="32396-201">Retrievable</span></span>
+- <span data-ttu-id="32396-202">Возможен запрос</span><span class="sxs-lookup"><span data-stu-id="32396-202">Can be queried</span></span>
+- <span data-ttu-id="32396-203">Возможность сортировки</span><span class="sxs-lookup"><span data-stu-id="32396-203">Sortable</span></span>
+- <span data-ttu-id="32396-204">Разрешить ввод нескольких значений</span><span class="sxs-lookup"><span data-stu-id="32396-204">Allow multiple values</span></span>
+- <span data-ttu-id="32396-205">Игнорировать регистр и форматирование</span><span class="sxs-lookup"><span data-stu-id="32396-205">Ignore case and format</span></span>
+- <span data-ttu-id="32396-206">Полное совпадение</span><span class="sxs-lookup"><span data-stu-id="32396-206">Complete match</span></span>
+
+<span data-ttu-id="32396-207">Эти параметры были изначально предназначены для улучшения функции поиска для витрины интернет-магазина.</span><span class="sxs-lookup"><span data-stu-id="32396-207">These options were originally intended to improve the search functionality for the online storefront.</span></span> <span data-ttu-id="32396-208">Хотя Finance and Operations не включает готовой витрины интернет-магазина, он включает пакета средств разработки eCommerce Publishing Software Development Kit (SDK).</span><span class="sxs-lookup"><span data-stu-id="32396-208">Although Finance and Operations doesn't include the online storefront out of the box, it does include the eCommerce Publishing Software Development Kit (SDK).</span></span> <span data-ttu-id="32396-209">Клиенты могут использовать этот пакет SDK для размещения продуктов в индексе поиска по своему выбору.</span><span class="sxs-lookup"><span data-stu-id="32396-209">Customers can use this SDK to put products into a search index of their choice.</span></span> <span data-ttu-id="32396-210">Хотя данные о продукции импортируются, клиенты по-прежнему смогут отличать данные, по которым возможен поиск, данные, которые можно запрашивать, и т. д.</span><span class="sxs-lookup"><span data-stu-id="32396-210">Although the product data is imported, customers should still be able to distinguish searchable data, data that can be queried, and so on.</span></span> <span data-ttu-id="32396-211">Таким образом, они могут создать оптимальный индекс, обеспечивающий индексацию только тех атрибутов, которые, *по их мнению*, должны быть проиндексированы.</span><span class="sxs-lookup"><span data-stu-id="32396-211">In that way, they can build an optimal index to make sure that they index only attributes that, *in their opinion*, should be indexed.</span></span>
+
+<span data-ttu-id="32396-212">Сведения о назначении этих оставшихся параметров см. в разделе [Обзор схемы поиска в SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).</span><span class="sxs-lookup"><span data-stu-id="32396-212">For information about the purpose of these remaining options, see [Overview of the search schema in SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).</span></span>
+
+## <a name="filter-settings-for-attributes"></a><span data-ttu-id="32396-213">Настройки фильтра для атрибутов</span><span class="sxs-lookup"><span data-stu-id="32396-213">Filter settings for attributes</span></span>
+
+<span data-ttu-id="32396-214">Настройки фильтра для атрибутов позволяют определить, как фильтры для атрибутов будут показаны в POS-терминале для розничной торговли.</span><span class="sxs-lookup"><span data-stu-id="32396-214">Filter settings for attributes let you define how the filters for attributes are shown in the retail POS.</span></span> <span data-ttu-id="32396-215">Для доступа к настройкам фильтра для атрибута на странице **Атрибуты** в Finance and Operations выберите атрибут, затем выберите в области действий пункт **Настройки фильтра**.</span><span class="sxs-lookup"><span data-stu-id="32396-215">To access the filter settings for an attribute, on the **Attributes** page in Finance and Operations, select the attribute, and then, on the Action Pane, select **Filter settings**.</span></span>
+
+<span data-ttu-id="32396-216">Страница **Параметры отображения фильтра** включает следующие поля:</span><span class="sxs-lookup"><span data-stu-id="32396-216">The **Filter display preferences** page includes the following fields:</span></span>
+
+- <span data-ttu-id="32396-217">**Имя** — по умолчанию это поле имеет значение имени атрибута.</span><span class="sxs-lookup"><span data-stu-id="32396-217">**Name** – By default, this field is set to the name of the attribute.</span></span> <span data-ttu-id="32396-218">Однако это значение можно изменить.</span><span class="sxs-lookup"><span data-stu-id="32396-218">However, you can change the value.</span></span>
+- <span data-ttu-id="32396-219">**Параметр отображения** — доступны следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="32396-219">**Display option** – The following options are available:</span></span>
+
+    - <span data-ttu-id="32396-220">**Одно значение** — этот параметр доступен для следующих типов атрибутов: **Логический**, **Валюта**, **Десятичный**, **Целочисленный** и **Текст**.</span><span class="sxs-lookup"><span data-stu-id="32396-220">**Single value** – This option is available for the following attribute types: **Boolean**, **Currency**, **Decimal**, **Integer**, and **Text**.</span></span> <span data-ttu-id="32396-221">Этот параметр позволяет выбирать одно значение для этих атрибутов в клиенте для уточнения.</span><span class="sxs-lookup"><span data-stu-id="32396-221">This option enables single value selection for these attributes in the client for refinement.</span></span>
+    - <span data-ttu-id="32396-222">**Несколько значений** — этот параметр доступен для следующих типов атрибутов: **Валюта**, **Десятичный**, **Целочисленный** и **Текст**.</span><span class="sxs-lookup"><span data-stu-id="32396-222">**Multi value** – This option is available for the following attribute types: **Currency**, **Decimal**, **Integer**, and **Text**.</span></span> <span data-ttu-id="32396-223">Этот параметр позволяет выбирать несколько значений для этого атрибута в клиенте для уточнения.</span><span class="sxs-lookup"><span data-stu-id="32396-223">This option enables multi-value selection for this attribute in the client for refinement.</span></span>
+
+- <span data-ttu-id="32396-224">**Управление отображением** — доступны следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="32396-224">**Display control** – The following options are available:</span></span>
+
+    - <span data-ttu-id="32396-225">**Список** — этот параметр доступен для всех типов атрибутов.</span><span class="sxs-lookup"><span data-stu-id="32396-225">**List** – This option is available for the all attribute types.</span></span>
+    - <span data-ttu-id="32396-226">**Диапазон** — этот параметр доступен для следующих типов атрибутов: **Валюта**, **Десятичный** и **Целочисленный**.</span><span class="sxs-lookup"><span data-stu-id="32396-226">**Range** – This option is available for the following attribute types: **Currency**, **Decimal**, and **Integer**.</span></span>
+    - <span data-ttu-id="32396-227">**Ползунок** — этот параметр доступен для следующих типов атрибутов: **Валюта**, **Десятичный** и **Целочисленный**.</span><span class="sxs-lookup"><span data-stu-id="32396-227">**Slider** – This option is available for the following attribute types: **Currency**, **Decimal**, and **Integer**.</span></span>
+    - <span data-ttu-id="32396-228">**Ползунок с панелями** — этот параметр доступен для следующих типов атрибутов: **Валюта**, **Десятичный** и **Целочисленный**.</span><span class="sxs-lookup"><span data-stu-id="32396-228">**Slider with bars** – This option is available for the following attribute types: **Currency**, **Decimal**, and **Integer**.</span></span>
+
+- <span data-ttu-id="32396-229">**Пороговое значение** — этот параметр является обязательным, если выбрано значение **Диапазон** как тип отображения элемента управления.</span><span class="sxs-lookup"><span data-stu-id="32396-229">**Threshold value** – This setting is required if you selected **Range** as the display control type.</span></span> <span data-ttu-id="32396-230">Можно определять значения с помощью точки с запятой (;) в качестве разделителя.</span><span class="sxs-lookup"><span data-stu-id="32396-230">You can define values by using a semicolon (;) as a delimiter.</span></span>
+
+    <span data-ttu-id="32396-231">Например, для такого фильтра, как **Объем сумки**, пороговое значение может быть **10; 20; 50; 100; 200; 500; 1000; 5000**.</span><span class="sxs-lookup"><span data-stu-id="32396-231">For example, for the filter like **Bag Volume**, a threshold value can be **10; 20; 50; 100; 200; 500; 1000; 5000**.</span></span> <span data-ttu-id="32396-232">В этом случае на POS-терминале для розничной торговли будут показаны следующие диапазоны.</span><span class="sxs-lookup"><span data-stu-id="32396-232">In this case, the retail POS will show the following ranges.</span></span> <span data-ttu-id="32396-233">Любые диапазоны, в которых в наборе результатов отсутствуют продукты, будут отображаться серым цветом.</span><span class="sxs-lookup"><span data-stu-id="32396-233">Any ranges that don't have any products in the result set will appear dimmed.</span></span>
+
+    - <span data-ttu-id="32396-234">Меньше чем 10</span><span class="sxs-lookup"><span data-stu-id="32396-234">Less than 10</span></span>
+    - <span data-ttu-id="32396-235">10 – 20</span><span class="sxs-lookup"><span data-stu-id="32396-235">10 – 20</span></span>
+    - <span data-ttu-id="32396-236">20 – 50</span><span class="sxs-lookup"><span data-stu-id="32396-236">20 – 50</span></span>
+    - <span data-ttu-id="32396-237">50 – 100</span><span class="sxs-lookup"><span data-stu-id="32396-237">50 – 100</span></span>
+    - <span data-ttu-id="32396-238">100 – 200</span><span class="sxs-lookup"><span data-stu-id="32396-238">100 – 200</span></span>
+    - <span data-ttu-id="32396-239">200 – 500</span><span class="sxs-lookup"><span data-stu-id="32396-239">200 – 500</span></span>
+    - <span data-ttu-id="32396-240">500 и более</span><span class="sxs-lookup"><span data-stu-id="32396-240">500 or more</span></span>
+
+![Настройки фильтра атрибутов](media/AttributeFilterSettings.PNG)
+
+## <a name="attribute-groups"></a><span data-ttu-id="32396-242">Группы атрибутов</span><span class="sxs-lookup"><span data-stu-id="32396-242">Attribute groups</span></span>
+
+<span data-ttu-id="32396-243">После того как атрибуты определены, они могут быть назначены группам атрибутов.</span><span class="sxs-lookup"><span data-stu-id="32396-243">After attributes have been defined, they can be assigned to attribute groups.</span></span> <span data-ttu-id="32396-244">*Группа атрибутов* используется для группирования отдельных атрибутов компонентов или субкомпонентов в модели конфигурации продукта.</span><span class="sxs-lookup"><span data-stu-id="32396-244">An *attribute group* is used to group the individual attributes for a component or subcomponent in a product configuration model.</span></span> <span data-ttu-id="32396-245">Атрибут может быть включен не в одну, а в несколько групп атрибутов.</span><span class="sxs-lookup"><span data-stu-id="32396-245">An attribute can be included in more than one attribute group.</span></span> <span data-ttu-id="32396-246">Группы атрибутов могут помочь пользователям настраивать продукты, так как разные варианты выбора располагаются в конкретном контексте.</span><span class="sxs-lookup"><span data-stu-id="32396-246">Attribute groups can help users configure products, because the various selections are arranged in a specific context.</span></span> <span data-ttu-id="32396-247">Группы атрибутов можно назначить розничным категориям или каналам розничной торговли.</span><span class="sxs-lookup"><span data-stu-id="32396-247">Attribute groups can be assigned to retail categories or retail channels.</span></span>
+
+<span data-ttu-id="32396-248">Можно также задать значения по умолчанию для атрибутов, включенных в группу атрибутов.</span><span class="sxs-lookup"><span data-stu-id="32396-248">You can also set default values for attributes that are included in an attribute group.</span></span> <span data-ttu-id="32396-249">Например, можно добавить атрибут для цвета в группу атрибутов и выбрать значение **Синий** в качестве значения атрибута по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="32396-249">For example, you add an attribute for color to an attribute group and select **Blue** as the default attribute value.</span></span> <span data-ttu-id="32396-250">В этом случае при добавлении группы атрибутов к продукту розничной торговли, который включает цвет как один из его атрибутов, **Синий** отображается как цвет по умолчанию для этого продукта.</span><span class="sxs-lookup"><span data-stu-id="32396-250">In this case, when the attribute group is added to a retail product that includes color as one of its attributes, **Blue** appears as the default color for that product.</span></span>
+
+![Группы атрибутов](media/AttributeGroup.png)
+
+### <a name="create-an-attribute-group"></a><span data-ttu-id="32396-252">Создание группы атрибутов</span><span class="sxs-lookup"><span data-stu-id="32396-252">Create an attribute group</span></span>
+
+1. <span data-ttu-id="32396-253">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</span><span class="sxs-lookup"><span data-stu-id="32396-253">Sign in to the back-office client as a retail merchandising manager.</span></span>
+2. <span data-ttu-id="32396-254">Перейдите в раздел **Управление сведениями о продукте** &gt; **Настройка** &gt; **Категории и атрибуты** &gt; **Группы атрибутов**.</span><span class="sxs-lookup"><span data-stu-id="32396-254">Go to **Product information management** &gt; **Setup** &gt; **Categories and attributes** &gt; **Attribute groups**.</span></span>
+3. <span data-ttu-id="32396-255">Создайте группу атрибутов с именем **Модные солнцезащитные очки**.</span><span class="sxs-lookup"><span data-stu-id="32396-255">Create an attribute group that is named **Fashion Sunglasses**.</span></span>
+4. <span data-ttu-id="32396-256">Добавьте следующие атрибуты: **Форма линзы** и **Марка солнцезащитных очков**.</span><span class="sxs-lookup"><span data-stu-id="32396-256">Add the following attributes: **Lens shape** and **Sunglass brand**.</span></span>
+
+### <a name="assign-attribute-groups-to-retail-categories"></a><span data-ttu-id="32396-257">Назначение групп атрибутов розничным категориям</span><span class="sxs-lookup"><span data-stu-id="32396-257">Assign attribute groups to retail categories</span></span>
+
+<span data-ttu-id="32396-258">Одна или несколько групп атрибутов могут быть связаны с узлами категорий в следующих типах иерархий розничных категорий: иерархия розничной продукции, иерархия навигационных категорий канала и иерархия категорий дополнительной продукции.</span><span class="sxs-lookup"><span data-stu-id="32396-258">One or more attribute groups can be associated with category nodes in the following types of retail category hierarchies: Retail product hierarchy, Channel navigation category hierarchy, and Supplemental product category hierarchy.</span></span> <span data-ttu-id="32396-259">Затем при классификации продуктов они наследуют атрибуты, входящие в группы атрибутов.</span><span class="sxs-lookup"><span data-stu-id="32396-259">Then, when products are categorized, they inherit the attributes that are included in the attribute groups.</span></span>
+
+![Иерархия розничной продукции — группы атрибутов продукта](media/AGRetailProdHierarchy.PNG)
+
+<span data-ttu-id="32396-261">Выполните следующие действия, чтобы назначить группы атрибутов категориям в иерархии розничной продукции.</span><span class="sxs-lookup"><span data-stu-id="32396-261">Follow these steps to assign attribute groups to categories in the Retail product hierarchy.</span></span>
+
+1. <span data-ttu-id="32396-262">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</span><span class="sxs-lookup"><span data-stu-id="32396-262">Sign in to the back-office client as a retail merchandising manager.</span></span>
+2. <span data-ttu-id="32396-263">Выберите **Розничная торговля** &gt; **Управление категориями и продуктами** &gt; **Иерархия розничных продуктов**.</span><span class="sxs-lookup"><span data-stu-id="32396-263">Go to **Retail** &gt; **Category and product management** &gt; **Retail product hierarchy**.</span></span>
+3. <span data-ttu-id="32396-264">Выберите **Иерархия навигации по модным продуктам**.</span><span class="sxs-lookup"><span data-stu-id="32396-264">Select **Fashion navigation hierarchy**.</span></span>
+4. <span data-ttu-id="32396-265">В разделе **Мужская одежда**, выберите категорию **Брюки**, а затем на экспресс-вкладке **Группы атрибутов продукта** добавьте группу атрибутов с именем **Мужской ремень**.</span><span class="sxs-lookup"><span data-stu-id="32396-265">Under **Menswear**, select the **Pants** category, and then, on the **Product attribute groups** FastTab, add an attribute group that is named **Men's belt**.</span></span>
+5. <span data-ttu-id="32396-266">Выберите категорию **Модные солнцезащитные очки** и проверьте новые атрибуты в группе атрибутов **Модные солнцезащитные очки**, выбрав **Просмотр атрибутов**.</span><span class="sxs-lookup"><span data-stu-id="32396-266">Select the **Fashion sunglasses** category, and verify the new attributes in the **Fashion Sunglasses** attribute group by selecting **View attributes**.</span></span>
+
+    <span data-ttu-id="32396-267">В группе атрибутов должны отображаться новые атрибуты **Форма линз** и **Марка солнцезащитных очков**.</span><span class="sxs-lookup"><span data-stu-id="32396-267">The attribute group should show the new **Lens shape** and **Sunglass brand** attributes.</span></span>
+
+6. <span data-ttu-id="32396-268">В разделе **Мужская одежда** выберите категорию **Брюки** и проверьте группу атрибутов **Мужской ремень**, выбрав пункт **Просмотр атрибутов**.</span><span class="sxs-lookup"><span data-stu-id="32396-268">Under **Menswear**, select the **Pants** category, and verify the attributes for the **Men's belt** attribute group by selecting **View attributes**.</span></span>
+
+    <span data-ttu-id="32396-269">В группе атрибутов должны отображаться атрибуты **Марка мужского ремня**, **Материал ремня** и **Размер ремня**.</span><span class="sxs-lookup"><span data-stu-id="32396-269">The attribute group should show the **Men's belt brand**, **Belt fabric**, and **Belt size** attributes.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="32396-270">Эта процедура может также использоваться для назначения групп атрибутов категориям в иерархии навигационных категорий канала и иерархии дополнительных категорий продукции.</span><span class="sxs-lookup"><span data-stu-id="32396-270">This procedure can also be used to assign attribute groups to categories in the Channel navigation category hierarchy and the Supplemental product category hierarchy.</span></span> <span data-ttu-id="32396-271">На шаге 2 используйте следующие пути перехода:</span><span class="sxs-lookup"><span data-stu-id="32396-271">In step 2, use the following navigation paths:</span></span>
+>
+> - <span data-ttu-id="32396-272">Розничная торговля &gt; Управление категориями и продуктами &gt; Навигационные категории каналов</span><span class="sxs-lookup"><span data-stu-id="32396-272">Retail &gt; Category and product management &gt; Channel navigation categories</span></span>
+> - <span data-ttu-id="32396-273">Розничная торговля &gt; Управление категориями и продуктами &gt; Дополнительные категории продуктов.</span><span class="sxs-lookup"><span data-stu-id="32396-273">Retail &gt; Category and product management &gt; Supplemental product categories</span></span>
+
+### <a name="assign-attribute-groups-to-retail-stores"></a><span data-ttu-id="32396-274">Назначение групп атрибутов розничным магазинам</span><span class="sxs-lookup"><span data-stu-id="32396-274">Assign attribute groups to retail stores</span></span>
+
+<span data-ttu-id="32396-275">С одним или несколькими розничными магазинами в иерархии категорий розничных магазинов можно связать одну или несколько групп атрибутов.</span><span class="sxs-lookup"><span data-stu-id="32396-275">One or more attribute groups can be associated with one or more retail stores in the retail store hierarchy.</span></span> <span data-ttu-id="32396-276">Затем ,после обогащения продуктов путем добавления конкретных розничных магазинов, продукты наследуют атрибуты, входящие в группы атрибутов.</span><span class="sxs-lookup"><span data-stu-id="32396-276">Then, when products are enriched for specific retail stores, they inherit the attributes that are included in the attribute groups.</span></span>
+
+1. <span data-ttu-id="32396-277">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</span><span class="sxs-lookup"><span data-stu-id="32396-277">Sign in to the back-office client as a retail merchandising manager.</span></span>
+2. <span data-ttu-id="32396-278">Перейдите в раздел **Розничная торговля** &gt; **Настройка канала** &gt; **Категории каналов и атрибуты продуктов**.</span><span class="sxs-lookup"><span data-stu-id="32396-278">Go to **Retail** &gt; **Channel setup** &gt; **Channel categories and product attributes**.</span></span>
+3. <span data-ttu-id="32396-279">Назначьте группы атрибутов каналу "Хьюстон":</span><span class="sxs-lookup"><span data-stu-id="32396-279">Assign attribute groups to the Houston channel:</span></span>
+
+    1. <span data-ttu-id="32396-280">Выберите канал **Хьюстон**.</span><span class="sxs-lookup"><span data-stu-id="32396-280">Select the **Houston** channel.</span></span>
+    2. <span data-ttu-id="32396-281">На экспресс-вкладке **Группа атрибутов** выберите **Добавить**, затем в поле **Имя** выберите **SharePointProvisionedProductAttributeGroup**.</span><span class="sxs-lookup"><span data-stu-id="32396-281">On the **Attribute group** FastTab, select **Add**, and then, in the **Name** field, select **SharePointProvisionedProductAttributeGroup**.</span></span>
+    3. <span data-ttu-id="32396-282">Снова выберите **Добавить**, затем в поле **Имя** выберите **Мужской ремень**.</span><span class="sxs-lookup"><span data-stu-id="32396-282">Select **Add** again, and then, in the **Name** field, select **Men's belt**.</span></span>
+    4. <span data-ttu-id="32396-283">Снова выберите **Добавить**, затем в поле **Имя** выберите **Модные солнцезащитные очки**.</span><span class="sxs-lookup"><span data-stu-id="32396-283">Select **Add** again, and then, in the **Name** field, select **Fashion Sunglasses**.</span></span>
+
+        > [!NOTE]
+        > <span data-ttu-id="32396-284">Параметр позволяет указать, что этот канал должен наследовать группы атрибутов из своего родительского канала в иерархии.</span><span class="sxs-lookup"><span data-stu-id="32396-284">An option lets you specify that this channel should inherit the attribute groups from its parent channel in the hierarchy.</span></span> <span data-ttu-id="32396-285">Если для параметра **Наследовать** задано значение **Да**, дочерний узел канала наследует все группы атрибутов и все атрибуты из этих групп атрибутов.</span><span class="sxs-lookup"><span data-stu-id="32396-285">If you set the **Inherit** option to **Yes**, the child channel node inherits all the attribute groups and all the attributes in those attribute groups.</span></span>
+
+4. <span data-ttu-id="32396-286">Включите атрибуты, чтобы они были доступны в канале "Хьюстон":</span><span class="sxs-lookup"><span data-stu-id="32396-286">Enable the attributes so that they are available in the Houston channel:</span></span>
+
+    1. <span data-ttu-id="32396-287">В области действий выберите **Задать метаданные атрибута**.</span><span class="sxs-lookup"><span data-stu-id="32396-287">On the Action Pane, select **Set attribute metadata**.</span></span>
+    2. <span data-ttu-id="32396-288">Выберите узел категории **Мода**, затем на экспресс-вкладке **Атрибуты продуктов канала** выберите **Включить атрибут** для каждого атрибута.</span><span class="sxs-lookup"><span data-stu-id="32396-288">Select the **Fashion** category node, and then, on the **Channel product attributes** FastTab, select **Include attribute** for each attribute.</span></span>
+    3. <span data-ttu-id="32396-289">Выберите узел категории **Модные аксессуары**, затем выберите категорию **Модные солнцезащитные очки**, и затем на экспресс-вкладке **Атрибуты продуктов канала** выберите **Включить атрибут** для каждого атрибута.</span><span class="sxs-lookup"><span data-stu-id="32396-289">Select the **Fashion Accessories** category node, select the **Fashion Sunglasses** category, and then, on the **Channel product attributes** FastTab, select **Include attribute** for each attribute.</span></span>
+    4. <span data-ttu-id="32396-290">Выберите узел категории **Мужская одежда**, затем выберите категорию **Брюки**, и затем на экспресс-вкладке **Атрибуты продуктов канала** выберите **Включить атрибут** для каждого атрибута.</span><span class="sxs-lookup"><span data-stu-id="32396-290">Select the **Menswear** category node, select the **Pants** category, and then, on the **Channel product attributes** FastTab, select **Include attribute** for each attribute.</span></span>
+
+![Категории каналов и атрибуты продуктов — группы атрибутов](media/CCPAttrGrp.png)
+
+## <a name="overriding-attribute-values"></a><span data-ttu-id="32396-292">Переопределение значений атрибутов</span><span class="sxs-lookup"><span data-stu-id="32396-292">Overriding attribute values</span></span>
+
+<span data-ttu-id="32396-293">Значения по умолчанию атрибутов можно переопределять для отдельных продуктов на уровне продукта.</span><span class="sxs-lookup"><span data-stu-id="32396-293">The default values of attributes can be overridden for individual products at the product level.</span></span> <span data-ttu-id="32396-294">Значения по умолчанию можно также переопределять для отдельных продуктов в конкретных каталогах, предназначенных для конкретных каналов розничной торговли.</span><span class="sxs-lookup"><span data-stu-id="32396-294">Default values can also be overridden for individual products in specific catalogs that are targeted at specific retail channels.</span></span>
+
+### <a name="override-the-attribute-values-of-an-individual-product"></a><span data-ttu-id="32396-295">Переопределение значений атрибутов для конкретного продукта</span><span class="sxs-lookup"><span data-stu-id="32396-295">Override the attribute values of an individual product</span></span>
+
+1. <span data-ttu-id="32396-296">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</span><span class="sxs-lookup"><span data-stu-id="32396-296">Sign in to the back-office client as a retail merchandising manager.</span></span>
+2. <span data-ttu-id="32396-297">Выберите **Розничная торговля** &gt; **Управление категориями и продуктами** &gt; **Используемые продукты по категориям**.</span><span class="sxs-lookup"><span data-stu-id="32396-297">Go to **Retail** &gt; **Category and product management** &gt; **Released products by category**.</span></span>
+3. <span data-ttu-id="32396-298">Выберите узел категории **Мода** &gt; **Модные аксессуары** &gt; **Модные солнцезащитные очки**.</span><span class="sxs-lookup"><span data-stu-id="32396-298">Select the **Fashion** &gt; **Fashion Accessories** &gt; **Fashion Sunglasses** category node.</span></span>
+4. <span data-ttu-id="32396-299">Выберите требуемый продукт в сетке.</span><span class="sxs-lookup"><span data-stu-id="32396-299">Select the required product in the grid.</span></span> <span data-ttu-id="32396-300">Затем в область действий на вкладке **Продукт** в группе **Настройка** выберите **Атрибуты продукта**.</span><span class="sxs-lookup"><span data-stu-id="32396-300">Then, on the Action Pane, on the **Product** tab, in the **Set up** group, select **Product attributes**.</span></span>
+5. <span data-ttu-id="32396-301">Выберите атрибут в левой области, затем обновите его значение в правой области.</span><span class="sxs-lookup"><span data-stu-id="32396-301">Select an attribute in the left pane, and then update its value in the right pane.</span></span>
+
+![Страница сведений о продукте — группы атрибутов продукта](media/ProdDetailsProdAttrValues.png)
+
+### <a name="override-the-attribute-values-of-products-in-a-catalog"></a><span data-ttu-id="32396-303">Переопределение значений атрибутов продуктов в каталоге</span><span class="sxs-lookup"><span data-stu-id="32396-303">Override the attribute values of products in a catalog</span></span>
+
+1. <span data-ttu-id="32396-304">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</span><span class="sxs-lookup"><span data-stu-id="32396-304">Sign in to the back-office client as a retail merchandising manager.</span></span>
+2. <span data-ttu-id="32396-305">Выберите **Розничная торговля** &gt; **Управление каталогами** &gt; **Все каталоги**.</span><span class="sxs-lookup"><span data-stu-id="32396-305">Go to **Retail** &gt; **Catalog management** &gt; **All catalogs**.</span></span>
+3. <span data-ttu-id="32396-306">Выберите каталог **Fabrikam Base Catalog**.</span><span class="sxs-lookup"><span data-stu-id="32396-306">Select the **Fabrikam Base Catalog** catalog.</span></span>
+4. <span data-ttu-id="32396-307">Выберите узел категории **Мода** &gt; **Модные аксессуары** &gt; **Модные солнцезащитные очки**.</span><span class="sxs-lookup"><span data-stu-id="32396-307">Select the **Fashion** &gt; **Fashion Accessories** &gt; **Fashion Sunglasses** category node.</span></span>
+5. <span data-ttu-id="32396-308">На экспресс-вкладке **Продукты** выберите требуемый продукт, затем выберите **Атрибуты** над сеткой продукции.</span><span class="sxs-lookup"><span data-stu-id="32396-308">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
+6. <span data-ttu-id="32396-309">В следующих экспресс-вкладках обновите значения обязательных атрибутов:</span><span class="sxs-lookup"><span data-stu-id="32396-309">On the following FastTabs, update the values of the required attributes:</span></span>
+
+    - <span data-ttu-id="32396-310">СМИ общих продуктов</span><span class="sxs-lookup"><span data-stu-id="32396-310">Shared product media</span></span>
+    - <span data-ttu-id="32396-311">Общие атрибуты продуктов</span><span class="sxs-lookup"><span data-stu-id="32396-311">Shared product attributes</span></span>
+    - <span data-ttu-id="32396-312">Канал СМИ</span><span class="sxs-lookup"><span data-stu-id="32396-312">Channel media</span></span>
+    - <span data-ttu-id="32396-313">Атрибуты продуктов канала</span><span class="sxs-lookup"><span data-stu-id="32396-313">Channel product attributes</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="32396-314">Если совместно используемые носители продукта и атрибуты продукта создаются в Finance and Operations, они применяются для всех розничных продуктов.</span><span class="sxs-lookup"><span data-stu-id="32396-314">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+
+![Группы атрибутов продукта из каталога](media/CatalogProdAttrValues.png)
+
+### <a name="override-the-attribute-values-of-products-in-a-channel"></a><span data-ttu-id="32396-316">Переопределение значений атрибутов продуктов в канале</span><span class="sxs-lookup"><span data-stu-id="32396-316">Override the attribute values of products in a channel</span></span>
+
+1. <span data-ttu-id="32396-317">Выполните вход в клиент бэк-офиса в качестве директора по сбыту в розничной торговле.</span><span class="sxs-lookup"><span data-stu-id="32396-317">Sign in to the back-office client as a retail merchandising manager.</span></span>
+2. <span data-ttu-id="32396-318">Перейдите в раздел **Розничная торговля** &gt; **Настройка канала** &gt; **Категории каналов и атрибуты продуктов**.</span><span class="sxs-lookup"><span data-stu-id="32396-318">Go to **Retail** &gt; **Channel setup** &gt; **Channel categories and product attributes**.</span></span>
+3. <span data-ttu-id="32396-319">Выберите канал **Хьюстон**.</span><span class="sxs-lookup"><span data-stu-id="32396-319">Select the **Houston** channel.</span></span>
+4. <span data-ttu-id="32396-320">На экспресс-вкладке **Продукты** выберите требуемый продукт, затем выберите **Атрибуты** над сеткой продукции.</span><span class="sxs-lookup"><span data-stu-id="32396-320">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="32396-321">Если никакие продукты не доступны, добавьте продукты, выбрав **Добавить** на экспресс-вкладке **Продукты**, затем выбрав необходимые продукты в диалоговом окне **Добавить продукты**.</span><span class="sxs-lookup"><span data-stu-id="32396-321">If no products are available, add products by selecting **Add** on the **Products** FastTab and then selecting the required products in the **Add products** dialog box.</span></span>
+
+5. <span data-ttu-id="32396-322">В следующих экспресс-вкладках обновите значения обязательных атрибутов:</span><span class="sxs-lookup"><span data-stu-id="32396-322">On the following FastTabs, update the values of the required attributes:</span></span>
+
+    - <span data-ttu-id="32396-323">СМИ общих продуктов</span><span class="sxs-lookup"><span data-stu-id="32396-323">Shared product media</span></span>
+    - <span data-ttu-id="32396-324">Общие атрибуты продуктов</span><span class="sxs-lookup"><span data-stu-id="32396-324">Shared product attributes</span></span>
+    - <span data-ttu-id="32396-325">Канал СМИ</span><span class="sxs-lookup"><span data-stu-id="32396-325">Channel media</span></span>
+    - <span data-ttu-id="32396-326">Атрибуты продуктов канала</span><span class="sxs-lookup"><span data-stu-id="32396-326">Channel product attributes</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="32396-327">Если совместно используемые носители продукта и атрибуты продукта создаются в Finance and Operations, они применяются для всех розничных продуктов.</span><span class="sxs-lookup"><span data-stu-id="32396-327">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
