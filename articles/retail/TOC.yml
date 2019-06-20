@@ -1,1056 +1,696 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="TOC.yml" target-language="ru-RU">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>TOC.1b20fc.88485598ac4a9d5d2829a3021361885065ad76a4.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>88485598ac4a9d5d2829a3021361885065ad76a4</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>bbc9aa0d6b94a942e1f4d5b038601509dcc87937</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>06/05/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\retail\TOC.yml</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101">
-          <source>Welcome to Dynamics 365 for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Добро пожаловать в Dynamics 365 for Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102">
-          <source>Get started</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Начало работы</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>What's new or changed</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Что нового и что изменилось</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Preview features in Dynamics 365 for Retail 10.0.3</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Предварительные версии функций Dynamics 365 for Retail 10.0.3</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>What's new or changed in Dynamics 365 for Retail 10.0.2</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Что нового и что изменилось в Dynamics 365 for Retail 10.0.2</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>What's new ot changed in Dynamics 365 for Retail 10.0.1</source><target logoport:matchpercent="87" state="translated" state-qualifier="x-fuzzy-match-unedited">Что нового и что изменилось в Dynamics 365 for Retail 10.0.1</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>What's new or changed in Dynamics 365 for Retail (April 2019)</source><target logoport:matchpercent="87" state="translated" state-qualifier="x-fuzzy-match-unedited">Что нового и что изменилось в Dynamics 365 for Retail (апрель 2019 г.)</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Before you buy Retail</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Перед покупкой Retail</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Sign up for a preview subscription</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Регистрация для получения ознакомительной подписки</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Deploy a demo environment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Развертывание демонстрационной среды</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Deployment options</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Варианты развертывания</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Get support for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Получение поддержки по Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>One Version service updates FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вопросы и ответы по обновлениям службы с одной версией</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Understand the implementation lifecycle</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Общие сведения о жизненном цикле реализации</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Microsoft FastTrack for Dynamics 365</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft FastTrack for Dynamics 365</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Onboarding</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Адаптация</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Preparing for go-live</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Подготовка к вводу в эксплуатацию</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Go-live FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вопросы и ответы по вводу в эксплуатацию</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Submit a service request</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Отправка запроса на обслуживание</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Subscriptions, LCS projects, and Azure Active Directory tenants FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вопросы и ответы по подпискам, проектам LCS и клиентам Azure Active Directory</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Move environments between data centers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перемещение сред между центрами обработки данных</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Move licenses between agreement types</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перемещение лицензий между соглашениями различных типов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Move an LCS Implementation project to another Azure Active Directory tenant</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Перемещение проекта реализации LCS в другой клиент Azure Active Directory</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Implement multiple LCS projects and production environments on the same Azure Active Directory tenant</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Реализация нескольких проектов LCS и производственных сред в одном клиенте Azure Active Directory</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Implement Finance and Operations Retail projects</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Реализация проектов Retail Finance and Operations</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Set up new environments, Azure DevOps, and branches for Retail projects</source><target logoport:matchpercent="94" state="translated" state-qualifier="fuzzy-match">Настройка новых сред, Azure DevOps и ветвей для проектов Retail</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Update code and environments for Retail projects</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Обновление кода и сред для проектов Retail</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Testing and performance issues</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Тестирование и проблемы с производительностью</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Distributed order management (DOM)</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Распределенное управление заказами (DOM)</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>DOM overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Обзор распределенного управления заказами</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Cost configuration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Конфигурация затрат</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Payments</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Платежи</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Payment methods</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Способы оплаты</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Credit card setup, authorization, and capture</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Настройка, авторизация и проверка данных кредитной карты</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Configure cash denominations for the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Настройка номиналов валюты для POS</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Dynamics 365 Payment Connector for Adyen</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Соединитель платежей Dynamics 365 для Adyen</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Saving online payment instruments with the Adyen connector</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Сохранение интерактивных платежных инструментов с помощью соединителя Adyen</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Set up pay invoice scenarios</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Настройка сценариев оплаты накладных</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Payments FAQ</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Вопросы и ответы по платежам</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Duplicate payments prevention</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Предотвращение дублирования платежей</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Заказы на покупку</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Purchase order overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обзор заказа на покупку</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Create purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание заказов на покупку</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Product receipt against purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поступление продуктов по заказам на покупку</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Approve and confirm purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Утверждение и подтверждение заказов на покупку</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Purchase order approval mobile workspace</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Мобильные рабочие области утверждения заказов на покупку</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Отчеты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Retail statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Журналы операций розничной торговли</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Retail transaction consistency checker</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Программа проверки согласованности проводок розничной торговли</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Create, calculate, and post statements for a retail store</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Создание, расчет и разноска журналов операций для розничного магазина</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Improvements to statement posting functionality</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Усовершенствования функциональности разноски журнала операций</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Improved handling of batch tracked items</source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited">Улучшенная обработка номенклатур с отслеженными партиями</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Configure Retail parameters that affect retail statements</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Настройка параметров розничной торговли, влияющих на журналы операций розничной торговли</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Configure payment method settings that affect retail statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка параметров способа оплаты, влияющих на журналы операций розничной торговли</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Configure and run a job to calculate statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка и выполнение задания для расчета журналов операций</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Configure and run a job to post statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка и выполнение задания для разноски журналов операций</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Configure store settings that affect retail statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка параметров магазина, влияющих на журналы операций розничной торговли</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Sales tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Налог</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Sales tax overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обзор налога</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Sales tax calculation methods in the Origin field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Методы расчета налога в поле "Основание"</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Sales tax assignment and overrides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Назначение и переопределения налога</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Whole amount and Interval calculation options for sales tax codes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Omni-channel payments overview</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Обзор омниканальных платежей</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Omni-channel advanced auto charges</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Омниканальные расширенные автоматические накладные расходы</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Configure and use advanced auto charges</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Настройка и использование расширенных автоматических накладных расходов</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Prorate header charges to matching sales lines</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Пропорциональное распределение накладных расходов из заголовка по соответствующим строкам продаж</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Call center</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Центр обработки вызовов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Call center sales functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Функциональность продажи центра обработки вызовов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Call center catalogs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Каталоги центра обработки вызовов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Configure delivery modes and charges</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка режимов доставки и накладных расходов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Set up and work with fraud alerts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка оповещений о мошенничестве и работа с ними</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Set up call center channels</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка каналов центра обработки вызовов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Set up continuity programs for call centers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка программ непрерывности для центров обработки вызовов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Configure and work with call center order holds</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка удержаний заказов центра обработки вызовов и работа с ними</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Payment methods</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Способы оплаты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Channel setup and management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка канала и управление им</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Initialize seed data in new Retail environments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Инициализация начальных данных в новых средах Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Define and maintain retail channels</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определение и ведение каналов розничной торговли</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Assortment management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление ассортиментом</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Set up online stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка интернет-магазинов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Configure and install Retail hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка и установка Retail Hardware Station</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>Time and attendance in Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Посещаемость и время присутствия в Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Modern Point of Sale (MPOS) and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern Point of Sale (MPOS) и Cloud POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>Choose between MPOS and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выбор между MPOS и Cloud POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>Online and offline POS operations</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Выполнение операций POS в интерактивном и автономном режимах</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>Device activation of a customized Retail MPOS</source><target logoport:matchpercent="83" state="translated" state-qualifier="fuzzy-match">Активация устройства настраиваемого Retail MPOS</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Demo data screen layouts in MPOS and Cloud POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Макеты экрана демонстрационных данных в MPOS и Cloud POS</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Product and customer search in the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Поиск продуктов и клиентов в POS</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Cash management improvements</source><target logoport:matchpercent="68" state="translated" state-qualifier="fuzzy-match">Улучшения управления кассами</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>Inventory lookup in the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Поиск запасов в POS</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Suspend and resume transactions in the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Приостановка и возобновление проводок в POS</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>Hardware peripherals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Периферийные устройства</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>Retail peripherals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Периферийные устройства Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>Retail peripheral simulator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Симулятор периферийных устройств Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Connect peripherals to the POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Подключение периферийных устройств к POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Screen layouts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Макеты экрана</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Demo data screen layouts in MPOS/CPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Макеты экрана демонстрационных данных в MPOS/CPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Screen layouts for the POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Макеты экрана для POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Install the Retail POS layout designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Установка конструктора макета Retail POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>Choose notification settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выбор параметров уведомлений</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>POS application and user language settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Параметры приложения POS и языка пользователя</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Set up and manage images for MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка изображений для MPOS и управление ими</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>Info codes and info code groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Инфокоды и группы инфокодов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>POS improvements for serialized products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Усовершенствования в POS для продуктов с серийными номерами</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Рекомендации по продуктам</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Personalized product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Персонализированные рекомендации по продуктам</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Add a recommendations control on POS devices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Добавление элемента управления рекомендациями в устройства POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Offline POS functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Функциональность POS в автономном режиме</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Shift and cash drawer management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление сменами и кассовым лотком</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Cash out gift card balance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сальдо подарочного сертификата для обналичивания</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Customer orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Клиентские заказы</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>Customer orders in MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Клиентские заказы в MPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Hybrid customer orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Гибридные клиентские заказы</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Sales associates</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Продавцы</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>Track commissions in the POS using sales groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Отслеживание комиссий в POS с помощью групп продаж</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>Ship orders from another store</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Отгрузка заказов из одного магазина</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>Device activation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Активация устройства</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>Configure, install and activate MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка, установка и активация MPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>Set up extended logon functionality for MPOS and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка функциональности расширенного входа для MPOS и Cloud POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>Manage Retail activation accounts and validate devices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление учетными записями активации и устройствами проверки Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>Receipts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Чеки</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>Set up and design receipt formats</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка и дизайн форматов чеков</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>Send email receipts from MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Отправка чеков по электронной почте из MPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Task recorder and Help for MPOS and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Регистратор задач и справка для MPOS и Cloud POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Order fulfillment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполнение заказов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Store order fulfillment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выполнение заказов магазинами</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>Set up order fulfillment for stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка выполнения заказов для магазинов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>Show order notifications in the POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Отображение уведомлений по заказу в POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>Returns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Возвраты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Sell and return products not included in a store's assortment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Продажа и возврат продуктов, не включенных в ассортимент магазина</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>Configure and process an exchange on a return order</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка и обработка обмена по заказу на возврат</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>Restrict payment methods for returns without a receipt</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ограничение способов оплаты для возвратов без чека</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>Return items across multiple customer orders and invoices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Возврат номенклатур по нескольким заказам и накладным клиента</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>Monitoring and analysis</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Мониторинг и анализ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Monitor sales and margin performance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Мониторинг эффективности продаж и маржи</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Analyze sales trends and patterns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Анализ тенденций и моделей продаж</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Assess sales performance by product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Оценка эффективности продаж по продукту</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>Assess customer and product profitability</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Оценка рентабельности по клиентам и продуктам</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>Analyze store performance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Анализ эффективности работы магазина</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>Set up Recency, Frequency, and Monetary (RFM) analysis</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка анализа актуальности, периодичности и денежных значений (RFM)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Retail price reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Отчеты по розничным ценам</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>Pricing and discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Цены и скидки</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>Retail discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Розничные скидки</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>Retail sales price management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление ценой продажи розничной торговли</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>Price adjustments and discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Корректировки цены и скидки</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>Apply multiple discounts to a product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Применение к продукту нескольких скидок</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>Determine the optimal combination of overlapping discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определение оптимальной комбинации пересекающихся скидок</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>Define channel-specific discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определение скидок, специфичных для канала</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>Options for preventing discounts for retail products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Параметры для предотвращения скидок по розничным продуктам</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>Shipping discount overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обзор скидок на доставку</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>Set up coupons for retail sales</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка купонов для розничных продаж</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>Products and merchandising</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Продукты и сбыт</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>Product information overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обзор сведений о продуктах</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>Retail hierarchies</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Иерархии розничной торговли</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>Attributes and attribute groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Атрибуты и группы атрибутов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>Create and manage attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание атрибутов и управление ими</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>Set up retail products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка розничных продуктов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>Manage Retail product categories and products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление категориям продуктов и продуктами Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>Product dimensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Аналитики продуктов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>Set up bar codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка штрих-кодов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>Set up bar code masks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка масок штрих-кодов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>Set up assortments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка ассортиментов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>Sell and return products not included in a store's assortment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Продажа и возврат продуктов, не включенных в ассортимент магазина</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>Default order settings for dimensions and product variants</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Параметры заказа по умолчанию для аналитик и вариантов продуктов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>Search for products and product variants during order entry</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поиск продуктов и вариантов продуктов во время ввода заказа</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>Loyalty</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Лояльность</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>Loyalty overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обзор лояльности</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>Inventory</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Запасы</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source>Store inventory management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление запасами магазина</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>Register serial numbers in the sales process</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Регистрация серийных номеров в процессе продаж</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>Inventory journals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Журналы запасов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>Inventory tag counting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Меченная инвентаризация запасов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>FIFO with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ФИФО с физической стоимостью и маркировкой</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source>LIFO Date with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ЛИФО на дату с физической стоимостью и маркировкой</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>LIFO with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ЛИФО с физической стоимостью и маркировкой</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source>Weighted average date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Взвешенное среднее на дату</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>Weighted average with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Взвешенное среднее с физической стоимостью и маркировкой</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source>Quarantine orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Карантинные заказы</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source>Running average cost price</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Скользящая средняя себестоимость</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source>Track running average cost per inventory dimension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Отслеживание скользящей средней себестоимости на складскую аналитику</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>Human resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление персоналом</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>Organize your workforce using departments, jobs, and positions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>Set up the components of a job</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка компонентов должности</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source>Localization and regulatory features</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Локализация и нормативные компоненты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>Fiscal integration overview for Retail channel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обзор финансовой интеграции для канала розничной торговли</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>Set up fiscal integration for Retail channel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка финансовой интеграции для канала розничной торговли</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="287">
-          <source>Austria</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Австрия</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="288">
-          <source>Fiscal registration service integration sample for Austria</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Пример интеграции службы финансовой регистрации для Австрии</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="289">
-          <source>Eastern Europe</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Восточная Европа</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="290">
-          <source>Advance invoices for Retail for Eastern Europe</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Авансовые счета для Retail для Восточной Европы</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="291">
-          <source>Petty cash management for Retail for Eastern Europe</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление мелкими наличными деньгами для Retail для Восточной Европы</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="292">
-          <source>Retail customer invoices and return sales orders in Eastern European countries</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Накладные клиента и возвратные заказы на продажу для Retail в странах Восточной Европы</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="293">
-          <source>Deployment guidelines for cash registers for Czech Republic, Hungary, and Poland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Рекомендации по развертыванию контрольно-кассовых машин для Чешской Республики, Венгрии и Польши</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="294">
-          <source>Fiscal printer integration sample for Poland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Пример интеграции фискальных принтеров для Польши</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="295">
-          <source>Fiscal registration service integration sample for Czech Republic</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Пример интеграции службы финансовой регистрации для Чешской Республики</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="296">
-          <source>France</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Франция</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="297">
-          <source>Cash register functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Функциональность контрольно-кассовой машины</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="298">
-          <source>Deployment guidelines for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Рекомендации по развертыванию контрольно-кассовых машин</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="299">
-          <source>India</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Индия</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="300">
-          <source>Goods and Services Tax (GST) integration for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Интеграция налога на товары и услуги (GST) для контрольно-кассовых машин</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="301">
-          <source>Deployment guidelines for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Рекомендации по развертыванию контрольно-кассовых машин</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="302">
-          <source>Support for upgrade and N-1 for India</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поддержка обновления и N-1 для Индии</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="303">
-          <source>Italy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Италия</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="304">
-          <source>Fiscal printer integration sample for Italy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Пример интеграции фискальных принтеров для Италии</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="305">
-          <source>Norway</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Норвегия</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="306">
-          <source>Cash register functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Функциональность контрольно-кассовой машины</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="307">
-          <source>Deployment guidelines for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Рекомендации по развертыванию контрольно-кассовых машин</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="308">
-          <source>Sweden</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Швеция</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="309">
-          <source>Cash register functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Функциональность контрольно-кассовой машины</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="310">
-          <source>Sample for Retail POS integration with control units</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Пример интеграции Retail POS c блоками управления</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="311">
-          <source>Retail tasks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Задачи Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="312">
-          <source>Create a product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание продукта</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="313">
-          <source>Configure linked products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка связанных продуктов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="314">
-          <source>Release a product/product master to legal entities</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выпуск продукта/шаблона продукта для юридических лиц</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="315">
-          <source>Create channel-specific trade agreements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание коммерческих соглашений для определенных каналов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="316">
-          <source>Create trade agreements using category pricing rules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание коммерческих соглашений с помощью правил ценообразования категорий</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="317">
-          <source>Configure credit card processing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка обработки кредитных карт</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="318">
-          <source>Configure functionality profiles for sales representatives</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка профилей функциональности для торговых представителей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="319">
-          <source>Configure machine learning-powered product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка рекомендаций по продуктам на основе машинного обучения</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="320">
-          <source>Create devices and associate them with registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание устройств и их связь с ККМ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="321">
-          <source>Create hardware stations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание станций оборудования Hardware Station</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="322">
-          <source>Create POS registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание ККМ POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="323">
-          <source>Create call center orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание заказов центра обработки вызовов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="324">
-          <source>Create financial dimensions for POS registers and configure dimension values on registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание финансовых аналитик для ККМ POS и настройка значений аналитики в ККМ</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="325">
-          <source>Create financial dimensions for retail channels and configure dimension values on stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание финансовых аналитик для каналов розничной торговли и настройка значений аналитик для магазинов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="326">
-          <source>Create online channels and define channel attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание каналов продаж через Интернет и определение атрибутов каналов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="327">
-          <source>Create POS permission groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание групп разрешений POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="328">
-          <source>Create POS visual profiles</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание визуальных профилей POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="329">
-          <source>Create product packages for purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание пакетов продуктов для заказов на покупку</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="330">
-          <source>Create call center channels and define channel attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание каналов центра обработки вызовов и определение атрибутов каналов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="331">
-          <source>Define channel attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определение атрибутов канала</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="332">
-          <source>Define continuity schedules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определение планов непрерывности</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="333">
-          <source>Define loyalty programs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определение программ лояльности</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="334">
-          <source>Define loyalty reward points</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определение баллов поощрения по программе лояльности</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="335">
-          <source>Define loyalty schemes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определение схем лояльности</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="336">
-          <source>Design the relationships between organizational units</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определение связей между подразделениями организации</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="337">
-          <source>Manage assortments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление ассортиментами</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="338">
-          <source>Download hardware stations by using self-service</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Загрузка станций оборудования Hardware Station с помощью дистанционного обслуживания</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="339">
-          <source>Post online sales and payments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разноска интернет-продаж и платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="340">
-          <source>Process adjustments of loyalty reward points</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обработка корректировок баллов поощрения по программе лояльности</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="341">
-          <source>Push products from distribution centers to stores via buyer's push</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Отправка продуктов из центров распределения в магазины через централизованное распределение</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="342">
-          <source>Create retail price adjustments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание корректировок розничных цен</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="343">
-          <source>Generate and run out-of-box reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание и выполнение готовых отчетов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="344">
-          <source>Set up rules and parameters for cross-docking and buyer's push</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка правил и параметров для централизованного распределения и кросс-докинга</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="345">
-          <source>Selling continuity programs and processing sales orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Продажа программ непрерывности и обработка заказов на продажу</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="346">
-          <source>Configure retail workers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка работников розничной торговли</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="347">
-          <source>Retail development and administration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разработка и администрирование Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="348">
-          <source>Architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Архитектура</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="349">
-          <source>Retail components</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Компоненты Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="350">
-          <source>Retail Server architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Архитектура Retail Server</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="351">
-          <source>Select an in-store topology</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Выбор топологии в магазине</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="352">
-          <source>Commerce Data Exchange and retail channel communications</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Commerce Data Exchange и взаимодействия по каналам розничной торговли</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="353">
-          <source>Retail Modern POS architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Архитектура Retail Modern POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="354">
-          <source>Retail online store publishing architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Архитектура публикации в интернет-магазинах Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="355">
-          <source>Retail Channel Performance Power BI content</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Содержимое Retail Channel Performance Power BI</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="356">
-          <source>Payment Application Data Security Standards (PA-DSS) certification</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Сертификация стандартов безопасности данных платежных приложений (PA-DSS)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="357">
-          <source>Retail capabilities available in on-premises deployments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Возможности розничной торговли, доступные в локальных развертываниях</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="358">
-          <source>Deployment and hotfixes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Развертывание и исправления</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="359">
-          <source>Retail Store Scale Unit</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Store Scale Unit</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="360">
-          <source>Configure and install Retail Store Scale Unit</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка и установка Retail Store Scale Unit</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="361">
-          <source>Retail Modern POS configuration and installation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Конфигурация и установка Retail Modern POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="362">
-          <source>Manage Retail accounts and devices from headquarters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление учетными записями и устройствами Retail из центрального офиса</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="363">
-          <source>Retail POS device activation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Активация устройств Retail POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="364">
-          <source>Help secure Cloud POS in shared environments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обеспечение безопасности Cloud POS в общих средах</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="365">
-          <source>Retail Hardware Station configuration and installation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка и установка Retail Hardware Station</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="366">
-          <source>Mass deployment of Retail self-service components</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Массовое развертывание компонентов дистанционного обслуживания Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="367">
-          <source>Retail component events for diagnostics and troubleshooting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">События компонентов Retail для диагностики и устранения неполадок</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="368">
-          <source>Apply a deployable package</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Применение готового к развертыванию пакета</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="369">
-          <source>Upgrade and N-1 support</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обновление и поддержка N-1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="370">
-          <source>Upgrade and N-1 support for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обновление и поддержка N-1 для Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="371">
-          <source>Phased Rollout (N-1) installation, configuration, and cutover</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Установка, настройка и переключение поэтапного выпуска (N-1)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="372">
-          <source>Upgrade the Retail channel extension to the latest Retail SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Обновление расширения канала Retail до последнего пакета Retail SDK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="373">
-          <source>Implementation guidance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Руководство по внедрению</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="374">
-          <source>Device management implementation guidance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Руководство по внедрению системы управления устройствами</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="375">
-          <source>Environment configuration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Конфигурация среды</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="376">
-          <source>Add links to your organization's legal terms and privacy statement</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Добавление ссылок на юридические условия и заявление о конфиденциальности вашей организации</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="377">
-          <source>Manage Bing Maps</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Управление Картами Bing</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="378">
-          <source>Localize Retail extension resources and label files</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Локализация ресурсов расширений Retail и файлов меток</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="379">
-          <source>Point of sale extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расширяемость POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="380">
-          <source>Retail POS screen layouts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Макеты экрана Retail POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="381">
-          <source>Open URL in POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Открытие URL-адреса в POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="382">
-          <source>Install the POS Layout designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Установка конструктора макетов POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="383">
-          <source>Retail Modern POS in offline mode</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS в автономном режиме</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="384">
-          <source>Extend the POS Dual display view</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расширение представления дисплея POS Dual</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="385">
-          <source>Retail Modern POS and Cloud POS trigger extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расширение триггеров Retail Modern POS и Cloud POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="386">
-          <source>Add custom controls to POS views</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Добавление пользовательских элементов управления в представления POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="387">
-          <source>Add POS operations to POS layouts using Button grid designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Добавление операций POS в макеты POS с помощью конструктора сетки кнопок</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="388">
-          <source>Retail POS APIs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">API-интерфейсы Retail POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="389">
-          <source>POS payment extension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расширение механизма оплаты для POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="390">
-          <source>Support for external gift cards</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Поддержка внешних подарочных карт</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="391">
-          <source>Create and apply branding to the Retail Experience app</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание и применение фирменной символики к приложению Retail Experience</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="392">
-          <source>Set up POS Hybrid app on Android and iOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка приложения POS Hybrid в Android и iOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="393">
-          <source>Override POS request handler</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Переопределение обработчика запросов POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="394">
-          <source>View POS extension package information</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Просмотр сведений о пакете расширений POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="395">
-          <source>Hardware Station and extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hardware Station и расширяемость</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="396">
-          <source>Retail Server extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расширяемость Retail Server</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="397">
-          <source>Extend a Retail Server OData controller</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расширение контроллера OData Retail Server</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="398">
-          <source>Create a Web API controller for Retail Server</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание контроллера веб-API для Retail Server</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="399">
-          <source>Retail Server customer and consumer APIs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">API клиентов и потребителей Retail Server</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="400">
-          <source>Extend the default Retail Server metadata controller</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Расширение контроллера метаданных Retail Server по умолчанию</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="401">
-          <source>Call the CRT service in offline mode</source><target logoport:matchpercent="96" state="translated" state-qualifier="fuzzy-match">Вызов службы CRT в автономном режиме</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="402">
-          <source>Commerce runtime (CRT) extensibility</source><target logoport:matchpercent="96" state="translated" state-qualifier="fuzzy-match">Расширяемость Commerce Runtime (CRT)</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="403">
-          <source>CRT architecture and configuration</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Архитектура и конфигурация CRT</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="404">
-          <source>CRT services</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Службы CRT</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="405">
-          <source>CRT and Retail Server extensibility</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Расширяемость CRT и Retail Server</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="406">
-          <source>Add customer preference data to channel databases</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Добавление данных о предпочтениях клиентов в базы данных канала</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="407">
-          <source>Add properties to sales orders</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Добавление свойств в заказы на продажу</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="408">
-          <source>CRT extensibility and triggers</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Расширяемость и триггеры CRT</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="409">
-          <source>Block transactions using triggers</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Блокировка проводок с помощью триггеров</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="410">
-          <source>Implement a return policy using triggers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Реализация политики возврата с помощью триггеров</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="411">
-          <source>e-Commerce extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расширяемость электронной коммерции</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="412">
-          <source>Configure online stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка интерактивных магазинов</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="413">
-          <source>Configure authentication providers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Настройка поставщиков проверки подлинности</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="414">
-          <source>e-Commerce platform</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Платформа для электронной коммерции</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="415">
-          <source>e-Commerce platform SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SDK платформы для электронной коммерции</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="416">
-          <source>Payment connector extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расширяемость соединителя платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="417">
-          <source>Create a payment integration for a payment terminal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание интеграции платежей для терминала оплаты</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="418">
-          <source>Implementing a payment connector and payment device (white paper)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Внедрение соединителя платежей и платежного устройства (технический документ)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="419">
-          <source>Deploy payment connectors</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Развертывание соединителей платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="420">
-          <source>Create custom localized error messages for payment terminal extensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание пользовательских локализованных сообщений об ошибках для расширений терминалов платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="421">
-          <source>Create Windows installers for payment connectors</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание установщиков Windows для соединителей платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="422">
-          <source>Payment data use</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Использование платежных данных</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="423">
-          <source>Enable duplicate payment protection for payment connector</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Включение защиты от дубликатов платежей для соединителя платежей</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="424">
-          <source>Retail SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail SDK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="425">
-          <source>Upcoming changes in the Retail SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Предстоящие изменения в Retail SDK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="426">
-          <source>Merge the build systems for Retail and Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Объединение систем сборки для Retail и Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="427">
-          <source>Retail SDK extensibility samples</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Примеры расширяемости Retail SDK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="428">
-          <source>Create retail deployable packages</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Создание готовых к развертыванию пакетов розничной торговли</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="429">
-          <source>Retail SDK samples</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Примеры Retail SDK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="430">
-          <source>Extension points for packing slips</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Точки расширения для отборочных накладных</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="431">
-          <source>Channel database extensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расширения базы данных канала</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="432">
-          <source>Enable custom CDX synchronization via extension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Включение пользовательской синхронизации CDX через расширение</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="433">
-          <source>Add custom fields to the POS Totals panel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Добавление пользовательских полей на панель итогов POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="434">
-          <source>Define and set order attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Определение и настройка атрибутов заказа</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="435">
-          <source>Customer attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Атрибуты клиента</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="436">
-          <source>Retail Typescript and C# proxies</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Прокси Typescript и C# в Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="437">
-          <source>Run the Retail POS samples</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Запуск примеров Retail POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="438">
-          <source>Extend POS views to add custom columns and app bar buttons</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расширение представлений POS с добавлением пользовательских столбцов и кнопок панели приложения</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="439">
-          <source>Add custom controls to Retail Modern POS transaction pages</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Добавление пользовательских элементов управления на страницы проводок Retail Modern POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="440">
-          <source>Add custom columns to a POS transaction grid</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Добавление пользовательских столбцов в сетку проводок POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="441">
-          <source>Call POS APIs or operations from POS extensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Вызов API или операций POS из расширений POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="442">
-          <source>Retail Modern POS triggers and printing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Триггеры и печать в Retail Modern POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="443">
-          <source>Add custom controls to non-screen designer-based POS views</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Добавление пользовательских элементов управления в представления POS на основе конструктора без экрана</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="444">
-          <source>Development in cloud-hosted dev environments without admin access</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Разработка в среде разработки, размещенной в облаке, без доступа администратора</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="445">
-          <source>Commerce runtime</source>
-        <target logoport:matchpercent="0" state="translated">Commerce Runtime</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="446">
-          <source>Loyalty extension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Расширение программы лояльности</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+- name: Добро пожаловать в Dynamics 365 for Retail
+  href: index.md
+- name: Начало работы
+  items:
+    - name: Что нового и что изменилось
+      href: get-started/whats-new.md
+    - name: Предварительные версии функций Dynamics 365 for Retail 10.0.3
+      href: get-started/whats-new-10-0-3.md
+    - name: Что нового и что изменилось в Dynamics 365 for Retail 10.0.2
+      href: get-started/whats-new-10-0-2.md
+    - name: Что нового и что изменилось в Dynamics 365 for Retail 10.0.1
+      href: get-started/whats-new-10-0-1.md
+    - name: Что нового и что изменилось в Dynamics 365 for Retail (апрель 2019 г.)
+      href: get-started/april-whats-new.md
+    - name: Перед покупкой Retail
+      href: get-started/before-you-buy.md
+    - name: Регистрация для получения ознакомительной подписки
+      href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
+    - name: Развертывание демонстрационной среды
+      href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
+    - name: Варианты развертывания
+      href: dev-itpro/choose-deployment.md
+    - name: Получение поддержки по Retail
+      href: retail-support.md
+    - name: Вопросы и ответы по обновлениям службы с одной версией
+      href: ../fin-and-ops/get-started/one-version.md
+- name: Общие сведения о жизненном цикле реализации
+  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+  items:
+    - name: Microsoft FastTrack for Dynamics 365
+      href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
+    - name: Адаптация
+      href: ../fin-and-ops/imp-lifecycle/onboard.md
+    - name: Подготовка к вводу в эксплуатацию
+      href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
+    - name: Вопросы и ответы по вводу в эксплуатацию
+      href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
+    - name: Отправка запроса на обслуживание
+      href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
+    - name: 'Вопросы и ответы по подпискам, проектам LCS и клиентам Azure Active Directory'
+      href: ../fin-and-ops/get-started/subscription-overview.md
+    - name: Перемещение сред между центрами обработки данных
+      href: ../fin-and-ops/get-started/move-environments-data-center.md
+    - name: Перемещение лицензий между соглашениями различных типов
+      href: ../fin-and-ops/get-started/move-licenses-between-agreement-types.md
+    - name: Перемещение проекта реализации LCS в другой клиент Azure Active Directory
+      href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
+    - name: Реализация нескольких проектов LCS и производственных сред в одном клиенте Azure Active Directory
+      href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
+    - name: Реализация проектов Retail Finance and Operations
+      href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+    - name: 'Настройка новых сред, Azure DevOps и ветвей для проектов Retail'
+      href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+    - name: Обновление кода и сред для проектов Retail
+      href: dev-itpro/updating-environments.md
+    - name: Тестирование и проблемы с производительностью
+      href: dev-itpro/retail-implementation-testing-performance.md
+- name: Распределенное управление заказами (DOM)
+  items:
+    - name: Обзор распределенного управления заказами
+      href: dom.md
+    - name: Конфигурация затрат
+      href: cost.md
+- name: Платежи
+  items:
+    - name: Способы оплаты
+      href: payment-methods.md
+    - name: 'Настройка, авторизация и проверка данных кредитной карты'
+      href: ../financials/accounts-receivable/credit-card-authorizations.md
+    - name: Настройка номиналов валюты для POS
+      href: cash-denominations.md
+    - name: Соединитель платежей Dynamics 365 для Adyen
+      href: dev-itpro/adyen-connector.md
+    - name: Сохранение интерактивных платежных инструментов с помощью соединителя Adyen
+      href: dev-itpro/adyen-connector-listPI.md
+    - name: Настройка сценариев оплаты накладных
+      href: payinvoice.md
+    - name: Вопросы и ответы по платежам
+      href: dev-itpro/payments-retail.md
+    - name: Предотвращение дублирования платежей
+      href: duplicate-payment-protection.md
+- name: Заказы на покупку
+  items:
+    - name: Обзор заказа на покупку
+      href: ../supply-chain/procurement/purchase-order-overview.md
+    - name: Создание заказов на покупку
+      href: ../supply-chain/procurement/purchase-order-creation.md
+    - name: Поступление продуктов по заказам на покупку
+      href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md
+    - name: Утверждение и подтверждение заказов на покупку
+      href: ../supply-chain/procurement/purchase-order-approval-confirmation.md
+    - name: Мобильные рабочие области утверждения заказов на покупку
+      href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
+- name: Отчеты
+  items:
+    - name: Журналы операций розничной торговли
+      href: retail-statements.md
+    - name: Программа проверки согласованности проводок розничной торговли
+      href: valid-checker.md
+    - name: 'Создание, расчет и разноска журналов операций для розничного магазина'
+      href: tasks/create-calculate-post-statement-retail-store.md
+    - name: Усовершенствования функциональности разноски журнала операций
+      href: statement-posting-EOD.md
+    - name: Улучшенная обработка номенклатур с отслеженными партиями
+      href: batch.md
+    - name: 'Настройка параметров розничной торговли, влияющих на журналы операций розничной торговли'
+      href: tasks/parameter-configurations-retail-statements.md
+    - name: 'Настройка параметров способа оплаты, влияющих на журналы операций розничной торговли'
+      href: tasks/payment-configurations-retail-statements.md
+    - name: Настройка и выполнение задания для расчета журналов операций
+      href: tasks/run-job-calculate-statements.md
+    - name: Настройка и выполнение задания для разноски журналов операций
+      href: tasks/run-job-post-statements.md
+    - name: 'Настройка параметров магазина, влияющих на журналы операций розничной торговли'
+      href: tasks/store-configurations-retail-statements.md
+- name: Налог
+  items:
+    - name: Обзор налога
+      href: ../financials/general-ledger/indirect-taxes-overview.md
+    - name: Методы расчета налога в поле "Основание"
+      href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+    - name: Назначение и переопределения налога
+      href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
+    - name: Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов
+      href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+- name: Обзор омниканальных платежей
+  href: omni-channel-payments.md
+- name: Омниканальные расширенные автоматические накладные расходы
+  items:
+    - name: Настройка и использование расширенных автоматических накладных расходов
+      href: omni-auto-charges.md
+    - name: Пропорциональное распределение накладных расходов из заголовка по соответствующим строкам продаж
+      href: pro-rate-charges-matching-lines.md
+- name: Центр обработки вызовов
+  items:
+    - name: Функциональность продажи центра обработки вызовов
+      href: call-center-functionality.md
+    - name: Каталоги центра обработки вызовов
+      href: call-center-catalogs.md
+    - name: Настройка режимов доставки и накладных расходов
+      href: configure-call-center-delivery.md
+    - name: Настройка оповещений о мошенничестве и работа с ними
+      href: set-up-fraud-alerts.md
+    - name: Настройка каналов центра обработки вызовов
+      href: set-up-order-processing-options.md
+    - name: Настройка программ непрерывности для центров обработки вызовов
+      href: set-up-continuity-program.md
+    - name: Настройка удержаний заказов центра обработки вызовов и работа с ними
+      href: work-with-order-holds.md
+    - name: Способы оплаты
+      href: work-with-payments.md
+- name: Настройка канала и управление им
+  items:
+    - name: Инициализация начальных данных в новых средах Retail
+      href: enable-configure-retail-functionality.md
+    - name: Определение и ведение каналов розничной торговли
+      href: define-maintain-retail-channels.md
+    - name: Управление ассортиментом
+      href: assortments.md
+    - name: Настройка интернет-магазинов
+      href: online-stores.md
+    - name: Настройка и установка Retail Hardware Station
+      href: retail-hardware-station-configuration-installation.md
+    - name: Посещаемость и время присутствия в Retail
+      href: retail-time-attendance.md
+- name: Modern Point of Sale (MPOS) и Cloud POS
+  items:
+    - name: Выбор между MPOS и Cloud POS
+      href: MPOS-or-CPOS.md
+    - name: Выполнение операций POS в интерактивном и автономном режимах
+      href: pos-operations.md
+    - name: Активация устройства настраиваемого Retail MPOS
+      href: dev-itpro/retail-POS-activation-changes.md
+    - name: Макеты экрана демонстрационных данных в MPOS и Cloud POS
+      href: demo-data.md
+    - name: Поиск продуктов и клиентов в POS
+      href: POS-search-improvements.md
+    - name: Улучшения управления кассами
+      href: cash-mgmt.md
+    - name: Поиск запасов в POS
+      href: product-variants-POS.md
+    - name: Приостановка и возобновление проводок в POS
+      href: pos-suspend-recall-transactions.md
+    - name: Периферийные устройства
+      items:
+        - name: Периферийные устройства Retail
+          href: retail-peripherals-overview.md
+        - name: Симулятор периферийных устройств Retail
+          href: dev-itpro/retail-peripheral-simulator.md
+        - name: Подключение периферийных устройств к POS
+          href: define-maintain-channel-clients-registers-hw-stations.md
+    - name: Макеты экрана
+      items:
+        - name: Макеты экрана демонстрационных данных в MPOS/CPOS
+          href: demo-data.md
+        - name: Макеты экрана для POS
+          href: pos-screen-layouts.md
+        - name: Установка конструктора макета Retail POS
+          href: install-pos-layout-designer.md
+        - name: Выбор параметров уведомлений
+          href: Notifications-POS.md
+        - name: Параметры приложения POS и языка пользователя
+          href: pos-application-user-language-settings.md
+        - name: Настройка изображений для MPOS и управление ими
+          href: set-up-manage-images-retail-mpos.md
+    - name: Инфокоды и группы инфокодов
+      href: info-codes-retail.md
+    - name: Усовершенствования в POS для продуктов с серийными номерами
+      href: serialized-inventory.md
+    - name: Рекомендации по продуктам
+      items:
+        - name: Персонализированные рекомендации по продуктам
+          href: personalized-product-recommendations.md
+        - name: Добавление элемента управления рекомендациями в устройства POS
+          href: add-recommendations-control-pos-screen.md
+    - name: Функциональность POS в автономном режиме
+      href: pos-offline-functionality.md
+    - name: Управление сменами и кассовым лотком
+      href: shift-drawer-management.md
+    - name: Сальдо подарочного сертификата для обналичивания
+      href: dev-itpro/gift-card-cash-out.md
+    - name: Клиентские заказы
+      items:
+        - name: Клиентские заказы в MPOS
+          href: customer-orders-overview.md
+        - name: Гибридные клиентские заказы
+          href: hybrid-customer-orders.md
+    - name: Продавцы
+      items:
+        - name: Отслеживание комиссий в POS с помощью групп продаж
+          href: pos-sales-groups-track-commissions.md
+    - name: Отгрузка заказов из одного магазина
+      href: charge-send.md
+    - name: Активация устройства
+      items:
+        - name: 'Настройка, установка и активация MPOS'
+          href: retail-modern-pos-device-activation.md
+        - name: Настройка функциональности расширенного входа для MPOS и Cloud POS
+          href: extended-logon.md
+        - name: Управление учетными записями активации и устройствами проверки Retail
+          href: set-up-activation-accounts-validate-devices-hq.md
+    - name: Чеки
+      items:
+        - name: Настройка и дизайн форматов чеков
+          href: receipt-templates-printing.md
+        - name: Отправка чеков по электронной почте из MPOS
+          href: email-receipts.md
+    - name: Регистратор задач и справка для MPOS и Cloud POS
+      href: task-recorder-retail-pos.md
+- name: Выполнение заказов
+  items:
+    - name: Выполнение заказов магазинами
+      href: Order-fulfillment-overview.md
+    - name: Настройка выполнения заказов для магазинов
+      href: Order-fulfillment-POS-setup.md
+    - name: Отображение уведомлений по заказу в POS
+      href: Notifications-POS.md
+- name: Возвраты
+  items:
+    - name: 'Продажа и возврат продуктов, не включенных в ассортимент магазина'
+      href: sell-return-outside-assortments.md
+    - name: Настройка и обработка обмена по заказу на возврат
+      href: orderexchanges.md
+    - name: Ограничение способов оплаты для возвратов без чека
+      href: payment-methods-restrictions.md
+    - name: Возврат номенклатур по нескольким заказам и накладным клиента
+      href: multireturn.md
+- name: Мониторинг и анализ
+  items:
+    - name: Мониторинг эффективности продаж и маржи
+      href: monitor-sales-margin-performance.md
+    - name: Анализ тенденций и моделей продаж
+      href: analyze-sales-trends-patterns.md
+    - name: Оценка эффективности продаж по продукту
+      href: sales-performance-products.md
+    - name: Оценка рентабельности по клиентам и продуктам
+      href: assess-customer-product-profitability.md
+    - name: Анализ эффективности работы магазина
+      href: store-performance-information.md
+    - name: 'Настройка анализа актуальности, периодичности и денежных значений (RFM)'
+      href: set-up-rfm-analysis.md
+- name: Отчеты по розничным ценам
+  href: price-report.md
+- name: Цены и скидки
+  items:
+    - name: Розничные скидки
+      href: retail-discounts-overview.md
+    - name: Управление ценой продажи розничной торговли
+      href: price-management.md
+    - name: Корректировки цены и скидки
+      href: price-adjustments-discounts.md
+    - name: Применение к продукту нескольких скидок
+      href: Apply-multiple-retail-discounts.md
+    - name: Определение оптимальной комбинации пересекающихся скидок
+      href: optimal-combination-overlapping-discounts.md
+    - name: 'Определение скидок, специфичных для канала'
+      href: define-channel-specific-discounts.md
+    - name: Параметры для предотвращения скидок по розничным продуктам
+      href: prevent-discounts.md
+    - name: Обзор скидок на доставку
+      href: retail-shipping-discount.md
+    - name: Настройка купонов для розничных продаж
+      href: retail-coupons.md
+- name: Продукты и сбыт
+  items:
+    - name: Обзор сведений о продуктах
+      href: ../supply-chain/pim/product-information.md
+    - name: Иерархии розничной торговли
+      href: retail-hierarchies.md
+    - name: Атрибуты и группы атрибутов
+      href: attribute-attributegroups-lifecycle.md
+    - name: Создание атрибутов и управление ими
+      href: create-manage-attributes.md
+    - name: Настройка розничных продуктов
+      href: set-up-retail-products.md
+    - name: Управление категориям продуктов и продуктами Retail
+      href: category-management-product-creation.md
+    - name: Аналитики продуктов
+      href: ../supply-chain/pim/product-dimensions.md
+    - name: Настройка штрих-кодов
+      href: set-up-bar-codes.md
+    - name: Настройка масок штрих-кодов
+      href: set-up-bar-code-masks.md
+    - name: Настройка ассортиментов
+      href: set-up-assortments.md
+    - name: 'Продажа и возврат продуктов, не включенных в ассортимент магазина'
+      href: sell-return-outside-assortments.md
+    - name: Параметры заказа по умолчанию для аналитик и вариантов продуктов
+      href: ../supply-chain/production-control/default-order-settings.md
+    - name: Поиск продуктов и вариантов продуктов во время ввода заказа
+      href: ../supply-chain/pim/search-products-product-variants.md
+- name: Лояльность
+  items:
+    - name: Обзор лояльности
+      href: set-up-customer-loyalty-program.md
+- name: Запасы
+  items:
+    - name: Управление запасами магазина
+      href: work-with-store-inventory.md
+    - name: Регистрация серийных номеров в процессе продаж
+      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
+    - name: Журналы запасов
+      href: ../supply-chain/inventory/inventory-journals.md
+    - name: Меченная инвентаризация запасов
+      href: ../supply-chain/inventory/inventory-tag-counting.md
+    - name: ФИФО с физической стоимостью и маркировкой
+      href: ../supply-chain/cost-management/fifo-physical-value-marking.md
+    - name: ЛИФО на дату с физической стоимостью и маркировкой
+      href: ../supply-chain/cost-management/lifo-date-physical-value-marking.md
+    - name: ЛИФО с физической стоимостью и маркировкой
+      href: ../supply-chain/cost-management/lifo-physical-value-marking.md
+    - name: Взвешенное среднее на дату
+      href: ../supply-chain/cost-management/weighted-average-date.md
+    - name: Взвешенное среднее с физической стоимостью и маркировкой
+      href: ../supply-chain/cost-management/weighted-average-physical-value-marking.md
+    - name: Карантинные заказы
+      href: ../supply-chain/inventory/quarantine-orders.md
+    - name: Скользящая средняя себестоимость
+      href: ../supply-chain/cost-management/running-average-cost-price.md
+    - name: Отслеживание скользящей средней себестоимости на складскую аналитику
+      href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
+- name: Управление персоналом
+  items:
+    - name: 'Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц'
+      href: ../talent/departments-jobs-positions.md
+    - name: Настройка компонентов должности
+      href: ../talent/create-job.md
+- name: Локализация и нормативные компоненты
+  items:
+    - name: Обзор финансовой интеграции для канала розничной торговли
+      href: localizations/fiscal-integration-for-retail-channel.md
+    - name: Настройка финансовой интеграции для канала розничной торговли
+      href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+    - name: Австрия
+      items:
+        - name: Пример интеграции службы финансовой регистрации для Австрии
+          href: localizations/emea-aut-fi-sample.md
+    - name: Восточная Европа
+      items:
+        - name: Авансовые счета для Retail для Восточной Европы
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: Управление мелкими наличными деньгами для Retail для Восточной Европы
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: Накладные клиента и возвратные заказы на продажу для Retail в странах Восточной Европы
+          href: localizations/emea-eeu-retail-invoices.md
+        - name: 'Рекомендации по развертыванию контрольно-кассовых машин для Чешской Республики, Венгрии и Польши'
+          href: localizations/emea-eeu-deployment.md
+        - name: Пример интеграции фискальных принтеров для Польши
+          href: localizations/emea-pol-fpi-sample.md
+        - name: Пример интеграции службы финансовой регистрации для Чешской Республики
+          href: localizations/emea-cze-fi-sample.md
+    - name: Франция
+      items:
+        - name: Функциональность контрольно-кассовой машины
+          href: localizations/emea-fra-cash-registers.md
+        - name: Рекомендации по развертыванию контрольно-кассовых машин
+          href: localizations/emea-fra-deployment.md
+    - name: Индия
+      items:
+        - name: Интеграция налога на товары и услуги (GST) для контрольно-кассовых машин
+          href: localizations/apac-ind-cash-registers.md
+        - name: Рекомендации по развертыванию контрольно-кассовых машин
+          href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: Поддержка обновления и N-1 для Индии
+          href: localizations/apac-ind-n-1-for-india.md
+    - name: Италия
+      items:
+        - name: Пример интеграции фискальных принтеров для Италии
+          href: localizations/emea-ita-fpi-sample.md
+    - name: Норвегия
+      items:
+        - name: Функциональность контрольно-кассовой машины
+          href: localizations/emea-nor-cash-registers.md
+        - name: Рекомендации по развертыванию контрольно-кассовых машин
+          href: localizations/emea-nor-loc-deployment-guidelines.md
+    - name: Швеция
+      items:
+        - name: Функциональность контрольно-кассовой машины
+          href: localizations/emea-swe-cash-registers.md
+        - name: Пример интеграции Retail POS c блоками управления
+          href: localizations/retail-sdk-control-unit-sample.md
+- name: Задачи Retail
+  items:
+    - name: Создание продукта
+      href: ../supply-chain/pim/tasks/create-product.md
+    - name: Настройка связанных продуктов
+      href: ../supply-chain/pim/tasks/configure-linked-products.md
+    - name: Выпуск продукта/шаблона продукта для юридических лиц
+      href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
+    - name: Создание коммерческих соглашений для определенных каналов
+      href: tasks/base-price-trade-agreements.md
+    - name: Создание коммерческих соглашений с помощью правил ценообразования категорий
+      href: tasks/category-pricing-rules-trade-agreements.md
+    - name: Настройка обработки кредитных карт
+      href: tasks/configure-credit-card-processing.md
+    - name: Настройка профилей функциональности для торговых представителей
+      href: tasks/configure-functionality-profile-sales-representative.md
+    - name: Настройка рекомендаций по продуктам на основе машинного обучения
+      href: tasks/configure-machine-learning-product-recommendations.md
+    - name: Создание устройств и их связь с ККМ
+      href: tasks/create-associate-device.md
+    - name: Создание станций оборудования Hardware Station
+      href: tasks/create-associate-hardware-station.md
+    - name: Создание ККМ POS
+      href: tasks/create-associate-registers.md
+    - name: Создание заказов центра обработки вызовов
+      href: tasks/create-call-center-orders.md
+    - name: Создание финансовых аналитик для ККМ POS и настройка значений аналитики в ККМ
+      href: tasks/create-financial-dimensions-pos.md
+    - name: Создание финансовых аналитик для каналов розничной торговли и настройка значений аналитик для магазинов
+      href: tasks/create-financial-dimensions-retail-channels.md
+    - name: Создание каналов продаж через Интернет и определение атрибутов каналов
+      href: tasks/create-online-channel-define-channel-attributes.md
+    - name: Создание групп разрешений POS
+      href: tasks/create-pos-permission-groups.md
+    - name: Создание визуальных профилей POS
+      href: tasks/create-pos-visual-profile-2016-02.md
+    - name: Создание пакетов продуктов для заказов на покупку
+      href: tasks/create-product-packages-purchase-orders.md
+    - name: Создание каналов центра обработки вызовов и определение атрибутов каналов
+      href: tasks/define-call-center-channel-channel-attributes.md
+    - name: Определение атрибутов канала
+      href: tasks/define-channel-attributes.md
+    - name: Определение планов непрерывности
+      href: tasks/define-continuity-schedules.md
+    - name: Определение программ лояльности
+      href: tasks/define-loyalty-programs.md
+    - name: Определение баллов поощрения по программе лояльности
+      href: tasks/define-loyalty-reward-points.md
+    - name: Определение схем лояльности
+      href: tasks/define-loyalty-schemes.md
+    - name: Определение связей между подразделениями организации
+      href: tasks/design-relationships-between-organizational-units.md
+    - name: Управление ассортиментами
+      href: tasks/manage-assortments-2016-11.md
+    - name: Загрузка станций оборудования Hardware Station с помощью дистанционного обслуживания
+      href: tasks/perform-self-service-download-hardware-station.md
+    - name: Разноска интернет-продаж и платежей
+      href: tasks/posting-online-sales-payments.md
+    - name: Обработка корректировок баллов поощрения по программе лояльности
+      href: tasks/process-loyalty-reward-point-adjustments.md
+    - name: Отправка продуктов из центров распределения в магазины через централизованное распределение
+      href: tasks/push-products-distribution-center-store-buyers-push.md
+    - name: Создание корректировок розничных цен
+      href: tasks/retail-price-adjustments.md
+    - name: Создание и выполнение готовых отчетов
+      href: tasks/run-out-box-reports.md
+    - name: Настройка правил и параметров для централизованного распределения и кросс-докинга
+      href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+    - name: Продажа программ непрерывности и обработка заказов на продажу
+      href: tasks/use-continuity-program.md
+    - name: Настройка работников розничной торговли
+      href: tasks/worker.md
+- name: Разработка и администрирование Retail
+  href: dev-itpro/dev-retail-home-page.md
+  items:
+    - name: Архитектура
+      items:
+        - name: Компоненты Retail
+          href: retail-components.md
+        - name: Архитектура Retail Server
+          href: dev-itpro/retail-server-architecture.md
+        - name: Выбор топологии в магазине
+          href: dev-itpro/retail-in-store-topology.md
+        - name: Commerce Data Exchange и взаимодействия по каналам розничной торговли
+          href: dev-itpro/define-retail-channel-communications-cdx.md
+        - name: Архитектура Retail Modern POS
+          href: dev-itpro/retail-modern-pos-architecture.md
+        - name: Архитектура публикации в интернет-магазинах Retail
+          href: dev-itpro/retail-online-store-publishing-architecture.md
+        - name: Содержимое Retail Channel Performance Power BI
+          href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
+        - name: Сертификация стандартов безопасности данных платежных приложений (PA-DSS)
+          href: dev-itpro/PA-DSS-Certification.md
+        - name: 'Возможности розничной торговли, доступные в локальных развертываниях'
+          href: retail-onprem.md
+    - name: Развертывание и исправления
+      items:
+        - name: Retail Store Scale Unit
+          href: dev-itpro/retail-store-system-begin.md
+        - name: Настройка и установка Retail Store Scale Unit
+          href: dev-itpro/retail-store-scale-unit-configuration-installation.md
+        - name: Конфигурация и установка Retail Modern POS
+          href: retail-modern-pos-device-activation.md
+        - name: Управление учетными записями и устройствами Retail из центрального офиса
+          href: set-up-activation-accounts-validate-devices-hq.md
+        - name: Активация устройств Retail POS
+          href: dev-itpro/retail-device-activation.md
+        - name: Обеспечение безопасности Cloud POS в общих средах
+          href: dev-itpro/secure-retail-cloud-pos.md
+        - name: Настройка и установка Retail Hardware Station
+          href: retail-hardware-station-configuration-installation.md
+        - name: Массовое развертывание компонентов дистанционного обслуживания Retail
+          href: dev-itpro/retail-mass-deployment.md
+        - name: События компонентов Retail для диагностики и устранения неполадок
+          href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
+        - name: Применение готового к развертыванию пакета
+          href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
+    - name: Обновление и поддержка N-1
+      items:
+        - name: Обновление и поддержка N-1 для Retail
+          href: dev-itpro/overview-upgrade-n-minus1.md
+        - name: 'Установка, настройка и переключение поэтапного выпуска (N-1)'
+          href: dev-itpro/n-1-installation-configuration.md
+        - name: Обновление расширения канала Retail до последнего пакета Retail SDK
+          href: dev-itpro/retailSDK-update.md
+    - name: Руководство по внедрению
+      items:
+        - name: Руководство по внедрению системы управления устройствами
+          href: implementation-considerations-devices.md
+    - name: Конфигурация среды
+      items:
+        - name: Добавление ссылок на юридические условия и заявление о конфиденциальности вашей организации
+          href: ../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json
+        - name: Управление Картами Bing
+          href: dev-itpro/manage-bing-maps.md
+    - name: Локализация ресурсов расширений Retail и файлов меток
+      href: dev-itpro/extension-resource-localization.md
+    - name: Расширяемость POS
+      items:
+        - name: Макеты экрана Retail POS
+          href: pos-screen-layouts.md
+        - name: Открытие URL-адреса в POS
+          href: Open-URL-in-POS.md
+        - name: Установка конструктора макетов POS
+          href: install-pos-layout-designer.md
+        - name: Retail Modern POS в автономном режиме
+          href: dev-itpro/retail-modern-pos-offline.md
+        - name: Расширение представления дисплея POS Dual
+          href: dev-itpro/pos-dual-display-extension.md
+        - name: Расширение триггеров Retail Modern POS и Cloud POS
+          href: dev-itpro/modern-pos-trigger-extensibility.md
+        - name: Добавление пользовательских элементов управления в представления POS
+          href: dev-itpro/pos-custom-control.md
+        - name: Добавление операций POS в макеты POS с помощью конструктора сетки кнопок
+          href: dev-itpro/add-POS-operations.md
+        - name: API-интерфейсы Retail POS
+          href: dev-itpro/POS-APIs.md
+        - name: Расширение механизма оплаты для POS
+          href: dev-itpro/pos-payment-extension.md
+        - name: Поддержка внешних подарочных карт
+          href: dev-itpro/gift-card.md
+        - name: Создание и применение фирменной символики к приложению Retail Experience
+          href: dev-itpro/create-retail-experience-app.md
+        - name: Настройка приложения POS Hybrid в Android и iOS
+          href: dev-itpro/hybridApp.md
+        - name: Переопределение обработчика запросов POS
+          href: dev-itpro/pos-handler.md
+        - name: Просмотр сведений о пакете расширений POS
+          href: dev-itpro/view-pos-extension-package-details.md
+    - name: Hardware Station и расширяемость
+      href: dev-itpro/hardware-station-extensibility.md
+    - name: Расширяемость Retail Server
+      items:
+        - name: Расширение контроллера OData Retail Server
+          href: dev-itpro/extend-retail-server-odata-controller.md
+        - name: Создание контроллера веб-API для Retail Server
+          href: dev-itpro/odata-controllers-api.md
+        - name: API клиентов и потребителей Retail Server
+          href: dev-itpro/retail-server-customer-consumer-api.md
+        - name: Расширение контроллера метаданных Retail Server по умолчанию
+          href: dev-itpro/extend-metadata.md
+        - name: Вызов службы CRT в автономном режиме
+          href: dev-itpro/call-crt-service-offline.md
+    - name: Расширяемость Commerce Runtime (CRT)
+      items:
+        - name: Архитектура и конфигурация CRT
+          href: dev-itpro/commerce-runtime-overview.md
+        - name: Службы CRT
+          href: dev-itpro/crt-services.md
+        - name: Расширяемость CRT и Retail Server
+          href: dev-itpro/commerce-runtime-extensibility.md
+        - name: Добавление данных о предпочтениях клиентов в базы данных канала
+          href: dev-itpro/add-customer-preference-channel.md
+        - name: Добавление свойств в заказы на продажу
+          href: dev-itpro/add-properties-sales-order.md
+        - name: Расширяемость и триггеры CRT
+          href: dev-itpro/commerce-runtime-extensibility-trigger.md
+        - name: Блокировка проводок с помощью триггеров
+          href: dev-itpro/trigger-example-blocking-transaction.md
+        - name: Реализация политики возврата с помощью триггеров
+          href: dev-itpro/trigger-example-return-policy.md
+    - name: Расширяемость электронной коммерции
+      items:
+        - name: Настройка интерактивных магазинов
+          href: dev-itpro/configure-online-store.md
+        - name: Настройка поставщиков проверки подлинности
+          href: dev-itpro/configure-authentication-providers.md
+        - name: Платформа для электронной коммерции
+          href: dev-itpro/ecommerce-platform.md
+        - name: SDK платформы для электронной коммерции
+          href: dev-itpro/ecommerce-platform-sdk.md
+    - name: Расширяемость соединителя платежей
+      items:
+        - name: Создание интеграции платежей для терминала оплаты
+          href: dev-itpro/end-to-end-payment-extension.md
+        - name: Внедрение соединителя платежей и платежного устройства (технический документ)
+          href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
+        - name: Развертывание соединителей платежей
+          href: dev-itpro/deploy-payment-connector.md
+        - name: Создание пользовательских локализованных сообщений об ошибках для расширений терминалов платежей
+          href: dev-itpro/payment-custom-error-messages.md
+        - name: Создание установщиков Windows для соединителей платежей
+          href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Использование платежных данных
+          href: payment-connector-data-fields.md
+        - name: Включение защиты от дубликатов платежей для соединителя платежей
+          href: dev-itpro/duplicate-payment-protection.md
+    - name: Retail SDK
+      href: dev-itpro/retail-sdk/retail-sdk-overview.md
+      items:
+        - name: Предстоящие изменения в Retail SDK
+          href: dev-itpro/UpcomingSDKChanges.md
+        - name: Объединение систем сборки для Retail и Finance and Operations
+          href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+        - name: Примеры расширяемости Retail SDK
+          href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+        - name: Создание готовых к развертыванию пакетов розничной торговли
+          href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+        - name: Примеры Retail SDK
+          href: dev-itpro/retail-sdk/retail-sdk-samples.md
+          items:
+            - name: Точки расширения для отборочных накладных
+              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: Расширения базы данных канала
+          href: dev-itpro/channel-db-extensions.md
+        - name: Включение пользовательской синхронизации CDX через расширение
+          href: dev-itpro/cdx-extensibility.md
+        - name: Добавление пользовательских полей на панель итогов POS
+          href: dev-itpro/custom-field-pos-totals.md
+        - name: Определение и настройка атрибутов заказа
+          href: dev-itpro/order-attributes.md
+        - name: Атрибуты клиента
+          href: dev-itpro/customer-attributes.md
+        - name: 'Прокси Typescript и C# в Retail'
+          href: dev-itpro/typescript-proxy-retail-pos.md
+        - name: Запуск примеров Retail POS
+          href: dev-itpro/pos-run-samples.md
+        - name: Расширение представлений POS с добавлением пользовательских столбцов и кнопок панели приложения
+          href: dev-itpro/pos-view-extension.md
+        - name: Добавление пользовательских элементов управления на страницы проводок Retail Modern POS
+          href: dev-itpro/pos-custom-transaction.md
+        - name: Добавление пользовательских столбцов в сетку проводок POS
+          href: dev-itpro/pos-custom-transaction-column.md
+        - name: Вызов API или операций POS из расширений POS
+          href: dev-itpro/pos-api-extension.md
+        - name: Триггеры и печать в Retail Modern POS
+          href: dev-itpro/pos-trigger-printing.md
+        - name: Добавление пользовательских элементов управления в представления POS на основе конструктора без экрана
+          href: dev-itpro/pos-control-non-screen.md
+        - name: 'Разработка в среде разработки, размещенной в облаке, без доступа администратора'
+          href: dev-itpro/cloud-dev-box.md
+    - name: Commerce Runtime
+      items:
+        - name: Расширение программы лояльности
+          href: dev-itpro/retail-sdk/loyalty-extension-sample.md
