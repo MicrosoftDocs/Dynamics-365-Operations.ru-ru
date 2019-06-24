@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "1541276"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592668"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Конструктор формул в электронной отчетности (ER)
 
@@ -443,7 +443,7 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <tr>
 <td>NDEX (список, индекс)</td>
 <td>Эта функция возвращает запись, выбранную с помощью определенного числового индекса в списке. Если индекс выходит за пределы диапазона записей в списке, создается исключение.</td>
-<td>Если введен источник данных <strong>DS</strong> для типа <strong>Вычисляемое поле</strong> и он содержит выражение <strong>SPLIT ("A|B|C", “|”), 2)</strong>, выражение <strong>DS.Value</strong> возвращает текстовое значение, "B". Выражение <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> также возвращает текстовое значение “B”.</td>
+<td>Если введен источник данных <strong>DS</strong> для типа <strong>Вычисляемое поле</strong> и он содержит выражение <strong>SPLIT ("A|B|C", “|”), 2</strong>, выражение <strong>DS.Value</strong> возвращает текстовое значение, "B". Выражение <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> также возвращает текстовое значение “B”.</td>
 </tr>
 </tbody>
 </table>

@@ -3,7 +3,7 @@ title: Публикация вакансий на внешних сайтах в
 description: В этом разделе объясняется, как использовать Dynamics 365 for Talent - Attract для публикации объявлений о вакансиях на внешних сайтах трудоустройства
 author: pganapmsft
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: eca599ad189edae29ef2de496196b08799a5e745
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518939"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590490"
 ---
 # <a name="post-jobs-to-external-career-sites-from-attract"></a>Публикация вакансий на внешних сайтах вакансий из Attract
 
@@ -36,6 +36,7 @@ ms.locfileid: "1518939"
 
 > [!NOTE]
 > - Чтобы размещать объявления о вакансиях на внешних сайтах, необходима [надстройка Comprehensive Hiring](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Для публикации вакансий в Broadbean через Attract необходимо иметь подписку на Broadbean.
 > - Эта функция в данный момент находится в режиме предварительного просмотра. Если вы хотите попробовать его, необходимо [включить его в настройках администратора Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 ### <a name="configure-broadbean-integration"></a>Настройка интеграции Broadbean

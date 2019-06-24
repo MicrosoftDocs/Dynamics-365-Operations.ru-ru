@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546846"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595693"
 ---
 # <a name="before-you-buy"></a>Перед покупкой
 
@@ -63,7 +63,7 @@ ms.locfileid: "1546846"
 
 ### <a name="buy-through-volume-licensing"></a>Можно приобрести подписку с помощью корпоративного лицензирования.
 
-Если ваша организация имеет 250 или более пользователей Dynamics 365, вам может быть интересно [Соглашение о корпоративном лицензировании](https://www.microsoft.com/en-us/Licensing/product-licensing/dynamics365).
+Если ваша организация имеет 250 или более пользователей Dynamics 365, вам может быть интересно [Соглашение о корпоративном лицензировании](https://www.microsoft.com/Licensing/product-licensing/dynamics365).
 
 В корпоративном лицензировании приложение Finance and Operations доступно через:
 
@@ -87,7 +87,7 @@ ms.locfileid: "1546846"
 Дополнительные сведения:
 
 - [Поддержка Dynamics 365](https://www.microsoft.com/dynamics365/support)
-- [Краткое руководство по преимуществам поддержки облачных служб Microsoft Dynamics](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+- [Краткое руководство по преимуществам поддержки облачных служб Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Шаг 4. Изучите FastTrack и запланируйте развертывание
 

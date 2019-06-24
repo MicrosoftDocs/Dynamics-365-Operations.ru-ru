@@ -3,7 +3,7 @@ title: Переработанные отчеты о расходах
 description: В этой теме приводятся сведения о переработанных и измененных возможностях записи отчета о расходах в Microsoft Dynamics 365 for Finance and Operations. Новый опыт упрощает процесс заполнения отчетов о расходах и сокращает требуемое время.
 author: ryansandness
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 3039cda3f2cf9259ca06207bdf941bc6b0fb28e1
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538706"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592645"
 ---
 # <a name="expense-reports-reimagined"></a>Переработанные отчеты о расходах
 
@@ -46,10 +46,9 @@ ms.locfileid: "1538706"
 
 ## <a name="getting-started-video-for-new-users"></a>Видео о начале работы для новых пользователей
 
-Можно просмотреть краткий видеоролик, в котором показаны основные функции записи о расходах.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
 
-> [!NOTE]
-> Видео пока недоступно. Этот раздел будет обновлен после появления видео.
+Видео [опыта работы с расходами в Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (показано выше) включено в [список воспроизведения Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на сайте YouTube.
 
 ## <a name="new-features"></a>Новые возможности
 

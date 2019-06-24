@@ -3,7 +3,7 @@ title: Видео для Finance and Operations
 description: На этой странице перечислены созданные Майкрософт практические советы и видео по техническим вопросам, связанные с Dynamics 365 for Finance and Operations, которые доступны на YouTube и других сайтах.
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2018
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1b828382f9f81d796fcfaef0e9c7dc9450a97992
+ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561676"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1591556"
 ---
 # <a name="videos-for-finance-and-operations"></a>Видео для Finance and Operations
 
@@ -63,6 +63,7 @@ ms.locfileid: "1561676"
 - [Мобильная рабочая область управления затратами](https://youtu.be/imsuTg8rUVk)
 - [Начало работы с учетом затрат](https://youtu.be/1pUDtJQZ8FU)
 - [Использование Excel для анализа затрат](https://youtu.be/-HKHYdClvx8)
+- [Опыт работы с расходами](https://youtu.be/Ocy-MsTvEE0)
 
 #### <a name="intelligence"></a>Бизнес-аналитика
 
@@ -151,7 +152,7 @@ ms.locfileid: "1561676"
 - [Интегратор данных CDS (DYN451PAL2)](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Интеграция (VIR806PAL)](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Интеграция Dynamics 365 for Sales и Dynamics 365 for Finance & Operations с помощью CDS (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Integration framework в Dynamics 365 for Finance and Operations (DYN385PAL)](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Integration framework в Dynamics 365 for Finance & Operations (DYN385PAL)](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Структура автоматизации задач для управления данными (DYN447PAL2)](https://youtu.be/KqnXjNpR4AY)
 
 #### <a name="intelligence"></a>Бизнес-аналитика

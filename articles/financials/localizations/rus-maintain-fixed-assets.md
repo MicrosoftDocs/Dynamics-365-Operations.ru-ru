@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3816f9cc65e8e24809b9404ede06e233247d78b9
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 73a972ce667cbf7f5630007df99680b3aad08dfa
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512998"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556255"
 ---
 # <a name="major-repair-and-temporarily-inactivation-fixad-assets-russia"></a>Капитальный ремонт и временная деактивация основных средств (Россия)
 [!include [banner](../includes/banner.md)]

@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ba0b7ff2c8e040f87c3cd583fede182fbac03e74
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ac3035fbbb7235d443af42f69a4088e762f05b54
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538356"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565095"
 ---
 # <a name="depreciation-methods-russia"></a>Методы амортизации (Россия)
 

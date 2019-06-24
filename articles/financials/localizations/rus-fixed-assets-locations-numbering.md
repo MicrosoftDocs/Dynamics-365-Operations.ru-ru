@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 54334c2defef00cc7c53b19221067dd8fe77e94c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: cabd98cdfd4217c3221708465c6ac99a6ed8b273
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1513000"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565086"
 ---
 # <a name="set-up-fixed-asset-locations-and-numbering-russia"></a>Настройка расположений основных средств и нумерация (Россия)
 

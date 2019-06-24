@@ -16,12 +16,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1b01069778e38dd7c99c0c34c2b812cd06bce53a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c7f82969c17b847844621b4181a7e40b8528a2ac
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538345"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545421"
 ---
 # <a name="create-and-post-budget-journals-for-fixed-asset-acquisitions-russia"></a>Создание и разноска журналов бюджета для приобретений ОС (Россия)
 

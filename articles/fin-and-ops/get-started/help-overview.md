@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
-ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
+ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1538964"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595647"
 ---
 # <a name="finance-and-operations-help-system"></a>Справочная система Finance and Operations
 
@@ -192,7 +192,7 @@ Finance and Operations включает систему справки, кото�
 | [Docs.microsoft.com](/dynamics365/)                                                            | Предоставляет всю документацию по продуктам для Dynamics 365 или ссылки на нее. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Бесплатный сайт электронного обучения корпорации Майкрософт. |
 | [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Предоставляет совместное рабочее пространство на основе облака, которое клиенты и их партнеры могут использовать для управления проектами Dynamics 365 for Finance and Operations от предварительной продажи до реализации и выполнения операций. Этой сайт полезен на всех стадиях реализации. |
-| [Блог поддержки](http://aka.ms/AXSupportBlog)                                                    | Предоставляет подсказки и рекомендации группы поддержки Dynamics 365 for Finance and Operations. |
+| [Блог поддержки](https://aka.ms/AXSupportBlog)                                                    | Предоставляет подсказки и рекомендации группы поддержки Dynamics 365 for Finance and Operations. |
 | [Docs.microsoft.com/предыдущие версии](https://docs.microsoft.com/previous-versions/dynamics/) | Размещает содержимое из предыдущих выпусков. |
 | [Сообщество Dynamics](https://community.dynamics.com/)                                          | Включает блоги, форумы и видео. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Предоставляет сведения об оценке и продажах. |

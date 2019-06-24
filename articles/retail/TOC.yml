@@ -6,7 +6,7 @@
       href: get-started/whats-new.md
     - name: Предварительные версии функций Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
-    - name: Предварительные версии функций Dynamics 365 for Retail 10.0.2
+    - name: Что нового и что изменилось в Dynamics 365 for Retail 10.0.2
       href: get-started/whats-new-10-0-2.md
     - name: Что нового и что изменилось в Dynamics 365 for Retail 10.0.1
       href: get-started/whats-new-10-0-1.md
@@ -47,7 +47,7 @@
       href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
     - name: Реализация нескольких проектов LCS и производственных сред в одном клиенте Azure Active Directory
       href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
-    - name: Реализация Finance and Operations Retail projects
+    - name: Реализация проектов Retail Finance and Operations
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
     - name: 'Настройка новых сред, Azure DevOps и ветвей для проектов Retail'
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
@@ -56,7 +56,11 @@
     - name: Тестирование и проблемы с производительностью
       href: dev-itpro/retail-implementation-testing-performance.md
 - name: Распределенное управление заказами (DOM)
-  href: dom.md
+  items:
+    - name: Обзор распределенного управления заказами
+      href: dom.md
+    - name: Конфигурация затрат
+      href: cost.md
 - name: Платежи
   items:
     - name: Способы оплаты
@@ -67,6 +71,8 @@
       href: cash-denominations.md
     - name: Соединитель платежей Dynamics 365 для Adyen
       href: dev-itpro/adyen-connector.md
+    - name: Сохранение интерактивных платежных инструментов с помощью соединителя Adyen
+      href: dev-itpro/adyen-connector-listPI.md
     - name: Настройка сценариев оплаты накладных
       href: payinvoice.md
     - name: Вопросы и ответы по платежам
@@ -95,7 +101,9 @@
       href: tasks/create-calculate-post-statement-retail-store.md
     - name: Усовершенствования функциональности разноски журнала операций
       href: statement-posting-EOD.md
-    - name: 'Настройка параметров Retail, влияющих на журналы операций розничной торговли'
+    - name: Улучшенная обработка номенклатур с отслеженными партиями
+      href: batch.md
+    - name: 'Настройка параметров розничной торговли, влияющих на журналы операций розничной торговли'
       href: tasks/parameter-configurations-retail-statements.md
     - name: 'Настройка параметров способа оплаты, влияющих на журналы операций розничной торговли'
       href: tasks/payment-configurations-retail-statements.md
@@ -115,6 +123,8 @@
       href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
     - name: Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+- name: Обзор омниканальных платежей
+  href: omni-channel-payments.md
 - name: Омниканальные расширенные автоматические накладные расходы
   items:
     - name: Настройка и использование расширенных автоматических накладных расходов
@@ -159,12 +169,14 @@
       href: MPOS-or-CPOS.md
     - name: Выполнение операций POS в интерактивном и автономном режимах
       href: pos-operations.md
-    - name: Активация настраиваемого Retail Modern POS
+    - name: Активация устройства настраиваемого Retail MPOS
       href: dev-itpro/retail-POS-activation-changes.md
     - name: Макеты экрана демонстрационных данных в MPOS и Cloud POS
       href: demo-data.md
     - name: Поиск продуктов и клиентов в POS
       href: POS-search-improvements.md
+    - name: Улучшения управления кассами
+      href: cash-mgmt.md
     - name: Поиск запасов в POS
       href: product-variants-POS.md
     - name: Приостановка и возобновление проводок в POS
@@ -592,7 +604,7 @@
           href: dev-itpro/call-crt-service-offline.md
     - name: Расширяемость Commerce Runtime (CRT)
       items:
-        - name: Архитектура и настройка CRT
+        - name: Архитектура и конфигурация CRT
           href: dev-itpro/commerce-runtime-overview.md
         - name: Службы CRT
           href: dev-itpro/crt-services.md
@@ -678,7 +690,7 @@
           href: dev-itpro/pos-control-non-screen.md
         - name: 'Разработка в среде разработки, размещенной в облаке, без доступа администратора'
           href: dev-itpro/cloud-dev-box.md
-    - name: Среда выполнения Commerce Runtime
+    - name: Commerce Runtime
       items:
         - name: Расширение программы лояльности
           href: dev-itpro/retail-sdk/loyalty-extension-sample.md

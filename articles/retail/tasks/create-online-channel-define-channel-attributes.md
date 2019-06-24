@@ -3,7 +3,7 @@ title: Создание канала продаж через интернет и
 description: Эта процедура содержит указания по созданию нового канала и его добавлению в организационную иерархию.
 author: jashanno
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/04/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e066e9901a97bd5b72815a7af472247ef519ecb9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4547731d7e3bc56b1ba5e0a35ff4746c6c0e9863
+ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569529"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1618304"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>Создание канала продаж через интернет и определение атрибутов канала
 
@@ -60,4 +60,10 @@ ms.locfileid: "1569529"
 9. Щелкните "Опубликовать", чтобы открыть раскрывающееся диалоговое окно.
 10. В поле "Действует с" введите дату и время.
 11. Щелкните "Опубликовать".
+
+## <a name="configure-orders-for-near-realtime-notification"></a>Настройка заказов для уведомления почти в реальном времени
+1. Перейдите в раздел Розничная торговля > Настройка центрального офиса > Параметры > Параметры розничной торговли.
+2. Установите значение "Да" для параметра "Использовать службу реального времени для создания заказов электронной коммерции"
+3. Выполните график распределения 1070, чтобы синхронизировать изменения в базе данных канала. 
+
 

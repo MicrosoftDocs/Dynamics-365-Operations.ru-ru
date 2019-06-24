@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a4b1cd7a02cdf4c650af50199f4425eb53cef0a8
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544917"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595403"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Создание поставщиков конфигурации и пометка их как активных
 
@@ -34,11 +34,11 @@ ms.locfileid: "1544917"
 1. Перейдите в раздел "Управление организацией" > "Рабочие области" > "Электронная отчетность".
 2. Щелкните "Поставщики конфигурации".
 3. Щелкните "Создать".
-    * Запись поставщика имеет уникальные имя и URL-адрес. Проверьте содержимое этой страницы и пропустите эту процедуру, если запись для Litware, Inc. (http://www.litware.com).  
+    * Запись поставщика имеет уникальные имя и URL-адрес. Проверьте содержимое этой страницы и пропустите эту процедуру, если запись для Litware, Inc. (https://www.litware.com).  
 4. В поле "Имя" введите "Litware, Inc.".
     * Litware, Inc.  
-5. В поле "Веб-адрес" введите "http://www.litware.com".
-    * http://www.litware.com  
+5. В поле "Веб-адрес" введите "https://www.litware.com".
+    * https://www.litware.com  
 6. Нажмите кнопку "Сохранить".
 7. Закройте страницу.
 

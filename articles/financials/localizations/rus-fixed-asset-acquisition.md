@@ -16,12 +16,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f40c890d8045836b0d6d72c089d051c4dc8169db
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5db11336aab87ce9f90e755bd8d06e4325df8417
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538353"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565091"
 ---
 # <a name="acquiring-fixed-assets-and-putting-them-into-operation-russia"></a>Приобретение ОС и их ввод в эксплуатацию (Россия)
 

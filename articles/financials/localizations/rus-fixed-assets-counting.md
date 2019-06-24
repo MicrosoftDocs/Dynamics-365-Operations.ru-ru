@@ -16,12 +16,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b93c3ed4a00011cf9b41ebc2400592eded87808b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6244f10d57cc643dc55fc92bc089102561c47f08
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538334"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565088"
 ---
 # <a name="fixed-asset-counting-russia"></a>Инвентаризация ОС (Россия)
 

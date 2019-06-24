@@ -44,9 +44,11 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 'Функции, не реализованные в локальных развертываниях'
               href: get-started/features-not-implemented-on-prem.md
+            - name: Предварительные версии функций Finance and Operations версии 10.0.4 (июль 2019 г.)
+              href: get-started/whats-new-changed-10-0-4.md
             - name: Предварительные версии функций Finance and Operations версии 10.0.3 (июнь 2019 г.)
               href: get-started/whats-new-changed-10-0-3.md
-            - name: Предварительные версии функций Finance and Operations версии 10.0.2 (май 2019 г.)
+            - name: Finance and Operations версии 10.0.2 (май 2019 г.)
               href: get-started/whats-new-changed-10-0-2.md
             - name: Finance and Operations версии 10.0.1 (апрель 2019 г.)
               href: get-started/whats-new-changed-10-0-1.md
@@ -54,9 +56,11 @@
               href: get-started/whats-new-changed-10.md
             - name: Finance and Operations версии 8.1.3 (январь 2019 г.)
               href: get-started/whats-new-changed-8-1-3.md
+            - name: Предварительные версии функций Finance and Operations platform update 28 (июль 2019 г.)
+              href: get-started/whats-new-platform-update-28.md
             - name: Предварительные версии функций Finance and Operations platform update 27 (июнь 2019 г.)
               href: get-started/whats-new-platform-update-27.md
-            - name: Предварительные версии функций Finance and Operations platform update 26 (май 2019 г.)
+            - name: Platform update 26 (май 2019 г.)
               href: get-started/whats-new-platform-update-26.md
             - name: Platform update 25 (апрель 2019 г.)
               href: get-started/whats-new-platform-25.md
@@ -241,7 +245,7 @@
       items:
         - name: Бизнес-события приложения
           href: ../dev-itpro/business-events/app-business-events.md
-        - name: Бизнес-события рабочего процесса
+        - name: Бизнес-события бизнес-правила
           href: ../dev-itpro/business-events/business-events-workflow.md
         - name: Оповещения как бизнес-события
           href: ../dev-itpro/business-events/alerts-business-events.md
@@ -912,7 +916,7 @@
         - name: Управление расходами
           href: ../financials/expense-management/expense-management.md
           items:
-            - name: Повторно сформированные отчеты о расходах
+            - name: Повторно сформированные отчеты по расходам
               href: ../financials/expense-management/ExpenseWorkspaceNew.md
             - name: Планирование управления расходами
               href: ../financials/expense-management/plan-expense-management.md
@@ -920,7 +924,7 @@
               href: ../financials/expense-management/Expense-Management-Parameters.md
             - name: Мобильная рабочая область управления расходами
               href: ../financials/expense-management/expense-management-mobile-workspace.md
-            - name: Настройка workflow-процессов для управления расходами
+            - name: Настройка бизнес-правил для управления расходами
               href: ../financials/expense-management/expense-workflows.md
             - name: Документооборот управления расходами
               href: ../financials/expense-management/expense-workflow.md
@@ -1261,6 +1265,8 @@
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: Создание предварительного бюджета в государственном секторе
                   href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
+                - name: Отчет по анализу бюджета
+                  href: ../financials/public-sector/budget-analysis-report.md
                 - name: Анализ бюджета в государственном секторе
                   href: ../financials/public-sector/budget-analysis-public-sector.md
                 - name: Предварительные бюджеты и распределения в государственном секторе
@@ -1273,7 +1279,7 @@
                   href: ../financials/public-sector/rules-reservation-types.md
                 - name: Ведение резервирований общего бюджета
                   href: ../financials/public-sector/general-budget-reservation-tasks.md
-                - name: Настройка общих резервирований бюджетов и отправка их в рабочий процесс
+                - name: Настройка общих резервирований бюджетов и отправка их в бизнес-правило
                   href: ../financials/public-sector/workflow-general-budget-reservations.md
                 - name: Учет по проекту с общими резервированиями бюджета
                   href: ../financials/public-sector/general-budget-reservations-project-accounting.md
@@ -2277,6 +2283,7 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: Настройка валютных курсов для проводок в валюте
                   href: ../financials/localizations/rus-exchange-difference.md
+                - name: Импорт валютных курсов из ../financials/general-ledger/import-currency-exchange-rates.md ЦБРФ
             - name: Подотчетные лица
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2638,7 +2645,6 @@
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
                 - name: Настройка льгот
                   href: hr/localizations/noam-usa-benefit-set-up-tasks.md
-            - name: Частота и циклы
             - name: Настройка циклов оплаты и платежных периодов
               href: hr/localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md
             - name: Настройка частоты вычисления зарплаты
@@ -2922,6 +2928,8 @@
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
             - name: Разбор входящих документов в формате CSV
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
+            - name: 'Трассировка выполнения форматов электронной отчетности для устранения неполадок, связанных с производительностью'
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
             - name: Разбиение созданных XML-файлов по их размеру и количеству содержимого
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
               items:
@@ -3189,7 +3197,7 @@
     - name: Закупки и источники
       href: ../supply-chain/procurement/procurement-sourcing-overview.md
       items:
-        - name: Workflow-процесс модуля "Закупки и источники"
+        - name: Бизнес-правило модуля "Закупки и источники"
           href: ../supply-chain/procurement/procurement-sourcing-workflows.md
         - name: Каталоги закупаемой продукции
           href: ../supply-chain/procurement/procurement-catalogs.md
@@ -3201,7 +3209,7 @@
         - name: Заявки на покупку
           href: ../supply-chain/procurement/purchase-requisitions-overview.md
           items:
-            - name: Workflow-процесс для заявок на покупку
+            - name: Бизнес-правило для заявок на покупку
               href: ../supply-chain/procurement/purchase-requisitions-workflow.md
         - name: Запросы предложений
           href: ../supply-chain/procurement/request-quotations.md
@@ -3352,11 +3360,11 @@
           items:
             - name: Архитектура системы бизнес-правил
               href: organization-administration/workflow-system-architecture.md
-            - name: Элементы рабочих процессов
+            - name: Элементы бизнес-правила
               href: organization-administration/workflow-elements.md
             - name: Действия бизнес-правила
               href: organization-administration/workflow-actions.md
-            - name: Создание рабочих процессов
+            - name: Создание бизнес-правил
               href: organization-administration/create-workflow.md
               items:
                 - name: Настройка свойств рабочего процесса
@@ -3877,6 +3885,10 @@
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
         - name: Мобильное приложение табеля учета рабочего времени проекта
           href: ../financials/project-management/project-timesheet.md
+        - name: Табели учета рабочего времени проекта на мобильном устройстве
+          href: ../financials/project-management/mobile-timesheets.md
+        - name: Реализация настраиваемых полей для мобильного приложения табеля учета рабочего времени проекта
+          href: ../financials/project-management/custom-fields-mobile.md
     - name: Продажи и маркетинг
       href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:

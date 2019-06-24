@@ -2,11 +2,18 @@
   href: index.md
   items:
     - name: Начало работы
-      href: talent-get-started.md
       items:
+        - name: Начало работы с Talent
+          href: talent-get-started.md
         - name: Что нового и что изменилось в Talent
           href: whats-new.md
           items:
+            - name: 28 мая 2019 г.
+              href: whats-new-talent-may-28-2019.md
+            - name: 21 мая 2019 г.
+              href: whats-new-talent-may-21-2019.md
+            - name: 13 мая 2019 г.
+              href: whats-new-talent-may-13-2019.md
             - name: 6 мая 2019 г.
               href: whats-new-talent-may-6-2019.md
             - name: 30 апреля 2019 г.
@@ -89,33 +96,7 @@
           href: access-preview-feature.md
         - name: Получение поддержки по Talent
           href: talent-support.md
-    - name: 'Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц'
-      href: departments-jobs-positions.md
-      items:
-        - name: Настройка компонентов должности
-          href: create-job.md
-        - name: Создание подразделений и их включение в иерархию подразделений
-          href: create-department-add-department-hierarchy.md
-        - name: Настройка параметров управления персоналом для нескольких юридических лиц
-          href: set-up-hr-parameters-across-legal-entities.md
-        - name: Настройка параметров управления персоналом для конкретной компании
-          href: set-up-company-specific-hr-parameters.md
-        - name: Вопросы и ответы по действиям персонала
-          href: personnel-actions-faq.md
-        - name: Формализация бизнес-процессов
-          href: formalize-business-processes.md
-        - name: Использование workflow-процессов для управления сведениями о сотрудниках
-          href: workflow-manage-employee-information.md
-    - name: Управление отпусками и отсутствиями
-      href: leave-absence-overview.md
-      items:
-        - name: Понятия отпусков и отсутствия
-          href: leave-absence-concepts.md
-        - name: Начисление отгулов на основании отработанных часов
-          href: leave-accrue-hours-worked.md
-        - name: Календари рабочего времени
-          href: working-time-calendars.md
-    - name: Набор персонала для организации
+    - name: Набор персонала для организации с помощью Attract
       items:
         - name: Какая версия Attract?
           href: attract-comprehensive-hiring.md
@@ -123,19 +104,19 @@
           href: attract-overview.md
         - name: Создание шаблона процесса в Attract
           href: Process-templates-Attract.md
-        - name: 'Создание, утверждение и публикация должностей в Attract'
+        - name: 'Создание, утверждение и публикация вакансий в Attract'
           href: Creating-jobs-Attract.md
-        - name: Публикация вакансий на внешних сайтах из Attract
+        - name: Публикация вакансий на внешних сайтах вакансий из Attract
           href: posting-jobs-external.md
-        - name: Поиск кандидатов с кадровыми пулами
+        - name: Поиск кандидатов с помощью кадровых пулов
           href: attract-talent-pools.md
         - name: Поиск ресурсов с помощью LinkedIn Recruiter
           href: attract-linked-in-recruiter.md
-        - name: Действия в процессах найма
+        - name: Мероприятия в процессах найма
           href: activities-attract.md
         - name: Планирование собеседований и обратная связь
           href: interview-scheduling-feedback.md
-        - name: Расширяемость
+        - name: Расширяемость в Attract
           href: extensibility-attract.md
         - name: Функция сайта вакансий в Attract
           href: career-site.md
@@ -157,70 +138,182 @@
           href: source-tracking.md
         - name: Использование аналитических отчетов для аналитики процесса найма
           href: analytic-reports.md
-    - name: Мотивация сотрудников
+    - name: Управление трудовыми ресурсами с помощью Core HR
       items:
-        - name: Планы компенсационных выплат
-          href: compensation-plans.md
-        - name: Создание планов фиксированной компенсации
-          href: create-fixed-compensation-plans.md
-        - name: Создание планов переменной компенсации
-          href: create-variable-compensation-plans.md
-        - name: Обработка компенсации
-          href: process-compensation.md
-        - name: Настройка компонентов должности
-          href: create-job.md
-    - name: Развитие и обучение сотрудников
-      items:
-        - name: Управление производительностью
-          href: performance-management-overview.md
-        - name: Совмещение навыков рабочей силы с потребностями бизнеса
-          href: skills.md
-        - name: Настройка учебных курсов
-          href: courses.md
-    - name: Определение и управление программой льгот
-      items:
-        - name: Определение и управление программой льгот
-          href: manage-benefit-program.md
-        - name: Политики прав на льготы
-          href: benefit-eligibility-policies.md
-        - name: Создание отчетов по закону США о доступном медицинском обслуживании (ACA)
-          href: generate-aca-reports.md
-        - name: 'Управление номенклатурами, сданными в аренду работникам'
-          href: loan-items.md
-    - name: Анкеты
-      href: questionnaires.md
-      items:
-        - name: Разработка анкет
-          href: design-questionnaires.md
-        - name: Распределение и планирование анкет
-          href: distribute-questionnaires.md
-        - name: Просмотр и оценка результатов анкет
-          href: evaluate-questionnaire-results.md
-    - name: Безопасность и соответствие рабочего места (США)
-      items:
-        - name: Ответ на запрос персональных данных в Talent
-          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Проверка сотрудников по форме I-9
-          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Обеспечение соответствия требованиям ADA
-          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Бизнес-аналитика
-      items:
-        - name: Внедренное решение Power BI в рабочих областях
-          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Мобильное приложение
-      items:
-        - name: Мобильные рабочие области
+        - name: Организация трудовых ресурсов
           items:
-            - name: Мобильная рабочая область каталога организации
-              href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Мобильная рабочая область "Моя группа"
-              href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Публикация мобильных рабочих областей
-          href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 'Организация трудовых ресурсов с использованием подразделений, должностей и штатных единиц'
+              href: departments-jobs-positions.md
+            - name: Настройка компонентов должности
+              href: create-job.md
+            - name: Создание подразделений и их включение в иерархию подразделений
+              href: create-department-add-department-hierarchy.md
+            - name: Настройка параметров управления персоналом для нескольких юридических лиц
+              href: set-up-hr-parameters-across-legal-entities.md
+            - name: Настройка параметров управления персоналом для конкретной компании
+              href: set-up-company-specific-hr-parameters.md
+            - name: Вопросы и ответы по действиям персонала
+              href: personnel-actions-faq.md
+            - name: Формализация бизнес-процессов
+              href: formalize-business-processes.md
+            - name: Использование бизнес-правил для управления сведениями о сотрудниках
+              href: workflow-manage-employee-information.md
+            - name: Настройка номерных серий
+              items:
+                - name: Обзор номерной серии
+                  href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Настройка номерных серий на индивидуальной основе
+                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Настройка номерных серий с использованием мастера
+                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Настройка организаций и организационных иерархий
+              items:
+                - name: Обзор организаций
+                  href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Планирование организационной иерархии
+                  href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Создание организационной иерархии
+                  href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Создание юридического лица
+                  href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Создание операционной единицы
+                  href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Настройка глобальной адресной книги
+              items:
+                - name: Обзор глобальной адресной книги
+                  href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: План для глобальной адресной книги и других адресных книг
+                  href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Настройка глобальной адресной книги
+                  href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Вопросы и ответы по адресным книгам
+                  href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Настройка бизнес-правил
+              items:
+                - name: Обзор бизнес-правил
+                  href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Элементы бизнес-правила
+                  href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Действия в процессах утверждения бизнес-правил
+                  href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Создание бизнес-правил
+                  href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  items:
+                    - name: Настройка свойств бизнес-правила
+                      href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: 'Настройка задач, выполняемых вручную'
+                      href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: Настройка автоматизированных задач
+                      href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: Настройка процессов утверждения
+                      href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: Настройка шагов утверждения
+                      href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: 'Настройка решений, принимаемых вручную'
+                      href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: 'Настройка решений, принимаемых по условию'
+                      href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: Настройка параллельных мероприятий
+                      href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: Настройка параллельных ветвей
+                      href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: Настройка бизнес-правил по строке
+                      href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Настройка пакетного задания обработки сообщений
+                  href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Делегирование рабочих элементов в бизнес-правиле
+                  href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Просмотр истории бизнес-правила
+                  href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 'Настройка отправки пользователям сообщений электронной почты, связанных с бизнес-правилом'
+                  href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Настройка оповещений
+              items:
+                - name: Обзор оповещений
+                  href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Создание правил оповещения
+                  href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Пакетная обработка оповещений
+                  href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Управление обращениями
+              items:
+                - name: Обзор управления обращениями
+                  href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 'Планирование безопасности обращений, процессов и категорий'
+                  href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Настройка управления документами
+              href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Настройка и отправка электронной почты
+              href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Данные времени/даты и часовые пояса
+              href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Настройка отпусков и отсутствия
+          items:
+            - name: Управление отпусками и отсутствиями
+              href: leave-absence-overview.md
+            - name: Понятия отпусков и отсутствия
+              href: leave-absence-concepts.md
+            - name: Начисление отгулов на основании отработанных часов
+              href: leave-accrue-hours-worked.md
+            - name: Календари рабочего времени
+              href: working-time-calendars.md
+        - name: Настройка планов компенсационных выплат
+          items:
+            - name: Обзор планов компенсационных выплат
+              href: compensation-plans.md
+            - name: Создание планов фиксированной компенсации
+              href: create-fixed-compensation-plans.md
+            - name: Создание планов переменной компенсации
+              href: create-variable-compensation-plans.md
+            - name: Обработка компенсации
+              href: process-compensation.md
+            - name: Настройка компонентов должности
+              href: create-job.md
+        - name: Развитие и обучение сотрудников
+          items:
+            - name: Управление производительностью
+              href: performance-management-overview.md
+            - name: Совмещение навыков рабочей силы с потребностями бизнеса
+              href: skills.md
+            - name: Настройка учебных курсов
+              href: courses.md
+            - name: Добавление данных в журнал производительности и отправка похвалы другому пользователю
+              href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Создание цели
+              href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Создание оценки производительности
+              href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Определение и управление программой льгот
+          items:
+            - name: Определение и управление программой льгот
+              href: manage-benefit-program.md
+            - name: Политики прав на льготы
+              href: benefit-eligibility-policies.md
+            - name: Создание отчетов по закону США о доступном медицинском обслуживании (ACA)
+              href: generate-aca-reports.md
+            - name: 'Управление номенклатурами, сданными в аренду работникам'
+              href: loan-items.md
+        - name: Оценка ключевых показателей с помощью анкет
+          items:
+            - name: Сбор сведений с помощью анкет
+              href: questionnaires.md
+            - name: Разработка анкет
+              href: design-questionnaires.md
+            - name: Распределение и планирование анкет
+              href: distribute-questionnaires.md
+            - name: Просмотр и оценка результатов анкет
+              href: evaluate-questionnaire-results.md
+        - name: Безопасность и соответствие рабочего места (США)
+          items:
+            - name: Ответ на запрос персональных данных в Talent
+              href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Проверка сотрудников по форме I-9
+              href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Обеспечение соответствия требованиям ADA
+              href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Интеграция
       items:
-        - name: Интегрировать в Dynamics 365 for Finance and Operations
+        - name: Интеграция с Dynamics 365 for Finance and Operations
           href: talent-financeandoperations-integration.md
         - name: Настройка интеграции зарплаты между Talent и Dayforce
           href: configure-payroll-integration.md
@@ -230,119 +323,38 @@
           href: talent-fo-integration.md
         - name: Экспорт повторяющихся данных с помощью Azure Logic Apps
           href: tutorial-integration-recurring-export.md
+        - name: Интеграция с Office
+          items:
+            - name: Учебник по интеграции с Office
+              href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Обновление данных объекта в Excel
+              href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Создание функции открытия в Excel
+              href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Устранение неполадок интеграции с Office
+              href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Расширяемость
       items:
+        - name: Внедренное решение Power BI в рабочих областях
+          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Расширение Talent с помощью PowerApps и Microsoft Flow — примеры сценариев
           href: extensibility-examples.md
+        - name: Мобильное приложение
+          items:
+            - name: Мобильные рабочие области
+              items:
+                - name: Мобильная рабочая область каталога организации
+                  href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Мобильная рабочая область "Моя группа"
+                  href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Публикация мобильных рабочих областей
+              href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Отслеживание изменений в данных набора сотрудников
           href: process-auditing.md
         - name: Расширяемость в Attract
           href: extensibility-attract.md
         - name: Настраиваемые поля в Core HR
           href: corehr-custom-fields.md
-    - name: Интеграция с Office
-      items:
-        - name: Учебник по интеграции с Office
-          href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Обновление данных объекта в Excel
-          href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Создание функции открытия в Excel
-          href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Устранение неполадок интеграции с Office
-          href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Администрирование организации
-      items:
-        - name: Номерные серии
-          href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Настройка номерных серий на индивидуальной основе
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Настройка номерных серий с использованием мастера
-              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Организации и организационные иерархии
-          href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Планирование организационной иерархии
-              href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Создание организационной иерархии
-              href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Создание юридического лица
-              href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Создание операционной единицы
-              href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Глобальная адресная книга
-          href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: План для глобальной адресной книги и других адресных книг
-              href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Настройка глобальной адресной книги
-              href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Вопросы и ответы по адресным книгам
-              href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Рабочий процесс
-          href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Элементы рабочих процессов
-              href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Действия в процессах утверждения рабочего процесса
-              href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Создание рабочих процессов
-              href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-              items:
-                - name: Настройка свойств рабочего процесса
-                  href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 'Настройка задач, выполняемых вручную'
-                  href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Настройка автоматизированных задач
-                  href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Настройка процессов утверждения
-                  href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Настройка шагов утверждения
-                  href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 'Настройка решений, принимаемых вручную'
-                  href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 'Настройка решений, принимаемых по условию'
-                  href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Настройка параллельных мероприятий
-                  href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Настройка параллельных ветвей
-                  href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Настройка бизнес-правил по строке
-                  href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Настройка пакетного задания обработки сообщений
-              href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Делегирование рабочих элементов в бизнес-правиле
-              href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Просмотр истории бизнес-правила
-              href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 'Настройка отправки пользователям сообщений электронной почты, связанных с бизнес-правилом'
-              href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Оповещения
-          href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: Создание правил оповещения
-              href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Пакетная обработка оповещений
-              href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Управление обращениями
-          href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
-          items:
-            - name: 'Планирование безопасности обращений, процессов и категорий'
-              href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Настройка управления документами
-          href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Настройка и отправка электронной почты
-          href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Данные времени/даты и часовые пояса
-          href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Задачи по управлению персоналом
-      items:
-        - name: Добавление данных в журнал производительности и отправка похвалы другому пользователю
-          href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Создание цели
-          href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Создание оценки производительности
-          href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Устранение неполадок в Talent
       items:
         - name: Аналитические отчеты не обновляются

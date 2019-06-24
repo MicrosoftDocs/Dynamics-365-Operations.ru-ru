@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552725"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606903"
 ---
 # <a name="attributes-and-attribute-groups"></a>Атрибуты и группы атрибутов
 
@@ -176,8 +176,8 @@ ms.locfileid: "1552725"
 > [!NOTE]
 > Эта процедура может также использоваться для назначения групп атрибутов категориям в иерархии навигационных категорий канала и иерархии дополнительных категорий продукции. На шаге 2 используйте следующие пути перехода:
 >
-> - **Розничная торговля** &gt; **Управление категориями и продуктами** &gt; **Навигационные категории каналов**
-> - **Розничная торговля** &gt; **Управление категориями и продуктами** &gt; **Дополнительные категории продуктов**.
+> - Розничная торговля &gt; Управление категориями и продуктами &gt; Навигационные категории каналов
+> - Розничная торговля &gt; Управление категориями и продуктами &gt; Дополнительные категории продуктов.
 
 ### <a name="assign-attribute-groups-to-retail-stores"></a>Назначение групп атрибутов розничным магазинам
 

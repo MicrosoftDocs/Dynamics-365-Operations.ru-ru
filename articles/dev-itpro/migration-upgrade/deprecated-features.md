@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить.
 author: sericks007
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 06/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1527679"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620653"
 ---
 # <a name="removed-or-deprecated-features"></a>Удаленные или устаревшие функции
 
@@ -38,8 +38,35 @@ ms.locfileid: "1527679"
 > [!NOTE]
 > Начиная с выпуска Dynamics 365 for Finance and Operations от июля 2017 г. с обновлением платформы 8, типы развертывания указаны для каждой удаленной или устаревшей функции. Все предыдущие выпуски, упоминаемые в этом разделе, поддерживают только облачные развертывания.
 
-> [!NOTE]
 > Подробные сведения об объектах в Finance and Operations можно найти в документе [Технический справочник по отчетам](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+
+### <a name="france-fec-accounting-data-export-in-xml"></a>Франция: экспорт данных учета FEC в формате XML
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Заменено TXT-форматом, **Французский файл аудита FEC** доступен по пути **Главная книга** \> **Периодические задачи** \> **Экспорт данных**.
+| **Заменена другой функцией?**   | Да |
+| **Затрагиваемые области продукта**         | Главная книга |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устарело. Удаление этой функциональной возможности запланировано на июль 2020 г. |
+
+=======
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 с обновлением платформы Platform update 28
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.4 с обновлением платформы Platform update 28 доступно целевой аудитории как часть предварительной версии. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Доступность обновления службы](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-navigation-bar"></a>Устаревшая панель навигации
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Выравнивание заголовка с другими продуктами Dynamics и Office. Дополнительные сведения см. в разделе [Обновленная панель навигации, которая соответствует заголовку Office](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).
+| **Заменена другой функцией?**   | Начиная с обновления платформы Platform update 24 была введена обновленная панель навигации с функциями поиска. |
+| **Затрагиваемые области продукта**         | Веб-клиент |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устарело: начиная с апреля 2020 г. старая панель навигации больше не будет доступна. До этого момента клиенты могут вернуться к старой панели навигации через страницу **Параметры производительности клиента**. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 с обновлением платформы Platform update 26

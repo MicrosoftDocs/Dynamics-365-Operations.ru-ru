@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dd83f3e8b06bae4644dac7e833d79e9efa0cf567
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5385dc25e4a5cfb4d4a93ec63d203324387c6cdd
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538363"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545427"
 ---
 # <a name="daily-operations-for-advance-holders-in-russia"></a>Ежедневные операции по подотчетным лицам в России
 

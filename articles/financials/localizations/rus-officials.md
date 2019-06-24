@@ -16,12 +16,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 36110029d4869ce2cec68a1c4508f777fb4ed1a4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 24f18aa6cbcdb019f321525f57cff15b9a2d2939
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512996"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556254"
 ---
 # <a name="set-up-officials-russia"></a>Настройка должностных лиц (Россия)
 [!include [banner](../includes/banner.md)]

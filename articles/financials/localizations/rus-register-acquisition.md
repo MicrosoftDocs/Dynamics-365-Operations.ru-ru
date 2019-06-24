@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 11df78a25acd846c3c8443e0b02c53d7cff97dbe
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 25630ed9567568006674cb6b8fc046176039e91d
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512994"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556253"
 ---
 # <a name="register-fixed-assets-acquisitions-russia"></a>Регистрация приобретений основных средств (Россия)
 

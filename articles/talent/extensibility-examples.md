@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518912"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577803"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Расширение Talent с помощью PowerApps и Microsoft Flow — примеры сценариев
 
@@ -115,7 +115,7 @@ ms.locfileid: "1518912"
 
 В этом приложении PowerApps используются отношения "многие ко многим", поэтому его можно использовать в качестве шаблона для других сценариев, в которых необходимо извлечь записи, имеющие отношения "многие ко многим".
 
-Чтобы загрузить шаблон **Консоль администрирования для управления кадровыми пулами**, перейдите в [Консоль администрирования для управления кадровыми пулами](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) в центре загрузки Майкрософт.
+Чтобы загрузить шаблон **Консоль администрирования для управления кадровыми пулами**, перейдите в [Консоль администрирования для управления кадровыми пулами](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) в центре загрузки Майкрософт.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

@@ -3,7 +3,7 @@ title: Финансовая отчетность
 description: В этом разделе описывается доступ к финансовой отчетности в Microsoft Dynamics 365 for Finance and Operations и использование возможностей финансовой отчетности. Он включает в себя описание финансовых отчетов по умолчанию, которые предоставляются.
 author: aprilolson
 manager: AnnBe
-ms.date: 09/26/2018
+ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
+ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550313"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594968"
 ---
 # <a name="financial-reporting"></a>Финансовая отчетность
 
@@ -64,7 +64,7 @@ ms.locfileid: "1550313"
 
 | Метка привилегии                       | Описание                                                             | Имя AOT                         |
 |---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
-| Сохранение безопасности финансовой отчетности | Сохранение безопасности финансовой отчетности и выполнение административных задач. | FinancialReportsSecurityMaintain |
+| Сохранение безопасности финансовой отчетности | Сохранение безопасности финансовой отчетности и выполнение административных задач. | FinancialReportsSecuritySystemMaintain |
 | Ведение финансовых отчетов            | Разработка и ведение финансовых отчетов.                                  | FinancialReportsMaintainReports  |
 | Создание финансовых отчетов            | Создание и обновление финансовых отчетов.                                 | FinancialReportsGenerateReports  |
 | Просмотр финансовых отчетов                | Просмотр финансовых отчетов.                                                 | FinancialReportsView             |

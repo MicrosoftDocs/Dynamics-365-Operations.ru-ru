@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4832a056a99e0f7521e022982b7db7b16d7064a3
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562006"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595501"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Требования к определению параметров оборудования для локальных сред
 
@@ -99,7 +99,7 @@ ms.locfileid: "1562006"
 
 Сведения об определении параметров AD FS см. в [документации по планированию мощности AD FS сервера](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
-[Электронная таблица определения параметров](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) доступна для планирования числа экземпляров в развертывании.
+[Электронная таблица определения параметров](https://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) доступна для планирования числа экземпляров в развертывании.
 
 ## <a name="aos-online-and-batch"></a>AOS (Online и пакет)
 

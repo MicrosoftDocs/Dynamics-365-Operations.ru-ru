@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c26011bb8ff094fa7c1407177662f5cfff0af115
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0cf2c996f60c412034d18ffd5435407aacad980c
+ms.sourcegitcommit: c3047d55b286daf1a0af0f8d2b5f7ab3ee1ed03b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538338"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592569"
 ---
 # <a name="russia"></a>Россия
 
@@ -33,6 +33,7 @@ ms.locfileid: "1538338"
 - [Корреспонденция счетов](rus-correspondence-accounts.md)
 - [Предварительный просмотр проводок ГК](rus-ledger-transactions-preview.md)
 - [Настройка валютных курсов для проводок в валюте](rus-exchange-difference.md)
+- [Импорт курсов обмена валют из ЦБРФ](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/general-ledger/import-currency-exchange-rates)
 
 ## <a name="advance-holders"></a>Подотчетные лица
 

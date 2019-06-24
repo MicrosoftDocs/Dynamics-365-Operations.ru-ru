@@ -18,12 +18,12 @@ ms.search.region: Russia
 ms.author: ilkond
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: de2e06613c4f3e66a355b20f23b43db9e369b44e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d4feb7eab0839ce44e6d431fa72f90d32d2c8107
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538354"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550269"
 ---
 # <a name="revaluate-foreign-currency-for-advance-holders-russia"></a>Переоценка в иностранной валюте для подотчетных лиц (Россия)
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a34ae8084c0ad55221f4ab93eb8c6481fa8c4771
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558581"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606764"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Настройка номиналов денежных знаков для терминала POS
 
@@ -34,17 +34,17 @@ ms.locfileid: "1558581"
 
 ## <a name="define-denominations"></a>Определение номиналов
 
-Номиналы настраиваются для каждого магазина на странице **Настроить** \> **Декларирование наличности в свойствах магазина**.
+Номиналы настраиваются для каждого магазина на странице **Настроить** \> **Декларирование наличности** в свойствах магазина.
 
-![номиналы валюты](./media/image1-denomination.png)
+![Параметр декларирования наличности](./media/image1-denomination.png)
 
 Чтобы определить номинал:
 
-1. Нажмите **Создать**.
+1. Нажмите кнопку **Создать**.
 1. Укажите тип (монета или банкнота).
 1. Укажите сумму (значение).
 
-![номиналы валюты](./media/image2-denomination.png)
+![Страница декларирования наличности по номиналам](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Настройка профиля функциональности
 

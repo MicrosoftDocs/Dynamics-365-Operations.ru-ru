@@ -16,12 +16,12 @@ ms.search.region: Russia
 ms.author: Anasyash
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4444213d30891573f179fcf620eb322f45448fae
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c82de977ce3e23b77c0a56a5efbbac1da6696d52
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538335"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565090"
 ---
 # <a name="fixed-asset-currency-revaluation"></a>Переоценка ОС в иностранной валюте
 
