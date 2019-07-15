@@ -997,6 +997,8 @@
               href: deployment/deploy-retail-onprem.md
         - name: Разработка и развертывание пользовательских моделей в локальных средах
           href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: Интеграция PowerBI.com с локальными средами
+          href: analytics/entity-store-on-prem.md
         - name: Настройка обратных прокси-серверов для локальных сред
           href: deployment/onprem-reverseproxy.md
         - name: Применение обновлений к локальному развертыванию
@@ -1013,6 +1015,8 @@
           href: user-interface/client-disconnected.md
         - name: Устранение неполадок локальных развертываний
           href: deployment/troubleshoot-on-prem.md
+        - name: Ротация сертификатов
+          href: deployment/certificate-rotation-on-prem.md
     - name: Развертывание пользовательского кода
       items:
         - name: Создание готовых к развертыванию пакетов моделей
