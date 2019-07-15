@@ -4,7 +4,7 @@
   items:
     - name: Что нового и что изменилось
       href: get-started/whats-new.md
-    - name: Предварительные версии функций Dynamics 365 for Retail 10.0.3
+    - name: Что нового и что изменилось в Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
     - name: Что нового и что изменилось в Dynamics 365 for Retail 10.0.2
       href: get-started/whats-new-10-0-2.md
@@ -407,6 +407,10 @@
       items:
         - name: Пример интеграции фискальных принтеров для Италии
           href: localizations/emea-ita-fpi-sample.md
+    - name: Мексика
+      items:
+        - name: Глобальные электронные накладные CFDI для Мексики
+          href: ../financials/localizations/latam-mex-global-cfdi-3-3.md
     - name: Норвегия
       items:
         - name: Функциональность контрольно-кассовой машины
