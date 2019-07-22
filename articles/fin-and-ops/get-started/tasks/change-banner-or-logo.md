@@ -3,7 +3,7 @@ title: Изменение баннера или эмблемы
 description: Следующая процедура перечисляет этапы, которые системные администраторы могут использовать для обновления изображения баннера или логотипа, отображаемого для юридического лица.
 author: aneesmsft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,27 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed0a4e31e840f771f1620b42518ed0e03dbad151
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 78300008ac819f8ba82212f7aecaa73246ab774d
+ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561792"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711162"
 ---
-# <a name="change-the-banner-or-logo"></a><span data-ttu-id="4ad3a-103">Изменение баннера или эмблемы</span><span class="sxs-lookup"><span data-stu-id="4ad3a-103">Change the banner or logo</span></span>
+# <a name="change-the-banner-or-logo"></a><span data-ttu-id="cde29-103">Изменение баннера или эмблемы</span><span class="sxs-lookup"><span data-stu-id="cde29-103">Change the banner or logo</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="4ad3a-104">Следующая процедура перечисляет этапы, которые системные администраторы могут использовать для обновления изображения баннера или логотипа, отображаемого для юридического лица.</span><span class="sxs-lookup"><span data-stu-id="4ad3a-104">The following procedure lists the steps that system administrators can use to update the banner or logo image that is displayed for a legal entity.</span></span> <span data-ttu-id="4ad3a-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="4ad3a-105">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="cde29-104">Следующая процедура перечисляет этапы, которые системные администраторы могут использовать для обновления изображения баннера или логотипа, отображаемого для юридического лица.</span><span class="sxs-lookup"><span data-stu-id="cde29-104">The following procedure lists the steps that system administrators can use to update the banner or logo image that is displayed for a legal entity.</span></span> <span data-ttu-id="cde29-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="cde29-105">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="4ad3a-106">Перейдите в раздел "Управление организацией" > "Организации" > "Юридические лица".</span><span class="sxs-lookup"><span data-stu-id="4ad3a-106">Go to Organization administration > Organizations > Legal entities.</span></span>
-2. <span data-ttu-id="4ad3a-107">В списке в верхнем левом углу выберите юридическое лицо, для которого необходимо обновить баннер или эмблему.</span><span class="sxs-lookup"><span data-stu-id="4ad3a-107">In the list on the left, select the legal entity for which you want to update the banner or logo.</span></span> <span data-ttu-id="4ad3a-108">Если оно уже выбрано, перейдите к следующему шагу.</span><span class="sxs-lookup"><span data-stu-id="4ad3a-108">If it is already selected, go to the next step.</span></span>
-3. <span data-ttu-id="4ad3a-109">Разверните раздел "Изображения".</span><span class="sxs-lookup"><span data-stu-id="4ad3a-109">Expand the Images section.</span></span> <span data-ttu-id="4ad3a-110">Если он уже развернут, перейдите к следующему шагу.</span><span class="sxs-lookup"><span data-stu-id="4ad3a-110">If it is already expanded, go to the next step.</span></span>
-4. <span data-ttu-id="4ad3a-111">Выберите Изменить.</span><span class="sxs-lookup"><span data-stu-id="4ad3a-111">Click Edit.</span></span>
-5. <span data-ttu-id="4ad3a-112">В поле "Тип изображения компании на панели мониторинга" выберите "Баннер".</span><span class="sxs-lookup"><span data-stu-id="4ad3a-112">In the Dashboard company image type field, select 'Banner'.</span></span>
-6. <span data-ttu-id="4ad3a-113">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="4ad3a-113">Click Change.</span></span>
-    * <span data-ttu-id="4ad3a-114">Совет: идеальное разрешение изображения баннера составляет 1920 x 281 пикселей.</span><span class="sxs-lookup"><span data-stu-id="4ad3a-114">Tip: The ideal resolution for a banner image is 1920 x 281 pixels.</span></span> <span data-ttu-id="4ad3a-115">Идеальная ширина изображения баннера составляет 350 пикселей.</span><span class="sxs-lookup"><span data-stu-id="4ad3a-115">The ideal width for a logo image is 350 pixels.</span></span>  
-    * <span data-ttu-id="4ad3a-116">После завершения отправки вы должны видеть новый баннер и изображение эмблемы в разделе "Изображение на панели мониторинга".</span><span class="sxs-lookup"><span data-stu-id="4ad3a-116">When the upload is complete, you should see your new banner or logo image in the Dashboard Image section.</span></span>  
-7. <span data-ttu-id="4ad3a-117">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="4ad3a-117">Click Save.</span></span>
-8. <span data-ttu-id="4ad3a-118">Перейдите в раздел "Общее" > "Общее" > "Панель мониторинга по умолчанию".</span><span class="sxs-lookup"><span data-stu-id="4ad3a-118">Go to Common > Common > Default dashboard.</span></span>
-    * <span data-ttu-id="4ad3a-119">Вы должны видеть новый баннер и изображение эмблемы на панели мониторинга.</span><span class="sxs-lookup"><span data-stu-id="4ad3a-119">You should see the new banner or logo image on the dashboard.</span></span>  
-    * <span data-ttu-id="4ad3a-120">Вам может потребоваться изменить свою компанию, используя элемент управления выбора компании, на ту, для которой вы загрузили баннер.</span><span class="sxs-lookup"><span data-stu-id="4ad3a-120">You may need to change your company, using the company picker, to the one you uploaded the banner for.</span></span>  
-
+1. <span data-ttu-id="cde29-106">Перейдите в раздел **Область переходов > Модули > Управление организацией > Организации > Юридические лица**.</span><span class="sxs-lookup"><span data-stu-id="cde29-106">Go to **Navigation pane > Modules > Organization administration > Organizations > Legal entities**.</span></span>
+2. <span data-ttu-id="cde29-107">В списке в верхнем левом углу выберите юридическое лицо, для которого необходимо обновить баннер или эмблему.</span><span class="sxs-lookup"><span data-stu-id="cde29-107">In the list on the left, select the legal entity for which you want to update the banner or logo.</span></span> <span data-ttu-id="cde29-108">Если оно уже выбрано, перейдите к следующему шагу.</span><span class="sxs-lookup"><span data-stu-id="cde29-108">If it is already selected, go to the next step.</span></span>
+3. <span data-ttu-id="cde29-109">Разверните вкладку **Изображение на панели мониторинга**.</span><span class="sxs-lookup"><span data-stu-id="cde29-109">Expand **Dashboard image** tab.</span></span>
+4. <span data-ttu-id="cde29-110">Выберите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="cde29-110">Select **Change**.</span></span>
+    
+    <span data-ttu-id="cde29-111">Идеальное разрешение изображения баннера составляет 1920 x 281 пикселей.</span><span class="sxs-lookup"><span data-stu-id="cde29-111">The ideal resolution for a banner image is 1920 x 281 pixels.</span></span> <span data-ttu-id="cde29-112">Идеальная ширина изображения баннера составляет 350 пикселей.</span><span class="sxs-lookup"><span data-stu-id="cde29-112">The ideal width for a logo image is 350 pixels.</span></span>
+    
+5. <span data-ttu-id="cde29-113">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="cde29-113">Select **Save**.</span></span>
+6. <span data-ttu-id="cde29-114">Перейдите в раздел **Область переходов > Модули > Общие > Общая > Панель мониторинга по умолчанию**.</span><span class="sxs-lookup"><span data-stu-id="cde29-114">Go to **Navigation pane > Modules > Common > Common > Default dashboard**.</span></span> <span data-ttu-id="cde29-115">Вы должны видеть новый баннер и изображение эмблемы на панели мониторинга.</span><span class="sxs-lookup"><span data-stu-id="cde29-115">You should see the new banner or logo image on the dashboard.</span></span>  
+    
+    <span data-ttu-id="cde29-116">Вам может потребоваться изменить свою компанию, используя элемент управления выбора компании, на ту, для которой вы загрузили баннер.</span><span class="sxs-lookup"><span data-stu-id="cde29-116">You may need to change your company, using the company picker, to the one you uploaded the banner for.</span></span>  

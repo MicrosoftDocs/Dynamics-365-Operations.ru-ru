@@ -1,0 +1,56 @@
+---
+title: Использование относительного пути в привязках данных для моделей и форматов электронной отчетности
+description: .
+author: NickSelin
+manager: AnnBe
+ms.date: 07/03/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: ERSolutionTable , ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
+audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.search.region: global
+ms.author: nselin
+ms.search.validFrom: ''
+ms.dyn365.ops.version: ''
+ms.openlocfilehash: 6582cca9b912868f88de2770a17cbb6e67328660
+ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "1726560"
+---
+# <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a><span data-ttu-id="ffeba-103">Использование относительного пути в привязках данных для моделей и форматов электронной отчетности</span><span class="sxs-lookup"><span data-stu-id="ffeba-103">Use a relative path in data bindings of ER models and formats</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+<span data-ttu-id="ffeba-104">Средство электронной отчетности (ER) позволяет пользователям определять структуры электронных форматов, а затем описывать способы заполнения этих структур, используя данные и алгоритмы, существующие в Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ffeba-104">The Electronic reporting (ER) tool lets users define electronic format structures and then describe how those structures should be filled by using data and algorithms that exist in Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="ffeba-105">Дополнительные сведения см. в разделе [Создание конфигураций электронной отчетности (ER)](electronic-reporting-configuration.md).</span><span class="sxs-lookup"><span data-stu-id="ffeba-105">For more information, see [Create Electronic reporting (ER) configurations](electronic-reporting-configuration.md).</span></span> <span data-ttu-id="ffeba-106">Чтобы указать поток данных для извлечения данных Finance and Operations и их использования для создания электронного документа, необходимо выполнить следующие действия:</span><span class="sxs-lookup"><span data-stu-id="ffeba-106">To specify the data flow for retrieving Finance and Operations data and using it to generate  an electronic document, you need to do the following:</span></span>
+
+- <span data-ttu-id="ffeba-107">Привяжите настроенные источники данных к элементам спроектированной доменной модели данных.</span><span class="sxs-lookup"><span data-stu-id="ffeba-107">Bind configured data sources to elements of the designed domain-specific data model.</span></span> <span data-ttu-id="ffeba-108">Структура модели и выбранные источники данных могут быть частью сложной иерархической структуры.</span><span class="sxs-lookup"><span data-stu-id="ffeba-108">The model structure and selected data sources might be part of a complex hierarchical structure.</span></span> <span data-ttu-id="ffeba-109">В связи с этим окончательные привязки могут быть довольно большими и содержать множество элементов различных типов (например, отношения, таблицы и методы).</span><span class="sxs-lookup"><span data-stu-id="ffeba-109">Because of this, final bindings can be quite large and contain many elements of different types (for example, relations, tables, and methods,).</span></span> <span data-ttu-id="ffeba-110">Привязки могут быть менее удобочитаемыми и довольно сложными для проверки и понимания, особенно для не владельцев.</span><span class="sxs-lookup"><span data-stu-id="ffeba-110">The bindings can become less readable and quite complex to review and understand, especially for non-owners.</span></span> 
+- <span data-ttu-id="ffeba-111">Свяжите элементы модели данных с компонентами формата, чтобы определить, какие данные будут заполнены из модели данных в сформированных выходных данных формата.</span><span class="sxs-lookup"><span data-stu-id="ffeba-111">Bind data model elements with format components to define what data will be populated from the data model to the generated format’s output.</span></span>
+
+<span data-ttu-id="ffeba-112">Чтобы повысить удобство использования конструкторов сопоставления ER, выпущена функция относительных путей.</span><span class="sxs-lookup"><span data-stu-id="ffeba-112">To improve usability of ER mapping designers, the relative path feature has been released.</span></span> <span data-ttu-id="ffeba-113">По умолчанию параметр представление относительного пути включен для любого нового экземпляра Finance and Operations, в котором используется разработка ER (Microsoft Dynamics 365 for Finance and Operations, служба Microsoft Regulatory Configuration Service).</span><span class="sxs-lookup"><span data-stu-id="ffeba-113">By default, the relative path representation option is turned on for any new instance of Finance and Operations where ER design experience is enabled (Microsoft Dynamics 365 for Finance and operations, Microsoft Regulatory Configuration Service).</span></span> <span data-ttu-id="ffeba-114">Мы реализовали параметр относительного пути, чтобы пользователи могли продолжать использовать полный путь при работе с этой презентацией привязок электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="ffeba-114">We implemented the relative path parameter so that users can keep using the full path when work with this presentation of ER bindings.</span></span>
+
+<span data-ttu-id="ffeba-115">[![Параметры пользователя](./media/relative-path-01.png)](./media/relative-path-01.png)</span><span class="sxs-lookup"><span data-stu-id="ffeba-115">[![User parameters](./media/relative-path-01.png)](./media/relative-path-01.png)</span></span>
+
+ 
+<span data-ttu-id="ffeba-116">Когда параметр использования относительного пути включен, один символ @ заменяет путь к родительскому элементу в привязке текущего элемента модели.</span><span class="sxs-lookup"><span data-stu-id="ffeba-116">When the relative path usage parameter is turned on, a single @ character replaces the path to the parent item in the binding of the current model element.</span></span> <span data-ttu-id="ffeba-117">Полный путь привязки становится короче, что делает все сопоставление более очевидным и понятным.</span><span class="sxs-lookup"><span data-stu-id="ffeba-117">The entire binding path becomes shorter, which makes the entire mapping more obvious and easier to understand.</span></span> <span data-ttu-id="ffeba-118">В большинстве случаев в конструкторе ER не требуется дополнительной прокрутки для просмотра всех привязок модели данных.</span><span class="sxs-lookup"><span data-stu-id="ffeba-118">In most cases, no additional scrolling is required in the ER designer to view all the bindings of the data model.</span></span>
+
+<span data-ttu-id="ffeba-119">[![Конструктор сопоставлений моделей](./media/relative-path-02.png)](./media/relative-path-02.png)</span><span class="sxs-lookup"><span data-stu-id="ffeba-119">[![Model mapping designer](./media/relative-path-02.png)](./media/relative-path-02.png)</span></span>
+ 
+<span data-ttu-id="ffeba-120">После начала разработки нового выражения ER необходимо ввести только один символ, чтобы определить привязку к полю родительского элемента.</span><span class="sxs-lookup"><span data-stu-id="ffeba-120">When you start designing a new ER expression, you need to enter only one character to define a binding to a field of the parent item.</span></span>
+
+<span data-ttu-id="ffeba-121">[![Конструктор формул](./media/relative-path-03.png)](./media/relative-path-03.png)</span><span class="sxs-lookup"><span data-stu-id="ffeba-121">[![Formula designer](./media/relative-path-03.png)](./media/relative-path-03.png)</span></span>
+ 
+<span data-ttu-id="ffeba-122">При изменении источника данных родительского элемента модели с использованием абсолютного пути необходимо вручную выполнить повторную привязку этого элемента модели, а также всех вложенных элементов, к новому источнику данных.</span><span class="sxs-lookup"><span data-stu-id="ffeba-122">When you decide to change the data source of the parent model item, with absolute path usage, you have to manually rebind this model item, as well as all nested items, to a new data source.</span></span> <span data-ttu-id="ffeba-123">Если параметр относительного пути включен и выбран новый источник данных, который должен быть привязан к родительскому элементу, предлагается возможность автоматически повторно выполнить привязку всех вложенных элементов этого родительского элемента одним щелчком мыши.</span><span class="sxs-lookup"><span data-stu-id="ffeba-123">When relative path usage is turned on, and you select a new data source to be bound to a parent item, you are offered an option to automatically rebind all nested elements of this parent item with one click.</span></span>
+
+<span data-ttu-id="ffeba-124">[![Сообщение о замене существующего пути](./media/relative-path-04.png)](./media/relative-path-04.png)</span><span class="sxs-lookup"><span data-stu-id="ffeba-124">[![Replace existing path message](./media/relative-path-04.png)](./media/relative-path-04.png)</span></span>
+ 
+<span data-ttu-id="ffeba-125">Если вы подтвердите повторную привязку вложенных элементов, новый родительский элемент будет помещен в путь к каждому вложенному элементу, содержащему существующий родительский элемент.</span><span class="sxs-lookup"><span data-stu-id="ffeba-125">If you confirm rebinding of nested items, the new parent item will be placed to the path of each nested item containing the existing parent item.</span></span>
+<span data-ttu-id="ffeba-126">Эта функция не нарушает обратную совместимость среды электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="ffeba-126">This feature does not break the backward compatibility of the ER framework.</span></span> <span data-ttu-id="ffeba-127">Все ранее созданные конфигурации электронной отчетности будут работать с этой новой функцией, а обновления или преобразования не требуются.</span><span class="sxs-lookup"><span data-stu-id="ffeba-127">All previously designed ER configurations will work with this new feature, and no upgrades or conversions are required.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="ffeba-128">Все изменения, введенные в результате массового изменения привязок вложенных элементов в сопоставлениях моделей, правильно сохраняются в виде разностной конфигурации (трассировка изменений).</span><span class="sxs-lookup"><span data-stu-id="ffeba-128">All changes that are introduced by mass modification of bindings of nested elements in model mappings are correctly saved in a configuration delta (trace of changes).</span></span> <span data-ttu-id="ffeba-129">Это позволяет пользователям изменять основу производной версии сопоставлений моделей на любую новую базовую версию, которая была изменена с помощью этой новой функции.</span><span class="sxs-lookup"><span data-stu-id="ffeba-129">This allows customers to rebase their derived version of model mappings to any new base version of it that has been modified by using this new feature.</span></span>
