@@ -3,7 +3,7 @@ title: Домашняя страница локальных развертыва
 description: В этой теме представлены сведения и ссылки на содержимое о локальных развертываниях.
 author: kfend
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 01e29bb56f03223ff90343186a2e4cf3de13a27d
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550960"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702731"
 ---
 # <a name="on-premises-deployments-home-page"></a>Домашняя страница локальных развертываний
 
@@ -67,6 +67,7 @@ ms.locfileid: "1550960"
 
 ## <a name="other-resources"></a>Другие ресурсы
 - [Устранение неполадок локальных развертываний](troubleshoot-on-prem.md)
+- [Ротация сертификатов](certificate-rotation-on-prem.md)
 - [Локальная диагностика](on-premises-diagnostics.md)
 - [Функции, не реализованные в локальных развертываниях](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Удаленные или устаревшие функции](../migration-upgrade/deprecated-features.md)

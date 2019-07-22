@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить.
 author: sericks007
 manager: AnnBe
-ms.date: 06/05/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620653"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624915"
 ---
 # <a name="removed-or-deprecated-features"></a>Удаленные или устаревшие функции
 
@@ -40,7 +40,10 @@ ms.locfileid: "1620653"
 
 > Подробные сведения об объектах в Finance and Operations можно найти в документе [Технический справочник по отчетам](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии Finance and Operations.
 
-## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 с обновлением платформы Platform update 28
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.4 с обновлением платформы Platform update 28 доступно целевой аудитории как часть предварительной версии. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Доступность обновления службы](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Франция: экспорт данных учета FEC в формате XML
 
@@ -52,17 +55,12 @@ ms.locfileid: "1620653"
 | **Вариант развертывания**              | Все |
 | **Состояние**                         | Устарело. Удаление этой функциональной возможности запланировано на июль 2020 г. |
 
-=======
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 с обновлением платформы Platform update 28
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 с обновлением платформы Platform update 28 доступно целевой аудитории как часть предварительной версии. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Доступность обновления службы](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-navigation-bar"></a>Устаревшая панель навигации
 
 |   |  |
 |------------|--------------------|
-| **Причина устаревания/удаления** | Выравнивание заголовка с другими продуктами Dynamics и Office. Дополнительные сведения см. в разделе [Обновленная панель навигации, которая соответствует заголовку Office](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).
+| **Причина устаревания/удаления** | Выравнивание заголовка с другими продуктами Dynamics и Office. Дополнительные сведения см. в разделе [Обновленная панель навигации, которая соответствует заголовку Office](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Заменена другой функцией?**   | Начиная с обновления платформы Platform update 24 была введена обновленная панель навигации с функциями поиска. |
 | **Затрагиваемые области продукта**         | Веб-клиент |
 | **Вариант развертывания**              | Все |
@@ -71,8 +69,6 @@ ms.locfileid: "1620653"
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 с обновлением платформы Platform update 26
 
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.2 с обновлением платформы Platform update 26 доступно целевой аудитории как часть предварительной версии. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Доступность обновления службы](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-default-action-behavior"></a>Устаревшие поведение действий по умолчанию
 
@@ -116,9 +112,6 @@ ms.locfileid: "1620653"
 | **Состояние**                         | Устаревшие: удаление этой функциональной возможности запланировано на апрель 2020 г. |
 
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 с обновлением платформы 25
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.1 с обновлением платформы Platform update 25 доступно целевой аудитории как часть предварительной версии. Содержимое и функциональность могут быть изменены. Дополнительные сведения о предварительных выпусках см. в разделе [Доступность обновления службы](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Устаревшие API-интерфейсы и возможные критические изменения
 

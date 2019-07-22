@@ -3,7 +3,7 @@ title: Нормативные обновления
 description: В этом разделе представлен список запланированных и выпущенных нормативных обновлений для Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/16/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
-ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
+ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593351"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624319"
 ---
 # <a name="regulatory-updates"></a>Нормативные обновления
 
@@ -66,6 +66,13 @@ ms.locfileid: "1593351"
 |      Ожидание            |   10.0.3      | Польша     |   Накладные SAF (JPK_FA) v.2 от 1 июля 2019 г.  |
 |      Ожидание            |   10.0.3      | Бразилия   |   Корректировки финансовых документов ICMS включают таблицу 5.2   |
 |      Ожидание            |   10.0.3      | Бразилия    |   Декрет NF-e 54.308/18 (RS)   |
+  | Ожидание            |   10.0.4      | Бразилия    |   Входящий фискальный документ 66   |
+   | Ожидание            |   10.0.4      | Бразилия    |   NF-e и NFC-e — Резолюция 13/2019 и Предписание SUCIEF 55/2019- RJ — новые условия для меток освобождения в NF-e.   |
+   | Ожидание            |   10.0.4      | Индия   |   Отображается "Место поставки" и "Штат" в накладной налога GST  |
+   | Ожидание            |   10.0.4      | Мексика   |  Декларация DIOT для третьей стороны — изменения в макете 2019   |
+   | Ожидание            |   10.0.4      | Бразилия    |   NF-e ICMS-ST — предписание CAT 42/18 для штата SP - CAT 42/18
+   | Ожидание            |   10.0.4      | Бразилия    |   Декрет NF-e 54.308/18 - RS NF   |
+   
 
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы

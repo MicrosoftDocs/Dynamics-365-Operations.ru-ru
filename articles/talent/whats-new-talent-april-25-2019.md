@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 13cfe68e3d06001c56770fa60838404c43d0b38d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518908"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624589"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>Что нового или что изменилось в Dynamics 365 for Talent (23 апреля 2019 г.)
 
@@ -46,7 +46,7 @@ ms.locfileid: "1518908"
 ### <a name="additional-odata-entities-302992"></a>Дополнительные сущности OData (302992)
 Следующие сущности теперь поддерживаются в OData: опыт работы работника и образование работника.
    
-### <a name="performance-journal-attachments-for-nanagers-and-employees-308248"></a>Вложения журналов производительности для менеджеров и сотрудников (308248)
+### <a name="performance-journal-attachments-for-managers-and-employees-308248"></a>Вложения журналов производительности для менеджеров и сотрудников (308248)
 В этом выпуске версии вложения теперь доступны для руководителей и сотрудников при создании и обновлении записей журнала производительности.
 
 ### <a name="employee-rehire-flag-always-available-310047"></a>Всегда доступен флаг повторного приема сотрудника на работу (310047)

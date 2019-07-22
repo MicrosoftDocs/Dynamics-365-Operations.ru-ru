@@ -3,7 +3,7 @@ title: Настройка интеграции зарплаты между Talen
 description: В этом разделе объясняется, как настроить интеграцию между Microsoft Dynamics 365 for Talent и Ceridian Dayforce таким образом, чтобы вы могли обработать период оплаты.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/26/2019
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518890"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702826"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Настройка интеграции зарплаты между Talent и Dayforce
 
@@ -54,6 +54,16 @@ ms.locfileid: "1518890"
 
 - [Об учетных записях хранилища Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Настройка строки подключения хранилища Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+
+### <a name="technical-details-when-payroll-integration-is-enabled"></a>Технические сведения о включении интеграции зарплаты
+
+Включение интеграции зарплаты имеет два основных эффекта:
+
+- Будет создан проект экспорта данных с именем "Экспорт интеграции зарплаты". Этот проект содержит сущности и поля, необходимые для интеграции зарплаты. Чтобы проверить этот проект, перейдите в раздел **Администрирование системы**, выберите плитку **Управление данными**, затем откройте проект данных из списка проектов.
+- Это пакетное задание выполняет проект экспорта данных, шифрует получившийся пакет данных и передает файл пакета данных на конечную точку SFTP, настроенную на экране **Конфигурация интеграции**.
+
+> [!NOTE]
+> Пакет данных, переданный в конечную точку SFTP, шифруется с помощью уникального для пакета ключа. Ключ находится в хранилище ключей Azure Key Vault, доступном только для по Ceridian. Невозможно расшифровать и проверить содержимое пакета данных. Если необходимо изучить содержимое пакета данных, необходимо экспортировать проект данных "Экспорт интеграции зарплаты" вручную, загрузить его и затем открыть. При экспорте вручную шифрование или передача пакетов не применяются.
 
 ## <a name="configure-your-data"></a>Настройка данных 
 

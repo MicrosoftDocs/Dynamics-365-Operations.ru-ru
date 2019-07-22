@@ -3,7 +3,7 @@ title: Планирование операций
 description: В данном разделе содержится общая информация о планировании операций. Планирование операций можно использовать, чтобы получить общую оценку производственного процесса по времени.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 298c07346427a949ffa544e66eb6b01995dadc38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9447474e0878077659a80dc49f7c7c1313db2cbe
+ms.sourcegitcommit: 8741b4b32ef32a54de3d064bf40a9c0179d4139a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560275"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691470"
 ---
 # <a name="operations-scheduling"></a>Планирование операций
 
@@ -67,6 +67,9 @@ ms.locfileid: "1560275"
 -   **Незавершенные производства** – продукты, которые запланированы или запущены в производство
 -   **Доступность материалов** – запасы, вспомогательные производства и поставщики
 -   **Доступность мощностей** – ресурсы, необходимые для производства
+
+> [!NOTE]
+> При использовании многопоточного сводного планирования и планирования операций ограничение по мощности не будет учитываться. 
 
 ## <a name="cancellations"></a>Отмена
 При планировании операций вы можете отменить определенные части маршрута производства. К таким частям относятся время ожидания, настройки, обработки, перекрытия и транспортировки.
