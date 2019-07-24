@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0cf2c996f60c412034d18ffd5435407aacad980c
-ms.sourcegitcommit: c3047d55b286daf1a0af0f8d2b5f7ab3ee1ed03b
+ms.openlocfilehash: 6c6b798c1b348d7e59c578400ceed4022b3af96f
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592569"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625631"
 ---
 # <a name="russia"></a>Россия
 
@@ -86,6 +86,8 @@ ms.locfileid: "1592569"
 - [Настройка финансовых отчетов в Excel](rus-excel-financial-report.md)
 - [Учет отчетности в электронном формате](rus-accounting-reporting.md)
 - [Декларация налога на имущество](rus-assessed-tax-declaration.md)
+- [Декларация по транспортному налогу](rus-transport-tax-declaration.md)
+- [Декларация по земельному налогу](rus-land-tax-declaration.md)
 
 ## <a name="organization-administration"></a>Администрирование организации
 

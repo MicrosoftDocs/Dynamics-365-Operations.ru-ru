@@ -44,9 +44,9 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 'Функции, не реализованные в локальных развертываниях'
               href: get-started/features-not-implemented-on-prem.md
-            - name: Предварительные версии функций Finance and Operations версии 10.0.4 (июль 2019 г.)
+            - name: Finance and Operations версии 10.0.4 (июль 2019 г.)
               href: get-started/whats-new-changed-10-0-4.md
-            - name: Предварительные версии функций Finance and Operations версии 10.0.3 (июнь 2019 г.)
+            - name: Finance and Operations версии 10.0.3 (июнь 2019 г.)
               href: get-started/whats-new-changed-10-0-3.md
             - name: Finance and Operations версии 10.0.2 (май 2019 г.)
               href: get-started/whats-new-changed-10-0-2.md
@@ -56,9 +56,9 @@
               href: get-started/whats-new-changed-10.md
             - name: Finance and Operations версии 8.1.3 (январь 2019 г.)
               href: get-started/whats-new-changed-8-1-3.md
-            - name: Предварительные версии функций Finance and Operations platform update 28 (июль 2019 г.)
+            - name: Platform update 28 (июль 2019 г.)
               href: get-started/whats-new-platform-update-28.md
-            - name: Предварительные версии функций Finance and Operations platform update 27 (июнь 2019 г.)
+            - name: Platform update 27 (июнь 2019 г.)
               href: get-started/whats-new-platform-update-27.md
             - name: Platform update 26 (май 2019 г.)
               href: get-started/whats-new-platform-update-26.md
@@ -238,8 +238,14 @@
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: Поставка решений независимых поставщиков программного обеспечения с помощью одной версии
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: Regression Suite Automation Tool
-          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+        - name: Проверка автоматизации
+          items:
+            - name: Создание и автоматизация пользовательских приемочных тестов
+              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+            - name: Настройка учебника Regression Suite Automation Tool
+              href: get-started/hol-set-up-regression-suite-automation-tool.md
+            - name: Использование учебника Regression Suite Automation Tool
+              href: get-started/hol-use-regression-suite-automation-tool.md
     - name: Бизнес-события
       href: ../dev-itpro/business-events/home-page.md
       items:
@@ -257,6 +263,10 @@
           href: ../dev-itpro/business-events/troubleshooting.md
         - name: Варианты использования для бизнес-событий
           href: ../dev-itpro/business-events/potential-use-cases.md
+        - name: Учебники
+          items:
+            - name: Использование бизнес-событий в Microsoft Flow
+              href: ../dev-itpro/business-events/how-to/how-to-flow.md
     - name: Соответствие
       items:
         - name: Правила политики аудита
@@ -849,7 +859,7 @@
               href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
             - name: Финансовые аналитики
               href: ../financials/general-ledger/financial-dimensions.md
-            - name: Структуры счетов
+            - name: Финансовые аналитики и разноска
               href: ../financials/general-ledger/Default-dimensions.md
             - name: Добавление финансовых аналитик в рабочую область финансового директора
               href: ../financials/general-ledger/CFO-workspace.md
@@ -1080,6 +1090,8 @@
                   href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
                 - name: Создание структур счетов
                   href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Финансовые аналитики и разноска
+                  href: ../financials/general-ledger/default-dimensions.md
                 - name: Создание схем начисления
                   href: ../financials/general-ledger/tasks/create-accrual-schemes.md
                 - name: Финансовые консолидации и пересчет валют
@@ -1936,10 +1948,144 @@
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: Интеграция GST для контрольно-кассовых машин
                   href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: Приобретение налогооблагаемой номенклатуры у незарегистрированного поставщика
-                  href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
-            - name: Рекомендации по развертыванию контрольно-кассовых машин
-              href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+                - name: Настройка справочника
+                  items:
+                    - name: Создание вертикали бизнеса
+                      href: ../financials/localizations/apac-ind-GST-create-business-vertical.md
+                    - name: Обновление кода региона и территории профсоюза
+                      href: ../financials/localizations/apac-ind-GST-update-state-code-union-territory.md
+                    - name: Создание шаблона GSTIN
+                      href: ../financials/localizations/apac-ind-GST-create-gstin-master.md
+                    - name: Определение GSTIN и справочных номерных серий
+                      href: ../financials/localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                    - name: Определение кодов HSN и кодов учета услуг
+                      href: ../financials/localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                    - name: Создание счетов ГК для типа разноски GST
+                      href: ../financials/localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                    - name: Создание периода сопоставления налога
+                      href: ../financials/localizations/apac-ind-GST-create-tax-settlement-period.md
+                    - name: Присоединение GSTIN к группе налоговой регистрации
+                      href: ../financials/localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                - name: Настройка налога
+                  items:
+                    - name: Определение конфигурации налога и ее развертывание для юридических лиц
+                      href: ../financials/localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                    - name: Сопоставление типов налогов конфигурации — таможня
+                      href: ../financials/localizations/apac-ind-GST-map-configuration-tax-types.md
+                    - name: Настройка таблиц ставок и процентов
+                      href: ../financials/localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                    - name: Настройка иерархии налога с продаж и правил возмещения
+                      href: ../financials/localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                - name: Проводка по покупке
+                  items:
+                    - name: Приобретение у незарегистрированных поставщиков
+                      href: ../financials/localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                    - name: Приобретение налогооблагаемой номенклатуры у незарегистрированного поставщика
+                      href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                    - name: Приобретение у зарегистрированных поставщиков
+                      href: ../financials/localizations/apac-ind-GST-purchases-registered-vendor.md
+                    - name: Приобретение уцененных товаров
+                      href: ../financials/localizations/apac-ind-GST-purchase-discounted-goods.md
+                    - name: Приобретение освобожденных от налога товаров
+                      href: ../financials/localizations/apac-ind-GST-purchase-exempted-goods.md
+                    - name: Приобретение товаров с нулевой ставкой
+                      href: ../financials/localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                    - name: 'Приобретение товаров, не относящихся к GST'
+                      href: ../financials/localizations/apac-ind-GST-purchase-non-gst-goods.md
+                    - name: Приобретение у составных дилеров
+                      href: ../financials/localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                    - name: 'Приобретение налогооблагаемых товаров, имеющих расходы на отгрузку'
+                      href: ../financials/localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                    - name: 'Пересмотр накладной по покупке, включающей налогооблагаемые товары'
+                      href: ../financials/localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                    - name: Приобретение основных средств
+                      href: ../financials/localizations/apac-ind-GST-purchase-fixed-asset.md
+                    - name: Создание кредит-ноты на основании накладной по покупке
+                      href: ../financials/localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                    - name: Создание дебит-ноты на основании накладной по покупке
+                      href: ../financials/localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                    - name: 'Заказы для контроля качества, которые включают уничтожение выбранной номенклатуры'
+                      href: ../financials/localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                    - name: Заказы на возврат покупки
+                      href: ../financials/localizations/apac-ind-GST-purchase-return-order.md
+                    - name: Авансовые платежи поставщика с удержанием с покупателя
+                      href: ../financials/localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                - name: Проводка по продажам
+                  items:
+                    - name: Продажи налогооблагаемых товаров потребителям
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                    - name: Продажи зарегистрированным клиентам
+                      href: ../financials/localizations/apac-ind-GST-sell-registered-customer.md
+                    - name: Накладные с произвольным текстом
+                      href: ../financials/localizations/apac-ind-GST-free-text-invoices.md
+                    - name: Продажи налогооблагаемых товаров с удержанием с покупателя
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                    - name: 'Продажи номенклатур, не облагаемых налогом'
+                      href: ../financials/localizations/apac-ind-GST-sales-exempted-item.md
+                    - name: Продажи товаров с нулевой ставкой
+                      href: ../financials/localizations/apac-ind-GST-sell-zero-rated-goods.md
+                    - name: 'Продажи товаров, не относящихся к GST'
+                      href: ../financials/localizations/apac-ind-GST-sell-non-gst-goods.md
+                    - name: Продажи налогооблагаемых товаров со скидкой и предварительной оценкой
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                    - name: 'Продажи налогооблагаемых товаров, имеющих налог на расходы на отгрузку'
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                    - name: 'Продажи, в которых цены включают и исключают налог'
+                      href: ../financials/localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                    - name: Создание дебит-ноты на основании накладной по продаже
+                      href: ../financials/localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                    - name: Создание кредит-ноты на основании накладной по продаже
+                      href: ../financials/localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                    - name: 'Накладные по продаже, разделенные на основании адресов поставки'
+                      href: ../financials/localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                    - name: Заказы на возврат
+                      href: ../financials/localizations/apac-ind-GST-return-order-form.md
+                - name: Иностранные проводки
+                  items:
+                    - name: 'Импорт товаров, имеющих GST'
+                      href: ../financials/localizations/apac-ind-GST-import-goods-gst.md
+                    - name: 'Импорт услуг, имеющих GST'
+                      href: ../financials/localizations/apac-ind-import-services-gst.md
+                    - name: 'Экспорт товаров, имеющих налог с нулевой ставкой'
+                      href: ../financials/localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                    - name: 'Экспорт услуг, имеющих налог с нулевой ставкой'
+                      href: ../financials/localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                - name: Проводка по запасам
+                  items:
+                    - name: 'Заказы на перемещение запасов, включающие налог в трансферной цене'
+                      href: ../financials/localizations/apac-ind-GST-stock-transfer-transactions.md
+                - name: Проводка по оплате клиентом
+                  items:
+                    - name: 'Авансовые платежи, включающие налог'
+                      href: ../financials/localizations/apac-ind-GST-advance-payment-includes-tax.md
+                    - name: 'Авансовые платежи, сопоставленные во время разноски накладной'
+                      href: ../financials/localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                    - name: 'Ручное сопоставление авансового платежа и накладной, включающей налог'
+                      href: ../financials/localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                    - name: 'Оплата накладных, включающих налог'
+                      href: ../financials/localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                    - name: 'Пересмотр авансовых платежей, включающих налог'
+                      href: ../financials/localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                    - name: Возвраты денежных средств по платежам клиента
+                      href: ../financials/localizations/apac-ind-GST-customer-payment-refund.md
+                - name: Проводка по прямому налогу
+                  items:
+                    - name: Включение GST при расчете налоговых вычетов
+                      href: ../financials/localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                    - name: Включение GST при расчете налоговых сборов
+                      href: ../financials/localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                - name: Корректировка суммы налога
+                  href: ../financials/localizations/apac-ind-GST-tax-adjustments.md
+                - name: Сопоставление налога на основе правила
+                  href: ../financials/localizations/apac-ind-GST-tax-settlement.md
+                - name: Создание журнала налогов
+                  href: ../financials/localizations/apac-ind-GST-tax-journal.md
+                - name: Создание данных отчета GSTR для возвратов налога
+                  href: ../financials/localizations/apac-ind-GST-tax-returns.md
+                - name: Запрос налога
+                  href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
+                - name: Рекомендации по развертыванию контрольно-кассовых машин
+                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Обзор механизма начисления налога
               href: ../financials/general-ledger/tax-engine.md
               items:
@@ -2375,8 +2521,12 @@
                   href: ../financials/localizations/rus-excel-financial-report.md
                 - name: Учет отчетности в электронном формате
                   href: ../financials/localizations/rus-accounting-reporting.md
-                - name: Декларация налога на имущество
+                - name: Декларация по налогу на имущество
                   href: ../financials/localizations/rus-assessed-tax-declaration.md
+                - name: Декларация по транспортному налогу
+                  href: ../financials/localizations/rus-transport-tax-declaration.md
+                - name: Декларация по земельному налогу
+                  href: ../financials/localizations/rus-land-tax-declaration.md
             - name: Администрирование организации
               items:
                 - name: 'Сведения о налоговой регистрации, связанные с адресом'
@@ -2797,160 +2947,222 @@
               href: ../dev-itpro/analytics/extend-report-menu-items.md?toc=/fin-and-ops/toc.json
             - name: Создание пользовательского оформления для бизнес-документов
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
-        - name: Электронная отчетность
+            - name: Предварительный просмотр PDF-документов с помощью встроенного средства просмотра
+              href: ../dev-itpro/analytics/preview-pdf-documents.md?toc=/fin-and-ops/toc.json
+    - name: Электронная отчетность
+      items:
+        - name: Обзор электронной отчетности
           href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
+        - name: Конфигурации
           items:
-            - name: Настройка платформы для электронной отчетности
-              href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
             - name: Создание конфигураций
               href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
+            - name: Подготовка компонентов решения электронной отчетности
               items:
-                - name: Создание поставщиков конфигураций и пометка их как активных
-                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Проектирование моделей данных для конкретных доменов
+                - name: Проектирование модели данных для конкретного домена
                   href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Подготовка метаданных для конкретного приложения
+                  items:
+                    - name: (Электронная отчетность) Подготовка метаданных приложения для использования в RCS
+                      href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
+                    - name: (RCS) Доступ к метаданным приложения с помощью конфигурации электронной отчетности
+                      href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
+                    - name: (RCS) Доступ к метаданным приложения с помощью подключенных приложений
+                      href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
                 - name: Определение сопоставлений моделей и выбор источников данных
                   href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Сопоставление моделей данных с выбранными источникам данных
+                - name: Сопоставление модели данных с выбранными источникам данных
                   href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Создание конфигураций форматов
+                - name: Создание конфигурации формата
                   href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Сопоставление компонентов форматов с элементами модели данных
+                - name: Сопоставление компонентов созданного формата с элементами модели данных
                   href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Создание электронных документов для платежей с помощью конфигураций формата
+            - name: Проверка подготовленного решения электронной отчетности в целевом приложении
+              items:
+                - name: (Электронная отчетность) Импорт конфигураций из RCS
+                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
+                - name: Создание электронных документов для платежей с помощью конфигурации формата
                   href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-                - name: Обновление форматов путем принятия новых базовых версий
-                  href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
-                - name: Создание конфигураций электронной отчетности для заполнения шаблонов в формате PDF
-                  href: ../dev-itpro/analytics/er-fillable-pdf.md
-            - name: Конструктор формул в электронной отчетности
-              href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-            - name: Настройка электронной отчетности для загрузки данных в Power BI
-              href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
-            - name: Назначения
-              href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: Настройка мест назначений
-                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Разработка конфигураций для создания отчетов в формате Word
-              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Разработка конфигураций для создания отчетов в формате OpenXML
+            - name: Обновление формата путем принятия новой базовой версии этого формата
+              href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
+        - name: Конструктор формул в электронной отчетности
+          href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
+        - name: Управление сопоставлением модели электронной отчетности в отдельных конфигурациях электронной отчетности
+          href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: Выбор определений моделей данных при создании форматов
+          href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: Формирование отчетов путем добавления содержимого в виде исходного XML-документа
+          href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
+        - name: (Электронная отчетность) Источники данных из разных компаний в электронной отчетности
+          href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
+        - name: Разработка форматов электронной отчетности для создания исходящих электронных документов в различных форматах
+          items:
+            - name: (Электронная отчетность) Разработка конфигурации для создания отчетов в формате OPENXML
               href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Изменение форматов электронной отчетности путем повторного применения шаблонов Excel
-              href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: Выбор определения модели данных во время создания форматов
-              href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-            - name: Определение зависимости конфигураций от других компонентов
-              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: (Электронная отчетность) Разработка конфигураций для создания отчетов в формате Word
+              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: Разработка конфигураций для заполнения шаблонов в формате PDF
+              href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
+        - name: Внедрение изображений и фигур
+          items:
+            - name: (Электронная отчетность) Внедрение изображений и фигур в создаваемые документы
+              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
+            - name: Пример внедрения изображений и фигур
               items:
-                - name: Разработка моделей данных для использования финансовых аналитик как источников данных
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-                - name: Сопоставление моделей для использования финансовых аналитик как источников данных
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-                - name: Разработка отчетов для использования финансовых аналитик как источников данных
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-                - name: 'Выполнение отчетов, использующих финансовые аналитики как источники данных'
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-                - name: Создание форматов для подсчета и суммирования
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
-                - name: Настройка вычислений для подсчета и суммирования
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-                - name: Использование вычислений для создания выходных данных подсчета и суммирования
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-                - name: Выполнение форматов для подсчета и суммирования
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-                - name: Разработка форматов для динамического добавления столбцов в качестве горизонтально разворачивающихся диапазонов
-                  href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-                - name: Выполнение форматов для динамического добавления столбцов в качестве горизонтально разворачивающихся диапазонов
-                  href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-                - name: Подготовка моделей данных для использования файлов управления документами в выходных данных
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-                - name: Расширение моделей данных для использования файлов управления документами в выходных данных
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-                - name: Создание форматов для использования файлов управления документами в выходных данных
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-                - name: Выполнение форматов для использования файлов управления документами в выходных данных
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-                - name: Изменение и выполнение форматов для использования файлов управления документами в выходных данных
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-                - name: Разработка конфигураций для формирования отчетов в форматах Office с внедренными изображениями
+                - name: Разработка конфигураций для создания отчетов в форматах Office с внедренными изображениями
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: Проверка конфигураций для формирования отчетов в форматах Office с внедренными изображениями
+                - name: Предварительный просмотр конфигураций для создания отчетов в форматах Office с внедренными изображениями
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Формирование отчетов в форматах Office с внедренными изображениями
+                - name: Создание отчетов в форматах Office с внедренными изображениями
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
+        - name: Изменение форматов электронной отчетности путем повторного применения шаблонов Excel
+          href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
+        - name: 'Разработка конфигураций электронной отчетности, зависящих от версии Finance and Operation'
+          items:
+            - name: Определение зависимости конфигураций электронной отчетности от других компонентов
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: Разработка решения электронной отчетности для использования финансовых аналитик
+          items:
+            - name: Разработка моделей данных для использования финансовых аналитик как источников данных
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
+            - name: Сопоставление моделей для использования финансовых аналитик как источников данных
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
+            - name: Разработка отчетов для использования финансовых аналитик как источников данных
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
+            - name: 'Выполнение отчетов, использующих финансовые аналитики как источники данных'
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
+        - name: Разработка форматов электронной отчетности для выполнения подсчета и суммирования с использованием информации из созданных выходных данных
+          items:
+            - name: Создание форматов для выполнения подсчета и суммирования
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
+            - name: Настройка формата для выполнения подсчета и суммирования
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
+            - name: Использование вычислений для создания выходных данных подсчета и суммирования
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
+            - name: Выполнение форматов для подсчета и суммирования
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
+        - name: Динамическое добавление столбцов в отчеты Excel качестве горизонтально разворачивающихся диапазонов
+          items:
+            - name: Разработка форматов для динамического добавления столбцов в отчеты Excel в качестве горизонтально разворачивающихся диапазонов
+              href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
+            - name: Выполнение форматов для динамического добавления столбцов в отчеты Excel в качестве горизонтально разворачивающихся диапазонов
+              href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
+        - name: Использование файлов управления документами в выходных данных формата
+          items:
+            - name: Подготовка моделей данных для использования файлов управления документами в выходных данных электронной отчетности
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
+            - name: Расширение моделей данных для использования файлов управления документами в выходных данных электронной отчетности
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
+            - name: Создание форматов для использования файлов управления документами в выходных данных электронной отчетности
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
+            - name: Выполнение форматов для использования файлов управления документами в выходных данных электронной отчетности
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
+            - name: Изменение и выполнение форматов для использования файлов управления документами в выходных данных электронной отчетности
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
+        - name: Обновление данных приложения с помощью электронной отчетности
+          items:
             - name: Создание электронных документов и обновление данных приложения
               href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
+            - name: Импорт конфигураций для создания документов с данными приложений
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
+            - name: Разработка конфигураций для создания документов с данными приложений
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
+            - name: Изменение моделей и сопоставлений для создания документов с данными приложений
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
+            - name: Изменение форматов для создания документов с данными приложений
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
+            - name: 'Создание документов, содержащих данные приложений'
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+        - name: Импорт данных из входящих файлов с помощью решений электронной отчетности
+          items:
+            - name: Разбор входящих документов в различных форматах
+              href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
+            - name: Настройка импорта данных из выбранных вручную файлов
               items:
-                - name: Импорт конфигураций для формирования документов с данными приложений
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Разработка конфигураций для формирования документов с данными приложений
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-                - name: Изменение моделей и сопоставлений для формирования документов с данными приложений
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-                - name: Изменение форматов для формирования документов с данными приложений
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
-                - name: Формирование документов с данными приложений
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
-            - name: Создание печатных форм FTI
-              href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
-            - name: Формирование отчетов путем добавления содержимого в виде исходного XML-документа
-              href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
-            - name: Отслеживание результатов из сформированного отчета и их сравнение с базовыми значениями
-              href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
-            - name: Источники данных из разных компаний в электронной отчетности
-              href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-            - name: Внедрение изображений и фигур в создаваемые документы
-              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
-            - name: Управление жизненным циклом конфигураций
-              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: Отправка конфигураций в Lifecycle Services
-                  href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Импорт конфигураций из Lifecycle Services
-                  href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Импорт конфигураций электронной отчетности из служб нормативных конфигураций (RCS)
-                  href: ../dev-itpro/analytics/rcs-download-configurations.md
-                - name: Загрузка конфигураций из Lifecycle Services
-                  href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-                - name: Импорт конфигураций
-                  href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Управление конфигурациями сопоставлений моделей
-              href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: Создание конфигураций для импорта данных из внешних файлов
+                - name: Создание конфигураций для импорта данных из внешнего XML-файла
                   href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
-                - name: Настройка импорта данных из SharePoint
-                  href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: Разбор входящих документов в формате Excel
-              href: ../dev-itpro/analytics/parse-incoming-documents-excel.md?toc=/fin-and-ops/toc.json
-            - name: Разбор входящих документов для обновления данных приложений
-              href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
-            - name: Разбор входящих документов в формате CSV
-              href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
-            - name: 'Трассировка выполнения форматов электронной отчетности для устранения неполадок, связанных с производительностью'
-              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
+            - name: Настройка импорта данных в пакетном режиме из найденных файлов SharePoint
+              href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
+            - name: Импорт файлов в формате XML
+              items:
+                - name: Импорт файлов в формате XML с дополнительными атрибутами
+                  href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
+                - name: Настройка форматов электронной отчетности для импорта файлов формата XML с дополнительными атрибутами
+                  href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: Разбиение созданных XML-файлов по их размеру и количеству содержимого
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
+        - name: Жизненный цикл конфигурации
+          items:
+            - name: Управление жизненным циклом конфигураций
+              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
+            - name: Отправка конфигураций в Lifecycle Services
+              href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
+            - name: Импорт конфигураций из Lifecycle Services
+              href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+            - name: Загрузка конфигураций из Lifecycle Services
+              href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
+            - name: Импорт конфигураций
+              href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
+            - name: Загрузка конфигураций электронной отчетности из репозитория RCS
               items:
-                - name: Расширение списка функций электронной отчетности
-                  href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-                - name: Изменения в API платформы электронной отчетности для Application update 7.3
-                  href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
-                - name: Определение пользовательского хранилища для создаваемых документов
-                  href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
+                - name: Загрузка конфигураций из репозитория электронной отчетности для типа RCS
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
+                - name: Импорт конфигураций из RCS
+                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
+        - name: Использование решений электронной отчетности в Finance and Operations
+          items:
+            - name: Настройка платформы
+              items:
+                - name: Настройка платформы электронной отчетности
+                  href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
+                - name: Создание поставщиков конфигураций и пометка их как активных
+                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: Назначения
+              items:
+                - name: Обзор назначений
+                  href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
+                - name: Настройка назначений
+                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: Автоматическая проверка созданных отчетов
+              items:
+                - name: Отслеживание результатов из сформированного отчета и их сравнение с базовыми значениями
+                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
+                - name: Усовершенствования в трассировке результатов созданных отчетов электронной отчетности и сравнений с базовыми значениями
+                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
+                - name: Автоматизация проверки с помощью электронной отчетности
+                  href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
+            - name: Автоматизация бизнес-процессов с помощью конфигураций электронной отчетности
+              items:
+                - name: Настройка электронной отчетности для загрузки данных в Power BI
+                  href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
+                - name: Создание печатаемых форм накладной с произвольным текстом (FTI)
+                  href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
+            - name: 'Трассировка выполнения форматов электронной отчетности для устранения неполадок, связанных с производительностью'
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+        - name: API платформы электронной отчетности
+          items:
+            - name: Расширение списка функций электронной отчетности
+              href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
+            - name: Изменения в API платформы электронной отчетности для Application update 7.3
+              href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+            - name: Определение расположения пользовательского хранилища для создаваемых документов
+              href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
         - name: Внедренные аналитические решения
           items:
             - name: Внедренное решение Power BI в рабочих областях
               href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json
-            - name: Интеграция с Power BI Embedded
+            - name: Интеграция Power BI Embedded
               href: ../dev-itpro/analytics/power-bi-embedded-integration.md?toc=/fin-and-ops/toc.json
+            - name: Выбор аналитических рабочих областей из PowerBI.com
+              href: ../dev-itpro/analytics/select-analytical-workspace.md
         - name: Параметры персонализации с PowerBI.com
           items:
             - name: 'Функции и службы, доступные в результате интеграции Power BI'
               href: ../dev-itpro/analytics/power-bi-integration.md?toc=/fin-and-ops/toc.json
             - name: Закрепление отчетов Power BI в рабочих областях
               href: ../dev-itpro/analytics/pin-power-bi-reports.md?toc=/fin-and-ops/toc.json
+            - name: Настройка внедренных отчетов в аналитических рабочих областях
+              href: ../dev-itpro/analytics/customize-analytical-workspace.md
         - name: Средства для создания и расширения решений
           items:
             - name: 'Аналитика, агрегированные измерения и моделирование КПЭ'
@@ -3067,12 +3279,16 @@
               href: ../supply-chain/cost-management/adjust-hand-inventory-cost-values.md
             - name: Отслеживание скользящей средней себестоимости на складскую аналитику
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
+    - name: Цепочка поставок
+      href: ../supply-chain/index.md
     - name: Сводное планирование
       href: ../supply-chain/master-planning/master-planning-home-page.md
       items:
         - name: Сводные планы
           href: ../supply-chain/master-planning/master-plans.md
           items:
+            - name: Настройка сводных планов
+              href: ../supply-chain/master-planning/master-planning-setup.md
             - name: Параметры покрытия
               href: ../supply-chain/master-planning/coverage-settings.md
             - name: Определение правил покрытия для номенклатур
@@ -3099,10 +3315,12 @@
               href: ../supply-chain/master-planning/tasks/create-plan-site.md
             - name: Календари и сводное планирование
               href: ../supply-chain/master-planning/supply-chain-calendars-master-planning.md
+            - name: Повышение производительности сводного планирования
+              href: ../supply-chain/master-planning/master-planning-performance.md
             - name: Сводные планы и функциональность Мультисайт
               href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
               items:
-                - name: 'Сводное планирование для покрытия объекта, обязательный склад'
+                - name: 'Сводное планирование для покрытия сайта, обязательный склад'
                   href: ../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md
                 - name: 'Сводное планирование для покрытия объекта, склад не обязателен'
                   href: ../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
@@ -3114,6 +3332,8 @@
                   href: ../supply-chain/master-planning/master-plan-bom-version-determined.md
                 - name: Развертывание версии спецификации
                   href: ../supply-chain/master-planning/master-plan-explosion-bom-version.md
+            - name: Отрицательные дни и динамические отрицательные дни
+              href: ../supply-chain/master-planning/more-about-dynamic-negative-days.md
             - name: Создание внутрихолдингового плана
               href: ../supply-chain/master-planning/tasks/create-intercompany-plan.md
             - name: Просмотр исходящего запланированного внутрихолдингового спроса

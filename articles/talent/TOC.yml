@@ -8,6 +8,16 @@
         - name: Что нового и что изменилось в Talent
           href: whats-new.md
           items:
+            - name: 2 июля 2019 г.
+              href: whats-new-talent-july-2-2019.md
+            - name: 25 июня 2019 г.
+              href: whats-new-talent-june-25-2019.md
+            - name: 18 июня 2019 г.
+              href: whats-new-talent-june-18-2019.md
+            - name: 11 июня 2019 г.
+              href: whats-new-talent-june-11-2019.md
+            - name: 4 июня 2019 г.
+              href: whats-new-talent-june-4-2019.md
             - name: 28 мая 2019 г.
               href: whats-new-talent-may-28-2019.md
             - name: 21 мая 2019 г.
@@ -16,26 +26,26 @@
               href: whats-new-talent-may-13-2019.md
             - name: 6 мая 2019 г.
               href: whats-new-talent-may-6-2019.md
-            - name: 30 апреля 2019 г.
-              href: whats-new-talent-april-30-2019.md
-            - name: 25 апреля 2019 г.
-              href: whats-new-talent-april-25-2019.md
-            - name: 16 апреля 2019 г.
-              href: whats-new-talent-april-16-2019.md
-            - name: 9 апреля 2019 г.
-              href: whats-new-talent-april-9-2019.md
-            - name: 2 апреля 2019 г.
-              href: whats-new-talent-april-2-2019.md
-            - name: 26 марта 2019 г.
-              href: whats-new-talent-march-26-2019.md
-            - name: 20 марта 2019 г.
-              href: whats-new-talent-march-20.md
-            - name: 14 марта 2019 г.
-              href: whats-new-talent-march-14.md
-            - name: 5 марта 2019 г.
-              href: whats-new-talent-march-5.md
             - name: Архивы "Что нового" за 2019 г.
               items:
+                - name: 30 апреля 2019 г.
+                  href: whats-new-talent-april-30-2019.md
+                - name: 25 апреля 2019 г.
+                  href: whats-new-talent-april-25-2019.md
+                - name: 16 апреля 2019 г.
+                  href: whats-new-talent-april-16-2019.md
+                - name: 9 апреля 2019 г.
+                  href: whats-new-talent-april-9-2019.md
+                - name: 2 апреля 2019 г.
+                  href: whats-new-talent-april-2-2019.md
+                - name: 26 марта 2019 г.
+                  href: whats-new-talent-march-26-2019.md
+                - name: 20 марта 2019 г.
+                  href: whats-new-talent-march-20.md
+                - name: 14 марта 2019 г.
+                  href: whats-new-talent-march-14.md
+                - name: 5 марта 2019 г.
+                  href: whats-new-talent-march-5.md
                 - name: 27 февраля 2019 г.
                   href: whats-new-talent-feb-27.md
                 - name: 14 февраля 2019 г.
@@ -102,16 +112,24 @@
           href: attract-comprehensive-hiring.md
         - name: Функции и возможности Attract
           href: attract-overview.md
+        - name: Вопросы и ответы по LinkedIn
+          href: attract-linkedin-faq.md
+        - name: Настройка параметров электронной почты
+          href: attract-configure-email-settings.md
         - name: Создание шаблона процесса в Attract
           href: Process-templates-Attract.md
-        - name: 'Создание, утверждение и публикация вакансий в Attract'
+        - name: Создание и публикация вакансий
           href: Creating-jobs-Attract.md
-        - name: Публикация вакансий на внешних сайтах вакансий из Attract
+        - name: Настройка интеграции с LinkedIn
+          href: attract-admin-linkedin.md
+        - name: Публикация вакансий в LinkedIn из Attract
+          href: attract-post-jobs-to-linkedin.md
+        - name: Публикация вакансий в Broadbean из Attract
           href: posting-jobs-external.md
         - name: Поиск кандидатов с помощью кадровых пулов
           href: attract-talent-pools.md
-        - name: Поиск ресурсов с помощью LinkedIn Recruiter
-          href: attract-linked-in-recruiter.md
+        - name: Поиск кандидатов с помощью LinkedIn Recruiter
+          href: attract-linkedin-recruiter.md
         - name: Мероприятия в процессах найма
           href: activities-attract.md
         - name: Планирование собеседований и обратная связь
@@ -132,12 +150,28 @@
           href: Admin-Settings-Attract.md
         - name: Интеллектуальные рекомендации
           href: Intelligent-Recommendations.md
-        - name: Создание эффективного процесса адаптации
-          href: create-onboarding-experience.md
         - name: Отслеживание источников для профилей и заявлений кандидатов
           href: source-tracking.md
         - name: Использование аналитических отчетов для аналитики процесса найма
           href: analytic-reports.md
+    - name: Приветствие новых сотрудников с помощью Onboard
+      items:
+        - name: Начало работы с Onboard
+          href: create-onboarding-experience.md
+        - name: Получение приложения Onboard
+          href: onboard-get-app.md
+        - name: Создание и отправка руководства по адаптации
+          href: onboard-create-guide.md
+        - name: Создание шаблона адаптации
+          href: onboard-create-template.md
+        - name: Редактирование руководств и шаблонов
+          href: onboard-edit-guides-templates.md
+        - name: Предоставление общего доступа к содержимому
+          href: onboard-share-template.md
+        - name: Просмотр статуса
+          href: onboard-view-status.md
+        - name: Создание группы комплектации штата
+          href: onboard-create-team.md
     - name: Управление трудовыми ресурсами с помощью Core HR
       items:
         - name: Организация трудовых ресурсов
@@ -357,6 +391,8 @@
           href: corehr-custom-fields.md
     - name: Устранение неполадок в Talent
       items:
+        - name: Устранение неполадок при публикации вакансий в LinkedIn
+          href: attract-troubleshoot-linkedin.md
         - name: Аналитические отчеты не обновляются
           href: analytic-reports-not-updated.md
         - name: Невозможно создать среду в центре администрирования PowerApps
