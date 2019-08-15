@@ -8,6 +8,12 @@
         - name: Что нового и что изменилось в Talent
           href: whats-new.md
           items:
+            - name: 23 июля 2019 г.
+              href: whats-new-talent-july-24-2019.md
+            - name: 16 июля 2019 г.
+              href: whats-new-talent-july-16-2019.md
+            - name: 9 июля 2019 г.
+              href: whats-new-talent-july-9-2019.md
             - name: 2 июля 2019 г.
               href: whats-new-talent-july-2-2019.md
             - name: 25 июня 2019 г.
@@ -102,8 +108,6 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR и Common Data Service
           href: CoreHREntities.md
-        - name: Доступ к предварительным версиям функций
-          href: access-preview-feature.md
         - name: Получение поддержки по Talent
           href: talent-support.md
     - name: Набор персонала для организации с помощью Attract
@@ -112,48 +116,68 @@
           href: attract-comprehensive-hiring.md
         - name: Функции и возможности Attract
           href: attract-overview.md
-        - name: Вопросы и ответы по LinkedIn
-          href: attract-linkedin-faq.md
-        - name: Настройка параметров электронной почты
-          href: attract-configure-email-settings.md
-        - name: Создание шаблона процесса в Attract
-          href: Process-templates-Attract.md
+        - name: Вопросы и ответы
+          items:
+            - name: Вопросы и ответы по интеграции с LinkedIn
+              href: attract-linkedin-faq.md
+        - name: Настройка параметров системы
+          items:
+            - name: Настройка информации об организации
+              href: admin-settings-attract.md
+            - name: Настройка разрешений пользователя
+              href: security-attract.md
+            - name: Управление функциями
+              href: access-preview-feature.md
+            - name: Настройка сайта карьеры
+              href: career-site.md
+            - name: Включение интеграции с Broadbean
+              href: attract-admin-job-board-settings.md
+            - name: Настройка параметров электронной почты
+              href: attract-configure-email-settings.md
+            - name: Настройка интеграции с LinkedIn
+              href: attract-admin-linkedin.md
+        - name: Создание процесса найма
+          items:
+            - name: Создание шаблона процессов
+              href: process-templates-attract.md
+            - name: Мероприятия в процессах найма
+              href: activities-attract.md
+            - name: Шаблоны электронной почты
+              href: email-templates.md
+            - name: Использование аналитических отчетов
+              href: analytic-reports.md
         - name: Создание и публикация вакансий
-          href: Creating-jobs-Attract.md
-        - name: Настройка интеграции с LinkedIn
-          href: attract-admin-linkedin.md
-        - name: Публикация вакансий в LinkedIn из Attract
-          href: attract-post-jobs-to-linkedin.md
-        - name: Публикация вакансий в Broadbean из Attract
-          href: posting-jobs-external.md
-        - name: Поиск кандидатов с помощью кадровых пулов
-          href: attract-talent-pools.md
-        - name: Поиск кандидатов с помощью LinkedIn Recruiter
-          href: attract-linkedin-recruiter.md
-        - name: Мероприятия в процессах найма
-          href: activities-attract.md
-        - name: Планирование собеседований и обратная связь
-          href: interview-scheduling-feedback.md
+          items:
+            - name: Создание вакансии
+              href: creating-jobs-attract.md
+            - name: Публикация вакансий в LinkedIn
+              href: attract-post-jobs-to-linkedin.md
+            - name: Публикация вакансий в Broadbean
+              href: posting-jobs-external.md
+            - name: Закрытие вакансии
+              href: attract-close-job.md
+        - name: Поиск кандидатов
+          items:
+            - name: Поиск кандидатов с помощью кадровых пулов
+              href: attract-talent-pools.md
+            - name: Поиск кандидатов с помощью LinkedIn Recruiter
+              href: attract-linkedin-recruiter.md
+            - name: Отслеживание источников кандидатов
+              href: source-tracking.md
+            - name: Интеллектуальные рекомендации
+              href: Intelligent-Recommendations.md
+        - name: Настройка собеседований
+          items:
+            - name: Планирование собеседований и обратная связь
+              href: interview-scheduling-feedback.md
+        - name: Отправка предложений
+          items:
+            - name: Настройка управления предложениями
+              href: offer-setup.md
+            - name: 'Создание, утверждение и подписание предложений'
+              href: creating-offers.md
         - name: Расширяемость в Attract
           href: extensibility-attract.md
-        - name: Функция сайта вакансий в Attract
-          href: career-site.md
-        - name: Настройка управления предложениями
-          href: offer-setup.md
-        - name: 'Создание, утверждение и подписание предложений'
-          href: creating-offers.md
-        - name: Шаблоны сообщений эл. почты
-          href: email-templates.md
-        - name: Безопасность и управление ролями в Attract
-          href: security-attract.md
-        - name: Параметры администрирования в Attract
-          href: Admin-Settings-Attract.md
-        - name: Интеллектуальные рекомендации
-          href: Intelligent-Recommendations.md
-        - name: Отслеживание источников для профилей и заявлений кандидатов
-          href: source-tracking.md
-        - name: Использование аналитических отчетов для аналитики процесса найма
-          href: analytic-reports.md
     - name: Приветствие новых сотрудников с помощью Onboard
       items:
         - name: Начало работы с Onboard
@@ -186,11 +210,13 @@
               href: set-up-hr-parameters-across-legal-entities.md
             - name: Настройка параметров управления персоналом для конкретной компании
               href: set-up-company-specific-hr-parameters.md
+            - name: Поля даты и времени в Talent
+              href: date-time-fields-in-talent.md
             - name: Вопросы и ответы по действиям персонала
               href: personnel-actions-faq.md
             - name: Формализация бизнес-процессов
               href: formalize-business-processes.md
-            - name: Использование бизнес-правил для управления сведениями о сотрудниках
+            - name: Использование бизнес-процессов для управления сведениями о сотрудниках
               href: workflow-manage-employee-information.md
             - name: Настройка номерных серий
               items:

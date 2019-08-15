@@ -106,10 +106,28 @@
           items:
             - name: Справочник по языку X++
               href: dev-ref/xpp-language-reference.md
-            - name: Переменные и типы данных в X++
-              href: dev-ref/xpp-variables-data-types.md
-            - name: 'Инструкции, циклы и обработка исключений в X++'
-              href: dev-ref/xpp-statements-loops.md
+            - name: Переменные и типы данных
+              items:
+                - name: Переменные
+                  href: dev-ref/xpp-variables-data-types.md
+                - name: Простые типы данных
+                  href: dev-ref/xpp-data-primitive.md
+                - name: Составные типы данных
+                  href: dev-ref/xpp-data-composite.md
+                - name: Типы коллекций
+                  href: dev-ref/xpp-data-collection.md
+                - name: Расширенные типы данных
+                  href: dev-ref/xpp-data-edt.md
+            - name: 'Инструкции, циклы и обработка исключений'
+              items:
+                - name: 'Комментарии, using и print'
+                  href: dev-ref/xpp-statements-loops.md
+                - name: Условные операторы
+                  href: dev-ref/xpp-conditional.md
+                - name: Операторы циклов
+                  href: dev-ref/xpp-loops.md
+                - name: Обработка исключений
+                  href: dev-ref/xpp-exceptions.md
             - name: Исключение X++ "Ошибка подключения SQL"
               href: dev-ref/sql-connection-error.md
             - name: Операторы X++
@@ -120,6 +138,8 @@
               href: dev-ref/xpp-classes-methods.md
             - name: Выбор данных и манипуляции с данными в X++
               href: dev-ref/xpp-data-query.md
+            - name: Работа с данными через API SysDa
+              href: dev-ref/sysda.md
             - name: Макросы в X++
               href: dev-ref/xpp-macros.md
             - name: Классы атрибутов в X++
@@ -409,7 +429,7 @@
               href: perf-test/code-generation-wizard.md
             - name: Рекомендации для библиотеки приемочного тестирования
               href: perf-test/atl-best-practices.md
-            - name: Часто задаваемые вопросы
+            - name: Вопросы и ответы
               href: perf-test/atl-faq.md
     - name: Даты вступления в силу
       href: dev-tools/date-effectivity.md
@@ -438,6 +458,10 @@
           href: user-interface/page-layout.md
         - name: Шрифт символов Dynamics
           href: user-interface/symbol-font.md
+        - name: Сохраненные представления
+          href: ../fin-and-ops/get-started/saved-views.md
+        - name: 'Создание форм, использующих сохраненные представления'
+          href: user-interface/understanding-saved-views.md
         - name: 'Тестирование форм, использующих пользовательские шаблоны'
           href: user-interface/testing-forms-custom-patterns.md
         - name: Создание защищенных URL-адресов с возможностью общего доступа (прямые ссылки)
@@ -496,7 +520,7 @@
           href: user-interface/messaging-api-center-bar-details.md
         - name: 'Вопросы и ответы по центру сообщений, панели сообщений и подробным сведениям о сообщении'
           href: user-interface/messaging-user.md
-    - name: Требования к шаблону основной формы
+    - name: Руководство по шаблонам форм
       items:
         - name: Шаблоны форм для перенесенных форм
           href: user-interface/select-form-pattern.md
@@ -1129,7 +1153,7 @@
           href: migration-upgrade/on-prem-upgrade.md
     - name: Исправления
       items:
-        - name: Загрузка исправлений из Lifecycle Services
+        - name: Получение обновлений из Lifecycle Services
           href: migration-upgrade/download-hotfix-lcs.md
         - name: Применение обновлений к облачным средам
           href: deployment/apply-deployable-package-system.md
@@ -1162,6 +1186,8 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: Экспорт пользователей B2B в Azure AD
       href: sysadmin/implement-b2b.md
+    - name: Настройка времени ожидания сеанса
+      href: sysadmin/session-idle-timeout.md
     - name: Безопасность на основе ролей
       href: sysadmin/role-based-security.md
       items:
@@ -1310,6 +1336,8 @@
   items:
     - name: Получение поддержки по Finance and Operations и Lifecycle Services
       href: lifecycle-services/lcs-support.md
+    - name: Обзор вариантов поддержки Dynamics 365
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
     - name: 'Получение поддержки по Finance and Operations, предоставляемому компанией 21Vianet в Китае'
       href: lifecycle-services/21vianet-support.md
     - name: Создание запроса на поддержку Premier
