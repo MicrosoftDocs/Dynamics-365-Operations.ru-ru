@@ -10,48 +10,48 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransCustPaym, CustTableLookup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f58cebce20e8516dc918e0bad1e020ffd7f791ee
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afbf74d1cf3dc87e97dda0873115b5c7fa49ca3d
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565493"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834471"
 ---
-# <a name="deposit-customer-payments"></a><span data-ttu-id="ecdfb-103">Внесение платежей клиентов</span><span class="sxs-lookup"><span data-stu-id="ecdfb-103">Deposit customer payments</span></span>
+# <a name="deposit-customer-payments"></a><span data-ttu-id="564aa-103">Внесение платежей клиентов</span><span class="sxs-lookup"><span data-stu-id="564aa-103">Deposit customer payments</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ecdfb-104">Депонируйте платежи клиента.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-104">Deposit customer payments.</span></span> <span data-ttu-id="ecdfb-105">В этой задаче используется демонстрационная компания USMF.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="564aa-104">Депонируйте платежи клиента.</span><span class="sxs-lookup"><span data-stu-id="564aa-104">Deposit customer payments.</span></span> <span data-ttu-id="564aa-105">В этой задаче используется демонстрационная компания USMF.</span><span class="sxs-lookup"><span data-stu-id="564aa-105">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="ecdfb-106">Перейдите в раздел "Расчеты с клиентами" > "Настройка платежей" > "Журнал платежей".</span><span class="sxs-lookup"><span data-stu-id="ecdfb-106">Go to Accounts receivable > Payments > Payment journal.</span></span>
-2. <span data-ttu-id="ecdfb-107">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="ecdfb-107">Click New.</span></span>
-3. <span data-ttu-id="ecdfb-108">В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-108">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="ecdfb-109">Выберите журнал платежей.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-109">Select the payment journal.</span></span> 
-5. <span data-ttu-id="ecdfb-110">Выберите Строки.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-110">Click Lines.</span></span>
-6. <span data-ttu-id="ecdfb-111">В поле "Счет" выберите клиента, для которого записывается платеж.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-111">In the Account field, select the Customer for whom you are recording the payment.</span></span>
-7. <span data-ttu-id="ecdfb-112">В поле "Кредит" введите сумму платежа.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-112">In the Credit field, enter the amount of the payment.</span></span>
-    * <span data-ttu-id="ecdfb-113">Можно оставить сумму незаполненной, чтобы система рассчитывала ее путем выбора оплаченных накладных.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-113">You can choose to leave the amount blank, and have the system calculate it by selecting the invoices which were paid.</span></span>  
-8. <span data-ttu-id="ecdfb-114">В поле "Ссылка на платеж" введите значение.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-114">In the Payment reference field, type a value.</span></span>
-    * <span data-ttu-id="ecdfb-115">Ссылкой на платеж может быть номер чека для вводимого платежа.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-115">The payment reference could be the check number for the payment you are entering.</span></span> <span data-ttu-id="ecdfb-116">Ссылка на платеж требуется для включения платежа в бланк депозита.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-116">The payment reference is required in order to include the payment on a deposit slip.</span></span>  
-9. <span data-ttu-id="ecdfb-117">Установите флажок "Использовать бланк депозита".</span><span class="sxs-lookup"><span data-stu-id="ecdfb-117">Mark the box Use a deposit slip.</span></span>
-    * <span data-ttu-id="ecdfb-118">Если платеж должен быть включен в депозит, измените значение этого параметра на "Да".</span><span class="sxs-lookup"><span data-stu-id="ecdfb-118">If the payment should be included in the deposit, change this setting to Yes.</span></span>  
-10. <span data-ttu-id="ecdfb-119">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="ecdfb-119">Click New.</span></span>
-11. <span data-ttu-id="ecdfb-120">В поле "Счет" выберите клиента для следующего платежа.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-120">In the Account field, select the Customer for the next payment.</span></span>
-12. <span data-ttu-id="ecdfb-121">В поле "Кредит" введите сумму платежа.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-121">In the Credit field, enter the payment amount.</span></span>
-13. <span data-ttu-id="ecdfb-122">В поле "Ссылка на платеж" введите значение.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-122">In the Payment reference field, type a value.</span></span>
-14. <span data-ttu-id="ecdfb-123">Установите флажок "Использовать бланк депозита".</span><span class="sxs-lookup"><span data-stu-id="ecdfb-123">Mark the box Use a deposit slip.</span></span>
-15. <span data-ttu-id="ecdfb-124">Щелкните "Разнести".</span><span class="sxs-lookup"><span data-stu-id="ecdfb-124">Click Post.</span></span>
-    * <span data-ttu-id="ecdfb-125">Платежи необходимо разнести до создания бланка депозита.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-125">Payments must be posted before the deposit slip can be generated.</span></span> <span data-ttu-id="ecdfb-126">Это гарантирует, что платежи не изменятся после создания бланка депозита.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-126">This is to ensure that the payments don't change after the deposit slip is generated.</span></span>  
-16. <span data-ttu-id="ecdfb-127">Щелкните Функции.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-127">Click Functions.</span></span>
-17. <span data-ttu-id="ecdfb-128">Щелкните "Бланк депозита".</span><span class="sxs-lookup"><span data-stu-id="ecdfb-128">Click Deposit slip.</span></span>
-18. <span data-ttu-id="ecdfb-129">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="ecdfb-129">Click OK.</span></span>
-    * <span data-ttu-id="ecdfb-130">Первая страница используется для создания бланка депозита.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-130">The first page is used to create the deposit slip.</span></span>  
-19. <span data-ttu-id="ecdfb-131">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="ecdfb-131">Click OK.</span></span>
-    * <span data-ttu-id="ecdfb-132">Второй этап — печать бланка депозита, но этот шаг не является обязательным.</span><span class="sxs-lookup"><span data-stu-id="ecdfb-132">The second step is to print the deposit slip, but this step is not required.</span></span>  
+1. <span data-ttu-id="564aa-106">Перейдите в раздел "Расчеты с клиентами" > "Настройка платежей" > "Журнал платежей".</span><span class="sxs-lookup"><span data-stu-id="564aa-106">Go to Accounts receivable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="564aa-107">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="564aa-107">Click New.</span></span>
+3. <span data-ttu-id="564aa-108">В поле "Имя" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="564aa-108">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="564aa-109">Выберите журнал платежей.</span><span class="sxs-lookup"><span data-stu-id="564aa-109">Select the payment journal.</span></span> 
+5. <span data-ttu-id="564aa-110">Выберите Строки.</span><span class="sxs-lookup"><span data-stu-id="564aa-110">Click Lines.</span></span>
+6. <span data-ttu-id="564aa-111">В поле "Счет" выберите клиента, для которого записывается платеж.</span><span class="sxs-lookup"><span data-stu-id="564aa-111">In the Account field, select the Customer for whom you are recording the payment.</span></span>
+7. <span data-ttu-id="564aa-112">В поле "Кредит" введите сумму платежа.</span><span class="sxs-lookup"><span data-stu-id="564aa-112">In the Credit field, enter the amount of the payment.</span></span>
+    * <span data-ttu-id="564aa-113">Можно оставить сумму незаполненной, чтобы система рассчитывала ее путем выбора оплаченных накладных.</span><span class="sxs-lookup"><span data-stu-id="564aa-113">You can choose to leave the amount blank, and have the system calculate it by selecting the invoices which were paid.</span></span>  
+8. <span data-ttu-id="564aa-114">В поле "Ссылка на платеж" введите значение.</span><span class="sxs-lookup"><span data-stu-id="564aa-114">In the Payment reference field, type a value.</span></span>
+    * <span data-ttu-id="564aa-115">Ссылкой на платеж может быть номер чека для вводимого платежа.</span><span class="sxs-lookup"><span data-stu-id="564aa-115">The payment reference could be the check number for the payment you are entering.</span></span> <span data-ttu-id="564aa-116">Ссылка на платеж требуется для включения платежа в бланк депозита.</span><span class="sxs-lookup"><span data-stu-id="564aa-116">The payment reference is required in order to include the payment on a deposit slip.</span></span>  
+9. <span data-ttu-id="564aa-117">Установите флажок "Использовать бланк депозита".</span><span class="sxs-lookup"><span data-stu-id="564aa-117">Mark the box Use a deposit slip.</span></span>
+    * <span data-ttu-id="564aa-118">Если платеж должен быть включен в депозит, измените значение этого параметра на "Да".</span><span class="sxs-lookup"><span data-stu-id="564aa-118">If the payment should be included in the deposit, change this setting to Yes.</span></span>  
+10. <span data-ttu-id="564aa-119">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="564aa-119">Click New.</span></span>
+11. <span data-ttu-id="564aa-120">В поле "Счет" выберите клиента для следующего платежа.</span><span class="sxs-lookup"><span data-stu-id="564aa-120">In the Account field, select the Customer for the next payment.</span></span>
+12. <span data-ttu-id="564aa-121">В поле "Кредит" введите сумму платежа.</span><span class="sxs-lookup"><span data-stu-id="564aa-121">In the Credit field, enter the payment amount.</span></span>
+13. <span data-ttu-id="564aa-122">В поле "Ссылка на платеж" введите значение.</span><span class="sxs-lookup"><span data-stu-id="564aa-122">In the Payment reference field, type a value.</span></span>
+14. <span data-ttu-id="564aa-123">Установите флажок "Использовать бланк депозита".</span><span class="sxs-lookup"><span data-stu-id="564aa-123">Mark the box Use a deposit slip.</span></span>
+15. <span data-ttu-id="564aa-124">Щелкните "Разнести".</span><span class="sxs-lookup"><span data-stu-id="564aa-124">Click Post.</span></span>
+    * <span data-ttu-id="564aa-125">Платежи необходимо разнести до создания бланка депозита.</span><span class="sxs-lookup"><span data-stu-id="564aa-125">Payments must be posted before the deposit slip can be generated.</span></span> <span data-ttu-id="564aa-126">Это гарантирует, что платежи не изменятся после создания бланка депозита.</span><span class="sxs-lookup"><span data-stu-id="564aa-126">This is to ensure that the payments don't change after the deposit slip is generated.</span></span>  
+16. <span data-ttu-id="564aa-127">Щелкните Функции.</span><span class="sxs-lookup"><span data-stu-id="564aa-127">Click Functions.</span></span>
+17. <span data-ttu-id="564aa-128">Щелкните "Бланк депозита".</span><span class="sxs-lookup"><span data-stu-id="564aa-128">Click Deposit slip.</span></span>
+18. <span data-ttu-id="564aa-129">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="564aa-129">Click OK.</span></span>
+    * <span data-ttu-id="564aa-130">Первая страница используется для создания бланка депозита.</span><span class="sxs-lookup"><span data-stu-id="564aa-130">The first page is used to create the deposit slip.</span></span>  
+19. <span data-ttu-id="564aa-131">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="564aa-131">Click OK.</span></span>
+    * <span data-ttu-id="564aa-132">Второй этап — печать бланка депозита, но этот шаг не является обязательным.</span><span class="sxs-lookup"><span data-stu-id="564aa-132">The second step is to print the deposit slip, but this step is not required.</span></span>  
 

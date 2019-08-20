@@ -10,46 +10,46 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, PCRuntimeConfigurator, PCTemplateConfigurationSelection
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 882198bf07233867b54579b986f93f5c1b46c1b6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 39ccb68ba76cd710412df6a46fc624608d02902b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564209"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844545"
 ---
-# <a name="create-a-sales-order-for-a-configurable-product"></a><span data-ttu-id="93a5c-103">Создание заказа на продажу для настраиваемого продукта</span><span class="sxs-lookup"><span data-stu-id="93a5c-103">Create a sales order for a configurable product</span></span>
+# <a name="create-a-sales-order-for-a-configurable-product"></a><span data-ttu-id="9073c-103">Создание заказа на продажу для настраиваемого продукта</span><span class="sxs-lookup"><span data-stu-id="9073c-103">Create a sales order for a configurable product</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="93a5c-104">Эта процедура показывает, как применять шаблон конфигурации к продукту в заказе на продажу.</span><span class="sxs-lookup"><span data-stu-id="93a5c-104">This procedure shows how to apply a configuration template to a product on a sales order.</span></span> <span data-ttu-id="93a5c-105">В этом примере использует модель динамика D0006 в демонстрационных данных компании USMF.</span><span class="sxs-lookup"><span data-stu-id="93a5c-105">This example uses the D0006 speaker model in the USMF demo data company.</span></span> <span data-ttu-id="93a5c-106">Обычно эту процедуру используется сотрудник, обрабатывающий заказы на продажу.</span><span class="sxs-lookup"><span data-stu-id="93a5c-106">Typically, a sales order processor uses this procedure.</span></span>
+<span data-ttu-id="9073c-104">Эта процедура показывает, как применять шаблон конфигурации к продукту в заказе на продажу.</span><span class="sxs-lookup"><span data-stu-id="9073c-104">This procedure shows how to apply a configuration template to a product on a sales order.</span></span> <span data-ttu-id="9073c-105">В этом примере использует модель динамика D0006 в демонстрационных данных компании USMF.</span><span class="sxs-lookup"><span data-stu-id="9073c-105">This example uses the D0006 speaker model in the USMF demo data company.</span></span> <span data-ttu-id="9073c-106">Обычно эту процедуру используется сотрудник, обрабатывающий заказы на продажу.</span><span class="sxs-lookup"><span data-stu-id="9073c-106">Typically, a sales order processor uses this procedure.</span></span>
 
 
-## <a name="create-a-sales-order"></a><span data-ttu-id="93a5c-107">Создать заказ на продажу</span><span class="sxs-lookup"><span data-stu-id="93a5c-107">Create a sales order</span></span>
-1. <span data-ttu-id="93a5c-108">Щелкните "Обработка и запрос заказов на продажу".</span><span class="sxs-lookup"><span data-stu-id="93a5c-108">Click Sales order processing and inquiry.</span></span>
-2. <span data-ttu-id="93a5c-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="93a5c-109">Click New.</span></span>
-3. <span data-ttu-id="93a5c-110">Щелкните "Заказ на продажу".</span><span class="sxs-lookup"><span data-stu-id="93a5c-110">Click Sales order.</span></span>
-4. <span data-ttu-id="93a5c-111">В поле "Счет клиента" выберите US-001.</span><span class="sxs-lookup"><span data-stu-id="93a5c-111">In the Customer account field, select US-001.</span></span> 
-5. <span data-ttu-id="93a5c-112">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="93a5c-112">Click OK.</span></span>
-6. <span data-ttu-id="93a5c-113">В поле "Код номенклатуры" выберите "D0006".</span><span class="sxs-lookup"><span data-stu-id="93a5c-113">In the Item number field, select D0006.</span></span>
-    * <span data-ttu-id="93a5c-114">Для этой задачи необходимо выбрать конфигурируемый продукт.</span><span class="sxs-lookup"><span data-stu-id="93a5c-114">For this task, you must select a configurable product.</span></span>  
-7. <span data-ttu-id="93a5c-115">Щелкните "Продукт и поставки".</span><span class="sxs-lookup"><span data-stu-id="93a5c-115">Click Product and supply.</span></span>
-8. <span data-ttu-id="93a5c-116">Щелкните "Настроить строку".</span><span class="sxs-lookup"><span data-stu-id="93a5c-116">Click Configure line.</span></span>
-    * <span data-ttu-id="93a5c-117">Обратите внимание, что цена была изменена, на основании конфигурации, которая была выбрана, и что в поле "Включая кабель" теперь установлено значение "Истина".</span><span class="sxs-lookup"><span data-stu-id="93a5c-117">Note that the price has changed, based on the configuration that was selected, and that the Include cable field is now set to True.</span></span>  
-    * <span data-ttu-id="93a5c-118">Заметьте цену по умолчанию и параметры, выбранные для кабеля.</span><span class="sxs-lookup"><span data-stu-id="93a5c-118">Note the default price and the settings that are selected for the cable.</span></span>  
-9. <span data-ttu-id="93a5c-119">Щелкните "Загрузить шаблон".</span><span class="sxs-lookup"><span data-stu-id="93a5c-119">Click Load template.</span></span>
-    * <span data-ttu-id="93a5c-120">В этом примере показано, как можно применить шаблон для выбора предопределенной конфигурации.</span><span class="sxs-lookup"><span data-stu-id="93a5c-120">This example shows how you can apply a template to select a predefined configuration.</span></span> <span data-ttu-id="93a5c-121">Если эта процедура используется как проводник по задаче, и вы хотите видеть другие значения атрибутов, которые доступны, необходимо нажать на кнопку "Разблокировать".</span><span class="sxs-lookup"><span data-stu-id="93a5c-121">If you’re using this procedure as a task guide and want to see the other attribute values that are available, you must click the Unlock button.</span></span>  
-10. <span data-ttu-id="93a5c-122">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="93a5c-122">Click OK.</span></span>
-11. <span data-ttu-id="93a5c-123">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="93a5c-123">Click OK.</span></span>
-12. <span data-ttu-id="93a5c-124">Разверните раздел "Сведения о строке".</span><span class="sxs-lookup"><span data-stu-id="93a5c-124">Expand the Line details section.</span></span>
-13. <span data-ttu-id="93a5c-125">Перейдите на вкладку "Продукт".</span><span class="sxs-lookup"><span data-stu-id="93a5c-125">Click the Product tab.</span></span>
-    * <span data-ttu-id="93a5c-126">Конфигурация номенклатуры теперь указана в аналитиках продукта.</span><span class="sxs-lookup"><span data-stu-id="93a5c-126">The configuration of the item is now listed under the product dimensions.</span></span>  
-14. <span data-ttu-id="93a5c-127">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="93a5c-127">Close the page.</span></span>
+## <a name="create-a-sales-order"></a><span data-ttu-id="9073c-107">Создать заказ на продажу</span><span class="sxs-lookup"><span data-stu-id="9073c-107">Create a sales order</span></span>
+1. <span data-ttu-id="9073c-108">Щелкните "Обработка и запрос заказов на продажу".</span><span class="sxs-lookup"><span data-stu-id="9073c-108">Click Sales order processing and inquiry.</span></span>
+2. <span data-ttu-id="9073c-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="9073c-109">Click New.</span></span>
+3. <span data-ttu-id="9073c-110">Щелкните "Заказ на продажу".</span><span class="sxs-lookup"><span data-stu-id="9073c-110">Click Sales order.</span></span>
+4. <span data-ttu-id="9073c-111">В поле "Счет клиента" выберите US-001.</span><span class="sxs-lookup"><span data-stu-id="9073c-111">In the Customer account field, select US-001.</span></span> 
+5. <span data-ttu-id="9073c-112">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="9073c-112">Click OK.</span></span>
+6. <span data-ttu-id="9073c-113">В поле "Код номенклатуры" выберите "D0006".</span><span class="sxs-lookup"><span data-stu-id="9073c-113">In the Item number field, select D0006.</span></span>
+    * <span data-ttu-id="9073c-114">Для этой задачи необходимо выбрать конфигурируемый продукт.</span><span class="sxs-lookup"><span data-stu-id="9073c-114">For this task, you must select a configurable product.</span></span>  
+7. <span data-ttu-id="9073c-115">Щелкните "Продукт и поставки".</span><span class="sxs-lookup"><span data-stu-id="9073c-115">Click Product and supply.</span></span>
+8. <span data-ttu-id="9073c-116">Щелкните "Настроить строку".</span><span class="sxs-lookup"><span data-stu-id="9073c-116">Click Configure line.</span></span>
+    * <span data-ttu-id="9073c-117">Обратите внимание, что цена была изменена, на основании конфигурации, которая была выбрана, и что в поле "Включая кабель" теперь установлено значение "Истина".</span><span class="sxs-lookup"><span data-stu-id="9073c-117">Note that the price has changed, based on the configuration that was selected, and that the Include cable field is now set to True.</span></span>  
+    * <span data-ttu-id="9073c-118">Заметьте цену по умолчанию и параметры, выбранные для кабеля.</span><span class="sxs-lookup"><span data-stu-id="9073c-118">Note the default price and the settings that are selected for the cable.</span></span>  
+9. <span data-ttu-id="9073c-119">Щелкните "Загрузить шаблон".</span><span class="sxs-lookup"><span data-stu-id="9073c-119">Click Load template.</span></span>
+    * <span data-ttu-id="9073c-120">В этом примере показано, как можно применить шаблон для выбора предопределенной конфигурации.</span><span class="sxs-lookup"><span data-stu-id="9073c-120">This example shows how you can apply a template to select a predefined configuration.</span></span> <span data-ttu-id="9073c-121">Если эта процедура используется как проводник по задаче, и вы хотите видеть другие значения атрибутов, которые доступны, необходимо нажать на кнопку "Разблокировать".</span><span class="sxs-lookup"><span data-stu-id="9073c-121">If you’re using this procedure as a task guide and want to see the other attribute values that are available, you must click the Unlock button.</span></span>  
+10. <span data-ttu-id="9073c-122">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="9073c-122">Click OK.</span></span>
+11. <span data-ttu-id="9073c-123">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="9073c-123">Click OK.</span></span>
+12. <span data-ttu-id="9073c-124">Разверните раздел "Сведения о строке".</span><span class="sxs-lookup"><span data-stu-id="9073c-124">Expand the Line details section.</span></span>
+13. <span data-ttu-id="9073c-125">Перейдите на вкладку "Продукт".</span><span class="sxs-lookup"><span data-stu-id="9073c-125">Click the Product tab.</span></span>
+    * <span data-ttu-id="9073c-126">Конфигурация номенклатуры теперь указана в аналитиках продукта.</span><span class="sxs-lookup"><span data-stu-id="9073c-126">The configuration of the item is now listed under the product dimensions.</span></span>  
+14. <span data-ttu-id="9073c-127">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="9073c-127">Close the page.</span></span>
 
-## <a name="select-the-product-configuration"></a><span data-ttu-id="93a5c-128">Выберите конфигурацию продукта.</span><span class="sxs-lookup"><span data-stu-id="93a5c-128">Select the product configuration</span></span>
+## <a name="select-the-product-configuration"></a><span data-ttu-id="9073c-128">Выберите конфигурацию продукта.</span><span class="sxs-lookup"><span data-stu-id="9073c-128">Select the product configuration</span></span>
 

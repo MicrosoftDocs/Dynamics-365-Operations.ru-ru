@@ -10,42 +10,42 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1757a1477e46f71e327bb70cf4780767b7509e55
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7eee00021f49ac0110d7bde07faba8095348e1b4
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568731"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852651"
 ---
-# <a name="import-iso20022-direct-debit-configuration"></a><span data-ttu-id="57a43-103">Импорт конфигурации безакцептного списания ISO20022</span><span class="sxs-lookup"><span data-stu-id="57a43-103">Import ISO20022 direct debit configuration</span></span>
+# <a name="import-iso20022-direct-debit-configuration"></a><span data-ttu-id="3e03e-103">Импорт конфигурации безакцептного списания ISO20022</span><span class="sxs-lookup"><span data-stu-id="3e03e-103">Import ISO20022 direct debit configuration</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="57a43-104">Эта процедура показывает, как импортировать конфигурацию электронной отчетности по платежам клиентов.</span><span class="sxs-lookup"><span data-stu-id="57a43-104">This procedure demonstrates how to import a customer payment electronic reporting configuration.</span></span> <span data-ttu-id="57a43-105">Эта процедура использует формат прямого дебетования ISO 20022 в качестве примера.</span><span class="sxs-lookup"><span data-stu-id="57a43-105">This procedure uses the ISO 20022 direct debit format as an example.</span></span> 
+<span data-ttu-id="3e03e-104">Эта процедура показывает, как импортировать конфигурацию электронной отчетности по платежам клиентов.</span><span class="sxs-lookup"><span data-stu-id="3e03e-104">This procedure demonstrates how to import a customer payment electronic reporting configuration.</span></span> <span data-ttu-id="3e03e-105">Эта процедура использует формат прямого дебетования ISO 20022 в качестве примера.</span><span class="sxs-lookup"><span data-stu-id="3e03e-105">This procedure uses the ISO 20022 direct debit format as an example.</span></span> 
 
 
 
-<span data-ttu-id="57a43-106">Эта процедура была создана с использованием демонстрационных данных компании DEMF, но можно использовать любую компанию с демонстрационными данными для этих целей.</span><span class="sxs-lookup"><span data-stu-id="57a43-106">This procedure was created using the demo data company DEMF but you can use any demo data company for this purpose.</span></span>
+<span data-ttu-id="3e03e-106">Эта процедура была создана с использованием демонстрационных данных компании DEMF, но можно использовать любую компанию с демонстрационными данными для этих целей.</span><span class="sxs-lookup"><span data-stu-id="3e03e-106">This procedure was created using the demo data company DEMF but you can use any demo data company for this purpose.</span></span>
 
 
 
-<span data-ttu-id="57a43-107">Это первая процедура из пяти, которые демонстрируют процесс платежа клиентов с помощью конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="57a43-107">This is the first of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
+<span data-ttu-id="3e03e-107">Это первая процедура из пяти, которые демонстрируют процесс платежа клиентов с помощью конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="3e03e-107">This is the first of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
 
-1. <span data-ttu-id="57a43-108">Перейдите в раздел "Управление организацией" > "Рабочие области" > "Электронная отчетность".</span><span class="sxs-lookup"><span data-stu-id="57a43-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="57a43-109">В списке доступных поставщиков конфигурации выберите Microsoft.</span><span class="sxs-lookup"><span data-stu-id="57a43-109">In the list of available configuration providers, select Microsoft.</span></span>
-3. <span data-ttu-id="57a43-110">Щелкните "Установить как активное".</span><span class="sxs-lookup"><span data-stu-id="57a43-110">Click Set active.</span></span>
-4. <span data-ttu-id="57a43-111">Щелкните "Репозитории".</span><span class="sxs-lookup"><span data-stu-id="57a43-111">Click Repositories.</span></span>
-5. <span data-ttu-id="57a43-112">Щелкните Открыть.</span><span class="sxs-lookup"><span data-stu-id="57a43-112">Click Open.</span></span>
-6. <span data-ttu-id="57a43-113">Щелкните "Показать фильтры".</span><span class="sxs-lookup"><span data-stu-id="57a43-113">Click Show filters.</span></span>
-7. <span data-ttu-id="57a43-114">Примените следующие фильтры: введите значение фильтра "Прямое дебетование ISO20022 (DE)" в поле "Имя конфигурации", используя оператор фильтра "начинается с".</span><span class="sxs-lookup"><span data-stu-id="57a43-114">Apply the following filters: Enter a filter value of "ISO20022 Direct debit (DE)" on the "Configuration name" field using the "begins with" filter operator</span></span>
-    * <span data-ttu-id="57a43-115">Если требуется, можно найти конфигурацию в списке, выбрать ее и пропустить этот шаг.</span><span class="sxs-lookup"><span data-stu-id="57a43-115">Optionally, you can find the configuration in the list, select it, and skip this step.</span></span>  
-8. <span data-ttu-id="57a43-116">Нажмите кнопку Импорт.</span><span class="sxs-lookup"><span data-stu-id="57a43-116">Click Import.</span></span>
-    * <span data-ttu-id="57a43-117">Если кнопка "Импорт" недоступна, это означает, что данная конфигурация уже была импортирована.</span><span class="sxs-lookup"><span data-stu-id="57a43-117">If the Import button is not available, it means that the configuration has been imported already.</span></span>  
-9. <span data-ttu-id="57a43-118">Щелкните Да.</span><span class="sxs-lookup"><span data-stu-id="57a43-118">Click Yes.</span></span>
+1. <span data-ttu-id="3e03e-108">Перейдите в раздел "Управление организацией" > "Рабочие области" > "Электронная отчетность".</span><span class="sxs-lookup"><span data-stu-id="3e03e-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="3e03e-109">В списке доступных поставщиков конфигурации выберите Microsoft.</span><span class="sxs-lookup"><span data-stu-id="3e03e-109">In the list of available configuration providers, select Microsoft.</span></span>
+3. <span data-ttu-id="3e03e-110">Щелкните "Установить как активное".</span><span class="sxs-lookup"><span data-stu-id="3e03e-110">Click Set active.</span></span>
+4. <span data-ttu-id="3e03e-111">Щелкните "Репозитории".</span><span class="sxs-lookup"><span data-stu-id="3e03e-111">Click Repositories.</span></span>
+5. <span data-ttu-id="3e03e-112">Щелкните Открыть.</span><span class="sxs-lookup"><span data-stu-id="3e03e-112">Click Open.</span></span>
+6. <span data-ttu-id="3e03e-113">Щелкните "Показать фильтры".</span><span class="sxs-lookup"><span data-stu-id="3e03e-113">Click Show filters.</span></span>
+7. <span data-ttu-id="3e03e-114">Примените следующие фильтры: введите значение фильтра "Прямое дебетование ISO20022 (DE)" в поле "Имя конфигурации", используя оператор фильтра "начинается с".</span><span class="sxs-lookup"><span data-stu-id="3e03e-114">Apply the following filters: Enter a filter value of "ISO20022 Direct debit (DE)" on the "Configuration name" field using the "begins with" filter operator</span></span>
+    * <span data-ttu-id="3e03e-115">Если требуется, можно найти конфигурацию в списке, выбрать ее и пропустить этот шаг.</span><span class="sxs-lookup"><span data-stu-id="3e03e-115">Optionally, you can find the configuration in the list, select it, and skip this step.</span></span>  
+8. <span data-ttu-id="3e03e-116">Нажмите кнопку Импорт.</span><span class="sxs-lookup"><span data-stu-id="3e03e-116">Click Import.</span></span>
+    * <span data-ttu-id="3e03e-117">Если кнопка "Импорт" недоступна, это означает, что данная конфигурация уже была импортирована.</span><span class="sxs-lookup"><span data-stu-id="3e03e-117">If the Import button is not available, it means that the configuration has been imported already.</span></span>  
+9. <span data-ttu-id="3e03e-118">Щелкните Да.</span><span class="sxs-lookup"><span data-stu-id="3e03e-118">Click Yes.</span></span>
 
