@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f677c9d9d67ce9b205dd20c39aaa1fbe29175128
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fa53feaeaccaf9254f909f4221765eb5466a40bc
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545424"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849320"
 ---
 # <a name="cash-flow-management-russia"></a>Управление движением денежных средств (Россия)
 

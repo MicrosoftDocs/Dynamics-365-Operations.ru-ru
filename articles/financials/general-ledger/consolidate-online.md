@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: fd29dc5f932c9cd274a42923e1ff659dd5d8e9d6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8836e5b43498c792d214b13b2196645c4ee3ffba
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567314"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863808"
 ---
 # <a name="consolidate-online"></a>Консолидировать интерактивно
 
@@ -69,7 +69,7 @@ ms.locfileid: "1567314"
 
 ![Вкладка "Юридические лица"](./media/legal-entities-cons.png "Вкладка \"Юридические лица\"")
 
-![Страница "Счета для автоматических проводок"](./media/accounts%20for%20automatic%20(cons).png "Страница \"Счета для автоматических проводок\"")
+![Страница "Счета для автоматических проводок"](./media/accounts-for-automatic-cons.png "Страница \"Счета для автоматических проводок\"")
 
 ## <a name="elimination"></a>Элиминирование
 На вкладке **Элиминирование** предусмотрено три варианта для обработки элиминирований:

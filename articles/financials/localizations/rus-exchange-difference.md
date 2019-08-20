@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ceddaa3e217032bf46a962665592477f858b8ed7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d8d9e9391630bd52c75ea797cd4bae97bc5e32e8
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565093"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849308"
 ---
 # <a name="set-up-exchange-rates-for-currency-transactions"></a>Настройка валютных курсов для проводок в валюте
 

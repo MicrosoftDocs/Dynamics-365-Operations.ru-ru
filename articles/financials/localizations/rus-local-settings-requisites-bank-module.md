@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankGroup, BankAccountTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 25c15f9516dbd6511d0a507f9fc4a838ce363294
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 11b998329d432afae478dc88724ecf5fffe9f289
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556258"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849291"
 ---
 # <a name="set-up-bank-accounts-russia"></a>Настройка банковских счетов (Россия)
 

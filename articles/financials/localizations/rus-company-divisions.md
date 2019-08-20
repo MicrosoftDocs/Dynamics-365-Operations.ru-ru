@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b76791077377181ac0e5a7af0e918f6669ee44df
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: de8ca05fe191f13995ff1323689c046439ba925d
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565099"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849311"
 ---
 # <a name="company-divisions-russia"></a>Подразделения компании (Россия)
 

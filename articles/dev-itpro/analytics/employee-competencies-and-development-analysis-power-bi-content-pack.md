@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 263894
 ms.assetid: 7d375d8a-b2de-4bec-b575-93d1d4521b79
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0442e795eadf28a07132c160d69ad44e9fb05eed
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1b1a0c8f756601dc342ab44364ea362cf2698f3c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553285"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849745"
 ---
 # <a name="employee-competencies-and-development-power-bi-content"></a>Содержимое Power BI "Компетенции и развитие сотрудников"
 
@@ -31,7 +31,7 @@ ms.locfileid: "1553285"
 В этом разделе рассматривается содержимое Power BI Finance and Operations — компетенции и развитие сотрудников. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Отчеты, включенные в пакет содержимого
-После подключения пакета содержимого к данным Finance and Operations в отчетах будут отображаться данные вашей организации. Если вы до сих пор не использовали Microsoft Power BI, больше узнать о нем можно на [странице интерактивного обучения по Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Отчеты, включенные в пакет содержимого, включают диаграммы и таблицы, которые содержат дополнительные сведения. В следующей таблице приводится описание отчетов.
+После подключения пакета содержимого к данным Finance and Operations в отчетах будут отображаться данные вашей организации. Если вы до сих пор не использовали Microsoft Power BI, больше узнать о нем можно на [странице интерактивного обучения по Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Отчеты, включенные в пакет содержимого, включают диаграммы и таблицы, которые содержат дополнительные сведения. В следующей таблице приводится описание отчетов.
 
 | Отчет                            | Содержание                                               |
 |-----------------------------------|--------------------------------------------------------|
@@ -39,7 +39,7 @@ ms.locfileid: "1553285"
 | Профиль навыков                     | Профиль навыков для выбранного сотрудника                |
 | Анализ навыков                    | Навыки по типам и рейтингу                              |
 
-Можно фильтровать диаграммы и плитки в этих отчетах, а также закреплять диаграммы и плитки на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Можно фильтровать диаграммы и плитки в этих отчетах, а также закреплять диаграммы и плитки на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 Данные Finance and Operations используются для заполнения отчетов в пакете содержимого компетенции и развития сотрудников. В следующей таблице показаны объекты, на которых основан пакет содержимого.

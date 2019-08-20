@@ -8,18 +8,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0df067409d4a23d511dbef704ddbc03c2c898e55
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6181709837666fac72706064786313ac134c8d3c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538371"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849306"
 ---
 # <a name="configure-financial-reports-in-excel-russia"></a>Настройка финансовых отчетов в Excel (Россия)
 

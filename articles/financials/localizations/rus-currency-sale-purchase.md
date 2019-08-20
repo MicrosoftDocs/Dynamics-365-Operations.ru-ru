@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9ed4f86d66e7152ce059831092fa8e6854d094f5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2650f7a33bfa6872163a03a4d27388ce488fea36
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565096"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849313"
 ---
 # <a name="foreign-currency-sales-purchases-and-transfers"></a>Продажи, покупки и переводы в иностранной валюте
 
@@ -95,7 +95,7 @@ Microsoft Dynamics 365 for Finance and Operations позволяет выпол�
 2. Создайте банковский счет или выберите существующий.
 3. На экспресс-вкладке **Управление платежами** в полях **Шаблон поручения (продажа валюты)** и **Шаблон поручения (покупка валюты)** выберите шаблон Microsoft Word.
 
-Дополнительные сведения см. в разделе [Настройка банковских счетов (Россия)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-local-settings-requisites-bank-module).
+Дополнительные сведения см. в разделе [Настройка банковских счетов (Россия)](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/rus-local-settings-requisites-bank-module).
 
 ### <a name="set-up-a-number-sequence"></a>Настройка номерной серии
 

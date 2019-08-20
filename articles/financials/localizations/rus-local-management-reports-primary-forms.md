@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: a393fee73a664f3fe138176d239a4f3f3be1aac2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d23f33afdc4c92df88fd79f6538b80a6d3c117ef
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556260"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849292"
 ---
 # <a name="advance-holders-reports-russia"></a>Отчеты по подотчетным лицам (Россия)
 

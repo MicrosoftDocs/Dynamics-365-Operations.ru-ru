@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RAssetTable, LedgerJournalTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5db11336aab87ce9f90e755bd8d06e4325df8417
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6c38bb7f75087acc9c8469046d4f89a8e0cbaad5
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565091"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849304"
 ---
 # <a name="acquiring-fixed-assets-and-putting-them-into-operation-russia"></a>Приобретение ОС и их ввод в эксплуатацию (Россия)
 

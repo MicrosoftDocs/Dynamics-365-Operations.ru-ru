@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetModel
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c7f82969c17b847844621b4181a7e40b8528a2ac
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb17c80b23f69708567ff8618486026712345489
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545421"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849285"
 ---
 # <a name="create-and-post-budget-journals-for-fixed-asset-acquisitions-russia"></a>Создание и разноска журналов бюджета для приобретений ОС (Россия)
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b0b7b715bc2b3b90bcd6620c3fe0ad751313c06
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551609"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863756"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Определения строк в конструкторе финансовых отчетов
 
@@ -161,7 +161,7 @@ ms.locfileid: "1551609"
 
 1. В конструкторе отчетов выберите редактируемое определение строки.
 2. Выберите ячейки, которые форматировать. Чтобы выбрать несколько ячеек, удерживайте клавишу Ctrl, пока вы выбираете ячейки.
-3. Нажмите кнопку формата, который требуется применить, на панели инструментов. Например, чтобы увеличить отступ строки, выберите строку и щелкните **Увеличить отступ** ![Увеличить отступ](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Увеличить отступ") на панели инструментов.
+3. Нажмите кнопку формата, который требуется применить, на панели инструментов. Например, чтобы увеличить отступ строки, выберите строку и щелкните **Увеличить отступ** ![Увеличить отступ](media/indent.gif "Увеличить отступ") на панели инструментов.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Отрегулируйте столбцы, когда вы конструируете отчеты
 

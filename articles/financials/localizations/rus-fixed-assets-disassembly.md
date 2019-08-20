@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RAssetPosting
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Russia
 ms.author: v-oloski
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4f13ad4f3a6138c38ea2676570c441910d523c46
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c80700109e2f80b23bdc6fcb24b56dd05db1ccd5
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565087"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849299"
 ---
 # <a name="partial-fixed-asset-disassembly-liquidation-russia"></a>Частичная разборка (ликвидация) ОС (Россия)
 

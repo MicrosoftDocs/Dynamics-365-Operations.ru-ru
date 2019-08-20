@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 604cfbaa37a2528ffbb61ff0003c22c451bcf448
-ms.sourcegitcommit: 1f269e1afd876bd592f88eee683664bc93fa64bf
+ms.openlocfilehash: 4543227d291332fd37ed2a5ccc2a82dc80cf9d63
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1539452"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849238"
 ---
 # <a name="sell-dispose-and-write-off-assets-russia"></a>Продажа, выбытие и списание ОС (Россия)
 [!include [banner](../includes/banner.md)]

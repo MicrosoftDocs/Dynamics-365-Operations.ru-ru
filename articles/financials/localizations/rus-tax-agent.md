@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, VATOperationCodeTable_RU
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4ef6f03ef2548e6bc67dcaae8b373940560e6609
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8b78b43f1dc6b63be01a0723c0ae1cab263945e2
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555180"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852793"
 ---
 # <a name="value-added-tax-vat-for-tax-agents-russia"></a>Налог на добавленную стоимость (НДС) для налоговых агентов (Россия)
 

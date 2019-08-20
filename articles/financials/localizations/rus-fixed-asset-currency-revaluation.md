@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: Anasyash
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c82de977ce3e23b77c0a56a5efbbac1da6696d52
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5d80e4f7b957eb0ebb0fc76d550c8b970ca53683
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565090"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849303"
 ---
 # <a name="fixed-asset-currency-revaluation"></a>Переоценка ОС в иностранной валюте
 

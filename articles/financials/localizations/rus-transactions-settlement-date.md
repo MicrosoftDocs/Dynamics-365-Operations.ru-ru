@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 96a35c5b427f39a83eea86fad94f89db653d36ce
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 98ff20ecc4eb4ec1e7e47cd5049b47e115797506
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555179"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849192"
 ---
 # <a name="set-up-dimension-control-for-settlements-russia"></a>Настройка контроля аналитик для сопоставлений (Россия)
 [!include [banner](../includes/banner.md)]

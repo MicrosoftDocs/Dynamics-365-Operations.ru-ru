@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9bf271ca8be984ec5e090a3cca7005150a7967ae
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d69fc8da24427f4d3e1e4cf49285bd750c178d43
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553083"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849298"
 ---
 # <a name="revaluate-fixed-asset-cost-and-depreciation-russia"></a>Переоценка стоимости основных средств и амортизация (Россия)
 

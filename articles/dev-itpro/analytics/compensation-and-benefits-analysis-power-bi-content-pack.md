@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 263914
 ms.assetid: 18634bb5-3341-42f2-9cc9-7b04708b506b
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6834940b16749461066e8f1000cbb7c2d4371109
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 48c968dfacd951d571f91fdcd809454f96f27a02
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548751"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848455"
 ---
 # <a name="compensation-and-benefits-power-bi-content"></a>Содержимое Power BI "Компенсации и льготы"
 
@@ -31,14 +31,14 @@ ms.locfileid: "1548751"
 В этом разделе рассматривается содержимое Power BI Finance and Operations — компенсации и льготы. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Отчеты, включенные в пакет содержимого
-После подключения пакета содержимого к данным Finance and Operations в отчетах будут отображаться данные вашей организации. Если вы до сих пор не использовали Microsoft Power BI, больше узнать о нем можно на [странице интерактивного обучения по Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Отчеты, включенные в пакет содержимого, включают диаграммы и таблицы, которые содержат дополнительные сведения. В следующей таблице приводится описание отчетов.
+После подключения пакета содержимого к данным Finance and Operations в отчетах будут отображаться данные вашей организации. Если вы до сих пор не использовали Microsoft Power BI, больше узнать о нем можно на [странице интерактивного обучения по Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Отчеты, включенные в пакет содержимого, включают диаграммы и таблицы, которые содержат дополнительные сведения. В следующей таблице приводится описание отчетов.
 
 | Отчет                     | Содержание                                                                                                                              |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Анализ компенсаций и льгот | Почасовые и постоянные сотрудники по компаниям, средняя почасовая оплата, средняя зарплата, сотрудники по типу занятости и о приеме на работу и регистрация плана |
 | Льготы сотрудников          | Регистрация сотрудников по выбранным льготам                                                                                               |
 
-Можно фильтровать диаграммы и плитки в этих отчетах, а также закреплять диаграммы и плитки на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Можно фильтровать диаграммы и плитки в этих отчетах, а также закреплять диаграммы и плитки на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 Данные Finance and Operations используются для заполнения отчетов в пакете содержимого компенсаций и льгот. В следующей таблице показаны объекты, на которых основан пакет содержимого.

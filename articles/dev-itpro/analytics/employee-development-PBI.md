@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2e13b43812e0d6f8b50cb3fcf65f277afbe9e806
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552869"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849771"
 ---
 # <a name="employee-development-power-bi-content"></a>Содержимое Power BI "Развитие сотрудников"
 
@@ -41,7 +41,7 @@ ms.locfileid: "1552869"
 | Анализ оценки производительности   | Сотрудники по низшей и высшей оценке по заданию, рейтинги сотрудника по подразделению, сотрудники по рейтингу и типу должности, максимальный и минимальный рейтинг по должности |
 | Анализ производительности сотрудника | Рейтинг сотрудника для выбранного менеджером рейтинга |
 
-Можно фильтровать диаграммы и плитки в этих отчетах, а также закреплять диаграммы и плитки на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Можно фильтровать диаграммы и плитки в этих отчетах, а также закреплять диаграммы и плитки на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 

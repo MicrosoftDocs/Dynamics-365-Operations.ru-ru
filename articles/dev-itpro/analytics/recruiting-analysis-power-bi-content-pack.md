@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 263934
 ms.assetid: 38e6827b-0819-473c-bc47-821a1ec482b8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b92078ca2bc89d752895bf3b4f2f3cdb2c2fd2f6
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544988"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849979"
 ---
 # <a name="recruiting-power-bi-content"></a>Содержимое Power BI "Набор сотрудников"
 
@@ -45,7 +45,7 @@ ms.locfileid: "1544988"
 | Анализ набора кадров  | Чистый коэффициент найма, среднее число дней для найма, процент неудачного найма, затраты на набор сотрудников, число проектов по набору сотрудников, отношение числа принятых кандидатов к общему числу кандидатов и соотношение кандидатов и открытых вакансий по проектам набора сотрудников |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
-Можно фильтровать диаграммы и плитки в этих отчетах, а также закреплять диаграммы и плитки на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Можно фильтровать диаграммы и плитки в этих отчетах, а также закреплять диаграммы и плитки на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 В следующей таблице показаны объекты, на которых основано содержимое Power BI **Набор сотрудников**.
 

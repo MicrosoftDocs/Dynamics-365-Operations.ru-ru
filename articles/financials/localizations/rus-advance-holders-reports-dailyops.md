@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: 93a690db8ea1499b911a03a715fa196df99b5ca2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 952196ba60d660e8c2111a32d73eb9cb59ddbd03
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545425"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849316"
 ---
 # <a name="advance-reports-with-budget-control-russia"></a>Авансовые отчеты с бюджетным контролем (Россия)
 

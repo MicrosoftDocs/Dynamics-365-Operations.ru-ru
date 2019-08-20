@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5385dc25e4a5cfb4d4a93ec63d203324387c6cdd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eba9f7079b74c74465a897fdd6acbd5e907ba5de
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545427"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849318"
 ---
 # <a name="daily-operations-for-advance-holders-in-russia"></a>Ежедневные операции по подотчетным лицам в России
 

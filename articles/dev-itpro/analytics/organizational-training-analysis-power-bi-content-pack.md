@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6c1855013dc449950877f8727a5453942aeb75de
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0fbba70db569423f7aac258eab12cd7f1cd504bc
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545084"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849823"
 ---
 # <a name="organizational-training-power-bi-content"></a>Содержимое Power BI "Организационное обучение"
 
@@ -31,14 +31,14 @@ ms.locfileid: "1545084"
 В этом разделе рассматривается содержимое Power BI "Finance and Operations — организационное обучение".
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Отчеты, включенные в пакет содержимого
-После подключения пакета содержимого к данным Finance and Operations в отчетах будут отображаться данные вашей организации. Если вы до сих пор не использовали Microsoft Power BI, больше узнать о нем можно на [странице интерактивного обучения по Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Отчеты, включенные в пакет содержимого, включают диаграммы и таблицы, которые содержат дополнительные сведения. В следующей таблице приводится описание отчетов.
+После подключения пакета содержимого к данным Finance and Operations в отчетах будут отображаться данные вашей организации. Если вы до сих пор не использовали Microsoft Power BI, больше узнать о нем можно на [странице интерактивного обучения по Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Отчеты, включенные в пакет содержимого, включают диаграммы и таблицы, которые содержат дополнительные сведения. В следующей таблице приводится описание отчетов.
 
 | Отчет          | Содержание                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
 | Анализ курса | Регистрация по местонахождению, участники курса по статусам, а также список регистрации |
 | Типы курсов    | Типы курсов по навыку                                                       |
 
-Можно фильтровать диаграммы и плитки в этих отчетах, а также закреплять диаграммы и плитки на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Можно фильтровать диаграммы и плитки в этих отчетах, а также закреплять диаграммы и плитки на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 Данные Finance and Operations используются для заполнения отчетов в пакете содержимого организационного обучения. В следующей таблице показаны объекты, на которых основан пакет содержимого.

@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b7a9b36f15e7cfa5b72ca27ab58f40b9ff837f48
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0be646d03db066ed311ef4845a99b10089e92912
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565094"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849307"
 ---
 # <a name="set-up-depreciation-russia"></a>Настройка амортизации (Россия)
 

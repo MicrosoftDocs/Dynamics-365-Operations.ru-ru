@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Russia
 ms.author: ilkond
 ms.dyn365.ops.version: 8.0999999999999996
 ms.search.validFrom: 2018-10-31
-ms.openlocfilehash: d4feb7eab0839ce44e6d431fa72f90d32d2c8107
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 88cadf2880d91a051567c1f235d523244aad06e5
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550269"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849319"
 ---
 # <a name="revaluate-foreign-currency-for-advance-holders-russia"></a>Переоценка в иностранной валюте для подотчетных лиц (Россия)
 

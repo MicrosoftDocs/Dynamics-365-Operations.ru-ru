@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cabd98cdfd4217c3221708465c6ac99a6ed8b273
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5e16a8928f7625e8d7184b6b7ffd2d932391a17d
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565086"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849297"
 ---
 # <a name="set-up-fixed-asset-locations-and-numbering-russia"></a>Настройка расположений основных средств и нумерация (Россия)
 

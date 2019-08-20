@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be23b99ddc224328cf067fe0bf36be93fcef4337
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561470"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846049"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Синхронизация контрактов по проекту и проектов непосредственно из Project Service Automation с Finance and Operations
 
@@ -94,15 +94,15 @@ ms.locfileid: "1561470"
 ## <a name="prerequisites-and-mapping-setup"></a>Необходимые условия и настройка сопоставления
 
 - Перед синхронизацией контрактов проекта и проектов вы должны синхронизировать учетные записи.
-- При подключении добавить соответствие ключевого поля интеграции для **msdyn\_organizationalunits** в **msdyn\_имя \[Имя\]**. Сначала может потребоваться добавить проекты в набор подключения. Дополнительные сведения см. в разделе [Интеграция данных в Common Data Service для приложений](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- При подключении добавить соответствие ключевого поля интеграции для **msdyn\_projects** в **msdynce\_projectnumber \[Project Number\]**. Сначала может потребоваться добавить проекты в набор подключения. Дополнительные сведения см. в разделе [Интеграция данных в Common Data Service для приложений](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- При подключении добавить соответствие ключевого поля интеграции для **msdyn\_organizationalunits** в **msdyn\_имя \[Имя\]**. Сначала может потребоваться добавить проекты в набор подключения. Дополнительные сведения см. в разделе [Интеграция данных в Common Data Service для приложений](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- При подключении добавить соответствие ключевого поля интеграции для **msdyn\_projects** в **msdynce\_projectnumber \[Project Number\]**. Сначала может потребоваться добавить проекты в набор подключения. Дополнительные сведения см. в разделе [Интеграция данных в Common Data Service для приложений](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** для контрактов по проекту и проектов могут быть обновлены на другое значение или удалены из соответствия. Шаблон по умолчанию — **Project Service Automation**.
 - Соответствие **PaymentTerms** должно быть обновлено, чтобы соответствовать допустимым условиям оплаты в Finance and Operations. Можно также удалить соответствии из задачи проекта. Значение по умолчанию имеет значения по умолчанию для демонстрационных данных. Следующая таблица показывает значения в Project Service Automation.
 
     | Стоимость | описание   |
     |-------|---------------|
     | 1     | Сальдо 30        |
-    | 2     | 2%10, Чистые 30 |
+    | 2     | 2% 10, Чистые 30 |
     | 3     | Сальдо 45        |
     | 4     | Сальдо 60        |
 

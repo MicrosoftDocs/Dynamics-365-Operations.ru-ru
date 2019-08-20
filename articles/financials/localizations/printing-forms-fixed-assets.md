@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: v-oloski
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8b20a5be0393386c01b989f921c972af829ad6bb
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 44d8654c1b7d31bd87ff8f8ced6df5d99dbdc33f
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538372"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863685"
 ---
 # <a name="unified-printing-forms-for-fixed-assets-russia"></a>Унифицированные формы печати для основных средств (Россия)
 
@@ -83,11 +83,11 @@ ms.locfileid: "1538372"
 1. Перейдите в раздел **Основное средство (Россия)** \> **Общие** \> **Основные средства**.
 2. Выберите вкладку **Основные средства**, затем в области действий выберите **Документы** \> **Документы** \> **Карточка учета (\#FA6)**.
 
-  ![Выбор карточки учета ОС](media/RUS-%20Selection%20of%20FA6-%20inventory%20card.png) 
+  ![Выбор карточки учета ОС](media/RUS-Selection-of-FA6-inventory-card.png) 
 
 3. Щелкните **Создать** в списке страницы карточки учета (\#FA-6) для создания карточки учета для модели стоимости.
 
- ![Карточка учета основных средств](media/RUS-FA6%20-%20inventory%20card.png)
+ ![Карточка учета основных средств](media/RUS-FA6-inventory-card.png)
 
 
 После создания записи можно напечатать унифицированную форму с этого списка страниц.
@@ -126,4 +126,4 @@ ms.locfileid: "1538372"
 
 Чтобы напечатать документы, созданные из запросов, выберите **Основные средства (Россия)** \> **Запросы** \> **Документы**. Выделите документ для печати, затем выберите **Печать**.
 
-![Печать унифицированных форм из запросов](media/RUS-Print%20unified%20forms.png)
+![Печать унифицированных форм из запросов](media/RUS-Print-unified-forms.png)

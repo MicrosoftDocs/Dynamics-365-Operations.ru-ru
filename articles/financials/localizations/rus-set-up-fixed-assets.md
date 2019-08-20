@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aa8eae9414107c32e1ee2d74272f3b1e910874c6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4b5b48cbfcf4c987d9f2ad2c1785abea9f52fd4c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556252"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849237"
 ---
 # <a name="set-up-fixed-assets-russia"></a>Настройка основных средств (Россия)
 

@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551679"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850105"
 ---
 # <a name="practice-manager-power-bi-content"></a>Содержимое Power BI "Менеджер по методикам"
 
@@ -54,7 +54,7 @@ ms.locfileid: "1551679"
 | EVM               | Затраты и индекс выполнения графика по проектам |
 | Часы             | <ul><li>Фактические оплачиваемые использованные часы, фактические оплачиваемые часы по накладным расходам и бюджетные часы</li><li>Фактические оплачиваемые использованные часы и фактические оплачиваемые часы по накладным расходам по проектам</li><li>Фактические оплачиваемые использованные часы и фактические оплачиваемые часы по накладным расходам по ресурсам</li><li>Отношение фактически оплачиваемых часов по проектам</li><li>Отношение фактически оплачиваемых часов по ресурсам</li></ul> |
 
-Диаграммы и плитки во всех этих отчетах можно отфильтровать и закрепить на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Можно также использовать функцию экспорта базовых данных для экспорта базовых данных, сводка которых отображается в визуализации.
+Диаграммы и плитки во всех этих отчетах можно отфильтровать и закрепить на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Можно также использовать функцию экспорта базовых данных для экспорта базовых данных, сводка которых отображается в визуализации.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 
@@ -62,7 +62,7 @@ ms.locfileid: "1551679"
 
 В следующих разделах описываются агрегированные измерения, используемые в каждом объекте.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>Объект: ProjectAccountingCube\_ActualHourUtilization
+### <a name="entity-projectaccountingcube_actualhourutilization"></a>Объект: ProjectAccountingCube\_ActualHourUtilization
 **Источник данных:** ProjEmplTrans
 
 | Ключевое агрегированное измерение      | Поле                              | описание |
@@ -70,7 +70,7 @@ ms.locfileid: "1551679"
 | Фактические оплачиваемые использованные часы | Sum(ActualUtilizationBillableRate) | Общее количество фактически оплачиваемых использованных часов. |
 | Фактические оплачиваемые не учитываемые в начислении часы   | Sum(ActualBurdenBillableRate)      | Общий коэффициент фактических накладных расходов. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>Объект: ProjectAccountingCube\_Actuals
+### <a name="entity-projectaccountingcube_actuals"></a>Объект: ProjectAccountingCube\_Actuals
 **Источник данных:** ProjTransPosting
 
 | Ключевое агрегированное измерение | Поле              | описание |
@@ -78,14 +78,14 @@ ms.locfileid: "1551679"
 | Фактическая выручка            | Sum(ActualRevenue) | Общая сумма разнесенной выручки для всех проводок. |
 | Фактические затраты               | Sum(ActualCost)    | Общая сумма разнесенных затрат для всех типов проводок. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>Объект: ProjectAccountingCube\_Customer
+### <a name="entity-projectaccountingcube_customer"></a>Объект: ProjectAccountingCube\_Customer
 **Источник данных:** CustTable
 
 | Ключевое агрегированное измерение | Поле                                             | описание |
 |---------------------------|---------------------------------------------------|-------------|
 | Число проектов        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Число доступных проектов. |
 
-### <a name="entity-projectaccountingcubeforecasts"></a>Объект: ProjectAccountingCube\_Forecasts
+### <a name="entity-projectaccountingcube_forecasts"></a>Объект: ProjectAccountingCube\_Forecasts
 **Источник данных:** ProjTransBudget
 
 | Ключевое агрегированное измерение | Поле                  | описание |
@@ -94,14 +94,14 @@ ms.locfileid: "1551679"
 | Бюджетный доход            | Sum(BudgetRevenue)     | Общая сумма прогнозируемой начисленной выручки/выручки по выставленным накладным. |
 | Бюджетная валовая прибыль       | Sum(BudgetGrossMargin) | Разница между суммой общей прогнозируемой выручки и суммой общих прогнозируемых затрат. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Объект: ProjectAccountingCube\_ProjectPlanCostsView
+### <a name="entity-projectaccountingcube_projectplancostsview"></a>Объект: ProjectAccountingCube\_ProjectPlanCostsView
 **Источник данных:** Project
 
 | Ключевое агрегированное измерение | Поле                    | описание |
 |---------------------------|--------------------------|-------------|
 | Плановые затраты              | Sum(SumOfTotalCostPrice) | Общая себестоимость в оценках для всех типов проводок проекта с запланированными задачами. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>Объект: ProjectAccountingCube\_Projects
+### <a name="entity-projectaccountingcube_projects"></a>Объект: ProjectAccountingCube\_Projects
 **Источник данных:** Project
 
 | Ключевое агрегированное измерение    | Поле | описание |
@@ -112,7 +112,7 @@ ms.locfileid: "1551679"
 | Относительный показатель фактически оплачиваемых часов  | ProjectAccountingCube\_Projects\[Общие фактические оплачиваемые использованные часы по проекту\] ÷ (ProjectAccountingCube\_Projects\[Общие фактические оплачиваемые использованные часы по проекту\] + ProjectAccountingCube\_Projects\[Общие фактические оплачиваемые часы по накладным расходам по проекту\]) | Общие фактически оплачиваемые часы на основе использованных часов и часов по накладным расходам. |
 | Вырученная стоимость                 | ProjectAccountingCube\_Projects\[Общие плановые затраты на проект\] × ProjectAccountingCube\_Projects\[Процент выполненных работ\] | Общие плановые затраты, умноженные на процент выполненных работ. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Объект: ProjectAccountingCube\_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>Объект: ProjectAccountingCube\_TotalEstimatedCosts 
 **Источник данных:** ProjTable
 
 | Ключевое агрегированное измерение       | Поле               | описание |

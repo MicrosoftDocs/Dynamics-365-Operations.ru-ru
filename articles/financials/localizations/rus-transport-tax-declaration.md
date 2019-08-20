@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 34b77d8345f62344e3a65623eb914e78624e3bb2
-ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
+ms.openlocfilehash: fc260bb143719605fd9d380abf12e1d890de9b77
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625180"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852791"
 ---
 # <a name="transport-tax-declaration-russia"></a>Декларация по транспортному налогу (Россия)
 
@@ -484,7 +484,7 @@ ms.locfileid: "1625180"
 
 -   Формат декларации по транспортному налогу 5.05
 
->   Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+>   Дополнительные сведения см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
 1.  Можно передать параметры пакета управления данными для работы с декларацией транспортного налога. Выполните следующие действия.
 

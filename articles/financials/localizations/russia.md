@@ -3,24 +3,24 @@ title: Россия
 description: В этой теме представлен обзор функциональности Dynamics 365 for Finance and Operations, относящейся к России.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 03/28/2019
+ms.date: 07/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6c6b798c1b348d7e59c578400ceed4022b3af96f
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: 055f808106e86f31a42b20cdae660f50cf0d1325
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625631"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852790"
 ---
 # <a name="russia"></a>Россия
 
@@ -33,7 +33,7 @@ ms.locfileid: "1625631"
 - [Корреспонденция счетов](rus-correspondence-accounts.md)
 - [Предварительный просмотр проводок ГК](rus-ledger-transactions-preview.md)
 - [Настройка валютных курсов для проводок в валюте](rus-exchange-difference.md)
-- [Импорт курсов обмена валют из ЦБРФ](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/general-ledger/import-currency-exchange-rates)
+- [Импорт курсов обмена валют из ЦБРФ](https://docs.microsoft.com/dynamics365/unified-operations/financials/general-ledger/import-currency-exchange-rates)
 
 ## <a name="advance-holders"></a>Подотчетные лица
 
@@ -47,13 +47,14 @@ ms.locfileid: "1625631"
 ## <a name="bank"></a>Банк
 
 - [Настройка банковских счетов](rus-local-settings-requisites-bank-module.md)
-- [Настройка и обработка платежных поручений](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-payment-order-settings-processing)
-- [Продажа, покупка и переводы иностранной валюты](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-currency-sale-purchase)
+- [Настройка и обработка платежных поручений](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/rus-payment-order-settings-processing)
+- [Продажа, покупка и переводы иностранной валюты](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/rus-currency-sale-purchase)
 
 ## <a name="vat"></a>НДС
 
+- [Специфическая локальная разноска исходящего НДС](rus-local-specific-posting-sales-vat.md)
 - [Налог на добавленную стоимость (НДС) для налоговых агентов](rus-tax-agent.md)
-- [Декларация по НДС](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/rus-VAT-declaration)
+- [Декларация по НДС](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/rus-VAT-declaration)
 - [Книги продаж, книги покупок и журналы счетов-фактур](rus-sales-books-purchase-books.md)
 
 ## <a name="fixed-assets-russia"></a>Основные средства (Россия)
@@ -85,7 +86,7 @@ ms.locfileid: "1625631"
 - [Финансовая отчетность](rus-financial-reports.md)
 - [Настройка финансовых отчетов в Excel](rus-excel-financial-report.md)
 - [Учет отчетности в электронном формате](rus-accounting-reporting.md)
-- [Декларация налога на имущество](rus-assessed-tax-declaration.md)
+- [Декларация по налогу на имущество](rus-assessed-tax-declaration.md)
 - [Декларация по транспортному налогу](rus-transport-tax-declaration.md)
 - [Декларация по земельному налогу](rus-land-tax-declaration.md)
 
@@ -94,6 +95,16 @@ ms.locfileid: "1625631"
 - [Сведения о налоговой регистрации, связанные с адресом](emea-registration-ids.md)
 - [Настройка должностных лиц](rus-officials.md)
 - [Подразделения компании](rus-company-divisions.md)
+
+## <a name="deferrals"></a>РБП
+
+- [Настройка РБП](rus-set-up-deferrals.md)
+- [Создание РБП](rus-create-generate-deferrals.md)
+- [Поступление РБП](rus-deferral-transactions.md)
+- [Списание РБП](rus-write-off-deferral.md)
+- [Выбытие РБП](rus-dispose-deferrals.md)
+- [Инвентаризация РБП](rus-counting-deferrals.md)
+- [Отчетность по РБП](rus-reporting-deferrals.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

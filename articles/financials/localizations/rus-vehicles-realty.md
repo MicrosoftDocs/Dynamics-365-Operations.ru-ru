@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0e83b873d6560ca2fa85489bb26cf52cccac7064
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8816a9e474eaf9fd2db1f9b0fde5ed4500110521
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538339"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849191"
 ---
 # <a name="vehicles-and-realty-as-fixed-assets-russia"></a>Транспортные средства и недвижимость как основные средства (Россия)
 
