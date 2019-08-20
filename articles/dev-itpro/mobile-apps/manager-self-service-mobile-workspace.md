@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3d570aceee6b449c39b30defaebc4983b54f283e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554400"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741143"
 ---
 # <a name="my-team-mobile-workspace"></a>Мобильная рабочая группа "Моя группа"
 
@@ -57,7 +57,7 @@ ms.locfileid: "1554400"
 </ul>
 </td>
 <td>Системный администратор</td>
-<td>Если в вашей организации еще не развернуто Finance and Operations см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Talent, системный администратор может получить доступ к пробной версии на <a href="https://www.microsoft.com/en-us/dynamics365/talent">веб-странице Talent</a>.
+<td>Если в вашей организации еще не развернуто Finance and Operations см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Talent, системный администратор может получить доступ к пробной версии на <a href="https://www.microsoft.com/dynamics365/talent">веб-странице Talent</a>.
 </td>
 </tr>
 <tr class="even">

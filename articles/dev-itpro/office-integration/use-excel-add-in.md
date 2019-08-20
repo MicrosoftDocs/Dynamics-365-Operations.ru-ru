@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85cb5c5618346f1e5132f818911be21df86fbfcb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554998"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741118"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Открытие данных объекта в Excel и из обновление с помощью надстройки Excel
 
@@ -60,7 +60,7 @@ ms.locfileid: "1554998"
 
 6. Выберите **ОК**, затем выберите **Да**, чтобы подтвердить изменение. Надстройка Excel перезагружается и загружает метаданные.
 
-    Теперь доступна кнопка **Дизайн**. Если в надстройке Excel имеется кнопка **Загрузить приложения**, возможно, что выполнен вход с неправильным пользователем. Дополнительные сведения см. в пункте "Отображается кнопка загрузки приложения" в разделе [Устранение неполадок](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) в этом разделе.
+    Теперь доступна кнопка **Дизайн**. Если в надстройке Excel имеется кнопка **Загрузить приложения**, возможно, что выполнен вход с неправильным пользователем. Дополнительные сведения см. в пункте "Отображается кнопка загрузки приложения" в разделе [Устранение неполадок](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) в этом разделе.
 
 7. Выберите **Дизайн**. Надстройка Excel извлекает метаданные объекта.
 8. Выберите **Добавить таблицу**. Отображается список объектов. Объекты перечислены в формате «Имя — Метка».

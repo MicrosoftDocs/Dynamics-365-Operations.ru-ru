@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: 5ac47ee086569cdaaa3c30f76435432e64f8fac6
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702780"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835150"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Содержимое Power BI "Управление кредитом и сбором задолженностей"
 
@@ -72,4 +72,4 @@ ms.locfileid: "1702780"
 | Статус инкассо          | <ul><li>Оспаривается</li><li>Обещание оплатить нарушено</li><li>Обещана оплата</li><li>Сведения о статусе сборов</li><li>Суммы статусов сбора задолженностей</li><li>Открытые обращения</li><li>Открытые мероприятия</li></ul> |
 | Письма-напоминания         | <ul><li>Суммы кодов сбора задолженностей</li><li>Сведения о суммах кодов сбора задолженностей</li><li>Сумма писем-напоминаний по компаниям</li><li>Сумма писем-напоминаний по группам клиентов</li><li>Сумма писем-напоминаний по регионам</li></ul> |
 
-Диаграммы и плитки во всех этих отчетах можно отфильтровать и закрепить на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Можно также использовать функцию экспорта базовых данных для экспорта базовых данных, сводка которых отображается в визуализации.
+Диаграммы и плитки во всех этих отчетах можно отфильтровать и закрепить на панели мониторинга. Дополнительные сведения о том, как отфильтровать и закрепить элементы в Power BI, см. в разделе [Создание и настройка панели мониторинга](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Можно также использовать функцию экспорта базовых данных для экспорта базовых данных, сводка которых отображается в визуализации.

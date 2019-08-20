@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624820"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742641"
 ---
 # <a name="retail-peripherals"></a>Периферийные устройства розничной торговли
 
@@ -192,7 +192,7 @@ Modern POS для Android является версией программы Mod
 
 #### <a name="modern-pos-for-android"></a>Modern POS для Android
 
-В Dynamics 365 for Retail версии 8.1.3 приложение Modern POS для Android включает встроенную аппаратную станцию IPC. Данная аппаратная станция поддерживает связь с сетевыми принтерами и соединителями оплаты. Дополнительные сведения см. в [статье документов приложения Hybrid для Android](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+В Dynamics 365 for Retail версии 8.1.3 приложение Modern POS для Android включает встроенную аппаратную станцию IPC. Данная аппаратная станция поддерживает связь с сетевыми принтерами и соединителями оплаты. Дополнительные сведения см. в [статье документов приложения Hybrid для Android](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS и Modern POS для iOS
 
@@ -541,7 +541,7 @@ Modern POS для Android является версией программы Mod
 
 4. Щелкните **Розничная торговля** &gt; **ИТ розничной торговли** &gt; **График распределения**.
 5. Выберите график распределения **1090** для синхронизации нового профиля оборудования в магазине. Щелкните **Запустить сейчас** для синхронизации изменений в POS.
-6. Выберите график распределения **1040** для синхронизации новой станции оборудования в магазине. Щелкните **Запустить сейчас** для синхронизации изменений в POS.
+6. Выберите график распределения **1070** для синхронизации новой станции оборудования в магазине. Щелкните **Запустить сейчас** для синхронизации изменений в POS.
 7. Установите и активируйте Modern POS для Windows.
 8. Запустите Modern POS для Windows и начните использовать подключенные периферийные устройства.
 

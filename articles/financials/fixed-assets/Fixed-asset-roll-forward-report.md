@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d0f7d63fa0566cfc2a23b3228d687d7f85d848c9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549591"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840753"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Отчет о движении основных средств
 
@@ -31,7 +31,7 @@ ms.locfileid: "1549591"
 
 Отчет **Движение основных средств** предоставляет в удобном для восприятии формате Microsoft Excel подробные данные об основных средствах, которые могут потребоваться для закрытия периода, финансовых отчетов и налоговой отчетности. Отчет включает в себя начальное и конечное сальдо для основных средств, вместе с изменениями оценки для периода, а также все новые приобретения и выбытия активов, произошедшие во время периода. Данные собираются для отдельных основных средств, а также приводятся сводные значения для групп основных средств и юридического лица.
 
-Отчет **Движение основных средств** использует инфраструктуру электронной отчетности (ER). Перед запуском отчета модель основных средств и конфигурации движения основных средств должны быть импортированы из Microsoft Dynamics Lifecycle Services (LCS). Инструкции см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+Отчет **Движение основных средств** использует инфраструктуру электронной отчетности (ER). Перед запуском отчета модель основных средств и конфигурации движения основных средств должны быть импортированы из Microsoft Dynamics Lifecycle Services (LCS). Инструкции см. в разделе [Загрузка конфигураций электронной отчетности из Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
 Этот отчет доступен в Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, или в качестве исправления для Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (июль 2017 г.). Три исправления должно применяться для сред, в которых установлена версия от июля 2017 г.:
 
