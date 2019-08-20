@@ -1,0 +1,72 @@
+---
+title: Измерения актива
+description: В этом разделе объясняется, как создавать типы измерений активов в управлении активами.
+author: josaw1
+manager: AnnBe
+ms.date: 06/26/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: 2214
+ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d9c445832a649c4f6a6642036ecab325e8aa2079
+ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "1783553"
+---
+# <a name="asset-measures"></a><span data-ttu-id="21be2-103">Измерения актива</span><span class="sxs-lookup"><span data-stu-id="21be2-103">Asset measures</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+[!include [banner](../../includes/preview-banner.md)]
+
+<span data-ttu-id="21be2-104">В этом разделе объясняется, как создавать типы измерений активов в управлении активами.</span><span class="sxs-lookup"><span data-stu-id="21be2-104">The topic explains how to create asset measure types in Asset Management.</span></span> <span data-ttu-id="21be2-105">Типы измерений активов используются для регистрации измерений для активов, например, в отношении количества производственных часов или количества, произведенного на активе.</span><span class="sxs-lookup"><span data-stu-id="21be2-105">Asset measure types are used to make measurement registrations on assets, for example, regarding number of production hours, or quantity produced on the asset.</span></span> <span data-ttu-id="21be2-106">Типы активов связаны с типами измерения активов.</span><span class="sxs-lookup"><span data-stu-id="21be2-106">Asset types are related to the asset measure types.</span></span> <span data-ttu-id="21be2-107">Это означает, что измерение актива может быть использовано на активе только в том случае, если измерение актива настроено на тип актива, используемый для актива.</span><span class="sxs-lookup"><span data-stu-id="21be2-107">This means that an asset measure can only be used on an asset if the asset measure is set up on the asset type used on the asset.</span></span>
+
+<span data-ttu-id="21be2-108">Прежде чем вы сможете сделать регистрацию измерений на активах, сначала создайте типы измерений активов, которые вы хотите использовать в пункте **Счетчики**.</span><span class="sxs-lookup"><span data-stu-id="21be2-108">Before you can make measurement registrations on assets, you first create the asset measure types you want to use in **Counters**.</span></span> <span data-ttu-id="21be2-109">Далее можно создать регистрации измерений по активам в пункте **Измерения активов**.</span><span class="sxs-lookup"><span data-stu-id="21be2-109">Next, you can create measurement registrations on assets in **Asset measures**.</span></span> 
+
+<span data-ttu-id="21be2-110">Измерения активов могут быть использованы в планах технического обслуживания.</span><span class="sxs-lookup"><span data-stu-id="21be2-110">Asset measures can be used on maintenance plans.</span></span> <span data-ttu-id="21be2-111">Строка плана технического обслуживания может быть типа "Счетчик", например, в отношении количества производственных часов или произведенного количества.</span><span class="sxs-lookup"><span data-stu-id="21be2-111">A maintenance plan line can be of type "Counter", for example, relating to number of production hours or quantity produced.</span></span> 
+
+<span data-ttu-id="21be2-112">Регистрация измерения активов может обновляться вручную или автоматически на основе производственных часов или произведенного количества.</span><span class="sxs-lookup"><span data-stu-id="21be2-112">An asset measurement registration can be updated manually or automatically based on production hours or quantity produced.</span></span> <span data-ttu-id="21be2-113">Измерение активов может быть настроено для использования одного из трех методов обновления (выбранных в поле **Обновление** в разделе **Счетчики**):</span><span class="sxs-lookup"><span data-stu-id="21be2-113">An asset measure can be set up to use one of three update methods (selected in the **Update** field in **Counters**):</span></span>
+  
+- <span data-ttu-id="21be2-114">Вручную — вы должны вручную зарегистрировать значения измерений активов.</span><span class="sxs-lookup"><span data-stu-id="21be2-114">Manual - you must manually register asset measurement values.</span></span>  
+- <span data-ttu-id="21be2-115">Производственные часы — счетчик автоматически обновляется в зависимости от количества производственных часов.</span><span class="sxs-lookup"><span data-stu-id="21be2-115">Production hours - the counter is automatically updated based on number of production hours.</span></span>  
+- <span data-ttu-id="21be2-116">Произведенное количество — счетчик автоматически обновляется в зависимости от произведенного количества.</span><span class="sxs-lookup"><span data-stu-id="21be2-116">Production quantity - the counter is automatically updated based on number of quantity produced.</span></span>  
+
+>[!NOTE]
+><span data-ttu-id="21be2-117">Если используется произведенное количество, *все* зарегистрированные товары включаются в регистрацию измерений, как количество правильных, так и количество ошибочных.</span><span class="sxs-lookup"><span data-stu-id="21be2-117">If quantity produced is used, *all* registered items are included in the measurement registration, good quantity as well as error quantity.</span></span> <span data-ttu-id="21be2-118">При необходимости всегда можно сделать ручную регистрацию измерений активов.</span><span class="sxs-lookup"><span data-stu-id="21be2-118">It is always possible to make manual asset measurement registrations, if required.</span></span>
+
+## <a name="create-counter-types-for-asset-counter-registrations"></a><span data-ttu-id="21be2-119">Создание типов счетчиков для регистраций счетчиков активов</span><span class="sxs-lookup"><span data-stu-id="21be2-119">Create counter types for asset counter registrations</span></span>
+
+1. <span data-ttu-id="21be2-120">Выберите **Управление активами** > **Настройка** > **Типы активов** > **Счетчики**.</span><span class="sxs-lookup"><span data-stu-id="21be2-120">Select **Asset management** > **Setup** > **Asset types** > **Counters**.</span></span>
+2. <span data-ttu-id="21be2-121">Выберите **Создать**, чтобы создать новый тип измерения активов.</span><span class="sxs-lookup"><span data-stu-id="21be2-121">Select **New** to create a new asset measure type.</span></span>
+3. <span data-ttu-id="21be2-122">Вставьте идентификатор в поле **Счетчик** и имя счетчика в поле **Имя**.</span><span class="sxs-lookup"><span data-stu-id="21be2-122">Insert an ID in the **Counter** field, and a counter name in the **Name** field.</span></span>
+4. <span data-ttu-id="21be2-123">На экспресс-вкладке **Общее** выберите единицу измерения в поле **Единица**.</span><span class="sxs-lookup"><span data-stu-id="21be2-123">On the **General** FastTab, select a measurement unit in the **Unit** field.</span></span>
+5. <span data-ttu-id="21be2-124">В поле **Обновление** выберите метод обновления, который будет использоваться для измерения активов.</span><span class="sxs-lookup"><span data-stu-id="21be2-124">In the **Update** field, select the update method to be used for the asset measure.</span></span>
+6. <span data-ttu-id="21be2-125">Выберите "Да" на переключателе **Наследовать значения счетчиков**, если дочерние активы в структуре активов должны автоматически наследовать регистрации измерений активов, сделанные в родительском активе.</span><span class="sxs-lookup"><span data-stu-id="21be2-125">Select "Yes" on the **Inherit counter values** toggle button if child assets in an asset structure should automatically inherit asset measure registrations made on the parent asset.</span></span>
+7. <span data-ttu-id="21be2-126">В поле **Сводный итог** выберите метод суммирования, который будет использоваться для измерения активов с использованием этого типа измерения активов.</span><span class="sxs-lookup"><span data-stu-id="21be2-126">In the **Total aggregate** field, select the summation method to be used for an asset measure using this asset measure type.</span></span> <span data-ttu-id="21be2-127">"Сумма" — это стандартный выбор, используемый для непрерывного добавления зарегистрированных значений к общему значению.</span><span class="sxs-lookup"><span data-stu-id="21be2-127">"Sum" is the standard selection used to continuously add registered values to the total value.</span></span> <span data-ttu-id="21be2-128">"Среднее" может быть использовано, если измерение актива настроено для мониторинга порога, например, в отношении температуры, вибраций или износа актива.</span><span class="sxs-lookup"><span data-stu-id="21be2-128">"Average" can be used if an asset measure is set up to monitor a threshold, for example, regarding temperature, vibrations, or wear and tear on an asset.</span></span> 
+8. <span data-ttu-id="21be2-129">В поле **Отклонение выше** вставьте верхний уровень в процентах для проверки, находятся ли регистрируемые вручную измерения активов в пределах ожидаемого диапазона.</span><span class="sxs-lookup"><span data-stu-id="21be2-129">In the **Deviation over** field, insert the upper level in percent for validating if manual asset measure registrations are within an expected range.</span></span> <span data-ttu-id="21be2-130">Проверка основана на линейном увеличении существующих регистраций измерений активов.</span><span class="sxs-lookup"><span data-stu-id="21be2-130">The validation is based on a linear increase in existing asset measure registrations.</span></span>
+9. <span data-ttu-id="21be2-131">В поле **Отклонение ниже** вставьте нижний уровень в процентах для проверки, находятся ли регистрируемые вручную измерения активов в пределах ожидаемого диапазона.</span><span class="sxs-lookup"><span data-stu-id="21be2-131">In the **Deviation under** field, insert the lower level in percent for validating if manual asset measure registrations are within an expected range.</span></span> <span data-ttu-id="21be2-132">Проверка основана на линейном уменьшении существующих регистраций измерений активов.</span><span class="sxs-lookup"><span data-stu-id="21be2-132">The validation is based on a linear decrease in existing asset measure registrations.</span></span>
+10. <span data-ttu-id="21be2-133">В поле **Тип** выберите тип сообщения (информация, предупреждение, ошибка), которое будет отображаться, если отклонение за пределами определенного диапазона происходят при ручной регистрации измерений активов.</span><span class="sxs-lookup"><span data-stu-id="21be2-133">In the **Type** field, select the type of message (information, warning, error) to be shown if deviations outside the defined range occur when you make manual asset measure registrations.</span></span>
+11. <span data-ttu-id="21be2-134">На экспресс-вкладке **Типы активов** добавьте типы активов, которые должны быть в состоянии использовать измерение актива.</span><span class="sxs-lookup"><span data-stu-id="21be2-134">On the **Asset types** FastTab, add the asset types that should be able to use the asset measure.</span></span>
+12. <span data-ttu-id="21be2-135">На экспресс-вкладке **Связанные измерения активов** добавьте измерения активов, которые вы хотите автоматически обновлять при обновлении этого измерения актива.</span><span class="sxs-lookup"><span data-stu-id="21be2-135">On the **Related asset measures** FastTab, add the asset measures that you want to be automatically updated when this asset measure is updated.</span></span>
+
+
+>[!NOTE]
+><span data-ttu-id="21be2-136">Связанное измерение актива автоматически обновляется только в том случае, если соответствующее измерение актива имеет тип актива, с которым оно связано, в настройке измерения активов.</span><span class="sxs-lookup"><span data-stu-id="21be2-136">A related asset measure is automatically updated only if the related asset measure has the asset type, to which it is related, in the asset measure setup.</span></span> <span data-ttu-id="21be2-137">Например, вы настроили измерение актива для параметра "Производственные часы" и добавили тип актива "Двигатель грузовика".</span><span class="sxs-lookup"><span data-stu-id="21be2-137">For example: You set up an asset measure for "Production hours" and add the asset type "Truck Engine".</span></span> <span data-ttu-id="21be2-138">При обновлении этого измерения актива связанный счетчик "Масло" также обновляется с теми же значениями измерения актива.</span><span class="sxs-lookup"><span data-stu-id="21be2-138">When that asset measure is updated, a related counter "Oil" is also updated with the same asset measure values.</span></span> <span data-ttu-id="21be2-139">Настройка в пункте **Счетчики** включает в себя настройку "Часы".</span><span class="sxs-lookup"><span data-stu-id="21be2-139">The setup in **Counters** includes the setup on "Hours".</span></span> <span data-ttu-id="21be2-140">Кроме того, в измерении актива "Масло" тип актива "Двигатель автомобиля" должен быть добавлен на экспресс-вкладку **Типы активов**, чтобы обеспечить отношения измерений активов.</span><span class="sxs-lookup"><span data-stu-id="21be2-140">Also, on the "Oil" asset measure, the asset type "Truck Engine" should be added to the **Asset types** FastTab to ensure the asset measure relation.</span></span> <span data-ttu-id="21be2-141">На приведенных ниже снимках экранов показан пример настройки измерений активов "Часы" и "Масло".</span><span class="sxs-lookup"><span data-stu-id="21be2-141">See the screenshots below for an example of the setup on the Hours and Oil asset measures.</span></span>
+
+<span data-ttu-id="21be2-142">Когда типы активов добавляются к типу измерений активов в разделе **Счетчики**, это измерение активов автоматически добавляется к типам активов на экспресс-вкладке **Счетчики** в [типах активов](../setup-for-objects/object-types.md).</span><span class="sxs-lookup"><span data-stu-id="21be2-142">When asset types are added to an asset measure type in **Counters**, that asset measure is automatically added to the asset types on the **Counters** FastTab in [Asset types](../setup-for-objects/object-types.md).</span></span>
+
+![Рисунок 1](media/071-setup-for-objects.png)
+
+

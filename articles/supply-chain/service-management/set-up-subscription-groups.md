@@ -18,33 +18,33 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c4b9585a1a0f98ea3773270f1fe7628287e235c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c9bfed12543ec9cf960eba61a993790713263579
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555755"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743103"
 ---
-# <a name="set-up-subscription-groups"></a><span data-ttu-id="985d3-103">Настройка групп подписки</span><span class="sxs-lookup"><span data-stu-id="985d3-103">Set up subscription groups</span></span> 
+# <a name="set-up-subscription-groups"></a><span data-ttu-id="7adf2-103">Настройка групп подписки</span><span class="sxs-lookup"><span data-stu-id="7adf2-103">Set up subscription groups</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="985d3-104">Щелкните **Управление сервисным обслуживанием** \> **Настройка** \> **Подписки на сервисное обслуживание** \> **Группы подписки**.</span><span class="sxs-lookup"><span data-stu-id="985d3-104">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
+1.  <span data-ttu-id="7adf2-104">Щелкните **Управление сервисным обслуживанием** \> **Настройка** \> **Подписки на сервисное обслуживание** \> **Группы подписки**.</span><span class="sxs-lookup"><span data-stu-id="7adf2-104">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
 
-2.  <span data-ttu-id="985d3-105">Нажмите сочетание клавиш Ctrl+N или щелкните **Создать**, чтобы создать новую группу подписки.</span><span class="sxs-lookup"><span data-stu-id="985d3-105">Press Ctrl+N or click **New** to create a new subscription group.</span></span>
+2.  <span data-ttu-id="7adf2-105">Нажмите сочетание клавиш Ctrl+N или щелкните **Создать**, чтобы создать новую группу подписки.</span><span class="sxs-lookup"><span data-stu-id="7adf2-105">Press Ctrl+N or click **New** to create a new subscription group.</span></span>
 
-3.  <span data-ttu-id="985d3-106">В поле **Группа подписки** введите имя новой группы подписки.</span><span class="sxs-lookup"><span data-stu-id="985d3-106">In the **Subscription group** field, enter a name for the new subscription group.</span></span>
+3.  <span data-ttu-id="7adf2-106">В поле **Группа подписки** введите имя новой группы подписки.</span><span class="sxs-lookup"><span data-stu-id="7adf2-106">In the **Subscription group** field, enter a name for the new subscription group.</span></span>
 
-4.  <span data-ttu-id="985d3-107">В поле **Выставление накладных** выберите частоту выставления накладных для подписки.</span><span class="sxs-lookup"><span data-stu-id="985d3-107">In the **Invoicing** field, select an invoicing frequency for the subscription.</span></span> <span data-ttu-id="985d3-108">Частота выставления накладных указана кодом периода, который настраивается в форме **Типы периодов**.</span><span class="sxs-lookup"><span data-stu-id="985d3-108">The invoicing frequency is indicated by a period code that is set up in the **Period types** form.</span></span>
+4.  <span data-ttu-id="7adf2-107">В поле **Выставление накладных** выберите частоту выставления накладных для подписки.</span><span class="sxs-lookup"><span data-stu-id="7adf2-107">In the **Invoicing** field, select an invoicing frequency for the subscription.</span></span> <span data-ttu-id="7adf2-108">Частота выставления накладных указана кодом периода, который настраивается в форме **Типы периодов**.</span><span class="sxs-lookup"><span data-stu-id="7adf2-108">The invoicing frequency is indicated by a period code that is set up in the **Period types** form.</span></span>
 
-5.  <span data-ttu-id="985d3-109">Чтобы начислить выручку по проводкам подписки, установите флажок **Начислить выручку**, а затем в поле **Начисление** выберите частоту.</span><span class="sxs-lookup"><span data-stu-id="985d3-109">To accrue revenue for subscription transactions, select the **Accrue revenue** check box, and then in the **Accrual** field, select a frequency.</span></span> <span data-ttu-id="985d3-110">Частота начисления основывается на коде периода, который настраивается в форме **Периоды**.</span><span class="sxs-lookup"><span data-stu-id="985d3-110">The accrual frequency is based on a period code that is set up in the **Periods** form.</span></span>
+5.  <span data-ttu-id="7adf2-109">Чтобы начислить выручку по проводкам подписки, установите флажок **Начислить выручку**, а затем в поле **Начисление** выберите частоту.</span><span class="sxs-lookup"><span data-stu-id="7adf2-109">To accrue revenue for subscription transactions, select the **Accrue revenue** check box, and then in the **Accrual** field, select a frequency.</span></span> <span data-ttu-id="7adf2-110">Частота начисления основывается на коде периода, который настраивается в форме **Периоды**.</span><span class="sxs-lookup"><span data-stu-id="7adf2-110">The accrual frequency is based on a period code that is set up in the **Periods** form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="985d3-111">См. также</span><span class="sxs-lookup"><span data-stu-id="985d3-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7adf2-111">См. также</span><span class="sxs-lookup"><span data-stu-id="7adf2-111">See also</span></span>
 
-<span data-ttu-id="985d3-112">[Группы подписки (форма)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="985d3-112">[Subscription groups (form)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span></span>
+<span data-ttu-id="7adf2-112">[Группы подписки (форма)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="7adf2-112">[Subscription groups (form)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))</span></span>
 
-[<span data-ttu-id="985d3-113">Группы подписок</span><span class="sxs-lookup"><span data-stu-id="985d3-113">Subscription groups</span></span>](subscription-groups.md)
+[<span data-ttu-id="7adf2-113">Группы подписок</span><span class="sxs-lookup"><span data-stu-id="7adf2-113">Subscription groups</span></span>](subscription-groups.md)
 
   
 

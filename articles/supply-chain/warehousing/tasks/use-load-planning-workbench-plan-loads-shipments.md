@@ -1,9 +1,9 @@
 ---
 title: Планирование загрузок и отгрузок с помощью рабочего места планирования загрузки
-description: В этой процедуре показано, как использовать рабочее место планирования загрузки для создания загрузки для заказа на продажу.
+description: В этом разделе показано, как использовать рабочее место планирования загрузки для создания загрузки для заказа на продажу.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,53 +16,47 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1927cff48beb30f934bd066c32ab48dfb9d06f74
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5e20eef8aa748bb64c6c14dd7e1d92ccf6592e0
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564812"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1739073"
 ---
-# <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a><span data-ttu-id="a12a6-103">Планирование загрузок и отгрузок с помощью рабочего места планирования загрузки</span><span class="sxs-lookup"><span data-stu-id="a12a6-103">Plan loads and shipments using the Load planning workbench</span></span>
+# <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a><span data-ttu-id="6a409-103">Планирование загрузок и отгрузок с помощью рабочего места планирования загрузки</span><span class="sxs-lookup"><span data-stu-id="6a409-103">Plan loads and shipments using the Load planning workbench</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="a12a6-104">В этой процедуре показано, как использовать рабочее место планирования загрузки для создания загрузки для заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="a12a6-104">This procedure shows how to use the load planning workbench to create a load for a sales order.</span></span> <span data-ttu-id="a12a6-105">Для начала необходимо будет создать заказ на продажу.</span><span class="sxs-lookup"><span data-stu-id="a12a6-105">As a prerequisite we'll create the sales order first.</span></span> <span data-ttu-id="a12a6-106">Эта процедура является элементом повседневной работы координатора транспортировки.</span><span class="sxs-lookup"><span data-stu-id="a12a6-106">This procedure is part of the daily work for the transportation coordinator.</span></span> <span data-ttu-id="a12a6-107">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="a12a6-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="6a409-104">В этом разделе показано, как использовать рабочее место планирования загрузки для создания загрузки для заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="6a409-104">This topic shows how to use the load planning workbench to create a load for a sales order.</span></span> <span data-ttu-id="6a409-105">Для начала необходимо будет создать заказ на продажу.</span><span class="sxs-lookup"><span data-stu-id="6a409-105">As a prerequisite we'll create the sales order first.</span></span> <span data-ttu-id="6a409-106">Эта процедура является элементом повседневной работы координатора транспортировки.</span><span class="sxs-lookup"><span data-stu-id="6a409-106">This procedure is part of the daily work for the transportation coordinator.</span></span> <span data-ttu-id="6a409-107">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="6a409-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-sales-order"></a><span data-ttu-id="a12a6-108">Создать заказ на продажу</span><span class="sxs-lookup"><span data-stu-id="a12a6-108">Create a sales order</span></span>
-1. <span data-ttu-id="a12a6-109">Перейдите в раздел "Расчеты с клиентами" > "Заказы" > "Все заказы на продажу".</span><span class="sxs-lookup"><span data-stu-id="a12a6-109">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="a12a6-110">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="a12a6-110">Click New.</span></span>
-3. <span data-ttu-id="a12a6-111">В поле "Счет клиента" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="a12a6-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="a12a6-112">Выберите счет US-004.</span><span class="sxs-lookup"><span data-stu-id="a12a6-112">Select account US-004.</span></span>
-5. <span data-ttu-id="a12a6-113">Нажмите кнопку OK.</span><span class="sxs-lookup"><span data-stu-id="a12a6-113">Click OK.</span></span>
-6. <span data-ttu-id="a12a6-114">В поле "Код номенклатуры" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="a12a6-114">In the Item number field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="a12a6-115">Выберите номенклатуру A0001.</span><span class="sxs-lookup"><span data-stu-id="a12a6-115">Select item A0001.</span></span>
-    * <span data-ttu-id="a12a6-116">A0001 поддерживает управление транспортировкой.</span><span class="sxs-lookup"><span data-stu-id="a12a6-116">A0001 is enabled for transportation management.</span></span>  
-8. <span data-ttu-id="a12a6-117">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="a12a6-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="a12a6-118">В поле "Количество" введите число.</span><span class="sxs-lookup"><span data-stu-id="a12a6-118">In the Quantity field, enter a number.</span></span>
-10. <span data-ttu-id="a12a6-119">В поле "Склад" введите "24".</span><span class="sxs-lookup"><span data-stu-id="a12a6-119">In the Warehouse field, type '24'.</span></span>
-    * <span data-ttu-id="a12a6-120">В этом примере выберите склад 24.</span><span class="sxs-lookup"><span data-stu-id="a12a6-120">In this example select warehouse 24.</span></span> <span data-ttu-id="a12a6-121">Этот склад поддерживает управление транспортировкой и комплексные функции управления складом.</span><span class="sxs-lookup"><span data-stu-id="a12a6-121">This warehouse is enabled for transportation management and advanced warehouse management.</span></span>  
-11. <span data-ttu-id="a12a6-122">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="a12a6-122">Click Save.</span></span>
-12. <span data-ttu-id="a12a6-123">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="a12a6-123">Close the page.</span></span>
+## <a name="create-a-sales-order"></a><span data-ttu-id="6a409-108">Создать заказ на продажу</span><span class="sxs-lookup"><span data-stu-id="6a409-108">Create a sales order</span></span>
+1. <span data-ttu-id="6a409-109">Перейдите к **Область перехода > Модули > Расчеты с клиентами > Заказы > Все заказы на продажу**.</span><span class="sxs-lookup"><span data-stu-id="6a409-109">Go to the **Navigation pane > Modules > Accounts receivable > Orders > All sales orders**.</span></span>
+2. <span data-ttu-id="6a409-110">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="6a409-110">Select **New**.</span></span>
+3. <span data-ttu-id="6a409-111">В поле **Счет клиента** выберите кнопку раскрывающегося списка, чтобы открыть подстановку.</span><span class="sxs-lookup"><span data-stu-id="6a409-111">In the **Customer account** field, select the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="6a409-112">Выберите счет **US-004**.</span><span class="sxs-lookup"><span data-stu-id="6a409-112">Select account **US-004**.</span></span>
+5. <span data-ttu-id="6a409-113">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="6a409-113">Select **OK**.</span></span>
+6. <span data-ttu-id="6a409-114">В поле **Код номенклатуры** выберите кнопку раскрывающегося списка, чтобы открыть подстановку.</span><span class="sxs-lookup"><span data-stu-id="6a409-114">In the **Item number** field, select the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="6a409-115">Выбор номенклатуры **A0001**.</span><span class="sxs-lookup"><span data-stu-id="6a409-115">Select item **A0001**.</span></span> <span data-ttu-id="6a409-116">**A0001** поддерживает управление транспортировкой.</span><span class="sxs-lookup"><span data-stu-id="6a409-116">**A0001** is enabled for transportation management.</span></span>  
+8. <span data-ttu-id="6a409-117">В поле **Сайт** выберите кнопку раскрывающегося списка, чтобы открыть поиск, затем выберите номенклатуру.</span><span class="sxs-lookup"><span data-stu-id="6a409-117">In the **Site** field, select the drop-down button to open the lookup, then select an item.</span></span>
+9. <span data-ttu-id="6a409-118">В поле **Количество** введите число.</span><span class="sxs-lookup"><span data-stu-id="6a409-118">In the **Quantity** field, enter a number.</span></span>
+10. <span data-ttu-id="6a409-119">В поле **Склад** введите «24» для этого примера.</span><span class="sxs-lookup"><span data-stu-id="6a409-119">In the **Warehouse** field, type '24' for this example.</span></span> <span data-ttu-id="6a409-120">Этот склад поддерживает управление транспортировкой и комплексные функции управления складом.</span><span class="sxs-lookup"><span data-stu-id="6a409-120">This warehouse is enabled for transportation management and advanced warehouse management.</span></span>  
+11. <span data-ttu-id="6a409-121">Нажмите **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="6a409-121">Select **Save**.</span></span>
+12. <span data-ttu-id="6a409-122">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="6a409-122">Close the page.</span></span>
 
-## <a name="create-a-new-load"></a><span data-ttu-id="a12a6-124">Создание новой загрузки</span><span class="sxs-lookup"><span data-stu-id="a12a6-124">Create a new load</span></span>
-1. <span data-ttu-id="a12a6-125">Перейдите в раздел "Управление транспортировкой" > "Планирование" > "Рабочее место планирования загрузки".</span><span class="sxs-lookup"><span data-stu-id="a12a6-125">Go to Transportation management > Planning > Load planning workbench.</span></span>
-2. <span data-ttu-id="a12a6-126">Перейдите на вкладку "Строки продаж".</span><span class="sxs-lookup"><span data-stu-id="a12a6-126">Click the Sales lines tab.</span></span>
-    * <span data-ttu-id="a12a6-127">Теперь вам предстоит построить загрузку для только что созданного заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="a12a6-127">Now you'll build the load for the sales order that you just created.</span></span> <span data-ttu-id="a12a6-128">Загрузки можно строить на основе предложения и спроса по заказам на покупку, заказам на перемещение и заказам на продажу.</span><span class="sxs-lookup"><span data-stu-id="a12a6-128">Loads can be built based on supply and demand from purchase orders, transfer orders, and sales orders.</span></span>  
-3. <span data-ttu-id="a12a6-129">В области действий щелкните "Поставки и спрос".</span><span class="sxs-lookup"><span data-stu-id="a12a6-129">On the Action Pane, click Supply and demand.</span></span>
-4. <span data-ttu-id="a12a6-130">Щелкните "Для новой загрузки".</span><span class="sxs-lookup"><span data-stu-id="a12a6-130">Click To new load.</span></span>
-5. <span data-ttu-id="a12a6-131">В поле "Код шаблона загрузки" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="a12a6-131">In the Load template ID field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="a12a6-132">Шаблон загрузки определяет максимальные измерения для веса и объема всей загрузки.</span><span class="sxs-lookup"><span data-stu-id="a12a6-132">The Load template defines maximum measurements for weight and volume of the entire load.</span></span> <span data-ttu-id="a12a6-133">Например, шаблон загрузки может представлять размер контейнера или грузовика.</span><span class="sxs-lookup"><span data-stu-id="a12a6-133">For example, the load template might represent the size of a container or truck.</span></span>  
-6. <span data-ttu-id="a12a6-134">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="a12a6-134">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="a12a6-135">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="a12a6-135">Click OK.</span></span>
+## <a name="create-a-new-load"></a><span data-ttu-id="6a409-123">Создание новой загрузки</span><span class="sxs-lookup"><span data-stu-id="6a409-123">Create a new load</span></span>
+1. <span data-ttu-id="6a409-124">Перейдите в раздел **Область перехода > Модули > Управление транспортировкой > Планирование > Рабочее место планирования загрузки**.</span><span class="sxs-lookup"><span data-stu-id="6a409-124">Go to the **Navigation pane > Modules > Transportation management > Planning > Load planning workbench**.</span></span>
+2. <span data-ttu-id="6a409-125">Выберите вкладку **Строки продаж**. Теперь вам предстоит построить загрузку для только что созданного заказа на продажу.</span><span class="sxs-lookup"><span data-stu-id="6a409-125">Select the **Sales lines** tab. Now you'll build the load for the sales order that you just created.</span></span> <span data-ttu-id="6a409-126">Загрузки можно строить на основе предложения и спроса по заказам на покупку, заказам на перемещение и заказам на продажу.</span><span class="sxs-lookup"><span data-stu-id="6a409-126">Loads can be built based on supply and demand from purchase orders, transfer orders, and sales orders.</span></span>  
+3. <span data-ttu-id="6a409-127">На панели операций выберите **Поставки и спрос**.</span><span class="sxs-lookup"><span data-stu-id="6a409-127">On the Action Pane, select **Supply and demand**.</span></span>
+4. <span data-ttu-id="6a409-128">Выберите **В новую загрузку**.</span><span class="sxs-lookup"><span data-stu-id="6a409-128">Select **To new load**.</span></span>
+5. <span data-ttu-id="6a409-129">В поле **Код шаблона загрузки** нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="6a409-129">In the **Load template ID** field, select the drop-down button to open the lookup.</span></span> <span data-ttu-id="6a409-130">Шаблон загрузки определяет максимальные измерения для веса и объема всей загрузки.</span><span class="sxs-lookup"><span data-stu-id="6a409-130">The Load template defines maximum measurements for weight and volume of the entire load.</span></span> <span data-ttu-id="6a409-131">Например, шаблон загрузки может представлять размер контейнера или грузовика.</span><span class="sxs-lookup"><span data-stu-id="6a409-131">For example, the load template might represent the size of a container or truck.</span></span> <span data-ttu-id="6a409-132">Выберите элемент номенклатуры.</span><span class="sxs-lookup"><span data-stu-id="6a409-132">Select an item.</span></span>
+6. <span data-ttu-id="6a409-133">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="6a409-133">Select **OK**.</span></span>
 
-## <a name="rate-and-route-the-load"></a><span data-ttu-id="a12a6-136">Оценка и маршрутизация загрузки</span><span class="sxs-lookup"><span data-stu-id="a12a6-136">Rate and route the load</span></span>
-1. <span data-ttu-id="a12a6-137">Щелкните "Оценка и маршрутизация".</span><span class="sxs-lookup"><span data-stu-id="a12a6-137">Click Rating and routing.</span></span>
-2. <span data-ttu-id="a12a6-138">Щелкните "Рабочее место маршрута ставки".</span><span class="sxs-lookup"><span data-stu-id="a12a6-138">Click Rate route workbench.</span></span>
-3. <span data-ttu-id="a12a6-139">Щелкните "Магазин ставок".</span><span class="sxs-lookup"><span data-stu-id="a12a6-139">Click Rate shop.</span></span>
-4. <span data-ttu-id="a12a6-140">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="a12a6-140">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="a12a6-141">Щелкните "Назначить".</span><span class="sxs-lookup"><span data-stu-id="a12a6-141">Click Assign.</span></span>
-6. <span data-ttu-id="a12a6-142">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="a12a6-142">Close the page.</span></span>
-7. <span data-ttu-id="a12a6-143">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="a12a6-143">Close the page.</span></span>
+## <a name="rate-and-route-the-load"></a><span data-ttu-id="6a409-134">Оценка и маршрутизация загрузки</span><span class="sxs-lookup"><span data-stu-id="6a409-134">Rate and route the load</span></span>
+1. <span data-ttu-id="6a409-135">Выберите **Рейтинг и маршрутизация**.</span><span class="sxs-lookup"><span data-stu-id="6a409-135">Select **Rating and routing**.</span></span>
+2. <span data-ttu-id="6a409-136">Выберите **Рабочее место маршрута ставки**.</span><span class="sxs-lookup"><span data-stu-id="6a409-136">Select **Rate route workbench**.</span></span>
+3. <span data-ttu-id="6a409-137">Выберите **Магазин ставок**.</span><span class="sxs-lookup"><span data-stu-id="6a409-137">Select **Rate shop**.</span></span>
+4. <span data-ttu-id="6a409-138">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="6a409-138">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="6a409-139">Выберите **Назначить**.</span><span class="sxs-lookup"><span data-stu-id="6a409-139">Select **Assign**.</span></span>
+6. <span data-ttu-id="6a409-140">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="6a409-140">Close the page.</span></span>
 
