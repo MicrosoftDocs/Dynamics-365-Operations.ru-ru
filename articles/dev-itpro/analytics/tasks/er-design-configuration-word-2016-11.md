@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd138fb5fea4098a862fbecba5e8ec226ed6afa9
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551528"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850311"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Разработка конфигураций электронной отчетности для создания отчетов в формате Word
 
@@ -64,7 +64,7 @@ ms.locfileid: "1551528"
     * В дополнение к сохранению изменений конфигурации действие "Сохранить" также обновит присоединенный шаблон Word. Структура созданного формата передается в документ Word в качестве новой пользовательской XML-части с именем "Отчет". Обратите внимание, что присоединенный шаблон Word содержит не только макет документа, который требуется создать как выходные данные ER, но он также содержит структуру данных, которую ER заполнит в этот шаблон во время выполнения.  
 2. Нажмите кнопку Вложения.
     * Теперь необходимо привязать элементы пользовательской XML-части "Отчет" к частям документа Word.  
-    * Если вы знакомы с документами Word, которые можно создать как формы, содержащие элементы управления содержимым, связанные с элементами пользовательских XML-частей, воспроизведите все шаги следующей подзадачи для создания такого документа. Дополнительные сведения см. по следующей ссылке: https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. В противном случае пропустите все действия, указанные в следующей подзадаче.  
+    * Если вы знакомы с документами Word, которые можно создать как формы, содержащие элементы управления содержимым, связанные с элементами пользовательских XML-частей, воспроизведите все шаги следующей подзадачи для создания такого документа. Дополнительные сведения см. по следующей ссылке: https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. В противном случае пропустите все действия, указанные в следующей подзадаче.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Получение Word с пользовательской XML-частью для привязки данных
     * Откройте этот документ в Word и выполните следующие действия: - Откройте вкладку "Разработчик Word" (настройте ленту, если она еще не включена).  - Выберите область сопоставления XML.  - Выберите пользовательскую XML-часть "Отчет" в поиске.  - Выполните сопоставление элементов выбранной пользовательской XML-части и элементов управления содержимым документа Word.  - Сохраните обновленный документ Word на локальном диске.  

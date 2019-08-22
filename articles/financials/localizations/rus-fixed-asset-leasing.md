@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 23aecfc534a45459c36d5f3757bfb2a1d71b046b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ed119f508a8c88e254bb07e9d2ac637297eb3cd
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565089"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849301"
 ---
 # <a name="create-a-fixed-asset-lease-and-a-return-from-lease-transaction-russia"></a>Создание проводки по аренде и окончании аренды основных средств (Россия)
 

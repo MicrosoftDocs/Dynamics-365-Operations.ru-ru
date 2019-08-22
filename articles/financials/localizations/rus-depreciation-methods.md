@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 27231
 ms.search.region: Russia
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ac3035fbbb7235d443af42f69a4088e762f05b54
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9959fe5527b2839b3788b47e07f271e1c3b450d8
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565095"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849309"
 ---
 # <a name="depreciation-methods-russia"></a>Методы амортизации (Россия)
 
@@ -118,7 +118,7 @@ ms.locfileid: "1565095"
     > [!NOTE]
     > Необходимо указать слой разноски **Налог** для выбранной модели стоимости на странице **Модели стоимости**.
 
-3. Создайте группу амортизации. Дополнительные сведения см. в разделе [Настройка группы амортизации](rus-depreciation-setup.md##set-up-depreciation-groups).
+3. Создайте группу амортизации. Дополнительные сведения см. в разделе [Настройка группы амортизации](rus-depreciation-setup.md#set-up-depreciation-groups).
 4. В полях **Амортизационная группа** и **Имя** введите код и имя группы амортизации для группы амортизации.
 5. В поле **Метод амортизации** выберите вариант **Налоговый нелинейный**.
 6. В поле **Срок службы** введите максимальный срок службы ОС, в течение которого на ОС в группе амортизации будет начисляться амортизация. Это значение задается в месяцах.

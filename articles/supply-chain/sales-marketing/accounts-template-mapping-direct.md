@@ -19,19 +19,19 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a0cabdab63d4d44010e52303d6f487db1e910059
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 036389a1a52fdf15b73ab90c0a37108871a1a15e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561267"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743356"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-finance-and-operations"></a>Синхронизация организаций непосредственно из Sales с клиентами в Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Common Data Service для приложений](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Common Data Service для приложений](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации организаций непосредственно из Microsoft Dynamics 365 for Sales в Microsoft Dynamics 365 for Finance and Operations.
 

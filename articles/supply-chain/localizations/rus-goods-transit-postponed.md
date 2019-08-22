@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4a1b57a6aee59a2961fd8eb9f8dd1f563ce89b46
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 8791abc6cb64fa7f3c79d5c3e2a30b9201ab6dfb
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592673"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845271"
 ---
 # <a name="register-goods-shipped-to-customers-russia"></a>Регистрация товаров, отгруженных клиентам (Россия)
 

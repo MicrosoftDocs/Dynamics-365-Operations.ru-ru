@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
-ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
+ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625880"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849517"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Конструктор формул в электронной отчетности (ER)
 
@@ -215,12 +215,12 @@ ms.locfileid: "1625880"
 | TODAY () | Возврат текущей даты сервера приложений Finance and Operations в качестве значения даты. | |
 | NULLDATE () | Возврат значения даты **null**. | |
 | NULLDATETIME () | Возврат значение даты/времени **null**. | |
-| DATETIMEFORMAT (дата и время, формат) | Преобразование указанного значения даты/времени в строку в указанном формате. (Сведения о поддерживаемых форматах см. разделы [стандартный](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "дд-ММ-гггг")** возвращает текущую дату сервера приложений Finance and Operations, 24 декабря 2015, как **"24-12-2015"**, на основе указанного настраиваемого формата. |
-| DATETIMEFORMAT (дата и время, формат, культура) | Преобразование указанного значения даты/времени в строку в указанном формате и [культуре](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Сведения о поддерживаемых форматах см. разделы [стандартный](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** возвращает текущую дату сервера приложений Finance and Operations, 24 декабря 2015, как **"24.12.2015"**, на основе выбранного немецкого языкового стандарта. |
+| DATETIMEFORMAT (дата и время, формат) | Преобразование указанного значения даты/времени в строку в указанном формате. (Сведения о поддерживаемых форматах см. разделы [стандартный](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "дд-ММ-гггг")** возвращает текущую дату сервера приложений Finance and Operations, 24 декабря 2015, как **"24-12-2015"**, на основе указанного настраиваемого формата. |
+| DATETIMEFORMAT (дата и время, формат, культура) | Преобразование указанного значения даты/времени в строку в указанном формате и [культуре](https://msdn.microsoft.com/goglobal/bb896001.aspx). (Сведения о поддерживаемых форматах см. разделы [стандартный](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "d", "de")** возвращает текущую дату сервера приложений Finance and Operations, 24 декабря 2015, как **"24.12.2015"**, на основе выбранного немецкого языкового стандарта. |
 | SESSIONTODAY () | Возврат даты текущей сессии Finance and Operations в качестве значения даты. | |
 | SESSIONNOW () | Возврат даты и времени текущей сессии Finance and Operations в качестве значения даты/времени. | |
 | DATEFORMAT (дата, формат) | Возвращает строковое представление указанной даты в указанном формате. | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** возвращает дату текущей сессии Finance and Operations, 24 декабря 2015, как **"24-12-2015"**, на основе указанного настраиваемого формата. |
-| DATEFORMAT (дата, формат, культура) | Преобразование указанного значения даты в строку в указанном формате и [культуре](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Сведения о поддерживаемых форматах см. разделы [стандартный](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** возвращает дату текущей сессии Finance and Operations, 24 декабря 2015, как **"24.12.2015"**, на основе выбранного немецкого языкового стандарта. |
+| DATEFORMAT (дата, формат, культура) | Преобразование указанного значения даты в строку в указанном формате и [культуре](https://msdn.microsoft.com/goglobal/bb896001.aspx). (Сведения о поддерживаемых форматах см. разделы [стандартный](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) и [настраиваемый](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** возвращает дату текущей сессии Finance and Operations, 24 декабря 2015, как **"24.12.2015"**, на основе выбранного немецкого языкового стандарта. |
 | DAYOFYEAR (дата) | Возвращает целочисленное представление числа дней между 1 января и указанной датой. | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** возвращает **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** возвращает **1**. |
 | DAYS (дата 1, дата 2) | Возвращает число дней между первой указанной датой и второй указанной датой. Возвращает положительное значение, если первая дата позднее второй даты, возвращает **0** (ноль), когда первая дата равна второй дате, или возвращает отрицательное значение, когда первая дата раньше, чем вторая дата. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** возвращает **-1**. |
 
@@ -649,12 +649,12 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </tr>
 <tr>
 <td>NUMBERFORMAT (число, формат)</td>
-<td>Возвращает строковое представление указанного числа в указанном формате. (Сведения о поддерживаемых форматах см. в разделах <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">стандартный</a> и <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">настраиваемый</a>.) Контекст, в котором эта функция выполняется, определяет культуру, используемую для форматирования чисел.</td>
+<td>Возвращает строковое представление указанного числа в указанном формате. (Сведения о поддерживаемых форматах см. в разделах <a href="https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx">стандартный</a> и <a href="https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx">настраиваемый</a>.) Контекст, в котором эта функция выполняется, определяет культуру, используемую для форматирования чисел.</td>
 <td>Для культуры EN-US <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> возвращает <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> возвращает <strong>&quot;10&quot;</strong>.</td>
 </tr>
 <tr>
 <td>NUMBERFORMAT (число, формат, культура)</td>
-<td>Возвращает строковое представление даты/времени для указанной числа в указанном формате и заданной культуре. (Сведения о поддерживаемых форматах см. в разделах <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">стандартный</a> и <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">настраиваемый</a>.).</td>
+<td>Возвращает строковое представление даты/времени для указанной числа в указанном формате и заданной культуре. (Сведения о поддерживаемых форматах см. в разделах <a href="https://docs.microsoft.com/dotnet/standard/base-types/standard-numeric-format-strings">стандартный</a> и <a href="https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings">настраиваемый</a>.).</td>
 <td><strong>NUMBERFORMAT (10/3, “F2”, "de")</strong> возвращает <strong>3,33</strong>, а <strong>NUMBERFORMAT (10/3, “F2”, "en-us")</strong> возвращает <strong>3.33</strong>.</td>
 </tr>
 <tr>

@@ -19,19 +19,19 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 5363c64cd1a475f0047c079d9166718ddc765f02
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fbc75702c9db1e877addc4605dcb444c344dfa5c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562377"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742455"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-finance-and-operations"></a>Синхронизация контактов непосредственно из Sales с контактами или клиентами в Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Common Data Service для приложений](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+> Перед использованием решения "Перспективный клиент в наличные деньги" следует ознакомиться с разделом [Интеграция данных в Common Data Service для приложений](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 В этой теме обсуждаются шаблоны и базовые задачи, которые используются для синхронизации объектов контакта (контакты) и контакта (клиенты) непосредственно из Microsoft Dynamics 365 for Sales с Microsoft Dynamics 365 for Finance and Operations.
 

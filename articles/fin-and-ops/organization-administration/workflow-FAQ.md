@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adcc9bbc422a3fddfd51d248daf95c0da6d4c9bb
-ms.sourcegitcommit: 8cf77e9171d6cad8ae6c8bfad9e4f9a46fef6d23
+ms.openlocfilehash: 7ca04433937d0d7a16b450f190cd3814533e270d
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "1689008"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741064"
 ---
 # <a name="workflow-faq"></a>Вопросы и ответы по рабочим процессам
 
@@ -48,6 +48,6 @@ ms.locfileid: "1689008"
     - В будущих обновлениях мы добавим сообщение центра уведомлений, чтобы пользователю был назначен рабочий элемент рабочего процесса. 
 - Добавление уведомлений в рабочие процессы
     - Сообщения центра уведомлений могут быть созданы для конкретного пользователя, например, сообщение, созданное из рабочего процесса в X++.
-    - [В рабочих процессах есть бизнес-события](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), которые клиент может использовать для запуска потоков, имеющих уведомления, которые они ищут.   
+    - [В рабочих процессах есть бизнес-события](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), которые клиент может использовать для запуска потоков, имеющих уведомления, которые они ищут.   
 
-В целом, если пользователь не получил от центра уведомлений соответствующее уведомление, когда ему назначен рабочий элемент рабочего процесса, используйте [бизнес-события рабочего процесса](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) с Microsoft Flow для предоставления дополнительных или других уведомлений.
+В целом, если пользователь не получил от центра уведомлений соответствующее уведомление, когда ему назначен рабочий элемент рабочего процесса, используйте [бизнес-события рабочего процесса](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) с Microsoft Flow для предоставления дополнительных или других уведомлений.

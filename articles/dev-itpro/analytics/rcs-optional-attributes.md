@@ -1,5 +1,5 @@
 ---
-title: Подготовка метаданных для конкретного приложения для RCS и ER
+title: Импорт файлов в формате XML с дополнительными атрибутами
 description: В этой теме приводятся сведения о разработке форматов электронной отчетности, которые определяют атрибуты XML для разбора входящих электронных документов в формате XML.
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726583"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850003"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Подготовка метаданных для конкретного приложения для RCS и ER
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>Импорт файлов в формате XML с дополнительными атрибутами
 
 Можно разработать форматы электронной отчетности (ER) для синтаксического анализа входящих документов в формате XML. Некоторые атрибуты элементов XML могут быть указаны в разработанном формате электронной отчетности как необязательные. Это позволяет корректно обрабатывать входящие файлы с такими атрибутами XML и без них. Затем можно использовать содержимое из этих файлов для обновления данных приложения.
 

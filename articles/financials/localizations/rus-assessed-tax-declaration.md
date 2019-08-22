@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2019-05-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: eeed4da78ebfe96aad822788ca5eb3280fa1b4a0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: dbddaade125f0a3985c202651316923d895c2e5a
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538362"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849317"
 ---
 # <a name="assessed-tax-declaration-russia"></a>Налоговая декларация по налогу на имущество (Россия)
 

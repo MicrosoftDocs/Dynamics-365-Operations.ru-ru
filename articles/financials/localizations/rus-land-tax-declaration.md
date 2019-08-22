@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 55560bca9f9270501b42458aa6a35fc6d50eb2aa
-ms.sourcegitcommit: 9a3335314118a9e541d77d71cdd03c41ebfdb832
+ms.openlocfilehash: 277fc8d50838d88d146cf96f5ac2f48823c7d8ac
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625630"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849295"
 ---
 # <a name="land-tax-declaration"></a>Декларация по земельному налогу 
 

@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OfficialsTable_RU
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 24f18aa6cbcdb019f321525f57cff15b9a2d2939
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2f0f77cf913085cc88752aa12a4825a44061732a
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556254"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849287"
 ---
 # <a name="set-up-officials-russia"></a>Настройка должностных лиц (Россия)
 [!include [banner](../includes/banner.md)]

@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff105bdefff2ea93c853d590c77391653f50a4dc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566118"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842001"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Проводка, связанная с гарантийным письмом
 
@@ -61,7 +61,7 @@ ms.locfileid: "1566118"
 15. В поле "Запрошенная дата отгрузки" введите дату.
 16. В поле "Подтвержденная дата отгрузки" введите дату.
 
-## <a name="process-letter-of-guaranteerequest"></a>Обработка запроса гарантийного письма
+## <a name="process-letter-of-guarantee_request"></a>Обработка запроса гарантийного письма
 1. В области действий щелкните "Управлять".
 2. Щелкните "Гарантийное письмо".
 3. В области действий щелкните "Гарантийное письмо".
@@ -73,7 +73,7 @@ ms.locfileid: "1566118"
 9. Нажмите кнопку "OК".
 10. Закройте страницу.
 
-## <a name="process-letter-of-guaranteesubmit-to-bank"></a>Обработка отправки гарантийного письмо в банк
+## <a name="process-letter-of-guarantee_submit-to-bank"></a>Обработка отправки гарантийного письмо в банк
 1. Перейдите в раздел "Управление банком и кассовыми операциями" > "Гарантийные письма" > "Гарантийные письма".
 2. В списке найдите и выберите требуемую запись.
 3. Щелкните "Отправить в банк", чтобы открыть раскрывающееся диалоговое окно.
@@ -81,7 +81,7 @@ ms.locfileid: "1566118"
 5. В списке перейдите по ссылке в выбранной строке.
 6. Нажмите кнопку "OК".
 
-## <a name="process-letter-of-guaranteereceive-from-bank"></a>Обработка получения гарантийного письма от банка
+## <a name="process-letter-of-guarantee_receive-from-bank"></a>Обработка получения гарантийного письма от банка
 1. Щелкните "Получить от банка", чтобы открыть раскрывающееся диалоговое окно.
 2. В поле "Код банка" введите значение.
     * Проверьте значения в рассчитываемых полях "Маржа" и "Расход".  
@@ -93,7 +93,7 @@ ms.locfileid: "1566118"
     * Проверьте разноску записей журнала.  
 7. Закройте страницу.
 
-## <a name="process-letter-of-guaranteegive-to-beneficiary"></a>Обработка передачи гарантийное письмо бенефициару
+## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>Обработка передачи гарантийное письмо бенефициару
 1. Перейдите в раздел "Расчеты с клиентами" > "Заказы" > "Все заказы на продажу".
 2. В списке перейдите по ссылке в выбранной строке.
 3. В области действий щелкните "Управлять".
@@ -108,7 +108,7 @@ ms.locfileid: "1566118"
 12. Разверните раздел "Действия".
     * Проверка запись "Передать бенефициару".  
 
-## <a name="process-letter-of-guaranteeincrease-value"></a>Обработка увеличения стоимости гарантийного письма
+## <a name="process-letter-of-guarantee_increase-value"></a>Обработка увеличения стоимости гарантийного письма
 1. Перейдите в раздел "Расчеты с клиентами" > "Заказы" > "Все заказы на продажу".
 2. В списке перейдите по ссылке в выбранной строке.
 3. В области действий щелкните "Управлять".
@@ -128,7 +128,7 @@ ms.locfileid: "1566118"
 16. Щелкните "Строки".
     * Проверьте разнесенные записи журнала.  
 
-## <a name="process-letter-of-guaranteeliquidate"></a>Обработка ликвидации гарантийного письма
+## <a name="process-letter-of-guarantee_liquidate"></a>Обработка ликвидации гарантийного письма
 1. Перейдите в раздел "Расчеты с клиентами" > "Заказы" > "Все заказы на продажу".
 2. В списке перейдите по ссылке в выбранной строке.
 3. В области действий щелкните "Управлять".

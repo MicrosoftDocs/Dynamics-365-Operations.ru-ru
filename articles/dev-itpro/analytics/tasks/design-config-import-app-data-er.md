@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 23004930d2377a3d647435b53b6809cd500f44ac
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551491"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741363"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Разработка конфигураций электронной отчетности для анализа входящих документов
 
@@ -30,7 +30,7 @@ ms.locfileid: "1551491"
 
 Эта процедура предназначена для пользователей, которым назначена роль "Системный администратор" или "Разработчик электронной отчетности". 
 
-Эти шаги можно выполнить с использованием любого набора данных. Перед тем как начать, загрузите и сохраните файлы, перечисленные в разделе "Разбор входящих документов для обновления данных приложений" (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)). Файлы: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Эти шаги можно выполнить с использованием любого набора данных. Перед тем как начать, загрузите и сохраните файлы, перечисленные в разделе "Разбор входящих документов для обновления данных приложений" (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)). Файлы: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Перейдите в раздел "Управление организацией" > "Рабочие области" > "Электронная отчетность".
     * Убедитесь, что поставщик конфигурации для демонстрационной компании Litware, Inc. доступен и помечен как активный. Если вы не видите этого поставщика конфигурации, необходимо сначала выполнить шаги в процедуре "Создание поставщика конфигурации и пометка его как активного".  

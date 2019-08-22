@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ea1cd9926f3ea55d82f9030372a15b3545ed824
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb879103c86cd251efcb1d3efa1faf847cb5ca74
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563793"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842313"
 ---
 # <a name="postdated-checks"></a>Чеки, датированные будущим числом
 
@@ -71,7 +71,7 @@ Microsoft Dynamics 365 for Finance and Operations поддерживает по�
 </tr>
 <tr class="odd">
 <td>Отмена датированного задним числом чека для поставщика</td>
-<td>Разнесенный чек, датированный будущим числом, можно отменить в следующих случаях: — Чек возвращен банком.
+<td>Разнесенный чек, датированный будущим числом, можно отменить в следующих случаях: - Чек возвращен банком.
 - Чек применен к неправильной накладной.
 - По чему произведена наличная оплата.
   </td>

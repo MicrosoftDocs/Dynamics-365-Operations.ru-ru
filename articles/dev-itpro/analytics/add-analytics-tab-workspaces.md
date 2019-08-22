@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
-ms.reviewer: robinr
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5cfb2377ad290bff9c50819876d79a9d4b2a73d8
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548193"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848605"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Добавление аналитики в рабочие области с помощью Power BI Embedded
 
@@ -45,10 +45,10 @@ ms.locfileid: "1548193"
 4. Необязательно: добавьте расширения, чтобы настроить представление.
 
 > [!NOTE]
-> Дополнительные сведения о создании аналитических отчетов см. в разделе [Начало работы с Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Эта страница является отличным источником важных данных, которые могут помочь создать привлекательные аналитические решения отчетности.
+> Дополнительные сведения о создании аналитических отчетов см. в разделе [Начало работы с Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/). Эта страница является отличным источником важных данных, которые могут помочь создать привлекательные аналитические решения отчетности.
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Добавление PBIX-файла как ресурса Dynamics 365
-Прежде чем начать, необходимо создать или получить отчет Power BI, который будет внедрен в рабочую область. Дополнительные сведения о создании аналитических отчетов см. в разделе [Начало работы с Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
+Прежде чем начать, необходимо создать или получить отчет Power BI, который будет внедрен в рабочую область. Дополнительные сведения о создании аналитических отчетов см. в разделе [Начало работы с Power BI Desktop](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/).
 
 Выполните следующие действия, чтобы добавить PBIX-файл в качестве артефакта проекта Visual Studio.
 

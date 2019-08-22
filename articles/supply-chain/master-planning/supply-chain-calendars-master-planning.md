@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 266eec2bb870be270b7796b35903a402e014c67c
-ms.sourcegitcommit: 1f211ac6bd384fd8a2b5352104baf264d88f39b0
+ms.openlocfilehash: ca473de65135ddddea12ddc72e902056cc7b1db7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538734"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845315"
 ---
 # <a name="calendars-and-master-planning"></a>Календари и сводное планирование
 
@@ -93,7 +93,7 @@ ms.locfileid: "1538734"
 
 Обратите внимание, что можно включить только один календарь для каждого клиента. Если требуется включить календарь для каждого различного адреса для клиента, можно создать по одному клиенту на каждый адрес и затем назначить ему соответствующий календарь. 
 
-На запрошенную дату поступления в строках заказа на продажу влияют календарь клиента и метод управления датой поставки. Можно прочитать подробнее о расчете самой ранней даты поставки в разделе [Резервирование по заказам](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+На запрошенную дату поступления в строках заказа на продажу влияют календарь клиента и метод управления датой поставки. Можно прочитать подробнее о расчете самой ранней даты поставки в разделе [Резервирование по заказам](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Календарь отгрузки для юридического лица
 Для указания дат, в которые юридическое лицо может отгружать товары, можно настроить календарь отгрузки в разделе **Управление организацией > Организации > Юридические лица**. Выберите юридическое лицо и добавьте календарь на вкладке **Внешняя торговля и логистика** в поле **Календарь отгрузки**. Календарь отгрузки будет выступать в качестве источника значений по умолчанию для всех календарей складов юридического лица. 

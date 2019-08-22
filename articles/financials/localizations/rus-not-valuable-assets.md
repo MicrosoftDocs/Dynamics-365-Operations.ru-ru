@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f8f5c3ef062e8b54056480f133a60a08275a2bf2
-ms.sourcegitcommit: 1f269e1afd876bd592f88eee683664bc93fa64bf
+ms.openlocfilehash: 06cbbf4c327342ec4c7be1f5efe675499fbfde9a
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1539453"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849289"
 ---
 # <a name="not-valuable-fixed-assets-nvfas-russia"></a>Малоценные основные средства (МОС) (Россия)
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
-ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
+ms.openlocfilehash: 7ec16bea1e4f7685f95178f848ba7348a06c31f3
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "1703883"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741511"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Трассировка выполнения форматов электронной отчетности для устранения проблем с производительностью
 
@@ -104,7 +104,7 @@ ms.locfileid: "1703883"
 ### <a id='import-configuration'></a>Импорт конфигурации ER из службы RCS в Finance and Operations
 
 1. Войдите в свой экземпляр Finance and Operations.
-2. В этом учебнике будут импортированы конфигурации из экземпляра RCS (где вы разрабатываете компоненты электронной отчетности) в экземпляр Finance and Operations (где они проверяются и затем используются). Поэтому необходимо убедиться, что все необходимые артефакты подготовлены. Инструкции см. в процедуре [Импорт конфигураций электронной отчетности из служб Regulatory Configuration Service (RCS)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations)
+2. В этом учебнике будут импортированы конфигурации из экземпляра RCS (где вы разрабатываете компоненты электронной отчетности) в экземпляр Finance and Operations (где они проверяются и затем используются). Поэтому необходимо убедиться, что все необходимые артефакты подготовлены. Инструкции см. в процедуре [Импорт конфигураций электронной отчетности из служб Regulatory Configuration Service (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations)
 3. Выполните следующие действия, чтобы импортировать конфигурации из RCS в Finance and Operations:
 
     1. В рабочей области **Электронная отчетность** на плитке поставщика конфигурации **Litware, Inc.** выберите **Репозитории**.
