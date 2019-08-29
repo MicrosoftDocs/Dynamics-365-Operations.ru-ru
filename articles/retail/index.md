@@ -3,7 +3,7 @@ title: Добро пожаловать в Dynamics 365 for Retail
 description: Домашняя страница Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572181"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874935"
 ---
 # <a name="welcome-to-dynamics-365-for-retail"></a>Добро пожаловать в Dynamics 365 for Retail
 
@@ -38,7 +38,7 @@ Microsoft Dynamics 365 for Retail — это полное решение для
 
 ## <a name="channel-management"></a>Управление каналом
 
-При настройке взаимодействия Retail вы решаете, как определить и настроить магазины. Это могут быть физические магазины, интернет-магазины или центры обработки вызовов.
+Во время настройки Retail вы решите, как определить и настроить свои магазины — как физические магазины, интернет-магазины или центры обработки вызовов.
 
 Каждый магазин розничной торговли может иметь собственные способы оплаты, методы доставки, ценовые группы, приходные и расходные счета, регистры и персонал. После создания магазина розничной торговли вы создаете ассортимент продуктов, которые должны быть в нем доступны. Вы также можете определить цены и скидки, которые будут применяться только к продуктам, доступным в конкретном магазине.
 

@@ -8,6 +8,14 @@
         - name: Что нового и что изменилось в Talent
           href: whats-new.md
           items:
+            - name: 22 августа 2019 г.
+              href: whats-new-talent-august-21-2019.md
+            - name: 13 августа 2019 г.
+              href: whats-new-talent-august-15-2019.md
+            - name: 6 августа 2019 г.
+              href: whats-new-talent-august-7-2019.md
+            - name: 30 июля 2019 г.
+              href: whats-new-talent-july-31-2019.md
             - name: 23 июля 2019 г.
               href: whats-new-talent-july-24-2019.md
             - name: 16 июля 2019 г.
@@ -24,16 +32,16 @@
               href: whats-new-talent-june-11-2019.md
             - name: 4 июня 2019 г.
               href: whats-new-talent-june-4-2019.md
-            - name: 28 мая 2019 г.
-              href: whats-new-talent-may-28-2019.md
-            - name: 21 мая 2019 г.
-              href: whats-new-talent-may-21-2019.md
-            - name: 13 мая 2019 г.
-              href: whats-new-talent-may-13-2019.md
-            - name: 6 мая 2019 г.
-              href: whats-new-talent-may-6-2019.md
             - name: Архивы "Что нового" за 2019 г.
               items:
+                - name: 28 мая 2019 г.
+                  href: whats-new-talent-may-28-2019.md
+                - name: 21 мая 2019 г.
+                  href: whats-new-talent-may-21-2019.md
+                - name: 13 мая 2019 г.
+                  href: whats-new-talent-may-13-2019.md
+                - name: 6 мая 2019 г.
+                  href: whats-new-talent-may-6-2019.md
                 - name: 30 апреля 2019 г.
                   href: whats-new-talent-april-30-2019.md
                 - name: 25 апреля 2019 г.
@@ -204,6 +212,8 @@
               href: departments-jobs-positions.md
             - name: Настройка компонентов должности
               href: create-job.md
+            - name: Упрощенный вход и навигация сотрудников
+              href: streamlined-employee-entry.md
             - name: Создание подразделений и их включение в иерархию подразделений
               href: create-department-add-department-hierarchy.md
             - name: Настройка параметров управления персоналом для нескольких юридических лиц
