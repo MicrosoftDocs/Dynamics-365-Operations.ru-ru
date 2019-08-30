@@ -5,13 +5,15 @@
 - name: Требования к системе для локальных развертываний
   href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
 - name: Демонстрационные данные
-  href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
+    - name: Обзор демонстрационных данных
+      href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
     - name: Создание демонстрационных данных с помощью пакетов данных
       href: data-entities/generate-demo-data-packages.md
 - name: Разработка и настройка
-  href: dev-tools/developer-home-page.md
   items:
+    - name: Домашняя страница модуля разработки и настройки
+      href: dev-tools/developer-home-page.md
     - name: Стек приложений и архитектура сервера
       href: dev-tools/application-stack-server-architecture.md
     - name: Получение ознакомительных версий
@@ -19,8 +21,9 @@
     - name: Регистрация на ознакомительные подписки
       href: dev-tools/sign-up-preview-subscription.md
     - name: Развертывание сред разработки и доступ к ним
-      href: dev-tools/access-instances.md
       items:
+        - name: Среды разработки
+          href: dev-tools/access-instances.md
         - name: Настройка односерверных сред разработки
           href: dev-tools/configure-developer-vm.md
         - name: Создание новых пользователей на компьютерах для разработки
@@ -58,8 +61,9 @@
         - name: Функции редактора кода
           href: dev-tools/code-editor.md
         - name: Создание моделей и элементы модели данных
-          href: dev-tools/create-data-model-elements.md
           items:
+            - name: Обзор создания моделей и элементов модели данных
+              href: dev-tools/create-data-model-elements.md
             - name: Правила именования для расширений
               href: extensibility/NamingGuidelines.md
             - name: Отключение настройки моделей и отказ от функций
@@ -86,8 +90,6 @@
       items:
         - name: X++ и функции отладчика
           href: dev-tools/new-x-debugger-features.md
-        - name: Отладка X++ с копиями рабочих баз данных
-          href: dev-tools/debug-x-issue-against-copy-of-production.md
         - name: Отладка кода X++
           href: dev-tools/debug-xpp.md
         - name: Классы EventHandlerResult в сценариях с запросами и ответами
@@ -104,7 +106,7 @@
           href: dev-ref/application-explorer-aot-properties.md
         - name: Справочник по языку X++
           items:
-            - name: Справочник по языку X++
+            - name: Обзор справочника по языку X++
               href: dev-ref/xpp-language-reference.md
             - name: Переменные и типы данных
               items:
@@ -135,7 +137,19 @@
             - name: Приоритет операторов в X++
               href: dev-ref/xpp-operator-precedence.md
             - name: Классы и методы в X++
-              href: dev-ref/xpp-classes-methods.md
+              items:
+                - name: Классы и методы
+                  href: dev-ref/xpp-classes-methods.md
+                - name: Наследственность
+                  href: dev-ref/xpp-inheritance.md
+                - name: Элементы статических классов
+                  href: dev-ref/xpp-static-classes.md
+                - name: Интерфейсы
+                  href: dev-ref/xpp-interfaces.md
+                - name: Библиотеки
+                  href: dev-ref/xpp-library-objects.md
+                - name: События
+                  href: dev-ref/xpp-events.md
             - name: Выбор данных и манипуляции с данными в X++
               href: dev-ref/xpp-data-query.md
             - name: Работа с данными через API SysDa
@@ -149,13 +163,15 @@
             - name: Синтаксис X++
               href: dev-ref/xpp-syntax.md
     - name: 'Справочник по API, классам и таблицам'
-      href: dev-ref/api-reference.md
       items:
+        - name: 'Ресурсы по API, классам и таблицам'
+          href: dev-ref/api-reference.md
         - name: Функции времени компиляции X++
           href: dev-ref/xpp-compile-time-functions.md
         - name: Функции времени выполнения X++
-          href: dev-ref/xpp-run-time-functions.md
           items:
+            - name: Ресурсы функции времени выполнения X++
+              href: dev-ref/xpp-run-time-functions.md
             - name: Бизнес-функции времени выполнения X++
               href: dev-ref/xpp-business-run-time-functions.md
             - name: Контейнерные функции времени выполнения X++
@@ -409,8 +425,9 @@
         - name: Фильтрация SysTest с помощью атрибутов классов и методов
           href: perf-test/systest-filtering.md
         - name: Библиотека приемочного тестирования
-          href: perf-test/acceptance-test-library.md
           items:
+            - name: Ресурсы библиотеки приемочного тестирования
+              href: perf-test/acceptance-test-library.md
             - name: Понятия навигации
               href: perf-test/concepts-navigation.md
             - name: Методы тестирования данных
@@ -438,8 +455,9 @@
     - name: Локальное лицензирование для независимых поставщиков программного обеспечения
       href: dev-tools/isv-licensing-on-prem.md
 - name: Разработка пользовательского интерфейса
-  href: user-interface/user-interface-development-home-page.md
   items:
+    - name: Домашняя страница разработки пользовательского интерфейса
+      href: user-interface/user-interface-development-home-page.md
     - name: Учебники
       items:
         - name: Создание формы типа накладных расходов на аренду
@@ -633,18 +651,21 @@
         - name: Кэширование плиток и списков для рабочих областей
           href: user-interface/tile-list-caching-workspaces.md
     - name: Регистратор задач
-      href: user-interface/task-recorder.md
       items:
+        - name: Ресурсы регистратора задач
+          href: user-interface/task-recorder.md
         - name: Краткий справочник по регистратору задач
           href: user-interface/task-recorder-quick-reference.md
         - name: Создание документации или учебных материалов с помощью записей задач
           href: user-interface/task-recorder-training-docs.md
 - name: Мобильная платформа
-  href: mobile-apps/platform/mobile-platform-home-page.md
   items:
+    - name: Ресурсы мобильных платформ
+      href: mobile-apps/platform/mobile-platform-home-page.md
     - name: Начало работы
-      href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
+        - name: Начало работы с мобильной платформой
+          href: mobile-apps/platform/mobile-platform-getting-started.md
         - name: Вопросы архитектуры и дизайна
           href: mobile-apps/platform/mobile-platform-architecture.md
         - name: События бизнес-логики
@@ -678,8 +699,9 @@
         - name: Клиентские API-интерфейсы разработки
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
         - name: Клиентские API-интерфейсы
-          href: mobile-apps/platform/client-apis/client-apis-reference.md
           items:
+            - name: Домашняя страница клиентских API-интерфейсов
+              href: mobile-apps/platform/client-apis/client-apis-reference.md
             - name: Перечисление PageState
               href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
             - name: Модуль приложения
@@ -843,11 +865,13 @@
             - name: Тип ValueMetadata
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
 - name: Общий регламент по защите данных (GDPR)
-  href: gdpr/gdpr-guide.md
   items:
-    - name: Ресурсы для ответа на запросы данных GDPR
-      href: gdpr/gdpr-home-page.md
+    - name: Обзор общего регламента по защите данных
+      href: gdpr/gdpr-guide.md
+    - name: Ответы на запросы данных GDPR
       items:
+        - name: Ресурсы ответов на запросы данных GDPR
+          href: gdpr/gdpr-home-page.md
         - name: Классификация основных средств
           href: gdpr/gdpr-asset-classification-values.md
         - name: Отчет о поиске людей
@@ -863,8 +887,9 @@
         - name: Запросы данных GDPR для LCS
           href: gdpr/gdpr-lcs.md
 - name: Непрерывная поставка
-  href: dev-tools/continuous-delivery-home-page.md
   items:
+    - name: Домашняя страница непрерывной поставки
+      href: dev-tools/continuous-delivery-home-page.md
     - name: Вопросы и ответы по разработке и непрерывной поставке
       href: dev-tools/continuous-delivery-faq.md
     - name: Исключение тестовых пакетов из выходных данных сборки
@@ -873,6 +898,24 @@
       href: dev-tools/manage-runtime-packages.md
     - name: Обновление версий модели при автоматической сборке
       href: dev-tools/version-models-build.md
+- name: Regression Suite Automation Tool
+  items:
+    - name: Обзор Regression Suite Automation Tool
+      href: perf-test/rsat/rsat-overview.md
+    - name: Установка и конфигурация
+      href: perf-test/rsat/rsat-install-configure.md
+    - name: Выполнение контрольных примеров
+      href: perf-test/rsat/rsat-run.md
+    - name: Проверка ожидаемых значений
+      href: perf-test/rsat/rsat-validate-expected.md
+    - name: Контрольные примеры цепочки
+      href: perf-test/rsat/rsat-chain-test-cases.md
+    - name: Производные контрольные примеры
+      href: perf-test/rsat/rsat-derived-test-cases.md
+    - name: Рекомендации
+      href: perf-test/rsat/rsat-best-practices.md
+    - name: Устранение неполадок
+      href: perf-test/rsat/rsat-troubleshooting.md
 - name: Выпуск решений с использованием Lifecycle Services
   items:
     - name: Разработка и выпуск
@@ -892,8 +935,9 @@
     - name: Резервное копирование баз данных решения
       href: lcs-solutions/database-backup-lcs-solutions.md
     - name: Локализация и нормативные компоненты
-      href: lcs-solutions/country-region.md
       items:
+        - name: Ресурсы глобализации
+          href: lcs-solutions/country-region.md
         - name: Классификация функций локализации
           href: lcs-solutions/classify-localization-features.md
         - name: Применение контекста страны/региона
@@ -907,8 +951,9 @@
         - name: Отправка нормативных оповещений
           href: lcs-solutions/submit-localization-alerts.md
 - name: Финансовая разработка
-  href: financial/financial-dev-home-page.md
   items:
+    - name: Домашняя страница финансовой разработки
+      href: financial/financial-dev-home-page.md
     - name: Структура "Финансовая аналитика"
       items:
         - name: Сочетания счетов ГК
@@ -968,11 +1013,13 @@
     - name: Развертывание демонстрационных сред
       href: deployment/deploy-demo-environment.md
     - name: Облачное развертывание
-      href: deployment/cloud-deployment-overview.md
       items:
+        - name: Обзор облачного развертывания
+          href: deployment/cloud-deployment-overview.md
         - name: Дистанционное развертывание
-          href: deployment/infrastructure-stack.md
           items:
+            - name: Обзор дистанционного развертывания
+              href: deployment/infrastructure-stack.md
             - name: Развертывание новой среды
               href: deployment/deployenvironment-newinfrastructure.md
             - name: Вопросы и ответы по развертыванию
@@ -1000,9 +1047,10 @@
         - name: Место расположения данных Retail
           href: deployment/retail-data-residency.md
     - name: Локальное развертывание
-      href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: Параметр локального развертывания
+        - name: Домашняя страница локального развертывания
+          href: deployment/on-premises-deployment-landing-page.md
+        - name: Обзор локального развертывания
           href: deployment/on-premises-overview.md
         - name: Планирование локальных развертываний и подготовка к ним
           href: deployment/plan-onprem-deployment.md
@@ -1011,8 +1059,9 @@
         - name: Настройка локальных проектов
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
         - name: Настройка и развертывание локальных сред
-          href: deployment/setup-deploy-on-premises-environments.md
           items:
+            - name: Домашняя страница настройки и развертывания локальных сред
+              href: deployment/setup-deploy-on-premises-environments.md
             - name: Развертывание локальных сред (Platform update 12 и более поздние версии)
               href: deployment/setup-deploy-on-premises-pu12.md
             - name: Развертывание локальных сред (Platform update 8 и 11)
@@ -1031,8 +1080,14 @@
           href: deployment/on-premises-diagnostics.md
         - name: Повторное развертывание локальных развертываний
           href: deployment/redeploy-on-prem.md
-        - name: Обновление локального агента
-          href: lifecycle-services/update-local-agent.md
+        - name: Локальный агент
+          items:
+            - name: Совместимость AD FS Office 365
+              href: deployment/onprem-adfscompatibility.md
+            - name: 'Сценарии, выполняемые перед развертыванием локального агента и после его развертывания'
+              href: lifecycle-services/pre-post-scripts.md
+            - name: Обновление локального агента
+              href: lifecycle-services/update-local-agent.md
         - name: Повторная настройка сред
           href: lifecycle-services/reconfigure-environment.md
         - name: Подключение к Интернету клиента
@@ -1052,11 +1107,13 @@
         - name: Устранение неполадок приложений пакета
           href: deployment/deployable-package-troubleshooting.md
 - name: 'Модификации, обновления и исправления'
-  href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: Обновление AX 2012 до Finance and Operations
-      href: migration-upgrade/upgrade-overview-2012.md
+    - name: 'Ресурсы модификаций, обновлений и исправлений'
+      href: migration-upgrade/upgrade-home-page.md
+    - name: Обновление AX 2012
       items:
+        - name: Обновление AX 2012 до Finance and Operations
+          href: migration-upgrade/upgrade-overview-2012.md
         - name: Обновление AX 2012 — планирование использования средства анализа обновления
           href: migration-upgrade/upgrade-analyzer-tool.md
         - name: Обновление AX 2012 — оценка трудозатрат с помощью службы обновления кода
@@ -1095,9 +1152,10 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Обновление бюджетного планирования
               href: migration-upgrade/upgrade-budget-planning.md
-    - name: Перенос данных из AX 2009 в Finance and Operations
-      href: migration-upgrade/data-migration-tool.md
+    - name: Миграция данных из AX 2009
       items:
+        - name: Перенос данных из AX 2009 в Finance and Operations
+          href: migration-upgrade/data-migration-tool.md
         - name: "Миграция с AX 2009\_— установка средства переноса данных"
           href: migration-upgrade/install-dmt.md
         - name: "Миграция с AX 2009\_— создание сопоставлений"
@@ -1111,8 +1169,9 @@
         - name: "Миграция с AX 2009\_— импорт пакетов"
           href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Перенос и обновление кода
-      href: migration-upgrade/code-migration-home-page.md
       items:
+        - name: Домашняя страница переноса и обновления кода
+          href: migration-upgrade/code-migration-home-page.md
         - name: Подготовка к переносу кода
           href: migration-upgrade/prepare-migration.md
         - name: Настройка сопоставления Azure DevOps
@@ -1135,8 +1194,6 @@
           href: migration-upgrade/versions-update-policy.md
         - name: Применение последнего обновления платформы к средам
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: Обновление платформы Dynamics AX до выпуска от апреля 2016 г.
-          href: migration-upgrade/update-platform-each-release.md
         - name: Обновление данных в среде разработки или в демонстрационной среде
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Обновление средств разработки
@@ -1172,8 +1229,9 @@
         - name: Устаревшие API (июнь 2017 г.)
           href: migration-upgrade/deprecated-apis.md
 - name: Администрирование системы
-  href: sysadmin/system-administration-home-page.md
   items:
+    - name: Домашняя страница администрирования системы
+      href: sysadmin/system-administration-home-page.md
     - name: Добавление ссылок на юридические условия и заявление о конфиденциальности
       href: sysadmin/legal-terms-privacy-statement.md
     - name: Отчет о лицензионных кодах и ключах конфигурации
@@ -1186,13 +1244,14 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: Экспорт пользователей B2B в Azure AD
       href: sysadmin/implement-b2b.md
-    - name: Настройка времени ожидания сеанса
-      href: sysadmin/session-idle-timeout.md
-    - name: Безопасность на основе ролей
-      href: sysadmin/role-based-security.md
+    - name: Контроль доступа
       items:
+        - name: Безопасность на основе ролей
+          href: sysadmin/role-based-security.md
         - name: Архитектура безопасности
           href: sysadmin/security-architecture.md
+        - name: Настройка времени ожидания сеанса
+          href: sysadmin/session-idle-timeout.md
         - name: Готовые отчеты безопасности
           href: sysadmin/security-reports.md
         - name: Создание новых пользователей
@@ -1206,8 +1265,9 @@
         - name: Назначение пользователей для ролей безопасности
           href: sysadmin/tasks/assign-users-security-roles.md
     - name: Пакетная обработка
-      href: sysadmin/batch-processing-overview.md
       items:
+        - name: Обзор пакетной обработки
+          href: sysadmin/batch-processing-overview.md
         - name: Пакетная обработка и серверы обработки пакетных заданий
           href: sysadmin/batch-server-overview.md
         - name: Создание пакетных заданий
@@ -1229,8 +1289,9 @@
         - name: Прерывание выполняемого пакетного задания
           href: sysadmin/batch-abort.md
     - name: Помощник по оптимизации
-      href: sysadmin/optimization-advisor-overview.md
       items:
+        - name: Обзор помощника по оптимизации
+          href: sysadmin/optimization-advisor-overview.md
         - name: Создание правил для помощника по оптимизации
           href: sysadmin/create-rules-optimization-advisor.md
     - name: Сообщение о сбое производства
@@ -1238,8 +1299,9 @@
 - name: Lifecycle Services
   items:
     - name: Ресурсы для Lifecycle Services
-      href: lifecycle-services/lcs.md
       items:
+        - name: Ресурсы Lifecycle Services
+          href: lifecycle-services/lcs.md
         - name: LCS для клиентов
           href: lifecycle-services/lcs-works-lcs.md
         - name: LCS для партнеров
@@ -1257,8 +1319,9 @@
     - name: Поиск проблем
       href: lifecycle-services/issue-search-lcs.md
     - name: Диспетчер конфигураций
-      href: lifecycle-services/configuration-manager-lcs.md
       items:
+        - name: Обзор диспетчера конфигураций
+          href: lifecycle-services/configuration-manager-lcs.md
         - name: Настройка диспетчера конфигураций
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: Настройка службы обновления кода
@@ -1298,8 +1361,9 @@
     - name: Учебник по запросам
       href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
-      href: lifecycle-services/translation-service-overview.md
       items:
+        - name: Обзор Dynamics 365 Translation Service
+          href: lifecycle-services/translation-service-overview.md
         - name: Перевод файлов пользовательского интерфейса
           href: lifecycle-services/use-translation-service.md
         - name: Перевод файлов документации

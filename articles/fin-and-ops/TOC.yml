@@ -1,20 +1,23 @@
 - name: Dynamics 365 for Finance and Operations
-  href: index.md
   items:
+    - name: Документация по Dynamics 365 for Finance and Operations
+      href: index.md
     - name: Начало работы
       items:
         - name: Перед покупкой
-          href: get-started/before-you-buy.md
           items:
+            - name: Домашняя страница модуля "Перед покупкой"
+              href: get-started/before-you-buy.md
             - name: Регистрация на ознакомительную подписку
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
             - name: Развертывание демонстрационной среды
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: Сравнение характеристик облачной и локальной версий
               href: get-started/cloud-prem-comparison.md
-            - name: Варианты развертывания
-              href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
+            - name: 'Вопросы, связанные с развертыванием'
               items:
+                - name: Варианты развертывания
+                  href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
                 - name: Облачное развертывание
                   href: ../dev-itpro/deployment/cloud-deployment-overview.md?toc=/fin-and-ops/toc.json
                 - name: Требования к системе для облачных развертываний
@@ -36,8 +39,9 @@
                 - name: Покупка Finance and Operations (on-premises)
                   href: get-started/purchase-on-premises.md
         - name: Что нового и что изменилось
-          href: get-started/whats-new-changed.md
           items:
+            - name: Домашняя страница модуля "Что нового и что изменилось"
+              href: get-started/whats-new-changed.md
             - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
               href: get-started/mainstream-support-ax-2009-2012.md
             - name: Удаленные или устаревшие функции
@@ -140,6 +144,8 @@
                   href: get-started/new-task-guides-available-february-2016.md
         - name: Знакомство с пользовательским интерфейсом
           items:
+            - name: Элементы пользовательского интерфейса
+              href: get-started/user-interface-elements.md
             - name: Специальные возможности
               href: get-started/accessibility-features.md
             - name: Обзор управления компонентами
@@ -197,8 +203,9 @@
         - name: Видео для Finance and Operations
           href: get-started/videos.md
     - name: Реализация управления жизненным циклом
-      href: imp-lifecycle/implementation-lifecycle.md
       items:
+        - name: Домашняя страница модуля реализации управления жизненным циклом
+          href: imp-lifecycle/implementation-lifecycle.md
         - name: Архитектура Finance and Operations
           href: imp-lifecycle/architecture-overview.md
         - name: Microsoft FastTrack for Finance and Operations
@@ -224,8 +231,9 @@
         - name: Несколько проектов LCS и производственных сред в одном клиенте Azure AD
           href: get-started/implement-multiple-projects-aad-tenant.md
     - name: Обновления службы с одной версией
-      href: ../dev-itpro/lifecycle-services/oneversion-overview.md
       items:
+        - name: Обзор обновлений службы с одной версией
+          href: ../dev-itpro/lifecycle-services/oneversion-overview.md
         - name: Вопросы и ответы по обновлениям службы с одной версией
           href: get-started/one-version.md
         - name: 'Политика жизненного цикла программного обеспечения: облачное развертывание'
@@ -246,17 +254,12 @@
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: Поставка решений независимых поставщиков программного обеспечения с помощью одной версии
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: Проверка автоматизации
-          items:
-            - name: Создание и автоматизация пользовательских приемочных тестов
-              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: Настройка учебника Regression Suite Automation Tool
-              href: get-started/hol-set-up-regression-suite-automation-tool.md
-            - name: Использование учебника Regression Suite Automation Tool
-              href: get-started/hol-use-regression-suite-automation-tool.md
+        - name: Создание и автоматизация пользовательских приемочных тестов
+          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
     - name: Бизнес-события
-      href: ../dev-itpro/business-events/home-page.md
       items:
+        - name: Обзор бизнес-событий
+          href: ../dev-itpro/business-events/home-page.md
         - name: Бизнес-события приложения
           href: ../dev-itpro/business-events/app-business-events.md
         - name: Бизнес-события бизнес-правила
@@ -273,22 +276,34 @@
           href: ../dev-itpro/business-events/potential-use-cases.md
         - name: Учебники
           items:
-            - name: Использование бизнес-событий в Microsoft Flow
+            - name: Бизнес-события и Microsoft Flow
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-            - name: Использование бизнес-событий с помощью сетки событий Azure
+            - name: Бизнес-события и сетка событий Azure
               href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
-            - name: Использование бизнес-событий с помощью служебной шины Azure
+            - name: Бизнес-события и служебная шина Azure
               href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
-            - name: Использование бизнес-событий бизнес-правил
+            - name: Бизнес-события и утверждения документооборота
               href: ../dev-itpro/business-events/how-to/how-to-workflow.md
-            - name: Использование Microsoft Forms Pro с бизнес-событиями
+            - name: Бизнес-события и Microsoft Forms Pro
               href: ../dev-itpro/business-events/how-to/FormsPro.md
-    - name: Управление затратами
-      href: ../supply-chain/cost-management/cost-management-home-page.md
+            - name: Бизнес-события и центры событий Azure
+              href: ../dev-itpro/business-events/how-to/event-hub.md
+    - name: Соответствие
       items:
+        - name: Правила политики аудита
+          href: ../financials/general-ledger/audit-policy-rules.md
+        - name: Нарушения политики аудита и соответствующие обращения
+          href: ../financials/general-ledger/audit-policy-violations-cases.md
+        - name: Определение политик аудита для документов-источников
+          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+    - name: Управление затратами
+      items:
+        - name: Домашняя страница управления затратами
+          href: ../supply-chain/cost-management/cost-management-home-page.md
         - name: Предварительные требования для стандартных затрат
-          href: ../supply-chain/cost-management/prerequisites-standard-costs.md
           items:
+            - name: Обзор предварительных требований для стандартных затрат
+              href: ../supply-chain/cost-management/prerequisites-standard-costs.md
             - name: Обзор преобразования в стандартную себестоимость
               href: ../supply-chain/cost-management/standard-cost-conversion-overview.md
             - name: Необходимые условия для преобразования в стандартную себестоимость
@@ -308,8 +323,9 @@
             - name: Подготовка к поддержке стандартных затрат по произведенной номенклатуре
               href: ../supply-chain/cost-management/prepare-maintain-standard-costs-manufactured-items.md
         - name: Версии учета затрат
-          href: ../supply-chain/cost-management/costing-versions.md
           items:
+            - name: Обзор версий учета затрат
+              href: ../supply-chain/cost-management/costing-versions.md
             - name: Схемы калькуляции
               href: ../supply-chain/cost-management/costing-sheets.md
             - name: Моделирование изменений затрат с использованием версии цены для запланированных затрат
@@ -397,8 +413,9 @@
             - name: REST API пакета управления данными
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: Конечные точки служб
-              href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Обзор конечных точек служб
+                  href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
                 - name: Устранение неполадок с проверкой подлинности в службах
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
@@ -414,8 +431,9 @@
         - name: Разработка механизмов интеграции
           items:
             - name: Интеграция данных с использованием информационных объектов
-              href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Обзор интеграции данных с использованием информационных объектов
+                  href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
                 - name: Разработка объекта для переноса данных
                   href: ../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/fin-and-ops/toc.json
                 - name: Разработка составных информационных объектов
@@ -428,7 +446,7 @@
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: Интеграция данных с помощью Common Data Service
               items:
-                - name: Обзор интеграции данных
+                - name: Обзор интеграции данных с помощью Common Data Service
                   href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
                 - name: Синхронная двунаправленная интеграция
                   items:
@@ -448,9 +466,9 @@
                       href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
                 - name: Асинхронная однонаправленная интеграция
                   items:
-                    - name: Продажа перспективному клиенту
+                    - name: Настройка сценария продажи перспективному клиенту
                       items:
-                        - name: Настройка сценария продажи перспективному клиенту
+                        - name: Продажа перспективному клиенту
                           href: ../supply-chain/sales-marketing/prospect-to-cash.md
                         - name: Синхронизация организаций непосредственно из Sales с клиентами в Finance and Operations
                           href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
@@ -464,9 +482,9 @@
                           href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
                         - name: Синхронизация заголовков и строк накладных по продаже непосредственно из Finance and Operations с Sales
                           href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                    - name: Field Service
+                    - name: Настройка интеграции с Field Service
                       items:
-                        - name: Настройка интеграции с Field Service
+                        - name: Обзор настройки интеграции с Field Service
                           href: ../supply-chain/sales-marketing/field-service.md
                         - name: Синхронизация продуктов в Finance and Operations с продуктами в Field Service
                           href: ../supply-chain/sales-marketing/field-service-product.md
@@ -486,9 +504,9 @@
                           href: ../supply-chain/sales-marketing/synchronize-warehouse.md
                         - name: Синхронизация заказов на выполнение работ с проектом из Field Service в Finance and Operations
                           href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                    - name: Project Service Automation
+                    - name: Настройка интеграции Project Service Automation
                       items:
-                        - name: Настройка интеграции Project Service Automation
+                        - name: Обзор Project Service Automation
                           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                         - name: Параметры интеграции Project Service Automation
                           href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
@@ -507,16 +525,19 @@
         - name: Электронные сообщения
           href: ../financials/general-ledger/electronic-messaging.md
     - name: Управление данными
-      href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Обзор управления данными
+          href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
         - name: Информационные объекты
-          href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Обзор информационных объектов
+              href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
             - name: Проекты данных конфигурации
               href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/fin-and-ops/toc.json
             - name: Копирование данных конфигурации между компаниями или юридическими лицами
-              href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Обзор копирования данных конфигурации
+                  href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
                 - name: Пакеты данных конфигурации
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Пакеты данных конфигурации (только выпуск за июль 2017 г.)
@@ -538,8 +559,9 @@
             - name: Пакеты данных конфигурации
               href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
         - name: Задания импорта и экспорта данных
-          href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Обзор заданий импорта и экспорта данных
+              href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
             - name: Рекомендации по импорту ваучеров с помощью объекта "Общий журнал"
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: Разработка с использованием информационных объектов
@@ -581,16 +603,19 @@
         - name: Описания ошибок управления данными
           href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Управление финансами
-      href: ../financials/index.md
       items:
+        - name: Домашняя страница модуля "Управление финансами"
+          href: ../financials/index.md
         - name: Расчеты с поставщиками
-          href: ../financials/accounts-payable/accounts-payable.md
           items:
+            - name: Домашняя страница расчетов с поставщиками
+              href: ../financials/accounts-payable/accounts-payable.md
             - name: Обзор накладных поставщика
               href: ../financials/accounts-payable/vendor-invoices-overview.md
             - name: Настройка модуля "Расчеты с поставщиками"
-              href: ../financials/accounts-payable/accounts-payable-overview.md
               items:
+                - name: Обзор настройки модуля "Расчеты с поставщиками"
+                  href: ../financials/accounts-payable/accounts-payable-overview.md
                 - name: Ввод данных счета в модуль расчетов с поставщиками с использованием накладной поставщика
                   href: ../financials/accounts-payable/tasks/key-invoice-data-ap-system-vendor-invoice.md
                 - name: Ввод данных счета в модуль расчетов с поставщиками с использованием журнала утверждения
@@ -604,9 +629,10 @@
             - name: Политики трехсторонней проверки соответствия
               href: ../financials/accounts-payable/three-way-matching-policies.md
             - name: Сопоставление накладных по расчетам с поставщиками
-              href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
               items:
-                - name: Настройка проверки сопоставления накладных в модуле расчетов с поставщиками
+                - name: Обзор сопоставления накладных по расчетам с поставщиками
+                  href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
+                - name: Настройка проверки сопоставления накладных по расчетам с поставщиками
                   href: ../financials/accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
             - name: Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных поставщиков
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
@@ -625,8 +651,9 @@
             - name: Бизнес-правило поставщика
               href: ../financials/accounts-payable/vendor-workflow.md
             - name: Устранение несоответствий во время сопоставления итогов по накладным
-              href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
               items:
+                - name: Обзор устранения несоответствий во время сопоставления итогов по накладным
+                  href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
                 - name: Рассмотрение и разрешение исключений
                   href: ../financials/accounts-payable/tasks/research-resolve-exceptions.md
             - name: Профили разноски по поставщикам
@@ -688,8 +715,9 @@
                 - name: Страница списка проводок по поставщику
                   href: ../financials/accounts-payable/vendor-transaction-list-page.md
         - name: Расчеты с клиентами
-          href: ../financials/accounts-receivable/accounts-receivable.md
           items:
+            - name: Домашняя страница расчетов с клиентами
+              href: ../financials/accounts-receivable/accounts-receivable.md
             - name: Кредит и сборы в расчетах с клиентами
               href: ../financials/accounts-receivable/collections-credit-accounts-receivable.md
             - name: Настройка модулей "Расчеты с клиентами" и "Кредит и сборы"
@@ -783,8 +811,9 @@
                 - name: Страница списка проводок по клиенту
                   href: ../financials/accounts-receivable/customer-transactions-list-page.md
         - name: Бюджетирование
-          href: ../financials/budgeting/budgeting-overview.md
           items:
+            - name: Домашняя страница бюджетирования
+              href: ../financials/budgeting/budgeting-overview.md
             - name: Обзор бюджетного планирования
               href: ../financials/budgeting/budget-planning-overview-configuration.md
             - name: Обзор бюджетного контроля
@@ -808,8 +837,9 @@
             - name: Интеграция бюджетного планирования с другими модулями
               href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: Управление банком и кассовыми операциями
-          href: ../financials/cash-bank-management/cash-bank-management.md
           items:
+            - name: Домашняя страница модуля "Управление банком и кассовыми операциями"
+              href: ../financials/cash-bank-management/cash-bank-management.md
             - name: Прогнозирование движения денежных средств
               href: ../financials/cash-bank-management/cash-flow-forecasting.md
             - name: Рабочая область управления банками
@@ -885,8 +915,9 @@
                 - name: Обновление составного объекта журнала банка
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Учет затрат
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
           items:
+            - name: Домашняя страница учета затрат
+              href: ../financials/cost-accounting/cost-accounting-home-page.md
             - name: Терминология учета затрат
               href: ../financials/cost-accounting/terms-cost-accounting.md
             - name: 'Финансовые календари, финансовые года и периоды'
@@ -958,8 +989,9 @@
             - name: Использование рабочей области управления затратами для мобильного приложения Finance and Operations
               href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
         - name: Управление расходами
-          href: ../financials/expense-management/expense-management.md
           items:
+            - name: Обзор управления расходами
+              href: ../financials/expense-management/expense-management.md
             - name: Повторно сформированные отчеты по расходам
               href: ../financials/expense-management/ExpenseWorkspaceNew.md
             - name: Планирование управления расходами
@@ -995,8 +1027,9 @@
             - name: Личные расходы в отчете о расходах
               href: ../financials/expense-management/personal-expenses.md
         - name: Основные средства
-          href: ../financials/fixed-assets/fixed-assets.md
           items:
+            - name: Домашняя страница основных средств
+              href: ../financials/fixed-assets/fixed-assets.md
             - name: Создание основного средства
               href: ../financials/fixed-assets/tasks/create-fixed-asset.md
             - name: Ввод дополнения к ОС
@@ -1100,15 +1133,187 @@
                 - name: Линейная амортизация в течение срока службы
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
         - name: Главная книга
-          href: ../financials/general-ledger/general-ledger.md
           items:
+            - name: Обзор главной книги
+              href: ../financials/general-ledger/general-ledger.md
+            - name: Счета
+              items:
+                - name: Обзор начислений
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: Правила элиминирования
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: Комбинации счетов и аналитик
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: Сбалансированные журналы для сбалансированного учета
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Определения разносок
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: Примеры определений разносок
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: Сальдо счетов главной книги
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: Определение финансовых аналитик
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: Ведение шаблонов финансовой аналитики по умолчанию
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Создание структур счетов
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Финансовые аналитики и разноска
+                  href: ../financials/general-ledger/default-dimensions.md
+                - name: Создание схем начисления
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: Финансовые консолидации и пересчет валют
+                  items:
+                    - name: Обзор финансовых консолидаций и пересчета валют
+                      href: ../financials/general-ledger/financial-consolidations-currency-translation.md
+                    - name: Консолидировать интерактивно
+                      href: ../financials/general-ledger/consolidate-online.md
+                    - name: Создание консолидированных финансовых отчетов
+                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
+                - name: Создание групп консолидации и дополнительного счета консолидации
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: Типы счетов ГК
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: Создание счета ГК
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: Планирование плана счетов
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: Сопоставление проводок между счетами ГК
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Настройка псевдонима счета ГК
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Настройка категорий счетов ГК
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: Анализатор источника учета
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: Распределение по бухгалтерским счетам
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: Обработка распределений
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: Финансовые аналитики
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: Конвертация валют учета или отчетности
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: Группы счетов консолидации и счета
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Обзор консолидации и закрытия
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: 'Финансовые календари, финансовые года и периоды'
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Настройка структур счетов
+                  href: ../financials/general-ledger/configure-account-structures.md
+                - name: Двойная валюта
+                  href: ../financials/general-ledger/dual-currency.md
+            - name: Журналы и книги учета
+              items:
+                - name: Обработка общего журнала
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: Разноска периодических журналов
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: Обработка журнала распределения ГК
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Настройка внутрихолдингового учета
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: Правила распределения ГК
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: Создание расширенных правил для журналов
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Создание и назначение структур дополнительных правил
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: Типы журналов ГК
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: Создание и проверка журналов
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: Просмотр записей или проводок в журнале
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Просмотр связанных внутрихолдинговых ваучеров из журнала
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: Создание записи в журнале с помощью шаблона
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: Создание проводок начисления ГК
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Публикация строк журнала и документов из Excel
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: Просмотр записей в журнале и проводок
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: Учет учтенных записей в журнале в субкниге
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Переоценка валюты в консолидированной компании
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: Переоценка в иностранной валюте для главной книги
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Импорт курсов обмена валют
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Один ваучер
+                  href: ../financials/general-ledger/one-voucher.md
+                - name: Сопоставления ГК
+                  href: ../financials/general-ledger/ledger-settlements.md
+            - name: Закрытие периода
+              items:
+                - name: Закрытие ГК в конце периода
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: Рабочая область закрытия финансового периода
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: Закрытие на конец года
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: Закрытие финансового года
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: Массовое закрытие финансовых периодов
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: Налог
+              items:
+                - name: Обзор налога
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: Ставки налога на основе маржинальной базы и методов расчета
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: Налоговые платежи и правила округления
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: Методы расчета налога в поле "Основание"
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Расчет и корректировка налога по накладной поставщика
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Создание налогового платежа
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: Создание налоговых проводок по документам
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: Настройка групп разноски ГК для налога
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: Настройка налоговых органов
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: Настройка налоговых кодов
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: Настройка налоговых групп и налоговых групп номенклатур
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: Настройка кодов налоговой отчетности
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Настройка периодов сопоставления налогов
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Настройка подоходного налога
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: Просмотр разнесенных налоговых проводок
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
+            - name: Рабочее место аудита
+              items:
+                - name: Правила политики аудита
+                  href: ../financials/general-ledger/audit-policy-rules.md
+                - name: Нарушения политики аудита и соответствующие обращения
+                  href: ../financials/general-ledger/audit-policy-violations-cases.md
+                - name: Определение политик аудита для документов-источников
+                  href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: Государственный сектор
+          items:
+            - name: Домашняя страница государственного сектора
+              href: ../financials/public-sector/public-sector-functionality.md
             - name: Планирование функциональности государственного сектора
               href: ../financials/public-sector/plan-public-sector-functionality.md
             - name: Создание обложки и страницы с подписями для отчета о платежах для государственного сектора
               href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
             - name: Расчеты с поставщиками в государственном секторе
-              href: ../financials/public-sector/accounts-payable-public-sector.md
               items:
+                - name: Обзор расчетов с поставщиками в государственном секторе
+                  href: ../financials/public-sector/accounts-payable-public-sector.md
                 - name: Коды заказов на покупку в государственном секторе
                   href: ../financials/public-sector/purchase-order-codes-public-sector.md
                 - name: Создание и назначение кода торгового партнера в государственном секторе
@@ -1130,8 +1335,9 @@
                 - name: Настройка классификаций договоров покупки в государственном секторе
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: Расчеты с клиентами в государственном секторе
-              href: ../financials/public-sector/accounts-receivable-public-sector.md
               items:
+                - name: Обзор расчетов с клиентами в государственном секторе
+                  href: ../financials/public-sector/accounts-receivable-public-sector.md
                 - name: Классификация выставления счетов и коды выставления счетов в государственном секторе
                   href: ../financials/public-sector/billing-classifications-billing-codes-public-sector.md
                 - name: Создание классификации выставления счетов в государственном секторе
@@ -1145,8 +1351,9 @@
                 - name: Компенсации в государственном секторе
                   href: ../financials/public-sector/reimbursements-public-sector.md
             - name: Бюджетирование в государственном секторе
-              href: ../financials/public-sector/budgeting-public-sector.md
               items:
+                - name: Обзор бюджетирования в государственном секторе
+                  href: ../financials/public-sector/budgeting-public-sector.md
                 - name: Создание исходного бюджета и реверсирование предварительных записей бюджета в государственном секторе
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: Создание предварительного бюджета в государственном секторе
@@ -1172,8 +1379,9 @@
             - name: Основные средства в государственном секторе
               href: ../financials/public-sector/fixed-asset-public-sector.md
             - name: Главная книга в государственном секторе
-              href: ../financials/public-sector/general-ledger-public-sector.md
               items:
+                - name: Обзор главной книги в государственном секторе
+                  href: ../financials/public-sector/general-ledger-public-sector.md
                 - name: Расширенные операции ГК в государственном секторе
                   href: ../financials/public-sector/advanced-ledger-entries-public-sector.md
                 - name: Создание расширенной записи ГК в государственном секторе
@@ -1199,8 +1407,9 @@
             - name: Добавление типа сертификации к поставщику в государственном секторе
               href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: Финансовая отчетность
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
           items:
+            - name: Обзор финансовой отчетности
+              href: ../financials/general-ledger/financial-reporting-getting-started.md
             - name: Обзор финансовой отчетности
               href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
             - name: Компоненты финансового отчета
@@ -1236,13 +1445,15 @@
         - name: Электронные сообщения
           href: ../financials/general-ledger/electronic-messaging.md
     - name: Глобализация
-      href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Ресурсы глобализации
+          href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
         - name: Нормативные обновления
           href: ../financials/localizations/regulatory-updates.md
         - name: Австралия
-          href: ../financials/localizations/australia.md
           items:
+            - name: Обзор по Австралии
+              href: ../financials/localizations/australia.md
             - name: Отчет по деловым операциям (BAS)
               href: ../financials/localizations/apac-aus-business-activity-statement.md
             - name: Добавление полей отчета и создание BAS
@@ -1252,8 +1463,9 @@
             - name: Настройка кодов основания для отчета BAS
               href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
         - name: Австрия
-          href: ../financials/localizations/austria.md
           items:
+            - name: Обзор по Австрии
+              href: ../financials/localizations/austria.md
             - name: Полугодовая амортизация по дополнительным приобретениям
               href: ../financials/localizations/emea-aut-half-year-depreciation.md
             - name: Сборы за упаковочные материалы
@@ -1261,9 +1473,10 @@
             - name: Отчет по НДС
               href: ../financials/localizations/emea-aut-vat-statement-details.md
         - name: Бельгия
-          href: ../financials/localizations/belgium.md
           items:
-            - name: Банковская выписка CODA
+            - name: Обзор по Бельгии
+              href: ../financials/localizations/belgium.md
+            - name: Банковская выписка формата CODA
               href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
             - name: Создание и перенос проводок в BLWI
               href: ../financials/localizations/tasks/be-00011-create-transfer-blwi.md
@@ -1276,14 +1489,16 @@
             - name: Настройка и ведение PRODCOM
               href: ../financials/localizations/emea-bel-prodcom-report.md
         - name: Бразилия
-          href: ../financials/localizations/brazil.md
           items:
+            - name: Обзор по Бразилии
+              href: ../financials/localizations/brazil.md
             - name: Область локализации
               href: ../financials/localizations/latam-bra-scope.md
-            - name: Финансовые книги
-              href: ../financials/localizations/latam-bra-fiscal-books.md
+            - name: Финансовые журналы
               items:
-                - name: Настройка финансовых книг
+                - name: Обзор финансовых журналов Бразилии
+                  href: ../financials/localizations/latam-bra-fiscal-books.md
+                - name: Настройка финансовых журналов
                   href: ../financials/localizations/latam-bra-configure-fiscal-books.md
                 - name: Финансовые документы по налогу ICMS
                   href: ../financials/localizations/latam-bra-icms-tax-fiscal-documents.md
@@ -1350,8 +1565,9 @@
                 - name: Дебет-ноты по проекту
                   href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
             - name: Процесс работы с NF-e
-              href: ../financials/localizations/latam-bra-nf-e-process.md
               items:
+                - name: Обзор процесса работы с NF-e Бразилии
+                  href: ../financials/localizations/latam-bra-nf-e-process.md
                 - name: Автоматическая передача финансовых документов NF-e
                   href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
                 - name: Создание сообщений электронной почты для утвержденных NF-e и вложение PDF-файлов DANFE и XML-файлов NF-e в сообщения электронной почты
@@ -1397,8 +1613,9 @@
             - name: Расчет процентов и штрафов по платежам клиентов
               href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
             - name: Налоги
-              href: ../financials/localizations/latam-bra-calculate-taxes.md
               items:
+                - name: Обзор налогов Бразилии
+                  href: ../financials/localizations/latam-bra-calculate-taxes.md
                 - name: Расчет налога на предложения по покупке
                   href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
                 - name: Создание оценки налогов — ICMS
@@ -1444,8 +1661,9 @@
                 - name: Подоходные налоги по платежам поставщикам
                   href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
         - name: Китай
-          href: ../financials/localizations/china.md
           items:
+            - name: Обзор по Китаю
+              href: ../financials/localizations/china.md
             - name: 'Finance and Operations, предоставляемое компанией 21Vianet в Китае'
               href: ../dev-itpro/deployment/china-local-deployment.md
             - name: Сравнение спецификаций
@@ -1485,8 +1703,9 @@
             - name: Вопросы и ответы по накладным клиента с НДС
               href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
         - name: Чешская Республика
-          href: ../financials/localizations/czech-republic.md
           items:
+            - name: Чешская Республика
+              href: ../financials/localizations/czech-republic.md
             - name: Кредит-нота на скидку по оплате
               href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
             - name: Основные средства
@@ -1514,8 +1733,9 @@
             - name: Закрытие на конец года
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: Дания
-          href: ../financials/localizations/denmark.md
           items:
+            - name: Обзор по Дании
+              href: ../financials/localizations/denmark.md
             - name: Назначение формата платежной квитанции счету клиента
               href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
             - name: Создание и разноска накладной клиента для клиентов из государственного сектора
@@ -1539,18 +1759,21 @@
             - name: Настройка формата платежной квитанции
               href: ../financials/localizations/tasks/set-up-payment-slip-format.md
         - name: Эстония
-          href: ../financials/localizations/estonia.md
           items:
+            - name: Обзор по Эстонии
+              href: ../financials/localizations/estonia.md
             - name: Запросы личных данных
               href: ../financials/localizations/emea-est-personal-info.md
             - name: Отчет по НДС
               href: ../financials/localizations/emea-est-vat-statement-details.md
         - name: Европа
-          href: ../financials/localizations/europe.md
           items:
+            - name: Обзор по Европе
+              href: ../financials/localizations/europe.md
             - name: Подотчетные лица
-              href: ../financials/localizations/emea-advance-holders.md
               items:
+                - name: Обзор подотчетных лиц
+                  href: ../financials/localizations/emea-advance-holders.md
                 - name: Проводки по подотчетным лицам
                   href: ../financials/localizations/emea-advance-holders-transactions.md
                 - name: Авансовый платеж сотруднику (Восточная Европа)
@@ -1606,8 +1829,9 @@
                 - name: Создание и экспорт платежей поставщикам с помощью формата платежей ISO20022
                   href: ../financials/localizations/tasks/create-export-vendor-payments-iso20022-payment-format.md
             - name: Интрастат
-              href: ../financials/localizations/emea-intrastat.md
               items:
+                - name: Обзор Интрастата
+                  href: ../financials/localizations/emea-intrastat.md
                 - name: Перенос проводок в Интрастат
                   href: ../financials/localizations/tasks/transfer-transactions-intrastat.md
                 - name: Определение адреса погрузки для внутренней проводки
@@ -1685,8 +1909,9 @@
             - name: Просмотр проводок по сопоставлению
               href: ../financials/localizations/emea-transactions-settlement-form.md
         - name: Франция
-          href: ../financials/localizations/france.md
           items:
+            - name: Обзор по Франции
+              href: ../financials/localizations/france.md
             - name: Государственный сектор
               items:
                 - name: Учет в государственном секторе
@@ -1740,13 +1965,15 @@
                 - name: Рекомендации по развертыванию контрольно-кассовых машин
                   href: ../retail/localizations/emea-fra-deployment.md
         - name: Германия
-          href: ../financials/localizations/germany.md
           items:
+            - name: Обзор по Германии
+              href: ../financials/localizations/germany.md
             - name: Амортизация дополнительного приобретения
               href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
             - name: Файл аудита
-              href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
               items:
+                - name: Обзор файла аудита Германии
+                  href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
                 - name: Настройка конфигурации файла аудита
                   href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
                 - name: Создание файла аудита
@@ -1762,8 +1989,9 @@
             - name: Настройка электронных налоговых деклараций
               href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
         - name: Венгрия
-          href: ../financials/localizations/hungary.md
           items:
+            - name: Обзор по Венгрии
+              href: ../financials/localizations/hungary.md
             - name: Расчет валютного курса
               href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
             - name: Методы амортизации основных средств
@@ -1777,8 +2005,9 @@
             - name: Закрытие на конец года
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: Исландия
-          href: ../financials/localizations/iceland.md
           items:
+            - name: Обзор по Исландии
+              href: ../financials/localizations/iceland.md
             - name: Создание счета поставщика и прикрепление категории декларации накладной
               href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
             - name: Настройка декларации накладных для поставщиков
@@ -1788,11 +2017,15 @@
             - name: Обновление деклараций накладных поставщиков и создание отчета
               href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
         - name: Индия
-          href: ../financials/localizations/india.md
           items:
+            - name: Обзор по Индии
+              href: ../financials/localizations/india.md
+            - name: Область индийских локализаций
+              href: ../financials/localizations/apac-ind-scope.md
             - name: Основные средства
-              href: ../financials/localizations/apac-ind-fixed-assets.md
               items:
+                - name: Обзор основных средств Индии
+                  href: ../financials/localizations/apac-ind-fixed-assets.md
                 - name: Вложение ежедневного календаря в журнал ОС
                   href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
                 - name: Расчет амортизации за смену
@@ -1816,8 +2049,9 @@
                 - name: Перенос единиц основного капитала в ОС
                   href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
             - name: GST Индии
-              href: ../financials/localizations/apac-ind-gst.md
               items:
+                - name: Обзор GST Индии
+                  href: ../financials/localizations/apac-ind-gst.md
                 - name: Эталонные группы GST Индии
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: Интеграция GST для контрольно-кассовых машин
@@ -1960,22 +2194,27 @@
                   href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
                 - name: Рекомендации по развертыванию контрольно-кассовых машин
                   href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-            - name: Обзор механизма начисления налога
-              href: ../financials/general-ledger/tax-engine.md
+            - name: Налоговый механизм
               items:
-                - name: Импортировать конфигурацию
-                  href: ../financials/general-ledger/tax-engine-import-configuration.md
-                - name: Применимость механизма начисления налога
-                  href: ../financials/general-ledger/tax-engine-applicability.md
-                - name: Интеграция механизма начисления налога
-                  href: ../financials/general-ledger/tax-engine-integration.md
-                - name: Расширение механизма начисления налога
-                  href: ../financials/general-ledger/extend-tax-engine-configurations.md
+                - name: Обзор механизма начисления налога
+                  href: ../financials/general-ledger/tax-engine.md
+                  items:
+                    - name: Импорт конфигурации
+                      href: ../financials/general-ledger/tax-engine-import-configuration.md
+                    - name: Применимость механизма начисления налога
+                      href: ../financials/general-ledger/tax-engine-applicability.md
+                    - name: Интеграция механизма начисления налога
+                      href: ../financials/general-ledger/tax-engine-integration.md
+                    - name: Расширение механизма начисления налога
+                      href: ../financials/general-ledger/extend-tax-engine-configurations.md
             - name: Вопросы и ответы по налоговым порогам
               href: ../financials/localizations/apac-ind-tax-thresholds.md
+            - name: Перемещения запасов
+              href: ../financials/localizations/apac-ind-stock-transfer.md
         - name: Италия
-          href: ../financials/localizations/italy.md
           items:
+            - name: Обзор по Италии
+              href: ../financials/localizations/italy.md
             - name: Сведения для отчетов по НДС
               href: ../financials/localizations/emea-ita-vat-statements-details.md
             - name: Отчет "Черный список"
@@ -1997,8 +2236,9 @@
             - name: Подоходный налог
               href: ../financials/localizations/emea-ita-withholding-tax.md
         - name: Япония
-          href: ../financials/localizations/japan.md
           items:
+            - name: Обзор по Японии
+              href: ../financials/localizations/japan.md
             - name: Приобретение основного средства и требование субсидии по правительственному гранту
               href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
             - name: Приобретение основного средства с обязательствами по выбытию активов
@@ -2156,8 +2396,9 @@
             - name: Использование списка разборки для основных средств
               href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
         - name: Латвия
-          href: ../financials/localizations/latvia.md
           items:
+            - name: Обзор по Латвии
+              href: ../financials/localizations/latvia.md
             - name: Учет основных средств
               href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
             - name: Отслеживание изменений местонахождения основных средств
@@ -2169,8 +2410,9 @@
             - name: Сведения для отчета по НДС
               href: ../financials/localizations/emea-lva-vat-statement-details.md
         - name: Литва
-          href: ../financials/localizations/lithuania.md
           items:
+            - name: Обзор по Литве
+              href: ../financials/localizations/lithuania.md
             - name: Отчет по ремонту основных средств
               href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
             - name: Создание документа о перемещении ОС между складами
@@ -2180,8 +2422,9 @@
             - name: Сведения для отчета по НДС
               href: ../financials/localizations/emea-ltu-vat-statement-details.md
         - name: Малайзия
-          href: ../financials/localizations/malaysia.md
           items:
+            - name: Обзор по Малайзии
+              href: ../financials/localizations/malaysia.md
             - name: Создание кредита клиента для продаж по проектам
               href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
             - name: Создание дебета клиента для продаж по проектам
@@ -2203,8 +2446,9 @@
             - name: Настройка предложений сброса GST
               href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
         - name: Мексика
-          href: ../financials/localizations/mexico.md
           items:
+            - name: Обзор по Мексике
+              href: ../financials/localizations/mexico.md
             - name: Область локализации
               href: ../financials/localizations/latam-mex-scope.md
             - name: Декларация о поправке на инфляцию
@@ -2241,16 +2485,18 @@
               href: ../financials/localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
             - name: Коды регистрации поставщиков
               href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
-        - name: Голландия
-          href: ../financials/localizations/netherlands.md
+        - name: Нидерланды
           items:
+            - name: Обзор по Нидерландам
+              href: ../financials/localizations/netherlands.md
             - name: Электронная налоговая декларация (EVAT)
               href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
             - name: Интеграция Semansys XBRL
               href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
         - name: Норвегия
-          href: ../financials/localizations/norway.md
           items:
+            - name: Обзор по Норвегии
+              href: ../financials/localizations/norway.md
             - name: Форматы платежей клиентов и поставщиков
               href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
             - name: Платеж клиента на основе идентификатора платежа
@@ -2264,8 +2510,9 @@
             - name: Рекомендации по развертыванию контрольно-кассовых машин
               href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
         - name: Польша
-          href: ../financials/localizations/poland.md
           items:
+            - name: Обзор по Польше
+              href: ../financials/localizations/poland.md
             - name: Активация учета с использованием сторно
               href: ../financials/localizations/emea-pol-red-storno.md
             - name: Расчет скидок по строке из цены за единицу
@@ -2293,8 +2540,9 @@
             - name: Оборотно-сальдовая ведомость
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
         - name: Россия
-          href: ../financials/localizations/russia.md
           items:
+            - name: Обзор по России
+              href: ../financials/localizations/russia.md
             - name: Главная книга
               items:
                 - name: Корреспонденция счетов
@@ -2306,8 +2554,9 @@
                 - name: Импорт курсов валют ЦБ РФ
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Подотчетные лица
-              href: ../financials/localizations/rus-advance-holders.md
               items:
+                - name: Обзор подотчетных лиц России
+                  href: ../financials/localizations/rus-advance-holders.md
                 - name: Создание подотчетного лица
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Ежедневные операции по подотчетным лицам
@@ -2318,18 +2567,26 @@
                   href: ../financials/localizations/rus-advance-adjustment-parameters.md
                 - name: Сортировка отчетов по подотчетным лицам
                   href: ../financials/localizations/rus-local-management-reports-primary-forms.md
-            - name: Банк
+            - name: Банк и кассовые операции
               items:
                 - name: Настройка банковских счетов
                   href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
                 - name: Настройка и обработка платежных поручений
                   href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: Курсовая разница
+                  href: ../financials/localizations/rus-exchange-adjustment.md
                 - name: 'Продажа, покупка и переводы иностранной валюты'
                   href: ../financials/localizations/rus-currency-sale-purchase.md
+                - name: Мелкие наличные деньги
+                  href: ../financials/localizations/emea-petty-cash.md
             - name: НДС
               items:
                 - name: Учет исходящего НДС с учетом местных особенностей
                   href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
+                - name: Обработка и печать счетов-фактур
+                  href: ../financials/localizations/rus-invoice-facture-process-print.md
+                - name: Пересмотр счетов-фактур и корректирующие счета-фактуры
+                  href: ../financials/localizations/rus-revise-invoice-facture.md
                 - name: Налог на добавленную стоимость (НДС) для налоговых агентов
                   href: ../financials/localizations/rus-tax-agent.md
                 - name: Декларация по НДС
@@ -2382,6 +2639,8 @@
                   href: ../financials/localizations/rus-not-valuable-assets.md
             - name: Расчеты с поставщиками и клиентами
               items:
+                - name: Корректировки кредит-нот (Россия)
+                  href: ../financials/localizations/rus-credit-note-correction.md
                 - name: Счета на оплату
                   href: ../financials/localizations/rus-invoice-payment.md
                 - name: Настройка контроля аналитик для сопоставлений
@@ -2429,20 +2688,23 @@
                 - name: Отчетность по РБП
                   href: ../financials/localizations/rus-reporting-deferrals.md
         - name: Саудовская Аравия
-          href: ../financials/localizations/saudi-arabia.md
           items:
+            - name: Обзор по Саудовской Аравии
+              href: ../financials/localizations/saudi-arabia.md
             - name: Налог
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: Отчетность Zakat для Саудовской Аравии
               href: ../financials/localizations/emea-sau-zakat-reporting.md
         - name: Сингапур
-          href: ../financials/localizations/singapore.md
           items:
+            - name: Обзор по Сингапуру
+              href: ../financials/localizations/singapore.md
             - name: Создание отчета GST-05
               href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
         - name: Испания
-          href: ../financials/localizations/spain.md
           items:
+            - name: Обзор по Испании
+              href: ../financials/localizations/spain.md
             - name: Применение скидок по оплате в накладной
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Параметры переводного векселя
@@ -2472,8 +2734,9 @@
             - name: Специальные записи и открывающие ведомости
               href: ../financials/localizations/emea-esp-opening-sheets-spain.md
         - name: Швеция
-          href: ../financials/localizations/sweden.md
           items:
+            - name: Обзор по Швеции
+              href: ../financials/localizations/sweden.md
             - name: Экспорт финансовой информации для аудиторов в Швеции
               href: ../financials/localizations/emea-swe-sie-standard-report.md
             - name: Импорт форматов платежей
@@ -2481,13 +2744,15 @@
             - name: Контрольно-кассовые машины
               href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
         - name: Швейцария
-          href: ../financials/localizations/switzerland.md
           items:
+            - name: Обзор по Швейцарии
+              href: ../financials/localizations/switzerland.md
             - name: Импорт платежей клиентов в ESR
               href: ../financials/localizations/emea-che-esr-customer-payments-import.md
         - name: Таиланд
-          href: ../financials/localizations/thailand.md
           items:
+            - name: Обзор по Таиланду
+              href: ../financials/localizations/thailand.md
             - name: Отчеты по картам запасов
               href: ../financials/localizations/apac-tha-stock-card-reports.md
             - name: Накладная по налогам для подстановки или корректировки
@@ -2497,8 +2762,9 @@
             - name: Подоходный налог
               href: ../financials/localizations/apac-tha-withholding-tax.md
         - name: Великобритания
-          href: ../financials/localizations/united-kingdom.md
           items:
+            - name: Обзор по Великобритании
+              href: ../financials/localizations/united-kingdom.md
             - name: Construction Industry Scheme
               href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
             - name: Создание кредита по скидке при сопоставлении
@@ -2516,15 +2782,17 @@
             - name: Making Tax Digital для НДС
               href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
         - name: США
-          href: ../financials/localizations/united-states.md
           items:
+            - name: Обзор по США
+              href: ../financials/localizations/united-states.md
             - name: Отчетность по форме 1099 на конец года для США
               href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
             - name: Форма 1099 для государственного сектора
               href: ../financials/localizations/noam-usa-form-1099-public-sector.md
     - name: Управление персоналом
-      href: hr/hr-landing-page.md
       items:
+        - name: Обзор управления персоналом
+          href: hr/hr-landing-page.md
         - name: Разработка стратегии управления персоналом
           items:
             - name: Создание целей
@@ -2676,9 +2944,10 @@
             - name: Ведение сведений о травмах и заболеваниях сотрудников
               href: hr/tasks/maintain-employee-injury-illness-information.md
         - name: 'Зарплата, США'
-          href: hr/localizations/noam-usa-payroll.md
           items:
-            - name: Настройка заработной платы
+            - name: 'Обзор заработной платы, США'
+              href: hr/localizations/noam-usa-payroll.md
+            - name: Настройка расчета заработной платы
               items:
                 - name: Настройка заработной платы для работников
                   href: hr/localizations/noam-usa-worker-position-payroll-tasks.md
@@ -2743,13 +3012,15 @@
                 - name: Стандартные отчеты по заработной плате
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
     - name: Бизнес-аналитика
-      href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Главная страница бизнес-аналитики
+          href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
         - name: Доступ к данным и отчетность
           href: ../dev-itpro/analytics/information-access-reporting.md?toc=/fin-and-ops/toc.json
         - name: Содержимое Power BI
-          href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Домашняя страница содержимого Power BI
+              href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
             - name: Факт/бюджет
               href: ../dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Льготы
@@ -2763,8 +3034,9 @@
             - name: Компенсации и льготы
               href: ../dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Анализ учета затрат
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Содержимое Power BI анализа учета затрат
+                  href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
                 - name: Настройка безопасности для содержимого Power BI анализа учета затрат
                   href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Управление затратами
@@ -2807,13 +3079,14 @@
               href: ../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
         - name: Отчетность и печать документов
           items:
-            - name: Обзор служб Reporting Services для документов
+            - name: Обзор служб отчетов по документам
               href: ../dev-itpro/analytics/document-reporting-services.md?toc=/fin-and-ops/toc.json
             - name: Настройка служб SSRS для локальных развертываний
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
             - name: Печать
-              href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Обзор печати документов
+                  href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
                 - name: Установка агента маршрутизации документов для включения сетевой печати
                   href: ../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json
                 - name: Обновление агента маршрутизации документов
@@ -2910,10 +3183,8 @@
                       href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
             - name: Изменение форматов электронной отчетности путем повторного применения шаблонов Excel
               href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: 'Разработка конфигураций электронной отчетности, зависящих от версии Finance and Operation'
-              items:
-                - name: Определение зависимости конфигураций электронной отчетности от других компонентов
-                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: Определение зависимости конфигураций электронной отчетности от других компонентов
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
             - name: Разработка решения электронной отчетности для использования финансовых аналитик
               items:
                 - name: Разработка моделей данных для использования финансовых аналитик как источников данных
@@ -3032,6 +3303,8 @@
                       href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
                 - name: 'Трассировка выполнения форматов электронной отчетности для устранения неполадок, связанных с производительностью'
                   href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+                - name: Обзор управления бизнес-документами
+                  href: ../dev-itpro/analytics/er-business-document-management.md?toc=/fin-and-ops/toc.json
             - name: API платформы электронной отчетности
               items:
                 - name: Расширение списка функций электронной отчетности
@@ -3081,16 +3354,19 @@
             - name: Использование своей собственной базы данных
               href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
     - name: Управление запасами
-      href: ../supply-chain/inventory/inventory-home-page.md
       items:
-        - name: Обзор прибытия
-          href: ../supply-chain/inventory/arrival-overview.md
+        - name: Обзор управления запасами
+          href: ../supply-chain/inventory/inventory-home-page.md
+        - name: Прибытие
           items:
+            - name: Обзор прибытия
+              href: ../supply-chain/inventory/arrival-overview.md
             - name: Настройка профиля обзора поступления номенклатуры
               href: ../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md
         - name: Управление качеством
-          href: ../supply-chain/inventory/enable-quality-management.md
           items:
+            - name: Обзор управления качеством
+              href: ../supply-chain/inventory/enable-quality-management.md
             - name: Процессы управления качеством
               href: ../supply-chain/inventory/quality-management-processes.md
             - name: Управление несоответствием
@@ -3156,8 +3432,9 @@
             - name: Мобильная рабочая область запасов в наличии
               href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md
         - name: Исходящий процесс
-          href: ../supply-chain/inventory/outbound-process.md
           items:
+            - name: Обзор исходящих процессов
+              href: ../supply-chain/inventory/outbound-process.md
             - name: Резервирование количеств запасов
               href: ../supply-chain/inventory/reserve-inventory-quantities.md
             - name: Резервирование одной и той же партии для заказа на продажу
@@ -3265,12 +3542,140 @@
               href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
             - name: Отчеты по запросам на обслуживание
               href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
-    - name: Сводное планирование
-      href: ../supply-chain/master-planning/master-planning-home-page.md
-      items:
-        - name: Сводные планы
-          href: ../supply-chain/master-planning/master-plans.md
+        - name: Настройка заказов на работу
           items:
+            - name: 'Категории типов заданий обслуживания и типы заданий обслуживания, варианты типов заданий обслуживания, торговля заданий обслуживания, контрольные списки обслуживания'
+              href: ../supply-chain/asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
+            - name: Состояния жизненного цикла заказов на работу
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-lifecycle-states.md
+            - name: Типы заказов на работу
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-types.md
+            - name: Настройка заказа на работу по проекту
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-project-setup.md
+            - name: Уровень обслуживания и описание
+              href: ../supply-chain/asset-management/setup-for-work-orders/service-level-and-description.md
+            - name: Запланированное выполнение
+              href: ../supply-chain/asset-management/setup-for-work-orders/scheduled-execution.md
+            - name: Управление ошибками
+              href: ../supply-chain/asset-management/setup-for-work-orders/fault-management.md
+        - name: Заказы на работу
+          items:
+            - name: Введение в заказы на работу
+              href: ../supply-chain/asset-management/work-orders/introduction-to-work-orders.md
+            - name: Созданные вручную заказы на работу
+              href: ../supply-chain/asset-management/work-orders/manually-created-workorders.md
+            - name: Прогнозы обслуживания
+              href: ../supply-chain/asset-management/work-orders/maintenance-forecasts.md
+            - name: Закупки
+              href: ../supply-chain/asset-management/work-orders/procurement.md
+            - name: Ручное обновление счетчиков основных средств
+              href: ../supply-chain/asset-management/work-orders/manual-update-of-asset-counters.md
+            - name: Автоматическое обновление счетчиков основных средств
+              href: ../supply-chain/asset-management/work-orders/automatic-update-of-asset-counters.md
+            - name: Контрольные списки обслуживания
+              href: ../supply-chain/asset-management/work-orders/maintenance-checklists.md
+            - name: Простой из-за обслуживания
+              href: ../supply-chain/asset-management/work-orders/maintenance-downtime.md
+            - name: Добавление ошибки в заказ на работу
+              href: ../supply-chain/asset-management/work-orders/add-fault-to-work-order.md
+            - name: Отчет по заказу на работу
+              href: ../supply-chain/asset-management/work-orders/work-order-report.md
+            - name: Пулы заказа на работу
+              href: ../supply-chain/asset-management/work-orders/work-order-pools.md
+            - name: Активные задания обслуживания для заказа на работу
+              href: ../supply-chain/asset-management/work-orders/active-work-order-jobs-overview.md
+            - name: Заказы на работу и основные средства
+              href: ../supply-chain/asset-management/work-orders/work-orders-and-fixed-assets.md
+        - name: Интеграция модуля "Управление и учет по проектам"
+          items:
+            - name: 'Прогнозы, заказы на работу и проекты'
+              href: ../supply-chain/asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+        - name: Профилактическое и реактивное обслуживание
+          items:
+            - name: Профилактическое обслуживание
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/preventive-maintenance-overview.md
+            - name: Планы обслуживания
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-plans.md
+            - name: Составление графика планов обслуживания
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/schedule-maintenance-plans.md
+            - name: Циклы обслуживания
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-rounds.md
+            - name: График обслуживания
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule.md
+            - name: Стоимость для графика обслуживания
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
+            - name: Создать заказы на работу
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
+            - name: Простой из-за обслуживания
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
+        - name: Планирование мощности
+          items:
+            - name: Расчет максимальной мощности
+              href: ../supply-chain/asset-management/capacity-planning/calculate-capacity-load.md
+            - name: Рассчитать прогноз номенклатуры
+              href: ../supply-chain/asset-management/capacity-planning/calculate-item-forecast.md
+        - name: Планирование заказа на работу
+          items:
+            - name: Календарь специалистов по обслуживанию и планирование
+              href: ../supply-chain/asset-management/work-order-scheduling/maintenance-worker-calendar-and-scheduling.md
+            - name: Предпочтительные специалисты по обслуживанию
+              href: ../supply-chain/asset-management/work-order-scheduling/preferred-maintenance-workers.md
+            - name: Запланировать заказы на работу
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-orders.md
+            - name: Отправка заказа на работу
+              href: ../supply-chain/asset-management/work-order-scheduling/dispatch-work-order.md
+            - name: Планирование заказа на работу для конкретной даты и времени
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-order-on-specific-date-and-time.md
+            - name: Запланированные задания обслуживания для заказа на работу
+              href: ../supply-chain/asset-management/work-order-scheduling/scheduled-work-order-maintenance-jobs.md
+            - name: Расчет максимальной мощности по запланированным заказам на работу
+              href: ../supply-chain/asset-management/work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md
+        - name: Потребление
+          items:
+            - name: Регистрация потребления
+              href: ../supply-chain/asset-management/consumption/register-consumption.md
+            - name: Создание отчетов по потреблению
+              href: ../supply-chain/asset-management/consumption/create-consumption-reports.md
+        - name: Гарантия
+          items:
+            - name: Гарантийное соглашение
+              href: ../supply-chain/asset-management/warranty/warranty-agreement.md
+            - name: Гарантия на основные средства и типы основных средств
+              href: ../supply-chain/asset-management/warranty/warranty-on-assets-and-asset-types.md
+        - name: Бюджеты обслуживания
+          items:
+            - name: Бюджеты обслуживания
+              href: ../supply-chain/asset-management/maintenance-budgets/create-maintenance-budget.md
+            - name: Обновление бюджетов обслуживания
+              href: ../supply-chain/asset-management/maintenance-budgets/update-maintenance-budget.md
+        - name: Контроль и отчетность
+          items:
+            - name: Контроль затрат и дат
+              href: ../supply-chain/asset-management/controlling-and-reporting/cost-and-date-control.md
+            - name: Контроль рабочих часов
+              href: ../supply-chain/asset-management/controlling-and-reporting/work-hour-control.md
+            - name: Управление стоимостью для ошибки актива
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-cost-control.md
+            - name: Анализ ошибки актива
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-analysis.md
+            - name: Ключевые показатели эффективности актива
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-kpis.md
+            - name: Используемая номенклатура
+              href: ../supply-chain/asset-management/controlling-and-reporting/item-where-used.md
+            - name: Статус обслуживания
+              href: ../supply-chain/asset-management/controlling-and-reporting/maintenance-status.md
+        - name: Управление данными
+          items:
+            - name: Целевые объекты
+              href: ../supply-chain/asset-management/data-management/target-entities.md
+    - name: Сводное планирование
+      items:
+        - name: Домашняя страница сводного планирования
+          href: ../supply-chain/master-planning/master-planning-home-page.md
+        - name: Сводные планы
+          items:
+            - name: Обзор сводных планов
+              href: ../supply-chain/master-planning/master-plans.md
             - name: Настройка сводных планов
               href: ../supply-chain/master-planning/master-planning-setup.md
             - name: Мастер настройки сводного планирования
@@ -3304,8 +3709,9 @@
             - name: Повышение производительности сводного планирования
               href: ../supply-chain/master-planning/master-planning-performance.md
             - name: Сводные планы и функциональность Мультисайт
-              href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
               items:
+                - name: Обзор сводного планирования и функции работы с несколькими узлами
+                  href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
                 - name: 'Сводное планирование для покрытия сайта, обязательный склад'
                   href: ../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md
                 - name: 'Сводное планирование для покрытия объекта, склад не обязателен'
@@ -3327,8 +3733,9 @@
             - name: Взаимодействие с клиентами внутренней цепочки поставок
               href: ../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md
         - name: Прогнозирование спроса
-          href: ../supply-chain/master-planning/introduction-demand-forecasting.md
           items:
+            - name: Обзор прогнозирования спроса
+              href: ../supply-chain/master-planning/introduction-demand-forecasting.md
             - name: Настройка прогнозирования спроса
               href: ../supply-chain/master-planning/demand-forecasting-setup.md
             - name: Импорт исторических данных для прогнозов спроса
@@ -3349,12 +3756,14 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Изменение прогноза спроса вручную
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Мобильное приложение
-      href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+    - name: Мобильное приложение Dynamics 365 for Unified Operations
       items:
-        - name: Доступные мобильные рабочие области
-          href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
+        - name: Домашняя страница мобильного приложения Dynamics 365 for Unified Operations
+          href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+        - name: Мобильные рабочие области
           items:
+            - name: Доступные мобильные рабочие области
+              href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
             - name: Каталог компании
               href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: Управление затратами
@@ -3371,7 +3780,7 @@
               href: ../financials/project-management/project-mobile-application-overview.md
             - name: Регистрация времени проекта
               href: ../financials/project-management/project-time-entry-mobile-workspace.md
-            - name: Табель учета рабочего времени проекта
+            - name: Project Timesheet
               href: ../financials/project-management/project-timesheet.md
             - name: Утверждение заказа на покупку
               href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
@@ -3382,8 +3791,9 @@
         - name: Публикация мобильных рабочих областей
           href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
     - name: Интеграция с Office
-      href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Обзор интеграции с Office
+          href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
         - name: Учебник по интеграции с Office
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
         - name: Открытие данных объекта в Excel и его обновление с помощью надстройки Excel
@@ -3401,25 +3811,29 @@
         - name: Устранение неполадок интеграции с Office
           href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/fin-and-ops/toc.json
     - name: Закупки и источники
-      href: ../supply-chain/procurement/procurement-sourcing-overview.md
       items:
+        - name: Обзор закупок и источников
+          href: ../supply-chain/procurement/procurement-sourcing-overview.md
         - name: Бизнес-правило модуля "Закупки и источники"
           href: ../supply-chain/procurement/procurement-sourcing-workflows.md
         - name: Каталоги закупаемой продукции
-          href: ../supply-chain/procurement/procurement-catalogs.md
           items:
+            - name: Обзор каталогов закупаемой продукции
+              href: ../supply-chain/procurement/procurement-catalogs.md
             - name: Создание каталога закупаемой продукции
               href: ../supply-chain/procurement/tasks/create-procurement-catalog.md
             - name: Настройка иерархии категорий закупаемой продукции
               href: ../supply-chain/procurement/tasks/set-up-procurement-category-hierarchy.md
         - name: Заявки на покупку
-          href: ../supply-chain/procurement/purchase-requisitions-overview.md
           items:
+            - name: Обзор заявок на покупку
+              href: ../supply-chain/procurement/purchase-requisitions-overview.md
             - name: Бизнес-правило для заявок на покупку
               href: ../supply-chain/procurement/purchase-requisitions-workflow.md
         - name: Запросы предложений
-          href: ../supply-chain/procurement/request-quotations.md
           items:
+            - name: Обзор запросов предложений (RFQ)
+              href: ../supply-chain/procurement/request-quotations.md
             - name: Создание запроса предложения
               href: ../supply-chain/procurement/tasks/create-request-quotation.md
             - name: 'Создание заявки, которая использует запрос предложения'
@@ -3471,8 +3885,9 @@
             - name: Ретробонусы поставщика
               href: ../supply-chain/procurement/vendor-rebates.md
         - name: Политики закупок
-          href: ../supply-chain/procurement/purchase-policies.md
           items:
+            - name: Обзор политик закупок
+              href: ../supply-chain/procurement/purchase-policies.md
             - name: Создание политик закупок
               href: ../supply-chain/procurement/tasks/create-purchasing-policies.md
             - name: Настройка политик для иерархий категорий закупаемой продукции
@@ -3530,18 +3945,21 @@
             - name: Отправка и утверждение версий бюджетов проектов
               href: ../supply-chain/procurement/tasks/submit-approve-project-budget-revision.md
     - name: Администрирование организации
-      href: organization-administration/organization-administration-home-page.md
       items:
+        - name: Домашняя страница администрирования организации
+          href: organization-administration/organization-administration-home-page.md
         - name: Номерные серии
-          href: organization-administration/number-sequence-overview.md
           items:
+            - name: Обзор номерных серий
+              href: organization-administration/number-sequence-overview.md
             - name: Настройка номерных серий на индивидуальной основе
               href: organization-administration/tasks/set-up-number-sequences-individual-basis.md
             - name: Настройка номерных серий с использованием мастера
               href: organization-administration/tasks/set-up-number-sequences-wizard.md
         - name: Организации и организационные иерархии
-          href: organization-administration/organizations-organizational-hierarchies.md
           items:
+            - name: Обзор организаций и организационных иерархий
+              href: organization-administration/organizations-organizational-hierarchies.md
             - name: Планирование организационной иерархии
               href: organization-administration/plan-organizational-hierarchy.md
             - name: Создание организационной иерархии
@@ -3551,8 +3969,9 @@
             - name: Создание операционных единиц
               href: organization-administration/tasks/create-operating-unit.md
         - name: Глобальная адресная книга
-          href: organization-administration/overview-global-address-book.md
           items:
+            - name: Обзор глобальной адресной книги
+              href: organization-administration/overview-global-address-book.md
             - name: План для глобальной адресной книги и других адресных книг
               href: organization-administration/plan-configuration-global-address-book-additional-address-books.md
             - name: Настройка глобальной адресной книги
@@ -3562,18 +3981,20 @@
             - name: Настройка адресных книг
               href: organization-administration/tasks/address-books.md
         - name: Система бизнес-правил
-          href: organization-administration/overview-workflow-system.md
           items:
+            - name: Обзор системы бизнес-правил
+              href: organization-administration/overview-workflow-system.md
             - name: Архитектура системы бизнес-правил
               href: organization-administration/workflow-system-architecture.md
             - name: Элементы бизнес-правила
               href: organization-administration/workflow-elements.md
-            - name: Действия бизнес-правила
+            - name: Действия бизнес-правил
               href: organization-administration/workflow-actions.md
             - name: Создание бизнес-правил
-              href: organization-administration/create-workflow.md
               items:
-                - name: Настройка свойств рабочего процесса
+                - name: Обзор создания бизнес-правил
+                  href: organization-administration/create-workflow.md
+                - name: Настройка свойств бизнес-правила
                   href: organization-administration/configure-workflow-properties.md
                 - name: 'Настройка задач, выполняемых вручную'
                   href: organization-administration/configure-manual-task-workflow.md
@@ -3624,8 +4045,9 @@
             - name: Вопросы и ответы по бизнес-правилам
               href: organization-administration/workflow-FAQ.md
         - name: Оповещения
-          href: get-started/alerts-overview.md
           items:
+            - name: Обзор оповещений
+              href: get-started/alerts-overview.md
             - name: Создание правил оповещения
               href: get-started/create-alerts.md
             - name: Пакетная обработка оповещений
@@ -3633,18 +4055,21 @@
             - name: Оповещение клиентов с помощью уведомлений по электронной почте
               href: get-started/alert-email-notifications.md
         - name: Электронные подписи
-          href: organization-administration/electronic-signature-overview.md
           items:
+            - name: Обзор электронных подписей
+              href: organization-administration/electronic-signature-overview.md
             - name: Настройка электронных подписей
               href: organization-administration/tasks/set-up-electronic-signatures.md
         - name: Управление обращениями
-          href: organization-administration/cases.md
           items:
+            - name: Обзор управления обращениями
+              href: organization-administration/cases.md
             - name: 'Планирование безопасности обращений, процессов и категорий'
               href: organization-administration/plan-case-management.md
         - name: Шаблоны записей
-          href: organization-administration/record-templates.md
           items:
+            - name: Обзор шаблонов записей
+              href: organization-administration/record-templates.md
             - name: Создание шаблона записи
               href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
             - name: Использование шаблона записи для создания новой записи
@@ -3656,8 +4081,9 @@
         - name: Данные времени/даты и часовые пояса
           href: organization-administration/date-time-zones.md
     - name: Управление производством
-      href: ../supply-chain/production-control/production-process-overview.md
       items:
+        - name: Обзор производственного процесса
+          href: ../supply-chain/production-control/production-process-overview.md
         - name: 'Планирование в смешанном режиме: совмещение дискретного производства, непрерывного производства и бережливого выбора источников материалов'
           href: ../supply-chain/production-control/mixed-mode-plan.md
         - name: Управление работой по субподряду в производстве
@@ -3721,8 +4147,9 @@
             - name: Управление производственными заданиями
               items:
                 - name: Управление жизненным циклом производственного заказа
-                  href: ../supply-chain/production-control/create-production-orders.md
                   items:
+                    - name: Обзор жизненного цикла производственного заказа
+                      href: ../supply-chain/production-control/create-production-orders.md
                     - name: Создание производственного заказа
                       href: ../supply-chain/production-control/tasks/create-production-order.md
                     - name: Оценка производственного заказа
@@ -3782,8 +4209,9 @@
                 - name: Разноски по производству
                   href: ../supply-chain/cost-management/production-posting.md
             - name: Регистрация посещаемости и времени присутствия
-              href: ../supply-chain/production-control/time-attendance-registrations.md
               items:
+                - name: Обзор регистрации посещаемости и времени присутствия
+                  href: ../supply-chain/production-control/time-attendance-registrations.md
                 - name: Оплата на основе регистраций
                   href: ../supply-chain/production-control/pay-based-on-registrations.md
                 - name: Регистрация отсутствия в модуле "Посещаемость и время присутствия"
@@ -3945,8 +4373,9 @@
                 - name: Разноски по производству
                   href: ../supply-chain/cost-management/production-posting.md
     - name: Управление сведениями о продукте
-      href: ../supply-chain/pim/product-information.md
       items:
+        - name: Обзор сведений о продуктах
+          href: ../supply-chain/pim/product-information.md
         - name: Сведения о продукте
           items:
             - name: Идентификаторы продуктов
@@ -3972,8 +4401,9 @@
             - name: Создание выпущенного продукта для одной компании
               href: ../supply-chain/pim/tasks/create-released-product-single-company.md
             - name: Состояние жизненного цикла продукта
-              href: ../supply-chain/pim/product-lifecycle.md
               items:
+                - name: Обзор состояний жизненного цикла продукта
+                  href: ../supply-chain/pim/product-lifecycle.md
                 - name: Создание нового состояния жизненного цикла продукта
                   href: ../supply-chain/pim/tasks/new-product-lifecycle-state.md
                 - name: Создание состояния жизненного цикла продукта по умолчанию
@@ -4017,11 +4447,13 @@
             - name: Расчет спецификаций
               href: ../supply-chain/cost-management/bom-calculations.md
         - name: Конфигурация продукта
-          href: ../supply-chain/pim/build-product-configuration-model.md
           items:
+            - name: Обзор конфигурации продукта
+              href: ../supply-chain/pim/build-product-configuration-model.md
             - name: Создание конфигурации на основе аналитик
-              href: ../supply-chain/pim/dimension-based-product-configuration.md
               items:
+                - name: Обзор конфигураций продуктов на основе аналитик
+                  href: ../supply-chain/pim/dimension-based-product-configuration.md
                 - name: Аналитика продукта
                   href: ../supply-chain/pim/product-dimensions.md
                 - name: Создание шаблона продукта на основе аналитик
@@ -4041,8 +4473,9 @@
                 - name: Создание конфигураций на основе аналитик
                   href: ../supply-chain/pim/tasks/create-dimension-based-configurations.md
             - name: Создание конфигурации на основе ограничений
-              href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
               items:
+                - name: Настройка модели конфигурации продукта
+                  href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
                 - name: Вопросы и ответы по расчету модели конфигурации продукта
                   href: ../supply-chain/pim/calculate-product-configuration-models.md
                 - name: Правило конфигурации
@@ -4072,8 +4505,9 @@
                 - name: Передача данных для моделей продукта
                   href: ../supply-chain/pim/tasks/transfer-data-product-models.md
     - name: Управление и учет по проектам
-      href: ../financials/project-management/overview-project-management-accounting.md
       items:
+        - name: Обзор управления и учета по проектам
+          href: ../financials/project-management/overview-project-management-accounting.md
         - name: Внутрихолдинговое выставление накладных
           href: ../financials/project-management/intercompany-invoicing.md
         - name: Настройка внутрихолдингового выставления накладных по проектам
@@ -4099,23 +4533,25 @@
         - name: Получение номенклатур в заказе на покупку из потребности в номенклатуре
           href: ../financials/project-management/tasks/receive-items-purchase-order-item-requirement.md
         - name: Структурные декомпозиции работ
-          href: ../financials/project-management/work-breakdown-structures.md
           items:
-            - name: Интеграция с клиентом Microsoft Project
+            - name: Обзор структурных декомпозиций работ
+              href: ../financials/project-management/work-breakdown-structures.md
+            - name: Интеграция Microsoft Project Client
               href: ../financials/project-management/project-integration.md
         - name: Обзор мобильных приложений Project
           href: ../financials/project-management/project-mobile-application-overview.md
         - name: Мобильная рабочая область регистрации времени по проектам
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
-        - name: Мобильное приложение табеля учета рабочего времени проекта
+        - name: Мобильное приложение Project Timesheet
           href: ../financials/project-management/project-timesheet.md
         - name: Табели учета рабочего времени проекта на мобильном устройстве
           href: ../financials/project-management/mobile-timesheets.md
-        - name: Реализация настраиваемых полей для мобильного приложения табеля учета рабочего времени проекта
+        - name: Реализация настраиваемых полей для мобильного приложения Project Timesheet
           href: ../financials/project-management/custom-fields-mobile.md
     - name: Продажи и маркетинг
-      href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:
+        - name: Обзор продаж и маркетинга
+          href: ../supply-chain/sales-marketing/overview-sales-marketing.md
         - name: Заказы на продажу
           items:
             - name: Резервирование по заказам
@@ -4149,8 +4585,9 @@
             - name: Подтверждение заказов на продажу
               href: ../supply-chain/sales-marketing/tasks/confirm-sales-orders.md
         - name: Договоры продажи
-          href: ../supply-chain/sales-marketing/sales-agreements.md
           items:
+            - name: Обзор договоров продажи
+              href: ../supply-chain/sales-marketing/sales-agreements.md
             - name: Ввод договоров продажи
               href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
             - name: Выполнение договоров продажи
@@ -4184,14 +4621,16 @@
         - name: Создание нового коммерческого соглашения
           href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
     - name: Управление сервисным обслуживанием
-      href: ../supply-chain/service-management/service-management-home-page.md
       items:
+        - name: Обзор управления сервисным обслуживанием
+          href: ../supply-chain/service-management/service-management-home-page.md
         - name: Настройка обслуживания клиентов
           items:
             - name: Настройка соглашений о сервисном обслуживании
-              href: ../supply-chain/service-management/service-agreement-groups.md
               items:
-                - name: Создание соглашений на сервисное обслуживание
+                - name: Обзор соглашений о сервисном обслуживании
+                  href: ../supply-chain/service-management/service-agreement-groups.md
+                - name: Создание соглашений о сервисном обслуживании
                   href: ../supply-chain/service-management/create-service-agreements.md
                 - name: Диапазоны сервисного обслуживания
                   href: ../supply-chain/service-management/service-intervals.md
@@ -4204,13 +4643,15 @@
                 - name: Создание группы шаблонов обслуживания
                   href: ../supply-chain/service-management/create-service-template-group.md
             - name: Настройка задач сервисного обслуживания
-              href: ../supply-chain/service-management/service-tasks.md
               items:
+                - name: Обзор задач сервисного обслуживания
+                  href: ../supply-chain/service-management/service-tasks.md
                 - name: Создание связей задач сервисного обслуживания
                   href: ../supply-chain/service-management/create-service-task-relations.md
             - name: Настройка объектов сервисного обслуживания
-              href: ../supply-chain/service-management/service-objects.md
               items:
+                - name: Обзор объектов сервисного обслуживания
+                  href: ../supply-chain/service-management/service-objects.md
                 - name: Создание объектов сервисного обслуживания
                   href: ../supply-chain/service-management/create-service-task-relations.md
                 - name: Присоединение складируемых номенклатур к объектам сервисного обслуживания
@@ -4230,8 +4671,9 @@
                 - name: Присоединение шаблона к объектам сервисного обслуживания
                   href: ../supply-chain/service-management/attach-templates-service-objects.md
             - name: Определение кодов причин для заказов на сервисное обслуживание
-              href: ../supply-chain/service-management/reason-codes-service-orders.md
               items:
+                - name: Коды причин для заказов на сервисное обслуживание
+                  href: ../supply-chain/service-management/reason-codes-service-orders.md
                 - name: Этапы заказа на сервисное обслуживание
                   href: ../supply-chain/service-management/service-order-stages.md
                 - name: Настройка этапов заказа на сервисное обслуживание
@@ -4239,8 +4681,9 @@
                 - name: Создание кодов причины
                   href: ../supply-chain/service-management/create-reason-codes.md
             - name: Настройка соглашений на сервисное обслуживание и подписок
-              href: ../supply-chain/service-management/service-level-agreements.md
               items:
+                - name: Обзор соглашений об условиях обслуживания
+                  href: ../supply-chain/service-management/service-level-agreements.md
                 - name: Цены продажи подписки
                   href: ../supply-chain/service-management/subscription-sales-prices.md
                 - name: Группы подписки
@@ -4254,8 +4697,9 @@
             - name: Настройка управления ремонтом
               href: ../supply-chain/service-management/repair-management.md
             - name: Настройка возвратов клиентами
-              href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
               items:
+                - name: Обзор возвратов клиентами
+                  href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
                 - name: Настройка кодов методов обработки
                   href: ../supply-chain/service-management/set-up-disposition-codes.md
                 - name: Настройка кодов причин возврата
@@ -4263,15 +4707,18 @@
                 - name: Определение порядка списания возврата
                   href: ../supply-chain/service-management/specify-how-to-dispose-of-returned-items.md
         - name: Работа с сервисным обслуживанием клиентов
-          href: ../supply-chain/service-management/working-with-customer-service.md
           items:
+            - name: Обзор работы с сервисным обслуживанием клиентов
+              href: ../supply-chain/service-management/working-with-customer-service.md
             - name: Выполнение соглашений о сервисном обслуживании
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: Обзор исполнения соглашений о сервисном обслуживании
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: Разработка и заключение договоров
-                  href: ../supply-chain/service-management/service-agreements.md
                   items:
-                    - name: Создание соглашений на сервисное обслуживание
+                    - name: Обзор разработки и создания соглашений о сервисном обслуживании
+                      href: ../supply-chain/service-management/service-agreements.md
+                    - name: Создание соглашений о сервисном обслуживании
                       href: ../supply-chain/service-management/create-service-agreements.md
                     - name: Подписки на сервисное обслуживание
                       href: ../supply-chain/service-management/service-subscriptions.md
@@ -4296,8 +4743,9 @@
                     - name: Обновление и индексирование цен продажи подписки
                       href: ../supply-chain/service-management/update-and-index-subscription-sales-prices.md
             - name: Обработка запросов клиентов
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: Обзор исполнения соглашений о сервисном обслуживании
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: Начало и остановка записи времени в заказе на обслуживание
                   href: ../supply-chain/service-management/start-and-stop-time-recording-on-a-service-order.md
                 - name: Просмотр времени начала и длительности заказа на обслуживание
@@ -4407,8 +4855,9 @@
                     - name: Обработка накладных для проводок по подписке
                       href: ../supply-chain/service-management/invoice-subscription-transactions.md
     - name: Управление транспортировкой
-      href: ../supply-chain/transportation/transportation-management-overview.md
       items:
+        - name: Обзор управления транспортировкой
+          href: ../supply-chain/transportation/transportation-management-overview.md
         - name: Системы управления транспортировкой
           href: ../supply-chain/transportation/transportation-management-engines.md
         - name: Создание нового механизма управления транспортировкой
@@ -4420,8 +4869,9 @@
         - name: Планирование маршрутов транспортировки
           href: ../supply-chain/transportation/plan-freight-transportation-routes-multiple-stops.md
         - name: Планирование загрузок с помощью консолидации узлов
-          href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
           items:
+            - name: Обзор планирования загрузок с помощью консолидации узлов
+              href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
             - name: Планирование загрузок и отгрузок с помощью рабочего места планирования загрузки
               href: ../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md
         - name: Включение веса и объема контейнера при загрузке
@@ -4451,11 +4901,13 @@
         - name: Настройка ограничений по транспортировке для номенклатуры
           href: ../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md
     - name: Управление складом
-      href: ../supply-chain/warehousing/warehouse-management-overview.md
       items:
+        - name: Обзор управления складом
+          href: ../supply-chain/warehousing/warehouse-management-overview.md
         - name: Конфигурация склада
-          href: ../supply-chain/warehousing/warehouse-configuration.md
           items:
+            - name: Обзор конфигурации склада
+              href: ../supply-chain/warehousing/warehouse-configuration.md
             - name: Настройка склада с использованием шаблона конфигурации склада
               href: ../supply-chain/inventory/warehouse-template.md
             - name: Управление работой с помощью шаблонов работ и директив ячеек
@@ -4485,8 +4937,9 @@
             - name: Настройка склада для заказов на перемещение
               href: ../supply-chain/warehousing/transfer-orders-warehouse.md
         - name: Политики работы склада
-          href: ../supply-chain/warehousing/warehouse-work-policies.md
           items:
+            - name: Обзор политик работы склада
+              href: ../supply-chain/warehousing/warehouse-work-policies.md
             - name: Настройка политик работы склада
               href: ../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
             - name: Перемещение запасов со связанной работой в модуле "Управление складом"
@@ -4546,8 +4999,9 @@
             - name: Меченная инвентаризация запасов
               href: ../supply-chain/inventory/inventory-tag-counting.md
         - name: Пополнение
-          href: ../supply-chain/warehousing/replenishment.md
           items:
+            - name: Обзор пополнения
+              href: ../supply-chain/warehousing/replenishment.md
             - name: Немедленное пополнение
               href: ../supply-chain/warehousing/immediate-replenishment.md
             - name: Пополнение канбанами изъятия
@@ -4555,8 +5009,9 @@
             - name: Настройка процесса пополнения "Мин./Макс."
               href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
         - name: Установка и настройка складского приложения
-          href: ../supply-chain/warehousing/install-configure-warehousing-app.md
           items:
+            - name: Обзор установки и настройки
+              href: ../supply-chain/warehousing/install-configure-warehousing-app.md
             - name: Настройка имен полей в складском приложении
               href: ../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md
             - name: Настройка мобильных устройств для работы склада
