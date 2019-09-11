@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить.
 author: sericks007
 manager: AnnBe
-ms.date: 07/30/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 4aad4f2cf42b72256b5c4727bfd145d16af033ed
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863391"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867109"
 ---
 # <a name="removed-or-deprecated-features"></a>Удаленные или устаревшие функции
 
@@ -157,6 +157,17 @@ ms.locfileid: "1863391"
 | **Затрагиваемые области продукта**         | Средства разработки Visual Studio |
 | **Вариант развертывания**              | Все |
 | **Состояние**                         | Устарело: предупреждение станет ошибкой компиляции в обновлении платформы Platform update 26. |
+
+## <a name="dynamics-365-for-finance-and-operations-1000-with-platform-update-24"></a>Dynamics 365 for Finance and Operations 10.0.0 с обновлением платформы 24
+
+### <a name="renaming-released-products"></a>Переименование выпущенных продуктов 
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | При использовании функции **Переименование первичного ключа** для изменения ItemId выпущенного продукта, обновляются только прямые ссылки на внешние ключи. Все остальные ссылки на выпущенный продукт, например из производственных заказах, сохранят старый идентификатор ItemId. В результате могут существовать противоречивые данные, которые в конечном итоге приведут к блокировке бизнес-процессов. |
+| **Заменена другой функцией?**   | № п/п |
+| **Затрагиваемые области продукта**         | Управление сведениями о продукте |
+| **Вариант развертывания**              | Все  |
+| **Состояние**                         | Удалено в Dynamics 365 for Finance and Operations 10.0.0 с обновлением платформы 24. В исключительных случаях, например, для восстановления после предыдущего переименования первичного ключа выпущенного продукта, можно попросить Microsoft временно снять это ограничение для операции переименования первичного ключа для выпущенных продуктов. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 с обновлением платформы 23

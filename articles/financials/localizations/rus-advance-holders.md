@@ -1,9 +1,9 @@
 ---
-title: Подотчетные лица для России
+title: Обзор подотчетных лиц России
 description: В этой теме рассматривается регистрация и настройка подотчетных лиц для России.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/01/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d736765568b40b0e92736fef1ecf13574fbb6756
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: bf04ba4c3f78d720385e87fc92adba87583b18c5
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849315"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865651"
 ---
-# <a name="advance-holders-for-russia"></a>Подотчетные лица для России
+# <a name="russia-advance-holders-overview"></a>Обзор подотчетных лиц России
 [!include [banner](../includes/banner.md)]
 
 ## <a name="set-up-parameters-for-advance-holders"></a>Настройка параметров для подотчетных лиц

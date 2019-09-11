@@ -1,9 +1,9 @@
 ---
-title: Россия
+title: Обзор по России
 description: В этой теме представлен обзор функциональности Dynamics 365 for Finance and Operations, относящейся к России.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/09/2019
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 055f808106e86f31a42b20cdae660f50cf0d1325
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: fe7e5cf590d2f99bf4d96a96a3945f5ca58a60ca
+ms.sourcegitcommit: ac02d2aa289d9c26321509b3ee1deffbc0f77c96
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1852790"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "1886831"
 ---
-# <a name="russia"></a>Россия
+# <a name="russia-overview"></a>Обзор по России
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "1852790"
 - [Корреспонденция счетов](rus-correspondence-accounts.md)
 - [Предварительный просмотр проводок ГК](rus-ledger-transactions-preview.md)
 - [Настройка валютных курсов для проводок в валюте](rus-exchange-difference.md)
-- [Импорт курсов обмена валют из ЦБРФ](https://docs.microsoft.com/dynamics365/unified-operations/financials/general-ledger/import-currency-exchange-rates)
+- [Импорт курсов обмена валют из ЦБРФ](../general-ledger/import-currency-exchange-rates.md)
 
 ## <a name="advance-holders"></a>Подотчетные лица
 
@@ -44,20 +44,25 @@ ms.locfileid: "1852790"
 - [Переоценка в иностранной валюте для подотчетных лиц](rus-advance-adjustment-parameters.md)
 - [Сортировка отчетов по подотчетным лицам](rus-local-management-reports-primary-forms.md)
 
-## <a name="bank"></a>Банк
+## <a name="cash-and-bank"></a>Банк и кассовые операции
 
 - [Настройка банковских счетов](rus-local-settings-requisites-bank-module.md)
-- [Настройка и обработка платежных поручений](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/rus-payment-order-settings-processing)
-- [Продажа, покупка и переводы иностранной валюты](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/rus-currency-sale-purchase)
+- [Настройка и обработка платежных поручений](rus-payment-order-settings-processing.md)
+- [Курсовая разница](rus-exchange-adjustment.md)
+- [Продажа, покупка и переводы иностранной валюты](/rus-currency-sale-purchase.md)
+- [Мелкие наличные деньги](emea-petty-cash.md)
 
 ## <a name="vat"></a>НДС
 
-- [Специфическая локальная разноска исходящего НДС](rus-local-specific-posting-sales-vat.md)
+- [Учет исходящего НДС с учетом местных особенностей](rus-local-specific-posting-sales-vat.md)
+- [Обработка и печать счетов-фактур](rus-invoice-facture-process-print.md)
+- [Пересмотр счетов-фактур и корректирующие счета-фактуры](rus-revise-invoice-facture.md)
 - [Налог на добавленную стоимость (НДС) для налоговых агентов](rus-tax-agent.md)
-- [Декларация по НДС](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/rus-VAT-declaration)
+- [Декларация по НДС](rus-VAT-declaration.md)
 - [Книги продаж, книги покупок и журналы счетов-фактур](rus-sales-books-purchase-books.md)
 
 ## <a name="fixed-assets-russia"></a>Основные средства (Россия)
+- [Основные средства (Россия)](rus-fixed-assets.md)
 - [Настройка основных средств](rus-set-up-fixed-assets.md)
 - [Приобретение ОС и их ввод в эксплуатацию](rus-fixed-asset-acquisition.md)
 - [Регистрация приобретений основных средств](rus-register-acquisition.md)
@@ -76,6 +81,7 @@ ms.locfileid: "1852790"
 - [Перенос основных средств](rus-fixed-asset-transfer.md)
 
 ## <a name="accounts-payable-and-receivable"></a>Расчеты с поставщиками и клиентами
+- [Корректировки кредит-нот](rus-credit-note-correction.md)
 - [Счета на оплату](rus-invoice-payment.md)
 - [Настройка контроля аналитик для сопоставлений](rus-transactions-settlement-date.md)
 - [Регистрация товаров, отгруженных клиентам](../../supply-chain/localizations/rus-goods-transit-postponed.md)
@@ -100,7 +106,7 @@ ms.locfileid: "1852790"
 
 - [Настройка РБП](rus-set-up-deferrals.md)
 - [Создание РБП](rus-create-generate-deferrals.md)
-- [Поступление РБП](rus-deferral-transactions.md)
+- [Приход РБП](rus-deferral-transactions.md)
 - [Списание РБП](rus-write-off-deferral.md)
 - [Выбытие РБП](rus-dispose-deferrals.md)
 - [Инвентаризация РБП](rus-counting-deferrals.md)

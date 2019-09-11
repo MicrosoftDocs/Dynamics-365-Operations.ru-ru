@@ -1,9 +1,9 @@
 ---
-title: Оповещения
+title: Обзор оповещений
 description: В этой теме представлены общие сведения об оповещениях в Microsoft Dynamics 365 for Finance and Operations. Можно пользоваться оповещениями, чтобы знать о событиях, которые вы хотите отслеживать в течение рабочего дня.
 author: tjvass
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6079ba01275dceafc4d0c796611ded2920b3c539
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546947"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864922"
 ---
-# <a name="alerts"></a>Оповещения
+# <a name="alerts-overview"></a>Обзор оповещений
 
 [!include [banner](../includes/banner.md)]
 
