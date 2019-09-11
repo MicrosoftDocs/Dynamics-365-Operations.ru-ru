@@ -1,9 +1,9 @@
 ---
 title: Создание и обработка соответствия
-description: Эта процедура используется для управление несоответствием на основании существующего заказа контроля качества.
+description: В этой теме рассматривается порядок управления несоответствием на основании существующего заказа контроля качества.
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/07/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,65 +16,54 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16ed11bce92920fe8240fc85f706a2ac6ab0a04b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e9cf42f80ef7a4c9c5f68a308386db5835c8f2e
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572819"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916653"
 ---
-# <a name="create-and-process-a-conformance"></a><span data-ttu-id="dd162-103">Создание и обработка соответствия</span><span class="sxs-lookup"><span data-stu-id="dd162-103">Create and process a conformance</span></span>
+# <a name="create-and-process-a-conformance"></a><span data-ttu-id="d82c0-103">Создание и обработка соответствия</span><span class="sxs-lookup"><span data-stu-id="d82c0-103">Create and process a conformance</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="dd162-104">Эта процедура используется для управление несоответствием на основании существующего заказа контроля качества.</span><span class="sxs-lookup"><span data-stu-id="dd162-104">Use this procedure to perform nonconformance management, based on an existing quality order.</span></span> <span data-ttu-id="dd162-105">Эту запись можно выполнить в компании демонстрации USMF и использовать предложенные значения.</span><span class="sxs-lookup"><span data-stu-id="dd162-105">You can run this recording in the USMF demo company and can use the suggested values.</span></span> <span data-ttu-id="dd162-106">Обычно эта процедура выполняется сотрудником отдела контроля качества.</span><span class="sxs-lookup"><span data-stu-id="dd162-106">Typically, this procedure is performed by a quality clerk.</span></span>  <span data-ttu-id="dd162-107">В качестве предварительного условия необходимо воспроизвести запись задачи "Контроль качества товаров".</span><span class="sxs-lookup"><span data-stu-id="dd162-107">As a prerequisite, run the “Inspect the quality of goods” task recording.</span></span> <span data-ttu-id="dd162-108">Чтобы обработать утверждение несоответствия, пользователь, запустивший запись задачи, должен иметь значение "Имя", назначенное на странице "Пользователи".</span><span class="sxs-lookup"><span data-stu-id="dd162-108">To process the approval of a nonconformance, the user who runs the task recording must have a “Name” value assigned on the Users page.</span></span> <span data-ttu-id="dd162-109">Для использования примечаний к документам у пользователя также должна быть активирована функция "Работа с документами" (в параметрах пользователя).</span><span class="sxs-lookup"><span data-stu-id="dd162-109">To use the document notes, the user must also have Document handling activated in the user options.</span></span>
+<span data-ttu-id="d82c0-104">В этой теме рассматривается порядок управления несоответствием на основании существующего заказа контроля качества.</span><span class="sxs-lookup"><span data-stu-id="d82c0-104">This topic explains how to perform nonconformance management, based on an existing quality order.</span></span> <span data-ttu-id="d82c0-105">Эту запись можно выполнить в компании демонстрации USMF и использовать предложенные значения.</span><span class="sxs-lookup"><span data-stu-id="d82c0-105">You can run this recording in the USMF demo company and can use the suggested values.</span></span> <span data-ttu-id="d82c0-106">Обычно эта процедура выполняется сотрудником отдела контроля качества.</span><span class="sxs-lookup"><span data-stu-id="d82c0-106">Typically, this procedure is performed by a quality clerk.</span></span>  <span data-ttu-id="d82c0-107">В качестве предварительного условия выполните инструкции из раздела [Контроль качества товаров](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).</span><span class="sxs-lookup"><span data-stu-id="d82c0-107">As a prerequisite, complete the instructions in [Inspect the quality of goods](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).</span></span> <span data-ttu-id="d82c0-108">Чтобы обработать утверждение несоответствия, пользователь, запустивший запись задачи, должен иметь значение "Имя", назначенное на странице "Пользователи".</span><span class="sxs-lookup"><span data-stu-id="d82c0-108">To process the approval of a nonconformance, the user who runs the task recording must have a “Name” value assigned on the Users page.</span></span> <span data-ttu-id="d82c0-109">Для использования примечаний к документам у пользователя также должна быть активирована функция "Работа с документами" (в параметрах пользователя).</span><span class="sxs-lookup"><span data-stu-id="d82c0-109">To use the document notes, the user must also have Document handling activated in the user options.</span></span>
 
 
-## <a name="select-a-quality-order"></a><span data-ttu-id="dd162-110">Выбор заказа контроля качества</span><span class="sxs-lookup"><span data-stu-id="dd162-110">Select a quality order</span></span>
-1. <span data-ttu-id="dd162-111">Перейдите в раздел "Заказы контроля качества".</span><span class="sxs-lookup"><span data-stu-id="dd162-111">Go to Quality orders.</span></span>
-2. <span data-ttu-id="dd162-112">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="dd162-112">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="dd162-113">Выберите заказ контроля качества, который был создан из записи задачи "Контроль качества товаров".</span><span class="sxs-lookup"><span data-stu-id="dd162-113">Select the quality order that was created from the "Inspect the quality of goods" task recording.</span></span>  
+## <a name="select-a-quality-order"></a><span data-ttu-id="d82c0-110">Выбор заказа контроля качества</span><span class="sxs-lookup"><span data-stu-id="d82c0-110">Select a quality order</span></span>
+1. <span data-ttu-id="d82c0-111">В области перехода перейдите к **Модули > Управление запасами > Периодические задачи > Управление качеством > Заказы на контроль качества**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-111">In the navigation pane, go to **Modules > Inventory management > Periodic tasks > Quality management > Quality orders**.</span></span>
+2. <span data-ttu-id="d82c0-112">В списке выберите заказ контроля качества, который был создан в разделе [Контроль качества товаров](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).</span><span class="sxs-lookup"><span data-stu-id="d82c0-112">In the list, select the quality order that was created in [Inspect the quality of goods](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).</span></span>  
 
-## <a name="create-a-nonconformance"></a><span data-ttu-id="dd162-114">Создание несоответствия</span><span class="sxs-lookup"><span data-stu-id="dd162-114">Create a nonconformance</span></span>
-1. <span data-ttu-id="dd162-115">Щелкните Запросы.</span><span class="sxs-lookup"><span data-stu-id="dd162-115">Click Inquiries.</span></span>
-2. <span data-ttu-id="dd162-116">Щелкните "Несоответствия".</span><span class="sxs-lookup"><span data-stu-id="dd162-116">Click Non conformances.</span></span>
-3. <span data-ttu-id="dd162-117">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="dd162-117">Click New.</span></span>
-4. <span data-ttu-id="dd162-118">В поле "Тип проблемы" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="dd162-118">In the Problem type field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="dd162-119">Выберите проблему, которая была найдена в процессе проверки.</span><span class="sxs-lookup"><span data-stu-id="dd162-119">Select the problem that was found during the inspection process.</span></span>  
-5. <span data-ttu-id="dd162-120">В поле "Тип проблемы" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="dd162-120">In the Problem type field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="dd162-121">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="dd162-121">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="dd162-122">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="dd162-122">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="dd162-123">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="dd162-123">Click OK.</span></span>
+## <a name="create-a-nonconformance"></a><span data-ttu-id="d82c0-113">Создание несоответствия</span><span class="sxs-lookup"><span data-stu-id="d82c0-113">Create a nonconformance</span></span>
+1. <span data-ttu-id="d82c0-114">На панели операций выберите **Запросы**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-114">In the action pane, select **Inquiries**.</span></span>
+2. <span data-ttu-id="d82c0-115">Выберите **Несоответствия**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-115">Select **Non conformances**.</span></span>
+3. <span data-ttu-id="d82c0-116">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-116">Select **New**.</span></span>
+4. <span data-ttu-id="d82c0-117">В раскрывающемся меню поля **Тип проблемы** выберите проблему, которая была обнаружена во время процесса проверки.</span><span class="sxs-lookup"><span data-stu-id="d82c0-117">In the drop-down menu of the **Problem type** field, select the problem that was found during the inspection process.</span></span>  
+5. <span data-ttu-id="d82c0-118">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-118">Select **OK**.</span></span>
 
-## <a name="approvereject-a-nonconformance"></a><span data-ttu-id="dd162-124">Утверждение/отклонение несоответствия</span><span class="sxs-lookup"><span data-stu-id="dd162-124">Approve/reject a nonconformance</span></span>
-1. <span data-ttu-id="dd162-125">Щелкните Функции.</span><span class="sxs-lookup"><span data-stu-id="dd162-125">Click Functions.</span></span>
-2. <span data-ttu-id="dd162-126">Щелкните "Утвердить несоответствие".</span><span class="sxs-lookup"><span data-stu-id="dd162-126">Click Approve non conformance.</span></span>
-    * <span data-ttu-id="dd162-127">В этом примере утвердите несоответствие.</span><span class="sxs-lookup"><span data-stu-id="dd162-127">For this example, approve the nonconformance.</span></span> <span data-ttu-id="dd162-128">Утвержденные несоответствия могут быть связаны с сопутствующими операциями для записи работы, которая выполняется в рамках обработки несоответствия и, как в этой записи задачи, обработки исправления.</span><span class="sxs-lookup"><span data-stu-id="dd162-128">Approved nonconformances can be associated with related operations to record work that is done as part of the nonconformance handling and, as in this task recording, the processing of correction handling.</span></span>  
-3. <span data-ttu-id="dd162-129">Щелкните Да.</span><span class="sxs-lookup"><span data-stu-id="dd162-129">Click Yes.</span></span>
+## <a name="approvereject-a-nonconformance"></a><span data-ttu-id="d82c0-119">Утверждение/отклонение несоответствия</span><span class="sxs-lookup"><span data-stu-id="d82c0-119">Approve/reject a nonconformance</span></span>
+1. <span data-ttu-id="d82c0-120">Выберите **Функции**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-120">Select **Functions**.</span></span>
+2. <span data-ttu-id="d82c0-121">Выберите **Утвердить несоответствие**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-121">Select **Approve non conformance**.</span></span> <span data-ttu-id="d82c0-122">В этом примере утвердите несоответствие.</span><span class="sxs-lookup"><span data-stu-id="d82c0-122">For this example, approve the nonconformance.</span></span> <span data-ttu-id="d82c0-123">Утвержденные несоответствия могут быть связаны с сопутствующими операциями для записи работы, которая выполняется в рамках обработки несоответствия и, как в этой теме, обработки исправления.</span><span class="sxs-lookup"><span data-stu-id="d82c0-123">Approved nonconformances can be associated with related operations to record work that is done as part of the nonconformance handling and, as in this topic, the processing of correction handling.</span></span>  
+3. <span data-ttu-id="d82c0-124">Выберите **Да**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-124">Select **Yes**.</span></span>
 
-## <a name="create-a-correction-action"></a><span data-ttu-id="dd162-130">Создание действия исправления</span><span class="sxs-lookup"><span data-stu-id="dd162-130">Create a correction action</span></span>
-1. <span data-ttu-id="dd162-131">Щелкните "Исправления".</span><span class="sxs-lookup"><span data-stu-id="dd162-131">Click Corrections.</span></span>
-2. <span data-ttu-id="dd162-132">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="dd162-132">Click New.</span></span>
-3. <span data-ttu-id="dd162-133">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="dd162-133">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="dd162-134">В поле "Табельный номер" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="dd162-134">In the Personnel number field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="dd162-135">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="dd162-135">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="dd162-136">Щелкните Выбрать.</span><span class="sxs-lookup"><span data-stu-id="dd162-136">Click Select.</span></span>
-7. <span data-ttu-id="dd162-137">Щелкните "Привязать".</span><span class="sxs-lookup"><span data-stu-id="dd162-137">Click Attach.</span></span>
-    * <span data-ttu-id="dd162-138">Создайте примечание об исправлении.</span><span class="sxs-lookup"><span data-stu-id="dd162-138">Create a note about the correction.</span></span> <span data-ttu-id="dd162-139">В этом примере действие — обратиться к поставщику, чтобы обсудить случай несоответствия.</span><span class="sxs-lookup"><span data-stu-id="dd162-139">For this example, the action is to contact the vendor to discuss the nonconformance case.</span></span>  
-8. <span data-ttu-id="dd162-140">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="dd162-140">Click New.</span></span>
-9. <span data-ttu-id="dd162-141">Щелкните "Примечание".</span><span class="sxs-lookup"><span data-stu-id="dd162-141">Click Note.</span></span>
-    * <span data-ttu-id="dd162-142">Обратите внимание, что в зависимости от настройки отчета, можно печатать различные типы документов в отчетах, связанных с управлением несоответствиями.</span><span class="sxs-lookup"><span data-stu-id="dd162-142">Note that, depending on the report setup, different document types can be printed on the reports that are related to nonconformance management.</span></span>  
-10. <span data-ttu-id="dd162-143">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="dd162-143">In the Description field, type a value.</span></span>
-11. <span data-ttu-id="dd162-144">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="dd162-144">Close the page.</span></span>
+## <a name="create-a-correction-action"></a><span data-ttu-id="d82c0-125">Создание действия исправления</span><span class="sxs-lookup"><span data-stu-id="d82c0-125">Create a correction action</span></span>
+1. <span data-ttu-id="d82c0-126">Выберите **Коррекции**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-126">Select **Corrections**.</span></span>
+2. <span data-ttu-id="d82c0-127">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-127">Select **New**.</span></span>
+3. <span data-ttu-id="d82c0-128">В поле **Табельный номер** в новой строке выберите требуемую запись из раскрывающегося меню.</span><span class="sxs-lookup"><span data-stu-id="d82c0-128">In the **Personnel number** field of the new row, select the desired record from the drop down menu.</span></span>
+4. <span data-ttu-id="d82c0-129">Щелкните **Выбрать**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-129">Click **Select**.</span></span>
+5. <span data-ttu-id="d82c0-130">Выберите **Привязать**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-130">Select **Attach**.</span></span> <span data-ttu-id="d82c0-131">Создайте примечание об исправлении.</span><span class="sxs-lookup"><span data-stu-id="d82c0-131">Create a note about the correction.</span></span> <span data-ttu-id="d82c0-132">В этом примере действие — обратиться к поставщику, чтобы обсудить случай несоответствия.</span><span class="sxs-lookup"><span data-stu-id="d82c0-132">For this example, the action is to contact the vendor to discuss the nonconformance case.</span></span>  
+6. <span data-ttu-id="d82c0-133">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-133">Select **New**.</span></span>
+7. <span data-ttu-id="d82c0-134">Выберите **Примечание**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-134">Select **Note**.</span></span> <span data-ttu-id="d82c0-135">В зависимости от настройки отчета, можно печатать различные типы документов в отчетах, связанных с управлением несоответствиями.</span><span class="sxs-lookup"><span data-stu-id="d82c0-135">Depending on the report setup, different document types can be printed on the reports that are related to nonconformance management.</span></span>  
+8. <span data-ttu-id="d82c0-136">В поле **Описание** введите значение.</span><span class="sxs-lookup"><span data-stu-id="d82c0-136">In the **Description** field, type a value.</span></span>
+9. <span data-ttu-id="d82c0-137">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="d82c0-137">Close the page.</span></span>
 
-## <a name="maintain-a-correction"></a><span data-ttu-id="dd162-145">Ведение исправления</span><span class="sxs-lookup"><span data-stu-id="dd162-145">Maintain a correction</span></span>
-1. <span data-ttu-id="dd162-146">Щелкните "Отметить как завершенный".</span><span class="sxs-lookup"><span data-stu-id="dd162-146">Click Mark complete.</span></span>
-2. <span data-ttu-id="dd162-147">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="dd162-147">Click OK.</span></span>
-3. <span data-ttu-id="dd162-148">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="dd162-148">Close the page.</span></span>
+## <a name="maintain-a-correction"></a><span data-ttu-id="d82c0-138">Ведение исправления</span><span class="sxs-lookup"><span data-stu-id="d82c0-138">Maintain a correction</span></span>
+1. <span data-ttu-id="d82c0-139">Выберите **Отметить как завершенное**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-139">Select **Mark complete**.</span></span>
+2. <span data-ttu-id="d82c0-140">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-140">Select **OK**.</span></span>
+3. <span data-ttu-id="d82c0-141">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="d82c0-141">Close the page.</span></span>
 
-## <a name="close-a-nonconformance"></a><span data-ttu-id="dd162-149">Закрытие несоответствия</span><span class="sxs-lookup"><span data-stu-id="dd162-149">Close a nonconformance</span></span>
-1. <span data-ttu-id="dd162-150">Щелкните Функции.</span><span class="sxs-lookup"><span data-stu-id="dd162-150">Click Functions.</span></span>
-2. <span data-ttu-id="dd162-151">Щелкните "Закрыть несоответствие".</span><span class="sxs-lookup"><span data-stu-id="dd162-151">Click Close non conformance.</span></span>
-3. <span data-ttu-id="dd162-152">Щелкните Да.</span><span class="sxs-lookup"><span data-stu-id="dd162-152">Click Yes.</span></span>
-4. <span data-ttu-id="dd162-153">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="dd162-153">Close the page.</span></span>
-5. <span data-ttu-id="dd162-154">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="dd162-154">Close the page.</span></span>
+## <a name="close-a-nonconformance"></a><span data-ttu-id="d82c0-142">Закрытие несоответствия</span><span class="sxs-lookup"><span data-stu-id="d82c0-142">Close a nonconformance</span></span>
+1. <span data-ttu-id="d82c0-143">Выберите **Функции**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-143">Select **Functions**.</span></span>
+2. <span data-ttu-id="d82c0-144">Выберите **Закрыть несоответствие**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-144">Select **Close non conformance**.</span></span>
+3. <span data-ttu-id="d82c0-145">Выберите **Да**.</span><span class="sxs-lookup"><span data-stu-id="d82c0-145">Select **Yes**.</span></span>
+4. <span data-ttu-id="d82c0-146">Закройте страницы.</span><span class="sxs-lookup"><span data-stu-id="d82c0-146">Close the pages.</span></span>

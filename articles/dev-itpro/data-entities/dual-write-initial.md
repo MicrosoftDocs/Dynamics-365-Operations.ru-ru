@@ -19,50 +19,55 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b74bc2d3133af7e87663a4e6bafb8780e0a6a66f
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 1473c3bad55734d5f83ee3e4c1654921b872f3bb
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797306"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873136"
 ---
-# <a name="execution-order-for-initial-sychronization-of-finance-and-operations-and-common-data-service"></a><span data-ttu-id="525fb-103">Порядок выполнения для первоначальной синхронизации Finance and Operations и Common Data Service</span><span class="sxs-lookup"><span data-stu-id="525fb-103">Execution order for initial sychronization of Finance and Operations and Common Data Service</span></span>
+# <a name="execution-order-for-initial-synchronization-of-finance-and-operations-and-common-data-service"></a><span data-ttu-id="38f8a-103">Порядок выполнения для первоначальной синхронизации Finance and Operations и Common Data Service</span><span class="sxs-lookup"><span data-stu-id="38f8a-103">Execution order for initial synchronization of Finance and Operations and Common Data Service</span></span>
 
-<span data-ttu-id="525fb-104">Перед использованием интеграции данных необходимо создать исходные данные, необходимые для клиентов, поставщиков и контактов.</span><span class="sxs-lookup"><span data-stu-id="525fb-104">Before you use data integration, you must create the initial data required for customers, vendors and contacts.</span></span> <span data-ttu-id="525fb-105">Например, если вы хотите создать новый элемент **Группа поставщиков** и установить для него **Условия оплаты** как **Net30**, то перед попыткой создать элемент **Группа поставщиков** необходимо убедиться, что **Net30** существует как в Finance and Operations, так и в Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="525fb-105">For example, if you want to create a new **Vendor group** item and set its **Terms of Payment** as **Net30**, then before you attempt to create the **Vendor group** item you need to make sure that **Net30** exists in both Finance and Operations and Common Data Service.</span></span> <span data-ttu-id="525fb-106">(В будущем мы выпустим функцию платформы двойной записи под названием **Начальная синхронизация**. Она будет делать одноразовую синхронизацию данных между Finance and Operations и Common Data Service в рамках настройки двойной записи.)</span><span class="sxs-lookup"><span data-stu-id="525fb-106">(In the future, we will release a  dual-write platform functionality called **Initial Sync**. It will do a one-time data synchronization between Finance and Operations and Common Data Service as part of the dual-write setup.)</span></span>
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="525fb-107">Советы. Мы выпускаем карту двойной записи для всех справочных данных, включая **Условия оплаты** (Условия оплаты).</span><span class="sxs-lookup"><span data-stu-id="525fb-107">Tips: We are releasing a dual-write map for all reference data including **Terms of Payment** (Payment Terms).</span></span> <span data-ttu-id="525fb-108">Если у вас уже есть исходные данные в одной системе, небольшая операция обновления для записи может вызвать двойную запись для этой записи.</span><span class="sxs-lookup"><span data-stu-id="525fb-108">If you already have the initial data in one system, a small update operation on a record can trigger dual-write on that record.</span></span> 
+[!include [preview](../includes/preview-banner.md)]
 
-<span data-ttu-id="525fb-109">Вы должны следовать следующему порядку приоритета и убедиться, что исходные данные доступны как в Finance and Operations, так и в Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="525fb-109">You must follow the following order of precedence and make sure that the initial data is available on both Finance and Operations and Common Data Service.</span></span>   
+<span data-ttu-id="38f8a-104">Перед использованием интеграции данных необходимо создать исходные данные, необходимые для клиентов, поставщиков и контактов.</span><span class="sxs-lookup"><span data-stu-id="38f8a-104">Before you use data integration, you must create the initial data that is required for customers, vendors, and contacts.</span></span> <span data-ttu-id="38f8a-105">Например, необходимо создать новый элемент **Группа поставщиков** и установить для ее параметра **Условия оплаты** значение **Net30**.</span><span class="sxs-lookup"><span data-stu-id="38f8a-105">For example, you want to create a new **Vendor group** item and set its **Terms of Payment** value to **Net30**.</span></span> <span data-ttu-id="38f8a-106">В этом случае, прежде чем пытаться создать элемент **Группа поставщиков**, необходимо убедиться, что **Net30** существует как в Microsoft Dynamics 365 for Finance and Operations, так и в Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="38f8a-106">In this case, before you try to create the **Vendor group** item, you must make sure that **Net30** exists in both Microsoft Dynamics 365 for Finance and Operations and Common Data Service.</span></span> <span data-ttu-id="38f8a-107">(В будущем Майкрософт выпустит функцию платформы двойной записи под названием "Начальная синхронизация". Эта функция будет делать одноразовую синхронизацию данных между Finance and Operations и Common Data Service в рамках настройки двойной записи.)</span><span class="sxs-lookup"><span data-stu-id="38f8a-107">(In the future, Microsoft will release dual-write platform functionality that is named Initial Sync. This functionality will do a one-time data synchronization between Finance and Operations and Common Data Service as part of the dual-write setup.)</span></span>
 
-## <a name="vendor"></a><span data-ttu-id="525fb-110">Поставщик</span><span class="sxs-lookup"><span data-stu-id="525fb-110">Vendor</span></span>
+> [!TIP]
+> <span data-ttu-id="38f8a-108">Майкрософт выпускает карту двойной записи для всех справочных данных, включая **Условия оплаты** (условия оплаты).</span><span class="sxs-lookup"><span data-stu-id="38f8a-108">Microsoft is releasing a dual-write map for all reference data, including **Terms of Payment** (payment terms).</span></span> <span data-ttu-id="38f8a-109">Если у вас уже есть исходные данные в одной системе, небольшая операция обновления для записи может вызвать двойную запись для этой записи.</span><span class="sxs-lookup"><span data-stu-id="38f8a-109">If you already have the initial data in one system, a small update operation on a record can trigger dual-write on that record.</span></span>
 
-<span data-ttu-id="525fb-111">Порядок выполнения для поставщика:</span><span class="sxs-lookup"><span data-stu-id="525fb-111">The order of execution for Vendor is:</span></span>
+<span data-ttu-id="38f8a-110">Вы должны следовать следующему порядку приоритета и убедиться, что исходные данные доступны как в Finance and Operations, так и в Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="38f8a-110">You must follow the following order of precedence and make sure that the initial data is available in both Finance and Operations and Common Data Service.</span></span>
 
-```
-Vendor Group
-    Terms of payment
-        Payment day & lines
-        Payment schedule
-Vendor payment method
-```
+## <a name="vendor"></a><span data-ttu-id="38f8a-111">Поставщик</span><span class="sxs-lookup"><span data-stu-id="38f8a-111">Vendor</span></span>
 
-## <a name="customer-organization"></a><span data-ttu-id="525fb-112">Клиент (Организация)</span><span class="sxs-lookup"><span data-stu-id="525fb-112">Customer (Organization)</span></span>
+<span data-ttu-id="38f8a-112">Ниже представлен порядок выполнения для объекта **Поставщик**:</span><span class="sxs-lookup"><span data-stu-id="38f8a-112">Here is the order of execution for the **Vendor** entity:</span></span>
 
-<span data-ttu-id="525fb-113">Порядок выполнения для клиента:</span><span class="sxs-lookup"><span data-stu-id="525fb-113">The order of execution for Customer is:</span></span>
+1. <span data-ttu-id="38f8a-113">Группа поставщиков</span><span class="sxs-lookup"><span data-stu-id="38f8a-113">Vendor group</span></span>
 
-```
-Customer Group
-    Terms of payment
-        Payment day & lines
-        Payment 
-Customer payment method
-```
+    1. <span data-ttu-id="38f8a-114">Условия оплаты</span><span class="sxs-lookup"><span data-stu-id="38f8a-114">Terms of payment</span></span>
 
-## <a name="contact-person"></a><span data-ttu-id="525fb-114">Контакт (Физическое лицо)</span><span class="sxs-lookup"><span data-stu-id="525fb-114">Contact (Person)</span></span>
+        1. <span data-ttu-id="38f8a-115">Платежные дни и строки</span><span class="sxs-lookup"><span data-stu-id="38f8a-115">Payment day and lines</span></span>
+        2. <span data-ttu-id="38f8a-116">График оплаты</span><span class="sxs-lookup"><span data-stu-id="38f8a-116">Payment schedule</span></span>
 
-<span data-ttu-id="525fb-115">Порядок выполнения для контакта:</span><span class="sxs-lookup"><span data-stu-id="525fb-115">The order of execution for Contact is:</span></span>
+2. <span data-ttu-id="38f8a-117">Метод платежа поставщикам</span><span class="sxs-lookup"><span data-stu-id="38f8a-117">Vendor payment method</span></span>
 
-```
-Customer
-Vendor               
-```
+## <a name="customer-organization"></a><span data-ttu-id="38f8a-118">Клиент (Организация)</span><span class="sxs-lookup"><span data-stu-id="38f8a-118">Customer (Organization)</span></span>
+
+<span data-ttu-id="38f8a-119">Ниже представлен порядок выполнения для объекта **Клиент**:</span><span class="sxs-lookup"><span data-stu-id="38f8a-119">Here is the order of execution for the **Customer** entity:</span></span>
+
+1. <span data-ttu-id="38f8a-120">Группа клиентов</span><span class="sxs-lookup"><span data-stu-id="38f8a-120">Customer group</span></span>
+
+    1. <span data-ttu-id="38f8a-121">Условия оплаты</span><span class="sxs-lookup"><span data-stu-id="38f8a-121">Terms of payment</span></span>
+
+        1. <span data-ttu-id="38f8a-122">Платежные дни и строки</span><span class="sxs-lookup"><span data-stu-id="38f8a-122">Payment day and lines</span></span>
+        2. <span data-ttu-id="38f8a-123">Платеж</span><span class="sxs-lookup"><span data-stu-id="38f8a-123">Payment</span></span> 
+
+2. <span data-ttu-id="38f8a-124">Способ оплаты клиента</span><span class="sxs-lookup"><span data-stu-id="38f8a-124">Customer payment method</span></span>
+
+## <a name="contact-person"></a><span data-ttu-id="38f8a-125">Контакт (Физическое лицо)</span><span class="sxs-lookup"><span data-stu-id="38f8a-125">Contact (Person)</span></span>
+
+<span data-ttu-id="38f8a-126">Ниже представлен порядок выполнения для объекта **Контакт**:</span><span class="sxs-lookup"><span data-stu-id="38f8a-126">Here is the order of execution for the **Contact** entity:</span></span>
+
+1. <span data-ttu-id="38f8a-127">Заказчик</span><span class="sxs-lookup"><span data-stu-id="38f8a-127">Customer</span></span>
+2. <span data-ttu-id="38f8a-128">Поставщик</span><span class="sxs-lookup"><span data-stu-id="38f8a-128">Vendor</span></span>

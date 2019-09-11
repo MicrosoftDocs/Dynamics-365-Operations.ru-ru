@@ -1,0 +1,99 @@
+---
+title: Прогнозы, заказы на работу и проекты
+description: В этом разделе рассматривается интеграция прогнозов и заказов на работу с модулем "Управление и учет по проектам" в управлении активами.
+author: josaw1
+manager: AnnBe
+ms.date: 08/16/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2019-08-31
+ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: 5e986d139ac9d0a7729bb9787f05332bcc09f59b
+ms.sourcegitcommit: 109a6ef2d20758dc4a25c51b11e22dd2214a1cc4
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "1886824"
+---
+# <a name="forecasts-work-orders-and-projects"></a><span data-ttu-id="252d1-103">Прогнозы, заказы на работу и проекты</span><span class="sxs-lookup"><span data-stu-id="252d1-103">Forecasts, work orders, and projects</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+[!include [banner](../../includes/preview-banner.md)]
+
+<span data-ttu-id="252d1-104">В управлении активами интеграция с модулем **Управление и учет по проектам** выполняется для оптимизации управления затратами, что позволяет пользователям отслеживать затраты по прогнозам для типов заданий обслуживания и заданиям заказов на работу.</span><span class="sxs-lookup"><span data-stu-id="252d1-104">In Asset Management, integration to the **Project management and accounting** module is done to optimize cost control, allowing users to track costs on maintenance job type forecasts and work order jobs.</span></span>
+
+<span data-ttu-id="252d1-105">Для отслеживания прогнозов типов заданий обслуживания необходимо задать два параметра:</span><span class="sxs-lookup"><span data-stu-id="252d1-105">To track maintenance job type forecasts, two settings must be made:</span></span>
+
+1. <span data-ttu-id="252d1-106">Выберите проект по пути **Управление активами** > **Настройка** > **Параметры управления активами** > ссылка **Активы** > экспресс-вкладка **Проект** > **Проект прогноза обслуживания**.</span><span class="sxs-lookup"><span data-stu-id="252d1-106">Select a project in **Asset management** > **Setup** > **Asset management parameters** > **Assets** link > **Project** FastTab > **Maintenance forecast project** field.</span></span>
+
+2. <span data-ttu-id="252d1-107">На странице **Значения по умолчанию для типа заданий обслуживания** при создании строки по умолчанию для типа задания обслуживания автоматически создается номер мероприятия для строки (**Управление активами** > **Настройка** > **Задания** > **Значения по умолчанию для типа заданий обслуживания**).</span><span class="sxs-lookup"><span data-stu-id="252d1-107">In **Maintenance job type defaults**, when you create a mainteance job type default line, an activity number is automatically created for the line (**Asset management** > **Setup** > **Jobs** > **Maintenance job type defaults**).</span></span>
+
+<span data-ttu-id="252d1-108">Прогнозы типа задания обслуживания служат двум целям: можно отслеживать затраты по прогнозам типов заданий обслуживания в модуле **Управление и учет по проектам**.</span><span class="sxs-lookup"><span data-stu-id="252d1-108">Maintenance job type forecasts serve two purposes: You are able to track costs on maintenance job type forecasts in the **Project management and accounting** module.</span></span> <span data-ttu-id="252d1-109">Кроме того, прогнозы автоматически переносятся в проект задания заказа на работу при выборе типа задания обслуживания в задании заказа на работу.</span><span class="sxs-lookup"><span data-stu-id="252d1-109">Furthermore, forecasts are automatically transferred to a work order job project when you select a maintenance job type on a work order job.</span></span>
+
+<span data-ttu-id="252d1-110">Для отслеживания затрат по заданиям заказов на работу необходимо сначала настроить проекты заказов на работу.</span><span class="sxs-lookup"><span data-stu-id="252d1-110">To track costs on work order jobs, you must first set up work order projects.</span></span> <span data-ttu-id="252d1-111">Описание процедуры см. в разделе [Настройка проекта заказа на работу](../setup-for-work-orders/work-order-project-setup.md).</span><span class="sxs-lookup"><span data-stu-id="252d1-111">Refer to the [Work order project setup](../setup-for-work-orders/work-order-project-setup.md) section for a description of the procedure.</span></span>
+
+## <a name="work-order-job-projects"></a><span data-ttu-id="252d1-112">Проекты заданий заказов на работу</span><span class="sxs-lookup"><span data-stu-id="252d1-112">Work order job projects</span></span>
+
+<span data-ttu-id="252d1-113">При создании задания заказа на работу в заказе на работу проект заказа на работу определяется настройкой родительского проекта для заказов на работу в пункте **Управление активами** > **Настройка** > **Заказы на работу** > **Настройка проекта**.</span><span class="sxs-lookup"><span data-stu-id="252d1-113">When you create a work order job on a work order, the work order project is determined by the setup of the parent project for work orders in **Asset management** > **Setup** > **Work orders** > **Project setup**.</span></span>
+
+<span data-ttu-id="252d1-114">Проекты заданий заказов на работу создаются с помощью комбинации следующих сведений о заказе на работу:</span><span class="sxs-lookup"><span data-stu-id="252d1-114">Work order job projects are created by using a combination of the following work order information:</span></span>
+
+- <span data-ttu-id="252d1-115">Тип заказа на работу, выбранный в заказе на работу</span><span class="sxs-lookup"><span data-stu-id="252d1-115">The Work order type selected on the work order</span></span> 
+- <span data-ttu-id="252d1-116">Функциональное местоположение, относящееся к активу в задании заказа на работу</span><span class="sxs-lookup"><span data-stu-id="252d1-116">The functional location related to the asset on the work order job</span></span>
+- <span data-ttu-id="252d1-117">Тип актива, относящейся к активу в задании заказа на работу</span><span class="sxs-lookup"><span data-stu-id="252d1-117">The Asset type related to the asset on the work order job</span></span>  
+- <span data-ttu-id="252d1-118">Ожидаемое время начала и окончания, заданное в заказе на работу</span><span class="sxs-lookup"><span data-stu-id="252d1-118">The Expected start and end time set on the work order</span></span>  
+
+<span data-ttu-id="252d1-119">Возможно, что не все упомянутые выше сведения имеются в заказе на работу.</span><span class="sxs-lookup"><span data-stu-id="252d1-119">It is possible that not all of the information mentioned above is found on a work order.</span></span> <span data-ttu-id="252d1-120">Поэтому поиск родительского проекта заказа на работу осуществляется с использованием доступного сочетания данных и выбора кода проекта, соответствующего данным заказа на работу.</span><span class="sxs-lookup"><span data-stu-id="252d1-120">Therefore, the search for a work order parent project is done by using the available combination of data and selecting the project ID that corresponds with work order data.</span></span>
+
+<span data-ttu-id="252d1-121">Пример: на приведенном ниже рисунке настройка типа актива "Двигатель грузовика" означает, что каждое задание заказов на работу, созданное с использованием этого типа актива, будут подпроектом с кодом проекта "000186".</span><span class="sxs-lookup"><span data-stu-id="252d1-121">Example: In the figure below, the setup of asset type "Truck Engine" means that every work order job created with that asset type will be a sub project of Project ID "000186".</span></span>
+
+![Рисунок 1](media/01-integration-to-pma.png)
+
+<span data-ttu-id="252d1-123">Назначение кода проекта в задании заказа на работу и связанного номера мероприятия (**Управление активами** > **Общее** > **Заказы на работу** > **Все заказы на работу** > выберите заказ на работу в списке > экспресс-вкладка **Сведения по строке** > поле **Код проекта** и **Номер мероприятия**) — это отслеживание затрат, связанных с заданием заказа на работу, и актива, выбранного в задании заказа на работу, в модуле **Управление и учет по проектам**.</span><span class="sxs-lookup"><span data-stu-id="252d1-123">The purpose of the project ID on the work order job, and the related activity number (**Asset management** > **Common** > **Work orders** > **All Work orders** > select work order in list > **Line details** FastTab > **Project ID** field and **Activity number** field), is to track costs related to the work order job, and the asset selected on the work order job, in the **Project management and accounting** module.</span></span> 
+
+<span data-ttu-id="252d1-124">На следующем рисунке показан графический обзор проектов заказов на работу и связанных мероприятий по проекту.</span><span class="sxs-lookup"><span data-stu-id="252d1-124">In the figure below, you see a graphic overview of work order projects and related project activities.</span></span>
+
+![Рисунок 2](media/02-integration-to-pma.png)
+
+<span data-ttu-id="252d1-126">При создании нового задания заказа на работу в заказе на работу для задания автоматически создается проект заказа на работу.</span><span class="sxs-lookup"><span data-stu-id="252d1-126">When a new work order job is created on a work order, a work order project is automatically created for the job.</span></span> <span data-ttu-id="252d1-127">Финансовые аналитики для актива, связанного с заданием заказа на работу, автоматически переносятся в проект заказа на работу.</span><span class="sxs-lookup"><span data-stu-id="252d1-127">The financial dimensions for the asset related to the work order job are automatically transferred to the work order project.</span></span> <span data-ttu-id="252d1-128">Мероприятие по проекту, созданное для задания заказа на работу, содержит приложенную связанную информацию относительно типа задания обслуживания, варианта типа задания обслуживания и специальности.</span><span class="sxs-lookup"><span data-stu-id="252d1-128">The project activity created for a work order job has related information attached to it regarding maintenance job type, maintenance job type variant, and trade.</span></span> <span data-ttu-id="252d1-129">Эти данные полезны, если, например, вы создаете заказ на покупку из заказа на работу (см. раздел [Закупки](../work-orders/procurement.md)) или используете модуль **Управление и учет по проектам** для регистрации времени.</span><span class="sxs-lookup"><span data-stu-id="252d1-129">Those data are useful if, for example, you create a purchase order from a work order (see [Procurement](../work-orders/procurement.md)), or if you use the **Project management and accounting** module for time registration.</span></span>  
+
+<span data-ttu-id="252d1-130">Если актив был установлен в функциональном местоположении, и этот актив позже устанавливается в другом функциональном местоположении, финансовые аналитики, соответствующие новому функциональному местоположению, автоматически обновляются для актива.</span><span class="sxs-lookup"><span data-stu-id="252d1-130">If the asset was installed on a functional location, and that asset is later installed on another functional location, the financial dimensions related to the new functional location is automatically updated on the asset.</span></span> <span data-ttu-id="252d1-131">Впоследствии, при создании задания заказа на работу для актива, проект заказа на работу для этого задания заказа на работу автоматически получает финансовые аналитики, которые теперь связаны с активом.</span><span class="sxs-lookup"><span data-stu-id="252d1-131">Subsequently, when you create a work order job for the asset, the work order project for the work order job automatically gets the financial dimensions that are now related to the asset.</span></span> <span data-ttu-id="252d1-132">Это означает, что при использовании функциональных местоположений затраты всегда могут отслеживаться в функциональных местоположениях, в которых актив был установлен в любой конкретный момент времени.</span><span class="sxs-lookup"><span data-stu-id="252d1-132">This means that when you use functional locations, costs can always be tracked on the functional locations on which an asset was installed at any given time.</span></span> <span data-ttu-id="252d1-133">Автоматическое обновление финансовых аналитик обеспечивает полную трассировку затрат для контроля и отчетности по проекту.</span><span class="sxs-lookup"><span data-stu-id="252d1-133">The automatic update of financial dimensions ensures complete traceability of costs for project controlling and reporting.</span></span>  
+
+
+## <a name="work-order-projects-work-order-lifecycle-states-project-stages-and-project-types"></a><span data-ttu-id="252d1-134">Проекты заказов на работу, состояния жизненного цикла заказов на работу, этапы проектов и типы проектов</span><span class="sxs-lookup"><span data-stu-id="252d1-134">Work order projects, work order lifecycle states, project stages, and project types</span></span>
+
+<span data-ttu-id="252d1-135">Чтобы обеспечить правильное использование состояний жизненного цикла заказов на работу и соответствующих этапов проекта в заказах на работу, следует учесть зависимости в отношении модуля **Управление и учет по проектам**:</span><span class="sxs-lookup"><span data-stu-id="252d1-135">To ensure correct use of work order lifecycle states and related project stages on work orders, consider the dependencies in relation to the **Project management and accounting** module:</span></span>
+
+- <span data-ttu-id="252d1-136">В модуле **Управление и учет по проектам** этапы проекта настраиваются для типов проектов в пункте **Параметры модуля "Управление и учет по проектам"**.</span><span class="sxs-lookup"><span data-stu-id="252d1-136">In the **Project management and accounting** module, project stages are set up on project types in **Project management and accounting parameters**.</span></span>  
+- <span data-ttu-id="252d1-137">В пункте **Параметры модуля "Управление и учет по проектам"** не забывайте выбирать соответствующие флажки этапов проекта для всех типов проектов, которые предполагается использовать.</span><span class="sxs-lookup"><span data-stu-id="252d1-137">In **Project management and accounting parameters**, remember to select relevant project stage check boxes for all the project types you are going to use.</span></span> <span data-ttu-id="252d1-138">На приведенном ниже рисунке пять этапов **Создано** - **Оценено** - **Запланировано** - **В работе** - **Завершено** были выбраны для типов проектов "Время и расходы" и "Внутренний".</span><span class="sxs-lookup"><span data-stu-id="252d1-138">In the figure below, five stages **Created** - **Estimated** - **Scheduled** - **In process** - **Finished** have been selected for the project types "Time and material" and "Internal".</span></span> <span data-ttu-id="252d1-139">Эти пять этапов относятся как к заданиям внутреннего обслуживания, так и к заданиям сервисного обслуживания.</span><span class="sxs-lookup"><span data-stu-id="252d1-139">Those five stages are relevant for both internal maintenance and service maintenance jobs.</span></span>  
+- <span data-ttu-id="252d1-140">В модуле **Управление активами** типы проектов определяются группами проектов, настроенными в форме **Настройка проекта для заказа на работу** > ссылка **Группа проектов**.</span><span class="sxs-lookup"><span data-stu-id="252d1-140">In **Asset Management**, project types are defined by the project groups you set up in the **Work order project setup** form > **Project group** link.</span></span>  
+- <span data-ttu-id="252d1-141">Настройка групп проектов в пункте **Настройка заказа на работу по проекту** используется при создании заказов на работу.</span><span class="sxs-lookup"><span data-stu-id="252d1-141">The project groups setup in **Work order project setup** are used when you create work orders.</span></span> <span data-ttu-id="252d1-142">При создании заказа на работу автоматически создается проект заказа на работу для заказа на работу.</span><span class="sxs-lookup"><span data-stu-id="252d1-142">When a work order is created, a work order project is automatically created for the work order.</span></span>  
+- <span data-ttu-id="252d1-143">Каждое состояние жизненного цикла заказов на работу должно иметь связанный этап проекта.</span><span class="sxs-lookup"><span data-stu-id="252d1-143">Work order lifecycle states must each have a related project stage.</span></span>  
+- <span data-ttu-id="252d1-144">Этап проекта, связанный с состоянием жизненного цикла заказа на работу, должен быть определен как активный этап для группы проектов, определенной в проекте заказа на работу.</span><span class="sxs-lookup"><span data-stu-id="252d1-144">The project stage related to a work order lifecycle state must be defined as an active stage for the project group defined in the work order project.</span></span> <span data-ttu-id="252d1-145">Проект заказа на работу создается автоматически в заказе на работу.</span><span class="sxs-lookup"><span data-stu-id="252d1-145">The work order project is automatically created on a work order.</span></span>  
+- <span data-ttu-id="252d1-146">При создании нового заказа на работу автоматическое выделение проекта заказа на работу основано на настройке в пункте **Настройка заказа на работу по проекту** (**Управление активами** > **Настройка** > **Заказы на работу** > **Настройка проекта**).</span><span class="sxs-lookup"><span data-stu-id="252d1-146">When you create a new work order, the automatic allocation of a work order project is based on the setup in **Work order project setup** (**Asset management** > **Setup** > **Work orders** > **Project setup**).</span></span>  
+
+<span data-ttu-id="252d1-147">Связи между группами проектов заказов на работу, связанными типами проектов, этапами проекта и состояниями жизненного цикла заказов на работу показаны на приведенных ниже рисунках.</span><span class="sxs-lookup"><span data-stu-id="252d1-147">Associations between work order project groups, related project types, project stages, and work order lifecycle states are shown in the figures below.</span></span>  
+
+![Рисунок 3](media/03-integration-to-pma.png)
+
+![Рисунок 4](media/04-integration-to-pma.png)
+
+![Рисунок 5](media/05-integration-to-pma.png)
+
+<span data-ttu-id="252d1-151">См. раздел [Настройка проекта заказа на работу](../setup-for-work-orders/work-order-project-setup.md) относительно того, как настраивать проекты заказов на работу, и раздел [Состояния жизненного цикла заказов на работу](../setup-for-work-orders/work-order-lifecycle-states.md) относительно того, как создавать состояния жизненного цикла заказов на работу.</span><span class="sxs-lookup"><span data-stu-id="252d1-151">Refer to [Work order project setup](../setup-for-work-orders/work-order-project-setup.md) regarding how to set up work order projects, and to [Work order lifecycle states](../setup-for-work-orders/work-order-lifecycle-states.md) regarding how to create work order lifecycle states.</span></span>
+
+<span data-ttu-id="252d1-152">На следующем рисунке показан графический обзор различных проектов, созданных в модуле **Управление активами** для обеспечения интеграции с модулем **Управление и учет по проектам**, а также рабочих процессов, с которыми связаны проекты.</span><span class="sxs-lookup"><span data-stu-id="252d1-152">The figure below shows a graphic overview of the various projects that are created in the **Asset management** module to allow integration with the **Project management and accounting** module, as well as the work processes to which the projects are related.</span></span>
+
+![Рисунок 6](media/06-integration-to-pma.png)
+

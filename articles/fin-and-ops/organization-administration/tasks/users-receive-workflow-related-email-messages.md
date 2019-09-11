@@ -3,7 +3,7 @@ title: Разрешение пользователям получать сооб
 description: Систему можно настроить для отправки сообщений электронной почты пользователям при возникновении событий, связанных с workflow-процессами.
 author: jasongre
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,27 +16,27 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6800d02878123388611d35760123d0215e9d539f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5e08f95ef6d263ee0f8c0a94b258c8a2795786bc
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560506"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916400"
 ---
-# <a name="enable-users-to-receive-workflow-related-email-messages"></a><span data-ttu-id="c8f6a-103">Разрешение пользователям получать сообщения электронной почты, связанные с workflow-процессом</span><span class="sxs-lookup"><span data-stu-id="c8f6a-103">Enable users to receive workflow-related email messages</span></span>
+# <a name="enable-users-to-receive-workflow-related-email-messages"></a><span data-ttu-id="334df-103">Разрешение пользователям получать сообщения электронной почты, связанные с workflow-процессом</span><span class="sxs-lookup"><span data-stu-id="334df-103">Enable users to receive workflow-related email messages</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="c8f6a-104">Систему можно настроить для отправки сообщений электронной почты пользователям при возникновении событий, связанных с workflow-процессами.</span><span class="sxs-lookup"><span data-stu-id="c8f6a-104">You can configure the system to send email messages to users when workflow-related events occur.</span></span> <span data-ttu-id="c8f6a-105">Например, сообщения электронной почты можно отправлять пользователям, когда им назначаются документы для утверждения.</span><span class="sxs-lookup"><span data-stu-id="c8f6a-105">For example, email messages can be sent to users when documents are assigned to them for approval.</span></span> <span data-ttu-id="c8f6a-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="c8f6a-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="334df-104">Систему можно настроить для отправки сообщений электронной почты пользователям при возникновении событий, связанных с workflow-процессами.</span><span class="sxs-lookup"><span data-stu-id="334df-104">You can configure the system to send email messages to users when workflow-related events occur.</span></span> <span data-ttu-id="334df-105">Например, сообщения электронной почты можно отправлять пользователям, когда им назначаются документы для утверждения.</span><span class="sxs-lookup"><span data-stu-id="334df-105">For example, email messages can be sent to users when documents are assigned to them for approval.</span></span> <span data-ttu-id="334df-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="334df-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="c8f6a-107">Перейдите в раздел "Администрирование системы" > "Пользователи" > "Пользователи".</span><span class="sxs-lookup"><span data-stu-id="c8f6a-107">Go to System administration > Users > Users.</span></span>
-2. <span data-ttu-id="c8f6a-108">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="c8f6a-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="c8f6a-109">Щелкните "Параметры пользователя".</span><span class="sxs-lookup"><span data-stu-id="c8f6a-109">Click User options.</span></span>
-4. <span data-ttu-id="c8f6a-110">Щелкните вкладку "Workflow-процесс".</span><span class="sxs-lookup"><span data-stu-id="c8f6a-110">Click the Workflow tab.</span></span>
-    * <span data-ttu-id="c8f6a-111">Убедитесь, что раздел "Уведомления" развернут.</span><span class="sxs-lookup"><span data-stu-id="c8f6a-111">Make sure that the Notifications section is expanded.</span></span>     <span data-ttu-id="c8f6a-112">В разделе "Уведомления" можно указать способ уведомления пользователя о событиях, связанных с workflow-процессами.</span><span class="sxs-lookup"><span data-stu-id="c8f6a-112">In the Notifications section, you can specify how you want the user to be notified about workflow-related events.</span></span>  
-5. <span data-ttu-id="c8f6a-113">В поле "Тип уведомления workflow-процесса по строке" выберите параметр.</span><span class="sxs-lookup"><span data-stu-id="c8f6a-113">In the Line-item workflow notification type field, select an option.</span></span>
-    * <span data-ttu-id="c8f6a-114">Сгруппированные — уведомления для номенклатур строки сгруппированы в одно сообщение электронной почты.</span><span class="sxs-lookup"><span data-stu-id="c8f6a-114">Grouped – Notifications for line items are grouped into a single email message.</span></span>    <span data-ttu-id="c8f6a-115">Индивидуальные — сообщение электронной почты отправляется для каждой номенклатуры строки.</span><span class="sxs-lookup"><span data-stu-id="c8f6a-115">Individual – An email message is sent for each line item.</span></span>  
-    * <span data-ttu-id="c8f6a-116">Если требуется, чтобы пользователь получал уведомления в клиенте, установите флажок "Отправлять уведомления в электронной почте".</span><span class="sxs-lookup"><span data-stu-id="c8f6a-116">If you want the user to receive notifications in the client, select the Send notifications in email check box.</span></span>  
-6. <span data-ttu-id="c8f6a-117">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="c8f6a-117">Click Save.</span></span>
-7. <span data-ttu-id="c8f6a-118">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="c8f6a-118">Close the page.</span></span>
+1. <span data-ttu-id="334df-107">Перейдите в раздел **Область перехода > Модули > Администрирование системы > Пользователи > Пользователи**.</span><span class="sxs-lookup"><span data-stu-id="334df-107">Go to **Navigation pane > Modules > System administration > Users > Users**.</span></span>
+2. <span data-ttu-id="334df-108">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="334df-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="334df-109">В области **Панель операций** щелкните **Параметры пользователя**.</span><span class="sxs-lookup"><span data-stu-id="334df-109">On the **Action pane**, click **User options**.</span></span>
+4. <span data-ttu-id="334df-110">Перейдите на вкладку **Рабочий процесс**. Убедитесь, что раздел **Уведомления** развернут.</span><span class="sxs-lookup"><span data-stu-id="334df-110">Click the **Workflow** tab. Make sure that the **Notifications** section is expanded.</span></span> <span data-ttu-id="334df-111">В разделе **Уведомления** можно указать способ уведомления пользователя о событиях, связанных с рабочими процессами.</span><span class="sxs-lookup"><span data-stu-id="334df-111">In the **Notifications** section, you can specify how you want the user to be notified about workflow-related events.</span></span>  
+5. <span data-ttu-id="334df-112">В поле **Тип уведомления workflow-процесса по строке** выберите параметр.</span><span class="sxs-lookup"><span data-stu-id="334df-112">In the **Line-item workflow notification type** field, select an option.</span></span>
+    - <span data-ttu-id="334df-113">Сгруппированные — уведомления для номенклатур строки сгруппированы в одно сообщение электронной почты.</span><span class="sxs-lookup"><span data-stu-id="334df-113">Grouped – Notifications for line items are grouped into a single email message.</span></span>
+    - <span data-ttu-id="334df-114">Индивидуальные — сообщение электронной почты отправляется для каждой номенклатуры строки.</span><span class="sxs-lookup"><span data-stu-id="334df-114">Individual – An email message is sent for each line item.</span></span>  
+    - <span data-ttu-id="334df-115">Если требуется, чтобы пользователь получал уведомления в клиенте, установите флажок **Отправлять уведомления в электронной почте**.</span><span class="sxs-lookup"><span data-stu-id="334df-115">If you want the user to receive notifications in the client, select the **Send notifications in email** check box.</span></span>  
+6. <span data-ttu-id="334df-116">Нажмите кнопку **Сохранить**.</span><span class="sxs-lookup"><span data-stu-id="334df-116">Click **Save**.</span></span>
+7. <span data-ttu-id="334df-117">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="334df-117">Close the page.</span></span>
 
