@@ -3,7 +3,7 @@ title: Сочетания клавиш
 description: Следующие сочетания клавиш применяются в системе Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 07/22/2019
+ms.date: 08/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
-ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
+ms.openlocfilehash: 91e3f202d479fd77893da3cc746f3d23587107b1
+ms.sourcegitcommit: 69bd97dcc191a0cabfed91f678bac0ba2aebb1b8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1780066"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "1920659"
 ---
 # <a name="keyboard-shortcuts"></a>Сочетания клавиш
 
@@ -155,8 +155,8 @@ ms.locfileid: "1780066"
 | Чтобы это выполнить                                                                   | Нажмите                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Открыть гиперссылку                                                           | CTRL + ВВОД                    |
-| Ввести дату сеанса в поле даты                                       | D+Tab                         |
-| Ввести в поле даты текущую дату                                       | T+Tab                         |
+| Ввести дату сеанса в поле даты                                       | Д                         |
+| Ввести в поле даты текущую дату                                       | T                         |
 | Открыть поиск, поле со списком, средство выбора даты, раскрывающееся диалоговое окно                         | ALT + СТРЕЛКА ВНИЗ                |
 | Закрыть поиск, поле со списком, средство выбора даты, раскрывающееся диалоговое окно                        | ESC                           |
 | Переместить фокус в поиск (если поиск уже открыт)                   | ALT + СТРЕЛКА ВНИЗ                |

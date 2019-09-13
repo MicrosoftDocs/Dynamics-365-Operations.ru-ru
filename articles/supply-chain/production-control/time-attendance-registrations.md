@@ -1,9 +1,9 @@
 ---
-title: Регистрация посещаемости и времени присутствия
+title: Обзор регистрации посещаемости и времени присутствия
 description: Работники с регистрацией времени могут вводить различные типы регистрации времени, например, приход на работу, уход на работу, регистрация дополнительных мероприятий и регистрация отсутствия. В этом разделе описывается регистрации, их расчет, утверждение и использование workflow-процесса для добавления структуры и автоматизированное утверждение в процессу утверждения табелей.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fac917362fe4aa2be675133528a7108647ecc00
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0e88d64340a7f4963956d1dce3c31f3542cc30f8
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838423"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865247"
 ---
-# <a name="time-and-attendance-registration"></a>Регистрация посещаемости и времени присутствия
+# <a name="time-and-attendance-registration-overview"></a>Обзор регистрации посещаемости и времени присутствия
 
 [!include [banner](../includes/banner.md)]
 

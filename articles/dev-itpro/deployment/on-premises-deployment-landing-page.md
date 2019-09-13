@@ -1,9 +1,9 @@
 ---
-title: Домашняя страница локальных развертываний
+title: Домашняя страница локального развертывания
 description: В этой теме представлены сведения и ссылки на содержимое о локальных развертываниях.
 author: kfend
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 07/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: d74ea4b838d3feca6c1e93d6647c34b1ec6e4146
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 6e83af8a15fae37e198814de753bef2bdcb37801
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1848155"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864278"
 ---
-# <a name="on-premises-deployments-home-page"></a>Домашняя страница локальных развертываний
+# <a name="on-premises-deployment-home-page"></a>Домашняя страница локального развертывания
 
 [!include [banner](../includes/banner.md)]
 

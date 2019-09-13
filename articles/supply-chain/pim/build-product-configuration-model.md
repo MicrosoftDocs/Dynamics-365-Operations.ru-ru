@@ -1,9 +1,9 @@
 ---
-title: Построение модели конфигурации продукта
+title: Обзор конфигурации продукта
 description: Потребность в конфигурировании продуктов в соответствии с особыми требованиями становится скорее правилом, чем исключением, как в B2B-, так и в B2C-отношениях.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564608"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865384"
 ---
-# <a name="build-a-product-configuration-model"></a>Построение модели конфигурации продукта
+# <a name="product-configuration-overview"></a>Обзор конфигурации продукта
 
 [!include [banner](../includes/banner.md)]
 

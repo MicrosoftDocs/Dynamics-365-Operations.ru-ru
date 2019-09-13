@@ -1,9 +1,9 @@
 ---
-title: Настройка модуля "Расчеты с поставщиками"
+title: Обзор настройки модуля "Расчеты с поставщиками"
 description: Эта статья описывает страницы, используемые для настройки основной и дополнительных функций для расчетов с поставщиками в Microsoft Dynamics 365 for Finance and Operations. Она также описывают шаги настройки, которые необходимо выполнить до начала настройки расчетов с поставщиками.
 author: abruer
 manager: AnnBe
-ms.date: 08/08/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8642b27f222ed080539e63b0608a52aefbe64e8
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ce2caf8df871ee8f577b3a1af9d71244a1dc4694
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837478"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864998"
 ---
-# <a name="configure-accounts-payable"></a>Настройка модуля "Расчеты с поставщиками"
+# <a name="configure-accounts-payable-overview"></a>Обзор настройки модуля "Расчеты с поставщиками"
 
 [!include [banner](../includes/banner.md)]
 
