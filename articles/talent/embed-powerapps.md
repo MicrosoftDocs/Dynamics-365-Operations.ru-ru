@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e3b20e1d0a873c32b8f6f5e28f786febf62db355
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518980"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742827"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>Внедрение приложений PowerApps в Core HR
 
@@ -40,7 +40,7 @@ ms.locfileid: "1518980"
 
 Был изменен способ внедрения приложений PowerApps. Теперь приложения PowerApps добавляются с помощью модели персонализации. Можно добавить приложения PowerApps почти на все страницы Microsoft Dynamics 365 for Talent.
 
-Информацию о том, как внедрить приложения PowerApps в Talent, см. раздел [Внедрение приложений PowerApps](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Информацию о том, как внедрить приложения PowerApps в Talent, см. раздел [Внедрение приложений PowerApps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
 Любой клиент PowerApps, который внедрял приложения перед изменением, должен был обновиться до новой модели.
 

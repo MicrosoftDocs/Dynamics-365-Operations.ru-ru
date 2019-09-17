@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.openlocfilehash: be76f29dc9d38cdf3c2d56120a830acae69937a4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3327939137486038b9002029c7c9e8d65dfa2f64
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518900"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742617"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Что нового и что изменилось в Dynamics 365 for Talent Core HR (август 2018 г.)
 
@@ -81,7 +81,7 @@ ms.locfileid: "1518900"
 
 В Core HR теперь можно использовать шаблоны документов. Это позволяет создавать письма и отчеты на основе созданных вами шаблонов Word.
 
-Дополнительные сведения об этой возможности доступны в [учебнике по интеграции с Office](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/talent/toc.json).
+Дополнительные сведения об этой возможности доступны в [учебнике по интеграции с Office](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/talent/toc.json).
 
 
 ## <a name="other-fixes"></a>Другие исправления

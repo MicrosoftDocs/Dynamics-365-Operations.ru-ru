@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d5a2c61fc21578d1db4c1bf0c3dfaf0c7a93298c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518924"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742757"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>Пользователи Azure Active Directory отсутствуют в средстве выбора пользователей
 
@@ -36,9 +36,9 @@ ms.locfileid: "1518924"
 
 Определенные пользователем в настоящее время не поддерживаются в приложениях Attract и Onboard. Убедитесь, что пользователь не является гостевым пользователем Azure AD B2B. Сведения "Тип пользователя" можно найти в колонке Azure Active Directory на портале Azure.
 
-Дополнительные сведения об Azure B2B см. в разделе [Что такое доступ гостевого пользователя в Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b).
+Дополнительные сведения об Azure B2B см. в разделе [Что такое доступ гостевого пользователя в Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).
 
-Для пользователей, не являющихся пользователями B2B, имеются отдельные пользователи, которые могут иметь неполные свойства "Тип пользователя" в объекте **Пользователь**. Это можно проверить и исправить с помощью модуля Azure AD Powershell. Дополнительные сведения см. в разделе [Azure AD](https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0).
+Для пользователей, не являющихся пользователями B2B, имеются отдельные пользователи, которые могут иметь неполные свойства "Тип пользователя" в объекте **Пользователь**. Это можно проверить и исправить с помощью модуля Azure AD Powershell. Дополнительные сведения см. в разделе [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0).
 
 ## <a name="resolution"></a>Приказ
 

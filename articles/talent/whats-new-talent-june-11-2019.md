@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 42b9541b152d2a6daa1dbf95ecf30a2f51eb36f3
-ms.sourcegitcommit: 31a918d357a7182f3870713a9c4455bd5c44cd58
+ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "1634488"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741633"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (11 июня 2019 г.)
 
@@ -76,9 +76,9 @@ ms.locfileid: "1634488"
 
 ### <a name="preview-features-will-be-enabled-only-in-sandbox-environments"></a>Функции предварительной версии будут включены только в средах "Песочница"
 
-Дополнительные сведения о порядке публикации изменений см. в разделе [Подготовка Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Дополнительные сведения о порядке публикации изменений см. в разделе [Подготовка Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
-При подготовке нового экземпляра Talent можно указать, имеет ли данный экземпляр тип "Производство" или "Песочница". Экземпляр типа "Песочница" позволяет заблаговременно тестировать новые возможности. Все существующие экземпляры Talent будут обновлены до типа экземпляра **Производство**. Если необходимо обновить один из существующих экземпляров до типа экземпляра **Песочница**, обратитесь в [службу поддержки](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support), чтобы инициировать запрос на изменение.
+При подготовке нового экземпляра Talent можно указать, имеет ли данный экземпляр тип "Производство" или "Песочница". Экземпляр типа "Песочница" позволяет заблаговременно тестировать новые возможности. Все существующие экземпляры Talent будут обновлены до типа экземпляра **Производство**. Если необходимо обновить один из существующих экземпляров до типа экземпляра **Песочница**, обратитесь в [службу поддержки](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support), чтобы инициировать запрос на изменение.
 
 ### <a name="restrict-the-leave-types-in-time-off-requests"></a>Ограничение типов отпусков в запросах времени отсутствия
 

@@ -1,9 +1,9 @@
 ---
-title: Действия в процессах
-description: В этом разделе приводятся сведения о различных типах действий, которые можно использовать в процессе найма.
+title: Мероприятия в процессах в Microsoft Dynamics 365 for Talent - Attract
+description: В этом разделе приводятся сведения о различных типах действий, которые можно использовать в процессе найма в Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
-ms.date: 04/10/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518968"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739731"
 ---
-# <a name="activities-in-the-hiring-processes"></a>Действия в процессах найма на работу
+# <a name="activities-in-hiring-processes"></a>Мероприятия в процессах найма
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,6 +37,9 @@ ms.locfileid: "1518968"
 ## <a name="prospect-activity"></a>Действие подбора соискателей
 
 Действие подбора соискателей определяет, могут быть добавлены соискатели к должности. По умолчанию соискатели могут быть добавлены к должности. Чтобы отключить действие подбора соискателей, установите для параметра **Включить соискателей** значение **Выкл.**. Когда действие подбора соискателей включено, менеджеры отдела кадров могут добавлять и просматривать новых соискателей, и в должности отображается вкладка **Соискатель**.
+
+> [!NOTE]
+> Чтобы разрешить добавление кандидатов в должность из LinkedIn, необходимо установить для параметра **Включить соискателей** значение **Вкл.**.
 
 ## <a name="application-activity"></a>Действие заявления
 

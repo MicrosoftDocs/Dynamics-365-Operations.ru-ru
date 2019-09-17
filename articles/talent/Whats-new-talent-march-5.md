@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518969"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741898"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (5 марта 2019 г.)
 
@@ -43,10 +43,10 @@ ms.locfileid: "1518969"
 ## <a name="changes-in-onboarding"></a>Изменения в Onboarding
 
 ### <a name="private-preview-for-onboard-teams"></a>Закрытая предварительная версия для рабочих групп Onboard
-Теперь можно легко совместно использовать шаблоны и совместно работать над ними во всей организации. Дополнительные сведения см. в разделе [Совместного использования передового опыта в вашей организации с помощью рабочих групп Onboard](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
+Теперь можно легко совместно использовать шаблоны и совместно работать над ними во всей организации. Дополнительные сведения см. в разделе [Совместного использования передового опыта в вашей организации с помощью рабочих групп Onboard](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
 
 ### <a name="private-preview-for-assignee-placeholders"></a>Закрытая предварительная версия местозаполнителей уполномоченного
-Шаблоны можно расширить путем назначения действий ролям, а не отдельным лицам. Затем роли назначаются отдельным пользователям во время создания руководства. Дополнительные сведения см. в разделе [Упрощение администрирования руководств путем назначения действий ролям](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
+Шаблоны можно расширить путем назначения действий ролям, а не отдельным лицам. Затем роли назначаются отдельным пользователям во время создания руководства. Дополнительные сведения см. в разделе [Упрощение администрирования руководств путем назначения действий ролям](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
 
 ## <a name="changes-in-core-hr"></a>Изменения в Core HR
 **Сборка 8.1.2178**
@@ -71,7 +71,7 @@ ms.locfileid: "1518969"
 Другие исправления незначительных ошибок включены в этот выпуск.
 
 ### <a name="upgrade-to-common-data-service"></a>Обновление до Common Data Service
-Крайние сроки для обновления до Common Data Service быстро приближаются. Войдите в центр администрирования PowerApps для определения, необходимо ли обновить вашу базу данных. Дополнительные сведения о крайних сроках и необходимых действиях по обновлению см. в разделе [Обновление до Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Крайние сроки для обновления до Common Data Service быстро приближаются. Войдите в центр администрирования PowerApps для определения, необходимо ли обновить вашу базу данных. Дополнительные сведения о крайних сроках и необходимых действиях по обновлению см. в разделе [Обновление до Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Скоро
 
@@ -79,4 +79,4 @@ ms.locfileid: "1518969"
 Во многих организациях менеджеры компенсаций и льгот имеют доступ только к определенным записям компенсаций, например записям для руководителей или региональных сотрудников. С эим изменением вы можете управлять и обслуживать планы компенсации для различных совокупностей сотрудников в организации. Фиксированные и переменные планам могут назначаться ролям безопасности, которые будут определять доступ к этим планам и данным о сотрудниках, относящихся к планам, таким как записи сведений о зарплате и премиях. Только роли, которым предоставлен доступ, смогут обрабатывать компенсации для таких сотрудников.
 
 ###  <a name="platform-update-24"></a>Обновление платформы update 24
-Дополнительные сведения об обновлении платформы 24 см. в разделе [Что нового и что изменилось в Finance and Operations с обновлением платформы 24 (март 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Дополнительные сведения об обновлении платформы 24 см. в разделе [Что нового и что изменилось в Finance and Operations с обновлением платформы 24 (март 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

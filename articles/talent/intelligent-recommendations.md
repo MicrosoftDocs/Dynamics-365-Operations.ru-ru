@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620628"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741760"
 ---
 # <a name="intelligent-recommendations"></a>Интеллектуальные рекомендации
 
@@ -32,7 +32,7 @@ ms.locfileid: "1620628"
 Машинное обучение может помочь специалистам по найму и специалистам по комплектации штата быстро находить лучших кандидатов на должность. Оно также может помочь соискателям найти оптимальную должность для своего профиля и интересов. По мере использования этой функции и получения отзывов рекомендации будут улучшаться.
 
 > [!NOTE] 
-> - Функции интеллектуальных рекомендаций доступны только с [надстройкой Comprehensive Hiring](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Функции интеллектуальных рекомендаций доступны только с [надстройкой Comprehensive Hiring](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 > - Функциональность, описанная в этой теме, доступна в рамках предварительного выпуска. Содержимое и функциональность могут быть изменены. Для использования этой функции попросите администратора включить ее с помощью пункта **Центр администрирования** в Attract. Задайте для параметров **Рекомендация кандидата**, **Рекомендация вакансии** и **Рекомендация по соискателям** значение **Вкл.**. Дополнительные сведения см. в разделе [Доступ к предварительным версиям функций в Talent](./access-preview-feature.md). 
 
 

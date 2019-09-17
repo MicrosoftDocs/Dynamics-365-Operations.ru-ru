@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 80d62492d58a436c15fac82df0d000ab9efa6ea5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518978"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742594"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Что нового и что изменилось в Dynamics 365 for Talent Core HR (6 декабря 2018 г.)
 
@@ -62,7 +62,7 @@ ms.locfileid: "1518978"
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>Настройка интеграции зарплаты в Великобритании между Talent и Dayforce
 
-Интеграция между Microsoft Dynamics 365 for Talent и Ceridian Dayforce доступна в режиме предварительного просмотра для Великобритании. Дополнительные сведения см. в следующем разделе: [Настройка интеграции зарплаты между Talent и Dayforce](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/configure-payroll-integration).
+Интеграция между Microsoft Dynamics 365 for Talent и Ceridian Dayforce доступна в режиме предварительного просмотра для Великобритании. Дополнительные сведения см. в следующем разделе: [Настройка интеграции зарплаты между Talent и Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
 
 ## <a name="coming-soon"></a>Скоро
 

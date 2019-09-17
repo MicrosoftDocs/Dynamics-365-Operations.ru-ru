@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38641d6a84340112ce15335533795ed7faf91123
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518957"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742501"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (14 марта 2019 г.)
 
@@ -47,7 +47,7 @@ ms.locfileid: "1518957"
 После этого изменения теперь можно выбрать несколько сотрудников и массово назначить этим сотрудников один или несколько контрольных списков. 
 
 ### <a name="platform-update-24"></a>Обновление платформы update 24
-Дополнительные сведения об обновлении платформы 24 см. в разделе [Что нового и что изменилось в Finance and Operations с обновлением платформы 24 (март 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Значительные изменения в платформе 24 включают: 
+Дополнительные сведения об обновлении платформы 24 см. в разделе [Что нового и что изменилось в Finance and Operations с обновлением платформы 24 (март 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Значительные изменения в платформе 24 включают: 
 
 - Оповещения включены в Talent.
 - Обновленная панель навигации теперь совместима с заголовком Office.

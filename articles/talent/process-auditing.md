@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 803c935493a4080b8c1d0ef92bbe7db601f3ca03
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 448fceccb507bec5b60b686043a303c1997a9ac0
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518930"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742684"
 ---
 # <a name="track-changes-in-recruiting-data"></a>Отслеживание изменений в данных набора сотрудников
 
 С помощью обработки аудита можно отслеживать изменения кандидатов, вакансий или заявлений на должность. Это полезно для отчетов или соображений соответствия.
 
-С помощью соединителя OData можно просмотреть отслеживаемые данные в Power BI. Дополнительные сведения см. в разделе [Подключение к каналу OData в Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-odata).
+С помощью соединителя OData можно просмотреть отслеживаемые данные в Power BI. Дополнительные сведения см. в разделе [Подключение к каналу OData в Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-odata).
 
 ## <a name="track-changes"></a>Отслеживать изменения
 Чтобы настроить отслеживание изменений в данных по набору персонала, выполните следующие действия:

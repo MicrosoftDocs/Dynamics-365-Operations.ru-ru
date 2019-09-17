@@ -1,6 +1,6 @@
 ---
-title: Поиск кандидатов с помощью кадровых пулов
-description: В этом разделе объясняется, как создать и настроить кадровые пулы в Attract.
+title: Поиск кандидатов с помощью кадровых пулов в Microsoft Dynamics 365 for Talent - Attract
+description: В этом разделе объясняется, как создать и настроить кадровые пулы в Microsoft Dynamics 365 for Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
-ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
+ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "1711302"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741875"
 ---
-# <a name="source-candidates-by-using-talent-pools"></a>Поиск кандидатов с помощью кадровых пулов
+# <a name="source-candidates-with-talent-pools"></a>Поиск кандидатов с помощью кадровых пулов
 
 [!include[banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ ms.locfileid: "1711302"
 ## <a name="search-and-view-candidate-profiles"></a>Поиск и просмотр профилей кандидатов
 
 > [!NOTE] 
-> Эта функция в данный момент находится в режиме предварительного просмотра. Если вы хотите попробовать ее, необходимо [включить ее в настройках администратора Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> Эта функция в данный момент находится в режиме предварительного просмотра. Если вы хотите попробовать ее, необходимо [включить ее в настройках администратора Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature). 
 
 Кадровые пулы позволяют просматривать профиль кандидата, сведения из LinkedIn, связанные документы и историю заявлений. Можно выполнить поиск по всей базе данных всех кандидатов, добавленных в любой кадровый пул, включая закрытых и активных кандидатов.
 
@@ -116,7 +116,7 @@ ms.locfileid: "1711302"
 
     Для просмотра документа выберите имя документа в списке документов. Можно просмотреть документы Microsoft Word в заявлении с помощью Microsoft Office 365. Можно также загрузить документы на локальный компьютер с помощью параметра **Загрузить** для каждого документа.
 
-- На вкладке **LinkedIn** отображаются сведения о кандидате из LinkedIn. Для использования этой вкладки нужно подключить свою учетную запись LinkedIn в пользовательских настройках, и необходимо установить подключение средства LinkedIn Recruiter в вашей среде. Дополнительные сведения см. в разделе [Поиск кандидатов с помощью LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+- На вкладке **LinkedIn** отображаются сведения о кандидате из LinkedIn. Для использования этой вкладки нужно подключить свою учетную запись LinkedIn в пользовательских настройках, и необходимо установить подключение средства LinkedIn Recruiter в вашей среде. Дополнительные сведения см. в разделе [Поиск кандидатов с помощью LinkedIn Recruiter](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Только кандидаты могут обновлять свои навыки, историю образования и опыт работы.
