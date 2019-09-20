@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 568a16a17ed3269c7b72f27f0d4b7bbdbd56630e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518959"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741575"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (26 марта 2019 г.)
 
@@ -75,7 +75,7 @@ ms.locfileid: "1518959"
 В этом выпуске появилась возможность удалять записи вакансии с помощью пункта **Открыть в Excel** в Dynamics 365 for Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Обновление до Common Data Service
-Крайние сроки для обновления до Common Data Service быстро приближаются. Войдите в центр администрирования PowerApps для определения, необходимо ли обновить вашу базу данных. Дополнительные сведения о крайних сроках и необходимых действиях по обновлению см. в разделе [Обновление до Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Крайние сроки для обновления до Common Data Service быстро приближаются. Войдите в центр администрирования PowerApps для определения, необходимо ли обновить вашу базу данных. Дополнительные сведения о крайних сроках и необходимых действиях по обновлению см. в разделе [Обновление до Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>В режиме предварительного просмотра
 

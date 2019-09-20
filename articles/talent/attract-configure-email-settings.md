@@ -19,14 +19,15 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 360937b807ea149edb2f16ad6799d74791d599b5
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729799"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739503"
 ---
-# <a name="configure-email-settings-in-microsoft-dynamics-365-for-talent---attract"></a>Настройка параметров электронной почты в Microsoft Dynamics 365 for Talent - Attract
+# <a name="configure-email-settings"></a>Настройка параметров электронной почты
+
 [!include[banner](../includes/banner.md)]
 
 Ваша торговая марка устанавливает доверие и помогает создать отношения с кандидатами еще до того, как они подадут заявление на ваши вакансии. Положительное впечатление от торговой марки привлекает лучшие кадры и увеличивает лояльность существующих сотрудников. Microsoft Dynamics 365 for Talent: Attract позволяет настроить сообщения электронной почты, чтобы они соответствовали торговой марке компании. Таким образом, можно обеспечить согласованное взаимодействие с кандидатами на должности в процессе обработки заявлений.

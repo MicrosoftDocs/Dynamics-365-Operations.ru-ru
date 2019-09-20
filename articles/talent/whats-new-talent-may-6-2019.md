@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4830c5d626e5e10972c81c3445eb54e4b6b00e6c
-ms.sourcegitcommit: 0400bfd66e98af50e64444a1c102575099a9312f
+ms.openlocfilehash: c541bac532e878c8493a60d95c05c9104d4b96e1
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1539413"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741552"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-6-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (6 мая 2019 г.)
 
@@ -47,7 +47,7 @@ ms.locfileid: "1539413"
 
 ### <a name="platform-update-26"></a>Обновление платформы update 26
 
-Дополнительные сведения об обновлении платформы Platform update 26 см. в разделе [Предварительные версии функций в Dynamics 365 for Finance and Operations Platform Update 26 (май 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+Дополнительные сведения об обновлении платформы Platform update 26 см. в разделе [Предварительные версии функций в Dynamics 365 for Finance and Operations Platform Update 26 (май 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Поддержка сущностей Common Data Service для настраиваемых полей
 

@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: ebc82ada31d2803800358cd9aecfe389ada8f0dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2cfa180f992a4f7a9b2e21e0fb3e0845c7546c94
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518962"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742731"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Отслеживание источников для профилей и заявлений кандидатов 
+# <a name="track-candidate-sources"></a>Отслеживание источников кандидатов
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE] 
-> Функциональность, описанная в этой теме, доступна в рамках предварительного выпуска. Содержимое и функциональность могут быть изменены. Для использования этой функции попросите администратора включить ее с помощью пункта **Параметры администрирования** в Attract. В будущих выпусках будут представлены отчеты отслеживания источника. Дополнительные сведения см. в разделе [Доступ к предварительным версиям функций в Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature).
+> Функциональность, описанная в этой теме, доступна в рамках предварительного выпуска. Содержимое и функциональность могут быть изменены. Для использования этой функции попросите администратора включить ее с помощью пункта **Параметры администрирования** в Attract. В будущих выпусках будут представлены отчеты отслеживания источника. Дополнительные сведения см. в разделе [Доступ к предварительным версиям функций в Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 Когда кандидаты подают заявление о приеме на работу, Attract автоматически отслеживает источник их заявлений, предоставляя ценные сведения, чтобы помочь правильно направить ваши усилия по найму. Агенты и менеджеры по найму могут также выбрать источник заявления, вручную добавляя кандидата в должность или кадровый пул.
 
 Источник заявления можно просмотреть в сведениях действий заявлений на вкладке **Действие**, а также в истории заявлений, доступной в разделе **Профиль** в кадровом пуле. Можно найти источник профиля кандидата в сведениях кандидата на вкладке **Профиль** как в заявлениях, так и в кадровых пулах.
 
 > [!NOTE] 
-> Шаблоны процесса можно найти в разделе [Надстройка Comprehensive Hiring](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> Шаблоны процесса можно найти в разделе [Надстройка Comprehensive Hiring](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 
 ## <a name="pre-configured-sources"></a>Заранее настроенные источники
 
@@ -93,7 +93,7 @@ ms.locfileid: "1518962"
 
 ## <a name="customize-the-source-list"></a>Настройка списка источников 
 
-Можно расширить список источников для включения дополнительных источников заявлений. Чтобы настроить этот список, следуйте указаниям в разделе [Расширение наборов параметров в Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). Измените объект **TalentSource**, чтобы включить дополнительные источники. 
+Можно расширить список источников для включения дополнительных источников заявлений. Чтобы настроить этот список, следуйте указаниям в разделе [Расширение наборов параметров в Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). Измените объект **TalentSource**, чтобы включить дополнительные источники. 
 
 Чтобы избежать отрицательного влияния на пользовательский интерфейс (UI), не изменяйте и не удаляйте значения перечисления **TalentCategory** (не имена) для следующего:
 

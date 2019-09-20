@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f27698c257301f52e5c77eaa8a04ca13a0315825
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4e492095d5269ec81c0c22145b7af356937c256b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518903"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742524"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-23-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent Core HR (23 января 2019 г.)
 
@@ -54,4 +54,4 @@ ms.locfileid: "1518903"
 После этого изменения поля **Период надзора** и **Календарь** были добавлены на страницу **Управление изменениями**, чтобы позволить вводить данные для будущих и прошлых сотрудников.
 
 ### <a name="platform-update-23"></a>Обновление платформы update 23
-Исправления мелких ошибок были включены в состав обновления платформы 23. Дополнительные сведения см. в разделе [Что нового и что изменилось в Dynamics 365 for Finance and Operations, обновление платформы 23 (январь 2019 г.)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+Исправления мелких ошибок были включены в состав обновления платформы 23. Дополнительные сведения см. в разделе [Что нового и что изменилось в Dynamics 365 for Finance and Operations, обновление платформы 23 (январь 2019 г.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

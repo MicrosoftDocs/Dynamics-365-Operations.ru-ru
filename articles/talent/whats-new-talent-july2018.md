@@ -1,7 +1,7 @@
 ---
 title: Что нового и что изменилось в Dynamics 365 for Talent Core HR (июль 2018 г.)
 description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent Core HR.
-author: josaw1
+author: andreabichsel
 manager: AnnBe
 ms.date: 07/31/2018
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: 5a26f32dcf10565d988bf177eee0f42e6a4ceae3
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c0867fcf6203c303a700723d8c190378f495dac0
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518899"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856265"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>Что нового и что изменилось в Dynamics 365 for Talent Core HR (июль 2018 г.)
 

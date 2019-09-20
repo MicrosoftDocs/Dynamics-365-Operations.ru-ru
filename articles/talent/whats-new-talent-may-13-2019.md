@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: dac453ee83492655b6681b9784af4712bf39fc2a
-ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
+ms.openlocfilehash: ffeeb3e2f5279a84c4c060b04fe46836b778f6c5
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1591510"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856456"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-13-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (13 мая 2019 г.)
 
@@ -47,7 +47,7 @@ ms.locfileid: "1591510"
 
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Указание типа экземпляра при подготовке Talent
 
-При подготовке нового экземпляра Talent можно указать тип экземпляра **Производство** или **Песочница**, который позволяет производить раннее тестирование новых функций. Все существующие экземпляры Talent будут обновлены до типа экземпляра **Производство**. Если необходимо обновить один из существующих экземпляров до типа экземпляра **Песочница**, обратитесь в [службу поддержки](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support), чтобы инициировать запрос на изменение.
+При подготовке нового экземпляра Talent можно указать тип экземпляра **Производство** или **Песочница**, который позволяет производить раннее тестирование новых функций. Все существующие экземпляры Talent будут обновлены до типа экземпляра **Производство**. Если необходимо обновить один из существующих экземпляров до типа экземпляра **Песочница**, обратитесь в [службу поддержки](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support), чтобы инициировать запрос на изменение.
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Поддержка сущностей Common Data Service для настраиваемых полей
 

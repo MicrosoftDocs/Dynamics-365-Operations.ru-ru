@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617351"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742727"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Вопросы и ответы по интеграции Dynamics 365 for Talent с Dynamics 365 for Finance and Operations
 
@@ -38,7 +38,7 @@ ms.locfileid: "1617351"
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Можно ли создать новое сопоставление без использования шаблонов?
 
-Шаблоны являются отправной точкой. Можно создать собственный шаблон, но всегда требуется шаблон при создании проекта интеграции. Дополнительные сведения об интеграторе данных (DI), шаблонах и проектах см. в разделе [Интеграция данных в Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+Шаблоны являются отправной точкой. Можно создать собственный шаблон, но всегда требуется шаблон при создании проекта интеграции. Дополнительные сведения об интеграторе данных (DI), шаблонах и проектах см. в разделе [Интеграция данных в Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Можно ли сопоставить финансовые аналитики для перемещения между Talent и Finance and Operations?
 
@@ -133,7 +133,7 @@ ms.locfileid: "1617351"
 
 Если данные не отображаются должным образом в Common Data Service, убедитесь, что сущность поддерживается в интеграции. Чтобы включить дополнительные данные в Common Data Service, изменение будет требоваться со стороны корпорации Майкрософт.
 
-Если сущность поддерживается и данные доступны в Common Data Service, проверьте правильность сопоставления в интеграторе данных. Если сопоставление интегратора выглядит правильным, затем проверьте успешность выполнения заданий управления данными. Ошибки могут возникать при выполнении пакетных заданий. Дополнительные сведения об управлении данными см. в разделе [Управление данными](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Если сущность поддерживается и данные доступны в Common Data Service, проверьте правильность сопоставления в интеграторе данных. Если сопоставление интегратора выглядит правильным, затем проверьте успешность выполнения заданий управления данными. Ошибки могут возникать при выполнении пакетных заданий. Дополнительные сведения об управлении данными см. в разделе [Управление данными](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>Адреса моих сотрудников неправильные после импорта в Finance and Operations. Что делать?
 
@@ -145,7 +145,7 @@ ms.locfileid: "1617351"
 
 Убедитесь, что при создании подключений выбраны Dynamics 365 for Finance and Operations (в данный момент предварительная версия) и Common Data Service.
 
-## <a name="when-syncing-employments-i-get-the-errors-companyinfofk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>При синхронизации занятости возникают ошибки «CompanyInfo_FK не существует» или «Значение "31.12.2154 23:59:59" в поле "Дата окончания занятости" не найдено в связанной таблице "Занятость"». Что делать?
+## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>При синхронизации занятости возникают ошибки «CompanyInfo_FK не существует» или «Значение "31.12.2154 23:59:59" в поле "Дата окончания занятости" не найдено в связанной таблице "Занятость"». Что делать?
 
 Убедитесь, что сопоставляются правильные юридические лица. Синхронизация юридических лиц не является частью шаблона по умолчанию, поэтому ожидается, что каждое юридическое лицо, которое присутствует в Talent и Common Data Service, также присутствует в Finance and Operations.
 Кроме того, убедитесь, что выбраны правильные юридические лица для связанного набора соединений.
@@ -160,12 +160,12 @@ ms.locfileid: "1617351"
 
 - Интегратор данных (DI): 
 
-  - [Интеграция данных в Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+  - [Интеграция данных в Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
-  - [Управление ошибками и устранение неполадок интегратора данных](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator-error-management)
+  - [Управление ошибками и устранение неполадок интегратора данных](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Ответ на запросы DSR для созданных системой журналов в PowerApps, Microsoft Flow и Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Ответ на запросы DSR для созданных системой журналов в PowerApps, Microsoft Flow и Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Управление данными:
 
-  - [Управление данными](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Управление данными](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
