@@ -1,2 +1,0 @@
-> [!IMPORTANT]
-> <span data-ttu-id="21b38-101">Функциональность, описанная в этой теме, доступна определенным пользователям в рамках частного предварительного выпуска.</span><span class="sxs-lookup"><span data-stu-id="21b38-101">Functionality noted in this topic is available to targeted users as part of a private preview release.</span></span> <span data-ttu-id="21b38-102">Содержимое и функциональность могут быть изменены.</span><span class="sxs-lookup"><span data-stu-id="21b38-102">The content and the functionality are subject to change.</span></span> 
