@@ -1,2 +1,2 @@
 > [!NOTE]
-> <span data-ttu-id="0ef94-101">Этот раздел относится как к Dynamics 365 for Finance and Operations, так и к Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="0ef94-101">This topic applies to both Dynamics 365 for Finance and Operations and to Dynamics 365 for Retail.</span></span> 
+> <span data-ttu-id="9dff8-101">Этот раздел относится к Finance, Supply Chain Management и Retail.</span><span class="sxs-lookup"><span data-stu-id="9dff8-101">This topic applies to Finance, Supply Chain Management, and Retail.</span></span> 
