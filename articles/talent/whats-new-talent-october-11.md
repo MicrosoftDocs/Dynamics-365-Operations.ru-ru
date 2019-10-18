@@ -1,6 +1,6 @@
 ---
-title: Что нового и что изменилось в Dynamics 365 for Talent Core HR (15 октября 2018 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent Core HR.
+title: Что нового и что изменилось в Dynamics 365 Talent — Core HR (15 октября 2018 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/15/2018
@@ -18,28 +18,28 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a50819d579c0ea42aac3f9a18fbcbf0d2cb9ca26
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 642df0dd413f4ab5a181a18c79f13aa334f9c158
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518955"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010161"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-15-2018"></a><span data-ttu-id="d6bfc-103">Что нового и что изменилось в Dynamics 365 for Talent Core HR (15 октября 2018 г.)</span><span class="sxs-lookup"><span data-stu-id="d6bfc-103">What's new or changed in Dynamics 365 for Talent Core HR (October 15, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-15-2018"></a><span data-ttu-id="27a02-103">Что нового и что изменилось в Dynamics 365 Talent: Core HR (15 октября 2018 г.)</span><span class="sxs-lookup"><span data-stu-id="27a02-103">What's new or changed in Dynamics 365 Talent: Core HR (October 15, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="d6bfc-104">**Сборка 8.1.1056**</span><span class="sxs-lookup"><span data-stu-id="d6bfc-104">**Build 8.1.1056**</span></span>
+<span data-ttu-id="27a02-104">**Сборка 8.1.1056**</span><span class="sxs-lookup"><span data-stu-id="27a02-104">**Build 8.1.1056**</span></span>
 
-<span data-ttu-id="d6bfc-105">В этой теме описываются новые и измененные компоненты Core HR.</span><span class="sxs-lookup"><span data-stu-id="d6bfc-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="27a02-105">В этой теме описываются новые и измененные компоненты Core HR.</span><span class="sxs-lookup"><span data-stu-id="27a02-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
 
-## <a name="changes"></a><span data-ttu-id="d6bfc-106">Изменения</span><span class="sxs-lookup"><span data-stu-id="d6bfc-106">Changes</span></span>
-<span data-ttu-id="d6bfc-107">В дополнение к различным исправлениям, в данном выпуске были сделаны следующие обновления:</span><span class="sxs-lookup"><span data-stu-id="d6bfc-107">In addition to miscellanous fixes, the following updates have been made in this release:</span></span>
-- <span data-ttu-id="d6bfc-108">Последний день работы теперь задается при приеме на работу или при указании конечной даты трудоустройства.</span><span class="sxs-lookup"><span data-stu-id="d6bfc-108">Last Day worked now set when hiring or setting an employment end date.</span></span>
-- <span data-ttu-id="d6bfc-109">Ссылки на соответствие нормативам США удалены для компаний вне США (ACA, ADA и I9).</span><span class="sxs-lookup"><span data-stu-id="d6bfc-109">US compliance references removed when in non US companies (ACA, ADA, and I9).</span></span>
-- <span data-ttu-id="d6bfc-110">Недопустимые даты (1/1/1900) теперь скрыты на страницах аналитики.</span><span class="sxs-lookup"><span data-stu-id="d6bfc-110">Invalid dates (1/1/1900) are now hidden on analytics pages.</span></span>
+## <a name="changes"></a><span data-ttu-id="27a02-106">Изменения</span><span class="sxs-lookup"><span data-stu-id="27a02-106">Changes</span></span>
+<span data-ttu-id="27a02-107">В дополнение к различным исправлениям, в данном выпуске были сделаны следующие обновления:</span><span class="sxs-lookup"><span data-stu-id="27a02-107">In addition to miscellanous fixes, the following updates have been made in this release:</span></span>
+- <span data-ttu-id="27a02-108">Последний день работы теперь задается при приеме на работу или при указании конечной даты трудоустройства.</span><span class="sxs-lookup"><span data-stu-id="27a02-108">Last Day worked now set when hiring or setting an employment end date.</span></span>
+- <span data-ttu-id="27a02-109">Ссылки на соответствие нормативам США удалены для компаний вне США (ACA, ADA и I9).</span><span class="sxs-lookup"><span data-stu-id="27a02-109">US compliance references removed when in non US companies (ACA, ADA, and I9).</span></span>
+- <span data-ttu-id="27a02-110">Недопустимые даты (1/1/1900) теперь скрыты на страницах аналитики.</span><span class="sxs-lookup"><span data-stu-id="27a02-110">Invalid dates (1/1/1900) are now hidden on analytics pages.</span></span>
 
-## <a name="known-issue"></a><span data-ttu-id="d6bfc-111">Известная проблема</span><span class="sxs-lookup"><span data-stu-id="d6bfc-111">Known issue</span></span>
+## <a name="known-issue"></a><span data-ttu-id="27a02-111">Известная проблема</span><span class="sxs-lookup"><span data-stu-id="27a02-111">Known issue</span></span>
 
-<span data-ttu-id="d6bfc-112">**Проблема:** при добавлении нового вложения в работника кнопки **Создать** и **Редактировать** неактивны. **Обход:** перед открытием страницы вложения убедитесь, что информационные панели на странице **Работник** закрыты.</span><span class="sxs-lookup"><span data-stu-id="d6bfc-112">**Issue:** When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out. **Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="d6bfc-113">Если информационные панели закрыты при загрузке страницы **Работник**, кнопки вложений будут активны.</span><span class="sxs-lookup"><span data-stu-id="d6bfc-113">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="d6bfc-114">(Эта проблема будет исправлена в следующем обновлении платформы.)</span><span class="sxs-lookup"><span data-stu-id="d6bfc-114">(This issue will be fixed in the next platform update.)</span></span>
+<span data-ttu-id="27a02-112">**Проблема:** при добавлении нового вложения в работника кнопки **Создать** и **Редактировать** неактивны. **Обход:** перед открытием страницы вложения убедитесь, что информационные панели на странице **Работник** закрыты.</span><span class="sxs-lookup"><span data-stu-id="27a02-112">**Issue:** When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out. **Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="27a02-113">Если информационные панели закрыты при загрузке страницы **Работник**, кнопки вложений будут активны.</span><span class="sxs-lookup"><span data-stu-id="27a02-113">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="27a02-114">(Эта проблема будет исправлена в следующем обновлении платформы.)</span><span class="sxs-lookup"><span data-stu-id="27a02-114">(This issue will be fixed in the next platform update.)</span></span>

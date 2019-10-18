@@ -3,7 +3,7 @@ title: Ведение спланированных заказов
 description: В этой теме содержится информация об управлении спланированными заказами. В ней описывается, как можно обновить статус спланированных заказов, утвердить их и отфильтровать спланированные заказы, которые имеют тот же статус, что и выбранный спланированный заказ.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 10/02/2018
+ms.date: 09/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,37 +19,50 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf578d98abc4825c5607ec031da6ab6737c3183a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5ddf2c7b4c67bec6c29387c78d1fdb021d85d702
+ms.sourcegitcommit: 620e15555d176eec3905b48d5001af1c50107ce6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560380"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "1993448"
 ---
-# <a name="maintain-planned-orders"></a><span data-ttu-id="bdfce-104">Ведение спланированных заказов</span><span class="sxs-lookup"><span data-stu-id="bdfce-104">Maintain planned orders</span></span>
+# <a name="maintain-planned-orders"></a><span data-ttu-id="7569b-104">Ведение спланированных заказов</span><span class="sxs-lookup"><span data-stu-id="7569b-104">Maintain planned orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="bdfce-105">В этой теме содержится информация об управлении спланированными заказами.</span><span class="sxs-lookup"><span data-stu-id="bdfce-105">This topic provides information about how to manage planned orders.</span></span> <span data-ttu-id="bdfce-106">В ней описывается, как можно обновить статус спланированных заказов, утвердить их и отфильтровать спланированные заказы, которые имеют тот же статус, что и выбранный спланированный заказ.</span><span class="sxs-lookup"><span data-stu-id="bdfce-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
+<span data-ttu-id="7569b-105">В этой теме содержится информация об управлении спланированными заказами.</span><span class="sxs-lookup"><span data-stu-id="7569b-105">This topic provides information about how to manage planned orders.</span></span> <span data-ttu-id="7569b-106">В ней описывается, как можно обновить статус спланированных заказов, утвердить их и отфильтровать спланированные заказы, которые имеют тот же статус, что и выбранный спланированный заказ.</span><span class="sxs-lookup"><span data-stu-id="7569b-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
 
-<span data-ttu-id="bdfce-107">Вы можете управлять запланированными заказами в рабочей области **Сводное планирование**, список **Спланированный заказ** или списки **Спланированный производственный заказ**, **Спланированный заказ на покупку** и **Спланированное перемещение**.</span><span class="sxs-lookup"><span data-stu-id="bdfce-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="bdfce-108">Можно использовать поле **Статус**, чтобы отслеживать ход выполнения.</span><span class="sxs-lookup"><span data-stu-id="bdfce-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="bdfce-109">Используются следующие значения:</span><span class="sxs-lookup"><span data-stu-id="bdfce-109">The following values are used:</span></span>
+<span data-ttu-id="7569b-107">Вы можете управлять запланированными заказами в рабочей области **Сводное планирование**, список **Спланированный заказ** или списки **Спланированный производственный заказ**, **Спланированный заказ на покупку** и **Спланированное перемещение**.</span><span class="sxs-lookup"><span data-stu-id="7569b-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> 
 
--   <span data-ttu-id="bdfce-110">Когда система сводного планирования создает спланированные заказы, они имеют статус **Не обработано**.</span><span class="sxs-lookup"><span data-stu-id="bdfce-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
--   <span data-ttu-id="bdfce-111">Если решено не утверждать спланированный заказ, ему можно присвоить статус **Завершено**.</span><span class="sxs-lookup"><span data-stu-id="bdfce-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
--   <span data-ttu-id="bdfce-112">Когда решено не утверждать спланированный заказ, ему можно присвоить статус **Утверждено**.</span><span class="sxs-lookup"><span data-stu-id="bdfce-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="bdfce-113">Этот статус указывает, что утверждение спланированного заказа утверждено, но заказ еще не утвержден.</span><span class="sxs-lookup"><span data-stu-id="bdfce-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
+## <a name="planned-order-status"></a><span data-ttu-id="7569b-108">Статус спланированного заказа</span><span class="sxs-lookup"><span data-stu-id="7569b-108">Planned order status</span></span>
+<span data-ttu-id="7569b-109">Можно использовать поле **Статус**, чтобы отслеживать ход выполнения.</span><span class="sxs-lookup"><span data-stu-id="7569b-109">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="7569b-110">Используются следующие значения:</span><span class="sxs-lookup"><span data-stu-id="7569b-110">The following values are used:</span></span>
 
-<span data-ttu-id="bdfce-114">**Примечание.** Утвержденный спланированный заказ переносится в своем текущем состоянии в следующий расчет сводного планирования.</span><span class="sxs-lookup"><span data-stu-id="bdfce-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="bdfce-115">Спланированные заказы можно утвердить, последовательно, щелкнув **Утверждение**.</span><span class="sxs-lookup"><span data-stu-id="bdfce-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="bdfce-116">Утвердить можно следующие спланированные заказы:</span><span class="sxs-lookup"><span data-stu-id="bdfce-116">You can firm the following planned orders:</span></span>
+-   <span data-ttu-id="7569b-111">Когда система сводного планирования создает спланированные заказы, они имеют статус **Не обработано**.</span><span class="sxs-lookup"><span data-stu-id="7569b-111">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
+-   <span data-ttu-id="7569b-112">Если решено не утверждать спланированный заказ, ему можно присвоить статус **Завершено**.</span><span class="sxs-lookup"><span data-stu-id="7569b-112">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
+-   <span data-ttu-id="7569b-113">Если необходимо утвердить спланированный заказ, можно изменить статус на **Утверждено**.</span><span class="sxs-lookup"><span data-stu-id="7569b-113">If you want to firm a planned order, you can change the status to **Approved**.</span></span> <span data-ttu-id="7569b-114">Спланированные заказы со статусом **Утверждено** учитываются в сводном планировании, поэтому они не изменяются и не удаляются.</span><span class="sxs-lookup"><span data-stu-id="7569b-114">Planned orders with **Approved** status are respected by master planning, so they are not modified or deleted.</span></span> 
 
--   <span data-ttu-id="bdfce-117">Выбранный спланированный заказ.</span><span class="sxs-lookup"><span data-stu-id="bdfce-117">The planned order that is selected.</span></span>
--   <span data-ttu-id="bdfce-118">Несколько спланированных заказов.</span><span class="sxs-lookup"><span data-stu-id="bdfce-118">Multiple planned orders.</span></span>
--   <span data-ttu-id="bdfce-119">Спланированные заказы, которые создаются посредством развертывания на странице **Развертывание**.</span><span class="sxs-lookup"><span data-stu-id="bdfce-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="bdfce-120">Щелкните **Спланированные заказы**, выберите спланированный заказ, а затем щелкните **Утверждение**.</span><span class="sxs-lookup"><span data-stu-id="bdfce-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
+## <a name="firming-planned-orders"></a><span data-ttu-id="7569b-115">Утверждение спланированных заказов</span><span class="sxs-lookup"><span data-stu-id="7569b-115">Firming planned orders</span></span> 
+<span data-ttu-id="7569b-116">При утверждении спланированных заказов создаются реальные заказы.</span><span class="sxs-lookup"><span data-stu-id="7569b-116">By firming planned orders, real orders are created.</span></span> <span data-ttu-id="7569b-117">Они также известны как *выпущенные* или *открытые заказы*.</span><span class="sxs-lookup"><span data-stu-id="7569b-117">These are also know as *released* or *open orders*.</span></span> <span data-ttu-id="7569b-118">Когда спланированный заказ утвержден, он перемещается в раздел заказов соответствующего модуля.</span><span class="sxs-lookup"><span data-stu-id="7569b-118">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span>
 
-<span data-ttu-id="bdfce-121">Когда спланированный заказ утвержден, он перемещается в раздел заказов соответствующего модуля.</span><span class="sxs-lookup"><span data-stu-id="bdfce-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> 
+<span data-ttu-id="7569b-119">Можно выбрать два варианта утверждения на странице **Спланированные заказы**:</span><span class="sxs-lookup"><span data-stu-id="7569b-119">You can select two firming options from the **Planned orders** page:</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="bdfce-122">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="bdfce-122">Additional resources</span></span>
+-   <span data-ttu-id="7569b-120">**Утвердить** — будет утвержден один или несколько выбранных спланированных заказов.</span><span class="sxs-lookup"><span data-stu-id="7569b-120">**Firm** – This will firm one or multiple selected planned orders.</span></span>
+-   <span data-ttu-id="7569b-121">**Утвердить все** — все спланированные заказы будут утверждены в фильтре.</span><span class="sxs-lookup"><span data-stu-id="7569b-121">**Firm all** – This will firm all planned orders in the filter.</span></span> <span data-ttu-id="7569b-122">При использовании варианта **Утвердить все** вам не придется выбирать спланированный заказ, все спланированные заказы в фильтре будут утверждены.</span><span class="sxs-lookup"><span data-stu-id="7569b-122">Using **Firm all** you don’t have to select the planned order, all planned orders within the filter will be firmed.</span></span> <span data-ttu-id="7569b-123">Этот параметр может быть полезен при утверждении большого количества спланированных заказов.</span><span class="sxs-lookup"><span data-stu-id="7569b-123">This option can be useful if you are firming a high number of planned orders.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="7569b-124">Можно отследить утвержденный спланированный из пункта **История утверждений** в форме **Спланированные заказы > Просмотреть > История утверждений**.</span><span class="sxs-lookup"><span data-stu-id="7569b-124">You can track a planned order that was firmed from **Firming history** under **Planned orders form > View > Firming history**.</span></span>
+
+## <a name="parallelize-firming"></a><span data-ttu-id="7569b-125">Использовать параллельное утверждение</span><span class="sxs-lookup"><span data-stu-id="7569b-125">Parallelize firming</span></span>
+<span data-ttu-id="7569b-126">Если планируется утверждение многих заказов одновременно, параллельное выполнение может улучшить время выполнения или производительность.</span><span class="sxs-lookup"><span data-stu-id="7569b-126">If you are planning to firm many orders at the same time, parallelizing the run can improve the run time or performance.</span></span> <span data-ttu-id="7569b-127">Этот параметр доступен при утверждении нескольких спланированных заказов с помощью команды **Утвердить** или **Утвердить все**.</span><span class="sxs-lookup"><span data-stu-id="7569b-127">This option is available when firming multiple planned orders with either **Firm** or **Firm all**.</span></span> <span data-ttu-id="7569b-128">Доступны следующие параметры:</span><span class="sxs-lookup"><span data-stu-id="7569b-128">The following parameters are available:</span></span>
+
+-   <span data-ttu-id="7569b-129">**Параллельное утверждение** — если **Да**, процесс утверждения будет выполняться параллельно с количеством потоков, определенных в параметре **Количество потоков**.</span><span class="sxs-lookup"><span data-stu-id="7569b-129">**Parallelize firming** – If **Yes**, the firming process will be parallelized with the number of threads defined in **Number of threads**.</span></span>
+-   <span data-ttu-id="7569b-130">**Количество потоков** — управляет количеством потоков, используемых для параллельной обработки процесса утверждения.</span><span class="sxs-lookup"><span data-stu-id="7569b-130">**Number of threads** – Controls the number of threads used to parallelize the firming process.</span></span> <span data-ttu-id="7569b-131">Этот параметр отображается только в том случае, если для параметра **Параллельное утверждение** задано значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="7569b-131">The parameter is only shown when **Parallelize firming** is set to **Yes**.</span></span>
+
+
+<a name="additional-resources"></a><span data-ttu-id="7569b-132">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="7569b-132">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="bdfce-123">Сводные планы</span><span class="sxs-lookup"><span data-stu-id="bdfce-123">Master plans</span></span>](master-plans.md)
+[<span data-ttu-id="7569b-133">Сводные планы</span><span class="sxs-lookup"><span data-stu-id="7569b-133">Master plans</span></span>](master-plans.md)
 
 
 

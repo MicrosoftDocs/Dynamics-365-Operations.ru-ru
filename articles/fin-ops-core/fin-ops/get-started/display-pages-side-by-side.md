@@ -1,0 +1,51 @@
+---
+title: Отображение страниц друг рядом с другом с помощью функции "Открыть в новом окне"
+description: В этой статье описан порядок отображения страниц рядом друг с другом.
+author: aneesmsft
+manager: AnnBe
+ms.date: 09/20/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Core, Operations
+ms.custom: 17611
+ms.assetid: fc589d76-3927-4486-ab83-e86b9b47ba2c
+ms.search.region: Global
+ms.author: aneesa
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7144f26c0977fbc420b804728151262b2f166bc0
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2180699"
+---
+# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a><span data-ttu-id="346bc-103">Отображение страниц друг рядом с другом с помощью функции "Открыть в новом окне"</span><span class="sxs-lookup"><span data-stu-id="346bc-103">Show pages side by side by using the Open in new window feature</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="346bc-104">В этой статье описан порядок отображения страниц рядом друг с другом.</span><span class="sxs-lookup"><span data-stu-id="346bc-104">This article explains how to display pages side-by-side.</span></span>
+
+<span data-ttu-id="346bc-105">Может потребоваться просмотреть несколько страниц рядом, чтобы быстро завершить задачу.</span><span class="sxs-lookup"><span data-stu-id="346bc-105">You may want to view multiple pages side-by-side to complete tasks quickly.</span></span> <span data-ttu-id="346bc-106">Например, может потребоваться проверить или ввести строки в несколько журналов.</span><span class="sxs-lookup"><span data-stu-id="346bc-106">As an example, you might want to validate or enter lines in more than one journal.</span></span> <span data-ttu-id="346bc-107">Обычно для этого потребовалось бы переходить между страницей, на которой представлен список журналов, и страницей, на которой представлены строки определенного журнала.</span><span class="sxs-lookup"><span data-stu-id="346bc-107">Typically, to do this you would have to go back and forth between the page that displays a list of journals, and the page that displays lines for a given journal.</span></span> <span data-ttu-id="346bc-108">Однако с помощью функции **Открыть в новом окне** можно отобразить эти страницы рядом, чтобы быстрее выполнить задачи.</span><span class="sxs-lookup"><span data-stu-id="346bc-108">However, the **Open in new window** feature enables you to display these pages side-by-side so that you can perform your tasks quickly.</span></span>
+
+<span data-ttu-id="346bc-109">В указанном выше примере при просмотре строк можно щелкнуть значок **Открыть в новом окне**.</span><span class="sxs-lookup"><span data-stu-id="346bc-109">Continuing with the example mentioned above, when viewing the lines, you can click the **Open in new window** icon.</span></span>
+
+<span data-ttu-id="346bc-110">[![значок открытия в новом окне](./media/open-in-new-window-icon.png)](./media/open-in-new-window-icon.png)</span><span class="sxs-lookup"><span data-stu-id="346bc-110">[![open-in-new-window-icon](./media/open-in-new-window-icon.png)](./media/open-in-new-window-icon.png)</span></span>
+
+<span data-ttu-id="346bc-111">При щелчке значка **Открыть в новом окне** открывается страница строк в новом всплывающем браузере, после чего открывается исходный браузер в истории страницы, на которой отображается список журналов.</span><span class="sxs-lookup"><span data-stu-id="346bc-111">Clicking the **Open in new window** icon opens the lines page in a new, pop-up browser, and then navigates the original browser back in history to the page that displayed the list of journals.</span></span> <span data-ttu-id="346bc-112">После этого можно отобразить обе страницы рядом.</span><span class="sxs-lookup"><span data-stu-id="346bc-112">You can then display both pages side-by-side.</span></span> <span data-ttu-id="346bc-113">По завершении просмотра журнала можно изменить выбранный журнал на страницу списка журнала, чтобы на странице строк во всплывающем окне автоматически отобразились строки нового выбранного журнала.</span><span class="sxs-lookup"><span data-stu-id="346bc-113">When you are done viewing a journal, you can change the selected journal on the journal list page, and the lines page in the pop-up window will automatically display the lines of the newly selected journal.</span></span>
+
+<span data-ttu-id="346bc-114">[![страницы рядом друг с другом](./media/pages-show-side-by-side.png)](./media/pages-show-side-by-side.png)</span><span class="sxs-lookup"><span data-stu-id="346bc-114">[![pages-show-side-by-side](./media/pages-show-side-by-side.png)](./media/pages-show-side-by-side.png)</span></span>
+
+<span data-ttu-id="346bc-115">Динамическая привязка и обновление выполняются на основании отношений, существующих между данными, поддерживающими эти страницы.</span><span class="sxs-lookup"><span data-stu-id="346bc-115">The dynamic linking and refreshing happens due to the relations that exist between the data that is backing these pages.</span></span> <span data-ttu-id="346bc-116">Если система не знает об отношении между данными, то всплывающее окно не обновится автоматически в ответ на изменение в окне-источнике.</span><span class="sxs-lookup"><span data-stu-id="346bc-116">If the system is not aware of the relation between the data, the pop-up window will not refresh automatically in response to a change in the window it originated from.</span></span>
+
+<span data-ttu-id="346bc-117">Некоторые страницы имеют несколько представлений, например "Сетка", "Заголовок" и "Сведения".</span><span class="sxs-lookup"><span data-stu-id="346bc-117">Some pages have multiple views such as the Grid view, Header view, and Details view.</span></span> <span data-ttu-id="346bc-118">При щелчке значка **Открыть в новом окне** открывается вся страница в новом окне браузера.</span><span class="sxs-lookup"><span data-stu-id="346bc-118">The **Open in new window** icon causes the entire page to be opened in the new browser window.</span></span> <span data-ttu-id="346bc-119">Поэтому невозможно открыть два представления одной страницы рядом с помощью функции **Открыть в новом окне**.</span><span class="sxs-lookup"><span data-stu-id="346bc-119">Therefore, you cannot keep two views of the same page side-by-side using the **Open in new window** feature.</span></span> <span data-ttu-id="346bc-120">Однако почти все такие страницы имеют список навигации, который можно использовать для переключения между записями и получения похожей функциональности.</span><span class="sxs-lookup"><span data-stu-id="346bc-120">However, almost all such pages have a navigation list that you can use to switch between records and achieve a similar experience.</span></span>
+
+<span data-ttu-id="346bc-121">Перед использованием функции **Открыть в новом окне** необходимо настроить блокировщик всплывающих окон браузера так, чтобы он разрешал всплывающие окна по URL-адресам сайта.</span><span class="sxs-lookup"><span data-stu-id="346bc-121">Before using the **Open in new window** feature, you should configure your browser's pop-up blocker to allow pop-ups from the URL of the site.</span></span> <span data-ttu-id="346bc-122">Например, можно разрешить всплывающие окна с URL-адреса "\*.dynamics.com".</span><span class="sxs-lookup"><span data-stu-id="346bc-122">As an example, you could allow pop-ups from "\*.dynamics.com".</span></span>
+
+<span data-ttu-id="346bc-123">Функция **Открыть в новом окне** доступна, только если в окне открыто несколько страниц.</span><span class="sxs-lookup"><span data-stu-id="346bc-123">The **Open in new window** feature is only available when there is more than one page open in the window.</span></span> <span data-ttu-id="346bc-124">Кроме того, всплывающее окно закрывается автоматически, если больше нет открытых страниц (то есть, когда закрывается последняя страница в этом окне).</span><span class="sxs-lookup"><span data-stu-id="346bc-124">Also, the pop-up window automatically closes when there are no more pages open (that is, when the last page in that window is closed).</span></span> <span data-ttu-id="346bc-125">Система также закрывает открытые страницы, когда вы переходите в другую область приложения.</span><span class="sxs-lookup"><span data-stu-id="346bc-125">The system also closes open pages when you navigate to a different area in the application.</span></span> <span data-ttu-id="346bc-126">Поэтому, если открыты всплывающие окна и выполняется переход к другой области в приложении, всплывающие окна закрываются автоматически, поскольку страницы в этих окнах были закрыты системой.</span><span class="sxs-lookup"><span data-stu-id="346bc-126">Therefore, if you have pop-up windows open and navigate to a different area in the application, the pop-up windows are automatically closed because the pages in those windows were closed by the system.</span></span>
+
+<span data-ttu-id="346bc-127">На верхней панели во всплывающих окнах отображается доступная только для чтения информация о компании, в которой была открыта страница.</span><span class="sxs-lookup"><span data-stu-id="346bc-127">The top bar in the pop-up windows displays information about the company the page was opened in and is read-only.</span></span> <span data-ttu-id="346bc-128">Всплывающие окна также зависят от основного окна браузера.</span><span class="sxs-lookup"><span data-stu-id="346bc-128">The pop-up windows also rely on the main browser window.</span></span> <span data-ttu-id="346bc-129">Если главное окно зарывается или обновляется, все открытые всплывающие окна становятся доступными только для чтения.</span><span class="sxs-lookup"><span data-stu-id="346bc-129">If the main window is closed or refreshed, all open pop-up windows will become read only.</span></span> <span data-ttu-id="346bc-130">Это означает, что можно по-прежнему просматривать информацию в этих окнах, но невозможно взаимодействовать с ней.</span><span class="sxs-lookup"><span data-stu-id="346bc-130">This means that you can still view the information in these windows, but you will not be able to interact with it.</span></span>

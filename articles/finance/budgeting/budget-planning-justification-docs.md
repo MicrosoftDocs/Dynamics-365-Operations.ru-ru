@@ -1,0 +1,74 @@
+---
+title: Документы обоснования бюджетного плана
+description: Документы обоснования предоставляют описания для этих запросов бюджета, чтобы объяснить причину, по которой необходим конкретный бюджет.
+author: ryansandness
+manager: AnnBe
+ms.date: 01/12/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: BudgetPlanJustificationTemplate
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.custom: 259594
+ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
+ms.search.region: Global
+ms.author: ryansand
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 321da6643b421070ddd9f32bddd3e8d72f0adb86
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2188564"
+---
+# <a name="budget-planning-justification-documents"></a><span data-ttu-id="6a25b-103">Документы обоснования бюджетного плана</span><span class="sxs-lookup"><span data-stu-id="6a25b-103">Budget planning justification documents</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="6a25b-104">Документы обоснования предоставляют описания для этих запросов бюджета, чтобы объяснить причину, по которой необходим конкретный бюджет.</span><span class="sxs-lookup"><span data-stu-id="6a25b-104">Justification documents provide a narrative for those requesting a budget to explain why a specific budget is necessary.</span></span> 
+
+<span data-ttu-id="6a25b-105">Шаблон бюджетного плана создается менеджером бюджета в Microsoft Word и назначается текущему процессу планирования бюджета.</span><span class="sxs-lookup"><span data-stu-id="6a25b-105">A budget plan template is created by the budget manager in Microsoft Word and assigned to the current budget planning process.</span></span> <span data-ttu-id="6a25b-106">Владельцы бюджета могут затем открыть шаблон, и данные будут автоматически заполнены в Word на основе их запроса бюджета.</span><span class="sxs-lookup"><span data-stu-id="6a25b-106">Budget owners can then open the template and have data automatically populated in Word based on their budget request.</span></span> <span data-ttu-id="6a25b-107">Затем они могут добавить дополнительный текст или данные перед сохранением и присоединить свои персональные документы обоснования к бюджетному плану.</span><span class="sxs-lookup"><span data-stu-id="6a25b-107">They can then add additional text or data prior to saving and attaching their personalized justification document to their budget plan.</span></span>
+
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a><span data-ttu-id="6a25b-108">Настройка надстройки Microsoft Dynamics Office Add-in для Microsoft Word</span><span class="sxs-lookup"><span data-stu-id="6a25b-108">Set up Microsoft Dynamics Office Add-in for Microsoft Word</span></span>
+
+1.  <span data-ttu-id="6a25b-109">Откройте новый документ Microsoft Word.</span><span class="sxs-lookup"><span data-stu-id="6a25b-109">Open a new Microsoft Word document.</span></span>
+2.  <span data-ttu-id="6a25b-110">Щелкните **Вставить** на ленте, затем щелкните **Магазин**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-110">Click **Insert** on the ribbon, and click **Store**.</span></span>
+3.  <span data-ttu-id="6a25b-111">Найдите надстройку Microsoft Dynamics Office Add-in и щелкните **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-111">Search for Microsoft Dynamics Office Add-in and click **Add**.</span></span>
+4.  <span data-ttu-id="6a25b-112">В Word в области справа щелкните **Добавить сведения о сервере**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-112">In Word, in the right pane, click **Add server information**.</span></span>
+5.  <span data-ttu-id="6a25b-113">Введите или вставьте URL-адрес сервера и нажмите кнопку **OK**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-113">Type or paste the server URL and click **OK**.</span></span>
+
+##### <a name="define-the-justification-template-in-microsoft-word"></a><span data-ttu-id="6a25b-114">Определение шаблона обоснования в Microsoft Word</span><span class="sxs-lookup"><span data-stu-id="6a25b-114">Define the Justification template in Microsoft Word</span></span>
+
+1.  <span data-ttu-id="6a25b-115">После входа щелкните **Дизайн** в надстройке Microsoft Dynamics Office Add-in.</span><span class="sxs-lookup"><span data-stu-id="6a25b-115">Click **Design** in the Microsoft Dynamics Office Add-in after you’ve logged in.</span></span>
+2.  <span data-ttu-id="6a25b-116">Для сведений заголовка используйте кнопку **Добавить поля**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-116">For header information, use the **Add fields** button.</span></span>
+3.  <span data-ttu-id="6a25b-117">Выберите источник данных объекта BudgetPlanJustification и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-117">Select the entity data source of BudgetPlanJustification, and click **Next**.</span></span> <span data-ttu-id="6a25b-118">**Примечание:** Этот объект является обязательным для любого документа обоснования.</span><span class="sxs-lookup"><span data-stu-id="6a25b-118">**Note:** This entity is required for any justification document.</span></span> <span data-ttu-id="6a25b-119">Другие объекты могут использоваться, но отправка обратно в Microsoft Dynamics 365 Finance не будет выполняться, если этот объект не будет включен.</span><span class="sxs-lookup"><span data-stu-id="6a25b-119">Other entities can be used but the upload back to Microsoft Dynamics 365 Finance will fail if this entity isn’t included.</span></span>
+4.  <span data-ttu-id="6a25b-120">Добавьте метки BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter и DocumentNumber в документ Word.</span><span class="sxs-lookup"><span data-stu-id="6a25b-120">Add the BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter, and DocumentNumber labels and values in the Word document.</span></span> <span data-ttu-id="6a25b-121">**Примечание:** При необходимости вместо стандартных меток можно использовать свои собственные пользовательские метки.</span><span class="sxs-lookup"><span data-stu-id="6a25b-121">**Note:** You can use your own custom labels, rather than the standard labels, if needed.</span></span>
+5.  <span data-ttu-id="6a25b-122">Щелкните **Готово** для завершения раздела заголовка.</span><span class="sxs-lookup"><span data-stu-id="6a25b-122">Click **Done** to complete the header section.</span></span>
+6.  <span data-ttu-id="6a25b-123">Для сведений уровня строки по суммам бюджетного плана щелкните **Добавить таблицу**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-123">For line level detail of budget plan amounts, click **Add table**.</span></span>
+7.  <span data-ttu-id="6a25b-124">Снова выберите источник данных объекта BudgetPlanJustification и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-124">Again, select the entity data source of BudgetPlanJustification, and click **Next**.</span></span>
+8.  <span data-ttu-id="6a25b-125">Добавьте поля для EffectiveDate, ScenarioName, AccountDisplayValue и AccountingCurrencyExpenseAmount.</span><span class="sxs-lookup"><span data-stu-id="6a25b-125">Add fields for EffectiveDate, ScenarioName, AccountDisplayValue, and AccountingCurrencyExpenseAmount.</span></span> <span data-ttu-id="6a25b-126">**Примечание:** Если комментарии могут добавляться в отдельные строки бюджетного плана, их можно добавить в таблицу здесь.</span><span class="sxs-lookup"><span data-stu-id="6a25b-126">**Note:** If comments are available to add within individual budget plan lines, those can be added to the table here.</span></span>
+9.  <span data-ttu-id="6a25b-127">Добавьте любые дополнительные инструкции конечному пользователю и задайте все необходимое форматирование или стили в документе.</span><span class="sxs-lookup"><span data-stu-id="6a25b-127">Add any additional instructions to provide to the end user, and perform any necessary formatting or styling to the document.</span></span>
+10. <span data-ttu-id="6a25b-128">Сохраните документ на локальном компьютере и закройте файл перед продолжением.</span><span class="sxs-lookup"><span data-stu-id="6a25b-128">Save the document to your local computer and close the file before continuing.</span></span>
+
+##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a><span data-ttu-id="6a25b-129">Настройка процесса бюджетного планирования для использования в шаблоне обоснования</span><span class="sxs-lookup"><span data-stu-id="6a25b-129">Set up the Budget planning process to use the Justification template</span></span>
+
+1.  <span data-ttu-id="6a25b-130">Откройте **Бюджетирование** &gt; **Настройка** &gt; **Бюджетное планирование** &gt; **Шаблоны документов обоснования**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-130">Go to **Budgeting** &gt; **Setup** &gt; **Budget planning** &gt; **Justification document templates**.</span></span>
+2.  <span data-ttu-id="6a25b-131">Щелкните **Создать** и перейдите в только что созданный документ Microsoft Word.</span><span class="sxs-lookup"><span data-stu-id="6a25b-131">Click **New** and browse to your newly created Microsoft Word document.</span></span>
+3.  <span data-ttu-id="6a25b-132">Введите отображаемое имя и описание шаблона.</span><span class="sxs-lookup"><span data-stu-id="6a25b-132">Enter a template display name and description.</span></span> <span data-ttu-id="6a25b-133">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-133">Click **OK**.</span></span>
+4.  <span data-ttu-id="6a25b-134">Перейдите в раздел **Бюджетирование** &gt; **Настройка** &gt; **Бюджетное** **планирование** &gt; **Конфигурация бюджетного планирования**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-134">Go to **Budgeting** &gt; **Setup** &gt; **Budget** **planning** &gt; **Budget planning process**.</span></span>
+5.  <span data-ttu-id="6a25b-135">Выберите процесс, в котором следует использовать шаблон обоснования, и нажмите **Изменить**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-135">Select the process where the justification template should be used, and click **Edit**.</span></span>
+6.  <span data-ttu-id="6a25b-136">В поле **Шаблон документа обоснования** выберите соответствующий шаблон и сохраните.</span><span class="sxs-lookup"><span data-stu-id="6a25b-136">In the **Justification document template** field, select the appropriate template and save.</span></span>
+
+##### <a name="edit-and-save-personalized-justification-documents"></a><span data-ttu-id="6a25b-137">Изменение и сохранение персональных документов обоснования</span><span class="sxs-lookup"><span data-stu-id="6a25b-137">Edit and save personalized justification documents</span></span>
+
+1.  <span data-ttu-id="6a25b-138">Создайте новый бюджетный план или откройте существующий бюджетный план.</span><span class="sxs-lookup"><span data-stu-id="6a25b-138">Create a new budget plan or open an existing budget plan.</span></span>
+2.  <span data-ttu-id="6a25b-139">В раскрывающемся меню **Обоснование** выберите **Создать новое обоснование**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-139">In the **Justification** drop-down menu, select **Create new justification**.</span></span>
+3.  <span data-ttu-id="6a25b-140">После заполнения сведений выберите отправку персонализированного документа из раскрывающегося меню **Обоснование**.</span><span class="sxs-lookup"><span data-stu-id="6a25b-140">After filling in the details, select to upload the personalized document from the **Justification** drop-down menu.</span></span>
+
+
+
+

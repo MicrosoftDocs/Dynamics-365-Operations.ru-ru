@@ -1,0 +1,119 @@
+---
+title: Использование конфигураций сопоставления модели для агрегированных расчетов на уровне базы данных
+description: В этой процедуре предоставляются сведения о создании новой конфигурации сопоставления модели электронной отчетности (ER) и использовании встроенных функций ER для эффективного агрегирования расчетов.
+author: NickSelin
+manager: AnnBe
+ms.date: 12/12/2017
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: kfend
+ms.search.scope: Operations
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3084882dd4b51f067793b3a7999ce89cda1257d9
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2184608"
+---
+# <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a><span data-ttu-id="a2f6c-103">Использование конфигураций сопоставления модели для агрегированных расчетов на уровне базы данных</span><span class="sxs-lookup"><span data-stu-id="a2f6c-103">Use model mapping configurations for aggregate calculations at the database level</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="a2f6c-104">В этой процедуре предоставляются сведения о создании новой конфигурации сопоставления модели электронной отчетности (ER) и использовании встроенных функций ER для эффективного агрегирования расчетов.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-104">This procedure provides information about how to design a new Electronic reporting (ER) model mapping configuration and use built-in ER functions for efficient aggregate calculations.</span></span> <span data-ttu-id="a2f6c-105">В этой процедуре вам предстоит создать конфигурацию для компании-образца Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-105">In this procedure you will create a configuration for the sample company, Litware, Inc.</span></span> 
+
+<span data-ttu-id="a2f6c-106">Эта процедура предназначена для пользователей, которым назначена роль "Системный администратор" или "Разработчик электронной отчетности".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-106">This procedure is created for users with the assigned role of System administrator or Electronic reporting developer.</span></span> <span data-ttu-id="a2f6c-107">Эти шаги можно выполнить с использованием любого набора данных.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-107">These steps can be completed using any dataset.</span></span>
+
+ <span data-ttu-id="a2f6c-108">Для выполнения этих шагов сначала необходимо выполнить шаги процедуры "Электронная отчетность повышает эффективность агрегированных расчетов путем их выполнения на уровне базы данных (Часть 1. Подготовка конфигураций)".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-108">To complete these steps, you must first complete the steps in the procedure, “ER improves the efficiency of aggregate calculations by performing them on database level (Part 1: Prepare configurations).”</span></span>
+
+1. <span data-ttu-id="a2f6c-109">Перейдите в раздел "Управление организацией" > "Электронная отчетность" > "Конфигурации".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-109">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="a2f6c-110">В дереве разверните узел "Модель Интрастат".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-110">In the tree, expand 'Intrastat model'.</span></span>
+3. <span data-ttu-id="a2f6c-111">В дереве выберите "Модель Интрастат\Сопоставление образца Интрастат".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-111">In the tree, select 'Intrastat model\Intrastat sample mapping'.</span></span>
+4. <span data-ttu-id="a2f6c-112">Выберите Конструктор.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-112">Click Designer.</span></span>
+5. <span data-ttu-id="a2f6c-113">Выберите Конструктор.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-113">Click Designer.</span></span>
+6. <span data-ttu-id="a2f6c-114">В дереве выберите узел "Dynamics 365 for Operations\Записи таблиц".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-114">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
+7. <span data-ttu-id="a2f6c-115">Щелкните "Добавить корень".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-115">Click Add root.</span></span>
+    * <span data-ttu-id="a2f6c-116">Добавьте новый источник данных, представляющий записи, которые требуется сгруппировать.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-116">Add a new data source representing records you want to group.</span></span>  
+8. <span data-ttu-id="a2f6c-117">В поле "Имя" введите "Проводки".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-117">In the Name field, type 'Transactions'.</span></span>
+    * <span data-ttu-id="a2f6c-118">Транзакции</span><span class="sxs-lookup"><span data-stu-id="a2f6c-118">Transactions</span></span>  
+9. <span data-ttu-id="a2f6c-119">В поле "Таблица" введите "Интрастат".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-119">In the Table field, type 'Intrastat'.</span></span>
+    * <span data-ttu-id="a2f6c-120">Интрастат</span><span class="sxs-lookup"><span data-stu-id="a2f6c-120">Intrastat</span></span>  
+10. <span data-ttu-id="a2f6c-121">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-121">Click OK.</span></span>
+11. <span data-ttu-id="a2f6c-122">В дереве выберите "Функции\Группировка по".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-122">In the tree, select 'Functions\Group by'.</span></span>
+    * <span data-ttu-id="a2f6c-123">Этот тип источника данных используется для ввода нового источника данных во время выполнения для группировки записей и вычисления требуемых агрегирований.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-123">This data source type is used to introduce a new data source at run-time to group records and to calculate required aggregations.</span></span>  
+12. <span data-ttu-id="a2f6c-124">Щелкните "Добавить корень".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-124">Click Add root.</span></span>
+13. <span data-ttu-id="a2f6c-125">В поле "Имя" введите TransactionsGroups.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-125">In the Name field, type 'TransactionsGroups'.</span></span>
+    * <span data-ttu-id="a2f6c-126">TransactionsGroups</span><span class="sxs-lookup"><span data-stu-id="a2f6c-126">TransactionsGroups</span></span>  
+14. <span data-ttu-id="a2f6c-127">Щелкните "Изменить группу по".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-127">Click Edit group by.</span></span>
+15. <span data-ttu-id="a2f6c-128">В дереве выберите "Проводки".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-128">In the tree, select 'Transactions'.</span></span>
+    * <span data-ttu-id="a2f6c-129">Выберите добавленный источник данных типа "Список записей", представляющий записи, которые требуется сгруппировать.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-129">Select the added data source of the ‘Record list’ type that represents the records that you want to group.</span></span>  
+16. <span data-ttu-id="a2f6c-130">Щелкните "Добавить поле в".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-130">Click Add field to.</span></span>
+17. <span data-ttu-id="a2f6c-131">Щелкните "Элементы для группировки".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-131">Click What to group.</span></span>
+18. <span data-ttu-id="a2f6c-132">В дереве разверните узел "Проводки".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-132">In the tree, expand 'Transactions'.</span></span>
+19. <span data-ttu-id="a2f6c-133">В дереве выберите "Проводки\Направление".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-133">In the tree, select 'Transactions\Direction'.</span></span>
+20. <span data-ttu-id="a2f6c-134">Щелкните "Добавить поле в".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-134">Click Add field to.</span></span>
+21. <span data-ttu-id="a2f6c-135">Щелкните "Сгруппированные поля".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-135">Click Grouped fields.</span></span>
+    * <span data-ttu-id="a2f6c-136">Выберите поле, чтобы указать уровень группировки.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-136">Select the field to specify the grouping level.</span></span> <span data-ttu-id="a2f6c-137">На основе этого выбора источник данных будет возвращать во время выполнения столько групп проводок, сколько имеется кодов направлений, которые будут отвечать условиям в таблице Интрастат.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-137">Based on this selection, the data source will return at run-time as many groups of transactions as there are direction codes that will be met in the Intrastat table.</span></span>  
+22. <span data-ttu-id="a2f6c-138">В дереве выберите "Проводки\Сумма накладной(сумма MST)".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-138">In the tree, select 'Transactions\Invoice amount(AmountMST)'.</span></span>
+    * <span data-ttu-id="a2f6c-139">Выберите поле для указания источника расчета агрегирования.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-139">Select the field to specify the source for aggregation calculation.</span></span>  
+23. <span data-ttu-id="a2f6c-140">Щелкните "Добавить поле в".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-140">Click Add field to.</span></span>
+24. <span data-ttu-id="a2f6c-141">Щелкните "Поля агрегирования".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-141">Click Aggregation fields.</span></span>
+25. <span data-ttu-id="a2f6c-142">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-142">In the list, mark the selected row.</span></span>
+26. <span data-ttu-id="a2f6c-143">В поле "Метод" выберите "Сумма".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-143">In the Method field, select 'Sum'.</span></span>
+    * <span data-ttu-id="a2f6c-144">Выберите тип агрегирования.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-144">Select the aggregation type.</span></span>  
+27. <span data-ttu-id="a2f6c-145">В поле "Имя" введите SumOfAmountMST.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-145">In the Name field, type 'SumOfAmountMST'.</span></span>
+    * <span data-ttu-id="a2f6c-146">Укажите имя этого агрегирования в настроенном источнике данных.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-146">Specify the name of this aggregation in the configured data source.</span></span>  
+28. <span data-ttu-id="a2f6c-147">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-147">Click Save.</span></span>
+    * <span data-ttu-id="a2f6c-148">Обратите внимание, что поле "Место выполнения" указывает, что эта группировка будет выполняться во время выполнения в базе данных SQL.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-148">Note that the ‘Execution at’ field indicates that this grouping will be performed at run-time in the SQL database.</span></span>  
+29. <span data-ttu-id="a2f6c-149">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-149">Close the page.</span></span>
+30. <span data-ttu-id="a2f6c-150">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-150">Click OK.</span></span>
+31. <span data-ttu-id="a2f6c-151">В дереве разверните "Итоги".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-151">In the tree, expand 'Totals'.</span></span>
+32. <span data-ttu-id="a2f6c-152">В дереве разверните "Группы проводок".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-152">In the tree, expand 'TransactionsGroups'.</span></span>
+33. <span data-ttu-id="a2f6c-153">В дереве разверните "Группы проводок\агрегировано".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-153">In the tree, expand 'TransactionsGroups\aggregated'.</span></span>
+34. <span data-ttu-id="a2f6c-154">В дереве выберите "Группы проводок\агрегировано\Сумма MST".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-154">In the tree, select 'TransactionsGroups\aggregated\SumOfAmountMST'.</span></span>
+35. <span data-ttu-id="a2f6c-155">В дереве выберите "Итоги\Общая стоимость накладной(общая стоимость накладной) = IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded')".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-155">In the tree, select 'Totals\Total invoice value(TotalInvoiceValue) = IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded')'.</span></span>
+36. <span data-ttu-id="a2f6c-156">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-156">Click Bind.</span></span>
+    * <span data-ttu-id="a2f6c-157">На основании этого параметра этот источник данных будет рассчитывать суммарное значение поля AmountMST для каждой группы проводок.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-157">Based on this setting, this data source will calculate the sum of values of the ‘AmountMST’ field for each groups of transactions.</span></span> <span data-ttu-id="a2f6c-158">Этот расчет агрегирования будет доступен как элемент TransactionsGroups.aggregated.TotalAmount.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-158">This aggregation calculation will be available as TransactionsGroups.aggregated.TotalAmount item.</span></span>  
+37. <span data-ttu-id="a2f6c-159">В дереве разверните "Группы проводок".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-159">In the tree, expand 'TransactionsGroups'.</span></span>
+38. <span data-ttu-id="a2f6c-160">В дереве выберите "Группы проводок".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-160">In the tree, select 'TransactionsGroups'.</span></span>
+39. <span data-ttu-id="a2f6c-161">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-161">Click Edit.</span></span>
+40. <span data-ttu-id="a2f6c-162">Щелкните "Изменить группу по".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-162">Click Edit group by.</span></span>
+41. <span data-ttu-id="a2f6c-163">В дереве разверните узел "Проводки".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-163">In the tree, expand 'Transactions'.</span></span>
+42. <span data-ttu-id="a2f6c-164">В дереве выберите "Проводки\Сумма накладной(сумма MST)".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-164">In the tree, select 'Transactions\Invoice amount(AmountMST)'.</span></span>
+43. <span data-ttu-id="a2f6c-165">Щелкните "Добавить поле в".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-165">Click Add field to.</span></span>
+44. <span data-ttu-id="a2f6c-166">Щелкните "Поля агрегирования".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-166">Click Aggregation fields.</span></span>
+45. <span data-ttu-id="a2f6c-167">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-167">In the list, mark the selected row.</span></span>
+46. <span data-ttu-id="a2f6c-168">В поле "Метод" выберите "Макс.".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-168">In the Method field, select 'Max'.</span></span>
+47. <span data-ttu-id="a2f6c-169">В поле "Имя" введите MaxOfAmountMST.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-169">In the Name field, type 'MaxOfAmountMST'.</span></span>
+48. <span data-ttu-id="a2f6c-170">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-170">Click Save.</span></span>
+    * <span data-ttu-id="a2f6c-171">В настоящее время выполнение источников данных GROUPBY можно перевести на уровень базы данных SQL с некоторыми ограничениями.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-171">Currently, the execution of GROUPBY data sources can be translated to the SQL database level with some limitations.</span></span> <span data-ttu-id="a2f6c-172">Перевод можно выполнять либо для источников данных типа "Список записей", либо источников данных, представленных как выражение с помощью функции FILTER.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-172">Translation can be done for either data sources of the ‘Record list’ type or data sources represented as an expression using the FILTER function.</span></span> <span data-ttu-id="a2f6c-173">Это также можно сделать, только если настроено одно агрегирование для одного поля записей группировки.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-173">It can also be done when the only one aggregation is configured for a single field of the grouping records.</span></span>  
+    * <span data-ttu-id="a2f6c-174">Обратите внимание, что несмотря на то что было настроено несколько агрегирований для поля AmountMST, поле "Место выполнения" по-прежнему указывает, что эта группировка будет выполняться во время выполнения в базе данных SQL.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-174">Note that even though more than one aggregation was configured for the AmountMST field, the ‘Execution at’ field still indicates that this grouping will be performed at run-time in the SQL database.</span></span> <span data-ttu-id="a2f6c-175">Это происходит потому, что только одно агрегирование привязано к элементу модели данных и будет использоваться во время выполнения для извлечения данных из этого источника данных.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-175">This is because only one aggregation is bound to the data model item and will be used at run-time to pull data from this data source.</span></span>  
+49. <span data-ttu-id="a2f6c-176">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-176">Close the page.</span></span>
+50. <span data-ttu-id="a2f6c-177">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-177">Click OK.</span></span>
+51. <span data-ttu-id="a2f6c-178">В дереве разверните "Группы проводок".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-178">In the tree, expand 'TransactionsGroups'.</span></span>
+52. <span data-ttu-id="a2f6c-179">В дереве разверните "Группы проводок\агрегировано".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-179">In the tree, expand 'TransactionsGroups\aggregated'.</span></span>
+53. <span data-ttu-id="a2f6c-180">В дереве выберите "Группы проводок\агрегировано\Макс. сумма MST".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-180">In the tree, select 'TransactionsGroups\aggregated\MaxOfAmountMST'.</span></span>
+54. <span data-ttu-id="a2f6c-181">В дереве выберите "Итоги\Итоговая статистическая стоимость(итоговая статистическая стоимость) = IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$StatisticalValueRounded')".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-181">In the tree, select 'Totals\Total statistical value(TotalStatisticalValue) = IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$StatisticalValueRounded')'.</span></span>
+55. <span data-ttu-id="a2f6c-182">Щелкните "Связать".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-182">Click Bind.</span></span>
+56. <span data-ttu-id="a2f6c-183">В дереве разверните "Группы проводок".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-183">In the tree, expand 'TransactionsGroups'.</span></span>
+57. <span data-ttu-id="a2f6c-184">В дереве выберите "Группы проводок".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-184">In the tree, select 'TransactionsGroups'.</span></span>
+58. <span data-ttu-id="a2f6c-185">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-185">Click Edit.</span></span>
+59. <span data-ttu-id="a2f6c-186">Щелкните "Изменить группу по".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-186">Click Edit group by.</span></span>
+    * <span data-ttu-id="a2f6c-187">Обратите внимание, что поле "Место выполнения" указывает, что эта группировка будет выполняться во время выполнения в памяти, поскольку оба агрегирования одного и того же поля привязаны к элементам модели данных.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-187">Note that the ‘Execution at’ field indicates that this grouping will be performed at run-time in memory because both aggregations of the same field are bound to the data model items.</span></span>   
+60. <span data-ttu-id="a2f6c-188">В списке отметьте все строки или отмените отметку всех строк.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-188">In the list, mark or unmark all rows.</span></span>
+61. <span data-ttu-id="a2f6c-189">Нажмите кнопку Удалить.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-189">Click Delete.</span></span>
+62. <span data-ttu-id="a2f6c-190">Щелкните Да.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-190">Click Yes.</span></span>
+63. <span data-ttu-id="a2f6c-191">Нажмите кнопку Удалить.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-191">Click Delete.</span></span>
+64. <span data-ttu-id="a2f6c-192">Щелкните Да.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-192">Click Yes.</span></span>
+65. <span data-ttu-id="a2f6c-193">Щелкните "Добавить поле в".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-193">Click Add field to.</span></span>
+66. <span data-ttu-id="a2f6c-194">Щелкните "Элементы для группировки".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-194">Click What to group.</span></span>
+67. <span data-ttu-id="a2f6c-195">В дереве разверните "Запись товара(Интрастат)".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-195">In the tree, expand 'Commodity record(Intrastat)'.</span></span>
+68. <span data-ttu-id="a2f6c-196">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-196">Click Save.</span></span>
+    * <span data-ttu-id="a2f6c-197">Обратите внимание, что поле "Место выполнения" указывает, эта группировка будет выполняться во время выполнения в памяти, несмотря на то что не существуют определенные агрегирования и выбранный источник данных типа "Записи таблицы" ссылается на одну и ту же таблицу "Интрастат".</span><span class="sxs-lookup"><span data-stu-id="a2f6c-197">Note that the ‘Execution at’ field indicates that this grouping will be performed at run-time in memory even though there are no aggregations defined and the selected data source of ‘Table records’ type refers to the same ‘Intrastat’ table.</span></span> <span data-ttu-id="a2f6c-198">Это происходит потому, что источник данных содержит некоторые вычисляемые поля, которые еще невозможно перевести на уровень базы данных SQL.</span><span class="sxs-lookup"><span data-stu-id="a2f6c-198">This is because the data source contains some calculated fields which can’t yet be translated to the SQL database level.</span></span>  
+

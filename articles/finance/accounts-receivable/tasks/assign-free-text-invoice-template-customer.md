@@ -1,0 +1,52 @@
+---
+title: Назначение шаблона накладной с произвольным текстом клиенту
+description: В этой задаче показано, как назначить шаблон накладной с произвольным текстом клиенту.
+author: ShivamPandey-msft
+manager: AnnBe
+ms.date: 08/12/2019
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CustTable, CustRecurrenceInvoice
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: shpandey
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d9535a4678ea0c68227a54cf3c5d1b06b116a288
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2179638"
+---
+# <a name="assign-free-text-invoice-template-to-a-customer"></a><span data-ttu-id="0461d-103">Назначение шаблона накладной с произвольным текстом клиенту</span><span class="sxs-lookup"><span data-stu-id="0461d-103">Assign free text invoice template to a customer</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="0461d-104">В этой задаче показано, как назначить шаблон накладной с произвольным текстом клиенту.</span><span class="sxs-lookup"><span data-stu-id="0461d-104">This task demonstrates how to assign a free text invoice template to a customer.</span></span> <span data-ttu-id="0461d-105">В этой задаче используется демонстрационная компания USMF и задача предназначена для пользователя, ответственного за обработку накладных расчетов с клиентами и управление ими.</span><span class="sxs-lookup"><span data-stu-id="0461d-105">This task uses the USMF demo company and is intended for the user who is responsible for managing and processing A/R invoices.</span></span>
+
+1. <span data-ttu-id="0461d-106">В **области перехода** выберите **Модули > Расчеты с клиентами > Клиенты > Все клиенты**.</span><span class="sxs-lookup"><span data-stu-id="0461d-106">In the **Navigation pane**, go to **Modules > Accounts receivable > Customers > All customers**.</span></span>
+2. <span data-ttu-id="0461d-107">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="0461d-107">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="0461d-108">На **панели операций** щелкните **Накладная**.</span><span class="sxs-lookup"><span data-stu-id="0461d-108">On the **Action Pane**, click **Invoice**.</span></span>
+4. <span data-ttu-id="0461d-109">Щелкните **Периодические накладные**.</span><span class="sxs-lookup"><span data-stu-id="0461d-109">Click **Recurring invoices**.</span></span> <span data-ttu-id="0461d-110">Данная страница используется для назначения шаблонов накладной с произвольным текстом клиенту и указания способа отправки накладных клиенту.</span><span class="sxs-lookup"><span data-stu-id="0461d-110">Use this page to assign free text invoice templates to customers and specify how frequently invoices will be sent to the customer.</span></span>  
+5. <span data-ttu-id="0461d-111">Нажмите кнопку **Создать**, чтобы назначить новый шаблон клиенту.</span><span class="sxs-lookup"><span data-stu-id="0461d-111">Click **New** to assign a new template to the customer.</span></span>
+6. <span data-ttu-id="0461d-112">В поле **Шаблон** выберите шаблон накладной с произвольным текстом, который требуется назначить клиенту.</span><span class="sxs-lookup"><span data-stu-id="0461d-112">In the **Template** field, select the free text invoice template you want to assign to the customer.</span></span>
+7. <span data-ttu-id="0461d-113">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="0461d-113">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="0461d-114">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="0461d-114">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="0461d-115">В поле **Дата начала выставления счетов** введите дату, в которую будет сформирована первая накладная.</span><span class="sxs-lookup"><span data-stu-id="0461d-115">In the **Billing start date** field, enter the date when the first invoice will be generated.</span></span>
+10. <span data-ttu-id="0461d-116">В разделе **Окончание повторения** введите дату окончания повторения.</span><span class="sxs-lookup"><span data-stu-id="0461d-116">In the **Recurrence end** section, enter a recurring end date.</span></span>  
+    * <span data-ttu-id="0461d-117">Выберите один из следующих вариантов: "Дата завершения не указана" — накладные будут создаваться бесконечно, пока шаблон не будет удален из счета клиента.</span><span class="sxs-lookup"><span data-stu-id="0461d-117">Select one of the following: No end date – Invoices will be generated indefinitely until the template is removed from the customer account.</span></span>
+    * <span data-ttu-id="0461d-118">"Дата окончания выставления счетов" — выберите этот параметр и введите последнюю дату, когда можно создать накладную.</span><span class="sxs-lookup"><span data-stu-id="0461d-118">Billing end date – Select this option and enter the last date that the invoice can be generated.</span></span>  
+11. <span data-ttu-id="0461d-119">В поле **Максимальная общая сумма** введите максимальную суммарную сумму, после которой создание накладной прекратится.</span><span class="sxs-lookup"><span data-stu-id="0461d-119">In the **Maximum cummulative amount** field, enter the maximum cumulative amount after which invoice generation will stop.</span></span> <span data-ttu-id="0461d-120">Максимальная общая сумма, которую можно достичь с использованием выбранного шаблона.</span><span class="sxs-lookup"><span data-stu-id="0461d-120">Enter the maximum cumulative amount that can be reached using the selected template.</span></span> <span data-ttu-id="0461d-121">Например, если ввести 1000,00 и создать ежемесячные накладные по 100,00 каждая, накладные больше не будут создаваться после создания десяти накладных.</span><span class="sxs-lookup"><span data-stu-id="0461d-121">For example, if you enter 1,000.00 and generate monthly invoices for 100.00 each, invoices will stop generating after the tenth invoice is generated.</span></span>  
+12. <span data-ttu-id="0461d-122">В разделе **Создание периодических накладных с помощью формы значений по умолчанию** выберите накладную с произвольным текстом или счет клиента.</span><span class="sxs-lookup"><span data-stu-id="0461d-122">In the **Generate recurring invoices by using the default values from** section, select either free text invoice template or the customer account.</span></span> <span data-ttu-id="0461d-123">Выберите, использовать ли шаблон накладной с произвольным текстом или счет клиента для определения значений по умолчанию для языка, профиля разноски, налоговой группы, налоговой группы номенклатур, кода списка, страны/региона для поставки, валюты, условий оплаты, способа оплаты, спецификации платежа, графика оплаты, скидки по оплате, финансовых аналитик и квитанции о переводе денег с жиросчета, когда накладные создаются.</span><span class="sxs-lookup"><span data-stu-id="0461d-123">Select whether to use the free text invoice template or the customer account to determine the default values for the language, posting profile, sales tax group, item sales tax group, list code, country/region for delivery, currency, terms of payment, method of payment, payment specification, payment schedule, cash discount, financial dimensions, and giro money transfer slip when invoices are created.</span></span>  
+13. <span data-ttu-id="0461d-124">В поле **Шаблон повторения** выберите шаблон повторения.</span><span class="sxs-lookup"><span data-stu-id="0461d-124">In the **Recurrence pattern** field, select the recurrence pattern.</span></span>
+    + <span data-ttu-id="0461d-125">"Ежедневно" — выберите этот параметр и введите число дней в поле "На".</span><span class="sxs-lookup"><span data-stu-id="0461d-125">Daily – Select this option and enter the number of days in the Per field.</span></span> <span data-ttu-id="0461d-126">Например, если ввести 15, накладная будет произведена каждые 15 дней для этого клиента.</span><span class="sxs-lookup"><span data-stu-id="0461d-126">For example, if you enter 15, an invoice will be generated every 15 days for this customer.</span></span>
+    + <span data-ttu-id="0461d-127">"Еженедельно" — выберите этот параметр и введите число недель в поле "На".</span><span class="sxs-lookup"><span data-stu-id="0461d-127">Weekly - Select this option and enter the number of weeks in the Per field.</span></span> <span data-ttu-id="0461d-128">Например, если ввести 2, накладная будет произведена каждые две недели для этого клиента.</span><span class="sxs-lookup"><span data-stu-id="0461d-128">For example, if you enter 2, an invoice will be generated every two weeks for this customer.</span></span>
+    + <span data-ttu-id="0461d-129">"Ежемесячно" — выберите этот параметр и введите число месяцев в поле "На".</span><span class="sxs-lookup"><span data-stu-id="0461d-129">Monthly - Select this option and enter the number of months in the Per field.</span></span> <span data-ttu-id="0461d-130">Например, если ввести 6, накладная будет произведена каждые шесть месяцев для этого клиента.</span><span class="sxs-lookup"><span data-stu-id="0461d-130">For example, if you enter 6, an invoice will be generated every six months for this customer.</span></span>
+    + <span data-ttu-id="0461d-131">"Ежегодно" — выберите этот параметр и введите число лет в поле "На".</span><span class="sxs-lookup"><span data-stu-id="0461d-131">Yearly – Select this option and enter the number of years in the Per field.</span></span> <span data-ttu-id="0461d-132">Например, если ввести 2, накладная будет произведена каждые две года для этого клиента.</span><span class="sxs-lookup"><span data-stu-id="0461d-132">For example, if you enter 2, an invoice will be generated every two years for this customer.</span></span>  
+14. <span data-ttu-id="0461d-133">В поле **На** введите число.</span><span class="sxs-lookup"><span data-stu-id="0461d-133">In the **Per** field, enter a number.</span></span>
+

@@ -1,6 +1,6 @@
 ---
 title: Оценка эффективности продаж по продукту
-description: Вы можете анализировать рентабельность 10 лучших продуктов с помощью Microsoft Dynamics 365 for Retail.
+description: Вы можете анализировать рентабельность 10 лучших продуктов с помощью Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,28 +19,28 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 059474a780f849d6e1920703c1f717a9adaa2617
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7796aa830c99bd0fd5784ff95e509767a3b55b44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546394"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024968"
 ---
-# <a name="assess-sales-performance-by-product"></a><span data-ttu-id="33431-103">Оценка эффективности продаж по продукту</span><span class="sxs-lookup"><span data-stu-id="33431-103">Assess sales performance by product</span></span>
+# <a name="assess-sales-performance-by-product"></a><span data-ttu-id="acac2-103">Оценка эффективности продаж по продукту</span><span class="sxs-lookup"><span data-stu-id="acac2-103">Assess sales performance by product</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="33431-104">Вы можете анализировать рентабельность 10 лучших продуктов с помощью Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="33431-104">You can study profitability for the top 10 products using Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="acac2-104">Вы можете анализировать рентабельность 10 лучших продуктов с помощью Dynamics 365 Retail.</span><span class="sxs-lookup"><span data-stu-id="acac2-104">You can study profitability for the top 10 products using Dynamics 365 Retail.</span></span>
 
-<span data-ttu-id="33431-105">В рамках использования Dynamics 365 for Retail пользователи также могут анализировать прибыльность ключевых продуктов (от 10 до 100) на разных уровнях иерархии организации с учетом одного из следующих критериев:</span><span class="sxs-lookup"><span data-stu-id="33431-105">As part of Dynamics 365 for Retail, users can also study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
+<span data-ttu-id="acac2-105">В рамках использования Retail пользователи также могут анализировать прибыльность ключевых продуктов (от 10 до 100) на разных уровнях иерархии организации с учетом одного из следующих критериев:</span><span class="sxs-lookup"><span data-stu-id="acac2-105">As part of Retail, users can also study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
-- <span data-ttu-id="33431-106">Сумма продаж</span><span class="sxs-lookup"><span data-stu-id="33431-106">Sales amount</span></span>
-- <span data-ttu-id="33431-107">Количество</span><span class="sxs-lookup"><span data-stu-id="33431-107">Quantity</span></span>
-- <span data-ttu-id="33431-108">Маржа для валовой прибыли</span><span class="sxs-lookup"><span data-stu-id="33431-108">Gross profit margin</span></span>
-- <span data-ttu-id="33431-109">Процент маржи</span><span class="sxs-lookup"><span data-stu-id="33431-109">Margin percentage</span></span>
+- <span data-ttu-id="acac2-106">Сумма продаж</span><span class="sxs-lookup"><span data-stu-id="acac2-106">Sales amount</span></span>
+- <span data-ttu-id="acac2-107">Количество</span><span class="sxs-lookup"><span data-stu-id="acac2-107">Quantity</span></span>
+- <span data-ttu-id="acac2-108">Маржа для валовой прибыли</span><span class="sxs-lookup"><span data-stu-id="acac2-108">Gross profit margin</span></span>
+- <span data-ttu-id="acac2-109">Процент маржи</span><span class="sxs-lookup"><span data-stu-id="acac2-109">Margin percentage</span></span>
 
-<span data-ttu-id="33431-110">Для этой оценки можно использовать готовый отчет **Ведущие продукты**, который можно открыть в любом из следующих расположений.</span><span class="sxs-lookup"><span data-stu-id="33431-110">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
+<span data-ttu-id="acac2-110">Для этой оценки можно использовать готовый отчет **Ведущие продукты**, который можно открыть в любом из следующих расположений.</span><span class="sxs-lookup"><span data-stu-id="acac2-110">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
 
-- <span data-ttu-id="33431-111">Рабочая область **Руководство розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Самые популярные продукты"**</span><span class="sxs-lookup"><span data-stu-id="33431-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
-- <span data-ttu-id="33431-112">Рабочая область **Управление категориями и продуктами** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Ведущие продукты"**</span><span class="sxs-lookup"><span data-stu-id="33431-112">**Category and product management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
-- <span data-ttu-id="33431-113">Раздел **Запросы и отчеты** &gt; **Розничная торговля** &gt; **Запросы и отчеты** &gt; **Отчеты о продажах** &gt; **Отчет "Самые популярные продукты"**</span><span class="sxs-lookup"><span data-stu-id="33431-113">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>
+- <span data-ttu-id="acac2-111">Рабочая область **Руководство розничного магазина** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Самые популярные продукты"**</span><span class="sxs-lookup"><span data-stu-id="acac2-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+- <span data-ttu-id="acac2-112">Рабочая область **Управление категориями и продуктами** &gt; **Розничная торговля** &gt; **Каналы** &gt; **Управление розничными магазинами** &gt; **Отчеты** &gt; **Отчет "Ведущие продукты"**</span><span class="sxs-lookup"><span data-stu-id="acac2-112">**Category and product management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+- <span data-ttu-id="acac2-113">Раздел **Запросы и отчеты** &gt; **Розничная торговля** &gt; **Запросы и отчеты** &gt; **Отчеты о продажах** &gt; **Отчет "Самые популярные продукты"**</span><span class="sxs-lookup"><span data-stu-id="acac2-113">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>

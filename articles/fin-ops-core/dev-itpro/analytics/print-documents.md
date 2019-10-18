@@ -1,0 +1,77 @@
+---
+title: Обзор печати документов
+description: Можно печатать документы с помощью локального принтера или устройства, подключенного к сети. В этой статье представлен обзор того, как печатаются документы.
+author: TJVass
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+audience: IT Pro, Application User
+ms.reviewer: kfend
+ms.search.scope: Operations, Core
+ms.custom: 69161
+ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.search.region: Global
+ms.author: tjvass
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8c8475e26d9a2234d4c429ef1b5e482ac06fde08
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2182907"
+---
+# <a name="document-printing-overview"></a><span data-ttu-id="96a90-104">Обзор печати документов</span><span class="sxs-lookup"><span data-stu-id="96a90-104">Document printing overview</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="96a90-105">Можно печатать документы с помощью локального принтера или устройства, подключенного к сети.</span><span class="sxs-lookup"><span data-stu-id="96a90-105">You can print documents by using either a local printer or a network-connected device.</span></span> <span data-ttu-id="96a90-106">В этой статье представлен обзор того, как печатаются документы.</span><span class="sxs-lookup"><span data-stu-id="96a90-106">This article provides an overview of how documents are printed.</span></span>
+
+## <a name="printing-overview"></a><span data-ttu-id="96a90-107">Общие сведения о печати</span><span class="sxs-lookup"><span data-stu-id="96a90-107">Printing overview</span></span>
+
+<span data-ttu-id="96a90-108">Приложение предоставляет интегрированные службы и клиентские приложения, которые позволяют легко создавать, сохранять и распространять документы, которые поддерживают деловую деятельность.</span><span class="sxs-lookup"><span data-stu-id="96a90-108">The application provides integrated services and client applications that make it easy to generate, store, and distribute documents that support business activity.</span></span> <span data-ttu-id="96a90-109">Можно печатать документы с помощью локального принтера или устройства, подключенного к сети.</span><span class="sxs-lookup"><span data-stu-id="96a90-109">You can print documents by using either a local printer or a network-connected device.</span></span> <span data-ttu-id="96a90-110">Кроме того, можно экспортировать страницы и отчеты непосредственно из клиента в виде PDF-файлов или документов Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="96a90-110">In addition, you can export pages and reports directly from the client, as PDF files or Microsoft Office documents.</span></span> <span data-ttu-id="96a90-111">Наконец, распределенная рабочая нагрузка позволяет печатать бизнес-документы непосредственно с мобильных устройств с использованием сетевых ресурсов.</span><span class="sxs-lookup"><span data-stu-id="96a90-111">Finally, the distributed workload lets you print business documents directly from a mobile device by using network resources.</span></span> <span data-ttu-id="96a90-112">Несмотря на то, что требования печати могут быть различными, во всех отраслях обычно необходимо создавать бумажные копии деловых документов, используя приложение.</span><span class="sxs-lookup"><span data-stu-id="96a90-112">Although printing requirements might vary, all industries typically must create hard copies of business documents by using the application.</span></span> <span data-ttu-id="96a90-113">Печать документов на сетевых устройствах из размещенных приложений представляет уникальный набор задач.</span><span class="sxs-lookup"><span data-stu-id="96a90-113">Printing documents on network devices from hosted applications presents a unique set of challenges.</span></span> <span data-ttu-id="96a90-114">Далее приводятся некоторые примеры.</span><span class="sxs-lookup"><span data-stu-id="96a90-114">Here are some examples:</span></span>
+
+- <span data-ttu-id="96a90-115">Драйверы печати могут быть недоступны на устройстве пользователя.</span><span class="sxs-lookup"><span data-stu-id="96a90-115">Print drivers might not be available on the user's device.</span></span>
+- <span data-ttu-id="96a90-116">Устройство пользователя может быть не подключено к сети организации.</span><span class="sxs-lookup"><span data-stu-id="96a90-116">The user's device might not be connected to the corporate network.</span></span>
+
+<span data-ttu-id="96a90-117">Используя выделенный хост и выполнив несколько простых шагов, системные администраторы могут настроить развертывания таким образом, что пользователи смогут выполнять печать непосредственно из бизнес-приложений на сетевых устройствах.</span><span class="sxs-lookup"><span data-stu-id="96a90-117">By using a dedicated host and following a few easy steps, system administrators can configure deployments so that users can print directly from business applications on network devices.</span></span>
+
+### <a name="application-printing-scenarios"></a><span data-ttu-id="96a90-118">Сценарии печати из приложений</span><span class="sxs-lookup"><span data-stu-id="96a90-118">Application printing scenarios</span></span> 
+
+<span data-ttu-id="96a90-119">В следующей таблице описаны три основных сценария печати.</span><span class="sxs-lookup"><span data-stu-id="96a90-119">The following table describes the three primary printing scenarios.</span></span>
+
+| <span data-ttu-id="96a90-120">Сценарий</span><span class="sxs-lookup"><span data-stu-id="96a90-120">Scenario</span></span>                        | <span data-ttu-id="96a90-121">Цель</span><span class="sxs-lookup"><span data-stu-id="96a90-121">Goal</span></span>                                                      | <span data-ttu-id="96a90-122">Решение</span><span class="sxs-lookup"><span data-stu-id="96a90-122">Solution</span></span> |
+|---------------------------------|-----------------------------------------------------------|----------|
+| <span data-ttu-id="96a90-123">1. Печать того, что вы видите</span><span class="sxs-lookup"><span data-stu-id="96a90-123">1. Printing what you see</span></span>        | <span data-ttu-id="96a90-124">Печать содержимого, в данный момент отображаемого в браузере.</span><span class="sxs-lookup"><span data-stu-id="96a90-124">Print what is currently shown in the browser.</span></span>             | <span data-ttu-id="96a90-125">Для браузера создается предназначенная для печати версия веб-страницы.</span><span class="sxs-lookup"><span data-stu-id="96a90-125">A "print-friendly" version of the webpage is generated for the browser.</span></span> |
+| <span data-ttu-id="96a90-126">2. Интерактивная печать</span><span class="sxs-lookup"><span data-stu-id="96a90-126">2. Interactive printing</span></span>         | <span data-ttu-id="96a90-127">Печать точного документа на локально подключенном устройстве.</span><span class="sxs-lookup"><span data-stu-id="96a90-127">Print a precision document on a locally connected device.</span></span> | <span data-ttu-id="96a90-128">Можно экспортировать PDF-версию отчета и загрузить ее в веб-браузер.</span><span class="sxs-lookup"><span data-stu-id="96a90-128">You can export a PDF version of the report and download it to the browser.</span></span> |
+| <span data-ttu-id="96a90-129">3. Печать на сетевом устройстве</span><span class="sxs-lookup"><span data-stu-id="96a90-129">3. Printing on a network device</span></span> | <span data-ttu-id="96a90-130">Отправка точного документа на принтер домена.</span><span class="sxs-lookup"><span data-stu-id="96a90-130">Send a precision document to a domain printer device.</span></span>     | <span data-ttu-id="96a90-131">Точный документ отправляется в клиентское приложение, которое выполняется на сервере, размещенном в домене клиента.</span><span class="sxs-lookup"><span data-stu-id="96a90-131">A precision document is sent to a client application that runs on a server that is hosted in the customer's domain.</span></span> |
+
+<span data-ttu-id="96a90-132">Поскольку решения разные в зависимости от сценария, приложения содержат встроенные службы и инструменты, чтобы помочь пользователям достигать своих целей:</span><span class="sxs-lookup"><span data-stu-id="96a90-132">Because the solution varies, depending on the scenario, applications provide built-in services and tooling to help users accomplish their goals:</span></span>
+
+- <span data-ttu-id="96a90-133">**Сценарий 1** поддерживается при отображении HTML5-клиента в браузере.</span><span class="sxs-lookup"><span data-stu-id="96a90-133">**Scenario 1** is supported by the browser's rendering of the HTML5 client.</span></span>
+- <span data-ttu-id="96a90-134">**Сценарий 2** использует клиентских приложений и службы Microsoft Office 365.</span><span class="sxs-lookup"><span data-stu-id="96a90-134">**Scenario 2** uses client applications and Microsoft Office 365 services.</span></span>
+- <span data-ttu-id="96a90-135">**Сценарий 3** требует поддержки от клиентских приложений и служб, размещенных в Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="96a90-135">**Scenario 3** requires support from client applications and from services that are hosted in Microsoft Azure.</span></span>
+
+<span data-ttu-id="96a90-136">В дополнение к платформе, которая развертывается в подписке Azure, приложения Finance and Operations обеспечивают клиентам интегрированное приложение Azure первой стороны, которое помогает клиентам легче контролировать использование устройств, размещенных в домене, для печати документов.</span><span class="sxs-lookup"><span data-stu-id="96a90-136">In addition to the platform that is deployed to the Azure subscription, Finance and Operations applications provide customers with an integrated, first-party Azure application that helps them more easily use domain-hosted devices to print documents.</span></span>
+
+## <a name="service-overview"></a><span data-ttu-id="96a90-137">Обзор службы</span><span class="sxs-lookup"><span data-stu-id="96a90-137">Service overview</span></span>
+<span data-ttu-id="96a90-138">Пока документы, производимые размещенными приложениями, ожидаются печати на устройстве, подключенном к сети, они хранятся в хранилище BLOB-объектов Azure.</span><span class="sxs-lookup"><span data-stu-id="96a90-138">While documents that are produced by the hosted applications are waiting to be printed on a network-connected device, they are stored in Azure blob storage.</span></span> <span data-ttu-id="96a90-139">[Агент маршрутизации документов](install-document-routing-agent.md) использует проверку подлинности Azure для установления безопасного канала со службами Azure.</span><span class="sxs-lookup"><span data-stu-id="96a90-139">The [Document Routing Agent](install-document-routing-agent.md) uses Azure authentication to establish a secure channel to the Azure services.</span></span>
+
+<span data-ttu-id="96a90-140">**Последовательность выполнения**</span><span class="sxs-lookup"><span data-stu-id="96a90-140">**Execution sequence**</span></span>
+
+1. <span data-ttu-id="96a90-141">Отчет формируется службами по Microsoft SQL Server Reporting Services (SSRS) и хранится в хранилище BLOB-объектов Azure.</span><span class="sxs-lookup"><span data-stu-id="96a90-141">The report is generated by Microsoft SQL Server Reporting Services (SSRS) and stored in Azure blob storage.</span></span> <span data-ttu-id="96a90-142">Приложенные настройки принтера хранятся вместе с документом.</span><span class="sxs-lookup"><span data-stu-id="96a90-142">Attached printer settings are stored together with the document.</span></span>
+2. <span data-ttu-id="96a90-143">Агент маршрутизации документов запрашивает в очереди шины служб Azure активное задание.</span><span class="sxs-lookup"><span data-stu-id="96a90-143">The Document Routing Agent queries the Azure Service Bus queue for active jobs.</span></span>
+3. <span data-ttu-id="96a90-144">Документ загружается агентом маршрутизации документов и помещается в очередь печати сетевого принтера.</span><span class="sxs-lookup"><span data-stu-id="96a90-144">The document is downloaded by the Document Routing Agent and spooled to the network printer.</span></span>
+
+<span data-ttu-id="96a90-145">Решение на основе клиента позволяет клиентам управлять масштабом их потребностей в печати.</span><span class="sxs-lookup"><span data-stu-id="96a90-145">The client-based solution lets customers manage the scale of their printing needs.</span></span> <span data-ttu-id="96a90-146">Клиенты с большим объемом печати могут установить много агентов маршрутизации документов для увеличения числа одновременных операций печати.</span><span class="sxs-lookup"><span data-stu-id="96a90-146">Customers who have heavy-volume printing workloads can install many Document Routing Agents to increase the number of concurrent printing operations.</span></span> <span data-ttu-id="96a90-147">Другим клиентам требуется очень мало установок агента маршрутизации документов для обработки их ожидаемой потребности в печати.</span><span class="sxs-lookup"><span data-stu-id="96a90-147">Alternatively, some customers require very few installations of the Document Routing Agent to handle their anticipated printing needs.</span></span>
+
+### <a name="service-components-for-network-printing"></a><span data-ttu-id="96a90-148">Компоненты службы для сетевой печати</span><span class="sxs-lookup"><span data-stu-id="96a90-148">Service components for network printing</span></span>
+
+<span data-ttu-id="96a90-149">На следующей схеме показаны основные компоненты, которые помогают поддерживать операции сетевой печати.</span><span class="sxs-lookup"><span data-stu-id="96a90-149">The following diagram shows the basic components that help support network printing operations.</span></span>
+
+<span data-ttu-id="96a90-150">[![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)</span><span class="sxs-lookup"><span data-stu-id="96a90-150">[![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)</span></span>
+
+<span data-ttu-id="96a90-151">Обратите внимание, что один принтер может быть зарегистрирован с несколькими агентами маршрутизации документа.</span><span class="sxs-lookup"><span data-stu-id="96a90-151">Note that a single printer can be registered with multiple Document Routing Agents.</span></span> <span data-ttu-id="96a90-152">Чтобы решить настройки принтера, размещенная служба использует сетевой путь, который уникально идентифицирует каждый сетевой принтер.</span><span class="sxs-lookup"><span data-stu-id="96a90-152">To resolve the printer preferences, the hosted service uses the network path that uniquely identifies every network printer.</span></span> <span data-ttu-id="96a90-153">В результате даже в том случае, если принтер зарегистрирован несколькими клиентами, он отображается как один элемент в списке принтеров, доступных в приложениях.</span><span class="sxs-lookup"><span data-stu-id="96a90-153">As a result, even when a printer is registered by multiple clients, it appears as a single selection in the list of printers available in applications.</span></span>
