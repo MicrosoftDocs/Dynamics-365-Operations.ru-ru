@@ -1,6 +1,6 @@
 ---
-title: Синхронизация складов из Finance and Operations в Field Service
-description: В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации складов из Microsoft Dynamics 365 for Finance and Operations в Microsoft Dynamics 365 for Field Service.
+title: Синхронизация складов из Supply Chain Management в Field Service
+description: В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации складов из Dynamics 365 Supply Chain Management в Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,41 +19,41 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ae99624076eecda2969961d0361d1adf42c6c5f3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 94fb6720152cbf6aec58d2b8d9d02fc5343c05e2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835678"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251186"
 ---
-# <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>Синхронизация складов Finance and Operations с Field Service
+# <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Синхронизация складов из Supply Chain Management в Field Service
 
 [!include[banner](../includes/banner.md)]
 
-В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации складов из Microsoft Dynamics 365 for Finance and Operations в Microsoft Dynamics 365 for Field Service.
+В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации складов из Dynamics 365 Supply Chain Management в Dynamics 365 Field Service.
 
-[![Синхронизация бизнес-процессов между Finance and Operations и Field Service](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
+[![Синхронизация бизнес-процессов между Supply Chain Management и Field Service](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
-Следующий шаблон и базовые задачи используются для выполнения синхронизации складов из Microsoft Dynamics 365 for Finance and Operations в Microsoft Dynamics 365 for Field Service.
+Следующий шаблон и базовые задачи используются для выполнения синхронизации складов из Supply Chain Management в Field Service.
 
 **Шаблон в интеграции данных**
-- Склады (из Fin and Ops в Field Service)
+- Склады (из Supply Chain Management в Field Service)
 
 **Задача в проекте интеграции данных**
 - Склад
 
 ## <a name="entity-set"></a>Набор объектов
-| Field Service    | Finance and Operations                 |
+| Field Service    | Управление цепочкой поставок                 |
 |------------------|----------------------------------------|
 | msdyn_warehouses | Склады                             |
 
 ## <a name="entity-flow"></a>Поток объектов
-Склады, которые создаются и поддерживаются в Finance and Operations, можно синхронизировать с Field Service через проект интеграции данных службы Common Data Service (CDS). Склады, которые требуется синхронизировать с Field Service, можно контролировать с помощью расширенных запросов и фильтрации по проекту. Склады, которые синхронизируются из Finance and Operations, создаются в Field Service с полем **Поддерживается извне** со значением **Да**, и запись становится записью только для чтения.
+Склады, которые создаются и поддерживаются в Supply Chain Management, можно синхронизировать с Field Service через проект интеграции данных службы Common Data Service (CDS). Склады, которые требуется синхронизировать с Field Service, можно контролировать с помощью расширенных запросов и фильтрации по проекту. Склады, которые синхронизируются из Supply Chain Management, создаются в Field Service с полем **Поддерживается извне** со значением **Да**, и запись становится записью только для чтения.
 
 ## <a name="field-service-crm-solution"></a>Решение Field Service CRM
-Для поддержки интеграции между Field Service и Finance and Operations требуется дополнительная функциональная возможность решения Field Service CRM. В решении поле **Поддерживается извне** было добавлено в объект **Склад (msdyn_warehouses)**. Это поле помогает определить, обрабатывается ли склад из Finance and Operations, или он существует только в Field Service. Для этого поля предусмотрены следующие параметры:
-- **Да** — склад происходит из Finance and Operations и не может быть изменен в Sales.
+Для поддержки интеграции между Field Service и Finance and Operations требуется дополнительная функциональная возможность решения Field Service CRM. В решении поле **Поддерживается извне** было добавлено в объект **Склад (msdyn_warehouses)**. Это поле помогает определить, обрабатывается ли склад из Supply Chain Management, или он существует только в Field Service. Для этого поля предусмотрены следующие параметры:
+- **Да** — склад поступил из Supply Chain Management и не может быть изменен в Sales.
 - **Нет** — склад был введен непосредственно в Field Service и поддерживается здесь.
 
 Поле **Поддерживается извне** помогает контролировать синхронизацию уровней запасов, корректировки, передачи и использования в заказах на выполнение работ. Только склады, для которых параметр **Поддерживается извне** имеет значение **Да**, может использоваться для синхронизации непосредственно с тем же складом в другой системе. 
@@ -63,7 +63,7 @@ ms.locfileid: "1835678"
 
 ## <a name="prerequisites-and-mapping-setup"></a>Необходимые условия и настройка сопоставления
 ### <a name="data-integration-project"></a>Проект интеграции данных
-Перед синхронизацией складов обязательно обновите расширенный запрос и фильтрацию в проекте, чтобы она включала только склады, которые необходимо внести из Finance and Operations в Field Service. Обратите внимание, что понадобится склад в Field Service, чтобы применять его в заказах на выполнение работ, корректировках и перемещениях.  
+Перед синхронизацией складов обязательно обновите расширенный запрос и фильтрацию в проекте, чтобы она включала только склады, которые необходимо внести из Supply Chain Management в Field Service. Обратите внимание, что понадобится склад в Field Service, чтобы применять его в заказах на выполнение работ, корректировках и перемещениях.  
 
 Чтобы убедиться, что значение **Ключ интеграции** существует для **msdyn_warehouses**:
 1. Перейдите в раздел "Интеграция данных".
@@ -76,6 +76,6 @@ ms.locfileid: "1835678"
 
 На следующем рисунке показано сопоставление шаблона в интеграции данных.
 
-### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>Склады (из Fin and Ops в Field Service): Склад
+### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Склады (из Supply Chain Management в Field Service): Склад
 
 [![Сопоставление шаблона в интеграции данных](./media/Warehouse1.png)](./media/Warehouse1.png)

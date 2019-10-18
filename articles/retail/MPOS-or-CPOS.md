@@ -1,6 +1,6 @@
 ---
 title: Выбор между Retail Modern POS (MPOS) и Cloud POS
-description: В этом разделе объясняются ключевые различия между Retail Modern POS и Cloud POS. Здесь также описываются различные факторы, которые предприятиям розничной торговли, внедряющие Microsoft Dynamics 365 for Retail, следует рассмотреть, чтобы сделать лучший выбор для своих потребностей.
+description: В этом разделе объясняются ключевые различия между Retail Modern POS и Cloud POS. Здесь также описываются различные факторы, которые предприятиям розничной торговли, внедряющим Dynamics 365 Retail, следует рассмотреть, чтобы сделать лучший выбор для своих потребностей.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 69cf6d2b7a9bb09a848f2a0c870f5e7e59c61e91
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557022"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025917"
 ---
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Выбор между Retail Modern POS (MPOS) и Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-В этом разделе приводится дополнительные общие рекомендации для специалистов по внедрению, а также сведения по факторам, которые они должны учитывать при развертывании Microsoft Dynamics 365 for Retail. Изучив и соблюдая эти рекомендации как часть процесса развертывания, специалисты по внедрению смогут избежать проблем, которые могут повлиять на удовлетворенность пользователей или производительность.
+В этом разделе приводится дополнительные общие рекомендации для специалистов по внедрению, а также сведения по факторам, которые они должны учитывать при развертывании Dynamics 365 Retail. Изучив и соблюдая эти рекомендации как часть процесса развертывания, специалисты по внедрению смогут избежать проблем, которые могут повлиять на удовлетворенность пользователей или производительность.
 
 ## <a name="insights"></a>Анализ
 
@@ -59,7 +59,7 @@ Retail поддерживает следующие параметры POS:
 
 MPOS на устройстве Windows, iOS, или Android — это приложение, которое упаковывается, устанавливается и обслуживания на этом устройстве.
 
-- **Windows** — приложение MPOS для Windows содержит весь код приложения и внедренную коммерческую среду выполнения (CRT). 
+- **Windows** — приложение MPOS для Windows содержит весь код приложения и внедренную среду Commerce Runtime (CRT). 
 - **iOS/Android** — на этих платформах приложение выполняет роль узла для кода приложения CPOS. Другими словами, код приложения поступает с сервера CPOS на Microsoft Azure или Retail Store Scale Unit (RSSU). Дополнительные сведения см. в разделе [Обзор Retail Store Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS

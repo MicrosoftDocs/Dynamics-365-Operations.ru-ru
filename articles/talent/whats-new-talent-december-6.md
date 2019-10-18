@@ -1,6 +1,6 @@
 ---
-title: Что нового и что изменилось в Dynamics 365 for Talent Core HR (6 декабря 2018 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent Core HR.
+title: Что нового и что изменилось в Dynamics 365 Talent — Core HR (6 декабря 2018 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 73e0875c3e072bc29050a096888459c6e4bb1b7b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742594"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025964"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Что нового и что изменилось в Dynamics 365 for Talent Core HR (6 декабря 2018 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-6-2018"></a>Что нового и что изменилось в Dynamics 365 Talent: Core HR (6 декабря 2018 г.)
 
 [!include [banner](includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1742594"
 В этой теме описываются новые и измененные компоненты Core HR.
 
 
-## <a name="platform-update-22"></a>Обновление платформы update 22
+## <a name="platform-update-22-for-finance-and-operations"></a>Platform update 22 для Finance and Operations
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Экспорт до 1 миллиона строк в Excel
 
@@ -42,7 +42,7 @@ ms.locfileid: "1742594"
 
 ### <a name="restyled-personalization-toolbar"></a>Измененный стиль панель инструментов персонализации
 
-Стиль панели инструментов персонализации были изменен в обновлении Platform update 22, чтобы помочь пользователям легче адаптировать свой собственный опыт работы в Talent. Сделаны следующие изменения: 
+Стиль панели инструментов персонализации были изменен в обновлении Platform update 22 для Finance and Operations, чтобы помочь пользователям легче адаптировать свой собственный опыт работы в Talent. Сделаны следующие изменения: 
 
 -  Имя каждого средства настройки теперь отображается вместе со значком, что помогает пользователям быстрее распознать средство, которое они хотят использовать.
 -  Описание порядка использования текущего средства также отображается, что помогает пользователям понять, как сделать необходимые личные настройки.  
@@ -50,19 +50,19 @@ ms.locfileid: "1742594"
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>Оптимизированная функция фильтрации "один из"
 
-Оператор фильтрации "является одним из" доступна для большинства полей при использовании раскрывающихся списков области фильтра и сетки заголовка. Этот оператор позволяет пользователю фильтровать поле на основе нескольких значений. Новые и улучшенные возможности для оператора "является одним из" доступны в обновлении Platform update 22. Дополнительные сведения см. в разделе [Оптимизированные возможности фильтрации "один из"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
+Оператор фильтрации "является одним из" доступна для большинства полей при использовании раскрывающихся списков области фильтра и сетки заголовка. Этот оператор позволяет пользователю фильтровать поле на основе нескольких значений. Новые и улучшенные возможности для оператора "является одним из" доступны в обновлении Platform update 22 для Finance and Operations. Дополнительные сведения см. в разделе [Оптимизированные возможности фильтрации "один из"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>Вставка списков из Excel в поля фильтра с оператором "является одним из"
 
 Для некоторых задач у пользователей может иметься список значений в Excel, которые требуется использовать для фильтрации данных в Talent. Например, у пользователя модуля управления персоналом может быть определен набор сотрудников из отчета, для которых требуется дополнительное исследование в системе, и было бы идеально для этого пользователя иметь возможность скопировать список непосредственно из Excel в поле фильтра в Talent.
 
-Начиная с обновления Platform update 22, оператор "является одним из" в области фильтрации и фильтрация по столбцам сетки теперь распознают списки, скопированные из Excel, чтобы их можно было вставить непосредственно в поле фильтра. Это включает коллекцию значений, копируемых из разных строк и столбцов в Excel. Дополнительные сведения об этой функции см. в разделе [Вставка списков из Excel в поля фильтра с оператором "является одним из"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+Начиная с обновления Platform update 22 для Finance and Operations, оператор "является одним из" в области фильтрации и фильтрация по столбцам сетки теперь распознают списки, скопированные из Excel, чтобы их можно было вставить непосредственно в поле фильтра. Это включает коллекцию значений, копируемых из разных строк и столбцов в Excel. Дополнительные сведения об этой функции см. в разделе [Вставка списков из Excel в поля фильтра с оператором "является одним из"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>В режиме предварительного просмотра
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>Настройка интеграции зарплаты в Великобритании между Talent и Dayforce
 
-Интеграция между Microsoft Dynamics 365 for Talent и Ceridian Dayforce доступна в режиме предварительного просмотра для Великобритании. Дополнительные сведения см. в следующем разделе: [Настройка интеграции зарплаты между Talent и Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
+Интеграция между Talent и Ceridian Dayforce доступна в режиме предварительного просмотра для Великобритании. Дополнительные сведения см. в следующем разделе: [Настройка интеграции зарплаты между Talent и Dayforce](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
 
 ## <a name="coming-soon"></a>Скоро
 
@@ -90,9 +90,9 @@ ms.locfileid: "1742594"
 
 ## <a name="known-issues"></a>Известные проблемы
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Ошибки сопоставления в интеграции с Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Ошибки сопоставления в интеграции с Finance
 
-Следующие проблемы были выявлены в текущем шаблоне для интеграции Talent с Finance and Operations. Новый шаблон будет опубликован в ближайшее время и будет применяться ко всем новым создаваемым проектам интеграции. Для существующих проектов интеграции сопоставления задач можно обновить. Обновленные сопоставления см. в следующей таблице. 
+Следующие проблемы были выявлены в текущем шаблоне для интеграции Talent с Finance. Новый шаблон будет опубликован в ближайшее время и будет применяться ко всем новым создаваемым проектам интеграции. Для существующих проектов интеграции сопоставления задач можно обновить. Обновленные сопоставления см. в следующей таблице. 
 
 >[!NOTE]
 > Задача назначения должностей для родительских должностей не интегрирует данные. Это ошибка, которая в настоящее время исследуется. Не имеет временного решения в текущем сопоставлении. 

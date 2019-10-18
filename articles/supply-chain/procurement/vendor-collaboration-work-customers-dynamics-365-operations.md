@@ -1,6 +1,6 @@
 ---
-title: Сотрудничество поставщика с клиентами
-description: В этой теме описывается, как можно использовать модуль совместной работы с поставщиками в Microsoft Dynamics 365 for Finance and Operations для работы с заказами на покупку и контроля консигнационных запасов.
+title: Совместная работа с клиентами
+description: В этой теме описывается, как можно использовать модуль совместной работы с поставщиками для работы с заказами на покупку и контроля консигнационных запасов.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bd3967da105b3cec4a722ee8e04fac13c798feec
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e968a57c09837a5cfa5a0476426a274021122959
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567592"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250150"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Совместная работа с клиентами
 
 [!include [banner](../includes/banner.md)]
 
-В этой теме описывается, как можно использовать модуль совместной работы с поставщиками для работы с клиентами в Microsoft Dynamics 365 for Finance and Operations. Поставщики могут выполнять ряд бизнес-процессов из следующих рабочих областей:
+В этой теме описывается, как можно использовать модуль совместной работы с поставщиками для работы с клиентами в Microsoft Dynamics 365 Supply Chain Management. Поставщики могут выполнять ряд бизнес-процессов из следующих рабочих областей:
 
 - **Подтверждение заказа на покупку** — отслеживание и реагирование на заказы на покупку (PO).
 - **Предложения цен поставщиками** — просмотр запросов предложений (RFQ) и ответ на них путем ввода предложений.

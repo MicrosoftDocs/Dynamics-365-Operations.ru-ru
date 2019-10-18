@@ -1,6 +1,6 @@
 ---
-title: Получение приложения Dynamics 365 for Talent - Onboard
-description: В этой теме объясняется, как получить автономную версию приложения Microsoft Dynamics 365 for Talent - Onboard или версию, которая включает надстройку Comprehensive Hiring.
+title: Получение приложения Dynamics 365 Talent - Onboard
+description: В этой теме объясняется, как получить автономную версию приложения Microsoft Dynamics 365 Talent - Onboard или версию, которая включает надстройку Comprehensive Hiring.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: e83bbd71089b145c6c99780ea9516793c5238b33
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 7bf2e421445e5ca92e995ef581bf61c7978746d2
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731621"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010783"
 ---
-# <a name="get-the-dynamics-365-for-talent-onboard-app"></a>Получение приложения Dynamics 365 for Talent: Onboard
+# <a name="get-the-dynamics-365-talent-onboard-app"></a>Получение приложения Dynamics 365 Talent: Onboard
 
 [!include [banner](includes/banner.md)]
 
-Можно просмотреть демонстрацию и бесплатно попробовать приложение Microsoft Dynamics 365 for Talent: Onboard со [страницы продукта Onboard](https://dynamics.microsoft.com/talent/onboard/).
+Можно просмотреть демонстрацию и бесплатно попробовать приложение Microsoft Dynamics 365 Talent: Onboard со [страницы продукта Onboard](https://dynamics.microsoft.com/talent/onboard/).
 
 > [!NOTE]
 > Для бесплатной пробной версии требуется учетная запись электронной почты для бизнеса.
 
-Вы можете приобрести подписку на Onboard в качестве автономного приложения или как компонента Dynamics 365 for Talent. Talent представляет собой комплексную систему управления человеческим капиталом (HCM), которая включает в себя Dynamics 365 for Talent: Attract, Onboard и Core HR. Для получения дополнительных сведений о том, как купить Onboard, см. [страницу продукта Onboard](https://dynamics.microsoft.com/talent/onboard/).
+Вы можете приобрести подписку на Onboard в качестве автономного приложения или как компонента Dynamics 365 Talent. Talent представляет собой комплексную систему управления человеческим капиталом (HCM), которая включает в себя Dynamics 365 Talent: Attract, Onboard и Core HR. Для получения дополнительных сведений о том, как купить Onboard, см. [страницу продукта Onboard](https://dynamics.microsoft.com/talent/onboard/).
 
 В ходе получения пробной версии или процесса покупки вы настроите адрес электронной почты и пароль Microsoft 365. Обязательно запомните эти значения.
 
 > [!WARNING]
 > Вы не можете выполнить миграцию данных из пробной версии в вашу среду платной подписки. <!--Reviewers: please verify.-->
 
-Чтобы узнать о новых возможностях в Talent см. разделы [Что нового и что изменилось в Dynamics 365 for Talent](./whats-new.md) и [Заметки о выпуске Dynamics 365 и Power Platform](https://docs.microsoft.com/business-applications-release-notes/index). Если требуется предварительно просмотреть новые функции в Onboard, см. раздел [Доступ к предварительным версиям функций в Talent](./access-preview-feature.md).
+Чтобы узнать о новых возможностях в Talent см. разделы [Что нового и что изменилось в Dynamics 365 Talent](./whats-new.md) и [Заметки о выпуске Dynamics 365 и Power Platform](https://docs.microsoft.com/business-applications-release-notes/index). Если требуется предварительно просмотреть новые функции в Onboard, см. раздел [Доступ к предварительным версиям функций в Talent](./access-preview-feature.md).
 
 Если вы специалист в области информационных технологий и хотите узнать больше о том, как подготавливаются две версии приложения Onboard, см. раздел [Подготовка приложения Onboard](./modular-app-tech-faq.md).
 

@@ -1,6 +1,6 @@
 ---
-title: Что нового и что изменилось в Dynamics 365 for Talent (23 июля 2019 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+title: Что нового и что изменилось в Dynamics 365 Talent (23 июля 2019 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/23/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d631a2a2be4809352c31f2a8c47ea49823233b30
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 428e862b84a17f0d50edf034b4cc836e5ae7710d
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856409"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010276"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-23-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (23 июля 2019 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (23 июля 2019 г.)
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются новые и измененные компоненты Dynamics 365 for Talent.
+В этой теме описываются новые и измененные компоненты Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Изменения в Attract
 
@@ -75,6 +75,6 @@ ms.locfileid: "1856409"
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Поддержка региона для Канады и Юго-Восточной Азии
 
-Мы рады сообщить, что регионы Канады и Юго-Восточной Азии будут доступны для Microsoft Dynamics 365 for Talent с 1 августа 2019. С помощью этого изменения можно создавать среды в регионах Канады и Азии, и все данные Talent будут поддерживаться исключительно в пределах этих мест. Можно создать среду в этих новых регионах, выбрав местоположение в диалоговом окне новой среды и использовать эту среду для подготовки Talent в LCS, так как это описывается в разделе [Подготовка Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Мы рады сообщить, что регионы Канады и Юго-Восточной Азии будут доступны для Talent с 1 августа 2019. С помощью этого изменения можно создавать среды в регионах Канады и Азии, и все данные Talent будут поддерживаться исключительно в пределах этих мест. Можно создать среду в этих новых регионах, выбрав местоположение в диалоговом окне новой среды и использовать эту среду для подготовки Talent в LCS, так как это описывается в разделе [Подготовка Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
 Миграция данных существующих проектов из других регионов в регионы Канада и Азия не поддерживается. Только новые проекты могут быть подготовлены в этих новых поддерживаемых регионах.

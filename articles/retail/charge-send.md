@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: e5351086c56d13ef98937aec066be00cdf88fd37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 088f55e5605c99f69852b4d6811b5c5504f267a2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553650"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019470"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Отгрузка заказов из другого магазина с помощью функции отправки накладных расходов
 
 [!include [banner](includes/banner.md)]
 
-С помощью функции отправки накладных расходов в Dynamics 365 for Retail заказы клиента могут быть размещены в одном магазине и отгружены из другого магазина.
+С помощью функции отправки накладных расходов в Retail заказы клиента могут быть размещены в одном магазине и отгружены из другого магазина.
 
 Заказы клиента в клиенте POS-терминала поддерживают несколько вариантов исполнения. Некоторые примеры вариантов выполнения приведены ниже.
 

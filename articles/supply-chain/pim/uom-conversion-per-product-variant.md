@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 36fc98c44625cce03945d76973de67021d53353e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844377"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249456"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Преобразование единиц измерения для вариантов продукта
 
@@ -90,6 +90,6 @@ ms.locfileid: "1844377"
 
 ### <a name="using-excel-to-update-the-unit-conversions"></a>Использование Excel для обновления преобразований единиц измерения
 
-Если для продукта существует много вариантов продукта с различными преобразованиями единиц измерения, рекомендуется экспортировать преобразования единиц измерения со страницы **Пересчет ед. изм** в электронную таблицу Excel, обновить преобразования, затем снова опубликовать их в приложении Finance and Operations.
+Если для продукта существует много вариантов продукта с различными преобразованиями единиц измерения, рекомендуется экспортировать преобразования единиц измерения со страницы **Пересчет ед. изм** в электронную таблицу Excel, обновить преобразования, затем снова опубликовать их в приложении Supply Chain Management.
 
-Возможность экспорта в Excel и публикации изменений обратно в приложении Finance and Operations включается в пункте меню **Open in Microsoft Office** на панели операций на странице **Пересчет ед. изм.**.
+Возможность экспорта в Excel и публикации изменений обратно в приложении Supply Chain Management включается в пункте меню **Open in Microsoft Office** на панели операций на странице **Пересчет ед. изм.**.

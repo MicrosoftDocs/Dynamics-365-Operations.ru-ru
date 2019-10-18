@@ -1,6 +1,6 @@
 ---
-title: Что нового или что изменилось в Dynamics 365 for Talent (2 апреля 2019 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+title: Что нового или что изменилось в Dynamics 365 Talent (2 апреля 2019 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795252"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026085"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Что нового или что изменилось в Dynamics 365 for Talent (2 апреля 2019 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Что нового или что изменилось в Dynamics 365 Talent (2 апреля 2019 г.)
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются новые и измененные компоненты Dynamics 365 for Talent.
+В этой теме описываются новые и измененные компоненты Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Изменения в Attract
 
@@ -56,8 +56,8 @@ ms.locfileid: "1795252"
 ## <a name="changes-in-core-hr"></a>Изменения в Core HR
 Изменения, описанные в этом разделе, относятся к сборке номер 8.1.2216.
 
-### <a name="platform-update-25"></a>Обновление платформы update 25
-Дополнительные сведения об обновлении платформы Platform update 25 см. в разделе [Предварительные версии функций в Dynamics 365 for Finance and Operations Platform Update 25 (апрель 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>Platform update 25 для Finance and Operations
+Дополнительные сведения об обновлении платформы Platform Update 25 для Finance and Operations см. в разделе [Предварительные версии функций в Dynamics 365 for Finance and Operations Platform Update 25 (апрель 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Расширенная безопасность компенсации (фиксированной и переменной)
 Во многих организациях менеджеры по компенсации и льготам могут иметь доступ только к определенным записям компенсаций. Эти записи могут включать записи для руководителей или региональных сотрудников. Это изменение позволяет отделу кадров управлять и обслуживать планы компенсации для различных групп сотрудников в организации. Можно назначить роли безопасности для фиксированных и переменных планов. Эти роли безопасности определяют доступ к планам и соответствующим данным сотрудников, таким как записи зарплаты или премий, чтобы только эти роли может обрабатывать компенсацию для групп сотрудников.
@@ -79,4 +79,4 @@ ms.locfileid: "1795252"
 После этого изменения дубликаты определяются по мере ввода полей имени, и статус отображает число обнаруженных дубликатов. Можно выбрать предоставленную ссылку, чтобы открыть новую страницу для оценки, следует ли использовать обнаруженное соответствие. Во избежание прерывания ввода данных форма дубликатов не открывается автоматически.
 
 ###  <a name="email-support-for-alerts"></a>Поддержка по электронной почте для оповещений
-С обновлением платформы Platform update 25 пользователи могут создавать правила оповещений, которые автоматически посылают уведомления по электронной почте контактам при наступлении события. 
+С обновлением платформы Platform Update 25 для Finance and Operations пользователи могут создавать правила оповещений, которые автоматически отправляют уведомления по электронной почте контактам при наступлении события. 

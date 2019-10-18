@@ -1,6 +1,6 @@
 ---
-title: Получение поддержки по Dynamics 365 for Retail
-description: В этой статье объясняется, как получить справку по Microsoft Dynamics 365 for Retail.
+title: Получение поддержки по Dynamics 365 Retail
+description: В этой статье объясняется, как получить справку по Microsoft Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 225b39bb03fa3bbd0b3c3a24e4eb09a114d01904
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577852"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025014"
 ---
-# <a name="get-support-for-dynamics-365-for-retail"></a>Получение поддержки по Dynamics 365 for Retail
+# <a name="get-support-for-dynamics-365-retail"></a>Получение поддержки по Dynamics 365 Retail
 
 [!include [banner](../includes/banner.md)]
 
-В этой статье объясняется, как получить справку по Dynamics 365 for Retail.
+В этой статье объясняется, как получить справку по Dynamics 365 Retail.
 
 ## <a name="contact-support"></a>Обратиться в службу поддержки
 
@@ -48,7 +48,7 @@ ms.locfileid: "1577852"
 <tbody>
 <tr>
 <td>Задать вопрос в сообществе.</td>
-<td>Перейдите на страницу сообщества <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> и попробуйте получить ответ на свои вопросы у сообщества Dynamics.</td>
+<td>Перейдите на страницу сообщества <a href="https://community.dynamics.com/365/retail">Dynamics 365 Retail</a> и попробуйте получить ответ на свои вопросы у сообщества Dynamics.</td>
 </tr>
 <tr>
 <td>Воспользоваться средством "Поиск проблем".</td>
@@ -74,7 +74,7 @@ ms.locfileid: "1577852"
 По техническим вопросам, связанным с входом и доступом к CustomerSource, электронным обучением, поиском, базой знаний, загрузкой файлов, а также ошибками страниц и системы в целом, обратитесь в <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">поддержку веб-сайта</a>.</td>
 </tr>
 <tr>
-<td>Получить помощь по вопросам о лицензировании Retail или Finance and Operations.</td>
+<td>Получить ответы на вопросы о лицензировании.</td>
 <td>Обратитесь к своему партнеру, реселлеру Large Account Reseller (LAR) или дилеру корпорации Майкрософт.</td>
 </tr>
 <tr>

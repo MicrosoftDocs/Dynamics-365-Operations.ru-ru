@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7f5d61ade071e75d53d5036a47fea438d8afbe6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561279"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249433"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Мобильная рабочая область "Утверждение заказа на покупку"
 
@@ -35,13 +35,13 @@ ms.locfileid: "1561279"
 ## <a name="overview"></a>Обзор 
 Заказы на покупку, требующие утверждения, проходят через workflow-процесс утверждения. Workflow-процесс может включать различные этапы, которые требуют действий со стороны одного или нескольких пользователей. Например, пользователю может потребоваться выполнить задачу или утвердить заказ на покупку. 
 
-Мобильная рабочая область **Утверждение заказа на покупку** позволяет легко просматривать заказы на покупку и утверждать их с мобильного устройства. Эта рабочая область также позволяет выполнять те же действия workflow-процесса, что и в веб-клиенте Microsoft Dynamics 365 for Finance and Operations.
+Мобильная рабочая область **Утверждение заказа на покупку** позволяет легко просматривать заказы на покупку и утверждать их с мобильного устройства. Эта рабочая область также позволяет выполнять те же действия workflow-процесса, что и в веб-клиенте.
 
 ## <a name="prerequisites"></a>Необходимые условия
-Необходимые условия различаются в зависимости от версии Finance and Operations, развернутой в вашей организации.
+Необходимые условия различаются в зависимости от версии Supply Chain Management, развернутой в вашей организации.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations 
-Если в вашей организации развернута система Microsoft Dynamics 365 for Finance and Operations, системный администратор должен опубликовать мобильную рабочую область **Утверждение заказа на покупку**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Необходимые условия при использовании Supply Chain Management 
+Если в вашей организации развернута система Finance and Operations, системный администратор должен опубликовать мобильную рабочую область **Утверждение заказа на покупку**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии
 Если в вашей организации развернута система Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
@@ -75,7 +75,7 @@ ms.locfileid: "1561279"
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Загрузите и установите мобильное приложение
-Загрузите и установите мобильное приложение Microsoft Dynamics 365 for Unified Operations Mobile:
+Загрузите и установите мобильное приложение Finance and Operations:
 
 - [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543591"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250699"
 ---
 # <a name="master-planning-home-page"></a>Домашняя страница сводного планирования
 
@@ -74,7 +74,7 @@ ms.locfileid: "1543591"
 В [блоге группы исследований производства Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) можно найти мнения, новости и другие сведения о сводном планировании и других решениях.
 
 ### <a name="task-guides"></a>Проводники по задачам
-Проводники по задачам в Finance and Operations — это еще один источник справочной информации. Чтобы перейти к руководствам по задачам, нажмите кнопку **Справка** на любой странице.
+Дополнительная справка доступна в виде руководств по задачам. Чтобы перейти к руководствам по задачам, нажмите кнопку **Справка** на любой странице.
 
 ### <a name="webinars"></a>Вебинары
 [Использование Azure Machine Learning для прогнозирования спроса](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

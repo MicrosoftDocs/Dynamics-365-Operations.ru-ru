@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec1edb861619bae2ae3c211720b55e170b83ec9
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: ec51c1a500b5c9ff2c363cfb69cc1d404e939df9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916630"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250653"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Изменение прогноза спроса вручную
 
@@ -41,5 +41,5 @@ ms.locfileid: "1916630"
 
 ## <a name="modify-the-forecast-in-excel"></a>Изменение прогноза в Excel
 1. Щелкните **Открыть** в Microsoft Office.
-2. Щелкните **Редактировать прогноз спроса** в Excel". В Excel можно добавлять, удалять и изменять строки прогноза спроса. Если вы не видите данные в Excel, необходимо войти в Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, установив флажок "Оставаться в системе"; кроме того, необходимо доверять приложению для подключения к данным.  
+2. Щелкните **Редактировать прогноз спроса** в Excel". В Excel можно добавлять, удалять и изменять строки прогноза спроса. Если вы не видите данные в Excel, необходимо войти, установив флажок "Оставаться в системе"; кроме того, необходимо доверять приложению для подключения к данным.  
 

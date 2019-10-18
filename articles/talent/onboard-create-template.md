@@ -1,6 +1,6 @@
 ---
-title: Создание шаблона по адаптации с помощью Dynamics 365 for Talent - Onboard
-description: В этой теме объясняется, как использовать приложение Microsoft Dynamics 365 for Talent - Onboard для создания шаблона для руководства по адаптации для своих новых сотрудников. Эта задача является неотъемлемым первым шагом в стратегии управления человеческим капиталом (HCM) от найма до увольнения.
+title: Создание шаблона по адаптации с помощью Dynamics 365 Talent - Onboard
+description: В этой теме объясняется, как использовать приложение Microsoft Dynamics 365 Talent - Onboard для создания шаблона для руководства по адаптации для своих новых сотрудников. Эта задача является неотъемлемым первым шагом в стратегии управления человеческим капиталом (HCM) от найма до увольнения.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c53c24b2913e3ca30cfc6491556b49d5d9230128
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 63f13380f3d2c31c4cc9009142f320ad8a41e8ee
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731620"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009885"
 ---
-# <a name="create-an-onboarding-template-by-using-dynamics-365-for-talent-onboard"></a>Создание шаблона по адаптации с помощью Dynamics 365 for Talent: Onboard
+# <a name="create-an-onboarding-template"></a>Создание шаблона адаптации
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard содержит различные шаблоны, которые могут помочь создать руководство по адаптации как можно быстрее. Можно использовать один или несколько шаблонов или можно создать собственные шаблоны. Onboard предоставляет образцы текста, которые можно использовать при создании собственных шаблонов. Таким образом, процесс выполняется просто, даже если начать с нуля.
+Microsoft Dynamics 365 Talent: Onboard содержит различные шаблоны, которые могут помочь создать руководство по адаптации как можно быстрее. Можно использовать один или несколько шаблонов или можно создать собственные шаблоны. Onboard предоставляет образцы текста, которые можно использовать при создании собственных шаблонов. Таким образом, процесс выполняется просто, даже если начать с нуля.
 
 ## <a name="create-an-onboarding-template-from-an-existing-template"></a>Создание шаблона по адаптации из существующего шаблона
 

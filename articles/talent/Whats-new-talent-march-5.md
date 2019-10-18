@@ -1,6 +1,6 @@
 ---
-title: Что нового и что изменилось в Dynamics 365 for Talent (5 марта 2019 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+title: Что нового и что изменилось в Dynamics 365 Talent (5 марта 2019 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: c7ee8f4cf14197d6bd4549741058fc5fe95ae55d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741898"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026678"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (5 марта 2019 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (5 марта 2019 г.)
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются новые и измененные компоненты в Talent
+В этой теме описываются новые и измененные компоненты в Talent.
 
 ## <a name="changes-in-attract"></a>Изменения в Attract
 
@@ -78,5 +78,5 @@ ms.locfileid: "1741898"
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Расширенная безопасность компенсации (фиксированной и переменной)
 Во многих организациях менеджеры компенсаций и льгот имеют доступ только к определенным записям компенсаций, например записям для руководителей или региональных сотрудников. С эим изменением вы можете управлять и обслуживать планы компенсации для различных совокупностей сотрудников в организации. Фиксированные и переменные планам могут назначаться ролям безопасности, которые будут определять доступ к этим планам и данным о сотрудниках, относящихся к планам, таким как записи сведений о зарплате и премиях. Только роли, которым предоставлен доступ, смогут обрабатывать компенсации для таких сотрудников.
 
-###  <a name="platform-update-24"></a>Обновление платформы update 24
-Дополнительные сведения об обновлении платформы 24 см. в разделе [Что нового и что изменилось в Finance and Operations с обновлением платформы 24 (март 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+###  <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 для Finance and Operations
+Дополнительные сведения об обновлении платформы Platform Update 24 для Finance and Operations см. в разделе [Что нового и что изменилось в Finance and Operations с обновлением платформы Platform Update 24 (март 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

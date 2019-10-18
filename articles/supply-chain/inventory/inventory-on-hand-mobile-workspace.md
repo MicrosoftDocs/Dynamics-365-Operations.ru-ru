@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 68b285ba78a9bd654e7bfcfe8d4c6b0207346eab
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845602"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249525"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Мобильная рабочая область запасов в наличии
 
@@ -31,7 +31,7 @@ ms.locfileid: "1845602"
 
 В этом разделе содержится информация о **мобильной рабочей области запасов в наличии**. Эта рабочая область помогает получать ценные сведения о зарезервированных и доступных запасах в любое время и в любом месте.
 
-Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations Mobile.
+Эту мобильную рабочую область можно использовать с мобильным приложением Finance and Operations.
 
 ## <a name="overview"></a>Обзор
 Как правило, компании имеют несколько отгрузок и несколько приходов запасов ежедневно. Эти движения постоянно изменяют статус запасов в наличии. Мобильная рабочая область **Запасы в наличии** позволяет увидеть статус запасов в наличии между компаниями, чтобы можно было получать последние данные о запасах на мобильном устройстве по вашему выбору. Независимо от того, работаете ли вы на складе, в отделе закупок, в отделе продаж, на производстве, в руководстве или выполняете другие роли, данные о наличных запасах доступны вам в любое время и в любом месте. 
@@ -58,11 +58,11 @@ ms.locfileid: "1845602"
 ## <a name="prerequisites"></a>Необходимые условия
 Предварительные условия различаются, в зависимости от версии Microsoft Dynamics 365, развернутой в организации.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations 
-Если в вашей организации развернута система Microsoft Dynamics 365 for Finance and Operations, системный администратор должен опубликовать мобильную рабочую область **Запасы в наличии**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-finance-and-operations"></a>Необходимые условия, если используется Finance and Operations 
+Если в вашей организации развернута система Supply Chain Management, системный администратор должен опубликовать мобильную рабочую область **Запасы в наличии**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии
-Если в вашей организации развернута система Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
+### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Необходимые условия при использовании обновления платформы Platform Update 3 или более поздней версии 
+Если в вашей организации развернуто обновление платформы Platform Update 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
 
 <table>
 <thead>
@@ -96,7 +96,7 @@ ms.locfileid: "1845602"
 
 ## <a name="download-and-install-the-mobile-app"></a>Загрузите и установите мобильное приложение
 
-Загрузите и установите мобильное приложение Dynamics 365 for Unified Operations:
+Загрузите и установите мобильное приложение Finance and Operations:
 
 -   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

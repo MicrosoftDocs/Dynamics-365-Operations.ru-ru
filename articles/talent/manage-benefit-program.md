@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 5c54e5fccd7ddc5f8f024e692bb46f4140134578
-ms.sourcegitcommit: 282f05635a7b933fe9bdda7a8187f322ed5ede17
+ms.openlocfilehash: a9a26450be97f655df8bc5983e4718341d40a2d6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755405"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009908"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Определение и управление программой льгот
 
@@ -51,7 +51,7 @@ ms.locfileid: "1755405"
 [![Рис. Льготы](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Приемлемость
-Много факторов определяют приемлемость работника для различных типов льгот, которые работодатель предлагает. Когда вы создаете льготу в Microsoft Talent, вы можете установить тип приемлемости, которая применяется к этой льготе. 
+Много факторов определяют приемлемость работника для различных типов льгот, которые работодатель предлагает. Когда вы создаете льготу в Dynamics 365 Talent, вы можете установить тип приемлемости, которая применяется к этой льготе. 
 
 Вы можете сделать льготу доступной всем работникам. Например, некоторые компании предлагают парковочные пропуска всем работникам как дополнительную льготу. Когда вы создаете эту льготу, вы устанавливаете приемлемость как **Имеют право все работники**. 
 

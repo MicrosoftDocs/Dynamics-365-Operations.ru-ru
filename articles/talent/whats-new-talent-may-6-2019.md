@@ -1,6 +1,6 @@
 ---
-title: Что нового и что изменилось в Dynamics 365 for Talent (6 мая 2019 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+title: Что нового и что изменилось в Dynamics 365 Talent (6 мая 2019 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/06/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c541bac532e878c8493a60d95c05c9104d4b96e1
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 6a4571abdb0e104af0a0657c75bf5a6b5764345a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741552"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023869"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-6-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (6 мая 2019 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (6 мая 2019 г.)
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются новые и измененные компоненты Dynamics 365 for Talent.
+В этой теме описываются новые и измененные компоненты Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Изменения в Attract
 
@@ -45,9 +45,9 @@ ms.locfileid: "1741552"
 
 Изменения, описанные в этом разделе, относятся к сборке номер 8.1.2282. Числа в скобках в некоторых заголовках относятся к номерам поддержки в службе Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-26"></a>Обновление платформы update 26
+### <a name="platform-update-26-for-finance-and-operations"></a>Platform update 26 для Finance and Operations
 
-Дополнительные сведения об обновлении платформы Platform update 26 см. в разделе [Предварительные версии функций в Dynamics 365 for Finance and Operations Platform Update 26 (май 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+Дополнительные сведения об обновлении платформы Platform update 26 для Finance and Operations см. в разделе [Предварительные версии функций в Dynamics 365 Finance and Operations Platform Update 26 (май 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Поддержка сущностей Common Data Service для настраиваемых полей
 
@@ -67,7 +67,7 @@ ms.locfileid: "1741552"
 
 ### <a name="worker-address-created-in-common-data-service-isnt-synced-to-talent-317555"></a>Адрес работника, созданный в Common Data Service, не синхронизируется с Talent (317555)
 
-С этим изменением адреса, созданные в Common Data Service, обновляются в Talent Core HR.
+С этим изменением адреса, созданные в Common Data Service, обновляются в Talent: Core HR.
 
 
 ## <a name="in-preview"></a>В режиме предварительного просмотра

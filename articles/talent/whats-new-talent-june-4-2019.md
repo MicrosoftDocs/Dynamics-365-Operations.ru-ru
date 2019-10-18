@@ -1,6 +1,6 @@
 ---
-title: Что нового и что изменилось в Dynamics 365 for Talent (4 июня 2019 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+title: Что нового и что изменилось в Dynamics 365 Talent (4 июня 2019 г.)
+description: В этой теме описываются новые и измененные компоненты в Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/04/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e19e5d3f1cb2305e5a4153de3e4d0e8f4c7d31ac
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 32b168eca210b1371db129c05f7035237eb35c38
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856337"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008992"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-4-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (4 июня 2019 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-4-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (4 июня 2019 г.)
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Изменения в Attract
 
-Этот выпуск содержит исправления незначительных ошибок для Dynamics 365 for Talent: Attract.
+Этот выпуск содержит исправления незначительных ошибок для Dynamics 365 Talent: Attract.
 
 ## <a name="coming-soon-in-attract"></a>Скоро появится в Attract
 
@@ -43,7 +43,7 @@ ms.locfileid: "1856337"
 
 ## <a name="changes-in-onboard"></a>Изменения в Onboard
 
-Этот выпуск содержит исправления незначительных ошибок для Dynamics 365 for Talent: Onboard.
+Этот выпуск содержит исправления незначительных ошибок для Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Изменения в Core HR
 
@@ -67,7 +67,7 @@ ms.locfileid: "1856337"
 
 ### <a name="deleting-a-record-from-talent-doesnt-remove-the-record-from-common-data-service"></a>Удаление записи из Talent не удаляет запись из Common Data Service
 
-Записи, удаляемые из Talent Core HR, теперь также удаляются из Common Data Service.
+Записи, удаляемые из Talent: Core HR, теперь также удаляются из Common Data Service.
 
 ### <a name="variable-compensation-plan-valid-fromto-dates-arent-being-honored"></a>Даты начала и окончания срока действия плана переменной компенсации не учитываются
 

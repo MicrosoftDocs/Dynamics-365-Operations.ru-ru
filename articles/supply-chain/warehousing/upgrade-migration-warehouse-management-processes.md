@@ -1,5 +1,5 @@
 ---
-title: Обновление управления складом с Microsoft Dynamics AX 2012 до Finance and Operations
+title: Обновление управления складом с Microsoft Dynamics AX 2012 до Supply Chain Management
 description: В этой теме приведен обзор вариантов миграции продуктов и управления складом.
 author: perlynne
 manager: AnnBe
@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3dcb75653743d0d135eda197c6330f3ee9c5383
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554054"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251439"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Обновление управления складом с Microsoft Dynamics AX 2012 до Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Обновление управления складом с Microsoft Dynamics AX 2012 до Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе приводится обзор процесса обновления с Microsoft Dynamics AX 2012 R3, в котором выполняется модуль WMSII, до Microsoft Dynamics 365 for Finance and Operations.
+В этом разделе приводится обзор процесса обновления с Microsoft Dynamics AX 2012 R3, в котором выполняется модуль WMSII, до Supply Chain Management.
 
-Finance and Operations больше не поддерживает устаревший модуль **WMSII** из Microsoft Dynamics AX 2012. Вместо этого можно использовать модуль **Управление складом**. В модуле WMSII складские аналитики "Местонахождение" и "Код палеты" можно было выбрать для финансовых запасов, но складскую аналитику "Код палеты" невозможно использовать для финансовых запасов в Finance and Operations.
+Supply Chain Management больше не поддерживает устаревший модуль **WMSII** из Microsoft Dynamics AX 2012. Вместо этого можно использовать модуль **Управление складом**. В модуле WMSII складские аналитики "Местонахождение" и "Код палеты" можно было выбрать для финансовых запасов, но складскую аналитику "Код палеты" невозможно использовать для финансовых запасов в Supply Chain Management.
 
 Во время обновления все продукты, связанные с группой аналитик хранения, использующей складскую аналитику "Код палеты", определяются, помечаются как заблокированные и не обрабатываются для обновления.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Обновление до Finance and Operations при использовании AX 2012 R3 WMSII
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>Обновление до Supply Chain Management при использовании AX 2012 R3 WMSII
 После обновления можно использовать набор параметров в форме **Изменить группу аналитик хранения для номенклатур**, чтобы разблокировать продукты, заблокированные в процессе обновления, а затем обработать проводки для этих продуктов.
 
-### <a name="enabling-items-in-finance-and-operations"></a>Включение номенклатур в Finance and Operations
-Это изменение необходимо, поскольку в Finance and Operations отслеживание номенклатур является составляющей процессов управления складом. Для этих процессов все склады и их местонахождения должны быть связаны с профилем местонахождения. Если вы хотите использовать процессы управления складом, необходимо настроить следующее:
+### <a name="enabling-items-in-supply-chain-management"></a>Включение номенклатур в Supply Chain Management 
+Это изменение необходимо, поскольку в Supply Chain Management отслеживание номенклатур является составляющей процессов управления складом. Для этих процессов все склады и их местонахождения должны быть связаны с профилем местонахождения. Если вы хотите использовать процессы управления складом, необходимо настроить следующее:
 -   Существующие склады необходимо активировать для использования процессов управления складом. 
 -   Существующие выпущенные продукты необходимо связать с группой аналитик хранения, предполагающей использование процессов управления складом. 
 

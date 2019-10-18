@@ -1,6 +1,6 @@
 ---
-title: Устранение неполадок интеграции с LinkedIn и Microsoft Dynamics 365 for Talent - Attract
-description: В этой теме объясняется, как устранять неполадки при попытке публикации объявлений о вакансиях в LinkedIn из Microsoft Dynamics 365 for Talent - Attract.
+title: Устранение неполадок интеграции с LinkedIn и Microsoft Dynamics 365 Talent - Attract
+description: В этой теме объясняется, как устранять неполадки при попытке публикации объявлений о вакансиях в LinkedIn из Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 82ba7c505ba09e47f3c517c74c22e6aef7cd4e65
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 79f138ad9aeb203bce19cc93237fca96bffd015f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739365"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008228"
 ---
 # <a name="troubleshoot-integration-with-linkedin"></a>Устранение неполадок интеграции с LinkedIn
 
 [!include [banner](../includes/banner.md)]
 
-Следующие сведения помогут в устранении неполадок, которые могут возникнуть при попытке публикации объявлений о вакансиях в LinkedIn из Microsoft Dynamics 365 for Talent: Attract.
+Следующие сведения помогут в устранении неполадок, которые могут возникнуть при попытке публикации объявлений о вакансиях в LinkedIn из Microsoft Dynamics 365 Talent: Attract.
 
 ## <a name="you-cant-sign-in-to-linkedin-from-attract"></a>Нельзя войти в LinkedIn из Attract
 

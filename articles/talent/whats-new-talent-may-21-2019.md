@@ -1,6 +1,6 @@
 ---
-title: Что нового и что изменилось в Dynamics 365 for Talent (20 мая 2019 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+title: Что нового и что изменилось в Dynamics 365 Talent (20 мая 2019 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 04d84b95b70a6bb02973ecc350f01231d825f166
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: ecc5b96d7a69c2489d26f02a678d3df425761621
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856241"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008820"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-20-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (20 мая 2019 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-20-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (20 мая 2019 г.)
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются новые и измененные компоненты Dynamics 365 for Talent.
+В этой теме описываются новые и измененные компоненты Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Изменения в Attract
 Этот выпуск содержит исправления незначительных ошибок для Dynamics 365 Talent: Attract.

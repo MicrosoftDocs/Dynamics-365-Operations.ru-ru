@@ -1,6 +1,6 @@
 ---
-title: Что нового или что изменилось в Dynamics 365 for Talent (16 апреля 2019 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+title: Что нового или что изменилось в Dynamics 365 Talent (16 апреля 2019 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: adf8f470b00a565c62a27f857d490c6c000b21d8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0781a479ebf37334d8eba18ea6d69d7cfb9db9ea
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518909"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024145"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-16-2019"></a>Что нового или что изменилось в Dynamics 365 for Talent (16 апреля 2019 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Что нового или что изменилось в Dynamics 365 Talent (16 апреля 2019 г.)
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются новые и измененные компоненты Dynamics 365 for Talent.
+В этой теме описываются новые и измененные компоненты Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Изменения в Attract
 
@@ -47,11 +47,11 @@ ms.locfileid: "1518909"
 
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Сущности региона компенсации, уровня компенсации, параметра льгот и типа навыков в Common Data Service обновлены, чтобы включить поддержку полей клиентов
 
-В этом выпуске эти сущности Common Data Service были обновлены, чтобы включить возможность включения настраиваемого поля, добавленного через Talent (Core HR).
+В этом выпуске эти сущности Common Data Service были обновлены, чтобы включить возможность включения настраиваемого поля, добавленного через Talent: Core HR.
 
 ### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Поддержка новых сущностей Common Data Service для: правила по компенсации по положению о передаче прав на льготы, план переменной компенсации, переменная компенсация
 
-В этом выпуске в Common Data Service были добавлены сущности "Правила по компенсации по положению о передаче прав на льготы", "План переменной компенсации" и "Переменная компенсация". Эти сущности также поддерживают настраиваемые поля, добавленные через Talent (Core HR).
+В этом выпуске в Common Data Service были добавлены сущности "Правила по компенсации по положению о передаче прав на льготы", "План переменной компенсации" и "Переменная компенсация". Эти сущности также поддерживают настраиваемые поля, добавленные через Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Ошибки обновления PowerBI (314342)
 
@@ -95,6 +95,6 @@ ms.locfileid: "1518909"
 
 ### <a name="email-support-for-alerts"></a>Поддержка по электронной почте для оповещений
 
-С обновлением платформы Platform update 25 пользователи могут создавать правила оповещений, которые автоматически посылают уведомления по электронной почте контактам при наступлении события.
+С обновлением платформы Platform Update 25 для Finance and Operations пользователи могут создавать правила оповещений, которые автоматически отправляют уведомления по электронной почте контактам при наступлении события.
 
 

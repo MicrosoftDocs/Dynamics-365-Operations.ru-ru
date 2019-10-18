@@ -1,6 +1,6 @@
 ---
 title: Оценка эффективности продаж по продукту
-description: Вы можете анализировать рентабельность 10 лучших продуктов с помощью Microsoft Dynamics 365 for Retail.
+description: Вы можете анализировать рентабельность 10 лучших продуктов с помощью Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 059474a780f849d6e1920703c1f717a9adaa2617
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7796aa830c99bd0fd5784ff95e509767a3b55b44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546394"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024968"
 ---
 # <a name="assess-sales-performance-by-product"></a>Оценка эффективности продаж по продукту
 
 [!include [banner](includes/banner.md)]
 
-Вы можете анализировать рентабельность 10 лучших продуктов с помощью Microsoft Dynamics 365 for Retail.
+Вы можете анализировать рентабельность 10 лучших продуктов с помощью Dynamics 365 Retail.
 
-В рамках использования Dynamics 365 for Retail пользователи также могут анализировать прибыльность ключевых продуктов (от 10 до 100) на разных уровнях иерархии организации с учетом одного из следующих критериев:
+В рамках использования Retail пользователи также могут анализировать прибыльность ключевых продуктов (от 10 до 100) на разных уровнях иерархии организации с учетом одного из следующих критериев:
 
 - Сумма продаж
 - Количество

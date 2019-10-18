@@ -3,7 +3,7 @@ title: График обслуживания
 description: В этом разделе описываются графики обслуживания в управлении активами.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 780b633af04c38705f8321d19924f3802b2d5c67
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: af2152b334b51db48b60aa966ab49bf480c29bbc
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875861"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922145"
 ---
 # <a name="maintenance-schedule"></a>График обслуживания
 
@@ -64,7 +64,7 @@ ms.locfileid: "1875861"
 - Когда строка графика обслуживания связана с заказом на работу, код заказа на работу будет отображен в поле **Заказ на работу**.  
 - В представлении сведений **Все активы** > на экспресс-вкладке **Планы обслуживания актива** можно выбрать план обслуживания для актива. Если затем вы удалите строку плана обслуживания, связанную с активом в пункте **Все активы**, вы также автоматически удалите все строки графика обслуживания со статусом "Создано", которые были созданы на основе этого плана обслуживания. См. также [Создание актива](../objects/create-an-object.md).
 
-На следующем рисунке показана страница списка **Весь график обслуживания**.
+На следующей иллюстрации показана страница списка **Весь график обслуживания**.
 
 ![Рисунок 1](media/16-preventive-maintenance.png)
 

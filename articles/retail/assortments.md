@@ -1,6 +1,6 @@
 ---
 title: Управление ассортиментом
-description: В этом разделе описываются основные понятия управления ассортиментом в Microsoft Dynamics 365 for Retail и обсуждаются вопросы реализации для вашего проекта.
+description: В этом разделе описываются основные понятия управления ассортиментом в Dynamics 365 Retail и обсуждаются вопросы реализации для вашего проекта.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4652641be0a1edaac919d36c7f127cd62c355a57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558836"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025848"
 ---
 # <a name="assortment-management"></a>Управление ассортиментом
 
@@ -28,7 +28,7 @@ ms.locfileid: "1558836"
 
 ## <a name="overview"></a>Обзор
 
-Microsoft Dynamics 365 for Retail предоставляет *ассортименты*, которые позволяют управлять доступность продукта в разных каналах. Ассортименты определяют, какие продукты доступны в конкретных магазинах и в течение определенного периода.
+Dynamics 365 Retail предоставляет *ассортименты*, которые позволяют управлять доступность продукта в разных каналах. Ассортименты определяют, какие продукты доступны в конкретных магазинах и в течение определенного периода.
 
 В Retail ассортимент является сопоставлением одного или нескольких каналов (или групп каналов, когда используются иерархии организаций) с одним или несколькими продуктами (или группами продуктов, когда используются иерархии категорий).
 

@@ -1,6 +1,6 @@
 ---
 title: Планирование маршрутов фрахта с несколькими остановками
-description: В этой статье описываются различные элементы, которые можно использовать для планирования маршрутов транспортировки в Dynamics 365 for Finance and Operations.
+description: В этой статье описываются различные элементы, которые можно использовать для планирования маршрутов транспортировки в Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 033dde410519b061b0ff3fb42e8f7790af9449ec
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553984"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017558"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Планирование маршрутов фрахта с несколькими остановками
 
 [!include [banner](../includes/banner.md)]
 
-В этой статье описываются различные элементы, которые можно использовать для планирования маршрутов транспортировки в Microsoft Dynamics 365 for Finance and Operations.
+В этой статье описываются различные элементы, которые можно использовать для планирования маршрутов транспортировки в Dynamics 365 Supply Chain Management.
 
 Можно использовать планы маршрутов и руководства по маршрутам для сложных маршрутов транспортировки с несколькими остановками. Если один и тот же маршрут будет использоваться на регулярной основе, можно настроить запланированный маршрут.
 

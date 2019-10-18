@@ -1,6 +1,6 @@
 ---
 title: Планирование управления временем и присутствием в Retail
-description: В этой теме описываются сценарии, поддерживаемые для управления временем и посещаемостью в Microsoft Dynamics 365 for Retail.
+description: В этой теме описываются сценарии, поддерживаемые для управления временем и посещаемостью в Dynamics 365 Retail.
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d541de550df41b7d4616492960bd4f2aae46d45e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567961"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024991"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Планирование управления временем и присутствием в Retail
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются сценарии, поддерживаемые для управления временем и посещаемостью в Microsoft Dynamics 365 for Retail.
+В этой теме описываются сценарии, поддерживаемые для управления временем и посещаемостью в Dynamics 365 Retail.
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Настройка и планирование управления работниками
 
@@ -125,7 +125,7 @@ ms.locfileid: "1567961"
 
 ## <a name="process-and-manage-time-registrations"></a>Обработка регистраций времени и управление ими
 
-Пользователь Dynamics 365 for Retail выполняет workflow-процесс, чтобы вычислить, утвердить и перенеси регистрации времени в зарплату.
+Пользователь Retail выполняет рабочий процесс, чтобы вычислить, утвердить и перенеси регистрации времени в зарплату.
 
 ### <a name="primary-operations"></a>Основные операции
 

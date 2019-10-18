@@ -1,6 +1,6 @@
 ---
 title: Кредитные лимиты для клиентов
-description: Эта статья содержит обзор функционирования кредитных лимитов в Microsoft Dynamics 365 for Finance and Operations.
+description: Эта статья содержит обзор функционирования кредитных лимитов в Dynamics 365 Supply Chain Management.
 author: omulvad
 manager: AnnBe
 ms.date: 09/15/2017
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37e860a969d527a334af7524c70e5ea15be7801e
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b7be4ab297293bf1c9f720c2c16b2720afdfe771
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742386"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026471"
 ---
 # <a name="credit-limits-for-customers"></a>Кредитные лимиты для клиентов
 

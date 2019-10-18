@@ -1,6 +1,6 @@
 ---
-title: Публикация вакансий в LinkedIn из Microsoft Dynamics 365 for Talent - Attract
-description: В этом разделе объясняется, как использовать Dynamics 365 for Talent - Attract для публикации объявлений о вакансиях на LinkedIn.
+title: Публикация вакансий в LinkedIn из Microsoft Dynamics 365 Talent - Attract
+description: В этом разделе объясняется, как использовать Dynamics 365 Talent - Attract для публикации объявлений о вакансиях на LinkedIn.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f2109f5e90321598eb2317140eef6bcd86ab82f5
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756184"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008251"
 ---
 # <a name="post-jobs-to-linkedin"></a>Публикация вакансий в LinkedIn
 
 [!include [banner](../includes/banner.md)]
 
-LinkedIn — это крупнейшая профессиональная сеть в Интернете, предоставляющая вам доступ к лучшим специалистам в мире. Microsoft Dynamics 365 for Talent: Attract помогает получить нужных специалистов, позволяя размещать объявления о вакансиях непосредственно из Attract в LinkedIn.
+LinkedIn — это крупнейшая профессиональная сеть в Интернете, предоставляющая вам доступ к лучшим специалистам в мире. Microsoft Dynamics 365 Talent: Attract помогает получить нужных специалистов, позволяя размещать объявления о вакансиях непосредственно из Attract в LinkedIn.
 
 Attract позволяет размещать объявления в ограниченных списках в LinkedIn без дополнительных затрат. Эти списки доступны только через партнеров программного обеспечения LinkedIn, таких как Attract. Они не отображаются в панели **Вакансии** на странице LinkedIn вашей компании, поскольку там отображаются только оплаченные списки. Однако они отображаются, когда потенциальные кандидаты просматривают все доступные вакансии. Ограниченные списки также отображаются в результатах поиска вакансий в LinkedIn.
 

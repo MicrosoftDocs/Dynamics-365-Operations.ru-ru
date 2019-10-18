@@ -1,6 +1,6 @@
 ---
 title: Обзор управления транспортировкой
-description: В этом разделе представлен обзор функций управления транспортировкой в Microsoft Dynamics 365 for Finance and Operations.
+description: В этом разделе представлен обзор функций управления транспортировкой в Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561182"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2027069"
 ---
 # <a name="transportation-management-overview"></a>Обзор управления транспортировкой
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе представлен обзор функций управления транспортировкой в Microsoft Dynamics 365 for Finance and Operations.
+В этом разделе представлен обзор функций управления транспортировкой в Finance and Operations.
 
-Модуль "Управление транспортировкой" позволяет использовать транспорт вашей компании, а также определять поставщиков и маршрутные решения для входящих и исходящих заказов. Например, можно определить самый быстрый маршрут или наименьшую ставку для отгрузки. Следующая таблица содержит описание основных сценариев использования модуля "Управление транспортировкой" в Microsoft Dynamics 365 for Finance and Operations.
+Модуль "Управление транспортировкой" позволяет использовать транспорт вашей компании, а также определять поставщиков и маршрутные решения для входящих и исходящих заказов. Например, можно определить самый быстрый маршрут или наименьшую ставку для отгрузки. Следующая таблица содержит описание основных сценариев использования модуля "Управление транспортировкой".
 
 <table>
 <colgroup>

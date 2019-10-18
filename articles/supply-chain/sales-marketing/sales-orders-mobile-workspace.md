@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 00ea121385d74b3f8992d34fb485a8232325ea3f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835750"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251632"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Мобильная рабочая область заказов на продажу
 
@@ -31,7 +31,7 @@ ms.locfileid: "1835750"
 
 В этой теме содержится информация о мобильной рабочей области **Заказы на продажу**. Эта рабочая область помогает отслеживать заказы на продажу в любом месте и в любое время. 
 
-Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations Mobile.
+Эту мобильную рабочую область можно использовать с мобильным приложением Finance and Operations.
 
 ## <a name="overview"></a>Обзор
 Мобильная рабочая область **Заказы на продажу** позволяет просмотреть подробные сведения по каждому заказу на продажу. Эти сведения включают статус заказа, контактную информацию для клиента и контактную информацию для приемщика заказа. Мобильная рабочая область **Заказы на продажу** обеспечивает мгновенный просмотр заказов на продажу. Можно просматривать все заказы на продажу, заказы на продажу по клиентам или сведения о конкретном заказе на продажу. 
@@ -83,8 +83,8 @@ ms.locfileid: "1835750"
 ## <a name="prerequisites"></a>Необходимые условия
 Предварительные условия различаются, в зависимости от версии Microsoft Dynamics 365, развернутой в организации.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations 
-Если в вашей организации развернута система Dynamics 365 for Finance and Operations, системный администратор должен опубликовать мобильную рабочую область **Заказы на продажу**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Необходимые условия при использовании Supply Chain Management 
+Если в вашей организации развернута система Supply Chain Management, системный администратор должен опубликовать мобильную рабочую область **Заказы на продажу**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии
 Если в вашей организации развернута система Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
@@ -120,7 +120,7 @@ ms.locfileid: "1835750"
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Загрузите и установите мобильное приложение
-Загрузите и установите мобильное приложение Dynamics 365 for Unified Operations:
+Загрузите и установите мобильное приложение Finance and Operations:
 
 -   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

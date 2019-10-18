@@ -1,6 +1,6 @@
 ---
-title: Что нового и что изменилось в Dynamics 365 for Talent (27 февраля 2019 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+title: Что нового и что изменилось в Dynamics 365 Talent (27 февраля 2019 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/27/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f175c6e60cf87c7dcbde0eaf35357130fa035712
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518920"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024007"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (27 февраля 2019 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (27 февраля 2019 г.)
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Изменения в Attract
 
@@ -77,9 +77,9 @@ ms.locfileid: "1518920"
 
 Во многих организациях менеджеры по компенсации и льготам могут иметь доступ только к определенным записям компенсаций. Эти записи могут быть для руководителей или региональных сотрудников. Это изменение позволит отделам кадров (HR) управлять и обслуживать планы компенсации для различных совокупностей сотрудников в организации. Роли безопасности, которые могут быть назначены фиксированным и переменным планам, будут определять доступ к этим планам и данным о сотрудниках, относящихся к ним (например, записи сведений о зарплате и премиях). Только роли, которые имеют указанный доступ, смогут обрабатывать компенсации для таких сотрудников.
 
-### <a name="platform-update-24"></a>Обновление платформы update 24
+### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 для Finance and Operations
 
-Дополнительные сведения об обновлении платформы Microsoft Dynamics 365 for Finance and Operations update 24 (март 2019) см. в разделе [Функции предварительной версии в обновлении платформы Finance and Operations update 24 (март 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Дополнительные сведения об обновлении платформы Platform update 24 для Microsoft Dynamics 365 Finance and Operations (март 2019) см. в разделе [Функции предварительной версии в Finance and Operations, обновлении платформы Platform update 24 (март 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Доступность фиксированной компенсации сотруднику для будущих должностей
 
@@ -87,10 +87,10 @@ ms.locfileid: "1518920"
 
 ## <a name="known-issues"></a>Известные проблемы
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Изменения в шаблоне интеграции Core HR (Talent Common Data Service с Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance"></a>Изменения в шаблоне интеграции Core HR (Talent Common Data Service с Finance)
 Шаблон для Core HR обновлен до "шаблона расширенного запроса". Таким образом, по умолчанию расширенный запрос будет доступен для проектов, созданных с помощью этого шаблона. Кроме того, все функции сопоставления по умолчанию будет отображаться только в редакторе расширенного запроса. (Функции сопоставления по умолчанию отображаются как "FN" в сопоставлениях.)
 
-Дополнительные сведения об ошибках сопоставления см. в разделе [Что нового и что изменилось в Dynamics 365 for Talent Core HR (14 декабря 2018 г.)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
+Дополнительные сведения об ошибках сопоставления см. в разделе [Что нового и что изменилось в Dynamics 365 Talent: Core HR (14 декабря 2018 г.)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
 
 Чтобы использовать новый шаблон, создайте новый проект и выберите новый шаблон интеграции Talent.
 

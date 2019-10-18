@@ -1,6 +1,6 @@
 ---
 title: Инициализация начальных данных в новых средах Retail
-description: В этой статье описываются данные, создаваемые в процессе инициализации для Microsoft Dynamics 365 for Retail.
+description: В этой статье описываются данные, создаваемые в процессе инициализации для Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556906"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025524"
 ---
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Инициализация начальных данных в новых средах Retail
 
 [!include [banner](includes/banner.md)]
 
-В этой статье описываются данные, создаваемые в процессе инициализации для Microsoft Dynamics 365 for Retail.
+В этой статье описываются данные, создаваемые в процессе инициализации для Dynamics 365 Retail.
 
 После развертывания решения "Розничная торговля" посредством Microsoft Dynamics Lifecycle Services (LCS) необходимо инициализировать конфигурацию розничной торговли, чтобы создать базовые данные конфигурации.
 
@@ -39,7 +39,7 @@ ms.locfileid: "1556906"
 
 Чтобы инициализировать конфигурацию розничной торговли, выполните следующие действия.
 
-1. Запустите клиент Dynamics 365 for Retail.
+1. Запустите клиент Retail.
 2. Выберите **Розничная торговля** &gt; **Настройка центрального офиса** &gt; **Параметры** &gt; **Параметры розничной торговли**.
 3. Щелкните **Инициализировать**.
 
@@ -57,7 +57,7 @@ ms.locfileid: "1556906"
 - Шаблоны проверки объектов
 - Пакетное задание для очистки истории сессии Commerce Data Exchange
 
-Кроме того, для базы данных Dynamics 365 for Retail включается ведение журналов, связанных с платежными картами (PCI).
+Кроме того, для базы данных Retail включается ведение журналов, связанных с платежными картами (PCI).
 
 > [!NOTE]
 > Также предусмотрен параметр, позволяющий отдельно сконфигурировать планировщик розничной торговли. Этот параметр позволяет сбросить конфигурацию планировщика розничной торговли к его настройкам по умолчанию.

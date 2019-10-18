@@ -1,6 +1,6 @@
 ---
 title: Пользователь не найден в средстве выбора пользователей в Attract или Onboard
-description: В этом разделе объясняется, что делать, когда пользователи в клиенте организации не видны в средстве выбора пользователей в приложениях Dynamics 365 for Talent Attract или Onboard.
+description: В этом разделе объясняется, что делать, когда пользователи в клиенте организации не видны в средстве выбора пользователей в Dynamics 365 Talent - Attract или Onboard.
 author: andreabichsel
 manager: AnnBe
 ms.date: 01/22/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 2a3c83fcc3f48aa235ffb2db2dc492b34a306c4c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742757"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024204"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>Пользователи Azure Active Directory отсутствуют в средстве выбора пользователей
 
@@ -30,11 +30,11 @@ ms.locfileid: "1742757"
 
 ## <a name="issue"></a>Выдать
 
-Некоторые допустимые пользователи в Microsoft Azure Active Directory (Azure AD) для клиента не отображаются при поиске имени в средстве выбора пользователей в приложениях Dynamics 365 for Talent Attract или Onboard.
+Некоторые допустимые пользователи в Microsoft Azure Active Directory (Azure AD) для клиента не отображаются при поиске имени в средстве выбора пользователей в приложениях Dynamics 365 Talent: Attract или Dynamics 365 Talent: Onboard.
 
 ## <a name="cause"></a>Причина
 
-Определенные пользователем в настоящее время не поддерживаются в приложениях Attract и Onboard. Убедитесь, что пользователь не является гостевым пользователем Azure AD B2B. Сведения "Тип пользователя" можно найти в колонке Azure Active Directory на портале Azure.
+Определенные пользователем в настоящее время не поддерживаются в Attract и Onboard. Убедитесь, что пользователь не является гостевым пользователем Azure AD B2B. Сведения "Тип пользователя" можно найти в колонке Azure Active Directory на портале Azure.
 
 Дополнительные сведения об Azure B2B см. в разделе [Что такое доступ гостевого пользователя в Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).
 
