@@ -1,6 +1,6 @@
 ---
-title: Что нового или что изменилось в Dynamics 365 for Talent (30 апреля 2019 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+title: Что нового или что изменилось в Dynamics 365 Talent (30 апреля 2019 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/30/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 112146ac46193e37b33bf429dc5a359f8cfaca94
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 38158948dbcf8966edf49bcce5b1e5da7eddb8dc
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505383"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026050"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-30-2019"></a>Что нового или что изменилось в Dynamics 365 for Talent (30 апреля 2019 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-30-2019"></a>Что нового или что изменилось в Dynamics 365 Talent (30 апреля 2019 г.)
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Изменения в Attract
 
@@ -100,4 +100,4 @@ ms.locfileid: "1505383"
 
 ### <a name="email-support-for-alerts"></a>Поддержка по электронной почте для оповещений
 
-В обновлении платформы Platform update 26 пользователи могут создавать правила оповещений, которые автоматически посылают уведомления по электронной почте контактам, когда уведомления запускаются событиями.
+В обновлении платформы Platform Update 26 для Finance and Operations пользователи могут создавать правила оповещений, которые автоматически отправляют уведомления по электронной почте контактам, когда уведомления запускаются событием.

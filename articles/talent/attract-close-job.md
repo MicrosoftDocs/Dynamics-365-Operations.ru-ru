@@ -1,6 +1,6 @@
 ---
-title: Закрытие вакансии в Microsoft Dynamics for Talent - Attract
-description: В этом разделе описывается, как закрыть вакансию в Microsoft Dynamics 365 for Talent - Attract.
+title: Закрытие вакансии в Microsoft Dynamics Talent - Attract
+description: В этом разделе описывается, как закрыть вакансию в Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/10/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2010-07-10
 ms.dyn365.ops.version: Talent 2019 Wave 1 update
-ms.openlocfilehash: ec1b4d1fcd02bad329030b37a491b52a7c9c0a30
-ms.sourcegitcommit: 42589141431a5f357804b7e9ea9c781d594ef09d
+ms.openlocfilehash: 632db42b12d0a442b8e1f35dbc784d252ffde399
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773548"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008624"
 ---
 # <a name="close-a-job"></a>Закрытие вакансии
 
 [!include [banner](includes/banner.md)]
 
-В Microsoft Dynamics 365 for Talent: Attract можно закрыть вакансию как **Вакансия отменена** или **Позиция занята**. Вакансию можно отменить в любое время.
+В Microsoft Dynamics 365 Talent: Attract можно закрыть вакансию как **Вакансия отменена** или **Позиция занята**. Вакансию можно отменить в любое время.
 
 Если необходимо указать, что должность была заполнена, кандидат должен принять предложение для данной вакансии.
 

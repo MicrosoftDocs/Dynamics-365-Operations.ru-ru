@@ -1,6 +1,6 @@
 ---
-title: Что нового и что изменилось в Dynamics 365 for Talent Core HR (17 сентября 2018 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent Core HR.
+title: Что нового и что изменилось в Dynamics 365 Talent - Core HR (17 сентября 2018 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 213324f9074f88d9fdc8efdfa46bc3ed7817d1e8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 558c2cdb4addce54af937ff862535d65f1ebd602
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518956"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026053"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Что нового и что изменилось в Dynamics 365 for Talent Core HR (17 сентября 2018 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-17-2018"></a>Что нового и что изменилось в Dynamics 365 Talent: Core HR (17 сентября 2018 г.)
 
 [!include [banner](includes/banner.md)]
 
@@ -37,13 +37,13 @@ ms.locfileid: "1518956"
 
 В планы отпусков добавлен новый тип начисления. График начисления теперь может быть основан на отработанных месяцах или часах. Дополнительные сведения см. в разделе [Начисление времени отпуска на основе отработанных часов](leave-accrue-hours-worked.md).
 
-## <a name="platform-update-18"></a>Обновление платформы update 18
+## <a name="platform-update-18-for-finance-and-operations"></a>Platform update 18 для Finance and Operations
 
-Platform update 18 теперь входит в состав выпуска Talent. 
+Platform update 18 для Finance and Operations теперь входит в состав выпуска Talent. 
 
 -   Обязательные и другие поля можно скрывать посредством персонализации. Это позволяет пользователю создавать упрощенный интерфейс, когда обязательные поля, которые по умолчанию заполняются бизнес-логикой, не отображаются. Скрытые обязательные поля также временно становятся видимыми, если на момент попытки сохранения они пустые.
 
--   В Platform update 18 визуальное оформление веб-клиента Talent теперь соответствует Microsoft Fluent Design.
+-   В Platform update 18 для Finance and Operations визуальное оформление веб-клиента Talent теперь соответствует Microsoft Fluent Design.
 
     -   Когда поля находятся в "режиме для чтения", можно просто выбрать параметр редактирования в полях, чтобы перевести форму в режим редактирования.
 

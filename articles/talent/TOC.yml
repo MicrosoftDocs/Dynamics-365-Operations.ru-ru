@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: index.md
+  href: index.yml
   items:
     - name: Начало работы
       items:
@@ -8,6 +8,14 @@
         - name: Что нового и что изменилось в Talent
           href: whats-new.md
           items:
+            - name: 1 октября 2019 г.
+              href: whats-new-talent-october-1-2019.md
+            - name: 17 сентября 2019 г.
+              href: whats-new-talent-september-17-2019.md
+            - name: 10 сентября 2019 г.
+              href: whats-new-talent-september-12-2019.md
+            - name: 27 августа 2019 г.
+              href: whats-new-talent-august-28-2019.md
             - name: 22 августа 2019 г.
               href: whats-new-talent-august-21-2019.md
             - name: 13 августа 2019 г.
@@ -24,16 +32,16 @@
               href: whats-new-talent-july-9-2019.md
             - name: 2 июля 2019 г.
               href: whats-new-talent-july-2-2019.md
-            - name: 25 июня 2019 г.
-              href: whats-new-talent-june-25-2019.md
-            - name: 18 июня 2019 г.
-              href: whats-new-talent-june-18-2019.md
-            - name: 11 июня 2019 г.
-              href: whats-new-talent-june-11-2019.md
-            - name: 4 июня 2019 г.
-              href: whats-new-talent-june-4-2019.md
             - name: Архивы "Что нового" за 2019 г.
               items:
+                - name: 25 июня 2019 г.
+                  href: whats-new-talent-june-25-2019.md
+                - name: 18 июня 2019 г.
+                  href: whats-new-talent-june-18-2019.md
+                - name: 11 июня 2019 г.
+                  href: whats-new-talent-june-11-2019.md
+                - name: 4 июня 2019 г.
+                  href: whats-new-talent-june-4-2019.md
                 - name: 28 мая 2019 г.
                   href: whats-new-talent-may-28-2019.md
                 - name: 21 мая 2019 г.
@@ -112,7 +120,7 @@
           href: remove-talent-environment.md
         - name: Подготовка для приложения Onboard
           href: modular-app-tech-faq.md
-        - name: Внедрение приложений PowerApps
+        - name: Внедрить приложения PowerApps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR и Common Data Service
           href: CoreHREntities.md
@@ -427,6 +435,8 @@
           href: corehr-custom-fields.md
     - name: Устранение неполадок в Talent
       items:
+        - name: Оптимизация производительности с помощью задач автоматической очистки
+          href: talent-batch-history-cleanup.md
         - name: Устранение неполадок при публикации вакансий в LinkedIn
           href: attract-troubleshoot-linkedin.md
         - name: Аналитические отчеты не обновляются

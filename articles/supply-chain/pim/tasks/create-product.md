@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1efef5252059d04cf9eaa8fbb5110f193219a9c4
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1dca3156a7fb90f8117e34225938cba151916842
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844641"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026333"
 ---
 # <a name="create-a-product"></a>Создание продукта
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-В этой процедуре рассматривается создание нового продукта в иерархии розничной продукции. В качестве компании с демонстрационными данными для создания этой задачи использовалась компания USRT. Задача предназначена для директора по сбыту и конструктора продуктов.
+В этой процедуре рассматривается создание нового продукта в иерархии продуктов Retail. В качестве компании с демонстрационными данными для создания этой задачи использовалась компания USRT. Задача предназначена для директора по сбыту и конструктора продуктов.
 
 1. Перейдите в раздел "Розничная торговля и коммерция" > .. > "Продукты по категориям".
 2. Щелкните "Создать".

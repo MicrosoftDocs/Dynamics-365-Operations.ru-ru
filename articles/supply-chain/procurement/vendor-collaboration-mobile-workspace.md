@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 253ba0bd991e8db17940d3d4b9ade599800bf924
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2c2ba1f23cc068daf20474f05519c3c6865fd183
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843873"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250264"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Мобильная рабочая область совместной работы с поставщиками
 
@@ -30,10 +30,10 @@ ms.locfileid: "1843873"
 
 В этой теме содержится информация о мобильной рабочей области **Совместная работа с поставщиками**. Эта рабочая область помогает вашим поставщикам быть в курсе заказов на покупку, отправленных им на утверждение. Они также могут просмотреть сведения о новых и обновленных заказах на покупку и контактах.
 
-Эту мобильную рабочую область можно использовать с мобильным приложением Microsoft Dynamics 365 for Unified Operations Mobile.
+Эту мобильную рабочую область можно использовать с мобильным приложением Finance and Operations.
 
 ## <a name="overview"></a>Обзор 
-Мобильная рабочая область **Совместная работа с поставщиками** информирует поставщиков о новых заказах на покупку, чтобы они могли видеть заказы на покупку в веб-клиенте Microsoft Dynamics 365 for Finance and Operations и реагировать на эти заказы. 
+Мобильная рабочая область **Совместная работа с поставщиками** информирует поставщиков о новых заказах на покупку, чтобы они могли видеть заказы на покупку в веб-клиенте и реагировать на эти заказы. 
 
 >[!NOTE]
 > Мобильная рабочая область должна использоваться как дополнение к веб-интерфейсу совместной работы с поставщиками, но не как его замена. 
@@ -59,8 +59,8 @@ ms.locfileid: "1843873"
 ## <a name="prerequisites"></a>Необходимые условия
 Предварительные условия различаются в зависимости от версии Microsoft Dynamics 365, развернутой в организации.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Finance and Operations 
-Если в вашей организации развернута система Microsoft Dynamics 365 for Finance and Operations, системный администратор должен опубликовать мобильную рабочую область **Совместная работа с поставщиками**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Необходимые условия при использовании Supply Chain Management
+Если в вашей организации развернута система Supply Chain Management, системный администратор должен опубликовать мобильную рабочую область **Совместная работа с поставщиками**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Необходимые условия при использовании Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии
 Если в вашей организации развернута система Microsoft Dynamics 365 for Operations версии 1611 с обновлением платформы 3 или более поздней версии, системный администратор должен выполнить следующие условия. 
@@ -104,7 +104,7 @@ ms.locfileid: "1843873"
 <li><a href="vendor-collaboration-work-external-vendors.md">Использование совместной работы с поставщиками для работы с внешними поставщиками</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Управление пользователями совместной работы с поставщиками</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">Настройка и ведение сотрудничества с поставщиками</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Использование совместной работы с поставщиками для работы с клиентами в Finance and Operations</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Использование совместной работы с поставщиками для работы с клиентами в Supply Chain Management</a></li>
 </ul></td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ ms.locfileid: "1843873"
 
 ## <a name="download-and-install-the-mobile-app"></a>Загрузите и установите мобильное приложение
 
-Загрузите и установите мобильное приложение Dynamics 365 for Unified Operations:
+Загрузите и установите мобильное приложение Finance and Operations:
 
 -   [Для телефонов Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

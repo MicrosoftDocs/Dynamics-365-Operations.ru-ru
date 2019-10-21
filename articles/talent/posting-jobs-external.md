@@ -1,6 +1,6 @@
 ---
 title: Публикация вакансий на внешних сайтах вакансий из Attract
-description: В этом разделе объясняется, как использовать Dynamics 365 for Talent - Attract для публикации объявлений о вакансиях на внешних сайтах трудоустройства
+description: В этом разделе объясняется, как использовать Dynamics 365 Talent - Attract для публикации объявлений о вакансиях на внешних сайтах трудоустройства
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739825"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008090"
 ---
 # <a name="post-jobs-to-broadbean"></a>Публикация вакансий в Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract помогает получить нужных специалистов, позволяя размещать объявления о вакансиях непосредственно из Attract в Broadbean. После [создания вакансии](./creating-jobs-attract.md) достаточно нажать кнопку, чтобы эта вакансия стала доступна для всех потенциальных кандидатов на вакансию в Broadbean.
+Microsoft Dynamics 365 Talent: Attract помогает получить нужных специалистов, позволяя размещать объявления о вакансиях непосредственно из Attract в Broadbean. После [создания вакансии](./creating-jobs-attract.md) достаточно нажать кнопку, чтобы эта вакансия стала доступна для всех потенциальных кандидатов на вакансию в Broadbean.
 
 Для размещения вакансий в Broadbean требуется соответствующая лицензия Broadbean. Broadbean предлагает различные продукты и планы. Для получения дополнительных сведений о лицензиях и ценах Broadbean [обратитесь в Broadbean](https://www.broadbean.com/contact-us/).
 

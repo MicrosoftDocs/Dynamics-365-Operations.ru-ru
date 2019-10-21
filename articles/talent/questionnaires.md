@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 2762179a13ff9bbcb4001f3a9aba443c4aa00f9f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518934"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024247"
 ---
 # <a name="questionnaires"></a>Анкеты
 
@@ -31,7 +31,7 @@ ms.locfileid: "1518934"
 
 В этом разделе представлены общие сведения об анкетах и ссылки на более подробные сведения. Анкета — это набор вопросов, используемых для сбора сведений для различных целей. Анкеты можно разрабатывать, создавать, распространять и заполнять, а затем анализировать результаты. 
 
-Анкету можно модифицировать, чтобы она соответствовала конкретным потребностям, с помощью разнообразных функций, доступных в Microsoft Dynamics 365 for Finance and Operations. Вот несколько примеров использования анкет:
+Анкету можно модифицировать, чтобы она соответствовала конкретным потребностям, с помощью разнообразных функций, доступных в Microsoft Dynamics 365 Finance. Вот несколько примеров использования анкет:
 
 -   Проверка профессиональных навыков и кандидатов.
 -   Определение того, выучили ли участники курса материал курса.

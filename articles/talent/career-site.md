@@ -1,6 +1,6 @@
 ---
-title: Настройка сайта карьеры в Microsoft Dynamics 365 for Talent - Attract
-description: В этом разделе представлен обзор функций сайта карьеры для кандидатов в Microsoft Dynamics 365 for Talent - Attract.
+title: Настройка сайта карьеры в Microsoft Dynamics 365 Talent - Attract
+description: В этом разделе представлен обзор функций сайта карьеры для кандидатов в Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ec5fe31c6547b008b29e656729c35863d90bffc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739779"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026287"
 ---
 # <a name="set-up-your-career-site"></a>Настройка сайта карьеры
 
 [!include[banner](../includes/banner.md)]
 
-В этом разделе представлен обзор функций сайта карьеры для кандидатов в Microsoft Dynamics 365 for Talent: Attract. Также описывается, как настроить эту функцию.
+В этом разделе представлен обзор функций сайта карьеры для кандидатов в Microsoft Dynamics 365 Talent: Attract. Также описывается, как настроить эту функцию.
 
 Attract содержит один сайт карьеры для каждой среды в клиенте. Например, если в организации есть среда разработки и тестовая среда, один сайт карьеры предоставляется для среды разработки, а другой сайт карьеры предоставляется для тестовой среды. Каждый сайт карьеры полностью изолирован и имеет свой собственный механизм проверки подлинности. Должности и профили кандидатов не являются общими между сайтами карьеры.
 
@@ -62,7 +62,7 @@ Attract содержит один сайт карьеры для каждой с
 
 -   **URL-адрес домашней страницы сайта вакансий** — чтобы просмотреть URL-адрес домашней страницы сайта вакансий выполните вход в Attract с правами администратора, выберите **Центр администрирования** в меню **Параметры**, затем выберите вкладку **Управление сайтом вакансий**.
 
--   **URL-адрес подачи заявления на индивидуальное объявление о вакансии** — при первой [публикации объявления о внешней должности](Creating-jobs-Attract.md#postings) можно скопировать ссылку **Управление сайтом вакансий** из приложения Attract. URL-адрес для этой ссылки будет иметь следующий формат: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **URL-адрес подачи заявления на индивидуальное объявление о вакансии** — при первой [публикации объявления о внешней должности](Creating-jobs-Attract.md#postings) можно скопировать ссылку **Управление сайтом вакансий** из Attract. URL-адрес для этой ссылки будет иметь следующий формат: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **URL-адреса публикации индивидуального объявления о вакансии** — URL-адрес объявления о вакансии является подстрокой URL-адреса подачи заявления. Он состоит из всего вверх от названия номера вакансии. Таким образом, для предыдущего URL-адреса подачи заявления URL-адрес объявления о вакансии имеет вид [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 

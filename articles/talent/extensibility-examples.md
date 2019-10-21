@@ -1,13 +1,13 @@
 ---
 title: Расширение Talent с помощью PowerApps и Microsoft Flow — примеры сценариев
-description: В этой теме описывается несколько примеров сценариев расширения для Microsoft Dynamics 365 for Talent, использующих Microsoft PowerApps и Microsoft Flow.
+description: В этой теме описывается несколько примеров сценариев расширения для Microsoft Dynamics 365 Talent, использующих Microsoft PowerApps и Microsoft Flow.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
+ms.technology: Dynamics 365 Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
-ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
+ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1781450"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008067"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Расширение Talent с помощью PowerApps и Microsoft Flow — примеры сценариев
 
-В этой теме описывается несколько примеров сценариев расширения для Microsoft Dynamics 365 for Talent, использующих Microsoft PowerApps и Microsoft Flow. Можно импортировать пакет решения, связанный с каждым примером, в среду PowerApps. Затем можно использовать эти пакеты как руководство или как основу для реализации сценариев, которые применимы к вашей организации.
+В этой теме описывается несколько примеров сценариев расширения для Microsoft Dynamics 365 Talent, использующих Microsoft PowerApps и Microsoft Flow. Можно импортировать пакет решения, связанный с каждым примером, в среду PowerApps. Затем можно использовать эти пакеты как руководство или как основу для реализации сценариев, которые применимы к вашей организации.
 
 > [!IMPORTANT]
 > Если вы хотите использовать шаблоны и приложения, описанные в этом разделе, "как есть", обязательно проверьте их, чтобы убедиться в том, что они охватывают все сценарии, относящиеся к вашей реализации.
@@ -79,7 +79,7 @@ ms.locfileid: "1781450"
 
 Этот шаблон может быть расширен для отслеживания изменений этапа кандидата в процессе набора персонала и для отправки уведомлений рабочей группе найма сотрудников и кандидату.
 
-В общем случае для объектов, которые хранятся в Common Data Service, потоки можно настроить для отправки уведомлений о событиях, происходящих в Core HR, Attract или Dynamics 365 Talent: Onboard.
+В общем случае для объектов, которые хранятся в Common Data Service, потоки можно настроить для отправки уведомлений о событиях, происходящих в Core HR, Attract или Onboard.
 
 Чтобы загрузить шаблон **Поток — уведомление по электронной почте**, выберите [Поток — уведомление по электронной почте](https://go.microsoft.com/fwlink/?linkid=2082103) в центре загрузки Майкрософт.
 
@@ -106,7 +106,7 @@ ms.locfileid: "1781450"
 
 Это приложение можно встроить в дистанционное обслуживание сотрудников (ESS) для отправки ссылок, либо можно использовать его в качестве гиперссылки на корпоративном портале и запускать его как отдельное приложение.
 
-Чтобы загрузить **Приложение ссылки**, перейдите по адресу [Решение расширения Dynamics 365 for Talent: приложение ссылки](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) в центре загрузки Майкрософт. Можно импортировать это приложение и настроить его для добавления дополнительных функциональных возможностей.
+Чтобы загрузить **Приложение ссылки**, перейдите по адресу [Решение расширения Dynamics 365 Talent: приложение ссылки](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) в центре загрузки Майкрософт. Можно импортировать это приложение и настроить его для добавления дополнительных функциональных возможностей.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

@@ -1,5 +1,5 @@
 ---
-title: Внедрение приложений PowerApps в Core HR
+title: Внедрение приложений PowerApps в Dynamics 365 - Core HR
 description: В этом разделе описан порядок решения проблемы, когда элемент меню PowerApps исчезает из модуля "Администрирование системы".
 author: andreabichsel
 manager: AnnBe
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4fbc24c5ceb73389b84b125eb942ac31757928aa
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742827"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008438"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>Внедрение приложений PowerApps в Core HR
 
 [!include [banner](includes/banner.md)]
 
-**Расход**
+**Выдать**
 
 Пункт меню **PowerApps** исчез из модуля **Администрирование системы**.
 
@@ -36,9 +36,9 @@ ms.locfileid: "1742827"
 
 Дизайн пользовательского интерфейса был изменен, и Microsoft PowerApps теперь включены в стандартную модуль персонализации.
 
-**Разрешение**
+**Приказ**
 
-Был изменен способ внедрения приложений PowerApps. Теперь приложения PowerApps добавляются с помощью модели персонализации. Можно добавить приложения PowerApps почти на все страницы Microsoft Dynamics 365 for Talent.
+Был изменен способ внедрения приложений PowerApps. Теперь приложения PowerApps добавляются с помощью модели персонализации. Можно добавить приложения PowerApps почти на все страницы Microsoft Dynamics 365 Talent.
 
 Информацию о том, как внедрить приложения PowerApps в Talent, см. раздел [Внедрение приложений PowerApps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 

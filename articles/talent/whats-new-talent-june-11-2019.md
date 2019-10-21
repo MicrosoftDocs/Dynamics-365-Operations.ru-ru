@@ -1,6 +1,6 @@
 ---
-title: Что нового и что изменилось в Dynamics 365 for Talent (11 июня 2019 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+title: Что нового и что изменилось в Dynamics 365 Talent (11 июня 2019 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/11/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b06dc0556bd1461573cd56abed602d72333a3f39
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741633"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023938"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (11 июня 2019 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (11 июня 2019 г.)
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Изменения в Attract
 
 ### <a name="search-engine-optimization-for-job-posts"></a>Оптимизация поисковой системы для объявлений о вакансиях
 
-После включения параметра **Оптимизация для поисковых систем** в центре администрирования Dynamics 365 for Talent: Attract приложение Attract информирует интерфейс прикладного программирования (API) индексирования Google, чтобы он выполнял обход содержимого веб-страницы при активации и публикации новой вакансии или обновлении существующей вакансии. Таким образом, вакансия появится в результатах поиска Google и других поисковых систем.
+После включения параметра **Оптимизация для поисковых систем** в центре администрирования Dynamics 365 Talent: Attract приложение Attract информирует интерфейс прикладного программирования (API) индексирования Google, чтобы он выполнял обход содержимого веб-страницы при активации и публикации новой вакансии или обновлении существующей вакансии. Таким образом, вакансия появится в результатах поиска Google и других поисковых систем.
 
 Аналогичным образом, при отмене публикации вакансии Attract информирует интерфейс API индексирования, чтобы отмененная вакансия больше не появлялась в результатах поиска.
 
@@ -50,15 +50,15 @@ ms.locfileid: "1741633"
 
 ## <a name="changes-in-onboard"></a>Изменения в Onboard
 
-Этот выпуск содержит исправления незначительных ошибок для Dynamics 365 for Talent: Onboard.
+Этот выпуск содержит исправления незначительных ошибок для Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Изменения в Core HR
 
 Изменения, описанные в этом разделе, относятся к сборке номер 8.1.2337.
 
-### <a name="platform-update-27"></a>Обновление платформы update 27
+### <a name="platform-update-27-for-finance-and-operations"></a>Platform update 27 для Finance and Operations
 
-Дополнительные сведения об обновлении платформы Platform update 27 см. в разделе [Предварительные версии функций в Dynamics 365 for Finance and Operations Platform Update 27 (июнь 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
+Дополнительные сведения об обновлении платформы Platform update 27 для Finance and Operations см. в разделе [Предварительные версии функций в Dynamics 365 Finance and Operations Platform Update 27 (июнь 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 
 ### <a name="feature-management-workspace-in-talent"></a>Рабочая область управления функциями в Talent
 

@@ -1,6 +1,6 @@
 ---
-title: Работа с датой и временем в Microsoft Dynamics 365 for Talent
-description: Узнайте, что следует ожидать при использовании полей даты и времени в Microsoft Dynamics 365 for Talent. Узнайте, что следует ожидать при взаимодействии с данными даты и времени в форме в Dynamics 365 for Talent, во внешнем источнике или в Common Data Service.
+title: Работа с датой и временем в Microsoft Dynamics 365 Talent
+description: Узнайте, что следует ожидать при использовании полей даты и времени в Microsoft Dynamics 365 Talent. Узнайте, что следует ожидать при взаимодействии с данными даты и времени в форме в Talent, во внешнем источнике или в Common Data Service.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/24/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b4c652992272ed1a5aecbb4c78f0d11f077149d1
-ms.sourcegitcommit: 46bded82aa072adfedcf443629c2adc69f512c09
+ms.openlocfilehash: 1a1d1a47bfe6bd58b1e1a0d4d46c2133f3bf48ad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1791228"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2007975"
 ---
 # <a name="date-and-time-fields-in-talent"></a>Поля даты и времени в Talent
 
 [!include [banner](includes/banner.md)]
 
-Поля **Дата и время** являются фундаментальным понятием в Dynamics 365 for Talent. Важно понимать, как работать с данными **Дата и время** в форме Dynamics 365, Common Data Service и во внешних источниках.
+Поля **Дата и время** являются фундаментальным понятием в Dynamics 365 Talent. Важно понимать, как работать с данными **Дата и время** в форме Dynamics 365, Common Data Service и во внешних источниках.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Общее представление о разнице между типами данных полей "Дата" и "Дата и время"
 

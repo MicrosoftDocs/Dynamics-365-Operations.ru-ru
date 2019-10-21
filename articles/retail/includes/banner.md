@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Этот раздел относится к Dynamics 365 for Retail и Dynamics 365 for Finance and Operations.
+> Этот раздел относится к Dynamics 365 Retail и Dynamics 365 Commerce (предварительный просмотр).

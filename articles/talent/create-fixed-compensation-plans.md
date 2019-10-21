@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 0a31ea7d1df33d3f42e95d5e1152f00687954b04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3a6e7556705249296d4f5e5fb56f25b444f8f71a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518892"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008159"
 ---
 # <a name="create-fixed-compensation-plans"></a>Создание планов фиксированных компенсаций
 
@@ -31,7 +31,7 @@ ms.locfileid: "1518892"
 
 Фиксированная компенсация ссылается на регулярную общую арплату или зарплаты сотрудника регулярную большую. Этот раздел описывает компоненты, которые необходимо настроить перед использованием плана фиксированной компенсации и регистрацией сотрудников.
 
-Суммы фиксированной компенсации можно рассчитать для работников на основании таких факторов, как производительность, регион и увеличения бюджета. Microsoft Talent поддерживает типы компенсации для шага, уровня и диапазона.
+Суммы фиксированной компенсации можно рассчитать для работников на основании таких факторов, как производительность, регион и увеличения бюджета. Dynamics 365 Talent поддерживает типы компенсации для шага, уровня и диапазона.
 
 ## <a name="fixed-compensation-components"></a>Компоненты фиксированной компенсации
 ### <a name="compensation-levels"></a>Уровни компенсации

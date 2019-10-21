@@ -1,6 +1,6 @@
 ---
-title: Синхронизация сведений уровня запасов из Finance and Operations в Field Service
-description: В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации сведений об уровне запасов из Microsoft Dynamics 365 for Finance and Operations в Microsoft Dynamics 365 for Field Service.
+title: Синхронизация сведений об уровне запасов из Supply Chain Management с Field Service
+description: В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации сведений об уровне запасов из Dynamics 365 Supply Chain Management в Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 05/07/2019
@@ -19,37 +19,37 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b56eb545f87c31ef30d6a897f48539068583486
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: eefbfd1f8d7aa73cbb3330433b08efd889232818
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843441"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251209"
 ---
-# <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Синхронизация сведений об уровне запасов Finance and Operations с Field Service 
+# <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Синхронизация сведений об уровне запасов из Supply Chain Management с Field Service 
 
 [!include[banner](../includes/banner.md)]
 
-В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации сведений об уровне запасов из Microsoft Dynamics 365 for Finance and Operations в Microsoft Dynamics 365 for Field Service.
+В этом разделе описываются шаблоны и базовые задачи, которые используются для синхронизации сведений об уровне запасов из Dynamics 365 Supply Chain Management в Dynamics 365 Field Service.
 
-[![Синхронизация бизнес-процессов между Finance and Operations и Field Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
+[![Синхронизация бизнес-процессов между Supply Chain Management и Field Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
-Следующие шаблон и базовые задачи используются для синхронизации корректировок и перемещений наличных запасов из Microsoft Dynamics 365 for Finance and Operations в Microsoft Dynamics 365 for Field Service.
+Следующие шаблон и базовые задачи используются для синхронизации корректировок и перемещений наличных запасов из Supply Chain Management в Field Service.
 
 **Шаблон в интеграции данных**
-- Запасы продуктов (из Fin and Ops в Field Service)
+- Запасы продуктов (из Supply Chain Management в Field Service)
   
 **Задача в проекте интеграции данных**
 - Запасы продуктов
 
 Чтобы была возможна синхронизация уровней запасов, требуются следующие задачи синхронизации:
-- Склады (из Fin and Ops в Field Service) 
-- Продукты Field Service с единицей измерения складских запасов (из Fin and Ops в Sales) 
+- Склады (из Supply Chain Management в Field Service) 
+- Продукты Field Service с единицей измерения складского учета (из Supply Chain Management в Sales) 
 
 ## <a name="entity-set"></a>Набор объектов
 
-| Field Service                      | Finance and Operations                 |
+| Field Service                      | Управление цепочкой поставок                |
 |------------------------------------|----------------------------------------|
 | msdynce_externalproductinventories | Запасы CDS в наличии по складам     |
 
@@ -61,17 +61,17 @@ ms.locfileid: "1843441"
 
 Эти сведения фиксируются по выпущенным продуктам для каждого склада и синхронизируются на основе отслеживания изменений при изменении уровня запасов.
 
-В Field Service решение интеграции создает журналы запасов для разницы, чтобы уровни в Field Service соответствовали уровням в Finance and Operations.
+В Field Service решение интеграции создает журналы запасов для разницы, чтобы уровни в Field Service соответствовали уровням в Supply Chain Management.
 
-Приложение Finance and Operations играет роль ведущего для уровней запасов. Поэтому важно настроить интеграцию для заказов на выполнение работ, перемещений и корректировок из Field Service в Finance and Operations, если эта функция используется в Field Service, вместе с синхронизацией уровней запасов из Finance and Operations.
+Приложение Supply Chain Management играет роль ведущего для уровней запасов. Поэтому важно настроить интеграцию для заказов на выполнение работ, перемещений и корректировок из Field Service в Supply Chain Management, если эта функция используется в Field Service, вместе с синхронизацией уровней запасов из Supply Chain Management.
 
-Продукты и склады, где уровни запасов поддерживаются из Finance and Operations, могут контролироваться с помощью расширенных запросов и фильтрация (Power Query).
+Продукты и склады, где уровни запасов поддерживаются из Supply Chain Management, могут контролироваться с помощью расширенных запросов и фильтрация (Power Query).
 
 > [!NOTE]
-> Можно создать несколько складов в Field Service (с настройкой **Поддерживается извне = Нет**) и затем сопоставить их с одним складом в Finance and Operations с функцией расширенного запроса и фильтрации. Это используется в ситуациях, когда требуется, чтобы приложение Field Service управляло подробным уровнем запасов и отправляло только обновления в приложение Finance and Operations. В этом случае Field Service не будет получать обновления уровней запасов из Finance and Operations. Дополнительные сведения см. в разделах [Синхронизация корректировок запасов из Field Service в Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) и [Синхронизация заказов на выполнение работ в Field Service с заказами на продажу, связанными с проектом в Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> Можно создать несколько складов в Field Service (с настройкой **Поддерживается извне = Нет**) и затем сопоставить их с одним складом в Supply Chain Management с функцией расширенного запроса и фильтрации. Это используется в ситуациях, когда требуется, чтобы приложение Field Service управляло подробным уровнем запасов и отправляло только обновления в приложение Supply Chain Management. В этом случае Field Service не будет получать обновления уровней запасов из Supply Chain Management. Дополнительные сведения см. в разделах [Синхронизация корректировок запасов из Field Service в Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) и [Синхронизация заказов на выполнение работ в Field Service с заказами на продажу, связанными с проектом в Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="field-service-crm-solution"></a>Решение Field Service CRM
-Сущность **Внешние запасы продукта** используется только для обработки интеграции на сервере. Эта сущность получает значения уровня складских запасов из Finance and Operations в интеграции, затем преобразует эти значения для журналов ручных запасов, которые затем изменяют складские продукты на складе.
+Сущность **Внешние запасы продукта** используется только для обработки интеграции на сервере. Эта сущность получает значения уровня складских запасов из Supply Chain Management в интеграции, затем преобразует эти значения для журналов ручных запасов, которые затем изменяют складские продукты на складе.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Необходимые условия и настройка сопоставления
 
@@ -84,10 +84,10 @@ ms.locfileid: "1843441"
       - msdynce_warehouseid (код склада)
       
 ### <a name="data-integration-project"></a>Проект интеграции данных
-Можно применить фильтры с расширенными запросами и фильтрацией, чтобы только определенные продукты и склады отправляли информацию об уровне запасов из Finance and Operations в Field Service.
+Можно применить фильтры с расширенными запросами и фильтрацией, чтобы только определенные продукты и склады отправляли информацию об уровне запасов из Supply Chain Management в Field Service.
 
 ## <a name="template-mapping-in-data-integration"></a>Сопоставление шаблона в интеграции данных
 
-### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Запасы продуктов (из Fin and Ops в Field Service): Запасы продуктов
+### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Запасы продуктов (из Supply Chain Management в Field Service): запасы продуктов
 
 [![Сопоставление шаблона в интеграции данных](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

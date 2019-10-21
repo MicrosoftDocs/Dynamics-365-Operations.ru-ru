@@ -1,6 +1,6 @@
 ---
-title: Что нового и что изменилось в Dynamics 365 for Talent (9 июля 2019 г.)
-description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 for Talent.
+title: Что нового и что изменилось в Dynamics 365 Talent (9 июля 2019 г.)
+description: В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/09/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e5bb02a7128cb920a79a5f04ac910be205aeed41
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: b3eb53943546166eee845749a070ed2fca1a03b8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856385"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023961"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-9-2019"></a>Что нового и что изменилось в Dynamics 365 for Talent (9 июля 2019 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (9 июля 2019 г.)
 
 [!include [banner](includes/banner.md)]
 
-В этой теме описываются новые и измененные компоненты Dynamics 365 for Talent.
+В этой теме описываются новые и измененные компоненты Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Изменения в Attract
 
@@ -48,9 +48,9 @@ ms.locfileid: "1856385"
 
 Изменения, описанные в этом разделе, относятся к сборке номер 8.1.2374.
 
-### <a name="platform-update-28"></a>Обновление платформы update 28
+### <a name="platform-update-28-for-finance-and-operations"></a>Platform Update 28 для Finance and Operations
 
-Дополнительные сведения об обновлении платформы Platform update 28 см. в разделе [Предварительные версии функций в Dynamics 365 for Finance and Operations Platform Update 28 (июль 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Дополнительные сведения об обновлении платформы Platform Update 28 для Finance and Operations см. в разделе [Предварительные версии функций в Dynamics 365 Finance and Operations Platform Update 28 (июль 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Поддержка объектов для настраиваемых полей в Common Data Service 
 

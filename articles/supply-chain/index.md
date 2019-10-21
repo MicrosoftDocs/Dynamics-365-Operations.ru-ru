@@ -1,9 +1,9 @@
 ---
-title: Домашняя страница модуля "Управление цепочкой поставок"
-description: На этой странице представлен список тем справки и другие ресурсы для функций управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations.
-author: ShylaThompson
+title: Справочные ресурсы по Supply Chain Management
+description: На этой странице представлен список разделов справки и другие ресурсы для функций Supply Chain Management.
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557600"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278332"
 ---
-# <a name="supply-chain-management-home-page"></a>Домашняя страница модуля "Управление цепочкой поставок"
+# <a name="help-resources-for-supply-chain-management"></a>Справочные ресурсы по Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-В этой теме представлен список тем справки и другие ресурсы для функций управления цепочкой поставок в Microsoft Dynamics 365 for Finance and Operations. 
+В этом разделе представлен список разделов справки и другие ресурсы для Dynamics 365 Supply Chain Management. 
 
 ## <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 Перейдите в раздел <a href="https://roadmap.dynamics.com/">Дорожная карта Dynamics 365</a>, чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке. 
@@ -38,6 +38,7 @@ ms.locfileid: "1557600"
 
 Выберите область компонентов для получения дополнительных сведений о ней.
 
+- [Управление активами](asset-management/index.md)
 - [Учет затрат](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Управление затратами](cost-management/cost-management-home-page.md)  
 - [Управление запасами](inventory/inventory-home-page.md)
@@ -46,9 +47,13 @@ ms.locfileid: "1557600"
 - [Управление сведениями о продукте](pim/product-information.md)
 - [Управление производством](production-control/production-process-overview.md)
 - [Продажи и маркетинг](sales-marketing/overview-sales-marketing.md)
-- [Управление сервисным обслуживанием](service-management/service-management-home-page.md)
+- [Сервисное обслуживание](service-management/service-management-home-page.md)
 - [Управление транспортировкой](transportation/transportation-management-overview.md)
 - [Управление складом](warehousing/warehouse-configuration.md)
+
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
+
+Для получения дополнительных сведений о Dynamics 365 Finance см. страницу [справочных ресурсов по Dynamics 365 Finance](../finance/index.md).
 
 ## <a name="videos"></a>Видео
 
@@ -113,6 +118,6 @@ ms.locfileid: "1557600"
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Мобильные решения для склада на базе Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Курсы eLearning
-Сведения об обучении Microsoft Dynamics 365 for Finance and Operations см. на <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">портале по обучению Microsoft Dynamics</a>. (требуется учетная запись CustomerSource) 
+Дополнительные сведения об обучении Dynamics 365 см. на <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> портале по обучению Microsoft Dynamics</a>. (требуется учетная запись CustomerSource) 
 
 

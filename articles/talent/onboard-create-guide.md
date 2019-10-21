@@ -1,6 +1,6 @@
 ---
-title: Создание и отправка руководства по адаптации с помощью Dynamics 365 for Talent - Onboard
-description: В этой теме объясняется, как использовать приложение Microsoft Dynamics 365 for Talent - Onboard для создания руководства по адаптации для своих новых сотрудников. Эта задача является неотъемлемым первым шагом в стратегии управления человеческим капиталом (HCM) от найма до увольнения.
+title: Создание и отправка руководства по адаптации с помощью Dynamics 365 Talent - Onboard
+description: В этой теме объясняется, как использовать приложение Microsoft Dynamics 365 Talent - Onboard для создания руководства по адаптации для своих новых сотрудников. Эта задача является неотъемлемым первым шагом в стратегии управления человеческим капиталом (HCM) от найма до увольнения.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: de5d584e3b7edba2751aa0c83b0465df2c3e4f7d
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: e4dbfcc3b3fd611eea36109a516a7b9361a9f654
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731622"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009862"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-for-talent-onboard"></a>Создание и отправка руководства по адаптации с помощью Dynamics 365 for Talent: Onboard
+# <a name="create-and-send-an-onboarding-guide"></a>Создание и отправка руководства по адаптации
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard позволяет создавать руководства по адаптации из шаблонов, созданных вами, из шаблонов, доступных в галерее, или с нуля.
+Microsoft Dynamics 365 Talent: Onboard позволяет создавать руководства по адаптации из шаблонов, созданных вами, из шаблонов, доступных в галерее, или с нуля.
 
 После создания руководства по адаптации можно отправить его новому сотруднику. Кроме того, можно отправить его нескольким новым сотрудникам, которые указаны в файле Microsoft Excel, загруженном из приложения Onboard.
 

@@ -1,6 +1,6 @@
 ---
-title: Какая версия Microsoft Dynamics 365 for Talent - Attract
-description: В этом разделе представлена информация о возможностях в разных версиях Microsoft Dynamics 365 for Talent - Attract.
+title: Какая версия Microsoft Dynamics 365 Talent - Attract
+description: В этом разделе представлена информация о возможностях в разных версиях Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 59f3e78efa8801c81dccff2f45751b47fb30481f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739726"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009954"
 ---
 # <a name="which-version-of-attract"></a>Какая версия Attract?
 
 [!include[banner](../includes/banner.md)]
 
-Версия Microsoft Dynamics 365 for Talent: Attract, которая подходит для вас, зависит от размера и потребностей вашей организации. Базовая версия Attract предоставляет ограниченный набор функций, предназначенных для небольших рабочих групп или организаций, где менеджера по найму является основным пользователем. Можно начать использовать базовую версию Attract с одной или несколькими лицензиями.
+Версия Microsoft Dynamics 365 Talent: Attract, которая подходит для вас, зависит от размера и потребностей вашей организации. Базовая версия Attract предоставляет ограниченный набор функций, предназначенных для небольших рабочих групп или организаций, где менеджера по найму является основным пользователем. Можно начать использовать базовую версию Attract с одной или несколькими лицензиями.
 
 Attract с надстройкой Comprehensive Hiring Add-On предназначен для средних и больших рабочих групп или организаций, где агент по найму или специалист по кадрам является основным пользователем. Для надстройки Comprehensive Hiring Add-On требуется приобрести лицензии через [партнера Microsoft Dynamics 365](https://dynamics.microsoft.com/partners/find-a-partner/).
 

@@ -1,6 +1,6 @@
 ---
 title: Просмотр состояния адаптируемых сотрудников и ваших задач
-description: В этой теме объясняется, как использовать приложение Microsoft Dynamics 365 for Talent - Onboard для отслеживания того, где находятся новые сотрудники в процессе адаптации.
+description: В этой теме объясняется, как использовать приложение Microsoft Dynamics 365 Talent - Onboard для отслеживания того, где находятся новые сотрудники в процессе адаптации.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0e17c572b4d3b5cee3687b25fb340ad9f98247ed
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731614"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009839"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>Просмотр состояния адаптируемых сотрудников и ваших задач
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard позволяет просматривать прогресс ваших новых сотрудников в мероприятиях по адаптации. Вы также можете просматривать любые задачи, которые были назначены вам из руководств по адаптации.
+Microsoft Dynamics 365 Talent: Onboard позволяет просматривать прогресс ваших новых сотрудников в мероприятиях по адаптации. Вы также можете просматривать любые задачи, которые были назначены вам из руководств по адаптации.
 
 ## <a name="view-the-status-of-onboarding-employees"></a>Просмотр состояния адаптируемых сотрудников
 

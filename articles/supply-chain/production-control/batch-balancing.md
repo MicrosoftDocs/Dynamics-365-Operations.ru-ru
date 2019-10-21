@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 63b986f9f3a1505dba4c2f64f872b9472e1aca87
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46411052c7db25c3d1410c5280e8e856f0a40d3d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558627"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250166"
 ---
 # <a name="batch-balancing"></a>Балансировка партий
 
@@ -31,7 +31,7 @@ ms.locfileid: "1558627"
 
 В этом разделе описывается, как поддерживается процесс балансировки партий. 
 
-Посмотрите [видео по балансировке партий в Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
+Дополнительные сведения см. в [видео по балансировке партий](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
 В процессе балансировки партий рассчитывается количество ингредиентов, которые будут использоваться в производственной партии, на основе концентрации активных ингредиентов в выбранных партиях продукта.
 

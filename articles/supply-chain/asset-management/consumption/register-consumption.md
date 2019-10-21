@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7f785b0935b952d6de68fd120a3639077ad124bd
-ms.sourcegitcommit: c0b581e4c647b6c47bc14d1d7bfe267832afecba
+ms.openlocfilehash: 174c816c7a6442b07e4722c03045293b94c59153
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1913105"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024668"
 ---
 # <a name="register-consumption"></a>Регистрация потребления
 
@@ -93,5 +93,5 @@ ms.locfileid: "1913105"
 *Регистрации номенклатуры:* сначала добавляются финансовые аналитики из заголовка журнала, если они есть. Затем добавляются финансовые аналитики из соответствующего проекта заказов на работу. Затем добавляются финансовые аналитики из сайта. Наконец, будут добавлены финансовые аналитики из номенклатуры.
 
 >[!NOTE]
->Для всех трех типов регистрации проверяется комбинация финансовых аналитик, и недопустимые комбинации остаются пустыми. Это стандартная настройка в Dynamics 365 for Finance and Operations.
+>Для всех трех типов регистрации проверяется комбинация финансовых аналитик, и недопустимые комбинации остаются пустыми. Это стандартная настройка в Finance and Operations.
 

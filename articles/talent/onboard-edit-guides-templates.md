@@ -1,6 +1,6 @@
 ---
-title: Редактирование руководств и шаблонов по адаптации в Dynamics 365 for Talent - Onboard
-description: В этой теме объясняется, как добавлять действия и другие сведения к руководства и шаблоны по адаптации в Microsoft Dynamics 365 for Talent - Onboard.
+title: Редактирование руководств и шаблонов по адаптации в Dynamics 365 Talent - Onboard
+description: В этой теме объясняется, как добавлять действия и другие сведения к руководства и шаблоны по адаптации в Microsoft Dynamics 365 Talent - Onboard.
 author: andreabichsel
 manager: ''
 ms.date: 06/19/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68afc5d789d1f4af67cd2ec73eb0e073efad0761
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 7803c7cd2c58b8544d2c8dd711c295d6882f9fca
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864401"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010806"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-for-talent-onboard"></a>Редактирование руководств и шаблонов по адаптации в Dynamics 365 for Talent: Onboard
+# <a name="edit-onboarding-guides-and-templates"></a>Редактирование руководств и шаблонов по адаптации
 
 [!include [banner](includes/banner.md)]
 
-После создания руководства или шаблона по адаптации в Microsoft Dynamics 365 for Talent: Onboard необходимо добавить сведения о мероприятиях, контактах и ресурсах. В приложении Onboard в руководство по адаптации можно включить обширное содержимое, включая:
+После создания руководства или шаблона по адаптации в Microsoft Dynamics 365 Talent: Onboard необходимо добавить сведения о мероприятиях, контактах и ресурсах. В приложении Onboard в руководство по адаптации можно включить обширное содержимое, включая:
 
 - Видео с YouTube
 - Презентации Microsoft Sway
