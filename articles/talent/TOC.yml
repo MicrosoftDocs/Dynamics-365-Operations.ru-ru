@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: index.yml
+  href: talent-welcome.md
   items:
     - name: Начало работы
       items:
@@ -8,6 +8,10 @@
         - name: Что нового и что изменилось в Talent
           href: whats-new.md
           items:
+            - name: 23 октября 2019 г.
+              href: whats-new-talent-october-23-2019.md
+            - name: 8 октября 2019 г.
+              href: whats-new-talent-october-8-2019.md
             - name: 1 октября 2019 г.
               href: whats-new-talent-october-1-2019.md
             - name: 17 сентября 2019 г.
@@ -391,12 +395,14 @@
               href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Интеграция
       items:
+        - name: Руководство по интеграции данных для Dynamics 365 for Talent
+          href: data-integration.md
+        - name: Настройка интеграции с Common Data Service
+          href: hr-common-data-service-integration.md
         - name: Интеграция с Dynamics 365 for Finance and Operations
           href: talent-financeandoperations-integration.md
         - name: Настройка интеграции зарплаты между Talent и Dayforce
           href: configure-payroll-integration.md
-        - name: Руководство по интеграции данных для Dynamics 365 for Talent
-          href: data-integration.md
         - name: Вопросы и ответы по интеграции
           href: talent-fo-integration.md
         - name: Экспорт повторяющихся данных с помощью Azure Logic Apps

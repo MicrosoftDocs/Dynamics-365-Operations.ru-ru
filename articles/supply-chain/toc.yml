@@ -40,8 +40,10 @@
               href: ../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md?toc=/dynamics365/supply-chain/toc.json
             - name: 'Вопросы, связанные с развертыванием'
               items:
-                - name: Параметры развертывания
+                - name: Варианты развертывания
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Сравнение характеристик облачной и локальной версий
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Облачное развертывание
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Требования к системе для облачных развертываний
@@ -50,7 +52,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Требования к системе для локальных развертываний
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Покупка Finance + Operations (локальная версия)
+                - name: Покупка Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка складских операций для локальных развертываний
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
@@ -60,16 +62,20 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Что нового и что изменилось
               items:
-                - name: Домашняя страница модуля "Что нового и что изменилось"
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                - name: Предварительный просмотр компонентов приложений Finance and Operations версии 10.0.6 (ноябрь 2019 г.)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Приложения Finance and Operations версии 10.0.5 (октябрь 2019 г.)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations версии 10.0.4 (июль 2019 г.)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Finance and Operations, Enterprise edition 7.3'
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Предварительные версии функций Supply Chain Management 10.0.7 (декабрь 2019 г.)
+                  href: get-started/whats-new-scm-10-0-7.md
+                - name: Supply Chain Management 10.0.6 (ноябрь 2019 г.)
+                  href: get-started/whats-new-scm-10-0-6.md
+                - name: Что нового и что изменилось в предыдущих версиях
+                  items:
+                    - name: Домашняя страница "Что нового и что изменилось в Finance and Operations"
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Приложения Finance and Operations 10.0.5 (октябрь 2019 г.)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Finance and Operations 10.0.4 (июль 2019 г.)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 'Finance and Operations, Enterprise edition 7.3'
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Удаленные или устаревшие функции
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 'Функции AX 2012, реализация которых была отложена'
@@ -1687,8 +1693,6 @@
                       href: production-control/register-material-consumption-hand-held-device.md
                     - name: Управление потреблением сырья с использованием принципа очистки
                       href: production-control/flushing-principles.md
-                    - name: Кросс-докинг из производственных заказов в дебаркадеры отгрузки
-                      href: production-control/cross-docking-opportunities.md
                     - name: Настройка выходной ячейки для готовой продукции
                       href: production-control/production-output-location.md
                     - name: Приемка спецификаций
@@ -2285,6 +2289,12 @@
                   href: warehousing/manage-warehouse-workers.md
                 - name: Отложенная обработка работ склада
                   href: warehousing/deferred-put.md
+            - name: Кросс-докинг
+              items:
+                - name: Кросс-докинг из производственных заказов в дебаркадеры отгрузки
+                  href: production-control/cross-docking-opportunities.md
+                - name: Автоматический отпуск и отгрузка для кросс-докинга
+                  href: warehousing/auto-release-shipment-for-cross-docking.md
             - name: Частичный отпуск и частичная отгрузка
               items:
                 - name: Частичная отгрузка загрузки транспорта
@@ -2311,9 +2321,11 @@
                   href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
                 - name: Настройка перераспределения номенклатур для недоукомплектованности
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                - name: Отмена работы склада для обработки исключений
+                  href: warehousing/cancel-warehouse-work.md
             - name: Инвентаризация запасов
               items:
-                - name: Коды основания для проведения инвентаризации запасов
+                - name: Коды оснований для инвентаризации запасов
                   href: warehousing/reason-codes-for-counting-journals.md
                 - name: Блокирование запасов
                   href: inventory/inventory-blocking.md
