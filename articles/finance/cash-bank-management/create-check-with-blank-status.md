@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: af79dd4831f2e7fc71c296922d73a9e42f7955b3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 47d54524f87cf718b9b41462b5133df267d5dd9e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176067"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570295"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Создание чеков, имеющих пустой статус
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 В этом разделе объясняется, как создавать пустые чеки. Например, можно создать пустой чек для учета чека, который был поврежден и не может использоваться для оплаты.
 
