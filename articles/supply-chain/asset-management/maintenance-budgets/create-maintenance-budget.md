@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2c748fd230796643f1ed6279743da532e7cb320
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 99f76c684150f154404cbb241daacb7a8d05f7f9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874816"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571768"
 ---
 # <a name="create-maintenance-budgets"></a>Создание бюджетов обслуживания
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "1874816"
     > [!NOTE]
     > После утверждения бюджета обслуживания невозможно пересчитать или скорректировать соответствующие строки на странице **Строки бюджета обслуживания**, если только вы не удалите утверждение. Чтобы удалить утверждение бюджета обслуживания, выберите его на странице **Бюджеты обслуживания**, затем выберите **Утвердить**. Затем в диалоговом окне **Утвердить бюджет** выберите **OK**.
 
-![Рисунок 1](media/01-maintenance-budgets.png)
+![Бюджеты обслуживания](media/01-maintenance-budgets.png)
 
 Можно также создать новый бюджет обслуживания путем копирования существующего бюджета. На странице **Бюджеты обслуживания** выберите бюджет для копирования, затем выберите **Копировать**. Этот подход полезен, если, например, вы создали бюджет на один месяц и хотите скопировать его в другие месяцы.
 

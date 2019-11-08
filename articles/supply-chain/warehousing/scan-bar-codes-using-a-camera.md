@@ -1,6 +1,6 @@
 ---
-title: Сканирование штрих-кодов с помощью камеры в приложении Dynamics 365 Supply Chain Management - Warehousing
-description: В этом разделе объясняется, как настроить приложение Dynamics 365 Supply Chain Management - Warehousing для сканирования штрих-кодов с помощью камеры мобильного устройства.
+title: Сканирование штрих-кодов с помощью камеры в приложении Dynamics 365 for Finance and Operations — Warehousing
+description: В этом разделе объясняется, как настроить приложение Dynamics 365 for Finance and Operations — Warehousing для сканирования штрих-кодов с помощью камеры мобильного устройства.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58cf27a250778d68bdffa1eefa5e939276e467fc
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251477"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578157"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Сканирование штрих-кодов с помощью камеры в приложении Dynamics 365 Supply Chain Management - Warehousing
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе объясняется, как настроить приложение Dynamics 365 Supply Chain Management - Warehousing для сканирования штрих-кодов с помощью камеры мобильного устройства. 
+В этом разделе объясняется, как настроить приложение Dynamics 365 for Finance and Operations — Warehousing для сканирования штрих-кодов с помощью камеры мобильного устройства. 
 
 ## <a name="prerequisites"></a>Необходимые условия
 Для использования этой функции необходимо, чтобы была установлена версия 1.2.0.0 приложения Warehousing, а мобильное устройство должно иметь камеру. При открытии приложения после обновления будет предложено разрешить приложению использование камеры. Если в устройстве нет камеры, запрос не отображается, и использовать камеру как сканер будет невозможно. 
@@ -49,7 +49,7 @@ ms.locfileid: "2251477"
 
 | Страница задач и сведений | Страница камеры | 
 | :---------------------: | :--------------------: |
-| ![пример-страницы-задач-и-сведений-для-сканирования-камерой](./media/camera-scanning-example-task-detail-page50.png)          | ![пример-страницы-камеры-для-сканирования-камерой-меньше](./media/camera-scanning-example-camera-page50.png)          |
+| ![Пример страницы задач и сведений для сканирования камерой](./media/camera-scanning-example-task-detail-page50.png)          | ![Пример страницы камеры для сканирования камерой меньше](./media/camera-scanning-example-camera-page50.png)          |
 
 На странице камеры при нажатии кнопки камеры она будет недоступна, пока выполняется попытка идентификации штрих-кода. Если штрих-код не будет идентифицирован в течение 5 секунд, процесс завершится в результате истечения времени ожидания и кнопка камеры снова станет доступной. Затем можно попытаться повторить сканирование штрих-кода.
 

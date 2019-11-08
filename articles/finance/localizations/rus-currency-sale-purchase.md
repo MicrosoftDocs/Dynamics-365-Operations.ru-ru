@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e2f2a3ef61c583844b1ab64c43ccb2f00885d7a8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1ef50fc6d17b8054cdf08df9a9b2033dc00fabc1
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183926"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553207"
 ---
 # <a name="foreign-currency-sales-purchases-and-transfers"></a>Продажи, покупки и переводы в иностранной валюте
 
@@ -95,7 +95,7 @@ Dynamics 365 Finance позволяет выполнять следующие з
 2. Создайте банковский счет или выберите существующий.
 3. На экспресс-вкладке **Управление платежами** в полях **Шаблон поручения (продажа валюты)** и **Шаблон поручения (покупка валюты)** выберите шаблон Microsoft Word.
 
-Дополнительные сведения см. в разделе [Настройка банковских счетов (Россия)](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/rus-local-settings-requisites-bank-module).
+Дополнительные сведения см. в разделе [Настройка банковских счетов (Россия)](https://docs.microsoft.com/dynamics365/finance/localizations/rus-local-settings-requisites-bank-module).
 
 ### <a name="set-up-a-number-sequence"></a>Настройка номерной серии
 

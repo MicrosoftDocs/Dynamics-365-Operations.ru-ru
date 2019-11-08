@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62998da7f541379296d5ac325ae29f24a42f9b7c
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: bb318c24424c291f08ba7527b2258c0da4cba9a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847559"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571676"
 ---
 # <a name="inbound-and-outbound-assets"></a>Входящие и исходящие активы
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Если ваша компания выполняет ремонтные работы или задания обслуживания по активам, полученные из других местоположений или клиентов, «Управление активами» может отслеживать как входящие активы, которые находятся на пути к вашей компании, так и исходящие активы, которые возвращаются.
 
@@ -45,7 +45,7 @@ ms.locfileid: "1847559"
 3. Выберите **Обновить состояние запроса на обслуживание**.
 4. Выберите **Входящие** (или другое состояние жизненного цикла, созданное для входящих активов), а затем выберите **OK.**
 
-![Рисунок 1](media/07-manage-maintenance-requests.png)
+![Регистрация активов в качестве входящих](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Регистрация входящих активов в качестве полученных
 
@@ -54,7 +54,7 @@ ms.locfileid: "1847559"
 3. ВЫберите **Получить активы**.
 4. В поле **Получено** введите дату и время. Затем выберите **OK**. Запись удаляется со страницы списка **Входящие активы**.
 
-![Рисунок 2](media/08-manage-maintenance-requests.png)
+![Регистрация входящих активов в качестве полученных](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Регистрация активов в качестве исходящих
 

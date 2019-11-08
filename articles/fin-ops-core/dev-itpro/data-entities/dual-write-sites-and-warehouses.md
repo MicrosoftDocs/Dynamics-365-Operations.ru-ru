@@ -1,9 +1,9 @@
 ---
 title: Интегрированные сайты и склады
 description: Эта тема описывает интеграцию данных сайтов и складов между Finance and Operations и Common Data Service.
-author: benebotg
+author: t-benebo
 manager: AnnBe
-ms.date: 15/8/2019
+ms.date: 10/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: 38c0b9add014867eb203aeeb02217cbc4c4d0b00
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 093f33e313bfb194ef932dffe9c9b5bcb84ae762
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249140"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569233"
 ---
 # <a name="integrated-sites-and-warehouses"></a>Интегрированные сайты и склады
 

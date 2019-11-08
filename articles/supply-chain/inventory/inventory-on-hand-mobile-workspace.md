@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
+ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249525"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2574807"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Мобильная рабочая область запасов в наличии
 
@@ -56,9 +56,9 @@ ms.locfileid: "2249525"
     -   По доступным физическим запасам (Это представление показывает доступное количество, которое не было зарезервировано.)
 
 ## <a name="prerequisites"></a>Необходимые условия
-Предварительные условия различаются, в зависимости от версии Microsoft Dynamics 365, развернутой в организации.
+Необходимые условия различаются в зависимости от версии Supply Chain Management, развернутой в вашей организации.
 
-### <a name="prerequisites-if-you-use-finance-and-operations"></a>Необходимые условия, если используется Finance and Operations 
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Необходимые условия при использовании Supply Chain Management
 Если в вашей организации развернута система Supply Chain Management, системный администратор должен опубликовать мобильную рабочую область **Запасы в наличии**. См. инструкции в [Публикация мобильной рабочей области](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Необходимые условия при использовании обновления платформы Platform Update 3 или более поздней версии 

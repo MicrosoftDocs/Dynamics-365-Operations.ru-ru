@@ -1,6 +1,6 @@
 ---
-title: Обзор установки и настройки складского приложения
-description: В этом разделе описывается, как установить и настроить приложение Dynamics 365 Supply Chain Management — Warehousing.
+title: Обзор установки и настройки приложения Warehousing
+description: В этом разделе описывается, как установить и настроить приложение Dynamics 365 for Finance and Operations — Warehousing.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b8eb8dee88d8664391d2dcf485dff9dee4722cac
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
+ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251508"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2548976"
 ---
-# <a name="install-and-configure-the-warehousing-app-overview"></a>Обзор установки и настройки складского приложения
+# <a name="install-and-configure-the-warehousing-app-overview"></a>Обзор установки и настройки приложения Warehousing
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "2251508"
 > В этом разделе описывается, как настроить складские операции для размещения в облаке. Если требуется информация о настройке складских операций для локальных развертываний, см. раздел [Складские операции для локальных развертываний](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 
-В этом разделе описывается, как установить и настроить приложение Dynamics 365 Supply Chain Management — Warehousing.
+В этом разделе описывается, как установить и настроить приложение Dynamics 365 for Finance and Operations — Warehousing.
 
 Приложение Warehousing доступно в магазине Google Play и Магазин Windows. Для текущей версии Dynamics 365 Supply Chain Management это приложение предоставляется в качестве отдельного компонента, что означает самостоятельное развертывание на устройствах, используемые для складских задач. Чтобы использовать это, необходимо загрузить приложение на каждое устройство и настроить его для подключения к среде Supply Chain Management. В этом разделе описывается, как установить приложение на устройствах. Также объясняется, как настроить приложение для подключения к среде Supply Chain Management.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 143cd51a3ea34a6b05da049d87819b3dfee95725
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181527"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564945"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Настройка импорта данных из SharePoint
 
@@ -62,9 +62,9 @@ ms.locfileid: "2181527"
 > Формат для импорта проводок поставщика выбран в качестве сопоставление модели по умолчанию. Таким образом, если выполнить сопоставление модели **Модель платежей по форме 1099** и это сопоставления модели типа **К месту назначения**, сопоставление модели выполняет этот формат, чтобы импортировать данные из внешних файлов. Затем эти данные используются для обновления таблицы приложения.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>Настройка доступа к SharePoint для хранения файлов
-Для хранения файлов электронных отчетов в расположении SharePoint необходимо настроить доступ к экземпляру SharePoint Server, который будет использоваться текущей компанией. В этом примере это компания USMF. Инструкции см. в разделе [Настройка хранения в SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+Для хранения файлов электронных отчетов в расположении SharePoint необходимо настроить доступ к экземпляру SharePoint Server, который будет использоваться текущей компанией. В этом примере это компания USMF. Инструкции см. в разделе [Настройка хранения в SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-1. Выполните шаги из раздела [Настройка хранения в SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+1. Выполните шаги из раздела [Настройка хранения в SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 2. Откройте настроенный сайт SharePoint.
 3. Создайте следующие папки, в которых будут храниться входящие файлы электронной отчетности:
 
@@ -80,7 +80,7 @@ ms.locfileid: "2181527"
     - Папка для файлов с ошибками — эта папка предназначена для файлов, импорт которых завершился сбоем.
 
 4. Выберите **Управление организацией > Управление документами > Типы документов**.
-5. Создайте следующие типы документов, которые будут использоваться для доступа к папкам SharePoint, которые были созданы. Инструкции см. в разделе [Настройка типов документов](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
+5. Создайте следующие типы документов, которые будут использоваться для доступа к папкам SharePoint, которые были созданы. Инструкции см. в разделе [Настройка типов документов](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |Вид документа       | Групповое              | Местоположение      | Папка SharePoint      |
 |--------------------|--------------------|---------------|------------------------|

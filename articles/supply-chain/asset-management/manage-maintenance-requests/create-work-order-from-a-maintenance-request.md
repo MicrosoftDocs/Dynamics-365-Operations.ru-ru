@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f7af87f359cfe3a606c8be857dd905bfef75e97
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: c42f259a57675c3dbac829d6d671e91982ef9011
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847467"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571699"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Создание заказов на работу из запросов на обслуживание
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 После создания запросов на техническое обслуживание можно легко преобразовать их в заказы на работу. Эта тема описывает самый быстрый способ работы с запросами на техническое обслуживание, обновления нескольких запросов на техническое обслуживание одновременно, а затем создания заказа на работу для нескольких запросов на техническое обслуживание одновременно. На странице **Активные запросы на обслуживание** или **Запросы на обслуживания для моего функционального местоположения** можно также работать с одним запросом на техническое обслуживание за раз и конвертировать один запрос на техническое обслуживание в заказ на работу.
@@ -53,5 +53,5 @@ ms.locfileid: "1847467"
 
 6. Выберите **Управление активами** \> **Общее** \> **Заказы на работу** \> **Все заказы на работу** и откройте новый заказ на работу.
 
-    ![Рисунок 1](media/05-manage-maintenance-requests.png)
+    ![Открыть новый заказ на работу](media/05-manage-maintenance-requests.png)
 

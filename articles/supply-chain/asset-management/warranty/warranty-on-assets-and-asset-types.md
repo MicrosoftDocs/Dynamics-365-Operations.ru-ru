@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b13f8aba7e1d2448495f97a4772eb573e08c025
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6e69b471af0853159ba807af5f39db64dbbb04f8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874609"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569716"
 ---
-# <a name="warranty-on-assets-and-asset-types"></a>Гарантия на основные средства и типы основных средств
+# <a name="warranties-on-assets-and-asset-types"></a>Гарантии на основные средства и типы основных средств
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 В этом разделе объясняется, как настроить гарантии на активы и типы активов в модуле "Управление активами".
@@ -50,7 +50,7 @@ ms.locfileid: "1874609"
     > [!IMPORTANT]
     > Если дата выбрана в поле **Начало гарантии** в заказе на работу, гарантия становится действительной для заказа на работу на эту дату. При создании заказа на работу в поле **Начало гарантии** автоматически задается дата создания. Однако дату можно изменить таким образом, чтобы она соответствовала, например, дате начала гарантийного соглашения.
     >
-    > ![Рисунок 1](media/02-warranty.png)
+    > ![Страница заказов на работу](media/02-warranty.png)
 
 > [!NOTE]
 > При создании заказа на работу для актива, охватываемого гарантией поставщика, если заказ на работу имеет ожидаемую дату начала в течение гарантийного периода, вы получите уведомление о гарантийном соглашении. Затем можно отменить заказ на работу, если требуется.

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 761364c8c58258baf2268f917cb174ac300c4528
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 02686c97a19fa86c3ea93d7c400067f0855b5c4d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783556"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571492"
 ---
 # <a name="asset-boms"></a>Спецификации актива
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 В этом разделе описываются спецификации актива в «Управлении активами». Страница **Спецификация актива** показывает список всех номенклатур (запасные части и другие номенклатуры), которые используются в активе в течение всего срока его службы. При создании нового актива следует рассмотреть настройку спецификации актива как части процедуры настройки. Таким образом, можно отслеживать историю номенклатур для актива с даты создания.
 

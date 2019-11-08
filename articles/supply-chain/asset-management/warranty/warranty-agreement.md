@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71905d5b362c80d48b78210b59cacfb1e7899757
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: da60d098aff96780ca1e40832db34e3c9cc835e7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874701"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569693"
 ---
 # <a name="warranty-agreements"></a>Гарантийные соглашения
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 В управлении активами можно настроить условия гарантии, которые могут быть связаны с активом или с типом актива. Условия гарантии создаются за конкретный период. Гарантию можно настроить для обеспечения полного покрытия или частичного покрытия, а также можно настроить условия, которые относятся к часам, расходам и номенклатурам.
@@ -54,4 +54,4 @@ ms.locfileid: "1874701"
     3. В поле **Интервал** введите число. Это поле определяет число периодов действия гарантии.
     4. В поле **Процент** введите процент покрытия для строки гарантии. Процентное значение указывает, сколько покрывает ваша компания.
 
-![Рисунок 1](media/01-warranty.png)
+![Страница гарантий](media/01-warranty.png)

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 609146ebc5a31e5b28ca9ed6e04ed82b6bb1b03e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250929"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571124"
 ---
 # <a name="maintenance-requests"></a>Запросы на обслуживание
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Можно настроить различные типы запросов для использования в вашей компании. Запросы на обслуживание одного типа. Запросы на обслуживание используются для запроса о том, чтобы для конкретного задания требовался заказ на работу. Запрос на обслуживание может быть создан любым пользователем, имеющим доступ к функциональности управления активами. Планировщик или менеджер может решить, следует ли преобразовать запрос на обслуживание в заказ на работу или же он должен завершить свой собственный жизненный цикл.
 
@@ -41,4 +41,4 @@ ms.locfileid: "2250929"
 
 На следующем рисунке показан пример страницы списка **Все запросы на обслуживание**.
 
-![Рисунок 1](media/01-setup-for-requests.png)
+![Страница всех запросов на обслуживание](media/01-setup-for-requests.png)

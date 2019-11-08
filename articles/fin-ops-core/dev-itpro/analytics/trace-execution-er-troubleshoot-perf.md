@@ -1,5 +1,5 @@
 ---
-title: Трассировка выполнения формата электронной отчетности для устранения проблем с производительностью
+title: Трассировка выполнения форматов электронной отчетности для устранения неполадок, связанных с производительностью
 description: В этой теме приводятся сведения об использовании функции трассировки производительности в электронной отчетности (ER) для устранения проблем с производительностью.
 author: NickSelin
 manager: AnnBe
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 97511e23f0ea2842e625799c0a2c1e51b5832feb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6585e44701160bf31c107c07226f992b12cf035e
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182148"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550656"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Трассировка выполнения форматов электронной отчетности для устранения проблем с производительностью
 
