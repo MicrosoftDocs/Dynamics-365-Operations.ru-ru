@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 9ff375ca97444d060c701e27c8fdcfecab4df186
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: aa50b2ec688a97a1aeeb9621ad6fa3600cd06318
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010184"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550190"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-november-27-2018"></a><span data-ttu-id="76793-103">Что нового и что изменилось в Dynamics 365 Talent: Core HR (27 ноября 2018 г.)</span><span class="sxs-lookup"><span data-stu-id="76793-103">What's new or changed in Dynamics 365 Talent: Core HR (November 27, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-november-27-2018"></a><span data-ttu-id="31255-103">Что нового и что изменилось в Dynamics 365 Talent - Core HR (27 ноября 2018 г.)</span><span class="sxs-lookup"><span data-stu-id="31255-103">What's new or changed in Dynamics 365 Talent - Core HR (November 27, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="76793-104">**Сборка 8.1.2064**</span><span class="sxs-lookup"><span data-stu-id="76793-104">**Build 8.1.2064**</span></span>
+<span data-ttu-id="31255-104">**Сборка 8.1.2064**</span><span class="sxs-lookup"><span data-stu-id="31255-104">**Build 8.1.2064**</span></span>
 
-<span data-ttu-id="76793-105">В этой теме описываются новые и измененные компоненты Core HR.</span><span class="sxs-lookup"><span data-stu-id="76793-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="31255-105">В этой теме описываются новые и измененные компоненты Core HR.</span><span class="sxs-lookup"><span data-stu-id="31255-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
 
-## <a name="changes"></a><span data-ttu-id="76793-106">Изменения</span><span class="sxs-lookup"><span data-stu-id="76793-106">Changes</span></span>
+## <a name="changes"></a><span data-ttu-id="31255-106">Изменения</span><span class="sxs-lookup"><span data-stu-id="31255-106">Changes</span></span>
 
-### <a name="unable-to-create-a-note-in-case-management"></a><span data-ttu-id="76793-107">Не удается создать примечание в управлении обращениями</span><span class="sxs-lookup"><span data-stu-id="76793-107">Unable to create a note in Case Management</span></span>
+### <a name="unable-to-create-a-note-in-case-management"></a><span data-ttu-id="31255-107">Не удается создать примечание в управлении обращениями</span><span class="sxs-lookup"><span data-stu-id="31255-107">Unable to create a note in Case Management</span></span>
 
-<span data-ttu-id="76793-108">Было сделано изменение для проблемы при попытке изменить или создать примечание в журнале обращений управления обращениями.</span><span class="sxs-lookup"><span data-stu-id="76793-108">A change has been made for an issue when attempting to edit or create a note in the case log of Case Management.</span></span>
+<span data-ttu-id="31255-108">Было сделано изменение для проблемы при попытке изменить или создать примечание в журнале обращений управления обращениями.</span><span class="sxs-lookup"><span data-stu-id="31255-108">A change has been made for an issue when attempting to edit or create a note in the case log of Case Management.</span></span>
 
-### <a name="misspelled-word-on-the-analytics-tab-in-the-compensation-workspace"></a><span data-ttu-id="76793-109">Неправильно написанное слово на вкладке аналитики в рабочей области компенсации</span><span class="sxs-lookup"><span data-stu-id="76793-109">Misspelled word on the analytics tab in the compensation workspace</span></span> 
+### <a name="misspelled-word-on-the-analytics-tab-in-the-compensation-workspace"></a><span data-ttu-id="31255-109">Неправильно написанное слово на вкладке аналитики в рабочей области компенсации</span><span class="sxs-lookup"><span data-stu-id="31255-109">Misspelled word on the analytics tab in the compensation workspace</span></span> 
 
-<span data-ttu-id="76793-110">Изменение сделано для исправления орфографии слов "Этническое происхождение" в диаграмме аналитики компенсации в рабочей области компенсации.</span><span class="sxs-lookup"><span data-stu-id="76793-110">A change has been made to correct the spelling of 'Ethnic Origin' in the compensation analytics chart in the compensation workspace.</span></span>
+<span data-ttu-id="31255-110">Изменение сделано для исправления орфографии слов "Этническое происхождение" в диаграмме аналитики компенсации в рабочей области компенсации.</span><span class="sxs-lookup"><span data-stu-id="31255-110">A change has been made to correct the spelling of 'Ethnic Origin' in the compensation analytics chart in the compensation workspace.</span></span>
 
-### <a name="employee-self-service-workspace-not-displaying-when-a-user-isnt-assigned-to-a-worker"></a><span data-ttu-id="76793-111">Рабочая область самообслуживания сотрудников не отображается, когда пользователь не назначен работнику</span><span class="sxs-lookup"><span data-stu-id="76793-111">Employee self-service workspace not displaying when a user isn't assigned to a worker</span></span> 
+### <a name="employee-self-service-workspace-not-displaying-when-a-user-isnt-assigned-to-a-worker"></a><span data-ttu-id="31255-111">Рабочая область самообслуживания сотрудников не отображается, когда пользователь не назначен работнику</span><span class="sxs-lookup"><span data-stu-id="31255-111">Employee self-service workspace not displaying when a user isn't assigned to a worker</span></span> 
 
-<span data-ttu-id="76793-112">Внесено изменение, когда рабочая область **Самообслуживание сотрудников** выбрана в качестве начальной страницы при запуске для пользователя, которому не назначен работник.</span><span class="sxs-lookup"><span data-stu-id="76793-112">A change has been made when the **Employee self-service** workspace is selected as the initial page on startup for a user who is not assigned to a worker.</span></span> <span data-ttu-id="76793-113">В этом случае будет отображена панель мониторинга по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="76793-113">In this situation, the default dashboard will be displayed.</span></span>
+<span data-ttu-id="31255-112">Внесено изменение, когда рабочая область **Самообслуживание сотрудников** выбрана в качестве начальной страницы при запуске для пользователя, которому не назначен работник.</span><span class="sxs-lookup"><span data-stu-id="31255-112">A change has been made when the **Employee self-service** workspace is selected as the initial page on startup for a user who is not assigned to a worker.</span></span> <span data-ttu-id="31255-113">В этом случае будет отображена панель мониторинга по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="31255-113">In this situation, the default dashboard will be displayed.</span></span>
 
-### <a name="leave-and-absence-error-object-reference-not-set-to-an-instance-of-an-object"></a><span data-ttu-id="76793-114">Ошибка отпусков и отсутствия: ссылка на объект не указывает на экземпляр объекта</span><span class="sxs-lookup"><span data-stu-id="76793-114">Leave and Absence error: Object reference not set to an instance of an object</span></span>
+### <a name="leave-and-absence-error-object-reference-not-set-to-an-instance-of-an-object"></a><span data-ttu-id="31255-114">Ошибка отпусков и отсутствия: ссылка на объект не указывает на экземпляр объекта</span><span class="sxs-lookup"><span data-stu-id="31255-114">Leave and Absence error: Object reference not set to an instance of an object</span></span>
 
-<span data-ttu-id="76793-115">Были внесены изменения в модуль отпусков и отсутствия для исправления этой ошибки после утверждения записей отпусков и отсутствия в списке **Рабочие элементы, назначенные мне**.</span><span class="sxs-lookup"><span data-stu-id="76793-115">Changes have been made to Leave and Absence to correct this error after approving leave and absence records in the **Work items assigned to me** list.</span></span>
+<span data-ttu-id="31255-115">Были внесены изменения в модуль отпусков и отсутствия для исправления этой ошибки после утверждения записей отпусков и отсутствия в списке **Рабочие элементы, назначенные мне**.</span><span class="sxs-lookup"><span data-stu-id="31255-115">Changes have been made to Leave and Absence to correct this error after approving leave and absence records in the **Work items assigned to me** list.</span></span>
 
-### <a name="unable-to-recall-an-image-workflow"></a><span data-ttu-id="76793-116">Не удается вызвать workflow-процесс изображения</span><span class="sxs-lookup"><span data-stu-id="76793-116">Unable to recall an image workflow</span></span>
+### <a name="unable-to-recall-an-image-workflow"></a><span data-ttu-id="31255-116">Не удается вызвать workflow-процесс изображения</span><span class="sxs-lookup"><span data-stu-id="31255-116">Unable to recall an image workflow</span></span>
 
-<span data-ttu-id="76793-117">После отзыва workflow-процесса изображения workflow-процесс будет задано значение "отменен" и существующий запрос может быть удален из рабочей области самообслуживания сотрудников.</span><span class="sxs-lookup"><span data-stu-id="76793-117">After recalling an image workflow, the workflow will be set to "cancelled" and the existing request can be deleted in the employee self-service workspace.</span></span>
+<span data-ttu-id="31255-117">После отзыва workflow-процесса изображения workflow-процесс будет задано значение "отменен" и существующий запрос может быть удален из рабочей области самообслуживания сотрудников.</span><span class="sxs-lookup"><span data-stu-id="31255-117">After recalling an image workflow, the workflow will be set to "cancelled" and the existing request can be deleted in the employee self-service workspace.</span></span>
 
-### <a name="rehired-employees-or-contractors-show-up-multiple-times-after-termination"></a><span data-ttu-id="76793-118">Повторно принятые на работу сотрудники или подрядчики отображаются несколько раз после увольнения</span><span class="sxs-lookup"><span data-stu-id="76793-118">Rehired employees or contractors show up multiple times after termination</span></span> 
+### <a name="rehired-employees-or-contractors-show-up-multiple-times-after-termination"></a><span data-ttu-id="31255-118">Повторно принятые на работу сотрудники или подрядчики отображаются несколько раз после увольнения</span><span class="sxs-lookup"><span data-stu-id="31255-118">Rehired employees or contractors show up multiple times after termination</span></span> 
 
-<span data-ttu-id="76793-119">С этим обновлением уволенные сотрудники, которые были повторно приняты на работу, будут отображаться только один раз в списке уволенных.</span><span class="sxs-lookup"><span data-stu-id="76793-119">With this update, terminated employees that are rehired will only display one time in the exited list.</span></span> 
+<span data-ttu-id="31255-119">С этим обновлением уволенные сотрудники, которые были повторно приняты на работу, будут отображаться только один раз в списке уволенных.</span><span class="sxs-lookup"><span data-stu-id="31255-119">With this update, terminated employees that are rehired will only display one time in the exited list.</span></span> 
 
-## <a name="known-issue"></a><span data-ttu-id="76793-120">Известная проблема</span><span class="sxs-lookup"><span data-stu-id="76793-120">Known issue</span></span>
+## <a name="known-issue"></a><span data-ttu-id="31255-120">Известная проблема</span><span class="sxs-lookup"><span data-stu-id="31255-120">Known issue</span></span>
 
-- <span data-ttu-id="76793-121">**Проблема**: при добавлении нового вложения для работника кнопки **Создать** и **Изменить** неактивны.</span><span class="sxs-lookup"><span data-stu-id="76793-121">**Issue**: When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out.</span></span> 
-- <span data-ttu-id="76793-122">**Временное решение:** перед открытием страницы вложения убедитесь, что информационные панели на странице **Рабочий** закрыты.</span><span class="sxs-lookup"><span data-stu-id="76793-122">**Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="76793-123">Если информационные панели закрыты при загрузке страницы **Работник**, кнопки вложений будут активны.</span><span class="sxs-lookup"><span data-stu-id="76793-123">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="76793-124">(Эта проблема будет исправлена в следующем обновлении платформы.)</span><span class="sxs-lookup"><span data-stu-id="76793-124">(This issue will be fixed in the next platform update.)</span></span>
+- <span data-ttu-id="31255-121">**Проблема**: при добавлении нового вложения для работника кнопки **Создать** и **Изменить** неактивны.</span><span class="sxs-lookup"><span data-stu-id="31255-121">**Issue**: When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out.</span></span> 
+- <span data-ttu-id="31255-122">**Временное решение:** перед открытием страницы вложения убедитесь, что информационные панели на странице **Рабочий** закрыты.</span><span class="sxs-lookup"><span data-stu-id="31255-122">**Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="31255-123">Если информационные панели закрыты при загрузке страницы **Работник**, кнопки вложений будут активны.</span><span class="sxs-lookup"><span data-stu-id="31255-123">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="31255-124">(Эта проблема будет исправлена в следующем обновлении платформы.)</span><span class="sxs-lookup"><span data-stu-id="31255-124">(This issue will be fixed in the next platform update.)</span></span>
