@@ -16,18 +16,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ff513d2e2d2968e531e4515c45abdc470b384123
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184102"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570341"
 ---
 # <a name="revenue-recognition-setup"></a>Настройка признания выручки
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Добавлен новый модуль **Признание выручки**, включающий пункты меню для любой необходимой настройки. В этом разделе описываются параметры настройки и их влияние.
+Добавлен новый модуль **Признание выручки**, включающий пункты меню для любой необходимой настройки. В этом разделе описываются параметры настройки и особенности их использования.
+
+> [!NOTE]
+> Функцию признания выручки невозможно включить через механизм управления функциями. В данный момент это можно сделать только с помощью конфигурационных ключей.
 
 В модуле **Признание выручки** имеются следующие параметры настройки:
 

@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-4-30
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 9cc4bff6431cb0f4d7a964b20102f52ff192a711
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bf49b215967fd82e70e43ea5221ad1d056f43955
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175230"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553205"
 ---
 # <a name="accounting-reporting-in-electronic-format-russia"></a>Бухгалтерская отчетность в электронном формате (Россия)
 
@@ -99,7 +99,7 @@ ms.locfileid: "2175230"
     3. Задайте для параметра **Показать диалоговое окно** значение **Да**.
     4. В поле **Сопоставление формата** выберите конфигурацию **Формат бухгалтерской отчетности 5.07 (RU)**, загруженную на шаге 1.
 
-    Дополнительные сведения о том, как настроить функцию электронных сообщений см. в разделе [Электронные сообщения](https://docs.microsoft.com/dynamics365/unified-operations/financials/general-ledger/electronic-messaging).
+    Дополнительные сведения о том, как настроить функцию электронных сообщений см. в разделе [Электронные сообщения](https://docs.microsoft.com/dynamics365/finance/general-ledger/electronic-messaging).
 
 ## <a name="generate-accounting-reporting-in-electronic-format"></a>Создание бухгалтерской отчетности в электронном формате
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b48313e93573e3214de0ee02c4894b000dc18f67
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176064"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570133"
 ---
 # <a name="financial-management-home-page"></a>Домашняя страница модуля "Управление финансами"
 
@@ -68,5 +68,9 @@ ms.locfileid: "2176064"
 
 ### <a name="countryregion-functionality"></a>Функциональность страны/региона
 
-Законодательство страны/региона влияет на настройку налогов и другие области управления финансами. Сведения о функциональности, относящейся к конкретным странам и регионам, см. в разделе [Локализация и нормативные компоненты](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) нашего справочного содержимого.
+Законодательство страны/региона влияет на настройку налогов и другие области управления финансами. Сведения о функциональности, относящейся к конкретным странам и регионам, см. в разделе [Локализация и нормативные компоненты](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) справки.
+
+### <a name="additional-content"></a>Дополнительные материалы
+
+Функция управления цепочками поставок охватывает части процесса Procure-To-Pay, включая заявки на закупку, заказы, получение, выставление счетов и оплату за товары и услуги в организации. Информацию о функциях управления цепочками поставок, запасами и производством см. на [!главной странице Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
 

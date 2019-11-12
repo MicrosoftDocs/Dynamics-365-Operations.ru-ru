@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a1c41cd4440eaf70f720bfd64884e6ef4662f87a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f65118b6a7393ced9d80c30fad7540a7b27da6c7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181481"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569092"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Указание пользовательского места хранения для созданных документов
 
@@ -56,7 +56,7 @@ ms.locfileid: "2181481"
 
 Чтобы указать способ маршрутизации документов, создаваемых форматом ER, необходимо настроить [пункты назначения ER](electronic-reporting-destinations.md). В каждом пункте назначения ER, настроенном для хранения созданных документов в виде файлов, необходимо указать тип документа платформы управления документами. Различные типы документов могут использоваться для маршрутизации документов, создаваемых различными форматами электронной отчетности.
 
-1. Добавьте новый [тип документа](../../fin-and-ops/organization-administration/configure-document-management.md) в формат ER, созданный или импортированный ранее. На рисунке ниже тип документа — **FileX**.
+1. Добавьте новый [тип документа](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) в формат ER, созданный или импортированный ранее. На рисунке ниже тип документа — **FileX**.
 2. Этот отличать этот тип документа от других типов документов, включите определенное ключевое слово в его имя. Например, на следующем рисунке задано имя **(ЛОКАЛЬНАЯ) папка**.
 3. В поле **Класс** укажите **Вложить файл**.
 4. В поле **Группа** укажите **Файл**.

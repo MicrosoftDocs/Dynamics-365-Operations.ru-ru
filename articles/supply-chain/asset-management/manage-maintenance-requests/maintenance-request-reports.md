@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5f1860907e3cc3c4830cc385771d5924c609ea6
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: 0734416eccf149330b390cce897d2c254f6c698b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847536"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571630"
 ---
 # <a name="maintenance-request-reports"></a>Отчеты по запросам на обслуживание
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 В «Управлении активами» можно создать два отчета, связанных с запросами на обслуживание. В одном отчете представлены подробные сведения, а в другом — список, который может быть использован для планирования и обработки результатов.
 
@@ -44,7 +44,7 @@ ms.locfileid: "1847536"
 
 На следующем рисунке показан пример отчета **Сведения о запросах на обслуживание**.
 
-![Рисунок 1](media/09-manage-maintenance-requests.png)
+![Отчет по сведениям запроса на обслуживание](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Создание отчета по списку запроса на обслуживание
 
@@ -57,4 +57,4 @@ ms.locfileid: "1847536"
 
 На следующем рисунке показан пример отчета **Список запросов на обслуживание** для всех активных запросов на обслуживание.
 
-![Рисунок 2](media/10-manage-maintenance-requests.png)
+![Отчеты по списку запросов на обслуживание](media/10-manage-maintenance-requests.png)

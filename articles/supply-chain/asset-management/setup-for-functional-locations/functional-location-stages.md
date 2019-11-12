@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11f784e4c17ad5b764cadd914f4959f4be160913
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: d4804d5f38fb65aa8ab3eafceccbbc6f52f2e81b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783539"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569946"
 ---
 # <a name="functional-location-lifecycle-states"></a>Состояния жизненного цикла функциональных местоположений
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 В этом разделе описывается, как настроить состояния жизненного цикла функционального местоположения и модели жизненного цикла в «Управлении активами». Состояния жизненного цикла функционального местоположения определяют состояния, через которые может пройти функциональное местоположение, например, созданное, активное и завершенное. Вы можете просматривать все функциональные местоположения, независимо от их состояния жизненного цикла на странице списка **Все функциональные местоположения**. Вы можете изменить состояние функционального местоположения, выбрав его на странице списка **Все функциональные местоположения** и выбрав **Обновить состояние функционального местоположения**.
 

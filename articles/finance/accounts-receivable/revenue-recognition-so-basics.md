@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: f0a5e4c01b34b2adb8e7e0af967af2c2562b4d87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7d2cfb8e58221004ae5662aae3850adc577dc88
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176070"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570318"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Признание выручки по заказам на продажу
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Функцию признания выручки пока невозможно включить через механизм управления функциями. В данный момент это можно сделать только с помощью конфигурационных ключей.
+> Функцию признания выручки невозможно включить через механизм управления функциями. В данный момент это можно сделать только с помощью конфигурационных ключей.
 
 В этом разделе описываются базовые функции для признания выручки по заказам на продажу и накладным. Признание выручки доступно в заказе на продажу и в соответствующей накладной, которая создается из заказа на продажу. Заказ на продажу также может быть создан с помощью проекта "Время и расходы".
 

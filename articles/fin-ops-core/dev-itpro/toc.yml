@@ -1,12 +1,14 @@
-- name: Разработка и администрирование для Finance and Operations
+- name: Разработка и администрирование приложений Finance and Operations
   items:
-    - name: Разработка и администрирование для Finance and Operations
+    - name: Разработка и администрирование приложений Finance and Operations
       items:
-        - name: Разработка и администрирование для Finance and Operations
+        - name: Разработка и администрирование приложений Finance and Operations
           href: index.md
         - name: Что нового и что изменилось
           items:
-            - name: Предварительные версии функций в Platform update 30 (ноябрь 2019 г.)
+            - name: Предварительные версии функций Platform update 31 (январь 2020 г.)
+              href: get-started/whats-new-platform-update-31.md
+            - name: Platform update 30 (ноябрь 2019 г.)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
             - name: Platform update 29 (октябрь 2019 г.)
               href: ../fin-ops/get-started/whats-new-platform-update-29.md
@@ -56,12 +58,14 @@
                   href: business-events/how-to/how-to-eventgrid.md
                 - name: Бизнес-события и служебная шина Azure
                   href: business-events/how-to/how-to-servicebus.md
-                - name: Бизнес-события и утверждения документооборота
+                - name: Бизнес-события и утверждения workflow-процессов
                   href: business-events/how-to/how-to-workflow.md
                 - name: Бизнес-события и Microsoft Forms Pro
                   href: business-events/how-to/FormsPro.md
                 - name: Бизнес-события и центры событий Azure
                   href: business-events/how-to/event-hub.md
+                - name: Бизнес-события при закрытии финансового периода
+                  href: business-events/how-to/period-close.md
         - name: Непрерывная поставка
           items:
             - name: Домашняя страница непрерывной поставки
@@ -298,10 +302,30 @@
                   href: database/dbmovement-scenario-debugdiag.md
                 - name: Экспорт копии базы данных пользовательских приемочных тестов (UAT)
                   href: database/dbmovement-scenario-exportuat.md
-                - name: Реклама эталонной конфигурации
+                - name: Продвижение эталонной конфигурации
                   href: database/dbmovement-scenario-goldenconfig.md
                 - name: Тестирование с разрушением
                   href: database/dbmovement-scenario-destructivetests.md
+            - name: RESTful API
+              items:
+                - name: Обзор
+                  href: database/api/dbmovement-api-overview.md
+                - name: Управление версиями и поддержка
+                  href: database/api/dbmovement-api-versioning-support.md
+                - name: Проверка подлинности
+                  href: database/api/dbmovement-api-authentication.md
+                - name: Регулирование
+                  href: database/api/dbmovement-api-throttling.md
+                - name: Справка
+                  items:
+                    - name: Справка по API v1
+                      href: database/api/v1/dbmovement-api-v1-overview.md
+                    - name: Список резервных копий баз данных
+                      href: database/api/v1/reference-list-backups.md
+                    - name: Создание обновления баз данных
+                      href: database/api/v1/reference-create-refresh.md
+                    - name: Получение статуса операции
+                      href: database/api/v1/reference-get-status.md
         - name: Демонстрационные данные
           items:
             - name: Обзор демонстрационных данных
@@ -1213,7 +1237,7 @@
             - name: Получение поддержки по Finance and Operations и Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Обзор вариантов поддержки Dynamics 365
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/dev-itpro/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: 'Получение поддержки по Finance and Operations, предоставляемому компанией 21Vianet в Китае'
               href: lifecycle-services/21vianet-support.md
             - name: Отправка запросов команде разработчиков служб Dynamics

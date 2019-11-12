@@ -1,5 +1,5 @@
 ---
-title: Выполнение форматов для использования файлов управления документами в выходных данных электронной отчетности
+title: Электронная отчетность — Использование файлов управления документами в выходных данных формата (Часть 4 — Выполнение формата)
 description: В следующих шагах поясняется, как пользователь, которому назначена роль системного администратора или разработчика электронной отчетности, может настроить формат электронной отчетности (ER) для использования файлов управления документами в выходных данных электронной отчетности.
 author: NickSelin
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8dc541af4d26b61ff9b90e08a8ca2c6a6bb8e70
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f715be8c151f62a4bbb4cc295d3158fe5a17e084
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185022"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550817"
 ---
-# <a name="er-use-document-management-files-in-format-outputs-part-4-run-format"></a>Электронная отчетность — Использование файлов управления документами в выходных данных формата (Часть 4. Выполнение формата)
+# <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>Электронная отчетность — Использование файлов управления документами в выходных данных формата (Часть 4 — Выполнение формата)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

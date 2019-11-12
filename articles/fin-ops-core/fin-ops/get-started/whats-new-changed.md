@@ -1,9 +1,9 @@
 ---
-title: Домашняя страница модуля "Что нового и что изменилось"
+title: Домашняя страница "Что нового и что изменилось в Finance and Operations"
 description: Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних приложениях Finance and Operations.
 author: josaw1
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c2dd8093102f92391cd782cda77afb17a3560010
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7559ef3aa3ce816d375f263ff4a4e0cf3d632249
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249305"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658721"
 ---
-# <a name="whats-new-or-changed-home-page"></a>Домашняя страница модуля "Что нового и что изменилось"
+# <a name="whats-new-or-changed-in-finance-and-operations-home-page"></a>Домашняя страница "Что нового и что изменилось в Finance and Operations"
 [!include [banner](../includes/banner.md)]
 
-Эта страница указывает на разделы с дополнительными сведениями о новых функциональных возможностях в последних приложениях Finance and Operations.
+По состоянию на октябрь 2019 года эта страница больше не поддерживается. В этом разделе содержится информация о том, где найти информацию о функциях приложений Finance and Operations, которые были выпущены до октября 2019.
 
 О том, как провести обновление до последней версии, см. в разделе [Процесс обновления до последнего обновления](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
@@ -41,7 +41,7 @@ ms.locfileid: "2249305"
 <table>
 <thead>
 <tr>
-<th>Выпуск</th>
+<th>Запуск в производство</th>
 <th>Версия</th>
 <th>Номер сборки</th>
 <th>Доступность</th>
@@ -49,13 +49,6 @@ ms.locfileid: "2249305"
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10.0.6</td>
-<td>10.0.234</td>
-<td>Ноябрь 2019 г.</td>
-<td><a href="whats-new-changed-10-0-6.md">Функции предварительной версии в Dynamics 365 for Finance and Operations версии 10.0.6 (ноябрь 2019 г.)</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.5</td>
@@ -183,13 +176,6 @@ ms.locfileid: "2249305"
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Обновление платформы update 30</td>
-<td>7.0.5407</td>
-<td>Ноябрь 2019 г.</td>
-<td><a href="whats-new-platform-update-30.md">Предварительные версии функций в Dynamics 365 for Finance and Operations Platform update 30 (ноябрь 2019 г.)</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Обновление платформы update 29</td>

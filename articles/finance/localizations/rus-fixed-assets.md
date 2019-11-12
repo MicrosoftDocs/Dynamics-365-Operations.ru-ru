@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: kfend
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f7712aa25eb934d06f0430a50238613b90d0e229
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1b375d2eb6e76f63cf0155adbe292088ff02a5ff
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183915"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553104"
 ---
 # <a name="fixed-assets-russia"></a>Основные средства (Россия)
 
@@ -71,7 +71,7 @@ ms.locfileid: "2183915"
         - **Земельный участок** — при выборе этого значения появляется поле **Дата начала строительства** на экспресс-вкладке **Техническая информация**.
 
         > [!NOTE]
-        > Следующие типы основных средств не могут быть выбраны на странице **Основные средства**: **МОС**, **Спецодежда** и **Спецоснастка**. Для этих типов основных средств имеются специальные страницы. Дополнительные сведения см. в разделах [Учет малоценных основных средств (МОС) для России](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/rus-not-valuable-assets) и [Учет спецодежды и спецоснастки для России](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/rus-working-clothes-instruments-accounting).
+        > Следующие типы основных средств не могут быть выбраны на странице **Основные средства**: **МОС**, **Спецодежда** и **Спецоснастка**. Для этих типов основных средств имеются специальные страницы. Дополнительные сведения см. в разделах [Учет малоценных основных средств (МОС) для России](https://docs.microsoft.com/dynamics365/finance/localizations/rus-not-valuable-assets) и [Учет спецодежды и спецоснастки для России](https://docs.microsoft.com/dynamics365/finance/localizations/rus-working-clothes-instruments-accounting).
 
     - **Номер полиса**, **Страховая сумма**, **Восстановительная стоимость**, **Дата страхования 1** и **Дата страхования 2** — установите требуемые поля, связанные со страхованием.
     - **Флаг владения** — по умолчанию для этого поля устанавливается значение **Собственность**, но это значение можно изменить.

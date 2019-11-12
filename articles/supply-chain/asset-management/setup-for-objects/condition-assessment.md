@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5294325f67f0484b39194b5bd9784a2e612001a4
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 05d1a38ab8de406a1615c474ffe39d231335fb67
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783536"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570061"
 ---
 # <a name="condition-assessment"></a>Оценка состояния
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 В этой теме объясняется, как создать шаблон оценки состояния и регистрацию актива в управлении активами. Оценка состояния проводится через регулярные промежутки времени, и основной целью является создание и поддержание данных о состоянии активов. С точки зрения профилактического обслуживания важно отслеживать ключевые сведения, такие как текущее состояние и продолжительность срока службы. Кроме того, если вы регулярно проводите оценку состояния, вы сможете отслеживать и сравнивать состояние оборудования на вашем заводе.
 

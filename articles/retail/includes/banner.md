@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Этот раздел относится к Dynamics 365 Retail и Dynamics 365 Commerce (предварительный просмотр).
+> Этот раздел относится к [Dynamics 365 Retail](../index.md) и [Dynamics 365 Commerce (предварительная версия)](../../commerce/index.md).

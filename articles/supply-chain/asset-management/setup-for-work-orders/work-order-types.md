@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 57120b51c069e49697f8ec4357265974a0d3afb4
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 3e813bd4f2d47b928b6184bb063d9afa45695727
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874586"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569739"
 ---
 # <a name="work-order-types"></a>Типы заказов на работу
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Типы заказов на работу используются для классификации заказов на работу. Например, могут быть заказы на работу, связанные с профилактическим обслуживанием или корректирующим обслуживанием.
 
@@ -51,4 +51,4 @@ ms.locfileid: "1874586"
 
 8. Нажмите **Сохранить**.
 
-![Рисунок 1](media/16-setup-for-work-orders.png)
+![Типы заказов на работу](media/16-setup-for-work-orders.png)

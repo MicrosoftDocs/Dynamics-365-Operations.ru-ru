@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 94442eb11aac3faf8a412944617686853a12128d
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fa2772db63332319c399999bd5f747b2ac729d9e
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251669"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653283"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Синхронизация заголовков и строк накладных по продаже непосредственно из Finance and Operations с Sales
 
@@ -34,7 +34,7 @@ ms.locfileid: "2251669"
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Поток данных в решение "Перспективный клиент в наличные деньги"
 
-Решение "Перспективный клиент в наличные деньги" использует функцию интеграции данных для синхронизации данных между экземплярами Supply Chain Management и Sales. Шаблоны "Перспективный клиент в наличные деньги", доступные в компоненте интеграции данных, обеспечивают движение данных об организациях, контактах, продуктах, предложениях по продажам, заказах на продажу и накладных по продажам между Finance and Operations и Sales. На следующем рисунке показано, как данные синхронизируются между Supply Chain Management и Sales.
+Решение "Перспективный клиент в наличные деньги" использует функцию интеграции данных для синхронизации данных между экземплярами Supply Chain Management и Sales. Шаблоны "Перспективный клиент в наличные деньги", доступные в компоненте интеграции данных, обеспечивают движение данных об организациях, контактах, продуктах, предложениях по продажам, заказах на продажу и накладных по продажам между Supply Chain Management и Sales. На следующем рисунке показано, как данные синхронизируются между Supply Chain Management и Sales.
 
 [![Поток данных в решение "Перспективный клиент в наличные деньги"](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -42,7 +42,7 @@ ms.locfileid: "2251669"
 
 Чтобы получить доступ к доступным шаблонам, откройте [Центр администрирования PowerApps](https://preview.admin.powerapps.com/dataintegration). Выберите **Проекты**, затем в правом верхнем углу выберите **Создать проект**, чтобы выбрать общие шаблоны.
 
-Следующий шаблон и базовые задачи используются для синхронизации заголовков и строк накладных по продажам из Finance and Operations в Sales:
+Следующий шаблон и базовые задачи используются для синхронизации заголовков и строк накладных по продажам напрямую из Sales с Supply Chain Management в Sales:
 
 - **Имя шаблона в интеграции данных:** "Накладные продаж (из Fin and Ops в Sales) - напрямую"
 - **Имена задач в проекте интеграции данных:**

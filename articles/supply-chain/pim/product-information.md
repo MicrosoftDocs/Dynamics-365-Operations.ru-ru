@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4e378bc0a72e05f940ae352ad0f1c0709d9d3a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 21ee0b835cbe6cc3a238247be29f8a8d3de42a8d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249479"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570756"
 ---
 # <a name="product-information-overview"></a>Обзор сведений о продуктах
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 В этой теме содержится информация об управлении информацией о продуктах. Управление информацией о продуктах работает с общим определением продукта, категоризацией и идентификаторами по всем юридическим лицам, а также с конкретными конфигурациями продуктов для обеспечения их соответствия бизнес-процессам. 
 

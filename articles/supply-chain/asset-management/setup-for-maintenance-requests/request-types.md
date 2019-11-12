@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19d529df6c8aab036de59502b4f14101e1a07707
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 430e475b52638dd80512ffd79d42aac6f5f340e1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790533"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571147"
 ---
 # <a name="maintenance-request-types"></a>Типы запросов на обслуживание
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Типы запросов на обслуживание используются для классификации запросов на обслуживание. Например, могут быть типы запросов на обслуживание, связанные с профилактическим обслуживанием и корректирующим обслуживанием. Или у вас может быть специальный тип запроса на обслуживание, который используется для управления ремонтом активов (ремонт в хранилище).
 
@@ -44,4 +44,4 @@ ms.locfileid: "1790533"
 
 На следующем рисунке показан пример страницы **Типы запроса на обслуживание**.
 
-![Рисунок 1](media/07-setup-for-requests.png)
+![Страница типов запросов на обслуживание](media/07-setup-for-requests.png)

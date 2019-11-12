@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 698888533bf503838f455585f61cc7afc7239b05
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: b9efd5bccdccf6ea19b105f3518bb2ef35ec857e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922053"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571285"
 ---
 # <a name="schedule-maintenance-plans"></a>Составление графика планов обслуживания
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Планирование профилактического обслуживания создает календарные записи по активам на основе планов обслуживания, настроенных для активов. Можно планировать записи календаря на основе выбранных планов обслуживания, типов активов и активов.
 

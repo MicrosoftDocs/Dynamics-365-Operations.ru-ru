@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 510a36668bf131b48733e486a43f1d630ae9f3ea
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278332"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653702"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Справочные ресурсы по Supply Chain Management
 
@@ -39,7 +39,7 @@ ms.locfileid: "2278332"
 Выберите область компонентов для получения дополнительных сведений о ней.
 
 - [Управление активами](asset-management/index.md)
-- [Учет затрат](../financials/cost-accounting/cost-accounting-home-page.md)
+- [Учет затрат](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Управление затратами](cost-management/cost-management-home-page.md)  
 - [Управление запасами](inventory/inventory-home-page.md)
 - [Сводное планирование](master-planning/master-planning-home-page.md)
@@ -109,7 +109,7 @@ ms.locfileid: "2278332"
 -  [Управление транспортировкой (TMS) в новой версии Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Блоги
-В <a href="https://blogs.msdn.microsoft.com/axmfg/">блоге группы исследований производства Dynamics AX</a> и в <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">блоге группы исследований управления цепочками поставок Dynamics AX</a> есть множество тем о производстве и управлении цепочками поставок. Большинство из них были написаны для предыдущей версии Finance and Operations, но эти понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии. 
+В <a href="https://blogs.msdn.microsoft.com/axmfg/">блоге группы исследований производства Dynamics AX</a> и в <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">блоге группы исследований управления цепочками поставок Dynamics AX</a> есть множество тем о производстве и управлении цепочками поставок. Большинство из них были написаны для предыдущей версии, но эти понятия по-прежнему применяются, а процедуры аналогичны процедурам в текущей версии. 
 
 ## <a name="white-papers"></a>Публикации
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Практическое занятие по учету затрат</a> 
