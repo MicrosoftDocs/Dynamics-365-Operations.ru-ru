@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92fec444834be8ca4943932730b94beb8a1902e7
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536855"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771572"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Домашняя страница бизнес-аналитики (BI) и отчетности
 
@@ -48,7 +48,7 @@ ms.locfileid: "2536855"
 - [Интеграция с Power BI Embedded](power-bi-embedded-integration.md)
 - [Добавление аналитики в рабочие области с помощью Power BI Embedded](add-analytics-tab-workspaces.md)
 - [Защита аналитических рабочих областей и отчетов с помощью Power BI Embedded](secure-analytical-workspaces.md)
-- [Содержимое Power BI для Finance and Operations](power-bi-home-page.md)
+- [Домашняя страница содержимого Power BI](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Бизнес-документы и печать
 Решения для формирования отчетности часто используются для сбора и передачи информации о бизнес-операциях. Поэтому такое решение должно поддерживать создание физических представлений бизнес-данных с помощью имеющихся устройств, например сетевых принтеров. Такими бизнес-документами могут быть накладные по продаже, выписки по клиентам и чеки.
@@ -57,9 +57,9 @@ ms.locfileid: "2536855"
 
 Дополнительные сведения см. в следующих разделах.
 
-- [Обзор служб Reporting Services для документов](document-reporting-services.md)
-- [Печать в приложениях Finance and Operations](print-documents.md)
-- [Установка агента маршрутизации документов для включения сетевых принтеров](install-document-routing-agent.md)
+- [Службы Reporting Services для документов](document-reporting-services.md)
+- [Обзор печати документов](print-documents.md)
+- [Установка агента маршрутизации документов для включения сетевой печати](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Электронная отчетность
 Средства электронной отчетности (ER) служат для настройки форматов электронных документов в соответствии с требованиями законодательства различных стран и регионов. Электронную отчетность можно использовать для финансового аудита, формирования налоговой отчетности и выставления электронных накладных.
@@ -68,9 +68,9 @@ ms.locfileid: "2536855"
 
 Дополнительные сведения см. в следующих разделах.
 
-- [Обзор электронной отчетности](general-electronic-reporting.md)
-- [Управление жизненным циклом конфигураций электронной отчетности](general-electronic-reporting-manage-configuration-lifecycle.md)
-- [Создание конфигурации электронной отчетности](electronic-reporting-configuration.md)
+- [Обзор электронной отчетности (ER)](general-electronic-reporting.md)
+- [Управление жизненным циклом конфигураций электронной отчетности (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Создание конфигураций электронной отчетности (ER)](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>Финансовая отчетность
 Вы можете создавать стандартные финансовые отчеты, использующие категории счетов ГК по умолчанию. А с помощью конструктора отчетов вы можете создавать и изменять традиционные финансовые отчеты, например отчет о прибылях и убытках или бухгалтерский баланс. Затем вы можете поделиться результатами с другими сотрудниками своей организации. Примерами финансовой отчетности являются баланс, отчет о движении денежных средств и годовое сравнение сводного пробного баланса.
@@ -79,14 +79,14 @@ ms.locfileid: "2536855"
 
 Дополнительные сведения см. в следующих разделах.
 
-- [Финансовая отчетность в Finance and Operations](financial-reporting-intro.md)
-- [Создание финансового отчета](generate-financial-report.md)
-- [Компоненты финансового отчета](financial-report-components.md)
+- [Финансовая отчетность](financial-reporting-intro.md)
+- [Создание финансовых отчетов](generate-financial-report.md)
+- [Компоненты финансовых отчетов](financial-report-components.md)
 
 ## <a name="technical-reference-reports"></a>Технический справочник по отчетам
 В следующих отчетах приводятся справочные сведения об объектах:
 
-- [Отчет по информационным объектам](../data-entities/data-entities-report.md)
+- [Поиск сведений о стандартных информационных объектах](../data-entities/data-entities-report.md)
 - [Отчет о лицензионных кодах и ключах конфигурации](../sysadmin/license-codes-configuration-keys-report.md)
-- [Отчет служб SQL Server Reporting Services](SSRS-report.md)
+- [Доступные отчеты служб SQL Server Reporting Services (SSRS)](SSRS-report.md)
 - [Отчет о типах бизнес-правил](../../fin-ops/organization-administration/workflow-types-report.md)

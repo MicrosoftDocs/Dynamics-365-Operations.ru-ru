@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5493c46183e7b599e82153f5b3ac36c81faa4955
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f850b28c4d6ed6ce13438f4de87ef0c04065c7f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174704"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770241"
 ---
 # <a name="public-sector-home-page"></a>Домашняя страница государственного сектора
 
@@ -43,12 +43,12 @@ ms.locfileid: "2174704"
   Дополнительные сведения см. в следующих разделах:
 
 - [Планирование функциональности государственного сектора](plan-public-sector-functionality.md)
-- [Расчеты с поставщиками в государственном секторе](accounts-payable-public-sector.md)
-- [Расчеты с клиентами в государственном секторе](accounts-receivable-public-sector.md)
-- [Бюджетирование в государственном секторе](budgeting-public-sector.md)
+- [Обзор расчетов с поставщиками в государственном секторе](accounts-payable-public-sector.md)
+- [Обзор расчетов с клиентами в государственном секторе](accounts-receivable-public-sector.md)
+- [Обзор бюджетирования в государственном секторе](budgeting-public-sector.md)
 - [Основные средства в государственном секторе](fixed-asset-public-sector.md)
-- [Нормативные компоненты для Франции](../localizations/emea-fra-public-sector-accounting.md)
-- [Главная книга в государственном секторе](general-ledger-public-sector.md)
+- [Учет в государственном секторе во Франции](../localizations/emea-fra-public-sector-accounting.md)
+- [Обзор главной книги в государственном секторе](general-ledger-public-sector.md)
 - [Закупки и источники в государственном секторе](procurement-sourcing-public-sector.md)
 - [Роли безопасности в государственном секторе](security-roles-public-sector.md)
 

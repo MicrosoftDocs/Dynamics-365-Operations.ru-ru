@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658744"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772245"
 ---
 # <a name="accounts-payable-home-page"></a>Домашняя страница расчетов с поставщиками
 
@@ -41,7 +41,7 @@ ms.locfileid: "2658744"
 
 Модуль "Расчеты с поставщиками" позволяет настроить группы поставщиков, поставщиков, профили разноски, параметры оплаты, а также параметры, связанные с поставщиками, накладными расходами, поставками и местами назначения, простыми векселями и другие сведения. 
 
-[Настройка модуля "Расчеты с поставщиками"](accounts-payable-overview.md)
+[Обзор настройки модуля "Расчеты с поставщиками"](accounts-payable-overview.md)
 
 [Распределения по бухгалтерским счетам и записи в журнале субкниги для накладных поставщиков](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -49,9 +49,9 @@ ms.locfileid: "2658744"
 
 ## <a name="configure-vendor-invoices"></a>Настройка накладных поставщиков
 
-Модуль "Расчеты с поставщиками" позволяет отслеживать накладные и исходящих расходы на поставщиков.
+Модуль "Расчеты с поставщиками" позволяет отслеживать накладные и исходящие расходы на поставщиков.
 
-[Сопоставление накладных по расчетам с поставщиками](accounts-payable-invoice-matching.md)
+[Обзор сопоставления накладных по расчетам с поставщиками](accounts-payable-invoice-matching.md)
 
 [Профили разноски поставщиков](vendor-posting-profiles.md)
 
@@ -61,7 +61,7 @@ ms.locfileid: "2658744"
 
 [Сопоставление накладных и внутрихолдинговые заказы на покупку](invoice-matching-intercompany-purchase-orders.md)
 
-[Устранение несоответствий во время сопоставления итогов по накладным](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[Обзор устранения несоответствий во время сопоставления итогов по накладным](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [Корреспондирующие счета по умолчанию для журналов накладных поставщика и журналов утверждения накладных](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -93,11 +93,11 @@ ms.locfileid: "2658744"
 
 [Использование скидки по оплате вне периода скидки по оплате](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[Электронная отчетность для чеков поставщиков](electronic-reporting-sample-vendor-checks.md)
+[Пример электронной отчетности для чеков поставщиков](electronic-reporting-sample-vendor-checks.md)
 
 [Реверсирование платежа поставщику](reverse-vendor-payment.md)
 
-[Обзор счетов по предоплате и предоплат](prepayments-invoices-vs-prepayments.md)
+[Счета по предоплате и предоплата](prepayments-invoices-vs-prepayments.md)
 
 [Централизованные платежи для расчетов с поставщиками](centralized-payments-accounts-payable.md)
 
@@ -107,13 +107,13 @@ ms.locfileid: "2658744"
 
 [Настройка сопоставления](../cash-bank-management/configure-settlement.md)
 
-[Сопоставление частичного платежа поставщику до даты скидки](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[Сопоставление частичного платежа поставщику до даты скидки с окончательным платежом после даты скидки](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
 [Настройка частичного платежа поставщику, имеющего скидки по кредит-нотам поставщика](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
 [Сопоставление частичного платежа поставщику с несколькими периодами скидок](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[Сопоставление частичного платежа поставщику или окончательного платежа до скидки](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[Сопоставление частичного платежа поставщику и окончательного платежа в полном объеме до даты скидки](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [Один ваучер с несколькими записями клиента или поставщика](single-voucher-multiple-customer-vendor-records.md)
 
@@ -123,7 +123,7 @@ ms.locfileid: "2658744"
 
 #### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 
-Перейдите к [Заметкам о выпуске Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы узнать о новых и запланированных возможностях. 
+Перейдите на страницу [Планы выпусков Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы узнать о новых и запланированных возможностях. 
 
 #### <a name="blogs"></a>Блоги
 

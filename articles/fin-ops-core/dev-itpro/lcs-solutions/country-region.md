@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 058adaef91a7b30e25bea603625116e97009cf55
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537032"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812096"
 ---
 # <a name="globalization-resources"></a>Ресурсы глобализации
 
@@ -45,9 +45,9 @@ ms.locfileid: "2537032"
 
 ### <a name="developing-localized-solutions"></a>Разработка локализованных решений
 Следующие ресурсы содержат инструкции и сведения, которые помогут разработчикам и независимым поставщикам программного обеспечения, создающим настройки для конкретных стран и регионов или разрабатывающим решения для стран, не поддерживаемых корпорацией Майкрософт.
--   [Отдельные модели локализации](separate-localization-models.md)
+-   [Разделение моделей локализации](separate-localization-models.md)
 -   [Применение контекста страны/региона](apply-country-context.md)
--   [Нормативные сертификаты](regulatory-certifications.md)
+-   [Нормативные сведения о сертификации в заголовках компонентов](regulatory-certifications.md)
 -   [Классификация функций локализации](classify-localization-features.md)
 -   [Коды стран — ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
@@ -57,36 +57,36 @@ ms.locfileid: "2537032"
 #### <a name="regulatory-updates"></a>Нормативные обновления
 -   [Нормативные обновления](../../../finance/localizations/regulatory-updates.md)
 -   [Портал локализации](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (обновляется еженедельно)
--   [Поиск проблем LCS](../lifecycle-services/issue-search-lcs.md) (обновляется ежедневно)
+-   [Поиск проблем в Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (обновляется ежедневно)
 
 #### <a name="communication-and-alerts"></a>Сообщения и предупреждения
 -   [Отслеживание законов и информирование об их изменениях](regulatory-watch-communication.md)
--   [Информирование Майкрософт об оповещениях по законам страны/региона и отслеживание статуса функций, связанных с законами](submit-localization-alerts.md)
+-   [Отправка оповещений о функциях, связанных с законодательством конкретных стран/регионов](submit-localization-alerts.md)
 
-#### <a name="dynamics-365-release-notes"></a>Заметки о выпуске Dynamics 365
-[Заметки о выпуске Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) содержат описание новых и улучшенных функциональных возможностей, которые запланированы для бизнес-приложений Dynamics 365 и платформ приложений. 
+#### <a name="dynamics-365-release-plans"></a>Планы выпусков Dynamics 365
+[Планы выпусков Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) содержат описание новых и улучшенных функциональных возможностей, которые запланированы для бизнес-приложений Dynamics 365 и платформ приложений. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Что нового в приложениях Finance and Operations
-В [содержимом "Что нового"](../../fin-ops/get-started/whats-new-changed.md) перечислены возможности, включенные в конкретные выпуски приложений Finance and Operations.
+На странице [Что нового и что изменилось в Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) перечислены возможности, включенные в конкретные выпуски приложений Finance and Operations.
 
 ### <a name="electronic-reporting"></a>Электронная отчетность
 Средства электронной отчетности (ER) служат для настройки форматов электронных документов в соответствии с требованиями законодательства различных стран/регионов. Электронная отчетность позволяет управлять этими форматами в течение их жизненного цикла. Дополнительные сведения см. в следующих разделах:
--   [Обзор электронной отчетности](../analytics/general-electronic-reporting.md)
--   [Управление жизненным циклом конфигураций электронной отчетности](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
--   [Создание конфигурации электронной отчетности](../analytics/electronic-reporting-configuration.md)
--   [Расширение списка функций электронной отчетности](../analytics/general-electronic-reporting-formulas-list-extension.md)
--   [Места назначения электронной отчетности](../analytics/electronic-reporting-destinations.md)
+-   [Обзор электронной отчетности (ER)](../analytics/general-electronic-reporting.md)
+-   [Управление жизненным циклом конфигураций электронной отчетности (ER)](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
+-   [Создание конфигураций электронной отчетности (ER)](../analytics/electronic-reporting-configuration.md)
+-   [Расширение списка функций электронной отчетности (ER)](../analytics/general-electronic-reporting-formulas-list-extension.md)
+-   [Места назначения электронной отчетности (ER)](../analytics/electronic-reporting-destinations.md)
 -   [Загрузка конфигураций электронной отчетности из Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Импорт конфигураций электронной отчетности](../analytics/electronic-reporting-import-ger-configurations.md)
--   [Настройка электронной отчетности для загрузки данных в Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Создание электронных документов и обновление данных в приложении с помощью средства электронной отчетности](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Импорт конфигураций электронной отчетности (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [Настройка электронной отчетности (ER) для загрузки данных в Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Создание электронных документов и обновление данных приложения с помощью электронной отчетности](../analytics/generate-electronic-documents-update-application-data.md)
 
 ### <a name="task-guides"></a>Проводники по задачам
 Проводники по задачам доступны в области справки продукта и содержат пошаговые инструкции по основным бизнес-процессам. Вы можете открыть проводник по задаче, чтобы изучить действия бизнес-процесса, или запустить его, чтобы выполнить все шаги бизнес-процесса с вводом соответствующих данных.
 
 Чтобы найти проводники по задачам, откройте нужную страницу в приложении и нажмите "Справка". Использующие страницу проводники по задачам перечислены в области справки. В области справки также можно искать проводники по задачам по их названиям.
 
-Дополнительные сведения см. в разделе [Проводники по задачам](../../fin-ops/get-started/help-overview.md#task-guides).
+Дополнительные сведения см. в разделе [Система справки](../../fin-ops/get-started/help-overview.md#task-guides).
 
 
 ### <a name="countryregion-specific-help-content"></a>Содержимое справки по стране/региону

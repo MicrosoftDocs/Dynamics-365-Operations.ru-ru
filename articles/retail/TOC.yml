@@ -850,6 +850,8 @@
           items:
             - name: Обзор лояльности
               href: set-up-customer-loyalty-program.md
+            - name: Обзор отношений с клиентами
+              href: clienteling-overview.md
         - name: Платежи
           items:
             - name: Способы оплаты
@@ -1268,11 +1270,9 @@
                   href: Open-URL-in-POS.md
                 - name: Установка конструктора макетов POS
                   href: install-pos-layout-designer.md
-                - name: Retail Modern POS в автономном режиме
-                  href: dev-itpro/retail-modern-pos-offline.md
                 - name: Расширение представления дисплея POS Dual
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: Расширение триггеров Retail Modern POS и Cloud POS
+                - name: Расширяемость триггеров Retail Modern POS и Cloud POS
                   href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: Добавление пользовательских элементов управления в представления POS
                   href: dev-itpro/pos-custom-control.md
@@ -1332,9 +1332,11 @@
                   href: dev-itpro/trigger-example-blocking-transaction.md
                 - name: Реализация политики возврата с помощью триггеров
                   href: dev-itpro/trigger-example-return-policy.md
+                - name: Ведение журнала событий расширения в Application Insights
+                  href: dev-itpro/commerce-application-insights.md
             - name: Расширяемость электронной коммерции
               items:
-                - name: Настройка интерактивных магазинов
+                - name: Настройка интернет-магазинов
                   href: dev-itpro/configure-online-store.md
                 - name: Настройка поставщиков проверки подлинности
                   href: dev-itpro/configure-authentication-providers.md
@@ -1402,7 +1404,7 @@
                   href: dev-itpro/cloud-dev-box.md
                 - name: Отображение пользовательских уведомлений в POS
                   href: dev-itpro/extend-pos-notification.md
-                - name: Добавление MPOS с помощью сертификата подписи кода
+                - name: Подписывание MPOS с помощью сертификата подписи кода
                   href: dev-itpro/pos-app-signing-certificate.md
             - name: Commerce Runtime
               items:

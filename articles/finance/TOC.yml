@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Регистрация на ознакомительные подписки
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
+            - name: Аналитика платежей клиентов (предварительная версия)
+              href: accounts-receivable/payment-insights-overview.md
             - name: Обновления службы с одной версией
               items:
                 - name: Обзор обновлений службы с одной версией
@@ -1520,7 +1522,7 @@
                   href: localizations/tasks/ee-00015-payment-reference-generation-tool.md
                 - name: Отчет "Платежная квитанция"
                   href: localizations/emea-eur-payment-slip-report-giro.md
-                - name: Мелкие наличные деньги
+                - name: Кассовые операции
                   href: localizations/emea-petty-cash.md
                 - name: Разноска предварительного приобретения основных средств
                   href: localizations/emea-pre-acquisition-acquisition-fixed-asset.md
@@ -2237,8 +2239,10 @@
                       href: localizations/rus-exchange-adjustment.md
                     - name: 'Продажа, покупка и переводы иностранной валюты'
                       href: localizations/rus-currency-sale-purchase.md
-                    - name: Мелкие наличные деньги
+                    - name: Кассовые операции
                       href: localizations/emea-petty-cash.md
+                    - name: Касса — местные первичные формы и унифицированные отчеты
+                      href: localizations/rus-local-primary-forms-and-unified-reports.md
                 - name: НДС
                   items:
                     - name: Учет исходящего НДС с учетом местных особенностей
@@ -2255,6 +2259,8 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: Управление предоплатами
                       href: localizations/rus-prepayments-management.md
+                    - name: Восстановление входящего НДС
+                      href: localizations/rus-incoming-VAT-restoring.md
                 - name: Основные средства
                   items:
                     - name: Управление основными средствами
@@ -2313,6 +2319,14 @@
                       href: localizations/rus-cash-flow.md
                     - name: Распределение накладных расходов пропорционально весу и объему
                       href: localizations/rus-miscellaneous-charges.md
+                    - name: Накладные расходы третьей стороны
+                      href: localizations/rus-third-party-misc-charges.md
+                - name: Запасы
+                  items:
+                    - name: Товары в пути от поставщика
+                      href: localizations/rus-goods-transit-vendor.md
+                    - name: Номера таможенных деклараций
+                      href: localizations/rus-custom-declaration-number.md
                 - name: Отчетность
                   items:
                     - name: Финансовая отчетность
@@ -2335,6 +2349,8 @@
                       href: localizations/rus-officials.md
                     - name: Подразделения компании
                       href: localizations/rus-company-divisions.md
+                    - name: Российские форматы адресов и импорт из ФИАС
+                      href: localizations/rus-russian-address-format-and-import-from-FIAS.md
                 - name: РБП
                   items:
                     - name: Настройка РБП
@@ -2869,6 +2885,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Импорт конфигураций из RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Учебники
+                  items:
+                    - name: Использование источников данных JOIN в сопоставлениях моделей электронной отчетности (ER) для извлечения данных из нескольких таблиц приложений
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                    - name: Настройка сопоставлений моделей электронной отчетности (ER) с учетом контекста страны
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
                 - name: Использование решений электронной отчетности в Finance and Operations
                   items:
                     - name: Настройка платформы
@@ -2903,6 +2925,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Обзор управления бизнес-документами
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                    - name: Добавление новых полей в шаблон бизнес-документа в Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: API платформы электронной отчетности
                   items:
                     - name: Расширение списка функций электронной отчетности

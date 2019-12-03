@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51a27f5ecdb4d4903ac0b76c5682ea7f9ab0d8c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1d074b9450a4dfc72f60f97ccaf03610ce54315d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176068"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772590"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Домашняя страница модуля "Управление банком и кассовыми операциями"
 
@@ -49,36 +49,36 @@ ms.locfileid: "2176068"
 ### <a name="bank-reconciliation"></a>Банковская выверка
 
 -   [Обзор расширенной банковской выверки](advanced-bank-reconciliation-overview.md)
--   [Настройка расширенной банковской выверки](configure-advanced-bank-reconciliation.md)
--   [Настройка импорта расширенной банковской выверки](set-up-advanced-bank-reconciliation-import-process.md)
+-   [Процесс настройки расширенной банковской выверки](configure-advanced-bank-reconciliation.md)
+-   [Настройка процесса импорта расширенной банковской выверки](set-up-advanced-bank-reconciliation-import-process.md)
 -   [Выверка банковских выписок с помощью расширенной банковской выверки](reconcile-bank-statements-advanced-bank-reconciliation.md)
 -   [Настройка правил сопоставления банковской выверки](set-up-bank-reconciliation-matching-rules.md)
 
 
 ## <a name="accounts-payable-payments-and-settlements"></a>Платежи и сопоставления по расчетам с поставщиками
 -   [Централизованные платежи для расчетов с поставщиками](../accounts-payable/centralized-payments-accounts-payable.md)
--   [Создание накладных поставщика с помощью предложения по оплате](../accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [Создание платежей поставщику с помощью предложения по оплате](../accounts-payable/create-vendor-payments-payment-proposal.md)
 -   [Реверсирование платежа поставщику](../accounts-payable/reverse-vendor-payment.md)
 -   [Платежи поставщику на частичную сумму](../accounts-payable/vendor-payments-partial-amount.md)
--   [Обзор счетов по предоплате и предоплат](../accounts-payable/prepayments-invoices-vs-prepayments.md)
--   [Сценарий: сопоставление частичного платежа поставщику и сопоставление окончательного платежа в полном объеме до даты скидки](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [Сценарий: настройка частичного платежа поставщику до даты скидки с окончательным платежом после даты скидки](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
--   [Сценарий: настройка частичного платежа поставщику, имеющего скидки по кредит-нотам поставщика](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
--   [Сценарий: сопоставление частичного платежа поставщику с несколькими периодами скидок](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
--   [Сценарий: использование скидки, превышающей рассчитанную скидку для платежа поставщику](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
--   [Сценарий: использование скидки по оплате вне периода скидки по оплате](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
+-   [Счета по предоплате и предоплата](../accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [Сопоставление частичного платежа поставщику и окончательного платежа в полном объеме до даты скидки](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
+-   [Сопоставление частичного платежа поставщику до даты скидки с окончательным платежом после даты скидки](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [Настройка частичного платежа поставщику, имеющего скидки по кредит-нотам поставщика](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+-   [Сопоставление частичного платежа поставщику с несколькими периодами скидок](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
+-   [Использование скидки, превышающей рассчитанную скидку для платежа поставщику](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [Использование скидки по оплате вне периода скидки по оплате](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
 ## <a name="accounts-receivable-payments-and-settlements"></a>Платежи и сопоставления по расчетам с клиентами
 -   [Централизованные платежи для расчетов с поставщиками](../accounts-receivable/centralized-payments-accounts-receivable.md)
 -   [Платежи клиентов на частичную сумму](../accounts-receivable/customer-payments-partial-amount.md)
 -   [Возмещение клиентам](../accounts-receivable/reimburse-customers.md)
--   [Сценарий: автоматическое сопоставление и определение приоритетов](../accounts-receivable/automatic-settlement-prioritization.md)
--   [Сценарий: обработка скидки по оплате для переплат](../cash-bank-management/cash-discount-handling-overpayments.md)
--   [Сценарий: сопоставление частичного платежа клиента и сопоставление окончательного платежа в полном объеме до даты скидки](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
--   [Сценарий: настройка частичного платежа клиента до даты скидки с окончательным платежом после даты скидки](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
--   [Сценарий: настройка частичного платежа клиента, имеющего скидки по кредит-нотам](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
--   [Сценарий: сопоставление частичного платежа клиента с несколькими периодами скидок](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [Сценарий: использование одного платежа клиента для сопоставления нескольких накладных, охватывающих несколько периодов скидок](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+-   [Автоматическое сопоставление и определение приоритетов](../accounts-receivable/automatic-settlement-prioritization.md)
+-   [Обработка скидок по оплате для переплат](../cash-bank-management/cash-discount-handling-overpayments.md)
+-   [Сопоставление частичного платежа клиента и окончательного платежа в полном объеме до даты скидки](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+-   [Сопоставление частичного платежа клиента до даты скидки с окончательным платежом после даты скидки](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+-   [Настройка частичного платежа клиента, имеющего скидки по кредит-нотам](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
+-   [Сопоставление частичного платежа клиента с несколькими периодами скидок](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
+-   [Использование платежа клиента для сопоставления нескольких накладных, охватывающих несколько периодов скидок](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
 
 
 
@@ -86,7 +86,7 @@ ms.locfileid: "2176068"
 
 #### <a name="whats-new-and-in-development"></a>Новые возможности и текущие разработки
 
-Перейдите к [Заметкам о выпуске Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы узнать о новых и запланированных возможностях. 
+Перейдите на страницу [Планы выпусков Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158), чтобы узнать о новых и запланированных возможностях. 
 
 #### <a name="blogs"></a>Блоги
 
