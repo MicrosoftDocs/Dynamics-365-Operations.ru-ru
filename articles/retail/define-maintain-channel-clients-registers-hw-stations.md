@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f0180f63c32f3e88d7f5e245716ccc908cc026d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019401"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811248"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Подключение периферийных устройств к POS
 
@@ -33,7 +33,7 @@ ms.locfileid: "2019401"
 В этом разделе описываются способы подключения периферийных устройств к Retail POS.
 
 > [!NOTE]
-> Конкретные инструкции по установке см. в разделах [Установка и конфигурация станции Retail Hardware Station](retail-hardware-station-configuration-installation.md) и [Загрузка/установка самообслуживания Retail Modern POS и активация устройства Modern POS и Cloud POS](retail-modern-pos-device-activation.md).
+> Подробные инструкции по установке см. в разделе [Настройка и установка Retail Hardware Station](retail-hardware-station-configuration-installation.md) и [Настройка, установка и активация Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Ключевые компоненты
 
@@ -139,7 +139,7 @@ Cloud POS — это POS на основе браузера. Поскольку 
 
 - Экспресс-вкладка **Инфокоды**:
 
-    - Все аспекты управления инфокодами в POS. Дополнительные сведения см. в разделе [Инфокоды](info-codes-retail.md).
+    - Все аспекты управления инфокодами в POS. Более подробные сведения см. в разделе [Информационные коды и группы информационных кодов](info-codes-retail.md).
 
 - Экспресс-вкладка **Нумерация чеков**:
 

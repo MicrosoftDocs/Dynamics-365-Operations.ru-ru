@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5454b9003105e4b44ec7577e5f8989c75554aeb9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: e6126c62f3768871550a056c2c7670ec801e3b7d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572227"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815396"
 ---
 # <a name="create-purchase-orders"></a>Создание заказов на покупку
 
@@ -88,9 +88,9 @@ ms.locfileid: "2572227"
 
 [Обзор заказа на покупку](purchase-order-overview.md)
 
-[Утверждение и подтверждение заказа на покупку](purchase-order-approval-confirmation.md)
+[Утверждение и подтверждение заказов на покупку](purchase-order-approval-confirmation.md)
 
-[Поступление продуктов по заказу на покупку](product-receipt-against-purchase-orders.md)
+[Поступление продуктов по заказам на покупку](product-receipt-against-purchase-orders.md)
 
 [Обзор накладных поставщика](../../finance/accounts-payable/vendor-invoices-overview.md)
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 482febc91a04766216f9887ab59d30cc9aed5096
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7b0b3721c3b0755218c834d2bf77ec976be3bdcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250515"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770320"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Синхронизация категорий расходов проекта между Finance and Operations и Project Service Automation
 
@@ -64,7 +64,7 @@ ms.locfileid: "2250515"
 
 ### <a name="template-and-task"></a>Шаблон и задача
 
-Для доступа к шаблону в центре администрирования Microsoft PowerApps выберите **Проекты** и выберите в правом верхнем углу **Новый проект** для выбора общих шаблонов.
+Для доступа к шаблону в центре администрирования Microsoft Power Apps выберите **Проекты** и выберите в правом верхнем углу **Новый проект** для выбора общих шаблонов.
 
 Следующий шаблон и базовая задача используются для синхронизации категорий расходов из Finance в Project Service Automation:
 

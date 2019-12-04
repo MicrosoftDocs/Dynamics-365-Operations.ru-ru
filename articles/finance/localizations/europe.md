@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dac72d7b5ca6a2817207c0bded1befee46406cc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ed1fdc4a44ff55586f6879d9fb7df44b4f88c568
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175589"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772853"
 ---
 # <a name="europe-overview"></a>Обзор по Европе
 
@@ -28,17 +28,17 @@ ms.locfileid: "2175589"
 
 Эта тема содержит сведения и ссылки на ресурсы, которые помогут вам настроить юридические лица с основным адресом в Европе. 
 
-- [Подотчетные лица](emea-advance-holders.md)
- - [Проводки по подотчетным лицам](emea-advance-holders-transactions.md)
- - [Авансовый платеж сотруднику (Восточная Европа)](tasks/advance-payment-employee.md)
-- [Выставление накладных на предоплату](emea-advance-invoice.md)
-- [Банковская выверка](emea-bank-reconciliation.md)
+- [Обзор подотчетных лиц](emea-advance-holders.md)
+ - [Проводки по подотч. лицам](emea-advance-holders-transactions.md)
+ - [Авансовый платеж сотруднику](tasks/advance-payment-employee.md)
+- [Авансовые счета для Восточной Европы](emea-advance-invoice.md)
+- [Банковская выписка и выверка платежа](emea-bank-reconciliation.md)
 - [Выставление корректирующих накладных](emea-corrective-invoice.md)
-- [Создание и разноска периодических журналов](emea-create-post-periodic-journals.md)
+- [Разделение по периодам в периодических журналах](emea-create-post-periodic-journals.md)
 - [Создание платежей для клиента с поручениями на безакцептное списание](tasks/create-payments-customers-who-have-direct-debit-mandates.md)
-- [Изменение идентификаторов накладных в заказах на продажу](emea-edit-invoice-id-sales-orders.md)
+- [Редактирование кодов накладных в заказах на продажу для Восточной Европы](emea-edit-invoice-id-sales-orders.md)
 - [Сертификаты ввоза в ЕС](emea-entry-certificates.md)
-- [Отчетность ЕС по НДС](emea-eu-sales-list.md)
+- [Отчетность отчета ЕС по НДС](emea-eu-sales-list.md)
 - [Корректировка курсовой разницы](emea-exchange-rate-adjustments.md)
 - [Форматы файлов для способов оплаты](emea-select-file-formats-for-the-method-of-payments.md)
 - [Интеграция финансовых служб (ESR)](emea-fiscal-service-integration.md)
@@ -52,29 +52,29 @@ ms.locfileid: "2175589"
   - [Настройка банковских счетов компании для кредитных переводов ISO20022](tasks/set-up-company-bank-accounts-iso20022-credit-transfers.md)
   - [Настройка банковских счетов компании для безакцептного списания ISO20022](tasks/set-up-company-bank-accounts-iso20022-direct-debits.md)
   - [Настройка способов оплаты для кредитового перевода ISO20022](tasks/set-up-method-payment-iso20022-credit-transfer.md)
-  - [Настройка метода оплаты для безакцептного списания ISO20022](tasks/setup-method-payment-iso20022-direct-debit.md)
+  - [Настройка способа оплаты для прямого дебетования ISO20022](tasks/setup-method-payment-iso20022-direct-debit.md)
   - [Настройка клиентов и банковских счетов клиентов для безакцептного списания ISO20022](tasks/set-up-bank-accounts-iso20022-direct-debits.md)
   - [Настройка поставщиков и банковских счетов поставщиков для кредитовых переводов ISO20022](tasks/set-up-vendor-iso20022-credit-transfers.md)
   - [Создание и экспорт платежей поставщикам с помощью формата платежей ISO20022](tasks/create-export-vendor-payments-iso20022-payment-format.md)
-- [Интрастат](emea-intrastat.md)
+- [Обзор Интрастата](emea-intrastat.md)
   - [Перенос проводок в Интрастат](tasks/transfer-transactions-intrastat.md)
   - [Определение адреса погрузки для внутренней проводки](tasks/eur-00002-specify-lading-address-intra-community.md)
   - [Создание декларации Интрастат ЕС](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Отчеты по журналам запасов](emea-set-up-report-inventory-journal-names.md)
-- [Крайние сроки выпуска накладных](emea-invoice-issue-deadline.md)
+- [Крайний срок выпуска накладных](emea-invoice-issue-deadline.md)
 - [Обработка накладных](emea-invoice-processing.md)
 - [Выпуск сертификата записи ЕС](tasks/eur-00012-issue-eu-entry-certificate.md)
-- [Стандарты OIOUBL](emea-oioubl-standards-electronic-invoicing.md)
+- [Поддерживаемые стандарты для выставления накладных в электронном виде](emea-oioubl-standards-electronic-invoicing.md)
 - [Ссылка на исходную накладную (Восточная Европа)](tasks/ee-00004-original-invoice-reference.md)
 - [Поиск субъекта по коду НДС](tasks/eur-00015-party-search-vat-id.md)
-- [Средство создания ссылок платежей (Восточная Европа)](tasks/ee-00015-payment-reference-generation-tool.md)
+- [Инструмент создания ссылки на платеж](tasks/ee-00015-payment-reference-generation-tool.md)
 - [Отчет "Платежная квитанция"](emea-eur-payment-slip-report-giro.md)
-- [Мелкие наличные деньги](emea-petty-cash.md)
+- [Мелкие наличные деньги для Восточной Европы и России](emea-petty-cash.md)
 - [Разноска предварительного приобретения основных средств](emea-pre-acquisition-acquisition-fixed-asset.md)
 - [Почтовые индексы](emea-import-create-postal-codes-manually.md)
 - [Получение сертификата записи ЕС](tasks/eur-00012-receive-eu-entry-certificate.md)
 - [Регистрационные номера](emea-registration-ids.md)
-- [Возмещения](emea-reverse-charge.md)
+- [НДС, удерживаемый с покупателя](emea-reverse-charge.md)
 - [Обзор кредитных переводов SEPA](../accounts-payable/sepa-credit-transfer.md)
 - [Обзор прямого дебетования SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 - [Настройка компенсации клиентам и поставщикам](emea-compensation-customer-vendor-transactions.md)
@@ -85,15 +85,15 @@ ms.locfileid: "2175589"
 - [Налоговые директивы](emea-tax-directives.md)
 - [Обновление способа отображения сумм в отчетах и документах](emea-amount-printing-forms.md)
 - Налог на добавленную стоимость (НДС)
-  - [name: Настройка кода НДС](tasks/eur-00015-vat-id.md)
-  - [Регистрация кода НДС поставщика](tasks/eur-00015-registration-vendor-vat-id.md)
-  - [Валютные курсы НДС](emea-vat-exchange-rate.md)
+  - [Настройка кода НДС](tasks/eur-00015-vat-id.md)
+  - [Регистрация идентификатора НДС поставщика](tasks/eur-00015-registration-vendor-vat-id.md)
+  - [Обзор валютного курса для НДС](emea-vat-exchange-rate.md)
   - [Отчет о выверке НДС](tasks/eur-00018-vat-reconciliation-report.md)
   - [Проводки в регистре НДС для Восточной Европы](emea-vat-register-transactions.md)
   - [Отчетность по НДС](emea-vat-reporting.md)
   - [Создание и отправка отчета по НДС](tasks/create-submit-vat-report.md)
-  - [Просмотр проводок по сопоставлению](emea-transactions-settlement-form.md)
-  - [Дата налоговой точки (дата регистрации НДС)](emea-tax-point-date.md)
+  - [Просмотр проводок по сопоставлению для Восточной Европы](emea-transactions-settlement-form.md)
+  - [Дата налоговой точки (дата зачета НДС)](emea-tax-point-date.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

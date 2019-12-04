@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865336"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813554"
 ---
 # <a name="product-lifecycle-state-overview"></a>Обзор состояний жизненного цикла продукта
 
@@ -107,9 +107,9 @@ ms.locfileid: "1865336"
 
 ## <a name="related-topics"></a>Связанные разделы
 
--  [Создание нового состояния жизненного цикла продукта (проводник по задаче)](tasks/new-product-lifecycle-state.md)
--  [Создание состояния жизненного цикла продукта по умолчанию (проводник по задаче)](tasks/default-product-lifecycle-state.md)
--  [Назначение состояния жизненного цикла продукта шаблону выпущенного продукта (проводник по задаче)](tasks/product-lifecycle-state-released-product-master.md)
--  [Назначение состояния жизненного цикла продукта выпущенному продукту (проводник по задаче)](tasks/product-lifecycle-state-released-product.md)
--  [Поиск устаревших вариантов продуктов и назначение состояния жизненного цикла продукта (проводник по задаче)](tasks/obsolete-product-variants.md)
--  [Создание состояния жизненного цикла продукта для исключения продуктов из сводного планирования (проводник по задаче)](tasks/exclude-products-master-planning.md)
+-  [Создание нового состояния жизненного цикла продукта](tasks/new-product-lifecycle-state.md)
+-  [Создание состояния жизненного цикла продукта по умолчанию](tasks/default-product-lifecycle-state.md)
+-  [Назначение состояния жизненного цикла продукта выпущенному шаблону продукта](tasks/product-lifecycle-state-released-product-master.md)
+-  [Назначение состояния жизненного цикла продукта выпущенному продукту](tasks/product-lifecycle-state-released-product.md)
+-  [Поиск устаревших вариантов продуктов и назначение состояния жизненного цикла продукта](tasks/obsolete-product-variants.md)
+-  [Создание состояния жизненного цикла продукта для исключения продуктов из сводного планирования](tasks/exclude-products-master-planning.md)

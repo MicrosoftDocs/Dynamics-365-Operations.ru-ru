@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190956"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811634"
 ---
 # <a name="new-task-guides-february-2016"></a>Новые руководства по задачам (февраль 2016 г.)
 
@@ -32,7 +32,7 @@ ms.locfileid: "2190956"
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Руководства по задачам в унифицированной библиотеке APQC (февраль 2016 г.) для Microsoft Dynamics AX
 
-Унифицированная библиотека APQC (февраль 2016 г.) содержит руководства по задачам, которые предназначены для использования в справке по выпуску Dynamics AX 7.0.0. Если требуются локализованные версии этих руководств по задачам, они доступны в унифицированной библиотеке APQC (май 2016 г.) для Microsoft Dynamics AX. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Начало работы со справкой](help-overview.md).
+Унифицированная библиотека APQC (февраль 2016 г.) содержит руководства по задачам, которые предназначены для использования в справке по выпуску Dynamics AX 7.0.0. Если требуются локализованные версии этих руководств по задачам, они доступны в унифицированной библиотеке APQC (май 2016 г.) для Microsoft Dynamics AX. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Система справки](help-overview.md).
 
 ### <a name="accounts-payable"></a>Расчеты с поставщиками
 

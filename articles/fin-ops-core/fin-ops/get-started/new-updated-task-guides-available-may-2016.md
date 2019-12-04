@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: 7134dc49c0e767d3bc4dc32e4feeb0e83a168e86
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 930c744ff2a28451d4267f060867b4b6474d45e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190933"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811586"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>Новые или обновленные руководства по задачам (май 2016 г.)
 
@@ -32,7 +32,7 @@ ms.locfileid: "2190933"
 
 ## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Руководства по задачам в унифицированной библиотеке APQC (май 2016 г. — все языки) для Microsoft Dynamics AX
 
-Унифицированная библиотека APQC (май 2016 г.) содержит руководства по задачам, которые предназначены для использования в справке по выпуску Microsoft Dynamics AX за май 2016 г. и Microsoft Dynamics AX за февраль 2016 г. Локализованные версии руководств по задачам, выпущенные в унифицированной библиотеке APQC (февраль 2016 г.), доступны в этой библиотеке. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Начало работы со справкой](help-overview.md).
+Унифицированная библиотека APQC (май 2016 г.) содержит руководства по задачам, которые предназначены для использования в справке по выпуску Microsoft Dynamics AX за май 2016 г. и Microsoft Dynamics AX за февраль 2016 г. Локализованные версии руководств по задачам, выпущенные в унифицированной библиотеке APQC (февраль 2016 г.), доступны в этой библиотеке. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Система справки](help-overview.md).
 
 > [!NOTE]
 > Символ звездочки (\*) рядом с заголовком строки средства моделирования бизнес-процессов указывает, что руководство по задаче для этого бизнес-процесса было создано для обновления Dynamics AX за май 2016 г. и не поддерживается в более ранних версиях Microsoft Dynamics AX.

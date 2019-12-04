@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c07f303b72f286c33979181fca1592b47efa1303
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 625e2c6a6b385c69d33ec4325a462310a37f1eed
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571239"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812199"
 ---
 # <a name="maintenance-attribute-types"></a>Типы атрибутов обслуживания
 
@@ -34,9 +34,9 @@ ms.locfileid: "2571239"
 В этом разделе объясняется, как создавать типы атрибуты в «Управлении активами». Атрибуты используются для описания свойств различных элементов. Можно настроить атрибуты по следующим элементам:
 
 - [Типы функциональных местоположений](../setup-for-functional-locations/functional-location-types.md)
-- [Функциональные местоположения](../functional-locations/create-functional-locations.md)
+- [Создание функциональных местоположений](../functional-locations/create-functional-locations.md)
 - [Типы активов](../setup-for-objects/object-types.md)
-- Ресурсы
+- Активы
 
 Атрибуты, которые можно настроить, варьируются в зависимости от элемента. Например, для функционального местоположения можно настроить атрибуты для конфигурации и физического размера местоположения. Для типа актива или актива можно настроить атрибуты для объема двигателя, энергопотребления и максимальной емкости нагрузки при различных условиях.
 

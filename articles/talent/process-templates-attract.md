@@ -1,6 +1,6 @@
 ---
-title: Создание шаблона процесса в Attract
-description: Этот раздел содержит сведения о порядке создания шаблона процесса в Attract.
+title: Создание шаблона процесса найма в Attract
+description: Этот раздел содержит сведения о порядке создания шаблона процесса найма в Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/15/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 82046d43cf7366b760c140bdb8b017337b4f41da
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622726"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832566"
 ---
-# <a name="create-a-process-template-in-attract"></a>Создание шаблона процесса в Attract
+# <a name="create-a-hiring-process-template-in-attract"></a>Создание шаблона процесса найма в Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,7 +48,7 @@ ms.locfileid: "2622726"
 > [!NOTE]
 > Имена этапов отображаются для кандидатов на странице **Статус заявления**. При выборе имен для этапов следует учитывать этот факт.
 
-Дополнительные сведения о действиях см. в разделе [Действия процесса найма в Attract](./activities-attract.md).
+Дополнительные сведения о действиях см. в разделе [Мероприятия в процессах найма](./activities-attract.md).
 
 Чтобы создать шаблон процесса, выполните следующие действия.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 28ed12bd8cf2df7c25e14a25465cad1229676cfd
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5849de38962967f0614ff7afd40296c0f12ff476
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551987"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812864"
 ---
 # <a name="get-the-dynamics-365-talent---onboard-app"></a>Получение приложения Dynamics 365 Talent - Onboard
 
@@ -39,9 +39,9 @@ ms.locfileid: "2551987"
 > [!WARNING]
 > Вы не можете выполнить миграцию данных из пробной версии в вашу среду платной подписки. <!--Reviewers: please verify.-->
 
-Чтобы узнать о новых возможностях в Talent см. разделы [Что нового и что изменилось в Dynamics 365 Talent](./whats-new.md) и [Заметки о выпуске Dynamics 365 и Power Platform](https://docs.microsoft.com/business-applications-release-notes/index). Если требуется предварительно просмотреть новые функции в Onboard, см. раздел [Доступ к предварительным версиям функций в Talent](./access-preview-feature.md).
+Чтобы узнать о новых возможностях в Talent см. разделы [Что нового и что изменилось в Dynamics 365 Talent](./whats-new.md) и [Заметки о выпуске Dynamics 365 и Power Platform](https://docs.microsoft.com/business-applications-release-notes/index). Если требуется предварительно просмотреть новые функции в Onboard, см. раздел [Доступ к предварительным версиям функций в Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
-Если вы специалист в области информационных технологий и хотите узнать больше о том, как подготавливаются две версии приложения Onboard, см. раздел [Подготовка приложения Onboard](./modular-app-tech-faq.md).
+Если вы специалист в области информационных технологий и хотите узнать больше о том, как подготавливаются две версии приложения Onboard, см. раздел [Подготовка для приложения Dynamics 365 Talent — Onboard](./modular-app-tech-faq.md).
 
 ## <a name="get-started-with-onboard"></a>Начало работы с Onboard
 
@@ -89,6 +89,6 @@ ms.locfileid: "2551987"
 ### <a name="see-also"></a>См. также
 
 - [Попробуйте или купите приложение Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Что нового](./whats-new.md)
-- [Сведения о версии](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Получение поддержки](./talent-support.md)
+- [Что нового и что изменилось в Dynamics 365 Talent](./whats-new.md)
+- [Планы выпуска](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Получение поддержки по Microsoft Dynamics 365 Talent](./talent-support.md)

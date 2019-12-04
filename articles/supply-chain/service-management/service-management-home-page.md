@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd2f27c5797fbd34674e39013ed3e0e40cdb28b2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 44fafe1548f97d8e4a532a17b0ca596320b5e9fb
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251140"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815004"
 ---
 # <a name="service-management-overview"></a>Обзор управления сервисным обслуживанием
 
@@ -66,7 +66,7 @@ ms.locfileid: "2251140"
 
 Управление сервисным обслуживанием может интегрироваться со следующими модулями:
 
-  - [Продажи и маркетинг](../sales-marketing/overview-sales-marketing.md)
+  - [Обзор продаж и маркетинга](../sales-marketing/overview-sales-marketing.md)
   - [Управление персоналом](https://docs.microsoft.com/dynamics365/unified-operations/talent/index)
 
   

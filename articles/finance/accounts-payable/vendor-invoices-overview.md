@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 616d3f5560d18c7fdd8a092c3fbca0fde44be069
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570433"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772176"
 ---
 # <a name="vendor-invoices-overview"></a>Обзор накладных поставщика
 
@@ -101,7 +101,7 @@ ms.locfileid: "2570433"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Настройка политик накладных поставщиков](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
-- [Ввод данных счета в модуль расчетов с поставщиками с использованием накладной поставщика](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+- [Ключевые сведения по накладной в системе расчетов с поставщиками с использованием накладной поставщика](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [Ввод данных счета в модуль расчетов с поставщиками с использованием журнала утверждения](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Ввод данных счета в модуль расчетов с поставщиками с использованием кластера накладных](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Регистрация накладной поставщика в журнале накладных](tasks/record-vendor-invoice-invoice-journal.md)

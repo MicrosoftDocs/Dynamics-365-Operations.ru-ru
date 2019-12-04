@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 977037f0e2b313ebf05a3e1616d34567f82e82d7
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ba475721b69e7c75dfd2197597b54050a3598d37
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250400"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770274"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Синхронизация задач по проекту напрямую из Project Service Automation в Finance and Operations
 
@@ -45,7 +45,7 @@ ms.locfileid: "2250400"
 
 ## <a name="template-and-task"></a>Шаблон и задача
 
-Для доступа к шаблону в центре администрирования Microsoft PowerApps выберите **Проекты** и выберите в правом верхнем углу **Новый проект** для выбора общих шаблонов.
+Для доступа к шаблону в центре администрирования Microsoft Power Apps выберите **Проекты** и выберите в правом верхнем углу **Новый проект** для выбора общих шаблонов.
 
 Следующий шаблон и базовая задача используются для синхронизации задач проекта из Project Service Automation в Finance:
 

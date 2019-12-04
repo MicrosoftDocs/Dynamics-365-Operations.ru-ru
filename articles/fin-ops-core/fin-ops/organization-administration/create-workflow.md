@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2168b33c8495eab61ec0c8262b042cd16420031c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190105"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811313"
 ---
 # <a name="create-workflows-overview"></a>Обзор создания бизнес-правил
 
@@ -60,15 +60,15 @@ ms.locfileid: "2190105"
 
 Настройте каждый элемент, который вы перетащили на холст. Сведения о конфигурировании каждого элемента workflow-процесса см. в следующих разделах:
 
-- [Настройка задачи вручную](configure-manual-task-workflow.md)
-- [Настройка автоматизированной задачи](configure-automated-task-workflow.md)
-- [Настройка процесса утверждения](configure-approval-process-workflow.md)
-- [Настройка шага утверждения](configure-approval-step-workflow.md)
-- [Настройка решения, принимаемого вручную](configure-manual-decision-workflow.md)
-- [Настройка решения, принимаемого по условию](configure-conditional-decision-workflow.md)
-- [Настройка параллельного мероприятия](configure-parallel-activity-workflow.md)
+- [Настройка ручных задач в workflow-процессе](configure-manual-task-workflow.md)
+- [Настройка автоматизированных задач в workflow-процессе](configure-automated-task-workflow.md)
+- [Настройка процессов утверждения в workflow-процессе](configure-approval-process-workflow.md)
+- [Настройка этапов утверждения в workflow-процессе](configure-approval-step-workflow.md)
+- [Настройка ручных решений в workflow-процессе](configure-manual-decision-workflow.md)
+- [Настройка условных решений в workflow-процессе](configure-conditional-decision-workflow.md)
+- [Настройка параллельных ветвей в workflow-процессе](configure-parallel-activity-workflow.md)
 - [Настройка параллельной ветви](configure-parallel-branch-workflow.md)
-- [Настройка документооборота элемента строки](configure-line-item-workflow.md)
+- [Настройка бизнес-правил по строке](configure-line-item-workflow.md)
 
 ## <a name="resolve-any-errors-or-warnings"></a>Разрешение любых ошибок или предупреждений
 

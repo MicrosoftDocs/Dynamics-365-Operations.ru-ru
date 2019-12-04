@@ -1,5 +1,5 @@
 ---
-title: Доступ к функциям предварительного просмотра в Microsoft Dynamics 365 Talent
+title: Управление функциями
 description: В этом разделе описывается, как администратор может включить функции предварительного просмотра в Microsoft Dynamics 365 Talent, и перечисляются функции, которые в настоящее время включены для предварительного просмотра.
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551617"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833308"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>Доступ к функциям предварительного просмотра в Microsoft Dynamics 365 Talent
+# <a name="manage-features"></a>Управление функциями
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 В рамках нашего непрерывного процесса развертывания возможностей управление человеческим капиталом (HCM) для Microsoft Dynamics 365 Talent мы хотим предоставить клиентам возможность испытать новые функции. Администраторы могут видеть и использовать функции предварительного просмотра в средах. Общедоступная версия этих функций почти готова, и они прошли множество тестов. Мы хотели бы получить окончательные отзывы клиентов и выполнить проверку до выпуска общедоступной версии.
 
@@ -117,6 +117,6 @@ ms.locfileid: "2551617"
 ## <a name="see-also"></a>См. также
 
 - [Попробуйте или купите приложения Talent](https://dynamics.microsoft.com/talent/overview/)
-- [Что нового](./whats-new.md)
-- [Сведения о версии](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Получение поддержки по Talent](./talent-support.md)
+- [Что нового и что изменилось в Dynamics 365 Talent](./whats-new.md)
+- [Планы выпуска](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Получение поддержки по Microsoft Dynamics 365 Talent](./talent-support.md)

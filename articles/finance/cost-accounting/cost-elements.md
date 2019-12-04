@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 037d4971fe0a5a9d08f0ed20d2482b8feb9aa4f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 44d404aaafd124a5d5a9d92cac8add51f1ee846a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179603"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771992"
 ---
 # <a name="cost-element-dimensions"></a>Аналитики элемента затрат
 
@@ -66,7 +66,7 @@ ms.locfileid: "2179603"
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Аналитики элементов затрат и членов аналитик элементов затрат
 Элементы затрат называются *аналитиками элемента затрат*. Отдельные значения аналитики называются *членами аналитики элемента затрат*. Например, вы имеете структуру плана счетов США (COA), которая служит основой для вашей предписанной законом отчетности. Этот план счетов COA используется как аналитика элемента затрат. Счета, которые являются элементами первичных затрат, представлены как члены аналитики элемента затрат в модуле учета затрат. Следующий снимок экрана показывает пример счетов ГК как аналитики элемента затрат со своими фактическими счетами ГК в качестве членов аналитики элемента затрат. 
 
-[![аналитики-элементов-затрат](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Снимок экрана счетов ГК как аналитики элемента затрат](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Импорт членов аналитика элемента затрат через соединители данных
 Чтобы упростить настройку членов аналитики элемента затрат в модуле учета затрат, можно использовать соединители данных, которые предварительно подготовлены или специально собраны, чтобы восстановить извлечь элементы первичных затрат из одной или нескольких исходных систем.

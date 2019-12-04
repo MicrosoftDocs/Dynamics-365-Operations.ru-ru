@@ -1,5 +1,5 @@
 ---
-title: Планирование собеседований и обратная связь
+title: Планирование собеседований в Attract
 description: В этом разделе приводятся сведения о действиях планирования собеседований и обратной связи в Attract.
 author: hasrivas
 manager: AnnBe
@@ -14,18 +14,18 @@ ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
-ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518921"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832753"
 ---
-# <a name="interview-scheduling-and-feedback"></a>Планирование собеседований и обратная связь
+# <a name="schedule-interviews-in-attract"></a>Планирование собеседований в Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-## <a name="scheduler-activity"></a>Действие планировщика
+## <a name="scheduler-activity"></a>Мероприятие планировщика
 
 Действие планирования является необязательным и состоит из двух компонентов: запроса доступности кандидата и графика. Компонент доступности кандидатов позволяет использовать сообщение электронной почты для запроса доступности кандидата. Компонент графика предоставляет возможность планировать собеседования с кандидатом и группой найма.
 

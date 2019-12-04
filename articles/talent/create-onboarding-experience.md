@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8c11186ff3f95a7f1e00f9e42d7b78f5a68957b0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008136"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813945"
 ---
 # <a name="get-started-with-onboard"></a>Начало работы с Onboard
 
@@ -35,17 +35,17 @@ Onboard позволяет быстро создать руководство п
 
 Чтобы узнать, как получить и использовать приложение Onboard, смотрите следующие темы:
 
-- [Получение приложения Onboard](./onboard-get-app.md)
-- [Создание руководства по адаптации](./onboard-create-guide.md)
-- [Создание шаблона адаптации](./onboard-create-template.md)
-- [Редактирование руководств и шаблонов по адаптации](./onboard-edit-guides-templates.md)
-- [Предоставление общего доступа к содержимому другим участникам](./onboard-share-template.md)
-- [Просмотр состояния задач и адаптируемых сотрудников](./onboard-view-status.md)
-- [Создание групп комплектации штата в Onboard](./onboard-create-team.md)
+- [Получение приложения Dynamics 365 Talent — Onboard](./onboard-get-app.md)
+- [Создание и отправка руководства по адаптации с помощью Dynamics 365 Talent — Onboard](./onboard-create-guide.md)
+- [Создание шаблона по адаптации с помощью Dynamics 365 Talent — Onboard](./onboard-create-template.md)
+- [Редактирование руководств и шаблонов по адаптации в Dynamics 365 Talent — Onboard](./onboard-edit-guides-templates.md)
+- [Предоставление общего доступа к содержимому другим участниками в Dynamics 365 Talent — Onboard](./onboard-share-template.md)
+- [Просмотр состояния адаптируемых сотрудников и ваших задач](./onboard-view-status.md)
+- [Создание группы комплектации штата с помощью Dynamics 365 Talent — Onboard](./onboard-create-team.md)
 
 ## <a name="see-also"></a>См. также
 
 - [Попробуйте или купите приложение Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Что нового](./whats-new.md)
-- [Сведения о версии](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Получение поддержки](./talent-support.md)
+- [Что нового и что изменилось в Dynamics 365 Talent](./whats-new.md)
+- [Планы выпуска](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Получение поддержки по Microsoft Dynamics 365 Talent](./talent-support.md)

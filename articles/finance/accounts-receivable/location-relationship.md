@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a4945f47c86d490f40a6b00cb823e6a6005e0ee4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e38d0bd75ad865b7885182f798beb43551576beb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550517"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770904"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Добавить расположение и типы отношений субъектов 
 
@@ -41,7 +41,7 @@ ms.locfileid: "2550517"
 
     1.  Создайте расширение для перечисления **LogisticsLocationRoleType** и добавьте новую роль в расширении. 
   
-        ![LogisticsLocationRoleType](media/Logistics.PNG)
+        ![Расширение для перечисления LogisticsLocationRoleType](media/Logistics.PNG)
 
     2. Создание нового файла ресурса для новой роли, а затем назначение значения для его свойств.
      
@@ -69,7 +69,7 @@ ms.locfileid: "2550517"
 
     2. Создайте инициализатор для этого нового типа. Несколько примеров можно найти в коде ядра, один из них —**DirRelationshipTypeChildInitialize**. Это класс инициализации для типа отношения субъектов «дочерний». Можно начать с инициализатора путем копирования и вставки этого кода и последующего обновления выделенной области.
     
-    ![DirRelationshipChild](media/DirRelationship.PNG)
+    ![Инициализатор DirRelationshipChild](media/DirRelationship.PNG)
 
     3.  Чтобы проверить заполнение нового типа связи, можно создать исполнимый класс, готовый к выполнению и вызвать DirDataPopulation::insertDirRelationshipTypes() в Main(). Должен появиться новый тип отношения **DirRelationshipTypeTable**, и новый тип отношения будет доступен на странице **Типы отношений**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14aa9b56da005e8e3ca121589d0e22c60f34343b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189783"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772705"
 ---
 # <a name="workflow-faq"></a>Вопросы и ответы по рабочим процессам
 
@@ -50,4 +50,4 @@ ms.locfileid: "2189783"
     - Сообщения центра уведомлений могут быть созданы для конкретного пользователя, например, сообщение, созданное из рабочего процесса в X++.
     - [В рабочих процессах есть бизнес-события](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), которые клиент может использовать для запуска потоков, имеющих уведомления, которые они ищут.   
 
-В целом, если пользователь не получил от центра уведомлений соответствующее уведомление, когда ему назначен рабочий элемент рабочего процесса, используйте [бизнес-события рабочего процесса](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) с Microsoft Flow для предоставления дополнительных или других уведомлений.
+В целом, если пользователь не получил от центра уведомлений соответствующее уведомление, когда ему назначен рабочий элемент рабочего процесса, используйте [бизнес-события рабочего процесса](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) с Microsoft Power Automate для предоставления дополнительных или других уведомлений.

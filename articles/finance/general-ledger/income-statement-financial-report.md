@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7c5d27d43b287aef87f5ead7f469d5465dd2dcb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6322001ea8ccbd2e06e15dc6bc8c273608de895b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179547"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771784"
 ---
 # <a name="income-statement-financial-report"></a>Финансовый отчет по отчету о прибылях
 
@@ -63,7 +63,7 @@ ms.locfileid: "2179547"
 <a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Финансовая отчетность](financial-reporting-getting-started.md)
+[Обзор финансовой отчетности](financial-reporting-getting-started.md)
 
 [Просмотр финансовых отчетов](view-financial-reports.md)
 

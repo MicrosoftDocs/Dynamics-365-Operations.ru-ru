@@ -1,5 +1,5 @@
 ---
-title: Вопросы и ответы по интеграции Attract с LinkedIn
+title: Вопросы и ответы по интеграции с LinkedIn
 description: Этот раздел содержит ответы на вопросы, которые могут возникнуть в связи с интеграцией между LinkedIn и Microsoft Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b77ad598ba209dbbd73765c49947e84a3995153d
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 35428da709f480e1d3842b7e92deacba200326ee
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550375"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833100"
 ---
-# <a name="attract-integration-with-linkedin-faq"></a>Вопросы и ответы по интеграции Attract с LinkedIn
+# <a name="linkedin-integration-faq"></a>Вопросы и ответы по интеграции с LinkedIn
 
 [!include [banner](includes/banner.md)]
 
@@ -41,8 +41,8 @@ LinkedIn — это крупнейшая в мире профессиональ�
 Интеграция Attract с LinkedIn позволяет выполнять следующие задачи:
 
 - [Размещение объявления о вакансиях в LinkedIn](./attract-post-jobs-to-linkedin.md) (в виде бесплатных ограниченных списков).
-- [Экспорт сведений о кандидатах из LinkedIn в Attract](./attract-linkedin-recruiter.md#export-linkedin-candidates-to-attract-with-one-click).
-- [Разрешение кандидатам на должность подавать заявления на должность из LinkedIn](./attract-admin-linkedin.md#set-up-apply-with-linkedin-in-attract).
+- [Поиск кандидатов с помощью LinkedIn Recruiter в Microsoft Dynamics 365 Talent — Attract](./attract-linkedin-recruiter.md#export-linkedin-candidates-to-attract-with-one-click).
+- [Настройка интеграции с LinkedIn для Microsoft Dynamics 365 Talent — Attract](./attract-admin-linkedin.md#set-up-apply-with-linkedin-in-attract).
 
 ### <a name="what-do-i-need-before-i-can-post-jobs-to-linkedin"></a>Что необходимо, чтобы можно было размещать объявления о вакансиях в LinkedIn?
 
@@ -50,17 +50,17 @@ LinkedIn — это крупнейшая в мире профессиональ�
 
 ### <a name="how-do-i-post-jobs-to-linkedin-from-attract"></a>Как публиковать объявления о вакансиях в LinkedIn из Attract?
 
-После создания должности в Attract нужно просто выбрать кнопку **Опубликовать**, которая соответствует LinkedIn. Дополнительные сведения см. в разделе [Публикация вакансий в LinkedIn из Attract](./attract-post-jobs-to-linkedin.md#post-jobs-to-linkedin).
+После создания должности в Attract нужно просто выбрать кнопку **Опубликовать**, которая соответствует LinkedIn. Дополнительные сведения см. в разделе [Публикация вакансий в LinkedIn из Microsoft Dynamics 365 Talent — Attract](./attract-post-jobs-to-linkedin.md#post-jobs-to-linkedin).
 
 ### <a name="can-i-get-candidate-information-from-linkedin-into-attract"></a>Можно ли получить сведения о кандидатах из LinkedIn в Attract?
 
-Да. Если вы видите хорошего кандидата на LinkedIn, вы можете легко экспортировать информацию о кандидате в Attract. Дополнительные сведения см. в разделе [Поиск кандидатов с помощью LinkedIn Recruiter](attract-linkedin-recruiter.md).
+Да. Если вы видите хорошего кандидата на LinkedIn, вы можете легко экспортировать информацию о кандидате в Attract. Дополнительные сведения см. в разделе [Поиск кандидатов с помощью LinkedIn Recruiter в Microsoft Dynamics 365 Talent — Attract](attract-linkedin-recruiter.md).
 
 ### <a name="how-can-i-get-help-accessing-linkedin-from-attract"></a>Как можно получить помощь по доступу к LinkedIn из Attract?
 
-Если вы не можете войти в систему или опубликовать объявления о вакансиях в LinkedIn из Attract, см. раздел [Устранение неполадок интеграции с LinkedIn](./attract-troubleshoot-linkedin.md).
+Если вы не можете войти в систему или опубликовать объявления о вакансиях в LinkedIn из Attract, см. раздел [Устранение неполадок интеграции с LinkedIn и Microsoft Dynamics 365 Talent — Attract](./attract-troubleshoot-linkedin.md).
 
-Другие проблемы, связанные с Attract, см. в разделе [Получение поддержки по Talent](./talent-support.md). Для получения помощи по LinkedIn см. [страницу поддержки LinkedIn](https://www.linkedin.com/help).
+Другие проблемы, связанные с Attract, см. в разделе [Получение поддержки по Microsoft Dynamics 365 Talent](./talent-support.md). Для получения помощи по LinkedIn см. [страницу поддержки LinkedIn](https://www.linkedin.com/help).
 
 ## <a name="for-admins-and-developers"></a>Для администраторов и разработчиков
 
@@ -68,11 +68,11 @@ LinkedIn — это крупнейшая в мире профессиональ�
 
 ### <a name="how-do-i-configure-attract-so-that-recruiters-and-hiring-managers-can-post-jobs-to-linkedin"></a>Как настроить Attract, чтобы специалисты по найму и менеджеры по найму могли размещать объявления о вакансиях в LinkedIn?
 
-Можно настроить доступные параметры на вкладке **Интеграция с LinkedIn** в центре администрирования. Дополнительные сведения см. в разделе [Настройка интеграции с LinkedIn](./attract-admin-linkedin.md).
+Можно настроить доступные параметры на вкладке **Интеграция с LinkedIn** в центре администрирования. Дополнительные сведения см. в разделе [Настройка интеграции с LinkedIn для Microsoft Dynamics 365 Talent — Attract](./attract-admin-linkedin.md).
 
 ### <a name="can-i-export-candidate-information-from-linkedin"></a>Можно ли экспортировать сведения о кандидатах из LinkedIn?
 
-Да, но сначала необходимо настроить интеграцию с LinkedIn Recruiter. Дополнительные сведения см. в разделе [Настройка интеграции с LinkedIn](./attract-admin-linkedin.md).
+Да, но сначала необходимо настроить интеграцию с LinkedIn Recruiter. Дополнительные сведения см. в разделе [Настройка интеграции с LinkedIn для Microsoft Dynamics 365 Talent — Attract](./attract-admin-linkedin.md).
 
 ### <a name="how-can-i-post-jobs-to-premium-job-slots-on-linkedin"></a>Как можно размещать объявления о вакансиях на премиальных рекламных местах вакансий в LinkedIn?
 
@@ -103,17 +103,17 @@ LinkedIn обрабатывает объявления о вакансиях в 
 | **Как часто LinkedIn размещает объявления о вакансиях?** | Раз в день | Раз в день | Несколько раз в день, как определено в API |
 | **Рекомендовано LinkedIn?** | Нет | Да | Нет |
 | **Что требуется?** | Покупка Attract | Контракт сканирования объявлений о вакансиях с LinkedIn и покупка премиальных рекламных мест вакансий | Соглашение API с LinkedIn | 
-| **Где можно найти дополнительные сведения?** | [Настройка интеграции с LinkedIn](./attract-admin-linkedin.md) | [Сканирование объявлений о вакансиях с помощью LinkedIn Recruiter — обзор](https://www.linkedin.com/help/recruiter/answer/79037) | [Recruiter System Connect](https://docs.microsoft.com/linkedin/talent/recruiter-system-connect) |
+| **Где можно найти дополнительные сведения?** | [Настройка интеграции с LinkedIn для Microsoft Dynamics 365 Talent — Attract](./attract-admin-linkedin.md) | [Сканирование объявлений о вакансиях с помощью LinkedIn Recruiter — обзор](https://www.linkedin.com/help/recruiter/answer/79037) | [Recruiter System Connect](https://docs.microsoft.com/linkedin/talent/recruiter-system-connect) |
 
 > [!NOTE]
 > Вам не нужна лицензия LinkedIn Recruiter System Connect для размещения объявлений о вакансиях в LinkedIn с помощью Attract.
 
 ## <a name="see-also"></a>См. также
 
-[Настройка интеграции с LinkedIn](./attract-admin-linkedin.md)
+[Настройка интеграции с LinkedIn для Microsoft Dynamics 365 Talent — Attract](./attract-admin-linkedin.md)
 
-[Публикация вакансий в LinkedIn из Attract](./attract-post-jobs-to-linkedin.md)
+[Публикация вакансий в LinkedIn из Microsoft Dynamics 365 Talent — Attract](./attract-post-jobs-to-linkedin.md)
 
-[Поиск кандидатов с помощью LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[Поиск кандидатов с помощью LinkedIn Recruiter в Microsoft Dynamics 365 Talent — Attract](./attract-linkedin-recruiter.md)
 
-[Устранение неполадок интеграции с LinkedIn](./attract-troubleshoot-linkedin.md)
+[Устранение неполадок интеграции с LinkedIn и Microsoft Dynamics 365 Talent — Attract](./attract-troubleshoot-linkedin.md)

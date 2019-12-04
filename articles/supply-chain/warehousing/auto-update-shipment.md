@@ -3,7 +3,7 @@ title: Автоматические обновления отгрузок
 description: В этом разделе представлен обзор функциональной возможности, обеспечивающей автоматическое обновление отгрузок.
 author: josaw1
 manager: AnnBe
-ms.date: 08/13/2019
+ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,15 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 160ad55a12d13fdb64e55effaabb1848179e71cf
-ms.sourcegitcommit: c35dfce2c0605d6f46365ce5d985c22187d21761
+ms.openlocfilehash: e42e7f19311adee7cc48f0ad0b59a4d0d54df9aa
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1986125"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773551"
 ---
 # <a name="shipment-auto-updates"></a>Автоматические обновления отгрузок
 
-[!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
 Функция автоматического обновления отгрузок автоматически обновляет количества (и увеличивает, и уменьшает) в строке загрузки, связанной с отгрузкой, после того как отгрузка была отпущена на склад. Эта функция остается включенной до тех пор, пока строка загрузки в отгрузке или грузе не будет обработана в волне. Когда она используется, обновления заказов могут автоматически передаваться на склад, не требуя вмешательства вручную, пока не будет создано складское задание.

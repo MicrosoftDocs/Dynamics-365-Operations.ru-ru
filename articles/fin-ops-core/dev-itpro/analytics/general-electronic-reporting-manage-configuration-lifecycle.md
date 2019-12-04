@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6206b3a1ac298af98e4b69b6800b9a493658c4ea
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ecaeb80f3cda2ee24533ed263df63cc10c5ffc65
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181297"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771104"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Управление жизненным циклом конфигураций электронной отчетности (ER)
 
@@ -33,7 +33,7 @@ ms.locfileid: "2181297"
 
 ## <a name="overview"></a>Обзор
 
-Электронная отчетность (ER) — это механизм для поддержки обязательных электронных документов, существующих в различных странах. Обычно ER подразумевает возможность выполнять следующие задачи для одного электронного документа. Дополнительные сведения см. в разделе [Обзор электронной отчетности](general-electronic-reporting.md).
+Электронная отчетность (ER) — это механизм для поддержки обязательных электронных документов, существующих в различных странах. Обычно ER подразумевает возможность выполнять следующие задачи для одного электронного документа. Дополнительные сведения см. в разделе [Обзор электронной отчетности (ER)](general-electronic-reporting.md).
 
 - Создание шаблона для электронного документа:
 
@@ -87,4 +87,4 @@ ms.locfileid: "2181297"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор электронной отчетности](general-electronic-reporting.md)
+[Обзор электронной отчетности (ER)](general-electronic-reporting.md)

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9b7cd06d820522d8db83b5b1480b95db1400e9cc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f8017ab23ce77a03469a6a6c82bc22986ec4478
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191255"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812634"
 ---
 # <a name="before-you-buy"></a>Перед покупкой
 
@@ -41,8 +41,8 @@ ms.locfileid: "2191255"
 
 - Нормативные требования и требования соответствия, которые недоступны в облачных сертификациях
 - Неподключенный бизнес-процесс с периодическим подключением к Интернету, необходимым для доступа к Microsoft Dynamics Lifecycle Services (LCS) для управления жизненным циклом приложений
-- [Функции, в настоящее время не реализованные в локальном развертывании](features-not-implemented-on-prem.md)
-- [Минимальные требования к инфраструктуре](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+- [Функциональные возможности, не реализованные в локальных развертываниях](features-not-implemented-on-prem.md)
+- [Требования к системе для локальных развертываний](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
 > Локальные развертывания Microsoft Dynamics 365 for Finance and Operations не поддерживаются ни в какой открытой облачной инфраструктуре, включая Azure.
@@ -78,7 +78,7 @@ ms.locfileid: "2191255"
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Покупка у партнера Dynamics (локально)
 
-Необходимо работать с партнером для покупки локальной версии Finance and Operations. Дополнительные сведения см. в разделе [Приобретение Dynamics 365 for Finance and Operations (On-premises)](purchase-on-premises.md)
+Необходимо работать с партнером для покупки локальной версии Finance and Operations. Дополнительные сведения см. в разделе [Покупка Finance + Operations (on-premises)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Выбор плана поддержки
 
@@ -91,7 +91,7 @@ ms.locfileid: "2191255"
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Шаг 4. Изучите FastTrack и запланируйте развертывание
 
-Microsoft FastTrack for Dynamics 365 — это служба успеха клиентов, предназначенная для эффективного и плавного перехода на Dynamics 365, чтобы вы могли быстрее оценить коммерческую ценность. При участии в программе FastTrack вы получите руководство по рекомендациям и тому, как запланировать успешное развертывание. Здесь вы также узнаете о способах включить новых пользователей и расширить возможности — все в удобном для вас темпе. Кроме того, вы получите доступ к техническим ресурсам Майкрософт, которые позволят вам максимально эффективно использовать Dynamics 365. Дополнительные сведения: [Обзор Microsoft FastTrack for Dynamics 365](fasttrack-dynamics-365-overview.md)
+Microsoft FastTrack for Dynamics 365 — это служба успеха клиентов, предназначенная для эффективного и плавного перехода на Dynamics 365, чтобы вы могли быстрее оценить коммерческую ценность. При участии в программе FastTrack вы получите руководство по рекомендациям и тому, как запланировать успешное развертывание. Здесь вы также узнаете о способах включить новых пользователей и расширить возможности — все в удобном для вас темпе. Кроме того, вы получите доступ к техническим ресурсам Майкрософт, которые позволят вам максимально эффективно использовать Dynamics 365. Дополнительные сведения: [Microsoft FastTrack](fasttrack-dynamics-365-overview.md)
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Обновление с Dynamics AX 2012 или миграция с AX 2009
 

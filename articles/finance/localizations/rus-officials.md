@@ -16,12 +16,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 30ece9cb759e960a06a76f339d01e8dd73178126
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 36a5a851f7df54b646dc72544312fc0b4a88b411
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183909"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773485"
 ---
 # <a name="set-up-officials-russia"></a>Настройка должностных лиц (Россия)
 [!include [banner](../includes/banner.md)]
@@ -30,7 +30,7 @@ ms.locfileid: "2183909"
 
 ## <a name="set-up-officials-who-generate-transportation-invoices-and-job-tickets"></a>Настройка должностных лиц, которые занимаются созданием транспортных накладных и заказ-нарядов
 
-Эта процедура относится к функциям в модуле **Управление запасами**. К функциям в модуле [Управление складом](../../supply-chain/warehousing/warehouse-management-overview.md) она неприменима.
+Эта процедура относится к функциям в модуле **Управление запасами**. К функциям в модуле [Обзор управления складом](../../supply-chain/warehousing/warehouse-management-overview.md) она неприменима.
 
 Используйте страницу **Должностные лица** для настройки должностных лиц, которые участвуют в транспортировке грузов. Можно выбрать должностных лиц, ответственных за внутрихолдинговые и межхолдинговые проводки.
 
@@ -64,7 +64,7 @@ ms.locfileid: "2183909"
 
 ## <a name="set-up-officials-for-the-counting-list-inv-5-report"></a>Настройка должностных лиц для отчета "Инвентаризационная опись (ИНВ-5)"
 
-Эта процедура относится к функциям в модуле **Управление запасами**. К функциям в модуле [Управление складом](../../supply-chain/warehousing/warehouse-management-overview.md) она неприменима.
+Эта процедура относится к функциям в модуле **Управление запасами**. К функциям в модуле [Обзор управления складом](../../supply-chain/warehousing/warehouse-management-overview.md) она неприменима.
 
 Используйте страницу **Должностные лица** для настройки должностных лиц, участвующих в процессе инвентаризации для отчета **Инвентаризационная опись (ИНВ-5)**.
 
@@ -81,7 +81,7 @@ ms.locfileid: "2183909"
 
 ## <a name="set-up-officials-for-the-counting-act-inv-6-report"></a>Настройка должностных лиц для отчета "Акт инвентаризации ИНВ-6"
 
-Эта процедура относится к функциям в модуле **Управление запасами**. К функциям в модуле [Управление складом](../../supply-chain/warehousing/warehouse-management-overview.md) она неприменима.
+Эта процедура относится к функциям в модуле **Управление запасами**. К функциям в модуле [Обзор управления складом](../../supply-chain/warehousing/warehouse-management-overview.md) она неприменима.
 
 Используйте страницу **Должностные лица** для настройки должностных лиц для отчета **Акт инвентаризации ИНВ-6**. Можно определить должностных лиц компании, участвующих в процессе инвентаризации номенклатур для отчета.
 

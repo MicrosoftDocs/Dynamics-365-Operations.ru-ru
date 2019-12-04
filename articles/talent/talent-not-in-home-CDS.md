@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 956af80a8ab2f454d9f523d3c74dda754ef0f793
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 7f0cc1c7ec1234b7eedaade0ffadb66965ed2121
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009384"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772996"
 ---
 # <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-common-data-service-10"></a>Talent отсутствует среди приложений Microsoft Dynamics 365 (Common Data Service 1.0)
 
@@ -34,9 +34,9 @@ ms.locfileid: "2009384"
 
 **Разрешение**
 
-Пользователь должен быть добавлен к роли "Создатель среды" для среды в Microsoft PowerApps.
+Пользователь должен быть добавлен к роли "Создатель среды" для среды в Microsoft Power Apps.
 
-1. Пользователь-администратор, имеющий лицензию PowerApps Plan 2, должен открыть [портал администратора PowerApps](https://preview.admin.powerapps.com/).
+1. Пользователь-администратор, имеющий лицензию Power Apps Plan 2, должен открыть [портал администратора Power Apps](https://preview.admin.powerapps.com/).
 2. Выберите **Среды**и выберите правильную среду для Talent.
 3. На вкладке **Безопасность** на вкладке **Роли среды** выберите **Создатель среды**.
 

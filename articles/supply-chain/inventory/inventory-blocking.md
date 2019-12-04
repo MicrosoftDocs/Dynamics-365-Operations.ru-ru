@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc8200380ac3aeb9e3b73f43212458660a15ade6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f41fbe6e2034c0e58fc03d1dfbbd87844f3a4466
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250814"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814383"
 ---
 # <a name="inventory-blocking"></a>Блокировка запасов
 
@@ -66,4 +66,4 @@ ms.locfileid: "2250814"
 
 [Процессы управления качеством](quality-management-processes.md)
 
-[Контроль качества товаров (проводник по задаче)](tasks/inspect-quality-goods.md)
+[Контроль качества товаров](tasks/inspect-quality-goods.md)

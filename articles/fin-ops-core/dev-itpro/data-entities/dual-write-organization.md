@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a12ab249129dce24cdca5e29d737fa9f68c0eac
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: 9efc63c385c31a6d8848d016c1a8689460908dcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572457"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769668"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Организационная иерархия в Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Поскольку Dynamics 365 Finance — это финансовая система, *организация* является основной концепцией, а настройка системы начинается с конфигурации организационной иерархии. Финансы бизнеса затем могут отслеживаться на уровне организации, а также на любом уровне в иерархии организации.
 
@@ -46,85 +44,35 @@ ms.locfileid: "2572457"
 
 Сопоставления сущности организационной иерархии доступны для односторонней синхронизации данных из приложений Finance and Operations в Common Data Service.
 
+## <a name="templates"></a>Шаблоны
+
+Информация о продукте содержит все сведения, имеющие отношение к продукту и его определению, такие как аналитики продукта или аналитики отслеживания и хранения. Как показано в следующей таблице, для синхронизации продуктов и связанных сведений создается коллекция сопоставлений объектов.
+
+Finance and Operations | Другие приложения Dynamics 365 | Описание
+-----------------------|--------------------------------|---
+Цели организационной иерархии | msdyn_internalorganizationhierarchypurposes | Этот шаблон обеспечивает одностороннюю синхронизацию объекта цели организационной иерархии.
+Тип организационной иерархии | msdyn_internalorganizationhierarchytypes | Этот шаблон обеспечивает одностороннюю синхронизацию объекта типа организационной иерархии.
+Организационная иерархия — опубликованная | msdyn_internalorganizationhierarchies | Этот шаблон обеспечивает одностороннюю синхронизацию объекта опубликованной организационной иерархии.
+Операционная единица | msdyn_internalorganizations | 
+Юридические лица | msdyn_internalorganizations | 
+Юридические лица | cdm_companies | Обеспечивает двунаправленную синхронизацию информации о юридическом лице (компании).
+
+
 [!include [banner](../includes/dual-write-symbols.md)]
 
-## <a name="internal-organization-hierarchy-purpose"></a>Цель внутренней организационной иерархии
+[!include [Organization hierarchy purposes](dual-write/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
 
-Этот шаблон обеспечивает одностороннюю синхронизацию объекта цели организационной иерархии из Finance and Operations в другие приложения Dynamics 365.
+[!include [Organization hierarchy type](dual-write/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
 
-<!-- ![architecture image](media/dual-write-purpose.png) -->
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-HIERARCHYTYPE | \> | msdyn\_hierarchypurposetypename
-HIERARCHYTYPE | \> | msdyn\_hierarchytype.msdyn\_name
-HIERARCHYPURPOSE | \>\> | msdyn\_hierarchypurpose
-IMMUTABLE | \>\> | msdyn\_immutable
-SETASDEFAULT | \>\> | msdyn\_setasdefault
-
-## <a name="internal-organization-hierarchy-type"></a>Тип внутренней организационной иерархии
-
-Этот шаблон обеспечивает одностороннюю синхронизацию объекта типа организационной иерархии из Finance and Operations в другие приложения Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-type.png) -->
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-НАИМЕНОВАНИЕ | \> | msdyn\_name
-
-## <a name="internal-organization-hierarchy"></a>Внутренняя организационная иерархия
-
-Этот шаблон обеспечивает одностороннюю синхронизацию объекта опубликованной организационной иерархии из Finance and Operations в другие приложения Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-organization.png) -->
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-VALIDTO | \> | msdyn\_validto
-VALIDFROM | \> | msdyn\_validfrom
-HIERARCHYTYPE | \> | msdyn\_hierarchytypename
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentpartyid
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childpartyid
-HIERARCHYTYPE | \> | msdyn\_hierarchytypeid.msdyn\_name
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childid.msdyn\_partynumber
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentid.msdyn\_partynumber
+[!include [Organization hierarchy - published](dual-write/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
 
 ## <a name="internal-organization"></a>Внутренняя организация
 
 Сведения о внутренней организации в Common Data Service поступают из двух объектов, **операционная единица** и **юридические лица**.
 
-<!-- ![architecture image](media/dual-write-operating-unit.png) -->
+[!include [Operating unit](dual-write/OperatingUnit-msdyn-internalorganizations.md)]
 
-<!-- ![architecture image](media/dual-write-legal-entities.png) -->
+[!include [Legal entities](dual-write/LegalEntities-msdyn-internalorganizations.md)]
 
-### <a name="operating-unit"></a>Операционная единица
+[!include [Legal entities](dual-write/LegalEntities-Companies.md)]
 
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-LANGUAGEID | \> | msdyn\_languageid
-NAMEALIAS | \> | msdyn\_namealias
-НАИМЕНОВАНИЕ | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-OPERATINGUNITTYPE | \>\> | msdyn\_type
-
-### <a name="legal-entity"></a>Информация о компании
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-NAMEALIAS | \> | msdyn\_namealias
-LANGUAGEID | \> | msdyn\_languageid
-НАИМЕНОВАНИЕ | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-нет | \>\> | msdyn\_type
-LEGALENTITYID | \> | msdyn\_companycode
-
-## <a name="company"></a>Организация
-
-Обеспечивает двунаправленную синхронизацию информации о юридическом лице (компании) между Finance and Operations и другими приложениями Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-company.png) -->
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-НАИМЕНОВАНИЕ | = | cdm\_name
-LEGALENTITYID | = | cdm\_companycode

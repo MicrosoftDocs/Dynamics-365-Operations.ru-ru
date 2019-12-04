@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9475a7fbe40d7feb60c23e0d7164222469dffa75
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 43989f95764a60dc7f5662ef74c005c5fddaa275
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552330"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813739"
 ---
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Сводное планирование для покрытия объекта, склад не является обязательным
 
@@ -51,15 +51,15 @@ ms.locfileid: "1552330"
 <a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Сводное планирование и функция работы с несколькими узлами](master-plan-multisite-functionality.md)
+[Обзор сводного планирования и функции работы с несколькими узлами](master-plan-multisite-functionality.md)
 
-[Сводное планирование — покрытие объекта, склад является обязательным](master-plan-site-coverage-warehouse-mandatory.md)
+[Сводное планирование для покрытия сайта и склада, склад обязателен](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Сводное планирование — покрытие объекта и склада, склад не является обязательным](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[Сводное планирование для покрытия сайта, обязательный склад](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Сводное планирование — покрытие объекта и склада, склад является обязательным](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[Сводное планирование для покрытия объекта, склад не обязателен](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Сводное планирование — определение версии спецификации](master-plan-bom-version-determined.md)
+[Определение версии спецификации](master-plan-bom-version-determined.md)
 
 
 

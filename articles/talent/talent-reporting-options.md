@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 50342c847200d015a66c6f22007070bb26c6caef
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: ecbeb03b535f19131ddc6649d005702876bab65c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009360"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772973"
 ---
 # <a name="reporting-options-in-talent"></a>Варианты отчетов в Talent
 
@@ -42,7 +42,7 @@ ms.locfileid: "2009360"
 
 **Решение**
 
-- Данные Core HR, которые передаются в Common Data Service, могут передаваться через соединитель PowerApps Common Data Service в Power BI Desktop. Обратите внимание, что Common Data Service содержит подмножество данных Core HR. Дополнительные сведения о Power BI и панелях мониторинга см. в разделе [Создание отчетов и панелей мониторинга Power BI с помощью PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
+- Данные Core HR, которые передаются в Common Data Service, могут передаваться через соединитель Power Apps Common Data Service в Power BI Desktop. Обратите внимание, что Common Data Service содержит подмножество данных Core HR. Дополнительные сведения о Power BI и панелях мониторинга см. в разделе [Создание отчетов и панелей мониторинга Power BI с помощью Power Apps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
 - Электронная отчетность (ER) доступна для некоторых отчетов в Talent. Настройки, управляемые клиентом, можно сделать через параметры конфигурации электронной отчетности.
 - Данные можно экспортировать в Microsoft Excel или Microsoft Word с использованием различных информационных объектов, предоставляемых Talent с помощью интеграции с Microsoft Office.
 

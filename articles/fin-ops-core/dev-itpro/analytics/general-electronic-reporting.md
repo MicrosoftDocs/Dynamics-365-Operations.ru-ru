@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578249"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771081"
 ---
 # <a name="electronic-reporting-er-overview"></a>Обзор электронной отчетности (ER)
 
@@ -71,7 +71,7 @@ ms.locfileid: "2578249"
 
 - Оно может использовать различные типы данных как источники данных для модели данных. Например, оно может использовать таблицы, объекты данных, методы или перечисления.
 - Оно поддерживает параметры пользовательского ввода, которые можно определить как источники данных для модели данных, когда какие-либо данные должны быть указаны во время выполнения.
-- Он поддерживает преобразование данных в необходимые группы. Он также позволяет фильтровать и суммировать данные и добавлять логически вычисляемые поля, которые разработаны посредством формул, похожих на формулы Microsoft Excel. Дополнительные сведения см. в разделе [Конструктор формул в электронной отчетности](general-electronic-reporting-formula-designer.md).
+- Он поддерживает преобразование данных в необходимые группы. Он также позволяет фильтровать и суммировать данные и добавлять логически вычисляемые поля, которые разработаны посредством формул, похожих на формулы Microsoft Excel. Дополнительные сведения см. в разделе [Конструктор формул в электронной отчетности (ER)](general-electronic-reporting-formula-designer.md).
 
 
 Сопоставление модели, которое поддерживает входящие электронные документы имеет следующие возможности:
@@ -362,5 +362,5 @@ ms.locfileid: "2578249"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- [Требования к локализации — создание конфигурации электронной отчетности](electronic-reporting-configuration.md)
-- [Управление жизненным циклом конфигураций электронной отчетности](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Создание конфигурации электронной отчетности (ER)](electronic-reporting-configuration.md)
+- [Управление жизненным циклом конфигураций электронной отчетности (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)

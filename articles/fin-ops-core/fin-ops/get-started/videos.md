@@ -3,7 +3,7 @@ title: Видео
 description: На этой странице перечислены созданные Майкрософт практические советы и видео по техническим вопросам, связанные с приложениями Finance and Operations, которые доступны на YouTube и других сайтах.
 author: josaw1
 manager: AnnBe
-ms.date: 10/20/2019
+ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: fb14ffa500fcf84030eca075545716a79d7b2b27
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635111"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781858"
 ---
 # <a name="videos"></a>Видео 
 
@@ -82,7 +82,7 @@ ms.locfileid: "2635111"
 
 ### <a name="customize-the-app"></a>Настройка приложения
 - [Добавить настраиваемые поля](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
-- [Внедрение PowerApps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
+- [Внедрение Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
 ### <a name="expenses"></a>Расходы
 - [Опыт работы с расходами](https://youtu.be/Ocy-MsTvEE0)
@@ -102,7 +102,10 @@ ms.locfileid: "2635111"
 
 - [Управление документами](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
 
-### <a name="tax-engine"></a>Налоговый механизм
+### <a name="revenue-recognition"></a>Признание выручки
+- [Как использовать признание выручки](https://youtu.be/v3amIsiqvoo)
+
+### <a name="tax-engine"></a>Механизм начисления налога
 
 - [Обзор механизма начисления налога](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 

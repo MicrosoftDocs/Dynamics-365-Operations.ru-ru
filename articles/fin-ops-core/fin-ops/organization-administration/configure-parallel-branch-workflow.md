@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2339c6f901a3ef39ad4f9586b2f391b966a3df98
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2058eaac77282946559cae11fcec8152658fc96b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190151"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811365"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>Настройка параллельных ветвей в workflow-процессе
 
@@ -46,8 +46,8 @@ ms.locfileid: "2190151"
 Выполните следующие действия, чтобы создать и настроить элементы параллельной ветви.
 
 1. Дважды щелкните параллельную ветвь.
-2. Перетащите элементы workflow-процесса на холст, а затем настройте элементы, как и любой другой workflow-процесс. Дополнительные сведения см. в разделе [Создание workflow-процесса](create-workflow.md).
+2. Перетащите элементы workflow-процесса на холст, а затем настройте элементы, как и любой другой workflow-процесс. Дополнительные сведения см. в разделе [Обзор создания бизнес-правил](create-workflow.md).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Создание workflow-процесса](create-workflow.md)
+[Обзор создания бизнес-правил](create-workflow.md)

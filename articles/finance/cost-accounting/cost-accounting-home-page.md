@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179601"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771969"
 ---
 # <a name="cost-accounting-home-page"></a>Домашняя страница учета затрат
 
@@ -39,17 +39,17 @@ ms.locfileid: "2179601"
 
 |      |   |
 |------|---|
-|  [Настройка базовых объектов (eLearning)](https://mbspartner.microsoft.com/Home) (требуется учетная запись CustomerSource)  |[Создать "Аналитики"](cost-elements.md)  |
-|  [Создание иерархии аналитик](dimension-hierarchy.md)  |[Создание базовой конфигурации](./tasks/define-cost-control-units.md)| 
-| [Определение базы распределения](allocation-bases.md)|[Определить политики](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [Источник данных и поставщик данных](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Источник данных и поставщик данных](./tasks/process-trace-source-data.md)     | 
-|[Расчет накладных расходов](overhead-calculation.md)  | [Анализ и отчетность](cost-control-workspace.md)   |
+|  [Настройка базовых объектов (eLearning)](https://mbspartner.microsoft.com/Home) (требуется учетная запись CustomerSource)  |[Аналитики элементов затрат](cost-elements.md)  |
+|  [Иерархия аналитик](dimension-hierarchy.md)  |[Определение единиц управления затратами](./tasks/define-cost-control-units.md)| 
+| [Базы распределения](allocation-bases.md)|[Создание и назначение политик распределения затрат единицам управления затратами](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [Управление источником данных для книги учета затрат](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Обработка и трассировка исходных данных](./tasks/process-trace-source-data.md)     | 
+|[Расчет накладных расходов](overhead-calculation.md)  | [Рабочая область управления затратами](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>Видео по началу работы<br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
 | [Начало работы с учетом затрат](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Мобильная рабочая область учета затрат](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Используйте Excel для анализа учета затрат](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
-|  |  |                             |
+
 
 

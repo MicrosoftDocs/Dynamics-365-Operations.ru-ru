@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570248"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771830"
 ---
 # <a name="general-journal-processing"></a>Обработка общего журнала
 
@@ -85,7 +85,7 @@ ms.locfileid: "2570248"
 Структуры учета и расширенные структуры правил крайне важны, чтобы гарантировать, что данные, которые необходимы для финансовой отчетности и отслеживания производительности, будут фиксироваться во время обработки общих журналов и связанной с ними документации. Структуры учета и расширенные структуры правил позволяют настроить впечатления от ввода данных. Вы можете разрешить ввод данных только для финансовых аналитик, которые уместны в каждой ситуации, а также потребовать, чтобы необходимые данные фиксировались всегда и с достаточной точностью.
 
 Дополнительные сведения см. в следующих разделах:
-- [Планирование: план счетов](plan-chart-of-accounts.md). 
+- [Планирование плана счетов](plan-chart-of-accounts.md) 
 - [Создание расширенных правил для журналов](tasks/create-advanced-rules-journals.md)
 - [Создание записи в журнале с помощью шаблона](tasks/create-journal-entry-template.md)
 - [Создание и проверка журналов](tasks/create-validate-journals.md)

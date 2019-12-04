@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 0be646d03db066ed311ef4845a99b10089e92912
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 40157a7fc33fecbf241264db7a3de3f93b53903e
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183923"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770348"
 ---
 # <a name="set-up-depreciation-russia"></a>Настройка амортизации (Россия)
 
@@ -123,4 +123,4 @@ ms.locfileid: "2183923"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Методы амортизации (Россия)](rus-depreciation-methods.md)
-- [Расчет амортизации (Россия)](rus-depreciation-calculation.md)
+- [Расчет амортизации для России](rus-depreciation-calculation.md)

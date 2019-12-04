@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c7ee8f4cf14197d6bd4549741058fc5fe95ae55d
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 561b6fad0facad86e9a7bc8f36218ab98fcec73c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026678"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773273"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (5 марта 2019 г.)
 
@@ -71,7 +71,7 @@ ms.locfileid: "2026678"
 Другие исправления незначительных ошибок включены в этот выпуск.
 
 ### <a name="upgrade-to-common-data-service"></a>Обновление до Common Data Service
-Крайние сроки для обновления до Common Data Service быстро приближаются. Войдите в центр администрирования PowerApps для определения, необходимо ли обновить вашу базу данных. Дополнительные сведения о крайних сроках и необходимых действиях по обновлению см. в разделе [Обновление до Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Крайние сроки для обновления до Common Data Service быстро приближаются. Войдите в центр администрирования Power Apps для определения, необходимо ли обновить вашу базу данных. Дополнительные сведения о крайних сроках и необходимых действиях по обновлению см. в разделе [Обновление до Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Скоро
 

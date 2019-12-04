@@ -1,5 +1,5 @@
 ---
-title: Отслеживание источников для профилей и заявлений кандидатов
+title: Отслеживание источников кандидатов в Attract
 description: В этом разделе приводятся сведения об отслеживании источника для профилей и заявлений кандидатов.
 author: hachandr
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551895"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832678"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Отслеживание источников для профилей и заявлений кандидатов
+# <a name="track-candidate-sources-in-attract"></a>Отслеживание источников кандидатов в Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE] 
 > Функциональность, описанная в этой теме, доступна в рамках предварительного выпуска. Содержимое и функциональность могут быть изменены. Для использования этой функции попросите администратора включить ее с помощью пункта **Параметры администрирования** в Attract. В будущих выпусках будут представлены отчеты отслеживания источника. Дополнительные сведения см. в разделе [Доступ к предварительным версиям функций в Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

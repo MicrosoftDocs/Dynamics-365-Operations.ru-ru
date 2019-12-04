@@ -16,12 +16,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: bf04ba4c3f78d720385e87fc92adba87583b18c5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d05c8f9f66cf7d4f61eca42be0116f3fb2e9d039
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175228"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773395"
 ---
 # <a name="russia-advance-holders-overview"></a>Обзор подотчетных лиц России
 [!include [banner](../includes/banner.md)]
@@ -150,4 +150,4 @@ ms.locfileid: "2175228"
 
 ## <a name="set-up-the-advance-holder"></a>Настройка подотчетного лица
 
-[Создание подотчетного лица](emea-advance-holders.md#create-an-advance-holder)
+[Обзор подотчетных лиц](emea-advance-holders.md#create-an-advance-holder)

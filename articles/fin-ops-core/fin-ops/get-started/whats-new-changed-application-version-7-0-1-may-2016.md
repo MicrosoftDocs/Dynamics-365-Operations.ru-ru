@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4524eb14ff06561ad186cf63654e6a716632a3f4
-ms.sourcegitcommit: 4d6ec2b1a9674712e1efb8c46b919d554f21a2b3
+ms.openlocfilehash: 715e0f8d08c6abbde35eb917cddc4ecf4b7b67ed
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "2627621"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811464"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Что нового и что изменилось в версии приложения Dynamics AX 7.0.1 (май 2016 г.)
 
@@ -104,6 +104,6 @@ ms.locfileid: "2627621"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Что нового и что изменилось](whats-new-changed.md)
+[Домашняя страница "Что нового и что изменилось в Finance and Operations"](whats-new-changed.md)
 
 [Новые или обновленные руководства по задачам (май 2016 г.)](new-updated-task-guides-available-may-2016.md)

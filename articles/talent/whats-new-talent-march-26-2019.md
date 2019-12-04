@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b23860a7eda0ec9d75cca04728b7fc11d01bf967
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023892"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812749"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (26 марта 2019 г.)
 
@@ -75,11 +75,11 @@ ms.locfileid: "2023892"
 В этом выпуске появилась возможность удалять записи вакансии с помощью пункта **Открыть в Excel** в Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Обновление до Common Data Service
-Крайние сроки для обновления до Common Data Service быстро приближаются. Войдите в центр администрирования PowerApps для определения, необходимо ли обновить вашу базу данных. Дополнительные сведения о крайних сроках и необходимых действиях по обновлению см. в разделе [Обновление до Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Крайние сроки для обновления до Common Data Service быстро приближаются. Войдите в центр администрирования Power Apps для определения, необходимо ли обновить вашу базу данных. Дополнительные сведения о крайних сроках и необходимых действиях по обновлению см. в разделе [Обновление до Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>В режиме предварительного просмотра
 
-Сведения о включении предварительных версий функций см. в разделе [Доступ к функциям предварительного просмотра в Talent](./access-preview-feature.md).
+Сведения о включении предварительных версий функций см. в разделе [Доступ к функциям предварительного просмотра в Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
 ### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a>Разрешить указывать коды причины для типов отпусков
 Организациям могут потребоваться дополнительные сведения, относящиеся к запросам выходных. Для получения этой информации сотрудникам необходимо включить код причины в их запросы выходных. В этом выпуске теперь можно задать коды причин, связанные с определенным типом отпуска, и дать рабочим возможность выбрать код причины в их запросе выходных.

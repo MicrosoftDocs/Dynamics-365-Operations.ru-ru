@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e6f0b75c8d81a5ac6ec90020375aec39120d4406
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278137"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811224"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Добавление элемента управления рекомендациями на экране проводки на устройствах POS
 
@@ -98,6 +98,6 @@ ms.locfileid: "2278137"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Рекомендации продуктов в POS](product.md)
+[Рекомендации по продуктам на POS](product.md)
 
-[Обзор рекомендаций продуктов](../commerce/product-recommendations.md)
+[Обзор рекомендаций по продуктам](../commerce/product-recommendations.md)

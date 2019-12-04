@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 38f0db7db0cc4f65d46cd241f75a7274f19f62cf
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 1a96fda4e7f7b6407c51ee4056088d05027462cf
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251393"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813255"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Синхронизация продуктов непосредственно из Supply Chain Management с продуктами в Sales
 
@@ -43,7 +43,7 @@ ms.locfileid: "2251393"
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
 
-Чтобы получить доступ к доступным шаблонам, откройте [Центр администрирования PowerApps](https://admin.powerapps.com/dataintegration). Выберите **Проекты**, затем в правом верхнем углу выберите **Создать проект**, чтобы выбрать общие шаблоны.
+Чтобы получить доступ к доступным шаблонам, откройте [Центр администрирования Power Apps](https://admin.powerapps.com/dataintegration). Выберите **Проекты**, затем в правом верхнем углу выберите **Создать проект**, чтобы выбрать общие шаблоны.
 
 Следующий шаблон и базовые задачи используются для синхронизации продуктов из Supply Chain Management в Sales.
 
@@ -116,7 +116,7 @@ ms.locfileid: "2251393"
 
 [Синхронизация контактов непосредственно из Sales с контактами или клиентами в Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Синхронизация заголовков и строк заказа на продажу непосредственно из Supply Chain Management с Sales](sales-order-template-mapping-direct-two-ways.md)
+[Синхронизация заказов на продажу напрямую между Sales и Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
 
 [Синхронизация заголовков и строк накладной по продаже непосредственно из Supply Chain Management с Sales](sales-invoice-template-mapping-direct.md)
 

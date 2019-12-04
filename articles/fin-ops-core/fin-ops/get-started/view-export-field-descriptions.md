@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 974f99632738cfc6eec5ff85965f4e9f9608a8b5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3e110c7fe6881825fe2b075c1795bc4f7e938da4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179714"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811515"
 ---
 # <a name="view-and-export-field-descriptions"></a>Просмотр и экспорт описаний полей
 
@@ -35,7 +35,7 @@ ms.locfileid: "2179714"
 
 Не все страницы имеют описания полей. Мы хотим предоставить описания только для более сложных полей, а не для полей, использование которых очевидно. Таким образом, некоторые страницы не имеют описаний полей, некоторые страницы имеют несколько описаний, а некоторые из более сложных страниц, например многие страницы параметров, имеют множество описаний.
 
-Если вы имеете доступ к среде разработки, вы можете добавить новые описания полей и настроить существующие описания. Например, можно добавить сведения о конкретной компании в описание поля. Дополнительные сведения см. в разделе [Настройка справки полей](../../dev-itpro/user-interface/customize-field-help.md).
+Если вы имеете доступ к среде разработки, вы можете добавить новые описания полей и настроить существующие описания. Например, можно добавить сведения о конкретной компании в описание поля. Дополнительные сведения см. в разделе [Настройка описаний полей](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Просмотр описаний полей в пользовательском интерфейсе
 
@@ -107,4 +107,4 @@ ms.locfileid: "2179714"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Настройка справки полей](../../dev-itpro/user-interface/customize-field-help.md)
+[Настройка описаний полей](../../dev-itpro/user-interface/customize-field-help.md)

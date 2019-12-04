@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 010d68b79300d15292dbcd4754eed8aac115cdce
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551457"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812841"
 ---
 # <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Предоставление общего доступа к содержимому другим участниками в Dynamics 365 Talent - Onboard
 
@@ -53,7 +53,7 @@ Microsoft Dynamics 365 Talent: Onboard позволяет обмениватьс
 
 3. В разделе **Получатель** если получатели должны быть в состоянии пересмотреть шаблон, установите для параметра **Эти пользователи могут вносить изменения?** значение **Вкл.**. Если получатели должны быть уведомлены по электронной почте, что вы поделились шаблоном с ними, установите для параметра **Отправить уведомление по электронной почте получателям** значение **Вкл.**.
 
-    [!Задание параметров доступа и электронной почты для шаблона](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
+    [![Задание параметров доступа и электронной почты для шаблона](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
 
 4. Введите имя или адрес электронной почты и выберите нужного получателя в раскрывающемся списке.
 5. На вкладке **Управление доступом** можно просмотреть или изменить то, что получатели могут сделать с шаблоном. Чтобы изменить доступ получателя, в раскрывающемся списке рядом с именем получателя, выберите **Могут просматривать**, **Могут изменять** или **Удалить** по мере необходимости.
@@ -68,6 +68,6 @@ Microsoft Dynamics 365 Talent: Onboard позволяет обмениватьс
 ### <a name="see-also"></a>См. также
 
 - [Попробуйте или купите приложение Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Что нового](./whats-new.md)
-- [Сведения о версии](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Получение поддержки](./talent-support.md)
+- [Что нового и что изменилось в Dynamics 365 Talent](./whats-new.md)
+- [Планы выпуска](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Получение поддержки по Microsoft Dynamics 365 Talent](./talent-support.md)
