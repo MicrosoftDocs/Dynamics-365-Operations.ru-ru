@@ -18,38 +18,37 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a7db93e1877034051b6add4c11ddfe7cd7d17e0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 575b27de845d931c990b1d19254b5218fa6e4199
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187920"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770858"
 ---
-# <a name="create-dimensions-and-import-dimension-members"></a><span data-ttu-id="3a121-103">Создание аналитик и импорт элементов аналитик</span><span class="sxs-lookup"><span data-stu-id="3a121-103">Create dimensions and import dimension members</span></span>
+# <a name="create-dimensions-and-import-dimension-members"></a><span data-ttu-id="4a2eb-103">Создание аналитик и импорт элементов аналитик</span><span class="sxs-lookup"><span data-stu-id="4a2eb-103">Create dimensions and import dimension members</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="3a121-104">Учет затрат — это независимый модуль, для работы которого требуются данные из других модулей.</span><span class="sxs-lookup"><span data-stu-id="3a121-104">Cost accounting is an independent module that requires data from other modules.</span></span> <span data-ttu-id="3a121-105">Эти данные подразделяется на следующие:</span><span class="sxs-lookup"><span data-stu-id="3a121-105">This data is categorized into the following:</span></span>
+<span data-ttu-id="4a2eb-104">Учет затрат — это независимый модуль, для работы которого требуются данные из других модулей.</span><span class="sxs-lookup"><span data-stu-id="4a2eb-104">Cost accounting is an independent module that requires data from other modules.</span></span> <span data-ttu-id="4a2eb-105">Эти данные подразделяется на следующие:</span><span class="sxs-lookup"><span data-stu-id="4a2eb-105">This data is categorized into the following:</span></span>
 
--  <span data-ttu-id="3a121-106">Элементы затрат</span><span class="sxs-lookup"><span data-stu-id="3a121-106">Cost elements</span></span>
--  <span data-ttu-id="3a121-107">Объекты затрат</span><span class="sxs-lookup"><span data-stu-id="3a121-107">Cost objects</span></span>
--  <span data-ttu-id="3a121-108">Статистические аналитики</span><span class="sxs-lookup"><span data-stu-id="3a121-108">Statistical dimensions</span></span>
+-  <span data-ttu-id="4a2eb-106">Элементы затрат</span><span class="sxs-lookup"><span data-stu-id="4a2eb-106">Cost elements</span></span>
+-  <span data-ttu-id="4a2eb-107">Объекты затрат</span><span class="sxs-lookup"><span data-stu-id="4a2eb-107">Cost objects</span></span>
+-  <span data-ttu-id="4a2eb-108">Статистические аналитики</span><span class="sxs-lookup"><span data-stu-id="4a2eb-108">Statistical dimensions</span></span>
 
-<span data-ttu-id="3a121-109">**Элемент затрат** соответствует связанному с затратами элементу в плане счетов.</span><span class="sxs-lookup"><span data-stu-id="3a121-109">A **Cost element** corresponds to a cost-relevant item in the chart of accounts.</span></span> <span data-ttu-id="3a121-110">**Объект затрат** соответствует любому типу финансовой аналитики, такому как продукты, центры затрат и проекты, которые вы хотите оценивать, затраты на которые вы хотите распределять или изменять непосредственно.</span><span class="sxs-lookup"><span data-stu-id="3a121-110">A **Cost object** corresponds to any type of financial dimension, such as products, cost centers, and projects that you want to estimate, allocate costs to, or measure directly.</span></span> <span data-ttu-id="3a121-111">**Статистическая аналитика** и ее элементы используются для регистрации немонетарных записей.</span><span class="sxs-lookup"><span data-stu-id="3a121-111">A **Statistical dimension** and its members are used to register non-monetary entries.</span></span> <span data-ttu-id="3a121-112">Элементы статистической аналитики могут использоваться в качестве базы распределения в распределении затрат и распределении стоимости.</span><span class="sxs-lookup"><span data-stu-id="3a121-112">Statistical dimension members can be used as an allocation base in cost distribution and allocation</span></span> 
+<span data-ttu-id="4a2eb-109">**Элемент затрат** соответствует связанному с затратами элементу в плане счетов.</span><span class="sxs-lookup"><span data-stu-id="4a2eb-109">A **Cost element** corresponds to a cost-relevant item in the chart of accounts.</span></span> <span data-ttu-id="4a2eb-110">**Объект затрат** соответствует любому типу финансовой аналитики, такому как продукты, центры затрат и проекты, которые вы хотите оценивать, затраты на которые вы хотите распределять или изменять непосредственно.</span><span class="sxs-lookup"><span data-stu-id="4a2eb-110">A **Cost object** corresponds to any type of financial dimension, such as products, cost centers, and projects that you want to estimate, allocate costs to, or measure directly.</span></span> <span data-ttu-id="4a2eb-111">**Статистическая аналитика** и ее элементы используются для регистрации немонетарных записей.</span><span class="sxs-lookup"><span data-stu-id="4a2eb-111">A **Statistical dimension** and its members are used to register non-monetary entries.</span></span> <span data-ttu-id="4a2eb-112">Элементы статистической аналитики могут использоваться в качестве базы распределения в распределении затрат и распределении стоимости.</span><span class="sxs-lookup"><span data-stu-id="4a2eb-112">Statistical dimension members can be used as an allocation base in cost distribution and allocation</span></span> 
 
-<span data-ttu-id="3a121-113">На следующей схеме показаны аналитики, которые используются в модуле "Учет затрат".</span><span class="sxs-lookup"><span data-stu-id="3a121-113">The following diagram illustrates the dimensions that are used in Cost accounting.</span></span>
+<span data-ttu-id="4a2eb-113">На следующей схеме показаны аналитики, которые используются в модуле "Учет затрат".</span><span class="sxs-lookup"><span data-stu-id="4a2eb-113">The following diagram illustrates the dimensions that are used in Cost accounting.</span></span>
 
-<span data-ttu-id="3a121-114">[![Аналитики учета затрат](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span><span class="sxs-lookup"><span data-stu-id="3a121-114">[![Cost accounting dimensions](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span></span>
+<span data-ttu-id="4a2eb-114">[![Аналитики учета затрат](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span><span class="sxs-lookup"><span data-stu-id="4a2eb-114">[![Cost accounting dimensions](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span></span>
 
-<span data-ttu-id="3a121-115">После импорта данных в модуль "Учет затрат" их можно использовать для построения различных перспектив, позволяющих руководителям на всех уровнях организации делать обоснованные выводы.</span><span class="sxs-lookup"><span data-stu-id="3a121-115">After the data is imported into Cost accounting, you can use it to build various perspectives that provide insights to managers at all levels of the organization.</span></span> <span data-ttu-id="3a121-116">В следующих темах содержатся сведения о создании аналитик и импорте элементов аналитик.</span><span class="sxs-lookup"><span data-stu-id="3a121-116">The following topics provide information about creating dimensions and importing dimension members.</span></span> 
+<span data-ttu-id="4a2eb-115">После импорта данных в модуль "Учет затрат" их можно использовать для построения различных перспектив, позволяющих руководителям на всех уровнях организации делать обоснованные выводы.</span><span class="sxs-lookup"><span data-stu-id="4a2eb-115">After the data is imported into Cost accounting, you can use it to build various perspectives that provide insights to managers at all levels of the organization.</span></span> <span data-ttu-id="4a2eb-116">В следующих темах содержатся сведения о создании аналитик и импорте элементов аналитик.</span><span class="sxs-lookup"><span data-stu-id="4a2eb-116">The following topics provide information about creating dimensions and importing dimension members.</span></span> 
 
--  [<span data-ttu-id="3a121-117">Аналитики элемента затрат</span><span class="sxs-lookup"><span data-stu-id="3a121-117">Cost element dimensions</span></span>](cost-elements.md)
--  [<span data-ttu-id="3a121-118">Создание элементов затрат (проводник по задаче)</span><span class="sxs-lookup"><span data-stu-id="3a121-118">Create cost elements (Task guide)</span></span>](./tasks/create-cost-elements.md)
--  [<span data-ttu-id="3a121-119">Аналитики объекта затрат</span><span class="sxs-lookup"><span data-stu-id="3a121-119">Cost object dimensions</span></span>](cost-objects.md)
--  [<span data-ttu-id="3a121-120">Создание элементов затрат (проводник по задаче)</span><span class="sxs-lookup"><span data-stu-id="3a121-120">Create cost elements (Task guide)</span></span>](./tasks/create-cost-objects.md)
--  [<span data-ttu-id="3a121-121">Сопоставление элементов аналитики элемента затрат с общим набором элементов аналитики</span><span class="sxs-lookup"><span data-stu-id="3a121-121">Map cost element dimension members to a common set of dimension members</span></span>](map-cost-elements-dimension-members.md)
--  [<span data-ttu-id="3a121-122">Сопоставление измерения элементов затрат (проводник по задаче)</span><span class="sxs-lookup"><span data-stu-id="3a121-122">Map a cost element dimension (Task guide)</span></span>](./tasks/map-cost-element-dimension.md)
--  [<span data-ttu-id="3a121-123">Элементы статистической аналитики и шаблоны поставщика статистической меры</span><span class="sxs-lookup"><span data-stu-id="3a121-123">Statistical dimension members and statistical measure provider templates</span></span>](statistical-measure-provider-template.md)
+-  [<span data-ttu-id="4a2eb-117">Аналитики элементов затрат</span><span class="sxs-lookup"><span data-stu-id="4a2eb-117">Cost element dimensions</span></span>](cost-elements.md)
+-  [<span data-ttu-id="4a2eb-118">Создание элементов затрат</span><span class="sxs-lookup"><span data-stu-id="4a2eb-118">Create cost elements</span></span>](./tasks/create-cost-elements.md)
+-  [<span data-ttu-id="4a2eb-119">Аналитики объектов затрат</span><span class="sxs-lookup"><span data-stu-id="4a2eb-119">Cost object dimensions</span></span>](cost-objects.md)
+-  [<span data-ttu-id="4a2eb-120">Сопоставление элементов аналитик элементов затрат с общим набором элементов аналитик</span><span class="sxs-lookup"><span data-stu-id="4a2eb-120">Map cost element dimension members to a common set of dimension members</span></span>](map-cost-elements-dimension-members.md)
+-  [<span data-ttu-id="4a2eb-121">Сопоставление аналитики элемента затрат</span><span class="sxs-lookup"><span data-stu-id="4a2eb-121">Map a cost element dimension</span></span>](./tasks/map-cost-element-dimension.md)
+-  [<span data-ttu-id="4a2eb-122">Элементы статистических аналитик и шаблоны поставщиков статистических мер</span><span class="sxs-lookup"><span data-stu-id="4a2eb-122">Statistical dimension members and statistical measure provider templates</span></span>](statistical-measure-provider-template.md)
 
 
 
