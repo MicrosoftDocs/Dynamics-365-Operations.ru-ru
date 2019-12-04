@@ -1,5 +1,5 @@
 ---
-title: Поиск кандидатов с помощью кадровых пулов в Microsoft Dynamics 365 Talent - Attract
+title: Поиск кандидатов с помощью кадровых пулов в Attract
 description: В этом разделе объясняется, как создать и настроить кадровые пулы в Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551126"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833031"
 ---
-# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>Поиск кандидатов с помощью кадровых пулов в Microsoft Dynamics 365 Talent - Attract
+# <a name="source-candidates-with-talent-pools-in-attract"></a>Поиск кандидатов с помощью кадровых пулов в Attract
 
-[!include[banner](../includes/banner.md)]
-
+[!include [banner](includes/banner.md)]
 
 Агенты по найму и менеджеры по найму могут упорядочить своих кандидатов с использованием функциональных возможностей кадровых пулов в Attract. Кадровые пулы помогают отслеживать и привлекать всех кандидатов, которые претендуют на должности в вашей компании.
 
@@ -116,7 +115,7 @@ ms.locfileid: "2551126"
 
     Для просмотра документа выберите имя документа в списке документов. Можно просмотреть документы Microsoft Word в заявлении с помощью Microsoft Office 365. Можно также загрузить документы на локальный компьютер с помощью параметра **Загрузить** для каждого документа.
 
-- На вкладке **LinkedIn** отображаются сведения о кандидате из LinkedIn. Для использования этой вкладки нужно подключить свою учетную запись LinkedIn в пользовательских настройках, и необходимо установить подключение средства LinkedIn Recruiter в вашей среде. Дополнительные сведения см. в разделе [Поиск кандидатов с помощью LinkedIn Recruiter](./attract-linkedin-recruiter.md).
+- На вкладке **LinkedIn** отображаются сведения о кандидате из LinkedIn. Для использования этой вкладки нужно подключить свою учетную запись LinkedIn в пользовательских настройках, и необходимо установить подключение средства LinkedIn Recruiter в вашей среде. Дополнительные сведения см. в разделе [Поиск кандидатов с помощью LinkedIn Recruiter в Microsoft Dynamics 365 Talent — Attract](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Только кандидаты могут обновлять свои навыки, историю образования и опыт работы.

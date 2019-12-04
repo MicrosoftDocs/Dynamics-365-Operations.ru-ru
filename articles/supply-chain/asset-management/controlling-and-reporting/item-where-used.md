@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511108e689c10e27a42253d95b02e5394f9eb713
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 476b01a4bae34a271203f34481ff18042783d4df
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652364"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811271"
 ---
 # <a name="item-where-used"></a>Используемая номенклатура
 
@@ -33,15 +33,15 @@ ms.locfileid: "2652364"
 
 Можно выполнить расчет для определенной номенклатуры, чтобы получить обзор того, где в управлении активами была использована номенклатура. Результаты показывают контекст, в котором номенклатура использовалась во время ее существования. Страницу **Используемая номенклатура** можно открыть страницу из главного меню управления активами, а также со следующих страниц:
 
-- [Спецификация актива](../objects/object-BOM.md)
+- [Спецификации актива](../objects/object-BOM.md)
 
-- [Запасные части в настройках по умолчанию типа актива](../setup-for-objects/object-types.md)
+- [Запасные части в настройках по умолчанию типа актива](../setup-for-objects/object-types.md#spare-parts-on-the-asset-type-setup)
 
-- [Прогноз по номенклатурам в прогнозе значений по умолчанию для типа заданий обслуживания](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+- [Категории типов заданий обслуживания и типы заданий обслуживания, варианты типов заданий обслуживания, торговля заданий обслуживания, контрольные списки обслуживания](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
-- [Прогноз обслуживания заказа на работу](../work-orders/maintenance-forecasts.md)
+- [Прогноз обслуживания](../work-orders/maintenance-forecasts.md)
 
-- [Заявка на покупку заказа на работу](../work-orders/procurement.md)
+- [Закупки](../work-orders/procurement.md)
 
 - [Заказ на покупку заказа на работу](../work-orders/procurement.md)
 

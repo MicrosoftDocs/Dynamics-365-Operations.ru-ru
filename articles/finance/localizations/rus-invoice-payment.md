@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9cc62dd923477fb12be5f4705ae66c9f505233ed
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e8ead0285f37144e55cc2a417183b7bdf0b7bfa9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175213"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773486"
 ---
 # <a name="invoices-for-payment-russia"></a>Счета на оплату (Россия)
 [!include [banner](../includes/banner.md)]
@@ -73,7 +73,7 @@ ms.locfileid: "2175213"
 
 1.  Щелкните **Расчеты с клиентами** \> **Обычные** \> **Накладные** \> **Все накладные с произвольным текстом**.
 
-2.  Создайте новую накладную с произвольным текстом, затем введите требуемые сведения. Дополнительные сведения см. в разделе [Создание накладной с произвольным текстом](../accounts-receivable/create-free-text-invoice-new.md).
+2.  Создайте новую накладную с произвольным текстом, затем введите требуемые сведения. Дополнительные сведения см. в разделе [Создать накладные с произвольным текстом](../accounts-receivable/create-free-text-invoice-new.md).
 
 3.  В области действий щелкните **Разнести** \> **Счет на оплату**, чтобы открыть страницу **Разноска счета на оплату**.
     

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc1e1eb9d8ede1d07a873ca98a1c385cf0126c3f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5985042567a29f5a9cac38912cbf9c3c0eb9c8bd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557534"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814475"
 ---
 # <a name="nonconformance-management"></a>Управление несоответствием
 
@@ -49,8 +49,8 @@ ms.locfileid: "1557534"
 <a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Создание и обработка несоответствия (проводник по задаче)](tasks/create-process-non-conformance.md)
+[Создание и обработка соответствия](tasks/create-process-non-conformance.md)
 
 [Процессы управления качеством](quality-management-processes.md)
 
-[Настройка предварительных требований для управления несоответствиями (проводник по задаче)](tasks/set-up-prerequisites-nonconformance-management.md)
+[Настройка предварительных требований для управления несоответствиями](tasks/set-up-prerequisites-nonconformance-management.md)

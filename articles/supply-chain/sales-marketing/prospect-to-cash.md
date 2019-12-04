@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fb5abb983811ce736e3494bc85e8d9b23a2e373c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251370"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814083"
 ---
 # <a name="prospect-to-cash"></a>Продажа перспективному клиенту
 
@@ -36,12 +36,12 @@ ms.locfileid: "2251370"
 
 В текущей версии решение "Перспективный клиент в наличные деньги" предоставляет следующие типы прямой синхронизации:
 
-- [Ведение организаций в Sales и их прямая синхронизация из Sales в Supply Chain Management](accounts-template-mapping-direct.md)
-- [Ведение продуктов в Supply Chain Management и их прямая синхронизация с Sales](products-template-mapping-direct.md)
-- [Ведение контактов в Sales и их синхронизация с контактами или клиентами напрямую в Supply Chain Management](contacts-template-mapping-direct.md)
-- [Синхронизация предложений по продаже непосредственно из Sales с Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
+- [Синхронизация организаций непосредственно из Sales с клиентами в Supply Chain Management](accounts-template-mapping-direct.md)
+- [Синхронизация продуктов непосредственно из Supply Chain Management с продуктами в Sales](products-template-mapping-direct.md)
+- [Синхронизация контактов непосредственно из Sales с контактами или клиентами в Supply Chain Management](contacts-template-mapping-direct.md)
+- [Синхронизация заголовков и строк предложений по продаже непосредственно из Sales с Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
 - [Синхронизация заказов на продажу напрямую между Sales и Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
-- [Синхронизация накладных по продаже непосредственно из Supply Chain Management в Sales](sales-invoice-template-mapping-direct.md)
+- [Синхронизация заголовков и строк накладной по продаже непосредственно из Supply Chain Management с Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-supply-chain-management"></a>Требования к системе для Supply Chain Management
 Интеграция решения "Перспективный клиент в наличные деньги" поддерживается в следующих версиях:

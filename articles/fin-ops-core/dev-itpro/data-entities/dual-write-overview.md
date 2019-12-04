@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d70bce4e47c05a7974c1b974fdca17682e5370aa
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550865"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772395"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Интеграция данных почти в реальном времени с Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 В современном цифровом мире бизнес-экосистемы используют приложения Microsoft Dynamics 365 как единое целое. Поскольку данные от людей, клиентов, операций и устройств Интернета вещей (IoT) стекаются в один источник, есть возможность для цифровых циклов обратной связи. Для достижения этого опыта важна интеграция между приложениями Finance and Operations и другими приложениями Dynamics 365. Некоторые приложения строятся на основе Common Data Service. Интеграция данных между приложениями Finance and Operations с Common Data Service позволяет другим приложениям взаимодействовать согласованно и свободно с Finance and Operations.
 
@@ -38,13 +36,16 @@ ms.locfileid: "2550865"
 
 ![Диаграмма обзора архитектуры](media/dual-write-overview.jpg)
 
-Следующие ценностные предложения доступны для клиентов:
+Следующие ценностные предложения доступны:
 
 + [Организационная иерархия в Common Data Service](dual-write-organization.md)
 + [Концепция компании в Common Data Service](dual-write-company.md)
 + [Интегрированный мастер клиентов](dual-write-customer.md)
++ [Интегрированная ГК](dual-write-ledger.md)
++ [Унифицированный опыт работы с продуктом](dual-write-product.md)
 + [Интегрированный мастер поставщиков](dual-write-vendor.md)
-+ Единый шаблон продукта
++ [Интегрированные сайты и склады](dual-write-sites-and-warehouses.md)
++ [Интегрированная налоговый справочник](dual-write-tax.md)
 
 ## <a name="system-requirements"></a>Требования к системе
 

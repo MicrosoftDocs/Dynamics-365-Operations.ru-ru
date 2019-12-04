@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f7d98d7ab9b375bfeb8784596753ca956f96e36
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e9f185ac95371bb841e55184650b8089040676c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189737"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772268"
 ---
 # <a name="accounting-distributions"></a>Распределение по бухгалтерским счетам
 
@@ -55,6 +55,6 @@ ms.locfileid: "2189737"
 -   **Просмотр распределений** — просмотр распределений по бухгалтерским счетам для всех строк и денежных сумм документа. В этом представлении невозможно изменить распределения по бухгалтерским счетам.
 
 
-Подробнее см. в разделе [Распределения по счетам и записи в журнале субкниги для накладных с произвольным текстом](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+Подробнее см. в разделе [Распределения по счетам и записи в журнале субкниги для накладных поставщика](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
 
 

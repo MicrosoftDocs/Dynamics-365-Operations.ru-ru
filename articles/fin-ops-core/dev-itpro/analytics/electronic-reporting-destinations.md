@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5b52e1765d3afbe1730e96f58b601aebccd12787
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7154a6e8aff62b1ebf79edfecb1e1b99048f7c44
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181274"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771477"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Места назначения электронной отчетности (ER)
 
@@ -122,7 +122,7 @@ ms.locfileid: "2181274"
 
 ### <a name="power-bi-destination"></a>Место назначения Power BI
 
-Задайте для параметра **Включено** значение **Да** для использования конфигурации электронной отчетности (ER), чтобы настроить перенос данных из вашего экземпляра в службы Microsoft Power BI. Перенесенные файлы хранятся на экземпляре сервера Microsoft SharePoint Server, который должен быть настроен для этой цели. Дополнительные сведения см. в разделе [Использование конфигурации электронной отчетности для передачи данных из Finance в Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Задайте для параметра **Включено** значение **Да** для использования конфигурации электронной отчетности (ER), чтобы настроить перенос данных из вашего экземпляра в службы Microsoft Power BI. Перенесенные файлы хранятся на экземпляре сервера Microsoft SharePoint Server, который должен быть настроен для этой цели. Дополнительные сведения см. в разделе [Настройка электронной отчетности (ER) для загрузки данных в Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Чтобы переопределить поведение по умолчанию (то есть диалоговое окно конфигурации), можно создать ссылку на место назначения и файл назначения для основного выходного компонента, а затем отключить все места назначения.
@@ -163,4 +163,4 @@ ms.locfileid: "2181274"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор электронной отчетности](general-electronic-reporting.md)
+[Обзор электронной отчетности (ER)](general-electronic-reporting.md)

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7c8831203ae30991ff8acf1926aafc2d1839aeb2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c91a3b7e28bc55046ff6eeb37a5fddc8637aa230
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251278"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773319"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Синхронизация заказов на продажу напрямую между Sales и Supply Chain Management
 
@@ -40,7 +40,7 @@ ms.locfileid: "2251278"
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
 
-Чтобы получить доступ к доступным шаблонам, откройте [Центр администрирования PowerApps](https://preview.admin.powerapps.com/dataintegration). Выберите **Проекты**, затем в правом верхнем углу выберите **Создать проект**, чтобы выбрать общие шаблоны.
+Чтобы получить доступ к доступным шаблонам, откройте [Центр администрирования Power Apps](https://preview.admin.powerapps.com/dataintegration). Выберите **Проекты**, затем в правом верхнем углу выберите **Создать проект**, чтобы выбрать общие шаблоны.
 
 Следующие шаблоны и базовые задачи используются для выполнения синхронизации заказов на продажу напрямую между Sales и Supply Chain Management:
 

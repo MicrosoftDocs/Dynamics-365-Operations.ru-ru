@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c286587add6cb38f5fe2728e29fe8b3ac528165
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250791"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814338"
 ---
 # <a name="inventory-management-overview"></a>Обзор управления запасами
 
@@ -51,7 +51,7 @@ ms.locfileid: "2250791"
 Перейдите в раздел [Дорожная карта Microsoft Dynamics 365](https://roadmap.dynamics.com/), чтобы узнать, какие новые функции уже выпущены, а какие еще находятся в разработке.
 
 ### <a name="inventory-accounting"></a>Учет запасов 
-Дополнительные сведения см. в разделе [Учет запасов в управлении затратами](../cost-management/inventory-close.md).
+Дополнительные сведения см. в разделе [Закрытие запасов](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>Блоги по управлению производством и Supply Chain Management
 В [блоге группы исследований производства Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) и в [блоге группы исследований Supply Chain Management в Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm) можно найти мнения, новости и другие сведения об управлении запасами и других решениях.

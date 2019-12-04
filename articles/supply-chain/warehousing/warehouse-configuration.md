@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: aa503f2ce3ae8ff6b221ea1d26a1c62d0ba37646
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653426"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814912"
 ---
 # <a name="warehouse-configuration-overview"></a>Обзор конфигурации склада
 
@@ -31,7 +31,8 @@ ms.locfileid: "2653426"
 
 В этой статье описывается, как настроить склад. Она включает информацию о том, как включить макет склада и процессы склада.
 
-**Примечание.** Эта статья применяется к функциям модуля **Управление складом** (расширенное складирование). Она не применяется к функциям склада в модуле **Управление запасами**.
+> [!NOTE]
+> Эта статья применяется к функциям модуля **Управление складом** (расширенное складирование). Она не применяется к функциям склада в модуле **Управление запасами**.
 
 ## <a name="warehouse-layout"></a>Макет склада
 Система управления складом в Supply Chain Management предоставляет гибкие способы определения макета склада для соответствия изменяющимся потребностям, чтобы гарантировать оптимальную эффективность склада.
@@ -114,7 +115,7 @@ ms.locfileid: "2653426"
 <a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Настройка мест хранения на складе, на котором включена система управления складом (проводник по задаче)](tasks/configure-locations-wms-enabled-warehouse.md)
+[Настройка ячейки на складе, на котором включена система WMS](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 

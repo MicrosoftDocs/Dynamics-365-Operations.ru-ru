@@ -19,24 +19,22 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9dc26e0e50c0b77555d09e4a50b846c80b1d5760
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: bcc2c3d2530153a225a94fa0fb3cc990abbf65b4
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249336"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769737"
 ---
 # <a name="unified-product-experience"></a>Унифицированный опыт работы с продуктами
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview](../includes/preview-banner.md)]
-
-Если бизнес-экосистема состоит из приложений Dynamics 365, таких как Finance, Supply Chain Management и Sales, это естественно, чтобы клиенты использовали эти приложения для исходных данных о продуктах. Это обусловлено тем, что эти приложения предоставляют надежную инфраструктуру продуктов, дополненную сложными концепциями ценообразования и точными данными запасов в наличии. Клиенты, использующие внешнюю систему управления жизненным циклом продукции (PLM) в качестве источников данных продуктов, могут канализировать продукты из приложений Finance and Operations в другие приложения Dynamics 365. Унифицированный опыт работы с продуктом привносит интегрированную модель данных продуктов в Common Data Service, чтобы все пользователи приложений, включая пользователей Power Platform, могли воспользоваться богатыми данными о продуктах, поступающим из приложений Finance and Operations.
+Если бизнес-экосистема состоит из приложений Dynamics 365, таких как Finance, Supply Chain Management и Sales, бизнес часто использует эти приложения для исходных данных о продуктах. Это обусловлено тем, что эти приложения предоставляют надежную инфраструктуру продуктов, дополненную сложными концепциями ценообразования и точными данными запасов в наличии. Бизнесы, использующие внешнюю систему управления жизненным циклом продукции (PLM) в качестве источников данных продуктов, могут канализировать продукты из приложений Finance and Operations в другие приложения Dynamics 365. Унифицированный опыт работы с продуктом привносит интегрированную модель данных продуктов в Common Data Service, чтобы все пользователи приложений, включая пользователей Power Platform, могли воспользоваться богатыми данными о продуктах, поступающим из приложений Finance and Operations.
 
 Ниже приведена модель данных о продукции из Sales.
 
-![Модель данных для продуктов Sales](media/dual-write-product-4.jpg)
+![Модель данных для продуктов в CE](media/dual-write-product-4.jpg)
 
 Ниже приведена модель данных о продукции из приложений Finance and Operations.
 
@@ -46,38 +44,38 @@ ms.locfileid: "2249336"
 
 ![Модель данных для продуктов в приложениях Dynamics 365](media/dual-write-products-6.jpg)
 
-Объекты с двойной записью для продуктов были спроектированы так, чтобы передавать данные только в одном направлении, и это происходит почти в режиме реального времени из приложений Finance and Operations в Common Data Service. Однако инфраструктура продуктов была сделана открытой, чтобы сделать ее двунаправленной, если это необходимо. Клиенты могут настроить ее под свою собственную ответственность, поскольку корпорация Майкрософт не рекомендует использовать этот подход.
+Объекты с двойной записью для продуктов были спроектированы так, чтобы передавать данные только в одном направлении, и это происходит почти в режиме реального времени из приложений Finance and Operations в Common Data Service. Однако инфраструктура продуктов была сделана открытой, чтобы сделать ее двунаправленной, если это необходимо. Хотя клиенты могут настроить ее, это ваша ответственность, корпорация Майкрософт не рекомендует использовать этот подход.
 
 ## <a name="templates"></a>Шаблоны
 
 Информация о продукте содержит все сведения, имеющие отношение к продукту и его определению, такие как аналитики продукта или аналитики отслеживания и хранения. Как показано в следующей таблице, для синхронизации продуктов и связанных сведений создается коллекция сопоставлений объектов.
 
-Finance and Operations | Другие приложения Dynamics 365
------------------------|--------------------------------
-Выпущенные продукты V2 | msdyn\_sharedproductdetails
-Уникально идентифицируемые продукты, выпущенные CDS | Продукт
-Штрихкод, связанный с номером продукта | msdyn\_productbarcodes
+Finance and Operations | Другие приложения Dynamics 365 | Описание
+-----------------------|--------------------------------|---
+Выпущенные продукты V2 | msdyn\_sharedproductdetails | Объект **msdyn\_sharedproductdetails** содержит поля из приложений Finance and Operations, определяющие продукт, которые содержат финансовые сведения и сведения об управлении данным продуктом. Сопоставления представлены в таблице ниже.
+Уникально идентифицируемые продукты, выпущенные Common Data Service | Продукт | Объект **Продукт** содержит поля, определяющие продукт. Он включает в себя отдельные продукты (продукты с подтипом продукта) и варианты продукта. Сопоставления представлены в таблице ниже.
+Штрихкод, связанный с номером продукта | msdyn\_productbarcodes | Штрих-коды продукта используются для уникальной идентификации продуктов.
 Параметры заказа по умолчанию | msdyn\_productdefaultordersettings
-Специфические для продукта параметры заказа по умолчанию | msdyn_productspecificdefaultordersettings
-Группы аналитик продукта | msdyn\_productdimensiongroups
-Группы аналитик хранения | msdyn\_productstoragedimensiongroups
-Группы аналитик отслеживания | msdyn\_producttrackingdimensiongroups
+Специфические для продукта параметры заказа по умолчанию | msdyn_productdefaultordersettings
+Группы аналитик продукта | msdyn\_productdimensiongroups | Группа аналитик продукта, определяющая, какие аналитики продукта определяют продукт. 
+Группы аналитик хранения | msdyn\_productstoragedimensiongroups | Группа аналитик хранения продукта представляет метод, используемый для определения местоположения продукта на складе.
+Группы аналитик отслеживания | msdyn\_producttrackingdimensiongroups | Группа аналитик отслеживания продукта представляет метод, используемый для отслеживания продукта на складе.
 Цвета | msdyn\_productcolors
 Размеры | msdyn\_productsizes
 Стили | msdyn\_productsytles
 Конфигурации | msdyn\_productconfigurations
-Цвета шаблонов продуктов | msdyn_sharedproductcolors
-Размеры шаблонов продуктов | msdyn_sharedproductsizes
-Стили шаблонов продуктов | msdyn_sharedproductstyles
-Конфигурации шаблонов продуктов | msdyn_sharedproductconfigurations
-Все продукты | msdyn_globalproducts
+Цвета шаблонов продуктов | msdyn_sharedproductcolors | Объект **Общий цвет продуктов** указывает цвета, которые может иметь конкретный шаблон продукта. Эта концепция переносится в Common Data Service для обеспечения согласованности данных.
+Размеры шаблонов продуктов | msdyn_sharedproductsizes | Объект **Общий размер продуктов** указывает размеры, которые может иметь конкретный шаблон продукта. Эта концепция переносится в Common Data Service для обеспечения согласованности данных.
+Стили шаблонов продуктов | msdyn_sharedproductstyles | Объект **Общий стиль продуктов** указывает стили, которые может иметь конкретный шаблон продукта. Эта концепция переносится в Common Data Service для обеспечения согласованности данных.
+Конфигурации шаблонов продуктов | msdyn_sharedproductconfigurations | Объект **Общая конфигурация продуктов** указывает конфигурации, которые может иметь конкретный шаблон продукта. Эта концепция переносится в Common Data Service для обеспечения согласованности данных.
+Все продукты | msdyn_globalproducts | Объект всех продуктов содержит все продукты, доступные в приложениях Finance and Operations, как выпущенные, так и невыпущенные продукты.
 Ед. изм. | uoms
 Пересчеты единиц измерения | msdyn_ unitofmeasureconversions
 Специфичное для продукта преобразование единиц измерения | msdyn_productspecificunitofmeasureconversion
-Сайты | msdyn\_operationalsites
-Склады | msdyn\_inventwarehouses
-
-[!include [symbols](../includes/dual-write-symbols.md)]
+Категории продуктов | msdyn_productcategories | Каждая из категорий продуктов и информации о ее структуре и характеристиках содержится в объекте категории продукта. 
+Иерархии категорий продуктов | msdyn_productcategoryhierarhies | Иерархии продуктов используются для классификации или группировки продуктов. Иерархии категорий доступны в Common Data Service с использованием объекта иерархии категорий продуктов. 
+Роли иерархии категорий продуктов | msdyn_productcategoryhierarchies | Иерархии продуктов могут использоваться для разных ролей в D365 Finance and Operations. Для указания категории, используемой в каждой роли, объект роли категории продукта используется со следующими сопоставлениями. 
+Назначения категорий продуктов | msdyn_productcategoryassignments | Чтобы назначить продукт для категории, можно использовать объект назначений категорий продуктов.
 
 ## <a name="integration-of-products"></a>Интеграция продуктов
 
@@ -85,7 +83,7 @@ Finance and Operations | Другие приложения Dynamics 365
 
 Поскольку продукт представлен в виде SKU, концепция отдельных продуктов, шаблонов продуктов и вариантов продуктов может быть реализована в Common Data Service следующим образом:
 
-- **Продукты с подтипом продукта** — это продукты, которые определены сами по себе. Для них не были определены никакие аналитики. Примером является конкретная книга. Для этих продуктов одна запись создается в объекте **Продукт** и одна запись создается в объекте **msdyn\_sharedproductdetails**. Запись семейства продуктов не создается.
+- **Продукты с подтипом продукта** — это продукты, которые определены сами по себе. Не были определены никакие аналитики. Примером является конкретная книга. Для этих продуктов одна запись создается в объекте **Продукт** и одна запись создается в объекте **msdyn\_sharedproductdetails**. Запись семейства продуктов не создается.
 - **Шаблоны продукта** используются как универсальные продукты, содержащие определение и правила, определяющие поведение в бизнес-процессах. На основе этих определений могут быть созданы уникально идентифицируемые продукты, известные как варианты продукта. Например, футболка — это шаблон продукта, который может иметь цвет и размер в качестве аналитик. Варианты могут быть выпущены с различной комбинацией этих аналитик, такие как маленькая синяя футболка или средняя зеленая футболка. В интеграции в таблице продуктов создается одна запись для каждого варианта. Эта запись содержит сведения, специфичные для варианта, такие как различные аналитики. Общая информация о продукте хранится в объекте **msdyn\_sharedproductdetails**. (Эта общая информация хранится в шаблоне продукта.) Кроме того, для шаблона продукта создается одна запись семейства продуктов. Информация шаблона продукта синхронизируется с Common Data Service в момент создания шаблона выпущенного продукта (но до выпуска вариантов).
 - **Уникально идентифицируемые продукты** обозначают все продукты подтипа продуктов и на все варианты продукта. 
 
@@ -93,151 +91,17 @@ Finance and Operations | Другие приложения Dynamics 365
 
 При включенной функции двойной записи приложения из Finance and Operations будут синхронизироваться в других приложениях Dynamics 365 в состоянии **Черновик**. Они добавляются к первому прайс-листу с такой же валютой. Другими словами, они добавляются к первому прайс-листу в приложении Dynamics 365, который соответствует валюте юридического лица, в котором продукт выпущен в приложении Finance and Operations. 
 
-Для синхронизации продукта с состоянием **Активный**, чтобы его можно было напрямую использовать в предложениях с расценками по заказам на продажу, например, следует выбрать следующую настройку: в разделе **Система > Администрирование > Администрирование системы > Параметры системы > Sales** выберите **Создавать продукты в активном состоянии = да**. 
+По умолчанию продукты из Finance and Operations синхронизируются с другими приложениями Dynamics 365 в состоянии **Черновик**. Для синхронизации продукта с состоянием **Активный**, чтобы его можно было напрямую использовать в предложениях с расценками по заказам на продажу, например, следует выбрать следующую настройку: на вкладке **Система > Администрирование > Администрирование системы > Параметры системы > Sales** выберите **Создавать продукты в активном состоянии = да**. 
 
-### <a name="cds-released-distinct-products-to-product"></a>Выпущенные в CDS уникально идентифицируемые продукты в продукты
+Обратите внимание, что синхронизация продуктов происходит из приложений Finance and Operations для Common Data Service. Это означает, что значения полей объекта продукта можно изменить в Common Data Service, но если синхронизация активирована (при изменении поля продукта в приложении Finance and Operations), это приведет к перезаписи значений в Common Data Service. 
 
-Объект **Продукт** содержит поля, определяющие продукт. Он включает в себя отдельные продукты (продукты с подтипом продукта) и варианты продукта. Сопоставления представлены в таблице ниже.
+[!include [symbols](../includes/dual-write-symbols.md)]
 
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-PRODUCTNUMBER | >> | productnumber
-PRODUCTNAME | >> | наименование
-PRODUCTDESCRIPTION | >> | описание
-ITEMNUMBER | >> | msdyn_itemnumber
-CURRENCYCODE | >> | transactioncurrencyid.isocurrencycode
-SALESUNITSYMBOL | >> | defaultuomid.msdyn_symbol
-SALESPRICE | >> | ст-ти
-UNITCOST | >> | currentcost
-PRODUCTTYPE | >> | producttypecode
-SALESUNITDECIMALPRECISION | >> | quantitydecimal
-ISCATCHWEIGHTPRODUCT | >> | msdyn_iscatchweight
-PRODUCTCOLORID | >> | msdyn_productcolor.msdyn_productcolorname
-PRODUCTCONFIGURATIONID | >> | msdyn_productconfiguration.msdyn_productconfiguration
-PRODUCTSIZEID | >> | msdyn_productsize.msdyn_productsize
-PRODUCTSTYLEID | >> | msdyn_productstyle.msdyn_productstyle
+[!include [products](dual-write/EcoResReleasedDistinctProductCDSEntity-products.md)]
 
-### <a name="released-products-v2-to-msdyn_sharedproductdetails"></a>Released products V2 to msdyn\_sharedproductdetails
+[!include [product details](dual-write/EcoResReleasedProductV2-msdyn-sharedproductdetails.md)]
 
-Объект **msdyn\_sharedproductdetails** содержит поля из приложений Finance and Operations, определяющие продукт, которые содержат финансовые сведения и сведения об управлении данным продуктом. Сопоставления представлены в таблице ниже.
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-PRODUCTNUMBER | > | msdyn_globalproduct.msdyn_productnumber
-INTRASTATCHARGEPERCENTAGE | > | msdyn_intrastatchargepercentage
-ITEMNUMBER | >> | msdyn_itemnumber
-APPROXIMATESALESTAXPERCENTAGE | > | msdyn_approximatesalestaxpercentage
-BESTBEFOREPERIODDAYS | > | msdyn_bestbeforeperioddays
-CARRYINGCOSTABCCODE | >> | msdyn_carryingcostabccode
-CONSTANTSCRAPQUANTITY | > | msdyn_constantscrapquantity
-COSTCHARGESQUANTITY | > | msdyn_costchargesquantity
-DEFAULTRECEIVINGQUANTITY | > | msdyn_defaultreceivingquantity
-FIXEDPURCHASEPRICECHARGES | > | msdyn_fixedpurchasepricecharges
-FIXEDSALESPRICECHARGES | > | msdyn_fixedsalespricecharges
-GROSSDEPTH | > | msdyn_grossdepth
-GROSSPRODUCTHEIGHT | > | msdyn_grossproductheight
-GROSSPRODUCTWIDTH | > | msdyn_grossproductwidth
-INVENTORYUNITSYMBOL | > | msdyn_inventoryunitsymbol.msdyn_symbol
-ISDISCOUNTPOSREGISTRATIONPROHIBITED | >> | msdyn_isdiscountposregistrationprohibited
-ISEXEMPTFROMAUTOMATICNOTIFICATIONANDCANCELLATION | >> | msdyn_exemptautomaticnotificationcancel
-ISINSTALLMENTELIGIBLE | >> | msdyn_isinstallmenteligible
-ISINTERCOMPANYPURCHASEUSAGEBLOCKED | >> | msdyn_isintercompanypurchaseusageblocked
-ISINTERCOMPANYSALESUSAGEBLOCKED | >> | msdyn_isintercompanysalesusageblocked
-ISMANUALDISCOUNTPOSREGISTRATIONPROHIBITED | >> | msdyn_ismanualdiscposregistrationprohibited
-ISPHANTOM | >> | msdyn_isphantom
-ISPOSREGISTRATIONBLOCKED | >> | msdyn_isposregistrationblocked
-ISPOSREGISTRATIONQUANTITYNEGATIVE | >> | msdyn_isposregistrationquantitynegative
-ISPURCHASEPRICEAUTOMATICALLYUPDATED | >> | msdyn_ispurchasepriceautomaticallyupdated
-ISPURCHASEPRICEINCLUDINGCHARGES | >> | msdyn_ispurchasepriceincludingcharges
-ISSALESWITHHOLDINGTAXCALCULATED | >> | msdyn_issaleswithholdingtaxcalculated
-ISRESTRICTEDFORCOUPONS | >> | msdyn_isrestrictedforcoupons
-ISSALESPRICEADJUSTMENTALLOWED | >> | msdyn_issalespriceadjustmentallowed
-ISSALESPRICEINCLUDINGCHARGES | >> | msdyn_issalespriceincludingcharges
-ISSCALEPRODUCT | >> | msdyn_isscaleproduct
-ISSHIPALONEENABLED | >> | msdyn_isshipaloneenabled
-ISUNITCOSTPRODUCTVARIANTSPECIFIC | >> | msdyn_isunitcostproductvariantspecific
-ISVARIANTSHELFLABELSPRINTINGENABLED | >> | msdyn_isvariantshelflabelsprintingenabled
-ISZEROPRICEPOSREGISTRATIONALLOWED | >> | msdyn_iszeropriceposregistrationallowed
-KEYINPRICEREQUIREMENTSATPOSREGISTER | >> | msdyn_keyinpricerequirementsatposregister
-KEYINQUANTITYREQUIREMENTSATPOSREGISTER | >> | msdyn_keyinquantityrequirementsatposregister
-MARGINABCCODE | >> | msdyn_marginabccode
-MAXIMUMPICKQUANTITY | > | msdyn_maximumpickquantity
-MUSTKEYINCOMMENTATPOSREGISTER | >> | msdyn_mustkeyincommentatposregister
-NECESSARYPRODUCTIONWORKINGTIMESCHEDULINGPROPERTYID | > | msdyn_necessaryproductionworkingtimeschedulingp
-NETPRODUCTWEIGHT | > | msdyn_netproductweight
-PACKINGDUTYQUANTITY | > | msdyn_packingdutyquantity
-POSREGISTRATIONACTIVATIONDATE | > | msdyn_posregistrationactivationdate
-POSREGISTRATIONBLOCKEDDATE | > | msdyn_posregistrationblockeddate
-POSREGISTRATIONPLANNEDBLOCKEDDATE | > | msdyn_posregistrationplannedblockeddate
-POTENCYBASEATTIBUTETARGETVALUE | > | msdyn_potencybaseattibutetargetvalue
-POTENCYBASEATTRIBUTEVALUEENTRYEVENT | >> | msdyn_potencybaseattributevalueentryevent
-PRODUCTTYPE | >> | msdyn_producttype
-PRODUCTIONCONSUMPTIONDENSITYCONVERSIONFACTOR | > | msdyn_productionconsumptiondensityconversion
-PRODUCTIONCONSUMPTIONDEPTHCONVERSIONFACTOR | > | msdyn_productionconsumptiondepthconversion
-PRODUCTIONCONSUMPTIONHEIGHTCONVERSIONFACTOR | > | msdyn_productionconsumptionheightconversion
-PRODUCTIONCONSUMPTIONWIDTHCONVERSIONFACTOR | > | msdyn_productionconsumptionwidthconversion
-PRODUCTVOLUME | > | msdyn_productvolume
-PURCHASECHARGESQUANTITY | > | msdyn_purchasechargesquantity
-PURCHASEOVERDELIVERYPERCENTAGE | > | msdyn_purchaseoverdeliverypercentage
-PURCHASEPRICE | > | msdyn_purchaseprice
-PURCHASEPRICEDATE | > | msdyn_purchasepricedate
-PURCHASEPRICINGPRECISION | > | msdyn_purchasepricingprecision
-PURCHASEUNDERDELIVERYPERCENTAGE | > | msdyn_purchaseunderdeliverypercentage
-RAWMATERIALPICKINGPRINCIPLE | >> | msdyn_rawmaterialpickingprinciple
-SALESCHARGESQUANTITY | > | msdyn_saleschargesquantity
-SALESOVERDELIVERYPERCENTAGE | > | msdyn_salesoverdeliverypercentage
-SALESPRICE | > | msdyn_salesprice
-SALESPRICECALCULATIONCHARGESPERCENTAGE | > | msdyn_salespricecalculationchargespercentage
-SALESPRICECALCULATIONCONTRIBUTIONRATIO | > | msdyn_salespricecalculationcontributionratio
-SALESPRICECALCULATIONMODEL | >> | msdyn_salespricecalculationmodel
-SALESPRICEDATE | > | msdyn_salespricedate
-SALESPRICINGPRECISION | > | msdyn_salespricingprecision
-SALESUNDERDELIVERYPERCENTAGE | > | msdyn_salesunderdeliverypercentage
-SALESUNITSYMBOL | > | msdyn_salesunitsymbol.msdyn_symbol
-SCALEINDICATOR | >> | msdyn_scaleindicator
-SELLSTARTDATE | > | msdyn_sellstartdate
-SHELFADVICEPERIODDAYS | > | msdyn_shelfadviceperioddays
-SHELFLIFEPERIODDAYS | > | msdyn_shelflifeperioddays
-SHIPSTARTDATE | > | msdyn_shipstartdate
-TAREPRODUCTWEIGHT | > | msdyn_tareproductweight
-TRANSFERORDEROVERDELIVERYPERCENTAGE | > | msdyn_transferorderoverdeliverypercentage
-TRANSFERORDERUNDERDELIVERYPERCENTAGE | > | msdyn_transferorderunderdeliverypercentage
-UNITCOST | > | msdyn_unitcost
-UNITCOSTDATE | > | msdyn_unitcostdate
-UNITCOSTQUANTITY | > | msdyn_unitcostquantity
-VARIABLESCRAPPERCENTAGE | > | msdyn_variablescrappercentage
-WAREHOUSEMOBILEDEVICEDESCRIPTIONLINE1 | > | msdyn_warehousemobiledevicedescriptionline1
-WAREHOUSEMOBILEDEVICEDESCRIPTIONLINE2 | > | msdyn_warehousemobiledevicedescriptionline2
-WILLINVENTORYISSUEAUTOMATICALLYREPORTASFINISHED | >> | msdyn_willinventoryissueautoreportasfinished
-WILLINVENTORYRECEIPTIGNOREFLUSHINGPRINCIPLE | >> | msdyn_willinventoryreceiptignoreflushing
-WILLPICKINGWORKBENCHAPPLYBOXINGLOGIC | >> | msdyn_willpickingworkbenchapplyboxinglogic
-WILLTOTALPURCHASEDISCOUNTCALCULATIONINCLUDEPRODUCT | >> | msdyn_willtotalpurchdiscountcalcincludeproduct
-WILLTOTALSALESDISCOUNTCALCULATIONINCLUDEPRODUCT | >> | msdyn_willtotalsalesdiscountcalcincludeproduct
-WILLWORKCENTERPICKINGALLOWNEGATIVEINVENTORY | >> | msdyn_willworkcenterpickingallownegativeinvent
-YIELDPERCENTAGE | > | msdyn_yieldpercentage
-ISUNITCOSTAUTOMATICALLYUPDATED | >> | msdyn_isunitcostautomaticallyupdated
-PURCHASEUNITSYMBOL | > | msdyn_purchaseunitsymbol.msdyn_symbol
-PURCHASEPRICEQUANTITY | > | msdyn_purchasepricequantity
-ISUNITCOSTINCLUDINGCHARGES | >> | msdyn_isunitcostincludingcharges
-FIXEDCOSTCHARGES | >> | msdyn_fixedcostcharges
-MINIMUMCATCHWEIGHTQUANTITY | >> | msdyn_minimumcatchweightquantity
-MAXIMUMCATCHWEIGHTQUANTITY | >> | msdyn_maximumcatchweightquantity
-ALTERNATIVEITEMNUMBER | >> | msdyn_alternativeitemnumber.msdyn_itemnumber
-BOMUNITSYMBOL | >> | msdyn_bomunitsymbol.msdyn_symbol
-CATCHWEIGHTUNITSYMBOL | >> | msdyn_catchweightunitsymbol.msdyn_symbol
-COMPARISONPRICEBASEUNITSYMBOL | >> | msdyn_comparisonpricebaseunitsymbol.msdyn_symbol
-PRIMARYVENDORACCOUNTNUMBER | >> | msdyn_vendorid.msdyn_vendoraccountnumber
-ISCATCHWEIGHTPRODUCT | >> | msdyn_iscatchweight
-PRODUCTDIMENSIONGROUPNAME | >> | msdyn_productdimensiongroupid.msdyn_groupname
-
-## <a name="all-product-to-msdyn_global-products"></a>Все продукты в продукты msdyn_global
-
-Объект всех продуктов содержит все продукты, доступные в приложениях Finance and Operations, как выпущенные, так и невыпущенные продукты. Эти продукты доступны в Common Data Service с использованием следующих сопоставлений:
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-PRODUCTNAME | >> | msdyn_productname
-PRODUCTNUMBER | >> | msdyn_productnumber
+[!include [global products](dual-write/EcoResEveryProductEntity-msdyn-globalproducts.md)]
 
 ## <a name="product-dimensions"></a>Аналитики продуктов 
 
@@ -245,227 +109,35 @@ PRODUCTNUMBER | >> | msdyn_productnumber
 
 ![Модель данных для продуктов](media/dual-write-product-2.PNG)
 
-### <a name="colors"></a>Цвета
+[!include [product colors](dual-write/EcoResProductColorEntity-msdyn-productcolor.md)]
 
-Возможные цвета доступны в Common Data Service через следующие сопоставления.
+[!include [product sizes](dual-write/EcoResProductSizeEntity-msdyn-productsizes.md)]
 
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-COLORID | \>\> | msdyn\_productcolorname
+[!include [product sizes](dual-write/EcoResProductStyleEntity-msdyn-productstyles.md)]
 
-### <a name="sizes"></a>Размеры
-
-Возможные размеры доступны в Common Data Service через следующие сопоставления.
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-SIZEID | \>\> | msdyn\_productsize
-
-### <a name="styles"></a>Стили
-
-Возможные стили доступны в Common Data Service через следующие сопоставления.
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-STYLEID | \>\> | msdyn\_productstyle
-
-### <a name="configurations"></a>Конфигурации
-
-Возможные конфигурации доступны в Common Data Service через следующие сопоставления.
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-CONFIGURATIONID | \>\> | msdyn\_name
+[!include [product sizes](dual-write/EcoResProductConfigurationsEntity-msdyn-productconfigurations.md)]
 
 Если у продукта имеются различные аналитики продукта (например, шаблон продукта имеет размеры и цвет как аналитики продукта), каждый уникально идентифицируемый продукт (то есть, каждый вариант продукта) определяется как сочетание этих аналитик продукта. Например, продукт с номером B0001 является очень маленькой черной футболкой, а продукт номер B0002 — маленькой черной футболкой. В этом случае определяются существующие комбинации аналитик продукта. Например, футболка из предыдущего примера может быть очень маленькой и черной, маленькой и черной, средней и черной или большой и черной, но не может быть очень большой и черной. Иными словами, задаются аналитики продукта, которые может принимать шаблон продукта, и варианты могут быть выпущены на основе этих значений.
 
 Для отслеживания аналитик продукта, которые может принимать шаблон продукта, создаются и сопоставляются следующие объекты в Common Data Service для каждой аналитики продукта. Для получения дополнительных сведений см. раздел [Обзор сведений о продуктах](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/pim/product-information).
 
-### <a name="shared-product-color"></a>Общий цвет продуктов
+[!include [product colors](dual-write/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 
-Объект **Общий цвет продуктов** указывает цвета, которые может иметь конкретный шаблон продукта. Эта концепция переносится в Common Data Service для обеспечения согласованности данных. Сопоставления представлены в таблице ниже.
+[!include [product sizes](dual-write/EcoResProductMasterSize-msdyn-sharedproductsizes.md)]
 
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-PRODUCTCOLORID | \>\> | msdyn\_productcolorid.msdyn\_productcolorname
-PRODUCTMASTERNUMBER | \>\> | msdyn\_sharedproductdetailid.msdyn\_itemnumber
-REPLENISHMENTWEIGHT | \>\> | msdyn\_replenishmentweight
-DISPLAYSEQUENCENUMBER | \>\> | msdyn\_retaildisplayorder
+[!include [product styles](dual-write/EcoResProductMasterStyleEntity-msdyn-sharedproductstyles.md)]
 
-### <a name="shared-product-size"></a>Общий размер продуктов
+[!include [product configurations](dual-write/EcoResProductMasterConfigurationEntity-msdyn-sharedproductconfigurations.md)]
 
-Объект **Общий размер продуктов** указывает размеры, которые может иметь конкретный шаблон продукта. Эта концепция переносится в Common Data Service для обеспечения согласованности данных. Сопоставления представлены в таблице ниже.
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-PRODUCTMASTERNUMBER | \>\> | msdyn\_sharedproductdetailid.msdyn\_itemnumber
-PRODUCTSIZEID | \>\> | msdyn\_productsizeid.msdyn\_productsize
-REPLENISHMENTWEIGHT | \>\> | msdyn\_replenishmentweight
-DISPLAYSEQUENCENUMBER | \>\> | msdyn\_displaysequencenumber
-
-### <a name="shared-product-style"></a>Общий стиль продуктов
-
-Объект **Общий стиль продуктов** указывает стили, которые может иметь конкретный шаблон продукта. Эта концепция переносится в Common Data Service для обеспечения согласованности данных. Сопоставления представлены в таблице ниже.
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-PRODUCTMASTERNUMBER | \>\> | msdyn\_sharedproductdetailsid.msdyn\_itemnumber
-PRODUCTSTYLEID | \>\> | msdyn\_productstyleintegration
-PRODUCTSTYLEID | \>\> | msdyn\_productstyleid.msdyn\_productstyle
-REPLENISHMENTWEIGHT | \>\> | msdyn\_replenishmentweight
-DISPLAYSEQUENCENUMBER | \>\> | msdyn\_displaysequencenumber
-
-### <a name="shared-product-configuration"></a>Общая конфигурация продуктов
-
-Объект **Общая конфигурация продуктов** указывает конфигурации, которые может иметь конкретный шаблон продукта. Эта концепция переносится в Common Data Service для обеспечения согласованности данных. Сопоставления представлены в таблице ниже.
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-CONTAINERUNITSYMBOL | \>\> | msdyn\_containerunitsymbol
-PRODUCTCONFIGURATIONID | \>\> | msdyn\_productconfigurationid.msdyn\_productconfiguration
-PRODUCTMASTERNUMBER | \>\> | msdyn\_sharedproductdetailid.msdyn\_itemnumber
-REPLENISHMENTWEIGHT | \>\> | msdyn\_replenishmentweight
-DISPLAYSEQUENCENUMBER | \>\> | msdyn\_displaysequencenumber
-
-## <a name="product-number-identifier-bar-codes"></a>Штрихкоды идентификатора номера продукта
-
-Штрих-коды продукта используются для уникальной идентификации продуктов. Следующие сопоставления используются, чтобы эти штрих-коды продуктов были доступны в Common Data Service.
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-PRODUCTNUMBER | \> | msdyn\_productnumberid.productnumber
-BARCODE | \> | msdyn\_name
-BARCODE | \> | msdyn\_barcode
-PRODUCTQUANTITY | \> | msdyn\_productquantity
-PRODUCTDESCRIPTION | \> | msdyn\_productdescription
-BARCODESETUPID | \> | msdyn\_barcodesetupid
-PRODUCTQUANTITYUNITSYMBOL | \> | msdyn\_unitofmeasureid.name
-ISDEFAULTSCANNEDBARCODE | \>\> | msdyn\_isdefaultscannedbarcode
-ISDEFAULTPRINTEDBARCODE | \>\> | msdyn\_isdefaultprintedbarcode
-ISDEFAULTDISPLAYEDBARCODE | \>\> | msdyn\_isdefaultdisplayedbarcode
+[!include [product bar codes](dual-write/EcoResProductNumberIdentifiedBarcode-msdyn-productbarcodes.md)]
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Настройки заказа по умолчанию и настройки заказа по умолчанию для определенных продуктов
 
-Параметры заказа по умолчанию определяет сайт и склад, с которого будут забираться или на которых будут складироваться продукты, минимальное, максимальное, кратное и стандартное количества, который будут использоваться для торговли или управление запасами, значения времени упреждения, флаг остановки и метод обещанного заказа. Эти сведения будут доступны в CDS с использованием используемых по умолчанию настроек заказов и объекта специфичных для продукта настроек заказа по умолчанию. Дополнительные сведения об этой функции см. на [странице настроек заказа по умолчанию](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/production-control/default-order-settings).
+Параметры заказа по умолчанию определяет сайт и склад, с которого будут забираться или на которых будут складироваться продукты, минимальное, максимальное, кратное и стандартное количества, который будут использоваться для торговли или управление запасами, значения времени упреждения, флаг остановки и метод обещанного заказа. Эти сведения будут доступны в Common Data Service с использованием используемых по умолчанию настроек заказов и объекта специфичных для продукта настроек заказа по умолчанию. Дополнительные сведения об этой функции см. в [теме настроек заказа по умолчанию](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/production-control/default-order-settings).
 
-### <a name="default-order-settings"></a>Параметры заказа по умолчанию
+[!include [product sizes](dual-write/InventProductDefaultOrderSettingsEntity-msdyn-productdefaultordersetting.md)]
 
-Следующие сопоставления используются, чтобы настройки заказа по умолчанию были доступны в Common Data Service.
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-INVENTWAREHOUSEID | = | msdyn_inventorywarehouse.msdyn_warehouseidentifier
-INVENTORYSITEID | = | msdyn_inventorysite.msdyn_siteid
-INVENTORYATPDELAYEDDEMANDOFFSETDAYS | = | msdyn_inventoryatpdelayeddemandoffsetdays
-INVENTORYATPDELAYEDSUPPLYOFFSETDAYS | = | msdyn_inventoryatpdelayedsupplyoffsetdays
-ITEMNUMBER | = | msdyn_itemnumber.msdyn_itemnumber
-INVENTORYATPBACKWARDDEMANDTIMEFENCEDAYS | = | msdyn_inventoryatpbackwarddemandtimefencedays
-INVENTORYATPBACKWARDSUPPLYTIMEFENCEDAYS | = | msdyn_inventoryatpbackwardsupplytimefencedays
-INVENTORYATPTIMEFENCEDAYS | = | msdyn_inventoryatptimefencedays
-MAXIMUMINVENTORYORDERQUANTITY | = | msdyn_maximuminventoryorderquantity
-MAXIMUMPROCUREMENTORDERQUANTITY | = | msdyn_maximumprocurementorderquantity
-MAXIMUMSALESORDERQUANTITY | = | msdyn_maximumsalesorderquantity
-MINIMUMINVENTORYORDERQUANTITY | = | msdyn_minimuminventoryorderquantity
-MINIMUMPROCUREMENTORDERQUANTITY | = | msdyn_minimumprocurementorderquantity
-MINIMUMSALESORDERQUANTITY | = | msdyn_minimumsalesorderquantity
-STANDARDINVENTORYORDERQUANTITY | = | msdyn_standardinventoryorderquantity
-STANDARDPROCUREMENTORDERQUANTITY | = | msdyn_standardprocurementorderquantity
-STANDARDSALESORDERQUANTITY | = | msdyn_standardsalesorderquantity
-INVENTORYLEADTIMEDAYS | = | msdyn_inventoryleadtimedays
-INVENTORYQUANTITYMULTIPLES | = | msdyn_inventoryquantitymultiples
-PROCUREMENTQUANTITYMULTIPLES | = | msdyn_procurementquantitymultiples
-SALESQUANTITYMULTIPLES | = | msdyn_salesquantitymultiples
-PROCUREMENTSITEID | = | msdyn_procurementsite.msdyn_siteid
-PROCUREMENTLEADTIMEDAYS | = | msdyn_procurementleadtimedays
-SALESSITEID | = | msdyn_salessite.msdyn_siteid
-SALESATPDELAYEDDEMANDOFFSETDAYS | = | msdyn_salesatpdelayeddemandoffsetdays
-SALESATPDELAYEDSUPPLYOFFSETDAYS | = | msdyn_salesatpdelayedsupplyoffsetdays
-SALESATPBACKWARDDEMANDTIMEFENCEDAYS | = | msdyn_salesatpbackwarddemandtimefencedays
-SALESATPBACKWARDSUPPLYTIMEFENCEDAYS | = | msdyn_salesatpbackwardsupplytimefencedays
-SALESATPTIMEFENCEDAYS | = | msdyn_salesatptimefencedays
-SALESLEADTIMEDAYS | = | msdyn_salesleadtimedays
-PROCUREMENTWAREHOUSEID | = | msdyn_procurementwarehouse.msdyn_warehouseidentifier
-SALESWAREHOUSEID | = | msdyn_saleswarehouse.msdyn_warehouseidentifier
-AREINVENTORYORDERPROMISINGDEFAULTSOVERRIDDEN | >< | msdyn_areinventoryorderdefaultsoverridden
-INVENTORYORDERPROMISINGMETHOD | >< | msdyn_inventoryorderpromisingmethod
-ISINVENTORYATPINCLUDINGPLANNEDORDERS | >< | msdyn_isinventoryatpincludingplannedorders
-ISINVENTORYUSINGWORKINGDAYS | >< | msdyn_isinventoryusingworkingdays
-ISINVENTORYSITEMANDATORY | >< | msdyn_isinventorysitemandatory
-ISINVENTORYPROCESSINGSTOPPED | >< | msdyn_isinventoryprocessingstopped
-ISPROCUREMENTUSINGWORKINGDAYS | >< | msdyn_isprocurementusingworkingdays
-ISPROCUREMENTSITEMANDATORY | >< | msdyn_isprocurementsitemandatory
-ISPROCUREMENTPROCESSINGSTOPPED | >< | msdyn_isprocurementprocessingstopped
-ARESALESORDERPROMISINGDEFAULTSOVERRIDDEN | >< | msdyn_aresalesorderdefaultsoverridden
-SALESORDERPROMISINGMETHOD | >< | msdyn_salesorderpromisingmethod
-ISSALESATPINCLUDINGPLANNEDORDERS | >< | msdyn_issalesatpincludingplannedorders
-ISSALESSITEMANDATORY | >< | msdyn_issalessitemandatory
-ISSALESLEADTIMEOVERRIDDEN | >< | msdyn_issalesleadtimeoverridden
-ISSALESPROCESSINGSTOPPED | >< | msdyn_issalesprocessingstopped
-ISINVENTORYWAREHOUSEMANDATORY | >< | msdyn_isinventorywarehousemandatory
-ISPROCUREMENTWAREHOUSEMANDATORY | >< | msdyn_isprocurementwarehousemandatory
-ISSALESWAREHOUSEMANDATORY | >< | msdyn_issaleswarehousemandatory
-
-### <a name="product-specific-default-order-settings"></a>Специфические для продукта параметры заказа по умолчанию
-
-Следующие сопоставления используются, чтобы специфичные для продуктов настройки заказа по умолчанию были доступны в Common Data Service.
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-INVENTORYWAREHOUSEID | = | msdyn_inventorywarehouse.msdyn_warehouseidentifier
-INVENTORYSITEID | = | msdyn_inventorysite.msdyn_siteid
-INVENTORYATPDELAYEDDEMANDOFFSETDAYS | = | msdyn_inventoryatpdelayeddemandoffsetdays
-INVENTORYATPDELAYEDSUPPLYOFFSETDAYS | = | msdyn_inventoryatpdelayedsupplyoffsetdays
-ITEMNUMBER | = | msdyn_itemnumber.msdyn_itemnumber
-INVENTORYATPBACKWARDDEMANDTIMEFENCEDAYS | = | msdyn_inventoryatpbackwarddemandtimefencedays
-INVENTORYATPBACKWARDSUPPLYTIMEFENCEDAYS | = | msdyn_inventoryatpbackwardsupplytimefencedays
-INVENTORYATPTIMEFENCEDAYS | = | msdyn_inventoryatptimefencedays
-MAXIMUMINVENTORYORDERQUANTITY | = | msdyn_maximuminventoryorderquantity
-MAXIMUMPROCUREMENTORDERQUANTITY | = | msdyn_maximumprocurementorderquantity
-MAXIMUMSALESORDERQUANTITY | = | msdyn_maximumsalesorderquantity
-MINIMUMINVENTORYORDERQUANTITY | = | msdyn_minimuminventoryorderquantity
-MINIMUMPROCUREMENTORDERQUANTITY | = | msdyn_minimumprocurementorderquantity
-MINIMUMSALESORDERQUANTITY | = | msdyn_minimumsalesorderquantity
-STANDARDINVENTORYORDERQUANTITY | = | msdyn_standardinventoryorderquantity
-STANDARDPROCUREMENTORDERQUANTITY | = | msdyn_standardprocurementorderquantity
-STANDARDSALESORDERQUANTITY | = | msdyn_standardsalesorderquantity
-INVENTORYLEADTIMEDAYS | = | msdyn_inventoryleadtimedays
-INVENTORYQUANTITYMULTIPLES | = | msdyn_inventoryquantitymultiples
-PROCUREMENTQUANTITYMULTIPLES | = | msdyn_procurementquantitymultiples
-SALESQUANTITYMULTIPLES | = | msdyn_salesquantitymultiples
-PROCUREMENTSITEID | = | msdyn_procurementsite.msdyn_siteid
-PROCUREMENTLEADTIMEDAYS | = | msdyn_procurementleadtimedays
-SALESSITEID | = | msdyn_salessite.msdyn_siteid
-SALESATPDELAYEDDEMANDOFFSETDAYS | = | msdyn_salesatpdelayeddemandoffsetdays
-SALESATPDELAYEDSUPPLYOFFSETDAYS | = | msdyn_salesatpdelayedsupplyoffsetdays
-SALESATPBACKWARDDEMANDTIMEFENCEDAYS | = | msdyn_salesatpbackwarddemandtimefencedays
-SALESATPBACKWARDSUPPLYTIMEFENCEDAYS | = | msdyn_salesatpbackwardsupplytimefencedays
-SALESATPTIMEFENCEDAYS | = | msdyn_salesatptimefencedays
-SALESLEADTIMEDAYS | = | msdyn_salesleadtimedays
-PROCUREMENTWAREHOUSEID | = | msdyn_procurementwarehouse.msdyn_warehouseidentifier
-SALESWAREHOUSEID | = | msdyn_saleswarehouse.msdyn_warehouseidentifier
-AREINVENTORYDEFAULTORDERSETTINGSOVERRIDDEN | >< | msdyn_areinventoryorderdefaultsoverridden
-INVENTORYORDERPROMISINGMETHOD | >< | msdyn_inventoryorderpromisingmethod
-ISINVENTORYATPINCLUDINGPLANNEDORDERS | >< | msdyn_isinventoryatpincludingplannedorders
-ISINVENTORYUSINGWORKINGDAYS | >< | msdyn_isinventoryusingworkingdays
-ISINVENTORYSITEMANDATORY | >< | msdyn_isinventorysitemandatory
-ISINVENTORYPROCESSINGSTOPPED | >< | msdyn_isinventoryprocessingstopped
-ISPROCUREMENTUSINGWORKINGDAYS | >< | msdyn_isprocurementusingworkingdays
-ISPROCUREMENTSITEMANDATORY | >< | msdyn_isprocurementsitemandatory
-ISPROCUREMENTPROCESSINGSTOPPED | >< | msdyn_isprocurementprocessingstopped
-ARESALESDEFAULTORDERSETTINGSOVERRIDDEN | >< | msdyn_aresalesorderdefaultsoverridden
-SALESORDERPROMISINGMETHOD | >< | msdyn_salesorderpromisingmethod
-ISSALESATPINCLUDINGPLANNEDORDERS | >< | msdyn_issalesatpincludingplannedorders
-ISSALESSITEMANDATORY | >< | msdyn_issalessitemandatory
-ISSALESLEADTIMEOVERRIDDEN | >< | msdyn_issalesleadtimeoverridden
-ISSALESPROCESSINGSTOPPED | >< | msdyn_issalesprocessingstopped
-ISINVENTORYWAREHOUSEMANDATORY | >< | msdyn_isinventorywarehousemandatory
-ISPROCUREMENTWAREHOUSEMANDATORY | >< | msdyn_isprocurementwarehousemandatory
-ISSALESWAREHOUSEMANDATORY | >< | msdyn_issaleswarehousemandatory
-OPERATIONALSITEID | = | msdyn_operationalsite.msdyn_siteid
-PRODUCTCOLORID | = | msdyn_productcolor.msdyn_productcolorname
-PRODUCTCONFIGURATIONID | = | msdyn_productconfiguration.msdyn_productconfiguration
-PRODUCTSIZEID | = | msdyn_productsize.msdyn_productsize
-PRODUCTSTYLEID | = | msdyn_productstyle.msdyn_productstyle
+[!include [product sizes](dual-write/InventProductSpecificOrderSettingsV2Entity-msdyn-productspecificdefaultordersetting.md)]
 
 ## <a name="unit-of-measure-and-unit-of-measure-conversions"></a>Единицы измерения и преобразования единиц измерения
 
@@ -475,134 +147,78 @@ PRODUCTSTYLEID | = | msdyn_productstyle.msdyn_productstyle
 
 Концепция единицы измерения интегрирована между приложениями Finance and Operations и другими приложениями Dynamics 365. Для каждого класса единиц измерения в приложении Finance and Operations группа единиц измерения создается в приложении Dynamics 365, которая содержит единицы измерения, принадлежащие к классу единиц измерения. Базовая единица измерения по умолчанию также создается для каждой группы единиц измерения. 
 
-### <a name="unit-of-measure"></a>Единица измерения
+[!include [unit of measure](dual-write/UnitOfMeasureEntity-uom.md)]
 
-Следующие сопоставления используются для того, чтобы сделать единицы измерения в приложениях Finance and Operations доступными в Common Data Service.
+[!include [unit of measure conversions](dual-write/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-UNITSYMBOL | >> | msdyn_symbol
-UNITCLASS | >> | msdyn_externalunitclassname
-DECIMALPRECISION | >> | msdyn_decimalprecision
-ISBASEUNIT | >> | msdyn_isbaseunit
-ISSYSTEMUNIT | >> | msdyn_issystemunit
-SYSTEMOFUNITS | >> | msdyn_systemofunits
-UNITSYMBOL | >> | наименование
-UNITDESCRIPTION | >> | msdyn_description
+[!include [product specific unit of measure conversions](dual-write/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
-### <a name="unit-of-measure-conversions"></a>Преобразования единиц измерения
+## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>Начальная синхронизация данных единиц измерения между Finance and Operations и Common Data Service
 
-Следующие сопоставления используются для того, чтобы сделать преобразования единиц измерения в приложениях Finance and Operations доступными в Common Data Service.
+### <a name="initial-synchronization-of-units"></a>Начальная синхронизация единиц
 
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-DENOMINATOR | = | msdyn_denominator
-NUMERATOR | = | msdyn_numerator
-FACTOR | = | msdyn_factor
-INNEROFFSET | = | msdyn_inneroffset
-OUTEROFFSET | = | msdyn_outeroffset
-ROUNDING | >< | msdyn_rounding
-TOUNITSYMBOL | = | msdyn_tounit.msdyn_symbol
-FROMUNITSYMBOL | = | msdyn_fromunit.msdyn_symbol
+Если включена двойная запись единицы из приложений Finance and Operations синхронизируются с другими приложениями Dynamics 365. Группы единиц измерения, синхронизируемые из Finance and Operations в Common Data Service, имеют флаг, который указывает на то, что они "управляются извне".
 
-### <a name="product-specific-unit-of-measure-conversions"></a>Специфичные для продуктов преобразования единиц измерения
+### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Сопоставление единиц измерения и данных классов единиц измерения или групп из Finance and Operations и других приложений Dynamics 365
 
-Следующие сопоставления используются для того, чтобы сделать специфичные для продуктов преобразования единиц измерения в приложениях Finance and Operations доступными в Common Data Service.
+Во-первых, важно отметить, что ключ интеграции для единицы — msdyn_symbol. Таким образом, это значение должно быть уникальным в Common Data Service или в других приложениях Dynamics 365. Так как в других приложениях Dynamics 365 используется пара "код группы единиц" и "имя", определяющие уникальность единицы измерения, необходимо учитывать другие ситуации при сопоставлении данных единиц между приложениями Finance and Operations и Common Data Service.
 
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-DENOMINATOR | = | msdyn_denominator
-NUMERATOR | = | msdyn_numerator
-FACTOR | = | msdyn_factor
-FROMUNITSYMBOL | = | msdyn_fromunit.msdyn_symbol
-TOUNITSYMBOL | = | msdyn_tounit.msdyn_symbol
-PRODUCTNUMBER | = | msdyn_globalproduct.msdyn_productnumber
-INNEROFFSET | = | msdyn_inneroffset
-OUTEROFFSET | = | msdyn_outeroffset
-ROUNDING | >< | msdyn_rounding
+Для сопоставления или перекрывания единиц в приложениях Finance and Operations и других приложениях Dynamics 365:
+
++ **Единица измерения принадлежит к группе единиц измерения в других приложениях Dynamics 365, которая соответствует связанному классу единиц измерения в приложениях Finance and Operations**. В этом случае поле msdyn_symbol в других приложениях Dynamics 365 должно быть заполнено символом единицы из приложений Finance and Operations. Следовательно, когда данные будут сопоставлены, группа единиц измерения будет установлена как "управляется извне" в других приложениях Dynamics 365.
++ **Единица измерения принадлежит к группе единиц измерения в других приложениях Dynamics 365, которая не соответствует связанному классу единиц в приложениях Finance and Operations (нет ни одного класса единиц измерения в приложениях Finance and Operations для класса единиц измерения в других приложениях Dynamics 365).** В этом случае поле msdyn_symbol должно быть заполнено случайной строкой. Обратите внимание, что это значение должно быть уникальным в других приложениях Dynamics 365.
+
+Для единиц и классов единиц в Finance and Operations, не существующих в других приложениях Dynamics 365:
+
+В процессе двойной записи группы единиц измерения из приложений Finance and Operations и соответствующие единицы создаются и синхронизируются в других приложениях Dynamics 365 и Common Data Service, группа единиц задается как "управляется извне". Дополнительные действия по начальной загрузке не требуются.
+
+Для единиц в других приложениях Dynamics 365, которые не существуют в приложениях Finance and Operations:
+
+Поле msdyn_symbol должно быть заполнено для всех единиц измерения. Единицы измерения могут быть созданы в приложениях Finance and Operations в соответствующем классе единиц измерения (если он существует). Если класс единиц измерения не существует, необходимо создать класс единиц измерения (обратите внимание, что вы не можете создать класс единиц в приложениях Finance and Operations, кроме как с помощью расширения, если выполняется расширение перечислений), соответствующий группе единиц измерения для других приложений Dynamics 365. После этого можно создать единицу. Обратите внимание, что символ единицы в приложениях Finance and Operations должен быть msdyn_symbol, указанным ранее в приложениях Dynamics 365 для единицы.
 
 ## <a name="product-policies-dimension-tracking-and-storage-groups"></a>Политики продуктов: группы аналитик, отслеживания и хранения
 
 Политики продуктов — это наборы политик, используемых для определения продуктов и их характеристик на складе. Группа аналитик продукта, группа аналитик отслеживания продукта и группа аналитик хранения могут быть представлены в качестве политик продукта. 
 
-### <a name="product-dimension-group"></a>Группа аналитик продуктов
+[!include [product dimension group](dual-write/EcoResProductDimensionGroup-msdyn-productdimensiongroups.md)]
 
-Группа аналитик продукта, определяющая, какие аналитики продукта определяют продукт. Возможные следующие четыре группы аналитик продукта: размер, цвет, стиль и конфигурация. Группы аналитик продуктов доступны в Common Data Service с использованием следующих сопоставлений. 
+[!include [product tracking dimension group](dual-write/EcoResTrackingDimensionGroup-msdyn-producttrackingdimensiongroups.md)]
 
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-WILLSALESPRICESEARCHUSEPRODUCTSTYLE | >< | msdyn_willsalespricesearchuseproductstyle
-WILLPURCHASEPRICESEARCHUSEPRODUCTSIZE | >< | msdyn_willpurchasepricesearchuseproductsize
-WILLSALESPRICESEARCHUSEPRODUCTCONFIGURATION | >< | msdyn_willsalespricesearchuseprodconfig
-WILLSALESPRICESEARCHUSEPRODUCTCOLOR | >< | msdyn_willsalespricesearchuseproductcolor
-WILLPURCHASEPRICESEARCHUSEPRODUCTSTYLE | >< | msdyn_willpurchasepricesearchuseproductstyle
-WILLPURCHASEPRICESEARCHUSEPRODUCTCONFIGURATION | >< | msdyn_willpurchpricesearchuseprodconfig
-WILLPURCHASEPRICESEARCHUSEPRODUCTCOLOR | >< | msdyn_willpurchpricesearchuseproductcolor
-ISPRODUCTSTYLEACTIVE | >< | msdyn_isproductstyleactive
-ISPRODUCTSIZEACTIVE | >< | msdyn_isproductsizeactive
-ISPRODUCTCONFIGURATIONACTIVE | >< | msdyn_isproductconfigurationactive
-ISPRODUCTCOLORACTIVE | >< | msdyn_isproductcoloractive
-GROUPNAME | = | msdyn_groupname
-GROUPDESCRIPTION | = | msdyn_groupdescription
-PRODUCTVARIANTNOMENCLATURENAME | = | msdyn_productvariantnomenclaturename
-WILLSALESPRICESEARCHUSEPRODUCTSIZE | >< | msdyn_willsalespricesearchuseproductsize
+[!include [product storage dimension group](dual-write/EcoResStorageDimensionGroup-msdyn-productstoragedimensiongroups.md)]
 
-### <a name="product-tracking-dimension-group"></a>Группа аналитик отслеживания продукта
+## <a name="product-hierarchies"></a>Иерархии продуктов
 
-Группа аналитик отслеживания продукта представляет метод, используемый для отслеживания продукта на складе. Они доступны в Common Data Service с использованием следующих сопоставлений. 
+[!include [product category hierarchy](dual-write/EcoResProductCategoryHierarchyEntity-msdyn-productcategoryhierarchy.md)]
 
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-SERIALNUMBERCAPTURINGOPERATION | >< | msdyn_serialnumbercapturingoperation
-GROUPNAME | = | msdyn_groupname
-GROUPDESCRIPTION | = | msdyn_groupdescription
-ISSERIALNUMBERENABLEDFORPRODUCTIONCONSUMPTIONPROCESS | >< | msdyn_issnenabledforpcprocess
-ISSERIALNUMBERCONTROLENABLED | >< | msdyn_isserialnumbercontrolenabled
-ISSERIALNUMBERENABLEDFORSALESPROCESS | >< | msdyn_isserialnumberenabledforsalesprocess
-ISSERIALNUMBERACTIVE | >< | msdyn_isserialnumberactive
-ISSALESPRICEBYSERIALNUMBER | >< | msdyn_issalespricebyserialnumber
-ISSALESPRICEBYBATCHNUMBER | >< | msdyn_issalespricebybatchnumber
-ISPURCHASEPRICEBYSERIALNUMBER | >< | msdyn_ispurchasepricebyserialnumber
-ISPURCHASEPRICEBYBATCHNUMBER | >< | msdyn_ispurchasepricebybatchnumber
-ISPRIMARYSTOCKINGENABLEDFORSERIALNUMBER | >< | msdyn_isprimarystockingenabledforsn
-ISPRIMARYSTOCKINGENABLEDFORBATCHNUMBER | >< | msdyn_isprimarystockingenabledforbn
-ISPHYSICALINVENTORYENABLEDFORSERIALNUMBER | >< | msdyn_isphysicalinventoryenabledforsn
-ISPHYSICALINVENTORYENABLEDFORBATCHNUMBER | >< | msdyn_isphysicalinventoryenabledforbn
-ISFINANCIALINVENTORYENABLEDFORSERIALNUMBER | >< | msdyn_isfinancialinventoryenabledforsn
-ISFINANCIALINVENTORYENABLEDFORBATCHNUMBER | >< | msdyn_isfinancialinventoryenabledforbn
-ISCOVERAGEPLANENABLEDFORSERIALNUMBER | >< | msdyn_iscoverageplanenabledforserialnumber
-ISCOVERAGEPLANENABLEDFORBATCHNUMBER | >< | msdyn_iscoverageplanenabledforbatchnumber
-ISBLANKRECEIPTALLOWEDFORSERIALNUMBER | >< | msdyn_isblankreceiptallowedforserialnumber
-ISBLANKRECEIPTALLOWEDFORBATCHNUMBER | >< | msdyn_isblankreceiptallowedforbatchnumber
-ISBLANKISSUEALLOWEDFORSERIALNUMBER | >< | msdyn_isblankissueallowedforserialnumber
-ISBLANKISSUEALLOWEDFORBATCHNUMBER | >< | msdyn_isblankissueallowedforbatchnumber
-ISBATCHNUMBERACTIVE | >< | msdyn_isbatchnumberactive
-ISINVENTORYOWNERACTIVE | >< | msdyn_isinventoryowneractive
+[!include [product category](dual-write/EcoResProductCategoryEntity-msdyn-productcategory.md)]
 
-### <a name="product-storage-dimension-group"></a>Группа аналитик хранения продукта
+[!include [product category assignments](dual-write/EcoResProductCategoryAssignmentEntity-msdyn-productcategoryassignment.md)]
 
-Группа аналитик хранения продукта представляет метод, используемый для определения местоположения продукта на складе. Они доступны в Common Data Service с использованием следующих сопоставлений. 
+[!include [product category role](dual-write/EcoResProductCategoryHierarchyRoleEntity-msdyn-productcategoryhierarchyrole.md)]
 
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-WILLSALESPRICESEARCHUSEWAREHOUSE | >< | msdyn_willsalespricesearchusewarehouse
-WILLSALESPRICESEARCHUSESITE | >< | msdyn_willsalespricesearchusesite
-WILLSALESPRICESEARCHUSEINVENTORYSTATUS | >< | msdyn_willsalespricesearchuseinventorystatus
-WILLPURCHASEPRICESEARCHUSEWAREHOUSE | >< | msdyn_willpurchasepricesearchusewarehouse
-WILLPURCHASEPRICESEARCHUSESITE | >< | msdyn_willpurchasepricesearchusesite
-WILLPURCHASEPRICESEARCHUSEINVENTORYSTATUS | >< | msdyn_willpurchpricesearchuseinventstatus
-WILLCOVERAGEPLANNINGUSEWAREHOUSE | >< | msdyn_willcoverageplanusewarehouse
-WILLCOVERAGEPLANNINGUSELOCATION | >< | msdyn_iscoverageplanenabledforlocation
-WILLCOVERAGEPLANNINGUSEINVENTORYSTATUS | >< | msdyn_willcoverageplanuseinventorystatus
-AREADVANCEDWAREHOUSEMANAGEMENTPROCESSESENABLED | >< | msdyn_areadvancedwmprocessesenabled
-ISWAREHOUSEPRIMARYSTORAGEDIMENSION | >< | msdyn_iswarehouseprimarystoragedimension
-ISWAREHOUSEMANDATORY | >< | msdyn_iswarehousemandatory
-ISPHYSICALINVENTORYENABLEDFORWAREHOUSE | >< | msdyn_isphysicalinventoryenabledforwarehouse
-ISPHYSICALINVENTORYENABLEDFORLOCATION | >< | msdyn_isphysicalinventoryenabledforlocation
-ISLOCATIONACTIVE | >< | msdyn_islocationactive
-ISFINANCIALINVENTORYENABLEDFORWAREHOUSE | >< | msdyn_isfinancialinventoryenabledforwarehouse
-GROUPNAME | = | msdyn_groupname
-GROUPDESCRIPTION | = | msdyn_groupdescription
-ISBLANKRECEIPTALLOWEDFORLOCATION | >< | msdyn_isblankreceiptallowedforlocation
-ISBLANKISSUEALLOWEDFORLOCATION | >< | msdyn_isblankissueallowedforlocation
 
+## <a name="integration-key-for-products"></a>Ключ интеграции для продуктов 
+
+Для уникальной идентификации продуктов между Dynamics 365 for Finance and Operations и продуктов в Common Data Service используются ключи интеграции. Для продуктов **(productnumber)** — это уникальный ключ, идентифицирующий продукт в Common Data Service. Он состоит из объединения: **(company, msdyn_productnumber)**. **company** означает юридическое лицо в Finance and Operations **msdyn_productnumber** означает номер продукта для конкретного продукта в Finance and Operations. 
+
+Для другого пользователя приложений Dynamics 365 продукт определяется в интерфейсе пользователя с помощью **msdyn_productnumber** (обратите внимание, что метка поля — **Номер продукта**). В форме продукта отображаются и company, и msydn_productnumber. Однако поле (productnumber), уникальный ключ продукта, не отображается. 
+
+Обратите внимание, что если приложения создаются на базе Common Data Service, особое внимание следует уделять использованию (productnumber), то есть уникальному коду продукта, как ключ интеграции, а не msdyn_productnumber, из-за того, что последний не является уникальным. 
+
+## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Начальная синхронизация продуктов и перенос данных из Common Data Service в Finance and Operations
+
+### <a name="initial-synchronization-of-products"></a>Начальная синхронизация продуктов 
+
+Если включена двойная запись продукты из Dynamics 365 Finance and Operations синхронизируются с Common Data Service и другими приложениями Dynamics 365. Обратите внимание, что продукты, созданные в Common Data Service и других приложениях Dynamics 365 до двойной записи, не будут обновлены и сопоставлены с данными о продуктах из Finance and Operations.
+
+### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Сопоставление данных о продуктах из Finance and Operations и других приложений Dynamics 365
+
+Если одни и те же продукты хранятся (перекрываются или совпадают) в Finance and Operations и в Common Data Service, а также в других приложениях Dynamics 365, то при разрешении двойной записи синхронизация продуктов из Finance and Operations будет выполняться и дублирующиеся записи появятся в Common Data Service для одного и того же продукта
+Чтобы избежать возникновения такой ситуации, если в других приложениях Dynamics 365 имеются продукты, которые перекрываются или сопоставляются с Finance and Operations, администратор, включающий возможность двойной записи, должен выполнить начальную загрузку полей **Компания** (например: "USMF") и **msdyn_productnumber** (например: "1234:Black:S") перед синхронизацией продуктов. Другими словами, эти два поля в продукте в Common Data Service должны быть заполнены соответствующей компанией в Finance and Operations, с указанием продукта сопоставления и номера продукта. 
+
+Затем, когда синхронизация включена и выполняется, продукты из Finance and Operations будут синхронизированы с продуктами, сопоставленными в Common Data Service и других приложениях Dynamics 365. Это применимо как для уникально идентифицируемых продуктов, так и для вариантов продуктов. 
+
+
+### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Миграция данных о продуктах из других приложений Dynamics 365 в Finance and Operations
+
+Если в других приложениях Dynamics 365 есть продукты, отсутствующие в Finance and Operations, администратор может сначала использовать **EcoResReleasedProductCreationV2Entity** для импорта этих продуктов в Finance and Operations. Во-вторых, сопоставьте данные о продуктах в Finance and Operations и других приложениях Dynamics 365, как описано выше. 

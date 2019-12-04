@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2e1afdce9d912443c47f9feaaf9c84926b457004
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d888b7aa2cbd43f3c84d0ab48602ca2aedd87095
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183906"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773484"
 ---
 # <a name="register-fixed-assets-acquisitions-russia"></a>Регистрация приобретений основных средств (Россия)
 
@@ -45,7 +45,7 @@ ms.locfileid: "2183906"
 6.  Создайте новую строку.
     
     > [!NOTE]
-    > <P>Дата разноски и номер ваучера отображаются в полях <STRONG>Дата</STRONG> и <STRONG>Ваучер</STRONG>.</P>
+    > Дата разноски и номер ваучера отображаются в полях <STRONG>Дата</STRONG> и <STRONG>Ваучер</STRONG>.
 
 7.  В поле **Тип счета** выберите тип счета **Поставщик**. 
   
@@ -77,7 +77,7 @@ ms.locfileid: "2183906"
 
 1.  Выберите **Управление сведениями о продукте** \> **Общее** \> **Выпущенные продукты**.
 
-2.  Создайте новую номенклатуру и в поле **Тип номенклатуры** выберите **Услуга** или **Номенклатура**. На вкладке **Общие** заполните поле **Группа ОС**. Дополнительные сведения см. в разделе **[Создание выпущенного продукта](../../supply-chain/pim/tasks/create-released-product-single-company.md)**.
+2.  Создайте новую номенклатуру и в поле **Тип номенклатуры** выберите **Услуга** или **Номенклатура**. На вкладке **Общие** заполните поле **Группа ОС**. Дополнительные сведения см. в разделе [Создание выпущенного продукта для одной компании](../../supply-chain/pim/tasks/create-released-product-single-company.md).
 
     > [!NOTE]
     > Сведения, приведенные в строке покупки, определяют, принадлежит ли основное средство к указанной группе основных средств.

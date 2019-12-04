@@ -1,9 +1,9 @@
 ---
-title: Системные требования и политика обновления Talent
-description: В этом разделе перечислены требования к Dynamics 365 Talent. Также рассматривается политика обновления.
+title: Системные требования Talent
+description: В этом разделе перечислены требования к Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/02/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0bd7d7051dd01834f306e165af55d740192b99e0
+ms.sourcegitcommit: caeb24027831efccbc316ff8e7f9e62b42010d65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024168"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2818487"
 ---
-# <a name="talent-system-requirements-and-update-policy"></a>Системные требования и политика обновления Talent
+# <a name="talent-system-requirements"></a>Системные требования Talent
 
 [!include [banner](includes/banner.md)]
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Talent может выполняться в любом в
 > * Редактор workflow-процессов запускается в виде приложения ClickOnce. Только Microsoft Edge и Internet Explorer (на поддерживаемой версии Microsoft Windows) поддерживают приложения ClickOnce. Для приложения ClickOnce редактора workflow-процессов требуется 64-разрядная совместимая операционная система.
 > * Для предварительного просмотра PDF-файлов рекомендуется использовать современные браузеры, такие как Microsoft Edge (последней общедоступной версии) в Windows 10 или Google Chrome (последней общедоступной версии) в Windows 10, Windows 8.1, Windows 8, Windows 7 или на планшете Google Nexus 10.
 >   Требования к сети
-> * Приложение Dynamics 365 Talent предназначено для сетей с задержкой не более 250-300 мс. Это задержка от клиента браузера до центра данных Microsoft Azure, на котором размещено приложение Talent. Рекомендуется проверить задержку в сети на сайте [www.azurespeed.com](https://www.azurespeed.com "Azure Latency Test").
+> * Приложение Dynamics 365 Talent предназначено для сетей с задержкой не более 250-300 мс. Это задержка от клиента браузера до центра данных Microsoft Azure, на котором размещено приложение Talent. Рекомендуется проверить задержку в сети на сайте [www.azurespeed.com](https://www.azurespeed.com "Проверка задержки для Azure").
 > * Требования к пропускной способности для Talent зависят от конкретного сценария реализации. В большинстве типичных сценариев требуется пропускная способность более 50 Кбайт в секунду (КБ/с).
 > 
 > [!WARNING]
@@ -54,7 +54,7 @@ Microsoft Dynamics 365 Talent может выполняться в любом в
 
 ## <a name="supported-microsoft-office-applications"></a>Поддерживаемые приложения Microsoft Office
 
-* Для запуска надстроек Microsoft Excel и Word должен быть установлен Microsoft Office 2016 для Windows или Mac. Дополнительные сведения о требованиях к версии см. в разделе [Устранение неполадок при интеграции Office](../dev-itpro/office-integration/office-integration-troubleshooting.md "Устранение неполадок при интеграции Office").
+* Для запуска надстроек Microsoft Excel и Word должен быть установлен Microsoft Office 2016 для Windows или Mac. Дополнительные сведения о требованиях к версии см. в разделе [Устранение неполадок при интеграции Office](../dev-itpro/office-integration/office-integration-troubleshooting.md "Устранение неполадок интеграции с Office").
 * Для просмотра документов, созданных с помощью функции экспорта в Excel или экспорта в Word должен быть установлен пакет Microsoft Office 2007 или более поздняя версия.
 
 ## <a name="regional-availability-languages-and-localization"></a>Региональная доступность, языки и локализация
@@ -66,8 +66,3 @@ Microsoft Dynamics 365 Talent может выполняться в любом в
 
 Если вы являетесь разработчиком, заинтересованным в создании настроек, связанных со страной или регионом, или в создании решения для страны или региона, которые в настоящее время не поддерживаются корпорацией Майкрософт, см. раздел [Глобализация](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
-## <a name="update-policy"></a>Политика обновления
-
-Talent обслуживается как облачное предложение. Talent постоянно обновляется, и обновления автоматически применяются корпорацией Майкрософт.
-
-Обновления выпускаются регулярно и применяются ко всем средам. Talent поддерживается в соответствии с [политикой жизненного цикла поддержки Майкрософт](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Политика жизненного цикла поддержки Майкрософт"), которая обеспечивает единообразную и предсказуемую поддержку продукта.

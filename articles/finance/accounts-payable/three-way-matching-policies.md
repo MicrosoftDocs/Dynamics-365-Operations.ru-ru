@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9c177f7a7b713e7b8490b718650daafeca0e937
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d84e3ed050bacf7632d03cf0123f682c43fd7b58
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189392"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772751"
 ---
 # <a name="three-way-matching-policies"></a>Политики трехсторонней проверки соответствия
 
@@ -141,7 +141,7 @@ Fabrikam работает с несколькими компаниями и со
 Если для разноски накладных с расхождениями в сопоставлениях, необходимо утверждение, установите флажок "Утвердить разноску с этими несоответствиями сопоставления" на странице "Сведения о трехстороннем сопоставлении накладных в модуле расчетов с поставщиками" перед тем, как накладная будет разнесена с ошибками в сопоставлении цены и количества. Если утверждение не требуется, обработка накладной может продолжаться, если нет других ошибок разноски.
 
 
-Дополнительные сведения см. в разделе [Сопоставление накладных по расчетам с поставщиками](accounts-payable-invoice-matching.md).
+Дополнительные сведения см. в разделе [Обзор сопоставления накладных по расчетам с поставщиками](accounts-payable-invoice-matching.md).
 
 
 

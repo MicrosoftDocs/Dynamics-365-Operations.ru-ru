@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c8655af567ef56c535ce0e43cb76c28c58dc1eb3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024247"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814613"
 ---
 # <a name="questionnaires"></a>Анкеты
 
@@ -44,7 +44,7 @@ ms.locfileid: "2024247"
 | Тема| описание|
 |------|------------|
 | [Разработка анкеты](design-questionnaires.md)  | В этой статье приводятся сведения о том, как разработать анкету. Процесс разработки включает настройку необходимых условий, ответов и вопросов и их объединение в анкету. |
-| [Распределение и заполнение анкеты](distribute-questionnaires.md)  | В этой статье представлены сведения о распространении анкеты респондентам и заполнении анкет.                                                                       |
+| [Распределение и планирование анкет](distribute-questionnaires.md)  | В этой статье представлены сведения о распространении анкеты респондентам и заполнении анкет.                                                                       |
 | [Просмотр и оценка результатов анкеты](evaluate-questionnaire-results.md) | В этой статье содержатся сведения о том, как просматривать и оценивать результаты заполненных анкет.                                                                                        |
 
 
@@ -52,9 +52,9 @@ ms.locfileid: "2024247"
 <a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Создание анкет](design-questionnaires.md)
+[Разработка анкет](design-questionnaires.md)
 
-[Распространение и заполнение анкет](distribute-questionnaires.md)
+[Распределение и планирование анкет](distribute-questionnaires.md)
 
 [Просмотр и оценка результатов анкет](evaluate-questionnaire-results.md)
 

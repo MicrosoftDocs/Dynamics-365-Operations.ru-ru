@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 2e44770af4a30f539e56d38b21c897cacd2707e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025779"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812347"
 ---
 # <a name="call-center-sales-functionality"></a>Функциональность продажи центра обработки вызовов
 
@@ -44,17 +44,17 @@ ms.locfileid: "2025779"
 
 ## <a name="configure-the-call-center"></a>Настройка центра обработки вызовов
 
-[Настройка параметров обработки заказов](set-up-order-processing-options.md)
+[Настройка каналов центра обработки вызовов](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Настройка обработки заказов
 
-[Настройка оповещений о мошенничестве](set-up-fraud-alerts.md)
+[Настройка и работа с оповещениями мошенничества центра обработки вызовов](set-up-fraud-alerts.md)
 
-[Блокировка заказов вручную](work-with-order-holds.md)
+[Настройка удержаний заказов центра обработки вызовов и работа с ними](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Настройка обработки платежей
 
-[Методы оплаты в центре обработки вызовов](work-with-payments.md)
+[Способы оплаты в центрах обработки вызовов](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Настройка режимов доставки
 
@@ -64,8 +64,8 @@ ms.locfileid: "2025779"
 
 [Каталоги центра обработки вызовов](call-center-catalogs.md)
 
-[Настройка анализа RFM](set-up-rfm-analysis.md)
+[Настройка анализа актуальности, периодичности и денежных значений (RFM)](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Настройка программ непрерывности
 
-[Настройка программы непрерывности для центра обработки вызовов](set-up-continuity-program.md)
+[Настройка программ непрерывности для центров обработки вызовов](set-up-continuity-program.md)

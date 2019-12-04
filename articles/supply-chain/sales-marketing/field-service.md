@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2a5c3e49f09bf4f1f90449db10d439f563ecc2c0
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: cf1c4cbc18728b6094f862792d20a893b2a8d6ea
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249850"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815280"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Обзор интеграции с Microsoft Dynamics 365 Field Service
 
@@ -41,9 +41,9 @@ Supply Chain Management обеспечивает синхронизацию би
 
 Первый этап интеграции между Field Service и Supply Chain Management включает синхронизацию следующих элементов:
 
-- [Продукты в Supply Chain Management с продуктами в Field Service, которые включают сведения о типе продукта](field-service-product.md)
-- [Заказы на выполнение работ в Field Service с заказами на продажу в Supply Chain Management](field-service-work-order.md)
-- [Накладные в Field Service с накладными с произвольным текстом в Supply Chain Management](field-service-invoice.md)
+- [Синхронизация продуктов непосредственно из Supply Chain Management с продуктами в Field Service](field-service-product.md)
+- [Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Supply Chain Management](field-service-work-order.md)
+- [Синхронизация накладных договора в Field Service с накладными с произвольным текстом в Supply Chain Management](field-service-invoice.md)
 
 Пример того, как можно синхронизировать заказ на выполнение работ между Field Service и Supply Chain Management, можно посмотреть в этом коротком видео на YouTube: [Как синхронизировать заказ на выполнение работ с помощью интеграции Microsoft Dynamics 365](https://www.youtube.com/watch?v=46ylO7raZAo).
 

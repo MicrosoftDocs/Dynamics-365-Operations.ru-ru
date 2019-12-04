@@ -1,6 +1,6 @@
 ---
-title: Создание, утверждение и подписание предложений
-description: В этом разделе подробно описываются создание, утверждение и подписание предложения для кандидата с помощью Dynamics 365 Talent.
+title: Создание, утверждение и подписание предложений в Attract
+description: В этом разделе подробно описываются создание, утверждение и подписание предложения для кандидата с помощью Dynamics 365 Talent — Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: acc484ea57ce13d8a7c48a0ca7a2aa8723558dc9
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: dee545b6ca5d2791dea6609b4e1b25eba128f8b7
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551057"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832915"
 ---
-# <a name="create-approve-and-sign-offers"></a>Создание, утверждение и подписание предложений
+# <a name="create-approve-and-sign-offers-in-attract"></a>Создание, утверждение и подписание предложений в Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Во многих случаях подготовка пакета предложения для кандидата должна быть очень быстрым процессом.
 С помощью шаблонов, настроенных администратором Attract, можно сократить время и усилия для создателей предложений на подготовку и отправку предложения кандидату.

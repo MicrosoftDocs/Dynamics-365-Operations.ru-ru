@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: fa2772db63332319c399999bd5f747b2ac729d9e
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: fb5073fe8db0b51c4ea378cac57097e15e88bf83
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653283"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814060"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Синхронизация заголовков и строк накладных по продаже непосредственно из Finance and Operations с Sales
 
@@ -40,7 +40,7 @@ ms.locfileid: "2653283"
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
 
-Чтобы получить доступ к доступным шаблонам, откройте [Центр администрирования PowerApps](https://preview.admin.powerapps.com/dataintegration). Выберите **Проекты**, затем в правом верхнем углу выберите **Создать проект**, чтобы выбрать общие шаблоны.
+Чтобы получить доступ к доступным шаблонам, откройте [Центр администрирования Power Apps](https://preview.admin.powerapps.com/dataintegration). Выберите **Проекты**, затем в правом верхнем углу выберите **Создать проект**, чтобы выбрать общие шаблоны.
 
 Следующий шаблон и базовые задачи используются для синхронизации заголовков и строк накладных по продажам напрямую из Sales с Supply Chain Management в Sales:
 
@@ -137,4 +137,4 @@ ms.locfileid: "2653283"
 
 [Синхронизация контактов непосредственно из Sales с контактами или клиентами в Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Синхронизация заголовков и строк заказа на продажу непосредственно из Supply Chain Management с Sales](sales-order-template-mapping-direct-two-ways.md)
+[Синхронизация заказов на продажу напрямую между Sales и Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)

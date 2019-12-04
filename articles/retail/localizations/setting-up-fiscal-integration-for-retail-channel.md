@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: a987e75834ddde486421a425a621e66f0b6e063f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577908"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811173"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Настройка финансовой интеграции для каналов розничной торговли
 
@@ -210,7 +210,7 @@ ms.locfileid: "1577908"
 
 Чтобы включить финансовые отчеты X/Z для запуска с POS, следует добавить новые кнопки в макет POS.
 
-- На странице **Сетка кнопок** следуйте указаниям из раздела [Добавление пользовательских кнопок операций в макет POS в Retail Headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) для установки конструктора и обновления макета POS.
+- На странице **Сетка кнопок** следуйте указаниям из раздела [Добавление операций POS в макеты POS с помощью конструктора сетки кнопок](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) для установки конструктора и обновления макета POS.
 
     1. Выберите макет для обновления. 
     2. Добавьте новую кнопку и установите свойство кнопки **Печать фискального X-отчета**.
@@ -221,7 +221,7 @@ ms.locfileid: "1577908"
 
 Чтобы включить выполнение вручную отложенной финансовой регистрации, следует добавить новую кнопку в макет POS.
 
-- На странице **Сетка кнопок** следуйте указаниям из раздела [Добавление пользовательских кнопок операций в макет POS в Retail Headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) для установки конструктора и обновления макета POS.
+- На странице **Сетка кнопок** следуйте указаниям из раздела [Добавление операций POS в макеты POS с помощью конструктора сетки кнопок](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) для установки конструктора и обновления макета POS.
 
     1. Выберите макет для обновления.
     2. Добавьте новую кнопку и установите свойство кнопки **Завершить процесс финансовой регистрации**.

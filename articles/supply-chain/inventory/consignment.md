@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 578aa96de28758a4dfff9f8c5f7782705ddd5f70
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65c5702514a3bc9fe943959fd4ca032eb19bfe4c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556054"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814452"
 ---
 # <a name="set-up-consignment"></a>Настройка консигнации
 
@@ -97,7 +97,7 @@ USMF выполняет дополнительные периодические 
 [![журнал-изменения-владельца-запасов](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Совместная работа с поставщиками в процессах коносамента
-Если поставщики используют интерфейс совместной работы с поставщиками, они могут использовать его, чтобы контролировать потребление запасов на вашем сайте. Дополнительные сведения о настройке поставщиков для использования совместной работы с поставщиками см. в разделе [Настройка безопасности для пользователей совместной работы с поставщиками](../procurement/configure-security-vendor-portal-users.md).
+Если поставщики используют интерфейс совместной работы с поставщиками, они могут использовать его, чтобы контролировать потребление запасов на вашем сайте. Дополнительные сведения о настройке поставщиков для использования совместной работы с поставщиками см. в разделе [Безопасность пользователя портала поставщика](../procurement/configure-security-vendor-portal-users.md).
 
 
 

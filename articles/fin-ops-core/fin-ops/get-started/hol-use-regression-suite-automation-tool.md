@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9afa98156c58d10c19454430769a3d60343661dc
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 654685a382ca5f3f462ad8a9c506b51b52c3758c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550965"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811657"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Учебник по использованию средства Regression Suite Automation Tool
 
@@ -44,7 +44,7 @@ ms.locfileid: "2550965"
 
 ### <a name="derived-test-case"></a>Производный тестовый случай
 
-1. Откройте средство Regression Suite Automation Tool (RSAT) и выберите оба тестовых случая, созданных в разделе [Настройка и установка средства Regression Suite Automation Tool](./hol-set-up-regression-suite-automation-tool.md).
+1. Откройте средство Regression Suite Automation Tool (RSAT) и выберите оба тестовых случая, созданных в разделе [Учебник по настройке и установке средства Regression Suite Automation Tool](./hol-set-up-regression-suite-automation-tool.md).
 2. Выберите **Создать \> Создать производный тестовый случай**.
 
     ![Команда создания производного тестового случая в меню создания](./media/use_rsa_tool_01.png)

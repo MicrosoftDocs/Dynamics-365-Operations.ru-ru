@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c7675ca0ef2f2477d510c956e63d824a5e6b0980
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179719"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812540"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Новые или обновленные руководства по задачам (август 2016 г.)
 
@@ -32,7 +32,7 @@ ms.locfileid: "2179719"
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Руководства по задачам в унифицированной библиотеке APQC (август 2016 г. — все языки) для Microsoft Dynamics AX
 
-Унифицированная библиотека APQC (август 2016 г. — все языки) содержит руководства по задачам, которые предназначены для использования в справке по Microsoft Dynamics AX с обновлением платформы 2 (август 2016), обновлению приложения Dynamics AX за май 2016 и выпуску Microsoft Dynamics AX за февраль 2016 г. Дополнительные сведения об этих выпусках см. в разделе [Что нового и что изменилось](whats-new-changed.md). Локализованные версии руководств по задачам доступны в данной библиотеке. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Начало работы со справкой](help-overview.md).
+Унифицированная библиотека APQC (август 2016 г. — все языки) содержит руководства по задачам, которые предназначены для использования в справке по Microsoft Dynamics AX с обновлением платформы 2 (август 2016), обновлению приложения Dynamics AX за май 2016 и выпуску Microsoft Dynamics AX за февраль 2016 г. Дополнительные сведения об этих выпусках см. в разделе [Домашняя страница "Что нового и что изменилось в Finance and Operations"](whats-new-changed.md). Локализованные версии руководств по задачам доступны в данной библиотеке. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Система справки](help-overview.md).
 
 ### <a name="data-access"></a>Доступ к данным
 

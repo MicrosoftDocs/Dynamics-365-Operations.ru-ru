@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558227"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813395"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Домашняя страница модуля "Закупки и источники"
 
@@ -36,17 +36,17 @@ ms.locfileid: "1558227"
 -   [Обзор заявки на покупку](purchase-requisitions-overview.md)
 -   [Создание заявки на потребление](tasks/create-requisition-consumption.md)
 -   [Создание заявки, которая использует запрос предложения](tasks/create-requisition-uses-rfq.md)
--   [Настроить разрешения на заказ продуктов от другого имени](tasks/set-up-permissions-ordering-products.md)
+-   [Настройка разрешений на заказ продуктов от имени другого сотрудника](tasks/set-up-permissions-ordering-products.md)
 
 ## <a name="requests-for-quotation"></a>Запросы предложений
--   [Запросы предложений](request-quotations.md)
+-   [Обзор запросов предложений (RFQ)](request-quotations.md)
 -   [Создание запроса предложения](tasks/create-request-quotation.md)
 -   [Ввод и сравнение предложений по запросу предложения и заключение контрактов](tasks/enter-compare-rfq-bids-award-contracts.md)
 -   [Создание метода оценки для запросов предложений](tasks/create-scoring-method-rfqs.md)
 -   [Создание типов обращений и критериев оценки для запросов предложений](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
 
 ## <a name="vendor-management-and-collaboration"></a>Управление поставщиками и совместная работа с ними
--   [Настройка счетов поставщика](set-up-vendor-accounts.md)
+-   [Настройка счетов поставщиков](set-up-vendor-accounts.md)
 -   [Создание счета поставщика](tasks/create-vendor-account.md)
 -   [Создание банковского счета поставщика](tasks/create-vendor-bank-account.md)
 -   [Поиск поставщиков](tasks/search-vendors.md)
@@ -58,12 +58,12 @@ ms.locfileid: "1558227"
 -   [Демонстрационный сценарий входящих консигнационных запасов для Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(технический документ)
 -   [Мониторинг консигнационных запасов в рамках совместной работы с поставщиком](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Сотрудничество с поставщиками с помощью портала поставщика](collaborate-vendors-vendor-portal.md) (только версии Dynamics AX от февраля 2016 и мая 2016 г.)
--   [Конфигурирование механизмов безопасности для пользователей портала поставщика](configure-security-vendor-portal-users.md) (только версии Finance and Operations от февраля 2016 и мая 2016 гг.)
--   [Мобильная рабочая область совместной работы с поставщиками для приложения Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
+-   [Безопасность пользователя портала поставщика](configure-security-vendor-portal-users.md) (только версии Finance and Operations от февраля 2016 и мая 2016 гг.)
+-   [Мобильная рабочая область совместной работы с поставщиками](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Управление закупаемой продукцией
--   [Каталоги закупаемой продукции](procurement-catalogs.md)
--   [Создание каталога закупаемой продукции](tasks/create-procurement-catalog.md)
+-   [Обзор каталогов закупаемой продукции](procurement-catalogs.md)
+-   [Создание заказов на покупку](tasks/create-procurement-catalog.md)
 -   [Импорт каталогов поставщиков](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (запись блога)
 -   [Настройка иерархии категорий закупаемой продукции](tasks/set-up-procurement-category-hierarchy.md)
 -   [Настройка политик для иерархий категорий приобретаемой продукции](tasks/set-up-policies-procurement-category-hierarchies.md)
@@ -72,7 +72,7 @@ ms.locfileid: "1558227"
 ## <a name="procurement"></a>Закупки
 -   [Обзор заказа на покупку](purchase-order-overview.md)
 -   [Создание заказа на покупку](purchase-order-creation.md)
--   [Утверждение и подтверждение заказа на покупку](purchase-order-approval-confirmation.md)
+-   [Утверждение и подтверждение заказов на покупку](purchase-order-approval-confirmation.md)
 -   [Создание заказа на покупку](tasks/create-purchase-order.md)
 -   [Создание повторного заказа на покупку](tasks/create-repeat-purchase-order.md)
 -   [Создание заказа на покупку из заказа на продажу](../sales-marketing/tasks/create-purchase-order-sales-order.md)
@@ -99,11 +99,8 @@ ms.locfileid: "1558227"
 -   [Регистрация поступления товаров по заказу на покупку](tasks/record-receipt-goods-purchase-order.md)
 -   [Workflow-процесс заявок на покупку](purchase-requisitions-workflow.md)
 -   [Определение workflow-процессов бизнес-процессов для заявок на покупку](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (технический документ)
--   [Политики закупок](purchase-policies.md)
+-   [Обзор политик закупок](purchase-policies.md)
 -   [Создание политик закупок](tasks/create-purchasing-policies.md)
-
-
-
 
 
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653519"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813807"
 ---
 # <a name="demand-forecasting-setup"></a>Настройка прогнозирования спроса
 
@@ -70,7 +70,8 @@ ms.locfileid: "2653519"
 -   Имя учетной записи хранения Azure
 -   Ключ учетной записи хранения Azure
 
-**Примечание/** Имя и ключ учетной записи хранения Azure требуются, только если используется пользовательская учетная запись хранения. При развертывании локальной версии необходимо иметь пользовательскую учетную запись хранения в Azure, чтобы сервис Machine Learning мог получить доступ к данным за прошлые периоды. 
+> [!NOTE]
+> Имя и ключ учетной записи хранения Azure требуются, только если используется пользовательская учетная запись хранения. При развертывании локальной версии необходимо иметь пользовательскую учетную запись хранения в Azure, чтобы сервис Machine Learning мог получить доступ к данным за прошлые периоды. 
 
 Чтобы создать прогнозы спроса, можно развернуть собственный сервис, воспользовавшись Machine Learning Studio или экспериментами прогнозирования спроса Supply Chain Management. Инструкции по развертыванию экспериментов прогнозирования спроса в качестве веб-сервиса доступны в Supply Chain Management. На странице **Параметры прогнозирования спроса** перейдите на вкладку **Azure Machine Learning**.
 
@@ -93,7 +94,7 @@ ms.locfileid: "2653519"
 <a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Вводные сведения о прогнозировании спроса](introduction-demand-forecasting.md)
+[Обзор прогнозирования спроса](introduction-demand-forecasting.md)
 
 [Создание статистического базового прогноза](generate-statistical-baseline-forecast.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Публикация вакансий на внешних сайтах вакансий из Attract
-description: В этом разделе объясняется, как использовать Dynamics 365 Talent - Attract для публикации объявлений о вакансиях на внешних сайтах трудоустройства
+title: Публикация вакансий в Broadbean из Attract
+description: В этом разделе объясняется, как использовать Dynamics 365 Talent — Attract для публикации объявлений о вакансиях на Broadbean.
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 2c822a1f799144bb9240fc0cbdeb6c5441e278af
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 41fa057606887069a9ea0f1f2178eeaff59f33ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551411"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832675"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>Публикация вакансий на внешних сайтах вакансий из Attract
+# <a name="post-jobs-to-broadbean-from-attract"></a>Публикация вакансий в Broadbean из Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract помогает получить нужных специалистов, позволяя размещать объявления о вакансиях непосредственно из Attract в Broadbean. После [создания вакансии](./creating-jobs-attract.md) достаточно нажать кнопку, чтобы эта вакансия стала доступна для всех потенциальных кандидатов на вакансию в Broadbean.
 
 Для размещения вакансий в Broadbean требуется соответствующая лицензия Broadbean. Broadbean предлагает различные продукты и планы. Для получения дополнительных сведений о лицензиях и ценах Broadbean [обратитесь в Broadbean](https://www.broadbean.com/contact-us/).
 
-Если вы являетесь администратором, которому требуются дополнительные сведения о настройке интеграции Broadbean с Attract, см. раздел [Ввод настроек для внешних досок вакансий](./attract-admin-job-board-settings.md).
+Если вы являетесь администратором и вам нужны дополнительные сведения о настройке интеграции Broadbean с Attract, см. раздел [Включить интеграцию с Broadbean для Microsoft Dynamics 365 Talent — Attract](./attract-admin-job-board-settings.md).
 
 ## <a name="post-jobs-to-broadbean"></a>Публикация вакансий в Broadbean
 
@@ -74,7 +74,7 @@ Attract передает следующую информацию в Broadbean:
 2. В разделе **Объявления** выберите кнопку **Обновить запись**, которая соответствует Broadbean.
 3. Измените объявление в окне Broadbean.
 
-–или–
+    –или–
 
 1. Откройте в Attract вакансию, которую необходимо просмотреть на сайте Broadbean.
 2. В разделе **Объявления** выберите кнопку с многоточием (**...**), которая соответствует Broadbean, затем выберите **Просмотреть**.
@@ -99,6 +99,6 @@ Attract передает следующую информацию в Broadbean:
 
 ## <a name="see-also"></a>См. также
 
-[Создание вакансий](./creating-jobs-attract.md)
+[Создание, утверждение и публикация вакансий в Attract](./creating-jobs-attract.md)
 
-[Ввод настроек для внешних досок вакансий](./attract-admin-job-board-settings.md)
+[Включение интеграции Broadbean в Microsoft Dynamics 365 Talent — Attract](./attract-admin-job-board-settings.md)

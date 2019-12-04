@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 3b885610ac9ca8645358ba8ab6d46ab82143a534
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ebf0fce60ad006e798aa4f404fbffcf10a0b31f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250492"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770297"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Синхронизация оценок по проекту напрямую из Project Service Automation в Finance and Operations
 
@@ -46,7 +46,7 @@ ms.locfileid: "2250492"
 
 ### <a name="template-and-tasks"></a>Шаблон и задачи
 
-Для доступа к доступным шаблонам в центре администрирования Microsoft PowerApps выберите **Проекты** и выберите в правом верхнем углу **Новый проект** для выбора общих шаблонов.
+Для доступа к доступным шаблонам в центре администрирования Microsoft Power Apps выберите **Проекты** и выберите в правом верхнем углу **Новый проект** для выбора общих шаблонов.
 
 Следующий шаблон и базовые задачи используются для синхронизации оценок часов из Project Service Automation в Finance:
 

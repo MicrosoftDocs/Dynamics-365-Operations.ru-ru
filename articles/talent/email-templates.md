@@ -1,5 +1,5 @@
 ---
-title: Шаблоны сообщений эл. почты
+title: Создание шаблонов электронной почты в Attract
 description: Этот раздел содержит сведения о шаблонах электронной почты, которые можно создать и использовать в Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 55c12010cfd055ee6977f50e566b70f76a2e1682
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008044"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832892"
 ---
-# <a name="email-templates"></a>Шаблоны электронной почты
-[!include[banner](../includes/banner.md)]
+# <a name="create-email-templates-in-attract"></a>Создание шаблонов электронной почты в Attract
+
+[!include [banner](includes/banner.md)]
 
 С помощью библиотеки шаблонов электронной почты администраторы могут создать единообразную тему и фирменный стиль для всех сообщений электронной почты, отправляемых через Microsoft Dynamics 365 Talent: Attract и Offer. Администраторы могут также организовать коллекцию шаблонов содержимого электронной почты, которой могут пользоваться другие пользователи. Группа найма на работу может использовать эти шаблоны в своем workflow-процессе для более эффективной отправки сообщений электронной почты. Некоторые сообщения электронной почты настроены для автоматической отправки, и администратор может использовать библиотеку шаблонов электронной почты для настройки содержимого этих сообщений электронной почты.
 

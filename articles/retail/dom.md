@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
-ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
+ms.openlocfilehash: 10d894bb65031741a5ec8365f7f8db76b58ab334
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578492"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693120"
 ---
 # <a name="distributed-order-management-dom"></a>Распределенное управление заказами (DOM)
 
@@ -179,7 +179,7 @@ DOM запускается только в рамках пакетных зад�
 
 После применения правил, ограничений по запасам и оптимизации система DOM выберет точку выполнения, которая находится ближе всего к адресу поставки.
 
-![Критерии по заказам на продажу](./media/ordercriteria.png "Критерии по заказам на продажу")
+![Критерии заказов на продажу](./media/ordercriteria.png "Критерии заказов на продажу")
 
 ## <a name="results-of-dom-runs"></a>Результаты запуска DOM
 

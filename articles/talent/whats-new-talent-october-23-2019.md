@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 94243f83121a1306d8f9ae9be23d24e5c9b63a2d
-ms.sourcegitcommit: 07e109dec176a93eff0df8a37ba5d875f212e9f1
+ms.openlocfilehash: 66419d9093cff68aa6109b22ab57bcb46ac6c718
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "2662673"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772904"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (23 октября 2019 г.)
 
@@ -47,7 +47,7 @@ ms.locfileid: "2662673"
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Удалить функцию предварительного просмотра открытой регистрации льгот
 
-В сочетании с нашим объявлением в записи блога Стратегические инвестиции в Core HR способствуют повышению производительности Корпорация Майкрософт удаляет функцию открытой регистрации льгот из общедоступной предварительной версии 18 октября 2019 года. Вместо этого в будущем будут выпущены новые функции. Производственное использование функции открытой регистрации льгот, которая в настоящее время находится в общедоступной предварительной версии, не будет поддерживаться.
+В сочетании с нашим объявлением в записи блога [Стратегические инвестиции в Core HR способствуют повышению производительности](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/10/02/strategic-investments-in-core-hr-drive-operational-excellence) Корпорация Майкрософт удаляет функцию открытой регистрации льгот из общедоступной предварительной версии 18 октября 2019 года. Вместо этого в будущем будут выпущены новые функции. Производственное использование функции открытой регистрации льгот, которая в настоящее время находится в общедоступной предварительной версии, не будет поддерживаться.
 
 ### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>Ошибка при выборе страны/региона в форме работника во второй раз (350294)
 
@@ -69,7 +69,7 @@ ms.locfileid: "2662673"
 
 В этом выпуске в Microsoft Excel будут открываться только условия найма выбранных сотрудников. Также учитывается вся безопасность компании.
 
-### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service---324178"></a>Связь между сущностью выходного рабочего календаря и сущностью рабочего календаря отсутствует в Common Data Service — (324178)
+### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service-324178"></a>Связь между сущностью выходного рабочего календаря и сущностью рабочего календаря отсутствует в Common Data Service (324178)
 
 Эта связь была добавлена в этом выпуске. Это изменение позволит отображать в PowerApps рабочие дни сотрудника. 
 

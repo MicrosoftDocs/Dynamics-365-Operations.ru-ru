@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 747922294eaf971795177beeb73839d453f6475a
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622776"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830194"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Вопросы и ответы по интеграции Dynamics 365 Talent с Dynamics 365 Finance
 
@@ -48,7 +48,7 @@ ms.locfileid: "2622776"
 
 Финансовые аналитики в настоящее время не находятся в Common Data Service для приложений и, в результате, не являются частью шаблона по умолчанию. Эта сущность запланирована, но в настоящее время не известно, когда она будет выпущена.
 
-Для данных, которые расположены в Finance, но не существуют в Talent, свяжите две системы вместе с помощью **Настроить ссылки** в Talent. Дополнительные сведения о настройке связей между Talent и Finance см. в разделе [Что нового и что изменилось в Dynamics 365 Talent: Core HR (31 октября 2018 г.)](whats-new-talent-october-31.md).
+Для данных, которые расположены в Finance, но не существуют в Talent, свяжите две системы вместе с помощью **Настроить ссылки** в Talent. Дополнительные сведения о настройке связей между Talent и Finance см. в разделе [Что нового и что изменилось в Dynamics 365 Talent — Core HR (31 октября 2018 г.)](whats-new-talent-october-31.md).
 
 ![Сопоставление финансовых аналитик](media/MapFinancialDimensions.png)
 
@@ -69,7 +69,7 @@ ms.locfileid: "2622776"
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Можно ли указать поля, которые передаются в Finance, для конкретной сущности?
 
 Поля можно добавлять или удалять из задачи интеграции. Не все поля данных, которые существуют в сущности Common Data Service будет заполняться из Core HR.
-Дополнительные данные могут заполняться через PowerApps.
+Дополнительные данные могут заполняться через Power Apps.
 
 ![Добавление полей в задачу интеграции и удаление полей из задачи интеграции](media/SpecifyFieldsIncludedInIntegration.png)
 
@@ -119,19 +119,19 @@ ms.locfileid: "2622776"
 
 1. Запишите индекс задачи из интегратора данных (в этом примере это "9").
 
-![Запись индекса задачи из интегратора данных](media/CaptureTaskIndex.png)
+    ![Запись индекса задачи из интегратора данных](media/CaptureTaskIndex.png)
 
 2. Отследите время выполнения проекта.
 
-![Отслеживание времени выполнения проекта](media/CaptureTimeOfExecution.png)
+    ![Отслеживание времени выполнения проекта](media/CaptureTimeOfExecution.png)
 
 3. В Finance укажите индекс — 1. В этом примере проект с суффиксом "8" и временем выполнения проекта с индексом "0" совпадает со времени выполнения на этапе 2.
 
-![Определение индекса](media/IdentifyIndex.png)
+    ![Определение индекса](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>После интеграции Talent и Finance я не вижу свои данные Talent в Finance. Что делать?
 
-Интеграция с Finance осуществляется в два этапа. Во-первых убедитесь, что данные Talent обновлены и доступны в Common Data Service. Это синхронизация почти в реальном времени, и ее можно проверить в PowerApps, просмотрев данные в информационных объектах.
+Интеграция с Finance осуществляется в два этапа. Во-первых убедитесь, что данные Talent обновлены и доступны в Common Data Service. Это синхронизация почти в реальном времени, и ее можно проверить в Power Apps, просмотрев данные в информационных объектах.
 
 ![Данные в Common Data Service](media/DataInCDS.png)
 
@@ -168,7 +168,7 @@ ms.locfileid: "2622776"
 
   - [Управление ошибками и устранение неполадок интегратора данных](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Ответ на запросы DSR для созданных системой журналов в PowerApps, Microsoft Flow и Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Ответ на запросы DSR для созданных системой журналов в Power Apps, Microsoft Power Automate и Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Управление данными:
 

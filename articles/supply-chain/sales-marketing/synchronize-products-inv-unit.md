@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 8b65e9640106c5d351270074e39c121e70917228
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 18bedcc99d7d70875ec363a97e4e6eccbace3a9c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251232"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814201"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Синхронизация продуктов с единицей измерения складского учета из Supply Chain Management в Field Service
 
@@ -34,7 +34,7 @@ ms.locfileid: "2251232"
 
 [![Синхронизация бизнес-процессов между Supply Chain Management и Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
-Использованный шаблон **Продукты Field Service Products с единицей измерения складского учета (из Supply Chain Management в Field Service)** основан на шаблоне **Продукты Field Service (из Supply Chain Management в Field Service)**. Дополнительные сведения см. в разделе [Продукты Field Service (из Supply Chain Management в Field Service)](field-service-product.md).
+Использованный шаблон **Продукты Field Service Products с единицей измерения складского учета (из Supply Chain Management в Field Service)** основан на шаблоне **Продукты Field Service (из Supply Chain Management в Field Service)**. Дополнительные сведения см. в разделе [Синхронизация продуктов непосредственно из Supply Chain Management с продуктами в Field Service](field-service-product.md).
 
 В этом разделе описываются только различия между двумя шаблонами: 
 - **Продукты Field Service с единицей измерения складского учета (из Supply Chain Management в Sales)**

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 96cd2fc988df11c616faf06cf0905acd6b3d6dcc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248988"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813531"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Совместная работа с поставщиками с помощью портала поставщика
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248988"
 
 В этом разделе описывается, как специалисты по закупкам могут использовать портал поставщиков, чтобы сотрудничать со внешними поставщиками в процессе подтверждения заказа на покупку. Эта информация относится только к версиям Dynamics AX от февраля 2016 г. и мая 2016 г.
 
-Информация этого раздела относится только к версиям Dynamics AX от февраля 2016 г. и мая 2016 г. Дополнительные сведения о новой функции совместной работы с поставщиками см. в разделе [Использование совместной работы с поставщиками для работы с внешними поставщиками](vendor-collaboration-work-external-vendors.md).  
+Информация этого раздела относится только к версиям Dynamics AX от февраля 2016 г. и мая 2016 г. Дополнительные сведения о новой функции совместной работы с поставщиками см. в разделе [Совместная работа с внешними поставщиками](vendor-collaboration-work-external-vendors.md).  
 
 Портал поставщиков предназначен для поставщиков, которые не имеют интеграции обмена электронными данными (EDI) с Microsoft Dynamics AX для обмена данными заказов на покупку (PO). Портал позволяет агентам по закупке отправить заказ на покупку поставщику и получить ответ "Подтверждено" или "Отклонено" непосредственно в Dynamics AX.  
 
@@ -98,9 +98,9 @@ ms.locfileid: "2248988"
 <a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Настройка безопасности для пользователей совместной работы с поставщиками](configure-security-vendor-portal-users.md)
+[Безопасность пользователя портала поставщика](configure-security-vendor-portal-users.md)
 
-[Рабочая области выставления накладных при совместной работе с поставщиками](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
+[Рабочая область выставления накладных по совместной работе с поставщиками](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 

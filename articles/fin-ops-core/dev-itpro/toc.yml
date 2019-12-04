@@ -2,6 +2,8 @@
   items:
     - name: Разработка и администрирование приложений Finance and Operations
       items:
+        - name: Документация по приложению Finance and Operations
+          href: ../fin-ops/index.md
         - name: Разработка и администрирование приложений Finance and Operations
           href: index.md
         - name: Что нового и что изменилось
@@ -128,16 +130,28 @@
                           href: data-entities/dual-write-overview.md
                         - name: Организационная иерархия в Common Data Service
                           href: data-entities/dual-write-organization.md
-                        - name: Понятие компании в Common Data Service
-                          href: data-entities/dual-write-company.md
+                        - name: Интеграция компании
+                          items:
+                            - name: Понятие компании в Common Data Service
+                              href: data-entities/dual-write-company.md
+                            - name: Начальная загрузка данных компании
+                              href: data-entities/dual-write-bootstrap.md
                         - name: Интегрированный справочник клиентов
                           href: data-entities/dual-write-customer.md
-                        - name: Унифицированный опыт работы с продуктом
+                        - name: Интегрированная книга учета
+                          href: data-entities/dual-write-ledger.md
+                        - name: Унифицированный подход к работе с продуктами
                           href: data-entities/dual-write-product.md
-                        - name: Интегрированный справочник поставщиков
-                          href: data-entities/dual-write-vendor.md
-                        - name: Интегрированные сайты и склады
+                        - name: Интеграция с поставщиками
+                          items:
+                            - name: Интегрированный справочник поставщиков
+                              href: data-entities/dual-write-vendor.md
+                            - name: Переключение между вариантами дизайна поставщиков
+                              href: data-entities/dual-write-vendor-switch.md
+                        - name: Интегрированные объекты и склады
                           href: data-entities/dual-write-sites-and-warehouses.md
+                        - name: Интегрированный налоговый справочник
+                          href: data-entities/dual-write-tax.md
                         - name: Начальная синхронизация
                           href: data-entities/dual-write-initial.md
                         - name: Устранение неполадок при интеграции данных
@@ -414,10 +428,12 @@
                       href: lifecycle-services/update-local-agent.md
                 - name: Повторная настройка сред
                   href: lifecycle-services/reconfigure-environment.md
-                - name: Подключение к Интернету клиента
+                - name: Подключение к Интернету у клиента
                   href: user-interface/client-disconnected.md
                 - name: Устранение неполадок локальных развертываний
                   href: deployment/troubleshoot-on-prem.md
+                - name: Сценарии устранения неполадок в локальных средах
+                  href: deployment/onprem-tsg-implementations.md
                 - name: Ротация сертификатов
                   href: deployment/certificate-rotation-on-prem.md
             - name: Развертывание пользовательского кода

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
-ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
+ms.openlocfilehash: 16a67ef625fdde0755e96c959be1fb2989ca53b6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2666838"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770674"
 ---
 # <a name="sales-tax-overview"></a>Обзор налога
 
@@ -38,7 +38,7 @@ ms.locfileid: "2666838"
 
 На следующей диаграмме представлены объекты настройки налога и их связи.
 
-[![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Диаграмма с обзором объектов настройки налога](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Для каждого налога, который должна выплачивать компания, необходимо определить налоговый код. Налоговый код хранит налоговые ставки и правила расчета налога. 
 

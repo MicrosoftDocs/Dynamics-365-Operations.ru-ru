@@ -1,5 +1,5 @@
 ---
-title: Публикация вакансий в LinkedIn из Microsoft Dynamics 365 Talent - Attract
+title: Публикация вакансий в LinkedIn из Attract
 description: В этом разделе объясняется, как использовать Dynamics 365 Talent - Attract для публикации объявлений о вакансиях на LinkedIn.
 author: andreabichsel
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: e2b8065fe2521694efb30478a5a41676cff45127
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 782a2e5de6edf0e85c4d32a0910f5f3c01981a01
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551503"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833014"
 ---
-# <a name="post-jobs-to-linkedin-from-microsoft-dynamics-365-talent---attract"></a>Публикация вакансий в LinkedIn из Microsoft Dynamics 365 Talent - Attract
+# <a name="post-jobs-to-linkedin-from-attract"></a>Публикация вакансий в LinkedIn из Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 LinkedIn — это крупнейшая профессиональная сеть в Интернете, предоставляющая вам доступ к лучшим специалистам в мире. Microsoft Dynamics 365 Talent: Attract помогает получить нужных специалистов, позволяя размещать объявления о вакансиях непосредственно из Attract в LinkedIn.
 
@@ -46,7 +46,7 @@ Attract позволяет размещать объявления в огран
 
 Дополнительные сведения о ролях пользователей в Attract см. в разделе [Безопасность и управление ролями в Attract](./security-attract.md).
 
-Если вы являетесь администратором и вам нужны дополнительные сведения о настройке интеграции LinkedIn с Attract, см. раздел [Настройка интеграции с LinkedIn](./attract-admin-linkedin.md).
+Если вы являетесь администратором и вам нужны дополнительные сведения о настройке интеграции LinkedIn с Attract, см. раздел [Настройка интеграции с LinkedIn для Microsoft Dynamics 365 Talent — Attract](./attract-admin-linkedin.md).
 
 Вакансии, опубликованные в LinkedIn, отображаются на действующем сайте LinkedIn. В LinkedIn отсутствует тестовая среда для публикации вакансий. Таким образом, следите, чтобы случайно не опубликовать тестовые объявления о вакансиях.
 
@@ -67,15 +67,15 @@ Attract позволяет размещать объявления в огран
 
 Все вакансий, опубликованные через приложение Attract, публикуются в ограниченных списках. Дополнительные сведения об ограниченных списках в LinkedIn см. в разделе [Ограниченные списки и премиальные рекламные места вакансий для сканирования объявлений о вакансиях](https://www.linkedin.com/help/recruiter/answer/79049).
 
-Если вы не можете опубликовать объявления о вакансиях в LinkedIn, см. раздел [Устранение неполадок размещения вакансий в LinkedIn](./attract-troubleshoot-linkedin.md).
+Если вы не можете опубликовать объявления о вакансиях в LinkedIn, см. раздел [Устранение неполадок интеграции с LinkedIn и Microsoft Dynamics 365 Talent — Attract](./attract-troubleshoot-linkedin.md).
 
 ## <a name="see-also"></a>См. также
 
-[Вопросы и ответы по LinkedIn](./attract-linkedin-faq.md)
+[Вопросы и ответы по интеграции Attract с LinkedIn](./attract-linkedin-faq.md)
 
-[Настройка интеграции с LinkedIn](./attract-admin-linkedin.md)
+[Настройка интеграции с LinkedIn для Microsoft Dynamics 365 Talent — Attract](./attract-admin-linkedin.md)
 
-[Создание вакансий](./creating-jobs-attract.md)
+[Создание, утверждение и публикация вакансий в Attract](./creating-jobs-attract.md)
 
 [Поиск кандидатов с помощью LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 

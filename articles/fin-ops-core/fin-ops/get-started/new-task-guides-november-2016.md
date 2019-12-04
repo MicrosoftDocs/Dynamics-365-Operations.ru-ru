@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 15a645c98fe38e8ddaa34c0c21581eac6636502f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 40317cdef777ca6524feb66caf66ddec3d855d32
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190979"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811609"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Новые или обновленные руководства по задачам (ноябрь 2016 г.)
 
@@ -30,7 +30,7 @@ ms.locfileid: "2190979"
 
 В этом разделе перечислены новые или обновленные руководства по задачам, выпущенные в унифицированной библиотеке APQC (ноябрь 2016 г. — все языки) от Майкрософт для Microsoft Dynamics 365 for Operations. Новая библиотека начала работы не была выпущена.
 
-Унифицированная библиотека APQC (ноябрь 2016 г. — все языки) содержит руководства по задачам, которые предназначены для использования в справке по Microsoft Dynamics 365 for Operations, обновлению 3 платформы Microsoft Dynamics 365 for Operations, обновлению 2 платформы Microsoft Dynamics AX, обновлению приложения Dynamics AX за май 2016 г. и выпуску Microsoft Dynamics AX за февраль 2016 г. Дополнительные сведения об этих выпусках см. в разделе [Что нового и что изменилось](whats-new-changed.md). Локализованные версии руководств по задачам доступны в данной библиотеке. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Начало работы со справкой](help-overview.md).
+Унифицированная библиотека APQC (ноябрь 2016 г. — все языки) содержит руководства по задачам, которые предназначены для использования в справке по Microsoft Dynamics 365 for Operations, обновлению 3 платформы Microsoft Dynamics 365 for Operations, обновлению 2 платформы Microsoft Dynamics AX, обновлению приложения Dynamics AX за май 2016 г. и выпуску Microsoft Dynamics AX за февраль 2016 г. Дополнительные сведения об этих выпусках см. в разделе [Домашняя страница "Что нового и что изменилось в Finance and Operations"](whats-new-changed.md). Локализованные версии руководств по задачам доступны в данной библиотеке. Дополнительные сведения о подключении системы справки к библиотеке руководств по задачам см. в разделе [Система справки](help-overview.md).
 
 > [!NOTE]
 > Символ звездочки (\*) рядом с заголовком строки средства моделирования бизнес-процессов указывает, что руководство по задаче для этого бизнес-процесса было создано для обновления Dynamics 365 for Operations за ноябрь 2016 г. и не поддерживается в более ранних версиях Microsoft Dynamics AX.
@@ -543,8 +543,8 @@ ms.locfileid: "2190979"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Доступны новые руководства по задачам (февраль 2016 г.)](new-task-guides-available-february-2016.md)
+[Новые руководства по задачам (февраль 2016 г.)](new-task-guides-available-february-2016.md)
 
-[Доступны новые или обновленные руководства по задачам (май 2016 г.)](new-updated-task-guides-available-may-2016.md)
+[Новые или обновленные руководства по задачам (май 2016 г.)](new-updated-task-guides-available-may-2016.md)
 
-[Доступны новые или обновленные руководства по задачам (август 2016 г.)](new-updated-task-guides-available-august-2016.md)
+[Новые или обновленные руководства по задачам (август 2016 г.)](new-updated-task-guides-available-august-2016.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d461b85f89eff63c8747fb17b3ee34ebfeb2218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79e12f39589f9cf3f4b1515fa3ab10bb10ffb97f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185643"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770367"
 ---
 # <a name="project-management-and-accounting-overview"></a>Обзор управления и учета по проектам
 
@@ -72,7 +72,7 @@ ms.locfileid: "2185643"
 
 Степень детализации в СДР зависит от уровня точности, который необходим в оценках, и уровня отслеживать отслеживания, необходимого для этих оценок. Проекты, которые имеют очень низкий допуск отклонения от графика или стоимости, обычно требуют более детальной СДР и тщательного отслеживания хода выполнения работ и затрат по СДР. 
 
-Дополнительные сведения см. в разделе [Структурные декомпозиции работ](work-breakdown-structures.md).
+Дополнительные сведения см. в разделе [Обзор структурных декомпозиций работ](work-breakdown-structures.md).
 
 ### <a name="create-project-forecasts-and-budgets"></a>Создание прогнозов по проекту и бюджетов
 
@@ -134,7 +134,7 @@ ms.locfileid: "2185643"
 
 СДР — это описание работы, которая будет выполнена по проекту. СДР — это иерархия задач. Она представляет не только работу для каждой задачи, но и размер, стоимость и продолжительность задачи. 
 
-Дополнительные сведения см. в разделе [Структурные декомпозиции работ](work-breakdown-structures.md).
+Дополнительные сведения см. в разделе [Обзор структурных декомпозиций работ](work-breakdown-structures.md).
 
 ### <a name="manage-project-forecasts-and-budgets"></a>Управление прогнозами и бюджетами проектов
 

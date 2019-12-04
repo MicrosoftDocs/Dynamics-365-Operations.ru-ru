@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 4624f7e31c6dca616ff4ee824453b8971c1865e7
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ebca416e94f44d0448a4f4d0be08f13e30e749e9
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249896"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813232"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Синхронизация организаций непосредственно из Sales с клиентами в Supply Chain Management
 
@@ -43,7 +43,7 @@ ms.locfileid: "2249896"
 
 ## <a name="templates-and-tasks"></a>Шаблоны и задачи
 
-Чтобы получить доступ к доступным шаблонам, откройте [Центр администрирования PowerApps](https://preview.admin.powerapps.com/dataintegration). Выберите **Проекты**, затем в правом верхнем углу выберите **Создать проект**, чтобы выбрать общие шаблоны.
+Чтобы получить доступ к доступным шаблонам, откройте [Центр администрирования Power Apps](https://preview.admin.powerapps.com/dataintegration). Выберите **Проекты**, затем в правом верхнем углу выберите **Создать проект**, чтобы выбрать общие шаблоны.
 
 Следующий шаблон и базовая задача используется для синхронизации счетов из Sales с Supply Chain Management:
 
@@ -111,7 +111,7 @@ ms.locfileid: "2249896"
 
 [Синхронизация контактов непосредственно из Sales с контактами или клиентами в Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Синхронизация заголовков и строк заказа на продажу непосредственно из Supply Chain Management с Sales](sales-order-template-mapping-direct-two-ways.md)
+[Синхронизация заказов на продажу напрямую между Sales и Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
 
 [Синхронизация заголовков и строк накладной по продаже непосредственно из Supply Chain Management с Sales](sales-invoice-template-mapping-direct.md)
 

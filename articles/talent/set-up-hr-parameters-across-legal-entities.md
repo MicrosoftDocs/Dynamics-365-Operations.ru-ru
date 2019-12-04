@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: ef269740123e17c204dd6ce244b75615229cbd49
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 9c205973097c82a4b131a3784392fa8d8cb5ecba
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010645"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812818"
 ---
 # <a name="set-up-human-resources-hr-parameters-across-legal-entities"></a>Настройка параметров управления персоналом (HR) для нескольких юридических лиц
 
@@ -52,7 +52,7 @@ ms.locfileid: "2010645"
 <a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Настройка параметров управления персоналом для конкретной компании](set-up-company-specific-hr-parameters.md)
+[Настройка параметров управления персоналом (HR) для конкретной компании](set-up-company-specific-hr-parameters.md)
 
 
 

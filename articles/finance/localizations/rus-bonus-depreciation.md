@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e9d1fb038c95b2a37c92844391cf2aa83683bf2c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8cedf434511d19ff0a681ee081e2f01da04975d6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175227"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773396"
 ---
 # <a name="depreciation-bonuses-russia"></a>Амортизационные премии (Россия)
 
@@ -71,4 +71,4 @@ ms.locfileid: "2175227"
 
 - [Настройка амортизации (Россия)](rus-depreciation-setup.md)
 - [Методы амортизации (Россия)](rus-depreciation-methods.md)
-- [Расчет амортизации (Россия)](rus-depreciation-calculation.md)
+- [Расчет амортизации для России](rus-depreciation-calculation.md)

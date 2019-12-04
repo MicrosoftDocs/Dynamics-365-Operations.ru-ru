@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d33625b94e7611a256c389a6de4692ae8f4ff2a7
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: da451c63c23444da564307505d38699faf9df19a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572480"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771001"
 ---
 # <a name="integrated-vendor-master"></a>Интегрированный мастер поставщиков
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Термин *поставщик* относится к организации-поставщику или индивидуальному предпринимателю, который является частью процесса цепочки поставок и поставляет товары для бизнеса. Хотя *поставщик* является устоявшейся концепцией в приложениях Finance and Operations, концепция поставщика не существует в других приложениях Dynamics 365. Вместо этого некоторые предприятия перегружают сущность организации для хранения как информации о клиентах, так и в информации о поставщиках. Другие компании используют пользовательскую концепцию поставщика. Интеграция Common Data Service поддерживает оба подхода. Таким образом, вы можете включить любой из дизайнов, в зависимости от вашего бизнес-сценария.
 
@@ -52,166 +50,24 @@ ms.locfileid: "2572480"
 
 Данные о поставщиках включают всю информацию о поставщике, например, группу поставщиков, адреса, контактную информацию, профиль платежа и профиль счета-фактуры. Коллекция сопоставлений сущностей работает совместно во время взаимодействия данных о поставщиках, как показано в следующей таблице.
 
-Приложения Finance and Operations  | Другие приложения Dynamics 365
-------------------------|---------------------------------
-Поставщик V2               | Счет
-Поставщик V2               | Msdyn\_vendors
-Контакты CDS V2         | Контакт
-Группы поставщиков           | Msdyn\_vendorgroups
-Метод платежа поставщика   | Msdyn\_vendorpaymentmethods
-График платежей        | Msdyn\_paymentschedules
-График платежей        | Msdyn\_paymentschedulelines
-Платежный день CDS         | Msdyn\_paymentdays
-Строки платежных дней CDS   | Msdyn\_paymentdaylines
-Условия оплаты        | Msdyn\_paymentterms
-Аффиксы имен            | Msdyn\_nameaffixes
+Приложения Finance and Operations | Другие приложения Dynamics 365         | Описание
+----------------------------|---------------------------------|------------
+Поставщик V2               | Счет | Предприятия, которые используют сущность организации для хранения информации о поставщиках, могут продолжать использовать ее таким же образом. Они также могут воспользоваться явной функциональностью поставщика, которая появляется из-за интеграции с приложениями Finance and Operations.
+Поставщик V2               | Msdyn\_vendors | Компании, которые используют пользовательское решение для поставщиков, могут воспользоваться готовой концепцией поставщиков, которая вводится в Common Data Service из-за интеграции с приложениями Finance and Operations. 
+Группы поставщиков | msdyn_vendorgroups | Этот шаблон синхронизирует информацию о группах поставщиков.
+Метод платежа поставщикам | msdyn_vendorpaymentmethods | Этот шаблон синхронизирует информацию о способах оплаты поставщикам.
+Контакты CDS V2             | контакты                        | Шаблон [контакты](dual-write-customer.md#cds-contacts-v2-to-contacts) синхронизирует все первичные, вторичные и третичные контактные данные клиентов и поставщиков.
+Строки графика платежей      | msdyn_paymentschedulelines      | Шаблон [строки графика платежей](dual-write-customer.md#payment-schedule-lines-to-msdyn_paymentschedulelines) синхронизирует ссылочные данные графиков как для клиентов, так и для поставщиков.
+График оплаты            | msdyn_paymentschedules          | Шаблон [графики оплаты](dual-write-customer.md#payment-schedule-to-msdyn_paymentschedules) синхронизирует ссылочные данные графиков оплаты как для клиентов, так и для поставщиков.
+Строки платежных дней CDS V2    | msdyn_paymentdaylines           | Шаблон [строки дней оплаты](dual-write-customer.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) синхронизирует ссылочные данные строк дней оплаты как для клиентов, так и для поставщиков.
+Платежные дни CDS            | msdyn_paymentdays               | Шаблон [дни оплаты](dual-write-customer.md#payment-days-cds-to-msdyn_paymentdays) синхронизирует ссылочные данные дней оплаты как для клиентов, так и для поставщиков.
+Условия оплаты            | msdyn_paymentterms              | Шаблон [условия оплаты](dual-write-customer.md#terms-of-payment-to-msdyn_paymentterms) синхронизирует ссылочные данные условий оплаты как для клиентов, так и для поставщиков.
+Аффиксы имен                | msdyn_nameaffixes               | Шаблон [дополнения к наименованиям](dual-write-customer.md#name-affixes-to-msdyn_nameaffixes) синхронизирует ссылочные данные аффиксов имен как для клиентов, так и для поставщиков.
 
-[!include [banner](../includes/dual-write-symbols.md)]
+[!include [symbols](../includes/dual-write-symbols.md)]
 
-## <a name="vendor-v2-and-account"></a>Поставщик V2 и организация 
+[!include [Vendors](dual-write/VendorsV2-msdyn-vendors.md)]
 
-Предприятия, которые используют сущность организации для хранения информации о поставщиках, могут продолжать использовать ее таким же образом. Они также могут воспользоваться явной функциональностью поставщика, которая появляется из-за интеграции с приложениями Finance and Operations.
+[!include [Vendor groups](dual-write/VendVendorGroup-msdyn-vendorgroups.md)]
 
-## <a name="vendor-v2-and-msdyn_vendors"></a>Поставщик V2 и Msdyn\_vendors
-
-Компании, которые используют пользовательское решение для поставщиков, могут воспользоваться готовой концепцией поставщиков, которая вводится в Common Data Service из-за интеграции с приложениями Finance and Operations. 
-
-<!-- ![vendor mappings](media/dual-write-vendors-1.png) -->
-
-<!-- ![vendor mappings](media/dual-write-vendors-2.png) -->
-
-<!-- ![vendor mappings](media/dual-write-vendors-3.png) -->
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-VENDORACCOUNTNUMBER | = | msdyn\_vendoraccountnumber
-VENDORGROUPID | = | msdyn\_vendorgroupid.msdyn\_vendorgroup
-VENDORORGANIZATIONNAME | = | msdyn\_name
-VENDORPARTYTYPE | \>\< | msdyn\_isperson
-PERSONFIRSTNAME | = | msdyn\_firstname
-PERSONLASTNAME | = | msdyn\_lastname
-CREDITLIMIT | = | msdyn\_vendorcreditlimit
-ISFOREIGNENTITY | \>\< | msdyn\_isforeignentity
-ISONETIMEVENDOR | \>\< | msdyn\_isonetimevendor
-ADDRESSBUILDINGCOMPLIMENT | = | msdyn\_addressbuildingcompliment
-PERSONCHILDRENNAMES | = | msdyn\_childrennames
-ADDRESSCITY | = | msdyn\_addresscity
-ADDRESSCOUNTRYREGIONID | = | msdyn\_addresscountryregionid
-ADDRESSCOUNTRYREGIONISOCODE | = | msdyn\_addresscountryregionisocode
-ADDRESSCOUNTYID | = | msdyn\_addresscountyid
-CREDITRATING | = | msdyn\_creditrating
-ADDRESSDESCRIPTION | = | msdyn\_addressdescription
-ADDRESSDISTRICTNAME | = | msdyn\_addressdistrictname
-DUNSNUMBER | = | msdyn\_dunsnumber
-ETHNICORIGINID | = | msdyn\_ethnicorigin
-FORMATTEDPRIMARYADDRESS | = | msdyn\_formattedprimaryaddress
-PERSONHOBBIES | = | msdyn\_hobbies
-PERSONINITIALS | = | msdyn\_initials
-LANGUAGEID | = | msdyn\_languageid
-PERSONLASTNAMEPREFIX | = | msdyn\_lastnameprefix
-PERSONMIDDLENAME | = | msdyn\_middlename
-ORGANIZATIONNUMBER | = | msdyn\_organizationnumber
-OURACCOUNTNUMBER | = | msdyn\_ourvendoraccountnumber
-PAYMENTID | = | msdyn\_paymentid
-PERSONPHONETICFIRSTNAME | = | msdyn\_phoneticfirstname
-PERSONPHONETICMIDDLENAME | = | msdyn\_phoneticmiddlename
-PERSONPHONETICLASTNAME | = | msdyn\_phoneticlastname
-ORGANIZATIONPHONETICNAME | = | msdyn\_organizationphoneticname
-ADDRESSPOSTBOX | = | msdyn\_addresspostbox
-PRIMARYURL | = | msdyn\_primarycontacturl
-PRIMARYEMAILADDRESS | = | msdyn\_primaryemailaddress
-PRIMARYEMAILADDRESSDESCRIPTION | = | msdyn\_primaryemailaddressdescription
-PRIMARYFACEBOOK | = | msdyn\_primaryfacebook
-PRIMARYFACEBOOKDESCRIPTION | = | msdyn\_primaryfacebookdescription
-PRIMARYFAXNUMBER | = | msdyn\_primaryfaxnumber
-PRIMARYFAXNUMBERDESCRIPTION | = | msdyn\_primaryfaxnumberdescription
-PRIMARYFAXNUMBEREXTENSION | = | msdyn\_primaryfaxnumberextension
-PRIMARYLINKEDIN | = | msdyn\_primarylinkedin
-PRIMARYLINKEDINDESCRIPTION | = | msdyn\_primarylinkedindescription
-PRIMARYPHONENUMBER | = | msdyn\_pimaryphonenumber
-PRIMARYPHONENUMBERDESCRIPTION | = | msdyn\_primaryphonenumberdescription
-PRIMARYPHONENUMBEREXTENSION | = | msdyn\_primaryphonenumberextension
-PRIMARYTELEX | = | msdyn\_primarytelex
-PRIMARYTELEXDESCRIPTION | = | msdyn\_primarytelexdescription
-PRIMARYTWITTER | = | msdyn\_primarytwitter
-PRIMARYTWITTERDESCRIPTION | = | msdyn\_primarytwitterdescription
-PRIMARYURLDESCRIPTION | = | msdyn\_primaryurldescription
-PERSONPROFESSIONALSUFFIX | = | msdyn\_professionalsuffix
-PERSONPROFESSIONALTITLE | = | msdyn\_professionatitle
-ADDRESSSTATEID | = | msdyn\_addressstateid
-ADDRESSSTREET | = | msdyn\_addressstreet
-ADDRESSSTREETNUMBER | = | msdyn\_addressstreetnumber
-VENDORKNOWNASNAME | = | msdyn\_vendorknownasname
-ADDRESSZIPCODE | = | msdyn\_addresszipcode
-DEFAULTPAYMENTDAYNAME | = | msdyn\_defaultpaymentdayname.msdyn\_name
-DEFAULTPAYMENTSCHEDULENAME | = | msdyn\_paymentschedule.msdyn\_name
-DEFAULTPAYMENTTERMSNAME | = | msdyn\_paymentterms.msdyn\_name
-HASONLYTAKENBIDS | \>\< | msdyn\_hasonlytakenbids
-ISMINORITYOWNED | \>\< | msdyn\_isminorityowned
-ISVENDORLOCALLYOWNED | \>\< | msdyn\_isvendorlocallyowned
-ISSERVICEVETERANOWNED | \>\< | msdyn\_isserviceveteranowned
-ISOWNERDISABLED | \>\< | msdyn\_ownerisdisabled
-ISWOMANOWNER | \>\< | msdyn\_womanowner
-PERSONANNIVERSARYDAY | = | msdyn\_personanniversaryday
-PERSONANNIVERSARYYEAR | = | msdyn\_anniversaryyear
-PERSONBIRTHDAY | = | msdyn\_birthday
-PERSONBIRTHYEAR | = | msdyn\_birthyear
-ORGANIZATIONEMPLOYEEAMOUNT | = | msdyn\_numberofemployees
-VENDORHOLDRELEASEDATE | = | msdyn\_vendoronholdreleasedate
-VENDORPARTYNUMBER | = | msdyn\_vendorpartynumber
-ADDRESSLOCATIONID | = | msdyn\_addresslocationid
-PERSONANNIVERSARYMONTH | = | msdyn\_vendorpersonanniversarymonth
-PERSONBIRTHMONTH | = | msdyn\_vendorpersonbirthmonth
-PERSONMARITALSTATUS | \>\< | msdyn\_maritalstatus
-ADDRESSLATITUDE | \>\> | msdyn\_addresslatitude
-ADDRESSLONGITUDE | \>\> | msdyn\_addresslongitude
-ONHOLDSTATUS | \>\< | msdyn\_onholdstatus
-CURRENCYCODE | = | msdyn\_currencycode.isocurrencycode
-ISVENDORLOCATEDINHUBZONE | \>\< | msdyn\_isvendorlocatedinhubzone
-DEFAULTVENDORPAYMENTMETHODNAME | = | msdyn\_vendorpaymentmethod.msdyn\_name
-INVOICEVENDORACCOUNTNUMBER | = | msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber
-PERSONGENDER | \>\< | msdyn\_gender
-AREPRICESINCLUDINGSALESTAX | \>\< | msdyn\_priceincludessalestax
-SALESTAXGROUPCODE | = | msdyn\_taxgroup.msdyn\_name
-VENDORPRICETOLERANCEGROUPID | = | msdyn\_pricetolerancegroup.msdyn\_groupid
-
-## <a name="contacts"></a>Контакты
-
-Этот шаблон синхронизирует все сведения об основных, вторых и третьих контактах как для клиентов, так и для поставщиков, между приложениями Finance and Operations и другими приложениями Dynamics 365. Для получения подробной информации о сопоставлении объектов см. в разделе [Интегрированный мастер клиентов](dual-write-customer.md#contacts).
-
-## <a name="vendor-groups"></a>Группы поставщиков
-
-Этот шаблон синхронизирует информацию о группах поставщиков между приложениями Finance and Operations и другими приложениями Dynamics 365.
-
-<!-- ![vendor groups mappings](media/dual-write-vendor-groups.png) -->
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-DEFAULTPAYMENTTERMNAME | = | msdyn\_paymentterms.msdyn\_name
-ОПИСАНИЕ | = | msdyn\_description
-VENDORGROUPID | = | msdyn\_vendorgroup
-CLEARINGPERIODPAYMENTTERMNAME | = | msdyn\_clearingperiodpaymentpermname.msdyn\_name
-
-### <a name="vendor-payment-method"></a>Метод платежа поставщикам
-
-Этот шаблон синхронизирует информацию о способе платежа поставщиков между Finance and Operations и другими приложениями Dynamics 365.
-
-<!-- ![vendor payment method mappings](media/dual-write-vendor-payment-method.png) -->
-
-Поле источника | Тип сопоставления | Поле назначения
----|---|---
-НАИМЕНОВАНИЕ | = | msdyn\_name
-ОПИСАНИЕ | = | msdyn\_description
-SUMBYPERIOD | \>\< | msdyn\_sumbyperiod
-DISCOUNTGRACEPERIODDAYS | = | msdyn\_discountgraceperioddays
-PAYMENTSTATUS | \>\< | msdyn\_paymentstatus
-ALLOWPAYMENTCOPIES | \>\< | msdyn\_allowpaymentcopies
-PAYMENTTYPE | \>\< | msdyn\_paymenttype
-LASTFILENUMBER | = | msdyn\_lastfilenumber
-LASTFILENUMBERTODAY | = | msdyn\_lastfilenumbertoday
-ACCOUNTTYPE | \>\< | msdyn\_accounttype
-BRIDGINGPOSTINGENABLED | \>\< | msdyn\_bridgingposting
-ENABLEPOSTDATEDCHECKCLEARINGPOSTING | \>\< | msdyn\_postdatedcheckclearingposting
-PROMISSORYNOTEDRAFTTYPE | \>\< | msdyn\_promissorynotedrafttype
-DIRECTDEBIT | \>\< | msdyn\_directdebit
-
+[!include [Vendor payment methods](dual-write/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]

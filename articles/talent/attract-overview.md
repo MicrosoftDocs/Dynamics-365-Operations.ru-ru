@@ -1,5 +1,5 @@
 ---
-title: Функции и возможности Microsoft Dynamics 365 Talent - Attract
+title: Функции и возможности Attract
 description: В этом разделе описываются функции, которые Microsoft Dynamics 365 Talent - Attract предоставляет для управления процессом приема на работу новых специалистов.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552079"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833077"
 ---
-# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>Функции и возможности Microsoft Dynamics 365 Talent - Attract
+# <a name="attract-features-and-capabilities"></a>Функции и возможности Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,4 @@ ms.locfileid: "2552079"
 Сразу же после добавления в вакансию кандидаты получают сообщение электронной почты, содержащее ссылку на веб-приложение. Это приложение предоставляет сведения о вакансии и используется для связи с группой комплектации штата. Кандидаты также могут использовать его для указания, доступны ли они для собеседований.
 
 ## <a name="analytic-reports"></a>Аналитические отчеты
-Группы по найму сотрудников могут использовать просмотр основных показателей процесса найма на работу для одной должности или агрегированных показателей по всем должностям с [аналитическими отчетами в Attract](analytic-reports.md). Эта функция в настоящее время находится в [режиме предварительного просмотра](access-preview-feature.md) для клиентов с надстройкой [Comprehensive Hiring Add-On](attract-comprehensive-hiring.md).
+Группы по найму сотрудников могут использовать просмотр основных показателей процесса найма на работу для одной должности или агрегированных показателей по всем должностям с [аналитическими отчетами в Attract](analytic-reports.md). Эта функция в данный момент доступна для [предварительного просмотра](access-preview-feature.md) для клиентов с [Какая версия Microsoft Dynamics 365 Talent — Attract](attract-comprehensive-hiring.md).

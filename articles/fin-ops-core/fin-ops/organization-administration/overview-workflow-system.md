@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eef77a5d81d12ec92eea86b1dd9902d9e3d80b33
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190013"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812371"
 ---
 # <a name="workflow-system-overview"></a>Обзор системы бизнес-правил
 
@@ -57,18 +57,18 @@ workflow-процесс представляет бизнес-процесс. О
 
 ## <a name="workflow-content"></a>Содержимое workflow-процесса
 
-+ [Архитектура workflow-процесса](workflow-system-architecture.md)
-+ [Элементы workflow-процесса](workflow-elements.md)
-+ [Действия workflow-процесса](workflow-actions.md)
-+ [Создание workflow-процесса](create-workflow.md)
-+ [Настройка свойств workflow-процесса](configure-workflow-properties.md)
-+ [Настройка ручной задачи в workflow-процессе](configure-manual-task-workflow.md)
-+ [Настройка автоматизированной задачи в workflow-процессе](configure-automated-task-workflow.md)
-+ [Настройка процесса утверждения в workflow-процессе](configure-approval-process-workflow.md)
-+ [Настройка этапа утверждения в workflow-процессе](configure-approval-step-workflow.md)
-+ [Настройка ручного решения в workflow-процессе](configure-manual-decision-workflow.md)
-+ [Настройка условного решения в workflow-процессе](configure-conditional-decision-workflow.md)
-+ [Настройка параллельного действия в workflow-процессе](configure-parallel-activity-workflow.md)
-+ [Настройка параллельной ветви в workflow-процессе](configure-parallel-branch-workflow.md)
-+ [Настройка workflow-процесса по номенклатуре строки](configure-line-item-workflow.md)
-+ [Вопросы и ответы по workflow-процессу](workflow-FAQ.md)
++ [Архитектура системы бизнес-правил](workflow-system-architecture.md)
++ [Элементы бизнес-правила](workflow-elements.md)
++ [Действия в процессах утверждения бизнес-правил](workflow-actions.md)
++ [Обзор создания бизнес-правил](create-workflow.md)
++ [Настройка свойств рабочего процесса](configure-workflow-properties.md)
++ [Настройка ручных задач в workflow-процессе](configure-manual-task-workflow.md)
++ [Настройка автоматизированных задач в workflow-процессе](configure-automated-task-workflow.md)
++ [Настройка процессов утверждения в workflow-процессе](configure-approval-process-workflow.md)
++ [Настройка этапов утверждения в workflow-процессе](configure-approval-step-workflow.md)
++ [Настройка ручных решений в workflow-процессе](configure-manual-decision-workflow.md)
++ [Настройка условных решений в workflow-процессе](configure-conditional-decision-workflow.md)
++ [Настройка параллельных действий в workflow-процессе](configure-parallel-activity-workflow.md)
++ [Настройка параллельных ветвей в workflow-процессе](configure-parallel-branch-workflow.md)
++ [Настройка бизнес-правил по строке](configure-line-item-workflow.md)
++ [Вопросы и ответы по рабочим процессам](workflow-FAQ.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6e6b8d6243c1f7c5831baaee91baf38d51e0c26
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185252"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770005"
 ---
 # <a name="practice-manager-power-bi-content"></a>Содержимое Power BI "Менеджер по методикам"
 
@@ -58,7 +58,7 @@ ms.locfileid: "2185252"
 
 ## <a name="understanding-the-data-model-and-entities"></a>Понимание модели данных и объектов
 
-Следующие данные используются для заполнения страниц отчета в содержимом Power BI **Менеджер по методикам**. Эти данные представлены как общие измерения, которые помещаются на временное хранение в хранилище объектов. Хранилище объектов является базой данных Microsoft SQL Server, оптимизированной для аналитики. Дополнительные сведения см. в разделе [Обзор интеграции Power BI с хранилищем объектов](power-bi-integration-entity-store.md).
+Следующие данные используются для заполнения страниц отчета в содержимом Power BI **Менеджер по методикам**. Эти данные представлены как общие измерения, которые помещаются на временное хранение в хранилище объектов. Хранилище объектов является базой данных Microsoft SQL Server, оптимизированной для аналитики. Дополнительные сведения см. в разделе [Интеграция Power BI с хранилищем объектов](power-bi-integration-entity-store.md).
 
 В следующих разделах описываются агрегированные измерения, используемые в каждом объекте.
 

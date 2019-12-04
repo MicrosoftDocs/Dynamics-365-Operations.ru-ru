@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: 6ed1e4afcaeee03474d4c0ce20ac7864fb11ce78
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5538aef6599eeffee6d9b075f1b9630d55cf982a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551780"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812726"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-july-2018"></a>Что нового и что изменилось в Dynamics 365 Talent — Core HR (июль 2018 г.)
 
@@ -31,11 +31,11 @@ ms.locfileid: "2551780"
 
 В этой теме описываются новые и измененные компоненты Microsoft Dynamics 365 Talent: Core HR.
 
-## <a name="powerapps-personalization"></a>Персонализация PowerApps
+## <a name="power-apps-personalization"></a>Персонализация Power Apps
 
-Talent поддерживает интеграцию со службой Microsoft PowerApps. PowerApps позволяют разработчикам и обычным пользователям создавать пользовательские бизнес-приложения для мобильных устройств, планшетов и Интернета без необходимости написания кода. Приложения, разработанные вами, вашей организацией или более широкой экосистемой с помощью PowerApps, затем можно внедрить в клиент Talent для расширения функциональности продукта. Например, можно создать приложение, которое дополняет Talent информацией, извлеченной из другой системы.
+Talent поддерживает интеграцию со службой Microsoft Power Apps. Power Apps позволяют разработчикам и обычным пользователям создавать пользовательские бизнес-приложения для мобильных устройств, планшетов и Интернета без необходимости написания кода. Приложения, разработанные вами, вашей организацией или более широкой экосистемой с помощью Power Apps, затем можно внедрить в клиент Talent для расширения функциональности продукта. Например, можно создать приложение, которое дополняет Talent информацией, извлеченной из другой системы.
 
-Дополнительные сведения см. в разделе [Внедрение приложений PowerApps](../fin-and-ops/get-started/embed-power-apps.md).
+Дополнительные сведения см. в разделе [Внедрение приложений Power Apps](../fin-and-ops/get-started/embed-power-apps.md).
 
 ## <a name="ceridian-payroll-integration"></a>Интеграция зарплаты Ceridian
 
@@ -46,7 +46,7 @@ Talent поддерживает интеграцию со службой Microso
 - Данные о заработной плате, например циклы оплаты, периоды оплаты и коды начисления зарплаты
 - Данные о работнике
 
-Дополнительные сведения см. в разделе [Настройка интеграции заработной платы](configure-payroll-integration.md).
+Дополнительные сведения см. в разделе [Настройка интеграции зарплаты между Talent и Dayforce](configure-payroll-integration.md).
 
 ## <a name="worker-tax-regions-have-been-expanded-beyond-the-us"></a>Были расширены налоговые регионы работника за пределы США.
 

@@ -3,7 +3,7 @@ title: Обзор процедуры признания выручки
 description: В этом разделе содержится информация о функции признания выручки. Эта функция предоставляет гибкие возможности для определения правил определения цены и графика для признания выручки в заказах, состоящих из нескольких элементов.
 author: kweekley
 manager: aolson
-ms.date: 08/24/2018
+ms.date: 11/11/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 0681636853b38895e4b8875150ea42baadd7b951
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8743183c46463395cad3138261860442701e0178
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570387"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781904"
 ---
 # <a name="revenue-recognition-overview"></a>Обзор процедуры признания выручки
 
@@ -36,6 +36,10 @@ ms.locfileid: "2570387"
 
 * Распределите выручку, чтобы гарантировать, что соответствующая цена в выручке признается на основе значении компонентов в заказах, состоящих из нескольких элементов.
 * Отложите выручку на основе графика признания выручки, определяющего сроки исполнения контракта и проценты для признания выручки с течением времени.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE44iER]
+
+Видео [Порядок признания выручки в Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (см. выше) можно найти в [плейлисте Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) на YouTube.
 
 Функция признания выручки предоставляет гибкие возможности для определения правил определения цен и графиков для признания выручки, действующих на уровне компании.
 

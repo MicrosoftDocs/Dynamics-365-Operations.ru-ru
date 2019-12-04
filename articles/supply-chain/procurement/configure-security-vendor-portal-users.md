@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 176eeb2ddb145d21f7ff9fd94a9a56e173caee59
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 944b27754e87d80584b7fdfffa46d8af112227e3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555092"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813577"
 ---
 # <a name="vendor-portal-user-security"></a>Безопасность пользователей портала поставщика
 
@@ -46,7 +46,7 @@ ms.locfileid: "1555092"
 <a name="additional-resources"></a>Дополнительные ресурсы
 --------
 
-[Совместная работа с поставщиками](collaborate-vendors-vendor-portal.md)
+[Сотрудничество с поставщиками с помощью портала поставщика](collaborate-vendors-vendor-portal.md)
 
 
 

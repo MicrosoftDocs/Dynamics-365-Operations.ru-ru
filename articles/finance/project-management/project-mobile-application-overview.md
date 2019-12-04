@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 521fdc98c8af51f6f244f9aa606ce047d014edf1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3cb3b25503b559f21c45c0232a8c0abd3e415eb3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250446"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773630"
 ---
 # <a name="project-mobile-applications-overview"></a>Обзор мобильных приложений Project
 
@@ -45,4 +45,7 @@ ms.locfileid: "2250446"
 
 ## <a name="for-more-information"></a>Дополнительные сведения
 
-Дополнительные сведения см. в разделах [Мобильное приложение Microsoft Dynamics 365 Project timesheet](project-timesheet.md), [Регистрация времени проекта]( project-time-entry-mobile-workspace.md), [Табели учета рабочего времени проекта на мобильном устройстве](Mobile-timesheets.md) и [Реализация пользовательских полей для мобильного приложения табеля учета рабочего времени проекта](custom-fields-mobile.md).
+- [Мобильное приложение табеля учета рабочего времени проекта](project-timesheet.md)
+- [Регистрация времени проекта]( project-time-entry-mobile-workspace.md)
+- [Табели учета рабочего времени проекта на мобильном устройстве](Mobile-timesheets.md)
+- [Реализация настраиваемых полей для мобильного приложения Microsoft Dynamics 365 Project Timesheet на iOS и Android](custom-fields-mobile.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13744df950040056ba03a3847d84f93e266ea6c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181458"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771314"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Создание конфигураций ER для заполнения шаблонов PDF
 
@@ -46,7 +46,7 @@ ms.locfileid: "2181458"
     - Консультант по функциональным возможностям электронной отчетности
     - Системный администратор
 
-Кроме того, необходимо выполнить процедуру [Создание поставщика конфигурации и пометка его как активного](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Кроме того, необходимо выполнить процедуру [Создание поставщиков конфигурации и пометка их как активных](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 Наконец, необходимо загрузить следующие файлы из [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111):
 
@@ -300,5 +300,5 @@ ms.locfileid: "2181458"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- [Электронная отчетность — Разработка конфигурации для создания отчетов в формате OPENXML](tasks/er-design-reports-openxml-2016-11.md)
-- [Разработка конфигураций электронной отчетности для создания отчетов в формате Microsoft Word](tasks/er-design-configuration-word-2016-11.md)
+- [Электронная отчетность — Разработка конфигурации для создания отчетов в формате OPENXML (ноябрь 2016 г.)](tasks/er-design-reports-openxml-2016-11.md)
+- [Разработка конфигураций электронной отчетности для создания отчетов в формате Word](tasks/er-design-configuration-word-2016-11.md)

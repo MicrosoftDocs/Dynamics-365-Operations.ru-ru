@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0f4c68acfe021e736c259e91a40ce7d43d401246
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552010"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812887"
 ---
 # <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Редактирование руководств и шаблонов по адаптации в Dynamics 365 Talent - Onboard
 
@@ -124,7 +124,7 @@ ms.locfileid: "2552010"
 
     - Чтобы добавить видеозапись YouTube, перетащите элемент **YouTube** в область редактирования, введите имя и описание мероприятия и введите URL-адрес для видео YouTube.
     - Чтобы добавить презентацию или информационный бюллетень Sway, перетащите элемент **Sway** в область редактирования, введите имя и описание мероприятия и введите внедренный URL-адрес для презентации или бюллетеня Sway.
-    - Чтобы добавить приложение PowerApps, перетащите элемент **PowerApps** в область редактирования, введите имя и описание мероприятия, а также выберите приложение PowerApps или введите идентификатор приложения PowerApps.
+    - Чтобы добавить приложение Microsoft Power Apps, перетащите элемент **Power Apps** в область редактирования, введите имя и описание мероприятия, а также выберите приложение Power Apps или введите идентификатор приложения Power Apps.
     - Чтобы добавить видеозапись Microsoft Stream, перетащите элемент **Microsoft Stream** в область редактирования, введите имя и описание мероприятия и введите URL-адрес для видео Microsoft Stream.
     - Чтобы добавить форму Microsoft Forms, перетащите элемент **Microsoft Forms** в область редактирования, введите имя и описание мероприятия, введите URL-адрес для формы Microsoft Forms и укажите размер области экрана.
     - Чтобы добавить фрейм iFrame, содержащий веб-содержимое, перетащите элемент **Веб-содержимое (iFrame)** в область редактирования, введите имя и описание мероприятия, введите URL-адрес для веб-содержимого и укажите размер области экрана.
@@ -186,6 +186,6 @@ ms.locfileid: "2552010"
 ### <a name="see-also"></a>См. также
 
 - [Попробуйте или купите приложение Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Что нового](./whats-new.md)
-- [Сведения о версии](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Получение поддержки](./talent-support.md)
+- [Что нового и что изменилось в Dynamics 365 Talent](./whats-new.md)
+- [Планы выпуска](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Получение поддержки по Microsoft Dynamics 365 Talent](./talent-support.md)

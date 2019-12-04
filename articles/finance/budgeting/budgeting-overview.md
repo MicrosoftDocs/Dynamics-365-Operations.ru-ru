@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c6a9e4dd3f3182c98a9f5491b07f8687c21e5c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184079"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772659"
 ---
 # <a name="budgeting-home-page"></a>Домашняя страница бюджетирования
 
@@ -42,12 +42,12 @@ ms.locfileid: "2184079"
 
 Наконец, очень зрелые организации могут сформировать организационную культуру, при которой сотрудники будут понимать цели организации и следовать этим целям с помощью политик, например проводить онлайн-встречи вместо поездок. Приложение включает платформу бюджетного контроля, которая позволяет руководству компании выбирать между жестким контролем (блокировка разносок, которые приведут к выходу за рамки бюджета) или мягким контролем (пользователи получают предупреждение, если они выходят за рамки доступных бюджетных средств, но могут самостоятельно решать, что делать дальше). Наконец, вы можете использовать скользящие прогнозы. Скользящий прогноз — это регулярное сравнение бюджета с фактическими расходами. Он используется для определения того, насколько хорошо компания соблюдает бюджет. Скользящий прогноз также используется для определения тенденций. В Finance and Operations скользящие прогнозы поддерживаются в качестве мероприятий первичного планирования с использованием бюджетного плана. Скользящие прогнозы можно применять параллельно с планированием для предстоящего бюджетного цикла.
 
--   [Базовое бюджетирование: обзор и настройка](basic-budgeting-overview-configuration.md)
--   [Бюджетный контроль: обзор и настройка](budget-control-overview-configuration.md)
--   [Бюджетное планирование: обзор и настройка](budget-planning-overview-configuration.md)
+-   [Обзор бюджетирования](basic-budgeting-overview-configuration.md)
+-   [Обзор бюджетного контроля](budget-control-overview-configuration.md)
+-   [Обзор бюджетного планирования](budget-planning-overview-configuration.md)
 -   [Прогнозирование должности](position-forecasting.md)
 -   [Документы обоснования бюджетного планирования](budget-planning-justification-docs.md)
--   [Шаблоны Microsoft Excel для бюджетного планирования](budget-planning-excel-templates.md)
+-   [Шаблоны бюджетного планирования для Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Инструменты бюджетирования
 [![Инструменты бюджетирования](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: af2066c095c675aa0003ac2cf66bebba48a1e8a5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190864"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812513"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Создание настраиваемых полей и работа с ними
 
@@ -103,7 +103,7 @@ ms.locfileid: "2190864"
 
 ### <a name="exposing-custom-fields-on-data-entities"></a>Предоставление пользовательских полей для информационных объектов
 
-Также может быть важно разрешить, чтобы пользовательские поля были видимы в информационных объектах. Информационные объекты используются в функции [Открыть в Office](../../dev-itpro/office-integration/office-integration.md), а также для сценариев импорта и экспорта данных.
+Также может быть важно разрешить, чтобы пользовательские поля были видимы в информационных объектах. Информационные объекты используются в функции [Обзор интеграции с Office](../../dev-itpro/office-integration/office-integration.md), а также для сценариев импорта и экспорта данных.
 
 Выполните следующие действия, чтобы отображение пользовательского поля для информационного объекта.
 

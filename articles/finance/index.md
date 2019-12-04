@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 5b5ed05e9c53b17632e94e913f7f3663676c3e91
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570133"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770582"
 ---
 # <a name="financial-management-home-page"></a>Домашняя страница модуля "Управление финансами"
 
@@ -44,8 +44,8 @@ ms.locfileid: "2570133"
         - [Управление расходами](expense-management/expense-management.md)
         - [Финансовая отчетность](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Основные средства](fixed-assets/fixed-assets.md)
-        - [Главная книга](general-ledger/general-ledger.md) 
-        - [Управление проектами](project-management/overview-project-management-accounting.md)
+        - [Главная книга и финансовая отчетность](general-ledger/general-ledger.md) 
+        - [Управление и учет по проектам](project-management/overview-project-management-accounting.md)
         - [Государственный сектор](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -72,5 +72,5 @@ ms.locfileid: "2570133"
 
 ### <a name="additional-content"></a>Дополнительные материалы
 
-Функция управления цепочками поставок охватывает части процесса Procure-To-Pay, включая заявки на закупку, заказы, получение, выставление счетов и оплату за товары и услуги в организации. Информацию о функциях управления цепочками поставок, запасами и производством см. на [!главной странице Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
+Функция управления цепочками поставок охватывает части процесса Procure-To-Pay, включая заявки на закупку, заказы, получение, выставление счетов и оплату за товары и услуги в организации. Информацию о функциях управления цепочками поставок, запасами и производством см. на [главной странице Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
 

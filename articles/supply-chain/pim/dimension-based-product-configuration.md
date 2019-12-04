@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca7e5555a242c10d2268182ed440e686a1dc46ad
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: ad8c2c82f9104a350d37534e4d70372da82f40a7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865360"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815050"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>Обзор конфигураций продуктов на основе аналитик
 
@@ -79,12 +79,12 @@ ms.locfileid: "1865360"
 
 Следующие восемь проводников по задачам указаны в том в порядке, в каком их следует выполнять. 
 
-1.  [Создание шаблона продукта на основе аналитик (проводник по задаче)](tasks/create-dimension-based-product-master.md)
-2.  [Выпуск шаблона продукта на основе аналитик (проводник по задаче)](tasks/release-dimension-based-product-master.md)
-3.  [Завершение базовой настройки шаблона запущенных в производство продуктов (проводник по задаче)](tasks/complete-basic-setup-released-product-master.md)
-4.  [Определение конфигурационных групп (проводник по задаче)](tasks/define-configuration-groups.md)
-5.  [Создание спецификации для шаблона продукта на основе аналитик (проводник по задаче)](tasks/create-bill-materials-dimension-based-product-master.md)
-6.  [Определение конфигурационных маршрутов (проводник по задаче)](tasks/define-configuration-route.md)
-7.  [Создание правил конфигурации (проводник по задаче)](tasks/create-configuration-rules.md)
-8.  [Создание конфигураций на основе аналитик (проводник по задаче)](tasks/create-dimension-based-configurations.md)
+1.  [Создание шаблона продукта на основе аналитик](tasks/create-dimension-based-product-master.md)
+2.  [Выпуск шаблона продукта на основе аналитик](tasks/release-dimension-based-product-master.md)
+3.  [Завершение базовой настройки шаблона запущенных в производство продуктов](tasks/complete-basic-setup-released-product-master.md)
+4.  [Определение конфигурационных групп](tasks/define-configuration-groups.md)
+5.  [Создание спецификации для шаблона продукта на основе аналитик](tasks/create-bill-materials-dimension-based-product-master.md)
+6.  [Определение конфигурационных маршрутов](tasks/define-configuration-route.md)
+7.  [Создание правил конфигурации](tasks/create-configuration-rules.md)
+8.  [Создание конфигураций на основе аналитик](tasks/create-dimension-based-configurations.md)
 

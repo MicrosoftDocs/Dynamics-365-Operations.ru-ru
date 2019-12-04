@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: dd88537506521fd37aa170c7e8f43bcf5a106836
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174359"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771641"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Добавление аналитики в рабочие области с помощью Power BI Embedded
 
@@ -102,7 +102,7 @@ ms.locfileid: "2174359"
 > [!NOTE]
 > Для встроенных рабочих областей рекомендуется использовать расширения, чтобы скрыть страницы **Область фильтров** и **Вкладка** для согласованности.
 
-Вы завершили задачу расширения определения формы приложения. Дополнительные сведения о том, как использовать расширения для настройки, см. в разделе [Настройка: перекрытия и расширения](../extensibility/customization-overlayering-extensions.md).
+Вы завершили задачу расширения определения формы приложения. Дополнительные сведения о том, как использовать расширения для настройки, см. в разделе [Настройка с помощью расширения и перекрытия](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Добавление бизнес-логики X ++ для внедрения элемента управления средством просмотра
 Выполните следующие действия, чтобы добавить бизнес-логику, которая инициализирует элемент управления средством просмотра отчетов, который внедрен в рабочую область **Управление резервированием**.

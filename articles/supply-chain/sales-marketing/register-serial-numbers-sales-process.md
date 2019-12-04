@@ -1,9 +1,9 @@
 ---
-title: Регистрация серийных номеров в процессе продаж
+title: Работа с сериализованными номенклатурами
 description: В этом разделе объясняется, как можно регистрировать серийные номера в отборочных накладных или накладных в процессе продажи. Эта функция полезна, если компания хочет регистрировать серийные номера просто для целей обслуживания и гарантии, он им не требуется ведение серийных номеров в запасах от получения до выдачи.
 author: omulvad
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d655015a2048bb8e7d85d8ea3679b8b2506caf10
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: d37d308eab1d29cd014599a3f812b1ee1ca49ea1
+ms.sourcegitcommit: db222a1719d4756d9ccb73fc71e7eaf4521c23a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572114"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695037"
 ---
-# <a name="register-serial-numbers-in-the-sales-process"></a>Регистрация серийных номеров в процессе продаж
+# <a name="working-with-serialized-items"></a>Работа с сериализованными номенклатурами
 
 [!include [banner](../includes/banner.md)]
 
