@@ -8,6 +8,12 @@
         - name: Что нового и что изменилось в Talent
           href: whats-new.md
           items:
+            - name: 17 декабря 2019 г.
+              href: whats-new-talent-december-17-2019.md
+            - name: 12 декабря 2019 г.
+              href: whats-new-talent-december-12-2019.md
+            - name: 3 декабря 2019 г.
+              href: whats-new-talent-december-3-2019.md
             - name: 19 ноября 2019 г.
               href: whats-new-talent-november-19-2019.md
             - name: 12 ноября 2019 г.
@@ -26,16 +32,16 @@
               href: whats-new-talent-september-17-2019.md
             - name: 10 сентября 2019 г.
               href: whats-new-talent-september-12-2019.md
-            - name: 27 августа 2019 г.
-              href: whats-new-talent-august-28-2019.md
-            - name: 22 августа 2019 г.
-              href: whats-new-talent-august-21-2019.md
-            - name: 13 августа 2019 г.
-              href: whats-new-talent-august-15-2019.md
-            - name: 6 августа 2019 г.
-              href: whats-new-talent-august-7-2019.md
-            - name: Архивы "Что нового" за 2019 г.
+            - name: Архивы «Что нового» за 2019 г.
               items:
+                - name: 27 августа 2019 г.
+                  href: whats-new-talent-august-28-2019.md
+                - name: 22 августа 2019 г.
+                  href: whats-new-talent-august-21-2019.md
+                - name: 13 августа 2019 г.
+                  href: whats-new-talent-august-15-2019.md
+                - name: 6 августа 2019 г.
+                  href: whats-new-talent-august-7-2019.md
                 - name: 30 июля 2019 г.
                   href: whats-new-talent-july-31-2019.md
                 - name: 23 июля 2019 г.
@@ -134,32 +140,28 @@
           href: hr-copy-instance.md
         - name: Удаление сред Talent
           href: remove-talent-environment.md
-        - name: Подготовка для приложения Onboard
+        - name: Управление функциями
+          href: access-preview-feature.md
+        - name: Обеспечение Onboard
           href: modular-app-tech-faq.md
-        - name: Внедрить приложения PowerApps
+        - name: Внедрение приложений Power Apps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR и Common Data Service
+        - name: Объекты Core HR в Common Data Service
           href: CoreHREntities.md
         - name: Получение поддержки по Talent
           href: talent-support.md
     - name: Набор персонала для организации с помощью Attract
       items:
-        - name: Какая версия Attract?
+        - name: Выбор версии Attract
           href: attract-comprehensive-hiring.md
         - name: Функции и возможности Attract
           href: attract-overview.md
-        - name: Вопросы и ответы
-          items:
-            - name: Вопросы и ответы по интеграции с LinkedIn
-              href: attract-linkedin-faq.md
         - name: Настройка параметров системы
           items:
             - name: Настройка информации об организации
               href: admin-settings-attract.md
             - name: Настройка разрешений пользователя
               href: security-attract.md
-            - name: Управление функциями
-              href: access-preview-feature.md
             - name: Настройка сайта карьеры
               href: career-site.md
             - name: Включение интеграции с Broadbean
@@ -168,13 +170,15 @@
               href: attract-configure-email-settings.md
             - name: Настройка интеграции с LinkedIn
               href: attract-admin-linkedin.md
+            - name: Вопросы и ответы по интеграции с LinkedIn
+              href: attract-linkedin-faq.md
         - name: Создание процесса найма
           items:
-            - name: Создание шаблона процессов
+            - name: Создание шаблона процессов найма
               href: process-templates-attract.md
-            - name: Мероприятия в процессах найма
+            - name: Добавление мероприятий в процесс найма
               href: activities-attract.md
-            - name: Шаблоны электронной почты
+            - name: Создание шаблонов электронной почты
               href: email-templates.md
             - name: Использование аналитических отчетов
               href: analytic-reports.md
@@ -197,12 +201,12 @@
             - name: Отслеживание источников кандидатов
               href: source-tracking.md
             - name: Интеллектуальные рекомендации
-              href: Intelligent-Recommendations.md
+              href: intelligent-recommendations.md
         - name: Настройка собеседований
           items:
-            - name: Планирование собеседований и обратная связь
+            - name: Планирование собеседований
               href: interview-scheduling-feedback.md
-        - name: Отправка предложений
+        - name: Отправка предложения
           items:
             - name: Настройка управления предложениями
               href: offer-setup.md
@@ -433,7 +437,7 @@
       items:
         - name: Внедренное решение Power BI в рабочих областях
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Расширение Talent с помощью PowerApps и Microsoft Flow — примеры сценариев
+        - name: Расширение Talent с помощью Power Apps и Power Automate
           href: extensibility-examples.md
         - name: Мобильное приложение
           items:
@@ -441,10 +445,8 @@
               items:
                 - name: Мобильная рабочая область каталога организации
                   href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Мобильная рабочая область "Моя группа"
+                - name: Мобильная рабочая область «Моя группа»
                   href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Публикация мобильных рабочих областей
-              href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Отслеживание изменений в данных набора сотрудников
           href: process-auditing.md
         - name: Расширяемость в Attract
