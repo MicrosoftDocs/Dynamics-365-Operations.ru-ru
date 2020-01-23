@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 660cf13af60a78698ee5de0936d90083fac1fd35
-ms.sourcegitcommit: 43877de30db4ad270e0f452a752b8aa863260424
+ms.openlocfilehash: b0c551e56ff790e523dde4584137e76663eaac13
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "2823744"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915190"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -51,8 +51,8 @@ ms.locfileid: "2823744"
 - [Настройка и обработка платежных поручений](rus-payment-order-settings-processing.md)
 - [Курсовая разница](rus-exchange-adjustment.md)
 - [Продажа, покупка и переводы иностранной валюты](rus-currency-sale-purchase.md)
-- [Мелкие наличные деньги](emea-petty-cash.md)
-- [Наличные деньги — локальные основные формы и унифицированные отчеты](rus-local-primary-forms-and-unified-reports.md)
+- [Кассовые операции](emea-petty-cash.md)
+- [Касса — местные первичные формы и унифицированные отчеты](rus-local-primary-forms-and-unified-reports.md)
 
 ## <a name="vat"></a>НДС
 
@@ -67,6 +67,7 @@ ms.locfileid: "2823744"
 
 ## <a name="fixed-assets-russia"></a>Основные средства (Россия)
 - [Основные средства (Россия)](rus-fixed-assets.md)
+- [Обзор основных средств](rus-fixed-assets-overview.md)
 - [Настройка основных средств](rus-set-up-fixed-assets.md)
 - [Приобретение ОС и их ввод в эксплуатацию](rus-fixed-asset-acquisition.md)
 - [Регистрация приобретений основных средств](rus-register-acquisition.md)
@@ -91,7 +92,7 @@ ms.locfileid: "2823744"
 - [Регистрация товаров, отгруженных клиентам](../../supply-chain/localizations/rus-goods-transit-postponed.md)
 - [Управление движением денежных средств](rus-cash-flow.md)
 - [Распределение накладных расходов пропорционально весу и объему](rus-miscellaneous-charges.md)
-- [Сторонние накладные расходы](rus-third-party-misc-charges.md)
+- [Накладные расходы третьей стороны](rus-third-party-misc-charges.md)
 
 ## <a name="inventory"></a>Запасы
 - [Товары в пути от поставщика](rus-goods-transit-vendor.md)

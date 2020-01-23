@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7a988f533757cc3f8555fcf4fb724a22a5b014f8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 8f73c034563fb1cc6b05091b4c47e2a788d1a8b6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770466"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945544"
 ---
 # <a name="configure-your-domain-name"></a>Настройка доменного имени
 
@@ -43,16 +43,16 @@ ms.locfileid: "2770466"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор интернет-магазина](online-store-overview.md)
+[Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
 
 [Создание сайта электронной коммерции](create-ecommerce-site.md)
 
-[Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
-
 [Связывание веб-сайта с каналом](associate-site-online-store.md)
+
+[Управление файлами robots.txt](manage-robots-txt-files.md)
+
+[Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
 
 [Добавление поддержки сети доставки контента (CDN)](add-cdn-support.md)
 
 [Включение обнаружения магазинов на основе местоположения](enable-store-detection.md)
-
-[Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)

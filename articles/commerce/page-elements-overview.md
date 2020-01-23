@@ -3,7 +3,7 @@ title: Глоссарий модели страниц
 description: В этой теме описываются различные элементы, которые используются на страницах сайта Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c7b79e8b3bd68ba6246fe24916c60f476a26605
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 0285af2f73a25db3199b3cb089bc0b253a3b3f00
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697965"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914872"
 ---
 # <a name="page-model-glossary"></a>Глоссарий модели страниц
 
@@ -52,6 +52,8 @@ ms.locfileid: "2697965"
 [Способы добавления содержимого](add-manage-content.md)
 
 [Состояния и жизненный цикл документа](document-states-overview.md)
+
+[Работа с группами публикаций](publish-groups.md)
 
 [Работа с модулями](work-with-modules.md)
 

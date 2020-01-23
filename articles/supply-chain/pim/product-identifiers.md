@@ -3,12 +3,12 @@ title: Идентификаторы продуктов
 description: В этом разделе представлены сведения о различных типах идентификаторов продуктов и объясняется, как можно добавить идентификаторы продуктов в данных продукции.
 author: cvocph
 manager: AnnBe
-ms.date: 03/23/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductEntityIdentifierCode
+ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250610"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934894"
 ---
 # <a name="product-identifiers"></a>Идентификаторы продуктов 
 
@@ -43,6 +43,9 @@ ms.locfileid: "2250610"
 При реализации Supply Chain Management следует уделять особое внимание стратегии для номеров продуктов. Хорошая система нумерации улучшает потоки снабжения и позволяет избежать ошибок. Хороший идентификатор продукта содержит не более 15 символов. В идеальном случае он содержит менее 10 символов и включает не более пяти классификационных символов. Можно также использовать краткие наименования для обеспечения быстрого поиска. Краткое наименование — это дополнительное имя, представляющее классификации продукта.
 
 При использовании Common Data Service номер продукта в Supply Chain Management также является номером продукта в Common Data Service. Варианты продуктов синхронизируются в службе Common Data Service как уникально идентифицируемые продукты.
+
+> [!NOTE]
+> Номер продукта не может начинаться с "%".
 
 ## <a name="item-number-and-product-dimensions"></a>Код номенклатуры и аналитики продукта
 

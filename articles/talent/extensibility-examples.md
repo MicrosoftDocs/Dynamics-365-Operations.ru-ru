@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 6c8a583a93c2ceb70d8c3b0e0047e2bf2047b56d
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832846"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898325"
 ---
 # <a name="extend-talent-with-power-apps-and-power-automate"></a>Расширение Talent с помощью Power Apps и Power Automate
-
-[!include [banner](includes/banner.md)]
 
 В этой теме описывается несколько примеров сценариев расширения для Microsoft Dynamics 365 Talent, использующих Microsoft Power Apps и Microsoft Power Automate. Можно импортировать пакет решения, связанный с каждым примером, в среду Power Apps. Затем можно использовать эти пакеты как руководство или как основу для реализации сценариев, которые применимы к вашей организации.
 
@@ -108,7 +106,7 @@ ms.locfileid: "2832846"
 
 Это приложение можно встроить в дистанционное обслуживание сотрудников (ESS) для отправки ссылок, либо можно использовать его в качестве гиперссылки на корпоративном портале и запускать его как отдельное приложение.
 
-Чтобы загрузить **Приложение ссылки**, перейдите по адресу [Решение расширения Dynamics 365 Talent: приложение ссылки](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) в центре загрузки Майкрософт. Можно импортировать это приложение и настроить его для добавления дополнительных функциональных возможностей.
+Чтобы загрузить **Приложение ссылки**, перейдите по адресу [Решение расширения Dynamics 365 Talent: приложение ссылки](https://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) в центре загрузки Майкрософт. Можно импортировать это приложение и настроить его для добавления дополнительных функциональных возможностей.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

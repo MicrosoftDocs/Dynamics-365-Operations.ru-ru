@@ -3,7 +3,7 @@ title: Вопросы и ответы по workflow-процессу
 description: В этом разделе содержатся ответы на часто задаваемые вопросы о системе рабочего процесса.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/19/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772705"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934917"
 ---
 # <a name="workflow-faq"></a>Вопросы и ответы по рабочим процессам
 
@@ -37,7 +37,7 @@ ms.locfileid: "2772705"
 В данный момент имеется ограничение в функции экспорта рабочего процесса, которое не допускает названия рабочих процессов длиной более 48 знаков. Использование имени, длина которого превышает 48 знаков, может привести к ошибке "Серверу не удалось выполнить проверку подлинности запроса" и/или к тому, что файл не может быть экспортирован без типа файла. Следующая запись в блоге содержит дополнительные сведения [об устранении неполадок при экспорте рабочего процесса](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>Может ли отправитель рабочего процесса также утверждать его?
-Да, отправитель рабочего процесса может также утверждать его, если он настроен таким образом. Чтобы не допустить такого поведения, задайте для параметра **Параметры workflow-процесса > Общие сведения > Утверждающее лицо > Запретить утверждение отправителем** значение **Да**.
+Да, отправитель рабочего процесса может также утверждать его, если он настроен таким образом. Чтобы не допустить такого поведения, задайте для параметра **Администрирование системы > Workflow-процесс > Параметры workflow-процесса > Общие сведения > Утверждающее лицо > Запретить утверждение отправителем** значение **Да**.
 
 ## <a name="can-i-add-alerts-to-workflows-to-provide-notifications-to-users"></a>Можно ли добавлять оповещения в рабочие процессы для уведомления пользователей?
 Здесь приведено несколько ключевых областей, которые необходимо отметить о добавлении оповещений в рабочие процессы для предоставления уведомлений:
@@ -51,3 +51,6 @@ ms.locfileid: "2772705"
     - [В рабочих процессах есть бизнес-события](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), которые клиент может использовать для запуска потоков, имеющих уведомления, которые они ищут.   
 
 В целом, если пользователь не получил от центра уведомлений соответствующее уведомление, когда ему назначен рабочий элемент рабочего процесса, используйте [бизнес-события рабочего процесса](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) с Microsoft Power Automate для предоставления дополнительных или других уведомлений.
+
+## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>В редакторе workflow-процесса есть проблемы, начиная с ADFS 
+При работе в рамках Active Directory Federation Services (AD FS) в обновленной среде у редактора рабочего процесса могут возникнуть проблемы с запуском. Если это так, убедитесь,что URL-адрес "https://dynamicsaxworkfloweditor/" добавлен к свойству **Microsoft Dynamics 365 for Operations On-premises — Рабочий процесс — собственное приложение** в настройках ADFS.

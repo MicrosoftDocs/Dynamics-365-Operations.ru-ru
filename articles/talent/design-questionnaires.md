@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 6405b6a680f31c62e16f3bb707ec0a4ccdad3d23
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7559a986c1a112eb1ccc6069ba5b8eb5c6e5b72b
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813922"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898743"
 ---
 # <a name="design-questionnaires"></a>Разработка анкет
-
-[!include [banner](includes/banner.md)]
 
 В этом разделе описывается процесс создания анкеты. Первым шагом является составление анкеты. При составлении анкеты вы не только пишите вопросы и ответы, но также создаете структуру, которая позволяет записывать ответы и составлять таблицы на их основании. 
 

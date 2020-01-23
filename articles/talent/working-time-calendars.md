@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 270048e10c6c0b20023467662acfdcd1b255588e
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: f69bfec663cb8473c112f108813f042368439570
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008969"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897243"
 ---
 # <a name="working-time-calendars"></a>Календари рабочего времени
-
-[!include [banner](includes/banner.md)]
 
 Календарь рабочего времени позволяет создать календарь с часами и днями, когда сотрудники работают в вашей организации. Календари позволяют оптимизировать процесс запроса отгулов по умолчанию, в часах или днях. Когда сотрудник отправляет запрос на отгул, ему не нужно беспокоиться о праздниках и нерабочих днях, — это обрабатывается автоматически посредством календаря рабочего времени.
 

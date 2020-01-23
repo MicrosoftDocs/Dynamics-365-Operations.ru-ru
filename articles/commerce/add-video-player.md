@@ -3,7 +3,7 @@ title: Модуль видеопроигрывателя
 description: В этом разделе описываются модули видеопроигрывателя, а также описывается, как добавлять их к страницам сайта в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32504351f712c83ba8f593c17d2e51c532374311
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 1c78583f39dbacdc7b38e89c33e67ae23731bf8a
+ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785337"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2885909"
 ---
 # <a name="video-player-module"></a>Модуль видеопроигрывателя
 
@@ -57,6 +57,8 @@ ms.locfileid: "2785337"
 ## <a name="video-player-module"></a>Модуль видеопроигрывателя
 
 Модуль видеопроигрывателя может использоваться для демонстрации видеороликов на сайте электронной коммерции. Он поддерживает все возможности воспроизведения, такие как воспроизведение, приостановка, режим полного размера и скрытые субтитры. Модуль видеопроигрывателя также поддерживает настройку скрытых субтитров для соответствия стандартам специальных возможностей Microsoft. Например, можно настроить размер шрифта и цвет фона.
+
+Модуль видеопроигрывателя также поддерживает второстепенные звуковые дорожки. При отправке видео также может быть загружена второстепенная аудиодорожка. Модуль видеопроигрывателя может воспроизводить второстепенную звуковую дорожку, если пользователь ее выбирает.
 
 ### <a name="examples-of-video-player-modules-in-e-commerce"></a>Примеры модулей видеопроигрывателя в электронной коммерции
 

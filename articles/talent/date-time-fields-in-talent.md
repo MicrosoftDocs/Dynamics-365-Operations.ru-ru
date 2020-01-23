@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: abd215243cbda68ba3f57b5fa41054a10745d11f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5f5bb3432ba3e57a4ef08dfa3c25cb61705efc33
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551034"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898766"
 ---
 # <a name="work-with-date-and-time-in-microsoft-dynamics-365-talent"></a>Работа с датой и временем в Microsoft Dynamics 365 Talent
-
-[!include [banner](includes/banner.md)]
 
 Поля **Дата и время** являются фундаментальным понятием в Dynamics 365 Talent. Важно понимать, как работать с данными **Дата и время** в форме Dynamics 365, Common Data Service и во внешних источниках.
 
