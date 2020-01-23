@@ -17,92 +17,90 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e151818f29ac37ff449daaf1dc02e44b8fb317c3
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 22e8570ccb53e8a7be2c57d3f14fe8034bdb699b
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008508"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898904"
 ---
-# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a><span data-ttu-id="2d045-104">Исключение усечения текста по иерархии должностей и экспорт в Visio</span><span class="sxs-lookup"><span data-stu-id="2d045-104">Avoid text truncation on the position hierarchy and export to Visio</span></span>
+# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a><span data-ttu-id="30907-104">Исключение усечения текста по иерархии должностей и экспорт в Visio</span><span class="sxs-lookup"><span data-stu-id="30907-104">Avoid text truncation on the position hierarchy and export to Visio</span></span>
 
-[!include [banner](includes/banner.md)]
+<span data-ttu-id="30907-105">**Расход**</span><span class="sxs-lookup"><span data-stu-id="30907-105">**Issue**</span></span>
 
-<span data-ttu-id="2d045-105">**Расход**</span><span class="sxs-lookup"><span data-stu-id="2d045-105">**Issue**</span></span>
-
-<span data-ttu-id="2d045-106">Когда клиент просматривает иерархию должностей в Microsoft Dynamics 365 Talent, имена людей и названия должностей усекаются.</span><span class="sxs-lookup"><span data-stu-id="2d045-106">When a customer views the position hierarchy in Microsoft Dynamics 365 Talent, the names of individuals and positions are truncated.</span></span> <span data-ttu-id="2d045-107">Поэтому может быть сложно сделать снимок экрана или распечатать иерархию для распространения.</span><span class="sxs-lookup"><span data-stu-id="2d045-107">Therefore, it can be difficult to take a screenshot, or to print and distribute the hierarchy.</span></span>
+<span data-ttu-id="30907-106">Когда клиент просматривает иерархию должностей в Microsoft Dynamics 365 Talent, имена людей и названия должностей усекаются.</span><span class="sxs-lookup"><span data-stu-id="30907-106">When a customer views the position hierarchy in Microsoft Dynamics 365 Talent, the names of individuals and positions are truncated.</span></span> <span data-ttu-id="30907-107">Поэтому может быть сложно сделать снимок экрана или распечатать иерархию для распространения.</span><span class="sxs-lookup"><span data-stu-id="30907-107">Therefore, it can be difficult to take a screenshot, or to print and distribute the hierarchy.</span></span>
 
 ![Иерархия штатных единиц](media/position-h.png)
 
-<span data-ttu-id="2d045-109">**Причина**</span><span class="sxs-lookup"><span data-stu-id="2d045-109">**Cause**</span></span>
+<span data-ttu-id="30907-109">**Причина**</span><span class="sxs-lookup"><span data-stu-id="30907-109">**Cause**</span></span>
 
-<span data-ttu-id="2d045-110">Такое поведение предусмотрено разработчиками.</span><span class="sxs-lookup"><span data-stu-id="2d045-110">This behavior is by design.</span></span>
+<span data-ttu-id="30907-110">Такое поведение предусмотрено разработчиками.</span><span class="sxs-lookup"><span data-stu-id="30907-110">This behavior is by design.</span></span>
 
-<span data-ttu-id="2d045-111">**Разрешение**</span><span class="sxs-lookup"><span data-stu-id="2d045-111">**Resolution**</span></span>
+<span data-ttu-id="30907-111">**Разрешение**</span><span class="sxs-lookup"><span data-stu-id="30907-111">**Resolution**</span></span>
 
-<span data-ttu-id="2d045-112">К сожалению, у пользователей нет простого способа изменить размер текста.</span><span class="sxs-lookup"><span data-stu-id="2d045-112">Unfortunately, users can't easily change the size of the text.</span></span> <span data-ttu-id="2d045-113">Тем не менее, можно экспортировать иерархию должностей из Talent, а затем импортировать ее в Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="2d045-113">However, you can export the position hierarchy out of Talent and then import it into Microsoft Visio.</span></span> <span data-ttu-id="2d045-114">Хотя следующая статья был написан для Microsoft Dynamics AX 2012, процесс все еще применим к Talent: [Экспорт иерархии должностей в Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).</span><span class="sxs-lookup"><span data-stu-id="2d045-114">Although the following article was written for Microsoft Dynamics AX 2012, the process still applies to Talent: [Export a position hierarchy to Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).</span></span>
+<span data-ttu-id="30907-112">К сожалению, у пользователей нет простого способа изменить размер текста.</span><span class="sxs-lookup"><span data-stu-id="30907-112">Unfortunately, users can't easily change the size of the text.</span></span> <span data-ttu-id="30907-113">Тем не менее, можно экспортировать иерархию должностей из Talent, а затем импортировать ее в Microsoft Visio.</span><span class="sxs-lookup"><span data-stu-id="30907-113">However, you can export the position hierarchy out of Talent and then import it into Microsoft Visio.</span></span> <span data-ttu-id="30907-114">Хотя следующая статья был написан для Microsoft Dynamics AX 2012, процесс все еще применим к Talent: [Экспорт иерархии должностей в Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).</span><span class="sxs-lookup"><span data-stu-id="30907-114">Although the following article was written for Microsoft Dynamics AX 2012, the process still applies to Talent: [Export a position hierarchy to Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).</span></span>
 
-<span data-ttu-id="2d045-115">Выполните следующие действия для экспорта в Visio.</span><span class="sxs-lookup"><span data-stu-id="2d045-115">Follow these steps to export to Visio.</span></span>
+<span data-ttu-id="30907-115">Выполните следующие действия для экспорта в Visio.</span><span class="sxs-lookup"><span data-stu-id="30907-115">Follow these steps to export to Visio.</span></span>
 
-1. <span data-ttu-id="2d045-116">В Talent откройте страницу списка **Должности**.</span><span class="sxs-lookup"><span data-stu-id="2d045-116">In Talent, open the **Positions** list page.</span></span>
+1. <span data-ttu-id="30907-116">В Talent откройте страницу списка **Должности**.</span><span class="sxs-lookup"><span data-stu-id="30907-116">In Talent, open the **Positions** list page.</span></span>
 
-    <span data-ttu-id="2d045-117">Чтобы включить дополнительные сведения в диаграмму структуры организации, добавьте поля в список **Должности**, чтобы они были доступны при использовании мастера далее в этой процедуре.</span><span class="sxs-lookup"><span data-stu-id="2d045-117">To include more information in the organization structure diagram, add fields to the **Positions** list, so that they are available when you use the wizard later in this procedure.</span></span>
+    <span data-ttu-id="30907-117">Чтобы включить дополнительные сведения в диаграмму структуры организации, добавьте поля в список **Должности**, чтобы они были доступны при использовании мастера далее в этой процедуре.</span><span class="sxs-lookup"><span data-stu-id="30907-117">To include more information in the organization structure diagram, add fields to the **Positions** list, so that they are available when you use the wizard later in this procedure.</span></span>
 
-2. <span data-ttu-id="2d045-118">В области действий выберите кнопку **Открыть в Microsoft Office**, затем, в разделе **Экспорт в Excel**, выберите **Должности**.</span><span class="sxs-lookup"><span data-stu-id="2d045-118">On the Action Pane, select the **Open in Microsoft Office** button, and then, under **Export to Excel**, select **Positions**.</span></span> <span data-ttu-id="2d045-119">Также можно нажать сочетание клавиш Ctrl + T.</span><span class="sxs-lookup"><span data-stu-id="2d045-119">Alternatively, press Ctrl+T.</span></span>
+2. <span data-ttu-id="30907-118">В области действий выберите кнопку **Открыть в Microsoft Office**, затем, в разделе **Экспорт в Excel**, выберите **Должности**.</span><span class="sxs-lookup"><span data-stu-id="30907-118">On the Action Pane, select the **Open in Microsoft Office** button, and then, under **Export to Excel**, select **Positions**.</span></span> <span data-ttu-id="30907-119">Также можно нажать сочетание клавиш Ctrl + T.</span><span class="sxs-lookup"><span data-stu-id="30907-119">Alternatively, press Ctrl+T.</span></span>
 
     ![Экспорт страницы списка должностей в Excel](media/org-admin.png)
 
-3. <span data-ttu-id="2d045-121">Сохраните экспортированный файл Excel.</span><span class="sxs-lookup"><span data-stu-id="2d045-121">Save the Excel file that is exported.</span></span>
+3. <span data-ttu-id="30907-121">Сохраните экспортированный файл Excel.</span><span class="sxs-lookup"><span data-stu-id="30907-121">Save the Excel file that is exported.</span></span>
 
     ![Диалоговое окно экспорта в Excel](media/export-excel.png)
 
-4. <span data-ttu-id="2d045-123">В Visio выберите **Visio — создать новый**и выберите категорию шаблонов **Бизнес**.</span><span class="sxs-lookup"><span data-stu-id="2d045-123">In Visio, select **Visio - Create New**, and select the **Business** template category.</span></span>
+4. <span data-ttu-id="30907-123">В Visio выберите **Visio — создать новый**и выберите категорию шаблонов **Бизнес**.</span><span class="sxs-lookup"><span data-stu-id="30907-123">In Visio, select **Visio - Create New**, and select the **Business** template category.</span></span>
 
     ![Создать диаграмму](media/new.png)
 
-5. <span data-ttu-id="2d045-125">Выберите **Мастер организационных диаграмм**, затем выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="2d045-125">Select **Organization Chart Wizard**, and then select **Create**.</span></span>
+5. <span data-ttu-id="30907-125">Выберите **Мастер организационных диаграмм**, затем выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="30907-125">Select **Organization Chart Wizard**, and then select **Create**.</span></span>
 
     ![Диалоговое окно мастера организационных диаграмм](media/orgchart-wizard.png)
 
-6. <span data-ttu-id="2d045-127">Выберите **Информация, уже сохраненная в файл или базу данных**, затем выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="2d045-127">Select **Information that's already stored in a file or database**, and then select **Next**.</span></span>
+6. <span data-ttu-id="30907-127">Выберите **Информация, уже сохраненная в файл или базу данных**, затем выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="30907-127">Select **Information that's already stored in a file or database**, and then select **Next**.</span></span>
 
     ![Мастер организационной диаграммы 1](media/orgchart-wizard7.png)
 
-7. <span data-ttu-id="2d045-129">Выберите **Текстовый файл, файл Org Plus (\*.txt) или файл Excel**, затем выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="2d045-129">Choose **A text, Org Plus (\*.txt), or Excel file**, and then select **Next**.</span></span>
+7. <span data-ttu-id="30907-129">Выберите **Текстовый файл, файл Org Plus (\*.txt) или файл Excel**, затем выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="30907-129">Choose **A text, Org Plus (\*.txt), or Excel file**, and then select **Next**.</span></span>
 
     ![Мастер организационной диаграммы 2](media/orgchart-wizard3.png)
 
-8. <span data-ttu-id="2d045-131">Найдите и выберите экспортированный файл Excel, содержащий иерархию должностей, затем выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="2d045-131">Browse to select the exported Excel file that contains the position hierarchy, and then select **Next**.</span></span>
+8. <span data-ttu-id="30907-131">Найдите и выберите экспортированный файл Excel, содержащий иерархию должностей, затем выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="30907-131">Browse to select the exported Excel file that contains the position hierarchy, and then select **Next**.</span></span>
 
     ![Мастер организационной диаграммы 3](media/orgchart-wizard2.png)
 
-9. <span data-ttu-id="2d045-133">Задайте в поле **Имя** значение **Должность**, задайте в поле **Отчитывается перед** значение **Отчитывается перед должностью**, затем выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="2d045-133">Set the **Name** field to **Position**, set the **Reports to** field to **Reports to position**, and then select **Next**.</span></span>
+9. <span data-ttu-id="30907-133">Задайте в поле **Имя** значение **Должность**, задайте в поле **Отчитывается перед** значение **Отчитывается перед должностью**, затем выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="30907-133">Set the **Name** field to **Position**, set the **Reports to** field to **Reports to position**, and then select **Next**.</span></span>
 
     ![Мастер организационной диаграммы 4](media/orgchart-wizard1.png)
 
-10. <span data-ttu-id="2d045-135">Выберите поля, которые должны отображаться в каждом узле, затем выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="2d045-135">Select the fields that should be shown on each node, and then select **Next**.</span></span>
+10. <span data-ttu-id="30907-135">Выберите поля, которые должны отображаться в каждом узле, затем выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="30907-135">Select the fields that should be shown on each node, and then select **Next**.</span></span>
 
     ![Мастер организационной диаграммы 5](media/orgchart-wizard5.png)
 
-11. <span data-ttu-id="2d045-137">Добавьте столбец **Должность** в список **Поля данных фигуры**, затем выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="2d045-137">Add the **Position** column to the **Shape Data fields** list, and then select **Next**.</span></span>
+11. <span data-ttu-id="30907-137">Добавьте столбец **Должность** в список **Поля данных фигуры**, затем выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="30907-137">Add the **Position** column to the **Shape Data fields** list, and then select **Next**.</span></span>
 
     ![Мастер организационной диаграммы 6](media/orgchart-wizard6.png)
 
-12. <span data-ttu-id="2d045-139">Рисунки в настоящее время недоступны.</span><span class="sxs-lookup"><span data-stu-id="2d045-139">Pictures aren't currently available.</span></span> <span data-ttu-id="2d045-140">Поэтому на следующей странице выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="2d045-140">Therefore, on the next page, select **Next**.</span></span>
-13. <span data-ttu-id="2d045-141">Выберите **Мастер должен автоматически разбить организационную диаграмму на страницы**.</span><span class="sxs-lookup"><span data-stu-id="2d045-141">Select **I want the wizard to automatically break my organization chart across pages**.</span></span>
+12. <span data-ttu-id="30907-139">Рисунки в настоящее время недоступны.</span><span class="sxs-lookup"><span data-stu-id="30907-139">Pictures aren't currently available.</span></span> <span data-ttu-id="30907-140">Поэтому на следующей странице выберите **Далее**.</span><span class="sxs-lookup"><span data-stu-id="30907-140">Therefore, on the next page, select **Next**.</span></span>
+13. <span data-ttu-id="30907-141">Выберите **Мастер должен автоматически разбить организационную диаграмму на страницы**.</span><span class="sxs-lookup"><span data-stu-id="30907-141">Select **I want the wizard to automatically break my organization chart across pages**.</span></span>
 
     ![Мастер организационной диаграммы 7](media/orgchart-wizard4.png)
 
-14. <span data-ttu-id="2d045-143">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="2d045-143">Select **Finish**.</span></span>
+14. <span data-ttu-id="30907-143">Выберите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="30907-143">Select **Finish**.</span></span>
 
-    <span data-ttu-id="2d045-144">Если имеются какие-либо должности, которые не входят в структуру, вам будет предложено включить их в диаграмму.</span><span class="sxs-lookup"><span data-stu-id="2d045-144">If there are any positions that aren't in the structure, you're asked to include them in the diagram.</span></span>
+    <span data-ttu-id="30907-144">Если имеются какие-либо должности, которые не входят в структуру, вам будет предложено включить их в диаграмму.</span><span class="sxs-lookup"><span data-stu-id="30907-144">If there are any positions that aren't in the structure, you're asked to include them in the diagram.</span></span>
 
-<span data-ttu-id="2d045-145">Схема, которая создается в Visio, показывает каждого руководителя на отдельном листе.</span><span class="sxs-lookup"><span data-stu-id="2d045-145">The diagram that is generated in Visio shows each manager on a separate worksheet.</span></span>
+<span data-ttu-id="30907-145">Схема, которая создается в Visio, показывает каждого руководителя на отдельном листе.</span><span class="sxs-lookup"><span data-stu-id="30907-145">The diagram that is generated in Visio shows each manager on a separate worksheet.</span></span>
 
-<span data-ttu-id="2d045-146">На основании полей, которые были выбраны для включения в диаграмму, каждый узел отображает соответствующую информацию при создании файла Visio.</span><span class="sxs-lookup"><span data-stu-id="2d045-146">Based on the fields that you selected to include in the diagram, each node shows the appropriate information when the Visio file is generated.</span></span>
+<span data-ttu-id="30907-146">На основании полей, которые были выбраны для включения в диаграмму, каждый узел отображает соответствующую информацию при создании файла Visio.</span><span class="sxs-lookup"><span data-stu-id="30907-146">Based on the fields that you selected to include in the diagram, each node shows the appropriate information when the Visio file is generated.</span></span>
 
 ![Диаграмма иерархии](media/hierarchy.png)
 
-<span data-ttu-id="2d045-148">**Дополнительный параметр**</span><span class="sxs-lookup"><span data-stu-id="2d045-148">**Additional option**</span></span>
+<span data-ttu-id="30907-148">**Дополнительный параметр**</span><span class="sxs-lookup"><span data-stu-id="30907-148">**Additional option**</span></span>
 
-<span data-ttu-id="2d045-149">В Talent также можно использовать рабочую область **Люди**, чтобы просмотреть некоторую информацию, относящуюся к иерархии.</span><span class="sxs-lookup"><span data-stu-id="2d045-149">In Talent, you might also be able to use the **People** workspace to view some hierarchy-related information.</span></span>
+<span data-ttu-id="30907-149">В Talent также можно использовать рабочую область **Люди**, чтобы просмотреть некоторую информацию, относящуюся к иерархии.</span><span class="sxs-lookup"><span data-stu-id="30907-149">In Talent, you might also be able to use the **People** workspace to view some hierarchy-related information.</span></span>
