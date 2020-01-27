@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
+ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772176"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2890335"
 ---
 # <a name="vendor-invoices-overview"></a>Обзор накладных поставщика
 
@@ -76,7 +76,7 @@ ms.locfileid: "2772176"
 
 В этой процедуре предполагается, что для заказа на покупку было разнесено хотя бы одно поступление продуктов. Накладная поставщика создается на основе таких поступлений продуктов и отражает внесенные в них количества. Финансовая информация для накладной основывается на данных, введенных при разноске накладной.
 
-Дополнительные сведения см. в разделе [Регистрация накладной поставщика и сопоставление с полученными количествами](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md)
+Дополнительные сведения см. в разделе [Регистрация накладной поставщика и сопоставление с полученными количествами](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md)
 
 ## <a name="working-with-multiple-invoices"></a>Работа с несколькими накладными
 

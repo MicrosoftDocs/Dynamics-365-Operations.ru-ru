@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fd87a51b73deae64867b0420c00db9fce7c79336
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697137"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945843"
 ---
 # <a name="create-an-e-commerce-site"></a>Создание сайта электронной коммерции
 
@@ -59,20 +59,16 @@ ms.locfileid: "2697137"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор интернет-магазина](online-store-overview.md)
+[Настройка доменного имени](configure-your-domain-name.md)
 
 [Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
 
 [Связывание веб-сайта с каналом](associate-site-online-store.md)
 
-[Настройка доменного имени](configure-your-domain-name.md)
+[Управление файлами robots.txt](manage-robots-txt-files.md)
+
+[Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
 
 [Добавление поддержки сети доставки контента (CDN)](add-cdn-support.md)
 
 [Включение обнаружения магазинов на основе местоположения](enable-store-detection.md)
-
-[Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
-
-[Обзор домашней страницы разработки](authoring-home-overview.md)
-
-[Добавление новой страницы сайта](add-new-page.md)

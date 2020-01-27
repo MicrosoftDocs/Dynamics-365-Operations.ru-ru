@@ -8,9 +8,11 @@
           href: index.md
         - name: Что нового и что изменилось
           items:
-            - name: Предварительные версии функций Platform update 31 (январь 2020 г.)
+            - name: Предварительные версии функций в обновлении платформы 32 (февраль 2020 г.)
+              href: get-started/whats-new-platform-update-32.md
+            - name: Обновление платформы 31 (январь 2020 г.)
               href: get-started/whats-new-platform-update-31.md
-            - name: Platform update 30 (ноябрь 2019 г.)
+            - name: Обновление платформы 30 (ноябрь 2019 г.)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
             - name: Platform update 29 (октябрь 2019 г.)
               href: ../fin-ops/get-started/whats-new-platform-update-29.md
@@ -30,10 +32,14 @@
               href: ../fin-ops/get-started/whats-new-platform-update-22.md
             - name: Platform update 21 (ноябрь 2018 г.)
               href: ../fin-ops/get-started/whats-new-platform-update-21.md
-            - name: Platform update 20 (сентябрь 2018 г.)
+            - name: Обновление платформы 20 (сентябрь 2018 г.)
               href: ../fin-ops/get-started/whats-new-platform-update-20.md
-            - name: Platform update 15 (март 2018 г.)
+            - name: Обновление платформы 15 (март 2018 г.)
               href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Что нового и что изменилось в предыдущих версиях
+              items:
+                - name: Домашняя страница «Что нового и что изменилось в Finance and Operations»
+                  href: ../fin-ops/get-started/whats-new-changed.md
         - name: Бизнес-события
           items:
             - name: Обзор бизнес-событий
@@ -410,7 +416,7 @@
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: Интеграция PowerBI.com с локальными средами
                   href: analytics/entity-store-on-prem.md
-                - name: Настройка обратных прокси-серверов для локальных сред
+                - name: Настройка прокси-серверов для локальных сред
                   href: deployment/onprem-reverseproxy.md
                 - name: Применение обновлений к локальному развертыванию
                   href: deployment/apply-updates-on-premises.md
@@ -926,6 +932,8 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Известные проблемы
                   href: lifecycle-services/known-issues.md
+                - name: Удаленные или исключенные функции Lifecycle Services (LCS)
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: Руководство пользователя Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Средство оценки подписки

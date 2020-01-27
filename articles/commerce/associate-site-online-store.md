@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0fad51fcb092c95103356f17618a647dd166b95
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 62d3c168967bd680b3ded56e627730324f2a5ec6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697371"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945590"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>Связывание сайта электронной коммерции с интернет-каналом
 
@@ -40,16 +40,16 @@ ms.locfileid: "2697371"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор интернет-магазина](online-store-overview.md)
-
-[Создание сайта электронной коммерции](create-ecommerce-site.md)
+[Настройка доменного имени](configure-your-domain-name.md)
 
 [Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
 
-[Настройка доменного имени](configure-your-domain-name.md)
+[Создание сайта электронной коммерции](create-ecommerce-site.md)
+
+[Управление файлами robots.txt](manage-robots-txt-files.md)
+
+[Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
 
 [Добавление поддержки сети доставки контента (CDN)](add-cdn-support.md)
 
 [Включение обнаружения магазинов на основе местоположения](enable-store-detection.md)
-
-[Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)

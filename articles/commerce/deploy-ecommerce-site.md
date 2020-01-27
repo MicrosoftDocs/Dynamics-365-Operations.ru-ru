@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2632632b9b21dd3a88e9a4df0e65cfd28e579d2
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697459"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945521"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Развертывание нового клиента электронной коммерции
 
@@ -88,16 +88,16 @@ Microsoft Dynamics Lifecycle Services (LCS) — это рабочая облас
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор интернет-магазина](online-store-overview.md)
+[Настройка доменного имени](configure-your-domain-name.md)
 
 [Создание сайта электронной коммерции](create-ecommerce-site.md)
 
 [Связывание веб-сайта с каналом](associate-site-online-store.md)
 
-[Настройка доменного имени](configure-your-domain-name.md)
+[Управление файлами robots.txt](manage-robots-txt-files.md)
+
+[Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
 
 [Добавление поддержки сети доставки контента (CDN)](add-cdn-support.md)
 
 [Включение обнаружения магазинов на основе местоположения](enable-store-detection.md)
-
-[Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)

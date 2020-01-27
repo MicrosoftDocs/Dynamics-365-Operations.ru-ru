@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 428e862b84a17f0d50edf034b4cc836e5ae7710d
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: ffbb29fb89ed6a3fd6db11f2c8d656ab565c43f3
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010276"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897657"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (23 июля 2019 г.)
-
-[!include [banner](includes/banner.md)]
 
 В этой теме описываются новые и измененные компоненты Dynamics 365 Talent.
 

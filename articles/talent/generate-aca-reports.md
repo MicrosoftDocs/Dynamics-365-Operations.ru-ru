@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: f03e414683465e7275d6c48a843306abefbacaf0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3490378ff2c4a05b490bf268aada6e8be17b77f9
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505849"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898674"
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Создание отчетов по закону Affordable Care (ACA)
-
-[!include [banner](includes/banner.md)]
 
 Предусмотрена функциональность для помощи работодателям, которым необходимо отслеживать информацию в отчетах по формах 1095 B и 1095-C для выполнения предписаний для работодателей (**Employer Mandate**), предусмотренных законом Affordable Care. Обратите внимание, что эта функциональность включена только для компаний в США.
 

@@ -3,7 +3,7 @@ title: Настройка навигации по сайту
 description: В этом разделе описывается создание настраиваемой иерархии переходов в Интернете для организации продуктов для просмотра на веб-сайте Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e1efb4a7484bd4626886c0f9aa40c3e4dfe304a
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 642cb5c145dec68631eb9ab27d926ba8ab75c59b
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697482"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914918"
 ---
 # <a name="customize-site-navigation"></a>Настройка навигации по сайту
 
@@ -108,3 +108,5 @@ ms.locfileid: "2697482"
 [Работа с модулями](work-with-modules.md)
 
 [Создание URL-адреса страницы](create-page-url.md)
+
+[Работа с группами публикаций](publish-groups.md)

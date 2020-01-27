@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b3eb53943546166eee845749a070ed2fca1a03b8
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 99a7e6130d45229011a185087d4872fe34b8224a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023961"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897634"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (9 июля 2019 г.)
-
-[!include [banner](includes/banner.md)]
 
 В этой теме описываются новые и измененные компоненты Dynamics 365 Talent.
 
@@ -36,6 +34,7 @@ ms.locfileid: "2023961"
 Этот выпуск содержит исправления незначительных ошибок для Dynamics 365 Talent: Attract.
 
 ### <a name="coming-soon-in-attract"></a>Скоро появится в Attract
+
 #### <a name="job-approvals-appear-on-the-home-page"></a>Утверждения должностей отображаются на домашней странице
 
 Утверждения отображаются в разделе **Утверждения** на панели мониторинга. Утверждающие могут просмотреть свои утверждения в разделе **Назначено вам**, который отображает код должности, название должности, других утверждающих и дату назначения должности. Пользователи, которые отправляют должности на утверждение, могут просматривать свои должности в разделе **Запрошено вами**, в котором отображаются утверждающие, которые все еще должны утвердить отправленную должность.
@@ -50,7 +49,7 @@ ms.locfileid: "2023961"
 
 ### <a name="platform-update-28-for-finance-and-operations"></a>Platform Update 28 для Finance and Operations
 
-Дополнительные сведения об обновлении платформы Platform Update 28 для Finance and Operations см. в разделе [Предварительные версии функций в Dynamics 365 Finance and Operations Platform Update 28 (июль 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Дополнительные сведения об обновлении платформы Platform Update 28 для Finance and Operations см. в разделе [Предварительные версии функций в Dynamics 365 Finance and Operations Platform Update 28 (июль 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Поддержка объектов для настраиваемых полей в Common Data Service 
 

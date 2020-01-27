@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7e32f408e5c68a3422906347981c6fc4a4579daf
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812315"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915255"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Обзор финансовой интеграции для каналов розничной торговли
 
@@ -138,9 +138,14 @@ POS выполняет проверку состояния при возникн
 - [Пример интеграции фискальных принтеров для Польши](emea-pol-fpi-sample.md)
 - [Пример интеграции службы финансовой регистрации для Австрии](emea-aut-fi-sample.md)
 - [Пример интеграции службы финансовой регистрации для Чешской Республики](emea-cze-fi-sample.md)
+- [Пример интеграции с блоком управления для Швеции](./emea-swe-fi-sample.md)
 
 Следующие функциональные возможности финансовой интеграции также доступны в пакете Retail SDK, но в данный момент не используют преимущества платформы финансовой интеграции. Перенос этих финансовых возможностей в платформу финансовой интеграции планируется в последующих обновлениях.
 
-- [Функциональность контрольно-кассовой машины для Франции](emea-fra-cash-registers.md)
-- [Функциональность контрольно-кассовой машины для Норвегии](emea-nor-cash-registers.md)
-- [Пример интеграции Retail POS c блоками управления для Швеции](./retail-sdk-control-unit-sample.md)
+
+- [Цифровая подпись для Франции](emea-fra-cash-registers.md)
+- [Цифровая подпись для Норвегии](emea-nor-cash-registers.md)
+
+Следующие устаревшие функции финансовой интеграции, доступные в Retail SDK, не используют структуру финансовой интеграции и будут удалены в последующих обновлениях:
+
+- [Пример интеграции с блоком управления для Швеции (устар.)](./retail-sdk-control-unit-sample.md)

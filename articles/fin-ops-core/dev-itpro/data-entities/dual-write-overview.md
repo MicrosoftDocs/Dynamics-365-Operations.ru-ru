@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 072564446b74318ffc8e8e6ad4fd16f4421e7854
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772395"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853914"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Интеграция данных почти в реальном времени с Common Data Service
 
@@ -59,7 +59,7 @@ ms.locfileid: "2772395"
 Выполните следующие шаги, чтобы настроить интеграцию между приложениями Finance and Operations и Common Data Service.
     
 1. Для настройки системы двойной записи, см. [пошаговое руководство](https://aka.ms/dualwrite-docs) в объявлении предварительной версии двойной записи.
-2. Скачайте и установите решение из группы [Интеграция Finance and Operations, Common Data Service и Customer Engagement](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) в Yammer. Пакет содержит пять решений:
+2. Загрузите и установите решение из группы Yammer [Fin Ops и CDS/CE Integration через Dual-Write](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096). Пакет содержит пять решений:
 
     + Dynamics365Company
     + CurrencyExchangeRates

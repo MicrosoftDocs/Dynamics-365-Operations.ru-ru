@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3e1281171a656a73a35d4990fd8a34b35c1c6db8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fdfc65d02d4468aee094a92e6760400c5e25af8f
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188288"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888663"
 ---
 # <a name="reconcile-a-bank-account"></a>Согласование банковского счета
 
@@ -64,7 +64,7 @@ ms.locfileid: "2188288"
 
 8.  Для просмотра банковских проводок, которые еще не были сверены, используйте отчет **Невыверенные банковские проводки**. Для просмотра банковской выписки для банковского счета используйте отчет **Банковская выписка**.
 
-# <a name="cancel-bank-statement-reconciliation"></a>Отмена выверки банковских выписок 
+## <a name="cancel-bank-statement-reconciliation"></a>Отмена выверки банковских выписок 
 
 Функциональность «Отмена выверки банковских выписок» позволяет отменить выверку банковских выписок. Чтобы использовать эту функцию, включите функцию **Отмена выверки банковских выписок** в рабочей области **Управление функциями**. Вам также необходимо включить параметр **Разрешить редактирование банковской выписки**. Для этого перейдите в раздел **Управление банками и кассами > Настройка > Параметры управления банками и кассами > Банковская выверка**.
  
