@@ -2,44 +2,56 @@
   items:
     - name: Разработка и администрирование приложений Finance and Operations
       items:
-        - name: Документация по приложению Finance and Operations
+        - name: Документация по приложениям Finance and Operations
           href: ../fin-ops/index.md
         - name: Разработка и администрирование приложений Finance and Operations
           href: index.md
         - name: Что нового и что изменилось
           items:
-            - name: Предварительные версии функций в обновлении платформы 32 (февраль 2020 г.)
-              href: get-started/whats-new-platform-update-32.md
-            - name: Обновление платформы 31 (январь 2020 г.)
-              href: get-started/whats-new-platform-update-31.md
-            - name: Обновление платформы 30 (ноябрь 2019 г.)
-              href: ../fin-ops/get-started/whats-new-platform-update-30.md
-            - name: Platform update 29 (октябрь 2019 г.)
-              href: ../fin-ops/get-started/whats-new-platform-update-29.md
-            - name: Platform update 28 (июль 2019 г.)
-              href: ../fin-ops/get-started/whats-new-platform-update-28.md
-            - name: Platform update 27 (июнь 2019 г.)
-              href: ../fin-ops/get-started/whats-new-platform-update-27.md
-            - name: Platform update 26 (май 2019 г.)
-              href: ../fin-ops/get-started/whats-new-platform-update-26.md
-            - name: Platform update 25 (апрель 2019 г.)
-              href: ../fin-ops/get-started/whats-new-platform-25.md
-            - name: Platform update 24 (март 2019 г.)
-              href: ../fin-ops/get-started/whats-new-platform-update-24.md
-            - name: Platform update 23 (январь 2019 г.)
-              href: ../fin-ops/get-started/whats-new-platform-update-23.md
-            - name: Platform update 22 (декабрь 2018 г.)
-              href: ../fin-ops/get-started/whats-new-platform-update-22.md
-            - name: Platform update 21 (ноябрь 2018 г.)
-              href: ../fin-ops/get-started/whats-new-platform-update-21.md
-            - name: Обновление платформы 20 (сентябрь 2018 г.)
-              href: ../fin-ops/get-started/whats-new-platform-update-20.md
-            - name: Обновление платформы 15 (март 2018 г.)
-              href: ../fin-ops/get-started/whats-new-platform-update-15.md
-            - name: Что нового и что изменилось в предыдущих версиях
+            - name: Что нового и что изменилось в приложениях Finance and Operations
+              href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Что нового и что изменилось в выпусках Platform update
               items:
-                - name: Домашняя страница «Что нового и что изменилось в Finance and Operations»
-                  href: ../fin-ops/get-started/whats-new-changed.md
+                - name: Что нового и что изменилось на домашней странице Platform update
+                  href: get-started/whats-new-home-page.md
+                - name: Platform update 33 (апрель 2020 г.)
+                  href: get-started/whats-new-platform-update-33.md
+                - name: Platform update 32 (февраль 2020 г.)
+                  href: get-started/whats-new-platform-update-32.md
+                - name: Platform update 31 (январь 2020 г.)
+                  href: get-started/whats-new-platform-update-31.md
+                - name: Обновление платформы 30 (ноябрь 2019 г.)
+                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
+                - name: Platform update 29 (октябрь 2019 г.)
+                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
+                - name: Platform update 28 (июль 2019 г.)
+                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
+                - name: Platform update 27 (июнь 2019 г.)
+                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
+                - name: Platform update 26 (май 2019 г.)
+                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
+                - name: Platform update 25 (апрель 2019 г.)
+                  href: ../fin-ops/get-started/whats-new-platform-25.md
+                - name: Platform update 24 (март 2019 г.)
+                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
+                - name: Platform update 23 (январь 2019 г.)
+                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
+                - name: Platform update 22 (декабрь 2018 г.)
+                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
+                - name: Platform update 21 (ноябрь 2018 г.)
+                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
+                - name: Platform update 20 (сентябрь 2018 г.)
+                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
+                - name: Platform update 15 (март 2018 г.)
+                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Удаленные или устаревшие функции
+              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: 'Функции AX 2012, реализация которых была отложена'
+              href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: 'Функции, не реализованные в локальных развертываниях'
+              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Окончание основной фазы поддержки Microsoft Dynamics AX 2009 и 2012
+              href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Бизнес-события
           items:
             - name: Обзор бизнес-событий
@@ -133,52 +145,52 @@
                     - name: Синхронная двунаправленная интеграция
                       items:
                         - name: Интеграция данных почти в реальном времени
-                          href: data-entities/dual-write-overview.md
+                          href: data-entities/dual-write/dual-write-overview.md
                         - name: Организационная иерархия в Common Data Service
-                          href: data-entities/dual-write-organization.md
+                          href: data-entities/dual-write/organization-mapping.md
                         - name: Интеграция компании
                           items:
-                            - name: Понятие компании в Common Data Service
-                              href: data-entities/dual-write-company.md
+                            - name: Понятие компании в Common Data Services
+                              href: data-entities/dual-write/company-data.md
                             - name: Начальная загрузка данных компании
-                              href: data-entities/dual-write-bootstrap.md
+                              href: data-entities/dual-write/bootstrap-company-data.md
                         - name: Интегрированный справочник клиентов
-                          href: data-entities/dual-write-customer.md
+                          href: data-entities/dual-write/customer-mapping.md
                         - name: Интегрированная книга учета
-                          href: data-entities/dual-write-ledger.md
+                          href: data-entities/dual-write/ledger-mapping.md
                         - name: Унифицированный подход к работе с продуктами
-                          href: data-entities/dual-write-product.md
+                          href: data-entities/dual-write/product-mapping.md
                         - name: Интеграция с поставщиками
                           items:
                             - name: Интегрированный справочник поставщиков
-                              href: data-entities/dual-write-vendor.md
+                              href: data-entities/dual-write/vendor-mapping.md
                             - name: Переключение между вариантами дизайна поставщиков
-                              href: data-entities/dual-write-vendor-switch.md
+                              href: data-entities/dual-write/vendor-switch.md
                         - name: Интегрированные объекты и склады
-                          href: data-entities/dual-write-sites-and-warehouses.md
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
                         - name: Интегрированный налоговый справочник
-                          href: data-entities/dual-write-tax.md
+                          href: data-entities/dual-write/tax-mapping.md
                         - name: Начальная синхронизация
-                          href: data-entities/dual-write-initial.md
+                          href: data-entities/dual-write/initial-sync.md
                         - name: Устранение неполадок при интеграции данных
-                          href: data-entities/dual-write-troubleshooting.md
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                     - name: Асинхронная однонаправленная интеграция
                       items:
                         - name: Настройка сценария продажи перспективному клиенту
                           items:
                             - name: Продажа перспективному клиенту
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: Синхронизация организаций непосредственно из Sales с клиентами в Finance and Operations
+                            - name: Синхронизация организаций напрямую из Sales с клиентами в Finance and Operations
                               href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: Синхронизация продуктов непосредственно из Finance and Operations с продуктами в Sales
+                            - name: Синхронизация продуктов напрямую из Finance and Operations с продуктами в Sales
                               href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: Синхронизация контактов непосредственно из Sales с контактами или клиентами в Finance and Operations
+                            - name: Синхронизация контактов напрямую из Sales с контактами или клиентами в Finance and Operations
                               href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: Синхронизация заголовков и строк предложений по продаже непосредственно из Sales с Finance and Operations
+                            - name: Синхронизация заголовков и строк предложений по продаже напрямую из Sales с Finance and Operations
                               href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
                             - name: Синхронизация заказов на продажу напрямую между Sales и Finance and Operations
                               href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: Синхронизация заголовков и строк накладных по продаже непосредственно из Finance and Operations с Sales
+                            - name: Синхронизация заголовков и строк накладных по продаже напрямую из Finance and Operations с Sales
                               href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                         - name: Настройка интеграции с Field Service
                           items:
@@ -190,17 +202,17 @@
                               href: ../../supply-chain/sales-marketing/field-service-work-order.md
                             - name: Синхронизация накладных договора в Field Service с накладными с произвольным текстом в Finance and Operations
                               href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: Синхронизация перемещений и корректировок запасов Field Service с Finance and Operations
+                            - name: Синхронизация перемещений и корректировок запасов из Field Service с Finance and Operations
                               href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: Синхронизация сведений об уровне запасов Finance and Operations с Field Service
+                            - name: Синхронизация сведений об уровне запасов из Finance and Operations с Field Service
                               href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: Синхронизация продуктов с единицами измерения складского учета Finance and Operations с Field Service
+                            - name: Синхронизация продуктов с единицами измерения складского учета из Finance and Operations с Field Service
                               href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: Синхронизация списка проектов Finance and Operations с Field Service
+                            - name: Синхронизация списка проектов из Finance and Operations с Field Service
                               href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: Синхронизация складов Finance and Operations с Field Service
+                            - name: Синхронизация складов из Finance and Operations с Field Service
                               href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: Синхронизация заказов на выполнение работ с проектом из Field Service в Finance and Operations
+                            - name: Синхронизация заказов на выполнение работ с проектом из Field Service с Finance and Operations
                               href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                         - name: Настройка интеграции Project Service Automation
                           items:
@@ -912,7 +924,7 @@
                   href: gdpr/gdpr-extend-person-search-report.md
                 - name: Управление доступом к конфиденциальным данным
                   href: gdpr/gdpr-auditing-sensitive-data.md
-                - name: Ответ на запросы персональных данных с помощью Talent
+                - name: Ответ на запросы персональных данных с помощью Human Resources
                   href: gdpr/respond-dsr-request-talent.md
                 - name: Ответ на запросы персональных данных в AX 2012
                   href: gdpr/gdpr-ax2012.md
@@ -1258,15 +1270,15 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Поддержка
           items:
-            - name: Получение поддержки по Finance and Operations и Lifecycle Services
+            - name: Поддержка Finance and Operations и Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Обзор вариантов поддержки Dynamics 365
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: 'Получение поддержки по Finance and Operations, предоставляемому компанией 21Vianet в Китае'
+            - name: Поддержка Finance and Operations на базе 21Vianet в Китае
               href: lifecycle-services/21vianet-support.md
             - name: Отправка запросов команде разработчиков служб Dynamics
               href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-            - name: Настройка технической поддержки Finance and Operations
+            - name: Настройка технической поддержки для Finance and Operations
               href: lifecycle-services/support-experience.md
             - name: Вопросы и ответы по окну планового обслуживания
               href: lifecycle-services/planned-maintenance-window-faq.md
@@ -1390,7 +1402,7 @@
                       href: migration-upgrade/upgrade-budget-planning.md
             - name: Миграция данных из AX 2009
               items:
-                - name: Перенос данных из AX 2009 в Finance and Operations
+                - name: Миграция данных из AX 2009 в Finance and Operations
                   href: migration-upgrade/data-migration-tool.md
                 - name: "Миграция с AX 2009\_— установка средства переноса данных"
                   href: migration-upgrade/install-dmt.md
@@ -1672,5 +1684,7 @@
       href: ../../supply-chain/index.md
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
+    - name: Dynamics 365 Commerce
+      href: ../../commerce/index.md
     - name: Dynamics 365 Retail
-      href: ../../retail/index.md
+      href: ../../commerce/index.md

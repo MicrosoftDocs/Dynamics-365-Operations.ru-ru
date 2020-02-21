@@ -1,0 +1,7 @@
+## <a name="colors-to-msdyn_productcolors"></a><span data-ttu-id="1a7f0-101">Цвета -> msdyn_productcolors</span><span class="sxs-lookup"><span data-stu-id="1a7f0-101">Colors to msdyn_productcolors</span></span>
+
+<span data-ttu-id="1a7f0-102">Этот шаблон синхронизирует данные между приложениями Finance and Operations и Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="1a7f0-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="1a7f0-103">Поле Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="1a7f0-103">Finance and Operations field</span></span> | <span data-ttu-id="1a7f0-104">Тип сопоставления</span><span class="sxs-lookup"><span data-stu-id="1a7f0-104">Map type</span></span> | <span data-ttu-id="1a7f0-105">Другое поле Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="1a7f0-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="1a7f0-106">Значение по умолчанию</span><span class="sxs-lookup"><span data-stu-id="1a7f0-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="1a7f0-107">COLORID</span><span class="sxs-lookup"><span data-stu-id="1a7f0-107">COLORID</span></span> | >> | <span data-ttu-id="1a7f0-108">msdyn_productcolorname</span><span class="sxs-lookup"><span data-stu-id="1a7f0-108">msdyn_productcolorname</span></span> | 

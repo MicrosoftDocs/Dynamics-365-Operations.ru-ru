@@ -1,0 +1,8 @@
+## <a name="all-products-to-msdyn_globalproducts"></a><span data-ttu-id="ddb40-101">Все продукты -> msdyn_globalproducts</span><span class="sxs-lookup"><span data-stu-id="ddb40-101">All products to msdyn_globalproducts</span></span>
+
+<span data-ttu-id="ddb40-102">Этот шаблон синхронизирует данные между приложениями Finance and Operations и Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="ddb40-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="ddb40-103">Поле Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="ddb40-103">Finance and Operations field</span></span> | <span data-ttu-id="ddb40-104">Тип сопоставления</span><span class="sxs-lookup"><span data-stu-id="ddb40-104">Map type</span></span> | <span data-ttu-id="ddb40-105">Другое поле Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="ddb40-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="ddb40-106">Значение по умолчанию</span><span class="sxs-lookup"><span data-stu-id="ddb40-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="ddb40-107">PRODUCTNAME</span><span class="sxs-lookup"><span data-stu-id="ddb40-107">PRODUCTNAME</span></span> | >> | <span data-ttu-id="ddb40-108">msdyn_productname</span><span class="sxs-lookup"><span data-stu-id="ddb40-108">msdyn_productname</span></span> | 
+<span data-ttu-id="ddb40-109">PRODUCTNUMBER</span><span class="sxs-lookup"><span data-stu-id="ddb40-109">PRODUCTNUMBER</span></span> | >> | <span data-ttu-id="ddb40-110">msdyn_productnumber</span><span class="sxs-lookup"><span data-stu-id="ddb40-110">msdyn_productnumber</span></span> | 

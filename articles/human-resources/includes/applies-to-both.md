@@ -1,0 +1,2 @@
+> [!NOTE]
+> <span data-ttu-id="118e7-101">Эта статья относится к Dynamics 365 Human Resources и к рабочей области **Управление персоналом** в Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="118e7-101">This article applies to both Dynamics 365 Human Resources and the **Human resources** workspace in Dynamics 365 Finance.</span></span>

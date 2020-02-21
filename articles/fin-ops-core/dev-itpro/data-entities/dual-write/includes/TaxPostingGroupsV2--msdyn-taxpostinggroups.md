@@ -1,0 +1,8 @@
+## <a name="sales-tax-ledger-posting-groups-v2-to-msdyn_taxpostinggroups"></a><span data-ttu-id="acc8e-101">Группы разноски ГК для налога V2 -> msdyn_taxpostinggroups</span><span class="sxs-lookup"><span data-stu-id="acc8e-101">Sales tax ledger posting groups V2 to msdyn_taxpostinggroups</span></span>
+
+<span data-ttu-id="acc8e-102">Этот шаблон синхронизирует данные между приложениями Finance and Operations и Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="acc8e-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="acc8e-103">Поле Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="acc8e-103">Finance and Operations field</span></span> | <span data-ttu-id="acc8e-104">Тип сопоставления</span><span class="sxs-lookup"><span data-stu-id="acc8e-104">Map type</span></span> | <span data-ttu-id="acc8e-105">Другое поле Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="acc8e-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="acc8e-106">Значение по умолчанию</span><span class="sxs-lookup"><span data-stu-id="acc8e-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="acc8e-107">TAXPOSTINGGROUPCODE</span><span class="sxs-lookup"><span data-stu-id="acc8e-107">TAXPOSTINGGROUPCODE</span></span> | = | <span data-ttu-id="acc8e-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="acc8e-108">msdyn_name</span></span> | 
+<span data-ttu-id="acc8e-109">DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="acc8e-109">DESCRIPTION</span></span> | = | <span data-ttu-id="acc8e-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="acc8e-110">msdyn_description</span></span> | 

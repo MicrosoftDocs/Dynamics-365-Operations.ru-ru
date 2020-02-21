@@ -1,0 +1,8 @@
+## <a name="legal-entities-to-cdm_companies"></a><span data-ttu-id="bed22-101">Юридические лица -> cdm_companies</span><span class="sxs-lookup"><span data-stu-id="bed22-101">Legal entities to cdm_companies</span></span>
+
+<span data-ttu-id="bed22-102">Этот шаблон синхронизирует данные между приложениями Finance and Operations и Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="bed22-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="bed22-103">Поле Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="bed22-103">Finance and Operations field</span></span> | <span data-ttu-id="bed22-104">Тип сопоставления</span><span class="sxs-lookup"><span data-stu-id="bed22-104">Map type</span></span> | <span data-ttu-id="bed22-105">Другое поле Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="bed22-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="bed22-106">Значение по умолчанию</span><span class="sxs-lookup"><span data-stu-id="bed22-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="bed22-107">NAME</span><span class="sxs-lookup"><span data-stu-id="bed22-107">NAME</span></span> | = | <span data-ttu-id="bed22-108">cdm_name</span><span class="sxs-lookup"><span data-stu-id="bed22-108">cdm_name</span></span> | 
+<span data-ttu-id="bed22-109">LEGALENTITYID</span><span class="sxs-lookup"><span data-stu-id="bed22-109">LEGALENTITYID</span></span> | = | <span data-ttu-id="bed22-110">cdm_companycode</span><span class="sxs-lookup"><span data-stu-id="bed22-110">cdm_companycode</span></span> | 

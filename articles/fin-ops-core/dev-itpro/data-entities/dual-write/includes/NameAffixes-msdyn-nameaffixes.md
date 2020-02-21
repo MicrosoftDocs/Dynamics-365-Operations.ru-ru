@@ -1,0 +1,9 @@
+## <a name="name-affixes-to-msdyn_nameaffixes"></a><span data-ttu-id="9d101-101">Аффиксы имен -> msdyn_nameaffixes</span><span class="sxs-lookup"><span data-stu-id="9d101-101">Name affixes to msdyn_nameaffixes</span></span>
+
+<span data-ttu-id="9d101-102">Этот шаблон синхронизирует данные между приложениями Finance and Operations и Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="9d101-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="9d101-103">Поле Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="9d101-103">Finance and Operations field</span></span> | <span data-ttu-id="9d101-104">Тип сопоставления</span><span class="sxs-lookup"><span data-stu-id="9d101-104">Map type</span></span> | <span data-ttu-id="9d101-105">Другое поле Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="9d101-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="9d101-106">Значение по умолчанию</span><span class="sxs-lookup"><span data-stu-id="9d101-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="9d101-107">AFFIX</span><span class="sxs-lookup"><span data-stu-id="9d101-107">AFFIX</span></span> | = | <span data-ttu-id="9d101-108">msdyn_affix</span><span class="sxs-lookup"><span data-stu-id="9d101-108">msdyn_affix</span></span> | 
+<span data-ttu-id="9d101-109">TYPE</span><span class="sxs-lookup"><span data-stu-id="9d101-109">TYPE</span></span> | >< | <span data-ttu-id="9d101-110">msdyn_affixtype</span><span class="sxs-lookup"><span data-stu-id="9d101-110">msdyn_affixtype</span></span> | 
+<span data-ttu-id="9d101-111">DESCRIPTION</span><span class="sxs-lookup"><span data-stu-id="9d101-111">DESCRIPTION</span></span> | = | <span data-ttu-id="9d101-112">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="9d101-112">msdyn_description</span></span> | 
