@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f38c2ad9561cc1a1c775c27aec54681124cffeec
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563397"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004096"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Кросс-докинг продуктов со склада приемки в магазины
 
@@ -31,9 +31,9 @@ ms.locfileid: "1563397"
 
 1. Перейдите в раздел "Все заказы на покупку".
 2. Выберите в списке заказ на покупку и щелкните ссылку, чтобы открыть заказ.
-3. В области действий щелкните "Розница".
+3. В области действий щелкните Retail и Commerce.
 4. Щелкните "Кросс-докинг".
-5. Щелкните "Изменить".
+5. Выберите Изменить.
     * Категории можно использовать для фильтрации номенклатуры в разделе "Строки".  
 6. В списке найдите и выберите требуемую запись.
 7. В поле "Количество для кросс-докинга" введите значение для определения того, какое количество приобретенного выбранного продукта будет распределено.

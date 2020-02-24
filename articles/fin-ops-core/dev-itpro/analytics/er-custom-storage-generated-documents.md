@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 45a2335d7a661ddc1d8907c56ae8193387f44e26
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771406"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030874"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Указание пользовательского места хранения для созданных документов
 
@@ -56,7 +56,7 @@ ms.locfileid: "2771406"
 
 Чтобы указать способ маршрутизации документов, создаваемых форматом ER, необходимо настроить [пункты назначения электронной отчетности (ER)](electronic-reporting-destinations.md). В каждом пункте назначения ER, настроенном для хранения созданных документов в виде файлов, необходимо указать тип документа платформы управления документами. Различные типы документов могут использоваться для маршрутизации документов, создаваемых различными форматами электронной отчетности.
 
-1. Добавьте новый [тип документа](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) в формат ER, созданный или импортированный ранее. На рисунке ниже тип документа — **FileX**.
+1. Добавьте новый [тип документа](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) в формат ER, созданный или импортированный ранее. На рисунке ниже тип документа — **FileX**.
 2. Этот отличать этот тип документа от других типов документов, включите определенное ключевое слово в его имя. Например, на следующем рисунке задано имя **(ЛОКАЛЬНАЯ) папка**.
 3. В поле **Класс** укажите **Вложить файл**.
 4. В поле **Группа** укажите **Файл**.
@@ -70,7 +70,7 @@ ms.locfileid: "2771406"
 
 Просмотрите код метода **insertFile()** класса **ERDocuManagement**. Обратите внимание, что событие **AttachingFile()** возникает, когда созданный файл присоединяется к записи.
 
-```
+```xpp
 /// <summary>
 /// Inserts file as attachment in Document Management.
 /// </summary>
@@ -131,7 +131,7 @@ public DocuRef insertFile(
     1. Сохраните созданные файлы в папке локальной файловой системы сервера, на котором выполняется служба Application Object Server (AOS).
     2. Сохраните эти созданные файлы только в том случае, когда используется тип нового документа(например, тип **FileX**, содержащий ключевое слово "(ЛОКАЛЬНЫЙ)" в имени), а файла прикреплен к записи в журнале задания выполнения электронной отчетности.
 
-    ```
+    ```xpp
     class ERDocuSubscriptionSample
     {
         void new()

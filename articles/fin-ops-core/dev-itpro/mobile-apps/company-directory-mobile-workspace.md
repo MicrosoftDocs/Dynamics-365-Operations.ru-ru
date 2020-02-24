@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Talent
+ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5a96955b72fcc5b0e2975f4bb1e619062be33e20
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 445a2872dcd0e4d3aca9a50c7539fdabb0ed7818
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248765"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005594"
 ---
 # <a name="company-directory-mobile-workspace"></a>Мобильная рабочая область каталога компании
 
@@ -53,11 +53,11 @@ ms.locfileid: "2248765"
 <tr class="odd">
 <td>Один из следующих продуктов должен быть развернут в вашей организации:
 <ul><li>Приложение Finance and Operations</li>
-<li>Microsoft Dynamics 365 Talent</li>
+<li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Системный администратор</td>
-<td>Если в вашей организации еще не развернуто приложение Finance and Operations, см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Talent, системный администратор может получить доступ к пробной версии на <a href="https://www.microsoft.com/dynamics365/talent">веб-странице Talent</a>.
+<td>Если в вашей организации еще не развернуто приложение Finance and Operations, см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>. Если в организации еще не развернуто Human Resources, системный администратор может получить доступ к пробной версии на <a href="https://dynamics.microsoft.com/human-resources/overview/">веб-странице Human Resources</a>.
 </td>
 </tr>
 <tr class="even">

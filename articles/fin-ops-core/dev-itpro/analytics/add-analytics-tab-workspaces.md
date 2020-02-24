@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771641"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025862"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Добавление аналитики в рабочие области с помощью Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Эта функция поддерживается в Finance and Operations (версия 7.2 и выше).
+> Эта возможность поддерживается в Finance and Operations (версии 7.2 и выше).
 
 ## <a name="introduction"></a>Введение
 В этом разделе показано, как внедрить отчет Microsoft Power BI на вкладку **Аналитика** рабочей области. В данном примере мы расширим рабочую область **Управление резервированием** в приложении "Управления автопарком" для внедрения аналитической рабочей области на вкладку **Аналитика**.
@@ -111,7 +111,7 @@ ms.locfileid: "2771641"
 2. Нажмите клавишу F7 для доступа к коду определения кода.
 3. Добавьте следующий код X++:
 
-    ```
+    ```xpp
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
@@ -156,7 +156,7 @@ ms.locfileid: "2771641"
 В этом разделе представлены сведения о вспомогательном классе, который используется для внедрения отчета Power BI (PBIX-ресурс) в элемент управления группой форм.
 
 #### <a name="syntax"></a>Синтаксис
-```
+```xpp
 public static void initializeReportControl(
     str                 _resourceName,
     FormGroupControl    _formGroupControl,

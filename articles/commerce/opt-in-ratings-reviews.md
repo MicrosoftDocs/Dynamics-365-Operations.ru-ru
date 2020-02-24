@@ -3,7 +3,7 @@ title: Соглашение на использование оценок и от
 description: В этой теме объясняется, как согласиться на использование оценок и отзывов на веб-сайте Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10e3c33af232fa46df09a103b2e73eae09a909eb
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: eda7fbaeea8d3c1a07f7b43cafe44886d149a211
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697988"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027273"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Соглашение на использование оценок и отзывов
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как согласиться на использование оценок и отзывов на веб-сайте Microsoft Dynamics 365 Commerce.
@@ -36,7 +35,7 @@ ms.locfileid: "2697988"
 
 Решение оценок и отзывов — это омниканальное решение, которое можно сделать доступным в Dynamics 365 Commerce с помощью Microsoft Dynamics Lifecycle Services (LCS). LCS — это портал администрирования, который используется в розничных магазинах для управления средами от подготовки до выведения из эксплуатации.
 
-Если вы хотите использовать решение оценок и отзывов на веб-сайте Commerce, вы должны сначала согласиться.
+Если вы хотите использовать решение с оценками и обзорами на веб-сайте Commerce, вы должны принять оценки и обзоры во время развертывания узла электронной коммерции Dynamics 365 Commerce.
 
 ## <a name="opt-in-to-use-ratings-and-reviews"></a>Соглашение на использование оценок и отзывов
 
@@ -51,6 +50,9 @@ ms.locfileid: "2697988"
 
 1. Завершите процесс инициализации электронной коммерции.
 
+> [!NOTE] 
+> Если вы являетесь существующим клиентом Dynamics 365 Commerce, который уже развернул сайт электронной коммерции, не прибегая к оценкам и обзорам, а теперь хотите использовать оценки и обзоры из пакета Dynamics 365 Commerce, отправьте запрос на обслуживание. Сведения о том, как отправлять запрос на обслуживание, см. в разделе [Процесс отправки запросов на обслуживание](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json). 
+
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 [Обзор оценок и отзывов](ratings-reviews-overview.md)
@@ -60,3 +62,5 @@ ms.locfileid: "2697988"
 [Настройка оценок и отзывов](configure-ratings-reviews.md)
 
 [Синхронизация оценок продуктов в Dynamics 365 Retail](sync-product-ratings.md)
+
+

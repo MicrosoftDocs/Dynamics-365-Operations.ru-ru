@@ -1,5 +1,5 @@
 ---
-title: Вопросы и ответы среды предварительного просмотра Commerce
+title: Вопросы и ответы по среде предварительной версии Dynamics 365 Commerce
 description: Эта тема дает ответы на часто задаваемые вопросы о среде предварительного просмотра Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,15 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 53e593931850d6b8b22bb756d5828f742416aa4d
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906101"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024760"
 ---
-# <a name="commerce-preview-environment-faq"></a>Вопросы и ответы среды предварительного просмотра Commerce
+# <a name="dynamics-365-commerce-preview-environment-faq"></a>Вопросы и ответы по среде предварительной версии Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Эта тема дает ответы на часто задаваемые вопросы о среде предварительного просмотра Microsoft Dynamics 365 Commerce.
@@ -83,10 +82,10 @@ Dynamics 365 Retail Cloud Scale Unit (RCSU) и электронная комме
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор среды предварительного просмотра Commerce](cpe-overview.md)
+[Обзор среды предварительной версии Dynamics 365 Commerce](cpe-overview.md)
 
-[Обеспечение среды предварительного просмотра Commerce](provisioning-guide.md)
+[Обеспечение среды предварительной версии Dynamics 365 Commerce](provisioning-guide.md)
 
-[Настройка среды предварительного просмотра Commerce](cpe-post-provisioning.md)
+[Настройка среды предварительной версии Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Настройка дополнительных функций для среды предварительного просмотра Commerce](cpe-optional-features.md)
+[Настройка дополнительных функций среды предварительной версии Dynamics 365 Commerce](cpe-optional-features.md)

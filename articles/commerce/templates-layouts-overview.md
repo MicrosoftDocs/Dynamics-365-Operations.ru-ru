@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ddae5b77c36151a279a463033079099722d166e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d805c39b77d653eaa9935751ae89012c98b930d2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914849"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002690"
 ---
 # <a name="templates-and-layouts-overview"></a>Обзор шаблонов и макетов
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Шаблоны являются фундаментальным элементом модели страницы Microsoft Dynamics 365 Commerce. Если целью является повышение эффективности и согласованности рабочих процессов для создания сайтов, важно изучить преимущества использования шаблонов для веб-сайта. Ранние решения, связанные с структурой шаблона, являются важными, и могут значительно повлиять на затраты и гибкость для ежедневных обновлений, сезонных обновлений и обновлений бренда по всему сайту. Хорошо структурированные шаблоны также имеют и другие преимущества. Например, они помогают улучшить показатели оптимизации поисковой системы (SEO) на уровне сайта и минимизировать количество ошибок.

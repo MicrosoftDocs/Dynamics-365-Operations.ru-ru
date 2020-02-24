@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d66cc69da08478ceb931fab594da51bafcacc38
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3fe08b30977b8515ffd8d0acc1fd8f4b3085de93
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185091"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026094"
 ---
 # <a name="er-design-domain-specific-data-model"></a>Электронная отчетность Проектирование моделей данных для конкретных доменов
 
@@ -48,7 +48,7 @@ ms.locfileid: "2185091"
 4. Нажмите кнопку "Создать конфигурацию", чтобы завершить задачу создания конфигурации
 
 ## <a name="create-a-data-model"></a>Создание модели данных
-    * Вы создаете новую модель данных для выбранной конфигурации. Эта версия конфигурации будет иметь статус "Черновик".  
+Вы создаете новую модель данных для выбранной конфигурации. Эта версия конфигурации будет иметь статус "Черновик".  
 1. Выберите Конструктор.
 
 ## <a name="define-the-structure-of-a-party-participating-in-a-payment-process"></a>Определение структуры субъекта, участвующего в процессе оплаты

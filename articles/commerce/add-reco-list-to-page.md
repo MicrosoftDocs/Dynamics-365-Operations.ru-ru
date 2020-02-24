@@ -3,7 +3,7 @@ title: Добавление списков рекомендации продук
 description: В этой теме объясняется, как добавить список рекомендаций продуктов на страницу электронной коммерции.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 01/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,26 +19,26 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4f2b1e9768b34d341adb3c11e475daa7a1d1882f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5c71c1cf91b1913f44546f40620aff358cf256b2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770513"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001308"
 ---
-# <a name="add-product-recommendation-lists-to-e-commerce-pages"></a>Добавление списков рекомендаций продуктов на страницы электронной коммерции
+# <a name="add-recommendation-lists-to-a-site"></a>Добавление списков рекомендаций на сайт
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как добавить список рекомендаций продуктов на страницу электронной коммерции.
 
-1. Из существующей страницы создания электронной коммерции выберите **Добавить модуль**.
+1. Из существующей страницы построителя сайтов электронной коммерции выберите **Добавить модуль**.
 2. Выполните поиск модуля **Семейство продуктов**.
 3. В мастере модуля выберите список, который требуется добавить на страницу.
 4. Сохраните изменения.
 
-Для получения дополнительных сведений о типах списков, которые можно добавить на страницу, см раздел [Обзор рекомендаций продуктов](product-recommendations.md).
+Для получения дополнительных сведений о типах списков, которые можно добавить на страницу, см раздел [Обзор модуля семейства продуктов](product-collection-module-overview.md).
 
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
@@ -50,3 +50,5 @@ ms.locfileid: "2770513"
 [Создание списков рекомендаций по продукту](create-editorial-recommendation-lists.md)
 
 [Управление результатами рекомендаций по продукту на основе AI-ML](modify-product-recommendation-results.md)
+
+[Обзор модуля семейства продуктов](product-collection-module-overview.md)

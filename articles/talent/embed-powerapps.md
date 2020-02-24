@@ -1,5 +1,5 @@
 ---
-title: Внедрение приложений Power Apps в Dynamics 365 - Core HR
+title: Внедрение приложений Power Apps в Dynamics 365 Human Resources
 description: В этом разделе описан порядок решения проблемы, когда элемент меню Microsoft Power Apps исчезает из модуля "Администрирование системы".
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b1dd1756be349d85af8e6d7159623a2a95e75526
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8275a8a7c68fa13d6b9880c4c411deaa2dcbb998
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898720"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3017881"
 ---
-# <a name="embed-power-apps-apps-in-dynamics-365---core-hr"></a>Внедрение приложений Power Apps в Dynamics 365 - Core HR
+# <a name="embed-power-apps-apps-in-dynamics-365-human-resources"></a>Внедрение приложений Power Apps в Dynamics 365 Human Resources
 
 **Выдать**
 
@@ -38,31 +38,31 @@ ms.locfileid: "2898720"
 
 Был изменен способ внедрения Power Apps. Теперь Power Apps добавляются с помощью модели персонализации. Можно добавить Power Apps почти на все страницы Microsoft Dynamics 365 Talent.
 
-Информацию о том, как внедрить приложения Power Apps в Talent, см. раздел [Внедрение приложений Microsoft Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Информацию о том, как внедрить приложения Power Apps в Talent, см. раздел [Внедрение приложений Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
 Любой клиент Power Apps, который внедрял приложения перед изменением, должен был обновиться до новой модели.
 
-Кнопка **Power Apps** находится в правом верхнем углу почти каждой страницы в Talent. Эту кнопку можно использовать для вставки Power Apps.
+Кнопка **Power Apps** находится в правом верхнем углу почти каждой страницы в Talent. Эту кнопку можно использовать для вставки приложений.
 
 Рассмотрим пример:
 
 1. Выберите **Управление персоналом \> Ссылки \> Работники \> Сотрудники**.
-2. Выберите кнопку **Power Apps**, затем выберите пункт **Вставить PowerApp**.
+2. Выберите кнопку **Power Apps**, а затем выберите **Добавить приложение из Power Apps**.
 
     ![Кнопка Power Apps](media/png.png)
 
-3. Заполните поля в диалоговом окне **Вставить PowerApp**.
+3. Заполните поля в диалоговом окне **Добавление приложения из Power Apps**.
 
-    ![Диалоговое окно "Вставить PowerApp"](media/insert-powerapp.png)
+    ![Диалоговое окно добавления приложения из Power Apps](media/insert-powerapp.png)
 
 Можно также выполнить следующие действия.
 
-1. В области действий на странице на вкладке **Параметры** в группе **Персонализация** выберите **Персонализировать эту форму**.
+1. В области действий на странице на вкладке **Параметры** в группе **Персонализация** выберите **Персонализировать эту страницу**.
 
     ![Настройка группы на вкладке "Параметры"](media/options.png)
 
     Открывается панель инструментов персонализации.
 
-2. На панели инструментов выберите **Вставить \> PowerApp**.
+2. На панели инструментов выберите **Добавить приложение из Power Apps**.
 
-    ![Вставка приложения Power Apps с помощью панели инструментов персонализации](media/powerapp-bar.png)
+    ![Добавьте приложение из Power Apps с помощью панели инструментов персонализации](media/powerapp-bar.png)

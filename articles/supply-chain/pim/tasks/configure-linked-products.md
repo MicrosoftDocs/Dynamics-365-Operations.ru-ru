@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3ef8314c3b6122627de0a730e912c7ebcd99be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec7a2c5a2b2b7ef22fd3dcf7f7d3859e8e07ea5e
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568658"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003958"
 ---
 # <a name="configure-linked-products"></a>Настройка связанных продуктов
 
@@ -30,9 +30,9 @@ ms.locfileid: "1568658"
 
 1. Щелкните "Управление сведениями о продукте" > "Продукты" > "Выпущенные продукты".
 2. В списке найдите и выберите требуемую запись.
-3. В области действий щелкните "Розница".
+3. В области действий щелкните Retail и Commerce.
 4. Щелкните "Связанные продукты".
-5. Щелкните "Изменить".
+5. Выберите Изменить.
 6. В поле "Код связанного продукта" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.
 7. В списке перейдите по ссылке в выбранной строке.
 8. В поле "Единица измерения" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.

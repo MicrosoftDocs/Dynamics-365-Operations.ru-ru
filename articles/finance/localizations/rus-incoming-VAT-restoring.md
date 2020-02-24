@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f8b67317a286904287e97028662b8cd393587db1
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 16b6e271084139618b7836d4e30b5b2b80fbb75a
+ms.sourcegitcommit: c0929ebda9dfb7affe2a187336abf980ce2009a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915334"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "2994059"
 ---
 # <a name="incoming-vat-restoring"></a>Восстановление входящего НДС
 [!include [banner](../includes/banner.md)]
@@ -193,7 +193,7 @@ ms.locfileid: "2915334"
 
      - Выберите **Расчет выручки**, чтобы открыть диалоговое окно **Расчет выручки**, в котором можно просмотреть список накладных клиентов в текущем периоде.  Список создается на основе значения в поле **Метод расчета выручки** на странице **Параметры главной книги**.
 
-         ![](media/3%20Revenue%20calculation.jpg)
+         ![Расчет выручки](media/3%20Revenue%20calculation.jpg)
            
          Для каждой накладной в диалоговом окне **Расчет выручки** можно выполнить следующие действия:
          

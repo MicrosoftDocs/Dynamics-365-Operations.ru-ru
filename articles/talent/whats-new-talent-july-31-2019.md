@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 96937d48e0d1003adbc5f7fedc89b2686ace01cd
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 311042caf6a391a06c7e2d8c4c2c2f6e1f855437
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899043"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006295"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (30 июля 2019 г.)
 
@@ -41,7 +41,7 @@ ms.locfileid: "2899043"
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Поддержка региона для Канады и Юго-Восточной Азии
 
-Мы рады сообщить, что регионы Канады и Юго-Восточной Азии будут доступны для Talent с 1 августа 2019. С помощью этого изменения можно создавать среды в регионах Канады и Азии, и все данные Talent будут поддерживаться исключительно в пределах этих мест. Можно создать среду в этих новых регионах, выбрав местоположение в диалоговом окне новой среды и использовать эту среду для подготовки Talent в LCS, так как это описывается в разделе [Подготовка Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Мы рады сообщить, что регионы Канады и Юго-Восточной Азии будут доступны для Talent с 1 августа 2019. С помощью этого изменения можно создавать среды в регионах Канады и Азии, и все данные Talent будут поддерживаться исключительно в пределах этих мест. Можно создать среду в этих новых регионах, выбрав местоположение в диалоговом окне новой среды и использовать эту среду для подготовки Talent в LCS, так как это описывается в разделе [Подготовка Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Миграция данных существующих проектов из других регионов в регионы Канада и Азия не поддерживается. Только новые проекты могут быть подготовлены в этих новых поддерживаемых регионах.
 
