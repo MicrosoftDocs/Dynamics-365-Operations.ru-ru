@@ -19,16 +19,15 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d075635b7b986cc854550d15f7e941a9ea9cf72
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770421"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024941"
 ---
 # <a name="create-curated-product-recommendation-lists"></a>Создание списков рекомендаций по продукту
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как менеджер по сбыту может создавать списки продуктов вручную для клиентов Microsoft Dynamics 365 Commerce и управлять ими.
@@ -39,7 +38,7 @@ ms.locfileid: "2770421"
 
 Для создания проверенного списка рекомендаций продуктов выполните следующие действия.
 
-1. Выберите **Retail** &gt; **Рекомендации продуктов** &gt; **Списки рекомендаций**.
+1. Выберите **Retail и Commerce &gt; Рекомендации продуктов &gt; Списки рекомендаций**.
 1. Выберите **Создать**.
 1. В поле **Код списка** введите значение.
 1. В поле **Имя списка** введите значение.
@@ -60,3 +59,5 @@ ms.locfileid: "2770421"
 [Включить рекомендации по продуктам](enable-product-recommendations.md)
 
 [Добавление списков рекомендации продуктов на страницы](add-reco-list-to-page.md)
+
+[Обзор модуля семейства продуктов](product-collection-module-overview.md)

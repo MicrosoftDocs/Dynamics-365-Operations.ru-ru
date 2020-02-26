@@ -1,5 +1,5 @@
 ---
-title: Получение поддержки по приложениям Finance and Operations или Lifecycle Services (LCS)
+title: Поддержка приложений Finance and Operations и Lifecycle Services (LCS)
 description: В этой теме объясняется, как получить помощь по работе с приложениями Finance and Operations или Microsoft Dynamics Lifecycle Services (LCS).
 author: kfend
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e62e406de5d972b3e66319cf293d3d420c69d46
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812143"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005524"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Получение поддержки по приложениям Finance and Operations или Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Поддержка приложений Finance and Operations и Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
@@ -77,7 +77,7 @@ ms.locfileid: "2812143"
 По техническим вопросам, связанным с входом и доступом к CustomerSource, электронным обучением, поиском, базой знаний, загрузкой файлов, а также ошибками страниц и системы в целом, обратитесь в <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">поддержку веб-сайта</span></a>.</td>
 </tr>
 <tr class="odd">
-<td>Получить помощь по вопросам о лицензировании приложений Finance and Operations.</td>
+<td>Получить ответы на вопросы о лицензировании приложений Finance and Operations.</td>
 <td>Обратитесь к своему партнеру, реселлеру Large Account Reseller (LAR) или дилеру корпорации Майкрософт.</td>
 </tr>
 <tr class="even">
@@ -90,6 +90,6 @@ ms.locfileid: "2812143"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 - [Получение поддержки по Dynamics 365 Retail](../../../retail/retail-support.md)
-- [Получение поддержки по Microsoft Dynamics 365 Talent](../../../talent/talent-support.md)
+- [Получение поддержки по Microsoft Dynamics 365 Human Resources](../../../human-resources/hr-admin-troubleshooting-support.md)
 - Дополнительные сведения о предложениях по поддержке Microsoft Dynamics см. в разделе [Управление опытом поддержки для приложений Finance and Operations](cloud-powered-support-lcs.md).
 

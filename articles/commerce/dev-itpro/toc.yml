@@ -1,0 +1,1620 @@
+- name: Разработка и администрирование Finance and Operations
+  href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Что нового и что изменилось
+  items:
+    - name: Предварительные версии функций в Platform update 30 (ноябрь 2019 г.)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-30.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Platform update 29 (октябрь 2019 г.)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-29.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Platform update 28 (июль 2019 г.)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-28.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Platform update 27 (июнь 2019 г.)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-27.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Platform update 26 (май 2019 г.)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-26.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Platform update 25 (апрель 2019 г.)
+      href: ../../fin-and-ops/get-started/whats-new-platform-25.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Platform update 24 (март 2019 г.)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-24.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Platform update 23 (январь 2019 г.)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-23.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Platform update 22 (декабрь 2018 г.)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-22.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Platform update 21 (ноябрь 2018 г.)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-21.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Platform update 20 (сентябрь 2018 г.)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-20.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Platform update 15 (март 2018 г.)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-15.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Бизнес-события
+  items:
+    - name: Обзор бизнес-событий
+      href: ../../dev-itpro/business-events/home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Бизнес-события приложения
+      href: ../../dev-itpro/business-events/app-business-events.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Бизнес-события бизнес-правила
+      href: ../../dev-itpro/business-events/business-events-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Оповещения как бизнес-события
+      href: ../../dev-itpro/business-events/alerts-business-events.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Бизнес-события в Microsoft Flow
+      href: ../../dev-itpro/business-events/business-events-flow.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Документация для разработчиков бизнес-событий
+      href: ../../dev-itpro/business-events/business-events-dev-doc.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Диагностика бизнес-событий
+      href: ../../dev-itpro/business-events/troubleshooting.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Варианты использования для бизнес-событий
+      href: ../../dev-itpro/business-events/potential-use-cases.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Учебники
+      items:
+        - name: Бизнес-события и Microsoft Flow
+          href: ../../dev-itpro/business-events/how-to/how-to-flow.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Бизнес-события и сетка событий Azure
+          href: ../../dev-itpro/business-events/how-to/how-to-eventgrid.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Бизнес-события и служебная шина Azure
+          href: ../../dev-itpro/business-events/how-to/how-to-servicebus.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Бизнес-события и утверждения документооборота
+          href: ../../dev-itpro/business-events/how-to/how-to-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Бизнес-события и Microsoft Forms Pro
+          href: ../../dev-itpro/business-events/how-to/FormsPro.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Бизнес-события и центры событий Azure
+          href: ../../dev-itpro/business-events/how-to/event-hub.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Непрерывная поставка
+  items:
+    - name: Домашняя страница непрерывной поставки
+      href: ../../dev-itpro/dev-tools/continuous-delivery-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Вопросы и ответы по разработке и непрерывной поставке
+      href: ../../dev-itpro/dev-tools/continuous-delivery-faq.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Исключение тестовых пакетов из выходных данных сборки
+      href: ../../dev-itpro/dev-tools/exclude-test-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Управление сторонними моделями и пакетами сред выполнения с помощью системы управления версиями
+      href: ../../dev-itpro/dev-tools/manage-runtime-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Обновление версий модели при автоматической сборке
+      href: ../../dev-itpro/dev-tools/version-models-build.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Интеграция данных
+  items:
+    - name: Выбор стратегии интеграции данных (импорт/экспорт)
+      href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: API интеграции данных
+      items:
+        - name: REST API пакета управления данными
+          href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Конечные точки служб
+          items:
+            - name: Обзор конечных точек служб
+              href: ../../dev-itpro/data-entities/services-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Устранение неполадок с проверкой подлинности в службах
+              href: ../../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: OData
+          href: ../../dev-itpro/data-entities/odata.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Разработка настраиваемых служб
+          href: ../../dev-itpro/data-entities/custom-services.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Повторяющиеся интеграции
+          href: ../../dev-itpro/data-entities/recurring-integrations.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Тестирование служб с помощью программ от независимых производителей
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Соединитель Finance and Operations
+      href: ../../dev-itpro/data-entities/fin-ops-connector.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Разработка механизмов интеграции
+      items:
+        - name: Интеграция данных с использованием информационных объектов
+          items:
+            - name: Обзор интеграции данных с использованием информационных объектов
+              href: ../../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Разработка объекта для переноса данных
+              href: ../../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Разработка составных информационных объектов
+              href: ../../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Настройка совместного использования финансовых данных компаниями
+              href: ../../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Создание шаблонов записей для более удобного ввода данных
+              href: ../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Создание записей с использованием шаблонов записей
+              href: ../../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Интеграция данных с помощью Common Data Service
+          items:
+            - name: Обзор интеграции данных с помощью Common Data Service
+              href: ../../dev-itpro/data-entities/data-integration-cds.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Синхронная двунаправленная интеграция
+              items:
+                - name: Интеграция данных почти в реальном времени
+                  href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Организационная иерархия в Common Data Service
+                  href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Понятие компании в Common Data Services
+                  href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Интегрированный справочник клиентов
+                  href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Унифицированный подход к работе с продуктами
+                  href: ../../dev-itpro/data-entities/dual-write-product.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Интегрированный справочник поставщиков
+                  href: ../../dev-itpro/data-entities/dual-write-vendor.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Интегрированные сайты и склады
+                  href: ../../dev-itpro/data-entities/dual-write-sites-and-warehouses.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Начальная синхронизация
+                  href: ../../dev-itpro/data-entities/dual-write-initial.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Устранение неполадок при интеграции данных
+                  href: ../../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Асинхронная однонаправленная интеграция
+              items:
+                - name: Настройка сценария продажи перспективному клиенту
+                  items:
+                    - name: Продажа перспективному клиенту
+                      href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация организаций напрямую из Sales с клиентами в Finance and Operations
+                      href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация продуктов напрямую из Finance and Operations с продуктами в Sales
+                      href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация контактов напрямую из Sales с контактами или клиентами в Finance and Operations
+                      href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация заголовков и строк предложений по продаже напрямую из Sales с Finance and Operations
+                      href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация заказов на продажу напрямую между Sales и Finance and Operations
+                      href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация заголовков и строк накладных по продаже напрямую из Finance and Operations с Sales
+                      href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Настройка интеграции с Field Service
+                  items:
+                    - name: Обзор настройки интеграции с Field Service
+                      href: ../../supply-chain/sales-marketing/field-service.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация продуктов в Finance and Operations с продуктами в Field Service
+                      href: ../../supply-chain/sales-marketing/field-service-product.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация заказов на выполнение работ в Field Service с заказами на продажу в Finance and Operations
+                      href: ../../supply-chain/sales-marketing/field-service-work-order.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация накладных договора в Field Service с накладными с произвольным текстом в Finance and Operations
+                      href: ../../supply-chain/sales-marketing/field-service-invoice.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация перемещений и корректировок запасов из Field Service с Finance and Operations
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация сведений об уровне запасов из Finance and Operations с Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация продуктов с единицами измерения складского учета из Finance and Operations с Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация списка проектов из Finance and Operations с Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация складов из Finance and Operations с Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация заказов на выполнение работ с проектом из Field Service с Finance and Operations
+                      href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Настройка интеграции Project Service Automation
+                  items:
+                    - name: Обзор Project Service Automation
+                      href: ../../financials/project-management/PSA-integration.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Параметры интеграции Project Service Automation
+                      href: ../../financials/project-management/PSA-parameters.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация контрактов по проекту и проектов
+                      href: ../../financials/project-management/project-contracts-templates.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация задач проекта
+                      href: ../../financials/project-management/project-tasks-template.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация категорий расходов по проекту
+                      href: ../../financials/project-management/project-categories-templates.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация оценок для проекта с прогнозами по проекту
+                      href: ../../financials/project-management/project-estimates-templates.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Синхронизация фактических данных проекта с журналом интеграции проекта
+                      href: ../../financials/project-management/project-actuals-templates.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Использование внешних веб-служб
+      href: ../../dev-itpro/data-entities/consume-external-web-service.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Электронные сообщения
+      href: ../../financials/general-ledger/electronic-messaging.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Управление данными
+  items:
+    - name: Обзор управления данными
+      href: ../../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Информационные объекты
+      items:
+        - name: Обзор информационных объектов
+          href: ../../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Проекты данных конфигурации
+          href: ../../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Копирование данных конфигурации между компаниями или юридическими лицами
+          items:
+            - name: Обзор копирования данных конфигурации
+              href: ../../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Пакеты данных конфигурации
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Пакеты данных конфигурации (только выпуск за июль 2017 г.)
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Предоставление хранилища объектов как Data Lake
+              href: ../../dev-itpro/data-entities/entity-store-data-lake.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблоны данных конфигурации
+          href: ../../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Отслеживание изменений в объекте
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Поиск сведений о стандартных информационных объектах
+          href: ../../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблоны данных с несколькими листами
+          href: ../../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Включение отслеживания изменений для объектов
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Конфигурационные ключи и информационные объекты
+          href: ../../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Пакеты данных конфигурации
+          href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Задания импорта и экспорта данных
+      items:
+        - name: Обзор заданий импорта и экспорта данных
+          href: ../../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Рекомендации по импорту ваучеров с помощью объекта "Общий журнал"
+          href: ../../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Разработка с использованием информационных объектов
+      items:
+        - name: Принципы и рекомендации по разработке для информационных объектов
+          href: ../../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание новых информационных объектов
+          href: ../../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Свойства информационного объекта
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание вычисляемых столбцов и виртуальных полей
+          href: ../../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Межфирменное взаимодействие
+          href: ../../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Работа с кодами стран/регионов
+          href: ../../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Схемы наследования
+          href: ../../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Правила мастера информационных объектов
+          href: ../../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Свойства метаданных
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Проверки, значения по умолчанию и несопоставленные поля'
+          href: ../../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Безопасность и информационные объекты
+          href: ../../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Использование программ тестирования от независимых производителей
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Создание доступных только для чтения объектов, предоставляющих финансовые аналитики'
+          href: ../../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Использование своей собственной базы данных
+      href: ../../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Автоматизированное обновление хранилища объектов
+      href: ../../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Автоматизация задач данных
+      href: ../../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Рабочая область "Контрольный список проверки данных"
+      href: ../../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Описания ошибок управления данными
+      href: ../../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Операций перемещения баз данных
+  items:
+    - name: Обзор
+      href: ../../dev-itpro/database/dbmovement-operations.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Краткие руководства по началу работы
+      items:
+        - name: Обновление баз данных
+          href: ../../dev-itpro/database/database-refresh.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Экспорт базы данных
+          href: ../../dev-itpro/database/export-database.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Импорт базы данных.
+          href: ../../dev-itpro/database/import-database.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Восстановление базы данных на определенный момент времени
+          href: ../../dev-itpro/database/database-point-in-time-restore.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Учебники
+      items:
+        - name: Обновление для целей обучения
+          href: ../../dev-itpro/database/dbmovement-scenario-general-refresh.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Отладка копии рабочей базы данных
+          href: ../../dev-itpro/database/dbmovement-scenario-debugdiag.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Экспорт копии базы данных пользовательских приемочных тестов (UAT)
+          href: ../../dev-itpro/database/dbmovement-scenario-exportuat.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Реклама эталонной конфигурации
+          href: ../../dev-itpro/database/dbmovement-scenario-goldenconfig.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Тестирование с разрушением
+          href: ../../dev-itpro/database/dbmovement-scenario-destructivetests.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Демонстрационные данные
+  items:
+    - name: Обзор демонстрационных данных
+      href: ../../fin-and-ops/get-started/demo-data.md?toc=/dynamics365/unified-operations/retail/toc.json?toc=/dev-itpro/toc.json
+    - name: Создание демонстрационных данных с помощью пакетов данных
+      href: ../../dev-itpro/data-entities/generate-demo-data-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Развертывание
+  items:
+    - name: Развертывание демонстрационных сред
+      href: ../../dev-itpro/deployment/deploy-demo-environment.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Облачное развертывание
+      items:
+        - name: Обзор облачного развертывания
+          href: ../../dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Дистанционное развертывание
+          items:
+            - name: Обзор дистанционного развертывания
+              href: ../../dev-itpro/deployment/infrastructure-stack.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Развертывание новой среды
+              href: ../../dev-itpro/deployment/deployenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Вопросы и ответы по развертыванию
+              href: ../../dev-itpro/deployment/deploymentFAQ.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Известные проблемы с дистанционным развертыванием
+              href: ../../dev-itpro/deployment/known-issues-new-deployment-experience.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Операции обслуживания для развертываний
+              href: ../../dev-itpro/deployment/maintenanceoperationsguide-newinfrastructure.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Обновление среды
+              href: ../../dev-itpro/deployment/updateenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'Устранение неполадок сред, развернутых с помощью дистанционного развертывания'
+              href: ../../dev-itpro/deployment/troubleshoot-newinfrastructure.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Завершение адаптации Azure Resource Manager
+          href: ../../dev-itpro/deployment/arm-onboarding.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Azure ExpressRoute и Finance and Operations
+          href: ../../dev-itpro/deployment/expressroute.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Архитектура Finance and Operations
+          href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Применение обновлений к облачным средам
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Применение обновлений и расширений к размещенным в облаке компонентам канала Retail
+          href: ../../dev-itpro/deployment/Update-retail-channel.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Инициализация Retail Cloud Scale Unit
+          href: ../../dev-itpro/deployment/Initialize-Retail-Channels.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Место расположения данных Retail
+          href: ../../dev-itpro/deployment/retail-data-residency.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Локальное развертывание
+      items:
+        - name: Домашняя страница локального развертывания
+          href: ../../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обзор локального развертывания
+          href: ../../dev-itpro/deployment/on-premises-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Планирование локальных развертываний и подготовка к ним
+          href: ../../dev-itpro/deployment/plan-onprem-deployment.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Требования к определению параметров оборудования
+          href: ../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dynamics365/unified-operations/retail/toc.json?toc=/dev-itpro/toc.json
+        - name: Настройка локальных проектов
+          href: ../../dev-itpro/lifecycle-services/lbd-create-lcs-on-prem-project.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Настройка и развертывание локальных сред
+          items:
+            - name: Домашняя страница настройки и развертывания локальных сред
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-environments.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Развертывание локальных сред (Platform update 12 и более поздние версии)
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu12.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Развертывание локальных сред (Platform update 8 и 11)
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu8-pu11.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Действия по установке для компонентов канала розничной торговли в локальной среде
+              href: ../../dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Разработка и развертывание пользовательских моделей в локальных средах
+          href: ../../dev-itpro/deployment/develop-deploy-custom-models-on-premises.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Интеграция PowerBI.com с локальными средами
+          href: ../../dev-itpro/analytics/entity-store-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Настройка обратных прокси-серверов для локальных сред
+          href: ../../dev-itpro/deployment/onprem-reverseproxy.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Применение обновлений к локальному развертыванию
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Локальная диагностика
+          href: ../../dev-itpro/deployment/on-premises-diagnostics.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Повторное развертывание локальных развертываний
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Локальный агент
+          items:
+            - name: Совместимость AD FS Office 365
+              href: ../../dev-itpro/deployment/onprem-adfscompatibility.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'Сценарии, выполняемые перед развертыванием локального агента и после его развертывания'
+              href: ../../dev-itpro/lifecycle-services/pre-post-scripts.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Обновление локального агента
+              href: ../../dev-itpro/lifecycle-services/update-local-agent.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Повторная настройка сред
+          href: ../../dev-itpro/lifecycle-services/reconfigure-environment.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Подключение к Интернету клиента
+          href: ../../dev-itpro/user-interface/client-disconnected.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Устранение неполадок локальных развертываний
+          href: ../../dev-itpro/deployment/troubleshoot-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Ротация сертификатов
+          href: ../../dev-itpro/deployment/certificate-rotation-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Развертывание пользовательского кода
+      items:
+        - name: Создание готовых к развертыванию пакетов моделей
+          href: ../../dev-itpro/deployment/create-apply-deployable-package.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Установка готовых к развертыванию пакетов из командной строки
+          href: ../../dev-itpro/deployment/install-deployable-package.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Удаление пакета
+          href: ../../dev-itpro/deployment/uninstall-deployable-package.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Устранение неполадок приложений пакета
+          href: ../../dev-itpro/deployment/deployable-package-troubleshooting.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Разработка и настройка
+  items:
+    - name: Домашняя страница модуля разработки и настройки
+      href: ../../dev-itpro/dev-tools/developer-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Стек приложений и архитектура сервера
+      href: ../../dev-itpro/dev-tools/application-stack-server-architecture.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Получение ознакомительных версий
+      href: ../../dev-itpro/dev-tools/get-evaluation-copy.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Регистрация на ознакомительные подписки
+      href: ../../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Развертывание сред разработки и доступ к ним
+      items:
+        - name: Среды разработки
+          href: ../../dev-itpro/dev-tools/access-instances.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Настройка односерверных сред разработки
+          href: ../../dev-itpro/dev-tools/configure-developer-vm.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание новых пользователей на компьютерах для разработки
+          href: ../../dev-itpro/dev-tools/enable-development-machine.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Вопросы и ответы по виртуальным машинам разработки и сборки, не допускающим доступ администратора'
+          href: ../../dev-itpro/sysadmin/VMs-no-admin-access.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Переименование локальных сред для доступа к Azure DevOps
+          href: ../../dev-itpro/migration-upgrade/vso-machine-renaming.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Требования к системе для разработки
+          href: ../../dev-itpro/dev-tools/development-system-requirements.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: 'Управление версиями, поиск по метаданным и навигация'
+      href: ../../dev-itpro/dev-tools/version-control-metadata-navigation.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Пример приложения для управления автопарком
+      items:
+        - name: Сквозной сценарий для примера приложения для управления автопарком
+          href: ../../dev-itpro/dev-tools/fleet-management-sample.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Пример приложения для управления автопарком
+          href: ../../dev-itpro/dev-tools/introduction-fleet-management-sample.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Средства Visual Studio
+      items:
+        - name: Средства разработки
+          href: ../../dev-itpro/dev-tools/development-tools-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Учебник по средствам разработки
+          href: ../../dev-itpro/dev-tools/introduction-visual-studio.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Средство проверки приложений
+          items:
+            - name: Установка BaseX для средства проверки приложений
+              href: ../../dev-itpro/dev-tools/install-basex.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обозреватель приложений
+          href: ../../dev-itpro/dev-tools/application-explorer.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Сборка и отладка проектов
+          href: ../../dev-itpro/dev-tools/build-debug-project.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Операции сборки
+          href: ../../dev-itpro/dev-tools/build-operations.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Функции редактора кода
+          href: ../../dev-itpro/dev-tools/code-editor.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание моделей и элементы модели данных
+          items:
+            - name: Обзор создания моделей и элементов модели данных
+              href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Правила именования для расширений
+              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Отключение настройки моделей и отказ от функций
+              href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Отчет об анализе настройки
+          href: ../../dev-itpro/dev-tools/customization-analysis-report.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Конструкторы элементов
+          href: ../../dev-itpro/dev-tools/element-designers.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Команды для определения использования элемента
+          href: ../../dev-itpro/dev-tools/element-usage.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Экспорт и импорт моделей
+          href: ../../dev-itpro/dev-tools/models-export-import.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Поиск по метаданным в Visual Studio
+          href: ../../dev-itpro/dev-tools/metadata-search-visual-studio.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Модели и пакеты
+          href: ../../dev-itpro/dev-tools/models.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Тип проекта Finance and Operations
+          href: ../../dev-itpro/dev-tools/projects.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Надстройки с инструментами для Visual Studio
+          href: ../../dev-itpro/dev-tools/developer-tools-add-ins.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление средств разработки Visual Studio
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Язык программирования X++
+      items:
+        - name: X++ и функции отладчика
+          href: ../../dev-itpro/dev-tools/new-x-debugger-features.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Отладка кода X++
+          href: ../../dev-itpro/dev-tools/debug-xpp.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Классы EventHandlerResult в сценариях с запросами и ответами
+          href: ../../dev-itpro/dev-tools/event-handler-result-class.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Написание бизнес-логики на языках C# и X++ Source Code'
+          href: ../../dev-itpro/dev-tools/write-business-logic.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Изменения в X++ и компиляторе X++
+          href: ../../dev-itpro/dev-tools/programming-language-support.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Поставщик LINQ для C#'
+          href: ../../dev-itpro/dev-tools/linq-provider-c.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Написание правил рекомендаций
+          href: ../../dev-itpro/dev-tools/author-best-practice-rules.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Свойства обозревателя приложений
+          href: ../../dev-itpro/dev-ref/application-explorer-aot-properties.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Справочник по языку X++
+          items:
+            - name: Обзор справочника по языку X++
+              href: ../../dev-itpro/dev-ref/xpp-language-reference.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Переменные и типы данных
+              items:
+                - name: Переменные
+                  href: ../../dev-itpro/dev-ref/xpp-variables-data-types.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Простые типы данных
+                  href: ../../dev-itpro/dev-ref/xpp-data-primitive.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Составные типы данных
+                  href: ../../dev-itpro/dev-ref/xpp-data-composite.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Типы коллекций
+                  href: ../../dev-itpro/dev-ref/xpp-data-collection.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Расширенные типы данных
+                  href: ../../dev-itpro/dev-ref/xpp-data-edt.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'Инструкции, циклы и обработка исключений'
+              items:
+                - name: 'Комментарии, using и print'
+                  href: ../../dev-itpro/dev-ref/xpp-statements-loops.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Условные операторы
+                  href: ../../dev-itpro/dev-ref/xpp-conditional.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Операторы циклов
+                  href: ../../dev-itpro/dev-ref/xpp-loops.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Обработка исключений
+                  href: ../../dev-itpro/dev-ref/xpp-exceptions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Исключение X++ "Ошибка подключения SQL"
+              href: ../../dev-itpro/dev-ref/sql-connection-error.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Операторы X++
+              href: ../../dev-itpro/dev-ref/xpp-operators.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Приоритет операторов в X++
+              href: ../../dev-itpro/dev-ref/xpp-operator-precedence.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы и методы в X++
+              items:
+                - name: Классы и методы
+                  href: ../../dev-itpro/dev-ref/xpp-classes-methods.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Наследственность
+                  href: ../../dev-itpro/dev-ref/xpp-inheritance.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Элементы статических классов
+                  href: ../../dev-itpro/dev-ref/xpp-static-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Интерфейсы
+                  href: ../../dev-itpro/dev-ref/xpp-interfaces.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Библиотеки
+                  href: ../../dev-itpro/dev-ref/xpp-library-objects.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: События
+                  href: ../../dev-itpro/dev-ref/xpp-events.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Выбор данных и манипуляции с данными в X++
+              href: ../../dev-itpro/dev-ref/xpp-data-query.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Работа с данными через API SysDa
+              href: ../../dev-itpro/dev-ref/sysda.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Макросы в X++
+              href: ../../dev-itpro/dev-ref/xpp-macros.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы атрибутов в X++
+              href: ../../dev-itpro/dev-ref/xpp-attribute-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'Сравнение X++ и C#'
+              href: ../../dev-itpro/dev-ref/xpp-cs-comparison.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Синтаксис X++
+              href: ../../dev-itpro/dev-ref/xpp-syntax.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: 'Справочник по API, классам и таблицам'
+      items:
+        - name: 'Ресурсы по API, классам и таблицам'
+          href: ../../dev-itpro/dev-ref/api-reference.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Функции времени компиляции X++
+          href: ../../dev-itpro/dev-ref/xpp-compile-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Функции времени выполнения X++
+          items:
+            - name: Ресурсы функции времени выполнения X++
+              href: ../../dev-itpro/dev-ref/xpp-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Бизнес-функции времени выполнения X++
+              href: ../../dev-itpro/dev-ref/xpp-business-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Контейнерные функции времени выполнения X++
+              href: ../../dev-itpro/dev-ref/xpp-container-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Функции конвертации времени выполнения X++
+              href: ../../dev-itpro/dev-ref/xpp-conversion-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Функции даты времени выполнения X++
+              href: ../../dev-itpro/dev-ref/xpp-date-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Математические функции времени выполнения X++
+              href: ../../dev-itpro/dev-ref/xpp-math-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Функции отражения времени выполнения X++
+              href: ../../dev-itpro/dev-ref/xpp-reflection-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Функции сеансов времени выполнения X++
+              href: ../../dev-itpro/dev-ref/xpp-session-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Строковые функции времени выполнения X++
+              href: ../../dev-itpro/dev-ref/xpp-string-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Системные таблицы
+          href: ../../dev-itpro/dev-ref/system-tables.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Системные классы
+          items:
+            - name: Классы A
+              href: ../../dev-itpro/dev-ref/a-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы B
+              href: ../../dev-itpro/dev-ref/b-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы C
+              href: ../../dev-itpro/dev-ref/c-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы D
+              href: ../../dev-itpro/dev-ref/d-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы E
+              href: ../../dev-itpro/dev-ref/e-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы F (от FieldBinding до FormBuildAnimateControl)
+              href: ../../dev-itpro/dev-ref/fieldbinding-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы F (от FormBuildButtonControl до FormBuildFastTabSummarySeparator)
+              href: ../../dev-itpro/dev-ref/formbuildbuttoncontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы F (от FormBuildFilterPaneControl до FormBuildRealControl)
+              href: ../../dev-itpro/dev-ref/formbuildfilterpanecontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы F (от FormBuildReferenceControl до FormButtonSeparatorControl)
+              href: ../../dev-itpro/dev-ref/formbuildreferencecontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы F (от FormChangeTracker до FormControlEventArgs)
+              href: ../../dev-itpro/dev-ref/formchangetracker-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы F (от FormDataObject до FormFastTabHeaderControl)
+              href: ../../dev-itpro/dev-ref/formdataobject-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы F (от FormFastTabSummarySeparator до FormGridControl)
+              href: ../../dev-itpro/dev-ref/formfasttabsummaryseparator-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы F (от FormGroupControl до FormIntControl)
+              href: ../../dev-itpro/dev-ref/formgroupcontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы F (от FormListBoxControl до FormNotifyEventArgs)
+              href: ../../dev-itpro/dev-ref/formlistboxcontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы F (от FormObject до FormRealControl)
+              href: ../../dev-itpro/dev-ref/formobject-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы F (от FormReferenceControl до FormStringControl)
+              href: ../../dev-itpro/dev-ref/formreferencecontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы F (от FormTabControl до FormWindowControl)
+              href: ../../dev-itpro/dev-ref/formtabcontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы G
+              href: ../../dev-itpro/dev-ref/g-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы H
+              href: ../../dev-itpro/dev-ref/h-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы I
+              href: ../../dev-itpro/dev-ref/i-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы J
+              href: ../../dev-itpro/dev-ref/j-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы K
+              href: ../../dev-itpro/dev-ref/k-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы L
+              href: ../../dev-itpro/dev-ref/l-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы M
+              href: ../../dev-itpro/dev-ref/m-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы N
+              href: ../../dev-itpro/dev-ref/n-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы O
+              href: ../../dev-itpro/dev-ref/o-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы P
+              href: ../../dev-itpro/dev-ref/p-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы Q
+              href: ../../dev-itpro/dev-ref/q-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы R
+              href: ../../dev-itpro/dev-ref/r-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы S
+              href: ../../dev-itpro/dev-ref/s-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы T
+              href: ../../dev-itpro/dev-ref/t-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы U
+              href: ../../dev-itpro/dev-ref/u-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы V
+              href: ../../dev-itpro/dev-ref/v-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы W
+              href: ../../dev-itpro/dev-ref/w-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы X
+              href: ../../dev-itpro/dev-ref/x-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Расширяемость
+      items:
+        - name: Домашняя страница расширяемости
+          href: ../../dev-itpro/extensibility/extensibility-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Введение и начало работы
+          items:
+            - name: План расширяемости приложения
+              href: ../../dev-itpro/extensibility/extensibility-roadmap.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Запросы на расширение
+              href: ../../dev-itpro/extensibility/extensibility-requests.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Вопросы и ответы по расширяемости
+              href: ../../dev-itpro/extensibility/app-sealing-faq.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Переход от перекрытий к расширениям
+              href: ../../dev-itpro/extensibility/migrate-overlayer-extension.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Настройка элементов моделей с помощью расширения (учебник)
+              href: ../../dev-itpro/extensibility/customize-model-elements-extensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Настройка с помощью расширения и перекрытия
+              href: ../../dev-itpro/extensibility/customization-overlayering-extensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Что нового
+          items:
+            - name: Что нового и что изменилось в расширяемости
+              href: ../../dev-itpro/extensibility/extensibility-new.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости версии 10.0.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-3.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости версии 10.0.2
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-2.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости версии 10.0.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-1.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости версии 10.0
+              href: ../../dev-itpro/extensibility/extensibility-changes-10.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости версии 8.1.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-813.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости версии 8.1.2
+              href: ../../dev-itpro/extensibility/extensibility-changes-812.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости версии 8.1.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-811.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости версии 8.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-81.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости версии 8.0.4
+              href: ../../dev-itpro/extensibility/extensibility-changes-804.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости версии 8.0.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-803.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости версии 8.0.2
+              href: ../../dev-itpro/extensibility/extensibility-changes-802.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости версии 8.0.1
+              href: ../../dev-itpro/extensibility/extensibility-changes-801.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости в версии 8.0
+              href: ../../dev-itpro/extensibility/changes-80.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости в версии 7.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-73.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения возможностей расширяемости от июля 2017 г.
+              href: ../../dev-itpro/extensibility/changes-july-2017.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Основы
+          items:
+            - name: Глубокие настройки
+              href: ../../dev-itpro/extensibility/intrusive-customizations.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модель расширения классов
+              href: ../../dev-itpro/extensibility/class-extensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Расширение классов с помощью заключения методов в оболочку и цепочки команд
+              href: ../../dev-itpro/extensibility/method-wrapping-coc.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Правила именования для расширений
+              href: ../../dev-itpro/extensibility/naming-guidelines-extensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Ослабление ограничений моделей для рефакторинга перекрытий к расширениям
+              href: ../../dev-itpro/extensibility/refactoring-over-layering.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание расширений
+          items:
+            - name: Добавление значений в перечисления
+              href: ../../dev-itpro/extensibility/add-enum-value.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменение расширенных типов данных
+              href: ../../dev-itpro/extensibility/modify-edt.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Регистрация подклассов для методов фабрики
+              href: ../../dev-itpro/extensibility/register-subclass-factory-methods.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Ответ с использованием EventHandlerResult
+              href: ../../dev-itpro/extensibility/respond-event-handler-result.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Расширение класса RunBase
+              href: ../../dev-itpro/extensibility/extend-runbase-class.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Настройка процедуры запуска приложения с помощью делегатов
+              href: ../../dev-itpro/extensibility/startup-customizations.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменение имеющихся полей в таблице
+              href: ../../dev-itpro/extensibility/modify-existing-field.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Добавление полей в таблицы
+              href: ../../dev-itpro/extensibility/add-field-extension.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Добавление индексов в таблицы
+              href: ../../dev-itpro/extensibility/add-index.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Добавление связей в таблицы
+              href: ../../dev-itpro/extensibility/add-relation.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменение свойств таблицы
+              href: ../../dev-itpro/extensibility/modify-properties.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Добавление методов в таблицы
+              href: ../../dev-itpro/extensibility/add-method-table.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Выполнение бизнес-действий на протяжении жизненного цикла записей таблицы
+              href: ../../dev-itpro/extensibility/subscribe-table-events.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Добавление источников данных в формы
+              href: ../../dev-itpro/extensibility/add-datasource.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменение заголовков формы
+              href: ../../dev-itpro/extensibility/change-caption-form.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменение свойств элемента управления формы
+              href: ../../dev-itpro/extensibility/modify-control-properties.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Расширение области номерных серий
+              href: ../../dev-itpro/extensibility/extend-number-sequence-scope.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Добавление новых складских аналитик
+              href: ../../dev-itpro/extensibility/inventory-dimensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Расширяемость цен и скидок
+              href: ../../dev-itpro/extensibility/pricing-app73.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Расширение сопоставлений таблиц
+              href: ../../dev-itpro/extensibility/map-extensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'Расширение сопоставлений таблиц, используемых в качестве интерфейсов'
+              href: ../../dev-itpro/extensibility/maps-as-interfaces.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'Расширение сопоставлений таблиц, используемых для управления версиями'
+              href: ../../dev-itpro/extensibility/maps-with-versioning.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Расширение точности десятичной запятой для выбранных типов данных
+              href: ../../dev-itpro/extensibility/decimal-point-precision.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание расширяемых решений
+          items:
+            - name: Написание расширяемого кода
+              href: ../../dev-itpro/extensibility/writing-extensible-code.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы
+              href: ../../dev-itpro/extensibility/extensible-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Методы
+              href: ../../dev-itpro/extensibility/extensible-methods.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Формы
+              href: ../../dev-itpro/extensibility/extensible-forms.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Расширенные типы данных
+              href: ../../dev-itpro/extensibility/extensible-edts.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Расширяемые перечисления
+              href: ../../dev-itpro/extensibility/extensible-enums.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Делегаты
+              href: ../../dev-itpro/extensibility/extensible-code-delegates.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Таблицы
+              href: ../../dev-itpro/extensibility/extensible-tables.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Атрибуты расширяемости для методов
+              href: ../../dev-itpro/extensibility/extensibility-attributes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Критические изменения
+              href: ../../dev-itpro/extensibility/breaking-changes.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Производительность
+      items:
+        - name: Трассировка с помощью Trace Parser
+          href: ../../dev-itpro/perf-test/trace-trace-tutorial.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Однопользовательское тестирование с помощью регистратора задач и пакета Performance SDK
+          href: ../../dev-itpro/perf-test/single-user-test-perf-sdk.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Многопользовательское тестирование с помощью пакета Performance SDK и локального контроллера тестирования
+          href: ../../dev-itpro/perf-test/multi-user-testing-local-test-controller.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Многопользовательское тестирование с помощью пакета Performance SDK и Azure DevOps
+          href: ../../dev-itpro/perf-test/multi-user-testing-perfsdk-azuredevops.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Руководство по устранению неполадок при однопользовательском или многопользовательском тестировании с помощью пакета Performance SDK
+          href: ../../dev-itpro/perf-test/troubleshoot-perf-sdk-user-testing.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Пакет Performance SDK и многопользовательское тестирование в локальных средах
+          href: ../../dev-itpro/perf-test/perfsdk-tutorial-lbd.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Диагностика проблем и анализ производительности с помощью Trace Parser
+          href: ../../dev-itpro/perf-test/trace-parser.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Таймер производительности
+          href: ../../dev-itpro/perf-test/performance-timer.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Поддержка тестирования в Visual Studio
+      items:
+        - name: Тестирование и проверки
+          href: ../../dev-itpro/perf-test/testing-validation.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Проекты тестирования в Visual Studio
+          href: ../../dev-itpro/perf-test/testing-support.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Развертывание сред, поддерживающих непрерывную сборку и автоматизацию тестирования'
+          href: ../../dev-itpro/perf-test/continuous-build-test-automation.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Фильтрация SysTest с помощью атрибутов классов и методов
+          href: ../../dev-itpro/perf-test/systest-filtering.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Библиотека приемочного тестирования
+          items:
+            - name: Ресурсы библиотеки приемочного тестирования
+              href: ../../dev-itpro/perf-test/acceptance-test-library.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Понятия навигации
+              href: ../../dev-itpro/perf-test/concepts-navigation.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Методы тестирования данных
+              href: ../../dev-itpro/perf-test/test-data-methods.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Объекты в библиотеке приемочного тестирования
+              href: ../../dev-itpro/perf-test/concepts-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Команды библиотеки приемочного тестирования
+              href: ../../dev-itpro/perf-test/concepts-commands.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Создатели в библиотеке приемочного тестирования
+              href: ../../dev-itpro/perf-test/concepts-creators.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Запросы в библиотеке приемочного тестирования
+              href: ../../dev-itpro/perf-test/concepts-queries.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Классы спецификации
+              href: ../../dev-itpro/perf-test/concepts-specifications.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Мастер формирования кода библиотеки приемочного тестирования
+              href: ../../dev-itpro/perf-test/code-generation-wizard.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Рекомендации для библиотеки приемочного тестирования
+              href: ../../dev-itpro/perf-test/atl-best-practices.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Вопросы и ответы
+              href: ../../dev-itpro/perf-test/atl-faq.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Даты вступления в силу
+      href: ../../dev-itpro/dev-tools/date-effectivity.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Лицензирование для независимых поставщиков программного обеспечения
+      href: ../../dev-itpro/dev-tools/isv-licensing.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Локальное лицензирование для независимых поставщиков программного обеспечения
+      href: ../../dev-itpro/dev-tools/isv-licensing-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Общий регламент по защите данных (GDPR)
+  items:
+    - name: Обзор общего регламента по защите данных
+      href: ../../dev-itpro/gdpr/gdpr-guide.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Ответы на запросы данных GDPR
+      items:
+        - name: Ресурсы ответов на запросы данных GDPR
+          href: ../../dev-itpro/gdpr/gdpr-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Классификация основных средств
+          href: ../../dev-itpro/gdpr/gdpr-asset-classification-values.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Отчет о поиске людей
+          href: ../../dev-itpro/gdpr/gdpr-person-search-report.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Расширение отчета о поиске людей
+          href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Управление доступом к конфиденциальным данным
+          href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Ответ на запросы персональных данных с помощью Talent
+          href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Ответ на запросы персональных данных в AX 2012
+          href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Запросы данных GDPR для LCS
+          href: ../../dev-itpro/gdpr/gdpr-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Lifecycle Services
+  items:
+    - name: Ресурсы для Lifecycle Services
+      items:
+        - name: Ресурсы Lifecycle Services
+          href: ../../dev-itpro/lifecycle-services/lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: LCS для клиентов
+          href: ../../dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: LCS для партнеров
+          href: ../../dev-itpro/lifecycle-services/getting-started-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Что нового
+          href: ../../dev-itpro/lifecycle-services/whats-new-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Известные проблемы
+          href: ../../dev-itpro/lifecycle-services/known-issues.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Руководство пользователя Lifecycle Services
+      href: ../../dev-itpro/lifecycle-services/lcs-user-guide.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Средство оценки подписки
+      href: ../../dev-itpro/lifecycle-services/subscription-estimator.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Настройка безопасности
+      href: ../../dev-itpro/lifecycle-services/configure-lcs-security.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Поиск проблем
+      href: ../../dev-itpro/lifecycle-services/issue-search-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Диспетчер конфигураций
+      items:
+        - name: Обзор диспетчера конфигураций
+          href: ../../dev-itpro/lifecycle-services/configuration-manager-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Настройка диспетчера конфигураций
+          href: ../../dev-itpro/lifecycle-services/set-up-configuration-manager-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Настройка службы обновления кода
+      href: ../../dev-itpro/lifecycle-services/configure-execute-code-upgrade.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Создание или обновление методологий
+      href: ../../dev-itpro/lifecycle-services/create-methodology.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Средство моделирования бизнес-процессов
+      href: ../../dev-itpro/lifecycle-services/bpm-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Библиотеки бизнес-процессов в средстве моделирования бизнес-процессов
+      href: ../../dev-itpro/lifecycle-services/business-process-libraries-business-process-modeler.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: 'Создание, изменение и поиск библиотек средства моделирования бизнес-процессов'
+      href: ../../dev-itpro/lifecycle-services/creating-editing-browsing.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Выполнение задач в средстве моделирования бизнес-процессов
+      href: ../../dev-itpro/lifecycle-services/complete-tasks-bpm.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Работа с диаграммами мероприятий в библиотеках BPM
+      href: ../../dev-itpro/lifecycle-services/using-activity-diagrams.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Синхронизация библиотек BPM с Azure DevOps
+      href: ../../dev-itpro/lifecycle-services/synchronize-bpm-vsts.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Создание библиотек пользовательских приемочных тестов с помощью проводников по задаче и BPM
+      href: ../../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Блок-схемы в средства моделирования бизнес-процессов
+      href: ../../dev-itpro/lifecycle-services/flowcharts-business-process-modeler.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Отправка пользовательских бизнес-процессов в средство моделирования бизнес-процессов
+      href: ../../dev-itpro/lifecycle-services/upload-business-processes-bpm-task-recorder.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Мониторинг и диагностика
+      href: ../../dev-itpro/lifecycle-services/monitoring-diagnostics.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Перезапуск служб среды
+      href: ../../dev-itpro/lifecycle-services/restart-environment-services.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Сообщение о сбое производства
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Отслеживание входов пользователя
+      href: ../../dev-itpro/lifecycle-services/user-logins.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Библиотека активов
+      href: ../../dev-itpro/lifecycle-services/asset-library.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Решение проблем с производительностью с помощью средств в LCS
+      href: ../../dev-itpro/lifecycle-services/performancetroubleshooting.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Учебник по запросам
+      href: ../../dev-itpro/lifecycle-services/querycookbook.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Microsoft Dynamics 365 Translation Service
+      items:
+        - name: Обзор Dynamics 365 Translation Service
+          href: ../../dev-itpro/lifecycle-services/translation-service-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Перевод файлов пользовательского интерфейса
+          href: ../../dev-itpro/lifecycle-services/use-translation-service.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Перевод файлов документации
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-ua.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Файлы базы переводов
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-tm.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Мобильная платформа
+  items:
+    - name: Ресурсы мобильных платформ
+      href: ../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Начало работы
+      items:
+        - name: Начало работы с мобильной платформой
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-getting-started.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вопросы архитектуры и дизайна
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-architecture.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: События бизнес-логики
+          href: ../../dev-itpro/mobile-apps/platform/business-logic-events-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Руководство по разработке страниц
+          href: ../../dev-itpro/mobile-apps/platform/page-design-guidelines.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Руководство по разработке действий
+          href: ../../dev-itpro/mobile-apps/platform/action-design-guidelines.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Требования к дизайну форм
+          href: ../../dev-itpro/mobile-apps/platform/form-design-requirements.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Общие задачи
+      items:
+        - name: Настройка рабочих областей с помощью класса SysAppWorkspace
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/mobile-workspace-configuration.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Настройка полей на страницах мобильного приложения, чтобы они были доступны для выбора'
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-workspace-field-clickable.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Отображение количества в полях
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/display-count-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обеспечение безопасности рабочих областей мобильного приложения
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/secure-mobile-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Локализация мобильных рабочих областей
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/localize-workspaces-on-server.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Задание полей как обязательных с использованием классов рабочей области
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-field-mandatory.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Справочник по разработке на стороне сервера
+      items:
+        - name: Разработка на стороне сервера (API-интерфейсы X++ рабочей области)
+          href: ../../dev-itpro/mobile-apps/platform/mobile-workspace-server-apis.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Справочник по разработке на стороне клиента
+      items:
+        - name: Клиентские API-интерфейсы разработки
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/client-api-design-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Клиентские API-интерфейсы
+          items:
+            - name: Домашняя страница клиентских API-интерфейсов
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/client-apis-reference.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Перечисление PageState
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль приложения
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-application.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль РБП
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/defer.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль события
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/event-ievent.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль управления
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль контейнера
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль поля
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль отправки файлов
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль группы
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль гиперссылки
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль изображения
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль ввода
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль списка
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль подстановки
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль множественной подстановки
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль страницы
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-ipage.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль Pagelink
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль части
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль служб
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-business-logic-services.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модуль значения
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип Application
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип ApplicationMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип AsyncService
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип CacheService
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип CompleteEventArgs
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип ContainerControl
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип ContainerControlDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип ContainerControlMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип ControlMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип DataService
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип Deferred<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/defer-ideferred.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип Design
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип EventHook<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип Field
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип FieldDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип FieldMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип FileUploader
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип FileUploaderDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип FileUploaderMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип GenericValue
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип getDataSource
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип Group
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип GroupDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип GroupMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип HyperLink
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип HyperLinkDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип HyperLinkMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип Image
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип ImageDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип ImageMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип InputControl
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип InputControlDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип InputControlMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип List
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип ListDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип ListMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип Lookup
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип LookupDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип LookupMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип MetadataService
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип MultiLookup
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип MultiLookupDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип MultiLookupMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип NavigationArgs
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип NumberSequenceConfig
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип Page
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип PageData
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип PageLink
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип PageLinkDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип PageLinkMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип PageMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип PageOptions
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип PageSubmitArgs
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип PageTarget
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип Part
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип PartDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип PartMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип Row
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип Value
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип ValueDesign
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Тип ValueMetadata
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Regression Suite Automation Tool
+  items:
+    - name: Обзор Regression Suite Automation Tool
+      href: ../../dev-itpro/perf-test/rsat/rsat-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Установка и конфигурация
+      href: ../../dev-itpro/perf-test/rsat/rsat-install-configure.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Независимые от данных испытания с помощью Regression Suite Automation Tool
+      href: ../../fin-and-ops/get-started/recommendation-data-agnostic-testing-rsat.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Выполнение контрольных примеров
+      href: ../../dev-itpro/perf-test/rsat/rsat-run.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Проверка ожидаемых значений
+      href: ../../dev-itpro/perf-test/rsat/rsat-validate-expected.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Контрольные примеры цепочки
+      href: ../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Производные контрольные примеры
+      href: ../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Использование учебника Regression Suite Automation Tool
+      href: ../../fin-and-ops/get-started/hol-use-regression-suite-automation-tool.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Рекомендации
+      href: ../../dev-itpro/perf-test/rsat/rsat-best-practices.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Устранение неполадок
+      href: ../../dev-itpro/perf-test/rsat/rsat-troubleshooting.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Выпуск решений с использованием Lifecycle Services
+  items:
+    - name: Разработка и выпуск
+      href: ../../dev-itpro/lcs-solutions/lcs-solutions-app-source.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Промежуточное размещение и публикации
+      href: ../../dev-itpro/lcs-solutions/marketing-content-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Добавление методологий
+      href: ../../dev-itpro/lcs-solutions/methodologies-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Настройка библиотек средства моделирования бизнес-процессов
+      href: ../../dev-itpro/lcs-solutions/business-process-modeler-libraries-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Перенос кода
+      href: ../../dev-itpro/lcs-solutions/code-migration-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Проверка приложений
+      href: ../../dev-itpro/lcs-solutions/app-validation-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Обработка и потребление пакетов данных
+      href: ../../dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Резервное копирование баз данных решения
+      href: ../../dev-itpro/lcs-solutions/database-backup-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Локализация и нормативные компоненты
+      items:
+        - name: Ресурсы глобализации
+          href: ../../dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Классификация функций локализации
+          href: ../../dev-itpro/lcs-solutions/classify-localization-features.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Применение контекста страны/региона
+          href: ../../dev-itpro/lcs-solutions/apply-country-context.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Нормативные сведения о сертификации в заголовках компонентов
+          href: ../../dev-itpro/lcs-solutions/regulatory-certifications.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Нормативные обновления
+          href: ../../dev-itpro/lcs-solutions/regulatory-watch-communication.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Разделение моделей локализации
+          href: ../../dev-itpro/lcs-solutions/separate-localization-models.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Отправка нормативных оповещений
+          href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Поддержка
+  items:
+    - name: Поддержка Finance and Operations и Lifecycle Services
+      href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Обзор вариантов поддержки Dynamics 365
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+    - name: Поддержка Finance and Operations на базе 21Vianet в Китае
+      href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Создание запроса на поддержку Premier
+      href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Отправка запросов команде разработчиков служб Dynamics
+      href: ../../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Настройка технической поддержки для Finance and Operations
+      href: ../../dev-itpro/lifecycle-services/support-experience.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Вопросы и ответы по окну планового обслуживания
+      href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Облачные операции и обслуживание
+      href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Управление поддержкой Finance and Operations
+      href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Администрирование системы
+  items:
+    - name: Домашняя страница администрирования системы
+      href: ../../dev-itpro/sysadmin/system-administration-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Добавление ссылок на юридические условия и заявление о конфиденциальности
+      href: ../../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Отчет о лицензионных кодах и ключах конфигурации
+      href: ../../dev-itpro/sysadmin/license-codes-configuration-keys-report.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Совместное использование данных между компаниями
+      href: ../../dev-itpro/sysadmin/cross-company-data-sharing.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Режим обслуживания
+      href: ../../dev-itpro/sysadmin/maintenance-mode.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Предварительно настроенные системные счета
+      href: ../../dev-itpro/sysadmin/pre-configured-system-accounts.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Экспорт пользователей B2B в Azure AD
+      href: ../../dev-itpro/sysadmin/implement-b2b.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Контроль доступа
+      items:
+        - name: Безопасность на основе ролей
+          href: ../../dev-itpro/sysadmin/role-based-security.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Архитектура безопасности
+          href: ../../dev-itpro/sysadmin/security-architecture.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Настройка времени ожидания сеанса
+          href: ../../dev-itpro/sysadmin/session-idle-timeout.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Готовые отчеты безопасности
+          href: ../../dev-itpro/sysadmin/security-reports.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание новых пользователей
+          href: ../../dev-itpro/sysadmin/tasks/create-new-users.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Импорт пользователей в пакетном режиме
+          href: ../../dev-itpro/sysadmin/tasks/import-bulk-users.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Настройка разделения обязанностей
+          href: ../../dev-itpro/sysadmin/tasks/set-up-segregation-duties.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Выявление и разрешение конфликтов в разделении обязанностей
+          href: ../../dev-itpro/sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Назначение пользователей для ролей безопасности
+          href: ../../dev-itpro/sysadmin/tasks/assign-users-security-roles.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Пакетная обработка
+      items:
+        - name: Обзор пакетной обработки
+          href: ../../dev-itpro/sysadmin/batch-processing-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Пакетная обработка и серверы обработки пакетных заданий
+          href: ../../dev-itpro/sysadmin/batch-server-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание пакетных заданий
+          href: ../../dev-itpro/sysadmin/tasks/create-batch-job.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Копирование пакетного задания
+          href: ../../dev-itpro/sysadmin/copy-batch-job.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Активные периоды пакета
+          href: ../../dev-itpro/sysadmin/activeperiod.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Роль безопасности пакетного диспетчера
+          href: ../../dev-itpro/sysadmin/runby.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Пакетное задание для обработки дефрагментация индекса SQL
+          href: ../../dev-itpro/sysadmin/batch-job-SQL-defragmentation.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Настройка пакетных оповещений
+          href: ../../dev-itpro/sysadmin/alerts.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Улучшенные формы пакетов
+          href: ../../dev-itpro/sysadmin/enhanced-forms.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Очистка журнала пакетных заданий
+          href: ../../dev-itpro/sysadmin/batch-history-cleanup.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Прерывание выполняемого пакетного задания
+          href: ../../dev-itpro/sysadmin/batch-abort.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Помощник по оптимизации
+      items:
+        - name: Обзор помощника по оптимизации
+          href: ../../dev-itpro/sysadmin/optimization-advisor-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание правил для помощника по оптимизации
+          href: ../../dev-itpro/sysadmin/create-rules-optimization-advisor.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Сообщение о сбое производства
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: 'Модификации, обновления и исправления'
+  items:
+    - name: 'Ресурсы модификаций, обновлений и исправлений'
+      href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Обновление AX 2012
+      items:
+        - name: Обновление AX 2012 до Finance and Operations
+          href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление AX 2012 — планирование использования средства анализа обновления
+          href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление AX 2012 — оценка трудозатрат с помощью службы обновления кода
+          href: ../../dev-itpro/migration-upgrade/analyze-code-upgrade.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление AX 2012 — развертывание демонстрационной среды для анализа
+          href: ../../dev-itpro/migration-upgrade/analysis-sandbox.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление AX 2012 — обновление данных в средах разработки
+          href: ../../dev-itpro/migration-upgrade/data-upgrade-2012.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление AX 2012 — контрольный список перед обновлением для обновления данных
+          href: ../../dev-itpro/migration-upgrade/prepare-data-upgrade.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление AX 2012 — обновление данных в средах "песочницы"
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-sandbox.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление AX 2012 — тестирование переключения
+          href: ../../dev-itpro/migration-upgrade/upgrade-cutover-testing.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление AX 2012 — задачи после обновления
+          href: ../../dev-itpro/migration-upgrade/app-validation-process.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление AX 2012 — выполнение функциональных тестов
+          href: ../../dev-itpro/migration-upgrade/upgrade-functional-validation.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление AX 2012 — подготовка к вводу в эксплуатацию
+          href: ../../dev-itpro/migration-upgrade/upgrade-go-live-prep.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление AX 2012 — ввод в эксплуатацию
+          href: ../../dev-itpro/migration-upgrade/2012-upgrade-cutover.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Изменения, влияющие на процесс обновления с AX 2012'
+          items:
+            - name: Настройка разделителя плана счетов как уникального
+              href: ../../dev-itpro/migration-upgrade/chart-accounts-delimiter-unique.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Обновление журналов с одним ваучером и переоценок в валюте
+              href: ../../dev-itpro/migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Модель данных планирования ресурсов проекта
+              href: ../../dev-itpro/migration-upgrade/data-model-changes-resource-management.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Изменения подсистемы бизнес-правил
+              href: ../../dev-itpro/migration-upgrade/workflow-subsystem.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'Агрегированные модели, используемые вместо кубов для аналитики'
+              href: ../../dev-itpro/migration-upgrade/in-memory-real-time-aggregate-models.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Перенос обновленных кубов продаж в хранилище объектов
+              href: ../../dev-itpro/migration-upgrade/migrate-upgraded-cube-entity-store.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Обновление бюджетного планирования
+              href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Миграция данных из AX 2009
+      items:
+        - name: Миграция данных из AX 2009 в Finance and Operations
+          href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: "Миграция с AX 2009\_— установка средства переноса данных"
+          href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: "Миграция с AX 2009\_— создание сопоставлений"
+          href: ../../dev-itpro/migration-upgrade/generate-maps.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: "Миграция с AX 2009\_— создание шаблонов"
+          href: ../../dev-itpro/migration-upgrade/create-package-templates-dmt.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: "Миграция с AX 2009\_— создание групп миграции"
+          href: ../../dev-itpro/migration-upgrade/create-definition.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: "Миграция с AX 2009\_— экспорт пакетов"
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-export-package.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: "Миграция с AX 2009\_— импорт пакетов"
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-import-package.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Перенос и обновление кода
+      items:
+        - name: Домашняя страница переноса и обновления кода
+          href: ../../dev-itpro/migration-upgrade/code-migration-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Подготовка к переносу кода
+          href: ../../dev-itpro/migration-upgrade/prepare-migration.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Настройка сопоставления Azure DevOps
+          href: ../../dev-itpro/migration-upgrade/configure-vso-solution.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Разбиение моделей
+          href: ../../dev-itpro/dev-tools/model-split.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Разрешение зависимостей между моделями с помощью делегатов
+          href: ../../dev-itpro/migration-upgrade/delegates-migration.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Переход на последнее обновление (облако)
+      items:
+        - name: Процесс перехода на последнее обновление
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-update.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Пути к одной версии
+          items:
+            - name: Самостоятельное обновление до последней версии
+              href: ../../dev-itpro/migration-upgrade/self-service-upgrade.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Перестроение и обновление до последней версии
+              href: ../../dev-itpro/migration-upgrade/appupdate-80-81.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Политика жизненного цикла программного обеспечения и облачные выпуски
+          href: ../../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Применение последнего обновления платформы к средам
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-platform-update.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление данных в среде разработки или в демонстрационной среде
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-to-latest-update.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление средств разработки
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Планирование компиляции кода согласно последнему обновлению и подготовка к ней
+          href: ../../dev-itpro/migration-upgrade/compile-considerations.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Установка последнего обновления (локальная версия)
+      items:
+        - name: Применение обновлений к локальным развертываниям
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Повторное развертывание локального развертывания
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление на месте с локальной версии 7.x до 8.1
+          href: ../../dev-itpro/migration-upgrade/on-prem-upgrade.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Исправления
+      items:
+        - name: Получение обновлений из Lifecycle Services
+          href: ../../dev-itpro/migration-upgrade/download-hotfix-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Применение обновлений к облачным средам
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Установка исправлений метаданных в средах разработки
+          href: ../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Исправление Reporting Services в односерверных средах
+          href: ../../dev-itpro/migration-upgrade/patch-reporting-service-environment.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Обновление средств разработки Visual Studio
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Устаревшие элементы
+      items:
+        - name: Удаленные или устаревшие функции
+          href: ../../dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Удаление методов и элементов метаданных
+          href: ../../dev-itpro/migration-upgrade/deprecation-deletion-apis.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Устаревшие API
+          href: ../../dev-itpro/migration-upgrade/deprecated-apis.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Разработка пользовательского интерфейса
+  items:
+    - name: Домашняя страница разработки пользовательского интерфейса
+      href: ../../dev-itpro/user-interface/user-interface-development-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Учебники
+      items:
+        - name: Создание формы типа накладных расходов на аренду
+          href: ../../dev-itpro/user-interface/build-rental-charge-type-form.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание формы клиента
+          href: ../../dev-itpro/user-interface/build-customer-form.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание навигации
+          href: ../../dev-itpro/user-interface/build-navigation.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание рабочих областей
+          href: ../../dev-itpro/user-interface/build-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Формы
+      items:
+        - name: Понятия навигации
+          href: ../../dev-itpro/user-interface/page-navigation.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Макет страницы в веб-клиенте
+          href: ../../dev-itpro/user-interface/page-layout.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шрифт символов Dynamics
+          href: ../../dev-itpro/user-interface/symbol-font.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Сохраненные представления
+          href: ../../fin-and-ops/get-started/saved-views.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Создание форм, использующих сохраненные представления'
+          href: ../../dev-itpro/user-interface/understanding-saved-views.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Тестирование форм, использующих пользовательские шаблоны'
+          href: ../../dev-itpro/user-interface/testing-forms-custom-patterns.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание защищенных URL-адресов с возможностью общего доступа (прямые ссылки)
+          href: ../../dev-itpro/user-interface/create-deep-links.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Специальные возможности в формах, продуктах и элементах управления'
+          href: ../../dev-itpro/user-interface/enable-accessibility.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Настройка описаний полей
+          href: ../../dev-itpro/user-interface/customize-field-help.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Элементы управления
+      items:
+        - name: Элементы управления действиями
+          href: ../../dev-itpro/user-interface/action-controls.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Элементы управления вводом и размеры столбцов в сетке
+          href: ../../dev-itpro/user-interface/sizing-input-controls-grid-columns.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Поддержка флажков в древовидных элементах управления
+          href: ../../dev-itpro/user-interface/check-box-tree-controls.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Параметры фильтрации
+          href: ../../dev-itpro/user-interface/filtering.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Элемент управления узлом PowerApps
+          href: ../../dev-itpro/user-interface/powerapps-host-control.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Управление окнами
+      items:
+        - name: Перенос кода контекстного меню
+          href: ../../dev-itpro/migration-upgrade/code-migration-context-menus.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Перенос логики двойного щелчка мыши
+          href: ../../dev-itpro/migration-upgrade/code-migration-double-click.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Ввод контекстных данных для поиска
+          href: ../../dev-itpro/user-interface/contextual-data-entry-lookups.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Элемент управления HierarchyViewer
+          href: ../../dev-itpro/user-interface/hierarchy-viewer-control.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Элементы управления поиском
+          href: ../../dev-itpro/user-interface/lookups-controls.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Элемент управления отправкой файлов
+          href: ../../dev-itpro/user-interface/file-upload-control.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Системные кнопки
+          href: ../../dev-itpro/user-interface/system-defined-buttons.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Изображения на странице или в сетке
+          href: ../../dev-itpro/user-interface/images-form-grid.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Цвет шрифта и фона для элементов управления вводом данных, таблиц и сеток'
+          href: ../../dev-itpro/user-interface/specify-color-font-background-controls.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Поддержка языков с написанием справа налево и двунаправленного текста
+          href: ../../dev-itpro/user-interface/bidirectional-support.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание значков для элементов рабочей области
+          href: ../../dev-itpro/user-interface/create-icons-workspace-tiles.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Открытые API JavaScript для расширяемых элементов управления
+          href: ../../dev-itpro/user-interface/public-javascript-apis.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Контрольный список для элементов управления
+          href: ../../dev-itpro/user-interface/control-checklist.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Сообщения
+      items:
+        - name: Выноски с описанием функций
+          href: ../../dev-itpro/user-interface/feature-callouts.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Диалоговые окна "Ползунок" и MessageBox
+          href: ../../dev-itpro/user-interface/slider-messagebox.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'API центра сообщений, панели сообщений и подробных сведений о сообщении'
+          href: ../../dev-itpro/user-interface/messaging-api-center-bar-details.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Вопросы и ответы по центру сообщений, панели сообщений и подробным сведениям о сообщении'
+          href: ../../dev-itpro/user-interface/messaging-user.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Руководство по шаблонам форм
+      items:
+        - name: Шаблоны форм для перенесенных форм
+          href: ../../dev-itpro/user-interface/select-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Стили и шаблоны форм
+          href: ../../dev-itpro/user-interface/form-styles-patterns.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Надстройки Visual Studio, поддерживающие шаблоны форм'
+          href: ../../dev-itpro/user-interface/form-pattern-add-ins.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Шаблоны форм
+      items:
+        - name: Общие рекомендации по формам
+          href: ../../dev-itpro/user-interface/general-form-guidelines.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон основной формы сведений
+          href: ../../dev-itpro/user-interface/details-master-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон основной формы проводки
+          href: ../../dev-itpro/user-interface/details-transaction-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблоны форм списка выбора части формы
+          href: ../../dev-itpro/user-interface/section-list-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон формы страницы со списком
+          href: ../../dev-itpro/user-interface/list-page-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон простой формы сведений
+          href: ../../dev-itpro/user-interface/simple-details-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон простой формы списка и сведений
+          href: ../../dev-itpro/user-interface/simple-list-details-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон простой формы списка
+          href: ../../dev-itpro/user-interface/simple-list-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон формы содержания
+          href: ../../dev-itpro/user-interface/table-of-contents-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон двойной формы задачи
+          href: ../../dev-itpro/user-interface/task-double-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон одиночной формы задачи
+          href: ../../dev-itpro/user-interface/task-single-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон формы мастера
+          href: ../../dev-itpro/user-interface/wizard-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон формы рабочей области
+          href: ../../dev-itpro/user-interface/workspace-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Дополнительные шаблоны форм
+      items:
+        - name: Шаблон формы расширенного выделения
+          href: ../../dev-itpro/user-interface/advanced-selection-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон формы диалогового окна
+          href: ../../dev-itpro/user-interface/dialog-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон формы раскрывающегося диалога
+          href: ../../dev-itpro/user-interface/drop-dialog-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон формы подстановки
+          href: ../../dev-itpro/user-interface/lookup-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблоны форм информационного поля
+          href: ../../dev-itpro/user-interface/factbox-form-patterns.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Вложенные шаблоны
+      items:
+        - name: Вложенный шаблон настраиваемой группы фильтров
+          href: ../../dev-itpro/user-interface/custom-filter-group-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон элемента управления вводом аналитик
+          href: ../../dev-itpro/financial/dimension-entry-control-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон построителя выражений аналитик
+          href: ../../dev-itpro/financial/dimension-expression-builder-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон полей и групп полей
+          href: ../../dev-itpro/user-interface/fields-field-groups-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенные шаблоны фильтров и панелей инструментов
+          href: ../../dev-itpro/user-interface/filters-toolbar-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон заполнения текста
+          href: ../../dev-itpro/user-interface/fill-text-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон горизонтальных полей и групп кнопок
+          href: ../../dev-itpro/user-interface/horizontal-fields-buttons-group-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон предварительного просмотра изображений
+          href: ../../dev-itpro/user-interface/image-preview-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон панели со списком
+          href: ../../dev-itpro/user-interface/list-panel-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон вложенного простого списка и сведений
+          href: ../../dev-itpro/user-interface/nested-simple-list-details-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Шаблон формы раздела диаграммы
+          href: ../../dev-itpro/user-interface/section-chart-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон раздела Power BI
+          href: ../../dev-itpro/user-interface/section-powerbi-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон раздела связанных ссылок
+          href: ../../dev-itpro/user-interface/section-related-links-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон раздела диаграммы с накоплением
+          href: ../../dev-itpro/user-interface/section-stacked-chart-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон раздела списка с вкладками
+          href: ../../dev-itpro/user-interface/section-tabbed-list-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон раздела с плитками
+          href: ../../dev-itpro/user-interface/section-tiles-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон табличных полей
+          href: ../../dev-itpro/user-interface/tabular-fields-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблоны панели инструментов и полей
+          href: ../../dev-itpro/user-interface/toolbar-fields-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблоны панели инструментов и списка
+          href: ../../dev-itpro/user-interface/toolbar-list-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Вложенный шаблон группы фильтров страниц рабочей области
+          href: ../../dev-itpro/user-interface/workspace-filter-group-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Расширяемость элементов управления
+      items:
+        - name: Создание расширяемых элементов управления
+          href: ../../dev-itpro/user-interface/build-extensible-control.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Сочетания клавиш для расширяемых элементов управления
+          href: ../../dev-itpro/user-interface/keyboard-shortcuts-controls.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Справка по программированию расширяемых элементов управления
+          href: ../../dev-itpro/user-interface/extensible-control-programming-reference.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Расширяемость элементов управления
+          href: ../../dev-itpro/user-interface/control-extensibility.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание локализуемых подписей
+          href: ../../dev-itpro/user-interface/create-localizable-labels-client.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Руководство по созданию макетов расширяемых элементов управления
+          href: ../../dev-itpro/user-interface/extensible-controls-layout.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Управление текстом, который формируется регистратором задач для элементов управления'
+          href: ../../dev-itpro/user-interface/task-recorder-control-text.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Создание рабочих областей
+      items:
+        - name: Создание работающих рабочих областей
+          href: ../../dev-itpro/user-interface/build-workspaces.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Кэширование плиток и списков для рабочих областей
+          href: ../../dev-itpro/user-interface/tile-list-caching-workspaces.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Регистратор задач
+      items:
+        - name: Ресурсы регистратора задач
+          href: ../../dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Краткий справочник по регистратору задач
+          href: ../../dev-itpro/user-interface/task-recorder-quick-reference.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Создание документации или учебных материалов с помощью записей задач
+          href: ../../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/unified-operations/retail/toc.json

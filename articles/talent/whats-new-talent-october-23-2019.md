@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7506953c797f5a55a93f1169bf48af8b06eb440e
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 68e3f428215bdc4f9a4ce0dd69cfd4482c72fbf3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896804"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006272"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Что нового и что изменилось в Dynamics 365 Talent (23 октября 2019 г.)
 
@@ -41,7 +41,7 @@ ms.locfileid: "2896804"
 
 ### <a name="platform-update-30-for-finance-and-operations-apps"></a>Обновление платформы 30 для приложений Finance and Operations
 
-Для получения дополнительных сведений см. раздел [Что нового и что изменилось в обновлении платформы 30 для приложений Finance and Operations (Ноябрь 2019)](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
+Для получения дополнительных сведений см. раздел [Что нового и что изменилось в обновлении платформы 30 для приложений Finance and Operations (ноябрь 2019)](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Удалить функцию предварительного просмотра открытой регистрации льгот
 
@@ -89,4 +89,4 @@ ms.locfileid: "2896804"
 
 Функции добавляются и обновляются в каждом выпуске. Опыт управления функциями предоставляет рабочую область, в которой можно просматривать список функций, которые были поставлены в каждом выпуске. По умолчанию новые функции отключены. Можно использовать рабочую область для их включения и просмотра документации по ним.
 
-Для получения дополнительных сведений об изменениях, связанных с управлением функциями, см. раздел [Обзор управления функциями,](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Для получения дополнительных сведений об изменениях, связанных с управлением функциями, см. раздел [Обзор управления функциями,](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).

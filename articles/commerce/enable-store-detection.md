@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c5fb59a9798e2cddfb75b71235ee7754e54b0e28
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 304d8d2f05916295b9c6320561d6a25ff40df955
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945787"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003104"
 ---
 # <a name="enable-location-based-store-detection"></a>Включение обнаружения магазинов на основе местоположения
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 В этом разделе описывается, как включить обнаружение магазинов на основе местоположения для сайта Dynamics 365 Commerce.

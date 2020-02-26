@@ -1,9 +1,9 @@
 ---
 title: Домашняя страница мобильного приложения
-description: В этом разделе описывается мобильное приложение Finance and Operations и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации.
+description: В этом разделе описывается мобильное приложение Finance and Operations (Dynamics 365) и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации.
 author: sericks007
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: aaff4e3b3bfb079e183a12a5a85e452eed6df51d
-ms.sourcegitcommit: e30ced8f136ef23017d2d8215a756236e42eec25
+ms.openlocfilehash: 012b51b66c831a66a54c7c868735e310f05eb8c1
+ms.sourcegitcommit: f939bc6292840e29bc0f498efc8f4641dfe8f994
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "2853940"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "2975205"
 ---
 # <a name="mobile-app-home-page"></a>Домашняя страница мобильного приложения
 
 [!include [banner](../includes/banner.md)]
 
-В этом разделе описывается мобильное приложение Finance and Operations и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации.
+В этом разделе описывается мобильное приложение **Finance and Operations (Dynamics 365)** и предоставляются ссылки на ресурсы, которые помогут вам реализовать его в вашей организации.
 
 <a name="overview"></a>Обзор
 --------
@@ -80,7 +80,7 @@ ms.locfileid: "2853940"
 <tr class="odd">
 <td>1</td>
 <td>Системный администратор</td>
-<td>Внедрите приложения Finance and Operations в своей организации.</td>
+<td>Реализуйте приложение Finance and Operations в своей организации.</td>
 <td><ul><li>Если у вас еще не была развернута версия Microsoft Dynamics 365, см. раздел <a href="../deployment/deploy-demo-environment.md">Развертывание демонстрационной среды</a>.</li><li>Чтобы просмотреть список мобильных рабочих областей, которые можно использовать, см. раздел <a href="mobile-workspaces-released.md">Недавно выпущенные мобильные рабочие области</a>.</li></ul></td>
 </tr>
 <tr class="even">

@@ -1,6 +1,6 @@
 ---
-title: Документация по приложению Finance and Operations
-description: Документация для приложений Finance and Operations.
+title: Документация по приложениям Finance and Operations
+description: Документация по приложениям Finance and Operations.
 author: robinarh
 manager: AnnBe
 ms.date: 07/25/2019
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89139c149146b64125370c3840f8d3011b92e067
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770927"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005548"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Документация по приложению Finance and Operations
+# <a name="finance-and-operations-application-documentation"></a>Документация по приложениям Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
-Узнайте, как применять приложения Finance and Operations в вашей организации. Для этого воспользуйтесь перечисленными в этом разделе ресурсами, содержащими материалы для конечных пользователей, разработчиков и ИТ-специалистов. 
+Узнайте, как применять приложения Finance and Operations в вашей организации. Для этого воспользуйтесь перечисленными в этом разделе ресурсами для конечных пользователей, разработчиков и ИТ-специалистов. 
 
-Большая часть этих материалов также применима к связанным продуктам: Dynamics 365 Retail и Talent. 
+Большая часть этих материалов также применима к связанным продуктам — Dynamics 365 Commerce и Dynamics 365 Human Resources. 
 
 <table>
 <colgroup>
@@ -44,7 +44,7 @@ ms.locfileid: "2770927"
 <h3><a href="get-started/before-you-buy.md">Перед покупкой</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Регистрация для получения ознакомительной подписки</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Выбор варианта развертывания</a></p>
- <p><a href="get-started/purchase-on-premises.md">Покупка Finance and Operations (on-premises)</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Покупка Finance and Operations (локальная версия)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Жизненный цикл реализации</a></h3>
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack для Dynamics 365</a></p>
@@ -84,9 +84,9 @@ ms.locfileid: "2770927"
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Региональные нормативные компоненты</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Управление персоналом</a></h3>
-<p><a href="../../talent/manage-benefit-program.md">Льготы</a></p>
-<p><a href="../../talent/performance-management-overview.md">Развитие и обучение сотрудников</a></p>
-<p><a href="../../talent/questionnaires.md">Анкета</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">Льготы</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Развитие и обучение сотрудников</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">Анкеты</a></p>
 <p><a href="hr/manage-recruiting-process.md">Набор сотрудников</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">Зарплата, США</a></p>
 
@@ -129,16 +129,17 @@ ms.locfileid: "2770927"
 </td>
 <td>
 <h3>Связанные продукты</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Retail</a></h4>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
 <p><a href="../../retail/call-center-functionality.md">Центр обработки вызовов</p>
 <p><a href="../../retail/define-maintain-retail-channels.md">Настройка канала и управление им</p>
 <p><a href="../../retail/retail-peripherals-overview.md">MPOS и Cloud POS</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Администрирование и разработка для Retail</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Администрирование и разработка для Commerce</p>
 
-<h4><a href="../../talent/index.yml">Dynamics 365 Talent</a></h4>
-<p><a href="../../talent/manage-benefit-program.md">Льготы</a></p>
-<p><a href="../../talent/performance-management-overview.md">Развитие и обучение сотрудников</a></p>
-<p><a href="../../talent/questionnaires.md">Анкета</a></p>
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">Руководство администратора</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">Руководство разработчика</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">Руководство пользователя</a></p>
+
 
 </td>
 </tr>

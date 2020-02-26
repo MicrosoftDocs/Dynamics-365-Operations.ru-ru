@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
-ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
+ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935395"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005734"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Сравнение характеристик облачной и локальной версий
 
@@ -32,8 +32,8 @@ ms.locfileid: "2935395"
 
 - [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
 - [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)
-- [Dynamics 365 Retail](cloud-prem-comparison.md#dynamics-365-retail)
-- [Dynamics 365 Talent](cloud-prem-comparison.md#dynamics-365-talent)
+- [Dynamics 365 Commerce](cloud-prem-comparison.md#dynamics-365-commerce)
+- [Dynamics 365 Human Resources](cloud-prem-comparison.md#dynamics-365-human-resources)
 
 Кроме того, в нее включены сведения [о функциях разработки и администрирования](cloud-prem-comparison.md#development-and-administration-features).
 
@@ -45,8 +45,7 @@ ms.locfileid: "2935395"
 |---------------------|-----------------------------|-----------|-----------------|
 | Соответствие и сертификация        |                                                                                           | Да       | Да             |
 |                                      | Сертификация SOC 1, тип 1                                                                | Да       | Нет              |
-| Управление данными и их интеграция      |                                                                                           | Да       | Да             |
-|                                      | Расширение в зависимости от конфигурации                                                            | Да       | Нет              |
+| Управление данными и их интеграция      |                                                                                           | Да       | Да             
 |                                      | Экспорт данных в ваше собственное хранилище данных                                                    | Да       | Да             |
 |                                      | Включение экспорта инкрементных обновлений объекта данных                                 | Да       | Да              |
 |                                      | Интеграции данных                                                                         | Да       | Да             |
@@ -146,15 +145,15 @@ ms.locfileid: "2935395"
 | Поддержка                              |                                                                                           | Да       | Да             |
 |                                      | Доступ к поддержке через меню "Справка и поддержка"                                             | Да       | Нет              |
 
-## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
+## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Список возможностей Retail, доступных в локальных развертываниях, см. в разделе [Возможности Retail, доступные в локальных развертываниях](../../../retail/retail-onprem.md).
+Список возможностей, доступных в локальных развертываниях, см. в разделе [Возможности Retail, доступные в локальных развертываниях](../../../retail/retail-onprem.md).
 
-## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
+## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
 | **Область**         | **Компонент**         | **Облачное хранилище** | **Локально** |
 |------------------|---------------------|-----------|-----------------|
-| Все области Talent | Все функции Talent | Да       | Нет              |
+| Все области модуля управления персоналом | Все функции управления персоналом | Да       | Нет              |
 
 ## <a name="development-and-administration-features"></a>Функции разработки и администрирования
 

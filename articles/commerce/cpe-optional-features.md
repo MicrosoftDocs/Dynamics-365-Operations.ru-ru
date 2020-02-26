@@ -1,5 +1,5 @@
 ---
-title: Настройка дополнительных функций для среды предварительного просмотра Commerce
+title: Настройка дополнительных функций среды предварительной версии Dynamics 365 Commerce
 description: В этой теме объясняется, как настроить дополнительные функции для среды предварительного просмотра Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2c4872cdebc414eaa865af025237bd9e1d14bfd2
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906124"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024737"
 ---
-# <a name="configure-optional-features-for-a-commerce-preview-environment"></a>Настройка дополнительных функций для среды предварительного просмотра Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Настройка дополнительных функций среды предварительной версии Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 В этой теме объясняется, как настроить дополнительные функции для среды предварительного просмотра Microsoft Dynamics 365 Commerce.
@@ -173,13 +173,13 @@ ms.locfileid: "2906124"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор среды предварительного просмотра Commerce](cpe-overview.md)
+[Обзор среды предварительной версии Dynamics 365 Commerce](cpe-overview.md)
 
-[Обеспечение среды предварительного просмотра Commerce](provisioning-guide.md)
+[Обеспечение среды предварительной версии Dynamics 365 Commerce](provisioning-guide.md)
 
-[Настройка среды предварительного просмотра Commerce](cpe-post-provisioning.md)
+[Настройка среды предварительной версии Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Вопросы и ответы среды предварительного просмотра Commerce](cpe-faq.md)
+[Вопросы и ответы по среде предварительной версии Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -188,5 +188,3 @@ ms.locfileid: "2906124"
 [Портал Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Веб-сайт Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Справочные ресурсы для Dynamics 365 Retail](../retail/index.md)

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 8739bb1afdbea40c7f1c77064ee6b052516903d1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 1b59fdbdd9ed46f42afd3e7310d2cd3f076edd95
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898210"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006387"
 ---
 # <a name="get-the-onboard-app"></a>Получение приложения Onboard
 
@@ -32,7 +32,7 @@ ms.locfileid: "2898210"
 > [!NOTE]
 > Для бесплатной пробной версии требуется учетная запись электронной почты для бизнеса.
 
-Вы можете приобрести подписку на Onboard в качестве автономного приложения или как компонента Dynamics 365 Talent. Talent представляет собой комплексную систему управления человеческим капиталом (HCM), которая включает в себя Dynamics 365 Talent: Attract, Onboard и Core HR. Для получения дополнительных сведений о том, как купить Onboard, см. [страницу продукта Onboard](https://dynamics.microsoft.com/talent/onboard/).
+Вы можете приобрести подписку на Onboard в качестве автономного приложения или как компонента Dynamics 365 Talent. Для получения дополнительных сведений о том, как купить Onboard, см. [страницу продукта Onboard](https://dynamics.microsoft.com/talent/onboard/).
 
 В ходе получения пробной версии или процесса покупки вы настроите адрес электронной почты и пароль Microsoft 365. Обязательно запомните эти значения.
 

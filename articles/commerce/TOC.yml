@@ -1,8 +1,8 @@
-- name: Dynamics 365 Commerce (предварительная версия)
+- name: Dynamics 365 Commerce
   items:
-    - name: Dynamics 365 Commerce (предварительная версия)
+    - name: Dynamics 365 Commerce
       items:
-        - name: Dynamics 365 Commerce (предварительная версия)
+        - name: Dynamics 365 Commerce
           href: index.md
         - name: Начало работы
           items:
@@ -34,17 +34,17 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: Создание и автоматизация пользовательских приемочных тестов
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: Настройка среды предварительной версии Commerce
+            - name: Настройка среды предварительной версии Dynamics 365 Commerce
               items:
-                - name: Обзор среды предварительной версии Commerce
+                - name: Обзор среды предварительной версии Dynamics 365 Commerce
                   href: cpe-overview.md
-                - name: Обеспечение среды предварительной версии Commerce
+                - name: Обеспечение среды предварительной версии Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: Настройка среды предварительной версии Commerce
+                - name: Настройка среды предварительной версии Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
-                - name: Настройка дополнительных функций среды предварительной версии Commerce
+                - name: Настройка дополнительных функций среды предварительной версии Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: Вопросы и ответы по среде предварительной версии Commerce
+                - name: Вопросы и ответы по среде предварительной версии Dynamics 365 Commerce
                   href: cpe-faq.md
             - name: 'Вопросы, связанные с развертыванием'
               items:
@@ -55,14 +55,14 @@
                 - name: Облачное развертывание
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Требования к системе для облачных развертываний
-                  href: ../retail/get-started/system-requirements.md?toc=/dynamics365/commerce/toc.json
+                  href: get-started/system-requirements.md
                 - name: Локальное развертывание
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
                 - name: Требования к системе для локальных развертываний
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: Действия по установке для компонентов канала розничной торговли в локальной среде
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: Покупка Finance + Operations (on-premises)
+                - name: Покупка Finance and Operations (локальная версия)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Приложения Finance and Operations, предоставляемые компанией 21Vianet в Китае'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
@@ -71,26 +71,28 @@
             - name: Обновление и поддержка N-1
               items:
                 - name: Обновление и поддержка N-1 для Retail
-                  href: ../retail/dev-itpro/overview-upgrade-n-minus1.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Установка, настройка и переключение поэтапного выпуска (N-1)'
-                  href: ../retail/dev-itpro/n-1-installation-configuration.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/n-1-installation-configuration.md
                 - name: Обновление расширения канала Retail до последнего пакета Retail SDK
-                  href: ../retail/dev-itpro/retailSDK-update.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/retailSDK-update.md
             - name: Что нового и что изменилось
               items:
-                - name: Retail 10.0.7
-                  href: ../retail/get-started/whats-new-10-0-7.md?toc=/dynamics365/commerce/toc.json
-                - name: Retail 10.0.6
-                  href: ../retail/get-started/whats-new-10-0-6.md?toc=/dynamics365/commerce/toc.json
-                - name: Что нового и что изменилось в предыдущих версиях
+                - name: Что нового и что изменилось в приложениях Finance and Operations
+                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
+                - name: Что нового и что изменилось в Commerce
                   items:
-                    - name: Домашняя страница «Что нового и что изменилось в Finance and Operations»
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                    - name: 'Finance and Operations, Enterprise edition 7.3'
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/commerce/toc.json
+                    - name: Что нового и что изменилось на домашней странице Commerce
+                      href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.9 (апрель 2020 г.)
+                      href: get-started/whats-new-10-0-9.md
+                    - name: Commerce 10.0.8 (февраль 2020 г.)
+                      href: get-started/whats-new-10-0-8.md
+                    - name: Retail 10.0.7 (январь 2020 г.)
+                      href: get-started/whats-new-10-0-7.md
                 - name: Удаленные или устаревшие функции
                   items:
-                    - name: Удаленные или устаревшие функции в Finance and Operations
+                    - name: Удаленные или устаревшие функции Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Функции AX 2012, реализация которых была отложена'
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
@@ -180,44 +182,44 @@
           items:
             - name: Архитектура
               items:
-                - name: Компоненты Retail
-                  href: ../retail/retail-components.md?toc=/dynamics365/commerce/toc.json
-                - name: Архитектура Retail Server
-                  href: ../retail/dev-itpro/retail-server-architecture.md?toc=/dynamics365/commerce/toc.json
+                - name: Компоненты Commerce
+                  href: retail-components.md
+                - name: Архитектура Commerce Scale Unit
+                  href: dev-itpro/retail-server-architecture.md
                 - name: Выбор топологии в магазине
-                  href: ../retail/dev-itpro/retail-in-store-topology.md?toc=/dynamics365/commerce/toc.json
-                - name: Commerce Data Exchange и взаимодействия по каналам розничной торговли
-                  href: ../retail/dev-itpro/define-retail-channel-communications-cdx.md?toc=/dynamics365/commerce/toc.json
-                - name: Архитектура Retail Modern POS
-                  href: ../retail/dev-itpro/retail-modern-pos-architecture.md?toc=/dynamics365/commerce/toc.json
-                - name: Архитектура публикации в интернет-магазинах Retail
-                  href: ../retail/dev-itpro/retail-online-store-publishing-architecture.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/retail-in-store-topology.md
+                - name: Commerce Data Exchange и взаимодействие по каналам коммерческой деятельности
+                  href: dev-itpro/define-retail-channel-communications-cdx.md
+                - name: Архитектура Modern POS
+                  href: dev-itpro/retail-modern-pos-architecture.md
+                - name: Архитектура публикации в интернет-магазинах
+                  href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Содержимое Retail Channel Performance Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Сертификация стандартов безопасности данных платежных приложений (PA-DSS)
-                  href: ../retail/dev-itpro/PA-DSS-Certification.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Возможности розничной торговли, доступные в локальных развертываниях'
-                  href: ../retail/retail-onprem.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/PA-DSS-Certification.md
+                - name: 'Возможности Commerce, доступные в локальных развертываниях'
+                  href: retail-onprem.md
             - name: Развертывание и исправления
               items:
-                - name: Retail Store Scale Unit
-                  href: ../retail/dev-itpro/retail-store-system-begin.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка и установка Retail Store Scale Unit
-                  href: ../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md?toc=/dynamics365/commerce/toc.json
-                - name: Конфигурация и установка Retail Modern POS
-                  href: ../retail/retail-modern-pos-device-activation.md?toc=/dynamics365/commerce/toc.json
-                - name: Управление учетными записями и устройствами Retail из центрального офиса
-                  href: ../retail/set-up-activation-accounts-validate-devices-hq.md?toc=/dynamics365/commerce/toc.json
-                - name: Активация устройств Retail POS
-                  href: ../retail/dev-itpro/retail-device-activation.md?toc=/dynamics365/commerce/toc.json
+                - name: Commerce Scale Unit
+                  href: dev-itpro/retail-store-system-begin.md
+                - name: Настройка и установка Commerce Scale Unit
+                  href: dev-itpro/retail-store-scale-unit-configuration-installation.md
+                - name: Настройка и установка Modern POS
+                  href: retail-modern-pos-device-activation.md
+                - name: Управление учетными записями и устройствами из центрального офиса
+                  href: set-up-activation-accounts-validate-devices-hq.md
+                - name: Активация устройства POS
+                  href: dev-itpro/retail-device-activation.md
                 - name: Обеспечение безопасности Cloud POS в общих средах
-                  href: ../retail/dev-itpro/secure-retail-cloud-pos.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Настройка и установка Retail Hardware Station
-                  href: ../retail/retail-hardware-station-configuration-installation.md?toc=/dynamics365/commerce/toc.json
-                - name: Массовое развертывание компонентов дистанционного обслуживания Retail
-                  href: ../retail/dev-itpro/retail-mass-deployment.md?toc=/dynamics365/commerce/toc.json
+                  href: retail-hardware-station-configuration-installation.md
+                - name: Массовое развертывание компонентов самообслуживания
+                  href: dev-itpro/retail-mass-deployment.md
                 - name: События компонентов Retail для диагностики и устранения неполадок
-                  href: ../retail/dev-itpro/retail-component-events-diagnostics-troubleshooting.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: Применение готового к развертыванию пакета
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
             - name: Реализация управления жизненным циклом
@@ -248,586 +250,726 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: Несколько проектов LCS и производственных сред в одном клиенте Azure AD
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Реализация проектов Retail Finance and Operations
-                  href: ../retail/dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Настройка новых сред, Azure DevOps и ветвей для проектов Retail'
-                  href: ../retail/dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md?toc=/dynamics365/commerce/toc.json
-                - name: Обновление кода и сред для проектов Retail
-                  href: ../retail/dev-itpro/updating-environments.md?toc=/dynamics365/commerce/toc.json
+                - name: Реализация проектов Finance and Operations Commerce
+                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                - name: 'Настройка новых сред, Azure DevOps и ветвей для проектов Commerce'
+                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                - name: Обновление кода и сред для проектов Commerce
+                  href: dev-itpro/updating-environments.md
                 - name: Тестирование и проблемы с производительностью
-                  href: ../retail/dev-itpro/retail-implementation-testing-performance.md?toc=/dynamics365/commerce/toc.json
-        - name: Администрирование системы
+                  href: dev-itpro/retail-implementation-testing-performance.md
+        - name: Настройка каналов
           items:
-            - name: Конфигурация среды
+            - name: Обзор каналов
+              href: channels-overview.md
+            - name: Необходимые условия для каналов
               items:
-                - name: Добавление ссылок на юридические условия и заявление о конфиденциальности вашей организации
-                  href: ../fin-ops-core/dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/commerce/toc.json
-                - name: Управление Картами Bing
-                  href: ../retail/dev-itpro/manage-bing-maps.md?toc=/dynamics365/commerce/toc.json
-        - name: Настройка канала и управление им
-          items:
-            - name: Основная настройка между каналами
+                - name: Необходимые условия для настройки каналов
+                  href: channels-prerequisites.md
+                - name: Общие необходимые условия
+                  items:
+                    - name: Организации и организационные иерархии
+                      items:
+                        - name: Обзор организаций и организационных иерархий
+                          href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json
+                        - name: Планирование организационной иерархии
+                          href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json
+                        - name: Создание юридических лиц
+                          href: channels-legal-entities.md
+                        - name: Настройка организационных иерархий
+                          href: channels-org-hierarchies.md
+                        - name: Создание операционной единицы
+                          href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/commerce/toc.json
+                        - name: Определение связей между организационными единицами
+                          href: tasks/design-relationships-between-organizational-units.md
+                    - name: Настройка склада
+                      href: channels-setup-warehouse.md
+                    - name: Настройка налога
+                      items:
+                        - name: Обзор налога
+                          href: ../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/commerce/toc.json
+                        - name: Методы расчета налога
+                          href: ../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=/dynamics365/commerce/toc.json
+                        - name: Назначение и переопределения налога
+                          href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
+                        - name: Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов
+                          href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                    - name: Настройка профиля уведомлений по электронной почте
+                      href: email-notification-profiles.md
+                    - name: Номерные серии
+                      items:
+                        - name: Обзор номерных серий
+                          href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/retail/toc.json
+                        - name: Настройка номерных серий на индивидуальной основе
+                          href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/retail/toc.json
+                        - name: Настройка номерной серии с использованием мастера
+                          href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/retail/toc.json
+                    - name: Настройка книги клиентов и адресов по умолчанию
+                      href: default-customer.md
+                - name: Необходимые условия для каналов розничной торговли
+                  items:
+                    - name: Инфокоды и группы инфокодов
+                      href: info-codes-retail.md
+                    - name: Создание профиля функциональности розничной торговли
+                      href: retail-functionality-profile.md
+                    - name: Создание адресной книги
+                      href: new-address-book.md
+                    - name: Обзор макета экрана
+                      href: pos-screen-layouts.md
+                - name: Необходимые условия для каналов онлайн-торговли
+                  items:
+                    - name: Создание профиля функциональности для онлайн-торговли
+                      href: online-functionality-profile.md
+            - name: Настройка канала розничной торговли
               items:
-                - name: Инициализация начальных данных в новых средах Retail
-                  href: ../retail/enable-configure-retail-functionality.md?toc=/dynamics365/commerce/toc.json
-                - name: Инфокоды и группы инфокодов
-                  href: ../retail/info-codes-retail.md?toc=/dynamics365/commerce/toc.json
-            - name: Управление каналом магазина
-              items:
-                - name: Настройка каналов розничной торговли
-                  href: ../retail/define-maintain-retail-channels.md?toc=/dynamics365/commerce/toc.json
-                - name: Создание и изменение часов работы магазина
-                  href: ../retail/dev-itpro/store-hours.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка и установка Retail Hardware Station
-                  href: ../retail/retail-hardware-station-configuration-installation.md?toc=/dynamics365/commerce/toc.json
+                - name: Настройка канала розничной торговли
+                  href: channel-setup-retail.md
+                - name: Настройка работников розничной торговли
+                  href: tasks/worker.md
                 - name: Modern Point of Sale (MPOS) и Cloud POS
                   items:
                     - name: Выбор между MPOS и Cloud POS
-                      href: ../retail/MPOS-or-CPOS.md?toc=/dynamics365/commerce/toc.json
+                      href: MPOS-or-CPOS.md
                     - name: Выполнение операций POS в интерактивном и автономном режимах
-                      href: ../retail/pos-operations.md?toc=/dynamics365/commerce/toc.json
-                    - name: Активация устройства настраиваемого Retail MPOS
-                      href: ../retail/dev-itpro/retail-POS-activation-changes.md?toc=/dynamics365/commerce/toc.json
+                      href: pos-operations.md
+                    - name: Активация устройства настраиваемого Modern POS
+                      href: dev-itpro/retail-POS-activation-changes.md
                     - name: Макеты экрана демонстрационных данных в MPOS и Cloud POS
-                      href: ../retail/demo-data.md?toc=/dynamics365/commerce/toc.json
+                      href: demo-data.md
                     - name: Поиск продуктов и клиентов в POS
-                      href: ../retail/POS-search-improvements.md?toc=/dynamics365/commerce/toc.json
+                      href: POS-search-improvements.md
                     - name: Поиск продуктов и вариантов продуктов во время ввода заказа
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Улучшения управления кассами
-                      href: ../retail/cash-mgmt.md?toc=/dynamics365/commerce/toc.json
+                      href: cash-mgmt.md
                     - name: Поиск запасов в POS
-                      href: ../retail/product-variants-POS.md?toc=/dynamics365/commerce/toc.json
+                      href: product-variants-POS.md
                     - name: Приостановка и возобновление проводок в POS
-                      href: ../retail/pos-suspend-recall-transactions.md?toc=/dynamics365/commerce/toc.json
+                      href: pos-suspend-recall-transactions.md
                     - name: Функциональность POS в автономном режиме
-                      href: ../retail/pos-offline-functionality.md?toc=/dynamics365/commerce/toc.json
+                      href: pos-offline-functionality.md
                     - name: Управление сменами и кассовым лотком
-                      href: ../retail/shift-drawer-management.md?toc=/dynamics365/commerce/toc.json
+                      href: shift-drawer-management.md
                     - name: Сальдо подарочного сертификата для обналичивания
-                      href: ../retail/dev-itpro/gift-card-cash-out.md?toc=/dynamics365/commerce/toc.json
+                      href: dev-itpro/gift-card-cash-out.md
                     - name: Отгрузка заказов из другого магазина
-                      href: ../retail/charge-send.md?toc=/dynamics365/commerce/toc.json
+                      href: charge-send.md
                     - name: Скрытие не связанных с перевозчиком режимов доставки из диалогового окна отгрузки POS
-                      href: ../retail/hide-non-carrier-modes.md?toc=/dynamics365/commerce/toc.json
+                      href: hide-non-carrier-modes.md
                     - name: Регистратор задач и справка для MPOS и Cloud POS
-                      href: ../retail/task-recorder-retail-pos.md?toc=/dynamics365/commerce/toc.json
-                    - name: Периферийные устройства
+                      href: task-recorder-retail-pos.md
+                    - name: Периферийное оборудование
                       items:
-                        - name: Периферийные устройства для розничной торговли
-                          href: ../retail/retail-peripherals-overview.md?toc=/dynamics365/commerce/toc.json
-                        - name: Симулятор периферийных устройств Retail
-                          href: ../retail/dev-itpro/retail-peripheral-simulator.md?toc=/dynamics365/commerce/toc.json
+                        - name: Периферийные устройства
+                          href: retail-peripherals-overview.md
+                        - name: Симулятор периферийных устройств
+                          href: dev-itpro/retail-peripheral-simulator.md
                         - name: Подключение периферийных устройств к POS
-                          href: ../retail/define-maintain-channel-clients-registers-hw-stations.md?toc=/dynamics365/commerce/toc.json
+                          href: define-maintain-channel-clients-registers-hw-stations.md
                     - name: Макеты экрана
                       items:
                         - name: Макеты экрана демонстрационных данных в MPOS/CPOS
-                          href: ../retail/demo-data.md?toc=/dynamics365/commerce/toc.json
+                          href: demo-data.md
                         - name: Макеты экрана для POS
-                          href: ../retail/pos-screen-layouts.md?toc=/dynamics365/commerce/toc.json
-                        - name: Установка конструктора макета Retail POS
-                          href: ../retail/install-pos-layout-designer.md?toc=/dynamics365/commerce/toc.json
+                          href: pos-screen-layouts.md
+                        - name: Установка конструктора макетов POS
+                          href: install-pos-layout-designer.md
                         - name: Выбор параметров уведомлений
-                          href: ../retail/Notifications-POS.md?toc=/dynamics365/commerce/toc.json
+                          href: Notifications-POS.md
                         - name: Параметры приложения POS и языка пользователя
-                          href: ../retail/pos-application-user-language-settings.md?toc=/dynamics365/commerce/toc.json
+                          href: pos-application-user-language-settings.md
                         - name: Настройка изображений для MPOS и управление ими
-                          href: ../retail/set-up-manage-images-retail-mpos.md?toc=/dynamics365/commerce/toc.json
+                          href: set-up-manage-images-retail-mpos.md
                         - name: Образы клиента в POS
-                          href: ../retail/pos-image.md?toc=/dynamics365/commerce/toc.json
+                          href: pos-image.md
                     - name: Клиентские заказы
                       items:
                         - name: Клиентские заказы в MPOS
-                          href: ../retail/customer-orders-overview.md?toc=/dynamics365/commerce/toc.json
+                          href: customer-orders-overview.md
                         - name: Гибридные клиентские заказы
-                          href: ../retail/hybrid-customer-orders.md?toc=/dynamics365/commerce/toc.json
+                          href: hybrid-customer-orders.md
                     - name: Продавцы-консультанты
                       items:
                         - name: Отслеживание комиссий в POS с помощью групп продаж
-                          href: ../retail/pos-sales-groups-track-commissions.md?toc=/dynamics365/commerce/toc.json
+                          href: pos-sales-groups-track-commissions.md
                     - name: Активация устройства
                       items:
                         - name: 'Настройка, установка и активация MPOS'
-                          href: ../retail/retail-modern-pos-device-activation.md?toc=/dynamics365/commerce/toc.json
+                          href: retail-modern-pos-device-activation.md
                         - name: Настройка функциональности расширенного входа для MPOS и Cloud POS
-                          href: ../retail/extended-logon.md?toc=/dynamics365/commerce/toc.json
-                        - name: Управление учетными записями активации и устройствами проверки Retail
-                          href: ../retail/set-up-activation-accounts-validate-devices-hq.md?toc=/dynamics365/commerce/toc.json
-                    - name: Чеки
-                      items:
-                        - name: Настройка и дизайн форматов чеков
-                          href: ../retail/receipt-templates-printing.md?toc=/dynamics365/commerce/toc.json
-                        - name: Отправка чеков по электронной почте из MPOS
-                          href: ../retail/email-receipts.md?toc=/dynamics365/commerce/toc.json
-            - name: Управление каналом продаж через Интернет
+                          href: extended-logon.md
+                        - name: Управление учетными записями активации и проверка устройств
+                          href: set-up-activation-accounts-validate-devices-hq.md
+                    - name: Создание финансовых аналитик для ККМ POS и настройка значений аналитики в ККМ
+                      href: tasks/create-financial-dimensions-pos.md
+                    - name: Создание групп разрешений POS
+                      href: tasks/create-pos-permission-groups.md
+                    - name: Создание визуальных профилей POS
+                      href: tasks/create-pos-visual-profile-2016-02.md
+                - name: Настройка и установка Retail Hardware Station
+                  href: retail-hardware-station-configuration-installation.md
+                - name: Чеки
+                  items:
+                    - name: Настройка и дизайн форматов чеков
+                      href: receipt-templates-printing.md
+                    - name: Отправка чеков по электронной почте из Modern POS (MPOS)
+                      href: email-receipts.md
+                    - name: Сброс номеров чеков
+                      href: reset_receipt_number_sequence.md
+                - name: Создание профилей функциональности для торговых представителей
+                  href: tasks/configure-functionality-profile-sales-representative.md
+                - name: Создание финансовых аналитик для каналов розничной торговли и настройка значений для магазинов
+                  href: tasks/create-financial-dimensions-retail-channels.md
+            - name: Настройка канала онлайн-торговли
               items:
-                - name: Обзор интернет-магазина
-                  href: online-store-overview.md
-                - name: Создание сайта электронной коммерции
-                  items:
-                    - name: Настройка доменного имени
-                      href: configure-your-domain-name.md
-                    - name: Развертывание нового арендатора электронной коммерции
-                      href: deploy-ecommerce-site.md
-                    - name: Настройка канала интернет-магазина
-                      href: ../retail/online-stores.md?toc=/dynamics365/commerce/toc.json
-                    - name: Создание сайта электронной коммерции
-                      href: create-ecommerce-site.md
-                    - name: Связывание сайта электронной коммерции с интернет-каналом
-                      href: associate-site-online-store.md
-                    - name: Управление файлами robots.txt
-                      href: manage-robots-txt-files.md
-                    - name: Настройка специальных страниц для входа пользователей
-                      href: custom-pages-user-logins.md
-                    - name: Добавление поддержки сети доставки контента (CDN)
-                      href: add-cdn-support.md
-                    - name: Включение обнаружения магазинов на основе местоположения
-                      href: enable-store-detection.md
-                - name: Обзор примера сайта
-                  items:
-                    - name: Обзор домашней страницы
-                      href: quick-tour-home-page.md
-                    - name: Обзор целевой страницы категории и страницы результатов поиска по умолчанию
-                      href: category-search-page-overview.md
-                    - name: Обзор страниц сведений о продуктах
-                      href: quick-tour-pdp.md
-                    - name: Обзор страниц корзины и оформления заказа
-                      href: quick-tour-cart-checkout.md
-                    - name: Обзор страниц управления учетной записью
-                      href: quick-tour-account-management.md
-                - name: Управление параметрами сайта
-                  items:
-                    - name: Обзор страницы разработки
-                      href: authoring-home-overview.md
-                    - name: Управление пользователями и ролями
-                      href: manage-ecommerce-users-roles.md
-                    - name: Особенности поисковой оптимизации (SEO) для сайта
-                      href: search-engine-optimization-considerations.md
-                    - name: Управление политикой безопасности содержимого (CSP)
-                      href: manage-csp.md
-                - name: Управление содержимым сайта
-                  items:
-                    - name: Способы добавления содержимого
-                      href: add-manage-content.md
-                    - name: Глоссарий по модели страниц
-                      href: page-elements-overview.md
-                    - name: Состояния и жизненный цикл документа
-                      href: document-states-overview.md
-                    - name: Работа с группами публикаций
-                      href: publish-groups.md
-                    - name: Фирменная настройка сайта и добавление сведений о магазине
-                      items:
-                        - name: Добавление логотипа
-                          href: add-logo.md
-                        - name: Выбор темы сайта
-                          href: select-site-theme.md
-                        - name: Работа с переопределением файлов CSS
-                          href: css-override-files.md
-                        - name: Добавление значка сайта
-                          href: add-favicon.md
-                        - name: Добавление приветственного сообщения
-                          href: add-welcome-message.md
-                        - name: Добавление уведомления об авторском праве
-                          href: add-copyright-notice.md
-                        - name: Добавление языков
-                          href: add-languages-to-site.md
-                        - name: Добавление кода скрипта на страницы сайта для поддержки телеметрии
-                          href: add-telemetry.md
-                    - name: Модули
-                      items:
-                        - name: Работа с модулями
-                          href: work-with-modules.md
-                    - name: Фрагменты
-                      items:
-                        - name: Работа с фрагментами
-                          href: work-with-fragments.md
-                    - name: Шаблоны
-                      items:
-                        - name: Обзор шаблонов и макетов
-                          href: templates-layouts-overview.md
-                        - name: Работа с шаблонами
-                          href: work-with-templates.md
-                        - name: Работа с предустановленными макетами
-                          href: work-with-layouts.md
-                    - name: Страницы
-                      items:
-                        - name: Изменение существующей страницы сайта
-                          href: modify-existing-page.md
-                        - name: Добавление новой страницы сайта
-                          href: add-new-page.md
-                        - name: Выбор макета страницы
-                          href: select-page-layouts.md
-                        - name: Управление метаданными для поисковой оптимизации
-                          href: manage-seo-metadata.md
-                        - name: 'Сохранение, предварительный просмотр и публикация страницы'
-                          href: save-preview-publish-page.md
-                        - name: Расширение возможностей страницы продукта
-                          href: enrich-product-page.md
-                        - name: Расширение возможностей целевой страницы категории
-                          href: enrich-category-page.md
-                        - name: Проверка доступности контента страницы
-                          href: verify-accessibility.md
-                    - name: Навигация по сайту
-                      items:
-                        - name: Настройка навигации по сайту
-                          href: customize-site-navigation.md
-                        - name: Создание URL-адреса страницы
-                          href: create-page-URL.md
-                - name: Обеспечение соответствия сайта
-                  items:
-                    - name: Обзор соответствия
-                      href: compliance-overview.md
-                    - name: Специальные возможности
-                      href: accessibility.md
-                    - name: Соответствие файлов cookie
-                      href: cookie-compliance.md
-                    - name: Добавление страницы политики конфиденциальности
-                      href: add-privacy-page.md
-                - name: Начальный набор
-                  items:
-                    - name: Обзор начального набора
-                      href: starter-kit-overview.md
-                    - name: Модули контейнера
-                      items:
-                        - name: Модуль контейнера
-                          href: add-container-module.md
-                    - name: Модули маркетинга
-                      items:
-                        - name: Модуль оповещения
-                          href: add-alert.md
-                        - name: Модуль карусели
-                          href: add-carousel.md
-                        - name: Модуль размещения содержимого
-                          href: add-content-placement-modules.md
-                        - name: Блок-модуль насыщенного содержимого
-                          href: add-content-rich-block.md
-                        - name: Модуль функции
-                          href: add-feature-module.md
-                        - name: Модуль главного баннера
-                          href: add-hero-module.md
-                        - name: Модуль видеопроигрывателя
-                          href: add-video-player.md
-                    - name: Модули верхнего и нижнего колонтитулов
-                      items:
-                        - name: Модуль верхнего колонтитула
-                          href: author-header-module.md
-                        - name: Модуль нижнего колонтитула
-                          href: author-footer-module.md
-                    - name: Модули страницы сведений о продукте
-                      items:
-                        - name: Модуль поля покупки
-                          href: add-buy-box.md
-                    - name: Модули покупок
-                      items:
-                        - name: Модуль корзины
-                          href: add-cart-module.md
-                        - name: Модуль оформления заказа
-                          href: add-checkout-module.md
-                        - name: Модуль подтверждения заказа
-                          href: order-confirmation-module.md
-                    - name: Модули управления учетной записью
-                      items:
-                        - name: Страницы и модули управления учетной записью
-                          href: account-management.md
-                    - name: Модули семейства продуктов
-                      items:
-                        - name: Модули семейства продуктов
-                          href: product-collection-module-overview.md
-                - name: Поиск
-                  items:
-                    - name: Целевая страница категории и страница результатов поиска по умолчанию
-                      href: category-search-page-overview.md
-                    - name: Обзор поиска на облачной платформе
-                      href: cloud-powered-search-overview.md
-                - name: Отчетность
-                  items:
-                    - name: Создание отчетов канала продаж через интернет
-                      href: generate-reports.md
-                - name: Обработка ошибок
-                  items:
-                    - name: Создание страниц ответов для ошибок с кодом состояния 4xx/5xx
-                      href: build-pages-400-500-errors.md
-            - name: Управление каналом центра обработки вызовов
+                - name: Настройка канала онлайн-торговли
+                  href: channel-setup-online.md
+            - name: Настройка канала центра обработки вызовов
               items:
                 - name: Функциональность продажи центра обработки вызовов
-                  href: ../retail/call-center-functionality.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка каналов центра обработки вызовов
-                  href: ../retail/set-up-order-processing-options.md?toc=/dynamics365/commerce/toc.json
+                  href: call-center-functionality.md
+                - name: Настройка канала центра обработки вызовов
+                  href: channel-setup-callcenter.md
                 - name: Каталоги центра обработки вызовов
-                  href: ../retail/call-center-catalogs.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка режимов доставки и накладных расходов
-                  href: ../retail/configure-call-center-delivery.md?toc=/dynamics365/commerce/toc.json
+                  href: call-center-catalogs.md
+                - name: Настройка параметров обработки заказов в центрах обработки вызовов
+                  href: set-up-order-processing-options.md
+                - name: Настройка режимов доставки и накладных расходов центра обработки вызовов
+                  href: configure-call-center-delivery.md
                 - name: Настройка оповещений о мошенничестве и работа с ними
-                  href: ../retail/set-up-fraud-alerts.md?toc=/dynamics365/commerce/toc.json
+                  href: set-up-fraud-alerts.md
                 - name: Настройка программ непрерывности для центров обработки вызовов
-                  href: ../retail/set-up-continuity-program.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка удержаний заказов центра обработки вызовов и работа с ними
-                  href: ../retail/work-with-order-holds.md?toc=/dynamics365/commerce/toc.json
-        - name: Конфигурация многоканального взаимодействия
+                  href: set-up-continuity-program.md
+            - name: Конфигурация дополнительного канала
+              items:
+                - name: Добавление канала в организационную иерархию
+                  href: channel-add-to-org-hierarchy.md
+                - name: Расширенные автоматические накладные расходы
+                  items:
+                    - name: Настройка и использование расширенных автоматических накладных расходов
+                      href: omni-auto-charges.md
+                    - name: Пропорциональное распределение накладных расходов из заголовка по соответствующим строкам продаж
+                      href: pro-rate-charges-matching-lines.md
+                - name: Руководство розничного магазина
+                  items:
+                    - name: Создание и изменение часов работы магазина
+                      href: dev-itpro/store-hours.md
+                    - name: Commerce Scale Unit
+                      href: dev-itpro/retail-store-system-begin.md
+                - name: Управление центром обработки вызовов
+                  items:
+                    - name: Настройка удержаний заказов центра обработки вызовов и работа с ними
+                      href: work-with-order-holds.md
+                    - name: Определение планов непрерывности
+                      href: tasks/define-continuity-schedules.md
+                - name: Платежи
+                  items:
+                    - name: Способы оплаты
+                      href: payment-methods.md
+                    - name: Способы оплаты в центрах обработки вызовов
+                      href: work-with-payments.md
+                    - name: 'Настройка, авторизация и проверка данных кредитной карты'
+                      href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Настройка номиналов валюты для POS
+                      href: cash-denominations.md
+                    - name: Настройка обработки кредитных карт
+                      href: tasks/configure-credit-card-processing.md
+                    - name: Соединитель платежей Adyen
+                      href: dev-itpro/adyen-connector.md
+                    - name: Сохранение интерактивных платежных инструментов с помощью соединителя Adyen
+                      href: dev-itpro/adyen-connector-listpi.md
+                    - name: Настройка сценариев оплаты накладных
+                      href: payinvoice.md
+                    - name: Предотвращение дублирования платежей
+                      href: duplicate-payment-protection.md
+                    - name: Обзор многоканальных платежей
+                      href: omni-channel-payments.md
+                    - name: Вопросы и ответы по платежам
+                      href: dev-itpro/payments-retail.md
+        - name: Мерчандайзинг товаров и услуг
           items:
-            - name: Продукты и сбыт
+            - name: 'Категории, продукты и ассортименты'
               items:
                 - name: Обзор сведений о продуктах
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
-                - name: Иерархии розничной торговли
-                  href: ../retail/retail-hierarchies.md?toc=/dynamics365/commerce/toc.json
-                - name: Управление атрибутами и группами атрибутов
-                  href: ../retail/attribute-attributegroups-lifecycle.md?toc=/dynamics365/commerce/toc.json
                 - name: Настройка розничных продуктов
-                  href: ../retail/set-up-retail-products.md?toc=/dynamics365/commerce/toc.json
-                - name: Управление категориями розничных продуктов и продуктами
-                  href: ../retail/category-management-product-creation.md?toc=/dynamics365/commerce/toc.json
+                  href: set-up-retail-products.md
+                - name: Иерархия розничных продуктов
+                  items:
+                    - name: Иерархии розничной торговли
+                      href: retail-hierarchies.md
+                    - name: Создание иерархии продуктов
+                      href: create-product-hierarchy.md
+                    - name: Управление продуктами и категориями продуктов
+                      href: category-management-product-creation.md
+                    - name: Изменение порядка сортировки для объектов мерчандайзинга
+                      href: custom-order-categories-nav-retail-prod-hierarchy.md
                 - name: Аналитики продуктов
-                  href: ../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json
-                - name: Управление ассортиментом
-                  href: ../retail/assortments.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка ассортиментов
-                  href: ../retail/set-up-assortments.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка штрих-кодов
-                  href: ../retail/set-up-bar-codes.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка масок штрих-кодов
-                  href: ../retail/set-up-bar-code-masks.md?toc=/dynamics365/commerce/toc.json
-                - name: Изменение порядка сортировки для сбытовых объектов
-                  href: ../retail/custom-order-categories-nav-retail-prod-hierarchy.md?toc=/dynamics365/commerce/toc.json
+                  items:
+                    - name: Аналитики продуктов
+                      href: ../supply-chain/pim/product-dimensions.md?toc=/dynamics365/retail/toc.json
+                    - name: Создание группы вариантов
+                      href: create-variant-group.md
+                - name: Создание нового продукта
+                  items:
+                    - name: Создание обзора нового продукта
+                      href: create-new-product.md
+                    - name: Управление продуктами и категориями продуктов
+                      href: category-management-product-creation.md
+                - name: Атрибуты продукта
+                  items:
+                    - name: Атрибуты и группы атрибутов
+                      href: attribute-attributegroups-lifecycle.md
+                    - name: Определение атрибутов канала
+                      href: tasks/define-channel-attributes.md
+                - name: Иерархии каналов
+                  items:
+                    - name: Создание навигационной иерархии канала
+                      href: create-channel-hierarchy.md
+                    - name: Настройка канала для использования навигационной иерархии
+                      href: configure-channel-hierarchy.md
+                - name: Ассортименты
+                  items:
+                    - name: Управление ассортиментами
+                      href: assortments.md
+                    - name: Настройка ассортиментов
+                      href: set-up-assortments.md
+                    - name: Управление ассортиментами
+                      href: tasks/manage-assortments-2016-11.md
+                - name: Штрих-коды
+                  items:
+                    - name: Настройка штрих-кодов
+                      href: set-up-bar-codes.md
+                    - name: Настройка масок штрих-кодов
+                      href: set-up-bar-code-masks.md
             - name: Цены и скидки
               items:
-                - name: Розничные скидки
-                  href: ../retail/retail-discounts-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Управление ценой продажи розничной торговли
-                  href: ../retail/price-management.md?toc=/dynamics365/commerce/toc.json
+                - name: Скидки
+                  href: retail-discounts-overview.md
+                - name: Управление ценами продажи
+                  href: price-management.md
                 - name: Корректировки цены и скидки
-                  href: ../retail/price-adjustments-discounts.md?toc=/dynamics365/commerce/toc.json
+                  href: price-adjustments-discounts.md
                 - name: Применение к продукту нескольких скидок
-                  href: ../retail/Apply-multiple-retail-discounts.md?toc=/dynamics365/commerce/toc.json
+                  href: apply-multiple-retail-discounts.md
                 - name: Определение оптимальной комбинации пересекающихся скидок
-                  href: ../retail/optimal-combination-overlapping-discounts.md?toc=/dynamics365/commerce/toc.json
+                  href: optimal-combination-overlapping-discounts.md
                 - name: Определение скидок на уровне каналов
-                  href: ../retail/define-channel-specific-discounts.md?toc=/dynamics365/commerce/toc.json
+                  href: define-channel-specific-discounts.md
                 - name: Параметры отмены скидок по розничным продуктам
-                  href: ../retail/prevent-discounts.md?toc=/dynamics365/commerce/toc.json
+                  href: prevent-discounts.md
                 - name: Скидки на основе платежных средств
-                  href: ../retail/tender_based_discounts.md?toc=/dynamics365/commerce/toc.json
+                  href: tender_based_discounts.md
                 - name: Обзор скидок на доставку
-                  href: ../retail/retail-shipping-discount.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка купонов для розничных продаж
-                  href: ../retail/retail-coupons.md?toc=/dynamics365/commerce/toc.json
-                - name: Отчеты по розничным ценам
-                  href: ../retail/price-report.md?toc=/dynamics365/commerce/toc.json
-            - name: Лояльность
+                  href: retail-shipping-discount.md
+                - name: Настройка купонов
+                  href: retail-coupons.md
+                - name: Отчеты по ценам
+                  href: price-report.md
+                - name: Создание коммерческих соглашений для определенных каналов
+                  href: tasks/base-price-trade-agreements.md
+                - name: Создание коммерческих соглашений с помощью правил ценообразования категорий
+                  href: tasks/category-pricing-rules-trade-agreements.md
+            - name: Рекомендации
               items:
-                - name: Обзор лояльности
-                  href: ../retail/set-up-customer-loyalty-program.md?toc=/dynamics365/commerce/toc.json
-                - name: Обзор отношений с клиентами
-                  href: ../retail/clienteling-overview.md?toc=/dynamics365/commerce/toc.json
-            - name: Платежи
+                - name: Обзор рекомендаций по продуктам
+                  href: product-recommendations.md
+                - name: Включение ADLS в среде Dynamics 365 Commerce
+                  href: enable-ADLS-environment.md
+                - name: Добавление списков рекомендаций по продуктам на страницы электронной коммерции
+                  href: add-reco-list-to-page.md
+                - name: Включение рекомендаций по продуктам
+                  href: enable-product-recommendations.md
+                - name: Персонализированные рекомендации
+                  items:
+                    - name: Включение персонализированных рекомендаций
+                      href: personalized-recommendations.md
+                    - name: Отказ от персонализированных рекомендаций
+                      href: personalization-gdpr.md
+                - name: Создание списков рекомендаций по продуктам
+                  href: create-editorial-recommendation-lists.md
+                - name: Управление результатами рекомендаций по продукту на основе AI-ML
+                  href: modify-product-recommendation-results.md
+                - name: Ознакомьтесь с рекомендациями по продуктам с помощью демонстрационных данных
+                  href: product-recommendations-demo-data.md
+                - name: Вопросы и ответы по рекомендациям по продуктам
+                  href: faq-recommendations.md
+                - name: Опыт использования POS
+                  items:
+                    - name: Рекомендации по продуктам на POS
+                      href: product.md
+                    - name: Добавление элемента управления рекомендациями на экране проводки на устройствах POS
+                      href: add-recommendations-control-pos-screen.md
+            - name: Оценки и отзывы
               items:
-                - name: Способы оплаты
-                  href: ../retail/payment-methods.md?toc=/dynamics365/commerce/toc.json
-                - name: Способы оплаты в центрах обработки вызовов
-                  href: ../retail/work-with-payments.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Настройка, авторизация и проверка данных кредитной карты'
-                  href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка номиналов валюты для POS
-                  href: ../retail/cash-denominations.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка обработки кредитных карт
-                  href: ../retail/tasks/configure-credit-card-processing.md?toc=/dynamics365/commerce/toc.json
-                - name: Соединитель платежей Dynamics 365 для Adyen
-                  href: ../retail/dev-itpro/adyen-connector.md?toc=/dynamics365/commerce/toc.json
-                - name: Сохранение интерактивных платежных инструментов с помощью соединителя Adyen
-                  href: ../retail/dev-itpro/adyen-connector-listPI.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка сценариев оплаты накладных
-                  href: ../retail/payinvoice.md?toc=/dynamics365/commerce/toc.json
-                - name: Предотвращение дублирования платежей
-                  href: ../retail/duplicate-payment-protection.md?toc=/dynamics365/commerce/toc.json
-                - name: Обзор омниканальных платежей
-                  href: ../retail/omni-channel-payments.md?toc=/dynamics365/commerce/toc.json
-                - name: Вопросы и ответы по платежам
-                  href: ../retail/dev-itpro/payments-retail.md?toc=/dynamics365/commerce/toc.json
-            - name: Расширенные автоматические накладные расходы
+                - name: Обзор оценок и отзывов
+                  href: ratings-reviews-overview.md
+                - name: Соглашение на использование оценок и отзывов
+                  href: opt-in-ratings-reviews.md
+                - name: Управление оценками и отзывами
+                  href: manage-reviews.md
+                - name: Настройка оценок и отзывов
+                  href: configure-ratings-reviews.md
+                - name: Синхронизация оценок продуктов
+                  href: sync-product-ratings.md
+            - name: Управление запасами
               items:
-                - name: Настройка и использование расширенных автоматических накладных расходов
-                  href: ../retail/omni-auto-charges.md?toc=/dynamics365/commerce/toc.json
-                - name: Пропорциональное распределение накладных расходов из заголовка по соответствующим строкам продаж
-                  href: ../retail/pro-rate-charges-matching-lines.md?toc=/dynamics365/commerce/toc.json
-            - name: Налог
+                - name: Запасы
+                  items:
+                    - name: Управление запасами магазина
+                      href: work-with-store-inventory.md
+                    - name: Работа с сериализованными номенклатурами
+                      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Отправка продуктов из центра распределения в магазин через централизованное распределение
+                      href: tasks/push-products-distribution-center-store-buyers-push.md
+                    - name: Настройка правил и параметров для централизованного распределения и кросс-докинга
+                      href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                - name: Заказы на покупку
+                  items:
+                    - name: Обзор заказов на покупку
+                      href: ../supply-chain/procurement/purchase-order-overview.md?toc=/dynamics365/commerce/toc.json
+                    - name: Создание заказов на покупку
+                      href: ../supply-chain/procurement/purchase-order-creation.md?toc=/dynamics365/commerce/toc.json
+                    - name: Поступление продуктов по заказам на покупку
+                      href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md?toc=/dynamics365/commerce/toc.json
+                    - name: Утверждение и подтверждение заказов на покупку
+                      href: ../supply-chain/procurement/purchase-order-approval-confirmation.md?toc=/dynamics365/commerce/toc.json
+                    - name: Мобильные рабочие области утверждения заказов на покупку
+                      href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
+                    - name: Создание пакетов продуктов для заказов на покупку
+                      href: tasks/create-product-packages-purchase-orders.md
+        - name: Управление заказами
+          items:
+            - name: Заказы на продажу
               items:
-                - name: Обзор налога
-                  href: ../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Методы расчета налога в поле "Основание"
-                  href: ../finance/general-ledger/sales-tax-calculation-methods-origin-field.md?toc=/dynamics365/commerce/toc.json
-                - name: Назначение и переопределения налога
-                  href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
-                - name: Параметры расчета "Полная сумма" и "Интервал" для налоговых кодов
-                  href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
-            - name: Заказы на покупку
-              items:
-                - name: Обзор заказа на покупку
-                  href: ../supply-chain/procurement/purchase-order-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Создание заказов на покупку
-                  href: ../supply-chain/procurement/purchase-order-creation.md?toc=/dynamics365/commerce/toc.json
-                - name: Поступление продуктов по заказам на покупку
-                  href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md?toc=/dynamics365/commerce/toc.json
-                - name: Утверждение и подтверждение заказов на покупку
-                  href: ../supply-chain/procurement/purchase-order-approval-confirmation.md?toc=/dynamics365/commerce/toc.json
-                - name: Мобильные рабочие области утверждения заказов на покупку
-                  href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?toc=/dynamics365/commerce/toc.json
-            - name: Запасы
-              items:
-                - name: Управление запасами магазина
-                  href: ../retail/work-with-store-inventory.md?toc=/dynamics365/commerce/toc.json
-                - name: Работа с сериализованными номенклатурами
-                  href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
-            - name: Журналы операций
-              items:
-                - name: Журналы операций розничной торговли
-                  href: ../retail/retail-statements.md?toc=/dynamics365/commerce/toc.json
-                - name: Программа проверки согласованности проводок розничной торговли
-                  href: ../retail/valid-checker.md?toc=/dynamics365/commerce/toc.json
-                - name: Отключение правил в программе проверки согласованности проводок
-                  href: ../retail/disable-consistency-check-rule.md?toc=/dynamics365/commerce/toc.json
-                - name: Редактирование и аудит проводок розничного магазина
-                  href: ../retail/edit-audit-retail-transactions.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Создание, расчет и разноска журналов операций для розничного магазина'
-                  href: ../retail/tasks/create-calculate-post-statement-retail-store.md?toc=/dynamics365/commerce/toc.json
-                - name: Усовершенствования функциональности разноски журнала операций
-                  href: ../retail/statement-posting-EOD.md?toc=/dynamics365/commerce/toc.json
-                - name: Поточное создание заказов по проводкам розничного магазина
-                  href: ../retail/trickle-feed.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Создание, расчет и разноска журналов операций для розничного магазина'
-                  href: ../retail/tasks/create-calculate-post-statement-retail-store.md?toc=/dynamics365/commerce/toc.json
-                - name: Усовершенствования функциональности разноски журнала операций
-                  href: ../retail/statement-posting-EOD.md?toc=/dynamics365/commerce/toc.json
-                - name: Улучшенная обработка номенклатур с отслеженными партиями
-                  href: ../retail/batch.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Настройка параметров розничной торговли, влияющих на журналы операций розничной торговли'
-                  href: ../retail/tasks/parameter-configurations-retail-statements.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Настройка параметров способа оплаты, влияющих на журналы операций розничной торговли'
-                  href: ../retail/tasks/payment-configurations-retail-statements.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка и выполнение задания для расчета журналов операций
-                  href: ../retail/tasks/run-job-calculate-statements.md?toc=/dynamics365/commerce/toc.json
-                - name: Настройка и выполнение задания для разноски журналов операций
-                  href: ../retail/tasks/run-job-post-statements.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Настройка параметров магазина, влияющих на журналы операций розничной торговли'
-                  href: ../retail/tasks/store-configurations-retail-statements.md?toc=/dynamics365/commerce/toc.json
-            - name: Распределенное управление заказами (DOM)
+                - name: Создание заказа в центре обработки вызовов
+                  href: tasks/create-call-center-orders.md
+            - name: Распределенное управление заказами
               items:
                 - name: Обзор распределенного управления заказами
-                  href: ../retail/dom.md?toc=/dynamics365/commerce/toc.json
+                  href: dom.md
                 - name: Конфигурация затрат
-                  href: ../retail/cost.md?toc=/dynamics365/commerce/toc.json
+                  href: cost.md
             - name: Выполнение и обработка заказов
               items:
                 - name: Выполнение заказов магазином
-                  href: ../retail/Order-fulfillment-overview.md?toc=/dynamics365/commerce/toc.json
+                  href: order-fulfillment-overview.md
                 - name: Настройка выполнения заказов для магазинов
-                  href: ../retail/Order-fulfillment-POS-setup.md?toc=/dynamics365/commerce/toc.json
-                - name: Отображение уведомлений по заказу в POS
-                  href: ../retail/Notifications-POS.md?toc=/dynamics365/commerce/toc.json
+                  href: order-fulfillment-pos-setup.md
+                - name: Отображение уведомлений по заказам в POS
+                  href: notifications-pos.md
+                - name: Продажа программ непрерывности и обработка заказов на продажу
+                  href: tasks/use-continuity-program.md
             - name: Возвраты
               items:
                 - name: Связанные возвраты
-                  href: ../retail/dev-itpro/linked-refunds.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/linked-refunds.md
                 - name: 'Продажа и возврат продуктов, не включенных в ассортимент магазина'
-                  href: ../retail/sell-return-outside-assortments.md?toc=/dynamics365/commerce/toc.json
+                  href: sell-return-outside-assortments.md
                 - name: Настройка и обработка обмена по заказу на возврат
-                  href: ../retail/orderexchanges.md?toc=/dynamics365/commerce/toc.json
+                  href: orderexchanges.md
                 - name: Ограничение способов оплаты для возвратов без чека
-                  href: ../retail/payment-methods-restrictions.md?toc=/dynamics365/commerce/toc.json
+                  href: payment-methods-restrictions.md
                 - name: Возврат номенклатур по нескольким заказам и накладным клиента
-                  href: ../retail/multireturn.md?toc=/dynamics365/commerce/toc.json
-        - name: Оценки и отзывы
+                  href: multireturn.md
+                - name: Создание и обновление политик возврата и возмещения для канала
+                  href: refund_policy_returns.md
+        - name: Управление клиентами
           items:
-            - name: Обзор оценок и отзывов
-              href: ratings-reviews-overview.md
-            - name: Соглашение на использование оценок и отзывов
-              href: opt-in-ratings-reviews.md
-            - name: Управление оценками и отзывами
-              href: manage-reviews.md
-            - name: Настройка оценок и отзывов
-              href: configure-ratings-reviews.md
-            - name: Синхронизация оценок продуктов в Dynamics 365 Retail
-              href: sync-product-ratings.md
-        - name: Рекомендации по продуктам
-          items:
-            - name: Обзор рекомендаций по продуктам
-              href: product-recommendations.md
-            - name: Добавление списков рекомендаций по продукту на страницы электронной коммерции
-              href: add-reco-list-to-page.md
-            - name: Включить рекомендации по продуктам
-              href: enable-product-recommendations.md
-            - name: Создание списков рекомендаций по продукту
-              href: create-editorial-recommendation-lists.md
-            - name: Управление результатами рекомендаций по продукту на основе AI-ML
-              href: modify-product-recommendation-results.md
-            - name: Ознакомьтесь с рекомендациями по продуктам с помощью демонстрационных данных
-              href: product-recommendations-demo-data.md
-            - name: Вопросы и ответы по рекомендациям по продуктам
-              href: faq-recommendations.md
-            - name: Опыт использования POS
+            - name: Отношения с клиентами
               items:
-                - name: Рекомендации по продуктам на POS
-                  href: ../retail/product.md?toc=/dynamics365/commerce/toc.json
-                - name: Добавление элемента управления рекомендациями в устройства POS
-                  href: ../retail/add-recommendations-control-pos-screen.md?toc=/dynamics365/commerce/toc.json
+                - name: Обзор отношений с клиентами
+                  href: clienteling-overview.md
+            - name: Лояльность
+              items:
+                - name: Обзор лояльности
+                  href: set-up-customer-loyalty-program.md
+                - name: Определение программ лояльности
+                  href: tasks/define-loyalty-programs.md
+                - name: Определение баллов поощрения по программе лояльности
+                  href: tasks/define-loyalty-reward-points.md
+                - name: Определение схем лояльности
+                  href: tasks/define-loyalty-schemes.md
+                - name: Обработка корректировок баллов поощрения по программе лояльности
+                  href: tasks/process-loyalty-reward-point-adjustments.md
+        - name: Управление финансами
+          items:
+            - name: Обзор журналов операций
+              href: retail-statements.md
+            - name: Программа проверки согласованности проводок
+              href: valid-checker.md
+            - name: Отключение правил в программе проверки согласованности проводок
+              href: disable-consistency-check-rule.md
+            - name: Редактирование и аудит проводок розничного магазина
+              href: edit-audit-retail-transactions.md
+            - name: 'Создание, расчет и разноска журналов операций для розничного магазина'
+              href: tasks/create-calculate-post-statement-retail-store.md
+            - name: Усовершенствования функциональности разноски журнала операций
+              href: statement-posting-eod.md
+            - name: Поточное создание заказов по проводкам розничного магазина
+              href: trickle-feed.md
+            - name: 'Создание, расчет и разноска журналов операций для розничного магазина'
+              href: tasks/create-calculate-post-statement-retail-store.md
+            - name: Усовершенствования функциональности разноски журнала операций
+              href: statement-posting-eod.md
+            - name: Улучшенная обработка номенклатур с отслеженными партиями
+              href: batch.md
+            - name: 'Настройка параметров Commerce, влияющих на журналы операций'
+              href: tasks/parameter-configurations-retail-statements.md
+            - name: 'Настройка параметров способа оплаты, влияющих на журналы операций розничной торговли'
+              href: tasks/payment-configurations-retail-statements.md
+            - name: Настройка и выполнение задания для расчета журналов операций
+              href: tasks/run-job-calculate-statements.md
+            - name: Настройка и выполнение задания для разноски журналов операций
+              href: tasks/run-job-post-statements.md
+            - name: 'Настройка параметров магазина, влияющих на журналы операций розничной торговли'
+              href: tasks/store-configurations-retail-statements.md
+            - name: Разноска интернет-продаж и платежей
+              href: tasks/posting-online-sales-payments.md
+        - name: Управление сайтом электронной коммерции
+          items:
+            - name: Обзор интернет-магазина
+              href: online-store-overview.md
+            - name: Создание сайта электронной коммерции
+              items:
+                - name: Настройка доменного имени
+                  href: configure-your-domain-name.md
+                - name: Развертывание нового арендатора электронной коммерции
+                  href: deploy-ecommerce-site.md
+                - name: Настройка канала интернет-магазина
+                  href: online-stores.md
+                - name: Создание сайта электронной коммерции
+                  href: create-ecommerce-site.md
+                - name: Связывание сайта электронной коммерции с интернет-каналом
+                  href: associate-site-online-store.md
+                - name: Управление файлами robots.txt
+                  href: manage-robots-txt-files.md
+                - name: Настройка специальных страниц для входа пользователей
+                  href: custom-pages-user-logins.md
+                - name: Добавление поддержки сети доставки контента (CDN)
+                  href: add-cdn-support.md
+                - name: Включение обнаружения магазинов на основе местоположения
+                  href: enable-store-detection.md
+            - name: Обзор примера сайта
+              items:
+                - name: Обзор домашней страницы
+                  href: quick-tour-home-page.md
+                - name: Обзор целевой страницы категории и страницы результатов поиска по умолчанию
+                  href: category-search-page-overview.md
+                - name: Обзор страниц сведений о продуктах
+                  href: quick-tour-pdp.md
+                - name: Обзор страниц корзины и оформления заказа
+                  href: quick-tour-cart-checkout.md
+                - name: Обзор страниц управления учетной записью
+                  href: quick-tour-account-management.md
+            - name: Управление параметрами сайта
+              items:
+                - name: Обзор страницы разработки
+                  href: authoring-home-overview.md
+                - name: Управление пользователями и ролями
+                  href: manage-ecommerce-users-roles.md
+                - name: Особенности поисковой оптимизации (SEO) для сайта
+                  href: search-engine-optimization-considerations.md
+                - name: Управление политикой безопасности содержимого (CSP)
+                  href: manage-csp.md
+            - name: Управление содержимым сайта
+              items:
+                - name: Способы добавления содержимого
+                  href: add-manage-content.md
+                - name: Глоссарий по модели страниц
+                  href: page-elements-overview.md
+                - name: Состояния и жизненный цикл документа
+                  href: document-states-overview.md
+                - name: Работа с группами публикаций
+                  href: publish-groups.md
+                - name: Фирменная настройка сайта и добавление сведений о магазине
+                  items:
+                    - name: Добавление логотипа
+                      href: add-logo.md
+                    - name: Выбор темы сайта
+                      href: select-site-theme.md
+                    - name: Работа с переопределением файлов CSS
+                      href: css-override-files.md
+                    - name: Добавление значка сайта
+                      href: add-favicon.md
+                    - name: Добавление приветственного сообщения
+                      href: add-welcome-message.md
+                    - name: Добавление уведомления об авторском праве
+                      href: add-copyright-notice.md
+                    - name: Добавление языков
+                      href: add-languages-to-site.md
+                    - name: Добавление кода скрипта на страницы сайта для поддержки телеметрии
+                      href: add-telemetry.md
+                - name: Модули
+                  items:
+                    - name: Работа с модулями
+                      href: work-with-modules.md
+                - name: Фрагменты
+                  items:
+                    - name: Работа с фрагментами
+                      href: work-with-fragments.md
+                - name: Шаблоны
+                  items:
+                    - name: Обзор шаблонов и макетов
+                      href: templates-layouts-overview.md
+                    - name: Работа с шаблонами
+                      href: work-with-templates.md
+                    - name: Работа с предустановленными макетами
+                      href: work-with-layouts.md
+                - name: Страницы
+                  items:
+                    - name: Изменение существующей страницы сайта
+                      href: modify-existing-page.md
+                    - name: Добавление новой страницы сайта
+                      href: add-new-page.md
+                    - name: Выбор макета страницы
+                      href: select-page-layouts.md
+                    - name: Управление метаданными для поисковой оптимизации
+                      href: manage-seo-metadata.md
+                    - name: 'Сохранение, предварительный просмотр и публикация страницы'
+                      href: save-preview-publish-page.md
+                    - name: Расширение возможностей страницы продукта
+                      href: enrich-product-page.md
+                    - name: Расширение возможностей целевой страницы категории
+                      href: enrich-category-page.md
+                    - name: Проверка доступности контента страницы
+                      href: verify-accessibility.md
+                - name: Навигация по сайту
+                  items:
+                    - name: Настройка навигации по сайту
+                      href: customize-site-navigation.md
+                    - name: Создание URL-адреса страницы
+                      href: create-page-URL.md
+            - name: Обеспечение соответствия сайта
+              items:
+                - name: Обзор соответствия
+                  href: compliance-overview.md
+                - name: Специальные возможности
+                  href: accessibility.md
+                - name: Соответствие файлов cookie
+                  href: cookie-compliance.md
+                - name: Добавление страницы политики конфиденциальности
+                  href: add-privacy-page.md
+            - name: Начальный набор
+              items:
+                - name: Обзор начального набора
+                  href: starter-kit-overview.md
+                - name: Модули контейнера
+                  items:
+                    - name: Модуль контейнера
+                      href: add-container-module.md
+                - name: Модули маркетинга
+                  items:
+                    - name: Модуль рекламного баннера
+                      href: add-alert.md
+                    - name: Модуль карусели
+                      href: add-carousel.md
+                    - name: Модуль текстового блока
+                      href: add-content-rich-block.md
+                    - name: Модуль блока содержимого
+                      href: add-hero-module.md
+                    - name: Модуль видеопроигрывателя
+                      href: add-video-player.md
+                - name: Модули верхнего и нижнего колонтитулов
+                  items:
+                    - name: Модуль верхнего колонтитула
+                      href: author-header-module.md
+                    - name: Модуль нижнего колонтитула
+                      href: author-footer-module.md
+                - name: Модули страницы сведений о продукте
+                  items:
+                    - name: Модуль поля покупки
+                      href: add-buy-box.md
+                - name: Модули покупок
+                  items:
+                    - name: Модуль корзины
+                      href: add-cart-module.md
+                    - name: Модуль оформления заказа
+                      href: add-checkout-module.md
+                    - name: Модуль подтверждения заказа
+                      href: order-confirmation-module.md
+                - name: Модули управления учетной записью
+                  items:
+                    - name: Страницы и модули управления учетной записью
+                      href: account-management.md
+                - name: Модули семейства продуктов
+                  items:
+                    - name: Модули семейства продуктов
+                      href: product-collection-module-overview.md
+            - name: Поиск
+              items:
+                - name: Целевая страница категории и страница результатов поиска по умолчанию
+                  href: category-search-page-overview.md
+                - name: Обзор поиска на облачной платформе
+                  href: cloud-powered-search-overview.md
+            - name: Отчетность
+              items:
+                - name: Создание отчетов канала продаж через интернет
+                  href: generate-reports.md
+            - name: Обработка ошибок
+              items:
+                - name: Создание страниц ответов для ошибок с кодом состояния 4xx/5xx
+                  href: build-pages-400-500-errors.md
+        - name: Защита от мошенничества
+          items:
+            - name: Интеграция Dynamics 365 Fraud Protection с Dynamics 365 Commerce
+              href: dev-itpro/DFP.md
         - name: Мониторинг и анализ
           items:
-            - name: Интеграция для Dynamics 365 Fraud Protection Commerce
-              href: ../retail/dev-itpro/DFP.md?toc=/dynamics365/commerce/toc.json
             - name: Мониторинг эффективности продаж и маржи
-              href: ../retail/monitor-sales-margin-performance.md?toc=/dynamics365/commerce/toc.json
+              href: monitor-sales-margin-performance.md
             - name: Анализ тенденций и моделей продаж
-              href: ../retail/analyze-sales-trends-patterns.md?toc=/dynamics365/commerce/toc.json
+              href: analyze-sales-trends-patterns.md
             - name: Оценка эффективности продаж по продукту
-              href: ../retail/sales-performance-products.md?toc=/dynamics365/commerce/toc.json
+              href: sales-performance-products.md
             - name: Оценка рентабельности по клиентам и продуктам
-              href: ../retail/assess-customer-product-profitability.md?toc=/dynamics365/commerce/toc.json
+              href: assess-customer-product-profitability.md
             - name: Анализ эффективности работы магазина
-              href: ../retail/store-performance-information.md?toc=/dynamics365/commerce/toc.json
+              href: store-performance-information.md
             - name: 'Настройка анализа актуальности, периодичности и денежных значений (RFM)'
-              href: ../retail/set-up-rfm-analysis.md?toc=/dynamics365/commerce/toc.json
+              href: set-up-rfm-analysis.md
         - name: Локализация и нормативные компоненты
           items:
-            - name: Обзор финансовой интеграции для канала розничной торговли
-              href: ../retail/localizations/fiscal-integration-for-retail-channel.md?toc=/dynamics365/commerce/toc.json
-            - name: Настройка финансовой интеграции для канала розничной торговли
-              href: ../retail/localizations/setting-up-fiscal-integration-for-retail-channel.md?toc=/dynamics365/commerce/toc.json
+            - name: Обзор финансовой интеграции для канала Commerce
+              href: localizations/fiscal-integration-for-retail-channel.md
+            - name: Настройка финансовой интеграции для канала Commerce
+              href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Австрия
               items:
                 - name: Пример интеграции службы финансовой регистрации для Австрии
-                  href: ../retail/localizations/emea-aut-fi-sample.md?toc=/dynamics365/commerce/toc.json
+                  href: localizations/emea-aut-fi-sample.md
             - name: Восточная Европа
               items:
-                - name: Авансовые счета для Retail для Восточной Европы
-                  href: ../retail/localizations/emea-eeu-advance-invoices-for-retail.md?toc=/dynamics365/commerce/toc.json
-                - name: Управление мелкими наличными деньгами для Retail для Восточной Европы
-                  href: ../retail/localizations/emea-eeu-petty-cash-for-retail.md?toc=/dynamics365/commerce/toc.json
-                - name: Накладные клиента и возвратные заказы на продажу для Retail в странах Восточной Европы
-                  href: ../retail/localizations/emea-eeu-retail-invoices.md?toc=/dynamics365/commerce/toc.json
+                - name: Авансовые счета для Commerce для Восточной Европы
+                  href: localizations/emea-eeu-advance-invoices-for-retail.md
+                - name: Управление мелкими наличными деньгами для Commerce для Восточной Европы
+                  href: localizations/emea-eeu-petty-cash-for-retail.md
+                - name: Накладные клиента и возвратные заказы на продажу для Commerce в странах Восточной Европы
+                  href: localizations/emea-eeu-retail-invoices.md
                 - name: 'Рекомендации по развертыванию контрольно-кассовых машин для Чешской Республики, Венгрии и Польши'
-                  href: ../retail/localizations/emea-eeu-deployment.md?toc=/dynamics365/commerce/toc.json
+                  href: localizations/emea-eeu-deployment.md
                 - name: Пример интеграции фискальных принтеров для Польши
-                  href: ../retail/localizations/emea-pol-fpi-sample.md?toc=/dynamics365/commerce/toc.json
+                  href: localizations/emea-pol-fpi-sample.md
                 - name: Пример интеграции службы финансовой регистрации для Чешской Республики
-                  href: ../retail/localizations/emea-cze-fi-sample.md?toc=/dynamics365/commerce/toc.json
+                  href: localizations/emea-cze-fi-sample.md
             - name: Франция
               items:
                 - name: Функциональность контрольно-кассовой машины
-                  href: ../retail/localizations/emea-fra-cash-registers.md?toc=/dynamics365/commerce/toc.json
+                  href: localizations/emea-fra-cash-registers.md
                 - name: Рекомендации по развертыванию контрольно-кассовых машин
-                  href: ../retail/localizations/emea-fra-deployment.md?toc=/dynamics365/commerce/toc.json
+                  href: localizations/emea-fra-deployment.md
             - name: Индия
               items:
                 - name: Интеграция налога на товары и услуги (GST) для контрольно-кассовых машин
-                  href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/commerce/toc.json
+                  href: localizations/apac-ind-cash-registers.md
                 - name: Рекомендации по развертыванию контрольно-кассовых машин
-                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/dynamics365/commerce/toc.json
+                  href: localizations/apac-ind-loc-deployment-guidelines.md
                 - name: Поддержка обновления и N-1 для Индии
-                  href: ../retail/localizations/apac-ind-n-1-for-india.md?toc=/dynamics365/commerce/toc.json
+                  href: localizations/apac-ind-n-1-for-india.md
             - name: Италия
               items:
                 - name: Пример интеграции фискальных принтеров для Италии
-                  href: ../retail/localizations/emea-ita-fpi-sample.md?toc=/dynamics365/commerce/toc.json
+                  href: localizations/emea-ita-fpi-sample.md
             - name: Мексика
               items:
                 - name: Глобальные электронные накладные CFDI для Мексики
@@ -835,63 +977,15 @@
             - name: Норвегия
               items:
                 - name: Функциональность контрольно-кассовой машины
-                  href: ../retail/localizations/emea-nor-cash-registers.md?toc=/dynamics365/commerce/toc.json
+                  href: localizations/emea-nor-cash-registers.md
                 - name: Рекомендации по развертыванию контрольно-кассовых машин
-                  href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/dynamics365/commerce/toc.json
+                  href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Швеция
               items:
                 - name: Функциональность контрольно-кассовой машины
-                  href: ../retail/localizations/emea-swe-cash-registers.md?toc=/dynamics365/commerce/toc.json
-                - name: Пример интеграции Retail POS c блоками управления
-                  href: ../retail/localizations/retail-sdk-control-unit-sample.md?toc=/dynamics365/commerce/toc.json
-        - name: Задачи Retail
-          items:
-            - name: Создание коммерческих соглашений для определенных каналов
-              href: ../retail/tasks/base-price-trade-agreements.md?toc=/dynamics365/commerce/toc.json
-            - name: Создание коммерческих соглашений с помощью правил ценообразования категорий
-              href: ../retail/tasks/category-pricing-rules-trade-agreements.md?toc=/dynamics365/commerce/toc.json
-            - name: Настройка профилей функциональности для торговых представителей
-              href: ../retail/tasks/configure-functionality-profile-sales-representative.md?toc=/dynamics365/commerce/toc.json
-            - name: Создание заказов центра обработки вызовов
-              href: ../retail/tasks/create-call-center-orders.md?toc=/dynamics365/commerce/toc.json
-            - name: Создание финансовых аналитик для ККМ POS и настройка значений аналитики в ККМ
-              href: ../retail/tasks/create-financial-dimensions-pos.md?toc=/dynamics365/commerce/toc.json
-            - name: Создание финансовых аналитик для каналов розничной торговли и настройка значений аналитик для магазинов
-              href: ../retail/tasks/create-financial-dimensions-retail-channels.md?toc=/dynamics365/commerce/toc.json
-            - name: Создание групп разрешений POS
-              href: ../retail/tasks/create-pos-permission-groups.md?toc=/dynamics365/commerce/toc.json
-            - name: Создание визуальных профилей POS
-              href: ../retail/tasks/create-pos-visual-profile-2016-02.md?toc=/dynamics365/commerce/toc.json
-            - name: Создание пакетов продуктов для заказов на покупку
-              href: ../retail/tasks/create-product-packages-purchase-orders.md?toc=/dynamics365/commerce/toc.json
-            - name: Создание каналов центра обработки вызовов и определение атрибутов каналов
-              href: ../retail/tasks/define-call-center-channel-channel-attributes.md?toc=/dynamics365/commerce/toc.json
-            - name: Определение атрибутов канала
-              href: ../retail/tasks/define-channel-attributes.md?toc=/dynamics365/commerce/toc.json
-            - name: Определение планов непрерывности
-              href: ../retail/tasks/define-continuity-schedules.md?toc=/dynamics365/commerce/toc.json
-            - name: Определение программ лояльности
-              href: ../retail/tasks/define-loyalty-programs.md?toc=/dynamics365/commerce/toc.json
-            - name: Определение баллов поощрения по программе лояльности
-              href: ../retail/tasks/define-loyalty-reward-points.md?toc=/dynamics365/commerce/toc.json
-            - name: Определение схем лояльности
-              href: ../retail/tasks/define-loyalty-schemes.md?toc=/dynamics365/commerce/toc.json
-            - name: Определение связей между подразделениями организации
-              href: ../retail/tasks/design-relationships-between-organizational-units.md?toc=/dynamics365/commerce/toc.json
-            - name: Управление ассортиментами
-              href: ../retail/tasks/manage-assortments-2016-11.md?toc=/dynamics365/commerce/toc.json
-            - name: Разноска интернет-продаж и платежей
-              href: ../retail/tasks/posting-online-sales-payments.md?toc=/dynamics365/commerce/toc.json
-            - name: Обработка корректировок баллов поощрения по программе лояльности
-              href: ../retail/tasks/process-loyalty-reward-point-adjustments.md?toc=/dynamics365/commerce/toc.json
-            - name: Отправка продуктов из центров распределения в магазины через централизованное распределение
-              href: ../retail/tasks/push-products-distribution-center-store-buyers-push.md?toc=/dynamics365/commerce/toc.json
-            - name: Настройка правил и параметров для централизованного распределения и кросс-докинга
-              href: ../retail/tasks/set-up-rules-parameters-cross-docking-buyers-push.md?toc=/dynamics365/commerce/toc.json
-            - name: Продажа программ непрерывности и обработка заказов на продажу
-              href: ../retail/tasks/use-continuity-program.md?toc=/dynamics365/commerce/toc.json
-            - name: Настройка работников розничной торговли
-              href: ../retail/tasks/worker.md?toc=/dynamics365/commerce/toc.json
+                  href: localizations/emea-swe-cash-registers.md
+                - name: Пример интеграции POS c блоками управления
+                  href: localizations/retail-sdk-control-unit-sample.md
         - name: Бизнес-аналитика
           items:
             - name: Домашняя страница бизнес-аналитики
@@ -1244,9 +1338,9 @@
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-roundamount.md?toc=/dynamics365/commerce/toc.json
                             - name: TableName2ID
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-tablename2id.md?toc=/dynamics365/commerce/toc.json
-                        - name: Преобразование типа
+                        - name: Преобразование типов
                           items:
-                            - name: Функции преобразования типа
+                            - name: Функции преобразования типов
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/commerce/toc.json
                             - name: Int64Value
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/commerce/toc.json
@@ -1412,7 +1506,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
                     - name: Настройка параметров формата ER для юридического лица
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
-                - name: Использование решений электронной отчетности в Finance and Operations
+                - name: Использование решений для электронной отчетности в Finance and Operations
                   items:
                     - name: Настройка платформы
                       items:
@@ -1498,7 +1592,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: Использование своей собственной базы данных
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
-        - name: Мобильное приложение
+        - name: Мобильное приложение Finance and Operations (Dynamics 365)
           items:
             - name: Домашняя страница мобильного приложения
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/commerce/toc.json
@@ -1690,10 +1784,10 @@
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
             - name: Данные времени/даты и часовые пояса
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
-        - name: Разработка
+        - name: Расширяемость
           items:
             - name: Разработка и расширяемость Commerce
-              href: ../retail/dev-itpro/dev-retail-home-page.md?toc=/dynamics365/commerce/toc.json
+              href: dev-itpro/dev-retail-home-page.md
             - name: Расширяемость канала продаж через Интернет
               items:
                 - name: Обзор расширяемости канала продаж через Интернет
@@ -1718,6 +1812,8 @@
                   items:
                     - name: Файл определений модуля
                       href: e-commerce-extensibility/module-definition-file.md
+                    - name: Файл компонентов React модуля
+                      href: e-commerce-extensibility/module-react-file.md
                     - name: Файл представления модуля
                       href: e-commerce-extensibility/module-view-file.md
                     - name: Файл данных модуля
@@ -1778,11 +1874,13 @@
                       href: e-commerce-extensibility/core-data-actions.md
                     - name: API вызова Retail Server
                       href: e-commerce-extensibility/call-retail-server-apis.md
+                    - name: API вызова расширения Retail Server
+                      href: e-commerce-extensibility/call-retail-extension-api.md
                 - name: Расширенные действия с данными
                   items:
-                    - name: Действия с цепочками данных
+                    - name: Цепочки действий с данными
                       href: e-commerce-extensibility/chain-data-actions.md
-                    - name: Действия с пакетными данными
+                    - name: Пакетные действия с данными
                       href: e-commerce-extensibility/batch-data-actions.md
                     - name: Наблюдаемые действия с данными
                       href: e-commerce-extensibility/create-observable-data-action.md
@@ -1813,161 +1911,157 @@
             - name: Retail SDK
               items:
                 - name: Архитектура Retail SDK
-                  href: ../retail/dev-itpro/retail-sdk/retail-sdk-overview.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Предстоящие изменения в Retail SDK
-                  href: ../retail/dev-itpro/UpcomingSDKChanges.md?toc=/dynamics365/commerce/toc.json
-                - name: Объединение систем сборки для Retail и Finance and Operations
-                  href: ../retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/UpcomingSDKChanges.md
+                - name: Объединение систем сборки для Commerce и Finance and Operations
+                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Примеры расширяемости Retail SDK
-                  href: ../retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md?toc=/dynamics365/commerce/toc.json
-                - name: Создание готовых к развертыванию пакетов розничной торговли
-                  href: ../retail/dev-itpro/retail-sdk/retail-sdk-packaging.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+                - name: Создание готовых к развертыванию пакетов
+                  href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: 'Разработка в среде разработки, размещенной в облаке, без доступа администратора'
-                  href: ../retail/dev-itpro/cloud-dev-box.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/cloud-dev-box.md
             - name: Расширяемость POS
               items:
-                - name: Макеты экрана Retail POS
-                  href: ../retail/pos-screen-layouts.md?toc=/dynamics365/commerce/toc.json
+                - name: Макеты экрана POS
+                  href: pos-screen-layouts.md
                 - name: Открытие URL-адреса в POS
-                  href: ../retail/Open-URL-in-POS.md?toc=/dynamics365/commerce/toc.json
+                  href: Open-URL-in-POS.md
                 - name: Установка конструктора макетов POS
-                  href: ../retail/install-pos-layout-designer.md?toc=/dynamics365/commerce/toc.json
+                  href: install-pos-layout-designer.md
                 - name: Расширение представления дисплея POS Dual
-                  href: ../retail/dev-itpro/pos-dual-display-extension.md?toc=/dynamics365/commerce/toc.json
-                - name: Расширяемость триггеров Retail Modern POS и Cloud POS
-                  href: ../retail/dev-itpro/modern-pos-trigger-extensibility.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/pos-dual-display-extension.md
+                - name: Расширяемость триггеров Modern POS и Cloud POS
+                  href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: Добавление пользовательских элементов управления в представления POS
-                  href: ../retail/dev-itpro/pos-custom-control.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/pos-custom-control.md
                 - name: Добавление операций POS в макеты POS с помощью конструктора сетки кнопок
-                  href: ../retail/dev-itpro/add-POS-operations.md
-                - name: API-интерфейсы Retail POS
-                  href: ../retail/dev-itpro/POS-APIs.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/add-POS-operations.md
+                - name: API-интерфейсы POS
+                  href: dev-itpro/POS-APIs.md
                 - name: Расширение механизма оплаты для POS
-                  href: ../retail/dev-itpro/pos-payment-extension.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/pos-payment-extension.md
                 - name: Поддержка внешних подарочных карт
-                  href: ../retail/dev-itpro/gift-card.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/gift-card.md
                 - name: Создание и применение фирменной символики к приложению Retail Experience
-                  href: ../retail/dev-itpro/create-retail-experience-app.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/create-retail-experience-app.md
                 - name: Настройка приложения POS Hybrid в Android и iOS
-                  href: ../retail/dev-itpro/hybridApp.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/hybridApp.md
                 - name: Переопределение обработчика запросов POS
-                  href: ../retail/dev-itpro/pos-handler.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/pos-handler.md
                 - name: Просмотр сведений о пакете расширений POS
-                  href: ../retail/dev-itpro/view-pos-extension-package-details.md?toc=/dynamics365/commerce/toc.json
-                - name: Средство записи теста и Regression Suite Automation Tool для Retail Cloud POS
-                  href: ../retail/dev-itpro/pos-rsat.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/view-pos-extension-package-details.md
+                - name: Средство записи теста и Regression Suite Automation Tool для Cloud POS
+                  href: dev-itpro/pos-rsat.md
                 - name: Добавление пользовательских полей на панель итогов POS
-                  href: ../retail/dev-itpro/custom-field-pos-totals.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/custom-field-pos-totals.md
                 - name: Отображение пользовательских уведомлений в POS
-                  href: ../retail/dev-itpro/extend-pos-notification.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/extend-pos-notification.md
                 - name: Подписывание MPOS с помощью сертификата подписи кода
-                  href: ../retail/dev-itpro/pos-app-signing-certificate.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/pos-app-signing-certificate.md
                 - name: Расширение представлений POS с добавлением пользовательских столбцов и кнопок панели приложения
-                  href: ../retail/dev-itpro/pos-view-extension.md?toc=/dynamics365/commerce/toc.json
-                - name: Добавление пользовательских элементов управления на страницы проводок Retail Modern POS
-                  href: ../retail/dev-itpro/pos-custom-transaction.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/pos-view-extension.md
+                - name: Добавление пользовательских элементов управления на страницы проводок Modern POS
+                  href: dev-itpro/pos-custom-transaction.md
                 - name: Добавление пользовательских столбцов в сетку проводок POS
-                  href: ../retail/dev-itpro/pos-custom-transaction-column.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/pos-custom-transaction-column.md
                 - name: Вызов API или операций POS из расширений POS
-                  href: ../retail/dev-itpro/pos-api-extension.md?toc=/dynamics365/commerce/toc.json
-                - name: Триггеры и печать в Retail Modern POS
-                  href: ../retail/dev-itpro/pos-trigger-printing.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/pos-api-extension.md
+                - name: Триггеры и вывод на печать в Modern POS
+                  href: dev-itpro/pos-trigger-printing.md
                 - name: Добавление пользовательских элементов управления в представления POS на основе конструктора без экрана
-                  href: ../retail/dev-itpro/pos-control-non-screen.md?toc=/dynamics365/commerce/toc.json
-                - name: Запуск примеров Retail POS
-                  href: ../retail/dev-itpro/pos-run-samples.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/pos-control-non-screen.md
+                - name: Запуск примеров POS
+                  href: dev-itpro/pos-run-samples.md
                 - name: Руководство по внедрению системы управления устройствами
-                  href: ../retail/implementation-considerations-devices.md?toc=/dynamics365/commerce/toc.json
+                  href: implementation-considerations-devices.md
             - name: Расширяемость Hardware Station
               items:
                 - name: Hardware Station и расширяемость
-                  href: ../retail/dev-itpro/hardware-station-extensibility.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/hardware-station-extensibility.md
                 - name: Интеграция POS с новым оборудованием
-                  href: ../retail/dev-itpro/hardware-device-extension.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/hardware-device-extension.md
             - name: Расширяемость Retail Server
               items:
-                - name: Расширение контроллера OData Retail Server
-                  href: ../retail/dev-itpro/extend-retail-server-odata-controller.md?toc=/dynamics365/commerce/toc.json
-                - name: Создание контроллера веб-API для Retail Server
-                  href: ../retail/dev-itpro/odata-controllers-api.md?toc=/dynamics365/commerce/toc.json
+                - name: Расширение контроллера Retail Server OData
+                  href: dev-itpro/extend-retail-server-odata-controller.md
                 - name: API клиентов и потребителей Retail Server
-                  href: ../retail/dev-itpro/retail-server-customer-consumer-api.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/retail-server-customer-consumer-api.md
                 - name: Расширение контроллера метаданных Retail Server по умолчанию
-                  href: ../retail/dev-itpro/extend-metadata.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/extend-metadata.md
                 - name: Вызов службы CRT в автономном режиме
-                  href: ../retail/dev-itpro/call-crt-service-offline.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/call-crt-service-offline.md
                 - name: Создание нового расширения Retail Server
-                  href: ../retail/dev-itpro/retail-server-extension.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/retail-server-extension.md
                 - name: 'Прокси Typescript и C# в Retail'
-                  href: ../retail/dev-itpro/typescript-proxy-retail-pos.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/typescript-proxy-retail-pos.md
             - name: Расширяемость Commerce Runtime (CRT)
               items:
                 - name: Архитектура и конфигурация CRT
-                  href: ../retail/dev-itpro/commerce-runtime-overview.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/commerce-runtime-overview.md
                 - name: Службы CRT
-                  href: ../retail/dev-itpro/crt-services.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/crt-services.md
                 - name: Расширяемость CRT и Retail Server
-                  href: ../retail/dev-itpro/commerce-runtime-extensibility.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/commerce-runtime-extensibility.md
                 - name: Добавление данных о предпочтениях клиентов в базы данных канала
-                  href: ../retail/dev-itpro/add-customer-preference-channel.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/add-customer-preference-channel.md
                 - name: Управление секретами для каналов розничной торговли
-                  href: ../retail/dev-itpro/manage-secrets.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/manage-secrets.md
                 - name: Добавление свойств в заказы на продажу
-                  href: ../retail/dev-itpro/add-properties-sales-order.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/add-properties-sales-order.md
                 - name: Расширяемость и триггеры CRT
-                  href: ../retail/dev-itpro/commerce-runtime-extensibility-trigger.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Блокировка проводок с помощью триггеров
-                  href: ../retail/dev-itpro/trigger-example-blocking-transaction.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/trigger-example-blocking-transaction.md
                 - name: Реализация политики возврата с помощью триггеров
-                  href: ../retail/dev-itpro/trigger-example-return-policy.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/trigger-example-return-policy.md
                 - name: Расширение программы лояльности
-                  href: ../retail/dev-itpro/retail-sdk/loyalty-extension-sample.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                 - name: Точки расширения для отборочных накладных
-                  href: ../retail/dev-itpro/extensions-shipping-carrier-integration.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Расширения базы данных канала
-                  href: ../retail/dev-itpro/channel-db-extensions.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/channel-db-extensions.md
                 - name: Включение пользовательской синхронизации CDX через расширение
-                  href: ../retail/dev-itpro/cdx-extensibility.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/cdx-extensibility.md
                 - name: Определение и настройка атрибутов заказа
-                  href: ../retail/dev-itpro/order-attributes.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/order-attributes.md
                 - name: Атрибуты клиента
-                  href: ../retail/dev-itpro/customer-attributes.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/customer-attributes.md
                 - name: Примеры SDK CRT
-                  href: ../retail/dev-itpro/retail-sdk/retail-sdk-samples.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: Ведение журнала событий расширения в Application Insights
-                  href: ../retail/dev-itpro/commerce-application-insights.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/commerce-application-insights.md
             - name: Расширяемость соединителя платежей
               items:
                 - name: Создание интеграции платежей для терминала оплаты
-                  href: ../retail/dev-itpro/end-to-end-payment-extension.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/end-to-end-payment-extension.md
                 - name: Внедрение соединителя платежей и платежного устройства (технический документ)
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                 - name: Развертывание соединителей платежей
-                  href: ../retail/dev-itpro/deploy-payment-connector.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/deploy-payment-connector.md
                 - name: Создание пользовательских локализованных сообщений об ошибках для расширений терминалов платежей
-                  href: ../retail/dev-itpro/payment-custom-error-messages.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/payment-custom-error-messages.md
                 - name: Создание установщиков Windows для соединителей платежей
-                  href: ../retail/dev-itpro/create-windows-installer-payment-connector.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/create-windows-installer-payment-connector.md
                 - name: Использование платежных данных
-                  href: ../retail/payment-connector-data-fields.md?toc=/dynamics365/commerce/toc.json
+                  href: payment-connector-data-fields.md
                 - name: Включение защиты от дубликатов платежей для соединителя платежей
-                  href: ../retail/dev-itpro/duplicate-payment-protection.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/duplicate-payment-protection.md
             - name: Расширяемость сторонних решений для электронной коммерции
               items:
                 - name: Настройка интернет-магазинов
-                  href: ../retail/dev-itpro/configure-online-store.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/configure-online-store.md
                 - name: Настройка поставщиков проверки подлинности
-                  href: ../retail/dev-itpro/configure-authentication-providers.md?toc=/dynamics365/commerce/toc.json
-                - name: Платформа для электронной коммерции
-                  href: ../retail/dev-itpro/ecommerce-platform.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/configure-authentication-providers.md
                 - name: SDK платформы для электронной коммерции
-                  href: ../retail/dev-itpro/ecommerce-platform-sdk.md?toc=/dynamics365/commerce/toc.json
-            - name: Локализация ресурсов расширений Retail и файлов меток
-              href: ../retail/dev-itpro/extension-resource-localization.md?toc=/dynamics365/commerce/toc.json
+                  href: dev-itpro/ecommerce-platform-sdk.md
+            - name: Локализация ресурсов расширений Commerce и файлов меток
+              href: dev-itpro/extension-resource-localization.md
     - name: Разработка и администрирование приложений Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Retail
-      href: ../retail/index.md
+      href: index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Supply Chain Management
