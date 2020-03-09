@@ -5,6 +5,10 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 18 февраля 2020 г.
+          href: hr-whats-new-2020-02-18.md
+        - name: 12 февраля 2020 г.
+          href: hr-whats-new-2020-02-12.md
         - name: 7 февраля 2020 г.
           href: hr-whats-new-2020-02-07.md
         - name: 3 февраля 2020 г.
@@ -81,7 +85,7 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: Создание настраиваемых полей и работа с ними
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: Внедрить приложения PowerApps
+            - name: Внедрение приложений PowerApps
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
             - name: Поиск сведений с использованием поиска
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
