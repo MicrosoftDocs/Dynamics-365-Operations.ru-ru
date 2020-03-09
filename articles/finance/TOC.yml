@@ -150,9 +150,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/finance/toc.json
                 - name: Сохраненные представления
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/finance/toc.json
+                - name: Возможности сетки
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Создание настраиваемых полей и работа с ними
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: Внедрить приложения PowerApps
+                - name: Внедрение приложений PowerApps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
                 - name: Поиск сведений с использованием поиска
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
@@ -940,6 +942,8 @@
                   href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
                 - name: Настройка кодов налоговой отчетности
                   href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Поддержка двойной валюты для налога
+                  href: general-ledger/dual-currency-for-tax.md
                 - name: Отчет о спецификации налога по проводкам ГК
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Настройка периодов сопоставления налогов
@@ -1102,6 +1106,8 @@
                   href: public-sector/interest-distribution.md
             - name: Закупки и источники в государственном секторе
               href: public-sector/procurement-sourcing-public-sector.md
+            - name: Расчет даты поставки для строки на основе времени упреждения
+              href: public-sector/po-delivery-date.md
             - name: Роли безопасности в государственном секторе
               href: public-sector/security-roles-public-sector.md
             - name: Средства в государственном секторе
@@ -1294,10 +1300,12 @@
                   href: localizations/latam-bra-sped-reinf.md
                 - name: Финансовая резолюция SPED 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
-                - name: 'SPED fiscal 2020: дополнительная информация ICMS-ST для финансовой схемы SPED 014'
+                - name: 'Финансовая схема SPED 2020: дополнительная информация ICMS-ST для финансовой схемы SPED 014'
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
                 - name: Финансовая схема SPED 014
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
+                - name: Задание вкладов SPED EFD
+                  href: localizations/latam-bra-sped-contributions.md
                 - name: Параметры для юридических лиц
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Настройка параметров юридических лиц
@@ -2807,6 +2815,8 @@
               items:
                 - name: Обзор служб отчетов по документам
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/finance/toc.json
+                - name: Поддерживаемые шрифты
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка служб SSRS для локальных развертываний
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Печать
@@ -3686,6 +3696,4 @@
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
-      href: ../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../commerce/index.md
