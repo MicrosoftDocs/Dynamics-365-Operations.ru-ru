@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 630144919d68e26d02ae8d124649fb97c4f171cf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 880458a06bda43bcfa581ea6eaba4aaf03bf6ca5
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183928"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059390"
 ---
 # <a name="cash-flow-management-russia"></a>Управление движением денежных средств (Россия)
 
@@ -69,7 +69,7 @@ ms.locfileid: "2183928"
 </tr>
 <tr>
 <td>Компания получает запрос платежа (запрос предоплаты, накладная и т. д.) от продавца. Менеджер создает запрос оплаты, который должен быть утвержден руководителем менеджера и казначеем. Казначей включает сведения об ожидаемых и утвержденных платежах (входящих или исходящих) в прогноз движения денежных средств.
-<blockquote>[!IMPORTANT] Запрос платежа и связанные с ним функции доступны только тогда, когда включен конфигурационный ключ лицензии <strong>Запрос платежа</strong>.</blockquote>
+<blockquote><strong>Важно:</strong> Запрос платежа и связанные с ним функции доступны только тогда, когда включен конфигурационный ключ лицензии <strong>Запрос платежа</strong>.</blockquote>
 </td>
 <td>
 <ul>
@@ -219,7 +219,8 @@ ms.locfileid: "2183928"
 
 ### <a name="set-up-default-payment-order-requisites-for-purchase-agreements"></a>Настройка реквизитов платежного поручение по умолчанию для договоров покупки
 
-    Note. Setup procedure is similar for both purchase agreements and sales agreements
+> [!NOTE]
+> Процедура настройки аналогична для договоров покупки и договоров продажи
 
 1. Перейдите в раздел **Расчеты с поставщиками \> Заказы на покупку \> Договоры покупки**.
 2. Выберите договор покупки, который содержит метод оплаты, который связан с платежным поручением в российских рублях (руб.).

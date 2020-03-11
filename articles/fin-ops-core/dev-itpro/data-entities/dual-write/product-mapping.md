@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a52e8f65e7e2a8d90ddf5efa47c07d6995ef645d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
+ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019977"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3081159"
 ---
 # <a name="unified-product-experience"></a>Унифицированный подход к работе с продуктами
 
@@ -109,7 +109,7 @@ Finance and Operations | Другие приложения Dynamics 365 | Опи
 
 Аналитики продукта — это характеристики, которые определяют вариант продукта. Четыре аналитики продукта (цвет, размер, стиль и конфигурация) также сопоставляются с Common Data Service для определения вариантов продукта. На следующем рисунке показана модель данных для аналитики продукта "Цвет". Эта же модель применяется к размерам, стилям и конфигурациям. 
 
-![Модель данных для продуктов](media/dual-write-product-2.PNG)
+![Модель данных для продуктов](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +145,7 @@ Finance and Operations | Другие приложения Dynamics 365 | Опи
 
 Единицы измерения и соответствующие им преобразования будут доступны в Common Data Service в соответствии с моделью данных, показанной на диаграмме.
 
-![Модель данных для продуктов](media/dual-write-product-3.PNG)
+![Модель данных для продуктов](media/dual-write-product-three.png)
 
 Концепция единицы измерения интегрирована между приложениями Finance and Operations и другими приложениями Dynamics 365. Для каждого класса единиц измерения в приложении Finance and Operations группа единиц измерения создается в приложении Dynamics 365, которая содержит единицы измерения, принадлежащие к классу единиц измерения. Базовая единица измерения по умолчанию также создается для каждой группы единиц измерения. 
 
@@ -205,13 +205,13 @@ Finance and Operations | Другие приложения Dynamics 365 | Опи
 
 Для другого пользователя приложений Dynamics 365 продукт определяется в интерфейсе пользователя с помощью **msdyn_productnumber** (обратите внимание, что метка поля — **Номер продукта**). В форме продукта отображаются и company, и msydn_productnumber. Однако поле (productnumber), уникальный ключ продукта, не отображается. 
 
-Обратите внимание, что если приложения создаются на базе Common Data Service, особое внимание следует уделять использованию (productnumber), то есть уникальному коду продукта, как ключ интеграции, а не msdyn_productnumber, из-за того, что последний не является уникальным. 
+Если вы создаете приложения на основе Common Data Service, вам следует уделять внимание использованию **productnumber** (уникальный код продукта) в качестве ключа интеграции. Не следует использовать **msdyn_productnumber**, поскольку он не является уникальным. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Начальная синхронизация продуктов и перенос данных из Common Data Service в Finance and Operations
 
 ### <a name="initial-synchronization-of-products"></a>Начальная синхронизация продуктов 
 
-Если включена двойная запись продукты из Dynamics 365 Finance and Operations синхронизируются с Common Data Service и другими приложениями Dynamics 365. Обратите внимание, что продукты, созданные в Common Data Service и других приложениях Dynamics 365 до двойной записи, не будут обновлены и сопоставлены с данными о продуктах из Finance and Operations.
+Если включена двойная запись, продукты из приложений Finance and Operations синхронизируются с Common Data Service и другими приложениями на основе модели в Dynamics 365. Продукты, созданные в Common Data Service и других приложениях Dynamics 365 до выпуска двойной записи, не будут обновлены и сопоставлены с данными о продуктах из приложений Finance and Operations.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Сопоставление данных о продуктах из Finance and Operations и других приложений Dynamics 365
 
