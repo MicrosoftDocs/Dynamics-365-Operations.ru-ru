@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6abac72b7530dc7b82c8e95faebdce791cf7dbd1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003242"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042788"
 ---
 # <a name="get-product-recommendations-using-demo-data"></a>Ознакомьтесь с рекомендациями по продуктам с помощью демонстрационных данных
 В этом документе приводятся инструкции по использованию омниканальных рекомендаций по продуктам в среде уровня 1 с одним блоком, используя готовые настраиваемые демонстрационные данные.
@@ -57,10 +57,10 @@ ms.locfileid: "3003242"
 Расширение содержит файл данных с именем "RecoMockDataset.csv", который позволяет вам управлять набором данных, используемых для создания результатов демонстрационных рекомендаций. Управлять именем файла можно с помощью настройки расширения, используя настройку **ext.Recommendations.DemoFilePath**. Это позволяет вам иметь несколько доступных наборов данных, которые можно легко переключать с помощью конфигурации.
 
 
-```
-  <settings>
+```xml
+<settings>
     <add name="ext.Recommendations.DemoFilePath" value="RecoMockDataset.csv" />
-  </settings>
+</settings>
 ```
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы

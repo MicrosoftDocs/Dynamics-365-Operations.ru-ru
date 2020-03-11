@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af0273ca1553d5fb371a20b8c96fd9a101f34815
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: bfb13904b774558907b29e74158b1e0a193e17cd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023850"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057449"
 ---
 # <a name="product-recommendations-on-pos"></a>Рекомендации по продуктам на POS
 
 [!include [banner](includes/banner.md)]
 
-По своей сути, рекомендации продуктов представляют собой трансформируемое бизнес-приложение, охватывающее все сферы розничной торговли для создания богатого, привлекательного и специализированного процесса обнаружения продукции. Чтобы реализовать эту функцию на POS-терминале, следуйте [указаниям по добавлению рекомендаций в POS-устройства](add-recommendations-control-pos-screen.md). 
+По своей сути, рекомендации продуктов представляют собой трансформируемое бизнес-приложение, охватывающее все сферы коммерции для создания богатого, привлекательного и специализированного процесса обнаружения продукции. Чтобы реализовать эту функцию на POS-терминале, следуйте [указаниям по добавлению рекомендаций в POS-устройства](add-recommendations-control-pos-screen.md). 
 
 Дополнительные сведения о функциях рекомендаций продуктов см. в разделе [Обзор рекомендаций продуктов](../commerce/product-recommendations.md). 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb9a387c8b68d0da4dd485116089f1cf4c5ab72c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d0df97234df41d11897473dea4e85354e82d36ec
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915978"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041707"
 ---
 # <a name="VALUEIN">Функция ER VALUEIN</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2915978"
 
 ## <a name="syntax"></a>Синтаксис
 
-```
+```vb
 VALUEIN (input, list, list item expression)
 ```
 
@@ -61,7 +61,7 @@ VALUEIN (input, list, list item expression)
 
 Как правило, функция `VALUEIN` переводится в набор условий **OR**.
 
-```
+```vb
 (input = list.item1.value) OR (input = list.item2.value) OR …
 ```
 
@@ -94,7 +94,7 @@ VALUEIN (input, list, list item expression)
 
 При вызове источника данных, который настроен как выражение `FILTER (In, VALUEIN(In.Port, Port, Port.PortId)`, для возврата отфильтрованных записей таблицы Интрастат формируется следующая инструкция SQL.
 
-```
+```vb
 select … from Intrastat
 exists join TableId from IntrastatPort
 where IntrastatPort.PortId = Intrastat.Port
@@ -111,7 +111,7 @@ where IntrastatPort.PortId = Intrastat.Port
 
 При вызове источника данных, который настроен как выражение `FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)`, конечный оператор SQL содержит следующее условие.
 
-```
+```vb
 Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 ```
 
