@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a60bc948ff6223b6e3acccd0ba40bf64f238aac2
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5fb991eb9ee08aeb418313eb782dbde7fa22b763
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917404"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042190"
 ---
-# <span data-ttu-id="a7df1-103"><a name="EMPTYLIST">Функция ER EMPTYLIST</a></span><span class="sxs-lookup"><span data-stu-id="a7df1-103"><a name="EMPTYLIST">EMPTYLIST ER function</a></span></span>
+# <span data-ttu-id="282e5-103"><a name="EMPTYLIST">Функция ER EMPTYLIST</a></span><span class="sxs-lookup"><span data-stu-id="282e5-103"><a name="EMPTYLIST">EMPTYLIST ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a7df1-104">Функция `EMPTYLIST` возвращает пустое значение *Список записей* с использованием указанного списка в качестве источника для структуры списка.</span><span class="sxs-lookup"><span data-stu-id="a7df1-104">The `EMPTYLIST` function returns an empty *Record list* value by using the specified list as a source for the list structure.</span></span>
+<span data-ttu-id="282e5-104">Функция `EMPTYLIST` возвращает пустое значение *Список записей* с использованием указанного списка в качестве источника для структуры списка.</span><span class="sxs-lookup"><span data-stu-id="282e5-104">The `EMPTYLIST` function returns an empty *Record list* value by using the specified list as a source for the list structure.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a7df1-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a7df1-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="282e5-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="282e5-105">Syntax</span></span>
 
-```
+```vb
 EMPTYLIST (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="a7df1-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="a7df1-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="282e5-106">Аргументы</span><span class="sxs-lookup"><span data-stu-id="282e5-106">Arguments</span></span>
 
-<span data-ttu-id="a7df1-107">`list`: *Список записей*</span><span class="sxs-lookup"><span data-stu-id="a7df1-107">`list`: *Record list*</span></span>
+<span data-ttu-id="282e5-107">`list`: *Список записей*</span><span class="sxs-lookup"><span data-stu-id="282e5-107">`list`: *Record list*</span></span>
 
-<span data-ttu-id="a7df1-108">Действительный путь источника данных типа данных *Список записей*.</span><span class="sxs-lookup"><span data-stu-id="a7df1-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="282e5-108">Действительный путь источника данных типа данных *Список записей*.</span><span class="sxs-lookup"><span data-stu-id="282e5-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="a7df1-109">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="a7df1-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="282e5-109">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="282e5-109">Return values</span></span>
 
-<span data-ttu-id="a7df1-110">*Список записей*</span><span class="sxs-lookup"><span data-stu-id="a7df1-110">*Record list*</span></span>
+<span data-ttu-id="282e5-110">*Список записей*</span><span class="sxs-lookup"><span data-stu-id="282e5-110">*Record list*</span></span>
 
-<span data-ttu-id="a7df1-111">Полученный список записей.</span><span class="sxs-lookup"><span data-stu-id="a7df1-111">The resulting list of records.</span></span>
+<span data-ttu-id="282e5-111">Полученный список записей.</span><span class="sxs-lookup"><span data-stu-id="282e5-111">The resulting list of records.</span></span>
 
-## <a name="example"></a><span data-ttu-id="a7df1-112">Пример</span><span class="sxs-lookup"><span data-stu-id="a7df1-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="282e5-112">Пример</span><span class="sxs-lookup"><span data-stu-id="282e5-112">Example</span></span>
 
-<span data-ttu-id="a7df1-113">`EMPTYLIST (SPLIT ("abc", 1))` возвращает новый пустой список, который имеет такую же структуру, как список, который возвращен функцией `SPLIT`.</span><span class="sxs-lookup"><span data-stu-id="a7df1-113">`EMPTYLIST (SPLIT ("abc", 1))` returns a new empty list that has the same structure as the list that is returned by the `SPLIT` function that is used.</span></span>
+<span data-ttu-id="282e5-113">`EMPTYLIST (SPLIT ("abc", 1))` возвращает новый пустой список, который имеет такую же структуру, как список, который возвращен функцией `SPLIT`.</span><span class="sxs-lookup"><span data-stu-id="282e5-113">`EMPTYLIST (SPLIT ("abc", 1))` returns a new empty list that has the same structure as the list that is returned by the `SPLIT` function that is used.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="a7df1-114">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="a7df1-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="282e5-114">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="282e5-114">Additional resources</span></span>
 
-[<span data-ttu-id="a7df1-115">Функции для работы со списками</span><span class="sxs-lookup"><span data-stu-id="a7df1-115">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="282e5-115">Функции для работы со списками</span><span class="sxs-lookup"><span data-stu-id="282e5-115">List functions</span></span>](er-functions-category-list.md)

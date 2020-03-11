@@ -18,45 +18,45 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8450c17fe2de964016951197b0d4e231c550a99
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 6adca3c95c10e7d4b3287561925a9d9fe8a74121
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916139"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042052"
 ---
-# <span data-ttu-id="9d490-103"><a name="ISEMPTY">Функция ER ISEMPTY</a></span><span class="sxs-lookup"><span data-stu-id="9d490-103"><a name="ISEMPTY">ISEMPTY ER function</a></span></span>
+# <span data-ttu-id="cf4c2-103"><a name="ISEMPTY">Функция ER ISEMPTY</a></span><span class="sxs-lookup"><span data-stu-id="cf4c2-103"><a name="ISEMPTY">ISEMPTY ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9d490-104">Функция `ISEMPTY` возвращает *логическое* значение **TRUE**, если указанный список не содержит записей.</span><span class="sxs-lookup"><span data-stu-id="9d490-104">The `ISEMPTY` function returns a *Boolean* value of **TRUE** if the specified list contains no records.</span></span> <span data-ttu-id="9d490-105">В противном случае возвращает *логическое* значение **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="9d490-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
+<span data-ttu-id="cf4c2-104">Функция `ISEMPTY` возвращает *логическое* значение **TRUE**, если указанный список не содержит записей.</span><span class="sxs-lookup"><span data-stu-id="cf4c2-104">The `ISEMPTY` function returns a *Boolean* value of **TRUE** if the specified list contains no records.</span></span> <span data-ttu-id="cf4c2-105">В противном случае возвращает *логическое* значение **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="cf4c2-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9d490-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9d490-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cf4c2-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="cf4c2-106">Syntax</span></span>
 
-```
+```vb
 ISEMPTY (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="9d490-107">Аргументы</span><span class="sxs-lookup"><span data-stu-id="9d490-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="cf4c2-107">Аргументы</span><span class="sxs-lookup"><span data-stu-id="cf4c2-107">Arguments</span></span>
 
-<span data-ttu-id="9d490-108">`list`: *Список записей*</span><span class="sxs-lookup"><span data-stu-id="9d490-108">`list`: *Record list*</span></span>
+<span data-ttu-id="cf4c2-108">`list`: *Список записей*</span><span class="sxs-lookup"><span data-stu-id="cf4c2-108">`list`: *Record list*</span></span>
 
-<span data-ttu-id="9d490-109">Действительный путь источника данных типа данных *Список записей*.</span><span class="sxs-lookup"><span data-stu-id="9d490-109">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="cf4c2-109">Действительный путь источника данных типа данных *Список записей*.</span><span class="sxs-lookup"><span data-stu-id="cf4c2-109">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="9d490-110">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="9d490-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="cf4c2-110">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="cf4c2-110">Return values</span></span>
 
-<span data-ttu-id="9d490-111">*Логический*</span><span class="sxs-lookup"><span data-stu-id="9d490-111">*Boolean*</span></span>
+<span data-ttu-id="cf4c2-111">*Логический*</span><span class="sxs-lookup"><span data-stu-id="cf4c2-111">*Boolean*</span></span>
 
-<span data-ttu-id="9d490-112">Результирующее *логическое* значение.</span><span class="sxs-lookup"><span data-stu-id="9d490-112">The resulting *Boolean* value.</span></span>
+<span data-ttu-id="cf4c2-112">Результирующее *логическое* значение.</span><span class="sxs-lookup"><span data-stu-id="cf4c2-112">The resulting *Boolean* value.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="9d490-113">Пример 1</span><span class="sxs-lookup"><span data-stu-id="9d490-113">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="cf4c2-113">Пример 1</span><span class="sxs-lookup"><span data-stu-id="cf4c2-113">Example 1</span></span>
 
-<span data-ttu-id="9d490-114">Если вы введете источник данных **DS** типа *Вычисляемое поле* и он содержит выражение `SPLIT ("A|B|C", "|")`, выражение `ISEMPTY(DS)` возвращает **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="9d490-114">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `ISEMPTY(DS)` returns **FALSE**.</span></span>
+<span data-ttu-id="cf4c2-114">Если вы введете источник данных **DS** типа *Вычисляемое поле* и он содержит выражение `SPLIT ("A|B|C", "|")`, выражение `ISEMPTY(DS)` возвращает **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="cf4c2-114">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("A|B|C", "|")`, the expression `ISEMPTY(DS)` returns **FALSE**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="9d490-115">Пример 2</span><span class="sxs-lookup"><span data-stu-id="9d490-115">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="cf4c2-115">Пример 2</span><span class="sxs-lookup"><span data-stu-id="cf4c2-115">Example 2</span></span>
 
-<span data-ttu-id="9d490-116">Выражение `ISEMPTY (SPLIT ("",1))` возвращает **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="9d490-116">The expression `ISEMPTY (SPLIT ("",1))` returns **TRUE**.</span></span>
+<span data-ttu-id="cf4c2-116">Выражение `ISEMPTY (SPLIT ("",1))` возвращает **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="cf4c2-116">The expression `ISEMPTY (SPLIT ("",1))` returns **TRUE**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="9d490-117">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="9d490-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="cf4c2-117">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="cf4c2-117">Additional resources</span></span>
 
-[<span data-ttu-id="9d490-118">Функции для работы со списками</span><span class="sxs-lookup"><span data-stu-id="9d490-118">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="cf4c2-118">Функции для работы со списками</span><span class="sxs-lookup"><span data-stu-id="cf4c2-118">List functions</span></span>](er-functions-category-list.md)
