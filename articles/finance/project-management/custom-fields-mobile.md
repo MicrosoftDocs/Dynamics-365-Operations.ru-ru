@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 48854c15e429d51dcf30ea804eb636dee7965443
+ms.sourcegitcommit: a356299be9a593990d9948b3a6b754bd058a5b3b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773653"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3080780"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Реализация настраиваемых полей для мобильного приложения Microsoft Dynamics 365 Project Timesheet на iOS и Android
 
@@ -183,7 +183,7 @@ ms.locfileid: "2773653"
 
 Обратите внимание на использование метода **TSTimesheetCustomField::newFromMetatdata()**, чтобы упростить инициализацию свойств настраиваемого поля: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** и **numberOfDecimals**. При желании эти параметры также можно настроить вручную.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -212,7 +212,7 @@ final class TSTimesheetSettings_Extension
 
 Метод **buildCustomFieldListForEntry** используется для ввода значений в сохраненных строках табеля учета рабочего времени в мобильном приложении. Он принимает в качестве параметра запись TSTimesheetTrans. Поля из этой записи могут использоваться для заполнения значения настраиваемого поля в приложении.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetEntry))]
 final class TsTimesheetEntry_Extension
@@ -250,7 +250,7 @@ final class TsTimesheetEntry_Extension
 > [!NOTE]
 > В следующем примере сохраняется значение **firstOption** или **secondOption**, которое пользователь выбирает, в базу данных в качестве необработанного строкового значения. Если поле базы данных является полем типа **Enum**, эти значения можно вручную сопоставить значению перечисления, а затем сохранить в поле перечисления таблицы базы данных.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetEntryService))]
 final class TSTimesheetEntryService_Extension
@@ -339,7 +339,7 @@ final class TSTimesheetEntryService_Extension
 
 В следующем примере показано вычисленное значение в разделе заголовка в приложении.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -369,7 +369,7 @@ final class TSTimesheetSettings_Extension
 Метод **buildCustomFieldListForHeader** используется для ввода сведений заголовка табеля учета рабочего времени в мобильном приложении. Он принимает в качестве параметра запись TSTimesheetTable. Поля из этой записи могут использоваться для заполнения значения настраиваемого поля в приложении. В следующем примере не считываются никакие значения из базы данных. Вместо этого используется логика X++ для создания вычисляемого значения, которое затем отображается в приложении.
 
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetDetails))]
 final class TSTimesheetDetails_Extension

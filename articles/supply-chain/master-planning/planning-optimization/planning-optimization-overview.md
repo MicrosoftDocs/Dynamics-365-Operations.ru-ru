@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: aae9ea56fc2174df56274776993c68b11c0521d0
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 9ccf00b6fcd1e3a6002086360b1a4c5c464ba054
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774036"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076163"
 ---
+# <a name="planning-optimization-overview"></a>Обзор оптимизации планирования
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
-
-# <a name="planning-optimization-overview"></a>Обзор оптимизации планирования
 
 Надстройка оптимизации планирования для Microsoft Dynamics 365 Supply Chain Management включает вычисление сводного планирования вне Dynamics 365 Supply Chain Management и соответствующей базы данных SQL. Преимущества, связанные с функциональными возможностями оптимизации планирования, включают улучшенную производительность и минимальное воздействие на базу данных SQL во время выполнения сводного планирования. Быстрое планирование может выполняться даже во время работы в офисе, чтобы планировщики могли немедленно реагировать на изменения спроса или параметров.
 

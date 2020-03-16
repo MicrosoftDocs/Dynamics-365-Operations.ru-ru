@@ -1,9 +1,9 @@
 ---
 title: Домашняя страница локального развертывания
 description: В этой теме представлены сведения и ссылки на содержимое о локальных развертываниях.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 11/04/2019
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
+ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770954"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090597"
 ---
 # <a name="on-premises-deployment-home-page"></a>Домашняя страница локального развертывания
 
@@ -52,15 +52,15 @@ ms.locfileid: "2770954"
 - [Создание, публикация и печать документов в локальных развертываниях](../analytics/printing-capabilities-on-premises.md)
 - [Настройка прокси-серверов для локальных сред](onprem-reverseproxy.md)
 - [Настройка технической поддержки для приложений Finance and Operations](../lifecycle-services/support-experience.md)
-- [Подключение к Интернету клиента](../user-interface/client-disconnected.md)
+- [Подключение к Интернету у клиента](../user-interface/client-disconnected.md)
 - [Применение обновлений к локальным развертываниям](apply-updates-on-premises.md)
 - [Повторное развертывание локальных сред](redeploy-on-prem.md)
 
-## <a name="retail"></a>Retail
-- [Возможности Retail, доступные в локальных развертываниях](../../../retail/retail-onprem.md)
+## <a name="commerce"></a>Commerce
+- [Возможности Commerce, которые доступны в локальных развертываниях](../../../retail/retail-onprem.md)
 - [Действия по установке для компонентов канала розничной торговли в локальной среде](deploy-retail-onprem.md)
-- [Настройка, установка и активация Retail Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
-- [Настройка и установка Retail Store Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Настройка, установка и активация Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
+- [Настройка и установка Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Обновить
 - [Процесс обновления на месте для локальных сред](../migration-upgrade/on-prem-upgrade.md)

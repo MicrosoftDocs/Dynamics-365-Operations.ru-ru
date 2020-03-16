@@ -1,6 +1,6 @@
 ---
 title: Настройка купонов для розничных продаж
-description: В этой теме приводятся обзорные сведения о купонах розничной торговли и описывается порядок их настройки.
+description: В этой теме приводятся обзорные сведения о купонах и описывается порядок их настройки.
 author: scott-tucker
 manager: AnnBe
 ms.date: 05/22/2017
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fab4b16c9d51ada6614ce0c2bb739bb049906379
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4c580e40ae1f0398ab9f8437d42ddcb2979558c3
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023842"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057379"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Настройка купонов для розничных продаж
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8450c17fe2de964016951197b0d4e231c550a99
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 6adca3c95c10e7d4b3287561925a9d9fe8a74121
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916139"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042052"
 ---
 # <a name="ISEMPTY">Функция ER ISEMPTY</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2916139"
 
 ## <a name="syntax"></a>Синтаксис
 
-```
+```vb
 ISEMPTY (list)
 ```
 

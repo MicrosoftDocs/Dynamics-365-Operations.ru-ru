@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9c5884bba494d2dd44f9204667144402a88ddec8
-ms.sourcegitcommit: d6196d83c7b9166ddb4fe43a91e6bd0ad9da2099
+ms.openlocfilehash: ca837026f18034cddb34d7a2d5a62002ed69106a
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2694346"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042765"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Настройка параметров формата ER для юридического лица
 
@@ -240,7 +240,7 @@ ms.locfileid: "2694346"
     
         Используя этот подход, можно указать уникальный код решения (определяемый через значение **GUID**), чтобы разрешить доступ к параметрам конкретного приложения только определенного формата ER и последующих копий, которые были получены из него.
         
-        ```
+        ```xpp
         public void clicked()
             {
                 super();

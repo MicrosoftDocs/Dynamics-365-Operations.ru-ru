@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c26d0c4c8c6290bd2dbb10a288bbd59941a8d98e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c08aca949ffc7e62009bf3f6c664d96b368f43e7
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915564"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3040905"
 ---
 # <a name="TEXT">Функция ER TEXT</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2915564"
 
 ## <a name="syntax"></a>Синтаксис
 
-```
+```vb
 TEXT (number)
 ```
 
@@ -55,7 +55,7 @@ TEXT (number)
 
 ## <a name="example"></a>Пример
 
-Если языковой стандарт экземпляра сервера Microsoft Dynamics 365 Finance определен как **EN-US**, `TEXT (NOW ())` возвращает текущую дату сеанса Finance, 17 декабря 2015, как текстовую строку **"12/17/2015 07:59:23 AM"**. `TEXT (1/3)` возвращает **"0.33"**.
+Если языковой стандарт экземпляра сервера Microsoft Dynamics 365 Finance определен как **EN-US**, `TEXT (NOW ())` возвращает текущую дату сеанса Finance, 17 декабря 2015, как текстовую строку **"12/17/2015 07:59:23 AM"**. `TEXT (1/3)` возвращает **"0,33"**.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

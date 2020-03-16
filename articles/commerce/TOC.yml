@@ -166,9 +166,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/commerce/toc.json
                 - name: Сохраненные представления
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
+                - name: Возможности сетки
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Создание настраиваемых полей и работа с ними
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Внедрить приложения PowerApps
+                - name: Внедрение приложений PowerApps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Поиск сведений с использованием поиска
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -438,8 +440,6 @@
                   href: configure-call-center-delivery.md
                 - name: Настройка оповещений о мошенничестве и работа с ними
                   href: set-up-fraud-alerts.md
-                - name: Настройка программ непрерывности для центров обработки вызовов
-                  href: set-up-continuity-program.md
             - name: Конфигурация дополнительного канала
               items:
                 - name: Добавление канала в организационную иерархию
@@ -450,6 +450,12 @@
                       href: omni-auto-charges.md
                     - name: Пропорциональное распределение накладных расходов из заголовка по соответствующим строкам продаж
                       href: pro-rate-charges-matching-lines.md
+                - name: Управление программами непрерывности
+                  items:
+                    - name: Настройка программ непрерывности для центров обработки вызовов
+                      href: set-up-continuity-program.md
+                    - name: Определение планов непрерывности
+                      href: tasks/define-continuity-schedules.md
                 - name: Руководство розничного магазина
                   items:
                     - name: Создание и изменение часов работы магазина
@@ -460,8 +466,6 @@
                   items:
                     - name: Настройка удержаний заказов центра обработки вызовов и работа с ними
                       href: work-with-order-holds.md
-                    - name: Определение планов непрерывности
-                      href: tasks/define-continuity-schedules.md
                 - name: Платежи
                   items:
                     - name: Способы оплаты
@@ -478,6 +482,8 @@
                       href: dev-itpro/adyen-connector.md
                     - name: Сохранение интерактивных платежных инструментов с помощью соединителя Adyen
                       href: dev-itpro/adyen-connector-listpi.md
+                    - name: Бесперебойное автономное переключение для операций подарочных сертификатов и кредит-нот
+                      href: dev-itpro/seamless-offline-improvements.md
                     - name: Настройка сценариев оплаты накладных
                       href: payinvoice.md
                     - name: Предотвращение дублирования платежей
@@ -494,9 +500,9 @@
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Настройка розничных продуктов
                   href: set-up-retail-products.md
-                - name: Иерархия розничных продуктов
+                - name: Иерархия продуктов
                   items:
-                    - name: Иерархии розничной торговли
+                    - name: Иерархии Commerce
                       href: retail-hierarchies.md
                     - name: Создание иерархии продуктов
                       href: create-product-hierarchy.md
@@ -624,6 +630,12 @@
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: Настройка правил и параметров для централизованного распределения и кросс-докинга
                       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                    - name: Входящая операция запасов в POS
+                      href: pos-inbound-inventory-operation.md
+                    - name: Исходящая операция запасов в POS
+                      href: pos-outbound-inventory-operation.md
+                    - name: Расчет наличия запасов для розничных каналов
+                      href: calculated-inventory-retail-channels.md
                 - name: Заказы на покупку
                   items:
                     - name: Обзор заказов на покупку
@@ -726,6 +738,18 @@
               href: tasks/store-configurations-retail-statements.md
             - name: Разноска интернет-продаж и платежей
               href: tasks/posting-online-sales-payments.md
+        - name: Управление задачами работника
+          items:
+            - name: Обзор управления задачами
+              href: task-mgmt-overview.md
+            - name: Настройка управления задачами
+              href: task-mgmt-configure.md
+            - name: Создание списков задач и добавление задач
+              href: task-mgmt-create-lists.md
+            - name: Назначение списков задач магазинам или сотрудникам
+              href: task-mgmt-assign-lists.md
+            - name: Управление задачами в POS
+              href: task-mgmt-pos.md
         - name: Управление сайтом электронной коммерции
           items:
             - name: Обзор интернет-магазина
@@ -880,6 +904,8 @@
                   items:
                     - name: Модуль поля покупки
                       href: add-buy-box.md
+                    - name: Модули оценок и отзывов
+                      href: ratings-reviews-modules.md
                 - name: Модули покупок
                   items:
                     - name: Модуль корзины
@@ -944,7 +970,7 @@
                   href: localizations/emea-eeu-advance-invoices-for-retail.md
                 - name: Управление мелкими наличными деньгами для Commerce для Восточной Европы
                   href: localizations/emea-eeu-petty-cash-for-retail.md
-                - name: Накладные клиента и возвратные заказы на продажу для Commerce в странах Восточной Европы
+                - name: Накладные клиента и возвратные заказы на продажу в странах Восточной Европы
                   href: localizations/emea-eeu-retail-invoices.md
                 - name: 'Рекомендации по развертыванию контрольно-кассовых машин для Чешской Республики, Венгрии и Польши'
                   href: localizations/emea-eeu-deployment.md
@@ -1056,6 +1082,8 @@
               items:
                 - name: Обзор служб отчетов по документам
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Поддерживаемые шрифты
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
                 - name: Настройка служб SSRS для локальных развертываний
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Печать
@@ -1834,8 +1862,6 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Модули предварительного просмотра и отладки
                       href: e-commerce-extensibility/test-module.md
-                    - name: Модули отладки
-                      href: e-commerce-extensibility/debug-modules.md
                     - name: Тестирование модулей с использованием макетов
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Тестирование модулей с использованием макетов страницы
@@ -1976,6 +2002,8 @@
                   href: dev-itpro/pos-run-samples.md
                 - name: Руководство по внедрению системы управления устройствами
                   href: implementation-considerations-devices.md
+                - name: События и обработчики просмотров корзины POS
+                  href: dev-itpro/cart-view-handlers.md
             - name: Расширяемость Hardware Station
               items:
                 - name: Hardware Station и расширяемость
@@ -2028,10 +2056,12 @@
                   href: dev-itpro/order-attributes.md
                 - name: Атрибуты клиента
                   href: dev-itpro/customer-attributes.md
-                - name: Примеры SDK CRT
+                - name: Примеры пакета SDK CRT
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: Ведение журнала событий расширения в Application Insights
                   href: dev-itpro/commerce-application-insights.md
+                - name: Создание асинхронных интерфейсов API Commerce (CRT) в бизнес-логике
+                  href: dev-itpro/async-commerce-extension.md
             - name: Расширяемость соединителя платежей
               items:
                 - name: Создание интеграции платежей для терминала оплаты
@@ -2048,6 +2078,8 @@
                   href: payment-connector-data-fields.md
                 - name: Включение защиты от дубликатов платежей для соединителя платежей
                   href: dev-itpro/duplicate-payment-protection.md
+                - name: Создание упаковки платежа для обозревателя приложений в развертываниях Service Fabric
+                  href: dev-itpro/payment-connector-package.md
             - name: Расширяемость сторонних решений для электронной коммерции
               items:
                 - name: Настройка интернет-магазинов
@@ -2060,8 +2092,6 @@
               href: dev-itpro/extension-resource-localization.md
     - name: Разработка и администрирование приложений Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
-    - name: Dynamics 365 Retail
-      href: index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Supply Chain Management

@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 612ded1f68cc8e1b26b8046501bae1707175e23a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a5e7e6897f19dc0303ffbd3111f93669a91daa1b
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188334"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059384"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Устранение неполадок импорта файла банковской выписки
 
@@ -58,9 +58,11 @@ ms.locfileid: "2188334"
 
 1.  Создайте XML-файла и скопируйте в него следующий текст.
 
-        <Batch><![CDATA[PASTESTATEMENTFILEHERE
+    ```xml
+    <Batch><![CDATA[PASTESTATEMENTFILEHERE
         ]]></Batch>
-
+    ```
+    
 2.  Скопируйте содержимое файла банковской выписки и вставьте его в XML-файл, чтобы оно заменило часть **PASTESTATEMENTFILEHERE**.
 
 ### <a name="debug-the-xslt"></a>Отладка XSLT

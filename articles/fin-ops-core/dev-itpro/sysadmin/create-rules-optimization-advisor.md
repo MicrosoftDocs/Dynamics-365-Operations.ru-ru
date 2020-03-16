@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 27066cd860d78743d5ae7c851876eb62fe019245
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e14949b871534868c42d2b26a116e10ff9f05179
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180998"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3082004"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Создание правил для помощника по оптимизации
 
@@ -36,7 +36,7 @@ ms.locfileid: "2180998"
 
 Чтобы создать новое правило для **Помощника по оптимизации**, добавьте новый класс, который расширяет абстрактный класс **SelfHealingRule**, реализует интерфейс **IDiagnosticsRule** и снабжен атрибутом **DiagnosticRule**. Класс также должен иметь метод, снабженный атрибутом **DiagnosticsRuleSubscription**. В соответствии с соглашением это делается для метода **opportunityTitle**, который будет описан далее. Этот новый класс может быть добавлен в пользовательскую модель с зависимостью от модели **SelfHealingRules**. В следующем примере реализуемое правило называется **RFQTitleSelfHealingRule**.
 
-```
+```xpp
 [DiagnosticsRule] 
 public final class RFQTitleSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule 
 { 
@@ -46,7 +46,7 @@ public final class RFQTitleSelfHealingRule extends SelfHealingRule implements ID
 
 Абстрактный класс **SelfHealingRule** содержит абстрактные методы, которые должны быть реализованы в производных классах. Основным является метод **evaluate**, который возвращает список возможностей, идентифицированных правилом. Возможности могут быть для юридического лица или они могут применяться ко всей системе.
 
-```
+```xpp
 protected List evaluate() 
 { 
     List results = new List(Types::Record); 
@@ -82,7 +82,7 @@ protected List evaluate()
 
 В следующем коде показан метод **findRFQCasesWithEmptyTitle**, который возвращает идентификаторы случаев запроса предложения, которые имеют пустые заголовки.
 
-```
+```xpp
 private container findRFQCasesWithEmptyTitle() 
 { 
     container result; 
@@ -115,7 +115,7 @@ private container findRFQCasesWithEmptyTitle()
 
 Ниже приведен пример реализации. Необработанные строки используются для упрощения, но в правильной реализации необходимо определить метки. 
 
-```
+```xpp
 [DiagnosticsRuleSubscription(DiagnosticsArea::SCM, 
                              'Assign titles to Request for Quotation cases', 
                              DiagnosticsRunFrequency::Daily,  
@@ -128,7 +128,7 @@ public str opportunityTitle()
 
 Описание, возвращенное методом **opportunityDetails**, отображается на боковой панели, содержащей дополнительные сведения о возможности. Он принимает аргумент **SelfHealingOpportunity**, который является полем **Data**, которое может использоваться для предоставления дополнительных сведений о возможности. В этом примере метод возвращает идентификаторы случаев запроса предложения с пустым заголовком. 
 
-```
+```xpp
 public str opportunityDetails(SelfHealingOpportunity _opportunity) 
 { 
     str details = ''; 
@@ -153,7 +153,7 @@ public str opportunityDetails(SelfHealingOpportunity _opportunity)
 
 **provideHealingAction** возвращает значение true, если предусмотрено действие восстановления; в противном случае возвращается значение false. Если возвращается значение true, метод **performAction** должен быть реализован или возникает ошибка. Метод **performAction** принимает аргумент **SelfHealingOpportunity**, в котором данные могут использоваться для действия. В этом примере действие открывает **PurchRFQCaseTableListPage** для ручной коррекции. 
 
-```
+```xpp
 public boolean providesHealingAction() 
 { 
     return true; 
@@ -172,7 +172,7 @@ protected void performAction(SelfHealingOpportunity _opportunity)
 > [!NOTE]
 > Пункт меню должен быть пунктом меню действий для правильной работы безопасности. Другие типы пунктов меню, такие как **Пункты меню отображения**, не будет правильно работать.
 
-```
+```xpp
 public MenuName securityMenuItem() 
 { 
     return menuItemActionStr(PurchRFQCaseTitleAction); 
@@ -181,7 +181,7 @@ public MenuName securityMenuItem()
 
 После компиляции правила выполните следующее задание, чтобы оно отображалось в пользовательском интерфейсе.
 
-```
+```xpp
 class ScanNewRulesJob 
 {         
     public static void main(Args _args) 
@@ -197,7 +197,7 @@ class ScanNewRulesJob
 
 В следующем примере показан фрагмент кода со схемой правила, включая все необходимые методы и атрибуты. Он поможет начать работу по созданию новых правил. Метки и пункты меню действий, которые используются в примере, используются только для демонстрационных целей.
 
-```
+```xpp
 [DiagnosticsRuleAttribute]
 public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
 {

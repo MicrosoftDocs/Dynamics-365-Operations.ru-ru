@@ -3,7 +3,7 @@ title: Необходимые условия для настройки кана�
 description: В этом разделе представлен обзор необходимых условий настройки каналов в Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b861d90f1333c8f6e61a83602ed74e30b65f3dc1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 8a0927f6ee9b2d5bed1327bb223ceca85ecc16a0
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002297"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081323"
 ---
 # <a name="channel-setup-prerequisites"></a>Необходимые условия для настройки каналов
 
@@ -40,16 +40,16 @@ ms.locfileid: "3002297"
 
 ## <a name="initialization"></a>Инициализация
 
-- [Инициализация начальных данных](../retail/enable-configure-retail-functionality.md)
+- [Инициализация начальных данных](enable-configure-retail-functionality.md)
 
 ## <a name="global-prerequisities-required-for-all-channel-types"></a>Глобальные необходимые условия для всех типов каналов
 
 - [Определение и настройка структуры юридического лица](channels-legal-entities.md) 
 - [Настройка своей организационной иерархии](channels-org-hierarchies.md)
 - [Настройка склада](channels-setup-warehouse.md)
-- [Настройка налога](https://docs.microsoft.com/en-us/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
+- [Настройка налога](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
 - [Настройка профиля уведомлений по электронной почте](email-notification-profiles.md)
-- [Настройка номерных серий](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
+- [Настройка номерных серий](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
 - [Настройка клиента по умолчанию и адресной книги](default-customer.md)
 <!--
 - [Configure commerce parameters](commerce-parameters.md)
@@ -57,23 +57,21 @@ ms.locfileid: "3002297"
 
 ## <a name="retail-channel-prerequisites"></a>Необходимые условия для каналов розничной торговли
 
-- [Инфокоды и группы инфокодов](https://docs.microsoft.com/en-us/dynamics365/retail/info-codes-retail?toc=/dynamics365/commerce/toc.json)
+- [Инфокоды и группы инфокодов](info-codes-retail.md)
 - [Настройка профиля функциональности для розничной торговли](retail-functionality-profile.md)
 - [Настройка адресной книги сотрудников](new-address-book.md)
-- [Настройка макета экрана](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json)
-- [Настройка станции оборудования](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/commerce/toc.json)
+- [Настройка макета экрана](pos-screen-layouts.md)
+- [Настройка станции оборудования](retail-hardware-station-configuration-installation.md)
 
 ## <a name="call-center-channel-prerequisites"></a>Необходимые условия для канала центра обработки вызовов
 
 - Параметры центра обработки вызовов
-- Методы возврата денежных средств в центре обработки вызовов
-- Типы аренды
-- Службы платежей
-- Коды удержания заказов
+- [Заказ центра обработки вызовов и способы оплаты возврата денежных средств](work-with-payments.md)
+- [Режимы центра обработки вызовов для доставки и накладных расходов](configure-call-center-delivery.md)
 
-## <a name="online-channel-prerequisites"></a>Необходимые условия для интернет-каналов
+## <a name="online-channel-prerequisites"></a>Необходимые условия для каналов онлайн-торговли
 
-- [Создание профиля функциональности интернет-магазина](online-functionality-profile.md)
+- [Создание профиля функциональности для онлайн-торговли](online-functionality-profile.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
