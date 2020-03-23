@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Что нового и что изменилось в выпусках Platform update
               items:
-                - name: Что нового и что изменилось на домашней странице Platform update
+                - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
+                - name: Platform update 34 (май 2020 г.)
+                  href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (апрель 2020 г.)
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32 (февраль 2020 г.)
@@ -146,41 +148,67 @@
                   items:
                     - name: Обзор интеграции данных с помощью Common Data Service
                       href: data-entities/data-integration-cds.md
-                    - name: Синхронная двунаправленная интеграция
+                    - name: Интеграция двойной записи
                       items:
                         - name: Домашняя страница двойной записи
                           href: data-entities/dual-write/dual-write-home-page.md
                         - name: Обзор двойной записи
                           href: data-entities/dual-write/dual-write-overview.md
-                        - name: Организационная иерархия в Common Data Service
-                          href: data-entities/dual-write/organization-mapping.md
-                        - name: Интеграция компании
+                        - name: Настройка двойной записи
                           items:
-                            - name: Понятие компании в Common Data Services
-                              href: data-entities/dual-write/company-data.md
-                            - name: Начальная загрузка данных компании
-                              href: data-entities/dual-write/bootstrap-company-data.md
-                        - name: Интегрированный справочник клиентов
-                          href: data-entities/dual-write/customer-mapping.md
-                        - name: Интегрированная книга учета
-                          href: data-entities/dual-write/ledger-mapping.md
-                        - name: Унифицированный подход к работе с продуктами
-                          href: data-entities/dual-write/product-mapping.md
-                        - name: Интеграция с поставщиками
+                            - name: Требования к системе для двойной записи
+                              href: data-entities/dual-write/dual-write-system-req.md
+                            - name: Поддерживаемые сценарии для настройки двойной записи
+                              href: data-entities/dual-write/connection-setup.md
+                            - name: Настройка двойной записи из Lifecycle Services
+                              href: data-entities/dual-write/lcs-setup.md
+                        - name: Сопоставление концепций между приложениями
                           items:
-                            - name: Интегрированный справочник поставщиков
-                              href: data-entities/dual-write/vendor-mapping.md
-                            - name: Переключение между вариантами дизайна поставщиков
-                              href: data-entities/dual-write/vendor-switch.md
-                        - name: Интегрированные объекты и склады
-                          href: data-entities/dual-write/sites-warehouses-mapping.md
-                        - name: Интегрированный налоговый справочник
-                          href: data-entities/dual-write/tax-mapping.md
-                        - name: Начальная синхронизация
-                          href: data-entities/dual-write/initial-sync.md
-                        - name: Устранение неполадок при интеграции данных
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: Асинхронная однонаправленная интеграция
+                            - name: Организационная иерархия в Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: Интеграция компании
+                              items:
+                                - name: Понятие компании в Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Начальная загрузка данных компании
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Интегрированный справочник клиентов
+                              href: data-entities/dual-write/customer-mapping.md
+                            - name: Интеграция продуктов
+                              items:
+                                - name: Единый подход к работе с продуктами
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: Интегрированные сайты и склады
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Финансовая и налоговая информация
+                              items:
+                                - name: Доступ к финансовым и налоговым ссылочным данным
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: Интегрированная книга учета
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: Интегрированный налоговый справочник
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: Интеграция с поставщиками
+                              items:
+                                - name: Интегрированный справочник поставщиков
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Переключение между вариантами дизайна поставщиков
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Продажа перспективному клиенту в случае двойной записи
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Внутренние активы для обслуживания
+                              href: data-entities/dual-write/in-house-assets.md
+                            - name: 'Интегрированный работник, задание и должность'
+                              href: data-entities/dual-write/integrated-hr.md
+                        - name: Поддержка двойной записи
+                          items:
+                            - name: Поддержка решений Field Service и решений Project Service Automation
+                              href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: Начальная синхронизация
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Устранение неполадок при интеграции данных
+                              href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Интеграция со средством интеграции данных Power Platform
                       items:
                         - name: Настройка сценария продажи перспективному клиенту
                           items:
@@ -328,10 +356,12 @@
                   href: database/database-refresh.md
                 - name: Экспорт базы данных
                   href: database/export-database.md
-                - name: Импорт базы данных.
+                - name: Импорт базы данных
                   href: database/import-database.md
                 - name: Восстановление базы данных на определенный момент времени
                   href: database/database-point-in-time-restore.md
+                - name: Восстановление производственной базы данных на определенный момент времени в среде "песочницы"
+                  href: database/database-pitr-prod-sandbox.md
             - name: Учебники
               items:
                 - name: Обновление для целей обучения
@@ -428,8 +458,10 @@
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Развертывание локальных сред (Platform update 8 и 11)
                       href: deployment/setup-deploy-on-premises-pu8-pu11.md
-                    - name: Действия по установке для компонентов канала розничной торговли в локальной среде
+                    - name: Действия по установке для компонентов канала Retail в локальной среде
                       href: deployment/deploy-retail-onprem.md
+                    - name: Повторное использование одного экземпляра службы AD FS для нескольких сред
+                      href: deployment/onprem-reuseadfs.md
                 - name: Разработка и развертывание пользовательских моделей в локальных средах
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: Интеграция PowerBI.com с локальными средами
@@ -970,24 +1002,34 @@
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: Создание или обновление методологий
               href: lifecycle-services/create-methodology.md
-            - name: Средство моделирования бизнес-процессов
-              href: lifecycle-services/bpm-overview.md
-            - name: Библиотеки бизнес-процессов в средстве моделирования бизнес-процессов
-              href: lifecycle-services/business-process-libraries-business-process-modeler.md
-            - name: 'Создание, изменение и поиск библиотек средства моделирования бизнес-процессов'
-              href: lifecycle-services/creating-editing-browsing.md
-            - name: Выполнение задач в средстве моделирования бизнес-процессов
-              href: lifecycle-services/complete-tasks-bpm.md
-            - name: Работа с диаграммами мероприятий в библиотеках BPM
-              href: lifecycle-services/using-activity-diagrams.md
-            - name: Синхронизация библиотек BPM с Azure DevOps
-              href: lifecycle-services/synchronize-bpm-vsts.md
-            - name: Создание библиотек пользовательских приемочных тестов с помощью проводников по задаче и BPM
-              href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: Блок-схемы в средства моделирования бизнес-процессов
-              href: lifecycle-services/flowcharts-business-process-modeler.md
-            - name: Отправка пользовательских бизнес-процессов в средство моделирования бизнес-процессов
-              href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: Средство моделирования бизнес-процессов (BPM)
+              items:
+                - name: Обзор средства моделирования бизнес-процессов (BPM)
+                  href: lifecycle-services/bpm-overview.md
+                - name: Библиотеки бизнес-процессов в средстве моделирования бизнес-процессов
+                  href: lifecycle-services/business-process-libraries-business-process-modeler.md
+                - name: 'Создание, изменение и поиск библиотек средства моделирования бизнес-процессов'
+                  href: lifecycle-services/creating-editing-browsing.md
+                - name: Выполнение задач в средстве моделирования бизнес-процессов
+                  href: lifecycle-services/complete-tasks-bpm.md
+                - name: Работа с диаграммами мероприятий в библиотеках BPM
+                  href: lifecycle-services/using-activity-diagrams.md
+                - name: Синхронизация библиотек BPM с Azure DevOps
+                  href: lifecycle-services/synchronize-bpm-vsts.md
+                - name: Создание библиотек пользовательских приемочных тестов с помощью проводников по задаче и BPM
+                  href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+                - name: Блок-схемы в средства моделирования бизнес-процессов
+                  href: lifecycle-services/flowcharts-business-process-modeler.md
+                - name: Отправка пользовательских бизнес-процессов в средство моделирования бизнес-процессов
+                  href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: Запросы на сервисное обслуживание
+              items:
+                - name: Облачные операции и обслуживание
+                  href: lifecycle-services/cloud-operations-servicing.md
+                - name: Отправка запросов обслуживания в рабочую группу разработчиков служб Dynamics
+                  href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+                - name: Вопросы и ответы по окну планового обслуживания
+                  href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Мониторинг и диагностика
               href: lifecycle-services/monitoring-diagnostics.md
             - name: Перезапуск служб среды
@@ -1282,14 +1324,8 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Поддержка Finance and Operations на базе 21Vianet в Китае
               href: lifecycle-services/21vianet-support.md
-            - name: Отправка запросов команде разработчиков служб Dynamics
-              href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
             - name: Настройка технической поддержки для Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: Вопросы и ответы по окну планового обслуживания
-              href: lifecycle-services/planned-maintenance-window-faq.md
-            - name: Облачные операции и обслуживание
-              href: lifecycle-services/cloud-operations-servicing.md
             - name: Управление поддержкой Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Администрирование системы
