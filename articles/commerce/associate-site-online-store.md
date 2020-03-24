@@ -3,7 +3,7 @@ title: Связывание сайта электронной коммерции
 description: В этом разделе объясняется, как связать сайт Microsoft Dynamics 365 Commerce с одним или несколькими интернет-магазинами.
 author: stuharg
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8de02eca941054c7c43dec1c904f461da1927230
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 30a992ae5cc68173b830224ae88ac3770b414b7a
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001216"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096709"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>Связывание сайта электронной коммерции с интернет-каналом
 
@@ -44,11 +44,19 @@ ms.locfileid: "3001216"
 
 [Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
 
+[Настройка канала интернет-магазина](online-stores.md)
+
 [Создание сайта электронной коммерции](create-ecommerce-site.md)
 
 [Управление файлами robots.txt](manage-robots-txt-files.md)
 
+[Пакетная отправка перенаправлений URL-адресов](upload-bulk-redirects.md)
+
+[Настройка клиента B2C в Commerce](set-up-B2C-tenant.md)
+
 [Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
+
+[Настройка нескольких клиентов B2C в среде Commerce](configure-multi-B2C-tenants.md)
 
 [Добавление поддержки сети доставки контента (CDN)](add-cdn-support.md)
 

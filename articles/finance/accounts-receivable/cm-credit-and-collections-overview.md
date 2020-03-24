@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2fdfe05483d577819d64bdf7a4ebfe5d37cd414c
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: a822e5f5a6cb71a0234b1776211788578470b0bb
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015362"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124308"
 ---
 # <a name="credit-and-collections-overview"></a>Обзор кредита и сбора задолженностей
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Можно управлять кредитными лимитами для клиентов и выполнять мероприятия по сборам, когда они становятся необходимыми.
 

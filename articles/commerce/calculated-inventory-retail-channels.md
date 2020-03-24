@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8bef8edb46a1942d3efc325e2c437a138ad44839
-ms.sourcegitcommit: e1a55b4dc43abedf523c33ba9a8abe7b073f2ec6
+ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3083026"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113928"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Расчет доступности запасов для каналов розничной торговли
 
@@ -41,7 +41,7 @@ ms.locfileid: "3083026"
 Можно использовать следующие API-интерфейсы для отображения доступности запасов для продукта, когда клиенты делают покупки на сайте электронной коммерции.
 
 - **GetEstimatedAvailabilty** — этот API используется для того, чтобы получить доступность запасов для номенклатуры на складе канала электронной коммерции или всех складах, связанные с конфигурацией группы выполнения для канала электронной коммерции. Этот интерфейс API можно также использовать для складов в определенной области или в радиусе поиска на основе данных долготы и широты.
-- **ProductWarehouseInventoryAvailabilities** — этот API используется для запроса запасов для номенклатуры с конкретного склада. Например, его можно использовать для отображения наличия запасов в сценариях, включающих получение заказа.
+- **GetEstimatedProductWarehouseAvailability** — этот API используется для запроса запасов для номенклатуры с конкретного склада. Например, его можно использовать для отображения наличия запасов в сценариях, включающих получение заказа.
 
 > [!NOTE]
 > Эти API-интерфейсы заменяют API-интерфейсы **GetProductAvailabilities** и **GetAvailableInventoryNearby** в Dynamics 365 Retail версии 10.0.7 и более ранних версиях.

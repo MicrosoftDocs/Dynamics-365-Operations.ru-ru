@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: ba0b047fe984f6bc164cbe137320d6bf6c13dafc
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071668"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124193"
 ---
 # <a name="credit-management-parameters-setup"></a>Настройка параметров управления кредитом
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 В этой теме описываются параметры, которые можно использовать для настройки управления кредитованием в зависимости от требований бизнеса. Чтобы начать использовать функции управления кредитами, настройте параметры на странице **Параметры управления кредитом** (**Управление кредитом \> Настройка \> Параметры управления кредитом**).
 

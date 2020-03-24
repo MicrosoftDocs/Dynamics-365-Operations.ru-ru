@@ -1,9 +1,9 @@
 ---
-title: Добавление элемента управления рекомендациями на экране проводки на устройствах POS
+title: Добавление рекомендаций на экран проводки
 description: В этом разделе описывается, как добавить элемент управления рекомендациями на экране проводки устройства POS, используя конструктор макета экрана в Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d6f48197a36f633e3cd63cbad4518f53946fc7f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9117f398ee1d9edbd3aee9bed366eea225964184
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023760"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127683"
 ---
-# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Добавление элемента управления рекомендациями на экране проводки на устройствах POS
+# <a name="add-recommendations-to-the-transaction-screen"></a>Добавление рекомендаций на экран проводки
 
 [!include [banner](includes/banner.md)]
 
@@ -98,6 +98,24 @@ ms.locfileid: "3023760"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Рекомендации по продуктам на POS](product.md)
+[Обзор рекомендаций по продуктам](product-recommendations.md)
 
-[Обзор рекомендаций по продуктам](../commerce/product-recommendations.md)
+[Включение ADLS в среде Dynamics 365 Commerce](enable-adls-environment.md)
+
+[Включить рекомендации по продуктам](enable-product-recommendations.md)
+
+[Включение персонализированных рекомендаций](personalized-recommendations.md)
+
+[Отказ от персонализированных рекомендаций](personalization-gdpr.md)
+
+[Добавление списков рекомендаций на сайт электронной коммерции](add-reco-list-to-page.md)
+
+[Добавление рекомендаций по продуктам в POS](product.md)
+
+[Корректировка результатов рекомендаций на основе искусственного интеллекта и машинного обучения](modify-product-recommendation-results.md)
+
+[Создание контролируемых рекомендаций вручную](create-editorial-recommendation-lists.md)
+
+[Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
+
+[Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)

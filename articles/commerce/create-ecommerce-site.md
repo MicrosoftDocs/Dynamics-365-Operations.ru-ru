@@ -3,7 +3,7 @@ title: Создание сайта электронной коммерции
 description: В этой теме описываются шаги и сведения, необходимые для создания нового сайта электронной коммерции в построителе сайтов Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7177bae911dfa91a645b40581bf23b3ed76562a3
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002021"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096782"
 ---
 # <a name="create-an-e-commerce-site"></a>Создание сайта электронной коммерции
 
@@ -65,11 +65,19 @@ ms.locfileid: "3002021"
 
 [Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
 
+[Настройка канала интернет-магазина](online-stores.md)
+
 [Связывание веб-сайта с каналом](associate-site-online-store.md)
 
 [Управление файлами robots.txt](manage-robots-txt-files.md)
 
+[Пакетная отправка перенаправлений URL-адресов](upload-bulk-redirects.md)
+
+[Настройка клиента B2C в Commerce](set-up-B2C-tenant.md)
+
 [Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
+
+[Настройка нескольких клиентов B2C в среде Commerce](configure-multi-B2C-tenants.md)
 
 [Добавление поддержки сети доставки контента (CDN)](add-cdn-support.md)
 
