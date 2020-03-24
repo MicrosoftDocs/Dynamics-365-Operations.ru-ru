@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
-ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
+ms.openlocfilehash: 470b1d947c3ead862dad8f5d40fb14e45ecc71a6
+ms.sourcegitcommit: 4398fdf783b8557029284bf95ce95d389fcf4162
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "2815796"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100215"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Отложенная обработка работы склада
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pivate-preview-banner.md)]
 
 Эта тема описывает функциональность, которая делает отложенную обработку операций размещения для работы склада доступной в Dynamics 365 Supply Chain Management.
 

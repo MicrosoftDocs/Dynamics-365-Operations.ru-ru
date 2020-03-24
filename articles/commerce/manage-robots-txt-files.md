@@ -3,7 +3,7 @@ title: Управление файлами robots.txt
 description: В этой теме описано, как управлять файлами robots.txt в Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brishoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0ce49f2968030ca4656a01c7646819c01635e12
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d248dae36e6e038749ee17a5a6ccb32f1dde0aed
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003495"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096852"
 ---
 # <a name="manage-robotstxt-files"></a>Управление файлами robots.txt
 
@@ -92,11 +92,19 @@ Dynamics 365 Commerce позволяет загружать файл robots.txt 
 
 [Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
 
+[Настройка канала интернет-магазина](online-stores.md)
+
 [Создание сайта электронной коммерции](create-ecommerce-site.md)
 
 [Связывание веб-сайта с каналом](associate-site-online-store.md)
 
+[Пакетная отправка перенаправлений URL-адресов](upload-bulk-redirects.md)
+
+[Настройка клиента B2C в Commerce](set-up-B2C-tenant.md)
+
 [Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
+
+[Настройка нескольких клиентов B2C в среде Commerce](configure-multi-B2C-tenants.md)
 
 [Добавление поддержки сети доставки контента (CDN)](add-cdn-support.md)
 

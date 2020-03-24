@@ -3,7 +3,7 @@ title: Параметры интеграции Project Service Automation
 description: В этом разделе описывается, как настроить способ ввода данных по умолчанию при интеграции Microsoft Dynamics 365 for Project Service Automation с Microsoft Dynamics 365 Finance.
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: f7cef5384812e0dcb7d5e084ddd7668a7687a259
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cd09dad15112fd71bfd386e0072a77a4121c96e0
+ms.sourcegitcommit: 236672932ffd0a758012ebb7b2df9bc51249c126
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175008"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096259"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Параметры интеграции Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
 На странице **Параметры интеграции Project Service Automation** можно настроить способ ввода данных по умолчанию при интеграции Dynamics 365 Project Service Automation с Dynamics 365 Finance. Для проектов, которые должны быть успешно синхронизированы из Project Service Automation с Finance, необходимо настроить следующие поля.
+
+Чтобы открыть страницу **Параметры интеграции Project Service Automation**, перейдите к пункту **Управление и учет по проектам** \> **Настройка** \> **Параметры интеграции Dynamics 365 for Project Service Automation**. 
 
 > [!NOTE]
 > - В версии 8.0 доступна интеграция задач проекта, категорий проводок расходов, оценки часов, оценки затрат и блокировка функциональности.

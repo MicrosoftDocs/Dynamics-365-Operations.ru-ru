@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8ac01f36912fa5e8a09bb4f324ef272cec737aa1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002389"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113836"
 ---
 # <a name="set-up-a-retail-channel"></a>Настройка канала розничной торговли
 
@@ -66,7 +66,7 @@ Dynamics 365 Commerce поддерживает несколько розничн
 
 Имеется множество других необязательных настроек, которые могут быть заданы в разделах **Операция/закрытие** и **Разный** в зависимости от потребностей розничного магазина.
 
-Кроме того, см. [Макеты экрана для POS](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json) для получения сведений о настройке макета экрана по умолчанию в разделе **Макет экрана** и [Настройка и установка Retail Hardware Station](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation) для настройки сведений о разделе **Станции оборудования**.
+Кроме того, см. [Макеты экрана для POS](pos-screen-layouts.md) для получения сведений о настройке макета экрана по умолчанию в разделе **Макет экрана** и [Настройка и установка Retail Hardware Station](retail-hardware-station-configuration-installation.md) для настройки сведений о разделе **Станции оборудования**.
 
 На следующем рисунке показан пример конфигурации настройки канала розничной торговли.
 

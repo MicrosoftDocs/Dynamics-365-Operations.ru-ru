@@ -1,6 +1,6 @@
 ---
 title: Обзор
-description: ''
+description: В руководстве пользователя Dynamics 365 Human Resources содержатся инструкции по настройке Human Resources, настройке компенсации и льгот для сотрудников, а также по управлению персоналом.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c489ddaec0363a5a6d68f0464786dfbe1b0e1349
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7bef82f83de150df69a1a001fa9c07e34270742d
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010326"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091732"
 ---
 # <a name="overview"></a>Обзор
 
@@ -86,7 +86,7 @@ ms.locfileid: "3010326"
 [Определение правил и политик проверки прав на льготы](hr-benefits-define-eligibility-rules.md)</br>
 [Реализация программы льгот сотрудника](hr-benefits-deliver-employee-benefits-program.md)</br>
 [Создание новых льгот](hr-benefits-create.md)</br>
-[Регистрация работников для получения льгот](hr-benefits-enroll-workers.md)</br>
+[Регистрация работников для льгот](hr-benefits-enroll-workers.md)</br>
 [Управление датами окончания срока действия льгот](hr-benefits-expiration-dates.md)</br>
 [Создание отчетов ACA](hr-benefits-aca-reports.md)</br>
 
@@ -118,10 +118,10 @@ ms.locfileid: "3010326"
 [Настройка учебных курсов](hr-learning-courses.md)</br>
 [Обзор анкет](hr-learning-questionnaires.md)</br>
 [Разработка анкет](hr-learning-design-questionnaires.md)</br>
-[Распространение и планирование анкет](hr-learning-distribute-questionnaires.md)</br>
+[Распределение и планирование анкет](hr-learning-distribute-questionnaires.md)</br>
 [Распределение анкет с помощью планирования](hr-learning-distribute-questionnaires-scheduling.md)</br>
-[Просмотр результатов анкет](hr-learning-evaluate-questionnaire-results.md)</br>
-[Анализ результатов анкеты](hr-learning-analyze-questionnaire-results.md)</br>
+[Просмотр результатов анкетирования](hr-learning-evaluate-questionnaire-results.md)</br>
+[Анализ результатов анкетирования](hr-learning-analyze-questionnaire-results.md)</br>
 [Создание открытого вопроса](hr-learning-create-open-ended-question.md)</br>
 [Создание закрытого вопроса](hr-learning-create-closed-ended-question.md)</br>
 [Создание зависимого вопроса](hr-learning-depending-question.md)</br>

@@ -3,7 +3,7 @@ title: Развертывание нового клиента электронн
 description: В этом разделе описывается, как развернуть новый клиент электронной коммерции, используя службы Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d5cf2804c44e81ad135a3248d38c228148b530cc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001791"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096686"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Развертывание нового клиента электронной коммерции
 
@@ -97,11 +97,19 @@ Microsoft Dynamics Lifecycle Services (LCS) — это рабочая облас
 
 [Создание сайта электронной коммерции](create-ecommerce-site.md)
 
+[Настройка канала интернет-магазина](online-stores.md)
+
 [Связывание веб-сайта с каналом](associate-site-online-store.md)
 
 [Управление файлами robots.txt](manage-robots-txt-files.md)
 
+[Пакетная отправка перенаправлений URL-адресов](upload-bulk-redirects.md)
+
+[Настройка клиента B2C в Commerce](set-up-B2C-tenant.md)
+
 [Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
+
+[Настройка нескольких клиентов B2C в среде Commerce](configure-multi-B2C-tenants.md)
 
 [Добавление поддержки сети доставки контента (CDN)](add-cdn-support.md)
 

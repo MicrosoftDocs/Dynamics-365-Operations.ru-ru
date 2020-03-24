@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: 6efa4466dbf7f5ca1d3945acf15fac65d628d691
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015364"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124551"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Отложить выполнение элементов последовательности в форматах ER
 
@@ -45,7 +45,7 @@ ms.locfileid: "3015364"
 
 Параметр **Отложенное выполнение** неприменим к последовательностям, которые были настроены в виде усеченных последовательностей, для которых максимальная длина ограничивается.
 
-## <a name="Example"></a>Пример: отложить выполнение элемента последовательности в формате ER
+## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Пример: отложить выполнение элемента последовательности в формате ER
 
 Следующие шаги описывают, как пользователь [с ролью](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) системного администратора или консультанта по функциональным возможностям электронной отчетности может настроить формат ER, содержащий элемент последовательности, отличающийся от порядка в иерархии форматов.
 

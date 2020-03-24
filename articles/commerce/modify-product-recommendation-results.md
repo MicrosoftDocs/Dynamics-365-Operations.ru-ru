@@ -1,9 +1,9 @@
 ---
-title: Управление результатами рекомендаций по продукту на основе AI-ML
+title: Корректировка результатов рекомендаций по продукту на основе AI-ML
 description: В этой теме объясняется, как адаптировать результаты рекомендаций продуктов на основе искусственного интеллекта и машинного обучения (AI-ML) для вашего бизнеса.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5da77f71fb2569adc011bb9ee9c8c795d85545f8
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 4631ef03e1d73b70d80e774d1efa4909e619bbc0
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025010"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127936"
 ---
-# <a name="manage-ai-ml-based-product-recommendation-results"></a>Управление результатами рекомендаций по продукту на основе AI-ML
+# <a name="adjust-ai-ml-based-product-recommendation-results"></a>Корректировка результатов рекомендаций по продукту на основе AI-ML
 
 
 [!include [banner](includes/banner.md)]
 
-В этой теме объясняется, как адаптировать результаты рекомендаций продуктов на основе искусственного интеллекта и машинного обучения (AI-ML) для вашего бизнеса. 
+В этой теме объясняется, как корректировать результаты рекомендаций продуктов на основе искусственного интеллекта и машинного обучения (AI-ML) для вашего бизнеса. 
 
 После включения рекомендаций продуктов параметры по умолчанию вступят в силу; эти параметры могут работать для различных нужд. Лучше всего потратить некоторое время, оценивая, насколько результаты соответствуют движениям продаж продуктов. Перед повторным тестированием рекомендуется оценить результаты в течение нескольких дней, прежде чем изменять параметры нужным образом. 
 
@@ -102,10 +102,22 @@ ms.locfileid: "3025010"
 
 [Обзор рекомендаций по продуктам](product-recommendations.md)
 
+[Включение ADLS в среде Dynamics 365 Commerce](enable-adls-environment.md)
+
 [Включить рекомендации по продуктам](enable-product-recommendations.md)
 
 [Включение персонализированных рекомендаций](personalized-recommendations.md)
 
-[Добавление списков рекомендации продуктов на страницы](add-reco-list-to-page.md)
+[Отказ от персонализированных рекомендаций](personalization-gdpr.md)
 
-[Обзор модуля семейства продуктов](product-collection-module-overview.md)
+[Добавление списков рекомендаций на сайт электронной коммерции](add-reco-list-to-page.md)
+
+[Добавление рекомендаций по продуктам в POS](product.md)
+
+[Добавление рекомендаций на экран проводки](add-recommendations-control-pos-screen.md)
+
+[Создание контролируемых рекомендаций вручную](create-editorial-recommendation-lists.md)
+
+[Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
+
+[Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)

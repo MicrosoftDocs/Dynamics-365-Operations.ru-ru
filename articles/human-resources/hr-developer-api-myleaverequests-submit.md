@@ -1,6 +1,6 @@
 ---
 title: Отправка запроса на отпуск в workflow-процесс
-description: ''
+description: В Microsoft Dynamics 365 Human Resources можно воспользоваться API MyLeaveRequests submit(), чтобы отправить запрос на отпуск в workflow-процесс.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 008ee231ca9f0459e332b17cea9f2a3f3e3cc2a5
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010382"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092022"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>Отправка запроса на отпуск в workflow-процесс
 

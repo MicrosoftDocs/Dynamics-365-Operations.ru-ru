@@ -17,11 +17,11 @@ ms.author: anasyash
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 40157a7fc33fecbf241264db7a3de3f93b53903e
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770348"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124345"
 ---
 # <a name="set-up-depreciation-russia"></a>Настройка амортизации (Россия)
 
