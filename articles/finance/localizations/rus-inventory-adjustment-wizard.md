@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8324ba651c44c01b8044f0ccc8b74c677a06b803
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 9d06f7b6177e6a25b7554b0fa19345d0f8343c2c
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031006"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092119"
 ---
 # <a name="inventory-adjustment-wizard"></a>Мастер корректировки запасов
 
@@ -41,7 +41,7 @@ ms.locfileid: "3031006"
 
 Кроме того, прежде чем можно будет выполнять корректировку затрат на номенклатуру во вторичной валюте, убедитесь, что выполнены все необходимые условия при оценке запасов во вторичной валюте (здесь приводятся ссылки на раздел темы о поставке содержимого 148936).
 
-## <a name="adjust-item-cost-using-inventory-adjustment-wizard"></a>Скорректируйте стоимость номенклатуры с помощью мастера корректировки запасов
+## <a name="adjust-item-cost-by-using-the-inventory-adjustment-wizard"></a><a name="adjust-item-cost-using-inventory-adjustment-wizard"></a>Скорректируйте стоимость номенклатуры с помощью мастера корректировки запасов
 
 1. Перейдите **Управление запасами \> Периодические задачи \> Закрытие и коррекция** или **Управление запасами \> Периодические задачи \> Закрытие и коррекция в валюте**.
 2. В области действий выберите **Корректировка \> Мастер**.
@@ -136,7 +136,7 @@ ms.locfileid: "3031006"
     ![Страница функций для вычисления корректирующих сумм](media/7%20Adjustment%20with%20amount.png)
 
 4. Выберите **Далее**.
-5. Выполните оставшиеся шаги корректировки, как описано в разделе [Скорректируйте стоимость номенклатуры с помощью мастера корректировки запасов(#adjust-item-cost-by-using-the-inventory-adjustment-wizard).
+5. Выполните оставшиеся шаги корректировки, как описано в разделе [Скорректируйте стоимость номенклатуры с помощью мастера корректировки запасов](#adjust-item-cost-by-using-the-inventory-adjustment-wizard).
 
 ### <a name="method-for-calculating-an-adjustment-to-a-value"></a>Метод вычисления корректировки с помощью значения
 
@@ -150,7 +150,7 @@ ms.locfileid: "3031006"
     ![Страница функций для вычисления корректирующих сумм](media/8%20Adjustment%20to%20value.png)
 
 4. Выберите **Далее**.
-5.  Выполните оставшиеся шаги корректировки, как описано в разделе [Скорректируйте стоимость номенклатуры с помощью мастера корректировки запасов(#adjust-item-cost-by-using-the-inventory-adjustment-wizard).
+5.  Выполните оставшиеся шаги корректировки, как описано в разделе [Скорректируйте стоимость номенклатуры с помощью мастера корректировки запасов](#adjust-item-cost-by-using-the-inventory-adjustment-wizard).
 
 ### <a name="method-for-calculating-a-percentage-adjustment"></a>Метод для вычисления корректировки с помощью процента
 

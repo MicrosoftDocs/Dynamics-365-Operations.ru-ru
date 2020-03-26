@@ -1,6 +1,6 @@
 ---
 title: Обзор MyLeaveRequests
-description: ''
+description: Объект MyLeaveRequests в Microsoft Dynamics 365 Human Resources предоставляет список запросов отпусков в системе с областью действия (ограниченной) для запросов, доступных текущему пользователю, запрашивающему объект.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66f161d6736b1bb544d02871d9d51b2949b1cfa0
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 4bf3b298af9eb39e03514a4005afb43a42908e47
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010331"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092045"
 ---
 # <a name="myleaverequests-overview"></a>Обзор MyLeaveRequests
 

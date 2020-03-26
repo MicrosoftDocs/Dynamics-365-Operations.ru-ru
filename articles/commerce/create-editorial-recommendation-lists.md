@@ -1,9 +1,9 @@
 ---
-title: Создание списков рекомендаций по продукту
-description: В этой теме объясняется, как менеджер по сбыту может создавать списки продуктов вручную для клиентов Microsoft Dynamics 365 Commerce и управлять ими.
+title: Создание контролируемых рекомендаций вручную
+description: В этой теме объясняется, как менеджер по сбыту может вручную создавать списки продуктов для клиентов Microsoft Dynamics 365 Commerce и управлять ими.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: b39ef61e7dabdd8a53d5666926a95cb7b9e6b9a5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024941"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127729"
 ---
-# <a name="create-curated-product-recommendation-lists"></a>Создание списков рекомендаций по продукту
+# <a name="manually-create-curated-recommendations"></a>Создание контролируемых рекомендаций вручную
 
 [!include [banner](includes/banner.md)]
 
-В этой теме объясняется, как менеджер по сбыту может создавать списки продуктов вручную для клиентов Microsoft Dynamics 365 Commerce и управлять ими.
+В этой теме объясняется, как менеджер по сбыту может вручную создавать списки рекомендаций продуктов для клиентов Microsoft Dynamics 365 Commerce и управлять ими.
 
 Проверенные списки представляют собой наборы отдельных материалов, созданных и проверенных людьми.  
 
@@ -56,8 +56,22 @@ ms.locfileid: "3024941"
 
 [Обзор рекомендаций по продуктам](product-recommendations.md)
 
+[Включение ADLS в среде Dynamics 365 Commerce](enable-adls-environment.md)
+
 [Включить рекомендации по продуктам](enable-product-recommendations.md)
 
-[Добавление списков рекомендации продуктов на страницы](add-reco-list-to-page.md)
+[Включение персонализированных рекомендаций](personalized-recommendations.md)
 
-[Обзор модуля семейства продуктов](product-collection-module-overview.md)
+[Отказ от персонализированных рекомендаций](personalization-gdpr.md)
+
+[Добавление списков рекомендаций на сайт электронной коммерции](add-reco-list-to-page.md)
+
+[Добавление рекомендаций по продуктам в POS](product.md)
+
+[Добавление рекомендаций на экран проводки](add-recommendations-control-pos-screen.md)
+
+[Корректировка результатов рекомендаций на основе искусственного интеллекта и машинного обучения](modify-product-recommendation-results.md)
+
+[Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
+
+[Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)

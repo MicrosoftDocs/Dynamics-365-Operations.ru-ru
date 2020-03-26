@@ -1,9 +1,9 @@
 ---
-title: Расширенная фильтрация и синтаксис запросов
-description: В этой статье описываются параметры фильтрации и запросов, доступные при использовании диалогового окна «Расширенный фильтр/сортировка» или оператора "matches" на панели фильтров или в фильтрах заголовков столбцов сетки.
+title: Расширенный синтаксис фильтрации и запросов
+description: В этой теме описываются параметры фильтрации и запросов, доступные при использовании диалогового окна «Расширенный фильтр/сортировка» или оператора "matches" на панели фильтров или в фильтрах заголовков столбцов сетки.
 author: jasongre
 manager: AnnBe
-ms.date: 01/02/2020
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
-ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
+ms.openlocfilehash: 7a525422a091efe8ea88f42e91dc52488430cfe5
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/02/2020
-ms.locfileid: "2931296"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112199"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Расширенный синтаксис фильтрации и запросов
 
 [!include [banner](../includes/banner.md)]
 
-В этой статье описываются параметры фильтрации и запросов, доступные при использовании диалогового окна «Расширенный фильтр/сортировка» или оператора **"matches"** на панели фильтров или в фильтрах заголовков столбцов сетки.
+В этой теме описываются параметры фильтрации и запросов, доступные при использовании диалогового окна «Расширенный фильтр/сортировка» или оператора **matches** на панели фильтров или в фильтрах заголовков столбцов сетки.
 
 ## <a name="advanced-query-syntax"></a>Синтаксис расширенного запроса
 
@@ -122,13 +122,14 @@ ms.locfileid: "2931296"
 <td>Две последовательные двойные кавычки (<strong>""</strong>) ищут строки без значения для текущего столбца.</td>
 </tr>
 <tr>
-<td>(<span class="code">Оператор SQL</span>) (оператор SQL в скобках)</td>
+<td>(<span class="code">Запрос Finance and Operations</span>) (запрос Finance and Operations между скобками)</td>
 <td>Поиск согласно введенному запросу</td>
-<td>В скобках введите запрос в виде SQL-выражения.</td>
-<td><strong><span class="code">(источник данных.Имя поля != &quot;A&quot;)</span></strong></td>
+<td>Введите запрос в виде SQL-инструкции в скобках, используя язык запросов Finance and Operations.</td>
+  <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
+       как пример синтаксиса для условия фильтра по полю из корневого источника данных, а также по полю из другого источника данных (для страницы "Все клиенты")</td>
 </tr>
 <tr>
-<td>В</td>
+<td>Н</td>
 <td>Сегодняшняя дата</td>
 <td>Введите <strong>T</strong>.</td>
 <td><strong>T</strong> соответствует сегодняшней дате.</td>

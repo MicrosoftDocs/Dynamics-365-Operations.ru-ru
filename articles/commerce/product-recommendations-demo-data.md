@@ -1,9 +1,9 @@
 ---
-title: Ознакомьтесь с рекомендациями по продуктам с помощью демонстрационных данных
+title: Создание рекомендаций с помощью демонстрационных данных
 description: В этом документе приводятся инструкции по использованию омниканальных рекомендаций по продуктам в среде уровня 1 с одним блоком, используя готовые настраиваемые демонстрационные данные.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,17 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042788"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127844"
 ---
-# <a name="get-product-recommendations-using-demo-data"></a>Ознакомьтесь с рекомендациями по продуктам с помощью демонстрационных данных
+# <a name="create-recommendations-with-demo-data"></a>Создание рекомендаций с помощью демонстрационных данных
+
+[!include [banner](includes/banner.md)]
+
 В этом документе приводятся инструкции по использованию омниканальных рекомендаций по продуктам в среде уровня 1 с одним блоком, используя готовые настраиваемые демонстрационные данные.
 
 Омниканальные рекомендации по продуктам предоставляют набор отобранных редактором продуктов или созданный программно список продуктов. Эти списки могут использоваться в нескольких сценариях, в зависимости от потребностей бизнеса. Дополнительные сведения о списках рекомендаций продуктов см. в разделе [Обзор рекомендаций продуктов](product-recommendations.md).
@@ -67,4 +70,22 @@ ms.locfileid: "3042788"
 
 [Обзор рекомендаций по продуктам](product-recommendations.md)
 
-[Планирование среды](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
+[Включение ADLS в среде Dynamics 365 Commerce](enable-adls-environment.md)
+
+[Включить рекомендации по продуктам](enable-product-recommendations.md)
+
+[Включение персонализированных рекомендаций](personalized-recommendations.md)
+
+[Отказ от персонализированных рекомендаций](personalization-gdpr.md)
+
+[Добавление списков рекомендаций на сайт электронной коммерции](add-reco-list-to-page.md)
+
+[Добавление рекомендаций по продуктам в POS](product.md)
+
+[Добавление рекомендаций на экран проводки](add-recommendations-control-pos-screen.md)
+
+[Корректировка результатов рекомендаций на основе искусственного интеллекта и машинного обучения](modify-product-recommendation-results.md)
+
+[Создание контролируемых рекомендаций вручную](create-editorial-recommendation-lists.md)
+
+[Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)

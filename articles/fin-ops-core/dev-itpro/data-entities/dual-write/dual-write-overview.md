@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 12c6a39700a260c138fab67ed370f94b3aa04213
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: c4a643d4981364cea5b549118c201ac8a9798e02
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076001"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113882"
 ---
 # <a name="dual-write-overview"></a>Обзор двойной записи
 
@@ -105,4 +105,4 @@ ms.locfileid: "3076001"
     - При этом будет поддерживаться обменный курс и валютный курс, а API-интерфейс **Валютный курс** будет пересмотрен.
     - Пересчет единиц измерения будет поддерживаться.
 
-Дополнительные сведения о предстоящих изменениях см. в разделе [Данные в Common Data Service — этап 1 и 2](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/extensibility/extensibility-roadmap).
+Дополнительные сведения о предстоящих изменениях см. в разделе [Данные в Common Data Service — этап 1 и 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/finance-operations-crossapp-capabilities/data-common-data-service-phase-1).

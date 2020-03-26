@@ -3,7 +3,7 @@ title: Включение ADLS в среде Dynamics 365 Commerce
 description: В этой теме объясняется, как включить и проверить Azure Data Lake Storage (ADLS) для среды Dynamics 365 Commerce, что является необходимым условием для включения рекомендаций по продукту.
 author: bebeale
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 068eb522bd44e02dd31d3337a051691a956637fc
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 553e1512ba72559923403eef741ce08222172a09
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025275"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127775"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>Включение ADLS в среде Dynamics 365 Commerce
 
@@ -95,8 +95,22 @@ ms.locfileid: "3025275"
 
 [Включить рекомендации по продуктам](enable-product-recommendations.md)
 
-[Добавление списков рекомендации продуктов на страницы](add-reco-list-to-page.md)
+[Включение персонализированных рекомендаций](personalized-recommendations.md)
 
-[Добавление элемента управления рекомендациями на экране проводки на устройствах POS](../retail/add-recommendations-control-pos-screen.md?toc=/dynamics365/commerce/toc.json)
+[Отказ от персонализированных рекомендаций](personalization-gdpr.md)
+
+[Добавление списков рекомендаций на сайт электронной коммерции](add-reco-list-to-page.md)
+
+[Добавление рекомендаций по продуктам в POS](product.md)
+
+[Добавление рекомендаций на экран проводки](add-recommendations-control-pos-screen.md)
+
+[Корректировка результатов рекомендаций на основе искусственного интеллекта и машинного обучения](modify-product-recommendation-results.md)
+
+[Создание контролируемых рекомендаций вручную](create-editorial-recommendation-lists.md)
+
+[Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
+
+[Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)
 
 

@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: df89febdd098543bcc647a68c5aa9852cfee1f98
-ms.sourcegitcommit: 7826df6c1d3d350c80cb6bca882b26828e8b854a
+ms.openlocfilehash: 32a0ae50a8cf51e7d2a574cf5a85b353a4995335
+ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031128"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3133980"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -68,24 +68,36 @@ ms.locfileid: "3031128"
 - [Восстановление входящего НДС](rus-incoming-VAT-restoring.md)
 
 ## <a name="fixed-assets-russia"></a>Основные средства (Россия)
-- [Основные средства (Россия)](rus-fixed-assets.md)
 - [Обзор основных средств](rus-fixed-assets-overview.md)
+
+### <a name="set-up-fixed-assets"></a>Настройка основных средств
 - [Настройка основных средств](rus-set-up-fixed-assets.md)
-- [Приобретение ОС и их ввод в эксплуатацию](rus-fixed-asset-acquisition.md)
-- [Регистрация приобретений основных средств](rus-register-acquisition.md)
-- [Создание и разноска журналов бюджета для приобретений ОС](rus-post-budget-fixed-asset-acquisition.md)
-- [Инвентаризация ОС](rus-fixed-assets-counting.md)
-- [Переоценка ОС в иностранной валюте](rus-fixed-asset-currency-revaluation.md)
-- [Ведение основных средств](rus-maintain-fixed-assets.md)
-- [Переоценка стоимости основных средств и амортизация](rus-fixed-assets-revaluation.md)
-- [Частичная разборка ОС (ликвидация)](rus-fixed-assets-disassembly.md)
-- [Продажа, выбытие и списание ОС](rus-sell-dispose-write-off-fixed-assets.md)
-- [Настройка расположений основных средств и нумерация](rus-fixed-assets-locations-numbering.md)
 - [Настройка амортизации](rus-depreciation-setup.md)
 - [Методы амортизации](rus-depreciation-methods.md)
 - [Амортизационные премии](rus-bonus-depreciation.md)
+- [Настройка расположений основных средств и нумерация](rus-fixed-assets-locations-numbering.md)
+
+### <a name="working-with-fixed-assets"></a>Работа с ОС
+- [Создание основных средств (Россия)](rus-fixed-assets.md)
+- [Регистрация приобретений основных средств](rus-register-acquisition.md)
+- [Приобретение ОС и их ввод в эксплуатацию](rus-fixed-asset-acquisition.md)
 - [Расчет амортизации](rus-depreciation-calculation.md)
+- [Частичная разборка ОС (ликвидация)](rus-fixed-assets-disassembly.md)
+- [Продажа, выбытие и списание ОС](rus-sell-dispose-write-off-fixed-assets.md)
+- [Создание аренды и окончании аренды основных средств](rus-fixed-asset-leasing.md)
+- [Ведение основных средств](rus-maintain-fixed-assets.md)
+- [Инвентаризация ОС](rus-fixed-assets-counting.md)
+- [Переоценка ОС в иностранной валюте](rus-fixed-asset-currency-revaluation.md)
+- [Переоценка стоимости основных средств и амортизация](rus-fixed-assets-revaluation.md)
+- [Создание и разноска журналов бюджета для приобретений ОС](rus-post-budget-fixed-asset-acquisition.md)
 - [Перенос основных средств](rus-fixed-asset-transfer.md)
+
+### <a name="not-valuable-fixed-assets-and-working-clothes"></a>Малоценные основные средства и спецодежда
+- [Малоценные основные средства](rus-not-valuable-assets.md)
+- [Спецодежда/спецоснастка](rus-working-clothes-instruments-accounting.md)
+
+### <a name="printing-forms"></a>Формы печати
+- [Печать форм для основных средств](printing-forms-fixed-assets.md)
 
 ## <a name="accounts-payable-and-receivable"></a>Расчеты с поставщиками и клиентами
 - [Корректировки кредит-нот](rus-credit-note-correction.md)
@@ -99,6 +111,9 @@ ms.locfileid: "3031128"
   - [Настройка и создание договоров](rus-set-up-and-create-agreements.md)
   - [Регистрация проводок со ссылками на договоры](rus-register-transactions-with-reference-to-agreements.md)
   - [Запросы и отчеты с договорами](rus-inquiries-reports-agreements.md)
+- [Проводки через посредников](rus-transactions-through-intermediary.md)
+  - [Покупки по комиссии](rus-purchases-on-commission.md)
+  - [Продажи по комиссии](rus-sales-on-commission.md)
 
 
 ## <a name="inventory"></a>Запасы

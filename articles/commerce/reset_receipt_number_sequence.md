@@ -3,7 +3,7 @@ title: Сброс номеров чеков
 description: В этом разделе описывается, как сбросить номера чеков, которые используются для различных действий, на желаемую дату (например, финансовый год или календарный год).
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,17 +19,17 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: e81ff86a8b8a4dca6b14a21d6e982b03a928d29e
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
+ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020086"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3123954"
 ---
 # <a name="reset-receipt-numbers"></a>Сброс номеров чеков 
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Розничные продавцы формируют номера чеков для различных действий в магазине, таких как наличные деньги и выполнение проводок, проводки возврата, заказы клиентов, предложения и платежи. Хотя розничные продавцы задают собственные форматы чеков, в некоторых странах и регионах действуют ограничения на эти форматы чеков. Например, такие постановления могут ограничивать количество символов в чеке, требовать последовательных номеров чеков, ограничивать специальные символы или требовать сброса номеров чеков в начале года. Microsoft Dynamics 365 Commerce делает процесс управления номерами чеков очень гибким, чтобы помочь продавцам обеспечить соответствие нормативным требованиям. В этой теме объясняется, как использовать функции для сброса номеров чека.
 

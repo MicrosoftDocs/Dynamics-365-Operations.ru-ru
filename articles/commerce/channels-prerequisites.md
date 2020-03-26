@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8a0927f6ee9b2d5bed1327bb223ceca85ecc16a0
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 0da0457240cf12686fff2fa929c7fb510c11f242
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081323"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113790"
 ---
 # <a name="channel-setup-prerequisites"></a>Необходимые условия для настройки каналов
 
@@ -47,9 +47,9 @@ ms.locfileid: "3081323"
 - [Определение и настройка структуры юридического лица](channels-legal-entities.md) 
 - [Настройка своей организационной иерархии](channels-org-hierarchies.md)
 - [Настройка склада](channels-setup-warehouse.md)
-- [Настройка налога](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
+- [Настройка налога](../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/commerce/toc.json)
 - [Настройка профиля уведомлений по электронной почте](email-notification-profiles.md)
-- [Настройка номерных серий](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
+- [Настройка номерных серий](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/commerce/toc.json)
 - [Настройка клиента по умолчанию и адресной книги](default-customer.md)
 <!--
 - [Configure commerce parameters](commerce-parameters.md)

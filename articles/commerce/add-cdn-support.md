@@ -3,7 +3,7 @@ title: Добавление поддержки сети доставки кон�
 description: В этом разделе описывается, как добавить сеть доставки содержимого (CDN) в среду Microsoft Dynamics 365 Commerce.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bf5a0da2803f985e6c0c04dd9916977397173d11
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 23ac9d8844c2a8ae20bd316c40078319601a3a4d
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001630"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096733"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Добавление поддержки сети доставки контента (CDN)
 
@@ -144,12 +144,20 @@ ms.locfileid: "3001630"
 
 [Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
 
+[Настройка канала интернет-магазина](online-stores.md)
+
 [Создание сайта электронной коммерции](create-ecommerce-site.md)
 
 [Связывание веб-сайта с каналом](associate-site-online-store.md)
 
 [Управление файлами robots.txt](manage-robots-txt-files.md)
 
+[Пакетная отправка перенаправлений URL-адресов](upload-bulk-redirects.md)
+
+[Настройка клиента B2C в Commerce](set-up-B2C-tenant.md)
+
 [Настройка специальных страниц для входа пользователей](custom-pages-user-logins.md)
+
+[Настройка нескольких клиентов B2C в среде Commerce](configure-multi-B2C-tenants.md)
 
 [Включение обнаружения магазинов на основе местоположения](enable-store-detection.md)

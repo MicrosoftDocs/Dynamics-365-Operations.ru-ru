@@ -1,6 +1,6 @@
 ---
-title: Обеспечение Управление персоналом
-description: ''
+title: Обеспечение Human Resources
+description: В этой статье содержится пошаговое описание процесса подготовки новой производственной среды для Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/18/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071622"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092254"
 ---
-# <a name="provision-human-resources"></a>Обеспечение Управление персоналом
+# <a name="provision-human-resources"></a>Обеспечение Human Resources
 
 В этой статье содержится пошаговое описание процесса подготовки новой производственной среды для Microsoft Dynamics 365 Human Resources. В этой статье предполагается, что вы приобрели Управление персоналом в соответствии с соглашением поставщика облачных решений (CSP) или архитектуры предприятия (EA). Если имеется существующая лицензия Microsoft Dynamics 365, которая уже включает план обслуживания Управление персоналом, но вы не можете выполнить действия, описанные в этой статье, обратитесь в службу поддержки.
 

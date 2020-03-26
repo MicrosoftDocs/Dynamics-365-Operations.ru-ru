@@ -1,9 +1,9 @@
 ---
-title: Рекомендации продуктов в POS
+title: Добавление рекомендаций по продуктам в POS
 description: В этом разделе описывается использование рекомендаций продуктов на POS-терминале.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bfb13904b774558907b29e74158b1e0a193e17cd
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 48533596c5bdc73dd8c815166e7dde0ca2f3cb4d
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057449"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127821"
 ---
-# <a name="product-recommendations-on-pos"></a>Рекомендации по продуктам на POS
+# <a name="add-product-recommendations-on-pos"></a>Добавление рекомендаций по продуктам в POS
 
 [!include [banner](includes/banner.md)]
 
@@ -71,8 +71,24 @@ ms.locfileid: "3057449"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Добавление элемента управления рекомендациями на экране проводки на устройствах POS](add-recommendations-control-pos-screen.md)
+[Обзор рекомендаций по продуктам](product-recommendations.md)
 
-[Обзор рекомендаций по продуктам](../commerce/product-recommendations.md)
+[Включение ADLS в среде Dynamics 365 Commerce](enable-adls-environment.md)
 
-[Включить рекомендации по продуктам](../commerce/enable-product-recommendations.md) 
+[Включить рекомендации по продуктам](enable-product-recommendations.md)
+
+[Включение персонализированных рекомендаций](personalized-recommendations.md)
+
+[Отказ от персонализированных рекомендаций](personalization-gdpr.md)
+
+[Добавление списков рекомендаций на сайт электронной коммерции](add-reco-list-to-page.md)
+
+[Добавление рекомендаций на экран проводки](add-recommendations-control-pos-screen.md)
+
+[Корректировка результатов рекомендаций на основе искусственного интеллекта и машинного обучения](modify-product-recommendation-results.md)
+
+[Создание контролируемых рекомендаций вручную](create-editorial-recommendation-lists.md)
+
+[Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
+
+[Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)

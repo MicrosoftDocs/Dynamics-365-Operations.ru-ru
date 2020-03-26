@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
+ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004027"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095625"
 ---
 # <a name="product-identifiers"></a>Идентификаторы продуктов 
 
@@ -43,9 +43,6 @@ ms.locfileid: "3004027"
 При реализации Supply Chain Management следует уделять особое внимание стратегии для номеров продуктов. Хорошая система нумерации улучшает потоки снабжения и позволяет избежать ошибок. Хороший идентификатор продукта содержит не более 15 символов. В идеальном случае он содержит менее 10 символов и включает не более пяти классификационных символов. Можно также использовать краткие наименования для обеспечения быстрого поиска. Краткое наименование — это дополнительное имя, представляющее классификации продукта.
 
 При использовании Common Data Service номер продукта в Supply Chain Management также является номером продукта в Common Data Service. Варианты продуктов синхронизируются в службе Common Data Service как уникально идентифицируемые продукты.
-
-> [!NOTE]
-> Номер продукта не может начинаться с "%".
 
 ## <a name="item-number-and-product-dimensions"></a>Код номенклатуры и аналитики продукта
 

@@ -22,6 +22,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
                 - name: Применение обновлений к облачным средам
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: Применение обновлений к локальным развертываниям
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Настройка обновлений службы
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Приостановка обновлений службы
@@ -60,7 +62,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
                 - name: Требования к системе для локальных развертываний
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
-                - name: Действия по установке для компонентов канала розничной торговли в локальной среде
+                - name: Действия по установке для компонентов канала Retail в локальной среде
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Покупка Finance and Operations (локальная версия)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
@@ -84,12 +86,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.10 (май 2020 г.)
+                      href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce 10.0.9 (апрель 2020 г.)
                       href: get-started/whats-new-10-0-9.md
                     - name: Commerce 10.0.8 (февраль 2020 г.)
                       href: get-started/whats-new-10-0-8.md
-                    - name: Retail 10.0.7 (январь 2020 г.)
-                      href: get-started/whats-new-10-0-7.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Удаленные или устаревшие функции Finance and Operations
@@ -336,6 +338,8 @@
                       href: pos-operations.md
                     - name: Активация устройства настраиваемого Modern POS
                       href: dev-itpro/retail-POS-activation-changes.md
+                    - name: Включение проверки подлинности Azure Active Directory для входа на POS-терминал
+                      href: aad-pos-logon.md
                     - name: Макеты экрана демонстрационных данных в MPOS и Cloud POS
                       href: demo-data.md
                     - name: Поиск продуктов и клиентов в POS
@@ -368,6 +372,8 @@
                           href: dev-itpro/retail-peripheral-simulator.md
                         - name: Подключение периферийных устройств к POS
                           href: define-maintain-channel-clients-registers-hw-stations.md
+                        - name: Проверка работоспособности для периферийных устройств и служб POS-терминалов
+                          href: pos-healthcheck.md
                     - name: Макеты экрана
                       items:
                         - name: Макеты экрана демонстрационных данных в MPOS/CPOS
@@ -518,7 +524,7 @@
                       href: create-variant-group.md
                 - name: Создание нового продукта
                   items:
-                    - name: Создание обзора нового продукта
+                    - name: Создание нового продукта в Commerce
                       href: create-new-product.md
                     - name: Управление продуктами и категориями продуктов
                       href: category-management-product-creation.md
@@ -570,6 +576,8 @@
                   href: retail-shipping-discount.md
                 - name: Настройка купонов
                   href: retail-coupons.md
+                - name: Отображение скидок в POS
+                  href: discounts-pos.md
                 - name: Отчеты по ценам
                   href: price-report.md
                 - name: Создание коммерческих соглашений для определенных каналов
@@ -582,8 +590,6 @@
                   href: product-recommendations.md
                 - name: Включение ADLS в среде Dynamics 365 Commerce
                   href: enable-ADLS-environment.md
-                - name: Добавление списков рекомендаций по продуктам на страницы электронной коммерции
-                  href: add-reco-list-to-page.md
                 - name: Включение рекомендаций по продуктам
                   href: enable-product-recommendations.md
                 - name: Персонализированные рекомендации
@@ -592,20 +598,22 @@
                       href: personalized-recommendations.md
                     - name: Отказ от персонализированных рекомендаций
                       href: personalization-gdpr.md
-                - name: Создание списков рекомендаций по продуктам
-                  href: create-editorial-recommendation-lists.md
-                - name: Управление результатами рекомендаций по продукту на основе AI-ML
+                - name: Добавление списков рекомендаций на сайт электронной коммерции
+                  href: add-reco-list-to-page.md
+                - name: Опыт использования POS
+                  items:
+                    - name: Добавление рекомендаций по продуктам в POS
+                      href: product.md
+                    - name: Добавление рекомендаций на экран проводок
+                      href: add-recommendations-control-pos-screen.md
+                - name: Настройка результатов рекомендаций по продуктам на основе искусственного интеллекта и машинного обучения
                   href: modify-product-recommendation-results.md
-                - name: Ознакомьтесь с рекомендациями по продуктам с помощью демонстрационных данных
+                - name: Создание курируемых рекомендаций по продуктам вручную
+                  href: create-editorial-recommendation-lists.md
+                - name: Создание рекомендаций с использованием демонстрационных данных
                   href: product-recommendations-demo-data.md
                 - name: Вопросы и ответы по рекомендациям по продуктам
                   href: faq-recommendations.md
-                - name: Опыт использования POS
-                  items:
-                    - name: Рекомендации по продуктам на POS
-                      href: product.md
-                    - name: Добавление элемента управления рекомендациями на экране проводки на устройствах POS
-                      href: add-recommendations-control-pos-screen.md
             - name: Оценки и отзывы
               items:
                 - name: Обзор оценок и отзывов
@@ -656,6 +664,8 @@
               items:
                 - name: Создание заказа в центре обработки вызовов
                   href: tasks/create-call-center-orders.md
+                - name: Изменение режима доставки в POS
+                  href: POS-change-delivery-mode.md
             - name: Распределенное управление заказами
               items:
                 - name: Обзор распределенного управления заказами
@@ -768,11 +778,17 @@
                   href: associate-site-online-store.md
                 - name: Управление файлами robots.txt
                   href: manage-robots-txt-files.md
-                - name: Настройка специальных страниц для входа пользователей
+                - name: Пакетная отправка перенаправлений URL-адресов
+                  href: upload-bulk-redirects.md
+                - name: Настройка клиента B2C в модуле Commerce
+                  href: set-up-B2C-tenant.md
+                - name: Настройка пользовательских страниц для входа пользователей
                   href: custom-pages-user-logins.md
-                - name: Добавление поддержки сети доставки контента (CDN)
+                - name: Настройка нескольких клиентов B2C в среде Commerce
+                  href: configure-multi-B2C-tenants.md
+                - name: Добавление поддержки сети доставки содержимого (CDN)
                   href: add-cdn-support.md
-                - name: Включение обнаружения магазинов на основе местоположения
+                - name: Включение обнаружения магазинов на основе местонахождения
                   href: enable-store-detection.md
             - name: Обзор примера сайта
               items:
@@ -864,6 +880,20 @@
                       href: customize-site-navigation.md
                     - name: Создание URL-адреса страницы
                       href: create-page-URL.md
+            - name: Управление цифровыми активами
+              items:
+                - name: Обзор управления цифровыми активами
+                  href: dam-overview.md
+                - name: Отправка изображений
+                  href: dam-upload-images.md
+                - name: Отправка видео
+                  href: dam-upload-video.md
+                - name: 'Отправка файлов, отличных от изображений и видео'
+                  href: dam-upload-files.md
+                - name: Кадрирование изображений
+                  href: dam-crop-images.md
+                - name: Настройка точек фокуса изображения
+                  href: dam-custom-focal-point.md
             - name: Обеспечение соответствия сайта
               items:
                 - name: Обзор соответствия
@@ -1828,6 +1858,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Настройка файла среды разработки (.env)
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: Настройка совместного использования кода Azure DevOps и создание конвейера сборки
+                      href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Обзор платформы
                   items:
                     - name: Обзор архитектуры
@@ -1910,8 +1942,12 @@
                       href: e-commerce-extensibility/batch-data-actions.md
                     - name: Наблюдаемые действия с данными
                       href: e-commerce-extensibility/create-observable-data-action.md
-                    - name: Распределить состояние между модулями
+                    - name: Распределение состояния между модулями
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Переопределение действий с данными
+                      href: e-commerce-extensibility/data-action-overrides.md
+                    - name: Обработчики действий с данными
+                      href: e-commerce-extensibility/data-action-hooks.md
                 - name: Разработка тем
                   items:
                     - name: Обзор тематического оформления
@@ -2062,6 +2098,8 @@
                   href: dev-itpro/commerce-application-insights.md
                 - name: Создание асинхронных интерфейсов API Commerce (CRT) в бизнес-логике
                   href: dev-itpro/async-commerce-extension.md
+                - name: Предварительно расширенные столбцы в базе данных канала
+                  href: dev-itpro/extended-columns.md
             - name: Расширяемость соединителя платежей
               items:
                 - name: Создание интеграции платежей для терминала оплаты

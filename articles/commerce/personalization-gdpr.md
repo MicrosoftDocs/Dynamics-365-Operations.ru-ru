@@ -3,7 +3,7 @@ title: Отказ от персонализированных рекоменда
 description: В этой теме объясняется, как предоставить клиентам возможность отказаться от получения персонализированных рекомендаций в Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 01/28/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8e7b800218f68167901d86d61ae483680a04cfab
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: a6d2388e863135c2b6d51af915b606a56f0603a8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025276"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127752"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Отказ от персонализированных рекомендаций
 
@@ -85,12 +85,22 @@ ms.locfileid: "3025276"
 
 [Обзор рекомендаций по продуктам](product-recommendations.md)
 
+[Включение ADLS в среде Dynamics 365 Commerce](enable-adls-environment.md)
+
 [Включить рекомендации по продуктам](enable-product-recommendations.md)
 
 [Включение персонализированных рекомендаций](personalized-recommendations.md)
 
-[Добавление списков рекомендации продуктов на страницы](add-reco-list-to-page.md)
+[Добавление списков рекомендаций на сайт электронной коммерции](add-reco-list-to-page.md)
 
-[Добавление панели рекомендаций к POS-устройствам](add-recommendations-control-pos-screen.md)
+[Добавление рекомендаций по продуктам в POS](product.md)
 
-[Обзор модуля семейства продуктов](product-collection-module-overview.md)
+[Добавление рекомендаций на экран проводки](add-recommendations-control-pos-screen.md)
+
+[Корректировка результатов рекомендаций на основе искусственного интеллекта и машинного обучения](modify-product-recommendation-results.md)
+
+[Создание контролируемых рекомендаций вручную](create-editorial-recommendation-lists.md)
+
+[Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
+
+[Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)

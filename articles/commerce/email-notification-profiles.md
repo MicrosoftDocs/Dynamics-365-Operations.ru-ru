@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 9e5d90eaf1815bbe54b0bea40d92a0a993a23b75
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057622"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113813"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Настройка профиля уведомлений по электронной почте
 
@@ -35,7 +35,7 @@ ms.locfileid: "3057622"
 
 Перед созданием каналов необходимо настроить профиль, чтобы гарантировать, что уведомления электронной почты могут быть отправлены для различных событий, таких как создание заказа, статус доставки заказа и сбой оплаты.
 
-Дополнительные сведения о настройке электронной почты см. в разделе [Настройка и отправка сообщений электронной почты](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email).
+Дополнительные сведения о настройке электронной почты см. в разделе [Настройка и отправка сообщений электронной почты](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="create-an-email-notification-profile"></a>Создание профиля уведомлений по электронной почте
 
@@ -84,7 +84,7 @@ ms.locfileid: "3057622"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Настройка и отправка электронной почты](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email)
+[Настройка и отправка электронной почты](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)
 
 [Обзор каналов](channels-overview.md)
 

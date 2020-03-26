@@ -1,6 +1,6 @@
 ---
 title: Процесс обновления
-description: ''
+description: Microsoft Dynamics 365 Human Resources — это действительное программное обеспечение как услуга (SaaS), которое обеспечивает непрерывное обновление служб для изменений приложения и платформы.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1817e072805bafbf0d5a9eb2698ef75abc75ad68
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 267682f4497bacf70f93840a948d0e525dfa4aa1
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031098"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092209"
 ---
 # <a name="update-process"></a>Процесс обновления
 
