@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f5cb4afdc0285a6ccf28dbd362df3799c0ecc74
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb84d3b1908d6be889a49f7386de876cb52141ab
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555847"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149052"
 ---
 # <a name="end-a-production-order"></a>Завершение производственного заказа
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Следующая процедура используется для завершения производственного заказа. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Это последняя из семи процедур, которая объясняет жизненный цикл производственного заказа.
 

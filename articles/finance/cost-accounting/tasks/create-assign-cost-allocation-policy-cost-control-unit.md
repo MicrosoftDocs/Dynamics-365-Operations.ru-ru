@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f0422a9aaf95184b556293bf6ebcaf4dcfb5b59
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0a4ba39b5dbba20a58066054da2e24613381cfaa
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179597"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144451"
 ---
 # <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a>Создание и назначение политик распределения затрат единицам управления затратами
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Эта процедура используется для создания политики распределения затрат с соответствующими правилами и ее назначения единице управления затратами. В этой записи используется компания с демонстрационными данными USP2.
 

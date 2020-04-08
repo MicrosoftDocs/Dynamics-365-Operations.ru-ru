@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e311d3e033168ed577094e94477e7fe47d185d
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 9bd90767af741760b1fbd3fd5c2b4cbbae95a477
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914938"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146407"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Отгрузка заказов на продажу без складирования
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой теме объясняется способ обновления заказа на продажу, когда продукты отгружены клиенту. Руководство применимо к потоку выполнения, который не был настроен для управления складом (ни основное, ни расширенное управление складом), и поэтому не требует регистрации комплектации продукта перед отгрузкой. Эту процедуру можно выполнить со своими данными или с демонстрационными данными USMF. В обоих случаях перед началом этой задачи создайте заказ на продажу для инвентаризованного продукта с количеством более 1. Чтобы избежать ошибок разноски, необходимо проверить, что количество продукта в наличии на сайте или складе, выбранном в заказе, охватывает количество по заказу.
 

@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 523f6414ec212aef48eece487f4199ea2cf4b87e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5dfd5655ecdfa74d75490b0915c4cea609baebe3
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836165"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146518"
 ---
 # <a name="validate-a-production-flow-and-version"></a>Проверка производственного потока и версии
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Эта процедура показывает, как создать новый производственный поток и первую версию для бережливого производства. Необходимые условия: должны быть определены производственные параметры для бережливого производства и единицы измерения для времени класса. Необходимо определить поток создания ценности и производственную группу. Для ознакомления с принципами производственных потоков и мероприятий см. официальные документы по бережливому производству. К этой процедуре в демонстрационных данных относится юридическое лицо USMF. Однако можно использовать и другие юридические лица при условии, что юридическое лицо настроено для бережливого производства.
 

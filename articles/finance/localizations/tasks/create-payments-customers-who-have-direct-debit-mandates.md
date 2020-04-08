@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 129c5291a29994f91ef325aa9b9a3b54a0e958d6
-ms.sourcegitcommit: 807dec193cd163c9f5d949e744cfde40f2eb24b4
+ms.openlocfilehash: 9a4714f1f1b24554684219fc1d766b4b87cff7bb
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2468963"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141611"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>Создание платежей для клиента с поручениями на безакцептное списание
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой процедуре демонстрируется создание файла платежа прямого дебетования ISO20022 для клиента, для которого настроено прямое дебетование и накладная, подлежащая оплате. Создание и разноска накладной не являются обязательными. Вместо задания накладной, подлежащей оплате, можно выбрать поручение в журнале перед созданием файла платежа для поддержки сценарий предоплаты клиента.
 

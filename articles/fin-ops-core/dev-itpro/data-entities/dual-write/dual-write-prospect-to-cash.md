@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 249fde6f7bba5d6e0bc6cfde62fd792dee3f1301
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112506"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172816"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Продажа перспективному клиенту в случае двойной записи
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
 
 Важной целью большинства компаний является преобразование перспективных клиентов в клиентов и последующее построение долговременных деловых отношений с этими клиентами. В приложениях Microsoft Dynamics 365 обработка перспективных клиентов осуществляется с помощью предложений с расценками или рабочих процессов обработки заказов, и финансовые средства выверяются и опознаются. Интеграция продажи перспективному клиенту с двойной записью создает рабочий процесс, который принимает предложение с расценками и заказ, исходящий из Dynamics 365 Sales или Dynamics 365 Supply Chain Management, и делает предложение с расценками и заказ доступными в обоих приложениях.
 

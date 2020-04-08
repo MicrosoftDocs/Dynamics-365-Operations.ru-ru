@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b73282abd2df92b3f466f7c1c6c210173001fd7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 57081b9e737373641cd9d884919d03dcf62a2ffe
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023784"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140663"
 ---
 # <a name="store-configurations-for-retail-statements"></a>Конфигурации магазинов для журналов операций розничной торговли
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Эта процедура показывает процесс настройки параметров розничного магазина, которые влияют на то, как создаются и разносятся журналы операций Commerce. Финансовые аналитики рассматриваются в другой процедуре. В данной процедуре используется демонстрационная компания USRT.
 

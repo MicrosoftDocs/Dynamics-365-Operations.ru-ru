@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769863"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142140"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>Электронная отчетность — Разработка конфигурации для создания отчетов в формате OPENXML (ноябрь 2016 г.)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В это теме поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может создать новую конфигурацию электронной отчетности, содержащую шаблон для создания электронных документов в формате OPENXML. Эта конфигурация будет использоваться для обработки платежей поставщикам.
 
@@ -55,7 +55,7 @@ ms.locfileid: "2769863"
 3. Выберите **Создать конфигурацию**, чтобы открыть ниспадающее диалоговое окно.
 4. В поле **Создать** введите `Format based on data model PaymentModel`'. Создайте формат, основанный на модели данных PaymentModel.
 5. В поле **Имя** введите `Sample worksheet report`. Пример отчета о листе  
-6. В поле **Описание** введите `Sample worksheet report for vendors’ payments`. Пример отчета о листе для платежей поставщиков.  
+6. В поле **Описание** введите `Sample worksheet report for vendors' payments`. Пример отчета о листе для платежей поставщиков.  
 7. В поле **Определение модели данных** введите или выберите значение. Выберите определение **CustomerCreditTransferInitiation**.  
 8. Выберите **Создать конфигурацию**.
 

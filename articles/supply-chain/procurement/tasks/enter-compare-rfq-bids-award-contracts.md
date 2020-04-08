@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: faef2a347886b0efe5066a5d5a9c9572070f1d07
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 888b8ea8a4ca0c48706442308309588bf25d47d9
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838030"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149558"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Ввод и сравнение предложений по запросу предложения и заключение контрактов
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой теме объясняется, как ввести ответы на запрос предложения, поставить оценку и сравнить предложения, а затем отдать контракт одному из поставщиков. Эту процедуру можно выполнить, используя компанию с демонстрационными данными **USMF**.
 

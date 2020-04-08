@@ -3,7 +3,7 @@ title: Вопросы и ответы по рекомендациям по пр�
 description: В этой теме приводятся сведения о процессах и инструментах, которые можно использовать для устранения неполадок, связанных с рекомендациями по продуктам или их результатами.
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3add4e2e0d5cc16b561b808aacf5cef94fea5ae5
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: 2e30d29516dff6b2128e21bfa6e449e396884d00
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127798"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154398"
 ---
 # <a name="product-recommendations-faq"></a>Вопросы и ответы по рекомендациям по продуктам
 
@@ -88,8 +88,6 @@ ms.locfileid: "3127798"
 [Включение персонализированных рекомендаций](personalized-recommendations.md)
 
 [Отказ от персонализированных рекомендаций](personalization-gdpr.md)
-
-[Добавление списков рекомендаций на сайт электронной коммерции](add-reco-list-to-page.md)
 
 [Добавление рекомендаций по продуктам в POS](product.md)
 

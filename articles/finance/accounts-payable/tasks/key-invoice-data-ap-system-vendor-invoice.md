@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22df9b71c6809e7633b7d573e6992be9d868cbac
-ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
+ms.openlocfilehash: f80c88b7fb3542f624d233f670cd7cd6ccd48b94
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "3000230"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143934"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Ключевые сведения по накладной в системе расчетов с поставщиками с использованием накладной поставщика
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Этот проводник по задаче поможет вам создать накладную поставщика из заказа на покупку и просмотреть результаты сопоставления заказа на покупку, поступления и накладной (трехстороннее сопоставление).
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 534e9c9332c107afebd814cf2090ecbdf0ec6459
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: d23030b79670e31cc237b9ca53b0b3881678786f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914707"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149834"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Настройка ценообразования на основе атрибутов для настраиваемых продуктов
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой теме показано, как настроить ценообразование на основе атрибутов. В качестве предварительного условия необходимо иметь модель конфигурации продукта, которая содержит один или несколько компонентов и атрибутов. В этом примере использует модель динамика класса Hi-End в демонстрационных данных компании USMF. Обычно менеджер по продуктам использует эту процедуру.
 

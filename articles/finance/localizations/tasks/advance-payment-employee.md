@@ -16,16 +16,16 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cfc03cb9dc35a27f99b740da181fe54aa2e684d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1fe975f802a8d8080a306d9ac1cedb377f280690
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175204"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137984"
 ---
 # <a name="eeu-00047-advance-payment-to-employee"></a>EEU-00047 Авансовый платеж сотруднику
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Эта процедура демонстрирует, как настраивать и регистрировать проводки для подотчетного лица. Эта процедура была создана с использованием компании с демонстрационными данными DEMF с основным адресом в Литве. Эта задача работает только для юридических лиц с основным адресом в Польше, Литве, Латвии, Эстонии, Чехии или Венгрии. Эта процедура для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
 

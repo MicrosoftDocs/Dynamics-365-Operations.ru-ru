@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 227a6865df826caf8ce154f9c44ebe082acd76a5
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 473bb133159bb6cdcbbd30ab2c8452eb69f8cfaf
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916752"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148211"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Настройка рабочего шаблона для заказов на покупку
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой теме описывается настройка простого шаблона работы, который следует использовать при размещении полученных номенклатур. Шаблоны работы определяют набор инструкций, представленных работнику склада на мобильном устройстве при перемещении номенклатур из зоны получения. Эту процедуру можно использовать с данными в компании с демонстрационными данными USMF. Перед началом этого руководства создайте код пула работы. В этом примере используется код пула работы с названием "Входящие". Эта процедура предназначена для менеджера склада.
 

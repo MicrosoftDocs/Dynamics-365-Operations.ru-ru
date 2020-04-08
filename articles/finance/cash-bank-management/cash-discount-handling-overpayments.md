@@ -1,5 +1,5 @@
 ---
-title: Обработка скидок по оплате наличными для переплат
+title: Скидки по оплате для переплат
 description: В этой статье приведены сценарии, показывающие как платежа обрабатывается, когда клиент принимает скидку по оплате, но также переплачивает.
 author: ShylaThompson
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 803cb478bb7631439ebde66ad96182193d3dd1ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e2fafe2fba9dd71fc09c60bfa20d72fa59510b7f
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188357"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154164"
 ---
-# <a name="handling-cash-discounts-for-overpayments"></a>Обработка скидок по оплате наличными для переплат
+# <a name="cash-discounts-for-overpayments"></a>Скидки по оплате для переплат
 
 [!include [banner](../includes/banner.md)]
 

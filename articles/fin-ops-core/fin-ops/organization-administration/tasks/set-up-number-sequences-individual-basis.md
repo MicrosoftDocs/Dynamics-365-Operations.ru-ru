@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 818e641d19444e94a287134b68b25d52a05021d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: db662eb407fbcf3587f3fcb03347a3f14e83b879
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189875"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140518"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Настройка номерных серий на индивидуальной основе
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этом разделе описывается, как настроить номерные серии на индивидуальной основе. Номерные серии используются для создания читаемых уникальных кодов для записей справочников и записей проводок, для которых требуются идентификаторы. Основные данные или запись проводки, для которой требуется идентификатор, называется образцом. Перед созданием новых записей для ссылки необходимо настроить номерную серию и связать ее со ссылкой. Можно настроить все требуемые номерные серии одновременно, воспользовавшись мастером **Настроить номерные серии**, или создать и изменить отдельные номерные серии с помощью страницы **Номерные серии**.
 

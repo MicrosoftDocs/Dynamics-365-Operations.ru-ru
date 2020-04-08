@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cbbc941b810cd8e5db5ba15a23dc6bd72a29506
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e0e1fe2a27998c01012e40d80eacf13aa11f5689
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838078"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147350"
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>Создание метода оценки для запросов предложений
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Следующая процедура используется для создания метода оценки. Метод оценки — это набор критериев, которые можно использовать для сравнения предложений, отправляемых в ответ на запрос предложения. Например, может потребоваться оценить поставщика по его производительности в прошлом, оценить, является ли деятельность компании безопасной для окружающей среды и насколько просто с ней сотрудничать, либо сравнить предложения на основе цены. Метод оценки можно связать с типом обращения как метод оценки по умолчанию для запросов предложения этого типа. Эти задачи обычно выполняются менеджером по закупкам. Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.
 

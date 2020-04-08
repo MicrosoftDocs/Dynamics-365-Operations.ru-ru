@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 556f99d34521cce70efb64c5fbababd815e8429d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 55260a4d25f41bc649f5e1f1f8c950c6b438ecfb
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190473"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144049"
 ---
 # <a name="develop-and-open-job-requisition"></a>Разработка и открытие заявки на должность
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Проекты по набору сотрудников помогают управлять процессом найма. Для каждого проекта по набору сотрудников можно настроить сведения, например должность, для которой производится набор, имя агента по найму, статус проекта и отдел, в котором будет находиться должность. После создания проекта по набору сотрудников можно написать объявление о найме, опубликовать его на страницах портала самообслуживания сотрудников, связать заявления о приеме на работу с проектом и отслеживать действия для проекта. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Чтобы начать процедуру, перейдите в раздел "Управление персоналом" > "Набор сотрудников" > "Проекты по набору сотрудников" > "Проекты по набору сотрудников".
 

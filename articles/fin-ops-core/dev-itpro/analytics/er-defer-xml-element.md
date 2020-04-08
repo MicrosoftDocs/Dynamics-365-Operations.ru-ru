@@ -3,7 +3,7 @@ title: Отложить выполнение элементов XML в форм�
 description: В этой теме объясняется, как отложить выполнение элемента XML в формате электронной отчетности (ER).
 author: NickSelin
 manager: kfend
-ms.date: 02/03/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: e9f6161186d04b690ee560dac7ee12974d070506
-ms.sourcegitcommit: 9c401a4adba260704b0b1cb9fe8e148bbb5afeed
+ms.openlocfilehash: 58381f491cda199d77e555e5d3da04714b6a5f8f
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3120886"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138931"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Отложить выполнение элементов XML в форматах ER
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Обзор
 

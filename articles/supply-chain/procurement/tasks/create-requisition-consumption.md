@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2948282d8b40f7d34ffbae072a195cf954ab6e2
-ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
+ms.openlocfilehash: 6ca44b4793f61d1067b9e0740b9a447d3a2363c2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1738912"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147396"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Создание заявки на потребление
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этом разделе описывается процесс создания заявки. В ней показаны различные способы поиска продуктов в каталоге закупаемой продукции, а также порядок добавления продукта, который отсутствует в каталоге. Перед началом процедуры необходимо иметь настроенную политику закупок, в которой в качестве типа заявки по умолчанию указан тип "Потребление". Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные. Эта процедура может быть выполнена только профилем пользователя, настроенного как работник. Эта задача обычно выполняется сотрудником. Роль безопасности **Сотрудник** позволит вам выполнить все задачи; или, если вы пользуетесь компанией USMF, вы можете войти как пользователь **Alicia**.
 

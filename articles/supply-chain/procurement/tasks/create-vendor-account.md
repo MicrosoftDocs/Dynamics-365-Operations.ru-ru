@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 116085a71e872c13bbf2820f4408e3c7d1261d17
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: ba585a9bb1a296bbf7181530e151d737bfa22fc2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924432"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149604"
 ---
 # <a name="create-a-vendor-account"></a>Создание счета поставщика
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой процедуре показано, как создать счет поставщика и добавить адрес и контактную информацию. В процедуре не показано, как заполнять все поля, связанные с закупками и финансами. Для получения дополнительных сведений об этих полях прочитайте описания полей. Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные. Счета поставщиков обычно создаются специалистом по закупкам или сотрудниками отдела расчетов с клиентами.
 

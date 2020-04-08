@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d575e609ac5289f9acb219322c9df93972e5dfc
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: d9036b5cbad10af725aaaf5d1d9498687c3a1d58
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995221"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146430"
 ---
 # <a name="set-up-sales-commission-rules"></a>Настройка правил комиссий продаж
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Эта процедура описывает, как настроить и включить расчет комиссии по продажам и отслеживание. Процедура показывает, как создать группы комиссий клиента и номенклатуры, а затем как связать выбранных клиента и продукта с соответствующими группами. Затем эти группы используются при настройке расчета комиссии для создания комбинации клиента, номенклатуры и торговых представителей, которая должна быть сопоставлена заказом на продажу для назначения продавцов для комиссии. Создание групп комиссий клиента и номенклатуры является необязательным, так как расчет комиссии можно также сделать для отдельного клиента и/или номенклатуры. Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные.
 

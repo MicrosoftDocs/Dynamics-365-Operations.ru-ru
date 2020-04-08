@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: e77de79113e3f44da1d7f92f17a446df86f6852e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026248"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143038"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>Электронная отчетность — Сопоставление компонентов созданного формата с элементами модели данных (ноябрь 2016 г.)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В следующей процедуре показано, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может сопоставить элементы модели данных с компонентами созданной конфигурации электронной отчетности (ER), определяющей формат электронных документов для бизнес-домена платежей. Этот формат будет использоваться позднее для создания электронных документов для обработки платежей. В этом примере вам предстоит создать конфигурацию формата для демонстрационной компании Litware, Inc. Эти шаги можно выполнить в любой компании, поскольку конфигурации электронной отчетности используются всеми компаниями. Для выполнения этих шагов необходимо сначала выполнить шаги в руководстве по задаче "Создание конфигурации формата".
 

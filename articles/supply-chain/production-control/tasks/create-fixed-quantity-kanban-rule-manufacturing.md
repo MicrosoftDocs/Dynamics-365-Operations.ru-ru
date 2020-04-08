@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcf2aa32ee9f89649ce8ce0afaf50b0facf053ce
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ff38ba2ed1d513d6b64cf5a64e021cbb08d69b21
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838711"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161762"
 ---
 # <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a>Создание правила фиксированного канбана для производства
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Эта процедура описывает настройку, необходимую для создания фиксированного производственного правила канбана для включения действий преобразования, в производственной ячейке, в экономичной среде. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для инженер-технолога или менеджера потока создания ценности, так как он подготавливает производство нового или измененного продукта.
 

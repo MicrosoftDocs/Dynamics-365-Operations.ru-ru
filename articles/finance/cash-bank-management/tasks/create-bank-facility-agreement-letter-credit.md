@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e63e0ffa4ddafd38595d7e9d84ffa2399a9f67b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cb624700e0b052de977fabecf9670b3515d32ab7
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188219"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141726"
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Создание договора о банковских услугах для аккредитива
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой задаче представлен процесс создания договора о банковских услугах для обработки аккредитива. До выполнения этой задачи необходимо настроить банковские услуги и профили разноски.  В данной задаче используется демонстрационная компания USMF.  
 

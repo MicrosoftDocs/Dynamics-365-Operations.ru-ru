@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
-ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
+ms.openlocfilehash: e8210369139b3c3d4123deff5279abb26b1cbb17
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "2559197"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145970"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Настройка процесса пополнения "Мин./Макс."
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой процедуре показано, как настроить новый процесс пополнения, использующий стратегию пополнения "Мин./Макс.". Когда уровень запасов опускается ниже минимального, создается работа для пополнения местонахождения. В этой процедуре также показано, как использовать фиксированные ячейки комплектации, чтобы разрешить пополнение запасов, даже если уровень запасов ниже минимального, и как выполнять процесс пополнения регулярно, используя пакетное задание. Эти задачи обычно выполняются менеджером склада. Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF и примеры значений ниже, либо собственные данные. При использовании собственных данных убедитесь, что для процессов управления складом включен склад.
 

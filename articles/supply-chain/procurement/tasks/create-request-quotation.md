@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e35dbc489608c0aa3bfb13db5ae237f854612b1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 954bfe3972e46eac803681a5a09e85661999f1d6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844137"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149673"
 ---
 # <a name="create-a-request-for-quotation"></a>Создание запроса предложения
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Следующая процедура используется для создания запроса предложения. Обычно это делает специалист по закупке. Чтобы выполнить эту процедуру, используйте компанию с демонстрационными данными USMF или собственные данные. Перед началом процедуры необходимо настроить типы обращений. После выполнения этой задачи, создания и отправки запроса предложения вы можете ввести ответы для каждого поставщика, сравнить их и заключить контракт.
 

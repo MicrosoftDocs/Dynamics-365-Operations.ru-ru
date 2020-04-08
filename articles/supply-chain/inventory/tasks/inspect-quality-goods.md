@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10acb9aadfeb11ede1d66dd525ace7b70db3bd1c
-ms.sourcegitcommit: fbaccf72df82e6b6927f0c9f0d35af0ca3ecbc2d
+ms.openlocfilehash: 75fbfbb7b993b528e96d247dafa2bdfe20837987
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1855694"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145625"
 ---
 # <a name="inspect-the-quality-of-goods"></a>Контроль качества товаров
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этом разделе объясняется, как обработать заказ для контроля качества. Это руководство можно выполнить, используя компанию с демонстрационными данными USMF. Перед началом этой процедуры необходимо подтвердить заказ на покупку "000016" и разнести поступление продуктов. При этом автоматически будет создан заказ контроля качества. Контроль качества обычно производится сотрудником отдела контроля качества.
 

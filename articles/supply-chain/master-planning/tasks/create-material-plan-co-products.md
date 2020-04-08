@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e59ff769685677b0970dbc7d4c9d4d2c1e5b63d1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 714f0c5f014aac1f006b8356de8570ad7d7e0d47
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835966"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148086"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Создание плана материалов для сопутствующих продуктов
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Планировщик производства планирует материальные потребности в номенклатурах, представляющих собой сопутствующие продукты формулы. В качестве компании с демонстрационными данными для создания этой процедуры используется USP2.
 

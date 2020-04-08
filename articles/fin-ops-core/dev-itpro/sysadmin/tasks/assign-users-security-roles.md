@@ -1,6 +1,6 @@
 ---
 title: Назначение пользователей для ролей безопасности
-description: Для доступа к приложениям Finance and Operations пользователи должны быть назначены ролям безопасности.
+description: Для получения доступа к приложениям Finance and Operations пользователи должны быть назначены ролям безопасности.
 author: ChrisGarty
 manager: AnnBe
 ms.date: 11/14/2019
@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
-ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
+ms.openlocfilehash: 0744f45ac91dfb9b5aae35091e3675202c9144f9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808004"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143569"
 ---
 # <a name="assign-users-to-security-roles"></a>Назначение пользователей для ролей безопасности
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Для использования каких-либо других возможностей, кроме общих, пользователям необходимо назначить роли безопасности. В этой процедуре описывается, как системные администраторы могут автоматически назначить пользователей ролям на основе бизнес-данных. 
 
