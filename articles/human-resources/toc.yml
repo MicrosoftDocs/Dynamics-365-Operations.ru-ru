@@ -5,6 +5,8 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 19 марта 2020 г.
+          href: hr-whats-new-2020-03-19.md
         - name: 10 марта 2020 г.
           href: hr-whats-new-2020-03-10.md
         - name: 3 марта 2020 г.
@@ -539,3 +541,9 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Создание зависимого вопроса
               href: hr-learning-depending-question.md
+        - name: Настройка самообслуживания сотрудников и менеджеров
+          items:
+            - name: Обзор самообслуживания сотрудников и менеджеров
+              href: hr-employee-manager-self-service-overview.md
+            - name: Изменение личных сведений
+              href: hr-employee-manager-self-service-edit-personal-information.md

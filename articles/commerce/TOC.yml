@@ -454,6 +454,8 @@
                   items:
                     - name: Настройка и использование расширенных автоматических накладных расходов
                       href: omni-auto-charges.md
+                    - name: Включение и настройка автоматических накладных расходов по каналам
+                      href: auto-charges-by-channel.md
                     - name: Пропорциональное распределение накладных расходов из заголовка по соответствующим строкам продаж
                       href: pro-rate-charges-matching-lines.md
                 - name: Управление программами непрерывности
@@ -525,7 +527,7 @@
                 - name: Создание нового продукта
                   items:
                     - name: Создание нового продукта в Commerce
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: Управление продуктами и категориями продуктов
                       href: category-management-product-creation.md
                 - name: Атрибуты продукта
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: Отказ от персонализированных рекомендаций
                       href: personalization-gdpr.md
-                - name: Добавление списков рекомендаций на сайт электронной коммерции
-                  href: add-reco-list-to-page.md
                 - name: Опыт использования POS
                   items:
                     - name: Добавление рекомендаций по продуктам в POS
@@ -944,6 +944,8 @@
                       href: add-checkout-module.md
                     - name: Модуль подтверждения заказа
                       href: order-confirmation-module.md
+                    - name: Модуль выбора магазина
+                      href: store-selector.md
                 - name: Модули управления учетной записью
                   items:
                     - name: Страницы и модули управления учетной записью
@@ -2115,7 +2117,7 @@
                 - name: Использование платежных данных
                   href: payment-connector-data-fields.md
                 - name: Включение защиты от дубликатов платежей для соединителя платежей
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: Создание упаковки платежа для обозревателя приложений в развертываниях Service Fabric
                   href: dev-itpro/payment-connector-package.md
             - name: Расширяемость сторонних решений для электронной коммерции

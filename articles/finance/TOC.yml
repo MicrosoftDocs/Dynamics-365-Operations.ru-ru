@@ -660,7 +660,7 @@
               href: expense-management/expense-report-distributions.md
             - name: Внутрихолдинговые расходы
               href: expense-management/intercompany-expense.md
-            - name: Политики расходов
+            - name: Определение политик расходов
               href: expense-management/travel-expense-policies.md
             - name: Просмотр отчета по расходам
               href: expense-management/view-expense-report.md
@@ -984,6 +984,8 @@
               href: project-management/project-contracts.md
             - name: Прогнозы и бюджеты по проекту
               href: project-management/project-forecasts-budgets.md
+            - name: Перенос бюджетов проектов в конце финансового года
+              href: project-management/process-project-budgets-for-fiscal-year-end.md
             - name: Заказы на продажу по проекту
               href: project-management/project-sales-orders.md
             - name: Заказы на покупку по проекту
@@ -1646,6 +1648,12 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: Просмотр проводок по сопоставлению
                   href: localizations/emea-transactions-settlement-form.md
+            - name: Финляндия
+              items:
+                - name: Обзор по Финляндии
+                  href: localizations/finland.md
+                - name: Отчет о налоговых платежах для Финляндии
+                  href: localizations/emea-fin-sales-tax-payment-report-finland.md
             - name: Франция
               items:
                 - name: Обзор по Франции
@@ -1692,10 +1700,12 @@
                   href: localizations/emea-fra-print-lump-sum-recovery-text.md
                 - name: Амортизация RB/SL
                   href: localizations/emea-fra-rbsl-depreciation.md
-                - name: Настройка способа оплаты
+                - name: Настройка способа платежа
                   href: localizations/tasks/fr-00004-setup-method-payment.md
-                - name: Обновление способа оплаты для клиента
+                - name: Обновление способа платежа для клиента
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: Отчет DAS-2
+                  href: localizations/emea-fra-das2-report.md
             - name: Германия
               items:
                 - name: Обзор по Германии
@@ -1992,10 +2002,16 @@
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: Улучшенный запрос по дебетовым или кредитным сопоставлениям
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
+                - name: Сопоставление комиссии по платежам
+                  href: localizations/emea-ita-exil-commission-settlement.md
                 - name: Моделирование главной книги (Италия)
                   href: localizations/emea-ita-exil-general-ledger-simulations.md
+                - name: Настраиваемые профили разноски для банков и типов предъявления к оплате
+                  href: localizations/emea-ita-exil-bank-remittance.md
                 - name: Уникальная сертификация
                   href: localizations/emea-ita-exil-unique-certification.md
+                - name: Импорт опротестованных переводных векселей
+                  href: localizations/emea-ita-exil-protest-boe.md
             - name: Япония
               items:
                 - name: Обзор по Японии
@@ -2460,6 +2476,8 @@
                       href: localizations/rus-inventory-cost-structure.md
                     - name: Мастер корректировки запасов
                       href: localizations/rus-inventory-adjustment-wizard.md
+                    - name: Отчеты о запасах
+                      href: localizations/rus-inventory-reports.md
                 - name: Отчетность
                   items:
                     - name: Финансовая отчетность
