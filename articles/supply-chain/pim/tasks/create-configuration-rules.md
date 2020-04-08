@@ -16,42 +16,42 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f15c0328e391d81c4c977f974553ae9135b207c
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5758b2903cd0a269f3e03e44b618c26e8b2310
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844905"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147879"
 ---
-# <a name="create-configuration-rules"></a><span data-ttu-id="5b218-103">Создание правил конфигурации</span><span class="sxs-lookup"><span data-stu-id="5b218-103">Create configuration rules</span></span>
+# <a name="create-configuration-rules"></a><span data-ttu-id="f824e-103">Создание правил конфигурации</span><span class="sxs-lookup"><span data-stu-id="f824e-103">Create configuration rules</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="5b218-104">Эта процедура заключается в создании правил конфигурации, которые можно использовать для конфигурации на основе аналитик, чтобы принудительно устанавливать или запрещать определенные сочетания строк спецификации.</span><span class="sxs-lookup"><span data-stu-id="5b218-104">This procedure creates configuration rules that can be used for dimension-based configuration to enforce or prevent certain combinations of BOM lines.</span></span> <span data-ttu-id="5b218-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="5b218-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5b218-106">Это седьмая из восьми процедур, в которых поясняется, как строить сочетания для конфигурации на основе аналитик.</span><span class="sxs-lookup"><span data-stu-id="5b218-106">This is the seventh procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
+<span data-ttu-id="f824e-104">Эта процедура заключается в создании правил конфигурации, которые можно использовать для конфигурации на основе аналитик, чтобы принудительно устанавливать или запрещать определенные сочетания строк спецификации.</span><span class="sxs-lookup"><span data-stu-id="f824e-104">This procedure creates configuration rules that can be used for dimension-based configuration to enforce or prevent certain combinations of BOM lines.</span></span> <span data-ttu-id="f824e-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="f824e-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f824e-106">Это седьмая из восьми процедур, в которых поясняется, как строить сочетания для конфигурации на основе аналитик.</span><span class="sxs-lookup"><span data-stu-id="f824e-106">This is the seventh procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 
-1. <span data-ttu-id="5b218-107">Перейдите в раздел "Управление сведениями о продукте" > "Спецификации и формулы" > "Спецификации".</span><span class="sxs-lookup"><span data-stu-id="5b218-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
-2. <span data-ttu-id="5b218-108">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="5b218-108">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="5b218-109">Найдите и выберите спецификацию для конфигурации на основе аналитик.</span><span class="sxs-lookup"><span data-stu-id="5b218-109">Find and select the BOM for the dimension-based configuration.</span></span>  
-3. <span data-ttu-id="5b218-110">В области действий щелкните "Параметры".</span><span class="sxs-lookup"><span data-stu-id="5b218-110">On the Action Pane, click Options.</span></span>
-4. <span data-ttu-id="5b218-111">Щелкните "Изменить режим просмотра".</span><span class="sxs-lookup"><span data-stu-id="5b218-111">Click Change view.</span></span>
-5. <span data-ttu-id="5b218-112">Щелкните Вид заголовка.</span><span class="sxs-lookup"><span data-stu-id="5b218-112">Click Header view.</span></span>
-    * <span data-ttu-id="5b218-113">Откройте представление заголовка для доступа к экспресс-вкладке "Конфигурационный маршрут".</span><span class="sxs-lookup"><span data-stu-id="5b218-113">Open the header view to access the Configuration route FastTab.</span></span>  
-6. <span data-ttu-id="5b218-114">Разверните или сверните раздел "Конфигурационный маршрут".</span><span class="sxs-lookup"><span data-stu-id="5b218-114">Expand or collapse the Configuration route section.</span></span>
-    * <span data-ttu-id="5b218-115">Экспресс-вкладка "Конфигурационный маршрут" должна находиться в развернутом режиме.</span><span class="sxs-lookup"><span data-stu-id="5b218-115">The Configuration route FastTab must be in the expanded mode.</span></span>  
-7. <span data-ttu-id="5b218-116">Щелкните "Правила конфигурации".</span><span class="sxs-lookup"><span data-stu-id="5b218-116">Click Configuration rules.</span></span>
-8. <span data-ttu-id="5b218-117">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="5b218-117">Click New.</span></span>
-9. <span data-ttu-id="5b218-118">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="5b218-118">In the list, mark the selected row.</span></span>
-10. <span data-ttu-id="5b218-119">В поле "Код номенклатуры" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="5b218-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="5b218-120">Отображаются номенклатуры в текущей конфигурационной группе.</span><span class="sxs-lookup"><span data-stu-id="5b218-120">The items in the current configuration group are displayed.</span></span> <span data-ttu-id="5b218-121">Выберите одну, представляющую условие в правиле.</span><span class="sxs-lookup"><span data-stu-id="5b218-121">Select the one that represents the condition in the rule.</span></span>  
-11. <span data-ttu-id="5b218-122">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="5b218-122">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="5b218-123">В поле "Метод" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="5b218-123">In the Method field, select an option.</span></span>
-    * <span data-ttu-id="5b218-124">Можно принудительно выбирать или снимать выбор с номенклатур из другой конфигурационной группы.</span><span class="sxs-lookup"><span data-stu-id="5b218-124">It is possible to enforce either a selection or a deselection of an item from another configuration group.</span></span>  
-13. <span data-ttu-id="5b218-125">В поле "Производная группа" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="5b218-125">In the Derived group field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="5b218-126">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="5b218-126">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="5b218-127">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="5b218-127">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="5b218-128">Выберите требуемую конфигурационную группу.</span><span class="sxs-lookup"><span data-stu-id="5b218-128">Select the desired configuration group.</span></span>  
-16. <span data-ttu-id="5b218-129">В поле "Код производной номенклатуры" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="5b218-129">In the Derived item number field, click the drop-down button to open the lookup.</span></span>
-17. <span data-ttu-id="5b218-130">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="5b218-130">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="5b218-131">Выберите номер номенклатуры, которая будет выбираться или выбор с которой будет сниматься в зависимости от выбранного метода.</span><span class="sxs-lookup"><span data-stu-id="5b218-131">Select the item number that will be either selected or deselected depending on the chosen method.</span></span>  
-18. <span data-ttu-id="5b218-132">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="5b218-132">Close the page.</span></span>
+1. <span data-ttu-id="f824e-107">Перейдите в раздел "Управление сведениями о продукте" > "Спецификации и формулы" > "Спецификации".</span><span class="sxs-lookup"><span data-stu-id="f824e-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
+2. <span data-ttu-id="f824e-108">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="f824e-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="f824e-109">Найдите и выберите спецификацию для конфигурации на основе аналитик.</span><span class="sxs-lookup"><span data-stu-id="f824e-109">Find and select the BOM for the dimension-based configuration.</span></span>  
+3. <span data-ttu-id="f824e-110">В области действий щелкните "Параметры".</span><span class="sxs-lookup"><span data-stu-id="f824e-110">On the Action Pane, click Options.</span></span>
+4. <span data-ttu-id="f824e-111">Щелкните "Изменить режим просмотра".</span><span class="sxs-lookup"><span data-stu-id="f824e-111">Click Change view.</span></span>
+5. <span data-ttu-id="f824e-112">Щелкните Вид заголовка.</span><span class="sxs-lookup"><span data-stu-id="f824e-112">Click Header view.</span></span>
+    * <span data-ttu-id="f824e-113">Откройте представление заголовка для доступа к экспресс-вкладке "Конфигурационный маршрут".</span><span class="sxs-lookup"><span data-stu-id="f824e-113">Open the header view to access the Configuration route FastTab.</span></span>  
+6. <span data-ttu-id="f824e-114">Разверните или сверните раздел "Конфигурационный маршрут".</span><span class="sxs-lookup"><span data-stu-id="f824e-114">Expand or collapse the Configuration route section.</span></span>
+    * <span data-ttu-id="f824e-115">Экспресс-вкладка "Конфигурационный маршрут" должна находиться в развернутом режиме.</span><span class="sxs-lookup"><span data-stu-id="f824e-115">The Configuration route FastTab must be in the expanded mode.</span></span>  
+7. <span data-ttu-id="f824e-116">Щелкните "Правила конфигурации".</span><span class="sxs-lookup"><span data-stu-id="f824e-116">Click Configuration rules.</span></span>
+8. <span data-ttu-id="f824e-117">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="f824e-117">Click New.</span></span>
+9. <span data-ttu-id="f824e-118">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="f824e-118">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="f824e-119">В поле "Код номенклатуры" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="f824e-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="f824e-120">Отображаются номенклатуры в текущей конфигурационной группе.</span><span class="sxs-lookup"><span data-stu-id="f824e-120">The items in the current configuration group are displayed.</span></span> <span data-ttu-id="f824e-121">Выберите одну, представляющую условие в правиле.</span><span class="sxs-lookup"><span data-stu-id="f824e-121">Select the one that represents the condition in the rule.</span></span>  
+11. <span data-ttu-id="f824e-122">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="f824e-122">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="f824e-123">В поле "Метод" выберите вариант.</span><span class="sxs-lookup"><span data-stu-id="f824e-123">In the Method field, select an option.</span></span>
+    * <span data-ttu-id="f824e-124">Можно принудительно выбирать или снимать выбор с номенклатур из другой конфигурационной группы.</span><span class="sxs-lookup"><span data-stu-id="f824e-124">It is possible to enforce either a selection or a deselection of an item from another configuration group.</span></span>  
+13. <span data-ttu-id="f824e-125">В поле "Производная группа" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="f824e-125">In the Derived group field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="f824e-126">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="f824e-126">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="f824e-127">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="f824e-127">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="f824e-128">Выберите требуемую конфигурационную группу.</span><span class="sxs-lookup"><span data-stu-id="f824e-128">Select the desired configuration group.</span></span>  
+16. <span data-ttu-id="f824e-129">В поле "Код производной номенклатуры" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="f824e-129">In the Derived item number field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="f824e-130">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="f824e-130">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="f824e-131">Выберите номер номенклатуры, которая будет выбираться или выбор с которой будет сниматься в зависимости от выбранного метода.</span><span class="sxs-lookup"><span data-stu-id="f824e-131">Select the item number that will be either selected or deselected depending on the chosen method.</span></span>  
+18. <span data-ttu-id="f824e-132">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="f824e-132">Close the page.</span></span>
 

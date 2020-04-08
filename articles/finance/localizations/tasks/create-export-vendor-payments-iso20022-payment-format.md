@@ -16,37 +16,37 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b70ad94014587ba8e55735192dbe0ab2e4adf4ee
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ff8a2858bfa96eb1d4b0afa1e48ebd1b578a4431
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185827"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143132"
 ---
-# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="fd63a-103">Создание и экспорт платежей поставщикам с помощью формата платежей ISO20022</span><span class="sxs-lookup"><span data-stu-id="fd63a-103">Create and export vendor payments using ISO20022 payment format</span></span>
+# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="f1725-103">Создание и экспорт платежей поставщикам с помощью формата платежей ISO20022</span><span class="sxs-lookup"><span data-stu-id="f1725-103">Create and export vendor payments using ISO20022 payment format</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="fd63a-104">В этом разделе объясняется, как создать строки платежей в журнале платежей поставщику и как создать файл платежей поставщикам с использованием примера перемещения кредита ISO2022.</span><span class="sxs-lookup"><span data-stu-id="fd63a-104">This topic explains how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span>
+<span data-ttu-id="f1725-104">В этом разделе объясняется, как создать строки платежей в журнале платежей поставщику и как создать файл платежей поставщикам с использованием примера перемещения кредита ISO2022.</span><span class="sxs-lookup"><span data-stu-id="f1725-104">This topic explains how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span>
 
-<span data-ttu-id="fd63a-105">Это пятая процедура из пяти, которые иллюстрируют процесс платежа поставщикам с помощью конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="fd63a-105">This is the fifth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="fd63a-106">Для выполнения этого примера используйте демонстрационные данные DEMF.</span><span class="sxs-lookup"><span data-stu-id="fd63a-106">Use the DEMF demo data to complete this example.</span></span>
+<span data-ttu-id="f1725-105">Это пятая процедура из пяти, которые иллюстрируют процесс платежа поставщикам с помощью конфигурации электронной отчетности.</span><span class="sxs-lookup"><span data-stu-id="f1725-105">This is the fifth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="f1725-106">Для выполнения этого примера используйте демонстрационные данные DEMF.</span><span class="sxs-lookup"><span data-stu-id="f1725-106">Use the DEMF demo data to complete this example.</span></span>
 
-## <a name="example"></a><span data-ttu-id="fd63a-107">Пример</span><span class="sxs-lookup"><span data-stu-id="fd63a-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f1725-107">Пример</span><span class="sxs-lookup"><span data-stu-id="f1725-107">Example</span></span>
 
-1.  <span data-ttu-id="fd63a-108">Перейдите в раздел **Расчеты с поставщиками > Платежи > Журнал платежей**.</span><span class="sxs-lookup"><span data-stu-id="fd63a-108">Go to **Accounts payable > Payments > Payment journal**.</span></span>
-2.  <span data-ttu-id="fd63a-109">Нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="fd63a-109">Click **New**.</span></span>
-3.  <span data-ttu-id="fd63a-110">В поле **Имя** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="fd63a-110">In the **Name** field, enter or select a value.</span></span>
-4.  <span data-ttu-id="fd63a-111">Щелкните **Предложение по оплате -> Создать предложение по оплате**.</span><span class="sxs-lookup"><span data-stu-id="fd63a-111">Click **Lines > Payment proposal > Create payment proposal**.</span></span>
-5.  <span data-ttu-id="fd63a-112">Разверните раздел **Записи для добавления**.</span><span class="sxs-lookup"><span data-stu-id="fd63a-112">Expand the **Records to include** section.</span></span>
-6.  <span data-ttu-id="fd63a-113">Щелкните **Фильтр**.</span><span class="sxs-lookup"><span data-stu-id="fd63a-113">Click **Filter**.</span></span>
-7.  <span data-ttu-id="fd63a-114">В списке выберите строку для **таблицы "Поставщики"** и **поля "Счет поставщика"**.</span><span class="sxs-lookup"><span data-stu-id="fd63a-114">In the list, select the row for **Vendors table** and **Vendor account field**.</span></span>
-8.  <span data-ttu-id="fd63a-115">В поле **Критерии** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="fd63a-115">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="fd63a-116">Можно применить любые критерии для выбора проводок поставщиков для оплаты, для данного примера в качестве счета поставщика используется DE-001.</span><span class="sxs-lookup"><span data-stu-id="fd63a-116">You can apply any criteria for selecting vendor transactions to pay, for this example, use DE-001 as a vendor account.</span></span>
-12. <span data-ttu-id="fd63a-117">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="fd63a-117">Click **OK**.</span></span>
-13. <span data-ttu-id="fd63a-118">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="fd63a-118">Click **OK**.</span></span>
-14. <span data-ttu-id="fd63a-119">Щелкните **Создать платежи**.</span><span class="sxs-lookup"><span data-stu-id="fd63a-119">Click **Create payments**.</span></span>
-15. <span data-ttu-id="fd63a-120">Создайте файл платежа ISO20022.</span><span class="sxs-lookup"><span data-stu-id="fd63a-120">Generate an ISO20022 payment file.</span></span>
-    1.  <span data-ttu-id="fd63a-121">Щелкните **Создать платежи**.</span><span class="sxs-lookup"><span data-stu-id="fd63a-121">Click **Generate payments**.</span></span>
-    2.  <span data-ttu-id="fd63a-122">В поле **Способ оплаты** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="fd63a-122">In the **Method of payment** field, enter or select a value.</span></span>
-    3.  <span data-ttu-id="fd63a-123">В поле **Имя файла** введите значение.</span><span class="sxs-lookup"><span data-stu-id="fd63a-123">In the **File name** field, type a value.</span></span> <span data-ttu-id="fd63a-124">Так как в этом примере платеж производится в ЕВРО, созданный файл будет SEPA-совместимым.</span><span class="sxs-lookup"><span data-stu-id="fd63a-124">For this example, because of the EUR payment, the generated file will be SEPA compliant.</span></span> <span data-ttu-id="fd63a-125">Перенос кредита ISO20022, а также другие форматы платежей поставщикам могут также использоваться для создания платежей в других валютах.</span><span class="sxs-lookup"><span data-stu-id="fd63a-125">ISO20022 credit transfer as well as other vendor payment formats can also be used for generating payments in other currencies.</span></span>
-    4.  <span data-ttu-id="fd63a-126">В поле **Банковский счет** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="fd63a-126">In the **Bank account** field, enter or select a value.</span></span>
+1.    <span data-ttu-id="f1725-108">Перейдите в раздел **Расчеты с поставщиками > Платежи > Журнал платежей**.</span><span class="sxs-lookup"><span data-stu-id="f1725-108">Go to **Accounts payable > Payments > Payment journal**.</span></span>
+2.    <span data-ttu-id="f1725-109">Нажмите кнопку **Создать**.</span><span class="sxs-lookup"><span data-stu-id="f1725-109">Click **New**.</span></span>
+3.    <span data-ttu-id="f1725-110">В поле **Имя** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="f1725-110">In the **Name** field, enter or select a value.</span></span>
+4.    <span data-ttu-id="f1725-111">Щелкните **Предложение по оплате -> Создать предложение по оплате**.</span><span class="sxs-lookup"><span data-stu-id="f1725-111">Click **Lines > Payment proposal > Create payment proposal**.</span></span>
+5.    <span data-ttu-id="f1725-112">Разверните раздел **Записи для добавления**.</span><span class="sxs-lookup"><span data-stu-id="f1725-112">Expand the **Records to include** section.</span></span>
+6.    <span data-ttu-id="f1725-113">Щелкните **Фильтр**.</span><span class="sxs-lookup"><span data-stu-id="f1725-113">Click **Filter**.</span></span>
+7.    <span data-ttu-id="f1725-114">В списке выберите строку для **таблицы "Поставщики"** и **поля "Счет поставщика"**.</span><span class="sxs-lookup"><span data-stu-id="f1725-114">In the list, select the row for **Vendors table** and **Vendor account field**.</span></span>
+8.    <span data-ttu-id="f1725-115">В поле **Критерии** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="f1725-115">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="f1725-116">Можно применить любые критерии для выбора проводок поставщиков для оплаты, для данного примера в качестве счета поставщика используется DE-001.</span><span class="sxs-lookup"><span data-stu-id="f1725-116">You can apply any criteria for selecting vendor transactions to pay, for this example, use DE-001 as a vendor account.</span></span>
+12.    <span data-ttu-id="f1725-117">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="f1725-117">Click **OK**.</span></span>
+13.    <span data-ttu-id="f1725-118">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="f1725-118">Click **OK**.</span></span>
+14.    <span data-ttu-id="f1725-119">Щелкните **Создать платежи**.</span><span class="sxs-lookup"><span data-stu-id="f1725-119">Click **Create payments**.</span></span>
+15. <span data-ttu-id="f1725-120">Создайте файл платежа ISO20022.</span><span class="sxs-lookup"><span data-stu-id="f1725-120">Generate an ISO20022 payment file.</span></span>
+    1.    <span data-ttu-id="f1725-121">Щелкните **Создать платежи**.</span><span class="sxs-lookup"><span data-stu-id="f1725-121">Click **Generate payments**.</span></span>
+    2.    <span data-ttu-id="f1725-122">В поле **Способ оплаты** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="f1725-122">In the **Method of payment** field, enter or select a value.</span></span>
+    3.    <span data-ttu-id="f1725-123">В поле **Имя файла** введите значение.</span><span class="sxs-lookup"><span data-stu-id="f1725-123">In the **File name** field, type a value.</span></span> <span data-ttu-id="f1725-124">Так как в этом примере платеж производится в ЕВРО, созданный файл будет SEPA-совместимым.</span><span class="sxs-lookup"><span data-stu-id="f1725-124">For this example, because of the EUR payment, the generated file will be SEPA compliant.</span></span> <span data-ttu-id="f1725-125">Перенос кредита ISO20022, а также другие форматы платежей поставщикам могут также использоваться для создания платежей в других валютах.</span><span class="sxs-lookup"><span data-stu-id="f1725-125">ISO20022 credit transfer as well as other vendor payment formats can also be used for generating payments in other currencies.</span></span>
+    4.    <span data-ttu-id="f1725-126">В поле **Банковский счет** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="f1725-126">In the **Bank account** field, enter or select a value.</span></span>
 

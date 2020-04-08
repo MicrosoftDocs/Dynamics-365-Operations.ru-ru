@@ -15,60 +15,60 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3aafb42cea1664b0629f57fe4492736601902cc1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 67f719d5990a4331559cab34412bf82f15eca735
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568266"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148362"
 ---
-# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="97f0c-103">Определение процесса частичного подсчета циклов для местонахождения</span><span class="sxs-lookup"><span data-stu-id="97f0c-103">Define partial location cycle counting process</span></span> 
+# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="29073-103">Определение процесса частичного подсчета циклов для местонахождения</span><span class="sxs-lookup"><span data-stu-id="29073-103">Define partial location cycle counting process</span></span> 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="97f0c-104">При использовании планов подсчета циклов для создания работы подсчета можно руководить фактическими операциями подсчета, запросив, чтобы подсчитывались только конкретные продукты и варианты продуктов, а не все запасы в наличии в местонахождении.</span><span class="sxs-lookup"><span data-stu-id="97f0c-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="97f0c-105">С помощью фильтрации по конкретным продуктам менеджер склада может уменьшить накладные расходы для рассмотрения, избежать ошибок консолидации и сэкономить время.</span><span class="sxs-lookup"><span data-stu-id="97f0c-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="97f0c-106">Обычно задачи по настройке выполняет менеджер склада.</span><span class="sxs-lookup"><span data-stu-id="97f0c-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="97f0c-107">Выполнить процедуру можно в компании с демонстрационными данными USMF или с вашими собственными данными.</span><span class="sxs-lookup"><span data-stu-id="97f0c-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
+<span data-ttu-id="29073-104">При использовании планов подсчета циклов для создания работы подсчета можно руководить фактическими операциями подсчета, запросив, чтобы подсчитывались только конкретные продукты и варианты продуктов, а не все запасы в наличии в местонахождении.</span><span class="sxs-lookup"><span data-stu-id="29073-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="29073-105">С помощью фильтрации по конкретным продуктам менеджер склада может уменьшить накладные расходы для рассмотрения, избежать ошибок консолидации и сэкономить время.</span><span class="sxs-lookup"><span data-stu-id="29073-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="29073-106">Обычно задачи по настройке выполняет менеджер склада.</span><span class="sxs-lookup"><span data-stu-id="29073-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="29073-107">Выполнить процедуру можно в компании с демонстрационными данными USMF или с вашими собственными данными.</span><span class="sxs-lookup"><span data-stu-id="29073-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
 
 
-## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="97f0c-108">Создание шаблона работы подсчета циклов</span><span class="sxs-lookup"><span data-stu-id="97f0c-108">Create a cycle counting work template</span></span>
-1. <span data-ttu-id="97f0c-109">Перейдите в раздел "Управление складом" > "Настройка" > "Работа" > "Шаблоны работ".</span><span class="sxs-lookup"><span data-stu-id="97f0c-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
-2. <span data-ttu-id="97f0c-110">В поле "Тип заказа на выполнение работ" выберите "Цикличный подсчет".</span><span class="sxs-lookup"><span data-stu-id="97f0c-110">In the Work order type field, select 'Cycle counting'.</span></span>
-3. <span data-ttu-id="97f0c-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="97f0c-111">Click New.</span></span>
-4. <span data-ttu-id="97f0c-112">В поле "Порядковый номер" введите число.</span><span class="sxs-lookup"><span data-stu-id="97f0c-112">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="97f0c-113">Порядок сортировки — от наименьшего до наибольшего числа.</span><span class="sxs-lookup"><span data-stu-id="97f0c-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="97f0c-114">Значение должно быть больше нуля.</span><span class="sxs-lookup"><span data-stu-id="97f0c-114">The value must be more than 0 (zero).</span></span>  
-5. <span data-ttu-id="97f0c-115">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="97f0c-115">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="97f0c-116">В поле "Шаблон работы" введите значение.</span><span class="sxs-lookup"><span data-stu-id="97f0c-116">In the Work template field, type a value.</span></span>
-7. <span data-ttu-id="97f0c-117">В поле "Описание шаблона работы" введите значение.</span><span class="sxs-lookup"><span data-stu-id="97f0c-117">In the Work template description field, type a value.</span></span>
-8. <span data-ttu-id="97f0c-118">В поле "Код пула работ" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="97f0c-118">In the Work pool ID field, enter or select a value.</span></span>
-9. <span data-ttu-id="97f0c-119">В поле "Приоритет работы" введите число.</span><span class="sxs-lookup"><span data-stu-id="97f0c-119">In the Work priority field, enter a number.</span></span>
-10. <span data-ttu-id="97f0c-120">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="97f0c-120">Click Save.</span></span>
-11. <span data-ttu-id="97f0c-121">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="97f0c-121">Click New.</span></span>
-12. <span data-ttu-id="97f0c-122">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="97f0c-122">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="97f0c-123">В поле "Тип работы" выберите "Инвентаризация".</span><span class="sxs-lookup"><span data-stu-id="97f0c-123">In the Work type field, select 'Counting'.</span></span>
-14. <span data-ttu-id="97f0c-124">В поле "Код класса работы" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="97f0c-124">In the Work class ID field, enter or select a value.</span></span>
-15. <span data-ttu-id="97f0c-125">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="97f0c-125">Click Save.</span></span>
-16. <span data-ttu-id="97f0c-126">Щелкните "Разрывы строки работы".</span><span class="sxs-lookup"><span data-stu-id="97f0c-126">Click Work line breaks.</span></span>
-17. <span data-ttu-id="97f0c-127">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="97f0c-127">Click New.</span></span>
-18. <span data-ttu-id="97f0c-128">В поле "Порядковый номер" введите число.</span><span class="sxs-lookup"><span data-stu-id="97f0c-128">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="97f0c-129">Порядок сортировки — от наименьшего до наибольшего числа.</span><span class="sxs-lookup"><span data-stu-id="97f0c-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="97f0c-130">Значение должно быть больше нуля.</span><span class="sxs-lookup"><span data-stu-id="97f0c-130">The value must be more than 0 (zero).</span></span>  
-19. <span data-ttu-id="97f0c-131">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="97f0c-131">Click Save.</span></span>
-20. <span data-ttu-id="97f0c-132">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="97f0c-132">Close the page.</span></span>
-21. <span data-ttu-id="97f0c-133">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="97f0c-133">Close the page.</span></span>
+## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="29073-108">Создание шаблона работы подсчета циклов</span><span class="sxs-lookup"><span data-stu-id="29073-108">Create a cycle counting work template</span></span>
+1. <span data-ttu-id="29073-109">Перейдите в раздел "Управление складом" > "Настройка" > "Работа" > "Шаблоны работ".</span><span class="sxs-lookup"><span data-stu-id="29073-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+2. <span data-ttu-id="29073-110">В поле "Тип заказа на выполнение работ" выберите "Цикличный подсчет".</span><span class="sxs-lookup"><span data-stu-id="29073-110">In the Work order type field, select 'Cycle counting'.</span></span>
+3. <span data-ttu-id="29073-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="29073-111">Click New.</span></span>
+4. <span data-ttu-id="29073-112">В поле "Порядковый номер" введите число.</span><span class="sxs-lookup"><span data-stu-id="29073-112">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="29073-113">Порядок сортировки — от наименьшего до наибольшего числа.</span><span class="sxs-lookup"><span data-stu-id="29073-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="29073-114">Значение должно быть больше нуля.</span><span class="sxs-lookup"><span data-stu-id="29073-114">The value must be more than 0 (zero).</span></span>  
+5. <span data-ttu-id="29073-115">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="29073-115">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="29073-116">В поле "Шаблон работы" введите значение.</span><span class="sxs-lookup"><span data-stu-id="29073-116">In the Work template field, type a value.</span></span>
+7. <span data-ttu-id="29073-117">В поле "Описание шаблона работы" введите значение.</span><span class="sxs-lookup"><span data-stu-id="29073-117">In the Work template description field, type a value.</span></span>
+8. <span data-ttu-id="29073-118">В поле "Код пула работ" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29073-118">In the Work pool ID field, enter or select a value.</span></span>
+9. <span data-ttu-id="29073-119">В поле "Приоритет работы" введите число.</span><span class="sxs-lookup"><span data-stu-id="29073-119">In the Work priority field, enter a number.</span></span>
+10. <span data-ttu-id="29073-120">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="29073-120">Click Save.</span></span>
+11. <span data-ttu-id="29073-121">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="29073-121">Click New.</span></span>
+12. <span data-ttu-id="29073-122">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="29073-122">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="29073-123">В поле "Тип работы" выберите "Инвентаризация".</span><span class="sxs-lookup"><span data-stu-id="29073-123">In the Work type field, select 'Counting'.</span></span>
+14. <span data-ttu-id="29073-124">В поле "Код класса работы" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29073-124">In the Work class ID field, enter or select a value.</span></span>
+15. <span data-ttu-id="29073-125">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="29073-125">Click Save.</span></span>
+16. <span data-ttu-id="29073-126">Щелкните "Разрывы строки работы".</span><span class="sxs-lookup"><span data-stu-id="29073-126">Click Work line breaks.</span></span>
+17. <span data-ttu-id="29073-127">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="29073-127">Click New.</span></span>
+18. <span data-ttu-id="29073-128">В поле "Порядковый номер" введите число.</span><span class="sxs-lookup"><span data-stu-id="29073-128">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="29073-129">Порядок сортировки — от наименьшего до наибольшего числа.</span><span class="sxs-lookup"><span data-stu-id="29073-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="29073-130">Значение должно быть больше нуля.</span><span class="sxs-lookup"><span data-stu-id="29073-130">The value must be more than 0 (zero).</span></span>  
+19. <span data-ttu-id="29073-131">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="29073-131">Click Save.</span></span>
+20. <span data-ttu-id="29073-132">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="29073-132">Close the page.</span></span>
+21. <span data-ttu-id="29073-133">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="29073-133">Close the page.</span></span>
 
-## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="97f0c-134">Создание плана подсчета циклов</span><span class="sxs-lookup"><span data-stu-id="97f0c-134">Create a cycle counting plan</span></span>
-1. <span data-ttu-id="97f0c-135">Перейдите в раздел "Управление складом" > "Настройка" > "Подсчет циклов" > "Планы подсчета циклов".</span><span class="sxs-lookup"><span data-stu-id="97f0c-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
-2. <span data-ttu-id="97f0c-136">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="97f0c-136">Click New.</span></span>
-3. <span data-ttu-id="97f0c-137">В поле "Код плана подсчета циклов" введите значение.</span><span class="sxs-lookup"><span data-stu-id="97f0c-137">In the Cycle counting plan ID field, type a value.</span></span>
-4. <span data-ttu-id="97f0c-138">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="97f0c-138">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="97f0c-139">В поле "Максимальное количество подсчетов циклов" введите число.</span><span class="sxs-lookup"><span data-stu-id="97f0c-139">In the Maximum number of cycle counts field, enter a number.</span></span>
-6. <span data-ttu-id="97f0c-140">В поле "Шаблон работы" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="97f0c-140">In the Work template field, enter or select a value.</span></span>
-7. <span data-ttu-id="97f0c-141">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="97f0c-141">Click New.</span></span>
-8. <span data-ttu-id="97f0c-142">В поле "Порядковый номер" введите число.</span><span class="sxs-lookup"><span data-stu-id="97f0c-142">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="97f0c-143">Порядок сортировки — от наименьшего до наибольшего числа.</span><span class="sxs-lookup"><span data-stu-id="97f0c-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="97f0c-144">Значение должно быть больше нуля.</span><span class="sxs-lookup"><span data-stu-id="97f0c-144">The value must be more than 0 (zero).</span></span>  
-9. <span data-ttu-id="97f0c-145">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="97f0c-145">In the Description field, type a value.</span></span>
-10. <span data-ttu-id="97f0c-146">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="97f0c-146">Click Save.</span></span>
-11. <span data-ttu-id="97f0c-147">Щелкните "Определить запрос продукта".</span><span class="sxs-lookup"><span data-stu-id="97f0c-147">Click Define product query.</span></span>
-12. <span data-ttu-id="97f0c-148">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="97f0c-148">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="97f0c-149">В поле "Критерии" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="97f0c-149">In the Criteria field, enter or select a value.</span></span>
-14. <span data-ttu-id="97f0c-150">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="97f0c-150">Click OK.</span></span>
-15. <span data-ttu-id="97f0c-151">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="97f0c-151">Close the page.</span></span>
+## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="29073-134">Создание плана подсчета циклов</span><span class="sxs-lookup"><span data-stu-id="29073-134">Create a cycle counting plan</span></span>
+1. <span data-ttu-id="29073-135">Перейдите в раздел "Управление складом" > "Настройка" > "Подсчет циклов" > "Планы подсчета циклов".</span><span class="sxs-lookup"><span data-stu-id="29073-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
+2. <span data-ttu-id="29073-136">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="29073-136">Click New.</span></span>
+3. <span data-ttu-id="29073-137">В поле "Код плана подсчета циклов" введите значение.</span><span class="sxs-lookup"><span data-stu-id="29073-137">In the Cycle counting plan ID field, type a value.</span></span>
+4. <span data-ttu-id="29073-138">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="29073-138">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="29073-139">В поле "Максимальное количество подсчетов циклов" введите число.</span><span class="sxs-lookup"><span data-stu-id="29073-139">In the Maximum number of cycle counts field, enter a number.</span></span>
+6. <span data-ttu-id="29073-140">В поле "Шаблон работы" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29073-140">In the Work template field, enter or select a value.</span></span>
+7. <span data-ttu-id="29073-141">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="29073-141">Click New.</span></span>
+8. <span data-ttu-id="29073-142">В поле "Порядковый номер" введите число.</span><span class="sxs-lookup"><span data-stu-id="29073-142">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="29073-143">Порядок сортировки — от наименьшего до наибольшего числа.</span><span class="sxs-lookup"><span data-stu-id="29073-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="29073-144">Значение должно быть больше нуля.</span><span class="sxs-lookup"><span data-stu-id="29073-144">The value must be more than 0 (zero).</span></span>  
+9. <span data-ttu-id="29073-145">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="29073-145">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="29073-146">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="29073-146">Click Save.</span></span>
+11. <span data-ttu-id="29073-147">Щелкните "Определить запрос продукта".</span><span class="sxs-lookup"><span data-stu-id="29073-147">Click Define product query.</span></span>
+12. <span data-ttu-id="29073-148">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="29073-148">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="29073-149">В поле "Критерии" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="29073-149">In the Criteria field, enter or select a value.</span></span>
+14. <span data-ttu-id="29073-150">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="29073-150">Click OK.</span></span>
+15. <span data-ttu-id="29073-151">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="29073-151">Close the page.</span></span>
 
