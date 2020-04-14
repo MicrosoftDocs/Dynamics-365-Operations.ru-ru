@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c17a0240c29dad58c958ab1ce844ee5d8384bd1f
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 5972c44261a6ebd49df0fcbcef9a8c60aaa487e2
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658937"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144728"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Настройка периодов сопоставления налогов
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этом разделе описывается, как настроить периоды сопоставления налогов. Периоды сопоставления налога содержат сведения об интервалах периода, за которые необходимо отправить налоговые отчеты и выплатить налоги. Процесс сопоставления можно выполнить для периода сопоставления для определенного интервала дат. Будут сопоставлены все налоговые коды, связанные с периодом сопоставления. В зависимости от настройки соответствующего налогового органа, налоговые обязательства разносятся на счет поставщика или счет ГК.
 

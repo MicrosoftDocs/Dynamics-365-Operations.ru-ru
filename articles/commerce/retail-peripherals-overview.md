@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124413"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154188"
 ---
 # <a name="peripherals"></a>Периферийные устройства
 
@@ -158,7 +158,7 @@ Modern POS для Android является версией программы Mod
 
 ### <a name="dedicated"></a>Выделенная
 
-Клиенты Modern POS для Windows Android и включают **специализированные** или встроенные станции оборудования. Эти клиенты могут взаимодействовать непосредственно с периферийными устройствами, используя бизнес-логику, встроенную в приложения. Приложение Android поддерживает только сетевые устройства. Дополнительные сведения о поддержке периферийных устройств в Android см. в статье [Настройка приложения POS Hybrid в Android и iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Клиенты Modern POS для Windows Android и включают **специализированные** или встроенные станции оборудования. Эти клиенты могут взаимодействовать непосредственно с периферийными устройствами, используя бизнес-логику, встроенную в приложения. Приложение Android поддерживает только сетевые устройства. Дополнительные сведения о поддержке периферийных устройств в Android см. в статье [Настройка приложения POS Hybrid в Android и iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 Чтобы использовать выделенную станцию оборудования, назначьте профиль оборудования регистру, который будет использоваться приложения Modern POS для Windows или Android. Затем создайте станцию оборудования типа **Выделенный** для магазина, где будет использоваться регистр. Запустите Modern POS в режиме без денежного ящика и воспользуйтесь операцией **Управление станциями оборудования**, чтобы включить возможности станций оборудования, выделенная станция оборудования будет активна по умолчанию. Затем выполните выход из Modern POS, затем снова войдите в систему и откройте смену, периферийные устройства, настроенные в профиле оборудования, будут доступны для использования. 
 
@@ -199,7 +199,7 @@ Modern POS для Android является версией программы Mod
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Установка и настройка POS для Android и iOS
 
-Дополнительные сведения см. в разделе [Настройка приложения POS Hybrid POS в Android и iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Дополнительные сведения см. в разделе [Настройка приложения POS Hybrid POS в Android и iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="opos-device-setup-and-configuration"></a>Установка и настройка устройства OPOS
 
@@ -494,7 +494,7 @@ Modern POS для Android является версией программы Mod
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS для Android со станцией оборудования IPC (встроенной)
 
-**Новое в 10.0.8** — поддержка сетевых принтеров Epson и денежных ящиков, подключенных к этим принтерам через порт DK для Modern POS для приложения Android. Подробные сведения см. в статье [Настройка приложения POS Hybrid в Android и iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+**Новое в 10.0.8** — поддержка сетевых принтеров Epson и денежных ящиков, подключенных к этим принтерам через порт DK для Modern POS для приложения Android. Подробные сведения см. в статье [Настройка приложения POS Hybrid в Android и iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Все клиенты Modern POS со специальной "общей" станцией оборудования IIS
 

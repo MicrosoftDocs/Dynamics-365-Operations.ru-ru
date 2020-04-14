@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2a2b56d387cfe90cbfac0bca3c11e699573c1d05
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: 502b2e08c6c1f4190031d171f037a05d591e5cd8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097519"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164776"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Что нового или что изменилось в Dynamics 365 Supply Chain Management 10.0.9 (апрель 2020 г.)
 
@@ -41,30 +41,32 @@ ms.locfileid: "3097519"
 
 - [Расширенная построение загрузки во время волны](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)
 - [Автопоставка выпуска для кросс-докинга](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/auto-release-shipment-cross-dock) — дополнительные сведения см. в разделе [Автопоставка выпуска для кросс-докинга](../warehousing/auto-release-shipment-for-cross-docking.md).
+- [Расчет даты доставки заказа на покупку на основе времени упреждения и рабочих дней (государственный сектор)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/calculate-po-delivery-date-based-lead-times-working-days-public-sector)
+- [Обработка учета продуктов в двух единицах измерения с помощью управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/catch-weight-product-processing-warehouse-management) — дополнительные сведения см. в разделе [Обработка учета продуктов в двух единицах измерения с помощью управления складом](../warehousing/catch-weight-processing.md) и видео [Улучшения продуктов с учетом в двух единицах измерения](https://www.microsoft.com/videoplayer/embed/RE4jzx8).
 - [Сравнение хранилища цен номенклатур](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/compare-item-price-storage) — дополнительные сведения см в разделе [Отчет "Сравнение хранилища цен номенклатур"](../cost-management/compare-item-price.md).
 - [Улучшения консолидированной отгрузки](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/consolidate-shipment-enhancements)
-- [Кросс-докинг](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking)
+- [Кросс-докинг](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking) — дополнительные сведения см. в видеоролике [Плановый кросс-докинг](https://www.microsoft.com/videoplayer/embed/RE4f7LF).
 - Дальнейшая интеграция учета в двух единицах измерения [10.0.1](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.1), [10.0.2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.2), [10.0.3](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.3), [10.0.4](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.4), [10.0.5](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.5), [10.0.6](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.6), [10.0.7](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.7) — дополнительные сведения см. в разделе [Обработка учета продуктов в двух единицах измерения с помощью управления складом](../warehousing/catch-weight-processing.md), а также в видео [Улучшения продуктов с учетом в двух единицах измерения](https://www.microsoft.com/videoplayer/embed/RE4jzx8).
 - [Гибкое резервирование аналитик на уровне склада](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation) — дополнительные сведения см. в разделе [Гибкая политика резервирования аналитик на уровне склада](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+- [Улучшенное устройство карточки заданий](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device) — дополнительные сведения см. в разделах [Проверка хода выполнения на мобильном устройстве задания](../production-control/tasks/report-progress-mobile-job-device.md) и [Приемка в местонахождении, не находящемся под управлением грузоместа, с устройства карты задания](../production-control/report-finished-job-device.md)
 - [Входящая проверка качества](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
 - [Хранилище отчетов о распределении запасов по срокам](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-aging-report-storage)
 - [Сохраненные отчеты о стоимости запасов](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-value-report-storage)
 - [Диаграмма Ганта хода выполнения сводного планирования](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/master-planning-progress-gantt-chart) — дополнительные сведения см. в разделе [Мониторинг выполнения сводного планирования](../master-planning/tasks/monitor-master-planning-run.md), а также в видео [Улучшения производительности и удобства использования MRP](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
+- [Новые информационные объекты для области производства](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [Исходящая сортировка](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/outbound-sorting)
 - [Аналитики упаковки и хранения](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
 - [Параллельное утверждение спланированных заказов](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders) — дополнительные сведения см. в разделе [Параллельное утверждение](../master-planning/maintain-planned-orders.md#parallelize-firming), а также в видео [Улучшения производительности и удобства использования MRP](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
 - [Оптимизация планирования для распределения](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution) — дополнительные сведения см в разделе [Обзор оптимизации планирования](../master-planning/planning-optimization/planning-optimization-overview.md).
 - [Улучшения договора покупки](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements) — дополнительные сведения см. в разделе [Договоры покупки](../procurement/purchase-agreements.md).
-- [Кластеры размещения](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-away-clusters)
+- [Кластеры размещения](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-away-clusters) — для получения дополнительных сведений см. видеозапись [Кластеризация размещения](https://www.microsoft.com/videoplayer/embed/RE4f5aB).
 - [Поместить на стену/Поместить в магазин](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-wallput-store)
 - [Сортировка получения](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/receive-sortation)
+- [Отгрузка небольших посылок (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)
 - [Торговли с поставщиками — вопросы от поставщиков и обобщенные отклики](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/vendor-bidding-questions-vendors-summarized-responses)
 - [Слоттинг на складе](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
 - [Усовершенствования печати этикеток волны](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
 - [Код шага волны](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)
-
-<!-- - [Self-billing invoice control for procurement](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/self-billing-invoice-control-procurement)
-- [Self-billing invoice control for sales](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/self-billing-invoice-control-sales) -->
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

@@ -3,7 +3,7 @@ title: Декларация по налогу на прибыль
 description: В данном разделе содержится информация о декларации по налогу на прибыль для России.
 author: anasyash
 manager: AnnBe
-ms.date: 01/30/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,16 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2020-01-29
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 590f1158ccf3a7996470c8275ba154901af45ffe
-ms.sourcegitcommit: 788fe7d9b779e8ca206a253200a775a3c95a92be
+ms.openlocfilehash: 368f28e95b74d41d0f1aef435a246254b4610539
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3021422"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143501"
 ---
 # <a name="profit-tax-declaration"></a>Декларация по налогу на прибыль
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Вы можете создавать декларацию налога на прибыль в электронном формате. Чтобы создать декларацию, необходимо сначала настроить правила сбора данных со счетов ГК или регистров налога на прибыль в соответствующем финансовом отчете для декларации по налогу на прибыль.
 

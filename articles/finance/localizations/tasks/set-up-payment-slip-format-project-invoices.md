@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4671e1df3bc86361736b5882d67e6b160b4c5644
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c843f3b504d8390b26fdc94dd747a73de75df6a9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175013"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143466"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Настройка формата платежной квитанции для накладных проекта
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Компании обычно вкладывают распечатанные платежные квитанции к накладным, чтобы помочь клиентам и предоставить ссылку на платеж для разноски и сопоставления. Платежную квитанцию можно использовать для накладных проекта или услуги, писем-напоминаний, процент-нот и выписок по счету в дополнение к накладным по продаже и накладным с произвольным текстом. Для обработки платежных квитанций сначала необходимо задать идентификационный номер кредитора и форматы вложений платежных квитанций.
 

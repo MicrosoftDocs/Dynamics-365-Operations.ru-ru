@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1fabdcd61c60e630e3f32bc4f0c13c44f50259a6
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 9e0a015283064af2287013bccc065b4467a308c5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091930"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144797"
 ---
 # <a name="set-up-main-account-categories"></a>Настройка категорий счетов ГК
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой теме описывается, как настроить категории счетов ГК. Категории счетов ГК используются для отчетов по умолчанию в финансовой отчетности и в Power BI. Категории счетов ГК, созданные по умолчанию, могут быть переименованы, но не могут быть удалены. Дополнительные категории счетов можно создавать и использовать для отчетности и анализа. В этой теме используется демонстрационная компания USMF.
 

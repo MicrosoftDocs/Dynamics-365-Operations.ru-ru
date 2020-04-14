@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b26ea5c816339eef88bfdd9ac59701dcaa31fe4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 21f1b0a34205e192957405bc9d298c45c8bb4d25
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023808"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141022"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Создание, расчет и разноска журналов операций для розничного магазина
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 В этой теме описано, как вручную создать, рассчитать и разнести журнал операций для магазина. Кроме того, существуют пакетные задания, которые могут быть настроены для тех же задач. Инструкции по настройке и запуску пакетных задач можно найти в других разделах. Чтобы выполнить эту процедуру, необходимо иметь проводки, которые были выполнены в кассовом терминале, а затем переданы в Dynamics 365 Commerce. В этой записи используется компания с демонстрационными данными USRT.
 

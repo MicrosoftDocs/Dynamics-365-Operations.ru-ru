@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 48f6c4eb3a80d11566712cc8e0052aeff8369cb1
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: cda8b6049fc776c61a48762137cbfcb85e64d5c3
+ms.sourcegitcommit: 1fb34abfe3382bc00237a2c00184fe201c12229f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774076"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "3151285"
 ---
 # <a name="customs-declaration-numbers"></a>Номера таможенных деклараций
 [!include [banner](../includes/banner.md)]
@@ -76,7 +76,7 @@ ms.locfileid: "2774076"
 
 3. Задайте другие параметры заказа на покупку и создайте счет-фактуру обычным способом. Столбец 11 в фактуре содержит информацию о номере таможенной декларации.
 
-    ![Фактура накладной](media/4%20Счет-фактура.jpg)
+    ![Фактура накладной](media/4%20Invoice-facture.jpg)
 
 ## <a name="view-the-customs-declaration-number-in-the-purchase-book"></a>Просмотр номера таможенной декларации в книге покупок
 
@@ -95,4 +95,5 @@ ms.locfileid: "2774076"
 
 4. Задайте другие параметры заказа на продажу и создайте счет-фактуру обычным способом. Столбец 11 в фактуре содержит информацию о номере таможенной декларации.
 
-    ![Фактура накладной](media/7%20Счет-фактура.jpg)
+    ![Фактура накладной](media/7%20Invoice-facture.jpg)
+

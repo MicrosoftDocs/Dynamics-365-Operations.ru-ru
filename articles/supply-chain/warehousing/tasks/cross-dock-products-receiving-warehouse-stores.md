@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f38c2ad9561cc1a1c775c27aec54681124cffeec
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f297a9bbb8ad5d1cd701626783e7db75c94fa842
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004096"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148385"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Кросс-докинг продуктов со склада приемки в магазины
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Эта процедура содержит инструкции по созданию и обработке кросс-докинга для распределения продуктов из получающего местоположения заказа на покупку между одним или несколькими магазинами. Пользователь может определить несколько конфигураций и получать о системы предложения по распределению продуктов или вручную указывать, куда нужно распределять продукты и какое количество должно быть распределено в каждый из магазинов. Процедура не включает настройку данных, которые можно использовать в кросс-докинге, например правила пополнения, организационные иерархии и веса магазинов. В данной процедуре используется демонстрационная компания USRT.
 

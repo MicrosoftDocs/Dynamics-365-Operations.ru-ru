@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f97c4cd6cdb117ebdd67a155478bb6f8d1703541
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 76dc32f2254ffd2a2e33eef594d6e602092bcb6f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179675"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140514"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>Настройка номерных серий с использованием мастера
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Номерные серии используются для создания читаемых уникальных кодов для записей справочников и записей проводок, для которых требуются идентификаторы. Основные данные или запись проводки, для которой требуется идентификатор, называется образцом. Перед созданием новых записей для ссылки необходимо настроить номерную серию и связать ее со ссылкой. В этой теме поясняется, как настроить все требуемые номерные серии одновременно с помощью мастера. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 

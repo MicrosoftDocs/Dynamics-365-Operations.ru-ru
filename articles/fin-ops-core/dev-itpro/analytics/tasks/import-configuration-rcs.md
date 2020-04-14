@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 55d548a97a2f93bffeb5aa4b0ce6b0c4ca5f8819
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea2bfd2514be666d05165410ca27041a86464715
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769840"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143231"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(Электронная отчетность) Импорт конфигураций из RCS
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В следующих шагах поясняется, как пользователь с ролью "Системный администратор" или "Разработчик электронной отчетности" может импортировать новую конфигурацию электронной отчетности из Microsoft Regulatory Configuration Services (RCS). В этом примере будет выбрана версия конфигурации ER, которая была настроена в экземпляре RCS, и импортирована в текущий экземпляр для демонстрационной компании Litware, Inc. Эти шаги могут быть выполнены в любой компании, поскольку конфигурации ER используются совместно несколькими компаниями. Для выполнения этих шагов необходимо сначала выполнить шаги в теме [Создание поставщиков конфигурации и установка их в качестве активных](er-configuration-provider-mark-it-active-2016-11.md). Для выполнения этих шагов необходимо также иметь доступ к экземпляру RCS, содержащему хотя бы одну конфигурацию ER в состоянии **Завершено** или **Предоставлен общий доступ**.
 

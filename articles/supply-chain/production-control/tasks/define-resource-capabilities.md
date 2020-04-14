@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ee6bfd06d7a38418812c2663695ab31701ef1ab
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6bd3f2b1efc1e6a883ad2a25d127e74a8925de8f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843681"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146798"
 ---
 # <a name="define-resource-capabilities"></a>Определение возможностей ресурса
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Возможности ресурса описывают, что могут делать операционные ресурсы. Во время планирования требования каждого задания и операции сопоставляются с возможностями доступных ресурсов. Это руководство по задаче поможет создать способность ресурса и назначить ее ресурсу. В качестве компании с демонстрационными данными для создания этой задачи используется USMF.
 

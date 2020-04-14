@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36bad7424ac247b8fd9a819928837de619e9e258
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 764d1dc1d7fb54e0fa14a681d6d3cdb1d829aa57
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026793"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146131"
 ---
 # <a name="create-a-location-profile"></a>Создание профиля ячейки
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этом разделе описывается, как создать профиль местонахождения в Dynamics 365 Supply Chain Management. Каждое местоположение склада должно иметь связанный с ним профиль местоположения, описывающий свойства местоположения, например, допускает ли местоположение смешанные номенклатуры. В этой процедуре мы создадим профиль для местоположения, который не требует управления грузоместом. Мы разрешим смешанные номенклатуры и смешанные состояния запасов, а также разрешим цикличный подсчет. Эту процедуру можно выполнить, используя компанию с демонстрационными данными USMF.
 

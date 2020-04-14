@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a6b0fa28d778a4d9fa1f718b1d50bf1dce00be00
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ba720fd1bbbbf8b4f3b936d65d9d7840432f291a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186126"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145037"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Определение политик аудита для документов-источников
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой теме объясняется, как настроить и запустить правила политики аудита. В этом примере используются отчеты по расходам с типом расходов на проживание в гостинице. В данной процедуре используется демонстрационная компания USMF. Роль аудитора содержит правильные разрешения для выполнения этих задач.
 

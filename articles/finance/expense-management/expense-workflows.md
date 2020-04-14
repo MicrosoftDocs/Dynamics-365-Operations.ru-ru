@@ -1,5 +1,5 @@
 ---
-title: Настройка workflow-процессов для расходов
+title: Настройка рабочих процессов для управления расходами
 description: Можно настроить workflow-процесс, который используется для просмотра и утверждения документов командировок и расходов.
 author: ShylaThompson
 manager: AnnBe
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86cadf7277fbb7e08dad4b5dc2a46e1c6ce5a888
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdd4d69cb86da12e4a265f89c021c238d00cad08
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179588"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154002"
 ---
-# <a name="set-up-workflows-for-expense"></a>Настройка workflow-процессов для расходов
+# <a name="set-up-workflows-for-expense-management"></a>Настройка рабочих процессов для управления расходами
 
 [!include [banner](../includes/banner.md)]
 
- Можно настроить workflow-процесс, который используется для просмотра и утверждения документов командировок и расходов. Документы, для которых может быть определен workflow-процесс, включают в себя отчеты о расходах, заявки на командировки и запросы денежных авансов.
+Можно настроить workflow-процесс, который используется для просмотра и утверждения документов командировок и расходов. Документы, для которых может быть определен workflow-процесс, включают в себя отчеты о расходах, заявки на командировки и запросы денежных авансов.
 
 Бизнес-правило представляет бизнес-процесс. Он определяет путь движения документа по системе и указывает, кто должен выполнить ту или иную задачу или утвердить тот или иной документ. Имеется несколько преимуществ использования системы workflow-процессов в организации:
 

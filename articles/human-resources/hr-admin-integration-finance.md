@@ -3,7 +3,7 @@ title: Настройка интеграции с Finance
 description: В этой статье описываются функции, доступные для интеграции Dynamics 365 Human Resources и Dynamics 365 Finance.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,73 +18,75 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e7070f627654c9eb889f3e0ee27e37681db0502
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 1558d050627c8dc64727884901ed0d0716df0c50
+ms.sourcegitcommit: f481dfd6bf93bb3e03a7bd9a765e2cfd14305d02
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010307"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3169285"
 ---
 # <a name="configure-integration-with-finance"></a>Настройка интеграции с Finance
 
-В этой статье описываются функции, доступные для интеграции Dynamics 365 Human Resources и Dynamics 365 Finance. Шаблон Human Resources в Finance, доступный с помощью [интегратора данных](https://docs.microsoft.com/powerapps/administrator/data-integrator), разрешает поток данных для заданий, должностей и работников. Данные переносятся из Human Resources в Finance. Шаблон не позволяет передавать данные из обратно из Finance в Human Resources. 
+Для интеграции Dynamics 365 Human Resources с Dynamics 365 Finance можно использовать шаблон Human Resources в Finance в [Интеграторе данных](https://docs.microsoft.com/powerapps/administrator/data-integrator). Шаблон "Human Resources в Finance" обеспечивает поток данных для заданий, должностей и работников. Шаблон обеспечивает передачу данных из Human Resources в Finance, но не позволяют передавать данные из Finance в Human Resources.
 
-![Поток интеграции из Human Resources в Finance](./media/TalentFinOpsFlow.png)
+![Поток интеграции из Human Resources в Finance](./media/hr-admin-integration-finance-flow.png)
 
-Решение Human Resources в Finance предоставляет следующие типы синхронизации данных. 
+Решение Human Resources в Finance предоставляет следующие типы синхронизации данных:
 
-- Управление заданиями в Human Resources и их синхронизация из Human Resources в Finance.
-- Управление должностями и назначениями на должности в Human Resources и их синхронизация из Human Resources в Finance.
-- Управление занятностями в Human Resources и их синхронизация из Human Resources в Finance.
-- Управление работниками и адресами работников в Human Resources и их синхронизация из Human Resources в Finance.
+- Управление заданиями в Human Resources и их синхронизация из Human Resources в Finance
+- Управление должностями и назначениями на должности в Human Resources и их синхронизация из Human Resources в Finance
+- Управление занятностями в Human Resources и их синхронизация из Human Resources в Finance
+- Управление работниками и адресами работников в Human Resources и их синхронизация из Human Resources в Finance
 
 ## <a name="system-requirements-for-human-resources"></a>Требования к системе для Human Resources
+
 Для интеграционного решения требуются следующие версии Human Resources и Finance: 
-- Dynamics 365 Human Resources в Common Data Service.
-- Dynamics 365 Finance версии 7.2 или более новая версия.
+
+- Dynamics 365 Human Resources на Common Data Service
+- Dynamics 365 Finance версии 7.2 или более новая версия
 
 ## <a name="template-and-tasks"></a>Шаблон и задачи
 
-Чтобы открыть шаблон, выполните следующее.
+Для доступа к шаблону "Human Resources в Finance.
+
 1. Откройте [Центр администрирования Power Apps](https://admin.powerapps.com/). 
-1. Выберите **Проекты**, затем в правом верхнем углу выберите **Создать проект**, чтобы выбрать общие шаблоны. Для каждого юридического лица, для которого необходимо выполнить интеграцию в Finance, должен быть создан новый проект.
 
-Следующий шаблон используется для синхронизации записей из Human Resources в Finance.
+2. Выберите **Проекты**, затем выберите **Новый проект** в верхнем правом углу. Создайте новый проект для каждого юридического лица, для которого необходимо выполнить интеграцию в Finance.
 
-- **Имя шаблона в интеграции данных:** Human Resources (Human Resources Common Data Service в Finance)
+3. Выберите **Human Resources (Human Resources Common Data Service в Finance)** для синхронизации записей из Human Resources в Finance.
 
-  > [!NOTE]
-  > Имя задачи содержит объекты, используемые в каждом приложении. Источник (Human Resources) в левой части, а место назначения (Finance and Operations) справа.
+Шаблон использует следующие базовые задачи для синхронизации записей из Human Resources в Finance:
 
-Следующие базовые задачи используются для синхронизации записей из Human Resources в Finance.
-- Функциональные обязанности в функциональные обязанности компенсации
-- Подразделения в операционные единицу
-- Типы должности в тип должности компенсации
-- Должности в должности
-- Должности в сведения о должности
-- Типы позиции в тип позиций
-- Позиции должностей в базовую позицию
-- Позиций должности в сведения о позиции
-- Позиции должности в длительности позиции
-- Позиции должности в иерархии позиции
-- Работники с работником
-- Занятость с занятостью
-- Занятость со сведениями о занятости
-- Назначение работника позиции с назначениями работника позиции
-- Адреса работника с почтовым адресом V2
+- **Функциональные обязанности в функциональные обязанности компенсации**
+- **Подразделения в операционные единицу**
+- **Типы должности в тип должности компенсации**
+- **Должности в должности**
+- **Должности в сведения о должности**
+- **Типы позиции в тип позиций**
+- **Позиции должностей в базовую позицию**
+- **Позиций должности в сведения о позиции**
+- **Позиции должности в длительности позиции**
+- **Позиции должности в иерархии позиций**
+- **Работники с работником**
+- **Занятость с занятостью**
+- **Занятость со сведениями о занятости**
+- **Назначение работника позиции с назначениями работника позиции**
+- **Адреса работника с почтовым адресом V2**
 
 ## <a name="template-mappings"></a>Сопоставления шаблона
 
+В следующих таблицах сопоставления шаблонов имя задачи содержит объекты, используемые в каждом приложении. Источник (Human Resources) в левой части, а место назначения (Finance) справа.
+
 ### <a name="job-functions-to-compensation-job-function"></a>Функциональные обязанности в функциональные обязанности компенсации
 
-| Объект Common Data Service (источник)                 | Объект Finance and Operations (назначение) |
+| Объект Common Data Service (источник) | Объект Finance (назначение) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   Имя функции)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
 | cdm_description   (cdm_description) | DESCRIPTION   (DESCRIPTION)                 |
 
 ### <a name="departments-to-operating-unit"></a>Подразделения в операционные единицу
 
-| Объект Common Data Service (источник)                           | Объект Finance and Operations (назначение) |
+| Объект Common Data Service (источник)           | Объект Finance (назначение) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NAME (NAME)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
@@ -93,7 +95,7 @@ ms.locfileid: "3010307"
 
 ### <a name="job-types-to-compensation-job-type"></a>Типы должности в тип должности компенсации
 
-| Объект Common Data Service (источник)                   | Объект Finance and Operations (назначение) |
+| Объект Common Data Service (источник)   | Объект Finance (назначение) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
 | cdm_description   (cdm_description)   | DESCRIPTION   (DESCRIPTION)                 |
@@ -101,7 +103,7 @@ ms.locfileid: "3010307"
 
 ### <a name="jobs-to-jobs"></a>Должности в должности
 
-| Объект Common Data Service (источник)                                           | Объект Finance and Operations (назначение)           |
+| Объект Common Data Service (источник)                           | Объект Finance (назначение)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -111,7 +113,7 @@ ms.locfileid: "3010307"
 
 ### <a name="jobs-to-job-detail"></a>Должности в сведения о должности
 
-| Объект Common Data Service (источник)                                             | Объект Finance and Operations (назначение) |
+| Объект Common Data Service (источник)                             | Объект Finance (назначение) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid.cdm_name   (тип задания (название типа задания))             | JOBTYPEID   (JOBTYPEID)                     |
@@ -122,7 +124,7 @@ ms.locfileid: "3010307"
 
 ### <a name="position-types-to-position-type"></a>Типы позиции в тип позиций
 
-| Объект Common Data Service (источник)                       | Объект Finance and Operations (назначение) |
+| Объект Common Data Service (источник)       | Объект Finance (назначение) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
 | cdm_description   (cdm_description)       | DESCRIPTION   (DESCRIPTION)                 |
@@ -130,13 +132,13 @@ ms.locfileid: "3010307"
 
 ### <a name="job-positions-to-base-position"></a>Позиции должностей в базовую позицию
 
-| Объект Common Data Service (источник)                           | Объект Finance and Operations (назначение) |
+| Объект Common Data Service (источник)           | Объект Finance (назначение) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (номер позиции задания) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>Позиций должности в сведения о позиции
 
-| Объект Common Data Service (источник)                                                      | Объект Finance and Operations (назначение)       |
+| Объект Common Data Service (источник)              | Объект Finance (назначение)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber  (номер позиции задания)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name   (задание (имя))                                        | JOBID (JOBID)                                    |
@@ -146,19 +148,19 @@ ms.locfileid: "3010307"
 | cdm_avaialableforassignment   (доступно для назначения)                 | AVAILABLEFORASSIGNMENT   (AVAILABLEFORASSIGNMENT) |
 | cdm_validfrom   (действительно с)                                            | VALIDFROM   (VALIDFROM)                           |
 | cdm_validto (действительно до)                                                 | VALIDTO (VALIDTO)                               |
-| cdm_fulltimeequivalent   (эквивалент полного времени)                           | FULLTIMEEQUIVALENT   (FULLTIMEEQUIVALENT)         |
+| cdm_fulltimeequivalent (эквивалент полного времени)                           | FULLTIMEEQUIVALENT   (FULLTIMEEQUIVALENT)         |
 
 ### <a name="job-positions-to-position-durations"></a>Позиции должности в длительности позиции
 
-| Объект Common Data Service (источник)                             | Объект Finance and Operations (назначение) |
+| Объект Common Data Service (источник)             | Объект Finance (назначение) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (номер позиции задания)   | POSITIONID (POSITIONID)                      |
 | Calculated   Activation (рассчитанная активация) | VALIDFROM (VALIDFROM)                        |
 | Calculated   Retirement (расчетный выход на пенсию) | VALIDTO (VALIDTO)                         |
 
-### <a name="job-positions-to-position-hiearchies"></a>Позиции должности в иерархии позиции
+### <a name="job-positions-to-position-hierarchies"></a>Позиции должности в иерархии позиций
 
-| Объект Common Data Service (источник)                                                                           | Объект Finance and Operations (назначение) |
+| Объект Common Data Service (источник)        | Объект Finance (назначение) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (номер позиции задания)                                                 | POSITIONID(POSITIONID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -168,7 +170,7 @@ ms.locfileid: "3010307"
 
 
 ### <a name="workers-to-worker"></a>Работники с работником
-| Объект Common Data Service (источник)                           | Объект Finance and Operations (назначение)       |
+| Объект Common Data Service (источник)           | Объект Finance (назначение)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
 | cdm_gender   (cdm_gender)                     | GENDER (GENDER)                                   |
@@ -187,7 +189,7 @@ ms.locfileid: "3010307"
 
 ### <a name="employments-to-employment"></a>Занятость с занятостью
 
-| Объект Common Data Service (источник)                                             | Объект Finance and Operations (назначение) |
+| Объект Common Data Service (источник)                             | Объект Finance (назначение) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
@@ -197,7 +199,7 @@ ms.locfileid: "3010307"
 
 ### <a name="employments-to-employment-detail"></a>Занятость со сведениями о занятости
 
-| Объект Common Data Service (источник)                                             | Объект Finance and Operations (назначение)   |
+| Объект Common Data Service (источник)                             | Объект Finance (назначение)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
@@ -215,7 +217,7 @@ ms.locfileid: "3010307"
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Назначение работника позиции с назначениями работника позиции
 
-| Объект Common Data Service (источник)                                             | Объект Finance and Operations (назначение)   |
+| Объект Common Data Service (источник)                             | Объект Finance (назначение)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber   (номер позиции задания)                   | POSITIONID(POSITIONID)                        |
@@ -224,7 +226,7 @@ ms.locfileid: "3010307"
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Адреса работника с почтовым адресом V2
 
-| Объект Common Data Service (источник)                                             | Объект Finance and Operations (назначение)   |
+| Объект Common Data Service (источник)                             | Объект Finance (назначение)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
@@ -239,9 +241,10 @@ ms.locfileid: "3010307"
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSDESCRIPTION(ADDRESSDESCRIPTION)        |
 
 ## <a name="integration-considerations"></a>Соображения по интеграции
-При интеграции данных из Human Resources в Finance интеграция попытается выполнить сопоставление записей на основе идентификатора. Если совпадение найдено, данные в Finance будут перезаписаны значениями в Human Resources. Однако если логически они являются разными записями, а один и тот же идентификатор был создан в Human Resources и Finance на основе соответствующей номерной серии, то возникает проблема.
 
-Области, в которых это может произойти: это "работник", использующий номер персонала для выполнения сопоставления, и "должность". Задания не используют номерные серии. В результате, если один и тот же код задания присутствует в Human Resources и Finance, информация Human Resources перезапишет информацию Dynamics 365 Finance. 
+Интеграция данных из Human Resources в Finance попытается выполнить сопоставление записей на основе идентификатора. Если соответствующие записи найдены, интегратор данных перезаписывает данные в Finance значениями из Human Resources. Однако если логически они являются разными записями, а один и тот же идентификатор был создан в Human Resources и Finance на основе соответствующей номерной серии, то возникает проблема.
+
+Эта проблема может произойти с объектом **Работник**, который использует **Табельный номер** для выполнения сопоставления, и **Должности**. Задания не используют номерные серии. В результате, если один и тот же код задания присутствует в Human Resources и Finance, информация Human Resources перезаписывает информацию Dynamics 365 Finance. 
 
 Чтобы не допустить возникновения ошибок с повторяющимися идентификаторами, можно либо добавить префикс в [номерную серию](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json), либо установить начальный номер в номерной серии, который находится за пределами диапазона другой системы. 
 
@@ -250,5 +253,3 @@ ms.locfileid: "3010307"
 На следующем рисунке показан пример сопоставления шаблона в интеграторе данных. 
 
 ![Сопоставление шаблона](./media/IntegrationMapping.png)
-
-

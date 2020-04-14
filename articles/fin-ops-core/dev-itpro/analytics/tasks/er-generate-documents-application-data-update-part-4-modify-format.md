@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbed62c80c14e7cfe96d38d43a5db39b0469d939
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184930"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142463"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Изменение форматов для формирования документов, содержащих данные приложений
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Для выполнения действий в этой процедуре необходимо сначала выполнить процедуру "Электронная отчетность — Формирование документов с обновлением данных приложения (Часть 3. Изменение модели и сопоставления)".
 
@@ -96,7 +96,7 @@ ms.locfileid: "2184930"
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Изменение формата для запоминания сведений отчетности
 1. Щелкните "Сопоставить формат модели".
-2. Щелкните "Создать".
+2. Нажмите Создать.
 3. В поле "Определение" введите или выберите корневой элемент "Для обновления данных приложения".
     * Для обновления данных приложения  
 4. В поле "Имя" введите "Сопоставление для обновления данных".

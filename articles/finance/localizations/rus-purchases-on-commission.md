@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a67d540c06f4be7f21aa991f22e37e8ddc0454cc
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: bf9e1287d74ef4e1ddff1d3305c905978ddb4bd0
+ms.sourcegitcommit: 1fb34abfe3382bc00237a2c00184fe201c12229f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097125"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "3151286"
 ---
 # <a name="purchases-on-commission"></a>Покупки по комиссии
 [!include [banner](../includes/banner.md)]
@@ -123,7 +123,7 @@ ms.locfileid: "3097125"
 ## <a name="create-and-print-a-report-for-a-principal-and-reissue-the-sellers-factures-to-the-principal"></a>Создание и печать отчета для доверителя и повторный выпуск счетов-фактур продавца для доверителя
 
 1. Перейдите к пункту **Главная книга** \> **Периодические задачи** \> **Комиссионная торговля** \> **Отчет для доверителя**.
-2. Выберите **Создать**, чтобы открыть диалоговое окно **Создание отчета для доверителя.**
+2. Выберите **Создать**, чтобы открыть диалоговое окно **Создание отчета для доверителя****.**
 3. В полях **Дата начала** и **Дата окончания** укажите период для отчета.
 
    > [!NOTE]
@@ -157,7 +157,8 @@ ms.locfileid: "3097125"
 
 15. Выберите **Печать**, чтобы открыть диалоговое окно **Отчет для доверителя в Microsoft Excel**, затем выберите **OK**, чтобы напечатать отчет для доверителя.
 
-![Отчет коммиссионера](media/11_Отчет_коммиссионера.jpg)
+![](media/11_Report_for_a_principal.jpg)
+
 
 ## <a name="print-a-facture-accounting-journal"></a>Печать журнала учета счетов-фактур
 
@@ -210,7 +211,8 @@ ms.locfileid: "3097125"
 
 Напечатайте отчет для доверителя. Отчет для доверителя имеет два раздела: один для отгрузок, другой для предоплат.
 
-![Распечатанный отчет коммиссионера о закупке товара](media/18_Отчет_коммиссионера_о_закупке_товара.jpg)
+
+![](media/18_Purchase_report.jpg)
 
 ### <a name="create-a-prepayment-facture"></a>Создание счета-фактуры на предоплату
 
@@ -227,7 +229,8 @@ ms.locfileid: "3097125"
 
 6. Выберите **Печать \> Оригинал** для печати исходного счета-фактуры или выберите **Печать \> Копия**, чтобы напечатать копию счета-фактуры.
 
-![Распечатанный счет-фактура](media/21_Счет-фактура.jpg)
+
+![Распечатанный счет-фактура](media/21_Invoice-facture.jpg)
 
 ### <a name="create-a-facture-accounting-journal"></a>Создание журнала учета счетов-фактур
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c036f6aad79e33df6009913d1e21ff6176f22593
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 485afff3747a87a6e36f0249b146a39361d81b23
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843801"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147143"
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a>Изменение правил канбана для задания обработки
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Эта процедура нацелена на изменение используемого правила канбана для данного канбана. Это бывает полезно для выравнивания загрузки ресурсов или в случае разбиения работ. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для планировщика, который работает в компании, использующей бережливое производство, и отвечает за поток создания ценности.
 

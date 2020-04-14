@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b048c49de7357ec1b5cbf36dd4f22a5d3efd443b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189415"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143796"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Настройка проверки сопоставления накладных в модуле расчетов с поставщиками
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Перед началом работы убедитесь, что выбран конфигурационный ключ "Сопоставление накладных". Если ваше юридическое лицо отслеживает расходы, такие как расходы на поставку, убедитесь, что выбран конфигурационный ключ "Накладные расходы".  Сопоставление накладных по расчетам с поставщиками – это процесс сопоставления информации в накладной поставщика, заказе на покупку и сведений о поступлении продуктов. Отличия между этими документами называются несоответствиями. Совпадающие несоответствия сравниваются с указанными допусками. Если несоответствие превышает допуск в виде процента или суммы, значки отклонения отображаются на страницах **Накладная поставщика** и **Сведения о сопоставлении накладных**.
 

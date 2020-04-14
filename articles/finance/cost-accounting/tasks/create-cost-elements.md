@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7cceec1d52e1b5b2a05525c8d96f46dece17363b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 14f3cbde07fab291a3a3bf05441a87e97a54a7b2
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187805"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161623"
 ---
 # <a name="create-cost-elements"></a>Создание элементов затрат 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Существует несколько способов создания элементов затрат в модуле учета затрат. Эта процедура показывает порядок создания элементов издержек путем импорта счетов ГК через соединитель данных. В качестве демонстрационной компании для создания этой процедуры используется USMF. Эта процедура для функции учета затрат, которая была добавлена в версии 1611 Dynamics 365 for Operations.
 

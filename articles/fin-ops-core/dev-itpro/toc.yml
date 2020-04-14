@@ -162,24 +162,52 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Настройка двойной записи из Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
+                            - name: Начальная синхронизация
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Включение двойной записи для существующих приложений Finance and Operations
+                              items:
+                                - name: Включение двойной записи для существующих приложений Finance and Operations
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: Системные требования и необходимые условия
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: Порядок использования мастера двойной записи для связи между средами
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: Включение сопоставления объектов для двойной записи
+                                  href: data-entities/dual-write/enable-entity-map.md
+                        - name: Управление двойной записью
+                          items:
+                            - name: Настройка сопоставления объектов и полей
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: Управление ошибками и уведомления оповещения
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: Управление жизненным циклом приложений
+                              href: data-entities/dual-write/app-lifecycle-management.md
                         - name: Сопоставление концепций между приложениями
                           items:
-                            - name: Организационная иерархия в Common Data Service
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Интеграция компании
-                              items:
-                                - name: Понятие компании в Common Data Services
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Начальная загрузка данных компании
-                                  href: data-entities/dual-write/bootstrap-company-data.md
                             - name: Интегрированный справочник клиентов
                               href: data-entities/dual-write/customer-mapping.md
+                            - name: Интеграция с поставщиками
+                              items:
+                                - name: Интегрированный справочник поставщиков
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Переключение между вариантами дизайна поставщиков
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Карточки постоянного клиента и баллы поощрения
+                              href: data-entities/dual-write/loyalty-mapping.md
                             - name: Интеграция продуктов
                               items:
                                 - name: Единый подход к работе с продуктами
                                   href: data-entities/dual-write/product-mapping.md
                                 - name: Интегрированные сайты и склады
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Интеграция компании
+                              items:
+                                - name: Понятие компании в Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Начальная загрузка данных компании
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Организационная иерархия в Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
                             - name: Финансовая и налоговая информация
                               items:
                                 - name: Доступ к финансовым и налоговым ссылочным данным
@@ -188,12 +216,8 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Интегрированный налоговый справочник
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Интеграция с поставщиками
-                              items:
-                                - name: Интегрированный справочник поставщиков
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Переключение между вариантами дизайна поставщиков
-                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Синхронизация с ядром ценообразования Dynamics 365 Supply Chain Management по запросу
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: Продажа перспективному клиенту в случае двойной записи
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
                             - name: Внутренние активы для обслуживания
@@ -204,11 +228,25 @@
                           items:
                             - name: Поддержка решений Field Service и решений Project Service Automation
                               href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Начальная синхронизация
-                              href: data-entities/dual-write/initial-sync.md
-                            - name: Устранение неполадок при интеграции данных
-                              href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: Интеграция со средством интеграции данных Power Platform
+                            - name: Устранение неполадок
+                              items:
+                                - name: Проверка настройки двойной записи в приложениях Finance and Operations и Common Data Service
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: Устранение неполадок при начальной настройке
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: Устранение неполадок при начальной синхронизации
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: Устранение неполадок в работе модуля двойной записи в приложениях Finance and Operations
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: Устранение неполадок с синхронизацией в режиме реального времени
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: 'Устранение неполадок, связанных с поддержкой решений'
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: 'Устранение неполадок, связанных с обновлениями приложений Finance and Operations'
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: Общие рекомендации по устранению неполадок
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Интеграция с Power Platform
                       items:
                         - name: Настройка сценария продажи перспективному клиенту
                           items:
@@ -392,6 +430,8 @@
                       href: database/api/v1/reference-list-backups.md
                     - name: Создание обновления баз данных
                       href: database/api/v1/reference-create-refresh.md
+                    - name: Создание экспорта базы данных
+                      href: database/api/v1/reference-create-export.md
                     - name: Получение статуса операции
                       href: database/api/v1/reference-get-status.md
         - name: Демонстрационные данные
@@ -1032,6 +1072,8 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Мониторинг и диагностика
               href: lifecycle-services/monitoring-diagnostics.md
+            - name: Отчет по анализу влияния
+              href: lifecycle-services/impact-analysis-report.md
             - name: Перезапуск служб среды
               href: lifecycle-services/restart-environment-services.md
             - name: Сообщение о сбое производства
@@ -1396,6 +1438,10 @@
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: Сообщение о сбое производства
               href: lifecycle-services/report-production-outage.md
+            - name: Настройка и ведения журнала базы данных
+              href: sysadmin/configure-manage-database-log.md
+            - name: Сборка кэша метаданных OData при запуске AOS
+              href: sysadmin/odata-warmup.md
         - name: 'Модификации, обновления и исправления'
           items:
             - name: 'Ресурсы модификаций, обновлений и исправлений'

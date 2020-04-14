@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 51b6f3737627fe27b15e7fa231397bfdecbdab2f
-ms.sourcegitcommit: 74d05a3a3de2e421eeab7117f2fd1fdaeb23f083
+ms.openlocfilehash: ccfc0ea30360676d840f113615e9f5066fb088e4
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117150"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164753"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 
 
@@ -34,17 +34,19 @@ ms.locfileid: "3117150"
 
 | Версия | Номер сборки | Доступность автоматического обновления | Подробнее |
 |---|---|---|---|
+| 10.0.10 | 10.0.420 | 2020 мая | [Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.10](whats-new-scm-10-0-10.md) |
 | 10.0.9 | 10.0.383 | Апрель 2020 г. | [Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.9](whats-new-scm-10-0-9.md) |
 | 10.0.8 | 10.0.319 | 2020 февраля | [Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.8](whats-new-scm-10-0-8.md) |
-| 10.0.7  | 10.0.283   | 2020 января | [Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.7](whats-new-scm-10-0-7.md) |
-| 10.0.6 |   10.0.234   | Ноябрь 2019 г.  | [Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.6](whats-new-scm-10-0-6.md) |
 
-## <a name="releases-before-november-2019"></a>Выпуски до ноября 2019 г.
+
+## <a name="releases-before-february-2020"></a>Выпуски до февраля 2020 г.
 
 Чтобы просмотреть новые или измененные функции в выпусках до ноября 2019 г., см. следующие разделы.
 
-| Выпуск | Версия | Номер сборки | Доступность | Подробнее |
+| Выпустить | Версия | Номер сборки | Доступность | Подробнее |
 |---|---|---|---|---|
+| Dynamics 365 Supply Chain Management | 10.0.7  | 10.0.283   | 2020 января | [Что нового и что изменилось в Dynamics 365 Supply Chain Management версии 10.0.7](whats-new-scm-10-0-7.md) |
+| Dynamics 365 Supply Chain Management | 10.0.6 |   10.0.234   | Ноябрь 2019 г.  | [Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.6](whats-new-scm-10-0-6.md) |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.5      | 10.0.197         | 2019 октября     | [Что нового и что изменилось в Dynamics 365 for Finance and Operations версии 10.0.5 (октябрь 2019 г.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md)                 |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.4      | 10.0.136         | Июль 2019 г.        | [Что нового и что изменилось в Dynamics 365 for Finance and Operations версии 10.0.4 (июль 2019 г.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md)                    |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.3      | 10.0.107         | 2019 июня        | [Что нового и что изменилось в Dynamics 365 for Finance and Operations версии 10.0.3 (июнь 2019 г.)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-3.md)                    |

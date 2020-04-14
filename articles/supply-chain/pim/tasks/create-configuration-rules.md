@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f15c0328e391d81c4c977f974553ae9135b207c
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5758b2903cd0a269f3e03e44b618c26e8b2310
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844905"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147879"
 ---
 # <a name="create-configuration-rules"></a>Создание правил конфигурации
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Эта процедура заключается в создании правил конфигурации, которые можно использовать для конфигурации на основе аналитик, чтобы принудительно устанавливать или запрещать определенные сочетания строк спецификации. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Это седьмая из восьми процедур, в которых поясняется, как строить сочетания для конфигурации на основе аналитик.
 

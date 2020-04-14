@@ -3,7 +3,7 @@ title: Корректировка результатов рекомендаци�
 description: В этой теме объясняется, как адаптировать результаты рекомендаций продуктов на основе искусственного интеллекта и машинного обучения (AI-ML) для вашего бизнеса.
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4631ef03e1d73b70d80e774d1efa4909e619bbc0
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: afd9271c680b1f4248d6e60036f3e79d204dc3c2
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127936"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154349"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Корректировка результатов рекомендаций по продукту на основе AI-ML
 
@@ -110,11 +110,9 @@ ms.locfileid: "3127936"
 
 [Отказ от персонализированных рекомендаций](personalization-gdpr.md)
 
-[Добавление списков рекомендаций на сайт электронной коммерции](add-reco-list-to-page.md)
-
 [Добавление рекомендаций по продуктам в POS](product.md)
 
-[Добавление рекомендаций на экран проводки](add-recommendations-control-pos-screen.md)
+[Добавление рекомендаций на экран проводок](add-recommendations-control-pos-screen.md)
 
 [Создание контролируемых рекомендаций вручную](create-editorial-recommendation-lists.md)
 

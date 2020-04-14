@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12bbeaa4e0e2f6ee4874cf72863624a871ba87ea
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a5b539129e62b9b0b10df1f505cbfec5c1143138
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175597"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141634"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Настройка налоговых групп и налоговых групп номенклатур
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой записи задачи представлен процесс настройки налога и налоговых групп. Налоговые группы — группы налоговых кодов, присоединенные к клиентам и поставщикам. Они также присоединены к счетам ГК для проводок, которые не разнесены для конкретного поставщика или клиента.  Налоговые группы номенклатур — это группы налоговых кодов, присоединенные к ресурсам, таким как продукты.  Налоги, применяемые к конкретной проводке, определяются налоговыми кодами, включенными в налоговую группу и в налоговую группу номенклатур проводки.  Налог можно рассчитать, только если налоговая группа и налоговая группа номенклатур были выбраны для каждой проводки, для которой должен быть рассчитан или записан налог.  
 

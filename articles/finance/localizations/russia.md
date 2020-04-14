@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 32a0ae50a8cf51e7d2a574cf5a85b353a4995335
-ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
+ms.openlocfilehash: ca7e9cad6bb24322cdbf957a8b6e96f243f91671
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3133980"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161794"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -121,6 +121,7 @@ ms.locfileid: "3133980"
 - [Номера таможенных деклараций](rus-custom-declaration-number.md)
 - [Структура стоимости запасов](rus-inventory-cost-structure.md)
 - [Мастер корректировки запасов](rus-inventory-adjustment-wizard.md)
+- [Отчеты о запасах](rus-inventory-reports.md)
 
 ## <a name="reporting"></a>Отчетность
 

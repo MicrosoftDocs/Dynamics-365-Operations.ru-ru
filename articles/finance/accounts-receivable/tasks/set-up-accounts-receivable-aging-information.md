@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 77b5dd5feb16cc3bd6d64b6520cc47087c5b5224
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e3c1ec73da27a08aa7a6cd859d1adac772916e4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188656"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140192"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Настройка и создание сведений о распределении по срокам для расчетов с клиентами
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Это руководство поможет настроить определение периода распределения по срокам, распределить сальдо клиента по срокам и просмотреть сальдо в списке "Сальдо с распределением по срокам" и на странице "Сборы". В данной записи используется демонстрационная компания USMF.
 

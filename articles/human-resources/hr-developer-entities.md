@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6879a45dd1fcc1ba718747aaaf0d7936c2eac49f
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: c8e0288da16829c04a9b97c0a52caa8bd27cddf8
+ms.sourcegitcommit: fde8045ea49d0cf26d5e7ac5a0da5c0d3d69d5bc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087354"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3166506"
 ---
 # <a name="common-data-service-entities"></a>Объекты Common Data Service
 
@@ -86,13 +86,18 @@ Microsoft Dynamics 365 Human Resources использует Common Data Service 
 | Функциональные обязанности | cdm_jobfunction |
 | Должность | cdm_jobposition |
 | Тип позиции | cdm_positiontype |
-| Назначение работника на позицию | cdm_positionworkerassignmentmap |
-| Тип должности | cdm_jobtype |
+| Назначение работника на должность | cdm_positionworkerassignmentmap |
+| Аналитика должности | cdm_jobpositiondimension|
+| Тип вакансии | cdm_jobtype |
 | Язык | cdm_language |
+| Должность | cdm_title |
+
+> [!NOTE]
+> Финансовые аналитики для **Тип должности**, **Назначение работника на должность** и **Занятость** обеспечивают однонаправленную интеграцию с Common Data Service. Обновления финансовых аналитик в данный момент не могут выполнять синхронизацию из Common Data Service в Human Resources. 
 
 ## <a name="leave-and-absence-entities"></a>Объекты отпусков и отсутствия
 
-| Название | Объект |
+| Наименование | Объект |
 | --- | --- |
 | Банковская проводка отпуска | cdm_leavebanktransaction |
 | Регистрация отпуска | cdm_leaveenrollment |
