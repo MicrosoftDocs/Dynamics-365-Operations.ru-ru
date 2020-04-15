@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: faf43eb15283ffd7e36ad38728f166884dddcd85
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 4ac87356f46edc118a592acd393823603815917a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844833"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150128"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Создание иерархии классификации продуктов
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой процедуре показано, как создать новую иерархию категорий и назначить тип иерархии "товарный код". В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для менеджера категорий.
 

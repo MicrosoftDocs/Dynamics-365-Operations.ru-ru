@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 1ded87dcd553c0aa9c19ca273460f9adf0a4b542
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025836"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148638"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Поиск применимых цен и скидок
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой процедуре показано, как найти цену и/или скидку по продукту, которая в настоящее время действует для определенного клиента, без создания заказа на продажу. Процедура представляет собой конкретный например, и выполнять его необходимо с использованием демонстрационной компании USMF, чтобы выбирать необходимые значения.
 
