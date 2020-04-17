@@ -1,5 +1,5 @@
 ---
-title: Домашняя страница бизнес-аналитики (BI) и отчетности
+title: Домашняя страница отчетности и аналитика с Power BI
 description: В этом разделе описаны ресурсы, которые можно использовать для получения дополнительных сведений о доступных бизнес-аналитике и средствах отчетности.
 author: sericks007
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 424da665f91820f3fe42c98b352a646dd3db72c5
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771572"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258588"
 ---
-# <a name="business-intelligence-bi-and-reporting-home-page"></a>Домашняя страница бизнес-аналитики (BI) и отчетности
+# <a name="reporting-and-analytics-with-power-bi-home-page"></a>Домашняя страница отчетности и аналитика с Power BI
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "2771572"
 ## <a name="get-started"></a>Начало работы
 - [Доступ к данным и отчетность](information-access-reporting.md)
 - [Технические вопросы: варианты отчетности](https://www.youtube.com/watch?v=NzZONjKs5xA) (видео)
-- [Finance and Operations: блог по Power BI Analytics & Reporting Services](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (блог)
+- [Finance and Operations: блог по службам аналитики и отчетности Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (блог)
 
 ## <a name="analytical-workspaces"></a>Рабочие области для аналитики
 В рабочих областях можно использовать инфографику и другие визуальные элементы, поддерживаемые Microsoft Power BI. Эти визуальные элементы содержат множество элементов управления, предоставляемых сторонними разработчиками. Поэтому рабочие области представляют собой очень наглядный интерактивный инструмент для пользователей.
