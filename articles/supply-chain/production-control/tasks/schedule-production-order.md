@@ -2,7 +2,7 @@
 title: Планирование производственного заказа
 description: Следующая процедура показывает планирование производственного заказа.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,48 +10,48 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob, WrkCtrCapResSum
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ae2414fcc96b4a12aeb0c60252a27321aacc7df
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: daaf7a593f8ae5185333c33b9e475dfd62358eb8
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3146637"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210441"
 ---
-# <a name="schedule-a-production-order"></a><span data-ttu-id="5a055-103">Планирование производственного заказа</span><span class="sxs-lookup"><span data-stu-id="5a055-103">Schedule a production order</span></span>
+# <a name="schedule-a-production-order"></a><span data-ttu-id="f85ca-103">Планирование производственного заказа</span><span class="sxs-lookup"><span data-stu-id="f85ca-103">Schedule a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="5a055-104">Следующая процедура показывает планирование производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="5a055-104">This procedure shows how to schedule a production order.</span></span> <span data-ttu-id="5a055-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="5a055-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5a055-106">Это третья из семи процедур, которая объясняет жизненный цикл производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="5a055-106">This is the third procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="f85ca-104">Следующая процедура показывает планирование производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="f85ca-104">This procedure shows how to schedule a production order.</span></span> <span data-ttu-id="f85ca-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="f85ca-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f85ca-106">Это третья из семи процедур, которая объясняет жизненный цикл производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="f85ca-106">This is the third procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="schedule-a-production-order"></a><span data-ttu-id="5a055-107">Планирование производственного заказа</span><span class="sxs-lookup"><span data-stu-id="5a055-107">Schedule a production order</span></span>
-1. <span data-ttu-id="5a055-108">Перейдите в раздел "Управление производством" > "Производственные заказы" > "Все производственные заказы".</span><span class="sxs-lookup"><span data-stu-id="5a055-108">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="5a055-109">Выберите производственный заказ со статусом "Оценено".</span><span class="sxs-lookup"><span data-stu-id="5a055-109">Select a production order that has the Estimated status.</span></span>  
-2. <span data-ttu-id="5a055-110">В области действий щелкните "План".</span><span class="sxs-lookup"><span data-stu-id="5a055-110">On the Action Pane, click Schedule.</span></span>
-3. <span data-ttu-id="5a055-111">Щелкните "Планирование заданий".</span><span class="sxs-lookup"><span data-stu-id="5a055-111">Click Schedule jobs.</span></span>
-    * <span data-ttu-id="5a055-112">На этой странице задаются параметры планирования.</span><span class="sxs-lookup"><span data-stu-id="5a055-112">The parameters for scheduling are set up on this page.</span></span> <span data-ttu-id="5a055-113">Вы можете настроить параметры для конкретных пользователей или всех пользователей.</span><span class="sxs-lookup"><span data-stu-id="5a055-113">You can set up the parameters for specific users or all users.</span></span>  
-4. <span data-ttu-id="5a055-114">В поле "Направление планирования" выберите "Вперед от сегодняшнего дня".</span><span class="sxs-lookup"><span data-stu-id="5a055-114">In the Scheduling direction field, select 'Forward from today'.</span></span>
-5. <span data-ttu-id="5a055-115">В поле "Дата планирования" введите дату.</span><span class="sxs-lookup"><span data-stu-id="5a055-115">In the Scheduling date field, enter a date.</span></span>
-6. <span data-ttu-id="5a055-116">Установите или снимите флажок "Ограничение по мощности".</span><span class="sxs-lookup"><span data-stu-id="5a055-116">Select or clear the Finite capacity check box.</span></span>
-7. <span data-ttu-id="5a055-117">Установите или снимите флажок "Ограничение по материалам".</span><span class="sxs-lookup"><span data-stu-id="5a055-117">Select or clear the Finite material check box.</span></span>
-8. <span data-ttu-id="5a055-118">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="5a055-118">Click OK.</span></span>
+## <a name="schedule-a-production-order"></a><span data-ttu-id="f85ca-107">Планирование производственного заказа</span><span class="sxs-lookup"><span data-stu-id="f85ca-107">Schedule a production order</span></span>
+1. <span data-ttu-id="f85ca-108">Перейдите в раздел "Управление производством" > "Производственные заказы" > "Все производственные заказы".</span><span class="sxs-lookup"><span data-stu-id="f85ca-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="f85ca-109">Выберите производственный заказ со статусом "Оценено".</span><span class="sxs-lookup"><span data-stu-id="f85ca-109">Select a production order that has the Estimated status.</span></span>  
+2. <span data-ttu-id="f85ca-110">В области действий щелкните "План".</span><span class="sxs-lookup"><span data-stu-id="f85ca-110">On the Action Pane, click Schedule.</span></span>
+3. <span data-ttu-id="f85ca-111">Щелкните "Планирование заданий".</span><span class="sxs-lookup"><span data-stu-id="f85ca-111">Click Schedule jobs.</span></span>
+    * <span data-ttu-id="f85ca-112">На этой странице задаются параметры планирования.</span><span class="sxs-lookup"><span data-stu-id="f85ca-112">The parameters for scheduling are set up on this page.</span></span> <span data-ttu-id="f85ca-113">Вы можете настроить параметры для конкретных пользователей или всех пользователей.</span><span class="sxs-lookup"><span data-stu-id="f85ca-113">You can set up the parameters for specific users or all users.</span></span>  
+4. <span data-ttu-id="f85ca-114">В поле "Направление планирования" выберите "Вперед от сегодняшнего дня".</span><span class="sxs-lookup"><span data-stu-id="f85ca-114">In the Scheduling direction field, select 'Forward from today'.</span></span>
+5. <span data-ttu-id="f85ca-115">В поле "Дата планирования" введите дату.</span><span class="sxs-lookup"><span data-stu-id="f85ca-115">In the Scheduling date field, enter a date.</span></span>
+6. <span data-ttu-id="f85ca-116">Установите или снимите флажок "Ограничение по мощности".</span><span class="sxs-lookup"><span data-stu-id="f85ca-116">Select or clear the Finite capacity check box.</span></span>
+7. <span data-ttu-id="f85ca-117">Установите или снимите флажок "Ограничение по материалам".</span><span class="sxs-lookup"><span data-stu-id="f85ca-117">Select or clear the Finite material check box.</span></span>
+8. <span data-ttu-id="f85ca-118">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="f85ca-118">Click OK.</span></span>
 
-## <a name="view-the-scheduling-results"></a><span data-ttu-id="5a055-119">Просмотр результатов планирования</span><span class="sxs-lookup"><span data-stu-id="5a055-119">View the scheduling results</span></span>
-1. <span data-ttu-id="5a055-120">В области действий щелкните "Производственный заказ".</span><span class="sxs-lookup"><span data-stu-id="5a055-120">On the Action Pane, click Production order.</span></span>
-2. <span data-ttu-id="5a055-121">Щелкните "Все задания".</span><span class="sxs-lookup"><span data-stu-id="5a055-121">Click All jobs.</span></span>
-    * <span data-ttu-id="5a055-122">На этой странице отображаются запланированные задания, которые вы только что создали.</span><span class="sxs-lookup"><span data-stu-id="5a055-122">This page displays the scheduled jobs that you have just generated.</span></span>  
-3. <span data-ttu-id="5a055-123">Разверните или сверните раздел "Планирование".</span><span class="sxs-lookup"><span data-stu-id="5a055-123">Expand or collapse the Scheduling section.</span></span>
-    * <span data-ttu-id="5a055-124">На экспресс-вкладке "Планирование" можно просмотреть запланированные дату и время.</span><span class="sxs-lookup"><span data-stu-id="5a055-124">On the Scheduling FastTab, you can view the scheduled date and time.</span></span>  
-4. <span data-ttu-id="5a055-125">Щелкните Запросы.</span><span class="sxs-lookup"><span data-stu-id="5a055-125">Click Inquiries.</span></span>
-5. <span data-ttu-id="5a055-126">Щелкните "Максимальная мощность".</span><span class="sxs-lookup"><span data-stu-id="5a055-126">Click Capacity load.</span></span>
-    * <span data-ttu-id="5a055-127">На странице "Максимальная мощность" отображается мощность, зарезервированная при планировании заданий, общее число часов, которое в настоящее время зарезервировано для ресурса, и число часов, которой осталось доступным для планирования заданий этого ресурса.</span><span class="sxs-lookup"><span data-stu-id="5a055-127">The Capacity load page displays the capacity that is reserved through job scheduling, the total number of hours that are currently reserved on the resource, and the number of hours that remain available for job scheduling on the resource.</span></span>  
-6. <span data-ttu-id="5a055-128">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="5a055-128">Close the page.</span></span>
-7. <span data-ttu-id="5a055-129">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="5a055-129">Close the page.</span></span>
+## <a name="view-the-scheduling-results"></a><span data-ttu-id="f85ca-119">Просмотр результатов планирования</span><span class="sxs-lookup"><span data-stu-id="f85ca-119">View the scheduling results</span></span>
+1. <span data-ttu-id="f85ca-120">В области действий щелкните "Производственный заказ".</span><span class="sxs-lookup"><span data-stu-id="f85ca-120">On the Action Pane, click Production order.</span></span>
+2. <span data-ttu-id="f85ca-121">Щелкните "Все задания".</span><span class="sxs-lookup"><span data-stu-id="f85ca-121">Click All jobs.</span></span>
+    * <span data-ttu-id="f85ca-122">На этой странице отображаются запланированные задания, которые вы только что создали.</span><span class="sxs-lookup"><span data-stu-id="f85ca-122">This page displays the scheduled jobs that you have just generated.</span></span>  
+3. <span data-ttu-id="f85ca-123">Разверните или сверните раздел "Планирование".</span><span class="sxs-lookup"><span data-stu-id="f85ca-123">Expand or collapse the Scheduling section.</span></span>
+    * <span data-ttu-id="f85ca-124">На экспресс-вкладке "Планирование" можно просмотреть запланированные дату и время.</span><span class="sxs-lookup"><span data-stu-id="f85ca-124">On the Scheduling FastTab, you can view the scheduled date and time.</span></span>  
+4. <span data-ttu-id="f85ca-125">Щелкните Запросы.</span><span class="sxs-lookup"><span data-stu-id="f85ca-125">Click Inquiries.</span></span>
+5. <span data-ttu-id="f85ca-126">Щелкните "Максимальная мощность".</span><span class="sxs-lookup"><span data-stu-id="f85ca-126">Click Capacity load.</span></span>
+    * <span data-ttu-id="f85ca-127">На странице "Максимальная мощность" отображается мощность, зарезервированная при планировании заданий, общее число часов, которое в настоящее время зарезервировано для ресурса, и число часов, которой осталось доступным для планирования заданий этого ресурса.</span><span class="sxs-lookup"><span data-stu-id="f85ca-127">The Capacity load page displays the capacity that is reserved through job scheduling, the total number of hours that are currently reserved on the resource, and the number of hours that remain available for job scheduling on the resource.</span></span>  
+6. <span data-ttu-id="f85ca-128">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="f85ca-128">Close the page.</span></span>
+7. <span data-ttu-id="f85ca-129">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="f85ca-129">Close the page.</span></span>
 

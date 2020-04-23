@@ -2,47 +2,47 @@
 title: Завершение производственного заказа
 description: Следующая процедура используется для завершения производственного заказа.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb84d3b1908d6be889a49f7386de876cb52141ab
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: fade659c320e0ea1059644324859c9a3cb273c96
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149052"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207079"
 ---
-# <a name="end-a-production-order"></a><span data-ttu-id="eacf7-103">Завершение производственного заказа</span><span class="sxs-lookup"><span data-stu-id="eacf7-103">End a production order</span></span>
+# <a name="end-a-production-order"></a><span data-ttu-id="269b7-103">Завершение производственного заказа</span><span class="sxs-lookup"><span data-stu-id="269b7-103">End a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="eacf7-104">Следующая процедура используется для завершения производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="eacf7-104">This procedure shows how to end a production order.</span></span> <span data-ttu-id="eacf7-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="eacf7-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="eacf7-106">Это последняя из семи процедур, которая объясняет жизненный цикл производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="eacf7-106">This is the final procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="269b7-104">Следующая процедура используется для завершения производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="269b7-104">This procedure shows how to end a production order.</span></span> <span data-ttu-id="269b7-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="269b7-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="269b7-106">Это последняя из семи процедур, которая объясняет жизненный цикл производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="269b7-106">This is the final procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="end-a-production-order"></a><span data-ttu-id="eacf7-107">Завершение производственного заказа</span><span class="sxs-lookup"><span data-stu-id="eacf7-107">End a production order</span></span>
-1. <span data-ttu-id="eacf7-108">Перейдите в раздел "Управление производством" > "Производственные заказы" > "Все производственные заказы".</span><span class="sxs-lookup"><span data-stu-id="eacf7-108">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="eacf7-109">Выберите производственный заказ со статусом "Принятые".</span><span class="sxs-lookup"><span data-stu-id="eacf7-109">Select a production order that has the status Reported as finished.</span></span>  
-2. <span data-ttu-id="eacf7-110">В области действий щелкните "Производственный заказ".</span><span class="sxs-lookup"><span data-stu-id="eacf7-110">On the Action Pane, click Production order.</span></span>
-3. <span data-ttu-id="eacf7-111">Щелкните "Готово".</span><span class="sxs-lookup"><span data-stu-id="eacf7-111">Click End.</span></span>
-    * <span data-ttu-id="eacf7-112">На этой странице можно подтвердить завершение производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="eacf7-112">On this page, you can confirm that you want to end the production order.</span></span>  
-4. <span data-ttu-id="eacf7-113">Перейдите на вкладку "Общие".</span><span class="sxs-lookup"><span data-stu-id="eacf7-113">Click the General tab.</span></span>
-5. <span data-ttu-id="eacf7-114">В поле "Дата" введите дату.</span><span class="sxs-lookup"><span data-stu-id="eacf7-114">In the Date field, enter a date.</span></span>
-6. <span data-ttu-id="eacf7-115">В поле "Метод отходов" выберите "Распределение".</span><span class="sxs-lookup"><span data-stu-id="eacf7-115">In the Scrap method field, select 'Allocation'.</span></span>
-    * <span data-ttu-id="eacf7-116">При выборе метода распределения стоимость сданных в отходы материалов добавляется к готовым товарам.</span><span class="sxs-lookup"><span data-stu-id="eacf7-116">When you select the Allocation method, costs from the scrapped materials are added to the finished goods.</span></span>  
-7. <span data-ttu-id="eacf7-117">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="eacf7-117">Click OK.</span></span>
+## <a name="end-a-production-order"></a><span data-ttu-id="269b7-107">Завершение производственного заказа</span><span class="sxs-lookup"><span data-stu-id="269b7-107">End a production order</span></span>
+1. <span data-ttu-id="269b7-108">Перейдите в раздел "Управление производством" > "Производственные заказы" > "Все производственные заказы".</span><span class="sxs-lookup"><span data-stu-id="269b7-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="269b7-109">Выберите производственный заказ со статусом "Принятые".</span><span class="sxs-lookup"><span data-stu-id="269b7-109">Select a production order that has the status Reported as finished.</span></span>  
+2. <span data-ttu-id="269b7-110">В области действий щелкните "Производственный заказ".</span><span class="sxs-lookup"><span data-stu-id="269b7-110">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="269b7-111">Щелкните "Готово".</span><span class="sxs-lookup"><span data-stu-id="269b7-111">Click End.</span></span>
+    * <span data-ttu-id="269b7-112">На этой странице можно подтвердить завершение производственного заказа.</span><span class="sxs-lookup"><span data-stu-id="269b7-112">On this page, you can confirm that you want to end the production order.</span></span>  
+4. <span data-ttu-id="269b7-113">Перейдите на вкладку "Общие".</span><span class="sxs-lookup"><span data-stu-id="269b7-113">Click the General tab.</span></span>
+5. <span data-ttu-id="269b7-114">В поле "Дата" введите дату.</span><span class="sxs-lookup"><span data-stu-id="269b7-114">In the Date field, enter a date.</span></span>
+6. <span data-ttu-id="269b7-115">В поле "Метод отходов" выберите "Распределение".</span><span class="sxs-lookup"><span data-stu-id="269b7-115">In the Scrap method field, select 'Allocation'.</span></span>
+    * <span data-ttu-id="269b7-116">При выборе метода распределения стоимость сданных в отходы материалов добавляется к готовым товарам.</span><span class="sxs-lookup"><span data-stu-id="269b7-116">When you select the Allocation method, costs from the scrapped materials are added to the finished goods.</span></span>  
+7. <span data-ttu-id="269b7-117">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="269b7-117">Click OK.</span></span>
 
-## <a name="validate-calculation-results"></a><span data-ttu-id="eacf7-118">Проверка результатов расчета</span><span class="sxs-lookup"><span data-stu-id="eacf7-118">Validate calculation results</span></span>
-1. <span data-ttu-id="eacf7-119">В области действий щелкните "Управление затратами".</span><span class="sxs-lookup"><span data-stu-id="eacf7-119">On the Action Pane, click Manage costs.</span></span>
-2. <span data-ttu-id="eacf7-120">Щелкните "Просмотр сравнения стоимости".</span><span class="sxs-lookup"><span data-stu-id="eacf7-120">Click View cost comparison.</span></span>
-    * <span data-ttu-id="eacf7-121">После завершения производственного заказа можно сравнить расчетную себестоимость и фактическую себестоимость для получения сведений о производственных различиях.</span><span class="sxs-lookup"><span data-stu-id="eacf7-121">After you have ended the production order, you can compare the estimated cost price against the realized cost price to get an overview of the production variances.</span></span>  
+## <a name="validate-calculation-results"></a><span data-ttu-id="269b7-118">Проверка результатов расчета</span><span class="sxs-lookup"><span data-stu-id="269b7-118">Validate calculation results</span></span>
+1. <span data-ttu-id="269b7-119">В области действий щелкните "Управление затратами".</span><span class="sxs-lookup"><span data-stu-id="269b7-119">On the Action Pane, click Manage costs.</span></span>
+2. <span data-ttu-id="269b7-120">Щелкните "Просмотр сравнения стоимости".</span><span class="sxs-lookup"><span data-stu-id="269b7-120">Click View cost comparison.</span></span>
+    * <span data-ttu-id="269b7-121">После завершения производственного заказа можно сравнить расчетную себестоимость и фактическую себестоимость для получения сведений о производственных различиях.</span><span class="sxs-lookup"><span data-stu-id="269b7-121">After you have ended the production order, you can compare the estimated cost price against the realized cost price to get an overview of the production variances.</span></span>  

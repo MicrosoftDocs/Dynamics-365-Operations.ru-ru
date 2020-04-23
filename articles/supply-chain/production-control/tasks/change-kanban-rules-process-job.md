@@ -2,7 +2,7 @@
 title: Изменение правил канбана для задания обработки
 description: Эта процедура нацелена на изменение используемого правила канбана для данного канбана.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,42 +10,42 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, KanbanReassignRuleLookup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 485afff3747a87a6e36f0249b146a39361d81b23
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 4d4c8fd8251aca2cc53e59afe4c104f2e5198426
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147143"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210970"
 ---
-# <a name="change-kanban-rules-for-a-process-job"></a><span data-ttu-id="4d68c-103">Изменение правил канбана для задания обработки</span><span class="sxs-lookup"><span data-stu-id="4d68c-103">Change kanban rules for a process job</span></span>
+# <a name="change-kanban-rules-for-a-process-job"></a><span data-ttu-id="e9897-103">Изменение правил канбана для задания обработки</span><span class="sxs-lookup"><span data-stu-id="e9897-103">Change kanban rules for a process job</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="4d68c-104">Эта процедура нацелена на изменение используемого правила канбана для данного канбана.</span><span class="sxs-lookup"><span data-stu-id="4d68c-104">This procedure focuses on changing the used kanban rule for a given kanban.</span></span> <span data-ttu-id="4d68c-105">Это бывает полезно для выравнивания загрузки ресурсов или в случае разбиения работ.</span><span class="sxs-lookup"><span data-stu-id="4d68c-105">This is useful to level load resources or in case of breakdown.</span></span> <span data-ttu-id="4d68c-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="4d68c-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="4d68c-107">Эта процедура предназначена для планировщика, который работает в компании, использующей бережливое производство, и отвечает за поток создания ценности.</span><span class="sxs-lookup"><span data-stu-id="4d68c-107">This procedure is intended for the planner, working at a lean manufacturing company, responsible for the value stream.</span></span>
+<span data-ttu-id="e9897-104">Эта процедура нацелена на изменение используемого правила канбана для данного канбана.</span><span class="sxs-lookup"><span data-stu-id="e9897-104">This procedure focuses on changing the used kanban rule for a given kanban.</span></span> <span data-ttu-id="e9897-105">Это бывает полезно для выравнивания загрузки ресурсов или в случае разбиения работ.</span><span class="sxs-lookup"><span data-stu-id="e9897-105">This is useful to level load resources or in case of breakdown.</span></span> <span data-ttu-id="e9897-106">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="e9897-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="e9897-107">Эта процедура предназначена для планировщика, который работает в компании, использующей бережливое производство, и отвечает за поток создания ценности.</span><span class="sxs-lookup"><span data-stu-id="e9897-107">This procedure is intended for the planner, working at a lean manufacturing company, responsible for the value stream.</span></span>
 
 
-## <a name="copy-kanban-rule"></a><span data-ttu-id="4d68c-108">Копирование правила канбана</span><span class="sxs-lookup"><span data-stu-id="4d68c-108">Copy kanban rule</span></span>
-1. <span data-ttu-id="4d68c-109">Перейти к правилам канбана.</span><span class="sxs-lookup"><span data-stu-id="4d68c-109">Go to Kanban rules.</span></span>
-2. <span data-ttu-id="4d68c-110">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="4d68c-110">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="4d68c-111">Выберите правило канбана событий 000022 для L0001.</span><span class="sxs-lookup"><span data-stu-id="4d68c-111">Select Event Kanban rule 000022 for L0001.</span></span>  
-3. <span data-ttu-id="4d68c-112">Щелкните "Дублировать правило канбана".</span><span class="sxs-lookup"><span data-stu-id="4d68c-112">Click Duplicate kanban rule.</span></span>
-4. <span data-ttu-id="4d68c-113">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="4d68c-113">Click OK.</span></span>
+## <a name="copy-kanban-rule"></a><span data-ttu-id="e9897-108">Копирование правила канбана</span><span class="sxs-lookup"><span data-stu-id="e9897-108">Copy kanban rule</span></span>
+1. <span data-ttu-id="e9897-109">Перейти к правилам канбана.</span><span class="sxs-lookup"><span data-stu-id="e9897-109">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="e9897-110">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="e9897-110">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e9897-111">Выберите правило канбана событий 000022 для L0001.</span><span class="sxs-lookup"><span data-stu-id="e9897-111">Select Event Kanban rule 000022 for L0001.</span></span>  
+3. <span data-ttu-id="e9897-112">Щелкните "Дублировать правило канбана".</span><span class="sxs-lookup"><span data-stu-id="e9897-112">Click Duplicate kanban rule.</span></span>
+4. <span data-ttu-id="e9897-113">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="e9897-113">Click OK.</span></span>
 
-## <a name="change-kanban-rule"></a><span data-ttu-id="4d68c-114">Изменение правила канбана</span><span class="sxs-lookup"><span data-stu-id="4d68c-114">Change kanban rule</span></span>
-1. <span data-ttu-id="4d68c-115">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="4d68c-115">Close the page.</span></span>
-2. <span data-ttu-id="4d68c-116">Перейдите в раздел "Планирование заданий канбана".</span><span class="sxs-lookup"><span data-stu-id="4d68c-116">Go to Kanban job scheduling.</span></span>
-3. <span data-ttu-id="4d68c-117">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="4d68c-117">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="4d68c-118">Выберите строку с канбаном 000177.</span><span class="sxs-lookup"><span data-stu-id="4d68c-118">Select line with Kanban 000177.</span></span>  
-4. <span data-ttu-id="4d68c-119">Щелкните "Использовать альтернативное правило канбана".</span><span class="sxs-lookup"><span data-stu-id="4d68c-119">Click Use alternative kanban rule.</span></span>
-5. <span data-ttu-id="4d68c-120">Щелкните Далее.</span><span class="sxs-lookup"><span data-stu-id="4d68c-120">Click Next.</span></span>
-6. <span data-ttu-id="4d68c-121">В поле "Правило канбана" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="4d68c-121">In the Kanban rule field, enter or select a value.</span></span>
-    * <span data-ttu-id="4d68c-122">Выберите правило канбана, созданное ранее.</span><span class="sxs-lookup"><span data-stu-id="4d68c-122">Select the kanban rule that was created earlier.</span></span> <span data-ttu-id="4d68c-123">Это правило канбана с самым большим номером.</span><span class="sxs-lookup"><span data-stu-id="4d68c-123">This is the kanban rule with the highest number.</span></span>  
-7. <span data-ttu-id="4d68c-124">Нажмите кнопку Готово.</span><span class="sxs-lookup"><span data-stu-id="4d68c-124">Click Finish.</span></span>
-    * <span data-ttu-id="4d68c-125">Теперь задание канбана использует другое правило канбана.</span><span class="sxs-lookup"><span data-stu-id="4d68c-125">Now the kanban job is using an another kanban rule.</span></span> <span data-ttu-id="4d68c-126">Это может быть полезно для выравнивание загрузки производственных ячеек.</span><span class="sxs-lookup"><span data-stu-id="4d68c-126">This can be useful to level load work cells.</span></span>  
+## <a name="change-kanban-rule"></a><span data-ttu-id="e9897-114">Изменение правила канбана</span><span class="sxs-lookup"><span data-stu-id="e9897-114">Change kanban rule</span></span>
+1. <span data-ttu-id="e9897-115">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="e9897-115">Close the page.</span></span>
+2. <span data-ttu-id="e9897-116">Перейдите в раздел "Планирование заданий канбана".</span><span class="sxs-lookup"><span data-stu-id="e9897-116">Go to Kanban job scheduling.</span></span>
+3. <span data-ttu-id="e9897-117">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="e9897-117">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="e9897-118">Выберите строку с канбаном 000177.</span><span class="sxs-lookup"><span data-stu-id="e9897-118">Select line with Kanban 000177.</span></span>  
+4. <span data-ttu-id="e9897-119">Щелкните "Использовать альтернативное правило канбана".</span><span class="sxs-lookup"><span data-stu-id="e9897-119">Click Use alternative kanban rule.</span></span>
+5. <span data-ttu-id="e9897-120">Щелкните Далее.</span><span class="sxs-lookup"><span data-stu-id="e9897-120">Click Next.</span></span>
+6. <span data-ttu-id="e9897-121">В поле "Правило канбана" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="e9897-121">In the Kanban rule field, enter or select a value.</span></span>
+    * <span data-ttu-id="e9897-122">Выберите правило канбана, созданное ранее.</span><span class="sxs-lookup"><span data-stu-id="e9897-122">Select the kanban rule that was created earlier.</span></span> <span data-ttu-id="e9897-123">Это правило канбана с самым большим номером.</span><span class="sxs-lookup"><span data-stu-id="e9897-123">This is the kanban rule with the highest number.</span></span>  
+7. <span data-ttu-id="e9897-124">Нажмите кнопку Готово.</span><span class="sxs-lookup"><span data-stu-id="e9897-124">Click Finish.</span></span>
+    * <span data-ttu-id="e9897-125">Теперь задание канбана использует другое правило канбана.</span><span class="sxs-lookup"><span data-stu-id="e9897-125">Now the kanban job is using an another kanban rule.</span></span> <span data-ttu-id="e9897-126">Это может быть полезно для выравнивание загрузки производственных ячеек.</span><span class="sxs-lookup"><span data-stu-id="e9897-126">This can be useful to level load work cells.</span></span>  
 

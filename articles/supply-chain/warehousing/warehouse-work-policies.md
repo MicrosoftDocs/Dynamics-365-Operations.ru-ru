@@ -2,7 +2,7 @@
 title: Обзор политик работы склада
 description: Политики работы склада определяют, создается ли работа склада складскими процессами в производстве, исходя из типа заказа на выполнение работ, местонахождения запасов и продукта.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
@@ -19,231 +19,231 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7476cf797685feb4c50e3cefef4c53ca37b82dff
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3fe22a92b445abbf6d1dcc67ead878db3f80d532
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251416"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204570"
 ---
-# <a name="warehouse-work-policies-overview"></a><span data-ttu-id="af949-103">Обзор политик работы склада</span><span class="sxs-lookup"><span data-stu-id="af949-103">Warehouse work policies overview</span></span>
+# <a name="warehouse-work-policies-overview"></a><span data-ttu-id="474a2-103">Обзор политик работы склада</span><span class="sxs-lookup"><span data-stu-id="474a2-103">Warehouse work policies overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="af949-104">Политики работы склада определяют, создается ли работа склада складскими процессами в производстве, исходя из типа заказа на выполнение работ, местонахождения запасов и продукта.</span><span class="sxs-lookup"><span data-stu-id="af949-104">Warehouse work policies control whether warehouse work is created by warehouse processes in manufacturing, based on work order type, inventory location, and product.</span></span>
+<span data-ttu-id="474a2-104">Политики работы склада определяют, создается ли работа склада складскими процессами в производстве, исходя из типа заказа на выполнение работ, местонахождения запасов и продукта.</span><span class="sxs-lookup"><span data-stu-id="474a2-104">Warehouse work policies control whether warehouse work is created by warehouse processes in manufacturing, based on work order type, inventory location, and product.</span></span>
 
-<span data-ttu-id="af949-105">Эта политика работы контролирует, создается ли работа склада для процессов склада в производстве.</span><span class="sxs-lookup"><span data-stu-id="af949-105">This work policy controls whether warehouse work is created for warehouse processes in manufacturing.</span></span> <span data-ttu-id="af949-106">Можно настроить политику работы с использованием сочетания **типы заказов на выполнение работ**, **местоположения запасов** и **продукта**.</span><span class="sxs-lookup"><span data-stu-id="af949-106">You can set up the work policy by using a combination of **work order types**, an **inventory location**, and a **product**.</span></span> <span data-ttu-id="af949-107">Например, продукт L0101 готов в выходном местоположении 001.</span><span class="sxs-lookup"><span data-stu-id="af949-107">For example, product L0101 is reported as finished to output location 001.</span></span> <span data-ttu-id="af949-108">Готовая продукция позже потребляется в другом производственном заказе в выходном местоположении 001.</span><span class="sxs-lookup"><span data-stu-id="af949-108">The finished good is later consumed in another production order at output location 001.</span></span> <span data-ttu-id="af949-109">В этом случае можно настроить политику работы для предотвращения создания работы для складирования готовых товаров, когда продукт L0101 регистрируется как готовый в выходном местоположении 001.</span><span class="sxs-lookup"><span data-stu-id="af949-109">In this case, you can set up a work policy to prevent the work for finished goods put-away from being created when you report product L0101 as finished to output location 001.</span></span> <span data-ttu-id="af949-110">Политика работы — это индивидуальный объект, который может быть описан с помощью следующей информации:</span><span class="sxs-lookup"><span data-stu-id="af949-110">The work policy is an individual entity that can be described through the following information:</span></span>
+<span data-ttu-id="474a2-105">Эта политика работы контролирует, создается ли работа склада для процессов склада в производстве.</span><span class="sxs-lookup"><span data-stu-id="474a2-105">This work policy controls whether warehouse work is created for warehouse processes in manufacturing.</span></span> <span data-ttu-id="474a2-106">Можно настроить политику работы с использованием сочетания **типы заказов на выполнение работ**, **местоположения запасов** и **продукта**.</span><span class="sxs-lookup"><span data-stu-id="474a2-106">You can set up the work policy by using a combination of **work order types**, an **inventory location**, and a **product**.</span></span> <span data-ttu-id="474a2-107">Например, продукт L0101 готов в выходном местоположении 001.</span><span class="sxs-lookup"><span data-stu-id="474a2-107">For example, product L0101 is reported as finished to output location 001.</span></span> <span data-ttu-id="474a2-108">Готовая продукция позже потребляется в другом производственном заказе в выходном местоположении 001.</span><span class="sxs-lookup"><span data-stu-id="474a2-108">The finished good is later consumed in another production order at output location 001.</span></span> <span data-ttu-id="474a2-109">В этом случае можно настроить политику работы для предотвращения создания работы для складирования готовых товаров, когда продукт L0101 регистрируется как готовый в выходном местоположении 001.</span><span class="sxs-lookup"><span data-stu-id="474a2-109">In this case, you can set up a work policy to prevent the work for finished goods put-away from being created when you report product L0101 as finished to output location 001.</span></span> <span data-ttu-id="474a2-110">Политика работы — это индивидуальный объект, который может быть описан с помощью следующей информации:</span><span class="sxs-lookup"><span data-stu-id="474a2-110">The work policy is an individual entity that can be described through the following information:</span></span>
 
--   <span data-ttu-id="af949-111">**Имя политики работы** (уникальный код политики работы)</span><span class="sxs-lookup"><span data-stu-id="af949-111">**Work policy name** (the unique identifier of the work policy)</span></span>
--   <span data-ttu-id="af949-112">**Типы заказов на выполнение работ** и **Метод создания работы**</span><span class="sxs-lookup"><span data-stu-id="af949-112">**Work order types** and **Work creation method**</span></span>
--   <span data-ttu-id="af949-113">**Места хранения**</span><span class="sxs-lookup"><span data-stu-id="af949-113">**Inventory locations**</span></span>
--   <span data-ttu-id="af949-114">**Продукция**</span><span class="sxs-lookup"><span data-stu-id="af949-114">**Products**</span></span>
+-   <span data-ttu-id="474a2-111">**Имя политики работы** (уникальный код политики работы)</span><span class="sxs-lookup"><span data-stu-id="474a2-111">**Work policy name** (the unique identifier of the work policy)</span></span>
+-   <span data-ttu-id="474a2-112">**Типы заказов на выполнение работ** и **Метод создания работы**</span><span class="sxs-lookup"><span data-stu-id="474a2-112">**Work order types** and **Work creation method**</span></span>
+-   <span data-ttu-id="474a2-113">**Места хранения**</span><span class="sxs-lookup"><span data-stu-id="474a2-113">**Inventory locations**</span></span>
+-   <span data-ttu-id="474a2-114">**Продукция**</span><span class="sxs-lookup"><span data-stu-id="474a2-114">**Products**</span></span>
 
-## <a name="work-order-types"></a><span data-ttu-id="af949-115">Типы заказов на выполнение работ</span><span class="sxs-lookup"><span data-stu-id="af949-115">Work order types</span></span>
-<span data-ttu-id="af949-116">Для выбора доступны следующие типы заказов на выполнение работ:</span><span class="sxs-lookup"><span data-stu-id="af949-116">You can select the following work order types:</span></span>
+## <a name="work-order-types"></a><span data-ttu-id="474a2-115">Типы заказов на выполнение работ</span><span class="sxs-lookup"><span data-stu-id="474a2-115">Work order types</span></span>
+<span data-ttu-id="474a2-116">Для выбора доступны следующие типы заказов на выполнение работ:</span><span class="sxs-lookup"><span data-stu-id="474a2-116">You can select the following work order types:</span></span>
 
--   <span data-ttu-id="af949-117">Готовая продукция разгружена</span><span class="sxs-lookup"><span data-stu-id="af949-117">Finished goods put away</span></span>
--   <span data-ttu-id="af949-118">Размещение побочных и попутных продуктов</span><span class="sxs-lookup"><span data-stu-id="af949-118">Co-product and by-product put away</span></span>
--   <span data-ttu-id="af949-119">Комплектация сырья</span><span class="sxs-lookup"><span data-stu-id="af949-119">Raw material picking</span></span>
+-   <span data-ttu-id="474a2-117">Готовая продукция разгружена</span><span class="sxs-lookup"><span data-stu-id="474a2-117">Finished goods put away</span></span>
+-   <span data-ttu-id="474a2-118">Размещение побочных и попутных продуктов</span><span class="sxs-lookup"><span data-stu-id="474a2-118">Co-product and by-product put away</span></span>
+-   <span data-ttu-id="474a2-119">Комплектация сырья</span><span class="sxs-lookup"><span data-stu-id="474a2-119">Raw material picking</span></span>
 
-<span data-ttu-id="af949-120">Поле **Метод создания работы** имеет значение **Никогда**.</span><span class="sxs-lookup"><span data-stu-id="af949-120">The **Work creation method** field has the value **Never**.</span></span> <span data-ttu-id="af949-121">Это значение указывает, что политика работы не позволяет создавать работу склада для выбранного типа заказа на выполнение работ.</span><span class="sxs-lookup"><span data-stu-id="af949-121">This value indicates that the work policy will prevent warehouse work from being created for the selected work order type.</span></span>
+<span data-ttu-id="474a2-120">Поле **Метод создания работы** имеет значение **Никогда**.</span><span class="sxs-lookup"><span data-stu-id="474a2-120">The **Work creation method** field has the value **Never**.</span></span> <span data-ttu-id="474a2-121">Это значение указывает, что политика работы не позволяет создавать работу склада для выбранного типа заказа на выполнение работ.</span><span class="sxs-lookup"><span data-stu-id="474a2-121">This value indicates that the work policy will prevent warehouse work from being created for the selected work order type.</span></span>
 
-## <a name="inventory-locations"></a><span data-ttu-id="af949-122">Места хранения</span><span class="sxs-lookup"><span data-stu-id="af949-122">Inventory locations</span></span>
-<span data-ttu-id="af949-123">Можно выбрать местоположение, к которому применяется политика работы.</span><span class="sxs-lookup"><span data-stu-id="af949-123">You can select a location that the work policy applies to.</span></span> <span data-ttu-id="af949-124">Если ни одно местоположение не связано с политикой работы, эта политика работы не применяется ни к каким процессам.</span><span class="sxs-lookup"><span data-stu-id="af949-124">If no location is associated with a work policy, the work policy doesn’t apply to any processes.</span></span> <span data-ttu-id="af949-125">На странице **Местоположения** можно также выбрать или отменить выбор политики работы для конкретного местоположения.</span><span class="sxs-lookup"><span data-stu-id="af949-125">On the **Locations** page, you can also select or cancel the selection of the work policy for a specific location.</span></span>
+## <a name="inventory-locations"></a><span data-ttu-id="474a2-122">Места хранения</span><span class="sxs-lookup"><span data-stu-id="474a2-122">Inventory locations</span></span>
+<span data-ttu-id="474a2-123">Можно выбрать местоположение, к которому применяется политика работы.</span><span class="sxs-lookup"><span data-stu-id="474a2-123">You can select a location that the work policy applies to.</span></span> <span data-ttu-id="474a2-124">Если ни одно местоположение не связано с политикой работы, эта политика работы не применяется ни к каким процессам.</span><span class="sxs-lookup"><span data-stu-id="474a2-124">If no location is associated with a work policy, the work policy doesn’t apply to any processes.</span></span> <span data-ttu-id="474a2-125">На странице **Местоположения** можно также выбрать или отменить выбор политики работы для конкретного местоположения.</span><span class="sxs-lookup"><span data-stu-id="474a2-125">On the **Locations** page, you can also select or cancel the selection of the work policy for a specific location.</span></span>
 
-## <a name="products"></a><span data-ttu-id="af949-126">Товары</span><span class="sxs-lookup"><span data-stu-id="af949-126">Products</span></span>
-<span data-ttu-id="af949-127">Можно выбрать продукт, к которому применяется политика работы.</span><span class="sxs-lookup"><span data-stu-id="af949-127">You can select a product that the work policy applies to.</span></span> <span data-ttu-id="af949-128">Можно применить политику работы либо ко всем продуктам, либо к выбранным продуктам.</span><span class="sxs-lookup"><span data-stu-id="af949-128">You can apply the work policy to either all products or selected products.</span></span>
+## <a name="products"></a><span data-ttu-id="474a2-126">Товары</span><span class="sxs-lookup"><span data-stu-id="474a2-126">Products</span></span>
+<span data-ttu-id="474a2-127">Можно выбрать продукт, к которому применяется политика работы.</span><span class="sxs-lookup"><span data-stu-id="474a2-127">You can select a product that the work policy applies to.</span></span> <span data-ttu-id="474a2-128">Можно применить политику работы либо ко всем продуктам, либо к выбранным продуктам.</span><span class="sxs-lookup"><span data-stu-id="474a2-128">You can apply the work policy to either all products or selected products.</span></span>
 
-## <a name="example"></a><span data-ttu-id="af949-129">Пример</span><span class="sxs-lookup"><span data-stu-id="af949-129">Example</span></span>
-<span data-ttu-id="af949-130">В следующем примере имеются два производственных заказа, PRD-001 и PRD-00*2*.</span><span class="sxs-lookup"><span data-stu-id="af949-130">In the following example, there are two production orders, PRD-001 and PRD-00*2*.</span></span> <span data-ttu-id="af949-131">Производственный заказ PRD-001 имеет операцию **Сборка**, в которой готовый продукт SC1 сдается в местоположении O1.</span><span class="sxs-lookup"><span data-stu-id="af949-131">Production order PRD-001 has an operation that is named **Assembly**, where product SC1 is being reported as finished to location O1.</span></span> <span data-ttu-id="af949-132">Производственный заказ PRD-002 содержит операций **Покраска**, которая потребляет продукт SC1 из местоположения O1.</span><span class="sxs-lookup"><span data-stu-id="af949-132">Production order PRD-002 has an operation that is named **Painting** and consumes product SC1 from location O1.</span></span> <span data-ttu-id="af949-133">Производственный заказ PRD-002 также потребляет сырье RM1 из местоположения O1.</span><span class="sxs-lookup"><span data-stu-id="af949-133">Production order PRD-002 also consumes raw material RM1 from location O1.</span></span> <span data-ttu-id="af949-134">RM1 хранится в местоположении склада BULK-001 и будет скомплектован в местоположении O1 работой склада для комплектации сырья.</span><span class="sxs-lookup"><span data-stu-id="af949-134">RM1 is stored in warehouse location BULK-001 and will be picked to location O1 by warehouse work for raw material picking.</span></span> <span data-ttu-id="af949-135">Работа комплектации создается, когда производство PRD-002 запущено.</span><span class="sxs-lookup"><span data-stu-id="af949-135">The picking work is generated when production PRD-002 is released.</span></span> 
+## <a name="example"></a><span data-ttu-id="474a2-129">Пример</span><span class="sxs-lookup"><span data-stu-id="474a2-129">Example</span></span>
+<span data-ttu-id="474a2-130">В следующем примере имеются два производственных заказа, PRD-001 и PRD-00*2*.</span><span class="sxs-lookup"><span data-stu-id="474a2-130">In the following example, there are two production orders, PRD-001 and PRD-00*2*.</span></span> <span data-ttu-id="474a2-131">Производственный заказ PRD-001 имеет операцию **Сборка**, в которой готовый продукт SC1 сдается в местоположении O1.</span><span class="sxs-lookup"><span data-stu-id="474a2-131">Production order PRD-001 has an operation that is named **Assembly**, where product SC1 is being reported as finished to location O1.</span></span> <span data-ttu-id="474a2-132">Производственный заказ PRD-002 содержит операций **Покраска**, которая потребляет продукт SC1 из местоположения O1.</span><span class="sxs-lookup"><span data-stu-id="474a2-132">Production order PRD-002 has an operation that is named **Painting** and consumes product SC1 from location O1.</span></span> <span data-ttu-id="474a2-133">Производственный заказ PRD-002 также потребляет сырье RM1 из местоположения O1.</span><span class="sxs-lookup"><span data-stu-id="474a2-133">Production order PRD-002 also consumes raw material RM1 from location O1.</span></span> <span data-ttu-id="474a2-134">RM1 хранится в местоположении склада BULK-001 и будет скомплектован в местоположении O1 работой склада для комплектации сырья.</span><span class="sxs-lookup"><span data-stu-id="474a2-134">RM1 is stored in warehouse location BULK-001 and will be picked to location O1 by warehouse work for raw material picking.</span></span> <span data-ttu-id="474a2-135">Работа комплектации создается, когда производство PRD-002 запущено.</span><span class="sxs-lookup"><span data-stu-id="474a2-135">The picking work is generated when production PRD-002 is released.</span></span> 
 
-<span data-ttu-id="af949-136">[![Политики работы склада](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="af949-136">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span> 
+<span data-ttu-id="474a2-136">[![Политики работы склада](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="474a2-136">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span> 
 
-<span data-ttu-id="af949-137">Если планируется настроить политику работы склада для этого сценария, следует рассмотреть следующие сведения:</span><span class="sxs-lookup"><span data-stu-id="af949-137">When you plan to configure a warehouse work policy for this scenario, you should consider the following information:</span></span>
+<span data-ttu-id="474a2-137">Если планируется настроить политику работы склада для этого сценария, следует рассмотреть следующие сведения:</span><span class="sxs-lookup"><span data-stu-id="474a2-137">When you plan to configure a warehouse work policy for this scenario, you should consider the following information:</span></span>
 
--   <span data-ttu-id="af949-138">Работа склада для складирования готовой продукции не требуется при регистрации продукта SC1 как завершенного из производственного заказа PRD-001 в местоположении O1.</span><span class="sxs-lookup"><span data-stu-id="af949-138">Warehouse work for finished goods put-away isn’t required when you report product SC1 as finished from production order PRD-001 to location O1.</span></span> <span data-ttu-id="af949-139">Это связано с тем, что операция **Покраска** для производственного заказа PRD-002 потребляет SC1 в этом же месте.</span><span class="sxs-lookup"><span data-stu-id="af949-139">This is because the **Painting** operation for production order PRD-002 consumes SC1 at the same location.</span></span>
--   <span data-ttu-id="af949-140">Работа склада для комплектации сырья требуется для перемещения сырья RM1 из местоположения склада BULK-001 в местоположение O1.</span><span class="sxs-lookup"><span data-stu-id="af949-140">Warehouse work for raw material picking is required in order to move raw material RM1 from warehouse location BULK-001 to location O1.</span></span>
+-   <span data-ttu-id="474a2-138">Работа склада для складирования готовой продукции не требуется при регистрации продукта SC1 как завершенного из производственного заказа PRD-001 в местоположении O1.</span><span class="sxs-lookup"><span data-stu-id="474a2-138">Warehouse work for finished goods put-away isn’t required when you report product SC1 as finished from production order PRD-001 to location O1.</span></span> <span data-ttu-id="474a2-139">Это связано с тем, что операция **Покраска** для производственного заказа PRD-002 потребляет SC1 в этом же месте.</span><span class="sxs-lookup"><span data-stu-id="474a2-139">This is because the **Painting** operation for production order PRD-002 consumes SC1 at the same location.</span></span>
+-   <span data-ttu-id="474a2-140">Работа склада для комплектации сырья требуется для перемещения сырья RM1 из местоположения склада BULK-001 в местоположение O1.</span><span class="sxs-lookup"><span data-stu-id="474a2-140">Warehouse work for raw material picking is required in order to move raw material RM1 from warehouse location BULK-001 to location O1.</span></span>
 
-<span data-ttu-id="af949-141">Ниже приводится пример политики работы, которую можно настроить на основе этой информации.</span><span class="sxs-lookup"><span data-stu-id="af949-141">Here is an example of the work policy that you can set up, based on these considerations.</span></span>
+<span data-ttu-id="474a2-141">Ниже приводится пример политики работы, которую можно настроить на основе этой информации.</span><span class="sxs-lookup"><span data-stu-id="474a2-141">Here is an example of the work policy that you can set up, based on these considerations.</span></span>
 
 
 |                                       |                                       |
 |---------------------------------------|---------------------------------------|
-| <span data-ttu-id="af949-142"><strong>Имя политики работы</strong></span><span class="sxs-lookup"><span data-stu-id="af949-142"><strong>Work policy name</strong></span></span><br> | <span data-ttu-id="af949-143"><strong>Типы заказов на выполнение работ</strong></span><span class="sxs-lookup"><span data-stu-id="af949-143"><strong>Work order types</strong></span></span><br> |
-|         <span data-ttu-id="af949-144">Не складировать 01     \`</span><span class="sxs-lookup"><span data-stu-id="af949-144">No put away 01     \`</span></span>          |     <span data-ttu-id="af949-145">- Готовая продукция складирована</span><span class="sxs-lookup"><span data-stu-id="af949-145">- Finished good put away</span></span><br>      |
-|                                       |    <span data-ttu-id="af949-146"><strong>Местоположение</strong></span><span class="sxs-lookup"><span data-stu-id="af949-146"><strong>Locations</strong></span></span><br>     |
-|                                       |                 <span data-ttu-id="af949-147">- O1</span><span class="sxs-lookup"><span data-stu-id="af949-147">- O1</span></span>                  |
-|                                       |    <span data-ttu-id="af949-148"><strong>Товары</strong></span><span class="sxs-lookup"><span data-stu-id="af949-148"><strong>Products</strong></span></span> <br>     |
-|                                       |                 <span data-ttu-id="af949-149">- SC1</span><span class="sxs-lookup"><span data-stu-id="af949-149">- SC1</span></span>                 |
+| <span data-ttu-id="474a2-142"><strong>Имя политики работы</strong></span><span class="sxs-lookup"><span data-stu-id="474a2-142"><strong>Work policy name</strong></span></span><br> | <span data-ttu-id="474a2-143"><strong>Типы заказов на выполнение работ</strong></span><span class="sxs-lookup"><span data-stu-id="474a2-143"><strong>Work order types</strong></span></span><br> |
+|         <span data-ttu-id="474a2-144">Не складировать 01     \`</span><span class="sxs-lookup"><span data-stu-id="474a2-144">No put away 01     \`</span></span>          |     <span data-ttu-id="474a2-145">- Готовая продукция складирована</span><span class="sxs-lookup"><span data-stu-id="474a2-145">- Finished good put away</span></span><br>      |
+|                                       |    <span data-ttu-id="474a2-146"><strong>Местоположение</strong></span><span class="sxs-lookup"><span data-stu-id="474a2-146"><strong>Locations</strong></span></span><br>     |
+|                                       |                 <span data-ttu-id="474a2-147">- O1</span><span class="sxs-lookup"><span data-stu-id="474a2-147">- O1</span></span>                  |
+|                                       |    <span data-ttu-id="474a2-148"><strong>Товары</strong></span><span class="sxs-lookup"><span data-stu-id="474a2-148"><strong>Products</strong></span></span> <br>     |
+|                                       |                 <span data-ttu-id="474a2-149">- SC1</span><span class="sxs-lookup"><span data-stu-id="474a2-149">- SC1</span></span>                 |
 
-<span data-ttu-id="af949-150">Следующие процедуры предоставляют пошаговые инструкции о том, как настроить политику работы склада для данного сценария.</span><span class="sxs-lookup"><span data-stu-id="af949-150">The following procedures provide step-by-step instructions about how to set up the warehouse work policy for this scenario.</span></span> <span data-ttu-id="af949-151">Также описывается пример настройки, показывающий, как сообщать о готовности производственного заказа, который не контролируется грузоместом.</span><span class="sxs-lookup"><span data-stu-id="af949-151">A sample setup showing how to report a production order as finished to a location that isn’t license plate–controlled is also described.</span></span>
+<span data-ttu-id="474a2-150">Следующие процедуры предоставляют пошаговые инструкции о том, как настроить политику работы склада для данного сценария.</span><span class="sxs-lookup"><span data-stu-id="474a2-150">The following procedures provide step-by-step instructions about how to set up the warehouse work policy for this scenario.</span></span> <span data-ttu-id="474a2-151">Также описывается пример настройки, показывающий, как сообщать о готовности производственного заказа, который не контролируется грузоместом.</span><span class="sxs-lookup"><span data-stu-id="474a2-151">A sample setup showing how to report a production order as finished to a location that isn’t license plate–controlled is also described.</span></span>
 
-## <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="af949-152">Настройка политики работы склада</span><span class="sxs-lookup"><span data-stu-id="af949-152">Set up a warehouse work policy</span></span>
-<span data-ttu-id="af949-153">Процессы склада не всегда включают работу склада.</span><span class="sxs-lookup"><span data-stu-id="af949-153">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="af949-154">Определяя политику работы, можно предотвратить создание работы для комплектации сырья и размещения готовой продукции для набора продуктов в определенных местонахождениях.</span><span class="sxs-lookup"><span data-stu-id="af949-154">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="af949-155">Компания USMF с демонстрационными данными используется для создания этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="af949-155">The USMF demo data company was used to create this procedure.</span></span> 
+## <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="474a2-152">Настройка политики работы склада</span><span class="sxs-lookup"><span data-stu-id="474a2-152">Set up a warehouse work policy</span></span>
+<span data-ttu-id="474a2-153">Процессы склада не всегда включают работу склада.</span><span class="sxs-lookup"><span data-stu-id="474a2-153">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="474a2-154">Определяя политику работы, можно предотвратить создание работы для комплектации сырья и размещения готовой продукции для набора продуктов в определенных местонахождениях.</span><span class="sxs-lookup"><span data-stu-id="474a2-154">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="474a2-155">Компания USMF с демонстрационными данными используется для создания этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="474a2-155">The USMF demo data company was used to create this procedure.</span></span> 
 
-<span data-ttu-id="af949-156">ЭТАПЫ (21)</span><span class="sxs-lookup"><span data-stu-id="af949-156">STEPS (21)</span></span>
+<span data-ttu-id="474a2-156">ЭТАПЫ (21)</span><span class="sxs-lookup"><span data-stu-id="474a2-156">STEPS (21)</span></span>
 
 |     |                                                                            |
 |-----|----------------------------------------------------------------------------|
-| <span data-ttu-id="af949-157">1.</span><span class="sxs-lookup"><span data-stu-id="af949-157">1.</span></span>  | <span data-ttu-id="af949-158">Перейдите в раздел "Управление складом" &gt; "Настройка" &gt; "Работа" &gt; "Политики работы".</span><span class="sxs-lookup"><span data-stu-id="af949-158">Go to Warehouse management &gt; Setup &gt; Work &gt; Work policies.</span></span>        |
-| <span data-ttu-id="af949-159">2.</span><span class="sxs-lookup"><span data-stu-id="af949-159">2.</span></span>  | <span data-ttu-id="af949-160">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="af949-160">Click New.</span></span>                                                                 |
-| <span data-ttu-id="af949-161">3.</span><span class="sxs-lookup"><span data-stu-id="af949-161">3.</span></span>  | <span data-ttu-id="af949-162">В поле "Имя политики работы" введите "Не работа размещения".</span><span class="sxs-lookup"><span data-stu-id="af949-162">In the Work policy name field, type 'No put-away work'.</span></span>                    |
-| <span data-ttu-id="af949-163">4.</span><span class="sxs-lookup"><span data-stu-id="af949-163">4.</span></span>  | <span data-ttu-id="af949-164">Нажмите кнопку Сохранить.</span><span class="sxs-lookup"><span data-stu-id="af949-164">Click Save.</span></span>                                                                |
-| <span data-ttu-id="af949-165">5.</span><span class="sxs-lookup"><span data-stu-id="af949-165">5.</span></span>  | <span data-ttu-id="af949-166">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="af949-166">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="af949-167">6.</span><span class="sxs-lookup"><span data-stu-id="af949-167">6.</span></span>  | <span data-ttu-id="af949-168">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="af949-168">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="af949-169">7.</span><span class="sxs-lookup"><span data-stu-id="af949-169">7.</span></span>  | <span data-ttu-id="af949-170">В поле "Тип заказа на выполнение работ" выберите "Размещение готовой продукции".</span><span class="sxs-lookup"><span data-stu-id="af949-170">In the Work order type field, select 'Finished goods put away'.</span></span>            |
-| <span data-ttu-id="af949-171">8.</span><span class="sxs-lookup"><span data-stu-id="af949-171">8.</span></span>  | <span data-ttu-id="af949-172">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="af949-172">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="af949-173">9.</span><span class="sxs-lookup"><span data-stu-id="af949-173">9.</span></span>  | <span data-ttu-id="af949-174">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="af949-174">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="af949-175">10.</span><span class="sxs-lookup"><span data-stu-id="af949-175">10.</span></span> | <span data-ttu-id="af949-176">В поле "Тип заказа на выполнение работ" выберите "Размещение побочного и сопутствующего продуктов".</span><span class="sxs-lookup"><span data-stu-id="af949-176">In the Work order type field, select 'Co-product and by-product put away'.</span></span> |
-| <span data-ttu-id="af949-177">11.</span><span class="sxs-lookup"><span data-stu-id="af949-177">11.</span></span> | <span data-ttu-id="af949-178">Разверните раздел "Места хранения".</span><span class="sxs-lookup"><span data-stu-id="af949-178">Expand the Inventory locations section.</span></span>                                    |
-| <span data-ttu-id="af949-179">12.</span><span class="sxs-lookup"><span data-stu-id="af949-179">12.</span></span> | <span data-ttu-id="af949-180">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="af949-180">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="af949-181">13.</span><span class="sxs-lookup"><span data-stu-id="af949-181">13.</span></span> | <span data-ttu-id="af949-182">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="af949-182">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="af949-183">14.</span><span class="sxs-lookup"><span data-stu-id="af949-183">14.</span></span> | <span data-ttu-id="af949-184">В списке "Склад" введите "51".</span><span class="sxs-lookup"><span data-stu-id="af949-184">In the Warehouse list, enter '51'.</span></span>                                         |
-| <span data-ttu-id="af949-185">15.</span><span class="sxs-lookup"><span data-stu-id="af949-185">15.</span></span> | <span data-ttu-id="af949-186">В поле "Местонахождение" введите или выберите "001".</span><span class="sxs-lookup"><span data-stu-id="af949-186">In the Location field, enter or select '001'.</span></span>                              |
-| <span data-ttu-id="af949-187">16.</span><span class="sxs-lookup"><span data-stu-id="af949-187">16.</span></span> | <span data-ttu-id="af949-188">Разверните раздел "Продукты".</span><span class="sxs-lookup"><span data-stu-id="af949-188">Expand the Products section.</span></span>                                               |
-| <span data-ttu-id="af949-189">17.</span><span class="sxs-lookup"><span data-stu-id="af949-189">17.</span></span> | <span data-ttu-id="af949-190">В поле "Выбор продукта" выберите "Выбрано".</span><span class="sxs-lookup"><span data-stu-id="af949-190">In the Product selection field, select 'Selected'.</span></span>                         |
-| <span data-ttu-id="af949-191">18.</span><span class="sxs-lookup"><span data-stu-id="af949-191">18.</span></span> | <span data-ttu-id="af949-192">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="af949-192">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="af949-193">19.</span><span class="sxs-lookup"><span data-stu-id="af949-193">19.</span></span> | <span data-ttu-id="af949-194">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="af949-194">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="af949-195">20.</span><span class="sxs-lookup"><span data-stu-id="af949-195">20.</span></span> | <span data-ttu-id="af949-196">В поле "Код номенклатуры" введите или выберите "L0101".</span><span class="sxs-lookup"><span data-stu-id="af949-196">In the Item number field, enter or select 'L0101'.</span></span>                         |
-| <span data-ttu-id="af949-197">21.</span><span class="sxs-lookup"><span data-stu-id="af949-197">21.</span></span> | <span data-ttu-id="af949-198">Нажмите кнопку Сохранить.</span><span class="sxs-lookup"><span data-stu-id="af949-198">Click Save.</span></span>                                                                |
+| <span data-ttu-id="474a2-157">1.</span><span class="sxs-lookup"><span data-stu-id="474a2-157">1.</span></span>  | <span data-ttu-id="474a2-158">Перейдите в раздел "Управление складом" &gt; "Настройка" &gt; "Работа" &gt; "Политики работы".</span><span class="sxs-lookup"><span data-stu-id="474a2-158">Go to Warehouse management &gt; Setup &gt; Work &gt; Work policies.</span></span>        |
+| <span data-ttu-id="474a2-159">2.</span><span class="sxs-lookup"><span data-stu-id="474a2-159">2.</span></span>  | <span data-ttu-id="474a2-160">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="474a2-160">Click New.</span></span>                                                                 |
+| <span data-ttu-id="474a2-161">3.</span><span class="sxs-lookup"><span data-stu-id="474a2-161">3.</span></span>  | <span data-ttu-id="474a2-162">В поле "Имя политики работы" введите "Не работа размещения".</span><span class="sxs-lookup"><span data-stu-id="474a2-162">In the Work policy name field, type 'No put-away work'.</span></span>                    |
+| <span data-ttu-id="474a2-163">4.</span><span class="sxs-lookup"><span data-stu-id="474a2-163">4.</span></span>  | <span data-ttu-id="474a2-164">Нажмите кнопку Сохранить.</span><span class="sxs-lookup"><span data-stu-id="474a2-164">Click Save.</span></span>                                                                |
+| <span data-ttu-id="474a2-165">5.</span><span class="sxs-lookup"><span data-stu-id="474a2-165">5.</span></span>  | <span data-ttu-id="474a2-166">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="474a2-166">Click Add.</span></span>                                                                 |
+| <span data-ttu-id="474a2-167">6.</span><span class="sxs-lookup"><span data-stu-id="474a2-167">6.</span></span>  | <span data-ttu-id="474a2-168">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="474a2-168">In the list, mark the selected row.</span></span>                                        |
+| <span data-ttu-id="474a2-169">7.</span><span class="sxs-lookup"><span data-stu-id="474a2-169">7.</span></span>  | <span data-ttu-id="474a2-170">В поле "Тип заказа на выполнение работ" выберите "Размещение готовой продукции".</span><span class="sxs-lookup"><span data-stu-id="474a2-170">In the Work order type field, select 'Finished goods put away'.</span></span>            |
+| <span data-ttu-id="474a2-171">8.</span><span class="sxs-lookup"><span data-stu-id="474a2-171">8.</span></span>  | <span data-ttu-id="474a2-172">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="474a2-172">Click Add.</span></span>                                                                 |
+| <span data-ttu-id="474a2-173">9.</span><span class="sxs-lookup"><span data-stu-id="474a2-173">9.</span></span>  | <span data-ttu-id="474a2-174">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="474a2-174">In the list, mark the selected row.</span></span>                                        |
+| <span data-ttu-id="474a2-175">10.</span><span class="sxs-lookup"><span data-stu-id="474a2-175">10.</span></span> | <span data-ttu-id="474a2-176">В поле "Тип заказа на выполнение работ" выберите "Размещение побочного и сопутствующего продуктов".</span><span class="sxs-lookup"><span data-stu-id="474a2-176">In the Work order type field, select 'Co-product and by-product put away'.</span></span> |
+| <span data-ttu-id="474a2-177">11.</span><span class="sxs-lookup"><span data-stu-id="474a2-177">11.</span></span> | <span data-ttu-id="474a2-178">Разверните раздел "Места хранения".</span><span class="sxs-lookup"><span data-stu-id="474a2-178">Expand the Inventory locations section.</span></span>                                    |
+| <span data-ttu-id="474a2-179">12.</span><span class="sxs-lookup"><span data-stu-id="474a2-179">12.</span></span> | <span data-ttu-id="474a2-180">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="474a2-180">Click Add.</span></span>                                                                 |
+| <span data-ttu-id="474a2-181">13.</span><span class="sxs-lookup"><span data-stu-id="474a2-181">13.</span></span> | <span data-ttu-id="474a2-182">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="474a2-182">In the list, mark the selected row.</span></span>                                        |
+| <span data-ttu-id="474a2-183">14.</span><span class="sxs-lookup"><span data-stu-id="474a2-183">14.</span></span> | <span data-ttu-id="474a2-184">В списке "Склад" введите "51".</span><span class="sxs-lookup"><span data-stu-id="474a2-184">In the Warehouse list, enter '51'.</span></span>                                         |
+| <span data-ttu-id="474a2-185">15.</span><span class="sxs-lookup"><span data-stu-id="474a2-185">15.</span></span> | <span data-ttu-id="474a2-186">В поле "Местонахождение" введите или выберите "001".</span><span class="sxs-lookup"><span data-stu-id="474a2-186">In the Location field, enter or select '001'.</span></span>                              |
+| <span data-ttu-id="474a2-187">16.</span><span class="sxs-lookup"><span data-stu-id="474a2-187">16.</span></span> | <span data-ttu-id="474a2-188">Разверните раздел "Продукты".</span><span class="sxs-lookup"><span data-stu-id="474a2-188">Expand the Products section.</span></span>                                               |
+| <span data-ttu-id="474a2-189">17.</span><span class="sxs-lookup"><span data-stu-id="474a2-189">17.</span></span> | <span data-ttu-id="474a2-190">В поле "Выбор продукта" выберите "Выбрано".</span><span class="sxs-lookup"><span data-stu-id="474a2-190">In the Product selection field, select 'Selected'.</span></span>                         |
+| <span data-ttu-id="474a2-191">18.</span><span class="sxs-lookup"><span data-stu-id="474a2-191">18.</span></span> | <span data-ttu-id="474a2-192">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="474a2-192">Click Add.</span></span>                                                                 |
+| <span data-ttu-id="474a2-193">19.</span><span class="sxs-lookup"><span data-stu-id="474a2-193">19.</span></span> | <span data-ttu-id="474a2-194">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="474a2-194">In the list, mark the selected row.</span></span>                                        |
+| <span data-ttu-id="474a2-195">20.</span><span class="sxs-lookup"><span data-stu-id="474a2-195">20.</span></span> | <span data-ttu-id="474a2-196">В поле "Код номенклатуры" введите или выберите "L0101".</span><span class="sxs-lookup"><span data-stu-id="474a2-196">In the Item number field, enter or select 'L0101'.</span></span>                         |
+| <span data-ttu-id="474a2-197">21.</span><span class="sxs-lookup"><span data-stu-id="474a2-197">21.</span></span> | <span data-ttu-id="474a2-198">Нажмите кнопку Сохранить.</span><span class="sxs-lookup"><span data-stu-id="474a2-198">Click Save.</span></span>                                                                |
 
-## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="af949-199">Приемка производственного заказа как готового в местоположении, которое не контролируется грузоместом</span><span class="sxs-lookup"><span data-stu-id="af949-199">Report a production order as finished to a location that isn’t license plate–controlled</span></span>
-<span data-ttu-id="af949-200">В этой процедуре показан пример приемки отчетности в местонахождении, которое не управляется грузоместом.</span><span class="sxs-lookup"><span data-stu-id="af949-200">This procedure shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="af949-201">Применимая политика работы является обязательным условием для этой задачи.</span><span class="sxs-lookup"><span data-stu-id="af949-201">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="af949-202">Предыдущая процедура показывает настройку политики работы.</span><span class="sxs-lookup"><span data-stu-id="af949-202">The previous procedure shows the setup of the work policy.</span></span> 
+## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="474a2-199">Приемка производственного заказа как готового в местоположении, которое не контролируется грузоместом</span><span class="sxs-lookup"><span data-stu-id="474a2-199">Report a production order as finished to a location that isn’t license plate–controlled</span></span>
+<span data-ttu-id="474a2-200">В этой процедуре показан пример приемки отчетности в местонахождении, которое не управляется грузоместом.</span><span class="sxs-lookup"><span data-stu-id="474a2-200">This procedure shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="474a2-201">Применимая политика работы является обязательным условием для этой задачи.</span><span class="sxs-lookup"><span data-stu-id="474a2-201">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="474a2-202">Предыдущая процедура показывает настройку политики работы.</span><span class="sxs-lookup"><span data-stu-id="474a2-202">The previous procedure shows the setup of the work policy.</span></span> 
 
-<span data-ttu-id="af949-203">ЭТАПЫ (25)</span><span class="sxs-lookup"><span data-stu-id="af949-203">STEPS (25)</span></span>
+<span data-ttu-id="474a2-203">ЭТАПЫ (25)</span><span class="sxs-lookup"><span data-stu-id="474a2-203">STEPS (25)</span></span>
 
 <table>
 <tbody>
 <tr>
-<td colspan="3"><span data-ttu-id="af949-204"><strong>Подзадача: настройка выходного местонахождения.</strong></span><span class="sxs-lookup"><span data-stu-id="af949-204"><strong>Sub-task: Set up an output location.</strong></span></span></td>
+<td colspan="3"><span data-ttu-id="474a2-204"><strong>Подзадача: настройка выходного местонахождения.</strong></span><span class="sxs-lookup"><span data-stu-id="474a2-204"><strong>Sub-task: Set up an output location.</strong></span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>1.</td>
-<td><span data-ttu-id="af949-205">Перейдите в раздел "Управление организацией" &gt; "Ресурсы" &gt; "Группы ресурсов".</span><span class="sxs-lookup"><span data-stu-id="af949-205">Go to Organization administration &gt; Resources &gt; Resource groups.</span></span></td>
+<td><span data-ttu-id="474a2-205">Перейдите в раздел "Управление организацией" &gt; "Ресурсы" &gt; "Группы ресурсов".</span><span class="sxs-lookup"><span data-stu-id="474a2-205">Go to Organization administration &gt; Resources &gt; Resource groups.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>2.</td>
-<td><span data-ttu-id="af949-206">В списке выберите группу ресурсов "5102".</span><span class="sxs-lookup"><span data-stu-id="af949-206">In the list, select resource group &#39;5102&#39;.</span></span></td>
+<td><span data-ttu-id="474a2-206">В списке выберите группу ресурсов "5102".</span><span class="sxs-lookup"><span data-stu-id="474a2-206">In the list, select resource group &#39;5102&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>3.</td>
-<td><span data-ttu-id="af949-207">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="af949-207">Click Edit.</span></span></td>
+<td><span data-ttu-id="474a2-207">Щелкните "Изменить".</span><span class="sxs-lookup"><span data-stu-id="474a2-207">Click Edit.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>4.</td>
-<td><span data-ttu-id="af949-208">В поле "Склад выпуска" введите "51".</span><span class="sxs-lookup"><span data-stu-id="af949-208">In the Output warehouse field, enter &#39;51&#39;.</span></span></td>
+<td><span data-ttu-id="474a2-208">В поле "Склад выпуска" введите "51".</span><span class="sxs-lookup"><span data-stu-id="474a2-208">In the Output warehouse field, enter &#39;51&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td><span data-ttu-id="af949-209">В поле "Местонахождение выхода" введите "001".</span><span class="sxs-lookup"><span data-stu-id="af949-209">In the Output location field, enter &#39;001&#39;.</span></span></td>
+<td><span data-ttu-id="474a2-209">В поле "Местонахождение выхода" введите "001".</span><span class="sxs-lookup"><span data-stu-id="474a2-209">In the Output location field, enter &#39;001&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>6.</td>
-<td><span data-ttu-id="af949-210">Местонахождение 001 не является местонахождением под управлением грузоместа.</span><span class="sxs-lookup"><span data-stu-id="af949-210">Location 001 isn&#39;t a license plate–controlled location.</span></span> <span data-ttu-id="af949-211">Местонахождение выхода, которое не находится под управлением грузоместа, можно настроить, только если для местоположения существует соответствующая политика работы.</span><span class="sxs-lookup"><span data-stu-id="af949-211">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span></td>
+<td><span data-ttu-id="474a2-210">Местонахождение 001 не является местонахождением под управлением грузоместа.</span><span class="sxs-lookup"><span data-stu-id="474a2-210">Location 001 isn&#39;t a license plate–controlled location.</span></span> <span data-ttu-id="474a2-211">Местонахождение выхода, которое не находится под управлением грузоместа, можно настроить, только если для местоположения существует соответствующая политика работы.</span><span class="sxs-lookup"><span data-stu-id="474a2-211">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span></td>
 </tr>
 <tr>
-<td colspan="3"><span data-ttu-id="af949-212"><strong>Подзадача: создание производственного заказа и его приемка.</strong></span><span class="sxs-lookup"><span data-stu-id="af949-212"><strong>Sub-task: Create a production order and report it as finished.</strong></span></span></td>
+<td colspan="3"><span data-ttu-id="474a2-212"><strong>Подзадача: создание производственного заказа и его приемка.</strong></span><span class="sxs-lookup"><span data-stu-id="474a2-212"><strong>Sub-task: Create a production order and report it as finished.</strong></span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>1.</td>
-<td><span data-ttu-id="af949-213">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="af949-213">Close the page.</span></span></td>
+<td><span data-ttu-id="474a2-213">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="474a2-213">Close the page.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>2.</td>
-<td><span data-ttu-id="af949-214">Перейдите в раздел "Управление производством" &gt; "Производственные заказы" &gt; "Все производственные заказы".</span><span class="sxs-lookup"><span data-stu-id="af949-214">Go to Production control &gt; Production orders &gt; All production orders.</span></span></td>
+<td><span data-ttu-id="474a2-214">Перейдите в раздел "Управление производством" &gt; "Производственные заказы" &gt; "Все производственные заказы".</span><span class="sxs-lookup"><span data-stu-id="474a2-214">Go to Production control &gt; Production orders &gt; All production orders.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>3.</td>
-<td><span data-ttu-id="af949-215">Щелкните "Новый производственный заказ".</span><span class="sxs-lookup"><span data-stu-id="af949-215">Click New production order.</span></span></td>
+<td><span data-ttu-id="474a2-215">Щелкните "Новый производственный заказ".</span><span class="sxs-lookup"><span data-stu-id="474a2-215">Click New production order.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>4.</td>
-<td><span data-ttu-id="af949-216">В поле "Код номенклатуры" введите "L0101".</span><span class="sxs-lookup"><span data-stu-id="af949-216">In the Item number field, enter &#39;L0101&#39;.</span></span></td>
+<td><span data-ttu-id="474a2-216">В поле "Код номенклатуры" введите "L0101".</span><span class="sxs-lookup"><span data-stu-id="474a2-216">In the Item number field, enter &#39;L0101&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td><span data-ttu-id="af949-217">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="af949-217">Click Create.</span></span></td>
+<td><span data-ttu-id="474a2-217">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="474a2-217">Click Create.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>6.</td>
-<td><span data-ttu-id="af949-218">В области действий щелкните "Производственный заказ".</span><span class="sxs-lookup"><span data-stu-id="af949-218">On the Action Pane, click Production order.</span></span></td>
+<td><span data-ttu-id="474a2-218">В области действий щелкните "Производственный заказ".</span><span class="sxs-lookup"><span data-stu-id="474a2-218">On the Action Pane, click Production order.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>7.</td>
-<td><span data-ttu-id="af949-219">Щелкните "Оценка".</span><span class="sxs-lookup"><span data-stu-id="af949-219">Click Estimate.</span></span></td>
+<td><span data-ttu-id="474a2-219">Щелкните "Оценка".</span><span class="sxs-lookup"><span data-stu-id="474a2-219">Click Estimate.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>8.</td>
-<td><span data-ttu-id="af949-220">Нажмите кнопку OK.</span><span class="sxs-lookup"><span data-stu-id="af949-220">Click OK.</span></span></td>
+<td><span data-ttu-id="474a2-220">Нажмите кнопку OK.</span><span class="sxs-lookup"><span data-stu-id="474a2-220">Click OK.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>9.</td>
-<td><span data-ttu-id="af949-221">Щелкните "Начать".</span><span class="sxs-lookup"><span data-stu-id="af949-221">Click Start.</span></span></td>
+<td><span data-ttu-id="474a2-221">Щелкните "Начать".</span><span class="sxs-lookup"><span data-stu-id="474a2-221">Click Start.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>10.</td>
-<td><span data-ttu-id="af949-222">Перейдите на вкладку "Общие".</span><span class="sxs-lookup"><span data-stu-id="af949-222">Click the General tab.</span></span></td>
+<td><span data-ttu-id="474a2-222">Перейдите на вкладку "Общие".</span><span class="sxs-lookup"><span data-stu-id="474a2-222">Click the General tab.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>11.</td>
-<td><span data-ttu-id="af949-223">В поле "Автопотребление по спецификации" выберите "Никогда".</span><span class="sxs-lookup"><span data-stu-id="af949-223">In the Automatic BOM consumption field, select &#39;Never&#39;.</span></span></td>
+<td><span data-ttu-id="474a2-223">В поле "Автопотребление по спецификации" выберите "Никогда".</span><span class="sxs-lookup"><span data-stu-id="474a2-223">In the Automatic BOM consumption field, select &#39;Never&#39;.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>12.</td>
-<td><span data-ttu-id="af949-224">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="af949-224">Click OK.</span></span></td>
+<td><span data-ttu-id="474a2-224">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="474a2-224">Click OK.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>13.</td>
-<td><span data-ttu-id="af949-225">Щелкните "Приемка".</span><span class="sxs-lookup"><span data-stu-id="af949-225">Click Report as finished.</span></span></td>
+<td><span data-ttu-id="474a2-225">Щелкните "Приемка".</span><span class="sxs-lookup"><span data-stu-id="474a2-225">Click Report as finished.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>14.</td>
-<td><span data-ttu-id="af949-226">Перейдите на вкладку "Общие".</span><span class="sxs-lookup"><span data-stu-id="af949-226">Click the General tab.</span></span></td>
+<td><span data-ttu-id="474a2-226">Перейдите на вкладку "Общие".</span><span class="sxs-lookup"><span data-stu-id="474a2-226">Click the General tab.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>15.</td>
-<td><span data-ttu-id="af949-227">Выберите значение "Да" в поле "Допускать ошибки".</span><span class="sxs-lookup"><span data-stu-id="af949-227">Select Yes in the Accept error field.</span></span></td>
+<td><span data-ttu-id="474a2-227">Выберите значение "Да" в поле "Допускать ошибки".</span><span class="sxs-lookup"><span data-stu-id="474a2-227">Select Yes in the Accept error field.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>16.</td>
-<td><span data-ttu-id="af949-228">Нажмите кнопку OK.</span><span class="sxs-lookup"><span data-stu-id="af949-228">Click OK.</span></span></td>
+<td><span data-ttu-id="474a2-228">Нажмите кнопку OK.</span><span class="sxs-lookup"><span data-stu-id="474a2-228">Click OK.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>17.</td>
-<td><span data-ttu-id="af949-229">В области действий щелкните "Склад".</span><span class="sxs-lookup"><span data-stu-id="af949-229">On the Action Pane, click Warehouse.</span></span></td>
+<td><span data-ttu-id="474a2-229">В области действий щелкните "Склад".</span><span class="sxs-lookup"><span data-stu-id="474a2-229">On the Action Pane, click Warehouse.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>18.</td>
-<td><span data-ttu-id="af949-230">Щелкните "Сведения о работе".</span><span class="sxs-lookup"><span data-stu-id="af949-230">Click Work details.</span></span></td>
+<td><span data-ttu-id="474a2-230">Щелкните "Сведения о работе".</span><span class="sxs-lookup"><span data-stu-id="474a2-230">Click Work details.</span></span></td>
 </tr>
 <tr>
 <td></td>
 <td>19.</td>
-<td><span data-ttu-id="af949-231">При учете производственного заказа не была создана работа размещения.</span><span class="sxs-lookup"><span data-stu-id="af949-231">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="af949-232">Это происходит, потому что определена политика работы, которая предотвращает создание работы при приемке продукта L0101 в местоположении 001.</span><span class="sxs-lookup"><span data-stu-id="af949-232">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span></td>
+<td><span data-ttu-id="474a2-231">При учете производственного заказа не была создана работа размещения.</span><span class="sxs-lookup"><span data-stu-id="474a2-231">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="474a2-232">Это происходит, потому что определена политика работы, которая предотвращает создание работы при приемке продукта L0101 в местоположении 001.</span><span class="sxs-lookup"><span data-stu-id="474a2-232">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span></td>
 </tr>
 </tbody>
 </table>

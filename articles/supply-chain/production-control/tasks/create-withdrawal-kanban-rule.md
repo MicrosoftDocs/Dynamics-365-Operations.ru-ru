@@ -2,7 +2,7 @@
 title: Создание правила канбана изъятия
 description: В этой процедуре показано, как выполнить настройку, необходимую для создания правила канбана изъятия для перемещения материалов в среде бережливого производства.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,57 +10,57 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, UnitOfMeasureLookup, KanbanCreate
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: afc927fbc77f2120678fdf856b47d7c0e1b5a37d
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 963a6dce8affc23f001dcb04219821ceff3a2d92
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149226"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210740"
 ---
-# <a name="create-a-withdrawal-kanban-rule"></a><span data-ttu-id="52a49-103">Создание правила канбана изъятия</span><span class="sxs-lookup"><span data-stu-id="52a49-103">Create a withdrawal kanban rule</span></span>
+# <a name="create-a-withdrawal-kanban-rule"></a><span data-ttu-id="bb423-103">Создание правила канбана изъятия</span><span class="sxs-lookup"><span data-stu-id="bb423-103">Create a withdrawal kanban rule</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="52a49-104">В этой процедуре показано, как выполнить настройку, необходимую для создания правила канбана изъятия для перемещения материалов в среде бережливого производства.</span><span class="sxs-lookup"><span data-stu-id="52a49-104">This procedure shows the setup that is needed to create a withdrawal kanban rule for transferring material in a lean environment.</span></span> <span data-ttu-id="52a49-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="52a49-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="52a49-106">Эта процедура предназначена для инженер-технолога или менеджера потока создания ценности, так как они подготавливают пополнение нового или измененного материала.</span><span class="sxs-lookup"><span data-stu-id="52a49-106">This procedure is intended for the Process Engineer or the Value Stream Manager, as they prepare replenishment of new or modified material.</span></span>
+<span data-ttu-id="bb423-104">В этой процедуре показано, как выполнить настройку, необходимую для создания правила канбана изъятия для перемещения материалов в среде бережливого производства.</span><span class="sxs-lookup"><span data-stu-id="bb423-104">This procedure shows the setup that is needed to create a withdrawal kanban rule for transferring material in a lean environment.</span></span> <span data-ttu-id="bb423-105">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="bb423-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="bb423-106">Эта процедура предназначена для инженер-технолога или менеджера потока создания ценности, так как они подготавливают пополнение нового или измененного материала.</span><span class="sxs-lookup"><span data-stu-id="bb423-106">This procedure is intended for the Process Engineer or the Value Stream Manager, as they prepare replenishment of new or modified material.</span></span>
 
 
-## <a name="create-new-kanban-rule"></a><span data-ttu-id="52a49-107">Создать новое правило канбана</span><span class="sxs-lookup"><span data-stu-id="52a49-107">Create new kanban rule</span></span>
-1. <span data-ttu-id="52a49-108">Перейти к правилам канбана.</span><span class="sxs-lookup"><span data-stu-id="52a49-108">Go to Kanban rules.</span></span>
-2. <span data-ttu-id="52a49-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="52a49-109">Click New.</span></span>
-3. <span data-ttu-id="52a49-110">В поле "Тип" выберите "Изъятие".</span><span class="sxs-lookup"><span data-stu-id="52a49-110">In the Type field, select 'Withdrawal'.</span></span>
-    * <span data-ttu-id="52a49-111">Тип "Изъятие" используется для правил канбана для переноса материалов или товаров.</span><span class="sxs-lookup"><span data-stu-id="52a49-111">The Withdrawal type is used for kanban rules to transfer material or goods.</span></span>  
-4. <span data-ttu-id="52a49-112">В поле "Первое мероприятие плана" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="52a49-112">In the First plan activity field, enter or select a value.</span></span>
-    * <span data-ttu-id="52a49-113">Выберите ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="52a49-113">Select ReplenishSpeakerComponents.</span></span>   <span data-ttu-id="52a49-114">Это мероприятие настроено для перемещения компонентов со склада 11, местоположения 11 на склад 12, местоположение 12.</span><span class="sxs-lookup"><span data-stu-id="52a49-114">This activity is set up to move components from warehouse 11, location 11 to warehouse 12, and location 12.</span></span>  
-5. <span data-ttu-id="52a49-115">В поле "Продукт" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="52a49-115">In the Product field, enter or select a value.</span></span>
-    * <span data-ttu-id="52a49-116">Выберите M0007.</span><span class="sxs-lookup"><span data-stu-id="52a49-116">Select M0007.</span></span>  
-6. <span data-ttu-id="52a49-117">В поле "Время упреждения" введите число.</span><span class="sxs-lookup"><span data-stu-id="52a49-117">In the Lead time field, enter a number.</span></span>
-    * <span data-ttu-id="52a49-118">Например, 60.</span><span class="sxs-lookup"><span data-stu-id="52a49-118">For example, 60.</span></span>  
-7. <span data-ttu-id="52a49-119">В поле "Единица измерения" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="52a49-119">In the Unit of measure field, enter or select a value.</span></span>
-    * <span data-ttu-id="52a49-120">Например, минуты.</span><span class="sxs-lookup"><span data-stu-id="52a49-120">For example, Minutes.</span></span>  
+## <a name="create-new-kanban-rule"></a><span data-ttu-id="bb423-107">Создать новое правило канбана</span><span class="sxs-lookup"><span data-stu-id="bb423-107">Create new kanban rule</span></span>
+1. <span data-ttu-id="bb423-108">Перейти к правилам канбана.</span><span class="sxs-lookup"><span data-stu-id="bb423-108">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="bb423-109">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="bb423-109">Click New.</span></span>
+3. <span data-ttu-id="bb423-110">В поле "Тип" выберите "Изъятие".</span><span class="sxs-lookup"><span data-stu-id="bb423-110">In the Type field, select 'Withdrawal'.</span></span>
+    * <span data-ttu-id="bb423-111">Тип "Изъятие" используется для правил канбана для переноса материалов или товаров.</span><span class="sxs-lookup"><span data-stu-id="bb423-111">The Withdrawal type is used for kanban rules to transfer material or goods.</span></span>  
+4. <span data-ttu-id="bb423-112">В поле "Первое мероприятие плана" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="bb423-112">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="bb423-113">Выберите ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="bb423-113">Select ReplenishSpeakerComponents.</span></span>   <span data-ttu-id="bb423-114">Это мероприятие настроено для перемещения компонентов со склада 11, местоположения 11 на склад 12, местоположение 12.</span><span class="sxs-lookup"><span data-stu-id="bb423-114">This activity is set up to move components from warehouse 11, location 11 to warehouse 12, and location 12.</span></span>  
+5. <span data-ttu-id="bb423-115">В поле "Продукт" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="bb423-115">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="bb423-116">Выберите M0007.</span><span class="sxs-lookup"><span data-stu-id="bb423-116">Select M0007.</span></span>  
+6. <span data-ttu-id="bb423-117">В поле "Время упреждения" введите число.</span><span class="sxs-lookup"><span data-stu-id="bb423-117">In the Lead time field, enter a number.</span></span>
+    * <span data-ttu-id="bb423-118">Например, 60.</span><span class="sxs-lookup"><span data-stu-id="bb423-118">For example, 60.</span></span>  
+7. <span data-ttu-id="bb423-119">В поле "Единица измерения" введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="bb423-119">In the Unit of measure field, enter or select a value.</span></span>
+    * <span data-ttu-id="bb423-120">Например, минуты.</span><span class="sxs-lookup"><span data-stu-id="bb423-120">For example, Minutes.</span></span>  
 
-## <a name="set-quantities-for-kanban"></a><span data-ttu-id="52a49-121">Настройка количеств для канбана</span><span class="sxs-lookup"><span data-stu-id="52a49-121">Set quantities for kanban</span></span>
-1. <span data-ttu-id="52a49-122">Установите количество по умолчанию равным 5.</span><span class="sxs-lookup"><span data-stu-id="52a49-122">Set Default quantity to '5'.</span></span>
-    * <span data-ttu-id="52a49-123">Это количество, которое будет передано для каждого канбана.</span><span class="sxs-lookup"><span data-stu-id="52a49-123">This is the quantity that will be transferred for each kanban.</span></span>  
-2. <span data-ttu-id="52a49-124">В поле "Фиксированное количество канбанов" введите "2".</span><span class="sxs-lookup"><span data-stu-id="52a49-124">In the Fixed kanban quantity field, enter '2'.</span></span>
-    * <span data-ttu-id="52a49-125">Это сумма канбанов, которые должны быть активными.</span><span class="sxs-lookup"><span data-stu-id="52a49-125">This is the amount of kanbans that should be active.</span></span> <span data-ttu-id="52a49-126">В этом случае 2 канбанов передают 5 каждый.</span><span class="sxs-lookup"><span data-stu-id="52a49-126">In this case, 2 kanbans transferring 5 each.</span></span>  
-3. <span data-ttu-id="52a49-127">В поле "Минимальная граница оповещения" введите "1".</span><span class="sxs-lookup"><span data-stu-id="52a49-127">In the Alert boundary minimum field, enter '1'.</span></span>
-    * <span data-ttu-id="52a49-128">Используется для того, чтобы отслеживать минимальную сумму полных канбанов, которые должны находиться в месте назначения.</span><span class="sxs-lookup"><span data-stu-id="52a49-128">Used to keep track of the minimum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="52a49-129">Например, это используется при обзоре количества канбанов.</span><span class="sxs-lookup"><span data-stu-id="52a49-129">For example, this is used on the kanban quantity overview.</span></span>  
-4. <span data-ttu-id="52a49-130">В поле "Максимальная граница оповещения" введите "2".</span><span class="sxs-lookup"><span data-stu-id="52a49-130">In the Alert boundary maximum field, enter '2'.</span></span>
-    * <span data-ttu-id="52a49-131">Используется для того, чтобы отслеживать максимальную сумму полных канбанов, которые должны находиться в месте назначения.</span><span class="sxs-lookup"><span data-stu-id="52a49-131">Used to keep track of the maximum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="52a49-132">Например, это используется при обзоре количества канбанов.</span><span class="sxs-lookup"><span data-stu-id="52a49-132">For example, this is used on the kanban quantity overview.</span></span>  
+## <a name="set-quantities-for-kanban"></a><span data-ttu-id="bb423-121">Настройка количеств для канбана</span><span class="sxs-lookup"><span data-stu-id="bb423-121">Set quantities for kanban</span></span>
+1. <span data-ttu-id="bb423-122">Установите количество по умолчанию равным 5.</span><span class="sxs-lookup"><span data-stu-id="bb423-122">Set Default quantity to '5'.</span></span>
+    * <span data-ttu-id="bb423-123">Это количество, которое будет передано для каждого канбана.</span><span class="sxs-lookup"><span data-stu-id="bb423-123">This is the quantity that will be transferred for each kanban.</span></span>  
+2. <span data-ttu-id="bb423-124">В поле "Фиксированное количество канбанов" введите "2".</span><span class="sxs-lookup"><span data-stu-id="bb423-124">In the Fixed kanban quantity field, enter '2'.</span></span>
+    * <span data-ttu-id="bb423-125">Это сумма канбанов, которые должны быть активными.</span><span class="sxs-lookup"><span data-stu-id="bb423-125">This is the amount of kanbans that should be active.</span></span> <span data-ttu-id="bb423-126">В этом случае 2 канбанов передают 5 каждый.</span><span class="sxs-lookup"><span data-stu-id="bb423-126">In this case, 2 kanbans transferring 5 each.</span></span>  
+3. <span data-ttu-id="bb423-127">В поле "Минимальная граница оповещения" введите "1".</span><span class="sxs-lookup"><span data-stu-id="bb423-127">In the Alert boundary minimum field, enter '1'.</span></span>
+    * <span data-ttu-id="bb423-128">Используется для того, чтобы отслеживать минимальную сумму полных канбанов, которые должны находиться в месте назначения.</span><span class="sxs-lookup"><span data-stu-id="bb423-128">Used to keep track of the minimum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="bb423-129">Например, это используется при обзоре количества канбанов.</span><span class="sxs-lookup"><span data-stu-id="bb423-129">For example, this is used on the kanban quantity overview.</span></span>  
+4. <span data-ttu-id="bb423-130">В поле "Максимальная граница оповещения" введите "2".</span><span class="sxs-lookup"><span data-stu-id="bb423-130">In the Alert boundary maximum field, enter '2'.</span></span>
+    * <span data-ttu-id="bb423-131">Используется для того, чтобы отслеживать максимальную сумму полных канбанов, которые должны находиться в месте назначения.</span><span class="sxs-lookup"><span data-stu-id="bb423-131">Used to keep track of the maximum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="bb423-132">Например, это используется при обзоре количества канбанов.</span><span class="sxs-lookup"><span data-stu-id="bb423-132">For example, this is used on the kanban quantity overview.</span></span>  
 
-## <a name="create-kanbans"></a><span data-ttu-id="52a49-133">Создать канбаны</span><span class="sxs-lookup"><span data-stu-id="52a49-133">Create kanbans</span></span>
-1. <span data-ttu-id="52a49-134">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="52a49-134">Click Save.</span></span>
-    * <span data-ttu-id="52a49-135">Правило канбана должно быть сохранено, прежде чем канбаны можно создать.</span><span class="sxs-lookup"><span data-stu-id="52a49-135">The kanban rule needs to be saved before kanbans can be created.</span></span>  
-2. <span data-ttu-id="52a49-136">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="52a49-136">Click Add.</span></span>
-    * <span data-ttu-id="52a49-137">Обратите внимание, что нет активных канбанов, поскольку для количества новых канбанов предлагается 2. Это равно значению в поле "Фиксированное количество канбанов".</span><span class="sxs-lookup"><span data-stu-id="52a49-137">Note that there are no active kanbans because the suggested 'Number of new kanbans' is 2, which is equal to the 'Fixed kanban quantity'.</span></span>  
-3. <span data-ttu-id="52a49-138">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="52a49-138">Click Create.</span></span>
-    * <span data-ttu-id="52a49-139">Это создаст два канбана.</span><span class="sxs-lookup"><span data-stu-id="52a49-139">This will create two kanbans.</span></span>  
-    * <span data-ttu-id="52a49-140">Обратите внимание, что 2 канбана, по 5 каждый, были созданы для этого правила канбана изъятия.</span><span class="sxs-lookup"><span data-stu-id="52a49-140">Note that 2 kanbans, for 5 each, was created for this withdrawal kanban rule.</span></span>  <span data-ttu-id="52a49-141">Это последний этап в этой процедуре.</span><span class="sxs-lookup"><span data-stu-id="52a49-141">This is the last step in this procedure.</span></span>  
+## <a name="create-kanbans"></a><span data-ttu-id="bb423-133">Создать канбаны</span><span class="sxs-lookup"><span data-stu-id="bb423-133">Create kanbans</span></span>
+1. <span data-ttu-id="bb423-134">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="bb423-134">Click Save.</span></span>
+    * <span data-ttu-id="bb423-135">Правило канбана должно быть сохранено, прежде чем канбаны можно создать.</span><span class="sxs-lookup"><span data-stu-id="bb423-135">The kanban rule needs to be saved before kanbans can be created.</span></span>  
+2. <span data-ttu-id="bb423-136">Нажмите кнопку Добавить.</span><span class="sxs-lookup"><span data-stu-id="bb423-136">Click Add.</span></span>
+    * <span data-ttu-id="bb423-137">Обратите внимание, что нет активных канбанов, поскольку для количества новых канбанов предлагается 2. Это равно значению в поле "Фиксированное количество канбанов".</span><span class="sxs-lookup"><span data-stu-id="bb423-137">Note that there are no active kanbans because the suggested 'Number of new kanbans' is 2, which is equal to the 'Fixed kanban quantity'.</span></span>  
+3. <span data-ttu-id="bb423-138">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="bb423-138">Click Create.</span></span>
+    * <span data-ttu-id="bb423-139">Это создаст два канбана.</span><span class="sxs-lookup"><span data-stu-id="bb423-139">This will create two kanbans.</span></span>  
+    * <span data-ttu-id="bb423-140">Обратите внимание, что 2 канбана, по 5 каждый, были созданы для этого правила канбана изъятия.</span><span class="sxs-lookup"><span data-stu-id="bb423-140">Note that 2 kanbans, for 5 each, was created for this withdrawal kanban rule.</span></span>  <span data-ttu-id="bb423-141">Это последний этап в этой процедуре.</span><span class="sxs-lookup"><span data-stu-id="bb423-141">This is the last step in this procedure.</span></span>  
 

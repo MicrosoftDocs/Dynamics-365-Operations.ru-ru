@@ -2,7 +2,7 @@
 title: Создание объектов обслуживания
 description: Объекты сервисного обслуживания — это основные средства и продукты клиента, сервисное обслуживание которых вы можете выполнить.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 02/21/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,28 +18,28 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd60f5ca469fcf7184a5f8d2dc68629640709f51
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 71387c0b14d4525f290a77e01b6e4e50770f96c8
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813140"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202752"
 ---
-# <a name="create-service-objects"></a><span data-ttu-id="b3295-103">Создание объектов обслуживания</span><span class="sxs-lookup"><span data-stu-id="b3295-103">Create service objects</span></span>  
+# <a name="create-service-objects"></a><span data-ttu-id="9dbed-103">Создание объектов обслуживания</span><span class="sxs-lookup"><span data-stu-id="9dbed-103">Create service objects</span></span>  
 
 [!include [banner](../includes/banner.md)]
    
-<span data-ttu-id="b3295-104">Объекты сервисного обслуживания — это основные средства и продукты клиента, сервисное обслуживание которых вы можете выполнить.</span><span class="sxs-lookup"><span data-stu-id="b3295-104">Service objects are a customer’s assets and products for which you can perform a service.</span></span> 
+<span data-ttu-id="9dbed-104">Объекты сервисного обслуживания — это основные средства и продукты клиента, сервисное обслуживание которых вы можете выполнить.</span><span class="sxs-lookup"><span data-stu-id="9dbed-104">Service objects are a customer’s assets and products for which you can perform a service.</span></span> 
 
-1. <span data-ttu-id="b3295-105">Щелкните **Управление сервисным обслуживанием** \> **Настройка** \> **Объекты обслуживания** \> **Объекты обслуживания**.</span><span class="sxs-lookup"><span data-stu-id="b3295-105">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
-2. <span data-ttu-id="b3295-106">Нажмите кнопку **Создать** на панели инструментов.</span><span class="sxs-lookup"><span data-stu-id="b3295-106">On the toolbar, click **New**.</span></span>
-3. <span data-ttu-id="b3295-107">В поле **Описание** введите описание объекта.</span><span class="sxs-lookup"><span data-stu-id="b3295-107">In the **Description** field, enter a description of the object.</span></span>
-4. <span data-ttu-id="b3295-108">В поле **Группа объектов сервисного обслуживания** выберите группу, к которой относится объект.</span><span class="sxs-lookup"><span data-stu-id="b3295-108">In the **Service object group** field, select the group that the object belongs to.</span></span> 
-5. <span data-ttu-id="b3295-109">(Необязательно) Выберите номенклатуру для строки объекта Услуга или шаблон спецификации.</span><span class="sxs-lookup"><span data-stu-id="b3295-109">Optional: Select an item for the service object line, or select a template bill of materials (BOM).</span></span>
+1. <span data-ttu-id="9dbed-105">Щелкните **Управление сервисным обслуживанием** \> **Настройка** \> **Объекты обслуживания** \> **Объекты обслуживания**.</span><span class="sxs-lookup"><span data-stu-id="9dbed-105">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
+2. <span data-ttu-id="9dbed-106">Нажмите кнопку **Создать** на панели инструментов.</span><span class="sxs-lookup"><span data-stu-id="9dbed-106">On the toolbar, click **New**.</span></span>
+3. <span data-ttu-id="9dbed-107">В поле **Описание** введите описание объекта.</span><span class="sxs-lookup"><span data-stu-id="9dbed-107">In the **Description** field, enter a description of the object.</span></span>
+4. <span data-ttu-id="9dbed-108">В поле **Группа объектов сервисного обслуживания** выберите группу, к которой относится объект.</span><span class="sxs-lookup"><span data-stu-id="9dbed-108">In the **Service object group** field, select the group that the object belongs to.</span></span> 
+5. <span data-ttu-id="9dbed-109">(Необязательно) Выберите номенклатуру для строки объекта Услуга или шаблон спецификации.</span><span class="sxs-lookup"><span data-stu-id="9dbed-109">Optional: Select an item for the service object line, or select a template bill of materials (BOM).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="b3295-110">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="b3295-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="9dbed-110">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="9dbed-110">Related topics</span></span>
 
-[<span data-ttu-id="b3295-111">Обзор объектов сервисного обслуживания</span><span class="sxs-lookup"><span data-stu-id="b3295-111">Service objects overview</span></span>](service-objects.md)
+[<span data-ttu-id="9dbed-111">Обзор объектов сервисного обслуживания</span><span class="sxs-lookup"><span data-stu-id="9dbed-111">Service objects overview</span></span>](service-objects.md)
 
 
 
