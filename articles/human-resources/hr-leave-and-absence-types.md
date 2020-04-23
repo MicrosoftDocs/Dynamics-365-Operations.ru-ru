@@ -3,7 +3,7 @@ title: Настройка типов отпусков и отсутствий
 description: Настройка типов отпусков, которые могут взять сотрудники в Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1748ec2a888a50af9b9260720dfd439adc4686f9
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: df6e34fe6a23e6f0a8307a035752a35a15a3431c
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010374"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198058"
 ---
 # <a name="configure-leave-and-absence-types"></a>Настройка типов отпусков и отсутствий
 
@@ -58,17 +58,21 @@ ms.locfileid: "3010374"
 
 9. Нажмите **Сохранить**.
 
-## <a name="configure-preview-features"></a>Настройка предварительных функций
-
-Если включены функции предварительного просмотра для отпусков и отсутствия, необходимо также настроить для них параметры.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
+## <a name="configure-leave-type-rules"></a>Настройка правил типов отпусков
 
 1. Настройка параметров округления для типа отпуска. Возможны следующие варианты: **Нет**, **Вверх**, **Вниз** и **Ближайшее**. Можно также задать точность округления для типа отпуска.
 
 2. Настройте **Корректировка праздников** для типа отпуска. При выборе этого параметра Human Resources использует число праздников, которые выпадают на рабочий день, чтобы определить, как начислять время отсутствия для типа отпуска. Например, если Рождество приходится на понедельник, при обработке начислений модуль Human Resources вычтет один день из типа отпуска.
 
    Можно установить праздники в календаре рабочего времени. Дополнительные сведения см. в [Создание календаря рабочего времени](hr-leave-and-absence-working-time-calendar.md)
+   
+## <a name="configure-preview-features"></a>Настройка предварительных функций
+
+Если включены функции предварительного просмотра для отпусков и отсутствия, необходимо также настроить для них параметры.
+
+[!include [banner](includes/preview-feature-leave-absence.md)]
+
+1. Выберите тип отпуска для переноса перемещаемых сальдо. Кроме того, можно создать новый тип отпуска для переноса. 
 
 ## <a name="see-also"></a>См. также
 

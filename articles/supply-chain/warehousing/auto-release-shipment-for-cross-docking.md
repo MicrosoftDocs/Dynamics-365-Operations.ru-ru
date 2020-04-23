@@ -2,7 +2,7 @@
 title: Автоматический запуск отгрузки для кросс-докинга
 description: В этом раздел описывается стратегия кросс-докинга, которая позволяет автоматически выпустить заказ спроса на склад, когда производственный заказ, предоставляющий количество спроса, считается завершенным, так что это количество перемещается непосредственно из местонахождения производства в исходящее местоположение.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 849487134969144ec8d3c25023270f7e7a63d470
-ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
+ms.openlocfilehash: d11db378be6b2ba845de0ac0a2252092a50bc96a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2625882"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201487"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Автоматический запуск отгрузки для кросс-докинга
 

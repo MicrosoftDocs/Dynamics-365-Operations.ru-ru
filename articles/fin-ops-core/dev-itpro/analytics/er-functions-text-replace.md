@@ -3,7 +3,7 @@ title: Функция ER REPLACE
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности REPLACE.
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba2590635ba465dae9ea50d3e4da989365548f3b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 83d5095620a938f1ac4b8428fff9209fda7a7831
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040994"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201074"
 ---
-# <a name="REPLACE">Функция ER REPLACE</a>
+# <a name=""></a><a name="REPLACE">Функция ER REPLACE</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,7 +69,7 @@ REPLACE (text, pattern, replacement, regular expression flag)
 
 Если аргумент `regular expression flag` — **TRUE**, эта функция возвращает указанную строку после того, как она была изменена в результате использования регулярного выражения, заданного аргументом `pattern`. Регулярное выражение используется для обнаружения символов, которые необходимо заменить.
 
-Если аргумент `regular expression flag` — **FALSE**, эта функция ведет себя как [TRANSLATE](er-functions-text-translate.md). Символы, заданные аргументом `replacement` используются для замены найденных символов. 
+Если аргумент `regular expression flag` имеет значение **FALSE**, эта функция возвращает указанную строку после того, как набор символов, определенных в аргументе `pattern`, был заменен символами из аргумента `replacement`. 
 
 ## <a name="example-1"></a>Пример 1
 

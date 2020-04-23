@@ -3,7 +3,7 @@ title: Расширенный редактор формул электронно
 description: В этом разделе описывается, как можно использовать расширенный редактор формул для настройки выражений в сопоставлении моделей электронной отчетности и компонентов формата.
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: df402bc20753d2ba14295592f4b40e20f9fdc7bf
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
+ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138906"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "3257069"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Расширенный редактор формул электронной отчетности
 
@@ -156,6 +156,16 @@ ms.locfileid: "3138906"
 - Текст в двойных скобках, который может представлять код метки текстовой константы.
 
 [![Редактор формул электронной отчетности](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
+
+## <a name="limitations"></a>Ограничения
+
+В настоящее время редактор поддерживается в следующих веб-браузерах:
+
+- Chrome
+- Edge
+- Firefox
+- Opera
+- Safari
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
