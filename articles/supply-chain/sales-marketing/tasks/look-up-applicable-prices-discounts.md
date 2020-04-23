@@ -2,25 +2,25 @@
 title: Поиск применимых цен и скидок
 description: В этой процедуре показано, как найти цену и/или скидку по продукту, которая в настоящее время действует для определенного клиента, без создания заказа на продажу.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ded87dcd553c0aa9c19ca273460f9adf0a4b542
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 4ea4c7db203d0b47c59b241c9d89c69c71cf6cb1
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148638"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211936"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Поиск применимых цен и скидок
 

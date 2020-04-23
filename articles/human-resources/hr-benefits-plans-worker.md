@@ -3,7 +3,7 @@ title: Создание планов льгот работников
 description: Можно создать планы льгот работника в Microsoft Dynamics 365 Human Resources, чтобы выбрать планы льгот для сотрудников и подтвердить выбор плана льгот.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65b0ce2200a3c63a00ccd73fb26c79556aec55ad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 45b9a669d63620a15e6dc8047fed24c2db64438f
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010348"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230047"
 ---
 # <a name="create-worker-benefit-plans"></a>Создание планов льгот работников
-
-[!include [banner](includes/preview-feature.md)]
 
 Можно создать планы льгот работника в Microsoft Dynamics 365 Human Resources, чтобы выбрать планы льгот для сотрудников и подтвердить выбор плана льгот. Обычно сотрудники самостоятельно выбирают планы льгот, используя дистанционное обслуживание сотрудников, а затем администратор льгот подтверждает выбор. 
 

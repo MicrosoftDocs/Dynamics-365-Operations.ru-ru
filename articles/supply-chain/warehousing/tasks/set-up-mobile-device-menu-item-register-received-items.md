@@ -2,7 +2,7 @@
 title: Настройка пункта меню мобильного устройства для регистрации полученных номенклатур
 description: Эта тема рассматривает настройку элемента меню мобильного устройства.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFMenu
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5783742b382c333c9ba7b60701c043c74c87c458
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 146eb0822566a9bae59d486e39c8227938eb2375
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148324"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216858"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Настройка пункта меню мобильного устройства для регистрации полученных номенклатур
 

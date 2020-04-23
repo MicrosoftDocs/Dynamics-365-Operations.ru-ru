@@ -2,7 +2,7 @@
 title: Коды оснований для проведения инвентаризации запасов
 description: В этом разделе описывается, как настроить и применять коды оснований для задач инвентаризации.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCountingReasonCodePolicy
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 2f4332432ad73861cd9b6b6452685d3175ace56b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6d71de53f5d24ecea03892790449c7a57c60eb55
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569416"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207309"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Коды оснований для проведения инвентаризации запасов
 

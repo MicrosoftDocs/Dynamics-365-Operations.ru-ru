@@ -3,7 +3,7 @@ title: Включение ADLS в среде Dynamics 365 Commerce
 description: В этой теме объясняется, как включить и проверить Azure Data Lake Storage (ADLS) для среды Dynamics 365 Commerce, что является необходимым условием для включения рекомендаций по продукту.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154444"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259756"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>Включение ADLS в среде Dynamics 365 Commerce
 
@@ -48,7 +48,8 @@ ms.locfileid: "3154444"
   
 ## <a name="configuration-steps"></a>Шаги конфигурации
 
-В этом разделе описываются этапы настройки, необходимые для включения ADLS в среде.
+В этом разделе описываются этапы настройки, необходимые для включения ADLS в среде в соответствии с рекомендациями по продуктам.
+Более подробное описание шагов, необходимых для включения ADLS, см. в разделе [Предоставление хранилища объектов как Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
 ### <a name="enable-adls-in-the-environment"></a>Включение ADLS в среде
 
@@ -91,6 +92,8 @@ ms.locfileid: "3154444"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
+[Предоставление хранилища объектов как Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
+
 [Обзор рекомендаций по продуктам](product-recommendations.md)
 
 [Включить рекомендации по продуктам](enable-product-recommendations.md)
@@ -110,5 +113,3 @@ ms.locfileid: "3154444"
 [Создание рекомендаций с помощью демонстрационных данных](product-recommendations-demo-data.md)
 
 [Вопросы и ответы по рекомендациям по продуктам](faq-recommendations.md)
-
-

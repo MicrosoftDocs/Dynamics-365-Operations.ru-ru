@@ -2,7 +2,7 @@
 title: Анализ ошибки актива
 description: В этом разделе описывается анализ неполадок актива в управлении активами.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43772903f6845409cb33c7f2a13a049a3e9aa208
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 67ccbb742bb4e2283c30b4dec055d137b4a51e40
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652410"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216421"
 ---
 # <a name="asset-fault-analysis"></a>Анализ ошибки актива
 

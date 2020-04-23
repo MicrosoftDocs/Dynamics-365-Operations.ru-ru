@@ -2,7 +2,7 @@
 title: Адаптация поставщиков
 description: В этом разделе описан процесс адаптации новых поставщиков. В нем описываются действия, которые требуются для различных ролей во время этого процесса.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250169"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203419"
 ---
 # <a name="onboard-vendors"></a>Адаптация поставщиков
 [!include [banner](../includes/banner.md)]
@@ -48,7 +48,7 @@ ms.locfileid: "2250169"
 | Администратор            | | | Создайте пользователя в Supply Chain Management и в Microsoft Azure. | | | |
 | Контактное лицо поставщика    | | | Отправка электронной почты контактному лицу. | Регистрация сведений о поставщике. | | |
 
-Для быстрой демонстрации процесса адаптации поставщика просмотрите это короткое видео на YouTube о том, [Как адаптировать нового поставщика в Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Для быстрой демонстрации процесса адаптации поставщиков посмотрите это короткое видео на YouTube по теме [Как адаптировать нового поставщика в Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Импорт запроса на регистрацию потенциального поставщика
 
