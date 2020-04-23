@@ -2,7 +2,7 @@
 title: Передача данных для моделей продукта
 description: Для экспорта данных для модели конфигурации продукта требуется наличие по крайней мере одной модели продукта.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,30 +10,30 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd2ac37fd1885a199e1af2ea74748650c2589b25
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 029f51466add340aead56aaad12afc3e1da374f2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147540"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213017"
 ---
-# <a name="transfer-data-for-product-models"></a><span data-ttu-id="be6d8-103">Передача данных для моделей продукта</span><span class="sxs-lookup"><span data-stu-id="be6d8-103">Transfer data for product models</span></span>
+# <a name="transfer-data-for-product-models"></a><span data-ttu-id="c93af-103">Передача данных для моделей продукта</span><span class="sxs-lookup"><span data-stu-id="c93af-103">Transfer data for product models</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="be6d8-104">Для экспорта данных для модели конфигурации продукта требуется наличие по крайней мере одной модели продукта.</span><span class="sxs-lookup"><span data-stu-id="be6d8-104">Exporting data for a product configuration model requires that you have at least one product model available.</span></span> <span data-ttu-id="be6d8-105">Эта процедура использует модель динамика класса Hi-End в демонстрационной компании USMF, чтобы описать экспорт данных для этой модели.</span><span class="sxs-lookup"><span data-stu-id="be6d8-105">This procedure uses the High end speaker model in the demo company USMF to show you how to export data for this model.</span></span>
+<span data-ttu-id="c93af-104">Для экспорта данных для модели конфигурации продукта требуется наличие по крайней мере одной модели продукта.</span><span class="sxs-lookup"><span data-stu-id="c93af-104">Exporting data for a product configuration model requires that you have at least one product model available.</span></span> <span data-ttu-id="c93af-105">Эта процедура использует модель динамика класса Hi-End в демонстрационной компании USMF, чтобы описать экспорт данных для этой модели.</span><span class="sxs-lookup"><span data-stu-id="c93af-105">This procedure uses the High end speaker model in the demo company USMF to show you how to export data for this model.</span></span>
 
-1. <span data-ttu-id="be6d8-106">Щелкните "Определение модели вариантов продукта".</span><span class="sxs-lookup"><span data-stu-id="be6d8-106">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="be6d8-107">Щелкните "Модели конфигурации продукта".</span><span class="sxs-lookup"><span data-stu-id="be6d8-107">Click Product configuration models.</span></span>
-3. <span data-ttu-id="be6d8-108">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="be6d8-108">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="be6d8-109">Выберите модель динамика класса Hi--End для этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="be6d8-109">Select the High end speaker model for this procedure.</span></span>  
-4. <span data-ttu-id="be6d8-110">В области действий щелкните "Модель".</span><span class="sxs-lookup"><span data-stu-id="be6d8-110">On the Action Pane, click Model.</span></span>
-5. <span data-ttu-id="be6d8-111">Щелкните "Экспорт модели продукта".</span><span class="sxs-lookup"><span data-stu-id="be6d8-111">Click Export product model.</span></span>
-    * <span data-ttu-id="be6d8-112">Поведение загрузки зависит от браузера и настроек безопасности.</span><span class="sxs-lookup"><span data-stu-id="be6d8-112">The download behavior varies from browser to browser depending on how the security settings are set up.</span></span>  
+1. <span data-ttu-id="c93af-106">Щелкните "Определение модели вариантов продукта".</span><span class="sxs-lookup"><span data-stu-id="c93af-106">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="c93af-107">Щелкните "Модели конфигурации продукта".</span><span class="sxs-lookup"><span data-stu-id="c93af-107">Click Product configuration models.</span></span>
+3. <span data-ttu-id="c93af-108">В списке найдите и выберите требуемую запись.</span><span class="sxs-lookup"><span data-stu-id="c93af-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="c93af-109">Выберите модель динамика класса Hi--End для этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="c93af-109">Select the High end speaker model for this procedure.</span></span>  
+4. <span data-ttu-id="c93af-110">В области действий щелкните "Модель".</span><span class="sxs-lookup"><span data-stu-id="c93af-110">On the Action Pane, click Model.</span></span>
+5. <span data-ttu-id="c93af-111">Щелкните "Экспорт модели продукта".</span><span class="sxs-lookup"><span data-stu-id="c93af-111">Click Export product model.</span></span>
+    * <span data-ttu-id="c93af-112">Поведение загрузки зависит от браузера и настроек безопасности.</span><span class="sxs-lookup"><span data-stu-id="c93af-112">The download behavior varies from browser to browser depending on how the security settings are set up.</span></span>  
 

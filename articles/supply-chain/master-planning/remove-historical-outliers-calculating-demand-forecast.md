@@ -2,7 +2,7 @@
 title: Удаление выбросов из исторических транзакционных данных при расчете прогноза спроса
 description: В этой статье описывается, как удалить выбросы из исторических данных, которые использовались для расчета прогноза спроса. Путем исключения выбросов, вы можете повысить точность прогноза.
 author: roxanadiaconu
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastParameters, ReqDemPlanOutlierQuerySetup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 72621
 ms.assetid: 88a964af-14eb-4c5c-945b-388e5908362c
@@ -19,35 +19,35 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0373448cba908c1ba3889c3e533c205e0410bab8
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f8593b0f55e899a32f2407fcb668d8bcb0ff8431
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813624"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213454"
 ---
-# <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a><span data-ttu-id="d386c-104">Удаление выбросов из исторических транзакционных данных при расчете прогноза спроса</span><span class="sxs-lookup"><span data-stu-id="d386c-104">Remove outliers from historical transaction data when calculating a demand forecast</span></span>
+# <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a><span data-ttu-id="d54e0-104">Удаление выбросов из исторических транзакционных данных при расчете прогноза спроса</span><span class="sxs-lookup"><span data-stu-id="d54e0-104">Remove outliers from historical transaction data when calculating a demand forecast</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d386c-105">В этой статье описывается, как удалить выбросы из исторических данных, которые использовались для расчета прогноза спроса.</span><span class="sxs-lookup"><span data-stu-id="d386c-105">This article describes how to exclude outliers from the historical data that is used to calculate a demand forecast.</span></span> <span data-ttu-id="d386c-106">Путем исключения выбросов, вы можете повысить точность прогноза.</span><span class="sxs-lookup"><span data-stu-id="d386c-106">By excluding outliers, you can improve forecast accuracy.</span></span>
+<span data-ttu-id="d54e0-105">В этой статье описывается, как удалить выбросы из исторических данных, которые использовались для расчета прогноза спроса.</span><span class="sxs-lookup"><span data-stu-id="d54e0-105">This article describes how to exclude outliers from the historical data that is used to calculate a demand forecast.</span></span> <span data-ttu-id="d54e0-106">Путем исключения выбросов, вы можете повысить точность прогноза.</span><span class="sxs-lookup"><span data-stu-id="d54e0-106">By excluding outliers, you can improve forecast accuracy.</span></span>
 
-<span data-ttu-id="d386c-107">Можно удалить выбросы для повышения точности прогноза.</span><span class="sxs-lookup"><span data-stu-id="d386c-107">You can exclude outliers to improve forecast accuracy.</span></span> <span data-ttu-id="d386c-108">Эта задача не является обязательной.</span><span class="sxs-lookup"><span data-stu-id="d386c-108">This is an optional task.</span></span> <span data-ttu-id="d386c-109">Обзор процесса:</span><span class="sxs-lookup"><span data-stu-id="d386c-109">Here is an overview of the process:</span></span>
+<span data-ttu-id="d54e0-107">Можно удалить выбросы для повышения точности прогноза.</span><span class="sxs-lookup"><span data-stu-id="d54e0-107">You can exclude outliers to improve forecast accuracy.</span></span> <span data-ttu-id="d54e0-108">Эта задача не является обязательной.</span><span class="sxs-lookup"><span data-stu-id="d54e0-108">This is an optional task.</span></span> <span data-ttu-id="d54e0-109">Обзор процесса:</span><span class="sxs-lookup"><span data-stu-id="d54e0-109">Here is an overview of the process:</span></span>
 
-1.  <span data-ttu-id="d386c-110">Щелкните **Сводное планирование** &gt; **Настройка** &gt; **Прогнозирование спроса** &gt; **Удаление выбросов**, чтобы открыть страницу **Удаление выбросов**, где вы можете использовать запрос для того, чтобы выбрать исключаемые проводки.</span><span class="sxs-lookup"><span data-stu-id="d386c-110">Click **Master planning** &gt; **Setup** &gt; **Demand forecasting** &gt; **Outlier removal** to open the **Outlier removal** page, where you can use a query to select the transactions to exclude.</span></span>
-2.  <span data-ttu-id="d386c-111">Выберите компанию, к которой применяется запрос, а затем введите имя и описание.</span><span class="sxs-lookup"><span data-stu-id="d386c-111">Select the company that the query applies to, and then enter a name and description.</span></span> <span data-ttu-id="d386c-112">В поле **Дата запроса** автоматически задается текущая дата.</span><span class="sxs-lookup"><span data-stu-id="d386c-112">The **Query date** field is automatically set to the current date.</span></span>
-3.  <span data-ttu-id="d386c-113">Установите флажок **Активно**, чтобы исключить проводки, найденные в результате запроса, из исторических данных.</span><span class="sxs-lookup"><span data-stu-id="d386c-113">Select the **Active** check box to exclude the transactions that the query finds from the historical data.</span></span> <span data-ttu-id="d386c-114">Эта настройка вступит в силу при создании базового прогноза.</span><span class="sxs-lookup"><span data-stu-id="d386c-114">This setting will take effect when you create a baseline forecast.</span></span>
-4.  <span data-ttu-id="d386c-115">На странице **Запрос удаления выбросов** можно добавить, удалить и выбрать критерии, определяющие проводки, которые будут исключены при расчете базового прогноза.</span><span class="sxs-lookup"><span data-stu-id="d386c-115">On the **Outlier removal query** page, you can add, remove, and select the criteria that define which transactions will be excluded when the baseline forecast is calculated.</span></span> <span data-ttu-id="d386c-116">Например, выберите определенную номенклатуру или проводку по заказу, которую необходимо исключить.</span><span class="sxs-lookup"><span data-stu-id="d386c-116">For example, select a specific item or order transaction to exclude.</span></span>
-5.  <span data-ttu-id="d386c-117">Щелкните **Отобразить проводки**.</span><span class="sxs-lookup"><span data-stu-id="d386c-117">Click **Display transactions**.</span></span> <span data-ttu-id="d386c-118">На странице **Проводки-выбросы** содержится список проводок, которые отвечают критериям, указанным в запросе, и которые будут исключены из исторических данных при расчете прогноза спроса.</span><span class="sxs-lookup"><span data-stu-id="d386c-118">The **Outlier transactions** page lists the transactions that meet the criteria that you defined in the query, and that will be excluded from the historical data when the demand forecast is calculated.</span></span>
+1.  <span data-ttu-id="d54e0-110">Щелкните **Сводное планирование** &gt; **Настройка** &gt; **Прогнозирование спроса** &gt; **Удаление выбросов**, чтобы открыть страницу **Удаление выбросов**, где вы можете использовать запрос для того, чтобы выбрать исключаемые проводки.</span><span class="sxs-lookup"><span data-stu-id="d54e0-110">Click **Master planning** &gt; **Setup** &gt; **Demand forecasting** &gt; **Outlier removal** to open the **Outlier removal** page, where you can use a query to select the transactions to exclude.</span></span>
+2.  <span data-ttu-id="d54e0-111">Выберите компанию, к которой применяется запрос, а затем введите имя и описание.</span><span class="sxs-lookup"><span data-stu-id="d54e0-111">Select the company that the query applies to, and then enter a name and description.</span></span> <span data-ttu-id="d54e0-112">В поле **Дата запроса** автоматически задается текущая дата.</span><span class="sxs-lookup"><span data-stu-id="d54e0-112">The **Query date** field is automatically set to the current date.</span></span>
+3.  <span data-ttu-id="d54e0-113">Установите флажок **Активно**, чтобы исключить проводки, найденные в результате запроса, из исторических данных.</span><span class="sxs-lookup"><span data-stu-id="d54e0-113">Select the **Active** check box to exclude the transactions that the query finds from the historical data.</span></span> <span data-ttu-id="d54e0-114">Эта настройка вступит в силу при создании базового прогноза.</span><span class="sxs-lookup"><span data-stu-id="d54e0-114">This setting will take effect when you create a baseline forecast.</span></span>
+4.  <span data-ttu-id="d54e0-115">На странице **Запрос удаления выбросов** можно добавить, удалить и выбрать критерии, определяющие проводки, которые будут исключены при расчете базового прогноза.</span><span class="sxs-lookup"><span data-stu-id="d54e0-115">On the **Outlier removal query** page, you can add, remove, and select the criteria that define which transactions will be excluded when the baseline forecast is calculated.</span></span> <span data-ttu-id="d54e0-116">Например, выберите определенную номенклатуру или проводку по заказу, которую необходимо исключить.</span><span class="sxs-lookup"><span data-stu-id="d54e0-116">For example, select a specific item or order transaction to exclude.</span></span>
+5.  <span data-ttu-id="d54e0-117">Щелкните **Отобразить проводки**.</span><span class="sxs-lookup"><span data-stu-id="d54e0-117">Click **Display transactions**.</span></span> <span data-ttu-id="d54e0-118">На странице **Проводки-выбросы** содержится список проводок, которые отвечают критериям, указанным в запросе, и которые будут исключены из исторических данных при расчете прогноза спроса.</span><span class="sxs-lookup"><span data-stu-id="d54e0-118">The **Outlier transactions** page lists the transactions that meet the criteria that you defined in the query, and that will be excluded from the historical data when the demand forecast is calculated.</span></span>
 
-<span data-ttu-id="d386c-119">**Примечание.** Вы можете также создать запрос, который основан на существующем запросе.</span><span class="sxs-lookup"><span data-stu-id="d386c-119">**Note:** You can also create a query that is based on an existing query.</span></span> <span data-ttu-id="d386c-120">Выберите запрос для копирования и после этого щелкните **Дублировать**.</span><span class="sxs-lookup"><span data-stu-id="d386c-120">Select the query to copy, and then click **Duplicate**.</span></span> <span data-ttu-id="d386c-121">В поле **Дата запроса** указывается версия.</span><span class="sxs-lookup"><span data-stu-id="d386c-121">The **Query date** field identifies the version.</span></span> <span data-ttu-id="d386c-122">Вы можете использовать запрос "как есть" или можете щелкнуть **Изменить запрос**, чтобы изменить критерии.</span><span class="sxs-lookup"><span data-stu-id="d386c-122">You can use the query as it is, or you can click **Edit query** to modify the criteria.</span></span> <span data-ttu-id="d386c-123">Вы можете также изменить имя и описание нового запроса.</span><span class="sxs-lookup"><span data-stu-id="d386c-123">You can optionally modify the name and description of the new query.</span></span>
+<span data-ttu-id="d54e0-119">**Примечание.** Вы можете также создать запрос, который основан на существующем запросе.</span><span class="sxs-lookup"><span data-stu-id="d54e0-119">**Note:** You can also create a query that is based on an existing query.</span></span> <span data-ttu-id="d54e0-120">Выберите запрос для копирования и после этого щелкните **Дублировать**.</span><span class="sxs-lookup"><span data-stu-id="d54e0-120">Select the query to copy, and then click **Duplicate**.</span></span> <span data-ttu-id="d54e0-121">В поле **Дата запроса** указывается версия.</span><span class="sxs-lookup"><span data-stu-id="d54e0-121">The **Query date** field identifies the version.</span></span> <span data-ttu-id="d54e0-122">Вы можете использовать запрос "как есть" или можете щелкнуть **Изменить запрос**, чтобы изменить критерии.</span><span class="sxs-lookup"><span data-stu-id="d54e0-122">You can use the query as it is, or you can click **Edit query** to modify the criteria.</span></span> <span data-ttu-id="d54e0-123">Вы можете также изменить имя и описание нового запроса.</span><span class="sxs-lookup"><span data-stu-id="d54e0-123">You can optionally modify the name and description of the new query.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="d386c-124">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="d386c-124">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="d54e0-124">Дополнительные ресурсы</span><span class="sxs-lookup"><span data-stu-id="d54e0-124">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="d386c-125">Обзор прогнозирования спроса</span><span class="sxs-lookup"><span data-stu-id="d386c-125">Demand forecasting overview</span></span>](introduction-demand-forecasting.md)
+[<span data-ttu-id="d54e0-125">Обзор прогнозирования спроса</span><span class="sxs-lookup"><span data-stu-id="d54e0-125">Demand forecasting overview</span></span>](introduction-demand-forecasting.md)
 
-[<span data-ttu-id="d386c-126">Отслеживание точности прогноза</span><span class="sxs-lookup"><span data-stu-id="d386c-126">Monitor forecast accuracy</span></span>](monitor-forecast-accuracy.md)
+[<span data-ttu-id="d54e0-126">Отслеживание точности прогноза</span><span class="sxs-lookup"><span data-stu-id="d54e0-126">Monitor forecast accuracy</span></span>](monitor-forecast-accuracy.md)
 
 
 

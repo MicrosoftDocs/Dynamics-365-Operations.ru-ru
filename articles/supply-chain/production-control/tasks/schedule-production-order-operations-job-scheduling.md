@@ -2,7 +2,7 @@
 title: Планирование производственного заказа с помощью планирования операций и заданий
 description: Эта тема рассматривает планирование производственного заказа с помощью планирования операций и планирования заданий.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,49 +10,49 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdSchedule, ProdTable, ProdRouteJob
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2181a84aea08aac0ddb202f7211dbda6330a3d49
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 7a69339bc678de8343dbf2646a4d6fe0ace9964c
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148845"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210487"
 ---
-# <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a><span data-ttu-id="ba337-103">Планирование производственного заказа с помощью планирования операций и заданий</span><span class="sxs-lookup"><span data-stu-id="ba337-103">Schedule a production order with operations and job scheduling</span></span>
+# <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a><span data-ttu-id="1daf5-103">Планирование производственного заказа с помощью планирования операций и заданий</span><span class="sxs-lookup"><span data-stu-id="1daf5-103">Schedule a production order with operations and job scheduling</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ba337-104">Эта тема рассматривает планирование производственного заказа с помощью планирования операций и планирования заданий.</span><span class="sxs-lookup"><span data-stu-id="ba337-104">This topic focuses on scheduling a production order with operations scheduling and job scheduling.</span></span> <span data-ttu-id="ba337-105">Задания не создаются при планировании операций и создаются при планировании заданий.</span><span class="sxs-lookup"><span data-stu-id="ba337-105">No jobs are created with operations scheduling whereas jobs are created with job scheduling.</span></span> <span data-ttu-id="ba337-106">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="ba337-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="ba337-107">Эта процедура предназначена для менеджера по производству, планировщика производства или начальника производственного участка, работающего в среде дискретного производства.</span><span class="sxs-lookup"><span data-stu-id="ba337-107">This procedure is intended for the production manager, production planner, or shop floor supervisor working in a discrete manufacturing environment.</span></span>
+<span data-ttu-id="1daf5-104">Эта тема рассматривает планирование производственного заказа с помощью планирования операций и планирования заданий.</span><span class="sxs-lookup"><span data-stu-id="1daf5-104">This topic focuses on scheduling a production order with operations scheduling and job scheduling.</span></span> <span data-ttu-id="1daf5-105">Задания не создаются при планировании операций и создаются при планировании заданий.</span><span class="sxs-lookup"><span data-stu-id="1daf5-105">No jobs are created with operations scheduling whereas jobs are created with job scheduling.</span></span> <span data-ttu-id="1daf5-106">В качестве компании с демонстрационными данными для создания этой задачи используется USMF.</span><span class="sxs-lookup"><span data-stu-id="1daf5-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="1daf5-107">Эта процедура предназначена для менеджера по производству, планировщика производства или начальника производственного участка, работающего в среде дискретного производства.</span><span class="sxs-lookup"><span data-stu-id="1daf5-107">This procedure is intended for the production manager, production planner, or shop floor supervisor working in a discrete manufacturing environment.</span></span>
 
 
-## <a name="create-a-production-order"></a><span data-ttu-id="ba337-108">Создание производственного заказа</span><span class="sxs-lookup"><span data-stu-id="ba337-108">Create a production order</span></span>
-1. <span data-ttu-id="ba337-109">В области переходов выберите **Модули > Управление производством > Производственные заказы > Все производственные заказы**.</span><span class="sxs-lookup"><span data-stu-id="ba337-109">In the navigation pane, go to **Modules > Production control > Production orders > All production orders**.</span></span>
-2. <span data-ttu-id="ba337-110">Выберите **Новый производственный заказ**.</span><span class="sxs-lookup"><span data-stu-id="ba337-110">Select **New production order**.</span></span>
-3. <span data-ttu-id="ba337-111">В поле **Код номенклатуры** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="ba337-111">In the **Item number** field, enter or select a value.</span></span> <span data-ttu-id="ba337-112">Выберите код номенклатуры **D0001**.</span><span class="sxs-lookup"><span data-stu-id="ba337-112">Select Item number **D0001**.</span></span>  
-4. <span data-ttu-id="ba337-113">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="ba337-113">Select **Create**.</span></span>
+## <a name="create-a-production-order"></a><span data-ttu-id="1daf5-108">Создание производственного заказа</span><span class="sxs-lookup"><span data-stu-id="1daf5-108">Create a production order</span></span>
+1. <span data-ttu-id="1daf5-109">В области переходов выберите **Модули > Управление производством > Производственные заказы > Все производственные заказы**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-109">In the navigation pane, go to **Modules > Production control > Production orders > All production orders**.</span></span>
+2. <span data-ttu-id="1daf5-110">Выберите **Новый производственный заказ**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-110">Select **New production order**.</span></span>
+3. <span data-ttu-id="1daf5-111">В поле **Код номенклатуры** введите или выберите значение.</span><span class="sxs-lookup"><span data-stu-id="1daf5-111">In the **Item number** field, enter or select a value.</span></span> <span data-ttu-id="1daf5-112">Выберите код номенклатуры **D0001**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-112">Select Item number **D0001**.</span></span>  
+4. <span data-ttu-id="1daf5-113">Выберите **Создать**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-113">Select **Create**.</span></span>
 
-## <a name="schedule-operations-for-the-production-order"></a><span data-ttu-id="ba337-114">Планирование операций для производственного заказа</span><span class="sxs-lookup"><span data-stu-id="ba337-114">Schedule operations for the production order</span></span>
-1. <span data-ttu-id="ba337-115">Пометьте только что созданную строку.</span><span class="sxs-lookup"><span data-stu-id="ba337-115">Mark the newly created row.</span></span>      
-2. <span data-ttu-id="ba337-116">На панели операций выберите **График**.</span><span class="sxs-lookup"><span data-stu-id="ba337-116">On the Action Pane, select **Schedule**.</span></span>
-3. <span data-ttu-id="ba337-117">Выберите **Планирование операций**.</span><span class="sxs-lookup"><span data-stu-id="ba337-117">Select **Schedule operations**.</span></span>
-4. <span data-ttu-id="ba337-118">В поле **Направление планирования** выберите **Вперед от даты планирования**.</span><span class="sxs-lookup"><span data-stu-id="ba337-118">In the **Scheduling direction** field, select **Forward from scheduling date**.</span></span>
-5. <span data-ttu-id="ba337-119">В поле **Дата планирования** введите дату.</span><span class="sxs-lookup"><span data-stu-id="ba337-119">In the **Scheduling date** field, enter a date.</span></span> <span data-ttu-id="ba337-120">Выберите дату в будущем, например сегодня плюс одна неделя.</span><span class="sxs-lookup"><span data-stu-id="ba337-120">Select a future date, for example, today plus one week.</span></span> <span data-ttu-id="ba337-121">При выбранном направлении планирования для производственного заказа будет выполнено планирование вперед с этой даты.</span><span class="sxs-lookup"><span data-stu-id="ba337-121">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
-6. <span data-ttu-id="ba337-122">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="ba337-122">Select **OK**.</span></span>
-7. <span data-ttu-id="ba337-123">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="ba337-123">In the list, mark the selected row.</span></span> <span data-ttu-id="ba337-124">Обратите внимание, что статус изменяется на **Запланировано**.</span><span class="sxs-lookup"><span data-stu-id="ba337-124">Note that the status is changed to **Scheduled**.</span></span> 
-8. <span data-ttu-id="ba337-125">Выберите **Все задания**.</span><span class="sxs-lookup"><span data-stu-id="ba337-125">Select **All jobs**.</span></span> <span data-ttu-id="ba337-126">Обратите внимание, что задания не создаются при планировании операций.</span><span class="sxs-lookup"><span data-stu-id="ba337-126">Note that no jobs are created with operations scheduling.</span></span>  
-9. <span data-ttu-id="ba337-127">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="ba337-127">Close the page.</span></span>
+## <a name="schedule-operations-for-the-production-order"></a><span data-ttu-id="1daf5-114">Планирование операций для производственного заказа</span><span class="sxs-lookup"><span data-stu-id="1daf5-114">Schedule operations for the production order</span></span>
+1. <span data-ttu-id="1daf5-115">Пометьте только что созданную строку.</span><span class="sxs-lookup"><span data-stu-id="1daf5-115">Mark the newly created row.</span></span>      
+2. <span data-ttu-id="1daf5-116">На панели операций выберите **График**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-116">On the Action Pane, select **Schedule**.</span></span>
+3. <span data-ttu-id="1daf5-117">Выберите **Планирование операций**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-117">Select **Schedule operations**.</span></span>
+4. <span data-ttu-id="1daf5-118">В поле **Направление планирования** выберите **Вперед от даты планирования**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-118">In the **Scheduling direction** field, select **Forward from scheduling date**.</span></span>
+5. <span data-ttu-id="1daf5-119">В поле **Дата планирования** введите дату.</span><span class="sxs-lookup"><span data-stu-id="1daf5-119">In the **Scheduling date** field, enter a date.</span></span> <span data-ttu-id="1daf5-120">Выберите дату в будущем, например сегодня плюс одна неделя.</span><span class="sxs-lookup"><span data-stu-id="1daf5-120">Select a future date, for example, today plus one week.</span></span> <span data-ttu-id="1daf5-121">При выбранном направлении планирования для производственного заказа будет выполнено планирование вперед с этой даты.</span><span class="sxs-lookup"><span data-stu-id="1daf5-121">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
+6. <span data-ttu-id="1daf5-122">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-122">Select **OK**.</span></span>
+7. <span data-ttu-id="1daf5-123">В списке пометьте выбранную строку.</span><span class="sxs-lookup"><span data-stu-id="1daf5-123">In the list, mark the selected row.</span></span> <span data-ttu-id="1daf5-124">Обратите внимание, что статус изменяется на **Запланировано**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-124">Note that the status is changed to **Scheduled**.</span></span> 
+8. <span data-ttu-id="1daf5-125">Выберите **Все задания**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-125">Select **All jobs**.</span></span> <span data-ttu-id="1daf5-126">Обратите внимание, что задания не создаются при планировании операций.</span><span class="sxs-lookup"><span data-stu-id="1daf5-126">Note that no jobs are created with operations scheduling.</span></span>  
+9. <span data-ttu-id="1daf5-127">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="1daf5-127">Close the page.</span></span>
 
-## <a name="schedule-jobs-for-the-production-order"></a><span data-ttu-id="ba337-128">Планирование заданий для производственного заказа</span><span class="sxs-lookup"><span data-stu-id="ba337-128">Schedule jobs for the production order</span></span>
-1. <span data-ttu-id="ba337-129">На панели операций выберите **График**.</span><span class="sxs-lookup"><span data-stu-id="ba337-129">On the Action Pane, select **Schedule**.</span></span>
-2. <span data-ttu-id="ba337-130">Выберите **Планирование заданий**.</span><span class="sxs-lookup"><span data-stu-id="ba337-130">Select **Schedule jobs**.</span></span>
-3. <span data-ttu-id="ba337-131">В поле **Направление планирования** выберите **Вперед от даты планирования**.</span><span class="sxs-lookup"><span data-stu-id="ba337-131">In the **Scheduling direction** field, select **Forward from scheduling date**.</span></span>
-4. <span data-ttu-id="ba337-132">В поле **Дата планирования** введите дату.</span><span class="sxs-lookup"><span data-stu-id="ba337-132">In the **Scheduling date** field, enter a date.</span></span> <span data-ttu-id="ba337-133">Выберите дату в будущем, например сегодня плюс одна неделя.</span><span class="sxs-lookup"><span data-stu-id="ba337-133">Select a date in the future, for example, today plus one week.</span></span> <span data-ttu-id="ba337-134">При выбранном направлении планирования для производственного заказа будет выполнено планирование вперед с этой даты.</span><span class="sxs-lookup"><span data-stu-id="ba337-134">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
-5. <span data-ttu-id="ba337-135">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="ba337-135">Select **OK**.</span></span>
-6. <span data-ttu-id="ba337-136">На панели операций выберите **Производственный заказ**.</span><span class="sxs-lookup"><span data-stu-id="ba337-136">On the Action Pane, select **Production order**.</span></span>
-7. <span data-ttu-id="ba337-137">Выберите **Все задания**.</span><span class="sxs-lookup"><span data-stu-id="ba337-137">Select **All jobs**.</span></span> <span data-ttu-id="ba337-138">Обратите внимание, что на основе активного маршрута создано 5 заданий с помощью планирования заданий.</span><span class="sxs-lookup"><span data-stu-id="ba337-138">Note that based on the active route, 5 jobs are created with job scheduling.</span></span>  
+## <a name="schedule-jobs-for-the-production-order"></a><span data-ttu-id="1daf5-128">Планирование заданий для производственного заказа</span><span class="sxs-lookup"><span data-stu-id="1daf5-128">Schedule jobs for the production order</span></span>
+1. <span data-ttu-id="1daf5-129">На панели операций выберите **График**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-129">On the Action Pane, select **Schedule**.</span></span>
+2. <span data-ttu-id="1daf5-130">Выберите **Планирование заданий**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-130">Select **Schedule jobs**.</span></span>
+3. <span data-ttu-id="1daf5-131">В поле **Направление планирования** выберите **Вперед от даты планирования**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-131">In the **Scheduling direction** field, select **Forward from scheduling date**.</span></span>
+4. <span data-ttu-id="1daf5-132">В поле **Дата планирования** введите дату.</span><span class="sxs-lookup"><span data-stu-id="1daf5-132">In the **Scheduling date** field, enter a date.</span></span> <span data-ttu-id="1daf5-133">Выберите дату в будущем, например сегодня плюс одна неделя.</span><span class="sxs-lookup"><span data-stu-id="1daf5-133">Select a date in the future, for example, today plus one week.</span></span> <span data-ttu-id="1daf5-134">При выбранном направлении планирования для производственного заказа будет выполнено планирование вперед с этой даты.</span><span class="sxs-lookup"><span data-stu-id="1daf5-134">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
+5. <span data-ttu-id="1daf5-135">Нажмите **ОК**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-135">Select **OK**.</span></span>
+6. <span data-ttu-id="1daf5-136">На панели операций выберите **Производственный заказ**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-136">On the Action Pane, select **Production order**.</span></span>
+7. <span data-ttu-id="1daf5-137">Выберите **Все задания**.</span><span class="sxs-lookup"><span data-stu-id="1daf5-137">Select **All jobs**.</span></span> <span data-ttu-id="1daf5-138">Обратите внимание, что на основе активного маршрута создано 5 заданий с помощью планирования заданий.</span><span class="sxs-lookup"><span data-stu-id="1daf5-138">Note that based on the active route, 5 jobs are created with job scheduling.</span></span>  
 
