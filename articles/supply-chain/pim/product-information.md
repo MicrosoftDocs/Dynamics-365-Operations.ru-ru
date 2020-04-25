@@ -2,7 +2,7 @@
 title: Обзор сведений о продуктах
 description: В этой теме содержится информация об управлении информацией о продуктах. Управление информацией о продуктах работает с общим определением продукта, категоризацией и идентификаторами по всем юридическим лицам, а также с конкретными конфигурациями продуктов для обеспечения их соответствия бизнес-процессам.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 06/01/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bdbff802ca85f7cc568efb8a1aacaf6f8fb2874a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 14bcce9235a8ce1d8dc0f8c12e53f9006427cee6
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004004"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208509"
 ---
 # <a name="product-information-overview"></a>Обзор сведений о продуктах
 

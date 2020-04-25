@@ -3,7 +3,7 @@ title: Список функций ER в категории списка
 description: В этой теме содержится информация о функциях списка, которые поддерживаются в электронной отчетности (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9461d0afd75f421cf03ddefed5dac379f1369ec7
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917772"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201051"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Список функций ER в категории списка
 
@@ -46,6 +46,7 @@ ms.locfileid: "2917772"
 | [Индекс](er-functions-list-index.md)                       | Эта функция возвращает значение *Контейнер (запись)*, выбранное с помощью указанного числового индекса в указанном списке. Если индекс выходит за пределы диапазона записей в указанном списке, функция выдает исключение. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Эта функция возвращает *логическое* значение **TRUE**, если указанный список не содержит записей. В противном случае возвращает *логическое* значение **FALSE**. |
 | [Список](er-functions-list-list.md)                         | Эта функция возвращает значение *Список записей*, состоящее из нового списка, созданного из указанных аргументов.|
+| [ListJoin](er-functions-list-listjoin.md)                 | Эта функция возвращает значение *Список записей*, которое представляет новый объединенный список, созданный из указанных аргументов.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Эта функция возвращает значение *Список записей*, созданное на основе структуры указанного аргумента типа *Перечисление* или *Контейнер (запись)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Эта функция возвращает значение *Список записей*, состоящее только из первой записи указанного списка.|
 | [Orderby](er-functions-list-orderby.md)                   | Эта функция возвращает указанный список в качестве значения *Список записей* после того, как он был отсортирован в соответствии с указанными аргументами. Эти аргументы могут определяться как выражения. |

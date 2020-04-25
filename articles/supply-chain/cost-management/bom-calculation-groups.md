@@ -2,7 +2,7 @@
 title: Группы расчета спецификаций
 description: Эта статья содержит сведения о группах расчета для спецификаций и их настройке. Для выполнения расчета спецификации необходимо либо настроить группы расчета и назначить их отдельным номенклатурам, либо задать группу расчета по умолчанию. Параметры расчета из группы расчета используются в качестве значений по умолчанию на странице "Расчет спецификации" во время расчета спецификации.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 94063
 ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55bca29016e06b6ed71c0f1a4aa412401976ebdd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 522c7f5b29e109f63dab9fd79f1fe9caf2db733e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556100"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202039"
 ---
 # <a name="bom-calculations-groups"></a>Группы расчета спецификаций
 

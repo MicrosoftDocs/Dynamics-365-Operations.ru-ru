@@ -2,25 +2,25 @@
 title: Создание заказа на выпуск покупки из договора покупки
 description: В этой процедуре показано, как использовать договор покупки при создании заказа на покупку.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da25486207319879a9acc8376f3f2c78f9b8d939
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: ee0c40dfc3c820343c7054238cc2da47e8203d59
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149696"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204838"
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Создание заказа на выпуск покупки из договора покупки
 

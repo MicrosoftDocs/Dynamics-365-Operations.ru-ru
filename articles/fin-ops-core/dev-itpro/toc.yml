@@ -14,7 +14,9 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
-                - name: Platform update 34 (май 2020 г.)
+                - name: Обновления платформы для 10.0.11 (июль 2020 г.)
+                  href: get-started/whats-new-platform-update-35.md
+                - name: Обновления платформы для 10.0.10 (май 2020 г.)
                   href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (апрель 2020 г.)
                   href: get-started/whats-new-platform-update-33.md
@@ -324,8 +326,6 @@
                       href: data-entities/configuration-data-packages.md
                     - name: Пакеты данных конфигурации (только выпуск за июль 2017 г.)
                       href: data-entities/configuration-data-packages.md
-                    - name: Предоставление хранилища объектов как Data Lake
-                      href: data-entities/entity-store-data-lake.md
                 - name: Шаблоны данных конфигурации
                   href: data-entities/configuration-data-templates.md
                 - name: Отслеживание изменений в объекте
@@ -384,6 +384,14 @@
               href: user-interface/data-validation-workspace.md
             - name: Описания ошибок управления данными
               href: data-entities/dm-error-descriptions.md
+        - name: Azure Data Lake
+          items:
+            - name: Обзор Azure Data Lake
+              href: data-entities/azure-data-lake-overview.md
+            - name: Приложения Finance and Operations в Azure Data Lake
+              href: data-entities/finance-data-azure-data-lake.md
+            - name: Предоставление хранилища объектов как Data Lake
+              href: data-entities/entity-store-data-lake.md
         - name: Операций перемещения баз данных
           items:
             - name: Обзор
@@ -482,38 +490,46 @@
               items:
                 - name: Домашняя страница локального развертывания
                   href: deployment/on-premises-deployment-landing-page.md
-                - name: Обзор локального развертывания
-                  href: deployment/on-premises-overview.md
-                - name: Планирование локальных развертываний и подготовка к ним
-                  href: deployment/plan-onprem-deployment.md
-                - name: Требования к определению параметров оборудования
-                  href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                - name: Настройка локальных проектов
-                  href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                - name: Подготовка к локальным развертываниям
+                  items:
+                    - name: Обзор локального развертывания
+                      href: deployment/on-premises-overview.md
+                    - name: Планирование локальных развертываний и подготовка к ним
+                      href: deployment/plan-onprem-deployment.md
+                    - name: Требования к определению параметров оборудования
+                      href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                 - name: Настройка и развертывание локальных сред
                   items:
-                    - name: Домашняя страница настройки и развертывания локальных сред
-                      href: deployment/setup-deploy-on-premises-environments.md
-                    - name: Развертывание локальных сред (Platform update 12 и более поздние версии)
+                    - name: Настройка локальных проектов в LCS
+                      href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                    - name: Настройка и развертывание локальных сред
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: Развертывание локальных сред (Platform update 8 и 11)
-                      href: deployment/setup-deploy-on-premises-pu8-pu11.md
                     - name: Действия по установке для компонентов канала Retail в локальной среде
                       href: deployment/deploy-retail-onprem.md
+                    - name: Разработка и развертывание пользовательских моделей в локальных средах
+                      href: deployment/develop-deploy-custom-models-on-premises.md
+                - name: Обслуживание среды
+                  items:
+                    - name: Применение обновлений к локальному развертыванию
+                      href: deployment/apply-updates-on-premises.md
+                    - name: Ротация сертификатов
+                      href: deployment/certificate-rotation-on-prem.md
+                    - name: Подключение к Интернету клиента
+                      href: user-interface/client-disconnected.md
+                    - name: Настройка прокси-серверов для локальных сред
+                      href: deployment/onprem-reverseproxy.md
+                    - name: Локальная диагностика
+                      href: deployment/on-premises-diagnostics.md
+                    - name: Интеграция PowerBI.com с локальными средами
+                      href: analytics/entity-store-on-prem.md
+                    - name: Повторная настройка сред
+                      href: lifecycle-services/reconfigure-environment.md
+                    - name: Повторное развертывание локальных развертываний
+                      href: deployment/redeploy-on-prem.md
+                    - name: Удаление и повторная установка узла AOS
+                      href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Повторное использование одного экземпляра службы AD FS для нескольких сред
                       href: deployment/onprem-reuseadfs.md
-                - name: Разработка и развертывание пользовательских моделей в локальных средах
-                  href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Интеграция PowerBI.com с локальными средами
-                  href: analytics/entity-store-on-prem.md
-                - name: Настройка прокси-серверов для локальных сред
-                  href: deployment/onprem-reverseproxy.md
-                - name: Применение обновлений к локальному развертыванию
-                  href: deployment/apply-updates-on-premises.md
-                - name: Локальная диагностика
-                  href: deployment/on-premises-diagnostics.md
-                - name: Повторное развертывание локальных развертываний
-                  href: deployment/redeploy-on-prem.md
                 - name: Локальный агент
                   items:
                     - name: Совместимость AD FS Office 365
@@ -522,16 +538,12 @@
                       href: lifecycle-services/pre-post-scripts.md
                     - name: Обновление локального агента
                       href: lifecycle-services/update-local-agent.md
-                - name: Повторная настройка сред
-                  href: lifecycle-services/reconfigure-environment.md
-                - name: Подключение к Интернету у клиента
-                  href: user-interface/client-disconnected.md
-                - name: Устранение неполадок локальных развертываний
-                  href: deployment/troubleshoot-on-prem.md
-                - name: Сценарии устранения неполадок в локальных средах
-                  href: deployment/onprem-tsg-implementations.md
-                - name: Ротация сертификатов
-                  href: deployment/certificate-rotation-on-prem.md
+                - name: Устранение неполадок
+                  items:
+                    - name: Устранение неполадок локальных развертываний
+                      href: deployment/troubleshoot-on-prem.md
+                    - name: Сценарии устранения неполадок в локальных средах
+                      href: deployment/onprem-tsg-implementations.md
             - name: Развертывание пользовательского кода
               items:
                 - name: Создание готовых к развертыванию пакетов моделей
@@ -928,6 +940,8 @@
                       href: extensibility/extensibility-attributes.md
                     - name: Критические изменения
                       href: extensibility/breaking-changes.md
+                    - name: Средство проверки совместимости
+                      href: extensibility/compatibility-checker-tool.md
             - name: Производительность
               items:
                 - name: Трассировка с помощью Trace Parser
@@ -1442,6 +1456,8 @@
               href: sysadmin/configure-manage-database-log.md
             - name: Сборка кэша метаданных OData при запуске AOS
               href: sysadmin/odata-warmup.md
+            - name: Настройка клиента Azure Key Vault
+              href: ../../finance/localizations/setting-up-azure-key-vault-client.md
         - name: 'Модификации, обновления и исправления'
           items:
             - name: 'Ресурсы модификаций, обновлений и исправлений'
@@ -1542,7 +1558,7 @@
                   href: deployment/apply-updates-on-premises.md
                 - name: Повторное развертывание локального развертывания
                   href: deployment/redeploy-on-prem.md
-                - name: Обновление на месте с локальной версии 7.x до 8.1
+                - name: Процесс обновления на месте для локальных сред
                   href: migration-upgrade/on-prem-upgrade.md
             - name: Исправления
               items:

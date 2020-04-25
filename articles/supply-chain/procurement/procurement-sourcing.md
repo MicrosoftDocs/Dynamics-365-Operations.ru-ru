@@ -2,14 +2,14 @@
 title: Домашняя страница модуля "Закупки и источники"
 description: В этой теме представлен список разделов справки и другие ресурсы, доступные для модуля "Закупки и источники".
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813395"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209222"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Домашняя страница модуля "Закупки и источники"
 
@@ -58,7 +58,7 @@ ms.locfileid: "2813395"
 -   [Демонстрационный сценарий входящих консигнационных запасов для Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(технический документ)
 -   [Мониторинг консигнационных запасов в рамках совместной работы с поставщиком](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Сотрудничество с поставщиками с помощью портала поставщика](collaborate-vendors-vendor-portal.md) (только версии Dynamics AX от февраля 2016 и мая 2016 г.)
--   [Безопасность пользователя портала поставщика](configure-security-vendor-portal-users.md) (только версии Finance and Operations от февраля 2016 и мая 2016 гг.)
+-   [Безопасность пользователя портала поставщика](configure-security-vendor-portal-users.md) (только версии Finance and Operations от 2016 и мая 2016 гг.)
 -   [Мобильная рабочая область совместной работы с поставщиками](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Управление закупаемой продукцией

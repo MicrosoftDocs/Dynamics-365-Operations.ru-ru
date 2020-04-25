@@ -2,15 +2,15 @@
 title: Ключи сокращение прогноза
 description: В этой теме приведены примеры с описанием порядка настройки ключа сокращения. Она включает сведения о нескольких настройках ключа сокращения и результатах каждого. Можно использовать ключ сокращения для определения способа снижения требований прогноза.
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 07/09/2019
+manager: tfehr
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19251
 ms.assetid: aa9e0dfb-6052-4a2e-9378-89507c02fdf2
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11d5613f23805993b2a83d007c818c80de6a4b9b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 25cdde073878ed090a4d981eff75a337a79b37af
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814291"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225113"
 ---
 # <a name="forecast-reduction-keys"></a>Ключи сокращение прогноза
 
@@ -34,7 +34,7 @@ ms.locfileid: "2814291"
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Методы, используемые для сокращения потребностей по прогнозу
 
-При включении прогноза в сводный план можно выбрать, как требования прогноза уменьшаются при включении фактического спроса.
+При включении прогноза в сводный план можно выбрать, как требования прогноза уменьшаются при включении фактического спроса. Обратите внимание, что сводное планирование не включает прогнозных требований из прошлого, то есть все требования прогноза до сегодняшней даты.
 
 Чтобы включить прогноз в сводный план и выбрать метод, который используется для снижения требований прогноза, выберите **Сводное планирование \> Настройка \> Планы \> Сводные планы**. В поле **Прогнозная модель** выберите прогнозную модель. В поле **Метод, используемый для сокращения потребностей по прогнозу** выберите метод. Имеются следующие варианты:
 

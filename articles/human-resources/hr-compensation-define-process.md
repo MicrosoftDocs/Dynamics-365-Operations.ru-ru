@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 42fcbeaadf0e8156cd72bee4328ca612c1abbaff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 058102b369ec7ed79874017e50a06d265b96b424
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010389"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198774"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Определение процесса компенсации и расчет результатов
-
-
 
 Процессы компенсации используются для определения новых сумм компенсации и вознаграждения для сотрудников, участвующих в фиксированных и переменных планах компенсаций. Процессы компенсации могут выполняться несколько раз для проведения анализа "что- если", чтобы проверить правильность всех изменений и параметров. Эта процедура создает процесс компенсации, выполняет процесс и показывает результаты. В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.
 

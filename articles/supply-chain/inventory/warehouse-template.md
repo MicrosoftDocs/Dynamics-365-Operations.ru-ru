@@ -2,7 +2,7 @@
 title: Настройка склада с помощью шаблона конфигурации склада
 description: В этом разделе рассматривается настройка склада с помощью шаблона конфигурации склада.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3a6645bc55dfd4f03ce9872ff5017f1659b1f11c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 66fdc26b0b967a04a3c6a6e3444e00b1372dc504
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017605"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204018"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Настройка склада с помощью шаблона конфигурации склада
 
@@ -93,7 +93,7 @@ ms.locfileid: "2017605"
 
 Журнал **Просмотр выполнения** содержит подробные сведения о каждом импортированном информационном объекте. Можно использовать представление промежуточного хранения данных для быстрого перехода к целевым данным. Таким образом можно просмотреть, как выглядят импортированные данные на соответствующих страницах в приложении. При использовании шаблонов данных по умолчанию последовательность импорта для каждого информационного объекта работает заранее определенным образом, помогая гарантировать, что все зависимые данные импортируются сначала. Если проект содержит пользовательские информационные объекты, необходимо убедиться, что определена правильная последовательность. Дополнительные сведения см. в разделе [Шаблоны конфигурационных данных](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Для получения дополнительных сведений об использовании складского шаблона для копирования конфигурации склада из одной организации в новую организацию в это же экземпляре см. 3-минутное видео на YouTube об [использовании шаблона склада для копирования конфигурации для Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Для получения дополнительных сведений об использовании складского шаблона для копирования конфигурации склада из одной организации в новую организацию в это же экземпляре см. 3-минутное видео на YouTube о том, [как использовать шаблон склада для копирования конфигурации для Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Связанные раздел
 

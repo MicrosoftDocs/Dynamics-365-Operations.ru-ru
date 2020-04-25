@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe4dd04595c961e1c66178e6ac6955e945869ded
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e85bd359ce1053629ad4217cf623e57b2976463a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185689"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143490"
 ---
 # <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>Настройка документов перемещения для перемещения товаров в компании
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Эта процедура демонстрирует порядок создания документов перемещения для перемещения товаров внутри компании. Эта процедура доступна только для юридических лиц с основным адресом в Литве. Процедура была создана с использованием компании с демонстрационными данными DEMF с основным адресом в Литве. Перед выполнением данной процедуры необходимо завершить процедуру "Настройка документов переноса для перемещения товаров в компании". Эта процедура предназначена для бухгалтеров по складскому учету. Эта процедура для функции, которая была добавлена в версии 1611 Dynamics 365 for Operations.
 

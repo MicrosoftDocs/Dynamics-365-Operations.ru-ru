@@ -3,7 +3,7 @@ title: Создание календаря группы
 description: Просмотр и создание календарей групп в Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,26 +18,32 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22350e0a9da593d52278090dde298923d490cb8c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 71637a659b26ea6912da993f1e899e33f7082512
+ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010327"
+ms.lasthandoff: 04/04/2020
+ms.locfileid: "3226215"
 ---
 # <a name="view-team-and-company-calendars"></a>Просмотр календарей группы и компании
 
 [!include [banner](includes/preview-feature.md)]
 
-Можно просматривать календари групп и компаний в Dynamics 365 Human Resources.
+Можно просматривать календари групп и компаний в Dynamics 365 Human Resources. В календарях группы отображаются только непосредственные отчеты, определенные в иерархии строк.
 
-## <a name="view-your-team-calendar"></a>Просмотр календаря группы
-
-Руководители могут просматривать календари группы. В календарях группы отображаются только непосредственные отчеты, определенные в иерархии строк.
+## <a name="view-your-team-calendar-as-an-employee"></a>Просмотр календаря рабочей группы в качестве сотрудника
 
 1. В рабочей области **Самообслуживание сотрудников** выберите **Моя группа**.
 
 2. Выберите **Отпуск и отсутствие**, а затем выберите **Вид календаря группы**.
+
+## <a name="view-your-team-calendar-as-a-manager"></a>Просмотр календаря рабочей группы в качестве менеджера
+
+1. В рабочей области **Самообслуживание сотрудников** выберите **Моя группа**.
+
+2. Выберите **Отпуск и отсутствие**, а затем выберите **Вид календаря группы**.
+
+Менеджеры также могут получить доступ к календарю рабочей группы из пунктов **Ожидающие запросы выходных для моей рабочей группы**, **Утвержденное отсутствие** и **Запросы отсутствия**. 
 
 ## <a name="view-a-company-calendar"></a>Вид календаря компании
 
@@ -47,5 +53,7 @@ ms.locfileid: "3010327"
 
 2. Выберите **Календарь отпусков и отсутствия**.
 
-Сведения о настройках календаря см. в разделе [Настройка параметров календаря](hr-leave-and-absence-parameters.md?configure-calendar-parameters)
+Роли управления персоналом также могут получать доступ к календарю компании из пунктов **Запросы на отпуск и отсутствие**, **Утвержденное отсутствие** и **Запросы отсутствия**. 
+
+Сведения о настройках календаря см. в разделе [Настройка параметров календаря](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

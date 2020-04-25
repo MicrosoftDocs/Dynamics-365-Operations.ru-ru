@@ -2,7 +2,7 @@
 title: Метод распределения общих затрат
 description: В этом разделе содержатся указания по использованию распределения совокупных затрат (РСЗ). РСЗ — метод вычисления затрат между основной номенклатурой-формулой для партионного заказа и сопутствующими продуктами, которые определены для этой формулы.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 10/24/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 83852
 ms.assetid: 7c14c3e5-9476-4a79-a210-e77fc91cc7fc
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cda1c5251b81a3bb73d4d8703d7c3fa1ab4e9c16
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e621b76742a5a115ba2d77e03b47cd1aead8664
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546740"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214673"
 ---
 # <a name="total-cost-allocation-method"></a>Метод распределения общих затрат
 

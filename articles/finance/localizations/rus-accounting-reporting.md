@@ -15,18 +15,16 @@ ms.search.region: Russia
 ms.author: anasyash
 ms.search.validFrom: 2019-4-30
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: bf49b215967fd82e70e43ea5221ad1d056f43955
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 4a001e1420a18875328964f4c97912442fef11e1
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553205"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3249075"
 ---
 # <a name="accounting-reporting-in-electronic-format-russia"></a>Бухгалтерская отчетность в электронном формате (Россия)
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview-banner](../includes/preview-banner.md)]
 
 ## <a name="set-up-accounting-reporting"></a>Настройка бухгалтерской отчетности
 

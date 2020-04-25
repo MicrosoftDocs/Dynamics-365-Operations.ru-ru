@@ -2,7 +2,7 @@
 title: Моделирование цены
 description: Эта статья представляет информацию о моделировании цены для предложений. Моделирование цены позволяет оценить последствия вычетов на будущую цену продажи в процессе предложения, до принятия определенной цены.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe8c4bc8f2efb06de4cb6fd727df93ba1a5d14bf
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 821e35f9c7dbae6bf877fe79d82ec2ef7fe11dc1
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251358"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212994"
 ---
 # <a name="price-simulation"></a>Моделирование цены
 

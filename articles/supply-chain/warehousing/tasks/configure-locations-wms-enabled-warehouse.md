@@ -2,7 +2,7 @@
 title: Настройка мест хранения на складе, на котором включена система управления складом
 description: Это руководство показывает, как настроить места хранения для нового склада с поддержкой системы управления складом (склада, на котором используются комплексные процессы управления складом).
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,23 +10,23 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocationFormat, WHSLocationType, WHSLocationProfile, WHSParameters, WHSZoneGroup, WHSZone, WHSLocationBuild, WHSLocation, WHSPackSizeCategory, WHSLocationLimit, WHSInventFixedLocation, WMSLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fca4d8673ef7ccb00bc1b216fbe7d56acc2ff142
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 31f016c4c8b8b08139836336ac38196fbd1fba6f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994989"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3217203"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Настройка мест хранения на складе, на котором включена система управления складом
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Это руководство показывает, как настроить места хранения для нового склада с поддержкой системы управления складом (склада, на котором используются комплексные процессы управления складом). Процесс обычно выполняется менеджером склада. Запускать этот руководство можно в компании с демонстрационными данными USMF или с собственными данными. Предварительным условием является наличие хотя бы одного настроенного сайта.
 

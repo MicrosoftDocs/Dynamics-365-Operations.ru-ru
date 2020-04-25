@@ -5,6 +5,12 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 13 апреля 2020 г.
+          href: hr-whats-new-2020-04-13.md
+        - name: 3 апреля 2020 г.
+          href: hr-whats-new-2020-04-03.md
+        - name: 24 марта 2020 г.
+          href: hr-whats-new-2020-03-24.md
         - name: 19 марта 2020 г.
           href: hr-whats-new-2020-03-19.md
         - name: 10 марта 2020 г.
@@ -401,7 +407,7 @@
               href: hr-compensation-process.md
         - name: Управление льготами
           items:
-            - name: 'Предварительная версия функции: управление льготами'
+            - name: Управление льготами
               items:
                 - name: Обзор управления льготами
                   href: hr-benefits-management-overview.md
@@ -445,12 +451,8 @@
                   items:
                     - name: Настройка планов льгот
                       href: hr-benefits-plans-setup.md
-                    - name: Создание планов льгот работников
-                      href: hr-benefits-plans-worker.md
                     - name: Настройка гибких программ кредитования
                       href: hr-benefits-plans-flex-credit-programs.md
-                    - name: Настройка событий будущего
-                      href: hr-benefits-plans-future-life-events.md
                 - name: Обработка планов льгот
                   items:
                     - name: Обработка приемлемости регистрации
@@ -497,11 +499,13 @@
               href: hr-leave-and-absence-plans.md
             - name: Назначение работников плану отпусков
               href: hr-leave-and-absence-enroll.md
-            - name: Начисление планов отпусков и отсутствий
+            - name: Начисление планов отпусков и отсутствия
               href: hr-leave-and-absence-accrue.md
-            - name: Просмотр аналитики для отпусков и отсутствий
+            - name: Приостановка отпуска
+              href: hr-leave-and-absence-suspend-leave.md
+            - name: Просмотр аналитики для отпусков и отсутствия
               href: hr-leave-and-absence-analytics.md
-            - name: Управление запросами на отпуска и отсутствия
+            - name: Управление запросами на отпуска и отсутствие
               href: hr-employee-self-service-manage-requests.md
             - name: Запрос на отсутствие
               href: hr-employee-self-service-request-time-off.md

@@ -2,7 +2,7 @@
 title: Сотрудничество с поставщиками с помощью портала поставщика
 description: В этом разделе описывается, как специалисты по закупкам могут использовать портал поставщиков, чтобы сотрудничать со внешними поставщиками в процессе подтверждения заказа на покупку. Эта информация относится только к версиям Dynamics AX от февраля 2016 г. и мая 2016 г.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96cd2fc988df11c616faf06cf0905acd6b3d6dcc
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: b263b7c4f44871f81e8dd753f702327893f00d86
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813531"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207148"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Совместная работа с поставщиками с помощью портала поставщика
 

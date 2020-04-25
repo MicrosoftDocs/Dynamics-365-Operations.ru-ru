@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897933"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197275"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Что нового или что изменилось в Dynamics 365 Talent (16 апреля 2019 г.)
 
@@ -46,10 +46,6 @@ ms.locfileid: "2897933"
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Сущности региона компенсации, уровня компенсации, параметра льгот и типа навыков в Common Data Service обновлены, чтобы включить поддержку полей клиентов
 
 В этом выпуске эти сущности Common Data Service были обновлены, чтобы включить возможность включения настраиваемого поля, добавленного через Talent: Core HR.
-
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Поддержка новых сущностей Common Data Service для: правила по компенсации по положению о передаче прав на льготы, план переменной компенсации, переменная компенсация
-
-В этом выпуске в Common Data Service были добавлены сущности "Правила по компенсации по положению о передаче прав на льготы", "План переменной компенсации" и "Переменная компенсация". Эти сущности также поддерживают настраиваемые поля, добавленные через Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Ошибки обновления PowerBI (314342)
 
@@ -93,6 +89,6 @@ ms.locfileid: "2897933"
 
 ### <a name="email-support-for-alerts"></a>Поддержка по электронной почте для оповещений
 
-С обновлением платформы Platform Update 25 для Finance and Operations пользователи могут создавать правила оповещений, которые автоматически отправляют уведомления по электронной почте контактам при наступлении события.
+С обновлением платформы Platform update 25 для Finance and Operations пользователи могут создавать правила оповещений, которые автоматически посылают уведомления по электронной почте контактам при наступлении события.
 
 

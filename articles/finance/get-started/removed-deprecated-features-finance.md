@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ec13076e6a05c3402af566487f7921f6971da215
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127985"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175116"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Удаленные или устаревшие функции Dynamics 365 Finance
 
@@ -47,6 +47,18 @@ ms.locfileid: "3127985"
 | **Затрагиваемые области продукта**         | Приложение |
 | **Вариант развертывания**              | Все |
 | **Состояние**                         | Устарело: 1 июля 2021 г. планируется больше не поддерживать отчеты SSRS: **Регистр НДС по продажам, Регистр НДС по покупкам, сводный отчет ЕС по НДС — справочник по функциямPL-00014**. Вместо этого будет представлен пример формата Excel для стандартного файла аудита с декларацией НДС (JPK_VDEK). |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.11
+
+### <a name="norwegian-standard-main-accounts"></a>Норвежские стандартные счета ГК
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Перепроектирование  |
+| **Заменена другой функцией?**   | Да (заменяется на параметры формата электронной отчетности, зависящие от приложения) |
+| **Затрагиваемые области продукта**         | Приложение |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устарело: с 1 апреля 2021 мы планируем больше не поддерживать функции, связанные со стандартными счетами главной книги: поле ссылки, связанная таблица, информационный объект. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Функции, удаленные или устаревшие в выпуске Finance 10.0.7
 

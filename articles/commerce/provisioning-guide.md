@@ -3,7 +3,7 @@ title: Обеспечение среды предварительной верс
 description: В этой теме объясняется, как предоставить среду предварительного просмотра Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cbd4c118de2e91c8849461b20a01403049a07e66
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024644"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254756"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Обеспечение среды предварительной версии Dynamics 365 Commerce
 
@@ -234,8 +234,6 @@ ms.locfileid: "3024644"
 ## <a name="commerce-preview-environment-support"></a>Поддержка среды предварительной версии Commerce
 
 Если при выполнении шагов подготовки возникают проблемы, обратитесь за помощью в [группу Yammer предварительной версии Microsoft Dynamics 365 Commerce](https://aka.ms/Dynamics365CommercePreviewYammer).
-
-Если у вас возникли проблемы с получением доступа к группе Yammer, вы можете связаться с Майкрософт по электронной почте <Dynamics365Commerce@microsoft.com>. Этот адрес электронной почты не контролируется постоянно. Поэтому ожидайте задержки в ответе.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

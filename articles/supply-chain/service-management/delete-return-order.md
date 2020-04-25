@@ -2,7 +2,7 @@
 title: Удаление заказа на возврат
 description: Форма "Удаление заказа на возврат" используется для удаления нескольких заказов на возврат.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesDeleteOrder
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bd6794745de3039d004b40f41325df8b5b78986
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fe3b56526ec62da18b142cb943d0ef4240e18cee
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562680"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202499"
 ---
 # <a name="delete-a-return-order"></a>Удаление заказа на возврат 
 

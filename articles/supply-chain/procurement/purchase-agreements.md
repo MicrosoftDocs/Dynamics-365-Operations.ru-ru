@@ -2,7 +2,7 @@
 title: Договоры покупки
 description: Эта статья представляет информацию о договорах покупки. Договор покупки представляет собой контракт, по которому организация обязана приобрести указанное количество или объем продукции с использованием нескольких заказов на покупку. Взамен этого обязательства покупатель получает специальные цены и скидки.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abe921b8658322bcf77aeea8fa05843e539f97f8
-ms.sourcegitcommit: 523d22f31010339b4ff5b4fbe0a75aa909843ba6
+ms.openlocfilehash: cdc3fe95ec0917c09128997e254f29ce863dcc38
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "2902440"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208025"
 ---
 # <a name="purchase-agreements"></a>Договоры покупки
 

@@ -2,7 +2,7 @@
 title: Создание иерархии классификации продуктов
 description: В этой процедуре показано, как создать новую иерархию категорий и назначить тип иерархии "товарный код".
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,22 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: faf43eb15283ffd7e36ad38728f166884dddcd85
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a0ff1a2ba20059d3fcb0347220e6e81130e03ac0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844833"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203741"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Создание иерархии классификации продуктов
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 В этой процедуре показано, как создать новую иерархию категорий и назначить тип иерархии "товарный код". В качестве компании с демонстрационными данными для создания этой процедуры используется USMF. Эта процедура предназначена для менеджера категорий.
 

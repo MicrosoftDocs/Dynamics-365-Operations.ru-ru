@@ -3,7 +3,7 @@ title: Включение проверки подлинности Azure Active D
 description: В этой теме объясняется, как настроить взаимодействие входа в систему для POS-терминала Microsoft Dynamics 365 Commerce, чтобы использовать проверку подлинности Azure Active Directory.
 author: boycezhu
 manager: annbe
-ms.date: 03/04/2020
+ms.date: 03/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,16 +15,16 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: f030e8382627191dd32d855e15432fc85dca4bbd
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: dfc49585434383385b6b993893d93b95ef888384
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100388"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248948"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Включение проверки подлинности Azure Active Directory для входа в POS-терминал
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Многие клиенты, использующие Microsoft Dynamics 365 Commerce, также используют другие облачные службы Microsoft, и могут использовать Azure Active Directory (Azure AD) для управления учетными данными пользователей для этих служб. В этих случаях клиенты могут захотеть использовать одну и ту же учетную запись Azure AD в разных приложениях. В этой теме объясняется, как настроить взаимодействие входа в систему для POS-терминала Commerce, чтобы использовать проверку подлинности Azure AD.
 
