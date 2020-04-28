@@ -70,12 +70,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.11 (июль 2020 г.)
+                      href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (май 2020 г.)
                       href: get-started/whats-new-scm-10-0-10.md
                     - name: Supply Chain Management 10.0.9 (апрель 2020 г.)
                       href: get-started/whats-new-scm-10-0-9.md
-                    - name: Supply Chain Management 10.0.8 (февраль 2020 г.)
-                      href: get-started/whats-new-scm-10-0-8.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Удаленные или устаревшие функции Dynamics 365 Supply Chain Management
@@ -349,6 +349,8 @@
               items:
                 - name: 'Прогнозы, заказы на работу и проекты'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+            - name: Интеграция управления активами с основными средствами
+              href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: Профилактическое и реактивное обслуживание
               items:
                 - name: Обзор профилактического обслуживания
@@ -565,6 +567,8 @@
                   href: cost-management/lifo-physical-value-marking.md
                 - name: Скользящее среднее
                   href: cost-management/moving-average.md
+                - name: Резервная последовательность затрат со скользящим средним значением
+                  href: cost-management/moving-average-fallback.md
                 - name: Физическое и финансовое обновления
                   href: cost-management/physical-financial-updates.md
                 - name: Скользящая средняя себестоимость
@@ -579,7 +583,9 @@
                   href: cost-management/inventory-close.md
                 - name: Корректировка себестоимости запасов в наличии
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Отчет о распределении запасов по срокам
+                - name: Отчет о стоимости запасов по складам
+                  href: cost-management/inventory-value-report-storage.md
+                - name: Хранилище отчетов о распределении запасов по срокам
                   href: cost-management/inventory-aging-report-storage.md
             - name: Учет производства
               items:
@@ -1223,6 +1229,8 @@
                   href: inventory/enable-quality-management.md
                 - name: Процессы управления качеством
                   href: inventory/quality-management-processes.md
+                - name: Управление качеством для складских процессов
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: Управление несоответствием
                   href: inventory/enable-nonconformance-management.md
                 - name: Настройка предварительных условий для управления
@@ -2549,6 +2557,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                 - name: Системная группировка в списке открытых работ
                   href: warehousing/system-group-on-open-work-list.md
+                - name: Макет маршрутизации документов для наклеек грузомест
+                  href: warehousing/document-routing-layout-for-license-plates.md
                 - name: Сканирование штрих-кодов с помощью камеры в Dynamics 365 for Finance and Operations
                   href: warehousing/scan-bar-codes-using-a-camera.md
                 - name: Поддержка мобильных устройств чтения штрих-кодов
@@ -2653,6 +2663,8 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Настройка мобильных устройств для работы склада
                   href: warehousing/configure-mobile-devices-warehouse.md
+                - name: Получение грузомест с помощью мобильного приложения склада
+                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку
                   href: warehousing/tasks/set-up-mobile-device-menu.md
                 - name: Настройка пункта меню мобильного устройства для регистрации полученных номенклатур
@@ -2673,6 +2685,8 @@
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: Поступления для регистрации и размещения
               items:
+                - name: Складская обработка входящих загрузок для заказов на покупку
+                  href: warehousing/inbound-load-handling.md
                 - name: Регистрация номенклатур для расширенных складских процессов с использованием журнала прихода номенклатуры
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Регистрация номенклатур для базовых складских процессов с использованием журнала прихода номенклатуры
@@ -2682,6 +2696,7 @@
                 - name: Настройка директивы местонахождения для размещения заказа на покупку
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Настройка рабочего шаблона для заказов на покупку
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
         - name: Разработка модуля Supply Chain Management
           items:
             - name: Руководство по разработке элемента управления Ганта
