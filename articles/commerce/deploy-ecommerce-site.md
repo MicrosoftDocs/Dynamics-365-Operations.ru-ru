@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d5cf2804c44e81ad135a3248d38c228148b530cc
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 3febd3ca36f4d517033e910c4087ad3a6ffff35a
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096686"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269943"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Развертывание нового клиента электронной коммерции
 
@@ -66,8 +66,8 @@ Microsoft Dynamics Lifecycle Services (LCS) — это рабочая облас
     - Код политики сброса пароля.
     - Идентификатор политики изменения профиля.
 
-[!NOTE]
-Эти сведения могут быть добавлены позже через запрос на обслуживание.
+> [!NOTE]
+> Эти сведения могут быть добавлены позже через запрос на обслуживание.
 
 После сбора необходимых сведений выполните следующие действия для инициализации электронной коммерции.
 

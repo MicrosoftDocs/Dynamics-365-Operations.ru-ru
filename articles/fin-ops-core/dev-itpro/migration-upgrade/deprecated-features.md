@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции в пред
 description: В этой теме описываются функции, которые были удалены или запланированы для удаления из Dynamics 365 for Finance and Operations и предыдущих выпусков этого продукта.
 author: sericks007
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225136"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284022"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Удаленные или устаревшие функции в предыдущих выпусках
 
@@ -230,7 +230,7 @@ ms.locfileid: "3225136"
 | **Заменена другой функцией?**   | № п/п |
 | **Затрагиваемые области продукта**         | Управление сведениями о продукте |
 | **Вариант развертывания**              | Все  |
-| **Состояние**                         | Удалено в Finance and Operations 10.0.0 с обновлением платформы Platform update 24. (Только в том случае, если необходимо восстановить повреждение данных, вызванное предыдущим переименованием первичного ключа выпущенного продукта, обратитесь в службу поддержки Майкрософт, чтобы запросить временное удаление этого ограничения.) |
+| **Состояние**                         | Удалено в Finance and Operations 10.0.0 с обновлением платформы Platform update 24.|
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 с обновлением платформы Platform update 23
@@ -267,7 +267,7 @@ ms.locfileid: "3225136"
 | **Заменена другой функцией?**   | Это предупреждение будет заменено ошибкой компиляции в будущем. |
 | **Затрагиваемые области продукта**         | Средства разработки Visual Studio |
 | **Вариант развертывания**              | Все |
-| **Состояние**                         | Устарело: предупреждение станет ошибкой компиляции в будущем. Это изменение предназначено для обновлений платформы для версии 10.0.11 приложений Finance and Operations. |
+| **Состояние**                         | Устарело: предупреждение является ошибкой времени компиляции в обновлениях платформы для версии 10.0.11 приложений Finance and Operations. |
 
 #### <a name="complete-list"></a>Полный список
 Для доступа к полному списку API-интерфейсов, которые станут устаревшими, см. раздел [Устаревание методов и элементов метаданных](deprecation-deletion-apis.md).

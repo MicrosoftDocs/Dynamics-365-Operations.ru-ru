@@ -3,20 +3,20 @@ title: Каталог учебных материалов для Finance and Ope
 description: Поиск всех вариантов обучения для Finance and Operations.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 02/19/2020
+ms.date: 04/17/2020
 ms.author: v-lshann
-audience: Application User
+audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: Operations
 ms.search.region: Global
-ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 751e0ec649d962af084f992957f0e4821ea9509d
-ms.sourcegitcommit: 41950e3b5e4d1d0014bef308ac017cb4c2b8e134
+ms.search.validFrom: 2019-1-29
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 32b67cfd4c007ddc590cd0ee95255d6f3fbc1d17
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3078001"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3279073"
 ---
 # <a name="learning-catalog-for-finance-and-operations"></a>Каталог учебных материалов для Finance and Operations
 
@@ -33,6 +33,10 @@ ms.locfileid: "3078001"
     Вы решаете, инвестировать ли в новые технологии? 
 
     [Каталог обучения для лиц, принимающих технические и бизнес-решения](learning-catalog-bdm.md#)
+
+    [Начало работы](learning-catalog-bdm.md#get-started)
+
+    [Экзамен](learning-catalog-bdm.md#exam)
 
         :::column-end:::
     :::column:::
@@ -53,12 +57,14 @@ ms.locfileid: "3078001"
 
     [Управление финансами](learning-catalog-business-user.md#financial-management)
 
+    [Экзамен](learning-catalog-business-user.md#exam)
+
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-        ### <a name="implementation-project-managers"></a>Менеджеры проекта реализации
+    ### <a name="implementation-project-managers"></a>Менеджеры проекта реализации
 
     Вы отвечаете за то, чтобы реализация в вашей компании прошла гладко?
 
@@ -73,6 +79,9 @@ ms.locfileid: "3078001"
     [Производство](learning-catalog-project-manager.md#manufacturing)
 
     [Управление цепочками поставок](learning-catalog-project-manager.md#supply-chain-management)
+
+    [Экзамены](learning-catalog-project-manager.md#exams)
+
         :::column-end:::
     :::column:::
 
@@ -86,11 +95,15 @@ ms.locfileid: "3078001"
 
     [Основные сведения о платформе](learning-catalog-administrator.md#core-platform-knowledge)
 
+    [Базовая разработка](learning-catalog-administrator.md#core-development)
+
     [Миграция и обновление](learning-catalog-administrator.md#migration-and-upgrade)
 
     [Обслуживание](learning-catalog-administrator.md#servicing)
 
     [Тестирование](learning-catalog-administrator.md#testing)
+
+    [Экзамен](learning-catalog-administrator.md#exam)
 
   :::column-end:::
 :::row-end:::
@@ -131,6 +144,8 @@ ms.locfileid: "3078001"
 
     [Управление цепочками поставок](learning-catalog-functional-consultant.md#supply-chain-management)
 
+    [Экзамены](learning-catalog-functional-consultant.md#exams)
+
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -141,6 +156,10 @@ ms.locfileid: "3078001"
     Вы отвечаете за помощь своим клиентам в покупке правильного решения? 
 
     [Каталог учебных материалов по Sales и Marketing партнеров Майкрософт](learning-catalog-partner-sales.md)
+
+    [Начало работы](learning-catalog-partner-sales.md#get-started)
+
+    [Экзамен](learning-catalog-partner-sales.md#exam)
 
         :::column-end:::
     :::column:::

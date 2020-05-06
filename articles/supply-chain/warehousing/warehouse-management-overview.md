@@ -3,7 +3,7 @@ title: Обзор модуля управления складом
 description: Управление складом используется для отслеживания и автоматизации процессов склада.
 author: ShylaThompson
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17e4429dbf3f7e5d6c737c365f0351d5c588fcd2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: bed896245b777ca195f7d03a9fdb697cad360ee7
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204593"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275402"
 ---
 # <a name="warehouse-management-overview"></a>Обзор управления складом
 
