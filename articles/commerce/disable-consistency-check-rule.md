@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51a02d6f305cbad9784cf1b811188d0e06b6f15b
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 37209f1c1de19335f5f9fa6636ab55dd8b2fccc1
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057645"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265534"
 ---
 # <a name="disable-rules-in-the-retail-transaction-consistency-checker"></a>Отключение правил в программе проверки согласованности розничных проводок 
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Многие розничные компании используют уникальные бизнес-сценарии и процессы. Поэтому не все правила, по умолчанию включенные в программу проверки согласованности проводок Commerce, применимы для всех продавцов. Для учета этих различий в Microsoft Dynamics 365 Commerce предусмотрена возможность отключения неприменимых правил.
 

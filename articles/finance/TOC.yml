@@ -70,12 +70,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Finance
                       href: get-started/whats-new-home-page.md
+                    - name: "Finance 10.0.11 (июль 2020\_г.)"
+                      href: get-started/whats-new-changed-10-0-11.md
                     - name: "Finance 10.0.10 (май 2020\_г.)"
                       href: get-started/whats-new-changed-10-0-10.md
                     - name: "Finance 10.0.9 (апрель 2020\_г.)"
                       href: get-started/whats-new-changed-10-0-9.md
-                    - name: "Finance 10.0.8 (февраль 2020\_г.)"
-                      href: get-started/whats-new-changed-10-0-8.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Удаленные или устаревшие функции Dynamics 365 Finance
@@ -978,12 +978,16 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: Настройка стандартной стоимости труда и расходов
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: Настройка и использование платежей поставщику после получения оплаты от клиента
+              href: project-management/setup-manage-vendor-payments.md
             - name: Начисления затрат по проекту в поступлениях покупок
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: Выставление накладных по проекту
               href: accounts-payable/project-invoicing.md
-            - name: Контракты по проекту
+            - name: Контракты по проектам
               href: project-management/project-contracts.md
+            - name: Создание расширенных контрактов для выставления счетов на основе хода выполнения
+              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
             - name: Прогнозы и бюджеты по проекту
               href: project-management/project-forecasts-budgets.md
             - name: Перенос бюджетов проектов в конце финансового года
@@ -1014,6 +1018,8 @@
                   href: project-management/mobile-timesheets.md
                 - name: Реализация настраиваемых полей для мобильного приложения Project Timesheet
                   href: project-management/custom-fields-mobile.md
+            - name: Гранты по проекту
+              href: project-management/project-grants.md
         - name: Государственный сектор
           items:
             - name: Домашняя страница государственного сектора
@@ -2016,6 +2022,8 @@
                   href: localizations/emea-ita-exil-unique-certification.md
                 - name: Импорт опротестованных переводных векселей
                   href: localizations/emea-ita-exil-protest-boe.md
+                - name: Налоговый потолок
+                  href: localizations/emea-ita-exil-tax-plafond.md
             - name: Япония
               items:
                 - name: Обзор по Японии

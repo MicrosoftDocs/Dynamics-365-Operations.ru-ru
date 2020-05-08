@@ -22,35 +22,9 @@
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32 (февраль 2020 г.)
                   href: get-started/whats-new-platform-update-32.md
-                - name: Platform update 31 (январь 2020 г.)
-                  href: get-started/whats-new-platform-update-31.md
-                - name: Обновление платформы 30 (ноябрь 2019 г.)
-                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
-                - name: Platform update 29 (октябрь 2019 г.)
-                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
-                - name: Platform update 28 (июль 2019 г.)
-                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
-                - name: Platform update 27 (июнь 2019 г.)
-                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
-                - name: Platform update 26 (май 2019 г.)
-                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
-                - name: Platform update 25 (апрель 2019 г.)
-                  href: ../fin-ops/get-started/whats-new-platform-25.md
-                - name: Platform update 24 (март 2019 г.)
-                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
-                - name: Platform update 23 (январь 2019 г.)
-                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
-                - name: Platform update 22 (декабрь 2018 г.)
-                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
-                - name: Platform update 21 (ноябрь 2018 г.)
-                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
-                - name: Platform update 20 (сентябрь 2018 г.)
-                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
-                - name: Platform update 15 (март 2018 г.)
-                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Удаленные или устаревшие функции
               items:
-                - name: Удаленные или устаревшие функции Platform
+                - name: Удаленные или устаревшие функции платформы
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Удаленные или устаревшие функции в предыдущих выпусках
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -104,6 +78,8 @@
               href: dev-tools/exclude-test-packages.md
             - name: Управление сторонними моделями и пакетами сред выполнения с помощью системы управления версиями
               href: dev-tools/manage-runtime-packages.md
+            - name: Полные готовые к развертыванию пакеты
+              href: dev-tools/aio-deployable-packages.md
             - name: Обновление версий модели при автоматической сборке
               href: dev-tools/version-models-build.md
         - name: Интеграция данных
@@ -526,7 +502,7 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: Повторное развертывание локальных развертываний
                       href: deployment/redeploy-on-prem.md
-                    - name: Удаление и повторная установка узла AOS
+                    - name: Удаление и повторная установка или добавление узла AOS
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Повторное использование одного экземпляра службы AD FS для нескольких сред
                       href: deployment/onprem-reuseadfs.md

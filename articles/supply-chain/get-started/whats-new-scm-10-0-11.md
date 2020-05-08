@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 3ef4b77df29daefefaa775b7453db2137154c730
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 479a7edd456a1f4d121ceef292d2559c400c31a2
+ms.sourcegitcommit: c30a9956d9c29a504856487a3a98090eef9aab2b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261614"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3266331"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-june-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.11 (июнь 2020 г.)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.11 (июль 2020 г.)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "3261614"
 
 - **Выпуск предварительной версии:** апрель 2020
 - **Общая доступность (самостоятельное обновление):** май 2020
-- **Автообновление:** июнь 2020
+- **Автообновление:** июль 2020
 
 ## <a name="features-included-in-this-release"></a>Возможности, включенные в данный выпуск
 

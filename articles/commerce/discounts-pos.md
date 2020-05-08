@@ -19,17 +19,16 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 54201de6b242f8100c19a78468476a6308b1b18a
-ms.sourcegitcommit: 5554b3abb4365666992efad692ae28e943faebd4
+ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3116564"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265597"
 ---
 # <a name="show-discounts-in-pos"></a>Отображение скидок в POS
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Рекламные акции играют важную роль в мотивации клиентов, принимающих решения о покупке. Например, праздники могут давать наибольшее число продаж для розничных продавцов, поскольку весь розничный рынок заполнен привлекательными рекламными акциями и скидками. Если сотрудники магазина знают о доступных рекламных акциях и понимают их, они могут легко воспользоваться преимуществами этих рекламных акций в отношении перекрестных продаж и расширения продаж. В этой теме объясняется, как Microsoft Dynamics 365 Commerce помогает торговым представителям получать информацию о рекламных акциях и о том, как их можно использовать для перекрестных продаж и расширения продаж.
 

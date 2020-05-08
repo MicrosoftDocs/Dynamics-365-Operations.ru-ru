@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 60839bbd1b3ae642cdd419c7df2388292776a461
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d45b19c1e88e6a27bde4335d4a356f2173bdfcd3
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172745"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275425"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Устранение проблем с синхронизацией в режиме реального времени
 
@@ -102,7 +102,7 @@ ms.locfileid: "3172745"
 
 Вот как выглядит эта ошибка в приложении на основе модели в Dynamics 365:
 
-*Возникла непредвиденная ошибка в коде независимого разработчика. (ErrorType = ClientError) Непредвиденное исключение от подключаемого модуля (Выполнить): Microsoft.Dynamics.Integrator.CrmPlugins.Plugin: System.Exception: не удалось обработать учетную запись объекта - (Сбой попытки подключения, так как подключенная стороне не предоставляет правильный ответ в течение некоторого периода времени, или сбой установленного подключения из-за отсутствия ответа от хост-компьютера*
+*Возникла непредвиденная ошибка в коде независимого разработчика. (ErrorType = ClientError) Непредвиденное исключение от подключаемого модуля (Выполнить): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: не удалось обработать учетную запись объекта - (Сбой попытки подключения, так как подключенная стороне не предоставляет правильный ответ в течение некоторого периода времени, или сбой установленного подключения из-за отсутствия ответа от хост-компьютера*
 
 Эта ошибка возникает в том случае, когда среда Common Data Service ошибочно сбрасывается одновременно с попыткой создать данные в приложении Finance and Operations.
 

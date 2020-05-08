@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 8297daa0d802b0b821b43aebe7a841011c70fd55
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: fdf4464e5b6fc6f2f4b99dcac80eb199799bf13d
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261196"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268778"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.10 (май 2020 г.)
 
@@ -43,7 +43,7 @@ ms.locfileid: "3261196"
 - [Усовершенствования печати этикеток для управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management) — для получения дополнительных сведений см. раздел [Макет маршрутизации документов для наклеек грузомест](../warehousing/document-routing-layout-for-license-plates.md).
 - [Сводное планирование включает номенклатуры с запасами в наличии, когда включены фильтры предварительной обработки](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [Новые информационные объекты для области производства](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Управление качеством для складских процессов](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)
+- [Управление качеством для складских процессов](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes) — дополнительные сведения см. в разделе [Управление качеством для складских процессов](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
