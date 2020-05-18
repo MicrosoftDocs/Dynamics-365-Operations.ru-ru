@@ -3,7 +3,7 @@ title: Создание workflow-процесса запросов на отпу
 description: Создание workflow-процесса запросов отпуска и отсутствия для постоянного управления запросами отпуска в Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 05/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c2689a0cdf2969455a301593e8f60b10c07e6f91
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: c2e994d11bbd45907a48c1f3955fa751a676a327
+ms.sourcegitcommit: e69cfc74e9dbce64ae0e1ab7cd441e5ae6efd4c9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010316"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "3353696"
 ---
 # <a name="create-a-leave-request-workflow"></a>Создание workflow-процесса запросов на отпуск
 
@@ -44,6 +44,38 @@ Workflow-процесс можно создать в Dynamics 365 Human Resource
 4. Когда появляется окно сообщения **Открыть этот файл?**, выберите **Открыть** и войдите в систему с учетными данными компании.
 
 5. С помощью редактора workflow-процессов создайте workflow-процесс для своих запросов на отпуск. Дополнительные сведения о работе с workflow-процессами см. в разделе [Обзор создания workflow-процессов](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/create-workflow?toc=/dynamics365/commerce/toc.json.)
+
+## <a name="leave-and-absence-request-workflow-data-elements"></a>Элементы данных workflow-процесса запросов отпуска и отсутствия
+
+Следующие элементы данных можно использовать для создания условного или автоматического утверждения в workflow-процессах для запросов отпусков и отсутствия:
+
+- **Комментарий**
+- **Организация**
+- **Создан**
+- **Дата и время создания**
+- **Конечная дата**
+- **Тип отпуска**
+- **Кто изменил**
+- **Дата и время изменения**
+- **Код основания**
+- **Код запроса**
+- **Начальная дата**
+- **Состояние** 
+- **Дата отправки**
+- **Кем отправлено:**
+- **Отправлено отделом по управлению персоналом**
+- **Отправлено менеджером**
+- **Отправлено от имени**
+- **Рабочий**
+- **Тип работника**
+
+В этих примерах показано, как можно создать различные типы условий workflow-процесса, используя эти элементы данных:
+
+- **Код основания** используется в условном выражении для направления запросов на отпуск по болезни с кодом основания **Хирургическая операций** для утверждения отделом управления персоналом, в то время как все остальные коды основания перенаправляются менеджеру. Дополнительные сведения об условных выражениях см в разделе [Настройка условных решений в workflow-процессе](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow). 
+
+- Используйте **Отправлено отделом по управлению персоналом** и **Отправлено менеджером** в автоматическом действии для автоматического утверждения запросов на отпуск, которые эти роли отправляют от имени сотрудников. Дополнительные сведения об автоматических действиях см. в разделе [Настройка процессов утверждения в workflow-процессе](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow).
+
+- **Тип отпуска** используется в условных выражениях или автоматических действиях для управления перенаправление запросов с определенными типами отпусков.
 
 ## <a name="see-also"></a>См. также
 

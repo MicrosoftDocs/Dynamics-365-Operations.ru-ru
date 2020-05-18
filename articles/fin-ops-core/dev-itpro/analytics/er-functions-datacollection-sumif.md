@@ -3,7 +3,7 @@ title: Функция ER SUMIF
 description: Этот раздел содержит общие сведения об использовании функции электронной отчетности SUMIF.
 author: NickSelin
 manager: kfend
-ms.date: 12/04/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 374569d3bbe59f1b96eee9c789b97b7b2a6004bf
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 9df7be0825203f91434d348385c1ee358ae555ea
+ms.sourcegitcommit: ef6fd78c817f93610771cfb2477f52f16b882164
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042489"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "3290208"
 ---
-# <a name="SUMIF">Функция ER SUMIF</a>
+# <a name=""></a><a name="SUMIF">Функция ER SUMIF</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -62,6 +62,8 @@ SUMIF (key name for summing, condition range, condition value)
 ## <a name="example"></a>Пример
 
 Для получения дополнительных сведений об использовании этой функции см. проводник по задаче [ER Использование выходных данных формата для инвентаризации и агрегирования](tasks/er-format-counting-summing-1.md), который является частью бизнес-процесса **Приобретение/разработка компонентов ИТ-услуг и решений**.
+
+Дополнительные сведения и примеры использования этой функции см в разделах [Отложить выполнение элементов последовательности в форматах ER](er-defer-sequence-element.md#Example)и [Отложить выполнение элементов XML в форматах ER](er-defer-xml-element.md#Example).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

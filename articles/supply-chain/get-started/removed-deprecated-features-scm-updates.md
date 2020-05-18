@@ -2,8 +2,8 @@
 title: Удаленные или устаревшие функции Dynamics 365 Supply Chain Management
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить в Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: tfehr
-ms.date: 03/03/2020
+manager: AnnBe
+ms.date: 04/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2011f5cc3489eb7921d818dbd178425f72bac2d1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7502cd16129431d41d152508fb3b49ff85a5a9f8
+ms.sourcegitcommit: f1db998ecfccca660eb15cc2739b12c8463fa54d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205077"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331256"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Удаленные или устаревшие функции Dynamics 365 Supply Chain Management
 
@@ -35,6 +35,18 @@ ms.locfileid: "3205077"
 
 > [!NOTE]
 > Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Функции, удаленные или устаревшие в выпуске Supply Chain Management 10.0.11
+
+### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>Для сценариев распределения используйте встроенный механизм сводного планирования Supply Chain Management.
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Для повышения производительности и минимизации нагрузки на базу данных SQL во время сводного планирования, встроенный механизм сводного планирования Supply Chain Management заменяется оптимизацией планирования. Оптимизация планирования позволяет быстро планировать даже в рабочие часы. Это позволяет планировщикам быстро реагировать на изменения в параметрах спроса или планирования. |
+| **Заменена другой функцией?**   | Да, оптимизация планирования заменит существующий встроенный механизм сводного планирования Supply Chain Management. |
+| **Затрагиваемые области продукта**         | Supply Chain Management — сводное планирование |
+| **Вариант развертывания**              | Только облако. Оптимизация планирования не поддерживается в локальном развертывании. |
+| **Состояние**                         | Устарело. В апреле 2021 сценарии распределения больше не будут поддерживаться встроенным механизмом сводного планирования Dynamics 365 Supply Chain Management. Для сценариев распределения клиенты должны использовать оптимизацию планирования при расчетах сводного планирования. Дополнительные сведения см. в разделе [Документация оптимизации планирования](https://go.microsoft.com/fwlink/?linkid=2105830). Клиенты с локальным развертыванием Dynamics 365 Supply Chain Management могут и дальше использовать механизм сводного планирования Supply Chain Management для сценариев распределения после апреля 2021 года. Однако эти функции больше не будут улучшаться. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Предыдущие объявления об удаленных или устаревших функциях
 

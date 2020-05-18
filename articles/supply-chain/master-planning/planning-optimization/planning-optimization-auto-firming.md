@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 5bfa8a1f025c2884f31b9fcb817e008a007ac010
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 81c26b8a99f86d663d91ac4f549987262c0541ad
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209751"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323539"
 ---
 # <a name="auto-firming-with-planning-optimization"></a>Автоматическое подтверждение при оптимизации планирования
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 Автоматическое подтверждение позволяет утверждать (то есть выпускать) спланированные заказы в рамках процесса сводного планирования. При подтверждении спланированных заказов они преобразуются в фактические заказы на покупку, заказы на перемещение или производственные заказы. При использовании оптимизации планирования спланированные заказы подтверждаются во время выполнения сводного планирования, когда дата заказа (то есть дата начала) находится в пределах временной границы для подтверждения.

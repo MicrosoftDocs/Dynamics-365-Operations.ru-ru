@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 73e4a045ff5a9912b898a7115d3d8f530846ebdd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9ddf9934965bd06ec805731a1cc1a667846fa180
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209797"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323424"
 ---
 # <a name="apply-filters-to-a-plan"></a>Применение фильтров к плану
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 При использовании функции оптимизации планирования можно применить фильтр к плану. **Фильтр плана** всегда будет применяться во время выполнения сводного планирования. **Фильтр плана** полезен, когда требуется ограничить план определенной группой номенклатур и убедиться в том, что никакие другие номенклатуры не включены как часть результирующего сводного планирования.
