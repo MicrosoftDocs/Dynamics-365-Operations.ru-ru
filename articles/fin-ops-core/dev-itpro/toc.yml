@@ -18,10 +18,8 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: Обновления платформы для 10.0.10 (май 2020 г.)
                   href: get-started/whats-new-platform-update-34.md
-                - name: Platform update 33 (апрель 2020 г.)
+                - name: Обновление платформы 33 (апрель 2020 г.)
                   href: get-started/whats-new-platform-update-33.md
-                - name: Platform update 32 (февраль 2020 г.)
-                  href: get-started/whats-new-platform-update-32.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Удаленные или устаревшие функции платформы
@@ -140,8 +138,6 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Настройка двойной записи из Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: Начальная синхронизация
-                              href: data-entities/dual-write/initial-sync.md
                             - name: Включение двойной записи для существующих приложений Finance and Operations
                               items:
                                 - name: Включение двойной записи для существующих приложений Finance and Operations
@@ -556,6 +552,16 @@
                   href: dev-tools/development-system-requirements.md
             - name: 'Управление версиями, поиск по метаданным и навигация'
               href: dev-tools/version-control-metadata-navigation.md
+            - name: Автоматизация сборки с помощью Azure
+              items:
+                - name: 'Автоматизация сборки с помощью агентов, размещенных на серверах Microsoft, и Azure Pipelines'
+                  href: dev-tools/hosted-build-automation.md
+                - name: Добавление файлов лицензий в готовые к развертыванию пакеты в Azure Pipelines
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: Создание готовых к развертыванию пакетов в Azure Pipelines
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: Управление версиями моделей X++ в Azure Pipelines
+                  href: dev-tools/pipeline-model-version.md
             - name: Пример приложения для управления автопарком
               items:
                 - name: Сквозной сценарий для примера приложения для управления автопарком
@@ -1396,6 +1402,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Назначение пользователей для ролей безопасности
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Диагностика безопасности для записей задач
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
             - name: Пакетная обработка
               items:
                 - name: Обзор пакетной обработки
