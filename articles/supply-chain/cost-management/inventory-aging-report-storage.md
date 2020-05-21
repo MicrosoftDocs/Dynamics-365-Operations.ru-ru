@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9148a9032615222a1fdfe453488e716bacadbabc
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 1e68833cc2b4430f66419a67b1cba5f6c8c209f4
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275587"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323631"
 ---
 # <a name="inventory-aging-report-storage"></a>Хранилище отчетов о распределении запасов по срокам
 
-
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 В Microsoft Dynamics 365 Supply Chain Management можно выполнить отчет **Хранилище отчетов о распределении запасов по срокам** и сделать выходные данные доступными в виде формы и диаграммы. В форме столбцы и агрегированные балансы динамически корректируются в зависимости от настроенного макета. Диаграмма дает визуальное представление, поддерживающий фильтрацию, и позволяет детально просмотреть подробные сведения. Кроме того, информационный объект с именем **Отчет о распределении запасов по срокам** позволяет экспортировать результаты отчета **Хранилище отчетов о распределении запасов по срокам** в формат, такой как Microsoft Excel-файл или PDF-файл.
 

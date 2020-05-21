@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 159043f37b067df26fdd1de5610eafd663bf6a57
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 91ed725e684eda02d94a87ee2a61e5a82034a84e
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209567"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323493"
 ---
 # <a name="monitor-a-master-planning-run"></a>Мониторинг выполнения сводного планирования
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 ## <a name="use-a-gantt-chart-to-visualize-master-planning-progress"></a>Используйте диаграмму Ганта для наглядного представления хода выполнения сводного планирования
 

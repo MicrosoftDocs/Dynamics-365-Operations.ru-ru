@@ -5,6 +5,8 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 1 мая 2020 г.
+          href: hr-whats-new-2020-05-01.md
         - name: 13 апреля 2020 г.
           href: hr-whats-new-2020-04-13.md
         - name: 3 апреля 2020 г.
@@ -503,7 +505,9 @@
               href: hr-leave-and-absence-accrue.md
             - name: Приостановка отпуска
               href: hr-leave-and-absence-suspend-leave.md
-            - name: Просмотр аналитики для отпусков и отсутствия
+            - name: Управление отпусками сотрудников
+              href: hr-leave-and-absence-manage-employee-leave.md
+            - name: Просмотр аналитики по отпускам и отсутствию
               href: hr-leave-and-absence-analytics.md
             - name: Управление запросами на отпуска и отсутствие
               href: hr-employee-self-service-manage-requests.md

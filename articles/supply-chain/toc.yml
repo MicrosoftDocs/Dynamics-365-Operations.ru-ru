@@ -425,6 +425,8 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Статус обслуживания
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Интеграция управления активами с Dynamics 365 Guides
+              href: asset-management/asset-management-guides-integration.md
             - name: Мобильная рабочая область управления активами
               href: asset-management/asset-management-mobile-workspace.md
         - name: Управление данными
@@ -1057,7 +1059,7 @@
               items:
                 - name: Создание форматов для выполнения подсчета и суммирования
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Настройка формата для выполнения подсчета и суммирования
+                - name: Настройка формата для подсчета и суммирования
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Использование вычислений для создания выходных данных подсчета и суммирования
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,7 +1321,7 @@
               items:
                 - name: Обзор оптимизации планирования
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Отрицательные запасы обрабатываются как нулевые
+                - name: Планирование с отрицательными количествами в наличии
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Начало работы с оптимизацией планирования
                   href: master-planning/planning-optimization/get-started.md
@@ -2653,8 +2655,6 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: Настройка процесса пополнения "Мин./Макс."
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: Настройка рабочего шаблона для заказов на покупку
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
             - name: Установка и настройка складского приложения
               items:
                 - name: Обзор установки и настройки
@@ -2663,7 +2663,7 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Настройка мобильных устройств для работы склада
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Получение грузомест с помощью мобильного приложения склада
+                - name: Получение грузомест с помощью приложения склада
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку
                   href: warehousing/tasks/set-up-mobile-device-menu.md
