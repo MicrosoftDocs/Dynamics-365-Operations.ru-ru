@@ -54,7 +54,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/finance/toc.json
                 - name: Требования к системе для локальных развертываний
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
-                - name: Покупка Finance and Operations (локальная версия)
+                - name: Покупка Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка складских операций для локальных развертываний
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Подключение к системе справки
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/finance/toc.json
-                - name: Подключение к пользовательскому сайту справки
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/finance/toc.json
+                - name: Обзор пользовательской справки
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Просмотр и экспорт описаний полей
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
                 - name: Регистратор задач
@@ -1736,6 +1736,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Электронная передача декларации НДС (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: Декларация НДС для Германии
+                  href: localizations/emea-de-vat-declaration.md
                 - name: Отчет "Список журналов"
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Настройка электронных налоговых деклараций
@@ -2286,7 +2288,7 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Интеграция Semansys XBRL
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'Файл аудита (XML Auditfile Financieel, XAF)'
+                - name: 'Файл аудита — XML Auditfile Financieel, XAF'
                   hred: localizations/emea-nl-audit-file.md
             - name: Норвегия
               items:
@@ -2398,6 +2400,8 @@
                       href: localizations/rus-prepayments-management.md
                     - name: Восстановление входящего НДС
                       href: localizations/rus-incoming-VAT-restoring.md
+                    - name: Обработка счетов-фактур для экспортной торговли
+                      href: localizations/rus-export-trade.md
                 - name: Основные средства
                   items:
                     - name: Обзор основных средств
@@ -2496,6 +2500,12 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: Отчеты о запасах
                       href: localizations/rus-inventory-reports.md
+                    - name: Обзор профиля учета
+                      href: localizations/rus-inventory-profile-overview.md
+                    - name: Настройка профиля учета
+                      hreF: localizations/rus-set-up-inventory-profile.md
+                    - name: Использование профиля учета в документах и запросах
+                      href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Отчетность
                   items:
                     - name: Финансовая отчетность
@@ -3248,34 +3258,40 @@
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: Разработка форматов электронной отчетности для создания исходящих электронных документов в различных форматах
               items:
-                - name: (Электронная отчетность) Разработка конфигурации для создания отчетов в формате OPENXML
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: (Электронная отчетность) Разработка конфигураций для создания отчетов в формате Word
+                - name: Разработка конфигураций для создания исходящих документов в формате Excel
+                  items:
+                    - name: Разработка конфигурации для создания документов в формате Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
+                    - name: Пример создания отчетов в формате OPENXML
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Изменение форматов электронной отчетности путем повторного применения шаблонов Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: Динамическое добавление столбцов в отчеты Excel в качестве горизонтально разворачивающихся диапазонов
+                      items:
+                        - name: Разработка форматов для динамического добавления столбцов в отчеты Excel
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
+                        - name: Выполнение форматов для динамического добавления столбцов в отчеты Excel
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                - name: Разработка конфигураций для создания отчетов в формате Word
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Разработка конфигураций для заполнения шаблонов в формате PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
-            - name: Внедрение изображений и фигур
-              items:
-                - name: (Электронная отчетность) Внедрение изображений и фигур в создаваемые документы
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
-                - name: Пример внедрения изображений и фигур
+                - name: Внедрение изображений и фигур
                   items:
-                    - name: Разработка конфигураций для создания отчетов в форматах Office с внедренными изображениями
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
-                    - name: Предварительный просмотр конфигураций для создания отчетов в форматах Office с внедренными изображениями
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Создание отчетов в форматах Office с внедренными изображениями
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Изменение форматов электронной отчетности путем повторного применения шаблонов Excel
-              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: (Электронная отчетность) Внедрение изображений и фигур в создаваемые документы
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
+                    - name: Пример внедрения изображений и фигур
+                      items:
+                        - name: Разработка конфигураций для создания отчетов в форматах Office с внедренными изображениями
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
+                        - name: Предварительный просмотр конфигураций для создания отчетов в форматах Office с внедренными изображениями
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Создание отчетов в форматах Office с внедренными изображениями
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                - name: Разбиение созданных XML-файлов по их размеру и количеству содержимого
+                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: Определение зависимости конфигураций электронной отчетности от других компонентов
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Динамическое добавление столбцов в отчеты Excel качестве горизонтально разворачивающихся диапазонов
-              items:
-                - name: Разработка форматов для динамического добавления столбцов в отчеты Excel в качестве горизонтально разворачивающихся диапазонов
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
-                - name: Выполнение форматов для динамического добавления столбцов в отчеты Excel в качестве горизонтально разворачивающихся диапазонов
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
             - name: Обновление данных приложения с помощью электронной отчетности
               items:
                 - name: Создание электронных документов и обновление данных приложения
@@ -3306,8 +3322,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: Настройка форматов электронной отчетности для импорта файлов формата XML с дополнительными атрибутами
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
-            - name: Разбиение созданных XML-файлов по их размеру и количеству содержимого
-              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: Жизненный цикл конфигурации
               items:
                 - name: Управление жизненным циклом конфигураций
@@ -3327,12 +3341,16 @@
                     - name: Загрузка конфигураций из репозитория электронной отчетности для типа RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Импорт конфигураций из RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Создание конфигураций электронной отчетности в RCS и их отправка в глобальный репозиторий
+                  href: localizations/rcs-global-repo-upload.md
+                - name: Совместное использование конфигураций электронной отчетности в RCS с внешними организациями
+                  href: localizations/rcs-global-repo-share-configuration.md
             - name: Учебники
               items:
                 - name: Использование источников данных
                   items:
-                    - name: Использование объединения для получения данных из нескольких таблиц
+                    - name: Использование ОБЪЕДИНЕНИЯ для получения данных из нескольких таблиц
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Использование необработанного XML-кода для добавления содержимого
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
