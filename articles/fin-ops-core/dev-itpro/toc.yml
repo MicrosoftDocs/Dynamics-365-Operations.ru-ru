@@ -526,6 +526,32 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: Устранение неполадок приложений пакета
                   href: deployment/deployable-package-troubleshooting.md
+            - name: Развертывание пользовательской справки
+              items:
+                - name: Обзор пользовательской справки
+                  href: help/custom-help-overview.md
+                - name: Подготовка содержимого для использования с панелью справки
+                  href: help/preparing-content.md
+                - name: Развертывание пользовательской справки в Azure
+                  href: help/walkthrough-help-azure.md
+                - name: Подключение пользовательской справки к панели справки
+                  href: help/connect-help-pane.md
+                - name: Набор инструментов для пользовательской справки
+                  items:
+                    - name: Обзор
+                      href: help/custom-help-toolkit.md
+                    - name: Инструмент HTML From Repo Generator
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: Инструмент Convert HTML To JSON
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: Инструмент HTML Locale Changer
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: Преобразование пользовательской справки Dynamics AX для использования в Dynamics 365
+                      href: help/migrate-dynamicsax2012.md
+                - name: Дескрипторы языков и языковых стандартов в продуктах и справке
+                  href: help/language-locale.md
+                - name: Расширение и настройка справки и совместная работа над ней
+                  href: help/contributor-guide.md
         - name: Разработка и настройка
           items:
             - name: Домашняя страница модуля разработки и настройки
@@ -835,7 +861,7 @@
                     - name: Изменения возможностей расширяемости версии 8.0.1
                       href: extensibility/extensibility-changes-801.md
                     - name: Изменения возможностей расширяемости в версии 8.0
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: Изменения возможностей расширяемости в версии 7.3
                       href: extensibility/extensibility-changes-73.md
                     - name: Изменения возможностей расширяемости от июля 2017 г.

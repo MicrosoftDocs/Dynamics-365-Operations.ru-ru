@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Commerce
       items:
-        - name: Dynamics 365 Commerce
+        - name: Домашняя страница Dynamics 365 Commerce
           href: index.md
         - name: Начало работы
           items:
@@ -66,7 +66,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: Действия по установке для компонентов канала Retail в локальной среде
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
-                - name: Покупка Finance and Operations (локальная версия)
+                - name: Покупка Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Приложения Finance and Operations, предоставляемые компанией 21Vianet в Китае'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
@@ -79,7 +79,7 @@
                 - name: 'Установка, настройка и переключение поэтапного выпуска (N-1)'
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: Обновление расширения канала Retail до последнего пакета Retail SDK
-                  href: dev-itpro/retailSDK-update.md
+                  href: dev-itpro/RetailSDK-update.md
             - name: Что нового и что изменилось
               items:
                 - name: Что нового и что изменилось в приложениях Finance and Operations
@@ -112,8 +112,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Подключение к системе справки
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
-                - name: Подключение к пользовательскому сайту справки
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/commerce/toc.json
+                - name: Обзор пользовательской справки
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Просмотр и экспорт описаний полей
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: Регистратор задач
@@ -499,17 +499,21 @@
                     - name: Соединитель платежей Adyen
                       href: dev-itpro/adyen-connector.md
                     - name: Сохранение интерактивных платежных инструментов с помощью соединителя Adyen
-                      href: dev-itpro/adyen-connector-listpi.md
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: Strong Customer Authentication (SCA) с помощью соединителя Adyen
+                      href: adyen_redirect.md
                     - name: Бесперебойное автономное переключение для операций подарочных сертификатов и кредит-нот
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Настройка сценариев оплаты накладных
                       href: payinvoice.md
                     - name: Предотвращение дублирования платежей
                       href: duplicate-payment-protection.md
-                    - name: Обзор многоканальных платежей
+                    - name: Обзор омниканальных платежей
                       href: omni-channel-payments.md
                     - name: Вопросы и ответы по платежам
                       href: dev-itpro/payments-retail.md
+                - name: Управление картами Bing для вашей организации
+                  href: dev-itpro/manage-bing-maps.md
         - name: Мерчандайзинг товаров и услуг
           items:
             - name: 'Категории, продукты и ассортименты'
@@ -820,10 +824,12 @@
                   href: authoring-home-overview.md
                 - name: Управление пользователями и ролями
                   href: manage-ecommerce-users-roles.md
-                - name: Особенности поисковой оптимизации (SEO) для сайта
+                - name: Особенности оптимизации для поисковых систем (SEO) для сайта
                   href: search-engine-optimization-considerations.md
                 - name: Управление политикой безопасности содержимого (CSP)
                   href: manage-csp.md
+                - name: Отказ от сбора событий веб-активности
+                  href: web-activity-opt-out.md
             - name: Управление содержимым сайта
               items:
                 - name: Способы добавления содержимого
@@ -1714,6 +1720,8 @@
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: Настройка и отправка электронной почты
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: Создание шаблонов сообщений электронной почты для событий проводок
+              href: email-templates-transactions.md
             - name: Разработка функций электронной почты
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
             - name: Устранение неполадок интеграции с Office
@@ -2116,6 +2124,8 @@
                   href: dev-itpro/async-commerce-extension.md
                 - name: Предварительно расширенные столбцы в базе данных канала
                   href: dev-itpro/extended-columns.md
+                - name: Расширение Commerce Data Exchange — служба реального времени
+                  href: dev-itpro/extend-commerce-data-exchange.md
             - name: Расширяемость соединителя платежей
               items:
                 - name: Создание интеграции платежей для терминала оплаты
