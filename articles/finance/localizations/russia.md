@@ -3,7 +3,7 @@ title: Обзор по России
 description: В этой теме представлен обзор функциональности, относящейся к России.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ca7e9cad6bb24322cdbf957a8b6e96f243f91671
-ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
+ms.openlocfilehash: 92f6eac5f1f3ce3b46e0b0bd57b4ba4a903d1642
+ms.sourcegitcommit: 67ce81c57194afb26a04ae4c0b7509e0efa32afc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3161794"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "3375778"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -66,6 +66,7 @@ ms.locfileid: "3161794"
 - [Книги продаж, книги покупок и журналы счетов-фактур](rus-sales-books-purchase-books.md)
 - [Управление предоплатами](rus-prepayments-management.md)
 - [Восстановление входящего НДС](rus-incoming-VAT-restoring.md)
+- [Обработка счетов-фактур для экспортной торговли](rus-export-trade.md)
 
 ## <a name="fixed-assets-russia"></a>Основные средства (Россия)
 - [Обзор основных средств](rus-fixed-assets-overview.md)
@@ -122,6 +123,9 @@ ms.locfileid: "3161794"
 - [Структура стоимости запасов](rus-inventory-cost-structure.md)
 - [Мастер корректировки запасов](rus-inventory-adjustment-wizard.md)
 - [Отчеты о запасах](rus-inventory-reports.md)
+- [Обзор профиля учета](rus-inventory-profile-overview.md)
+- [Настройка профиля учета](rus-set-up-inventory-profile.md)
+- [Использование профиля учета в документах и запросах](rus-use-inventory-profile-documents-queries.md)
 
 ## <a name="reporting"></a>Отчетность
 

@@ -3,7 +3,7 @@ title: Отмена задания сводного планирования
 description: В этой теме объясняется, как отменить активное задание планирования, в котором используются встроенные функции планирования.
 author: ChristianRytt
 manager: tfehr
-ms.date: 01/10/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 08dd612d9fb01ba2db6d4fcc7db9507a41a4b29f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1e38b1bb84414dde603dbf5bcda0e8253a12e40b
+ms.sourcegitcommit: 78a1aa37f9a1565135b139e36501b759e7b2f849
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203925"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "3374804"
 ---
 # <a name="cancel-a-master-planning-job"></a>Отмена задания сводного планирования
 
@@ -51,4 +51,5 @@ ms.locfileid: "3203925"
 2. Если идентификатор задания не отображается в списке, щелкните **Переключить форму в расширенное представление**, в противном случае приступите к следующему шагу.
 3. Откройте пакетное задание. Нажмите **Идентификатор задания** для пакетного задания с задачами, которые вы хотите закончить.
 4. В **Пакетные задания** выберите задачи для завершения.
-5. На экспресс-вкладке **Пакетные задачи** нажмите **Отмена**.
+5. Щелкните **изменить статус**, выберите **отмену** и нажмите кнопку **ОК**.
+6. На экспресс-вкладке **Пакетные задачи** нажмите **Отмена**.

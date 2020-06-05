@@ -3,7 +3,7 @@ title: Видео
 description: На этой странице перечислены созданные Майкрософт практические советы и видео по техническим вопросам, связанные с приложениями Finance and Operations, которые доступны на YouTube и других сайтах.
 author: josaw1
 manager: AnnBe
-ms.date: 11/11/2019
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,28 +17,28 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781858"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367137"
 ---
 # <a name="videos"></a>Видео 
 
 [!include [banner](../includes/banner.md)]
 
-На [канале YouTube по Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) можно найти видео, созданные корпорацией Майкрософт, которые демонстрируют широкий спектр бизнес-решений для продуктов Dynamics 365. В этом разделе перечислены видеоролики с практическими советами по приложениям Finance and Operations, которые размещены на канале.
+На [канале YouTube по Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) можно найти видео, созданные корпорацией Майкрософт, которые демонстрируют широкий спектр бизнес-решений для продуктов Dynamics 365. В этом разделе перечислены видеоролики с практическими советами для приложений Finance and Operations, которые размещены на канале.
 
 > [!Note]
 > Некоторые из перечисленных видео были опубликованы под названием предыдущего продукта, но они все еще применимы.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Видео по разработке и администрированию Finance and Operations
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Видео для разработки и администрирования Finance and Operations
 
 ### <a name="data-integration"></a>Интеграция данных
 
 - [Интеграции решения "Перспективный клиент в наличные деньги"](https://youtu.be/AVV9x5x-XCg)
-- [Синхронизация заказа на выполнение работ между Dynamics 365 for Field Service и приложениями Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Синхронизация заказа на выполнение работ между приложениями Dynamics 365 for Field Service и Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Управление данными
 
@@ -55,7 +55,7 @@ ms.locfileid: "2781858"
 ### <a name="intelligence"></a>Бизнес-аналитика
 
 - [Как изменить внедренный отчет в аналитической рабочей области](https://youtu.be/_8WlwmSggcQ)
-- [Как внедрить отчеты PowerBI.com в приложения Finance and Operations](https://youtu.be/gGWuNJDoi-M)
+- [Как встраивать отчеты PowerBI.com в приложениях Finance and Operations](https://youtu.be/gGWuNJDoi-M)
 - [Использование своей собственной базы данных (BYOD) в приложениях Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Как использовать содержимое Power BI для управления затратами в Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
@@ -76,6 +76,12 @@ ms.locfileid: "2781858"
 - [Обновление данных в производственной среде](https://www.youtube.com/watch?v=VCd5SgkYPTw)
 - [Применение нового выпуска платформы после обновления платформы Platform update 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Использование телеметрии для отслеживания ключевых счетчиков производительности в Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
+
+### <a name="regression-suite-automation-tool-rsat"></a>Regression Suite Automation Tool (RSAT)
+
+- [Использование регистратора задач для создания тестового случая для Regression suite automation tool (RSAT)](https://youtu.be/bBr4BXAxTNI)
+- [Как создать план тестирования в Azure DevOps для использования с Regression suite automation tool (RSAT)](https://youtu.be/3jIuBleAnQk) 
+- [Как использовать Regression suite automation tool (RSAT)](https://youtu.be/uhN9JItzGAk)
 
 
 ## <a name="videos-for-dynamics-365-finance"></a>Видео для Dynamics 365 Finance
