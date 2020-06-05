@@ -3,7 +3,7 @@ title: Домашняя страница локального развертыв
 description: В этой теме представлены сведения и ссылки на содержимое о локальных развертываниях.
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b251125323bb74eb8be4172cb1b143c4866a8eac
-ms.sourcegitcommit: ec4df51e17be0b2df393635605ea17250c991ee9
+ms.openlocfilehash: 90285c8f2e0e86e04c8f2ac401c324c888740e99
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3099738"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367066"
 ---
 # <a name="on-premises-deployment-home-page"></a>Домашняя страница локального развертывания
 
@@ -41,7 +41,6 @@ ms.locfileid: "3099738"
 ## <a name="onboard"></a>Адаптация
 - [Настройка локальных проектов в Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [Настройка и развертывание локальных сред (Platform update 12 и более поздние версии)](setup-deploy-on-premises-pu12.md)
-- [Настройка и развертывание локальных сред (обновления платформы 8 и 11)](setup-deploy-on-premises-pu8-pu11.md)
 - [Установка сетевых принтеров в локальных средах](../analytics/install-network-printer-onprem.md)
 - [Настройка служб SQL Server Reporting Services для локальных развертываний](../analytics/configure-ssrs-on-premises.md)
 - [Разработка и развертывание пользовательских моделей в локальных средах](develop-deploy-custom-models-on-premises.md)

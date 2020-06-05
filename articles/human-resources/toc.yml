@@ -5,6 +5,8 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 14 мая 2020 г.
+          href: hr-whats-new-2020-05-14.md
         - name: 1 мая 2020 г.
           href: hr-whats-new-2020-05-01.md
         - name: 13 апреля 2020 г.
@@ -111,14 +113,16 @@
               href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
             - name: Общие сведения о Lifecycle Services
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Приложение Human Resources в Teams
+          href: hr-admin-teams-leave-app.md
         - name: Ресурсы документации
           items:
             - name: Система справки
               href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Подключение к системе справки
               href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
-            - name: Подключение к пользовательскому сайту справки
-              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: Обзор пользовательской справки
+              href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/human-resources/toc.json
             - name: Просмотр и экспорт описаний полей
               href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
             - name: Регистратор задач
@@ -511,10 +515,12 @@
               href: hr-leave-and-absence-analytics.md
             - name: Управление запросами на отпуска и отсутствие
               href: hr-employee-self-service-manage-requests.md
-            - name: Запрос на отсутствие
+            - name: Запрос на отгул
               href: hr-employee-self-service-request-time-off.md
             - name: Просмотр календарей группы и компании
               href: hr-employee-self-service-calendar.md
+        - name: Управление запросами на отпуск в Teams
+          href: hr-teams-leave-app.md
         - name: Развитие сотрудников
           items:
             - name: Обзор управления производительностью

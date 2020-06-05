@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8efc2345ded52bfaee2d400815795906f326f4fd
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 460d05ca29d5b8da70a971a649d9edd786f7260d
+ms.sourcegitcommit: 15c5ec742d648c5f3506d031a2ab6150dcbae348
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3157348"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3378216"
 ---
 # <a name="store-selector-module"></a>Модуль выбора магазина
 
@@ -79,3 +79,5 @@ ms.locfileid: "3157348"
 [Краткий обзор корзины и оформления заказа](quick-tour-cart-checkout.md)
 
 [Настройка способов поставки](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+
+[Управление картами Bing для вашей организации](dev-itpro/manage-bing-maps.md)

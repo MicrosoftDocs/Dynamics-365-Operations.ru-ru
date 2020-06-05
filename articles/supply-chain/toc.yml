@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Supply Chain Management
       items:
-        - name: Dynamics 365 Supply Chain Management
+        - name: Домашняя страница Dynamics 365 Supply Chain Management
           href: index.md
         - name: Начало работы
           items:
@@ -54,7 +54,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Требования к системе для локальных развертываний
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Покупка Finance and Operations (локальная версия)
+                - name: Покупка Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка складских операций для локальных развертываний
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Подключение к системе справки
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Подключение к пользовательскому сайту справки
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Обзор пользовательской справки
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Просмотр и экспорт описаний полей
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Регистратор задач
@@ -1313,6 +1313,22 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Отслеживание скользящей средней себестоимости на складскую аналитику
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+        - name: Бизнес-аналитика IoT
+          items:
+            - name: Домашняя страница бизнес-аналитики IoT
+              href: iot/iot-intelligence-home-page.md
+            - name: Настройка ресурсов Azure
+              href: iot/iot-azure-setup.md
+            - name: Форматы схем сообщений для центра Интернета вещей
+              href: iot/iot-schema-format.md
+            - name: Установка надстройки в LCS
+              href: iot/iot-lcs-setup.md
+            - name: Настройка показателей
+              href: iot/iot-metrics-setup.md
+            - name: Настройка сценария
+              href: iot/iot-scenario-setup.md
+            - name: Мониторинг и управление
+              href: iot/iot-management.md
         - name: Сводное планирование
           items:
             - name: Домашняя страница сводного планирования
@@ -1335,6 +1351,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Отмена задания планирования
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Устранение неполадок оптимизации планирования
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Сводные планы
               items:
                 - name: Обзор сводных планов
@@ -2657,7 +2675,7 @@
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
             - name: Установка и настройка складского приложения
               items:
-                - name: Обзор установки и настройки
+                - name: Установка и подключение складского приложения
                   href: warehousing/install-configure-warehousing-app.md
                 - name: Настройка имен полей в складском приложении
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
@@ -2697,6 +2715,22 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Настройка рабочего шаблона для заказов на покупку
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
+            - name: Политики консолидации отгрузок
+              items:
+                - name: Политики консолидации отгрузок
+                  href: warehousing/about-shipment-consolidation-policies.md
+                - name: Настройка политик консолидации отгрузок
+                  href: warehousing/configure-shipment-consolidation-policies.md
+                - name: 'Сценарий 1: отгрузки консолидируются, когда они выпускаются на склад, с помощью автоматического выпуска заказов на продажу'
+                  href: warehousing/consolidate-shipments-automatic.md
+                - name: 'Сценарий 2: отгрузки консолидируются, когда политика консолидации отгрузок переопределяется на странице "Выпуск на склад"'
+                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                - name: 'Сценарий 3: отгрузки консолидируются при использовании функции "Выпуск на склад" на рабочем месте планирования загрузки'
+                  href: warehousing/consolidate-shipments-load-planning-workbench.md
+                - name: 'Случай 4: отгрузки консолидируются с помощью рабочего места консолидации отгрузок'
+                  href: warehousing/consolidate-shipments-manual-workbench.md
+                - name: 'Случай 5: отгрузки консолидируются вручную на странице консолидации отгрузок'
+                  href: warehousing/consolidate-shipments-manual-form.md
         - name: Разработка модуля Supply Chain Management
           items:
             - name: Руководство по разработке элемента управления Ганта

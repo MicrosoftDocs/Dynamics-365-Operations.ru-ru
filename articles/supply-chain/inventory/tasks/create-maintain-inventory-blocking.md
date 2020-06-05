@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e76c3d1f46e31dcd2171682a629dabe5bf5db418
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 12c6e047e15aaab157e6de70f4a09f500af2965f
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204156"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383466"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Создание и ведение блокировки запасов
 
@@ -48,7 +48,7 @@ ms.locfileid: "3204156"
 3. Нажмите кнопку **Сохранить**.
 
 ## <a name="remove-the-inventory-blocking"></a>Снятие блокировки запасов
-1. На **панели операций** щелкните **Удалить**.
+1. В **области действий** щелкните **Удалить**.
 2. Нажмите кнопку **Да**.
 3. Закройте страницу.
 

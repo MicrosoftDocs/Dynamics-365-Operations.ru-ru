@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ae42c9012a430aeeed6adb78b33776c727e4a3f8
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4ce9c9d5b5def386f159df581c87d48f3e0b0ad9
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551157"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367323"
 ---
-[!include [banner](../includes/banner.md)]
-
 # <a name="electronic-reporting-sample-vendor-checks"></a>Электронная отчетность для образцов чеков поставщика
+
+[!include [banner](../includes/banner.md)]
 
 Электронную отчетность (ER) можно использовать для форматирования чеков поставщика. На рынке есть множество форматов чеков в зависимости от банков и поставщиков. Форматы образцов чеков флажок были включены в модель чека платежа в репозитории средства электронной отчетности. Эти образцы чеков помечаются как **Чек в середине (США)** и **Чек на верхней позиции ниже (США)**.
 
