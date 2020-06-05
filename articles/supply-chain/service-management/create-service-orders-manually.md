@@ -18,87 +18,87 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d80461694a28a0842155cbd8ca224c37bd85dde7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 45261931d8083e179f0d3a8285b12fdaa2494adc
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202706"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383374"
 ---
-# <a name="create-service-orders-manually"></a><span data-ttu-id="2cc5f-103">Создание заказов на обслуживание вручную</span><span class="sxs-lookup"><span data-stu-id="2cc5f-103">Create service orders manually</span></span>    
+# <a name="create-service-orders-manually"></a><span data-ttu-id="eedad-103">Создание заказов на обслуживание вручную</span><span class="sxs-lookup"><span data-stu-id="eedad-103">Create service orders manually</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="2cc5f-104">Заказы на обслуживание можно создавать вручную, используя соглашения на сервисное обслуживание или форму **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-104">You can create service orders manually by using a service agreement or by using the **Service orders** form.</span></span> <span data-ttu-id="2cc5f-105">Заказ на обслуживание можно создать и из проекта.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-105">You can also create a service order from a project.</span></span>
+<span data-ttu-id="eedad-104">Заказы на обслуживание можно создавать вручную, используя соглашения на сервисное обслуживание или форму **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="eedad-104">You can create service orders manually by using a service agreement or by using the **Service orders** form.</span></span> <span data-ttu-id="eedad-105">Заказ на обслуживание можно создать и из проекта.</span><span class="sxs-lookup"><span data-stu-id="eedad-105">You can also create a service order from a project.</span></span>
 
 > [!TIP]
-> <P><span data-ttu-id="2cc5f-106">Можно использовать автоматизированные процессы для создания заказов на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-106">You can use automated processes to create service orders.</span></span> 
+> <P><span data-ttu-id="eedad-106">Можно использовать автоматизированные процессы для создания заказов на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="eedad-106">You can use automated processes to create service orders.</span></span> 
 
-## <a name="create-a-service-order-manually-from-a-service-agreement"></a><span data-ttu-id="2cc5f-107">Создание заказа на сервисное обслуживание вручную из соглашения о сервисном обслуживании</span><span class="sxs-lookup"><span data-stu-id="2cc5f-107">Create a service order manually from a service agreement</span></span>
+## <a name="create-a-service-order-manually-from-a-service-agreement"></a><span data-ttu-id="eedad-107">Создание заказа на сервисное обслуживание вручную из соглашения о сервисном обслуживании</span><span class="sxs-lookup"><span data-stu-id="eedad-107">Create a service order manually from a service agreement</span></span>
 
-1.  <span data-ttu-id="2cc5f-108">Щелкните **Управление сервисным обслуживанием** \> **Общее** \> **Соглашения на обслуживание** \> **Соглашения на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-108">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="eedad-108">Щелкните **Управление сервисным обслуживанием** \> **Общее** \> **Соглашения на обслуживание** \> **Соглашения на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="eedad-108">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="2cc5f-109">Выберите уже существующее соглашение на обслуживание или создайте новое.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-109">Select a service agreement or create a new service agreement.</span></span>
+2.  <span data-ttu-id="eedad-109">Выберите уже существующее соглашение на обслуживание или создайте новое.</span><span class="sxs-lookup"><span data-stu-id="eedad-109">Select a service agreement or create a new service agreement.</span></span>
 
-3.  <span data-ttu-id="2cc5f-110">Перейдите на вкладку **Доставлять** и в группе **Создать** щелкните **Планируемые заказы на обслуживание**, чтобы открыть форму **Создать заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-110">Click the **Deliver** tab and in the **Create** group click **Planned service orders** to open the **Create service orders** form.</span></span>
+3.  <span data-ttu-id="eedad-110">Перейдите на вкладку **Доставлять** и в группе **Создать** щелкните **Планируемые заказы на обслуживание**, чтобы открыть форму **Создать заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="eedad-110">Click the **Deliver** tab and in the **Create** group click **Planned service orders** to open the **Create service orders** form.</span></span>
 
-## <a name="create-a-service-order-manually-in-the-service-orders-form"></a><span data-ttu-id="2cc5f-111">Создание заказа на обслуживание вручную из формы "Заказы на обслуживание"</span><span class="sxs-lookup"><span data-stu-id="2cc5f-111">Create a service order manually in the Service orders form</span></span>
+## <a name="create-a-service-order-manually-in-the-service-orders-form"></a><span data-ttu-id="eedad-111">Создание заказа на обслуживание вручную из формы "Заказы на обслуживание"</span><span class="sxs-lookup"><span data-stu-id="eedad-111">Create a service order manually in the Service orders form</span></span>
 
-1.  <span data-ttu-id="2cc5f-112">Щелкните **Управление сервисным обслуживанием** \> **Общий** \> **Заказы на сервисное обслуживание** \> **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="eedad-112">Щелкните **Управление сервисным обслуживанием** \> **Общий** \> **Заказы на сервисное обслуживание** \> **Заказы на сервисное обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="eedad-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="2cc5f-113">Нажмите комбинацию клавиш Ctrl+N, чтобы создать новый заказ на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-113">Press Ctrl+N to create a new service order.</span></span>
+2.  <span data-ttu-id="eedad-113">Нажмите комбинацию клавиш Ctrl+N, чтобы создать новый заказ на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="eedad-113">Press Ctrl+N to create a new service order.</span></span>
 
-3.  <span data-ttu-id="2cc5f-114">Создайте строки заказа на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-114">Create service order lines for the service order.</span></span>
-
-> [!NOTE]
-> <P><span data-ttu-id="2cc5f-115">Если в форме <STRONG>Параметры управления сервисным обслуживанием</STRONG> установлен флажок <STRONG>Разрешить без соглашения о сервисном обслуживании</STRONG>, разноску проводок из строк заказа на обслуживание можно выполнять и не присоединяя заказ на обслуживание к соглашению на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-115">If the <STRONG>Allow without service agreement</STRONG> check box in the <STRONG>Service management parameters</STRONG> form is selected, you can post the transactions from the service order lines without attaching the service order to a service agreement.</span></span> <span data-ttu-id="2cc5f-116">Если этот флажок снят, до выполнения разноски строк заказа на обслуживание необходимо присоединить созданный вручную заказ на облуживание к проекту.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-116">If the check box is cleared, you must attach the manually created service order to a project before posting the service order lines.</span></span></P>
-
-## <a name="create-a-service-order-from-a-project"></a><span data-ttu-id="2cc5f-117">Создание заказа на сервисное обслуживание из проекта</span><span class="sxs-lookup"><span data-stu-id="2cc5f-117">Create a service order from a project</span></span>
-
-1.  <span data-ttu-id="2cc5f-118">Щелкните **Управление и учет по проектам** \> **Общее** \> **Проекты** \> **Все проекты**.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-118">Click **Project management and accounting** \> **Common** \> **Projects** \> **All projects**.</span></span>
-
-2.  <span data-ttu-id="2cc5f-119">В форме **Проекты** в разделе **Панель операций** перейдите на вкладку **Панель операций** \> щелкните **Обслуживание** \> **Заказы на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-119">In the **Projects** form, on the **Action pane**, click the **Manage** tab \> click **Service** \> **Service orders**.</span></span>
-
-3.  <span data-ttu-id="2cc5f-120">Выполните предыдущую процедуру для создания заказа на обслуживание вручную в форме **Заказы на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-120">Follow the previous procedure to create a service order manually in the **Service orders** form.</span></span> <span data-ttu-id="2cc5f-121">В поле **Код проекта** отображается ссылка на проект.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-121">The **Project ID** field displays the project reference.</span></span>
+3.  <span data-ttu-id="eedad-114">Создайте строки заказа на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="eedad-114">Create service order lines for the service order.</span></span>
 
 > [!NOTE]
-> <P><span data-ttu-id="2cc5f-122">Если в форме <STRONG>Параметры управления сервисным обслуживанием</STRONG> установлен флажок <STRONG>Разрешить без соглашения о сервисном обслуживании</STRONG>, разноску проводок из строк заказа на обслуживание можно выполнять и не присоединяя заказ на обслуживание к соглашению на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-122">If the <STRONG>Allow without service agreement</STRONG> check box in the <STRONG>Service management parameters</STRONG> form is selected, you can post the transactions from the service order lines without attaching the service order to a service agreement.</span></span> <span data-ttu-id="2cc5f-123">Если этот флажок снят, до выполнения разноски строк заказа на обслуживание необходимо присоединить созданный вручную заказ на облуживание к проекту.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-123">If the check box is cleared, you must attach the manually created service order to a project before posting the service order lines.</span></span></P>
+> <P><span data-ttu-id="eedad-115">Если в форме <STRONG>Параметры управления сервисным обслуживанием</STRONG> установлен флажок <STRONG>Разрешить без соглашения о сервисном обслуживании</STRONG>, разноску проводок из строк заказа на обслуживание можно выполнять и не присоединяя заказ на обслуживание к соглашению на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="eedad-115">If the <STRONG>Allow without service agreement</STRONG> check box in the <STRONG>Service management parameters</STRONG> form is selected, you can post the transactions from the service order lines without attaching the service order to a service agreement.</span></span> <span data-ttu-id="eedad-116">Если этот флажок снят, до выполнения разноски строк заказа на обслуживание необходимо присоединить созданный вручную заказ на облуживание к проекту.</span><span class="sxs-lookup"><span data-stu-id="eedad-116">If the check box is cleared, you must attach the manually created service order to a project before posting the service order lines.</span></span></P>
 
-## <a name="create-a-service-order-from-the-sales-order-form"></a><span data-ttu-id="2cc5f-124">Создание заказа на сервисное обслуживание из формы заказа на продажу</span><span class="sxs-lookup"><span data-stu-id="2cc5f-124">Create a service order from the Sales order form</span></span>
+## <a name="create-a-service-order-from-a-project"></a><span data-ttu-id="eedad-117">Создание заказа на сервисное обслуживание из проекта</span><span class="sxs-lookup"><span data-stu-id="eedad-117">Create a service order from a project</span></span>
 
-<span data-ttu-id="2cc5f-125">Можно создать заказ на сервисное обслуживание из формы **Заказы на продажу** с помощью мастера **Создать новый заказ на обслуживание на основе заказа на продажу**.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-125">You can create a service order from the **Sales orders** form by using the **Create a new service order based on the sales order** wizard.</span></span>
+1.  <span data-ttu-id="eedad-118">Щелкните **Управление и учет по проектам** \> **Общее** \> **Проекты** \> **Все проекты**.</span><span class="sxs-lookup"><span data-stu-id="eedad-118">Click **Project management and accounting** \> **Common** \> **Projects** \> **All projects**.</span></span>
 
-1.  <span data-ttu-id="2cc5f-126">Выберите **Продажи и маркетинг** \> **Общее** \> **Заказы на продажу** \> **Все заказы на продажу**.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-126">Click **Sales and marketing** \> **Common** \> **Sales orders** \> **All sales orders**.</span></span>
+2.  <span data-ttu-id="eedad-119">В форме **Проекты** в разделе **Панель операций** перейдите на вкладку **Панель операций** \> щелкните **Обслуживание** \> **Заказы на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="eedad-119">In the **Projects** form, on the **Action Pane**, click the **Manage** tab \> click **Service** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="2cc5f-127">Откройте соответствующий заказ на продажу.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-127">Open the relevant sales order.</span></span>
+3.  <span data-ttu-id="eedad-120">Выполните предыдущую процедуру для создания заказа на обслуживание вручную в форме **Заказы на обслуживание**.</span><span class="sxs-lookup"><span data-stu-id="eedad-120">Follow the previous procedure to create a service order manually in the **Service orders** form.</span></span> <span data-ttu-id="eedad-121">В поле **Код проекта** отображается ссылка на проект.</span><span class="sxs-lookup"><span data-stu-id="eedad-121">The **Project ID** field displays the project reference.</span></span>
 
-3.  <span data-ttu-id="2cc5f-128">На вкладке **Заказ на продажу** щелкните **Заказ на обслуживание**, чтобы запустить мастер **Создать новый заказ на обслуживание на основе заказа на продажу**.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-128">On the **Sales order** tab, click **Service order** to start the **Create a new service order based on the sales order** wizard.</span></span>
+> [!NOTE]
+> <P><span data-ttu-id="eedad-122">Если в форме <STRONG>Параметры управления сервисным обслуживанием</STRONG> установлен флажок <STRONG>Разрешить без соглашения о сервисном обслуживании</STRONG>, разноску проводок из строк заказа на обслуживание можно выполнять и не присоединяя заказ на обслуживание к соглашению на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="eedad-122">If the <STRONG>Allow without service agreement</STRONG> check box in the <STRONG>Service management parameters</STRONG> form is selected, you can post the transactions from the service order lines without attaching the service order to a service agreement.</span></span> <span data-ttu-id="eedad-123">Если этот флажок снят, до выполнения разноски строк заказа на обслуживание необходимо присоединить созданный вручную заказ на облуживание к проекту.</span><span class="sxs-lookup"><span data-stu-id="eedad-123">If the check box is cleared, you must attach the manually created service order to a project before posting the service order lines.</span></span></P>
 
-4.  <span data-ttu-id="2cc5f-129">Щелкните **Далее \>** и выполните следующие шаги на странице **Выбрать соглашение для заказа на обслуживание**:</span><span class="sxs-lookup"><span data-stu-id="2cc5f-129">Click **Next \>**, and then complete the following steps on the **Select agreement for service order** page:</span></span>
+## <a name="create-a-service-order-from-the-sales-order-form"></a><span data-ttu-id="eedad-124">Создание заказа на сервисное обслуживание из формы заказа на продажу</span><span class="sxs-lookup"><span data-stu-id="eedad-124">Create a service order from the Sales order form</span></span>
+
+<span data-ttu-id="eedad-125">Можно создать заказ на сервисное обслуживание из формы **Заказы на продажу** с помощью мастера **Создать новый заказ на обслуживание на основе заказа на продажу**.</span><span class="sxs-lookup"><span data-stu-id="eedad-125">You can create a service order from the **Sales orders** form by using the **Create a new service order based on the sales order** wizard.</span></span>
+
+1.  <span data-ttu-id="eedad-126">Выберите **Продажи и маркетинг** \> **Общее** \> **Заказы на продажу** \> **Все заказы на продажу**.</span><span class="sxs-lookup"><span data-stu-id="eedad-126">Click **Sales and marketing** \> **Common** \> **Sales orders** \> **All sales orders**.</span></span>
+
+2.  <span data-ttu-id="eedad-127">Откройте соответствующий заказ на продажу.</span><span class="sxs-lookup"><span data-stu-id="eedad-127">Open the relevant sales order.</span></span>
+
+3.  <span data-ttu-id="eedad-128">На вкладке **Заказ на продажу** щелкните **Заказ на обслуживание**, чтобы запустить мастер **Создать новый заказ на обслуживание на основе заказа на продажу**.</span><span class="sxs-lookup"><span data-stu-id="eedad-128">On the **Sales order** tab, click **Service order** to start the **Create a new service order based on the sales order** wizard.</span></span>
+
+4.  <span data-ttu-id="eedad-129">Щелкните **Далее \>** и выполните следующие шаги на странице **Выбрать соглашение для заказа на обслуживание**:</span><span class="sxs-lookup"><span data-stu-id="eedad-129">Click **Next \>**, and then complete the following steps on the **Select agreement for service order** page:</span></span>
     
-      - <span data-ttu-id="2cc5f-130">Используйте поле **Соглашение о сервисном обслуживании** для выбора соглашения о сервисном обслуживании, с которым будет связан новый заказ на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-130">Use the **Service agreement** field to select the service agreement with which the new service order should be associated.</span></span>
+      - <span data-ttu-id="eedad-130">Используйте поле **Соглашение о сервисном обслуживании** для выбора соглашения о сервисном обслуживании, с которым будет связан новый заказ на обслуживание.</span><span class="sxs-lookup"><span data-stu-id="eedad-130">Use the **Service agreement** field to select the service agreement with which the new service order should be associated.</span></span>
     
-      - <span data-ttu-id="2cc5f-131">(Дополнительно) Используйте поле **Код проекта**, чтобы связать этот заказ на обслуживание с конкретным проектом.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-131">Optional: Use the **Project ID** field to associate this service order with a particular project.</span></span>
+      - <span data-ttu-id="eedad-131">(Дополнительно) Используйте поле **Код проекта**, чтобы связать этот заказ на обслуживание с конкретным проектом.</span><span class="sxs-lookup"><span data-stu-id="eedad-131">Optional: Use the **Project ID** field to associate this service order with a particular project.</span></span>
 
-5.  <span data-ttu-id="2cc5f-132">Щелкните **Далее \>** и выполните следующие шаги на странице **Создать заказ на обслуживание**:</span><span class="sxs-lookup"><span data-stu-id="2cc5f-132">Click **Next \>**, and then complete the following steps on the **Create service order** page:</span></span>
+5.  <span data-ttu-id="eedad-132">Щелкните **Далее \>** и выполните следующие шаги на странице **Создать заказ на обслуживание**:</span><span class="sxs-lookup"><span data-stu-id="eedad-132">Click **Next \>**, and then complete the following steps on the **Create service order** page:</span></span>
     
-      - <span data-ttu-id="2cc5f-133">В поле **Предпочитаемое время обслуживания** введите дату и время начала для данной заявки на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-133">Enter a date and time for the service call to begin in the **Preferred service time** field.</span></span>
+      - <span data-ttu-id="eedad-133">В поле **Предпочитаемое время обслуживания** введите дату и время начала для данной заявки на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="eedad-133">Enter a date and time for the service call to begin in the **Preferred service time** field.</span></span>
     
-      - <span data-ttu-id="2cc5f-134">(Необязательно) Измените текст в поле **Описание**.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-134">Optional: Modify the text in the **Description** field.</span></span> <span data-ttu-id="2cc5f-135">По умолчанию это поле содержит описание соглашения о сервисном обслуживании, выбранного на предыдущей странице.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-135">By default, this field contains the description of the service agreement that you selected on the previous page.</span></span>
+      - <span data-ttu-id="eedad-134">(Необязательно) Измените текст в поле **Описание**.</span><span class="sxs-lookup"><span data-stu-id="eedad-134">Optional: Modify the text in the **Description** field.</span></span> <span data-ttu-id="eedad-135">По умолчанию это поле содержит описание соглашения о сервисном обслуживании, выбранного на предыдущей странице.</span><span class="sxs-lookup"><span data-stu-id="eedad-135">By default, this field contains the description of the service agreement that you selected on the previous page.</span></span>
     
-      - <span data-ttu-id="2cc5f-136">В поле **Ответственный** выберите идентификатор сотрудника, ответственного за это соглашение и, если имеется соответствующая информация, введите идентификатор предпочтительного для клиента технического специалиста по этой заявке на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-136">In the **Responsible** field, select the ID of the employee who is responsible for the agreement, and if you know what it is, enter the ID of the customer's preferred technician for the service call.</span></span>
+      - <span data-ttu-id="eedad-136">В поле **Ответственный** выберите идентификатор сотрудника, ответственного за это соглашение и, если имеется соответствующая информация, введите идентификатор предпочтительного для клиента технического специалиста по этой заявке на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="eedad-136">In the **Responsible** field, select the ID of the employee who is responsible for the agreement, and if you know what it is, enter the ID of the customer's preferred technician for the service call.</span></span>
     
-      - <span data-ttu-id="2cc5f-137">В поле **Код контактного лица** выберите контактное лицо в компании клиента, с которым необходимо связаться относительно данного заказа на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-137">In the **Contact ID** field, select the person in the customer's company who should be contacted regarding this service order.</span></span>
+      - <span data-ttu-id="eedad-137">В поле **Код контактного лица** выберите контактное лицо в компании клиента, с которым необходимо связаться относительно данного заказа на сервисное обслуживание.</span><span class="sxs-lookup"><span data-stu-id="eedad-137">In the **Contact ID** field, select the person in the customer's company who should be contacted regarding this service order.</span></span>
 
-6.  <span data-ttu-id="2cc5f-138">Щелкните **Далее \>**, а затем нажмите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="2cc5f-138">Click **Next \>**, and then click **Finish**.</span></span>
+6.  <span data-ttu-id="eedad-138">Щелкните **Далее \>**, а затем нажмите **Готово**.</span><span class="sxs-lookup"><span data-stu-id="eedad-138">Click **Next \>**, and then click **Finish**.</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="2cc5f-139">См. также</span><span class="sxs-lookup"><span data-stu-id="2cc5f-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="eedad-139">См. также</span><span class="sxs-lookup"><span data-stu-id="eedad-139">See also</span></span>
 
-[<span data-ttu-id="2cc5f-140">Заказы на обслуживание</span><span class="sxs-lookup"><span data-stu-id="2cc5f-140">Service orders</span></span>](service-orders.md)
+[<span data-ttu-id="eedad-140">Заказы на обслуживание</span><span class="sxs-lookup"><span data-stu-id="eedad-140">Service orders</span></span>](service-orders.md)
 
-[<span data-ttu-id="2cc5f-141">Автоматическое создание заказов на сервисное обслуживание</span><span class="sxs-lookup"><span data-stu-id="2cc5f-141">Create service orders automatically</span></span>](create-service-orders-automatically.md)
+[<span data-ttu-id="eedad-141">Автоматическое создание заказов на сервисное обслуживание</span><span class="sxs-lookup"><span data-stu-id="eedad-141">Create service orders automatically</span></span>](create-service-orders-automatically.md)
 
-<span data-ttu-id="2cc5f-142">[Создание заказов на обслуживание (форма класса)](https://technet.microsoft.com/library/aa553901\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="2cc5f-142">[Create service orders (class form)](https://technet.microsoft.com/library/aa553901\(v=ax.60\))</span></span> 
+<span data-ttu-id="eedad-142">[Создание заказов на обслуживание (форма класса)](https://technet.microsoft.com/library/aa553901\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="eedad-142">[Create service orders (class form)](https://technet.microsoft.com/library/aa553901\(v=ax.60\))</span></span> 
 
