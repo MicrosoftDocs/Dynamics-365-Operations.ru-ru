@@ -14,6 +14,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
+                - name: Обновления платформы для 10.0.12 (август 2020 г.)
+                  href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Обновления платформы для 10.0.11 (июль 2020 г.)
                   href: get-started/whats-new-platform-update-35.md
                 - name: Обновления платформы для 10.0.10 (май 2020 г.)
@@ -198,6 +200,8 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Интегрированный работник, задание и должность'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Наличие запасов
+                              href: data-entities/dual-write/inventory-availability.md
                         - name: Поддержка двойной записи
                           items:
                             - name: Поддержка решений Field Service и решений Project Service Automation
@@ -452,9 +456,9 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Применение обновлений к облачным средам
                   href: deployment/apply-deployable-package-system.md
-                - name: Применение обновлений и расширений к размещенным в облаке компонентам канала Retail
+                - name: Применение обновлений и расширений к Commerce Scale Unit (облако)
                   href: deployment/Update-retail-channel.md
-                - name: Инициализация Retail Cloud Scale Unit
+                - name: Инициализация Commerce Scale Unit (облако)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Место расположения данных Retail
                   href: deployment/retail-data-residency.md
@@ -488,6 +492,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: Подключение к Интернету клиента
                       href: user-interface/client-disconnected.md
+                    - name: Настройка в локальных развертываниях только для пакетных и интерактивных узлов AOS
+                      href: deployment/onprem-batchonly.md
                     - name: Настройка прокси-серверов для локальных сред
                       href: deployment/onprem-reverseproxy.md
                     - name: Локальная диагностика
@@ -646,11 +652,11 @@
                   href: dev-tools/debug-xpp.md
                 - name: Классы EventHandlerResult в сценариях с запросами и ответами
                   href: dev-tools/event-handler-result-class.md
-                - name: 'Написание бизнес-логики на языках C# и X++ Source Code'
+                - name: Написание бизнес-логики на языках C# и X++ Source Code
                   href: dev-tools/write-business-logic.md
                 - name: Изменения в X++ и компиляторе X++
                   href: dev-tools/programming-language-support.md
-                - name: 'Поставщик LINQ для C#'
+                - name: Поставщик LINQ для C#
                   href: dev-tools/linq-provider-c.md
                 - name: Написание правил рекомендаций
                   href: dev-tools/author-best-practice-rules.md
@@ -710,7 +716,7 @@
                       href: dev-ref/xpp-macros.md
                     - name: Классы атрибутов в X++
                       href: dev-ref/xpp-attribute-classes.md
-                    - name: 'Сравнение X++ и C#'
+                    - name: Сравнение X++ и C#
                       href: dev-ref/xpp-cs-comparison.md
                     - name: Синтаксис X++
                       href: dev-ref/xpp-syntax.md
@@ -1048,6 +1054,8 @@
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Руководство пользователя Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
+            - name: Адаптация проекта
+              href: lifecycle-services/project-onboarding.md
             - name: Средство оценки подписки
               href: lifecycle-services/subscription-estimator.md
             - name: Настройка безопасности
@@ -1118,6 +1126,20 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Файлы базы переводов
                   href: lifecycle-services/use-translation-service-tm.md
+        - name: Интеграция Microsoft Power Platform
+          items:
+            - name: Интеграция Microsoft Power Platform с Finance and Operations
+              href: power-platform/overview.md
+            - name: Моделирование объектов
+              href: power-platform/entity-modeling.md
+            - name: Управление жизненным циклом приложений
+              href: power-platform/application-lifecycle-management.md
+            - name: Ссылка администратора Finance and Operations и Common Data Service
+              href: power-platform/admin-reference.md
+            - name: Порталы Power Apps с Finance and Operations
+              href: power-platform/power-portal-reference.md
+            - name: Вопросы и ответы по виртуальным объектам Finance and Operations
+              href: power-platform/faq.md
         - name: Мобильная платформа
           items:
             - name: Ресурсы мобильных платформ
@@ -1330,9 +1352,7 @@
               href: perf-test/rsat/rsat-overview.md
             - name: Установка и конфигурация
               href: perf-test/rsat/rsat-install-configure.md
-            - name: Независимые от данных испытания с помощью Regression Suite Automation Tool
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Выполнение контрольных примеров
+            - name: Использование Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
             - name: Проверка ожидаемых значений
               href: perf-test/rsat/rsat-validate-expected.md
@@ -1340,10 +1360,12 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Производные контрольные примеры
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Использование учебника Regression Suite Automation Tool
+            - name: Учебник Regression Suite Automation Tool и другие функции
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: Рекомендации
               href: perf-test/rsat/rsat-best-practices.md
+            - name: Независимые от данных испытания с помощью Regression Suite Automation Tool
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Устранение неполадок
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Выпуск решений с использованием Lifecycle Services
@@ -1442,9 +1464,11 @@
                   href: sysadmin/copy-batch-job.md
                 - name: Активные периоды пакета
                   href: sysadmin/activeperiod.md
+                - name: Поддержка летнего времени для активных периодов пакета
+                  href: sysadmin/batch-active-period-dst.md
                 - name: Роль безопасности пакетного диспетчера
                   href: sysadmin/runby.md
-                - name: Пакетное задание для обработки дефрагментация индекса SQL
+                - name: Пакетное задание для обработки дефрагментации индекса SQL
                   href: sysadmin/batch-job-SQL-defragmentation.md
                 - name: Настройка пакетных оповещений
                   href: sysadmin/alerts.md

@@ -88,11 +88,13 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: "Commerce 10.0.11 (июль 2020\_г.)"
+                    - name: Commerce 10.0.12 (август 2020 г.)
+                      href: get-started/whats-new-commerce-10-0-12.md
+                    - name: Commerce 10.0.11 (июль 2020 г.)
                       href: get-started/whats-new-commerce-10-0-11.md
-                    - name: "Commerce 10.0.10 (май 2020\_г.)"
+                    - name: Commerce 10.0.10 (май 2020 г.)
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: "Commerce 10.0.9 (апрель 2020\_г.)"
+                    - name: Commerce 10.0.9 (апрель 2020 г.)
                       href: get-started/whats-new-10-0-9.md
                 - name: Удаленные или устаревшие функции
                   items:
@@ -212,9 +214,9 @@
               items:
                 - name: Синхронизация установщиков дистанционного обслуживания в Dynamics 365 Commerce
                   href: dev-itpro/Synchronize-installers.md
-                - name: Commerce Scale Unit
+                - name: Commerce Scale Unit (резидентное размещение)
                   href: dev-itpro/retail-store-system-begin.md
-                - name: Настройка и установка Commerce Scale Unit
+                - name: Настройка и установка Commerce Scale Unit (резидентное размещение)
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
                 - name: Настройка и установка Modern POS
                   href: retail-modern-pos-device-activation.md
@@ -604,7 +606,7 @@
               items:
                 - name: Обзор рекомендаций по продуктам
                   href: product-recommendations.md
-                - name: Включение ADLS в среде Dynamics 365 Commerce
+                - name: Включение Azure Data Lake Storage в среде Dynamics 365 Commerce
                   href: enable-ADLS-environment.md
                 - name: Включение рекомендаций по продуктам
                   href: enable-product-recommendations.md
@@ -646,8 +648,8 @@
                   items:
                     - name: Управление запасами магазина
                       href: work-with-store-inventory.md
-                    - name: Работа с сериализованными номенклатурами
-                      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Настройка буферов запасов и уровней запасов
+                      href: inventory-buffers-levels.md
                     - name: Работа с сериализованными номенклатурами в POS
                       href: pos-serialized-items.md
                     - name: Отправка продуктов из центра распределения в магазин через централизованное распределение
@@ -824,6 +826,8 @@
                   href: authoring-home-overview.md
                 - name: Управление пользователями и ролями
                   href: manage-ecommerce-users-roles.md
+                - name: Применение настроек запасов
+                  href: inventory-settings.md
                 - name: Особенности оптимизации для поисковых систем (SEO) для сайта
                   href: search-engine-optimization-considerations.md
                 - name: Управление политикой безопасности содержимого (CSP)
@@ -848,6 +852,8 @@
                       href: select-site-theme.md
                     - name: Работа с переопределением файлов CSS
                       href: css-override-files.md
+                    - name: Работа с предустановленными стилями
+                      href: style-presets.md
                     - name: Добавление значка сайта
                       href: add-favicon.md
                     - name: Добавление приветственного сообщения
@@ -882,7 +888,7 @@
                       href: add-new-page.md
                     - name: Выбор макета страницы
                       href: select-page-layouts.md
-                    - name: Управление метаданными для поисковой оптимизации
+                    - name: Управление метаданными SEO
                       href: manage-seo-metadata.md
                     - name: 'Сохранение, предварительный просмотр и публикация страницы'
                       href: save-preview-publish-page.md
@@ -932,6 +938,10 @@
                   items:
                     - name: Модуль контейнера
                       href: add-container-module.md
+                    - name: Модуль гармошек
+                      href: add-accordion.md
+                    - name: Модуль вкладок
+                      href: add-tab.md
                 - name: Модули маркетинга
                   items:
                     - name: Модуль рекламного баннера
@@ -978,6 +988,10 @@
                   items:
                     - name: Модули семейства продуктов
                       href: product-collection-module-overview.md
+                - name: Модули навигации
+                  items:
+                    - name: Модули навигации
+                      href: add-breadcrumb.md
             - name: Поиск
               items:
                 - name: Целевая страница категории и страница результатов поиска по умолчанию
@@ -1048,6 +1062,10 @@
                   href: localizations/emea-fra-cash-registers.md
                 - name: Рекомендации по развертыванию контрольно-кассовых машин
                   href: localizations/emea-fra-deployment.md
+            - name: Германия
+              items:
+                - name: Пример интеграции службы финансовой регистрации для Германии
+                  href: localizations/emea-deu-fi-sample.md
             - name: Индия
               items:
                 - name: Интеграция налога на товары и услуги (GST) для контрольно-кассовых машин
@@ -1590,7 +1608,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
             - name: Учебники
               items:
-                - name: Применение JOIN к источникам данных для получения данных из таблиц в разных приложениях
+                - name: Применение ОБЪЕДИНЕНИЯ к источникам данных для получения данных из таблиц в разных приложениях
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Настройка сопоставлений моделей электронной отчетности (ER) с учетом контекста страны
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
@@ -1976,7 +1994,9 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Настройка параметров темы
                       href: e-commerce-extensibility/configure-theme-settings.md
-                    - name: Расширение темы
+                    - name: Расширение темы для добавления расширений модулей
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Расширение темы из базовой темы
                       href: e-commerce-extensibility/extend-theme.md
                 - name: Введение сценария
                   items:
@@ -2072,17 +2092,17 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Расширяемость Retail Server
               items:
-                - name: Расширение контроллера Retail Server OData
+                - name: Расширение контроллера Commerce Scale Unit OData
                   href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: API клиентов и потребителей Retail Server
+                - name: API клиентов и потребителей Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Расширение контроллера метаданных Retail Server по умолчанию
+                - name: Расширение контроллера метаданных Commerce Scale Unit по умолчанию
                   href: dev-itpro/extend-metadata.md
                 - name: Вызов службы CRT в автономном режиме
                   href: dev-itpro/call-crt-service-offline.md
                 - name: Создание нового расширения Retail Server
                   href: dev-itpro/retail-server-extension.md
-                - name: 'Прокси Typescript и C# в Retail'
+                - name: Прокси Typescript и C# в Retail
                   href: dev-itpro/typescript-proxy-retail-pos.md
             - name: Расширяемость Commerce Runtime (CRT)
               items:
@@ -2096,8 +2116,6 @@
                   href: dev-itpro/add-customer-preference-channel.md
                 - name: Управление секретами для каналов розничной торговли
                   href: dev-itpro/manage-secrets.md
-                - name: Добавление свойств в заказы на продажу
-                  href: dev-itpro/add-properties-sales-order.md
                 - name: Расширяемость и триггеры CRT
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Блокировка проводок с помощью триггеров
