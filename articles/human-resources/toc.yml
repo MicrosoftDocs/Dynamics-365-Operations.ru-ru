@@ -5,6 +5,8 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 28 мая 2020 г.
+          href: hr-whats-new-2020-05-28.md
         - name: 14 мая 2020 г.
           href: hr-whats-new-2020-05-14.md
         - name: 1 мая 2020 г.
@@ -205,9 +207,9 @@
           href: hr-hrpro-overview.md
         - name: Настройка Human Resources
           items:
-            - name: Настройка параметров управления персоналом
+            - name: Настройка параметров Human Resources
               href: hr-setup-parameters.md
-            - name: Настройка общих параметров управления персоналом
+            - name: Настройка общих параметров Human Resources
               href: hr-setup-shared-parameters.md
             - name: Настройка workflow-процессов управления персоналом
               href: hr-setup-workflows.md
@@ -509,6 +511,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: Приостановка отпуска
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Запрос на отпуск
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: Управление отпусками сотрудников
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Просмотр аналитики по отпускам и отсутствию
@@ -519,6 +523,10 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Просмотр календарей группы и компании
               href: hr-employee-self-service-calendar.md
+            - name: Управление политиками покупки и продажи отпусков
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: Покупка и продажа отпуска
+              href: hr-employee-self-service-buy-sell-leave.md
         - name: Управление запросами на отпуск в Teams
           href: hr-teams-leave-app.md
         - name: Развитие сотрудников

@@ -70,12 +70,12 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.12 (август 2020 г.)
+                      href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (июль 2020 г.)
                       href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (май 2020 г.)
                       href: get-started/whats-new-scm-10-0-10.md
-                    - name: Supply Chain Management 10.0.9 (апрель 2020 г.)
-                      href: get-started/whats-new-scm-10-0-9.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Удаленные или устаревшие функции Dynamics 365 Supply Chain Management
@@ -595,6 +595,8 @@
                   href: cost-management/bom-calculations.md
                 - name: Группы расчета спецификаций
                   href: cost-management/bom-calculation-groups.md
+                - name: Уровень расчета затрат
+                  href: cost-management/cost-calculation-level.md
                 - name: Backflush-расчет себестоимости
                   href: cost-management/backflush-costing.md
                 - name: Общие источники отклонений цены производства от себестоимости
@@ -1137,7 +1139,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: Учебники
               items:
-                - name: Применение JOIN к источникам данных для получения данных из таблиц в разных приложениях
+                - name: Применение ОБЪЕДИНЕНИЯ к источникам данных для получения данных из таблиц в разных приложениях
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка сопоставлений моделей электронной отчетности (ER) с учетом контекста страны
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
@@ -1345,6 +1347,8 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Применение фильтров к плану
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: Сводное планирование с торговыми соглашениями о покупке
+                  href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Просмотр истории плана и журналов планирования
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Автоматическое подтверждение при оптимизации планирования
@@ -1989,7 +1993,9 @@
                       href: production-control/release-production-orders.md
                     - name: Приемка производственных заказов
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Приемка в местонахождение под управлением грузоместа
+                    - name: Настроить карту заданий для устройств
+                      href: production-control/config-job-card-device.md
+                    - name: Приемка с устройства карты задания
                       href: production-control/report-finished-job-device.md
                     - name: Реверсирование статуса производственного заказа
                       href: production-control/reverse-production-order-status.md
@@ -2259,6 +2265,16 @@
                   href: sales-marketing/tasks/register-sales-commissions.md
                 - name: Настройка правил комиссий продаж
                   href: sales-marketing/tasks/set-up-sales-commission-rules.md
+            - name: Клиентский портал для Dynamics 365 Supply Chain Management
+              items:
+                - name: Обзор клиентского портала
+                  href: sales-marketing/customer-portal-overview.md
+                - name: 'Установка, настройка и обновление клиентского портала'
+                  href: sales-marketing/customer-portal-setup.md
+                - name: Создание пользователей клиентского портала и управление ими
+                  href: sales-marketing/customer-portal-user-admin.md
+                - name: Настройка и использование клиентского портала
+                  href: sales-marketing/customer-portal-customize.md
             - name: Торговая скидка
               href: sales-marketing/trade-allowance.md
             - name: Создание нового коммерческого соглашения
@@ -2655,6 +2671,8 @@
                   href: warehousing/partial-location-cycle-counting.md
                 - name: Определение процесса частичного цикличного подсчета по местонахождениям
                   href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                - name: Задание очистки записей в наличии для управления складом
+                  href: warehousing/onhand-cleanup.md
                 - name: Журнал запасов
                   href: inventory/inventory-journals.md
                 - name: Место хранения
