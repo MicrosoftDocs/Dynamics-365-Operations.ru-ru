@@ -3346,7 +3346,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory services (RCS)
                   items:
-                    - name: Regulatory Configuration Service (RCS) — функции глобализации
+                    - name: Regulatory Configuration Services (RCS) — функции глобализации
                       href: localizations/rcs-globalization-feature.md
                     - name: Загрузка в конфигураций электронной отчетности в Finance
                       items:
