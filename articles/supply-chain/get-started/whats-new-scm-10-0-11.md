@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0b71a76b348941f5a010e2f3e4bbb2fa60d37101
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: e396d2f2731d3600ee9e83e419d1038571e7bd85
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346361"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413039"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.11 (июль 2020 г.)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 В этой теме перечислены новые и измененные компоненты Microsoft Dynamics 365 Supply Chain Management 10.0.11, предварительная версия. Эта версия имеет номер сборки 10.0.464 и доступна следующим образом:
 
@@ -44,7 +43,7 @@ ms.locfileid: "3346361"
 - [Улучшения резервирования строки для формы резервирования номеров партий](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) — дополнительные сведения см. в разделе [Резервирование одной и той же партии для заказа на продажу](../sales-marketing/reserve-same-batch-sales-order.md)
 - [Новые информационные объекты для области производства](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [Получение избыточных количеств по загрузке](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) — дополнительные сведения см. в разделе [Складская обработка входящих загрузок для заказов на покупку](../warehousing/inbound-load-handling.md).
-- [Приемка по номерам партий с устройства карты задания](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)
+- [Приемка по номерам партий с устройства карты задания](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device) — для получения дополнительных сведений см. раздел [Приемка с устройства карты задания](../production-control/report-finished-job-device.md)
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
