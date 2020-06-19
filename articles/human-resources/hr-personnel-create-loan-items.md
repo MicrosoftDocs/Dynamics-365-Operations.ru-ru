@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp
+ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Core, Operations
@@ -16,46 +16,46 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5245b82c81178ff41d5351cd8f73650aa497d555
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 8317a2fbe9d857ed3824631241b99c333b6dc4e8
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010314"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428882"
 ---
-# <a name="create-loan-items"></a><span data-ttu-id="5ad6d-103">Создать одалживаемые номенклатуры</span><span class="sxs-lookup"><span data-stu-id="5ad6d-103">Create loan items</span></span>
+# <a name="create-loan-items"></a><span data-ttu-id="9bf7a-103">Создать одалживаемые номенклатуры</span><span class="sxs-lookup"><span data-stu-id="9bf7a-103">Create loan items</span></span>
 
 
 
-<span data-ttu-id="5ad6d-104">Номенклатуры временного пользования (одалживаемые номенклатуры) — это записи, позволяющие отслеживать физические номенклатуры, например телефоны или компьютеры, выдаваемые организацией работникам во временное пользование.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-104">Loan items are records that help you track physical items, such as phones or computers, that your company lends to workers.</span></span> <span data-ttu-id="5ad6d-105">Каждая физическая номенклатура должна иметь соответствующую номенклатуру временного пользования.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-105">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="5ad6d-106">В каждой записи арендованной номенклатуры должно быть описано, что было предоставлено в аренду, кто несет ответственность за аренду и количество дней, на которые была предоставлена в аренду номенклатура.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-106">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can be on loan.</span></span> <span data-ttu-id="5ad6d-107">Одновременно можно создать несколько номенклатур временного пользования, таких как ключи, карточки доступа или комплекты униформы.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-107">You can create multiple loan items, such as keys, access cards, or uniforms, at the same time.</span></span> <span data-ttu-id="5ad6d-108">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-108">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="9bf7a-104">Номенклатуры временного пользования (одалживаемые номенклатуры) — это записи, позволяющие отслеживать физические номенклатуры, например телефоны или компьютеры, выдаваемые организацией работникам во временное пользование.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-104">Loan items are records that help you track physical items, such as phones or computers, that your company lends to workers.</span></span> <span data-ttu-id="9bf7a-105">Каждая физическая номенклатура должна иметь соответствующую номенклатуру временного пользования.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-105">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="9bf7a-106">В каждой записи арендованной номенклатуры должно быть описано, что было предоставлено в аренду, кто несет ответственность за аренду и количество дней, на которые была предоставлена в аренду номенклатура.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-106">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can be on loan.</span></span> <span data-ttu-id="9bf7a-107">Одновременно можно создать несколько номенклатур временного пользования, таких как ключи, карточки доступа или комплекты униформы.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-107">You can create multiple loan items, such as keys, access cards, or uniforms, at the same time.</span></span> <span data-ttu-id="9bf7a-108">В качестве компании с демонстрационными данными для создания этой процедуры используется USMF.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-108">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-loan-types"></a><span data-ttu-id="5ad6d-109">Создание типов займов</span><span class="sxs-lookup"><span data-stu-id="5ad6d-109">Create Loan types</span></span>
-1. <span data-ttu-id="5ad6d-110">Перейдите в раздел "Управление персоналом" > "Работники" > "Одалживаемые номенклатуры" > "Типы займа".</span><span class="sxs-lookup"><span data-stu-id="5ad6d-110">Go to Human resources > Workers > Loan items > Loan types.</span></span>
-2. <span data-ttu-id="5ad6d-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="5ad6d-111">Click New.</span></span>
-3. <span data-ttu-id="5ad6d-112">В поле "Тип займа" введите значение.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-112">In the Loan type field, type a value.</span></span>
-4. <span data-ttu-id="5ad6d-113">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="5ad6d-114">Введите количество дней, на которое может быть просрочен возврат номенклатур, принадлежащих к этому типу.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-114">Enter the number of days that items assigned to this loan type can be overdue.</span></span> 
-6. <span data-ttu-id="5ad6d-115">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="5ad6d-115">Click Save.</span></span>
-7. <span data-ttu-id="5ad6d-116">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-116">Close the page.</span></span>
-8. <span data-ttu-id="5ad6d-117">Обновите страницу.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-117">Refresh the page.</span></span>
+## <a name="create-loan-types"></a><span data-ttu-id="9bf7a-109">Создание типов займов</span><span class="sxs-lookup"><span data-stu-id="9bf7a-109">Create Loan types</span></span>
+1. <span data-ttu-id="9bf7a-110">Перейдите в раздел "Управление персоналом" > "Работники" > "Одалживаемые номенклатуры" > "Типы займа".</span><span class="sxs-lookup"><span data-stu-id="9bf7a-110">Go to Human resources > Workers > Loan items > Loan types.</span></span>
+2. <span data-ttu-id="9bf7a-111">Щелкните "Создать".</span><span class="sxs-lookup"><span data-stu-id="9bf7a-111">Click New.</span></span>
+3. <span data-ttu-id="9bf7a-112">В поле "Тип займа" введите значение.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-112">In the Loan type field, type a value.</span></span>
+4. <span data-ttu-id="9bf7a-113">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="9bf7a-114">Введите количество дней, на которое может быть просрочен возврат номенклатур, принадлежащих к этому типу.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-114">Enter the number of days that items assigned to this loan type can be overdue.</span></span> 
+6. <span data-ttu-id="9bf7a-115">Нажмите кнопку "Сохранить".</span><span class="sxs-lookup"><span data-stu-id="9bf7a-115">Click Save.</span></span>
+7. <span data-ttu-id="9bf7a-116">Закройте страницу.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-116">Close the page.</span></span>
+8. <span data-ttu-id="9bf7a-117">Обновите страницу.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-117">Refresh the page.</span></span>
 
-## <a name="create-loan-items"></a><span data-ttu-id="5ad6d-118">Создание одалживаемых номенклатур</span><span class="sxs-lookup"><span data-stu-id="5ad6d-118">Create Loan items</span></span>
-1. <span data-ttu-id="5ad6d-119">Перейдите в раздел "Управление персоналом" > "Работники" > "Одалживаемые номенклатуры" > "Одалживаемые номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="5ad6d-119">Go to Human resources > Workers > Loan items > Loan items.</span></span>
-2. <span data-ttu-id="5ad6d-120">Щелкните "Создать одалживаемые номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="5ad6d-120">Click Create loan items.</span></span>
-3. <span data-ttu-id="5ad6d-121">В поле "Кол-во" введите число.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-121">In the Qty. field, enter a number.</span></span>
-4. <span data-ttu-id="5ad6d-122">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-122">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="5ad6d-123">В поле "Тип займа" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-123">In the Loan type field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="5ad6d-124">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-124">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="5ad6d-125">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-125">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="5ad6d-126">Введите количество дней, на которое номенклатура может быть выдана во временное пользование.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-126">Enter the number of days the item can be on loan.</span></span>
-    * <span data-ttu-id="5ad6d-127">Значение по умолчанию в поле "Планируемый возврат" на странице "Одолженное оборудование" вычисляется как текущая дата плюс это число.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-127">The default value for the Planned return field on the Loaned equipment page is calculated as the current date plus this number.</span></span>  
-9. <span data-ttu-id="5ad6d-128">В поле "Ответственное лицо" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-128">In the Person in charge field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="5ad6d-129">Щелкните Выбрать.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-129">Click Select.</span></span>
-11. <span data-ttu-id="5ad6d-130">В поле "Начальное значение" введите число.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-130">In the Starting value field, enter a number.</span></span>
-12. <span data-ttu-id="5ad6d-131">В поле "Интервал" введите число.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-131">In the Interval field, enter a number.</span></span>
-13. <span data-ttu-id="5ad6d-132">В поле "Формат" введите значение.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-132">In the Format field, type a value.</span></span>
-    * <span data-ttu-id="5ad6d-133">Например, если начальный номер для номенклатуры временного пользования — 10, в поле "Формат" нужно ввести два символа числа.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-133">For example, if the starting number for a loan item is 10, enter two number symbols symbols in the Format field.</span></span>  
-14. <span data-ttu-id="5ad6d-134">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="5ad6d-134">Click OK.</span></span>
-15. <span data-ttu-id="5ad6d-135">Обновите страницу.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-135">Refresh the page.</span></span>
+## <a name="create-loan-items"></a><span data-ttu-id="9bf7a-118">Создание одалживаемых номенклатур</span><span class="sxs-lookup"><span data-stu-id="9bf7a-118">Create Loan items</span></span>
+1. <span data-ttu-id="9bf7a-119">Перейдите в раздел "Управление персоналом" > "Работники" > "Одалживаемые номенклатуры" > "Одалживаемые номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="9bf7a-119">Go to Human resources > Workers > Loan items > Loan items.</span></span>
+2. <span data-ttu-id="9bf7a-120">Щелкните "Создать одалживаемые номенклатуры".</span><span class="sxs-lookup"><span data-stu-id="9bf7a-120">Click Create loan items.</span></span>
+3. <span data-ttu-id="9bf7a-121">В поле "Кол-во" введите число.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-121">In the Qty. field, enter a number.</span></span>
+4. <span data-ttu-id="9bf7a-122">В поле "Описание" введите значение.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-122">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="9bf7a-123">В поле "Тип займа" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-123">In the Loan type field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="9bf7a-124">Поиск и выбор требуемой записи в списке.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-124">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="9bf7a-125">В списке перейдите по ссылке в выбранной строке.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-125">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="9bf7a-126">Введите количество дней, на которое номенклатура может быть выдана во временное пользование.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-126">Enter the number of days the item can be on loan.</span></span>
+    * <span data-ttu-id="9bf7a-127">Значение по умолчанию в поле "Планируемый возврат" на странице "Одолженное оборудование" вычисляется как текущая дата плюс это число.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-127">The default value for the Planned return field on the Loaned equipment page is calculated as the current date plus this number.</span></span>  
+9. <span data-ttu-id="9bf7a-128">В поле "Ответственное лицо" нажмите кнопку раскрывающегося списка, чтобы открыть поиск.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-128">In the Person in charge field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="9bf7a-129">Щелкните Выбрать.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-129">Click Select.</span></span>
+11. <span data-ttu-id="9bf7a-130">В поле "Начальное значение" введите число.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-130">In the Starting value field, enter a number.</span></span>
+12. <span data-ttu-id="9bf7a-131">В поле "Интервал" введите число.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-131">In the Interval field, enter a number.</span></span>
+13. <span data-ttu-id="9bf7a-132">В поле "Формат" введите значение.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-132">In the Format field, type a value.</span></span>
+    * <span data-ttu-id="9bf7a-133">Например, если начальный номер для номенклатуры временного пользования — 10, в поле "Формат" нужно ввести два символа числа.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-133">For example, if the starting number for a loan item is 10, enter two number symbols symbols in the Format field.</span></span>  
+14. <span data-ttu-id="9bf7a-134">Нажмите кнопку "OК".</span><span class="sxs-lookup"><span data-stu-id="9bf7a-134">Click OK.</span></span>
+15. <span data-ttu-id="9bf7a-135">Обновите страницу.</span><span class="sxs-lookup"><span data-stu-id="9bf7a-135">Refresh the page.</span></span>
 
