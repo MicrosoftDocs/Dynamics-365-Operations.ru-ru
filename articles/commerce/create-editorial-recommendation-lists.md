@@ -3,7 +3,7 @@ title: Создание контролируемых рекомендаций в
 description: В этой теме объясняется, как менеджер по сбыту может вручную создавать списки продуктов для клиентов Microsoft Dynamics 365 Commerce и управлять ими.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b00c83355850f6249068749096b011f805b37e3c
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 0b866704b419fb07dcf1ddd386af2f7d6cfa02e2
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154326"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404124"
 ---
 # <a name="manually-create-curated-recommendations"></a>Создание контролируемых рекомендаций вручную
 
@@ -56,7 +56,7 @@ ms.locfileid: "3154326"
 
 [Обзор рекомендаций по продуктам](product-recommendations.md)
 
-[Включение ADLS в среде Dynamics 365 Commerce](enable-adls-environment.md)
+[Включение Azure Data Lake Storage в среде Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Включить рекомендации по продуктам](enable-product-recommendations.md)
 
