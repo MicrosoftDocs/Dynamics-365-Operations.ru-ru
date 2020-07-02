@@ -589,6 +589,8 @@
                   href: cost-management/inventory-value-report-storage.md
                 - name: Хранилище отчетов о распределении запасов по срокам
                   href: cost-management/inventory-aging-report-storage.md
+                - name: Примеры и логика отчетов о распределении запасов по срокам
+                  href: cost-management/inventory-aging-report.md
             - name: Учет производства
               items:
                 - name: Расчет спецификаций
