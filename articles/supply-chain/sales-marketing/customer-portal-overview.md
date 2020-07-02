@@ -3,7 +3,7 @@ title: Обзор клиентского портала для Dynamics 365 Supp
 description: В этой теме представлен клиентский портал и объясняется, кто должен его использовать и как он функционирует.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b57365d8042c1d791ee2c50c5458a6595a58270
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3414001"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456934"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Обзор клиентского портала для Dynamics 365 Supply Chain Management
 
@@ -37,6 +37,12 @@ ms.locfileid: "3414001"
 
 > [!NOTE]
 > Документация по клиентскому порталу направляется администраторами, специалистам по настройке и системным интеграторам, которые будут настраивать клиентский портал для установки Supply Chain Management. В нем используются термины _клиент_ и _пользователь_ для описания людей, которые являются клиентами организации, в которой работает Supply Chain Management, и тех, кто будет использовать окончательную версию самого портала.
+
+## <a name="video"></a>Видео
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
+
+Видеоролик [Обзор шаблона клиентского портала в Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (показан выше) включен в [список воспроизведения Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), доступный на YouTube.
 
 ## <a name="who-should-use-it"></a>Кто должен его использовать?
 
@@ -58,6 +64,6 @@ ms.locfileid: "3414001"
 
 [Двойная запись](https://docs.microsoft.com/powerapps/maker/portals/overview) — это готовый продукт инфраструктуры, обеспечивающий взаимодействие практически в режиме реального времени между приложениями на основе модели в Dynamics 365 и приложениями Finance and Operations. Двойная запись обеспечивает двунаправленную интеграцию между приложениями Finance and Operations и Common Data Service. Поэтому она обеспечивает интегрированное взаимодействие с пользователем через приложения. Клиентский портал зависит от объектов, которые синхронизируются через двойную запись. Прежде чем данные из Supply Chain Management могут быть отображены на клиентском портале, для всех подходящих объектов должна быть включена двойная запись.
 
-![![Зависимости клиентского портала](media/customer-portal-elements.png "Зависимости клиентского портала")](media/customer-portal-elements.png "Customer portal dependencies")
+![Зависимости клиентского портала](media/customer-portal-elements.png "Зависимости клиентского портала")
 
 Клиентский портал выступает в качестве отправной точки для организаций, желающих использовать порталы Power Apps для создания внешнего веб-сайта, использующего данные из установки Supply Chain Management. Он помогает организациям объединять двойную запись, Supply Chain Management и порталы Power Apps.

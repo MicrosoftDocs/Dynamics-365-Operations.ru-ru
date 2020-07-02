@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции Platform
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить в обновлениях платформы приложений Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 06/02/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6fc699907d30fff2d05e752ea055cae8d1134d9b
-ms.sourcegitcommit: 3eaa71c889545318737b3bc88b05eae1a47ad2c0
+ms.openlocfilehash: 1faee75c9112b3aa584ad021ffdc1144fcf4ba32
+ms.sourcegitcommit: 3485d7f36058151cb4fff5c425ef27f56e3ee7d6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "3433930"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457574"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Удаленные или устаревшие функции Platform
 
@@ -36,6 +36,22 @@ ms.locfileid: "3433930"
 > [!NOTE]
 > Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
 
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Обновления платформы для версии 10.0.13 приложений Finance and Operations
+
+> [!NOTE]
+> Версия 10.0.13 еще не была выпущена. Эти сведения предоставляются для целей планирования. Содержимое и функциональность для версии 10.0.13 могут быть изменены. Дополнительные сведения о выпусках см. в разделе [Доступность обновления службы](../../fin-ops/get-started/public-preview-releases.md).
+
+
+### <a name="upgrade-of-three-jquery-component-libraries"></a>Обновление трех библиотек компонентов jQuery 
+
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Три библиотеки компонентов jQuery обновляются для исправлений системы безопасности и для ведения валюты.   
+| **Заменена другой функцией?**   | Затронуты следующие библиотеки: jQuery (до версия 3.5.0 с версии 2.1.4), jQuery UI (до версии 1.12.1 с версии 1.11.4), jQuery qTip (до версии 3.0.3 с 2.2.1). Руководство по миграции предоставляется по Интернету от jQuery.  |
+| **Затрагиваемые области продукта**         | Расширяемые элементы управления, специальный пользовательский код JavaScript, использующий устаревшие или удаленные интерфейсы API |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | С версией 10.0.13/Platform update 37 клиенты могут по желанию переходить на последние библиотеки, включив функцию "Обновить три библиотеки компонентов jQuery". Переход к новым библиотекам будет обязательным при выпуске за апрель 2021 г., что дает время для перехода с затрагиваемых API.   |
+
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Обновления платформы для версии 10.0.12 приложений Finance and Operations
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Расширения формы элемента управления сетки или группы, содержащие неправильные ссылки на поля
@@ -50,11 +66,11 @@ ms.locfileid: "3433930"
 
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Обновления платформы для версии 10.0.11 приложений Finance and Operations
 
-### <a name="explicit-whitelisting-for-self-service-environments"></a>Явное помещение в список разрешенного для сред самообслуживания
+### <a name="explicit-safe-lists-for-self-service-environments"></a>Явные списки безопасности для сред самообслуживания
 
 |   |  |
 |------------|--------------------|
-| **Причина устаревания/удаления** | Процесс для внесения IP-адресов в список разрешенных был изменен. Самообслуживание больше не поддерживает процесс для внесения IP-адресов в список разрешенных. |
+| **Причина устаревания/удаления** | Изменился процесс перемещения IP-адресов в безопасные списки. Самообслуживание больше не поддерживает списки безопасных IP-адресов. |
 | **Заменена другой функцией?**   | Для получения дополнительных сведений см. [Настройка условного доступа Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
 | **Затрагиваемые области продукта**         | Контроль доступа |
 | **Вариант развертывания**              | В облаке |

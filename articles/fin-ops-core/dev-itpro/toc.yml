@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: Обновления платформы для 10.0.10 (май 2020 г.)
                   href: get-started/whats-new-platform-update-34.md
-                - name: Обновление платформы 33 (апрель 2020 г.)
-                  href: get-started/whats-new-platform-update-33.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Удаленные или устаревшие функции платформы
@@ -150,6 +148,8 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: Включение сопоставления объектов для двойной записи
                                   href: data-entities/dual-write/enable-entity-map.md
+                            - name: Миграция типа данных валюты для двойной записи
+                              href: data-entities/dual-write/currrency-decimal-places.md
                         - name: Управление двойной записью
                           items:
                             - name: Настройка сопоставления объектов и полей
@@ -364,6 +364,8 @@
           items:
             - name: Обзор Azure Data Lake
               href: data-entities/azure-data-lake-overview.md
+            - name: Настройка экспорта в Azure Data Lake
+              href: data-entities/configure-export-data-lake.md
             - name: Приложения Finance and Operations в Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Предоставление хранилища объектов как Data Lake
@@ -498,6 +500,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Локальная диагностика
                       href: deployment/on-premises-diagnostics.md
+                    - name: Конфигурация локального аварийного восстановления
+                      href: deployment/onprem-dr.md
                     - name: Интеграция PowerBI.com с локальными средами
                       href: analytics/entity-store-on-prem.md
                     - name: Повторная настройка сред
@@ -1430,12 +1434,14 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: Экспорт пользователей B2B в Azure AD
               href: sysadmin/implement-b2b.md
-            - name: Контроль доступа
+            - name: Безопасность
               items:
                 - name: Безопасность на основе ролей
                   href: sysadmin/role-based-security.md
                 - name: Архитектура безопасности
                   href: sysadmin/security-architecture.md
+                - name: Шифрование в приложениях Finance and Operations
+                  href: sysadmin/encryption.md
                 - name: Настройка времени ожидания сеанса
                   href: sysadmin/session-idle-timeout.md
                 - name: Готовые отчеты безопасности

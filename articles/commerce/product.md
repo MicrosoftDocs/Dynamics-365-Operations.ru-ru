@@ -3,7 +3,7 @@ title: Добавление рекомендаций по продуктам в 
 description: В этом разделе описывается использование рекомендаций продуктов на POS-терминале.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/20
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1dc1e8934bcd6a8cb94b780bbfe247f64067912
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: fabf08e8dde1b9b6d27af3e42d3aaff904b467b0
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404264"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454541"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Добавление рекомендаций по продуктам в POS
 

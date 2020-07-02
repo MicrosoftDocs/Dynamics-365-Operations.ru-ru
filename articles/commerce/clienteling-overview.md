@@ -3,7 +3,7 @@ title: Обзор отношений с клиентами
 description: В этом разделе представлен обзор новых возможностей отношений с клиентами, доступных в приложении магазина.
 author: bebeale
 manager: AnnBe
-ms.date: 11/01/19
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 4f045f8509a6b5027fd3cf8e5ca9e382457a5e83
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
+ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023769"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456515"
 ---
 # <a name="clienteling-overview"></a>Обзор отношений с клиентами
 
@@ -115,7 +115,7 @@ ms.locfileid: "3023769"
 3. Создайте хранилище ключей Azure и сохраните секретный ключ приложения. Инструкции см. в разделе [Краткое описание: настройка и получение секрета в Azure Key Vault с помощью портала Azure](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
 4. Включите доступ к Azure Key Vault из Commerce. Для выполнения этого шага необходимо иметь идентификатор приложения и секретный ключ. Приложение может быть тем же приложением, которое было создано на шаге 1, либо новым приложением. (Иными словами, вы можете использовать приложение, созданное на шаге 1, для доступа к хранилищу ключей и Customer Insights, либо можно создать уникальное приложение для каждого типа доступа.) Инструкции см. в разделе [Хранение учетных данных участника службы в Azure Stack Key Vault](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
 5. В Headquarters перейдите **Администрирование системы \> Настройка \> Параметры хранилища ключей** и введите необходимые сведения для данного хранилища ключей. Затем в поле **Клиент хранилища ключей** введите код приложения, который был использован на шаге 4, чтобы Commerce смог получить доступ к секретам в хранилище ключей.
-6. Чтобы добавить приложение, созданное на шаге 1, в список безопасных приложений (которые иногда называют белым списком), перейдите к Customer Insights и предоставьте доступ к **Вид** для приложения. Инструкции см. в разделе [Разрешения](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. Чтобы добавить приложение, созданное на шаге 1, в список безопасных приложений (которые иногда называют списком безопасности), перейдите к Customer Insights и предоставьте доступ к **Вид** для приложения. Инструкции см. в разделе [Разрешения](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
 7. В модуле Commerce на странице **Параметры Commerce** на вкладке **Отношения с клиентами** на экспресс-вкладке **Dynamics 365 Customer Insights** выполните следующие действия:
 
     1. В поле **Код приложения** введите код приложения, который был использован на шаге 1.

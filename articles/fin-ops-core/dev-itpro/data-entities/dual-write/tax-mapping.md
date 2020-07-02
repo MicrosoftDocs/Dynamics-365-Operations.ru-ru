@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4da37d45698290b40f6c72148f1500bef72127a
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 69521ec8c664a7025050c94105eca58f7f2c5c00
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173093"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435568"
 ---
 # <a name="integrated-tax"></a>Интегрированный налог
 
@@ -38,30 +38,30 @@ ms.locfileid: "3173093"
 
 Данные налога включают коллекцию сопоставлений объектов, которые работают совместно во время взаимодействия данных клиентов, как показано в следующей таблице.
 
-| Приложения Finance and Operations | Приложения на основе модели в Dynamics 365 | описание |
--------------------------|---------------------------------
-Налоговые коды                   | msdyn\_taxcodes.md | 
-Налоговые группы                 | msdyn\_taxgroups.md | 
-Налоговые группы номенклатур             | msdyn\_taxitemgroups.md | 
-Освобождения от налога             | msdyn\_taxexemptcodes.md | 
-Налоговые органы             | msdyn\_taxauthorities.md | 
-Коды подоходного налога       | msdyn\_withholdingtaxcodes.md | 
-Группы подоходного налога     | msdyn\_withholdingtaxgroups.md | 
-Группа ГК налога | msdyn\_taxpostinggroups     | 
+Приложения Finance and Operations | Приложения на основе модели в Dynamics 365 | описание |
+-------------------------|---------------------------------|----|
+Налоговая группа номенклатур | msdyn_taxitemgroups |
+Налоговые органы | msdyn_taxauthorities |
+CDS объекта кода налогового освобождения | msdyn_taxexemptcodes |
+Налоговые группы | msdyn_taxgroups |
+Группы разноски ГК для налога V2 | msdyn_taxpostinggroups |
+Коды подоходного налога | msdyn_withholdingtaxcodes |
+Группы подоходного налога | msdyn_withholdingtaxgroups | 
+
 
 [!include [banner](../../includes/dual-write-symbols.md)]
 
-[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
-
 [!include [Tax item groups](includes/TaxItemGroupHeadings-msdyn-taxitemgroups.md)]
+
+[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
 
 [!include [Tax Exemptions](includes/CdsTaxExemptCodes-msdyn-taxexemptcodes.md)]
 
-[!include [Tax Authorities](includes/SalesTaxAuthorities-msdyn-taxauthorities.md)]
+[!include [Tax groups](includes/TaxGroupEntity-msdyn-taxgroups.md)]
+
+[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
 
 [!include [Withholding tax codes](includes/WithholdingCode-msdyn-withholdingtaxcodes.md)]
 
 [!include [Withholding tax groups](includes/WithholdingGroups-msdyn-withholdingtaxgroups.md)]
-
-[!include [Tax Ledger Account Group](includes/TaxPostingGroupsV2--msdyn-taxpostinggroups.md)]
 
