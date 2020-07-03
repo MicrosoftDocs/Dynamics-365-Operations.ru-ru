@@ -3,7 +3,7 @@ title: Настройка ручных решений в workflow-процесс
 description: В этом разделе описывается, как настроить свойства ручного решения.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46b875f52d3d3e7c755ee92dcd5faddf0d94356
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
+ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179685"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3455041"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Настройка ручных решений в workflow-процессе
 
@@ -239,26 +239,6 @@ ms.locfileid: "2179685"
     <li>После выбора параметра <strong>Пользователь</strong> перейдите на вкладку <strong>Пользователь</strong>.</li>
     <li>Список <strong>Доступные пользователи</strong> включает всех пользователей. Выберите пользователей, которым требуется назначить решение, а затем переместите этих пользователей в список <strong>Выбранные пользователи</strong>.</li>
     </ol>
-    </td>
-    </tr>
-    <tr>
-    <td>Очередь</td>
-    <td>Очередь задач</td>
-    <td>
-    <ol>
-    <li>После выбора значения в поле <strong>Очередь</strong> перейдите на вкладку <strong>На основе очереди</strong>.</li>
-    <li>Для назначения Решение к конкретной очереди, выполните следующие действия: <ol>
-    <li>В списке <strong>Тип очереди</strong> выберите <strong>Очереди задач</strong>.</li>
-    <li>В списке <strong>Имя очереди</strong> выберите очередь.</li>
-    </ol>
-    </li>
-    <li>Если определенное условие должно указывать, в какую очередь Решение назначается, выполните следующие шаги: <ol>
-    <li>В списке <strong>Тип очереди</strong> выберите <strong>Зависимые очереди задач</strong>.</li>
-    <li>В списке <strong>Имя очереди</strong> выберите <strong>Зависимая очередь</strong>.</li>
-    </ol>
-    </li>
-    </ol>
-    <blockquote>[!NOTE] Этот параметр используется только для нескольких workflow-процессов, таких как управление обращениями.</blockquote>
     </td>
     </tr>
     </tbody>

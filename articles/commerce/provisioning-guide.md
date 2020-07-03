@@ -3,7 +3,7 @@ title: Обеспечение среды предварительной верс
 description: В этой теме объясняется, как предоставить среду предварительного просмотра Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: c109c2326cf01739255b49587c15aa34ad884f6a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254756"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426473"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Обеспечение среды предварительной версии Dynamics 365 Commerce
 
@@ -193,7 +193,7 @@ ms.locfileid: "3254756"
 
 1. Перед продолжением убедитесь, что состояние вашей среды — **Развернуто**.
 
-### <a name="initialize-the-commerce-scale-unit-csu"></a>Инициализация Commerce Scale Unit (CSU)
+### <a name="initialize-the-commerce-scale-unit-cloud"></a>Инициализация Commerce Scale Unit (облако)
 
 Чтобы инициализировать CSU, выполните следующие действия.
 
@@ -251,7 +251,7 @@ ms.locfileid: "3254756"
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (облако)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Портал Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 

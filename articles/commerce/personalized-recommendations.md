@@ -3,7 +3,7 @@ title: Включите персонализированные рекоменд�
 description: В этом разделе описывается, как сделать персонализированные рекомендации о продуктах доступными в Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9b847a67306861052a360e0137e2e257b056888e
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 0e49b4db17ffd792e8dd536a1671773253c74d71
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154280"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404148"
 ---
 # <a name="enable-personalized-recommendations"></a>Включение персонализированных рекомендаций
 
@@ -110,7 +110,7 @@ ms.locfileid: "3154280"
 
 [Обзор рекомендаций по продуктам](product-recommendations.md)
 
-[Включение ADLS в среде Dynamics 365 Commerce](enable-adls-environment.md)
+[Включение Azure Data Lake Storage в среде Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Включить рекомендации по продуктам](enable-product-recommendations.md)
 

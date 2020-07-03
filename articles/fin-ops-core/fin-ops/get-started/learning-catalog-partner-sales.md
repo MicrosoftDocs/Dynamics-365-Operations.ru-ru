@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d2c029f6e5654f0da399ee7fc26ead6d787e59f5
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 69db88dd5a30d35cbc2c5b46f0ab3fbce057f799
+ms.sourcegitcommit: 840230f3dc500852791953d05c2737dd539ed0b3
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3279075"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3418523"
 ---
 # <a name="microsoft-partner-sales-and-marketing-learning-catalog"></a>Каталог учебных материалов по Sales и Marketing партнеров Майкрософт
 
@@ -31,7 +31,7 @@ ms.locfileid: "3279075"
 | [Значение Microsoft Dynamics 365 и Power Platform для бизнеса](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Вы заинтересованы в изучении бизнес-приложений? Возможно, вы не знаете, как начать работать с приложениями Microsoft Dynamics 365 и Power Platform? Узнайте, как мощь бизнес-приложений может способствовать преобразованию бизнеса.  | Бесплатный путь онлайн-обучения в произвольном темпе                                          | 7 часов |
 | [Основы Dynamics 365 и Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/)  | Вы заинтересованы в изучении бизнес-приложений? Начните с этого учебного пути, чтобы узнать, как используются приложения Dynamics 365. Узнайте о концепциях облака, Power Platform и о том, как начать работу с приложениями Dynamics 365. | 5.5 часов |
 | [Начало работы с приложениями Finance and Operations](https://docs.microsoft.com/learn/paths/get-started-with-dynamics-365-for-finance-and-ops/)  | Узнайте, как приложения Finance and Operations поддерживают предприятия для управления глобальными финансовыми системами, рабочими бизнес-процессами и оптимизированными цепочками поставок, чтобы предоставить сотрудникам возможность быстро принимать обоснованные решения. В качестве первого шага по работе с приложениями Finance and Operations необходимо ознакомиться с его возможностями и функциями, независимо от вашей желаемой роли. | Бесплатный путь онлайн-обучения в произвольном темпе   | 2 часов |
-| [Курс MB-900T01-A: Основы Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)  | Этот курс познакомит учащегося с функциональными возможностями и ценностью для бизнеса Dynamics 365. Курс охватывает приложения Dynamics 365, а также Power Platform, концепции облака, модель безопасности и вопросы лицензирования.  | Очные курсы с преподавателем или обучение по Интернету: стоимость зависит от региона и партнера | 1 день     |
+
 
 
 ## <a name="exam"></a>Экзамен<a name="exam"></a>

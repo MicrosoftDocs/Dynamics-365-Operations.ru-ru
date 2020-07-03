@@ -1820,6 +1820,32 @@
                   items:
                     - name: Обзор GST Индии
                       href: localizations/apac-ind-gst.md
+                    - name: Что нового и что изменилось для локализации GST Индии в Азиатско-Тихоокеанском регионе
+                      items:
+                        - name: Что нового и что изменилось в версии 10.0.0
+                          href: localizations/apac-ind-news-letter-10-0-00.md
+                        - name: Что нового и что изменилось в версии 10.0.01
+                          href: localizations/apac-ind-news-letter-10-0-01.md
+                        - name: Что нового и что изменилось в версии 10.0.02
+                          href: localizations/apac-ind-news-letter-10-0-02.md
+                        - name: Что нового и что изменилось в версии 10.0.03
+                          href: localizations/apac-ind-news-letter-10-0-03.md
+                        - name: Что нового и что изменилось в версии 10.0.04
+                          href: localizations/apac-ind-news-letter-10-0-04.md
+                        - name: Что нового и что изменилось в версии 10.0.05
+                          href: localizations/apac-ind-news-letter-10-0-05.md
+                        - name: Что нового и что изменилось в версии 10.0.06
+                          href: localizations/apac-ind-news-letter-10-0-06.md
+                        - name: Что нового и что изменилось в версии 10.0.07
+                          href: localizations/apac-ind-news-letter-10-0-07.md
+                        - name: Что нового и что изменилось в версии 10.0.08
+                          href: localizations/apac-ind-news-letter-10-0-08.md
+                        - name: Что нового и что изменилось в версии 10.0.09
+                          href: localizations/apac-ind-news-letter-10-0-09.md
+                        - name: Что нового и что изменилось в версии 10.0.10
+                          href: localizations/apac-ind-news-letter-10-0-10.md
+                        - name: Что нового и что изменилось в версии 10.0.11
+                          href: localizations/apac-ind-news-letter-10-0-11.md
                     - name: Эталонные группы GST Индии
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: Интеграция GST для контрольно-кассовых машин
@@ -2346,6 +2372,8 @@
                   href: localizations/emea-pol-interest-calculation.md
                 - name: Оборотно-сальдовая ведомость
                   href: localizations/emea-pol-turnover-balances-statement.md
+                - name: Разделение курсовой разницы для расчетов с поставщиками и расчетов с клиентами
+                  href: localizations/emea-pol-split-ap-ar-exchange-difference.md
             - name: Россия
               items:
                 - name: Обзор по России
@@ -3408,8 +3436,10 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
                         - name: Изменение и выполнение форматов для использования файлов управления документами
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                        - name: Отладка источников данных
-                          href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                    - name: Отладка источников данных
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                    - name: Использование штрихкода для формирования изображений штрихкода
+                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка сопоставлений моделей
                   items:
                     - name: Настройка сопоставлений моделей электронной отчетности (ER) с учетом контекста страны
@@ -3418,18 +3448,20 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
                 - name: Настройка форматов
                   items:
+                    - name: Выбор определений моделей при создании форматов
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: 'Настройка форматов ER для использования параметров, указанных для юридического лица'
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
                     - name: Настройка параметров формата ER для юридического лица
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                    - name: Выбор определений моделей при создании форматов
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: Отложенное выполнение элементов формата электронной отчетности
                       items:
                         - name: Отложенное выполнение элемента последовательности
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
                         - name: Отложенное выполнение XML-элемента
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                    - name: Разработка многоязычных отчетов
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Относительный путь в привязке данных
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Использование решений для электронной отчетности в Finance and Operations

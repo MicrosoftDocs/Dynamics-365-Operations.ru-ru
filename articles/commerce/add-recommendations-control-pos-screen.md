@@ -3,7 +3,7 @@ title: Добавление рекомендаций на экран прово�
 description: В этом разделе описывается, как добавить элемент управления рекомендациями на экране проводки устройства POS, используя конструктор макета экрана в Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/20
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a39389da0908953cbbc161f07d067ce3fc569a1b
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 760e6e093dbe0ba6b2781f90af7fbb614c492b93
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154140"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454587"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Добавление рекомендаций на экран проводки
 
@@ -100,7 +100,7 @@ ms.locfileid: "3154140"
 
 [Обзор рекомендаций по продуктам](product-recommendations.md)
 
-[Включение ADLS в среде Dynamics 365 Commerce](enable-adls-environment.md)
+[Включение Azure Data Lake Storage в среде Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Включить рекомендации по продуктам](enable-product-recommendations.md)
 

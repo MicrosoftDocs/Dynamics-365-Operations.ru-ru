@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2d65be5163e5dcb7971f04ebcad2fce55a06dad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010289"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443426"
 ---
 # <a name="overview"></a>Обзор
 
@@ -51,6 +51,8 @@ ms.locfileid: "3010289"
 
 - [Управление функциями](hr-admin-manage-features.md)
 
+- [Настройка и ведения журнала базы данных](hr-admin-database-logging.md)
+
 - Знакомство с пользовательским интерфейсом
   - [Элементы пользовательского интерфейса](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
   - [Специальные возможности](../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json)
@@ -75,7 +77,6 @@ ms.locfileid: "3010289"
 - Ресурсы документации
   - [Система справки](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [Подключение к системе справки](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [Подключение к пользовательскому сайту справки](../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json        )
   - [Просмотр и экспорт описаний полей](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
   - [Регистратор задач](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [Создание документации или учебных материалов с помощью регистратора задач](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
@@ -87,7 +88,7 @@ ms.locfileid: "3010289"
   - [Невозможно создать среду в центре администрирования Power Apps](hr-admin-troubleshooting-power-apps.md)
   - [Отключение клиента](hr-admin-troubleshooting-disconnect.md)
   - [Избегайте усечения текста в иерархии должностей](hr-admin-troubleshooting-truncate.md)
-  - [Запуска процесса компенсации](hr-admin-troubleshooting-compensation.md)
+  - [Запуск процесса компенсации](hr-admin-troubleshooting-compensation.md)
   - [Сохранение проводника по задаче в LCS](hr-admin-troubleshooting-task-guide.md)
   - [Доступ к личным адресам по роли безопасности](hr-admin-troubleshooting-private-addresses.md)
   - [Human Resources отсутствует в списке приложений Dynamics 365](hr-admin-troubleshooting-not-in-apps.md)

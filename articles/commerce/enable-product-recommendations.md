@@ -3,7 +3,7 @@ title: Включить рекомендации по продуктам
 description: В этой теме объясняется, как создать рекомендации продуктов, которые основаны на искусственном интеллекте и машинном обучении (AI-ML), доступном клиентам Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d38d7b0e98d84e23d7a51c5d8ee65df4a3b9e4a7
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 694e5a451b8e25f3729364dfaed0adc7d242f2fe
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259802"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404217"
 ---
 # <a name="enable-product-recommendations"></a>Включить рекомендации по продуктам
 
@@ -34,11 +34,11 @@ ms.locfileid: "3259802"
 
 ## <a name="recommendations-pre-check"></a>Предварительная проверка рекомендаций
 
-Перед включением обратите внимание, что рекомендации продуктов поддерживаются только для клиентов Commerce, перенесших свои хранилища с помощью Azure Data Lake Storage (ADLS). 
+Перед включением обратите внимание, что рекомендации продуктов поддерживаются только для клиентов Commerce, перенесших свои хранилища с помощью Azure Data Lake Storage. 
 
 Перед включением рекомендаций необходимо включить в бэк-офисе следующие конфигурации:
 
-1. Убедитесь, что ADLS было приобретено и успешно проверено в среде. Дополнительные сведения см. в разделе [Убедитесь, что ADLS было приобретено и успешно проверено в среде](enable-ADLS-environment.md).
+1. Убедитесь, что Azure Data Lake Storage было приобретено и успешно проверено в среде. Дополнительные сведения см. в разделе [Убедитесь, что Azure Data Lake Storage было приобретено и успешно проверено в среде](enable-ADLS-environment.md).
 2. Убедитесь, что обновление хранилища объектов было автоматизировано. Дополнительные сведения см. в разделе [Убедитесь, что обновление хранилища данных было автоматизировано](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 3. Убедитесь, что конфигурация удостоверения Azure AD содержит запись для рекомендаций. Дополнительные сведения о том, как выполнить это действие, см. ниже.
 
@@ -92,7 +92,7 @@ ms.locfileid: "3259802"
 
 [Обзор рекомендаций по продуктам](product-recommendations.md)
 
-[Включение ADLS в среде Dynamics 365 Commerce](enable-adls-environment.md)
+[Включение Azure Data Lake Storage в среде Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Включение персонализированных рекомендаций](personalized-recommendations.md)
 

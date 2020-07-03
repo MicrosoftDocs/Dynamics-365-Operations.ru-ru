@@ -3,7 +3,7 @@ title: Создание рекомендаций с помощью демонс�
 description: В этой теме приводятся инструкции по использованию омниканальных рекомендаций по продуктам в среде уровня 1 с одним блоком, используя готовые настраиваемые демонстрационные данные.
 author: bebeale
 manager: AnnBe
-ms.date: 03/30/20
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec23461352abc53b90b6af539a3dd1764e4b5460
-ms.sourcegitcommit: 67cf9e2cf0f75e90526cae6bf176a40156c62a53
+ms.openlocfilehash: 59b4dd7a29af739d92a20f6fe55eff9f201fcb6d
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175557"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454564"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Создание рекомендаций с помощью демонстрационных данных
 
@@ -71,7 +71,7 @@ ms.locfileid: "3175557"
 
 [Обзор рекомендаций по продуктам](product-recommendations.md)
 
-[Включение ADLS в среде Dynamics 365 Commerce](enable-adls-environment.md)
+[Включение Azure Data Lake Storage в среде Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Включить рекомендации по продуктам](enable-product-recommendations.md)
 

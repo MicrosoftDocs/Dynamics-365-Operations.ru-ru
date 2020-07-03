@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388124"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431138"
 ---
 # <a name="human-resources-app-in-teams"></a>Приложение Human Resources в Teams
 
@@ -45,6 +45,7 @@ ms.locfileid: "3388124"
 
 | Расход | Состояние |
 | --- | --- |
+| Ошибка: обнаружена проблема при поиске среды для подключения. | Эта ошибка может появиться даже в том случае, если известно, что пользователь может получить доступ к одной или нескольким средам Human Resources. Кроме того, могут не отображаться все ожидаемые среды. До тех пор, пока проблема не исправлена, удалите пользователя и повторите импорт для решения проблемы. |
 | Неверное сальдо при подаче запроса на отпуск для будущей даты. | Прогнозирование пока недоступно. Сальдо отображается для текущей даты. |
 | При уменьшении количества часов, взятых в существующем запросе, **Остаток сальдо** уменьшается вместо увеличения. | Мы решим эту известную проблему в будущем. Отображение неверно, но правильные суммы корректируются при отправке. |
 | Две карточки **предстоящих отпусков** отображаются для одних и тех же дат. | Карточки представляют собой отдельные отправки. Мы будем продолжать получать отзывы и корректировки. |

@@ -3,7 +3,7 @@ title: Работа с сериализованными номенклатура
 description: В этой теме объясняется, как управлять сериализованными номенклатурами в приложении POS.
 author: boycezhu
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 05/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,17 +15,16 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 1e0d6aa7cd5576578378e70c6ee808833314aff3
-ms.sourcegitcommit: 919620b4aca425e6a1248ee12f50a622d2531e58
+ms.openlocfilehash: eedb64ae04345cb94bdd8cc68de833cfcfd40119
+ms.sourcegitcommit: 39981582778b0a62567324452485a6721ca18284
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "3290778"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3407506"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Работа с сериализованными номенклатурами в POS
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Многие розничные компании продают продукцию, требующую контроля серийного номера. Такие номенклатуры называются *сериализованными номенклатурами*. У некоторых розничных продавцов может возникнуть необходимость в поддержке серийных номеров для целей отслеживания. Другие розничные предприятия могут получать серийные номера в процессе продаж (для целей обслуживания и гарантии). В этой теме объясняется, как управлять сериализованными номенклатурами в приложении Microsoft Dynamics 365 Commerce POS.
 

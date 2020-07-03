@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции Dynamics 36
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 05/04/2020
+ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: c47c5430a8f5d67e13c95db609a95d5ad66933ae
-ms.sourcegitcommit: a8b6cd799eddaf5be9aec9ea3c2b55e2c3231652
+ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3335284"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443926"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Удаленные или устаревшие функции Dynamics 365 Commerce
 
@@ -35,6 +35,16 @@ ms.locfileid: "3335284"
 
 > [!NOTE]
 > Подробные сведения об объектах в приложениях Finance and Operations можно найти в документе [Технический справочник по отчетам](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Можно сравнить различные версии этих отчетов, чтобы получить сведения об объектах, которые были изменены или были исключены в каждой версии приложений Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Функции, удаленные или устаревшие в выпуске Commerce 10.0.11
+### <a name="data-action-hooks"></a>Обработчики действий с данными
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Функция перехватчиков действий с данными устарела из-за проблем с производительностью. |
+| **Заменена другой функцией?**   | Рекомендуется вместо этого использовать [переопределения действий данных](../e-commerce-extensibility/data-action-overrides.md) для изменения бизнес-логики на уровне действий с данными.|
+| **Затрагиваемые области продукта**         | Действия данных расширяемости электронной коммерции |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устарело: на момент выпуска 10.0.11 |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10010-release"></a>Функции, удаленные или устаревшие в выпуске Commerce 10.0.10
 ### <a name="pos-operation-803---picking-and-receiving"></a>Операций POS 803 — Комплектация и получение

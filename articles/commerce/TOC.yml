@@ -74,7 +74,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Обновление и поддержка N-1
               items:
-                - name: Обновление и поддержка N-1 для Retail
+                - name: Обновление и поддержка N-1 для Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Установка, настройка и переключение поэтапного выпуска (N-1)'
                   href: dev-itpro/n-1-installation-configuration.md
@@ -94,8 +94,6 @@
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (май 2020 г.)
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: Commerce 10.0.9 (апрель 2020 г.)
-                      href: get-started/whats-new-10-0-9.md
                 - name: Удаленные или устаревшие функции
                   items:
                     - name: Удаленные или устаревшие функции в Finance and Operations
@@ -502,8 +500,10 @@
                       href: dev-itpro/adyen-connector.md
                     - name: Сохранение интерактивных платежных инструментов с помощью соединителя Adyen
                       href: dev-itpro/adyen-connector-listPI.md
-                    - name: Strong Customer Authentication (SCA) с помощью соединителя Adyen
+                    - name: Строгая проверка подлинности клиентов (SCA) с помощью соединителя Adyen
                       href: adyen_redirect.md
+                    - name: Выделенные платежные терминалы и запросы на принтер и кассовый лоток
+                      href: pos-multi-hws.md
                     - name: Бесперебойное автономное переключение для операций подарочных сертификатов и кредит-нот
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Настройка сценариев оплаты накладных
@@ -566,12 +566,16 @@
                       href: set-up-assortments.md
                     - name: Управление ассортиментами
                       href: tasks/manage-assortments-2016-11.md
-                - name: Штрих-коды
+                - name: Штрихкоды
                   items:
-                    - name: Настройка штрих-кодов
+                    - name: Настройка штрихкодов
                       href: set-up-bar-codes.md
-                    - name: Настройка масок штрих-кодов
+                    - name: Настройка масок штрихкодов
                       href: set-up-bar-code-masks.md
+                - name: Гарантии
+                  items:
+                    - name: Создание и настройка расширенных гарантий
+                      href: extended-warranty.md
             - name: Цены и скидки
               items:
                 - name: Скидки
@@ -974,7 +978,7 @@
                       href: cart-icon-module.md
                     - name: Модуль оформления заказа
                       href: add-checkout-module.md
-                    - name: Модуль подтверждения заказа
+                    - name: Модуль сведений о заказе
                       href: order-confirmation-module.md
                     - name: Модуль выбора магазина
                       href: store-selector.md
@@ -1896,6 +1900,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Настройка файла среды разработки (.env)
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: Отладка в среде развертывания Commerce уровня 1
+                      href: e-commerce-extensibility/debug-tier-1.md
                     - name: Настройка совместного использования кода Azure DevOps и создание конвейера сборки
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Обзор платформы
@@ -2028,6 +2034,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: 'Разработка в среде разработки, размещенной в облаке, без доступа администратора'
                   href: dev-itpro/cloud-dev-box.md
+                - name: Настройка конвейера сборки Commerce SDK
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
             - name: Расширяемость POS
               items:
                 - name: Макеты экрана POS
