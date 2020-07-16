@@ -74,11 +74,9 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (июль 2020 г.)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (май 2020 г.)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Удаленные или устаревшие функции
                   items:
-                    - name: Удаленные или устаревшие функции Dynamics 365 Supply Chain Management
+                    - name: Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Удаленные или устаревшие функции в предыдущих выпусках
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
@@ -2565,192 +2563,230 @@
           items:
             - name: Обзор управления складом
               href: warehousing/warehouse-management-overview.md
-            - name: Конфигурация склада
+            - name: Входящие складские операции
               items:
-                - name: Обзор конфигурации склада
-                  href: warehousing/warehouse-configuration.md
-                - name: Настройка склада с использованием шаблона конфигурации склада
-                  href: inventory/warehouse-template.md
-                - name: Управление работой с помощью шаблонов работ и директив ячеек
-                  href: warehousing/control-warehouse-location-directives.md
-                - name: Коды шагов волны
-                  href: warehousing/wave-step-codes.md
-                - name: Настройка обработки волн
-                  href: warehousing/tasks/configure-wave-processing.md
-                - name: Автообновление отгрузок
-                  href: warehousing/auto-update-shipment.md
-                - name: Создание профиля ячейки
-                  href: warehousing/tasks/create-location-profile.md
-                - name: 'Настройка ячейки на складе, на котором включена система WMS'
-                  href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
-                - name: Планирование использования загрузки
-                  href: warehousing/schedule-load-utilization.md
-                - name: Планирование мощности загрузки
-                  href: warehousing/schedule-workload-capacity.md
-                - name: Настройка кодов методов обработки
-                  href: warehousing/tasks/set-up-dispositions-codes.md
-                - name: Единица измерения и политики хранения
-                  href: warehousing/unit-measure-stocking-policies.md
-                - name: Содержимое Power BI для склада
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
-                - name: Системная группировка в списке открытых работ
-                  href: warehousing/system-group-on-open-work-list.md
-                - name: Макет маршрутизации документов для наклеек грузомест
-                  href: warehousing/document-routing-layout-for-license-plates.md
-                - name: Сканирование штрих-кодов с помощью камеры в Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Поддержка мобильных устройств чтения штрих-кодов
-                  href: warehousing/mobile-barcode-support.md
-                - name: Настройка склада для заказов на перемещение
-                  href: warehousing/transfer-orders-warehouse.md
-            - name: Резервирование в модуле "Управление складом"
+                - name: Поступления для регистрации и размещения
+                  items:
+                    - name: Складская обработка входящих загрузок для заказов на покупку
+                      href: warehousing/inbound-load-handling.md
+                    - name: Регистрация номенклатур для расширенных складских процессов с использованием журнала прихода номенклатуры
+                      href: warehousing/tasks/register-items-advanced-warehousing.md
+                    - name: Регистрация номенклатур для базовых складских процессов с использованием журнала прихода номенклатуры
+                      href: warehousing/tasks/register-items-basic-warehousing.md
+                    - name: Кросс-докинг продуктов со склада приемки в магазины
+                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                    - name: Настройка директивы местонахождения для размещения заказа на покупку
+                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                    - name: Настройка рабочего шаблона для заказов на покупку
+                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                    - name: Смешивание аналитик продуктов в местонахождении
+                      href: warehousing/location-product-dimension-mixing.md
+            - name: Исходящие складские операции
               items:
-                - name: Гибкая политика резервирования аналитик на уровне склада
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-            - name: Политики работы склада
-              items:
-                - name: Обзор политик работы склада
-                  href: warehousing/warehouse-work-policies.md
-                - name: Настройка политик работы склада
-                  href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
-                - name: Перемещение запасов со связанной работой в модуле "Управление складом"
-                  href: warehousing/move-inventory-associated-work.md
-                - name: Создание класса работ
-                  href: warehousing/tasks/create-work-class.md
-                - name: Управление работниками склада
-                  href: warehousing/manage-warehouse-workers.md
-                - name: Отложенная обработка работ склада
-                  href: warehousing/deferred-put.md
-            - name: Кросс-докинг
-              items:
-                - name: Кросс-докинг из производственных заказов в дебаркадеры отгрузки
-                  href: production-control/cross-docking-opportunities.md
-                - name: Автоматический отпуск и отгрузка для кросс-докинга
-                  href: warehousing/auto-release-shipment-for-cross-docking.md
-            - name: Частичный отпуск и частичная отгрузка
-              items:
-                - name: Частичная отгрузка загрузки транспорта
-                  href: warehousing/partial-shipping-of-transport-loads.md
-                - name: Пакетный выпуск частично зарезервированных заказов на перемещение
-                  href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-            - name: Комплектация и упаковка
-              items:
-                - name: Настройка комплектации кластера
-                  href: warehousing/set-up-cluster-picking.md
-                - name: Настройка контейнеризации
-                  href: warehousing/tasks/set-up-containerization.md
-                - name: Подтверждение партии и грузоместа
-                  href: warehousing/batch-and-license-plate-confirmation.md
-                - name: Включение печати меток грузомест
-                  href: warehousing/tasks/license-plate-label-printing.md
-                - name: Сканирование штрих-кодов с помощью камеры в Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Поштучное подтверждение комплектации
-                  href: warehousing/piece-picking-confirmation.md
-                - name: Упаковочные материалы и сборы
-                  href: warehousing/pack-materials-packing-material-fees.md
-                - name: Настойка упаковки вручную (только версии от февраля и мая 2016 г.)
-                  href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
-                - name: Настройка перераспределения номенклатур для недоукомплектованности
-                  href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                - name: Отмена работы склада для обработки исключений
-                  href: warehousing/cancel-warehouse-work.md
-                - name: 'Комплектация кластера, управляемая системой'
-                  href: warehousing/system-directed-cluster-pick.md
-                - name: Группировка строк комплектации
-                  href: warehousing/pick-line-grouping.md
-            - name: Инвентаризация запасов
-              items:
-                - name: Коды оснований для инвентаризации запасов
-                  href: warehousing/reason-codes-for-counting-journals.md
-                - name: Блокирование запасов
-                  href: inventory/inventory-blocking.md
-                - name: Цикличный подсчет
-                  href: warehousing/cycle-counting.md
-                - name: Определение цикличного подсчета
-                  href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
-                - name: Частичный цикличный подсчет по ячейкам
-                  href: warehousing/partial-location-cycle-counting.md
-                - name: Определение процесса частичного цикличного подсчета по местонахождениям
-                  href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                - name: Задание очистки записей в наличии для управления складом
-                  href: warehousing/onhand-cleanup.md
-                - name: Журнал запасов
-                  href: inventory/inventory-journals.md
-                - name: Место хранения
-                  href: inventory/inventory-locations.md
-                - name: Статус запасов
-                  href: inventory/inventory-statuses.md
-                - name: Меченная инвентаризация запасов
-                  href: inventory/inventory-tag-counting.md
-            - name: Пополнение
-              items:
-                - name: Обзор пополнения
-                  href: warehousing/replenishment.md
-                - name: Немедленное пополнение
-                  href: warehousing/immediate-replenishment.md
-                - name: Пополнение канбанами изъятия
-                  href: warehousing/material-replenishment-withdrawal-kanban.md
-                - name: Настройка процесса пополнения "Мин./Макс."
-                  href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: Установка и настройка складского приложения
-              items:
-                - name: Установка и подключение складского приложения
-                  href: warehousing/install-configure-warehousing-app.md
-                - name: Настройка имен полей в складском приложении
-                  href: warehousing/configure-app-field-names-priorities-warehouse.md
-                - name: Настройка мобильных устройств для работы склада
-                  href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Получение грузомест с помощью приложения склада
-                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку
-                  href: warehousing/tasks/set-up-mobile-device-menu.md
-                - name: Настройка пункта меню мобильного устройства для регистрации полученных номенклатур
-                  href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                - name: Создание пункта меню мобильного устройства для консолидации грузомест
-                  href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                - name: Получение грузоместа со смешанными номенклатурами на мобильном устройстве
-                  href: warehousing/mixed-license-plate-receiving.md
-                - name: Настройка отображения более старых партий на складе на мобильном устройстве
-                  href: warehousing/display-older-batches-within-warehouses.md
-                - name: Комплектация самой старой партии на мобильном устройстве
-                  href: warehousing/pick-oldest-batch.md
-                - name: Структура руководства по процессу
-                  href: warehousing/process-guide-framework.md
-            - name: Обновление и миграция
-              items:
-                - name: Обновление процессов управления складом с Microsoft Dynamics AX 2012 до Finance and Operations
-                  href: warehousing/upgrade-migration-warehouse-management-processes.md
-            - name: Поступления для регистрации и размещения
-              items:
-                - name: Складская обработка входящих загрузок для заказов на покупку
-                  href: warehousing/inbound-load-handling.md
-                - name: Регистрация номенклатур для расширенных складских процессов с использованием журнала прихода номенклатуры
-                  href: warehousing/tasks/register-items-advanced-warehousing.md
-                - name: Регистрация номенклатур для базовых складских процессов с использованием журнала прихода номенклатуры
-                  href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Кросс-докинг продуктов со склада приемки в магазины
-                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                - name: Настройка директивы местонахождения для размещения заказа на покупку
-                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: Настройка рабочего шаблона для заказов на покупку
-                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
-            - name: Политики консолидации отгрузок
-              items:
+                - name: Резервирование в модуле "Управление складом"
+                  items:
+                    - name: Гибкая политика резервирования аналитик на уровне склада
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: Частичный отпуск и частичная отгрузка
+                  items:
+                    - name: Частичная отгрузка загрузки транспорта
+                      href: warehousing/partial-shipping-of-transport-loads.md
+                    - name: Пакетный выпуск частично зарезервированных заказов на перемещение
+                      href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                - name: Комплектация и упаковка
+                  items:
+                    - name: Настройка комплектации кластера
+                      href: warehousing/set-up-cluster-picking.md
+                    - name: Настройка контейнеризации
+                      href: warehousing/tasks/set-up-containerization.md
+                    - name: Подтверждение партии и грузоместа
+                      href: warehousing/batch-and-license-plate-confirmation.md
+                    - name: Включение печати меток грузомест
+                      href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Сканирование штрих-кодов с помощью камеры в Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Поштучное подтверждение комплектации
+                      href: warehousing/piece-picking-confirmation.md
+                    - name: Упаковочные материалы и сборы
+                      href: warehousing/pack-materials-packing-material-fees.md
+                    - name: Настойка упаковки вручную (только версии от февраля и мая 2016 г.)
+                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: Настройка перераспределения номенклатур для недоукомплектованности
+                      href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                    - name: Отмена работы склада для обработки исключений
+                      href: warehousing/cancel-warehouse-work.md
+                    - name: 'Комплектация кластера, управляемая системой'
+                      href: warehousing/system-directed-cluster-pick.md
+                    - name: 'Последовательность работ, управляемая системой'
+                      href: warehousing/system-directed-work-sequencing.md
+                    - name: Группировка строк комплектации
+                      href: warehousing/pick-line-grouping.md
+                    - name: Слоттинг на складе
+                      href: warehousing/warehouse-slotting.md
+                - name: Пополнение
+                  items:
+                    - name: Обзор пополнения
+                      href: warehousing/replenishment.md
+                    - name: Немедленное пополнение
+                      href: warehousing/immediate-replenishment.md
+                    - name: Пополнение канбанами изъятия
+                      href: warehousing/material-replenishment-withdrawal-kanban.md
+                    - name: Настройка процесса пополнения "Мин./Макс."
+                      href: warehousing/tasks/set-up-min-max-replenishment-process.md
+                    - name: Пополнение порога зоны
+                      href: warehousing/zone-threshold-replenishment.md
+                - name: Формирование загрузок и отгрузок
+                  items:
+                    - name: Подтверждение и перенос
+                      href: warehousing/confirm-and-transfer.md
+                    - name: Расширенное формирование загрузок во время волны
+                      href: warehousing/advanced-load-building-during-wave.md
+                    - name: Правило выпуска на склад
+                      href: warehousing/release-to-warehouse-rule.md
+                    - name: Группировка шаблонов волны
+                      href: warehousing/wave-template-grouping.md
                 - name: Политики консолидации отгрузок
-                  href: warehousing/about-shipment-consolidation-policies.md
-                - name: Настройка политик консолидации отгрузок
-                  href: warehousing/configure-shipment-consolidation-policies.md
-                - name: 'Сценарий 1: отгрузки консолидируются, когда они выпускаются на склад, с помощью автоматического выпуска заказов на продажу'
-                  href: warehousing/consolidate-shipments-automatic.md
-                - name: 'Сценарий 2: отгрузки консолидируются, когда политика консолидации отгрузок переопределяется на странице "Выпуск на склад"'
-                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                - name: 'Сценарий 3: отгрузки консолидируются при использовании функции "Выпуск на склад" на рабочем месте планирования загрузки'
-                  href: warehousing/consolidate-shipments-load-planning-workbench.md
-                - name: 'Случай 4: отгрузки консолидируются с помощью рабочего места консолидации отгрузок'
-                  href: warehousing/consolidate-shipments-manual-workbench.md
-                - name: 'Случай 5: отгрузки консолидируются вручную на странице консолидации отгрузок'
-                  href: warehousing/consolidate-shipments-manual-form.md
+                  items:
+                    - name: Политики консолидации отгрузок
+                      href: warehousing/about-shipment-consolidation-policies.md
+                    - name: Настройка политик консолидации отгрузок
+                      href: warehousing/configure-shipment-consolidation-policies.md
+                    - name: 'Сценарий 1: отгрузки консолидируются, когда они выпускаются на склад, с помощью автоматического выпуска заказов на продажу'
+                      href: warehousing/consolidate-shipments-automatic.md
+                    - name: 'Сценарий 2: отгрузки консолидируются, когда политика консолидации отгрузок переопределяется на странице "Выпуск на склад"'
+                      href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                    - name: 'Сценарий 3: отгрузки консолидируются при использовании функции "Выпуск на склад" на рабочем месте планирования загрузки'
+                      href: warehousing/consolidate-shipments-load-planning-workbench.md
+                    - name: 'Случай 4: отгрузки консолидируются с помощью рабочего места консолидации отгрузок'
+                      href: warehousing/consolidate-shipments-manual-workbench.md
+                    - name: 'Случай 5: отгрузки консолидируются вручную на странице консолидации отгрузок'
+                      href: warehousing/consolidate-shipments-manual-form.md
+            - name: Между складскими операциями
+              items:
+                - name: Политики работы склада
+                  items:
+                    - name: Обзор политик работы склада
+                      href: warehousing/warehouse-work-policies.md
+                    - name: Настройка политик работы склада
+                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
+                    - name: Перемещение запасов со связанной работой в модуле "Управление складом"
+                      href: warehousing/move-inventory-associated-work.md
+                    - name: Создание класса работ
+                      href: warehousing/tasks/create-work-class.md
+                    - name: Управление работниками склада
+                      href: warehousing/manage-warehouse-workers.md
+                    - name: Отложенная обработка работ склада
+                      href: warehousing/deferred-put.md
+                - name: Кросс-докинг
+                  items:
+                    - name: Кросс-докинг из производственных заказов в дебаркадеры отгрузки
+                      href: production-control/cross-docking-opportunities.md
+                    - name: Автоматический отпуск и отгрузка для кросс-докинга
+                      href: warehousing/auto-release-shipment-for-cross-docking.md
+                    - name: Плановый кросс-докинг
+                      href: warehousing/planned-cross-docking.md
+                - name: Инвентаризация запасов
+                  items:
+                    - name: Коды оснований для инвентаризации запасов
+                      href: warehousing/reason-codes-for-counting-journals.md
+                    - name: Блокирование запасов
+                      href: inventory/inventory-blocking.md
+                    - name: Цикличный подсчет
+                      href: warehousing/cycle-counting.md
+                    - name: Определение цикличного подсчета
+                      href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
+                    - name: Частичный цикличный подсчет по ячейкам
+                      href: warehousing/partial-location-cycle-counting.md
+                    - name: Определение процесса частичного цикличного подсчета по местонахождениям
+                      href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Задание очистки записей в наличии для управления складом
+                      href: warehousing/onhand-cleanup.md
+                    - name: Журнал запасов
+                      href: inventory/inventory-journals.md
+                    - name: Место хранения
+                      href: inventory/inventory-locations.md
+                    - name: Статус запасов
+                      href: inventory/inventory-statuses.md
+                    - name: Меченная инвентаризация запасов
+                      href: inventory/inventory-tag-counting.md
+                - name: Работа склада
+                  items:
+                    - name: Сведения строки работы
+                      href: warehousing/work-line-details.md
+                    - name: Позиционирование грузоместа в местонахождении
+                      href: warehousing/location-license-plate-positioning.md
+            - name: Настройка склада
+              items:
+                - name: Конфигурация склада
+                  items:
+                    - name: Обзор конфигурации склада
+                      href: warehousing/warehouse-configuration.md
+                    - name: Настройка склада с использованием шаблона конфигурации склада
+                      href: inventory/warehouse-template.md
+                    - name: Управление работой с помощью шаблонов работ и директив ячеек
+                      href: warehousing/control-warehouse-location-directives.md
+                    - name: Коды шагов волны
+                      href: warehousing/wave-step-codes.md
+                    - name: Настройка обработки волн
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: Автообновление отгрузок
+                      href: warehousing/auto-update-shipment.md
+                    - name: Создание профиля местонахождения
+                      href: warehousing/tasks/create-location-profile.md
+                    - name: 'Настройка местонахождений на складе, на котором включена система настройки управления складом'
+                      href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
+                    - name: Статус местонахождения на складе
+                      href: warehousing/warehouse-location-status.md
+                    - name: Дополнительные зоны местонахождения
+                      href: warehousing/additional-location-zones.md
+                    - name: Планирование использования загрузки
+                      href: warehousing/schedule-load-utilization.md
+                    - name: Планирование мощности загрузки
+                      href: warehousing/schedule-workload-capacity.md
+                    - name: Настройка кодов методов обработки
+                      href: warehousing/tasks/set-up-dispositions-codes.md
+                    - name: Единица измерения и политики хранения
+                      href: warehousing/unit-measure-stocking-policies.md
+                    - name: Содержимое Power BI для склада
+                      href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
+                    - name: Системная группировка в списке открытых работ
+                      href: warehousing/system-group-on-open-work-list.md
+                    - name: Макет маршрутизации документов для наклеек грузомест
+                      href: warehousing/document-routing-layout-for-license-plates.md
+                    - name: Сканирование штрих-кодов с помощью камеры в Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Поддержка мобильных устройств чтения штрих-кодов
+                      href: warehousing/mobile-barcode-support.md
+                    - name: Настройка склада для заказов на перемещение
+                      href: warehousing/transfer-orders-warehouse.md
+                - name: Установка и настройка приложения склада
+                  items:
+                    - name: Установка и подключение приложения склада
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Настройка имен полей в приложении склада
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Настройка мобильных устройств для работы склада
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Получение грузомест с помощью приложения склада
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Настройка пункта меню мобильного устройства для регистрации полученных номенклатур
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Создание пункта меню мобильного устройства для консолидации грузомест
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Получение грузоместа со смешанными номенклатурами на мобильном устройстве
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Настройка отображения более старых партий на складе на мобильном устройстве
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Комплектация самой старой партии на мобильном устройстве
+                      href: warehousing/pick-oldest-batch.md
+                    - name: Структура руководства по процессу
+                      href: warehousing/process-guide-framework.md
+                - name: Обновление и миграция
+                  items:
+                    - name: Обновление процессов управления складом с Microsoft Dynamics AX 2012 до Finance and Operations
+                      href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Разработка модуля Supply Chain Management
           items:
             - name: Руководство по разработке элемента управления Ганта

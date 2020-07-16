@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Обновления платформы для 10.0.11 (июль 2020 г.)
                   href: get-started/whats-new-platform-update-35.md
-                - name: Обновления платформы для 10.0.10 (май 2020 г.)
-                  href: get-started/whats-new-platform-update-34.md
             - name: Удаленные или устаревшие функции
               items:
                 - name: Удаленные или устаревшие функции платформы
@@ -713,9 +711,29 @@
                         - name: События
                           href: dev-ref/xpp-events.md
                     - name: Выбор данных и манипуляции с данными в X++
-                      href: dev-ref/xpp-data-query.md
-                    - name: Работа с данными через API SysDa
-                      href: dev-ref/sysda.md
+                      items:
+                        - name: Обзор выбора данных и манипуляции с данными в X++
+                          href: dev-ref/xpp-data/xpp-data-home-page.md
+                        - name: Выбор выписки
+                          href: dev-ref/xpp-data/xpp-select-statement.md
+                        - name: Выбор данных
+                          href: dev-ref/xpp-data/xpp-select.md
+                        - name: Вставка данных
+                          href: dev-ref/xpp-data/xpp-insert.md
+                        - name: Обновление данных
+                          href: dev-ref/xpp-data/xpp-update.md
+                        - name: Удаление данных
+                          href: dev-ref/xpp-data/xpp-delete.md
+                        - name: Оператор while select
+                          href: dev-ref/xpp-data/xpp-while-select.md
+                        - name: Запись оператора select как выражения
+                          href: dev-ref/xpp-data/xpp-select-expression.md
+                        - name: Целостность проводок
+                          href: dev-ref/xpp-data/xpp-transaction.md
+                        - name: Преобразование из операций на основе набора в операции по записям
+                          href: dev-ref/xpp-data/xpp-data-perf.md
+                        - name: Работа с данными через API SysDa
+                          href: dev-ref/sysda.md
                     - name: Макросы в X++
                       href: dev-ref/xpp-macros.md
                     - name: Классы атрибутов в X++
@@ -754,76 +772,58 @@
                   href: dev-ref/system-tables.md
                 - name: Системные классы
                   items:
-                    - name: Классы A
-                      href: dev-ref/a-classes.md
-                    - name: Классы B
-                      href: dev-ref/b-classes.md
-                    - name: Классы C
-                      href: dev-ref/c-classes.md
-                    - name: Классы D
-                      href: dev-ref/d-classes.md
-                    - name: Классы E
-                      href: dev-ref/e-classes.md
-                    - name: Классы F (от FieldBinding до FormBuildAnimateControl)
-                      href: dev-ref/fieldbinding-classes.md
-                    - name: Классы F (от FormBuildButtonControl до FormBuildFastTabSummarySeparator)
-                      href: dev-ref/formbuildbuttoncontrol-classes.md
-                    - name: Классы F (от FormBuildFilterPaneControl до FormBuildRealControl)
-                      href: dev-ref/formbuildfilterpanecontrol-classes.md
-                    - name: Классы F (от FormBuildReferenceControl до FormButtonSeparatorControl)
-                      href: dev-ref/formbuildreferencecontrol-classes.md
-                    - name: Классы F (от FormChangeTracker до FormControlEventArgs)
-                      href: dev-ref/formchangetracker-classes.md
-                    - name: Классы F (от FormDataObject до FormFastTabHeaderControl)
-                      href: dev-ref/formdataobject-classes.md
-                    - name: Классы F (от FormFastTabSummarySeparator до FormGridControl)
-                      href: dev-ref/formfasttabsummaryseparator-classes.md
-                    - name: Классы F (от FormGroupControl до FormIntControl)
-                      href: dev-ref/formgroupcontrol-classes.md
-                    - name: Классы F (от FormListBoxControl до FormNotifyEventArgs)
-                      href: dev-ref/formlistboxcontrol-classes.md
-                    - name: Классы F (от FormObject до FormRealControl)
-                      href: dev-ref/formobject-classes.md
-                    - name: Классы F (от FormReferenceControl до FormStringControl)
-                      href: dev-ref/formreferencecontrol-classes.md
-                    - name: Классы F (от FormTabControl до FormWindowControl)
-                      href: dev-ref/formtabcontrol-classes.md
-                    - name: Классы G
-                      href: dev-ref/g-classes.md
-                    - name: Классы H
-                      href: dev-ref/h-classes.md
-                    - name: Классы I
-                      href: dev-ref/i-classes.md
-                    - name: Классы J
-                      href: dev-ref/j-classes.md
-                    - name: Классы K
-                      href: dev-ref/k-classes.md
-                    - name: Классы L
-                      href: dev-ref/l-classes.md
-                    - name: Классы M
-                      href: dev-ref/m-classes.md
-                    - name: Классы N
-                      href: dev-ref/n-classes.md
-                    - name: Классы O
-                      href: dev-ref/o-classes.md
-                    - name: Классы P
-                      href: dev-ref/p-classes.md
-                    - name: Классы Q
-                      href: dev-ref/q-classes.md
-                    - name: Классы R
-                      href: dev-ref/r-classes.md
-                    - name: Классы S
-                      href: dev-ref/s-classes.md
-                    - name: Классы T
-                      href: dev-ref/t-classes.md
-                    - name: Классы U
-                      href: dev-ref/u-classes.md
-                    - name: Классы V
-                      href: dev-ref/v-classes.md
-                    - name: Классы W
-                      href: dev-ref/w-classes.md
-                    - name: Классы X
-                      href: dev-ref/x-classes.md
+                    - name: Список системных классов
+                      href: dev-ref/system-classes/toc.yml
+                    - name: 'Системные классы, сгруппированные по алфавиту'
+                      items:
+                        - name: Классы A
+                          href: dev-ref/a-classes.md
+                        - name: Классы B
+                          href: dev-ref/b-classes.md
+                        - name: Классы C
+                          href: dev-ref/c-classes.md
+                        - name: Классы D
+                          href: dev-ref/d-classes.md
+                        - name: Классы E
+                          href: dev-ref/e-classes.md
+                        - name: Классы F
+                          href: dev-ref/f-classes.md
+                        - name: Классы G
+                          href: dev-ref/g-classes.md
+                        - name: Классы H
+                          href: dev-ref/h-classes.md
+                        - name: Классы I
+                          href: dev-ref/i-classes.md
+                        - name: Классы J
+                          href: dev-ref/j-classes.md
+                        - name: Классы K
+                          href: dev-ref/k-classes.md
+                        - name: Классы L
+                          href: dev-ref/l-classes.md
+                        - name: Классы M
+                          href: dev-ref/m-classes.md
+                        - name: Классы N
+                          href: dev-ref/n-classes.md
+                        - name: Классы O
+                          href: dev-ref/o-classes.md
+                        - name: Классы P
+                          href: dev-ref/p-classes.md
+                        - name: Классы Q
+                          href: dev-ref/q-classes.md
+                        - name: Классы R
+                          href: dev-ref/r-classes.md
+                        - name: Классы S
+                          href: dev-ref/s-classes.md
+                        - name: Классы T
+                          href: dev-ref/t-classes.md
+                        - name: Классы U
+                          href: dev-ref/u-classes.md
+                        - name: Классы V
+                          href: dev-ref/v-classes.md
+                        - name: Классы W
+                          href: dev-ref/w-classes.md
+                        - name: Классы X
+                          href: dev-ref/x-classes.md
             - name: Расширяемость
               items:
                 - name: Домашняя страница расширяемости
@@ -1434,6 +1434,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: Экспорт пользователей B2B в Azure AD
               href: sysadmin/implement-b2b.md
+            - name: Автоматизация процессов
+              href: sysadmin/process-automation.md
             - name: Безопасность
               items:
                 - name: Безопасность на основе ролей
@@ -1458,6 +1460,8 @@
                   href: sysadmin/tasks/assign-users-security-roles.md
                 - name: Диагностика безопасности для записей задач
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: Автоматизация процессов
+              href: /sysadmin/process-automation.md
             - name: Пакетная обработка
               items:
                 - name: Обзор пакетной обработки
@@ -1518,6 +1522,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: Обновление AX 2012 — обновление данных в средах "песочницы"
                   href: migration-upgrade/upgrade-data-sandbox.md
+                - name: Обновление AX 2012 — локальные среды
+                  href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: Обновление AX 2012 — тестирование переключения
                   href: migration-upgrade/upgrade-cutover-testing.md
                 - name: Обновление AX 2012 — задачи после обновления
