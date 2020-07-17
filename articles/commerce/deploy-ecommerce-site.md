@@ -3,7 +3,7 @@ title: Развертывание нового клиента электронн
 description: В этом разделе описывается, как развернуть новый клиент электронной коммерции, используя службы Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3febd3ca36f4d517033e910c4087ad3a6ffff35a
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 00f35b516dbf6ab4d4d9171c84a16b89f6afe832
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269943"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533283"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Развертывание нового клиента электронной коммерции
 
@@ -96,8 +96,6 @@ Microsoft Dynamics Lifecycle Services (LCS) — это рабочая облас
 [Настройка доменного имени](configure-your-domain-name.md)
 
 [Создание сайта электронной коммерции](create-ecommerce-site.md)
-
-[Настройка канала интернет-магазина](online-stores.md)
 
 [Связывание веб-сайта с каналом](associate-site-online-store.md)
 

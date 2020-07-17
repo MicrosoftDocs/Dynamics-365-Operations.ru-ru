@@ -1,9 +1,9 @@
 ---
 title: Обзор поиска на облачной платформе
 description: В этой теме содержится обзор поиска на облачной платформе в Microsoft Dynamics 365 Commerce.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057841"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527451"
 ---
 # <a name="cloud-powered-search-overview"></a>Обзор поиска на облачной платформе
 
@@ -73,8 +73,12 @@ Dynamics 365 Commerce также поддерживает функциональ
 
 Улучшенная сортировка Dynamics 365 Commerce позволяет клиентам сортировать, искать и просматривать результаты поиска и уточнять их по критериям, таким как цена, название продукта и номер продукта. Клиенты также могут сортировать результаты в зависимости от того, является ли продукт новым, лидером продаж или недавно добавленным.
 
+>[!NOTE]
+>Такие возможности поиска на основе облака доступны, начиная с версии 10.0.8. Убедитесь, что в пункте **Параметры Commerce > Параметры конфигурации** имеется запись "для ProductSearch.UseAzureSearch задано значение «true»". 
+![Параметры конфигурации для поиска на основе облака](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Целевая страница категории и страница результатов поиска по умолчанию](category-search-page-overview.md)
+[Обзор целевой страницы категории и страницы результатов поиска по умолчанию](category-search-page-overview.md)
 
-[Управление метаданными для поисковой оптимизации](manage-seo-metadata.md)
+[Управление метаданными SEO](manage-seo-metadata.md)

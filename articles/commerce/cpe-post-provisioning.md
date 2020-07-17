@@ -3,7 +3,7 @@ title: Настройка среды предварительной версии
 description: В этой теме объясняется, как настроить среду предварительного просмотра Microsoft Dynamics 365 Commerce после ее предоставления.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: ad05996eaabd3965308370649a27b8bc3080c7ce
+ms.sourcegitcommit: f72e90dccc80718e99cab2752eaf8931dcbb915e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057725"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3534075"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Настройка среды предварительной версии Dynamics 365 Commerce
 
@@ -116,7 +116,7 @@ ms.locfileid: "3057725"
 
 Чтобы запустить полную синхронизацию данных в Commerce, выполните следующие действия.
 
-1. Используя меню в левой части, перейдите к пункту **Модули \> Retail и Commerce \> Настройка центрального офиса \> Розничная сеть - Планировщик \> База данных канала**.
+1. Используя меню в левой части, перейдите к пункту **Модули \> Retail и Commerce \> Настройка центрального офиса \> Планировщик Commerce \> База данных канала**.
 1. Канал **По умолчанию** выбирается из списка слева. Выберите другой доступный канал. Этот канал называется **scXXXXXXXXXXX**.
 1. На панели операций выберите **Полная синхронизация данных**.
 1. Введите график распределения **9999**.

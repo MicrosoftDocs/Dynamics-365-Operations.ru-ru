@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 481f7787e21cd9a00ed1798d4d2588e93ca73b56
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 3469c8936dd2eaa53e541f0ea684ea1eb12db4cb
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346545"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530129"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Управление качеством для складских процессов
 
@@ -46,7 +46,7 @@ ms.locfileid: "3346545"
 
 Когда функция _Управление качеством для складских процессов_ включена, она изменяет настройку ключевых объектов управления складом и управления качеством. На следующем рисунке представлен обзор объектов, которые позволяют использовать заказы контроля качества для складских процессов. Текст в скобках указывает предлагаемые действия, когда управление качеством было применено до включения функции _Управление качеством для складских процессов_.
 
-![![Объекты управления качеством](media/quality-management-entity-diagram.png "Объекты управления качеством")](media/quality-management-entity-diagram.png "Quality management entities")
+![Объекты управления качеством](media/quality-management-entity-diagram.png "Объекты управления качеством")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Средства включения: типы заказов на работу "Выборка номенклатуры для контроля качества" и "Контроль качества"
 

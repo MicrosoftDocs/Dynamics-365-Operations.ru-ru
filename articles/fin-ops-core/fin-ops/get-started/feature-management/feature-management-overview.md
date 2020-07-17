@@ -3,7 +3,7 @@ title: Обзор управления функциями
 description: В этой теме описывается функция управления функциями и способы ее использования.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/12/2020
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
+ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456605"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499627"
 ---
 # <a name="feature-management-overview"></a>Обзор управления компонентами
 
@@ -140,6 +140,10 @@ ms.locfileid: "3456605"
 ## <a name="feature-management-and-flighting"></a>Управление функциями и фокус-тестирование
 
 Управление функциями позволяет управлять функциями, поставляемыми в каждом выпуске. Фокус-тестирование позволяет рабочим группам Microsoft выпускать функции для ограниченного числа клиентов, чтобы эти функции можно было тестировать и проверять без воздействия на всех клиентов. Управление функциями не контролирует фокус-тестирование каких-либо функций.
+
+## <a name="new-features-are-optional-for-12-months"></a>Новые возможности необязательны в течение 12 месяцев
+
+Когда устанавливается новая некритическая функция, она будет необязательной в течение 12-месячного периода. Это позволяет вам и вашим организациям заранее планировать время, в течение которого функция будет вводиться и тестироваться в соответствии с повседневными операциями. Дополнительные сведения см. в разделе [Вопросы и ответы по обновлениям службы с одной версией](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Использование управления функциями для включения функций независимых разработчиков программного обеспечения или пользовательских функций
 

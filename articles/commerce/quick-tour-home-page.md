@@ -3,7 +3,7 @@ title: Обзор домашней страницы
 description: Этот раздел содержит обзор домашней страницы в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f337af0b598322e9542a3c9462402e61dc11a88
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025979"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527593"
 ---
-# <a name="overview-of-the-home-page"></a>Обзор домашней страницы
-
+# <a name="home-page-overview"></a>Обзор домашней страницы
 
 [!include [banner](includes/banner.md)]
 
@@ -69,10 +68,8 @@ ms.locfileid: "3025979"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-[Обзор целевой страницы категории и страницы результатов поиска по умолчанию](category-search-page-overview.md)
-
 [Обзор страниц сведений о продукте](quick-tour-pdp.md)
 
 [Обзор страниц корзины и оформления заказа](quick-tour-cart-checkout.md)
 
-[Обзор страниц управления учетными записями](quick-tour-account-management.md)
+[Обзор страниц управления учетной записью](quick-tour-account-management.md)

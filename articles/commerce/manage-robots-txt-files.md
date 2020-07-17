@@ -3,7 +3,7 @@ title: Управление файлами robots.txt
 description: В этой теме описано, как управлять файлами robots.txt в Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brishoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d248dae36e6e038749ee17a5a6ccb32f1dde0aed
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 4b3856a7a0b4b198e71ce9af6691b1d90362f3e7
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096852"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533421"
 ---
 # <a name="manage-robotstxt-files"></a>Управление файлами robots.txt
 
@@ -91,8 +91,6 @@ Dynamics 365 Commerce позволяет загружать файл robots.txt 
 [Настройка доменного имени](configure-your-domain-name.md)
 
 [Развертывание нового сайта электронной коммерции](deploy-ecommerce-site.md)
-
-[Настройка канала интернет-магазина](online-stores.md)
 
 [Создание сайта электронной коммерции](create-ecommerce-site.md)
 
