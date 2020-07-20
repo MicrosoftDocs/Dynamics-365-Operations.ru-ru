@@ -74,11 +74,9 @@
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: "Finance 10.0.11 (июль 2020\_г.)"
                       href: get-started/whats-new-changed-10-0-11.md
-                    - name: Finance 10.0.10 (май 2020 г.)
-                      href: get-started/whats-new-changed-10-0-10.md
             - name: Удаленные или устаревшие функции
               items:
-                - name: Удаленные или устаревшие функции Dynamics 365 Finance
+                - name: Удаленные или устаревшие функции в Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
                 - name: Удаленные или устаревшие функции в предыдущих выпусках
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
@@ -1184,6 +1182,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Определения столбцов
               href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Определения дерева отчетности в финансовых отчетах
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
             - name: Изменение ячеек определений строк
               href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Сброс киоска данных финансовой отчетности
@@ -3386,12 +3386,18 @@
                       items:
                         - name: Импорт конфигураций из GR
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Импорт обновленных версий конфигураций электронной отчетности
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
                         - name: Улучшенная фильтрация для поиска конфигураций в GR
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Отправка конфигураций в GR
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: Совместное использование конфигураций в GR
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+            - name: Краткие руководства по началу работы
+              items:
+                - name: Настройка формата электронной отчетности для создания пользовательского электронного документа
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
             - name: Учебники
               items:
                 - name: Использование источников данных

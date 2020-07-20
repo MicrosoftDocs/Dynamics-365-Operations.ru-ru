@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c773b5e1013bbd58f48cd345f50a342175ed0c98
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: fd64a4ea53976293a6ff484a370d7804bf6c724f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413901"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530152"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.12 (август 2020 г.)
 
@@ -40,13 +40,12 @@ ms.locfileid: "3413901"
 Этот выпуск содержит следующие функции. Названия функций связаны с дополнительной информацией на сайте [Планы выпуска](https://docs.microsoft.com/dynamics365/release-plans/). Дополнительные ссылки указывают на дополнительную документацию или видеозаписи, доступные в данный момент для этой функции. Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
 
 - [Разрешить блокировку сенсорного экрана карты задания для санитарной обработки](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization) — дополнительные сведения см. в разделе [Настроить карту заданий для устройств](../production-control/config-job-card-device.md).
-- [Определение вариантов продукта и аналитик отслеживания в приложении складского учета во время приемки номенклатуры загрузки](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving) — дополнительные сведения см. в разделе [Настройка мобильных устройств для работы склада](../warehousing/configure-mobile-devices-warehouse.md).
+- [Определение вариантов продукта и аналитик отслеживания в приложении склада во время приемки номенклатуры загрузки](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving) — дополнительные сведения см. в разделе [Настройка мобильных устройств для работы склада](../warehousing/configure-mobile-devices-warehouse.md).
 - Уровень расчета затрат (новый уровень спецификации) — дополнительные сведения см. в разделе [Уровень расчета затрат](../cost-management/cost-calculation-level.md).
 - [Клиентский портал клиента для Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences) — дополнительные сведения см. в разделе [Обзор клиентского портала для Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
-- [Служба запасов в наличии](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-service)
 - [Основная бизнес-аналитика Интернета вещей](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) — для получения дополнительных сведений см. [домашнюю страницу бизнес-аналитики Интернета вещей](../iot/iot-intelligence-home-page.md).
-- [Улучшения получения грузомест для складского приложения для мобильных устройств (продолжение)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) — для получения дополнительных сведений см. раздел [Получение грузоместа через мобильное приложение склада](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
-- [Массовое развертывание для Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) — для получения дополнительной информации см. раздел [Обзор установки и настройки приложения Warehousing](../warehousing/install-configure-warehousing-app.md).
+- [Улучшения получения грузомест для приложения склада для мобильных устройств (продолжение)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) — для получения дополнительных сведений см. раздел [Получение грузоместа через мобильное приложение склада](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Массовое развертывание для Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) — для получения дополнительной информации см. раздел [Обзор установки и настройки приложения склада](../warehousing/install-configure-warehousing-app.md).
 - [Максимальное время выполнения для задания очистки записей "в наличии" для управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job) — дополнительные сведения см. в разделе [Задание очистки записей в наличии для управления складом](../warehousing/onhand-cleanup.md).
 - [Поддержка оптимизации планирования для коммерческих соглашений о покупке](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements) — для получения дополнительных сведений см. раздел [Сводное планирование с коммерческими соглашениями о покупке](../master-planning/planning-optimization/purchase-trade-agreement.md).
 

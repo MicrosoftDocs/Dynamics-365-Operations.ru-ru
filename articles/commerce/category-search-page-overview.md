@@ -1,9 +1,9 @@
 ---
 title: Обзор целевой страницы категории и страницы результатов поиска по умолчанию
 description: В этом разделе представлен обзор целевой страницы категории по умолчанию и страницы результатов поиска в Dynamics 365 Commerce.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002504"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527476"
 ---
-# <a name="overview-of-default-category-landing-page-and-search-results-page"></a>Обзор целевой страницы категории и страницы результатов поиска по умолчанию
-
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>Обзор целевой страницы категории и страницы результатов поиска по умолчанию
 
 [!include [banner](includes/banner.md)]
 
@@ -96,7 +95,13 @@ ms.locfileid: "3002504"
 - **Разбивка на страницы** позволяет посетителям веб-сайта перемещаться с одной страницы результатов продуктов по категориям на другую страницу.
 - **Общее число** предоставляет общее количество продуктов, определенных в категории и соответствующих критериям поиска.
 
+>[!NOTE]
+>Такие возможности поиска на основе облака доступны, начиная с версии 10.0.8. Убедитесь, что в пункте **Параметры Commerce > Параметры конфигурации** имеется запись "для ProductSearch.UseAzureSearch задано значение «true»". 
+![Параметры конфигурации для поиска на основе облака](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Дополнительные ресурсы
+
+[Обзор поиска на облачной платформе](cloud-powered-search-overview.md)
 
 [Обзор домашней страницы](quick-tour-home-page.md)
 
@@ -104,5 +109,5 @@ ms.locfileid: "3002504"
 
 [Обзор страниц корзины и оформления заказа](quick-tour-cart-checkout.md)
 
-[Обзор страниц управления учетными записями](quick-tour-account-management.md)
+[Обзор страниц управления учетной записью](quick-tour-account-management.md)
 

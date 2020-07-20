@@ -3,7 +3,7 @@ title: Обзор страниц корзины и оформления зака
 description: Этот раздел содержит обзор страниц корзины и оформления заказа в Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002943"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527577"
 ---
-# <a name="overview-of-cart-and-checkout-pages"></a>Обзор страниц корзины и оформления заказа
-
+# <a name="cart-and-checkout-pages-overview"></a>Обзор страниц корзины и оформления заказа
 
 [!include [banner](includes/banner.md)]
 
@@ -105,8 +104,6 @@ ms.locfileid: "3002943"
 
 [Обзор домашней страницы](quick-tour-home-page.md)
 
-[Обзор целевой страницы категории и страницы результатов поиска по умолчанию](category-search-page-overview.md)
-
 [Обзор страниц сведений о продукте](quick-tour-pdp.md)
 
-[Обзор страниц управления учетными записями](quick-tour-account-management.md)
+[Обзор страниц управления учетной записью](quick-tour-account-management.md)

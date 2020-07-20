@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 82b4f40510d5bbf829508f17f1064886620a4aed
-ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
+ms.openlocfilehash: 5330981bde98b80e81076a9b1416473135ebdac6
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410893"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530198"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-app"></a>Получение грузоместа через мобильное приложение склада
+# <a name="license-plate-receiving-via-the-warehouse-app"></a>Получение грузоместа через мобильное приложение склада
 
 В этой теме объясняется, как настроить мобильное приложение склада, чтобы оно поддерживало использование процесса получения грузоместа для получения физических запасов.
 

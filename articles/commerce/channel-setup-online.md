@@ -3,7 +3,7 @@ title: Настройка интернет-канала
 description: В этом разделе описывается, как создать интернет-канал в Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9b7a2b8fd157df8b39e9e227d188a3802cacb4e3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002435"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533329"
 ---
 # <a name="set-up-an-online-channel"></a>Настройка интернет-канала
 
@@ -35,9 +35,9 @@ ms.locfileid: "3002435"
 
 Dynamics 365 Commerce поддерживает несколько розничных каналов. Эти розничные каналы включают в себя интернет-магазины, центры обработки вызовов и розничные магазины (также называются физическими магазинами). Интернет-магазины дает возможность покупать продукты не только в розничных магазинах торговца, но и в интернет-магазине.
 
-Чтобы создать интернет-магазин в модуле Commerce, необходимо сначала создать интернет-канал. 
+Чтобы создать интернет-магазин в модуле Commerce, необходимо сначала создать интернет-канал. Перед созданием нового интернет-канала убедитесь, что вы соблюдаете [Необходимые условия для настройки каналов](channels-prerequisites.md).
 
-Перед созданием нового интернет-канала убедитесь, что вы соблюдаете [Необходимые условия для настройки каналов](channels-prerequisites.md).
+Прежде чем можно будет создать новый сайт, необходимо создать по крайней мере один интернет-магазин в Commerce. Дополнительные сведения см. в разделе [Создание сайта электронной коммерции](create-ecommerce-site.md).
 
 ## <a name="create-and-configure-a-new-online-channel"></a>Создание и настройка нового интернет-канала
 
