@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812096"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598189"
 ---
 # <a name="globalization-resources"></a>Ресурсы глобализации
 
 ## <a name="local-and-regional-deployments"></a>Локальные и региональные развертывания
 Если правительственные нормативные документы требуют, чтобы данные хранились или обслуживались не так, как в других странах или регионах, возможно, что при развертывании необходимо учитывать требования для конкретной страны или региона. Примите во внимание следующие ресурсы, которые могут иметь отношение к вам:
 
-[Приложения Microsoft Dynamics 365 Finance and Operations, предоставляемые компанией 21Vianet в Китае](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Приложения Finance and Operations, предоставляемые компанией 21Vianet в Китае](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Локализация и нормативные компоненты
 
 [!include [banner](../includes/banner.md)]
 
-Приложения Dynamics 365 Finance and Operations включают функции для стран и регионов, описанные в [руководстве по наличию локализации и перевода продуктов](https://aka.ms/dynamics_365_international_availability_deck). Эти функции включаются в зависимости основного адреса активного юридического лица. 
+Приложения Finance and Operations включают функции для стран и регионов, описанные в [руководстве по наличию локализации и перевода продуктов](https://aka.ms/dynamics_365_international_availability_deck). Эти функции включаются в зависимости основного адреса активного юридического лица. 
 
 Этот раздел содержит список ресурсов, которые могут помочь выполнить следующее: 
 - Получить дополнительные сведения о разрабатывающихся решениях для определенной страны/региона.
@@ -67,7 +67,7 @@ ms.locfileid: "2812096"
 [Планы выпусков Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) содержат описание новых и улучшенных функциональных возможностей, которые запланированы для бизнес-приложений Dynamics 365 и платформ приложений. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Что нового в приложениях Finance and Operations
-На странице [Что нового и что изменилось в Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) перечислены возможности, включенные в конкретные выпуски приложений Finance and Operations.
+На [домашней странице "Что нового и что изменилось в Finance and Operations"](../../fin-ops/get-started/whats-new-changed.md) перечислены функции, включенные в конкретные выпуски приложений Finance and Operations.
 
 ### <a name="electronic-reporting"></a>Электронная отчетность
 Средства электронной отчетности (ER) служат для настройки форматов электронных документов в соответствии с требованиями законодательства различных стран/регионов. Электронная отчетность позволяет управлять этими форматами в течение их жизненного цикла. Дополнительные сведения см. в следующих разделах:

@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Автоматизация задач данных
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Поставка решений независимых поставщиков программного обеспечения с помощью одной версии
+                - name: Поставка решений независимых поставщиков программного обеспечения с помощью One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Создание и автоматизация пользовательских приемочных тестов
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/supply-chain/toc.json
@@ -74,9 +74,11 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (июль 2020 г.)
                       href: get-started/whats-new-scm-10-0-11.md
+                    - name: Supply Chain Management 10.0.10 (май 2020 г.)
+                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Удаленные или устаревшие функции
                   items:
-                    - name: Удаленные или устаревшие функции в Dynamics 365 Supply Chain Management
+                    - name: Удаленные или устаревшие функции Dynamics 365 Supply Chain Management
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Удаленные или устаревшие функции в предыдущих выпусках
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
@@ -1355,6 +1357,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Отмена задания планирования
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Расширяемость оптимизации планирования
+                  href: master-planning/planning-optimization/extensibility.md
                 - name: Устранение неполадок оптимизации планирования
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Сводные планы
@@ -1511,6 +1515,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Настройка номерных серий с использованием мастера
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Настройка номерных серий для складских потоков
+                  href: warehousing/configure-number-sequence-extensions.md?toc=/dynamics365/supply-chain/toc.json
             - name: Организации и организационные иерархии
               items:
                 - name: Обзор организаций и организационных иерархий
@@ -1817,6 +1823,10 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Исключение продуктов из сводного планирования
                       href: pim/tasks/exclude-products-master-planning.md
+                - name: Товары двойного назначения
+                  href: pim/dual-use.md
+                - name: Страна происхождения
+                  href: pim/country-of-origin.md
                 - name: Создание штрих-кода для продукта
                   href: pim/tasks/create-bar-code-product.md
                 - name: Ввод кода GTIN для продукта
@@ -2565,22 +2575,20 @@
               href: warehousing/warehouse-management-overview.md
             - name: Входящие складские операции
               items:
-                - name: Поступления для регистрации и размещения
-                  items:
-                    - name: Складская обработка входящих загрузок для заказов на покупку
-                      href: warehousing/inbound-load-handling.md
-                    - name: Регистрация номенклатур для расширенных складских процессов с использованием журнала прихода номенклатуры
-                      href: warehousing/tasks/register-items-advanced-warehousing.md
-                    - name: Регистрация номенклатур для базовых складских процессов с использованием журнала прихода номенклатуры
-                      href: warehousing/tasks/register-items-basic-warehousing.md
-                    - name: Кросс-докинг продуктов со склада приемки в магазины
-                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                    - name: Настройка директивы местонахождения для размещения заказа на покупку
-                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                    - name: Настройка рабочего шаблона для заказов на покупку
-                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                    - name: Смешивание аналитик продуктов в местонахождении
-                      href: warehousing/location-product-dimension-mixing.md
+                - name: Складская обработка входящих загрузок для заказов на покупку
+                  href: warehousing/inbound-load-handling.md
+                - name: Регистрация номенклатур для расширенных складских процессов с использованием журнала прихода номенклатуры
+                  href: warehousing/tasks/register-items-advanced-warehousing.md
+                - name: Регистрация номенклатур для базовых складских процессов с использованием журнала прихода номенклатуры
+                  href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Кросс-докинг продуктов со склада приемки в магазины
+                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                - name: Настройка директивы местонахождения для размещения заказа на покупку
+                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                - name: Настройка рабочего шаблона для заказов на покупку
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                - name: Смешивание аналитик продуктов в местонахождении
+                  href: warehousing/location-product-dimension-mixing.md
             - name: Исходящие складские операции
               items:
                 - name: Резервирование в модуле "Управление складом"
@@ -2597,14 +2605,14 @@
                   items:
                     - name: Настройка комплектации кластера
                       href: warehousing/set-up-cluster-picking.md
+                    - name: 'Комплектация кластера, управляемая системой'
+                      href: warehousing/system-directed-cluster-pick.md
                     - name: Настройка контейнеризации
                       href: warehousing/tasks/set-up-containerization.md
                     - name: Подтверждение партии и грузоместа
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Включение печати меток грузомест
                       href: warehousing/tasks/license-plate-label-printing.md
-                    - name: Сканирование штрих-кодов с помощью камеры в Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Поштучное подтверждение комплектации
                       href: warehousing/piece-picking-confirmation.md
                     - name: Упаковочные материалы и сборы
@@ -2615,14 +2623,18 @@
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Отмена работы склада для обработки исключений
                       href: warehousing/cancel-warehouse-work.md
-                    - name: 'Комплектация кластера, управляемая системой'
-                      href: warehousing/system-directed-cluster-pick.md
                     - name: 'Последовательность работ, управляемая системой'
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Группировка строк комплектации
                       href: warehousing/pick-line-grouping.md
                     - name: Слоттинг на складе
                       href: warehousing/warehouse-slotting.md
+                    - name: Распределение по срокам комплектации запасов директивы местонахождения
+                      href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Исходящая сортировка
+                      href: warehousing/outbound-sorting.md
+                    - name: Поместить на стену — поместить в магазин
+                      href: warehousing/put-to-wall-put-to-store.md
                 - name: Пополнение
                   items:
                     - name: Обзор пополнения
@@ -2645,6 +2657,8 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: Группировка шаблонов волны
                       href: warehousing/wave-template-grouping.md
+                    - name: Повторная печать и аннулирование этикеток волны
+                      href: warehousing/reprint-and-void-wave-labels.md
                 - name: Политики консолидации отгрузок
                   items:
                     - name: Политики консолидации отгрузок
@@ -2715,6 +2729,10 @@
                       href: warehousing/work-line-details.md
                     - name: Позиционирование грузоместа в местонахождении
                       href: warehousing/location-license-plate-positioning.md
+                    - name: Изменить пул работ в работе
+                      href: warehousing/change-work-pool-on-work.md
+                    - name: Консолидации номенклатур — использование местонахождения
+                      href: warehousing/item-consolidation-location-utilization.md
             - name: Настройка склада
               items:
                 - name: Конфигурация склада
@@ -2723,17 +2741,19 @@
                       href: warehousing/warehouse-configuration.md
                     - name: Настройка склада с использованием шаблона конфигурации склада
                       href: inventory/warehouse-template.md
-                    - name: Управление работой с помощью шаблонов работ и директив ячеек
+                    - name: Управление работой с помощью шаблонов работ и директив местонахождения
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Коды шагов волны
                       href: warehousing/wave-step-codes.md
                     - name: Настройка обработки волн
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: Настройка и использование печати этикеток волны
+                      href: warehousing/configure-wave-label-printing.md
                     - name: Автообновление отгрузок
                       href: warehousing/auto-update-shipment.md
                     - name: Создание профиля местонахождения
                       href: warehousing/tasks/create-location-profile.md
-                    - name: 'Настройка местонахождений на складе, на котором включена система настройки управления складом'
+                    - name: 'Настройка местонахождений на складе, на котором включена система управления складом'
                       href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
                     - name: Статус местонахождения на складе
                       href: warehousing/warehouse-location-status.md
@@ -2753,8 +2773,6 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Макет маршрутизации документов для наклеек грузомест
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Сканирование штрих-кодов с помощью камеры в Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Поддержка мобильных устройств чтения штрих-кодов
                       href: warehousing/mobile-barcode-support.md
                     - name: Настройка склада для заказов на перемещение
@@ -2767,6 +2785,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Настройка мобильных устройств для работы склада
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Сканирование штрих-кодов с помощью камеры в приложении склада
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Получение грузомест с помощью приложения склада
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Настройка пункта меню мобильного устройства для выполнения работы в заказе на покупку
