@@ -5,6 +5,8 @@
       items:
         - name: Что нового и что изменилось в Human Resources
           href: hr-admin-whats-new.md
+        - name: 8 июля 2020 г.
+          href: hr-whats-new-2020-07-08.md
         - name: 25 июня 2020 г.
           href: hr-whats-new-2020-06-23.md
         - name: 11 июня 2020 г.
@@ -577,5 +579,7 @@
           items:
             - name: Обзор самообслуживания сотрудников и менеджеров
               href: hr-employee-manager-self-service-overview.md
-            - name: Изменение личных сведений
+            - name: Изменение имени рабочей области самообслуживания сотрудников
+              href: hr-employee-self-service-workspace-name.md
+            - name: Изменение личных данных
               href: hr-employee-manager-self-service-edit-personal-information.md

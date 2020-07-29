@@ -32,23 +32,23 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Автоматизация задач данных
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
-                - name: Поставка решений независимых поставщиков программного обеспечения с помощью одной версии
+                - name: Поставка решений независимых поставщиков программного обеспечения с помощью One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: Создание и автоматизация пользовательских приемочных тестов
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: Настройка среды предварительной версии Dynamics 365 Commerce
+            - name: Настройка среды оценки Dynamics 365 Commerce
               items:
-                - name: Обзор среды предварительной версии Dynamics 365 Commerce
+                - name: Обзор среды оценки Dynamics 365 Commerce
                   href: cpe-overview.md
-                - name: Обеспечение среды предварительной версии Dynamics 365 Commerce
+                - name: Обеспечение среды оценки Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: Настройка среды предварительной версии Dynamics 365 Commerce
+                - name: Настройка среды оценки Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
-                - name: Настройка BOPIS в среде Dynamics 365 Commerce
+                - name: 'Настройка сценария BOPIS (купить в Интернете, забрать в магазине) в среде оценки Dynamics 365 Commerce'
                   href: cpe-bopis.md
-                - name: Настройка дополнительных функций среды предварительной версии Dynamics 365 Commerce
+                - name: Настройка дополнительных функций среды оценки Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: Вопросы и ответы по среде предварительной версии Dynamics 365 Commerce
+                - name: Вопросы и ответы по среде оценки Dynamics 365 Commerce
                   href: cpe-faq.md
             - name: 'Вопросы, связанные с развертыванием'
               items:
@@ -72,6 +72,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Приложения Finance and Operations во Франции
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
+            - name: Получение поддержки для Dynamics 365 Commerce
+              href: retail-support.md
             - name: Обновление и поддержка N-1
               items:
                 - name: Обновление и поддержка N-1 для Commerce
@@ -192,6 +194,8 @@
                   href: commerce-architecture.md
                 - name: Потоки проверки подлинности в Dynamics 365 Commerce
                   href: arch-auth-flow.md
+                - name: Требования к управлению версиями компонентов Dynamics 365 Commerce
+                  href: arch-component-versioning.md
                 - name: Архитектура Commerce Scale Unit
                   href: dev-itpro/retail-server-architecture.md
                 - name: Выбор топологии в магазине
@@ -1984,6 +1988,8 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: Распределение состояния между модулями
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Параметры кэша действий с данными
+                      href: e-commerce-extensibility/data-action-cache-settings.md
                     - name: Переопределение действий с данными
                       href: e-commerce-extensibility/data-action-overrides.md
                     - name: Обработчики действий с данными
