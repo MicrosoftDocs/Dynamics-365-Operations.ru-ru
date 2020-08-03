@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c1a9f10a434343e4c9c8a42ec5c0b7a1a18ad36
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3124024"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555269"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (10 марта 2020 г.)
 
@@ -97,3 +97,10 @@ ms.locfileid: "3124024"
 - Рекомендуемые поля — пользователям часто приходится добавлять поля к сетке или странице. Это может быть сложно при наличии такого большого количества доступных полей. Вместо того, чтобы выполнять поиск в большом списке, эта функция позволяет системе показывать набор рекомендуемых полей в зависимости от того, что другие пользователи часто добавляются в подобных сценариях.
 
 - Клейкие действия по умолчанию в сетках — эта функция гарантирует, что выполняемое по умолчанию действие в сетке связано с определенным столбцом в сетке, независимо от того, был ли этот столбец перемещен или скрыт.
+
+## <a name="see-also"></a>См. также
+
+[Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Процесс обновления](hr-admin-setup-update-process.md)</br>
+[Управление функциями](hr-admin-manage-features.md)

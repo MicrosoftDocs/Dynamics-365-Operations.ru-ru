@@ -15,12 +15,12 @@ ms.search.region: Russia
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 92f6eac5f1f3ce3b46e0b0bd57b4ba4a903d1642
-ms.sourcegitcommit: 67ce81c57194afb26a04ae4c0b7509e0efa32afc
+ms.openlocfilehash: 6771eb86186c773d879e1ac0de47d6a91a61a200
+ms.sourcegitcommit: 15813d0c0ff694941d386f4da316cd29767a3816
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "3375778"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3539817"
 ---
 # <a name="russia-overview"></a>Обзор по России
 
@@ -123,9 +123,9 @@ ms.locfileid: "3375778"
 - [Структура стоимости запасов](rus-inventory-cost-structure.md)
 - [Мастер корректировки запасов](rus-inventory-adjustment-wizard.md)
 - [Отчеты о запасах](rus-inventory-reports.md)
-- [Обзор профиля учета](rus-inventory-profile-overview.md)
-- [Настройка профиля учета](rus-set-up-inventory-profile.md)
-- [Использование профиля учета в документах и запросах](rus-use-inventory-profile-documents-queries.md)
+- [Профиль учета](rus-inventory-profile-overview.md)
+  - [Настройка профиля учета](rus-set-up-inventory-profile.md)
+  - [Использование профиля учета в документах и запросах](rus-use-inventory-profile-documents-queries.md)
 
 ## <a name="reporting"></a>Отчетность
 

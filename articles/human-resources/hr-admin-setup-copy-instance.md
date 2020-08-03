@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8385b7dfcd1d7294542c7f54f609b26b7988ac4
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
+ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431253"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3554333"
 ---
 # <a name="copy-an-instance"></a>Копирование экземпляра
 
@@ -68,11 +68,11 @@ ms.locfileid: "3431253"
 
 4. В области задач **Копирование экземпляра** выберите экземпляр, который требуется перезаписать, и нажмите кнопку **Копировать**. Дождитесь обновления значения поля **Статус копирования** до **Завершено**.
 
-   ![[Выбор экземпляра для перезаписи](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Выберите экземпляр для перезаписи](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Выберите **Power Platform** и выполните вход в центр администрирования Microsoft Power Platform.
 
-   ![[Выбор Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Выберите Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Выберите среду PowerApps для копирования, а затем выберите **Копировать**.
 
@@ -108,6 +108,6 @@ ms.locfileid: "3431253"
 
 ## <a name="environment-admin"></a>Администратор среды
 
-Все пользователи в целевой среде песочницы, включая администраторов, заменяются пользователями исходной среды. Перед копированием экземпляра убедитесь, что вы являетесь администратором в целевой среде. Если это не так, после завершения копирования вы не сможете войти в целевую среду песочницы.
+Все пользователи в целевой среде песочницы, включая администраторов, заменяются пользователями исходной среды. Перед копированием экземпляра убедитесь, что вы являетесь администратором в исходной среде. Если это не так, после завершения копирования вы не сможете войти в целевую среду песочницы.
 
 Все пользователи, не являющиеся администраторами в целевой среде песочницы, отключены для защиты от нежелательного входа в среду песочницы. Администраторы могут повторно включить пользователей, если это необходимо.

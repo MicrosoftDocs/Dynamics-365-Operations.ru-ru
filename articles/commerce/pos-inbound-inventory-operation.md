@@ -3,7 +3,7 @@ title: Входящая операция с запасами в POS
 description: В этом разделе описываются возможности входящие операции с запасами в POS-терминале.
 author: hhaines
 manager: annbe
-ms.date: 03/12/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: b212906dcf037171af264c60720f361215eed599
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123907"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551609"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Входящая операция с запасами в POS
 
@@ -57,6 +57,9 @@ ms.locfileid: "3123907"
 5. На экспресс-вкладке **Общие сведения** в разделе **Настройка** установите для параметра **Непрерывная** значение **Нет**, чтобы избежать неполадок, связанных с производительностью.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Создайте и запланируйте два пакетных задания для задач обработки и отслеживания документов
+
+> [!NOTE]
+> В Commerce версии 10.0.13 и более поздних версий нет необходимости настраивать эти пакетные задания через структуру пакетного задания. Пакетные процессы можно настроить в меню **Retail и Commerce > ИТ Retail и Commerce**. Используйте параметры меню **Монитор операций с документами Retail** и **Обработка операций с документами Retail** для настройки пакетных заданий.
 
 Создаваемые пакетные задания будут использоваться для обработки документов со сбоем или превышением времени ожидания. Они также будут использоваться, когда число активных документов запасов, обрабатываемых из POS, превышает значение, заданное системой.
 

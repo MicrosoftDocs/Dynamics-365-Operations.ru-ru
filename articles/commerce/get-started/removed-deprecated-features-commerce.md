@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции Dynamics 36
 description: В этом разделе описываются возможности, который удалены или которые планируется удалить из Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 06/10/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: aa18e7446a72a907fcad70f92ea529088b6cecbd
+ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443926"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3539887"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Удаленные или устаревшие функции Dynamics 365 Commerce
 
@@ -41,8 +41,35 @@ ms.locfileid: "3443926"
 |   |  |
 |------------|--------------------|
 | **Причина устаревания/удаления** | Функция перехватчиков действий с данными устарела из-за проблем с производительностью. |
-| **Заменена другой функцией?**   | Рекомендуется вместо этого использовать [переопределения действий данных](../e-commerce-extensibility/data-action-overrides.md) для изменения бизнес-логики на уровне действий с данными.|
+| **Заменена другой функцией?**   | Рекомендуется использовать [переопределения действий данных](../e-commerce-extensibility/data-action-overrides.md) для изменения бизнес-логики на уровне действий с данными.|
 | **Затрагиваемые области продукта**         | Действия данных расширяемости электронной коммерции |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устарело: на момент выпуска 10.0.11 |
+
+### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>Поддержка Retail SDK для Visual Studio 2015, msbuild 14.0 и библиотек и средств Retail SDK\Reference
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Поддержка Retail SDK для Visual Studio 2015 устарела и обновлена для поддержки VS 2017, msbuild 15.0 и всех ссылочных библиотек и средств создания прокси-серверов Commerce в папке RetailSDK\References, перемещены в пакеты NuGet, чтобы упростить процесс обновления модели расширения и пакета SDK.|
+| **Заменена другой функцией?**   | Рекомендуется следовать сведениям, приведенным в разделе [Перенос пакета Retail SDK с Visual Studio 2015 в Visual Studio 2017](../dev-itpro/retail-sdk/migrate-sdk.md), чтобы обновить систему. |
+| **Затрагиваемые области продукта**         | Расширения пакета Retail SDK |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устарело: на момент выпуска 10.0.11 |
+
+### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>Расширение сервера розничной торговли с помощью IEdmModelExtender и CommerceController
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Расширение сервера розничной торговли с помощью IEdmModelExtender и CommerceController устарело для предоставления упрощенной модели расширения. Новая реализация будет иметь только класс controller без каких-либо дополнительных реализаций класса IEdmModelExtender. Это также позволяет избежать зависимости от определенной версии OData (если версия OData обновлена, это может привести к нарушению работы расширений.) |
+| **Заменена другой функцией?**   |  Рекомендуется использовать модель расширения класса IController, импортировав пакет NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
+| **Затрагиваемые области продукта**         | Расширения сервера розничной торговли |
+| **Вариант развертывания**              | Все |
+| **Состояние**                         | Устарело: на момент выпуска 10.0.11 |
+
+### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>Расширение Hardware Station с помощью IHardwareStationController
+|   |  |
+|------------|--------------------|
+| **Причина устаревания/удаления** | Расширение Hardware Station с помощью IHardwareStationController устарело для предоставления упрощенной модели расширения. Новая реализация будет иметь только класс IController без какой-либо дополнительной реализации класса, чтобы избежать зависимости от основных библиотек Hardware Station, ранее расширение должно было ссылаться на несколько библиотек.) |
+| **Заменена другой функцией?**   | Рекомендуется использовать модель расширения класса IController, импортировав пакет NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts). |
+| **Затрагиваемые области продукта**         | Расширения Hardware Station |
 | **Вариант развертывания**              | Все |
 | **Состояние**                         | Устарело: на момент выпуска 10.0.11 |
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab732853a2c37338d8003c5f8911c011aa8ffc60
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 02243b2c75a4f50683a51c1d9d811f2e2a2d413f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225159"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555059"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Что нового или что изменилось в Dynamics 365 Human Resources (3 апреля 2020 г.)
 
@@ -128,3 +128,10 @@ ms.locfileid: "3225159"
 3. Перейдите к вложению в SharePoint для запуска предварительного просмотра документа.
 
 4. Выполните вход с другой учетной записью пользователя, который имеет доступ к вложениям, и убедитесь, что предварительный просмотр выполняется правильно.
+
+## <a name="see-also"></a>См. также
+
+[Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Процесс обновления](hr-admin-setup-update-process.md)</br>
+[Управление функциями](hr-admin-manage-features.md)
