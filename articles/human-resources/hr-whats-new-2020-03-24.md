@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83f24dd6f094715f96666c3ae94faa4bdb97a652
-ms.sourcegitcommit: fac1d519a85eab0c936b54e0a9247f6a11842871
+ms.openlocfilehash: 4f46d631379711dd2002a95dfa6001a362727f4f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "3177945"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555107"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Что нового и что изменилось в Dynamics 365 Human Resources (24 марта 2020 г.)
 
@@ -113,3 +113,10 @@ ms.locfileid: "3177945"
 ## <a name="employment-detail-entity"></a>Объект сведений о трудоустройстве
 
 Объект **Сведения о занятости** обновлен следующими полями: **Частота оплаты**, **Код категории занятости**, **Тип трудоустройства**, **Код типа трудоустройства** и **Статус льгот при трудоустройстве**. Данные настройки для этих полей зависят от того, включено ли управление льготами в управлении функциями. Эти поля не должны заполняться или обновляться в объекте **Сведения о трудоустройстве**, так как это приведет к ошибкам при импорте.
+
+## <a name="see-also"></a>См. также
+
+[Что нового и что изменилось в Human Resources](hr-admin-whats-new.md)</br>
+[Обзор выпуска Dynamics 365 Human Resources 2019, волна 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Процесс обновления](hr-admin-setup-update-process.md)</br>
+[Управление функциями](hr-admin-manage-features.md)
