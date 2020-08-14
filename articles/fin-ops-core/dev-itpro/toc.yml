@@ -14,6 +14,8 @@
               items:
                 - name: Что нового и что изменилось на домашней странице обновлений платформы
                   href: get-started/whats-new-home-page.md
+                - name: Обновления платформы для 10.0.13 (октябрь 2020 г.)
+                  href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Обновления платформы для 10.0.12 (август 2020 г.)
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Обновления платформы для 10.0.11 (июль 2020 г.)
@@ -82,6 +84,8 @@
           items:
             - name: Выбор стратегии интеграции данных (импорт/экспорт)
               href: data-entities/integration-overview.md
+            - name: Регулирование на основе приоритетов
+              hreF: data-entities/priority-based-throttling.md
             - name: API интеграции данных
               items:
                 - name: REST API пакета управления данными
@@ -152,6 +156,8 @@
                           items:
                             - name: Настройка сопоставления объектов и полей
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Изменение юридического лица после настройки двойной записи
+                              href: data-entities/dual-write/edit-legal-entity.md
                             - name: Управление ошибками и уведомления оповещения
                               href: data-entities/dual-write/errors-and-alerts.md
                             - name: Управление жизненным циклом приложений
