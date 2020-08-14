@@ -70,6 +70,8 @@
                   items:
                     - name: Что нового и что изменилось на домашней странице Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.13 (октябрь 2020 г.)
+                      href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (август 2020 г.)
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: "Finance 10.0.11 (июль 2020\_г.)"
@@ -107,23 +109,23 @@
             - name: Каталог учебных материалов
               items:
                 - name: Домашняя страница каталога учебных материалов
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: 'Лица, принимающие решения'
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-bdm.md
                 - name: Бизнес-пользователи
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Менеджеры проекта реализации
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Администраторы
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Разработчики
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Продажи и маркетинг партнера
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Функциональные консультанты
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Архитекторы решений
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Знакомство с пользовательским интерфейсом
               items:
                 - name: Элементы пользовательского интерфейса
@@ -846,6 +848,8 @@
                   href: accounts-payable/accounting-distributions.md
                 - name: Обработка распределений
                   href: general-ledger/process-allocations.md
+                - name: Условия распределения
+                  href: general-ledger/main-account-allocation-terms.md
                 - name: Финансовые аналитики
                   href: general-ledger/financial-dimensions.md
                 - name: Группы счетов консолидации и дополнительные счета консолидации
@@ -1118,10 +1122,12 @@
               items:
                 - name: Обзор главной книги в государственном секторе
                   href: public-sector/general-ledger-public-sector.md
-                - name: Расширенные операции ГК в государственном секторе
+                - name: Расширенные записи книги учета в государственном секторе
                   href: public-sector/advanced-ledger-entries-public-sector.md
-                - name: Создание расширенной записи ГК в государственном секторе
+                - name: Создание расширенной записи книги учета в государственном секторе
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: Пробный баланс с подробным отчетом по проводкам
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Использование лимитов управления кассой
                   href: public-sector/cash-control.md
                 - name: Обработка на конец года в государственном секторе
@@ -1146,6 +1152,8 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: Добавление типа сертификации к поставщику в государственном секторе
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
+            - name: Расчет канадского HST-налога
+              href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: Финансовая отчетность
           items:
             - name: Обзор финансовой отчетности
@@ -1846,6 +1854,8 @@
                           href: localizations/apac-ind-news-letter-10-0-10.md
                         - name: Что нового и что изменилось в версии 10.0.11
                           href: localizations/apac-ind-news-letter-10-0-11.md
+                        - name: Что нового и что изменилось в версии 10.0.12
+                          href: localizations/apac-ind-news-letter-10-0-12.md
                     - name: Эталонные группы GST Индии
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: Интеграция GST для контрольно-кассовых машин
@@ -2632,10 +2642,14 @@
                   href: localizations/emea-esp-promissory-note-options.md
                 - name: Отчет 340
                   href: localizations/emea-esp-report-340.md
+                - name: Отчет по декларации 347
+                  href: localizations/emea-esp-declaration-347-report.md
                 - name: Циклы продажи и покупки
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: Специальные записи и открывающие ведомости
                   href: localizations/emea-esp-opening-sheets-spain.md
+                - name: Немедленное предоставление информации по НДС
+                  href: localizations/emea-esp-sii.md
             - name: Швеция
               items:
                 - name: Обзор по Швеции
