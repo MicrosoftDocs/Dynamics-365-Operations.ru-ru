@@ -3,7 +3,7 @@ title: Включение проверки подлинности Azure Active D
 description: В этой теме объясняется, как настроить взаимодействие входа в систему для POS-терминала Microsoft Dynamics 365 Commerce, чтобы использовать проверку подлинности Azure Active Directory.
 author: boycezhu
 manager: annbe
-ms.date: 05/20/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: ccb2d62b09153d03b064d9661227f3499d67bca2
+ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410043"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3641041"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Включение проверки подлинности Azure Active Directory для входа в POS-терминал
 [!include [banner](includes/banner.md)]
@@ -63,6 +63,9 @@ ms.locfileid: "3410043"
 1. Выберите возвращенную учетную запись Azure AD, затем выберите **ОК**.
 
 Будут заполнены поля **Псевдоним**, **UPN** и **Внешний подкод** на вкладке **Commerce** на странице сведений о работнике.
+
+> [!NOTE]
+> После обновления записи работника, например, если связана новая учетная запись Azure AD, изменяется пароль или адресная книга сотрудника обновляется, рекомендуется использовать план распределения **1060** (**Персонал**), чтобы синхронизировать последние сведения о персонале с каналом. Таким образом, приложение POS может выбрать правильные данные для аутентификации пользователя и авторизации.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 

@@ -3,7 +3,7 @@ title: Удаление экземпляра
 description: В этой статье содержится пошаговое описание процесса удаления тестовой или производственной среды для Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17f299f81d1326dfb06c11a6125acc54b8ef2a6e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431207"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621388"
 ---
 # <a name="remove-an-instance"></a>Удаление экземпляра
 
@@ -67,8 +67,21 @@ ms.locfileid: "3431207"
 1. Обратитесь в службу поддержки, чтобы инициировать запрос на удаление.
 2. Группа поддержки инициирует запрос на удаление в группе Human Resources DevOps. 
 3. Продолжите после получения сообщения, что среда была удалена.
-4.  Выполните вход в LCS с помощью учетной записи, используемой для подписки на Human Resources. 
+4. Выполните вход в LCS с помощью учетной записи, используемой для подписки на Human Resources. 
 5. Выберите проект Human Resources, который содержит среду. 
 6. В проекте LCS выберите плитку **Управление приложением Human Resources**. 
 7. Выберите экземпляр, который вы хотите удалить, которой должен быть помечен статусом развертывания **Сбой**.
 8. Выберите **Удалить экземпляр** и подтвердите этот выбор. 
+
+## <a name="recover-a-soft-deleted-environment"></a>Восстановление среды с мягким удалением
+
+При удалении среды Power Apps, к которой подключена среда Human Resources, статус среды Human Resources в Lifecycle Services будет **мягко удален**. В этом случае пользователи не смогут подключаться к Human Resources.
+
+Чтобы восстановить среду:
+
+1. Следуйте указаниям раздела [Восстановление среды Power Apps](/power-platform/admin/recover-environment.md).
+
+2. Обратитесь в службу поддержки, чтобы восстановить среду Human Resources. Для получения дополнительных см. [Получение поддержки](hr-admin-troubleshooting-support.md).
+
+> [!Warning]
+> Среды Power Apps сохраняются только в течение семи дней после удаления. Среду следует восстанавливать в течение семи дней.

@@ -3,7 +3,7 @@ title: Удаленные или устаревшие функции в пред
 description: В этой теме описываются функции, которые были удалены или запланированы для удаления из Dynamics 365 for Finance and Operations и предыдущих выпусков этого продукта.
 author: sericks007
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: bccc9a0a2b0abfdeba248007cfdb2bd599e35f48
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500420"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645397"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Удаленные или устаревшие функции в предыдущих выпусках
 
@@ -62,7 +62,7 @@ ms.locfileid: "3500420"
 | **Заменена другой функцией?**   | Да |
 | **Затрагиваемые области продукта**         | Заявление |
 | **Вариант развертывания**              | Все |
-| **Состояние**                         | Устаревший: к 1 апреля 2020 разработчики должны использовать новый интерфейс API. |
+| **Состояние**                         | Устарело: с 1 апреля 2020 года разработчики должны использовать API платформы, находящиеся в классе **HasFunction**. |
 
 ### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(строка сообщения)
 
@@ -72,7 +72,7 @@ ms.locfileid: "3500420"
 | **Заменена другой функцией?**   | Да |
 | **Затрагиваемые области продукта**         | Платформа |
 | **Вариант развертывания**              | Все |
-| **Состояние**                         | Устаревший: к 1 апреля 2020 разработчики должны использовать новый интерфейс API. |
+| **Состояние**                         | Устарело: с 1 апреля 2020 года разработчики должны использовать API платформы, находящиеся в классе **HasFunction**. |
 
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()

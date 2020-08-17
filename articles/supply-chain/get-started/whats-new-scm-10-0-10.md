@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: fdf4464e5b6fc6f2f4b99dcac80eb199799bf13d
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: e9ca2d2cd018777b4c5c01fb10d63505af3940c4
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268778"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652115"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Что нового и что изменилось в Dynamics 365 Supply Chain Management 10.0.10 (май 2020 г.)
 
@@ -39,11 +39,11 @@ ms.locfileid: "3268778"
 Этот выпуск содержит следующие функции. Названия функций связаны с дополнительной информацией на сайте [Планы выпуска](https://docs.microsoft.com/dynamics365/release-plans/). Дополнительные ссылки указывают на дополнительную документацию или видеозаписи, доступные в данный момент для этой функции. Большая часть этих функций должна быть включена с помощью [Управления функциями](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), прежде чем их можно будет использовать.
 
 - [Улучшение использования существующих маркеров учета в двух единицах измерения с помощью управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
-- [Улучшения управления входящими загрузками для управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) — дополнительные сведения см. в разделе [Складская обработка входящих загрузок для заказов на покупку](../warehousing/inbound-load-handling.md).
-- [Усовершенствования печати этикеток для управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management) — для получения дополнительных сведений см. раздел [Макет маршрутизации документов для наклеек грузомест](../warehousing/document-routing-layout-for-license-plates.md).
+- [Улучшения управления входящими загрузками для управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Дополнительные сведения см. в разделе [Складская обработка входящих загрузок для заказов на покупку](../warehousing/inbound-load-handling.md).
+- [Усовершенствования печати этикеток для управления складом](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Дополнительные сведения см. в разделе [Макет маршрутизации документов для наклеек грузомест](../warehousing/document-routing-layout-for-license-plates.md).
 - [Сводное планирование включает номенклатуры с запасами в наличии, когда включены фильтры предварительной обработки](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [Новые информационные объекты для области производства](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Управление качеством для складских процессов](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes) — дополнительные сведения см. в разделе [Управление качеством для складских процессов](../inventory/quality-management-for-warehouses-processes.md).
+- [Управление качеством для складских процессов](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Подробнее см. в разделе [Управление качеством для складских процессов](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
